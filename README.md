@@ -24,4 +24,16 @@ Week 6-9: continue improving model and pivoting as necessary until results are a
 Week 10: Clean up, comment, and optimize code; throw together react to demonstrate results on real graph (optional)
 
 # MODELS:
-
+LIWC
+Regression Models (Linear, Logistic)
+SVM
+Vectorize & Cluster
+Vectorize w/ Bigrams & Cluster
+RNN
+LSTM
+GRU
+Transformer
+1D CNN
+Bi-Directional
+Attention
+BERT
