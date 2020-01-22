@@ -6,12 +6,12 @@ from os import listdir
 # use users who post on sad subreddits' text to classify as depressed
 subs, users = set(), set()
 
-subs.add('depression')
-# with open('subreddits.txt', 'r') as txt:
-#     for line in txt:
-#         if line[0] != '*' and 'r/' in line:
-#             sub = line.split('r/')[1].strip()
-#             subs.add(sub)
+# subs.add('depression')
+with open('subreddits.txt', 'r') as txt:
+    for line in txt:
+        if line[0] != '*' and 'r/' in line:
+            sub = line.split('r/')[1].strip()
+            subs.add(sub)
 print(subs)
 
 r = praw.Reddit(username = "WebsterBot",
@@ -23,21 +23,27 @@ r = praw.Reddit(username = "WebsterBot",
 def commentData(c):
     return (c.subreddit.display_name, c.id, c.parent_id, c.created_utc, c.body)
 
-for sub in subs:
-    print(sub)
-    for p in r.subreddit(sub).top(time_filter='day'): # CHANGE: year?
-        if p.score > 100 and p.author:
-            users.add(p.author)
-            for c in p.comments:
-                if isinstance(c, praw.models.Comment) and c.author and c.score > 0:
-                    users.add(c.author)
-                    if len(c.replies) > 0:
-                        for child in c.replies.list():
-                            if isinstance(child, praw.models.Comment) and child.author and child.score > 0:
-                                users.add(child.author)
+# for sub in subs:
+#     print(sub)
+#     writer = csv.writer(open('./userList.csv', 'w'))
+#     for user in users:
+#     	writer.writerow(user.name)
+#     for p in r.subreddit(sub).top(time_filter='month'): # CHANGE: year?
+#         if p.score > 100 and p.author:
+#             users.add(p.author)
+#             for c in p.comments:
+#                 if isinstance(c, praw.models.Comment) and c.author and c.score > 0:
+#                     users.add(c.author)
+#                     if len(c.replies) > 0:
+#                         for child in c.replies.list():
+#                             if isinstance(child, praw.models.Comment) and child.author and child.score > 0:
+#                                 users.add(child.author)
     # print(users) # users who've commented on sub in past day
 
 # users = [praw.models.Redditor(reddit=r, name='imhereforthepuppies')] # CHANGE: remove
+with open('./userList.csv', 'r') as userList:
+	for u in userList:
+		users.add(praw.models.Redditor(reddit=r, name=u.replace(',', '').strip() ))
 
 print(users)
 
@@ -57,7 +63,7 @@ for user in users:
                     count[comment.subreddit.display_name] = count[comment.subreddit.display_name] + 1  
                 else: 
                     count[comment.subreddit.display_name] = 1
-        print(count)
+        # print(count)
         if any(True if ct >= 3 else False for ct in count.values()):
             writer = csv.writer(open('./users/%s.csv' % user.name, 'w'))
             writer.writerow(('subreddit', 'self ID', 'parent ID', 'time', 'text'))
