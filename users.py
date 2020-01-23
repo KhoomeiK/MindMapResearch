@@ -53,20 +53,23 @@ for user in users:
         count = {}
         saved = []
         comments = user.comments.new()
-        for comment in comments:
-            print(comment.subreddit.display_name, comment.created_utc)
-            saved.append(comment)
-            if time.time() - comment.created_utc > 2592000: # past 30 days
-                break
-            if comment.subreddit.display_name in subs:
-                if comment.subreddit.display_name in count:
-                    count[comment.subreddit.display_name] = count[comment.subreddit.display_name] + 1  
-                else: 
-                    count[comment.subreddit.display_name] = 1
-        # print(count)
-        if any(True if ct >= 3 else False for ct in count.values()):
-            writer = csv.writer(open('./users/%s.csv' % user.name, 'w'))
-            writer.writerow(('subreddit', 'self ID', 'parent ID', 'time', 'text'))
-            for comment in saved:
-                # print(commentData(comment))
-                writer.writerow(commentData(comment))
+        try:
+	        for comment in comments:
+	            # print(comment.subreddit.display_name, comment.created_utc)
+	            saved.append(comment)
+	            if time.time() - comment.created_utc > 2592000: # past 30 days
+	                break
+	            if comment.subreddit.display_name in subs:
+	                if comment.subreddit.display_name in count:
+	                    count[comment.subreddit.display_name] = count[comment.subreddit.display_name] + 1  
+	                else: 
+	                    count[comment.subreddit.display_name] = 1
+        	# print(count)
+	        if any(True if ct >= 3 else False for ct in count.values()):
+	            writer = csv.writer(open('./users/%s.csv' % user.name, 'w'))
+	            writer.writerow(('subreddit', 'self ID', 'parent ID', 'time', 'text'))
+	            for comment in saved:
+	                # print(commentData(comment))
+	                writer.writerow(commentData(comment))
+        except:
+        	continue

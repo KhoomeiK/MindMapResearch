@@ -1,0 +1,382 @@
+subreddit,self ID,parent ID,time,text
+newzealand,ffasp7p,t1_ffarms1,1579743596.0,"* AS Colour T-shirt 
+* (most likely) Screen printed by a New Zealand business or at home by a New Zealander
+* Also not just any kiwi, it's Laser Kiwi, the best meme flag the referendum gave us"
+newzealand,ffadmiw,t1_ffa9q7x,1579733082.0,"Rules, laws, and policies aren't real if they aren't enforced.
+
+See:
+
+* Smoking in Playgrounds
+* Red light running
+* Using hazard lights as park anywhere lights
+* Biking the wrong way in a bike lane"
+newzealand,ff8m0ej,t1_ff8lutg,1579685131.0,">It’s unclear what caused her death and I am keeping her on the list until it becomes clear.
+
+Charlie Montague basically has a list of dead women on Medium.com"
+newzealand,ff7vkuv,t3_es53xa,1579659391.0,"The best you can do is this:
+
+If Jack says to ""Tell them you did it at home"", then you file for ACC and claim you did it at work.
+
+Then if someone pushes back just say ""Jack told me to say I did it at work"", if Jack's supervisor hears this then the heat is on Jack, not you.
+
+Unless you have a paper trail."
+oneanddone,ff7o5cb,t3_es2qqf,1579654239.0,"People who assume siblings are good for each other are fucking sheltered.
+
+My wife has a brother (2 years older). He's been in and out of jail and rehab for the last 10 years.
+
+He has assaulted my wife multiple times, stolen from us, threatened my wife and I with death threats, also threatened our cats and house. I took a week off for stress leave and slept with a hockey stick for months.
+
+His son (9), that he never sees nor supports in any way, got no Christmas gifts from him or even the mum this year.
+
+So now my wife and I have 1 kid (3) during the week then we add the nephew in the weekends because it's obvious that he doesn't have a parent on this earthly plane. We recently taught him to tell time.
+
+The brother is a fucking deadbeat, and not a tear of sadness will be shed over his dead body when that time comes, from me at least. He is pure scum."
+newzealand,ff7czth,t3_es1i3b,1579646697.0,"How horrible. The way that it is 'reported' sounds like the news outlets aren't convinced or have proof.
+
+&#x200B;
+
+>Stuff understands a girl lost both hands in the crash and a woman lost one hand.
+
+or
+
+>The Otago Daily Times understands a girl lost both hands in the crash and a woman lost one hand.
+
+[https://www.odt.co.nz/regions/queenstown/driver-charged-after-pair-lose-limbs-horror-bus-crash](https://www.odt.co.nz/regions/queenstown/driver-charged-after-pair-lose-limbs-horror-bus-crash)"
+newzealand,ff4jh4z,t3_erm04e,1579565089.0,"There are 8 other vendors for hardware, it's not like we are solely dependent on Huawei/CCP for our 5G network capabilities."
+newzealand,ff42fkc,t3_erfvq7,1579554075.0,"[https://about.ubereats.com/en/gift-cards/](https://about.ubereats.com/en/gift-cards/)
+
+[https://www.goodnest.co.nz/vouchers/](https://www.goodnest.co.nz/vouchers/)"
+newzealand,ff2633w,t1_ff25wbr,1579494843.0,"True, and it also has the best gaming experience.
+
+Nothing better than PUBG on a 5inch screen."
+Rainbow6,ff25xre,t1_feyvwrq,1579494722.0,"The bigger issue is a drone can sit and scan site constantly on the outside of the glass, once a plant is on that room is a death sentence.
+
+In plane cockpit you can't scan with a drone on the outside of the window."
+newzealand,ff1ckoi,t1_ff1aacd,1579477511.0,"Nah, we hear their names, then they go under punished for the crime: [https://www.stuff.co.nz/sport/rugby/85987282/rugby-player-losi-filipo-to-be-sentenced-by-high-court-today](https://www.stuff.co.nz/sport/rugby/85987282/rugby-player-losi-filipo-to-be-sentenced-by-high-court-today)
+
+&#x200B;
+
+>The judge took a starting point of two years' jail and discounted for Filipo's guilty plea, his youth, lack of previous convictions and the efforts he made after the incident with counselling, saving to pay reparation, doing community work and offering to apologise."
+newzealand,ff12eaz,t1_ff11iro,1579474548.0,"I was salty about the dis on using Windows in 2020.
+
+Linux isn't the go to OS for most."
+newzealand,ff0ycwq,t1_ff0okx9,1579473462.0,"Well I can't run Rainbow 6 Siege on Linux.
+
+Although other games work quite well, like BF5, here are the install notes:
+
+[https://www.reddit.com/r/Battlefield/comments/9x9f79/psa\_bf5\_works\_great\_in\_linux/ebzudsd/](https://www.reddit.com/r/Battlefield/comments/9x9f79/psa_bf5_works_great_in_linux/ebzudsd/)
+
+ 
+
+This is with WINE - 3.21-protonified-tkg DXVK - 0.94 ESYNC on with nofile limit corrected and feral gamemode.
+
+Its  worth noting im on a Nvidia GTX 1080 so my environmental variables have  some nvidia specific things, you should change these for AMD.
+
+Of  course with my compositor off as well (For me on KDE thats  Alt+Shift+f12). But lutris should usually notice when its a fullscreen  app and turn it off for you. With origin running first that doesnt  always work so its good to know how to manually turn off your compositor  if you use one. Here are my steps
+
+1. (prerequisites)  make sure you have wine and dxvk on your computer. Also with esync  nofile limit (changed) and Feral gamemode. Then glorius eggrolls get out  of wine dependency hell. This is kind of a catch-all for any Microsoft  fonts or issues.
+2. Install  the lutris script for BF5, let it install origin. When the window pops  up close (it may do this on it's own Give it a minute) it and let the  installer finish.
+3. Right  click on the BF5 game on lutris and hit configure. head over to the  runner options tab. Set wine version to (current as of time of posting)  3.21 protonified tkg - to get this click lutris and manage runners, go  to wine and download latest tkg. enable DXVK and set to current highest  (0.94 for me) enable esync. I turn off the virtual desktop and let it  run fullscreen. Thats preference.
+4. Now  go to the system options tab. enable feral gamemode and I have monitor  one on my Fullscreen SDL game to display (I found this helps with proper  resolution when game starts). In environmental variables I have:  DXVK\_HUD = devinfo,version,fps DXVK\_STATE\_CACHE\_PATH =  /home/grixin/Games/battlefield-v WINEESYNC = 1 \_\_GL\_SHADER\_DISK\_CACHE = 1  \_\_GL\_SHADER\_DISK\_CACHE\_PATH =  /home/grixin/Games/battlefield-v/bfv-shaders  \_\_GL\_SHADER\_DISK\_CACHE\_SKIP\_CLEANUP = True \_\_GL\_THREADED\_OPTIMIZATIONS =  1
+
+This should finish up  the settings. You can turn on origin and install the game. If it stops  part way through just start the download again until it finishes. It  might stop on you a few times. After this is complete disable origin in  game and have fun!
+
+Now for a few gotchas or workarounds:
+
+1. If  this origin screen is white when you log in this means your origin is  out of date. There is a script in lutris for this. You can click the  stop button on your lutris to kill all the processes for origin. then  right click on the game banner and hit execute script. Wait a few  minutes (the script will update your origin in the background) there  will be no confirmation its running. When you log back in this should be  fixed.
+2. If  there is a game update and you can not download the update (the game  says update available). You can turn off DXVK and this should allow you  to install the update. Afterwards you can kill the origin processes with  stop on lutris and turn DXVK and go back to fragging.
+3. Battlefield  games like to start in a small windows when loading then take over the  screen, you should all know what that looks like. Sometimes when it goes  fullscreen it will not show the proper resolution. Like it forgot to  click over from the really small one. The fullscreen SDL game to display  really helped me with that one. If this happens you may need to use  your arrow keys and space bar to exit game and try again. Its a weird  sometimes it happens most times it doesnt kind of thing. The protonified  version of wine should help with this too.
+
+I really hope this helps others and if anything needs to be change or clarified let me know and I will edit the post."
+newzealand,ff0ubmh,t1_ff0pniy,1579472385.0,"Normal Windows 10 has device encryption on most hardwares.
+
+BitLocker is a Win 10 Pro thing only.
+
+https://www.howtogeek.com/234826/how-to-enable-full-disk-encryption-on-windows-10/"
+newzealand,ff0li82,t3_eqy0x9,1579469995.0,"Police were at the neighbours house twice yesterday and about the 4th time for the week.
+
+I assume the Police will continue to show up until someone in that house moves out or someone dies."
+chch,few9k14,t1_few83aj,1579407180.0,"My issue is it being the only state primary I'm zoned for.
+
+My wife is an early childhood teacher in the area and has families with their older kids in Shirley Primary and there are just too many shit stories.
+
+My personal fave was a kid was in a toilet cubicle and another kid crawled under the Gap and tried to strangle the other kid. The parent only found out after her kid brought it up upon getting home, the teachers knew about this before end of day and didn't tell the parent."
+chch,few6a35,t1_few1ph4,1579405882.0,"Try being zoned for Shirley School.
+
+Basically we will ballot for every other school in the area.
+
+Religious schools and their lack of zones are quite appealing (not first choice appealing) when your current option is dogshit."
+newzealand,feqtic6,t3_eqf5xb,1579345847.0,https://www.reddit.com/r/newzealand/wiki/index#wiki_moving_to_or_working_in_nz
+DIY,fenwprn,t1_fenlepx,1579292013.0,Well this is r/DIY not r/UseToolsAsIntendedWhileStrictlyFollowingProfessionalBestPractice
+newzealand,fekxvnc,t3_epph8h,1579209866.0,[Be proactive](https://MdlO7NG)
+newzealand,feidb4p,t1_feibhcs,1579135836.0,Your comment is hearsay at best.
+newzealand,fei6smh,t1_fei63m4,1579131553.0,"It is not https://www.nzherald.co.nz/rotorua-daily-post/news/article.cfm?c_id=1503438&objectid=10942970
+
+Mountain Action was run on dirt tracks."
+newzealand,fehwiqw,t1_feht96m,1579125266.0,*citation needed
+newzealand,fehujf6,t1_fehu1ur,1579124143.0,"Consequences to actions.
+
+Since 2014 student loan defaulters leaving the country could have arrest warrants out for them. Arrests are the last resort, so obviously this person wasn't coming to the table to sort it.
+
+They knew the risks."
+newzealand,fehpieo,t3_ep43xz,1579121285.0,"Moving to NZ posts are getting pretty common. 
+
+Can we have a flair for them? Then when flaired, the Automod can send them to [https://www.reddit.com/r/newzealand/wiki/index#wiki\_moving\_to\_or\_working\_in\_nz](https://www.reddit.com/r/newzealand/wiki/index#wiki_moving_to_or_working_in_nz)
+
+The wiki isn't easy to find in New Reddit."
+newzealand,fef37l8,t3_eotlyr,1579047114.0," If you want to kill someone, use a car. 3 months imprisonment for careless driving causing death. Reckless driving causing death is 1 year.
+
+If we think it is too harsh to punish people for simple mistake then we need to make a system of licensing, education, and infrastructure that does not allow mistakes to be easily made.
+
+If we think it is not harsh enough, then bump 3 months to 5 years or something."
+MedicalGore,fef1srv,t1_feeg5yk,1579046168.0,"My GP and Ortho doc both recommended when I dislocate my patella that, if there is no open fracture identified, I try ONCE to put it back in.
+
+This ends up with less pain for me as it is back in sooner rather than later. Then depending on which knee I'll drive to ED to get it checked out."
+worldnews,feeg7q3,t1_fedzvtp,1579033111.0,"> New Zealand
+
+https://www.newshub.co.nz/home/politics/2020/01/spy-within-five-eyes-describes-nz-s-political-system-as-compromised-by-chinese-influence.html"
+newzealand,feefqzr,t3_eoqpjb,1579032840.0,Buses in New Zealand are not having a great time.
+newzealand,feeduzs,t1_fee9u5y,1579031723.0,"They sure did - https://www.health.govt.nz/new-zealand-health-system/pay-equity-settlements/care-and-support-workers-pay-equity-settlement/pay-equity-settlement-information-employees
+
+Knuckling down and getting L4 quals probably contributes to OP's current pay more than age, but OP doesn't have much room to move up within the HCA realm."
+explainlikeimfive,fecp90o,t1_fecdi0t,1578979778.0,"Vaseline is great for toys that have moving parts.
+
+* Cheap scooter with no wheel bearings.
+* Elevator in dollhouse
+* Swing set with plastic bushings"
+newzealand,fecg0ay,t1_fecez7q,1578973016.0,"> except weird stuff. 
+
+Apricots should be on now, which aren't weird thanks, fruit processors should be doing their yearly runs in the next few weeks."
+newzealand,fec9nkr,t1_fec97fp,1578969130.0,"That is completely up to them to offer cancellations - [nothing in the law.](https://www.consumerprotection.govt.nz/general-help/common-consumer-issues/change-of-mind/)
+
+Most likely that they implement this feature to get people to buy. A bit like how hotels and airlines will charge more for a better cancellation or rebooking policy."
+newzealand,fec93ng,t1_fec83o7,1578968826.0,>I have poor impulse control and then mum yelled at me for buying headphones
+newzealand,feaugez,t3_eoawnr,1578952261.0,PC gone mad if a group of 9 year olds with their older friends/siblings can't play in a public place expressing themselves without being told off. /s
+newzealand,feastww,t3_eoar83,1578951900.0,You don't happen to have a work VPN you could use?
+memes,fealng8,t1_fe9krri,1578950141.0,https://en.wikipedia.org/wiki/Emu_War
+newzealand,fe68sjb,t1_fe67qw5,1578884290.0,"> Assistant in Nursing
+
+Sounds like what we call Healthcare Assistant (HCA)
+
+Both work under the direction of a registered Healthcare Professional."
+newzealand,fe5sk4l,t1_fe5rb2k,1578874010.0,"The dude that sells spiral potatoes out of a food truck at the Margaret Mahy playground has paywave.
+
+Bloody QE2 doesn't, which means if I don't have cash, I need to take in a card when swimming which is just one extra thing to be stolen or get lost."
+australia,fe5i51r,t1_fe0saiw,1578869753.0,Being made fun of in r/creepyasterisks
+newzealand,fe54zim,t1_fe4rkng,1578865717.0,"Paua Rangers and Koalas in NZ - some good petitions that needed more traction but didn't get it. All thanks to other current events overshadowing them such as climate change, some fires, and WWIII."
+newzealand,fe0maai,t3_en4zlg,1578815978.0,"To be pedantic, a blood moon isn't just any old red moon."
+todayilearned,fdyr1ln,t1_fdyovk0,1578782723.0,"Then the phrase ""not at all"" should not be in your statement then."
+todayilearned,fdxnymn,t1_fdw7tgp,1578771066.0,"Nah man, the breastfeeding debate is a great way for other people to feel superior to others because they breastfed or even breastfed for longer.
+
+Science be damned."
+todayilearned,fdxn5pg,t1_fdvcoa1,1578770864.0,"> This HMO thing is why formula/powdered milk for the infant is not the best, not at all, despite what many people believe.
+  
+Yeah that's gonna be a nah from me dog.
+
+My daughter was allergic to Human breast milk, among a long list of other things in the beginning. Breast was dropped after 6 months of WTF is going on and we immediately saw improvements in behavior, weight, sleep, poo, and urine output.
+
+Breast is not the be all and end all, and parents and infants shouldn't suffer for months due to wanting to stick to breast thanks to pressures from HCPs and FB mum's."
+newzealand,fdpa60i,t1_fdp9uy8,1578623583.0,"Went through a Picklenaise in a week and a bit. A nice break from aioli, which I am getting tired of."
+newzealand,fdp9jsg,t1_fdp9duq,1578623173.0,Culley's and Barkers of Geraldine are the only sauces I care for.
+australia,fdp73bi,t1_fdoy585,1578621531.0,"Well there are several options:
+
+1. less immigration
+2. force a family size limit
+3. make Australia less appealing to live in
+4. conscript a generation and send them to die in someone else's war
+5. make fertility treatments prohibitively expensive
+6. more same sex couples if option 5 is implemented
+
+The current government is working feverishly on option 3."
+todayilearned,fdonjpy,t1_fdogc1y,1578608787.0,"Whoa buddy, I hope to be unlocking the 200th operator in Rainbow 6 Siege in 2040."
+AskReddit,fdojtkt,t3_embv3x,1578606589.0,Bubbles - Bidibodi Bidibu
+Rainbow6,fdmlwoa,t3_em5wbb,1578554931.0,"I'm a casual only player and I'm sick of the toxic players that like to shit on my higher level vs lower skill.
+
+I don't play ranked and I don't scrim so I don't know all the best ways to play a retake."
+AskMen,fdm84vl,t1_fdlo95b,1578542162.0,"I would have 100% interpreted it as a joke if I received that message.
+
+I have to remember to leave my sarcasm at home as I deal with people at work who don't know what banter is.
+
+I did get reported for banter once and now work is cripplingly boring."
+newzealand,fdm4r3n,t1_fdlukpp,1578539764.0,"Could you consider https://www.wildlifevictoria.org.au/ instead? WIRES is getting a lot more money and they can't legally use out of state to help.
+
+https://www.reddit.com/r/australia/comments/elzqwp/wires_can_only_legally_help_animals_in_nsw_other/
+
+https://www.heraldsun.com.au/news/victoria/celebrities-help-nsw-appeal-but-victorian-animals-are-also-in-need/news-story/2a246de2f406b6841c5ea4f85e6800ad"
+australia,fdlzcx2,t3_em2gzd,1578536118.0,"Ideally it should exist as both app and website.
+
+It is annoying at how different the ""emergency"" websites are:
+
+Despite NSW having the same URL 'format' as WA and VIC their website is completely different - where the same URL format should produce similar looks.
+
+NSW: [https://www.emergency.nsw.gov.au/](https://www.emergency.nsw.gov.au/)
+
+WA: [https://www.emergency.wa.gov.au/](https://www.emergency.wa.gov.au/)
+
+VIC: [https://www.emergency.vic.gov.au/respond/](https://www.emergency.vic.gov.au/respond/)
+
+QLD: [https://www.qld.gov.au/emergency](https://www.qld.gov.au/emergency)
+
+ACT: [https://esa.act.gov.au/](https://esa.act.gov.au/)
+
+SA: [https://www.alert.sa.gov.au/](https://www.alert.sa.gov.au/)
+
+NT: Google gives [https://nt.gov.au/emergency](https://nt.gov.au/emergency) as the top result but most often within that website there are links to [https://securent.nt.gov.au/](https://securent.nt.gov.au/) which I think is better."
+newzealand,fdlj5sq,t3_em0hmq,1578525179.0,"> The property manager accepted no heating was provided and suggested that a powerpoint was an approved form of heating. 
+
+&#x200B;
+
+FUCK RIGHT OFF"
+newzealand,fdli496,t3_elzqak,1578524513.0,"Not a great thing to happen, but does someone really need to write an ""article"" about it happening to a person?
+
+&#x200B;
+
+Where are the ""articles"" for:
+
+* 200Kg armrest hoggers 
+* Those who think that showers are monthly
+* playing mobile games with no headphones"
+news,fdlgfwy,t1_fdkeehb,1578523483.0,"> spell out numbers less than and including one hundred.
+
+Or
+
+> Spell out numbers less than 101
+
+FTFY."
+newzealand,fdlfgwa,t3_elouxc,1578522884.0,"1853, what a year for the family name."
+newzealand,fdkzube,t1_fdk1e22,1578514536.0,"Northbound Madras right turn onto Bealey vs Southbound Madras left turn onto Bealey.
+
+It's bad, but used to be far worse thanks to the 2 Northbound right turn lanes of the past."
+newzealand,fdcj7n9,t3_ekmvq3,1578276237.0,Publishers never saw a value proposition for accessible versions of many books and now that a way to do that is in the hands of others they now care about publishing accessible books?
+australia,fdby8p7,t1_fd9wgqj,1578263730.0,"https://smartairfilters.com/en/blog/how-to-make-diy-air-purifier/
+
+https://tombuildsstuff.blogspot.com/2013/06/better-box-fan-air-purifier.html"
+pcmasterrace,fdbouaz,t1_fdbgn17,1578259601.0,"He wasn't sick from school, it was the weekend, his mum was out with friends and we like having him.
+
+He could have done a number of things:
+
+* read a book
+* participate in play with his cousin
+* help bake
+* scooter in the yard/driveway
+* skateboard in the yard/driveway
+* kick a soccer ball around
+* play with Lego
+* nap
+* draw
+* play with arts and crafts
+* listen to music
+
+He just wanted to play Fortnite at home - we disagree with a 8 year old playing it so it doesn't happen at our house."
+pcmasterrace,fd8dod7,t1_fd89njf,1578217184.0,"Exactly this. My nephew will say he doesn't feel well so he can go home because his mum will let him play video games with no limits.
+
+We tell him he can't go home and next minute he's happily on his scooter."
+newzealand,fd8a2oc,t3_ekafcn,1578215737.0,RNZ says firearm and threat to kill related: https://www.rnz.co.nz/news/national/406727/police-respond-to-serious-incident-in-christchurch
+pcmasterrace,fd5nzag,t1_fd37kdc,1578179527.0,What Mobo did you get?
+Rainbow6,fcysbzx,t3_eji3s7,1578086028.0,"Can't be disappointed if you don't play ranked.
+
+\*Taps head*"
+newzealand,fcw9edj,t1_fcw8uzb,1578020171.0,"Yeah, this does not make him look great: https://www.reddit.com/r/australia/comments/eiwd3y/welcome_to_the_real_world_scomo/"
+Rainbow6,fcvxzbu,t1_fcvxd38,1578012656.0,"Casual has it's own MMR. 
+
+Which means Ranked Plats and Champs can easily appear in casual when you're bronze or silver."
+newzealand,fcvr2ui,t1_fcvnj10,1578008185.0,"People like convenience and luxury as it is readily available - some climate policies might take that away.
+
+Once you give something to someone, it's pretty fucking hard to take it away - sounds oppressive"
+newzealand,fcvmp7k,t1_fcvknzk,1578005409.0,"Which is BT-48 away from a BT-50 - AKA ""Ranger Lite"""
+newzealand,fcvlrji,t3_ej00e4,1578004828.0,"My nephew is pulling some serious hours on the Nintendo. Off to get him some books to provide variety in his life.
+
+The person who gave birth to him isn't fazed, probably pulling the same hours on her phone.
+
+I'll try to get him to the skate park this afternoon if work dies down."
+pics,fcsrexq,t1_fcspy23,1577923203.0,"Nah, not every time, check out NZ. 
+
+https://en.m.wikipedia.org/wiki/New_Zealand_nuclear-free_zone
+
+It has negatvely impacted the possibility of nuclear energy being implemented in NZ."
+AskReddit,fcl8l6f,t1_fckgy78,1577742155.0,Implying I go to the supermarket without a Refractometer in my pocket.
+Parenting,fcjt6vk,t1_fchvojp,1577703464.0,"The internal door to our garage has a lock on it for your safety. 
+
+It's not to keep people out, it's to keep whatever is behind the door in.
+
+* My bike
+* Daughter's bike #1
+* Daughter's bike #2
+* Daughter's bike #3
+* 3ft unicorn plush
+* bouncy castle
+* Water slide
+* Inflatable water playground
+* Cat ashes
+* Extra kitchen shelves
+* Old toy box
+* Esky #1
+* Esky #2
+* Camp chairs x3
+* Books
+* Half my wife's wardrobe, clean, in 5 hampers
+* boxes, just empty boxes that we can't bring ourselves to throw away
+* Toy train table with toolbox tipped onto it
+* Decorative pillows, like 8 of them.
+* Misc
+* Dirty laundry, not in hampers as there are none free
+* 4 buckets of various clothes being soaked.
+* Offcuts of basically anything
+
+This was after we took out a lot of junk and dumped it into a 9m³ skip."
+newzealand,fcjrjec,t1_fcjkwat,1577701041.0,"The toddler pool (102 closures) I can get, but the teach pool (81 closures)?! It is not often used by toddlers (I think 800-1000mm deep on the shallow end); it is the closest to the locker rooms / entry.
+
+It's odd that the article starts with poo closure total but each pool gets the total closures (poo and vomit). I'd like to see the poo/vomit split on each pool."
+Parenting,fcjm2vz,t1_fcgdyxq,1577693321.0,"My wife has a brother. He's been in and out of jail and rehab for the last 10 years.
+
+He has assaulted my wife multiple times, threatened my wife and I with death threats, also threatened our cats and house. I took a week off for stress leave and slept with a hockey stick for months. 
+
+His son (9), that he never sees nor supports in any way, got no Christmas gifts from him or even the mum this year.
+
+So now my wife and I have 1 kid (3) during the week then we add the nephew in the weekends because it's obvious that he doesn't have a parent in the household. We recently taught him to tell time.
+
+Fucking deadbeat, and not a tear of sadness will be shed over his dead body when that time comes, from me at least. He is pure scum.
+
+My brother on the other hand, at worst, was just a super narcissist from 16-24, now at 26 he way more empathetic and will actually compromise on things. He once didn't come out for Christmas because there was no Vegemite to put on toast for breakfast.
+
+Siblings is a mixed bag yo."
+chch,fciyovb,t1_fcir6cl,1577673003.0,"No, but plausible deniability is key here.
+
+Take it out with a net, hose, string, ball, anything really except a air rifle or firearm - all while wearing non-descript clothes and a hat.
+
+Now with the drone disabled in your property you have some options:
+
+NOTE: remove the drone's battery out of view of it's camera before handling it.
+
+1. leave it and claim and if asked about a drone in your backyard - you DIDN'T notice it
+2. Take it inside and wait to see if someone comes for it and say you found it crashed in your yard
+3. Throw it in the trash behind a Pizza hut or something."
+GalaxyWatch,fc76pcn,t1_fc6smpj,1577499000.0,"Not OP, but how independent are the LTE models when you leave your phone at home? Assuming my phone is an S9.
+
+What notifications will I lose?
+
+Also given the watch has a different number than the phone."
+newzealand,fc6xbi1,t1_fc6rt2n,1577491899.0,"This is the 2nd time in 14 months that I've noticed this being out of service.
+
+I'm hoping the next remediation lasts longer."
+newzealand,fc6fsf4,t1_fc6epgj,1577479544.0,"My nephew asked if they removed the flying fox because of the hazard. I said no, as it would have been easier to remove the hazard over the pulley. Then I almost took that back as it wouldn't be out of the realm of possibility. Not my job type situation."
+newzealand,fc4ee04,t1_fc492ab,1577414248.0,"In NZ, the judge, the prosecution, and the defense can all agree on ""not guilty by reason of insanity"" and the case will not go to trial, or it does go to trial they can still be found not guilty by reason of insanity.
+
+Once that verdict is given the person in question will then spend an indeterminate amount of time in a mental health facility (Most likely a forensic ward on a DHB campus) until they are no longer a danger to others or themselves. 
+
+This verdict does not mean they are free to go out onto the street just like that."
+newzealand,fc456fi,t1_fc40u5q,1577406921.0,"OP really took some liberties with the title. the word ""guilty"" doesn't appear in the article linked, the term ""criminal responsibility"" does though.
+
+You also see in the [Independent's article](https://www.independent.co.uk/news/world/europe/france-jewish-woman-antisemitic-attack-cannabis-high-sarah-halimi-kobili-traore-paris-a9006631.html) the term ""criminally responsible"" used.
+
+From [Science Direct](https://www.sciencedirect.com/topics/computer-science/criminal-responsibility):
+
+>Criminal responsibility, also known as the insanity defense, refers to the time of the alleged offense and more specifically asks the question whether the defendant had the mental capacity to distinguish between right and wrong at the time of the alleged offense and could control his or her conduct accordingly."
+newzealand,fc42tnw,t3_eg2xhd,1577405153.0,"> Please note that there some exceptions, and that we can only accept listings for items we ourselves stock. 
+
+[https://help.mightyape.co.nz/hc/en-nz/articles/115011960807-About-the-Marketplace](https://help.mightyape.co.nz/hc/en-nz/articles/115011960807-About-the-Marketplace)"
+newzealand,fc3wnpq,t1_fc3vvxw,1577400541.0,"Or just looking out for tailgaters, fucking easy coin there."
+newzealand,fc3o500,t1_fc3nn0m,1577394404.0,"I wonder how the distinction between taking a corner too fast and losing control on a corner is made. I would expect to lose control on a corner you might be speeding, or even not paying attention while under the speed limit."
+newzealand,fbw5qx0,t3_eeryy8,1577141586.0,"> The Otago Daily Times understands the python was decapitated with a shovel. 
+
+Also I'm here to see someone make a movie related quote."

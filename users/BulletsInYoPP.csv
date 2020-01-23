@@ -1,0 +1,87 @@
+subreddit,self ID,parent ID,time,text
+homelab,ff35nf8,t1_ff35mbz,1579534258.0,+1
+homelab,ff35l99,t1_ff35ggs,1579534218.0,That's what I thought. My mind just got messed up 🙃
+homelab,ff35j45,t1_ff35h2r,1579534178.0,Oh yeah right ! I just didn't think that throught 😅
+homelab,ff31cem,t1_ff2yvvo,1579531062.0,Cool ! might do that myself then :)
+homelab,ff2yp0h,t3_erctdk,1579528843.0,won't going vertical mess with the hard drives ?
+facepalm,fen0tva,t3_epzr6b,1579274439.0,oldest country ?
+facepalm,fen07d3,t3_epwmlf,1579274025.0,"If you are being raped, just say no. Your local rapist acnnot legally rape you without your consent"
+assholedesign,femxam4,t1_fe4ra5e,1579272019.0,why does it affect France too ? We're in the EU which has its own set of dumb rules don't give us more shit
+vmware,femfb47,t1_femf7k9,1579252504.0,Yes I did thank you for the help
+vmware,femeq61,t1_femekli,1579251647.0,"I'm using the vsphere client (there does not seem to be a web client)
+
+
+edit : I found it ! My system is in French so it was not obvious at first. Thank you !"
+vmware,femefls,t1_feme1nu,1579251223.0,"Yeah this is a homelab.
+
+I cant find any options to do that though"
+vmware,femdxjb,t1_femdvsr,1579250513.0,I don't see an option for that
+homelab,femd621,t3_eplhso,1579249451.0,He's so cute  **😍**
+IdiotsInCars,femd1qo,t3_epqa24,1579249287.0,I legit thought it was meant to sound german
+vmware,fem90ce,t1_felpxmm,1579244197.0,"I tried again and it""booted"" and showed some errors so I just went back to 6.0 and managed to find what I was looking for. I'll try 6.5 today but otherwise I'll just go with what I can"
+vmware,fekotte,t1_fekoqo9,1579204516.0,Actually my drives are detected by vsphere but there are no partitions on them so I can't use them for VMs. And I don't know how I'd do that
+vmware,fekmwxo,t1_fekmfqq,1579203378.0,Does a mobo raid count as software ?
+vmware,fekmjao,t1_fekmfqq,1579203152.0,"Oh 
+I thought I had to set it up 😂"
+vmware,fekkwau,t1_fejlhva,1579202176.0,"I tried installing 6.7 on a 16gb usb, it worked but does not boot..."
+vmware,fekkrgi,t1_fekdmvl,1579202096.0,I just did rn. Will they show up now ?
+vmware,fejms4t,t1_fejlhva,1579180142.0,"Thank you for the help !
+
+I'll try 6.7 tonight, I didn't think about installing to a USB which is pretty dumb on my part (considering I did a freenas usb minutes earlier)
+
+I don't plan on running tons of VMs, maybe 2 or 3 (Windows and Linux) so can I install both of them on the ssd and then give each one a hdd ?"
+vmware,fejjcfq,t1_fejjb15,1579176705.0,I looked on their website and it says my server is only compatible with versions up to 6.0
+vmware,fejftrx,t1_fejfmgf,1579172179.0,Alright I'll try that tonight thank you !
+vmware,fejf5p9,t1_fejf4w5,1579171187.0,How do I do that ?
+homelab,fea1kjs,t1_fdptd6j,1578943387.0,Hey ! Did you manage to solve your issue ?
+facepalm,fe8um2q,t3_eo3h1h,1578931115.0,"Fish do need water to breathe because they extract very small quantities of oxygen from it. 
+
+They probably didn't know that a whale is a mammal thus does not have gills.
+This is no facepalm this guy's not uneducated he is just confused"
+homelab,fdqlse2,t1_fdptd6j,1578669717.0,Keep me posted !
+homelab,fdptb6x,t1_fdpt7g7,1578639642.0,"I got it from them too. Mine had sata cables but they were not compatible. 
+You should contact them if you havent done so already, their support is very good. 
+Hopefully they'll send some to you too otherwise I can give you the reference once I get mine"
+homelab,fdpt2zj,t1_fdpry1y,1578639392.0,"Hey !
+I contacted the seller and they found the problem was the data cables are not compatible with the system so they are sending me new ones. Where did you get yours ?"
+homelab,fda1vq4,t1_fd9xzip,1578240762.0,Yeah the backplane is powered but then the drives are not
+homelab,fd9zuq4,t1_fd9zmlc,1578240027.0,"I tried with 3tb IBM SAS drives, checked every bay and then with a sata ssd."
+homelab,fd9xu1w,t1_fd9xdlg,1578239323.0,Yeah I removed them for the pictures but I tried it with them on. I'll add that to the post 🙃
+homelab,fd9xn1i,t3_ekdmuj,1578239231.0,"As mentioned virtualization would could be an option. 
+I don't know about firewalls and adblocking but you can get Plex and some pretty advanced game servers running on linux."
+homelab,fcxidig,t1_fcxi8m6,1578063682.0,thank you soooo much for your help ! i'll do that now ;)
+homelab,fcxhjh5,t1_fcxhchm,1578063086.0,"I don't have a sata power cable on hand so I can't try it now...
+
+On the first picture I assume ? It comes from the PSU and powers the backplane"
+homelab,fcxgmf6,t1_fcvauw4,1578062417.0,"sooo... I made another post but thought i'd notify you too as you seem to know a bit
+
+I got a sata ssd overnight, installed windows on it on another computer and put it in a bay and it doesnt work. It's not detected int the boot option menu nor in the bios... I hope the raid card i ordered will solve my probles because thats makes no sense to me"
+homelab,fcwzpfh,t1_fcw8l75,1578044683.0,There is a 6 or 8 prin pcie like connector going straight from the pay to the backplane and whenever I put the drives in the led on the cage turns on
+servers,fcw60cq,t1_fcw5smq,1578017953.0,"Honestly I'm kinda new to all this so not all you say makes tons of sense to me but it does seem right. 
+I'll try and looks for forward breakout cables and find out more about what cards would be compatible and then I'll see :)"
+servers,fcvuab9,t1_fcvtzp1,1578010256.0,"Hi, thank you for your answer. 
+
+I realize what I said was not very clear 
+
+The backplane accepts SAS drives but the connection from it to the motherboard happens with a sata to sata cable. 
+
+Would what you say still apply in that case ?"
+homelab,fcvj80t,t1_fcvicds,1578003248.0,"I bought it refurbished so used. 
+
+I don't think there are two different types of sleds just the connectors on the back change"
+homelab,fcvcax3,t1_fcvc1ys,1577999101.0,I looked for a while and there are no sas connectors on the backplane. The manual does mention another version of said backplane with was connectors but I don't have this one and it might be hard to find
+homelab,fcvb12o,t1_fcvauw4,1577998349.0,"I don't have a sata drive on hand but I guess it would work yeah. I'll try moving stuff around and see if it works. Otherwise I'll get a controller yeah
+
+Thank you for you help anyways and if it works that's on you ;)"
+homelab,fcvaa8k,t1_fcv9lt8,1577997912.0,"It came with sata cables yeah
+
+https://imgur.com/gallery/NyCQ5jq"
+homelab,fcv8tg0,t1_fcv737k,1577997035.0,"8 port are ""3g scu sata/sas"" but plugging the cables there doesn't change anything
+
+By doesn't work I meant the drives are not detected in the bios."
+homelab,fcv7q1y,t1_fcv7gol,1577996384.0,"The manual does mention SAS drives but everything is ""optional"""
+homelab,fcv7ivu,t1_fcv7gol,1577996264.0,S210-X12MS
+homelab,fcv77f7,t1_fcv737k,1577996072.0,"Uh... I don't know but that would be good. 
+I quickly checked the manual and saw nothing. And the bios does not detect the drives plus there does not seem to be any sad connector on the mobo"
+homelab,fcv3di0,t1_fcv2lw3,1577993810.0,Great thank you ! I already researched pci cards so now I can pull the trigger ;)
+technicallythetruth,fbagziw,t3_ecaycd,1576677906.0,americans will use anything as a measurement system so long as it's not metric
