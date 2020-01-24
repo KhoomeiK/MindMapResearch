@@ -1,0 +1,214 @@
+subreddit,self ID,parent ID,time,text
+cars,ffdn1q3,t1_ffdmxik,1579824368.0,"They can be implemented on nearly any microcontroller platform with a dedicated encryption engine, but are usually custom packaged to reduce the pinouts. Usually Cortex m0+ lately."
+cars,ffdg6g3,t1_ffdcwca,1579820192.0,"The ECU has the security coprocessor inside of it. It exists between it's storage and CPU and probably an IO bus. As far as the CPU is concerned it's talking to storage. If the security compressor cannot validate the firmware on its own, it will send a bootrom that's only purpose is to display to you ""your firmware is fucked, tow it to a dealer"" or perhaps immediately try and reset via OTA. 
+Two signatures yes, no real way to read the per car key without chip invasion. First C8 has already been solid. Not sure on the timeline to dealers. 
+
+Z06/ZR1 I think they tend to be harder to crack just because they come later in their development cycle, and they have some manueverability in changing the ECU. Don't think it's for any product reason."
+cars,ffdc1q1,t1_ffdat6v,1579817676.0,"Probably not, but non OTA will still need to be signed and follow the same protocol as any other firmware update method. The reallll question is if the security coprocessors firmware will be patchable (usually yes) and what that will entail. People have been touting ECUs as uncrackable since the 90s but we are rappidly approaching a point where only national agencies will have the resources to do so for some manufacturers. BMW almost had it with the M5 ECU, but fucked up the chip design so there was a hardware exploit that required drilling into the DIP itself. That wouldn't happen if it's a general purpose security coprocessor instead of just a keystore module like what BMW was using."
+cars,ffdax17,t1_ffd8jsh,1579816927.0,"Not exactly. After the OTA process firmware as it exists in storage will be unique to each car, as it's been run through the coprocessor. 
+Double sig has been done in some military applications, but not in the automotive sphere yet.
+
+I really doubt a firmware signing key will be leaked if they follow anything even remotely close to best practices, as I said before as the systems are so integrated there is a lot on the line liability wise."
+cars,ffd927f,t1_ffd8lr6,1579815806.0,"Apologies, this is my day job. Not used to explaining it. 
+This post is making the assumption they are even using security coprocessors. Knowing GM they will fuck it up somehow. But any OTA system is a major PITA for cracking anything. Companies that build chips for GM have released a lot of white papers on security coprocessors in busses which is why I think they will use it."
+cars,ffd5u5i,t1_ffd2d48,1579814000.0,"I am talking about a firmware flash key (master OEM key), not on disk description key which is a UUID in the security coprocessot and different for every car. 
+
+You are still thinking of the ECU has a single chip system and it shows. 
+
+You are unable to validate a checksum on the ECU because it is never done on the ECU, just the security coprocessor.
+
+You cannot load ANYTHING to the ECU without it going through the security coprocessor, as storage is real time encrypted and decrypted at run time. 
+
+I am not going to speak about this anymore as it's clear you don't understand the purpose of a security coprocessor and how it interacts with over the air updates. 
+
+If you can create a sustainable memory crack for any widely used security coprocessor that survives a reboot and an update, you have more than enough skills to break nearly any advanced hardware encryption out there, which thankfully, nobody has figured out yet.
+
+Let me turn this into terms people who don't work on security chips might understand better. With iPhones. Which is going to have a lot more in common with it's bus framework than any vehicle bus outside of Tesla afaik. 
+
+Old iPhones used to work like cars. Master signed firmware, UID encrypted user content. All encryption decryption lives on the main boot rom. 
+
+New iPhones UID and Master key signed firmware (updates are device specific, so even a leak of a master key alone does not compromise the firmware) before the iPhone boots, the main processor memory is _partially_ decrypted by the security coprocessor. The keys never exist on the main processor. Before anything going into storage, or coming out of it, it's decrypted or encrypted by the coprocessor as well. 
+
+I would reaserch how apple secure boot works and really try and understand it. It's much closer to how this framework is going to work on a module level. Not even taking into account the firmware level encryption that may or may not exist.
+
+Basically what I am getting down to, is you cannot run anything on the CPU without the keys on the security coprocessor, because everything in storage (at the very minimum) is run through the coprocessor before the CPU. So in order to run anything on the CPU, you need the coprocessors keys. Which are really. Really really. Hard to get. And you would need to get them for each and every car you want to crack."
+cars,ffd1b0q,t1_ffd0ijc,1579811456.0,"Let's say there is a leak, there can now be an OTA to reset the keys with a new one, and prohibit it working for new cars or they can be refreshed periodically making leaks have a short lifespan. AMG has direct access, but yes I assume there will be limited published keys for lingenfelter. Or perhaps they will have to request keys for individual cars, so a leak would be meaningless. 
+
+There's also the threat of no Single Signature. Where there isn't a master key at all, and there is a key defined per car that is stored in what I assume a very difficult to leak database, that could also be refreshed.
+
+Also with the huge investment into secure software and hardware, I am sure keys will be more locked down than before. Tesla hasn't had leaks of any major caliber yet.
+
+Leaking Chevy's private OTA firmware signing key is a lot lot more damaging than an engineer leaking ECU decrypt keys.
+
+Every single update has the ability to break a cracking method, much like jailbreaking."
+cars,ffcz78w,t1_ffcxyh9,1579810288.0,"Unsure until it's out, probably at least as secure as Tesla's platform. It shared a lot in common with NXPs secure vehicle platform if you are interested they have a great white paper."
+cars,ffcuann,t1_ffcqevo,1579807401.0,"They really don't need it (yet). Basically, you can be assured a company will be using a security coprocessor (unless they are dumb dumbs, looking at you Nissan) if the compute network is designed to allow for at least a couple of these things. 
+
+- Full platform OTA updates (Mercedes only does this for infotainment in it's ICE cars)
+- EV integration with central battery management 
+- Eventual support for full self driving platform.
+
+Mercedes does not use coprocessors and has been cracked. McLaren does not need any of that so why spend the money designing a secure infrastructure.
+
+The reason GM is so security focused with this platform is it's supposed to last the next decade.
+
+C7 Z06 ECU has been cracked for a while. Pretty much the same as any other ECU out right now (besides Tesla).
+
+The fact that you included the British in that list made me actually laugh out loud."
+cars,ffcn267,t1_ffcmu5z,1579802941.0,"The validation and decryption is happening on the security coprocessor. Information routed to other systems (storage in most cases, but could be an Ethernet bus in chevyland) is run through the coprocessor as well for NRT ecrypt decrypt. There is no unencrypted functions anywhere outside of the security coprocessor. I guarantee you have not worked with anything with a security coprocessor before. Unless you've tried to decrypt an iPhone (something three letter agencies have spent years trying to do).
+
+The security model you are describing (single chip signatures) is what was used by early iPhones, and why they were jailbroken so fast."
+cars,ffckmr8,t1_ffcgvwa,1579801473.0,"You are pretty far off yes, in cheap, old, or single chip systems (pretty much all ECUs up to this point), you are correct, keys were held in the boot sector of main program memory. 
+
+Due to factory debugging, if you had pin access to the SOC you could then dump the rom, load it up in a hex editor and look for the correct keys length in the correct sector, the encryption schemes that could run on these simple controllers was also pretty basic in most cases. 
+
+This is no longer the case. Encryption keys are no longer stored in main program memory but in a secure access coprocessor. There is no pin outs on these, and decryption is done on the coprocessor itself, so no intercepting those keys of a signal line either if you one hell of an oscilloscope. The secure access chip also verifies the signature of the entire program memory or it just won't even attempt to decrypt and boot at all. 
+
+This has a lot in common with secure boot on computers with secure access silicon. As far as I know, without a manufacturer signed firmware package, there isn't a way to extract the base UID from a secure access chip without literally getting **physical** access to the memory bank and reading it one bit at a time with very precise, custom instruments, which I think countries have tried to do, unsure if it's ever been done successfully. 
+
+Usually these chips are bundled on the same die as the main processor making things much much more difficult. Nearly necesitates silicon level access without a manufacturers signature. 
+
+You are *way* more likely to destroy the chip than you are to read it, and youve just discovered the UID for a single access chip, and spent what I can imagine hundreds of thousands of dollars in custom hardware. I would not be surprised if their is more than one. 
+
+The above is making the assumption that there isn't a *major* flaw in their security schemes. Which I think is unlikely given their outside consultation. There might be hacks that work for single cars, but a single OTA could stop it from working for forever.
+
+All of this has to do with the integration of separate auto systems into a single network. OEMs now have a HUGE liability if people can mess with cars that have automatic emergency braking and OTA. They could mess with an EVs battery controller to turn of it's active cooling, ect.
+
+ECU security in the past was always a stop gap for competitive reasons (much like video game piracy protections). Now it is absolutely mission critical to the platforms integrity. If there was a hardware flaw that lead people to be able to crack the master key (or it was leaked), I wouldn't expect Chevy to say ""dang"". They would recall every car that has the potential to be compromised if they cannot update it"
+cars,ffcdbzu,t1_ffc8er6,1579797004.0,"I'm a different person than the guy who was calling you out as a twat before lol
+
+Please, if it's going to be so easy, please crack the Tesla and claim the $1M bounty. Chevys global B has much more in common with Tesla's platform than any other OEM."
+cars,ffb9fc7,t1_ffas5xz,1579756069.0,"Bruh if you think you can crack a 2020 OTA compatible ECU by hooking up JTAG like it's 2008 or it's a NRF52840 you are in for a bad time. OEMs have been moving towards advanced encryption schemes across the board. Global B (the electrical system underlying the C8) is a totally different beast than cracking a normal ECU, as it's built with the idea of OTA updates and full autonomy built into the kernel (and yep, there is one of those too. Ever try and JTAG (lol) your smartphone and get the keys from a full sector encrypted partition with a secure access chip?). 
+
+C7 had ECU architecture that dates back to 2003, C8 is brand new moving forward. The M5s TSK6 ECU architecture is probably 100 times easier to crack and Dinan just created a new solderable signal processing module so they could control things.
+
+Is the C8 going to be tunable? Sure! But not without custom chips or Chevy's blessing for what I expect to be a long long while.
+
+If it *does* get cracked I would expect it to be from a leak, not from crackers who have been working with basically the same flash security schemes that people have been using on video games since 97.
+
+Global B has over 100 compute modules in the harness, each and every one of them is end to end encrypted. The only other type of vehicle that has that kind of encryption throughout right now is in the aviation industry. Which is why Chevy contracted Boeing's military project devision to benchmark their work."
+cars,ffb6fws,t1_femwetp,1579753052.0,GT4 cars have limited aero specs.
+cars,ffb4ubn,t3_es98dt,1579751832.0,18650 cells in a custom frame.
+FiftyFifty,ffaox15,t1_ffaj2h4,1579741056.0,Are you serious?
+technology,ff88hxw,t1_ff7k59w,1579669076.0,You can turn off iCloud
+cars,ff86hep,t1_ff7uelu,1579667348.0,"Every brand will run their own tests, often requesting changes (Toyota and BMW are notorious examples, Toyota for reliability, BMW for cost reduction BMW has a thing for plastic parts that should be metal)"
+cars,ff6fmtf,t3_ergvm7,1579626154.0,Direct link to the sweepstakes. https://volvosafetysunday.com/en-us/About?ruid=b1c945ce-9941-484b-944c-a428fa7058b3&rs=TW
+cars,ff6cojr,t3_ervqlf,1579624313.0,"Vehicle safety is probably one of the least understood things car guys get into discussions about. Lots of misinformation and lack of understanding. Sometimes even straight psuedo science. This is especially true about active crash mitigation systems. 
+
+If you want proof, just bring up AEB and see how fast the fire spreads.
+
+Moral of the story: you aren't going to get very good, very scientific information on vehicle safety from a forum. It's too complex of a field. 
+
+I would recomend reading a trade magazine. There are also a great number of excellent journals who's entire focus is automotive impact structure design and for meta-analysis of DOT crash data. 
+
+Source: Used to work building impact simulation software for OEMs."
+cars,ff6by4g,t1_ff67knm,1579623849.0,As long as the CVT doesn't grenade.
+Justrolledintotheshop,ff62n2k,t1_ff4s7y0,1579617583.0,Every time you hit a pedestrian a roush sticker shows up somewhere nobody knows how.
+YouShouldKnow,ff4gj3b,t1_ff34gux,1579563067.0,I'll take this over paid restrooms any day.
+cars,fezj4tv,t3_eqzqd0,1579457878.0,"Unless the map includes boost by gear (rare) the engine will be making the exact same HP/TQ through any of it's gears (boost by gear normally limits boost in the lower gears). The difference a remap makes though will become less noticable as you get into the high gears, as it's more difficult to notice differences in relatively mild acceleration. 
+
+A linear power curve means the engines power increases lineraly with RPM. So there aren't any ""peaks"" in power. An example of a non linear power curve would be a carburated sport bike that has a huge bump in power after 11,000 rpm. Or a GT86 that dips at 3800.
+
+Other random info, IMO tunes are only worth it on their own with modern turbo cars. NAs you might notice ""something"" but not enough to justify their price on their own with no other supporting mods."
+cars,fezg43v,t1_feyt2ia,1579456966.0,"I'm pretty sure the credit approval system for Nissan is just
+
+    return true;"
+AskReddit,fem7a9x,t3_epp36x,1579242306.0,Idk some tires.
+cars,fejpqzd,t1_feizxj1,1579182690.0,Look at this loser still driving ICE cars
+modernwarfare,fehoy9c,t1_fegltv0,1579120963.0,Realaisim is already out the window on launchers. No need to over do it.
+sanfrancisco,fehjf25,t1_fehiyte,1579117764.0,"The cost of entry is super high, so restaurants are usually meticulously planned and have a solid financial backing. The solid financial backing usually enough to beat the national average in itself."
+cars,fehe5tx,t1_feh9e5z,1579114691.0,That's a Honda tho
+Helicopters,feh9e96,t1_feh7t4g,1579111876.0,Mawp
+books,feedkkg,t1_feea0ev,1579031551.0,Oil men pump till its dry.
+listentothis,fedsbqj,t3_eobzhj,1579018837.0,THE GOVERNMENT KNOWS
+mildlyinfuriating,fedrnbl,t1_fed67wn,1579018418.0,I have that same keyboard and it does.
+cars,fe8wbne,t1_fe8quey,1578931775.0,How on earth? Does the series have cost restriction regs that disallow them from replacing major components?
+gadgets,fe8v1jp,t3_enqhev,1578931238.0,My gfs 17 year old brother preordered one just so he can fake nightclub hand stamps.
+opensource,fe6c8nf,t1_fe68mt7,1578886756.0,"Listen, I'm sorry, and I can see you have good intentions, but honestly I dont want to play these contrived ""via several proxies, by contributing to capitalism you are hurting someone"" games. Because the arguments are immaterial and immeasurable. 
+
+all of your arguments come from some *extremley* personal bias. Literally ""I couldn't afford video games when I was younger, therefore they were using violence against me"" is one of the weakest, most pitiful, and disgraceful arguments I've heard supporting anything on this site. I genuinely  dont think I can discuss this with you anymore as I am clouding my own judgement by thinking you have psychological issues that lead you to come to these asenine conclusions. If this is your mental world model, I think you are in for a pitiful and meaningless existence, contributing nothing to the world, and it contributing nothing back to you."
+opensource,fe60zbb,t1_fe5xxr0,1578879351.0,"vi·o·lence
+
+/ˈvī(ə)ləns/
+
+noun
+
+behavior involving physical force intended to hurt, damage, or kill someone or something.
+
+I don't understand how you are even conceptually equating the creation of proprietary software with violence.
+
+Also terorisim implies violence (actual, physical violence) to meet a *political* goal.
+
+How on Earth am I inflicting pain on my customers? I write software that helps doctor's make better decisions with opiates. If anything one could argue that the abscense of my software would have a bigger negative impact than it's creation. The only reason it *can* exist is because we charge for it, so we have the *ability* to keep making it and the resources to invest into making it more effective.
+
+""But capitalism is the problem then"" capitalism isn't going away. It just isn't. Even the most socially liberal systems have booming private software sectors, because they recognize its ability to fertilize innovation via the investment of resources. 
+
+I understand that capitalism has its pitfalls (especially with regards to disabled, differently abled, societal prejudices, nepotism, the list goes on) and there are methods of alleviating them even in a majority capitalistic society (UBI being a great example). 
+
+With that said. There's no way I would even consider quitting my job for an extra $12K a year. I like my job. I like what I do and I like the impact it has on society. It's not soul crushing even in the slightest. The good kind of greed is to push people into mutually beneficial situations, what a vast majority of sales people do is convincing of mutuality.
+
+UBI needs something to tax to be able to function, and it comes from capital gains one way or another. Whats wrong with capitalism if we can construct it to provide a satisfying existance for those who are unable to themselves otherwise? I recognize this isn't the case at the moment, but calling the entirety of capitalism incompatible with this is overseeing it's inherit benefits, and downplaying the equally strong weaknesses of it's alternatives.
+
+I think it's interesting that you described a cloud software and videogame company inflicting ""so much pain and suffering"". I am curious, what was the (non abstract please) mechanism behind this pain and suffering.
+
+If working at a proprietary software company put you on the edge of suicide, i think it's fair to say these motivations and opinions are driven by much more than rational observations of the world, and fall firmly into the world of paranoia."
+opensource,fe5rama,t1_fe5m7ua,1578873471.0,"Ight gonna be real, you lost me with comparing closed source software development with terrorisim. I am not capable of reasoning with this irrationality and level of  near complete detachment from society. like this is some darqwolff level shitpositing. I am genuinely curious what circumstances leads people to these beliefs, and what their thought process is. Can I DM you?"
+aww,fe0bn5x,t1_fdzvjg2,1578808876.0,"My dad once found a cat head behind the house and put it in a Ziploc bag wrote ""lunch"" on it and put it in my trunk to freak me out. It worked, also freaked the hell out of this girl who I was driving to school when I popped the trunk to put her book bag in. She didn't ask for rides after that."
+cars,fe0bi92,t1_fdpi8dp,1578808737.0,I remember reading about it when the GT350 just came out. Don't know where exactly I read it.
+aww,fe0bgyu,t1_fdzv5ot,1578808702.0,Yeah calling the owners who's collars had tags on em never got easier. At least now they know.
+programming,fe0bcm8,t1_fe02rzl,1578808587.0,"Yeah, I have done it a few times. It's gotten a lot easier with managed VPCs now. Networking isn't something I think about much anymore. I've had to dive back into Azure land recently to integrate SAML/ADFS and the amount of cryptic errors I generated gave me flashbacks."
+opensource,fdzmtfn,t1_fdvlmis,1578791832.0,"Windows: more issues that software devs would find annoying
+Linux: more issues that regular people would find annoying
+OSX: pretty good if you can afford it."
+opensource,fdzmko4,t1_fdxeoph,1578791745.0,"Hmmm this is a bit of an extreme direction, even for this sub. People should have the ability to control the conditions in which their creations are utilized. I see this sub as *advocating* for firms to utilize and implement more FOSS. People who want (or care about, which is a tiny, tiny, part of software users) more FOSS want more *options*.
+
+You had an option before, and you had the ability to read the EULA before, and it burned you, as they have the right to do as it's their IP.
+
+The vast majority of people who work on big FOSS projects (like myself) pay the bills and gain the knowledge required to do so by working on proprietary software.
+
+I am alllllll for a new liscense with stipulations that would require open sourcing after X years. I think it would mean a lot more orgs hop on the OSS train. A lot of software that is really useful and interesting is only fiscally competitive for so long, and has a huge community that want the source. Games are a great example.
+
+FOSS really really thrives where *it needs to thrive*. Open JDK and Linux are great examples of this. They fill a huge void. Games, really just dont. Most games exist because the creators believe they can make money off of them."
+programming,fdyisvf,t1_fdy9qwm,1578780205.0,Install AWS SAM. Test. Push via CLI. Done.
+programming,fdy9adt,t1_fdx9mdx,1578777363.0,"Gonna disagree with you on AWS not making anything easy. The CLI tools are second to none, and the more low level services there's usually an optional abstraction wrapper you can use as well (Elastic Bean Stalk, ect)
+
+I've worked at companies that have had hundreds of systems deployed on either and I am not going back to azure if I have to. I still see Azures major usecase modernizing existing windowsland systems that still rely on ADFS."
+aww,fdy0rte,t1_fdxqpgh,1578774858.0,The Coyotes in the area I grew up with looked like this too. Found a lottt of cat collars in the open space behind my house.
+cars,fdnfz8m,t1_fdne3b8,1578584991.0,"When they were developing the voodoo, they had a hard time keeping it secret from the rest of the engine development team because they would keep bursting into the Dyno lab to find out what the *hell* was making that noise."
+cars,fdne57o,t3_emb430,1578583871.0,As low and as well cared for as you can get. Buying an e46 these days is an act of patience. I would try and find one with 50-60K miles well cared for by a single owner. Someone in my club looked for 11 months to find the right one. Has had zero issues and has tracked it 20+ times in the last 2 years.
+cars,fdne24t,t1_fdnczuy,1578583818.0,One of the most desirable cars out there right now IMO at any price.
+cars,fdndy5l,t1_fdnduhn,1578583751.0,Because it would make me happy
+cars,fdndrbj,t1_fdndnsi,1578583635.0,8250RPM
+steroids,fdlvn7k,t1_fdk3mjd,1578533574.0,"You can go to a software bootcamp, if you make it through, you come out making 130K in NYC. Often times they work on a salary share so there's no up front costs involved. 
+
+It takes a patient, analytical person. It's easier to get a job if you are charismatic."
+cars,fdkjzjc,t1_fdfhsvw,1578505235.0,"It's like an Elise. Buy for 30K, drive the piss out of it, sell for 30K"
+cars,fdkjwss,t1_fdefsnx,1578505200.0,If it didn't live in California I would own one right now. My ideal platform.
+cars,fdkhrq1,t1_fdke1a7,1578504128.0,"Cylinders don't mean much with forced induction. 700HP is way more than plenty for a car that size and weight.  Dodge went out of their way to just make the biggest bruiser of an engine they could sell at that price point. When Aston/Cosworth does that, it makes 1000HP Naturally aspirated out of 6.5 Liters."
+cars,fdk5tfa,t3_ekyti5,1578496734.0,This is an AMAZING deal and filled with great people. Had an amazing time last year. Thanks for the heads up /u/verdegrrl
+cars,fdk5047,t1_fdj9yq3,1578496191.0,"Don't listen to anybody. Your car, your taste. Everyone shits on burble tunes till they beat on a car with one. E92 with straight pipes and a burble tunes is as close to perfect as you can get.
+
+Edit: I recognize that this is very Mustang owner of me. My God this car has changed me."
+DestinyTheGame,fd0fw44,t1_fczqqbl,1578118209.0,Cosmetic items in games are a stupid tax on middle schoolers who want Xbox Live Party bling. Just ignore these threads and move on.
+todayilearned,fcy7chn,t1_fcxrtsx,1578075874.0,That's one *hell* of a url
+mildlyinfuriating,fcx2sh8,t1_fcwugi1,1578048701.0,But think of all that tasty glue you could eat under than label
+cars,fclvste,t1_fcluqs5,1577757681.0,Mustang GT Performance Pack does really well.
+cars,fcl8z00,t1_fcl632p,1577742395.0,Yeah. And fluid
+cars,fcl8ks0,t1_fcl723m,1577742148.0,"The momentum of the engine is very very very small compared to the forces of impact (momentum of the entire vehicle, and whatever you hit). You want to absorb as much of that energy as possible before it even reaches the passenger compartment. Engines don't absorb energy, crumple zones do. And the crumple zones can be much larger if there isn't an engine in the way. Engines are extremely well mounted and would not ""break free"" in a collision unless something is pushing it into the passenger compartment. Where you would still want as large of crumple zones as possible."
+cars,fcl5gps,t1_fcj684k,1577740223.0,"That's usually not the case, you want as much crumple zone as possible on the front of the car. Engines aren't very compressible and transfer their impact force into the passenger compartment. EVs can be extremely safe as their motor units are mounted low and are extremely compact. Leaving large crumple structured in the front and rear of the car."
+cars,fcl4519,t1_fckwryj,1577739402.0,"To add, Stinger will need at the very least some high performance brake pads to be able to keep up with the heat at an HPDE. The brakes are a weak point in that car from the factory."
+cars,fcajgel,t1_fca8z4x,1577570354.0,"Dummy quicc, the slap of my pistons keep alerting the guards."
+lotus,fc7p00v,t1_fc7ljaf,1577514773.0,"If you are even asking this question, a Lotus probably isn't for you."
+MachineLearning,fc7ligr,t3_egkabp,1577511328.0,[Thanks ML very cool](https://i.imgur.com/3Tgdn18.jpg)
+cars,fc7l3zb,t1_fc7ib89,1577510939.0,"""No"" - Mustang Owners"
+cars,fc7kzbh,t3_egir7m,1577510816.0,I am appreciating mine for sure.
+lotus,fc7ku6o,t3_egmeed,1577510677.0,Snow tires and RWD is better than AWD and all seasons.
+cars,fc369up,t1_fbm48f1,1577382478.0,"We do have strict inspections, anything engine related from the cat forward needs to be CARB approved. The refs at SMOG (every 2 years) catch things all the time. 
+
+Catbacks are fine, anything else that touches gas needs an EO number. 
+Depending on your platform, there are usually some options for power adders. Miatas have CARB legal turbo kits and Mustangs have CARB legal blower kits. Custom Fab is usually out of the question. 
+
+We do have a diverse modification scene out of neccesity. We can't mod our engines easily so the money goes to cosmetics and chasis mods.
+
+If you want to drive something on the street without an EO number, you need to ""know a guy"" you can slip some Benjamin's. There are also some counties that don't have Smog. They closed the PO box loophole a while back, so sometimes guys in the Bay area buy a rental property and register their cars to it."
+MechanicalKeyboards,fblrvxv,t3_edaxah,1576968685.0,Tfw no vimmium
