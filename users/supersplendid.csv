@@ -1,0 +1,71 @@
+subreddit,self ID,parent ID,time,text
+WordPressThemes,ffctmrt,t1_ffcsoh3,1579807015.0,"In this situation, I'd get your client to purchase it. If you'd prefer not to because you want to add markup, invoice them separately for integration / admin costs."
+formula1,ff6dzt4,t3_erw6bg,1579625134.0,Looking at the display makes me want /r/ThatPeelingFeeling/
+space,ff63eir,t1_ff5x947,1579618141.0,"Well, from our reference, they are yet to collide. You can look at it both ways, and both are correct, sort of."
+space,ff5r5iy,t1_ff5qc1s,1579606978.0,"They are approximately 7800 light years distant from us, so yes, technically they collided nearly 8000 years ago."
+space,ff5qyd8,t1_ff5quyf,1579606727.0,"The millennium was a damn good excuse for a party, but I'd much prefer to see these stars collide, to be honest."
+IAmA,fezndsl,t1_fezhsuw,1579459305.0,"Even if that was the reason, which I doubt it was, so fucking what!? She's not breaking into your house at night and forcibly harvesting your organs."
+CasualUK,fev17to,t1_feqra44,1579391965.0,Someone else in this thread said the same thing. Maybe you know each other!
+aww,feozg0k,t1_feoz332,1579308736.0,"Seriously, take a look at your life and your attitude. You could be a nice person. Everyone would appreciate you more if you showed a little love."
+todayilearned,fema61h,t1_fem9sly,1579245581.0,"Definitely suicides, but I doubt they count as passengers."
+trashy,felicqe,t1_felhskk,1579222877.0,Teachers should really know better than to be shitting on the floor.
+dogsonroofs,felad0j,t1_fel114e,1579217548.0,"Please, spam away. I insist."
+watchpeoplesurvive,fektl34,t1_feksokp,1579207325.0,"Yeah, could well be, I have no idea. I just thought his hand motion looked like someone hitting their horn."
+watchpeoplesurvive,fekrrt0,t1_fekq3ee,1579206256.0,I doubt he had any idea it was filmed on dashcam. I think his hand motion was acknowledging and appreciating that the driver had hit his or her horn.
+aww,fefkstw,t1_fefk4zz,1579058437.0,Absolutely. This is the birth of a meme.
+specializedtools,fec0xw4,t1_febyp23,1578965024.0,To the same tolerances? I very much doubt it.
+politics,fdioizs,t1_fdiobbb,1578447505.0,You're probably best off just refreshing this thread and following sources as they appear.
+privacy,fdierti,t1_fdhhj3z,1578441260.0,"If you block Chrome with your firewall, why bother keeping Chrome?"
+formulaspy,fddsr4q,t3_ekrl2j,1578323030.0,"It really surprised me to see him pop up in BTCC last year. It's a shame he wasn't able to be closer to the front of the grid, but as he says himself, ""can’t be too many grandads who have competed in the BTCC""."
+MacOS,fdcmr76,t1_fdcdi9n,1578278768.0,"You can manually backup the applications you need to keep. They're typically stored in your system's `Applications` folder and should be easily identifiable. Make a copy of them and then after a clean reinstall, just copy them back.
+
+You may also want to grab a copy of any settings / configuration for the relevant applications. These will usually be identifiable somewhere within the system and/or user `Library` folders."
+watchpeoplesurvive,fd4fd7i,t1_fd3urzf,1578167050.0,"I'm sure you mean well, but prayers aren't going to do jack."
+blackmagicfuckery,fcwjtl9,t1_fcwcw1a,1578027569.0,I appreciated this.
+vegan,fcv2txy,t1_fcv2g4u,1577993487.0,"Ah ok, that's good to know. Makes me want some crisps now. :)"
+vegan,fcuzm8m,t3_eixh9h,1577991671.0,"Are those crisps vegan? I see they say vegetarian on the packet, but I was under the impression some crisps use egg based products to bind the seasoning.
+
+Meal looks tasty though!"
+Proxmox,fcn53uv,t3_ei2jyb,1577803503.0,"I tackled this exact issue recently.
+
+Within Proxmox, make sure your guests:-
+
+* are using the VirtIO SCSI disk controller (as you state)
+* have the *Discard* option enabled on their disk(s)
+
+Now, assuming your guests are Linux, you can manually initiate a trim from within the guest, using:
+
+`sudo fstrim -av`
+
+If you were to backup your guest now, you should see  the backup size is much more reasonable.
+
+However, as you mention, you really want the trim to be performed periodically and automatically. If your guest is using systemd, you probably already have a systemd timer unit, `fstrim.timer`, to do this, although it may not yet be enabled.
+
+You can check the status of this timer with:
+
+`systemctl status fstrim.timer`
+
+If you see it's inactive and/or disabled, you can enable and start it with:-
+
+`sudo systemctl enable fstrim.timer`
+
+`sudo systemctl start fstrim.timer`
+
+And check when the timer last ran and will run next, using:
+
+`systemctl list-timers --all`
+
+The timer is typically set to run once a week, which should be fine for most purposes."
+todayilearned,fcln8ki,t1_fclk9a2,1577751769.0,Hey fellow radon breathing Devonian.
+space,fcjsnj2,t3_ehk6lq,1577702676.0,"Very nice!
+
+I love garden shots like this; they really give some context to the view."
+space,fcidzct,t1_fcidebx,1577661124.0,That's pretty damn profound.
+nextfuckinglevel,fcicwll,t1_fcicgwl,1577660678.0,"Holding that aerodynamic position is probably years of practice and experience, and requiring amazing all-round fitness and muscle."
+assholedesign,fc125m6,t1_fc0v3gz,1577306105.0,"It still gets security updates, but not for much longer. End of life is 14th January 2020, so three weeks to go."
+todayilearned,fc0kj3x,t1_fc0k2kb,1577292996.0,"No, that's not a word for that. Look it up in a dictionary."
+nottheonion,fc0i03o,t1_fc0hn2h,1577291271.0,"People can repent, and do something good for the rest of their lives. Not always the case, no, bit I like to think everyone deserves that chance.
+
+Just my opinion."
+CasualUK,fc08fro,t1_fc07cg0,1577282877.0,"Conversation with ex-partners can be tricky at best, so please don't read too much into it. The most important thing is to have respect for yourself, or to work on that. 2.5 years sober is something to be mighty proud of! I don't even know you and I'm proud of you! Don't let a small hiccup get in the way of that. Concentrate on yourself, do what is right for you, and think how damn good that's gonna feel in another 2.5 years! Peace and love, my dude. You got this."
+formula1,fbzxtqx,t1_fbzxehn,1577267538.0,"Haha (or should I say, A-ha?). I thought the exact same thing!"
