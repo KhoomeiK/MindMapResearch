@@ -28,7 +28,7 @@ def get_texts():
 	
 
 # this has to be done together because the set() operation has to be on all text	
-def get_corpus_metrics(h, bh, n, bs, s):
+def get_corpus_metrics(h, bh, n, bs, s, remove_punctuation=False):
 	def metrics(text):
 		return len(text), len(set(text))
 
@@ -49,12 +49,17 @@ def get_corpus_metrics(h, bh, n, bs, s):
 		if item['text'] != '':
 			corpus.extend(nltk.word_tokenize(item['text']))
 
+	if remove_punctuation:
+		corpus = [c for c in corpus]
+
 	return metrics(corpus)
 
 
 def main():
 	h, bh, n, bs, s = get_texts()
-	corpus_size, vocabulary_size = get_corpus_metrics(h, bh, n, bs, s)
+	corpus_size, vocabulary_size = get_corpus_metrics(h, bh, n, bs, s, remove_punctuation=True)
+
+	# With Punctuation
 	#     4726685    , 112261
 	print(corpus_size, vocabulary_size)
 
