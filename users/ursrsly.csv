@@ -1,0 +1,207 @@
+subreddit,self ID,parent ID,time,text
+aww,ffbucpc,t1_ffbqq9p,1579783040.0,He knew to always have a bag of treats.
+funny,ffbt8xu,t1_ffbewu6,1579781911.0,Now THAT'S rehabilitation.
+aww,ffbszmd,t1_ffbr4v8,1579781629.0,He can just borrow some from his Rottweiler buddy.
+aww,ffbsuuq,t1_ffbskkr,1579781481.0,"Eh, when mommy loves her fur baby she would never call it dumb."
+ProRevenge,ffakwq7,t1_ffaaa54,1579738317.0,He should probably thank them huh?
+ChoosingBeggars,ffaf78q,t1_ffaee61,1579734312.0,"I don't know what is calorie/cost efficiency, but a pack of maruchan ramen is like $.23 and has around 360 calories."
+ChoosingBeggars,ffaewmt,t1_ffae0u9,1579734084.0,"Jesus man, you're buying the imported shit. They're like $.25/pack if you get the 24 pack."
+Futurology,ff9taba,t1_ff9ckn1,1579720786.0,">If you have a source of free energy you need to develop and want to give it to the world free of charge good luck finding an investor.
+
+Is an investor even the right person to get money from if there's no expectation of returns?"
+Showerthoughts,ff6nb95,t1_ff6ejn4,1579630849.0,"My dad died in his 50s as a miserable and broke alcoholic. He was convinced that there was nothing he could do because the rich pulled the strings. But here's what actually happened. He didn't keep his skills current and high school kids could do 40% of his job right out of the gate.
+
+Instead of spending his life drinking and bemoaning the rich, he could have spent that energy keeping up with his education. He probably never would have been rich, but he could have been well off.
+
+Spend your energy on things you can control (yourself). You'll get more success that way."
+Showerthoughts,ff6m3ef,t1_ff624m2,1579630110.0,"The military isn't exactly that difficult to get into. Pass a drug screen, take a test that's hard to fail and sign up for a few years. Hell when I was getting out they started giving laptops to use for college that the government paid for. (US military)"
+Showerthoughts,ff6krgs,t1_ff65kwc,1579629303.0,">Now multiply by a nillion
+
+Holy fuck!"
+funny,ff3k6t8,t1_ff2rolx,1579542792.0,"Sorry, bad joke. I'm old enough to remember the original run."
+funny,ff2r5hz,t1_ff2l99m,1579520375.0,"Holy shit. Just how old are you grandpa? Err... I mean, what's punky Brewster?"
+SecurityBlueTeam,ff0h0o6,t1_ff09p2l,1579468816.0,"I think what happens is technologists say ""not having backups is risky"" and then follow that up with ""not having backups is a risk."" From a risk management standpoint not having backups is a vulnerability. The risk would be ""getting ransomware on our tier 1 application server without being able to restore it from backup would cause us 5 days of downtime."" In a more sophisticated team they could extend that to ""and would cost us $250k in lost revenue"""
+SecurityBlueTeam,feyoou2,t1_fex644h,1579448421.0,">Thanks for taking the time to provide feedback. 
+>
+>I wouldn’t know where to start on testing a java exploit, being honest. I could, I guess clone a PC, to replicate the environment but I wouldn’t know where to start trying to exploit the host. 
+
+Search for actual vulnerabilities in the java version they are using. Just because software isn't the latest version doesn't automatically mean it's vulnerable.
+
+>Let’s assume I could have the EDR AV working at tackling malware prevention - would you consider it 100% at preventing the exploitation, if the AV is linked with virus total? 
+
+No, it's a mitigation and not a fix. 
+
+>Assuming it was tuned correctly, would you then exclude an item showing a vuln with a CVE of 10 - with the exception stated that our EDR will mitigate it? 
+
+I wouldn't exclude anything. Senior management are the only ones who should be doing that through formal risk acceptance.
+
+>I’m not trying to be smart in the response above, I’m trying to figure out how others tackle the reported risk. In my mind, I would insist on patch/upgrade to mitigate the risk - but if you have a team of developers that state that they need the old versions, then does the EDR suffice in being the mitigation to the risk? 
+
+No problem, I get asked these kinds of questions all the time. I was very fortunate early in my career to have very experienced mentors who explained this to me and let me see it in action.
+
+>I have suggested isolating the development environments, with these old versions, but I’m being told that this is not a solution that they are prepared to work with.
+
+Have you considered showing the technical plan for how it could be done? They may still fight it, but I find people hear ""isolate the environment"" but what they hear in their mind is ""change your entire workflow so you can't get anything done.""
+
+See my other response for a more general view. Feel free to hit me up if you have followup questions.
+
+By the way. If you're not familiar with a risk register, go look that up and implement one. Just an excel spreadsheet will do. It allows you to track risk as well as show the value of the security team."
+SecurityBlueTeam,feym647,t1_fex644h,1579447472.0,"As a security analyst/engineer/architect, your job is to notify management of the risk. Your job does not entail accepting risk on behalf of the company. Unless you're a CxO of course.
+
+Also, a mitigation isn't 100% effective. That's why it's called mitigation and not ""the fix"". It's to reduce likelihood and/or impact of the vulnerability being exploited.
+
+Ensure that your management knows your concerns, why it's an issue and your recommendations to fix. Also, give mitigation options as 2nd and 3rd  best choices. Explain why they aren't as desirable as the actual fix (very little technical detail. H
+
+CxOs (CFO and CEO in particular) understand risk. Most security practitioners confuse risk and vulnerability. The units of risk should be money. Otherwise it's either a threat or vulnerability.
+
+Anyway, I figured there'd be plenty of technical answers but much of what we do isn't technical in nature (such as considering how much overhead it would take to upgrade to the latest java versions vs not upgrading)"
+SecurityBlueTeam,fevr111,t3_eqo2z2,1579400468.0,"Your edr, when configured appropriately can be a mitigation. Have you tested any java exploits against a host with your edr on it?"
+LifeProTips,fetejvr,t1_feta7um,1579374605.0,">As soon as Steve Gibson switches to 10, I will.
+
+The FUD hypemaster."
+askscience,fes8fvk,t1_ferpmth,1579362515.0,"""So gentlemen, as you can see, the 105mm cannon provides the scientifically appropriate amount of energy for controlled avalanches to save lives.""
+
+""Holy shit John, you did it... We're getting the goddamn cannon! This is going to be so much fun"" (stop it, I'm not going to say it's going to be a blast)"
+cursedcomments,fer88pt,t1_feq91o0,1579351021.0,That's why the women were always smiling and the dudes looked exhausted.
+funny,fer7r5a,t1_fer2tri,1579350886.0,"> Why is everybody using this gif as a free pass to sound like a dickhead?
+
+Good question. Seems to be working well for you."
+holdmyfries,fenymf4,t3_eq50xu,1579292678.0,This is why you wear a belt.
+aww,fent9ew,t1_fenhncn,1579290472.0,"""Say hello to my little friend. No I'm serious, he's a nice kitty, say hello to him."""
+Showerthoughts,fenkue9,t1_fenj6vp,1579286841.0,"I used to live on the Tennessee side down there. Nothing to do but drink and cook meth. 
+
+Cops get bored..."
+funny,fen41xn,t1_fen2cmj,1579276503.0,Just don't ask her if she's pregnant.
+MGTOW,femjw0v,t1_femfm3a,1579259308.0,*gags*
+science,felq05j,t1_fel9xkw,1579228129.0,"Fuck, I wish that'd work on me"
+AskReddit,feliyyi,t1_felgqn1,1579223307.0,Must've been a coach for little league sports.
+Art,fejlai9,t1_fejjvbc,1579178732.0,I think I saw this one. Rutger Hauer was in it.
+ChoosingBeggars,feitdvu,t1_feipijd,1579146713.0,"> They only drug test poor people, it's just another way to say 'fuck you' to the lower classes.
+
+This is bullshit. Every high paying job I've had was drug tested before being hired. 
+
+Also, it ain't the rich people pushing the poor to do drugs no matter how much you think it's true. That's shit they do to themselves."
+pics,feik6qk,t1_feihnp4,1579140429.0,"You aren't a good person until you've done drugs, fucked over your family repeatedly, ruined every holiday since '94 and, right when they're about to kick your sorry ass out of their lives and onto the street, you see the light and stop drinking for 1 month.
+
+Until then? You'll never understand."
+Jokes,fehab2n,t1_fegr7fd,1579112429.0,"40 years old and same, though probably from different regions."
+Showerthoughts,feha0rb,t1_feh7r5w,1579112256.0,I presume that's because the money gained through saving isn't taxed whereas the additional income would be. Are there other considerations?
+pics,feh9d5t,t1_fegvcua,1579111858.0,Get a load of this guy!
+science,fedi70e,t1_fede9om,1579012164.0,"> The last meteorite found in my area was in 1949
+
+I'm gonna go with ""no""."
+mildlyinteresting,fed6law,t1_fecusk8,1579001349.0,Already basting in her own.
+AskReddit,fecn7ff,t1_fecdhaa,1578978127.0,Angry much?
+AskReddit,fecmwhy,t1_fec8pn3,1578977885.0,"So then ""aftermark*t"" is a no go term?"
+Showerthoughts,fec1lfx,t1_febxe74,1578965319.0,Need a big truck to haul the ~~trailer~~ manufactured home.
+AskNetsec,feaib9c,t1_fe91y0w,1578949131.0,"Perhaps a user would be more willing to break company rules after resigning, but I highly doubt they are all of a sudden looking to break laws which is where the biggest risks tend to be.
+
+I'm with you though. Barring other information, a resignation isn't that interesting from a risk perspective to me."
+AskNetsec,feahxel,t1_fe91kbx,1578948969.0,">Not sure if you’re trolling or not... but in the event that you’re not; things change, people change, politics, user is jaded, financial trouble... just a few things off the top of my head. Also can’t remember the last time I hired someone and could say with absolute certainty that I trusted them after a few interviews.
+
+What do any of those things have to do with a person's resignation? Those are things that happen anyway."
+cursedcomments,fe7phd6,t3_eo2h8n,1578917728.0,"Everyone else is treating it like a 15 year old boy would... Except dude on the left ""this is the moment I've been waiting for."""
+funny,fe7lju4,t1_fe7figy,1578916189.0,Easy there. No-one said you needed to shower.
+funny,fe5189h,t1_fe50ikg,1578864712.0,"Naw, gotta pay it out like a salary. Once they have all the money they can fuck off."
+cursedcomments,fe4bnci,t1_fe4a1oy,1578857644.0,"As a guy, I still wonder exactly how thirsty you need to be to drink that shit (with the assumption it's actual bath water)"
+MGTOW,fe46dxq,t1_fe41w9h,1578856194.0,Exactly.
+tifu,fe44bhp,t1_fe3bgmq,1578855690.0,That son of a bitch.
+tifu,fe444eg,t1_fe3jc64,1578855638.0,"I don't think what he said implies that at all. I can find a random woman attractive and also find my wife attractive. I also find my wife attractive when she was 16. It's when we started dating, back in 1996. She looks substantially the same to me, just older now (obviously)."
+pics,fe3knmc,t1_fe31dk4,1578850176.0,"""Not covered by acts of God? Well if you can prove to me that God exi...""
+
+""Jesus Christ Bill, do you have to do this here?!?"""
+nottheonion,fe2lz6u,t1_fe2kdy8,1578840278.0,"I definitely get how the athlete couldn't afford it, it was posed as the country couldn't afford it. Anyway, it mostly had me curious on just how much it would cost."
+MGTOW,fe2l2jr,t1_fe23be5,1578839747.0,"Perhaps. My grandfather was a hardcore, union supporting Democrat. How he viewed it was ""management is a pain in the ass and don't know how things work on the ground. Work hard for the company and union and they'll take care of you."" 
+
+This was until he passed in the mid 90s. I'm rather conservative these days, but I wouldn't disagree with most of his ideas. He was a hard worker and didn't want handouts. Help people when they struggle, but that means helping them get on their feet, not just hand them stuff for nothing.
+
+Something seemed to change in the 90s (I was a teen so I can't say I know what it was) all I remember was ""women want a sensitive man"" and things started turning to ""I'm owed something because they're rich and I'm not"".
+
+Anyway, I don't know if it makes sense but things have gone much further left since."
+MGTOW,fe2jqoc,t1_fe20bpc,1578839209.0,"I miss the culture of ""you're an expert. Get shit done and don't break anything in the process."""
+HowToHack,fe2gldl,t1_fdzo7ha,1578838097.0,Your VPN provider definitely knows the  real IP address of the machine you're connecting from. They'll also know what you're connecting to from the VPN. So you'd want a VPN provider who doesn't keep logs.
+nottheonion,fe27r3x,t1_fe209go,1578835404.0,Based on your comment that a country couldn't afford to send her properly and my ignorance on how much it would cost. How many thousands of dollars would it take to send her and which country couldn't afford that?
+pics,fe0l6kk,t1_fe0dfeu,1578815395.0,">Humans kinda quirky doe 😳 
+
+Yeah them veggies probs cost a few bucks."
+science,fdsmz53,t1_fdsl3n2,1578705334.0,"Now you're being willfully ignorant. Sock owners aren't sock enthusiasts, car owners aren't car enthusiasts. Those aren't hobbies for most people who own them. That's probably not true of gun owners. Like all hobbies, the person will find them fascinating (otherwise it wouldn't likely be their hobby). 
+
+Also ""almost all"" gun owners would say that? No, my friend, ""almost all"" wouldn't. It's ok that you don't like guns, but stop making shit up."
+science,fdsj1xw,t1_fdsen64,1578703703.0,"They can be well versed in gun safety at a young age. There are a few key safety issues, but it's not like there are too many for them. It's their lack of decision making skills that keeps then a liability until much later. And that's why you teach them young but don't trust them when they're young."
+aww,fdqnyyq,t1_fdqed7m,1578671121.0,">GIVE IT TO THEM YOU MONSTER
+
+Is this one of those ""hidden puppy"" pictures?"
+tifu,fdq6u45,t1_fdpz74l,1578657378.0,"Dad: whelp, I ain't ever gonna hear her say ""you gettin high again?"""
+tifu,fdq6r45,t1_fdq2fs7,1578657282.0,When they come for you!
+nottheonion,fdp12nd,t1_fdou4ch,1578617478.0,"He used to take those 50-100 pages and call them short stories (he may still do, I haven't read his stuff in 20 years)"
+funny,fdinxz4,t1_fdi7kmv,1578447131.0,"Interviewer: what's your biggest weakness?
+Interviewee: Hrrm. Probably my honesty.
+Interviewer: I don't think that sounds like a weakness.
+Interviewee: well I don't give a shit what you think."
+mildlyinteresting,fdikemg,t1_fdi8mf7,1578444872.0,It seems that Arch is the new slackware? Fuck I'm old.
+ChoosingBeggars,fdgkn6o,t1_fdgbckz,1578400501.0,"> I thought that was really nice. But he never did another job for them again.
+
+That's the old ""you never have a reason to come back"" job. They won't come back because of embarrassment of their bad choices and they don't need to come back to complain at the quality."
+ChoosingBeggars,fdgkap3,t1_fdg4ohj,1578400149.0,"But then ""they spent half the day drinking tea! They could've been done in half the time and charged half as much!"""
+ChoosingBeggars,fdgk791,t1_fdgiuah,1578400053.0,"As stupid as it sounds in daily life this is, apparently, a very special skill. I get questions all day long where I can point to a quick Google search for the answer to a straightforward question."
+ChoosingBeggars,fdgk2ki,t1_fdg7woa,1578399920.0,"As an experienced infosec engineer (but inexperienced programmer), I don't care about your Google fu (I can do that myself) nor about your code structure (I can see that when you're done). I want to see your thought process at each step. 
+
+Important to me:
+What did you do?
+Why did you do that? Why not an alternative?
+What were you considering when you structured your code that way.
+
+Those are the most important details that I can rarely find in courses and tutorials."
+Showerthoughts,fdfw6eg,t1_fdftkno,1578371845.0,Exactly. It's safe to predict that shit is gonna kill you.
+science,fdcswmp,t1_fdcsvbm,1578283393.0,How does that benefit the field?
+science,fdcsd9q,t1_fdcqvhj,1578282943.0,"I've always found this curious. What, specifically, do women in particular bring to the IT field that we need? To clarify, what attribute do women have to benefit the field that men either do not or cannot?"
+Futurology,fdbzgku,t1_fdbxcba,1578264275.0,Yeah I can definitely see that happening at a branch type office. That's definitely the kind of situation to find your way out of. I'd probably stayed going to the office though. Eventually you could find something to do for your resume. Plus probably be less anxious since you'd not be worrying about getting caught sitting at home.
+Futurology,fdbz781,t1_fdbpbf4,1578264140.0,"Yeah I'd imagine so. I've also had the same years ago when I worked for a small msp early in my career. The owner wanted to make sure he was getting full value from us. I don't necessarily blame him since a lot of people fuck around all day if you let them. 
+
+But for me, if I'm ""screwing around"" I'm very likely taking a break from a nasty problem. With that said, I've earned that leeway solving hard problems, training people how to do their jobs and mine (my value to the company isn't tied to tasks I do and I'm happy to let anyone on the team ""peek behind the curtain"") and overall being enjoyable to work with (I'm a pain in the ass at times)
+
+Anyway, I enjoy what I do and I happen to make a good wage with it."
+Futurology,fdbpbk6,t1_fdb2mmr,1578259781.0,"This is something I do with my team but it's less formal. Mostly I'm trying to make sure they're learning their tasks, are reasonably happy and staying busy. There's always something valuable to do and the odd time I hear ""well, I'm leaving since I don't have anything else to do"" I'm thinking ""riiiiiight""."
+Futurology,fdbp156,t1_fdbdl9f,1578259623.0,Infosec team lead here and I'm always busy but no-one is micromanaging my tasks/time. Probably because I always find productive things to do. I wouldn't put up with it for long.
+Futurology,fdboik8,t1_fdbbyx7,1578259523.0,No one else on your team (assuming you were on a team) would give you stuff to do?
+Futurology,fdbaftt,t1_fda9qbc,1578255488.0,"Ok, but if share holders don't get profit returns, who is going to provide funds to build these enterprises in the first place?"
+AskReddit,fdan59l,t1_fdakyja,1578247880.0,"This is a good idea. My wife knows my lastpass manager account details since she handles all of my personal stuff. I've also set her up as an emergency contact in it where she can request access to it and I receive an email about it. If, after 24 hours (configurable), I don't block the request then she gets full access. This is important because my phone is my second authentication factor and if the account is logged out, her knowing the password isn't enough.
+
+Access to an email account isn't always sufficient to get access to other accounts she might need if something happens to me."
+Futurology,fda3r96,t1_fda1ism,1578241341.0,"Not true. People would absolutely gripe, at nearly any wage, if someone works less or fewer hours than they do for their money."
+nottheonion,fd9cixl,t1_fd96sig,1578231494.0,">Yeah otherwise you can just drug someone and if they remain unaware you’re Gucci
+
+Except, you know, for the drugging someone part."
+LifeProTips,fd2nr47,t1_fd21lo4,1578149838.0,"My understanding on this is that if an entity has done business with you and the call is substantially related to that business, they can call. Admittedly my knowledge in this is from several years back and may not be accurate still."
+LifeProTips,fd2mu8o,t1_fd0ze01,1578149470.0,"Most scam emails are pretty easy to spot, we (as infosec professionals) really just want our users to pause a moment when looking at an email. That's normally enough to snap them out of their email trance long enough to delete the message (because they realize it isn't relevant to them) or report it if they think it's odd.
+
+Edit: I tell my users that if an email even seems ""weird"" but they aren't sure why to send it to us. Most of the time it's fine, but I'd rather my team spend time on a false positive than clean up after a true positive."
+LifeProTips,fd2ltz9,t1_fd2j54f,1578149057.0,"Having been on the infosec team managing these, I automated most of the shit. If they're at all good, you are wasting more of your time than theirs."
+askscience,fcy9vlz,t1_fcy3ime,1578076821.0,"The ""cigarette burn"" scar doesn't go away. My dad had his (old enough to have gotten it when he was a kid) and I have mine from vaccine in army about 16 years ago."
+pics,fcw34n1,t1_fcw2buk,1578016043.0,">Can't put a price tag on passion
+
+But you can on rent, groceries, utilities and etc."
+LifeProTips,fcsjz07,t1_fcsb3b8,1577918083.0,">Friend chicken isn't even good reheated!! The south is wild.
+
+Agreed, pull that shit outta the fridge and pick it to the bone."
+ChoosingBeggars,fcs4l7z,t1_fcrpjuj,1577911382.0,"Nice try Mr. ""Imma steal your bike"" guy!"
+ImGoingToHellForThis,fcqkvds,t1_fcpl81u,1577887794.0,A dildo packing genetic material needs to be sanitized better.
+cursedcomments,fcofwqi,t1_fco92nu,1577831263.0,Don't buy it?
+ImGoingToHellForThis,fcmixhm,t1_fclex44,1577777137.0,That's a pretty powerful argument. But what are the downsides?
+funny,fcmdphu,t1_fclulp7,1577771584.0,">We all need to reconnect by the heart.
+
+I knew sisters like this. The doctor said it wasn't healthy and had to separate them."
+funny,fcmdhl9,t1_fcl5ogz,1577771378.0,"""Oh cool. Finally an app that does the impossible! $1.99? Fuck what a rip off! Nevermind."
+funny,fcm7xam,t1_fcm4av9,1577766595.0,Did you tell them that?
+MGTOW,fcm4jhm,t1_fckl689,1577764054.0,>Not in my city lol. 100-150 here but I gues it depends on ~~cost of living~~           what people are willing to pay.
+mildlyinteresting,fclyyci,t1_fcl8d2b,1577759917.0,Is there's a prize for getting a queer's eye?
+mildlyinteresting,fclyua8,t1_fcl2bm9,1577759833.0,Shy bladder or paruresis to get really technical
+ChoosingBeggars,fcj5dky,t1_fcj1q74,1577677681.0,Oh noes she could be in such a bad place... That she's worried about a fucking tattoo.
+ImGoingToHellForThis,fcck4g2,t1_fccf6az,1577599313.0,"So you have up a chance to have a book with diverse characters in it published because the publisher wants to sell books? Is a name the entirety of a person's diversity?
+
+More like, you don't even have a shitty book that no publisher would entertain looking at. The only story you could come up with is about a book you've not written being tossed out by a publisher that doesn't exist. NY Times best seller list material if you ask me."
+SweatyPalms,fcbubps,t3_egxujx,1577591060.0,"Hey, I played this game before!"
+science,fcbsxpj,t1_fcb6wy1,1577590614.0,"What's that number based on? It seems the soft ""sciences"" are struggling to get to anything meaningful.
+
+Like even if the sample size is larger, what value would this shit provide?"
+tifu,fcayfsb,t1_fc9x14x,1577579093.0,*clap* *clap*

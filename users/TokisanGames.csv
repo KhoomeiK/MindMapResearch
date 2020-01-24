@@ -1,0 +1,252 @@
+subreddit,self ID,parent ID,time,text
+godot,ff8ljhx,t1_ff8j5yb,1579684407.0,"Op, I don't know anything about MonoGame. It may be a great engine and do what you want. But don't discount community. This becomes critical when you need support or bugs being fixed.
+
+Look at the pulse and engagement of the engine when considering if the community will be able to support you. Read through issues on github and see how problems are solved.
+
+https://github.com/MonoGame/MonoGame/pulse/monthly
+
+https://github.com/godotengine/godot/pulse/monthly
+
+Finally, the best way to avoid losing time with the wrong engine is to download and use both. You won't be able to make an accurate assessment without this."
+godot,ff8j8ew,t1_ff8hajq,1579681013.0,"1. There have been over 1000 contributors to the core engine code, period. And that number is growing regularly. I've been working on a PR to add FastNoise and FastNoiseSIMD to the core and it's far more than fixing a typo.
+
+https://twitter.com/TokisanGames/status/1216814485400240128?s=19
+
+2. There are ""many thousands more making (tutorials || plugins || games)."" There, I used operators for your language processor. Facebook group has 17k people. 31k in subreddit. My recent Godot videos have gotten thousands of views, other channels have the same. 11k people follow Juan on Twitter, and 22k Godot engine. So yes it is objectively true. 
+
+3. C# is becoming a primary language along with Gdscript, VisualScript, and C++. Microsoft gave Godot a grant to hire a developer to create support for it over a year ago.
+
+https://godotengine.org/article/godot-3-0-released#csharp
+
+Everything I wrote is objectively true. You projected extra meaning into what I wrote by interpreting ""a team of >1000 full time developers"", ""thousands of tutorial creators"", and ""C# built natively into the editor"". I didn't write or imply any of that, so please chill out."
+godot,ff8hnui,t3_erh7rd,1579678931.0,"Everything you see on screen is drawn with a shader. A pixel shader, aka a fragment shader, tells the graphics card what color each pixel is. In 2D or 3D, doesn't matter. 
+
+Shaders are generally applied per material. So you could use them to achieve an art style by using the same concepts in every material. You could also apply it to your whole screen as an effect. But you may have to do some wizardry to achieve what you want, in 2D or 3D.
+
+Shaders are an advanced topic, and the shaders in Shadertoy are extremely advanced. Basically if you see anything in Shadertoy that looks 3d, then skip it. It's using raymarching and adapting that for your use is months beyond a beginner.
+
+Here's a 2D shader I wrote that allows you to play with fractals in real time. Watch the video, links to the binary project and source code are in the description. 
+
+https://youtu.be/zfA0jLDRCZ4
+
+In this video I show three scenes. 1) landscape made with a shader that triplanar maps grass and rock textures depending on the normal direction of the surface. Cloudy sky is a raymarched shader from Shadertoy. 2) Sandstone is a 3D shader, separate cloudy sky shader. 3) Space rock is a 3D shader. Space background is a raymarched shader from Shadertoy.
+
+https://youtu.be/wmgALZzPK3A
+
+Also I've been talking about starting a 3D shader code video tutorial series. What are topics you'd like to see?"
+godot,ff8graw,t3_ers2fe,1579677767.0,A few renames in your code. Don't wait. Start using 3.2 now. Godot 4 is 6-12 mos away for a reliable alpha.
+godot,ff8fzkq,t3_erx2r6,1579676808.0,"> a good 2D engine that was not Unity
+
+Check. We have this one in the bag.
+
+> The latter seems better because it’s an engine and not a framework.
+
+Community size and engagement are also very important. Godot has over 1000 contributors to the core engine, and many thousands more making tutorials and plugins and games. 
+
+> The part that worries me is the network and related performance. Can Godot handle it ?
+
+Gdscript allows for rapid prototyping, C++ and C# for slow modules. C# is becoming a primary language for Godot. By the time you are ready to release it should be pretty solid.
+
+However you can easily, and should, download it and try it out with some networking tests in gdscript and using your library. That will give you the best reassurance. I haven't gotten into Godot's networking yet, but I do a lot of 3D and voxels and it's reasonably performant."
+godot,ff3fs2r,t1_ff3b925,1579540152.0,"You have a firewall on your laptop that tells your network stack to drop the packet. Allow icmp through your firewall to get pings. Also your firewall needs to not close off the network ports you're using. 
+
+Like with tcpdump/Wireshark, if you want to do network programming you need to become intimately familiar with firewalls and IP. You can start by disabling your firewall during development. But you should normally keep it on. Instead it's just better to become familiar with how to configure it so you know it never blocks any of the protocols, ports, or packets you are using. Dumping your network is the way to determine what packets are actually being put on the wire, which are being received, what the packets actually look like, etc."
+godot,ff022yq,t3_er1bzc,1579464402.0,"Try Godot 3.2.
+
+Test your RTT to the other machine with ping. Transfer speed is irrelevant. Response time matters.
+
+Run tcpdump or Wireshark and actually monitor your packets. Never do network programming without them."
+godot,fekkko7,t3_epns4v,1579201988.0,"Safe? I'm sure you'll survive.
+
+Is much easier to learn than other engines I've used. Follow the tutorials in the docs. Gdscript is good for you to learn. IMO, everyone should learn to code and not rely on visual scripting."
+Steam,fecngt9,t1_fecn0nv,1578978332.0,The screenshot is offering to trade your gun for nothing. The text is meaningless.
+gamedesign,fe9g85w,t3_eo6cbe,1578937232.0,"Many game designers I know spent their free time designing game mechanics. Many game developers grew up programming. Artists were drawing. Musicians were playing music.
+
+Playing games does not lead directly to any role in game development. It might lead to being a competitive esports player if you are very, very good and dedicate all your time to it.
+
+You can transition from being a content consumer to a content creator. But you'll have to stop playing games to consume them, and start playing them to study them. You'll have to pick a discipline (programming, designing mechanics, art, music, sound design, marketing, pr, financing, producing, management) and start working on building out your skills and experience. You can explore these areas and see what you like doing. 
+
+If you want to be an architect, look at a degree in game design, but really you should get some game design books and start designing game mechanics and see if you want to spend four years doing it. In fact I wouldn't go to college for game design. I might for programming, but if I were to do it over again today, I'd avoid college. I have a CS degree. 
+
+There's no job where you can come in as a newbie and start directing millions of dollars of resources (game dev and artist time) to implement your unproven vision. Had you made flappy bird or another hit, maybe."
+cats,fe9caxi,t3_env7gj,1578936307.0,No wasted energy. Very efficient kill. 10/10.
+gamedesign,fe9avws,t1_fe6mtov,1578935977.0,Agreed. You have a large learning curve either way. 3D is larger. But the two paths diverge. Better to start working on what you want to work on.
+cats,fe99zox,t3_eo1436,1578935710.0,"Wow, she's such a good helper! 
+(unlike the person filming, lol)"
+godot,fe97y37,t1_fe8hclj,1578935162.0,"Javascript and PHP work hand in hand. One is server side, the other client side. Your prejudice about PHP is unwarranted. It's a good web language.
+
+Some of the frameworks are rather large and cumbersome, but there are many to choose from, and don't have to be used at all."
+animation,fe93u9u,t3_eo3ptr,1578933880.0,I don't think I'm old enough to watch this. Mark NSFW next time.
+gamedesign,fdj3l3x,t3_ellvzh,1578457526.0,"> I am not able to find time to learn programming.
+
+I picked up a book on C++ and learned to program myself at 17. I was programming BASIC and LOGO in the computer lab with my friends years before. And on a commodore 64 at home before that. 
+
+I had a book on 3D programming in C++ but I never found the time to work through it and make my own 3D engine. I wish I had.
+
+You can find time to learn programing, you just don't want to. If you really wanted to, you would make it a priority. Instead of playing games you'd be making them. Instead of playing on your phone or talking with friends on lunch breaks you'd be going to the lab to work on your projects. As you learned you'd be talking with your teachers about replacing school projects with computer programs you'll write. Teachers love that kind of initiative.
+
+The attitudes, interests, and work habits you develop now and over the next 4 years will dramatically shape what your college and adult life look like. Most of your peers will waste their time. You have an opportunity to set yourself up to pull ahead.
+
+To answer the rest of your question, pretty much nil. Everyone already has game ideas they went through the hard work of learning to program, write, or make art to see come to fruition. 
+
+The best way for you to become adept at designing games is to pick up a game engine and learn it well enough that you can prototype games. Then make tons of them. Once you have a great prototype, then you have a chance at bringing in other people to help you build it up.
+
+Also I'd recommend Godot over Unity. The engine and the scripting language are easier to learn. 
+
+Good luck."
+3Dmodeling,fdj1ppt,t1_fdig751,1578456178.0,そうです
+3Dmodeling,fdj1j5i,t1_fdiz3bf,1578456053.0,"I got it. It looks vaguely Japanese. Though you do have one Japanese character: フ and that one again turned around, and another turned sideways: キ. And it's on a calculator that looks like it was made by Casio or some other made in Japan product.
+
+What about making some star trek data pad, or a complete touch screen. I mean the calculator is 80s tech. Even today we have touch screen data pads in our pockets. What if you made a data pad that was beyond our technological reach, like a holographic display or a piece of paper with glowing text, or something?"
+animation,fdiei0o,t3_elepmg,1578441086.0,"His height changes quite a bit throughout. Taller and shorter, back and forth. 
+
+Right after climbing the first ledge he turns into a jelly fish, losing all bone structure."
+blenderhelp,fdidunt,t3_elgx1o,1578440661.0,"Enable your GPU and CPU. 
+
+Update GPU drivers.
+
+Post OS, version, and blender version so people can help you. 
+
+How many vertices/faces?"
+3Dmodeling,fdibewn,t3_elf16n,1578439176.0,誰が来るの？ 日本人ですか？
+cats,fdia9rn,t3_elgfz9,1578438561.0,Cat egg.
+godot,fda3prg,t3_ek8i95,1578241324.0,"How fast are 4 million?
+
+https://youtu.be/pmyOYInhlkI"
+godot,fczwssh,t1_fczcfku,1578109960.0,"Multi mesh instance
+
+Yes I've seen your grass video twice and will be implementing it in my own demo soon. Thanks for it."
+godot,fczwne6,t1_fczabet,1578109885.0,Excellent! Thanks for jumping on it.
+godot,fcylg83,t1_fcyl8x2,1578082185.0,Dm me your email address.
+godot,fcy8sdu,t1_fcy7rav,1578076451.0,Got it. It's fixed now. Thanks for the heads up.
+godot,fcy75b8,t1_fcxxqvt,1578075788.0,"Which url? When I click the links, in an incognito window or no, both the github proposal and the youtube videos go through fine. On the youtube link it goes to github. I don't see any warnings and am not sure which link you are referring to."
+godot,fcxj8pz,t3_ejgn31,1578064288.0,"Would you like Godot to have better default lighting?
+
+Thumbs up, or comment on this proposal: 
+
+ https://github.com/godotengine/godot-proposals/issues/348"
+godot,fcv9vic,t3_eioa31,1577997669.0,"Great to see Godot being pushed to its limits!
+
+Could you do this with a particle shader? How does it compare with MMI?"
+gamedev,fcv7su0,t3_ej2k5x,1577996430.0,"Use UE4 plus the voxel plugin. Or Godot and the voxel module. UE4's is much more mature. Don't bother creating your own voxel engine for the same reason to not bother creating your own game engine. If you want to be an engine creator, fine, but if you want to be a game creator, then use pre-built tech."
+cats,fcv7gsi,t3_ej27dr,1577996228.0,"""This is your responsibility, meow!"""
+gamedev,fcv6kty,t1_fcv3k04,1577995700.0,"The most important thing to do is finish it and as the producer that is your only job. I would get serious about limiting your project scope and defining a realistic schedule.
+
+I would write off your team. I would plan out how long it will take you individually to make the prototype. Then I'd let your team know, ""hey, I'm going to make this prototype so we can play it, see if it's fun and decide if we want to continue with the project."" Then I'd make the game with free online art assets and sounds, and you as the only programmer. If they join, fine but it's unlikely now. 
+
+You don't need their art or sound for a prototype, at all. Asking for art and sound before you have a prototype is a waste of their time, I'm sure they felt that. 
+
+Next evaluate if your game is actually fun and worth spending more of your time on. If so, then I'd have a heart to heart talk on the phone/video with each person individually, and I'd say, ""hey we have a prototype, I think it's great and I'm committed to making this. Here's my estimated schedule, and my planned scope. Are you still interested? If not, that's OK I'll find someone else. And you can jump in later if you wish, I just need to know so I can plan. Why don't you try out the prototype over the next few days and let me know.""
+
+Then after three days start recruiting new people. now that you actually have a prototype, you have something tangible for people to jump on board with. /r/INAT and other places. Be continually recruiting to fill out what you most need. Learn from your mistakes and realize that you broke your team due to mismanagement of them, the schedule, and/or deciding to work with friends who were never going to work out anyway. Again as the producer, the only thing that matters is finishing. The success or failure falls entirely on your shoulders.
+
+Finally, the flipside of listening to their creative input is not too much. You still need to have a vision that team members can subscribe to and enhance, and not be totally open ended.  Your idea is an archeologist teacher / adventurer who fights Nazis and chases the ark and the holy grail. If your team member says ""what about aliens?"", you gotta say ""interesting idea, but no""."
+gamedev,fcv2rwm,t3_ej1jjb,1577993454.0,"What have you been doing for 7 months without a prototype?!
+
+First you should be prepared and committed to finishing the project on your own, without any of them.
+
+Next you need to be cognizant of and eliminate any demotivational behavior. For instance having your priorities so out of whack that you have their attention/time for 7 months yet haven't even made a prototype yet. Wasting their time will kill your team. Not verbally appreciating everything they do will demotivate them. Demanding they do anything, or suggesting too strongly, when you're not paying them, will do so as well. 
+
+Working with friends is generally a bad idea. They rarely have the same interest in working as hard as professionals you hire, or professionals looking for credit. Your friendship allows them to slack off. Confronting them or even firing them from the team may be necessary, but if it's your friend, it could lead to a falling out.
+
+What is motivational is a good, friendly, mature, committed leader who is organized, continually moves the team toward progress on a solid plan with a tightly controlled scope with the finish line always visible, an excellent communicator, one who freely gives out sincere praise to those who earned it, one who blames team failures on himself, one who solves or finds solutions to his people's problems, personal, professional, technical, or creative, one who listens to and acts on his teams suggestions and encourages their ownership, creative input, and autonomy.
+
+Have you had any good bosses you liked working for? How have they behaved and treated you? Do that."
+linux_gaming,fctezw4,t1_fcsuith,1577941146.0,"Agreed. Op, your current plan will equate to 4.0 release coming and going and by the time you finally release something, Godot 19 will be coming out. Start learning now with the tutorials. Start learning to make art. Join game jams. Just do a little bit in your free time between work and studies. Then when you have larger blocks of time to devote to a project you'll be able to hit it hard with experience instead of starting from zero and going through tutorials."
+linux_gaming,fcr88ac,t1_fcqqpb1,1577898218.0,"Rewritten renderer with Vulkan support, realtime Global Illumination, planned occlusion culling so far."
+cats,fcnz5h9,t3_ei23cv,1577821218.0,\* Meowney
+godot,fcny8vl,t1_fcnu2o8,1577820763.0,"I'll be starting a shader code series soon focused on 3D. I've been working on an outdoor lighting tutorial first that will be out in a couple days, because materials and shaders are pointless if you don't have good lights.
+
+This Twitter thread talks about it, showing exactly why it's needed. https://t.co/SxkdZW3VRs
+
+https://www.youtube.com/c/TokisanGames"
+godot,fcn1l3f,t1_fcn1euo,1577800640.0,"Good. Write down the exact installed driver version reported in device manager. And save the specific driver install files some where, along with a text file of instructions of steps you did so you can work though it again if need be on this system."
+godot,fcmrb35,t1_fcmr41r,1577788363.0,"Install with the exe or my recommendation, by telling device manager to use the files in the driver directory (with a .Inf file)?
+
+You can always reset by uninstalling whatever current driver, and rebooting. It should detect and install what it thinks is best based on drivers previously installed or from windows online.
+
+You are using hardware that is unsupported by your os and vendor. You might consider downgrading to windows 8/8.1 so you can use supported drivers.
+
+In your previous install you probably had win7/8 with working drivers, then upgraded it to win10, which retained the drivers. You've got to find and install drivers that will work, downgrade to windows 7/8, or get a new system. 
+
+Godot needs opengl drivers that support opengles 2. Until that happens, it's a no go. The gl extensions viewer I posted will show you what your current driver supports."
+godot,fcmqcqm,t1_fcmp6kq,1577786999.0,"Probably wants windows 8. Or you got the wrong bits. Or you don't actually have an HD 3000. That Intel link has a system detection option. In any case you don't need the installer, you only need the drivers. Extract the files from the zip. Then install the driver from the device manager and select the specific folder that has the drivers. You might even need to edit the driver ini file to allow it to be perceived to be compatible with win10."
+godot,fcmhrj7,t1_fcmdx1f,1577775763.0,"The information we're looking for is that you have either an Intel HD Graphics 3000 or an Intel Graphics Media Accelerator (GMA) HD Graphics. Which one? You can probably tell by matching up your exact cpu:
+
+https://www.notebookcheck.net/Acer-Aspire-5349-Series.71844.0.html
+
+This says the GMA supports opengl 2.1
+https://en.m.wikipedia.org/wiki/Intel_GMA
+
+This says the HD 3000 supports opengl 3.1
+https://www.intel.com/content/www/us/en/support/articles/000005524/graphics-drivers.html
+
+
+Driver dates are essentially irrelevant. Look at the driver version you have installed and compare with Intel's website. Neither card is supported under windows 10. But maybe you can download the latest for windows 8 and your bits. You have a second generation Intel processor. Reinstall the latest appropriate driver from Intel, no where else. 
+
+https://downloadcenter.intel.com/product/97498/Graphics-for-2nd-Generation-Intel-Processors
+
+
+Once you have the drivers from Intel installed, you can run the opengl extensions and see what your card supports. If it doesn't detect at least opengl 2.1 on the GMA, then your drivers are messed up/not compatible. 
+http://www.realtech-vr.com/glview/"
+godot,fcm7up5,t1_fclyr4m,1577766538.0,"Which mfg and model of integrated graphics card?
+Did you get the video drivers from acer or from the chipset mfg? I assume Intel. Intel likely has newer drivers."
+godot,fckqf58,t3_ehonhy,1577730953.0,Update your video card drivers. What kind of card do you have? Is it a laptop with an intel/Nvidia combo?
+godot,fcjpj69,t3_ehjh31,1577698141.0,"Run it through a debugger. Maybe you can get a stack trace, or reason for the crash, even though you might not get full symbols. You can also watch variables and memory. 
+
+Run it with procmon and see if there are any windows system calls that flag errors, such as missing a file.
+
+Copy your project and start disabling and deleting things until you have the minimum elements required to produce the symptoms.
+
+If you're using mono, try a different version. My experience with mono is it seems very sensitive to versions and other factors."
+godot,fcgdqm8,t1_fcgcsvk,1577638909.0,You can call methods between gdscript or C++ classes. I assume it's the same with all supported languages.
+godot,fcblwio,t3_egyaup,1577588373.0,"Location is not a variable name in the class, but in any of its parent classes. Read the manual for the available variables. Click the Inherits classes for additional available variables. 
+
+https://docs.godotengine.org/en/3.1/classes/class_button.html#class-button"
+godot,fcbkarn,t1_fcahk9d,1577587856.0,"As the other guy said, yes. You can write in different languages, selecting per script. I don't use C#, instead I use C++. But I've built Godot with mono. Just download the mono version from the website and look up how to use C# in Godot."
+animation,fcbjd29,t1_fca9wa8,1577587549.0,"Wow, great feedback! Thank you!"
+pcmasterrace,fcbix0g,t1_fca6rpc,1577587408.0,Possibly true. I'd be in favor of banning memes entirely.
+godot,fc9qht5,t3_egpfdk,1577556667.0,"What area of CS are you interested in? Work on that. Rendering & graphics? Memory management? Shaders? Networking? Animation? Languages? Threading?
+
+Look at the GSOC recommendations for desired efforts.
+
+ [https://github.com/godotengine/godot-roadmap/blob/master/GSoC/GSoC-2019.md](https://github.com/godotengine/godot-roadmap/blob/master/GSoC/GSoC-2019.md) 
+
+For smaller projects, tackling random github bugs are also good and can help start small."
+pcmasterrace,fc9pbz4,t3_egqn6j,1577556138.0,"These memes get old really quickly.
+
+Imagine having a subreddit with good content. - Made by the over 18 gang."
+pcmasterrace,fc9ouwf,t3_egqhoo,1577555930.0,"This post was NOT made by the third world gang because they obviously don't have a computer on which to make it.
+
+Also nearly every country on earth has big cities with electricity, computers, big money, and tons of phones."
+godot,fc9ng03,t3_egsuie,1577555325.0,"You define what ""dying"" means. You're probably deleting the player with queue\_free(). Don't do that. Just disable/move it until respawn."
+godot,fc7uvl7,t3_egndkz,1577519248.0,"If you know C# already, use it. If you're learning from scratch, use GDScript. Only when you have slow code that needs to be faster beyond what Gdscript can do, port that one section to C# or C++. The latter is significantly faster, but both are faster than Gdscript.
+
+> Is Godot leaning towards using C# and will deprecate GDScript in the future?
+
+No and no."
+blenderhelp,fc6mqun,t3_egfs68,1577484256.0,"These specs are incomplete.
+
+For general system performance, use an SSD. Likely only #3 has an SSD. 
+
+For predominant use being 3D apps and games, get the best GPU you can afford. This info is also not included. 
+
+Option 3 has the fastest processor, which is good for cycles renders, but it's not necessarily the best for eevee renders or other usage. 
+
+The choice between a laptop and a desktop is your choice based on your life style. Desktops are more upgradeable, have better heat management and are often faster.
+
+Look on passmark.com and compare the processor and the GPU benchmarks of each option to decide. 16gb is a smarter choice than 8gb. As is an SSD, but at 128gb, you'll need another HD."
+godot,fc6ljui,t3_egeisu,1577483428.0,"Ogre is not a game engine. It is a renderer it a graphics engine. You have to write everything else. Input, sound, networking, animation, etc.
+
+BGE is defunct. It was something that didn't belong in blender. It didn't match the product offering, and it was very hard for the developers to maintain. They basically had to duplicate the blender code base."
+blender,fc6kuz9,t3_egcop6,1577482971.0,Neat book.
+godot,fc4k85s,t1_fc4cten,1577419095.0,"The kerning is inconsistent, the letters are oddly shaped, stretched, or incomplete (R, e, t, i, l, u), the pixel size is too big - I think it would look better if made with smaller pixel blocks to give more shape to the curves, overall it's way too big (though not type face). In short it's ugly. 
+
+Ugly does not communicate a creative style choice. It communicates, ""I don't know what I'm doing with fonts,"" which inevitably implies, ""I don't know what I'm doing with games and hence your purchase price and playing time,"" which translates into ""This won't be a good experience,"" in a prospect's head. 
+
+If Op wanted to use a blocky font as a creative style choice, then I would take these four words into photoshop and fix all of the above issues I mentioned to make them visually appealing. Then these words as graphics would be used instead of text. Basically you'd create your own bitmap font, but only the letters you need. This is commonly done especially for logos and titles, e.g. The original Doom."
+godot,fc3t116,t3_efzqrt,1577397884.0,"Replace that font at the end. Bad typography instantly communicates you're an amateur, and suggests everything in the project is as shoddy as the font. So ensure all your typography is excellent throughout and especially on marketing materials and demos."
+godot,fc2hzi7,t3_efu8zt,1577361260.0,"Use a desktop take over program like anydesk if you want to want to work collaboratively in realtime. However don't do that. Meet, plan, assign task ownership, then go work on your portions independently on a version controlled system. Rinse and repeat."
+StartledCats,fbzso0c,t1_fbyrtgu,1577259452.0,"Most likely the security camera only records motion, and at 12-15fps, so you are not seeing dead time when the cat is off screen snorting catnip. When it's on screen the footage is likely sped up due to the slower frame rate playing at normal speed."
+StartledCats,fbzshtb,t3_ef4fem,1577259201.0,The video left out the part where that cat snorted a whole bag of refined catnip powder.
+godot,fbwizcs,t1_fburmwq,1577151181.0,Sure. But there's also the tradeoff of hacked clients that are sending bogus data to the server. Movement and collision is the main thing people experience so that should be local to avoid lag. But how to balance cross player action speed with security? Probably better to have more lag and less cheaters.
