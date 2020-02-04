@@ -1,0 +1,219 @@
+subreddit,self ID,parent ID,time,text
+worldnews,ffb0izy,t1_ffax7uz,1579748795.0,"He can also essentially punt any decision down to the senate, AKA the Republicans. They could be voting about their own misconduct. Should be fair."
+todayilearned,ff8ztdt,t1_ff8ceuo,1579701180.0,Just thought about it and realized I've spent 1500+ of hours playing a hyper advanced version of Pong over the last 4 years...
+politics,ff8xj44,t1_ff8v3u5,1579699311.0,"Maybe you all should help us get our shit straight in the next election!
+
+Oh wait.... Nevermind."
+excel,ff5yc1p,t1_ff4gh1p,1579614209.0,"Id recommend just selecting all of the cells and applying the formatting to that. If you're creating custom formulas it can get confusing because your formula needs to apply to the first cell in your selection (and formula editing in the conditional format window is non-existent). Also, if you copy/paste the cells to copy the formatting you might copy other data/formats/settings when you only want to copy the conditional formatting."
+AskReddit,ff4iikl,t1_ff42mmr,1579564433.0,"Keep an eye out on /r/tifu, /r/thathappened, /r/AskReddit updates, etc etc"
+funny,ff4421l,t1_ff3o1op,1579555078.0,So what you're telling me is you're slower to the frosted flakes than the rest of the crack heads?
+sheets,ff3y036,t3_eri4qg,1579551316.0,"You may be able to delete the table and have it recreate the table on the next entry. It would still require exporting and importing the previous responses, but thats a much easier task than interpreting the order of a Google form.
+
+Never tried this, but just a thought since it creates the sheet/table on your first response."
+badUIbattles,ff3xfws,t1_ff3nwj9,1579550969.0,"If this were an actual web page, could I just open the source and change the first number that appears on a button so the first one is my phone number?
+
+I know we're pretty far beyond the intent of this subreddit, but a shitty UI requires an equally shitty solution!"
+badUIbattles,ff3x7vl,t1_ff3pezu,1579550828.0,"Funnily enough, the number of numbers we can't represent because of the limitations on the number of particles in the universe is infinite.  We can only ever hope to occupy an infinitessimally small portion of the possible number space."
+politics,ff330ou,t1_ff2sd1x,1579532367.0,That means I won't be an embarrassed millionaire for as long! Hooray!
+GalaxyS8,fezqvzx,t1_fezomqo,1579460512.0,"Is it just when changing to one-handed mode or during any graphic changes?  I think it might happen during the one-handed mode transition because the system wasn't built to quickly scale the entire UI like that. It's doing more than just changing the screengraphics--adjusting for touch inputs, reflowing the text for the new size, etc etc. And your recording software may exacerbate the problem as well."
+excel,fezq6xd,t3_er09mq,1579460268.0,Get very familiar with the MS documentation site if you plan to use VBA a lot. I honestly love it because it's a predictable format and I can find almost any method or property with some examples when working in VBA.  People think i know so much stuff where in reality I just know how to find things more quickly than most.  My browser at work is always littered with tabs of different functions I looked up but don't want to close yet because I'm still working with or around those concepts in my current task.
+gaming,feyra9i,t1_fexttd2,1579449678.0,Now you must cover every square inch of used space with concrete so you run faster.  Good luck coming out of that hole.
+gaming,feyr1ww,t1_fewr71w,1579449543.0,"I use mine mostly to play Rocket League, but also logged hundreds of hours in Elite: Dangerous and it worked brilliantly.  Logged a couple thousand hours across both of them.
+
+ For Elite I mapped tons of button combinations (through the game menu mostly) but also setup Steam controller functions and layers to access all of the controls a normal controller wouldn't be able to do for when im in different situations like mining, combat and planet exploration. It was also great for using for mouse-look and I briefly setup the gyro to be used as mouse-look but I found that more frustrating just because of the sensitivity. 
+
+ For Rocket League I setup custom trigger zones for boosting and changed the assignments for air rolling, etc so I never need to move a finger from an individual button. Works great.
+
+I also played around with some of the macro functions and was able to program the palm triggers to do a half-flip then half roll to change directions quickly and do a flip-cancel for fast kickoffs. They were a bit finicky because thtley can't detect your current position so they needed to be used in very specific situations but they still worked.  I never used them in ranked games, but it was still fun to see what you could do."
+worldnews,feyiya0,t1_feyhki0,1579446058.0,Clicking through to read an article on the Onion is about as funny as having to explain a joke that someone didn't get. It just doesn't work when you put all of the best material into the title.  The substance also doesn't matter because as long as it makes the reader laugh there is no 'truth' to misinterpret or spin on the facts so if a reader misunderstands the joke but still laughs it doesn't matter anyway.
+news,fes9yru,t1_fes78fy,1579363065.0,"Bombs don't work that way. It's a giant fireball waiting to happen, at best. Explosive? Not really unless that bag is incredibly strong."
+gifs,feon1or,t1_feomi6p,1579302474.0,I choose to picture it like you're really excited to have made a dragon-rabbit. It's a dragon-fucking-*rabbit*!!!
+oculus,feo2ovo,t1_fen2kuk,1579294274.0,Gilbert Gottfried
+vba,fen1mle,t3_eq1jy4,1579274955.0,"I think it's more of a best-practice than anything. It also helps signify that you no longer need the variable or don't need to use the current reference stored in the variable. This can help represent the process of your code, free up memory, or reduce the chance that you use the wrong reference if you forget to reassign the variable the next time you need it.
+
+Imagine in excel that you assign the 'wb' variable to your current workbook to perform a function.  In the next section of code, you need to reassign 'wb' to a workbook with a specific name or property.  If you assign 'wb' to Nothing between these actions it ensures that you don't accidentally carry over the current workbook reference into some other code that shouldn't be using that reference or could cause harm if your re-assignment doesn't work as intended.  You were done with the code that specifically requires the 'current workbook' so you clear that reference.
+
+Im also assuming some other bad practices like using the same variable for different purposes, but we'll ignore that for the sake of argument!"
+worldnews,fen0zb1,t1_femz8sp,1579274537.0,Or smiling and giving a thumbs-up next to an orphaned child and grieving relatives.
+worldnews,fen0v5l,t1_femlzs5,1579274462.0,"But you need to remember that someone with a known conservative history would not likely get pictures of them together. They may get pictures from articles that claim Trump actually **didnt** know Parnas so it just further engrains their beliefs. The internet in its current state, meaning the services offered by the tech giants, is rigged to create a self-reinforcing walled garden for each person and in-group."
+worldnews,fen0oat,t1_femm9d2,1579274337.0,Well said. And that's hardly an analogy. It's just reframing the actual situation to a personal level instead of a national level.
+worldnews,fen0ivg,t1_femlu1y,1579274236.0,"*answer phone*
+
+Hello.
+
+*pause*
+
+Goodbye.
+
+*end call*"
+politics,femzqz2,t1_femu75g,1579273721.0,I feel bad months later for even potentially causing my daughter to stumble and get a small bruise that lasts all of a single day before it heals.  What a life they must live.
+politics,femzk1x,t1_femuha5,1579273590.0,My guess is he was born in a Barco manufacturing facility somewhere.
+gifs,femzf1f,t1_femrel7,1579273492.0,It's actually just 1 Goose terrorizing an entire nation.
+gifs,femzb5r,t1_femrvxf,1579273416.0,"Reminds me of the impossible requirements set by employers looking for developers/administrators of very new systems.
+
+Candidate Requirements: 30 years of internet use.
+
+""Well, seeing as how this would limit your candidate pool to, at best, 0.3% of the entire world's population, many of which have likely died or retired by now, my guess is you don't know much about the position you're hiring for."""
+gifs,femyo2z,t1_femq90i,1579272980.0,Canadian Goose Game just deletes System32 when it runs.
+pics,femvhd3,t1_femse2l,1579270690.0,"It's funny when people don't realize their ads are targeted to their demographic or even specifically to themselves.  I mostly see app game ads, which seems appropriate enough given the medium and my usage habits."
+aww,femu6ug,t1_femp05c,1579269701.0,"Thank you. Commas matter. At first I thought ""Who would name their daughter Jarvis?"". It's still not as bad as people who don't put a comma or return after their email sign-off and their name. ""Thanks Dad."""
+news,femtx8t,t1_femsszt,1579269492.0,"No worries, we're using 2's complement to calculate how many Americans we pissed off today."
+AndroidGaming,femtqq0,t1_felkui6,1579269346.0,Forward 'Forward to All' to All.
+AndroidGaming,femtny8,t1_fem29tv,1579269287.0,Goto 1
+Keep_Track,femqe4x,t1_feml4nc,1579266543.0,"Yeah, that whole writeup had the strange air of both Republican superiority complex and a ravenous hunger for conflict. They noted on multiple occasions that an unnamed and likely straw-man abundant sample of people who wanted tensions to boil over and for them to start shouting at eachother were sadly disappointed or left wanting.  They then discounted the entire debate and party saying the debate was in the wrong place and that Trump was the smart one being in Wisconsin instead of Iowa because Iowa will likely vote R in the general.  They either don't understand, or don't want their audience to understand, that a lot of voters will look to the initial primaries and just fall in line because they assume the results are from informed voters."
+funny,fegkpd5,t1_fegdbip,1579095749.0,"Hot air can escape a bottle without cold air replacing it. Yes, in an open system that has an equal pressure it needs to be replaced by something else, but in an airtight system or using a one-way valve, the hot air can certainly escape the bottle without anything replacing it as long as it can overcome the external pressure plus the pressure of the valve itself."
+excel,fegi9dj,t1_feg9erh,1579093609.0,"I think it could ha e some use because it would act like iferror() in that you only have to write the formula out a single time. It's not any more compact, or even more verbose, when you're talking about a single reference but that is not a good use case to consider for any UDF.
+
+I think that any single formula or portion of a formula that needs to be repeated in the same cell is 'wrong' and certainly inefficient because it needs to be calculated multiple times, takes up extra space and is prone to errors when both don't get changed at the same time."
+funny,feal8gk,t1_fe9qpwh,1578950013.0,"It's almost impossible to see, but it's right when Terry's head starts to move back out of the frame.  You can see where they needed the additional 'black tape' on the objects (probably also added in post) but don't have any where Terry's head would be blocking the frame of the TV.  There's probably no single frame where the swap is made, but a few that are blended so they line up just right.
+
+Edit:  Upon further review, the moment happens as soon as his arms go above the TV frame. Notice he also doesn't have any 'black tape' on his shirt, so that is the most obvious point of editing since the black of the TV frame doesn't match the range of blacks of his shirt so it 'pops'."
+AskReddit,fe91l39,t1_fe8j98z,1578933226.0,"/u/Moth-Seraph doesn't give a shit because they have a blanket, with the implication that /u/Cloverload may not survive and they're ok with that reality."
+beatsaber,fe2e9cc,t3_engoui,1578837389.0,"That is actually one of my favorite maps, and the first E+ that I FC'd. The drumming sections are a lot of fun, and I find it interesting how the left and right hands are mapped almost independently so it requires a very unique mindset when playing where you can't let one arms movement influence the others. The movements also don't interfere with what the other arm is doing.  I find it almost 'musical' in the way that string instruments require a completely different form of dexterity for each hand yet they work in tandem."
+badUIbattles,fdvs6ez,t1_fdsio6s,1578750956.0,I do understand how insecure excel files are on their own and mentioned it in another reply.  This idea just comes from the bulk of my 'UI' work being through excel/VBA so that was the fastest way for me to implement it.
+badUIbattles,fdvrky4,t1_fdu4gen,1578750724.0,"Youre right, maybe I typed out the list wrong. g might not be in there, but I don't currently have access to it to check."
+badUIbattles,fdt6f67,t1_fdso3jw,1578712520.0,"Well, it's on my work computer (shhh...) but I'll see if i can retrieve it and clean it up. It was combined with some other random help I was doing on /r/excel."
+badUIbattles,fdshvlv,t1_fds7mva,1578703048.0,I dont think so. There are ways of password protecting things but breaking any security is far too easy. Passwords are mainly there for convenience and to keep people from mistakenly changing something you dont want them to change.
+badUIbattles,fdshpii,t1_fds92gs,1578702957.0,Maybe I should build in both and have it randomly pick between the two options?  Sounds a little too frustrating because I want it to be usable if you know what you're doing just super convoluted.
+badUIbattles,fdsh3ku,t1_fdsbls0,1578702621.0,What do you mean? I made this from scratch in about an hour.
+gifs,fdru3z4,t1_fdqvl8s,1578689708.0,I think my suggestion on the other thread still works:  Get a lot of people to go to the last game and all wear costumes and dance all the time. You need to work extra hard for that final appearance!
+badUIbattles,fdrsk86,t1_fdrrkh0,1578689029.0,"It could be arranged like DIP switches, but I think that might be a little bit TOO far and obscure for most to understand.  At least this is 'intuitive' in that you know how to shape the numbers and letters but it is actively working against you by trying to recognize everything you input. Like some overeager toddler saying ""I KNOW THAT ONE! ITS A C!"" before you're done working."
+badUIbattles,fdrpm02,t1_fdrob6s,1578687782.0,"You really don't.  Combined with how unsecure saving any sort of password in an excel file is, it would probably be easier to 'hack' the password than try to input it this way.
+
+Also, it would be more work for me to get you a clean file because during my development and testing I locked the workbook and all of the worksheets with an obfuscated password that I don't remember and cannot retrieve without said 'hacking' but I could still modify the code and user form to create this gif.  Oops."
+badUIbattles,fdrlpbc,t1_fdrl7xe,1578686350.0,"I got SO frustrated when even trying to record this because this was like the 4th or 5th attempt, but some is 'rehearsed' to show how ridiculous some of the characters are.  The error with trying the first '=' was actually completely real and I had just forgotten to use the top segment before putting in the '=' otherwise it recognizes a hyphen or underscore."
+badUIbattles,fdri1je,t3_emvqnc,1578684779.0,"This user form tries to recognize a character after every click, so any combination that results in a recognized character will add that to the input and reset the display.  With a 7-segment display there are 128 different combinations that can be recognized (yes, even completely blank counts) and I programmed in 36 different characters.  I could probably do more but at some point it would make some characters impossible to enter.  For now it is possible to enter every number and (I think) every character below.
+
+The full list of recognized characters:  0123456789AbcCdeEfghJlLoquUX °\_-\`',""=
+
+'=' and 'X' are special because they trigger the input check and reset functions, all of the others are character inputs.  The space "" "" character actually inputs if you check a box and then uncheck all boxes and is nearly impossible to spot that it recognized it.  I realized after I recorded this that I screwed up the placement of the double quotes, which should be on the top left and right segments instead of the bottom left and right.  Oh. Well.  My first iteration of this included a ""Submit"" button to confirm the character entered, but the instant recognition was certainly much more dickish.  The only 2 possible starting positions are the top segment and the bottom right segment, all of the others will input a character: grave for top left, single quote for top right, hyphen for middle, comma for bottom left and underscore for bottom.
+
+I'd be willing to share some of the code if someone wants to play around with it, but since it's tied to an excel workbook with a user form it probably wouldn't be as easy to do.
+
+Edit: To provide more info on how it works--It encodes each display as a binary bit and then compares the resulting integer to a list of recognized integers and then executes the code to insert a character or perform a function.  I didn't do it in the traditional 7-segment order of starting at the top, going clock-wise and ending in the center, I did mine top-to-bottom, left-to-right.  The character X encodes to 62 and C encodes to 101."
+worldnews,fdqyt3x,t1_fdqub9e,1578676974.0,"The same with people who know they've been pregnant and have had a miscarriage. I wish it was more culturally acceptable to discuss these things because of how alienating and devastating it becomes for those who have to go through them.  My wife was inconsolable during both of hers, and I feel like if it's more common knowledge that a sizable proportion of pregnancies end in miscarriage that it would soften the blow at least a little bit but maybe not."
+funny,fdqb9fk,t1_fdq5ojl,1578661877.0,"I've been binging them on YouTube for the past few weeks and it's great. I've been a fan of QI for a long time but only recently started watching E-Double-O-T-C-D-C, WILTY and other panel shows and I really get much more enjoyment out of them once I start recognizing the regular guests. 
+
+I highly suggest following the 8oo10CDC Playlist that has them all in order since there are so many duplicate uploads out there."
+AskReddit,fdktv47,t1_fdkl4tw,1578511046.0,"I know it's hyperbole, but interesting to note that you can **never**, and I mean absolutely never, heat a surface hotter than the heat source. Even with a giant and perfect magnifying glass, the light can't be focused in a way that concentrates heat more than the heat per area of the origin.  You can't focus the light to a point, so the best you can do is focus it to a small representation of the source's size.  It's hard to explain in text, but it's a really cool law of optics to look into."
+funny,fdkjda6,t1_fdkdfee,1578504933.0,"So, we'll make a lot of (very incorrect) assumptions here for the sake of argument, all of which are in your favor for this argument. Let's say your system can release adrenaline immediately upon detecting a stressful event (it can't), and that adrenaline is immediately put into your blood stream (it isn't). The average blood flow is around 4mph, but obviously that varies a lot with size, heart rate and where the blood is in your body.  If we only account for a microsecond of that time and the adrenaline is actually moving at 4mph, that would mean the adrenaline traveled a WHOPPING 0.00007 inches in that amount of time, or about 1/30th of the diameter of a human hair."
+funny,fdkjafc,t1_fdkeh4o,1578504894.0,"Sorry, meant to respond to the person avobe you..."
+todayilearned,fdkbysc,t1_fdjy0o6,1578500648.0,"I mean, he'll have a facility 10x as nice, 10x as large and with 10x the staff of a typical retirement home but it will be for just him."
+pics,fdjvk6z,t1_fdjcv99,1578488921.0,Caboose? Is that you?
+aww,fdjumyd,t1_fdjt0ei,1578488054.0,"Wow, that's the second time in this thread I've seen object permanence.  Talk about baader meinhof effect!"
+todayilearned,fdjrycr,t1_fdjbnnb,1578485293.0,"Well that's reassuring, my vacuum only sucks about 100 atoms at a time anyway.  Bring on the ice rays!"
+AskReddit,fdholqh,t1_fdhjwu5,1578427044.0,"They were raised in a much different environment. Think of how large of a proportion were raised by veterans or children of veterans so they had a much more rigid teaching of respect for authority and specific ways to act around said authority.  Now, we've been removed from military tradition for the vast majority of our population for decades so that is fading."
+excel,fdhka20,t3_elfyd8,1578424439.0,"I think this should work:  
+
+    =TEXT(GETPIVOTDATA(""[Measures].[Revenue]"",'Revenue by Company'!$M$1),""[<=999999]$#,##0,""""K"""";$#"""".""""###,""""M"""""")
+
+You might need to adjust your pivot data formula, but with TEXT() you shouldn't need to do any of the rounding to format it correctly.
+
+Edit:  Fixed the millions formatting using a period instead of a comma."
+news,fdhimwv,t1_fdhfa6h,1578423439.0,"Wot?  That's over $5000 per paycheck before taxes. $140k/26 = $5385.  No way he's losing 40% of that to taxes, benefits, retirement, etc."
+excel,fdhg5pt,t3_elff5g,1578421941.0,"All you need is a COUNTIF() for how many occurances and SUMIF() for the dollar totals.  Something like this:
+
+    =COUNTIF('Sheet1'A:A,""Yes"")
+
+    =SUMIF('Sheet1'A:A,""Yes"",'Sheet1'B:B)
+
+Just change the sheet name and column references to reflect where your Yes/No/Other (A:A above) and amounts (B:B above)."
+excel,fdh17hh,t3_elcyus,1578413156.0,"My first thought was to use the Data Validation Input Message, but that is limited to 255 characters so it would probably fail for you at some point.  Another option may be to use the Threaded Comments (not to be confused with Notes), which upon cell selection it pops up a scrollable window with all of the text in the comment.
+
+I wrote a pretty simple macro that you can paste into your worksheet code.  It will delete an existing threaded comment and then add a new threaded comment whenever you change a cell in the Notes column I.  I tested it with a few paragraphs of Lorem Ipsum and it worked great.
+
+    Private Sub Worksheet_Change(ByVal Target As Range)
+        If Target.Column = 9 Then
+            On Error Resume Next
+            Target.CommentThreaded.Delete
+            Target.AddCommentThreaded Target.Value
+        End If
+    End Sub
+
+You could expand on this so that it only responds to longer notes, which would mean it wouldn't add a comment for shorter notes.
+
+Edit:  Use this code instead and change the 30 to however many characters you want to prompt a comment popup.
+
+    Private Sub Worksheet_Change(ByVal Target As Range)
+        If Target.Column = 9 Then
+            On Error Resume Next
+            Target.CommentThreaded.Delete
+            If Len(Target.Value) > 30 Then
+                Target.AddCommentThreaded Target.Value
+            End If
+        End If
+    End Sub"
+excel,fdgyiuy,t3_elasv1,1578411442.0,"In case you were curious, the reason that it is coloring all of your cells red is that it is processing the replace command and the change color command independently.  It doesn't matter if ""NHIS"" is found or not.  On every cell it looks at it will replace the text if it exists an then always change the color to red (-16776961).
+
+    'Replace the text if it is found.
+    Selection.Replace What:=""NHIS NHIS"", Replacement:=""NHIS"", LookAt:=xlPart _ , SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+    ReplaceFormat:=False Selection.Font.Bold = True
+    
+    'Then always change the font color.
+    With Selection.Font
+        .Color = -16776961
+        .TintAndShade = 0 
+    End With
+    End Sub"
+excel,fdgxq87,t1_fdgtfad,1578410905.0,Copy and Paste isn't a direct relationship to the 'shape' of the original selected cells.  It has to simplify the data to a contiguous range and multiple selections from different rows and columns would jumble the data curing the copy.  Think of your selection as being a bunch of loose tiles on a board and the Copy process has to tilt the board so all of the tiles slide to one side and then to the top of the board.  If all of the tiles are in the same column or row or in a single rectangular range then this doesn't fundamentally modify the organization of the data other than removing unselected rows and columns.  The process is 'smart' enough to realize when the data could get jumbled during this process and stops you from doing it.
+excel,fdgxaby,t3_elccvl,1578410601.0,"Are you saying that you have 1302 separate If statements for every column on every worksheet?  I would strongly urge you to explore For loops (For Each Worksheet in your workbook, For Each Column in a Range of Columns, etc) and With statements to help reduce the amount of code tremendously.  I'd rather not give you a way to further complicate this code just to get a clippy point."
+beatsaber,fdgpy05,t1_fdgf2ei,1578405228.0,"I previously figured out which song, difficulty and part of the song he was on just based on the temp and his swing directions.  Also, which block/s he likely missed.  It was one of the original songs on medium (maybe easy?) difficulty at around the 70-100th blocks and missed one block in the middle, IIRC.  These weird types of forensics interest me, and it seemed benign enough to have some fun with."
+CrappyDesign,fdgngm4,t1_fdg4vdk,1578403143.0,"It's not double b, it just sounds like it. The v (veh/vay) sound is softened so much that it can become almost indistinguishable from a b (beh/bay) but they're not interchangeable just because of an accent."
+todayilearned,fdgmdxj,t1_fdgkrwj,1578402173.0,"Enjoy your dentist's spit cup of Dr. Pepper. And yes, that ice cube is mandatory."
+AskReddit,fdff76h,t1_fdeq179,1578360283.0,If they sovereign citizens then they can get off of the fuckin roads that I pay for.
+todayilearned,fdfemct,t1_fdf6dkk,1578359889.0,"Are you proposing that tic tac toe is played on a three dimensional field?  It represents 9 point objects in a plane which we use x's and o's to denote possession. You could do the same thing in 1 dimension, where there are 3 or 9 points in a line that are represented by x's and o's.  The only difference is that 1D tic tac toe requires the use of a 2D field, but a 2D game doesn't require a 3D field.
+
+I propose a game of 4D tic tac toe, where there are 3 3x3x3 cubes to play on, and you can make connections on any 3 adjacent or diagonally connected cell.  I'm not sure what would be considered diagonnaly connected between 2 cubes, but there is probably some mathematical reasoning to figure it out."
+todayilearned,fdfdznm,t1_fdf9cu5,1578359469.0,"Can we play a real game this time?
+
+_ _ _ X _ _ _ _ _"
+worldnews,fde2u3d,t1_fddypks,1578329928.0,"If it matters enough it's worth using paid vacation time, most of which can probably be scheduled around a planned protest.  I know not everyone gets that luxury, but I would bet the majority of even low middle class workers would get enough paid time off to make a meaningful impact in a protest for a couple days."
+Keep_Track,fddpfgj,t3_ekt2eo,1578320388.0,"Can we please keep editorial comments out of these posts? The last paragraph kind of ruins the whole ""just keeping a record of his actions"" intent of this subreddit.  Otherwise, great post and thank you for sharing it."
+excel,fddmdv2,t3_ekty3u,1578317675.0,"It may be blocking any window updates, so it only has to run the logic and not refresh the window.
+
+Does your code have Application.ScreenUpdating = FALSE  at the start and = TRUE at the end to keep the screen from flashing and cell value updates from being displayed as they happen?
+
+Edit:  Fixed it to ScreenUpdating.  It's still early, coffee hasn't kicked in and I'm on mobile.  Oops.
+
+Another helpful setting is Application.EnableEvents = FALSE/TRUE but depending on your code you might not want to disable this but it can make execution faster."
+CrappyDesign,fdc7spy,t1_fdc4c7b,1578268778.0,"""Circular Infographic"""
+3Dprinting,fdb0xx8,t1_fda9b88,1578252476.0,You can mentally rearrange it so it makes more sense. The the top piece is actually hanging from the middle string. The other strings are there to keep the platform from moving.  So just imagine the top piece hanging below the middle string and the outer strings are extending to each side to keep it immobile.
+pics,fd9njco,t1_fd9m5h6,1578235649.0,I have more to worry about defending my freedom in my on backyard than with any religious fundamentalist.
+pics,fd6s7nr,t1_fd5wgmz,1578195066.0,I would make a completely unreasonable bet that the earth is spherical. My only concern would be someone trying to trick me with terminology and not at all concerned with what shape the earth actually turns out to be to resolve the bet.
+pics,fd6rd8s,t1_fd6gsmu,1578194774.0,But if I were to walk down that piece of paper the curvature wouldn't change the direction of gravity. You would still be walking off of a giant hill and not around a sphere or cylinder who's gravity determines how you stand.  The reference point makes no sense.
+pics,fd6pssu,t1_fd57a3m,1578194243.0,And his end preferrs a c.
+AskReddit,fd59omc,t1_fd4i743,1578175456.0,"The FIB, Fenestration Investigation Bureau, would be all over you in no time. Is there a proper sill? Which side does it open from?  Is it a single hung, double hung or hinged? You don't want to know what they do with hinged windows.  What is the maximum size of clear opening? How far from the floor is it?"
+todayilearned,fd308c0,t1_fd2orie,1578153476.0,"I couldn't do it. We still video chat with grandparents that are only a short car ride away and I can tell she doesn't/can't connect with them over the phone, at least not at 15 months."
+todayilearned,fd2zilc,t1_fd2vk56,1578153339.0,Good on you for bearing that burden. Your siblings won't forget it.
+todayilearned,fd2z9ps,t1_fd2p9mu,1578153266.0,"They're daddy daughter dates!  Not really that uncommon but I try to think of something for the two of us to do that wouldn't always work with 3. Although these days it would probably not be considered PC...
+
+Currently watching sesame street with my sleepy toddler recovering from an antibiotic allergic reaction as mommy sleeps. We slept in shifts to soothe the crying baby."
+funny,fd2u876,t1_fd1ufid,1578151722.0,"It's unmistakable as schmoyoho. Even other groups trying to imitate them just don't have the same groove.  IMO their style gets old very quick but I like to see them every once and a while.  This one was just so wholesome, too."
+todayilearned,fcyqfey,t1_fcypc2v,1578084963.0,But a clock intentionally set to the wrong time is never right.
+politics,fcxyfbx,t1_fcxm117,1578072202.0,Thousand Island Dressing is just as far away as possible they could get from Subcontinent Dressing.
+funny,fcxuvv1,t1_fcxm2kx,1578070778.0,In reality they are probably expending more calories than you just to keep their larger body alive. Most calories are spent just powering your brain and moving blood around the body.  Walking vs sitting would hardly increase that.
+funny,fcxtzvx,t1_fcxqbcz,1578070451.0,"I saw one, here in Florida, that was clearly a Calvin silhouette but it had a Trump haircut and was holding an assault rifle. Not even peeing on anything. I don't know if I was more mad at the idea it represented or how lazy the execution was."
+funny,fcxtrfr,t1_fcxtg8p,1578070308.0,You still misspelled Wally World.
+excel,fcxsll4,t3_ejhr0e,1578069879.0,"Is there only a single matching line for each WO# on sheet2?  If you only need a single result (row) on your lookup than VLOOKUP should be fine.  If you need to return ALL matches to a particular WO# then you'll need something a little more dynamic or even a VBA macro.
+
+VLookup(lookup\_value, table\_array, col\_index\_num, \[range lookup\]) works like this:
+
+* lookup\_value:  This is the value (on your assigned list of numbers) you want to search for.  Pretty straightforward.
+* table\_array:  This is the array (""selection box"") of cells you want to search in.  The leftmost column of the selection is where it will try to find your lookup\_value.  You can't look up a value in any other column but the leftmost column.  You need to expand this selection as far as the column you want to return, even if it includes columns you don't care about.
+* col\_index\_num:  This is the column inside of your table\_array selection, from left-to-right, the formula will return a value from in the same row where it finds a match to your lookup\_value.  If your selection is 3 columns wide and you want to return the last column, your col\_index\_num will be 3.  You can also have a selection that is 3 columns wide and still return the 2nd column.
+* \[range lookup\]:  This is in brackets because it is optional, and the default is TRUE if it is not given.  It is basically asking if your lookup column is sorted ascending A-Z so it knows whether or not it can stop at the closest (approximate) match or if it needs to find the exact result.  You should set this as FALSE so the WO# needs to match exactly."
+worldnews,fcxqbjk,t1_fcxdc5e,1578068934.0,It'll create a few very publicized jobs to support 'the war effort' that will disappear the moment the election ends or an agreement is made.  This will be anougj to convince the uneducated masses that a few jobs in the last month means a few jobs every month forever and that the problems with our economy have been  permanently solved.
+excel,fcxlmsn,t1_fcvfxhi,1578065910.0,"This really is an awesome writeup and a great case for tracking your expenses and how it can illuminate what you're really spending your money on, but I think a large part of you and your wife being able to accomplish what you did in your 20s is probably largely due to you collectively making $200k+ per year in those middle years. That's not a simple task in your 20's for anyone living anywhere.
+
+And a $13k cash wedding gift isn't bad either 😉 (assuming you classified it correctly)"
+todayilearned,fcxi89x,t1_fcxegc8,1578063580.0,"If I factor in everything I pay for with my car every month, and its a base model 2014 focus, and it would have to cost sole where in the range of $6-8 per 15 mile commute to break even, but id be willing to pay more because I would no longer have the liability of the car and supposedly nearly constant access to a vehicle with little notice."
+todayilearned,fcxgu6j,t1_fcxfqes,1578062575.0,"Cost. Taking a taxi or ride sharing service to get to work is super expensive because it involves paying another person to do the driving.  You're not paying the most for the car, you're paying for a human to spend their time getting you from one place to another.  When it's just the car driving itself the cost will go down dramatically, likely lower than the cost of owning a car and all of the maintenance and insurance involved with it."
+news,fcxfq1f,t1_fcxenmk,1578061746.0,Hopefully the rubber band that was powering the turbine didn't snap. Those things are a bitch to replace and re-wind.
+politics,fcxd9b8,t1_fcx4t0x,1578059808.0,"When an Iranian guy who was up to no good
+
+Started makin' trouble in someone else's neighborhood
+
+I make one little strike and my base didn't care, sayin'
+
+""We want you in this white house for 4 more years!"""
+todayilearned,fcx71zn,t1_fcws8xa,1578053870.0,"Really? Maybe it speaks to my upbringing or my country or state (Florida...) but I always envisioned teachers as something akin to saints for what they had to put up with for their comparatively low pay and yet some of them still seemed to love their job. I guess when it compares to a minimum wage job its not that bad, but the education and certification requirements seem far too lofty to attract those that want a minimum effort job that doesn't pay the absolute minimum wage."

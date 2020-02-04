@@ -1,0 +1,60 @@
+subreddit,self ID,parent ID,time,text
+neoliberal,ffg0qil,t1_ffg036b,1579895954.0,"You invoked the Olympics and pussyfooted back onto ""this is such a basic concept I can't believe..."" when it turned out the Olympic committee doesn't agree with you. 
+
+Are we supposed to respect the scientists who work for the Olympics, or are they full of shit? I'm fiercely confused."
+neoliberal,fffzj8q,t1_fffytsn,1579895216.0,">You are certainly aware that the Olympics etc divides sports by sex because woman are not as fast and strong.
+
+Uhh. Something like that...
+
+If we're going to offload our reasoning onto the Olympic committee--which I'm totally fine with as I'm not a sports expert--then it'd be nice to also point out that their latest official ruling on trans athletes is [*permissive*](https://stillmed.olympic.org/Documents/Commissions_PDFfiles/Medical_commission/2015-11_ioc_consensus_meeting_on_sex_reassignment_and_hyperandrogenism-en.pdf). 
+
+Their most recent attempts to tighten the restrictions on trans athletes have stalled due to disagreement. 
+
+>It's biology.
+
+Which is supposed to be an argument?"
+neoliberal,fffxi84,t1_fffw2fk,1579893958.0,"From where are you basing the opinion that a trans ~~women~~ woman in women's sports is ""simply unfair""?"
+neoliberal,fffton6,t1_fffte85,1579891569.0,"To *include* satire, especially to drive home a point, doesn't make a body of content satire in its entirety.
+
+edit: also, this is some funny shit
+
+>Several conservative magazines and op-eds have criticized specific RationalWiki articles. Paul Austin Murphy, of American Thinker magazine, criticized RationalWiki for being irrational and unencyclopedic when it called American Thinker a ""wingnut publication""."
+neoliberal,fffsi7i,t1_fffpt5f,1579890839.0,"What? RationalWiki writers tend to eschew normal wiki-writing conventions in favor of what they call ""SPOV"" (snarky point of view), but it's not intended to be satire."
+sheets,fffnbpg,t1_fffmj8s,1579887654.0,"If it makes it easier, I think `TIME( 12, 0, 0 )` will work in lieu of `0.5` but that formula is just making the conversion for you under the hood."
+sheets,fffma5x,t1_fffm5mq,1579887016.0,"Sorry, mixed up AM and PM. 
+
+`=IF( NOW() < TODAY()+0.5, TODAY()+0.5 - NOW(), TODAY()+1.5 - NOW() )`"
+sheets,fffldta,t3_etd0vt,1579886470.0,"1. Make sure that in File -> Spreadsheet Settings -> Calculation, you have recalculation set to ""On change and every minute"".
+2. ~~Use the formula `=( TODAY() + 1 ) - NOW()` and format as a duration.~~ Use the formula `=IF( NOW() < TODAY()+0.5, TODAY()+0.5 - NOW(), TODAY()+1.5 - NOW() )` and format as a duration.
+3. Right click cell -> Conditional Formatting -> ""Color scale"" tab -> Set the minpoint to 0 and maxpoint to 0.99999999; change the color scheme to whatever you need."
+MonsterHunterWorld,ffezkmt,t1_ffezcw5,1579871434.0,"Monsters don't build a tolerance/resistance to brightmoss, but *do* require 2-3 hits of it to take effect, so it's not a reliable way to down a fleeing monster, only a monster that's engaged in combat--as an alternative to nicking at their shins.
+
+Strictly speaking, flash pods were adjusted in Iceborne so that there's no longer a hunt-long resistance to them, either, it's just that you can only flash a monster once per zone whereas before you could flash a few times but the monster would build a resistance for the rest of the hunt."
+MonsterHunterWorld,ffex9gz,t3_et9kj1,1579869204.0,Brightmoss has always existed to knock down flying monsters. It used to require aiming for the head (to 'blind it') but since Iceborne I'm noticing it's much more lenient now with where you hit on the monster.
+MonsterHunterWorld,ffdinhu,t1_ffd75q4,1579821673.0,"Probably a better known trick than Brightmoss, but Dragon damage with ""elderseal"" (including from those dragon pods that monsters drop) will dispel elder dragon ""auras"" like that wind that surrounds Kushala's body sometimes. Though dragon pods always take more hits than brightmoss to proc."
+googlesheets,ffbsfs2,t1_ff9xay2,1579781005.0,"The ""circumstances"" on your form: do submitters check things off all on the same question (e.g ""check all that apply""), or does each circumstance have a seperate question on the form (e.g ""Yes it no: Do you plan to attend college?"")"
+googlesheets,ff9vs6f,t3_esgrfz,1579722585.0,I'm a bit confused as to what you're looking for here. Are you just looking for the `UNIQUE()` function? (`=UNIQUE( 'Sheet A'!B2:I9 )` in your case.)
+boston,ff9p0jd,t1_ff9kxfm,1579717674.0,">Why is the title a question, and not a clear succinct summary of the point of the article? 
+
+OP did the right thing and posted the article title exactly as-is, which is a common (and preferred in article-heavy subreddits) way to post. 
+
+>People don't check the subreddit before the title.
+
+This isn't OP's fault. Any confusion would be dispelled immediately upon clicking the link (which is really what people ought to be doing anyways before commenting)."
+googlesheets,ff9lgho,t3_esdu8s,1579715486.0,"Seems `IFS()` isn't capable of returning matrices, so maybe nesting regular `IF()`s will fix it.
+
+    =IF( B15=TRUE, {Sheet3!A16:B26}, IF( C15=TRUE, {Sheet3!A28:}, ) )"
+MonsterHunterWorld,fea9fsf,t3_eo9en1,1578945932.0,Imagine having to crawl away from danger like an endemic slug. glaive gang
+neoliberal,fdmpnp0,t3_em0x92,1578559623.0,">I think Sanders and Trump are equally bad. 
+
+atomic eyeroll"
+facepalm,fdhwl8q,t1_fdho4wf,1578431466.0,"The context here is that ""dogs aren't natural and couldn't survive on their own cos we bred them with 'opportunities for great good or great harm'"". Your comment about dogs bred with health issues is neither here nor there as health issues really aren't a tradeoff; there's no ""opportunity for great good""--they're simply bad for the dog. 
+
+In fact, it even makes it worse for the human in many respects as they're the ones tasked with keeping the dogs healthy despite their ailments."
+facepalm,fdhnrrd,t1_fdhjo7k,1578426547.0,"But then that undermines the argument that we're doing ""great harm"" *and* ""great good"" for the animal. Those conditions are unequivocally bad for the dog, and have no tangible upsides even if humans are around."
+facepalm,fdhmsik,t1_fdgw6l7,1578425964.0,This whole comment is under the presumption that the sheep is still in human captivity. PETA is not under that same presumption.
+selenium,fc6dx96,t1_fbpkho0,1577478283.0,"SAINT. Thank you so much, man."
+neoliberal,fc3w4q3,t1_fc3e52q,1577400151.0,"He did a pretty good bit about CNN as well.
+
+""[CNN treats politics like sports](https://youtu.be/4pS4x8hXQ5c)"""
+politics,fbyckhr,t1_fbwrkib,1577213508.0,"She's already unpopular w centrists. Only Trump supporters and Bernie supporters really took to her, since she supported Bernie at one point--and has general animosity towards the Democrat party."

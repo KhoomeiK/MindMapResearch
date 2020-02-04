@@ -1,0 +1,192 @@
+subreddit,self ID,parent ID,time,text
+Fios,ffcffja,t3_esvbse,1579798301.0,"Do you have the caller ID?  I have been getting several calls a day from an unidentified toll free number that is not leaving a message, and I have been having issues with 5ghz network since a firmware update last week."
+Fios,ff9y5a0,t3_escthl,1579724030.0,"I just switched with a chat agent.  Upgraded from 75/75 internet to 200/200 (a speed that wasn't even on the web site.  Same price as the 100/100 that was), upgrade the router from G1100 to G3100 (went with the $15/month rental, but may buy it) and my bill will be $11 less per month.  There are a few less channels in the More lineup than ExtremeHD, but none of the channels that I watch were impacted."
+Amtrak,ff92nuc,t1_ff90ybo,1579703350.0,"For breaking the law, yes.  Just a rules violation they will wait for a station.  Point is, don't bring alcohol on the train unless you on a sleeper or your travel plans are ""fluid""."
+AndroidQuestions,ff8wes5,t1_ff8lnp4,1579698314.0,"I haven't, and I have moved on to a different tablet at this point.
+
+If you want the speaker dock for yours, DM me.  I think mine is still in my basement.  You can have it for the cost of mailing it."
+Amtrak,ff7snwh,t1_ff7qv75,1579657400.0,"Some crews may not, but it is policy, and people have been put off the train in the middle of nowhere  (always at a station, but possibly not staffed).  OK on the regional since you have options, but not worth the risk on a long distance train that only runs once a day."
+WearOS,ff7ltiw,t1_ff7k5hk,1579652619.0,"Their justification is that the things they aren't supporting are consumer targeted services, not business services.   I could argue the point except that my Gsuite account is a legacy Google Apps account and was set up to just support my personal domain and family accounts.  If I was using it for a business I might even agree with their direction on a lot of the limitations, although not reminders, which are just basic digital assistant functionality."
+Amtrak,ff7k3ve,t3_es3k4p,1579651429.0,Yes.  Food is fine.  Don't bring alcohol unless you are in a sleeper.
+WearOS,ff7j2x0,t3_es2xin,1579650730.0,I think it is more a Gsuite than a wearOS issue.  I regret almost every day that I have used a Gsuite account for all of my Google Play purchases because numerous services and functions are not supported on Gsuite.  I am looking at how much it will cost to repurchase the apps I still use and convert my main account to a Gmail account and just use Gsuite for email and a few minor functions.
+tasker,ff5zwez,t1_ff5rqe7,1579615493.0,TIL.  I thought you needed AutoShortcut to do this.  Had just finished typing a reply when I saw your post
+androidapps,ff5rojo,t3_erq725,1579607619.0,Paid version of Smart IR Remote https://play.google.com/store/apps/details?id=com.remotefairy
+AndroidQuestions,ff5rio0,t3_ers5qm,1579607421.0,I am amazed it still boots. Mine and everyone I know who had one the battery failed years ago.
+tasker,ff5qy99,t3_ertb0c,1579606722.0,Don't need Tasker for this.  Press and hold your screen to add a widget.  Scroll down to Maps.  Add the Driving widget to your screen.  Opens directly to the navigation page.
+tasker,feyiwqe,t1_few897m,1579446043.0,"I still consider myself a noob even though I have been using Tasker for a very long time, but the community here has been fantastic at helping me get up to speed.  Tasker has a pretty steep learning curve, but once you ""get it"", it can do some pretty amazing things.  There are also a lot of good tutorials on Youtube and the Tasker web site if you are a visual learner."
+tasker,fevvufv,t3_eqq537,1579402071.0,"This project https://taskernet.com/shares/?user=AS35m8lhwDTrZ9za5v0u2mqrl4jpErVVydvWzfzjyOmWawoWro58G4q5Lw%2BZThMtqxlZjHE%3D&id=Profile%3ASMSreceived
+
+May partially meet your needs.  It is triggered by incoming texts in my VIP list.  The first text it replies that I am driving. Subsequent texts from the same number it ignores.  Only handles the last text so if several people are texting me they may get multiple autoresponder.
+
+My Car Connected task activates the profile.  The exit task deactivates it and clears the lastSMS variable."
+galaxys10,fespbe9,t3_eqhspu,1579367585.0,"On my S8 I had to use a skin to keep from dropping it.  Eventually changed to a leather case.  On my S10 I use a clear silicone case because it is too pretty to cover, but too slippery not to have something.  Not too worried about dropping, that is what insurance is for, but I do use a screen protector because Gorilla Glass six is prone to getting easily scratched"
+WearOS,feos27c,t3_eq3opg,1579304640.0,https://watchovers.com/help/faqs/does-3atm-on-the-back-of-the-watch-mean-it-is-waterproof/
+tasker,felh0nz,t1_fekr0il,1579221967.0,"Thanks.  This did work as soon as I turned off the feature to turn WiFi on at known locations.  If I even need that, I'll do it with Tasker in a way that doesn't conflict."
+AndroidQuestions,fekxj0p,t3_epnci4,1579209657.0,It is the proximity sensor.
+tasker,fekww8h,t1_fekwbzv,1579209282.0,"I may have found what turned my WiFi on.  Not sure if this is Android 10 or just Samsung, but my phone has a setting to turn WiFi on in locations that I typically use WiFi.   I turned it off and will test again using my home network since I won't be back at work for a few days."
+tasker,fekwbzv,t1_fekun0y,1579208947.0,"I'll take another look.  I think I have that enabled, but I'll verify."
+tasker,feku68r,t1_fekr0il,1579207672.0,"Thanks, but this has the same issue as using WiFi connected.  WiFi turns itself back on after a little while since it can't detect WiFi near with WiFi off."
+tasker,feku371,t1_fekpxk1,1579207622.0,This looks like it will work.  I'll test with my home network since I am leaving work in a little while and won't be back until Tuesday.
+tasker,fektfrg,t1_fekrryg,1579207239.0,"Yes, although that has its own automation issues, and I need to figure out how to do a split tunnel, since one of the reasons I use work wifi is to access work network resources.
+
+I have also tried the Android 10 (or Android 10 on Samsung) feature of setting the apps as ""mobile data only apps"" which works for some of them, but doesn't work for Ring, and also the only way I have figured to turn it on and off with Tasker is AutoInput, which I have always had reliability issues with (mostly that it only works when the screen is on)."
+railroading,fekoqpj,t3_epn2if,1579204465.0,"The rrb.gov website has a calculator, although it is crashing for me today so I can't confirm if it includes your pre-railroad ssa or not."
+EarthPorn,feigpn3,t1_feidqcv,1579138128.0,"Yeah, I read ""Bear attacks, there causes and avoidence"".  I'll stay in hotels in bear country 🐻"
+EarthPorn,feidskw,t1_feiayl2,1579136163.0,Is he a bartender in town?  Was he there 3 years ago?  Met a lot of Aussie blokes working the bars and hotels in all 4 parks.
+EarthPorn,feidl81,t1_fei8w2q,1579136024.0,"Saw two adult black bears, one with cubs, along the shore on the way there a couple summers ago.  Not where I would choose to camp 🐻"
+nakedandafraid,feicr93,t3_ep8pnp,1579135466.0,"Despite the editing, I didn't need to hear your side to know that he was a misogynistic ass.   I never watch the repeat of this episode because I get so mad that you had to tap and he continued after the way you were treated."
+Amtrak,fei8naw,t1_fehyyvj,1579132736.0,Bad bot
+Amtrak,fei8lec,t1_fegtxxy,1579132703.0,Take a fire extinguisher 😃
+AndroidQuestions,fehrwzv,t1_fehlrga,1579122665.0,"It has a bit richer data, and my favorite feature is that it shows in milliamps the current drain or charge updated every few seconds.  But the biggest difference is on Samsung Galaxy devices that have upgraded to Android 10.  The new battery stats provide far less data than previous versions, so that was the explicit question I was answering."
+boardgames,feghhsb,t3_eoz72c,1579092917.0,"For gluing, I would try either e6000 glue, or gorilla glue.  Both are good at holding dissimilar materials together.  Biggest issue will be if the mats are flexible.  You might want to also glue them down to some foam core poster board so that they are stiff.
+
+I like this idea.  One of the members of our gaming group is terrible about keeping his cards organized so he takes forever to take a turn, and he misses a lot of points he should get.  Something like this would force organization on him."
+galaxys10,fefpvr1,t3_eovwvs,1579061848.0,"It is not just you.  Happened on my S8, S7, and S6 as well."
+AndroidQuestions,fefnk3a,t3_eowwdz,1579060229.0,"Comments on GSAM were wrong. It absolutely does per app tracking.
+
+For best results you do need to grant a permission through adb, but it works well even without that.
+
+Here is a screen shot if one of about a dozen ways it can show app usage
+
+GSAM app tracking https://imgur.com/gallery/uDPzE1H
+
+Edit: added link to screen cap"
+AndroidQuestions,feeol1a,t3_eorvxg,1579037960.0,Yes
+androidapps,febgcjo,t1_feb5vxz,1578958551.0,Thanks!
+androidapps,featl3v,t1_fe2zao9,1578952105.0,"Have you published the persistent notification for notes to Taskernet?  That one sounds interesting.  They all look interesting actually, but I have no idea how you did that one.  The others I am interested in I can figure out what you did."
+WearOS,feasa9j,t3_eo7lk7,1578951803.0,"I find it to be fairly unreliable on my HW2.  It will work after rebooting the watch or phone, but sometimes after a few days it starts giving me the same message.  Other times it will work fine for a week or more.  No pattern that I can discern except that it always works again after a reboot and never starts working again unless I reboot."
+GalaxyS8,fe9wr00,t3_eo8b0s,1578942150.0,"If you have had your device since near release, then the whole screen replacement is worth the cost because you also get a new battery (and if course if you have any burn in that is resolved as well).
+
+If you are in the US, find a Ubreakfix and they can do it same day.  No shipping your phone to some possibly shady company found on eBay."
+WearOS,fe9v0f0,t1_fe9hyeq,1578941714.0,"I agree with your assessment of google incompetence, particularly when they break something that is working perfectly well.
+
+I disagree with your definition of workaround.  Having functionally equivalent capabilities is what most users need.  Seamless Keep integration is the best solution, but I can send myself notes, and I can manage my grocery list, so I am made whole if not totally satisfied with the solution (and actually, with a minor change, I would still prefer OurGroceries for keeping shopping lists over Keep, although want Keep for my other list types)."
+GalaxyS8,fe8yaa8,t3_eo5qzg,1578932308.0,"I never used a protector on my S8 and it was fine.  I use a holster and never put it in my pocket, and did not have any scratches over two years.  I did pay for insurance, although for just the screen, may not be worth it.  Ubreakfix will replace the screen and battery for about $250.  2 years of insurance is more than that 
+
+Note: if you upgrade to the S10 my advice is different.  Gorilla Glass 6 is more shatter resistant, but less scratch resistant.   In just a few months I had worn through the oliophobic coating and started getting microscratches where my thumb scrolls up and down, so I got a tempered glass protector."
+AskReddit,fe8o4qk,t3_eo3q9l,1578928411.0,"I am in a doctor office.  It would be a little awkward since it is an orthopedist, and I am here for my neck, but not as bad as some other possibilities."
+androidapps,fe2lulj,t1_fe276uj,1578840198.0,"It is $2.99 for the basic app, but you may need some plugins for full functionality.  I probably have $15 in it.
+
+Things I do:
+
+When on external power extend screen timeout to 10 minutes, return to 1 minute on battery.
+
+When specific apps that don't keep the screen on themselves  are running, keep screen on.
+
+Turn WiFi on when I disconnect from Bluetooth and every hour.  If not connected to a network in 5 minutes, turn it back off.
+
+Turn autorotate on when certain apps are open, turn it off when they close.
+
+Turn PrivateDNS (pointed to adguard) off when connected to my work WiFi, or when certain apps are running that won't work when adblock running (Ticketmaster)
+
+Change my lockscreen wallpaper at night and change it back in the morning (may change this one to follow dark mode)
+
+If I open the Ring app when at work, turn WiFi off (work network blocks streaming video).
+
+If screen is off and phone upside down, lock phone (normally unlocked through smartlock paired to my smartwatch)
+
+When connected to my car BT, autorespond to VIP texts that I am driving, but only the first text.
+
+Control my EZ-robot from my smartwatch
+
+Control my Hue Lights from my smartwatch
+
+Lock the phone and activate DNS when I remove my smartwatch, turn DND off when watch back on my wrist.
+
+Employer makes me use Outlook for mail client, and it has terrible Smartwatch notification support, so I dismiss it's notifications automatically and replace with Tasker Autonotifications.
+
+And I am not a sophisticated user...."
+androidapps,fe2544m,t1_fe20d7q,1578834586.0,"Once you have it, you will find other uses.  It really should be part of Android.  I can't imagine having an Android device without it ."
+androidapps,fe1oixf,t3_enmcoo,1578829101.0,Tasker.  The answer is always Tasker.
+Googlevoice,fdylsau,t1_fdylcc7,1578781202.0,Yes.  Only iMessages from Apple devices will show up as iMessages.  Google voice or texts from non apple phones show as SMS .
+AndroidQuestions,fdylb7r,t3_ene2mr,1578781027.0,"I usually have to say it twice, but I also always have music playing."
+Googlevoice,fdyl6in,t3_ene7o3,1578780982.0,"Shows up like a text, not like an iMessage."
+todayilearned,fdy7rxt,t1_fdxoysd,1578776929.0,I see what you did there.
+boardgames,fdsdq0u,t3_emw9s4,1578700315.0,"We played Agricola hundreds of times, but haven't gone back since getting Caverna.   The biggest issue is that Agricola is unforgiving. One or two mistakes early in the game and you can know that you have no ability to catch up and win.  Caverna is more forgiving of 2 or 3 bad turns."
+AndroidQuestions,fdsdf0y,t3_emx9vw,1578700104.0,"Was the old phone an iPhone, and did you deregister it from iCloud?  This set of symptoms is strange, but almost all weird texting issues after getting a new (non Apple) phone are iCloud related."
+legaladvice,fdrt5c7,t1_fdrjtdq,1578689371.0,"Are you not required in your state to have a building permit and inspection for a fence?  In Maryland you would have had to place the fence at least 6 inches inside the property line, and if it was on the line when inspected you would be required to tear it down and start over.  You should check with your county permitting office to see if the fence is even legal before taking any action with the neighbor.
+
+Edit: a word"
+AndroidQuestions,fdqg41n,t1_fdqbo58,1578665798.0,"I've done this as well, although when I am on my work WiFi I can't use the VPN (or private DNS) and I have not found a good way to automate connecting and disconnecting the VPN.   Probably not an issue with Cloudflare, but anyone doing this with adguard DNS I strongly suggest adding a quicktile to toggle it (instructions in same discussion).  There are some sites that won't work with adguard and sometimes it  gets slow or stops responding so you need to turn it off for a while, although it has been pretty stable the last couple of months."
+galaxys10,fdq6w37,t3_emnies,1578657440.0,GSAM battery monitor does this and much more.  I have always used it instead of the Samsung battery stats even before the upgrade.  https://play.google.com/store/apps/details?id=com.gsamlabs.bbm
+AndroidQuestions,fdq65mq,t3_empbt7,1578656573.0,"If you are on Android 9 or above, you can use Private DNS to point to Cloudflare
+https://blog.cloudflare.com/enable-private-dns-with-1-1-1-1-on-android-9-pie/amp/
+
+This overrides the DHCP or statically assigned DNS servers.
+
+You can then use Tasker to enable or disable Private DNS: https://www.reddit.com/r/tasker/comments/cb0c6i/how_to_enable_private_dns_on_android_pie/fd7inib?utm_medium=android_app&utm_source=share  based on whatever criteria you want, like connected to your home WiFi.
+
+Edit:. Added link to instructions for controlling with Tasker"
+cats,fdpf9j7,t3_emjppw,1578627112.0,May her memory be a blessing.
+AskReddit,fdp2ik8,t3_emgnqh,1578618456.0,"I think it is the feeling under my hand as much as the sound, but I can't stand sandpaper on wood.  It is a shame, because I love the look of hand worked wood, and it is something I think I could have been good at but I could never get far enough to finish a project."
+worldnews,fdozzpg,t1_fdor8si,1578616758.0,"Don't forget illiterate and quote possibly senile. He has always been lying asshole, but if you see interviews from the 80's or 90's he could at least form a coherent sentance.  Now it is word salad."
+AndroidAuto,fdotewf,t1_fdoq0s8,1578612463.0,And then Gsuite customers will wait 2 more months or will get it and then have it taken away because Google hates us.
+tasker,fdlk0co,t1_fdlhy6i,1578525750.0,"It is working for me as long as the variable is set.  If it is not set, I get the variable name.  Also works with the title field
+
+Unfortunately it is also supposed to support html tags, and I can't seem to get the data to center."
+tasker,fdj5a2j,t1_fdj13ke,1578458830.0,"In Tasker, create a new task ""AutoWear single screen"".  In the configuration, set the text to your variable.  Whenever the task executes, it will replace the watchface with a screen showing your variable. 
+
+Set a profile to  execute the task with whatever triggers you need."
+WearOS,fdj1s64,t3_elmj56,1578456225.0,"If you can bring back the ability to choose which app is registered to respond to Google Assistant ""note to self"" I would be forever grateful.  It used to be that several apps could use this to allow voice control, or you could choose between Keep or Gmail if you wanted to use the original intended feature.  Now it appears that whichever app asks for the function last gets it, and the only way to go back to Keep is to remove the app.  My specific issue is AutoWear, which I have many uses for and don't want to delete, but activating it via ""note to self"" is not one of my use cases."
+tasker,fdizurj,t3_elmhik,1578454887.0,You can also display variables with Puji Black.
+tasker,fdiz70j,t3_elmhik,1578454436.0,"AutoWear (a Tasker plugin) can display Tasker variables on screens.
+
+If you want this instead of a watchface I am not sure if it is the best option. 
+
+With the Watchmaker app you can create a custom watchface, and it can display Tasker variables, so you should be able to create a face that is just the variable.  I haven't used Watchmaker in years because on my first smartwatch it used too much battery, but it might be better now.  That was several years ago."
+Amtrak,fdf2bpu,t3_ekz2xv,1578351700.0,"From Croton, 2 or 3 per hour most of the day on week days.  Here is the schedule:  http://web.mta.info/mnr/html/planning/schedules/pdf/HUDJUL072014_SS.PDF&ved=2ahUKEwir1fTaifDmAhXHFTQIHY9kDfkQFjAUegQIAhAB&usg=AOvVaw0Uq1rlaG3KfCXghu4T9Ulk"
+Amtrak,fdenx80,t1_fczol8w,1578342989.0,"It is not outdated.  Traditional dining still on AutoTrain, but only for sleeper passengers starting in a few weeks.  The Cross Country Cafe will be added for coach passengers.  There will also be a variety of food trucks available before boarding if you want to purchase food of your choice and bring it on board.
+
+Other East Coast overnight trains have ""contemporary dining"" for sleeping car passengers which can be eaten in the dining car or in your compartment.  Cafe car available for coach."
+Amtrak,fdenggn,t1_fden6jb,1578342714.0,"Well, not by policy, but I doubt the drivers bother to check. ."
+Amtrak,fden52a,t3_ekz2xv,1578342527.0,"Hudson line would the right choice.  Also less expensive and trains more often for that trip.  Only issue is that it goes to Grand Central, not Penn, so if you need to get further downtown you'll need bus, subway or cab (Uber and Lyft also won't take minors)."
+Amtrak,fdemwmc,t3_ekz2xv,1578342390.0,"Where are you travelling from?  Metro North is much more lenient.  (must be 8 or over, and should carry ID, no requirement to be met by an adult at either end)."
+Amtrak,fdemj48,t3_ekz2xv,1578342167.0,"If your guardian isn't OK with it, then Amtrak won't be either."
+tasker,fddxyyk,t3_ekvy3m,1578326693.0,"I don't have a solution, but I wanted to say that looks like a great way to uncover functionality that is not exposed by application developers.  I hope you find a solution and that it works with other apps too.
+
+That being said, I have found that the Textra developers are very open to suggestions.  I would recommend asking them to expose the activity, or even add Tasker plugin capabilities and if the level of effort is not high, they will likely comply."
+galaxys10,fddjdnf,t3_ebf00v,1578314615.0,"Not sure I consider this a bug, just a change I wasn't aware of.  Super Slow MO camera does jot wait for motion anymore.  Starts recording as soon as you hit the shutter button.  I missed a shot because I was expecting the previous behavior and it finished recording before the event started.
+
+Edit:  Oh...  There is a selection on the menu bar.  I don't recall that being there before.  Never mind..."
+galaxys10,fddja52,t3_egn3ek,1578314509.0,"Us Unlocked just got January security patch (carrier Verizon, but should not matter since unlocked variant)."
+AskReddit,fd77tdx,t1_fd76u8o,1578200558.0,Not even his pants
+tasker,fd75kbe,t3_ek734i,1578199714.0,"Since it is a Galaxy, have you checked if there are any Bixby Routines running?  One of the samples is a DND controller, maybe it got turned on in error?"
+Ring,fd4p0yr,t3_ek14on,1578169595.0,"I reported this on the Ring Community forum.  Employee suggested uninstall and reinstall the app.  It worked for me (actually cleared cache and data and re-setup which is virtually the same).  Some users reported that snooze from in the app works but from notification still doesn't, but both work for me now (Android app on Android 10)"
+galaxys10,fd41cuk,t3_ek0dql,1578163496.0,No.
+howto,fd40ssk,t1_fd3uwy6,1578163338.0,"Heh...  Try it in guacamole or Avacodo toast, not just a plain slice in a salad.  I like it all of its forms, but I could understand why someone could dislike it plain."
+howto,fd3qskk,t1_fd2ae6p,1578160910.0,"You are a monster who does not deserve good food, but I up voted you to remove the negatives because this is funny and people deserve to see it."
+howto,fd3pz78,t1_fd2o9kk,1578160661.0,Almost every time.
+FloridaMan,fd3oa13,t1_fd3d4qk,1578160223.0,And yet some idiots upvote it in every thread.
+FloridaMan,fd2p43a,t1_fd1zsip,1578150342.0,Bad bot
+AndroidQuestions,fczimpb,t1_fczi3xw,1578102066.0,"Yes.  Tasker is the app.  Autonotification is a plugin.  Both are paid apps, but Tasker is well worth it.
+
+Bit of a learning curve, but an active and helpful reddit community at r/tasker and lots of online tutorials."
+AndroidQuestions,fczewib,t3_ejmaaz,1578099687.0,"That is defined by the app developer.  Some apps do it, some don't.  Tasker with Autonotification can dismiss specific notifications when you open the app, but you need to define each one."
+WearOS,fcxoioj,t1_fcxlf28,1578067797.0,"It works with my Philips Hue lights and my Sensei thermostat (although it currently thinks I have 2 because I had a network issue and had to re-pair my thermostat, and Google thinks it is a second one).
+
+If I didn't have a substantial investment in android apps, I would switch to a gmail account for everything except email.   When I started with Gsuite, I needed some group lists and a simple web site on my own domain, but now I just care about email with my domain.  Wish there was a way to transfer purchases."
+androidapps,fcxo2xv,t3_ejg9h9,1578067516.0,"I use Keep because it is fast to enter the note.  Stuff I want to keep long term, I transfer to OneNote because it has better organization ability (Evernote also a good option, and can do both because it is also fast like Keep, but you need to pay for features that are free in OneNote)."
+GalaxyS8,fcxg6h7,t1_fcxc9hz,1578062086.0,"I would verify the warranty timeline by calling Samsung (I think you can also check in the Samsung Members app).  If I am right that it is two years, and you can live with the burn in, I would wait until it is a couple months from being up, or if you start noticing your battery degrade (Starting with the S8, Samsung did some things to preserve battery health.  They claimed 2 years would still be at 85% capacity.  My experience was pretty close to that but others have reported worse)."
+GalaxyS8,fcxbqb3,t3_ejetpg,1578058506.0,"Yes, for 1 year in the US, I believe 2 in Europe.  They can deny the claim if they think you had the brightness all the way up for extended periods.
+
+You get a replacement battery along with the screen, and yes it will still retain the water resistance if done by authorized service.
+
+If you are in the US, you can get the work done same day if you are near a Ubreakfix location.  If you need to send it in, typically takes about 2 weeks."
+WearOS,fcx93f9,t1_fcwp6eq,1578056022.0,"Not to go too far off topic, but I have workarounds until Google finally fixes this.
+
+For Note to Self:  I used IFTTT to intercept the Note to Self phrase and send it to my gmail account.  Not Keep, but better than the stupid Assistant notes that there is no way to access without voice.  It only works if I follow the Note to Self with the note all in one sentence.  If I pause, it asks me what the note is, and saves it to the Assistant note page.
+
+For shopping, I use OurGroceries.  It is a little more cumbersome, but I can say ""OK Google, Ask ourgroceries to add XXX to yyy list"" (if I leave off the list, it saves to my last used list).  Need to use the whole phrase for each item because OurGroceries exits the conversation after each one is added."
+WearOS,fcx2wzz,t1_fcwp6eq,1578048864.0,That sucks...
+Ring,fcwjkrm,t3_eja6ae,1578027372.0,"Ring can be used in ""if this than that"" https://IFTTT.com formulas to flash most brands of smart bulbs.
+
+Just be aware that there is sometimes a short delay with IFTTT."
+aww,fcwfsub,t3_ej6woj,1578024509.0,That Ear!
+WearOS,fcwe8h3,t3_ej8ek4,1578023398.0,"My biggest use is setting alarms and timers.  Used to do note to self until Google screwed it up and stopped sending notes to Keep (looking forward to getting that back, but Google hates Gsuite users and haven't rolled it out yet to us).  Used to also use it to set reminders, but again, Google hates Gsuite users and reminders currently don't work (although to be honest, they never worked well, so probably better off this way)"
+galaxys10,fcwdtbs,t3_ej6foq,1578023108.0,First one I have tried where Photosphere works.  Thanks for the link.
+sousvide,fcv7efc,t1_fcv2htd,1577996189.0,Foodsaver always has great Black Friday sales on their web site.  I stock up for the year every Thanksgiving.
+mildlyinteresting,fcv71oo,t3_ej0l1x,1577995977.0,"Back when the USSR still existed, I bought a basic wooden table for my kitchen that was made in the USSR.  We called it the Communist Party Platform."
+nasa,fcu836z,t3_eiy9bd,1577974791.0,Who wouldn't want to see 31 days of X15 pics?   I say bring them on (or host them somewhere else with a link here on the 15th day).
+AndroidQuestions,fcsv6yp,t3_eil7go,1577925937.0,Yes
+AskReddit,fcr3rcn,t3_eifsmg,1577896353.0,I was terrified of my reflection in Windows when it was dark outside.   The first nightmare I remember having was that a ghost swallowed my mom and I could see it outside the window with her face inside.  (I was between 3 and 4).  I was scared that reflections were ghosts until I was at least 5 or 6 after that.
+GoogleMaps,fcmuo1x,t3_ei1wkr,1577793111.0,"I don't see how these are considered hidden tricks.  They are all either directly visible on the map, or from the menu.  Good things to know, but nothing secret or hidden about them."

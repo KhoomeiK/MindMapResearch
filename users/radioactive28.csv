@@ -1,0 +1,183 @@
+subreddit,self ID,parent ID,time,text
+worldnews,ffeg84w,t1_ffef3vn,1579846798.0,"If people are collapsing randomly, and there is coincidentally a potentially-fatal contagion going around, I'd say there are grounds for a quarantine.
+
+It's probably hard to imagine if you've never been in ground zero of an outbreak, but when SARS hit, some countries did see affected communities turn into ghost towns, simply because people were scared. Which probably helped limit the spread.
+
+The Chinese people don't seem to have time for dying though, since the Lunar New Year is just around the corner. Got to get home in time, or the virus is going to look mild next to angry Mom."
+nottheonion,ffe2w25,t3_et3gih,1579835282.0,"I was going to say, the employee just learnt a very expensive lesson. If he is truly sorry, not firing him could really earn his loyalty and leave him a better worker.
+
+Then I got to the part which said this was the second time he'd done it..."
+magiarecord,ff9jfpt,t1_ff97j7h,1579714295.0,Look at the names of the original quintet - all their surnames also work as given names. It's a bit of a pattern for many other girls as well.
+magiarecord,ff9izqd,t1_ff65hr2,1579714028.0,"The anime needs a lot more wideface. Heck, the game needs more wideface."
+PuzzleAndDragons,ff2a86e,t1_feyjkkr,1579498452.0,"Probably a fitting date, since that's within the period of the Lunar New Year, so they can bill it as part of the New Year event."
+explainlikeimfive,fevqhcv,t3_eqji5z,1579400279.0,"Many replies have touched on the CPU and supporting hardware, so I'll try a different perspective.
+
+Everything only works because a very tight sequence/order of events is mandated. When power is applied, all components receive their share in some order, and some trigger the start-up of other components.
+
+Most of the sequencing, transfers and handovers early in the cycle are handled by firmware, which is basically software embedded in the hardware (contrast this to software sitting on a harddrive).
+
+One important part in the old MBR scheme is the loading of the boot sector on the harddrive. This sector must contain a tiny programme (bootloader) that can tell the CPU how to locate and launch the OS, which is located elsewhere on the harddrive or even some other device.
+
+The OS is usually then responsible for subsequent operations. Its logic must cover the loading and unloading of applications and drivers, some of which are lower-level and critical to the operation of higher-level applications. Drivers are small modules responsible for fetching data to/from devices so that the OS can receive/present the data to the CPU via the hardware path of the system.
+
+The data presented to the CPU is very specific. The CPU has multiple inputs, some of which are application data, some tell the CPU where to look next (pointers), or what operation to perform next (instructions). In addition to the application logic (games, video playback, etc), every programme (including the OS itself) will contain some amount of logic to prime the CPU and to keep the data flowing."
+todayilearned,fep6bjj,t1_fen0tfx,1579313110.0,"Singapore's statutes are available online, and this is the [exact text](https://sso.agc.gov.sg/Act/HOTA1987) for the law. There's no mention of the priority type, except that a panel will decide the receipient of the organs."
+todayilearned,fen7r6b,t1_fem4pwn,1579278820.0,"How much does it cost to bury or cremate a body anyway? Can't imagine it being a huge burden unless you're generally living from paycheck to paycheck.
+
+That aside, if somebody gets my organs and is willing to foot the bill for my disposal, being fired off with a trebuchet or a cannon would be really cool."
+todayilearned,femhsl9,t1_fem9v5f,1579256251.0,"Call me out if I missed something, but it feels like you're looking at this too simplistically, i.e., all available cases are neatly sortable by medical urgency/severity with no overlaps or complications, so there's no need for doubt or fallible decision calls.
+
+In most cases where they have to convene a panel (any field, not just medicine), it usually means even experts can have differing views."
+todayilearned,femf9o7,t1_femdhrn,1579252445.0,"I guess I was referring to both the model type and also EMUs of the model. As in, one EMU can start off doing normal service on one section of the line, and then go on to do express service on subsequent sections, for example."
+todayilearned,femcymg,t1_fem2cvf,1579249174.0,"They do, at least in Tokyo and Osaka. Each train indicates their terminus and service type. There are also announcements and digital signage. But if you are used to less efficient systems elsewhere, you may not believe you were getting on the right train because their timings are so exact."
+todayilearned,fema18l,t1_felwmgr,1579245412.0,"If you had to get an organ transplant, I think you (and whatever health authorities) will likely have other medical concerns when it comes to donation."
+todayilearned,fem9m94,t1_fem43rb,1579244901.0,Does a priority system necessarily have to preclude triage?
+todayilearned,fem84sl,t1_fem24b2,1579243212.0,"It's a confusing system if you've been living in places with limited options. The physical track (shinkansen vs. main line 'honsen') is separate from the service (normal/rapid/limited/express/superexpress) which is separate from the trainset (e.g., E233 vs. N700).
+
+The tracks don't mix, but a slower trainset can also be a superexpress although it's not common. A fast trainset can be used to run both normal (Kodama) and superexpress (Nozomi) services, but is unlikely to be on the main line."
+todayilearned,fem67vf,t1_fem5jsz,1579241193.0,You mean you'll get targeted for hitjobs just so others have a chance at your organs?
+todayilearned,fem5w7g,t1_fem53uu,1579240865.0,"Mostly because you don't need your organs anymore once you're dead, and some people do believe usable organs should be used to help keep others alive. If you have religious or other objections/reasons for not missing any organs in death, you're free to opt out.
+
+EDIT: Some people in Singapore do have adhere to the taboo of not cutting up the body in death (it's a Chinese culture thing), but they're also pretty pragmatic and the system is trustworthy (they're not going around killing people just to harvest organs, nor do people die from hitjobs for organs). Your concerns may differ depending on where you live."
+todayilearned,fem5g69,t1_feluw33,1579240413.0,"Not sure about the percentage, but some of the more high-profile/serious crashes were due to the drivers overspeeding while trying to keep on time. They're supposed to have a system that's nailed down both safety and efficiency, but it can be taken too far."
+todayilearned,fem3ikm,t1_fem2rhu,1579238544.0,"People are hired to clean it, but they don't really have to do much. The Japanese simply don't make much of a mess of their public spaces to begin with."
+science,felgeav,t1_fel6x45,1579221558.0,"Levels of perceived physical pain is also subjective, but they still do research on pain management and prescribe painkillers with varying levels of efficacy."
+explainlikeimfive,fej5oqw,t1_fehzm3s,1579157920.0,"To add some background, data on the CD is encoded in the variations of the return signal when the reading laser shines on the discs. Micro-etchings on pressed CDs causes these variations, while CD-Rs and -RWs uses embedded layers of chemicals."
+todayilearned,fej4ggn,t3_epe4jo,1579156538.0,"The removal was advocated by the joint effort between the mouthwash and electric toothbrush industries, in an attempt to collapse the floss industry /s"
+nottheonion,fed5pnc,t3_eoie91,1579000168.0,So... someone had to be the one who had to find out what she smelled like and figure out how to replicate that smell?
+worldnews,fed4day,t1_fecw8h0,1578998239.0,The part about food production is really quite a shame. There are regions where people are malnourished and there are regions where they can afford to throw food away simply because it looks unappetising.
+news,febukao,t1_fe6f766,1578962884.0,"Don't worry, we won't leave you naturals behind. The ability to mechanise will be one of the basic rights, and you won't have to suffer any more."
+explainlikeimfive,fe6nzri,t1_fe3vxkc,1578897608.0,"This is my understanding as well. Like how France is typically called 法国 where 法 is short for 法兰西, the transliteration for France."
+explainlikeimfive,fe6njes,t1_fe6fjzr,1578897101.0,"The body can only process and expel alcohol at a fixed maximum rate, so if you've had many drinks, the alcohol is going to stay in the system that much longer."
+explainlikeimfive,fe6nc6o,t1_fe6mcr3,1578896881.0,You should check out YouTube videos of the lyrebird. It almost seems like a hoax.
+todayilearned,fe6kheg,t1_fe6jee8,1578893877.0,"Who's telling you what to do? You're still entitled to self-defence at sea, as you are on land. In both cases, you have to justify killing another person if it comes to that. If anything, self-defence against an actual pirate seems like it would be much easier to justify."
+todayilearned,fe5sdv7,t1_fe5pz9h,1578873906.0,"It doesn't say in the Wiki page, but my guess is that the legal authority to try and execute pirates as such is only vested in members of the military (probably only the navy) as part of their job.
+
+A regular citizen would probably go through the civilian legal process and claim self-defence, i.e., civilians don't get a free pass for killing."
+nottheonion,fe1jtn2,t3_enm6bx,1578827438.0,"Dude is diabetic, got to watch his intake /s"
+news,fe1hnl0,t3_enbxup,1578826642.0,"Inappropriate is telling the family of the dead person, ""We have a suspect, but we know we can't do anything to her, so we're not even going to bother. Sorry, ma'am, just got to suck it up."""
+askscience,fdzymtf,t3_emyqgy,1578798981.0,"No, unless you meant to re-encode the data or somehow process it, simply transferring them over the Internet or other medium will not cause degradation. (There are services that re-encode your audio or video files though, like YouTube, in the interest of saving space/data and ensuring a consistent format.)
+
+There are algorithms that can summarise the entire file rapidly into a signature called a checksum. If even a single bit changes in the file, the checksum changes radically, so it is used to ensure the data integrity of a file. Between the two ends of the file transfer, the checksum is communicated to ensure that the file has been copied identically. If the checksums don't match, the programme/protocol can attempt to re-transmit the file in part or in full, until it is identical. No data loss occurs if this process is carried out for every transfer.
+
+The media holding your digital data can degrade just like media of old though. There are natural variations in the reading and writing signals when accessing the media. The individual memory cells of the media can lose integrity or spontaneously change due to radiation, thereby corrupting the file. But these errors are relatively rare if the whole system has been designed correctly, e.g., through specifications of electrical tolerances, shielding from interference, good QC during manufacturing, etc. If unintended errors do occur, checksums can help highlight the corruption and in some cases even provide some degree of error correction."
+nottheonion,fdz4mp7,t1_fdxihjw,1578786683.0,"> The problem is that even this doesn't guarantee profitability. After all, how many years of Boeing's profits are currently sitting around, weathering on the back lots of airfields? If a catastrophe like the 737 Max happens again, America might well find itself out of the commercial airplane business altogether. If no one will trust you enough to buy your product, it doesn't matter how cheap it is.
+
+One of the reasons given for cutting  regulations is that the players will be self-regulated by the invisible hand of the market, according to this scenario. They're not supposed to prioritize short-term profitability over long-term viability.
+
+All I can say is, welp, here we are."
+nottheonion,fdz2uhj,t1_fdy7hba,1578786098.0,"Wait, people actually use those?"
+nottheonion,fdw2ymu,t1_fdtmhge,1578754526.0,"Their current trajectory seems to suggest that there'll be no such message. Removing and watering down regulations leaves fewer standards to be held accountable to, although they seem to think they're removing the unnecessary ones."
+nottheonion,fdvim0v,t1_fdu21o1,1578747795.0,"That really depends on who exactly made the clown-and-monkey comments. Are they attributed to engineering, production or management staff? (EDIT: Not attributed, apparently.)"
+explainlikeimfive,fdtxcb9,t1_fdtooyo,1578723742.0,"Being able to examine multiple perspectives to a claim is part of critical thinking, but there's a lot more to it. You actually need other processing skills to be able evaluate claims/hypothesis, e.g., determining if a claim is sound on its own (not all arguments come with multiple sides), if/how it can be subtly skewed or masked."
+explainlikeimfive,fdtj9fm,t1_fdq848c,1578717553.0,"Reading around here and other layperson science sources, it seems like we are in the infancy stages of understanding how the body and its processes truly work.
+
+Lots of medication have been synthesised/purified where an effect was observed after people consumed some plants or other compounds, or they sought to mimic how the body works (according to the best knowledge they had at the time). Trials are conducted to check the safety and efficacy of the medication. They'll then use it if it's proven safe enough, even if they don't fully understand how it's working at the molecular level.
+
+Being able to truly manipulate the body to re-establish its own balance (without medication or surgery), on the hand, is something that requires a lot more research and testing. But in the meantime, patients who need treatment now can't be waiting 10 or 20 years for the perfect method."
+askscience,fdt9yej,t1_fdsqq1b,1578713847.0,"The worry is that the trash causes a runaway chain collision in space before they de-orbit. When that happens, communications, GPS and earth observation satellites could all potentially get disrupted, with much impact to modern technology on the ground.
+
+All the debris from the aftermath of such a collision could also make future space travel impossible or impossibly expensive.
+
+There are research and plans for clean-up, but I think viability isn't there yet."
+singapore,fdq0c5o,t1_fdp7mxb,1578648562.0,"Doesn't Singapore have its own Navy? Leaving aside the US and China, it looks powerful enough to hold its own against most navies in the region, and then some."
+explainlikeimfive,fdnhhgj,t3_emaj2z,1578585907.0,"Your phone doesn't really run multiple apps, at least not in the same way Windows runs multiple applications.
+
+You typically only have one *user* app active on your phone screen while many others can be in the background. The background apps go dormant (using minimal CPU time), although they still retain their allocated memory. If Android detects that memory is running low, those apps in the background can be terminated, freeing their memory. Such a move is tolerated because multi-tasking in the desktop sense isn't expected on a mobile device. You can't see them on the screen, so they're not expected to be running or doing work. (System stuff and services are an exception - they always have priority.)
+
+Windows, on the other hand, has to keep all applications running. It has no freedom to selectively kill off some applications - the user can start *x* number of applications and Windows has to assume they are all equally important since they are all visible to the user and could very well be in use. Imagine you're zipping files and seeding torrents in the background while watching a video, and you find a corrupted zip archive later because the archiver was killed midway. (You could even start 50 intensive applications that do not have visible windows and you'd still be expecting them to work simultaneously - this is what happens on server machines.)
+
+So what Windows has to do is juggle all applications equally, even if that means every one of them ends up performing equally poorly.
+
+EDIT: This is just for why applications slow down or freeze. Crashes are due to something else, but the gist is that mobile OSes are newer technology, while traditional desktop/server OSes are older technology. Desktop/server applications can be made crash-free, but requires more programming effort."
+PuzzleAndDragons,fdinv34,t1_fdglepm,1578447080.0,"Not sure about your OS, but Android does that - if you put ringtone on silent or vibrate, it's taken to mean you want the whole phone on silent."
+news,fdfxhzs,t1_fdeiikz,1578372930.0,"Interesting. I had no issues with the taste, but thought the texture needed quite a lot of work."
+explainlikeimfive,fdftxq4,t1_fdde47i,1578370130.0,"The enzyme probably doesn't work when the milk is just sitting around, and needs to get into the body, where there are gastric acid and other substances, to start doing its magic."
+magiarecord,fdf9t78,t1_fdelyob,1578356654.0,It's her (decade-long) project where she gets really great singers to perform her compositions.
+magiarecord,fddjigj,t3_ekkh3x,1578314757.0,"Meanwhile, I had three 4\* girls show up in 150 rolls while rolling for Haregi Madoka - only one of them was Haregi Madoka =\_=
+
+Debating whether go in with my last 100 rolls."
+askscience,fdd544f,t1_fdaqefz,1578295196.0,Is this the same as passing in a 400THz signal at such a high power (because a regular-sized antenna would dissipate most of it as heat) that the antenna starts to emit in that band?
+singapore,fda3icj,t1_fd7rjte,1578241239.0,"In that respect, the founder of Impossible meat got it right conceptually - he realised the only way for people to go off beef was to provide a commercially-viable alternative that could give the original a run for its money, instead of trying to get people to switch lifestyle for ideological reasons.
+
+But the implementation still leaves something to be desired. They've got the taste right (texture is off), but it still costs more than actual beef, so there goes the commercial viability."
+Jokes,fd6eymy,t1_fd6ehga,1578189960.0,Is he your doctor?
+askscience,fcumhkc,t1_fcug9c2,1577984181.0,"The approved maximum cruising speed is usually Mach 0.85 to 0.87, but they will take it higher during certification testing to document the buffeting limits. If I remember correctly, there has been at least one case where \>M0.9 was unintentionally breached during a regular commercial flight."
+askscience,fculaew,t1_fcu2m06,1577983496.0,"That may be true of grass or fast-growing bushes. But if significant amounts of mature forests have been burnt, the big trees won't be coming back in just a year or two. Ditto for any slow-growing animals, although I'm not sure what species they have down under.
+
+And desertification has major ramifications - there won't be much green growing in a desert."
+magiarecord,fcpln7z,t1_fcpb10o,1577867011.0,"I wouldn't hold my breath, but it would be nice if they did bring it to NA earlier. This was introduced with part 2 of the main story in JP."
+magiarecord,fcpldgg,t1_fcpk159,1577866847.0,"About two months ago, at the end of Oct 2019, in conjunction with the launch of part 2 of the main story and the Spirit Enhancement feature."
+magiarecord,fcpgj8f,t3_eiabjt,1577863016.0,We need(?) a Mapo Tofu ~~CE~~ memoria!
+magiarecord,fcpctwi,t1_fcpbomi,1577858618.0,"Not directly. But you can use the coins to buy a set of the Spirit Enhancement crystals (8 small, 3 medium, 1 large)."
+magiarecord,fcpalvp,t1_fcoxpkv,1577856289.0,"It's like the second layer of the pity system. If you roll 300 times for the event gacha but got spooked for the pity every time, you can still accumulate the coins, and exchange for the featured girl in the shop.
+
+Alternatively, if you're lucky, and get the featured girl with all three pity counters, the coins allow you to get the fourth copy without further rolling.
+
+The only catch is that the coins only come from rolling the featured gacha(s), can't be used outside the featured event's shop and will expire once the event ends. If there are simultaneous events running, they can have a different type of coin for each event."
+magiarecord,fcfebxt,t1_fcfaa5v,1577629088.0,"I'm clearly not amazing at reading properly. I skimmed, as you can tell from my original mess LOL
+
+Read more, listen more, speak more, if you have the opportunities. Kanji requires some attention to details and is a lot of memory work, unfortunately."
+magiarecord,fccu7md,t1_fccqk4l,1577602688.0,"Oh, did I miss the detail? I thought I saw 確定 and not 限定.
+
+EDIT: Oh, I totally missed the details and the 限定."
+magiarecord,fccmvki,t3_eh1dxv,1577600243.0,"~~The 650-stone pack lets you choose a specific unlimited 4\* girl, while the 400-stone pack guarantees an unlimited 4\* girl but the girl you get is random.~~
+
+EDIT: Wrong info, see the reply below."
+singapore,fcbrw4s,t1_fca7fti,1577590284.0,"Not a lawyer, so I have no idea. They're removing the exemption for marital rape here, so I guess the general question is, what existing avenues of recourse are there for men who are falsely accused of rape?"
+explainlikeimfive,fc9m9ue,t3_egkuyb,1577554796.0,"Microsoft typically puts out a new version of the C++ Redistributable with every major release of Visual C++/Studio because that is when they typically break binary compatibility for the DLLs, i.e., the DLLs have different data/function layouts and cannot be properly loaded by programmes compiled under a different release.
+
+The major releases are usually less often than a year though, typically once every two years."
+explainlikeimfive,fc9jum9,t1_fc8ldxp,1577553732.0,"If you're talking about using the force of the waves to drive the reverse osmosis, that's unlikely. The r/o filters that work on seawater require 40-80 bars of pressure to force the water through, which is about 600-1200 psi. You only get that sort of pressure naturally at about a kilometer (or half a mile) underwater."
+explainlikeimfive,fc9hbzu,t1_fc90hb1,1577552684.0,"You may want to reconsider the part about drinking it. Silver is known for its anti-microbial activity and used as such in *external* applications and medical instruments, but that is only because it is *less* toxic to humans than bacteria. Meaning, between having bacteria and silver kill you, researchers/manufacturers are taking a risk that silver is the lesser of two evils. But silver is still a heavy metal, which the human body has generally not developed to deal with."
+explainlikeimfive,fc9fj6y,t1_fc8x8wh,1577551928.0,"> Silver, as many other metals have anti-bacterial properties. They can and are being used for different applications where such properties are important, such as door handles.
+
+Not all metals with anti-microbial properties are safe because many of the effective ones are heavy metals - they will kill bacteria, but they will just as easily poison humans, especially if ingested."
+explainlikeimfive,fc9dg3i,t3_egs55p,1577550948.0,"Many modern equipment that are running these days have embedded logic, i.e., software. And software is rarely 100% reliable - they may work well enough for the common use cases, but they typically are not free of errors, nor are they designed to deal with all possible conditions. (Writing near-perfect software is *very, very* expensive and is only demanded in safety-critical or high-risk applications.)
+
+So it is not uncommon that a piece of technology you are using may run into problems, either due to unforeseen circumstances or simply from an accumulation of minor errors, causing the software to misbehave. Switching something off and on again resets the software, with the *hope* of clearing any accumulated errors and/or avoiding offending circumstances."
+singapore,fc9af47,t1_fc97fc3,1577549627.0,"It's the notion that a person can force sex on their unwilling spouse without suffering legal consequences, simply because they are married. The implication is that a married person had an obligation to sexually fulfill their spouse."
+explainlikeimfive,fc941cq,t1_fc7z34g,1577546683.0,"To add on, even if a complex sound, like a whole orchestra, is recorded by a single mono microphone into a single waveform, we are still able to discern the components and make out different instruments when playing back the sound.
+
+If you were to individually record each instrument on a separate microphone though, what you gain is the ability to modify the levels and quality of each recorded instrument before mixing them into a single track, giving you control over the overall balance of the orchestra. It's almost impossible to adjust individual instruments if you only use a single microphone."
+magiarecord,fc7053l,t1_fc6k71r,1577493999.0,"Did you actually have an issue? I'm under the impression that you can play on both phones, only that it's not recommended to have that."
+explainlikeimfive,fc63a3c,t3_egdnz0,1577471291.0,"It also depends on the airline you're flying. Parking the aircraft at the terminal usually costs more than parking in a remote location, and some airlines may want to reduce costs by taking a remote parking spot, which means no jet bridge."
+worldnews,fc61or0,t1_fc5torp,1577470267.0,So they're trying to game the system? Is there any word on how the owner of the joint feels about that?
+magiarecord,fc5wd52,t1_fc5qko7,1577467295.0,"Sort of. The restore actually copy-pasted the marker file that identifies your account with the server.
+
+Normally, when you do a proper transfer, the marker on your old phone is invalidated so you can't log-in with it anymore. Then a new marker is generated on the new phone and linked to your account."
+explainlikeimfive,fc56jzf,t1_fc4d43r,1577445794.0,"So after it clears up, you're sure there's no difference in the taste of the water and there are no sediments? It's possible you may be seeing lots of minute bubbles in the water, making it look cloudy, especially if the water is close to boiling. Otherwise, get your water system checked."
+PuzzleAndDragons,fc566hh,t1_fc4x0ta,1577445245.0,"The funny thing is, a good chunk of the translations are probably done in Japan, and were probably ready at the time of JP release. I once saw English changelogs for the JP version from someone's screenshots and got really confused. Also saw some PaD wafer trading cards in Japan using the English version names.
+
+Dungeon names, skill names and dungeon dialogue are likely done in NA as those require some local context."
+explainlikeimfive,fc4z9hm,t1_fc4ubzm,1577435030.0,"Your suspicions are valid. In the wake of the BPA scandal, manufacturers have moved towards BPS.
+
+It's technically not the same chemical, allowing companies to say that their products are BPA-free. The problem is, there's less available historical (consumption-related) safety data on BPS - BPA has decades of safety research behind it - so it cannot be conclusively branded as unsafe.
+
+But if BPS is close enough to share all the same useful properties as BPA, it's likely to also share all the undesirable ones. There are already scientific as well as news reports trying to bring attention to the potential dangers of BPA alternatives, because researchers who studied BPA know that most of the bisphenol analogues (derivatives or siblings of BPA, like BPS) are chemically similar enough to cause the same harmful effects.
+
+It's just that most existing environment and food safety regulations are not nimble/flexible enough to ban all analogues when one chemical is found to be harmful. I.e., if it took 20 years to prove the danger of one chemical and get it banned, then old regulations typically require the same amount of effort to prove that an analogue is also dangerous, because the original chemical and the analogue are not legally recognised as the same thing."
+PuzzleAndDragons,fc4x750,t1_fc4vr2a,1577432234.0,"MagiReco (also published by Aniplex) tried to close the initial 1.75-year gap (at launch) by accelerating NA's pace, leaving no empty weeks. I think the gap is down to under a year or so, but the burn-out is real."
+magiarecord,fc4oh57,t1_fc313pc,1577422851.0,"If I remember correctly, yes. If you had used the in-game transfer code, the server would know to invalid your account on the old phone. But because you did a back-up restore, nothing has triggered the invalidation as the server is unaware.
+
+Still, it's best to keep to the ToS and play on only one phone, one account."
+news,fc31itr,t1_fc2zjxu,1577379316.0,"I have no problem accepting that - different folks, different strokes.
+
+But a practical question is, how do we reconcile all these? Can we? Because even if we accept the difference (mutually, I should note), the gulf seems too wide. What do you do when the difference is so great that each side would see the other just disappear?
+
+EDIT: And I would note that I'm seeing this from the perspective of an outsider. If you're actually in the country, I imagine it would be incredibly difficult not to be invested and take sides. I used 'we' instead of 'you' because the tribalism is evidently on the march globally."
+nottheonion,fc26uj6,t1_fbzjz8v,1577343097.0,"Reminds me of the joke where a man refuses to be rescued 3 times during a flood, choosing to believe in God, and of course drowns. Guess who sent the rescuers?"
+askscience,fc1tr1f,t1_fc1l6uo,1577329447.0,"I'm not sure about how granular the neurons are when doing frequency-processing, but if you consider a giant parallel network with, say, 20,000 neuron/regions, each processing a single integral frequency simultaneously, it seems plausible to me that the neurons doesn't need a clock rate to match the sampling rate of the input wave.
+
+The brain also doesn't process all 20,000 outputs equally, and we know this because MP3 encoding algorithms can get away with lower bitrates by using known psychoacoustic properties like masking.
+
+> For example let's say that I listen to a few second long clip from a song. Throughout the clip there's a range of frequencies playing continuously and they all change. So initially there's a peak at say 1000Hz, and then that rapidly moves to 2000Hz, then down to 500Hz, etc. Also while this happens there's also another part (not the peak though) that goes from 500Hz to 600Hz back to 500Hz. Initially the neurons that represent 1000Hz will be activated, and the 500Hz ones a bit, then a very short period of time later, the 2000Hz ones and 600Hz ones, then another short period later the 500Hz ones.
+
+I think the key here is, how fast are those changes, and how fast do you think you're perceiving those changes? Even if the ear and its time-to-frequency domain transform mechanism already gives you perfect frequency information, you will ultimately be limited by perception, which is probably where the speed of the neurons come into the picture. There's research showing that our perception is not continuous, but instead relies on gap-filling tricks to give us a sense that things are flowing continuously."
+explainlikeimfive,fby2dv9,t3_ef31nj,1577206427.0,"It really depends on what sort of signage or material you're referring to.
+
+Japanese signage can be shorter than equivalent English ones if they use kanji, but not only because they are ideographs. They can drop some characters for common long words in specific contexts without causing confusion.
+
+But that said, they use katakana a lot for borrowed words of foreign origin, and since katakana approximates the pronunciation of the original word, they may not be shorter than the original word/content. This is because katakana usually approximates one syllable per character. 
+
+Usage manuals though, aren't actually much shorter, if at all. After including all the grammatical particles (similar to English prepositions), the savings really only come from kanji being able to express some ideas more compactly. In a manual for newer technology, you may find more katakana (borrowed words), which doesn't save all that much space."

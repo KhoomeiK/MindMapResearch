@@ -1,0 +1,380 @@
+subreddit,self ID,parent ID,time,text
+homeautomation,ffeafz6,t1_ffe8ppx,1579841223.0,"I don't know if you're joking so I'll give a serious answer. There are several components that Sonos uses for whole-house streaming.  
+\- Peer-to-Peer mesh wireless network. Only one speaker needs to be connected to the network. They establish their own WiFi network, do authentication, and exchange meta-data
+
+\- Timing synchronization so they play the exact same data at the same time without any jitter so it doesn't sound like echo
+
+\- Stream encoding. By using ""zero and ones"" I'm assuming you're referring to PCM encoding. They don't use PCM and as they're moving to higher bitstreams (and lossy/lossless compression), the CPU/ASIC must be able to decode fast enough for playback. 
+
+\- Interface with external services. Sonos doesn't need a PC or server in the home. This means the speakers must connect to external services and obtain streams. Sonos streams content from Spotify using plaintext instead of an encrypted stream. As you can imagine, music platforms and rights holders are keen on enforcing encryption for content.
+
+So yeah, despite the binary system being around for over 50 years, the encoding of the ""zeros and one"" has changed depending on the service over the years. Because it's a digital that must be processed, transforming the binary to sound requires processing. Unless it's PCM; which it's not.
+
+So old sonos <-> old sonos will continue to work but old <-> new will most likely break as they don't want to limit the features they can add on a 2020 Sonos to what a 2006 sonos can do. And to be fair, if I purchase a 2020 Sonos and it can't do 24 bit streaming because it must be backward compatible with a 14-year device, I'd be pissed and return it."
+homeautomation,ffe7jsq,t1_ffe676j,1579838820.0,"Timing is bad and you have a point that they liquidated their old inventory before announcing the end-of-life. I purchased my devices a while back but if they sold “legacy” devices as current 3 months ago, it’s shady."
+homeautomation,ffe7clx,t1_ffe4qi6,1579838658.0,I think their solution is to freeze the feature set for the older models. So they’ll continue to work but won’t get new features.
+homeautomation,ffdwtbi,t3_et0oho,1579830884.0,"Nothing has changed it seems. They are saying that the older products won't get the new features and this will make them incompatible with the newer speakers that have stronger processing power. 
+
+As a software engineer, I kinda have to agree with Sonos here. I'd hate to have to build features in 2020 for devices with an embedded computer from 2006. The inter-speaker protocol will change and old devices simply won't have the processing power to keep up. Ideally future speakers would come with a ""system card"" that can be swapped out but that's not an option now.
+
+I don't think I have many internet-connected devices from 2006 that still work today. TVs can't do HDCP, old phones don't do SSL/Javascript, etc... It's a shame that the cheapest part of the Sonos ended up being the most crucial part though. Kinda like a solid gold Apple watch 1st edition :)"
+science,ffdv10d,t3_eswz5j,1579829621.0,"I can mostly speak with regards to California regulations on firearms. Most of the new regulations passed in the last 10 years in this State have targeted responsible firearm owners while not being detrimental to unlawful use of weapons. Here are a few examples:
+
+\- Require a tool to eject the magazine of a semi-automatic rifle. At first, it seems like a good idea since there's longer downtime between reloads. However, to make a rifle compliant, firearm owners have to purchase the part online, remove the standard part, and install the new compliant part. As you can imagine, criminals do not purchase the compliant part. That would be the equivalent of requiring all cars in California to not go over 65mph and enforce it by asking motorists to install a plastic block under the gas pedal. That law has been slightly amended to force a mechanical separation of the upper and lower part of the rifle. Like before, it involves buying a kit to add the restriction...
+
+\- 10rd magazine limit. Similar to the example above, magazines have a plastic block added at the bottom of the magazine to make sure it can only fit 10 rounds instead of usually 16 for handguns and 30 for rifles. You can remove the block or purchase standard capacity magazines online...
+
+\- 10 day waiting period. I think most firearm owners can agree with that law. The problem is that it applies to not only your first rifle/handgun but EVERY firearm you purchase. So if you already have a rifle and a handgun, you still need to wait 10 days to get your 3rd firearm. Someone who already owns firearms doesn't need a cool down period to purchase more; they are already in possession of a deadly weapon. Most gun owners perceive that law as a subtle way to prevent sales of firearms at events and stores far from your house, thus decreasing the competition and increasing prices
+
+\- Classifying rifles with an adjustable stock and pistol grips as ""Assault weapons"". Making sure the rifle fits the shooter is a safety and comfort issue. That's like saying adjustable seats in a car make them race cars.
+
+\- The handgun roster. Only handguns with micro stamping at 2 different places when fired can be added to the California handgun roster. Only handguns on the roster can be purchased. The problem is that the technology to micro stamp in 2 places doesn't exist (Micro stamping in one place exists if the firing pin has a S/N). The Attorney General considers the technology available because there are no patents preventing adoption. Again, the technology has not been invented. Imagine California requiring all new cars starting in 2021 need to run on water to combat pollution. A laudable law with one simple problem: It doesn't exist...
+
+\- The penalty for not reporting the theft of a firearm within 5 days is $100 and can escalate to a misdemeanor. Meanwhile, prop 47 made the actual theft of a firearm a mere ""petty theft"". A bill to classify firearm theft as a felony was vetoed by the governor and it took the passing of Prop 63 to reclassify the theft of a firearm as a felony. So while penalties and rules for owners kept increasing, penalties for criminals stealing and using weapons kept decreasing.
+
+\- The new proposed extra excise tax on firearms and ammo. California states that gun violence results in added cost to its emergency personnel and thus people purchasing a firearm should ""pre-pay"" for the damage their firearm is susceptible of doing. In fact, most illegal guns are either stolen or came from neighboring States (Jill Snyder, ATF). This is effectively making law abiding firearm owners pay for the crimes perpetrated by other people.
+
+\- Impossibility to carry a concealed firearm in public. Local sheriffs have great latitude in issuing firearm permits in their jurisdiction. Once issued, they are valid State-wide. Sheriffs in populated areas deny all applications with the justification that the applicant doesn't have ""Just cause"" to possess one. The reasoning is that they live in an area that is served by the police therefor there's no need for self-defense. The Supreme court has ruled that the police only have a duty to protect people in custody (i.e in jail, in handcuffs, etc). It's also important to note that the law doesn't physically prevent anyone from carrying a firearm. It's as easy as walking through the front door..."
+programming,ffdrofk,t1_ffdogge,1579827261.0,"Well, you’re writing a bash script so I wouldn’t worry too much about the performance penalty executing “which”...
+
+If you really want to see if the file is in the path and executable, you can use “type -p”, which calls a fstat() and is technically more performant the command. Again, bash..."
+bayarea,ffdpotl,t1_ffdp1lf,1579825993.0,"There’s a difference between:
+“Someone called from inside the house saying there someone with a gun threatening to shoot children”
+
+“Someone claims to be in the house and says someone is in there threatening to shoot children “
+
+CallerID is as secure as the return address on an envelope. Perhaps less secure since an envelope has markings from the originating office. 
+If the police receives a letter with a handwritten return address saying they are hostage at address X, I expect the cops to at least consider the return address might not be 100% legit. They’ll investigate but won’t go in with 100% certitude that the letter was written from inside the house based on the return address. 
+ 
+Hope that clarifies how bad relying on caller ID is."
+bayarea,ffdomvx,t1_ffd93ms,1579825331.0,"Thanks for that unique perspective,I learned from it. 
+I’d like to share mine as well to complement what you said. I’m a tech transplant who grew up in rural Canada but also lived in Tokyo and NYC. 
+
+I work with plenty of people who were born and raised in the Bay Area and they take the tech shuttles or they drive. They might be desensitized to drugs, poop, stabbing and crime but if there’s an option to avoid it, they’ll take it. That’s also the feeling I got from old time New Yorkers. 
+
+When I have a 1 hour commute, I’m looking for two things:
+-	Make my time productive so I don’t have to be in the office physically for 8 hours or more if possible. Maybe I work or if I don’t work, I watch videos or just consume entertainment. 
+-	Be at work on time. I aim to get to work around 9:00 and meetings usually start at 9:30. 
+
+I used the tech shuttles when I lived in SF because of a few crimes I noticed on public transport. I didn’t dare have my laptop out and work. Public transport also added 50 mins to my 1:15 commute and included two transfers. It was also late about twice per week and I had to attend meetings from my mobile phone. 
+
+I recently moved to the East Bay and I’m back on public transport. The ACE train is clean and they run a tight ship. I see people get in trouble for putting their bag on a seat lol. It’s safe, on-time and quicker than the tech shuttle. I work on it and I only have one transfer that is coordinated with the train. 
+
+I don’t think the majority of tech workers avoid public transport because they “aren’t the pleb”. They need to get to work quickly, on time and try to make the most of a 1:15 commute. There are no tech shuttles in NY or Tokyo because public transport is adequate. I think most people would try to maximize comfort and minimize commute time/transfers."
+worldnews,ffdcdme,t3_est72g,1579817889.0,"The execution of the protest was laughable. I'm guessing they are so used to propaganda being accepted in China that they don't bother making it look believable anymore. 
+
+They could've asked Chinese exchange students but no; they went with random 18 years old holding signs that were all made together. None of the protesters looked like they were protesting or passionate about the issue. 
+
+Something ironic? The tide is turning since more Canadians are now starting to oppose the extradition since Trump threw them under the bus and mentioned that he'd consider exchanging her for more favorable commercial deals. That is, he's willing to not try her in a court of law for economic gains. All while 2 Canadians are on Chinese death row as a direct result of Meng's detention. So Canada gets 2 citizens killed, its economy hurt and Trump will trade her for a good commercial deal..."
+bayarea,ffda6yu,t3_esxtys,1579816469.0,">The calls appeared to be coming from inside the homes.
+
+Caller ID is meta-data and can be set by anyone. There are much better ways to trace a phone call. Many 911 stations are equipped with the following:
+
+* Telco can send the full ""REPAIR"" address when a landline call targets 911. It's included as metadata as part of the call routing and cannot be spoofed easily like CallerID.
+* Likewise, E911 laws forces telcos to use at least tower triangulation to send an approximate location to the 911 center.
+
+What is happening here is a ""fail-safe"" where if only the caller ID is sent, the assumption that ""some info"" is better than ""no info"". So the 911 system queries a database like 411 that has a mapping of phone numbers to addresses. If you use VoIP, it's likely that when you call 911, only your caller ID is sent and that database is used for lookups.
+
+I know that most modern 911 systems let the operator know how the location was acquired. Before sending a SWAT team, it would be smart to add the caveat on their briefing that the location is solely based on called ID (or solid because it's the repair metadata from local incumbent carrier).
+
+SWATting has been a problem for a while with confirmed deaths. It's been demonstrated for over a decade that anyone with a $1 on a prepaid credit card can spoof calls. You'd think that the police, whose job it is to be incredulous, would be a bit less trusting of this."
+technology,ffce559,t3_esjpdv,1579797509.0,"I wish they’d have added a renewal price limit for existing domain. A famous domain is worth a lot and became famous because of the website behind it. Raising Wikipedia.org to $50k/year would be extortion :(
+
+It’s too bad that .com, .org and .net were never regulated to restrict domains to their original purpose, unlike .gov for example. The original idea was to have COMmerical, ORGanizations, NETwork and the country TLDs for anything else. I feel this lack of enforcement has enabled the sale to go forward."
+technology,ffcdo0z,t1_ffcc26t,1579797212.0,"I got one too. Because there was a public comment period and ICANN’s mission is to serve the internet and not “to make money”, new TLDs had to either serve the company or serve the Internet in general with a purpose. Writing “we think it’s a cool name, we’re heavily involved in dev and want to sell these domains to developers” isn’t a “public good” reason. So they wrote what ICANN wanted to hear (like the rest of the applicants)."
+technology,ffcdczx,t1_ffbizk8,1579797020.0,"I’m not sure your comment is totally accurate. Google didn’t outright purchase the .dev TLD like this equity firm wants to purchase .org. 
+ICANN had a public process where a TLD could be created for about 100%. It came with a bidding process and review period ( so no .sex). Google has proposed .dev and nobody tried to bid nor challenge it. 
+Dev domains are available to anyone and have enforced https at the TLD level (via HSTS preload). 
+
+I’m not sure how this is different from the other 100s of TLDs that we’re registered by private companies and equity firms. I pay $11/year for my .dev domain and since it’s a new TLD, it has a short memorable name. 
+
+Of all the things Google can be criticized for, this isn’t one."
+technology,ffccd3k,t3_esrdnx,1579796400.0,"Comcast and ISPs are also lobbying hard. They killed Net Neutrality, maintain a monopoly built with government grant but without the government setting max prices like all other utilities, and use that monopoly to hurt competition (AT&T, streaming service doesn’t count against your data but Netflix does...)
+
+So if your whole company is based on serving content over the internet, and that can only be done over a monopoly that is deregulated, you’re going to be nervous. Facebook doesn’t want ISPs to mess with their connection to the user. Facebook doesn’t want to be held directly responsible for every comment their user write. Google was upset when AT&T denied Google fiber access to their utility poles under the bullshit excuse that “Google fiber isn’t a utility. Oh but our AT&T internet/tv totally is”. 
+
+Not all their lobbying is great but I’m glad someone if fighting the bullshit lobbying done by ISPs. Sure Google wants me to have a faster Internet so I can watch more video on their platform and make them money. But if that gets me fiber at home, I’m all for it. In 2015, ISPs fought to keep the definition of Broadband at 4 mbit/s. Tech company fought back and it’s now 25mbps. 
+
+TLDR: Tech giants’ lobbying counter-balances the lobbying made by ISPs. Tech giants look after themselves first, but their goals on internet access usually benefit the customer at the same time."
+CAguns,ffcb8q1,t1_ffbl8pt,1579795697.0,"Thanks for your reply. It is somewhat different in two regards:
+-	That’s a tax on all hunting gears, including archery. It goes into a dedicated fund to help wildlife and has had direct impact on it. Check the Pittman–Robertson Federal Aid in Wildlife Restoration Act. The California proposed tax would indemnify the State because they are saying guns cost money in terms of policing and health care. 
+-	Federal laws prohibit holding a firearm dealer responsible for acts committed with a firearm they sold. Common sense also doesn’t hold car dealers, knife dealers and baseball bat dealers responsible. That bill tries to go against this and holds dealers responsible for the gun violence we have on our streets. The tax would be imposed on dealers and then passed on to the buyer. Because that law violates Federal laws, there’s a good chance it could reach SCOTUS and be reverted. I’d expect an injunction before it goes into effect at the very least. 
+
+It wouldn’t be the first time a State says “fuck that” and pass a law that is illegal. See Alabama’s ban on abortion. They are saying “we know it’s illegal but what are you going to do? Take us to SCOTUS which is now conservative and will take years”."
+homeautomation,ffca2dm,t1_ffbp89z,1579794958.0,"I don’t think the intent is to penalize the customer... they had to choose a number, probably based on rivals doing these resets. I’m assuming they looked at their existing customer base and found 99.9% of the users didn’t exceed 10 resets so they doubled it and called it a day. 
+
+It seems like OP was able to get it working again by emailing customer support. I’m sure we can agree that resetting the device “a couple times a day” is unusual. 
+
+Many software will provide a limited number of activations and require you to contact support to activate more. Same assumption that customers don’t format/upgrade their machines several times per year. 
+
+Ideally, Logitech would change their protection mechanism and restrict you to 120 devices added (6 devices * 20 resets) per remote serial number. This would solve the code dumping countermeasures and let customers reset as many times as they want."
+homeautomation,ffc9cns,t1_ffc6bty,1579794507.0,">	Logitech Harmony remote controls are easy to setup, easy to use, support 270000+ devices from 6000+ brands. 
+
+At 20 resets per remote (cheapest is $69.99) it gets expensive. Some brands re-use code but not across all products."
+CAguns,ffbgana,t1_ffbdw0e,1579763997.0,"No for the 2/3 vote. 
+Where is gets difficult is imposing an excise tax on firearms and ammo. The 2nd amendment would prevent an outright excise tax like we have on gasoline and tobacco. DROS is considered an administrative fee that covers the program so it’s borderline but legal. It’s borderline since gun owners also pay taxes and many programs are tax funded so it’s questionable why the DROS program is not funded. 
+Sales tax have also been OK’d with regards to the 2nd amendment due to their blanket application. 
+
+I doubt this will get signed, even when Newsom is the governor. If and when gets reversed in court, the damages are easy to calculate... Whatever fees were paid + interest. So California would have to pay back the tax, the interest and it would also lose money on the administration of the program. They’ll find other ways to hurt gun owners but this likely won’t pass."
+homeautomation,ffbfdnd,t1_ffava64,1579762878.0,"Simple as in not complicated? I agree. 
+However gathering the data is the time consuming part. At best you could approximate for popular brands but getting all keys for thousands of specific models would take (and did take) years. Most of it would be from consumers « learning » codes."
+NintendoSwitch,ffaphjy,t1_ff93a5s,1579741436.0,Correct me if I’m wrong but don’t companies offer pre-order bonuses or exclusive content? Not saying it’s worth it but that could be an incentive for some?
+homeautomation,ffap8lw,t3_esiv9b,1579741270.0,"It’s not to prevent 2nd market sales; it’s to prevent code extraction by a rival company. 
+
+If you were able to cycle through all the devices available on the Harmony website, you could build a database of IR/rf signals and build your own universal remote that supports as many devices as the Harmony."
+bayarea,ffaorun,t1_ff9ixbt,1579740960.0,"A criminal background is a type of background check. Other background checks can include:
+-	employment verification 
+-	school enrollments and grades
+-	Character/professional references
+-	driving records
+-	etc..."
+bayarea,ff9d7lw,t1_ff8bk64,1579710423.0,"You are wrong. Hitting any layers of the supply chain enough will complicate or hamper distribution. This will in turn decrease supply. Demand will remain constant at first but diminishes over time as procuring the drug becomes difficult and costly. It might be too late for people with a full blown addiction but can help people not yet addicted to these drugs. 
+This isn’t a binary problem where we have or don’t have drugs; there’s a whole spectrum of drug use and quantity of deaths. Reducing isn’t eradicating but it’s better than doing nothing and letting the problem proliferate. 
+
+If you’re still not convinced, imagine the opposite scenario: selling drugs would result in a $100 ticket. I can guarantee you the amount of dealers would double, prices would go down, and more people would use them due to the increased supply. Or consider the polar opposite of that: Singapore. Being hanged for selling drugs... sure they still have some drugs but they absolutely do not have a drug problem. So it’s pretty clear that the level of punishment, and thus deterrent, has an effect on drug use."
+UnethicalLifeProTips,ff7mzu0,t1_ff7hcz2,1579653429.0,Every cruise I’ve been to shakes water bottles. Vodka will make micro bubbles that stay for a while.
+technology,ff6i9ah,t3_ernyfa,1579627775.0,"For anyone curious to see what this will look like when kids turn 18 and can gamble, look no further than Japan.
+
+Gambling is technically banned in Japan but games where even the faintest element of skills is present isn't considered gambling. Kids grow up on ""Rock-Scissors-Paper"", known as Janken. Arcades in Japan have mini machines where you can gamble tokens with Janken mechanics and other types of gambles like ""fishing"" where each fish has fixed-odds but will pay 0 when you cast your net far from the fish. Even after kids cartoons, there's a round of ""Janken"" where you can choose your hand with the remote control (Those red, blue, green, yellow buttons) and amass points to gamble them on different days...
+
+When they grow up, many adults get addicted to ""Pachinko"". It is a society problem and despite gambling being banned, Japan is one of the country with the worst gambling addictions among its population..."
+selfhosted,ff6g8ic,t1_ff59fjr,1579626529.0,"I’d argue that KVM is sufficient enough for most cases. Especially if you use an encrypted drive and unlock it at boot via the console. 
+Now if you’re dealing with an openly hostile provider, Intel and AMD CPUs offer secure execution environments where your decryption is happening directly in the CPU and the attestation is done directly via Intel/AMD’s keys so no spoofing possible. 
+
+Para-virtualized servers do offer no protection though."
+golang,ff4vhpz,t3_ernbvf,1579573427.0,"The AGPL requires the licensee to publish the source code for any programs accessed **over the network**. So if Google uses a small library to parse a yaml file and that binary is somehow accessible over the network, then anything linking against that library must be open sourced. This goes far and beyond the GPL where improvements to a program had to be open sourced when the program was distributed. 
+
+Other licenses:
+
+-CC-NC. Well, non commercial. I think most authors think that by putting NC, companies will contact them with a licensing deal. In practice, an equivalent library is used or it’s written in-house. 
+
+-WTF licenses. Lawyers look for specific grants of rights in a license and its unclear if such a license is as good as public domain. For example, is that license transferable? It appears that licenses aren’t transferable by default in the US so that part must be explicitly written out. It’s unclear if “whatever the fuck you want” is an explicit grant of transfer. 
+
+
+-Facebook. Their license has a poison pill where it’s automatically revoked the moment Facebook is sued for patent infringement. There was a big debacle about React.JS being licensed under those terms and many companies deciding to abandon it. Until Facebook changed it. That license technically allows Facebook to use all your patents and they can even sue you for their patents but you can’t sue them."
+homeautomation,feo915n,t3_eq45ls,1579296733.0,"I looked into that in the past and ended up with a recurring event on my calendar. The valve will regenerate the resin at a fixed interval so the amount the salt decreases by is mostly constant per week. It does vary a tiny bit with water temperature but not enough to be way off. 
+
+Now if you want to do it, I’d recommend what we did with our beer fridge at work. An old wii balance board outputs plaintext values over Bluetooth:
+
+https://www.stavros.io/posts/your-weight-online/
+
+We took it a step further and have a monitoring script to email our beer vendor to send new bottles"
+homeautomation,feo87qm,t1_feo6717,1579296404.0,"No, the water passes through a resin and that resin exchanges the hard ions for sodium. When they are full of hard ions, they are flushed with a brine solution to put the hard ions in the sewers and replenish the resin with sodium ions. 
+That brine tank is used for an hour every week or so."
+homelab,fenhswv,t1_fend93d,1579284986.0,"Well, we don't know how big and old OP's house if and if they are heating with electricity in the Winter. How many people in the household. Maybe they cook a lot or their partner is a stay-at-home parent? I don't think gives a full picture. My electric consumption is also high since I have a large fish tank but commute by electric train to work so I'm pretty sure my carbon footprint is lower than the average Joe."
+homelab,fenhh41,t1_fend9pb,1579284782.0,"I did the math above. You're close but it's even more expensive if you're on the E-1 tier (Not an electric car). After about 1,300kWh you're looking at 50 cents/kWh!
+
+>  
+>  
+>$1,252.74"
+homelab,fenh3ut,t1_fene9en,1579284557.0,"Residential rates are set by a public commission for residential rates. Businesses pay a larger rate and industrial clients pay a very high fee. So the more electricity they can sell to the industry, the more profit they make. I think the residential rate is usually set so the electric company breaks even, at least in the US. So they want to sell less to clients that generate 0 profits and more to higher profit centers."
+homelab,fengrb2,t1_fendgq8,1579284342.0,"US varies greatly. In California, that would be a very expensive bill. They use a tiered system where the more you buy, the most expensive it gets. Kinda like a reverse discount...  Here's the breakdown for 3,031 kWh if that was me:
+
+**Tier 1** 304.50KwH @ 0.22981 = $69.98  
+**Tier 2** (Max 3x your baseline) 913.50 kWh @ $0.28920 = $264.18  
+**High Usage** (Anything else) 1813 kWh @ $0.50667 = $918.59
+
+**Total bill** for OP in California: $1,252.74"
+selfhosted,fej4t1v,t1_fej25a3,1579156922.0,The license is perpetual. Support/Upgrades is $10/year. It's a wiki so I personally don't need the bleeding edge.
+dataisbeautiful,feiasiy,t3_ep0l6b,1579134151.0,Back when selling albums was a thing :)
+worldnews,feiaif3,t1_fehhzpw,1579133964.0,Pixel phones have USB-C. iPads have been USB-c for a while. I’ll be surprised if the iPhone this Fall doesn’t have USB-C.
+selfhosted,fehwtbs,t3_ep6ono,1579125433.0,"I tried many and settled on Confluence. It's $10 for 10 users (Lifetime) and they donate the money to charity. It's proprietary but the source code is provided if you need to tinker with it. At the end of the day, an easy and reliable solution was required as other people in my household use it."
+bayarea,feh1pdw,t1_feguq5s,1579107306.0,"I’m not well versed in police tactics but there are a few undisputed facts here:
+-	the squatters have not obeyed an order to vacate the premise. That’s the dialogue and “please” part. The next option is to force them to leave when asking didn’t work. 
+-	The squatters were able to mobilize a large crowd and asked them to block the sheriff. 
+
+I can’t help but think that this great display of force  helped resolve the situation quickly. They didn’t have to use force, just show they were ready. 
+
+I’m with you that the militarization of the police is bad but in this case, the show (and not use) of force de-escalated the situation. If two officers showed up alone with a large crowed present, they could’ve been injured or forced out. 
+
+The police didn’t blow up the door, flush them
+out with gas or cracked any skulls. They came to do a peaceful eviction but were prepared in case it turned into a riot. Thankfully it remained peaceful."
+bayarea,feh12yx,t1_fegpizp,1579106925.0,"It’s a vicious circle. 
+Companies don’t go there because they can’t find employees there/willing to relocate. 
+Employees don’t go there because there aren’t many companies. 
+
+I see two other places that have seen tech development in the last 10ish years:
+-Denver/Boulder CO
+-Austin TX"
+bayarea,feh0xru,t1_fegnf63,1579106839.0,"Yes, that’s why we aim at providing everyone with **at least** enough so they can subsist. I wish we could do more so they can have hobbies, savings and more. At one point, people will refuse the job and the bid for these will go up."
+todayilearned,fefz796,t3_eolw6r,1579070273.0,"Be honest. When you're shopping for flights, you usually order them by price and set an acceptable duration/number of transfers. I do the same. If I want a particular airline, it's because I fly a lot and want to collect points. The 2 inches of seat width doesn't matter until your carry-on is stowed and you sit down. So they cram an extra 4-5 rows and make the tickets 5% cheaper and they sell."
+CAguns,fefyuzj,t3_eouwvo,1579069904.0,"**ELI5:**
+
+An amicus brief is a brief sent ""as a friend of the court"" to help it understand issues. It's supposed to be sent by apparent neutral parties who are experts on the subject. That way the court can hear the arguments from both parties but also hear context from a neutral party.
+
+The court decided that anti-gun lobbying groups aren't neutral parties offering their expert advice but partisan entities trying to influence the court as third-parties."
+bayarea,fefym6p,t3_eotfu8,1579069641.0,"For those who haven't read the article, it's **only in the UK**. 
+
+The US has Know Your Customer/Anti Money Laundering (KYC/AML) laws that prevent this. It doesn't require a physical address but you need to establish your identity."
+bayarea,fefyfhs,t1_feenoru,1579069446.0,"I know it's a common boomer meme to say electric cars are powered by coal-produced electricity. But if you actually research that a bit more, you'll see that most major tech companies have massive solar arrays on their roof. In fact, most offer free electric vehicle charging with what they generate on the roof."
+bayarea,fefybdu,t1_fefmz53,1579069324.0,"The living wage in San Mateo county is $24.30/hour for a traditional family of 2 parents 2 kids: [https://livingwage.mit.edu/counties/06081](https://livingwage.mit.edu/counties/06081)
+
+In March 2015, Google made sure its contractors paid the shuttle drivers $24/hour.   
+[https://www.mercurynews.com/2015/03/11/google-shuttle-drivers-to-see-pay-hike-better-benefits/](https://www.mercurynews.com/2015/03/11/google-shuttle-drivers-to-see-pay-hike-better-benefits/)
+
+I'm willing to bet they must be making at least $24.30 in 2020."
+bayarea,fefy26r,t1_feeql1a,1579069055.0,"\>they are too big for the trees on the side of the road.
+
+That sounds like a failure from the city. What's the alternative, drive against the trees?
+
+As for pulling in front of cars, I used to take one to work and I'd see 10-20 cars cut in front of the shuttle as we're waiting to get on the highway. Maybe it depends on the driver?"
+bayarea,fefxwkw,t1_fef3jud,1579068891.0,"Facebook and Google don't have shuttles in New York. Same for Tokyo, HK and other places with good transportation. Everyone, including tech companies, wants useful public transportation. The ones we have (Bart, Muni) are pretty crappy, unsafe and dirty. Before we have great multi-billion plans to expand the rails, we should clean-up and shape up the ones we have..."
+bayarea,feevdfy,t3_eoml9d,1579042027.0,"That tweet is so loaded it’s difficult to take them seriously. 
+
+>The armed sheriffs deputies in military fatigues 
+
+Sheriffs are always armed. They are armed when they drink coffee, they are armed then they do toys for tots. It’s their job. The “military fatigue” is the uniform for the intervention team. That team is called when you disobey a direct and legal order to leave. They had days to leave after the judgement and it’s clear nothing but force would take them out. 
+
+>with a TANK arrested #Moms4Housing leaders Misty and Tolani. 
+
+OaklandPD doesn’t have a tank. They have a vehicle they deploy with equipment and personnel when there’s a situation where they have to enter an unknown building. It’s the same vehicle the intervention team uses. It doesn’t have a turret; it’s just bullet proof. Again, if they had 10 transport vehicle, they might have used a different one but that the one they have. 
+
+>We don’t know where they are. Right now we’re working on locating them.
+
+Where does the police take people they arrest for breaking the law? Not a CIA blacksite... if you don’t know about jails, that’s on you..."
+legaladvice,febuj25,t1_fe9jfav,1578962868.0,"This.
+The school might not be aware that Epipen has a special status in the law.
+For most prescribed drugs and OTCs, the school is allowed to have stored on premise and dispense them on-demand. Due to the urgent nature of an Epipen, it’s specifically allowed to be carried by a student. 
+I think they are trying to be “by the book” and might not be aware of the law to bring them that quote and website. 
+If they don’t budge, escalate to your district, who will have an attorney on staff and will see the huge liability."
+bayarea,febtjhn,t3_eoa4nj,1578962553.0,Using every loophole in the book to prevent the creation of housing supply.
+bayarea,febtcx9,t3_eo9t0q,1578962474.0,People use the restaurant for business meetings. I don’t think I ever took longer than 90 mins to eat breakfast... Imagine you have guests waiting to have breakfast and you can’t seat them because all your tables are full of meetings... People don’t make reservations for Breakfast so it creates frustration.
+videos,febp2my,t3_eo1vom,1578961190.0,"If you have to believe in it, then it’s not science; unless you’re studying the placebo effect :)
+Science doesn’t have all the answers because science is a demonstrated framework where results are repeatable. 
+Pseudo-science is a generous term; fraud is what I’d use."
+selfhosted,fe95js0,t1_fe93oyf,1578934454.0,"Install docker for Windows. You’ll be able to run most the apps you see here and can use IIS as a reverse proxy (I.e map grout.mydomain.com to 192.168.10.10:3003 or whatever IP/port it uses). Easiest way to get started as you can get an app up with a single command line, usually given verbatim on the docker hub page."
+technology,fdzps15,t1_fdwqvip,1578793024.0,"They are not after weakening of algo for these cases. They want apple to create a backdoors binary (I.e accepts 1111 as a pin) and sign the update. 
+The the FBI can do an update with a newer version and login with 1111. That gives the FBI a backdoor to any phone they physically processes. It hurts Apple since iPhones are sold outside the US and not everyone is keen on this backdoor. China will ask for one too. 
+
+Apple is looking at different counter-measures like disabling the USB port until the phone unlocks."
+todayilearned,fdtpym6,t3_en07vr,1578720401.0,"We need to compare apples to apples here.
+
+SirusXM is a subscription radio service that has no ads and many channels focused 100% on music. They recently had their royalties increased from 11.5% to 15.5% of their gross revenues. 
+
+From Jan to Oct 2019, Spotify paid **74.6%** of its gross revenues as royalties.
+
+Youtube **MUSIC** pays an equivalent rate from its subscription rate. These are royalties
+
+Youtube **FREE** uses a different model where publishers are partners and they share ad revenues. These are not royalties and as such, it's up to the published to upload their music video on Youtube and/or capture the revenues from users who upload copyrighted music. They can also DMCA the video, recoup any generated revenues and prevent the song from ever appearing on Youtube again.
+
+Youtube free isn't really a platform for music and playlist in general. It also doesn't operate on a royalties basis."
+bayarea,fdsigeb,t1_fdrvvz1,1578703363.0,"This is not how this works at all. 
+When you make a real estate in “fee simple”, you own that property outright. 
+When you owe taxes on land, income, etc, you must pay them or the government has the right to go to court and seize your assets. Seizing land is easy; especially if you owe taxes on it so that’s the usual route. 
+It is no different than the government or a private party petitioning the court and seizing a car, bank account, and other properties if the owner is a debtor."
+legaladvice,fds5dda,t3_ems1ne,1578694725.0,"Here's some practical advice. As others have pointed out, Japan has finally reluctantly signed the Hague convention but getting it applied is difficult. I cannot speak on how Australia can protect you and your family but here's how things might play from the Japanese side:
+
+* Your son has Japanese nationality and the local Japanese embassy can and will issue your son a Japanese passport. No matter what arrangements are in place in Australia, the embassy will issue a passport. 
+* I'm assuming you've been in Japan several times. You've probably noticed that politics and customs move very slowly over there. Getting an audience that invokes the Hague convention will take around six weeks. If it's contested, then you're looking a months.
+* Even if you get an audience, it's very common from fleeing spouses to claim domestic violence despite the lack of evidence. The Japanese court will be very reluctant to return a Japanese national (your son) to Australia after these allegations.
+* As soon as you have an injunction, register you son and his various names (Including your wife's maiden name, katakana spelling \[Austin can become o-suthin\]) on the Family Law Watchlist. [https://www.afp.gov.au/what-we-do/crime-types/family-law-kit#25](https://www.afp.gov.au/what-we-do/crime-types/family-law-kit#25) This will alert authorities if a passenger manifest for an outbound voyage contains his name
+* I want to stress out that if your son ends up in Japan, they'll stay there.
+   * Read on Chris Savoie
+   * Read this article about how Japan presents its Hague convention proceedings in English vs what is publishes in Japanese: [https://www.japantimes.co.jp/community/2014/10/08/issues/biased-pamphlet-bodes-ill-left-behind-foreign-parents-outside-japan/](https://www.japantimes.co.jp/community/2014/10/08/issues/biased-pamphlet-bodes-ill-left-behind-foreign-parents-outside-japan/)
+* Everything will be done in Japanese, all documents will have to be translated, attorneys must be Japanese, and the process will follow Japanese law. Understand that the culture in Japan is very different from Australia. Namely, for family court:
+   * Shared custody doesn't exist. 
+   * The mother gets the child by default. Only when the mother is proven to be unfit, will the court give custody to the father. That court case was decided less than 2 months ago so it's very current.
+      * [https://www.japantimes.co.jp/news/2019/11/22/national/crime-legal/japanese-parents-file-liability-lawsuit-state-joint-custody-rights/](https://www.japantimes.co.jp/news/2019/11/22/national/crime-legal/japanese-parents-file-liability-lawsuit-state-joint-custody-rights/)
+   * The court will not order visitation. The custodial parent decides of the visitation schedule. Despite the court recommending visitations, it cannot enforce them
+   * In family and criminal law, the court/attorney relationship is different from what you're accustomed to in the West. If your wife is lying in court, don't expect your attorney to find a strategy and trick your wife into perjuring herself. The mother will be viewed as the victim and your attorney won't try to upset the court by strongly rejecting the claim. 
+   * The foreign man == violent mindset is very present in Japan. You can read up on the ""island mentality"" if you're interested in understanding how they justify this behavior. 
+
+Find an attorney with direct experience in the matter and best of luck to you. Australia will assume the best intentions from the mother because everyone is guaranteed due process. Japan will work differently...
+
+Edit: Thanks for the gold and platinum dear stranger."
+todayilearned,fdp7rvu,t3_emcbmx,1578621986.0,"It still does. Check denatured alcohol. If a manufacturer wants to sell its product excise-tax free, it needs to add a certain percentage of additional chemicals. 
+On this list: https://www.govinfo.gov/content/pkg/CFR-2003-title27-vol1/xml/CFR-2003-title27-vol1-sec21-151.xml
+You’ll see that methyl alcohol is still there."
+technology,fdijz4u,t3_elheux,1578444603.0,"I’m surprised it took so long. The US was a leader in forcing airlines to advertise the full price. I recently booked a flight from Japan on a Japanese website and only at checkout did I see a $500 fuel surcharge... very infuriating. 
+
+When you input your address, the computer knows  exactly how much your monthly bill bill will be so they should present it to you at checkout.
+
+Taxes, I can understand since they’re levied directly by the government. Fees like “sports” and “FCC” are bullshit anyway. Imagine if target added a 1% surcharge on your bill called “Property tax recovery fee”."
+bayarea,fdhspit,t1_fdhrkyr,1578429444.0,"Yes but if their ""career"" is stealing stuff, then I doubt there are background checks for this line of work :)"
+CAguns,fdf1o0s,t3_ekqdo2,1578351282.0,"The Constitution itself (Or those who wrote it :) ) designates the Supreme Court to be the sold and final decider on the interpretation of the constitution. So by definition, all SCOTUS decisions are constitutional.
+
+To violate the constitution, there are various tests and legal principles that are applied to determine if a law is constitutional or not. For example, Trademark and Copyright can exist despite having Free Speech. More recently, the minimum age to smoke being raised to 21 probably violates the equal protection act but SCOTUS might declare it's not a constitutional violation based on other factors."
+bayarea,fcryl2e,t1_fcrw8hu,1577908430.0,"The self defense defense is not available when a crime is being committed. I doubt this will be anything less than 2nd degree murder after a plea. 
+You can’t commit a crime, then become fearful for your life when the victim fights back, and kill them in self-defense. 
+
+My bet is that the DA will lay a 1st degree murder charge and plead it to 2nd degree. No way this gets pleaded down to manslaughter."
+legaladvice,fcpfiks,t1_fcnsvuy,1577861721.0,"The Canadian constitution allows provinces to violate some constitutional rights with a “notwithstanding “ clause. 
+Quebec’s Bill 101 does just that and makes your reply incorrect. 
+A company that is of provincial charter must conduct business in French. This is why many chains refuse to establish a franchise in Quebec. See https://www.themetric.org/articles/a-review-of-bill-101 for more details. 
+An employee not using French for official business can be reprimanded. Speaking English during lunch time is, of course, fine. 
+
+It’s also allowed to require a language in addition to French for employment. For example, many public facing jobs require English in addition to French."
+worldnews,fcpf6rh,t1_fcmvun1,1577861330.0,CEO salary and other comp for public companies are already public and filed with the SEC. This applies to any officers of the company since it’s a public company.
+bayarea,fcpdrz6,t1_fcpbcab,1577859693.0,"Well it’s now murder so there’s 0% chance this gets pleaded down to a misdemeanor. 
+
+But yeah, property theft even over $950 get pleaded to a petty theft charge instead of grand larceny."
+CAguns,fcpdjra,t1_fcnfnal,1577859432.0,"They had two years with a majority in the senate, house and White House. They could’ve done any bills they deemed important. Yet the only major bill they passed was a tax cut for the rich. 
+Oh and a government shut down while they held full power *face palm*"
+bayarea,fclp5bz,t3_ehkcfb,1577753071.0,"The rate increase was approved by a public agency, setup and answering to the people via the politicians it elects.
+
+PG&E doesn't set the price increase; they can only request it. It's up to the CPUC to rule on the matter. [https://www.cpuc.ca.gov/](https://www.cpuc.ca.gov/)
+
+They have a form where you can register a complaint."
+CAguns,fcjik6a,t1_fcjgota,1577688954.0,"* Arrested at the scene
+* Gun seized and entered in evidence
+* Other weapons in the house removed from the premise but not held as evidence
+* Arraigned and released on a small bond
+* Plea deal for some extremely minor offense that isn't even a misdemeanor. Sentence is suspended and there's a 1 year probation. No prosecutor is going to a jury trial with such a clean scene. If anyone was injured by the defendant, then it'd go to trial for various reasons.
+* After one year, petition to retrieve the firearms and get everything back except the one seized at the scene
+
+This was a by the book ideal situation where the shooter already shot 2 people and the good samaritan did a clean head shot. 
+
+But to be honest, if I was carrying illegally and in the position of the guy who fired the headshot, I'd just get the f\*ck out. He was in the back and could've made an escape while the murderer was turning. 90% of legal CCW permit holders would only draw to save themselves and their family. I bet this jumps to 100% for people who cannot legally carry."
+todayilearned,fcj76jd,t1_fcj5rb6,1577678964.0,"Ah yes, it was written on the $0.02 coin in 1864 and the coin was discontinued in 1872. It was part of the design rather than a requirement for the currency.
+
+In 1956, a law was passed by Congress and signed by President Dwight Eisenhower that the wording ""In God We Trust"" **must** appear on any US currency. So in 1957, it was added to everything.
+
+A similar thing happened to the Pledge in 1954. President Eisenhower added ""under God"" to somehow fight communism. Again, classical populist propaganda with a dubious link between believing in God and the virtue of capitalism."
+cpp,fcj2k0j,t3_ehepxa,1577675686.0,"I'm impressed if, indeed, a single C++ server was able to host a few million users live. No doubt C++ is more efficient than Python but I'd like to see the server/code that replaced a whole distributed system hosting a few million live users in a real-time FPS game."
+todayilearned,fcisqag,t3_ehale4,1577668911.0,"I feel like America was founded by smart men who foresaw populist idiots taking over. That’s why they put many safeguards in the constitution. 
+Fun fact, most of the “God” wording you see in public was added after WW2. The pledge of allegiance and our currency bore no such wording in the early 20th century. 
+
+It’s up to us to be vigilant and make sure the populists don’t prey on the weak of mind with scare tactics to win votes and change our beautiful country."
+todayilearned,fcis99h,t3_ehady7,1577668599.0,"They’re lucky they didn’t go eminent domain. Private companies can petition the government to take land at current market rate if they can convince the elected officials that the project is good for the region, which Apple would be able to do. 
+See how a shopping mall was able to use it: https://en.m.wikipedia.org/wiki/Kelo_v._City_of_New_London"
+CAguns,fcig9g0,t3_ehdc3v,1577662076.0,"Just like red lights and stop signs don't stop cars, carry bans do nothing to stop bad people from carrying weapons in public. Restricting CCW doesn't actually prevent carry; it prevents lawful carry by citizens who value the law... This shooting in California would've been way worse, and the laws resulting from the shooting would've targeted lawful owners as well. No amount of rules and regulations can prevent mass murder; whether that is here with a gun or in Japan with a truck/knife/fire/poison... Someone willing to die to commit mass-murder isn't too worried about having an extra 1 year in jail added to many death-penalty sentences...
+
+I've said it many times in the past; preventing lawful citizens from carrying weapons does nothing to protect the public and denies people the very basic right to self-defense."
+japanlife,fciazln,t3_egt1ch,1577659939.0,"Crockpots use a thermostat so the voltage difference won't matter much. You probably live in a 50hz region and the US uses 60hz. Crockpots don't have the be precise to the second so they calculate the duration based on the main frequency instead of having their own crystal. 
+
+I'm surprised that your food wasn't cooked enough though. I'd expect a 60hz crockpot to actually cook food for longer. For anyone interested in doing the calculation, that's how I did for mine:
+
+Recipe calls for 8 hours.  
+Convert to minutes: 8 \* 60 = 480 minutes  
+Multiply by the hz ratio: 480 \* 50 / 60 = 400 minutes  
+Convert back to hr:min. 400 minutes is 6h40m. Set your American crockpot to 6h40m (Some round to 6h30m) and it will actually take 8 hours for the crockpot to count-down 6h40m on Japanese electricity."
+homelab,fcbjj6o,t1_fca9fgc,1577587604.0,"Ah yeah, you’ll be fine with that cooler. It’s the Noctua that block one slot. 
+
+Make sure you read the manual for that MB. The more DIMM you install, the slower the ram frequency is set. https://i.imgur.com/ckYaz81.jpg
+Slower RAM = slower inter-core communication on AMD."
+homelab,fca7c8d,t1_fca1729,1577564144.0,"Looked at it as well. Was attracted to the IPMI and built-in display card. 
+Turned off by the finicky RAM supports and the fact that DDR4-2666 is the top speed you get when there’s only 1 stick. Some issues with RAM size and cooler AFAIK. Level1tech did a video and had to sacrifice one ram slot."
+homelab,fc9xj1s,t1_fc9vu48,1577559681.0,I’m trying to fit 128GB if RAM for some machine learning sets.
+homelab,fc9vau1,t1_fc9lrvv,1577558733.0,"I’m trying to go with quiet(ish). California power is also outrageous where your rate doubles after that they seem essential (they don’t think a server is essential, pfft)"
+buildapc,fc9aaol,t3_egm3f5,1577549574.0,Changed the list to replace the 860 SATA with 970 M.2
+cpp,fc7m4sy,t3_egmrht,1577511948.0,"Medium has quality and shit posts like any other platforms. That'd be like asking to ban youtube or github links.
+
+I think we should use the up/down vote buttons to properly filter content instead of doing platform bans; especially when there's no editorial review."
+homeautomation,fc7hfi5,t3_egit6b,1577507533.0,"""hackers""
+
+Since when trying an email/password from a public list considering hacking? Ring offers 2 factor authentication as well. To be ""hacked"", you have to mess up in the following ways:
+
+\- Re-use your password on every website you visit.  
+\- Use the same password for years  
+\- Sign-up for Ring and reject every advice from the app to enable 2-factor authentication  
+
+
+It's almost as stupid as using a social security number as a password for obtaining credit cards... Oh wait!"
+bayarea,fc251er,t1_fc1wr08,1577340728.0,"gas stands are not parking... These EV charging stations are parking spots so it's not 5 vs 15 mins... If you were to put gas, leave your car there and go have dinner, you bet you'd either be towed or asked to pay a fee."
+bayarea,fc1voz1,t1_fc1ehog,1577331177.0,"The per-minute charging addresses opportunity cost. For example, if the rate is $0.50/kWh and the company makes a profit of $0.20/kWh, they want to sell them as fast as possible. So realistically, the EV being parked is not only consuming energy but space and exclusive use of a charger. The faster a car can consume electricity from the charger, the faster it leaves and frees the spot for someone else to charge."
+bayarea,fc1vcp0,t1_fc12bd8,1577330879.0,"I agree with ""Actually charging"". If a car is in that spot and it's not charging, it doesn't matter if it's a diesel truck of a plug-in car; the space is wasted. 
+
+Ideally, the charger would display a flashing red light 1 hour after the car is charged and the car can be ticketed."
+worldnews,fbwzpre,t3_eeu5z3,1577164067.0,"It’s one thing for the president to not understand something personally. 
+It’s on a whole new level when he can’t be advised on the matter by leading experts. You’d think the EPA representative at the White House knows a few things about wind...
+So either he doesn’t talk to his advisors. Or he talks to them and gets bored and forgets."

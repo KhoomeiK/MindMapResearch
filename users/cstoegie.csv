@@ -1,0 +1,81 @@
+subreddit,self ID,parent ID,time,text
+toddlers,ffa2yks,t3_ese4fa,1579726838.0,Put a tile on them and just let em be free rein. Maybe give em something to keep their hands busy. If they manage to slip away just use your tile app on your phone to find em.
+windows,ff81c35,t1_ff7efmr,1579663408.0,"How'd it go? 
+
+This bit  in the comments seems important for large drives: 
+
+> If the drive is >2TB and was one volume, it will be GPT formatted. Windows will put a small partition in front of the main one in this case. That was my problem, partition alignment wasn’t the same. What I did was got an identical drive, partitioned it, then used partitionguru to back up the partitions (including the 128MB hidden MS reserved partition) and restore the partitions to the accidentally deleted drive, then ran repair-bde. Opened up the archive and THERE WAS MY DATA
+
+I would think you could just create a 128mb partition first if the hidden reserved partition is a fixed sized. It's an idea anyway, if your encrypted drive is that large and you don't have another drive available."
+windows,ff7efmr,t3_erzf8h,1579647650.0,[This](https://www.normanbauer.com/2013/07/25/how-to-recover-data-from-a-deleted-bitlocker-enabled-partition/) seems the most promising
+specializedtools,ff1qyt7,t1_ff0o0jh,1579484243.0,B-connector wire splices = beanies
+firefox,fexyd2s,t3_eqsxt8,1579438266.0,"User: ""my computer is so slow""  
+Me: ""chrome?""  
+User:  
+Me: ""lots of tabs?""  
+User:  
+Me: ctrl+shift+esc processes tab  
+User: O.O  
+Me: Firefox is now the fast browser  
+User: give me foxfire!"
+HowToHack,feorbd9,t1_feoqrk6,1579304391.0,"Yeah, that was the first hit when I did reverse image search on the ebay link you shared in another comment but it also see it all over Alibaba and eBay.
+
+Ultimately if you can't trace it back to a source and all the simple methods fail then learning some honestly interesting Wi-Fi hacking seems like the only option."
+HowToHack,feopgqh,t1_feoonpx,1579303503.0,"Looks like from [the manual](https://idiskk.com.tr/tr/idiskk_new/upLoad/down/month_1904/iDiskk-Turkiye-3D-Hologram-Display-Manual.pdf) it should be 12345678 so it's most likely been changed. 
+
+The wpa/wpa2 4-way Handshake Cracking attack someone linked below seems like your best option.
+
+Or if you have legit access to this find the factory restore pin hole"
+HowToHack,feonvdb,t3_eq16gd,1579302713.0,[Here it is.](http://idiskk.com/idiskk_new/content/?195.html) There's an app. Download the app. If the credentials are still default you should be able to connect using the app without knowing anything. Otherwise it would need to be factory restored and most likely has a pin hole on it somewhere to do that
+PewdiepieSubmissions,fen01yp,t3_eq17un,1579273925.0,"Except it won't last as long. 80 years if on a shelf. Less if in the ocean with Sun light, not to mention cork being permeable."
+windows,fehr0dq,t1_fehen75,1579122148.0,This. You can also find similar settings under accessibility. Turning of window animations helps a ton.
+movies,fe84nw1,t3_eo00jp,1578922518.0,I was actually very interested when I saw the trailer
+educationalgifs,fe7s5ar,t1_fe7rgns,1578918611.0,[pbs spacetime: strange stars](https://youtu.be/u4RNGRyzt10)
+educationalgifs,fe7rfog,t1_fe7m6lp,1578918343.0,[This](https://en.m.wikipedia.org/wiki/Atomic_orbital)
+deals,fe6evor,t3_enupi4,1578888828.0,Weird not seeing it even with desktop mode
+educationalgifs,fe6dtvg,t1_fe3wa71,1578887986.0,"Yeah, so, my loose understanding from pbs space episodes is that, effectively, matter is converted into charges filling all kinds of interesting levels of effectively the equivalent to imaginary numbers for matter. The way electrons exist in a quantum state around an atom. Like that except filling ALL the quantum states at once so there's no room to change.
+
+ --- Totally unresearched tired post based on half absorbed YouTube. Please drop knowledge if you happen to know the details.
+
+Edit: [pbs spacetime: strange stars](https://youtu.be/u4RNGRyzt10)"
+CleaningTips,fdzs7ff,t3_enctxo,1578794553.0,Take it off and put it in the dishwasher. Soak in CLR for build up and clogged spouts.
+TheGoodPlace,fdzcbky,t3_en3u92,1578788806.0,I always assumed disco Janet was the middle place janet...but it's the middle place so you don't get the personal assistant treatment.
+sysadmin,fdfuqq2,t3_ekyz3k,1578370734.0,"Very cool. What's that one line command for iso in line upgrades?
+
+Edit: nvm, figured it out,  [Google university] (https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-setup-command-line-options)"
+windows,fdcjrew,t3_ekm21c,1578276630.0,"If it's a school laptop it might be on a domain. Do you log in to school computers with the same login as on this computer? 
+
+It probably got removed from the domain or there's an issue with the school network. Try logging in with username 
+
+.\\YourUsername"
+pottytraining,fd3v3pc,t1_fd236jf,1578161882.0,"Naked seems to work better for stage 1. Just getting them to notice and make it to the potty. To avoid HUGE messes really loose sweat pants give the best of both worlds. Loose enough to have the same effect as naked but still giving something to absorb the worst of an accident. Water proof undersheet for the bed also.
+
+Then underwear once they get what it feels like and how to get to the potty quickly.
+
+The 3 day oh crap boot camp is naked day 1, loose clothes day 2, underwear day 3 but I've only heard of it working in 3 days for like 2.5 year olds with extremely lucky parents lol.
+
+I definitely understand having to deal with the defiance. The popular psychology says to avoid even acknowledging the negative behavior and focus on the positive...and we try that a LOT but that's just not always realistic for us so when se have to, we focus on his effect on others. How the disrespect and rude behavior makes us sad and how it's disrespectful to us and how it means we have less time to play with him because we have more chores to do because of whatever rude defiant thing he did. Same idea if we have to talk to him about something he gets in trouble for at daycare or out with friends. That and things like Daniel tiger seem to help. And of course ALWAYS making him participate in cleaning up his own messes even when it's more annoying or difficult to have them involved.
+
+Goodluck!"
+Unexpected,fd3oahm,t3_ejvwlj,1578160227.0,What the golf!?
+pottytraining,fcy789r,t3_ejdsqz,1578075819.0,"Get a kids seat for the adults potty and a stool.
+
+Tell, don't ask. Every 15-30 min. ""Go to the potty"" not ""do you have to go?"". They don't know and they only learn by going correctly a lot (or a little if you're lucky).
+
+Loose gym shorts or sweat pants, no underwear, commando until they figure it out. Or skirts and dresses for girls.
+
+Always encouraging. Celebrate every time. Non-food based rewards can be fun (we do an hour of video games for self-led bowel movements.) Focus on positive reinforment and really make a thing out of it. Sticker charts work good for some kids too.
+
+When they fail, definitely lead with ""You'll do better next time"" but also have them learn how to clean up their own mess and explain how unhygienic it is and reasons why we go in the potty instead of on the floor or on our pants. But don't over focus on what they did wrong, instead pivot to learning how to clean themselves up and change themselves.
+
+Some do it in a night, some take years. Younger seems to be better and faster. Mines 4 and he does great sometimes but sometimes it's like he didn't even realize it happened (usually because he's distracted by playing).
+
+Barring medical issues everyone figures it out eventually. If you're not pressured by day care and public school just let it happen."
+redneckengineering,fcnqfsd,t1_fcnqa8o,1577816487.0,If it's stupid but works...
+redneckengineering,fcni650,t3_ei3qo2,1577812203.0,"That is a space heater, hanging from a Phillips screw driver jammed into the wall, positioned over a temperature sensor in an office where they don't have control over the buildings thermostat - presumably because they want air conditioning."
+tumblr,fc2qmmy,t3_efodbv,1577371140.0,"Fahrenheit 451...the flash point of paper. Parchment is closer to 420 but wax paper is around 450F! 
+
+So long as your baking under 400F all should be fine."
+AskReddit,fbr02p4,t3_ee3b1i,1577037536.0,"Western society. Im going to live pay check to pay check until something unexpected happens and then ill die sooner then I like, unable to afford the best healthcare, having depleted my underfunded retirement that I never got to use for retirement, and my family will be unable to support themselves after I'm gone having spent my entire life working for other people and never doing or creating anything for myself.
+
+This is America"

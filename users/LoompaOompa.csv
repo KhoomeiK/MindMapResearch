@@ -1,0 +1,150 @@
+subreddit,self ID,parent ID,time,text
+gaming,ffb6wxn,t1_ffacs8f,1579753424.0,"It's kind of a no-win scenario for them because the people that still play Tony Hawk are so hard core about it. Activision would need to recreate all of the minute behaviors as accurately as possible, or people would complain that it ""doesn't feel right"". There's almost no way that they'd be able to recreate it with 100% accuracy in a new engine."
+gaming,ffb6lu5,t1_ffadqx7,1579753183.0,THPS5 is terrible. Do not spend a cent on it. Pro Skater HD is also bad. Emulating older games or playing them on original hardware are your best bet for scratching the itch.
+gamemaker,ffabuev,t1_ffa8lrr,1579731863.0,"Yes the debugger is very important. It helped me solve several problems on the two small projects I've done so far. On that note, I haven't found a way to create conditional breakpoints. Does that feature exist in GMS 2?"
+gamemaker,ffa5h63,t1_ff7h776,1579728265.0,"Well said. I am very new to GML (been messing around with it for about 2 weeks), but I have over a decade of programming experience.  
+
+When I came to this community was surprised to find that most of the questions are for general programming and debugging help, not anything specific to Game Maker. But thinking about it more, it makes sense. People always want to jump into learning games, and it's an accessible tool with a relatively low barrier of entry compared to something like Unity or Unreal."
+AskReddit,ff95v2t,t1_ff8dhny,1579705563.0,"> Brevity is key
+
+As a counter point to this -- My mother is an incredible story teller, and one of the things that makes her stories so enthralling is that she is very good at organically building suspense. She knows exactly when to stretch and add details in order to get a person on the edge of their seat before hitting them with the punchline.
+
+If we are out somewhere together and something interesting happens, my version of the story might be 2 minutes, and hers is 6-7, but hers is 1000% more engaging."
+gamemaker,ff7b1np,t1_ff78tty,1579645132.0,"Got it. Sorry, I apparently missed that line. I see what you're saying now."
+gamemaker,ff738uq,t1_ff71wye,1579640238.0,"Edit: I wrote a big thing and I feel like I just repeated myself over and over again, so Here's an attempt to simplify:
+
+The first line of your solution says ""when the shield breaks"". How are you deciding that the shield broke without communication with it, and why couldn't my solution do the exact same thing to set shieldAvailable and set the alarm? I don't see why mine requires communication that yours wouldn't."
+Games,ff725hx,t1_ff71m76,1579639613.0,"Brad gave the impression that it was more about testing builds than it was about going for a high score or a record or anything. I don't think we have all of the details yet, though."
+gamemaker,ff6zdl1,t1_ff6xqqz,1579638014.0,"I'm trying to follow you, but I must be missing something. I don't see how anything in my solution requires communication between the shield and the player where it isn't needed in the other solution. Can you expand a little more on what you're saying?"
+gamemaker,ff3jpa2,t3_ergk2o,1579542497.0,Can you be more specific about what's confusing you? Is there a particular use case you'd like to see an example of?
+Games,ff2ospe,t1_ff26i4t,1579516874.0,"Sega Channel was downloading games and running them locally, not streaming. Was still incredible at the time, though."
+gamemaker,fevsyly,t3_eql4x8,1579401072.0,"Just started 2 weeks ago, but I've got experience with other engines. I'm having a great time with this one. I feel like it's much quicker to get up and running on projects. It's simpler than something like Unreal or Unity, but in that simplicity is a streamlining that I really like. I built most of a Tetris clone last weekend as a learning exercise and it went very smoothly."
+gamemaker,fevrsbk,t3_eqk8do,1579400752.0,"It looks like you've got a solution that works for you, but I wanted to offer an alternative for other people who read this.
+
+1) Give the object a variable called something like shieldAvailable. Default it to true, and add a check for it before allowing the shield.
+
+2) When the shield breaks. set shieldAvailable to false, and set ""alarm[0] = 500"" (or however many steps the cooldown should be in effect for). The alarms are built-in timers for instances. You have 12 of them to use on each object. 
+
+3) Define the Alarm0 event on your object to set shieldAvailable back to true.
+
+I think this is a little cleaner because it doesn't dirty up the step event with timer logic."
+gamemaker,fevnb24,t1_fevkr0o,1579399280.0,"I haven't done that tutorial, so maybe I don't understand the full problem, but in addition to what was recommended above, can't you do something like 
+
+if (y < (0 - size_of_the_ship) ) {
+
+ y = room_height - control_bar_height_in_pixels
+
+}
+
+Edit: I took a look a the tutorial video so I have a better idea of what's going on now. I think you should just stop using move_wrap and define the logic to jump to the other side of the room completely on your own. You can use the if statements that have been provided to you so far as a base for it. If you want to do the x coordinates you can just change the y to x and use room_width instead of room_height.
+
+it looks like move_wrap has a margin argument, where you can set a pixel margin, but it's going to work on all sides of the room. You could use that, but then you'd have to make the room larger than the viewport on the left, right, and top by the same margin as the status bar. I'm pretty new to Game Maker as well so I don't know how complicated that is, but I imagine it's a lot more complicated than doing 4 if statements for when x <0, x> room_width, y < 0, and y > (room_height - control bar).
+
+I hope this is helpful"
+AmItheAsshole,fesl9cj,t1_fesl5lb,1579366403.0,"Oh shit, you're right. My bad."
+AmItheAsshole,ferxs9m,t1_fepj2ck,1579359388.0,What does the (P.) mean in your comment?
+facepalm,fenlap2,t1_fen7fod,1579287117.0,And thank you for calling that out. Fucking gross to put someone down for having kids and no spouse.
+comics,fenir06,t1_femrawe,1579285569.0,That's probably why the son thought it was so hard. Didn't expect to have to phase through matter.
+facepalm,feisi4q,t1_feiiha6,1579146075.0,"Cool, that's what I thought. Just wanted to double check. So if this article had actually been right about Turing being trans, then it wouldn't have been accurate to say that he was gay."
+facepalm,fehte9q,t1_fehqwc2,1579123497.0,"Sounds like the best course of action is to forcefully assert that she is a phony and they should no longer be together.
+
+Edit: apparently it wasn’t obvious, but this was a joke. I tried to make it sound so insensitive that no one would believe I was serious, but I guess I didn’t succeed."
+PS4,fehn2h2,t1_feerj0y,1579119875.0,"[Yes, this place is shown in the very first trailer.](https://youtu.be/ctlCwPg79dU?t=80)"
+facepalm,fehh453,t1_fehg18s,1579116413.0,Thanks
+facepalm,fehfvdc,t3_ep4xa2,1579115688.0,"This is a legitimate question borne from ignorance. I am in no way trying to be disrespectful.
+
+The image says ""gay and trans"". If a trans person identifies as gay, would that mean that they are attracted to the same gender they identify as, or the gender that matches the sex they were born with?
+
+My assumption is that a person who identifies as a woman and likes men would be considered straight. Is that correct? Or maybe it's something that is decided on a more case by case basis?"
+facepalm,feh0sm8,t1_feghq1g,1579106752.0,Arise chicken! Arise!
+facepalm,fegsqqz,t3_ep3259,1579101673.0,"I think the main reason is that white is generally thought as a futuristic color. A ton of sci fi movies use white motifs in their set design. It gives everything a pristine look. It's the same reason that Apple used so much white in their product designs in the late 90s / early 2000s. 
+
+So if you want to make your robot (which is a very futuristic product) look like something from the future, what better way than to mimic the styles commonly depicted in film and tv?"
+facepalm,feba121,t3_eoax5e,1578956774.0,https://www.youtube.com/watch?v=XY4L5RU6kyo
+gaming,fe2p6u9,t1_fdvofu5,1578841360.0,"> minus the exclusives.
+
+I don't feel like exclusives are the reason you buy something like this.
+
+To me, the appeal of a product like this is that people can take the 100s of games that they already have on Steam, EGS, GoG, Xbox Game Pass, etc. and play them on the go in a comfortable and convenient way. Obviously some of my games are going to require more power than this thing can dish out, but probably >80% of my steam library would be playable on this.
+
+I do expect this thing to be way too expensive, but if the price was reasonable I'd consider it. I've thought about buying a GDP Win 2 many times."
+gaming,fdtisnl,t1_fdtefqf,1578717364.0,"With a basic cubemap implementation, the reflection of the cubemap is a simple calculation based on the angle that you're looking. It doesn't consider position at all. So if you keep your character looking the same direction, and you strafe, the reflection moves with you. You can see that in the video. Pay attention to the reflection of the big windows, for example.
+
+The parallax cubemap is updating based on position as well as angle, so the objects in the reflection better match the environment."
+facepalm,fdqseez,t1_fdqrt6x,1578673868.0,"But then it gives the example ""good"". So as a reader we can infer that they simply meant words with two o's next to eachother, not words with two sets of double o's."
+facepalm,fdqkyjq,t3_emqjbp,1578669171.0,Yes god forbid that a toy company might make a toy that makes hearing impaired children feel like they're not alone. This isn't a facepalm in any way.
+facepalm,fdqjtv4,t1_fdqiuty,1578668412.0,"Social media groups post deliberately easy challenges in an effort to get a high level of interaction with their ""brand"" (e.g. ""I bet you can't name a country that starts with E"").  The more that people comment, the more people will see the post, and the more follows they will eventually generate.
+
+Every person in this thread commenting with 'oo' words has basically fallen for an obvious psychological trick. We all know that there are other 'oo' words. Nobody needed to comment here and prove that they could think of one."
+facepalm,fdpmsjo,t1_fdpjjyj,1578633089.0,"I just mean anyone over 18 would be grandfathered in, not just smokers. I'm not arguing that's how it should've been done, it's just what I expected."
+facepalm,fdpc0bo,t1_fdpbuwl,1578624837.0,Fuck
+facepalm,fdp9rof,t1_fdp4652,1578623318.0,"The post is literally a reference to Home Alone
+
+Edit: Fixing a typo that made it say Hope Alone."
+Games,fdp7pa8,t1_fdoos83,1578621938.0,"Super is the only one I’ve played. It’s been a while, but I feel like there was a point in the game where everything jumped up several levels, and I felt like I either had to grind a ton to keep going, or stop. I chose to stop. 
+
+I still really like the premise and gameplay of these games, though. I’m excited to pick this one up."
+facepalm,fdokjvd,t3_emfn9z,1578607006.0,"Until seeing this, I forgot the legal age increased. I don't smoke and I'm over 21 so I didn't read up on it when it happened. I'm surprised they did it all at once. I assumed that it would be rolled out in such a way that current 18-21 year old smokers would be ""grandfathered in"", and the true limit of 21 would only be enforced on those who are currently 17."
+news,fdogxj6,t1_fdoglfe,1578604922.0,"Saying something is a mistake is not ""justifying"" the action. I don't know why you keep asserting this."
+gaming,fdkqym7,t1_fdkizjd,1578509316.0,"Is this a European thing or something? I don't know anyone in the US who goes pspspspspsps. I've also never seen it in a movie or show
+
+edit: If anyone has an example of a character doing this in an American movie or tv show, I'd love to see it."
+politics,fdk7ca5,t1_fdk105l,1578497737.0,"> This is literally robbery.
+
+No it isn't. Robbery requires threat or force. This is misappropriation of funds."
+facepalm,fdh4uqg,t1_fdh1v69,1578415416.0,"There are a lot of evil people out there, and there are reasons that we don't just drone strike all of them. There is a reason that Kim Jong Un hasn't been assassinated, for instance, even though he is perpetuating atrocities on his countrymen.
+
+In a vacuum, Soleimani's death would be a good thing. Like you said, he was an evil man. But we are not in a vacuum. There are repercussions. Retaliation (not just against us, but against allies in the region), destabilization of the region (which could lead to things like famine and more refugees), diplomatic issues with the rest of the world. There are a lot of potential consequences to this, and I am not an expert in military matters or matters of state, so I can't list all of them. But a lot of experts out there are saying that this is a huge deal, and I trust them because they're the experts. 
+
+It's a very complicated issue with a LOT of different variables. To just say ""isn't it good that we killed him because of all of the bad things he did?"" Is vastly over-simplifying the situation."
+facepalm,fdh1ny5,t1_fdh12jp,1578413441.0,That's a rape joke. Not just horniness.
+facepalm,fdeicvd,t1_fdeh738,1578339658.0,"For example:
+
+> Good time to raise that skirt up and........ just saying 🤷🏻‍♂️"
+facepalm,fdeg95i,t3_ekv0cj,1578338366.0,"These comments come in 2 flavors:
+
+* questioning OP for the bad title
+
+* very sexist"
+PS4,fddsfap,t1_fdclf93,1578322781.0,They're not going to sue the cleaning guy for breaking an NDA. That would be an incredibly bad look for any company. He'll just get fired.
+facepalm,fdc8nyx,t1_fdc40h4,1578269269.0,That's not what this sub is for.
+Games,fcxmics,t1_fcxlazk,1578066494.0,I'm very sad that there won't be any more This is the Run episodes with him and Vinny.
+Games,fcuzd3k,t1_fcucwnp,1577991532.0,"The PS2 wasn't really ""exploring"" it. It just has some components on it for doing vector math (for the many 3d math calculations that make all 3d games work; hit scans, collision resolution, calculating normals, etc), and somebody used those components to build a simple ray tracing demo. This is in no way evidence that Sony was experimenting with or investing in using real time ray tracing in any full scale game.
+
+It's still very cool to see, and even though the scene is very simple, I'm still surprised that the PS2 is capable of running it at a good frame rate."
+Games,fcr4ies,t3_eijx7l,1577896670.0,I turned on my vita for the first time in about 6 months last night and tried to download some stuff from the Vita Homebrew Browser. It wouldn't work and I figured that something was out of date and I'd deal with it later. I'm sad to see that this is the real reason why it wasn't working.
+Games,fcoa163,t1_fcmyo4z,1577827178.0,Dead Cells is the same way. I haven't played Hades but I believe it also has upgrades that carry between runs.
+Games,fco9h8b,t1_fcm2gh8,1577826796.0,"> a lot better mechanically than Rogue Legacy
+
+I think Dead Cells is a better game, but think that has more to do with its production quality and scope. I think the mechanics of Rogue Legacy are completely sound. It has a great flow with all of the the dashing, double jumping, and bouncing. I think they really nailed the controls, and I still come back to it from time to time. Rogue Legacy is a simpler game, but it executes on that simplicity very well. 
+
+The only mechanic in Rogue Legacy that is bad is the trait gimmick. It was a neat and funny idea at the time (and I admit it's one of the things that got my attention about the game), but once you've learned the ins and outs of the game it doesn't add anything except to be annoying. There should be a way to turn it off."
+facepalm,fco87n0,t3_ei6wsp,1577825944.0,"Is this the Krusty Krab?
+
+No, this is Patry."
+facepalm,fcne16z,t1_fcn6a80,1577809750.0,What's wrong with their username?
+rollerblading,fcna6wq,t1_fcmfglu,1577807184.0,"> Are you going to stick with the anti rocker setup? Just a matter of preference
+
+I'm going to see how it goes. My old skates were flat, so I may end up switching back.
+
+ > I think doing a lot more a-to-b rec skating would have helped me at that time.
+
+This is good advice, I'll keep it in mind, thanks!
+
+> But the good news is that all the basics are still there. Kind of like riding a bike, but putting in the time had the best results
+
+I'm super excited to get started."
+facepalm,fcl3kln,t3_ehrdeg,1577739046.0,"Just her way of saying ""eat a dick"""
+rollerblading,fcksonq,t1_fcks4iq,1577732345.0,"https://www.amazon.com/gp/product/B07L7ZR9GN/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1
+
+I don't really know what brands are good anymore. I used to have k2s, but their aggressive models were sold out in my size both on amazon and their official website, which is kind of weird. I'm sure the ones I got will be fine. 
+
+The main thing I'm worried about is that I live in NYC now, so it's going to be a very different skating environment than Plano. It's going to take some getting used to. 
+
+How long of a break did you have before you started up again, and how easy was it for you to pick it back up?"
+rollerblading,fckryxt,t1_fb7pv8x,1577731905.0,I'm late to the thread but I also miss Eisenbergs. I haven't skated since high school and I just ordered a new pair of skates off amazon about an hour ago. It's been about 15 years since I've had a pair and I'm super excited for them to arrive. Just found this subreddit.
+facepalm,fcgjdxo,t3_eh5c2g,1577640776.0,Alita was not a good movie.
+Games,fc0hrhb,t1_fbzm3k3,1577291119.0,I teared up during Firewatch.
+MurderedByWords,fbuhkxx,t1_fbtta0g,1577114534.0,"The fact that she didn’t go into STEM is anecdotal and has no bearing on why her entire gender is less likely to do so. Just like it’s anecdotal that I have two brothers, and out of the three of us, I’m the only one who went into a STEM field. 
+
+Even if there is merit to the idea that the low rate of STEM enrollment for women is largely  because of personal preference, the dude in the post’s reasoning is not useful in coming to that conclusion. He’s just being an ass."

@@ -1,0 +1,70 @@
+subreddit,self ID,parent ID,time,text
+aoe2,ffb3zzv,t1_ffb3716,1579751204.0,I'm sure the developers didn't want to name one specific player
+funny,ff819ff,t1_ff80j2v,1579663354.0,Nobody can see Canada under all the snow
+rickandmorty,ff58xlr,t1_ff4u05y,1579583770.0,"Oops, I thought yours was a reply to the original image. Sorry."
+funny,ff4qmbo,t3_erhljc,1579570090.0,"Infinite loop:  
+see Loop, infinite
+
+Loop, infinite:  
+see Infinite loop"
+C_Programming,ff40oyn,t3_eri8f8,1579552995.0,You can pass a function pointer as another parameter and call it at both places
+Kotlin,ff3rq2w,t3_erhop2,1579547417.0,"Only for data classes using `componentN` methods. For all other classes, the order is unspecified."
+rickandmorty,ff2lisv,t1_ff1mand,1579511812.0,[You are welcome](https://www.youtube.com/watch?v=5wUAI9lesKQ) :)
+Jokes,fe0c0qp,t3_enexwb,1578809258.0,"Fun fact about Germany:
+
+No fun in Germany, get back to work!"
+facepalm,fds4fpa,t1_fdreo16,1578694123.0,Insurance won't pay you anything if there is no breaking in
+facepalm,fdomagm,t1_fdo2atp,1578608035.0,Togo as well
+facepalm,fdolr1s,t1_fdnz6v9,1578607715.0,"Three? It uses J, A, P, and N"
+facepalm,fdolnqw,t1_fdo9hrd,1578607660.0,It's Čad in Czech and Slovak
+steampunk,fdokd3s,t3_em7f6p,1578606899.0,No kiwi?
+facepalm,fdoj99e,t3_em8fs8,1578606262.0,"If you look at the map of 5G coverage in Australia and the map of bushfires, the only possible conclusion is that 5G prevents bushfires. Historic maps confirm this conclusion. We need more 5G!"
+pics,fdmki9e,t1_fdlbk06,1578553308.0,"Climbing the rock.
+
+[Source](https://www.atlasobscura.com/places/thridrangaviti-lighthouse)"
+aoe2,fdmitdc,t3_elzvlm,1578551447.0,Don't forget to eat the whole bushes
+linux4noobs,fdd1dn6,t3_eko40m,1578290937.0,"If you add a drive to an existing array, it will be added as a hot spare. You need to rebalance the array to be able to use the new drive's capacity, and then resize the filesystem."
+quityourbullshit,fdcjisk,t1_fdb2d3n,1578276458.0,It's the most preferred taste according to a survey amongst dogs
+Jokes,fd73y5p,t1_fd6bezt,1578199121.0,Him as well
+facepalm,fd73l56,t1_fd6pbhh,1578198998.0,You need to go outside and see some real people. There's a lot of stupidity in the wild. There are even people that don't know how to read details of what they are paying for.
+facepalm,fd5wcan,t1_fd5q2i9,1578182324.0,It says red and black on the pen
+facepalm,fd4kqbo,t1_fd28vkl,1578168467.0,On a shelf where there is nothing but bananas?
+facepalm,fd4klt1,t3_ejvv4a,1578168414.0,"Stupid nature, just grow a skin over the skin, how hard can it be?"
+funny,fd3uof7,t1_fd0gehv,1578161757.0,"My god, what are you doing?"
+facepalm,fczo7vv,t3_ejouv2,1578105546.0,"It's intentional, it's to make you buy so much that you will remove the red one"
+facepalm,fcznzcb,t3_ejoty8,1578105404.0,Reminds me of [Cat milk does not come from cats](https://www.reddit.com/r/funny/comments/xeecb/please_note_cat_milk_does_not_come_from_cats/)
+facepalm,fcznjsy,t1_fczf7bp,1578105117.0,Never underestimate how dumb people can be
+facepalm,fczn57v,t3_ejjlrt,1578104866.0,It's for scale
+funny,fcrobxs,t1_fcri9fa,1577904441.0,You could actually have spent New Year's 2020 in Auckland and in Honolulu. Not sure how you're gonna count the length of that year though.
+facepalm,fcrau6i,t3_eiih16,1577899280.0,"What are honest criminals like me supposed to do now? I don't want to do night shifts, I have a wife and kids. Typical politicians, you always hear how crime is the worst but they just want to take it all for themselves. Why do you never see a sign like this at the city council?"
+HalfLife,fcq6zua,t3_eihik6,1577880081.0,"If you like it, you really need to try Hunt Down the Freeman as well"
+androiddev,fcpptpl,t3_eigcy0,1577869531.0,Redmi Note 8T
+rickandmorty,fcpp366,t1_fcpicxx,1577869086.0,"Oh jeez, oh man!"
+Jokes,fcopb7k,t3_ei8u77,1577837990.0,"He's a lumberjack and he's ok
+
+He sleeps all night and he works all day"
+webdev,fcmrxyj,t3_ei12as,1577789287.0,"There are multiple options:
+
+- *MHTML*: probably the most supported option using HTML and CSS
+- Web Archive (*WAR*): AFAIK only Konqueror supports it
+- Web ARChive (*WARC*): ISO standard but AFAIK without browser support
+- OpenDocument Text (*ODT*): ISO standard but not really for web pages
+- *PDF*: probably the easiest option"
+Kotlin,fcl2wpi,t1_fckuz40,1577738638.0,"Looking at the code, I have some suggestions:
+
+1. Don't use lazy for trivial computations (`isInvertible`, `isUnit`, …). Use a getter instead.
+
+2. Use `operator fun` for the operators.
+
+3. Don't override auto-generated methods unless the implementation is different."
+Kotlin,fcl1rpu,t3_ehqe4e,1577737936.0,"Why do you override functions that are auto-generated? (`hashCode` and `equals` may have sense but not the others.)
+
+A data class is a data storage, not a data processor; processing the data should be someone else's concern. The smaller the class is, the more versatile it is and the easier it is to test it. Ideally, a data class should not need any tests because it should not contain any logic (besides the auto-generated which you don't need to test).
+
+Generally, you should use extension functions instead because they don't change the API of the class and separate concerns. I would not put even transformations in there (a data class does not need to know about other data structures), unless you need the class to implement an interface, and for that, unless it is trivial (e.g. unit conversion), I would use dependency injection to separate the actual logic out of the data class."
+funny,fcjuw21,t3_ehi5f7,1577705916.0,CLAAARKSON!!!
+facepalm,fcjkeqd,t3_ehh4v5,1577691166.0,"All words in all Germanic languages also have genders, except for English. So English is the weird one and the proper question will be “When did words in English lose genders”?"
+androiddev,fc4py8z,t1_fc3x4df,1577424231.0,"If it's a view state then it should be in the view part of MVVM (a View/Fragment/Activity) and use `onSaveInstanceState` or equivalent. If it is a data state that is worth preserving indefinitely then it should be in the model. If MVVM is properly implemented, there should never be a state worth saving in the View Model, it should just convert data to other data (whether they are obtained from the model or the view). The limitations may seem self-imposed but they are quite important if you want to have unit-testable code."
+androiddev,fc3x38p,t1_fbp0ss7,1577400861.0,"You don't. `onSaveInstanceState` is supposed to save view state (and Android views do that for you), not the model, the bundle is not backed up. In the model, you can use e.g. Shared Preferences, they take care of working correctly with the lifecycle."
+androiddev,fc3wsz9,t1_fbp0f7r,1577400650.0,"Then it should be saved in the model. ViewModel should only pass data from the model to observers, the whole point of MVVM is that the model is the one and only source of truth (state)."
+androiddev,fboct2b,t1_fbo94yl,1577009261.0,"It can be misused like that but then you'll get all the problems mentioned in the article. In MVVM, it works well because there is no state worth saving in the ViewModel."

@@ -1,0 +1,137 @@
+subreddit,self ID,parent ID,time,text
+Python,ffamm9u,t1_ffam2k4,1579739500.0,"My work nature wouldn't allow that though, I always get varying tasks so the best I could do was automate my timesheets and used scripts to help with analysis.  I simultaneously miss and don't miss my old days when most of the tasks were monotonous and routine."
+worldnews,ffam5qf,t1_ffaj0i3,1579739191.0,Man I should have finished my dinner before reading this whole thread.  My appetite is completely lost now.  Savages.
+Python,ffahrfv,t1_ffaccui,1579736031.0,That's on my unofficial to do :)
+Python,ffahcgc,t1_ffaengv,1579735756.0,There is blackjack in there though! (Somewhat)
+Python,ffab6dg,t1_ffa1qqh,1579731469.0,"Apologies for the tone that was carried across, it's just that your explanation wasn't exactly clear so it seemed like you had a clear idea of what you do, but wasn't clear on how to provide the code to run it.  Regardless, I didn't mean to be condescending so my bad for not being considerate.
+
+As mentioned, if you wanted a GUI dialog box, `tkinter.simpledialog` would be a good module to look at.  It already have several options to display messages, type of responses, etc.  `PyQT5` is also a good alternative though I haven't used.  The bottom line is that if you don't want to manage the low level stuff, find a package that works for you and run with it.
+
+For your custom functions, you'll need to either ensure your file directory is in your PATH, or explicitly manage the path across your scripts.  The reason for that is python needs to know where to look for your files.  Preferably, you'd have these prepared as a package and pip install them so your can load them up anywhere.  Barring that, having your script run from the root which also includes the sub packages might be an alternative, which allows a certain level of relative imports.  As mentioned, looking up tutorials on how to package your python script is a great starting point, it shouldn't be too hard to follow."
+Python,ffa8xwn,t1_ffa8gwa,1579730190.0,"Well, to be fair, there's nothing malicious I can do with Python beyond my user access level any how.  I'd still encounter the same permission issues that I'd get, just that now it allows my work to be streamlined."
+Python,ff9i5ea,t1_ff9e28s,1579713525.0,"`tkinter` can be a bit intimidating at the beginning, and it definitely isn't the easiest to use.  But once you get used to it it's not too shabby.  Give it a go and let me know if you have any questions, I'm happy to help."
+Python,ff9hsa9,t1_ff9gqeb,1579713301.0,"You definitely will not be the only one.  I'm not the best at explanation, so if you have any questions after the read me, *please do ask*, so I can also further improve and I help you."
+Python,ff97d2s,t1_ff957iw,1579706555.0,"Well there's the problem, you were playing it in hell! Hope you got better 😂"
+Python,ff96n5e,t1_ff96ijq,1579706087.0,Not even.  Just user installation of python.  :)
+Python,ff96h3q,t1_ff91ly4,1579705977.0,"Feel free to implement based on my code, but I'm not sure how well it translates over to pygame? Do share with us when you are ready though, would love to see!"
+Python,ff95vfe,t1_ff8ypfu,1579705569.0,Definitely not necessary! But I guess I was more testing what I can do so I preferred to tackle functionalities instead.
+Python,ff950xz,t1_ff8vzuq,1579704998.0,"That's something I thought about, but it seemed like a tedious secondary feature that won't even get used if you're a good player.  So I decided on my current implementation where the blackjack is the prominent feature on a separate mode."
+Python,ff94s3v,t1_ff8n7h0,1579704830.0,"I wouldn't say I know it, perhaps there is a deeper algorithm that I'm not privvy to.  My implementation just happens to work with randomized mines and clues calculated on the spot :)
+
+The code is messier than I had hoped though, I don't have proper training on code structuring so I try my best."
+Python,ff94ksc,t1_ff8lhpe,1579704693.0,The ones that has the capability to let you to work from home but won't allow you for arbitrary reasons... 😔
+Python,ff94ika,t1_ff8klc7,1579704651.0,"Thank you! I didn't even remember it was my cake day, what a timing."
+Python,ff94eq6,t1_ff93ye4,1579704579.0,"FWIW I didn't downvote your comment, by the time I came it was already buried at the bottom.  I too often made jokes others didn't appreciate :/"
+Python,ff948ct,t1_ff8n0zr,1579704457.0,"1. The fundamental of programming is explicitly telling the program what you want to do though.  A computer is not magic, majority of the time a program doesn't work is because we aren't correctly telling it what to do, or it conflicts with other instructions given.     That's why there are modules out there, basically templates built by other developers to save you time on a similar implementation.  Dialog window is just that as well.  There is a `simpledialog` module in `tkinter` if that's what you're going for.
+
+2. Same point as before, a program is only as good as the clarity of instructions provided.  We need to be the one to ensure the program knows exactly where to look for which file.  If you wanted something more generic like importing as a module, perhaps look into tutorials on how to build a python package/module.  It's not too difficult to follow.
+
+Happy coding!"
+Python,ff93n26,t1_ff8nvn3,1579704043.0,Hard to steal when title is not something you possess... But as the other person mentioned it's definitely an intentional reference :)
+Python,ff93ecm,t1_ff8pbl1,1579703873.0,"I don't disagree, but I literally ask for work and offer to take on responsibilities but they just don't delegate.  After a certain point I just figure out how to deal with my down time.  And down time was especially long during the holidays."
+Python,ff9371x,t1_ff91h0f,1579703727.0,"It certainly does, somehow.  I installed it as user, and had to jump through some hoops to get `pip` going, but it surely works."
+Python,ff934cw,t1_ff90c75,1579703676.0,"You should! Whenever I revisit my old code I find that I've learned new material and can think of better ways to implement things, and it makes my old code looks silly.  But the feeling of making changes and progress after so long always feels great."
+Python,ff92x5l,t1_ff8vdjb,1579703534.0,Thanks! Honestly `tkinter` isn't that bad once you start playing around with it.  It also looks surprisingly consistent on my Linux too.
+Python,ff92rcv,t1_ff8kzpp,1579703420.0,Oooh maybe I should add this sound byte with the pop-up hahahha
+Python,ff92nwy,t1_ff8j9id,1579703352.0,"If you watch again I first revealed the top left corner, and then I revealed the bottom right which was a bomb."
+Python,ff92ls4,t1_ff8x9c4,1579703309.0,The original version (and this) never explodes on the first click.  Perhaps you played an off brand version?
+Python,ff92iyh,t1_ff8lhpe,1579703252.0,"It's locked down pretty tight, frankly I'm surprised it let's me install Python at all 😅"
+Python,ff922zr,t1_ff8j254,1579702930.0,"Thanks, I try to keep the UI minimal.  I know there's a fair version (and an evil one that *always* make you guess), but figuring out the algorithm was something that seemed bigger than I intended to chew.  But later I might revisit this idea!"
+Python,ff8j3eb,t3_es71fs,1579680819.0,"Both modules would take over your mouse and/or keyboard while automating, so won't work if you want to do something else at the same time."
+Python,ff8g7oc,t1_ff8fsgb,1579677079.0,"That's something I considered! But I didn't have a good functional use to make it a meaningful replacement, so I abandoned that train of thought.
+
+I had a few ideas on how to implement a ""hooker"" in there but it will require some more playtests, but now workload and life is picking up again :("
+Python,ff8g0oa,t3_es8dai,1579676845.0,"I started this during the slow season of Christmas when most of the office was gone.  It started very simple and then eventually I learned a lot on better packaging, using `tkinter`, and `git`, so it was a great experience!
+
+I'm not a developer by trade but I just love to code.  Here's my very infantile github for your entertainment, it's bound to have a bunch of bad coding practices: https://github.com/r-ook/pymsweeper"
+witcher,ff8akqy,t1_ff7mo56,1579670991.0,"Buddy, I'd give anything for a good The Last of Us series.  It'd absolutely destroy my appetite for anything else."
+witcher,ff8ab1x,t1_ff7hn8l,1579670736.0,Because Game of Thrones.
+BoneAppleTea,ff6zdiu,t3_erxl83,1579638013.0,Surely there should be a /r/voicerecognitionfail or something
+funny,ff6yb6y,t1_ff6wc48,1579637388.0,"Thanks, didn't even realize!"
+pics,ff6yaed,t1_ff6vp2l,1579637375.0,"Thank you, didn't even know!"
+pics,ff6ql1o,t1_ff6p0k5,1579632815.0,If he didn't have her permission he soon might be.
+funny,ff6pelg,t1_ff6ay9g,1579632112.0,"It looks shopped or composite tbh.
+
+Don't get me wrong, I love the guy but I just think it's post processed."
+funny,ff6p98e,t1_ff6f8es,1579632022.0,Picosplayso
+Jokes,ff6ox3f,t1_ff69szl,1579631821.0,These puns are really hitting uncharted territories.
+todayilearned,ff6o1op,t1_ff6hnmh,1579631295.0,Evidently so.  Instead of injecting heroine /u/f-a-c-e is now injecting hyphens in the face.
+todayilearned,ff6nqfe,t1_ff6ilaa,1579631106.0,">it's more inspiring of a message to say ""You can always fix your life if you seek help."" 
+
+Yes and no... If the story was true, it means the change originated from within him instead of needing an intervention from an external party.  The former would inspire others that ""you too are capable of changing yourself if you will it"", whereas the latter suggests ""do it for the ones who love you"".  Which, quite frankly, not everyone has that somebody.  it's much more effective to promote self help."
+todayilearned,ff6n54k,t1_ff6iym1,1579630745.0,"Fun fact: Sherlock Holmes has [never said the line ""Elementary, my dear Watson"" in the original works, ever.](https://quoteinvestigator.com/2016/07/14/watson/)"
+leafs,ff6mgmc,t1_ff4yzgh,1579630335.0,"Leafs fanbase are some of the most volatile ones.  Players are either Jesus Christ himself or straight up Hitler, nothing in between."
+toronto,ff6arz5,t3_ertske,1579623101.0,This is just blatant corruption.  Nobody in their right mind would believe for an instance this is a good idea.  Might as well do away with inspection altogether?
+toronto,ff6ad5a,t1_ff639jp,1579622834.0,"Hey that's not fair, Ford is twice the mayor that Quimby is... Twice as incompetent and corrupt."
+toronto,ff69qos,t1_ff5y9hr,1579622429.0,Fuuuuuck that's agonizing.
+funny,ff5et0f,t1_ff4zcev,1579589794.0,Never underestimate the boundless possibilities of human stupidity.
+canada,ff4zhfu,t1_ff3x23h,1579576205.0,"There were many times cheaper alternatives came around, but I stuck it out with TekSavvy because I believe in their company values.  I'd rather pay a little more to have a company that aligns with my interest over saving a modest sum per month."
+WTF,ff4ffzx,t1_ff47rwf,1579562330.0,He'd be a legendary elf marksman?
+funny,ff4blpq,t1_ff47d24,1579559800.0," It's fair that you are already aware of it, but how are others supposed to know that you do? People provide advice because they want to help in case you didn't know, and are about to make a mistake.  To not accept an advice is one thing (and completely fair, we all have our perspectives), but to tell others that your don't need their advices at all is foolish arrogance.  You don't know what you don't know until it's too late, it's a good idea to be receptive instead of dismissive.
+
+In either case, it doesn't seem like you want people to comment or are likely to listen.  So again, you do what you think best.  I'll leave it at that."
+funny,ff44lqg,t1_ff43klp,1579555417.0,"Here's an advice - you don't know what advice you don't need until you've disseminated the info yourself.  It's up to you if you decide to not follow the advice, but don't be foolish to refuse advice when given, it might help you more than you think.
+
+In any case, you do you.  I'm not a mommy group advocate or whatever you feel I might be.  As I've said, just from a fellow parent to another future one."
+funny,ff3q6di,t1_ff3jd1s,1579546471.0,Taste buds don't lie.
+funny,ff3q1ux,t1_ff3b9re,1579546394.0,"Perhaps an unpopular opinion, but here goes.
+
+From one parent to another soon-to-be: you might want to reconsider introducing sugary treats that early.  They literally are not missing out on anything without these junk good.  You'll only end up wondering why your kid won't listen when there's sugary treats involved, or why they won't sleep, or why they are so hyperactive, and all sorts of behavioral issues.
+
+Unless you're prepared to deal with all those headaches, delay the treat to as late as possible.  Or make it very clear it's a special occasion (i.e. Why it's a bad idea to introduce that early because they don't have the concept).  Otherwise, they'd feel like you are prohibiting them from their birthright and throw fits after fits because it's what they're used to getting."
+funny,ff3pasj,t1_ff3gq6a,1579545936.0,"I don't want to judge - it's a parent's choice on what to introduce to their kid.  They just need to be prepared for the repercussion, namely, now the kid will want nothing but sugar.  And you either deal with that headache early or let the kid go wild on sugar and deal with that headache every day."
+funny,ff3orv0,t1_ff3ji0o,1579545618.0,Another life ruined by sugar.  F.
+movies,ff3no4s,t1_ff3d3j3,1579544940.0,I love Canada but man the amount of times we get fucked over you'd think we live in a brothel.
+movies,ff3nh1o,t1_ff2n9ov,1579544818.0,"> But I don't know what the situation for the films in Canada is.
+
+It's okay nobody does."
+movies,ff3n5ux,t1_ff3hebg,1579544625.0,Thanks I too like to get my buttrapes before anybody else.
+movies,ff3mwp5,t1_ff32tsb,1579544467.0,Wait canucks get snuffed again? NOOOOOOOO
+movies,ff3mtje,t3_eraez6,1579544411.0,"Holy shit I have SO MUCH Ghibli memories I want to pass down to my kid.  This is perfect.
+
+Edit: welp, completely understood the reverse.  This is one sad day."
+pics,ff2xhbe,t1_ff0us2k,1579527740.0,Honestly I'm more concerned 26k people seems to believe this is considered parenting.  It explains a lot.
+funny,ff2weuj,t1_ff2n1cu,1579526696.0,"""I told you Jimmy somebody is gonna catch on one day.  I told you!"""
+movies,ff2w29t,t1_ff2aizg,1579526339.0,The connotation is different.
+movies,ff2vztf,t1_ff2od61,1579526269.0,I'm a lead farmer mutha-
+movies,ff2vjsw,t1_ff2p2wl,1579525806.0,The dementia is what makes it great because they forget if you'd finished.
+pics,ff2sqhd,t1_ff2jumd,1579522544.0,https://m.imgur.com/gallery/8tOcpZS
+pics,ff2spxg,t1_ff2q3a0,1579522524.0,https://m.imgur.com/gallery/8tOcpZS
+AbandonedPorn,ff2flti,t1_ff05fy6,1579504069.0,You say feelings but I heard facts.
+Jokes,ff2fehn,t1_ff2f62i,1579503835.0,Just Q me.
+pics,ff1zjk8,t1_ff1xpdb,1579489851.0,Fair enough.
+pics,ff1xf1l,t1_ff1weo5,1579488371.0,You got *all these info* from one picture?
+pics,ff1pwsv,t1_ff1ooga,1579483559.0,That's called performing.
+pics,ff1pu2q,t1_ff1d5lo,1579483508.0,Shh he doesn't know
+funny,fetp3o9,t1_fesi6xl,1579377866.0,"Constipation, my dear Sherlock."
+WTF,fet8cod,t1_fesw7k6,1579372705.0,"> Spider-manager.
+
+Wait, too on the nose...
+
+> Spider-man-ager.
+
+Now it's just a device to make Spider-Man old!"
+WTF,fet7k2z,t1_fesdizu,1579372477.0,/r/respectthehyphen
+Python,fengv7d,t3_epztnx,1579284408.0,"That's quite cool, but I still find the responses quite generic that you can tell is from a bot..."
+WTF,feng9td,t1_fencq6r,1579284042.0,They do that.
+mildlyinteresting,fenen0r,t3_eq0tr7,1579283045.0,Every sink *in the view* anyways.
+mildlyinteresting,fenejgq,t1_fene81a,1579282985.0,But you took a deep plunge.
+comics,fen9qxy,t3_epz784,1579280046.0,"You think of silliest things, JimKB.  Please never change."
+BoneAppleTea,femtvqz,t1_fempgzt,1579269459.0,You my
+funny,fekegyu,t1_fek1eld,1579198348.0,Play stupid game win stupid prizes.
+funny,fekdju2,t1_fejkrbb,1579197796.0,Stack Overawwww
+ProgrammerHumor,fekd8sp,t1_fejujob,1579197614.0,Represent!
+ProgrammerHumor,fekd14u,t1_fejtvmy,1579197489.0,We don't practice black magic here.
+ProgrammerHumor,fek7qxt,t1_fek4g39,1579194369.0,We don't speak its name.
+ProgrammerHumor,fek7lkz,t3_ephseb,1579194279.0,"That's not a recursion, just a loop."
+BoneAppleTea,fek77ib,t3_epkbee,1579194043.0,Wide eye otter
+movies,fejt26s,t1_fejr37w,1579185161.0,🎺 🎺 🎺
+movies,fejt0qb,t1_fejoaad,1579185131.0,Jamesilla
+movies,fejsxyf,t1_fejph4m,1579185075.0,"And when these tricks run dry you go for the hot topics like gender equality issues or LGBT, just make sure you produce it in a super cringy PC way."
+movies,fejrnpt,t1_fejr6wh,1579184147.0,Best supporting actress.
+videos,fejrbr1,t1_feiy3by,1579183905.0,"Adoption is not the solution though.  It fixes the symptom, but it doesn't stop people from having more kids.  The real answer is education, but getting there is the problem."
+WTF,fejkf8y,t1_feizcjy,1579177857.0,It goes south fast.
+WTF,fejka2q,t1_fej1jrh,1579177708.0,"My friend there are plenty of good nipples to be had on the internet, and yet you're fixated on this crazy pair."
+patientgamers,feistqb,t1_feimv4s,1579146304.0,But muh Tetris bro
+comics,feii53m,t3_epa58k,1579139071.0,Can you get chlamydia in heaven
+videos,feihwbq,t1_fei2m24,1579138911.0,Luigi bord told me I can get perganat by myself

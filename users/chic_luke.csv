@@ -1,0 +1,222 @@
+subreddit,self ID,parent ID,time,text
+linux_gaming,ffex7qr,t1_ffdhrfj,1579869156.0,You either need a friend who is kind enough to explain you a lot of things initially or you need to know the basics. The wiki also helps
+linux_gaming,ffes61u,t1_ffd9vku,1579862934.0,"They're giving us the runaround, telling users to do it through Steam. The smell of class action lawsuit is only getting more intense."
+linux_gaming,ffes39m,t3_et74qy,1579862821.0,"You could to this if the game was open source. It isn't. As with all proprietary software, in these cases, you're fucked."
+RocketLeague,ffeopnq,t1_ffdxa70,1579857747.0,I suppose there will always be something else to play. And as always: fuck Epic.
+archlinux,ffdjnaa,t1_ff97ji9,1579822282.0,"I'm a huge fan of linux-ck, but I should note that is only for more traditionally desktop workloads. If you game a lot and see seeing a decrease in frame rate, you shouldn't use CK. The way CK feels so snappy is by doing some little trade-offs here and there to get to a more desirable desktop performance. The issue is that one of the more notable trade-offs is that it worsens throughout in favour of responsivity. Games are basically all throughput. You can easily convince yourself of why that would be an issue.
+
+I would recommend booting into Linux or Linux-zen for gaming. Something I really like about Arch Linux is how I can keep multiple kernels installed in a stable way and easily switch between them. With a large enough efi I can store Linux, Linux-ck, Linux-zen and Linux-lts (I keep it as a fallback, it's critical that my laptop must work at all times and disk space is cheap) and just pick one at boot."
+linux_gaming,ffdhmd2,t1_ffd7xng,1579821048.0,"I got Terraria last sale. I recommend it **so much**. Infinite hours of gameplay, and it's significantly more fun if you're not alone."
+archlinux,ffdgzy7,t1_ffcfsn7,1579820670.0,"I love both distros, I don't think I would be mad"
+RocketLeague,ffdgloy,t1_ffcnguw,1579820435.0,As expected.
+RocketLeague,ffdf0xz,t1_ffdbapv,1579819503.0,"Exactly this. It's so sad to see Rocket League go :(
+
+But in my view, any dev that goes to Epic Store has betrayed their fanbase. Our Steam libraries are filled with other Linux-compatible games anyway. Again, this is sad, but the best thing you can do about this is carry on, stop supporting companies who betrayed you and support companies who care about you."
+linux_gaming,ffdbxeo,t1_ffdalhn,1579817599.0,"Look at you, interacting with a subreddit just to troll its users and defend a company. Who is the real sad person here, you, who are spending your free time to troll other users online, or people who use Linux and are bummed that a company is buying out all of their games and pushing them to end support for their OS of choice?
+
+You're pathetic. **You** are the one who should go outside and get a life."
+linux,ffbpfhb,t1_ffbnhpm,1579777125.0,"But it doesn't do humanities worse. I mean, a lot of CS stuff is significantly more painful on Windows"
+unixporn,ffaigr7,t3_es2t2m,1579736508.0,Tha Supreme 🔥
+linux,ff8rpp0,t1_ff77ief,1579693436.0,"It's a philosophical difference, really. It takes some understanding of Linux and some trial and error to get there, but in the end it boils down to picking the opinionated package of Linux + other utilities that aligns most closely with your ideal opinionated package of Linux + other utilities. Even without looking up lesser-known distros, there's probably one distro that aligns with your idea of perfection more than the others.
+
+For example, I think operating systems should be minimal, modular, come with only the basic tools to function and let the user speak and decide what they want. But I also want it to be practical and I don't want to compile things. Arch gets closest and Arch stays on my box until the day my vision changes. If you think an OS should be updated, come ready to work with all the basic utilities and with strong security standards that would be Fedora. If you think you just want your OS to look good, get you going fast and offer you GUI helpers where it can that would be Ubuntu. And so on"
+linux,ff8rd8s,t1_ff7byrq,1579692999.0,"You can get a free upgrade to Windows 10 if you go to the download page and upgrade your computer with the tool. Windows being Windows it probably won't upgrade to Windows 10 smoothly without breaking anything, but it will give you a valid license to allow you to reinstall.
+
+But honestly, end users who are still on Windows 7 will not want to do this. Linux is an OS that suits the kind of practical user who doesn't want Windows 10 very well."
+linux,ff8r7ly,t3_es05x8,1579692796.0,"Where I study, which I won't disclose for privacy, we have Ubuntu LTS workstations only in the CS, mathematics and biology / biotechnologies department. I'm pretty sure I've seen Windows machines in other departments, but they use Linux where it matters at least."
+linux,ff5kcyc,t3_eqs8ha,1579597034.0,Regretting the switch to kde plasma less and less every day. Congratulations!
+linux,ff5kayv,t1_ff34dzk,1579596952.0,Can you link it to me? I'd love more options in libinput.
+dogelore,ff2ugid,t1_ff1o325,1579524622.0,I must follow
+linuxmasterrace,ff2m7ow,t1_fezjqhs,1579512862.0,Less than it used to be. The new base package makes was less choices for the user
+linuxmasterrace,fezje75,t1_fez9ww0,1579457973.0,Yes
+linuxmasterrace,fezj8y6,t1_fez37o0,1579457920.0,What if I don't want to compile everything though? I love my binaries. Arch fills that niche exactly.
+Portal,fezf65v,t1_fez6jzx,1579456702.0,"Yeah, if that's what you mean Reddit lets you X-post natively now so it links back to the original post"
+linux,fey2c9q,t1_fexv2y4,1579439791.0,"> other than that what else is there to break exactly?
+
+Everything except linux and linux-headers
+
+> I've been on Manjaro for 2 maybe 3 years now, only 1 hiccup when they forgot to update their keys or whatever, something Google and similar big companies have done. 
+
+Anecdotal experience. I've been on Arch and I haven't even had that one hiccup, but that is my own merit because I did my homework, RTFM and regularly updated my rolling distro while always reading the RSS feed before performing an upgrade, something that you should do on Arch and all derivates. You *can* ignore it and it will still technically work and update, but it will come back and bite you later - guaranteed. Also, even on this subreddit, there are many reports of people having issues with Manjaro. But all of this is irrelevant, since anecdotal experience is not proof.
+
+> Though I dislike that its German made, the german surveillance state is actually scary.
+
+Could you elaborate on this? What surveillance state? Germany has strict privacy laws and the whole code is open source and audited anyway, security-wise it's mostly safe to use Manjaro (the only thing that needs to be checked is how good the security team is at patching CVEs - it certainly doesn't have any spyware features added by the Manjaro team itself
+
+Manjaro is still an arch-based rolling release that comes with implications. Rolling releases shouldn't be given to beginners, there are a lot of moving parts and more potential for shit to break. And you can't tell an absolute beginner to RTFM and check a RSS feed before upgrading and expect them to know what a chroot is, a beginner needs a softer learning curve and their hand held a bit more. I've seen almost nobody start with Manjaro, most people just move to it from, like, Ubuntu"
+linux,fexd9ev,t3_eqn5gu,1579429049.0,"Turn it on. Do my work. It's nice and fast and stable, without problems and interruptions. I like to launch an update when I'm done with my work, turn off my laptop and go enjoy the remainder of my day"
+linux,fexcutj,t1_feudiai,1579428825.0,"> Also, you are not forced to reboot your PC to install updates.
+
+This is true, but this is also terrible advice. If anything major got updated, you should totally reboot and avoid probolems. If you update KDE Plasma and then you don't reboot to reload it, you'll see random errors pop up of qt5 liberaries no longer being loaded. If you update Firefox and not restart it webpages will stop loading and it will generally act weird. Etc etc etc. If something you have opened gets updated, you should restart it. If it's something low-level like systemd, you should reboot. If it's the DE, it's sufficient to log out and back in. If it's the kernel, it depends on your distro.
+
+The beauty of it is that you aren't really forced to do that, and you can do updates whenever you want, so you're not going to be forced to just reboot while you're working. You can choose to update when your work is over and then power off."
+linux,fexclfp,t1_feud6c2,1579428690.0,I also recommend Okular for PDF. It's FOSS and it's pretty amazing
+linux,fexcf5i,t1_feur74g,1579428593.0,"I'd never recommend a beginner to use an Arch derivative. Unfortunately, Manjaro has a history of not being reliable (sometimes even less so than Arch) and, while it has a fully automated install process, I still see it as a distro aimed at advanced users since Manjaro isn't doing a very good job of being a beginner-friendly distro yet. I don't think they have ""tamed"" the Arch base as much as they claim they have.
+
+It's honestly simple for beginners IMO. Look at the ubuntu family and install the one that has the desktop environment you prefer, then go from there. It's actually designed to be for beginners, it doesn't require users to read from an RSS that this update requires pacman -Syyuu because `systemd` was downgraded once again, plus there's a wealth of information regarding Ubuntu online and it's all aimed at beginners."
+softwaregore,fexbprc,t1_fewewyg,1579428246.0,"It's a problem with the app Solus wrote to handle eopkg upgrades, absolutely nothing to do with the Linux kernel"
+popheads,feumu6i,t1_feu64wr,1579388006.0,Eh it happens. People resist change and you're pretty likely to be edgy if you're right in the middle of your teens
+college,fetlrgr,t3_eqihrk,1579376700.0,"Passed physics with this. Computer Science physics didn't even require the whole book, just scanned the relevant chapters, done"
+kde,fesaup4,t1_fes8r5c,1579363373.0,"I perfectly understand, the behavior shown on video is true; my comment wanted to be more of a personal suggestion though. Sometimes the heavy disapproval towards KDE / Canonical/Ubuntu gets a little overbearing, and even if there are reasons behind it, it can lead to a certain perception about videos that showcase these things. Please don't take this as trolling but as constructive feedback. Good job on the videos anyway besides this"
+kde,fes7a5r,t3_eq285h,1579362146.0,"Take this with a grain of salt. I appreciate baby wogue's content, but he's said time and time again how ""GNOME is so good and how KDE is unusable"". His view is clearly biased in that direction.
+
+I am not saying this criticism isn't valid, but what I am saying is that it should definitely be taken with a grain of salt since it comes from someone who has claimed many times in the past that, quote, ""kde is unusable""."
+hiphopheads,fequq1m,t3_eq8ol6,1579346230.0,Thank you for your service.
+archlinux,fenoijm,t1_fenggzl,1579288593.0,"I've had consistently better experience with ck, even though it requires its own repo"
+archlinux,fenog51,t1_femp0h9,1579288554.0,"I've had problems on zen, but ck has been a very smooth ride so far. Granted, it's an out-of-repos kernel, so exercise due caution."
+archlinux,fenoc2y,t1_fenenka,1579288487.0,"it's *more responsive*. Benchmarks on these kernels are pretty useless if what you want to measure is the experience
+
+It will prefer being responsive than being fast, it leads to better *perceived* performance if you use a desktop"
+programming,femvge1,t1_felkoks,1579270670.0,"Lesson learned. Use an open source solution next time. Or don't, but don't use Google."
+kde,fekhg4p,t1_fekd0c9,1579200117.0,"Why would that be so bad? I mean, I get that not everybody likes snapcraft (myself included) and not everybody agrees with some of the things Caonical has done, but I'm still yet to find a better distro than Kubuntu/Neon to recommend to complete beginners. And when I'm buying a Linux laptop, I'm expecting everything to work just fine, have support, be accessible."
+kde,fekgas7,t1_fekai0c,1579199435.0,"Thanks for responding! I'll create a phabricator account later. I'm using SF Pro Display Medium 16 everywhere because of bad eyesight.
+
+EDIT: [This seems to be at least mitigated by setting lower small font sizes](https://imgur.com/a/IABqzTr), even though it still covers the battery icon"
+kde,fejr54o,t3_eph4h8,1579183770.0,This [doesn't seem to work well](https://imgur.com/SEvBK3i) on high font sizes.
+linux,fejci2j,t3_ep5ysy,1579167156.0,For me? The second Plasma gets Wayland support on par with X11 support. For the Linux desktop as a whole? Not for another 5-10 years.
+linux,fejcdqt,t1_feja5yc,1579166972.0,"Ah, no. As far as I know, you can't do the extra ones. Touchscreen support is far superior than touchpad support on most laptops on Linux, at least on X11. For example, I can't seem to get pinch to zoom to work well under Xorg on Linux, it just works on Wayland. Same story on my friend's convertible. Except his convertible also has a touch screen, and pinch to zoom works perfectly there. Pinch to zoom works fine on my laptop if I use Windows or Wayland, but not on Xorg. All of these fancy automation programs run under X11: either you need a full X11 session or you need to run them under XWayland. So, in both cases, sadly, not a chance.
+
+What we want is not a program that allows you to have fancy gestures on Xorg, what we need is more contributions to the libinput driver."
+linux,fej9y46,t1_fej9w24,1579163401.0,Why not libinput-gestures?
+kde,fegkohf,t1_fegebvi,1579095724.0,"Yep, it's slow as hell. Definitely not a solution"
+shittyfoodporn,feg7evn,t1_fefb7z4,1579080548.0,I assure you the taste of the thing on top is about the same
+linux,fees2p5,t1_feelo7l,1579040004.0,That's great. Thanks!
+cscareerquestions,feemszv,t1_feeah1c,1579036934.0,Thanks for posting this. There are so many OSS projects it's not easy to navigate that sea and transition from a user to a contributor
+IsTodayFridayThe13th,feeliae,t1_fedkvzq,1579036178.0,Well you're not wrong.
+linux,feekrlx,t1_febqg6s,1579035744.0,"As a moderator on various groups and communities: no. You're doing free work, it feels bad when people you're working for free for throw shit on you. I won't hide it: I don't like being criticized as a mod, but if enough people complain, I'll listen. If it's not an isolated small group but a majority of the community complaining you may be doing the work for free, but you may not be doing it well. And you should gather all the mods and go back to the drawing board. Being a mod is not about exercising power, it's about making the community work but filtering out the trolls, the spam and the shit. If the community constantly resists your behaviour you're not making the community work. And you're also doing extra work forcing the community to do something it doesn't want to do, so you're already half burned out by all the work and criticism, it will only get worse."
+linux,feejf5x,t1_fecazgc,1579034966.0,"There may be no formal explanation, but it's clear: that post is uncomfortable and the current mod team seems more concerned about shutting down any criticism rather than fix the situation. As a mod myself on various subreddits and other communities outside of Reddit, I completely get where they're coming from: users judging moderators' work gets old *fast*. After all you're working for free, you're at the n-th mod action of the day, you don't want users who sit there and just chat to complain about your free work. *I get it.*
+
+But while it's one thing if it's an isolated group of trolls consistently criticizing your moderation (because you keep shutting down their constant flame wars and trolling attempts so they don't like you), when *a vast percentage of your community* is constantly complaining about your moderation being heavy-handed, so much that you can't even lock and hide the criticism before it gets popular… maybe there's a problem that is worth looking into? I'd personally suggest the mods to have a chat about this and seriously evaluate if all the recent criticism can be dismissed as trolling or if there is some truth to it. Because trolls and problematic users are statistically a minority. Most people aren't sociopaths who are just there to disrupt and cause havoc: they legitimately just want to interact with the community. If a huge chunk of your community is unhappy, there's room for improvement."
+books,fea8yz0,t1_fe6gwkm,1578945776.0,"I also agree with this. It would be wrong to just pick one single form of art and immediately claim it as innately superior to others. You really haven't gotten the point yet if you do this. It would be no different than actually believing that a single one between theater, comedy, books, movies, TV shows, podcasts or comedies is the superior art form and everything else is a waste of time compared to it"
+books,fea8m1o,t1_fe6beq2,1578945651.0,"Yup. I'm done with high school, I'm pulling out the old reading assignments and re-reading some of those books with another mindset. I can already tell you that books I hated due to them being forced readings with a test are just amazing in hindsight. I either didn't have the maturity to know then, or the forced assignments killed it, or both."
+linux,fea83o6,t1_fe3tu37,1578945471.0,"In that case, Arch isn't for you. Use something else. Nobody held you at gunpoint forcing you to install Arch, Arch is for people who **want** that masochistic install process.
+
+(In any case, kudos to OP! This installer seems promising.)"
+college,fea6km4,t3_eo50o7,1578944936.0,"I live on campus and do 9 AM - 7 PM every day. I study in between classes. It's doable, a lot of people do it."
+books,fe98jw5,t3_enub8m,1578935364.0,"I'd say it qualifies as an hobby. It's also a more active hobby than watching Netflix. It also has an useful side: you'll speak and write better than people who don't read. A staggering amount of adults couldn't put together a lengthy email, report or essay because they have completely stopped reading years after school and all of the text they consume comes from social media and e-mail.
+
+In general: you should keep a healthy information diet. If you only eat junk food, you don't have a good diet. If you only read news articles and social media or forum posts, you don't have a good information diet either.
+
+That said, it's also healthy to keep another more social hobby on the side and still secure some time slots for your social life. As every sedentary hobby, it shouldn't take all of your free time. Your friends and family have a point in the sense that reading shouldn't be the **only** thing you do in your free time, but besides that, saying that reading books is useless is utterly false and ignorant."
+linux,fe6omj0,t1_fe5g1ig,1578898344.0,"> The only place I actually like having a hamburger menu is in my browser, since that way the top bar is smaller
+
+True that, I should have mentioned that exception..in browsers it allows to reclaim a lot of screen space, also because browsers are not traditional productivity-oriented products. But if I'm, like, using a text editor or a PDF viewer with an hamburger menu, I start to legitimately question where are the things I need to click on"
+linux,fe4dtuq,t3_enp56v,1578858240.0,"The author makes a lot of good points, but I don't subscribe to the general tendency that appears in various places throughout the series of taking older versions of Mac and as a design gold standard and copying that on Linux.
+
+* For example, I am not convinced by the innate superiority of a dock + top bar with a global menu and system tray. I personally find that an utter waste of space, and purely an annoyance to users who don't pin their applications and always open them via they keyboard: for this kind of user, the taskbar paradigm saves space and it's generally better. i don't agree on the global menu being the best option universally either - it's without a doubt the best option if you have gone with a dock to try and reclaim some of the pixels you lost already, but it can get very confusing when you have a lot of windows open since you have to check if you are focusing the correct one before using the menu. It also makes the menu less reachable if you're using a windowed program. It's entirely up to debate whether it is a good idea or not.
+* I agree with the argument about hamburger menus wholeheartedly. No question. This is a mobile / touch computing paradigm that should have never seen the light of the day on traditional desktop systems. Cannot object."
+kde,fe3srsw,t3_en2k2g,1578852553.0,"Any rolling distro. Plasma used to be very unstable and quirky not too long ago, it's improving at such a fast pace that you absolutely, by all means, want to have the latest version. The best experience you can have on KDE is to always have the latest and the greatest, at least in this phase of very fast improvement.
+
+edit - downvotes: care to explain why you don't agree? There is no implication that a non - rolling is a bad KDE distro. This is just my idea."
+linux,fe3saym,t1_fe3m6c5,1578852395.0,science
+college,fe3r79q,t1_fe2d4d5,1578852068.0,"At least you have holidays and weekends at work... and you actually have them. In uni, yes and no. You can take a day off but you'll feel guilty and you'll always have uni as a background process in your brain"
+kde,fe2ekfi,t3_enk0o8,1578837510.0,"WOW. What. This addresses most of my last complaints about KDE. Really, thanks for this and congratulations!"
+Windows10,fe22sza,t1_fdyfvig,1578833859.0,Np!
+Windows10,fdy8e4s,t1_fdvxgnv,1578777136.0,Spoiler: yes
+Windows10,fdy8c3q,t1_fdxr34i,1578777116.0,"Ah, no big deal. Just set any Windows 10 GTK theme, install wine-staging, then from winecfg tick ""enable GTK theming"""
+Windows10,fdx3sp6,t1_fdwb10a,1578765009.0,https://www.reddit.com/r/unixporn/comments/cftroh/_/
+Windows10,fdvtpiz,t1_fdvk3fq,1578751357.0,"With the Windows 10 theme. That… yes, exists… and it's actually a near-perfect 1:1 thing"
+linux,fdsbjmm,t1_fdlpz4o,1578698822.0,"What would you say about QC? I'll get a better laptop next upgrade (only ever used mid-tier laptops, now that I'm working towards a CS-oriented career it makes sense to use something nicer due to the time spent using my computer being quite high) and it needs to run Linux, be fast, upgradable enough and also - frankly - beautiful. the XPS 15 (I'd gladly buy a rebooted XPS 17 if it existed) caught my eye because they seem to tick all of my boxes, but I've heard complaints about quality control"
+dogelore,fdsajsr,t1_fdr4pqs,1578698153.0,"It's human. You've made an expensive purchase that you're starting to regret, the easiest way to drown that regret out is to seek camaraderie online and try to convince yourself you actually **needed** that €3000 build to play Overwatch during the evening.
+
+Edit: from my comment's score, I can tell someone must have felt called out by this. So I wasn't wrong, was I. Do, by all means, feel called out for this. It's a waste of money."
+college,fdsa1gj,t3_emr95v,1578697811.0,Every piece of reasonable advice is already in the thread. I just wanted to say that I'm sorry and I wish you'll get better soon.
+kde,fdr95wp,t3_empp0k,1578681148.0,"I'm one of those weird guys who use light themes for everything (yes even text editors) on their computer so I will stick to Breeze, but nevertheless, congratulations! This is one of the most well-done and cohesive themes for Plasma I have ever seen. We have a quality problem: have plenty of themes, but few this curated."
+pocketcasts,fdqsoqz,t1_fdq5tkj,1578674043.0,Wait what happened with Spotify? I only saw them removing inappropriate playlists
+pocketcasts,fdq47vu,t1_fdq3m2l,1578654065.0,"Yeah, I appreciate the efforts to keep podcasting open. It would be a shame if it wasn't. Maybe it was the tone, but it was a ""hot"" reaction to yet another service I use turning to the new trend of monthly subscription. In 2020 you find own anything, you just rent it month in and month out. I've then seen this is really no big deal in comparison to what other devices like Adobe creative cloud have turned into, but it was still sour seeing this in an age where I've basically lost faith for software: data mining, monthly subscriptons and vendor lock-in seemingly spreading everywhere they can"
+pocketcasts,fdq1khe,t1_fdoa60q,1578650313.0,"Fair enough. Since I'm behind downvoted unjustly (I am contributing to the conversation) I will not continue this discussion: there is no use in discussing in a circlejerk. I'm used to using free and open source software where criticism and bug reports are extremely welcome, I had forgot this isn't a thing in proprietary software: you pay and you don't have a say.
+
+To be clear: it's not the points I care about. I have tens of thousands. Go berserk. It's the attitude."
+pocketcasts,fdnon2u,t1_fdno2o9,1578590029.0,"The reply is in [my other comment](https://www.reddit.com/r/pocketcasts/comments/em9x3h/new_version_less_and_less_convincing_so_i_paid_4/fdnnc33/). It's not what it is, but *how it was pushed*. I'm just sorry that everything was mass-downvoted even if it contributes to the conversation (downvoting to disagree, not what the reddiquette says), but Reddit works this way and subreddits are naturally biased so I am pretty used to it. I guess I'll have to use email or other means to send feedback and have it be at least heard without being considered a troll."
+kde,fdnobsv,t3_em8upk,1578589879.0,"Damn, this is so nice to hear. I can't wait to try Clementine again. Looking forward to the updated packages!"
+pocketcasts,fdnnc33,t1_fdn6awa,1578589371.0,"I have no problems with that, my problems is the way they are presented. There is no clear signalling about which features are included in the first payment and which are not - they let the user accidentally stumble upon them to then present a pop-up advertising a monthly subscription to unlock that feature.
+
+That... is not OK. That's misleading users into thinking they have access to a feature, and then telling them they have to pay extra for it. While this is not exactly a [dark pattern](https://www.darkpatterns.org/) [another explanation on the matter](https://www.howtogeek.com/363484/dark-patterns-when-companies-use-design-to-manipulate-you/), it is reminiscent of that since the little ""plus"" logo that distinguishes these features is not only hard to notice, but something I would expect to find in a free app.
+
+I'm a seasoned Pocket Casts user and I am just sorry to see how it has changed. The original version appealed to users like me who just wanted simplicity: €4 would get you a simple, lightweight app with a simple layout, no extra features, no extra payments (except for the web version that is a separate program that also costs server time so completely fair), none of the bullshit from other programs. It was *fantastic*. I don't know how many hours I've spent on if, I used to swear by it and I even convinced several people to jump ship to it. After the acquisition it's become the polar opposite of what many of us paid for: a more complicated rewrite with a less intuitive interface and a heavier pushing of further subscriptions (even if at least some of the bugs from the rewrite seem to be gone). How is this different from the free app Player FM? I feel like the premium I've paid for Pocket Casts is no longer worth it now. New version that's the opposite of what you paid for, like it or lump it.
+
+And no, I don't want eternal support and new features for a one-time small payment. In fact, I would be very much content to re-download the version I paid for and only the version I paid for, pre-rewrite, and use that until it stops working in a few Android updates. But we don't have the option to do that.
+
+I replied to this comment late and knowing the nature of Reddit this post will have already been buried several times over and I don't know who will read this comment, but I had to say this."
+pocketcasts,fdn9dk5,t1_fdn8ygu,1578580755.0,"I suppose so, I should have used the search button before posting, you're completely right.
+
+But my point still stands. I didn't take v.7 well, but this is actually the last straw. This might be a good occasion to test my Flutter/Dart skills on more than hello world - ish examples."
+linux,fdmuj8p,t1_fdmqdqu,1578566451.0,"A problem that's cases by registry keys that are either missing, wrong or have not been deleted by the uninstaller of the program that created them in the first place. Because most programs completely ignore .msi and ship their own installers and uninstallers on Windows, which makes software management basically Sparta.
+
+When you install something on Windows, you should be, positively, 100% sure you are okay with potentially never being able to remove it. Many programs use this functionality to write keys to the registry when the free trial is over so the user can't keep restarting it, some just forget to remove their stuff for pure incompetence or negligence. Removing programs on Windows is broken and it won't remove them completely. There have been created tools that actually scan the system for leftover files and keys and offer to delete them, but it's absolutely ridiculous that this is even a thing and and even then it doesn't work well. MS has acknowledged this in a keynote and proposed AppXpackages as a solution. They are Store apps and they run in what is basically a Windows container, think Snap but on Windows. Which is a broken band-aid patch for a desperate situation.
+
+You shouldn't use registry cleaners either because they're known to break your system. Basically, if you run into a problem that involves the registry, you are allowed to fucking cry."
+archlinux,fdmqyf9,t1_fdktb17,1578561425.0,How about `xfs`? I wanted to give it a spin next time.
+linux,fdko75z,t1_fdkepl3,1578507667.0,And even that has a limit. If it's some almost unsolvable Windows registry problem... look I'm so sorry.
+linux,fdjnzuu,t1_fdii0gs,1578480202.0,My guess is Ubuntu LTS (that ships with 3.28). Snaps are primarily meant to be a way to let old/LTS systems get rolling graphical programs
+Android,fde9ren,t1_fcvc3fs,1578334299.0,"Lmao imagine quarreling because the company you gave money to is better than the company the other guy gave money to. I see this all over the subreddit lately. Grow the fuck up, this makes you all look like children."
+archlinux,fd8zsic,t1_fd4ra9r,1578226010.0,"Basically. I used `makepkg` a few times just to learn and to package some obscure programs that weren't even on the AUR for my own usage, but after that was out of the way, `yay`. If I have to manually check for updates to AUR packages etc etc etc then the AUR becomes so cumbersome to use the ppa approach of Ubuntu would be almost better. Just me, but if you want to use the AUR for convenience, using an AUR helper makes total sense."
+archlinux,fd8ujz6,t3_ejzora,1578223563.0,"* `spotify`. I know, I know. Proprietary. DRM. Desktop web-app. But even if I'm going as FOSS as I can, I am a music fanatic and I wouldn't trade 100% legal, easy, instant access to pretty much all of the music that was ever released for anything in the world. I'll go as far as to say that the availability or not of the Spotify package (either native of flatpak) is a determining factor in my choice of distro, and that the main reason why Spotify gets my money and not other streaming services now is that they released a working Linux client. For anyone who asks: no, it's not the same as the browser version. The browser version is fine if you're a free user with low-quality streaming only, but you need the desktop binary and Premium if you want to stream at the highest bitrate (you can hear the difference with any halfway good headphones). I'm just glad that, thanks to the AUR, I don't have to reluctantly install `snapd` on my system, which I don't like for several reasons.
+* `downgrade`. Should anything ever go wrong after an update, this lets you get back up and running quickly.
+* `chromium-vaapi-bin`. Just so I can watch YouTube without having all 4 threads maxed out to 100% for lack of GPU-accelerated video decode. It's substantially faster than Firefox in pretty much everything, but I use Firefox for everything except stuff that requires GPU decode (youtube, krunker.io and others) for a matter of principle. I like Firefox better ideologically, but I also keep this one around 'cause it's not my fault that Firefox still has awful webGL performance on Linux (even Webrenderer enabled doesn't seem to make it go any faster here), so while I wait for this aspect to get mature on the Linux version, I keep the two browsers.
+* `libinput-gestures`. Decent touchpad gestures for desktop switching.
+* `gamemode` and `lib32-gamemode`. If you launch games with it, a set of optimizations to make them run faster will be applied. Makes a substantial difference on my HD 620."
+college,fd3w895,t1_fd3bvqs,1578162198.0,No problem!
+kde,fd2smxv,t1_fcwx976,1578151296.0,"exactly. I'd like it as an option, but not as a default. It would just be yet another nuisance on top of others."
+college,fd2r6i8,t3_ejqtld,1578150850.0,What you're complaining about happens everywhere. Grass is always greener on the other side. You do you and get an opinion of your own.
+starterpacks,fd2p3wf,t3_ejrfth,1578150340.0,"Firefox is my first  choice, and it should be yours too if you give a fuck about your privacy."
+archlinux,fcyvrmm,t1_fcwfdf8,1578088147.0,Try `exec startxfce4` instead
+archlinux,fcyv4hw,t1_fcyhpwu,1578087744.0,How recently? I remember seeing VScode on Linux 2 years ago. Are you talking about Teams?
+college,fcys2bg,t3_ejeuio,1578085868.0,by not having one in the first place lmao
+college,fcwrfut,t1_fcsoe82,1578034646.0,"Ditto. You'll have to spend a lot of time programming, trial and error, reading about how to program better and solve problems. I'm a CS major who likes their major, I don't dislike the practical part but I find the theoretical classes much more interesting so I get what OP means. Hopefully it will get more interesting when going on in the course we learn more interesting programming paradigms"
+Windows10,fcq8ojs,t1_fcq1h91,1577881075.0,"> Graphic drivers will improve significantly in the next years. The main reason is the boom in cloud gaming.
+
+Fuck I sure hope.
+
+> Battery life is more often then not terrible out of the box,
+
+This is a catch-22. The manufacturers are to fault because they optimize customer hardware for Windows and not for Linux. But more people need to be on Linux desktop for manufacturers to care
+
+> a application can easily take down your entire x window server
+
+That's a real problem in Wayland, in X it's never happened to me in years but if it does, it's very very easy to recover (the distro itself could add a script to do it itself probably)
+
+> the system becomes unresponsive in low memory situation,
+
+This is true but this is, again, to chalk up mostly to the quality of drivers. On my system the lockups there happen because my computer has a shared bus for CPU, I/O and network board. Swapping is heavy on I/O, which uses the same bus as CPU causing delay. But the real kicker is that my wireless card manufacturer distributes a very shitty driver for Linux that basically keeps its usage to 100% all the time in KWorker. It's constantly accessing the bus and it's slowing it down. The same bus as CPU and IO. The lockups don't happen when I'm offline but what good is being offline. This doesn't happen on Windows because, despite having a shared bus, the manufacturers actually wrote better drivers for Windows and there is no shitty iwlwifi driver monopolizing the bus. The problem would be very much alleviated with just there being better drivers. However, I think a better default should be to use the bfq scheduler with zram on, as this combination alone really helps with the lockups to the point they get extremely rare and it should be default on desktop distros
+
+> browsers still don't support hardware decoding, ...
+
+Which is sadly true, but the browser developers are also to fault, not quite Linux. For Chromium I use a patched version with hardware acceleration forcefully enabled and it works just fine, which means it's just that Google doesn't want to give Linux users an experience on-par yet (I can see the point, it's the same reason why Prime Video won't support Linux in HD: power user OS used by big corporation good, power user OS that puts the users in control of their privacy bad. Giving users something like Linux is extremely bad for the business models of hyper-proprietary services). Mozilla is working on WebRenderer which hopefully will be ready in a few years. Bottom line: hardware decoding in browsers works, it just should be the default.
+
+Most things are there. What we need is more manufacturers caring about Linux more and distros adopting better defaults. It would be a start to include the video acceleration patches in the standard chromium package, for example. So far the best experience to be had on Linux IMO is to use a bare bones distro like Arch and spend some time setting up things that should have been default already, I just wish more desktop distros adopted them."
+archlinux,fcpxhku,t1_fcovkm9,1577874260.0,"So do I. It's called KDE. Besides, in the FOSS space this insulting criticism is really uncalled for. You're insulting the work of unpaid volunteers who pour their heart into making a DE for the goodness of their hearts and might as well be enjoying more time with their friends and family instead or work extra hours and make more money. In the same spirit, I don't think the maintainers of GNOME, Xfce, or whichever it is that you use, would be happy about their users brigading against other friendly alternative projects. Competitiveness is between two proprietary systems, e.g. Apple and Microsoft. Here on FOSS collaboration is much preferred. Criticism is OK, but it's best when it's taken to the project's bug tracker. Gratuitous insulting with no reasons given is not OK, not productive, not called for and will cause you to be ostracized and deserted by the rest of the community when you display that behaviour.
+
+Plus, it's really contrary to the (documented on wiki) Arch philosophy to bad-mouth other FOSS operating systems and projects."
+Windows10,fcocc0j,t1_fcnuyg6,1577828767.0,"> Pointing out repeatedly how limited my point of view is or how biased my opinion has nothing to do in a discussion. You are just disrespectful.
+
+I'm sorry I offended you, but I said in clear letters this was to the subreddit. Even /r/'s were mentioned, so I don't know how I could have made it any clearer honestly. Not the single person. However, my previous comments are not edited and you can verify this for yourself so I won't say anything more past this - I'm in the clear on this one and I refute the point that I am disrespectful. I am not. Reddit is biased. Subreddits are biased. Deal with it. It happens everywhere.
+
+> there are closer relations that make more sense.
+
+Which does not invalidate my point, especially seeing some of Window's graphical changes are closer to what KDE was at that point, rather than macOS. It would be quite far-fetched to argue otherwise on things like the flat, white theme that came on Plasma first, everywhere else second.
+
+> In no way did i talk about **exclusive dependencies**.
+
+Thanks for clearing that up.
+
+> it still is not close to the point where its a relevant replacement.
+
+I know. This is a complicated subject. It can't be a replacement for everybody just yet, but for many people, I think, absolutely. If Adobe and Office software was compatible, then it would be viable for even more people, and so on. If NVidia managed to write less shitty Linux drivers, even more so."
+Windows10,fcnrsbi,t1_fcneeh7,1577817200.0,"> Why is there such a big incent to disconnect the `KDE` -> `Windows` relation and push the `Windows` -> `KDE` one ?
+
+For fairness's sake. But I know on which subreddit we are, and Reddit being Reddit, the vast majority of the people here are going to have a biased view. Personally I dual boot Windows 10 and Arch Linux with the KDE desktop. On /r/kde it would be the opposite. No big deal, just trying to keep things balanced and consider the other side of the equation as well. As a dual-boot user, In ""in"" enough to know what I'm talking about, but ""out"" enough to not be in a single bubble.
+
+> As an example i would say that the Microsofts cooperation with Samsung and the resulting Phone app is a reaction to MacOS's Iphone integrather but you make the point that its more likely that the KDE phone app is the reasoning.
+
+Why would it not also have been inspired by KDE? Noticed I said from KDE, not **exclusively** from KDE. Is there any source for this where in Microsoft personally denied that had taken any inspiration from Plasma but only from macOS?
+
+> I don't want to say its impossible but i would connect the dots there differently what would make the probabilities and conclusion different.
+
+I get what you mean - but I don't think it's the right reason, still. It would actually be demeaning to Microsoft employees to assume they are little more than normal users and only know about macOS of all other operating systems. I'm sure they are aware that Linux exists and of its main desktop environments: their competition is not macOS exclusively, especially with the new improvements and ability to run just about every game except those with intrusive anti-cheat on Linux, desktop Linux is becoming actual competition to Microsoft - a valid Windows alternative that runs on your existing computer and doesn't require you to shell out €1500+ for a computer that runs it. Many users that don't need exclusive software and for one reason or another don't like Windows would very happily jump ship, it just isn't really popular yet. I'm sure Microsoft's Windows department is aware of this competition and they have already tried it to see what they could learn from it."
+archlinux,fcn53ak,t1_fcmre0w,1577803491.0,Feel free to [contribute](https://bugs.kde.org/)
+Android,fcmw8r3,t3_ehppdz,1577795127.0,"Dude, take an operating systems class and then do this thought process again."
+Android,fcmw4ex,t1_fckaeyt,1577794980.0,"For your privacy, yes."
+Windows10,fcmv78b,t1_fcmu6gg,1577793814.0,"> I would not go as far as saying KDE did inspire windows just bc. of the low exposure it has.
+
+Just because it has low exposure can Microsoft not take a look at it and get inspired by it? It would be like saying a hip-hop artist who sampled a rather obscure song (there is nothing wrong with it, but it needs to be noted) and made a hit out of it made a completely original piece of art and were not, in fact, inspired by the less popular song, just because their own song that used the obscure's song sample got more exposure. Exposure has nothing to do with inspiration, and it doesn't make sense to say that, while Plasma integrated some features first, Windows added them later and was absolutely not inspired by it. If you say KDE was inspired from Windows (which the basic layout was), and Windows had added some KDE features later, this relationship goes both ways. It's not that only because Windows is more popular that only the less popular product is inspired by it, that's a very biased view of it."

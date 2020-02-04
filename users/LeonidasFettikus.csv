@@ -1,0 +1,182 @@
+subreddit,self ID,parent ID,time,text
+dotnet,ff3vww8,t1_ff3seut,1579550012.0,"If you want to display customers in your `SelectList`, then yes, you need to inject the `ICustomerRepository` into your page model. As for creating a `SelectList`, look at the part ""Creating a SelectList"". You just need to define a property in your page model like so:
+
+`public SelectList MySelectList { get; set; }`
+
+Then you populate the `SelectList` in the `Get` action and use it in the `<select .../>` tag."
+dotnet,ff3r8f3,t3_erhhch,1579547118.0,"1. Your `CreateInVoiceModel` doesn't contain any field `customerId.` The error clearly states that. I think you are trying to show something about the customer of the invoice, yes? Then you should change it to [`Bill.Customer.Id`](https://Bill.Customer.Id).
+2. You can't use a repository as a list of `SelectItem`. Refer to [this](https://www.learnrazorpages.com/razor-pages/forms/select-lists) article on how to use SelectList (the part which says ""Razor pages"" will be most useful)."
+dotnet,ff304cb,t3_erdm7e,1579530066.0,"    public class Invoice
+    {
+        public Customer customer { get; set; }
+    }
+
+Change `customer` to `Customer`."
+DiabloImmortal,ff2v9a7,t3_er8p6s,1579525501.0,I installed it and now have Rick Astley playing on my phone 24/7.
+cyberpunkgame,feyz3xw,t1_feypvvn,1579452282.0,"It's kinda short though, it took me maybe 14 hours to complete it. Story was great though as were the visuals. Sad that it was so short."
+LV426,fevadrv,t3_eqllho,1579395070.0,A Terminator Xenomorph. Now our future is truly fucked.
+cyberpunkgame,femfy08,t3_epnsw0,1579253458.0,Something tells me OP from the future is gonna comment here soon.
+evilbuildings,femerjv,t3_epo8ko,1579251702.0,Cykablyat 2077
+alienisolation,fel2cb3,t3_epq3ro,1579212544.0,"That's ""being hunted by a 7 foot tall alien""-sweat. It's normal given the circumstances."
+Witcher3,fek45wo,t3_epkpw9,1579192226.0,"I always started to lose interest after the bloody baron questline, right after entering Novigrad. I stopped 2 times because of that, then I told myself ""You are literally playing this for the 3rd time, you not losing interest this time buddy"" so I persevered. After a small boredom curve, my interest suddenly skyrocketed and I got sucked in hard by the story. 
+
+About 250 hours later, I could finally say that I have completed the game and it's addons, and this time, I wanted more, but the game had no more to give. :("
+dotnet,fek2h7s,t1_fejysll,1579191203.0,"Read that snipped from the article I posted, a Claim is added of type Role with the user's role as value. This is then used by the runtime to check if a user has the required authorization to access an action by comparing it to whatever is written into the Authorize attribute."
+dotnet,fejy78f,t3_epjlii,1579188546.0,"You can do it by using claims. To get a general idea of how this works, refer to [this](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/cookie?view=aspnetcore-3.1#create-an-authentication-cookie) article."
+fo4,feda1d3,t1_fed4l2b,1579005239.0,Then his shirt should say The Apprentice.
+dotnet,fed9wao,t3_eoj8jh,1579005094.0,"9am - open Reddit
+
+5pm - close Reddit"
+GalaxyNote9,fea6bo0,t1_fe9l3xx,1578944858.0,"If there is no UAE on that list and it's not carrier locked, try flashing a generic image. There should be one on that list which says Unknown."
+dotnet,fe8lkiq,t3_eo4ywn,1578927577.0,This looks more like a gaming rig than a computer you would use for development.
+aww,fe7o775,t3_enxsy9,1578917355.0,This is how the final battle for Efrafa must have looked like from a human perspective.
+DeepRockGalactic,fe5v0kn,t3_enrjku,1578875571.0,Worse yet if he builds stairs for himself then orders a supply pod because he spent all his platforms on getting to the minerals while the rest of the team is still full.
+GalaxyNote9,fe5ur1k,t1_fe4v4b0,1578875397.0,Where are you from? Did you buy the phone through a carrier? That should tell you which ROM you should flash.
+GalaxyNote9,fe4h0n7,t1_fe4fupp,1578859197.0,You check it under Settings -> About phone -> Software information.
+GalaxyNote9,fe3fog4,t1_fe37yiz,1578848835.0,Which one did you pick? There are firmwares on that list I linked that are already running Android 10. Check what version you are on in your settings.
+alienisolation,fdyzyo3,t1_fdyrogo,1578785334.0,I think they deliberately left that open for a sequel. Maybe an alien survived and boarded whichever ship picked up Ripley.
+GalaxyNote9,fdwpbyk,t3_en9dxj,1578761061.0,"Go to this [site](https://www.sammobile.com/samsung/galaxy-note9/firmware/#SM-N960F) and look for your phone. There are multiple models matching your baseband version so no idea what applies to you. Depends on where you bought the phone I guess and if you bought it through a carrier.
+
+After you have downloaded that, follow [this](https://forum.xda-developers.com/galaxy-note-9/how-to/u1-note-9-official-firmware-guide-to-t3927478) guide on how to flash stock firmware using ODIN, just use the firmware you downloaded from Sammobile.
+
+And don't do this again unless you know how to unbrick your phone or you have a cheap phone on which you can experiment a little without fear of permanently bricking it."
+kindle,fdv9e8w,t1_fduarkh,1578744882.0,"You have to press the button ridiculously long. When mine froze, I had it pressed for maybe 40 seconds before anything happened."
+soma,fdv7s0z,t1_fdu7bwf,1578744350.0,Pandorum >!is also a good movie in that regard to being underwater.!<
+evilbuildings,fdnk8ks,t3_em8b8t,1578587547.0,I thought it would transform into a huge robot and try to take over the world.
+skyrim,fdkcpzm,t3_elt4hk,1578501104.0,"OP: ""Will this work?""
+
+*\*OP dies\**
+
+Suddenly you hear Todd Howard's voice in the distance: ""It just works!"""
+dotnet,fdhfbgn,t1_fdhcvsu,1578421441.0,"I don't really have an IDE around right now so I can't check your code in the browser. But you can try to deduce the problem yourself by using Chrome's developer tools. Just press F12, then click the small button on the top left corner that looks like a rectangle with a small cursor on it.
+
+Then hover over the white space/the container holding your navigation and fiddle around with the CSS properties. This can be found too in the developer tools under Styles."
+dotnet,fdh9gcb,t3_eldrpf,1578418258.0,Could you take a screenshot and highlight what you mean?
+dotnet,fd5mzp7,t1_fd5j7ij,1578179231.0,"> Is MVC in web apps exactly the one without the arrow from model to view? 
+
+You mean the one that says MVVM? No, that is the MVVM pattern which is different from the MVC pattern. MVVM doesn't use controllers and is generally targeted towards desktop applications (MVP too, by the way).
+
+&#x200B;
+
+> Is the MVC part in the figure in my post exactly for a desktop MVC application? 
+
+While it doesn't nearly explain all the intrinsic details of how MVC works, sure, you could use that diagram to explain how MVC is used in developing web apps."
+dotnet,fd5gt4y,t1_fd5e7nu,1578177474.0,"That quote is about desktop development. There is a big difference between how desktop apps and web apps work. Desktop apps are stateful so you can instantiate a controller which will live for the entire duration of the session (or better said, for how long the app is running). This will enable you to use observer pattern.
+
+Web apps in general and MVC specifically are designed to be stateless. So each new request causes all needed controllers, views, services, models, etc. to be instantiated anew. This won't make using observer pattern possible because everything, along with the observers, gets disposed when the request is finished.
+
+I guess you could try to add a stateful layer around a web application. However, Microsoft tried to do that with WebForms and that died out because in the end, it caused more headaches than it solved."
+aww,fcyyb0y,t3_ejlwpp,1578089765.0,Is this the new Jurassic Park trailer?
+aww,fcymezr,t1_fcym6m1,1578082715.0,People generally thought the same thing about all animals 100 years ago.
+aww,fcpyvxc,t1_fcpyolo,1577875122.0,"TBH, everytime my cat looked at me, I felt like food too."
+csharp,fcnkn97,t1_fcn9tdf,1577813395.0,">As far as the controller and tempdata, this is where my newness will show. tempdata isn't accepted in my environment. I tried figuring out the dependancies to get it to work because it'd be extremely useful, but I was never successful. It's not accepted as a valid command.
+
+What do you mean by this? Is there some error message that you are getting? TempData should work no matter the environment and it's also not a command so I can't quite figure out what you are trying to say here.
+
+And please, use the code block feature here on reddit, your code is barely readable. You will see it when you press the ... on the bottom bar when you are typing a comment.
+
+Also, if reading from the database is slow (as you said in your other comment), figure out why and rather fix that. Because normally, each GET request should show fresh data. Otherwise, you might select features from your list that are already deleted from the database."
+KeePass,fcmyqv9,t1_fcmy725,1577797934.0,"Hmm then it sounds like either the database is corrupt or that you indeed used Windows authentication as composite key. So you got two options:
+
+1. Try to repair the database as outlined here: [https://keepass.info/help/base/repair.html](https://keepass.info/help/base/repair.html). Be sure to make a backup of it before you do this.
+2. If you indeed used Windows authentication, then a restore of your old Windows installation ***might*** the only way to open the database again. This isn't 100% sure because the restore would have to ensure that everything is the same as before, which is sometimes not the case."
+csharp,fcmxjaz,t3_ei1xi9,1577796628.0,">how can I code that so B comes first?
+
+You can't, this is how inheritance works. A will always be initialized before B because it's its parent class. Much like your father took a breath before you. If you need to control which WriteLine method is called first, then you have to change your inheritance strategy. For example:
+
+    public class Program
+    {
+    	public static void Main()
+    	{
+                var b = new B();
+    	    b.Initialize();
+                var c = new C();
+    	    c.Initialize();
+    	    Console.WriteLine(""Hello World"");
+    	}
+    }
+    
+    public abstract class A {
+        public A() { }
+    
+        public virtual void Initialize()
+        {
+            Console.WriteLine(""A"");
+        }
+    }
+    
+    public class B : A {
+        public B() : base() { }
+    
+        public override void Initialize()
+        {
+            //This class' initialize called before base initialize
+            Console.WriteLine(""B"");
+            base.Initialize();
+        }
+    }
+    
+    public class C : A {
+        public C() : base() { }
+    
+        public override void Initialize()
+        {
+            //Base initialize called before this class' initialize
+            base.Initialize();
+            Console.WriteLine(""C"");
+        }
+    }
+
+[https://dotnetfiddle.net/zVE1uQ](https://dotnetfiddle.net/zVE1uQ)"
+KeePass,fcmx1i9,t3_ei1qre,1577796077.0,"Might be a stupid question, but are you sure that you are using the same language settings inside Windows? More specifically, are you using the same keyboard layout as before?"
+aww,fclo9ui,t3_ehtopy,1577752478.0,*48 hours later...*
+csharp,fcleg8v,t3_ehsx0g,1577745904.0,"It isn't being posted because you would need to render your SelectList inside the form in a way that the model binder will pick it up on post.
+
+You got two options here:
+
+In your view:
+
+    @using (Html.BeginForm(...))
+    {
+        for(int i = 0; i < model.SelectedOtherFeaturesList.Count; i++)
+        {
+            @Html.HiddenFor(m => Model.SelectedOtherFeaturesList[i]);
+        }
+        //Other controls...
+    }
+
+Or use TempData to store your SelectList. TempData will be valid for one roundtrip. This approach would be cleaner.
+
+Controller:
+
+    public ActionResult GetSomeView()
+    {
+        TempData[""SelectList""] = new SelectList(...);
+    }
+
+View:
+
+    Html.ListBoxFor(model => model.SelectedOtherFeaturesList, TempData[""SelectList""], new { size = ""5"" }) 
+
+My syntax here could contain errors but I hope you get the idea."
+aww,fcld8vf,t3_ehspjw,1577745118.0,Is that mold?
+cyberpunkgame,fckyc2n,t3_ehnfvx,1577735815.0,It's only a background image:  [https://netwatch-ncpd.com/build/images/bg-archives-login-9fe81300.jpg](https://netwatch-ncpd.com/build/images/bg-archives-login-9fe81300.jpg)
+csharp,fc1bzzc,t3_efmodx,1577314230.0,"Try implementing the [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.8) interface on your polygon class.
+
+The reason for this is that Array.Sort doesn't know how to actually sort your array of polygons."
+aww,fc014xt,t3_efex2q,1577273060.0,This cat has a really stable routine of how it goes to sleep every night.
+kindle,fc00x6v,t3_efelmp,1577272702.0,"A PDF (Portable Document Format) is a document and besides text, PDFs also contain images, media and digital signatures.
+
+E-Books, on the other hand, mostly contain text, maybe also some low-quality, black and white images. 
+
+The Kindle is a dedicated e-book reader and while you can open PDFs with it, the support for documents is very basic. So you can either find an e-book version of the PDF you are trying to read or use your phone. You are trying to use the Kindle as something it's not and never tried to be, no wonder you are disappointed with the results."
+aww,fbyx1aq,t1_fbyrvue,1577228653.0,"Sees comment.
+
+Sees username.
+
+[My face](https://imgur.com/0GXlxUe)"
+Witcher3,fbxhnxy,t3_ees5z3,1577187963.0,"A great adventure is waiting for you ahead.  
+Hurry onward Geraltwinks, for you will soon be dead.  
+The journey before you may be long and filled with woe.  
+But you must escape the crone's ass, or your tale can't be told."
+aww,fbrc2q1,t1_fbqsnjp,1577041458.0,Call the purrlice!!!
