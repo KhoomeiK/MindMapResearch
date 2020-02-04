@@ -21,15 +21,18 @@ def filter_csvs():
 	for filename in os.listdir(data_directory):
 		depression_counts = 0.0
 		total_depression_posts = 0.0
+		
 		# loop through each row of csv, only classify if it's depression subreddit comment
 		with open(os.path.join(data_directory, filename), encoding='utf-8') as f:
 			data = csv.reader(f, delimiter=',')
 			next(data)
+			
 			# call classify() and add to depression counts if depressed
 			for row in data:
 				if row[0] == 'depression':
 					total_depression_posts += 1
 					depression_counts += classify(row[-1])
+		
 		# if depression_counts/csv_counts is >= .5, add to the depressed_users folder
 		if total_depression_posts != 0 and (depression_counts/total_depression_posts) >= .5:
 			copy(os.path.join(data_directory, filename), new_directory)
@@ -46,13 +49,6 @@ def classify(comment):
 
 	if sentiment_dict['compound'] <= -0.05:
 		return 1 
-	  
-	# print("Overall sentiment dictionary is : ", sentiment_dict) 
-	# print("sentence was rated as ", sentiment_dict['neg']*100, "% Negative") 
-	# print("sentence was rated as ", sentiment_dict['neu']*100, "% Neutral") 
-	# print("sentence was rated as ", sentiment_dict['pos']*100, "% Positive") 
-
-	# print("Sentence Overall Rated As", end = " ")
 	return 0
 
 def main():
