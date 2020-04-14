@@ -1,0 +1,370 @@
+subreddit,self ID,parent ID,time,text
+China_Flu,fffew9i,t1_fffdp12,1579882457.0,"More people have die every day from car accidents than have died in total from this virus, by several orders of magnitude. More people die from car accidents every day than the total number of deaths from SARS.
+
+No need to panic, just be a bit more careful while crossing the streets."
+rareinsults,ffeyeje,t1_ffet0fv,1579870336.0,"Nope - maybe they wouldn't be a reasonable compromise there. ""Fashion"" can vary from place to place..."
+law,ffecdvu,t3_et31yg,1579842973.0,"Is the dual citation of cases from 1984 purely coincidental, or is it a reference?
+
+> A judicial decision does not require the Executive Branch to abandon its views about what the law provides, for the doctrine of offensive non-mutual issue preclusion does not apply to the United States. United States v. Mendoza, 464 U.S. 154  (1984).  The  Attorney  General,  the  Secretary, and  the Board are free to maintain, in some other case, that our decision is mistaken though it has been followed elsewhere, see Meridor v. A6orney General, 891 F.3d 1302, 1307 & n.8 (11th Cir. 2018). But they are not free to disregard our mandate in the  very  case  making  the  decision.  That  much,  at  least,  is well  established,  not  only  in Plaut but  also  in  many  other cases. See, e.g., United States v. Stauffer Chemical Co., 464 U.S. 165  (1984). The  Solicitor  General  did  not  ask  the  Supreme Court to review our decision, and the Department of Justice is bound by it."
+spacex,ffear61,t1_ffby8o9,1579841495.0,"I'll go ahead and argue that ""army"" is a correct word for the US armed forces as a whole. That's what the word means *in the english language*. It means that today, and it has meant that for a long time.
+
+The US government sensibly decided to name different components of their armed forces (their army) different things. Confusingly they labelled one of the components of their armed forces as ""Army"". That doesn't change the fact that in the English language as commonly spoken ""Army"" is a valid label for the entire armed forces as a whole. It just means that it was a poor choice of name.
+
+Here are some sources to back the claims in my first paragraph up:
+
+ - [Definition c in Meriam-Webster](https://www.merriam-webster.com/dictionary/army), validating ""still means"" (in a quasi-academic setting)
+ - You're own comment, validating ""still means"" in the common vernacular.
+ - [Etomology](https://www.etymonline.com/word/army) confirming it's roots have nothing to do with land-specific armed forces, but rather that it comes from Medieval Latin's ""armata"", translating to ""armed force""."
+China_Flu,ffe9gdw,t1_ffdyzy9,1579840374.0,Thinking for yourself is a good and healthy activity...
+rareinsults,ffe5dvu,t1_ffe4p85,1579837142.0,"Feet are mostly gross today because they live in the damp environment that shoes create, and thus are smelly and probably fairly unsanitary most of the time.
+
+If we all went barefoot, the bottoms of feet would be gross because all sorts of dirt would be clinging to them, but of course that's just moving it from the bottom of our shoes.
+
+Sandals or flip flops would be a pretty reasonable compromise."
+rareinsults,ffe58pr,t1_ffe4ua9,1579837033.0,"My impression is that 50 years ago it was ""shirt and tie"" anywhere white collar, where now there are portions of white collar work (largely ""tech"") where ""nice tshirt and jeans"" is the dress code and wearing a tie would get you looked at funny.
+
+That's progress, it's just not uniformly distributed (yet?)."
+programming,ffa55p6,t1_ff9zcyr,1579728087.0,"If you have a turing complete language, static analysis is always approximate, this is proved by [Rice's Theorem](https://en.wikipedia.org/wiki/Rice%27s_theorem).
+
+I.e. you can't statically have a compiler that, for all programs, statically tags all numbers which are always positive with `Positive`, and never tags any numbers that are ever negative as `Positive`."
+spacex,ff9uztb,t1_ff9u5id,1579722043.0,"You can climate control a tent, it just takes a bit more energy.
+
+My personal experience with ""tents as buildings"" is an arena that gets put in a tent every winter. It runs well beyond the period of time in which the weather is below freezing."
+spacex,ff9pggl,t1_ff9mhgi,1579718000.0,"The more I think about them, the more they make sense.
+
+What does a giant building give you over a giant tent? Sturdy walls? Useful if you want to mount things on them, but that's a pretty minimal use case. Increased resistance to high winds and falling rocket parts, but not by enough to protect it from a full on hurricane or rocket flying into it, and the tent is cheaper to replace than a building if something happens to it.
+
+What does a full building cost? Tons of time, lots of money, lots of permits. Elon's companies are all in stages where time is currently of the essence.
+
+It seems like the right trade off."
+rust,ff87wz9,t1_ff7u0rs,1579668563.0,"What are you hoping to improve about numpy?
+
+In your top post you mention performance and reliability? Do you have reason to believe rust would be faster? I have the impression that the linalg libraries are already crazy optimized. Do you think rust-numpy would be more reliable? Maybe I've just been lucky, but I've never had any issues with numpy.
+
+Making numpy substantially better would absolutely improve the world, I'm just not sure how I would go about trying to do that in a rewrite."
+law,ff7t3is,t1_ff7g73k,1579657699.0,"It seems like the relevant question would be whether or not the plane had left US jurisdiction... but also
+
+> Doyle argued he was still at the airport at the time the judge issued the temporary stay"
+television,ff1cfro,t1_ff0x0h1,1579477485.0,"Assuming the above paragraph isn't a lie... they don't. But I'm just quoting the article, I've never even been to Washington DC."
+television,ff0w8q2,t1_ff0edmu,1579472852.0,"> Instead of unfettered access to the hallways and corridors surrounding the Senate chamber — a tradition for decades — journalists will be confined to roped-off pens as senators come and go from the trial. Walk-and-talk interviews with senators, a staple of congressional reporting made famous by TV shows like “The West Wing,” will be curtailed."
+spacex,feyrv9c,t1_feyregt,1579449792.0,Random guess: They may have decided testing at full throttle was more important.
+law,feyjkf6,t1_fewzivb,1579446349.0,"A VAT is a fundamentally regressive tax, but the regressive nature of it is completely wiped out and reversed by turning around and giving the money back uniformly.
+
+Let's pretend it's the same as a 10% flat tax, it's close enough for the math below even though that's not quite right.
+
+If I'm making $x per year, then I pay $x / 10 in taxes. Let's say the average person makes $y per year. Then the tax as a whole collects $y * number of people / 10, so the basic income can be set at a value of $y / 10 (minus a few dollars of administrative costs - but they're minimal since giving a fixed check to everyone is *much* easier than most of what we do with taxes).
+
+If I make less than the average person, $x / 10 is less than $y / 10. So this tax isn't costing me anything, it's literally giving me money.
+
+If I make the same (approximately) as the average person, $x / 10 is (approximately) equal to $y / 10, it's a wash, I lose as much as I gain.
+
+I only end up spending money on this tax if I make more than average, and it scales with how much more.
+
+This is the opposite of a ""regressive tax"" in the way they are usually discussed.
+
+EDIT: I agree this is off topic... but oh well."
+rust,fewcrsl,t1_fewbx9r,1579408486.0,"Indeed. And that is all of what we are suggesting.
+
+We are suggesting that we should collectively chose to speak negatively about projects that do this, and that we should advise people not to use such projects.
+
+It's not like anyone is taking a gun to their head and saying ""you need to do this"", we are saying ""it should be a community norm to do this"", and ""if you don't do this, we will exclude you from the community by speaking poorly of you and your project, and not use it"".
+
+Taking a step to look back at the wider picture, that's 99% of what happened with the actix-web situation. A few bad actors went to the issue tracker and said mean things, but the vast majority of us reacted by saying on reddit and other social media ""don't use this project""."
+rust,fevq813,t1_feutids,1579400173.0,"Not that it really matters, and not that this is at all an official interpretation, but the terminology as I understand it is as follows:
+
+`&i32` is a *reference* to an `i32`, in order to obtain that reference someone *almost certainly* borrowed an `i32` at some point by doing something like `&x`. A *borrow* is a noun used to label the information that you currently have a valid reference, the borrow disappears when `x` is allowed to act as if that reference no longer exists. For example, the comments in the following piece of code would be correct:
+
+    let x = 3;
+    let z = 4;
+    {
+        let mut y = &x; 
+        // y is a reference to x. 
+        // There is an active borrow on x
+        if condition {
+            y = &z; 
+            // y is now a reference to z
+            // there is now a borrow on z.
+            // There is no live reference to x
+            // The borrow on x *might* be temporarily gone, depending
+            //      on whether or not the compilers control flow analysis
+            //      understands that in this location in the control flow x can't
+            //      be borrowed.
+        }
+        // Let's assume condition was true, then:
+        // y is a reference to z
+        // There is an active borrow on both x and z
+        //       since the compiler can't be sure there
+        //       isn't a reference to either of them
+    }
+    // There are no references or borrows left, they are all gone.
+
+It's possible to get references without borrows, this code has no borrow
+
+     let s: &str = ""foo bar baz""
+
+It's even possible to get them with non static lifetimes, e.g. you can cast a reference a reference with a shorter lifetime."
+law,feudtzt,t1_fetxyz0,1579385614.0,"You need to distinguish ""damage the landing gear in a way that costs some money to repair"" and ""damage the landing gear in a way that impacts safety"".
+
+Someone above posted [this pdf](https://www.boeing.com/commercial/aeromagazine/articles/qtr_3_07/AERO_Q307_article3.pdf) from boeing, which states
+
+> landing overweight and fuel jettisoning are both considered safe procedures
+
+and goes into some detail. For instance, on the landing gear in particular, which you claim it could damage, they state
+
+> overweight landings are safe because of the conservatism required in the design of transport category airplanes by Far part 25.Far criteria require that landing gear design be based on:
+>
+> - a sink rate of 10 feet per second at the maximum design landing weight; and
+> - a sink rate of 6 feet per second at the maximum design takeoff weight.
+>
+> Typical sink rates at touchdown are on the order of 2 to 3 feet per second, and even a “hard” landing rarely exceeds 6 feet per second. additionally, the landing loads are based on the worst possible landing attitudes resulting in high loading on individual gear. the 747-400 provides an excellent example. The 747-400 body gear, which are the most aft main gear, are designed to a 12-degree nose-up body attitude condition. In essence, the body gear can absorb the entire landing load. The wing gear criteria are similarly stringent: 8 degrees roll at 0 degrees pitch. Other models are also capable of landing at maximum design takeoff weight, even in unfavorable attitudes at sink rates up to 6 feet per second. This is amply demonstrated during certification testing, when many landings are performed within 1 percent of maximum design takeoff weight. 
+
+I would like to stress that this says not only should it work according to the design, but during certification testing they test landing at takeoff weight many times."
+rust,fetudj8,t1_feto9kg,1579380172.0,"Fair enough, but absent weird language supported counter examples it holds. Pedagogically it's the sort of small lie that is usually worth telling."
+rust,fetr17d,t1_fetap22,1579378613.0,"So you would be ok with me standing in front of the subway doors and not letting you on?
+
+There are many different ranges of acceptable behavior.
+
+There is behavior that is bad enough that we can make it criminal. That doesn't apply at all here.
+
+There is behavior that isn't criminal, but if I do it I owe you compensation. That's publishing broken software without a warranty.
+
+There is behavior that is unethical or bad, but not prophibited by law. That's stopping you from getting on the subway. Slamming a door in your face. Calling you a bloated purple people eater. And in this case publishing and telling people to use software that you know is buggy and chose not to fix the bugs in, or even tell people about the bugs, but instead to delete the issues other people raised."
+rust,fet808n,t1_ferumf5,1579372592.0,"No, we have legalese to stop us from being sued. It's a completely different thing."
+rust,fesw7lv,t1_fesujty,1579369649.0,"`*mut u8` is the syntax for ""raw (unsafe) mutable pointer to a u8"",  that pointer can point to any memory address, on the stack or the heap.
+
+It happens that in the `String` type it will always point to the heap or be null, but there's no way to know that without just understanding the implementation of `String` and where the value of the pointer comes from."
+rust,fesrz4x,t3_eqiojb,1579368401.0,"*Variables* are always on the stack. E.g. `let foobar = ...` foobar is always on the stack.
+
+Now, foobar might be a *pointer* to something else. For example `let foobar = &x`. `foobar` is on the stack since it's a variable, `x` is *also* on the stack since it's a variable. So `foobar` is a pointer, that lives on the stack, and points to someting on the stack.
+
+Another way to get a pointer would be `let foobar = std::alloc::alloc(...)`. `foobar` is still a variable, it still lives on the stack. But it's a pointer, and the thing it points to happens to be on the heap.
+
+A more common way to get a pointer would be `let foobar = String::new(""stuff"")`, in this case `foobar`, like all variables, is on the stack, but it's a struct that looks something like `struct String { data: *mut u8, len: usize, capacity: usize }`. And that `data` pointer it contains points to something on the heap.
+
+There is no hard rule as to what structures contain a pointer to something on the heap. You can look at their implementations to be sure, and often guess without looking. The biggest rule is thumb that things that contains a variable and unbounded amount of data (e.g. `Vec`, `HashMap`, etc) must store that data on the heap since you can only allocate a fixed amount of stack memory at a time."
+pics,fesmt4p,t1_fesefpf,1579366900.0,"Vertical distances are imperial, horizontal distances are metric.
+
+Converting between imperial and metric is illegal, and results in banishment."
+pics,fesmgl9,t1_feskqqt,1579366786.0,"Sure, but metric and imperial time use the same units.
+
+Clearly this is an oversight. I vote we switch to millidays instead of minutes."
+law,fesiaib,t1_fesgtv9,1579365441.0,"Part of the problem of being a parrot, and why I disclaimed it at the start, is that I can't really defend the claim. For what it's worth the comments I'm parroting were on HN and other *slightly* more reliable sites than reddit, not much more reliable though.
+
+I have no doubt that the engineers involved have calculated what happens when you exceed the maximum landing weight. I don't know if that information might be public, or the people I'm parotting might have access to non public information, or they're making an otherwise educated guess, or they're just making claims with no basis to stand on.
+
+The greater point that I didn't feel the need to explicitly state originally is ""this is the sort of thing that the lawsuit/discovery can tell us for sure, rather than just coming from random claims on the internet"".
+
+Edit: Why are y'all downvoting the comment this is in reply to, it's a fine comment."
+law,fesg2oy,t1_fescmjv,1579364814.0,"Yes, the claim I'm making (really, parroting) is that exceeding the ""maximum"" landing weight by the amount of extra fuel they take off with would not result in safety issues. It would result in a (larger) repair bill but that isn't a safety concern."
+rust,fes7z6v,t3_eqh3sy,1579362331.0,"> Was actix-web inherently fast due to design, or will fixing the ""unsafe"" issues kill it's performance?
+
+I think the best answer to this is neither.
+
+Actix's speed wasn't due to unsoundness, no undefined behavior was being exploited in the benchmark.
+
+I don't think Actix was actually fundamentally faster than any other framework either. It just happened to get some new optimizations first (mainly relating to async db requests if I understand it correctly), I would expect those to come to other frameworks, not just in the rust world but to all the fast languages.
+
+On a different note, other people are suggesting you should take the benchmark with a grain of salt. While that's good advice for all benchmarks, I looked at the code and I thought it was pretty reasonable, it did not seem to use optimizations unrealistic in real world (but still optimized) code."
+law,fes6lh2,t1_fery0ln,1579361938.0,"> The aircraft experienced an emergency and had to dump fuel - that was the prudent thing to do to land the aircraft safely.
+
+From what I've seen on the internet this is untrue. The aircraft could land safely without dumping fuel, it would impact repair costs but not safety.
+
+That's just from random internet commenters though, so take it with a grain of salt."
+rust,fermwee,t1_feq1ozt,1579355938.0,"Use some common sense on responsible disclosure.
+
+If it's a soundness bug that is likely exposed to end users by users of a library, responsible disclosure is likely appropriate. If it's a soundness bug that would basically require malicious use of the library, or the library is small enough/in a space that it's highly unlikely that it's exploitable to end-users, I think just creating a normal issue is fine.
+
+Responsible disclosure adds a real maintenance burden to the maintainer, so I don't think we should overuse it."
+rust,feoz0b5,t1_feo3ai2,1579308467.0,"I definitely think the name should be changed, and not to something including ""actix"".
+
+I'd also suggest that using ""safe"" in the name would be a mistake... a project should not be founded on the mistakes of the past but on an idea of what the future looks like."
+rust,feouqxv,t1_feoarlt,1579305870.0,"You're right!
+
+Thanks a ton, I was totally stumped on this."
+rust,femxb5m,t3_eo6pjy,1579272030.0,"I'm terribly confused, why isn't rust letting me use sub_assign unless I disambiguate it by hand here? Ndarray version 0.12.1.
+
+    use ndarray::*;
+    use std::ops::SubAssign;
+    fn wtf<A, S, D>(lhs: &mut ArrayBase<S, D>, rhs: A)
+    where 
+        A: ScalarOperand + SubAssign<A>,
+        S: DataMut<Elem = A>,
+        D: Dimension {
+        lhs -= rhs
+        // <ArrayBase<S, D> as SubAssign<A>>::sub_assign(lhs, rhs)
+    }
+
+Results in an error
+
+    error[E0368]: binary assignment operation `-=` cannot be applied to type `&mut ag::ndarray::ArrayBase<S, D>`
+       --> src/main.rs:125:5
+        |
+    125 |     lhs -= rhs
+        |     ---^^^^^^^
+        |     |
+        |     cannot use `-=` on type `&mut ag::ndarray::ArrayBase<S, D>`
+        |
+        = note: an implementation of `std::ops::SubAssign` might be missing for `&mut ag::ndarray::ArrayBase<S, D>`
+
+If I comment out `lhs -= rhs` and uncomment the following line everything works though, i.e. `SubAssign` is implemented.
+
+Note that the generics on the function `wtf` precisely match the generics on [the implementation of `SubAssign`](https://docs.rs/ndarray/0.12.1/ndarray/struct.ArrayBase.html#impl-SubAssign%3CA%3E) that I'm hoping it will use."
+rust,felsome,t1_fel2dpd,1579229970.0,"While I haven't audited it for unsafe, I've been really impressed by the engineering practices and level of attention payed to details by [rocket](https://github.com/SergioBenitez/Rocket) and it's maintainers.
+
+The caveat that comes with this is it's somewhat slow moving development wise, and is definitely still pre 1.0, I'm watching [this issue](https://github.com/SergioBenitez/Rocket/issues/17) in particular as ""something that needs to be closed before I think I can strongly recommend it""."
+Jokes,fecmce2,t1_fecjltg,1578977471.0,"You honor me with your words, but in truth I am a mere slave to my human desires. Would that I was capable of storing Coffee in my Thermos, my day would be blessed with wakefulness. That seems to be an act for Gods, not for mere men such as myself. How, I pray you answer, Mighty Master of Self Control /u/MC_MacD, can I avoid drinking the full pot the instant it is done!? How do I leave even a single drop to store in my Thermos?"
+Jokes,fecht6a,t1_fechfoj,1578974253.0,"Coffee?!?! You store your coffee for long enough to need a thermos?
+
+We all know who the inhuman one is here!"
+Jokes,fecgvdr,t1_fecgekr,1578973613.0,"A thermos is like a waterbottle, but insulated and often used for bringing things like soup for lunch to places such as work."
+oddlysatisfying,feceint,t1_fecaeza,1578972014.0,"Propelling it *quickly*... I.e. using a slap shot to send the stick to the other end of the ice. I.e doing stupid shit that is unsafe.
+
+Stick handling a puck also isn't shooting it. ""Shooting"" has a lot to do with velocity."
+oddlysatisfying,fec563h,t1_febhwkz,1578966810.0,"Hmm, is flicking a stick shooting it? Is it throwing or tossing it? I don't think it's quite so obvious that it's a penalty.
+
+The intent behind that rule is no doubt to prevent injuries, hurling a stick down the ice could be somewhat dangerous, did this play have any chance of causing an injury?
+
+To quote a ref I know, there are unofficially only 3 rules to hockey: Unfair, Unsafe, and Rude. Which one does this violate? I.e. why should a ref call it even if it was technically against the rules?"
+ConvenientCop,fec129d,t1_feay56a,1578965082.0,"> A quick Google shows highways in Ontario are typically 80 - 90 KM/H 
+
+90-100 with a rare 80 in my experience (Disclaimer: I live here but haven't taken a formal survey)."
+spacex,feaodvg,t3_eno9es,1578950827.0,Question/Possibly a bug report: Why isn't the old.reddit.com/r/SpacexLounge sidebar getting updated anymore? It seems it's select upcoming events table stopped being in sync with the /r/spacex one sometime in December.
+SpaceXLounge,fe5lzp2,t1_fe5i6xd,1578871166.0,"I mean... the military doesn't give a fuck between exiting their airspace and re-entering their airspace.
+
+It's a valid concern, but it's one that I expect SpaceX and Yusaku will need to deal with themselves."
+SpaceXLounge,fe5hfvt,t1_fe58b50,1578869460.0,"On the one hand yes.
+
+On the other hand drugs aren't exactly a security risk, it's not going to be what they are looking for and they likely won't really care."
+freefolk,fe3uq5p,t1_fe3tj9c,1578853087.0,"Ya, but he doesn't give a fuck and report you or anything, he just won't buy it."
+spacex,fe3nki5,t1_fe3n6ta,1578851044.0,Fair point.
+freefolk,fe3k9ow,t1_fe3hgp7,1578850052.0,"Only if you're caught literally in the act.
+
+If you happen to be the only house guest, and you happen to put a bucket on someones head, and before it falls off all the stuff within your reach happens to disappear, there are no consequences."
+spacex,fe3j9wn,t3_enla0a,1578849715.0,Literally advertising for gold diggers? That's a new one.
+toronto,fe3e5vg,t1_fe2lz2n,1578848439.0,"I'm not saying this is what happened, I have no clue, but one example scenario that includes no incompetence (with regards to the initial alert):
+
+Temperature sensor starts reading hundreds of degrees too hot, according to it the place is basically on fire. Someone responsibly sends an alert out saying ""we may have a serious issue, watch the news"".
+
+Turns out it was just an error, the temperature sensor failed.
+
+A serious failure could have the potential to kill huge numbers of people, and earlier warning could significantly reduce the damage by allowing for evacuation. It's a good thing if the alerting systems tend to fail by giving false positives instead of false negatives."
+toronto,fe255mq,t1_fe24tl4,1578834599.0,"No, this is better than if it was actually leaking radiation, by far."
+toronto,fe23vxe,t1_fe234ix,1578834190.0,"G1 has been at zero for days already... also that page was generated at 7:15am, 10 minutes before the alert went public at least."
+HongKong,fdwt5jk,t1_fdw9l5i,1578762078.0,"Being a Hong Kong attorney would be useless here, you would need to be a British one. British law applies."
+rust,fdsraxs,t1_fdsq8wd,1578706928.0,"Ya... let's not debate politics on this subreddit. Suffice to say regardless of whether or not you or I agree with it, I believe that is current US law."
+facepalm,fdqd9c5,t1_fdpqegh,1578663583.0,Y2K made people complacent. It's not like we weren't aware that Y2K would eventually be a problem decades before Y2K. The number of cheap electronic devices and poorly maintained pieces of software has exploded.
+news,fdpdat0,t1_fdp88t6,1578625726.0,"Yes sir, that will only be a hundred million dollars and 10 years with a 10% chance of success.
+
+Electron scanning microscopes is 1 bit at a time intensive human labor on really frickin expensive instruments last I checked... theoretically it's possible, practically not so much."
+law,fdp6hcc,t1_fdp4i14,1578621128.0,Forgetting to charge someone?
+facepalm,fdp2626,t1_fdoqfut,1578618215.0,2020-2-02 02:02:02
+facepalm,fdp22d7,t1_fdp11kh,1578618146.0,I like your confidence. Unfortunately I don't share it.
+rust,fdot9zx,t1_fdoslgk,1578612377.0,"""International"" doesn't mean living by no countries rules, it means living by multiple countries rules.
+
+Everything surrounding the rust project already lives in one country or another and has to obey that countries laws. The foundation would just be one more thing in some country or another and obeying that countries laws. For example, Mozilla today could presumably not hire Iranian coders to work on Rust, and the Rust Foundation tomorrow would also not be able to."
+rust,fdla919,t1_fdl7lw2,1578519750.0,Thanks
+Starlink,fdiyogu,t1_fdisbh7,1578454080.0,"[This video](https://www.youtube.com/watch?v=m05abdGSOxY&feature=youtu.be), I highly recommend it."
+Starlink,fdiyl8n,t1_fdhph52,1578454019.0,"That's... not how latency works.
+
+For every ms of latency, the data you are sending needs to live somewhere in the network for that ms. Travel time even in the initial constellation is going to be in the 10s of ms (up (2ms), down  (2ms) to a ground station at an internet exchange, into the traditional network (1 ms to your closest cloudlare POP)). No one wants to store your data on their device instead of re transmitting it. Storing data for any significant amount of time increases costs, increases latency, and turns out to not actually help much at all with throughput.
+
+To get 150ms you'd have to do something truly amazing like ping back and forth between ground stations and satellites like 40 times instead of just entering the traditional terrestrial internet at one of the ground stations you hit."
+virtualreality,fdf8ytc,t1_fdf6zia,1578356086.0,"But they're saying that it is *better* than real warfare, and you'd pay more for a better game, wouldn't you?"
+virtualreality,fdf4c2x,t1_fdec2r3,1578353006.0,"> thankfully
+
+So you're saying VR warfare should cost more than real warfare?"
+ValveIndex,fdf06xh,t1_fdex118,1578350357.0,"How does the driver check what game you are running? Just the executable name or something I'd guess, have you tried renaming your executable to boneworks.exe?
+
+It would only work well for testing, but still."
+ValveIndex,fdexd30,t1_fdeejri,1578348596.0,"Done (sort of, shipping soon)"
+ValveIndex,fdev6nl,t1_fdeuita,1578347275.0,"It rather implies that it will *ship* before the 25th and they just can't guarantee fedex will get it their in time.
+
+Especially when they had later notes including ""will ship after the 25th"", and ""will ship in January"""
+ValveIndex,fdetkfg,t1_fdeq2he,1578346312.0,"Crazy how ""*Delivery* not guaranteed before dec 25th"" (the message everyone who is currently shipping got on their store page) is not the same as ""won't even ship until after January 6th""."
+science,fdd07ic,t1_fdczya3,1578289700.0,"Go for it! ""I was fired for dressing as Rambo"" would get you another job easy!"
+interestingasfuck,fdcafx0,t1_fdah23f,1578270320.0,I just want to congratulate the engineer who had to design those wheels...
+rust,fdc2vb6,t1_fdc2f6f,1578266008.0,By not having speculative execution.
+spacex,fdbah84,t1_fdb5nuo,1578255501.0,Splashdown site probably has a lot to do with the wind.
+IdiotsInCars,fdawon8,t1_fd74jew,1578251244.0,"> Remember kids. The only difference between ""going to jail"" and ""being let go for lack of evidence"" is writing it down!
+
+I'm not sure I'd be advising kids to record their stupid activities, you'll get more of them recording under aged drinking than recording science."
+memes,fdaudef,t1_fd9itgn,1578250288.0,"To go along with Donemark and Swedone.
+
+TIL, the nordics need to exit the EU, for the memes."
+BlackPeopleTwitter,fd2imu0,t1_fd1ucdc,1578147779.0,"Also -40 k is sort of equivalent to 40 times the speed of light... it's not a particularly real temperature (or speed).
+
+(Explanation: Temperature is movement of particles, 0k is when everything is not moving... -40k is when everything is moving a... negative amount?)"
+woooosh,fd2hvu9,t3_ejub0f,1578147462.0,"Get on Valve's level
+
+ - WW1
+ - WW2
+ - WW2 Episode I
+ - WW2 Episode II
+ - WW: Alyx"
+technology,fcz3s6s,t1_fcz3kae,1578093080.0,"Understandable really, it's a pretty insane claim..."
+technology,fcz1ysz,t1_fcz04vy,1578092044.0,"False. In this specific DMCA complaint they are (amongst other things) alleging that the work taken down helps facilitate bypassing access controls to access copyrighted data. The only access controls it helps bypass are those for your blood glucose level, so they are claiming that data is copyrighted.
+
+The article says as much."
+SpaceXLounge,fcz156j,t1_fcyubg5,1578091596.0,"That would help no doubt, but I'm honestly slightly more worried about it cooking itself than the sun cooking it. The motors are almost certainly designed with air cooling in mind, as is the battery. Insulating it against the cold also means you've made it bad at radiating heat away."
+SpaceXLounge,fcwd3yz,t3_ej510v,1578022631.0,Anyone have any insight on how much of a problem cold welding might be on the moon for something like the cybertruck?
+SpaceXLounge,fcwd0rm,t1_fcvjc97,1578022572.0,"The batteries could heat themselves without much trouble. We calculated something on the order of a 10% range per day penalty a few days back provided you painted/polished the vehicle, you should be able to find the entire thread in my comment history.
+
+So, just keep it plugged in when you're not actively driving and it's fine for heating. Cooling might be a bit more questionable."
+SpaceXLounge,fct8whk,t1_fcrbuap,1577936013.0,"One thing to consider is that 1 Starship launch is supposed to be roughly 7 Falcon launch's worth of satellites, they'll probably have to stockpile satellites for a couple of months in advance. Falcon Starlink launches winding down late next year would happen with Starship flying Starlink satellites early 2022.
+
+That seems like a non-aggressive timeline."
+AVoid5,fcs5q9f,t3_eifvmm,1577911819.0,Happy start of an annum.
+spacex,fckfna4,t1_fck32dy,1577724261.0,"The OFT as defined by the commercial crew contract between NASA and Boeing has either not occurred, or was not even remotely successful. The paragraph is taken from Boeing's CCtCAP contract, Attachment J-03, page 36:
+
+> The Contractor’s flight test program shall include an uncrewed orbital flight test to the ISS. The OFT shall include a CCTS that validates end-to-end connectivity, LV and CST-100 integration, launch and flight operations, automated rendezvous and proximity operations, and docking with the ISS, assuming ISS approval. [Second half of paragraph redacted under exemption (b)(4) of the Freedom of Information Act which protects ""trade secrets and commercial or financial information obtained from a person [that is] privileged or confidential""]
+
+To break down those requirements one by one
+
+ - to the ISS - Failed
+ - End-to-end connectivity - Failed
+ - LV and CST-100 integration - Failed
+ - Launch operations - Success!
+ - Flight operations - Failed
+ - Automated rendezvous - Failed
+ - Automated proximity operations - Not attempted
+ - docking - Not attempted"
+spacex,fckf1a1,t1_fck3hul,1577723873.0,"To go along with this, end-to-end connectivity is a requirement. The backup for systems is ""well, we can always send radio signals"". Loosing attitude control should not have resulted in loss of signal."
+ChoosingBeggars,fcj3jd8,t1_fciuoni,1577676377.0,"Similar question: Is this rate so high because they spend a lot of ""unpaid"" time designing the tattoo or something?"
+spacex,fcgj4wr,t1_fcg9sr2,1577640655.0,"The source I linked above was $300-$500, just from some professor not from SpaceX. I'm not having much luck searching for the interview, the fact that they raised $400 million dollars at one point really doesn't help with Google...
+
+I've definitely heard a [target number of $200](https://binj.in/technology/spacex-confident-its-starlink-will-offer-broadband-internet-from-space-by-2020-report/) more than once... so I'm reasonably sure that $400 would not have been aspirational.
+
+For the most part I agree with you on the cars part, not debating that right now."
+spacex,fcg6lzj,t1_fcfuwaq,1577636935.0,"Your prices are outdated. It's more like $400 these days. Here is [a source](https://www.latimes.com/business/la-fi-spacex-starlink-constellation-20190628-story.html), though my original source on that is a interview with Shotwell that I can't seem to find right now."
+spacex,fcblyoc,t1_fcan6li,1577588392.0,"I doubt electric vehicles are going to have much problem with traction, they have a lot of mass to make up for the lower gravity.
+
+I could be wrong though, would love to see some numbers."
+spacex,fcblnw6,t1_fcayjnt,1577588301.0,"We'll make ""roads"" as soon as we have two places we want to go between regularly. They probably won't be paved (maybe with ""marscrete"" if that becomes a thing, I'm skeptical) but they will be groomed like gravel roads on earth."
+spacex,fcbl8fr,t1_fcbjgnv,1577588166.0,"On the flip side go for a drive in the desert in a straight line... and only go 30 km/h... you'll feel very stupid.
+
+The minimum speed on Mars will no doubt be less than 30 km/h... but the maximum speed will no doubt be greater than 30 km/h."
+spacex,fca0wzx,t1_fc9xm7e,1577561208.0,"Polished steel is probably better, I'm just more comfortable stating the numbers for paint, it's an easy upper bound. 
+
+Real insulation is no doubt better, but for low volumes it might not be worth redesigning the truck vs ""fixing"" the issue by sending more solar panels (""mass cures a lot of sins"").
+
+I'm pretty sure the dust shouldn't stick to the bottom of the steel, and can easily be brushed off the top if it becomes an issue. I'm less confident that it won't sand blast the bottom and ruin any finish (or paint). On the other hand if you have any armor on the bottom below the battery pack you get a natural vacuum panel on mars (the atmosphere is for practical purposes a vacuum) and you should be able to have a mirror finish on the first panel that is attached to the battery."
+spacex,fc9v1dk,t1_fc9twuu,1577558627.0,"10m^2 seems like a reasonable enough estimate, I don't pretend to know what a reasonably achievable emissivity is for bare stainless steel, but it's easy to [paint it](https://www.solec.org/lomit-radiant-barrier-coating/lomit-technical-specifications/) with something with an emissivity around 0.2. 10 * 0.2 * 350 = 700 watts... which leaves 300 watts of paint damage (and conduction) before the estimate is above 1kW.
+
+Power generation is a problem no doubt, but it's a centralized problem. You don't put the solar panels on the truck..."
+spacex,fc9s2d0,t1_fc9rp8y,1577557363.0,"Tires are getting eaten on mars right now because they're practically made out of tinfoil... I suspect heavier tires would do fine, and still weigh less than tracks.
+
+Admittedly, I don't have any strong evidence to back up my claim."
+spacex,fc9rr0m,t1_fc9ppx6,1577557226.0,"Why would we drive at only 20-30 km/h? We drive faster than that on dirt roads here on earth. Time is a valuable resource.
+
+Also humans like going fast... I bet there *will* be drag races before long :P"
+spacex,fc9qcd7,t1_fc9j40d,1577556598.0,"First - I appreciate you bringing numbers into this conversation, I was definitely being lazy by not checking them when I originally made the claim.
+
+350w/m^2 * emissivity sort of proves the original point that we can just heat the battery though. Round that off (probably upwards) to 1kW for the entire truck, and we are talking about something on the order of 20kW/day.
+
+We don't know the size of the cybertruck's battery, but it seems like [reasonable guesses](https://www.cybertruckownersclub.com/forum/threads/cybertruck-battery-size-estimate.141/) for the tri motor variant are around 200kWh. In other words we lose 10% of the max range per day due to heating. That seems like an acceptable cost."
+nextfuckinglevel,fc9o77y,t1_fc94zkh,1577555649.0,"That's an accurate description of rules in hockey, you learn from a young age that there are good penalties and bad ones, good penalties are when it was worth the risk of a penalty to do what you did (in terms of winning the game, and sometimes protecting teammates, not personal satisfaction)."
+nextfuckinglevel,fc9nq50,t1_fc9cswi,1577555442.0,"Without checking, the rule is more likely that *you* can't play the puck with two sticks, most rules don't care about what the rest of your team is doing, it's not like you know if there's about to be a turnover."
+spacex,fc9lnpt,t1_fc9jpxu,1577554526.0,"""Tracks"" could be the ""something more appropriate"" in that sentence.
+
+I doubt it though, circular wheels of some kind probably make more sense. Tracks are heavier, they have moving parts that might be damaged by abrasive sand, and we have less experience with them. Their primary advantage is that they have more surface area, so they are less likely to sink into soft surfaces and get stuck. I doubt that advantage will be necessary since most of mars is rocky, and the gravity is lower."
+spacex,fc93pt4,t1_fc8zn2k,1577546530.0,"Low atmospheric pressure means low thermal conductivity, it can probably just heat the battery overnight. Tires might need to be replaced with something more appropriate though. Cooling while charging/driving might actually pose a difficult challenge, but I doubt it's insurmountable."

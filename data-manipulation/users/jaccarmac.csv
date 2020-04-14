@@ -1,0 +1,27 @@
+subreddit,self ID,parent ID,time,text
+GUIX,fdxxpv1,t1_fdv7w87,1578773960.0,"Ugh, I remember this being extremely annoying to debug and now I can't remember exactly the right steps I took to solve. I've dug through my browser history and found a couple things that I read before solving the issue which may be useful.
+
+\[1\] [https://gitlab.com/pjotrp/guix-notes/blob/master/INSTALL.org#set-locale](https://gitlab.com/pjotrp/guix-notes/blob/master/INSTALL.org#set-locale)
+
+\[2\] [https://lists.gnu.org/archive/html/help-guix/2018-03/msg00133.html](https://lists.gnu.org/archive/html/help-guix/2018-03/msg00133.html)
+
+According to \[1\], it might be that the runtime environment of the daemon *and* its build-time environment need to have the same locale set. Not sure. I checked my install of Guix on Gentoo with no systemd from before my current machine and couldn't figure out if I had encountered the issue there or how I had avoided it. The init file in that case didn't seem to have locale settings.
+
+On the other hand, on my systemd machine I do notice that the guix-daemon service sets `GUIX_LOCPATH` to the *absolute* value of the directory. Not sure if that's significant but I might give it a shot if I were you.
+
+`Environment=GUIX_LOCPATH=/var/guix/profiles/per-user/root/guix-profile/lib/locale`"
+GUIX,fdsd4ys,t3_emx9su,1578699912.0,"I can help with a couple of these (ran into the same or very similar issues when starting to use Guix myself), not the others I'm afraid.
+
+1. By default `guix pull` puts its files in `~/.config/guix/current`. If you add `bin` from there to your path you should get the newest version after pulls. (I source `$HOME/.config/guix/current/etc/profile` at the top of my `.profile`.
+2. Not sure, I haven't looked into this myself.
+3. Also not sure. I know that the UI is pretty annoying without the Emacs package, even though so far I manage without using it.
+4. At least in my case, I had to solve this problem by making sure that the *daemon* was running in an environment with the correct locale settings. That meant installing those packages as root in a root profile and then running the daemon in that environment."
+news,fd4w4po,t1_fd4bqdz,1578171596.0,Look up your representative's voting record on the Iraq War then.
+todayilearned,fc3ub8p,t1_fc3sqon,1577398820.0,Read my comment again but slowly
+todayilearned,fc3q2tz,t1_fc3pwoj,1577395798.0,"justasapling mostly agrees with you from what I can see. But the jewels provide justification for the violence, which you would understand if you weren't so dedicated to missing the point."
+todayilearned,fc39jv1,t1_fc37yb9,1577384752.0,"I think you misunderstand me. I'm only talking about the extremely valuable property of a certain class of person. I've had small-potatoes stuff ignored myself, but as noted below those Miami cops went HAM for jewels."
+todayilearned,fc33mp5,t1_fc30qg2,1577380658.0,">If you go by precedent, police don't really have a job at all.
+
+Crazy indeed. Almost like the incentives are set up for police to only care about property crimes of a certain magnitude. But that can't be right, we're all equal under the law in America..."
+todayilearned,fc2ztk5,t1_fc2yeyr,1577378233.0,"Interestingly enough, that's not the job of the police, at least according to the US Supreme Court (and lower courts). Check out Lozito v. New York City, Castle Rock v. Gonzales, and Warren v. District of Columbia."
+Christianity,fbzr8x2,t3_ef48gp,1577257454.0,"Thanks for this! I've only just started listening to Messiaen myself and appreciate the addition to the listen-list. I've been going through Louis Thiry's recordings so far, and see that Messiaen composed another Nativity suite, La Nativité du Seigneur, much earlier in his life and for organ instead of piano. In any case, a ton of music: Between that and my non-musical Nativity slacking, I should really avail myself of the Julian calendar this year!"

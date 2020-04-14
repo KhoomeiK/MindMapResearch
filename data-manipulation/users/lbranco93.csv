@@ -1,0 +1,55 @@
+subreddit,self ID,parent ID,time,text
+badmathematics,ffbi8uf,t3_esfjwp,1579766518.0,"Has anyone actually read the two articles linked in his bio? Any opinion? 
+
+I mean, those are just two preprints and I don't think they'll ever be published, but maybe he isn't total nuts."
+Cringetopia,ff5ks5b,t3_erlq88,1579597642.0,He will get the usual 15 minutes of fame and be forgotten with the next trend
+SampleSize,ff5iabl,t3_ereg6q,1579594136.0,"What's the point of having so many slightly different shades of purple and blue, when you can only select just a few colours in the answer? There were like 5 different shades of cyan, I put blue on all of them.
+
+The idea is cool, but maybe it would be better with less  questions and focusing on different colours, rather than using 2-3 shades of the same (answer) colour."
+Cringetopia,fexkbfx,t1_fewsvj8,1579432379.0,"The way it fades close to the neck gives it away, in my opinion"
+QuantumComputing,fex856r,t3_eqtvjr,1579426635.0,"I have never used it on mobile, why do you think they decided to drop the mobile side?"
+QuantumComputing,fetx7il,t3_eqkxga,1579380990.0,"Yes, do you have any specific question?"
+QuantumComputing,fejeoom,t1_fegxfic,1579170465.0,"I wasn't able to find it, are you referring to this track? [https://www.tudelft.nl/en/education/programmes/masters/applied-physics/msc-applied-physics/applied-physics-programme/track-physics-for-quantum-devices-and-quantum-computing/](https://www.tudelft.nl/en/education/programmes/masters/applied-physics/msc-applied-physics/applied-physics-programme/track-physics-for-quantum-devices-and-quantum-computing/)"
+QuantumComputing,fejebt4,t1_fegq4hg,1579169924.0,To be honest the actual physics is usually an overkill compared to what most people want to do with QC
+QuantumComputing,feje81i,t1_feiar5m,1579169769.0,"Well the whole thing about Pauli matrices, rotations and bra ket is usually covered in a quantum mechanics course, while other stuff like bloch spheres, density matrices, algorithms and such is covered usually in any quantum information/computation course. I agree there's no single course covering everything, but that's just because explaining the whole quantum mechanic thing and then quantum computing and information, with in-depth explanations, would be way too much for a course.
+
+With microwaves I guess you're referring to the article posted here a few days ago about using microwaves to reduce errors, which I think is something you would do as an experimental solid state physicist/engineer working on the hardware side (so you don't really need to know much about algorithms and QC yourself). Here I really can't tell as I've never seen it covered in any course, but I guess that's something you see as an experimentalist.
+
+Edit: also, I would like to mention that ""Start to finish"" courses are something found within established fields that have a solid industry behind, which QC is not. QC is still in its infancy and most of the jobs are on the research side and require a phd. There are developers roles, but not nearly enough and you don't actually need QC at all for those (just look at quantum developers job alerts by ibm or google, quantum mechanics knowledge is not even required).
+
+Edit 2: also, the book I suggested covers most of the things you mentioned, with a kind of ""start to finish"" approach since as far as I remember doesn't require prior quantum mechanics knowledge (not exestinve at least), but just the basic linear algebra knowledge."
+QuantumComputing,fei7ub7,t3_ep27ui,1579132221.0,"As a physicist I can tell you that all of these topics are covered in any quantum information or computation course I have seen. I guess the courses you refer to are meant to be taken by computer scientist (to be honest, you don't need to know too much about the physics behind QC to use the IBMQ qiskit framework). You can find a good introduction to the mathematics behind and the theory of quantum circuits (4th chapter, I think) and computation in the book ""Quantum computation and Quantum information"" by Nielsen and Chuang (10 years edition).
+
+When talking about the histogram, are you referring to the ones showing on the IBMQ tool? From what I've seen, that histogram just shows the coefficients of your qubits state when expanded in the basis states."
+Cringetopia,fdojyn7,t3_em8aow,1578606668.0,Satire
+insaneparents,fdl4hkv,t1_fdk89gm,1578516901.0,"Also, people forgets that vaccines are a preventive treatment, not some kind of health serum. Listening to some people, it sounds like nobody died of old age before vaccines were invented"
+italy,fdies44,t1_fdi2w5x,1578441266.0,"Ci manca la guerra tra poveri guarda, mettici dentro pure gli immigrati che fai più scena."
+italy,fdiejtl,t1_fdhrbeb,1578441118.0,Benaltrismo. L'ha fatto sugli insegnanti perché lo riguardano personalmente come dice nel titolo. Il resto del commento è no sense puro
+QuantumComputing,fdgyti0,t1_fdgkil5,1578411632.0,"Thanks a lot, I'll look into it!"
+QuantumComputing,fdeyz1b,t1_fde5oww,1578349596.0,Thanks! I'll read throughout it as soon as I can.
+QuantumComputing,fdeyssk,t1_fde97g9,1578349487.0,"Yes, by ""not research"" I mean ""not in academia"", sorry for the misunderstanding. I have no idea how a research career in the industry would look like, since I've only experienced research in the academia, but I guess a phd and some post-doc experience would be required.
+
+If I may, what's your job?"
+QuantumComputing,fddyawq,t1_fdc3omd,1578326921.0,"I'm sorry as I'm afraid to have badly phrased my answer.
+
+As in my post, I'm already aware of the issues you mentioned, especially because in my master's thesis I worked on the markovianity (which involves complete positivity in the presence of an environment) of quantum dynamical maps. That's exactly the kind of topics I'm not too interested into, as I'm not looking for a career in research but for something more technical and more CS oriented, like SW or algorithm optimization but focused on quantum tech.
+
+My questions arised because I noticed some openings in companies for development of libraries to simulate quantum circuits or stuff like quantum annealing for finance and such. Some companies are offering quantum technologies in cloud for industry and finance clients, and that's what I would be mostly interested into."
+QuantumComputing,fddx0rl,t1_fdd6ddn,1578326047.0,"I've met some of those acronyms while looking around, as I try to keep up to date with current developments. Thanks for the advice! And I'm definitely using the quantum report to be aware of players in the field."
+QuantumComputing,fddwna7,t1_fdczme9,1578325789.0,Thanks!
+QuantumComputing,fdbqovi,t1_fdb1rx9,1578260406.0,"Yes I'm aware of most of the theoretical issues that quantum computing has to face, the point is that I'm not too much interested in those as I'm leaning more toward a career in industry, so maybe something like SW development of libraries and such, or something more in-between CS and physics like quantum algorithms optimization. But I don't know how much quantum physics skills are required in either of these and where to get the necessary skills apart from self study."
+QuantumComputing,fdbq1bm,t1_fdbee89,1578260190.0,"I was more keen on something between SW development and (if possible) theoretical research, but still more on the side of SW development."
+educationalgifs,fcvo100,t1_fcvbpy0,1578006243.0,"I didn't realize we were on reddit.us, I thought we were on the international reddit.com version of the world-wide known forum. My bad
+
+Edit: typos"
+educationalgifs,fcvnuk5,t1_fcvc719,1578006130.0,"I'm just watching ""Australia"" from Batz Luhrmann and that really adds up to how ""special"" Australia was"
+MapPorn,fcuq7um,t1_fcu5tz5,1577986294.0,"Use Telegram, it has a better sharing usage as you can share larger files and create broadcasts and private chats with just yourself, so to store files and retrieve them later.
+
+Edit: also, animated stickers and bots"
+educationalgifs,fcuj3t3,t1_fcub35r,1577982157.0,"Horse and Tower, sorry mate."
+europe,fcu0i7d,t1_fcty638,1577968280.0,I think I'm missing a reference here
+educationalgifs,fctynjy,t1_fctvp61,1577966044.0,It's called horse in many countries. Same in Italy
+europe,fctwjno,t1_fctv47b,1577963172.0,"That's actually Slovenia, though"
+specializedtools,fbo1z0a,t1_fbn6b41,1577005842.0,"Well you know, a thing called gradual tax rate exists so the poor pay fewer taxes on their already low income, so that they won't starve, while wealthy people like you can pay a much larger share without having any issue.
+
+I can't imagine being so retarded that you feel entitled to complain about your 250k yearly income."

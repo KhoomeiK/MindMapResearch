@@ -1,0 +1,617 @@
+<<<<<<< HEAD
+subreddit,self ID,parent ID,time,text
+DecidingToBeBetter,ffnyjw1,t3_eu3r81,1580072293.0,"u/typical-cranberry 
+
+you can just download goal tracking apps like Raise the Bar - it's basically an EXP bar that gets EXP when you make progress, it's as visual as it gets.
+
+On another note, I am starting a MasterMind group for people who are SERIOUS about changing their lives, however it is a MUST to COMMIT to attend a weekly meeting and thus not befitting of everyone.
+
+on the other hand, if you are willing to commit, you will gain the ENORMOUS benefits that a MasterMind group gives you such as social support, and peer support which are one of the biggest factors for goal achievement or habit creation.
+
+IF YOU CAN'T COMMIT, DON'T PM ME,
+
+however, if you ARE, I'll see you AT THE TOP !"
+selfimprovement,ffnwjea,t3_eu599u,1580071661.0,"u/lookingforanswerss22 
+
+pessimism is a natural phenomenon which means it's our nature - "" nature abhors void, therefore it will always seek to fill it up"" 
+
+and since we are often hearing bad things on the news and most people complaining about everything - the default is to think negatively.
+
+We can tell you about tons of different ways to change your habits and it won't stick, that's why I am here to offer you a solution that works - join a MasterMind group which I am creating that will meet once a week, empowering each other to each achieve their own goals in life, as it has shown that social support is one of the major determining factors in whether someone sticks to ANY habits, or they don't.
+
+&#x200B;
+
+it ISN'T FOR EVERYONE, so if you don't think you can COMMIT to meeting once a week and be a supportive member of the group, DO NOT PM ME.  
+
+
+Otherwise, I'll see you AT THE TOP"
+selfimprovement,ffnv9k3,t3_eu6zfz,1580071304.0,"u/SpecialistWriter 
+
+I am glad to see that you have taken your life into your hands and under your responsibility and are willing to change it instead of keep on dwelling on it.
+
+It seems your problem is that you are lacking motivation because of lack of support, you are not lazy but rather don't find it important enough or just don't feel like your actions have an impact. that's where I am as well, although after quite a few months of learning French and Programming and starting my own business.
+
+Therefore, if you are willing to commit, I am opening a MasterMind group for success - people who want to improve their lives - however it DOESN'T FIT EVERYONE, so don't PM me if you're just going to go back to your old ways....
+
+otherwise, I'll see you soon AT THE TOP"
+DecidingToBeBetter,ffnu9l3,t3_eubzxx,1580070909.0,"u/1tzL3ban   
+
+
+I just don't care why you wrote it, I'll be frank.
+
+I am glad to see that you have taken your life into your hands and under your responsibility and are willing to change it instead of keep on dwelling on it.
+
+&#x200B;
+
+I am however interested in asking if you think you can do it on your own, because as much as it all seems well, a few days of ""renewed spark"" are not going to last unless you can sustain it somehow and renew the spark every so often.
+
+&#x200B;
+
+Therefore, if you are willing to commit, I am opening a MasterMind group for success - people who want to improve their lives - however it DOESN'T FIT EVERYONE, so don't PM me if you're just going to go back to your old ways....
+
+otherwise, I'll see you soon AT THE TOP"
+learnprogramming,ffijv2h,t1_ffgg21i,1579975603.0,"LOL it sounds so hard to do, and judging by my yesterday's attempt, I guess I need to improve my math knowledge before I can know how to approach programming in a higher level, wouldn't you agree that math knowledge is quite essential to programming ?"
+learnprogramming,ffg7c5i,t1_fffqzla,1579900023.0,"THIS. is just too much for me to do in 1 sitting xD, will get back on it monday \^\_\^ 
+
+thanks for the suggestions, I appreciate it very much !"
+learnprogramming,ffg1790,t1_fffxrqe,1579896239.0,"ok got the user's input solution as well !
+
+&#x200B;
+
+     int value1 = 1;
+                int numRows = Convert.ToInt32(Console.ReadLine());
+    
+                for (int i = 0; i <= numRows; i++)
+                {
+                    Console.WriteLine(String.Concat(Enumerable.Repeat(""*"", value1)));
+                    value1++;
+                }
+
+where value1 = starting number of asterisks
+
+numRows = User Input converted to Int for how many rows to print out
+
+code inside for Loop = write asterisks times value1
+
+value++ = grow that value each time"
+learnprogramming,ffg0nok,t1_ffg0hyu,1579895907.0,"yeah that was obvious to me from the start lol,
+
+now working on the user input, need to find a way to output the number of ROWS to print, rather than how many asterisks to multiply, now that's a challenge !"
+learnprogramming,ffg070n,t1_fffy7ll,1579895623.0,"I'm sorry man, but I honestly don't get your point...
+
+if you mean that the relation is that it always grows by 1 then I've got you(that it keeps adding 1 asterisk to the right growing by 1 more column each time, other than that I don't know what you mean"
+learnprogramming,fffxrqe,t3_etdy8k,1579894121.0,"u/Updatebjarni 
+
+So here's the code I came up with so far after 1 hour of trying it, and learning what append even means xD and some new skills
+
+    System.Text.StringBuilder sB = new System.Text.StringBuilder(""*"");
+    
+                for (int i = 0; i <= 5; i++)
+                {
+                    Console.WriteLine(sB);
+                    sB.Append(""*"");
+    
+                }
+                for (int i = 0; i <= 5; i++)
+                {
+                    sB.Remove(1, 1);
+                    Console.WriteLine(sB);
+    
+                }
+    
+                Console.ReadLine();
+
+I was sure I could program with some basic stuff but apparently keeping on growing my programming knowledge although scary is a must if I want to move beyond beginner stuff, thanks for the challenge !"
+learnprogramming,fffxhwy,t1_fffvbpf,1579893952.0,I'm sorry but I didn't get your meaning u/desrtfx
+learnprogramming,fffrjsa,t1_fffqqvz,1579890247.0,"Going to work on it, will reply later with the results"
+learnprogramming,fffraph,t1_fffqqvz,1579890090.0,">In each case, the algorithm should allow the user to input how many lines of output he wants, and then calculate the proper number of lines and characters accordingly.
+
+that would be quite hard, at this point I can just give the first 3 examples a try, then try to figure out the last part since it seems very hard(unless I can create an if-statement to determine the input based on user's input ?...if that's what you meant"
+learnprogramming,fffq7wv,t1_fffq38z,1579889427.0,"thanks, sounds quite challenging to me to be honest, but it's good as it will improve my thinking and problem solving skills too"
+learnprogramming,fffp7ab,t1_fffp49b,1579888795.0,"cool idea, thanks.
+
+Do you mean to create a method that creates that shape once and then call it using a for loop though ? or to create the entire shape using JUST the for loop ?"
+motivation,ff2tra4,t3_er2lpz,1579523817.0,Season and Episode ?
+motivation,ff2tnk9,t1_ff2iy5k,1579523692.0,"you're right, read my comment for in-depth evaluation that agrees with your viewpoint"
+motivation,ff2tlr0,t3_er4yuc,1579523631.0,"Ok you know what is wrong with this quote ?   
+it is literally wrong sentence formation at it's core, and even worse - it is misleading 100%
+
+let me explain in the basics and then dive deeper :
+
+first of all ""I believe Social media is responsible for almost everybody's failure in life"" - so far so great, social media has an impact that ruins your life 
+
+second ""The majority of people would ***rather*** watch other people's lives instead of live and develop their own."" - Ok so this sentence is just 99% percent correct,**but !** because you have put the word ""rather"" you have made it totally **incorrect** and **misleading** ! 
+
+why ? because while ""social media is responsible"" is putting the responsibility on social media, ""rather"" is a word used to describe a ***Choice !*** thus creating an illogical sentence, because you can't say : social media is responisble for your failure, **and** you choose to look at other people's lives, therefore it's not your fault that you fail.
+
+Honestly I'm sure most people lost me by now, but if you haven't you're probably the 1% who can actually think for themselves through all this BS around you, and that is who this comment is meant for anyway, the rest ... they'll stay the same blaming social media for choices that **they themselves make**."
+depression,ferkzwn,t3_eqcju4,1579355267.0,"Hello there everyone, I have been in depression for 4 years and still have episodes from time to time, I am a social person in that I help other people in order to heal myself, so I am really here to listen if you feel you have no one to talk to PM me here or on Discord : StealAlive#5312"
+GetMotivated,femx4k3,t3_eq13nd,1579271899.0,"Well damn, it got me too.
+
+this is the only story in my life I thought I knew where it was going, and then it went completely to another point, and that's just mind-blowing insight right there..."
+French,fembcr8,t3_epn4ot,1579247081.0,"Salut mec!  [u/Wackymathematician](https://www.reddit.com/user/Wackymathematician/) 
+
+je veux savoir si cela t'aide ou non, s'il vous plait ! \^\_\^"
+French,fekw4bm,t3_epn4ot,1579208822.0,"OK so obviously there is no 1 solution and people go about learning differently as they have different goals, however for me who has started to learn in order to speak and read French mainly,I have started like this :
+
+**1-2 months** \- load up on as much vocabulary as you can. I did that by watching let's play of Enslaved;odyssey to the west in French with subtitles (will add a link soon)
+
+[Link to Enslaved by Nyo Bonus](https://www.youtube.com/watch?v=d6LgTcqGQBQ&t=1s) (Please note that he has a playlist of the game, but the playlist has just 6 videos, but actually there is another video (no.7) if you will look through his uploads, it's pretty easy to find.)
+
+ and taking down notes of EVERY word and translating it then adding it to Anki app to review. This has got me around 600 words in a month's time and gave me quite a base to learn French from.
+
+**Month 3** \- Figure out WHY you learn (is it for job,relationship,movies,games etc...) And focus on the skills you'll need to achieve your goal.(reading,writing,listening or talking)
+
+For me as I said its about speaking and reading, which are output skills, so I focus on this using apps that make me write the language and speak it such as :
+
+ NextLingua(from the start),Memrise(new to it but pretty cool),
+
+ Le Bon Mot Francais(my newest hidden gem, has dialogue spoken by REAL people rather than google's voices) 
+
+and Apprendre which does what everyone dreamt of - it takes real French TV shows, music clips and other media and asks you questions to see if you understand it well enough(best by far if quite time-demanding)
+
+**Month 4** \- Present I am at quite a good level but as I've said I want to focus on speaking too, so apps are nice but aren't real conversations,and I couldn't get into the iTalki or other language exchange apps as it feels too weird for me ATM,
+
+ so I took matters to my own hands and created a Facebook group for locals in my city who speak French in order to practice the local language and vice versa. So basically I'm creating a community in order to improve my French, now obviously you don't have to do that far, but get creative with that and you will make it.
+
+If you'll notice,I've gone through a lot of things, and I've only given you the successes, but this is after sorting the useless stuff out, so be sure to get ready,because not every method you will find will be perfect on your first shot. As a wise man once said to me ""Every plan is a basis for change""."
+learningfrench,fejgs48,t1_fddkrhx,1579173527.0,"Rule no.1 of books - never loan them out, **Especially** not to your friends.
+
+**The land of loaned books is the land of no-return.**"
+learnprogramming,feg717x,t1_feg70mb,1579080008.0,"ok, at your convenience then \^\_\^"
+learnprogramming,feg6zqm,t1_feg6xit,1579079950.0,can you publish that  code here please ?
+learnprogramming,feg6ukx,t1_feg6b24,1579079750.0,"it sounds great man but I'm not at that stage yet, and I do try to create some to do list of my studying on the console app, however, I don't know if it helps me improve that much..."
+learnprogramming,feg3sma,t1_feg3n7z,1579075645.0,"I know that I need the practice, however I don't know where to get that practice at.
+
+I have started with Unity but found out that the game creation aspect is 1)not that exciting for me and 2) based on Unity's libraries which make me learn Unity library than C# library coding .... and I want to learn the C# before going on and use other libraries.
+
+I hope I make enough sense ?"
+learningfrench,fedgymx,t1_fedc6b6,1579011247.0,"I recommend On Y go !   
+they speak about video games both in English and in French there"
+learningfrench,fedgu9k,t3_eo7nkw,1579011153.0,"[https://disboard.org/search?keyword=french](https://disboard.org/search?keyword=french)  
+like seriously guys, you have around 700 discord channels in French.... a simple search"
+QuotesPorn,fed814q,t3_eojshv,1579003111.0,Why do you make people sad in the middle of the day? WHYYY
+WorkOnline,fdxrzwl,t1_fdxkwqd,1578772315.0,sent
+learnprogramming,fdxlv98,t1_fdxck84,1578770368.0,"OK then in that case I will suggest you go on Youtube and search for ""Mike Dane"" or Giraffe academy.
+He's got very simple and beginner friendly coding tutorials about every language as far as I know, and he gives actual examples which will give you an idea on how to start programming your own projects"
+learnprogramming,fdxb6it,t1_fdxaw5p,1578767093.0,"Why, do you lack the programming skills or you don't know programming at all ?"
+motivation,fdx9atq,t1_fdw8yfc,1578766556.0,"I used to think that too, however I've learned that grenades are quite dense and thus quite hard to kick"
+WorkOnline,fdx93z2,t1_fdu12mv,1578766490.0,"OK that seems like a great option actually, would you be kind enough to help me get started with this selling accounts/boosting ? Thanks"
+learnprogramming,fdx86fk,t1_fdttiti,1578766271.0,"Hayleybts, I'll give you a test : 
+Try to create a chat program where you and a friend have to input messages(even on the same computer for a start) and see how many challenges you run into, that ought to help you grasp the concepts he's talking about while learning so much along the way"
+learnprogramming,fdx7hcg,t3_en39zp,1578766040.0,"@
+I don't get it, I'm learning programming on my own for about 2 months and I'm already starting to experiment,I was where you are but then I just started doing silly projects which seemed interesting to me like creating a calculator , calculating how much time I study and changing it from hours to minutes etc... 
+
+About the theory part, I hope you don't have a driving license yet because its the same way, if you just took 6 months of theory lessons, I wouldn't be on the same road as you. 
+
+I am NOT a successful person , but I know this : success in ANY field is about ""doing"" the thing, and not just ""thinking"" about it."
+WorkOnline,fdtm6lv,t1_fdtlzhq,1578718775.0,"Well, I don't know how or where to look for it, and what are the requirements, could you direct me to the first step on that ?"
+WorkOnline,fdtlk6u,t1_fdtl55q,1578718514.0,"I see, however I know from myself that unless something interest me deeply, I won't be able to sustain doing it for a long time, and this method of getting people go sign up for my product is just depressing to me.
+I am not one of those ""I'll do anything for money"" people, I love gaming and so I want to make money doing what I love, thanks for the help though"
+WorkOnline,fdtkdpb,t1_fdtk24j,1578718019.0,"I said I'm looking for ways to make money off games, and strictly said no marketing..."
+depression,fdtgblb,t1_fdtf991,1578716354.0,"ok, sent you a private message then"
+ProgrammerHumor,fdtg121,t1_fdqxjoe,1578716231.0,Thank you guys for the motivation ...!
+ProgrammerHumor,fdtefeh,t1_fdt3nna,1578715579.0,"this seems like a pretty romantic thing actually, romantic potential at least"
+depression,fdte11d,t3_en29zm,1578715420.0,"u/meowscx I wonder if you know what you've just signed up for ?   
+
+
+I know what it's like to feel you're all alone and misunderstood, but do you know what it means to give up trying to face those things ?"
+depression,fdtdgv7,t1_fdtcbpu,1578715190.0,"I am sorry bro, but this is quite a predicament you're in, because you're right
+
+people gravitate towards drama, and so even if you want to be around people you can't because you hate drama. it's almost funny.  
+However, if you understand that drama is part of life, it might make your life easier.
+
+as my favorite mentor Jim Rohn said : 
+
+>You either choose safety or adventure, if you want to be safe then sit in the corner, we'll put a blanket over you, we'll keep you safe and care for you and feed you, and bring you 3 meals a day and we won't let anything bad happen to you, and you'll probably live to be 100 .
+
+the guy says : well I'll probably live to be 100, but what a way to live ?
+
+>Right ! what a way to live ? safe and secure ?   
+that's why I say it's better to live 30 years full of adventures than 100 years safe.... in the corner.....
+
+now you tell me, what do you want in **your**  life ?"
+depression,fdtciq9,t1_fdtb23u,1578714813.0,"I'll do this once to give you the TOOL and not the solution, so you can use it yourself later. 
+
+I'll do the breakdown of your answer to SHOW you how your mind convinces you to believe what it wants.
+
+>!Warning : what you are about to read is going to change the way you see the world, please DO NOT read if you are unable to change your opinions.!<  
+>!first of all , you started by saying :  The three cuts took away the past temporarily and gave me a fresh start !<
+
+>!that response is your mind causing you to create a ""reason"" for your upcoming actions, and justifies them, however bad they may be, this kind of action can be seen in criminals as well, believing they are doing good, while actually hurting people.!<  
+>!Then you have stated :  I already feel the bliss fading though as my mind creates thoughts against itself. The pain is good, the impulse is good, and the blood shows results. !<  
+>!This is your ""reward"" as your brain created this in order to let you know what you did is a ""good"" thing even though it's not. your brain is going to do this by using immediate results, as you probably know from porn addiction as the climax is making you feel good, but the action is probably not so helpful to you.!<  
+
+
+so now you see, if you don't take it too specifically or personally to your situation, it will help you in every area of your life, as in this case, this is what : 
+
+> **What our minds convince us is true, is just that - What our mind CONVINCED us is true.** 
+
+means.
+
+take care my friend, you are not staying in this world because you need someone, you are staying in this world because **someone needs YOU**."
+depression,fdtaymx,t1_fdta5w2,1578714222.0,"Based on your response, I don't have much to say anymore.
+
+I will just leave you with something that always makes me get back to my senses, and I suggest you remember it for as long as you live, as it will probably save you from a lot of ""wrong"" choices down the road.
+
+**What our minds convince us is true, is just that - What our mind CONVINCED us is true.**"
+depression,fdtabg3,t3_en23oh,1578713979.0,"I don't know the whole story, but it seems like your bf doesn't really pay attention to you 
+
+no pun intended but that's ""nsfw"" sign for you ...(or a red flag if you will)
+
+I see that you need someone to talk to, as you feel like you are all alone fighting this battle which anyone who's been there knows is unbearable to take on all on your own.  
+
+
+I am gonna keep this short and invite you to send me a private message if you want someone who **actually listens** to you, as it's amongst the very few skills I have in this world ...  
+
+
+I'll be waiting for your message if you want to talk even right now"
+depression,fdt9f5x,t3_en22ve,1578713645.0,"> Shouldn't I be out, either on a date, at bar with friends, at the club, flirting to get a mate for the night or something?  
+
+No, absolutely not, this is one thing I'd call : an option
+
+> I've convinced myself that friends, girlfriends, etc. Are not worth it 
+
+Well, if you convinced yourself, that means there's some use to you in believing that, as I believe the same way that those things are useless, and ever since I've accepted it, my loneliness is not there anymore. because loneliness or **any mental illness** for that matter is just cognitive dissonance.
+
+what is **cognitive dissonance?** I'm no doctor but in my simple understanding it's when what you want, and what you have are not in allignment, for example - you want to be social but you don't have friends, that creates loneliness. however by not wanting that social aspect, having no friends is no longer loneliness. I hope that makes sense.  
+
+
+>  Tell myself, I don't have to deal with any of that and that's fucking GREAT!  
+
+that doesn't seem like you've convinced yourself, so maybe you lied to yourself, because as you can see above I feel truly good about it, but if you feel bad about it... then better check again if you **really** want to be away from all of ""this""   
+
+
+waiting for your response \^\_\^"
+depression,fdt85yd,t3_en1y7z,1578713179.0,"# This is not a judgement post
+
+  
+I am not going to judge you, however I do want to get some things understood, if you will \^\_\^  
+
+
+First of all, would you be kind enough to write out and release those things in writing that have been your failures in each of these areas ? I am interested in your journey.
+
+Second, would you please explain how is cutting making you cleansed ? is it like the blood spilled and washed away from your life ? I'm really clueless here   
+
+
+Third, what is your name \^\_\^ ?"
+depression,fdt70j8,t3_en1rbh,1578712750.0,">  I have joined every club and tried almost every hobby I could and I am still as empty as a black hole. 
+
+I am sorry to tell you this but ...it doesn't matter where you will go, things unfortunately won't change unless you change inside, I am talking about this from experience of changing tons of jobs, moving to a number of different cities and yet feeling empty in every place I've been to. 
+
+I am able to open up socially to people just enough that when we're in a setting that forces them to interact with me (ex. Job,School,Class...) then I can show  them I'm quite nice to be around with, however on a random event such as walking down a street or a bar or a party... I won't open up my mouth and would feel terrible for having gone out of the house in the first place.
+
+I wish I could have told you what to do, but I'm in the same place you are, or even worse... as I'm not willing to become socially adept, I like this loneliness even if it's a bit harder at times than having a support system, but a good quote I've seen on the subject that might hit you hard (you have been warned !!! ) is this : **No matter where you go, you take yourself with you.** 
+
+[Original Quote](https://data.whicdn.com/images/179180226/original.jpg)"
+depression,fdt50ap,t3_en1o50,1578711999.0,"u/Kiarata   
+I actually felt the same way as you before, I used to be on an online website where people would ask questions and vent and I'd usually strike up conversations with the most broken of souls, as I don't know how to make people open up to me in real life this fast(too long to explain here)
+
+anyways, I'd end up talking to strangers online on a daily basis, taking care of them and making sure they didn't fell down this dark tunnel which very few get out of at the end. 
+
+I have also got back to this site and had a girl hit me up again saying how I've made a huge change and helped her life that way just by listening to her on a daily basis when she needed it and no one else was there for her.
+
+However, somewhere along the line I've changed(for the worse you could say) and realized that I needed to take care of myself First as all this taking care of others thing did was making me avoid dealing with **my own** problems.
+
+granted, I have turned out to **only** care about myself since then and as some would say it's better, I feel I have become a ""normal"" person - which I consider to be heartless....
+
+so yeah, that's the other side of the coin, so if you're feeling that sense of being a **good person** by helping and listening to others by the cost of neglecting **your self care** then keep doing that, especially if you're unwilling to become like me (I hate myself) and become heartless to anyone in pain.  
+
+
+My only consolidation is that I am an extremist, and this has shown true throughout my life
+
+I'll explain - I would usually go to 1 extreme, and then to the other, because only that way I am later able to find the middle between them. 
+
+so now I understand that I need to Master taking care of **myself** before finding the balance of taking care of both **myself and others.**
+
+&#x200B;
+
+I hope I didn't go out of topic too much, please reply to tell me what you think/ or more importantly how you feel about that ...waiting for input ....."
+=======
+subreddit,self ID,parent ID,time,text
+motivation,ff2tra4,t3_er2lpz,1579523817.0,Season and Episode ?
+motivation,ff2tnk9,t1_ff2iy5k,1579523692.0,"you're right, read my comment for in-depth evaluation that agrees with your viewpoint"
+motivation,ff2tlr0,t3_er4yuc,1579523631.0,"Ok you know what is wrong with this quote ?   
+it is literally wrong sentence formation at it's core, and even worse - it is misleading 100%
+
+let me explain in the basics and then dive deeper :
+
+first of all ""I believe Social media is responsible for almost everybody's failure in life"" - so far so great, social media has an impact that ruins your life 
+
+second ""The majority of people would ***rather*** watch other people's lives instead of live and develop their own."" - Ok so this sentence is just 99% percent correct,**but !** because you have put the word ""rather"" you have made it totally **incorrect** and **misleading** ! 
+
+why ? because while ""social media is responsible"" is putting the responsibility on social media, ""rather"" is a word used to describe a ***Choice !*** thus creating an illogical sentence, because you can't say : social media is responisble for your failure, **and** you choose to look at other people's lives, therefore it's not your fault that you fail.
+
+Honestly I'm sure most people lost me by now, but if you haven't you're probably the 1% who can actually think for themselves through all this BS around you, and that is who this comment is meant for anyway, the rest ... they'll stay the same blaming social media for choices that **they themselves make**."
+depression,ferkzwn,t3_eqcju4,1579355267.0,"Hello there everyone, I have been in depression for 4 years and still have episodes from time to time, I am a social person in that I help other people in order to heal myself, so I am really here to listen if you feel you have no one to talk to PM me here or on Discord : StealAlive#5312"
+GetMotivated,femx4k3,t3_eq13nd,1579271899.0,"Well damn, it got me too.
+
+this is the only story in my life I thought I knew where it was going, and then it went completely to another point, and that's just mind-blowing insight right there..."
+French,fembcr8,t3_epn4ot,1579247081.0,"Salut mec!  [u/Wackymathematician](https://www.reddit.com/user/Wackymathematician/) 
+
+je veux savoir si cela t'aide ou non, s'il vous plait ! \^\_\^"
+French,fekw4bm,t3_epn4ot,1579208822.0,"OK so obviously there is no 1 solution and people go about learning differently as they have different goals, however for me who has started to learn in order to speak and read French mainly,I have started like this :
+
+**1-2 months** \- load up on as much vocabulary as you can. I did that by watching let's play of Enslaved;odyssey to the west in French with subtitles (will add a link soon)
+
+[Link to Enslaved by Nyo Bonus](https://www.youtube.com/watch?v=d6LgTcqGQBQ&t=1s) (Please note that he has a playlist of the game, but the playlist has just 6 videos, but actually there is another video (no.7) if you will look through his uploads, it's pretty easy to find.)
+
+ and taking down notes of EVERY word and translating it then adding it to Anki app to review. This has got me around 600 words in a month's time and gave me quite a base to learn French from.
+
+**Month 3** \- Figure out WHY you learn (is it for job,relationship,movies,games etc...) And focus on the skills you'll need to achieve your goal.(reading,writing,listening or talking)
+
+For me as I said its about speaking and reading, which are output skills, so I focus on this using apps that make me write the language and speak it such as :
+
+ NextLingua(from the start),Memrise(new to it but pretty cool),
+
+ Le Bon Mot Francais(my newest hidden gem, has dialogue spoken by REAL people rather than google's voices) 
+
+and Apprendre which does what everyone dreamt of - it takes real French TV shows, music clips and other media and asks you questions to see if you understand it well enough(best by far if quite time-demanding)
+
+**Month 4** \- Present I am at quite a good level but as I've said I want to focus on speaking too, so apps are nice but aren't real conversations,and I couldn't get into the iTalki or other language exchange apps as it feels too weird for me ATM,
+
+ so I took matters to my own hands and created a Facebook group for locals in my city who speak French in order to practice the local language and vice versa. So basically I'm creating a community in order to improve my French, now obviously you don't have to do that far, but get creative with that and you will make it.
+
+If you'll notice,I've gone through a lot of things, and I've only given you the successes, but this is after sorting the useless stuff out, so be sure to get ready,because not every method you will find will be perfect on your first shot. As a wise man once said to me ""Every plan is a basis for change""."
+learningfrench,fejgs48,t1_fddkrhx,1579173527.0,"Rule no.1 of books - never loan them out, **Especially** not to your friends.
+
+**The land of loaned books is the land of no-return.**"
+learnprogramming,feg717x,t1_feg70mb,1579080008.0,"ok, at your convenience then \^\_\^"
+learnprogramming,feg6zqm,t1_feg6xit,1579079950.0,can you publish that  code here please ?
+learnprogramming,feg6ukx,t1_feg6b24,1579079750.0,"it sounds great man but I'm not at that stage yet, and I do try to create some to do list of my studying on the console app, however, I don't know if it helps me improve that much..."
+learnprogramming,feg3sma,t1_feg3n7z,1579075645.0,"I know that I need the practice, however I don't know where to get that practice at.
+
+I have started with Unity but found out that the game creation aspect is 1)not that exciting for me and 2) based on Unity's libraries which make me learn Unity library than C# library coding .... and I want to learn the C# before going on and use other libraries.
+
+I hope I make enough sense ?"
+learningfrench,fedgymx,t1_fedc6b6,1579011247.0,"I recommend On Y go !   
+they speak about video games both in English and in French there"
+learningfrench,fedgu9k,t3_eo7nkw,1579011153.0,"[https://disboard.org/search?keyword=french](https://disboard.org/search?keyword=french)  
+like seriously guys, you have around 700 discord channels in French.... a simple search"
+QuotesPorn,fed814q,t3_eojshv,1579003111.0,Why do you make people sad in the middle of the day? WHYYY
+WorkOnline,fdxrzwl,t1_fdxkwqd,1578772315.0,sent
+learnprogramming,fdxlv98,t1_fdxck84,1578770368.0,"OK then in that case I will suggest you go on Youtube and search for ""Mike Dane"" or Giraffe academy.
+He's got very simple and beginner friendly coding tutorials about every language as far as I know, and he gives actual examples which will give you an idea on how to start programming your own projects"
+learnprogramming,fdxb6it,t1_fdxaw5p,1578767093.0,"Why, do you lack the programming skills or you don't know programming at all ?"
+motivation,fdx9atq,t1_fdw8yfc,1578766556.0,"I used to think that too, however I've learned that grenades are quite dense and thus quite hard to kick"
+WorkOnline,fdx93z2,t1_fdu12mv,1578766490.0,"OK that seems like a great option actually, would you be kind enough to help me get started with this selling accounts/boosting ? Thanks"
+learnprogramming,fdx86fk,t1_fdttiti,1578766271.0,"Hayleybts, I'll give you a test : 
+Try to create a chat program where you and a friend have to input messages(even on the same computer for a start) and see how many challenges you run into, that ought to help you grasp the concepts he's talking about while learning so much along the way"
+learnprogramming,fdx7hcg,t3_en39zp,1578766040.0,"@
+I don't get it, I'm learning programming on my own for about 2 months and I'm already starting to experiment,I was where you are but then I just started doing silly projects which seemed interesting to me like creating a calculator , calculating how much time I study and changing it from hours to minutes etc... 
+
+About the theory part, I hope you don't have a driving license yet because its the same way, if you just took 6 months of theory lessons, I wouldn't be on the same road as you. 
+
+I am NOT a successful person , but I know this : success in ANY field is about ""doing"" the thing, and not just ""thinking"" about it."
+WorkOnline,fdtm6lv,t1_fdtlzhq,1578718775.0,"Well, I don't know how or where to look for it, and what are the requirements, could you direct me to the first step on that ?"
+WorkOnline,fdtlk6u,t1_fdtl55q,1578718514.0,"I see, however I know from myself that unless something interest me deeply, I won't be able to sustain doing it for a long time, and this method of getting people go sign up for my product is just depressing to me.
+I am not one of those ""I'll do anything for money"" people, I love gaming and so I want to make money doing what I love, thanks for the help though"
+WorkOnline,fdtkdpb,t1_fdtk24j,1578718019.0,"I said I'm looking for ways to make money off games, and strictly said no marketing..."
+depression,fdtgblb,t1_fdtf991,1578716354.0,"ok, sent you a private message then"
+ProgrammerHumor,fdtg121,t1_fdqxjoe,1578716231.0,Thank you guys for the motivation ...!
+ProgrammerHumor,fdtefeh,t1_fdt3nna,1578715579.0,"this seems like a pretty romantic thing actually, romantic potential at least"
+depression,fdte11d,t3_en29zm,1578715420.0,"u/meowscx I wonder if you know what you've just signed up for ?   
+
+
+I know what it's like to feel you're all alone and misunderstood, but do you know what it means to give up trying to face those things ?"
+depression,fdtdgv7,t1_fdtcbpu,1578715190.0,"I am sorry bro, but this is quite a predicament you're in, because you're right
+
+people gravitate towards drama, and so even if you want to be around people you can't because you hate drama. it's almost funny.  
+However, if you understand that drama is part of life, it might make your life easier.
+
+as my favorite mentor Jim Rohn said : 
+
+>You either choose safety or adventure, if you want to be safe then sit in the corner, we'll put a blanket over you, we'll keep you safe and care for you and feed you, and bring you 3 meals a day and we won't let anything bad happen to you, and you'll probably live to be 100 .
+
+the guy says : well I'll probably live to be 100, but what a way to live ?
+
+>Right ! what a way to live ? safe and secure ?   
+that's why I say it's better to live 30 years full of adventures than 100 years safe.... in the corner.....
+
+now you tell me, what do you want in **your**  life ?"
+depression,fdtciq9,t1_fdtb23u,1578714813.0,"I'll do this once to give you the TOOL and not the solution, so you can use it yourself later. 
+
+I'll do the breakdown of your answer to SHOW you how your mind convinces you to believe what it wants.
+
+>!Warning : what you are about to read is going to change the way you see the world, please DO NOT read if you are unable to change your opinions.!<  
+>!first of all , you started by saying :  The three cuts took away the past temporarily and gave me a fresh start !<
+
+>!that response is your mind causing you to create a ""reason"" for your upcoming actions, and justifies them, however bad they may be, this kind of action can be seen in criminals as well, believing they are doing good, while actually hurting people.!<  
+>!Then you have stated :  I already feel the bliss fading though as my mind creates thoughts against itself. The pain is good, the impulse is good, and the blood shows results. !<  
+>!This is your ""reward"" as your brain created this in order to let you know what you did is a ""good"" thing even though it's not. your brain is going to do this by using immediate results, as you probably know from porn addiction as the climax is making you feel good, but the action is probably not so helpful to you.!<  
+
+
+so now you see, if you don't take it too specifically or personally to your situation, it will help you in every area of your life, as in this case, this is what : 
+
+> **What our minds convince us is true, is just that - What our mind CONVINCED us is true.** 
+
+means.
+
+take care my friend, you are not staying in this world because you need someone, you are staying in this world because **someone needs YOU**."
+depression,fdtaymx,t1_fdta5w2,1578714222.0,"Based on your response, I don't have much to say anymore.
+
+I will just leave you with something that always makes me get back to my senses, and I suggest you remember it for as long as you live, as it will probably save you from a lot of ""wrong"" choices down the road.
+
+**What our minds convince us is true, is just that - What our mind CONVINCED us is true.**"
+depression,fdtabg3,t3_en23oh,1578713979.0,"I don't know the whole story, but it seems like your bf doesn't really pay attention to you 
+
+no pun intended but that's ""nsfw"" sign for you ...(or a red flag if you will)
+
+I see that you need someone to talk to, as you feel like you are all alone fighting this battle which anyone who's been there knows is unbearable to take on all on your own.  
+
+
+I am gonna keep this short and invite you to send me a private message if you want someone who **actually listens** to you, as it's amongst the very few skills I have in this world ...  
+
+
+I'll be waiting for your message if you want to talk even right now"
+depression,fdt9f5x,t3_en22ve,1578713645.0,"> Shouldn't I be out, either on a date, at bar with friends, at the club, flirting to get a mate for the night or something?  
+
+No, absolutely not, this is one thing I'd call : an option
+
+> I've convinced myself that friends, girlfriends, etc. Are not worth it 
+
+Well, if you convinced yourself, that means there's some use to you in believing that, as I believe the same way that those things are useless, and ever since I've accepted it, my loneliness is not there anymore. because loneliness or **any mental illness** for that matter is just cognitive dissonance.
+
+what is **cognitive dissonance?** I'm no doctor but in my simple understanding it's when what you want, and what you have are not in allignment, for example - you want to be social but you don't have friends, that creates loneliness. however by not wanting that social aspect, having no friends is no longer loneliness. I hope that makes sense.  
+
+
+>  Tell myself, I don't have to deal with any of that and that's fucking GREAT!  
+
+that doesn't seem like you've convinced yourself, so maybe you lied to yourself, because as you can see above I feel truly good about it, but if you feel bad about it... then better check again if you **really** want to be away from all of ""this""   
+
+
+waiting for your response \^\_\^"
+depression,fdt85yd,t3_en1y7z,1578713179.0,"# This is not a judgement post
+
+  
+I am not going to judge you, however I do want to get some things understood, if you will \^\_\^  
+
+
+First of all, would you be kind enough to write out and release those things in writing that have been your failures in each of these areas ? I am interested in your journey.
+
+Second, would you please explain how is cutting making you cleansed ? is it like the blood spilled and washed away from your life ? I'm really clueless here   
+
+
+Third, what is your name \^\_\^ ?"
+depression,fdt70j8,t3_en1rbh,1578712750.0,">  I have joined every club and tried almost every hobby I could and I am still as empty as a black hole. 
+
+I am sorry to tell you this but ...it doesn't matter where you will go, things unfortunately won't change unless you change inside, I am talking about this from experience of changing tons of jobs, moving to a number of different cities and yet feeling empty in every place I've been to. 
+
+I am able to open up socially to people just enough that when we're in a setting that forces them to interact with me (ex. Job,School,Class...) then I can show  them I'm quite nice to be around with, however on a random event such as walking down a street or a bar or a party... I won't open up my mouth and would feel terrible for having gone out of the house in the first place.
+
+I wish I could have told you what to do, but I'm in the same place you are, or even worse... as I'm not willing to become socially adept, I like this loneliness even if it's a bit harder at times than having a support system, but a good quote I've seen on the subject that might hit you hard (you have been warned !!! ) is this : **No matter where you go, you take yourself with you.** 
+
+[Original Quote](https://data.whicdn.com/images/179180226/original.jpg)"
+depression,fdt50ap,t3_en1o50,1578711999.0,"u/Kiarata   
+I actually felt the same way as you before, I used to be on an online website where people would ask questions and vent and I'd usually strike up conversations with the most broken of souls, as I don't know how to make people open up to me in real life this fast(too long to explain here)
+
+anyways, I'd end up talking to strangers online on a daily basis, taking care of them and making sure they didn't fell down this dark tunnel which very few get out of at the end. 
+
+I have also got back to this site and had a girl hit me up again saying how I've made a huge change and helped her life that way just by listening to her on a daily basis when she needed it and no one else was there for her.
+
+However, somewhere along the line I've changed(for the worse you could say) and realized that I needed to take care of myself First as all this taking care of others thing did was making me avoid dealing with **my own** problems.
+
+granted, I have turned out to **only** care about myself since then and as some would say it's better, I feel I have become a ""normal"" person - which I consider to be heartless....
+
+so yeah, that's the other side of the coin, so if you're feeling that sense of being a **good person** by helping and listening to others by the cost of neglecting **your self care** then keep doing that, especially if you're unwilling to become like me (I hate myself) and become heartless to anyone in pain.  
+
+
+My only consolidation is that I am an extremist, and this has shown true throughout my life
+
+I'll explain - I would usually go to 1 extreme, and then to the other, because only that way I am later able to find the middle between them. 
+
+so now I understand that I need to Master taking care of **myself** before finding the balance of taking care of both **myself and others.**
+
+&#x200B;
+
+I hope I didn't go out of topic too much, please reply to tell me what you think/ or more importantly how you feel about that ...waiting for input ....."
+WorkOnline,fdsm1f9,t1_fdsl8j5,1578704949.0,"I am actually interested, and a short explanation about them would be nice if you can spare the time 😀"
+QuotesPorn,fdsfc9s,t3_elgoz9,1578701457.0,I feel like upvoting doesn't do it justice as it's a sad thing...yet I don't want to downvote as it's so deep ...o.O
+WorkOnline,fdsdyg8,t1_fdsdgv3,1578700478.0,"knowing other people - no   
+marketing ? - I planned to rack up items/ whatever the task is on my own and sell it to online sites who are already established and gaming communities are already familiar with so I can skip the marketing part  
+I mean to do it solo, as this way I believe I won't be again ""working for a paycheck"" as this is limiting my income.  
+target demographic ? - I first need to know what are the ways **OTHER** than gold/item farming are in video games.  
+
+
+I understand, thanks for the input, above are the answers to your questions, however if you don't give me a specific idea of **what** to go for,  unfortunately I can't be more specific than that"
+learnprogramming,fdnizz5,t1_fdn8w5u,1578586812.0,"OK thanks man I'll look it up and improve myself for next time, real big thanks for your replies ! 😊"
+learnprogramming,fdn5sgl,t1_fdn5egx,1578578078.0,"Wow ! Thanks ! 
+So it's a special exception handling specific to DateTime class ?"
+learnprogramming,fdn0vo1,t1_fdmn0sf,1578573823.0,"Thanks for the advice ! 
+And I didn't learn how to check for user input yet, can you give me an example of the code required ?"
+French,fdmkbqt,t1_fdmfbt9,1578553108.0,"just an additional info on ""si""
+
+""Si"" is used for affirmative answer to a negative question
+
+ex. - tu n'as pas froid ? - aren't you cold ?
+
+si, j'ai froid - yes, I am cold"
+motivation,fdmk36w,t1_fdmhm61,1578552835.0,"Damn.
+
+thanks for that insightful reply
+
+I'm really conflicted about it .
+
+on 1 hand those simple lines make sense and inspire me to go out and get a job now
+
+on the other hand, doing something I hate just to make money is a thing I try to avoid.
+
+I don't know what to do ..."
+motivation,fdmeqbn,t3_em4488,1578547475.0,"u/Gribbon1020 wow that's great motivation !  
+I am not in your previous position but I believe I'm in the middle and have just lost a job with half the saving I planned for , and I'm not usually sticking to jobs tbh...  
+What would you suggest I do ? 
+
+get a job just for saving up no matter what it is ?"
+ProgrammerHumor,fdm9e85,t3_elzqbq,1578543092.0,"After reading just the beginning of the sentence I had a thought ...
+There are tons of programmers out there who will program ANYTHING to make their lives easier, heck I programmed a quiz points calculator in 1 hour to save 5 minutes adding up score in a calculator.
+
+Yet no one thought about programming a solution to that forgettable semicolon ? 😂"
+learnprogramming,fdlnwtf,t1_fdljya1,1578528315.0,"1. Exactly ! I had a problem with it as I edited it so much and I couldn't remember how to auto-indent it( I know you can do it somehow...)
+2. what do you mean validate ?
+3. switch between what ? ...not quite comfortable with switch yet to use it 
+4. thanks for the response !"
+ProgrammerHumor,fdjctit,t3_elngag,1578465597.0,is it bad that I've stared at it for 2 minutes before realizing the semicolon was actually missing ? ...
+learnprogramming,fdhm8d2,t1_fdhb9ew,1578425626.0,"You sum it up beautifully,
+As I saw someone say in my very first few days(luckily it was early on for me to get it WITH the excitement and not become delusional) 
+""Programming is 10% code and 90% debugging/ problem solving""."
+languagelearning,fdh7aeo,t1_fdh6yri,1578416921.0,"Lol thanks guys.
+
+I just find it weird that people who come to study together will try to take down others...
+Especially in a collaborative community like language learning which is 0% competitive"
+languagelearning,fdh3uxt,t1_fdgue4i,1578414804.0,"OK I really don't get it, why do people downvote my answer so much ?"
+motivation,fdguhl3,t3_el5ypt,1578408635.0,"My problem is that I can blame some people, and help other kinds of people, so .... I'm basically doing both"
+languagelearning,fdgue4i,t3_elawlf,1578408567.0,This is funny as I just found out today that I'm a level A2 xD french
+French,fdd31n5,t3_ekoord,1578292755.0,"it sounds very well done and thought out to be honest, I actually like it and not sure if it's all free resources (which is a bad point for me for not finding them hehe) but it seems like the ultimate method to be honest, plus having a french gf to correct and guide you is a great way to improve even faster.
+
+***There's a TL;DR below if you're looking for the best points in 1 minute***
+
+I will share with you MY method, and see if you would find any additions to your already great method :
+
+I'll start by saying I didn't know how to start so I stumbled around for about a few weeks before setting on actually learning... with that out of the way, let's start :
+
+I have watched a let's play series of a video game I've played a few times by a French youtuber and literally translated every word in the game's movie and added it into an Excel file vocabulary(which I never actually refrenced so...) 600 words of vocabulary here.
+
+then I've had a few apps, mostly Drops which helped increase my vocabulary by another 200 words.
+
+then I've actually started using Anki for a few months (1-2) and that helped me increase my remembering and using of vocabulary immensely, and after quitting I just recently got back to Anki after a long break as I've stopped adding words regularly(bad move, with Anki you want to always add words on a daily basis as at some points the words you've reviewed will only come up once every 3 months, so you'll not have anything to review for that time and lose motivation)
+
+after that I've tried(and failed) to watch TV series in french but my level was too low for that even with subtitles on so I stopped that.
+
+after that I don't actually remember much learning, just fell into a slump for about a month doing routine apps (""Mondly,NextLingua,Memrise"") before taking a trip to France.
+
+my trip to France showed me how low my level was while also showing me how much I already knew, which renewed my motivation.
+
+so when I got back I signed up for a course and started learning seriously, and so we are today.
+
+2 days ago I've created a plan looking at where my biggest shortcomings and goals are intersecting and found out I need to add at least 1,000 words to my vocabulary in order to understand most texts in french, AND to be conversationally fluent I need to actually use the language on a daily basis, so I joined a french speaking Discord channel to practice my speaking as there's not much french people I know in my town.
+
+**TL;DR** \- basically I went through a lot of apps and trials,**what worked =**\- Apps(""Drops,NextLingua,Anki"")- regularly add new words to Anki- Evaluate your speech level to maintain motivation- Evaluate your weak spots(vocabulary,grammar, etc...)- Evaluate your goals(Speaking,Writing,Reading....)- Join a French community(I suggest Discord)
+
+**what didn't work =**
+
+\- Adding words to a vocabulary you never review- Never Evaluating your progress- Watch TV above your level (stick to children books..suggestion : [https://www.youtube.com/channel/UCNmfepkcaQlMEwyIsbUs63g](https://www.youtube.com/channel/UCNmfepkcaQlMEwyIsbUs63g) \- BookBox on YT - books in french for kids[https://www.youtube.com/user/ComptinesTVfr](https://www.youtube.com/user/ComptinesTVfr) \- Les Patapons on YT - songs in french for kids)please let me know what you think, and mention me if it's possible so I know you've replied \^\_\^"
+Assistance,fd465sk,t1_fd45xf1,1578164763.0,well that's easy... mail me : adirzourk85@gmail.com
+Assistance,fd45qfc,t1_fd106ed,1578164632.0,"obviously that makes sense, now the question is ""How"" do you want to do it, do you want to automate it or manually add it every time you spend money ?  
+because honestly I don't know how to automate this ..."
+Assistance,fd0mkoz,t3_ejrxye,1578120917.0,"I'm not quite sure what do you try to do with your excel file ? could you please explain it better ?  
+are you trying to track your spendings on a daily basis or is it something else ?"
+Vent,fc1uxkw,t1_fc1uibu,1577330500.0,"I get what you're saying, but this has more to do with basic human psychology, 
+
+I consider myself to be quite emotionally intelligent and I still used to hurt people who tried to help me  when I was upset, so it doesn't matter if they want to hurt you or not, they just almost can't control it as it's a natural response.
+
+maybe you can control it and that's good point for you, but most people don't so you need to understand their point, because basically you're going to have to face those situations a lot more in your life. and I can assure you, when people are down, they will use every dirty secret they have on you to hurt you, not even intentionally, but just default psychology."
+Vent,fc1u881,t3_efpjwn,1577329874.0,"just a suggestion from someone who's been where this friend is at : 
+
+they probably need someone to be there and fight through all their nastiness.
+
+I wanted to do the same as them not too long ago, and all I ever wanted was someone to **show** me they care by getting through all the walls and nasty harsh words I threw at them, no one did so I did it for myself, but maybe this friend might not take the same road as me...you know what I mean so I guess it'd be best to go at their house, give them a hug and keep them company even if they don't ""want"" you to be there, trust me, they **NEED** you to be there."
+Vent,fc1tjzj,t3_efpnos,1577329269.0,"WOW. I get you bro, I feel the same way every time I see people having fun and wonder why I can't be like them, in fact I thought about it today and about how people can have such an easy time socializing and have fun and why is it so hard for me.
+
+&#x200B;
+
+but I've come to realize that maybe there's nothing wrong with me, and it just means that I don't need to rely on other people to be happy,and perhaps rely on myself to create those special moments which make life feel good again.
+
+&#x200B;
+
+so what I suggest is you choose what kind of approach you want to take life, being controlled by others to be happy, or take things to your own hands and even though the latter is tougher...it gives you much more freedom and happiness in the long term (from experience :))"
+>>>>>>> b2c2856e21b6decdd12b8bdccd381cae2c58ec91

@@ -1,0 +1,157 @@
+subreddit,self ID,parent ID,time,text
+trees,fg04dif,t3_ew64hv,1580399948.0,"I'm not high at work.
+
+Yet."
+ABoringDystopia,fg046gu,t1_fg00cev,1580399829.0,"If the system is designed correctly, whether open or closed source, it wouldn't matter if an attacker knew how the authorization process worked. For example, knowing the algorithm used to do one-way encryption (aka hashing) on passwords before they're stored in the database doesn't help if they're using a good algorithm because the algorithm was designed to mitigate the issue.
+
+Sidenote: Hashing is a way to transform data in one direction. If you run `bcrypt` on a password you turn it from `hunter2` to `$2a$10$pySg4ZDHHJsMxoFNsDTf2./e3SwjfX27gjLCHFO0r5bwTO53EyIwq`. But there's no way *mathematically* to go the other direction. So if you store the latter in your database you can quickly compare what the user provided to the value stored, so you can verify their identity without knowing their actual password.
+
+With closed-source software you have no way to verify what algorithm they're using to hash passwords, or even if they're hashing them at all. With open source you can see what algorithm they're using. For example, prior to closing their source Reddit was using [bcrypt](https://github.com/libertysoft3/saidit/blob/6ef36f0d8417596cb9ea8a48ae00a555dc16734b/r2/r2/models/account.py#L883), which is the industry standard for password hashing these days.
+
+Facebook, on the other hand, [uses their own internal hashing algorithm.](https://www.facebook.com/notes/protect-the-graph/keeping-passwords-secure/1519937431579736/) They also claim to be salting the passwords - adding a random, known string - but since their code is closed source we have no idea if they're *actually* doing it and have to take their word for it.
+
+Nearly all of the encryption and authentication you're using on a day-to-day basis, from the TLS behind `https` to Reddit handling your login, is either open source or based on open algorithms. This is because closed-source not only has licensing fees but also because the open source versions have been vetted by thousands of industry experts because they're able to see how it's implemented and suggest fixes.
+
+That being said, the weakest point in every single system that exists is the people using it. All the system architecture in the world won't help if the administrator doesn't change the default password."
+worldnews,fg002q7,t1_ffzu735,1580397189.0,"[""Traditional Chinese Medicine"" was marketed by Mao in the 1950s to combat Western imperialism.](https://slate.com/technology/2013/10/traditional-chinese-medicine-origins-mao-invented-it-but-didnt-believe-in-it.html) There's not much that's traditional about it."
+ABoringDystopia,ffzyxhw,t1_ffzykil,1580396411.0,"Open source software is not more likely to be exploited than closed-source software. If anything, having multiple people verify the code used in security features and able to submit patches to it makes it more secure.
+
+For example, a lot of companies don't bother hashing and salting passwords when storing them. If their systems were open source we could see that they're not doing this even without seeing the database and we could submit a patch to store their passwords correctly."
+technology,ffzxjya,t1_ffzv30j,1580395458.0,"> Regardless - I’ll take this over just not acknowledging the issue at all.
+
+Or pulling some ""we need to know where you are and what you're doing at all times to protect you from pedophiles and terrorists"" bullshit like they've done since 9/11"
+askscience,ffz98af,t1_ffz6ix9,1580368065.0,"While that’s all true, Mars cooled faster than Earth because it is smaller and further from the sun so it *could* have developed life first. This period in Martian geology was also characterized by frequent asteroid impacts which may have helped spread life. 
+
+However, this has not been confirmed by science and is just a neat idea."
+BlackFridayProtest,ffz4arf,t1_ffybfvq,1580363496.0,Demolition Man confirmed.
+Music,ffyzgr9,t1_ffymaql,1580359218.0,[This Onion article captures the post 9/11 attitude pretty well.](https://www.google.com/search?q=nation%20longs%20to%20care%20about%20stupid%20shit%20again&ie=utf-8&oe=utf-8&client=firefox-b-1-m)
+funny,ffyxdts,t3_evxrmh,1580357561.0,"My kid said the kids at school play “rock, paper, scissors, slap,” where the loser gets slapped by the winner. 
+
+I made up a better game called “rock, paper, scissors, ~~huh~~ hug.” The best part is if it’s a tie you hug each other!"
+Ska,ffydbto,t1_ffyc3do,1580343710.0,Green Day had better marketing and did an emo pivot
+Ska,ffyd7do,t1_ffy7jfv,1580343626.0,In a man's life he will take a fall
+IncelTears,ffyd3wo,t3_evv4om,1580343561.0,"> these days
+
+ok boomer"
+ProgrammerHumor,ffy6cxb,t3_evpyiw,1580339416.0,"This is why you *never* answer the question ""Is this possible?""
+
+Yes, *everything* is possible given enough time and computing power. Can you theoretically brute-force AES256? Yes, eventually. Is it a good idea to try? Hell no."
+IncelTears,ffx9010,t1_ffwuob2,1580320257.0,I'm already poly. I don't think me not sharing is the reason these guys aren't getting laid.
+WeirdWings,ffx1lnn,t1_ffwujtk,1580315797.0,"Alright, call the ball"
+WeirdWings,ffwtwqx,t1_ffwt6du,1580310904.0,"Great, now I just have find a 2"" cable with a hook that's thirty feet behind and below me at 180 knots."
+IncelTears,ffwtr57,t1_ffwq0dx,1580310801.0,"For real, that dress is amazing. Such intricate detail."
+WeirdWings,ffwstmk,t1_ffwsft1,1580310171.0,"""Yeah, let me land on this pitching carrier deck on top of a NUCLEAR BOMB PACKED WITH JP-1"""
+WeirdWings,ffwn2c3,t3_evmo4p,1580305980.0,Being a few meters from the roll axis would make maneuvering this... interesting
+urbanplanning,ffwlmhb,t1_ffvzf5h,1580304826.0,"Yeah, liking privacy is dumb! /s"
+selfhosted,ffvs2ql,t1_ffvnq88,1580271654.0,Exactly.
+explainlikeimfive,ffv8azo,t1_ffv7pnm,1580258071.0,Just because they use Facebook doesn’t mean they have any idea how the Internet works.
+explainlikeimfive,ffuzeaa,t1_ffuwe9e,1580252271.0,"> The internet isn't some mysterious technology that no one understands.
+
+To most people it is."
+selfhosted,ffuoy6l,t1_ffuls1o,1580246510.0,"""Good artists copy. Great artists steal."" - Steve Jobs"
+worldnews,ffuk26t,t1_ffubm12,1580243604.0,I'm just going to quarantine myself preemptively
+unpopularopinion,ffu899q,t1_ffu2chg,1580236569.0,"Yes, eating at a net loss *consistently.*"
+unpopularopinion,ffu2a9t,t1_ffu1lqk,1580232952.0,"If that's the case then people aren't cutting portions drastically enough. I didn't change my diet and just started eating half as much, drinking more water, and learning to be hungry and lost sixty pounds. And my willpower is shit."
+beholdthemasterrace,fftnerh,t1_ffs15tg,1580224932.0,How can you be a racist and support a hugely diverse organization like the Rebel Alliance? How would you deal with different species if you can't deal with different sexualities?
+AskReddit,ffs8v7l,t3_eutai7,1580175992.0,I’ve got the job I’ve always wanted because no modern business uses paper and I have computers to remember things now.
+GunsAreCool,ffr5hfb,t1_ffr54lg,1580150883.0,I love shooting. I just don't like assholes.
+GunsAreCool,ffr48dp,t1_ffr3ga5,1580150109.0,And your interpretation of the facts is wrong. You're clearly being purposely obtuse like every gun nut who doesn't like when somebody mentions we might need fewer guns in society.
+GunsAreCool,ffr3vqc,t1_ffqrm8w,1580149889.0,Guns are valuable. Open carry seems like a good way to get it stolen.
+dankmemes,ffr30in,t1_ffqmckx,1580149349.0,Every Karen I've ever met unironically likes this song. It's on her easy listening station that she plays at a reasonable volume in her cubicle to enrage everyone else.
+donthelpjustfilm,ffr2j8n,t1_ffr0t9e,1580149050.0,"The risk of infection was too great, plus since it was cutting off blood flow to his organs they would have started to die and it would have been a much longer, much more painful death. Luckily he did get to see his family before the operation."
+SiliconValleyHBO,ffqydg4,t1_ffpk1rr,1580146415.0,"The very first scene, where Kid Rock is playing to a bunch of people who just want to have quiet conversations? Totally accurate. I've been to a party in the tech world that was like that."
+thegrandtour,ffqy0ws,t3_eumrke,1580146194.0,I love the symbolism of leaving the dreary BBC and taking the whole motoring community with them.
+donthelpjustfilm,ffqx76d,t1_ffqmd9x,1580145671.0,"In my Red Cross First Aid class in college they said unless there's an immediate danger like the car being on fire you shouldn't move the person at all. Treat what you can without moving them and keep them calm and awake until EMTs arrive.
+
+To drive this point home the prof told a story about a guy who was impaled by a guard rail. If the people first on the scene had taken him off of it he would have bled out before the EMTs arrived. They had to cut the guard rail off and remove it at the hospital. Sadly, the guy bled out when they removed it because it had cut several major blood vessels."
+trees,ffqwd3g,t1_ffqb38k,1580145139.0,"The key is to make sure you've only got healthy stuff or stuff that takes some work to make. I'm a big fan of air-popped popcorn with a little butter and powdered cheese on it. Or if you're feeling crazy use a food processor to grind a small bag of Doritos into powder and put that on the popcorn.
+
+Way less calories and a hell of a lot cheaper than store-bought snacks."
+polyamory,ffqv1t6,t1_ffqeecc,1580144288.0,If I were free to act without interference I'd form a syndicalist cooperative on the Catalan model.
+DontPanic,ffquc6t,t1_ffq5tf1,1580143825.0,"Right after he took over from Eccleston he had the line ""Saving the Earth in my jim jams. Very Arthur Dent."""
+IncelTears,ffqu3qs,t3_eun88h,1580143676.0,The sort of fatalistic thinking that incels have can absolutely be helped with therapy *as long as they put effort into it.* Therapists aren't surgeons who cut open your psyche and remove the bad parts. You have to put in the work to rewire your brain between sessions.
+LateStageCapitalism,ffqtdb6,t1_ffqlpg8,1580143197.0,"This company is a family, right?"
+LateStageCapitalism,ffqtbp6,t1_ffqecvj,1580143169.0,This is why I love working from home. The only viruses my coworkers can send me are digital.
+WeirdWings,ffqnjn2,t1_ffqbfrm,1580139265.0,Not to mention the entirety of the force of the engines on the hover barge was used for lift. Generally hovercraft split the engine power between the lift blowers and the thrust fans. So the hover barge can have a heavier cargo and/or deal better with an engine failure.
+WeirdWings,ffqn0u7,t1_ffql8y0,1580138901.0,I'm spinning up KSP right now
+SiliconValleyHBO,ffqkm8l,t1_ffqaniz,1580137153.0,I thought the pilot showed promise and I’m looking forward to the next episode.
+Letterkenny,ffpbnww,t1_ffp902p,1580091031.0,"Take about 20% off her, bud."
+Political_Revolution,ffp74d2,t3_eu8kob,1580087900.0,If there was anything on Bernie the Clinton campaign would have found it.
+ProgrammerHumor,ffoja8a,t1_ffoeh0x,1580078262.0,The gender ratio would be about the same as most dating apps.
+IncelTears,ffofzpu,t1_fflwbzk,1580077284.0,I think she’s cute but I’ve got a thing for brunettes who fight for the working class.
+IncelTears,ffofnbp,t1_ffof7db,1580077201.0,Everything that could be said about it has been. It’s not our fault incels refuse to see reality.
+itsaunixsystem,ffo1444,t1_ffns03k,1580073051.0,Time for my third rewatch I guess.
+todayilearned,ffnl63g,t1_ffmo6jy,1580067466.0,"I had a job where I was remote 80% of the time, and without fail three days after I was in the office from November to March I would get sick. 
+
+Now that I’m fully remote I’ve only gotten sick once in the last two years."
+todayilearned,ffnkly4,t1_ffmfbkp,1580067240.0,More and more startups are remote only. This way they can save money while being able to recruit globally. And they’re much more productive because work basically never stops and nobody has to commute.
+todayilearned,ffnk53i,t1_ffmc6v2,1580067036.0,"My company is totally remote. With the money they save they send everybody on an all expenses paid trip, including our SOs. This year we’re going to the Bahamas."
+trees,ffnjmwx,t1_ffk0ezc,1580066825.0,I’m holding my breath but that’s because I just took a big hit.
+AskReddit,ffne28l,t1_ffncwhh,1580064720.0,[Not every sysadmin](https://www.google.com/search?q=equifax%20default%20password&ie=utf-8&oe=utf-8&client=firefox-b-1-m)
+AskReddit,ffn8u06,t1_ffn30gs,1580063170.0,I wonder if Mark Zuckerberg considers the bad guy in that movie as some sort of role model.
+AskReddit,ffn8j2b,t1_ffmvv3w,1580063061.0,"I’ve never thought of it this way but as a professional Unix hacker (in the traditional sense of someone who makes things work) it those sequences definitely have the right feel to them. 
+
+Though I’ve yet to come across a sysadmin who used the password “god.”"
+NoahGetTheBoat,ffmzg3d,t3_eu5oh1,1580060454.0,There is a tribe that believes this. A pregnant woman has sex with a lot of different guys to so the baby will absorb their powers.
+Voltron,ffmyxff,t3_eu9p9g,1580060301.0,This is one of the best things I’ve ever seen
+DCDoomPatrol,ffmy1sr,t3_etz06u,1580060097.0,As a programmer I especially like the “Hello World” shirt Cliff is wearing.
+shubreddit,ffmxczd,t3_etykzn,1580059861.0,[Shoop](https://youtu.be/4vaN01VLYSQ)
+WRX,ffmwgx4,t3_eu0vfy,1580059672.0,Beautiful shot! I especially like how the reflection of the snow on the lake looks like exhaust
+cordcutters,ffmv1aj,t1_ffmhz1y,1580059266.0,"They operate at 24GHz, which [doesn’t do so well in the rain](https://help.ubnt.com/hc/en-us/articles/204977614-airFiber-Rain-Fade-Effects-on-AF24-24HD-Links)."
+explainlikeimfive,ffmt2b7,t1_ffjotsn,1580058626.0,The problem is determining how much of that is cultural and how much is inherent to our species.
+explainlikeimfive,ffmsnu4,t1_ffkclj6,1580058486.0,"I think the emotional aspect has less to do with how well you raise offspring but instead how well you integrate with society. The raising of offspring is something that can be shared by others (including older children) but being socially successful is very important in our highly social species. 
+
+For example, a big, strong jerk won’t stand a chance alone against a smilodon. But a more gracile person who has the social skills to coordinate defense and intelligence to make weapons would fare much better.
+
+How else could a pink, squishy monkey become the dominant species?"
+explainlikeimfive,ffmqkeh,t1_ffk2uqz,1580057906.0,I wonder if that deer feels like I do when putting on cologne for a hot date.
+TheRightCantMeme,ffmppcs,t1_ffjj1ix,1580057641.0,If I’m straight can I be in the Communist Gay States of America’s if I’m really ridiculously good looking?
+EngineeringPorn,ffmgjsr,t1_ffmbzy0,1580054331.0,Everything Larry Ellison does is a billionaire’s pissing contest. Fuck him and his stupid fast boat.
+movies,ffmf0ru,t1_ffm9wl0,1580053662.0,I got my kids library cards yesterday. Now I’m getting them hooked up with Libby so they can check out audiobooks and ebooks.
+todayilearned,ffmeqcq,t1_ffls1yq,1580053508.0,I’m not quite that remote but I work from home as well and only see the people I work with once a year. Sometimes I don’t leave my house for days. As an introvert it’s glorious.
+Showerthoughts,ffixc3h,t1_ffipiqj,1579985008.0,"A Star Trek transporter is more like converting your matter to energy, moving it, and then reforming it. Except for that one time with Riker it doesn’t make a copy of you and kill the other."
+WeirdWings,ffiow13,t1_ffike4b,1579979062.0,Beautiful!
+GunsAreCool,fficiuh,t1_ffic13n,1579970614.0,Standing Rock was another place you’d expect tyranny fighters to fight tyranny. The government was forcing private land owners to accept something against their will.  And yet none of these “patriots” donned their Special Forces cosplay and showed up.
+WeirdWings,ffic4tb,t1_ffi3ru4,1579970350.0,Is there a color picture? A Navy-blue B-17 would be neat to see.
+GunsAreCool,ffibrtc,t1_ffi2kyg,1579970106.0,"> No armed militias in America stopped the Patriot Act, NSA spying, or other infringements to civil liberties.
+
+This is why I don’t buy the argument that we need guns to fight tyranny. Gun owners did fuck all about the Patriot Act. They cheer on cops shooting black men. And the only “rebellion” I’ve seen in my life was a couple asshats who didn’t like that the government wouldn’t let them graze cattle on Federal land. 
+
+If gun owners *actually fought tyranny* it would be one thing. But they don’t because they’re the same bunch of fascists who do the tyrannizing. Hell, one of those shitheads in VA had a “Right Wing Death Squad” patch. They’re just waiting for the day they can drag liberals out of our homes and kill us en masse."
+AskMenOver30,ffibdtc,t3_etqix9,1579969837.0,Last weekend I spent on a project for work since I’m angling for a promotion. This weekend it’s taking my kids shopping and then dinner with my family. Tomorrow we’re going to the car show. Next weekend I don’t have any plans for yet but I might invite over some friends for a game night or something.
+ProgrammerHumor,ffi5ovq,t3_etq1z8,1579965765.0,`go vet: variable s declared but not used`
+iamatotalpieceofshit,ffi24gx,t1_ffi0eqv,1579962831.0,"But if the thief robs another, even worse thief than it’s okay."
+insanepeoplefacebook,ffi1of2,t1_ffhxw3g,1579962430.0,[As hilarious as this video is](https://youtu.be/EShUeudtaFg) it’s a good illustration why we shouldn’t rely on parents for sex ed.
+CatastrophicFailure,ffh47ra,t1_ffes1s7,1579922665.0,I think this [Dave Matthews song](https://youtu.be/v09G8TesxNM) captures the feeling well.
+assholedesign,ffh40jy,t1_fffmf39,1579922508.0,Just drink water. Even if you have to buy it it’s cheaper and better for you than anything else.
+space,ffh3d4z,t1_ffh1r0u,1579922002.0,Management is dumb. Offsite management doubly so.
+EarthPorn,ffh394q,t3_etia00,1579921914.0,Did you drive the Davos-Stelvio pass aka the best driving road in the world?
+PoliticalHumor,ffgqnpw,t3_etf25y,1579912597.0,What will we say when our grandkids ask what WWIII was like?
+IncelTears,ffgn92i,t3_etfu84,1579910190.0,I'm not getting how expressing enthusiasm is creepy. Can someone translate from incel so I know what made-up issue they're complaining about?
+holdmycosmo,ffgiwyy,t1_fffnurb,1579907282.0,"[That was also a real reaction: ](https://gizmodo.com/alan-rickman-fell-for-real-in-die-hard-plus-six-other-f-1666327722)
+
+> Little known fact about Alan Rickman in Die Hard: For his character’s death scene he agreed to fall onto an airbag 25 feet (7.62 meters) below on the count of three. Except the director and the stunt people thought they would get a better reaction if they dropped him on the count of “one.” They were right. His face is priceless."
+IncelTears,ffg80mz,t3_et8nau,1579900447.0,"So if I don't have ""prey eyes"" does that make me a Chad?"
+TheRightCantMeme,ffg7ota,t1_ffg3bbv,1579900241.0,"> men from masturbating
+
+From my cold, dead, sticky hands"
+TheRightCantMeme,ffg7jm7,t3_etauvn,1579900152.0,"> 1 year wait period
+
+That's not how any of this works"
+IncelTears,ffg772j,t1_fffunyh,1579899934.0,"> Please elaborate.
+
+You.
+
+Are.
+
+Wrong."
+TheRightCantMeme,fffty75,t1_fffrdc4,1579891732.0,"Especially the fruit. Mealy red ""delicious"" apples, bruised bananas, and oranges that are impossible to peel."
+AskReddit,fffpobw,t3_et83yc,1579889089.0,"[Whoa, I kinda feel like god](https://www.youtube.com/watch?v=r38fEGep2yU)"
+ChoosingBeggars,fffjdn0,t1_fffierg,1579885225.0,"As someone in a situation like this, I have clothes at my house for my kids that I wash. The clothes they're wearing when I pick them up I wash and fold, but that's it. If my ex - who is, like this woman, absolutely thankless for what I do and have done - dropped off a bag of clothes because she didn't want to go to the laundromat that included her clothes I'd wash and fold the kids clothes but hers would be in the same bag, unwashed.
+
+Ostensibly he's paying support based on his income, which is the money that she should be using to wash her kid's clothes. If that's not the case than I can understand why she'd do this and expect it done correctly. But not having time to fold clothes seems pretty reasonable. Plus having to fold your ex's clothing can be pretty rough emotionally.
+
+Frankly, there's not enough information in this post to arrive at a real conclusion and we're all projecting our biases onto it. How much of it was the kid's versus hers? Does this guy have a history of ""not having time"" to finish a task? In my case I can empathize with the guy because I understand what it's like to deal with someone for whom nothing is good enough."
+TheRightCantMeme,fffguvg,t3_et8paa,1579883674.0,"I was wondering who'd consider fruits and vegetables ""inedible"" but then I [remembered this lady](https://www.youtube.com/watch?v=betUJk6ntAI)."
+StonerEngineering,fffdqlt,t3_eswfud,1579881714.0,And I'm sitting here holding a spliff like a caveman. Truly sir you're living in 3020.
+Fuckthealtright,fffcyr6,t3_eta8xp,1579881227.0,If Thor cosplayers at ComicCon need to have foam hammers there's no reason this guy should be allowed to cosplay with a real gun.

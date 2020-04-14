@@ -1,0 +1,470 @@
+subreddit,self ID,parent ID,time,text
+todayilearned,ffdzba2,t1_ffdstvg,1579832676.0,"He is right about that part, the French in the rest of Canada being it's own thing.
+
+Ontario, Manitoba, new Brunswick and Nova Scotia all have their own distinct French accents too. New Brunswick especially, some people there speak [Chiac](https://en.m.wikipedia.org/wiki/Chiac), which is a conglomeration of English and French."
+todayilearned,ffdg7od,t1_ffdfklp,1579820211.0,"Idk what you're saying nah to, but if you look at the official curriculum for Ontario French classes, they specifically mention Parisian French and a Parisian accent."
+todayilearned,ffdesrz,t1_ffde2rr,1579819364.0,"""I wanna exit this world the way I entered it; naked and screaming"" - some guy, probably"
+pcmasterrace,ffdeea4,t1_ffcggt3,1579819124.0,"The YouTube gravy train is over, they've done a cost-benefit analysis, accounting for the diminishing returns, the time they spent, the time they will have to continue spending, and they weighed it. They have decided that with all the money they have already made, that's it's just not worth their time to be doing more work for comparatively less money."
+todayilearned,ffdcrig,t1_ffdagib,1579818133.0,">Not too dissimilar to learning Parisian French as opposed to Québécois 
+
+Honestly, I'm pretty sure Ontario teaches Parisian French, with a Parisian accent, just so they can give the middle finger to Quebec."
+todayilearned,ffdcjx0,t1_ffd3sl5,1579817999.0,">Sure, but drag is an act.
+
+How we present ourselves to anybody is an act."
+KidsAreFuckingStupid,ffdbp1v,t1_ffcj04b,1579817447.0,"You're right, ""they"" and ""them"" are technically used to refer to plurals of people. I can refer you to my thesis supervisor who has two PhDs, one of them in English rhetoric, for further explanation.
+
+However, since using ""they"" to refer a singular person is becoming more and more common, it also becomes correct usage too.
+
+It's just like how people started using the word ""literally"" in place of the word ""figuratively"", it caught on so much that one of the definitions of ""literally"" in the Oxford (or Webster's... Can't remember) dictionary is:
+
+> Literally: figuratively"
+StardewValley,ffd7n5w,t1_ffd7gdk,1579815000.0,">you kind of get to assume that anyone who feels the need to say it doesn't have the moral high ground. 
+
+Why?"
+ScottishPeopleTwitter,ffd45mz,t1_ffclb26,1579813065.0,I thought jokes were supposed to be funny??
+StardewValley,ffd3gci,t1_ffd2p6n,1579812670.0,Imagine thinking comments like this would convince anyone with critical thought skills of anything.
+StardewValley,ffd399j,t1_ffczqo9,1579812558.0,Source?
+linux,ffcyymn,t1_ffcayw8,1579810155.0,"
+>He mispronounces ""Debian"" a few times, 
+
+Can't watch it now, in class, but you made me realize I don't think I've ever heard it spoken irl.
+
+Are you supposed to pronounce it as ""Deb"" and ""Ian"" but as one word?
+
+Since the creator is an Ian and his wife was Deborah?"
+linux,ffcygwx,t1_ffclclo,1579809876.0,"You're right, xz is lzma2, and lzma2 doesn't really offer any improvements over lzma.
+
+Lzma2 has routines to skip trying to compress ""incompressible"" data, but since there's no way to *actually* determine whether it's incompressible (except for trying to compress it anyways, see the ""halting problem"" for more info), it has to use approximations/estimates (usually it tries compressing the first x%). I've found these estimates are not great.
+
+Also, parallel compress is nice for speed, but you sacrifice compression efficiency for that. I'm not knowledgable enough to tell you exactly why, but it has something to do with the fact that you're basically splitting up the dataset so that the chunks can be compressed individually, this isn't optimal when generating the dictionary.
+
+You can confirm yourself, install `lz`, which is lzma only, and compare it (with equivalent settings) against `xz`, both parallel and single core."
+linux,ffcugm9,t1_ffcsoqt,1579807497.0,">GPL fans said the great problem we would face is that companies would take our BSD code, modify it, and not give back. Nope
+
+Sony's entire PlayStation OS/stack is proof he's wrong.
+
+Also, lots of Apple software is proof he's wrong, both the iOS MacOS kernels are closed source, forked from a BSD."
+canada,ffc87gj,t1_ffc75zc,1579793772.0,">not everyone in the province lives in Ontario
+
+But they do....
+
+Lmao, you meant Toronto."
+canada,ffc58h7,t1_ffc4n93,1579791821.0,"Do you know that paraphrasing your already downvoted comment and posting it again so it can appear higher up is against the rules, right?
+
+Do you have any proof, or evidence at all, of this?
+
+It is it just paranoid rambling?"
+canada,ffc3i9y,t1_ffc2zaa,1579790633.0,">However, bribing parents is fucking retarded. Parents will have to stay home with their kids regardless (no one will take your kid for one day daycare), so the money is literally just a bribe for public support.
+
+they can use that money to hire some high school student who's not at school because of the strike to babysit!
+
+Lmao, yeah I agree this free money is stupid."
+canada,ffc3b7v,t1_ffc3406,1579790493.0,"No, I didn't, there was no actual point to be made, you're arguing a moving goalpost fallacy."
+canada,ffc39fu,t1_ffc32kv,1579790457.0,"Thank God someone else can see what I thought was very, very clear."
+canada,ffc2vxt,t1_ffc2r21,1579790187.0,"> There are 7000 teachers on the Sunshine List -
+
+As of 2016.
+
+In 2019, there are over 20,000 public school teachers (not counting university and college profs) on the Sunshine list.
+
+> and those that are on it are there because they do extra work beyond what's in their standard teaching contract. There are 160,000 teachers in Ontario. I wouldn't consider 4% to be ""many""
+
+This is so derailed from the original point I'm not discussing this anymore.
+
+I picked $120,000 because it divides by 12 evenly.
+
+I'm sorry that some seem to have such a problem with that."
+canada,ffc2th8,t1_ffc2bes,1579790136.0,"Do you have any proof, out evidence at all, of this?
+
+It is it just paranoid rambling?"
+canada,ffc2htu,t1_ffc20j3,1579789897.0,">2012: walkout of teachers from Toronto, Peel and Durham public elementary boards (and later by Greater Essex, Lambton-Kent, Waterloo, Grand Erie and Near North boards). McGuinty Liberal government countered with Bill 115 forced the end to enforce changes to their members ability to strike that was later repealed.
+>
+>2013: While no strike occurred a 1 day walkout by teachers province wide in protest against imposed changes by the province.
+>
+>Walkouts not strikes
+
+I see you're moving away from that metro strike, now that you see it doesn't fit your narrative.
+
+Also, you know you've lost the argument when you have to resort to arguing semantics.
+
+I was in public school for both of those strikes (Durham region) we all, ***including our teachers***, called it what it was; a strike.
+
+
+[Oh, actually it was a strike anyways. Their action was ruled to be an illegal strike.](https://en.m.wikipedia.org/wiki/Ontario_Secondary_School_Teachers%27_Federation#2012%E2%80%932013_labour_dispute)
+
+>> the board ruled the strike was illegal and as a result it was called off.
+
+So, not only are the semantics you're arguing dumb, but you're also factually wrong anyways."
+canada,ffc1sbd,t1_ffb5gg2,1579789371.0,"I mean that zero conservative party leaders have threatened abortion in the last two decades.
+
+None of them have expressed any interest in changing abortion laws. All of them have said it's a settled issue. None of them want to stir that pot."
+canada,ffc1lsf,t1_ffc1chi,1579789235.0,">
+>https://en.m.wikipedia.org/wiki/Metro_Toronto_Elementary_Teacher%27s_strike
+
+That strike happened under a Liberal government.
+
+>I don't think you know what you're talking about... 
+
+Ironic coming from the guy who didn't read his own wiki article, and ended up posting information that helps me.
+
+> also I know a lot of teachers and none of them make close to that amount
+
+That was an example for easy numbers, quit being pedantic.
+
+Also I can show you on the Sunshine list many teachers that do make over that. So on both fronts, you're wrong."
+canada,ffc0mvl,t3_est21a,1579788497.0,">  It happened under former Tory Premier Mike Harris, and it’s happened with various right-wing administrations in other provinces. Put simply, teachers are not popular with conservatives, and their unions have been used as scapegoats by conservative governments for decades.
+
+Why is the author conveniently brushing over the fact there was a teacher strike under Wynne administration (2?). There were at least two strikes under McGuinty. 
+
+If this isn't blatant and obvious bias, I don't know what is.
+
+
+> Teachers are considered liberal, and condemned for having long vacations and leaving work at 4 p.m..
+
+That's why they've gone to strike under every single Liberal government since Harris, right?
+
+
+
+> Because they receive payment for the summer, teachers are paid less for the rest of the year;
+
+What a misleading, dishonest sentence.
+
+
+The following numbers are ***examples*** chosen because it made the head math easier.
+
+Teachers are salaried, let's say they make $12,000/yr. That means they get $1,000/mo for 12 months. If they got paid for 9 months (no summer) that would be $1,333/mo.
+
+They still make $12,000 a year, but the way the author worded it makes it sound like they are making less money.
+
+
+Edit: Changing ***example*** numbers because people won't stop arguing about it."
+AmItheAsshole,ff93bwh,t3_es1zp2,1579703825.0,">She got offended and said that she shouldn't have to invite people to her wedding is she didn't want to
+
+... And she's right, she just shouldn't expect to get gifts from these people...
+
+Is your friend retarded?
+
+NTA."
+AmItheAsshole,ff934ah,t3_es5wir,1579703675.0,"NTA, lying about celiacs is terrible."
+AmItheAsshole,ff93352,t1_ff8m1qi,1579703653.0,"Don't give gold, useless endeavor and you'd be better off donating that money literally anywhere else."
+AmItheAsshole,ff931bs,t1_ff8e0o2,1579703617.0,"Nobody who suffers from celiacs has an EpiPen. If you knew what you were talking about, even in the slightest, you would already know this."
+AmItheAsshole,ff92z0l,t1_ff8serc,1579703571.0,">epipen doesn't work on gluten allergies. You're just miserable for weeks until it passes.
+
+The guy you're replying to would know this if he wasn't so ignorant, spewing out dumb opinions and incorrect facts.
+
+Celiac isn't a ""food allergy"" like peanuts. It's an autoimmune disease."
+AmItheAsshole,ff92sz3,t1_ff925pt,1579703452.0,How do you know whether anybody is making anything up on the internet?
+AmItheAsshole,ff92m10,t1_ff8ko21,1579703314.0,">experienced the placebo effect
+
+Considering how the placebo effect is literally made up, in your head, this isn't a good line of argument to be making."
+AmItheAsshole,ff92hw7,t1_ff80m4q,1579703232.0,"Did you even read the entire OP?
+
+Because it's pretty clear you haven't.
+
+***THERE WAS ZERO GLUTEN AT ALL, ANYWHERE.***"
+AmItheAsshole,ff92f1r,t1_ff81hza,1579703173.0,The ignorance you've shown in your reply has proven that your opinion shouldn't be listened to here.
+AmItheAsshole,ff91hpe,t3_esaf1h,1579702487.0,"NTA, I'd do the same.
+
+Also, you don't have an addiction to these pretzels, you have an addiction to food."
+canada,ff913zd,t1_ff8ve91,1579702198.0,"When China and India start taking the opinions of children seriously, lol."
+canada,ff90zl2,t3_esa3q2,1579702103.0,I wonder if it'll sell with all the likes and prayers people sent too.
+canada,ff90tww,t1_ff84kkq,1579701981.0,"Because no conservative has actually threatened abortion.
+
+Not even Harper's majority governments did over a decade ago."
+canada,ff90hry,t1_ff7uv8s,1579701713.0,">Was appointed to our USMCA (NAFTA 2.0) team, which is seen to have been a big success
+
+Wat?
+
+USMCA has worse terms for Canada across the board compared to NAFTA..."
+canada,ff90ahm,t1_ff8xnfq,1579701556.0,Your first mistake was assuming this emotional hysteria would be logical.
+canada,ff9022n,t1_ff89ex5,1579701372.0,">Why people act like guns are magic things what can only come from factories I don't know, but in reality anyone with some box steel can make one 
+
+Because most people aren't capable of tightening the screws on their door hinges, let alone building an entire gun."
+canada,ff8zvkm,t1_ff87mo5,1579701228.0,">I'm vehemently anti-gun,
+
+Why?"
+canada,ff8zo27,t1_ff80bxd,1579701063.0,"So you're just going to conveniently gloss over the fact that once Australia banned guns, the murder rate using every other sort of weapon went up accordingly?"
+canada,ff8zj2g,t1_ff8jyyw,1579700954.0,"Whoa there bud, comparing paparazzi to drug dealers is besmirching the good name of many drug dealers I know.
+
+Drug dealers provide a desirable good in a scenario where it's illegal. Can't say the same about paparazzi."
+canada,ff8yy4n,t1_ff8uwtv,1579700488.0,"Human Rights tribunals aren't courts.
+
+They aren't a branch of government, they don't have clauses in our constitutions outlining their powers and goals.
+
+They are kangaroo court bullshit, created at the whimsy of politicians via legislation, and are beholden to that legislation. And, even if there was a clause in the legislation saying something like this can't happen, since it's legislation, It can easily and quickly be changed by a majority government."
+canada,ff8yjfy,t1_ff8vhsy,1579700157.0,"> Further more, the conservatives in Canada are not fiscal conservatives, 
+
+Wrong.
+
+
+> These are people easily worked up by social issues
+
+He says, as a reply to a comment where somebody is getting very worked up over somebody else being a conservative. 
+
+I love the irony."
+canada,ff8y21v,t1_ff8nvey,1579699759.0,"Precisely.
+
+These human rights tribunals are not courts, they are a spit in the face to actual courts, and due process.
+
+And they're incestuous as hell, many of the people involved are really only interested in ensuring they, and their friends, have jobs."
+linux,ff6jjdq,t1_fes8xax,1579628553.0,">Who shit in your muesli this morning? 
+
+You, for being so arrogantly wrong.
+
+> And why are you so insistent that GIMP mustn't be a GNOME project?
+
+Because it isn't.
+
+
+>Whatever. In your reality, GIMP isn't a GNOME project. Alternative facts, yada yada yada.
+
+
+You mean actual reality, it's you with the alternative, incorrect reality."
+videos,ff6jffk,t1_feyd5um,1579628488.0,">Let me help you, kiddo:
+
+I stopped reading right here's, you clearly have nothing of value to say.
+
+And, you still don't know what you're talking about."
+WhitePeopleTwitter,ferzxqu,t1_ferly08,1579360048.0,Do I have to imagine having cancer first?
+Showerthoughts,feryu0r,t1_ferx94v,1579359755.0,"Even the highest quality photocopiers still have a limited DPI. Handwritten pen strokes basically have infinite DPI.
+
+A simple magnifying glass is all you need to detect whether a line is original, or photocopied. Even if it's a $100K photocopier."
+linux,ferswhn,t1_femunbx,1579358015.0,"> **associated with** both the GNU and GNOME projects
+
+Key text is bolded.
+
+**""ASSOCIATED WITH""**, not **""A PART OF""**. Read with your eyes open.
+
+GIMP spawned gtk, gnome spawned from GTK. Do you even know what gtk stands for? Please do the bare minimum of research before you go around spewing ignorance."
+videos,fersnj5,t1_fepl8gk,1579357928.0,">You don't know what extrapolation is,
+
+Lol, no, you clearly don't know what it is.
+
+>\> That argument requires you to have faith in the pilots saying that.
+>
+>Faith in millions of people citing their observations truthfully is pretty reasonable.  If you think that a million people know something, and none of them leak information, you can be safely classified as a moron and ignored on all topics.
+
+it's fucking hilarious that you've missed the entire point of all of this thread in general.
+
+That even with science there needs to be a certain level of Faith, you fucking idiot."
+canada,fershab,t1_fer7jnh,1579357861.0,"Ugh, why'd you have to remind me of this?
+
+The stupidity of it all is frustrating."
+videos,femuhnc,t1_fddn65p,1579269939.0,">>Take a piece of paper and line it up to the horizon once at cruising altitude, you'll notice the curve. Extrapolating to a round planet does not require faith in someone else.
+>
+>That's even worse, because it's a guess. 
+
+That's not a guess. 
+
+> Just because the part you looked at is round isn't proof that the whole thing is round.
+
+That's what the word extrapolate means, dummy.
+
+> The word of pilots all around the world saying that they're flying in circles around the planet is stronger evidence than the argument that you observed part of it and it looked round from where you were sitting.
+
+That argument requires you to have faith in the pilots saying that.
+
+Are you intentionally trying to miss the point in misinterpret things?"
+linux,femud3w,t1_fdnqdq6,1579269840.0,"Just because it's hosted on a gnome gitlab does not mean it's a gnome project.
+
+I implore you to go read the Wikipedia page on GIMP."
+linux,fddmdvg,t1_fdcgvmu,1578317676.0,">getting CW (morse code) eliminated from ham radio exams worldwide so that the hobby would be opened up to more people and not just those who could pass morse code tests.
+
+But why?"
+linux,fddm1v8,t1_fdd8jwh,1578317356.0,"Lol no.
+
+Gimp isn't a gnome project."
+interestingasfuck,fdce9qu,t1_fdc75fo,1578272771.0,I bet what's going through their head is the seat infront of them.
+interestingasfuck,fdce2b7,t1_fdc24gh,1578272628.0,"Was this in the Canadian Arctic/North?
+
+I have similar experiences flying up there."
+Eyebleach,fdc6qun,t1_fdc0457,1578268200.0,"Every succeeding one.
+
+Proceeding means before."
+Eyebleach,fdbr1ct,t1_fdbow1q,1578260553.0,"No, the breeding process involves also breeding a new mom to die and be a skull donor."
+videos,fdbpdzp,t1_fdb04kv,1578259805.0,"> someone told you the earth was round, someone you trusted, and you believed it. now to be clear, I also believe this. but I know that it is a belief.
+
+Actually, I proved it myself, and anyone who flies in a commercial airliner can do so too.
+
+Take a piece of paper and line it up to the horizon once at cruising altitude, you'll notice the curve. Extrapolating to a round planet does not require faith in someone else.
+
+But I get you point, kind of a poor example though."
+videos,fdbobra,t1_fdam5un,1578259456.0,"Dennis could also point out that Mac is using the teachings of heretics to make his arguments (Galileo).
+
+And I don't think Galileo was a heretic, it's just that's what he was labelled as by the church."
+canada,fdbfk8t,t1_fdaetml,1578256874.0,"> Dude, they stole the complete blueprints and source code of the F35 BEFORE the US even completed building it.
+
+Citation needed.
+
+Because, if that's true, it would make it hard to explain why their knockoff of the F35, the J31, is hilariously incapable in comparison."
+canada,fdba6rx,t1_fdarh8v,1578255399.0,"> The issue is a truely sneaky organization is going to put a backdoor in the silicone your touching. Ie in the processor or some little bastard IC that handles some super low level bare metal task.
+> 
+> Defending against someone fucking with the design at the chip foundry is the problem.
+
+That bloomberg article about the ""hardware backdoor"" in super micro motherboards turned out to be total crap.
+
+No proof or evidence on Bloomberg's part. And furthermore, a buuunch of big names in the IT security world said it was bullshit.
+
+Also, a number of companies Bloomberg named and shamed have come out and denied any sort of doings, or having knowledge that Bloomberg claims they have. 
+
+Even Super Micro denied the whole thing."
+canada,fdb8naj,t1_fdamidp,1578254952.0,"> You are suggesting that Roger's telus and bell have full access to your computer and phone because you send data on their network?
+
+[Yes, as people who have control over baseband radios, they could.](https://www.usenix.org/system/files/conference/woot12/woot12-final24.pdf) Also, [Huawei specifically has been found 'vulnerable' too.](https://www.scmagazineuk.com/researchers-find-remote-code-execution-vulnerabilities-huawei-4g-modems/article/1479257)
+
+[Have you never heard of Stringray devices before?](https://en.wikipedia.org/wiki/Stingray_phone_tracker)
+
+Imagine those, but instead of a small, portable device that does a city block or two. It's a large, permanent cellular tower, intercepting all communications in a 20KM radius."
+reactiongifs,fdb3ynp,t1_fdai1hn,1578253468.0,"> But I guess I'll start with the term ""primacy."" Going off of Google's definition, why do you think Western Civilization as a whole is ""more important"" than other civilizations? And what metric do you use to determine importance?
+> 
+> From an outside perspective, that statement doesn't seem to be anything more than blind nationalism, which is toxic as fuck.
+
+Now that wasn't so hard, was it?
+
+
+> the views you're espousing simply act in bad faith and have no desire to actually reach a truthful conclusion.
+
+> didn't realize that I'm replying to someone other than OP, comment still stands
+
+That's exactly the kind of emotional response I'm talking about that turns people off. It would've taken you 10 seconds to notice I'm not OP, and to take a deep breath."
+IdiotsInCars,fdb3n6e,t1_fdauoaj,1578253337.0,"> Because they are? I’ve literally done it.
+
+Stop lying.
+
+Mythbusters have an entire episode dedicated to how it's not possible. Proving you to be a liar."
+IdiotsInCars,fdb3j7o,t1_fdb0pvw,1578253293.0,"Nope, I am correct."
+reactiongifs,fdag2ho,t1_fdaexny,1578245625.0,"Then start anywhere.
+
+Because currently, it looks like you disagree with that statement but are incapable of explaining what you think is wrong with it.
+
+I don't even disagree with you, I just hate how people think outrage based responses are going to convince anyone."
+instant_regret,fdadsge,t1_fda1w35,1578244944.0,Also it's because the ass leakers are obese.
+instant_regret,fdadnq7,t1_fd9u8pu,1578244886.0,"Sounds like you should stop going to anyplace in the world, they make poor food."
+IdiotsInCars,fdabuve,t1_fd9ykwb,1578244299.0,"Neither of you know what you're talking about.
+
+The flashpoint is the temperature at which the liquid will start turning into a vapour.
+
+Above -40C, gasoline gives off vapours. This doesn't have anything to do with ignition temperatures."
+canada,fdaazf7,t1_fda23iq,1578243910.0,">""They're going to greet us as liberators.""
+
+
+
+>Where have we heard that one before?
+
+Except /u/geckofishknight never said that, why are you putting words in his mouth?"
+canada,fdaaeyl,t1_fda1e97,1578243662.0,"> An ignorant comment that does not consider Iran's proxy network. The very thing that has given the US so much heartburn in Iraq and Syria and even globally. Hezbollah, for example, has struck as far as Argentina:
+> 
+> https://en.wikipedia.org/wiki/1992_attack_on_Israeli_embassy_in_Buenos_Aires
+> https://en.wikipedia.org/wiki/AMIA_bombing
+
+Wooow, way to prove you didn't even read my entire comment before responding with this dumb crap.
+
+All of those attacks are talked about in the wikipedia page I linked in my initial comment: https://en.wikipedia.org/wiki/Iran_and_state-sponsored_terrorism
+
+> And? They could bomb the shit out of Iran. Then what? As Iraq and Afghanistan have shown, the invasion is the easy part.
+
+> Iraq is still the gift that keeps on giving. First the Fedayeen. Then Sunni Insurgents. Then ISIS. Now Iran backed Shia militias. Where's this great US might when it comes to stopping Iraq from becoming a failed state full of terrorists?
+
+Ohh my god, Learn to read.
+
+For real, Your reading comprehension is atrocious. 
+
+**Read my entire initial comment before replying.**"
+Whatcouldgowrong,fdaa0f6,t1_fda4pb6,1578243487.0,Lmao he certainly is
+videos,fda9gz0,t1_fda742b,1578243267.0,"Yeah but even refrigerated, not exactly fresh basil is better than no basil."
+videos,fda8v8t,t1_fda4ljz,1578243138.0,"Oof, jesus, Even in Canada it's $10 for a large 2 topping at Dominos."
+videos,fda89m8,t1_fd9zfac,1578242883.0,"> Edit: also that pizza looks like shit
+
+Lol for real, saddest ""margherita"" I've ever seen."
+canada,fda2vqx,t1_fda0dh1,1578241041.0,"> In all, 40 to 50 Canadian military members participated in the conflict
+
+You are so pedantic.
+
+40 to 50 Canadians were involved in the 2003 Iraq War.
+
+For comparison, the UK and US have sent over 175,000 troops there.
+
+So, I still maintain Canada was never really involved in Iraq. You can have your little victory over being a pedant, everyone else reading this knows what's actually up.
+
+You tried to insinuate Canada was involved in Iraq to the same level the US and UK were involved, I (actually you) proved that was a lie."
+PublicFreakout,fda189b,t1_fd7lpd1,1578240511.0,"I would've called the cops *even if I knew it was a parrot*, fucking thing screaming and carrying on like that and the owner seems to not have a care in the world about it."
+PublicFreakout,fda0u9z,t1_fd8rap8,1578240375.0,Yappy dogs ruin most things.
+PublicFreakout,fda0g8l,t1_fd8vv1q,1578240294.0,"This is the first time I've ever seen this sentiment not get downvoted to fuck.
+
+Dude's shitty dog owner, and probably a shitty parrot owner too.
+
+Most of the time, parrots won't scream and carry on like that alone if they are being given enough social interaction/interaction with their owner."
+canada,fd9z6c4,t1_fd9yh9t,1578239768.0,"> Yes we were. It was clandestine. We had ships in the gulf assisting.
+
+""We were there, for real, except, we were there in secret, so I can't show you any proof""
+
+Yeah, that's really believable.
+
+> Not the first Which was 1990 by the way. Not 1993....come on dude...
+
+Dude chill TF out, you knew what I was talking about regardless."
+canada,fd9yfvl,t1_fd9wcc1,1578239580.0,"> Feel free to get off that high horse and converse like a normal human. Nobody likes an arsehole.
+
+He's just a troll who was recently banned from the subreddit (or at least had A BUNCH of his comments removed), don't expect anything out of him."
+canada,fd9vsl6,t1_fd9vpsl,1578238676.0,"Just report and move on, stop feeding the troll."
+canada,fd9vonh,t1_fd9utwy,1578238628.0,"[Since Google searching is so hard for you.](https://lmgtfy.com/?q=burden+of+proof+definition)
+
+BTW, I've blocked you now, your trolling is tiresome, It's not even good."
+canada,fd9v8ae,t1_fd9uphe,1578238405.0,"Don't think too much into it, he's just following my profile around, replying to all of my comments, trying to troll me. Of course it won't be logical and it'll look stupid.
+
+Careful though, he's going to call you one of my alt accounts, just watch.
+
+Edit: lol I called it. He's so predictable"
+canada,fd9uots,t1_fd9uegb,1578238304.0,"If your reading comprehension is that of a fifth graders you can figure out the answer yourself.
+
+Read with your eyes open"
+canada,fd9uhde,t1_fd9okje,1578238212.0,"It's funny that literally your only comeback time and time again is the baseless accusation that I'm a troll.
+
+Great mental capacity you got there :)
+
+Lemme know when you have something to say that's worth listening to.
+
+> you would have provided a source from the multiple times I asked for a source, others in this very thread, or in multiple topics in this sub.
+
+[Since Google searching is so hard for you.](https://lmgtfy.com/?q=burden+of+proof+definition)"
+canada,fd9u40j,t1_fd9st1y,1578238028.0,"Lmao such pedantry.
+
+It's overwhelmingly clear I was responding to the other guys assertion that the US got Canada involved in the 2003 Iraq invasion.
+
+However, context is hard to get when you're following my profile around trying to troll me.
+
+You should **actually read the context, with your eyes open** next time."
+IdiotsInCars,fd9soz3,t1_fd9ouo6,1578237619.0,"How do you still not understand that **the embers on cigarette butts are not hot enough to ignite gasoline vapours**?
+
+Dozens of us have been repeating it for a while."
+IdiotsInCars,fd9s9jj,t1_fd87o08,1578237421.0,"Lmao, such pedantry.
+
+If you can't understand the difference between what he said about fumes, and what most others said about fumes, I can't help you."
+AmItheAsshole,fd9s022,t3_ekb6tr,1578237292.0,"NTA.
+
+Your job is to care for those who are seeking help.
+
+Not to convince those who do not want help to seek help, fuck em."
+AmItheAsshole,fd9r5mp,t3_ekc023,1578237012.0,"NTA. MIL wants a free meal ticket,"
+canada,fd9qgg1,t1_fd7yx8e,1578236677.0,Canada was never involved in Iraq. Not since the '93 gulf war.
+canada,fd9pjci,t1_fd763yp,1578236385.0,"> assumes that Iran is not going to retaliate at an equal level.
+>
+>I'm not nearly as optimistic.
+
+Then you don't understand the realities at play here.
+
+Iran doesn't have the military capabilities to consistently project power **within their own local sphere of influence**, let alone projecting power globally. 
+
+It's just no contest, at all, and Iranian brass know that. Iran isn't a nuclear capable nation, nor do they even have a single aircraft carrier. America has 10.
+
+I'm not saying Iran won't retailiate, though I am saying Iran won't retailiate conventionally with their own military action. What they'll most likely do is just throw more money towards funding terrorism and terrorist attacks. [They are no strangers to that tactic.](https://en.m.wikipedia.org/wiki/Iran_and_state-sponsored_terrorism)"
+canada,fd9ns95,t1_fd82dqq,1578235809.0,"Lazy fat people tend to think that wherever they live is a food desert.
+
+It makes it easier for them to justify why they continue to buy shitty food at the grocery store, because they don't have a choice! How could they possibly be expected to eat healthy when even the grocery store is working against them!
+
+The reality of it is the definition of a food desert is bullshit:
+
+> ""food desert"" describes geographic areas with limited access to healthy food because the distance to the nearest supermarket is in excess of one km.
+
+1 km is nothing, and expecting a person travel more than 1km for errands isn't unreasonable at all. Most people I know ***walk to school from further distances***. If we applied the same logic to other goods and services, I also live in: an educational desert, a gasoline desert, an entertainment desert, a social services desert, a healthcare desert, a government services desert, and a <anything else you can think of> desert because the 1km distance rule is silly."
+canada,fd9mk5t,t1_fd4i4b4,1578235331.0,You really need to learn what burden of proof is.

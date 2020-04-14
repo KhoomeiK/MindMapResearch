@@ -1,0 +1,376 @@
+subreddit,self ID,parent ID,time,text
+badphilosophy,fflvw7s,t1_ff8c8b6,1580044831.0,"Dictionaries describe language, they don't prescribe it.
+
+So if a dictionary disagrees with how the language is used in practice by native speakers, it's the dictionary that's wrong."
+programming,ffc7wjl,t1_ffc4b6e,1579793578.0,"I've definitely heard issues about getting Haskell set up on windows before; the community seems to be highly clustered on linux & OS X.
+
+I haven't been following Haskell on windows that closely, so I'm not sure what progress has been made.  Haven't had too many issues with it myself on OS X, though I was also just compiling with the command line and using vim."
+programming,ffc3ze3,t1_ffbikmd,1579790968.0,"> things not working because it's been deprecated, even though it's advertised *everywhere*, or things only working half-arsed.
+
+What particular tools did you have a hard time getting to work?"
+nextfuckinglevel,ffbw62u,t1_ffbk5c6,1579784775.0,Hard work separates the Olympic contenders from the average joes.  Talent separates the Olympic contenders from the medalists.
+ProgrammingLanguages,ffbv7jx,t1_ffbdxyq,1579783877.0,"Scheme is a language defined by a spec, and there's a number of implementations.  Implementations can have random ass bugs, but you really hope the spec itself doesn't.
+
+It's kinda like C, in that respect.  The last version of the C standard was C11, and before that was C99.  There's a lot more versions of GCC, Clang, etc. though."
+changemyview,ff9paca,t1_fepsfn6,1579717875.0,"Honestly, I hate gift cards.  They don't really fit in your wallet (the few card slots usually goes towards license, credit/debit, insurance, etc), so they usually end up in a drawer for months.  If you forget about them too long, they start losing value.  Then you try to hit the amount on them without going too far over, because you don't want to waste their gift.  All in all, they're a really annoying gift to get.
+
+If I were you, I'd vastly prefer for my grandma to take me to Barnes and Nobles to buy me a book.  If that wasn't feasible, I'd prefer she ask me ""what book do you want for your birthday?"", ""what do you want for Christmas"" or ""could you make an Amazon wishlist?"".  Failing that, a card with cash and the message ""I wasn't sure what book to get you, so get yourself something nice at the book store"" shows thought.  Getting a Barnes and Nobel's gift card, though, feels like a much shittier version of that since now I have this useless card I need to worry about.
+
+Overall, it shows a lack of thought since you didn't know enough to buy them what they wanted, and didn't care enough to just ask."
+badmathematics,ff91rcl,t1_ff7vyxy,1579702688.0,"Schadenfreude *is* an English (loan)word, the same as samurai, ninja, cafe, bazaar, kindergarten, deja vu, zeitgeist, or calque, so it's a really bad example."
+programming,ff35jfa,t1_fezh1zm,1579534184.0,"That works when you're passing around a map.
+
+What happens when you move to dealing with regular data?  For example, what's the type of `Map.get`?  Or `List.unfold`?  In something like Haskell, you'd have `get :: Map k v -> k -> Maybe v` because the item might not be in the map,  and `unfold :: a -> (a -> Maybe (a, b)) -> [b]` because you have to somehow indicate when you're done unfolding. 
+
+Purescript has structural types, yet it still has Maybe, because *Maybe is useful for more than just maps/objects*."
+programming,ff3263o,t1_ff2zr9u,1579531714.0,"[Looking in rust's source, the lifetime is indeed part of the type](https://github.com/rust-lang/rust/blob/900811e43047fc5593f39b0363373530b02c87e0/src/librustc/ty/mod.rs#L506).  As programmers we can mostly ignore it due to lifetime inference, but we can also mostly ignore the rest of the type because of type inference."
+programming,ff31m7z,t1_fezfdth,1579531281.0,"
+>And yet, long lists of automatically-extracted type signatures are among the *least* useful documentation in existence.
+
+Its usefulness is proportional to the expressivity of the type system, the degree to which the library hews to simple and standard approaches in the language, and how familiar you are with the language.  It's also generally more useful for libraries with simpler constraints.
+
+It's generally not super useful in C or Java, but it's the kind of documentation I rely on the most in something like Scala or Haskell on a day-to-day basis, because it succinctly gives me what I need to know.
+
+It's not sufficient for everything, but it's a long way from being the least useful form of documentation.  Honestly, the least useful documentation I've found is prose about dynamic languages that doesn't really say what kinds of inputs the function actually works on except in the most handwavy terms."
+programming,ff2z02r,t1_ff2olyj,1579529116.0,Lifetime checking in rust significantly involves the type system.
+haskellquestions,ff1u3h8,t3_er5080,1579486214.0,"There's not just one Haskell compiler.
+
+GHC is the big one, but there's also hugs, UHC, LHC, JHC, helium, etc.
+
+The general process of writing a self-hosting compiler is called [bootstrapping](https://en.m.wikipedia.org/wiki/Bootstrapping_(compilers\)).  There's a few different approaches."
+instant_regret,ff0iddp,t1_ff01vtv,1579469167.0,"It depends on the dog, and what you're trying to do.
+
+My wife was using an e collar for off-leash obedience in a park with her trainer.  Low was great for getting him to sit or lay down from 50+ feet away.  The highest settings were needed when he started chasing after a deer, or the guy who was dog sledding with his huskies.
+
+A drivey dog is going to run through the vibrate setting the first time it sees a deer or rabbit.  A really soft dog would be fine."
+haskellquestions,fezsz72,t3_eqzbas,1579461258.0,"[Disjunction](https://en.m.wikipedia.org/wiki/Logical_disjunction) is a fancy math term for inclusive or, i.e. ||.  [Conjunction](https://en.m.wikipedia.org/wiki/Logical_conjunction) is a fancy math term for &&, i.e. logical and.
+
+The disjunction of a 5 element list `[a, b, c, d, e]` is `a || b || c || d || e`; it returns true if at least one of those values is true.  Because of this, it can short circuit and return True after it finds the first True in the collection.  So if you call `or $ repeat False` it'll loop forever looking for the first True, but `or $ take 50000 (repeat False) ++ repeat True` will eventually return True.
+
+The description is decent enough, if you assume everyone reading it has taken a few years of math at university.  It's a bit impenetrable if you haven't studied discrete math."
+insaneparents,feyobu5,t1_feygwgj,1579448206.0,"They moved out west starting in 1830, googling for about 5 minutes.  So about 190 years ago.
+
+Assuming that the average child was born to a 30 year old, that's 6 generations back.  You have 64 great great great great great grandparents.  If the average parents ago was 20, you'd have 9 generations or 512 great great ... grandparents.
+
+Mormons have historically had large families.  If each family has on average 4 kids who eventually have 4 kids of their own, at an average age of 30, then anyone who traveled with Joseph Smith would have about 4 thousand great great great great great grandchildren.  If the average family size was 5 kids born around the time the parents were 20, that's nearly 2 million great ... grandchildren today.
+
+There's only about 6 million mormons in the US.  if all of them had at least one ancestor who left with Joseph Smith, then that'd mean somewhere between 3 and 1,500 left with him, based on the back-of-the-envelope math above, assuming that every mormon kid from the original group married a convert (which isn't particularly likely but greatly simplifies the math).
+
+Looking at the wiki page quickly, it looks like he had a few thousand mormons in Ohio?  So it seems plausible that it's mostly exponential growth at work rather than lies."
+CambridgeMA,feycah4,t3_eqr0k8,1579443660.0,"Find a T-accessible job in Boston, then find somewhere T-accessible to live that's convenient to the office.  If you find a job in Back Bay, live somewhere on the green or orange lines.  If you find a job in the financial district, you can basically live wherever.
+
+Long commutes suck.  If you can remotely help it, make sure you have a short commute.
+
+That said, Cambridge is pretty great if it works out for your job.  The Boston area is pretty great for tech, there's [meetups](https://www.meetup.com/find/events/tech/?mcId=c2108&radius=25) for everything from Node and Python to Scala, Haskell, or Rust.  As others said, you'll get what you put in, but Cambridge alone has more people than Nashua, so there's a lot more niche hobby groups, which is good for making friends with your particular interests."
+CambridgeMA,fey95aa,t1_fewm5g7,1579442362.0,"If he's going into full stack web dev, he can afford to live in Cambridge."
+Fencing,fenzvkc,t1_fdsdpmo,1579293176.0,"> Which is why, when Klavan was challenged by a woman to a sword fight last week, he pointed out that he is a writer, but any member of the men's Olympic squad would kick her ass.
+
+Generally, you're not going to be fighting another Olympian.  At Agincourt, for example, the French showed up with 10,000 men at arms.  I can guarantee you that not very many of them were Olympic-level fighters.  Probably only a handful were.  More might have been local champions, and most were probably only middling.
+
+Do you think she'd be able to defeat the average guy at a college fencing club?  That's the skill level you'd expect to face in a random battle, unless you specifically hired the Men's Olympic Mercenary Company to hunt her down."
+Fencing,fenko4p,t1_fdsv2z7,1579286736.0,"[Two handed great swords weighed, on average, about 7 pounds.  The lightest were 3 pounds; ceremonial ones were often around 10 pounds, and most of the ones intended for fighting were 4-7lbs](http://www.thearma.org/essays/2HGS.html).  Medieval swords are much lighter than people think."
+todayilearned,fekhh7j,t1_fek66xh,1579200135.0,"Age doesn't matter.  If you stay at a safe withdrawal, you can retire indefinitely, at any age, with any amount of money.
+
+The important thing is desired retirement income.  If you're ok with 20k per year, you only need to save 500k.  If you feel you require at least 200k per year you'd need 5 million."
+todayilearned,fek4j4m,t1_fejxlz2,1579192449.0,"Sure.  It makes both of them better, and you'd need to do the math on the compounded returns of both.
+
+The 1.3 million lump sum figure was post tax.  Te 4% withdrawal is subject to capital gains taxes, which are lower than income taxes.  That's because you're not living on interest or dividends but on stock returns (e.g. if you bought $1000 of Microsoft stock 15 years ago, you could sell it for about $5000 today)"
+todayilearned,fejm2tm,t1_fej1rbl,1579179486.0,"It's not interest.
+
+You'd invest in a mix of stocks and bonds, and sell them slowly over the years.  You're mostly living on stock market returns, which outpace interest on any account I know about."
+todayilearned,fejjc9d,t1_fej6lwk,1579176699.0,Lottery annuities are taxed as ordinary income.
+todayilearned,fejjayq,t1_fej5gsv,1579176658.0,"4% is a *safe* withdrawal rate because the S&P returns, after inflation, an average of 7% per year.  So the math is rather more complicated and depends on actual stock returns.
+
+Keep in mind, though, that the 100k is pre-tax, and is taxed at ordinary income rates.  So your math really doesn't work because most of the money you're investing every year goes to state and federal income taxes."
+todayilearned,fejhuvz,t1_fej20i5,1579174943.0,"Both are pretax, but income tax is higher than capital gains tax."
+todayilearned,feiybwx,t1_feir42x,1579150638.0,"If you win 3 million, you might not even quietly retire right away.
+
+If you take the annuity, you'd get something like 100k per year for 30 years.  If you take the lump sum, you'd get something like 1.3 million after taxes (because the lump sum is already a lot less than the advertised amount).
+
+You can safely draw 4% a year on a nest egg.  So if you took the 1.3 million, that's equivalent to retiring on $52k a year.  The median household income is $63k a year, right now.  So it's perfectly possible to retire on that, but many professionals might choose to keep working another few years if they'd rather retire with more income per year in retirement."
+changemyview,fei85zk,t1_fegxfvv,1579132430.0,"> Income alone is an awful, awful representation of wealth. Jeff Bezos's income is $80k/year. Does Bezos seem middle class to you?
+
+So include things like unrealized capital gains, excluding tax advantaged accounts like 401Ks and your primary residence.  This isn't that hard a problem."
+changemyview,feeqp2i,t1_feenbgj,1579039179.0,"English spelling is particularly bad for historical reasons, mostly relating to having overly conserved historical spellings even after significant pronunciation shifts.  For example, slaughter and laughter look like they should rhyme because hundreds of years ago they did.
+
+But the language itself (i.e. spoken English) is no more or less complex than any other natural language, pidgins excepted.  All languages are about as complex as any other language, they just hide it in different places."
+changemyview,fee3f9l,t1_fe79rnt,1579025587.0,"None of that is particularly unique to English.
+
+All languages have some very complex rules that are difficult to put into words and explicitly teach.  That's because languages develop organically and are naturally passed on organically based off of the sense of what sounds right to a native speaker. Sometimes that regularizes things, sometimes that irregularizes things.
+
+All language is hard.  We just fool ourselves when we already know a very similar one.  For example, learning Scots is very easy for an English speaker, much as learning Spanish is very easy for a Portuguese speaker or Dutch for a German speaker.
+
+But a Portuguese speaker isn't going to have a significantly harder time learning English than, say, Swahili, Hindi, Greek, Japanese, Nahuatl, or Basque."
+changemyview,fedqlvo,t1_fedc64c,1579017765.0,"
+>Didn’t they say Hillary was assured the win in 2016? Lol
+
+Literally zero pollsters gave Hillary a 100% chance to win and Trump a 0%.
+
+Hillary was the *favourite*, though.  Nate Silver, for example, gave her a 71.4% chance of winning.  Trump had a 28.6% chance of winning.
+
+Which is to say, Trump winning was surprising but not shocking, in the same way that a coin flip landing on heads twice in a row is surprising but not shocking."
+therewasanattempt,fed72jg,t1_fecqtb9,1579001958.0,"Degrees Fahrenheit, as an internal temp.  Either measured by thermometer, or by leaving it in a 140 degree water bath for about 2 hours."
+therewasanattempt,fea9m13,t1_fe9lb5k,1578945991.0,"It's actually really good, you just need to cook it appropriately - low and very slow.
+
+In particular, chicken is thoroughly sanitized if held for 27.5 minutes at 140, 9.2 minutes at 145, 2.8 minutes at 150, 47.7 seconds at 155, or 14.8 seconds at 160.  [Chicken cooked to 140 is very tender, juicy, and smooth (not stringy like well done chicken)](https://www.seriouseats.com/images/2015/06/20150610-sous-vide-chicken-guide-39-625x469.jpg)"
+therewasanattempt,fe7xlhy,t1_fe79maw,1578920285.0,"In Sergey Brin and Larry Page's case, they were PhD students whose PhD research was essentially able to monopolize an industry because it was so much better than standard industry practice.
+
+That's a different form of luck: having the right invention at the right time while also having the skills to implement it.  Almost noone starting a buisness in their garage has an idea as far ahead of the competition as PageRank was in the mid 90s."
+changemyview,fe5xqqx,t1_fe5vqi9,1578877292.0,"
+
+> The Florida case involves the parents not treating their child at all.
+
+They wanted to treat their child, just with untested and/or known ineffective alternative treatments.
+
+That's what makes these two cases essentially the same.  In both cases, the medical teams treating the kids thought that the parents' desired treatments would harm their children.  In both cases, the doctors got the courts to agree that their treatments were in the patients best interests.
+
+In the Florida case, the harm was preventable death.  In the UK case, it was preventable suffering with no expected benefit.
+
+Regardless, it's something entirely unrelated to the issue of universal healthcare.  You could have  private healthcare where doctors are able to force parents to vaccinate or euthanize terminal kids.  You can have universal healthcare where doctors are unable to do that.  The one issue has nothing to do with the other.  Universal healthcare is mostly about where the bills are sent."
+changemyview,fe5vdzj,t1_fe5qc7c,1578875802.0,"The issue of if doctors can overrule parents in the best interests of the child is entirely orthogonal to the issue of who pays for healthcare.
+
+It's something that happens in the US, too.  For example, [Florida parents *temporarily lost custody of their child* because they wanted to treat his leukemia with new age BS like alkaline diets instead of chemo](https://www.wfla.com/news/hillsborough-county/noah-mcadams-4-year-old-boy-with-cancer-at-center-of-custody-battle-back-with-parents-before-christmas/)."
+changemyview,fe5q5nb,t1_fe3w4ux,1578872995.0,"> Then you have stories like Charlie Gard in the UK where the NIH refused to allow the parents to take their child to another country to try and save his life.
+
+Which wasn't based off of cost, but on medical ethics.  [The NHS was going to pay for the treatment until he suffered severe and irreversible brain damage, and the entire UK health team was of the opinion that treatment would, at best, just prolong his suffering.](https://www.bbc.com/news/health-40554462)"
+roguelikes,fe3kdky,t1_fe33t1v,1578850089.0,It was demolished in 1993.  The park was completed in 1995.  Hong Kong was still a  part of the British Empire until July of 1997...
+NoStupidQuestions,fdqmz1i,t3_em948p,1578670489.0,"It's good with various stabbing, blocking and hooking motions, mostly with daggers.  It's very well attested in medieval art, particularly with rondell daggers against armored opponents.  You'll also see it in Filipino martial arts.
+
+However, it significantly decreases reach.  It also makes a number of cuts more difficult, and cuts made from a reverse grip are weaker than cuts made from a normal grip.  Because of that, you basically don't see it used with swords or anything longer than a dagger."
+politics,fdozqsq,t1_fdnwf59,1578616594.0,"Plurality voting is very sensitive to the number of similar candidates.
+
+For example, in Clinton vs Sanders vs Warren Vs Biden vs Trump, Trump will win.  In Clinton vs Trump vs Cruz vs Rubio, Clinton wins.  That's a large part of why a 2 party system has endured in America, even as the particular parties have changed and evolved: we consolidate the field in a primary to paper over the fact that plurality doesn't scale.
+
+Approval voting is much less sensitive to the number of candidates.  In Clinton vs Sanders vs Warren vs Biden vs Trump vs Cruz vs Rubio, you can vote for Clinton, Sanders, Warren and Biden.  Or for just Clinton and Biden, or Warren and Sanders.  Or just Clinton.  This makes the spoiler effect much less common."
+AskReddit,fdna4tg,t1_fdmmi9b,1578581285.0,"Basically, everyone thinks their accent is normal unless society spends a ton of effort informing them that they're weird.  It's *everyone else* that has an odd accent.
+
+To them, *you're* the weird one, pronouncing what everyone knows are silent r's.  Why would you pronounce a silent r?  Do you also pronounce the k in knight?  How silly!
+
+So it's not that they think the donkey has a weird non-rhotic accent.  They're just spelling it phonetically, using the normal rules of English phonetics.  It's just that your English and their English disagree on what those rules are.  They'd do the same if you asked them to transliterate Chinese or Hebrew or something.  Not because Chinese people are non rhotic, but because to them non rhoticity is a normal part of English spelling."
+AskReddit,fdl6wh0,t1_fdl384s,1578518067.0,"That's close, but not quite it.
+
+It's a matter of phonetics.  If you have a ""non-rhotic"" dialect, when you were learning English you implicitly learned that 'r's are only pronounced at the beginning of syllables.  You don't learn it as ""oh, this is a weird way my parents mispronounce words"" any more than you learn silent 'e's as ""oh, that's a weird way my parents misspronounce words"".
+
+If you ask a non-rhotic speaker of English to spell ""uh"", there's a good chance they'll write ""er"".  Similarly, if you ask them to write the word ""caw"", there's a chance they'll spell it ""car"", because *those words are homophones to them*.  To them, that's just the way English phonetics work.
+
+So it's more like ""I heard eee aaah, so I'll spell it phonetically as eee aaar because that's how I learned to spell things phonetically""."
+learnprogramming,fdktjz6,t1_fdkcjtm,1578510858.0,"> Something like void foo(MyType* arg) in C++ 
+
+No - that's passing a pointer by value - essentially pass by sharing.
+
+`void foo(MyType& arg)` is pass by reference.  For example: 
+
+    void swap(int& x, int& y){
+        int tmp = x;
+        x = y;
+        y = tmp;
+    }
+
+You'd call that like `swap(a,b)`.  If it were instead `void swap(int* x, int* y){`, you'd be able to pass in two `int*`s and have their *contents* swapped rather than the variables themselves.  On the other hand, you could emulate call-by-reference passing in two ints at the call site by saying `swap(&a, &b)`, so it's a bit of a subtle distinction.
+
+> or void foo(ref MyType arg) in C# 
+
+Yes, this is pass-by-reference."
+learnprogramming,fdjrjuf,t1_fdjnwvs,1578484828.0,"Passing a pointer isn't pass by reference; this is just proves the point of my original post that this is kinda subtle and often misinterpreted.
+
+Pass by reference is specifically passing a pointer to the *variable* the argument is in.  That is to say, with pass by reference, you could implement a `swap(a, b)` function that works by reassigning which object or int a and b point at without mutating the object or int at all (after all, how would you mutate an int?).  
+
+Java instead has what's sometimes called pass by sharing, where you pass the pointer by value.  In pass by sharing, you can only implement a `swap(a,b)` method by calling `a.setFoo(b.getFoo())` and *mutating* a into b and vice versa."
+learnprogramming,fdhzg0y,t1_fdhuvi1,1578432979.0,"However, it's a really common mistake for people to make."
+learnprogramming,fdhtxxx,t1_fdh2zg4,1578430095.0,"
+> Understand pass by reference and value and how those relate to java.
+
+Java doesn't support pass by reference, though.
+
+Like javascript, it only supports pass by value and pass by sharing/object/object-reference.
+
+Java calls pointers references, but it passes those references by value, not by reference.  Same name, 2 different concepts."
+AskReddit,fdhmr6v,t1_fdhh1s3,1578425941.0,"It's a matter of accent.
+
+In particular, some accents drop 'r's when they're right after a vowel.  Boston is famous for this (""pahk the cah at hahvahd yahd""), but it's very common in England.
+
+If you grew up dropping 'r's and not really being exposed to people who pronounced them in those contexts, then it's pretty common to extend that to phonetic spellings and transliterations.
+
+Thus, you'll get things like 'er' (instead of uh) or 'marm', 'myanmar' or 'char siu'  where the 'r' is intended to be dropped.
+
+Eeyore is the same.  It was intended to be pronounced something like ""ee aaaah"", without an r."
+changemyview,fdglpkl,t3_el9cf2,1578401542.0,"Political parties are a very rational solution to a big problem with plurality voting: similar candidates split the vote, causing them to lose.
+
+If you don't have primaries, and Sanders, Clinton, and Trump decide to run, Trump will almost certainly win.  If Sanders, Trump, Rubio, and Cruz run, Sanders will almost certainly win. 
+
+Unfortunately, this leads strategic voters to supporting one of the 2 top parties in local politics.  Willfully ignoring the problem doesn't help anything.
+
+The solution, here, is to advocate for a voting system that scales well to wide fields of candidates, like range voting or approval voting."
+changemyview,fddwp8f,t3_ekm128,1578325825.0,"[Food miles matter a lot less than you'd think.](https://www.extension.harvard.edu/inside-extension/buying-local-do-food-miles-matter)
+
+Trains and ships are surprisingly efficient ways to transport food.  The greenhouse gas emissions from raising beef in your backyard are significantly higher than from shipping soybeans by ship halfway across the world.
+
+For that matter, in Britain, British lamb has a higher carbon footprint than New Zealand lamb, *even accounting for shipping lamb halfway across the world.*
+
+Part of that is that animal agriculture is inherently inefficient.  Cows consume vast amounts of soybeans, corn, and especially hay to produce relatively small amounts of meat.  That requires lots of fertilizers & diesel for tractors.  Part of it is that cows belch a lot of methane.
+
+As far as deforestation for soy in Brazil goes, most of that is grown for cattle feed, not tofu."
+programming,fddk1dx,t1_fddcntt,1578315317.0,"They're slightly more related than that.
+
+In particular, they're exactly similar enough to please a pointy-haired upper manager who wanted a Java-like scripting language in Netscape.  So mostly, it's just that they both use C-style syntax.  If upper management didn't want something vaguely Java-ish, we'd be using Scheme, Python, TCL or whatever for scripting websites."
+learnprogramming,fdcfyz7,t1_f5ykhvq,1578273952.0,"In Haskell, the *type* `Maybe Int` is inhabited by the *values* `Nothing`, `Just 0`, `Just 1`, etc.  A maybe value doesn't have to be `Just a`; it could be `Nothing` instead.  But once you know it's a `Just a` via pattern matching or something, you know `a` is a real Int or whatever."
+science,fd282lt,t1_fd1lrwj,1578143166.0,"On the other hand, we work pretty hard to ensure planes never cross paths.  Adjacent planes fly at least 1000 feet of vertical separation, usually at least twice that.  We give planes on a particular route 10 to 15 minute following distances.
+
+The big obstacle flying cars will have to deal with is each other."
+todayilearned,fcynmtp,t1_fcyiaao,1578083424.0,"What leads to congestion on highways is density.  Once traffic gets dense enough, it slows down.
+
+This is especially the case at interchanges, especially at cloverleafs because there's a lot of weaving.  Self driving cars will still have to weave, and weaving really slows down traffic once it's dense."
+todayilearned,fcyglbl,t1_fcx7xm3,1578079771.0,"
+> If cars are smart enough to cruise around in an effort to avoid parking fees, they’re smart enough to drop the driver off, and then go home or find off-street parking. 
+
+It depends on where you are.
+
+Rural or suburban areas?  They'll be fine.
+
+Cities?  Congrats, you're sending your car home and rush hour traffic is now twice as bad.  Not that anyone really cares about being in stop and go traffic for an extra hour, since you'll be streaming Netflix on your way in."
+Cooking,fcxa7vf,t1_fcwp0pu,1578057116.0,"Juicy flavorful meat vs tough flavorless is a matter of temp.
+
+Meat has proteins which denature at particular temps.  If you boil the meat to 212 degrees, denaturing proteins will literally wring the juices out of the meat.  If you boil the meat to 160 degrees, you'll have juicy flavorful meat."
+ProgrammerHumor,fcx9i1w,t1_fcvn0hx,1578056418.0,"Types don't have to just be int vs long vs char.
+
+In some languages, you can make new semantically incompatible types that are just an int or a long under the hood. 
+
+In F#, you could have `500<population>` that says that the unit is population.  In Scala, you can use a library to say something like `val pop: Int @@ Population = 500`.
+
+In C, you can make something like 
+
+     struct population {
+         int val;
+     }
+And many compilers will optimize the struct away.
+
+Long story short, (static) type systems are great for making wrong code not compile."
+girlgenius,fcx8n0f,t1_fcx37cs,1578055558.0,Notice how stuff is floating in the one panel?  It's been suggested that it's on Mars and the airship went through space somehow.
+agedlikemilk,fcuwmqq,t1_fcursct,1577990020.0,"However, the original thing is ""if you're carrying a gun on chance that you stop a church massacre"".
+
+There's plenty of other reasons people might carry guns.  But he isn't talking about them."
+TIHI,fcuojh7,t1_fcun0w8,1577985359.0,"That's mostly a matter of orthography.
+
+Many countries periodically have orthographic reform.  For example, Germany, Austria, Liechtenstein and Switzerland passed an international agreement on German spelling reform in 1996.
+
+English, by contrast, keeps spellings centuries after pronunciation shifts render the spellings nonsensical.  For example, knight used to be pronounced phonetically, without any silent letters.  Daughter and laughter actually rhymed."
+agedlikemilk,fcun52w,t1_fculgzk,1577984558.0,"I think that the original post is saying that buying a gun to stop a mass shooting is about as logical as buying a lottery ticket or being a prepper.
+
+[Since 1982, there's only been a bit over 100 mass shootings.  2019 had 10.](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/)  By contrast, in 2019 7 people won Powerball.  25 people won Mega Millions.
+
+Mass shootings just aren't very common.  They happen, but by the same token people also get struck by lightning or win the lottery."
+agedlikemilk,fcukexe,t1_fcu1cnx,1577982986.0,"Preparedness *is* about probabilities.  You prepare for things that are likely going to happen.
+
+There's a difference between buying a raffle ticket and buying a lottery ticket.  You're almost certainly never going to win the megamillions.  But if you participate in local raffles, you're eventually going to win.
+
+That's why you're prepping against bees, not black widows, rattlesnakes, lightning, and the like.  Everyone gets stung by bees, eventually.  Almost noone gets struck by lightning. 
+
+Similarly, ""natural disasters"" happen pretty regularly, especially in certain locations.  You might not be likely to have a catastrophic earthquake, but people are regularly flooded, snowed in, or trapped by hurricanes for a few days.
+
+On the other hand, you're significantly less likely to be at a mass shooting."
+therewasanattempt,fco2jml,t1_fcn7mk9,1577822874.0,"Dogs don't need grains.  They've evolved too digest them much better than wolves, but they're not needed.
+
+However, grain-free pet foods usually replace the grain with something like peas, potato, lentils, chickpeas, sweet potatoes, etc.  One of these ingredients seems to be bad for dogs.
+
+Similarly, ""fat free"" snack foods aren't inherently bad.  Carrots, celery, apples and the like are very healthy.  However, switching from unsweetened full-fat yogurt to fat free sweetened yogurt is very unhealthy, *because sugar is unhealthy*.
+
+You can put a human on a very healthy lowfat diet, with lots of whole grains, fruits and veggies, beans, lean meats, and the like.  It won't have many industrially processed ""low fat"" foods.
+
+Similarly, you can feed dogs a very healthy grain free diet based on what wolves eat in the wild.  It's not going to come as a kibble, though.  And you have to be careful with pathogens."
+skiing,fcne5hi,t1_fcn956z,1577809827.0,"I mean, the sign with 2 black diamonds on it should be a bit of a hint."
+changemyview,fcndybj,t1_fcmv5q1,1577809699.0,"
+
+> **Comparison with other methods**  
+> \- Ranking (negative vote):  
+> 5 candidates, I love A, I hate E, I know little B, C, D.  My ranking will be, from best to worst:  A, (semi-random B,C,D), E.
+
+> The ranking hides a negative vote, that is, I can disadvantage a hated candidate putting him last in the ranking, however causing the huge problem of favoring little-known candidates (which are often found in the average voters).  
+
+Not all ranked methods require a total ordering of the candidates.
+
+Many, like Schulze, admit ties.  So you can vote A > B = C = D > E.  This allows you to bury the hated candidate under all the merely unknown candidates.
+
+
+> \- Range/Score (no value):  
+> It has no point limits so it doesn't respect the value of the voter (which should be the same for everyone).  
+
+Why should everyone have to use the same number of points?  Using more points can make your vote more expressive, but it doesn't make your vote worth more.
+
+For example, you could give A 10 votes, and everyone else 0.  Or you could give A 10 votes, and B, C, & D 3 votes.  Either way, A only gets 10 votes.
+
+This scales really well to wide fields.  You can simultaneously vote 10 Warren, 10 Sanders, 5 Yang, 3 Buttigeig, 0 Biden.  You don't have to hurt Warren to support Sanders, or vice versa.
+
+With your method, you could easily cause Warren or Sanders to lose by flooding the field with similar progressive candidates, splitting the progressive vote.
+
+> Not respecting the value, it generates directly or indirectly tactical votes, especially if the winners are more than 1; you could also give more points to little-known candidates to favor them over hated ones, so there is also a negative vote.  
+
+Even when people vote strategically, though, Score results in very high 
+
+What's wrong with negative votes?
+
+> The tactical vote occurs only if changing the form of the vote, this allows the vote to better represent its true interests, when calculating the results.  
+
+Tactical voting happens when someone can *get a better result* by voting tactically.  For example, a Warren supporter might tactically bury Sanders if it looks like Sanders is going to win.
+
+If it looks like the race is between Warren and Sanders with Sanders winning, why wouldn't a Warren supporter vote Warren 100 with DV?  That would maximize the chance of Warren winning, albeit at the cost of an increased chance of, say, Biden winning instead.
+
+Why is DV less susceptible to tactical voting than, say, STAR?
+
+> **Mathematical criteria**  
+> They aren't important in this speech because they only serve to describe a voting method in a more rigorous way but they don't establish in any way the optimality of the vote.  
+
+They show ways that voting systems fail to be good, which is why they're important.  Many systems sound good at first glance, but break in interesting ways when prodded.
+
+> What is your definition of optimal vote?  
+Without this definition it's difficult to understand which method is really better than another.
+
+An optimal voting method is one that minimizes the total unhappiness of the result, while scaling well to many viable candidates (for example, it should be able to easily handle a field containing every 2016 Republican primary candidate and every 2020 Democratic primary candidate), and minimizing/eliminating the chance of failures like nonmonotonic results."
+changemyview,fcn7jzd,t1_fcn30i5,1577805321.0,"> The only correct solution is to accept the nullity of the vote, respecting the interests of the voter (who could have made sure that his vote was not null, if he had wanted to).
+
+Exactly: his points are necessarily wasted, because he didn't fill the ballot out all the way and this is a runoff method."
+skiing,fcn1rsa,t1_fcm7ldb,1577800803.0,"There's also Happy Thought, La Rosa, Crystal, Andy's Gold, West Drain, Holy Cow and the like at Telluride for double black diamonds.  There's a black diamond called Milk Run.
+
+Telluride basically just lets the terrain speak for itself."
+interestingasfuck,fcn01kc,t1_fcmxc09,1577799235.0,"That's [Chinese hotpot](https://en.m.wikipedia.org/wiki/Chongqing_hot_pot).
+
+Basically, a big pot of broth that you dip thinly sliced meat, veggies, tofu, etc. to quickly cook.  The broth on the one side has a big oil slick on top.  Not sure why he's removing it, though; the chili oil is the best part."
+changemyview,fcmyshe,t1_fcmxqrf,1577797981.0,"How do you automatically get the set of probable winners?  Via pre-election polling?
+
+By that argument, IRV avoids exhausted ballots, because everyone can always rank every candidate without harming their previous choices.
+
+Yet, in IRV elections, exhausted ballots happen.  People won't pay enough attention to the polls to give all but one probable winner at least one point, just as they don't pay enough attention to rank all the frontrunners with IRV."
+personalfinance,fcmyg6d,t1_fcmvy29,1577797621.0,"
+>  Doesn't matter that he's not licensed.
+
+Not only is he not licensed, he doesn't even have a learner's permit, meaning *he's never driven before*.  
+
+Beyond it being a bad idea to have an entirely untrained beginner on the road with zero instruction, the penalties when/if he's caught depend on the state.  In WV, he's looking at a $100-$500 fine.  In VT, he's looking at a $5000 or less fine and a 2 year or less prison sentence."
+rust,fcmxcc0,t1_fcmpka9,1577796417.0,"
+> Open source is charity work, great and all, but not profitable.
+
+It can be, if you're selling support or hosting.  Red Hat, Canonical, gitlab, and many other companies are evidence of that.
+
+But an open source reddit clone has the same fundamental problem as a closed source reddit clone: users.  Unless you can get everyone to abandon Reddit, you won't be very successful.  Reddit was successful because people abandoned digg after digg's redesign."
+changemyview,fcmw258,t1_fckcicv,1577794901.0,"
+>The RPEW ultimately makes sure that no points are wasted.
+
+How so?
+
+Generally, with runoff methods, you'll run into the issue of exhausted ballots.  If I only vote for Bush and Rubio, then by the time the runoff narrows it down to Clinton vs Trump, my vote will have long since been discarded because everyone I voted for will have been eliminated."
+changemyview,fclo4h5,t3_ehjkp6,1577752376.0,"There's a number of mathematical criteria people use to consider voting systems.
+
+For example, monotonicity (if you give a candidate more points, can it cause them to lose?  If you give them less, can it cause them to win?), participation (can voting lead to a worse result?), Independence of Irrelevant Alternatives (if Nader decides to run, does the result flip from Gore to Bush?), Independence of Clone Alternatives (if I-Cant-Beleive-Its-Not-Obama runs, does McCain win instead?), Favorite Betrayal (can you get a better result by voting for your second favorite?), and Later-No-Harm.
+
+What criteria does your system fulfill?  Given reasonable assumptions of voter behavior, what do the Yee diagrams look like?  How susceptible is it to strategic voting?"
+energy,fcfkxox,t1_fccx3tf,1577631106.0,"Plenty of people don't really use their pickups for anything.  But they're often very practical out in the country for tasks like picking up 100 bales of hay, buying a pallet of horse bedding, and trailering animals to the vet."
+Futurology,fc9kyxc,t1_fc75cov,1577554214.0,"Prior-appropriations water rights predate both those companies by a few years.
+
+Basically, out west, they decided that later mines and farms can't impact the water usage of previous mines and farms, back in the 1800s.  You can use water as long was someone downstream wasn't already using it.
+
+Taking rainwater (without having water rights to it) is illegal just as taking river water is illegal: because you're stealing it from whatever downstream person is entitled to it."
+Futurology,fc97nkj,t1_fc7byju,1577548331.0,"Western water rights are based on ""first in time, first in right"".
+
+That is to say, the oldest claim has the most right to the water.  Later claims aren't allowed to take enough to impact an earlier claim.  So in a drought, the people with the most recent claims have to cut back.
+
+So the argument is that taking rainwater is stealing it from the downstream people with water rights to the river.  Colorado still recently made it legal, though."
+DeathByMillennial,fc68v6z,t1_f95av4o,1577474951.0,[About 25% of gainfully employed people don't get any PTO or holidays](https://www.cbsnews.com/news/one-in-four-workers-in-us-dont-get-any-paid-vacation-time-or-holidays/).

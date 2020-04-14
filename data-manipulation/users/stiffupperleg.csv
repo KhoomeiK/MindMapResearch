@@ -1,0 +1,440 @@
+subreddit,self ID,parent ID,time,text
+SQL,ffvwibz,t1_ffvsuty,1580275399.0,"For a minute I didn't understand what you meant by middle ware -- but totally 100% agree. Tableau presents data, it isn't an appropriate modeling tool. Too much can go wrong. Go from SQL out to something like R, whatever, then back into SQL, then up to Tableau."
+SQL,ffvehye,t1_ffv7k3u,1580262234.0,"Tableau is a piece of shit.
+
+Having said that, if you instill totalitarian level of controls & best practices... it can work. 
+
+I still think overall that I prefer SSRS, but Tableau can do more, and looks prettier... it's just a serious piece of shit -- which would be OK if it weren't for the fact that they, as a company, pride themselves on what a piece of shit it is. 
+
+Quick example: Ever tried to figure out how to be able to sort a cross tab? You know like say a cross tab with 10 columns with the furthest one to the right (e.g. last mod date), where you want to have the newest at the top, or the oldest at the top, and to generate a list based on the filters. Go ahead and Google that tell me how much you've learned about how Tableau *is* sorting, and you need to understand how sorting works, and how it can't do what you want because... it *is* sorting, and you just need to understand how sorting works. 
+
+Or ever tried to get stuff out of Tableau for a PowerPoint? No native connectivity or support? Talk to your Tableau rep about that, and enjoy the conversation about how you need to learn how to present, and how that PowerPoint isn't the future. Enjoy the vast amounts of time you will waste leveraging Tableau over SSRS because Tableau simply doesn't care, or doesn't have the resources to integrate with PowerPoint.
+
+Oh, and don't get me started on how the fonts break, alignments shift, etc. Go in to make one change, end up having to fuck around changing all sorts of things back to make it look a certain way (if you work for a company that mandates those kinds of things, but I digress.)
+
+Anyway, having raged about all that... I'll take it over most other poisons from a front end perspective, but you really need control on the database side, and really need to have data sources which come with all necessary calculations already being done in SQL. If you start going down the calculated field path for anything other than formatting (i.e. a field equal to zero, named zero... which is fucking stupid to even have to do in the first place)... if you start going down that road you will hate yourself when you are managing hundreds of Tableau workbooks and you need to make a code change for something that is happening upstream. 
+
+Suddenly a small tweak  involves you physically downloading a ton of workbooks, or data-sources, and republishing, where if everything is just saved as a view, or a view of a view, in a hierarchical architecture that is populated by sprocs... you just go up to the highest level, make the change, save it, and everything auto-updates.
+
+They are like the Mac computers of analytics. They don't have a mouse with two buttons, it comes with one, and they want you to learn how to figure out how to work with that."
+todayilearned,ffrgshp,t1_ffrgag3,1580157753.0,"Sure, Google it if you want more information, but I'm pretty sure it's been used out in CA. Want to say they caught an old serial killer or something like that. Just picked his trash up off a public street and processed it."
+SQL,ffred0f,t1_ffrcsi0,1580156366.0,"I think the answer here is that you can do an aggregate function without grouping, also you can group by more fields than you are displaying.. which is weird and not something I've done.
+
+To be fair it would be nice to have a GROUP BY ALL feature, but generally I just copy and paste from the select, and *always* have my aggregate functions at the very bottom. Only sucks when you're group by cases, or having to remove an alias."
+gifs,ffra7wq,t3_euoh7q,1580153822.0,Cub? That is a grown ass bear. Motherfucker looks 30.
+todayilearned,ffr9rpb,t1_ffr8jk4,1580153541.0,"I agree, but I said *if* and took it to an extreme to make my point about the intolerance of innocent convictions. 
+
+DNA isn't foolproof, it can be wrong some of the time... or it can lead to false convictions. It isn't a silver bullet. But compare it to a lie detector test and you can see my point. Even if you could improve them massively... still won't be as good as DNA... which already isn't perfect. The standard for what is legally admissible is the narrative here, not the infallibility of a technology."
+todayilearned,ffr7ar2,t1_ffr6zpy,1580152008.0,"I'm not sure, it might make it a lot more messy because of the 4th amendment. It is established that a person walking down the road can pick up your trash, find your DNA, and then do something with it.
+
+What isn't legally established is if you can take it from a prisoners trash, since they are housed by the state and have no other choice with which how they dispose of their trash. At least it isn't to my knowledge, but I'm happy if someone provides a link to a relevant case.
+
+Now the courts might ultimately agree that you can do it, but that takes time. It would probably be easier to look for some case that simply gives you the right to compel a prison to provide a DNA sample."
+todayilearned,ffr68t0,t1_ffr43f0,1580151351.0,"> would need probable cause to collect DNA from him today
+
+Not strictly true. They could get it from something he has thrown in the trash. The problem here, I think, is that he is being housed by the state and therefore getting DNA from his trash might be more problematic.
+
+Everything else you've said is spot on."
+todayilearned,ffr61ow,t1_ffr5bxx,1580151232.0,"That isn't the way the theory of western legal theory has developed.
+
+Take lie detectors as an example. We know they work fairly well, and if we were to use them we'd increase our convictions of guilty people by a fair amount, however we would also increase our convictions of innocent people and this is not acceptable.
+
+Even if we could boost our guilty conviction rates by 400% and only increase our innocent conviction rate by 1% we would throw the lie detector out as being unreliable, and unconstitutional."
+todayilearned,ffr5o5k,t1_ffr46l5,1580150999.0,"A complete investigation *was* completed at the time, but DNA wasn't a thing. Now after that investigation has finished, and the court case which came from it has been finished... you need some kind of cause to require him to give up his DNA.
+
+You could theoretically steal it from a discarded item in the trash, but this becomes problematic because he lives in prison."
+askscience,ffmzuep,t1_ffke0lh,1580060578.0,"Depends on how the question is phrased. If you asked me to name coastal states, Texas would be one of the last that would come to mind.
+
+If you asked me to name states with the largest coastline, I'd probably name it fairly quickly...just because any time states are brought up in context of being 'the largest' then my brain is automatically evaluate Texas before a place like Connecticut, or Rhode Island."
+funny,ffizv7q,t1_ffidqiv,1579986839.0,"I used to have a sort of phobia, or fear of calling 911 because of the possibility that it would result in an automatic police presence. In my later life since I've become an adult I find myself calling 911 at least once or twice a quarter, generally to report hazards on the freeway. 
+
+Like a week ago there was a steel ladder in laying between the left and center lane. 911 can't help you, but they will connect you to the highway patrol dispatch... which doesn't really have a separate line that you can easily call. 
+
+I keep my time on the call to an absolute minimum.
+
+""Hello, I'm calling to report an obstruction on the freeway.""
+
+""Thank you, I'll hold.""
+
+""Hi, there is a construction ladder between the left and center lane going westbound on <insert freeway> just before/just after exit #, cars are swerving to avoid it.""
+
+""Yes, that's correct. <repeats the information back a second time>.""
+
+""Ok, thank you. Have a great day.""
+
+After like 10 of those it has become routine, and I can hear a happy tone of the voice in the operators when I just get right to the point, tell them what's going on, give them the relevant information, and then hang up like it never happened.
+
+What I've learned is that you should never assume someone else has called 911 already. Sometimes they've told me that they already have reports, and have someone on the way... other times you can tell they're surprised by the call. 
+
+Other times they know about the call but don't understand the details. Witnessed a very minor car accident recently, where 911 was called and police were supposed to be dispatched. Turned into a really long (45+ minutes) wait... and I called 911 just to make sure someone had reported it, even though I knew someone had. 
+
+What wasn't in the original report is that an occupant of the vehicle who had been hit was a 90+ year old Korean war veteran, who was, because the car was destroyed, having to stand on the side of the road in the sun waiting for the cops before friends could drive him home. He wasn't injured, but he couldn't exactly leave, and you could tell he was agitated/stressed from standing on the side of a road.
+
+Upon letting 911 know this detail, a cop appeared within minutes, and instead of going through the normal protocol immediately expediting the process of making sure that man could get in a car and be driven home."
+videos,ffijymu,t1_ffhoxg7,1579975671.0,My point was kind of to imagine what he would have been like as the class clown in the 1700s.
+videos,ffhnokz,t1_ffhmjju,1579944177.0,"Possibly, or it would have been exacerbated even more. The kid was playing a *bicycle*."
+videos,ffhm3nq,t1_ffhgxf8,1579941793.0,Not sure that would have mattered with him. Born in a country that had wealthy patrons. He probably would have distinguished himself at a very young age.
+videos,ffhlylj,t1_ffhc14m,1579941585.0,I don't know if he would have needed instruction. He was playing a bicycle as a musical instrument. On TV. As a kid. He was writing pieces of music that orchestras couldn't play.
+videos,ffhanaq,t1_ffh9fxh,1579928057.0,"Yes, I know, which is why I'm making the point I'm making. What if he had been born back in the day when Beethoven was his only peer? What would have he done, or innovated?"
+videos,ffh4uy0,t1_ffh4ezs,1579923166.0,"Stravinsky, and Webern, too.
+
+My point was more to imagine him had he never listened to them before, or heard rock. What would he have done given what a genius he was? With Beethoven, or Mozart it is easy to say they are genius, but it's harder to quantify, or it's less easier to touch. With Zappa you have him making music using bicycles on the Steve Allen show as a kid. Bicycles.
+
+Who knows what he would have done a few centuries previously, but I'd bet on him having done something."
+videos,ffgvqco,t1_ffgvkea,1579916281.0,"Not entire true, but mostly. A lot of the greats from history weren't necessarily born to the right families, but in the right area where their were patrons to support their art."
+videos,ffgshqu,t1_ffgjpvu,1579913918.0,"I often wonder what Zappa might have been like had he been born a few centuries prior. When he was basically a kid he was composing pieces that were too difficult for local orchestras to play. Had he really been born at the time right time, and place, it would have been really interesting to see what he would have done to bastardize classical music."
+todayilearned,ffgrfcs,t3_etgk8a,1579913151.0,"54,000 to power 4M homes sounds pretty good, but that's such a small % of homes in the US that I'm not sure if the cost would outweigh the environmental savings compared to other methods such as nuclear, solar, etc."
+sports,ff8fqad,t1_ff7j452,1579676496.0,"When I was younger and applying to just about any job I could get, to kill the soul-crushing boredom I would post fake resumes up on Craigslist in LA advertising how normal I was, and how I had 20 years of being normal as fuck to guide my decision making skills.
+
+To this day I maintain that I could have saved Michael Jackson's life, and saved Britney from shaving her head."
+UpliftingNews,ff4xz4o,t1_ff4uhcu,1579575143.0,"You should read a book called For Us, the Living, by Heinlein."
+explainlikeimfive,ff3oj4d,t1_ff2cx4f,1579545469.0,Absolutely.
+explainlikeimfive,ff28wpp,t1_ff242tx,1579497254.0,"Since we're going with crazy factoids, the brain hears faster than it sees. Even though light travels much faster than sound, the brain reacts to sound much faster than it does light.
+
+Human sight is a very strange system, and I would haven no problem being blind over deaf because our ears are nearly perfect. It isn't as good as some other animals, but it isn't choppy or sporadic. We hear well, and have evolved to react to sound more quickly than sight."
+history,ff25hix,t1_ff23lpj,1579494358.0,">This is not about sourcing because it is not an argument for or against an interpretation of history
+
+I mean you made a very specific claim which runs counter to what I've learned.
+
+>removal of culture.
+
+See my other comments about Constantine. Did he remove, or create culture?
+
+>Sure, previously these practices are not considered ""Chinese"" because there was no concept of being Chinese just as is the case with many other nations before the 20th or 19th centuries, so of course they can't represent ""Chinese culture"" because the idea has not been around until recently. The actual events, however, regardless of whether they are argued to represent ""Chinese culture"" or not, can be evaluated on their continuity, and the sum of this allows us to evaluate how much culture has disappeared.
+
+I don't really understand what this means. It sounds like you're agreeing with me, and obviously a lot of culture was lost, but... are the Mongolians part of Chinese culture? 
+
+>I guess it would be better to phrase it as ""cultural practices in China"" instead of ""Chinese culture"" to be more precise, so as to not be hung up about the definition of ""Chinese culture"", which is really not useful a concept when evaluating the continuity of cultural practices as how much a practice represents ""Chinese culture"" is irrelevant to whether it has disappeared or remained.
+
+This is where we're apart."
+history,ff21b8u,t1_ff1zr97,1579491132.0,">Confucianism does not have to represent the ""Chinese"". 
+
+I don't mean to be offensive, but this is a statement that I really think needs to be properly sourced, multiple times. I'm not learned enough to have a strong opinion whether you are wrong or not.
+
+>We don't need to construct a generalised understanding of ""Chinese culture"" to look at individual traditions
+
+Which individual traditions, and from which parts of ""China""?"
+history,ff1wgxa,t1_fezw0a3,1579487747.0,"To add to this, I've been thinking about it all day... let's compare Mao to Constantine. 
+
+Did Constantine destroy or create culture? What about all the books of the ""bible"" that he destroyed, or all the traditions that didn't make the cut? He literally invented culture as we know it today at the expense of many competing ideas, many of which survived in the context of being non-Roman Catholic, for example the Coptic Christians in Ethiopia. Is their culture Roman? Is Roman culture Ethiopian? 
+
+I'm not trying to be difficult, just pointing out how difficult these types of questions can become, and also pointing out that China, as an entity viewed through a modern lens, did not exist historically. The closest you might get would be the Han dynasty, and you can research how many Chinese today are Han, or at least claim to be Han, the Mongolian empire, or the Song dynasty.
+
+None of these three examples encompass the full landmass of modern day China, and you have lots of problems in your explanation such as Taiwan, Tibet, and Korea. Even questions such as where does ""China"" begin/end and where does SE Asia start/stop become interesting when you look into Thailand, Vietnam, Cambodia, and Laos. Then you get into areas near Pakistan, Afghanistan, and India, Nepal. 
+
+You can probably correctly argue that China is a geographic region in the same way that the United States, or even Russia is a geographic region, and from a political perspective that it was somewhat inevitable that a state would eventually rise to control these regions due to natural land barriers. Expanding that explanation to add cultural significance is probably a stretch though, at least to me.
+
+edit: And this is where Mao succeeded, by creating the concept of modern China. Lenin, and later Stalin did the same with Russia, or the USSR. In the USA it was more clear cut because a bunch of Europeans showed up in the Americas and just took over, then revolted. By comparison the Chinese and Russians did this well over a century later in areas which were not freshly conquered and under colonial rule."
+history,ff1nxc3,t1_ff1kxmd,1579482327.0,Taiwan is only interesting here because of the revolution.
+history,ff0sbnu,t1_fezw0a3,1579471817.0,"An example of what you're talking about is confusicism. Is Korea part of Chinese culture? What about Japan or Vietnam? Why not?
+
+Describing Chinese culture as having elements such as confucism is problematic. Confucius is no different than Christ. Is Christ representative of Jewish culture? Roman culture? European culture? Western culture? Italian culture? Israeli culture?
+
+There was no China or Chinese people then, just as there were no Italians. Mao literally created China as you know it, and no such thing had existed previously."
+history,ff0qgxn,t1_fezxrua,1579471371.0,I wrote a thesis on this topic for political science.
+history,fezu1w2,t1_feztei5,1579461656.0,"You misread me. What I'm saying is that historically the 'culture' we're talking about was not really seen through the lens of it being a unified 'Chinese culture.'
+
+One could argue that all of the different regions & dynasties encompass Chinese culture, but that would make China out to be more of a continent like Europe. For example we don't think (normally) of Roman, or German culture to be parts of English culture. Even French culture is not considered part of the English identity.
+
+In modern terms we talk about things like, ""Did China know about Rome?""
+
+The question only makes sense today because today there is such a country known as China. Back then there wasn't and the question would be nonsensical. It would be like saying did the Europeans know about Japan? Which Europeans? The Turks? The Greeks? The Celts?"
+history,fezl368,t3_eqyd6e,1579458478.0,"I've gotten a lot of flak for saying this in the past, but in the context of political science you could really say that the Cultural Revolution didn't destroy Chinese culture as much as it *created* the concept of Chinese culture.
+
+What I mean here is that prior to the CCP, there really was never a time in history where China as a whole existed, or where there was ever a central concept of Chinese culture.
+
+There certainly were dynasties that ruled most of China, or even empires such as the Mongolians that conquered large parts of China, but the idea of there being one Chinese people, and one Chinese culture simply was never actualized prior to the communists, and as loathe as I am to credit Mao with anything, his greatest achievement was in unifying China and supplying it with this central image."
+funny,fewd2z0,t3_eqq9j8,1579408615.0,"Rookie. In Northern Michigan we know we're on the road so long as there isn't a tree, lake, or moose in front of us."
+todayilearned,fepkl30,t1_fephxak,1579322935.0,">im gay and my dick is small
+
+Doesn't that kind of work out as a positive?"
+todayilearned,fephpe3,t1_fepfdpo,1579320780.0,"That wasn't Einstein.
+
+U R Dum"
+todayilearned,fepeb8s,t1_fep9bkg,1579318381.0,"The context of what I was saying is that IQ isn't really an important metric relative to scores above probably 115 or so. If you score in that range or slightly above you can pretty much understand any body of human knowledge you choose to consume. And as someone who has a score above that, who has consumed some of those bodies... I can have conversations with you on any topic for the most part, where you are a peer of mine intellectually, if not smarter.
+
+For a few points... only like 5-10 below that... you hit a part of the curve where that isn't possible. People who think this is funny don't understand how exponents or bell curves work. Like 100 is pretty fucking dumb, and 120 is capable of doing pretty much anything.
+
+The curve between say 130 and 150 is pretty bland. I can't remember off hand but I think Mensa starts accepting people at like 132? When you get into the abstracts there doesn't seem to be really any discernible difference, per se, but you might see some really weird aberrations. For example, they might just randomly pick up new languages from minimal stimuli. I think I read some article recently about some two year old prodigy who taught herself Spanish from using her parents tablet. Savant type shit. Just sitting down and being able to play a piano. Some of these types, like John Nash, probably understand very specific things, in very specific ways, in a context that no one else will ever understand. Your Stephen Hawkings, Einsteins, Newtons, etc., are still tempered and limited on what they can tangibly produce with that hugely advanced intellect... and again, it generally only applies to one specific area, and even within that area, one specific niche. 
+
+Meanwhile you can have far more productivity out of people far less smart, and many times those people are being managed by people eve less smart, but still fully competent to understand anything Einstein is talking about.
+
+Then you get into the lower part of the curve, and it drops quick."
+todayilearned,fep8xpc,t1_fep87sm,1579314789.0,"I type about 160WPM... 
+
+You probably one of them below average motherfuckers, ain't you?"
+todayilearned,fep6y4e,t1_fep6kgs,1579313517.0,"I think the 136# is probably most accurate because there have been studies that have shown repeated exposure to IQ tests improves scores. There have also been some interesting studies about how the standard IQ test skews disproportionately based on where you were born & what language you speak. 
+
+It is inarguable I think that my IQ is more than one standard deviation above average based simply on the work I do for a living. Whether is two, three, or four, probably depends greatly on the way in which you want to test, the subject matter of the test, or the population of who you are testing.
+
+Having said that... I'm definitely below average intelligence in a lot of other ways. I miss things that are right in front of my face. I'm dumb as shit in a ton of ways. I'm not socially awkward, and I've learned to embrace these stupidities and laugh at myself in public when they become evident... but serious... I do some really fucking stupid shit. On the other hand, there are some very limited examples where I am approaching the status of being one of the top experts in my field. Do you know what I generally say in conversations that revolve around those topics?
+
+""I. Don't. Know."" -- then I use my immense talents to go find out. I read everything I can find on the topic. I scour every source I can for even passing mentions of the topic, or rumors of it. I don't stop thinking about, or researching the problem until it's solved. I think about it when I'm sleeping. I dream about it. I think about it when I'm fucking. I think about it when I'm jerking off. I think about it when I'm taking a shit, or eating. That's all intelligence really is."
+todayilearned,fep5pkf,t1_fep39av,1579312715.0,"IQ is a weird metric, and I work in the business of metrics.
+
+My lowest IQ test, and one of the first I took, came out around 136. My highest was in the low 150s. Without an ounce of arrogance I can tell you that I'm smarter than most people that I meet, and that it is very rare that I meet someone who I consider an intellectual peer. Even rarer to meet someone that intellectually intimidates me. I can also tell you that everyone on my team at work is an intellectual peer of mine, and that the person I work for is absolutely a step above me... he has a mind that intimidates me. So it's not like you can't find these people out in the wild.
+
+It really has no actual use. I make a very nice salary, but people who aren't as smart as me make more money. In some very specific niche fields I can just sometimes explode and do things that others can't.... but most of the time I can't do basic things as well as other people.
+
+My point here is that I can have a conversation about any topic that exists with someone who has an 120 IQ. I can get them to understand all but thee most advanced concepts, and I don't even need to get them to understand them, per se, because I can give them simpler analogies that represent whats going on. They might not be able to replicate the work themselves, but they can go forward and have very advanced/intellectual concepts with other people who do understand those inner mechanisms, and get work done to specifications/requirements they desire.
+
+At a 120 IQ there is basically no topic, or no body of knowledge that is inaccessible to the person. 
+
+An IQ of 100, or 105, is very different. I'll never be able to have advanced conversations with that person.
+
+And when you get way up into the even higher IQ's... there's no real difference or advantage. You might, at best, be able to do a few things faster. If I really wanted to sit down and master tensor calculus, I have the ability. It pushes the limits of my ability, and taxes me, but I could do it. I would never be able to do it as well as others, or as fast as others... but if I really had the desire I could look at their work, probe it, and have very complex conversations with them about it. I might even find things that they missed, or be able to significantly contribute to it. 
+
+Once you get around 130IQ you're at the top of human capability in terms of any significance. 120 is a very robust score. Your *average* person is, by definition, 100, which means that a lot of people are *below* 100. 
+
+I'd wager that most people reading this now are at or above 110 because of the way scores skew by demographics. So keep that in mind whenever you talk to people online... you're talking to the upper nth percent of the human population... and most of us choose to talk about bullshit, or share cat videos."
+movies,fehjxwj,t1_fehin27,1579118073.0,"Yeah, most of the time when people talk about ""the 60s' in reference to Rock they actually mean the late 60s/early 70s."
+movies,fehg8n8,t1_fehdeg0,1579115905.0,"I love all kinds of music, so Rock isn't skewing anything. You were talking about beloved bands from the 1960s... which typically involves Rock."
+movies,fegze4h,t1_fefzqlh,1579105901.0,"Lots of beloved musical acts didn't sell nearly as many records as you'd like to think, but now you've moved the goal post from the conversation about the #1 hit in 1969.
+
+https://en.wikipedia.org/wiki/List_of_Billboard_200_number-one_albums_of_1969
+
+You'll notice the Beatles were up there for quite a bit, and a nice entry by Zeppelin but the biggest album of the year was Hair. You dno't see The Who, or Bowie on the list, or Three Dog Night. No Rolling Stones, no Temptations, no Elvis."
+movies,fefwhnr,t1_fefwcpk,1579067474.0,"Popular, yes, but none of the most beloved musical acts from the 20th century are represented well in the charts for #1 hits. In fact, in many cases where a top act does have a #1 hit... it's often regarded as one of the poorer songs in their catalog."
+movies,fefuknw,t1_feesi4c,1579065675.0,"This kind of reinforces the point being made. Commercialism sucks, and the most popular thing at any given time by metrics such as ""the #1 hit song"" generally indicate really bad artists compared to their contemporaries. 
+
+The 60s (and 70s) in terms of musical relevance wasn't really understood until after it was over. Then we all look back and see what the #1 hit was in 1969 and laugh at how dumb kids were... just like we laughing about how dumb they are now."
+movies,fefcrzk,t3_eon8af,1579053514.0,Can someone please explain who this person is?
+personalfinance,fe4ng1s,t1_fe4hdfw,1578861116.0,It absolutely is.
+personalfinance,fdxvesw,t1_fdxsz3q,1578773329.0,"What you are basically describing is someone sending you a bill for something you don't owe, and have no legal responsibility to pay... then after you refuse to pay, sending it to collections where it shows up on your credit report.
+
+This would be fraud, and criminally illegal, but it would also open you up to a law suit for damages.
+
+The only reason that state law even matters here is because there *might* be some state law which appears to justify this, or which stipulates that you can't sue. 
+
+That state law would likely be found unconstitutional upon a legal challenge... then you'd be talking about fraud... then you'd be open to a civil lawsuit for damages.
+
+Did a quick Google for NM and it turns out I'm right:
+
+>>“What the judge says essentially is the city is overstepping its authority through a number of errors,” Rodriguez told KVIA. “(The city) is not providing a fair process. That’s what the 14th Amendment is about, providing a fair process for one to protect themselves from any law.”
+>https://www.abqjournal.com/197312/updated-las-crucen-wins-camera-ticket-appeal.html
+
+So the practice was in violation of the 14th amendment. I didn't see anything about sending tickets to collections though, or it dinging your credit report... because if that was happening, you can probably bet the assistant professor of education law would have sued.
+
+Now as it turns out, DC seems to send tickets to collections:
+
+>>If your ticket debt gets referred to a collections agency, you can call that agency directly. If you have more questions about ticket debt collections, you can call the District’s call center at 311.
+>https://dmv.dc.gov/service/failure-pay-ticket
+
+This sounds like a lawsuit waiting to happen, and there is existing case law to support it."
+personalfinance,fdxrvvs,t1_fdxrfce,1578772269.0,"Then they can't send it to collections, or have it ding your credit report, and they'd be very much opening themselves up to a lawsuit if they did. Again, I don't know NM, but that's what my spidey sense is telling me."
+personalfinance,fdxr76w,t1_fdxqq8h,1578772121.0,"States have weird laws, and I have no idea how NM works but that sounds really untrue. If it is true, it sounds like a lawsuit waiting to happen."
+personalfinance,fdxpggi,t1_fdxlkse,1578771539.0,"Not sure how DC works, but I have never heard of a ticket going to collections. Usually a bench warrant is issued if you fail to pay a ticket.
+
+edit: DC sends tickets to collections."
+history,fdtb6in,t1_fdt4899,1578714304.0,"Mind you, in this narrative there is no real ubiquitious Soviet culture that we have now, or had in the 1980s during the Cold War. This really wasn't that long after the revolution in terms of a broken people / new cultural identity.
+
+The Germans could have tried psychological warfare against Communism, which wasn't nearly as cemented in power as it would be in following decades. By occupying the land surrounding the cities they could possibly disrupt the supply lines into those cities and affect starvation.
+
+To your point, being resupplied was a major problem in their ability to either do this, or actually take the cities."
+history,fdt5cmx,t1_fdt4899,1578712120.0,"What you are saying is true, but wasn't a problem for either Genghis Khan, who invaded Russia in the winter, or William T. Sherman, who managed his way through the swamps quite well. Call it a feature, not a bug.
+
+It might have been impossible, but they had no chance to succeed while focusing on the cities (which they tried), so at best they might have had some vague chance if they ignored them all together and focused on an attrition based guerrilla war of their own."
+history,fdt3673,t1_fdrau5s,1578711316.0,"Germany might have had some vague chance of defeating the USSR if they simply ignored the cities all together and punched deep into Soviet territory, disrupting supply lines, etc., while trying to siege large cities and letting them starve."
+worldnews,fdpflrf,t1_fdpenex,1578627355.0,"The FA completely freaked out on me when I stood up to take a leak. The pilot basically said the light would be on the entire flight, and to expect a bumpy right. FA's aren't really allowed to tell you not to use the bathroom, and she was like, ""SIR! SIR! IT IS NOT SAFE FOR YOU TO BE STANDING RIGHT NOW! SIR! DO YOU SEE THAT I AM WEARING MY HARNESS??""
+
+I just kind of did an eye roll and was like, 'Jesus lady, OK, I'll sit down for a few minutes until the scary bit is over and then go when it's only half as bumpy.' 
+
+In restrospect: It was fine, it wasn't that bad. She was a rookie."
+worldnews,fdpe131,t1_fdoxgs4,1578626237.0,"I'm amazed how my fear of flying has diminished as I get older. Last flight was a cross country one and it was rough lotta turbulence. Flight attendant was young and got spooked. I had some hip hop on, was rolling with the turbulence like I was on a boat while getting drunk. Had a great time. Other people not so much."
+pics,fdli30c,t1_fdklmwg,1578524492.0,"NATO supporting the intelligence is not de-escalating anything.
+
+>I don't think any sane person is saying Soleimani was a good guy and didn't deserve to face justice, however assassinating a high ranking general of a country with a large and capable military force
+
+Compared to NATO they are not capable of anything, and if NATO agreed with the intelligence, and agreed with our intent to kill him... that's all I need to sleep at night. Has nothing to do with Trump."
+pics,fdkj05p,t1_fdkhe0c,1578504752.0,"They weren't talking about that, they were meeting to discuss the use of force in Iraq, and none of the envoys questioned the merits of it.
+
+That's a pretty telling statement that the intelligence was correct, and the guilt of Soleimani. Look at the list of NATO countries. They aren't going to just rubber stamp that to make Trump look good, and that isn't going to de-escalate anything."
+pics,fdkgcij,t1_fdka0k6,1578503285.0,"You could have Googled it before asking me what made me say it.
+
+>They said that no envoy challenged US State Department and Department of Defense officials, who briefed via video conference, over the merits of Friday's drone raid.
+>>https://www.aljazeera.com/news/2020/01/nato-stands-soleimani-assassination-warns-iran-200106173245219.html?fbclid=IwAR3R3j9uwWzx30UmLSRsZD4wJHzEIr0ScKPXsQ9T1IxXjWhlau7SNvJPR74"
+pics,fdk9wrc,t1_fdk1cdt,1578499372.0,An article in Al Jazeera from yesterday with a big headline.
+pics,fdjcvdf,t1_fdith3h,1578465649.0,"I hate to agree with who you are arguing with even slightly, but NATO seemed to be completely fine with the attack. I really doubted Trump, and obviously don't trust him, but when NATO backs up a decision like that.... it's a bit telling that the intelligence was accurate."
+SQL,fdj80oc,t1_fdhhwif,1578461070.0,"I don't understand what you mean by ""running"" through your OLAP... or what you mean by ""this report""
+
+This doesn't sound like a report. It sounds like it is a process that is assembling a sort of cube of its own and generating a table that is a primary data source. Is that not correct?"
+SQL,fdj5k50,t1_fdhjvng,1578459050.0,"I'm not understanding this. You want to include this proc in an existing ETL... got that... 
+
+So why can't you? I assume this proc dumps the data off in a table, no? 
+
+What do you mean ""run this report"" against the cube?
+
+Does your cube build independently of this proc? Do you just want to point this proc at the cube and see what the results are?"
+SQL,fdc0nvr,t1_fdbwtvf,1578264840.0,"Sometimes it becomes unwieldly, but generally you can work through all the possible ways something can fail, and design multiple scenarios for what to do if they fail. You might have 7 primary reasons that something fails, and multiple jobs to run to fix those different reasons.
+
+I suppose in a perfect perfect scenario you might test the data first to quantify the 7 groups, then run the respective jobs on each segment so that nothing fails... but in order to do this you need to first design it the other way and then rewrite everything -- which often doesn't happen because there isn't time or need."
+personalfinance,fdbmkoe,t3_ekdnbo,1578258835.0,"Travel budgeting is all about my ability to get time off, and what if any commitments I have during that time off. For example, traveling back home for a week is pretty cheap. I have a free place to stay, food is free, and it just costs a plane ticket. If someone is getting married and I have to fly home, that might eat into 3-5 days of my total yearly vacation time.
+
+On the other hand, I might be able to take 10 days off around the holidays, but again, if I'm flying home to see family for the holidays then this isn't going to cost a lot.
+
+It becomes a lot harder to take 10 days off at some other random point in the year, and a lot harder to predict. In my field we respond to production issues, and we never know what kind of production issues we might have next week, next month, or next quarter. 
+
+I can book a 10 day expensive trip to the other side of the world well in advance, but it becomes a pain in the ass if things are blowing up and I need to jump on a call from a foreign country. My company gives unlimited PTO, but we're expected to be there for critical issues if we're on vacation (which makes sense if we're the sole SME, and no one can fix anything until we check in.)
+
+Anyway, I look at the calendar and try to carve out time that makes sense. It's easy to get 5 days off if Monday is a holiday. I can then decide I want to fly somewhere to travel, but obviously not somewhere halfway around the world.
+
+Once I figure out the times I want off, which naturally leads into where I can go... then I start ballparking expenses. Most of the time I'm traveling to see family/friends, so expenses are minimal. Once a year I try to travel somewhere alone where I spend most of my yearly budget. This is my ""big trip."""
+SQL,fdbku1k,t1_fd63cdo,1578258331.0,"I'm probably going to be in the minority here, but I prefer to design sprocs that can't fail. Even when they produce errors they will run successfully, and export records to a table, create a log entry for what went wrong, and then possibly have other downstream procedures that attempt to fix those errors.
+
+This especially works well if you're working with dynamic loops that can iterate through thousands of values. No reason to fail the whole run just because one or two iterations produce some error."
+SQL,fdaqyvj,t1_fdao3pe,1578249107.0,"There are a variety of ways you can write/integrate a subquery into an existing query, such as:
+
+    Select *, (insert subquery)
+    FROM (insert subquery) A
+    INNER/LEFT JOIN (insert another subquery) B
+        on B.field = A.Field
+    WHERE thing in (insert another subquery)
+
+Does that make sense? So you have multiple ways you could combine the second query into the logic of the first query to produce the data that you're looking for. You could also use a CTE.
+
+Basically you can just wrap any query in a FROM () A, and then join it to another subquery such as INNER JOIN () B."
+todayilearned,fd0uvws,t1_fczqm7u,1578124080.0,"Bull dogs were bred to bite on, and hold a bull's snout... not balls."
+aww,fd093x8,t3_ejpcg2,1578115468.0,"You don't seem to understand how to play tug-of-war, and the dog is not impressed."
+todayilearned,fcz3qu4,t1_fcz2rx3,1578093058.0,"You don't understand how 'rights' work. A right is something you can assert and defend --> which is why you can't own a person --> because they have rights.
+
+Property does not have rights, because property cannot assert/defend actions, or even take actions."
+todayilearned,fcz210b,t1_fcyzmol,1578092078.0,"Morals are derived from logic.
+
+And no, it is not logical at all to own a person. Namely, because you can't actually own other people. You can try to do it, but it never works out well. In fact, today you can't legally do it in a single country.
+
+>Property is a legal thing, it is not defined by physics, but by law.
+
+Physics has nothing to do with the concept of property, nevertheless, people cannot be property... because they are people.
+
+>Just because something is the law doesn't make it logical.
+
+This is the only sensical thing you've said here."
+SQL,fcw6mpi,t1_fcw5vrv,1578018356.0,https://drive.google.com/file/d/1JfwwwzzTctEWvEero2cwY68L9HvBY0yi/view?usp=sharing
+todayilearned,fcw1ye1,t1_fcw1i3u,1578015272.0,"I'm a rational materialist, at least I think that term fits. Mars is no different than you except that is a lot larger, and more interesting. You have the same amount of free will it does. 
+
+Whether our orbits are predetermined, or nondetermined is really of little consequence to the facts there are orbits in the first place."
+SQL,fcw104k,t3_ej544l,1578014646.0,"So I'd say you have the skills needed to *get* an analyst position... the question is whether you can *keep* one.
+
+Be a contrarian. Assume everyone is wrong. If you go into a meeting and everyone is moving in the direction you want them to move in, then question yourself. If they are all going in a direction you don't want them to move in, then question that. 
+
+You have to learn how to master the access of data to answer your questions to varying degrees of statistical significance. Challenge everything. Nothing is true until you can confirm it.
+
+In God we trust, but all others must bring data. That's the motto of my previous boss."
+todayilearned,fcw0oyl,t1_fcvx8b3,1578014443.0,"Well.. I can accept your criticism. Still we aren't surprised to see where Mars is in its orbit, and it is where it *ought* to be. Isn't it? I suppose it would be very surprising if it were not."
+Cooking,fcvxz68,t1_fctmfxy,1578012653.0,"I said the same thing in another comment, but honestly over 20 years of cooking I can count on one hand the times I've done something really good ""on the fly"" as opposed to sitting down beforehand and thinking things out.
+
+I have no formal education. I've worked with a chef in the past for years, but there was no reason that I decided to add lemon, parm, and red pepper. I tasted the sauce as it was and thought those things would compliment it nicely, so I added them and tried it. The visual look of the sauce, and the taste of it somewhat reminded me of a piccata (lemon & arthichokes) so it made a connection and I thought it would be a good experiment.
+
+Overall I was somewhat disappointed with how bland the final product was. It was very good, but lacked a certain oomph that I've come to expect from good cooking. This oomph is something that is probably going to take me a few years to test into as I try different ingredients and ways of preparing the dish.
+
+My current thought is to do some kind of lobster ravioli and serve this on top. I'm not sure why but my experience is telling me lobster would work really well with this sauce since it's so 'bland.' 
+'
+I also see a lot of posts and comments about similar recipes that use butternut squash, but honestly I have no ambition to switch. I've always liked roasting acorn squash, and eating them as they are, so I want to keep with that as the main ingredient. In a very weird way I like the fact that it doesn't actually taste like squash.
+
+I see other comments about how squash is used in vegan recipes as a substitute, but I really have no ambition to go down that road either. If anything this only encourages me to pair it with cream and cheese. 
+
+And lobster.
+
+Maybe roasted red peppers.
+
+From here it could become a bisque or a soup instead of a pasta dish, or continue to evolve as a pasta dish. I don't know. Time and experimentation will tell. There are several dishes that I have been experimenting with over time, all of which I've researched or inherited from others and slowly made my own... but this one is a little different in as much as it was an unplanned, happy accident.
+
+When I posted here I kind of expected other people to chime in with recipes, or similar ways this is done... because it just tasted too good for someone else to have not tried on their own.
+
+As I get a bit older and reflect back on my experience I am becoming less tied to the concept of recipes, or ways of doing things, and more focused on specific techniques. Over the holidays my BIL cooked these scallops that would have put mine to shame. He didn't even have a recipe. He just sauteed them and focused on technique, and they were the best scallops I had ever had. If I had cooked them I would have been focused on a sauce, or a specific scallop dish, or a specific recipe... like specific instructions.
+
+He had none of that. He just cooked scallops the right way, and his simple impromptu sauce was elevated because of it.
+
+That probably isn't advice I would get a newer cook, to just ignore recipes and abandon them completely in favor of focusing strictly on technique, but maybe for a newer cook it is good to have that in the back of your mind as you hyper-focused on mastering specific recipes."
+history,fcva53l,t1_fcv8voh,1577997827.0,It wasn't unforeseen. It was very much seen.
+Cooking,fcv8ros,t1_fcv8g46,1577997007.0,It's also very rare. In my 20+ years I can count on one hand the ones that worked out well.
+Cooking,fcv7vhb,t1_fcv7e63,1577996474.0,Agreed but I wasn't really thinking at the time. Just decided to experiment as it was late and I had a few beers.
+Cooking,fcv7e7e,t1_fcuim2s,1577996185.0,"You're right but that's why you cook the spinach separately and just add on top as you serve, no?"
+history,fcuzq7a,t1_fcuzjhc,1577991730.0,"You aren't exactly hearing what I'm saying.
+
+>control the British Empire.
+
+Control of the British empire would fall to whomever won America, and years later WW2 shows exactly what I'm talking about. Even to this day the British ""empire"" is largely controlled by American hegemony."
+history,fcuz27n,t1_fcuyuqu,1577991364.0,">I'd argue it isn't a civil war mostly because I would define a civil war as two factions vying for the same power/throne/government etc.
+
+That is exactly what they were doing, except the real power was in America. Losing the colonies was the beginning of the end for the British empire in terms of global geopolitics."
+history,fcuybzu,t1_fcuxzru,1577990965.0,"I think it largely depends if you're talking about historians, or political hiostirans/scientists.
+
+I'm not saying the American revolution was or was not radical, I'm simply commenting that it was very much ""going to happen"" and that it is probably better to view it as a ""civil war"" than a revolution considering a variety of factors."
+todayilearned,fcuvhzl,t1_fcuvegb,1577989390.0,"It is logically indefensible to own another person --> because they are a person that have independent thoughts, etc. 
+
+Not only that, but it is physically impossible to own another person, because people are not property.
+
+I've explained this, it seems to be over your head, so I'll defer to a more simple: Because we said so."
+SQL,fcupqkr,t3_ehr9z0,1577986033.0,"I keep meaning to make some kind of YT video on it, but just download a dictionary and start asking it progressively harder questions.
+
+1. How many words start with S?
+2. How many 10 letter words are there? 
+3. If you were playing Scrabble and had to pick 7 letter from the Scrabble bag, which 7 could you pick that would let you spell the most words in the English language?"
+Cooking,fcunrg3,t1_fctjo5d,1577984921.0,"A roommate of mine *hates* squash, and won't eat it roasted. I served it to him and after he had a second helping asked him if he still didn't like squash. He was amused."
+todayilearned,fcunjzd,t1_fctrw8t,1577984800.0,"Assuming free will is not real, logically defend the practice of owning another human (who has the illusion of free will.)"
+todayilearned,fcunf8u,t1_fctufyu,1577984723.0,">How so?
+
+I can't even believe I'm having this conversation: Because we collectively have all said so. 
+
+>There are some species of higher animals
+
+We are not those species, and they are not as 'high' as we are."
+todayilearned,fcun9oe,t1_fculwnc,1577984631.0,"I tend to agree, and use that method as well. The original definition of free will from classical philosophy has been demonstrably shown to be false, and the entire concept of compatabilism as a school of thought is predicated on the original definition not being compatible with the universe as we know it.
+
+They do not define it though."
+history,fctg0bt,t1_fctfpkm,1577942066.0,"It is obviously true, but it is generally understated.
+
+>Obviously material conditions are the most important driver of revolution, but they're also the whole reason anyone becomes a communist in the first place. The october revolution happened because many people thought the february revolution did not do enough to address those material conditions and that socialism was needed. The people who started the revolution were literally members of the Bolshevik party, saying ""the communists had nothing to do with it"" is ridiculous.
+
+These factors came late in the game after revolution had become inevitable, and multiple incidents had already occurred. Also these incidents themselves were largely spontaneous.
+
+>He wasn't for the february revolution but he was for the october revolution. Even when he was outside of russia, he remained the leader of the Bolshevik party and his writing was very influential.
+
+The Bolshevik's were just one of many other groups. The revolution itself as a culmination of efforts, but how and when it actually started (i.e. when the people revolted) is separate and unrelated. It's like the Arab Spring. A vacuum was created by the declining state, and in that vacuum the communists stepped in to fill it. Saying they caused the vacuum is simply not true."
+todayilearned,fctfr2t,t1_fctepwm,1577941830.0,"You can try in much of the world, and your ability to do so is being slowly diminished over time.
+
+>You can even lessen gravity with enough money, but it is a property of the universe. Only right that is guaranteed is death, predicated on birth. It is decidedly not a physical property of the universe.
+
+Good luck trying."
+todayilearned,fctdun8,t1_fctcwu4,1577940125.0,"You don't really seem to be picking up what I'm putting down.
+
+There is not one country on planet where you can legally own another person as a slave.
+
+>When your argument devolves to stonewalling it is still just a form of violence. I can keep going with your protest or I can overcome it by escalation. Escalation ends at violence.
+
+You seem to have a problem with the concept of rights, but it is no different than the concept of gravity. Try to own someone, go ahead."
+todayilearned,fctcixp,t1_fctc8x9,1577938992.0,"You are missing everything I'm saying, either intentionally or because you are more interested in listening to respond than you are in listening to what I'm saying.
+
+You cannot own people --> because you can't own people.
+
+We all have the right to do whatever it is in our power to do. Full stop. That's what a right is. A right is something you not only *can do*, but can *defend yourself in doing*. 
+
+Can you defend yourself in owning a person? Nope. You can't. Why? Because the rest of us said so. 
+
+Why?
+
+Because we are a logical race that is vested in cooperation, and it is not ethical to own another person. Why? Because you can't actually do it. It was tried for centuries. It worked out poorly. It still exists in some place, and in fact there are more slaves today than during the height of the trans-Atlantic slave trade... but it is a dying ideology. Why? Because you can't *actually* own people. It doesn't work out well in the long term. It is unethical because they are people."
+todayilearned,fctapcq,t1_fctai5f,1577937467.0,"Morals derive from ethics, which derive from logic, which derive from science, which derives from math.
+
+You cannot own a woman, because you literally cannot own a woman much in the same way that you cannot walk on water due to gravity.
+
+You may try to own a woman, but over time that will fail... largely due to people having the ability to ethically think for themselves, condemn the practice, fight against it, etc.
+
+If you are trying to prepare a trap you are using the wrong example."
+todayilearned,fctag1x,t1_fcta8lf,1577937256.0,"Like I said, you can try. We will see how that will work itself out in time."
+todayilearned,fct9wqa,t1_fct83p4,1577936821.0,"Not according to me, according to discernible ethics. According to the definition of *rights* as they apply on an individual and collective basis (political theory.)
+
+According to gravity. You *cannot* own people. You can try to own people. But you cannot own people. It is wrong to do so for those simple reasons."
+todayilearned,fct7r68,t1_fct7kna,1577935111.0,"I answered your question, you said, 'what part of my statement,' something, something.
+
+Are you referring to this completely nonsensical question:
+
+>Why is it not okay to sell women as brides?
+
+Because it is not okay to sell anyone as anything. People are not something that can be bought or sold."
+todayilearned,fct753m,t1_fct63to,1577934638.0,"> It took a lot of balls, but it also was based on retaliatory violence still being on the table, not on morality.
+
+Retaliatory violence not only being a military option, but an option against him and his family."
+todayilearned,fct5rd3,t1_fct4miu,1577933590.0,"You are making my point for me. We are a cooperative species, and we know that mutually assured self destruction only leads to our own destruction... so we avoid it. At least so far."
+todayilearned,fct4f7u,t1_fct49c5,1577932604.0,Who?

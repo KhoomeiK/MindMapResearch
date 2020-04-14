@@ -1,0 +1,133 @@
+subreddit,self ID,parent ID,time,text
+elasticsearch,ffhsctr,t3_eti0oa,1579951399.0,"I have/had a three master two data setup done on vms and barebone in my first draft which handles quite a bit on pretty low specs (data nodes have around 8g ram).
+
+That little setup indexes around 3-4mil documents a day, the only downside with that setup was that doing searches across multiple months tend to tear it down duo to low ram. 
+
+For my team I’m now deploying a Docker Swarm ELK stack which can scale dynamically depending on how many nodes are connected to the swarm at any time and the labels associated with them.
+
+A host VM with 18 cores, 96gb RAM and 2x2TB + 1TB SSD storage.
+
+This vm will be hosting multiple docker-machine node vms through hyper V. At first the cluster will consist of three-five masters and two data nodes.
+Data’s with 32gb of RAM and masters with 8gb (that might be to much but I don’t yet fully understand the data load when master/coordinating nodes return big query result data sets)
+
+This cluster mainly indexes one big application (ERP of my company with a few mil posted transactions a day) it’s Interfaces to other systems and the entire environment (machines/hardware) it self.
+
+The new setup will be deployed this week I imagine it to be capable of the above mentioned multi month analysis across many small documents. 
+
+The web service logs come from packet beat, 3 month of data from it sum of 45 mil documents comes out at 40-60gb. Elastic does a very nice job of storing redundant data.
+
+I could share my swarm repo, it has a two click setup which spins up its 3 vm node elastic cluster (Elasticsearch, Logstash, Kibana) services are deployed depending on how the nodes are labeled, xpack, tls security) on a machine with at least 8gb of free ram. Altering the script allows for spinning up 10-100 how many vms you want.
+
+Duo to the label control you can change your cluster setup any time (probably have to read a bit into docker) with it always going to quorum. (If possible)
+
+The same repo will be used for production just with different heap and jvm settings for the elastic services (script is the same no matter the resources hosted on), if you already have some experience with docker that might be a neat start.
+
+I didn’t want to reinvent the wheel really but I didn’t find a similier docker-compose Stack on the webs that wasn’t either way to over engineered or not dynamic enough to be used as a good start (and not many really seemed to tackle the problematic of elastic node clustering on a dynamic container environment with changing names/hosts/ips)"
+WhatsWrongWithYourDog,ffhqwmn,t1_ffh7r9f,1579949152.0,Hehe
+mixingmastering,ffgixnm,t1_ffgg6pp,1579907295.0,Very well worded my friend thank you
+mixingmastering,ffgiwhh,t1_ffgcbzb,1579907273.0,The other comment explains it perfectly actually
+MusicBattlestations,fffz867,t3_etc84c,1579895024.0,"Kandinsky what a nice idea!
+
+Others will say its sub optimal but welp space not much to do, maybe same acoustic foam or similier in a few dedicated spots.
+
+Lovely non the less"
+mixingmastering,fffsa2o,t3_etb04z,1579890699.0,"Actually it is pretty meta nowadays to cut low mids (at least in vocal focused/leaded genres), 200-500 range. You probably heared about either that or the many told “mud” area, I kind of cut there by default as well, not as much on the individual tracks anymore but instead on the mix bus it self.
+
+I frequently see -6 to -12db low Q wide cuts, with the high end being pushed +6 to +12db boosts to compensate for the removed low mid information in today’s music. Then you compress  it again. Resulting in a really wide airy/hifiLike sound. (De-Essers often work superb between 8-12kHz btw)
+
+(Not as easy to achieve as it sounds, took me quite a bit to find the right balance and frequencies to touch, if not done correctly you hear a real loss of the mids with the boosted highs sounding like boosted highs not compensated mids, it’s not bad but it doesn’t sound worth it compared to the natural sound)
+
+A lot of radio play, that’s kind of meta these days. And regarding the ways we nowadays listen to music logical, it’s a less center focused sound you achieve, without need of panning. The track gets widened a lot for the hearer by removing low mids and replacing them with 9k or 10k (11, 12 really depends on the track) the “intensity” with which the ear is hit is also much less, subjective wise it’s easier to listen to if you are really busy minded or supporting lower attention spans.
+
+If you listen to music 15-50 years ago and compare it to some of today’s top songs you should quite often feel much more drawn into “older” music close to forcefully, draining energy, with the music seemingly “weighing” more and being more centric. (besides panning and analog characteristics)"
+docker,ffequ48,t3_et1j7n,1579860963.0,"That shouldn’t happen.
+
+I usually have 2-3 windows of „exec -it“ open (from time to time even multiple windows into a single container)
+
+And various docker-machine env Windows to different machine nodes (vms) on the same host with each machine window “exec -it” ‘ing into different containers of the guest vm.
+
+No issues yet."
+bizarrebuildings,ffekhji,t1_ffdcjfw,1579851814.0,"Indeed my old fellow.
+
+Child safety hehe"
+GetMotivated,ffcgeki,t1_ffb3dtz,1579798897.0,"You’ve done a big step congratulations! Every addiction is deeply rooted and manipulating behavior, harder to fight than it seems for most, kudos for overcoming/fighting and finding back to your self!"
+Showerthoughts,ffc477m,t1_ffbyc77,1579791118.0,"Big Crunch yes, i couldn’t remember.
+
+I also mixed up cooling with heating death thank you for clarifying!:)"
+Showerthoughts,ffc430l,t1_ffbw76e,1579791037.0,"That’s one theory indeed, depending on time and sci fi physics might even reach singularity again couldn’t it?
+
+But yes something has to happen, our laws of thermodynamics introduce the heat death paradox which states that a universe can’t be infinit old as then thermodynamic equilibrium should have been reached.
+
+We obviously did not reach that point: Our universe is finitely old.
+
+And we have to reach a point of either equilibrium or compression. Both cases kind of mean dead. 
+
+So our universe is not just finitely old now, it must have a finit lifespan as well. (If our laws of thermodynamics don’t change)"
+Showerthoughts,ffc3gfo,t1_ffbxib2,1579790597.0,"Above should be dark energy yes.
+Dark matter attracts (gravity) while dark energy repulses (anti gravity)"
+Showerthoughts,ffbup5y,t1_ffbstdr,1579783384.0,"I lost my text damn.
+
+But indeed dark matter/negative pressure energy based theories that state acceleration is still happening are wide spread as well.
+
+Negative pressure would spread evenly across the universe, but theories about localization based different expansion energy seem to rise as well being fired by gravitational waves."
+Showerthoughts,ffbsn9j,t1_ffbrhob,1579781243.0,"Our universe is expanding as you most likely know. 
+
+The theory though is that the energy responsible for said expansion was released at the Big Bang it self.
+
+Looking at cosmic background radiation this can somewhat be verified as the age of said radiation fits. 
+
+Now it becomes interesting though. There are quite some theories in which this expansion ends.
+
+Heat death of the universe: Once the expansion energy is consumed entirely the expansion stops. That moment is said to somewhat inverse our current entropy. Instead of objects moving further away duo to them being accelerated (Big Bang) they now stop expanding. If expansion stops our gravity laws come in and and expansion becomes compression, collapse.
+
+There are various theories trying to explain the expansion differently.
+
+But adding distance does not add energy. Said distance is only achievable by acceleration. So you first need to consume energy before moving anything. 
+
+Currently there is nothing else known which would be able to accelerate our universe in its expanding manner besides the Big Bang. Which does not serve endless energy.
+
+Im no scientist and other theories sound well rounded too sadly that’s the only one I member.
+
+Edit: it’s not cooling death but heat death"
+CompetitiveForHonor,ffbp7xb,t1_ffbocar,1579776817.0,"Kensei got a lot of soft feints added to his kit. 
+
+But as time progresses feint and bait mix ups will decline in effectivity as people get used to it.
+
+Feint/Gb mixups where quite a thing back then but nowadays such mixups are quite useless."
+bizarrebuildings,ffblw33,t3_esoiiu,1579771774.0,I can imagine this going strong with a tab
+devops,ffa74iw,t3_escj7w,1579729176.0,If you google deprecation or breaking changes for your versions you might find some
+askscience,ffa16gg,t3_esaqzr,1579725808.0,When the producer becomes the listener
+Dynamics365,ff9ugv7,t3_esevet,1579721622.0,"Greetings!
+
+Sadly I’m not from the UK (But there most likely will be quite a few companies utilizing it there) but I’m a Software Developer (ERP department) currently working in a very individualized big fashion retail company which uses an earlier version of Business Central (NAV) and is currently migrating to Business Central.
+
+Originating from a Microsoft Partner I saw quite some different use cases which where handled with one of the Dynamics NAV products. (2009-Business Central).
+
+I might be able to answer some of your questions, send me a direct message on this account I’ll gladly answer and share some insights."
+gadgets,ff9kppc,t1_ff9792q,1579715050.0,"That contradicts one of apples/Mac most pushed features. 
+
+Not the phones. But the Macs, MacBooks and iPads. Synch your data with the cloud and work seamlessly across your devices.
+
+I know quite a few people and companies implementing said feature for more mobile and dynamic workstations for their employees. 
+
+iCloud in general is quite a thing beyond phones."
+audioengineering,ff3v27l,t3_erel6t,1579549480.0,"Hey! I actually heard about that as well. There where some pretty famous examples from old to new times spread.
+
+The intent most often was to create a very abstract surrounding. Having a big hall like reverb hard left for auxed tracks and a more intimate flavored room verb to the right you are able to implement another dimension to the storytelling of the mix.
+
+Depending on the composition and plot of the song there are quite some usages for said technique. 
+
+Transitioning between parts or telling a psychedelic vibed story by having certain tracks play their own sub plot inside their own small room, done right and mixed adequately the brain will be forced to recognize this sub group of instruments duo to their “interfering” nature.
+
+You can most likely introduce phase issues if done wrong. It’s a compositional act, think about why and what you want to put into that “other room” and know that the more you put into that room the lesser the overall effect will be. 
+
+Don’t split half your tracks across the two verbs (not without a special intent and plan!:)). Have very specific ones be in your “interfering” special room. And the other very specific ones in your “natural” default room.
+
+You will most likely still need to have a primary environment Verb in your center, you will end up with an uneven amount of reverb R/L which will be audible. This doesn’t have to be a bad thing depending on your genre and liking.
+
+It probably won’t be as effective in EDM (no front) or other extremely front loaded (aimed to sensory overload) genres. Your avarage black metal guitar won’t be able to stick out with a different reverb from an hard angle as well as you might guess.
+
+I hope I was able to inspire a bit."
+Showerthoughts,feysixz,t1_feyprdt,1579450076.0,All hail 1753
+Showerthoughts,feyksgp,t1_fey8vep,1579446921.0,Most psychedelic experiences kinda confirm
+WeAreTheMusicMakers,fexfx2r,t1_fewtyif,1579430332.0,Lmao hehe (to the first part)

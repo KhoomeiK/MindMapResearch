@@ -1,0 +1,570 @@
+subreddit,self ID,parent ID,time,text
+ProgrammerHumor,ffsq2y7,t3_euv9iv,1580188530.0,"Oh there's people who think syntax highlighting is an unnecessary distraction.
+
+Maybe the same people who think color coding notes is pointless?"
+programming,ffspklr,t3_euye41,1580188066.0,"Libraries are almost never updated once installed
+
+FTFY!
+
+(Unless the package manager does it of course)"
+programming,ffrc8xw,t1_ffr7viz,1580155062.0,"I'd rather use TKinter, or port an Arduino LCD gui to the browser with emscripten and embed it in a webview than deal with GTK.
+
+I use GStreamer because it's an accepted standard and there's no existing equivalent, but even that I spent two weeks writing a wrapper to make it slightly less awful.
+
+The APIs for anything GTK related are incredibly low level, it's quite possible and easy to segfault the Python bindings, and I don't even know how, but somehow I managed to break pretty much all GTK icons on Raspbian and haven't been able to fix it.
+
+Some kind of cache business with pixbuf loaders that doesn't like read only filesystems or something.
+
+Qt is high level, highly integrated, and has most of what you need built in.  It also handles all the stuff that isn't directly GUI related, but is nonetheless needed in a polished GUI app, like watching a filesystem and updating a file tree accordingly.
+
+
+
+And the crazy part is there's a lot of really good application software written in GTK(Although the best new stuff is more often Qt it seems), so for some reason perfectly sane developers seem to choose it on occasion.
+
+What dark secrets do they know???"
+programming,ffrb8am,t1_ffr253w,1580154439.0,"It's still going to add controversies and scare off the semi-commercial projects.
+
+We'll survive, but Qt is pretty central to making windows-like FOSS on Linux, so I can see why the upset is there."
+programming,ffran5y,t3_euopv6,1580154083.0,"Wow, they're crapping on the one and only GUI toolkit I actually like, which powers about half of the software I like.
+
+It's hard to imagine a decent free software ecosystem without Qt.
+
+We're fine as long as you can still install from repos as before, otherwise we're gonna have a big problem."
+todayilearned,ffra02i,t1_ffr4f66,1580153686.0,"Most of those accusations were from outside the culture supposedly doing the sacrifices.
+
+The witch *trials* were public, but the (probably nonexistant) sacrifices weren't.
+
+There very well could have been some lies here, politically motivated lies seem to be people's favorite thing ever, but I think human sacrifice did really happen in some places.
+
+Of course, the whole thing could have been told by the officals and the villagers who saw could have a totally different story, so it really might be a case of outsiders accusing."
+todayilearned,ffr1lfz,t1_ffqsbso,1580148460.0,"It sounds like this was the usual big public ceremony type thing, pretty obviously actually happening."
+dataisbeautiful,ffr0g3d,t1_ffqjhwa,1580147729.0,"They've had shitty fanless notebooks that are Good Enough for years.   The screen resolution is better than people notice in that small of a screen, and the people that but them only plan to do casual gaming on them.   Those should last at least  a decade (And they mostly do).
+
+Really ancient computers are obsolete not because times moved on, but mostly because... They kind of sucked (Although the games were better in some ways).
+
+Same with early Android phones, they sucked, in ways that were noticed and complained about at the time.  These days phones are the same year after year, the only changes are maybe a few extra LTE bands, but those don't happen that often."
+programming,ffq75h0,t1_ffq21e2,1580124077.0,"EEE hasn't been a big issue for a while now.  Chromium is still open, GitHub is doing fine, MS hasn't sued linux recently.
+
+Practical and affordable home automation is brand new, unless you count X10 as practical. Brand new technologies tend to be really awesome but implemented in terrible ways(See Android and iOS both sucking compared to desktop Ubuntu).
+
+
+Improvements on existing tech are usually safer because people expect the same openness they always had. Nobody wants an 0.73mm pencil lead that doesn't work with normal 0.7mm.  
+
+Only very recently have there been significant numbers of boot locked laptops and such(Incidentally, security consciousness is the main way that closed ecosystem tech is marketed).
+
+And of course, Chinese tech is often far better for FOSS than US tech because they have lots of cloning and knockoffs and de facto standards happen faster, and they make more money on selling hardware rather than selling ""ecosystems"", and they do stuff cheaper and can afford to make consumer priced open stuff.
+
+So there's probably always going to be software freedom as long as companies like Pine64 exist.
+
+
+The real evil internet takeover would be something like Ubuntu and Microsoft getting together and deciding that all code has to go through a signed app store, and all websites have to be content approved to get a certificate, or they won't even display.
+
+Which could totally happen but I don't see it being related to stuff like QUIC."
+programming,ffq5m67,t1_ffpvtph,1580121786.0,"There's lots of QUIC implementations, and I'm pretty sure there's plenty of free software TLS.
+
+TLS is unfriendly mostly because it requires domain names or manual config and browsers don't like to make that too easy, not because the spec is controlled by anyone.
+
+Browsers are a monoculture because they're so incredibly complicated you can't do them without massive effort. It's not a matter of crappy specs, they just do so much the pure tedious one at a tike feature implementation would be impossible without a huge team."
+DankMemesFromSite19,ffq4vb4,t1_ffpzz9j,1580120603.0,That particular object better have a real good reason to exist...
+DankMemesFromSite19,ffq4pbh,t1_ffpyss8,1580120335.0,Yeah but people come with pitchforks and downvotes and Sabaton lyrics against that. Leave 999 and the celibate girl alone!
+dataisbeautiful,ffq4g6s,t3_euhu6r,1580119922.0,"This I probably partly because we're producing things that take less energy, now that stuff doesn't have 80 million solid steel gears in it.
+
+Modern tech is surprisingly low impact, most of the badness comes from the high volume and the disposableness.
+
+And the disposableness comes from lower-tech bits that wear out, or broken batteries, or just the end of software support.
+
+We also have plastics that can last just as long as metal in typical home use, composites that are really strong and fairly clean, etc.
+
+Quite a shame that we have the ability to make things better than ever before, and we use it to make lots of disposable trash...."
+linux,ffq3i4q,t3_eubuxi,1580118401.0,"I'm pretty sure 2x or 4x 18650 batteries on opposite sides for power could be a reasonable choice with a really good industrial design/ergonomic expert.  Replacable batteries are pretty much the single biggest ""retro"" feature we've lost on modern devices.
+
+Either that, or giant LTO batteries and a 2.1mm jack that can accept 18v solar.  A semi-rugged tablet that can go 24H and survive 20,000 charge cycles would be my obvious first choice for many professional applications if it was cheap.
+
+A 30mm thick tablet could easily fit 20Ah of LTO batteries and be the ultimate traveling device. If it was truly aimed at travelers GPS would be needed.
+
+
+I'd want a KDE variant with Android level usability without a keyboard, a front camera, dual USB-C(Charge and use peripherals at the same time), and properly protective(As in 1 or 2M drop resistant at any angle like phone cases can be) case availability.
+
+I'd also want charge level limiting, to prevent wear and tear on the batteries.
+
+I'd love to see LoRa or another low power connectionless raw RF protocol become a native thing integrated with Linux. So much possibility there that WiFi doesn't really give you because of it's connected oriented (Most of the time) nature.
+
+Alternatively, dual 2.4ghz radios would serve the same purpose, allowing one to be dedicated to mesh use.
+
+
+Passive Wacom style pen support would be awesome.
+
+
+
+But really for me, price would be a big deal.  I'm not going to buy a $400 tablet."
+linux,ffq2z74,t3_eudbdj,1580117551.0,"Awesome tool!  Do note that Gst is a common abbreviation for GStreamer, but it doesn't seem that likely to cause too much confusion."
+conspiracy,ffq1o0n,t1_fcvizg2,1580115484.0,"Because smart everything completely makes sense from a consumer standpoint. There are very few devices I wouldn't prefer the smart version of.
+
+When you have unpredictable work schedules and 4 hours a day on the bus, things that eliminate some of the inconveniences associated with not having enough time are very valuable.  
+
+And besides, there are thousands of house fires and other issues every year that smart devices could have prevented.
+
+Any free-ish market that produces what consumers want is obviously going to sell tons of cheap smart devices.
+
+Open source hardware, government transparency, and cultural change away from advertising useless garbage is probably going to to be the way to solve the smart device issue without imposing laws that the majority of people don't want."
+linuxmasterrace,ffq0rnx,t1_ffq0923,1580114139.0,"That makes a lot more sense.  I still generally avoid the CLI unless I have a reason to use it, but the ""existing then new"" convention could really save a lot of mistakes."
+AskElectronics,ffq0e9i,t3_eufm7x,1580113592.0,"Welcome to the joy of analog electronics, where everything has an error margin and a noise floor, every part is a resistor, capacitor, inductor, and antenna, curves are never as sharp as you want them, and it's up to you to make it all work somehow!
+
+Sadly there is no physical discrete diode that has 0v of drop.  When  the forward voltage is in the ""curvy"" range, they act kinda like a nonlinear resistor. 
+
+You get more current with more voltage until you finally get out of that range, and then they have a constant-ish forwards drop(It changes in a mostly logarithmic type of manner with the input current).
+
+Until you get high enough current to destroy the diode, which is another fun analog phenomena!
+
+
+
+If an analog circuit is working correctly and doing any kind of precision stuff, it's probably because someone with some real ultra mad skillz designed it.  Everything is wibbly wobbly and there's a real art to getting it right(Which is mostly totally over my head).
+
+
+You could use an op amp clipper, or you could mess around with some other random odd things like taking a comparator and using that to trigger a tube to pull down the voltage at a certain point, to get some bizzare nonlinear effects and maybe a unique sound.
+
+You might also want a certain amount of rounded clipping (Isn't that part of the ""tube sound""?), so maybe sharp isn't better. Or maybe you want tunable sharpness, or different amounts of clipping in the high and low frequency bands?"
+DataHoarder,ffq024v,t3_eughid,1580113119.0,"I started and then abandoned a project to make a Zim file with a bunch of different random things that never happened, but is still a useful template for how to do a Zim:
+
+https://github.com/EternityForest/handybook
+
+Incidentally, part of why I abandoned the project is because Zim is kind of an obnoxious format with even more annoying tools. There's no alternative really, so it's still a great choice, but I'd really like to develop a better one(And in fact I'm slowly and vaugely working on exactly that)."
+Thetruthishere,ffpwpln,t1_ffojcl8,1580108712.0,"Stomach acid doesn't really start fires.
+
+People are largely made of water and aren't flammable, except the fat, which doesn't react with HCI much(Or else burgers would cause even more problems).
+
+IIRC even fairly concentrated HCI takes tens of seconds to majorly affect unbroken skin.
+
+I'd imagine if intestinal combustion is real it's going to have something to do with some uncommon bacterial or dietary conditions. Possibly some kind of phosphine type gas."
+askphilosophy,ffpw3kj,t3_euja3y,1580107987.0,"I don't have any serious philosophical education, but I'd argue that the study of ethics is in itself slightly unnerving, because of how important it is, and because so many philosophers have come up with things that seem to make no sense, and gotten serious traction.
+
+The pure utilitarian utility-monsters-are-just-fine and the secular look-at-these-axioms-i-just-made-up virtue ethics types are equally frightening."
+programming,ffpv7vf,t3_euhdv4,1580106981.0,"A lot of non programmers are interested to know how something works, but if it's too complicated to explain, or if there's literally nothing to it besides tedious one at a time edge case code, they'll just accept it(Or at least I will!)
+
+But if there's any doubt or confusion as to *what* something does, it's untrustworthy.   In fact it's worse than that,  because it's not even pretending to be trustworthy.
+
+A lot of the time you want to know something about how a program does something, so you can understand what it does.  ""Convert PDF to text"" isn't that informative.  ""Uses OCR to read the text"" or ""Does not work on scanned images, no OCR is used"" tells me a lot more.
+
+
+But I'm not sure I've ever once considered how a browser manages to render a page, aside from noticing it must be very complicated.  
+
+I don't think I've ever thought all that much about how FreeCad's constraint solver works either, or how XCas does algebra (Although I imagine it's not too different from constraint solving).
+
+People want to know enough to feel that they can predict a program's behavior in all situations, and they're vaugely curious about how it works, just not enough to actually go take a calculus class.
+
+
+But in general, I consider documentation a problem in the same way that most coders consider extra lines of code a liability.
+
+You shouldn't have things like ""If you want to use the blur filter, you'll need to convert to a floating point format and then convert back"".
+
+You should just be converting to float when you import the image, and back to whatever bit depth when you export, and the user shouldn't have to concern themselves with all kinds of details.
+
+Usually, when there's something that seems to require a manual choice (Like squashing down to 8 bit), you can refactor the workflow to eliminate random lossy or unsafe steps in the middle of things.  
+
+Instead of a separate ""Assign numbers to all units"" button, why are you creating units without numbers to begin with?"
+FreeCAD,ffpe9ei,t3_es3x2i,1580092870.0,"I wonder how this works with Assembly3? Are they competing? I'm really interested to see the topological naming merged in even if it isn't perfect (Seems to have issues if a change makes a point dissapear, and then you go back and fix it, sometimes things that reference it stay broken)."
+ProgrammerHumor,ffpdaid,t1_ffpcbbn,1580092174.0,"I've yet to hear of anyone aside from the more academic/philosophical ""We don't use floppies anymore!"" or a ""We need simpler icons!"" crowd pushing for a new icon, so it doesn't seem quite as organic as most language changes(Which might be why the floppy is still around!).
+
+But yeah, everyone started calling it an Account Inspection I probably would too, especially since changes like that seem to often coincide with different attitudes or practices.
+
+Maybe the save icon will become the sync icon someday, when there's no more ""files"" and everything is just a cached local record of a global distributed database or something."
+Frugal,ffpc3u5,t1_ffp8mrb,1580091338.0,How did an entire English pop band fit in a cumin bag?
+linuxmasterrace,ffpbk2m,t3_eu641o,1580090956.0,"These days I find myself avoiding bash scripts more and more. This particular thing is only slightly less confusing in Python with keyword args(you still need to not mix up what destination means), but it's a bit easier.
+
+."
+linuxmasterrace,ffpauka,t1_ffnw8v1,1580090460.0,"With ln you aren't moving anything, so the concept of source and target takes some thinking to figure out what's going on.
+
+Is the ""target"" the destination of the link, or the place you're going to put the link? 
+
+Not obvious without a few seconds thought at least, and this kind of mistake happens when someone doesn't put the ten seconds in to think about it, because they feel like it's more obvious than it is."
+linuxmasterrace,ffpaliz,t1_ffoarr9,1580090283.0,"You guys must all have nerves of steel to still use dd at all.  I generally like to avoid dd, rm, mv, cp, and things like that unless I'm (very carefully) writing a script."
+ProgrammerHumor,ffpa6dz,t1_ffp92e8,1580089992.0,"Not quite, Download means to save to the machine you are currently using, but save means to save to the machine running the software.
+
+In a text editor you're going to obviously know that the machines are the same and the action is the same, but most people use cloud software enough that the words mean something different, and they're going to look for a save icon, not a download icon.
+
+
+In isolation this would be fine, but Windows has recognized for years that there's a lot of value in having all apps use the same conventions.   It would be a shame to see Linux forget about this and go back to the old ""Every app has a different shortcut for cut and paste"" idea that we used to see."
+DataHoarder,ffp9nvh,t1_ffmr750,1580089631.0,"I think the idea of a storage format or codec or something being unreadable someday is way overhyped.
+
+Very few people in the whole world can design a cipher, which has no purpose besides hiding information, that can't be broken.
+
+Something like a JPG decoder is embedded in so many millions of products that reverse engineering it would be easy.   I see no reason humanity would ever lose the ability to interpret X86 instructions, as long as we keep our present attitude towards historical study.
+
+It might take seven layers of emulation, but once something is open source, preserving it isn't an impossible task.
+
+
+
+Half this stuff is small enough we can print it out in source form,  with reed-solomon blocks at the bottom, and plain English descriptions of the decoding process to be really safe.   Cameras will probably always be in production as long as we have eyes, and OCR will probably exist as long as there is non-digital text in the work."
+DataHoarder,ffp8hni,t1_ffou4dr,1580088848.0,"Assuming you actually transfer all that data. M-Disks are for putting in a safe deposit box and forgetting about, and things like that.
+
+So far they're the only media that even tries to claim that kind of longevity."
+ProgrammerHumor,ffp74o9,t1_ffort5s,1580087906.0,"Squirrels save acorns, so any kind of nut would be way too logical and traditional for Apple's ultra abstract purity philosophy they seem to have pioneered and spread everywhere"
+ProgrammerHumor,ffp6zm4,t1_ffotplo,1580087808.0,That's a download icon and everyone knows it!
+ProgrammerHumor,ffp6tnt,t1_ffoxmeu,1580087691.0,"Left is the convention western backwards/subtracting direction. Probably the same in all cultures with left to right languages.
+
+I could see reversing it for some regions, but I'd imagine all those people are so exposed to the current convention it makes perfect sense for them too."
+ProgrammerHumor,ffp6lje,t1_ffp5cw9,1580087531.0,"Sadly there are plenty of people trying to replace it with abstract nonsense like downward arrow into a box or something.  
+
+There's memes about kids thinking real floppies are 3D printed save icons.   It would be funny to take one of those ""new save icon advocates"" to a linguistics class and see if they wanted to change words too.
+
+An Audit comes from ""to hear"", but no longer usually involves reading the books outloud.  Should we start calling them ""Account Inspections""?"
+DataHoarder,ffp5u7p,t1_fflxef1,1580086993.0,"At one per day that could definitely be a bit of an issue for sure. Not too bad at one per week though, if you just did daily HDD incrementals in between.
+
+I never could figure out how to do multisession on Linux with M disks. Seems odd to have a single session disk, but maybe they really did?"
+GetMotivated,ffj2smk,t3_etq3iz,1579988952.0,"I've never had much coordination or ability to think spatially, but I still love art. So I'll arrange 3D models as references, or I'll do things digitally so I have unlimited trial and error to get it somewhat right.  Or I'll do digital sculpture and 3D printing.
+
+Or, I'll go take pictures and do graphic design based on them. 
+
+Maybe one day I'll learn to draw for real, but for now, I think I've done some pretty decent work anyway."
+GetMotivated,ffj29iz,t1_ffi6vfz,1579988577.0,"Unless you're an artist, or want to be. Then you get it."
+linux,ffj0art,t1_ffixf4g,1579987156.0,"It would be super fun to organize a race and see what's really the fastest.  Pick a challenge like ""Given this file with two functions, recactor out the duplicated last two lines to a new function, wrapping them in a with lock: manager"".
+
+Everyone would use the editor they normally use IRL.
+
+Typical workflow for me to find something in a large file is ctrl-f, type search term, click/highlight something, type, or ctrl-click a traceback line number in an exception to jump straight to it.
+
+
+All the youtube vids I can find showing how fast you can code with Vim seems to be by truly excellent typists, probably 2x or even 3x faster than me, and that's *while* they're doing some pretty advanced optimization to be able to what vim commands to type in the first place.
+
+Seems like the benefit from Vim relies on fast typing, quick thinking, a good keyboard and a work area where it's comfortable to keep your hands on the board constantly, and a knowledge of the code itself that's good enough that you don't need to refer to the docs on a minutely basis(Hard to do when you're using tons of libraries at a high level with few repeated building blocks worth the time to learn)"
+AskElectronics,ffiycwy,t1_ffixv0s,1579985742.0,"I'm pretty meh on noise. Efficiency matters, but... I don't like to build circuits that stop working when the power supply gets noisy.  Capacitors age and noise gets in externally, so for the stuff I do, I usually consider ""Needs clean power"" to mean ""doesn't really work"".
+
+There's no reason to pay for giant heavy inductors when a tiny RC filter on the bit that actually needs rhe precision will do.
+
+Although working on one of those big awesome analog monstrosities thar really does need 5A of noise free power for some reason might be a fun challenge.  Hasn't come up for me yet though."
+AskElectronics,ffivy8d,t1_ffi9f2s,1579984007.0,"Huh, I've always thought of meanwells as the best cheap import supplies you can get.
+
+Or maybe he's just not using any power supply at all and he's modifying for battery operation and selling to RVers or something.
+
+
+Class I supplies always worry me a bit. Especially if chassis ground is the same as DC ground. So many ways to make a ground loop!
+
+Like, most of the time something needs a ground, it seems pretty unnecessary. Double insulation has been fine for a long time. 
+
+Although the nice thing with grounding is you don't get that 0.5mA of leaking high voltage on the output of really really cheap supplies, giving you a tingle and making you wonder if the whole thing is going to fry an input somewhere."
+electronics,ffiuoew,t1_ffirim5,1579983173.0,"KiCad seems so cool in theory, but the UI is just not well suited to making one or two PCBs every few months.  There's too much to re-learn every time.
+
+It's probably awesome if you're doing lots of complex designs though."
+linux,ffio2gd,t1_ffin9wp,1579978501.0,"There's a little less of it though, because sometimes people don't want to support competing file formats, or they want to sell three separate tools instead of one, or you just plain can't afford the #1 option."
+linux,ffim5ya,t1_ffikxuc,1579977192.0,"Social media and shopping tend to be pretty good, but things that used to be desktop apps(Like Google docs) are well known as not quite as good.   Even Gmail isn't as nice as their mobile app.
+
+But it's probably true that I'm only looking at the top 5%. In the FOSS world there's no business constraints, so usually the top popular apps just expand till they totally eat the functionality of all the smaller apps, and you never really see anything but the top few unless you're specifically looking for more minimal stuff.
+
+Like, with propietary apps there's a lot more ""Oh this one can do what I want, but it doesn't support this file format"", so I'm going convert with this other thing, then export to PDF with this thing.
+
+On Linux you just keep accepting pull requests till everything is an all-in-one package, aside from clients for proprietary services.
+
+
+But then you also have 1001 lightweight versions with three contributors that only do exactly what the author needed at the time, which aren't usually as awesome."
+linux,ffijwek,t1_ffiialz,1579975628.0,"The lack of stable and predictable data structures is an impediment to portability, and web apps in general are usually slightly buggy, and people often complain about the rapid iteration.
+
+They rarely have the level of polish a 10yo desktop application, and I wonder if the agile development has something to do with it.
+
+The only thing they do well is things that actually take advantage of the network connection, like collaboration, chat, and off-site storage, plus they're a little easier to install.
+
+It just so happens those things are important enough people are willing to put up with web apps(Which stop working when the internet does), vendor lock in, cloud subscriptions, etc.
+
+Most of what web apps do could be done better by native/electron apps with cloud sync, but apparently web apps and subscriptions are the way to go from a business perspective."
+linux,ffigerf,t1_ffidc8x,1579973252.0,"Such a big difference from today's ""Protype fast and plan on a complete rewrite"" crap."
+linux,ffig9ze,t3_etq2fz,1579973164.0,Yeah that's not gonna happen.
+DataHoarder,fficx02,t1_ffi5hbs,1579970884.0,"Afaik only m-disk has truly archival DVDs, and they're only archival when burned using an approved drive(Otherwise they aren't guaranteed).
+
+Better to go with their blu-rays, those don't say anything about special drives."
+linuxquestions,ffhl7lb,t3_etmh7d,1579940498.0,"Have you tried Kubuntu? It's still KDE, but it runs fine for me on an HP X2(Aside from no sound or battery level drivers, go doesn't get the best support).
+
+KDE slowness is often caused by the file indexer, so disabling baloo may help. Check ksysguard to see what's actually being slow."
+DataHoarder,ffhkqd6,t1_ffba8mm,1579939813.0,"How odd that the hardware and software we have now is near perfect for this kind of thing, and yet somehow we don't do them anymore.
+
+Some things seem to disappear as soon as they're easy. 
+
+Now I want to try to plan a LAN party...."
+AskElectronics,ffhk0iq,t3_etnccx,1579938797.0,"Power supplies, Flash storage, connectors, and mechanical parts aren't worth cheaping out on.
+
+80% or so of the failures I see are one of those, or else physical damage. Power supplies are unique because they are one of the few things that randomly fail all by themselves on a regular basis.
+
+Anything that handles power should be high quality, or the entire product becomes junk."
+ProgrammerHumor,ffhjo23,t3_etkmxb,1579938321.0,It's amazing how much effort it takes to do things that are completely trivial at a smaller scale
+linuxquestions,ffhizuc,t3_etktg9,1579937419.0,"I use multibootUSB, and I have Kubuntu(The OS I actually use), Rescatux, and CAINE (Digital forensics OS with just about every imaginable recovery tool). I may also add Kali, for no particular reason.
+
+The most common thing to need fixing is probably going to be GRUB reinstalls, so boot-repair is awesome. Besides that, deleted file recovery and corrupted disk repair seems like the main thing, along with lost passwords."
+engineeringmemes,ffhi1jv,t3_etero5,1579936166.0,"Dang what do they possibly teach in digital electronics that even compares with physics? Are you doing FPGAs and CPU design or something??
+
+Even that sounds way easier than physics.  Math doesn't seem to have any process for breaking things down into parts. When you get to the smallest part, it's.. still pretty big...
+
+It all seems so much like ten things happening at once and every single one affects the others and also they're all changing."
+AskProgramming,ffhhn70,t3_et9bms,1579935648.0,"I tried a Mac for a bit back in 2015 and it was really the worst desktop UI I've used.
+
+You should probably try it, because for some reason I might never understand, a lot of people *love* it, but Apple is one of the few tech companies I won't even touch.
+ 
+
+Everything is hidden behind some kind of gesture or shortcut.
+
+It's very much a Vim-style design pretending to be an easy consumer design.  
+
+Menu bars? Those go at the top of the screen of course.   The ""active"" one gets to put it's menu up there.
+
+Taskbar? nope.  All the clock/calendar/WiFi type global stuff goes.... In the menu bar? With the application menus?  Open programs and not-open ones are all mixed together in the ""dock"".  I think there's some shortcut or something to see the list of open ones, but I didn't stick around long enough to find out.
+
+
+They don't seem to properly understand the idea of right clicking, so the mice are all a bit different.  Not only that, they keyboard layout is just slightly different, which will be loads of fun if you have to switch between Mac and anything else.
+
+
+
+There's probably some ultra-power-user ""It becomes muscle memory"" explaination for it all, but it does not seem to be the super easy OS I claims to be, at least for anything beyond web browsing and photo editing.
+
+They usually have at least slightly different ports from everything else, and it's fairly common to see software that runs on Linux but not Mac.
+
+
+
+It  reminds me of manual gear shifts: I suspect the advantage isn't so much technical, but people enjoy the ""flowing"" aspect of it, where you're constantly keeping track of just a bit more state in your head, while the machine itself gets a little simpler.
+
+It seems to have the same sort of appeal as pen and paper, not because it does more, but because YOU do more, and are more ""included"" in the process of computing.
+
+
+Everything seems to require tweaking in much the same way Arch does, except Arch is FOSS and Mac  usually runs on  > $1000 hardware.
+
+
+
+I'd just get an Asus. They were the most reliable last I checked (Apple was second), and they usually support linux rather well."
+IOT,ffhd242,t3_etghg4,1579930419.0,They forgot #1... Cloud service dependant devices with disappearing cloud services.
+todayilearned,ffhcr0f,t3_eteezt,1579930108.0,"If only I still drank coke, or wine! They both have way too much acid and aren't that good for teeth."
+MemeEconomy,ffh8mt4,t1_ffgeynw,1579926255.0,Aren't ya glad it's only 1 feet pinus? More of them would be more scary.
+kde,ffh02vf,t3_etenbq,1579919513.0,"Do any other keys act odd, like the function keys? Seems like a modifier could be stuck."
+escaperooms,ffgzzca,t1_ffgx2td,1579919440.0,"It always seems so random what gets destroyed and what doesn't. 
+
+Like anything you have to interact with gets battered, except somehow computers and touchscreens are usually fine.
+
+And sometimes decorations are fine right up until someone gets a ""brilliant idea"" nobody thought off before."
+escaperooms,ffguspl,t3_eth49g,1579915604.0,"Uhhh... Wallpaper.....?
+
+In an escape room?  How is not shredded?"
+Istudiedtheblade,ffguo53,t3_eth0py,1579915511.0,GLORY BE TO THE CHOSEN ONES!
+gadgets,ffgufav,t3_etfmfa,1579915333.0,"Flexible Glass would be so cool, if only this were just a regular phone that doesn't fold."
+engineeringmemes,fffpvkd,t1_ffew36q,1579889214.0,"This is the marvel universe, and it's basically a law of fiction that Titanium is *really* awesome.   It's like how hacking a computer is the same as playing a video game and defeating the firewalls, that look like actual walls of fire and are defeated like a boss monster.
+
+Of course in real life titanium is still just so incredibly awesome so it's not that much of a stretch..."
+BeAmazed,fffo7gn,t1_fffh1dh,1579888187.0,"She probably was missing huge amounts of scientific theory. She was probably wrong about ten different important things.  If a peer reviewed study disagreed with her, I'm probably going to believe the study.
+
+She also probably knew at least one or two things 99% don't. Maybe things that can't be taught, maybe things that aren't relevant anymore, I don't know.  Maybe she was just average, but a decent person and a good source of inspiration not to be a literal maniac.
+
+A surgeon is probably very busy, and might not have time to pay attention to anything but the latest and greatest. But in general, if you're thinking like an investigator, everyone knows something you don't.
+
+Respect others as people, decide what is worth the time to listen to, then find out what's worth believing.
+
+
+At least in the tech industry we dish out a lot of the same ""Suck it up and deal with it"" attitude to older people that the low tech crowd does when they're all ""Quit being lazy, someone's gotta mine the coal""."
+BeAmazed,fffn48c,t1_fffjq0u,1579887528.0,In a practical sense you're probably going to die sooner if you get back alley lung extensions to scream longer
+BeAmazed,fffmtl0,t1_fffdwa2,1579887348.0,"Sadly there is such a thing as surgeons that really shouldn't be surgeon-ing anymore.   I have heard that sometimes they can have serious ego problems.
+
+This person in particular may have been completely qualified, because aging is hard to predict, but there's probably a few 70yos out there  that should have done something else 5 years ago."
+videos,ffflmnu,t1_fffkkw0,1579886622.0,"I wonder if we would have our very own sewage distilleries here in America if it was a practical business plan?
+
+A lot of places here in America aren't very good at restricting absurdly awful health hazards.  They'll pass a law requiring huge square footages for every person, but then just kinda do nothing about literal heavy metals everywhere."
+pics,ffd2t7a,t1_ffd26hq,1579812303.0,"That's one of the really cool things about fiction. IRL and in more realistic SciFi advanced mechanical controls usually only happen when someone really strongly doesn't want to use electronics, but in fiction we can ask, what if we could go to space, but we didn't have tablets?  Or ""what if we had most of what we had now, but with a bunch of huge gaps, so the lone mad scientist inventor types were still common?"""
+ProgrammerHumor,ffcrpz9,t3_estn17,1579805890.0,"People tell me I need to be more confident because I do good work.
+
+What they don't know is I make more mistakes than any other dev I know, and by the time I'm done designing something to work even after I mess it all up, it's gonna be able to handle whatever bad code other devs throw at it, and whatever the users do.
+
+Then someone comes along with a truly complicated algorithm that can't be fixed with more runtime checks and logging and I'm all ""How is doing the code happen?""."
+linux,ffcqn2s,t3_esw4in,1579805210.0,"I kinda want to maybe learn the Vi bindings for use in VS code, but I don't see why I'd ever use something more than nano or maybe micro on the command line.
+
+Even the vim navigation commands are mostly only interesting to me because some keyboards don't have arrow keys.  
+
+I haven't seen Vi's superiority proved in a study yet, and I suspect a lot of people who say using the mouse is slow aren't using a good mouse with proper pointer acceleration set up. 
+
+Every DE seems to handle it differently, and I have seen truly awful mouse configurations that fling the cursor across the screen with tiny movements, or they require multiple move and lift and move steps to get anywhere.  Modern mouse acceleration is a pretty complicated algorithms that dynamically changes the speed in a nonlinear way, and like all ""soft"" computer algorithms, it's hard to get right.
+
+Also, Vi may be amazing for writing code, but most programing I do is editing 300 line existing files, so raw input speed doesn't matter.
+
+
+I use CLI editors for ten line config files. If I have something bigger to do, I mount SSHFS with dolphin, drag the file over, and edit in VS Code.
+
+
+If you're a sysadmin, plan to use laptops without mice, or you write many small ad-hoc scripts such that you write more code than you edit, Vim is probably a good plan.
+
+It seems a bit tedious to make 20 changes in a 1000 line file using it, but maybe it's just awesome for making one change in a ten line file.
+
+
+You also might want to learn Vim if you enjoy logical puzzles and tinkering.  Do you like changing the spark plugs in your car?   Have you ever restored a vintage block plane? You might love Vim then.
+
+I hear that both the configuration exactly the way you want it, and the morse-code like mastery of a fairly arcane skill is immensely satisfying for some.   Apparently being able to do complex things by muscle memory alone without thinking about feels really great to some people.
+
+Which, incidentally, seems to be related to the appeal of writing lots of little bash one liners and setting up your environment just the way to want it.  Order from chaos, building things from scratch, etc.
+
+
+I almost never script anything, or think of anything I might want to script, so the ability to drop right into Vi, edit something, save, and run, just isn't as important."
+SeattleWA,ffcnmt1,t1_ffchoon,1579803297.0,"I suspect being ""in the prison system"" can make someone feel ""like a criminal"" and become a starting point for more crimes.  Crimes should be treated with intensive rehab and appropriate sentences, but putting someone into jail and poverty for nonviolent crimes might not help.
+
+Toss the thieves and vandals in the slammer, but don't push the alcoholic sleeping on the streets who's never stolen anything farther into the depths of misery.
+
+
+There's a lot of effort to eliminate the supply of crime(By enforcing laws), which is good, but we also need to look at the ""demand"" for crime, the situations that lead a person to think that their best option is in fact, a crime.
+
+
+Gang violence is a bit different though, because that's not just about money and drugs, it's a whole culture, including family-like allegiances and a sense of purpose and belonging that some might not find elsewhere.  
+
+I don't know how to replace that one, without making meaningful careers easier to find, unless the people in question are interested in getting married early and focusing on their partners.
+
+
+In the power metal fandom I think a lot of people stay out of trouble not by actually being peaceful and nonviolent, but by directing all their hate to the problem itself.
+
+You don't stop being an addict, you get addicted to *hating* your alcoholism instead of being addicted to the booze itself.  Not quite as good as real inner peace and such, but maybe better than dying in an alley.
+
+Some kind of volunteer organization that was not at all affiliated with the cops, that would let people make a meaningful different to get others out of a life of crime(Without any requirement that they be ""a snitch"" or anything that would seem dishonorable like that) could in theory replace gangs and crime for some.
+
+But it wouldn't solve the issue of how to put the murderers away in a slammer where they belong, which is also important."
+pics,ffclwjc,t1_ffcjzr7,1579802238.0,"Ye Olde Ionic Pistolette! Cures your gout! Dissolves your bank vaultes! Fueled by skillfully compounded viper venom and the finest distilled ethers, and energized by the galvanic currents of zinc!
+
+You there in the crowd, I see you limping! Come on up for a demonstration!"
+pics,ffclb9r,t1_ffcg59x,1579801885.0,"It appears to have something to do with security, but we can find no trace of any encryption algorithm whatsoever in the door itself, nor is this a residential area, which customarily had restricted access.
+
+The ancients most have had some way of keeping data both totally unchanged, and completely secure.   Perhaps this is similar to modern ""envelopes"", ancient relics that are still used for sentimental reasons, that hide data(Rather insecurely) by physically containing it?
+
+But who would use such a thing for something as important as the servers where account data was stored?"
+AskElectronics,ffcejeh,t3_esk35r,1579797755.0,"Oooh my favorite thing in electronics! Getting to eliminate a fussy precision mechanical step!
+
+That thing looks old and probably meant to tolerate a certain amount of of force, but I like overengineering things, especially on hobby projects where I *can* and there's nobody to yell at me for it.
+
+That giant heavy knob is a perfect lever. It's dumping all kinds of force on that pot.   Tactile switches aren't the best under constant load from what I've seen, I wouldn't be surprised if pots aren't either.
+
+
+You could add another bearing to support it, but if that bearing allowed tilt, you'd still have the pot as  a second bearing. Better, but not ideal.
+
+You could fix the pot to something, and then use a plain bearing to support the shaft and constrain it to the acceptable wiggle area.   You would probably be just fine, assuming you got the plain bearing to not scratch up the plastic shaft like an unfinished 3D print might.
+
+(Ready your salt grains, I am not a mechanical engineer and may be speaking imprecisely)
+
+If the bearing was thick, or you used two of them, so that no tilt could happen, you now have an overconstrained shaft. Any arbitrary two points make a line, but three points don't, unless they're just right.
+
+Overconstraint is bad, unless you plan to just accept the need for precision assembly, or you've got plenty of floppy wobble everywhere to compensate.   I'm not a fan of requiring precision, it makes stuff easier to break if it gets dropped, and harder to assemble.
+
+
+I believe two thrust bearings also counts as a type of overconstraint, they both aft along the same axis, and they both either fight each other, or onyl one does anything, if something isn't right.
+
+
+So what we want is to exactly constrain things, with no more constraint than needed, aside from whatever redundant constraints we choose to accept (Like ball bearings I believe already use, but those are acceptable because they are mass manufactured and people have long since figured out how to make them well, aka they aren't your problem).
+
+
+What we really want is for that pot to not move with the knob, but we don't want any force from the knob to get passed on to the pot.
+
+
+One way would be to use a thick bearing (Maybe just a long hole through some plastic, preventing all movement aside from spinning and axial thrust.  
+
+Now you mount the pot to the shaft, but you don't affix the pot in any way at all.  Now the pot is only subject to it's own weight plus the wires, not the weight of the knob.
+
+Use pegs or something to constrain it's rotation, but don't bother stoping it from moving slightly in any other way.   Just wad up the wires with hot glue, so that it can handle that tiny movement without fatigue at the solder joint.
+
+
+Now the only way to easily put force on it is to pull it, which, knowing users, is exactly what they will do anyway, making the whole thing seem pointless...
+
+
+So to make it even MORE bulletproof, don't mount it to the pot, mount it to a threaded rod or something, use some nuts wedged against each other with thread locker(ew) to make a stopper so it can't pull out, then mount the floating pot to that.
+
+Now no matter what they do, all the force is on the bearing where it right well belongs, and you don't have any high precision manufacturing challenges.
+
+This kind of thing is why I love 3D printing!
+
+
+
+If you don't have any particular mechanical skill(Like I don't!) it's usually way faster and easier to design things to be easy to build, rather than design them the obvious way and rely on your own talent to line everything up just right.
+
+
+And yes, this is actually how I approach mechanical things in real life.   I just assume anything that isn't solid state is a little unreliable unless it's off the shelf, with five star reviews, or it's really overbuilt.
+
+
+In fact, if I was actually doing something like this and wanted a big knob that had to stand up to random people beating on it, I probably wouldn't use a pot at all, I'd consider gluing a magnet on and use hall effect sensors and an Arduino."
+todayilearned,ffc7rnf,t1_ffc0r69,1579793492.0,"I think carrageenan is possibly unhealthy, and DQ has it, but I would not be surprised if at least some versions of non-carageenan fake ice cream are healthier than the real thing.
+
+More studies needed! A lot of heavily processed stuff does tend to use a few really bad ingredients. Especially some animal protien which seems to have all kinds of high temperature reactions and unusual preservatives not used much elsewhere.
+
+
+Still not sure I buy the ""If you can't pronounce it, it's poison"" thing."
+engineeringmemes,ffc5y3s,t3_espfpo,1579792299.0,My code is getting swole over here!
+justneckbeardthings,ffc4z94,t1_ffc3hjs,1579791649.0,"The majority of people don't reek of old poops, so is this really necessary?"
+ProgrammerHumor,ffc4epy,t3_esec6p,1579791260.0,Leaky abstractions for the win!
+ProgrammerHumor,ffb8lhi,t3_esg6mg,1579755117.0,"The best libraries glue motors to the knobs, then put the entire thing in an even bigger box"
+ProgrammerHumor,ffb8hm7,t3_esgs6h,1579754988.0,"I mean Ruby is kind of like if you were coding python but typed `import perl`, so they have a point with the looking for something else..."
+linuxquestions,ffb68y8,t3_esm3lo,1579752904.0,"If you're looking for something a little easier than a tiling WM, but still extremely configurable and efficient, check out FVWM:
+
+
+http://www.fvwm.org/
+
+It's a real traditional window manager, but it's very lightweight."
+programming,ffabn8d,t1_ffa21pe,1579731741.0,"Interesting, so it's a almost like  very traditional ""learn through failure"" kind of approach.
+
+I've always stayed with the very well known one size fits all, ""nobody ever got fired for choosing it"" techniques(Even when some might say they're overkill).
+
+But then again, there's so many projects claiming to be the ""Do everything"" language, that it does make sense to actually test them, as there isn't really always single ""industry standard"".
+
+When there IS an industry standard, I'd be pretty hesitant to bother trying anything else unless there was something about it I *really* didn't like, but there are plenty of times when ""what everyone else is using"" isn't very clear.
+
+Especially with web stuff, I do often find that the new big thing really isn't what I want to be using for what I'm doing.
+
+
+Not sure how I feel about practicing by  just accepting making slow unoptimized things.  I kind of feel like if you don't try to make something hyper bulletproof and commercial grade with something, you won't really have any clue how good the tool is, and the experiment won't tell you as much, unless you plan to write quick and dirty scripts in it for real."
+AskProgramming,ffa7f4k,t1_ffa67kg,1579729340.0,"Python is still pretty darn imperative, you're just operating at a very high level.
+
+Haskell is really declarative, but also getting a bit towards the almost domain specific idea. It's very opinionated although apparently you really can do just about anything anything in it.
+
+Do we have any kind of theoretical framework for the usual ""OOP with mutable state"" stuff in a declarative way?   It seems like pattern matching rules would work, as in
+
+""On the rising edge of ( x.b>3), x.c+=1""
+
+But that would also be hard to automatically parallelize.
+
+
+Moving away from OOP and imperative would be a really big social shift,  functional requires a lot more academic and focused learning (Or else it requires using impure languages).
+
+
+I wonder if a lot of the functional advantages are because it's often impossible to directly write what you want to do, so by the time you've translated it to ""the functional way"", you have thought long and hard about every step of it?"
+trashy,ffa0l78,t3_esb38y,1579725459.0,"Does he take care of the kids? I have friends that stay home with the kids and supposedly ""don't work"", but they actually work harder than I ever have in my life."
+linux,ff9zuq0,t3_ese2dt,1579725030.0,"This is the first command line tool in a long time that really seems exiting!
+
+I pretty much hate man pages. The non-markdown format, the lack of hyperlinks, the minimal CLI interface, and the content that always seems less helpful than other kinds of documentation.
+
+Glad to see something being done about it!"
+programming,ff9tq00,t1_ff9t16r,1579721064.0,"Ah, so they're more for trying out stuff that's really significantly different than anything you currently use, not just for improving and learning new design patterns in a language/framework/etc you already know?"
+gaming,ff9sgnc,t1_ff9s3zh,1579720243.0,"Gambling addiction is so horrible to even think about.  
+
+Most people treat it as entertainment, so it should stay legal, but if we accept laws against overservice at bars, why not at casinos?
+
+Lootboxes are especially bad, because so many people don't even want them to exist at all. It's not like they make games more enjoyable for average players."
+AskProgramming,ff9s0or,t1_ff9a3w1,1579719922.0,"I wish visual programming was taken more seriously.  We already know it's ass backwardsly awful for complex stuff, but for anything under 3 lines, it's just fantastic.
+
+It takes longer to look up the documentation to do something that just to search the list of blocks and see Oh! An MQTT message sender! Fill in the boxes!
+
+If it were standardized and trivial to embed, *all* kinds of things could have a really nice programmable macro interface.
+
+
+It's also nice because you have control over every step. You know exactly what the user changed, and the ""syntax"" has lisp-like consistency, because you generate it, without actually requiring the user to deal with lisp.  
+
+That means it's trivial to do things like scan for startTimer commands and show a preview of when that timer will fire, or let you edit it as a more advanced timer editor, etc."
+AskProgramming,ff9rkl3,t1_ff92tan,1579719571.0,"I would love a linter that you point at GitHub repos and it measures cleverness, so I know what to avoid."
+AskProgramming,ff9rdb1,t1_ff9hl7j,1579719419.0,I'd say design by contract and the advanced type systems in Rust already are declarative!
+todayilearned,ff9qzd8,t1_ff9o992,1579719110.0,"But... Why did the English captain not... You know... just sink them?
+
+Were they also out of ammo? Did they not actually have an interest in fighting beyond self defense? Was there a political reason? Did he not like killing people?"
+ProgrammerHumor,ff9pu7u,t1_ff9oka5,1579718274.0,"Robots probably aren't truly independent moral agents, but most people commonly call things made with bad or careless intent that serve no helpful purpose ""evil things"".
+
+We also commonly say that various inventions are ""a really good thing"" despite them being pieces of metal.  I'm not sure where the ""goodness"" really is in those cases.   I suppose we mean ""The act of building this machine was a good thing""?
+
+That's rather odd that someone with good intent can build something with no intent at all, which can do things that the majority of people will call evil.
+
+Or can there be evil without a soul? Should the definition of evil include empty shells with no helpful uses, as intuition suggests?"
+programming,ff9od52,t3_esc0zh,1579717216.0,"I never actually heard of the concept of code katas until very recently.
+
+The thing I don't get is that most of us have tech related jobs, sometimes with flexible hours. If you're working, why not just skip the excercises, and put the extra time into making your real projects a little better?  Then you're getting real world experience with new patterns.
+
+Or, if you're a student, why not pick an ambitious real world useful FOSS app and start coding, learning whatever you need to as you go?"
+programming,ff9nu4m,t3_es13ue,1579716893.0,That's because the Amyr have carefully wiped out traces of themselves throughout history.
+90s,ff9n5i3,t3_esedj7,1579716487.0,"Ah yes, before the color brown was mostly outlawed and everything became white, dark grey, or highres images."
+ProgrammerHumor,ff9ld8o,t1_ff8ez1c,1579715433.0,"Physical keys alone are way not at all secure by modern standards as far as I know.
+
+I think they actually encrypted the firing parameters, so if you just tried to hot wire it, the blast wouldn't be very strong because all the charges have to go off at specific microsecond level timings for max yield."
+ProgrammerHumor,ff9kubb,t3_esf57x,1579715125.0,The neural network that detects evil was trained on pictures of evil humans and doesn't know there can be evil robots
+ProgrammerHumor,ff9kebt,t1_ff7cu3k,1579714863.0,"So they want a browser where the default homepage just says shit like ""Stop helping people, let the weak ones die""?
+
+Oh how the edgelord scene has gone to crap..."
+ProgrammerHumor,ff9k3ml,t3_ersr4g,1579714690.0,"That murder rate is bizzare.  It's really curvy, and then it just stops at a random place.
+
+Did something happen to make things stop improving, or was all the murder they eliminated in a few specific categories or demographics, and they pretty much got rid of most of it, but the rest of it never changed?"

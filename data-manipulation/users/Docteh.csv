@@ -1,0 +1,259 @@
+subreddit,self ID,parent ID,time,text
+pcmasterrace,ffanklq,t3_ese8uo,1579740148.0,Is that not synced?
+funny,ffa4oul,t1_ffa4b8p,1579727824.0,"Well, its not available to watch in Canada."
+pcmasterrace,ff9woqu,t1_ff9pl87,1579723147.0,The retractable cable and the carts and the humans are probably not hugging machinery.
+Multicopter,ff6tsp9,t3_erxl3k,1579634730.0,"What sort of drone are you planning on flying IRL? I'm using the gremlin in lift off because it's the smallest one that one has. 
+
+The control rates and gimbals will probably effect exact hand movements. But usually there is a lot of personal preference in there.
+
+Get some practice with a decent range of models so you don't hit the sky if you ever buy a better quad."
+Multicopter,ff6sw5b,t3_ery8mh,1579634199.0,"I had to watch the video a few times to see what's going on, it looks like you're measuring continuity between the antenna and antenna shield. Is that what you're measuring?
+
+I suspect that's wrong. 
+
+I'd start with the orange and brown stuff to the left, is this a water damage problem, or is that just paint?
+
+That wire looks janky running over the other parts. Go find a review of that radio where someone takes it apart. Or maybe replacement parts.
+
+Also, make sure it's off when you measure continuity"
+Multicopter,ff5sakp,t3_erp9ca,1579608332.0,Omnibusf4 is probably right. It's up to the manufacturer to update thier documentation if it needs updating.
+pcmasterrace,ff5awc4,t1_ff5a91o,1579585622.0, [Did you know that the little mermaid came out closer to the moon landing than the present day?](https://xkcd.com/891/)
+pcmasterrace,ff4k3i4,t1_ff38bdx,1579565530.0,"I don't do watercooling but I figured it should be a common question [coolermaster](https://landing.coolermaster.com/faq/liquid-cooling-where-do-i-connect-the-fans-and-pump/) seems to suggest putting the radiator fan on the CPU header.
+
+the CPU header wants to sense RPM, so a dummy plug would need to provide a signal.  [Here](https://www.ekwb.com/blog/what-is-pwm-and-how-does-it-work/) they show the yellow wire labeled as ""Tach"", they also show further down a water pump with two connectors, the molex for power, and the other connector with the green and blue wires connect to the motherboard to keep it happy
+
+&#x200B;
+
+On an  [ASUS](https://rog.asus.com/forum/showthread.php?12057-CPU-Fan-Error) forum post they suggest disabling the warning through a Fan Control section"
+pcmasterrace,ff2p5mb,t1_ff2mfsy,1579517420.0,"If quantity was better than quality I'd have all my old CRTs running. But hey, you do you."
+Multicopter,ff27kef,t3_er6ce2,1579496085.0,"Where on the screen are you trying to place things? the bottom 2, possibly 3 rows are PAL exclusive, and then on top of that the grid is usually bigger than what the goggles see, so if you're trying to shove something to the side, it might be off screen. Have you tried moving it one square at a time in the goggles to figure out what area is actually view-able?"
+pcmasterrace,ff1yqqe,t3_er4j87,1579489273.0,mematic is available on the google play store. gg
+gaming,ff0dp3k,t3_eqzf81,1579467947.0,I just leave my computer on 24/7. Newer computers are better with idle power usage.
+gaming,ff0df7p,t1_fezzj79,1579467861.0,"I've never really had trouble with updating dependencies on linux, except on a gentoo that I didn't update for 6 months. Yes it wastes bandwidth, but it works."
+gaming,ff0clji,t1_ff0267b,1579467602.0,"Sounds like you successfully disabled all notifications about updating. 
+
+you're not the only one effected by this, so they've improved the options 
+
+think of the positives."
+pcmasterrace,fex9uo1,t3_equ92q,1579427423.0,What is that? I don't recognize it.
+videos,fex4ldi,t1_fex3sg0,1579424234.0,Original? It's a flash animation. Older copy?
+pics,fewhdh8,t1_fewdoja,1579410605.0,"I suspect that ""selling"" the rights was a good way to tell people to stop asking about it. Is high tech military equipment, truly not  art?"
+worldnews,fewagtj,t1_fet6kna,1579407554.0,"By Gramnar's hammer, you will be avenged."
+Multicopter,fesifqk,t3_eqif2v,1579365511.0,"I'd look into global variables. http://rcdiy.ca/opentx-transmitter-firmware/model-menus/special-functions/
+
+Looks like you could use a special function to set a global variable under certain situations, and then use that value in a channel."
+Multicopter,feqnmqk,t3_eq818s,1579344006.0,What happens when you hit the arm switch when connected to betaflight? I'm curious to the issue. Is it a thing on the transmitter reversing a channel under certain situations?
+Multicopter,fenng6e,t3_eq2vho,1579288188.0,"It's worth paying attention to, because some API used are from the chrome apps. chrome.serial for one.
+
+But there is lots of leeway with browser versions when it comes to using them for individual apps. The stand alone configurator should list it's chrome version when you start it. Compare to now."
+funny,fekjazr,t1_feke48h,1579201227.0,It was funny enough that I checked my email to see if they did send that to everyone. But I didn't see such a thing.
+todayilearned,fejf9tz,t3_eph37q,1579171358.0,1966? I was sure this happened in 1977 ;)
+Multicopter,fejeuv3,t3_ephk20,1579170730.0,"Esc telemetry is separate from ESC signal. Separate pin on the ESC, and separate wire. Check the wire?"
+Multicopter,feig2f0,t1_fdqubdq,1579137696.0,"I think it depends on what you're looking to purchase for the outdoor stuff. Up in Canada I'm planning on getting some Attitude V5's to replace my aging teleporter v4's. An upgrade to DJI is 3x the cost. 
+
+I think there is still some viability to analog, but I've removed rapid fire from my wish list ;)"
+Multicopter,feif0nc,t1_fdwjcmm,1579136989.0,If you've got an android phone the speedybee app might have something for blheli.
+Multicopter,feic9uj,t1_fei9wwf,1579135142.0,"Yeah, FPVFreerider has had the problem for the whole time. Good that the serial passthrough works."
+Multicopter,fei312w,t3_ep85kn,1579129169.0,"I still have a model on my X9D+ just for flying with FPV Freerider. I've pushed the axis  so that the range is 0-100 instead of -100 to +100
+
+can you make another model on the flysky and shift the channels?"
+Multicopter,fehkfc7,t1_fehjb2b,1579118350.0,"When you're using 9v you end up having a few more capacitor to absorb noise. Vbat to 9v, then 9v to 5v. 
+
+If you ran vbat into the vtx, you'd have motor noise drawn inside the shield.
+
+
+For the 5v line I've seen some smaller quads power their vtx from the 5v regulator on the flight controller. So at least on the 20x20 vtx you can put power in on that rail that is intended for a camera. 
+
+I wonder if they are enough to run camera and FC. I have a FC with a dead 5v regulator."
+todayilearned,fehhs1d,t1_fehfkgb,1579116802.0,"https://www.reddit.com/r/todayilearned/comments/ep3gzs/til_garrett_morgan_the_inventor_of_the_smoke_hood/feh0czr/
+
+Pictured here the inventor."
+Multicopter,fehgd67,t3_ep4tsa,1579115978.0,"Can the vtx get power on input on the 5v rail labeled for camera? You don't want to give the vtx two power sources, as it might break a different 5v regulator (the one on the flight controller) so give it vbat or 5v, and notice that those are different wires.
+
+For camera I'd keep the connector on the camera side, and cut/solder to the FC. What is the pink wire for? Maybe it's separate vbat wire for voltage sending. Depending on what you want from OSD, that might be what you want, but I like having full betaflight OSD do everything."
+LifeProTips,fegbwzf,t3_eozncu,1579086868.0,"Hey buddy, I posted a comment crapping on your LPT, so that people will put more thought into your tip, totally doing you a favor here."
+todayilearned,fegbgx1,t1_feg88kw,1579086277.0,The machine translation that Google offered was suspiciously good.
+todayilearned,fegb93a,t1_feg8kwz,1579085985.0,1966? I thought it was 1977 😉
+Multicopter,fefyytj,t3_eoo791,1579070021.0,"What version of betaflight does it ship with? I know a bunch of prebuilds ship with 3.5.x and have tuned pids, but the tune doesn't transfer over to the newer versions. A lot of people are happy with default, but enough are unhappy. 
+
+If you don't get a response with the stock pids, maybe look at UAV tech video about the tuning sliders in betaflight 4.1"
+Multicopter,fefymcq,t1_fedfh0b,1579069646.0,"Haha I'm also curious about the answer, but I got distracted a lot. Last time I looked there was 2 comments and now it's 5. I was hoping someone leaked the answer, but no such luck. Did you see the explaination of adhd that someone posted to bestof the other day? I can make a sandwich without trouble, so I'm sure I'm perfectly fine."
+news,fefy02k,t1_fefxto9,1579068994.0,"Thanks, I'll see what I can find."
+news,fefxps3,t1_fefw08a,1579068691.0,"We're in the city age, everything is more compact these days."
+news,fefxei4,t1_fefw9rb,1579068373.0,"I'm sure there is bubbles of pro and anti HOA people on Facebook, automatically kept isolated from each other."
+news,fefx7i2,t1_fefu3p2,1579068177.0,"What kind of antenna are you thinking of? The ham radio guys I know would put up a ""flag pole"" or a long wire, neither of which would crush anything unless a giant ass old tree was also involved."
+Multicopter,fefg8e8,t3_eorjfk,1579055672.0,"If they're talking about watching on a phone it's over the Wifi.
+
+I need to buy more NTSC cameras. All my shitty ones are pal"
+pcmasterrace,fefdbyh,t3_eousnw,1579053872.0,"memory? Is this because you don't want to call crap on an SSD a waste of space, or disk space?
+
+If I had 100GB of ram, you wouldn't hear me complain about anything for a few years."
+pcmasterrace,feelf45,t1_feek2g1,1579036127.0,flush cutters?
+news,fee1uks,t1_fedx51c,1579024646.0,"Well, in my defense boot time was only 1 out of 3 things I like about Windows 10 and can think of off the top of my head. Switching audio outputs is nice and easy, but I wasn't doing that back in 7, so no idea if that is the same. It was more of a hassle back in Vista though."
+pcgaming,fee0d2e,t1_fedfizj,1579023721.0,Does that mean you might be able to skip DDR4? go for it!
+news,fedwyqk,t1_fedqti7,1579021648.0,If you walk away from the computer for over 12 hours it can decide to update without intervention.
+news,fedwgku,t1_fedhc1a,1579021341.0,"19.1? Mint is a key word there. At least I'm guessing that you're running Linux mint.
+
+https://blog.linuxmint.com/?p=3669 Support ia withdrawn in 2023. But on the positive side, a 2023 version of cinnamon will probably be just like the 2019 version. 
+
+I need to write down the edition of mint that I like."
+news,fedujx2,t1_fedlwex,1579020198.0,Sounds like those laptops are like DRM. We can't pirate thier software without the right computer.
+news,fedtqnz,t1_fedrm34,1579019703.0,"If it works, and doesn't not work, and still works, boot time is the only thing left to discuss. I've been running CAD programs over remote desktop and have accidentally watched YouTube videos over remote desktop, and that's over a 100mbps lan connection. Remote desktop was laggier back in the day
+
+Automatic driver download works a lot better in 10.
+
+If you're on a hard drive instead of an SSD Windows 10 seems usable in 5 minutes instead of 10-20 minutes."
+Multicopter,fed04sm,t3_eof6mk,1578992037.0,"I think the charity aspect is going to be irrelevant. 
+
+Is a race a commercial.activity? I'm not sure but drone racing league races indoors.
+
+I'd be tempted to research with the angle of like a foot race with a buy in, might find out that it's considered gambling or something. Maybe car race with a buy in. 
+
+Luckily the FAA isn't interested in confidentiality when they whack people, so if they fine anyone we'll hear about it."
+Multicopter,fecztsa,t3_eofh0o,1578991616.0,"The knobs look like eyes, just need to underline flysky to make a mouth :)
+
+Any idea if that paint effects rf? I don't know if the antenna is where you would think it is. I love the look, and also that you didn't try to paint the gimbals. Nobody will accidentally pick up your TX.
+
+Actually it's probably fine, but I'm the person who would try a metallic color. ;)"
+Multicopter,fectrhr,t1_fecsmg9,1578984290.0,"UART1 the serial port has two pins RX1 and TX1
+
+Depending on what you're doing with it, maybe you can borrow a pin. Like if you're running SBUS, its most likely using RX1, which means that TX1 could be borrowed
+
+`resource SERIAL_TX 1 NONE`
+
+to take the pin away, and then use `A09` elsewhere.
+
+Are you using the second uart for anything?
+
+ [http://support.betafpv.com/support/solutions/articles/27000058715-how-to-connect-toothpick-f4-2-4s-12a-aio-brushless-fc-with-external-rx-on-hx115](http://support.betafpv.com/support/solutions/articles/27000058715-how-to-connect-toothpick-f4-2-4s-12a-aio-brushless-fc-with-external-rx-on-hx115) 
+
+Suspiciously They show doing an inversion hack on the R-XSR, and connecting it to TX2, instead of using the port labeled F.Port
+
+What do you have where? Something like Smart Audio only requires one pin, so if its on UART2, you could move that to software serial, and use UART2 for GPS"
+Multicopter,fec5lyr,t3_eodygp,1578967002.0,SBUS pad is probably RX1 after being ran through an inverter. Not sure about F.Port.
+Multicopter,febvgft,t1_febkm0g,1578963155.0,"Its possible that it doesn't talk to the computer as a ""game controller"". Is it connecting to the computer through like  bluetooth, or through a cable? If its connecting with a cable it might be worth checking device manager to see what it shows up as."
+funny,febibrk,t1_feb8wqr,1578959138.0,Good one Gary.
+videos,febh0j5,t1_feb1nlo,1578958680.0,"I've recently started sassing people when they whine about downvotes, but I laughed at this one. 👍"
+Multicopter,feamklt,t1_fe4zot3,1578950317.0,I thought the ratel was conformal coated. Whoops.
+Multicopter,fealva0,t3_eo1aa5,1578950195.0,"What sort of simulator are you looking to fly? Usually people need sims to practice with the racing or freestyle drones. 
+
+Xbox controller might suffice for GPS driven stuff?"
+Multicopter,feakb02,t3_eo7rh5,1578949826.0,"What is the significance of the URUAV version?
+
+At first glance. FrSky sticker on FrSky product."
+pcgaming,fe9p9f5,t1_fe94m33,1578940267.0,You might have to write some of them at this point
+pcmasterrace,fe6v9i1,t3_eo0pfq,1578906031.0,My computer has been crapping itself every 17 or so days. probably related to a memory leak. Instead of looking into it I downloaded the weeb editions of CrystalDiskInfo
+discordapp,fe6b34u,t1_fe60g6r,1578885906.0,"The only time I read an all caps message is if I'm playing around with disk partitioning utilities. Otherwise I ignore it as troll/spam. The best that can be done for messages like that is to have the important ones stick out, and be very careful as to what is important, lest you lose the trust of other users."
+television,fe4zeuu,t1_fe3zfdb,1578864208.0,"I'm now slightly curious about the science involved, would the result be neutral with a hint of lemon, or does the lemon smell/flavor get neutralized as well"
+television,fe4yled,t1_fe4o8pe,1578864033.0,"Are you just crapping on Reddit, because it's what we do here on Reddit, or do you need to edit your comment to be more specific?"
+pcgaming,fe4vku6,t1_fe3psgt,1578863164.0,You should edit the post when you have a chance. Other people might see the link but not the follow-up because Reddit sucks.
+pcgaming,fe4ufhz,t1_fe4q4tr,1578862871.0,"I don't know anything for sure, but one thing working for Japan in regards to network trouble is the size of the country. There will be a limit to latency between any given users, so dealing with higher or inconsistent latency isn't required."
+Multicopter,fe4sk07,t3_enioee,1578862347.0,"https://www.reddit.com/r/Multicopter/comments/dhk26v/betaflight_osd_voltage_issue/
+
+I feel like I should point out that measuring voltage is an analog activity, and has to be done analog somewhere either by a flight controller or an ESC.
+
+Check the other comment, especially the one that links to Oscar liangs blog, it'll suggest either tweaking calibration, or the cell voltage numbers. Betaflight gets a voltage like 16.84, realizes it's above 4.2*4 and then reacts as if it's a 5s pack at 3.368 which is super dead. 
+
+You should add battery voltage to OSD, not just average cell voltage, at least while you solve this."
+pcmasterrace,fe0zi4x,t1_fe0z2sx,1578820775.0,Windows 10 and Google Chrome will ensure that any amount of ram is used though.
+AGDQ,fe0xqgf,t3_enkuku,1578819975.0,Why are you watching the intermissions so closely?
+Multicopter,fe0uzbg,t3_enkqsm,1578818999.0,"You found a taranis that claims to be 5.8ghz? Link plz
+
+There will be US and EU versions, I'm not sure which Australia is closer to, maybe ask xjet on YouTube, even though he's New Zealand.
+
+Maybe since Australia is upside down the controls are different?
+
+For Europe the term ""listen before talking"" or LBT comes to mind. 
+
+You can flash FCC and EU firmware on most things, but it's easier if you just buy things that match just in case something isn't flash able."
+pcmasterrace,fe04zvz,t1_fdzqpwe,1578803217.0,"Old product, so might be difficult to source, especially with the video. Also keep in mind it might take 120w. I punched in ""cigar lighter amp"" and Google told me its about 10 amps draw for a cigarette lighter, and then showed me Telsa stores/dealerships in my area on a map."
+pics,fe04fwr,t3_enhxl3,1578802821.0,"If you use desktop as a folder for everything, but don't actually need the icons on the desktop, you can right click the desktop and under View there is an option labeled ""Show desktop icons"""
+Multicopter,fe019ct,t3_en9m0z,1578800590.0,"http://seriouslypro.com/spracingf3
+
+Spracingf3 doesn't have an osd chip. So you may have flashed wrong target.
+
+On the top left of your screenshot it lists SPRACINGF3"
+Multicopter,fdz9jq0,t1_fdv7awl,1578787963.0,"It might be a faulty observation, but I've noticed a trend with posts here, the vaguer the title, the worse of a mistake the person has done.
+
+From my own observation a 470uF cap sounds nastier than 150uF when I connect an XT30."
+Multicopter,fdz6x85,t3_encmaf,1578787253.0,"How much weight do you need to drop? Also maybe tell us about the quad
+
+I've never seen that frame before, it actually looks heavier than an X220 wizard frame. 
+
+Those ESCs are worth looking into, they seem a bit big. 
+
+Motors might be worth a look. again with the X220s wizard comparisons, its got ""Eachine  MN2206 2300KV motor"" and the item page claims 28 grams each. Hows that compare with what you've got? Lighter? heavier?
+
+I'd look at the frame, and the ESC. But depending on how badly you need to loose weight, look at everything as it comes up. Camera and VTX antenna seem reasonable. But we don't see the VTX or the receiver."
+Multicopter,fdssyor,t3_emy1xn,1578707541.0,"quads are very entertaining in that
+
+5 inch props, on a 250mm frame
+
+5 inch props, 220mm frame
+
+When I started the frame size was discussed more, but these days its the size of props used that is discussed.
+
+I think the props are measured in inches due to them being usable in planes."
+Multicopter,fdrieph,t3_empl7p,1578684993.0,"I'm surprised they didn't copy the keyboard guys and move to USB-C
+
+I have a flight controller with a bad gyro and a receiver that randomly cuts out when in a quad, so I've been wireless on my sims for awhile. I have a X9D+ with USB mini, but I felt I risk breaking it similarly."
+Multicopter,fdrgv6v,t3_emsq4x,1578684364.0,This sort of mistake is better with pictures. From the title I thought you bought a capacitor that draws enough power to break something.
+Multicopter,fdrgmi8,t3_emuem2,1578684216.0,"Blame the tools, you must not.
+
+Master them, you shall."
+AskReddit,fdpsh04,t1_fdp3hy0,1578638734.0,"Well, awesome games done quick is on right now. I'm only not watching it because I'm taking a crap."
+Multicopter,fdps5vu,t1_fdmyfs3,1578638402.0,Does the attitude v2 not have a module Bay?
+Multicopter,fdps2ua,t1_fdp06am,1578638314.0,"On Reddit if you make the thread yourself you can post pictures but other people are using imgur site. Upload image, maybe select to not post to main user gallery. It'll give a link"
+Multicopter,fdprsqi,t3_emgem6,1578638023.0,"Is there a market for it? I think the hardest part about being a store is deciding what to stock. Like the local store for me had x220s wizard but somehow didn't have spare arms. 
+
+Maybe start small? Stock some stuff you might need and offer it for sale on Craigslist or wherever. If you could run a shop out of a shed on your property that's nice and cheap, otherwise there is costs."
+pcmasterrace,fdpmzm0,t1_fdp6yyl,1578633268.0,"Ah, most of the stuff I saw was involving mismatched sets. 
+
+Windows 10 home has a 128gb limit, so its not that. 
+
+Have you tried the sticks individually? I'd be tempted to try each module in slot 1. 
+
+BIOS update?
+
+Other than verifying that windows thinks all DIMMS match, I'm not sure what to suggest other than playing with the ram, or maybe a different motherboard."
+pcmasterrace,fdplv42,t3_emm50v,1578632277.0,is the 3dmark demo still available?
+pcmasterrace,fdp6c86,t3_emjqw8,1578621033.0,"For asking a question, you're missing details on
+
+* Your ram
+* Your motherboard/CPU"
+pcmasterrace,fdoseob,t1_fdof9zf,1578611830.0,"Could be the mobo or the ram. If the ram works in different slots, then its the mobo.
+
+I'd pick a module, and try it in all 4 slots by itself, if all slots work then try the other module in all 4 slots by itself.
+
+&#x200B;
+
+After you get this working, make a note to look at XMP, maybe you'll get additional trouble, but it should just work."
+pcmasterrace,fdoeciz,t1_fdoc1d9,1578603550.0,"2133mhz means that xmp is not enabled.
+
+I wonder if you need to move slots around. I like the advice of try them individually. Maybe one is dead? 
+
+Not sure on hz. Maybe don't wry about that number.
+
+MHz is millions of cycles per second."
+Multicopter,fdodnao,t1_fdmve7b,1578603217.0,Try searching just qx7. I see a black/white one that is cheaper than the blue one. This is the sort of site where how you go to an item sometimes matters. As shit as that is.
+pcmasterrace,fdobgj2,t3_emf0ri,1578602165.0,"Between hwinfo64 and cpu-z you should try and find a program that'll list what is in each ram slot. Compare with what the BIOS says. Actually, not sure if it's in BIOS."
+pcmasterrace,fdoayjd,t1_fdo7n8e,1578601923.0,"It's a temp folder, seems like something tries to put something there and then run it. So you've somehow got half of something. I'd scan the whole computer."
+pcmasterrace,fdoad4a,t3_emevhq,1578601630.0,I have the cheapest ultra wide and it's got similar pixel density to my older monitor so I just run both. Actually it's triple this week but I only need two at a time
+pcmasterrace,fdo9ud7,t3_emez2n,1578601377.0,As long as read speed can keep up it's all good
+pcmasterrace,fdo9mp6,t1_fdo7o6f,1578601274.0,"Today's insane drive is tomorrow okay drive, and next week's insanely slow drive"
+pcmasterrace,fdo99ua,t3_emeipm,1578601101.0,"What's the memory cleaner doing? That sounds like a program that tries to do something the OS does, and since it's user space, it'll do a crap job."
+Multicopter,fdo39k9,t1_fdntvyq,1578598092.0,"Oh wow nothing much about that UX14 online.
+
+https://www.rcgroups.com/forums/showthread.php?3147078-URUAV-UX14-2in1-Frsky-and-Flysky-Telemetry-Receiver"
+Multicopter,fdmvc2y,t3_em7miq,1578567528.0,"Huh, banggood shows qx7 listed for US$97.99 new. 
+
+lol $9.99 18650 holder that is $18.42 shipping to canada
+
+FrSkys newer transmitters have ACCESS protocol which some people don't want, so maybe taht effects the used market? I still have my X9D+ from 2015"
+Multicopter,fdm9qpf,t3_em3ndm,1578543354.0,"I ordered an item out of the US warehouse up to Canada and it took a month to arrive after being ""shipped"". I think might be playing a little loose with terms, but I haven't gotten ripped off yet."
+Multicopter,fdm9el7,t3_em3hr6,1578543100.0,"I just did a Google search for ""betaflight legacy"" and the first result is Joshua's video explaining the difference.
+
+The configurator should have a question mark next to that list that explains it. Try the hamo one.
+
+I'll have to check, but I think the next version will hide the manufacturer id as long as there is only one."
+Multicopter,fdkxe4y,t3_elj0i3,1578513124.0,"How good is your flying? DJI drones are the best for flying like a DJI. Otherwise conformal coat, buy some servos, visit the local hardware store and have fun."

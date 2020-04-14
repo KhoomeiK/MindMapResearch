@@ -1,0 +1,109 @@
+subreddit,self ID,parent ID,time,text
+Catswhoyell,fffjdta,t3_etb75a,1579885228.0,/r/catswhotrill
+statistics,fff1hfl,t3_eta8gv,1579873100.0,"> can differentiate disease (n=61) from non-disease (n=64) samples.
+
+I don't fully understand: You seem to have a binary dependent variable as you want to predict the disease status. But this is at odds with the notion of transformations. Can you clarify?"
+FREE,ffbh4q1,t3_eshe2l,1579765051.0,Very generous! Thanks OP!
+AskStatistics,fey2ci4,t1_fexxfdk,1579439794.0,"I think if you had the number of members in each classroom, you could transform the percentages into counts (i.e. rows in your dataset)."
+AskStatistics,fewu6s5,t3_eqq8dk,1579419548.0,"(2) Maybe [Dirichlet Regression](https://cran.r-project.org/web/packages/DirichletReg/vignettes/DirichletReg-vig.pdf). I have no real experience with that, though."
+AskStatistics,fekp3lh,t1_fekmm0d,1579204676.0,"> Imean that logistic regression usually is often used as a classifier, with a probability of yes/no. I'm not familiar with multinomial, but i was assuming it gave an output but prob of class instead of yes/no
+> 
+> so an output might be
+> 
+> classroom_1 : (A,0.5), (B,0.2), (C,0.1), (D, 0.2)
+
+Yes, that's correct: The output of the model are probabilities for each school head. Strictly speaking, logistic - binary and multinomial - regression models are not classifiers (for more details, see [here](https://stats.stackexchange.com/questions/127042/why-isnt-logistic-regression-called-logistic-classification)).
+
+> The data you have presented just has the classes though, so in the context of your example it seems that we would have no information about the margin of A's victory (looking at your first row), we just know that the model is predicting A to win.
+
+I was trying to give an example of the *input* dataset, not the model output."
+statistics,fek0uae,t3_epkpyj,1579190192.0,"> However, in this case, dont i already have the populations? I have all the objects of measurement im interested in. Or is there an abstract definition of the populations tacitly?
+
+That is a great question which deserves a nuanced answer. In his book, ""The Art of Statistics"", David Spiegelhalter ponders the same question (""What is a population"") and offers three possible answers:
+
+* A *literal* population. This is a concrete, identifiable group, such as ""all men in the UK that are 20 years old"".
+* A *virtual* population. Consider the measurements of a scale to weigh people. The population ""measurements of this scale"" is a virtual one because we could always take more measurements if we had time. In fact, the population may be infinitely large in theory (although not practically because time is limitted and the scale will break).
+* A *metaphorical* population. Here, we just act *as if* the data-point were drawn from some population at random, but it is clearly not. Hence, we act if our data was sampled from a imaginary space of plausible possibilities.
+
+In your case, you could decide that your sample already is the population because there doesn't exist a larger pool from which the students were drawn this year. Or, you could treat the scores randomly drawn from a metaphorical population of plausible scores. The metaphorical population is assumed very often - although this is rarely made explicit -, think of crime statistics or surgery mortality statistics."
+AskStatistics,fejsky7,t1_fejs88y,1579184821.0,"Sorry, I don't know what you mean. The dataset would look something like that (with fictional values). Every row is one vote (per class, I presume?):
+
+vote  | school | year
+---|---|----|----
+A|  7| 8
+B|  8| 8
+A|  11| 8
+E |  7| 9
+... |  ...| ...
+
+The `votes` would be the outcome and the other variables the explanatory variables."
+AskStatistics,fejkmx4,t3_epiknu,1579178075.0,A multinomial logistic regression is the first thing that comes to my mind.
+cats,fegz7cp,t3_ep29mu,1579105786.0,/r/longmeow
+statistics,fegxkge,t1_fegx9eo,1579104771.0,"What do you mean? The t-test is a test for means whereas the MW-test is a test for stochastic equality it its most general form. Under more restrictive assumptions, the MW-test can be viewed as a test for means, medians and all other quantiles (location-shift alternative)."
+statistics,fegx0j8,t1_fegwvw9,1579104423.0,"Some authors do indeed recommend that (I think Frank Harrell is among them, see his comment to [this answer](https://stats.stackexchange.com/questions/19675/what-normality-assumptions-are-required-for-an-unpaired-t-test-and-when-are-the/19677#19677)). The crucial thing to be aware of is that the Mann-Whitney-test does have a different null hypothesis than the t-test. In its most general form, the MW-test does not test for a difference in medians or means. If you assume that the two samples are identical except for a shift, then the MW-test is a test for the median, mean and all other quantiles."
+statistics,fegvwzb,t1_fegvmt2,1579103725.0,"I suspected that. Please have a look at the references concerning this topic [here](https://discourse.datamethods.org/t/reference-collection-to-push-back-against-common-statistical-myths/1787). Search for the topic ""Use of normality tests before t tests""."
+statistics,fegvcph,t3_ep3avx,1579103366.0,"> My question is simple, if Shapiro-Wilk returns a conclusion that data is normally distributed then does that mean that it absolutely is normally distributed?
+
+No, absolutely not. A high *p*-value from the Shapiro-Wilk-test does *not* support the conclusion that the data is normal (the population from which the sample was drawn, really). It means that there is little evidence to reject the hypothesis of a normal population. There are probably an infinite number of other, non-normal distributions that the sample would be compatible with too.
+
+> Or are there special cases where the results of a Shaprio-Wilk return false negatives?
+
+Yes, all the time! As any hypothesis test, the Shapiro-Wilk-test has a certain power to detect deviations from normality. This power will depend on the sample size, the chosen significance level and the specific alternative. Here is an example: If the true population distribution is a t-distribution with 3.5 degrees of freedom and you repeatedly draw samples of size 30, the Shapiro-Wilk-test has only a 38% probability to yield a ""significant"" *p*-value (assuming a significance level of 0.05). So in that case, the test has a whopping 62% probability of yielding a false-negative result, i.e. a type 2 error.
+
+Can you elaborate why you think you need normality?"
+AskStatistics,fe6mzb0,t1_fe4v11h,1578896498.0,"> I would not like to include those who answered ""Uncertain/4"" on two or more questions
+
+Then create another variable counting the missings and use it to set the new variable accordingly. Here, I set the missings to -999 but you can use any value to indicate the missings:
+
+    COMPUTE no_uncertain = 0.
+    IF Q1 = 4 no_uncertain = no_uncertain + 1.
+    IF Q2 = 4 no_uncertain = no_uncertain + 1.
+    IF Q3 = 4 no_uncertain = no_uncertain + 1.
+    IF Q4 = 4 no_uncertain = no_uncertain + 1.
+    IF Q5 = 4 no_uncertain = no_uncertain + 1.
+    EXECUTE.
+    
+    COMPUTE newvar = $sysmis.
+    IF no_uncertain >= 2 newwar = -999.
+    IF no_negative >= 4 newvar = 1.
+    IF no_positive >= 4 newvar = 2.
+    IF (no_negative < 4) & (no_positive < 4) newar = 3.
+    EXECUTE."
+AskStatistics,fe36qrh,t3_enob3r,1578846518.0,"To simplify things, I'd first create two variables counting the number of positive and negative answers. Then, you could use the counts to create the categories. I'm not sure, however, what you mean by ""mark as missing"". Here is an example using the syntax (I ignored the issue with the missings):
+
+    COMPUTE no_positive = 0.
+    IF Q1 = 3 no_positive = no_positive + 1.
+    IF Q2 = 3 no_positive = no_positive + 1.
+    IF Q3 = 3 no_positive = no_positive + 1.
+    IF Q4 = 3 no_positive = no_positive + 1.
+    IF Q5 = 3 no_positive = no_positive + 1.
+    EXECUTE.
+    
+    COMPUTE no_negative = 0.
+    IF Q1 = 1 no_negative = no_negative + 1.
+    IF Q2 = 1 no_negative = no_negative + 1.
+    IF Q3 = 1 no_negative = no_negative + 1.
+    IF Q4 = 1 no_negative = no_negative + 1.
+    IF Q5 = 1 no_negative = no_negative + 1.
+    EXECUTE.
+    
+    COMPUTE newvar = $sysmis.
+    IF no_negative >= 4 newvar = 1.
+    IF no_positive >= 4 newvar = 2.
+    IF (no_negative < 4) & (no_positive < 4) newar = 3.
+    EXECUTE."
+Catswhoyell,fe2qfyz,t3_enne6w,1578841730.0,/r/longmeow
+AskStatistics,fdnkvtg,t3_embwvy,1578587933.0,"I'm by no means an expert on this but googling (terms: ""diagnostic test comparison paired"") turns uf a lot of useful answers. A good starting point could be [this website](https://online.stat.psu.edu/stat509/node/152/) or the book by Zhou et al. (2011): Statistical methods in diagnostic medicine. 2nd ed. Concerning the practicalities, there is an R package [DTComPair](https://cran.r-project.org/web/packages/DTComPair/) who seems to apply to your specific design (paired)."
+cats,fdnijyj,t3_em5pao,1578586544.0,/r/FromKittenToCat
+statistics,fdjvv9q,t1_fdjqhmz,1578489201.0,"If the null hypothesis is rejected, there's evidence that *at least one* coefficient is different from zero."
+statistics,fdjoudg,t3_elr8v2,1578481386.0,"> What would be the null hypothesis?
+
+It's up to you, but a common null hypothesis would be that both coefficients are 0.
+
+> Which test is appropriate to use?
+
+This could be tested using a likelihood-ratio test: Fit the full model with all predictors and a reduced model containing only X3. Then perform a likelihood-ratio test comparing the full with the reduced model."
+cats,fd1u2em,t3_ejr5id,1578136825.0,/r/CatsEnjoyingPets
+Catswhoyell,fcxkl6r,t3_ejdip2,1578065208.0,/r/CatsWhoSqueak
+cats,fc5usvj,t3_eg93rb,1577466373.0,/r/Catswhoyell
+AskStatistics,fc0herw,t3_effng9,1577290899.0,[This paper](https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-9-303) by Korbinian Strimmer seems to provide a good overview of the methods used to estimate the false discovery rates. It also contains pointers to software implementations. Maybe that can get you started.

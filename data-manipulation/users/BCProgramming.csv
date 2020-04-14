@@ -1,0 +1,511 @@
+subreddit,self ID,parent ID,time,text
+Windows10,ffj1ava,t3_etu7ts,1579987883.0,"I configured Group Policies as soon as I upgraded from Windows 8.1 to RTM. I've never had any forced updates- they've always taken place because I explicitly clicked to perform the updates.
+
+Note that the policies don't work on Home Edition, despite what articles say."
+Windows10,ffiyis6,t1_ffip0dl,1579985860.0,">That's if you're running a server with an active domain. 
+
+It applies regardless. There is no need to be running either a server or be connected to a domain. I should know, I've had the group policy configured since Windows 10's original RTM and I've never had a forced update."
+3DS,ffisy2y,t1_ffg6wso,1579981927.0,"> Ipa absolutely begins oxidizing contacts
+
+I believe you may have been misinformed, as I cannot find any information to substantiate this claim, and the reaction profiles I can find for Isopropyl Alcohol would seem to contradict it. According to those, It neither catalyzes oxidization nor oxidizes most metals, with Aluminum being the main exception (in the presence of Mercury, presumably related to the amalgam) It's lack of metallic reactions with conductive metals is why it is often sold as an Electronics Cleaner. It also doesn't react with most plastics, Polyvinyl butyral being the main exception.
+
+>and pcbs aren't plastic, they're fiberglass.
+
+The substrate is often fiberglass. But the substrate is beneath the impermeable solder mask, which is a polymer epoxy/plastic, so would be more relevant in terms of reactivity.
+
+> In addition, the adulterants in otc ipa will leave mineral residue on evaporation. 
+
+Very seldom are there unlisted ingredients other than Water and Isopropyl alcohol. Those that do contain additional ingredients will usually have it clearly indicated on the label what those adulterants are, as those are usually intended as a selling point for their intended purpose. Obviously, those would be poor choices for using on electronics. Occasionally even in the unadulterated cases the water used will have Calcium Carbonate dissolved which will be left behind as a residue when the alcohol evaporates, though it tends to be harmless; It's also rather uncommon as distilled water tends to be used even for over the counter preparations. There can also be reactions with any leftover flux on the board from the isopropyl itself, leaving behind residue as well, which tend to be alcohol salts which do not have any deleterious effects. 99% Isopropyl Alcohol is sold as an electronics cleaner. IPA is often found in other contact cleaners as well.
+
+With regards to your later comment, which alludes to manufacturers advising against the use of Alcohol for cleaning, I can't find any recent/modern manufacturer information that advises against it. The main manufacturer that I can find that explicitly advised against the use of Alcohol has been Nintendo, where it was discouraged right on the back of NES cartridges. SNES cartridges were less explicit, and suggested they needed to be cleaned regularly, and insisted that they only be cleaned with the official cleaning kit.
+
+However, the official cleaning kit for the NES as well as the SNES used Isopropyl Alcohol for the cleaning solution, so it seems that they didn't follow their own advice."
+nintendo,ffilc1o,t3_epecq8,1579976617.0,"I don't miss it because I still have mine.
+
+The Gamepad worked as a second screen but very few games made good use of it. It's major problem is that it had a low resolution, short range, and had rather ugly compression artifacts. Nintendo also pushed ""Off-TV Play"" as one of the premier features when really it should have been a more back-burner feature IMO, as it was a heavy ccompromise IMO.
+
+MK8 was what I bought it for primarily. Wind Waker HD and Twilight Princess HD are still arguably the best way to play Wind Waker and Twilight Princess (^1). It's how I first played through BOTW as well, given that The Switch was constantly sold out. Even Super Smash Brothers Wii U is still a good game today. Ultimate IMO isn't a ""new version"" in the same way that SMB didn't become obsolete when SMB2 or SMB3 came out. The same I think doesn't quite apply to Mario Maker, mind....
+
+Backwards Compatibility with the Wii was welcome, And both the vWii and now the main OS can be hacked so it's an excellent system for homebrew and emulation.  Nintendont on the vWii side allowed for the use of native Gamecube support without hardware emulation."
+Windows10,ffhf45p,t3_etmxnp,1579932617.0,"Well, Control-Shift-Escape would let you open Task manager immediately.
+
+    cmd /c taskkill /IM explorer.exe /F & start explorer
+
+from ""run"" should work too. Or make a shortcut. Or a batch file.
+
+Though as the other comment notes there may be another way to resolve the invisible taskbar issue without resorting to restarting explorer."
+Gamecube,ffgxqsk,t3_etkg8c,1579917768.0,I got mine from Gamebox Systems. Took a few weeks to ship but I wasn't in a hurry. Includes a 3-D printed cover with a slot for the SD Card.
+AskReddit,ffgpwc4,t3_etghhh,1579912050.0,"Well, last game I played was Ocarina of Time, so I think we all know the obvious answer. Beautiful, exquisitely dressed in jewels, and royal to the core, how could I choose somebody else? I'd explore inside them like a spelunker, violate them in a most tender way, stimulating their deepest parts. Then I would say, ""I love you, Lord Jabu Jabu."""
+Windows10,ffgdqdb,t3_etbnru,1579903961.0,"[What is this vmmem program that is using all my memory](https://devblogs.microsoft.com/oldnewthing/20180717-00/?p=99265)
+
+>Strictly speaking, what it actually represents is the resources of the other virtual machines, since Windows itself is running in a virtual machine under the hypervisor. You may not be explicitly using the hypervisor, but some other features are built on top of the hypervisor."
+snes,fferb4r,t1_ffcg71h,1579861653.0,">poorly mixed bromine.
+
+Plastic yellows due to parts of the polymer being UV reactive. The butadiene breaks down into carbonyl radicals which subsequently form chromatic molecules that discolor the plastic. ""Bromine"" is never added to any plastics; Brominated Flame retardants are, but referring to tetrabromobisphenol-A as Bromine is as accurate as calling Salt Chlorine.
+
+Neither Bromine or Tetrabromobisphenol-A react to UV light.
+
+>As far as brittle, I've heard that rumor too
+
+It's not a rumour. It's chemistry. Plastic is not a magic; it's fairly well understood and there are many papers written regarding different ways that plastics decompose or deteriorate.
+
+For ABS plastic as noted the Butadiene polymer is itself photo-reactive, so will breakdown. That ""breaks the chain"" of the overall molecule. Plastic is plastic largely due to it having long polymer chains. As more and more of those molecules are made shorter, the plastic becomes brittle and ""crumbly"".
+
+""retrobrite"" is trash. People constantly tell others to use ""retrobrite"" on yellowed plastics but they don't even understand what it does, since if they did they would probably never recommend it. retrobrite, is pretty much hydrogen peroxide, an oxidizer. It encourages the chromatic molecules that discolour the plastic to oxidize into simpler, colourless compounds. 
+
+It also greatly accelerates the original reaction, since now the butadiene is being encouraged to oxidize by an oxidizer, not to mention ""treatment"" has the plastic being left out in bright sunlight. Of course the products from that reaction are readily oxidized. 
+
+It also destroys any UV stabilizers or absorbers in the plastic. These have been added pretty much since ABS plastic was discovered entirely because the butadiene is known to be photoreactive. These compounds are intended to effectively work as bodyguards- they either absorb the moment energy or they reflect it so that the polymer can remain intact for much longer. Destroying them means the plastic will react much more readily on UV exposure."
+videos,ffeml3d,t1_ffegd7r,1579854604.0,"Mister Snake, I see your head, your neck and your neck moreso,
+
+My only question Mister Snake is where the fuck's your torso?"
+n64,ffebu4u,t3_et0696,1579842468.0,"1:41 he starts talking about how Mario 64 is written in C. A few moments later, he's panning over C++ code, and showing C++ tutorial pages. If you are talking about C at least show C, lest people who know the difference think you don't!
+
+(The interactive Mario head at startup *was* written in C++, mind, though I doubt the video creator was aware of that)
+
+As to ""Nintendo's big mistake""- I don't buy it. it's possible, but I question the methodology that reached the conclusion. Basically, people decompiled Mario 64, then they were able to recompile it with optimizations. So, Nintendo forgot the optimizations.
+
+But I don't think that holds. The N64 SDK used GCC for compilation, as part of MIPSE. I did a bit of searching and from what I can find, proper support for the optimizing compiler was added for the MIPS architecture in GCC 2.7.2.2, which was released January of 1997. Pretty damned coincidental timing if you ask me, given the Japanese and U.S releases of Mario 64 therefore used an earlier version, and therefore had no or very limited optimizing compiler support. 
+
+A lot of these discoveries are based on discoveries in the Master Quest debug ROM. references to the compiler, ""IRIS Development Option 5.3"" were found.
+
+I'm skeptical that indicates that it was built with that compiler, though; it's possible the code merely has references to it as it was used for actual debugging on IRIX workstations, and the text constants were left in the builds targeted for the N64.
+
+regardless of that fact, though, that Compiler would be nearly 2 years newer than whatever was used for Mario 64; It doesn't seem that an assumption that it used the same compiler is sensible in any case."
+SubredditDrama,ffblvtv,t3_espomg,1579771764.0,"Notch has seemingly gone fucking insane. But the only thing more insane is that people actually think he can be defended.
+
+So first of all, he is an off-the-rails, racist, conspiracy theorist nutjob. last I checked, we have freedom of association and if we don't want to associate with a off-the-rails, racist, conspiracy theorist nutjob, we don't have to. Do these people think that we should be compelled to support him?
+
+Furthermore, saying he is an ""off-the-rails, racist, conspiracy theorist nutjob."" isn't denying him a platform. It's saying he is a is an off-the-rails, racist, conspiracy theorist nutjob. Nobody on reddit or anywhere is going to ""cancel"" Notch. he's got fucking billions of dollars. Even if every single 'platform' on Earth denied him, he could literally buy them."
+n64,ffbidvi,t3_esoqcf,1579766707.0,"http://www.sm64.com/others/bowsercourse2.html
+
+> 1UP Mushrooms: 	7 	
+
+>Wait at the end of the raising/falling platform"
+iamverysmart,ffbdaw0,t1_ffaoz5r,1579760499.0,"""Looks like they won't talk to us because we have a brown lightsaber. Come on 5K1D-M4RK, let's go"""
+AskReddit,ffazvjc,t1_ffao6kj,1579748355.0,"It is likely a coincidence. The computer system they used is probably the last thing that could be in any way responsible for closures.
+
+Older systems have proven their worth and robustness. The programs don't just rust over time and become less proficient at their task. My company actually makes- or rather made- that type of POS software. It's not ""IBM"" but it's a text-based terminal. [Example](https://i.imgur.com/xt7CaHl.png). 
+
+Basically, A Business needs one thing: Software that lets them do business. Nothing else matters. And convincing them to switch to a new system is a huge uphill battle, those installations have usually been around for a while. A lot of our customers have *decades* worth of custom software customizations, as well. So you've got software with special features specific to them that they've had for years, staff training materials for that system, and staff who have been using it for years and customer data, invoices, orders, etc. which you need to keep for some number of years for tax purposes... You need new staff training with a new system, a shitload of man-hours to do data entry because it's doubtful the devs of some fancy new product would know what ISAM tables are let alone have any plans for migration. The costs of almost any upgrade would be far in excess of any software price tag, and at the end if we're talking about software they've had for decades with customizations, there is a good chance other software will be missing features. So now they are looking at paid enhancements at best to have those same features brought to the new software program. 
+
+Hell, we MADE the old product, had the ability to migrate everything from the old software, and even wrote software on the old OS so that it was possible for the Windows software to be used alongside the terminal software, and it was still a massive uphill battle convincing customers to even look into it, until their business needs actually warranted it and they started to upgrade their networks in a way that was completely incompatible with the shitty 80's MINIX networking code used in the OS in question, and they were facing downtime that was starting to affect their bottom lines."
+n64,ffaou6f,t1_ffannzx,1579741003.0,That isn't a thing.
+Whatcouldgowrong,ffadd66,t1_ffabc1v,1579732895.0,">2nd degree burn on her nipple. Yeeouch!
+
+No doubt, that is a very sensitive areola."
+SubredditDrama,ff8sezt,t1_ff8jyed,1579694275.0,"I kinda wonder if he was always a piece of shit but was able to hide it, and whether getting billions basically meant the mask could come off, or whether he used to be decent and somehow just fell into being a piece of shit."
+Windows10,ff8m2e7,t3_es7qpr,1579685218.0,"This one:
+
+>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer.
+
+Last Year Firefox had CVE-2019-17026, which was a flaw in the Scripting Engine that allowed remote code execution in Firefox. 
+
+Near the end of that same year, a remote code execution flaw in Chrome's Javascript interpreter in versions 65 through 78 was found being used in the wild to infect systems.
+
+This is why I disable JS by default on all browsers or use things like NoScript. Fuck Javascript. Second biggest mistake on the web after ActiveX IMO."
+gaming,ff7xi0q,t3_es120a,1579660696.0,"""To kill the cyberdemon, shoot at it until it dies"""
+gaming,ff7wmdm,t1_ff71ntl,1579660101.0,"Nobody said anything about being offended. People thinking that text is inappropriate or insensitive or perhaps just not very good doesn't mean they are offended by it.
+
+>No one seems to be offended when the words ""bastard"" or ""dick"" get thrown around.
+
+I'm no expert but probably because they don't refer to groups that have been traditionally marginalized. This isn't difficult."
+csharp,ff7sbd3,t3_erxqau,1579657155.0,"That is a terrible interview question, though it might be intended to determine the level of experience with the language. I would expect that a developer with enough experience will have memorized many namespaces through repetition, particularly those that are part of the BCL. I've been working with C# for over a decade and I've got a good handle on at least a dozen or so namespaces and the classes therein, same for Java packages, and even a few of the bits of D. I'd expect that to be fairly typical just as a function of time using a programming language frequently. That might be what they were going for. 
+
+I guess it also makes sure the experience is with that language and not somebody just sort of winging it who hasn't used it much. Like a Java programmer could probably muddle their way through C# and vice versa, but without prior experience in the other language, a C# programmer wouldn't know off-hand where HashMap<T,K> is and a Java programmer wouldn't know off-hand where Dictionary<T,K> is."
+Windows10,ff7fyz5,t1_ff5wjcw,1579648664.0,"> Permanent scroll bars make no UI sense in 2020.
+
+I disagree. I'd actually argue the opposite.
+
+>We used to have scroll bars because some mice didn’t have scroll wheels and computers were new.
+
+Scrollbars were prevalent before Graphical interfaces were in home computers. They were found in text-based software as a way of (roughly!) indicating the position being displayed within a larger block. in Environments with a mouse of course you could move the scroll using the mouse too.
+
+IMO, content which is expected to contain more than fits on screen should always display a scrollbar. *even if that content is not currently larger than the screen*. That way you know that A) The content can be scrollable and B) it is currently not scrollable. Additionally, scrollbars which shrink from their ""interactable"" expanded form to a smaller ""read-only"" form I'd argue are poor design because now the interaction has less visibility; and it's also not consistent- it looks different based on recent passive user activity. And now in order to change it into the ""interactable"" version, you need to hover over it- which increases the cognitive load.
+
+Designing for a desktop User interface is not the same as for a smart device. A Smartphone's primary interaction is the touch-screen so an interactable scrollbar is redundant, since scrolling actions can be done by swiping or dragging. This means they just need to be for display. 
+
+That doesn't apply to desktop systems, however, and attempting to adopt those same designs is bad design IMO."
+Windows10,ff7cvrx,t3_eruj0k,1579646620.0,">And why are scrollbars being taken away?
+
+There is an option for this- ""Automatically hide scrollbars in Windows"" Which controls whether scrollbars shrink down or not. If you turn it off the scrollbars will remain visible."
+Gamecube,ff76fhr,t3_erl86c,1579642042.0,"Nothing you can do. You've already given it a coup de grace by using retrobrite really.
+
+ABS plastic discolours because the polymer itself breaks down. The butadiene component of the Polymer is photocatalyzed into carbonyl radicals which form chromatic molecules that accumulate and give the yellow tint.
+
+""retrobrite"" Came up as this kind of magical cure. The original postings were a bunch of worthless chemistry gibberish. My favourite was how ""ABS plastics chemical properties are not well understood"". Or the now oft-repeated bullshit about how the discolouration is due to ""flame retardants""...
+
+hydrogen peroxide is an oxidizer. It encourages oxidization. The reason it removes the discolouration is because it encourages those chromatic molecules to themselves break down into colourless compounds. 
+
+However recall that the original discolouration was caused by oxidization. That reaction is greatly accelerated during ""treatment"", It's just the products of that reaction are themselves oxidized. 
+
+If discolouration was the only effect of the polymer breaking down, this would be merely a curiousity. Bit the polymer molecules are what gives the plastics it's strength. The breakdown of those polymers is what results in the plastic becoming brittle, not just the discolouration, and ""treatment"" greatly accelerates this reaction. retrobrite does absolutely nothing to ""reintegrate"" the polymer. It just washes away the molecular debris.
+
+Additionally, ABS plastics, especially for consumer use, have UV stabiliser and absorber compounds in the plastic, these are designed to reduce the rate at which the breakdown occurs. (This is why discolouration can occur at different rates on different plastics of the same device). Using ""retrobrite"" destroys these compounds, so they *will* discolour more quickly."
+pics,ff5mk7m,t1_ff5lzfo,1579600357.0,"This isn't from a show, Though it is kind of a standard joke formula which has been done to death. A good joke story should be like the life of a convict who gets the electric chair. You want a real shock at the end."
+pics,ff5glpq,t1_ff5gerw,1579591966.0,"Their post got me thinking about how some people use profile pictures of their cats or babies or cars or whatever, and I thought I'd see where I could take that narrative."
+pics,ff5gbz9,t1_ff5f84b,1579591635.0,"Jeff: ""Uh, why did you destroy the front wall of the office?""
+
+New Guy: ""I was told to prep for the meeting, so I destroyed the wall for Steve... Who are you then?""
+
+Jeff: ""I'm Jeff""
+
+New Guy: ""Jeff! You look nothing like your profile picture!""
+
+Jeff: ""My profile picture is a cat...""
+
+New Guy: ""Yes, exactly!""
+
+Jeff: ""oh... Jesus... you thought the Steve who works remotely was actually a semi-truck? I've only been here a few months myself and never met the guy but obviously he's not actually a semi-truck.""
+
+New Guy: ""Well... I mean, it's *possible* right?""
+
+Jeff:""No, he probably just likes them or drives one or something""
+
+New Guy: Oh...
+
+Suddenly another group of employees for the meeting walk up.
+
+Jeff: Hey guys, you'll never believe this- the New guy thought that we were literally our profile pictures- that's why he destroyed the front wall for Steve!
+
+""Wait... what? He thought Steve was a semi-truck?""
+
+Jeff: ""Yep...""
+
+Claire: ""Ridiculous... New Guy, you are an idiot. On the subject though, has anybody here met Steve?""
+
+Paul: ""Well he has been invited to a few meetings but just before the time he says that he can't make it. It's actually a bit annoying. He'll probably do the same today.""
+
+Suddenly a semi-truck pulls into the parking lot. ""Finally, somebody with a little consideration!"" It says, as it pulls into the destroyed front wall and pulls up to the conference table."
+Gamecube,ff5fdr2,t3_erjfzh,1579590470.0,"IMO, For stamped discs, Disc rot is really just ""latent damage"".
+
+The metallic reflective layer uses aluminum, and that will readily oxidize if it is exposed to oxygen. Scratches on the top of the disc can make it possible for oxygen to permeate through and get to the aluminum. People constantly put discs down temporarily, often label-side down to preserve their precious disc bottoms from evil scratches.... The label side, however, isn't a magical impervious shield. Those scratches we are avoiding getting on the bottom of the disc are just going on the top.
+
+Somebody wants to switch games. They get the other game, go to the gamecube, take out the disc, put it upside down nearby, put in the new game, then take the other game and put it back in the case. maybe they do this a lot. Maybe sometimes, they have it upside down on a flat surface, and they can't get a grip so they slide it across to the edge.
+
+Aside from the fact that we probably aren't going to really think about it when we do it for our own discs, many of us I presume have pre-owned discs. We cannot know how those were treated. Maybe somebody who only rarely or never puts the discs upside down, or maybe somebody who is lazy and basically has stacks of games out of their cases- upside down or no- because they couldn't be bothered to put them back in the cases. The kind that maybe knocks them over and they roll and slide all over their polyester carpet. 
+
+(For CD-R and CD-RW disc rot is more endemic to the technology used in the discs to make them recordable/rewritable)"
+funny,ff4j9sg,t3_erhljc,1579564949.0,"Now I'm a little disappointed this is not the case for ""The C++ Programming Language"". If it was I might have blown my stack, though."
+Windows10,ff4aivg,t1_ff3goil,1579559120.0,"UWP was never going to be a replacement for Win32, because UWP is built *on top* of Win32. At best, what would have happened is Win32 would have simply been swept under the rug and we'd be expected to pretend it didn't exist... basically like MS-DOS and Windows 9x. What UWP does for the most part is define subsets of the Win32 API used within the UWP API which allows other platforms (XBox, Windows Phone) to implement those subsets to allow Apps to run on different devices. Of course, in standard MS style, they've called the ability to create a Windows 10 App that can run on Windows 10 on devices that specifically support Windows 10 or a variant of Windows 10 a ""universal"" App...
+
+UWP suffers almost entirely from Microsoft's lack of commitment. UWP Apps from Microsoft are either worse than the Win32 software they are intending to replace, or they are toys which serve no realistically useful purpose. They haven't pushed forward and moved any of their *real* software over to it and as you said where they have done so (Edge and Office) they've since given up.
+
+If Even *Microsoft* lacks faith in their own platform, what wisdom is there in other software developers committing to it?"
+technology,ff2m8pl,t1_fezc5sl,1579512907.0,">Most successful phishing attacks are often delivered via a dynamic image pointer in an email, so the attack code isn’t even in the email, it’s drawn in and executed by the mail client.
+
+Pretty much all E-mail client softwares (outlook and thunderbird at least) only support cid: image URLs referring to attached content, or base64 encoded data:- images that are URLs to some other website are ignored. Even CID: content tends to skip rendering for untrusted or suspicious senders."
+Windows10,ff27j3k,t3_er7906,1579496055.0,"That notification pops up when the volume is marked dirty, which seldom actually reflects a real problem. The dirty bit is primarily useful (And was largely conceived with) internal drives since it basically gets set anytime there is an open handle, which includes all sorts of completely passive operations, like merely looking at the directory in File Explorer. For internal drives it will pretty much only be set on boot if there was some kind of power failure.
+
+The actual check appears to occur from Autoplay itself- it will check if the volume is dirty, and show that message that implies there is some actual problem if it is. It doesn't appear there is any option to control that behaviour, though. You could disable notifications from Autoplay itself. I think you should still get the standard Autoplay options."
+3DS,feyxqhp,t3_eqxkxt,1579451731.0,">In the older games, the characters werent as annoying
+
+Well that's an interesting take, Given Blue was basically designed to be an annoying douchebag and then Silver was an over-the-top jerkbag caricature."
+Windows10,feyv9bv,t1_feyl4py,1579450962.0,">But there's also tinkers who don't even know what administrator privileges are.
+
+eg. the myriad of people who constantly ask ""It is my computer why do I need permission?"" not realizing how ignorant they sound."
+Windows10,fexb23b,t3_eqb3rb,1579427954.0,That's autocomplete. It uses the recent folders MRU bag which you can clear in Folder options.
+gaming,fevvosp,t1_fetffo3,1579402007.0,For all Boomers like to dish out they've never been able to take it.
+gaming,fevv6io,t1_fetqy7w,1579401916.0,"About as old as the ""Modern WWW"" perhaps.  (Or I guess ""Modern Internet"" since ""Internet"" and ""World Wide Web"" seem to refer to the same thing now)
+
+Internet usage blasted off around the mid-90's. Jumping from 16 Million (Still more than many countries) in 1995 to over 300 million in the year 2000.
+
+Internet and WWW usage was not really ""niche"" even by 2000. While only about 6% of the population had access to it in their homes, that is still a number of people approximate to the population of the United States- It wouldn't make sense to say the number of people in the U.S is incredibly small, though!
+
+Certainly, The WWW/Internet may have been different in 2008 than it was in 2003, but that doesn't mean we can add arbitrary ""start times"" and claim that is when it began; It is perhaps more different still in 2020 than it was in 2010, too."
+pics,feuf6j0,t1_fetuxwn,1579385962.0,"it's the other things, not shown in the series that make me wonder.
+
+""Honey, I bought a pegasaurus!""
+
+""Not so loud!"""
+pics,feuevvp,t1_fetbine,1579385889.0,"LISTER: Cat?
+
+CAT: Mmm?
+
+LISTER: Ya ever see the Flintstones?
+
+CAT: Sure!
+
+LISTER: D'ya think Wilma's sexy?
+
+CAT: Wilma Flintstone?
+
+LISTER: Maybe we've been alone in deep space too long, but every time I see that body, it drives me crazy.  Is it me?
+
+CAT: Well, I think in all probability, Wilma Flintstone is the most desirable woman that ever lived.
+
+LISTER: That's good.  I thought I was goin' strange.
+
+CAT: She's incredible!
+
+LISTER: What d'ya think of Betty?
+
+CAT: Betty Rubble?  (Pause) Well, I would go with Betty... but I'd be
+  thinking of Wilma.
+
+LISTER: This is crazy.  Why are we talking about going to bed with Wilma
+  Flintstone?
+
+CAT: You're right.  We're nuts.  This is an insane conversation.
+
+LISTER: She'll never leave Fred, and we know it."
+funny,feubna7,t1_feu6z7n,1579384998.0,Who?
+worldnews,feuaw9w,t3_eqil8b,1579384845.0,"""So anyway, then I log into the Executive Branch control center- using of course my username MrKing and my password, and I have the best password. Most secure password, 1w4nn4fuckmyd4u6h73r -"""
+gaming,feu5o62,t3_eqh7ud,1579383361.0,"Esc, space bar, Enter, Numpad Enter, then mash the keyboard wildly, click wildly, then go ""I don't fucking care"" or ""I know"" and be a smartass to every piece of dialog during it."
+Windows10,fepr3rv,t3_eqcoh2,1579328448.0,I think they actually go back to NT 3.1
+Gamecube,fepmm10,t3_eqc6x0,1579324525.0,"It is probably the RCA to HDMI Adapter. Just doing a search myself and in the only results I found from people with the same issue (Blue screen) they are also using an RCA to HDMI adapter.
+
+it's possible that they only work with 240p signals."
+Gamecube,feplnic,t3_eqbpnx,1579323759.0,"The disc won't spin unless the lid is closed, which is done with a switch that is behind the disk drive on the right. If you are testing with the case off, you need to hold that down yourself."
+Gamecube,fepd5qx,t3_epvpxi,1579317598.0,"9.512623"""
+Windows10,femjpfc,t3_epup53,1579259052.0,"Some core parts of windows are not accessible even to accounts that have administrator rights. This is to prevent people that do not know what they are doing from changing the contents of those folders. Somebody who knows what they are doing is likely to have a firm grasp of Windows ACLs and Account permissions, and therefore be able to either run software until a higher level account such as the Local System Account, or alter the Access Control List for the respective folders to allow them access.
+
+This ""It's my computer, why do I need permission"" stuff was already old and tired and beating a dead horse about a week after Vista was released. If you do not understand why it is in place, you are why it is there."
+funny,femg0lu,t1_fem82ux,1579253569.0,"I think the underlying problem is the word itself. ""about"". Notice something?
+
+That's right. ou. See, for all they might claim about is speaking incorrectly, they are such poor spellers they had to create a new language from their spelling mistakes. Common among this is losing ou.
+
+So, when Americans see ""about"" it is a difficult word for them to translate to speech. it's like a unilingual French person and the ""th"" sound. it's confusing, and strange. And perhaps, a little bit scary to them, And when they see it, perhaps, for a short time, their world stops making sense. 
+
+Remember that for Americans, making fun of us Canadians for saying ""about"" or various other words wrong is just their way of coping with a flimsy house of cards that their education system built for them, all under the pretense of teaching them ""English"". They need the outlet. They live in a confusing world; one they had isolated themselves within. For years, they heard tales of unusual peoples living outside their borders, with strange words and ways of speaking. These mythologies- these legends, if you will, suddenly became more real when the Internet appeared, exposing innocent Americans to things like ""zed"", ou, and even strange, scary words like ""cheque"", and ""celsius"". And for decades they have attempted to understand the strange, frightening world around them, ans they find these astonishing differences prevalent along countries of the world. Why, there are even areas in Canada itself where many people refuse to speak English, instead using another language altogether, like Newfoundland. 
+
+If Canadians need to occasionally hear from Americans how they speak incorrectly, perhaps it is a small price to pay to help re-integrate them with the rest of humanity, providing a conduit by which they can communicate with other people, by providing interpreters capable of understanding both English and American."
+gaming,fem9x8o,t1_felwqms,1579245278.0,"The ""towel trick"" was a load of bullshit. 
+
+The issue was a result of thermal stress resulting in various chips actually failing. The towel trick, and stupid stuff like putting it in an oven, wasn't really ""fixing"" it. What was basically happening by heating them up was sort of like wiring up electrodes to a dead body to make it dance. Furthermore, the towel trick would tend to cause thermal failure in other components- meaning more failed components that would need replaced if it was ever to be properly repaired.
+
+>Or when my ipod broke all the forums recommended that I pick it up a foot off the ground and drop it on it's back on my hardwood floor. It worked. 
+
+That is just dumb. iPods aren't mysterious orthanc stones that work through some little understood magic. They may as well have said ""Try having a heart to heart with your iPod and asking it really nicely to work"" for all the technical expertise they were actually demonstrating. It actually working doesn't matter. You hit somebody hard enough with a stick and they might see stars but they aren't an astronomer."
+todayilearned,fem6ua7,t3_epsvd0,1579241838.0,perhaps when somebody gets hit by a bullet train it is classified as a gunshot wound.
+books,felqhld,t1_felb9k7,1579228464.0,"I thought it was OK, as long as you didn't go in expecting it to be particularly faithful to the book, and braced yourself for what would basically be Action Movies loosely based on it.
+
+I never watched ANY LOTR or Hobbit movies. I read the Hobbit, then I watched the Movies. They were OK for what they were, which I suppose is damning with faint praise.
+
+Just a few chapters through Return of the King now; once I finish that I'll be watching the LOTR movies."
+gifs,felpsqi,t3_eppkl1,1579227987.0,pretty impressive they strapped a VHS Camcorder to a drone
+Windows10,felfik6,t3_ephviw,1579220961.0,"""cpl"" files are actually just dll files, which means they have version information. You can copy it and rename it to .dll/.exe/.ocx and then you can get file version information on the Details Tab in properties. 
+
+appwiz.cpl = Shell Application Manager
+
+bthprops.cpl = Bluetooth Control Panel Applet
+
+desk.cpl = Desktop Settings Control Panel
+
+Firewall.cpl = Windows Defender Control Panel DLL Launching Stub
+
+hdwwiz.cpl = Add Hardware Control Panel Applet  **this is a stub that runs device manager now, but it exists as it 
+used to be (up to NT4 I think) a separate control panel for installing new devices.**
+
+inetcpl.cpl = Internet Control Panel
+
+intl.cpl = Control Panel DLL **descriptive!**
+
+irprops.cpl = Infrared Control Panel Applet
+
+joy.cpl = Game Controllers Control Panel Applet
+
+main.cpl = Mouse and keyboard Control Panel Applets 
+
+mmsys.cpl = Audio Control Panel (mmsys= Multimedia System, I think mmsys.cpl originated with Windows 3.1 with Multimedia Extensions)
+
+ncpa.cpl = Network Connection Control-Panel Stub
+
+powercfg.cpl = Power Management Configuration Control Panel Applet
+
+sysdm.cpl = System Applet for control panel.
+
+TabletPC.cpl = Tablet PC Control Panel
+
+telephon.cpl = Telephony Control Panel
+
+timedate.cpl = Time Date Control Panel Applet
+
+wscui.dll = Security and Maintenance"
+Windows10,fek84ot,t1_fejl376,1579194595.0,"Can't tell if you might be being facetious, but there is no Windows 10 Upgrade offer for Windows 3.1x. I mean, if you think about it, there is no Windows Update feature so there wouldn't really be a way to deliver it.
+
+The program in the screenshot is just a silly program ""pretending"" to be an upgrade. I made it years ago back when Microsoft was really hammering hard trying to get people to upgrade with the caption something along the lines of ""These Microsoft forced upgrades are getting out of hand!"""
+funny,fejv3md,t3_ephvm3,1579186539.0,"""I was told there would be bugs to chase"""
+nintendo,fejckj0,t3_epfemw,1579167260.0,"Nintendo sells their games for full price because people are willing to purchase the games at full price.
+
+Frankly, that's the only reason any software gets sold- the price's aren't selected based on the work that went into it, it's sold based on the amount that customers are expected to pay, and they attempt to maximize the revenue. over a particular period.
+
+Both Nintendo and other companies will occasionally drop prices for some games. (Less so Nintendo in general, Mind) But don't fool yourself into thinking that Uncharted 4 sells for $10-$20 because Sony is a Santa Claus of corporate benevolence; they had marketing reasons for selecting that price point and estimated revenue was one of those concerns, paired with others like how much it would cost for the warehouse space to hold them if they didn't sell, having to buy back stock if their Cost was too high for retailers to be able to shift stock quickly enough, etc.
+
+Nintendo considers all those same factors, but comes to a different decision. maybe they own the warehouses so there is no additional cost associated directly with overstock. Maybe Retailers are less likely to return their purchase orders for Nintendo content knowing that they tend to keep their value or even increase after some time, So Nintendo doesn't have to be concerned about the cost of buying back stock. I don't have the numbers- but the people at Nintendo making these pricing decisions do. And the price points are chosen for a reason.
+
+Hell, the price of Doom on the Switch isn't even really Nintendo's decision. Bethesda apparently came to the same conclusion as Nintendo and decided people would pay more just because it was on Nintendo hardware. Fact is, they were *right* because loads of people bought the game.
+
+For the most part people who have Nintendo consoles and games are willing to spend more on their games. Whether that is a wise, or justified decision is a completely separate matter, of course, but Nintendo knows this and as a corporation they will price their product accordingly."
+AskReddit,fejb3n5,t1_fejaolx,1579165052.0,"I'd argue that the risk with VBA is primarily with malicious VBA in files that users download and open, particularly given in-house VBA stuff might require changing or lowering macro security settings.
+
+It is unlikely but possible that the code written in VBA would get exploited via some external malicious actor though. Certainly if air-gapped."
+thinkpad,feja8uu,t3_eoz29r,1579163824.0,"I had the apparently very rare 755CDV. Pentium 75 system with PC-DOS 7 and Windows 3.1. The fancy feature was that the back of the screen could be taken off, and it could then be used on a projector. had the same Dock I as well I think.
+
+Sadly past tense. I left the battery in as I didn't know better and after a few years it leaked and destroyed the system board. It still ""booted"" but would generally have random errors. Just booting a clean MS-DOS floppy would result in ""Divide Error"" for example."
+funny,fej24hp,t3_ep80vb,1579154099.0,"""Babe come back, I'm a stormtrooper so I miss you even when you are close"""
+sports,feipl28,t1_feiovk8,1579144053.0,It's coconuts now I think.
+Gamecube,feihq68,t3_ep8ch7,1579138799.0,"Certain streaming content can be affected. It's been slowly improving over time. You can find the compatibility list [here](https://www.gc-forever.com/wiki/index.php?title=Swiss/Compatibility_List). That will give you a good idea what to expect if you are looking at certain games. Some do contain glitches and some games won't boot at all, but most games work correctly.
+
+Using a GCLoader or other ODE which replaces the optical drive still uses flash memory, mind you, but doesn't have the same problems both because the optical drive has a faster bus but also because an ODE ""appears"" like a disk drive, whereas booting an ISO I believe requires Swiss to virtualize the ISO as the disk drive in some manner, which is where some problems occur."
+Games,feigu27,t1_fehwp2o,1579138210.0,"I've never really liked his videos much for much the same reason, as well as a lack of technical expertise, which I've come to kind of abhor among ""gaming"" youtubers. However I think his skillset was largely in the shooting and videography. Even if the skits were juvenile, stupid, and IMO detracted from what the video was about, they were very well executed (for the time if nothing else!). That I find to be the major difference between him and the many copycats that appeared."
+funny,feic7fv,t1_fei3i44,1579135097.0,"""hah, why do you have a doll in your passenger seat?""
+
+""Oh, haha, I only have it for the carpool lane""
+
+""What is the lube for?""
+
+""I refuse to answer any more questions"""
+Windows10,fei58f1,t1_fei0r68,1579130559.0,Yeah would be *much* better if when you tried to establish a connection it just crashed.
+Windows10,fei4zx3,t1_fei0ubb,1579130411.0,"Well, Windows 3.x didn't have a close button. It had Minimize and Maximize/Restore on the right, and the Control Box button on the left (As you can see, I also still haven't upgraded)
+
+https://i.imgur.com/HpX3HO5.png
+
+Click it and you get the System Menu, same as today. Double-clicking was a ""shortcut"" for closing basically, since there was no close button."
+csharp,fehxb85,t1_fehumop,1579125718.0,"> In python you'd make the program into a function then call itself
+
+No, you'd use a while loop. using recursion as a control structure is not usually a great idea and is best avoided."
+bestof,fehvtet,t1_fehcqd3,1579124871.0,"I'm weird as I don't really use subscriptions at all and just bounce around to different subs. Don't really like having it all mixed together.
+
+Of course I also have old reddit forced permanently via browser add-ons, and have all subreddit CSS disabled."
+Windows10,fehm260,t1_fegx6kv,1579119296.0,"> How is it Microsoft's fault that people exploit their OS and target people?
+
+The idea that end-user consumer PCs become ""zombies"" or get infected because the OS has stopped receiving security updates is nonsense. Security vulnerabilities are largely used in targeted attacks, and only occasionally used as part of any ""in the wild"" malware infection vector; and even then, it's never the primary vector, Because it's not really worth that effort from the perspective of a malware author to use it as a primary infection vector. Why go to the trouble to exploit security vulnerabilities? Like, sure, you *could* spend ages researching vulnerabilities and implementing exploits to utilize them as an attack vector- or you can just call your malware ""fun screensaver.exe"" and let people infect themselves.
+
+Over the last few decades most malware has gone from trying to utilize weaknesses in OS security to infect a system to exploiting users. Users are a lot easier to trick.
+
+I mean, fuck- I've seen people post arbitrary executables claiming it installs a ""new theme"". People say ""Oh it is flagged by my AV"" and the rando who posts it can just say ""oh that is a false positive"" and they'll disable their AV and run the program.
+
+When there are countless individuals like *that* running around on the Internet, nobody needs exploits."
+SubredditDrama,fegaq7o,t1_feetv41,1579085262.0,I read that as Brian and thought you were referring to a failed Charlie's Angel's spinoff.
+Games,feg75mb,t1_fedhvsr,1579080182.0,"Yeah example code always assumes stuff is OK. One thing I think you should avoid doing is making too many assumptions about database stuff.
+
+""oh, This is a Balance Forward customer, so we can assume it doesn't have an Open Item record yet"". No you can't. ""oh, this customer is in the United States so we'll only allocate 5 characters and then blindly copy the full contents of the Zip Code field into it because it will *never* be longer than 5 characters."" Guess again, motherfucker, because aside from data corruption- not to mention exploits or something, in 1989 that was field 7 in an ISAM table, which could also store the Customers Mother's Maiden Name if System flag 5668 was set to ""CC8D"". and we support importing data so the modern data could easily bring that forward. ""OK this field is an index into this other table, and we can always assume that the record exists"" Nope."
+Windows10,feg5gn9,t3_eou3f1,1579077810.0,"Having the latest up to date security patches is important. **For businesses and corporate environments**- (And especially servers, that goes without saying).
+
+But for Consumer systems it's largely nonconsequential.
+
+1. Very few of the exploits are actually applicable to consumer systems. Privilege escalation exploits in RDP sound scary until you consider RDP Server isn't in Windows 10 Home and even on pro, that means you've got to basically port forward RDP to the wider internet and create a limited user account with a weak password.
+
+2. Those that do apply to consumer systems are hardly worth the trouble to those who create malware.
+
+Why go to all the trouble to write code exploiting security vulnerabilities that may or may not work based on particular configurations or could be patched when instead of focusing on vulnerable *systems* you can instead focus on vulnerable *users*. Too many people can be easily tricked to run executables, disable their AV, and even run it as admin and then if appears to do nothing they go ""oh well!"" and ignorantly go about their business as if programs doing nothing is something totally expected. From the perspective of malware authors, that would be analogous to an attacking army coming up with a sophisticated sapping technique to workaround the defenses of a castle, when you could just walk up to the front gate with your army and say you may look like an army but you are just a false positive, btw give us the key to the keep"" and they do. 
+
+>but don’t forget that you are putting the rest of the online community at risk by potentially giving criminals a platform – in the form of your compromised Windows 7 PC
+
+Not really relevant. Security exploits hardly change this simply because they aren't the most common infection vector. Trojans are, across the board. People largely infect their own PCs; they run some shady program, it does nothing, and they forget about it; months later their PC is acting weird, but because they are missing a security patch they, or some tech decides that must be how they got infected. It's fucking ridiculous. Fact is the OS you are using and the state of it's security patches is less important on a Home, end user PC to security than how the user uses it as well as their technical competence; But we, in the sense of the technology community at large, seem to be doing very little to fix this absolute dearth in education. 
+
+
+It seems to me that there are many people who have a lot to gain by keeping end-users scared about security and the threat of ""hackers"" getting into their PC. Software Firewall and AV companies in particular, as enterprise deployments usually aren't enough to meet their bloated payroll.
+
+I started thinking about this back in 2006. Win32.Virut was able to utilize vulnerabilities in every single AV vendor's scanning engine which allowed arbitrary code execution that allowed it to, by merely being scanned, infect the AV software. From there it could basically own the system because it had *FUCKING RING 0 ACCESS* to the god damned system. And consumers wouldn't even know because the infected AV would report a clean bill of health.
+
+The AV vendors silently patched the problem. There was no ""security advisory"" issued by any of them; none that was made widely public.
+
+I wonder why that might be? I'm sure it is only a coincidence that such an announcement that the fundamental security software that frightened users have come to depend upon to protect them from the scarey internet boogeymen being themselves almost trivially exploited and used by those same boogeymen would result in a massive loss of trust of AV and security software in general.
+
+This same ""upgrade to a new version or a scarey boogeyman will get you"" narrative was all over the place as April 2014 approached. Did April 2014 spell ""Doomsday"" for Windows XP? Did systems start to get unavoidably infected after getting connected to the Internet as scary hacker boogeymen somehow compromised Consumer XP systems through conventional NAT routers? Nope. I still have some systems running Windows XP (Pentium 4 and a Pentium M-based system) . They aren't infected despite being connected to the Internet."
+n64,feg33da,t3_eou9kk,1579074783.0,"something labelled ""AV out"" on the TV would be an output *FROM* the TV."
+nintendo,feg27hk,t3_eofitj,1579073718.0,"Mario Maker 2 showed me my Right joy con was drifting on release day. Was super confused because at first I thought it was the left joy con.
+
+After taking it apart (the joystick module itself, not just the joy con) and attempting to fix it I just ended up buying a bunch of replacement joysticks to use and slotting one in."
+Gamecube,feg1xqs,t1_fefzx14,1579073394.0,"That's actually not what the potentiometer does. I'm not really sure where that piece of misinfo came from but obviously people cannot really be blamed for it since it is almost ""common knowledge""- (alongside the idiotic idea that bromine is responsible for ABS plastic yellowing)
+
+The potentiometer is actually well known to those who repair electronics that involve a laser assembly (be they consoles, CD Players DVD players, etc) and it is a Signal potentiometer.
+
+It controls the level of current from the photodiode that is considered a ""cutoff"" between a pit and a land with respect to the decoding circuitry.
+
+The reason it often needs to be adjusted is because over time the Lasing output light becomes less intense due to age of the components on the laser assembly. Adjusting the signal potentiometer adjusts the cutoff to match with the actual lasing output of the laser assembly."
+csharp,fefxem3,t3_eoug32,1579068376.0,"It's possible to learn and use more than one programming language, so the question seems kind of redundant. IMO learning a new programming language can only enrich your understanding of programming as a whole, so I think not having enough time is the only excuse one can use to argue against learning any programming language. And even then, it's more of an excuse than a reason."
+videos,fefrwer,t1_fefpogj,1579063390.0,"""Alright, so I'm going to have to have you take a dive in the 3rd round. Make it look good. Lots of money riding on this one""
+
+...
+
+""Sir this is a Wendy's"""
+n64,fefrk7g,t1_fefd3sz,1579063125.0,"> i think i was imagining some kind of specific legislation against repros
+
+Aside from the software copyright laws,  It would also fall under counterfeiting. ""reproduction"" is really just some silly artisanal term people started to apply to what is really a counterfeit product.
+
+There are exceptions where the original rights holder gave permission- Retro-bit sells legitimate reproductions of games like R-Type which are created under license from the rights holder for example."
+SubredditDrama,fefqsfa,t1_fefgha5,1579062530.0,"Youtubers certainly put effort into videos.
+
+Then they give them to youtube, give youtube a license to use the video, and then hope youtube gives them money, while also expecting youtube to act like their agent and advertise their videos for them via ""recommended"" videos.
+
+It's kind of silly. It's like a painter mailing paintings to an art exhibition and just kind of hoping to be compensated, then getting mad when the art exhibition changes it's rules or art laws change and the art exhibition is now giving them less or not showing some of their art.
+
+But, Painters would adjust. The artists could make deals and start painting sponsored content into their paintings for example and create ""painteron"" accounts so art lovers can give them money for faster access to their paintings. Basically avoid relying on the art exhibition company to throw money at them just because they've done so for years."
+Windows10,fefel55,t1_feeygfr,1579054665.0,">  It was the first to use Javascript, CSS, Java applets, and possibly Flash as well
+
+Javascript -No. Netscape had Livescript and Javascript a year before IE; makes sense given they created it. And impressive in the sense that it means that in less than a year Microsoft had reverse engineered it to create ""JScript"" for IE3.
+
+>CSS
+
+IE3 was the first major browser that had CSS support, though it was incredibly limited. Interestingly, IE5 for the Macintosh was the first browser to have nearly complete CSS 1 support.
+
+>Java applets
+
+Java Applets were first usable in Netscape Navigator 2.0 through the Java Applet NPAPI plugin, about a year before IE3 which added support for Java Applets.
+
+>and possibly Flash as well
+
+Same as Java Applets. Netscape Navigator had a Plugin API so it got Shockwave Flash capabilities before IE, for which there was no way for Macromedia to add support to the browser until IE3 was able to run ActiveX Controls."
+pics,fecupe5,t1_fect13l,1578985355.0,I can't disagree that 40 degrees below isn't normal but I don't think we can blame OP's bad door gasket for the weather
+pics,fecua9t,t1_fectv09,1578984879.0,"I think Americans tell themselves this to feel better, but the bad news is that Americans already pay more taxes per-capita, than any other country in the world towards their health-care system."
+AskReddit,fecqlmb,t1_fecnk3k,1578980999.0,You can thank his girlfriend for the smell
+videos,fecod9v,t1_fec5eik,1578979041.0,"""My Wife used to be a child and that disgusts me"""
+videos,feco8jb,t1_febehgz,1578978933.0,"Lucky for him, Chris Hansen's methods will probably get him a free pass, like it did for most of the other alleged predators he caught. Wonderful."
+videos,feco268,t1_febor1t,1578978792.0,"""Oh my god! I Just put two and two together!""
+
+""heh, good""
+
+""There must be a pedophile in my house!"""
+videos,fecnzkl,t1_fecikat,1578978733.0,"Chris Hansen himself always came off as, perhaps ironically, super creepy to me to be honest. If I didn't pay attention I'd probably have been confused why they keep catching the same person each time."
+Windows10,feclbsy,t1_fecjb67,1578976739.0,"the command key contents between open and openas are identical for me, and as I described.
+
+The file is legitimate (or at least there is a legitimate openwith.exe at that location under normal circumstances!) but I don't know what or why might change it to use the 32-bit version, nor why that would trigger AV software."
+Windows10,fech64y,t3_eoeo4w,1578973819.0,"default is %SystemRoot%\system32\OpenWith.exe ""%1""
+
+and there is a ""DelegateExecute"" with value ""{e44e9428-bdbc-4987-a099-40dc8fd255e7}"".
+
+It may be flagging the second value if it is different, as it could point at a malicious COM DLL."
+gaming,febvmd6,t1_feblviy,1578963241.0,"We know it is not from the console itself, since there is literally nothing below there that would get hot. It's empty space and the back of the blu-ray drive. So it's not from the XBox itself.
+
+What delivers high heat to a localized space very quickly? A Blow torch. What causes obvious bubbling when used to heat a localized area of ABS plastic very quickly? A blow torch. What can we hear in the background of the video? the sound of a blow torch. Who had a blow torch at the time the video was made? TechRax, the youtuber who created the video this was screenshot from. Who literally says ""In this experiment, I heated up the top part of my Xbox One and quickly placed an egg to see if anything would occur."" I think I don't need to say what I think he ""heated up the top part"" with."
+gaming,feblq1f,t1_feb8dy3,1578960093.0,That is bubbling from the use of a blow torch.
+gaming,feblngv,t3_eobfa8,1578960065.0,"This is from a TechRax video in 2013 where he takes a blow-torch to an XBox One then drops an egg on it.
+
+There is nothing below that area of the case that would realistically run hot anyway. It's mostly empty space."
+AskReddit,feb5aql,t3_eo83cx,1578955565.0,"I've kind of thought about this on occasion. Mostly in the context of, what if somebody I was dating revealed this? Would I be OK with it? Fact is, I'm not really sure. However I cannot imagine reacting violently, which is something that seems to occur a lot for this. One thing I've done is sort of do a ""thought experiment"" to try my best to empathize. Best way I've come up with is to just imagine if one day I woke up a woman and everybody treated me like one and I was expected to follow all the ""rules"" about being one, But I was still ""me"". It might be interesting for a while but eventually I'd just be like ""OK, can I be me again?""- and might try to ""feel myself"" again via any number of approaches. This is basically how I imagine trans individuals feel all the time.
+
+Also, given given all the negative feelings some people have towards them, I can understand keeping that information to themselves to try to avoid getting hurt.
+
+And, really, for the first few dates, aren't we all kind of lying to ingratiate ourselves towards the other, at least to some degree? And a lot of people hide ""deal-breaker"" stuff specifically so it can come up later. But, a lot of those aren't exactly the sort of thing you just drop into casual conversation.
+
+Interestingly, coming up with other massive ""deal-breakers"" and This is one of the only ones I can think up off the top of my head where people have reacted violently to the revelation. And it doesn't make sense to bring it up on a first date. Some might think it's reasonable for a first date to start with ""Hi, I'm Sally but I used to be Patrick and I have a penis"" so that the other party can go ""Ahh sorry this won't work"", but at the same time I somehow doubt they extend this to other similar situations. You wouldn't expect people to start a first date with ""Hi, I'm Veronica, and this is my colostomy bag"" or ""Hello, I'm Steve, I have a micropenis the size of a clitoris"" or ""Nice to meet you, I'm Sheri, I have a birth defect which means my vagina is sealed up and unusable. Nice weather we are having.""
+
+And those are the sorts of things people will quite reasonably, keep to themselves. *entirely because* they can be deal breakers. And sometimes they will be. But, I've never heard of somebody being murdered because their colostomy bag was discovered ""in the bedroom"" for the first time.
+
+Similar with the other scenarios. Steve might get ""Sorry Steve but I'm not gay and I only date men with penises""... (or maybe ""Sorry Steve I am gay and only date men with penises"" I guess) from somebody on a first date but if they don't reveal their terribly small dick until later, then it's far less likely to be a deal breaker, And again I've not heard ""He never told me he had a micropenis"" being used as a justification for post-disrobal Assault or Murder. Generally speaking, People are far more invested in a relationship later on, and things that could have had them give up or ghost earlier, they are more likely to work towards keeping it intact later, and maybe even rethink things that they might otherwise not have.
+
+And that is probably the same fundamental premise behind Trans individuals not revealing it, because like any number of other uncomfortable facts that can be deal breakers, it never seems quite the right time. ""Things are going so well, and maybe this isn't the best time to talk about my tiny micropenis"". ""3rd date? Well, I really should tell him that my vagina is completely unusable, but we are having such a nice time I don't want to ruin it"" and before you know it, and without even thinking, you are in the bedroom. ""What is this? A colostomy bag?"" ""I Was going to tell you I swear""
+
+So we have to ask ourselves, what makes the situation different with trans individuals? The way I figure it, there isn't a sort of ""denial"" movement trying to basically wipe them from existence. Nobody goes ""There is only one asshole!"" and talking about the biological truths of how Stoma's are mutilation.  A man doesn't learn a woman has a genital defect that makes her vagina unusable and start beating the shit out of her and possibly murdering her for ""tricking"" him into thinking she had a usable one.
+
+And yet, when some men learn their partners are actually trans, for some reason, they assault or even murder them. Maybe trans people decide that their partner will be OK with it, probably. And convince themselves it's not a big deal, because they don't want to lose them? I can at least understand that. And before you know it there isn't really any ""lead time"" left. to try to bring it up."
+television,fe6t2ff,t1_fe6sk46,1578904096.0,"""funny you say destroyed, the other day I destroyed this blonde with the biggest...""
+
+""AL!"""
+Windows10,fe6s2q6,t3_eo13da,1578902739.0,"Not with Windows 10 itself that I'm aware, it was changed, for some reason, in an update. However Minitool partition Wizard is one program that can do it. (or at least it used to be able to)."
+SubredditDrama,fe6prqp,t3_eo04x0,1578899726.0,"JusticeServed when a woman gets the shit beaten out of her by a massive dude for accidentally throwing yogurt at him:
+
+""Serves her right! Totally disrespectful""
+
+JusticeServed when an obvious anti-semite is setting a synagogue on fire and is called a nazi:
+
+""Well now hold on just a second partner..."""
+videos,fe6oqjl,t1_fe658jt,1578898479.0,"I got to 7 golf balls before I passed out from the pain. Don't even want to try the gummy bears.
+
+Wait, can I just put them in the toilet directly?"
+gaming,fe6k5hv,t3_enuk1y,1578893549.0,Unfortunately what you have there is a watered-down clone.
+todayilearned,fe6jt4l,t1_fe4nna5,1578893214.0,"""Does anybody else smell cooked testicle?"""
+todayilearned,fe6jpdb,t3_env1f2,1578893113.0,"Maybe they are like old people, the external canal started to close off and they just started to crow louder so they could hear it."

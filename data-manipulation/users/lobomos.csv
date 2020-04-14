@@ -1,0 +1,109 @@
+subreddit,self ID,parent ID,time,text
+seduction,ffkomvm,t1_ffkjm76,1580026224.0,If the club interests you then sure join... you should just say hi and have fun. You’re basically in the best environment you can possibly be in.
+seduction,ffkj466,t3_eu3olq,1580023609.0,Go to a bar or really any public place... tinder. It doesn’t get much easier than college.
+BimboCumsluts,ffiox4y,t1_ffin32k,1579979083.0,You can:  [https://bookamyanderssen.com/mobile/index.php?page=2](https://bookamyanderssen.com/mobile/index.php?page=2)
+AskReddit,ff7sxmg,t3_erzmpz,1579657586.0,Addiction
+AskComputerScience,ff5ge25,t3_erlwve,1579591703.0,This may help; https://youtu.be/sFT9tGL54sI
+videos,ff5fz03,t3_ernlpo,1579591191.0,Fuck this streamer and all the other greedy ass ones like her...
+fasting,ff5fgz3,t3_erq6dx,1579590575.0,"You look like a new person, nice job"
+osx,ff5abw3,t3_erq0qk,1579585075.0,"I still would suspect the cables, are they identical? Are you sure they're high end and the proper standard? Anyone can charge you 'high-end' prices but still sell you out of spec cables. They don't have any visible differences or labeling generally. Amazon basics are cheap and not 'high-end' but they are the proper standard and fixed mine when it had these issues. Barring that you may need an active adapter to drive them.
+
+If you swap the cords/connections from the one that runs at 60hz to the one that runs at 30hz and vice versa, does that swap the refresh rates between them?
+
+If it's an option, I would probably just swap to displayport cables personally."
+worldnews,ff59g0d,t1_ff4ynif,1579584241.0,This guy really needs to be voted out...
+funny,ff58b60,t3_erhljc,1579583202.0,How did the proof reader not get a stack overflow??
+aww,ff2vmuu,t1_ff2tg6b,1579525894.0,I'd imagine it is dependent on how satiated it is.
+boltedontits,ff26u9t,t3_er4xqo,1579495473.0,2k and you can play with it all
+AskComputerScience,ff14dz6,t3_er33e8,1579475111.0,"For 4, I think you would need to use breadth/depth-first search. This may not be possible though on larger boards. Could also use dynamic programming and split it down into easier sub-problems that you could piece together. This link explains possible algorithms:  [https://www.hackerearth.com/practice/algorithms/graphs/hamiltonian-path/tutorial/](https://www.hackerearth.com/practice/algorithms/graphs/hamiltonian-path/tutorial/)
+
+In your example problem on the 10x10 grid for example: starting at 1,1 you know that you have to end at 2, 100, or 8 so those would be where you would check from next. So from 2 you would get 3, 82, 7, 59 as your next valid points to check from. Any time you jump off the board or visit something you've already visited, you can prune that section and move on to your next search point.
+
+For 5, I think this would also be dynamic programming.  I would do something like this. Check for a linear goal, if you have one then you're done. If not keep count of the least number of players in your way. From here, we want to split the left and right sides at the middle. You're going to check from the middle of each side towards the goal so you only have to account for a single bounce.  Then we want to split it again and repeat but stopping where we previously started.  Then keep working your way back until you hit a gap where your bounces will always hit a player. I don't really know what the math on that would be though."
+AskComputerScience,fei66fc,t3_ep8g1t,1579131156.0,Might wanna look up a tutorial on installing the c++ compiler for MacOS. It shouldn’t be too bad and you won’t have to spend money on a new computer.
+celebnsfw,fedk2dt,t1_fedicaf,1579013498.0,Ya she did a playboy shoot
+JerkOffToCelebs,fe965gz,t3_eo3xfg,1578934697.0,She needs to take up acting in her porns :/
+hopelesssofrantic,fe5c6di,t3_enugsp,1578867582.0,Gorgeous
+aww,fdrrkj5,t3_empvyd,1578688675.0,such a cute little pupper!
+u_lovetinkerbell,fdqsukg,t3_emr22a,1578674143.0,those are perfect
+technology,fdm0tvi,t1_fdkbmiq,1578537121.0,You forgot to mention Obama and the server.
+JerkOffToCelebs,fdkwj1a,t3_eluu0o,1578512617.0,God damn
+todayilearned,fdj8i46,t1_fdj2its,1578461487.0,Wouldn't be surprised if they handcuffed themselves and kept the mess clean by putting themselves in suitcase and sealing it from the outside too.
+u_lovetinkerbell,fdi7moe,t3_elgfnr,1578437181.0,I’d love to help out
+AskComputerScience,fdetnwg,t3_el0ibc,1578346370.0,Just watch the videos on your computer unless you have an actual need for the iPad... or just want to spend money.
+learnpython,fd18nud,t3_ejtxv3,1578128635.0,"Dynamic programming isn’t going to be a good spot to start if you don’t know how to do this, you should do the beginning track first."
+getdisciplined,fd129ur,t1_fd10bbc,1578126792.0,I use those and a small notebook I carry daily.
+keto,fcz4cak,t3_ejfltt,1578093403.0,"They make really good stuff, my only complaint is the consistency as some bottle can be extremely watery."
+stopdrinking,fcz4831,t1_fcz3ac6,1578093335.0,Wow well then you are rather lucky. Good job.
+u_lovetinkerbell,fcz3gfm,t3_ejn4o0,1578092891.0,Those are fantastic... a cast should be made for museums.
+1000ccplus,fcz3b9g,t3_ejn7a4,1578092807.0,More like 50 cal
+worldnews,fcz36fx,t3_ejk2va,1578092731.0,So tomorrow will Pompeo make a statement retracting this statement or will he tell them to just deal with it?
+funny,fcz2zpe,t1_fcyqjqn,1578092622.0,I hope you’re a small guy.
+stopdrinking,fcz2sqo,t1_fcz206c,1578092510.0,"Well good job, friends didn’t constantly ask why you wouldn’t “just have one”?"
+worldnews,fcz1zv7,t1_fcyuuzo,1578092060.0,Always gotta use /s
+AskComputerScience,fcyysi5,t1_fcytla9,1578090078.0,1 million objects is still a pretty small amount to sort. You also would need to run many sorts to average them out over time not just a one off large dataset test.
+stopdrinking,fcynirq,t3_ejijgu,1578083364.0,So how did it go?
+aww,fcynb11,t1_fcyn2pp,1578083252.0,They must be looking to kill me then if they’re that cheap in Australia.
+aww,fcyn3cw,t3_ejctpk,1578083127.0,Still waiting for the mom cat to slap the shit out of the kitten
+DecidingToBeBetter,fcymzdx,t1_fcxyj89,1578083060.0,Interesting term for hoes...
+AdviceAnimals,fcycj84,t3_ejg1qa,1578078030.0,Visit my city and the joke will be on you because they just run the red lights
+pics,fcycdvd,t3_ejf56w,1578077988.0,Now where is Godzilla when you need him?
+BiggerThanYouThought,fcycc08,t3_eji0mr,1578077958.0,Damn those are really deceptive
+BiggerThanYouThought,fcv22ev,t1_fcuxfev,1577993029.0,They’re huge and she’s tiny... it’s crazy
+amazingtits,fcusdhf,t1_fcul9iz,1577987551.0,She fists her asshole in her group shows... it compliments it nicely
+hopelesssofrantic,fcujml1,t3_eg110x,1577982501.0,Would be great to be your boyfriend for one night or even 30 minutes.
+AskReddit,fcuji1g,t3_eixc75,1577982418.0,Had sex some because of it... nothing long term though
+osx,fct6tmm,t3_eis690,1577934392.0,This may help otherwise each app will have to be set up in preferences https://www.lifewire.com/move-macs-home-folder-new-location-2260157
+AskComputerScience,fct3nt5,t3_eirmpd,1577932038.0,Use an actual text editor and not notepad may allow you to but I’m not sure why you would even want to do this
+AskComputerScience,fcsx047,t1_fcsvkk2,1577927242.0,I would think there should be something in the event viewer logs. https://kb.blackbaud.com/articles/Article/75433
+AskComputerScience,fcsvb1m,t3_eiq3ke,1577926019.0,Do you get any logging or error messages? Try running it in compatibility mode? https://www.groovypost.com/howto/run-old-software-windows-10-compatibility-mode/
+AskComputerScience,fcsrj04,t3_ein6zn,1577923283.0,"It’s only $15, if you’re actually going to read them it probably isn’t a bad deal. Personally though, I haven’t read them."
+pics,fcqt75g,t3_eigav4,1577891826.0,Is this a haboob or pollution?
+JerkOffToCelebs,fcqanlg,t1_fcpvlqr,1577882258.0,I didn't think she put nudes on there but I don't have it.
+technology,fcpgw2g,t1_fcpaysk,1577863490.0,"Can see the tweets now, “she gave the most perfect speech so many people but not as many people as my most great speech.”"
+technology,fcpgs59,t1_fcolkk2,1577863347.0,She will tell them to sell subscription plans to get more subscriptions.
+JerkOffToCelebs,fcpf1vm,t1_fcpekxo,1577861170.0,They have to exist
+1000ccplus,fconijw,t3_ei9v1i,1577836674.0,Those don’t seem that big??
+celebnsfw,fco1prz,t3_ei5dis,1577822487.0,More?
+u_lovetinkerbell,fco17b0,t3_ei7n52,1577822234.0,"Wouldn’t even make it to the party, would have to stop on side of road and give show to passers by"
+u_lovetinkerbell,fcnhavb,t1_fcn7aff,1577811696.0,"I believe I could give you a thick coating... would need your help to work it out though, probably point the tip too"
+learnpython,fcn43u9,t3_eh50b6,1577802724.0,"Sorry, I had a flight home. Did you happen to get this figured out or help? If not, I will look into it more after I get home from work."
+u_lovetinkerbell,fcn2wl2,t3_ehtln9,1577801764.0,Good lord... perfect titties
+celebnsfw,fcn2tzt,t3_ei31tk,1577801703.0,Wish there was more like this.
+technology,fcn2r5i,t3_ehmy7q,1577801639.0,Never on more than just broadband too.
+RoomPorn,fcn2me2,t1_fcmjivi,1577801531.0,To employ custom airplane cabinet makers!
+RoomPorn,fcn2kv2,t1_fcmgl35,1577801495.0,How do I do this? Student loans are less than a private jet.
+GolemSexy,fckjiyj,t1_fcjnykp,1577726707.0,She can get rowdy in her group shows... although it’s really random whether she does anything at all. I just got lucky once... she frequently puts a whole hitachi up in her pussy.
+cscareerquestions,fcjgce6,t1_fcjc39o,1577686576.0,Nope... if you aren’t attractive in that first picture most girls won’t even bother viewing anything else as every right swipe for them will be a match.
+GolemSexy,fcj4aoj,t1_fcgol9y,1577676921.0,She fisted her ass in a group show once
+GolemSexy,fcj48ky,t1_fcganrp,1577676878.0,Most I’ve seen was her fisting her ass.
+learnpython,fcenmta,t3_eh50b6,1577622087.0,What email provider are you using?
+learnpython,fcee4p3,t3_eh50b6,1577619642.0,Need your code to even begin answering this.
+seduction,fcedm8z,t1_fcectcn,1577619476.0,Thanks!
+seduction,fcecoqy,t3_egrydq,1577619258.0,"In my experience, the girl having guy friends isn’t so much a red flag but the competition can either make or break any relationship you are trying to have. Since these guys aren’t generally able to have any type of hook up with the girl they will push her towards their friends that possibly could and will nitpick anything about you that they possibly can to help out. Some of them may also turn into your friends and in these cases you will get the benefit of a stronger relationship. In the worst cases, the orbiter and the girl may have actually hooked up once and they will plant every possible seed of doubt to get another chance"
+seduction,fcea2go,t3_eh4drt,1577618462.0,Practice. Just need to get comfortable with doing it like most things in life.
+celebnsfw,fce9tg1,t3_eh463s,1577618395.0,Where is nsfw part?
+seduction,fce9os2,t3_eh4nua,1577618354.0,"No, if you’re not very attractive or well known for some reason then it’s pretty much a waste of time."
+funny,fce7vrh,t1_fcdtgzd,1577617795.0,They’re both there to do both...
+OnOffCelebs,fcb9zzc,t3_egyp7i,1577584302.0,Best part of that movie
+thediggitydankannals,fcb8wck,t3_egy2g3,1577583891.0,Damn I miss her
+u_lovetinkerbell,fca6ib1,t3_egux2k,1577563775.0,Hands raised. Dick too.
+celebnsfw,fca6e1h,t1_fca61ba,1577563723.0,This is what I thought.
+u_lovetinkerbell,fca1ipb,t3_egutl0,1577561561.0,"I’ll drive, you strip and suck."
+u_lovetinkerbell,fc9zks4,t3_egun4q,1577560570.0,More than anything!
+celebnsfw,fc9vc3i,t3_egtrx6,1577558747.0,So they really fucked?
+JerkOffToCelebs,fc9b4vc,t3_egrjkw,1577549944.0,She made me wish I could be a basketball player for a while.
+BoltedOnMaxed,fc9azmx,t3_egnqj0,1577549878.0,"“I’m here to work out, not get stared at”"
+JerkOffToCelebs,fc9a0vn,t3_egoa6n,1577549461.0,She would be such a good stripper
+celebnsfw,fc99w97,t3_egqkpp,1577549400.0,This girl is perfect
+1000ccplus,fc9994c,t3_egrcai,1577549084.0,Who?
+u_lovetinkerbell,fc993pe,t1_fc8n3ac,1577549003.0,Well thanks!
+Cooking,fc98z60,t1_fc8416m,1577548945.0,Thanks for this info!
+Cooking,fc7n15h,t1_fc7m7kn,1577512872.0,What exactly would the effect of subbing water for milk be on bread? Less fluff?
+WTF,fc7mu5y,t3_egmnrg,1577512667.0,This is awesome!
+pics,fc7mr3i,t3_egm6uu,1577512576.0,"Sorry friend, I’m sure you gave lucky a wonderful life and he will be forever free in that final dog park in the sky waiting to see you again."
+seduction,fc7m3c8,t1_fc7lwho,1577511907.0,There is probably an in app purchase for that
+celebnsfw,fc7ly9i,t1_fc7llnc,1577511765.0,I think just stuff like this and like topless with her back to the camera and what not.
+AskComputerScience,fc7lw7v,t3_egmlxa,1577511708.0,"I tried searching for an answer as this is sort of interesting but I couldn’t find any concrete info on how this is being done. NetTV appears to be an actual company that implements this so however they’re doing it is probably proprietary but: I don’t think the bandwidth packages they offer would even come close to being able to handle all of the channel data being streamed all of the time, it would be feasible to only provide a stream for the channel you have requested and use your actual internet connection to get the data, you could test for this by maxing our bandwidth on computer and seeing if tv signal degrades. I’d imagine you have to register your TVs since they have a cap on how many you can have, in that case, that device could have its own dedicated bandwidth. If they are actually using fiber I believe you can also push multiple streams over a single fiber cable using different wavelengths of light, this probably could actually handle all of the channel data but in that case I’d expect higher bandwidth internet too. These are just my speculation on possibilities though and a real answer should be interesting."
+keto,fc77ejd,t3_egjpms,1577499524.0,"That’s a ton of results for only 6 months, damn."
+stopdrinking,fc74iht,t3_egfa1k,1577497317.0,My favorite book series.

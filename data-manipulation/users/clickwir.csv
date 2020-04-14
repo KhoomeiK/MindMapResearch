@@ -1,0 +1,237 @@
+subreddit,self ID,parent ID,time,text
+pihole,ffhkscy,t1_ffg5bic,1579939893.0,Ublock Origin is much better than adblock.
+Proxmox,ffhe4en,t1_ffgmj43,1579931536.0,"Oh maybe I misread that. You did a passthrough of the drives directly into the VM? Yea that's good. 
+
+I thought you did an NFS share from Proxmox into the VM and then NFS share out again from the VM."
+Proxmox,ffgf8br,t3_et3x63,1579904900.0,"What you should do is give OMV more storage and share that out. 
+
+Your hypervisor should not really be sharing space. VMs should. 
+
+It's a cleaner and more versatile management method."
+funny,ffg8bvf,t3_etf9to,1579900640.0,"The goal of the poll isn't to find out how many people use it. 
+
+The goal is to make sure you've heard of it."
+windows,fffhntf,t3_et7ewo,1579884174.0,FU Microsoft.
+DataHoarder,ffekl1o,t3_et0pnj,1579851940.0,"You might be having a hard time because what you described, isn't backup. It's some kind of sync on condition, but it's kind of made up."
+Ubiquiti,ffds9e3,t3_esv82f,1579827651.0,"Roaming is handled by the client device. Damn near nothing you can do about it. It doesn't make sense, so try not to worry about it."
+funny,ffdqk6k,t3_eswnjp,1579826545.0,What's with the credits?
+DataHoarder,ffdbdhn,t3_esy5ij,1579817232.0,"URE and RAID5 issues are blown way out of proportion.
+
+I have personally seen RAID5 and 6s being rebuilt on a daily basis on several systems as part of a test, for years. 
+
+Not a single problem."
+HomeServer,ffdb34a,t1_ffbyr2c,1579817038.0,"Keep in mind they are quite old, use more power and may have higher latency since they are using older tech. Plus they probably are not supported anymore."
+HomeServer,ffdb04i,t1_ffbxr7c,1579816984.0,"Sure, but that's sometimes the price of admission. 
+
+It's a good switch and will last a long time."
+WTF,ffd3lz5,t3_esmyac,1579812760.0,WTF audio. Dumpster this crap
+technology,ffd29zk,t3_esjpdv,1579812000.0,"I've heard from some of the people that voted for this, it's reeks of bullshit. 
+
+It just doesn't make sense."
+ODroid,ffcbqv9,t3_essaxv,1579796015.0,"The N2 is much faster in almost every way than a Pi 4. 
+
+However, if you aren't stressing the Pi 3, an upgrade won't be that useful."
+linux,ffcbik3,t1_ffbt6k1,1579795870.0,Everything.
+linux,ffbg5q1,t3_esm5lp,1579763828.0,Great news! Now drop snaps and well drink to that!
+Ubuntu,ffbg16a,t1_ff96mkh,1579763670.0,How about a link?
+Ubuntu,ffbfzdk,t3_es8lf6,1579763611.0,It would be nice to see them drop snaps.
+Ubiquiti,ffb660m,t1_ff8s6ru,1579752843.0,"It's a good idea to install 2. 
+
+I do that as a minimum. Gives better coverage, distributes the load and gives a backup while one is updating and rebooting. No downtime."
+DataHoarder,ffatluv,t3_esck9r,1579744194.0,The G6 and 2950 should already be in the scrap bin. Don't waste time doing anything with them.
+Ubiquiti,ffatiht,t3_ese1w2,1579744133.0,Odd indeed. I've had gig fiber for a while and my EdgeRouter Lite is handling it just fine.
+ODroid,ffa4e7n,t1_ffa1m0a,1579727656.0,https://youtu.be/8VlE654abDo
+ODroid,ffa09md,t3_esgtmb,1579725272.0,"I recently saw a Raspberry Pi 4 case that had an adapter for the side ports. Basically turned them 90° so all the ports of the Pi are on the same side. 
+
+Brilliant. 
+
+One of my complaints about SBCs, they are small but with cables coming off them, they aren't. This adapter/case was what we needed years ago.
+
+Edit: https://youtu.be/8VlE654abDo"
+DataHoarder,ff9zvri,t1_ff8grpx,1579725047.0,Not native. All solutions are USB.
+oddlysatisfying,ff8facx,t3_es1536,1579675979.0,That's a good metaphor for my girlfriend and I.
+DataHoarder,ff8eecu,t3_es13if,1579674961.0,"Probably can't do it from the webUI, but btrfs can do this easily. It doesn't care about USB. 
+
+Side note, USB data storage isn't great. Hopefully you can work towards a more permanent solution with proper sata connections and internal mounting."
+pihole,ff879wg,t1_ff834rc,1579668016.0,"You can say whatever you want, but they are 100% right."
+Proxmox,ff7ncpr,t3_erz48j,1579653681.0,"This type of upgrade is all up to the motherboard and BIOS. 
+
+Make sure you are running the latest BIOS."
+Ubiquiti,ff6rirq,t1_ff5fqry,1579633370.0,I've got an EdgeRouter Lite and it handles my gig fiber just fine.
+science,ff6eu6i,t1_ff60q1w,1579625658.0,I feel like what they are really saying is that having belly fat is usually associated with poor lifestyle choices. Not the fat itself.
+worldnews,ff5fyfi,t3_ergiwm,1579591171.0,"Can we also accidentally discover a way to send this information back about 15 years?
+
+That would make my life."
+videos,ff5fnjh,t3_erl5nv,1579590795.0,"I wish it was the last stunt he did. 
+
+Whatever he's been doing, it's just a trainwreck. He's a moron."
+Ubiquiti,ff5fea4,t3_erlv7c,1579590486.0,I wouldn't use pfsense. I'd get a real router from Ubiquiti.
+Proxmox,ff5f06s,t1_ff47rh6,1579590025.0,"From a best practices point of view, the hypervisor should not share via NFS. A guest should."
+Proxmox,ff5ewud,t3_erhhk9,1579589919.0,"Unless you are doing 10Gb or better between them, no."
+Longmont,ff5eewe,t1_ff42j4p,1579589349.0,"I have no idea where something like that would be or how niche it is. 
+
+So without knowing that, how would you expect me to know it would upset you by posting here?
+
+Earlier someone posted about King Cake. I've never heard of that, but they got a lot of nearby (and friendly) responses."
+ODroid,ff3ivdn,t3_ercucv,1579541987.0,"One of my biggest complaints about SBC is a Medusa of cables in every direction. 
+
+Sure the boards are small, but the footprint isn't because you need another foot in every direction for cables."
+oddlysatisfying,ff3ij6w,t3_erceuz,1579541778.0,It didn't finish. Boo
+pihole,ff2l96d,t1_ff26lnj,1579511417.0,"That won't prove that WiFi is ok. WiFi can and will change. It's a medium you can't control. 
+
+Wired is always better. Especially for DNS."
+pihole,ff2l7n7,t1_ff159zw,1579511354.0,"There are many good reasons not to use wifi for DNS. To be clear, I'm not saying it won't work. Just that it's a bad idea. 
+
+WiFi is a single device at a time, half duplex medium. There are tons of things that will interfere with the RF and it's a constantly changing environment that you don't control. 
+
+Wired has none of those issues."
+pihole,ff2l2xq,t1_ff17085,1579511160.0,"First, YouTube is getting good at getting around PiHole. 
+
+Second, I'd be skeptical about Brave. It's just Chrome or Firefox underneath that someone has messed with. I wouldn't trust it. Use Firefox with Ublock Origin."
+Proxmox,ff2kxao,t3_er80jw,1579510933.0,"First, try hypervisor to hypervisor. No VMs. See about getting that straight first. 
+
+Second, disconnect the gigabit. Leave only the 10G. Multiple dissimilar connections can have odd results if you aren't explicitly using a certain interface. Easiest way is to simply disconnect the gigabit."
+pihole,ff115x8,t3_eqv63s,1579474225.0,DNS server on WiFi. Cringe. DNS should be treated better.
+pihole,ff10rm7,t3_eqwzfc,1579474085.0,"I'd love to see in-built support for 2 PiHole systems. 
+
+We get posts all the time of people looking for a solution to the single point of failure. One of the number one recommended solutions is to add another PiHole. But there's no way to sync them."
+HomeServer,ff00nag,t1_fewu9gq,1579463920.0,"You are going to rely on Gentoo or NetBSD?!
+
+Well. Good luck.
+
+HP-UX will run great. Doubt anything else will actually run on it though."
+oddlysatisfying,feza93i,t1_few0n2q,1579455276.0,Sometimes people tell you something is a no-no. Then you try it. And it's very yes.
+pihole,fez994x,t3_eqhq0v,1579455029.0,I use default lists and thumbnails work fine.
+btrfs,fewcl87,t1_feu6lv5,1579408407.0,"That looks like it. 
+
+I think we should have more tests like this that show people trying to break it. 
+
+If they can break it, good. Bug report. If they can't, good. More to give people confidence in using it."
+HomeServer,few6ocg,t3_eqjcam,1579406063.0,"I would strongly suggest looking at what OSs even still support Itanium. Before you spend any money or effort on them. 
+
+Not many do anymore. 
+
+So forget Plex. You need an OS long before Plex can even be considered. 
+
+We have some at work. And I can't find a use for them. They are basically worthless unless you buy them with a proprietary OS. Very expensive."
+HomeServer,few68rx,t1_feumjvk,1579405866.0,Itanium can be quite powerful. ARM has a long way to catch up.
+HomeServer,few5u64,t1_feu6r9x,1579405811.0,"Correct. I think last year was the last year they were selling any. 
+
+We bought a couple at work for a project, some time went by and the project fell through. Now we have expensive servers that can't be used for almost anything. Too late to return."
+Helix,few40jm,t3_eqji3z,1579405038.0,"Thanks for the update. I enjoyed the first season more than the second. But still enjoyed the second. 
+
+Who knows, maybe in some years time someone will be looking for a new series and pickup where this left off."
+ODroid,feu2l4q,t3_eqlaad,1579382517.0,"Damn! $9 each
+
+Edit: oh, $40 shipping from Korea. Nevermind"
+btrfs,fetzuq0,t1_fetwqy0,1579381705.0,"Honestly you can nit pick cases all day. But I can tell you I've been using various types of configs of btrfs for years and had drive failures and btrfs has been fine. 
+
+There was a recent webpage linked where someone did a comparison of btrfs, zfs and mdadm with an addon. He couldn't get btrfs to break. 
+
+I really think the problems with btrfs have been greatly exaggerated and probably fixed but poorly communicated."
+Proxmox,fetynph,t1_fepte6p,1579381374.0,"Your hypervisor should not be a host to anything but guests. 
+
+Guests should be hosting all other services. 
+
+It's a better way to setup an environment. It's been explained many times before."
+Proxmox,fepsomk,t3_eq9hlx,1579329941.0,"If you are going to share it with other systems, I prefer the method of setting up a VM that has exclusive access to the disks. Setting up RAID (I use btrfs) and then share space out via NFS to anything that needs it."
+Ubiquiti,fepriwn,t3_eq9aot,1579328840.0,Those anemic cables are ew. No way they pass spec.
+DataHoarder,feprfs3,t1_fend12j,1579328761.0,Recommending tape should be a jailable offence.
+pihole,feprb8l,t1_fep5gnh,1579328645.0,"It is. But it's also a huge security hole. 
+
+That service you are exposing to the public internet might not be a good idea from a security point of view. 
+
+Only things I open for are VPN. Even then it's not always open."
+Ubiquiti,fenjd9v,t3_epu647,1579285947.0,"Keep in mind that, even if you can do this, when you need support they likely won't help you until it's back to how they set it up. And that's perfectly reasonable on their part. 
+
+I used to work in ISP support and it was very common that people would do crazy setups and then demand our help in fixing it. All we can do is prove our equipment and config works. They want to go off and do something fancy, fine. But that burden is on them."
+boulder,fem9t2h,t1_fem94t0,1579245137.0,"I understand your point. 
+
+To play devil's advocate, directors aren't the ones designing anything."
+hardware,fem9l2n,t1_fekhp5d,1579244863.0,That's a terrible way to name a product.
+hardware,fem9gmx,t3_epm9jc,1579244717.0,"What do you think the Ubiquiti Dream Machine does?
+
+Nope, it's a network router. 
+
+Now how about the Ubiquiti Alien. What do you think that is?
+
+Nope, another network router. 
+
+WTF"
+boulder,fem96sz,t1_felwxbm,1579244402.0,"The overall project is slow, but it's made up of lots of little projects that might move at a more desirable speed. 
+
+My point can be made more bluntly... You are fresh out of college and really have no idea what any industry is like. Don't make something already difficult, more difficult."
+boulder,fem8wnq,t1_fem35wh,1579244080.0,"To legit make such bold claims, yes. Yes you do need some credentials to back it up. 
+
+Just to vent like an armchair quarterback, no creds needed."
+pihole,felc1jc,t1_fekrgvv,1579218651.0,"Sounds like possibly your router is doing it.  
+
+Some routers will try to identify malicious traffic, usually they have to get updates to that info. McAfee could be involved with that."
+boulder,fel9fk1,t3_epo1z0,1579216953.0,What are your civic infrastructure credentials?
+cableporn,fek93oh,t3_ephyv4,1579195170.0,"Pic before properly punching down?
+
+The ends haven't been cut flush."
+pihole,fek0qav,t1_fejr1fb,1579190125.0,A second PiHole would still be a better choice.
+oddlysatisfying,fej5114,t1_feikw2s,1579157165.0,"'The dog'
+
+The way the dog spins"
+Ubiquiti,fej4uoc,t3_epcmez,1579156971.0,Amateurs! Ceiling mount!
+pihole,fej4k3w,t3_epeous,1579156648.0,"I understand what you are saying, but if you are balancing between PiHole and not PiHole, you are going to be missing the benefits of PiHole. Would not advise this route. 
+
+A better move would be to add another PiHole and set it as secondary DNS in the DHCP config."
+Ubiquiti,feijui2,t3_ep6cd9,1579140201.0,VPN server is what you need. Either on the router or some other device on the network.
+Ubiquiti,fehppt8,t3_ep74i1,1579121404.0,Your device is making a connection outbound.
+space,fee4bl2,t1_fedpuhq,1579026116.0,"I honestly expected most comments to be Your Mom jokes. 
+
+Glad to see some intellectual posts."
+pihole,fecv893,t1_fecr6ah,1578985953.0,FYI port forwarding is generally not a good idea. Wide open to security issues.
+Longmont,fecv1jv,t3_eo6slp,1578985743.0,"What's the frequency of KGUD?
+
+I've been listening to 105.5 The Colorado Sound for a while and it's reliably decent. 
+
+I'm not a fan of most stations. Especially when they start naming things after anyone who will pay money. 
+
+""We are coming to you live from the Smith Family Farm Studio. Powered by Yellow brand dish soap microphones"""
+DataHoarder,fecms0l,t3_eo9wcd,1578977790.0,"Simple, use software that's actually backup software. Not just a file copy."
+HomeServer,febs9g1,t1_fea9d7o,1578962109.0,"There are people running it on a Raspberry Pi. No where near 8GB. 
+
+I really think FreeNAS has a suggestion of 8GB but are using the word 'required'."
+HomeServer,fe6lhal,t1_fe4gi00,1578894887.0,"I understand that is what they say, but it's misleading. 
+
+It's a recommendation, it is not a requirement."
+Ubiquiti,fe6ldni,t1_fe5pmlt,1578894781.0,I mean mobile device. Not the AP.
+oddlysatisfying,fe333fa,t3_endg1a,1578845460.0,"The term air fryer should be banned. 
+
+It's a convection oven."
+Ubiquiti,fe31zal,t3_enk5bo,1578845180.0,Sounds more like a a device issue
+Ubiquiti,fe31nb3,t1_fdz9go5,1578845085.0,Then why bother separating things? It's just going to be more difficult to work with.
+Ubiquiti,fe2zst2,t3_enov94,1578844578.0,Is that a mole hill... Nope OP says it's a mountain.
+HomeServer,fe2y86n,t3_enoqeg,1578844169.0,Proxmox is perfect for this.
+HomeServer,fe2y29j,t1_fe07rvo,1578844101.0,Maybe time to consider btrfs
+HomeServer,fe2xjg8,t3_engrf2,1578844004.0,"OpenMediaVault or Ubuntu server is what I'd use.
+
+Btrfs is what you should be looking at."
+HomeServer,fe2xhx4,t1_fe2k04s,1578843985.0,"While I prefer OpenMediaVault to both of those, FreeNAS does not have high RAM requirements. Myth."
+HomeServer,fe2xbip,t3_engrf2,1578843917.0,Anything but unraid. It's bad tech that you pay for. Stupid idea.
+DataHoarder,fe2vgjl,t3_eng7bp,1578843331.0,Good. I look forward to using them.
+DataHoarder,fe2v6gi,t1_fe0eqvr,1578843223.0,Not true
+DataHoarder,fe2usro,t1_fe19f83,1578843036.0,"However that's like saying you are more likely to find a shark on Saturn than Neptune. 
+
+It's a talking head thing, making something out of nothing. 
+
+It's really not an issue."
+funny,fdy4agz,t1_fdvp89g,1578775974.0,Could be her idea. Maybe slow down and think.
+oddlysatisfying,fdy3lvb,t3_en8zfc,1578775718.0,It's an immediate downvote because of the audio. It's awful.
+pihole,fdy2wq9,t3_en3nlq,1578775458.0,Tell her no.
+DataHoarder,fdu7q6r,t3_emzfas,1578729038.0,"Best thing for tape is to toss it in the bin. I like to add fire, you may wish to skip the fire. 
+
+I'd highly suggest adding a lot of heat. It quickly improves tape products."
+howto,fdu7ihf,t1_fdsiedu,1578728940.0,It's a feature of the sub. Look at that subs Flair or information.
+howto,fdu7g2k,t1_fdssofg,1578728910.0,Maybe that feature isn't for you.
+howto,fdtpch3,t3_emuxp2,1578720126.0,"Great work. 
+
+Be aware that the new broadcast standard coming out is going enable 2 way communication. 
+
+So broadcasters will be able to gather data about what you watch and anything else they can glean from the TV. 
+
+They want to target ads and data mine people. Build profiles about people they couldn't reach before."

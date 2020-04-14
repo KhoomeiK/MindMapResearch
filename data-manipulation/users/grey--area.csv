@@ -1,0 +1,17 @@
+subreddit,self ID,parent ID,time,text
+MLQuestions,fejdmpl,t1_feiz37v,1579168876.0,"It's true that if you just have a collection of data that's assumed to be Gaussian and you want to estimate the population mean and variance, then for the maximum likelihood estimates you just take the sample mean and variance.
+
+I think it's important to keep in mind that what you're doing is maximum likelihood estimation though, as then it unifies the Gaussian case with other, less straightforward cases.
+
+Also, often you assume that some data is Gaussian *conditional* on some other data. E.g., you have N pairs of numbers (x, y), and you assume that y is sampled from a Gaussian whose mean is a function of x, and maybe what you want to do is learn this function. E.g., have a neural network take x as input, treat its output as the mean parameter of a Gaussian, evaluate the log-likelihood of the label y given that mean. You take the log-likelihood because then the log-likelihood of the whole dataset is just the sum of the log-likelihoods of the datapoints. You then try to set the parameters of the neural network to maximize the log-likelihood. This is all equivalent to what you're doing if you minimize a squared error loss function.
+
+Also note that maximum likelihood estimation isn't the only option. E.g., Bayesian estimation, or maximizing penalized likelihoods."
+MLQuestions,fegbnun,t1_fefnshn,1579086535.0,"1) Yep, that's correct.
+
+2) Yes, a Gaussian model is a very common assumption. If you do regression with a mean squared error loss function, for example, that's equivalent to assuming the label is sampled from a Gaussian distribution with fixed variance and whose mean is an unknown, parameterised function of the input, and then doing maximum likelihood estimation on those parameters.
+
+3) Some examples of other probabilistic models you might have for your data:
+
+* If you do classification with cross-entropy loss, what you're doing is assuming that the class labels are sampled from a discrete/categorical/multinoulli distribution whose parameters are some unknown, parameterised function of the input, then doing maximum likelihood estimation on those parameters.
+* For count data, such as the number of cars passing an intersection in a given hour, it's common to use a Poisson model.
+* Look into the problem of estimating the bias of a coin. Suppose you have a coin that when you flip it, it comes up heads with probability p, and tails with probability (1-p), and p is unknown. If you flip it N times, the number of heads you will see follows a binomial distribution with parameters N, p. For a given observed number of heads, the binomial tells you the likelihood for any value of p, and you can calculate a maximum likelihood estimate of p."

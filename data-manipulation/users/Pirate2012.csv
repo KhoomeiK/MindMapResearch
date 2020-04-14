@@ -1,0 +1,422 @@
+subreddit,self ID,parent ID,time,text
+ProgrammerHumor,ffgnctn,t1_ffgl0ze,1579910261.0,Eons ago I knew someone in upper MSFT Management and that's the rumor I had heard re the naming of BING - it was an internal name which stuck.
+synology,ffgna0h,t1_ffgkket,1579910208.0,"50' over Cat6 using a RJ45 10GB Transceiver should be ok distance wise. FYI, that Transceiver will get rather warm in the switch.
+
+StorageReview.com and ServeThehome.com have some articles"
+synology,ffgjyho,t1_fffcj5g,1579907967.0,"how far away is this other computer ? I have zero experience with RJ45 10GBe-BaseT . I used SFP+ fiber cables for run from 10GB Switch to PC; and 0.5 or 1m DAC cables inside the LAN Server Rack.
+
+Mikrotek(sp) makes some 10GB RJ45 connectors but there are issues with heat and distance allowed; and no experience with them."
+homelab,ffgilwn,t1_ffg0q0c,1579907075.0,"OP your attached how to install Docker in Photon OS was simple to follow.
+
+Can you now show that same level of how-to guide on how to install (lets say) deluge on that PhotonOS Docker install ?"
+ProgrammerHumor,ffgifxa,t1_ffful52,1579906964.0,I'm sitting here waiting for Gopher to come back :)
+ProgrammerHumor,ffgica5,t1_fffuy70,1579906896.0,BING = But It's Not Google
+synology,fffbou6,t1_fffbfma,1579880426.0,DAC is a cable perfect for short runs. No need for two SFP+ transceivers plus fragile fiber cable.
+synology,fffbdda,t1_fff8yb0,1579880223.0,DAC
+aww,ffe85tk,t1_ffdwkpi,1579839315.0,I truly could see a Golden Retriever trying to catch the child with its mouth; and then sad-brown-eyes when fails
+selfhosted,ffctyes,t1_ff20n0i,1579807204.0,"A usage question with your setup:
+
+During your paper fire test: once the fire alarm goes off on nearest Smoke Detector goes off, does that trigger the fire alarm going off on the other 2 Smoke Detectors?
+
+If you wanted your Cell Phone to also go off with an alarm - how does that work? some type of Hubitat iOS or Android App ?"
+StorageReview,ffb52ad,t3_esmsd1,1579751997.0,nicely explained.
+homelabsales,ffau325,t1_ffaoz0x,1579744511.0,"how about a 15TB 2.5"" drive? lol SSD and a tad expensive"
+synology,ffal9pd,t1_ffa1npc,1579738575.0,"I (not IT pro) use both Synology and FreeNAS
+
+FreeNAS offers the wonderful ZFS but requires matching HDD and serious RAM. FreeNAS GUI is not at clear as Synology GUI.
+
+I use both Synology and FreeNAS for Storage only; all VMs run on a Dell Server running ESXi.
+
+I also do not use Docker (I don't understand how to use it in a detailed fashion)"
+synology,ffa3abm,t1_ffa2mp3,1579727026.0,"Hi there. and thanks for asking.
+
+For others reading, my goal was to Hyperback S3 the Synology units on the LAN to a FreeNAS box using Minio on FreeNAS.
+
+It failed due to Synology Hyperbackup -NOT- being able to use path-style buckets such as Minio S3.
+
+Google found me some posts someone made about using reverse proxy in some fashion and rather complex method; but they did not spell it out in steps, thus I was not able to follow it.
+
+** The URL you presented discusses Backblaze + Minio : I do not use Backblaze
+
+No clue if possible to create a NON path-based S3 Minio bucket on Backblaze; and then point synology hyperbackup to that."
+synology,ff9vg1z,t1_ff9v7dz,1579722362.0,"""Follow the $$$"" was an axiom taught to me early in my life by a founder of a Fortune 500 company. A very wise and good man.
+ 
+Another wise rule is ""Cui bono"" aka ""Who Benefits"""
+synology,ff9v7pk,t1_ff9v326,1579722203.0,"Truly do not know, when I saw the un-attractive C2 pricing, I never explored the details"
+synology,ff9v408,t1_ff9uyzc,1579722130.0,a business guy and an IT guy agreeing on something? ! :)
+synology,ff9uul0,t3_esgg8p,1579721929.0,"I'm a business guy not an IT pro. My view is since Synology launched their own backup cloud (C2); Syno Management has said to forget any plans to get Hyperbackup working with Backblaze. Synology wants as much $ from C2 as possible; but Amazon S3 and Google Drive are a -must have-.
+
+Look at the huge push C2 is making in what we know about DSM 7 by example.
+
+Alas, pricing on C2 is not very attractive. Plus from a security standpoint, I like the separation of someone other than Synology as the Cloud backup provider."
+synology,ff80yh5,t3_es0wkv,1579663136.0,"you should have the 218+ plugged into a APC UPS ; and never turn either off.
+
+As others have said, turning a NAS on and OFF will do bad things to the HDD and RAID1 setup. It is made to be on 24/7; and do not hibernate the HDD either.
+
+Energy usage is very low."
+StorageReview,ff80da0,t1_ff6jk7o,1579662714.0,thanks
+pics,ff5dvqh,t1_ff3vn92,1579588753.0,"> He had a highlighter too.
+
+yup, the moment you walked in and saw yellow highlighted papers OP - you died a little inside, knowing you would lose before you even sat down."
+StorageReview,ff5d8lp,t3_erkoux,1579588049.0,"thanks, btw, what was the Samsung SAS Model number for the SAS SSD you showed?"
+homelab,ff5awp5,t1_ff50i3j,1579585632.0,"HP LaserJet 200 color M251
+
+Any comments on what 3rd party toner cartridges work well?"
+aww,ff4apz8,t1_ff330n7,1579559242.0,"> Not good enough. He needed to put the phone on the charger
+
+That is a golden retriever, not a border collie :)"
+homelabsales,ff46llg,t1_ff45u3p,1579556669.0,that is a silly low price for what OP has
+homelab,ff2alft,t3_eqzly4,1579498802.0,"thank you for this : Question :
+
+I have a Dell r720xd with 10GB NIC which runs ESXi 6.5 ; I have FreeNAS VM, Windows and Linux VMs.
+
+I""m a network noob and never was sure if vSphere Networking was setup correctly.
+
+Thus, how does this work with several VMs running on a box with 10GB NIC?"
+synology,fetwiwd,t1_fettmmp,1579380744.0,"https://duckduckgo.com/?q=raspberry+pi&t=ffab&ia=web
+
+https://www.tomshardware.com/reviews/raspberry-pi-4-b,6193.html"
+synology,fetn4vl,t3_eqgp24,1579377073.0,"I believe 2020 is Synology's 20th anniversary.
+
+Given Synology seems to be more about Marketing than Engineering these days; I would be very surprised if there was not a large rollout of new model year 2020 products once DSM 7 goes Gold."
+synology,fetk5nh,t3_eqj4bu,1579376246.0,"if your USB-Serial cable does not work, you can get a cheap Rpi and install NUT on it to control everything"
+aww,fepru2i,t3_eq7t31,1579329129.0,"It is so unfair to the breed lol
+
+I see a Border Collie doing something like this and I'm ""oh, that's neat, but it's a Border Collie so I'm not surprised at all"" lol"
+synology,feo68qx,t1_feo03qy,1579295688.0,"while I normally just pull off the photos via the Film Card into a USB Card Reader into PC : I know Nikon included for me a USB Cable that plugs into the camera and attaches via USB to PC; thus making the Film Card available 
+
+I have no clue what would happen if you plugged that USB Cable from Camera into USB Port on Synology
+
+There's a Synology package called ""USB Something"" so perhaps you can then access it via that USB cable 
+
+There's also Wifi USB Dongles (not sure how that works) you can plug into USB Port on Synology."
+synology,fenvmo5,t1_fensrjk,1579291603.0,"I use a non-Wifi Nikon DSLR so no experience using a Wifi Nikon camera.
+
+I see there's no computer at home, just an iPad
+
+If you install the Nikon app on the iPad : can you download the Nikon images to the iPad ?
+
+if yes, then use Synology iPad app to upload to the NAS over Wifi
+
+You might need to experiment which app works best for your use case : DS Photos, DS file, DS Moments"
+synology,fenpqoe,t3_eq2wj2,1579289076.0,"have several ST6000VN0033 in Synology boxes for several years, work very well. Thumbs up"
+IdiotsInCars,felqn5n,t1_fekr5am,1579228571.0,"if you watch old Top Gear you will understand this...
+
+Say it in Jeremy Clarkson's voice:
+
+Now if he was driving a JAG, 
+the bicyclist would have happy gotten out of the way and asked if he needed anything."
+synology,felkn8u,t1_feldi8r,1579224456.0,"Fully agree, spread out over 5 years of use, the DS1618 w Max ECC RAM is perfect for you. If you have the $, get 4 matching HDD in RAID6; and two enterprise grade 2TB SSD in RAID1 for production work. When the work is done, move from SSD volume to RAID6 HDD volume for storage.
+
+You also can then do SNAPSHOTS from active-work SSD volume to HDD storage volume.
+
+Spend the $ on maxing out the DS1618 RAM and do not do SSD Cache.
+
+get a good APC UPS; and if you working with larger file sizes, you can get $50 10GB NIC cards on Ebay for the DS1618
+
+You can use the DS216 as off-site hyperbackup vault."
+synology,fel40ic,t1_fel1qre,1579213580.0,"I fully agree.
+
+Cancel this order for a 1815+
+
+How much is a DS1618+ in your country ?
+
+Quality metal construction, can accept ECC RAM, 6 bays, BTRFS, RAID6
+
+You wrote you are a photographer in a business : I would never-ever trust my business in 2020 to that horrible 1815 CPU and all its problems.
+
+Realize your seller is trying to sell a 5yr old product as ""new"" : perhaps it was never bought before but it is 5 yrs old and I doubt it would still carry any warranty from synology.
+
+Don't forget to buy a good APC UPS for it"
+synology,fekr18b,t1_feko1fo,1579205826.0,I truly do not see how its possible for a SAS HDD to be used on a SATA-only backplane.
+homelab,fekqw9v,t1_fekphwx,1579205746.0,VDI requires vmWare Horizon ?
+synology,fekmqz8,t1_fekk1hs,1579203279.0,"> 3615xs
+
+I'm pretty sure that model only takes SATA drives, go look on the specs page for it.
+
+If it only takes SATA drives, any SAS drives shall simply not work."
+homelab,fekfumv,t1_fekdwxl,1579199166.0,"I've never used a thin or zero client.
+
+So if you have a LAN server running ESXi vSphere (but not vCenter) what exactly can you do with this thin client?
+
+you hook up monitor, KB, mouse to thin client : then what?"
+synology,fekfdhb,t3_ep3grl,1579198882.0,OP: I have several Model ST4000VN008 (IronWolf 4TB SATA) and they work fine with no issues
+synology,fekf684,t1_fehy7bl,1579198763.0,"it would be so welcome if you would simply answer poster questions rather than always saying ""we've talked about that before""
+
+if we had a good Wiki, 50% of the questions asked could be ""go read Wiki #232
+
+But we don't have a Wiki on this sub-reddit
+
+PS: also, reddit search sucks for any granular search"
+synology,fekf17q,t1_fehh9o5,1579198681.0,"before you put any new HDD into a Synology; best to hook that HDD up to a PC and run the mfg HDD software, checking for new firmware; then nuke the HDD and run extended Tests.
+
+if you get a bad HDD, I want to know when its in a PC and before its in the Synology getting TB of Data."
+synology,fekenqu,t3_epi5r1,1579198459.0,"DS3517xs? do you mean DS3617?
+
+Unless I'm wrong, the DS3617 can not accept SAS drives, only SATA drives
+
+Synology sadly only offers SAS in very few higher-end units.
+
+SAS/SATA backplane can take either SAS or SATA
+
+SATA-only backplane can only take SATA"
+homelab,feimluc,t1_feilw5y,1579142065.0,"you are right, real RGB strips would ruin this classic beauty.
+
+However, take some Red, Green, Blue Sharpies and make those small circles baby and you are done"
+homelab,feimeyc,t1_fehyol6,1579141936.0,"just needs some RGB strips and ""JSEC will be rocking"""
+synology,fehjv2b,t1_fehjg3q,1579118027.0,"truly do not understand why you must be so confrontational on the most simple things. I was heading in a long meeting, and i hate searching for things on mobile when I lack the time.
+
+I found and gave the URL to OP when my meeting was over and was back in front of a PC"
+vmware,fehfp0d,t3_eopvuj,1579115584.0,"thanks, subscribed - enjoy your work very much. thank you"
+synology,fehfb7g,t1_fehdux9,1579115359.0,"thanks for posting the URL, I had found/posted it also a bit ago when back on a PC.
+
+Easy to find on a PC, very hard on a Cell phone which i  was on this morning"
+synology,feh8dj8,t1_fefjnmc,1579111263.0,"I am not an IT Pro. I have a RackStation with a good Intel Xeon i3 CPU and max ECC RAM. For over a year, I tried to run VMs on it. It worked but constantly choked.
+
+My solution was to get a Dell r720xd for under $1000 with excellent dual CPU, 128GB ECC DDR3 RAM, Enterprise grade construction, RackRails and into a server rack. With 10GB connection to Synology Rackstation for NFS storage. The Dell running ESXI i easily handling large amount of VMs.
+
+That would be simply impossible to do on the RackStation.
+
+Let the Synology be a rather good NAS with BTRFS, Hyperbackup.
+
+The cost of the Dell r720xd has now come down to $600-700 with similiar specs as more become available as Enterprise moves to '13 and '14 models.
+
+Naturally most people don't want a big, large, noisy Dell Rack Server but there are many quiet solutions for the goal would be a quiet box to run ESXi"
+synology,feh7quy,t1_fefxu2m,1579110895.0,"sure a RPi can be a very simple server for a simple task like NUT, that's fine.
+
+How about running a serious VM on it? nope"
+synology,feh776j,t1_fegf03t,1579110581.0,what hardware (and remote) do you use for living room kodi?
+synology,feh73w2,t1_fegq5zt,1579110526.0,">  want it, but the market isn't there yet. [Cheapest 8-port 10gbe switch on Amazon is $550].
+
+go to ebay and buy $3000 Enterprise Switches used for $150-200; don't bother with brand new consumer 10GB Switches.
+
+servethehome.com search for Brocade 6450"
+synology,feh6yv1,t1_fego49o,1579110442.0,"> 10gigabit ethernet is insanely expensive for a multi-port switch
+
+go to servethehome.com then go to ebay and buy a $3000 Brocade 10GB Switch that is now $150-200 used on Ebay. Brocade 6450 by example"
+synology,feh6sv0,t1_fegook7,1579110343.0,">  I don't know one home user (or even small businesses) that need / want more than 1Gb networks.
+
+well, I know about a dozen professional photography & video studios using 10GB with some using 40GB"
+synology,feh6n8p,t1_fegusgy,1579110249.0,"I would agree, given you can have this unit for easily 5-7 years, get the 218+; and use BTRFS"
+synology,feh6ddh,t1_fegxxez,1579110084.0,"> Their release notes are as clear as mud.
+
+lol; could they have written a less detailed release note? :("
+homelab,fegzsyb,t1_fegby6j,1579106154.0,thanks for that - i feel shame at not knowing of this brilliant youtube poster before now
+synology,fegywq2,t1_feguvnq,1579105606.0,"i had a moment : here's the old URL I mentioned
+
+https://www.reddit.com/r/synology/comments/dz3b84/cannot_login_to_synology_after_current_dsm_update/"
+synology,fegvhhw,t1_feguvnq,1579103451.0,"I’m heading into long lunch meeting so can’t find the thread I made.  But I know exactly the weird screens you are talking about
+
+It’s not ok (sorry)
+
+What are the model names of the syno units heading this issue after update"
+synology,fegtucs,t1_fegsvu1,1579102397.0,"Reddit search sucks esp on mobile but I made a long detailed thread here about it. But u need a scratch disk. Tiny size is fine. Do you know anyone to borrow one from. 
+
+Do not know if you can find my thread from few months ago
+
+
+Even a 80gb ssd is fine or 250gb sata HDD
+
+What models do you have with this issue"
+synology,fegrol9,t3_ep35r9,1579100960.0,"I'm on mobile but this happened to me a few months ago., But only one unit, all the rest updated fine
+
+Do you have a scratch sata disk?"
+homelab,fefvsrb,t1_fefmhv9,1579066817.0,can you imagine the speed increase if you only had used Monster branded RGB lighting
+homelab,fefvrdf,t1_fefn7ou,1579066780.0,"> control it with phyton code. Planning and having it change based on various conditions like temp and internet connectivity.
+
+bravo!
+
+You win /r/homelab thing-to-do of the week.
+
+After you tackle that coding project; next up is some code to violently shake your bed should temps exceed xyz  while you are sleeping. (or some other fun way to wake you up if need be)"
+homelabsales,fefuqyn,t3_eovyli,1579065836.0,"see PM
+
+Question on these Noctua Case fans for the RS3412 - how did the Synology DSM react to these non-stock fans? Were you still able to select fan speed within DSM?"
+synology,fefsibg,t1_fefb8hy,1579063877.0,Most enjoyable thread
+synology,fef5oa5,t1_fef2anx,1579048773.0,"Whatever the price of the RS1220 will be shouldn't be that vastly different than the RS1219; no clue what your use case is and obviously a 6bay Desktop unit is very different than a 8 bay RackStation.
+
+I use (and prefer) RackStation units but to answer your original question; imo, the DS1618+ with ECC RAM is ""better"" than the RS1219
+
+If you are looking to improve the DS1618, max it out with ECC RAM (which you can buy used Crucial RAM on Ebay , search for a post from /u/ssps outlining the exact crucial specs."
+synology,fef1hgz,t3_eosisr,1579045957.0,"obvious difference between desktop and rackstation. Also, one has 6 bays, one has 8 bays.
+
+Ignoring those obvious differences, a DS1618+ is ""better"" than a RS1219 imo.
+
+I loathe the fact that the RS1219 has the insane 6yr bug-ridden Intel C2538 CPU which claims to be ok to now use, but its still 6-7 yr old CPU.
+
+Rumor is RS1220 (with newer CPU) is shown this year, no clue if true or when"
+synology,fef0fcm,t1_feeyhj9,1579045259.0,"over the years, some good Packages only work on + series.
+
+Basically + models have a ""better"" CPU; and often a bit more RAM
+
+Bottom line, realize you are buying this unit for 5+ years, and the cost difference when viewed in that light is small.
+
+Are these backups for a small business or personal stuff?
+
+How many TB of data exists now, how many TB do be added next year?
+
+If you are using this for business, I always suggest a DS1618+ and buy ECC RAM for it, use BTRFS, RAID6; along with APC UPS"
+freepbx,fef038g,t1_feey0o9,1579045039.0,">  freepbx 14 on crosstalk solutions channel on youtube.
+
+thanks for giving a specific youtube set of videos to watch."
+freepbx,feewpty,t1_feeugfk,1579042861.0,"> voip.ms
+
+thanks for the SIP company"
+homelabsales,feek23f,t1_fedn6kc,1579035335.0,"Seagate_Surfer I've PM'd you twice with no reply so trying here in a thread.
+
+I have 8 ST4000NM0025 EXOS SAS 3.5"" 4TB; and need 4 more.
+
+Question: how does ST4000NM0025 differ from ST40000125 ?"
+synology,feejsek,t1_fee83ft,1579035179.0,"OP wants ABB ActiveBackup for Business for their use case. only will be buying 1 Synology (unless I cannot read)
+
+OP: if you have 9 PCs in 4 different locations to all backup to one Synology; there's a free Synology package called ABB Active Backup for Business.
+
+It works --- BUT ---- it will store the ABB Data in a NOT encrypted folder on the Synology. So the admin / owner of the Synology can have access to whatever is backed up from those 9 PCs - just a FYI"
+synology,feejj0o,t1_feeg980,1579035028.0,"I've found it always wise to spend the tiny bit more $ for a + model.
+
+realize you are spreading out that $50-100 over 5yrs of life of the unit.
+
+Always avoid the J models."
+freepbx,feeip8p,t1_feebv1h,1579034548.0,should I find time to play with the obi200 : what SIP provider do you suggest? (basic 1 phone number home usage)
+freepbx,feeill9,t1_feec978,1579034489.0,"some questions:
+
+If one only uses Obi200 + consumer cordless RJ11 Phone; this offers no fancy tricks like ""press 5 to let us know you are a human"" - correct?
+
+Does FreePBX offer this ? (guess would be yes) : ""push 5 to get a human otherwise you get voicemail"""
+StorageReview,feei91p,t3_eon250,1579034289.0,"interesting idea, what never have thought of using this insta-foam in a can idea, thanks"
+StorageReview,feei7pz,t1_fee5sru,1579034267.0,"yup, the Amazon way is HDD inside a simple envelope.
+
+Of course, clothing, and pens I have ordered, along with other non-breakable items arrive with silly amount of packing material."
+freepbx,fee3d4i,t1_fec83gh,1579025552.0,"i had got the Obi200 last year to play with; lol - but then I lost it in the house and just re-found it.
+
+i'm reading about Obi200 into Network Switch, then plugging in a consumer cordless phone base into the Obi200 via RJ11 - that makes sense.
+
+Can you speak about what one gains by adding in a small computer running FreePBX ? (for a home environment with only one phone number)
+
+Please note my entire knowledge of FreePBX is from watching some Youtube last nite, i've never run/used it."
+freepbx,febujs2,t1_f67190c,1578962877.0,"I'm a business guy and do NOT know FreePBX.
+
+My advice as a business guy : 
+
+you are charging much too little, any small business looking for paid help would pass right over you as your hourly fee is just too low and that leads to someone thinking you have no idea what you are doing or you would be charging much more.
+
+I respect you are charging low to try and get work; but oddly you are hurting yourself by the too-low fee.
+
+Perhaps something like $89/hour but 20% off for any first time customer on the initial setup.
+
+Please note: I have no clue as to the going rate for VOIP Professionals; but I'm guessing its in the $75-100 hour range in USA"
+synology,febh259,t1_fea1abw,1578958695.0,"I've never used FreePBX - simple question
+
+Must you use VOIP ""special"" RJ45 phones or can you use a basic RJ11 consumer wireless phone ?"
+synology,feai2n1,t1_fea6mhr,1578948988.0,"No problems with your english spelling of the months, I was just curious what your first language is. One unusual spelling might have been a typo, but not two."
+synology,feahp2a,t1_feahai2,1578948930.0,"Do you represent yourself in this crude fashion in person, or just from behind a keyboard?"
+synology,feahf4u,t1_fea5js6,1578948798.0,"I fully agree. It can be surprising at the vast negative tone some posters take when anything negative is said.
+
+Reality is : Synology has some great products and is a very good NAS - we just want an attitude of 'better' 
+
+Honestly, I find it a bit alarming how many years DSM 7 is taking : I'm using their products since 2011; and a new DSM has never-ever taken this long. Is the vast delay due to large amount of problems or some other reason?"
+synology,feagt1f,t1_fea6s59,1578948590.0,"> Lighten up you fucking weirdo
+
+wtf is wrong with you?"
+synology,feagd5q,t1_fe9zktj,1578948400.0,"umm, How many years was USB 3.0 mainstream b4 they showed up on Synology products?
+
+Where is USB-C by example ?
+
+The Intel C2538 CPU epic disaster existed 5 years ago; and Synology continues to use that pathetic CPU to this day, including in a RackStation
+
+Most of the current CPUs they use can accept 10GB on the mobo; what is the cost to include 1 10GB 10Base-T and 1 10GB SFP+ ? $2-$3? 
+
+HDD keep increasing in common sizes: 8 and 10TB drives are now ""common"" ; thus common sense says 1GB NIC for a NAS is going to be an issue.
+
+Many of their Packages are rubbish : I really wanted to like Synology Notes, Calendar package, and countless others - but they do not work well, they are buggy; and cannot be 100% Trusted; and are seldom updated.
+
+It's a very good NAS, Hyperbackup works very well - but so much of what they Market to consumers is either rubbish or very difficult to implement. I fully agree with OP that 10GB needs to be on all devices. They put a SATA port on all Synos for years, and how many people actually used an external powered SATA HDD?
+
+I strongly suspect Marketing is driving the decision to NOT include 10GB ports for Synology wants customers buying a $200 10GB NIC Card; which is just a re-badged Mellanox I believe. They are $50 on eBay."
+synology,fea0lce,t1_fe6mau2,1578943116.0,"> Let's put my important NAS data on an alpha OS, what could go wrong?
+
+Simple: have a decent Syno box and install the Alpha OS on a Virtual DSM
+
+Also, when Alpha comes out, I'm sure someone will have a nice YouTube video on it."
+synology,fea05z6,t1_fe6n7j3,1578943044.0,"Of course, I would never put a Alpha or Beta OS on any production machine. I was pondering using Virtual DSM on a RackStation with a decent CPU and RAM."
+synology,fe9zo51,t1_fe6vq03,1578942889.0,"> Signups are untill the 14th. late januari early februari you will get information about how to download and install the preview:
+
+Given your spelling of the months, I am curious. What is your native language?"
+synology,fe9yaly,t1_fe9a3wo,1578942552.0,"While I am not doing this task you wrote out,
+just wanted to compliment your ability to give excellent instructions"
+synology,fe9v2cz,t1_fe6kyjo,1578941732.0,"any package such as Syno Moments will modify the metadata in some format; so will other photo management apps.
+
+So will music apps like iTunes modify .mp3 files metadata (often ruining your own carefully curated files).
+
+So my simple solution is to keep MasterPhotoFolder and MasterMusicFolder and then copy photos to /photo and copy .mp3 files to /music
+
+In this fashion, I do waste HDD space (I don't care) but I know my original files still exist if/when some package/program screws up the copy files."
+synology,fe62aq7,t1_fe1ff00,1578880187.0,"> I appreciate your response and there should be plenty of airflow. The room is about 10'x4' + an area under the staircase going up. 
+
+Under the stairs ? Depending on the nature of the framing construction; might a human walking up/down the stairs have any impact on the studs you will be securing the vertical server rack to ? I'm thinking about that vibration impacting the RackStation HDD causing serious issues.
+
+I don't know how easily you will be able to change out the RackStation fans; and you certainly wont be able to change the fans inside the PSU.
+
+RackStations are loud."
+synology,fe61s63,t3_enq3hy,1578879857.0,"Fully agree with OP : it is insane ABB does not work with an Encrypted Shared Folder
+
+I do not if technically possible, but I also find it annoying the entire ABB folder must be selected for Hyperbackup (vs being able to select which ABB Tasks I wish to Hyperbackup)"
+synology,fe5z9yf,t1_fe5d5kn,1578878262.0,"why wait for 6? months
+
+No one knows what DSM 7 Syno Photos even looks like."
+synology,fe5z6cz,t3_enr40e,1578878199.0,"OP : I would never trust anyone to screw around with the original meta data of all my photos.
+
+What I do is this : on the NAS, I make up my own Shared Folder (MasterPixFolder) for my pix; and then *COPY* them to /photos on the NAS
+
+So yes, there's two copies of every pix; but if/when the metadata gets all screwed up in /photo , I still have the originals in MasterPixFolder.
+
+What Syno do you have? Moments will take a long, long time to crawl thru 40k of pix due to the AI facial/scene recognizing.
+
+I would perhaps add 5000 at a time and wait till that batch is done."
+homelab,fe3guiy,t1_fe33lpq,1578849114.0,Thanks for your continued help; I've been away from home and will try to swap the PSU when I get home later tonight
+homelab,fe323su,t1_fe2zuxu,1578845211.0,"PSU Question if I may ask:
+
+PSU1 (on the left) only has the TOP light green, the other is simply off, its not blinking amber)
+
+I failed at trying to google that situation, you have any experience/thoughts on that?
+
+PSU2 on the Right both lights are green.
+
+OpenManage Power shows green/healthy for both PSU"
+homelab,fe31qj2,t1_fe2zuxu,1578845104.0,"first, i greatly appreciate you asking 
+
+but i'm away from home until this evening
+
+When I get back home, my plan of attack is to power it all down , pull the 2 Power Cords, swap PSU1 and PSU2; plug back in, run diagnostics and see if the PSU error goes away.
+
+The error on PCI slot 3 : PCI Slot 3 holds the PCI H310 card (which is flashed to IT Mode for FreeNAS passthru) : plan there is to put into another PCI slot and see if the new slot gets an error."
+synology,fe2y73p,t1_fe2tcnn,1578844156.0,"you still did not say how many current TB of data exists to store; and how many TB do you expect to add next year.
+
+Are you a video business with only 10,000 files but they are large in size
+
+or a typical office with a million small files.
+
+Do you only want a NAS to backup the 3 computers; or will you be storing data on the NAS itself 
+
+The point of a NAS is centralized storage; office workers in-house save the data not to their PC but to the NAS.
+
+also I personally would never combine personal use and business use on the same NAS.
+
+You also have not indicated what type of business, small office who does most work on paper and you are only looking to backup a few thousand Microsoft Office files; or a business who stores all files in digital format (so your business fails without them).
+
+Point is : your question remains vastly too vague for anyone here to give you a qualified answer.
+
+imo, Best small-business Desktop NAS is a DS1618+ , BtrFS, RAID6, fill it with ECC RAM, no SSD Cache, a good business-class APC UPS
+
+But given your lack of details, I have no clue if that is overkill for your needs."
+synology,fe2qli1,t1_fe2dw9a,1578841793.0,"as /u/ssps wrote, the synology DSM firewall is very basic; and can be challanging to get very granular results.
+
+Would your goal work by creating encrytped shared folders and using account names and passwords for each user you want to access the synology.
+
+you can easily allow user David to have access to /music and /davidfiles but no one elses. 
+
+Then user Nancy only has read access to /video
+
+you can even require 2FA for more security if you wish.
+
+Otherwise, you need to set static IP addresses for every device at the router; and then can use the synology firewall and input these static IP addresses and control access via that method. But from what you are saying, I'd use the DSM usernames to control access."

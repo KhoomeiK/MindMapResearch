@@ -1,0 +1,176 @@
+subreddit,self ID,parent ID,time,text
+HumanPorn,ffig3n5,t3_etlqf4,1579973043.0,Looks so fake
+Python,ffhvvxz,t3_etosvv,1579956292.0,"If you dont know what timezone the current API is in then how do you know what the right one is?
+
+    print(date_var)
+    2020-01-24 23:46:00-08:00
+    
+
+    date_var.astimezone(timezone('Pacific/Auckland'))
+    datetime.datetime(2020, 1, 25, 20, 46, tzinfo=<DstTzInfo 'Pacific/Auckland' NZDT+13:00:00 DST>)
+
+
+    >>> print(date_var.astimezone(timezone('Pacific/Auckland')))
+    2020-01-25 20:46:00+13:00
+
+This is right for a  -08 to +13 timezone (daylight savings accounted)
+
+
+`In official terminology, the Central Time Zone is UTC-06, which means the time in the Central Time Zone is six hours behind the Coordinated Universal Time. The Pacific Time Zone is UTC-08. During the fall, winter and spring periods of legal daylight savings time, the Central Time Zone shifts to UTC-05 and the Pacific Time Zone shifts to UTC-07.`
+
+-08 is California"
+Python,fffnvmd,t1_fffjowc,1579887989.0,Look at this noob.
+learnpython,fff6nhc,t1_ffeibxe,1579877061.0,">  The next guy will probably be you in 2 weeks when you've forgotten about writing this,
+
+HAHA. So dam accurate. It's why I may've tended to overcomment at times in the past"
+Python,fff1tax,t1_ffewd9h,1579873369.0,"Thanks. Though I ended up googling gunicorn yesterday...apparently, I was confusing that it was NGINX a webserver and Gunicorn another websever. Whn in reality gunicorn is nothing like that and is the Web Application Server instead. After that it made sense to me. Cheers"
+Python,ffell6a,t3_estd97,1579853243.0,"OMG this guy said 'shit' and not even 4 mins in lol.
+
+That said this really good talk. Always good on reviewing things. I was around for CGI scripts and that as covered well and concisely..
+
+Although I'm still confused about nginx...I know you said its not important because of gunicorn...but being that I've never used gunicorn and you referred to it as a webserver it seems conflicting because I've used nginx and my current flask app is using apache2 which are actual web servers. I'll end up googling after this comment about gunicorn tho"
+learnpython,ffekk48,t3_esydfv,1579851907.0,"I just started using DigitalOcean. It's actually amazing. I got a 100 buck 2 month credit. Far easier than using AWS.Awesome tutorials (even if you dont use DigiOcean) .Simple predictable billing and far better UI. I'd still use AWS for instances where I'm trying to do low cost per billing tho
+
+Other than that I hear a lot about Heroku."
+learnpython,ffek1jt,t3_et03de,1579851245.0," Excuse me.
+
+> I've been coding in Python (my first language) for over three months
+
+Ahahahahahahahahahahahahahahhahahahahahah loooooooooool.
+
+My dude. When I read this I thought you were about to say 3 years. 3 months! Dont worry man. 3 months is nothing. It literally took me decades to even truly understand programming (no thanks to stupidly complex jargon use in programming or OOP concepts didn't help).
+
+I can't really add more than I'm sure others have said. Though, you definitely have to think of programming as tortoise rather than a hare. There are a truly truly.ton of things that need to be understood/built upon little by little for the click to happen. For some it's easier for others like me it's decades worth of hard.
+
+I will say that what really helped me was to A) be jobless so that I could set a month to completely dedicate uninterrupted my focus on several python stufying and mostly B) *ATTEMPT* (because I failed initially) to build something independently that I needed. That means not following a tutorial to build some useless ""Demo""."
+learnpython,ffcp00y,t3_estcsc,1579804133.0,"I got a majority of scripts and shit that will mostly interest no one and the code is open. My first complete  full fledged project tho I published under MIT license.  My still needs to be completed project is there for anybody to view but its obviously not complete. Modifications I've made to other projects I've published of course and made PRs.
+
+Only things I have private are few programs that should be or that I haven't started working on"
+learnpython,ffco5st,t1_ffcljg2,1579803624.0,I'm reviewing/implementing a Flask tutorial from his site from maybe 4 years ago. Most of it is the same and still working. Some module name changes really is all
+learnpython,ffco03j,t1_ff9zcrk,1579803526.0,I mean the target network device
+webdev,ff9yfmk,t1_ff8tb94,1579724200.0,DC/Baltimore? Really. DC maybe but there is pretty much nothing in Baltimore lol.
+learnpython,ff9xily,t3_esfdb3,1579723655.0,Are you sending a sole packet. Try flooding the network device target
+learnpython,ff9x4dc,t3_esghf3,1579723413.0,https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+CompTIA,ff9vqdv,t1_ff9ucq0,1579722553.0,"In agreeance with this this is primarily attempting to target replaceable parts. The vagueness like other laws  allows leeway for all non specifiable cases that should it need be, can be determined in court by a judge. That being said also in pure edification with/u/OSUTechie I can say that since phone RAM is not a typically highly consumable or common FRU. So I'd be highly suspect  independent repair laws would have any burgeoning affect on this for shops. If need be l it is generally desolderable as well and replaceable by a Technicians no problem. My HTC Desire Z suffered from a manufacturing defect in the emmc and that was the only replacement. A few variety of LG devices from 2010-2015ish had issues where the the cpu needed to be recalled or there would be a slow death. What was funny was LG would at first deny deny deny your device repair if you didn't have any more warranty coverage/bought it second hand. Thus I had to hunt a local.independent repair shop with BGA equipment. All easily accesible. What isn't easily accessible to repair is as you said perma bonded batteries to the chassis (without access to something like a sonic. Or something like deliberate kill chips like the Apple T2 chip, or other deliberate artificial hinderances to dissuade repair."
+csharp,ff9miyk,t3_esener,1579716115.0,"Github.com
+Bitbucket.com
+Gitlab.com
+/r/programmingbuddies
+Civic Hacking Groups near you (although may probably use technology stacks du jour that are more popular )"
+csharp,ff9m5up,t3_esfbf4,1579715900.0,The Microsoft YouTube channel while not a regular podcast has video casts about .NEt from time to time
+CompTIA,ff9jjud,t1_ff8zxix,1579714362.0,Ive taken a part more than my share set of phones to do tepairs. (im cheap) . RAM is soldered onto the main board in 100% of the dealings with phones. People overstate the actual occurrence of a battery exploding in modern phones too. More likely that happens battery failure is due to manufacturing defects.. Which right to repair advocates specifically say that manufacturers not selling the parts to them or prohibiting the manufacturers from selling the legitimate parts to independent technicians is something they wish to change. This is all at the end of the day a mechanism for manufacturers to maintain profits and/or control.
+CompTIA,ff9htyq,t1_ff8vjfh,1579713330.0,"More like authorized rather than licensed.  Usually this gets marked for something like Apple. Which has an ""Authorized"" designation but hilariously they are not allowed to do even simple repairs when under the banner they must basically price gouge you or send it back to Apple to price gouge you/tell you get a new one. Further you end up losing data in cases where it wasn't even necessary for your data to be gone. The authorized designation is purely a money maker as Apple for example has put artificial barriers to continue a planned obsolescence. You having a product for as long as possible and keeping it serviceable rather than buying new is a direct hit to Apple products."
+Tcl,ff96tak,t3_escek8,1579706201.0,This is for TCL the programming language. Try /r/4ktv
+CompTIA,ff8s6cx,t3_es73jf,1579693995.0,I am shocked. Not really. The power of the dollar will make you do anything. A bit ironic though since the A+ is probably their marquee cert and it is heavily about hardware level repairs (at least historically).
+forhire,ff8rgee,t3_ercmp9,1579693110.0,Lmao. This post has so many red flags
+AskNetsec,ff6kukp,t1_fex6kvo,1579629354.0,">  desktop support role.
+
+That isnt a desktop support role. That sounds like pure helpdesk. The time I worked Desktop Support. I was literally at their desktops as a dispatch. That sort of pure helpdesk you're right...probably wont teach you much since you are just a glorified ticket assigner lol. Though, when I actually did Desktop Support. I learned a bit. Granted. Alot of my desktop support that I credit with teaching me what I needed was done in the military and therefore as stratified teams I had a lot more flexibility because we wore multiple hats (mainly ACLs on switches, networking, firmware upgrades, and AD)
+
+Though, to be honest even when I worked desktop support (deskside wise) outside the miitary I learned a lot of shit that comes in handy later. I wrote a separate reply before reading comments here. Though, I mentioned one IT dumb girl friend of mine who comes from no IT background. Do you think she would know how to deploy patches, how to access the registry, how to review system logs, where to check for common malware persistence, windows ACLs, windows NACLs, Group Policy control, securing DS, even just recognizing rogue services is useful etc, etc. It's a big big big task in Security field to be honest. Previous experience in IT does really help....(and if not that being a very fast learner).
+
+Yea but what your doing is probably crap. Though, you're probably expected to work from there at least understanding enterprise IT industry then move into a junior job in security. Further, make sure your doing shit on the side to bolster you skills"
+AskNetsec,ff6iu0w,t3_eqgsps,1579628125.0,"Despite the ""shortage of security folk!"" and every X, Y and Zed ""we make money off tuition/certs"" marketing to get into security. When your actually in the trenches and want to know what your doing....it really isnt entry level shit. There is a whole hole lotta ofshit you have to build on to be actually just decent in security. At least in many domains. For example I have a ""friend"" who just got a Security+ and is asking me for a job (she comes from a more Human Resources/administration type of role). Literally, that's not enough. She cant read code, she cant script, she doesnt know Linux, she never administered a Windows box, absolutely knows nothing about networking.. 
+
+
+ Although honestly I havent seen any posting that says it's not an entry level gig so dont apply. Actually I worked as Support Analyst for our security suite products. The amount of employed clowns in charge of security with no foundations in security really astounded me. So in my view, pretty much anyone can slide in somewhere. Esp if youre trying to work for one of those companies interested in bolstering the minorities. Hence that girl i mentioned above can prob get a job easy looool. (er keeping it might be another story though)"
+AskNetsec,ff6i5gf,t3_erwvmy,1579627711.0,"`In the perspective of an attacker. Why do they send phishing email to it staff rather than hr or management?`
+
+Who would have higher credential access? Manager or the IT admins.
+
+Secondly, maybe youre not a trget... they prob used en mass and sent it out indiscriminately. Numbers game...once they have a foothold time for movement"
+learnpython,ff6hagy,t1_ff6gwz3,1579627181.0,"I'm not familiar with mypysql but I used postgresql (ie pyscopg2)which also has a cursor object and I dont think you can len on cursor objects. Should be able to do a `len(cursor.fetchall)`
+
+That being said his script  looks all right. Though without data to test against might need to use a debugger"
+learnpython,ff3kai1,t3_er7pca,1579542855.0,Try a video course
+learnpython,femqie8,t3_epwvp6,1579266648.0,"No. 
+since "".dat"" is usually just a catchall format.  You'd have to know how the data is being convert from that to the mdf format either by following a spec or reverse engineering it. Good luck"
+ProgrammingBuddies,fek5kw1,t3_ehv208,1579193080.0,Done. NVM
+csharp,fegkaph,t1_fegcbil,1579095343.0,This is a good tip I will delete them once I switch to git cli for uploading. Ive just been drag and dropping in the limited WebUI thus far because of laziness
+csharp,fegk4rt,t1_fefzlcp,1579095194.0,"This isnt my ""first program"". I think my first program was indeed Hello Word in C like 20 years ago haha. This is my first ""real"" program in C#. 
+
+Though, I originally spent 2 years trying to port a C# to Python so, I have seen what C# look like before. Thanks for your compliment though!"
+csharp,fegjzc3,t1_fefmr6n,1579095070.0,Thanks. That makes sense. I had always thought Im supposed to aim to use the smallest size type for the data it would hold. I definitely was trying this with sbyte and it did become a headache. If I can just use Int32 everywhere Im fine with it LOL.
+csharp,fegjtvt,t1_fefime3,1579094947.0,"Thanks for pointers. I've definitely will consider the backing fields. i just kinda wanted to get a feel for them as I noticed C# introduces several different ways to implement property setters and getters. I used a variety of different ones and dont know their ins and outs fully yet. 
+
+My naming is terrible per usual in any project. So definitely a good point. Ill try to keep them even more verbose and  descriptive. I'll have to figure out which naming conventions to go with because I see there is a bit of a lively debate after you posted it haha.
+
+I've definitiely implemented your PopulateRDTable instantiation suggestion. Thanks that works better and deduplicates a lot.
+
+Yes, I have to refresh myself on LINQ. I used a little bit of it in the code but to be honest I havent looked at that chapter in C# The Yellow Book in 3 or 4 years haha. Part of me was also worried if frequent `using` statements in each file reimports the Assembly for each file. 
+
+Thanks again for the tips and time spent on assistance!"
+CompTIA,fegg5gl,t1_fee777x,1579091651.0,We're you fucked? im pretty sure CashApp tol me that once it's sent they cant do anything.
+CompTIA,fegg2fh,t1_feduyqc,1579091566.0,"> Come on guys, if you all are trying to be in IT, you have to be more careful with these things!
+
+Lmaooo. In my experience as CyberSecurity Contract Support guy THIS is exactly what IT is . lol everybody is just winging it."
+learnpython,fegechu,t3_eor5cw,1579089789.0,I was gonna make one...but. I need one for uh....research on particularly profiles....and downloading all those images. If that's on the roadmap lemme know
+Hotchickswithtattoos,fe5snuw,t3_ens33y,1578874074.0,She got thicker since I last seen her. Noice
+TrueReddit,fe1u5m2,t1_fe0ca8v,1578830876.0,">  Hogan is a manifestation of Maryland taxpayers' disgust with throwing billions into the bottomless money pit of Baltimore for decades, and it's barely slowed the city's slow death spiral and evaporating job base. If I moved 15 miles south to Virginia (and we're planning to), I'd save thousands in taxes and that's where all the job growth is anyway, because businesses have all done the same thing.
+
+This sums it up."
+AskNetsec,fe1t5l9,t3_enjijr,1578830586.0,Man this is really cool. generally people in other industries feel particularly shamed or shy from revealing salaries. Which I've always thought a bit odd (unless maybe you work together... but even then). So I appreciate all and everyone whoever provides realistic salaries this helps better reorient myself in the new market
+learnpython,fdskx5b,t3_emvyex,1578704495.0,those people are probably just smarter or/and more experienced than you. So what looks complicated may be their norm
+learnpython,fdskjzz,t3_emu855,1578704350.0,"May also look into /r/ProgrammingBuddies
+
+may not yield anything though"
+IWantToLearn,fdskf4i,t3_emsrho,1578704294.0,Get a hobby really. Get a job that is in a good social environment and walk around and be friendly
+edmproduction,fdq7yx7,t3_emjzmq,1578658649.0,Is deadmau5 still highly regarded? I thought he was exposed a long time ago as probably not the most reliable person
+webdev,fdq3ihp,t1_fdov0m3,1578653084.0,"I mean I wouldn't be surprised. I seen some technically incompetent shit from the Infotech officer of a ""company"""
+webdev,fdq3byo,t3_emcnha,1578652825.0,This is why marketeers and REALLY the most salespeople get paid the really big bucks lol. It really makes Mr think I should switch to those teams man
+learnpython,fdnfaks,t1_fdn71h5,1578584575.0,Wireshark saves lives.  When I was updating the selenium library once. I needed to mimic the calls and that saved so much of time for my ass that I went looking to donate to the project. Found out it doesnt even accept that for uch as great product. Good luck in your endeavors though
+learnpython,fdmy0rz,t1_fdmr22m,1578570839.0,They can have some odd and even funny comments outside the normal expected stuff
+learnpython,fdmwt63,t3_em32nj,1578569400.0,Hah now this is a way to be a creative motivator
+learnpython,fdls6ni,t3_elxiow,1578531228.0,maybe this guy https://www.reddit.com/r/Python/comments/da8qdy/i_dislike_tkinter_so_i_made_a_draganddrop_gui/
+learnpython,fdls1br,t3_elzjzm,1578531128.0,"Im pretty sure urllib uses the openssl libraries on the system. Did you check to make sure your openssl is compiled with ""unsafe"" ciphers enables because im pretty sure I remember back when I had to troubleshoot our stupid jackass customers's incompetency. I discovered that OpenSSl regularly deprecates default ciphers (or at least the distros might) and you have to explicitly enable them.
+
+Im pretty sure iirc, the commad to check your ciphers (on nix) is `openssl  ciphers`
+
+If that fails you should do a packet trace and look to see exactly the negotiation. particularly the HELLOs from both server and client. Good luck. Troubleshooting SSL/TLS is a pain in the ass already and your on SSL3. I feel for you lol"
+learnpython,fdlqf4p,t3_elwjq5,1578530023.0,no. not with the std library other than just look at the `socket` module. Though when you wanna step a bit more higher abstracted level then scapy is a good third party module. There is a udemy course that will have you all sorts of stuff with it that are networking tools
+YouShouldKnow,fdlo0gw,t1_fdkih8a,1578528384.0,Im not gonna watch this vid but im sure it's the one with the lady pulling over the guy who was tired or going to his next shift like a bat outta hell. Though i remember what happened to her afterwards ....that's the real question..... Cops dont take too kindly to be checked that their not above the law.. ...esp not by their brothers/sisters in blue. Is she even still a cop? I know the one Florida cop that pulled over an Internal Affairs guy was quickly uncopped.
+YouShouldKnow,fdlnm8g,t1_fdkqhb9,1578528115.0,the last 4 or 5 stops I've had were mostly warnings (Except for the very last one I got a fixit ticket for a bulb being out.) . I dont say much either. Im just polite. I dont do it like an arrogant asshole. i personally dont say much because Im a punk and usually if Im being pulled over it's legit lol. ...I was speeding
+YouShouldKnow,fdln2do,t1_fdkf9la,1578527750.0,"LOL. That's hilarious. I mean you can probably do the same though. Donate some money and get one of those Fraternal Order of the police decals. Maybe theyll let you go on occasion. I mean it's not as guaranteed as working at the DA, being a judge, being a cop, being a cop's superior. or having one of those family courtesy badges. Though you never know."
+YouShouldKnow,fdlmoc0,t1_fdkg5j5,1578527493.0,You sound like chill. You must work in a good district.....because some out in my old district absolutely trying to screw people over lol
+YouShouldKnow,fdlmey2,t1_fdl1uu5,1578527321.0,You must've thought you were a judge or something lol.
+YouShouldKnow,fdlm8pp,t1_fdkf9wm,1578527206.0,"1 - I dont think they have a legal right to speed. Im pretty sure they can get in trouble (fat chance though)...and this is why you see the bozo ones on no call flash their lights momentarily to weave in and out of traffic instead of persistent
+
+2 - that definitely isnt a legal reason for a the OP to have been speeding  but it's usually left up to hte judges discretion anyway. So maybe the judge was being lenient that day...or maybe Op lives in a district where they dont make all their money off of speeding case"
+YouShouldKnow,fdllp0o,t1_fdkkdqf,1578526848.0,Hah. Yea usually im not passing because I dont wanna be bothered by a cop.
+YouShouldKnow,fdlkz4o,t1_fdlk7ur,1578526376.0,Well if the cop didnt have radar aka hard proof. It's can be way easier to get dismissed in court. Also usually they ask you do you know how fast you were going...because you most likely dont or you'll say something that is just small but still over the limit and thusly illegal in most states...and that's still and admission of guilt
+YouShouldKnow,fdlklqh,t1_fdlgsao,1578526137.0,They probably make enough from other stuff. I know I paid in total 400 bucks for a useless NC ticket. I was in a rental and foreigner. Pretty sure I wasnt radared. Just got nascar'd in construction zone.
+YouShouldKnow,fdlkay2,t1_fdlilbc,1578525942.0,"Heard that referred as NASCAR-ing. 
+
+Also lol. One time when i was traveling. We saw a perched cop car on the side of the road...probably trying to radar but may not have been getting any hits and his quota was low. So I pass him. I see later that he is pulled off the side to nascar in my rear view mirror. Like literally he is in an unmarked car but you can still tell he is a cop. He is nascar people in the left lane. So I pull into the right lane. The car in front me of me is next. He does the same. and him and the next and the next and the next. Eventually the cop car was going so fast as the gaps were made for him that he caught up to someone up there and I remember passing the poor sap that got busted a while later.  I prob shouldve just maintained the speed limit and stayed in my lane...but im sure they wouldve went around or something. They seemed desperate"
+Python,fdkczsm,t1_fdk6dz4,1578501267.0,Oh brother if that the case... I'd def rob you at knifepoint
+Malware,fdju0tr,t1_fdjrxl0,1578487458.0,"Looks like a legi company and not one from a sketchy company. This could be a false positive as well by the AV. Again, i dont do Android Dev work so I dont know there processes. Though, you can get in touch with the company and/or setup your own proxy on the phone to monitor communications and sandbox it if you find anything suspicious"
+Malware,fdjrh69,t3_elqwp7,1578484741.0,"Since Im not an Android dev. I dont know how exactly they request functions but generally speaking I think they use the API level for the OS. Which is above board.
+
+In general though, yes some app functions/or particularly development kits can trigger Antivirus. You can see it with AVs that look at signatures. Then if you have a benign application it can be still flagged. Generally speaking Ive seen this mostly with packers/encoders though. 
+
+As for your app the functions/perms that Symantec says it uses are:
+
+When the risk is being installed, it requests permissions to perform the following actions:
+Access location information, such as Cell-ID or WiFi
+Check the phone's current state
+Check the phone's current state
+Create new contact data
+Create new SMS messages
+Initiate a phone call without using the Phone UI or requiring confirmation from the user
+Monitor incoming SMS messages
+Monitor, modify, or end outgoing calls
+Open network connections
+Read SMS messages on the device
+Read user's contacts data
+Send SMS messages
+Start once the device has finished booting
+Use the device's mic to record audio
+Write to external storage device
+
+
+Which seem a bit extreme for an endoscopic camera...but i dont own it. so I dont know all the features it actually advertises versus uses. Though, Id be careful anyway because it probably spyware like it says"
+csharp,fdh3ilo,t3_elcydt,1578414594.0,"Feels huge to me too man. Does so much stuff. Though I'm use to not so feature rich dynamic languages like tcl, python, bash and then C as well. I know C# was suppose to be a blend of C++ and Java so if I eventually get to Kotlin and Rust this experience and exposure will all pay off."
+Python,fdgy7zt,t1_fdgt29u,1578411242.0,"Yeah I know that and im not worried about. I agree it's worthless but technically inept HR drones/recruiters just search for keywords and whatever they can easily see just aids them. I dont expect the actual Hiring Management team to regard it. It's just as an aid to HR generalists/Recruiters. Plus itll be nice to replace my soon to expire CEH 
+I wont renew with something.
+
+That being said the link doesnt discuss if you pay now or pay later. I'll find out when I get time to make an account"

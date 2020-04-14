@@ -1,0 +1,60 @@
+subreddit,self ID,parent ID,time,text
+Foodforthought,fdndr0l,t1_fdm5pp9,1578583629.0,"> Now socialism has the same problem, only instead of corporations being the great evil, government takes on that role. Politicians profit off the people, one of the reasons people like Putin are some of the richest in the world.
+
+Russia is not a socialist country"
+Foodforthought,fdhxblf,t3_elb0ri,1578431852.0,Good old days? When did they ever end?
+boulder,fd698gf,t1_fd67w79,1578187466.0,"Rebutting my point by linking to an article (CNN, lol) that compares the interventions to Iraq based on cost is comically missing the point (also very on brand for a self-identifying liberal). Drone striking children in the middle east isn't bad because it costs money. CTRL+F ""democracy"" No results found.
+
+> Supporting Saudi Arabia and its interests is completely fucked up. They're extremists that were responsible for 9/11. And they have so much power in Washington that nobody will call them out. That doesn't mean either party actually wants to support them - as much as it is a recognition that some foreign nations have vastly outsized influence on our election process: Saudi Arabia, Israel, and Russia primarily.
+
+What does any of this have to do with the fact that Obama was the person who ok'd the US backing of the intervention there? He gets a pass because ""everyone's doing it""? This is exactly the sort of weak willed liberal justification we see time and time again for giving their leaders a pass instead of holding their feet to the fire. Does pretending like he had no choice make you feel better about voting for a man who's actions have led to the worst Cholera outbreak since the Haitian earthquake? Over a thousand children have died, why carry water for these people?"
+boulder,fd5yai0,t1_fd5dazf,1578183028.0,"The idea that the Libyan and Syrian interventions were minor military support for democracy is a comical reading of the situation, but if you want to believe that, feel free I guess.
+
+One question though, is providing logistical support for Saudi Arabia's war against Yemen also minor military support for democracy?
+
+There's a reason it's called the ""bipartisan consensus on foreign policy"", neither party is interested in disrupting the status quo, and as far as I can tell a vast majority of Democratic voters have no interest in holding the leaders of the party accountable or pursuing change. The ones that do rarely identify as liberal."
+boulder,fd45n76,t1_fd44zqd,1578164605.0,"Liberals are the ""mainstream"" of the Democratic party. https://www.pewresearch.org/ft_19-06-26_democrats_in2019-nearly-half-democrats-identify-liberal/"
+boulder,fd42cxz,t1_fd3zktq,1578163724.0,"Libyan and Syrian interventions immediately come to mind. Personally I'd count our involvement in Yemen as well, not to mention the Iraq and Afghanistan wars which he escalated as opposed to drawing down. If you don't want to count those as ""started wars"" well then, Trump hasn't started any either, so /shrug
+
+Keep in mind Congress hasn't declared war since 1942 before you quibble about those not counting."
+boulder,fd3wxg2,t1_fd3s9n6,1578162309.0,Liberals like war though? Obama started quite a few himself. I think you underestimate how much bipartisan support there is for the US military industrial complex.
+PHP,fcvvu41,t1_fcvvf18,1578011247.0,"Unfortunately they don't support type annotations, and I like being explicit with what types my values are. But I mean, to each his own, there's not ""one right way"" and everything has tradeoffs."
+PHP,fcvv9dj,t1_fcvurlg,1578010880.0,How do you know the fillable and guarded arrays aren't out of date? :)
+Foodforthought,fcvuvym,t1_fcvuavk,1578010641.0,"One of the core functions of government is to manage taxation. Part of that is determining what tax rates are. If you want to call taxation ""taking from people who create and allow those who don't create to function for free"", well than I can't really help you, you're too far divorced from the reality we're living in :)"
+PHP,fcvuk58,t1_fcvue9k,1578010429.0,"Those will work so that PHPStorm recognizes what you're doing but it won't give you a list of attributes if you're using an instance of a User model, part of the reason I like annotations is I can do
+
+    $user->
+
+and actually get a list of the properties on the model."
+Foodforthought,fcvtv9m,t1_fcvtopn,1578009984.0,"You're all about breaking up monopolies but your deleted comment said ""he made a product and took over a market"" like it's a good thing.
+
+Makes you think.
+
+> someone should be able to make as much money as they want and nobody else should decide how much is ""fair"" to take away from them
+
+That's actually one of the core functions of government, so unless you're some sort of ""taxes are theft"" wacko you're not thinking this through."
+PHP,fcvte9r,t3_ej6ki0,1578009678.0,"I use PHPDoc to annotate my classes with the magic properties laravel gives them. ie if you have a model User and a field Name put at the top of the class in the docblock
+  
+    /** @property string name **/
+
+Or for a relationship like UserRoles
+
+    /** @property UserRole[] userRoles **/
+    ...
+    function userRoles() {
+        return $this->hasMany('App\Models\UserRole');
+    }
+
+etc.
+
+I also use a BaseModel that has a few other methods defined
+
+    /** @property int id **/
+    /** @method self findOrFail **/
+    etc, etc
+
+Long story short, it will never be perfect, and it does add a little work for yourself, but it will make code completion a lot nicer."
+Foodforthought,fcvsvs2,t1_fcvolcb,1578009349.0,"> He created a product like none the world had seen at the time and took over that market
+
+lol if you actually believe this"
+Foodforthought,fc0t9br,t1_fbve4tt,1577299127.0,"Sure, once both sides stop eviscerating the working class in the name of their billionaire donors"

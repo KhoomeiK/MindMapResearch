@@ -1,0 +1,147 @@
+subreddit,self ID,parent ID,time,text
+aww,fggmnox,t1_fgg34cy,1580765040.0,According to another comment he is actually deaf too.
+Office365,fggh9f2,t1_fggaohr,1580761835.0,"Then it's 93 days for SPO/OfB and up to 30 for EXO afaik (and for 14 days after it's ""permanently"" deleted you can still contact Microsoft and get it back, at least for SPO/OfB, not sure about EXO). For versioning it's up to you, but it defaults to 500 versions for SPO/OfB
+
+[Sharepoint / Onedrive for Business](https://support.office.com/en-us/article/Restore-deleted-items-from-the-site-collection-recycle-bin-5fa924ee-16d7-487b-9a0a-021b9062d14b#ID0EAAIAAA=Online)
+
+[Exchange Online](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-user-mailboxes/change-deleted-item-retention)
+
+[SPO/OfB versioning](https://support.office.com/en-us/article/How-does-versioning-work-in-a-SharePoint-list-or-library-0f6cd105-974f-44a4-aadb-43ac5bdfd247)"
+technology,fggdapx,t1_fgga0xo,1580759456.0,"Absolutely, all I'm saying is it's definitely intentional, automated or not."
+Office365,fgg8sti,t3_ey9vs4,1580756711.0,What license level do you use? I think it requires E3 or above but with a retention policy you can retain as long as you like. It does count toward the storage quota for eg. a SharePoint site though.
+Office365,fgg7r42,t3_eybbxl,1580756071.0,Create a 365 group and use the shared OneNote for the agenda perhaps? That's what we do for recurring group meetings.
+technology,fgg7352,t1_fgg3hnp,1580755661.0,"Sure it is. Like I said, it's extremely unlikely all of their websites since -96 are alive. So someone made a choice to keep this one running."
+technology,fgfyw6o,t1_fgfx4pd,1580750613.0,"They've still made a choice to keep the site up though, I doubt all of their old sites are still active."
+technology,fgfumu3,t1_fgfsbp3,1580747975.0,"It's not a LetsEncrypt cert though, someone still needs to pay the bill every two years."
+aww,fgats1u,t3_exng3g,1580655404.0,"Hop, hop, hop, flop."
+PowerShell,fg80p4g,t1_fg6mbyc,1580606406.0,"What's your issue? Op confirmed this was the case. You were wrong, I'm sorry for You. Thinking any customer can influence a solutions provider to make changes for their specific use case is very naive."
+PowerShell,fg6bp5g,t1_fg64srj,1580562823.0,"Agreed, but it's not unlikely this is output from a HR system they have no control over and which has limited export options."
+TheMakingOfGames,fg49ubv,t1_fg3zn6n,1580499214.0,"Oh cool, wasn't aware there were any emulation efforts at all."
+TheMakingOfGames,fg3zfxf,t1_fg3b06i,1580492946.0,So does this run on anything at all? Not well versed in the M2.
+oculus,ffsy729,t1_ffsayye,1580197453.0,It's crossbuy iirc? So when it releases on Quest you'll be golden if nothing else.
+PowerShell,ffrvjeg,t1_ffq4jnm,1580166806.0,"The method you chose works poorly when there are backticks in the code unfortunately. Consider instead adding a blank line then indent the code four spaces like this:
+
+    $myfile = invoke-webrequest -URI ""[http://$IP/myfile.txt](http://$IP/wsdeploy.txt)"" -usebasicparsing
+That way the backticks don't mess the code up."
+PowerShell,ffrqg28,t1_ffrkwdo,1580163536.0,"Iirc it is, but not continually, thereby only with the accuracy /u/PinchesTheCrab mentions."
+TheMakingOfGames,ffqvuuy,t1_ffqj8en,1580144810.0,"Me either! Not a huge surprise though seeing as I'm a 100% PC gamer based in Europe and this was apparently only released in the US and on MegaCD, a console I was well aware of back in the day but have never seen in real life, nor met anyone who owned."
+PowerShell,ffoadmq,t3_eubrqo,1580075686.0,"If it's just for a few to try, I'd use the `-Identity`parameter of `Get-Mailbox`to manually specify them. You can pass it most anything, name, alias, mail address, CN, DN etc. Full list in the documentation: https://docs.microsoft.com/en-us/powershell/module/exchange/mailboxes/get-mailbox?view=exchange-ps#parameters"
+PowerShell,ffnxdvd,t3_euc487,1580071977.0,Sounds like a text encoding problem (might be you get UTF-16 for some reason). This might get you on the right track: https://windowsserver.uservoice.com/forums/301869-powershell/suggestions/13685217-invoke-restmethod-and-invoke-webrequest-encoding-b
+pihole,ffit5cw,t1_ffimhnc,1579982073.0,Do like you do with the DCs and all other servers that need redundancy?
+pihole,ffil5b3,t1_ffgw029,1579976489.0,Why Pi's instead of VMs?
+PowerShell,ffcy95y,t1_ffcx1ij,1579809748.0,Great! Just ask if something is unclear in the code.
+PowerShell,ffcxvwz,t1_ffcvijl,1579809540.0,Now that's a clever method if I ever saw one! Seems obvious but I'm not sure I'd ever have though of it.
+PowerShell,ffcwzuo,t1_ffcwe2i,1579809020.0,Yeah I imagine any .xls files still around is going to be pretty ancient documents. Then again I know a few important frequently used documents that are in the Works 95 format so...
+PowerShell,ffcwoim,t3_eswzf1,1579808834.0,"While this is correct, I don't understand why you would put the $ there in the first place?"
+PowerShell,ffcvwmn,t1_ffck1y5,1579808366.0,"> since all xls / xlsx files (since 2003) are really zip files
+
+Huh, I knew this was true for xlsx-files, didn't know the later .xls files were too."
+PowerShell,ffcvhq5,t3_esxpc7,1579808115.0,"Something like this should do it:
+
+    $DateArray = Get-Content -Path 'C:\input\datefile.txt'
+    foreach ($Date in $DateArray) {
+        Get-Date -Date $Date -Format 'yyyy/MM/dd'
+    }
+I got an error on the first example date though, November 16 2018 was a Friday not a Saturday, so that can never be a valid DateTime object."
+AskReddit,ffcljmy,t1_ffbpxa2,1579802025.0,You should probably look for a better job if there are more than a handful making triple what you do. Unless you're level 1 help desk or something. I'm not sure I know any people that make triple what I do apart from maybe some CEOs.
+sysadmin,ffcgejy,t1_ffcfatr,1579798897.0,"There are group policy templates for Firefox and Chrome, I assume that's what you'd use."
+PowerShell,ff9zxao,t1_ff9yogc,1579725072.0,"This is the faster method of the two as well, avoids recreating the object every iteration of the loop."
+PowerShell,ff9zmb7,t3_esgwlv,1579724894.0,"I think LastUserActionTime is the only reliable attribute you can use, as /u/Leafblower27 points out LastLogonTime (and several other iirc) are updated by maintenance tasks and not useful for this."
+PowerShell,ff9yczh,t1_ff9pgwj,1579724156.0,"Probably nothing simpler. The problem is that the .Count-method doesn't exist on all objects, but you can force basically any object to be a part of an array where it does exist."
+PowerShell,ff9limr,t1_ff9lbm9,1579715521.0,"Good point, this is the best way for sure."
+AskReddit,ff9ld2b,t1_ff9k2ll,1579715430.0,Yeah... https://www.youtube.com/watch?v=6k01DIVDJlY (True Facts About The Duck)
+PowerShell,ff9l9a2,t1_ff9klav,1579715369.0,"Not manually you don't, just pipe the output from Get-ADGroupMember into Get-ADUser."
+PowerShell,ff9knue,t3_esf54n,1579715018.0,"Pipe one of the results to ""Get-Member"" and see if the property you want is there. If it's not, you can probably pipe the results to Get-ADUser and select your properties there instead."
+PowerShell,ff9jx9j,t1_ff9j2np,1579714585.0,"No worries, glad to be of help!"
+PowerShell,ff9i9r6,t3_esekp9,1579713597.0,"You're using the wrong escape character in your strings. If you replace all the backticks with backslashes it will work.
+
+The backtick is the escape character when using double quotes, so changing to double quotes would work as well."
+PowerShell,ff9h1qm,t1_ff9d3jq,1579712852.0,"Try forcing the result into an array like this:
+
+    $ITN = @($QueryResults | Where {($_.Attribute -eq ""N"") -and ($_.""Department"" -eq ""IT"")})
+    $ITN.Count"
+sysadmin,ff9fl5o,t1_ff9c9xx,1579711958.0,"You can store it encrypted in a file for use by the script.
+
+Create it by eg:
+
+    $Creds = Get-Credential
+    $Creds | Export-Clixml -Path 'C:\script\pwd.xml'
+
+Import into script with:
+
+    $Creds = Import-Clixml -Path  'C:\script\pwd.xml'
+For use with Powershell cmdlets you can probably use the `$Creds` object as is. For use with other stuff you can extract the username with `$Creds.Username` and `$Creds.GetNetworkCredential().Password` respectively.
+
+The user that creates the file must be the same as the one running the script, and it has to be on the same computer. If that's not possible you can also use a keyfile to encrypt the password (should be able to find some references if you google ""powershell encrypt password keyfile"" or something like that. Anyone that can reach the keyfile can decrypt though so make sure to keep it safe.
+
+You could also store it in the credential vault in Windows as a third option.
+
+EDIT: And probably in the Azure key vault if you have an Azure subscription."
+AskReddit,ff9augc,t1_ff9afzx,1579708765.0,Ducks too.
+sysadmin,ff99u8d,t3_esdswk,1579708138.0,"No need for the password to be in plain text in a script, at least if you use Powershell."
+aww,ff5xj3d,t1_ff5shtw,1579613523.0,Must be a regional thing. Ksksks is how cats are generally called here in Sweden.
+AskReddit,ff41adg,t1_ff3wc3l,1579553367.0,"No need for begging, just get in line."
+pics,ff3u8z2,t1_ff3cuqv,1579548973.0,"Ah yes, I remember the one with the vet. This one: https://www.liveleak.com/view?t=k26WX_1531237131
+
+Scary shit."
+movies,ff3nv5k,t1_ff2jvfd,1579545058.0,Sure hope the Japanese audio will be available too.
+PowerShell,feyosym,t1_feylsxr,1579448476.0,"Well yeah, if they're encrypted with a key and you have the key it's obviously not much use. Gotta be very careful with key files for sure."
+PowerShell,feyjwc3,t3_eqjqk2,1579446500.0,This may be worth a read as well: http://www.happysysadm.com/2014/10/reading-large-text-files-with-powershell.html
+PowerShell,feyjq82,t1_fete74b,1579446437.0,"That's probably the object size limit in .net, and would be a problem for any method of storing the file as an object.
+
+Never had a use for it, but this might help in that case: https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/gcallowverylargeobjects-element"
+PowerShell,feygp6v,t1_feygcxv,1579445290.0,"Not sure what you mean by ""not safe from peering eyes""? The password is encrypted in the file, and can only be recovered by the user who created it, on the same computer it was generated.
+
+Keeping credential files or any files you import by automation in a script safe is obviously a good idea anyway of course."
+PowerShell,fexvjso,t3_eqqnvy,1579437126.0,"Maybe not that obscure, but the Generic List is quite useful at times. Unlike eg. an array it's not fixed size and you can add and remove items from it to your hearts content with several types of Add and Remove methods. Also has methods for sorting and more.
+
+Created by eg. using
+
+    $List = New-Object 'System.Collections.Generic.List[System.Object]'
+or
+
+    $List = [System.Collections.Generic.List[System.Object]]::new()"
+PowerShell,fexton9,t1_fex6dtd,1579435908.0,"> Export-Clixml : export a full powershell object with all its properties and features. You can import it later and continue with all the objects and functions. Much better then using a csv or similar
+
+Even works with secure strings and encrypted objects, very useful for storing credentials safely for script use."
+PowerShell,fexgwgb,t1_few9g7q,1579430801.0,"Yes, quite useful at times.
+
+In what scenario do you lose parts of the name? I tried with the name 
+
+    ""foo     a   b   bar""
+ and it worked fine?
+
+EDIT: Btw, at that point it's an array, and you can get whatever indexes you want really, eg:
+    
+    $Array = 1..100
+    $Array[0,6,68,-1,59]
+Result:
+
+    1 7 69 100 60"
+PowerShell,ferrbnl,t3_eq1ka6,1579357460.0,"Here's another way to do it:
+
+    function TrimManagerName {
+        param ($Manager)
+
+        $MangFirst,$MangLast = $Manager.split()[0,-1]
+        ""$MangLast $MangFirst""
+    }"
+raspberry_pi,fegdq8x,t1_fefitpb,1579089091.0,÷1 for night mode.
+technology,feg0p9n,t1_feeb5ui,1579071965.0,"They frequently snip their own locks too though, so it's pretty much pointless."
+technology,feg0iq6,t1_feegpir,1579071754.0,Pretty sure Deviant Ollam has a video where TSA cut his gun case locks. They replaced them with their own shitty locks iirc (and provided no key).
+simracing,fe6q6bz,t1_fe17beo,1578900242.0,"Not sure if serious, but if so I think you're vastly underestimating the cost of running a real car."
+technology,fdyjwzk,t1_fdwezi5,1578780611.0,"Except pointing out public records as a problem is more like ""gas is a real issue since arsons use it to start fires"".
+
+The problem is arsons, not gas."
+technology,fdutpv4,t1_fdsiikg,1578738678.0,The point is public records isn't the issue.
+aww,fdrxftk,t1_fdrxcgk,1578691218.0,/r/nocontext
+technology,fdrqyfx,t1_fdqe0wm,1578688303.0,">You say that but people get swatted.
+
+Only in America. Public records doesn't equal risk of death in civilized countries."
+PowerShell,fdpu2ea,t1_fdpa90j,1578640501.0,Don't let the door hit you on the way out.
+raspberry_pi,fdoi61k,t1_fdogfxc,1578605635.0,I'm going to install TWO headphone jacks.
+todayilearned,fdjfx5y,t1_fdjfpn2,1578469089.0,Drugs?
+PowerShell,fdhrd2v,t1_fdgzlz3,1578428673.0,Depending on how you call the dialogbox there may be a method connected to the object to focus on it and activate the window so it appears in the foreground.
+PowerShell,fdhqtd8,t1_fdhl3n9,1578428357.0,"Indeed I am, Test-Connection is ICMP only. A far bit more fancy than ping though, but that should be expected."
+PowerShell,fdhg425,t1_fdh9n3v,1578421913.0,"It's more than that though, apart from ICMP you can specify any TCP port you want as well."
+diysound,fcjt3tp,t1_fcibymv,1577703339.0,"LOL, I did expect some mistake to creep in there. That's the current required by the speaker at 8 Ohms of course, not the supply current!"

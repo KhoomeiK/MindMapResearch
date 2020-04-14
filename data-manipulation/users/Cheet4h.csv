@@ -1,0 +1,403 @@
+subreddit,self ID,parent ID,time,text
+Steam,ffxe3q6,t1_ffx7zxr,1580323277.0,"Yeah, that image may only show the time when it was received by your provider.
+
+For example, here is the header of my lunar sale notification mail (minus some irrelevant stuff, edited for privacy):
+
+    Return-Path: <noreply@steampowered.com>
+    Delivered-To: example@example.com
+    Received: from localhost ([xxx.xxx.xxx.xxx])
+    	for <example@example.com>; Thu, 23 Jan 2020 23:40:30 +0100
+    Received: from mx1.example.com ([xxx.xxx.xxx.xxx])
+    	Thu, 23 Jan 2020 23:40:30 +0100
+    Received: from smtp-05-tuk1.steampowered.com (smtp-05-tuk1.steampowered.com [208.64.202.57])
+    	for <example@example.com>; Thu, 23 Jan 2020 23:40:26 +0100 (CET)
+    Received: from [208.64.200.153] (helo=valvesoftware.com)
+    	by smtp-05-tuk1.steampowered.com with smtp (Exim 4.90_1)
+    	(envelope-from <noreply@steampowered.com>)
+    	for example@example.com; Thu, 23 Jan 2020 14:39:34 -0800
+    To: example@example.com
+    From: ""Steam"" <noreply@steampowered.com>
+    Reply-To: <noreply@steampowered.com>
+    Errors-To: <noreply@steampowered.com>
+    Subject: X Produkte auf Ihrer Wunschliste sind im Angebot!
+    Date: Thu, 23 Jan 2020 14:39:34 -0800
+
+
+The mail was sent by Steam on 2020-01-23 at 22:39:34 UTC, and arrived at my provider less than one minute later, at 22:40:30 UTC
+
+It seems pretty fast, the largest delay was apparently between their US and their EU mail servers, which took 52 seconds, and four seconds later my provider received the mail and delivered it into my inbox. The timestamp in my inbox is 23:40 CET, which corresponds to the received time, not the sent time.  
+
+Although I heavily suspect that it's actually Valve's fault here. While this email is from Thursday, my secondary account only received a mail on Saturday. So it could very well be that their newsletter queue was way too slow to plough through all mails to be sent."
+dwarffortress,ffx2gti,t1_ffwweto,1580316328.0,"Usually a few hours before the next version is released, at least during the bug fix cycle."
+Steam,ffx1qlb,t1_ffx0jeh,1580315883.0,Is that the time your provider received the mail or Valve sent it? Check the headers if possible.
+de,ffwa0wp,t1_ffw1nx0,1580291772.0,"Mal abgesehen davon, dass bei Zensursulas Vorschlag ja noch dabei war zu loggen, wer die Domains aufgerufen hat.  
+Also einmal so eine Domain finden und das Favicon in einem IMG-Tag in der Signatur auf einem der damals beliebten Foren einsetzen, zack hast du hunderte Leute auf diesen Listen, die davon keine Ahnung haben."
+de,ffw7gbe,t1_ffw6ey1,1580287923.0,"Meistens wenn ich Kaffee oder Kakao unterwegs getrunken habe, war das auf längeren ÖPNV-Strecken (30min+), vor allem bei kaltem Wetter. Geht dann halt auch darum, sich ein wenig aufzuwärmen, vor allem, wenn ich mit dem Zug in der Stadt ankomme und dann noch 8 Minuten oder länger auf den Bus oder die Stadtbahn warten muss.
+
+Mit ein Grund, weshalb ich meine Pendelstrecke durch Umzug auf unter zwanzig Minuten reduziert habe. Neben den geringeren ÖPNV-Kosten kommt auch noch dazu, dass ich den Bäcker nicht immer auf der Strecke zur Arbeit habe und häufiger zuhause esse."
+de,ffuxo6i,t1_ffurmxf,1580251315.0,"Chocolatey lässt sich leider nicht sehr intuitiv benutzen, meiner Meinung nach.  
+Hat ein ähnliches Problem, das auch Linux Package Manager in der Kommandozeile haben: Du hast kaum oder keine Möglichkeiten das Angebot zu durchsuchen.  
+Wenn du z.B. nur einen besseren Text-Editor brauchst, ist's schwierig danach zu gucken. In einem Package Manager mit gutem UI (wie z.B. unter Windows 10 der Store) gibt man einfach ""Text Editor"" in die Suche ein und findet Ergebnisse.  
+
+Zum Thema schwer zu benutzen: Das letzte Mal, dass ich Chocolatey zu benutzen versucht habe, wollte ich damit die Entwicklungsumgebung NetBeans installieren. Angeblich ginge das wohl. Im Endeffekt habe ich mehr als zehn Minuten damit zugebracht das vergeblich zu installieren und es nicht hinbekommen. Probleme mit verschiedenen Packages, unterschiedlichen Versionen mit diveresen Abhängigkeiten, unklar benannte Packages etc etc. Hab's dann doch auf traditionelle Weise installiert."
+de,ffuhjii,t1_ffu8drd,1580242085.0,"Hm, hab das anders in Erinnerung. Ist allerdings auch Jahre her und ich hab das OS nur für ein paar Tage genutzt, bevor ich Windows wieder installiert habe."
+de,fftn2cy,t1_fftlw3u,1580224701.0,"Zwingt einen ja keiner, die Software nur via Store zu verteilen, genauso wie du Linux-Software ja auch nicht nur mit dem Package-Manager runterladen kannst, sondern oft auch vom Herstellers direkt."
+de,fftl0s1,t1_fftipn1,1580223278.0,"Das letzte Mal, als ich Ubuntu ausprobiert hatte, wurden mir bei Suchen über das Desktop-Such-Widget Ergebnisse von Amazon angezeigt.  
+Frische Ubuntu-Installation, das Such-Widget war das, was hauptsächlich Dokumente und Programme ausgeführt hat."
+de,fftkt4d,t1_ffteaiq,1580223128.0,"Debians Package Manager hat mir auf meinem vServer Installationen häufiger zerschossen als Software-Updates unter Windows (Gut, 1:0, aber das ist trotzdem mehr).
+
+Abgesehen davon hoffe ich, dass mehr Programme auf den Windows Store setzen - der  kann alle Programme auf einmal aktualisieren. Alternativ kann man ja aber auch z.B. Chocolatey nutzen."
+Games,fft1wl1,t1_ffsozaq,1580202641.0,"""Now""? I remember reading about them injecting ads into the webmail interface years ago.  
+Never used it tho, so can't really compare."
+Games,fft1rvj,t1_ffs03fq,1580202441.0,"More like many devs tried to replace it, but they never figured out what it actually does, just that replacing it with something working exactly to spec wrecked parts of the software it shouldn't even touch."
+blursedimages,ffri2ag,t1_ffrbfx3,1580158423.0,"> Okay not everyone is trained in ju jutsu. 
+
+Nope, but our policemen are generally trained in hand-to-hand combat. That includes disarming people. I mostly mentioned Ju-Jutsu because as a defense-focused martial art (at least that's what our instructors taught us) it includes techniques to be used against armed attackers and quick ways to disarm them.  
+Although yeah, you should still generally avoid fights, especially against armed people.
+
+> Batons wouldn't work because again, you have a non lethal weapon vs a weapon that can slice you up. 
+
+Yep, but a baton usually has a bit more range than a knife. Lethality isn't even important in this context, an attacker doesn't have to be killed to be neutralized, disarming them or knocking them out is just as effective."
+blursedimages,ffqza7v,t1_ffpxsfh,1580146992.0,"If a homeless guy came at me with a knife, I may be able to leverage the Ju-Jutsu training I took as a teen in my home village's sports club. Except if it's sudden I'd probably be too surprised to do so if it was sudden.  
+Although I'd expect that police would be better prepared, since they usually get training in hand-to-hand combat and would be able to disarm a knife attacker. They could also utilize their batons or tasers. As a last resort only, they could use their firearms, but preferably in a non-lethal way, e.g. by shooting the assailant in the leg.  
+
+Although I guess we have the advantage here that becoming a member of the police force takes at least three years of training, and having higher education is a prerequisite."
+blursedimages,ffqya9n,t1_ffpzp7c,1580146359.0,"What do you define as countryside? I grew up in a village of less than 1500 people in Germany, and the next police station was ~10 km away. Response time would be 10 minutes or less, considering you also have patrol cars on the roads between the villages."
+rareinsults,ffqcp62,t1_ffpaonr,1580130497.0,"Aren't all super heroes vigilantes, since they don't have a mandate by the nation and usually operate outside the restrictions of the law?"
+ProgrammerHumor,ffolc6b,t1_ffoevim,1580078883.0,"Nah, just binary.  
+
+     10 <=> 2
+    +10 <=> 2
+    ---
+    100 <=> 4
+
+    100 <=> 4
+    - 1 <=> 1
+    ---
+     11 <=> 3"
+Windows10,ffnpijd,t1_ffnoxsk,1580068981.0,"This is really hard to read, let alone understand if you insist on not using punctuation."
+Windows10,ffno4pi,t1_ffmztqy,1580068419.0,"Okay, I couldn't actually read all that due to the lack of punctuation and line breaks, but if your issue is that Windows 10 does stuff while you're not actively using your PC, that's a feature and not a bug.  
+
+Would you rather watch a movie or play a game and then have Windows decide ""Yeah, now is a good time to update the search index and do a full filesystem antivirus scan""? Windows 10 does this when the PC is not in use and usually stops as soon as you start doing stuff, as to minimize impact to your use."
+Windows10,ffnn3uf,t1_ffmgv56,1580068086.0,"> Edit: Other comments in this thread have mentioned that there's a virus that disguises itself as a Chromium executable, so maybe that's what you've seen?
+
+Could also be viruses or other mal-/adware installing their modified Chromium instead, usually laden with adware plugins."
+ProgrammerHumor,fflla6s,t1_ffk8phj,1580040987.0,"According to a friend of mine who works at a company that bought WinRAR licenses, they use it because the employees are actually familiar with it, and because WinRAR supposedly has a far better UX.  
+
+To non-Tech people it may be a better solution than getting familiar with 7zip - especially considering that the license only costs somewhere between 7€ - 20€, and is a single lifetime purchase instead of a subscription."
+de,fflj69w,t1_fflgxbd,1580040310.0,"Ne, 'ne andere Bank. Wüsste jetzt auch nicht, ob die Karte einen besonderen Namen hat oder so, hab die direkt weggeschlossen und seitdem nicht mehr angeguckt."
+de,ffl79ps,t1_ffl59ft,1580035829.0,"Ich würd' trotzdem eher die Polizei rufen, als mir evtl. eine Klage wg. Körperverletzung einzufangen."
+de,ffjr1s4,t1_ffj0tyf,1580004717.0,"Einzig problematische Sache dabei kann sein, dass der Finanzierer dann versucht dir weitere Kredite schmackhaft zu machen. Als ich mir mein neues Smartphone hab finanzieren lassen, hatte ich zwei Wochen später Post von der Bank mit einer Kreditkarte von denen (die ich nicht benutze). Wurde mir von dem Mitarbeiter im Markt auch vorher erklärt, daher war ich nicht überrascht darüber."
+windows,ffjqj5f,t1_ffiq0xa,1580004374.0,Don't even need an activated version. I recently reinstalled my PC with Windows 10 1909 and entered a Win8 key after the installation. Didn't cause any problems at all.
+todayilearned,ffjpwch,t1_ffjmmca,1580003959.0,"> Personally I run the opinion that power generation is too important to be handled privately.
+
+I guess we can agree on this one. Nuclear plants are already getting massive financial support from the state since they don't have to pay for waste disposal (at least here), just move that whole thing into state property."
+Showerthoughts,ffjeml2,t1_ffjcgf2,1579996647.0,"Somewhere in the first season. IIRC the Enterprise (NX-01) was one of the first ships to be outfitted with a transporter that was allowed to transport biological matter, and the crew was highly skeptical of it. They even had a transporter accident where an away team inside a storm was to be transported and some of the planetside matter was mixed into the crew members.  
+The Replicator and Holodeck technologies weren't part of Federation expertise at that time (though both are featured as alien technologies over the course of the series), so transporters aren't based on replicators (which cannot create living biomatter in the episode where they're introduced to the crew)."
+todayilearned,ffj5f82,t1_ffigsxi,1579990855.0,"> So you are arguing against nuclear using hypothetical future problems found that hypothetical future humans ignore? I'm sorry but that's a terrible argument. What flaws in previous generation plants were unknown at the time they were built and subsequently ignored? I'm honestly curious. 
+
+I'm less thinking about flaws in the design are more about maintenance issues that crop up all the time. Backup generators not working properly or other stuff that isn't critical in usual day-to-day operations and thus won't be noticed by the majority of staff, but would definitely be critical to avoid a crisis in the face of a externally inflicted disaster (natural or otherwise).
+
+> Breeder reactors are able to use previous generation's waste as fuel. This reduces both the volume of waste and how long it is dangerous for (brings it to a few hundred years instead of a few thousand).
+
+Cool, didn't know that. I guess my country can then stop moving the existing waste around and stop searching for some kind of final storage none of our states want to build, and just sell it to someone operating a breeder reactor.   
+Although [This list](https://en.wikipedia.org/wiki/List_of_nuclear_reactors) has currently no operating breeder reactors listed, world-wide. Excluded are those not providing power for the civilian sector, so those are probably either military or research reactors. So it seems this type of reactor may not be as viable if they're being researched since the fifties but don't even have a single one commercially operating right now. Why is that? Do they provide less profits than other designs?"
+todayilearned,ffhziws,t1_ffhy1i8,1579960364.0,">> Uh, yes. Someone cutting corners on any of these have much, much more limited potential for disaster than someone cutting corners on a nuclear power plant. 
+
+> \-
+
+So you concede this point?
+
+>>  Not to mention that most of these can be caught before it causes a lot of harm, since for e.g. cars and food the product leaves the influence of the creator once they're out of the store and everyone (including professional testers) can review them if they're safe or not.
+
+> Did you just insinuate that we can prevent corner-cutting in the car and food industries by relying on ""everyone (including professional testers)"" (who themselves are, of course, all immune to corner-cutting - because we've never seen any sort of scandals in that regard before)? Or that the nuclear industry somehow doesn't have similar independent regulatory oversight already?
+
+
+I'm saying that when there are hundreds and thousands of items of a product on the market, cut corners can be exposed better since more people have access to it."
+todayilearned,ffhwktx,t1_ffhoi48,1579957131.0,"> Do you think corner-cutters are only a problem for power plants, or that their potential for disaster is somehow more limited elsewhere?
+
+Uh, yes. Someone cutting corners on any of these have much, much more limited potential for disaster than someone cutting corners on a nuclear power plant.  
+Not to mention that most of these can be caught before it causes a lot of harm, since for e.g. cars and food the product leaves the influence of the creator once they're out of the store and everyone (including professional testers) can review them if they're safe or not."
+todayilearned,ffhw8zp,t1_ffhtyzv,1579956736.0,Cool. Did we fix that flaw in the human models yet?
+todayilearned,ffhw57k,t1_ffhoqp0,1579956611.0,"The toll was and will be much higher, estimates are going up to about 4000 deaths from on-site personnel related to the disaster. In addition, you also have long-term effects, like increased cancer rates. To add to that, about 150k pregnancies were aborted due to fears about the fetus being impacted by the radiation. You should probably read up on this again. [Wikipedia](https://en.wikipedia.org/wiki/Chernobyl_disaster#Human) is a good starting point, but don't forget to check out the linked sources, too."
+todayilearned,ffhvdsc,t1_ffhhp98,1579955669.0,"> Can you expand on ""requiring humans not being humans""? Passive safety measures take the human out of the equation. A CANDU reactor meltdown results in the plant requiring extensive repairs but no release of radioactive material into the environment.
+
+Issue is found -> Issue is reported -> Somewhere up the chain someone decides ""Nah, it's not that serious. Also, fixing that would be too expensive.""
+
+Besides, do we have a solution for cleaning up nuclear waste yet? Preferably one that is paid for by the owners of the power plants, not the government.  
+Storing it to let our descendants deal with it doesn't really strike me as a good solution."
+AskReddit,ffgxk32,t1_ffgnvtj,1579917630.0,"Not necessarily. I can only speak for myself and my male friends, obviously, but when I talk to them it's mostly about the things we're doing at the time. But if someone needs to talk or vent about something, they usually express that, and then it's talked about.  
+
+So it's less like not caring how the other feels and more expecting someone to bring it up if they need to talk about something."
+FragReddit,ffgvfsu,t1_ffgmy99,1579916065.0,"Das Problem ist nicht das Konzept der Hashmap, sondern dass JavaScript es nicht als Fehler ansieht die Eigenschaften eines Arrays zu überschreiben. Ein Array ist schließlich auch nur ein Object, und damit darf man da mehr oder weniger beliebig an den Eigenschaften rumpfuschen. Im Endeffekt funktioniert das aber oft nicht wie erwartet.  
+Und das meine ich damit, dass eine stark typisierte Sprache für einen Anfänger sinnvoller ist. Dadurch wird man weniger auf wilde Fehlersuche geschickt, da der Code schon beim Schreiben öfter als falsch markiert wird, wenn das nicht wirklich sinnvoll ist, was geschrieben wurde."
+FragReddit,ffglfr6,t1_ffgbc75,1579908958.0,"> Erste Begründungen für JS: schnelle, motivierende Ergebnisse. Programmierparadigmen, die dich in genau die Denkmuster versetzen, die du brauchst um verteilte Systeme zu verstehen und zu bauen. 
+
+Mein Grund gegen JS als eine der ersten Programmiersprachen:  
+
+Es ist wesentlich einfacher Fehler zu machen, die keine Syntax-Fehler sind, aber einfach nicht so funktionieren wie erwartet.  
+Zum Beispiel einfach ein Taschenrechner. Füge zwei Textfelder ein, lies die Werte aus und führe eine Subtraktion durch.
+
+`el1.value - el2.value` - Eingabe ist jeweils `2`, Ergebnis ist wie erwartet `0`. Super!  
+Dann addieren wir das ganze mal:  
+`el1.value + el2.value` - Eingabe wieder jeweils `2`, Ergebnis ist ... `22`?! Joah, vergessen, dass das ja Textfelder sind und keine Zahlfelder. Also entweder mit `Number()` abrufen oder die Felder zu Zahlenfeldern machen.  
+
+Ich schreibe selber jeden Arbeitstag JavaScript, nutze aber für komplexere Module TypeScript. Ich habe einen Kollegen, der peu á peu Programmieren lernt, und sich dafür JavaScript ausgesucht hat. Bei fast jedem Problem, das er bisher hatte, hat es ausgereicht seinen Code als TypeScript lesen zu lassen um rauszufinden, wo er falsche Typen verwendet hat.  
+Sei es, dass er da einen `string` als `number` verwenden will, dass er einen Getter geschrieben hat und dann die Funktion statt dem zurückgegebenen Wert versucht zu übergeben, oder dass Werte einfach zur Laufzeit noch nicht definiert oder initialisiert wurden und der `!= null`-check fehlte.
+
+JavaScript hat da meiner Meinung nach für einen Anfänger viel zu viele Situationen wo der Code zwar syntaktisch korrekt ist, aber nicht das macht, was der Programmierer eigentlich will. Daher dann lieber mit einer Programmiersprache mit festeren Strukturen anfangen lassen, die einem auch schneller sagen kann was falsch sein könnte. Später kann man dann immer noch direkt freiere Programmiersprachen schreiben."
+FragReddit,ffgjlif,t1_fff8ju1,1579907729.0,"Der Hauptvorteil wenn man mit Sprachen mit fester Typisierung anfängt ist, dass man dann nicht anfängt Dinge zu lernen, die einem dann später Fehler verursachen, beziehungsweise dafür sorgen, dass Fehler schwerer zu finden sind.
+
+Vor kurzem erst wieder gesehen wie jemand, der hauptsächlich PHP gelernt hat, in JavaScript versucht hat ein neues Array mit `array['key'] = ""val"";`-ähnlichen Dingen zu befüllen und sich dann gewundert hat, dass die `for...of`-Schleife das dann ignoriert. JS zeigt schließlich beim Füllen keinen Fehler an.  
+Der Fehler lag aber im Endeffekt dadrin, dass JavaScript-Arrays von Haus aus nur Zahlen als Array-Index erkennt. Was der PHP-Entwickler hier getan hat ist der Eigenschaft ""key"" des Arrays einen Wert zuzuweisen, und nicht den Wert an der Stelle ""key"" in das Array einzufügen, wie es in z.B. PHP geht. Ist aber natürlich trotzdem noch gültiges JavaScript und man kommt an den Wert auch immernoch ran, entweder indem man den Schlüssel direkt abruft oder über `for...in` - wobei letzteres auch wieder mit Fallstricken verbunden ist."
+MurderedByWords,ffefqcm,t1_ffcyzqw,1579846273.0,"Dang, you guys seem to have really expensive rents, compared to here in Germany. My rent for a one-room apartment (~28m²) was 320€ (~350USD), and that included most rent-related costs except electricity. My previous three-room flat at 60m² was about 620€ ...
+
+Granted, the first was in a small city of 40k people, but the second was in a city which has about a million inhabitants. Not really far out."
+FragReddit,ffbre3s,t1_ffbd91d,1579779756.0,"Hat das so lange Ladezeiten?
+
+Was du probieren könntest, wäre dir z.B. dein Smartphone neben dem Getränk abzulegen und den Sprachassistenten zu aktivieren. In Pausen kannst du dann z.B. ""Hey Siri"" rufen und horchen, wo das herkommt."
+FragReddit,ffajcmh,t1_ff9rfup,1579737162.0,"Mit SteamVR kann man sich in Ladesequenzen die Sensorstationen anzeigen lassen. Das erlaubt es einem dann, zumindest ein wenig Orientierung wiederzugewinnen.  
+Ich hab für mich dann immer eine Flasche auf meinem Schreibtisch knapp außerhalb des Spielbereichs stehen. Man muss sich dann halt vorsichtig rantasten, aber so kann man zumindest während des Spiels auch trinken."
+Showerthoughts,ff8p1nf,t1_ff7krdu,1579689765.0,"Last place I lived, I only could put the charger in the plug strip on the floor, next to my desk. The charging cable fell down whenever my phone wasn't plugged in, and the cable wasn't long enough to use the phone while it's plugged in.  
+So I used a wireless charger. Come home, put phone on charger, done. No fiddling with the cable. Same when I needed to pick it up and do something with it. It was also cleaner as I didn't have any loose cables lying around anymore."
+RimWorld,ff7sxgh,t1_ff70ucc,1579657583.0,"What if I told you, that even in vanilla nearly all of your pawns were bi already?  
+
+In vanilla every pawn has a chance to successfully woo/be woo'd by a pawn of the same gender. Psychology mod rewrote that and made it more visible, is all."
+Showerthoughts,ff5r6hq,t1_ff54d3f,1579607013.0,"> Higher education in the wizard world seems to be mostly along the lines of apprenticeships like during the Middle Ages.
+
+Not only in the Middle Ages. E.g. in Germany you have apprenticeships for most jobs, where you learn at work and go to school in parallel.  
+We still have universities of course, but considering that we split our students into three different education levels after fourth grade, where the lower two usually try to get an apprenticeship after ten years of school, while the third stays in school for twelve years and then gains a degree which allows them to apply for universities.  
+Although even if you didn't get into the higher school form, you can still attend further classes to get that degree to enter universities. It's just not needed for the majority of jobs here."
+pcmasterrace,ff2fe7i,t1_ff2ccq6,1579503827.0,"No. But Americans, as well as the English, Australians, Canadians etc generally learn English by hearing and speaking it. If you first learn the language during school, you mostly learn it through writing and reading.
+
+This means that native speakers are more prone to write words as they're spoken, and in the spoken language their/there/they're aren't that different, even before you factor in dialects.  
+Similarly in German, where native speakers more often confuse seit/seid and dass/das.
+
+Second language learners are instead more prone to make errors on pronunciation. It took me a while to get my pronunciation down good enough to actually converse in English beyond the stuff I learned during school, since I mostly use English online and acquired most of my vocabulary there, too."
+Games,feybo4b,t1_fey16gb,1579443357.0,"Only publicly traded companies though, right?
+
+Where I live, a lot of public transport is operated by companies partly owned by the local governments, and the companies' responsibility is to provide public transport according to the goals the governments set. Making profit is secondary, and since they're subsidized by the governments that's not so much of a concern."
+gaming,fexyn12,t1_fex9jhr,1579438397.0,"You can do that in some games, because the game developer/publisher can set default settings. I'm not sure in which that was, but I'm pretty sure that in at least one of my games the default Controller settings were different to the default ""XBox, and the palm buttons are A and X"". Sadly not many devs do this."
+Windows10,fev0s3q,t1_feuis7e,1579391857.0,"I know plenty of people who don't know a thing about computers except on how to turn it on, who will install any crapware that claims to make their PCs faster. If they were annoyed about updates, they'd install any tool claiming to stop updates in a heart beat."
+tifu,feukdkb,t1_fer01wi,1579387328.0,"Also, open up the screensaver settings, set it to ""None"", ""two minutes of inactivity"" and ""login screen on reactivation"" (Rough translation, not using an English machine here.
+You can also use any screensaver you like, I mostly want to point out that this also works if you don't select a screensaver.
+
+This will set your PC to automatically lock your workstation whenever you're inactive for at least two minutes. I usually set my work notebook to two minutes and my personal devices to five minutes.
+
+Do you use devices with Intel graphics cards at work? If so, you can play a prank on any of your colleagues that leave their workstation unattended by simply pressing [alt]+[ctrl]+[Arrow up] - this will turn the screen display upside down. Sideway arrows turn the screen by 90°.  
+You can also deactivate this somewhere in the graphics card settings, accessible by right-clicking on the desktop.  
+
+You should probably first talk to your supervisor about this, though. At my workplace it's actually more or less an order of my supervisor to do this if we see a colleague's workstation unlocked and unattended, even his own, because this helps a lot with getting people to actually lock them when they leave."
+Windows10,feu4h5h,t1_fetfnpg,1579383034.0,"You'd get dozens of video tutorials on release to access that ""hidden"" setting.  
+
+Just like on release where you could in a way turn off updates and telemetry etc, and the tools to circumvent all that was distributed in some of the most popular PC magazines around here, as well as promoted here. If people think that something might improve their experience on PC, they'll install all sorts of crap.
+
+A couple of years ago, there were lots of tools to ""tune"" your PC, so it supposedly ran faster. I myself actually bought one of these two years in a row, until I noticed that it was actually causing lots of issues with its ""tuning"" - such as preventing my PC to find network PCs, printers and the like, because it turned off all sorts of services. Also, the startup improvements it claimed to achieve by disabling and delaying some other software from running on boot were nullified since their own tool ran at start and used up lots of resources itself.
+
+And this was one of the most popular tools back then, being recommended in tech & gaming forums all the time."
+Steam,fer3qm8,t1_feoowl9,1579349456.0,"IIRC quite a few manufacturers would have to offer the laptops for more if they came without an OS or with Linux, because some of the pre-installed crapware from third parties they install more than pays for the Windows license."
+anime_irl,fer3569,t1_feqe29k,1579349193.0,Huh. I only watched until episode 80 or something like that. I guess I'll start over with the manga directly.
+Angular2,fepq66z,t3_eq6rc8,1579327595.0,"Not sure if you need Admin privileges for this on a more locked-down PC, but this works for me locally on my home PC:
+
+1. Open PowerShell
+2. Enter `$env:PATH += <Path to folder with target executable>`
+3. ng
+
+This only works for that PowerShell session though. So if you open this in VSC's integrated terminal, you would need to enter that at the beginning of each session.
+
+Whenever you open up a PowerShell session, system variables are fetched and stored in `$env:<varName>`. Altering these values via string concatenation doesn't alter the actual value saved in the system settings, but it does persist during the current session.
+
+Alternatively, you could also raise this issue with your teachers or the administration. They should be able to fix this, and should do this especially because it impacts your whole class.
+
+Also, I'm not sure if you need admin privileges for altering the PATH system variable for your user, or if it persists between reboots. But you could try that one, too."
+AskReddit,feppaa3,t1_fepkojm,1579326803.0,">> PoE just doesn't want players to experiment with builds.
+
+>Of course it is. PoE's system is amazingly varied and flexible compared to similar games. At the core, it's a game about building characters. What it is not is a theme park game where you can fuck around. It's fine if that's not for you but don't pretend it's a problem with the game itself.
+
+I never doubt that the passive skill system is varied and flexible. That much is evident for everyone who ever glanced at the skill tree. But I think we have different interpretations of ""being able to experiment"" - If I have to invest several evening just to try out a skillset and how it works in later stages of the game, that actually discourages me from experimenting. Is that actually fun for you, not progressing far because you have to start over when you want to try something differently? Because it isn't for me.
+
+And I'm not saying it's a problem with the game. I'm saying it's a problem I have with the game. I like experimenting and trying out new stuff. Doing everything the same way gets boring for me. PoE doesn't seem to offer much variation once you start investing into a specific build, so it gets boring for me and I start to lose interest. Especially if I try out something new once in a while, find it fun at first and then drop the game when I realize how much time I would have to put into a new character just to get as far as I currently am."
+BeAmazed,fepoc5m,t1_fepjw5g,1579325969.0,"Full Dive technology refers to headsets that intercept your brain's signals to the rest of your body, so that you can e.g. lie on a bed, immerse yourself in VR without being constrained by the room you're in or the range of the headset cable.  
+
+Not sure if it originates there, but I first heard the term in the series Sword Art Online.
+
+I seriously doubt we're five years away from being able to intercept signals from and to the brain, and being able to send signals to the brain so we perceive the VR world as real."
+AskReddit,fepjvmd,t1_fepc32e,1579322388.0,"It's hard to plan ahead of time if you're just starting the game and have no idea what you can even do, what kind of skills there are etc. And I'm generally against reading guides if I can - I like discovering things and experimenting rather than following a walkthrough - just going along with a guide is boring.
+
+And even when I already have a nice grasp of the game, I like to experiment with the possibilities a game has to offer. If I find a more fun way to play, it's all good, but if it ends up less fun and I can't go back to my original build, that's awful and a gamebreaker for me.
+
+There was a situation just like this in my last playthrough: For most of it, I played a DoT build and went through the game fine. Shortly before I unlocked the Scion, I found a Vaal skill gem that would be fine in an instant damage build, and as I hadn't found any Vaal gems complementing my DoT build, I tried it out. And that skill, together with a short-range teleportation skill to get close to enemies, was a lot of fun to use. But I simply couldn't beat the boss of that chapter because I was skilled for DoTs and had not nearly enough respec points and regret orbs to reskill properly. So I switched back to the DoT skills, finished the chapter and dropped the playthrough, because the DoT build was boring now that I had tried out the other skills.
+
+PoE just doesn't want players to experiment with builds. Select a build early on, and if it's not the most fun way to play, well shucks. Roll a new character, invest a couple more dozen hours!  
+
+Contrast this with e.g. Monster Hunter World. I tried all weapons in the beginning, settled on the Charge Blade and finished the main quests of the initial game with that.  
+Recently started up the game again to play with a friend. Wanted to mix things up a bit, so I picked up a few other types of weapons and found out that I actually like Kinsect Glaives, too. Took a bit to collect all the materials for that build, but since I didn't have to destroy my Charge Blades, I can switch back whenever I like. And I can always craft other weapons to experiment with new stuff."
+windows,fenyl8q,t1_fenfohd,1579292659.0,"> Microsoft can encrypt information sent anytime in future, good luck reverse engineering windows for encryption. so the whole referring to ""current state"" is relevant only if you do not take future of windows into account. 
+
+Taking the future into account is nigh impossible. They could just as well decide to allow people to turn off telemetry altogether.
+
+> Also by default there is data sent to identify you, called unique advertising id or something like that, can be turned off in settings.
+
+Is that the default? When I installed my current system, I got asked whether or not I want a unique advertising ID during the installation, IIRC. I declined.
+
+> About the link you wanted: https://privacy.microsoft.com/en-us/privacystatement 
+
+The only part containing ""good faith"" in it is this:
+
+>  Finally, we will retain, access, transfer, disclose, and preserve personal data, including your content (such as the content of your emails in Outlook.com, or files in private folders on OneDrive), when we have a good faith belief that doing so is necessary to do any of the following:
+
+>  *  Comply with applicable law or respond to valid legal process, including from law enforcement or other government agencies.
+>  *  Protect our customers, for example, to prevent spam or attempts to defraud users of our products, or to help prevent the loss of life or serious injury of anyone.
+>  * Operate and maintain the security of our products, including to prevent or stop an attack on our computer systems or networks.
+>  * Protect the rights or property of Microsoft, including enforcing the terms governing the use of the services—however, if we receive information indicating that someone is using our services to traffic in stolen intellectual or physical property of Microsoft, we will not inspect a customer's private content ourselves, but we may refer the matter to law enforcement.
+
+Doesn't read to me like your  
+> Also in terms of service they explicitly say they give their data away to anybody ""in good faith"".
+
+They don't say to anybody, they explicitly mention that they'll only do that to comply with government demands or if you use their services maliciously.
+
+> Anyway, nothing stops Microsoft to spy on you illegally, if USA or other government would allow it and have profits from this. Extra content added in patches targetting citizens of specific countries is possible too. If for example some south american country wanted to go ""north korea way"" today, and gave 100 billions of dollars to microsoft adding patch acting as rootkit, sending data at non obvious times they could probably get almost perfect control over society. After its discovery many users would not give the crap, others would say they cannot afford to escape windows, anothers would say its ""fair"" etc.
+
+It's not only Microsoft that has this capability, there are a lot of companies that have a say in what your PC does or doesn't do.  
+For example, did you know that in 2015 Lenovo was caught loading a BIOS section reserved for drivers with their crapware installers? Everytime you reinstalled Windows or uninstalled their crap, everything would reinstall on the next reboot.  
+Last year some graphics driver was infected with some kind of malware that only activated on specific MACs, probably targeting a company or something like that.  
+Microsoft is also not the only one who could theoretically be bribed like that - With the rise of mobile devices (example: W3Counter reports that only ~29% of web browser visits were made with Windows 7, 10 or Mac OSX in [December 2019](https://www.w3counter.com/globalstats.php?year=2019)), I'd be a lot more concerned about Android - especially since phone providers can distribute updates and thus a malicious government wouldn't even have to involve outside companies.  
+
+Also, Microsoft would lose a lot of reputation if they would take money to push malicious patches. I know of quite a few sys admins here who are already annoyed because they have to stop Windows 10 on company devices from phoning home. Right now, it's unfeasible to migrate everything to Linux or MacOS, but if they started pulling shit like that, I'm sure you'd actually start to see a ""year of the Linux desktop"".
+
+Every software with admin privileges can potentially spy on you. Every driver has even deeper access to your system. To be sure you aren't getting spied on, you'd have to turn away from electronic devices completely."
+FragReddit,fencguc,t3_eq331s,1579281726.0,"Ich hab mir vor einiger Zeit einen Bot für reddit geschrieben, der mich über bestimmte Sachen benachrichtigen kann, sobald ich den mal auf meinem vServer einrichte. Was 'ne Weile dauern wird.  
+
+Als anderes Projekt habe ich angefangen eine API mit Flask aufzusetzen, die irgendwann mal als Backend für meine noch nicht vollständigen Web-Apps dienen soll.
+
+Ansonsten schau dich mal im Bereich Open-Source um. Es gibt mit Sicherheit viele Projekte z.B. auf GitHub oder GitLab, die nach freiwilligen Helfern suchen, und viele markieren auch Issues, die für einen Anfänger geeignet sind."
+windows,fenbr33,t1_fen60oq,1579281287.0,">Also windows 10 has ads and unique advertisement ID which does not really make your data so ""anonymized"".
+
+You can turn that off. You can also examine the information that is sent to MS, and I don't remember there being anything nefarious in it, or something that could be used to identify me (except if they log the IP from which the reports get sent and ask my ISP to check who the IP belonged to at the time of the report).
+
+>Also in terms of service they explicitly say they give their data away to anybody ""in good faith"".
+
+Could you give me a link to that? Because I don't remember agreeing to that, and it would quite frankly be illegal in the EU if there is anything that can be used to identify any person in there."
+AskReddit,fem0b37,t1_felxil1,1579235680.0,"I know about regret orbs, but even with that it makes it hard to try out different play styles - and go back to your original if the new play style isn't fun.  
+E.g. in my last game I found a skill that was more fun to use shortly before the boss where you first unlock the scion. But since my skills were built in a way contrasting that skill, I lost a lot damage and survivability. IIRC I played a DoT-build and found a Vaal gem (this was the trigger to me trying that gem, while I dismissed it earlier in the game) that dealt more instant damage, combined with some teleportation melee skill that was pretty fun, but I couldn't hold my own against the boss with that. Reskilling into crit/attack speed wasn't really feasible with the amount of Regret Orbs and passive respecs I had, so I eventually dropped the game again when I finished that chapter.  
+
+Recently I wanted to start another playthrough, but (probably foolishly, but I had her unlocked only in the game before) selected the Scion. Looking at the skill tree after I got my first few skill points, I had no idea what to skill into, especially since I hadn't found any especially fun gems yet. So I dropped that again.  
+
+It just feels as if the game really wants to punish you for experimenting with different play styles, stopping you from getting a bit of variation. But that's what I actually like to do. E.g. I recently picked up Monster Hunter World again, and I nearly exclusively used the Charge Blade (Basically a sword&shield combo, which can transform into a greataxe to deal heavy damage) for the whole game. That was getting a bit boring, so I quickly crafted a few high-level Glaives and Dual Blades, and now I get to vary my play style a lot more, to adapt it on the enemy I'm going to fight, whether or not I'm in a group, or how I feel at the time. Initially I dismissed Glaives, because it felt like a chore to keep its buffs up and seemed to have a very low damage output, but with some stronger gear that prolonged the buff duration and my experience in the game now, I find it more fun to play than the Charge Blade against certain monsters.
+
+Even in Diablo 3 I regularly switched up my skills and tried out different, new things; some I stuck with, some I stopped using shortly after. I also kept several different sets in my loadouts and used whatever I fancied.
+
+It feels as if PoE just doesn't want to allow you to get some variety and try out new stuff. Considering it's free2play, I would even buy some kind of upgrade that allows me to have unlimited respecs - but I haven't seen anything like that the last time I played."
+FragReddit,felt1sn,t1_fekedzg,1579230225.0,"> Die kostenlosen Updates auf Windows 10 gingen zumindest bis vor kurzem noch - auch wenn Microsoft das nicht mehr beworben hat, sollen Upgrade-Installationen noch anstandslos mit Windows 10 - Keys versehen worden sein.
+
+Jup, sollte noch gehen. Ich hab vor kurzem meinen Rechner upgegraded, und da die vorherige Lizenz eine OEM-Lizenz war dann einen Windows-8-Key genommen, den ich noch hier liegen hatte. Einfach bei der Installation eingegeben, Windows 10 wurde anstandslos aktiviert."
+AskReddit,felhqxp,t1_fel50rv,1579222461.0,"I don't always start at the beginning of a season, and I don't always sweep through the game - and since I tend to play a lot of multiplayer games with my friends, I usually play with them. This can result in only playing certain games for a day per week, if even that. And PoE isn't something that a lot of my friends play, mostly too because you can't reskill later on."
+AskReddit,fekqyhi,t1_feki8qs,1579205782.0,"Every time I start playing it again, I get my first few skill points and just think ""well, shit."" It's not even the huge list of choices you get, but that you can't redo it except for a few points, basically locking you into a playstyle even if you'd like to try another playstyle later on without starting the campaign over. I haven't even finished it once yet - although that's also because the seasons are always over before I get to finish a playthrough, and I'd prefer to not miss out on the minigames etc. seasons offer."
+AskReddit,fejvpbz,t1_fejtsg3,1579186936.0,"> Actually, they usually got the minutes fine because they are all marked.
+
+I was about to ask since when there are markers for the minutes on analog clocks, as I couldn't remember ever seeing those. Then I checked my watch I got in the US, and yep, it's got minute markers. Quickly checked a few online stores here, and only very few of them have those, seems like it's only those with a stopwatch feature included."
+AskReddit,fejujbn,t1_fej8tnh,1579186167.0,"Well, one star is the minimum and not yours to give or take. So if you want to give a product one star, you have to rate it two stars.
+
+Or something like that."
+space,fejs55u,t1_fejqp20,1579184505.0,"In Elite: Dangerous you have system data of most populated systems by default and can buy system data for a few systems in nearby stations, but most systems away from the core worlds are unknown to you.  
+So to find planets (and the occasional sun) in those systems you basically fly in a straight line at multiples of the speed of light and observe the starscape. Any dot that moves is a planet or sun of your current system.  
+Quite handy, but you often miss planets that have a distant orbit. I also recall thinking I've finished scanning a system, only to notice on the starmap that there should be a second star here - I managed to find it eventually, but it was really far away and so barely moved while flying."
+starsector,fei2ewg,t1_fehk2qm,1579128790.0,The only difficulty I had was remembering that I have to read it left-to-right and not right-to-left...
+Oxygennotincluded,fehua95,t1_fehe0gf,1579123997.0,"Probably comes down to the player.  
+I tend to modularize in most base-building games, so that I develop a specific build pattern early on. Furniture is put into specific rooms after the purpose they serve. Stuff gets placed in a way to keep distances short. Almost all rooms have a similar size. ONI rewards this by giving you bonuses for single-purpose rooms.
+
+On the other hand the base of my brother was a lot more disorganized when he started out. He made use of the caverns and turned them into makeshift rooms, kept walls intact even if it would shorten travel distance between two spots immensely if he put a door there. He had his dupes bed distributed close to their usual workplaces instead of a single bedroom.  
+While it seemed messy, it has its own charm. The more natural, grown look is something that I would like to utilize in my games, but I can't ever pull it off since I always end up optimizing."
+Games,fehk47q,t1_fegcv4b,1579118173.0,"For me it's because I got frustrated about the openness and my lack of orientation. Whole the beacons help to find areas you've been in, it's more difficult to get around in unexplored areas, especially if you found something interesting that you can't access yet, but don't have a beacon with you.  
+
+I was overjoyed when I unlocked the survey module, but since it's static and with a limited reach, it didn't help that much. I would've loved to build stations in areas I wanted to explore, but faced the issue that it was too deep for solar power and I didn't find the full blueprints or materials for the other reactors.
+
+By now, I have mostly forgotten where I can get which stuff, where the interesting caves are etc, and since a lot of the early game is relatively grindy (which isn't that bad if you're new and collecting stuff while exploring and figuring things out) I'm not keen on starting over."
+Games,feh3o0w,t1_fefewju,1579108478.0,"Eh, not that much. If I see a game with a bad score, I'm more likely to just dismiss it, except it it's a genre I'm usually very interested in."
+Games,feg1pz0,t1_fefl6hq,1579073148.0,"While this is a bit unreliable on the go, at least at home it works reasonably well with the Steam Link app on my phone. The game already has touch support, and also plays pretty well on tablets."
+de,feejz16,t1_fedzepr,1579035286.0,"Muss links ja nichtmal ein sehr schmales Fahrzeug gestanden haben, reicht ja schon aus wenn links neben OPs Parkplatz ursprünglich auch ein Doppelparkplatzparker stand."
+RimWorld,fedt38s,t1_fedpemi,1579019306.0,">So basically you make every hallway 3 tiles, but restrict the intersections to one tile?
+
+Yep. Some rooms also get multiple exits. Some of the intersections (especially in biomes with more extreme temperatures) also get doors, while frequently traveled passages get either auto doors or always-opened stone doors.  
+This way I can section off a bit of my base and enemies won't be as fast to circle around my pawns.
+
+I've got a few pictures of past bases on my imgur account, but I can't figure out how to login or access my user page on mobile, so here is a [composite screenshot of one of my older bases](https://owncloud.kalyndor.de/index.php/s/Ca9mk7ggdLktXJ1/download) I still had saved in my OwnCloud.  
+I'll see if I can post some other examples later, as that game was from 2016, but I already used the bug defense layout there in most areas. I've since made some adjustments, e.g. moved the central storage, made every hallway 3 tiles wide and added an exterior defensive area."
+RimWorld,fedicch,t1_fedcsva,1579012274.0,"Late game I usually don't have that much of a problem with sieges, often my own two to three mortars plus a spotter (Combat Extended) will blow them up before they can get more than one or two shots off. The first years are more of a problem where I'm thankful for the mortar protection.
+
+Don't have a mod for ransoming prisoners off though. Those who don't meet my current recruitment needs are either used as organ donors if one of my colonists got heavily wounded or are released.  
+Funnily I had a few released prisoners come back chased by their group. Guess they realized we're better."
+RimWorld,fedch1l,t1_fed1czj,1579007545.0,"Huh, the primary reason I build into mountains is to have protection against sieges for vital base equipment. Preparing against insectoids is a lot easier than having redundancies for every vital piece of equipment in case a mortar shell strikes it. Plus, super-rare items are hard to replace."
+RimWorld,fedbskw,t1_fed2rbx,1579006929.0,"You can prepare for infestations similar to how you  can prepare for raids.  
+Although since you can't predict where infestations will strike, you have to plan more thoroughly. In my case that means that all hallways are three tiles wide, while all intersections have indentions to narrow it down to one. Like this:
+
+    FFWFFFWFF    
+    WWWWFWWWW
+    FFWFFFWFF
+    FFFFFFFFF
+    FFWFFFWFF
+    WWWWFWWWW
+    FFWFFFWFF
+
+This way if you position your pawns at the intersections, you can always fight the bugs 3v1. If one of your pawns get incapacitated, you retreat to the next indentation. If all bugs in the current section are downed or killed, you move forward to the next enemies.  
+You can also position ranged combatants behind the frontline, but that occasionally results in friendly fire.  
+
+I have only very rarely suffered losses from this tactic. Rarely your pawns can lose a limb or an eye/nose/ear, but that also sets you up for a new sub-story to help that pawn become able again.
+
+Most of the losses I sustained here were from downed pawns bleeding out. I then learned that it's good to have a fast pawn on hand to grab the downed pawn and take him to the hospital while the rest retreats. Also, to keep a backup hospital in  a different part of the base (in my case, a stockpile of meds near most bedrooms and a quick repurpose of one or more beds).
+
+Also, grenades can work really well against groups of bugs in hallways, provided your pawn doesn't throw it against a wall or too short."
+ProgrammerHumor,feag4hx,t1_fe9b9n0,1578948260.0,"huh, didn't see that.
+
+I guess we could use some rules on reposts within 24 hours, too."
+ProgrammerHumor,fe96fru,t1_fe90l2c,1578934792.0,"Probably because there are >100 people who have not seen it yet, or not in a long time and still found it funny."
+Games,fe7zndl,t1_fe7xfnp,1578920896.0,"I wouldn't call it ""small town local"", but it's not really major either.
+
+The law is proposed in the Kagawa prefecture, which has about 950,000 citizens. In comparison, Japan overall has about 130 million citizens. That's less than one percent of the people of Japan."
+Games,fdw7xh4,t1_fdsvcp3,1578755987.0,"For games in particular, I really recommend GameSave Manager - it can move and link your savegame folders into a cloud folder, so that all your savegames are always backed up - and since most cloud storage services have a versioning system in place, you can easily roll back from a corrupted or overwritten save."
+Games,fdw6wzs,t1_fdspqdo,1578755702.0,"Maybe in the form of backups, but considering you can look at (and download) your [Steam Cloud files](https://store.steampowered.com/account/remotestorage), and for [MH:W](https://store.steampowered.com/account/remotestorageapp/?appid=582010) there's only one file of sufficient size to be the savegame, I don't think they have a versioning system that could easily roll back single files.  
+
+That said, you can symlink your savegame folder on your PC into a cloud storage with versioning of your choosing and get versioned backups that way. I usually use GameSave Manager for that, as it can detect and link most games easily."
+politics,fdr6vto,t1_fdqp6io,1578680254.0,"His own book of grudges? Guess that explains his small hands, being descended from dwarfs and all."
+pokemongo,fdo8i5e,t1_fdo6r2i,1578600722.0,"I think the assets are saved, actually.  
+I've reset my data usage statistics of my phone, restarted Pokémon Go opened the Pokédex, scrolled slowly down to the end to make sure all models were loaded, then closed the dex and opened my Pokémon list and also scrolled down to the end.  
+Switching back to the settings app, Pokémon Go only used up about 1.3MB. It was at ~600KB after the app started.
+So either they're using some really nice compression or they're storing the assets locally.  
+The load delay could also come from loading the assets from storage."
+de,fdnunwq,t1_fdms344,1578593192.0,"Normalerweise steht da eine Telefonnummer des Betriebs dabei, für den Werbung gemacht wird. Ich rufe da normalerweise an und beschwere mich darüber. Keine Ahnung ob's wirklich hilft, aber nerven wird die das hoffentlich.
+
+Und wenn ich mal merken sollte, dass da Wiederholungstäter bei sind, muss ich mich mal nach rechtlichen Schritten umsehen. Bisher war das aber nicht der Fall."
+windows,fdnm6ub,t3_em4v2x,1578588702.0,"Last I checked you can also go into the update options and set a time for the update, up to a week away. Is that option available to you?  
+When that is set, Windows should not reboot to update until that time, even outside active hours."
+pcmasterrace,fdng1zi,t1_fdmj8ex,1578585039.0,"My first own PC was an office tower with Windows 2000 on it. It had some kind of graphics card, that could even run GTA: Vice City decently. With one drawback: after around 20 minutes of playing that game, I'd get a bluescreen. I still remember that one mission where I had to do a wild dash to the next save spot and needed ~15 attempts to get it done. I got the bluescreen several times while I could already see it but crashed before I could save.
+Surprisingly, I actually managed to somehow finish that game..."
+4Xgaming,fdmri7h,t3_em24cs,1578562188.0,"The exploration phase of Distant Worlds can take a lot of time to finish. I don't think I played even one game where I actually managed to explore the whole galaxy. Although I usually play on the 1400 stars setting, and exploring that with the dozens of explorers I usually build and with most system having numerous bodies, this is to be expected.  
+You'll also often find ruins on planets, ancient debris fields, stations away from systems in deep space, and more. Don't expect to find the stations randomly though, you'll most often only stumble upon them by finding the coordinates in old ships, starbases and planetary ruins."
+ProgrammerHumor,fdjypw8,t1_fdimuvj,1578491606.0,IIRC you don't need the submission title. r/linguisticshumor/comments/e6yi6a/ should be fine.
+FragReddit,fdjmqk5,t1_fdjm97t,1578478388.0,Nein.
+FragReddit,fdhsl4o,t1_fdgrmv8,1578429375.0,"Hatte so was ähnliches bei einem Vorstellungsgespräch für eine Werksstudentenstelle in der Informatik. Wurde gefragt woher meine Faszination an Augmented-Reality-Technologien kommt, woraufhin ich versuchen wollte zu erklären, dass ich mit einer Gruppe von Freunden das Pen&Paper-Rollenspiel ""Shadow run"" spiele, in dem AR nunmal einen recht großen Teil der Spielwelt ausmacht.  
+Bin nicht weit gekommen bevor die beiden Interviewer mir erzählt haben, dass sie das auch spielen und wir uns dann für 15 Minuten über das Spiel und die Technologien da drin ausgetauscht haben :D"
+FragReddit,fdhs3ls,t1_fdhr9oa,1578429100.0,"Ich brauche da nicht nachzufragen, ich war selbst sechs Jahre in der Freiwilligen Feuerwehr meines Heimatortes, und davor zwei Jahre in der Jugendfeuerwehr. Die Dienste, Lehrgänge und das Leiten der Jugendfeuerwehrgruppe haben mir auch Spaß gemacht. Trotzdem würde ich das als ehrenamtliche Tätigkeit einstufen und nicht als Hobby. Nur weil das ein Ehrenamt ist, heißt es nicht, dass es keinen Spaß macht.
+Abgesehen davon klingt ""Ehrenamtliche Tätigkeit"" im Lebenslauf auch besser."
+FragReddit,fdhqvun,t1_fdh2nv2,1578428397.0,Ist ja auch weniger Hobby als ehrenamtliche Tätigkeit.
+pcmasterrace,fdc2wkp,t1_fdalayf,1578266027.0,"I mean, that's literally what's PCMR supposed to be about - Knowing and acknowledging that the PC is, all things considered, a better platform than any console.  
+Some consoles may outshine a PC in some situations. But none come close to the raw power and versatility PCs have.  
+Playing on consoles is fine. Not owning a PC is fine. The only thing that does classify someone is a peasant is if they argue that *<console>* is better than PC in everything."
+pcmasterrace,fdc1slf,t1_fdbexbs,1578265420.0,"From what I heard that manager was let go soon after - they also often had regular kitchen staff handle the nightly stock-taking, often resulting in longer hours (paid, luckily) because kitchen staff then had to start cleaning the cooking utensils later. From what I'm told, most of this came to attention to higher-ups because some of the kitchen staff were sloppy with the stock-taking and that manager was blamed."
+pcmasterrace,fdbbekv,t1_fdb7u8r,1578255714.0,"The places I worked in (granted, only fast food), the manager usually called the other employees when someone called in sick to cover the shift. Helped that we were paid by the hour, most people worked more than the minimum, so it stayed fair.
+
+
+Although one of the managers was pretty nefarious and tried to get the forgetful ones to come in by telling them their shift started a few minutes ago and asking them why they aren't here. When they agreed to come in the manager would quickly print out an amended shift plan. Luckily I didn't work there for long."
+BaseBuildingGames,fd9mvmu,t1_fd9mfkn,1578235488.0,"Ah, thanks for the insight :) Sounds like a good design-decision, the frustration of rebuilding non-working rooms would probably be a lot higher than not being able to fit stuff in them."
+BaseBuildingGames,fd9lpvc,t1_fd8vwwm,1578235057.0,"> Although I just remembered, you can advance past the area designation stage when furnishing and thus get to the furniture to get a look at their size.
+
+I just noticed that after I tried to design a room in an unbuilt building, that's definitely helping. Although when placing stuff it seems there are more rules other than that all colored furniture cells have to be in the building - is it also checking that each tile of the room is still reachable perhaps?"
+BaseBuildingGames,fd8rwu6,t1_fd2l2pa,1578222541.0,"Regarding rooms, what annoyed me a bit was that I first had to build an indoor area, then design the room that I want in it. When building the walls and ceiling, I have no idea how much space the furniture will take, so during the time I played, I regularly had to expand buildings and try again with the new room size.  
+
+This could be alleviated if a room automatically built walls and ceiling if outside.  
+
+Or I missed something and you can plan rooms in a planned building. Just comes to mind now, haven't tried that ingame yet."
+Oxygennotincluded,fd3byga,t3_ejxg1q,1578156792.0,"Insulated Ceramic works pretty well, too.  
+Noticed on my Rime map that the bottom abyssalite border to the magma sea was interrupted and it was melting the rock and threatening to reach the oil. Patched that with some insulated ceramic and over several dozen circles the ceramic has probably only gone up to 65°C - the magma has >2000°C."
+dwarffortress,fd1ascm,t1_fd035xz,1578129287.0,Here's the link: https://www.aidungeon.io/
+de,fcxxs7d,t1_fcxwr2x,1578072003.0,"Ah, bei uns werden eingehende Pakete von der entgegennehmenden Person direkt verteilt. Wir sind allerdings auch ein wenig kleiner und haben ein Großraumbüro (einzige Räume sind Lager, Serverraum, Toiletten und Konferenzräume, alles andere ist in der Halle)"

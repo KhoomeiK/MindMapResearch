@@ -1,0 +1,62 @@
+subreddit,self ID,parent ID,time,text
+learnpython,fgmgnyw,t1_fgmf29p,1580924169.0,"Well I am already underway with my json file, so... if it doesn't go well, I will try this. Thanks!"
+learnpython,fgmgjk9,t1_fgmgay8,1580924096.0,Sure! Thanks!
+learnpython,fgmeuqo,t1_fgmecol,1580923131.0,"Okay, I think I will stick to json... Thanks!"
+pygame,fglpngv,t1_fglpfxi,1580907458.0,"Ok thanks, it has been sometime as I mentioned, so I have gotten a bit rusty. Thanks though. I knew I could count on this subreddit. Learnt everything I know about pygame, 2 years back, right here!
+
+Cheers!"
+formula1,fgljquq,t3_ez6lqa,1580901221.0,"Indian GP to take its place, Anybody?"
+learnpython,fglcvcp,t1_fglbmjk,1580891294.0,"Actually I am quite well versed with pygame. Just that I thought the terminal already looks very retro themed, so it will save me some time was my idea. Guess I will have to use pygame...."
+learnpython,fgl5zx9,t1_fgl5ct7,1580883178.0,"Okay... It looks like we are tackling this in two different ways... You say that a practical explanation should appreciated... But... I say that any meaningful definition is better than knowing none... I completely agree with what you said, but, I think one can understand what I am trying to imply as well..."
+learnpython,fgihof8,t1_fgid8bp,1580821944.0,"Thanks so much, the last link is amazing!"
+learnpython,fghyfqc,t1_fggpbn2,1580797912.0,"I know that practically they are of no use. But take it from my experience as that won't work as an excuse in an interview... They are just like any other exam and their only objective is to eliminate as many options as potential employees a company has, however stupid the reason for elimination may be..."
+learnpython,fgg50lm,t3_ey9fsv,1580754386.0,"I am not going to just say the same thing as the others as we can all agree on the fact that the interviewer was just as unqualified as a barber trying to sell computers... But I will say that most of those questions are quite basic and that even though from a practical stand point, you wouldn't need to know what is a string or too much about the Fibonacci sequence, but those are at least what I feel are basic terms in COMPUTER SCIENCE. I feel that you aren't someone who took up coding through computer science (I may be wrong however...), in which case it is understandable. Just saying that you should start learning about such terms as people who have come from a computer science background would easily crack such an interview and take your place. Just take up any university/high-school computer science book that has directly relation to coding/programming especially those that center around a particular language, in this case Python and in almost all such books, the introductory chapter will have what is a string, list, class etc. All the basics will be there and you won't have to feel so awkward ever again in an interview for not knowing something that some people consider basic!"
+keyboards,fgf9mkd,t1_fgelgca,1580731350.0,"I am going to be doing this to my mush $5 dell keyboard too, once my Ducky One 2 SF arrives!"
+education,fgal8jt,t1_fgac2s8,1580652575.0,"Thanks, I will try to incorporate your advice into my studies!"
+CrappyDesign,fg8ncje,t3_exgwoj,1580625328.0,*Think Different...*
+keyboards,fg8n0cm,t1_fg8f668,1580624953.0,"He is talking about the metal bar, it is known as a stabalizer and is to prevent the key from moving and wobbling when used. He says you may not be attaching it correctly back in place...
+
+Edit He/She... I should not just assume things..."
+education,fg8g5j9,t1_fg8dp7f,1580618501.0,"Ok, fine, looks like I will hit my friends up!"
+education,fg8ab5d,t1_fg89eq2,1580613780.0,Very Nice! I shall give this a try once...
+education,fg856p5,t1_fg84ked,1580609823.0,"Hmm, Never thought of this... Might actually work...  Will give it a try! Thanks!"
+education,fg853c3,t1_fg78420,1580609753.0,"Sure, at times I just put my phone in airplane mode to silence all notification to study! works like a charm! I just don't have the consistency some of my peers have in studying. Even when I am in the mood, the best I can do is sit for 3-4 hours to study and that is with a lot of water breaks... Most my peers can study upto 6-7 hours at a stretch (with breaks in the middle but you get what I am saying)... But some days I cant even push myself to that!"
+education,fg84ngy,t1_fg771lc,1580609426.0,"Nope! I don't think I have any disorders, I clearly can focus up sometimes, It is just that at times I feel very restless to do something other than studying and to study in such a situation is very frustrating...."
+education,fg84gc9,t1_fg7aue9,1580609275.0,"Looking up videos often distracts me to other irrelevant stuff so I stopped doing that, but it does work very well for me. Visual learning suits me the best!"
+education,fg849vr,t1_fg7yc6m,1580609139.0,"Ya I would group study before too, only thing is my friends are a bit ahead of me in terms of portions, so I don't do it anymore so as to not hinder their progress..."
+education,fg8434s,t1_fg805jm,1580608996.0,Thanks! I think I get what you meant!
+education,fg75nuh,t1_fg74tml,1580584586.0,"I can do stuff like remembering stuff and understanding stuff but only when put together in small chunks and at a slow pace. In the books I am given, I have so much information in one page, it takes a lot of time for me understand what is meaningful and useful... This painfully slow thing just leaves with no time to do anything else and doing it for 2 years has kind of I guess, burnt me out? But I don't like thinking like that because I then feel I am just making up excuses... It is like a endless pit of self-burdening myself..."
+learnpython,fg6rqtb,t3_ex6zwq,1580575368.0,"Just some small advice that I can give (I have only been coding for about 2 years now and only know python so I am just noob as you, guess that is where we all start from right...) :
+
+Try using the `secrets` module rather than `random` as the `secrets` module has a better random generator than `random`. For almost all cases other than something that must be confidential, `random` module will serve anybody just fine! But `random` must not be used for generation of anything that is confidential; It is so inferior that this is present in the `random` module official [documentation](https://docs.python.org/3/library/random.html):
+
+>**Warning**  
+>  
+>The pseudo-random generators of this module should not be used for security purposes. For security or cryptographic uses, see the [secrets](https://docs.python.org/3/library/secrets.html#module-secrets) module.
+
+And `secrets` is quite similar to `random`, it has similar functions to that in `random`.
+
+By the way, happy coding!"
+learnpython,fg3motk,t1_fg3lqst,1580485123.0,"Oh, well I don't have this in school yet. I am trying to learn as much as I can before university so that I am one step ahead of everyone there."
+learnpython,fg3l9lt,t1_fg3l403,1580484208.0,Was precisely my reasoning. Looks like I need to do some tweaking with the code.
+keyboards,fg38tl4,t1_fg34b1y,1580474645.0,Thanks!
+keyboards,fg38tcu,t1_fg37lew,1580474639.0,Unfortunately it is not available in my country!
+learnpython,fg33us6,t1_fg33nw9,1580469133.0,"ok, I will try rewriting them!"
+keyboards,fg33tia,t1_fg33glp,1580469088.0,"Yeah I heard about that, but I just wish they made one for the SF. Also, I meant that as long as I don't do something as careless as dropping it or anything and handle it with care, I should be good right?"
+keyboards,fg33c2k,t1_fg3391k,1580468453.0,It won't break as long as I don't drop right? Then that is fine by me. I don't want something that breaks due to normal use.
+learnpython,fg31p4y,t1_fg2uw43,1580466222.0,"Ok I scaled up my maze to 50x50 and the results are still the same and are consistent.
+
+    No of iterations:808
+    Average times for algs:
+    Dij:0.7387697826517691 seconds
+    Astar:1.4937215164156243 seconds
+    DFS:0.01654276694401656 seconds
+    BFS:0.010276499361094862 seconds
+
+One thing to note: The maze generator I am using generates mazes with multiple correct paths but only one shortest path. So I can understand the difference between DFS, BFS and Dijkstra, A-star as the latter guarantees the shortest path... I am very puzzeled by the difference in times between Dijkstra and A-star... I was not expecting calculation of the heuristic to slow it down so much...."
+learnpython,fg2weec,t1_fg2uw43,1580458812.0,"Ok, will do that... but, even then, I would expect A-star to be faster than Dijkstra... Am I wrong to expect so?"
+keyboards,ffvnaj2,t1_ffuze07,1580268159.0,I agree with the ergonomics part... Learnt it the hard way after getting RSI...
+Python,ffu164t,t1_fftkcej,1580232263.0,"Oh ok, Fine then..."
+Python,ffsrc9q,t3_euprlf,1580189712.0,This is sad... Feels like this place is becoming more like r/programming... I liked this subreddit only because of its leniency with topics that could be discussed... Makes it more friendly and approachable for new redditors... A shame to be honest that the one subreddit that I though would not become so strict with its rules has become so....
+initiald,ffhb8pm,t3_etju75,1579928616.0,Extra Downforce for max Kansei-Ricerifto....
+initiald,ffh98sx,t3_etg95b,1579926787.0,Giancarlo Fisichella ...

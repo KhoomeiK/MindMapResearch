@@ -1,0 +1,66 @@
+subreddit,self ID,parent ID,time,text
+pushshift,ff1fldr,t3_eqqkh4,1579478454.0,[Link Approved] -- I'll add comments a bit later when I can.
+politics,fej5og6,t1_feipk1g,1579157911.0,"> orbital nuked Trump and the GOP into itty bitty rubble
+
+This is the most corrupt administration in US history. The GOP is basically a criminal enterprise. And no, I'm not thrilled about having only one viable political party right now.
+
+It's insane living through this time period. I'm a former registered Republican and I switched many years ago -- but my dad who is more conservative also switched parties recently. He's dumbfounded by the level of corruption. 
+
+Any rational educated US citizen should be able to take a hard look at what is going on and see through the bullshit. It's fucking insane.
+
+Wait till the economy starts tanking."
+intelnuc,feh67dl,t1_fegmere,1579109984.0,If the dongle has a standard chipset it should!
+intelnuc,feg3cdk,t1_fefwvj2,1579075090.0,The next Ubuntu version (20.04) should be out in late April and it does appear to have a lot of exciting features including native ZFS support.
+intelnuc,fefvlxz,t1_fefspfc,1579066637.0,Thanks! I'll try out some other Distros to see how the compatibility looks.
+intelnuc,fefptnh,t1_fefpf96,1579061805.0,"This is a bit different in that the I219-V has been around for awhile but Intel made a change to this particular firmware which is giving a checksum that Linux flags as invalid (under dmesg). It's problematic since it appears many linux distros may refuse to recognize it due to the new checksum.
+
+I'm not sure of a workaround at this point short of editing the nvm.c file to ignore the invalid checksum but I'll try a few things and if I get it working, I'll post step by step instructions."
+pushshift,fee4st4,t1_feczznj,1579026397.0,I have removed your content. Sorry for the delay!
+ModSupport,fee46mz,t1_fee3esd,1579026035.0,You're welcome!
+pushshift,fee3zh4,t1_fd02dwo,1579025916.0,It should. What do you mean exactly? Does it return the stuff that was deleted?
+pushshift,fee3rp8,t1_fd8rag1,1579025790.0,"That's a great idea and something I would like to eventually implement. Using oauth to at least allow people to get their own data is a super useful feature.
+
+Thanks!"
+pushshift,fee3gjt,t1_fddu91j,1579025608.0,"If they are unavailable via the Reddit API when I ingest them, then I will never get them."
+pushshift,fee335i,t1_fdk0yvx,1579025385.0,Yes -- sorry for the delay. I'll be posting the data very shortly. I have to go through a large backlog of removal requests currently.
+pushshift,fee2vmg,t1_fdl90mp,1579025262.0,We're working on some long-term solutions for this including putting in place an accounting system to whitelist legitimate use of the author search functionality.
+ModSupport,fee2t0y,t1_fdn3ioz,1579025219.0,"Eventually once we have an accounting system in place, we will be able to whitelist users who use it for legitimate research."
+datasets,fee2hx2,t1_fdq494m,1579025035.0,Can you give me the post id that you want removed and is it your post?
+pushshift,fee29jp,t1_fdzrqbd,1579024895.0,"Once we get an accounting system in place, I'll be able to whitelist users who are using that functionality for legit purposes."
+pushshift,fee26qo,t1_fe0fw2v,1579024850.0,This is a good idea and something we're looking into. It sucks when a removed comment breaks the tree.
+pushshift,fee2477,t1_fe4hxkz,1579024808.0,Thank you! You're welcome!
+pushshift,fee1wrq,t1_feczznj,1579024683.0,Yes.
+pushshift,fecgphs,t1_fe8xxxs,1578973501.0,Sorry about the delay. I was traveling during the holidays and have a backlog to process. I should have the backlog done by this week.
+pushshift,fdzitzf,t3_ench1l,1578790585.0,"**Update:** I've fixed the issue -- it will take a few hours for the data to populate in Redis (which powers the graphs, etc.).
+
+Thanks again!"
+pushshift,fdzhx2h,t3_ench1l,1578790360.0,"Thanks for the heads up! I'll fix that shortly.
+
+I always appreciate a heads up on these things. Very watchful of you /u/watchful1!  ;)"
+pushshift,fdf6tg9,t1_fdf5qou,1578354638.0,Essentially yes.
+pushshift,fde4i4u,t1_fdcr9o1,1578330994.0,"> If you're already planning to use multiple api tokens for the ingest, couldn't you just burst request as fast as possible with one token until it runs out of requests
+
+The problem is that the Reddit API sometimes takes a second to handle a request, so using a serialized approach falls apart due to the speed of Reddit's API."
+pushshift,fd8qt57,t3_eka4fe,1578222029.0,Thanks for the heads up. There was one dump that had duplicate ids. The duplicate data should all be the same. This was an issue during the dump. You can just throw out the duplicates.
+pushshift,fcy0xhy,t3_ej2898,1578073232.0,"This has been fixed. You may need to reload or clear your cache to get the newest page.
+
+Thanks for the heads up."
+pushshift,fcy05ys,t3_ej4do9,1578072815.0,Been working on it -- had a server go up. When it comes back online it's going to be behind about a day so it may take a bit to catch up (depending if Reddit gets massive spam attacks).
+pushshift,fcui014,t1_fcugn2j,1577981419.0,There was an issue late last night but it should be working now. Which request is hanging?
+pushshift,fctrk58,t1_fctrfg6,1577955814.0,You're welcome! The API got bogged down last night from a bunch of expensive requests but it should be more responsive now!
+pushshift,fctrddr,t1_fctqbba,1577955546.0,You're welcome!
+pushshift,fctp8dk,t1_fcs8oe3,1577952533.0,This will definitely get added.
+pushshift,fcra9zi,t1_fcqstd5,1577899044.0,It's ongoing. I hope to have something in place within a week.
+pushshift,fcpkisj,t1_fcow336,1577866348.0,"Thanks for the heads up. I've put a fix in place that appears to be working well now.
+
+Thanks again!"
+todayilearned,fcky4qh,t1_fckxlhv,1577735693.0,Makes sense. Filling a gun with blanks during wartime probably isn't the best idea. How much does each bullet run?
+todayilearned,fckx4h7,t1_fckryuz,1577735075.0,Wouldn't just shooting blanks be cheaper? Or does the enemy need to hear the bullets whizzing by?
+todayilearned,fckx0sd,t1_fckrylm,1577735013.0,"or worse, expelled."
+CatastrophicFailure,fc5hjlo,t1_fc5e4pr,1577457775.0,"I don't think Boeing has ever had a major issue with structural integrity. If a plane is going to crash, it could be made out of titantium -- it's not usually going to matter much. 
+
+Would you really build a plane like a tank if it reduced your fuel efficiency tremendously and caused other issues?
+
+The structural integrity needs to withstand strong turbulence. No one is going to purposely design a plane to survive a crash."
+pushshift,fc1j4a5,t3_edpld6,1577320293.0,Nest level is implemented in dev so you can use it there. It isn't integrated in production yet but that is definitely on the short-term roadmap.
+pushshift,fbizcy0,t3_edlevz,1576920250.0,Can you give more information on what data is missing?

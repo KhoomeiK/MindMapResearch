@@ -1,0 +1,361 @@
+subreddit,self ID,parent ID,time,text
+PrintedCircuitBoard,ff9xm22,t1_ff9lkqv,1579723713.0,"Yeah, but it's still something to be aware of regardless.  I'm sure it'd be fine with ENIG and that's probably what I'd use, but you wouldn't want to use something like OSP even if it was just going to stay plugged in forever."
+PrintedCircuitBoard,ff8cx4s,t3_es6k43,1579673343.0,"Is that all there is to the board?  If so, anything that'll produce Gerber files should do it.
+
+That looks like a card edge connector.  If that's the case, you'll want to talk to your chosen board fab about it, particularly if it needs to be inserted and removed much.  I've yet to have a board made with [gold fingers](https://www.mclpcb.com/guide-pcb-gold-fingers/), but normally those would be plated with harder, thicker gold to stand up to repeated insertions.
+
+And of course for card edge connectors you need to be really sure you've got the right board thickness."
+Welding,ff8ca5w,t1_ff844cg,1579672674.0,"Standard procedure on nuclear aircraft carriers and submarines, too."
+Welding,ff8bzlm,t1_ff81ijc,1579672379.0,"This place is all galvanized.  Which I've heard isn't the best for air, but I didn't run it and I can't really do anything about it, aside from putting filters on things to catch any flakes that come off."
+embedded,ff8buym,t3_es6w7i,1579672247.0,"That depends entirely on what you're doing.  But if you're contrasting embedded systems with general-purpose computers, low latency is generally something embedded systems do better, mostly by virtue of being close to the hardware without a lot of software layers in the way."
+funny,ff7r9fu,t3_es2p1q,1579656428.0,They're [everywhere](https://i.redd.it/pmrdl0mnyym11.jpg).
+embedded,ff6wfgo,t1_ff67xgq,1579636282.0,"I think OP is describing something more like a wireless I/O bridge.  For a single pin, this could be accomplished with a 2-frequency FSK modem.  A 16-frequency FSK scheme could let you do 4 I/Os.  But that's about as far as I'd want to push that.  It'd be noisy, and the noise would double with every I/O line added.
+
+But you're right, the way to do it beyond the most trivial system would be to use MCUs on each end."
+AskMenOver30,ff5bmzr,t3_erkh5a,1579586360.0,"Practice.  Honestly, working in retail was what started me on the path to getting over it."
+AskReddit,ff58y79,t3_ero2b3,1579583786.0,"I think the castle doctrine ought to apply to anything a reasonable person would be expected to identify as a home.
+
+Whether the locals can be counted on to recognize a cardboard box as a home is probably going to depend on where you are."
+embedded,feu99ya,t3_eql3iw,1579384366.0,"Have you looked into how much flash is actually affected?  And are we talking about single event effects, total dose, or both?
+
+My hunch is that SRAM is still going to be more vulnerable to SEUs since it has multiple transistors per bit, and flash I think is one, with a trapped gate charge.  I don't know how vulnerable that charge is to radiation or how big a target it is, though.  But SRAM is definitely vulnerable and I would focus a lot of my attention there.
+
+ECC seems like the way to go.  I've got a piece of space station hardware here that I'm told mistakenly had its EEPROM ECC feature disabled and the on-orbit units have to have their firmware refreshed every few years to prevent bit rot.  I don't know how much margin that gives, or the expected failure rate in that span.
+
+An external watchdog is probably a good idea.  Single-event latch-ups can lock up a system until it gets a hard reset.
+
+I haven't done any reading on the topic in years, but I did get seated across from a guy who specialized in that stuff (specifically in RAM-based FPGAs for space applications) at dinner at a conference once, and coincidentally I'd read a paper of his and we had an interesting talk.  Apparently smaller transistors are more vulnerable to upsets when they're hit, but they're less likely to be hit since they're a smaller target.  And lower core voltages can reduce or eliminate the SCR effect that causes latch-ups.  Can't remember a lot of details beyond that, but it's something to look into.  Older parts with larger features aren't *necessarily* better.
+
+Be careful about how you employ shielding, too.  I know a guy who slapped some lead sheets over the SRAMs on a microsat once at the last minute, and it may have actually made things worse.  A high-energy particle zipping through the die might have a small chance of interacting with the circuit, but the same particle would be much more likely to hit the lead shielding and produce a shower of lower-energy spallation products that are more likely to cause trouble.
+
+I'm no expert on the topic so don't take any of this as gospel - it's just stuff to research."
+smallbusiness,fet1fyg,t3_eqh950,1579370908.0,"I picked up a used 2 ton 36 volt electric forklift for $2k about 10 years ago and it's served me well.  I only use it a few minutes each month so the old worn-out battery isn't really an issue.
+
+About half of what we get in comes on pallets about that long.  Fork extensions would be a good investment, but I've gotten by without them, except for once I had to borrow some to move my milling machine.  The big pallets are usually loaded with light stuff, mostly packing materials, and I can pick them up without extensions.
+
+Other handy accessories are a pallet puller (big metal jaws with a chain) in case you need to pull stuff from a truck without a pallet jack, and I've got a hitch ball adapter so I can move trailers around.
+
+If you're not using it constantly or over long distances, I'd strongly recommend an electric.  They're low maintenance, quiet, easy to operate, and you can get very fine control.  A 40-amp single-phase charger takes about 24 hours to fully recharge the battery on mine (or would, if the battery wasn't mostly worn out) but if you're not using it every day, who cares?  The only maintenance I've done on my forklift in 10 years has been watering the battery and it's still working fine."
+embedded,feppydq,t3_eqbbm3,1579327402.0,"I resisted for a long time - I was comfortable with my 8-bit tools and saw 32-bit MCUs as unneeded complexity, but it's been worth it.  Far greater capabilities, and the development tools are better.
+
+I have to agree with the others; showing a working prototype would probably go a long way toward easing some fears.  But be mindful of the non-technical reasons your colleagues might resist.  I started out on the 6502 (technically the 8502 for my first assembly code) and used the 6800 and HC11 in school.  For my own projects I mostly used the HC08 - all from the same lineage, more or less.  I had decades of experience with those architectures and had learned all sorts of tricks to squeeze performance out of them and knew the instruction sets inside and out.
+
+Switching to Cortex parts was tough psychologically.  I went from feeling like I had complete mastery of my chosen platform to being a noob.  I was in my mid-30s, and if your coworkers are older it might be even worse for them.  The complexity of the documentation has increased, and the quality and organization (in my experience) has decreased - in large part because of the split between ARM making the cores and vendors like NXP making the actual parts seems to have led to a ""somebody else's problem"" effect where every piece of documentation has vague references to someone else's documents without specifics.  Compared to the days of getting one bound tome from Motorola describing every last detail of the MCU, it's frustrating.  And that's just one of many ways a change might be hard for old-timers.
+
+I don't know what to tell you to get past that.  I made it through the worst of the learning curve probably partly because that's when my doctor switched me to Adderall for my ADD and that first few weeks of being totally wired was when I really buckled down and started to learn the new tools.
+
+If you work with people who actually *enjoy* embedded programming, maybe you can rekindle some excitement by showing off some personal projects and talking about what the architecture can do, *without* actively trying to force a change.
+
+If they're more apathetic, then probably the best thing is to just get through some of the hard parts yourself and bring up a prototype board with the basics covered so they could  just jump in and start using it."
+AskReddit,fen52b8,t1_femg3g1,1579277137.0,Really you just need to get an invitation to a Hufflepuff cuddle puddle.  That *has* to be a thing.
+BurningMan,fem7qb0,t3_epwdge,1579242779.0,Duel!  You could stick marshmallows all over the vehicles as scoring markers.
+videos,fem761f,t1_fel98aw,1579242183.0,"Yeah.  We used to have a sun catcher in our living room window that would throw rainbows on the floor, and as a kid I'd lay there so a rainbow would move slowly across my eyes.  It was just like this - ultra-intense pure colors.
+
+Come to think of it, I'm sorry I never experienced that in my days of experimenting with psychedelics.  Probably would have been mind-blowing."
+funny,fem6pjp,t1_felturh,1579241697.0,"One year at Burning Man, a large portion of my calories for the week were provided by a giant tub of chocolate chip cookie dough.  I figured it wasn't the worst thing I'd be doing to my body that week."
+AskReddit,felyb5u,t1_fel3z87,1579234042.0,"The postal service is one of the world's worst.  I saw an article a while back where someone had a bunch of letters mailed from city to city within SA, and after two weeks something like 20% of the letters had gotten through.
+
+Shipping internationally to SA is worse.  You absolutely cannot send anything of value through the government mail service.  Even shipping by DHL, we'll lose 1 in 4 packages - but unlike the post office, DHL will actually pay up on their insurance claims."
+AskReddit,fely0nb,t1_fekdben,1579233814.0,">Corrupt Inspector: OK, no problem
+
+Thailand, too, though maybe not as blatant.  I had a big brick of rubber adhesive bumpers in my bag that I'd picked up in China while visiting the electronics shows and they tried to assess duties on it based on 100x what I'd paid - I think deliberately ignoring the decimal point.  And since it was a temporary import there should have been an exemption process, but I didn't realize what was going on until the customs inspector made it clear that there was a *cash price* if I paid right then and there (she helpfully pointed out the nearby ATM) but it would be more if I wanted to go to the customs desk and do the official paperwork.
+
+Pretty sure not one baht made it to the Thai customs agency."
+AskReddit,felwr0s,t3_epn15l,1579232870.0,"Given the stuff I've got here, I'd be wondering why the NRC and NASA aren't involved."
+TIHI,felw1l2,t1_fekf9gh,1579232357.0,"I showed a friend an [Alizee video](https://www.youtube.com/watch?v=Q6omsDyFNlk) once and his response was ""OMG, this was our porn in Iraq before we had porn!"""
+BurningMan,felvolc,t1_fekm98h,1579232098.0,It was definitely there in [2015](https://i.imgur.com/bQPJcyn.jpg).
+freeflight,feluwv7,t3_epu97x,1579231545.0,"What if some jerk was to shoot at you with a 12 gauge?  Most societies frown on murder.  In fact even attempted murder is illegal in every jurisdiction I've heard of.
+
+Taking out enough of those lines to take down a paraglider would probably be more difficult than you imagine, even with sharpened blades.  They're often made of stuff like Kevlar or Spectra, for one.  And paragliders are moving targets.
+
+You *do* fly with a reserve chute.  Descent on a reserve tends to be on the fast side (the reserve needs to be big enough to get you on the ground in one piece, but not to make a comfortable landing) and a pilot coming down on their reserve (probably still trailing what's left of their wing) would be an even harder target than a paraglider."
+embedded,fel2egl,t3_epnvdw,1579212580.0,">sometimes making things technically less efficient is better for the clarity of your software 
+
+And this has to be evaluated on a sliding scale based on your resource constraints - including development time.
+
+As a simple example, I wrote an NMEA 0183 (GPS data) parser about 18 years ago and the first version would take a pointer to a structure and fill it out with the parsed data.  It was running on an 8-bit MCU with 192 bytes of RAM and 8 KB of flash.  Dereferencing the pointer took up code space and time, and it was always pointing to the same struct.  So I made the struct global and removed the pointer, and it's been fine for many years.
+
+Now I've ported it to a Cortex M4 with 128 KB of RAM and 1 MB of flash.  Making the code clean and reusable (it now has to parse more than one source) is more important than absolute efficiency, and there are many other places in the application with low-hanging fruit for optimization.  The new version is much less compact, but its impact on the system as a whole is minimal.
+
+Since I own the company, I have a direct personal interest in keeping costs down.  Saving $3 per unit on a design that sells 1000 units per year is enough to pay for a decent vacation.  The question becomes how much pain I want to endure squeezing something into the cheapest MCU possible, especially when you take into account the need for room for growth if the firmware is going to keep evolving with future releases.
+
+Be aware of what your compiler is doing, but don't optimize where it's not needed - it'll just hurt your readability and portability and waste time.  Use profiling if necessary to figure out where your trouble spots are, and focus there.
+
+Preprocessor macros can be very useful for keeping your code clean while maintaining some efficiency.  They let you use awkward idioms while still being readable.  You can really shoot yourself in the foot if you're not careful, though - double evaluation in macros being a classic example.
+
+My rule is that macros can be as nasty and convoluted as they need to be, but they get written in their .h file as clearly as I can manage, with clear explanations of what they're doing."
+funny,fekbi52,t1_fek735l,1579196583.0,"We had something similar here - Cal Poly San Luis Obispo used to have a big annual party called Poly Royal, up until a [riot in 1990](https://mustangnews.net/poly-royal-bringing-back-the-name-but-not-the-violence/).  (I still have my Poly Royal 1990 t-shirt somewhere, I think.)
+
+The city had 41,000 residents and about **100,000** people showed up to party.  120 people arrested, and it was cancelled for 24 years.
+
+SLO has constant friction between the permanent residents and students.  Which sucks for anyone else wanting to have fun in that town, because just talking too loud in your back yard at the wrong time can get you a $700 noise fine for a first offense."
+videos,fek90ma,t1_fek7awr,1579195120.0,Print it out and make a flip book.
+Machinists,feiion3,t1_fehyjnk,1579139430.0,"Yeah, I got it fully expecting I'd have to break it up for parts to get any of my investment back, but now it's an essential tool in the shop.  Especially since the UV flatbed printer is always down and the laser is the most reliable way we have to mark electronic enclosures.
+
+On that auction haul as a whole I came out about $3000 ahead after selling what I couldn't use on eBay.  Wish that'd happen more often."
+bestof,fehops6,t1_feh8y6k,1579120825.0,"And this guy claimed in the post they were 38 and 27, so clearly he *knows* that people are going to think 43 and 23 is a big gap.
+
+I'm 42, and 25 is about the youngest I even want to hang out with.  And that's really dependent on the person.
+
+I'm not going to pretend I don't notice the hot 22 year olds at the climbing gym, but we're not at remotely compatible places in our lives."
+Machinists,feh0qde,t1_fega2p9,1579106715.0,"Mine was a lucky auction find for $160, plus a few hundred bucks to fix it up and get it running.  I got a quote from the manufacturer on a new one, and the laser head (without the enclosure) sells for about $26,000.  There are cheaper fiber lasers out there that'll do it, but they tend to be a lot slower."
+Machinists,feh0lyg,t1_fegr1lc,1579106642.0,"Yep, I need to do enough of them one of these days for them to have a decent chance of being found."
+Music,feh0iks,t1_fegu6yt,1579106585.0,"It's kind of an auctioneer style, even outside of livestock auctions.  I used to go to DRMO auctions at a nearby military base (I'm in California) and the auctioneer had a cowboy hat and the same style of patter."
+Machinists,fefpue0,t1_fef83dk,1579061820.0,"Yep.  I've got an Nd:YAG marking laser right here and I've used it for plenty of stupid shit, like putting serial numbers on rocks.
+
+ROCK, BASALT  
+S/N 8845731554544477  
+MFG DATE 344,857,112 BC"
+todayilearned,fefo5iv,t1_feemoeg,1579060637.0,Came here to say this.  I ship stuff to Ireland and I've yet to see a number appear anywhere in an Irish address.  You get a county name and maybe a village.
+Welding,fefnmg7,t3_eoo3ua,1579060273.0,That's what you call open cycle cooling.
+BurningMan,fefb01c,t3_eot06d,1579052346.0,"Every time I've picked up the phone there's been no one there.  For a long time I figured either it was a statement, or maybe just detecting my atheism."
+LEDHooping,fefavgk,t1_fef2ty3,1579052261.0,"3/4"" OD polycarbonate, 1/16"" wall thickness.  That was the easiest way to do it, since the hoop components are already sized for 3/4"" tubing, and polycarbonate is about the only available material that's stiff enough, tough enough, and clear enough.
+
+You can only get it in 8' lengths, though, unless you go to a lot of trouble to special order it, so the giants (there are three of them now) are made with two 8' sections of tubing each.
+
+If I had time to redesign it, I'd make it modular so it could be broken down into at least two pieces.  As it is, it barely fits in a car and requires some squishing."
+amateurradio,fe8y9hp,t3_enurxy,1578932302.0,"I have yet to see one ""Morse code"" bracelet that's actually readable.  Whoever designed these things had no concept of how Morse actually works."
+TIHI,fe4862l,t1_fe11qn5,1578856678.0,Because it's exactly the sort of thing that women get *constantly* on dating sites - guys who constantly steer every conversation toward sex.
+TIHI,fe0edrg,t1_fe0e4m0,1578811803.0,"""What do you want to eat?""
+
+""How about \[I eat\] you?""
+
+The recipient is assuming it's a proposition for oral sex."
+TIHI,fe0e2al,t1_fe0d946,1578811469.0,"If you missed the joke, it's that the second-to-last message didn't go through."
+AdviceAnimals,fe0c4d8,t3_enj1s6,1578809360.0,"Wait, can you get delivery for breakfast, too?  Because every time I'm seriously hung over in the morning I think that IHOP really needs delivery..."
+LEDHooping,fe084dp,t3_emv4u7,1578805626.0,"I'm the creator of the Hyperion hoop, and I'd be happy to answer any questions you have!
+
+All of our hoops (Hyperion, Hyperion Phoenix, and Hyperion Lite) have the same high-density LEDs and are about as bright as a smart hoop gets.  If brightness is important above all else, the Hyperion and Hyperion Lite have an advantage in that they have removable batteries.  Running any hoop at high brightness drains the battery fast, and hoops with non-removable batteries (Phoenix, Flux, Astral, Psi, some Future Hoop models, etc) have to stop to recharge.  Also, the clear polypro option will give you sharper, brighter pixels than the colored polypro or HDPE options.  Of all of the hoops I see here every day, it's the polypros that always catch my eye.
+
+Something to watch for in a smart hoop is where the LEDs are positioned and how consistent their distance from the tubing is.  It's something we're really careful about in the Hyperions and it makes a visible difference.  For sharp pixels the LEDs should ideally all be right against the tubing on the outside edge.  Hoop makers tend to cheat to make it easier to put the hoops together.  An extreme example is the Hula Labs Acrobat.  They have no padding, just elastic cord, and the LEDs are *mostly* all against the back wall, but a few are against the other wall where they run over the batteries - makes them cheap and easy to put together, I'm sure, but it looks more blurry.
+
+I see the Flux has already been mentioned here.  Obviously it's a competitor but it was designed by someone I consider a friend and I think it's a good hoop, and the only one I consider any real technical competition for the Hyperion.  The Flux has a different design philosophy and which hoop is right for you depends a lot on your preferences.
+
+The Flux keeps its controls on the tiny on-hoop screen.  That can make it easier to navigate complicated functions without a remote or a phone, but personally I don't like fussing with on-hoop controls and of course you can't use the controls while the hoop is moving.  The screen, joystick, and connector are all in one injection molded piece that's kind of a weak point, but I couldn't tell you how often they break, just that I've seen several break there.
+
+The Hyperion has no on-hoop controls, aside from the power button on the Phoenix version.  You access most features with the 7-key keychain remote or the larger 44-key remote.  The separate remote makes the hoop construction simpler and more rugged (no joystick or screen to break), you can use the remote while the hoop is in use - or someone else can play with the remote while you're hooping - and it's easy to jump straight to preset patterns, change pattern folders, and so on.
+
+For more complicated functions you can use the browser-based controls from your phone, tablet, or desktop.  The Hyperion Lite is the 5/8"" version (which is a whole lot smaller and lighter than the Flux or other Hyperion models) and doesn't include the WiFi features, but does still have both IR remotes.  The Lite is the lowest cost option, normally $299 (about $100 cheaper than the Flux) and it's $50 off through Sunday (coupon code FLASH)."
+whatisthisthing,fdztm1d,t3_en888t,1578795500.0,Do you live on Pern?  Could be [thread](https://pern.fandom.com/wiki/Thread).
+funny,fdzllc5,t1_fdyr115,1578791388.0,"If you've got any other campy songs like that in mind, let me know!  I'm putting together a playlist for exactly this.
+
+At Burning Man every year there's an ultramarathon that starts very early in the morning and most of the route is just along the perimeter fence in empty desert.  I've got a little art car that I drive around out there with a sound system on it and I'm planning to play my sports training montage playlist as I drive along the course at my maximum 5 MPH."
+funny,fdpndrl,t1_fdpl228,1578633631.0,I *am* the CEO and entire board of directors for my company and I've still had a customer ask to escalate something to a manager.
+Showerthoughts,fdpn1uf,t3_emg6gm,1578633326.0,"Spherical lead shot balls were probably the first thing to ever use zero gravity manufacturing, starting in the 18th century.  They'd melt lead at the top of a tall [tower](https://en.wikipedia.org/wiki/Shot_tower) and let it drip through a sieve, and surface tension would make the drops spherical as they fell.  They'd solidify on the way down and then fall into a pool of water at the bottom.
+
+And yes, this counts as zero gravity as much as being on the space station does.  The space station is still within Earth's gravity well - it just falls continuously over the horizon."
+C_Programming,fdplaj9,t3_emlz8r,1578631786.0,"This doesn't seem to have anything to do with C programming, and you can't just post a CNC video with a title like that without a spectacular crash.  Clear those offsets and try again."
+BurningMan,fdpkw46,t3_eml3wr,1578631451.0,"This may be a stupid question, but can someone explain to me exactly what Christians mean when they use the term 'pagan' in the context of Burning Man?
+
+To me, 'pagan' implies some form of polytheistic religious belief - ancient Romans, Celtic paganism, or neo-pagan beliefs like Wicca.  Do they think the majority of Burners follow those beliefs, or do they just mean it in a general sense of ""non-Christians that we disapprove of""?"
+funny,fdp7xhc,t1_fdp4vbh,1578622092.0,[Hitler](https://floridapolitics.com/archives/195896-martin-dyckman-as-rhetoric-descends-up-pops-evil/nuremberg-rallies-large) was definitely more popular than [Trump](https://wtop.com/dc/2017/03/park-service-photos-challenge-trump-on-inauguration/).
+todayilearned,fdp7hbi,t3_emfhwn,1578621791.0,"[Tumbleweeds](https://www.latimes.com/archives/la-xpm-2001-apr-15-me-51273-story.html), on the other hand, are a bitch.  Russian thistles will send down a long taproot, suck up radioactive cesium, and then break off and blow away, outside of your containment area.  It's been a problem in former nuclear testing sites."
+AskReddit,fdmj6ix,t1_fdm7cm1,1578551836.0,"My parents would ban me from the computer (Commodore 64 or 128) for months.  I'd spend the time (mostly in Algebra class) writing out programs on graph paper and debugging them in my head.  Actually learned a lot of computer science that way.
+
+If they'd diagnosed my ADD about 15-20 years earlier, school would have been a lot different for me..."
+videos,fdmhqd3,t1_fdly1kd,1578550317.0,"There needs to be some perspective versus other waste sources.  They're not very recyclable, but they're also each only 4 grams of waste.  That adds up - to like 120 tons a year if I'm doing the math right.  But I'd be willing to bet you could find a thousand other more serious waste sources that people aren't talking about, because they're out of sight (used in industry and not retail) or that they disregard because they don't have the same emotional impact as throwing away your expensive Apple product.
+
+I got a piece of junk mail with a video player built in.  I guarantee that had to have at least as much electronics in it as 5 or 10 pairs of Airpods, and it was *designed* to be thrown out after using once.
+
+I made that one into a rickroll card for a friend's birthday, but most of them are going to wind up in the garbage"
+BurningMan,fdmh2il,t3_em2t8z,1578549661.0,"I had a similar project idea several years ago, though mine eventually morphed into a telescope that looked back in time.  Worked OK.
+
+That was placed on the playa and required a lot of paperwork.  I brought it back another year but kept it in camp, and that required no paperwork at all.
+
+If you're not part of an established camp and want to get placement, you'll need to apply as a theme camp.  Not an art support camp, because that's for stuff placed on the playa - but your art installation will factor into your application as part (or maybe all) of your planned interactivity.
+
+In other words, instead of saying ""we're a camp here to support this piece of art"" you're saying ""we're a new theme camp and a thing we're doing in camp is this piece of art"".
+
+AFAIK, it will not help your chances of tickets the first year - I'm pretty sure only returning theme camps get a chance at DGS."
+OkCupid,fdmg2k7,t1_fdmbsmj,1578548705.0,"Was the age close to yours?  When I checked the settings, the date of birth had been changed - plus one month and one day, minus one year.  Like they just clicked on an adjacent item for each field."
+embedded,fdm88t3,t3_eltvn4,1578542241.0,"I started out in a corner of my bedroom about 18 years ago - I've got about 5000 square feet of shop space now, but my main electronics lab is still only about bedroom sized.
+
+A decent soldering station is a must.  Spend more than $20.  Get something temperature controlled with a fine tip that's not too heavy and isn't super long.  You'll also want a flux pen, solder braid, and good solder.  Sn63Pb37 alloy if you don't need it to be lead free.
+
+A 'real' scope is nice - I've yet to find a PC-based scope for a decent price that I like.  I got a Bitscope years ago and hate the software.  I also don't trust its triggering.  For a while I had an old HP DSO that I paid maybe $20 for that worked more reliably than the $400 Bitscope.  Rigol, Hantek, and Siglent make some decent DSOs for under $400.
+
+A logic analyzer is a must.  Saleae isn't as cheap as they were, but still worth the price.  For limited voltage ranges, some models work as oscilloscopes too, but in a very limited way.  It's good for mixed signal work when you need to see the relationship between analog and digital signals, and for a quick check of what's going on in the analog world, but it's no substitute for a real scope.  You can look at logic signals on a scope, of course, but the logic analyzer has protocol decoders that will save you a lot of tedious analysis.
+
+Cheap DVMs are fine.  I've got a \~$400 Fluke, but only because I got it in trade.  A $20 DVM will do just fine for most purposes.
+
+A bench supply with current limiting is also a must.  [Circuit Specialists](https://www.circuitspecialists.com/csi-power-supplies) carries many cheap options.  The current limiting will help prevent blowing things up when you make a mistake, the current display gives you valuable information about what's going on, and constant current mode is useful for stuff like charging oddball batteries manually.
+
+I've got one primary workbench PC (with dual monitors) that I use for all of my development and design work.  There's also a Linux laptop on a swing out arm on one end of the workbench for testing purposes, and an old XP machine for running things like the pick and place machine and old EPROM programmers.  One PC is just fine for starters, though.
+
+The 10-pin SWD connectors are standard for Cortex parts.  For production boards I use the TagConnect TC-2030-NL, which is a 6-pin pogo adapter that doesn't require any parts to be installed on the board and takes up very little space.  If you grind down the alignment pins a bit you can stick the programming pads on the back side of the board under the MCU for many package types.
+
+Looking around the room, other stuff I use frequently includes:
+
+Programmable DC load.  I don't use it often, but it's super handy at times.
+
+Function generator
+
+Hot air rework station.  I'd consider this a necessity for any modern electronics work.
+
+Stereo boom microscope.  You can get by with a USB scope, but if you can afford it, a boom microscope is well worth it.  I use mine with 10x WF eyepieces and a 0.5x reducer for 5x magnification with good depth of field and working distance.  Unlike the USB scope, you get depth perception and basically unlimited resolution.  Mine's a trinocular scope so I can still hook a camera up if I want to take photos or put it on the screen.
+
+Thermal camera.  You can get one for around $200, and they're really useful.  Find one with adjustable focus - mine doesn't do well close up.
+
+Tweezers.  Good ones, but not super expensive ones.  I think these are mostly in the $6 range.  Straight needle point, curved needle point, and wider straight tweezers at least.  Combine a good soldering station with good tweezers and a stereo microscope (and don't forget the flux!) and you'll find your soldering capabilities are massively improved."
+C_Programming,fdm40rc,t1_fdl7pyp,1578539271.0,"Also, don't forget the trailing null.  You're realloc()ing twice the length of the string, which doesn't include the null.  If you've got an 8-character string and you realloc() to 16 bytes, you won't be able to fit two copies of the original 8-character string in it.  You need to add one byte."
+OkCupid,fdm2pjl,t1_fdm0z32,1578538388.0,"Not just me, then.  What are the pics like?  'Tim' had two that I'm not at all sure are the same guy, but both white and roughly in the right age range.
+
+Were you also able to recover the account?  I haven't checked to see if there's another security measure in place to prevent changing the email address.  If there's not, I don't know why they wouldn't do that first."
+whatisthisthing,fdm118g,t1_fdll3nt,1578537260.0,"I saw someone hawking these on the street in Shenzhen.  Similar setup to the video, except it was a wire mesh cage.  When the guy plugged in the gadget, the rat would jump and run around.
+
+It wasn't hard to figure out that the plug was electrifying the floor of the cage, and the poor rat was getting shocked with every demo.
+
+That was in the most developed downtown section of a modern city with 12 million people.  Gotta love China."
+smallbusiness,fdkchai,t3_elujsu,1578500958.0,"See [this article](https://www.wikihow.com/Show-Your-Nickname-on-Your-Resume) on using a nickname on a resume - I think the advice works for emails, too."
+funny,fdj9lkv,t3_ell4iv,1578462453.0,"I worked in an office where we had a big binder marked INFORMER (it was the name of a server) somewhere people walked by it all the time, and *constantly* someone would walk past and sing that single word - and then get stuff thrown at them because we'd all have it stuck in our heads the rest of the day."
+videos,fdj9e3x,t1_fdj3ix6,1578462268.0,"Not up on the Central Coast, it's not.  You kind of get a mix, but most people drop the definite article.
+
+Except we'll always use 'the' when talking about ""the 405"" or anything in LA."
+funny,fdj3sy0,t1_fdhhpcw,1578457691.0,"It's OK, storm troopers are used to missing people."
+C_Programming,fdj2uoz,t1_fdhzxby,1578456996.0,"It's common to have extra UARTs (and other peripherals) on a die that don't have connections bonded out, and in one case (on a Kinetis MK22FN1M0AVLH12) I used one of those undocumented UARTs in self-test loopback mode with the wake-on-address feature to automatically watch for a certain response to SPI polling.  DMA sends poll character, DMA fetches SPI data register into UART data register, UART matches the address and generates an interrupt.
+
+I can't imagine it'd take much silicon for them to implement a digital comparator.  Would be nice to just have some registers set up to generate interrupts, or trigger DMA based on data."
+OkCupid,fdisosr,t1_fdirzfx,1578450173.0,"But in that case, why change the name and location?  Or other random details?  I'm an embedded systems designer, and 'Tim' said he was a contractor and architect and changed the part about how I design and build electronics to designing and building roads and buildings.
+
+Keeping an existing real account as it was would make it easier to pass.  And I'm no model, but at the risk of sounding immodest I'm better looking than 'Tim'."
+funny,fdhwggh,t1_fdhrf2t,1578431398.0,Took me about 5 seconds and I got Susan B. Anthony.  No idea.
+Hooping,fdhwcyp,t3_elfb6n,1578431347.0,"It's OK to say 'no'.  Explaining how much it cost usually helps deter people.  And especially if you use it for gigs, ""I need it for work"" is a good deterrent.
+
+When I bring hoops with me, it's usually specifically to share, but then I've got the advantage of making hoops myself and repairs aren't a big deal.  I think the only hoop someone has ever broken was one of the 60"" polycarbonate giants, which totally wasn't their fault, and the whole point of the giants was to share.  It also survived at least 3 trips to Burning Man before breaking."
+BurningMan,fde4cij,t3_ekvp4r,1578330895.0,"I wouldn't go to a music festival solo - I'm 42, I'm not *that* into the music, and I don't connect easily with random people at those things.  I'd go to Burning Man solo in a heartbeat, though.  It *is* possible to feel really alone, but that's mostly up to you.  Any time of day or night you can find people to connect with if you make a little effort."
+funny,fdd584x,t1_fd5hoz0,1578295339.0,This whole thing looks like it could have been a malfunction of the Red Dead Redemption game engine.
+movies,fdd4dnt,t1_fdbqubc,1578294287.0,">the actual emotional core of the film, its character work, its thematic throughline 
+
+Well if you want to go there, I feel like the film fails in 123 minutes to be half as poignant as Harry Chapin manages in 4 minutes.
+
+Part of the reason I'm upset about the crappy science is that it feels like the film was just using it (and a serious-sounding Latin title) to lend gravitas to a dull, plodding story that didn't really say much.  It didn't even feel like Tommy Lee Jones was occupying the same space as Pitt - for the amount of connection they had, they could have been shot on green screen separately and never met on set.  The same information could have been conveyed (and more realistically) through log entries."
+movies,fdbkb39,t1_fdaj7cl,1578258186.0,"Expecting Interstellar?  Interstellar was another failed attempt at high-concept science fiction that threw in some pretty window dressing with slow pacing and giant plot holes.  I was *hoping* for something that was at least a fun ride like Gravity.
+
+What is the purpose of [this](https://i.imgur.com/FyBmUJF.png) scene?  It's like they wanted to show off a very realistic moon scene (I thought the traverse around the crater was stunning) and then threw in magic anti-gravity dust for... what?  A sense of wonder?  It's a little like watching a non-fantasy period piece in the age of sail and the ship just passes through a fog bank of pebbles with no explanation and no comment, and the magic of flying rocks doesn't actually play into the movie at all.
+
+Neil Armstrong once said the thing that surprised him the most was the behavior of the dust when they landed.  It streamed straight out in perfect parabolas and then when the descent engine shut off the dust shut off instantly too, with the trailing edge disappearing over the horizon in seconds and leaving everything perfectly clear around them.  This scene feels like someone heard his description and thought ""yeah, let's show how alien this place is by doing the exact *opposite* and having dust just hang around in the 'air'"".
+
+Yeah, having dust fall in parabolic arcs without leaving the tiniest floating speck looks weird to audiences, but they went the opposite way and just made it levitate in a way that was so unusual that even a trained astronaut had to stick his hand out to investigate."
+movies,fdagmn1,t1_fd7ua7j,1578245870.0,">I thought the whole film was really a striking meditation on human profligacy, indolence, and parochialism
+
+They could have done that with the father on a remote island or Antarctica or something.  Running into baboons and pirates along the way would have at least made a little more sense there.
+
+Instead, the visual language of the film tells us we're supposed to believe this is the real world and that the rules of the real world apply - it's not presented as fantasy and doesn't make a clear break with our world like, say, Star Wars or even Battlestar Galactica.
+
+We've got Brad Pitt on an inexplicable space tower that has something to do with SETI, despite his dad already having led the expedition that was the last word in SETI.  The tower has no point except to look pretty, establish that Pitt's character has nerves of steel, and to connect his work to his father's.
+
+There's no need for him to go to Mars in person when the message could be sent encrypted by whatever means they have - even with today's tech sending voice comms to Mars is not a huge challenge.  They could have couriered it on a thumb drive.  They could have at least recorded it there on Mars so they could keep him from going off script.
+
+Speaking of the script, having him read a stilted, awkward message totally defeated the purpose of bringing him out there to make a personal connection with his father.  They told him ""come to Mars to do this thing only you can do"" and then when he got there they tried to do it for him.
+
+The pirates were just thrown in as a statement about humans fighting for resources.  Driving hundreds of miles overland in moon buggies made no sense.  How do they supply a major base that way?  How was he attracting less attention on commercial transport?
+
+At one point he reaches up overhead and runs his hand through lunar dust just hanging in vacuum, defying gravity.  I don't know what that was trying to show, other than ""look at our CGI budget and our total lack of understanding of space.""
+
+Then there's the storm drains on Mars (ok, presumably an acoustic suppression system channel I guess) that he can swim up and then access the spacecraft *from the engines*.  And then the crew panics and gets killed *by a fire extinguisher* that's inexplicably filled with instantly-fatal gas, just hanging on the wall.
+
+It took the father's antimatter-powered ship 16 years to get out to where it is now, but somehow this conventionally-powered ship can do it in 80 days.  And all of the planets in between are in a straight line so we can see them going by out the window.
+
+When he gets there, he's somehow parked on the wrong side of Neptune's tiny ring system and his interplanetary spaceship just isn't up for the journey so he has to go right *through* the rings in an EVA pod.  And of course his father is still alive and well after 16 years in space, and hasn't bothered to transmit any of the priceless data he's collected - data that's so complete that it can DISPROVE the existence of life anywhere in the countless trillions of worlds in the universe.
+
+There was nothing in his interaction with his father that couldn't have been accomplished with some recovered log files, with his father being more realistically long dead.
+
+The whole reason for being out there, that this ship was generating pulses that were *increasing* in amplitude as they spread out, ignores conservation of energy.  Somehow no one ever saw this ship as being a possible planet-destroying weapon, yet it managed to happen by accident.
+
+Then we get one final hurrah in the form of Brad Pitt surfing a nuke's shockwave back to earth.  If there was tension about not having enough fuel to get home, we didn't hear about it - they never said it was a one-way trip.  And it ignores the fact that there's no *air* out there, so there's no blast wave, just a giant wash of X-rays, gamma rays, and the mass of the vaporized ship itself expanding at many kilometers per second.
+
+It tries to make a lame story seem smart through a sophisticated setting, but shows a total lack of understanding (or caring) about the setting.
+
+If you want a poignant story about fathers and sons, [Harry Chapin](https://www.youtube.com/watch?v=KUwjNBjqR-c) does a way better job in 4 minutes than Ad Astra does in over 120."
+movies,fdab40g,t1_fd9ly6w,1578243966.0,"Yeah, but it falls victim to the trope of ""the atmosphere has a distinct boundary and we're going to hit it within one orbit at a definite time.""  Any impact large enough to deorbit a station in a short time span would totally obliterate it."
+movies,fdaajk4,t1_fd91xe3,1578243717.0,"Well, the real-life MMUs only had about 45 MPH worth of *total* delta-V, so that wouldn't be a problem!"
+movies,fdaabau,t1_fd8322r,1578243615.0,It's a scenario called [Kessler syndrome](https://en.wikipedia.org/wiki/Kessler_syndrome) that's been explored in scientific literature.
+movies,fdaa1l0,t1_fd81hyj,1578243500.0,"""knocked out all of their secure communications"" - if they have communications, they have secure communications.  It's not like there are hardened cables running to Mars for the secure stuff - it's all going over the same radio or laser comms, just encrypted.
+
+There was no talk about having a *conversation*, just sending one message.  They could have couriered that on a thumb drive.  And once  he was there, they were adamant that he stick to the script, yet they didn't make him pre-record it on Mars.
+
+And do we need to talk about the access hatch located inside the engine compartment?  Or the fact that their fire extinguishers are full of instantly-deadly gas?  Or the absurdity of 'surfing' a shockwave, especially when no mention was made of NOT having enough fuel to return normally?"
+movies,fda8wyc,t1_fd7w3uj,1578243158.0,"Right, despite it not being designed as a weapon and no one keeping control over it like you'd hope for something *capable* of turning into a planet-destroying weapon.
+
+And this interplanetary space ship somehow can't get around Saturn's rings, so it has to be done in an EVA pod."
+movies,fd7u5aw,t1_fd7rhij,1578210144.0,"I give Gravity a pass on some of that, because a *realistic* version of the story would involve everyone dying in the first 8 minutes and the rest would be an accident investigation board.
+
+They did an amazing job with the sound design - not only did they commit to realistic sound transmission, but they used it to great dramatic effect at a couple of points.  None of the orbital mechanics made sense, but I loved the approach to the ISS with the Soyuz parachute deployed and just hanging on everything.  They did a good job of modeling real-world hardware realistically, even if they took liberties with its capabilities.
+
+It's not a perfect movie, but I hope others will learn from it."
+todayilearned,fd7q0q4,t1_fd53ndu,1578208297.0,"In Seveneves the resulting language is called Angleski, which just means 'English' in Russian."
+movies,fd7ouo5,t1_fd7nhja,1578207785.0,">It's worse than ludicrous because they actually took themselves seriously with all that garbage.
+
+That's the unforgivable part.  I'm happy to watch goofy shit like Guardians of the Galaxy or the Fifth Element because it doesn't *try* to pretend it's representing reality.  But somehow we keep getting big budget science fiction movies from screenwriters who don't know the difference between a solar system and a galaxy."
+movies,fd7nfdm,t1_fd7mwq7,1578207161.0,"If there's a *reason* for space baboons in your story, and you can fit them in there in a way that makes sense, that's fine.  These were just a random crisis and a way to make a heavy-handed statement about brutality, and it required invoking the trope of ""traveling in space is like driving down the highway and it's totally normal to just happen across another spacecraft with a closing velocity of 20 MPH""."
+movies,fd7miqh,t1_fd783ts,1578206759.0,"I'm glad I'm not the only one who thought so.  The whole thing alternated between dull and absurd.  Murderous space baboons, pirates on the moon, and they apparently don't have sound recording technology so they can't just transmit a prepared statement and have to fly the guy to Mars to sit in a rusty anechoic chamber with a microphone.  And they wait all of 30 seconds for a reply when they know the ship is a light hour or more away."
+movies,fd7lzbk,t1_fd6hlyi,1578206534.0,"> I bet this movie is really good with some good head phones. 
+
+Headphones, and a new script..."
+videos,fd6rvde,t3_ejwd95,1578194951.0,"Sadly my VoIP provider doesn't support custom music on hold yet, but as soon as they do I'm changing ours to the [Llama Song](https://www.youtube.com/watch?v=KMYN4djSq7o)."
+movies,fd6q5vf,t1_fd62gw3,1578194371.0,">then you'd try all the girls names and get banned from the library for a week 
+
+Man, you got off light.  I got a permanent ban from my junior high's only modem because Mrs. Handrych caught me reading dirty jokes on a local BBS."
+todayilearned,fd6mt66,t1_fd5xvyc,1578193233.0,"I was a Search and Rescue explorer as a teenager, and I can definitely see this happening.  At about age 16, I had to do something with one of the SAR vehicles and I just walked into the sheriff's substation, said 'hi' to the officer at the front desk as I came in, walked down the hall to the squad room, and grabbed the keys (which were there with all of the patrol car keys) and a radio and walked out again.
+
+On my way out I heard two of the admin people in the hall talking and one said ""oh, I thought that was Sgt. so-and-so's son"", but no one stopped me.  Someone may have recognized me as a SAR team member but not that many would have known me."
+whatisthisthing,fd4kd7t,t1_fd33o7q,1578168291.0,">Barn owls are not destructive 
+
+If you don't count the huge amount of bird shit.  A pair decided to hang out right over my sandblasting cabinet and now I don't think I'll ever be able to see in the window again."
+etymology,fd3uovf,t3_eju5qn,1578161761.0,Incidentally that's called a [minced oath](https://en.wikipedia.org/wiki/Minced_oath).
+AskReddit,fd3tps7,t1_fd2be5j,1578161565.0,">it's like the Japanese idea of a milf is anyone whose at least 25 
+
+Robotech was my first real exposure to anime as a kid in the 80s, and even then that stood out.  Lisa Hayes is about 24 at the time of the SDF-1's launch and Rick immediately refers to her as an ""old sourpuss""."
+videos,fd0to3e,t1_fd0nz4c,1578123607.0,"Former EMT here.  It's been a long time, but I seem to remember our training recommended giving sugar even if there was a possibility of high blood sugar.  Yeah, it'll make it worse, but not really in the time that it takes to get them to the hospital and get the proper tests and figure out what they need, and delaying sugar to someone in insulin shock would be a lot worse."
+BurningMan,fd0taaq,t1_fcyuw9x,1578123458.0,"The  bike camp thing also distinguishes 'customers' from 'non-customers'.  Traditionally camps accepting dues are using the dues to provide things for their own members.  The bike camps are providing things to non-members, but only those who have paid money.
+
+It feels very un-burnery having these camps doing on-playa rentals.  I walked to one with a friend who had a damaged rental bike and they gave her another bike there.  Would they do the same for me?  No, I hadn't paid in advance.  Which is a normal default world thing.  But in BRC, the norm is that you distinguish only between who's part of camp and who's not.  Providing bikes only for members of Bicycle Camp who were camped there would be fine.  Designating some other special class - whether it's because they paid money, because they're from a particular place, or whatever - just goes against radical inclusion.
+
+It's a perfectly normal and ordinary thing in the default world, but bike rentals on the playa is just an erosion of the principles, no matter how well-intentioned or how convenient and useful it is."
+funny,fd0csdv,t1_fczv2xw,1578116989.0,Kind of puts in perspective the lousy swimming abilities of humans.  Michael Phelps' top speed in the water is at the high end of a comfortable power walking pace.
+videos,fd0atzz,t1_fcyd20z,1578116190.0,">nothing had any sense of scale 
+
+That was one of the first things that struck me about the trailer - even in that short span, the scale was all over the place, and it was jarring.
+
+It reminds me of the video class I took in high school, when I learned about the [180-degree rule](https://en.wikipedia.org/wiki/180-degree_rule).  It's something you normally don't think about, but it's confusing and just feels *wrong* when it's violated."
+videos,fd09imw,t1_fcy7as2,1578115635.0,I was too distracted by the nonsensical story to notice the visual effects in Ad Astra.
+TIHI,fd0745t,t3_ejjzco,1578114627.0,Needs some [Crystal Gravy](https://www.youtube.com/watch?v=g0sjRG34DlA).
+amateurradio,fd05osi,t1_fczmkls,1578114002.0,"""Somewhat desirable to some people"" - I don't know about this particular model, but Collins has had Apple-level fanboys for decades.  There are hams out there who act like Collins was the last *real* ham radio manufacturer.
+
+If you decide you don't want to hang on to it, I promise you won't have any trouble finding some old-timer to take it off your hands.  Just make sure you do your research on the going price before you make any deals."
+Hooping,fcy4tib,t1_fcwohvt,1578074797.0,">friend of mine had an evoke and it seems to have some sort of joystick on/off switch that allows her to scroll through a menu of patterns (I liked this feature but it was hard to understand.) Are there any models with similar features?
+
+I think the only other one on the market now with a joystick is the Flux, which is also a much more capable hoop than the Evoke.  The Flux is the only one I consider to be any sort of technical competition for the Hyperion.  The original developer (Proton Labs) sold the design to a new company, though, so I don't know what the future of that hoop is going to be.
+
+I've always avoided on-hoop controls.  The Hyperion is mostly controlled using the IR remote controls (a big one and a little keychain one with just the basics), and the big remote has 16 buttons to jump straight to 16 folders of patterns.  Doing more complicated stuff like setting up WiFi can require navigating some menus, but for regular tasks it's all just one button press."
+Hooping,fcwnijn,t3_ejaqcv,1578030724.0,"I'm the designer of the Hyperion, so I'm not really unbiased but I'm happy to answer any questions you might have!
+
+I haven't seen the Atomic AF in person yet so I can't say how that one compares.  The older Evokes are proven and popular, but several years behind on technology.  They don't have any motion sensors or wireless connectivity, and their pattern customization is very limited.
+
+I'd still take an old Evoke over a new Pandora.  I've only seen the 5/8"" Pandora in person, but it was clearly designed by someone who has never hooped at a festival before.  As far as I know it's a one-man company, with his daughter helping sometimes with social media promotion.  I still haven't gotten the hang of simply changing patterns on the hoop.
+
+Of the Hyperion models, I'm most proud of the regular removable battery 3/4"" Gen 3 model.  Its one downside versus the Phoenix version (they share exactly the same electronics and code) is that it's not gapless.  But it's lighter, rugged, and easy to repair.  There's less complexity inside and the controller board and connector can be easily replaced by the end user.
+
+The 5/8"" Hyperion Lite has simpler electronics and less sophisticated code, with no wireless option (aside from IR), but it looks as sharp as the 3/4"" hoops, it's super light, and it still has a removable battery.  The battery life is short - about 20 minutes on one battery.  You can stretch that a lot by turning down the brightness and limiting your pattern choices, but where's the fun in that?  I need a break way before 20 minutes of hooping.
+
+Is your broken Pandora the current generation?  3/4"", right?  What's wrong with it?  If it's current and it's just an LED break or something, I might be able to make a trade-in deal toward a Hyperion if you're interested.  I like collecting competing smart hoops to compare and gather detailed specs, and I haven't seen a 3/4"" Pandora yet.
+
+Edit: Forgot to mention the brightness comparison.  The brightness on the 5/8"" Pandora at the highest setting comes out to about 61% of max brightness on the Hyperion, which defaults to 75%.  So medium-bright on the Hyperion is significantly brighter than the brightest setting on the Pandora.  Which is also where the battery difference comes from.  The Pandora is either limited to lower brightness to keep people from complaining about short battery life, by mistake, or possibly because some of the circuitry can't handle the power.  That was the case on the old SpinFx Phoenix - if you bypassed the software brightness limits and put it on 100% bright, you'd probably burn up the board.  Parts will just melt their own solder and fall off."
+microcontrollers,fcwlxlg,t3_ejasjg,1578029331.0,"What you're looking for, then, is a development board and not just a microcontroller.  There are a number of options to choose from, and I'll admit I'm not really up on the hobbyist options these days.
+
+Arduino is probably the easiest to get started in because it was designed as a platform for beginners and it's become so popular that there are tons of resources.  It's also not a platform I'd recommend staying on if you're planning to move beyond the beginner level.  You'll pick up some bad habits in the Arduino world that you'll have to unlearn if you want to move on.
+
+You'll find a lot more activity over at /r/embedded, but check through existing posts first since this comes up pretty frequently."
+embedded,fcwk7po,t1_fcwgbmp,1578027891.0,"I've seen projects like the [MOnSter 6502](https://monster6502.com/) that use discrete ICs.  Something using discrete transistors would be a lot bigger.  I have yet to see transistor [printing technology](https://en.wikipedia.org/wiki/Printed_electronics) that's approachable for hobbyists, but I'm sure when it's there we'll see this kind of project arise.
+
+It does look like we're [getting closer](https://cen.acs.org/materials/electronic-materials/first-fully-printed-electronics-roll/97/web/2019/10)."
+embedded,fcweb8y,t1_fcw5oad,1578023451.0,"Yeah, I really can't see too many scenarios where things like keyboards are still available but not CPUs.  There are just too many billions of computers and mobile devices out there already.
+
+What *I* think makes an interesting exercise is building useful systems with minimal transistor counts.  We've already seen printable transistors demonstrated.  Imagine a population of asteroid miners or something, trying to be as self-sufficient as possible.  ICs take multi-billion dollar fabs to produce and to make the fab equipment work in low gravity would take many billions of dollars more R&D, but assume that 3D printers and related technologies are available that could make circuits from resources available locally.
+
+You'd probably have to limit designs to thousands of transistors instead of hundreds of millions, but you could still beat the old Apollo guidance computers that were good enough to land on the moon.  You can 3D print snap-action switches and stuff, too.
+
+I don't think printable circuits are that far along yet, but there are low-complexity open source soft cores for FPGAs already that'd probably be a good starting point."
+embedded,fcw3stq,t3_ej7ung,1578016494.0,"No less worthwhile a hobby than collecting postage stamps or something.  Though I've got to say scavenging parts to build computers from embedded hardware is not a simple task - you're either going to have to use MCUs in place, on possibly undocumented and very complicated boards, or you'll have to fabricate circuit boards to use them.  That means finding enough of the same type and package of a part to make it worth doing.
+
+Old PCs are not going to be in short supply any time soon.  Here in my own shop, I'm sure I could find at least a dozen retired desktops and laptops, maybe two dozen computers if you're counting Raspberry Pis and the old XO-1 laptop.  Probably another dozen old tablets and smart phones.  And if you dig around in the loft, half a dozen 8-bit PCs, several old Unix and OpenVMS workstations, and a couple of VAX micros.  Probably 80% of that stuff could already run NetBSD."

@@ -1,0 +1,169 @@
+subreddit,self ID,parent ID,time,text
+China_Flu,ffpr5g5,t1_ffoo4mv,1580102779.0,Facemasks also make it less likely for you to touch your face. Wondering if that had anything to do with it.
+canada,ffppmct,t1_ffnxji7,1580101353.0,Were there any flu strains that killed this many people in the first month of their existence?
+vancouver,ffpp57a,t1_ffpi02n,1580100925.0,What was the original proposal?
+hardware,ffn8juy,t1_feg3qwk,1580063069.0,"One other issue is how ubiquitous the support is.
+
+AVX512 extension support is a [right royal mess](https://twitter.com/InstLatX64/status/1131489307473174528).
+
+Link-time dispatch is relatively cheap among a few variants - but AVX512 has so many variants that you can't really do that in a sane manner.
+
+As such AVX512 is alright if you're targeting one or a few specific CPU model(s) - but it's terrible for compilers if they want anything other than ""specific cpu model fastpath or generic no-avx-512-at-all slow path"".
+
+The cynical part of me wonders if this was deliberate on Intel's part. It makes their... let's be generous and call it ""misleading""... comparisons with AMD processors easier to do."
+hardware,ffn2rj0,t1_ffjzvvx,1580061388.0,"I mean, there is a reserved pin, and one-wire serial is a thing."
+RealTesla,ffax2jr,t1_ff8ghow,1579746491.0,"> But at what point do you draw the line?
+
+Pick some probability `P(innocent person convicted)`. Then compare `P(everyone who filed a report deluded themselves or was lying)` versus `P(log data being wrong)` and crunch the numbers.
+
+And as someone in embedded myself, I'm saying that `P(log data being wrong)` is much higher than you seem to think it is.
+
+*****
+
+>  Should our default action be that these things will or have happened. No. 
+
+I fully agree. That's why the investigation wasn't started once one person reported it.
+
+But you don't have one person reporting it. You have many, and based on the reports I've seen many *independent* reports too."
+RealTesla,ff892ar,t1_ff841dr,1579669583.0,"> But that kind of corruption is normally due to transient issues like EMI or similar so you wouldnt see sustained errors and eventually false would fall back to true again. 
+
+Transient cause != transient effect, even at the hardware level (latchup, for instance) much less the software level.
+
+For a ""simple"" example, something overwriting a const field of an object in memory is a transient issue that persists for the lifespan of the object. If the object in question is a hardware driver or something else that's long-lived... you're (potentially) going to have a bad time.
+
+(For an example in this particular case... imagine for the sake of argument that your accelerator input is memmapped as some memory location in address space... and some event corrupts the pointer in your driver from ""pointer to accelerator input"" to ""pointer to some random byte that reads 255"".)
+
+To be clear: is it *common* for logs to show the error as it really was? Absolutely, or else the logs aren't really worth anything.
+
+Are they an absolute source of truth to the point that ""logs said X"" means X is guaranteed to have occurred? No.
+
+Logs saying the user pressed the accelerator is an interesting and suggestive data point, but do *not* automatically rule out everything else."
+RealTesla,ff7ui4b,t1_ff4xmp2,1579658672.0,">That would be error in the code and not corruption. Right? 
+
+These two are not exclusive. One common cause of data corruption *is* an error in the code.
+
+> Sure, but corruption is easy to spot. 
+
+How can you distinguish 'boolean value was corrupted to `false`' from 'boolean value is `false`'?"
+RealTesla,ff4vp6k,t1_ff4b7gj,1579573572.0,"...assuming that the issue was after the point that the data was logged, and that nothing affected the log pipeline.
+
+I'm in the embedded world myself (though non safety-critical). We've had ""obviously"" user-error behavior logged before that turned out to be data corrupted before it hit the log pipeline."
+RealTesla,ff4utgm,t1_ff2eh9x,1579572964.0,"It's not ""letting everyone else use them"" if the price is sent in a cost-prohibitive manner."
+RealTesla,ff0yh6z,t1_ff0owgr,1579473506.0,"More.
+
+""Gas station only allowing one brand of car"" is a whole lot easier to complain to the e.g. municipality about than ""gas station quote-unquote 'supports' all brands of car"".
+
+Remember, ""anything"" is possible with enough money. Setting a high enough price for something is equivalent to refusing to provide it."
+mechanical_gifs,feff6fp,t1_fefds1u,1579055032.0,"The biggest issue is if the wheels are ever ""supposed to"" lose grip at a different point than the model's tires actually lose grip.
+
+There is no way for the car to apply a sideways force to simulate this."
+Skookum,fe3uaub,t3_enit04,1578852956.0,What happens if there is an earthquake while you're replacing the pad?
+UsbCHardware,fdt1m9t,t1_fdphyhg,1578710744.0,"> None of this actually addresses what USB-IF can do *today* to make the situation better. 
+
+This is roughly analogous to the following:
+
+Step 1: jump off a bridge.
+
+Step 2: on the way down complain that no-one is addressing what you can do *today* to make your situation better.
+
+>  you think the spec was designed wrong.
+
+This is accurate.
+
+> backward compatibility with existing USB devices was a requirement
+
+One that USB 3 doesn't even accomplish that well, considering that USB 3 mainly has new form factors *anyway*. You can't plug a USB-C phone into a computer with a cable developed before USB 3. If I have a USB-3 B-type cable, I can't use it with a USB 2 device.
+
+The intended backwards compatibility was limited to the point that it doesn't help in practice - and meanwhile it doesn't come for free.
+
+Make USB 3 similar enough that it's possible to make a fairly simple converter between USB 2 and 3? Sure, a la DVI <-> HDMI adapters. But shooting yourself in the foot forever because of a perceived problem in the near term is, well, short-sighted."
+UsbCHardware,fdpbh25,t1_fdolm88,1578624468.0,"> How would you put that genie back in the bottle?
+
+Don't have a physical interface where the maximum allowed-supported voltage exceeds the minimum required-absolute-maximum voltage.
+
+> This has worked well for the last 20 years to get billions of USB devices on the market.
+
+See the above. Previous USB standards didn't have this particular problem."
+linuxmasterrace,fdfmm7z,t1_fdfcevl,1578365203.0,"We've got a lot of machines that are running a specific version of something for e.g. compliance testing or apples-to-apples benchmarking... but of course as a result are hilariously out of date. Our IT allows this, but only if they are airgapped."
+linuxmasterrace,fdfa52v,t1_fddm1ha,1578356877.0,"> public ssh server.
+
+Doesn't help if their machine doesn't have internet access (e.g. half of the lab machines at work).
+
+There is a reason I said ""from their machine""."
+JordanPeterson,fdd5ssa,t1_fdcso33,1578296049.0,"Nothing wrong with proving the obvious.
+
+Sometimes things aren't as obvious as they seem.
+
+(E.g. breathing is not triggered by running out of oxygen.)"
+linuxmasterrace,fdd5coj,t1_fdcq4fb,1578295495.0,"...and their machine has the same version of all the software you have, and they are using the same shell, and your server is accessible from their machine."
+linuxmasterrace,fdcmxpu,t1_fdc625u,1578278899.0,The issue with one letter aliases - and aliases in general - is that it doesn't help you on other people's machines.
+ProgrammerHumor,fcvdu9d,t1_fcthkaf,1578000025.0,"I think you're slightly misunderstanding me.
+
+>  well-defined monotonic and stable counter 
+
+The idea is that you *never* add / remove leap seconds *from the underlying counter*. The underlying counter being, in this case, `seconds until/since 1.1.1970 00:00 UTC`.
+
+> This means that unix time literally ""stands still"" for a second whenever we insert one
+
+The idea here is that your counter is, literally, seconds until/since 1.1.1970 00:00 UTC. You don't touch it. It advances 1 second / second. Full stop. You ""add a leap second"" by adjusting the offset from the counter to local time by a second.
+
+As such your underlying timestamp goes from e.g. `1577998803` to `1577998804` in one second. Meanwhile your local time might go from e.g. `Thu, 02 Jan 2020 21:00:00 GMT` to `Thu, 02 Jan 2020 21:00:00 GMT`.
+
+Your underlying timestamp is still well-defined, monotonic, and stable.
+
+This doesn't free you from all oddities - in particular anything that e.g. wants to go 'tomorrow at the same time as today' still has oddities - but it at least prevents problems with e.g. programs running backwards.
+
+*****
+
+...huh. Just realized that what I know as Unix time is a [variant](https://en.wikipedia.org/wiki/Unix_time#TAI-based_variant) thereof that I habitually use. Perhaps explains the confusion.
+
+Yes, a UTC-based timestamp will have all sorts of issues."
+Conservative,fct8g3c,t1_fcsv3pb,1577935650.0,"> why not just take them at what they stand for today?
+
+That approach is far too kind to parties that renege on commitments."
+RealTesla,fct7var,t1_fcnemy1,1577935197.0,"Corrected this for you:
+
+> Teslas received twice as many complaints about unintended acceleration than the Toyotas recalled for actual unintended acceleration issues did"
+RealTesla,fct7ojp,t1_fcnhcef,1577935054.0,"> Has there ever been an event linked to mechanical or software failure?
+
+Given it's proprietary and (to the best of my knowledge) never-externally-audited software, this question is unanswerable."
+ProgrammerHumor,fct6cv4,t1_fcs677w,1577934040.0,"> Sure, if you want to guarantee that it's wrong almost all the time 
+
+That doesn't follow.
+
+There is a well-defined forward map from `seconds until/since 1.1.1970 00:00 UTC` to your current time in <whatever timezone> for all times up to and including the present.
+
+> and then just ignore leap seconds because they're inconvenient
+
+This does _not_ ignore leap seconds. It moves leap seconds from the time to the timezone, effectively.
+
+Once you have a well-defined monotonic and stable counter you can build whatever whacky transformations on top of it you want."
+badcode,fct5exn,t3_eiqlsi,1577933335.0,"Mean of 10 million values in `{0, 1, 2}`, rounded to the nearest integer? That ""works"", I suppose. Isn't exactly likely to misbehave. The performance is terrible though. ...Speaking of bad performance:
+
+    for (int j = i; i - 1u != j - 0u; i = rand_int());
+
+(Note: assumes sane unsigned semantics and that signed + unsigned = unsigned. And that `rand_int()` covers all values.)"
+Justrolledintotheshop,fcoxivy,t1_f9qlvh6,1577844312.0,No fusible plug?
+CatastrophicFailure,fcoi9cf,t1_fco0i04,1577832876.0,"> Transformers could be designed to sustain those kinds of stresses... 
+
+Not while being able to stand on dirt.
+
+Ground pressure is a limiting factor."
+RealTesla,fcmjv1e,t1_fcihfh1,1577778237.0,"> If yes, which component would be the limiting factor?
+
+My guess? Battery wear. Li-ion batteries don't do so well long-term if they heat up too much.
+
+That being said, I have a suspicion that they are robbing Peter to pay Paul here. Making things look better now by borrowing against future battery life."
+RedditMinusMods,fclhkxt,t3_eholzz,1577747968.0,It's alive!
+todayilearned,fc7vkqx,t1_fc7p6o0,1577519770.0,"Depends heavily on where you are.
+
+Look up elevator regulations."
+todayilearned,fc7upl6,t1_fc7jigg,1577519122.0,In other words a failsafe operated as intended.
+todayilearned,fc7ukbx,t1_fc7g9vh,1577519017.0,Good for you for recognizing your faults and taking steps to avoid situations where they would come into play.
+interestingasfuck,fc1zf51,t1_fbzaqox,1577334597.0,"> I’m really hoping it goes supernova soon!
+
+If it does, then it already happened ~640 years ago. Again, insofar as you can talk about simultaneity in GR. And isn't exactly likely.
+
+But yes, it going supernova would be exciting. And not, for once, in the ""oh dear we're all going to die"" way.
+
+We might even get a little notice beforehand (neutrino detectors)."

@@ -1,0 +1,161 @@
+subreddit,self ID,parent ID,time,text
+sysadmin,ffe18sx,t3_esuvzu,1579834079.0,"I don't take my phone on vacation.  
+Company could be on fire, it's not my problem, I'm on vacation.
+
+Phone stays turned off, in a drawer at home."
+AskReddit,ffbs95o,t1_ffb1giv,1579780792.0,"> Old TV shows that were shot on film are getting remastered in 4k. Shows shot on VHS or digital are going to be shite quality forever.
+
+https://captrobau.blogspot.com/2019/03/remastering-star-trek-deep-space-nine.html"
+sysadmin,ff9sp7y,t1_ff9pmiq,1579720406.0,"> It fails on 1.0 and 1.1 but succeeds on 1.2
+
+This is a good thing. TLS1.0 and 1.1 are depreciated and should not be permitted. I block this on the enterprise firewalls, and through group policy."
+sysadmin,ff9p06e,t3_esfe3s,1579717667.0,"If you are looking to test on a client out to the internet: https://badssl.com/ or https://www.ssllabs.com/  
+
+Specifically:  
+https://www.ssllabs.com/ssltest/viewMyClient.html  
+https://tls-v1-0.badssl.com:1010/  
+https://tls-v1-1.badssl.com:1011/  
+https://tls-v1-2.badssl.com:1012/
+
+If you are looking to test a server that is web facing, then: https://www.ssllabs.com/ssltest/  
+
+If you are looking to test internally against a webserver that isn't public, then [nmap](https://nmap.org/download.html) and the Enum-Ciphers script: https://nmap.org/nsedoc/scripts/ssl-enum-ciphers.html"
+RoomPorn,ff9nse9,t1_ff9go27,1579716865.0,Someone [scuffed the hell out of it](https://i.imgur.com/K0Mivgd.jpg) right between the end of the counter and the wall column. :(
+Games,ff8lrqq,t1_ff8h52u,1579684760.0,https://ftl.fandom.com/wiki/Blue_Options
+Games,ff5hu5l,t1_ff4zklr,1579593541.0,"Easiest way to get this achievement:  
+
+- Have a teleporter.
+- Find an enemy ship without a medbay (or disable the medbay), and with 4 crew members.  
+- Use your boarding party to almost but not actually kill each crew member.  
+- Send over the boarding drone (it only has to make the final hit to get the kill, it doesn't have to do any other damage)."
+Games,ff5h064,t1_ff56zzh,1579592465.0,"Teleporter still works vs the final boss, but with some caveats:  
+- On harder difficulty the ion and beam are still separate rooms and can easily be boarded, but missiles and lasers are now attached to the ship.  
+- You need a way to trap crew in a room (crystal crew, lockdown bomb, stun, hacking, mind control, or disabling the med bay)  
+- Using Lanius borders and then destroying the oxygen system and draining all of the oxygen in that room is highly effective, and the AI basically bugs out, especially in phase 1 where you can punch through doors and drain the next room over without having to leave the oxygenless room. Tip: keep one crew member alive, or the ship will turn into an AI ship, will turn on a Zoltan shield, and will auto repair systems.  
+- Starting a fire in a key room with the fire beam or fire bombs, and then using Rockmen to fight in that room, while not taking fire damage while the crew is, and you are preventing the crew from repairing, while flame from spreading is highly effective (especially vs a down medbay, or the missile room).  
+- Do your boarding before phase 3, or be sure that you have a Zoltan shield bypass."
+Games,ff5g4qf,t1_ff5cky8,1579591386.0,"> Also starting out, I usually have 1 guy at Helm, 1 on Weapons, and 1 on Shields.
+> 
+
+Prioritize manning first piloting, then engines, then weapons, then shields. That dodge chance bonus vs missiles especially (but also flak/lasers) means spending less scrap on repairs, and taking out enemy weapons quicker for the same reasons, while shield recharge is less valuable than dodge (still some value against combat drones or asteroids, but less than dodge). For this same reason, it's usually always worth pumping scrap into an extra point into engines first thing, so you can temporarily drain oxygen when a volley comes in, to increase your dodge.
+
+> Never stop for giant alien spiders. Ever.
+
+SPOILERS: Clone bay neutralizes the risk (if you fail, you don't get rewards but you also don't lose a crew), while in order the following items offer  low/medium/high reward blue options: boarding drone, antipersonnel drone, bio-beam. Slug-A 'Man of War' starts with a bio-beam and *loves* running into giant alien spiders, but if you ever find yourself with a bio-beam on the Kestrel you can also rake in the scrap vs giant alien spiders or taking out enemy crews without destroying their ships.  
+The bio-beam (along with fire bomb, or teleporter) also unlocks a blue option for a quest marker in the 'unencrypted communications' event that ends with a ton of scrap and a free weapon if you can take out the crew at the quest location without destroying their ship (and you will take a massive 15 hull damage if you attempt this and accidentally blow up the ship)."
+canadients,ff4ao1p,t1_ff3cm2a,1579559209.0,"[Here's a nice article](https://www.businessinsider.com/from-colombia-to-new-york-city-the-economics-of-cocaine-2015-7), including a map.
+
+A kilo of pure cocaine fresh out of the field in Colombia / Venezuela / Peru / Bolivia / etc is sub $1500, it's all the hands that it goes through before it lands in Canada, combined with the illegality that jack up the price, and the people looking to step on it to increase their profits."
+sysadmin,ff41nlf,t1_ff3i2gc,1579553593.0,"As much as I like the platform, there are a few big key issues with Palo Alto, compared to other vendors:  
+- Missing a native application and server aware Layer7 Load Balancer component (like FortiNet, so you have to go third-party).  
+- Missing a native Mail Transfer Agent (like Check Point, so you have to go third-party).  
+- With PAN-OS 9.1 they have introduced some SDWAN (hub-spoke, currently missing full-mesh, requires Panorama and an SDWAN license), but they are not a full-fledged edge/transit router if your environment is overly complex, or if you want to turn on say anything more than rudimentary IP SLA type features (so you have to go third-party).  
+- Implement a decent patch process, MFA, IP restrictions, and separate admin VLANs, because there are constant exploits being found on the management UI (similar to various other vendors, and just good practice).  
+- Panorama jumps from 25 devices to 100 devices to 1000 devices, with a crazy licensing cost attached, and they are now actually verifying this unlike in the past. If you have 101 devices you need to manage, that's a steep increase.  
+- The way they rate their throughput and utilization is somewhat misleading.. 'You'll get x throughput, until you turn on y features, then it cuts in half' vs 'This product is guaranteed to have a minimum throughput of x'.
+
+All that being said, I have helped several billion dollar companies replace PIX, ASA, PFSense, SonicWall, Check Point, FortiNet, and even Meraki with Palo Alto."
+todayilearned,ff3wgu0,t1_ff38lrd,1579550353.0,"You can also stream/download the mp3 directly from the Darknet Diaries website:  
+https://darknetdiaries.com/episode/45/  
+https://darknetdiaries.com/episode/46/"
+bestoflegaladvice,fekglxt,t1_feh6rgf,1579199622.0,"Long con, just waiting for the exit scam."
+msp,fehajet,t1_feg04z5,1579112569.0,">  found that having a ""fuck you"" savings fund helps relief the stress of the job and lessens the burnout . It allows me to give less shits and I end up less scared of getting fired or end up starving.
+
+/r/financialindependence/"
+AskNetsec,feha1rd,t1_fegn0li,1579112273.0,"I really like the Unit 8200 episode, XBOX Underground (two parts), or Black Duck Eggs.  
+If you are sharing an episode with an exec, I would recommend Jeremy from Marketing, LVS, or IRS."
+sysadmin,fedrukg,t1_feb2nw4,1579018542.0,"'But HR, everyone just *loves* working at this company so much, even if they won the lottery they would surely keep showing up to work. Meanwhile a poor bus driver might have a stroke and crash into one of our keystone employees on their way to work..'"
+todayilearned,fe6at51,t1_fe5lah0,1578885703.0,"> ""Made in Vietnam""
+
+This is also to get around tariffs and trade restrictions, including just making things in China and then stamping with Made in Vietnam / Malaysia."
+sysadmin,fe63s0o,t1_fe5z138,1578881138.0,"> [I]f you have an open support contract with somebody, then you should use it. Otherwise, you can't expect them to do billable work for you for free.
+
+With a few exceptions: pre-sales, and escalation.  
+
+- Until the ink dries, and the sale has been made, if there is a contract on the line, then 'free' billable hours (within reason) are just the cost of doing business, especially if the client doesn't yet have a support contract.  
+Most reputable companies will send out both a sales drone (Sales Rep, Sales/Pre-Sales Engineer) to make the sales pitch or to go over the licensing terms / tiers / pricing, and a technical engineer (Systems Engineer / Technical Account Manager / etc) to speak geek and go over the detailed minutia of configuration. This is not always the case, but it is quite often. Grab both of their business cards, and hit up the appropriate resource directly (and CC the other).  
+
+- Once you have a contract, and a support agreement, if you aren't getting anywhere with TAC, escalating to your Technical Account Manager is a good way to either get a direct answer, or to light a fire under some asses."
+hardware,fdq66an,t1_fdq4sq0,1578656596.0,8K TV will be used as computer monitors.
+canada,fdoy9c1,t1_fdnn11p,1578615624.0,"Hey now, BMO only made $5.8 Billion CAD in 2019, they couldn't possibly absorb the cost after paying their tellers the same as a Tim Horton's employee."
+weedstocks,fdovff6,t1_fdog3i9,1578613766.0,"That just means nobody is going to use Weedmaps then, unless they really want to look up over priced 3.5 grams.  
+You already can use Google Maps to find legal dispensaries, not so much to buy ounces."
+worldnews,fdovdlu,t1_fdori1a,1578613733.0,For the uninformed: https://www.wired.com/story/trump-tweeted-a-sensitive-photo-internet-sleuths-decoded-it/
+weedstocks,fdo4abr,t1_fdncum9,1578598631.0,"Canadian regulators have majorly dropped the ball on edibles, oils, and concentrates. I expect the black market and grey market to continue to grow, while the hand cuffed legal market continues to push the Feds and Provinces to go after Weedmaps, MoMs, and legal personal home grows - with very little impact."
+worldnews,fdmxs19,t1_fdmsozy,1578570560.0,"The exact same thing has been happening for years with smart boards as well. Spending tens of millions to install electronic blackboards with little if any training, and teachers pulling out chalk, markers, or old school slide projectors, to go about their lesson plans by hand."
+PersonalFinanceCanada,fdkrfg6,t1_fdkl6m2,1578509593.0,"Think of it as a vesting period, similar to stocks, incentive to stick around longer and to attempt to calm wanderlust.  
+
+I have worked for companies that handed out annual cost of living adjustments / raises based on reviews, and you had to rock the boat and get your manager to hand out 'out of schedule' raises (usually when you had a job offer in hand), unless you had a new job title or new responsibilities.  
+I have also worked for companies with optional RRSP matching that only contribute twice a year, so you have to contribute by the window to receive the match, and if you leave early you don't get the match for those 6 months.  
+
+Neither of these are one offs, this is how a lot of businesses operate."
+canada,fdkars8,t1_fdjleby,1578499916.0,"Exactly.  
+
+Triage - the sickest patients and those most at risk of dying / permanent injury get seen first. Like you, I know this, and I plan accordingly. If I am heading to the ER and I have time to prep, I'll pack a snack, some gum, a bottle of water, some change for the vending machine, and download a few movies or tv shows to my phone, a pair of head phones and a charger / battery pack. Call ahead and get the estimated wait time for any of the emergency rooms within a reasonable distance, and you can also usually shave an hour. The biggest wait is usually on blood/urine lab results, and the nurses will usually take their samples right away, at which point you might as well just watch some Drugs Inc or Rick and Morty."
+legaladvicecanada,fdjmyyk,t1_fdhn3tg,1578478736.0,"Oh they absolutely can, and good tenants will leave when the the lease is up. Bad tenants however, especially professional scammers (Freeman On The Land / Sovereign Citizens, for example) will know every loophole, and exactly how much they are costing the landlord, and how much they can expect to be paid to fuck off, before things go to the Sheriff. I'm not condoning it, but I do have to wonder how often this results in an angry landlord hiring someone to tune up a squatter with a pipe wrench, or worse."
+weedbiz,fdgsj0q,t3_elaujz,1578407209.0,That Terpene Tom logo is my favorite of the lot.
+legaladvicecanada,fdgrgng,t1_fdgnio3,1578406411.0,"> Unless you're in Ontario, or another place whe[re] this is illegal
+
+Not sure what you are on about. Cash for Keys is complety legal.  
+It's pretty much the only form of self-eviction that is legal, without going through landlord tenant boards, courts, and a sheriff."
+todayilearned,fcnbcf9,t1_fcnal5b,1577807968.0,"Teflon will produce toxic fumes above 500 F / 260 C, and even if using low/medium heat and non metal utensils, the coating will wear off over time. A well seasoned cast iron pan is a better solution."
+sysadmin,fcl9725,t1_fcl0kq2,1577742537.0,"TATA is who you call to put you in company ending situations, not to get you out of them. ;)"
+cannabisbreeding,fcba4yo,t1_fc94fae,1577584353.0,"Magic Plant Sex Change, for $200 Trebeck!"
+ftlgame,fca8p42,t1_fc9v5bu,1577564781.0,"Died in sector 3 after 2 jumps in a row against double flak cannons, without any chance to repair damaged systems. I had all 4 crew in the shield room repairing, when a volley killed them all and left the ship with 1 hp. I should have sold that Chain Vulcan and put more points in engines."
+FoodPorn,fc96mof,t1_fc7lm9g,1577547861.0,"If you want to kick that recipe to the next level, up your herb and spice game.  
+
+Might I suggest some combinations of powdered or fresh ground: thyme, basil, oregano, bay leaf, cumin, mustard, ginger, dill, mint, lime/lemon/orange zest."
+GameDeals,fc5lamt,t1_fc4ud1q,1577460630.0,"So this just happened..
+
+https://www.reddit.com/r/ftlgame/comments/egcgr7/chain_vulcan_on_the_first_jump/   
+Still managed to die to a sector 3 ship with multi flack cannons, after jumping away from another ship with the same."
+ftlgame,fc5l8z4,t3_egcgr7,1577460595.0,"It's not a weapons pre-igniter, but wow what a first jump."
+GameDeals,fc4kzp0,t1_fc3vuuq,1577419752.0,"Thanks, I'll have to give it a shot. I haven't watched anyone stream FTL in many years.
+
+Edit: Indeed, Cheat Engine speed hack makes FTL that much better!"
+GameDeals,fc4hl6e,t1_fc40m0p,1577416878.0,"All this FTL talk, I had to play Engi B, the flying tin can with one crew member.  
+Beat the boss, and got a [new high score](https://imgur.com/a/Tku2kWl) on Hard.  
+
+I lucked out and found a store in the Last Stand final sector with Cloaking or I would have lost for certain.  
+I burned through 20+ repair drones on stage 2 and stage 3 final boss, repairing systems, hull points, and crew HP while cloaked, in between missile and drone barrages.
+
+With this ship, you need to rush level 2 shields, and level 2 doors right away."
+GameDeals,fc3oyjl,t1_fc3abxl,1577394995.0,"The surrender offer (not guaranteed) includes what they are offering and you have the chance to reject this, while blowing up the ship or killing the crew you are stuck with whatever you get.  
+
+You get less rewards on average for accepting a surrender, and you don't get the chance at a second reward from the second ship if it's a pirate attacking another ship, *but* you do see what the offer is before rejecting or accepting it - as long as the ship can't charge their engines. So, while you are expected on average to get less value in the offered reward, it can still include really nice weapons, augments, or drones.
+
+You get the same reward for killing the crew if the enemy ship has 1 hull hp, or full hp, so you always want to at least see the offer as long as you aren't risking them jumping away. There's a risk / reward -  you get nothing if they jump away (and sometimes the enemy jump time doubles), and most ships will start charging when they get down to 1/3 HP, so you will want to take out the engines or piloting before attempting this gambit. If you really need fuel or a new weapon, it might make sense to take the sure thing offer v. gambling on a more valuable reward that might not include fuel, and almost certainly won't have a weapon."
+GameDeals,fc38mli,t1_fc36hrq,1577384102.0,"Yeah, the Mantis B is also great once you get your first weapon or Zoltan shield bypass + clonebay, but automated ships or Lanius are a hard counter at the start.  
+
+I really like the Lanius A or B for boarding: don't go for the medbay, go for the oxygen room, and if they have L2+ doors, you can smash doors open while staying in a safe oxygen depleted room, otherwise you can just walk back and forth between a room with oxygen and a room without, abusing the enemy AI.  
+
+My least favorite ships are the rock ships, but a fire weapon and some rock borders is quite powerful.
+
+For new players:  
+Blue options (usually but not always), or killing the crew without blowing up the enemy ship, can offer a lot better rewards. Two Zoltans in a shield room will negate ion damage, and four Zoltan in a shield room is incredibly powerful even during the end boss (ions can't take shields below level 2). Higher level teleporters can let you get two new free crew members off of slave ships with a blue event, or killing all of the crew can give you the option to pick between engi/rock/mantis. Even with boarding parties, it is worth damaging a ship enough after taking out the engines / piloting to receive a surrender offer - the offer might be a weapons pre-ignitor / burst laser mark II / repair drone. With a drone recovery arm, if you jump before a repair drone has disappeared, you repair for free. Defense Drone MK I is far superior to Defense Drone MK II, as it doesn't waste time trying to shoot down lasers and ignoring missiles - it only targets missiles / Flak / Asteroids; it's worth selling a MK2 to pickup a MK1 defense drone. Many ships have useless augments that you can sell for some quick starting cash.
+
+Minor Spoilers:  
+Going to the Zoltan Homeworld sector is the only way to get a Zoltan shield on a non Zoltan ship in the base game (not available in any stores), but if you do then you can temporarily negate many boarding parties / drones / missiles."
+GameDeals,fc35gdu,t1_fc31wzu,1577381902.0,"If you just want a win, then the Crystal B is easy mode once you get any laser weapon, or a Zoltan shield bypass + clonebay (you can beat the game weaponless, just smashing systems with crew).
+
+Zoltan B ( favorite ship in the game) or Stealth A/B are all God Tier once you get the first level of shields, and a drone control + defense drone. On the other hand, if you are looking for a decent challenge, the Engi B is a flying garbage can.
+
+I have beat the game on hard with every ship several times, and the best advice I can give you to improve your success is to rush upgrading shields and engines so that you have more scrap for upgrades instead of repairs (compound interest), and to get second level sensors / piloting / doors / oxygen for the blue options."
+GameDeals,fc3384g,t1_fc31s7m,1577380392.0,"If only there was a fast forward button. :(  
+
+Guaranteed asphyxiation via ion mark 2 v. level 1 oxygen is quite rewarding if *ver*y slow, and leveling up piloting / engines / weapons / shields to max levels in sector 1 drastically improves your odds but takes *ages*."
+GameDeals,fc32q08,t1_fc31jbq,1577380077.0,"As long as you get to the final beacon in time, you can jump away and then jump back to reset the hacking system target on the first phase. I won't bother if engines are hit, but shields is an instant jump, and depending on the load out so is teleporters or weapons."
+Steam,fc1y1m4,t1_fc0q7od,1577333280.0,"https://steamcommunity.com/market/listings/753/298790-Rock%20Boshers%20Box%20art  
+
+https://steamcommunity.com/market/listings/753/568370-Here%20There%20Be%20Monsters  
+
+https://steamcommunity.com/market/listings/753/312510-Winter%20Wonderland
+
+https://steamcommunity.com/market/listings/753/495990-Maple%20and%20sea
+
+https://steamcommunity.com/market/listings/753/386480-Meteor%20Shower
+
+Just a few pricey backgrounds."
+todayilearned,fc1tg1r,t1_fc1hcli,1577329168.0,"I don’t want to set the world on fire,  
+I just want to start..  
+A flame in your heart."

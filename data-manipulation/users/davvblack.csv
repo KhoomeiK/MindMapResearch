@@ -1,0 +1,136 @@
+subreddit,self ID,parent ID,time,text
+mysql,ffk5cw2,t3_eu290r,1580016385.0,"If you really want it to work that way, I would probably suggest a separate table message_deleted, with the columns message_id, deleted_by.  You insert a new row into that table each time a different user deletes a given message.
+
+Also deleting other people's messages is super weird and why do you want to do that?"
+nononono,ffigjzn,t1_ffi3a97,1579973351.0,"no, that's from city planning where a through-cutting traintrack makes automobile and pedestrian access to certain areas more difficult (and for example interfering with bus lines or other transit), tanking their property value significantly."
+mallninjashit,ffi2jm9,t3_etlax6,1579963199.0,"Oh man, budk was my ninja mall of choice. This dredged up some cringey memories."
+evilbuildings,ffgcgy6,t1_ffgca36,1579903175.0,Beetlejuice
+paydaytheheist,ffg05f3,t1_ffeeagb,1579895596.0,anarchist and hacker also both work very well in both stealth and loud.  Anarchist has the distinction of being the fastest at moving heavy bags (including body) with skills.
+factorio,fffd4fi,t1_fffd0vm,1579881325.0,"Uh, factorio does a TON without any player input for a larger base."
+factorio,fffc0du,t1_ffenqw1,1579880630.0,I have to imagine that in general factorio load is not bursty in the way websites are.  Something with completely flat performance would be more appropriate.
+gaming,fffa9qx,t1_fff4elo,1579879521.0,I thought the Plague Inc mobile app wasn't a knockoff?
+mysql,fff9fym,t3_etb6c7,1579878983.0,"I think there's a new way to do this with window functions in mysql 8, but the way I typically approach this problem is to join the table onto itself:  start by ""group by"" on Zone, and select the max(count) (btw, naming a column ""count"" will bite you, if there's anything else you can name it that would be best).  That result would have just one row each of (A, 10) and (B, 3).  Then you can join the table back to itself on those columns to get the multiple rows each like you are looking for."
+lego,fff2d3k,t1_ffezq0y,1579873820.0,"the inner engine bits are so cool, glad to see it displayed like this"
+AskReddit,fff0ibs,t1_ffehk3d,1579872275.0,Yes I say that. It's squared for any three consecutive numbers in a vacuum.
+comics,ffebw54,t1_ffe443h,1579842519.0,Even rent treznor would not pay cash to agree with you
+AskReddit,ffeb5pj,t1_ffe77ub,1579841858.0,"Neither of these numbers is correct.  The chance of hitting the same number three times in a row is (1/38)\*(1/38) because the first spin doesn't matter, it just exists to pick the number. The chance of being correct with any three guesses is (1/38)\*(1/38)*(1/38).  Since it depends on human behavior, there is no way to compute the odds that a player, trying to pick three spins, would pick the same number three times  if I had to guess I would say about 10 percent. Vastly over represented because we like to see patterns where there aren't."
+CrossView,ffbzf8k,t3_espwpc,1579787547.0,"I like this one because it's so hard to interpret the picture without crossview, and very easy with."
+netsec,ffbygux,t1_ffbm563,1579786773.0,Isn't the answer to have multiple vendors agree on exactly what to disclose and what not?  It makes the pool of similar nondisclosure very large.
+paydaytheheist,ffai439,t1_ffadnxn,1579736265.0,did you cut all the spots? can you provide a recording?
+mildlyinteresting,ffafpnt,t1_ffa3l4t,1579734673.0,looks like if you're careful with dates you can get it to around $700
+paydaytheheist,ff935dp,t1_ff8devd,1579703695.0,you can't raise with something worse than what's already on the table
+mysql,ff8vi7a,t1_ff8hgha,1579697495.0,You absolutely sure you did x=x+1?  Is the column a number or a string?
+factorio,ff8uzj5,t1_ff8cs2k,1579697001.0,"Ah nice thank you, I knew I wasn't crazy.  Especially comments like ""press shift at the start"" doesn't reflect how it works now. 
+
+This change sounds a little messed up and I hope they fix it."
+Fallout,ff75r5a,t1_ff5ptj8,1579641666.0,"I would like to see a mod that reduced the difference in difficulty between the areas.  Aka, the nearly starting area has nearly the same dps and HP enemies as later areas, then vastly decrease the player scaling."
+perfectloops,ff752bq,t1_ff6uv9w,1579641277.0,Ru[L]e four ->
+heroesofthestorm,ff6x5rg,t1_ff6wphz,1579636714.0,"and importantly, an equally skilled fenix is a still big problem.  You have to do so many things perfectly as rexxar to dent fenix, including reliably interrupting every warp with charge and never having either yourself or your pet half orc within splash of the minions or anything else... and it's still not in your favor."
+factorio,ff6ncns,t1_ff6n9nq,1579630873.0,"I do fully get the limitations of what rail pieces we have available to us, eg turn radius and the 2x2 train tiling system.  I'll get a little video of what happens to me, but it's super fucking annoying."
+heroesofthestorm,ff6kznu,t1_ff68d89,1579629439.0,"fenix can handle rexxar, but almost every other hero rex has something he can do to mitigate risk."
+factorio,ff6bvfh,t1_ff6bn56,1579623800.0,"weird, i wonder if my settings are messed up, that's not how it works for me."
+paydaytheheist,ff6blas,t1_ff5sts0,1579623619.0,arthur dent's bathrobe
+paydaytheheist,ff6bjui,t3_eqzqag,1579623593.0,"Some decent sci fi armor.  Storm trooper, iron man or master chief looking. There are decent helmets for several of them, but the helmets don't match any outfits."
+factorio,ff689c3,t1_ff5x60u,1579621468.0,it's because it goes into obstacle avoidance and doesn't want to trash a tree.  it's silly.
+factorio,ff686zs,t3_erttfp,1579621425.0,I hate this mode.  I just want shift to be ghost mode and not obstacle avoidance.  Maybe avoid obstacles until i have both bots and cliff dynamite.
+paydaytheheist,ff67hz4,t3_erw401,1579620967.0,"You benefit from the DLC almost immediately, I strongly recommend getting especially the Legacy collection right away.  It's a little hard to read in the store, but I think the legacy collection contains the gage bundle.  
+
+The border crossing one is less crucial, though it does come with some extra outfits.  The 51st map or whatever is small marginal value though."
+PHPhelp,ff62tix,t1_ff4781o,1579617713.0,doesn't xdebug_get_function_stack always work? why not always use that and not care if you're in shutdown or not?
+pics,ff5wmin,t1_ff2jc68,1579612710.0,"Maybe the artwork is the timelapse video on social media, and the painted wall of paint is the paintbrush."
+factorio,ff4iqs5,t1_ff42fmp,1579564587.0,Recursive blueprints could do it I think
+paydaytheheist,ff4589i,t3_eriwyw,1579555814.0,"semi tactical.  And i want gunplay to be a little awkward and stressful, I liked how much sway and how long ADS time was in PDTH."
+mysql,ff31t5b,t3_er3qmb,1579531436.0,I can't remember for sure but I think if you saturate iops on Amazon it doesn't show as resource saturation. The fix was something like going up to the next size storage volume.
+paydaytheheist,feyoluw,t1_feuknzg,1579448369.0,"yeah 2ps anarchist is incredibly good.  Just don't switch to it till you maxed the deck.  Anarchist 1/9 is a huge drawback and anarchist 9/9 is a huge powerspike, compared to say, grinder 1/9 which is a big power spike."
+armoredwomen,feydd89,t1_fewbbha,1579444086.0,Is that flap one of those things to hold a lance? Like jousting armor
+django,feu504t,t1_fetrvgy,1579383161.0,and potentially showing in the browser bar/browser history (though that doesn't typically apply to ajax).
+videos,feu4rl7,t1_fettvzn,1579383074.0,was that really a video? i thought it was more like a tiled gif and a song
+starcraft,feu2jw4,t1_fetedqo,1579382507.0,it has more movement/action to it.  The motion blur makes everything look like it's happening.  The 2020 one is so crisp and still
+mysql,fets140,t1_fessyem,1579379315.0,"any time you have to type out something repeatedly like this:
+
+>  (%s,%s,%s), (%s,%s,%s), (%s,%s,%s)
+
+you should assume that it is robot work and find a way not to."
+eatsandwiches,fesmvfz,t3_eqbf2f,1579366920.0,"It looks like on google maps the manhattan location is ""Faicco’s Italian Specialties"" and ""Faicco’s Pork Store"" is in Brooklyn.
+
+Delicious sammich, will have to track it down."
+gaming,fepakd7,t1_feogcwg,1579315849.0,"My least favorite are the ones who have played 1000 hours and are like ""thumbs down I played 1000 hours and there's nothing fun to do anymore"""
+Trumpgret,fenun2l,t3_eq3t5c,1579291056.0,trumpgret approved :)
+RimWorld,fel2h7u,t1_fel2fnr,1579212628.0,gross
+assholedesign,fel0mb7,t1_fekx2mf,1579211506.0,"> Seems like a waste of money for a charity organization to send out begging mails which obviously won't make any difference.
+
+Direct mail has an incredibly high conversion rate."
+RimWorld,fekkx0r,t1_fekfb3j,1579202188.0,"you can't add bills to a nutrient paste dispenser to pre-produce the meals, that's the part that makes this non-easy.  And the exit of one won't satisfy the hopper of another, it needs to be a materialized meal."
+Monero,fekewiz,t1_fejvk8e,1579198603.0,"> Doing something without consent can't possibly be ethical and can't be legal. Not a matter of opinion.
+
+You would hope, but a lot of these things are so poorly defined.  It's legal for a server to serve up an HTML document that contains javascript on it, the line between an ad and a cryptojack is somewhat blurry."
+paydaytheheist,fek1cq3,t1_fee7y07,1579190507.0,does thanatos headshot still work at that level of spree? I know one of the dominant tactics is fire damage + getting enemies to surrender.
+paydaytheheist,fejqwkn,t1_fei07rf,1579183599.0,64 damage guns have such a high ammo pickup it's actually easier to keep them running.
+Fallout,feiopmd,t1_fehzrst,1579143466.0,Was it a mandatory part or a side quest
+todayilearned,fei9rrd,t1_fei62zg,1579133469.0,"oh wow, i misunderstood the explanation, that's even cooler"
+controlgame,fei9iu6,t1_fehp1is,1579133309.0,"ah, i haven't played that one.  Are all your actions somehow mapped to real life? were you doing something other than stabbing nurse monsters?"
+controlgame,fehww7b,t1_fehvgb9,1579125479.0,"exactly.  The whole intrigue of this setting to me is that it's supposed to fit neatly into real life.  I am supposed to be able to imagine that, right now out there, there is all this wacky shit and a vastly overfunded government agency keeping me almost safe from it.  maybe my toaster is even magical."
+todayilearned,feht2r1,t1_fehhynn,1579123318.0,"the put just a little fuel in it, which it would start to leak, then the pilot would take off, let it heat up, ~~land,~~ now the tanks fit tightly and they could fill it properly.  So crazy (and i'd have to imagine hazardous)."
+controlgame,fehrl1q,t1_fehowop,1579122477.0,I do love ambiguity in art that leaves you open to think on the options.
+controlgame,fehmsvg,t1_fehlkvx,1579119722.0,"""the narrator is unreliable"" is totally different from ""it was all a dream"". The matrix is a real thing, a real place with state that matters, and not applicable.  Sixth sense was also real in that everything we saw on screen was a thing that was happening.  
+
+What I am arguing against is an ending like Alice in Wonderland (which I actually love, but that's incidental, the dream is more like a framing device for a series of abstract vignettes than it is a ""plot point""), or god forbid Next with nicholas cage, where none of the obstacles ever really put any character in danger."
+todayilearned,fehlgxe,t1_fehg0cr,1579118950.0,"ye, it and top gun.  was a good era for gay film."
+controlgame,fehkmbf,t1_fehkkb7,1579118461.0,do you know of any examples that didn't fell cheap or like the audience got robbed for being invested in it?
+controlgame,fehfxcx,t3_ep4e6m,1579115719.0,"> 'it was all a fantasy' ending perhaps would have been easier to pull off, but it would have actually been a better
+
+I strongly strongly disagree.  ""it was all a dream"" is a bullshit copout that robs the story of any actual meaning.  It tells the audience/player that nothing they were doing had any impact on the world, and none of the challenges were real, nobody was ever in danger, and nearly all the characters can just be ignored."
+buildapc,fehfqn8,t3_ep46ef,1579115610.0,Did you put the standoffs between the motherboard and the case? (the screws that also have screw holes)  That can also short the motherboard.
+SandersForPresident,feh2xh6,t1_fegsp8y,1579108039.0,"they are getting better service though, and will probably end up paying for both."
+Fallout,fegofk8,t1_fegk93x,1579098701.0,"heavy, scarce, and REUSABLE"
+dataisbeautiful,fefk35f,t1_feeqbf0,1579057996.0,"and of course, reusable vehicles only count once."
+Stellaris,fefchsh,t1_fefc0yq,1579053328.0,in the sense that your comment is written in binary
+Stellaris,fefby77,t1_feeql8a,1579052970.0,"> Stellaris, is written [...] in binary
+
+certainly (and i would hope obviously) not."
+Eve,feerbjd,t1_fedib8d,1579039547.0,"Yep, I was replying to someone saying that ""copyright strikes don't matter because you need three of them"", which is nonsense.  Each one matters."
+Unexpected,fee4o9x,t1_fedhjek,1579026322.0,"actually that's very possible, since it's fat soluble, it doesn't leave in urine either.  I admit i'm out of touch with the practice of real-world drug testing."
+paydaytheheist,fedomz3,t3_eoi6tl,1579016531.0,"this is one of the few ones where i'm like... maybe i wouldn't notice that.  If i was lost in thought and didn't turn my head to look down the alley, totally reasonable, especially as a civ not expecting anything."
+Eve,fedhufh,t1_fedg3le,1579011908.0,Reposting a promotional video provided by and supporting a company is not a questionable decision though.
+Filmmakers,fedfjec,t1_fed2v92,1579010141.0,"and importantly, it could have been added by a character in the film Once Upon."
+Eve,fedffeh,t1_fedbvny,1579010052.0,"> And even a strike is not a ban unless you already have 2.
+
+they can still ruin people's livelihood though"
+AskMen,fectx7c,t1_fecq0eh,1578984468.0,(also you don't need to pick just one.  You can prioritize all of them if you want.)
+AskMen,fectrfb,t1_fecleoo,1578984288.0,"""love languages"" sounded so stupid to me at first, but this is such a great thing to work out with your partner. And it's important to know that they don't have to match: you just need to make a deliberate effort to do the ones your partner is looking for."
+AskMen,fectney,t1_fecp62j,1578984164.0,I don't think a one directional relationship can rightly be called a partnership.
+Unexpected,fecswlv,t1_feaffmg,1578983349.0,"Weed is fat soluble, so it lasts a lot longer than that and doesn't ""wash out"" like alcohol or heroin."
+heroesofthestorm,fecdw5d,t1_fec8eje,1578971593.0,"They definitely don't always get it right, but that's the fundamental reason why both exist.  Many abilities can be used in different ways, and the devs had to make a judgement call.  I can't off the top of my head think of one that's done wrong though. 
+
+They actually used to have a third mode ""ignore if impossible"", for aba mines.  Now it's just clamped though so he'll meander out of bushes now."
+userexperience,febxy2w,t1_feaen8v,1578964082.0,"I heard its actually good to avoid a middle value, since people will err on the side of picking it when they really do have a feeling one way or the other. I bet even 4 options is enough to get valid data, but they should be named, not numbered."
+paydaytheheist,febwy7a,t1_fe8q99b,1578963658.0,"yes please.  ""melee/throwable replaces primary"" is so overdone. you can even do it reliably if you try."
+humor,febvmo3,t3_eocu6n,1578963246.0,fwd: fw:
+heroesofthestorm,fea3n6k,t1_fe9p97a,1578944015.0,"some things are cast on a ""spot"" (think blizzard), and some are cast in a ""direction"".  That conceptual difference is what drives the clamping, but i do wish it was customizable.  
+
+
+It would be especially nice if you could use a hotkey to toggle it, the biggest one i can think of is tyrael's sword:  When you are using it to run away, you want it in ""a direction"", ie the furthest west from your hero that you can cast it, but when you're using it with holy ground, you want it at a spot: on top of the boss cap point for example."
+Python,fe99hns,t1_fe8empv,1578935549.0,"It's related, that's actually related to walkspeed on dirt vs walkspeed on the stone next to the wall, combined with low cost of diagonal movement (it might even be considered free?).  Since it's faster to run on stone, they can go out of their way with diagonal moves to get onto it."
+StellarisMods,fe98m4q,t3_eo59g2,1578935382.0,"what does ""not working"" here mean?  Is it possible another personality with more weight keeps winning, even if yours are valid?"
+heroesofthestorm,fe96o2w,t1_fe91g0t,1578934862.0,"> I tried several time ( i even get all in tpuch[sic] with the dragon to see if the size of the hitbox was the problem) but nahhhh.
+
+I bet that's it, that it's actually the ""unaffected by allied abilities"" code somehow making cassia's ""friendly""(to cassia) bounce not work."
+Wellthatsucks,fe2f16e,t1_fe28l6h,1578837682.0,I likes the cuts of your jibs
+DiWHY,fe0age6,t1_fe0adph,1578807731.0,I like you dave -dav[e]
+DiWHY,fe09ygw,t1_fc54wwy,1578807274.0,Yo we know you by the name at the top. You don't need to drop it down at the bottom.
+iamatotalpieceofshit,fdyrnzw,t1_fdmisys,1578782843.0,"You're totally right, beef is awful for the environment.  I hope impossible foods gets a big enough chunk of the market in time.  As an avid but morally mortified meat eater, I'm so impressed by impossible foods."
+facepalm,fdy9oem,t3_emyydz,1578777509.0,"yeah, this is just weird.  The rules about metal and microwaves are actually really complicated and you couldn't  just intuit why its ok sometimes and not other times.  There are microwaves with specifically-crafted metal racks that are safe to put in, but a very similar looking one that wasn't meant for it could cause problems."
+controlgame,fdtupj5,t3_emy4ub,1578722508.0,"uhm, she's clearly holding ""grip"" but the gun is firing as if it's ""shatter"""
+funny,fdphkne,t1_fdph312,1578628821.0,"> my cat
+
+You too"
+paydaytheheist,fdojs7h,t1_fdn307g,1578606567.0,watching someone trying to rack two shotguns on eachother would be funny
+Shadowrun,fdogbn8,t1_fdoga8q,1578604572.0,yeah that's bad design.
+controlgame,fdo5i9w,t3_eme32r,1578599251.0,for some values of lit
+starcitizen,fdnyesz,t1_fdnosbm,1578595378.0,"that actually sounds better, but some games have professions that are easy, safe, and very profitable, and THAT'S the problem.
+
+I personally hope that shooting stuff is one of the more profitable avenues of work, just because it's fun and risky."
+foodtrucks,fdnx8gr,t3_emdqvd,1578594691.0,what region?
+Shadowrun,fdnw8ju,t1_fdnsatg,1578594115.0,can you spell out the exploit here? I'm not familiar
+paydaytheheist,fdnjxxt,t1_fdjyymd,1578587373.0,"and what about ""same place""?  can we give it maybe a meter radius? 10 meters?"
+starcraft,fdne5zg,t1_fdmqiab,1578583884.0,This is frustratingly true.

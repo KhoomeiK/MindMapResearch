@@ -1,0 +1,71 @@
+subreddit,self ID,parent ID,time,text
+crtgaming,ffjxul4,t3_et92gv,1580009939.0,"You could probably remove the broken shell and epoxy the pieces back together.  I would do it in several phases though since there's so many pieces that are broken.  I usually use clear Loctite for fixing things, but there's many types and brands to choose from."
+crtgaming,ffji9t4,t3_etj1od,1579998818.0,"vhold isn't for v-position.  There's very few controls for calibration.  You can move the picture left and right with H-pos
+
+
+This manual says (on the circuitry):
+
+ ""VERTICAL POSITION
+
+
+Adjust the V. center VR R428 (R429) to the optimum vertical picture position.
+
+
+
+""HORIZONTAL WIDTH
+
+
+Adjust H. WIDTH control coil L503 (L522) by turning it with a hexagonal adjusting bar only if RIGHT
+and LEFT sides of picture can’t be seen.""
+
+
+http://rtellason.com/manuals/Commodore_1701-1702_Monitor-Jvc_Based.pdf
+
+Vposition and Vsize is probably here, but I've never had to bother doing inside calibration:
+
+https://i.imgur.com/qnoPMbF.png
+
+The service manual is extremely detailed for future troubleshooting purposes.  It gets very specific to include what parts to replace for matching symptoms."
+videos,ffdznvv,t1_ffdapiz,1579832932.0,"Ladies and gentlemen, we gottem"
+crtgaming,ff9wbgn,t1_ff33h9m,1579722921.0,Everythings in XP with Audigy2.  For midi I am currently using the default windows midi drivers as the standard audigy2 has a common issue with midi.  I'll have to research launching DOS.  Your information above is extremely good and I will be saving it for reference in the far future if I ever get an older pc.
+crtgaming,ff7fvjk,t1_ff6xvh1,1579648601.0,"They're trying to sell a really old 480i version; it doesn't look very good and its never going to sell and its been up for like a year lol.  It used to be listed for cheaper as well; they seem to think they have something worth more than it is.  Considering how isolated Miami is, its probably going to be listed forever.  I usually see 1080i ones go for about $500-600, at least the last 5-6.
+
+https://www.ebay.com/itm/USED-20-Color-Video-Broadcast-CRT-Monitor-Ikegami-TM20-17RA/264550258507?hash=item3d986c974b:g:CQwAAOSwM8RcEBGt"
+crtgaming,ff25aw7,t1_ff1qka8,1579494210.0,"I've got a post 2000 XP machine; I think I read last year that newer machines emulate DOS sounds.  When I try to run older dos games such as HEXEN it seems to handle sound emulation really poorly.  Hexen will crush the fps to like 5 when any sound plays.  WC2 also has a really bad click at the end of sound clips playing. 
+
+ Is there any way I can work around this?  Slots are PCI.  I have an Audigy2 but it's not handling Midi properly.  I might try out some custom drivers later."
+crtgaming,fedrbi5,t1_fedper0,1579018214.0,The lines are on all pro monitors in 16:9 rgb (Ikegami/JVC/Sony)
+crtgaming,fe4pyy5,t1_fdqob2m,1578861737.0,It turns out I just had to adjust my aspect mode by pressing aspect.
+todayilearned,fdya4e4,t1_fdy0pre,1578777658.0,Snoop... I'm afraid you have... the chronic
+crtgaming,fds3y2l,t1_fdrlebk,1578693881.0,Like that one other time lol
+personalfinance,fdq8epp,t1_fdn7iih,1578659117.0,I went through all of high school and college using openoffice and made it work.  I imagine things are even better these days.
+crtgaming,fdnhzgm,t3_efyspc,1578586204.0,Im sending some 1080i output from PS3 from HDMI -> HDMI Switcher (strips HDCP) -> BlackMagic -> HD-SDI -> Ikegami.  The right side of my screen is completely cutoff even when I shift horizontal.  Anyone know what might be the cause?  I will mess around with other consoles later that don't have HDCP to rule out the switcher.
+crtgaming,fdfmodf,t3_el3efc,1578365242.0,"This old usenet post mentions the same caps and the lines are also brought up there.   Someone also mentions under normal conditions they're for beam feedback measurements.  This is the only place I've found this information:
+
+""Your 'retrace' lines are not retrace lines. Those are the beam current
+feedback measurements and if you get rid of them, it will look
+terrible. In NTSC they fall on lines 17,18,19 - RGB respectively. You
+measure TP403 with a scope and set G2 until the lowest value of those 3
+lines is +1.35 volts.""
+
+https://www.electronicspoint.com/forums/threads/sony-pvm-1954q-retrace-issue.67832/"
+todayilearned,fcur5cr,t3_eiz0l1,1577986816.0,Militaires Sans Frontières
+crtgaming,fcuhxnh,t1_fct3x0n,1577981375.0,"Before I even opened the thread, I also was like ""Is this Afghanistan?""  lol."
+todayilearned,fcodhga,t1_fcoct0q,1577829565.0,That adds a lot more context for Blazing Saddle's Mongo
+crtgaming,fbv8zye,t1_fbtgogk,1577127381.0,"I don't have any experience messing with voltage, so all of this is assumption logic; some of the fields for diagnosis are:
+
+b+ (ocp )  - over-current protection
+
+b+ (ovp)   - over-voltage protection
+
+low b
+
+b is high voltage DC output.
+
+https://www.avsforum.com/forum/16-crt-projectors/325037-b-voltage-what-does-do.html
+
+
+It probably wasn't getting enough voltage from b, and by tweaking g2 it changed that condition somehow by driving it harder.  Perhaps the power supply has issues and you could try recapping there if needed later.
+
+Some cautions about adjusting just specifically B+ which I find interesting:
+https://www.vintage-radio.net/forum/showthread.php?t=105619"

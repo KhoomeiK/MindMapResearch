@@ -1,0 +1,231 @@
+subreddit,self ID,parent ID,time,text
+sousvide,ffh1zoc,t1_ffgurz1,1579920958.0,"I don't have an air fryer, but have a convection toaster oven. Can it kind of approximate this?"
+TheGoodPlace,ffgzxt7,t1_ffgd1jc,1579919408.0,"Like, shredded into atoms, and scattered onto stars?"
+TheGoodPlace,ffgzh8z,t1_ffdw65q,1579919062.0,I'm in. I knew they wouldn't actually be ending the show so soon! Right? RIGHT??
+TheGoodPlace,ffgy50p,t1_ffdywjp,1579918064.0,"Oh man, I wasn't even thinking about our other friends. I'd like to see Dax Shepard again, he was great at the Museum Of Low-Grade Human Crappiness. And Pillboi and Donkey Doug! We need to know how Double Trouble sales are going!"
+TheGoodPlace,ffgvpwl,t1_ffff38u,1579916271.0,"C'mon, it's a long time, it's gotta be at \*least\* like 30% of infinity :)"
+TheGoodPlace,ffguy9p,t1_ffdwt3h,1579915716.0,"Anyone read The Dark Tower (Gunslinger) series, by Stephen King? 
+
+The Soul Squad went through the door, and The Architect followed."
+octoprint,ffgtm59,t3_etjpur,1579914740.0,"Which generation is this? I have a Pi 1 (B, I think), I was running Octoprint on that initially. With no additional plugins, it just barely managed to keep up (like 90-95% CPU usage, when I happened to watch), and give decent quality, when printing gcode ""streaming"" through Octoprint (rather than from the SD card). 
+
+Adding a plug-in to show CPU usage made printing slow way down, and would have been poor quality, leaving zits, etc, on the part. So adding a camera would probably make it disastrous. 
+
+But you can have Octoprint running, but print from the SD card (either from the LCD, or initiate the print from SD within Octoprint), and that should help avoid print-quality issues, since Octoprint is no longer streaming gcode on-the-fly. 
+
+I'd give it a shot, it only ""costs"" you putting the Octoprint image on an SD card."
+Wellthatsucks,ffgm75n,t1_ffgcv92,1579909473.0,"Wow, I didn't know those were a thing!"
+smallengines,fffufz0,t1_fffiorm,1579892037.0,"If it's a 4-stroke engine (using just gas, not oil mixed with gas), make sure there is no gas in the crankcase oil. Smell the dipstick, etc. Depending on where the leak is (if it's the carb's float valve), gas can sometimes leak into the cylinder, then into the crankcase. That diluted oil does not lubricate well, and can cause engine damage.
+
+If the oil smells like gas, and/or the level is higher than expected, fix the leak, then change the oil, before running it again."
+todayilearned,ffeyhgb,t1_ffddtuk,1579870414.0,Or a Molotov cocktail. -Jason Mendoza
+Unexpected,ffdrvu3,t3_essg17,1579827400.0,"Well, the bottom fell off."
+news,ffczbb9,t1_ffcwfsk,1579810351.0,Like the Doomsday Machine.
+television,ffbr9au,t1_ffbiae7,1579779591.0,"Would you excuse me a moment sir? 
+
+(vomits)"
+television,ffbr883,t1_ffbmz2i,1579779554.0,"Ahh yes, the Springs Surprise!"
+television,ffat1mg,t1_ffa7kl0,1579743821.0,"Nice, a skit that doesn't come up all that often. Hopefully they'll have the Cherry Fondue. It's extremely nasty."
+smallengines,ff9dcjm,t1_ff8ajju,1579710519.0,"But the cause could vary. A valve stuck open would reduce compression, but may not be catastrophic.
+
+Stick something like and straight down through the spark plug hole (a long wire, whatever. Something that can't break off in the cylinder), then rotate the engine by hand. If the item moves up and down, then at least your piston is moving, and the connecting rod is intact."
+cats,ff6hjj8,t3_erv3ss,1579627337.0,"Oh wow, he's beautiful!"
+news,ff6alsq,t1_ff69x9w,1579622991.0,And the sanitation!
+news,ff681hu,t1_ff66rpt,1579621326.0,There's the aquaduct.
+smallengines,ff5rmrv,t1_ff4v6v7,1579607560.0,"Assuming that the flywheel key hasn't sheared (the flywheel nut must be torqued properly to help prevent this), valve timing would be my next thought. Pulling the valve cover off and watching them as you rotate the engine by hand would give you a sense of whether they're way-off, at least."
+smallengines,ff4oh05,t1_ff1nnkn,1579568595.0,"Do these have a compression release? I have a Tecumseh OHV on my snowblower, with a good cylinder bore (I measured it), and adjusted valves, that gives about 40 psi with the pull-starter. Higher with the electric start (something like 80-90, I think). Runs fine, makes good power. If there's a compression release, I'd be surprised to see 90-100 with a pull-starter, I guess. 
+
+OP, will it run briefly with a spritz of starting fluid, or gas, etc, into the carb's intake? I presume you have spark? 
+
+Also, keep pulling until the compression reading stops climbing. There's no reason to only use a certain number of pulls, you just get a less-accurate reading.  
+
+Eliminate as many adapters & hoses as possible, since any air volume in the adapter and hose will artificially-reduce your compression reading, lower than the engine is really producing. The compressed air also has to fill those volumes, and assuming there's no check-valve at the entrance to the adapter or tube, then that air volume gets compressed, and then vented again, with every cycle. If the engine produced 100 psi, but the adapters & hose doubled the air volume when the piston was at top dead center, then you'd read 50 psi, not 100."
+Vitamix,ff4npes,t1_ff4ir7k,1579568053.0,"Yup, it's just from friction, there's no heater control or anything like that. Starting off with things extra-cold is the simplest starting point. Maybe you could even try putting the blender container itself in the fridge beforehand, to chill it."
+octoprint,ff3o2ui,t3_erfcuy,1579545186.0,"If this is the same extension, it sounds like it just adds controls for the BLTouch: 
+
+[https://plugins.octoprint.org/plugins/BLTouch/](https://plugins.octoprint.org/plugins/BLTouch/)
+
+I really think you'll still need to incorporate the BLTouch in your firmware. There are new commands that need to be supported, to use the BLTouch, etc. 
+
+I started with upgrading to TH3D. Then added BLTouch. Then replaced my board with the Mini E3 1.2, and went to Marlin 2.0. 
+
+You might get lucky and find a pre-compiled TH3D firmware for the stock board, with BLTouch support already incorporated. But as I recall, it wasn't bad to add in TH3D."
+smallengines,ff2t583,t1_ff23g8a,1579523072.0,"The mixture might be too rich. Or the carb's float, and needle valve, may not be doing their job properly, and may be letting gas run into the engine, then into the crankcase."
+smallengines,ff2t3eh,t1_ff24c0t,1579523009.0,Using fuel stabilizer will help a lot. I can't really get ethanol-free gas either.
+aww,ff07mn0,t3_eqx0km,1579466071.0,"Nice, you got the model with push-button start!"
+3dprinter,fey12t5,t1_fexz15d,1579439393.0,"1kg of PLA is typically around $15-20, for basic stuff. Fancy colors, metallic-looking filament, etc, get more expensive. But unlike molded parts, 3D-printed parts are typically hollow inside their walls. So they're lighter than a molded equivalent-size part, which helps keep the materials cost down. 
+
+Keeping an eye on [https://www.reddit.com/r/3dprintingdeals/](https://www.reddit.com/r/3dprintingdeals/) has gotten me 1kg rolls of filament for maybe $10-12, during sales."
+3dprinter,fexyk87,t3_eqvpws,1579438359.0,"It would depend on your print settings, and what you're paying for material. But for basic PLA filament for an FDM printer, maybe $10 or so? I did not download the files and set them up in the processing software to get a more accurate sense. Just trying to give a ballpark. It's not $0.50, and not $50."
+NetflixBestOf,fev82lb,t1_fev5uv6,1579394311.0,"Even calling things ""wee"" that aren't actually small, as James lamented? No, but I do wish Sister Michael would show up here one day."
+NetflixBestOf,feun87q,t1_fetr1qi,1579388155.0,"Definitely. It's a quick watch, but hilarious. We've re-watched multiple times. You'll probably need the subtitles turned on, though, and I had to look up what some expressions mean."
+AskReddit,feubxum,t1_fesm3fr,1579385108.0,"I really liked Arrival, but I confess I don't remember the sound being a big part of it for me. It was the cool (IMO) story and ending that got me.
+
+I've watched it multiple times, but after recently re-watching Inception and Interstellar (two other personal favorites that twist your mind a bit), I need to watch Arrival again. Thanks for mentioning it!"
+gadgets,fengde4,t1_fene9w2,1579284104.0,"Or, more conventionally, for anyone trying to use a power bank (or whatever you want to call it) to charge their phone during the day. Wireless would almost certainly make it take longer, and you would need a larger battery. Or get less of a charge out of a given size battery."
+worldnews,femw5k0,t1_femp236,1579271184.0,"The Art Of The Deal, Man. He's been using The Think Method on Ukraine, to get them to do The Investigation In B(iden)."
+BIGTREETECH,feiborg,t3_ep9z5n,1579134751.0,"If you do the self-test for, say, a minute, does it succeed? What does it do when it fails? Either messages on the screen, or, if you've seen it happen, what actually happens? (eg- starts to move down to probe, but the BLTouch triggers before actually contacting the bed, etc)
+
+There is a little grub screw on the back of the BLTouch, which is supposed to be set within some depth range. If that needs to be adjusted, perhaps the magnet isn't holding the pin in-place securely enough? Maybe it's triggering too early, like from vibration while Z moves down, or something like that."
+octoprint,fei8zam,t1_fehnzbg,1579132951.0,"Intereting, thanks. I'm fairly new at this, and started with Octoprint on an old Pi 1. Unfortunately, it was too slow, causing zits, and much longer print times. 
+
+I found the ""htop"" command very helpful for observing CPU usage while printing. I'd see the Pi 1 hitting 100% (it was single-core). The Pi 4 that replaced it has no issues. 
+
+If the zits happen while it's showing high CPU usage, perhaps it's related to getting bogged down, rather than a bad SD card. Reformatting and reinstalling Octoprint should show if it's the card, or a slowed-down Octoprint install. You could also try Safe Mode, to see if it's due to plug-ins. 
+
+And if it is the card, maybe a ""high endurance"" card might be worth it, they're meant to handle lots of writing. I got 32GB for about $12."
+octoprint,fehmyms,t1_feh540f,1579119815.0,"That would definitely cause pausing and zits. But it wouldn't seem consistent with the problem only appearing after after months, to me?"
+smallengines,fegkoym,t3_eoztmk,1579095738.0,"It's also possible that you have an air leak around the carb (typically where it mounts to the engine, or sometimes at the throttle shaft). This introduces ""raw"" air, and makes your fuel mixture extra-lean.
+
+I would also replace the air filter, for multiple reasons, including not slowly killing the engine with dust. But it's possible it could also help with this, I suppose. It would add more intake restriction, which might help act a little like partial choke? I haven't tried adding or removing a filter from an engine, vs how it was configured stock."
+3Dprinting,fegjudk,t1_feg76u1,1579094958.0,"Very nice print!
+
+The random Z seam is interesting. I probably would have guessed that maybe having them in 1 location might be better, that way you're only sanding/smoothing one area, as opposed to scattered around the entire part."
+BIGTREETECH,fegcwfy,t1_fe4jzcu,1579088108.0,"You're trying the pre-configured firmware.bin file(s)? That at least eliminates issues with the building process. 
+
+I often don't get the firmware.cur file. If that appears, the original file doesn't get deleted. So I personally don't put too much faith in the process of renaming the .bin file to .cur. 
+
+If you unplug the BLTouch entirely, what happens? Makes me curious if there's some sort of hardware issue going on. I haven't heard of anyone needing to somehow redo the bootloader, but I'm sure that doesn't mean it couldn't happen."
+holdmycosmo,fef1hq4,t3_eol96i,1579045961.0,We want ewe!
+cats,fedbyku,t1_fed9tpo,1579007084.0,Great name! Ours are Pippin and Merry.
+lawnmowers,febw6yh,t3_envjmt,1578963462.0,"Broadly speaking, at least, brushless motors can be more powerful than brushed motors. They can also last longer, since the only moving parts are the bearings, no brushes to wear down. But I'd imagine the motor lifespan wouldn't be a factor for typical homeowner use. 
+
+The brushless lists a longer runtime, and can use larger 6.2Ah batteries, vs the 5.0Ah max listed for the brushed. The brushless is an 18"" diameter cut, vs 17"", and lists two operating modes, ""ADT"" and low-noise, whatever that means exactly. I would imagine sort of a high-power and low-power mode, perhaps, to maybe help extend the run-time a bit. 
+
+As to whether the differences are worth the price, I guess it depends on your priorities, etc, including what the actual prices are. An extra $200 on top of $300 is one thing, but less-significant if it's $200 on top of $1,000. If you have a larger-size yard, and have the 6.2Ah batteries, that might be a notch in the brushless machine's favor. If you have a bunch of batteries already, and can swap while mowing, it's probably not as big a deal."
+ender5,fe52s1i,t3_entbeb,1578865138.0,"You may have to disable a lot of stuff. I have Marlin 2.0 on my SKR Mini E3 1.2. I was close to the 224KB size limit, until I enabled the 512KB of storage. 
+
+Now, I certainly wasn't trying for a minimal installation, but if you have 64KB available, you're probably going to cut things down a lot. At that point, is there a benefit to just using Marlin 1.1.9, I wonder?"
+lebowski,fdzulml,t1_fdz2bww,1578796163.0,"Ha, I love that one."
+lawnmowers,fdzu69k,t3_enb7vp,1578795874.0,"Presuming that you need to mow the steep hill, that could be a consideration. Lawn tractor hydrostatic transmissions are really suited to level ground. Using them on hills can make the transmissions fail more quickly.
+
+Garden tractors have much more substantial transmissions, but are quite a bit more expensive."
+shouldercats,fdwpewx,t1_fdw18w4,1578761091.0,"That would affect light passing through the lenses, not reflecting off of them."
+television,fdsj7yo,t1_fdpd6oe,1578703795.0,"I'd heard of it, but I'll have to check it out. I confess I find him a bit much in The IT Crowd, but definitely like him in Shadows."
+movies,fdrdzo0,t1_fdqvgpv,1578683090.0,"I thought Arrival was such a cool concept/story. I still have not read the original short story.
+
+Arrival, Inception, and Interstellar are, IMO, awesome movies that do a great job of kind of messing with your head, and your perception of reality. In a really good way. Some of my favorite movies of the decade."
+movies,fdrd41t,t1_fdqxkn7,1578682793.0,"I think you guys have motivated me to re-watch it. Only saw it once, and wasn't blown away. But I really like a lot of his movies. Maybe I wasn't paying close enough attention. There are worse things that re-watching something with Michael Caine."
+movies,fdraoum,t1_fdr4jnb,1578681792.0,"I have not seen all of his, so can't comment on ""least"". But I will offer that while I liked Dunkirk (just re-watched it a week or so ago), I prefer Inception and Interstellar.
+
+They had more ""whoah"" factor to me, and felt more involving, I guess you could say. Now, it's not fair to expect something historically based to twist your mind the same way a sci-fi story can, of course. But still, the mind-twisting of those was part of the appeal."
+cats,fdr6wjz,t3_emp6gd,1578680266.0,Lucky you!
+TheGoodPlace,fdqpac2,t1_fdqiem4,1578671945.0,"Nice :) Giving the Pirates stuff a hard time, again, is funny."
+TheGoodPlace,fdqfib1,t1_fdppm7n,1578665352.0,He was cool too.
+TheGoodPlace,fdqc7xf,t1_fdq6bmp,1578662719.0,"I saw this one, but couldn't read the Pirates Of The Caribbean billboard, unfortunately."
+ender3,fdq4y7f,t1_fdpltg8,1578655043.0,"I think you wire the Z limit switch to different pins on the board, not to the BLTouch wires. But I'm not certain, as I just left my Z switch disconnected, after installing the BLTouch."
+television,fdp87ua,t1_fdoz24s,1578622288.0,I loved the creepy paper joke :) Can't wait for season 2!
+BIGTREETECH,fdoydf1,t1_fdowvl9,1578615697.0,"Just realized that I can kind of check mine for you.
+
+Disconnected my power supply, and measured across the XT60 contacts on the leads that go to the board (to the Vin connector). I get basically infinite resistance, as if I wasn't even touching the leads to anything. Now I'm not measuring exactly the same way as you, but it should effectively be the same, IMO.
+
+You shouldn't be getting a measurement that goes through the fuse, it should not connect - to + at the incoming connector. It should be inline with +, most likely, between the connector and the rest of the board. To read the resistance through the fuse, I'd expect you'd need to measure from + to something just past the fuse. But I wouldn't bother trying to do that, I don't think it will tell you much.
+
+I think something is wrong with your board. I'd send them that picture, so there's no confusion on what is being measured, and the reading you're getting. I don't know what the 5V / 3V is, but I think the way you're measuring makes a lot of sense. 
+
+If the fuse is popping, you could look closely for something after the fuse that's shorted. A glob of solder on the back of the board, maybe, something like that. 
+
+If you pull the fuse, what resistance do you measure, across Vin? If the resistance goes to infinite, then you know the connector itself isn't shorted internally, and it's something after the fuse that's shorting to ground (-)."
+BIGTREETECH,fdowlt4,t3_emieiz,1578614538.0,"That's what it seems like to me. I never checked mine with a meter before installing it, for a point of comparison, unfortunately. But that doesn't look promising, to me. 
+
+I hope I'm missing something simple, but I'd be nervous about powering it up. Nothing obvious underneath the board, connecting those two contacts? You could see if you removed those screws entirely, if you could get a better look inside that connector, perhaps."
+todayilearned,fdouku4,t1_fdnyffc,1578613216.0,"I, too, liked Debt Of Honor."
+todayilearned,fdoub1s,t1_fdocb1u,1578613041.0,"I read it a while back. I remember the phonetic ""translation"" stuff kind of bugging me a bit :) ""Thousay trew"", and so on. Just felt a bit clumsy or something. I never watched the movie, was it good?"
+todayilearned,fdohb9j,t1_fdogtfl,1578605143.0,"Ooh, interesting, thanks! Maybe I fell into that same subtlety trap :) That's a cool ""update"", for something I haven't thought about in years."
+todayilearned,fdoh3si,t1_fdnpd9g,1578605022.0,"Yup, wow, quite a story."
+todayilearned,fdoguku,t1_fdni54w,1578604874.0,"Red Storm Rising was pretty gripping. Sum Of All Fears I also really liked. The step-by-step description of a certain critical event was intense. The movie was, well, how about we just say ""what movie?""."
+todayilearned,fdogadq,t1_fdo4ta8,1578604551.0,"Andromeda Strain was my first exposure to Crichton, which I really enjoyed. I remember liking Sphere as well, but then feeling that the ending seemed (to me at the time, at least) a bit of a cop-out. Or just an easy way to end it. I read Airframe and Prey as well, but I guess they made less of an impression. I read Jurassic Park multiple times, I was so excited that the movie was coming out."
+TheGoodPlace,fdo8hs2,t1_fdo3or0,1578600717.0,Yup. Plus the risk for accidental spoilers. I'll be watching weekly. There's always the option to re-watch before the finale.
+3Dprinting,fdngxtr,t1_fdmmmm9,1578585573.0,Over-extrusion can also contribute.
+3Dprinting,fdnfleu,t3_emal7r,1578584759.0,"How does a calibration print come out, with PETG? Is your Flow calibrated properly for your PETG? I'm assuming your extruder Esteps are correct. 
+
+Plastic shrinkage is definitely a thing. But I would think that 3D printing lays things down a little differently than injection molding, where the entire part is formed at once at maybe 250C, then cooled to room temp.
+
+At a minimum, I'd measure a large dimension of your PETG print, and see how far off you are, percentage-wise. Then use that to help decide how much to scale the next print."
+ender3,fdnc9px,t3_em9hrv,1578582691.0,"Just to ask the question, any chance there's something with with the rest of the hardware, which is killing X-axis drivers? An intermittent short, bad motor, etc? Just seems like an interesting coincidence.
+
+I suppose you could plug the X stuff into the Y axis port on the board, update settings appropriately, and maybe try running some tests like that? Don't actually extrude filament, of course, just get the axis moving around. If the Y driver suddenly dies, I'd do some more digging."
+ender3,fdnblff,t3_em9nm2,1578582256.0,"Any chance that embedded firmware settings are contributing? I know that, as I've adjusted Marlin settings (and tried FW configured by different people), I've seen things change, including stuff like endstop behavior."
+ender3,fdnat5q,t3_em6d1n,1578581747.0,"Wow, that looks great! Is that the stock 0.4mm nozzle?"
+cats,fdn3xhj,t1_fdmh3rz,1578576565.0,"Cat slave? We prefer to think of ourselves as their staff, but yes."
+Android,fdl3cnv,t1_fdkdry1,1578516356.0,"Thanks for the feedback, that's the first hands-on ownership report I've read, personally.
+
+Never thought I'd need to consider greasing/lubing my phone :)"
+ender5,fdknaqa,t1_fdk5sn7,1578507125.0,"I believe I found it in the Marketplace. The button in the top-right of my Cura. I think it was just called Z Offset?
+
+The tricky thing, to me, was that I kept looking in the post-processing gcode plugins (after installing it). That's apparently the wrong place. It seems to just add another entry in your build settings (like where you set later height, speed, infill, etc). Once installed, search in your build settings for ""offset""."
+aww,fdhinqd,t3_el0xue,1578423453.0,Great reflexes on your little apex predator :)
+ender5,fdev56n,t1_fdeu1hc,1578347250.0,"I'm new to PETG as well. I was using blue painter's tape on (normal) glass. I've done prints with my normal nozzle height that I use for PLA. They came out pretty well, though one stuck so hard that I broke the glass trying to remove the part.
+
+I'm now trying a slightly larger gap, adding 0.04-0.08mm, using Cura's Z Offset plugin. But I need to come up with a new print surface before further testing. But it's worth knowing that you can increase your bed gap easily (and by a defined amount) in software, rather than being to use the knobs. I'm using ABL, but I still like the option of doing it this way."
+EarthPorn,fdcfm3t,t3_ekivo3,1578273700.0,"Wow, great work, that is beautiful!"
+cats,fdb4c81,t3_ekfjor,1578253622.0,"Oh man, they are adorable! Have fun with your new friends!"
+Whatcouldgowrong,fdabooe,t1_fda4jub,1578244222.0,"You used to be against picketing. You still are, but you used to, too."
+PS4Deals,fdabcom,t1_fd9vrq6,1578244076.0,"Not sure where you are, but it shows free shipping for me, in the US."
+3Dprinting,fda0gib,t1_fd7rvtm,1578240297.0,Oh boy. Have an upvote.
+ender3,fd670xi,t1_fd6565q,1578186449.0,"Gotcha. I have a similar bed, though from a different brand. When I have trouble with parts not sticking well enough, I clean the surface with hot water and dish soap. That, combined with an appropriate nozzle-to-bed gap, has usually been enough to make the parts stick, with PLA. 
+
+I usually run around 205C nozzle, and at 60C bed. You can give the bed more time to come up to temperature, if it's still too-cold at the surface, when the print starts. The glass beds take a little longer for the heat to soak through. 
+
+I have not had anything stick too-well to my coated glass bed, though, sorry. Even when doing test prints with different nozzle gaps. Are you getting the proper squish on your first layer, is the first layer surface smooth? I guess if your gap was too-small, and you were over-squishing the first layer, maybe things would stick too-much? But I usually just wait for the bed to cool, and the parts come right off. 
+
+If you were really desperate, you could try something like putting blue painter's tape over the glass surface, to provide a different surface for printing."
+ender3,fd5753q,t3_ek0eek,1578174867.0,"You haven't said what material you're printing with, or what bed surface you're printing on. Those will make a difference. A good combination with PLA might be really bad with PETG."
+ender3,fd56xe8,t1_fd4r0au,1578174805.0,"That would be my thought too. If I'm understanding, the letters have features that are 0.01"" wide, which is 0.254mm. 
+
+If you're trying to form those with a 0.4mm nozzle, it's going to be difficult. Changing to a 0.2mm nozzle would give you an easier time. I guess you could set the line width to 0.25mm, and then the narrow parts of your letters would be a single-line-width wide."
+Barry,fd4yblz,t1_fd21lhd,1578172336.0,"And great, even on the barbecue bus."
+octoprint,fd484l0,t1_fcyk3l0,1578165258.0,"Just to mention it, I started with a Pi 1 (B, I think). That one does NOT have tons of spare power, and speed is definitely a factor. 
+
+Even overclocked from 700MHz to 1000MHz, it was very close to CPU-limited with a detailed test model (often seeing \~95% CPU). And when adding the Resource Monitor or DisplayLayerProgress plugins, it would be CPU limited, and print times increased dramatically (like doubled). 
+
+My Pi 4 is very different, fortunately, and has not exhibited any slowdowns yet, comparing printing from SD, to streaming using Octoprint."
+octoprint,fd45q5w,t3_ejwyiw,1578164630.0,"I set up a Pi 4B recently with the 0.17 Octoprint image, it's been working smoothly. 
+
+There's a command that will report an under-voltage power supply situation. I connected to it via Putty, then ran ""vcgencmd get\_throttled"" (after running a CPU stress test, to increase the draw). If it reports ""throttled=0x0"", then you're in good shape. 
+
+Other results indicate what problem you're running into. I found info here: 
+
+[https://raspberrypi.stackexchange.com/questions/60593/how-raspbian-detects-under-voltage](https://raspberrypi.stackexchange.com/questions/60593/how-raspbian-detects-under-voltage)
+
+I'm using the 3A 5V power supply that came with my case, with no problems so far. I have not tried it with a phone charger. For $12, I'm liking this fan-equipped case & power supply, I haven't had power issues while running a 15-minute CPU stress test, and with the fan on low-speed (running at 3V, not 5V), the highest temperature I saw was 59C. Granted, the house is cool, since it's winter. The fan is essentially silent at this speed. 
+
+[https://www.amazon.com/gp/product/B07WR9MMKT](https://www.amazon.com/gp/product/B07WR9MMKT)"
+3Dprinting,fd2ijft,t1_fd004ye,1578147746.0,"I'm happy to provide my competitors with a model of the 737 Max, for their entries into the contest..."
+3Dprinting,fd2i5w0,t1_fczn7vx,1578147580.0,Needs a tiny Jericho Trumpet.
+smallengines,fd2f51n,t3_ejvbrl,1578146318.0,"I'd expect a stuck valve to stick open, not closed, giving you too-little compression. If you remove the spark plug when this happens, does is it then become easy to pull?
+
+Does gas come spraying out of the plug hole when you remove the plug and pull the cord, after it's difficult to pull? If your carb's float valve is leaking, it's possible it could be letting gas leak into the cylinder while the engine is just sitting. This would cause a similar hydrolocking situation. The band-aid fix would be to add a fuel shutoff valve, and close it between uses. The better solution would be to fix the float/needle valve problem in the carb. This is also bad if it lets gas into the oil, since it won't lubricate as well, and can cause engine damage. Does the oil smell like gas?
+
+Is it a flathead or OHV engine? If your valve clearances are wrong (too large) the compression release may not be working properly. I'd expect that to be consistent every time, admittedly, but it's still possible, I suppose.
+
+It's tough to imagine the troublesome oil staying in there somehow, after getting it running again for a few seasons. Change the oil if you want, but I think that filling with gas/Seafoam is not necessary, and may just introduce other potential problems."
+3Dprinting,fczdxy7,t1_fcza0p6,1578099028.0,"Slightly-angled tail fins, to make it spiral (if it doesn't already) were my first thought :) 
+
+Wear your safety glasses, folks! This is gonna get risky. But fun. 
+
+Shortening the tube would reduce the pressure-drop of the air, through the tube. Giving a bit more pressure to the projectile. 
+
+Now, how do we hook this up to a compressor.... 
+
+I do actually have a refillable aerosol can, so you can make your own sprays from a liquid you provide. It refills with a pump or compressor. Could be a refillable source for using something like this, though it probably puts out less volume of air than a canned-air setup. And since each launch is just a brief blast of air, a can would probably give quite a number of launches."
+3Dprinting,fcz8t16,t3_ejjkkm,1578095983.0,"Holy crap man, that's amazing! Fantastic work! More pics would be welcome, I'm sure. How long did it take to print, and to paint?"
+functionalprint,fcz7lsh,t1_fcs4zyc,1578095294.0,"Ours are the Glad or Ziplock-type thin plastic reusable stuff. Maybe thermoformed. 
+
+These look interesting, they probably seal better than ours, at least. Granted, I'm not using putting liquid in them, so the seal isn't essential. I presume the glass is pretty durable, and it wouldn't get messed up or stained if you were microwaving things that got too hot. That's nice."
+ender3,fcyzq6u,t1_fcyw8bs,1578090681.0,"Good question. You could swap two stepper cables, and see if the problem stays with the cable (and therefore driver), or with the extruder.
+
+I believe there is a voltage control pot on the stock board, from what I've read. Perhaps the stepper voltage is wrong now somehow?"
+ender3,fcypzcv,t1_fcy6f1y,1578084713.0,"If you're extruding through the nozzle (I assume you must be, with direct drive), what about eliminating that restriction?
+
+Remove the stepper & extruder from the hot end, for instance. Or maybe remove the nozzle, so you're just extruding through an open hole. Something to help understand if there's some sort of restriction/slippage issue that's responsible.
+
+I went dual gear clone recently, but not DD, and I ended up at 406 steps/mm."
+cats,fcyi7hz,t3_ejgbrc,1578080590.0,"Based on our cats, at least, I'm guessing maybe it's pronounced ""leisure wear"", and the ""active"" is silent?
+
+Well, unless it's 2AM, I suppose."
+videos,fcy92ng,t1_fcxvnbm,1578076555.0,"Some of Demitri's stuff is pretty funny. But I checked out a newer release of his maybe a year ago and it didn't work for me, unfortunately. Maybe I should try again."
+videos,fcy8l1a,t1_fcy1djq,1578076349.0,"A line from one of his specials that always makes me chuckle is ""When the jokes go down, Chuck, you've got to pick it UP"", taking to the guy plucking along on a bass or something in the background. RIP Mitch."
+octoprint,fcy7aju,t1_fcy3chy,1578075851.0,"If you want to upload the troublesome file somewhere, I'm happy to try uploading it to my Octoprint later, if that's of any use."
+octoprint,fcy2nm7,t1_fcy09f1,1578073995.0,"Totally admit that this is unlikely, but just to ask: If you have your computer set to hide file extensions, is it possible that the file is actually called something like calibration.gcode.txt, rather than calibration.gcode? This wouldn't be consistent with it printing OK from the SD card, I suppose."
+tifu,fcxq8qh,t1_fcxkoyf,1578068883.0,"Yup, that was well done."

@@ -1,0 +1,79 @@
+subreddit,self ID,parent ID,time,text
+whatsthisbug,fh70bvl,t1_fh5z65a,1581310915.0,"A great example of how misinfored common names can be.
+
+It's neither a spider, scorpion, or camel."
+interestingasfuck,fh24o48,t1_fh24dvi,1581235041.0,Probably radiometric dating of rocks hear where it was found.
+todayilearned,fh210am,t1_fh0fqgy,1581230627.0,Design by committee
+funny,fh1zmrc,t1_fh1r4xy,1581229234.0,"So the question to be asked here is not
+
+""How many times will reddit users ask for a slower version?
+
+But
+
+""How many of those requests will I watch?"""
+CrappyDesign,fh1xr89,t1_fh1j5jw,1581227551.0,Especially at night. This is the same reason night vision was green.
+mildlyinfuriating,fh1vf9f,t3_f12tb4,1581225405.0,"It like they say ""Don't judge a book by its title""
+
+Wait... That doesn't sound right."
+interestingasfuck,fh1uw32,t1_fh1tw7y,1581224942.0,This is a little but pedantic but insects are actually a viable food source. One could argue that the insects produce themselves.
+blender,fguffcr,t1_fguer2p,1581119478.0,Just curious how big is the new video size vs the old one?
+blender,fguf8yt,t3_f0cukh,1581119353.0,"* Looks like your floor texture may a little bit too low res, especially closer to the camera.
+* The floor is just a little too reflective. I can make out the mic a little too well.
+* The floor definitely needs some bump or displacement, that will help with the being too reflective too.
+* As others have said the XLR connector would be good, and the cable should be thicker.
+* The lighting works but I think you should try some other options. The bright light draws your eye away from the mic and that should be the focal point. 
+* It look like your already using some red and blue lighting, I would bump the amount of red and blue a bit to make it more dramatic."
+blender,fguedea,t1_fgudybq,1581118752.0,Sounds like your on the right track. Try to not get too tied up in perfecting renders early on. It's better to experiment with a bunch of different things than to perfect only a few.
+blender,fgue6lg,t3_f0i57w,1581118623.0,"It's a little tricky to see there is fog at first. I kinda looks like it could just be a slightly glossy reflections. It might help if the fog goes all the way up near or past the camera. 
+
+Since you can't see the ""ground"" you lose some sense of height. Are these the tops of 100 story building or the tops of 10 story buildings? 
+
+It helps if your art is telling a story. And has a focal point. What should I be looking at this gives interest?
+
+It's definitely not bad just mostly needs focus. Maybe less global illumination and let the ambient light from the colors do more of the work."
+blender,fgud5kx,t1_fgucsrf,1581117923.0,Try upload it to a youtube channel instead of imgur. That may be the only difference between the tutorial and your result. Different platforms will apply different amounts of compression. Imgur is trying to be mobile/ social media friendly and compress pretty aggressively.
+blender,fgucyyx,t3_f0i7s2,1581117801.0,"One of the joys of learning new software. Accidentally hitting the wrong key and wondering what you just turned on or off, if it will even matter, or how long it will be before it becomes a problem."
+blender,fgucmnv,t1_fgua4t6,1581117571.0,"Yeah so it's defiantly an issue with compression. Video codecs like h.264 encode information based around movement. Meaning the small movement from one frame to the next will encode nicely, but when there is lots of fast motion the codec does a much worst job compressing resulting in the what your seeing in the video. This is probably happening once when you render the video file out of blender and then when you upload to imgur they compress it again. 
+
+[Here is a Tom Scott video that demonstrates this](https://www.youtube.com/watch?v=r6Rp-uo6HmI)
+
+First if your not rendering to an image sequence I highly recommend that. You can then re-encode the video to test different settings without having to re-render the scene. I typically just render to a png sequence but you can also use tiff for lossless and better dynamic range. Once you have your sequence rendered to images add the image sequence to the video sequence editor and set these settings for the video quality:
+
+Try these settings:
+
+* Encoding> Container: MPEG-4
+* Video> Video Codec: H.264
+* Output Quality: Constant Bitrate
+* Encoding Speed: Good
+* Keyframe Interval: 4
+* Bitrate 10000
+* Min: 0
+* Max 12000
+
+You can also try the WEBM/ VP9 codec but make sure you put it in a WEBM container.
+
+You will still likely run into issues if you upload because they will just re-encode the video again. You can usually look up the recommended codecs and settings for various hosts to minimize the amoung of compression they do. 
+
+Also if you render to image sequence you can download a tool like ffmpeg or handbrake to encode the sequence to a video with more control that blender."
+blender,fgua0nj,t3_f0fl4c,1581115835.0,"Are you exporting the unity app to a phone to get this footage or is are you importing the video into unity? It's would be possible to do the tracking in blender but that would be more of VFX than AR.
+
+This could be a need app for company/ product reviews. Open the app and point it at a company logo or product and have a summary of reviews or star rating pop up on the object."
+blender,fgu9ejq,t3_f0fciz,1581115432.0,What is your rendering workflow? Are you rendering directly to video or rendering to image sequence first? I think your running into compression issues. Can you upload a still rendering of what your expecting it to look like?
+youseeingthisshit,fgs3wkp,t1_fgryuk2,1581070286.0,Accidentally switching to selfie cam
+funny,fgs3t1q,t1_fgrqunb,1581070139.0,Tectonic pilates
+oddlysatisfying,fgs3qbw,t1_fgs302h,1581070026.0,Optimizing volumetric storage capacity via kinetic compression of aluminum alloy beverage container.
+Whatcouldgowrong,fgs2leu,t3_f07hrs,1581068336.0,They call this double or nothing.
+interestingasfuck,fgs2h9i,t1_fgrterl,1581068167.0,Depending on the soil you sometims get fulgerite
+CrappyDesign,fgs2ew8,t1_fgs1rgx,1581068067.0,Magenta
+Multicopter,fgs1w43,t3_ezw5er,1581067308.0,Have you seen the armattan tadpole?
+Multicopter,fgs1t4r,t1_fgs1hx6,1581067185.0,"A pair of motor grip pliers can be pretty useful. Especially the first few times with lock nuts.
+
+
+https://www.amazon.com/Owoda-Relase-Propeller-Remover-Phantom/dp/B01N2XKBLB"
+apolloapp,fgs1lqj,t1_fgrc42v,1581066887.0,It's the start of Unix/epoch time.
+HumansBeingBros,fgrzva8,t1_fgrhvfi,1581064470.0,"I used to be so bothered by this.
+
+""50%? So 50/50!? it's your job to forecast the weather and you go with 50%?""
+
+I was ranting to someone and they correcting me."
+HumansBeingBros,fgrzl36,t1_fgrigb6,1581064089.0,Google?

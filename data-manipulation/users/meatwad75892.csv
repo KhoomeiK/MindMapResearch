@@ -1,0 +1,288 @@
+subreddit,self ID,parent ID,time,text
+LifeProTips,fg0u9tp,t1_fg0qdn1,1580415146.0,"I don't regularly ride share, but did a ton of it during a Chicago trip last month.  90% of my Uber/Lyft/Via drivers just asked ""is right here good?"""
+sysadmin,fg08zlh,t1_fg00atg,1580402792.0,"Any modern browser will work. Safari on macOS works just fine for me, Safari on iOS/iPad OS should likely be no different."
+NASCAR,fg07oif,t3_ew6ff5,1580401997.0,I remember this from a DVD I got from Dollar Tree highlighting the 2002 season.
+pcgaming,ffvuau7,t1_ffvt8ly,1580273460.0,PSVR.
+pcgaming,ffuvx3q,t1_ffutuk9,1580250347.0,Yes. It irks to me to no end that I have a perfectly good Rift S that I can't play RE7 with.
+Office365,ffuog3i,t1_ffuo1eg,1580246222.0,"That's very possible, but I would be surprised. I'm in higher ed, and people have started shouting matches with our user support teams over far less severe symptoms. I'm just knocking on wood and hoping that Duo + CA, sSSO, or something is keeping this stuff at bay for us. :P"
+Office365,ffufzo1,t3_ev8u54,1580241162.0,"I've seen this quirk getting reported by others for a long time, but we've honestly never seen large numbers of it.  Maybe 3-4 out of 8,000+ users since moving to Exchange Online in late 2018.  And that's even with a healthy mix of clients still on Office 2016, O365/Monthly, and O365/SAC Targeted across Win7 and all the versions of Win10 over the years.
+
+
+One difference is that we're not using Microsoft MFA, but instead enforcing Duo with a Conditional Access policy.  So it's still leveraging Modern Auth & tokens, but the token refresh process is going to be slightly different.
+
+
+A piece of me wonders if this is just some long-standing unidentified Microsoft MFA bug where it just doesn't refresh its tokens correctly, or makes the tokens get gummed up in Windows Credential Manager somehow."
+TrueAtheism,ffsu74u,t3_euresg,1580192641.0,"To be frank, the logistics of an afterlife sound absolutely exhausting to me. I really don't think a lot of people really, truly try to visualize it. Let's say you lived 100 years. Double that. Now double that. Then double that number. Multiply by 1000. Multiply by another 1000. Multiply by 1000000000000. Multiply that by 100000000000000000000000000000. Multiply that to the power of 9999999999999999999999999999999. Repeat the above ad infinitum. You're still in your life everlasting and you can keep going forever and ever. What are you supposed to **do** for eternity?  Do have a human form and do all the fun things you did on Earth? Do you have jobs? Are you supposed to keep friends that long in the afterlife? Is heaven filled with 100 billion souls of people from different eras of human history? Is it segregated because no one knows how to talk to the cavemen? Does God sort of Matrix-style catch everyone up to speed with knowledge and language? Or worse-- are you just a metaphysical ball of energy that transcends everything you know about ""life""? And if you can sort out all the above and find purpose in eternity, then what was the point of miniscule human life in the first place?
+
+
+I'd much rather it be one & done with a meaningful human life, regardless of whether theists or atheists are right or wrong about an afterlife."
+sysadmin,ffru0uq,t3_euth6t,1580165808.0,"One of these days, some poor CEO with security-conscious employees is going to be left high & dry when he really did forget to buy gift cards for some function."
+cats,ffr7rzo,t1_ffql1ki,1580152306.0,We keep a stash of junky dollar store toothbrushes (5/$1) for occasions such as these.
+news,ffnpao5,t1_ffnmaup,1580068892.0,For real. Dale Earnhardt Jr. just narrowly avoided a similar fate months ago with a private plane.
+Msstate,ffne6sz,t1_ffmuyjj,1580064776.0,"This is how it currently functions. If you're a student worker with a primary address at a departmental domain (example-- user123@saffairs.msstate.edu) then your netid@msstate.edu is already a valid additional address that lands in your mailbox in O365/Exchange Online too.  
+
+
+The main change is that if your primary address is something departmental, it will be changed to netid@msstate.edu and your departmental address will be relegated to just an additional address.  So you'll still receive all mail sent to either user123@saffairs.msstate.edu or netid@msstate.edu, but you'll be sending **as** netid@msstate.edu.
+
+
+More on this will be communicated to student workers by your departments in the coming days/weeks."
+gaming,ffkhx4j,t3_eu0ezd,1580023040.0,"Encarta MindMaze was my jam.
+
+
+https://youtu.be/qLmudzYWY94"
+Msstate,ffk6po2,t1_ffk5azp,1580017676.0,Pop the balloon with the glass!
+Msstate,ffk0533,t1_ffjxlzt,1580011775.0,"Wall of text incoming, sorry!
+
+
+I can't say I've had any unexplained timeouts with Duo in the several years that we've had it available. (Outside of rare known outages that are cleared up within an hour or two)  Anytime I've seen or heard of weirdness from others, it usually boils down to either A) aggressive Android battery optimization messing with the Duo app, or B) approving Duo pushes from a lockscreen notification, but the phone is locked. I see ""B"" happen occasionally on my phone if Smart Lock wigs out, and I know it happens because the Duo push notification on my watch will tell me to go open the app on my phone instead. The second I unlocked the phone, the push approval goes on through.
+
+
+If you're ever in a bind, you can always cancel a push attempt, and enter a code instead. In the Duo app, tap on your MSU account and it will give you a 6-digit code to use in lieu of using Duo Push.
+
+
+For the restore part, that should be expected.  The nature of MFA is that your authenticator holds a secret key that is the basis of your generated codes and the pushes you receive. iOS and Android both should not retain this secret key when they back up the application data to their respective services.  There is also the Duo Restore feature built into Duo, but I don't really have any experience trying that out. So that feature may very well be wonky for all I know.
+
+
+If anyone plans on getting a new phone, they should ideally set up their new one before wiping or getting rid of the old one so that you can still complete an MFA challenge and get into your Duo settings and enroll the new device.  If that is not possible (lost device, wiped old device before setting up new device, etc) you can always generate a one-time bypass code at https://2fa.msstate.edu by entering your netPassword, birthday, and SSN or MSU ID. You can use this to get into your Duo settings and enroll a new device, no visit or call to the Service Desk required.
+
+
+You are correct, we don't enable the option to let users use SMS, calls, or software TOTP so that they can generate codes in any authenticator app. But if you do want an alternate method of completing MFA challenges, you can get an OATH HOTP token (YubiKey, et al) and the Service Desk will gladly link it to your Duo account.  It's nice to know that if you forget your phone for a day, you can keep a YubiKey on your keychain and not have to fiddle with one-time bypass codes for a whole day.
+
+
+As for Microsoft Authenticator-- I would doubt this happens. Microsoft MFA that is natively included with O365 works great, but it would take a separate product (Azure MFA Server) to integrate into the multitude of applications and services we have on campus.  I don't see this being cheaper than Duo for us."
+Msstate,ffjginr,t1_ffj704c,1579997761.0,"Only the Gmail piece in MSU's G Suite will ultimately be going away.  You can continue to use Google Drive, Google Forms, etc as they will not be going away. (I'm not the G Suite admin, so not sure what all is enabled for you guys) Though I do feel obligated to shamelessly plug Microsoft Forms and OneDrive for Business right now.  :P
+
+
+Your rules won't migrate, so yes, you'll need to recreate them once you flip over to O365/Exchange Online. We're moving the data using the built-in G Suite migration batch type that pulls data over REST APIs. The documentation has a list of what you can expect to not move:
+
+
+> **Mail** - Vacation settings, Automatic reply settings, Filters/Rules will not be migrated
+
+> **Meeting rooms** - Room bookings will not be migrated
+
+> **Calendar** - Shared calendars, cloud attachments, Google Hangout links, and event colors will not be migrated
+
+> **Contacts** - A maximum of three email addresses per contact are migrated over
+
+> **Contacts**	- Gmail tags, contact URLs, and custom tags will not be migrated
+
+
+https://docs.microsoft.com/en-us/exchange/mailbox-migration/perform-g-suite-migration"
+Msstate,ffj3wd8,t1_ffj2z75,1579989739.0,"Yep, we've gone all-in with Microsoft 365.  Employees moved from our on-prem Exchange servers to Exchange Online early last year, we migrated from Skype for Business to Teams a few months ago, and we turned on all services for students late last year, minus email. (Teams, OneDrive for Business, Stream, OneNote, Office Online, Sway, Forms, Power Automate, Whiteboard, etc etc)
+
+
+The upcoming student email migrations to Exchange Online are the final piece to all of the above."
+Msstate,ffj2lcs,t1_ffj1wq7,1579988809.0,"Google Drive is not being migrated, but it's also not going away.  Only Gmail will be migrated and eventually disabled in MSU's G Suite.
+
+
+You can continue using Google Drive, or move your files over to OneDrive for Business where it will have tighter integration with email and all the other O365 services."
+Msstate,ffisc1i,t1_ffia4s4,1579981485.0,[netid]@msstate.edu will still be your primary email address.
+PS5,ffhbdys,t3_etl6f7,1579928758.0,"19.  My neighbor back in college (2007) sold me his launch 60GB for $300.  Played GTA4, Uncharted, Unreal Tournament 3, Ninja Gaiden Sigma, NCAA Football, and MotorStorm. Tinkered with Yellow Dog Linux for a while too. I wish I kept it, but I sold it in like 2009 because I just didn't have time for gaming anymore as I got closer to my senior year.
+
+
+
+I always played the big Playstation hits on friends' consoles back in the day, we only ever owned Nintendo stuff because it's what my older brother asked for."
+chrome,ffh94yq,t1_ffejosz,1579926694.0,"O365 admin for higher ed here; yes, this is a big deal.
+
+
+I can disable this with a GPO, an Intune policy, SCCM, etc for managed devices, true, that's very easy and not a big deal. **However,** being a university, we have 50,000+ students and employees that are allowed to install Office 365 ProPlus on their personal devices for schoolwork, incidental use, etc. We do not manage these devices, but they will receive this *MS Search for Bing* extension all the same. There is no tenant-side option to not deploy this feature, and O365 cloud-based configuration policies that could reach these unmanaged devices do not contain a payload to prevent the extension's installation. We have absolutely **zero** recourse to prevent thousands upon thousands of our users' personal devices' Chrome settings from getting hijacked against their will. Unless they backtrack on this, or give us tenant-side toggles or updated cloud-based config policies to prevent the installation on unmanaged devices, there will be countless help desk hours spent fielding complaints and hearing earfuls about the change.
+
+
+Aside from all of that, the very concept behind this being opt-out instead of opt-in is backwards in the first place from an administrative perspective."
+Office365,ffghe0a,t1_fffyzc8,1579906276.0,"On the security thing... What specific concern about security? Because it's not inherently insecure, quite the opposite really. Do you have other company-approved storage options or services being offered and made known to users? If so, I'd be less concerned about keeping OneDrive for Business away from them. But if not, consider the following:
+
+
+If users are blocked from one product (OneDrive for Business) in a suite of services (O365) that are already being deployed, all that will do is encourage them to look elsewhere to do the things they want to do.  If that ""thing"" is cloud storage and they have no other company-supported options, congratulations...  Your users may now be tossing sensitive company data into personal OneDrive accounts, iCloud, Google Drive, etc. that you have zero administrative control over.  You can't audit the contents. You can't eDiscover against the files. You have zero say over how secure the user's password is on that service. They don't have to use MFA. They can potentially store malicious files.
+
+
+
+But, if you deploy and support OneDrive for Business, the opposite of all the above is true.   You can audit & eDiscover to your heart's content. You can set DLP policies to prevent certain data from leaving or coming in.  Accounts are protected by password policies and MFA that *you* implement and manage. You can scan all of ODfB/SharePoint for malicious files."
+Office365,fffzwx3,t1_fffytuf,1579895452.0,"Well Office Online requires storing files somewhere in SharePoint Online, be it OneDrive for Business (default for new docs), or a shared file/library from another user or SharePoint site. (Standalone or from O365 Groups)
+
+
+So they'd get errors trying to create new things in Office Online for themselves, but would have no issues interacting with shared files. I'm guessing that's what they're referencing."
+Office365,fffj0yu,t1_fff7hzw,1579885009.0,"Conditional Access policies' app selection is not granular down to just OneDrive for Business itself. (The ""OneDrive"" entry you see in CA is for consumer OneDrive as an enterprise application, not OneDrive for Business) You can block SharePoint Online, which may or may not be okay depending on the org since this also blocks Teams, SharePoint itself, Planner, Delve, etc.
+
+
+Our TAM put me in touch with a person on the product team about this, and they said they are working on it.  But that was over a year ago, and it's not on the roadmap, so I wouldn't hold my breath."
+Office365,fff8ckb,t1_fff7k2s,1579878246.0,"Not sure, unfortunately.  Our org jumped from ""no one gets OneDrive"" to ""everyone gets OneDrive"", so didn't get a chance for trial & error on that matter."
+Office365,fff6y0c,t3_etb1ge,1579877272.0,"The option we took years ago was changing the default **Create Personal Site** permission in SharePoint Online that the link describes. If you remove ""everyone except external users"", then OneDrive for Business personal sites will not provision for users, even if they get a SharePoint Online license. Worked great.
+
+
+Beyond that, it's always easy to revert or scale up from there. If you only want a select number of people to get OneDrive, put them all in a security group and add the security group to the Create Personal Site permission in SharePoint. Or if you want the whole org to get OneDrive, just add ""everyone except external users"" back into the permission as is default.
+
+
+Note that this is a method for preventing OneDrive provisioning in the first place.  If users already have OneDrive and you want to take it away after the fact, you'll need to revoke their permission to their personal site in SharePoint.  As the link above mentioned, removing a user's SharePoint Online license doesn't actually make their access to OneDrive completely inaccessible.
+
+
+Lastly, I'd make sure you really have someone in management backing the decision to do this.  If you're not using many other O365 services like Teams, then you probably won't hear much fuss over not having OneDrive. But if you prevent OneDrive but give users all the other services, you'll find many pain points-- No Office Online, no Teams file sharing, etc."
+sysadmin,ffeexah,t3_et5q8m,1579845434.0,"We use AAD and SAML to get into Jamf Pro and Cisco AMP. Just logged into both with no issues from disparate networks & devices.
+
+
+I'd say it's either a narrowly-scoped bug affecting your tenant, or you're being bullshat by your vendor. Probably the latter."
+beatsaber,ffdjaao,t1_ffd54jk,1579822060.0,"Still varies by school level and location in the US.
+
+
+I went to public and parochial schools for elementary and high school, A was 93. State college, A was 90."
+AskReddit,ffcosah,t1_ffbqma4,1579804006.0,"I can relate to this one.  I have no experience editing (unless you count like 2 projects in Windows Movie Maker back in the 00s), but I'm a pretty technical person by nature.  There was an AMV from way back in the KaZaA days that I like to watch for nostalgia every now and then, but the quality is obviously shit.
+
+
+So, I got an Adobe Premiere CC trial, ripped my Blu-ray of the movie (Vampire Hunter D: Bloodlust), and spent 6 hours (including breaks) finding and slicing and moving and matching up all the pieces to recreate this AMV from scratch.
+
+
+I was pleased with the results, and I thought I did decent considering I had zero experience. But holy hell that was the most tedious, boring process.  The constant re-playing of loops while piecing everything together got a lot of things stuck in my head for the next few days.
+
+
+Before/after: https://viewsync.net/watch?v=ACtofU9Nclk&t=0&v=aDlKbvoHDNw&t=0"
+Office365,ffb1xfr,t1_ffa8br8,1579749743.0,"If they activate Office against your tenant, all it would really take is for a [cloud-based configuration policy](https://techcommunity.microsoft.com/t5/office-365-blog/the-new-cloud-based-policy-management-service-for-office-365/ba-p/480676) to get added to control this on unmanaged devices. This specific option doesn't exist there at the moment, though.
+
+
+So here's hoping they either backtrack and cancel this idea, add a payload to control *MS Search in Bing* deployment via the cloud-based policies, or add a tenant-wide toggle in the M365 admin center."
+Showerthoughts,ff9li1l,t1_ff92r2y,1579715512.0,"And then we come full circle with the likes of Arc System Works making gorgeous 3D models look like 2D models.
+
+
+Anyone that's a fan of DBZ Fighterz or Guilty Gear should check out the design principles they follow, it's pretty neat stuff: https://www.youtube.com/watch?v=yhGjCzxJV3E"
+sysadmin,ff93oby,t1_ff8ip88,1579704067.0,"Glanced back over it, nothing in relation to this topic unfortunately."
+sysadmin,ff8b203,t3_es6xp5,1579671450.0,"Ooof. I wonder if there will there be a cloud-based policy equivalent for this too? There's [nothing](https://imgur.com/a/Yyb5JFZ) as of right now. Between employees and students (uni), that's 50,000 users that may have O365 ProPlus on their personal devices that we don't directly manage via GPOs or Intune. That's going to be some interesting help desk calls."
+YouShouldKnow,ff692t3,t1_ff5dpkb,1579622004.0,"I've used Office Lens to capture a whiteboard, then upload the image into O365's Whiteboard app to further collaborate. Dope stuff."
+YouShouldKnow,ff3slse,t1_ff34gux,1579547959.0,"I was in Minnesota right before our last midterm elections. Tons of pumps even had **political** ads. I was no stranger to gas pump ads, but they had always been for motor oil, toilet paper, etc."
+PS5,feo482f,t3_eq4xk4,1579294938.0,"We could bust out ""untapped potential"" for old times' sake."
+beatsaber,fekrp0e,t3_epm9i0,1579206212.0,"This, a million times. It'd be great if there was a setting or even a mod that just slows down the calibration menu by a factor of 2-4x, as you mentioned. A ding every half second with the marker flying that fast is way too fast to meaningfully guess when it's perfectly synced. And I need good calibration, because I do have lag. (I use a sound system that gets its audio from the output of a TV, not my Rift S's headset)
+
+
+It's a noticeable problem during gameplay for me. If I stare at the calibration menu long enough, I can convince myself that 50ms, 70ms, or even 100ms ""looks good.""  But if I pick one and play a song on Expert, I'll fail some streams I know I can hit. I'll change the latency to something else, try again, and I nail those same streams.  Then I'll have to rinse & repeat when it happens again with some other song, even though I was damn sure I had finally gotten the right latency before.  Ugh.
+
+
+If I could get that perfect audio sync, I'll at least know if I'm lagging, or if I just need to git gud."
+pcgaming,fekohd1,t3_epjr0p,1579204313.0,"Still something slightly off that I can't quite put my finger on... But definitely improved & tweaked since the first trailer.
+
+
+https://imgur.com/a/vseAQvq"
+gaming,fekmwoh,t3_epmk42,1579203374.0,"Given how much stuff is coming out in March/April and fighting for my time, that's perfectly fine with me."
+buildapcsales,fejwd2m,t3_epiflk,1579187366.0,[Periferals!](https://imgur.com/a/fr1y81R)
+Msstate,feiztxj,t3_epay9g,1579151949.0,Does Vector still push their crap hard around here? You couldn't walk 10 feet without seeing a flyer from them back in my undergrad days. ('06-'10)
+SandersForPresident,fehrxe7,t1_feh0hi2,1579122671.0,"There will still be the exception here and there. I make $60k, but my employer covers all health insurance premiums. So that's going to be an extra $1000-ish per year for me. **But** I won't be worrying about what insurance covers, out-of-pocket costs, meeting my high deductible in the event that I need care, losing/changing insurance if I want to change jobs, having a kid, etc.
+
+
+I'm mostly existed about dental-- even with expensive dental insurance, a few mishaps in the mouth will set you back thousands because maximum benefits are almost always shit compared to the cost of major work."
+sysadmin,fehh5ib,t3_ep55b6,1579116434.0,"[This feels so wrong, yet so right.](https://imgur.com/a/IxH3Rqf)"
+Office365,fee088j,t3_eonu9x,1579023632.0,"IMO, Forms is a bit too basic for building out a robust time tracking system. You can collect responses and spit them out to Excel, but that's about it. (Plus some branching options, and opportunity to get creative with Power Automate)
+
+
+Teams can natively do all of this better with Shifts and Time Clock.  It's purpose-built for this, so I'd investigate this as an option. You might be missing custom fields for things like cost codes, client IDs, etc, but it will be an infinitely better user experience compared to trying to make Forms work.
+
+
+https://support.office.com/en-us/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821
+
+
+https://support.office.com/en-us/article/set-up-time-clock-for-shifts-63ff9958-3594-4d05-82eb-a4a342cba2e2
+
+
+https://www.youtube.com/watch?v=onxyRUjaX1s"
+television,fedilik,t1_fed617c,1579012461.0,"Jon Batiste. Wonderful musical sidekick, but absolute garbage on the mic when it comes to whatever he thinks comedic banter is.
+
+
+Also, you'll appreciate this:  https://www.youtube.com/watch?v=cWIEF2Yc58w"
+Office365,fds1k1r,t3_emty1w,1578692948.0,"Actually, yes it is your exact issue.  Send-as permissions don't work cross-premises. (Same document you linked)
+
+
+> Mailbox permissions and capabilities NOT supported in hybrid environments
+
+
+> Send As: Lets a user send mail as though it appears to be coming from another user's mailbox. Azure AD Connect doesn't automatically synchronize Send As permission between on-premises Exchange and Office 365, so cross-premises Send As permissions aren't supported. **However, Send As will work in most scenarios if you manually add the Send As permissions in both environments.**
+
+
+We never did work around this quirk during our own migrations, we just migrated distinct departments & all their shared mailboxes at the same time.  When we came across multi-hatted users that got left on-prem while others they work with were migrated, we gave them the option of moving too, and that took care of it."
+Office365,fdqhvew,t3_emfa0r,1578667063.0,"Domain environment? If so, you can easily set the target servicing channel with a GPO. O365 ProPlus clients will update/downgrade their bits on the next update check.
+
+
+https://www.microsoft.com/en-us/download/details.aspx?id=49030
+
+
+https://gpsearch.azurewebsites.net/#12199"
+Office365,fdphbuk,t1_fdp1h8a,1578628634.0,"It you have a mailbox in Exchange Online without a corresponding remote mailbox object created on-prem, then the mailbox will just get the addresses per the default address policy.  The remote mailbox can 
+technically come before or after the actual mailbox."
+sysadmin,fdo3zwj,t1_fdo3pcw,1578598483.0,"Nope, just uploading directly to modern SPO sites (from O365 Groups) as global admin for our tenant."
+sysadmin,fdo1tsu,t3_emcj9s,1578597336.0,"I've consistently seen our file share uploads via the SharePoint Migration Tool sustain transfer speeds of around 800Mbps. Last (and biggest) chunk of data I moved was only about 120GB, so maybe we just haven't hit that throttling point yet. We've never had to open a support ticket to request lifts on limits for SharePoint Online, just for Exchange Online.
+
+
+I'd say open a ticket and ask them to lift any throttling first, to at least rule that out. They handle those tickets pretty quickly."
+Office365,fdmcqug,t1_fdmc3nv,1578545750.0,"It doesn't work. The workaround with the DelegateWastebasketStyle registry key requires cache mode to be enabled. (Or at least it did back in Outlook 2013 days.. we abandoned this workaround before 2016 and then O365 ProPlus came into our environment)
+
+
+
+Also, it can cause issues with delegates/shared users deleting calendar entries from another's calendar, unless they're explicitly given permission to the Deleted Items folder."
+Office365,fdm23ih,t1_fdkyej5,1578537976.0,"Word of warning, this workaround shits the bed with a few various client configurations, namely when you disable cache mode.
+
+
+My suggestion would be to selectively deploy this as necessary, and not to all. Or better yet, leverage retention policies, auditing, and eDiscovery to make the occasional accidental deletion and ensuing ""who dunnit?"" a non-issue."
+Office365,fdm1yuj,t1_fdki5bh,1578537889.0,"That's old documentation for Exchange 2010. Newer parameter/cmdlet for Exchange Online:
+
+
+> Set-Mailbox [alias] -MessageCopyForSentAsEnabled $True
+
+
+> Set-Mailbox [alias] -MessageCopyForSendOnBehalfEnabled $True
+
+
+There's also toggles if you browse to the shared mailbox in the M365 admin center:
+
+
+https://imgur.com/a/mFUnLc3"
+personalfinance,fdm0r8u,t1_fdlfqtx,1578537072.0,"Ours remits tuition for up to 6 credit hours per semester.  I can't imagine taking more than 2 masters-level classes on a full-time work schedule anyway, so it works out."
+Office365,fdekhjc,t3_ekyaft,1578340946.0,"Wild guess: Are you giving full access to the shared mailbox via groups instead of directly to users? I ask because there's currently an unpublished bug where any Outlook client using the new calendar sync APIs do not honor group-based full access permissions in regards to shared mailboxes' calendars. (Which would include Outlook mobile, new Outlook on the Web, and Outlook on macOS) And since the permission doesn't process correctly, you only see the organizational default, with is Free/Busy on everything. I have a Premier case open where Microsoft confirmed this finally after like two or three months, but no ETA on a fix.
+
+
+If this isn't the case, how are you giving permissions to said calendar? Direct full mailbox access?  Direct or group-based folder-level calendar permissions?   And is it reproducible on Outlook on the Web, Outlook on macOS, etc?"
+sysadmin,fd6dlfh,t3_ek4kql,1578189349.0,"If you run Disable-RemoteMailbox, you can run Enable-RemoteMailbox against the user at any time. If they had extra aliases, a custom primary SMTP alias, were hidden from the address book, etc.. then those would have to be reconfigured, as these attributes are not retained after a Disable-RemoteMailbox."
+Office365,fd4ho6b,t1_fcyjbgl,1578167543.0,"The sign-in is to create cloud-based configuration policies for a tenant.  Just creating and exporting XMLs does not require sign-in. Click ""Create"" on the new splash page and it goes to the following:
+
+
+https://config.office.com/deploymentsettings"
+Office365,fcytcov,t1_fcysxkx,1578086650.0,"I'm 100% sure it's the default. Spin up a fresh VM or Windows Sandbox, install Office, and this will be the behavior you see.
+
+
+If it's not the case where you are, I suspect there's a lingering GPO or something in your deployments (changes in golden images, task sequences, etc) turning cached mode off."
+Office365,fcyrdq9,t3_ejh5z6,1578085482.0,"Windows Mail supports both ActiveSync and Modern Authentication, so blocking ActiveSync alone won't prevent the usage of Windows Mail.
+
+
+If you don't have any MDM in place, you can make a mobile device policy in Exchange Online admin center (under mobile \ mobile device access) to block the ""WindowsMail"" device family."
+Office365,fcyqodi,t3_ejitsi,1578085100.0,Outlook already defaults to cached mode. There should be nothing to configure unless you want to shorten/lengthen the default cache time range.
+Msstate,fcyownp,t3_ejkpcd,1578084121.0,"Dr. Barry Herring at Starkville Smiles is excellent. I know a few other people that go there as well that are more than happy with him and the office in general.
+
+
+That said, it's after 2pm on a Friday, so I don't think you'd have much luck on availability. If your usual dentist can work you in Monday, maybe just stick with your dentist. (Unless I misinterpreted what you said) I've seen dentists around here, including Dr. Herring, advertise emergency after-hours procedures, but I'm not sure how much that costs or what qualifies for after-hours work. If your tooth *is* hurting that badly, it wouldn't hurt to call and gather info.
+
+
+http://starkvillesmiles.com/"
+sysadmin,fcy0d7f,t1_fcxpmap,1578072935.0,"We've been doing the same thing since moving from Groupwise to Exchange 2013 back in 2014. (University, also we're now on Exchange Online) We have a little over 1,000 shared mailboxes and just under 300 resources, so auditing that would be a headache if not for using security groups for mailbox access.  We can just query group memberships or the memberships of a specific user, instead of combing through every mailbox permission in our tenant and hoping it doesn't timeout.
+
+
+Not automapping is actually a desired feature for us.  Many users don't want all their things visible & caching into their .ost at all times, they just browse through the mailbox as needed using Outlook on the Web.
+
+
+The only catch we've had with group-based access has been pretty recent.  On any client using their newer calendar sync APIs (Outlook mobile, *new* Outlook on the Web, Outlook on macOS), it currently doesn't honor group-based full access for a shared mailboxes' calendar. It fails to process the permission, and only shows the org default, usually free/busy.  We opened a Premier case two months ago, it got escalated 6 times, and they finally admitted it was a bug and they can reproduce it, and that it will be fixed at some point in the future. No ETA, but they scheduled a follow-up call for this month.  The workaround in the meantime is to just give the group folder-level calendar permissions."
+YouShouldKnow,fcvoaap,t1_fcvibmu,1578006407.0,"What if my 2FA is a hardware token? What if you just don't have my phone or hardware token? Encrypted storage's unlock PIN can be exploited, but I imagine it'd make slightly tougher work out of brute-forcing your way physically into a phone too depending on the case.
+
+
+I'm not sure why you have to gloat and insinuate I'm dumb either. (I'm an admin, deploying MFA across services is one of my duties) I'm not arguing that physically accessible devices aren't a weak point in people's digital security that can be easily compromised.  I'm saying that 2FA is not pointless, and the existence of physical exploits against devices isn't some grand argument against 2FA."
+YouShouldKnow,fcvedzp,t1_fctqkfs,1578000351.0,"Yes indeed! When adding TOTP accounts into any authenticator, it's a good idea to grab the secret key (both plain text & screenshot of the QR code) and keep them secure in an *encrypted* file with with a *long non-recycled password*, be it a Keepass database or BitLocker'd virtual disk or whatever. (Lest you have all your secret keys in an easy-to-compromise single place)
+
+
+Makes restoring your 2FA tokens as easy as scanning a handful of codes in a matter of a minute or so.   Doesn't require having the old device on hand, and doesn't require spending an hour re-enrolling in 2FA everywhere."
+YouShouldKnow,fcvb2ps,t1_fcued3c,1577998376.0,"For what it's worth, many phones have options to impose increasingly longer lockouts upon unsuccessful PIN entries, some with the option to wipe the device after [x] unsuccessful tries. Subverting 2FA in this manner is a weakness in users' habits, not a flaw in 2FA itself, as you've stated.  All of these worst-case scenarios could be mitigated by better security habits-- configuring PIN lockouts, using longer PINs, being familiar with your remote-wiping options in the event that your phone is lost or stolen, not using SMS-based 2FA, securing lockscreen notifications if you must use SMS-based 2FA for lack of any other option, etc etc.
+
+
+Example-- Just this past weekend my fiancee forgot her phone in an Uber. We logged her into Google's Find My Device using a 2FA backup code she keeps discretely & unlabeled in her wallet. We were ready to wipe her device at any moment if necessary.. Not that it would have been immediately necessary, because she has a decent 6-digit PIN and it starts locking you out after just a few failures.
+
+
+But anyway, for the above reasons, 2FA is not all smoke and mirrors. In the context of losing a phone it can be worked around with minimal effort depending on circumstances, sure... But when up against remote adversaries that can log into web-based services with compromised credentials from anywhere in the world, it's a necessity, and very secure if done correctly."
+YouShouldKnow,fcvafuy,t1_fctrxwn,1577998001.0,Incorrect. Your boyfriend not keeping track of his backup codes is what did that.
+Office365,fcueacc,t3_efejhg,1577978910.0,"Important footnote for large orgs-- AAD Connect currently has a 50,000-member limit for a single group that its management agent can sync from AD DS to AAD. So if you have a single large synced group that you want to use as the basis for group-based licensing, it helps to be aware of this. You'd have to currently break these down into smaller groups, or the group would need to be cloud-only and populated in AAD directly.
+
+
+This limit will be raised to 250,000 (finally) in the coming months per our TAM and a UserVoice post stating the increase is entering preview."
+Msstate,fcsx2m7,t3_ehvn9i,1577927291.0,"I miss the old Umi before they expanded and moved. It was just a quaint little sushi shop in that brown building on Stark Rd, across from JCPenney. Sushi was better and it was more chill."
+Msstate,fcswlwo,t3_eipp74,1577926961.0,"Fourth vote for Smith Animal Hospital. We take our cats there and they are excellent. Always friendly, prices are fair, and **clean.**"
+Android,fcp2qjr,t1_fcourpp,1577848671.0,"So stop using IMAP? Outlook mobile supports OAuth for adding Gmail accounts, it's all token exchange at that point."
+GameDeals,fcogs7e,t1_fcnnvsc,1577831861.0,"Hello, fellow masochist."

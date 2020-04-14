@@ -1,0 +1,544 @@
+subreddit,self ID,parent ID,time,text
+gaming,ffuh2a1,t1_ffug32m,1580241797.0,People who agree with me are the ones who know what they're talking about.
+gaming,ffugzab,t1_ffue5lv,1580241745.0,IGN?
+mildlyinteresting,fftkig9,t1_fftg8vj,1580222919.0,Sounds like we need our own /r/odometerEnthusiasts
+YangForPresidentHQ,fftjk5o,t3_ev5sie,1580222228.0,"What an incredibly stupid system.
+
+Why does the Democrat party hate democracy!?"
+todayilearned,ffscqoq,t3_euve7r,1580178591.0,"Jacklyn is a girl's name, why do all the toughest guys have girls names!?"
+herpetology,ffqirbd,t1_ffq96je,1580135738.0,"Yeah, I guess ""snake"" really isn't that specific.
+
+My question is a bit like asking ""how strong are primates"".
+
+I'm going to guess that arboreal snakes are adapted to be *much* better at ~~climbing~~ vertical reach than non-arboreal and go with 1/3 from the head.
+
+Thank you for your response."
+Lyft,ffkmwbj,t3_eu3kwx,1580025385.0,"It's cool that this worked out for you, but a friend of mine got picked up by an undercover cop posing as a passenger who ""just wanted a ride for cash"".
+
+They took his car because it was being used for crime, have him a fine for over a thousand dollars and banned him.
+
+It's really not worth it."
+movies,ffk6ldb,t1_ffk6dfh,1580017564.0,I think it's a very effective solution to a very stupid problem which *does* exist.
+movies,ffk6ccp,t1_ffk6a47,1580017322.0,"Then you will not be credited, sorry."
+movies,ffk67si,t1_ffk5nhk,1580017202.0,"Oh boy, I don't care.
+
+If they're academy members and the academy decides that they want the process taken more seriously, then yes.
+
+It's really not that hard.
+
+Each time you go see a movie as an academy member you take a picture of your stub from some AcademyMember's app. there aren't that many academy members, storing all those pictures would cost a few dollars per year.
+
+If you can't be bothered to upload your stub pictures you have to let it play while you do the dishes later.
+
+Or while you're on a plane."
+movies,ffk5msu,t1_ffjvmo8,1580016643.0,Just take a picture of the stub.
+movies,ffjqcql,t1_ffjp1wg,1580004260.0,"But if they have an assistant, what's the problem?
+
+People are hiring them to be active in the industry, they can't be completely incapable of operating in the modern world."
+movies,ffjq4x2,t1_ffjmz11,1580004117.0,"If they're being bribed by studios and they need to vote to get those bribes, they'll figure it out."
+movies,ffjn1ha,t1_ffjji3z,1580002033.0,"They do have a ""secret"" streaming service for the screeners."
+movies,ffjmr9e,t1_ffjli15,1580001841.0,"It wouldn't be hard at all.
+
+The screeners are now available through a streaming service rather than physical media, so it would be trivial to implement a ""have they watched it"" tracker."
+unity,ffj71lj,t3_etx1z7,1579992004.0,"your link doesn't take me to your question, just to gamedev stackExchange"
+unity,ffj6oqy,t3_etumr0,1579991755.0,"I think the answer is unfortunately just ""no"".
+
+If I've understood correctly you want a higher resolution image which takes less data.
+
+It's mostly true that data and information are the same thing. if you want more resolution (image information) you're going to need more data (the description of that information).
+
+I'm not an information scientist (which is much more complex than rocket science and brain surgery) but I think this is a simple version of the more correct answer."
+DunderMifflin,ffipdqe,t1_ffic6mb,1579979403.0,But not why you would jerk away from your currently contractually obligated lover while gazing at a new potential mate... like from the show.
+gaming,ffi4soe,t1_ffi2xfa,1579965077.0,"""it doesn't pause, it's not that type of game!"""
+worldnews,ffi1sd1,t1_ffhpjgc,1579962530.0,"Hypersonic weapons would be weapons which can travel faster than the speed of sound?
+
+Lol, yes I believe in hypersonic weapons.
+
+Perhaps you've heard of the bull whip?
+
+Anyway, if you agree that Russia has, at times, leaked their own secrets, then why did you disagree with me?"
+DunderMifflin,ffheymv,t1_ffhegzn,1579932446.0,"Indeed, I believe op has not fully utilized the context of the moment and had simply used a moment of profanity which is interchangeable with any moment from any show in which somebody exclaimed.
+
+Well booed.
+
+However, I like that this is one of the few subs where people are usually very nice and accepting so I'm afraid I'm going to have to boo you for booing (appropriate as I believe your booing was)
+
+Booooooo, this is a nice place, booooooo, don't bring that negativity here, booooooo"
+worldnews,ffh8gux,t1_ffh7hb8,1579926114.0,"So it is your claim that the Russian government has never intentionally leaked it's own ""state secrets"" for the sake of appearing powerful?"
+YangForPresidentHQ,ffh6kij,t3_etl7vf,1579924521.0,"I'm really disappointed with Warren.
+
+Until very recently I was hoping for Yang but fine with pretty much anyone (except Biden).
+
+But now I'm feeling pretty pessimistic about how the candidates are going to tear each other apart then ""superdelegate"" Biden into the nomination and he's going to lose hard with his ""no malarkey"" tour.
+
+It would be really nice if the Democrat party was more into democracy."
+movies,ffh5t9u,t1_ffh3phc,1579923913.0,"I was in total agreement with you, then you said ""the beach"" which I don't recall ever seeing."
+worldnews,ffh5lr4,t3_etlb6o,1579923748.0,"In Russia they intentionally leak secrets to make themselves seem more powerful.
+
+Like finding out your dad keeps a secret shotgun under his bed.
+
+It's alarming but you also feel a little safer."
+unity,fffn62w,t1_fffkw2i,1579887559.0,"lists can be indexed the same way arrays can myList[idx].
+
+But Lists use myList.Count instead of Length because the size of a list and the number of elements in the list aren't always the same number.
+
+    myList = new List<int>(5); //list with capacity of 5
+    myList.Add(0); //Count = 1, capacity = 5
+    myList.Add(1); //Count = 2, capacity = 5
+    myList.Add(2); //Count = 3, capacity = 5
+
+this is because ""under the hood"" the list is an array and for performance reasons you may want to make a big empty list as each time you extend the size of the list you are basically making a new list."
+YangForPresidentHQ,fffbu29,t1_ffelxcc,1579880518.0,tirade?
+confession,ffbea95,t3_esp312,1579761601.0,"Be safe, bad feelings can lead to bad ideas when mixed with excessive intoxicants."
+unity,ff95jjc,t3_es6drm,1579705345.0,"I'm always in the minority when I recommend this, but taking a class at your local community college or other learning institution is a great way to go.
+
+Having a knowledgeable teacher who has set a good beginner learning path and can walk you through your confusion is great.
+
+Having a class full of people struggling with the same thing is super helpful because you can discuss your confusion together and not have us telling you stuff based off what we remember the experience being like.
+
+I would not recommend a unity class, but any intro programming class will be very helpful to get you over the initial hump.
+
+I also really like IAmTimCorey he has a beginner set of videos, but even he doesn't do as good a job as a teacher will."
+unity,ff83hba,t3_es5idn,1579664991.0,"If you want to completely get dir of shadows you can change all of your materials to use one of the Unlit shaders, but this might not actually be what you want as it will make everything look flat.
+
+Otherwise to disable shadows you can change the occlusion settings on your light source, and there are a lot of other things which go into the lighting system."
+VRGaming,ff71lnx,t3_ervxhm,1579639315.0,"Oh boy, I think I just found my phobia.
+
+Watching this gave me all sorts of very strong very uncomfortable feelings."
+gaming,ff3z414,t1_ff3td71,1579552011.0,"I see, looking at it as an extension of the NES probably makes more sense than skipping the NES and extending card games.
+
+It might also come from Arcade game layouts where you might have had ""block"" and ""attack"" or something."
+gaming,ff3rlp8,t1_ff3brex,1579547344.0,"I don't think you are correct.
+
+The proper way to write multiple lines of top-to-bottom is to order them right-to-left.
+
+You don't see that much anymore, except you do see it in card games.
+
+Before they made video games, Nintendo made card games.
+
+I think that's why they did it, like a callback to their hanafuda roots."
+YangForPresidentHQ,ff3d9su,t3_erf9bm,1579538810.0,Joe Biden is the worst candidate still in the race.
+mildlyinteresting,ff3bnwc,t1_ff37wr5,1579538001.0,"I think I once heard a podcast or something where they said that ice if actually a pretty good insulator, so it's pretty uncommon for all be the shallowest of puddle-lakes to freeze solid."
+gaming,ff3ahsu,t1_ff38opy,1579537408.0,"In Japan there is a writing tradition called tategaki in which the progression of letters goes from top to bottom, and the next line will be left of the previous.
+
+I think the SNES ~~controllers~~ buttons are based on this system and then rotated to be more ergonomic."
+gaming,ff39wk8,t1_ff38pfb,1579537097.0,"Typical politician doubletalk, this is why I'll never ~~now~~ vote for a Nintendo president!
+
+Xbox, the only American Console!
+
+... Wait, which sub is this?"
+gaming,ff39h1h,t3_ererb8,1579536827.0,"Haha! Yes, workplace violence!"
+mildlyinteresting,feviscx,t3_eqpf50,1579397902.0,"It's not common to see these guys anymore.
+
+I remember my favorite part in watching these guys was when people would buy it and then the seller would go back through and collect the cards back up.
+
+They have that warn look to let you know that this had been in many peoples hands, and considering he has a few that are all worn, you come to understand that this is how his business works, since the cards are clearly not cheap.
+
+Also I sell ""this"" card meaning you get it for a bit, should memorize it, then give it back.
+
+You can't keep it because everyone is watching you, and you can't ask for your money back.
+
+Lol.
+
+edit: word"
+mildlyinteresting,fevhjaw,t1_fevc09f,1579397534.0,Prey
+unity,fev9bhb,t1_fetz9kv,1579394673.0,"The version is set in Project Settings, but different version will have different compatible version of C#.
+
+But I don't think Brakeys usually uses many new features of C# and later version should pretty much always support features from older versions."
+mildlyinteresting,fepae9q,t1_fep8hx3,1579315738.0,"So, if I lived in an apartment with a ridiculously hot hot water heater, hypothetically, how would I go about limiting the number of times I burn the crap out of my hands while doing the dishes?
+
+(Other than having a better memory)"
+unity,fenkl3f,t3_eq3t47,1579286684.0,"setting the camera direction in VR manually will probably be very uncomfortable for the user.
+
+Assuming I misunderstood what you want, the way you can find out a direction between two points is to subtract the starting point from the end point.
+
+So, if on frame 1 I'm at point A, and on frame 2 I'm at point B, then from frame 1 to frame 1 I've moved B-A.
+
+So a simple way to do this in unity is store your current position and the next frame subtract your new current position from your stored position.
+
+Then you need to get that direction as a rotation.
+
+<note>
+
+Quaternions are such a pain to understand and rotations can really make you (me) feel stupid so if I get this part wrong it's pretty close and I can help you debug.
+
+</ note>
+
+you should be able to get Quaterion.~~Euler~~ [LookRotation](https://docs.unity3d.com/ScriptReference/Quaternion.LookRotation.html) (currentPosition - storedPosition, Vector3.up) and set that as your new rotation."
+LosAngeles,fen6j2p,t3_epoc4x,1579278061.0,What they don't know is that hallway outlet has been charged to their bill for years...
+Mortytown,fen55mu,t3_epr3nv,1579277197.0,"I assume the toilet appearance is just a confort/familiarity thing.
+
+In reality a vacuum-like apparatus shoots waaaaaay up your *ahem* and removes any bits of digested matter which have no more nutritional value.
+
+Also it dissolves all the bits of corn and whatnot which haven't been fully chewed, so their nutrients can be absorbed. 
+
+Then it squirts just a little bit of minty freshness which is very alarming the first time, but after a day of walking around with a minty fresh colon you really get an idea of how full of shit everyone else is."
+gaming,felvr89,t1_felrb5m,1579232149.0,"Damn, am I in the wrong business?"
+todayilearned,fels67z,t1_feljngx,1579229611.0,"Somehow I read the title and ""the user"" *didn't* strike me as odd, which seems even more odd now that I reread it."
+shittyaskscience,fek38df,t3_epjoqy,1579191666.0,"Somebody told them ""Keep your head up"" so they tried to grow sky roots because they have very simple understanding of mechanical engineering.
+
+As far as *how* I think it's like growing a huge spindly fingernail."
+unity,fej734c,t1_fehmzbz,1579159627.0,"I understand this and agree, but there are a lot of us who give out free advice here on /r/unity 
+
+Sometimes the first tutorial needs to be ""how to ask for help""
+
+I usually don't correct people about these things but I understand why others do.
+
+Many would have just ignored the post and op would have no idea why nobody responded.
+
+Even though this guy was a bit too harsh, he wasn't really wrong.
+
+
+Edit: in rereading op's question, i think the guy was way too harsh, but I think you were arguing against people correcting new people in general, and I was responding to that comment, so I think it all still works."
+classicalmusic,fehr8bh,t3_eozx2a,1579122274.0,What the hell kind of clock goes 0 7 2 9 4 11 6 1 8 3 10 5!?
+unity,fef7flx,t3_eopa9e,1579049963.0,"I think this will be very hard.
+
+you might be able to set up a second camera and have that render to a texture then use that texture to... do something?
+
+I'll think about this and hopefully I can come up with something :)"
+unity,fef66fv,t3_eotcqr,1579049117.0,"I made a video about how to find a file
+
+https://www.youtube.com/watch?v=lQ8ZCN9NTE0
+
+once you have that working, you probably want a coroutine which will move your cube in your desired direction for 1 second."
+unity,fee6q03,t1_fedk6hv,1579027536.0,"This is how I would do it:
+
+    
+    ---
+    Racer.cs
+    ---
+    
+    //this component should be added to each Racer
+    //it requires a Rigidbody and a collider
+    
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+    
+    public class Racer : MonoBehaviour
+    {
+    
+    	private void OnEnable()
+    	{
+    		LapManager.instance.AddRacerToProgressKeeper(this);
+    	}
+    
+    	private void OnTriggerEnter(Collider other)
+    	{
+    		//Do something when we hit a checkpoint
+    		if (other.GetComponent<Checkpoint>())
+    		{
+    			LapManager.instance.RacerProgressReport(this, other.GetComponent<Checkpoint>());
+    		}
+    		else
+    		{
+    			Debug.Log($"" {other.name} does not have a checkpoint component"");
+    		}
+    		
+    	}
+    }
+    
+    ---
+    Checkpoint.cs
+    ---
+    
+    //this component goes on your Checkpoint
+    //it requires a collider set as a trigger
+    
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+    
+    public class Checkpoint : MonoBehaviour
+    {
+    }
+    
+    ---
+    LapManager.cs
+    ---
+    
+    
+    
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+    
+    public class LapManager : MonoBehaviour
+    {
+    	public static LapManager instance;
+    	
+      [Header(""Drag and drop your checkpoints here - in their correct order"")]
+    	[SerializeField] private List<Checkpoint> checkpoints;
+      
+      
+      //here (int, int) is a tuple the first item is the Lap, the second is the current/mostRecent checkpoint which was hit
+      //if you like you could make a struct instead
+    	Dictionary<Racer, (int, int)> racerProgress;
+    
+    	private void OnEnable()
+    	{
+    		instance = this;    
+    		racerProgress = new Dictionary<Racer, (int, int)>();
+    	}
+    
+    	public void RacerProgressReport(Racer r, Checkpoint c)
+    	{
+      	//index of might not be great, each checkpoint could be given it's idex to hold or something
+    		var hitCheckpoint = checkpoints.IndexOf(c);
+    	
+      	//get the current/most recent checkpoint hit by racer
+    		var currentRacerCP = racerProgress[r].Item2;
+    	
+      	
+    		if (hitCheckpoint == 0 && currentRacerCP == checkpoints.Count -1)	//this checks if we have hit the start/end but it also assumes that start and end will be in the same place
+    		{
+    			racerProgress[r] = (racerProgress[r].Item1 +1, 0);
+    			Debug.Log($""We done did a lap! we're now on { racerProgress[r].Item1 }"");
+    
+    		}else if (hitCheckpoint ==  currentRacerCP + 1) //currentRacerCP + 1 is the next one we should hit in sequence
+    		{
+    			racerProgress[r] = (racerProgress[r].Item1, racerProgress[r].Item2 + 1);
+    			Debug.Log($""racer {r} has hit {c}!"");
+    		}
+    		else if (hitCheckpoint <= currentRacerCP)
+    		{
+    			Debug.Log($""racer {r} has hit {c}! YOU'RE GOING BACKWARDS"");
+    		}
+    		else
+    		{
+    			Debug.Log($""racer is at: lap {racerProgress[r].Item1} checkpoint {racerProgress[r].Item2} and hit {checkpoints.IndexOf(c)}, CHEATER!!!"");
+    		}
+    	}
+    
+    	public void AddRacerToProgressKeeper(Racer r)
+    	{
+      	//might want to do some business here to make sure everything is propperly instantiated.
+    		racerProgress.Add(r, (0,-1));
+    	}
+    
+    
+    	//these are probably
+    	public void AddCheckpointToList(Checkpoint c)
+    	{
+      	//again, business to make sure everything is correct should probably be done here in production code
+    		checkpoints.Add(c);
+    	}
+    
+    	public void RemoveCheckpointFromList(Checkpoint c)
+    	{
+      	//this might not be necessary ever
+    		checkpoints.Remove(c);
+    	}
+    
+    }"
+rickandmorty,fedka95,t1_fedb28u,1579013648.0,"Really?
+
+Huh, different strokes I guess.
+
+edit: lol, my original draft of this joke-attempt was ""Really? Gives me a raging shame-bonner"", I can only imagine the downvotes I would have gotten for that!"
+unity,fedjkfh,t3_eofmp2,1579013145.0,"Make sure your colliders are marked as triggers.
+
+I recall learning about triggers and tags was a very frustrating experience.
+
+You'll probably find that there's some simple mistake you're making.
+
+Just keep at it, you'll get it :)"
+unity,fectvu0,t3_eocewy,1578984425.0,"The only visual scripting which currently comes with unity (as far as I know) are shader graph and visual effects graph.
+
+I think I heard about a visual scripting thing planned for 2020.1 so with Unity's release schedule that should be in alpha/beta in the next few months.
+
+But everything in unity alpha changes so fast (not so for documentation) that it can be a really rough and frustrating experience which requires being very active on the unity forums.
+
+But you also get to help shape how new features work which is cool :)
+
+But you're probably better off waiting until somewhere around August 2020 for a release version."
+StarWars,fe5ff8t,t3_enoga8,1578868845.0,"My dad used to subscribe to the official Star Wars magazine. I think it was called Star Wars Insider, and they had a steady trickle of concept art and what it was inspired by and whatnot.
+
+It all looked so amazing.
+
+But that was before the dark times, before... The Disney..."
+todayilearned,fe2zd4t,t1_fe2uh3d,1578844472.0,"I think many of them started their own Nations in the Caribbean where slaves could escape to freedom.
+
+But the ""crime"" of freeing slaves was charged as ""stealing"" slaves which is how the Europeans explained their destruction of attempted fledgling nations.
+
+... Or I might have gotten that from, like, assassin's Creed."
+science,fe1r23f,t3_enm7fl,1578829868.0,"Yo dawg, I heard you like tech buzzwords..."
+mildlyinteresting,fdznu69,t3_engele,1578792183.0,"Is the store called ""Target And""?"
+samharris,fdtibcr,t1_fdtg305,1578717163.0,"That's making a lot of assumptions.
+
+Many proud americans were not born in America"
+samharris,fdsk6ag,t1_fds0zp8,1578704195.0,"Right?
+
+I mean there are a bunch of places we don't think about but electricity, the telephone, the television, manned flight, moon missions, the internet, all this which happened in the us and what we totally care about in a more general sense but don't think of as ""culturally significant"".
+
+But even just the architecture in nearly every major us City mean a lot to us culturally, even those steps from Rocky are culturally significant to us, and not just from Rocky."
+shittyaskscience,fdqlx1z,t1_fdqd3m1,1578669802.0,"but now the chair is standing on the wall, what's the science behind THAT!?"
+atheism,fdpoh4r,t3_emm094,1578634647.0,"Yeah, if you put x=God, you're gonna find out that when you jumble it up God=God, OMG!!!"
+SelfAwarewolves,fdp83fu,t1_fcu38tz,1578622205.0,"I think in this scene the guy laughing actually didn't get the joke and was only laughing because he was very afraid of Joe Pesci's character.
+
+edit: though I don't remember it that clearly"
+unity,fdni65u,t1_fdnhded,1578586315.0,"Well, IMGUI coding is kind of involved, but basically you have an open statement called BeginLayoutGroup, then and end statement called EndLayoutGroup 
+
+Somehow end is being called somewhere in your project but begin is not being called. You may have been able to guess that is the case from the error message, but it's very strange that it would be happening if you didn't do it yourself.
+
+Do you have a folder in your Assets folder called ""Editor""?"
+unity,fdngz6v,t1_fdncb7d,1578585596.0,Did you copy and paste any code from anywhere?
+unity,fdnc1up,t3_emasfs,1578582550.0,"This is almost always bad advice, but unless you've been doing Custom Editor Scripting you can ignore it, and it shouldn't affect your game.
+
+Maybe try restarting, but it's has to do with how the inspector is drawing elements."
+gaming,fdn8pzm,t1_fdn79eu,1578580281.0,I think this is what I heard also.
+gaming,fdmdnly,t1_fdmd7zg,1578546529.0,"The people who bought them decided to get rid of the online video department.
+
+A few of them have moved on to much cooler things, Dan O'Brien is a writer on ""Last week tonight with John Oliver""
+
+Cody does a YouTube show called ""some more news"" I think.
+
+Everyone else is working at Weed Shops I think.
+
+Edit: I'm so glad to hear that many of them are doing well :)"
+shittyaskscience,fdm1f8e,t1_fdg1k4k,1578537524.0,"I knew a peculiar man who looked much younger that I know he was.
+
+He kept an absolutely ghastly picture in his attic, and on evenings when he and I had drank less than responsibly he would take me up to that attic and make me look at the horrid image for minutes on end in sickening silence.
+
+He tried to tell me that the painting was guilty of the most terrible sins. Sins against which the law dare not cast judgement lest the speaking of such taint the very halls of Justice themselves!
+
+Anyway, sounds like you made the right choice in going with a professional. A bad frame job just makes you look like a crazy person."
+classicalmusic,fdkwuge,t1_fdkn3hb,1578512804.0,"Jaws = Devorak, New World Symphony
+
+Star wars = Gustav Holst, The Planets"
+classicalmusic,fdk7dpb,t1_fdj6o2m,1578497763.0,"I don't think /u/Solumin is saying you should have known that this comes from Chopin so much as that it's common knowledge that:
+
+If it's one of the best parts of a John Williams composition, it's probably very similar to one of the best parts of some other composition.
+
+John Williams is like the world's fanciest mashup DJ"
+yesyesyesyesno,fdk6vus,t1_fdjngi2,1578497440.0,"Hermes, god of Sports: Celebratory hop prior to crossing the finish line!? Well that's just not cribbage!
+
+Tantalus, god of Punishment: I got this"
+evilbuildings,fdk3thm,t1_fdk1ytb,1578495380.0,"pyramids have 5 sides, you're thinking of a tetrahedron I believe
+
+...
+
+/s"
+evilbuildings,fdjepbj,t3_elmow1,1578467677.0,"This is funny architecture, for some reason I like the building when I think of it as 3 pylons as, like, a stack of triangles, but I do not like it as a 4 pylon stack of squares."
+WebVR,fdgw5xb,t1_fdeiifg,1578409821.0,"If this was made with A frame which is now based on WebXR (and had been for a while) the frame rate is only limited by hardware.
+
+It's still ""WebVR"" it's just a different API underneath."
+shittyaskscience,fdfird4,t1_fdeg8g8,1578362663.0,"Huh, I think you're doing it wrong, I framed my boss once and got thousands of dollars in reward."
+skeptic,fdetgh1,t3_ekx1m2,1578346248.0,"I think ""Epstein Didn't Kill Himself"" doesn't even have that much to do with Epstein.
+
+It's about the feeling that our system is divided among the powerful at the top and those of us lowly saps who have to pay parking tickets.
+
+Epstein died and the case against him is closed which is ridiculous.
+
+It's like if the police caught the getaway driver from a bank robbery, then the getaway driver kills himself in prison, so law enforcement stops investigating.
+
+""Epstein Didn't Kill Himself"" means ""those with extreme power in our country are abusing those powers""
+
+I think most people don't care about Epstein's death, but the fact of the matter is that many powerful people benefited from his death which means it's not just financial crimes, bribery, and the sort of things you would expect that the upper crust gets away with. 
+
+These people can rape children without consequences, and these people own our politicians.
+
+An extremely wealthy person on suicide watch committed suicide.
+
+That's pretty fishy."
+samharris,fdd0tri,t1_fdcvfu0,1578290346.0,"You read OP's question as:
+
+> ... the prima facie confusion of determinism with other concepts like fatalism or predestinarianism that no one who has actually bothered 'thinking deeply' about determinism as a philosophical concept before would ever make.
+
+I read your interpretation as:
+
+""the [first glance] confusion of determinism, with other concepts like fatalism or predestinarianism [mixed in], [which] no one who [had] actually bothered [to] '[think] deeply' about determinism, as a philosophical concept, ~~before~~ would *ever* make.""
+
+That's pretty highfalutin' if you ask me Mr. Professor, sir.
+
+It's also pretty darn glib in my opinion. 
+
+Also *very* rude.
+
+You categorized his question and answered that category of question. Kinda like a straw-man fallacy if there were teaching fallacies.
+
+I think those mix-ins which you ignored the ""fatalism or predestinarianism"" warrant conversation, even if it is the sort of thing you might scorn your students for discussing, because it's not just the ultra-abstract philosophy you're used to, it's a much more concrete question about the experience of operating a brain.
+
+But your original answer was basically ""yes, things are worth doing for reasons other than hedonistic gratification"" which is just such a ridiculously glib answer that I felt I should inform you that there was a deeper question he was trying to ask.
+
+It is my opinion that you are the one in the wrong here, despite your obvious intelligence."
+VRGaming,fdcu8jp,t1_fdcqd2c,1578284463.0,"I've mostly only used unity for VR development, but each tracked node has a name and you basically just sort them as a simple list and do things based on each position/rotation.
+
+If you didn't have the names for some reason, you will always know which one in the head, and controllers, which means you can just sort by height and make pretty accurate guesses about which nodes are which.
+
+This would break down when you have very strange poses, like if your feet are above your knees for some reason, but the rotations of each node would also give you hints.
+
+The work of tracking and identifying which nodes are which is handled by the API, and I think if you really dig into it, each device keeps track of it's own position and tells your computer, so as a developer the only overhead would be something like :
+    LeftKnee.Position = VRAPI.LeftKnee.Position
+    etc"
+LosAngeles,fdcp5ik,t1_fdccawv,1578280515.0,"not boot, Ugg."
+WTF,fdcoubl,t3_ekjvmz,1578280287.0,I'm pretty sure I heard the sages of old say that this little fella is a sign of the end times.
+unity,fdco87x,t3_ejputo,1578279835.0,"I think you have a permissions issue.
+
+It might be that when unity tries to creat a new file/folder it's silently fails because unity doesn't have permission to create a new folder.
+
+I think I had that issue before, but I haven't been doing unity in Linux in a while.
+
+There is a unity forum dedicated to unity in Linux which might have some help, but also when googling your problems with unity for Linux make sure you search for unity3d because otherwise all your results will be about Ubuntu's unity desktop."
+samharris,fdcn8lt,t1_fdcks9n,1578279115.0,"Ok, so only people who have taken more than one week of philosophy classes are welcome and everyone else should be mocked for their lack of education when attempting to engage with the topic.
+
+I'm new here too and didn't read the rules.
+
+I guess I should be in /r/samHarrisForPeopleWhoHaventTakenPhilosiphyInCollege"
+VRGaming,fdchpzd,t1_fdc3irp,1578275180.0,"I don't think this is correct.
+
+With so many trackers you don't need to do nearly at much work since there's no guessing (by which I mean complex IK) where a body part is."
+samharris,fdcgfjz,t1_fd8mf5f,1578274275.0,"Just because you can only do what you are ""programmed"" to do doesn't mean you can't try to change your programming."
+samharris,fdcfg20,t1_fdc5wyi,1578273583.0,"I think this is a philosophy sub, friend."
+VXJunkies,fdbxt2e,t3_eki1jm,1578263558.0,"Do you have a single machine which says ""VX"" on it and has a single tape bay?
+
+You might be using a AloramCo product sold during the first VX boom, they aren't totally useless but if you're using anything other than AloramCo tapes you will need to bypass ~~they're~~ their old fashioned DRM ""integrity guard"" which is a Bethany justified strip of orthogonally juxtaposed magnetic poles (that is to say 1's for n/e, 0 for s/w).
+
+You can just run a strip of ocyletine (or white out with some iron dust maybe?) Along the top edge of the tape.
+
+If you do it right and the tape didn't get destroyed in the process, the random polarity of your top edge will be random enough that you are nearly guaranteed to get at least one ""1"" and at least one ""0"" per step which should always return valid in the integrity guard."
+worldnews,fd8h07j,t1_fd7r6x1,1578218280.0,"Right?
+
+It kinda feels like they have already chosen Biden.
+
+The good o'l superdelegates and whatnot."
+samharris,fd8gdzz,t3_ek7tm5,1578218045.0,"If your fingers moved on their own, you would probably want to expend a little mental effort making sure they don't wander into your nose, mouth, and other areas... For sanitary reasons, and also to make sure you aren't seen as that person who walks around with their hands down their pants.
+
+Your current state of mind has a lot to do with your near future state of mind and if you can control your mind I believe you are likely to have a better life in general (even if only your perception of it)
+
+It's easy for many of us to dwell on thoughts which make our problems seem unsolvable, or which make us feel less valuable, if your mind is in one of these states when you need to do something, you are likely not going to act in a manner as positive as you may like.
+
+Exercising you ability to control your mental state is valuable, I believe, and meditation is an exercise in observing what your brain is currently doing, and then changing what it is currently doing.
+
+If you did find yourself in a situation where you need to control what your brain is currently doing (perhaps not allowing thoughts of how much you hate you job interfere with your ability to do that job) you'll be better equipped to handle that situation if you've had a bit of practice operating your brain on general.
+
+At least that how I see it."
+samharris,fd8d4yc,t1_fd7hro2,1578217103.0,I think op is trying to make a deeper point about the deterministic nature of thought which Harris advocates in his books.
+atheism,fd8bzzo,t3_ek26zk,1578216599.0,"It doesn't sound too me like you have stopped believing in God, but just haven't found the right group of people.
+
+You might enjoy the ""Unitarian Universalist"" if you can find a group of them near you.
+
+You could also start your own LGBTQ church group, maybe have some sort of twitch/streaming based congregation."
+worldnews,fd88dms,t1_fd3pczq,1578215166.0,"I think argumentation in general is not likely to change people's opinion.
+
+Street epistemology is interesting if you're looking for a way to change people's minds."
+gaming,fd87wxf,t3_ejytda,1578214966.0,I think this is what happens when you actually believe that you're losing because of your controller.
+MovieDetails,fd83v2o,t1_fd78o0k,1578213573.0,"""Is this how corn works?""
+
+""No""
+
+""It'd be cooler if it was"""
+unity,fd7ij8f,t3_ek5u2e,1578205087.0,"This looks to me like you're doing a bunch of stuff in code you could easily do in the editor.
+
+While you're new, I would try to keep your code minimal.
+
+I think all you really need is to apply force to your character in the up direction when you press your jump button."
+HTC_Vive,fd7hmrb,t3_ek0qxg,1578204656.0,"Just a hunch, but I would look at USB problems.
+
+You might want to check if there are any hardware updates from HP, you might be having a problem with your USB drivers.
+
+Also, try using USB 3 if you're not."
+shittyaskscience,fd72fb4,t3_ek7ivf,1578198593.0,"I think it will do this naturally.
+
+Cars these days use preservatives to prevent them from sprouting roots because once those roots dig deep into the ground, it anchors the car in place which causes them to get *really* bad gas mileage."
+OculusQuest,fd4wh1k,t3_ejxx0l,1578171690.0,4187

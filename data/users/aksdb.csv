@@ -1,0 +1,154 @@
+subreddit,self ID,parent ID,time,text
+Futurology,ff5dd9f,t1_ff59qzk,1579588191.0,"Surgery as well. They usually (have to) take out any tissue that even touched the area where the cancer is. With some forms of cancer they basically take you apart.
+
+And afterwards they poison you for months or years to keep the rogue cells down.
+
+It really is a pretty helpless reaction, yet still the best chance, unfortunately."
+Futurology,ff5d365,t1_ff5ad42,1579587888.0,"If you live longer, you will acquire other deceases or illnesses which need to be treated. Also there is still a chance for one or the other hospital visit. So keeping  people alive is also an investment.
+
+Besides that, I think that cancer (especially the fast growing ones) still leave destruction behind, even if you successfully fight it. You wouldnt notice it until you have symptoms. And symptoms mean there is already something gone very wrong.
+
+I think big pharma will keep doing just fine."
+Jokes,ff3ggmp,t1_ff3basb,1579540534.0,>That made me ~~laugh~~ harder than the joke itself!
+pics,ff2omm2,t3_er652p,1579516609.0,"Yo dawg, I heard you like illusions ..."
+Jokes,ff2gz8w,t3_er64sa,1579505714.0,Be thankful it wasn't an ouija board then.
+golang,feyukug,t3_eqy83c,1579450711.0,"Do you consider the official godoc lacking? I never had problems with how the stdlib is documented. And all of that is within code.
+Just look through the stdlib for examples."
+news,feyblu4,t1_fewncel,1579443327.0,I have a bank. I agree.
+golang,fetnbi9,t3_eqd868,1579377148.0,"For learning purposes go ahead. In a real world project you should not start with a microservice architecture right away. You will most likely fck it up since your use cases still need to take shape, but you have to deal with all the downsides of it right away (more complicated development, deployment, testing, monitoring, etc).
+
+IMHO you should always start with a modular monolith. A monolith with best possible DDD in its design can be split up relatively easy when the need arises. KISS should be applied here as well. Do not overengineer your architecture before you identified specific reasons for doing so."
+tifu,fesc7h6,t3_eqf0gs,1579363769.0,"If I left my PC without locking the screen I would find my system reconfigured and/or a chat message sent from my account to all colleagues telling them I will bring cake.
+
+Pretty effective measure to teach everyone to f\*cking lock their screen when leaving their desk. No. Matter. How. Long.
+
+(Hell, I nearly had to bring cake just for turning around a few minutes without locking my screen and someone sneaked behind me ...)"
+tifu,feqb8c8,t1_fepb1sa,1579339697.0,"""Hold on a minute while I look for the right one ... ah there it is, Susanne."""
+news,fepoqv5,t1_fepdlhp,1579326328.0,"So you are saying, as a virus I should totally avoid any reddit fame? Damn."
+linux,fenklll,t3_epw634,1579286693.0,"Oh yes, please waste space on 98% of my open windows to save space on the 2% that actually put something into the header bar."
+movies,fenja6i,t3_eq1n66,1579285893.0,"It was weird when games were released unfinished and then patched into oblivion.
+
+It feels even weirder that the same is done with movies now."
+Kotlin,fek957k,t1_fejok78,1579195195.0,Highly recommended. Both (I think; only used Micronaut so far) do DI during compile time. Which gives you a few more upfront guarantees and performs better. Also you have a chance of using Graal Native Images.
+Futurology,fehtdfl,t1_feh70d9,1579123485.0,"It is still too expansive. One ticket is currently on par with a single person owning and using his own car.
+
+So using the train is more expansive if you drive with other people (apart from a few cheap tickets if the group of people is large enough). And since it is less comfortable than an own car that brings you from door to door, there is not much incentive for car owners to give up that luxery and trade it for public transport. Yet that would be necessary to get an ecological impact."
+Kotlin,fehc43w,t3_ep1pkd,1579113506.0,"I love Kotlin when I (have to) work with the JVM. If you have good reasons to use the JVM (existing libraries, legacy code, or a specific runtime profile \[large service, long running\]) you can profit from it. Those runtime properties of the JVM can also swing back, however. While the compiler is awesome and you get really good code along your hot path, it takes time to get to that point. And unfortunately that knowledge is bound to the JVM instance. The moment you restart or spin up another instance, it starts learning from scratch.
+
+If you prefer predictive (from the start) runtime behavior and ""small"" services (the JVM has it's price regarding disk and memory), use Go (or Rust if you dare).
+
+Personally I prefer Go for most of my work when I don't have specific reasons to use the JVM, in which case I choose Kotlin over Java (or Scala, or Groovy, or ...).
+
+(Kotlin Native \*might\* get interesting down the line, but it's far from where Go currently is.)
+
+&#x200B;
+
+Edit: to shed some more light on your specific topics:
+
+* Microservices  
+I would prefer Go, since the more predictable runtime behavior helps you with horizontal scaling (due to the hot path learning curve of the JVM newly spawned instances behave different from existing ones ... so ""shifting"" a container between hosts - looking at kubernetes here - can cause weird performance drops for your clients)
+* Serverless Functions  
+Here you will mostly profit from ""interpreted"" or JIT-compiled languages. Usually NodeJS is used, but JVMs are catching up as well. Go is of course possible due to its fast compilation times, but you don't find that many providers that support it.
+* General purpose data processing  
+Streaming of data works in many languages. Java is obviously good at it (see Kafka) and you might profit from the JIT optimizations. Then again I like the CSP (channels/go routines) pattern of Go to work with data processing, so ...
+* Daemons  
+Like system level daemons? Probably Go or Rust. As low level as possible since you don't want to waste precious resources.
+* CLIs  
+Go. For the simple reason that you have all you need in the stdlib (flag parser comes to mind) and that it is *extremely* easy to cross compile statically linked binaries. So you can easily share/distribute the CLI - which is usually something you want to do with a CLI ..."
+todayilearned,fefzd3f,t1_fefwu0n,1579070448.0,"According to MadeupPedia, it is a device to store sequences of weirdly formed symbols used to transport meaning
+
+It was invented by Arthur T. Book in 1432 after he reinvented the wheel just to learn that someone else already beat him to it. To keep himself and others from similar embarrassing moments, he came up with the idea to write down and thereby transport information.
+
+Unfortunately it never really took off."
+AskReddit,feea12u,t3_eojqln,1579029483.0,"I was thinking **Billy McBride**... but if I had problems large enough for him to handle, I would probably be dead in a week. He would still win and revenge me, though."
+funny,fee9cq5,t1_fee6neo,1579029086.0,"> The internet is an incredibly useful source of information, but sometimes it feels nice to just talk to people."
+linux,fe40xbj,t3_enp56v,1578854693.0,"For me personally the worst thing is constant ""change"", that Microsoft introduced around Office 2000 and ""perfected"" with the ribbons that change depending on context.
+
+The old school menus where more or less static. Parts may have been disabled (or in the worst case hidden), but usually they were static. So once I half-way remember a click-path I can pretty easily find a functionality. I only need to know that it was ""roughly around here"" and can spot it.
+
+With ribbons however, depending on if I'm inside a table, or an image, or a paragraph or whatever some items show up bigger or smaller, in different locations, etc. So it gets incredibly hard for me to remember where functions are that I don't need regularly, where I usually just remember vague hints. Since this does not work due to the seemingly random nature, I often have to click through layers of ribbons (since there are also very small drop downs in some of them) until I finally find what I was looking for. Horrible.
+
+One of the best UX achievements - IMHO - was Sublime Text's (I think that was the first to implement it on a broader scale?) Command Palette, that is now also part of Atom, VS Code, IntelliJ (kinda) etc. Searching for stuff with a quick hotkey is just amazing.
+
+But still ... to discover functionality in a ""new program"", a well structured menu is still the best start IMHO. My perfect world would consist of optional structured menus (that can be hidden) combined with a command palette."
+Kotlin,fe3uciz,t3_enorxu,1578852972.0,"Doing that constantly. I see no other real chance of getting to use Kotlin. I rarely write new services in the Java landscape anyway, so it's either mixing it into existing projects or no Kotlin at all ¯\\\_(ツ)\_/¯
+
+So far it is a huge win. Tests are cleaner to write and the new code is so much leaner than the existing Java code. Whenever I have to do bigger refactoring on existing classes, I convert them to Kotlin in the process. So hopefully that code base will be rid of Java at some point."
+TwoXChromosomes,fe0z117,t1_fdzdtkp,1578820572.0,"That swings the other way too.
+
+I'm male, but tall and extremely slim (borderline to underweight). Its pure luck finding cloths that fit properly, because men are expected to be muscular, broad shoulders, etc."
+Jokes,fe0i38w,t1_fe082zl,1578813775.0,"where is the safety officer in this?
+and who manages these people?"
+OldSchoolCool,fe0gwcp,t1_fdzw2e5,1578813256.0,"""When I founded Reynholm Industries, I had nothing but a dream ...... and 6 million Pound."""
+UnethicalLifeProTips,fdu779h,t1_fdtedkd,1578728785.0,"""I helped the koalas several times on that trip. It was awesome."""
+mildlyinteresting,fdqq2hi,t1_fdqm039,1578672436.0,"Take my downvote as a ""yes""."
+gadgets,fdqpdtp,t1_fdpzx1x,1578672004.0,I heard cats like laser pointers...
+golang,fdmuxgu,t1_fdmqkox,1578566984.0,"Well I know about for example that one: [https://github.com/zserge/webview](https://github.com/zserge/webview)
+
+I haven't measured resource usage, though. Writing an app in plain HTML looks ugly, styling it manually will be a lot of work and the moment you start using some framework like react/angular/vue you tap into the typical JS dependency hell. So apart from resource usage I also don't like HTML/JS/CSS very much (yes, I'm a complicated case)."
+HalfLife,fdjxtaa,t1_fdjal3w,1578490878.0,I'm really not at liberty to say.
+golang,fdjp2gi,t1_fdjleu6,1578481690.0,"Still far from usable. There aren't even proper IDE integrations yet.
+
+If Alex can pull off all he intents, V will be pretty awesome. And the UI lib probably as well (since this is basically going the LCL/wxWidgets route of reusing underlying OS libs). At the moment it's still only an in-development promise, and not a readily usable product."
+golang,fdjowoe,t1_fdjjnxc,1578481473.0,"Over the holidays I was again checking the state of current UI development options.
+
+* Flutter looked nice, but current state of desktop development is still too lacking. Might be interesting down the line.
+* Qt is still kicking. Also given that I could reuse code on mobile as well (even UI code) is nice. The choice between Qml and widgets is pretty nice. I'm not a big fan of C++ though, given the hell you enter in regards to toolchain (header files, linking order, .... bah)
+* .NET with Avalonia looked nice, but out of 5 opensource tools (that use Avalonia) that I tried to get running on Linux, only one worked. All others crashed and/or complained about dependencies not being properly setup (which ... dotnet should f\*cking do on its own ... what is that package manager for?!).
+* Gioui/fyne/nuklear are nice looking at the beginning, but lack severely (yes, custom rendering everything also means you have to deal with accessibility, right-to-left, etc. etc.). They have a long way to go until they can really compete with native UI and/or Qt.
+* libui is basically going a good route, but still lacking too many controls to use it productively.
+* JavaFX is still too heavy thanks to the JVM. Looking forward to an improved GraalVM.
+
+I ended up with Lazarus/FreePascal again. Nothing beat Delphi-style-RAD so far when I wanted to write desktop applications that don't make me vomit in my mouth.
+
+(Electron and similar sh\*t can burn in hell. I really despise wasting resources by bundling and running embedded browsers for UI.)"
+mildlyinteresting,fdhqlta,t1_fdhae7y,1578428234.0,"It's ""World War: Alyx"" now. Also it needs VR."
+tifu,fdhmdg0,t1_fdh6il3,1578425712.0,"This would be one of the situations where I wished I had enough balls to just stand there serious, raise my voice asking them if we are in kindergarten and telling them that they are apparently not even mature enough to fuck themselves.
+
+Unfortunately in reality I would just blush and hate myself for the next few days."
+gaming,fdg7hjs,t1_fdftrhg,1578383215.0,"Witcher is more like ""I will just get over there real qu... oh hey a quest"""
+funny,fdd65m5,t1_fdcsw58,1578296500.0,"> well the film industry isnt exactly booming in isis territory
+
+you know what _is_ booming in ISIS territory? 
+
+villages... BOOM"
+todayilearned,fdbuct6,t1_fda8uzw,1578262139.0,One could say it was an inside pod.
+books,fcyqtan,t3_ejesly,1578085172.0,"Phew, I guess if _The Lovely Bones_ was a recent thing, Alice Sebold and/or Peter Jackson would be in jail."
+todayilearned,fcwvosd,t1_fcwn4kx,1578039569.0,Maybe she was thinking of the band?
+AskReddit,fcmpw4v,t1_fcmkltn,1577786346.0,"> I know several older Dicks
+
+Ah, a good example of why capitalization and context matter."
+explainlikeimfive,fcjxarh,t1_fcjcrzo,1577709104.0,"This is how I came, here."
+pics,fcjwona,t1_fcjv0da,1577708329.0,Hmm ... r/suspiciouslyspecific
+pics,fcji4h0,t1_fcj9935,1577688470.0,"I guess no one found the cops body, right?
+Box cutters are incredible tools."
+linux,fchrlgs,t3_eh7j1k,1577653367.0,"Not \_solely\_ Linux, but SoftMaker is developing and selling their office suite for Windows and Linux; as far as I remember it was not even available for Mac for a long time. So apparently there are enough customers to buy the Linux version to justify its development. (I am one of those customers, btw. ... I really like their office suite.)"
+news,fc7t5sh,t3_egjoqp,1577517980.0,"I am now so happy that I live in a country (Germany) where the proof of delivery is with the delivery company. Therefore they only hand it out against signature. If something is lost and it turns out they delivered it to the wrong person, they pay for it. Giving it to neighbors is fine, but they have to sign as well and the delivery guy puts a note in the recipients mailbox. If there is no neighbor the package is either redelivered or stashed in a nearby location where you can pick it up from.
+
+To optimize that even further, there are also kind of public lock boxes where you can have your package sent to. You then get a code and can go there pick it up.
+
+Then again, this shows that we trust no one... also not a good sign."
+gifs,fc50ctf,t1_fc4tj9i,1577436599.0,Why shouldn't I eat dog?
+golang,fc4wg9h,t1_fc2sthv,1577431268.0,"You are working with a document database here, not a relational one. In a document db you store denormalized data. You prefer redundancy to avoid having to join anything. In the preferred case you reach into the db, get a document and immediately serve it to the client.
+
+That is not suitable for every usecase of course. If your datastructure is better off normalized and with joins, use an RDBMS (postgresql or cockroachdb come to mind)."
+elderscrollsonline,fc4vsoe,t1_fc4sw29,1577430449.0,"The joke is, that there is nothing better at the moment if you want lore and story with reasonable mechanics and graphics."
+golang,fc11o9r,t1_fc0ycro,1577305714.0,"Well, yes and no. The way ""JIT"" is interpreted in the .NET world is completely different from the JVM world. In Java code is interpreted first, then, if often used, it's C1-compiled and if a hot path is discovered it's C2-compiled.
+.NET on the other hand immediately compiles a whole assembly once it is used. Not even on class level (as far as I know), like Java does. Which - in comparison to Java - is already nearly AoT.
+
+Even more so: since at least .NET Framework 2 (maybe even since the beginning), there is `ngen` which allows to build native images. Many applications use this for ages as part of their install progress. Java kinda had this for some time in the Dalvik VM, but not the mainstream Java. (and still not as long as .NET framework)"
+golang,fc0v4ck,t1_fc0r5ki,1577300436.0,"Mocks are the way to go. The actual storage layer is used through an interface so I can replace it with a mocked version in the test setup. The Inversion of control pattern comes in helpful here.
+
+For mocking I usually use gomock. But there are other libs and code gens that work as well. Or you just do it manually."
+golang,fc0rjmp,t1_fbyhs62,1577297934.0,".NET was AoT right from the start. The .NET runtime immediately compiles the whole assembly into native code and even caches that. This is one of the reasons why .NET feels snappier then Java.
+
+What dotnet core is now offering is a release bundle, which basically packs the whole framework and all required assemblies into a huge binary, so the target machine needs nothing special installed."
+golang,fc0qvsn,t3_efjgpf,1577297444.0,"When I encounter a bug, I create a test to reproduce it. Then I fix it.
+That way I can easier debug locally and increase the test coverage at the same time."
+mildlyinteresting,fc0ccux,t1_fc03kid,1577286737.0,https://explosm.net/comics/1471/
+MMORPG,fbxfz8u,t1_fbxae19,1577185456.0,"There are a lot of quest lines with the same pattern of having an antagonist you are always close behind and who is arrogant as f***, yet in the end you prevail anyway. Typical hero kind of story telling. A bit too shallow for my taste. (But then again LotRO probably is the exception to the rule, not ESO. And ESO is still a good game.)"
+MMORPG,fbx57m7,t1_fbv3dav,1577169857.0,"I still regret not having bought lifetime membership back when LotRO started.
+
+I'm still sad they went for the F2P-model. The game was so nice but F2P ruined it. I would even pay VIP, but something just feels off. Now I have to survive with ESO until some other ""story"" driven MMORPG in a setting I like comes along. (I despise the story telling in ESO, most stuff is utterly dumb. But it's still better than most competitors - LotRO aside.)"
+AskReddit,fbv9vwq,t3_eeki65,1577127735.0,"Matching the season: ""Last Christmas"" is a total mismatch for the occasions it is now used in.
+That song is about a broken heart and someone looking for love. Not exactly as cheerful as the melody implies. And also not very related to Christmas as a holiday."

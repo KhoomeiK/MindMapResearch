@@ -1,0 +1,288 @@
+subreddit,self ID,parent ID,time,text
+HitBoxPorn,ffy7qch,t1_ffvhhrh,1580340195.0,If I had the time and there were more players I would play that game forever. It’s amazing.
+aww,ffwbll4,t1_ffw98rx,1580294094.0,I love you abstractly
+aww,ffw5gav,t1_ffvi0uz,1580285200.0,Yeah. Fuck this shit
+dankmemes,ffvj19z,t1_ffv9s88,1580265265.0,"I think I'll take NASA's word over yours.
+
+https://climate.nasa.gov/evidence/
+
+If you don't think billions of people burning shit non-stop is going to have negative consequences I don't what to tell you."
+nextfuckinglevel,ffr8czf,t1_ffr3k6p,1580152669.0,"So, it’s not true 3D. There’s ways to get real 3D into AE via element 3D and stuff but it’s all pretty clunky. 
+
+But what AE has are a toggle switch on layers that look like a 3D box. When you click that your layer now have new properties. Z position and rotation.
+
+You still can’t do anything however until you bring in a camera form the layer menu. Now when you move that camera around your layer will move in “3D”. 
+
+It’s really better to think of sheets of layer then actual 3D. Nonetheless you can do cool stuff which is all basically old school Disney was doing. Just tons of layers and parallax movement. 
+
+Anyhow I will say this: compares to actual 3D programs AE’s camera and 3D are absolute trash. Really not fun to work with. You use a real 3D program and you’ll want to punch AE in the dick."
+nextfuckinglevel,ffqpu4s,t1_ffqip1f,1580140837.0,Good ol' Trapcode
+dankmemes,ffqdmsz,t1_ffqamq4,1580131393.0,Honestly my biggest concern is the environment.  People will overcome I think racism and all that shit eventually.  But if the earth is fucked it won't much matter.
+nextfuckinglevel,ffqdkwn,t1_ffqa5zw,1580131345.0,People always wonder why stuff costs so much.  Until you start actually doing it you don't realize how every single little thing has to be accounted for.
+nextfuckinglevel,ffqa0uw,t1_ffq78a2,1580127699.0,"I'm sure there are plenty of high end methods for some automated stuff but I don't think you can get around doing some by hand.  I mean there are aspects of the manual stuff that assists you...but I haven't yet seen a one button push solution.  
+
+I mean...if it exists, this program wouldn't be viable
+
+https://borisfx.com/products/silhouette/"
+nextfuckinglevel,ffq63ic,t1_ffq5uum,1580122514.0,"You clearly also AE.
+
+Dude, I have such a profound love/hate relationship with this program I probably should seek couples therapy.  It's gotten to the point where I've been in direct contact with plugin devs about weird memory leaks and shit.
+
+Getting this goddamn program to be even usable without tearing your hair out has cost me literally thousands in scripts/plugins.
+
+I mean...I haven't added it up but its gotta be somewhere around there.  
+
+Just tonight I had all these markers in the composition and I (long story) needed to shift them all the same amount further down the timeline.  AE has NO FUCKING way of doing that.  Sure, there are scripts to do that with markers on layers..but not in the comp itself.  
+
+It's death from a thousand cuts.
+
+On top of that when I started fucking around with Cinema 4D more I was like ""ohhh, right...THIS is how a fucking 3d camera should work.""
+
+*cry*"
+nextfuckinglevel,ffq4m4p,t1_ffq4gsx,1580120192.0,"If you search for Rotoscoping with Mocha you should find some stuff.  The cool thing about Mocha is that there is a free version that comes bundled with After Effects.  I will NEVER rotoscope in AE directly again unless for some content aware fill that recently came out.  That can be handy for some stuff.  Though, that's more about removal than isolation."
+dankmemes,ffq4iun,t1_ffq4egj,1580120042.0,"By no means is the world perfect.  And it is definitely worse in some places then others.  I still think things have GENERALLY improved.  That doesn't mean that the fuckers won't keep trying to roll shit back.  You know, like Trump with the environment and what not..."
+dankmemes,ffq2xm6,t1_ffq2n0h,1580117481.0,Then we should work towards improving that next.  At some point let's hope we fight for corporate accountability.
+dankmemes,ffq2k3d,t1_ffq201j,1580116887.0,"wrong:
+
+1) child labor, gone.  In the US at least.
+
+2) slavery gone. In the US at least (unless you count prisons to some degree)
+
+3) workers rights (improved)
+
+etc etc etc.
+
+It's easy to think things haven't improved but they definitely have.  There is always a fight though and there are always shitbags like Trump and his greedy fuck friends trying to fuck over the little guy.  Now is not the time to be cynical and defeatist.
+
+EDIT: Look my dudes, I get it.  Shit is still fucked up and my stupid country the US doesn't represent the world.  That being said, I'm sorry, I don't think the world is as gnarly OVERALL as it was hundreds of years ago.  From what I understand war is down but we have such exposure to negative news all the time you wouldn't think so.
+
+Perhaps I'm being naive...but hey, I mean...blacks are allowed sit anywhere on the bus.  And you know what, maybe blacks are getting fucked in other ways, but Jesus...it's still an improvement.  I think if all y'all had a time machine and could jump back you would appreciate we're we are a little more...even as jacked as shit still is."
+nextfuckinglevel,ffpyqyv,t1_ffpy2dx,1580111317.0,"For rotoscoping, frame by frame masking of elements, you would much MUCH rather do it with Mocha and/or Silhouette.  I'm decent at Mocha but just starting to learn Silhouette.  Silhouette is made strictly for Rotoscoping.  I got the two programs on sale and it came to 2,000 if that says anything.
+
+For masking out a single image I would likely use Photoshop and then import into After Effects unless the image was really simple, then I would just mask it out in After Effects.
+
+The deal with rotoscoping is that the mask in After Effects are SUPER FUCKING ANNOYING to use.  The points are hard to select and it's overall just not great.  Mocha is much better.  And when you are doing a frame by frame masking and your subject is moving around in the frame you really want to be tracking the object, stabilizing it, and then masking it out.  So, with Mocha you would create a track, and then your mask you would ""link"" to that track.  The motion of your mask follows that track and then you juts focus on drawing the shape of your subjects shifting geometry.
+
+Generally, rotoscoping is kind of like janitorial work in VFX.  You have to be patient and thoughtful in how to approach it and some shots are much harder than others.  But if you know how to do it you can do it much quicker than someone new to it."
+nextfuckinglevel,ffpxyhb,t1_ffpxu6v,1580110282.0,Cool!  Glad to hear it!  It's fun to share this stuff.  I've learned pretty much everything from people online so it's encouraged me to share :)
+nextfuckinglevel,ffpxjer,t1_ffpwxc4,1580109746.0,"Some people are faster than others but this took hours at least.  But there are always ways to speed things up with various plugins and what not, like for say duplicating the church parts and creating animated arrays or whatever.
+
+But the really time consuming part is imagine you take a photograph and it's got 6 people in it and behind them is say a bunch of people in a restaurant.  And I say take this photo and with some scissors I want you to cut out two people out of the photo.
+
+Well, you can't cut too close to the person because you will cut into to them...and you can't cut to far from the edge because they will then have a border around them from the background.
+
+The more complex the edges of the figures the more precision is needed.  
+
+Then, let's say your character has something obscuring him a little bit...like say someone else's arm.  Well, now you have to cut that out but now you have a hole in your character.  So, then you have to ""clone"" parts of your character to fill that gap.  
+
+So, let's say you now have perfectly cut your figure out.  Well, now you have to start animating it.  You have to apply the puppet tool (or other means actually) and then you tweak, delete shit that doesn't work, start again, tweak more, see how it looks.  Great, you have it rigged but now you actually have to start animating it.  So you manipulate the points on the puppet mesh...but you have to time it right or it looks un-natural.  
+
+Then you have to time those puppet pin tools to the camera you're moving in through the space.
+
+oh, did I mention that the puppet tool doesn't like being turned into a 3d later inside of After Effects?  Well then, now you have to turn the puppet tool layer into a ""precomp"" which collapses it into a nested layer.  And now if you want to re-adjust any of those puppet tools you have to double click and go inside the precomp layer.  Want to adjust your camera again?  Well, you have to click out the precomp layer and then back into the layer with your camera.
+
+It is just a shit ton of little things, and tons of little gotchyas and frustrations that add up.  And this doesn't include various effects that can all be keyframed and animated.  Like the rotating of the church elements, lighting effects, and whatever else.
+
+This is a relatively simple animation I'm literally working on right now.  These are layers of trees, and grass, etc.  It gets complicated quick if you aren't super organized:
+
+https://imgur.com/a/ua5uByV
+
+And here's me doing a tutorial on me masking out some stuff for a player aid for a board game in photoshop.  There are always a million ways to do things.
+
+https://youtu.be/ok-nuMnjtzc?t=452"
+nextfuckinglevel,ffpwdax,t1_ffpu0qj,1580108308.0,"It 100% is After Effects.  How it's done:
+
+1) Mask out the figures in either Photoshop or within After Effects. 
+
+2) Apply the puppet tool to the figures which is why you see them covered in a polygon mesh briefly.  This is how you can warp the image to emulate them moving.  It's sort of like a stretched sheet of rubber with an image printed on it
+
+3) then mask out a ton of the church elements
+
+4) Turn all layers into 3d layers (2.5 3d really) and then position it all in 3d space
+
+5) move a camera through the environment 
+
+I've done stuff like this and it is super time consuming.  I actually have a project coming up where I have to mask out a bunch of people in live video but for that I'll be using Mocha Pro and Silhouette."
+boardgames,ffo177f,t1_ffntfoi,1580073079.0,I've found that to be in the case of Lords of Vegas as well.  It seems like it's rarely worth it...at least with the people I've played with.
+HighQualityGifs,ffjucx5,t1_ffjttsl,1580007184.0,"In your defense, it's pretty fucking forgettable.  I had to Google it. ha!"
+HighQualityGifs,ffjsfcl,t1_ffja038,1580005691.0,"Not Midsommar
+
+EDIT: all kidding aside it looks like it's from Oscar Winning Film Transformers:
+
+https://www.youtube.com/watch?v=2yxNR-ZkcTQ"
+HighQualityGifs,ffj6cuj,t1_ffj0wzq,1579991525.0,Midsommar
+movies,ffhsq92,t1_ffhmpmi,1579951964.0,"I watched it illegally and still watched the shit out of it. I also live in Oakland and they shot a scene in one the local bars. I met the bartender with the short blonde hair in that scene. What kind of an asshole would I be to not finish it. 
+
+Anyways that movie was art and they gave a fuck."
+gifsthatkeepongiving,ffhs6tp,t1_ffhq9v9,1579951146.0,This video is old as shit. Predates fortnite by at least 5 years if not more
+gifsthatkeepongiving,ffhrka2,t1_ffhct7f,1579950183.0,Fuck the haters. Her moves are legit.
+movies,ffhrbm9,t1_ffglb65,1579949810.0,"100 %
+
+Oh I’m sorry, did my fucking art not meet your stupid fucking expectations?"
+AfterEffects,ffgpwnb,t1_ffezsv2,1579912056.0,it's a travesty!
+AfterEffects,ffglu2f,t1_ffgjt7l,1579909228.0,"I wouldn't say I'm being defensive as much as offering my point of view.  I think when people get really good at something, such as programming, such as you are, they overstate the simplicity of things.  I don't doubt that what you say is true.  And perhaps if I was at your level I would just bust out this tool for myself.  I have a coder friend who is top tier and he often says ""yeah, you should just learn programming, it's fun.""  And I just don't have time or interest.  So, if I'm being taking advantage of by greedy developers I guess oh well.
+
+Anyhow, congrats on working with Battleaxe.  Overlord is awesome and I really like that dude's aesthetic."
+AfterEffects,ffgjf41,t1_ffgiveg,1579907615.0,"funny you should say that because I purchased Flow and Overlord as well.  Personally I think it's up to the consumer to decide if they think a product is worth the price.  I obviously think it's worth it because I bought it.  Also, if you go to the comment section for this script the dude is answering questions, adding features, and what not.  I guess overall I just don't see $35 as all that much but maybe I'm just an idiot with my money?
+
+I'm almost tempted to pay you 35 as a test to see how long it would take you to make something equivalent!"
+AfterEffects,ffgh5sr,t1_ffggdpt,1579906129.0,"It someone hit me up and asked me to create this tool using the knowledge you just expressed I think 35.00 would be a steal. Also, many people aren’t as savvy with scripting as others. The extent of my scripting knowledge is basic loops and misc other stuff.  Also, the amount of time I personally would save just buying something and knowing it’s going to work without debugging etc is worth it as well. Then again I’ve spent literally thousands on scripts and software over the years and if it even speeds up my workflow by 5% I think it’s worth it. 
+
+Anyhow, I still don’t think this script is as simple as you described unless perhaps you’re a skilled programmer."
+AfterEffects,ffgel0i,t1_ffgdftx,1579904493.0,There are probably tutorial videos on AESCRIPTS that show off more of the features. It has like a little editor built into as well that lets you shift around markers and what not.
+AfterEffects,ffgda2o,t1_ffg9vr5,1579903678.0,It does more than just that. I dunno. You can always download a demo.
+AfterEffects,ffg76jx,t1_ffg4k7s,1579899925.0,This has quite a few features that is definitely not something easily done in scripting
+movies,fffm4wm,t1_ffflk4o,1579886927.0,"I get it. It also means that this person isn’t going to be fully engaged wondering if they should leave because the movie isn’t good enough. I mean, yes, there are exceptions if a movie is straight up awful but it’s annoying to think that someone wouldn’t give a movie enough time to build or if it was nuanced. 
+
+Anyways, I’m sleep deprived and commenting on dumb shit on Reddit.
+
+Edit: anyhow, I do get it. I’ve not finished some movies but it’s rare. But I also don’t get paid to watch movies."
+imsorryjon,fffkyuv,t1_fffjy50,1579886215.0,"Hey, whatever works. Looks cool!"
+movies,fffkx2m,t1_fffj9ur,1579886186.0,Because it feels detached from giving a shit about art and the experience. But I get why my comment would annoy people.
+imsorryjon,fffjrat,t1_fffi926,1579885461.0,What software / hardware did you use?
+movies,fffj12r,t1_fffgoxf,1579885011.0,"Yeah, I felt similarly. I didn’t love the twist but I respected them for rolling with it and doing their own thing."
+movies,fffivle,t1_fffgrtx,1579884919.0,Oh good! You won’t be able to spoil Battle Field Earth for me then!
+movies,fffip1u,t1_fffh5hw,1579884809.0,Not enough tornados.
+movies,fffila9,t1_fffh95a,1579884745.0,Gross. What lame asses.
+AfterEffects,fffhjv7,t1_fffgvpy,1579884104.0,"I use looping expressions as well haven’t used that feature with this. 
+
+I mean I guess I’ve been old school as well and that’s  generally how I’ve worked. But I have been in situations where I have a bunch of interacting layers and key frames and it’s a total bitch retiming everything. Especially when I’m on a tight deadline. 
+
+I dunno. I’m gonna keep using it and see how much it becomes part of my regular toolset."
+AfterEffects,fffehzd,t1_fffcmvq,1579882203.0,"You aren’t cutting stuff up. And complexity is one of the reasons you would be compelled to use it. As stated in another comment there is a time and place for all scripts but I’ve found this one pretty useful. 
+
+For example on this project I have various scenes represented as precomps. Inside those comps I have a series of animations that will be following a voiceover which will be inserted later.  I set markers that have in and out durations  of each animated sequence and give them a name. 
+
+Then in the master comp I bring in the audio for that scene alongside that precomp. I “extract” the markers and they are laid out on top of the precomp also revealing the duration sliders. Then it’s a matter of aligning those markers with the audio. If the audio changes I just slide the markers around. 
+
+Now, I haven’t used this a ton and I’m sure here are instances you would have to be thoughtful. I’m sure a greatly sped up or slowed down section might be weird but I tend to avoid setting the initial animations up with that much variation. If I make a 1 second tween it’s not going to be a big deal if it’s slowed or sped up a bit.
+
+Anyways, everyone’s mileage may vary and not all projects may warrant it but I’m gonna use it a ton on this current project."
+AfterEffects,fff358x,t1_fff21d0,1579874433.0,Will do!
+AfterEffects,ffezneh,t1_ffeyq5j,1579871504.0,"I know one other person off the internet who uses AE and I can’t always bug him about this kind of thing so I’m stoked there’s a community like this. 
+
+You’re welcome!"
+AfterEffects,ffezja5,t1_ffey9hv,1579871399.0,Oh yeah? I’ll check it out. Are these the same dudes who make FoxReveal? I think that’s the name. That’s cool as well.
+AfterEffects,ffewg16,t1_ffevj2e,1579868356.0,"Your points are valid and it’s likely this isn’t a solution for all scenarios. I animate mostly vector graphics and so I’m finding it useful. I was biking home from the studio and was actually thinking of cases where it could be problematic. 
+
+Also, the animations getting sped up and sped down really only happens if you change the in/out points on the markers generated by marker remap. It also has a handy editor tool to batch shift markers up and down the precomp. 
+
+Like all scripts you have to be selective and sharing projects can be problematic with almost all of them. 
+
+Thanks for your input!"
+AfterEffects,ffew5od,t1_ffevoqg,1579868048.0,My client won’t allow me to share this information.
+boardgames,ffew211,t3_et3pab,1579867938.0,"It’s my favorite 2 player game. 
+
+I’ve collected and also made my own player guides of every faction. I own all decks as well and glad I bought them all when I got the chance. 
+
+Someone hit me up recently to offer suggestions on how to make print and play versions. He’s been making some and uploading to my google drive. If you’re interested in that I’m sure print and play is very viable. Sure, it’s not the actual product but hey it’s better than nothing!
+
+Also, I compiled every single deck for play on Vassal."
+boardgames,ffevsaz,t1_ffcquow,1579867634.0,Have you considered making art?  I pretty much need it in my life.
+AfterEffects,ffepuqa,t1_ffeptdp,1579859476.0,I swear man. It’s so good. I wish this existed years ago.
+evilbuildings,ffefx68,t1_ffduo2r,1579846475.0,"When you think about how far the earth is from the sun, that is mind boggling."
+tifu,ffd0si6,t1_ffbxuqa,1579811168.0,That’s the one!
+Moviesinthemaking,ffbr15q,t1_ffbqucz,1579779311.0,You could do it for cheaper but then the story would have to support it. I love art and think we can all do amazing things. But it ain’t easy. And I can’t imagine making a feature length feature and not spending a shite ton of cash.
+tifu,ffbqyo8,t1_ffbqana,1579779221.0,"Again: that’s marketing. I have hot sauce called “insanity sauce”. But as of yet it’s only made my poops spicy, not make my tongue permanently jacked up."
+Moviesinthemaking,ffbqgb3,t1_ffbq65r,1579778557.0,"Isn’t this more or less Netflix’s jam?
+
+Whatever the case, even making a “low budget” film is a good chunk of money. And if you were using the low-fi look for your aesthetic, a la Blair Witch, etc, it’s still a major investment of time. 
+
+Anyways, I appreciate what you’re saying, and I truly think you can make a great movie with an iPhone if it’s done right and the story really works. That however is an outlier. 
+
+And shit, you also have to cast even this low budget film and people have jobs and families provided they aren’t professional actors, but you couldn’t afford those anyway. And your buddy who wants to do it for free is a shitty actor. 
+
+Oh, and he isn’t just a bad actor but he also sounds awful because your audio guy has - well, you have no real audio guy. And the bad audio you aren’t going to fix in post, because, well, that’s more time. 
+
+Any way you shake it: movies are a fuck ton of work and time. Money tends to be a part of that."
+tifu,ffbl14d,t1_ffbgxso,1579770460.0,"Yeah, at first it was kind of funny but now it’s a tied gimmick. Basically just a way to guarantee they get a reaction from the guests."
+tifu,ffbkyct,t1_ffbhr5y,1579770341.0,"Holy shit. I know people would just see it as a marketing ploy but they should put a warning on the product if it’s that diabolical. 
+
+Thank you. I now have zero curiosity of trying it."
+Moviesinthemaking,ffbfiw6,t1_ffb59hp,1579763051.0,"You say they until you start shooting something and you realize how shitty it looks because you don’t have all the stuff that is required to make it look good. We are so used to seeing well shot stuff that we take it for granted. It’s like actors; they make it look easy but a bad actor sticks out like a sore thumb. I’ve directed a bunch of short little web videos and even with just those you realize how much time and money is involved. 
+
+Every goddamn little thing has to be accounted for. It’s insane."
+Moviesinthemaking,ffbf9s3,t1_ffap8in,1579762754.0,"I live in Oakland and there was a period when traveling across the bay bridge you could see this set off in the distance in Alameda. 
+
+Also, I was wandering around Jack London area in Downtown oakland and I saw this bizarre billboard that looked real but it just said “meat” and I think it had a picture of a smiling pig or something. It just seemed off and sort of faded-greenish (if I properly recollect). Anyhow I continued wandering and then I saw from a distance this dude with long white dreadlocks that I discovered later was one of those trippy, albino twin guys.  
+
+So, I guess that area in downtown was also used from some chase scene areas and if you pay attention you can catch it."
+AfterEffects,ffat16o,t1_ff128o4,1579743813.0,The reason I'm running this update is RAM preview for me at times wouldn't stop previewing to the point where I had to force quit the application.  Hoping this helps
+ThatsInsane,ffan4au,t1_ffaax49,1579739843.0,Welcome to ~~Reddit~~ the internet.
+interestingasfuck,ff9f1y7,t1_ff8gaxw,1579711627.0,"I used to have braces and the pain I remember is after you would have them tightened every tooth was sore. The worst though was I would have these braces on my back teeth that would clamp down and bite on my cheek. Then the cheek would swell and I would bit it again. I would sometimes bite this sore in my mouth multiple times. It was the worst. 
+
+My teeth weren’t even remotely as bad as these though."
+AfterEffects,ff8guvd,t1_ff8eqr8,1579677897.0,"More than one way I’m sure
+
+1) bezier warp
+2) bones tool"
+gaming,ff7214h,t1_ff3bybf,1579639547.0,I too play rocket league
+instant_regret,ff5xrm0,t1_ff5trim,1579613726.0,Incels are real.
+instant_regret,ff5xp5i,t1_ff5rdf0,1579613668.0,Yeah that was a weird take. This woman is at a party partying. Who gives a fuck?
+HighQualityGifs,ff5xiiz,t1_ff5xdg9,1579613509.0,Everything you said is accurate.
+awfuleverything,ff2vbnm,t1_ff2cg69,1579525570.0,Nightmarish
+movies,ff2n4b5,t1_ff25nd6,1579514275.0,I doubt he was bullshitting. Think about it: this is his career. This is what he does. And he was just picked over a bunch of other talented actors. All in the room staring at him. I think he would have to be a sociopath to be faking. I seriously doubt that.
+boardgames,fexz5ph,t1_femfv1t,1579438630.0,"I wouldn't bail on Undaunted though.  It plays quick, pretty low learning curve, and is really fun.  It's also pretty cheap."
+worldpolitics,femkrtw,t1_fem0vo2,1579260494.0,I wish trickle down intelligence was a thing. Maybe then you would have some.
+Cyberpunk,feg9u4i,t1_fee1x9y,1579084009.0,"Ok, so to answer your question seriously:
+
+fill in the blanks?
+
+I mean it's fantasy.  Do you lack so much imagination that you can't construct a reason?
+
+Perhaps the humans he interacts with feel more at ease if he wears one?
+
+Perhaps it represents a company and they like they it represents it with that jacket?
+
+I mean...it's a fucking image of a robot on a fucking motorcycle...
+
+you wanna draw lines at its jacket?
+
+Anyways, sorry, I'm drunk.  Your question doesn't deserve that much bile ... but still..."
+aww,fed81c2,t1_fed45r6,1579003117.0,You are appreciated.
+VIDEOENGINEERING,febjl9q,t1_fea772p,1578959492.0,Looks pretty good. You have personal experience with these. Most ratings on b and h are good minus a few “they didn’t work at all” posts. Ha!
+VIDEOENGINEERING,fe6s3h6,t1_fe6qgow,1578902767.0,Awesome. I’ll definitely check it out. Thanks!
+VIDEOENGINEERING,fe6qciu,t1_fe6it0e,1578900457.0,Why hedge over shotput?
+VIDEOENGINEERING,fe6qbvs,t1_fe6eewe,1578900435.0,I think that must’ve been the program I saw the guy using.
+WatchPeopleDieInside,fe16c17,t1_fe0chbc,1578823039.0,it's great!
+WatchPeopleDieInside,fe1673r,t1_fe0eq12,1578823004.0,"Everyone is ""fake"" to some degree when you have a camera or mic pointing at you.  As far as I can tell Conan seems to be a decent human being."
+WatchPeopleDieInside,fe15veb,t1_fe06lvu,1578822865.0,I 100% recommend his podcast.  Good shit.
+electronics,fe0j0di,t1_fbzb3ys,1578814159.0,What sort of leds were you using?
+electronics,fe0ivo1,t1_fbzvp31,1578814097.0,The comment I was looking for.
+AfterEffects,fdzwb4c,t1_fdzs7yp,1578797345.0,"You might need to double click the image and use the roto brush in layer view?
+
+Not sure."
+AfterEffects,fdzgzdk,t3_en1ztl,1578790135.0,"I hate to be this guy, but: learn mocha. It will make your life a million times easier. The learning curve is worth it. As far as I can tell the rotobrush is garbage. It might have edge cases but I wouldn’t bother. If someone knows otherwise please let me know."
+AfterEffects,fdzg6xr,t1_fdx9nun,1578789947.0,There may be no need to hop between softwares but using photoshop would make this a million times easier. The latest release of Photoshop has insane new tools for auto selection etc. I would then just use AE for animation and maybe some light masking.
+AfterEffects,fdzfsec,t1_fdteh09,1578789803.0,What did you use to animate the robot?
+AfterEffects,fdzeg8o,t3_enfy5u,1578789430.0,"I’ve found the rotobrush in AE to be pretty bad overall. If you’re looking for a way less aggravating process and much cleaner results I would suggest using the mocha plugin which comes with AE. 
+
+basically you track any moving footage and then your masks follow that tracker. Then you animate your masks to maintain the shape. I just did a ton of it. 
+
+Anyhow, with the green brush try drawing more inside the object"
+boardgames,fduhiyx,t1_fduffju,1578733075.0,If it makes you feel better I think it makes the game better.  Feels like you have more options and it's fun to try to get new powers.  That being said I find that game overall kind of lame these days.
+boardgames,fduh7o6,t1_fdtd84a,1578732936.0,I liked the tower the one time I played it.
+Cyberpunk,fdge365,t1_fd8iv3x,1578392418.0,I just finished the latest season of the Expanse and the word cyberpunk definitely floated through my head a few times.
+Cyberpunk,fdgczxa,t1_fdfz8gr,1578390829.0,"I think that a lot of cyberpunk, whether they like it or not, were somewhat fashioned by Blade Runner and probably something like Akira, etc. 
+
+We almost need new definitions because what you described as cyberpunk should probably be a different word. The word punk also can’t be ignored, right? Punk itself has a contrarian tone built into it. 
+
+The artwork to the card game Netrunner is sort of what I’m getting from your description and though that would definitely be described as cyberpunk it’s not early as grimy as something like Blade Runner.  
+
+Fuck it. Let’s just call it all science fiction!"
+interestingasfuck,fdg73o8,t1_fdg4anv,1578382727.0,"It's a fine line I guess.  I've always hard a hard time dealing with shows and movies that sort of break the universe they've created.  For example It's the reason I had issues with the Alien 4 film.  That movie, on its own, had some interesting concepts, but it did not at all belong in the universe already established.  I guess it kind of falls into the realm of failing to keep up the suspension of disbelief.  
+
+It's not jumping the shark really, but it has that same vibe of ""what the fuck?  The Fonz jumping over a shark is just way too wacky for this show."""
+gifs,fdg36y0,t1_fdfsfor,1578378308.0,The Borg doesn’t care about drone number 83762885773.
+interestingasfuck,fdg2zd3,t1_fdfxmw4,1578378093.0,"It’s also pretty hit and miss. 
+
+I wish they could stick with a particular voice. The feral girl was fun and funny but didn’t fit their current style."
+gaming,fdfvf1o,t1_fdftyo8,1578371252.0,That's unfortunate.
+gaming,fdftjw6,t1_fdfsrwg,1578369850.0,They probably did that to force a confrontation in case all the players are too good.  YOU WILL ENJOY OUR GAME ON OUR TERMS!
+gaming,fdffqa2,t1_fdfcxlm,1578360636.0,"Oh nice!  def gonna grab that. For anyone else reading this is in the 3rd pack.
+
+EDIT: of course I already own it.  I should have known.  Also the T-shirt one is in here."
+gaming,fdfc79p,t1_fdf8e9x,1578358251.0,"Drawful is great.
+
+I also highly recommend the T-shirt war one and the Bidiots one.  Both drawing games and both really funny."
+AfterEffects,fd75dor,t1_fd2ux5t,1578199645.0,Motion 2 and flow are essentials!

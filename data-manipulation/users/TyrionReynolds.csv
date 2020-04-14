@@ -1,0 +1,333 @@
+<<<<<<< HEAD
+subreddit,self ID,parent ID,time,text
+PrequelMemes,ffazjdk,t3_esl7dw,1579748124.0,Bacta
+node,ff9rdxi,t1_ff9mcw5,1579719431.0,"Yes, exactly so! Just replace the relative url (‘/page/content’) with an absolute url (‘http://www.server.com/api/page/content’)"
+Tinder,ff9lz52,t1_ff9k79e,1579715790.0,I’m referring to them as cookers from now on.
+node,ff9luwv,t3_esf51e,1579715721.0,"Yes you can.  The only thing different about using an backend on a different server is you’ll need to type full urls for the web requests instead of just relative paths, and you’ll need to enable CORS.  
+
+By default web servers will only allow requests from the same host.  If you want your server to serve requests from another domain you’ll need to enable CORS.  It’s really easy to do with the expressjs/cors npm package, just don’t forget to do it."
+funny,ff979te,t1_ff8xklu,1579706497.0,I lived in Germany for a bit when I was in the army.  I saw a heart shaped pillow in this girls room that said “ich liebe dich”. I knew “ich liebe” was “I love” somehow but assumed “dich” was “dick”.  I was really excited and told my buddies who laughed at me and explained.
+personalfinance,ff8xfiy,t1_ff8wy6a,1579699224.0,"Ah ok, sorry for assuming.  I just thought it was like when I ask the doctor what my “friend” should do about the shampoo bottle stuck up his ass"
+personalfinance,ff8sqbc,t1_ff855sz,1579694641.0,"Come on man, the “friend” is clearly him"
+Minneapolis,ff7uiyw,t1_ff7eljd,1579658687.0,"I’m truly sorry you had a bad experience.  I’m also envious you got taken out to eat.  
+
+I’ve worked with dozens of recruiters and mostly they’re pretty interchangeable.  What sets Meghan apart is her tenacity and resolve.  I am used to not being impressed by other people, I think of myself as somebody who gets shit done at work and it’s not often I meet another person whose work ethic I respect.  Meghan made me feel lazy in comparison when I saw how hard she worked trying to get me into different roles.  I didn’t rely on her to be a technical expert because I can do that myself, but she is clearly an expert at finding a job in Minneapolis.  
+
+I have some pretty in demand skills/experience.  Meghan found my resume on LinkedIn and then managed to find somebody I knew personally, by looking at where I had worked and leveraging her own network, to ask me if I would meet her.  She never wasted my time with bullshit sales pitches but she was constantly in contact with the important stuff.  She also doesn’t seem to ever stop working, we spoke often throughout the day and well until the night when she was working to place me.  I really felt like she was fighting as hard as she could for me, which is not a feeling I’ve ever had with another recruiter."
+Minneapolis,ff7dfgx,t1_ff7d3hs,1579646988.0,"I can’t speak for the whole organization, but Meaghan is great."
+Minneapolis,ff79wh2,t3_es0tsw,1579644163.0,Meaghan Tharaldson at ICS (Infinity Consulting).  I don’t want to post her number or email on Reddit but if you DM me I can help you contact her.
+insaneparents,ff6jk98,t1_ff6c3hg,1579628567.0,"Is IQ correlated with conspiracy theory belief?
+
+Don’t get me wrong, I think they’re idiots but I believe that I read that conspiracy theory belief happens in some highly intelligent people too.  What makes somebody susceptible to conspiracy theories is a tendency to illusory pattern perception.  Other studies have called it a willingness to use intuition instead of rationality in forming a belief."
+gameofthrones,ff6i5ad,t1_ff6a2e2,1579627708.0,"Yeah Sansa was just a kid.  She didn’t look like a woman to me until the last couple seasons.
+
+I feel like Natalie Dormer wouldn’t be able to turn down the sexy enough to play a kid."
+personalfinance,ff6clk5,t1_ff676ha,1579624261.0,In a class action suit where there WAS money left over it would usually be divided among the people who are part of the suit so everybody would get more money.  I’ve been part of a few class actions where I got more than the expected payout.
+pics,ff67hyw,t1_ff66b5k,1579620967.0,I don’t only Reddit.  Sometimes I stare at the wall or cry softly.
+learnjavascript,ff64nrp,t3_erv0du,1579619032.0,"A few things:
+
+1) repomgr.square.com doesn’t resolve for me.  Is that a private NPM registry? On your companies internal network or something? If so does your company have a team you could reach out to that knows the architecture?
+
+2) that error is from an OrientDB instance on a Java server.  It means that a thread tried to modify a record that was already locked.  If the server isn’t broken it might have just been a temporary error.  So try again. 
+
+3) If you aren’t purposefully trying to reach a  private NPM registry and the error is still happening every time you try you can delete package-lock.json and the node_modules directory.  Run npm config get registry to see what it’s set to.  It’s probably set to repomgr.square.com.  If that’s not what you want it to be you can run npm set registry https://registry.npmjs.com/.  That will set it back to the public npm registry.  Try npm install again now. 
+
+If you do work in a large company with a private NPM registry then registry.npm.js might be blocked at a network level.  You could get around that by pairing your laptop with your cell phone if you just need to get something done fast.  But if you’re supposed to be using a private registry and you start pulling in packages from public and bypassing your company firewall you may get in trouble so make sure you’ve checked option 1 before checking option 3."
+Tinder,ff5zf4p,t1_ff5qgd1,1579615101.0,Joking is racist
+OldSchoolCool,ff5z74p,t1_ff5ml98,1579614919.0,"I’ve only shot shotguns a few times but we made sure to hold them tightly against our shoulders to control recoil.  If she fired it from the hip like she has it I think it would be really hard to control.  I assume this was just for the picture so her face was visible.
+
+Edit:  just saw you said “with those shoes”.  I have never fired a shotgun in heels or even worn heels so I can’t help you there."
+OutOfTheLoop,ff5ysiv,t3_ert2hd,1579614591.0,I live in the US and I had never heard of this happening.  Interesting!
+iamatotalpieceofshit,ff5ydor,t1_ff5f4rp,1579614248.0,"Our banking is definitely behind but checks are very uncommon here.  Many places don’t offer paper checks for payment.  I haven’t ever worked anywhere that doesn’t offer direct deposit.  I’m a software engineer now but 15 years ago I was a waiter and I still got my checks by direct deposit then.  I remember working minimum wage jobs that didn’t offer paper checks and if you didn’t have a bank account you had to use a debit card they gave you to receive your pay (their debit card was loaded with fees).
+
+We don’t get checkbooks with our bank accounts anymore (used to be part of opening an account) but you can still buy checks if you want.  I bought some that I’ve used to pay some payments at my son’s daycare because I misunderstood when he first started going there and I thought they didn’t have electronic payment.
+
+Other than that it’s only older people who use them here too.  My parents send me and my son checks for our birthdays.  I think the only checks I’ve cashed in the last 5-10 years other than from my parents have been for unexpected things like class action lawsuit settlements or an investment account closing out."
+shittyadvice,ff5785p,t3_erpgc3,1579582242.0,r/lostredditors
+softwaregore,ff29i1g,t3_er5bvd,1579497793.0,Who the fuck shits several times a day on a regular basis?
+PrequelMemes,ff1wrom,t1_ff1ucfo,1579487951.0,"He wouldn’t need a cannon to force her, he had a light saber."
+gifs,ff1v4vy,t1_ff1psdg,1579486870.0,Holy fuck there are competing subs for that?
+HumansBeingBros,feutorx,t1_fetopyt,1579389783.0,I for sure would not cut my arm off for $5k
+Showerthoughts,feusvln,t1_fetlfkl,1579389617.0,Would that really be attempted murder? I think pointing a gun at somebody is illegal (brandishing?) but I don’t think it’s attempted murder if you don’t make an attempt to fire.
+pics,feun2ma,t1_feugrxh,1579388096.0,Don’t dead open inside
+AskReddit,feukapq,t1_fesv8rq,1579387298.0,True but being a “dry guy” has a lot of implications.  Most serial killers are dry guys.  Also Fred Durst.  And me.
+Parenting,feuifdk,t1_fesws29,1579386831.0,He sounds like a good kid.
+IAmA,feue1kh,t1_feu51ed,1579385634.0,Super salesy answer
+news,fetxyqy,t1_fetifz0,1579381154.0,"It is a natural human instinct to want to look for fault in the victim of something like this.  Believing that the victim could have prevented the situation allows us to believe that something like that couldn’t happen to us.
+
+You can reduce your risk of violent crime by avoiding strangers but you can’t prevent it.  A criminal has agency and can harm people who don’t do anything to invite harm.  In this case specifically we know that one of the adult men drugged the girl, we don’t know if she was aware she was taking drugs.  Also even if she was aware she is 14 years old, a child.  Nothing she does can make being raped by a grown man her fault."
+news,fetwdiv,t1_fetnqgk,1579380688.0,Cybersex
+funny,fetuxvg,t1_fetqwzx,1579380285.0,Found the glove salesman
+Showerthoughts,fetrsdt,t1_fetltuo,1579379158.0,What if they don’t tell me they’re gay until after we have sex?
+Showerthoughts,fetrnhq,t1_fet7tc1,1579379060.0,"I don’t think all people need a reason to hate, unfortunately.  I think for a lot of people they have the hate in their heart already and they’re looking for somebody that their social group allows them to direct their hatred towards."
+ProgrammerHumor,fetr2fr,t1_feto3c8,1579378634.0,Makes a file readable-writeable-executable by any user
+ProgrammerHumor,fetqykc,t1_fetlxnd,1579378584.0,"Really? Do you know why? Not that I would try it, I’m just curious what happens"
+gaming,fetn3y1,t1_fete7ay,1579377062.0,Breweries
+minnesota,fetflfq,t1_ferniq5,1579374973.0,"Minnesota nice criminal.  “Ope, let me just crime past you”"
+minnesota,fetfdtf,t1_feshke8,1579374897.0,Wait... how did the counter ape know what card “not you” was searching for?
+minnesota,fetex8b,t1_feshb1y,1579374738.0,"“Too damn stormy to go outside, I think I’ll just pass the time by beating up my loved ones”"
+Irony,feteipa,t3_eqdkl3,1579374602.0,In Minnesota I hear way more shade thrown at Iowa than Wisconsin
+personalfinance,fetdz5d,t1_fetcnwu,1579374398.0,The teller didn’t put it away because they hadn’t had a chance to steal the extra bills yet
+NoStupidQuestions,fess0rk,t1_fespjq9,1579368415.0,Anteaters have shaggy tails
+NoStupidQuestions,fesrx4w,t1_fesl4j2,1579368384.0,"No, between aardvarks and anteaters"
+Tinder,fesrotk,t1_ferro5a,1579368314.0,"That’s why they needed a table for 6, both their parents were there.  OP is ice cold"
+HumansBeingBros,ferxud8,t1_feqz1sh,1579359410.0,"“For a memento of this experience, please keep the letter you sent us as we do not want it”"
+HumansBeingBros,ferwral,t1_fervylu,1579359112.0,"Italics indicate action, so I think he was pausing to bitch (verb form) not calling anybody a bitch."
+OutOfTheLoop,fervzn8,t1_ferumze,1579358947.0,"*drops to knees, makes the sign of warding*
+
+Sometimes I still think I hear his cowbell, clanking slowly in the wind.  But when I turn around it’s just a different cow."
+minnesota,feoyx2a,t3_eq73ac,1579308408.0,All them humanoids failing to turn solenoids as this spheroid trips around the sun.
+antiMLM,fejqg8k,t1_fejk4mj,1579183244.0,$52.65
+antiMLM,fejqefc,t1_feiiybh,1579183204.0,"Yeah I pay my sitter $20/hr and that’s for “keep him alive until I come back, please don’t steal”"
+InsanePeopleQuora,feinmiz,t1_feibnwm,1579142749.0,Or he lied
+softwaregore,feingvz,t1_fehjhpg,1579142645.0,I think it might be a [ banglejs](https://banglejs.com)
+nottheonion,fedai3y,t1_fed8fdd,1579005704.0,Yeah but whose vag?
+nottheonion,fedaghc,t1_fed60td,1579005659.0,Came here to say “cause a bitch got to get paid”
+dataisbeautiful,febznh7,t3_eo6nrr,1578964638.0,"If you ignore the rectangular block in the Southwest the rest looks like a crude drawing of a dick ejaculating on the Appalachians.
+
+I scrolled all the way through, nobody else commented this but I’m sure we’re all thinking it."
+cursedcomments,febyyo9,t1_febmnkr,1578964475.0,With jumper cables or nah?
+PrequelMemes,fe3zkev,t1_fe3kkq5,1578854353.0,"Yes, we’re all fully erect now.  What’s next?"
+todayilearned,fe3yqdo,t1_fe3u8yj,1578854072.0,Don’t get me started on redditors.  They ruined Reddit.
+cursedcomments,fe2j5c5,t1_fe0zj0b,1578838970.0,Do you have a link to this research?  I’m mostly curious about who funded it and why
+DanielTigerConspiracy,fdxh86g,t3_enbc4t,1578768690.0,Go on...
+InsanePeopleQuora,fdvin05,t3_en4nu5,1578747806.0,This is just viral advertising for a pedo foot pic seller
+Minneapolis,fdsyyln,t3_en0kqa,1578709770.0,"Welcome! I approve of your background, ;) I’m originally from California but my family lives in Texas and I have been in Minnesota about 7 years now."
+node,fdqx26l,t3_emsr1i,1578676061.0,"NodeJS is a runtime that allows you to run JavaScript serverside.
+
+FeathersJS is a framework that runs on node.  It wraps an express http server and websockets together with a database adapter.  It makes use of generators for CRUD operations from API down to the DB so it’s very quick to get started."
+AskReddit,fdqmnww,t1_fdqbzzu,1578670288.0,Plot twist: it’s a gay porn and the women leave while the police gang bang you
+AskReddit,fdqmhgl,t1_fdqlse0,1578670170.0,Because when you fucked your girlfriend’s mom in the ass that one time she said something similar.
+personalfinance,fdqgtrz,t1_fdqgoo6,1578666317.0,I hear you.  I have had a few dogs in my life and I loved them dearly and was devastated when I lost them.  But I was never faced with paying 10k to keep them either. I’m not sure what I would have done.
+HumansBeingBros,fdqd5rf,t1_fdqawud,1578663502.0,It’s good
+node,fdqbkuv,t3_emp4hm,1578662158.0,"I’ve never done this but I’m guessing he’s talking about this?
+
+https://docs.mongodb.com/manual/tutorial/store-javascript-function-on-server
+
+If that is what he means I don’t think it’s the right tool for a migration."
+funny,fdq9kyj,t1_fdq83e0,1578660302.0,We’re also not going to use cards
+funny,fdq9irg,t1_fdq40o8,1578660244.0,By making you think there’s a carrot in their box?
+node,fdnvfro,t3_emdgm5,1578593647.0,"Node is a framework that allows you to run server side JavaScript.
+
+You will still want to use some kind of front end framework."
+movies,fdkgqbg,t1_fdk751j,1578503519.0,Same. Expected a cow cavorting around the White House.
+minnesota,fdiob2m,t1_fdimyb8,1578447364.0,Oh good.  They forgot about our small oddly shaped penises.
+Minneapolis,fdimx9w,t1_fdilhji,1578446485.0,Just like taking it from behind
+funny,fdhj7nv,t1_fdhe19d,1578423791.0,"You’re a metaphor for genital warts. 
+
+Happy cake day!"
+Showerthoughts,fd9g8if,t1_fd963nv,1578232968.0,r/TheyDidTheMath
+learnjavascript,fd0aes5,t1_fczzemx,1578116012.0,"You can await within a for loop or a while loop, or a for of loop.
+
+While loops and pop() are good for processing through a large queue.
+
+const values = [ ... ] //this is a large array of values
+const batchsize = 10
+
+while (values.length) {
+
+const promises = []
+
+//fill the array with promises, removing a value from the values array when it’s requests are made 
+for (let int i = 0;  i < batchsize; i++) {
+ promises.push(webRequestFunction(values.pop()))
+}
+
+//await the promises array
+const results = await Promise.all(promises)
+
+//pretty print data or do whatever you’re doing
+console.log(JSON.stringify(results, null, 2))
+}
+
+
+That’s the general idea, you’ll want a try catch inside the loop because if a request fails the whole promise.all will return an error.  handling it within the loop will prevent a failed request from ruining more than its own batch.  
+
+You could also have fancier logic to remove from the array once the request succeeds so that failed values get retried a certain number of times."
+learnjavascript,fczzazc,t1_fczyzsi,1578111219.0,"Ah, all right.  It wouldn’t be much harder to write to file instead of console logging if you do this in nodejs instead of browser.  Then you wouldn’t have the manual copy paste step"
+learnjavascript,fczycf1,t3_ejr1bx,1578110739.0,"I answered your questions in another post, but I reread your description and I realized this sounds like it’s for a UI application and that you’re trying to get a huge amount of data, I would guess to display?
+
+Usually the “right” way to do this would be with a window that allows lazy loading so you’re making the requests for the information you actually want to display as you want to display it.  I doubt if the hundreds and thousands of calls you’re making are giving you info you are displaying all at once. If I’m wrong and you do need all the data up front then what I described in my other post (and you in your OP) is the right way to go about it."
+learnjavascript,fczxp0w,t3_ejr1bx,1578110407.0,"You’re on the right track with batching the requests in groups and waiting for them to finish before you run the next batch.
+
+Also on the right track with promise.all most likely.   Put all the requests in an array and await the results of calling promise.all on the array.
+
+Run the next batch after promise.all returns"
+funny,fcyzgns,t1_fcywtmb,1578090512.0,Yeah I want to make sure I avoid it.  My friend too
+Tinder,fcxc5e8,t1_fcx5lbp,1578058869.0,Do you have a dollar or not?
+nottheonion,fcvwu0c,t1_fcvurs9,1578011902.0,Would you be willing to bang your mom if both that event and having heard the Reddit story were purged from your mind?
+nottheonion,fcvwprt,t1_fcvmhfz,1578011823.0,A webzine catering to a cadre of readers so elite they have to know about the sex (and particularly incest) related news stories hours or even days before the rest of the planet.   It gives them time to act.
+todayilearned,fcvmv9r,t1_fcvd1gm,1578005515.0,Just as zombie hitler was developing a taste for brains
+pics,fcr65zg,t1_fcqyvh1,1577897355.0,I fucked him
+pics,fcn25f9,t1_fcn1yg9,1577801132.0,I’m sick of green people dominating the conversation about race
+todayilearned,fc7ba6y,t1_fc7am64,1577502473.0,What the fuck did I do?
+Tinder,fbxw6su,t1_fbxvjqd,1577202096.0,You know and then you go “...got you!”
+=======
+subreddit,self ID,parent ID,time,text
+ProgrammerHumor,fffu9mn,t1_fffte1i,1579891927.0,"I think it was the Opera team that kicked off the investigation, not Mozilla, so OP is still wrong."
+ProgrammerHumor,fffryw9,t1_fffpic2,1579890507.0,You are correct about all that happening but I think he was talking about [this.](https://www.computerworld.com/article/3012148/microsoft-settles-lawsuit-against-ballmer-gates-others-over-browser-ballot-blunders-732m-fine.html)
+subaru,fff2eze,t3_et5k6f,1579873860.0,Very nice! Love that model love that color
+Jokes,fff2cfl,t1_ffepcmo,1579873805.0,"One day, and that day may never come"
+PrequelMemes,ffazjdk,t3_esl7dw,1579748124.0,Bacta
+node,ff9rdxi,t1_ff9mcw5,1579719431.0,"Yes, exactly so! Just replace the relative url (â€˜/page/contentâ€™) with an absolute url (â€˜http://www.server.com/api/page/contentâ€™)"
+Tinder,ff9lz52,t1_ff9k79e,1579715790.0,Iâ€™m referring to them as cookers from now on.
+node,ff9luwv,t3_esf51e,1579715721.0,"Yes you can.  The only thing different about using an backend on a different server is youâ€™ll need to type full urls for the web requests instead of just relative paths, and youâ€™ll need to enable CORS.  
+
+By default web servers will only allow requests from the same host.  If you want your server to serve requests from another domain youâ€™ll need to enable CORS.  Itâ€™s really easy to do with the expressjs/cors npm package, just donâ€™t forget to do it."
+funny,ff979te,t1_ff8xklu,1579706497.0,I lived in Germany for a bit when I was in the army.  I saw a heart shaped pillow in this girls room that said â€œich liebe dichâ€. I knew â€œich liebeâ€ was â€œI loveâ€ somehow but assumed â€œdichâ€ was â€œdickâ€.  I was really excited and told my buddies who laughed at me and explained.
+personalfinance,ff8xfiy,t1_ff8wy6a,1579699224.0,"Ah ok, sorry for assuming.  I just thought it was like when I ask the doctor what my â€œfriendâ€ should do about the shampoo bottle stuck up his ass"
+personalfinance,ff8sqbc,t1_ff855sz,1579694641.0,"Come on man, the â€œfriendâ€ is clearly him"
+Minneapolis,ff7uiyw,t1_ff7eljd,1579658687.0,"Iâ€™m truly sorry you had a bad experience.  Iâ€™m also envious you got taken out to eat.  
+
+Iâ€™ve worked with dozens of recruiters and mostly theyâ€™re pretty interchangeable.  What sets Meghan apart is her tenacity and resolve.  I am used to not being impressed by other people, I think of myself as somebody who gets shit done at work and itâ€™s not often I meet another person whose work ethic I respect.  Meghan made me feel lazy in comparison when I saw how hard she worked trying to get me into different roles.  I didnâ€™t rely on her to be a technical expert because I can do that myself, but she is clearly an expert at finding a job in Minneapolis.  
+
+I have some pretty in demand skills/experience.  Meghan found my resume on LinkedIn and then managed to find somebody I knew personally, by looking at where I had worked and leveraging her own network, to ask me if I would meet her.  She never wasted my time with bullshit sales pitches but she was constantly in contact with the important stuff.  She also doesnâ€™t seem to ever stop working, we spoke often throughout the day and well until the night when she was working to place me.  I really felt like she was fighting as hard as she could for me, which is not a feeling Iâ€™ve ever had with another recruiter."
+Minneapolis,ff7dfgx,t1_ff7d3hs,1579646988.0,"I canâ€™t speak for the whole organization, but Meaghan is great."
+Minneapolis,ff79wh2,t3_es0tsw,1579644163.0,Meaghan Tharaldson at ICS (Infinity Consulting).  I donâ€™t want to post her number or email on Reddit but if you DM me I can help you contact her.
+insaneparents,ff6jk98,t1_ff6c3hg,1579628567.0,"Is IQ correlated with conspiracy theory belief?
+
+Donâ€™t get me wrong, I think theyâ€™re idiots but I believe that I read that conspiracy theory belief happens in some highly intelligent people too.  What makes somebody susceptible to conspiracy theories is a tendency to illusory pattern perception.  Other studies have called it a willingness to use intuition instead of rationality in forming a belief."
+gameofthrones,ff6i5ad,t1_ff6a2e2,1579627708.0,"Yeah Sansa was just a kid.  She didnâ€™t look like a woman to me until the last couple seasons.
+
+I feel like Natalie Dormer wouldnâ€™t be able to turn down the sexy enough to play a kid."
+personalfinance,ff6clk5,t1_ff676ha,1579624261.0,In a class action suit where there WAS money left over it would usually be divided among the people who are part of the suit so everybody would get more money.  Iâ€™ve been part of a few class actions where I got more than the expected payout.
+pics,ff67hyw,t1_ff66b5k,1579620967.0,I donâ€™t only Reddit.  Sometimes I stare at the wall or cry softly.
+learnjavascript,ff64nrp,t3_erv0du,1579619032.0,"A few things:
+
+1) repomgr.square.com doesnâ€™t resolve for me.  Is that a private NPM registry? On your companies internal network or something? If so does your company have a team you could reach out to that knows the architecture?
+
+2) that error is from an OrientDB instance on a Java server.  It means that a thread tried to modify a record that was already locked.  If the server isnâ€™t broken it might have just been a temporary error.  So try again. 
+
+3) If you arenâ€™t purposefully trying to reach a  private NPM registry and the error is still happening every time you try you can delete package-lock.json and the node_modules directory.  Run npm config get registry to see what itâ€™s set to.  Itâ€™s probably set to repomgr.square.com.  If thatâ€™s not what you want it to be you can run npm set registry https://registry.npmjs.com/.  That will set it back to the public npm registry.  Try npm install again now. 
+
+If you do work in a large company with a private NPM registry then registry.npm.js might be blocked at a network level.  You could get around that by pairing your laptop with your cell phone if you just need to get something done fast.  But if youâ€™re supposed to be using a private registry and you start pulling in packages from public and bypassing your company firewall you may get in trouble so make sure youâ€™ve checked option 1 before checking option 3."
+Tinder,ff5zf4p,t1_ff5qgd1,1579615101.0,Joking is racist
+OldSchoolCool,ff5z74p,t1_ff5ml98,1579614919.0,"Iâ€™ve only shot shotguns a few times but we made sure to hold them tightly against our shoulders to control recoil.  If she fired it from the hip like she has it I think it would be really hard to control.  I assume this was just for the picture so her face was visible.
+
+Edit:  just saw you said â€œwith those shoesâ€.  I have never fired a shotgun in heels or even worn heels so I canâ€™t help you there."
+OutOfTheLoop,ff5ysiv,t3_ert2hd,1579614591.0,I live in the US and I had never heard of this happening.  Interesting!
+iamatotalpieceofshit,ff5ydor,t1_ff5f4rp,1579614248.0,"Our banking is definitely behind but checks are very uncommon here.  Many places donâ€™t offer paper checks for payment.  I havenâ€™t ever worked anywhere that doesnâ€™t offer direct deposit.  Iâ€™m a software engineer now but 15 years ago I was a waiter and I still got my checks by direct deposit then.  I remember working minimum wage jobs that didnâ€™t offer paper checks and if you didnâ€™t have a bank account you had to use a debit card they gave you to receive your pay (their debit card was loaded with fees).
+
+We donâ€™t get checkbooks with our bank accounts anymore (used to be part of opening an account) but you can still buy checks if you want.  I bought some that Iâ€™ve used to pay some payments at my sonâ€™s daycare because I misunderstood when he first started going there and I thought they didnâ€™t have electronic payment.
+
+Other than that itâ€™s only older people who use them here too.  My parents send me and my son checks for our birthdays.  I think the only checks Iâ€™ve cashed in the last 5-10 years other than from my parents have been for unexpected things like class action lawsuit settlements or an investment account closing out."
+shittyadvice,ff5785p,t3_erpgc3,1579582242.0,r/lostredditors
+softwaregore,ff29i1g,t3_er5bvd,1579497793.0,Who the fuck shits several times a day on a regular basis?
+PrequelMemes,ff1wrom,t1_ff1ucfo,1579487951.0,"He wouldnâ€™t need a cannon to force her, he had a light saber."
+gifs,ff1v4vy,t1_ff1psdg,1579486870.0,Holy fuck there are competing subs for that?
+HumansBeingBros,feutorx,t1_fetopyt,1579389783.0,I for sure would not cut my arm off for $5k
+Showerthoughts,feusvln,t1_fetlfkl,1579389617.0,Would that really be attempted murder? I think pointing a gun at somebody is illegal (brandishing?) but I donâ€™t think itâ€™s attempted murder if you donâ€™t make an attempt to fire.
+pics,feun2ma,t1_feugrxh,1579388096.0,Donâ€™t dead open inside
+AskReddit,feukapq,t1_fesv8rq,1579387298.0,True but being a â€œdry guyâ€ has a lot of implications.  Most serial killers are dry guys.  Also Fred Durst.  And me.
+Parenting,feuifdk,t1_fesws29,1579386831.0,He sounds like a good kid.
+IAmA,feue1kh,t1_feu51ed,1579385634.0,Super salesy answer
+news,fetxyqy,t1_fetifz0,1579381154.0,"It is a natural human instinct to want to look for fault in the victim of something like this.  Believing that the victim could have prevented the situation allows us to believe that something like that couldnâ€™t happen to us.
+
+You can reduce your risk of violent crime by avoiding strangers but you canâ€™t prevent it.  A criminal has agency and can harm people who donâ€™t do anything to invite harm.  In this case specifically we know that one of the adult men drugged the girl, we donâ€™t know if she was aware she was taking drugs.  Also even if she was aware she is 14 years old, a child.  Nothing she does can make being raped by a grown man her fault."
+news,fetwdiv,t1_fetnqgk,1579380688.0,Cybersex
+funny,fetuxvg,t1_fetqwzx,1579380285.0,Found the glove salesman
+Showerthoughts,fetrsdt,t1_fetltuo,1579379158.0,What if they donâ€™t tell me theyâ€™re gay until after we have sex?
+Showerthoughts,fetrnhq,t1_fet7tc1,1579379060.0,"I donâ€™t think all people need a reason to hate, unfortunately.  I think for a lot of people they have the hate in their heart already and theyâ€™re looking for somebody that their social group allows them to direct their hatred towards."
+ProgrammerHumor,fetr2fr,t1_feto3c8,1579378634.0,Makes a file readable-writeable-executable by any user
+ProgrammerHumor,fetqykc,t1_fetlxnd,1579378584.0,"Really? Do you know why? Not that I would try it, Iâ€™m just curious what happens"
+gaming,fetn3y1,t1_fete7ay,1579377062.0,Breweries
+minnesota,fetflfq,t1_ferniq5,1579374973.0,"Minnesota nice criminal.  â€œOpe, let me just crime past youâ€"
+minnesota,fetfdtf,t1_feshke8,1579374897.0,Wait... how did the counter ape know what card â€œnot youâ€ was searching for?
+minnesota,fetex8b,t1_feshb1y,1579374738.0,"â€œToo damn stormy to go outside, I think Iâ€™ll just pass the time by beating up my loved onesâ€"
+Irony,feteipa,t3_eqdkl3,1579374602.0,In Minnesota I hear way more shade thrown at Iowa than Wisconsin
+personalfinance,fetdz5d,t1_fetcnwu,1579374398.0,The teller didnâ€™t put it away because they hadnâ€™t had a chance to steal the extra bills yet
+NoStupidQuestions,fess0rk,t1_fespjq9,1579368415.0,Anteaters have shaggy tails
+NoStupidQuestions,fesrx4w,t1_fesl4j2,1579368384.0,"No, between aardvarks and anteaters"
+Tinder,fesrotk,t1_ferro5a,1579368314.0,"Thatâ€™s why they needed a table for 6, both their parents were there.  OP is ice cold"
+HumansBeingBros,ferxud8,t1_feqz1sh,1579359410.0,"â€œFor a memento of this experience, please keep the letter you sent us as we do not want itâ€"
+HumansBeingBros,ferwral,t1_fervylu,1579359112.0,"Italics indicate action, so I think he was pausing to bitch (verb form) not calling anybody a bitch."
+OutOfTheLoop,fervzn8,t1_ferumze,1579358947.0,"*drops to knees, makes the sign of warding*
+
+Sometimes I still think I hear his cowbell, clanking slowly in the wind.  But when I turn around itâ€™s just a different cow."
+minnesota,feoyx2a,t3_eq73ac,1579308408.0,All them humanoids failing to turn solenoids as this spheroid trips around the sun.
+antiMLM,fejqg8k,t1_fejk4mj,1579183244.0,$52.65
+antiMLM,fejqefc,t1_feiiybh,1579183204.0,"Yeah I pay my sitter $20/hr and thatâ€™s for â€œkeep him alive until I come back, please donâ€™t stealâ€"
+InsanePeopleQuora,feinmiz,t1_feibnwm,1579142749.0,Or he lied
+softwaregore,feingvz,t1_fehjhpg,1579142645.0,I think it might be a [ banglejs](https://banglejs.com)
+nottheonion,fedai3y,t1_fed8fdd,1579005704.0,Yeah but whose vag?
+nottheonion,fedaghc,t1_fed60td,1579005659.0,Came here to say â€œcause a bitch got to get paidâ€
+dataisbeautiful,febznh7,t3_eo6nrr,1578964638.0,"If you ignore the rectangular block in the Southwest the rest looks like a crude drawing of a dick ejaculating on the Appalachians.
+
+I scrolled all the way through, nobody else commented this but Iâ€™m sure weâ€™re all thinking it."
+cursedcomments,febyyo9,t1_febmnkr,1578964475.0,With jumper cables or nah?
+PrequelMemes,fe3zkev,t1_fe3kkq5,1578854353.0,"Yes, weâ€™re all fully erect now.  Whatâ€™s next?"
+todayilearned,fe3yqdo,t1_fe3u8yj,1578854072.0,Donâ€™t get me started on redditors.  They ruined Reddit.
+cursedcomments,fe2j5c5,t1_fe0zj0b,1578838970.0,Do you have a link to this research?  Iâ€™m mostly curious about who funded it and why
+DanielTigerConspiracy,fdxh86g,t3_enbc4t,1578768690.0,Go on...
+InsanePeopleQuora,fdvin05,t3_en4nu5,1578747806.0,This is just viral advertising for a pedo foot pic seller
+Minneapolis,fdsyyln,t3_en0kqa,1578709770.0,"Welcome! I approve of your background, ;) Iâ€™m originally from California but my family lives in Texas and I have been in Minnesota about 7 years now."
+node,fdqx26l,t3_emsr1i,1578676061.0,"NodeJS is a runtime that allows you to run JavaScript serverside.
+
+FeathersJS is a framework that runs on node.  It wraps an express http server and websockets together with a database adapter.  It makes use of generators for CRUD operations from API down to the DB so itâ€™s very quick to get started."
+AskReddit,fdqmnww,t1_fdqbzzu,1578670288.0,Plot twist: itâ€™s a gay porn and the women leave while the police gang bang you
+AskReddit,fdqmhgl,t1_fdqlse0,1578670170.0,Because when you fucked your girlfriendâ€™s mom in the ass that one time she said something similar.
+personalfinance,fdqgtrz,t1_fdqgoo6,1578666317.0,I hear you.  I have had a few dogs in my life and I loved them dearly and was devastated when I lost them.  But I was never faced with paying 10k to keep them either. Iâ€™m not sure what I would have done.
+HumansBeingBros,fdqd5rf,t1_fdqawud,1578663502.0,Itâ€™s good
+node,fdqbkuv,t3_emp4hm,1578662158.0,"Iâ€™ve never done this but Iâ€™m guessing heâ€™s talking about this?
+
+https://docs.mongodb.com/manual/tutorial/store-javascript-function-on-server
+
+If that is what he means I donâ€™t think itâ€™s the right tool for a migration."
+funny,fdq9kyj,t1_fdq83e0,1578660302.0,Weâ€™re also not going to use cards
+funny,fdq9irg,t1_fdq40o8,1578660244.0,By making you think thereâ€™s a carrot in their box?
+node,fdnvfro,t3_emdgm5,1578593647.0,"Node is a framework that allows you to run server side JavaScript.
+
+You will still want to use some kind of front end framework."
+movies,fdkgqbg,t1_fdk751j,1578503519.0,Same. Expected a cow cavorting around the White House.
+minnesota,fdiob2m,t1_fdimyb8,1578447364.0,Oh good.  They forgot about our small oddly shaped penises.
+Minneapolis,fdimx9w,t1_fdilhji,1578446485.0,Just like taking it from behind
+funny,fdhj7nv,t1_fdhe19d,1578423791.0,"Youâ€™re a metaphor for genital warts. 
+
+Happy cake day!"
+Showerthoughts,fd9g8if,t1_fd963nv,1578232968.0,r/TheyDidTheMath
+learnjavascript,fd0aes5,t1_fczzemx,1578116012.0,"You can await within a for loop or a while loop, or a for of loop.
+
+While loops and pop() are good for processing through a large queue.
+
+const values = [ ... ] //this is a large array of values
+const batchsize = 10
+
+while (values.length) {
+
+const promises = []
+
+//fill the array with promises, removing a value from the values array when itâ€™s requests are made 
+for (let int i = 0;  i < batchsize; i++) {
+ promises.push(webRequestFunction(values.pop()))
+}
+
+//await the promises array
+const results = await Promise.all(promises)
+
+//pretty print data or do whatever youâ€™re doing
+console.log(JSON.stringify(results, null, 2))
+}
+
+
+Thatâ€™s the general idea, youâ€™ll want a try catch inside the loop because if a request fails the whole promise.all will return an error.  handling it within the loop will prevent a failed request from ruining more than its own batch.  
+
+You could also have fancier logic to remove from the array once the request succeeds so that failed values get retried a certain number of times."
+learnjavascript,fczzazc,t1_fczyzsi,1578111219.0,"Ah, all right.  It wouldnâ€™t be much harder to write to file instead of console logging if you do this in nodejs instead of browser.  Then you wouldnâ€™t have the manual copy paste step"
+learnjavascript,fczycf1,t3_ejr1bx,1578110739.0,"I answered your questions in another post, but I reread your description and I realized this sounds like itâ€™s for a UI application and that youâ€™re trying to get a huge amount of data, I would guess to display?
+
+Usually the â€œrightâ€ way to do this would be with a window that allows lazy loading so youâ€™re making the requests for the information you actually want to display as you want to display it.  I doubt if the hundreds and thousands of calls youâ€™re making are giving you info you are displaying all at once. If Iâ€™m wrong and you do need all the data up front then what I described in my other post (and you in your OP) is the right way to go about it."
+learnjavascript,fczxp0w,t3_ejr1bx,1578110407.0,"Youâ€™re on the right track with batching the requests in groups and waiting for them to finish before you run the next batch.
+
+Also on the right track with promise.all most likely.   Put all the requests in an array and await the results of calling promise.all on the array.
+
+Run the next batch after promise.all returns"
+funny,fcyzgns,t1_fcywtmb,1578090512.0,Yeah I want to make sure I avoid it.  My friend too
+Tinder,fcxc5e8,t1_fcx5lbp,1578058869.0,Do you have a dollar or not?
+nottheonion,fcvwu0c,t1_fcvurs9,1578011902.0,Would you be willing to bang your mom if both that event and having heard the Reddit story were purged from your mind?
+nottheonion,fcvwprt,t1_fcvmhfz,1578011823.0,A webzine catering to a cadre of readers so elite they have to know about the sex (and particularly incest) related news stories hours or even days before the rest of the planet.   It gives them time to act.
+todayilearned,fcvmv9r,t1_fcvd1gm,1578005515.0,Just as zombie hitler was developing a taste for brains
+pics,fcr65zg,t1_fcqyvh1,1577897355.0,I fucked him
+pics,fcn25f9,t1_fcn1yg9,1577801132.0,Iâ€™m sick of green people dominating the conversation about race
+todayilearned,fc7ba6y,t1_fc7am64,1577502473.0,What the fuck did I do?
+Tinder,fbxw6su,t1_fbxvjqd,1577202096.0,You know and then you go â€œ...got you!â€
+>>>>>>> b2c2856e21b6decdd12b8bdccd381cae2c58ec91

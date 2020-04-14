@@ -1,0 +1,112 @@
+subreddit,self ID,parent ID,time,text
+Database,fggdjod,t1_fgg4uec,1580759611.0,"I'm not 100% sure but I think what Brent is saying is that if you have a parameter sniffing problem - that is, estimated row count is much smaller than actual - the query engine is still always going to pick the covering (non clustered) index seek. So parameter sniffing is no longer a problem that can influence the optimizer to select a bad plan."
+Database,fgg19q8,t3_ey9l28,1580752061.0,"So, the context of that section of the article is that this can occur when you don't have a (non-clustered) index that will cover your query. That means that SQL Server is going to have to use the clustered index at some point no matter what - a seek if you have a predicate on a key column; a scan if not, or if the table statistics suggest a seek would be inefficient. Key Lookup is just another way of saying ""use the nonclustered index to find my rows and then pull the data I need from the clustered index, once for each row"". Key lookups are often inefficient for large amounts of rows so the optimizer chooses (correctly) to do a scan instead."
+sysadmin,fgeoifa,t1_fgc6lft,1580704861.0,"That looked fine to me, what's the big problem? I saw a couple of things I would indent differently but nothing horrible. It's nearly organized into logical functions and well documented. 9/10."
+programming,fg76nul,t1_fg6p023,1580585249.0,Can't you change the hook so it only runs when committing to (for example) master and dev?
+HomeNetworking,fg0lvy2,t3_ew6tub,1580410419.0,"There are occasional times when it's useful to have 2.4 on its own SSID. For example, I have some smart bulbs from Costco that, in order to perform the setup, for whatever reason your phone has to be connected to the same wifi as the bulbs, and the bulbs have to be on 2.4. I think what happens is the phone initiates a p2p connection with the bulbs to supply the password and SSID, and then the bulb connects to the network. For whatever reason this doesn't work if the phone is connected to 5ghz, even if the SSID and password are the same. It sucks, but my point is there are *some* times when it's necessary.
+
+Another thing I noticed is my wife's phone would often end up sitting on the 2.4 even when 5ghz was in range and strong. This prevents that issue."
+YouShouldKnow,ffzt2qg,t3_ew59vb,1580392094.0,"Last time I looked this up, in Illinois you have to yield to vehicles merging onto a highway."
+SQLServer,ffxf101,t3_evo8sm,1580323822.0,"Just write a loop.
+
+Create a temp table and store your variables there. Change table/col names and var datatype as needed. The identity column rowid is declared as identity, so you don't need to insert to that column, it will auto increment.
+
+    CREATE TABLE #ErsatzScriptVars ([rowid] int identity, [var] varchar(100))
+    INSERT #ErsatsScriptVars ([var]) SELECT ... (Your query to get list of variable values)
+
+    DECLARE @curRow INT = 1
+    DECLARE @maxRow INT = (SELECT MAX(rowid) FROM #ErsatzScriptVars)
+
+    WHILE @curRow <= @maxRow
+    BEGIN
+    SET @var = (SELECT [var] FROM #ErsatzScriptVars WHERE rowid = @curRow)
+    (Your existing code here)
+    SET @curRow += 1
+    END
+
+The hard part is writing the text file - you can do that from SQL query, but generally the file will end up on the server, not your machine.
+
+SSIS is a bit overkill for such a simple task though. Instead I would leverage powershell and Invoke-SQLCommand with the output going to a file. You could also write your loop there instead of in SQL."
+SQLServer,ffa0v07,t3_esfbi2,1579725620.0,"Try this.
+
+Create two temp tables, one for statistics and one for periods, and each temp table will contain the key to the clustered index. 
+
+    SELECT DISTINCT <keys>
+    INTO #s_delete_keys
+    FROM STATISTICS s
+    INNER JOIN PERIODS p ON ....
+    WHERE p.Month >= ...
+
+And do the same for PERIODS keys.
+
+Then you can delete using an inner join to those temp tables, and since you're using only the clustered index keys it should be pretty quick.
+
+>There are several nonclustered indexes on `Statistics` to speed up querying, and there's a nonclustered index that just indexes `PeriodID`. According to the query plan that index is being used as part of the delete, but more than 95% of the query cost goes to the Clustered Index Delete.
+
+A delete from a nonclustered index is going to be fast because it's typically just a pointer to the clustered index rowid. The clustered delete takes longer because it is deleting the actual row data.
+
+Using a loop is a good idea if your transaction log is getting full or growing, or if you are blocking other queries. Realistically though deleting a few thousand rows should not take very long at all. Did you check both tables for triggers?"
+guitarpedals,fee620a,t3_eikqaf,1579027143.0,"I've got an old DigiTech RP360XP which has some really great tones, and I've started adding pedals now as well. I'm not sure what the best way to route the signal is though. Right now, all my patches on the RP include the amp and cab sim and other effects. The RP itself doesn't have an effects loop. However, my amp does.
+
+Right now I'm running the RP360 -> DS-1 -> Decimator -> amp in -> External cab send to mixer -> PA 
+
+But I'm wondering if there's a better way to do this and utilize the FX loop on the amp, especially as I start adding more pedals. Maybe removing the amp/cab and reverb/delay effects on my patches? Or use the amp/cab sim and reverb etc only, and put it in the effects loop after my pedals?
+
+Is it worth it to keep trying to mesh pedals and my multi-fx or should I maybe even do an A/B setup?
+
+Also I've heard that you should put the noise gate first in the chain, before distortion, but that sounds like shit and my other guitarist also thinks it's wrong. It feels wrong. Tell me it's wrong?"
+discgolf,fe6jox7,t3_envlm2,1578893101.0,"The ""Sperm"" - that would be a great name for a putter I'd buy it instantly"
+SQLServer,fe09ao8,t3_enc2k2,1578806671.0,"Your time would be better spent writing those applications as web apps as opposed to local applications, in my opinion. There's a lot more to learn up front but infinitely more flexibility in the future. C# and SQL Server are a winning combo.
+
+I don't think you should attempt to write an application in powershell. It can be done (console application at least) but you're eating soup with a fork 99% of the time. Powershell is better for things like writing tools and performing maintenance.
+
+Python might be a nice choice as well, but with less support for SQL Server's advanced features."
+OutOfTheLoop,fdluh75,t1_fdlqe01,1578532778.0,">If it's a few MB every time the app runs and it runs multiple times throughout the day that can start to add up.
+
+I would imagine there's a version check to prevent this.
+
+>Technically they could just implement version checking on known apps and only clean files if the app version is recognized by the list. That would also serve as a trigger to force an update if the app is at a version that the cleanup tool doesn't recognize. Two birds with one stone, as it were.
+
+Agreed, that could work too.
+
+>Again, the way it is described does not sound like it is working that way, which is where the concern comes in. Simple enough to fix if it's the case, but seriously why was it not designed that way in the first place?
+
+I'm not sure there's any evidence either way at this point, is there?"
+OutOfTheLoop,fdlpyrt,t1_fdkq62k,1578529712.0,"You're probably not downloading the entire database each time, but even if you are, the data would typically be implemented as simple text paths with wildcards. E.g. ```Facebook :: /Facebook/tmp/*``` and compressed to send over the wire. A few MB at most.
+
+Secondly, there's almost certainly a version check happening which still requires communication. E.g. ``` if(getVersion <> getLatestVersion) doUpdate```
+
+Thirdly, it absolutely does need to be up to date, because app developers can and do change their underlying directory structure. Of course the DB is cached on the device, otherwise the service wouldn't work without internet."
+OutOfTheLoop,fdlpbeb,t1_fdkbq7n,1578529275.0,">Its core and stated function should require no such communication.
+
+That's incorrect, sorry. In order to distinguish what is junk and what is not, a service like this needs to maintain a database of filepaths and application names to determine what can be safely discarded. Because new apps are constantly being released and the developers may change the directory structure, that database needs to be updated frequently. A good time to perform this update is right after the user has opted to perform the cleaning, because they are already expecting to wait a few seconds anyways. 
+
+So when you activate the service, it phones home to update the database. This behavior would be expected whether the service is malicious or not. 
+
+The mere presence of this connection is not itself evidence of any bad behavior."
+Windows10,fdl1cjr,t1_fdk6wkl,1578515338.0,"Win+X, Up Up Right Enter"
+YouShouldKnow,fdkmbjd,t1_fdkizcy,1578506518.0,"If there's a call that's urgent enough to prompt an officer to speed through traffic rather than going the speed limit, why would he then stop to write a speeding ticket? Seems incredibly unlikely.
+
+Edit: a downvote is not a very good counterpoint, my guy."
+YouShouldKnow,fdki8wf,t1_fdkh8hj,1578504376.0,A call urgent enough for the officer to speed through traffic but less important than writing a speeding ticket?
+askscience,fdiwlmh,t1_fdiqhbd,1578452688.0,"At high concentrations, as the proof increases, the alcohol evaporates faster and faster, so when you're near 100%, if you wipe the alcohol across a surface, it will evaporate virtually instantly. That means those surfaces don't have much exposure time and any porous areas won't be sterilized.
+
+Does this mean 70% kills more than 90%? I have no idea."
+Android,fdil9gt,t1_fdh7pgx,1578445413.0,">it doesn't explain why important, specific phone information is being shared back, which was already identified and confirmed in the other thread.
+
+Please do share any evidence of that with us. Because as far as I know, in the comments the OP admitted he actually wasn't able to decrypt anything that was sent."
+SQLServer,fdfczkq,t3_el1cp0,1578358788.0,"Do you get any output at all?
+
+I ran into something similar, I developed a crawler to enforce a file retention policy in the IDE, and there's 2 pieces to the program, one service which ""recycles"" files and another which deletes them after x days. Because both services share a lot of code, I factored that out into a module. This works great so far.
+
+I needed to show how the tool can be used (basically another tiny script calling the big daddy script with some parameters) and this works fine as well. Until you try to execute it outside the IDE. Then it doesn't work and the 2 processes can't talk to the module.
+
+It turns out that variable scoping in PS works differently than in the IDE, which is fucking useless but alright (it probably does make sense but it's frustrating). In the IDE everything more or less shares the scope of the IDE. But when executing a script normally, from PowerShell.exe or whatever, the scopes are more segregated, and some things fall into ""your"" scope and some things fall into a different scope (the module) and things quickly break.
+
+** DOT-SOURCING ** is the cure for this ailment (well probably writing the module correctly in the first place and not having everything in GLOBAL scope would be the correct fix). So yeah maybe take a look at whatever output you're getting and Google ""dot sourcing powershell"" and see where that gets you."
+git,fdfc0qm,t3_el1yi7,1578358131.0,"I have seen funny things happen when AV prevents a git command from executing under the hood. The process may just hang and so you won't get any output.
+
+Wherever the git binaries are installed on your machine should be whitelisted in your AV (if you have AV)."
+IAmA,fdecgw7,t1_fdea006,1578336004.0,"I am balding and I accept it, I keep my hair pretty short, shave it bald every few weeks, rock a big beard and I think I look great. Been bald for about 8 years.
+
+I still have dreams where I look in the mirror and have hair again. And when I wake up bald, it still hurts a little."

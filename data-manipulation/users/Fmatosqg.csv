@@ -1,0 +1,19 @@
+subreddit,self ID,parent ID,time,text
+news,ffbq6ak,t1_ffb0k7e,1579778180.0,"If you're the most powerful person in the company, if you don't know about it you don't belong there.
+
+It's their responsibility to know. Avoiding that responsibility shouldn't bring any benefit of the doubt."
+nextfuckinglevel,ff8oc9a,t3_es5w5f,1579688712.0,Banco do Brasil?
+linuxmint,ff8ghca,t1_ff6w2a5,1579677411.0,Haha if I had gold I'd give it to you
+androiddev,ff5ulsg,t3_erre46,1579610799.0,"Don't. Pass all objects as constructor parameters whenever you can. For other classes like fragment or activities make them abstract and declare the object to be injected as open or abstract. Like
+
+abstract class LibFragment: Fragment() {
+
+abstract val libRepo:LibRepo
+...
+
+
+
+Then implement the concrete class in the app project with its chosen DI.
+
+This way you don't force app developers to follow the library convention. The worse thing that can ruin my day is wanting/needing to use a lib and find out that I have to live with the decisions made by the lib developer. Most often then not they have side effects that make my life slightly worse, but after 5 or 10 libs it's out of hand."
+linuxmint,ff5tuq5,t3_erolnv,1579610031.0,No! Why?

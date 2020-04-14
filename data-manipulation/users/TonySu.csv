@@ -1,0 +1,178 @@
+subreddit,self ID,parent ID,time,text
+worldnews,ffhmafz,t1_ffhm2s1,1579942075.0,"You know exactly how the virus will mutate, sure buddy."
+worldnews,ffgy5m8,t1_ffgx3hw,1579918076.0,So this virus has 400% mortality rate and all 138 billion people in China are dead. Got it.
+programming,ffesodd,t1_fferpdf,1579863659.0,"If the input space is defined then the corners are much easier to identify, they won’t be explicitly specified but it’s a significantly easier problem than when the input space is not defined for you."
+programming,ffelsge,t1_ffcgwv8,1579853512.0,"But those corners cases are usually clearly laid out in the problem statement, they define the input you’re expected to handle. In real world applications the corner cases are usually hidden, you have to seek them out yourself, which is difficult for someone whose always had it handed to them."
+worldnews,ffe8i4o,t1_ffe3lm5,1579839594.0,"If you asked antisemites they will tell you they hate Jewish behaviours like being greedy and dishonest. If you asked white supremacists they will tell you they hate black behaviours like being lazy and savage. People are not saying “rude tourists are the worst” or “littering tourists are the worst”. They are saying “Chinese people are the worst, they have bad culture and are bad tourists.”
+
+How many obnoxious white tourists do you come across without any association of their behaviour with their race? How many polite Chinese people do you take notice of? The racism is not in hating bad behaviour, it’s associating the behaviour with ethnicity and then generalising your anger towards the whole ethnic group rather than the individuals engaged in the behaviour."
+worldnews,ffe5oo5,t1_ffe3ee6,1579837369.0,"That’s really not a huge amount of money, not even close to being considered rich enough to be above the law."
+worldnews,ffe2flt,t1_ffdu4q5,1579834944.0,">somehow not fine to say “Chinese culture isn’t compatible with most western cultures”
+
+Here's what people are actually saying
+
+* [Chinese folks have no regard for basic rules of civility and for other people.](https://www.reddit.com/r/worldnews/comments/esyk8l/chinese_tourist_says_she_took_flu_medicine_to/ffd4pp7/)
+* [Also their culture is just crazy. Cheating, as an example, is completely accepted.](https://www.reddit.com/r/worldnews/comments/esyk8l/chinese_tourist_says_she_took_flu_medicine_to/ffdvd8l/)
+* [Chinese tourists, as a rule, have no class or respect for other nations.](https://www.reddit.com/r/worldnews/comments/esyk8l/chinese_tourist_says_she_took_flu_medicine_to/ffd9wb5/)
+* [Chinese tourist are the most selfish people on earth.](https://www.reddit.com/r/worldnews/comments/esyk8l/chinese_tourist_says_she_took_flu_medicine_to/ffe0wsy/)
+* [what is it with Chinese people being good at maths and shit then go full retard on quarantine protocols.](https://www.reddit.com/r/worldnews/comments/esyk8l/chinese_tourist_says_she_took_flu_medicine_to/ffdzjoq/)
+* [Very in line with Chinese culture. Found a way to cheat and is very proud of it.](https://www.reddit.com/r/worldnews/comments/esyk8l/chinese_tourist_says_she_took_flu_medicine_to/ffddovw/)
+* [Nah it has everything to do with China. Chinese tourist are the worst and it's documented everywhere...](https://www.reddit.com/r/worldnews/comments/esyk8l/chinese_tourist_says_she_took_flu_medicine_to/ffds9c9/)
+
+>The hate for CTGs (chinese tour groups) gets stronger the closer you get to China — it’s not prejudice it’s experience.
+
+People hate Jews more the closer you get to Israel I hope you don't think that's a justification for anything."
+worldnews,ffe0vjo,t1_ffdjqvd,1579833809.0,Lol how much do you think travelling to France costs?
+DotA2,ffdzcjw,t1_ffdut84,1579832701.0,"I'm talking about when you are 1-200 units away from then and they just dump stuff on the ground, it's like 1-2 seconds of efficiency with the potential to lose 1k+ of value. Or worse, when you ask for an item, they just drop it at the camp they're farming when you're half way across the map."
+learnprogramming,ffduaea,t3_esyp09,1579829094.0,"Don't bother optimising the factor finding like the others are suggesting, the maximum number is only 40000, so you're iterating at most 200 times. Instead try to optimise the brute force on the factor sum portion, you are iterating through every combination of factors, for a number like 2520 with 48 divisors, you are iterating through 110592 possible combinations. Instead this can be approached like the coin-change problem.
+
+[https://www.geeksforgeeks.org/coin-change-dp-7/](https://www.geeksforgeeks.org/coin-change-dp-7/)
+
+However you will need to alter your stopping conditions because the coin-change problem allows a variable number of coins but you need a fixed 4."
+DotA2,ffdr61t,t1_ffdq4an,1579826926.0,It's easier because you can just drop it on the 99.99% of the screen that isn't your allied hero. But people who can't accurately move their mouse over a hero probably shouldn't be playing this game.
+manga,ffbhrgi,t1_ffako43,1579765875.0,"It was a pretty girl dual wielding swords vs jobber mcjobface, I don’t know what people were expecting."
+learnprogramming,ffb98of,t3_esoefa,1579755834.0,"Clang-format helps you with bracket placement, indentation and spreading out your parameters. However casing rules are out of scope for the tool
+
+[https://marketplace.visualstudio.com/items?itemName=xaver.clang-format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
+
+It's also not fully flexible in that you're kind of stuck with some common conventions they defined with various tweaks. For example I cannot do
+
+    void func(
+        int arg1,
+        int arg2
+    ) {
+        // function body...
+    }
+
+Which some refer to as Rust style. I think the last time I played with it the closest I could get with the provided settings was something like
+
+    void func(
+        int arg1,
+        int arg2) {
+        // function body...
+    }"
+learnprogramming,ffahcfc,t3_esf1k0,1579735755.0,"Maybe, modern C++ can be written mostly in value and reference semantics, so explicit pointer management is rarely required. But it's a course so you will mostly likely have to learn about it. 
+
+That being said, if you're serious about doing a CS degree then you better go learn this stuff even if you find it hard, pointers are required for efficient data structures and algorithms that you'll absolutely need to know if you are to complete your degree. Struggling is a part of the learning process."
+learnprogramming,ff5b1p3,t3_ermrwg,1579585770.0,[https://www.geeksforgeeks.org](https://www.geeksforgeeks.org) contains a large number of implementations.
+learnprogramming,ff2i56k,t1_ff2hbpw,1579507162.0,"In 4, you need to find the minimum number of players that need to be removed. You need to check possible paths in the way I described, and check how many players it intersects. If it is 0 then you have a solution straight away, otherwise you keep track of the minimum number of players intersected which is equal to the number that needs to be removed. The hard part in implementation is checking for intersection with players which involves intersection of segments.
+
+For 5, there is no ""knight's tour algorithm"", the knight's tour can be solved by multiple algorithms. The easiest ones to implement are greedy do not guarantee a Hamiltonian cycle (where the last move is one move away from the start), and as far as I can tell there's no easy way to modify greedy algorithms to return a cycle."
+learnprogramming,ff1kqs0,t3_er3my5,1579480761.0,"4 is very difficult. It looks a bit like [Knight's tour](https://en.wikipedia.org/wiki/Knight%27s_tour), except it requires that you end up one move away from your first step, this makes it a closed knight's tour. I implemented Warnsdorff's rule described on the Wiki page to obtain a solution that visits every square, but it does not finish one step away from the first step, so you may need to use Warnsdorff with backtracking to hopefully find a solution that ends at a desired square.
+
+5 is also quite difficult, but easier to brute force. You want to draw straight lines at small intervals between the ball and the cushion then the cushion to the goal. Then you work out which path has the least intersections with players, then you return the smallest number of intersections."
+manga,fewji2p,t1_fev8vfs,1579411883.0,No snacc at Druj’s house.
+PoliticalDiscussion,fevx6sc,t1_feuzz2s,1579402616.0,"> to call it developed compared to India is a joke.
+
+Decades of economic data disagree with you. Even if the rural conditions are the same, China’s rural population is at ~40% and India’s is at ~65%. From 1990 to 2018 India’s HDI went from 0.55 to 0.65, China went from 0.50 to 0.75. India only does “far far better” with respect to wealth inequality if you mean they are better at hoarding wealth at the top. [This report](https://www.livemint.com/Money/MML9OZRwaACyEhLzUNImnO/The-richest-1-of-Indians-now-own-584-of-wealth.html) shows them being the second worst country in terms of wealth held by the 1%, and has been trending worse for years.
+
+As a further note, thinking cherry picked photos can be used to represent a country’s economic progress is actually a joke, it’s like pullIng up photos of Skid Row to show how America is actually really poor."
+aww,fejicvw,t3_eph290,1579175561.0,Not sure if aww or nightmare fuel...
+worldnews,feg67t0,t1_feg2go6,1579078858.0,"I’m referring also to the dozen idiots who upvoted you’re dumb idea. Even in the summary you replied to it says the development was only approved weeks before they ran out of water. You reckon they built a water mine and sucked the whole region dry in a few weeks?
+
+The mine has nothing to do with why the region ran out of water, hence this article being flagged as having a misleading title. Telling people on strict water restrictions to waste all their water to protest an unbuilt mine not even connected to the public system is beyond moronic."
+worldnews,fefvr6s,t1_fef2eru,1579066775.0,"The company is mining water from their own property, turning on all the taps just exhausts the public water supply. Nice work Reddit."
+todayilearned,fecco7o,t1_fe9shmb,1578970830.0,"There are several classes of ""flat tax"", see [https://en.wikipedia.org/wiki/Flat\_tax](https://en.wikipedia.org/wiki/Flat_tax).
+
+To me the most interesting is Milton Friedman's negative income tax, [https://en.wikipedia.org/wiki/Negative\_income\_tax](https://en.wikipedia.org/wiki/Negative_income_tax). This is a composite basic income and flat tax system. An example is given
+
+* $30,000 tax deduction
+* 50% flat tax rate
+* Negative tax value results in subsidy
+
+Then if you
+
+* Earn $0, you pay no tax and get $15,000 in subsidy
+* Earn $20,000, you pay no tax and get $5000 in subsidy
+* Earn $50,000, you pay $10,000 in tax, equal to 20%
+* Earn $100,000 you pay $35,000 in tax, equal to 35%
+
+So this flat tax is effectively a progressive tax, the key point is that the system is transparent and simple. You either tweak the deduction or you tweak the tax rate, there's no other exemptions in which you can hide loopholes."
+funny,fe5riwl,t1_fe3li3b,1578873581.0,"That’s because it’s a clever camera trick, the cashier actually hops backwards out of the booth and they play this video in reverse."
+learnprogramming,fdq3c7b,t3_emo8qc,1578652835.0,"It's confusing because you're jumping in the deep end, it's not very confusing if you start from basics and work your way up. That being said, working from basics delays you being able to do interesting or useful things. I am an experienced programmer and I have the same problem with parts of my workflow, I can program all sorts of amazing programs in the languages I know, but I rely mostly on copy and pasting for configuring my build system and really have no idea how to write those lines on my own.
+
+I say you should keep hacking away at what you find fun and let that motivate you to dig deeper into the more fundamental aspects of coding."
+Rlanguage,fdlr0d5,t3_elxyo4,1578530426.0,"If you have this in a table form, I'd suggest you create a new column that is a ""tokenised"" form of the name. I would remove all whitespace, punctuation, Inc, Ltd, and other common noise elements, then make everything lowercase. This should collapse your set down significantly. You can then fix the names for presentation purposes by finding the most common untokenised name that corresponds to each token.
+
+You run the risk of wrongly clustering companies that differ only by a whitespace or a hyphenation. So you might not want to remove punctuation and whitespace if you don't have an additional method of distinguishing such companies. That of course means you won't automatically group Entertainment 720 and Entertainment720, so it depends on your own priorities."
+Games,fdgeqgl,t1_fdg3l8s,1578393340.0,Lol I’m guessing you weren’t around when Tencent got a 5% in Reddit.
+australia,fdgehan,t1_fdg8wvh,1578392978.0,"Speak for yourself, eating shit has made me incredibly robust!"
+fiaustralia,fdgcpga,t3_el9985,1578390393.0,"The ETF and Wholesale funds are two different things. VDHG is sold as shares on the ASX, the wholesale fund is a fund managed by the Vanguard Group, you buy the shares on the stock market, but you transfer money directly to Vanguard for the fund.
+
+Research shows if you have a big lump of money you’re better off buying in one lump sum. Spreading it out over 6 months has negligible effect and may be psychologically more palatable, spreading past 6 months is detrimental to returns.
+
+I’m not an expert, but my financial intuition says that borrowing to invest in index funds is too obvious to be safely profitable. There’s no free lunch in the financial markets, you’ll have to assess whether the stocks falling 10-50% and taking 5-10 years to recover would put you under serious financial stress."
+comics,fdd9rmg,t1_fdaqhcv,1578301489.0,"If only lol Dick Cheney had a BB gun to play with when he was young, would have learned not to shoot people in the face."
+funny,fdd6wvx,t1_fdd6c1a,1578297482.0,I mean if you want to believe the US criminal justice system is one big grossly incompetent joke then all the power to you.
+funny,fdd02ag,t1_fdcs5ej,1578289556.0,"The point is that he should not have had the means to kill himself before the trial, that’s what suicide watch is about, removing the means for self harm. The fact he managed to kill himself means someone gave him the means he was not meant to have, which is tantamount to murdering him."
+fiaustralia,fdcz0q8,t3_ekmben,1578288569.0,"All else being equal, if one stock yields 6% dividends 0% growth and the other 0% dividends with 6% growth, then yes the growth stock would be more tax efficient. But reality is a lot messier, and only actual statistics will settle this debate.
+
+Fundamentally growth and dividends come from the same place, a company's profits after operating expenses. So one way for the growth to occur is for the company to have a fat bank balance, shareholders have partial ownership of this bank balance so their share value rises. Another way that is more common, is share buybacks and issuing of stock options. The company buys back a certain amount of shares, then issues options to executives for 20% of the market price. That means they took profits belonging to shareholders, bought something to resell to executives for 20% of the value. That's an enormous waste of shareholder value.
+
+The other common situation is that the bank balance encourages the company to take unnecessary risks. With a lean balance sheet the company might operate in a more careful manner, with a fatter balance sheet they might be more inclined to make risky acquisitions or otherwise waste shareholder profits. This is evidenced by many high profile failed acquisitions in the US tech sector. Apple on the other hand is just holding onto an enormous cash balance that's generating very little income and similarly being inefficient, but at least they aren't losing it.
+
+So evaluating a stock based on whether is ""dividend"" or ""growth"" is misguided, it all depends on context. CSL for example is a global pharmaceutical company, it makes sense for them to invest in growing their business, they need to be constantly spending on new research and the nature of their industry allows them to keep growing. Telstra on the other hand was a local telecommunications monopoly, do they really have much chance to grow their business in any meaningful way in Australia? It makes sense for Telstra to just sit on their monopoly and count their money with their investors, the same could be said for CBA.
+
+Ultimately the cash-reserve-inefficiency factor could outweigh the tax-efficiency factor in the broader market, the only way to tell is to crunch the numbers. But simply reasoning that growth stocks are more tax efficient is not enough to suggest better returns."
+worldnews,fdcsnt6,t1_fdcrj1n,1578283193.0,"You're so woke, too bad you woke up in your own ass.
+
+Historical cultural sites are irrecoverable symbols of a nation/people's culture and heritage. These sites outlived tens if not a hundred generations and connect new generations to their ancestors. That's why blowing them up is a war crime and systematic destruction of culture is considered a form of genocide.
+
+Maybe next time try to do some research and thinking before calling everyone else puppets."
+worldnews,fdcowqr,t1_fdcofw4,1578280336.0,Most other people have enough brain capacity to be concerned about multiple things.
+PoliticalDiscussion,fczsy1u,t1_fcz1ut1,1578108076.0,"A lot of people would be happy if Trump died, it’d still be a total shitshow if China or a Middle Eastern country assassinated him."
+programming,fczfsmm,t1_fcye378,1578100290.0,"Measuring the quality of a language by number of users is stupid, do you believe Javascript is the greatest language available right now?
+
+That code is also deliberately convoluted to demonstrate the power of the language. t. Though I heavily disagree with the code, you show me Python code that returns in the calling environment.
+
+You seem to have stopped short of actually making a coherent point in most of your paragraphs, it’s just a bunch of assertions and insults..."
+pics,fcwf9ss,t1_fcwb2ye,1578024130.0,"You’re using weasel words.
+
+> A weasel word, or anonymous authority, is an informal term for words and phrases aimed at creating an impression that something specific and meaningful has been said, when in fact only a vague or ambiguous claim has been communicated. Using weasel words may allow the audience to later deny any specific meaning if the statement is challenged, because the statement was never specific in the first place.
+
+It’s pretty clear what you’re hinting at given the context, shame you don’t have the courage to back up your position."
+pics,fcwah2f,t1_fcw0259,1578020888.0,">There needs to be more personal judgement and weighing consequences, and I think life experience helps with that.
+
+I maintain the argument that general life experience does not prepare you for public office, especially compared to achieve engagement with public policy and leadership. Having years of experience making leadership decisions, observing and engaging in the process of drafting and implementing policy is a significantly greater asset than vague generic ""life experience"".
+
+At 25 Marin was the Vice President of a 5000 member youth political group that she joined at 21. At 28 she was the chairperson of the city council of the second largest municipal area in Finland. The 4 years before her election to PM, she was a member of parliament. Now give me examples of life experiences that would better qualify a person to be a head of state.
+
+&#x200B;
+
+>the minsters might still be the best at making these judgments compared to everyone else running, but I don't think they're as good as they will be in 10 years.
+
+That's just illogical. You are willing to accept they might be best people for the jobs, but your slight against them is that you'd prefer to elect them in 10 year's time? Imagine if your clients said, ""You're the best accountant we know, but we're not sure you should do this job because you'll be better in 10 years time.""
+
+If they are the best at the job, they should get the job. If they do a good job they'll still be around for after 10 years to continue the job with more experience. What is the logic giving the job to someone who is worse at the job but older?"
+pics,fcvz1lj,t1_fcvxcrr,1578013353.0,"Would you be confident in handling accounting issues of most nature and scale? Do you know of people around your age you would trust with accounting issues of most nature and scale?
+
+Now imagine that someone had put that effort into public policy making rather than accounting. Because that's what these individuals represent, they were involved with political leadership at a young age, and have continued to be politically involved up until this point and beyond.
+
+They have plenty of older individuals advising them on matters, they don't need the experience themselves. There's basically no life experience that prepares anyone for running a country, what's required is leadership which is not correlated with a person's age."
+todayilearned,fctkuen,t1_fctgdpg,1577946950.0,"Sounds like you're backtracking what you've said. You said ""make $4m"" now it's less than that because of taxes. You said ""an austere life"", now it's only in comparison with a bigwig CEO.
+
+If you actually had $4m, investing in Vanguard Managed Payout gives 4% inflation adjusted income for the rest of your life, that means $160k of inflation adjusted income annually, while growing your $4m of capital which you can use as an emergency fund. $160k per year puts you in the top 15% of HOUSEHOLD incomes, and top 5% in net worth in the US.
+
+It's laughable to say that it's not enough to retire on or that you'd have to live an austere life with it."
+todayilearned,fctf6f9,t1_fctegfd,1577941311.0,How are you determining that $4m isn’t enough to retire on?
+television,fcoz13t,t1_fcnlx6v,1577845538.0,"Great, you’re telling me terminators are going to have Spiderman in their army..."
+AskStatistics,fcd443t,t3_egqez7,1577606115.0,"The sum of random variables is not equal to the multiplication of a single random variable.
+
+The sum of two dice rolls is not the same as double a single dice roll."
+worldnews,fc7fmvm,t1_fc7efk2,1577505982.0,"IP protection is not a concept that exists in the military sphere, militaries around the world don’t register patents with designs of their weapons and asks people to pay them royalties if they use similar design. If Israel sells US weapons to China, they are selling any technological developments that can be reverse engineered from those weapons."
+todayilearned,fc6w349,t1_fc6thpi,1577490993.0,"You post their funny chinglish menu on Facebook/twitter, they get free advertising, you’re not really going to struggle with your order and will still pay for your food."
+worldnews,fc564xu,t1_fc54gnn,1577445181.0,"Concentration camps aren’t about concentrating or camping you know? Re-education camps are a their own thing and has always involved torture, they were used in the cultural revolution for torturing the landlords and merchants until they saw the light of communism.
+
+Concentration camp doesn’t even mean torture, the US has concentration camps for the Japanese and currently have them for migrant children. That’s why the Nazi camps are referred to as death camps or extermination camps, to distinguish from other forms of concentration camps."
+worldnews,fc4rozq,t1_fc4bml6,1577425940.0,"I don’t know why people keep saying this, re-education camps are a form of concentration camp. Re-education camps have history in the cultural revolution, they are bad and don’t need to be renamed."
+technology,fc3v7rz,t3_eful2z,1577399481.0,"Did anyone actually read the article and wants to discuss the contents?
+
+Of the claimed $75b of support, $46b is in loans, $25b in tax breaks. The major banks in China are all state owned, so if you have any sizeable loan, it’s technically from the state. As for the tax breaks, most tech companies in China around the world get tax breaks, tech is lucrative and its development is almost always incentives by governments. I would wager you could google any company on the NASDAQ with the term “tax break” and find some pretty big numbers.
+
+So this is a totally non-story unless two specific pieces of context are accounted for:
+1. Did Huawei receive their loans at significantly greater amounts or lower rates than their finances should allow?
+2. Did they receive specialised tax breaks not available to their domestic competitors?
+Unless either of these questions can be answered with “yes”, WSJ’s claim does not hold. Unfortunately it’s behind a paywall so I can’t check.
+
+On a side note, the BI article starts it’s title with “Huawei freaked out”, and the first sentence starts with “Huawei launched an angry attack.” Leading with strong emotive language like that is a certain sign that the article is essentially tabloid garbage intending to stir up emotions rather than inform."
+YouShouldKnow,fc1l2n9,t1_fc186wm,1577321977.0,Someone do the math on cocaine vs student debt. This might be a life hack!

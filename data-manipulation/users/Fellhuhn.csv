@@ -1,0 +1,133 @@
+subreddit,self ID,parent ID,time,text
+AndroidGaming,ffq6mle,t1_ffq65v7,1580123313.0,Fair. I was more referring to Android achievements and comparing them to my experience with steam achievements as I am more a PC or myself and don't even know how to add someone as a friend via Google Play Games.
+AndroidGaming,ffq64fa,t1_ffq4y9g,1580122553.0,"Yeah, sorry, not my first language so I often get lost in my thoughts. ;)"
+AndroidGaming,ffpxaqj,t3_eud9va,1580109442.0,"So my takeaway for now is: people don't mind achievements as long as they are meaningful. They also, in the case of Android, do not care where those are as there is no first party support for displaying them anyway. Got it."
+AndroidGaming,ffpwyw9,t3_etegiy,1580109028.0,"I do. All of them cooperative boardgames that I okay with my kids on a tablet while we are traveling. Examples: Legenden von Andor, Wer War's, Pandemic.
+
+Those work quite well because as they are cooperative there is no need to hide the screen from each other. Therefore everyone can plan his next move while it is not his turn."
+AndroidGaming,ffnex5q,t1_ffn9iko,1580065084.0,I think that is just implicit as those with expensive skins get matched with people who already spent a lot of money.
+AndroidGaming,ffln8v2,t3_eu4ntc,1580041735.0,You can use apps like FolderSync to sync your savegame folder with Google drive.
+Whatcouldgowrong,ffktytt,t3_etui5i,1580028832.0,I would say they mix too well.
+europe,ffkdrwx,t1_ffjv93x,1580021104.0,"Wouldn't want to swim there. Built by slaves, many died there ( Valentin)... It is just nightmare fuel."
+TrollPatrolGame,ffkdluw,t1_ffjyhcn,1580021026.0,"The advantage it brings is that you can retire and keep the last tentacle on the board. This allows to save the quest progress which can be an advantage if you know that you won't survive any longer. But it's worth was reduced, yes."
+gifs,ffj6cqq,t1_ffj29fi,1579991523.0,I do. It stinks of cat piss and cleaner afterwards. :)
+gifs,ffio3lx,t1_ffintj0,1579978524.0,Yet there they are. :)
+gifs,ffieqqa,t1_ffib9qu,1579972114.0,There are special cleaners which destroy the enzyms of the piss designed for that case.
+europe,ffi24rx,t1_ffi1xxx,1579962839.0,Aye. That place is still so eerie. Especially given the dark history.
+TrollPatrolGame,ffhtfmn,t3_etim4d,1579953003.0,"The next update (will be released within the next 12 hours, don't know how long iOS will take as their review time fluctuates wildly) will use this approach:
+
+- Tentacles are never lost (except through events and such)
+- If you die you keep your tentacles
+- If you die your quest progress gets reduced by 60% (e.g. 50 slain Ninjas will become 20 slain Ninjas)
+- If you retire your quest progess stays the same (e.g. 50 slain Ninjas will stays at 50 slain Ninjas)
+- The achievement ""Bad Luck"" can't be achieved anymore. Will see that I can get it removed or at least changed.
+- As this means that the advanced tutorial has been changed it might take some time until the translators had the chance to adjust the texts, so those might not be accurate for now (except German and English as I do them myself)
+
+Further adjustments to cave upgrade prices etc. will be made in the future. For now, this should work."
+europe,ffht5vb,t1_ffhr7or,1579952606.0,"Or [Valentin in Bremen Farge, Germany](https://en.wikipedia.org/wiki/Valentin_submarine_pens). It is too big to be safely destroyed. Even a direct hit with a 4,500 lb bomb did only little damage."
+TrollPatrolGame,ffhkmnh,t3_etim4d,1579939662.0,Understandable. Let me have breakfast and further regret yesterday's Whisky and I will see what I can come up with.
+gaming,ffhjm21,t1_ffgrq2a,1579938246.0,"Haven't met any hackers on PC yet. But I don't play online, so that might help. ;)"
+gaming,ffhjkcs,t1_ffghcai,1579938181.0,Interesting how people don't read the first half of what I wrote...
+gaming,ffgg51z,t1_ffgfmzg,1579905472.0,He is one of the exceptions to the rule. :D
+gaming,ffgfu0v,t1_ffg8kfz,1579905279.0,So a PC? :P
+gaming,ffgfe7x,t1_ffgexqq,1579905003.0,One of the rules: capitalize if thou can touch it.
+gifs,ffgb7f9,t1_fffhxsj,1579902403.0,"> Source: was a grounds keeper for 5 yrs.
+
+Not really a keeper if you stopped doing it, eh? .. ... sorry. I am leaving."
+gifs,ffgb15a,t1_fffq07z,1579902298.0,"Walk into the garage.
+Wonder what you were doing there.
+Find an old bottle of Whisky.
+Spend the rest of the night there."
+gifs,ffga2f2,t1_fffpz0a,1579901709.0,Have you seen the parrot that rapes its photographer?
+gifs,ffg9tat,t1_fffr2q2,1579901551.0,One of the best movies ever made... er... copied together.
+androiddev,ffg9imj,t1_fff919h,1579901367.0,"My app was once suspended because the description mentioned the game ""Nine Men's Morris"" with the reason that I may not mention other apps. That was an update to an over 2 years old. Yeah, fuck you, learn game history, fucker."
+iosgaming,ffg8r31,t1_ffcqymk,1579900897.0,"Recently installed Angry Birds again as I though ""Hey, that was a nice easy game, that is something my kids might enjoy!"". I didn't even understand how the whole system works now. Same with Cut the Rope. Fuck those companies."
+AndroidGaming,ffg7xtn,t1_ffg5at9,1579900398.0,"The permission can be used to check that, that at least is true. And most APIs that are that close to the phone's system are fucked up. So you need special implementations for Android and iOS (if you use something like Unity) and then there are specialties depending on the manufactorer... So it is not easy to get this right so this might be the lazy route but it is not a route a dev should take.
+
+One thing with those permissions is that each permission has a category. And if you allowed a permission in one category they can later add other permissions in the same category without any feedback from you. So always be careful with those permissions."
+TrollPatrolGame,ffg7ppz,t1_ffg545x,1579900257.0,"The solution has already been implemented (for v.1.11). Before that the animations should already adhere to the speed slider in the settings menu. Of course there might be single animations which ignore that as I forgot to include that factor there. So if you encounter an animation which takes strangely longer than others, just tell me and I will take a look at it. In the meantime I will test further with the new ""select while they are still animating"" feature. It should be released somewhen tomorrow (within the next 24 hours, timezones etc. ;) )."
+TrollPatrolGame,ffg54xt,t3_et065g,1579898668.0,"In 1.11 you will now be able to select the next batch of tiles while animations are still playing, no matter which speed you have set. You can then even cancel the last selection (which was made while an animation is playing) as usual by pressing two fingers on the screen. :)"
+AndroidGaming,fffxxih,t3_ete1x5,1579894220.0,"Basically the limit for almost everything in the developer agreement is 1 year. Like if you shut down your service you have to refund every (non-consumed) purchase that was made within the last year. 
+
+The takeaway: Don't spend money on stuff you can't backup."
+AndroidGaming,fffxqi7,t1_fff3x9q,1579894100.0,https://play.google.com/store/apps/details?id=com.miniclip.plagueinc
+gaming,fffxk69,t1_ffft8cn,1579893991.0,With a steering wheel that is not even plugged in controlled by the little brother.
+gaming,fffxidt,t1_fff5c0f,1579893960.0,"""How do I teabag that newb?!"""
+todayilearned,fffqj3k,t3_eta49l,1579889621.0,"Remembers me of the movie ""The Medicus"" (based on the book with the same name) where there were so many religious and cultural rules that made progress in medicine very diffuclt. For example it was forbidden to cut someone open once he was dead. So finding out why someone died or how the body really worked was kinda difficult."
+todayilearned,fffq9c3,t1_fff7y72,1579889452.0,Scraps of copper gained when sharpening weapons (or was it bronze?) was also used as disinfectant IIRC.
+iosgaming,fff54k4,t1_fff2q0d,1579875942.0,"What do you mean with ""won't work""? Can't you click the camera icons to switch the level?"
+tipofmyjoystick,fff4vjj,t3_et8q41,1579875759.0,Was it perhaps a site that allowed to play SNES games? Then it could have been **Rock & Roll Racing**.
+TrollPatrolGame,ffexk02,t3_et065g,1579869501.0,"Ah, I think I get it now. Misunderstood you and though you meant that touches weren't registering at all during that period due to an error or something like another object obscuring the target etc. There is a grace period for the enemies to act (which depends on the speed set in the settings of the game) so that animations etc. can finish before you can select the next tiles. When you start swiping during that time, this might be frustrating as it doesn't register. I get that. Let me see if I can come up with a solution this weekend (will release an update almost every weekend)."
+TrollPatrolGame,ffexei0,t3_et93x7,1579869347.0,"While that quest is active every collect bit of loot goes directly into the armory instead of counting towards your next item powerup. You can see the progress at the bar in the upper right of the screen with the target symbol.
+
+If you die you will keep 40% of your progress."
+AndroidGaming,ffety6p,t1_ffetghw,1579865389.0,That is not true. The app will be told when it goes into the background and can act accordingly without that permission.
+AndroidGaming,ffeshpd,t1_ffbri37,1579863394.0,"Don't forget that the UI also has to fit in landscape and portrait mode, respect the notches/cutouts, support tablet and phone aspect ratios and all kind of resolutions as well as split screen mode. Good times."
+AndroidGaming,ffeojpn,t1_ffcjqei,1579857492.0,"Wait, that's illegal."
+AndroidGaming,ffeohqg,t3_et7827,1579857410.0,"They shouldn't need that permission. Sometimes lazy devs don't notice what permissions they add while developing the game (experimenting with SDKs etc) or they just think they need it. Some claim they need similar permissions to pause the game when a call arrives and so on.
+
+In the end you shouldn't give them that permission. If the game doesn't work then, just uninstall it."
+TrollPatrolGame,ffej076,t1_ffdg4yc,1579849975.0,Disabling Post Processing might help. Perhaps that is a problem.
+TrollPatrolGame,ffecajb,t1_ffdlwbt,1579842887.0,I was talking about the settings in the game. It sounds as if the initialization of the particles during the selection cause the freeze.
+TrollPatrolGame,ffddpp5,t3_et065g,1579818719.0,"Which device are you using? Does it help to deactivate the ""extra particles"" in the settings or lower the graphical quality there?"
+gifs,ffcvpk0,t1_ffbz3pw,1579808247.0,I would say it is a graphically and technically superiour System Shock 2 that is second place in all other aspects. Still a great game. Would have liked a better variety regarding the enemies though.
+tipofmyjoystick,ffclk6v,t3_esvmnq,1579802033.0,Scanner Sombre? Not really a horror game though.
+AndroidGaming,ffca1xg,t1_ffbvwv2,1579794950.0,Can't thank you guys for your translations enough. You are the real MVPs. :)
+AndroidGaming,ffc9zno,t1_ffc4m21,1579794910.0,Different content due to censorship? That might result to larger apk size so splitting it in separate apks might be a good choice.
+AndroidGaming,ffbryfo,t3_esrjck,1579780437.0,Report those ads (best with screenshot) to the devs. They can ban those ads from their games.
+pics,ffblbcm,t1_ffbe6vj,1579770899.0,"> Not only at the piramides, but everywhere you go ~~in Egypt~~.
+
+That happens all around the world when you visit tourist traps. Doesn't matter if it is in the UK, France, Turkey or Indonesia. They are all the same in that regard."
+gamedesign,ffbkskj,t1_ffbdi2e,1579770092.0,Please don't put pictures and artifacts from other devs in your game. Use your own.
+Whatcouldgowrong,ffbhtrz,t1_ffbf5zt,1579765960.0,"Iron, of course, Iron Maiden."
+AndroidGaming,ffbge9u,t1_ff9df6t,1579764124.0,"> But from my experience trying country/region lock games like that then the difference lies on event prizes or the items in shop.
+
+You can set the prizes per country. No need for an extra APK."
+videos,ffack8q,t1_ffa9k0h,1579732346.0,It was IKEA. They don't accept credit cards here.
+Unity2D,ff9ohi1,t1_ff9n37y,1579717298.0,The handler should be the same for all of them. It will always be called. Just using one handler and act according to the ad id or a similar variable should be enough.
+videos,ff8zhcu,t1_ff8k5sg,1579700917.0,"When I deducted over 4000 Euros via various ATMs the biggest note I got was a 50. The cashier wasn't that happy. This in line which let me cut because I only had ""one item"" were also a bit pissed. Not my fault that they don't accept cards..."
+gaming,ff8uvhc,t3_esa4eb,1579696890.0,Have you tried to just stop smoking?
+gifs,ff8t8w6,t1_ff8n5t6,1579695228.0,Cats shouldn't have collars.
+TrollPatrolGame,ff8t5zv,t3_elux80,1579695139.0,"Besides what I said in the other reply, if anyone wants to have rewarded ads again even though they purchased the ads free version, just PM me. There is a way in the app to unlock them again but as I don't feel good with that (you paid for that, after all) I don't want to post it here."
+TrollPatrolGame,ff8szcv,t1_ff8r646,1579694933.0,It is a (virtual) troop of Trolls that regularly returns with some Fezes. It will be shown as a chest in the main menu which upon opening will yield some Fezes or even a Tentacle.
+Games,ff8sy22,t1_ff8p3jb,1579694892.0,"EU laws are quite strict on games that simulate gambling, those games where they main focus is on gambling but you don't play with real money. For example those games get a rating of 18+ in many countries or will not be released at all. Apple for example is quite strict in that regard. As Poker Night 2 is a pure simulated gambling game it falls under that category. Other countries are following suit (like Australia)."
+androiddev,ff8jhpm,t1_ff8iwyp,1579681376.0,"Seems like you are right. You can't block users in a open project and can't delete comments. But you can delete translations and report users so that they get banned completely if they don't behave. If you need a feature you can always contact the support, they are very helpful."
+Games,ff8ienl,t1_ff7uc4s,1579679905.0,With all the problems you now get with games that simulate gambling that might be doubtful.
+androiddev,ff8ia97,t1_ff8i7mv,1579679740.0,They are all public with dozens of translators. I only manage two languages myself (as those are the only ones I can speak fluently)  and the others are all community managed. While everyone can make changes every change is tracked and I can block users and other users can vote on translations. But so far I had no problems with any trolls or such.
+androiddev,ff8hxpv,t1_ff8hpwj,1579679282.0,"I am using OneSkyApp for all my projects for over two years now and up to now I received not a single email from them. Except when I was asking for support. Every problem and feature request I had was dealt with within a few hours.
+
+For most projects I use Android's strings.xml files and for others hierarchical JSON files (Unity projects) and even that works great. The biggest project so far has over 16k words. And as they have a REST API I can download and convert all translations automatically and integrate them within the project with just one click."
+gaming,ff8hpiw,t3_es6vzq,1579678990.0,Hm. I don't know. Serious Sam had better ones.
+news,ff8bsv4,t1_ff80vxw,1579672188.0,Hair doesn't grow on steel.
+AndroidGaming,ff8bdhy,t1_ff7bh5l,1579671762.0,"Thanks, mate. Has been a wild ride and we are far from done. :)"
+AndroidGaming,ff76mzo,t3_erypxm,1579642157.0,"Thanks, guys, gals and trolls! Means a lot. :)"
+gaming,ff6ckdd,t1_ff62u3u,1579624241.0,I will just wait till release.
+pics,ff61ida,t1_ff60s00,1579616742.0,So... yours are the opposite or the same? :D
+Unity2D,ff61gnx,t1_ff60eur,1579616705.0,Yes. Just add the handler once and remove it once.
+Unity2D,ff5xsvu,t1_ff5xr4n,1579613757.0,Yes. Do it once during Awake() or Start(). And remove it in OnDestroy (you already do that).
+pics,ff5xrfy,t1_ff5whpd,1579613722.0,"It is really great. I never liked the original Risk as it was just player after player washing over the board with his armies (similar to the more modern Small World) where it was often difficult to make a comeback and yet you have to sit through the whole ordeal, mostly relying on lucky rolls. With the legacy edition it doesn't matter if you lose. You get an additional nuke the next time, you get to write on the board (with a permanent marker), you get to modify the board for eternity, you get to rip cards to shreds. It is fun. :D"
+pics,ff5wf2f,t1_ff42xv4,1579612514.0,But only Twilight Imperium Second Edition with the Hope's End expansion. The newer editions are all crap.
+pics,ff5wdml,t1_ff4nvfb,1579612479.0,Risk Legacy (Risk Evolution in some countries) > Axis & Allies > Herpes > Risk
+pics,ff5wasw,t1_ff414y4,1579612406.0,"Just drop a nuke or two, build a city and deplete their ammo before your attack. At least in Risk Legacy. ;) Other strategies would all be spoilers but that is the best Risk game I ever played as it solves a lot of problems with its volatile board."
+gaming,ff5w00r,t1_ff5rwdy,1579612128.0,Aren't only millionaires playing that game? Can anyone else afford it right now?
+todayilearned,ff5vp7h,t1_ff5sr5z,1579611852.0,Other symptoms of typhoid problems are for example the absolute loss of hair in a round small area (like a coin). A few months later it grows back normally. Often people have typhoid problems but live with it without knowing until they get stressed out about something which then tips the balance and the downward spiral starts.
+Whatcouldgowrong,ff5q2q7,t1_ff53md3,1579605558.0,Good thing is they are the same person!
+iOSProgramming,ff5p0wz,t3_ersji9,1579604080.0,"Pff, skipping tests, I even skip reading the article. Ha!"
+gamedesign,ff5mk3b,t1_ff5ks5z,1579600351.0,"Lol, not having watched the video (this is reddit after all) I was really wondering why they should need Mechanics. It is not a Car Mechanic Sim after all... Makes more sense now. :D"
+androiddev,ff5lm72,t3_erkzu2,1579598900.0,I also use OneSkyApp and simple run a converter over the exported files to get them into the encoding I want. No big deal.
+gaming,ff5leqs,t1_ff5gqm3,1579598585.0,They are not very good at their job if they arrive fucking.
+TwoXChromosomes,ff5k2o8,t1_ff4fxqc,1579596617.0,That is not how the taxes work though. In the end of the year both incomes are thrown into one pot and taxed as one income (with combined allowances). It doesn't matter how the income is divided between those two. The tax classes you are talking about only affect what you pay each month which will get corrected at the end of the year (see above).
+TwoXChromosomes,ff5jxab,t1_ff4y2p8,1579596406.0,And that depending on where you live the child may not make a lot of friends if all others are Kindergarten and he is not.
+TwoXChromosomes,ff5jvvo,t1_ff42sw0,1579596351.0,"Paid €700/month for two kids (10h/day each, including a meal). But the law got changed and that is now free. Except for the meals which is now ~€30/month/child. Yay, Germany. :)"
+videos,ff5j65n,t1_ff4z0e1,1579595338.0,How can you even live with ten children? Would need an extra license to even transport more than eight at a time in a car here. Do you drop off five at first then go fetch the others? lol
+Unity2D,ff5fztd,t3_ermlm3,1579591217.0,Because you add the event handler each time you click on the button. Therefore the event handler will be called multiple times.
+AndroidGaming,ff3nrx2,t1_ff3bk0k,1579545003.0,"Don't know what this game was made with but Unity for example has a quite buggy IAP system that hasn't been fixed for over half a year. Unity's devs aren't very capable in that regard, sadly."
+AndroidGaming,ff35341,t1_ff31ay3,1579533877.0,Does it have that many problems though? Or is it one discontent user who didn't get what he expected? I got 1 star reviews from disgruntled users who didn't like the genre...
+Unity2D,ff300o6,t3_eq60lk,1579529980.0,Besides the already mentioned methods there is also the simple way to have a class or struct which is [Serializable] and has only public members of primitive types (or other serializable classes) and then use JSONUtility to parse it to or from a string which you can then write to any file. The big advantage is that json is human readable and easily expandable without breaking anything.
+AndroidGaming,ff2wl7z,t3_ercsme,1579526873.0,"Sounds reasonable to me. 
+
+Giving 1 star (remember: the lowest rating possible, similar to games that don't even start) because you don't like a game is really not fair towards the devs. They really have to rely on those ratings and too many reviewers just want to hurt them."
+AndroidGaming,ff2timf,t1_ff2rysf,1579523527.0,"How about a ""wall of shame"" where you list all games that were rejected (or the last twenty or so) and the reason for that. That way you could give feedback without having to contact the one who entered it."
+europe,ff2ohn2,t1_ff2n7il,1579516393.0,Or deliver a lot of horse heads to landlords etc. as is tradition.
+AndroidGaming,ff2lcqg,t1_ff2l49v,1579511563.0,Haven't tried it but the last I read it doesn't have that but you can set your device up (outside of the app) so that it automatically syncs the savegame folder with your PC etc. But perhaps someone else can chime in.
+AndroidGaming,ff2jynu,t3_dwlt4c,1579509577.0,Troll Patrol has been released and isn't in Early Access anymore. :)

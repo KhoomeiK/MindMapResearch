@@ -1,0 +1,335 @@
+subreddit,self ID,parent ID,time,text
+television,fffnzri,t1_ffezih0,1579888059.0,"Stu 
+
+Squidward
+
+Eeyore"
+aww,ffezjnf,t1_ffez8kw,1579871408.0,I realized that a long time ago
+pcmasterrace,ffeyc90,t3_et9c41,1579870275.0,"Am I the only one who gets rid of the search bar, un-pins mail, edge and and ms store? 
+
+Practically every build that gets posted here keeps those.   
+
+Nice build btw"
+AskReddit,ffexk5k,t1_ffexj6z,1579869506.0,It was on the front page of reddit /r/documentaries
+aww,ffexhy2,t1_ffewgdg,1579869445.0,No one did this stuff for me and I’m still a sore loser
+fightporn,ffe4o3f,t1_ffe177t,1579836605.0,"I’d rather lose a fight than have people see my small dick ngl. 
+
+Would’ve got up immediately."
+gadgets,ffcgmmz,t1_ffcd623,1579799034.0,"Pfsense as well with DNSBL package. But I hate dnsbl because of how clunky it is. It has more features like geo blocking, but I don’t even use that. 
+
+Pihole interface is a lot easier to manage what’s blocked and what isn’t."
+gadgets,ffcg494,t1_ffcg02s,1579798722.0,"Doesn’t work with Hulu either.  
+
+You can still use pihole on your network just don’t block Hulu hosts."
+gadgets,ffceuqc,t1_ffcee40,1579797949.0,"Pihole is more for an entire network. I have a desktop a laptop an iPad an iPhone a smart tv and a bunch of virtual servers.  
+
+Rather than configure all of those individually, I just have to set my dhcp server to set pihole as every device’s dns. 
+
+And for me, I can’t install ublock since I’m on an iPhone and iPad.  I rarely browse on my desktop. And things like smart TVs have embedded ads on their apps panel, so ublock wouldn’t fix those. But dns blocking does."
+gadgets,ffce2py,t1_ffcdwpz,1579797468.0,Yeah wouldn’t fix that but it does block all of the normal ads that play on the smart TVs app area.
+gadgets,ffce1cy,t1_ffcdril,1579797445.0,"I do think it’s still worth installing though. 
+
+I have 7 million ad hosts blocked and most websites don’t run the way YouTube does.  Those ads do come in on their own url so dns blocking is possible."
+gadgets,ffcd870,t3_esv1lu,1579796938.0,"Before anyone experiences any disappointment: this does not block YouTube ads. 
+
+YouTube ads are served over the same URL that the actual video is served.  The only reason things like ublock work is because the advertisement is still loaded in its own html element. Browser extensions can manipulate Webpage DOM so they remove that element to bypass the ads. DNS blocking can’t alter DOM objects.
+
+However I do still recommend using pihole. It’s a great service and it’s lightweight.  
+
+It won’t work on YouTube but there’s plenty of websites that do serve ads through a unique url like *.adhost.com.  
+
+I have 7 million ad hosts blocked and most of my web viewing experience is clear because of it. 
+
+It also blocks a lot of telemetry. Windows 10 is constantly sending data to Microsoft through telemetry. For people who have unifi, I believe it’s been patched now though, they were also sending telemetry data for whatever reason. That *can* be blocked by pihole.
+
+Like someone else mentioned on here, sometimes it’s too good and blocked a lot of stuff they didn’t want blocked. That can be avoided. Just don’t use DNS blocklists. Make your own. 
+
+Browse the web with pihole set as your dns server, then individually block content you run into. Then rather than having to sift through millions of hosts, you just slowly have to build up your own list.
+
+If your sole mission is YouTube ads -
+
+On android to block YouTube ads: /r/Vanced
+
+On iPhone: jailbreak and download YouTube++ 
+
+On desktop: ublock origin on chrome or Firefox
+
+[Another work around ](https://reddit.com/r/dankmemes/comments/eqtlqo/absolute_legend/)I learned about on /r/dankmemes but haven’t tried yet: just skip to the end of the video and hit replay. Apparently that will stop all the ads from playing the 2nd time around."
+homelab,ffbvbzc,t1_ff683ks,1579783994.0,"What size rack is that? 
+
+The 42 in the name makes me think 42u but that doesn’t look like 42u.  
+
+Mine is 32u and I feel like I should’ve got smaller. I wanted room for upgrades but doubt I’m ever gonna have 10+ servers and switches.  The most id need is 4 servers for high availability and one freenas node.
+
+[too much space](https://i.imgur.com/oTPaBto.jpg)"
+AskReddit,ffbsh5l,t1_ffbop46,1579781048.0,It’s just gravyized left overs from yesterday.
+EarthPorn,ffbrwl4,t3_esr9q5,1579780379.0,Wish it looked like this every day
+funny,ffbqdqq,t1_ffbewsm,1579778462.0,"Like the crab shell crackers at Joe’s Crab Shack 
+
+https://i.imgur.com/uiM2r7q.jpg"
+opendirectories,ffawxi6,t1_ffa1vrr,1579746398.0,Wdym abuse cloud storage services?
+afkarena,ffaq5rt,t1_ff7v0f6,1579741892.0,"This worked for me. Ty. 
+
+https://i.imgur.com/IdULIb8.jpg"
+PleX,ff9y1uc,t3_esg96h,1579723974.0,"Not exactly what you’re looking for, but if you can’t make this work. 
+
+ what I did was get a pi4 and installed raspian on it.  
+
+Then I installed minidlna player and I installed hostapd on the pi.  DLNA server + it turns my pi into a hotspot that I can connect to. 
+
+I also had a 2TB 2.5” laptop hdd lying around I wasn’t using. My library is bigger than that but 2TB of content is plenty for me and I can always swap it out. 
+
+So my 2.5” is plugged in via the USB 3 port and I connect to my hotspot so I can directly stream from the hdd using VLC player installed on my iphone or iPad w.e I’m using at the time.  
+
+Someone correct me if I’m wrong, but AFAIK VLC player supports more codecs than plex does right? So I use VLC to limit my transcoding. And from what I’ve read, plex runs slower on pi which is why I just Use minidlna player, a low resource service. 
+
+The only issue I have with this is big content but that is  expected.  Larger files need more buffering of course. My copy of anchorman is 17GB and Superbad is 20GB. 
+
+Anchorman plays but it buffers frequently, Superbad plays but for some reason it won’t play any audio. 
+
+I could fix this by not having huge files, but it’s not a big deal to me. I just won’t watch those unless I’m at home watching plex.  Plenty of other content to choose from.
+
+But everything else plays fine. I think the biggest file I’ve not had problems with was 7GB. Most my content is between 500mb and 4gb.
+
+
+
+The reason I made this thing was for my office.  Work doesn’t give us WiFi access because they know we have so much down time we won’t even try to look busy anymore we’ll just watch movies. 
+
+So without WiFi, I would burn through all my phones data plan in like an hour if I tried to stream my plex. 
+
+So I set this up so my co workers could enjoy it too at work. I usually have 5-6 people connected and there aren’t really any issues with bandwidth. I just had to remove the big content from the drive so no one would play it and slow the rest of us down."
+pcmasterrace,ff9upvp,t1_ff9bd59,1579721823.0,Idk if it’ll reach that far. You might get jacked off
+Showerthoughts,ff9ogor,t1_ff91ts1,1579717283.0,"I’ve been watching it again this last month. The graphics suck ass but the show is still good. 
+
+Reminds me of courage the cowardly dog [hard drive courage](https://streamable.com/79sr5)
+
+Didn’t like that episode just because of how weird the 3d was to me when I first saw it"
+news,ff8zcu7,t1_ff8xjh5,1579700817.0,"I’ve never seen the phrase mandatory minimum sentences until now. I only know it from 
+
+*All research and successful drug policies show that treatment should be increased*
+
+*rahhhh*
+
+*And law enforcement decreased while abolishing mandatory minimum sentences*"
+homelab,ff8nv2o,t1_ff82glj,1579687990.0,I get points for an art streamer and can redeem those points for commissioned work so I leave that sitting in her room all day.
+worldnews,ff6uqpv,t1_ff6smii,1579635284.0,New Moana
+pcmasterrace,ff6c0r6,t1_ff5lplq,1579623895.0,"That’s not even a good flex. 
+
+I have 40TB right now and that’s still minuscule compared to /r/DataHoarder"
+OldSchoolCool,ff5rjrv,t3_ersx96,1579607458.0,Finally my ants can learn Mozart
+Whatcouldgowrong,ff54gnp,t1_ff50yq5,1579579965.0,But she hardly flinched or made a pained facial expression which I don’t get. I would’ve been screaming and crying
+Whatcouldgowrong,ff53vbv,t1_ff50q6z,1579579503.0,Thought it said breakfast at first
+dataisbeautiful,ff43jiu,t3_erj4t8,1579554760.0,"Why is the east side so lit compared to the west?
+
+I’m pretty sure Florida had more than Arizona utah Wyoming and Montana combined."
+sadcringe,ff437bv,t3_erieor,1579554551.0,When I was like 10 I’d pick up hookers in gta 3 and then when the car started rattling I’d get it on with my hand.
+Showerthoughts,ff4326m,t1_ff3w97k,1579554464.0,"There’s a link to the rules for a reason. 
+
+Is there any rule that says no historical names that were involved in genocide?"
+iamverysmart,ff42tn0,t1_ff3v2nm,1579554317.0,Obv so no one can steal his design before he patents it
+dankmemes,ff2paft,t1_ff2j203,1579517620.0,"If pihole has a browser extension yeah. Which it doesn’t. 
+
+There’s two elements on the web site. 
+
+Element1 and element2
+
+Both elements come from YouTube.com/watch?v=whdh7376
+
+Pihole can block that url. Then neither element has content to serve.  
+
+Ublock can delete element1 which is the element the advertisement loads in. 
+
+Pihole has no control over website elements just network connections."
+Showerthoughts,ff1v1a0,t3_er6640,1579486808.0,The balls of your feet?
+CozyPlaces,ff1mxrs,t1_fews2ur,1579481840.0,TIFU by not cleaning up cum off my barn door
+dataisbeautiful,ff114pl,t1_feyo4ax,1579474213.0,"My favorite part was how dead Arizona stayed all year. 
+
+I love waking up every morning and seeing a brown dead environment. I wouldn’t want a little bit of trees and plants in my life."
+Amoledbackgrounds,fezziem,t1_fezzc5e,1579463560.0,"And why do you think a picture with 0% true black belongs in /r/Amoledbackgrounds?
+
+https://i.imgur.com/kB6LG6k.jpg"
+Amoledbackgrounds,fezzadj,t1_fezvkdq,1579463467.0,"Neither does the one you posted. Oledify says 0% true black. 
+
+This is amoledbackgrounds."
+Amoledbackgrounds,fezvb6u,t3_er0fvs,1579462124.0,"Fixed it. 
+
+[82.4%](https://i.imgur.com/ArhROcx.jpg)"
+dankmemes,fezmn8z,t1_fezjeyu,1579459058.0,"Ublock deletes html elements on the webpage that’s why 
+
+Pihole is dns blocking"
+AskReddit,feyucga,t1_feyryh8,1579450624.0,Not really. The SD card was probably like 100MB so we took pics then transferred to the pc and cleared the sd card.
+todayilearned,feyu3xr,t1_feysaw1,1579450535.0,Be sure to smash that like button and hit the bell icon to show your sympathy for my dead boyfriend
+dankmemes,feysfvc,t1_fey2lpy,1579450045.0,Literally the only reason I jailbroke was for yt++.  Can’t live without it.
+dankmemes,feysbzy,t1_fextmld,1579450002.0,Videos and ads are served through the same url. Pihole won’t block YouTube ads.
+Whatcouldgowrong,feys2dv,t1_feypayc,1579449890.0,Probably /r/DankMemes
+AskReddit,feyopdg,t1_feyj99j,1579448432.0,"I guess they just didn’t care lol. I mean we still have a decent amount of pictures of me and my sister at different ages and my moms memory photos are all Polaroids so she wasn’t affected. 
+
+I think I’ve always had /r/DataHoarder tendencies though. I never delete anything.  So it bugs me more than any of them that it wasn’t preserved.  
+
+But as far as what was lost there from what I can remember some were kinda big deals and the rest eh. 
+
+photos of my 8th grade “graduation” with my best friend, my sisters HS graduation, sisters prom, bunch of different pet photos and random trips, some pictures of me in the hospital, I had to dress up like van gough once and give a presentation for school. Mostly nostalgia stuff.
+
+Me my sister and my friend made this really cringe Wonderpets video. Would’ve been hilarious to hang onto that one."
+news,feyg44d,t3_eqwea1,1579445040.0,Is there any raw video? I couldn’t even understand shit it was censored every .5 seconds and when it wasn’t censored the chick was talking over it.
+aww,feyfbwx,t3_eqwidd,1579444750.0,You mean 12 years ago and two years ago
+news,feyc39k,t1_fexbm1f,1579443562.0,On a debit card? My card has never declined. Just over drafted.
+AskReddit,feybbdf,t1_fexy7ur,1579443199.0,"My dad broke our PC.  Tried using a registry cleaner on windows vista and then the computer would just BSOD every time we turned it on. 
+
+It sucks because now I know we could’ve just reinstalled windows, and I could’ve plugged the hdd into Ubuntu and got all of our pictures off. But I was 13 at the time and no one around us knew shit about computers. 
+
+That was like 10 years of family photos gone.  They just threw the pc away because they couldn’t afford shit like geeksquad"
+WTF,fey8d5m,t1_fexkc3k,1579442004.0,Did her butcher knife find your flesh though
+WTF,fey5xlo,t1_fexqe28,1579441263.0,"*AND ILL STILL ILL BE BETTER OFF THAN ANY OF YOU MUTHA FUCKAS!!!!!!!!!!!!!!!!!*
+
+I think she just went super sayian right there. Over 666 mutha fucka"
+aww,fewthsx,t3_eqsyzz,1579419250.0,Prob plays a lot of blind pick on league
+BetterEveryLoop,fewsor1,t3_eqsz5q,1579418909.0,[Reminds me of](https://media.comicbook.com/2019/02/princess-mononoke-1157719-1280x0.jpeg)
+homelab,fewqth7,t1_fewqkwx,1579418117.0,It’s docsis 3. I’m getting 150mbps down and 20 up
+WTF,fewpauw,t1_few85pw,1579417452.0,*The GTA area???? Which one there’s like 8 games!!!!*
+homelab,fevte7z,t1_fevl0mw,1579401248.0,The company that bought them out sells your data and has malicious business tactics like bundling malware with their installers
+homelab,fevtcjh,t1_fevfgah,1579401231.0,draw.io
+homelab,fevtbs4,t1_fevr60t,1579401223.0,I didn’t measure when I built my rack. The rails won’t fit. So my options were take everything down and rebuild my rack or stick it at the bottom
+homelab,fetzpe8,t3_eqmcux,1579381654.0,"I’ve been wanting to make a diagram, but I’ve been putting it off because I suck at content creation like this. So instead I just took [this diagram](https://reddit.com/r/homelab/comments/e68zvf/finally_got_a_ups/) and made a 50% as good version. 
+
+R720 running proxmox.
+
+* 2x xenon 2650 
+* 96GB DDR3 
+* 5TB usable + 20TB on MD1200
+
+R710 running freenas.
+
+* 1x Xeon 5620
+* 36GB DDR3
+* 15TB raw for proxmox plex and document back ups. 
+* Not using freenas for any VMs or containers since I have proxmox. Just a NFS. 
+* Setting up dedupe eventually. 
+
+Proxmox: 
+
+* Pfsense+ OpenVPN
+* Pihole DNS 1.7mil hosts blocked
+* UnifiC = unifi controller
+* PlexPy = Tautili. Forgot what it was called after I installed it so I just named it PlexPy
+* Grafana: recording proxmox metrics + varken for plex
+* IPMI for Grafana server metrics
+* Varken for Tautili and Grafana
+* LabWiki = Media Wiki self hosted instance so I can document everything and organize it. That’s why I made this diagram so I could add it to my wiki. 
+* Plex: 91 shows 154 movies
+* PIA because I bought a three year license before they got bought so I can’t jump ship to someone else. 
+* Java6: I got tired of java updating itself and changing my configuration even after I turned off automatic updates. So now it’s in a locked down no WAN windows 10 VM so I can access idrac + virtual console when I need it. 
+* Twitch: I get points for an art streamer and can redeem those points for commissioned work so I leave that sitting in her room all day.  
+* Wget2: CentOS 7 LXC that I don’t use for anything other than running wget2."
+funny,fepaj4u,t1_fep7d6y,1579315827.0,Bless the lord for the chocolate feast I’m about to indulge in
+Showerthoughts,fep8gzy,t1_fep4zd7,1579314492.0,Ugh. T H I C C problems.
+Showerthoughts,fep4t7n,t1_fep40dh,1579312142.0,Does that result in cleaner shits? I wish I could Do this tbh
+mildlyinteresting,fep4n7l,t1_fep1ryp,1579312036.0,*boopie boopie boopie booooopie*
+funny,fep0k42,t3_eq8lfd,1579309441.0,Am I the only one who thinks this guy looks like Linus?
+iamverybadass,fent7dg,t1_fenszfu,1579290441.0,I’m still translating it might be a few hours
+iamverybadass,fenro8m,t3_eq40cb,1579289763.0,"I thought RS meant runescape at first. 
+
+*see you at the duel arena bitch*
+
+*Im talkin RS strength level 100*
+
+He drank a strength pot. 100/87"
+nottheonion,fenkzyr,t1_fenk4km,1579286934.0,"Pretty sure that’s the same guy on the cover of MTC - s3rl
+
+https://rateyourmusic.com/release/single/s3rl/mtc/"
+funny,fenfocy,t1_fen9zty,1579283681.0,Can also just use https://www.angio.net/pi/
+WhitePeopleTwitter,fems8gd,t3_epzwdm,1579268129.0,Realism is my favorite genre.
+pics,femqlho,t1_femnjgc,1579266725.0,Use it as an excuse to buy a 3d printer. Can make your own game boy shell and put a pi in it.
+pics,femq7ae,t1_femnxtr,1579266366.0,My box is primarily sata cables.
+GetMotivated,femnkz4,t1_femn13g,1579263806.0,">	nobody said it was easy but it’s not unrecoverable 
+
+It’s easier to avoid it. Then the failure doesn’t happen. Nothing to recover from.
+
+Life isn’t an infinite thing. If I. Waste ten years in prison or 10 years with bad credit, that’s ten years of my life I can’t get a mortgage or a house, or 10 years I’ve missed out due to being in prison."
+GetMotivated,femngjk,t1_femlw6t,1579263679.0,"I don’t think that’s an extreme. 
+
+
+
+Millions of people own guns 
+
+Millions of people have sex 
+
+Millions of people attend university 
+
+Millions of people drive 
+
+According to Stanford health care, there were 48 million surgical procedures done on people in 2009.  If every one of those surgeries failed, 48 million people would be dead or blind or dying or paralyzed. Something 48 million people can’t recover from.  
+
+According to Wikipedia there are 393 million gun owners. Even if only 50% of them have children, that’s 196.5 million chances of a gun related accident. If only 2% of those don’t lock their firearms, that’s 3.93 million. These aren’t small numbers.  9/11 only killed 3k people and that’s a significant event. I’m pretty sure 3.93 million people dying would be pretty significant.  
+
+If only .5% of that 3.93 million people died to accidental gun deaths, that’s 20k people.  20k people experienced a failure that they cannot recover from. 
+
+Would you want to be part of that 20k?"
+GetMotivated,femknsu,t1_femi817,1579260345.0,"Surgeons can’t fail or it’ll cost somebody their life and their family grief. 
+
+You can’t fail school or you have to repeat a grade. Failing university can cost you more than your yearly salary. 
+
+Failing to follow driving rules can result in jail or prison or death. 
+
+Failing to wear a condom can result in STDs or unplanned pregnancy. “Oops honey I learned my lesson now shove that baby back in there pls” 
+
+Failing to do your job can result in termination which leads to failing to pay your bills which leads to failing to have a home which leads to living on the streets
+
+Failing to secure your firearms around children can result in death. 
+
+Nordvpn failed to disclose their data breach resulting in tons of customers seeking a different provider.  
+
+Not everything is just a “brush it off and say I’m empowered now.”
+
+People have consequences for their failures.  I can’t grow as a person if I’m in prison for vehicular manslaughter. The judge won’t say “did you learn your lesson? Okay go home” 
+
+Being apologetic won’t bring someone’s child
+Back when they shoot themselves for failing to lock your guns up.  
+
+Failing university and winding up 50K+ in debt without a degree to get you a job to pay it back isn’t a snap your fingers and recover moment."
+pics,femjf6y,t3_epye52,1579258644.0,[Two other people did that too. with the same cat. and the same computer](http://karmadecay.com/results/u13266846)
+WhitePeopleTwitter,femjbt4,t1_femj4sq,1579258508.0,Bold to assume I want to talk to anyone at family gatherings.
+mildlyinteresting,felipvt,t1_feldq17,1579223133.0,Just get your pilot license And buy a helicopter. See you in a few hours
+sadcringe,fekw7c6,t1_fekw12i,1579208872.0,"Yea we talk sometimes.  
+
+It wasn’t a in love kind of thing just super good friends. She’s married. Me and her husband were bffs too. Awesome people"
+sadcringe,fekv306,t1_fekh49r,1579208205.0,My co worker at my old job made me download it and make one. She was my favorite co worker and then she moved to Cali. now I can’t bring myself to delete it since it’s a piece of history
+GetMotivated,fekp0cz,t1_fejwa4p,1579204622.0,This is lil uzi vert right
+ChoosingBeggars,fekfc3a,t1_fek3vwm,1579198859.0,"Why an angle grinder? I’ve been in the industry for 27 years and I’ve never needed one. 
+
+Just a nail gun and some ice cubes."
+videos,fek6xvu,t1_fek675j,1579193885.0,"Oof
+
+I guess amp by passes that then? That’s convenient lol. I’m in US so I wouldn’t know about that."
+WhitePeopleTwitter,fek2oiw,t3_epkv1r,1579191328.0,"I’m confused what other way is there to read it? 
+
+Girls turn on other girls way too easily.  
+
+That means girls are naturally turned on by other girls right?
+
+Nvm. Like backstabbing. My gay ass didn’t read that correctly."
+videos,fek13n2,t1_fek0res,1579190350.0,Google amp is the most annoying thing ever
+oddlysatisfying,fejz638,t3_epk8d2,1579189157.0,[And this is why I’m single](https://youtu.be/SSQcctPNndg)
+WeatherGifs,fejz1cp,t3_epk8j9,1579189074.0,Driving through hell
+WhitePeopleTwitter,fejywhb,t3_epjudj,1579188990.0,No one goes to the dark web. It’s an awful place
+Showerthoughts,fejnenm,t3_epiaci,1579180709.0,Irregardless it’s okay despite their intentions
+Art,fejin03,t3_ephorh,1579175901.0,Damn my beard would prob nut if I used this
+ChoosingBeggars,fejg68x,t1_fejfy9g,1579172682.0,I did now
+WTF,feitrde,t1_feim3ba,1579146994.0,"You’re telling me the TSA will confiscate my shampoo bottle but this girl was able to get in while high 
+
+What a great team of employees"
+DataHoarder,feii8u0,t3_epbvop,1579139141.0,Hey over here
+ChoosingBeggars,feihsb4,t1_feiay8a,1579138838.0,"“- probably some other stuff too”
+
+He’s looking for an assistant he can fuck"
+gifs,feih75t,t1_feih1ym,1579138455.0,"My friend had a boat. He let his friend borrow it, dude got whacked out on drugs at the lake. 
+
+Went home and didn’t even bring the boat. 
+
+Friend said wtf where’s my boat 
+
+“Idk go get it”
+
+I don’t remember the full details but he ended up having to buy another boat.  Trying to find out why but he’s not answering right now.  
+
+But he got a new boat. He’s not friends with that guy anymore."

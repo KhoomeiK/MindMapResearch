@@ -1,0 +1,385 @@
+subreddit,self ID,parent ID,time,text
+funny,ffurht2,t1_ffu1e03,1580247957.0,Maybe it's the prerequisite for [Spanish Calculus](https://youtu.be/kuKvrmpGYzk).
+AskReddit,ffuian4,t1_ffu7hik,1580242540.0,">Bunch of horny teenagers on Reddit that want more girls to hang out with them ""platonically"" lol
+
+The guy saying that women and men can't have close platonic relationships without it meaning something more is calling people who believe the opposite ""horny teenagers""..?!
+
+>if one of them finds a girlfriend/boyfriend, it would be disrespectful to your relationship to hang out one on one and say I love you to a friend of the opposite sex.
+
+OP never wrote anything about saying ""I love you"" to her so I'm not sure where that's coming from. Regardless, if you consider someone spending time with a friend (going out for drinks and having a heartfelt conversation alone) disrespectful to your relationship I think you may have some deep-seated insecurities that you may need to examine."
+pics,ffuefwc,t1_ffudgqp,1580240235.0,"I had to Google it too. I found the explanation in [this coment](https://old.reddit.com/r/OutOfTheLoop/comments/7jg63k/what_is_gnu_when_preceding_someones_name/dr7hqtd/) by /u/Dnamor:
+
+It's a Discworld meme from Going Postal. Yo copy the plot synopsis:
+
+In Terry Pratchett's Discworld series, the clacks are a series of semaphore towers loosely based on the concept of the telegraph. Invented by an artificer named Robert Dearheart, the towers could send messages ""at the speed of light"" using standardized codes. Three of these codes are of particular import:
+
+G: send the message on
+
+N: do not log the message
+
+U: turn the message around at the end of the line and send it back again
+
+When Dearheart's son John died due to an accident while working on a clacks tower, Dearheart inserted John's name into the overhead of the clacks with a ""GNU"" in front of it as a way to memorialize his son forever (or for at least as long as the clacks are standing.)
+
+""A man is not dead while his name is still spoken."" - Going Postal, Chapter 4 prologue
+
+Basically it's been applied to Terry Pratchett himself. People still talk about him, so he's not dead, and so forth."
+canada,fft2jst,t1_ffrqwqu,1580203635.0,"It is absolutely amazing that the National Post had the gall to completely change the meaning of the article without disclosing that it was updated at the top. Take a look at [this comment](https://www.reddit.com/r/canada/comments/eurfpi/canadian_coronavirus_patient_had_symptoms_on/ffr6yl1/) which quotes from the article before it was updated:
+
+> The man flew from Wuhan to Guangzhou and from there to Toronto, arriving at Pearson International Airport Wednesday on China Southern Airlines flight CZ311. Upon arrival at Toronto, the man did not report to border-service officers that he was feeling ill, despite “detection” measures at the airport, which includes screening questions at electronic border kiosks that ask about previous travel to Wuhan in the past 14 days and remind people to report flu-like symptoms to border service agents.
+
+> Instead, the man went home. The next day a family member called 911 to report he was feeling ill, and that he had recently travelled to Wuhan.
+
+> Instead, the man went home. The next day a family member called 911 to report he was feeling ill, and that he had recently travelled to Wuhan.
+
+Compare that to what it says now:
+
+>The man, now in hospital in Toronto, was interviewed by a Canada Border Services Agency officer after he got off a flight from Guangzhou, China at Toronto’s Pearson airport, said Tam. He had indicated on an electronic questionnaire that he had been in Wuhan, she said.
+
+>The traveller was allowed to leave freely, equipped with a form that explained what he ought to do should his symptoms get worse, Tam said. His family called 911 the next day and he was taken to hospital when he did feel worse.
+
+I suggest anyone who wants responsible reporting in our media contact the NP editorial board and express exactly how they feel about the NP not issuing a public retraction for the story.
+
+General inquiries: 416-383-2300
+
+rroberts@postmedia.com"
+funny,ffqlebb,t1_ffqk9ak,1580137733.0,Her daughter's children.
+collapse,ffqhdwh,t1_ffq803z,1580134648.0,"This is [Russel's teapot](https://en.m.wikipedia.org/wiki/Russell%27s_teapot) all over again. 
+
+Do you believe that there is a teapot rotating in space between Earth and Mars? No? Why not, do you take it on faith?"
+worldnews,ffnmbu9,t1_ffneub4,1580067801.0,"It's not so much that the system is stupid, it's just really old and full of legacy quirks. The title *is* supposed to be demarcated with a space. The problem happens when travel agents/counter staff don't enter the names in the right format.
+
+Take a look at [this](https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs) StackExchange thread (scroll to top answer), it's a pretty interesting case.
+
+Excerpt:
+
+GDS -- such as Amadeus and Sabre -- generally offer multiple interfaces into their systems, from old ones kept for compatibility reasons to more modern ones. More modern interfaces will accept structured messages which leave no room for ambiguity; the old ones however... are full of quirks.
+
+In general, Travel Agencies are loathe to modernize their IT: it requires re-training the agents, and buying new software, which costs quite a bit of money with little to no benefits to them.
+
+In the case of a Travel Agency connected to Amadeus, for example, this means that they are likely using ATE: the Amadeus Terminal Emulator, which as the name implies emulates the terminals of old.
+
+Check the Quick Reference Guide, p. 33 on how to create a PNR:
+
+    NM1SMITH/JOHN MR 
+
+    NM: ""Name"" command.
+
+    1: 1 passenger with the following surname.
+
+    SMITH: surname.
+
+    JOHN: first name.
+
+    MR: title.
+
+Using a space, the parsing is unambiguous, however not all agents put a space, thus if instead the agent types:
+
+    NM1ELADAWY/AMR 
+
+Then the command will be parsed as (NM, 1, ELADAWY, A, MR) to be ""helpful"".
+
+Edit:
+
+Interestingly enough, just like with the user who posted above, forcing the travel agent to put the name down as ""Dr. Amr ElAdawy"":
+
+    NM1ELADAWY/AMR DR
+
+would also solve the issue."
+relationships,ffk90of,t1_ffjvd0w,1580018946.0,"Checked your Instagram and some of your YouTube videos. You are a great artist and from the way you communicate both in this post and in your YouTube studio tour video it's obvious that you are a smart and thoughtful person.
+
+If you ever decide that you are up for re-entering the dating scene you'll have suitors lining up.. don't let being a single mom think that it diminishes you in any way.
+
+I wish you the best of luck."
+tifu,ffhwlvg,t1_ffh49cv,1579957165.0,Upvote for the interrobang.
+3Dprinting,ffgpl1n,t1_ffgj885,1579911829.0,I'd greatly appreciate if you could please PM me if you end up finding a solution to OP's question. I'm very interested in this field and would love to experiment.
+canada,fffdmiq,t1_fff26nf,1579881644.0,"What an amazing story. Stuff like this really makes me reflect on both our fascination (at times near-obsession) with other cultures which often seems to dovetail with the ""grass is greener"" mentality.
+
+Crazy to think that a 13-year old actress from PEI went to Japan (seemingly without her parents? Kudos!) to play Anne in a theme park recreation of a slice of her home province.
+
+On the flip side.. 
+
+>Every second year, junior high school students from Ashibetsu come to P.E.I. on a cultural exchange. Four students will visit again in September 2017.
+
+Can you imagine growing up in a small Japanese town mostly known for having replicas of Anne's home/bits of Avonlea and then going to PEI to study. A bit of something foreign-ly local come to life in full colour.
+
+Humans are fascinating."
+news,ffdrn4p,t1_ffdmcg3,1579827237.0,"The *entire point* of this feature is to work when someone is unable or unwilling, for whatever reason, to dial 911."
+todayilearned,ffap5s7,t1_ffaavmf,1579741215.0,">Perhaps one day, inspired by beautiful wife Mrs Brown, he would move into romantic poetry, like market-leading British rhymester John Keats. That would be good, opined the talented person, and got back into the luxurious four-poster bed. He felt as happy as a man who has something to be happy about and is suitably happy about it.
+
+I enjoyed every line. Thanks for posting this."
+NetworkSecurity,ff8fsly,t3_errwh3,1579676575.0,"Unban the device, wait for it to connect again and run an [nmap](https://nmap.org/) scan on the local IP?"
+tifu,ff8edf2,t1_ff8ddgi,1579674932.0,"Somewhere between the ""i suspect my lady realized I was clueing in so she started slapping me"" (which I totally and hilariously misinterpreted before I read massage-style)  and the ""ear to the wall"" technique this story became truly splendid.
+
+Thank for sharing with us your very, very, hilariously uncomfortable experience."
+videos,ff7ccm3,t3_eru518,1579646249.0,"I know it seems like funny video, but the kid is a mentally disabled YouTuber who is now getting [bullied with TTS messages on his streams](https://youtu.be/Y8_O4vJgVVk) over this video. It's honestly kind of sad. Start at 20min and have a listen. He obviously has issues and gaming is an outlet. 
+
+I understand raising disabled children can be difficult but I hope his mom reevaluated her approach."
+videos,ff7c37e,t1_ff5uvpr,1579646057.0,He [absolutely is](https://youtu.be/Y8_O4vJgVVk). Thats his channel. Start at 20min and have a listen. This is a sad video all around. People are literally sending a mentally disabled kid TTS messages to make fun of him and he's doing his best to defend himself.
+Tinder,ff70ywy,t1_ff67uuh,1579638947.0,"What?
+
+Edit: do you mean the dude is cursed?"
+todayilearned,ff7070m,t1_ff6q8ex,1579638492.0,Ejaculates*
+teslamotors,ff5om46,t1_ff4q2pp,1579603476.0,This is an absolutely fascinating article for anyone with an interest in vehicle programming.
+tifu,ff5nx53,t1_ff59zgm,1579602429.0,"Ahz good old /u/SnailFarmer.
+
+(Btw if you get a ping for this, I saw your last post when I clicked on your profile and you *are* an evil genius)
+
+>When I was like 9 I wrote my own name into the side of my house, but I spelled it wrong purposely to make it look like my little brother was trying to frame me. My parents totally believed it, and he denied it of course but I was like ""parents, would I have spelled my OWN NAME WRONG?!"" and he got punished. No regrats, that little bastard had it coming."
+pics,ff4cxnw,t1_ff4bgvo,1579560665.0,Have you.. met the internet?
+slatestarcodex,ff2m1r0,t1_fd6i35v,1579512609.0,This is amazing.
+WTF,feyzi0b,t1_fex0703,1579452403.0,"""Ma'am, I'm not sensing god's love from you right now.."" (2:35)
+
+fucking dying here"
+australia,fejm8ho,t1_feio8vv,1579179636.0,"This is such a weird comment. It's like hearing a news story about someone getting mugged by a man with a fake gun and saying ""see, the gun was shown to be fake in the end. so if the victim didn't give up their cash they couldn't have been shot anyway. and he'd still have the cash!"""
+news,fehtv2v,t1_feh7kmb,1579123760.0,"This article fucking got me mad. All through the intro I was hoping that my cynical assumptions were wrong and that the ""workers"" were getting work skills and maybe the administrators held onto their wages until they completed the program so they could use it for an apartment and as a way of restarting their life.
+
+Nope.
+
+>All of the participants' wages in both programs go to pay for their room and board.
+
+This is fucking literally slavery. If your choice is ""[go to prison where you're forced to work for $0.60/hr](https://youtu.be/AjqaNQ018zU)"" or ""live at a poultry farm where you're forced to work for free"" then that's.. ugh.. I give up. Fuck.
+
+Edit: didn't close my quote"
+tifu,fehh5e1,t1_fehgdzz,1579116433.0,It's an amazing story dude. You pointed out in a comment that you can see the waterline in the photo of the Humvee being pulled out and you weren't kidding -- that thing was really fucking stuck deep!
+tifu,fehgaot,t1_feg7hto,1579115938.0,[This TIFU](https://www.reddit.com/r/tifu/comments/edrwba/tifu_by_almost_drowning_in_a_cess_pool_in_iraq/) by /u/bndboo (which started as a comment on the thread you linked) is amazing.
+instant_regret,feh7l13,t1_fegxi9w,1579110802.0,"Love this part:
+
+>Before Gardai arrived Mr Rooney took off his clothes and covered his head, arms and torso in butter as he had seen it in a 2008 movie called Bronson where the character used butter to make it difficult to be caught by prison officers. He also armed himself with a 14 inch kitchen knife, which he used three times to try and stab Sergeant Tim O’Keeffe who said he was genuinely afraid. The sergeant eventually managed to subdue the accused with pepper spray but it was difficult to put on handcuffs due to the butter.
+
+>Shortly after the incident Mr Rooney, who is unemployed, wrote a letter to both Gardai apologising adding he was embarrassed by his actions which was a fit of pure rage. Sergeant O’Keeffe agreed it had been a Jekyll and Hyde situation and the accused had been a different person on the night of the incident.
+
+Police relations sure seem to be different in Ireland."
+interestingasfuck,fef9p5e,t1_fedz7px,1579051484.0,"And as a related video, it looks like Parks Canada has made a couple of YouTube videos that talk about the reintroduction of wild bison to our parks: https://m.youtube.com/watch?list=PLOe6XX2wBaiZ0fwPsEcTDIECXkchMf2bF&v=_IlP53ULNO8"
+interestingasfuck,fef9dtn,t1_feesjaa,1579051275.0,"This blog is great! As the other user has said, it's clear how seriously and passionately the authors take their jobs. Happy that my taxpayer money is going to these sorts of projects and the associated outreach."
+interestingasfuck,fef918b,t1_fef278n,1579051040.0,"Hmm, what do bison wonder about?"
+worldnews,fedwnyi,t1_feda595,1579021465.0,">If a 13 year old kills their whole family what is the punishment? Why should it be any different than someone who is over 18?
+
+Here is a brief argument from the Roper v. Simmons Supreme Court case referenced above:
+
+>Under the ""evolving standards of decency"" test, the Court held that it was cruel and unusual punishment to execute a person who was under the age of 18 at the time of the murder. Writing for the majority, Justice Kennedy cited a body of sociological and scientific research[1] that found that juveniles have a lack of maturity and sense of responsibility compared to adults. Adolescents were found to be over-represented statistically in virtually every category of reckless behavior. The Court noted that in recognition of the comparative immaturity and irresponsibility of juveniles, almost every state prohibited those under age 18 from voting, serving on juries, or marrying without parental consent. The studies also found that juveniles are more vulnerable to negative influences and outside pressures, including peer pressure. They have less control, or experience with control, over their own environment. They also lack the freedom that adults have, to escape a criminogenic setting.[10]
+
+tl;dr: the national consensus on punishment of juveniles is changing. more people are asking the quedtion ""if a person under 18 is deemed to not be mature enough to be given the privilege of entering into a explicit contract or voting, then how can you expect them to be able to enter into a societal contract with regards to capital punishment? especially given the immaturity of their brains and high susceptibility to immediate cultural/environmental factors and peer pressure?
+
+Of course noone is saying they should escape punishment or that punishment should be massively reduced. 
+
+But if you're asking ""if a 13 year old kills their whole family what is the punishment?""  the Supreme Court ruled that it's (at maximum), life in prison. As to the 'why', well, see above."
+teslamotors,fecximk,t1_fe8u0b6,1578988624.0,"Jokes aside, I absolutely love the article [Cracking my windshield and earning $10,000 on the Tesla Bug Bounty Program](https://samcurry.net/cracking-my-windshield-and-earning-10000-on-the-tesla-bug-bounty-program/). His method was to literally rename the car's name to [this](https://samcurry.net/wp-content/uploads/2019/07/20190713_234612-1600x778.jpg) which exposed an unsecured customer support API when he submitted a support ticket and the script tags was executed. Brilliant and honestly quite simple."
+teslamotors,fecx9k6,t1_feb5spv,1578988318.0,"Hard to get estimates for the black market, but individual companies' bug bounties are Google-able, often ranging from $500-$50,000 with some outliers (I believe Apple has a $500k bounty on an RCE?)
+
+If you're selling to a third party here is a popular one to give you an idea:
+
+https://zerodium.com/images/zerodium_prices_mobiles.png
+
+https://zerodium.com/images/zerodium_prices.png"
+ADHD,febas8l,t1_fe81htk,1578957008.0,I honestly re-read this and the child comments several times before deciding you were not trying to tell her to divorce her husband.
+WTF,feagfp5,t1_fe9hw7f,1578948441.0,"1. Get a bunch of video (set up a motion-activated camera pointed in the general vicinity if you want to go all out) and make a ""best of huge manatees"" compilation.
+2. ...?
+3. Profit!"
+thisismylifenow,fe9edw6,t1_fe7pc2y,1578936835.0,"Yess I was trying to remember what that channel was called. Cheers.
+
+I got a kick out of the video where he decides to hand deliver some merch a fan ordered to her workplace, but he's banned from the mall so he's trying to do it as security is chasing him."
+news,fe9bs6s,t1_fe98mc7,1578936137.0,Oh :(
+news,fe985rt,t1_fe90zgr,1578935228.0,"Ah, so that's where the woman in the article went wrong. 
+
+""I was on my way home from my friend's annual screening of the excellent movie ""Crash"" last night. The Uber ride to get home was horrible. The driver barely touched the brakes once, except by accident when he was trying to use his toes to pick up the joint he dropped. He seemed drunk on his own power to go fast, exhibiting an almost sexual relationship with the throttle. P.S. he hit that joint several times. Sigh."""
+toronto,fe6jqrq,t1_fe69ti8,1578893150.0,"Love the reviews:
+
+>Yes Very Excellent
+
+>I didn't want to actually have to leave my house to look for an engine lathe. Free shipping to my house was an eye catcher. Who wouldn't want one of these bad boys in their single car garage? Unfortunately I do not have a trailer to move the cardboard box that it came in so I left it in my drive and rent it out to homeless people. I needed this lathe for boring out a cyclinder on my chainsaw worked amazing, but due to its weight it collapsed through my garage floor. Oh well."
+vancouver,fe6j5ul,t1_fe6g0du,1578892589.0,The fact that someone downvoted this reply just kills me.
+tifu,fe41d3t,t1_fe3redb,1578854843.0,"I am always amazed with people like you who have a poor experience with [thing] and decide that the only way to cope is to loudly announce that all instances of [thing] will end badly instead of considering that maybe you were with a partner you were incompatible with. 
+
+Many, *many* men have fun, fulfilling relationships with women they consider their best friends. A marriage doesn't have to be the embodiment of endless misery and conflict.
+
+You sound like that divorced, bitter uncle."
+AskReddit,fe2fw3r,t1_fe14us8,1578837931.0,"/u/pilotfromthewest and I thank you, nothing better than getting your curiosity piqued in a thread and finding op that OP delivered.
+
+(You have a pretty normal voice, for what it's worth. I find it interesting that you're a singer, though i probably shouldn't. I guess it makes sense that singers wouldn't be immune from personal insecurities!)"
+AskReddit,fe0fvon,t1_fe0di6s,1578812742.0,This is such a hilarious yet wholesome exchange.
+AskReddit,fe0fjke,t1_fe09w07,1578812561.0,"Yeah, as a guy unfortunately that's true. Imagine giving a handjob and (if the guy is lying down) just moving your hand forward and backward/in circles instead of up and down. Or to be more accurate, it feels like a blowjob where instead of moving up and down the length of the shaft you're going in circles. It really doesn't do anything. A lot of girls seem to like it though, so if it helps you to get where you're going it's all good as long as we can do the other thing after."
+AskReddit,fe0do0i,t1_fe0b6ra,1578811026.0,"Nah, I think it's cool. /u/DaJohnDude just seems to be saying that he wants to discover the intricacies of sex through first-hand experience. He's not judging others for watching porn or making any moral judgments about it. I think it's a healthy way to approach things if one is so inclined."
+AskReddit,fe0db9u,t1_fdzrl2o,1578810641.0,">Many have suggested the “fragrance is better implied than announced” quote
+
+""Implied"" is not really the word you're looking for, it has a different meaning from ""discovered"" which is what I believe you were going for (based on the ""a fragrance should be discovered.."" comments)"
+interestingasfuck,fe0c4wr,t3_eni9sw,1578809376.0,"Pfft, my favourite is still:
+
+>**Hawaiian Pidgin English (2000)**
+
+>Da Boss Above, he take care me,
+
+>Jalike da sheep farma take care his sheeps.
+
+>He goin give me everyting I need.
+
+>He let me lie down wea da sweet an soft grass stay.
+
+>He lead me by da water wea I can rest.
+
+>He give me new kine life.
+
+>He lead me in da road dat stay right,
+
+>Cuz I his guy.
+
+([source](http://www.pidginbible.org/))"
+pics,fe0bmof,t3_enhfpn,1578808862.0,">The World Wildlife Fund has estimated about 1.25 billion animals have died either directly or indirectly from the bushfires across Australia.  
+
+1,250,000,000 dead. Jesus.
+
+Look at [this cutie tho](https://i.dailymail.co.uk/1s/2020/01/11/22/23283294-7877213-image-a-1_1578780602102.jpg)"
+technology,fdy4eo1,t1_fdxnph4,1578776018.0,Sigh.
+technology,fdxd1bm,t1_fdwhbbc,1578767584.0,"I just wanted to give you a heads up, the reason you're being downvoted is because you're making comments that are not conducive to productive discourse like:
+
+>I abhor when the top comment of an article is some highly unintelligent bullshit nonsense written by a clueless clown.
+
+and
+
+>OPs burner account. How cute.
+
+First, the /u/the_mellojoe never said that a high number of investors translated into a higher stock price. You've dreamt that up all on your own. For all you know, he could detest Musk and everything he stands for and his comment was meant to portray how many idiots invest in companies with poor fundamentals. See how I just made that interpretation up?
+
+Second, when /u/ahumanlikeyou contributed to the discussion your comments devolved into a really pathetic personal attack.
+
+Third, you are exhibiting the same behaviours as many internet ~~debaters~~ genius flamewar experts, that is reinterpreting comments to fit your own insecurities and then replying to them in the most obnoxious way possible.
+
+You do not argue in good faith. You resort to low-effort personal attacks. You are horrible at contributing to meaningful conversation.
+
+You suck."
+toronto,fdwlfde,t1_fdwk8fd,1578759866.0,That was a fun article. Seems like everyone had fun making it.
+videos,fdrfvov,t1_fdrbnso,1578683983.0,"I was curious about the rating too, but upon reading the reviews most people are using it as a mount only."
+tifu,fdoas5g,t1_fdo5j5v,1578601834.0,">I'm 15 now, so still stuck with her
+
+I read some of your other comments in this thread and you sound like a smart, thoughtful young adult with a good insight into other people's behaviour.
+
+When you are a teenager, your family and immediate environment often seem to be all-important -- your entire world. Just know that as you get older and gain more independence, you will soon be able to live life on your own terms. 
+
+All families are fucked up in their own way. Take the good, but also remember that you don't have to take the bad with you after you graduate into adulthood. You are way more than a product of your upbringing. 
+
+I hope that you continue to approach the world with a critical eye as you do now."
+canada,fdnjtxk,t1_fdnc3y2,1578587307.0,"[Canada and Sweden invited to join Iran in plane crash investigation](https://i.imgur.com/1jq8xnB.png), so yeah I'd say we do have some advantage."
+AskReddit,fdmqejc,t1_fdmpun9,1578560646.0,"Ah, sorry I was scrolling through the thread and thought you were replying to the 8th grader who said his bedtime was 8pm. My bad."
+AskReddit,fdmps4j,t1_fdmog7w,1578559792.0,"The time you go to sleep matters a lot as a teenager. See [this comment](https://www.reddit.com/r/AskReddit/comments/em2vfz/what_was_a_house_rule_you_had_as_a_kid_that_you/fdmnq9a/):
+
+> [The results indicated that melatonin onset occurs later in adolescents, making it difficult for them to go to sleep earlier at night. At the same time, the hormone “turns off” later in the morning, making it harder for them to wake up early ](https://www.ncbi.nlm.nih.gov/books/NBK222804/)
+
+and here
+> [There are changes in the biological clock or circadian rhythms of teenagers. At about the time of puberty onset, most teenagers begin to experience a sleep-wake “phase delay” (later sleep onset and wake up time), manifested as a shift of up to 2 hours relative to sleep-wake cycles in middle childhood. ](http://sleepeducation.org/docs/default-document-library/teenssleeppatternsandschoolperformanceB612AF04BD8440DD1D8A412D.pdf?sfvrsn=2)"
+AskReddit,fdmpnml,t1_fdmgona,1578559620.0,">Edit: [u/thehonorablechairman](https://www.reddit.com/u/thehonorablechairman) mentioned that adolescents need more than 8 hours of sleep and provided links [here](https://old.reddit.com/r/AskReddit/comments/em2vfz/what_was_a_house_rule_you_had_as_a_kid_that_you/fdmnq9a/)
+
+I think his main point was that teens have delayed sleep onset and may need to go to sleep later, rather than the duration of sleep."
+funny,fdkgytd,t1_fdkcrk3,1578503664.0,">what he said is not ""they had 200 SQ ft"", but ""it was pacing back and forth and seemed like it only NEEDED 200 SQ ft"".
+
+??
+
+Not sure at all where you got that from.
+
+I agree that he may have been hyperbolic but that's absolutely not what he said.
+
+>I stared at the pacing tiger and figured it enjoyed a territory of about 200 square feet.
+
+Which is much closer to the interpretation of the user you are replying to than yours.
+
+Edit: ohhh okay, I get what you meant now. The definition of 'enjoyed'. Okay, I see how that can be confusing. However in this context, 'enjoy' usually means 'has' or 'is allowed'. For example: ""Studies show that for best outcomes, a mother of a newborn needs 4 months of parental leave. However in most American workplaces women enjoy only 2-4 weeks"" doesn't mean they are literally only enjoying the first 2-4 weeks and spend the rest of the time wanting to get back to work.
+
+I mean, if you disagree that's fine because I see how that sentence could be ambiguous but to me it's pretty clear what OP meant."
+worldnews,fdkdgkm,t1_fdk49nq,1578501543.0,Transcripts: https://www.nsa.gov/news-features/declassified-documents/uss-liberty/recordings/
+worldnews,fdjbfaj,t1_fdj7pvy,1578464186.0,"It's a literal thing. In 2014, amid intense corporate lobbing by cable executives concerned about the falling profits of the Netflix era, Congress passed the ""Restoring Customer Freedom Act.""
+
+The act mandated that in order to cancel a cable subscription, customers had to show proof of the seriousness of their intention by literally cutting the coaxial cable going from their wall to the TV and email a video of the act to the cable company as proof. Hence the term ""cord-cutters.""
+
+Interestingly enough, originally the act required that customers cut the power cable going to the cable box as well but a couple of melted scissors and singed eyebrows later (from people who didn't understand you had to remove the plug from the wall first) led to the industry dropping that particular requirement.
+
+Basically it's a regional quirk, like British ""TV licences.""
+
+Edit: alright, well *I* thought it was funny!"
+worldnews,fdewv6z,t1_fdeoy07,1578348283.0,"It's funny, I haven't heard of any foreigners being beheaded in Iran for any of the things you list.
+
+You know you can visit Iran, right? Or if you're so inclined, look up hundreds of travelogues on YouTube where westerners visit Iran and are welcomed with open arms?"
+unitedkingdom,fdeog80,t1_fde7yef,1578343300.0,"Great article, thanks."
+technology,fddx2vn,t1_fddsjj0,1578326087.0,">Apple doesn't rely on slave labor
+
+Isn't that the definition of coercing people to work against their wishes? You know, like..
+
+>Apple’s iPhone X assembled by illegal student labour
+
+>Interns say they were ‘forced’ to work at Foxconn plant in China in order to graduate
+
+https://www.ft.com/content/7cb56786-cda1-11e7-b781-794ce08b24dc
+
+I can post more examples if you'd like, but I'm on mobile at work."
+todayilearned,fd44y4m,t1_fd3qfii,1578164494.0,"Thank you for the transcript. Very interesting interview.
+
+I was particularly intrigued by this part:
+
+>CRUZ: What I would tell especially young people all the time, you know, I'd meet Bernie's supporters and I'd say, ""You know what? I agree with Bernie,"" and they'd look at me, startled.
+
+>THRUSH: Right.
+
+>CRUZ: They didn't expect a Republican to say that. I said, ""Listen, Bernie talks about how Washington is corrupt, both parties are in bed with the lobbyists and special interests. I think he's exactly right.""
+
+>THRUSH: Yeah. That's your message.
+
+>CRUZ: And I said, ""The difference is — where Bernie and I differ is on solutions."" If the problem is Washington is corrupt, why on Earth would you want to give more power to Washington?
+
+I wish I had the chance to ask Cruz ""Ok, so we agree on the first part. Of course to fix massive problems there must be some sort of power to do so, whether it's the centralized power of the government or the diffused power of the free market and corporations. Knowing what we know about the fundamental purpose of running a company (to make money) and the nature of corporate executives, what makes you think that they will do a better job at benefiting *all people* (not just their shareholders) compared to say, a government with Sanders at the helm?""
+
+**Edit:** to those who lean Libertarian and are inclined to say ""in a free market with rational actors and access to information, people wouldn't deal with companies that do [bad thing]"" or ""don't be naive, governments can only waste money they are fundamentally incapable of actually putting the money they steal from taxpayers to good use"" I *highly* recommend you read Scott Alexander's [Non-Libertarian FAQ](https://slatestarcodex.com/2017/02/22/repost-the-non-libertarian-faq/#political_issues)."
+videos,fd3kevi,t1_fd391sk,1578159108.0,"Honestly, I kinda prefer this style. Yeah it's tacky af in retrospect, but the voiceover helps explain the premise (the premise! that's what a fucking trailer is for. Not *the plot*, the fucking *premise*!) of the movie and the rest is just entertaining bits that don't give too much away.
+
+Or maybe I'm just getting old."
+technology,fcyhh06,t1_fcxneow,1578080221.0,"Re: your edit
+
+>This is a really misleading title.
+
+How so? The title states they killed a tool that let you pull your blood sugar data off the device. I don't see how that's misleading.
+
+>They issued a take-down notice for a tool on github that violates copyright of the code that extracts said data.
+
+How did the code violate their copyright? Merely building a doo-dad to read data a company doesn't want you to read off a device you own doesn't violate copyright as long as that doo-dad doesn't use the company's own proprietary code to do so. I see no evidence proposed that this was done.
+
+Further, the article makes three compelling argument that the code was **not** violating copyright which I pasted below. At least, it's more compelling to me than your blanket assertion that copyright was violated with no explanation as to how.
+
+>First, they say that creating a tool that interoperates with the Freestyle Libre's data is a copyright infringement, because the new code is a derivative work of Abbott's existing product. But code that can operate on another program's data is not a derivative work of the first program -- just because Apple's Pages can read Word docs, it doesn't mean that Pages is a derivative of MS Office. In addition, as Diabettech points out, EU copyright law explicitly contains an exemption for reverse engineering in order to create interoperability between medical devices (EU Software Directive, Article 6).
+
+>More disturbing is Kirkland/Abbott's claim that the project violates Section 1201 of the Digital Millennium Copyright Act, which prohibits bypassing ""access controls"" for copyrighted works. Factual data (like your blood sugar levels) are not copyrightable -- and if they were, you would hold that copyright. It's your blood. What's more, DMCA 1201 also contains an interoperability exemption.
+
+>Finally the whole thing is obviously fair use: it's a highly transformative work for an obviously socially beneficial purpose.
+
+Edit: I can't type"
+worldnews,fcxqnm0,t1_fcxpe4i,1578069137.0,"I was curious about this too, so I [looked it up](https://www.wusa9.com/article/news/verify-no-us-embassies-arent-considered-us-territory/507-59986c66-c52e-452a-9002-562116b540bf):
+
+>The Vienna Convention on Diplomatic Relations (1961) defines how embassies work internationally.
+
+>Relevant articles in the text establish that embassies are immune from intrusion, damage or disturbance by the hosting country.
+
+>Additionally, Articles 22-25 establish rules for how to treat Ambassadors and the facilities
+
+>But, the text does not ever state that the land that embassies are on becomes territory for the country residing there.
+
+>This is backed up by a 1983 U.S. court of appeals ruling.
+
+>**In McKeel v. the Islamic Republic of Iran, the Ninth Circuit Court of Appeals determined the American Embassy in Tehran was not considered the territory of the United States.**
+
+(Emphasis mine)"
+todayilearned,fcv312g,t1_fcug5q7,1577993604.0,"Funnily enough, a similar story happened during the [British invasion of Iceland](https://en.m.wikipedia.org/wiki/Invasion_of_Iceland)
+
+>Just before five o'clock in the morning, Fearless, loaded with about 400 marines, began moving toward the harbour.[37] A small crowd had assembled, including several policemen still waiting for the customs boat. The British consul had received advance notice of the invasion and was waiting with his associates to assist the troops when they arrived. Uncomfortable with the crowd, Consul Shepherd turned to the Icelandic police. ""Would you mind ... getting the crowd to stand back a bit, so that the soldiers can get off the destroyer?"" he asked. ""Certainly,"" came the reply.[37]
+
+>The Fearless started disembarking immediately once it docked.[38] Arnalds asked to speak with the captain of the destroyer, but was refused.[39] He then hastened to report to the Prime Minister, who ordered him not to interfere with the British troops and to try to prevent conflicts between them and Icelanders.[39] Down at the harbour, some of the locals protested against the arrival of the British. One Icelander snatched a rifle from a marine and stuffed a cigarette in it. He then threw it back to the marine and told him to be careful with it. An officer arrived to scold the marine.[40]
+
+I heartily recommend the ""Invasion"" subsection of the article it's full of great bits like that."
+worldnews,fcv25iu,t1_fcukkkp,1577993081.0,">The emails, which were leaked to Just Security
+
+I know the link to Just Security is in the article, but it still bugs me that we are rewarding a site with clicks and ad revenue for basically republishing info that someone else has spent the time obtaining and analyzing.
+
+I hope we can all agree that it's worth rewarding original investigative work. 
+
+Here's the original article: https://www.justsecurity.org/67863/exclusive-unredacted-ukraine-documents-reveal-extent-of-pentagons-legal-concerns/
+
+Regardless of attribution and fairness, I also think it's a much better article. Maybe we can throw some clicks their way too?"
+AskReddit,fcmjnl6,t1_fcmhf3h,1577777991.0,Quite an ambiguous correction there.
+AskReddit,fch60rc,t1_fcgwovo,1577647619.0,"Holy SHIT. How do you let your penis get that bad before going to see a doctor? 
+
+(I know that cost is somewhat of an issue in some countries, but the ""ah I'm sure it will sort itself out"" vs. ""I guess I have to go to the ER"" tipping point was passed way before your penis looks like whatever that is in *Fig 1*)"

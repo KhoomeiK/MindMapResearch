@@ -1,0 +1,165 @@
+subreddit,self ID,parent ID,time,text
+ToolBand,ffiik9e,t1_ffiehjz,1579974715.0,Looks great up there! Get yourself a record player though. Those shelves would look great filled with records!
+interestingasfuck,ff3qlzc,t1_ff3icpz,1579546735.0,"Same here, only I was using a hatchet. Got a maul and  now I barely have to do anything. At first I thought let me swing it down from above my head but that's totally unnecessary for the size wood I have. Just eye level down and it splits. So easy when you have the right tool!"
+jazzfest,fezeygv,t1_felcmd3,1579456625.0,"What about umbrellas, like a sport brella?"
+jazzfest,fezex1t,t1_felrnl7,1579456612.0,Thank you for the suggestions! Def keep this stuff in mind.
+jazzfest,fezeuwm,t1_felvyn5,1579456591.0,"Thanks, we're looking forward to bringing her but I'll keep this in mind!"
+Cooking,fes5dr0,t1_ferzror,1579361570.0,"Yup! I can windex my stove top lol. You can broil though in your oven, I mean you won't get flame char but you can still get some char."
+Cooking,ferhno7,t1_feqj2yz,1579353997.0,"Psh... You want control and distribution, go induction. Love my induction stove. Not to mention I can boil a pot of water in about 2 minutes."
+YouShouldKnow,ferc6v4,t1_fepie27,1579352288.0,I switched to Firefox actually
+YouShouldKnow,fepajs4,t1_feozjpc,1579315838.0,Right but doesn't the search block tracking? Isn't that the point?
+YouShouldKnow,feoyjl6,t1_feortgv,1579308173.0,"No, the point of duckduckgo is secure searching. That's literally the reason it exists."
+YouShouldKnow,feohd70,t3_eq3b71,1579300164.0,I'd really like to Know how Google knows my duckduckgo searches...
+ITManagers,feecyfn,t3_eontai,1579031193.0,"When I built out our service catalog I referenced other orgs. Universities often post their service catalogs online.
+
+https://technology.berkeley.edu/services/
+
+https://www.cu.edu/uis/service-catalog
+
+https://it.ufl.edu/
+
+https://uchicago.service-now.com/it?id=its_sc_home"
+longisland,fdhhlrs,t1_fdh5lcq,1578422814.0,"It could be argued though, given the previous posters point, that the map maker here was trying to give them more voice than they otherwise may have if they didn't consider race - considering the black population makes up 10%."
+ITManagers,fdhgjaj,t1_fdhfcuy,1578422170.0,If you want I can give you a formatted excel version of this with contains some additional columns for budget tracking. If you want a copy PM me your email.
+ITManagers,fdhfuw3,t1_fdhfcuy,1578421764.0,Let me know if you have any questions. Glad to elaborate on any of these.
+ITManagers,fdhew7g,t3_el26wq,1578421186.0,"In the past 3 years I've opened \~8 new facilities and expansions totalling \~2.5 million square feet (just opened a single 1m sq foot warehouse) - leading IT efforts for each of them. I can tell you I still don't even understand everything. Like others have said, ask questions and soak it all in. You'll make some mistakes and that's OK - just make sure you're covering the basics.
+
+&#x200B;
+
+Here's everything from my checklist from the million sq foot facility we opened last year. Note that this also included new hires requirements. The biggest lesson learned for me was to validate low voltage being on the master permit. This really got me good on one install and now I have it as a line item. GC didn't include low voltage in the master permits, didn't know until contractors were nearly ready to pull cable. Delayed us fortunately only 2-3 weeks. Give yourself breathing room on any dates. There WILL be delays either in construction or waiting on materials. You will also forget to order equipment and not realize it until it's install time. The amount of times I ran out of SFP's or properly lengthed cat5e for patching in. Hope this helps.
+
+**Information Collection**
+
+* \* Network drop layout/design
+* \* Office and Workspace locations
+* \* Employee estimates
+* \* Shift estimates
+* \* Identify any fire code requirements
+* \* Lift for low voltage install availability
+* \* Identify Go-Live Equipment requirements
+* \* Establish facility design change process
+* \* Union labor required?
+
+&#x200B;
+
+**3rd Party/Vendor Engagement**
+
+&#x200B;
+
+* \* WLAN Design
+* \* LAN Design
+* \* Source LAN/WLAN Implementors
+* \* Include low voltage permits in master permit
+* \* Provide electrical requirements for Datacenter
+* \* Include electricity to IDF locations
+* \* Source fire supression vendor
+* \* Generator Installation
+* \* Register address with USPS
+* \* Quote and sign MPLS contract
+* \* Quote and sign PRI contract
+* \* Quote and sign Internet contract
+* \* Quote and sign POTS contract
+* \* Quote and sign TV contract
+* \* Quote and sign DMVPN contract
+* \* Source access control vendor
+* \* Cellular site survey for Cradlepoint
+* \* Order static IP for Cradlepoint
+* \* Source datacenter buildout vendor
+
+&#x200B;
+
+**Hardware and Software Procurement**
+
+&#x200B;
+
+* \* Servers with Remote Mgmt
+* \* Core Switches
+* \* DMZ switches
+* \* Distribution/Access layer switches
+* \* IDF Cabinets
+* \* Datacenter Racks
+* \* UPS Batteries for all racks/cabinets
+* \* Cradlepoint
+* \* Access Points + Controllers
+* \* Air Conditioners for Datacenter
+* \* 0u Smart PDUs
+* \* Mobile Cart Equipment
+* \* UPS/Shipping Station Equipment
+* \* RF Guns w/ accessories
+* \* Tablets w/ Bluetooth scanners
+* \* Miscellaneous datacenter rack consumables
+* \* ShoreTel phones
+* \* ShoreTel T1k
+* \* ShoreTel 90v
+* \* Cisco Routers for MPLS and DMVPN
+* \* Sonicwall NSA
+* \* Lease MFPs
+* \* Security cameras for Datacenter
+* \* Projector
+* \* TVs for breakrooms
+* \* Laptops setup for employees
+* \* Windows Server licenses
+* \* ShoreTel Licensing
+* \* SFPs
+* \* Fiber cable
+* \* Cat5e
+
+&#x200B;
+
+**Technology Implementation/Configuration**
+
+&#x200B;
+
+* \* Secure network racks to floor
+* \* Travel and vendor meets
+* \* Configure domain controllers and services
+* \* Configure print server
+* \* Install and Configure Core Switches
+* \* Install and configure DMZ switches
+* \* Install and configure distribution/access switches
+* \* Install and configure HA firewalls
+* \* Install and configure ShoreTel 90v switches
+* \* Install and configure ShoreTel T1k switches
+* \* Install and configure cradlepoint
+* \* Install and configure Routers
+* \* Connect and activate internet connections
+* \* Connect and activate MPLS
+* \* Connect and activate PRIs
+* \* Connect and test DMVPN
+* \* Configure vlans based on requirements
+* \* Mount IDFs to beams
+* \* Run low voltage and fiber wiring and terminate
+* \* Label, mount, and connect access points
+* \* Name access points in controller
+* \* Configure Guest and Internal SSID's
+* \* Test generator cutover
+* \* Configure generator tests
+* \* Test network failover
+* \* Install and configure datacenter security cameras
+* \* Install and connect MFPs
+* \* Test wifi coverage with racking
+* \* Test wifi coverage with product
+* \* Remediate any wireless issues based on tests
+* \* Configure Smart PDUs including outlet names
+* \* Install access control system
+* \* Configure Access Control/door security shifts and zones
+* \* Label IDFs
+* \* Name switches based on IDF #'s
+* \* Label switch ports
+* \* Implement and validate fire supression system"
+sysadmin,fcyp11p,t3_ejdswl,1578084189.0,"Depends on how much you're willing to bend for them. 
+
+One option is conditional 2FA - don't prompt for 2FA behind corporate firewalls. Make sure 2FA is required for VPN access. If they want to be able to work from home, they have to use a personal device for 2FA. Otherwise they don't work from home, sorry.
+
+Hard tokens are an option as well. You provide the first one for free, if they lose it they have to pay for a 2nd.
+
+On a side note, as others have mentioned having a cell phone is like having home internet. Nearly everyone has, and they don't ask for reimbursement for their home internet, or electricity when working from home. It's a push notification or for those who don't have smart phones a single SMS. If it's really that big of a deal, have them expense any SMS overages on their phone bill up to 30/31 messages (1 per day) - make sure 2FA is once per day per device. That's if they really want to get picky. What are they going to do, expense a dollar IF they go over their SMS allotment -- which who has that anyway nowadays?"
+nottheonion,fcqwyd6,t1_fcp8a7v,1577893475.0,"Check out the podcast slow burn. The latest season. About the deaths of Tupac and biggie. They basically know who did it but are unable to prosecute because the police won't reopen the case. Gang bangers.
+
+If I remember correctly, Tupac was shot as retribution for an incident in a Las Vegas hotel by the crips."
+vinyl,fcl7k7e,t1_fckbaqj,1577741517.0,Obviously because it stars a young Nicolas Cage on front of the album.
+UNBGBBIIVCHIDCTIICBG,fcf6f6b,t1_fcbmz6r,1577627058.0,"It's not 100lbs of dead weight tho. Granted still impressive as hell, but she's helping him and moving with him."
+confession,fcf59mj,t1_fcf2n22,1577626714.0,Right? Thank you lol. I almost questioned myself for a second.
+confession,fcbx8x4,t1_fcapku5,1577591985.0,Disagreed. No way a 12 year old understood he was going to paralyze a kid or should be held to the same standard as an adult. There's a reason kids are treated differently in the eyes of the law.
+confession,fcajbil,t1_fca22df,1577570277.0,Dude he was 12. This is kids being kids with serious consequences unfortunately. It's shit like this that gets kids tried as adults and sentenced to long stints in jail before their brains have fully developed to understand consequences. It's not excusing his actions but ffs he was a child.
+vinyl,fc37y3o,t3_efynrh,1577383635.0,"Wife bought me an audio technica at-lp120xusb for the holidays. Got it all setup and went to the local record store to pick out my first albums. Picked out the best of grateful dead, 2 Beatles albums, eagles, and Billy joel. Looking forward to my future collection!"

@@ -1,0 +1,224 @@
+<<<<<<< HEAD
+subreddit,self ID,parent ID,time,text
+MadeMeSmile,feuaita,t3_eqftir,1579384718.0,"*father, I do not wish to shrink even more*"
+dankmemes,fess9u2,t3_eqg5jj,1579368496.0,"If you're gonna spend the money to give the koala award, just donate directly!"
+iamatotalpieceofshit,fembqyb,t1_femaqem,1579247581.0,"My electricity comes from hydro, so it's much cleaner than fossil fuels"
+programminghorror,feka13d,t1_fek9yg8,1579195717.0,To be fair it's been a few years lol. IIRC each region may have a different sign up service
+programminghorror,fek8ixp,t3_epivtb,1579194830.0,Is this Kiwanis? All of the Kiwanis festivals I've attended have God awful ui
+Overwatch,fea63gl,t1_fea5uo4,1578944792.0,"Correct. It is only sending mouse inputs (emulating a mouse device, if you will)"
+Overwatch,fe6f5ae,t1_fe6ezwq,1578889050.0,great suggestion
+Overwatch,fe60vli,t1_fe606jt,1578879286.0,I actually realized it was far more fun to just tinker around on the piano by hand. :P
+Overwatch,fe60ul0,t1_fe60o91,1578879268.0,yup! Pretty well in tune as well.
+assholedesign,fe5640w,t1_fe51u4u,1578865991.0,Fair
+assholedesign,fe515yt,t1_fe4xneg,1578864689.0,ok
+Overwatch,fe4wcah,t1_fe4rpek,1578863404.0,"I'm not sure that it would though, don't most anticheats detect other programs that have access to the game's memory space?"
+assholedesign,fe4vysn,t1_fe4tzhv,1578863306.0,wells fargo centre is not the same as wells fargo
+Overwatch,fe4ob0m,t1_fe4o76g,1578861313.0,Few hours. Main issue was the figure out how to control aim accurately and precisely
+Overwatch,fe4l8p6,t1_fe4jliw,1578860519.0,Dear admins: is not an aimbot. pls no ban
+Overwatch,fe4l3l0,t1_fe4kydq,1578860470.0,Well he asked a question and I answered. I don't care if it's Sigma's voice line.
+Overwatch,fe4ktak,t1_fe4kh5t,1578860377.0,What
+Overwatch,fe4kqvj,t1_fe4k6tr,1578860352.0,"It is technically a macro (not an aimbot as the positions are preprogrammed), and I don't know how they feel about it. Definitely don't use this in online comp tho."
+Overwatch,fe4jzwv,t1_fe4ho8q,1578860157.0,I'm actually looking for song suggestions because I don't know any lol. (looking for single track midi files)
+Overwatch,fe4jyap,t1_fe4hy7y,1578860138.0,"Oh yeah, another reason why I don't use java for the mouse controlling is that it is nearly impossible to accurately control aim using absolute mouse coordinates (the game resets the mouse to the center of the screen each time.) You would imagine that if you were to send the mouse to the center of the screen, the aim wouldn't move, but that's not the case."
+Overwatch,fe4hmit,t1_fe4fob1,1578859419.0,"Not planning on releasing the source at the moment as it only works with a particular setup (in game sens, resolution), and the code is very scuffed as I made it in a few hours. I do have a github @EDToaster though.
+
+Here's a rundown of how I achieved this:
+
+1. First, you need to figure out how to control the character's aim precisely. I was searching for a Java solution but there wasn't one that I could find. Java's Robot class only allows you to move the mouse cursor to a specific location (absolute movement), but I needed to be able to send mouse inputs (relative movement in terms of dx and dy) directly.
+2. To accomplish this, I needed to write 2 native methods using JNI/C to be able to control the mouse using Win32 methods (or something like this, this is my first time using any Windows C libraries)
+3. I went into the game and slowly moved the mouse around with step 2) to set mouse positions for each of the  65 keys.
+4. Once I had the position, to play the music I just had to read a midi file (java has nice libraries for this), move the mouse, click then sleep for a duration. Position of the player is key here, as you need to be aimed and positioned at the right place."
+Overwatch,fe4a043,t1_fe450uv,1578857204.0,Thanks!
+Overwatch,fe49wwk,t1_fe45l8v,1578857178.0,Does [this](https://www.youtube.com/watch?v=crZaX9I4FjA) count
+Overwatch,fe438dw,t1_fe4308v,1578855355.0,Rimsky Korsakov's Flight of the Bumblebee
+heck,fe41f1g,t3_enjqkd,1578854860.0,This is standard in Canada
+assholedesign,fe3zti5,t3_enoigi,1578854441.0,ITT: people who don't understand that the companies don't run the stadiums
+canada,fe3tn5x,t1_fe1zn5q,1578852728.0,I got the alert and immediately went back to sleep
+AskReddit,fdrb096,t1_fdr4crt,1578681966.0,"What about tyres, ""nah just tires"""
+wholesomememes,fdnw323,t1_fdnv231,1578594024.0,"wah wah wah wahhhhhhh wah wahhhhh wah wahwahwahwahwahawh wahhhhhh wahwhawhawh wah wahwhawhahwahwahwahwhawhawhawh awhawhahwhawhawhwahhhhh hawhawhahwawhahwahwawh wahhhhhh wahwhawhawhahwha wahhhhhhh wahwhahwahwhawhaw wahhhh wah wahhh wahhhh wahhhhh **wah wah wahhhh wahh wah wah** wah
+
+bum bum bum bum bum bum bum bum"
+wholesomememes,fdnnuxy,t1_fdnn06q,1578589653.0,And now I've gone and thrown it all awayyyy
+AdviceAnimals,fdmp2kg,t3_elt7t5,1578558839.0,Is it not illegal to drive with lights off?
+NoStupidQuestions,fdmocqu,t1_fdjdh8m,1578557899.0,"Looks to be markdown formatting where they only returned once (instead of twice, which would be a proper line break)"
+NoStupidQuestions,fdmo8ly,t1_fdj0sjs,1578557751.0,Good old rubber-ducky-infused-dildo
+NoStupidQuestions,fdmntvk,t3_em18j7,1578557233.0,"Driving is muscle memory for me. Sometimes even if I am paying very close attention to the road, I completely forget about the last few minutes and think to myself, ""shit did I stop for that red light?"" (Even though i *know* I did)"
+AskReddit,fdmm5b4,t1_fdmca0r,1578555210.0,"My take on it is if someone asks, I always let them have it"
+AskReddit,fdmm3gj,t1_fdm5wge,1578555152.0,"If you eat the last piece of food without asking, it's fine by me. But if I accidentally eat the last piece without asking, I feel like the devil"
+AskReddit,fdmk9hs,t1_fdlhgu6,1578553035.0,In Vancouver people forget how to drive in 1 cm of snow
+Eyebleach,fdj6a66,t1_fdil7k1,1578459634.0,I've never experienced gritty gel. All I remember is that it is cold af
+programminghorror,fdis9n2,t1_fdigf6z,1578449904.0,Why are you so evil
+UofT,fdem7c8,t1_fdem45u,1578341975.0,Csc373
+UofT,fde6ilq,t3_ekutu3,1578332259.0,One of my courses still has 2 unmarked problem sets
+UofT,fdc8zq4,t1_fd5emmm,1578269458.0,Of course it is valid to search for jobs on your own. Though I have friends who went through the process and told me that the PEY office was not too happy with people doing this.
+UofT,fd5d9m5,t3_ek02va,1578176477.0,Go to the pey office and talk to them. They may not be happy about it and you might have to pay a fee. But if you're adamant enough they'll usually help you
+AnimalsBeingJerks,fd2wyi8,t1_fd0gvtp,1578152429.0,"No, *dude is just nut*"
+ProgrammerHumor,fd2sg19,t1_fd0wrjl,1578151234.0,It took me 4 years goddammit. Edit: I got wooooshed
+dataisbeautiful,fctt4k4,t1_fctp2ms,1577958139.0,Cool
+northernlion,fcsx5c4,t3_eiq0v6,1577927344.0,go to subreddit NL
+assholedesign,fcp2b1z,t1_fcmtcft,1577848295.0,"To be fair, there are many more factors to packing than just the item size alone. For example, if you downsize a package, that could make packing other boxes much harder. Also also, item sizes could have not been entered correctly."
+woof_irl,fco7ok7,t1_fcmjfqu,1577825667.0,"Pretty good. Not doing much though, just waiting for the new year to roll around"
+iamverysmart,fco7ly1,t1_fcmp7jy,1577825630.0,"The Gregorian calendar wasn't used until the 1500s. You could definitely define a ""year 0"" because that's just the year before year 1"
+csMajors,fcmo220,t3_ehwo4a,1577783739.0,"> settling for amazon 
+
+I wish"
+WTF,fcmetap,t3_ehy8d6,1577772643.0,it's *vibin'*
+softwaregore,fcmes4f,t3_ehyav3,1577772609.0,Windows licenses expire?!
+wholesomememes,fcmdw2y,t1_fcmdqr5,1577771752.0,"Thank you for your insight, u/Crapholeyeahthatsme"
+wholesomememes,fcmdeth,t3_ehxwmd,1577771308.0,"I know this is supposed to be wholesome and all, but since sharks don't have any fingers, does that mean the hook that he is holding is going through his fin?"
+wholesomememes,fcmd4q1,t3_ehy6xl,1577771045.0,"DON'T TELL ME WHAT TO DO
+
+^^^but ^^^ok ^^^fine"
+funny,fcmckj5,t3_ehxomi,1577770534.0,^^nyoooom
+woof_irl,fcmc7up,t1_fcmc07c,1577770217.0,"More like, ""please talk to me and my son"""
+iamverysmart,fcmaanb,t1_fcma8mv,1577768544.0,"It's easy.
+
+&#x200B;
+
+At first you have 0 pencils. You see one, you increment the count. Now you have 1 pencil. Repeat."
+funny,fcma9m6,t3_ehx6y5,1577768519.0,"He just gave up on life at the end there, huh"
+iamverysmart,fcma5ad,t1_fcm7bu5,1577768417.0,I justify 2010-2019 as the the 202th decade because it's just like how people say 2000-2099 is the 21st century. Also people who count from 1 are willfully ignorant of the superior counting-from-zero system.
+bigboye,fcm9ue9,t3_ehx8r8,1577768164.0,That little trot the dog does is so cute!
+aww,fcm9sjo,t3_ehx0n1,1577768121.0,*tap tap tap tap tap tap tap tap tap*
+blursedimages,fcm9nww,t3_ehxcry,1577768013.0,Not blursed. Extremely blessed.
+aww,fcm9hq1,t3_ehx0fi,1577767869.0,:P
+assholedesign,fcm9eu1,t1_fcm99ly,1577767802.0,The packaging sizes are not determined by the workers. They are determined by a packing algorithm that optimizes for size and cost.
+todayilearned,fcm91wj,t3_ehwyed,1577767508.0,"That's a lot of effort, I personally like the smell"
+pics,fcm8tus,t3_ehwwt2,1577767327.0,8. Just common sense honestly
+forwardsfromgrandma,fcm8o3q,t3_ehovrb,1577767198.0,Or just open the door
+MurderedByWords,fciyfde,t3_ehakjf,1577672822.0,"Technically since I'm paying to go to school, I have negative daily income"
+learnpython,fccle97,t3_egxhio,1577599747.0,"I believe in some systems, the system sleep functions don't guarantee that the process will reawaken after exactly some amount of time. It only gives guarantees that it will not reawaken too early"
+ProgrammerHumor,fcal5jg,t1_fcaklts,1577571383.0,I thought this was just a truth table
+ProgrammerHumor,fcag6kf,t1_fca9hrn,1577568667.0,"In C this is still correct, since the && operator returns either a 0 or a 1"
+interestingasfuck,fcafp15,t1_fcad4e3,1577568433.0,Tldr: it's the point in which an object residing in that position could stably remain in that position (between the Earth and sun)
+AskReddit,fca0clr,t3_egtsgz,1577560907.0,I'm floating!
+cursedcomments,fc7x4qf,t3_egndbg,1577520970.0,Caulk it up
+cursedcomments,fc7mx6i,t3_egm9o6,1577512756.0,Is it my turn to repost this yet?
+funny,fc66shk,t3_egeph4,1577473575.0,I sort by rising in order to maximize my comment karma
+MemeEconomy,fc64po0,t3_egdxs0,1577472219.0,[x] I appear in this photo and I don't like it
+MadeMeSmile,fc60mie,t3_egd74g,1577469637.0,**1 out of 1 redditors agree**
+facepalm,fc4xhhi,t1_fc4wrwr,1577432615.0,No
+=======
+subreddit,self ID,parent ID,time,text
+MadeMeSmile,feuaita,t3_eqftir,1579384718.0,"*father, I do not wish to shrink even more*"
+dankmemes,fess9u2,t3_eqg5jj,1579368496.0,"If you're gonna spend the money to give the koala award, just donate directly!"
+iamatotalpieceofshit,fembqyb,t1_femaqem,1579247581.0,"My electricity comes from hydro, so it's much cleaner than fossil fuels"
+programminghorror,feka13d,t1_fek9yg8,1579195717.0,To be fair it's been a few years lol. IIRC each region may have a different sign up service
+programminghorror,fek8ixp,t3_epivtb,1579194830.0,Is this Kiwanis? All of the Kiwanis festivals I've attended have God awful ui
+Overwatch,fea63gl,t1_fea5uo4,1578944792.0,"Correct. It is only sending mouse inputs (emulating a mouse device, if you will)"
+Overwatch,fe6f5ae,t1_fe6ezwq,1578889050.0,great suggestion
+Overwatch,fe60vli,t1_fe606jt,1578879286.0,I actually realized it was far more fun to just tinker around on the piano by hand. :P
+Overwatch,fe60ul0,t1_fe60o91,1578879268.0,yup! Pretty well in tune as well.
+assholedesign,fe5640w,t1_fe51u4u,1578865991.0,Fair
+assholedesign,fe515yt,t1_fe4xneg,1578864689.0,ok
+Overwatch,fe4wcah,t1_fe4rpek,1578863404.0,"I'm not sure that it would though, don't most anticheats detect other programs that have access to the game's memory space?"
+assholedesign,fe4vysn,t1_fe4tzhv,1578863306.0,wells fargo centre is not the same as wells fargo
+Overwatch,fe4ob0m,t1_fe4o76g,1578861313.0,Few hours. Main issue was the figure out how to control aim accurately and precisely
+Overwatch,fe4l8p6,t1_fe4jliw,1578860519.0,Dear admins: is not an aimbot. pls no ban
+Overwatch,fe4l3l0,t1_fe4kydq,1578860470.0,Well he asked a question and I answered. I don't care if it's Sigma's voice line.
+Overwatch,fe4ktak,t1_fe4kh5t,1578860377.0,What
+Overwatch,fe4kqvj,t1_fe4k6tr,1578860352.0,"It is technically a macro (not an aimbot as the positions are preprogrammed), and I don't know how they feel about it. Definitely don't use this in online comp tho."
+Overwatch,fe4jzwv,t1_fe4ho8q,1578860157.0,I'm actually looking for song suggestions because I don't know any lol. (looking for single track midi files)
+Overwatch,fe4jyap,t1_fe4hy7y,1578860138.0,"Oh yeah, another reason why I don't use java for the mouse controlling is that it is nearly impossible to accurately control aim using absolute mouse coordinates (the game resets the mouse to the center of the screen each time.) You would imagine that if you were to send the mouse to the center of the screen, the aim wouldn't move, but that's not the case."
+Overwatch,fe4hmit,t1_fe4fob1,1578859419.0,"Not planning on releasing the source at the moment as it only works with a particular setup (in game sens, resolution), and the code is very scuffed as I made it in a few hours. I do have a github @EDToaster though.
+
+Here's a rundown of how I achieved this:
+
+1. First, you need to figure out how to control the character's aim precisely. I was searching for a Java solution but there wasn't one that I could find. Java's Robot class only allows you to move the mouse cursor to a specific location (absolute movement), but I needed to be able to send mouse inputs (relative movement in terms of dx and dy) directly.
+2. To accomplish this, I needed to write 2 native methods using JNI/C to be able to control the mouse using Win32 methods (or something like this, this is my first time using any Windows C libraries)
+3. I went into the game and slowly moved the mouse around with step 2) to set mouse positions for each of the  65 keys.
+4. Once I had the position, to play the music I just had to read a midi file (java has nice libraries for this), move the mouse, click then sleep for a duration. Position of the player is key here, as you need to be aimed and positioned at the right place."
+Overwatch,fe4a043,t1_fe450uv,1578857204.0,Thanks!
+Overwatch,fe49wwk,t1_fe45l8v,1578857178.0,Does [this](https://www.youtube.com/watch?v=crZaX9I4FjA) count
+Overwatch,fe438dw,t1_fe4308v,1578855355.0,Rimsky Korsakov's Flight of the Bumblebee
+heck,fe41f1g,t3_enjqkd,1578854860.0,This is standard in Canada
+assholedesign,fe3zti5,t3_enoigi,1578854441.0,ITT: people who don't understand that the companies don't run the stadiums
+canada,fe3tn5x,t1_fe1zn5q,1578852728.0,I got the alert and immediately went back to sleep
+AskReddit,fdrb096,t1_fdr4crt,1578681966.0,"What about tyres, ""nah just tires"""
+wholesomememes,fdnw323,t1_fdnv231,1578594024.0,"wah wah wah wahhhhhhh wah wahhhhh wah wahwahwahwahwahawh wahhhhhh wahwhawhawh wah wahwhawhahwahwahwahwhawhawhawh awhawhahwhawhawhwahhhhh hawhawhahwawhahwahwawh wahhhhhh wahwhawhawhahwha wahhhhhhh wahwhahwahwhawhaw wahhhh wah wahhh wahhhh wahhhhh **wah wah wahhhh wahh wah wah** wah
+
+bum bum bum bum bum bum bum bum"
+wholesomememes,fdnnuxy,t1_fdnn06q,1578589653.0,And now I've gone and thrown it all awayyyy
+AdviceAnimals,fdmp2kg,t3_elt7t5,1578558839.0,Is it not illegal to drive with lights off?
+NoStupidQuestions,fdmocqu,t1_fdjdh8m,1578557899.0,"Looks to be markdown formatting where they only returned once (instead of twice, which would be a proper line break)"
+NoStupidQuestions,fdmo8ly,t1_fdj0sjs,1578557751.0,Good old rubber-ducky-infused-dildo
+NoStupidQuestions,fdmntvk,t3_em18j7,1578557233.0,"Driving is muscle memory for me. Sometimes even if I am paying very close attention to the road, I completely forget about the last few minutes and think to myself, ""shit did I stop for that red light?"" (Even though i *know* I did)"
+AskReddit,fdmm5b4,t1_fdmca0r,1578555210.0,"My take on it is if someone asks, I always let them have it"
+AskReddit,fdmm3gj,t1_fdm5wge,1578555152.0,"If you eat the last piece of food without asking, it's fine by me. But if I accidentally eat the last piece without asking, I feel like the devil"
+AskReddit,fdmk9hs,t1_fdlhgu6,1578553035.0,In Vancouver people forget how to drive in 1 cm of snow
+Eyebleach,fdj6a66,t1_fdil7k1,1578459634.0,I've never experienced gritty gel. All I remember is that it is cold af
+programminghorror,fdis9n2,t1_fdigf6z,1578449904.0,Why are you so evil
+UofT,fdem7c8,t1_fdem45u,1578341975.0,Csc373
+UofT,fde6ilq,t3_ekutu3,1578332259.0,One of my courses still has 2 unmarked problem sets
+UofT,fdc8zq4,t1_fd5emmm,1578269458.0,Of course it is valid to search for jobs on your own. Though I have friends who went through the process and told me that the PEY office was not too happy with people doing this.
+UofT,fd5d9m5,t3_ek02va,1578176477.0,Go to the pey office and talk to them. They may not be happy about it and you might have to pay a fee. But if you're adamant enough they'll usually help you
+AnimalsBeingJerks,fd2wyi8,t1_fd0gvtp,1578152429.0,"No, *dude is just nut*"
+ProgrammerHumor,fd2sg19,t1_fd0wrjl,1578151234.0,It took me 4 years goddammit. Edit: I got wooooshed
+dataisbeautiful,fctt4k4,t1_fctp2ms,1577958139.0,Cool
+northernlion,fcsx5c4,t3_eiq0v6,1577927344.0,go to subreddit NL
+assholedesign,fcp2b1z,t1_fcmtcft,1577848295.0,"To be fair, there are many more factors to packing than just the item size alone. For example, if you downsize a package, that could make packing other boxes much harder. Also also, item sizes could have not been entered correctly."
+woof_irl,fco7ok7,t1_fcmjfqu,1577825667.0,"Pretty good. Not doing much though, just waiting for the new year to roll around"
+iamverysmart,fco7ly1,t1_fcmp7jy,1577825630.0,"The Gregorian calendar wasn't used until the 1500s. You could definitely define a ""year 0"" because that's just the year before year 1"
+csMajors,fcmo220,t3_ehwo4a,1577783739.0,"> settling for amazon 
+
+I wish"
+WTF,fcmetap,t3_ehy8d6,1577772643.0,it's *vibin'*
+softwaregore,fcmes4f,t3_ehyav3,1577772609.0,Windows licenses expire?!
+wholesomememes,fcmdw2y,t1_fcmdqr5,1577771752.0,"Thank you for your insight, u/Crapholeyeahthatsme"
+wholesomememes,fcmdeth,t3_ehxwmd,1577771308.0,"I know this is supposed to be wholesome and all, but since sharks don't have any fingers, does that mean the hook that he is holding is going through his fin?"
+wholesomememes,fcmd4q1,t3_ehy6xl,1577771045.0,"DON'T TELL ME WHAT TO DO
+
+^^^but ^^^ok ^^^fine"
+funny,fcmckj5,t3_ehxomi,1577770534.0,^^nyoooom
+woof_irl,fcmc7up,t1_fcmc07c,1577770217.0,"More like, ""please talk to me and my son"""
+iamverysmart,fcmaanb,t1_fcma8mv,1577768544.0,"It's easy.
+
+&#x200B;
+
+At first you have 0 pencils. You see one, you increment the count. Now you have 1 pencil. Repeat."
+funny,fcma9m6,t3_ehx6y5,1577768519.0,"He just gave up on life at the end there, huh"
+iamverysmart,fcma5ad,t1_fcm7bu5,1577768417.0,I justify 2010-2019 as the the 202th decade because it's just like how people say 2000-2099 is the 21st century. Also people who count from 1 are willfully ignorant of the superior counting-from-zero system.
+bigboye,fcm9ue9,t3_ehx8r8,1577768164.0,That little trot the dog does is so cute!
+aww,fcm9sjo,t3_ehx0n1,1577768121.0,*tap tap tap tap tap tap tap tap tap*
+blursedimages,fcm9nww,t3_ehxcry,1577768013.0,Not blursed. Extremely blessed.
+aww,fcm9hq1,t3_ehx0fi,1577767869.0,:P
+assholedesign,fcm9eu1,t1_fcm99ly,1577767802.0,The packaging sizes are not determined by the workers. They are determined by a packing algorithm that optimizes for size and cost.
+todayilearned,fcm91wj,t3_ehwyed,1577767508.0,"That's a lot of effort, I personally like the smell"
+pics,fcm8tus,t3_ehwwt2,1577767327.0,8. Just common sense honestly
+forwardsfromgrandma,fcm8o3q,t3_ehovrb,1577767198.0,Or just open the door
+MurderedByWords,fciyfde,t3_ehakjf,1577672822.0,"Technically since I'm paying to go to school, I have negative daily income"
+learnpython,fccle97,t3_egxhio,1577599747.0,"I believe in some systems, the system sleep functions don't guarantee that the process will reawaken after exactly some amount of time. It only gives guarantees that it will not reawaken too early"
+ProgrammerHumor,fcal5jg,t1_fcaklts,1577571383.0,I thought this was just a truth table
+ProgrammerHumor,fcag6kf,t1_fca9hrn,1577568667.0,"In C this is still correct, since the && operator returns either a 0 or a 1"
+interestingasfuck,fcafp15,t1_fcad4e3,1577568433.0,Tldr: it's the point in which an object residing in that position could stably remain in that position (between the Earth and sun)
+AskReddit,fca0clr,t3_egtsgz,1577560907.0,I'm floating!
+cursedcomments,fc7x4qf,t3_egndbg,1577520970.0,Caulk it up
+cursedcomments,fc7mx6i,t3_egm9o6,1577512756.0,Is it my turn to repost this yet?
+funny,fc66shk,t3_egeph4,1577473575.0,I sort by rising in order to maximize my comment karma
+MemeEconomy,fc64po0,t3_egdxs0,1577472219.0,[x] I appear in this photo and I don't like it
+MadeMeSmile,fc60mie,t3_egd74g,1577469637.0,**1 out of 1 redditors agree**
+facepalm,fc4xhhi,t1_fc4wrwr,1577432615.0,No
+HydroHomies,fc4dokt,t1_fc2zckc,1577413661.0,Happy cake day!
+BeAmazed,fc4327q,t1_fc41uim,1577405332.0,"It's a slightly different shade though, isn't it? I haven't seen that shade of black on a human hand before"
+assholedesign,fc34x8s,t1_fc331p7,1577381519.0,"I'm not in US, but here in Canada is pretty beneficial"
+HydroHomies,fc2vimr,t1_fc2ux8r,1577375164.0,"**soy and proud of it!**. Unlike you, who looks to insult others because they cannot accept themselves for what they are. Good luck to you"
+HydroHomies,fc2uqa3,t1_fc2uor9,1577374576.0,Ah. Just like I said. *insecure as fuck*
+HydroHomies,fc2uh2g,t1_fc2u1b1,1577374377.0,Someone's insecure
+oddlysatisfying,fc2tllj,t3_efw2jp,1577373669.0,Imagine misplacing one magnet at the very end
+dankmemes,fc2c0hs,t1_fc29g13,1577351249.0,F
+confusing_perspective,fc2br6v,t3_efskc5,1577350803.0,"Hello it is me, *sloth*"
+sbubby,fc2bjix,t1_fc2bcej,1577350440.0,Bruh how many family members do you have
+ProgrammerHumor,fc2bham,t3_efsr4c,1577350340.0,I'm floating!
+woof_irl,fc2bgqi,t3_efse8c,1577350312.0,Understandable
+rarepuppers,fc2bdlo,t3_efseb4,1577350165.0,When can I hire her for a shampoo commercial
+blursedimages,fc2aftu,t1_fc2afe0,1577348560.0,F
+assholedesign,fc299gn,t1_fc25wty,1577346652.0,"You can literally set it up to autopay.
+
+>  How often do you buy 12 things in a month 
+
+do you never buy anything?"
+assholedesign,fc28v4v,t1_fc28s54,1577346022.0,"Cashback is literally free money. If I gave you the option to spend $1000 and get no money back, vs spending $1000 and getting 5 dollars back, what would you choose?"
+wholesomememes,fc28ccu,t1_fc288r8,1577345240.0,very cute :)
+OldSchoolCool,fc27byn,t3_efrebc,1577343764.0,That hair!
+wholesomegifs,fc27bh0,t3_efrh3o,1577343746.0,What an incredibly story.
+>>>>>>> b2c2856e21b6decdd12b8bdccd381cae2c58ec91

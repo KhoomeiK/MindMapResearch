@@ -1,0 +1,128 @@
+subreddit,self ID,parent ID,time,text
+autorepair,ffxvrsp,t1_ffxpf9p,1580333384.0,"I drive with windows down in the back for my dog year round, even on -20C (-4F) days. The secret to maintaining some form of heat is to allow the air to come in and out without causing a tornado inside the cabin. I find driver window closed, passenger front cracked an inch and my two rears all the way down is the best."
+googlesheets,ffwtx5a,t3_evjvf5,1580310912.0,"I have three spreadsheets (Executive, Manager, and Base) that I share information between. For me, the best way to marshall and share the data was to have a sheet called INPUTS! where I would gather the data required to be sent to other sheets.
+
+&#x200B;
+
+For example, the Executive sheet has the EMPLOYEE! spreadsheet that contains a list of all employees (active and inactive). The Manager and Base spreadsheets need to know what employees are active for certain drop downs, so what I'll for is on (EXECUTIVE)INPUTS! I will filter out all active employees (Let's say to Column B). Then on my Manager and Base spreadsheet when I need the employee list I will just IMPORTRANGE the column B of information I need from (EXECUTIVE)INPUTS!. The nice thing about this setup is that if you break something, it's generally localized to that one workbook and you don't need to go fix it in others as they only get pointed to the INPUT! and not the specific EMPLOYEE! page.... This is just one example in my three spreadsheets, there are many others. I.e. I send active inventory from a Google Forms linked sheet in the Manager Sheet to both the Executive and Base.
+
+&#x200B;
+
+I further save myself some time by adding the share keys of the other spreadsheets to column A of each INPUTS! sheet. This way I can just reference the cell as needed in my IMPORTRANGE function.... I hope this wasn't too confusing! Let me know if you'd like further help.
+
+An example of one of my equations...
+
+=IMPORTRANGE(Inputs!$a$2, ""'UCDL'!a1:a"")"
+Mustang,ffvttyk,t3_evbum3,1580273076.0,"Great work! Love the reflection on the rear quarter, as well as the front grille."
+aww,ffvtdmp,t1_ffvsxnf,1580272698.0,Upvoted you. Thanks for your vote either way!
+aww,ffvpcft,t1_ffvnuyk,1580269593.0,You're Goodmith in my books!
+auto,ffvnkqa,t1_ffvnfdn,1580268353.0,"Ahh, gotcha. I just have experience with NAV addons which were OTA changes, TIL!"
+aww,ffvn1b5,t1_ffvlpzf,1580267985.0,"I read that the initial infection, incubation and symptoms period was nearly instant, it was stated as ""length of typing a Reddit post."" /s
+
+Yes, clearly that's not the life cycle!"
+aww,ffvm5yf,t1_ffvl14r,1580267386.0,"Notice how she didn't want the cat, but by the end of the post she did not want to move. It's definitely love, but joked it's a parasite blamed for ""crazy cat ladies""."
+weedstocks,ffvlw3y,t1_ffuj2iw,1580267199.0,"This is more likely government bureaucracy rather than Ford. Same thing with distillers and the LCBO.
+
+Example from 2016.
+https://business.financialpost.com/entrepreneur/toronto-distillery-co-challenges-ontario-rules-that-force-it-to-sell-liquor-at-markup-for-lcbo"
+apple,ffvkyxa,t1_ffu9phi,1580266571.0,"I've seen something similar play out.
+
+
+""This ship is unsinkable!"" 
+
+Iceberg: Hold my Coors."
+aww,ffvjhz1,t1_ffva5v5,1580265582.0,"You may have contracted Toxoplasma gondii about 3/4 of the way through your post.
+
+Edit: downvotes for a poop parasite joke. Niiice."
+auto,ffv7orm,t1_ffv6eq6,1580257653.0,"Ask the members what store and contact them... It doesn't need to be your local store.
+
+To add it they just need to login to the Dealer Portal and have your VIN and what options need to be added."
+auto,ffuzryf,t3_evd5cd,1580252486.0,"Go in to a Chrysler store, speak with the Service (maybe Parts, depending on store) Manager and offer a small token of appreciation for them doing the edit"
+autorepair,ffrakbz,t3_euon4a,1580154035.0,"**Options**
+
+1. You could certainly talk to Skoda. I have no experience in regards to them as a manufacturer, but other mainstream manufacturers do have a ""Goodwill period"" for things like this, where the warranty just ended (I'm not sure if it has, again, I don't know Skodas). If approaching a manufacturer, hard-given demands are most likely to be met with a ""No""... You catch more with honey than you do vinegar. Definitely worth a shot though!
+2. On a vehicle like this, I would not recommend a new engine.
+3. I would think that this would be your best bet, especially if you can find a low KM engine. Most used engines will come with some sort of short-term warranty as well.
+
+One note I would make is the €400 diagnostic/inspection fee.... that seems high. What's the shop's hourly rate? As I don't know, even at €100/hr, you don't need 4 hours to determine the engine needs to be replaced."
+wallstreetbets,fflxtdu,t1_fflws9m,1580045508.0,To wipe it off your stomach?
+illegallifeprotips2,ffjci6j,t1_feo2lns,1579995403.0,But they have friends in America Jr. called CSIS.
+googlesheets,ffcazgl,t1_ffbkh9z,1579795533.0,"I think this is as best of a solution as I'm going to find without diving into Script.
+
+Thank you!
+
+Edit: Solved! Thanks for the inspiration. I changed my chart to an area line graph and set the opacity for my actual kms to 0%...  [https://imgur.com/a/DBaBSpU](https://imgur.com/a/DBaBSpU)"
+trashy,ffbw9en,t1_ffa7fkp,1579784855.0,"With the Prius having more precious metals than your average, I believe."
+googlesheets,ffb2lu2,t3_eshnz0,1579750216.0,I think we can lay this one to rest.
+googlesheets,ffaykru,t1_ffaxe66,1579747483.0,"So for the checkbox thing, I did  =if(J3=True,VLOOKUP(K3,Description1!A:B,2,FALSE),"""")  which basically breaks down to ...If the checkbox is clicked/true \[=if(J#=True)\], then go to Description1 sheet, look at column A and look for the corresponding number beside the checkbox \[Vlookup(k#,description1!a:b...\] and once it finds that number it returns the 2nd column over from where it found it. \[...2,....\]. I also didn't want the data sorted \[FALSE\] and then I needed to finish the if statement, which is the if not clicked. In that case I just want the box to be empty to \[,"""")\]"
+googlesheets,ffapr7t,t1_ffao5ay,1579741618.0,I played with your sheets set up to make it a simpler solution... I hope that the new way works for your vision. Check out 'Pay Checks'
+googlesheets,ffaosay,t1_ffan23o,1579740967.0,"I wasn't exactly sure what you were getting at, but I took an attempt.
+
+What I did is when you check a box on Sheet 1, it looks to Description1 and finds the matching one and displays. At the bottom of Sheet1 I also created a filtered list of only the checked boxes.
+
+Is this what you were going for?"
+googlesheets,ffan2rg,t1_ff8v179,1579739814.0,Are you able to set the permissions on the sheet for anyone to see? I need to request access right now.
+googlesheets,ffal8w5,t1_ff9ag9d,1579738559.0,"Unfortunately, I want to display the data past the warranty; the chart would be used as a visual aid to show how differing extended warranties would benefit the person based on their driving parameters. I was just hoping to be able to draw on those lines to show base warranty periods and when they might exit them."
+googlesheets,ffak1su,t3_esjnhh,1579737671.0,"How do you want the data to show up on the Form?
+
+I'm not exactly sure what you're trying to pull off, but there are a few add-ons you can use. For instance, I have a Form that looks to a spreadsheet for ""Active Stock #s"" then populates those stock #s in to a dropdown on my Google Form.
+
+Edit: The add-on I use to do this is on the Google Forms side of things and is called Dynamic Fields. The spreadsheet/form combo I have it installed on is used for business purposes so I pay an annual fee so I get the automatic updates as it's worth it to me. It appears to get bad reviews for the Free version."
+aww,ff7of83,t1_ff7ku7r,1579654434.0,https://youtu.be/or3tLKPAh48
+cars,ff5z01z,t1_ff5w587,1579614761.0,"""Hear me out...but... what if... we hire two engineers for the money we were paying one?!"""
+GodsUnchained,ff4ga4j,t1_ff437fn,1579562896.0,I've got 5. Tell me what I've won!
+HumansBeingBros,fezj8di,t1_fezhe9s,1579457915.0,....heeeelllooooo!
+autorepair,fevaa7h,t3_eqlema,1579395028.0,"As others have stated, it needs to be replaced. My recommendation is that your husband not do the replacing if his diagnosis was it is fine. He most likely says it's fine as he doesn't want to open that can of worms, which may be a lack of skills, knowledge or both.
+
+Do you want him being responsible for bleeding the braking system of air after replacement?"
+wallstreetbets,fettily,t3_eqjyu4,1579379893.0,English Major? Who's the real autist here?
+history,fepbgpt,t1_fep0b9p,1579316454.0,"That's his version of ""so to make a long story short""."
+autorepair,fela7h3,t3_eprnip,1579217449.0,"You should be good as long as you hook the negative terminal up to the negative and the positive up to the positive. You will lose any presets....seat memory, radio stations, etc."
+personalfinance,fekzb3f,t1_fekvg61,1579210725.0,Had the forth word flipped... Cash instead of finance. It makes sense now
+personalfinance,fekuxdw,t1_fekrxe3,1579208113.0,"If you purchase finance, depending on that month's programs, you are actually foregoing incentives to receive that 0%.... therefore there is a cost to financing still. That cost + some people's aversion to borrowing makes paying cash the better path for them."
+autorepair,feildkb,t3_epbya7,1579141235.0,"You will want to do with a #3 JIS for rotor, although I'd recommend a # 2 as well based on it being in other places in the vehicle"
+kia,feiiw9i,t3_epbh8l,1579139570.0,"Is your vehicle under warranty? If not, then yes that would be a chargeable item."
+kia,feiirzj,t1_feigq1p,1579139490.0,"If your Kia is under warranty, your Kia dealership is billing Kia for the updates instead as warranty does cover them"
+Hyundai,feew1hm,t3_eoq68h,1579042437.0,"With stroller and all the other gear, that seems to vortex around the baby, I think a Tucson would probably be a better fit... But I'm not going to tell you how to live you life!"
+ethtrader,fedjtgn,t1_fedfua7,1579013324.0,"Holding the block, watchin' them girls swing up and down."
+nottheonion,fedehcf,t1_fed9gu7,1579009284.0,The Goopiest
+ethereum,fe5nx3u,t1_fe5d9iq,1578871986.0,This. I remember reading this a while back and it did work!
+ethereum,fdws06p,t1_fdwbxrn,1578761809.0,"> [EvanVanNess](https://www.reddit.com/user/EvanVanNess/)  
+>  
+>There was a spec freeze with the idea that there would be some changes when testnets matured. This current release includes the finalized BLS standards, which needed to be agreed on by a bunch of blockchain orgs, so it couldn't happen until now.  
+>  
+>There will still be some minor changes, but this spec will get audited.  
+>  
+>Goal is still end of q1/early q2
+
+From above. I bring the same message as reading twice as much as posting, but still, I bring the sauce."
+todayilearned,fdp4w28,t1_fdp4d84,1578620058.0,They Plano'n on building any express lines anytime soon?
+todayilearned,fdo69cv,t1_fdo3qw8,1578599620.0,He living with Buttercup?
+cats,fdnl9b7,t3_em9s6d,1578588153.0,Sophisticated Jim Carrey?
+GEKKO,fdn3ab8,t3_em21pc,1578576016.0,"Negative returns would be your conservative estimate. It's not as easy as just gaining the DAI savings rate. Getting a working, profitable algo is time consuming"
+GodsUnchained,fdksr4a,t1_fdkpmvk,1578510383.0,Because someone said so!
+trashy,fdkm8dg,t1_fdkjf4g,1578506464.0,She does seem to want to go down unexpectedly
+autorepair,fden67u,t3_ekwmg4,1578342547.0,"""I feel like GM should stand behind their product in this situation despite the powertrain being out of warranty.""While I understand where your feelings are coming from, that's just what they are, personal feelings. The warranty is a contract with a clear beginning and end; unfortunately, you are just on the other side of the end.
+
+""Can I talk to someone else to get the dealership/GM to be partly responsible for the repairs?""If you had previously set up \[i.e. were you previously a customer before your vehicle was towed in?\] a relationship at a GM dealership, they may go to bat for you by going in front of the manufacturer and pleading your case for a goodwill repair/assistance, but if you haven't, it really just sounds like ""I'm not a great, good, or even a basic customer of your shop, but you need to help me with this!"".
+
+&#x200B;
+
+""This is just crazy. I have a $12,000 piece of scrap metal at this point.""Yep, crazy, but there are ways to protect against this like extended warranties. It's one of the reasons why people buy new vehicles or add a warranty to a used vehicle, it's called peace of mind. Remember, a mechanical breakdown is a possibility that you need to think about when purchasing; not just sticker price!
+
+\-------------------------
+
+Best bet at getting assistance from the dealer is to approach them *asking* for assistance, not demanding or feeling like it's deserved.... ""You catch more flies with honey than you do with vinegar"". Ask if there is a goodwill policy from GM surrounding a situation like this."
+autorepair,fcwah84,t1_fcwa9e8,1578020891.0,"If it's a shop worth going to they will have recorded them on the work order. If they don't record them or don't want to produce them for you, then you have your answer on whether you want to use their services further.
+
+Edit: Especially regarding air bag systems, there will be fault codes. If the trouble light is on its because the system detected an issue and it will provide/save a code until it's either cleared or the battery goes dead."
+autorepair,fcw5p50,t1_fcw5kjo,1578017753.0,Ask the shop for the codes.
+autorepair,fcw1u3b,t3_ej4wai,1578015193.0,"You need more detail. What fault codes were present before the clock spring replacement and what were active afterwards?
+
+It could be they misdiagnosed or that there is more than one issue here, but either way the ""it will take time to go out"" was either a lie or incompetence; both reasons to find a 2nd opinion. Why? After replacement they would have cleared fault codes and saw that one returned immediately. It's at this point they should have said ""we installed it, it fixed ___ code but we still have ____ so you need _____"". The fact the clock spring didn't fix it isn't a sign it's a bad shop, because without a crystal ball you cannot guarantee a part will fix something electrical until you try.
+
+I think they did a quick scan for codes and whatever code was active probably had a recommended diagnosis of ""test clock spring first"" so they just jumped at replacement hoping it would fix it."
+todayilearned,fcvtqjw,t1_fcvr64d,1578009901.0,"Both Amish and Mennonite have varying degrees of technology usage, and as you mention, it varies from community to community. The main determining factor on community regarding the use of technology is generally the sect within the Church they're apart of and like anything, there is a scale with extremes on both ends. 
+
+You have your 'Old Order' on one end, which has hardly changed their views on technology in hundreds of years, to those in the middle that have electricity in their house and businesses, but still drive a horse and buggy, to those you couldn't even distinguish from a non-Mennonite/Amish person (aside from maybe speech cadence and last name)"
+RoastMe,fc9vpwe,t3_egp0jb,1577558907.0,Your forehead needs it's own portrait oriented photo.

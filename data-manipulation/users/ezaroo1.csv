@@ -1,0 +1,845 @@
+subreddit,self ID,parent ID,time,text
+chemistry,ffn0l5d,t1_ffmnpk3,1580060732.0,"Yeah if the OP just has an object with cadmium in the alloy, as long as it isn’t jewellery (more likely to ingest of breath any dust), then it isn’t something I’d be worried about."
+Chempros,ffmitk9,t1_ffmfi5o,1580055355.0,"No problem, hope you get it sorted quickly! 
+
+Ohh advice for platinum NMR, you’re best to figure out where in the spectrum you’re going to be looking and only run around there as wide spectral fields limit your resolution and platinum has such a huge spectral width (like 7500 ppm) that you’re peak would potentially not contain multiple (or any!) data points - that’s bad - if you ran the full width spectrum in one go.
+
+If you have no idea where your signal is going to be, then split the whole spectral window into 4 2000 ppm blocks, from -7000 to 1000 and shift the centre of the window around. 
+
+And run 3-4 pulse spectra in each window until you see the peak. Then narrow a bit more and run something like a 500 ppm window roughly centred on your peak.
+
+The good news is Pt is only about half as sensitive as phosphorus so this doesn’t take long, and it’s rare you can’t narrow the range down to at least 3000 ppm off of similarities to other reported shifts.
+
+But otherwise you end up chasing errors and noise thinking they are real peaks."
+Chempros,ffjscr1,t1_ffgk9b5,1580005635.0,"As long as it’s a well known compound it really doesn’t matter! 
+
+We set up platinum, mercury, nitrogen-14, selenium and tellurium in our spectrometer with homemade standards... The only one that used the accepted standard was the platinum (because Na2PtCl6 was a thing we had), but are we fuck dealing with Me2Hg, Me2Se, Me2Te or ammonia under pressure... 
+
+As long as your compound as a well known shift relative to the reference and a sharp line you’re golden! 
+
+So boron is your issue, with Se and Te I believe we used the diphenyl dichalcogenides (Ph2E2) as the standards, but I’m going back a long time in my memory for that one. Mercury we used diphenyl mercury, for nitrogen we used ammonium chloride... 
+
+I’d ask around your department, I’m sure someone will have some sodium hexachloroplatinate - I’m surprised you don’t. If you have the potassium salt that’s fine as well.
+
+Same with diphenyl diselenide (although it’s not expensive) I’m sure someone has a old bottle lying around. 
+
+We’ve had no issues with using these references and we get the same chemical shift as reported when we make literature compounds. 
+
+It’s the good thing about a standard, if you all reference the standard you don’t have to use the standard - when do you think the last time someone actually used dimethyl mercury was?"
+chemistry,ffjr1m1,t1_ffiq340,1580004714.0,"I don’t think it actually names them it just gives the names of related compounds as published. Which 98% of the time is the name chemdraw gave the molecule... And 1.9% of the time is wrong. The last 0.1% is the time chemdraw got it wrong and some super freak actually worked out the real name for their stupid 16 ring, 27 stereo centre, cave fungus extract."
+chemistry,ffjqsk5,t3_ettkvk,1580004549.0,"This got very long...
+
+Biggest advice I give to all new phd students, make sure you are happy! 
+
+That’s it, if you’re happy; you’re work will go better, you’ll be more productive, you won’t feel like it’s the end of the world when it inevitably goes wrong, and it’s just better.
+
+So go to the places, look around and figure out which place you’d rather live. 
+
+If they both come out the same, go by the likely projects.
+
+Yes, your happiness is more important than the research proposal! Yes, I know that sounds weird but if you do better at research, you’ll get better papers and it really doesn’t matter where you are a good paper makes a great phd. 
+
+I’ve seen far too many talented phd students end up incredibly depressed by everything to not say happiness is more important.
+
+A phd is a potentially very lonely existence, everyone around you who in a normal job would be a coworker is actually potential competition for something, it can get very cut throat in certain groups (group culture is the single biggest thing to check out on visit days, ask people in groups you have no interest in about the ones you are, they’ll tell you the real stories). And it is such an individual effort over such a long time it’s obviously isolating that way, very few people in the world get what you do. 
+
+I’ve heard and seen some real horror stories of groups and the phd students either do great (on paper) but hate research, or they get chewed up and spat out. Then there are one or two members of the group who thrive because they do the stabbing - not a nice environment.
+
+All this is why mental health issues are such a big thing among graduate students.
+
+So advice in order;
+
+Go where you think you’ll be happy - but check the places out first don’t dismiss out of hand.
+
+Pick research you find interesting not research you think will be big news. 
+
+Ask around on visit days, find out if members of the groups you’re interested in are always first in and last to leave, ask about post docs - they are rarely the cause of bad lab culture on their own but they are the best people at amplifying shit ones (my goal as post doc, don’t amplify shit lab culture).
+
+And finally for when you finally do the phd!
+
+Biggest advice, your PhD is surprisingly little work! What do I mean by that because it’s a lot of work?! Right?
+
+Yes, but really your PhD thesis will end up being 6 months to a year of actual work you did. Because the rest of the time will all be spent on failed shit, so remember that’s not your fault that’s just research. 
+
+I think the work in my thesis was maybe 8 months of my actual PhD...  
+
+So how does that affect live? Simple! If you aren’t being productive, don’t be afraid to go home - find a PI who understand being in the lab for 15 hours a day doesn’t make you more productive. 
+
+Single best thing about my PhD PI, he gave literally zero fucks about what I did or when I did it as long as at the end I got a PhD and he got some papers. 
+
+ Is my existence as a PhD student was taking the piss, I’d fairly often start at 10 or end at 4. Occasionally both... That’s not realistic and was heavily based on my chemistry (lots of 24 hour reactions). But I stand by my advice and say it to every phd student when they look fucked “get to a stopping point and go home”. 
+
+It works, without fail they come back the next day and do better than they were. You need to give yourself breaks, research isn’t robotic it needs your brain and that only works well when it’s tested and happy. Working 13 hours then having a 2 hour group meeting at 8 pm on a Wednesday makes no one happy. 
+
+So don’t be afraid to ask for time off for vacations, don’t be afraid to take occasional long weekends, don’t be afraid to leave at 5 pm, or even 4. 
+
+Just make sure if you’re going to no one can question your work, if your work is excellent and progressing acceptably and you have a reasonable PI they’ll have no argument. And don’t take the piss!"
+chemistry,ffjjfdj,t1_ffjfrcn,1579999582.0,"You’re my new favourite person, thank you!"
+chemistry,ffim2vg,t3_etto23,1579977133.0,"Well, I feel fairly safe telling you how to do this since it would be absolutely impossible to do at home. 
+
+For 1, NBr3 explodes at -100 C... So you can’t make it at room temperature.
+
+But I’m still going to a start with, absolutely do not do this. It isn’t just the final compound is a problem but lots of other things in the synthesis are dangerous.
+
+Anyway;
+
+Your idea for making it absolutely won’t work, if you take R2NH and HBr you’ll make [R2NH2]^+ Br^- a simple acid + base reaction.
+
+——
+
+So how would we go about it? Well you first need to make the [bis(trimethylsilyl)amine](https://en.m.wikipedia.org/wiki/Bis(trimethylsilyl)amine) (that’s the (CH3)3Si)2NH stuff - also called HMDS), that’s fairly trivial if you have the stuff to do it...
+
+You need anhydrous liquid ammonia (not the stuff you use for cleaning, pure NH3 at -33 C), then you react Me3SiCl with that and it gives you your product (if you really wanted this compound then you’d probably buy it). 
+
+Ok now we have (Me3Si)2NH, how do we make that H into a Br? 
+
+Well, first we need to deprotonate it - as we learned earlier this compound is a base! So we need to deprotonate a base. How do you do that? You need an extremely strong base so our strong base acts as an acid.
+
+That is [n-butyl lithium (BuLi)](https://en.m.wikipedia.org/wiki/N-Butyllithium) - that is a butane where one hydrogen atom has been replaced with a lithium atom... It reacts violently with water and is pyrophoric - burns spontaneously in air.
+
+So we take our BuLi and our HMDS to make the lithium amide - [LiHMDS](https://en.m.wikipedia.org/wiki/Lithium_bis%28trimethylsilyl%29amide), I wish Wikipedia would use different brackets in urls, it means you can’t format reddit links properly...
+
+This also is pyrophoric and reacts violently with water...
+
+Then finally once you have your pure LiHMDS you react that with elemental bromine.
+
+If you were in a research lab wanting to do this, you can buy LiHMDS but I’d probably buy the HMDS and purify it to very high levels then do the deprotonation myself, just because it’ll be better.
+
+——
+
+Now in a real lab, that’s all very possible and not all that scary. I would feel very comfortable doing all of it. It requires schlenk lines, glove boxes, properly water and air free solvents, good practical skills and a bunch of expensive (millions) equipment to analyse it but it’s very possible.
+
+Outside of a properly equipped lab, it’s impossible. The BuLi would decompose the second your tried to use it. The Me3SiCl would fume HCl into your face the second you tried to use it, if you some how made the LiHMDS it would burst into flames the second you tried to use it.
+
+Then eventually the NBr3 would explode and kill you.
+
+So don’t.
+
+But it was a interesting set of reactions to talk about so enjoy!"
+worldnews,ffgf8ht,t1_ffgdx9f,1579904903.0,"Ohh I got you now, sorry wasn’t totally obvious! 
+
+I know, you can literally watch the interviews with the parents of the guy, they just want her to have her day in court - they were amazingly nice about it all. And the courts probably would be as well.
+
+She’s probably have gotten less than a year prison (prison is likely because she killed someone by driving without due car, you literally can’t argue it) but with a fairly decent chance of a suspended sentence. And since she would likely leave the country after that doesn’t really matter.
+
+The only reason she isn’t is because the US government won’t waive the immunity - I’m not sure the US government has ever waived immunity. I think the best it’s done is try someone in the US for the crime, but that’s my memory - I hope it’s wrong but I fear not."
+worldnews,ffgd5m7,t1_ffgc376,1579903601.0,It didn’t... They didn’t even charge her until what 3 months later?... She also hasn’t been in court and has no sentence... You know the bit where the harshness is decided?
+worldnews,ffg92vq,t1_ffg3qww,1579901099.0,"You seem to be arguing against something I haven’t said...
+
+What she did was awful, I was replying to a guy who was just making shit up... With what actually happened. And I said I get why she ran but what the US government did is unacceptable.
+
+That doesn’t mean what she did is fine, I said it’s understandable and I don’t say she shouldn’t be punished (wtf is the world coming to where I have to explicitly point that out ffs). Anyway, like you seem to agree no one wants to be punished and most people will try to get away with something if they can - and she had a golden ticket, which she took. I can’t criticise someone for taking that golden ticket but it doesn’t mean it’s right that they did.
+
+The problem is the US government...
+
+And she did have diplomatic immunity, but the UK tried to pull a trick after she left of saying “well now she isn’t here, she doesn’t have immunity!” And that was never going to fly, the US were going to protect her. It was a good trick and worth a try but not a chance of it working.
+
+And no she isn’t legally obligated to face the consequences of anything - that’s why this is happening... If she were, she’d have been extradited. 
+
+And why isn’t she legally obligated? Because of the US government.
+
+Hopefully my points sink on this time."
+worldnews,fffx0dp,t1_fffsfl6,1579893651.0,"It’s not beside the point though, yes it doesn’t change what happens but it makes her actions understandable, does it not?
+
+Or are you telling me if you made a genuine mistake and you had a get out of jail free card you would not take it and voluntarily go back and risk going to prison? That would make you a very rare person indeed if you wouldn’t be tempted.
+
+Have you been there and done it? Because I haven’t and I honestly don’t know what I would do in her place. I am fully comfortable admitting that maybe I would do the same thing in the same circumstances and I’d be very surprised if many many other people wouldn’t be tempted do exactly the same thing. 
+
+——
+
+What she has done (leaving) isn’t a good thing but it’s totally understandable and she should face justice but if the government is shielding her from the consequences I don’t imagine many people saying “yeah you know what, let me just go do that”. 
+
+The US government’s reaction to their diplomats committing crimes is to hide them, this isn’t first time this has happened and it won’t be the last - don’t blame the person doing something many others would do, blame the people that actively encourage it."
+worldnews,fffr46t,t1_fffl8jt,1579889980.0,"She wasn’t drunk, she just did a stupid - she was in the airbase (I don’t know if she had just got back to the UK or not, but would seem likely) pulled out on to the main road but on the wrong side. She hit the guy on the bike, stayed with him, either called the authorities her self or someone else did, they came, they interviewed her, did all the usual things (breathalyser), took statements etc, and then they let her go - as is very common, and then she was advised by US officials to get on plane. 
+
+Now the issue is the getting on a plane, but as much as I hate to admit it, I can’t say I blame her. It’s wrong that the US government is standing by this but from her personal point of view I fully get why she went, she has a young child and go be facing many years in prison for what in reality was a 30 second but of brain fade. 
+
+Which lets be honest, we’ve all had brain fade... And if you’re constantly going between countries that drive on opposite sides of the road this happens - I’ve seen it dozens of times and it’s scary but humans fuck up. 
+
+The parents of the guy killed have said as much, they understand she fucked up and she’s sorry and they even said they would go to court and ask for her to get a non-custodial sentence.
+
+Everything she has done apart from that mistake has been either correct or absolutely understandable.
+
+The issue is the US government hiding someone from justice."
+worldnews,ffdt256,t1_ffcv4m8,1579828216.0,"I don't like to poke the trolls... The guy was clearly going to be a dick if I said ""we're better look at us!""..."
+todayilearned,ffcbsn8,t1_ffc7hwc,1579796046.0,"They do a lot of acceleration in the atmosphere yes the thinner bits but if you went splashing through it at 10 g acceleration you’d be a bit worried. 
+
+Anyway the launch TWR on an ICBM is in the 3 g region, realistically that could well hit 10 g by first stage burn out. The shuttle didn’t start at 3 g that’s the TWR right before the boosters separated.
+
+Then you have terrifying things like the sprint missile (an anti-ballistic missile weapon) that accelerated at 100 g.
+
+Anyway, the point was that ICBMs take off a lot faster so the need to worry about sound is less, that point stands."
+todayilearned,ffc6mhz,t1_ffc1nz0,1579792750.0,"Another point is ICBMs accelerate an awful lot harder - a normal rocket used for launching into orbit has a thrust to weight ratio of 1.2-1.5 or there about a - ICBMs have higher, hard to get good info on modern missiles (obviously) but minuteman has a thrust to weight ratio of 2.7 at launch - that means it accelerates at 2.7 g at launch and by stage separation is probably in excess of 4-5 g.
+
+So any issues with acoustics rebounding off the ground are lowered by the fact they accelerate away so fast.
+
+If an orbital rocket accept later that fast, one you’d break shit and kill people but more problematically you’d burn up in the atmosphere, ICBMs basically go up and then tilt to get their target, orbitals rockets need to go fast sideways and that means in the atmosphere."
+worldnews,ffc4xrp,t1_ffc4efj,1579791621.0,"Decent amounts of paid sick leave, paid maternity and paternity leave, shorter working weeks, 5.6 weeks (28 days for those working 5 days a week) of holidays a year, proper minimum wages so you don’t have to tip a server for them to eat that week, restrictions on no reason termination of employment and countless things I’m sure I haven’t even considered.
+
+There are no *huge* differences and the UK is far from utopia when it comes to workers rights and conditions but the US is basically corporate paradise and that makes it a pretty poor place to be a worker.
+
+——
+
+It is not about bosses who are cunts, that happens everywhere but rather about rights and conditions."
+chemistry,ff7t15a,t1_ff7pkgj,1579657654.0,The link the other person posted covers most of it and they even did calculations for the wave function - it was probably where I saw it back in the day :)
+worldnews,ff7nugn,t1_ff7nkjw,1579654025.0,"Yeah, it’s pretty amazingly big!"
+worldnews,ff7n8h3,t1_ff7m94z,1579653597.0,"Not that far, just head East until you find some land :) (I’m in the UK)
+
+I added a little extra info to the main post but I’ll put it here in case you don’t see. 
+
+——
+
+The total weight of water in the earths atmosphere at any given moment is approximately, 1.4x10^17 kg - or in more sensible numbers, about 140,000 trillion kg! So 5 trillion kg represents about 0.004% of the water currently in the atmosphere. 
+
+Which is truly huge but, I would be surprised if that is what ended a snowball Earth on its own, it just isn’t enough water. It just happens to roughly be at the right time.
+
+If we found another 500 impacts the same size from the same period, then we’d be taking for changing the climate that dramatically."
+worldnews,ff7m2v8,t1_ff7ljm0,1579652800.0,"To be honest, I read your comment and it made me think “I wonder how much space that takes up?” So I worked it out, and since I worked it out I figured I’d share it.
+
+It’s very back of the envelope as far as calculations go, but that’s what you get at midnight from my brain. 
+
+It’s worth looking up how much energy a hurricane actually releases, it’s a frankly terrifying amount of energy stored in those things."
+worldnews,ff7ldk2,t1_ff74fvh,1579652312.0,"If it remained a gas - totally transparent! 
+
+At a relative humidity of 50% that would take up 1 million cubic kilometres (half that at 100% humidity). 
+
+For reference that is the amount of volume in the troposphere (about 20 km 65,000 feet high) above a square with sides about 200 mi (350 km) long sides.
+
+So a box that is 220 by 220 by 20 km in size. 
+
+——
+
+So not that big - probably about the size of your average hurricane. 
+
+——
+
+Now in reality a lot of it probably condensed to water pretty quickly and turned into a fairly quickly. And your average cumulonimbus cloud weighs something like 500,000 kg - so you’ve got something like a million thunders clouds in weight. Apparently an average hurricanes clouds weighs around about 108 billion lb (that’s about 50 billion kg - thank you NPR for that number). 
+
+——
+
+So it’s 100 times more water than an average hurricane! If it all condensed, which it probably wouldn’t, in reality it probably became a large hurricane sized storm created instantly. 
+
+Which would be pretty amazing but isn’t that far out of the scales humans can imagine. It’s the instant creation that would fuck with your mind.
+
+——
+
+To add a bit of extra context, 
+
+The total weight of water in the earths atmosphere at any given moment is approximately, 1.4x10^17 kg - or in more sensible numbers, about 140,000 trillion kg! So 5 trillion kg represents about 0.004% of the water currently in the atmosphere. 
+
+Which is truly huge but, I would be surprised if that is what ended a snowball Earth on its own, it just isn’t enough water. It just happens to roughly be at the right time. 
+
+If we found another 500 impacts the same size from the same period, then we’d be taking for changing the climate that dramatically.
+
+If the Earth was on its way back to a “normal” climate already this probably could have accelerated it a bit, but remember the humidity of the air will have been a lot slower in a snowball Earth scenario - and as you can see this wouldn’t get us close to today’s levels. So unless you were right on the tipping point it wouldn’t do much."
+chemistry,ff7ionp,t1_ff6ykau,1579650461.0,"Yeah it’s a very weird system, it’s not surprising you’ve never thought/read about it in detail. I’ve only done it because we did it fairly often in the lab I did my phd in for making sodium salts of maingroup species - Na2Ex (where E = S, Se or are and x = 1-4). 
+
+The really fun thing is those electrons in the cavity have an orbital shaped sort of like an s orbital! And their excited state is like a p orbital - it’s basically particle in a box..."
+chemistry,ff7iarz,t1_ff4qsas,1579650201.0,"So the reason colours exist is because of absorptions and emissions of photons by electrons changing energy levels. 
+
+Basically something being blue tells us that all of the photons which are lower in energy (red/green) are being absorbed by the solution. 
+
+The link the other person posts actually has the calculated UV-Visble spectrum on solvated electrons - but it’s a pretty dense paper even for a chemist so I wouldn’t expect you to know half of what it’s talking about - the general idea is because there are so many different things present in the solution - there is e@(NH3)n]^- - this is your solvated electrons with n being the number of ammonia molecules (2-8) they all have slightly different spectra, and when don’t really know where they absorb, computational chemistry didn’t like them.
+
+We also have [Li(NH3)4]^+ your lithium cation - this absorbs in the near infrared with a tail into the red part of the visible spectrum (not enough to explain anything on its own).
+
+So the real reason for the colour is ion pairs, these are when the [e@(H3N)n]^- and [Li(NH3)4]^+ get close together (but don’t recombine) so we have contact of some type - for example some of the nitrogen atoms of the e cluster are coordinating lithium ions.
+
+In those, where n is smaller the clusters absorb light in the red part of the spectrum and larger clusters in the green. 
+
+Since you get a mixture in solution you end up with blue! The [e@(NH3)n]^- clusters probably absorb at similar sort of wave lengths but like I said computational methods didn’t like them (very complicated but basically computational chemistry doesn’t like calculating absorptions and it also dislikes anions and a localised electron is pretty much the nightmare of computational chemists).
+
+So why do these species absorb light in the red and green parts of the spectrum? Well, it just happens that the lowest energy level of the free electron in those clusters happens to be that energy difference away from the second level. 
+
+Ok so obviously you can ask why is the energy gap that? Well the answer to that has to do with the size of the box (the cavity in the cluster) you put the electron in. But it isn’t something I’m going to be able to explain, that’s going to need a physicist and an awful lot of quantum mechanics to figure out. But basically, bigger box bigger energy gap so for small clusters you get absorption in the red and larger ones it’s in the green. 
+
+You may ask why you don’t get even bigger ones that make it blue, well the answer is you do, the solution does absorb slightly in the blue part of the spectrum but those clusters tend to break into smaller ones - the smaller clusters are just more stable. 
+
+———
+
+That’s the blue colour covered! And if you’re wondering, it basically doesn’t matter what metal you dissolve - you get the same spectrum. Because it’s the electrons in ammonia that are giving the colour not the metal - so any alkali metal (group 1) or any alkaline earth metal (group 2) gives the same spectrum. You see very very minor differences with europium but that is probably because the [Eu(NH3)n]^+ ion absorbs at a very different wave length from the alkali metals - the n is somewhere between 7-10 there (compare with 4 in the other examples!) but I can’t be bothered to check. The point is it doesn’t matter what the metal is, because the blue is from the electrons moving around on their little box. 
+
+Also doesn’t really matter what the amine is! Again because the electrons still end up in the same size of box - although there is probably more difference there, but it’s still blue.
+
+——
+
+Thankfully, the gold/bronze colour is a bit easier to explain!
+
+It’s a metal, at this point there are so many electrons running around that the liquid is now metallic. Btw for it to be a metal the electrons delocalise over the whole thing, so there are now so many electrons in solution that they freely move around the liquid, they are no longer in clusters but rather a sort of web (the density of the metallic phase is about 30% lower than liquid ammonia). 
+
+So the solution is shiny for the same reasons metals are - essentially no photons and absorbed and all just bounce off - that’s your silver colour for any metal.
+
+But it is bronze? Ok so that’s harder to explain, basically metals absorb photons in the ultraviolet region of the spectrum. But in the case of this liquid that absorption fails into the visible region and that removes some blue from the spectrum - giving you a bronze colour.
+
+As for why exactly it does it, who fucking knows. Probably something to do with the formation of very large clusters of ammonia molecules which would absorb in the blue region but that’s guess."
+worldnews,ff61f2t,t3_eruwqm,1579616672.0,"It’s sad but it’s probably just because chasing those large scale tax dodgers costs an awful lot of money and is unlikely to work out well.
+
+Chasing people falsely claiming benefits it’s rather easy in comparison and they don’t have hundreds of millions to throw at fighting it. 
+
+It’s not a case of punishing the poor over the rich it’s a case of picking the group you’re more likely to catch. 
+
+Remember people falsely claiming benefits are literally stealing money from the government - that’s taxes already paid that are being used to pay these people. 
+
+People not paying the tax they should while a bigger problem are not taking money the government already had.
+
+People falsely claiming benefits are also potentially depriving others of those benefits and certainly depriving people of other government services. 
+
+——
+
+If anyone is struggle think about it this way, the first group are stealing £/$/€100 directly from you’re wallet and the second group are not giving you £/$/€1000 that you thought you might be able to get but hadn’t planned for (the government knows these people would pay and plan for it). 
+
+Yes one is a bigger number and a bigger problem but the other is not an insignificant problem.
+
+It’s shouldn’t be a case of one or the other, but would those staff actually get more money for the government if swapped? Would the money spent be covered by recovered? Would the cost of benefits cheats increase because of the lower scrutiny? 
+
+Governments are very complex things and countries aren’t easy to run."
+chemistry,ff5rc5l,t1_ff4c6bp,1579607205.0,"Uhmm, so these solutions aren’t really radical anions they are actually electrons which are solvated the same way a cation is solvated in a solution. 
+
+You get clusters of ammonia molecules (7 or 8) which arrange themselves to form a cavity with their hydrogen atoms pointed in the way - to make a sphere with a radius of about 2.5 Å - and the electron sits in that cavity.
+
+Now of course you can view it as one large molecule with a SOMO that is localised in that cavity (because that is what it is). But you’ll probably agree it doesn’t sound like a normal radical anion and it is the same structure you get if you just work out how the dipole of ammonia would interact with a negative point charge. That’s why it’s referred to as a solvated electron rather than as an ammonia radical.
+
+ps the nitrogen is never going to be the bit interacts with a negative species."
+chemistry,ff3m1m1,t1_ff3ftt6,1579543929.0,"1. Because almost all things in any solution are solvated - nature likes to spread a charge over as large an area as possible and a free electron is really rather charge dense! So it coordinates.
+
+2. As far as I’m aware the blue colour is (essentially) the same no matter what the electrons are solvated in - there is probably the most minor of shifts in wave length but to us it’s the same colour.
+
+3. It happens because the electrons enter a metallic phase and the electrons pair up! You go from an conducting but barely paramagnetic liquid to an extremely good conducting (better than mercury) diamagnetic liquid! The bronze colour is genuinely because it has become a metallic liquid.
+
+——
+
+Edit: u/Aethi probably be interested in [electride salts](https://en.m.wikipedia.org/wiki/Electride) it is what happens if you isolate the cation in a complex so the electrons don’t just rejoin them. So it’s a cation for example Na(cryptand)^+ e^-"
+chemistry,ff24emb,t1_ff21io6,1579493501.0,"Your precautions are to not be near it when it inevitably explodes? Great, how are you planning to clean up the toxic shitfest that leaves behind? 
+
+Look you can obviously do this if you want but this is not a safe procedure to be doing at home (or anywhere outside an industrial plant designed for it) with equipment you’ve just kind of made up.
+
+To convert white phosphorus to red phosphorus you need to heat it in the absence of air - in an inert atmosphere - you’ll have oxygen in that pipe, which means the phosphorus is going to start burning and at that point you’re going to get incredible pressures in that pipe. That flame is something like 3000 C - the pressure will be insane if any amount of it catches fire and you’re just hoping the pipe survives long enough for it to burn itself out. 
+
+Also to actually convert white phosphorus to red at a decent rate you need to hit over 300 C, 250 will take days as well... [This paper](https://pubs.acs.org/doi/abs/10.1021/ja01215a052) has the kinetics, as you’ll be able to see at 250 C and 1600 minutes (26.5 hours) the reaction mixture was still 56% white phosphorus - that means it would take what about 5 days to hit 99% done. 
+
+To get 100% in the 6 hours you plan would require about 320 C.
+
+That also means you’re talking something like 11 atmospheres of pressure in your pipe... Better be really well made.
+
+290 C would get you about 60-70% in 6 hours. Although then you’d only be at 10 atmospheres of pressure... still terrifying.
+
+Like I said do it if you want, but I hope you know how big a risk this is. It’s sticking your head in the mouth of a hungry lion levels of risk."
+chemistry,ff20z6n,t1_ff20orx,1579490889.0,"Do you understand just how bad white phosphorus is? There is literally only about 3 solvents one the world I can think of that are worse for my life than the thing you plan to have in it. 
+
+And you want to avoid toxic chemicals? 
+
+White phosphorus is absolutely terrifying, please just leave it alone. If you want red phosphorus just stick it in the fucking sun and it’ll do it itself."
+chemistry,ff20llu,t3_er4kfx,1579490616.0,"Uhmm you shouldn’t be worried about white phosphorus fires or explosions (those are bad but not your biggest issue), you should be worried about how epically toxic it is.
+
+It’s terrifyingly toxic, it’s about 3 times more toxic than elemental arsenic.
+
+1 g is enough to kill about 3 people... 
+
+And you say you don’t want to work with toxic chemicals? 
+
+This is why home chemists are fucking scary.
+
+Please don’t do any of this, one you’ve described a pipe bomb, two the debris of that pipe bomb are pyrophoric, three the debris are also exceedingly toxic."
+chemistry,ff0g00g,t1_ff0azq3,1579468557.0,"It can, but the starting material needs to be a ketone - for example [dimethyldioxirane](https://en.m.wikipedia.org/wiki/Dimethyldioxirane) is made from acetone - if you start with an aldehyde you’ll make a carboxylic acid instead because you’ll oxidise the aldehyde. Even if you did make it, it would be a simple single molecule rearrangement of the atoms to give the carboxylic acid.
+
+But you can’t oxidise a ketone and a rearrangement isn’t possible, so you can form the dioxirane."
+chemistry,ff0fhq5,t1_ff0efez,1579468378.0,"And my comment to that other user was about their comment not your question.
+
+However, my answer also answers your question.
+
+No, the second one isn’t possible - see reasons."
+worldnews,fezxb3l,t1_feyhe3w,1579462892.0,"I mean going from living in rudimentary houses to big cities seems like a massive jump but it really isn’t. By the time you end up with an all powerful ruler, specialised jobs and different classes you’ve got all the ingredients for large scale construction.
+
+I would be surprised if that step of cultural evolution from the first farming communities to large scale cities took more than 1000 years - it’s amazing how rapid social changes in society can occur. 
+
+Just look how fast the industrial revolution changed countries it first happened in. Society was unrecognisable within a single lifetime.
+
+Human civilisations appear and disappear very fast really.
+
+——
+
+But equally I wouldn’t be surprised if we found evidence of beginnings of what we would call civilisation much much earlier that failed for environmental reasons or just humans fucking up.
+
+If they found evidence of a city from 20,000 years ago that died out and all evidence and memory was lost Before we started again, I wouldn’t be shocked but without any evidence I’m also not surprised we advanced so rapidly that there aren’t really traces of the process of building up to these large early cities.
+
+Because it probably happened over 50-250 years and the people just kept building in the same place."
+worldnews,fezvlv3,t1_fey6pku,1579462232.0,"Yeah railways are a bad case for a free market because unless you allow the building of multiple rail networks (environmentally ruinous) or allow multiple companies to run on their own full timetables on the same lines (hello capacity problems) you can’t have a free market. 
+
+So if you’re going to have a controlled market anyway, it may as well be publicly owned with competition for things like contracts to build new lines or trains."
+worldnews,feztzp3,t1_feyodz1,1579461634.0,"You could even upgrade the railways out of a military budget... Railways are great for logistics, high capacity, high speed railways are better. 
+
+It would just take convincing certain companies they need a railway division...
+
+It would obviously be better not to do that but I feel like US lobbying for military spending is too strong not to do it that way."
+chemistry,fezsl77,t1_fezpepu,1579461115.0,"Nah I can’t imagine any conditions which would convert a carbonyl to a dioxirane that wouldn’t oxidise the aldehyde you’d need to make methyl dioxirane to acetic acid.
+
+It’ll be impossible to prepare by any sensible method - you might be able to prepare it in an argon matrix with a low pressure oxygen atmosphere and with electric discharge to produce mono atomic oxygen.
+
+But that’s very borderline on the word “synthesis” to me and I would be surprised if even that actually worked, because a unimolecular rearrangement would give you acetic acid and you’d have to be very very cold for that not to be extremely rapid - that species would maybe be an intermediate but so short lived you’d struggle to observe it.
+
+——
+
+Edit: you might also be able to detect it in as an intermediate in the reaction of ozone with propane the same way dioxirane (H2CO2) has been detected in the reaction of ozone and ethylene and low temperatures but again not really a synthesis."
+chemistry,fezqhka,t1_fezpt1u,1579460368.0,"I believe the question is “if 3d and 4f orbitals exists how is level 4 full when there are only 8 electrons”
+
+The answer is of course because of the Aufbau principle and the order of the orbitals."
+chemistry,fezq5xu,t3_er0c6w,1579460259.0,"You should probably ask your teacher, this isn’t the best place for this but you’re essentially looking for is the [Aufbau Principle](https://en.m.wikipedia.org/wiki/Aufbau_principle).
+
+As you can see shells are important but it’s more that each individual type of orbital being full is more important - in noble gases all energetically available orbital levels are full."
+worldnews,few4581,t1_few0dhq,1579405097.0,"You’re just an idiot right? Once again, read.
+
+Blood plasma has is not about clotting, it’s about total blood volume.
+
+Clotting is platelets - I initially assumed platelets but it’s unclear and some articles suggest the doctors were asking for clot printing drugs - [antifibrinolytic drugs](https://en.m.wikipedia.org/wiki/Antifibrinolytic).
+
+This is a perfect case of a reddit medical expert, you got your degree off of r/todayilearned I take it?"
+worldnews,few3rbl,t1_few1chm,1579404928.0,"Read the article you fucking donkey, she wasn’t incompatible there was a cunt of a doctor sat in his house who didn’t listen to what the other doctor said - and gave the advice for a normal adult not a pregnant or postpartum woman.
+
+ps they gave her blood, the problem was it came out of her faster than it went in because the cunt of a doctor was an idiot."
+worldnews,fevoaln,t1_fev9vkm,1579399664.0,"It wasn’t blood but clotting drugs and it seems what he did was against the guidelines and patient died, so he’s going to have a fun time explaining that to the GMC. 
+
+He apparently insisted on tests before issuing clotting drugs - that is the guideline for normal adults, pregnant women get the drugs. 
+
+Sounds like he didn’t hear the words “c-section” and just refused to move."
+worldnews,fevn9kg,t1_fevaan2,1579399264.0,">Last week, the inquest heard from anaesthetist Dr Tom Hall, who broke down in court when he recounted how haematologist Asad Omran refused to issue more blood clotting products.
+
+>Dr Hall told the inquest: ""He told me I should not be giving products because of evidence-based practice, it was the wrong thing.
+
+>”He started quoting research papers at me.""
+
+>Dr Hall remembered describing Mrs Pintilie's blood as ""looking like water"".
+
+>Mrs Beasley-Murray (coroner) said: ""The refusal of the consultant haematologist ... was completely at odds with guidelines.""
+
+>She added: ""He should have been aware of the protocols for major haemorrhage.""
+
+Literally sounds like one guy had decided to alter to protocols for major haemorrhage all on his own and there was nothing other doctors could really do about it. 
+
+Yeah they weren’t fast at dealing with things but being faster if a guy is like “yeah nah” doesn’t really help."
+chemistry,feu7oza,t1_fetxtru,1579383899.0,"Yep, A will indeed do that - I don’t know about B I’m not an organic chemist but A is fine."
+chemistry,ferk98u,t1_fequfpk,1579354968.0,"Yep, that will indeed do that."
+worldnews,feomiex,t1_feofake,1579302181.0,"Ohh yeah, certain 3rd countries can use the automated gates now can’t they? Sorry been awhile since I traveled with a non-EU citizen...
+
+It is amazing how different two places can treat crossing a border really isn’t it?"
+worldnews,feo3l65,t1_fenomf6,1579294625.0,"Always amuses me going to the US that the Americans have the exact same process as me although slightly different questions*, compared to me going into the UK where I don’t even see a single human... Scan passport at machine, doors open, in country. 
+
+*although last time I entered the US I walked up to the CBP officer said hi and handed over my passport and waited for the “what is the purpose of your trip, how ping are you here, where are you staying?” Normal questions, but no he took my passport, yawned, stamped it, handed it back and waved in a “shoo” type motion at me. 
+
+The guy didn’t say a single word it was so unnerving, I walked away thinking “people are definitely about to grab me right now” but nope, got my luggage, handed over the little sheet at the door and went straight out. 
+
+Fucking weird. Don’t get me wrong, I like the lack of human interaction entering the UK but if you’re going to have a human it is less worrying if they speak..."
+chemistry,femzxwf,t1_femvxn4,1579273850.0,"Ohh I can definitely see how someone could find chlorophosphines extremely nasty smells, I think I’m odd for not violently disliking them..."
+chemistry,femszq6,t1_femsaxr,1579268747.0,"Mate, impurities does not mean normal atmospheric contents for things which are stored in air. If air is a hazard in an SDS it’ll say it - [here](https://www.nwmissouri.edu/naturalsciences/sds/b/Butyllithium.pdf) is the SDS for BuLi, notice it says store under nitrogen.
+
+Yes, it can oxidise things and will explode when mixed with fuels (ethanol) or strong reducing agents (hello metal powders) air is not a hazard. 
+
+If it were, we’d store it under nitrogen or argon. 
+
+It will also spontaneously ignite fuels... Again, carbon dioxide is not a fuel, it is absolutely fully oxidised.
+
+To react like that with CO2 it would need to be a reducing agent - it is not. 
+
+Look, you’re arguing with someone with a PhD in inorganic chemistry. Who spends their day working with compounds that do react violently with air, water, carbon dioxide, and other things. 
+
+Silver nitrate is not one of those things and you haven’t provided a source for it reacting with CO2 or forming explosive compounds (on it’s own or with CO2). I was never arguing it wasn’t dangerous just that you were giving advice that wasn’t totally true.
+
+Honestly, just back down from this one - you’re wrong and relaying at least second hand incorrect information, it’s ok to say you were wrong you don’t have to keep going."
+chemistry,femr7vm,t1_femqmca,1579267272.0,"Again this is something that I’ve never heard of, can’t find any sources for and doesn’t make physical sense.
+
+So in your mind, silver nitrate decomposes in the presence of CO2 to give silver fulminate? How? What is the driving force for that? 
+
+Why does the [SDS](http://www.labchem.com/tools/msds/msds/LC22500.pdf) for silver nitrate say that carbon dioxide fire extinguishers are suitable for fires containing silver nitrate if this is the case? Why does it not say store under nitrogen or argon? Why is CO2 not listed as an incompatible substance? 
+
+If you can provide a source for this claim I’ll happily retract all of my doubts and say sorry, but currently you’re not providing anything apart from your own memory and frankly ridiculous mechanisms."
+chemistry,femmp1q,t1_femkt39,1579262833.0,"Yeah that’s not possible unless alchemy is real! Silver fulminate is AgCNO - you need a source of carbon to make fulminate. 
+
+Silver nitrate decomposition is annoying, wasteful and expensive but it isn’t dangerous. 
+
+Improper storage (for example, unsealed in the same cabinet as ethanol) is dangerous because the decomposition plus those vapours gives you all you need to make silver fulminate - and it will."
+chemistry,femhwv8,t1_femfglk,1579256436.0,Because UV light decomposes the silver nitrate to silver metal.
+chemistry,femhv6x,t1_feky9gm,1579256365.0,"Can I get a source for silver nitrate being stored incorrectly? 
+
+Stored with things like ethanol, for sure that is an issue but you imply that just storing in day light is dangerous rather than just wasteful."
+worldnews,fekkog6,t1_fek5cyf,1579202046.0,"The darkness is exaggerated as well :) Chicago is so far south! It’s cold as fuck but you know nothing of short days! :) Come to Scotland in December enjoy seeing the sun for a few hours that month.
+
+Americans in Scotland are always so funny when they realise the day lengths and then they check how far north they are."
+chemistry,fekerwr,t1_feke8sj,1579198529.0,"That’s good practice but these ones are really rather bad, so extra careful!"
+chemistry,fekeoc8,t3_epfj2t,1579198469.0,"I did some work with [seleninyl chloride](https://en.m.wikipedia.org/wiki/Selenium_oxydichloride) I don’t really know how to describe the smell, it’s sort of like thionyl chloride but less stinging and just worse in every other way. 
+
+Low molecule weight phosphines - those are awful.
+
+Now not a reaction I’ve done but a reaction I had the fortune to be near was using diisopropyl ditelluride - yes low molecular weight ditellurides, that was one of the worst smells I’ve ever encountered.
+
+And the worst lab smell I ever encountered was when we were cleaning out some old retiring professors lab and we were picking out some chemicals we liked to the look of and then our health and safety coordinator asked us to kill some old ruined organometallics the guy had lying around. 
+
+That’s the background but what happened next was a big fuck up, we found a 3 L flask of butyl phosphine (BuPH2), did an NMR and it was an absolute mess, like 5 different things and we didn’t need it enough to want to distil it so we decided to kill it. Now I wasn’t the senior phd student and didn’t want to be involved in this so I was like “have fun with that, I’ll do the organimetallics” so I did those, then he did the phosphine and we decided to leave both buckets overnight.
+
+He got in before me the next morning and accidentally flung the phosphine bucket down the drain... He dumped the bucket and then went to get his morning coffee (perhaps that was the mistake) I walked into the lab, and as soon as I opened the door ohh my fucking god, the smell was just horrific. I looked at the fumehood we’d been using for disposal and saw the organometallic bucket and immediately knew what had happened, went through to the office and said “do you know what you’ve done?” 
+
+This was Friday at 9 am, we dumped a whole bottle of bleach down the drain, turned the tap on and waited a few hours... Still unbearable, more bleach and went home... Monday at 9 am, still disgusting but getting better. Wasn’t until Tuesday afternoon that the lab smelled normal again. 
+
+Absolutely disgusting, after that we only did disposal in our groups other lab (where we didn’t work) but! Then we found out the issue with that, the fumehood outlets on the roof from that lab are right beside the air conditioning intake for the air con for the NMR room, server room and other things like that! So we we were killing thiols, phosphines and things like that, the smell went out on the roof and immediately back in and circulated round half the building :) of course our lab was as far from it as possible, so the safety guy comes storming in to blame the inorganic group for the fact the whole department stinks, and our lab smells normal, the whole floor smells normal, and he is so confused. Sees our pile of shit being disposed of and is like “has that been anywhere else” “moved from the smelly cupboard to that” then he went and sniffed around and figured out the smell was centred on air conditioned rooms, went to the roof and figured it out. 
+
+Came back to our lab pissing himself laughing saying “you won’t fucking believe what the idiots have done up there”. 
+
+After that, we had to kill shit in our lab again :("
+chemistry,fekcppi,t1_fejq67d,1579197302.0,"I always thought chlorophosphines smelled a bit cabbagey and a bit spicy, sort of like the most horrible mustard possible.
+
+But I don’t actually dislike them all that much, low molecular weight phosphines on the other hand, trimethylphosphine is actually the smell of super death, not just death but super death."
+chemistry,feka3yj,t3_epjcf3,1579195765.0,"One word of caution, that structure it is going to be pretty similar structurally to [benzidine](https://en.m.wikipedia.org/wiki/Benzidine) and that is pretty carcinogenic - so I’d be very very careful to minimise exposures to it.
+
+Now with the large alkyl groups I’m not that concerned but if you made something between C0 and C5 on the side chains I’d be much more concerned. 
+
+So operate like these things are going to give you cancer - if it turns out they aren’t carcinogenic that’s fantastic but there is a good chance they are.
+
+*p*-diaminobenzene has also been suggested as possible carcinogen but lacks data, so basically anything relatively planar with that diamino arrangement is potentially pretty bad for you.
+
+——
+
+You also have to remember that the dinitro compounds (likely precursors) are of exactly the same hazard level because the body gets them both to the same place metabolically (I cant remember if we reduce nitro groups or oxidise amines but basically either compound becomes the same thing *in vivo*).
+
+So be very very careful."
+worldnews,fejguk3,t1_fejaix2,1579173620.0,They mean January the 25th - it’s ok it was just a wild American discovered on the internet.
+chemistry,fejgm0m,t3_ephowk,1579173295.0,"The big secret of a PhD is it’s actually 90% on you, now that sounds obvious but it’s really not in the undergraduate system if you go to a “top” university by default that opens doors that wouldn’t be open otherwise.
+
+A PhD is different, if you do your research and come out the end with 2 good papers you’ve got a good PhD and it doesn’t matter where it came from or who the PI was. 
+
+So because it’s about how you do in your research, you being happy being there makes more difference to your prospects at the end than the name of the institution on the but of paper at the end of it. 
+
+The next thing is the PI, you need a PI you’re going to get along with, toxic PI student relationships always leave the student feeling like shit. Obviously they aren’t your best friend but make sure you can actually stand to have a meeting with them and they aren’t going to be actively shutting on you - this is something you should have assessed on the visit by asking people in other groups about things they’ve heard, other groups are infinitely more honest. 
+
+But that’s less important than picking a PI who publishes in good journals! That’s pretty much just because of the experience and contacts it comes with, a big part of our world is networking and the more of it you can do effortlessly the better. If you were going purely on networking you’d pick a PI who is really rather established but they also often tend to be the least hands on - it depends what you like, if you need the PI involved to point and give advice regularly then go younger if you don’t like hand holding go older. I went for the latter, but there is no right or wrong and it is a generalisation - some older PIs are annoyingly hands on and some younger ones are very hands off. 
+
+Now if you have absolutely no plan to go into academia then the big name university can have a benefit applying to industrial jobs. But I don’t think it’s worth sacrificing your mental health for a slight boost in an application for a job you may or may not want. Not going to a “top” university won’t disqualify you from those jobs, it just won’t make doors open as easily. 
+
+But like I said the most important thing considering how mentally taxing a PhD is is to make sure you are going to be as happy as possible. That will make sure your work is the best it can be and will make everything work better.
+
+So pick the best university for you, since you’re in the USA pick a place with multiple PIs you’d be happy working for (since it’s not guaranteed) and just enjoy it! It’s a great adventure."
+worldnews,fehi08e,t1_fehhjml,1579116936.0,"If it’s retelling an exact copy of a sketch in written form, yeah I’d say where I got it from and have done. Normally I just link a YouTube video of the sketch and say “reminds me of this...” or similar.
+
+I’d say there is a difference between a simple joke and a sketch or story type joke, simple jokes with a punchline are rarely original work the same isn’t true of the story type or sketches."
+worldnews,fehc6qq,t1_fehbtyx,1579113549.0,You get my up vote for that one!
+chemistry,feh2505,t1_feg6jcd,1579107563.0,"Yeah I don’t if that redistribution will work, boron is pretty much the element I’m least familiar with in the main group. But I am pretty sure I have seen similar in literature for boron.
+
+But apart from that seems reasonable!
+
+Ohh god knows what phosgene and S4N4 will do! That’s probably going to be a mess. 
+
+You’re on the right lines, you want to make a transition/main group metal S2N2 complex and react with phosgene or similar."
+chemistry,feh1v1h,t1_fegzqrb,1579107400.0,"Yes it was :) I was lacking inspiration for compounds for this one and I had seen that compound recently so I thought “why not” and put it in. 
+
+B also came from reading, but rather I looked at someone’s past catalogue!"
+todayilearned,fegw6sm,t3_ep26j4,1579103897.0,"Can confirm, grew up on the west coast of Scotland, had palm tree in our garden. 
+
+It wasn’t all that big about 3 m (10 ish feet) tall, but until it learned to fly it was a perfectly healthy plant. 
+
+We lost ours (I say lost it wasn’t hard to find, it was a few metres from where it was) to a rough couple of weeks in the early 2000s. We also didn’t have electricity for 10 days and lost 1/4 of our roof, so the palm tree wasn’t the biggest problem! 
+
+Considering how well palm trees do in hurricanes it shows you how bad our winter storms can be."
+worldnews,fegsx8k,t1_fegp5qt,1579101795.0,"At least give credit! 
+
+As far as I’m aware the joke is from the British political satire puppet show [spitting image](https://m.youtube.com/watch?v=FjE080TGEEk)."
+chemistry,feg44pd,t1_feg3ovl,1579076060.0,"Yep, that will work!"
+chemistry,fefv6c3,t1_fefpcjd,1579066230.0,"I was explaining why your post is only about 50% upvoted and why no one is really replying in case you were wondering. 
+
+As for why it won’t be met with approval - it’s more people won’t care rather than they’ll be negative - the amount of amateur chemists actively posting on this sub reddit is much smaller than the amount of chemistry students and professional chemists, those of us in those categories don’t need to go digging around for how to get hexane. 
+
+Most home chemist posts get negative responses on the sub as well because often it’s carried out with so little regard for personal and public safety that it’s frankly terrifying. 
+
+You’re of course totally ok to keep posting about it here but there are probably better places especially since you were asking for someone to do a distillation - no professional chemist is going to distill WD-40 to get some hexane."
+chemistry,fefn9a8,t1_fefja4l,1579060028.0,Most people on this sub are not home chemists that’s why posts about good sources of hexane aren’t going to get a lot of positive responses.
+chemistry,feeqmw6,t1_fdttitg,1579039145.0,"Talking about PhDs is not at all about departments! 
+
+You apply directly to the supervisors (unless you go down the centre for doctoral training route) and it’s their decision if you get in or not. 
+
+It’s a bit different from the USA which is what a lot of the advice on here is aimed at (they apply to department), that being said my advice is very because in the end you end up working for one person.
+
+So my advice: first thing is to identify the area of chemistry you want to work in, then find some supervisors who do work you like the look of, see where they are working and decide if you’d be happy to spend 3.5-5 years there. 
+
+Don’t go “ohh Oxbridge is where it’s at I’ll apply there!” they don’t always have the best people for every area and certainly not when you get down to subfields (they aren’t even better equipped than Imperial, Durham, St Andrews, Edinburgh, Bristol, Newcastle, Manchester, or Glasgow). 
+
+I did my phd at one of that list and our departmental equipment (NMR, crystallography etc) was on par with oxbridge and in some areas just better. 
+
+A phd is not about studying or passing exams it’s about doing research, as such it’s basically all on you! So if you’re happy you’ll get a great phd from a “bad” department and if you’re unhappy you’ll get a shit phd from a “great” department. 
+
+The other thing about choosing a person over a place is, you won’t have thought about this but, academics can move and it isn’t uncommon! In my phd I think about 10% of the department turned over, people left and new people came in. Most of the people leaving were retiring, but some went to other universities - and all of the people joining came from other places with established research groups.
+
+That means as a phd student you may end up having to move university, like I said it’s not common but it happens and if you go with an early career research is more likely - because if their good they’ll be offered higher ranking jobs at other places. 
+
+Normally the phd students are offered a choice of move or stay, but stay is normally less appealing since no one in the department is likely to be able to help with their work. Moves within the UK are easy because 90% of students are EPSRC funded and they don’t care which university the money goes through.
+
+We had one academic move to Germany and because the funding council aren’t going to pay for students in another country it was up to the receiving institution to pick up the funding, and they said they’d only fund 2 foreign students, lucky the group had a couple of Germans, so only 4 phd students had to remain behind and they were all on their last 18 months so no big deal. 
+
+It isn’t worth worrying about and it shouldn’t factor into your decision (unless when you visit you hear rumours about the academic wanting to leave). 
+
+That leads to open days, these aren’t like undergrad open days, if you get invited to a postgraduate open day by an academic you’ve almost certainly been accepted on paper - you’ll be introduced to the group and probably taken out for lunch by some senior members. This is your opportunity to not come across like a murderer or rapist, if you do that you’re probably fine! 
+
+Make sure to talk to other people in the department, ask phd students from other groups about the group you’re applying to! They’ll always be more honest. People don’t like to admit their supervisor is a cunt, people in other groups are more than happy to tell you. 
+
+That leads into the giving yourself time off thing, as a phd student treat it like a job, if you turn up at 9ish and leave at 5ish 5 days a week and occasionally work a weekend if you need to you’ll be fine. If your prospective supervisor is the type that doesn’t require weekend work or set hours but somehow all his students end up working 7-7 every day and 8-5 on a Sunday then that labs culture is awful and you should run as fast as your legs can carry you - this is why you need to ask subtle questions of the group, ask if they go out together at weekends, ask what there is to do around the place, and ask other groups straight about hours the group work - everyone always knows which groups work excessive hours. 
+
+I am very much a work as little as is necessary to complete the task at hand kind of person, and thankfully I had a very hands off supervisor who just wanted to see results and didn’t care when I worked to get them. So I’m not the right person to ask if you’re totally different, but the advice I always give is, if it’s 5 pm and your reaction is just about to finish (unless it needs something done or it’ll die) leave it, go hole and pick it up in the morning. 
+
+I essentially never started a reaction after 15:00 , doing very air sensitive inorganic meant if I started after 15:00 the reaction wouldn’t be up and running until 18:00, and fuck that. 
+
+I came in somewhere between 8-10 normally, would work up anything I needed to and start the next reaction, I’d then run NMRs and then I’d have a break and spend the afternoon reading, chatting in the office, etc. If my reaction didn’t need babysat and I didn’t need human contact I’d just leave and go home, sit and do exactly the same thing but if I get bored I could throw on Netflix and relax. 
+
+Same is true of days off, if you’ve been working flat out for weeks and you go in and no matter how hard you work you just seem to get nothing done, the chances are you’ve burnt yourself out! Have a long weekend. Or go in on the Friday but spend it catching up on analysis or reading rather than doing lab work, the day of doing something different will sort your brain out. 
+
+——
+
+Now, when did I start writing up my project, about 3 weeks before it was due to be honest... You should be (essentially) writing your experimental as you go along so that is already done. And then it’s just a little intro and a discussion. I would guess your department has a guideline or limit of somewhere between 10,000-15,000 words? It sounds like a lot but it’s not! 
+
+70 days is probably 2-3 times more than you’ll ever need! I wrote my phd thesis in about 90 and I was dicking around pretty hard doing the intro, think the intro took me about a month and half and I did the rest of the thesis in remaining time. Intros for a phd are awful - great fun to write since it can be random and totally your style but really time consuming because of that, but for you at undergrad level they are essentially just a few thousand word essay on roughly the idea of your project. Honestly, it shouldn’t take you more than a week maybe two. And the results and discussion is universally viewed as a piece of piss, it’s literally writing down things you’ve already thought! Unless you’ve got a crazy amount of results you’ll be done with that again in a week to a week and half. 
+
+So I’d plan to take 30-40 days to write up, but don’t be surprised if you finish up in half of that. Writing 1000 words a day is a great target, some days you’ll struggle to do it and others you’ll write 3000. 
+
+Don’t be afraid in the first few days to just close the document and do something else. Or write a stupid nonsense story, I wrote a 600 word masterpiece about a chicken to get my final year project started. And my phd intro started with “what the fuck am I meant to write here?” And that remained the first line for about a week :) because I moved on and did a later part of the intro first because it needed less impact than an opening line. 
+
+That’s another good bit of advice, you don’t have to write in order! In fact I wouldn’t recommend it! Do the results and discussion first, and then figure out what you need in an intro to make it understandable. 
+
+That has a few benefits, it cuts down unneeded junk in your intro so it looks more crisp (and that gets better grades), and it also looks more like your project went to plan!
+
+Also don’t be afraid to lie! That obviously doesn’t mean falsify results but if your project went off down a tangent it doesn’t hurt to pretend it was more planned than it was. Like if your project was initially synthesising some random thing to do testing on but along the way you found something else and it worked better, it doesn’t aleays need the rest of the story. 
+
+Sometimes the story makes it work better, sometimes it doesn’t use your judgement but especially for big projects, you don’t need to write everything you did. Although for undergrad, I’d start by writing everything and see if phd students in the group think it’s too much. 
+
+Anyway, I’m bored writing and I think I covered most of it, any other questions or anything I’ve missed either reply to this or PM and I’ll answer!
+
+ps That’s harsh about your grading :) our report was 40% our supervisor mark was also 40% and we had 10% viva and 10% presentation."
+chemistry,fee2kdv,t3_eolpul,1579025075.0,"Yeah the stuff you learn in your first organic course absolutely could be solved by a computer :) but real life examples are much harder. 
+
+Since an NMR spectrum doesn’t really constrain your structure all that much on its own it’s about what you’d call “chemical common sense” you could draw hundreds or thousands of molecules that would fit every proton spectra you’ve ever seen - but you know the right answer is something simple. 
+
+Now in the real world we will also have, carbon NMR and 2d NMR spectra to constrain further but even still NMR is not a great technique (on its own) for assigning the structure of an absolutely unknown substance. 
+
+If you fish some shit out of a cave fungus and want to know the structure, you’ll use NMR, mass spec and crystal structures (if possible) to get you your structure. 
+
+In synthetic chemistry, we are more sure about what we’ve got (because we made it) so 90% of the time NMR is enough but people need other methods very often.
+
+A computer solving NMR problems will do great at simple ones used in teaching and suggest nonsense for real world examples."
+worldnews,feddq3t,t1_fed9as0,1579008644.0,"You know the UK, France and Germany did try to keep the deal going right? They are still trying to but they’ve now triggered the dispute mechanisms.
+
+And with Iran openly saying it will violate the deal because of Trump’s actions that means the deal is absolutely dead. 
+
+So now if you want a deal, you have no choice but to try and bring Trump to the table.
+
+If it’s a choice of make Trump feel good and stabilise the situation or say “we stand by this deal” as Iran ignores it and Trump assassinates people then make Trump feel good.
+
+Iran isn’t going to make a deal with Europe while America is willing to kill Iranian political and military leaders - unless Europe is going to go to war with America over Iran.... Which obviously isn’t happening.
+
+Trump is a cunt, but unfortunately because of him being a massive cunt in this situation there is no choice but to engage with him and try and get a deal as close to the original as possible with the word “Trump” on the front page. It’s been the only real solution since Trump decided the USA was out the deal and it’s now absolutely the only option other than returning to Iran openly pursuing nuclear weapons and all of the shit that could bring."
+worldnews,fed6kc6,t1_fed4v9b,1579001314.0,"I mean is this not how you should play Trump? The Iran deal is a good thing but Trump hated it because it had Obama’s name on it, so have basically the same deal but put Trumps name on it and he’ll love it.
+
+The US is already out of the deal, Iran is now openly violating the deal, the current deal is dead.
+
+If Johnson can encourage the orange one to actually do something useful then good on him. It’s not a “good dog” moment, it’s simply the only option other than forgetting the deal entirely and letting fuck knows what happen."
+worldnews,feathnn,t1_feaqzyw,1578952079.0,"I would love to know what the hardon for Irish reunification on reddit is about really, it’s up to them don’t support a side support their right to choose. 
+
+Reunification of Ireland is bigger than normal domestic politics, it’s not about right vs left it’s not about one economic policy over another. 
+
+It’s not even about historical injustice.
+
+It’s about how the people of Northern Ireland wish to be governed in the future and neither choice is right or wrong. 
+
+People seem to view it in the same prism as whatever party vs another on their own country when really it’s vastly different."
+worldnews,fearbip,t1_feafhla,1578951537.0,"Because people on reddit who comment on these things are one of the following lunatic republicans, lunatic unionists, people who have no concept of the situation in Northern Ireland but largely mean well, people who have no idea and like to wind people up, people who have an idea but still like to wind people up, people who know what’s going on but have an agenda either way and finally the rarest case people who have an idea what is going on and don’t care."
+worldnews,feao27o,t1_fe9yac6,1578950743.0,They have a functional Parliament again since today!
+worldnews,feanunq,t1_feaf4tj,1578950686.0,"Not the person you asked but the good Friday agreement sets out a pretty firm set of steps that are to be taken.
+
+If there is a likely majority for reunification in Northern Ireland then a referendum will be called.
+
+Then there is a vote on reunification in NI if that passes there is a vote in the Republic of Ireland. 
+
+At the very least those 2 votes will take a year, then there is a bunch of negotiating to be done about how the hand over of powers from Westminster to Dublin will occur - see Hong Kong as an example of how this will probably go time wise. That took 3 years from 1982-1985 (hand over in 1997) I’d expect Ireland and the UK to sort it out faster but a couple of years is reasonable for negotiation.
+
+Then you’ll have a transition period and a final hand over. 
+
+It could easily be a decade after a vote that sovereignty actually changes - because rushing things in Northern Ireland doesn’t end well and isn’t in anyone’s interest. 
+
+Now really I think it would be 5 years, but that assumes both votes actually provide a yes vote which is not a given. 
+
+The people of Northern Ireland are far from certain to give consent to it. And in the event that they do, then the people of Ireland need to be asked - now if NI votes by a large margin to reunify then that vote is an absolute formality, but what if yes wins by 1 or 2% of the vote? 
+
+Will the people of Ireland actually want a NI that is effectively totally spilt about what they want to be rammed into a union with them? 
+
+That’s a totally open question, polling has obviously historically said the vote on RoI would be a formality but polls on “how would you vote if x were to happen” type questions are notoriously bad. 
+
+So really nothing is certain about the political future of the island of Ireland and anyone who says otherwise is letting their bias do way too much of the talking. 
+
+They could be reunified in 5 years or they could be separate for the next thousand years, you literally can’t tell.
+
+And before anyone says brexit blah blah, have you seen politics in Northern Ireland? The colours on your favourite flag mean more than anything else. A lot of republicans would vote for reunification even if it meant they’d be poorer than Afghanistan and a lot of unionists are exactly the same but they’d vote for being part of the UK even if they would turn into Afghanistan. 
+
+Northern Ireland doesn’t yet have a grown up political system, they still largely vote for political wings of terrorist organisations (on both sides) - and those positions have honestly got more entrenched in the last decade. 
+
+As soon as Northern Ireland start voting in people for sensible issues like economics then it might start to function properly but until then it’s just an ideological war about which flag you prefer. 
+
+Even as part of Ireland NI still has all the problems it has now they are just reversed."
+chemistry,fe9n0jj,t3_eo7mdw,1578939588.0,"Yes but no.
+
+Some early liquid fuelled rockets did use alcohol fuels but the oxidiser they used was very high concentration hydrogen peroxide - not something very friendly. 
+
+These fuel oxidiser mixtures are hypergolic - that means when you mix them they spontaneously combust - so they are really rather dangerous and it’s not something anyone who doesn’t know exactly what they are doing should ever do.
+
+So yes but please don’t try."
+chemistry,fe9kkzq,t1_fe9i970,1578938673.0,Glad you’re enjoying them! :)
+chemistry,fe9kdbo,t1_fe9hyj1,1578938647.0,"We make things people haven’t made before! That’s it, was during my phd, we generally focused on making stupid inorganic heterocycles - I however worked on metal-sulfur-nitrogen stuff and other random element-sulfur-nitrogen chemistry and I did a little stupid heterocycle work trying to make some selenium-sulfur-nitrogen-random element stuff. The metal stuff and main group stuff is published but none of the last stuff is published - although now I’m no longer doing the chemistry I’ve had a few ideas to make some of that work - so I’ll revisit that in the future when I get a chance.
+
+Anyway, I’m not going to give too much away - as you can guess this isn’t a big area of chemistry and honestly you’ll narrow it down to literally just me if I give you a single compound haha. It’s the one problem with making absolutely unique compounds, I’m the only person to have ever made anything published in any of my phd papers haha."
+chemistry,fe9j6n5,t1_fe8xjuv,1578938002.0,"Uhmm, working as a researcher doesn’t mean you won’t mess up... It also doesn’t mean you’re going to be safe by default. 
+
+Proper chemistry labs have a lot of engineering controls that make them almost amazingly more safe than a home environment.
+
+Buildings used for labs to be made of plasterboard (drywall whatever you call it where you are) hung on steel - that’s a lot better than hung on wood like in a house. 
+
+Modern ones also tend to have full blown firewalls - concrete walls between the lab and not the lab. 
+
+It’s not uncommon for lab fumehoods to have automatic fire suppression systems. 
+
+The floors in labs are made to resist the spread of fire. 
+
+And that’s just fire... There is a lot more to it.
+
+But above all else, in real labs there should always be someone else relatively near by who can help you if shit hits the fan. 
+
+I probably saved the university I did my phd in from having a proper fire in my second ago because a phd student in the lab next door was working alone and managed to start a fire with a nitration and proceeded to panic and fail to do anything. Thankfully him shouting “ohh fuck it’s on fire” attracted my attention and as he ran out of the lab I took the fire extinguisher off the wall and put the fire out... Thankfully he had mentioned what he was doing earlier so I knew the extinguisher to picked was a safe choice."
+chemistry,fe98vmn,t1_fe8zdhn,1578935460.0,There is a 3rd method out there as well :) well actually almost infinite ways because pretty much any metal S2N2 compound will do that reaction. But I was more thinking about (R2SnS2N2)2 they form dimers but it’s the same thing.
+chemistry,fe8trnl,t1_fe7a13i,1578930730.0,"Your bond angle on that sulfur makes me sad :( in (Me3SiS)2N the sulfur isn’t linear it’s 120 degrees! 
+
+But yeah, assuming that phosgene-y thing is stable (probably I know similar things are - Cl3C-C(=O)-SCl for example) then that will do what you want, we’ve used the same idea for bigger rings in our research."
+chemistry,fe8sxi1,t1_fe4l8fa,1578930389.0,"Ok so A looks good!
+
+B, as u/pepperymint pointed out you’d be better buying the phosphine (making those is a pain) and you’d probably want an aryl bromide to make your life easier. 
+
+For C, if you could make that it probably would do that, but I can’t figure out how you’d make that :) you’d also need to have OMe groups rather than OH because those acid protons are going to break something. 
+
+You might be able to get somewhere with Me3Si-N=S=N-SiMe3 this used to be commercially available and isn’t hard to make - I’m sure there must be a way on paper to turn that to the ketone. Although that’s not how it has been made (as far as I know anyway)."
+chemistry,fe5otxl,t3_enveck,1578872384.0,"Not without an absurd amount of money no. And the equivalent knowledge of a chemistry degree.
+
+The difficult bit of chemistry is analysis of results not mixing shit together - that bit is essentially cooking.
+
+And I do air sensitive inorganic chemistry so I do just about the hardest practical chemistry it’s possible to do and it’s still just cooking...
+
+Analysis, requires a lot of knowledge and a lot of equipment.
+
+You want to discover things? It will depend on the area of chemistry but really you’ll need an NMR spectrometer, X-day diffractometer, mass spectrometer and a few other things.
+
+Even buying cheaply that’s going to be a few hundred thousand dollars, plus about 20% of that a year for operating costs. 
+
+To publish data (in a peer review journal and have it accepted by the scientific community) you need multiple pieces of evidence for your claim. 
+
+So for example, to publish my most recent work (tbh all I’ve ever published) I provided the following data: NMR on 3 different nuclei, elemental analysis, mass spectrometry, infrared spectra, X-ray crystal structure, that is for everything I’ve ever published but for specific things I’ve needed more, so this last one I needed cyclic voltammetry, UV-Vis spectra, and a professor of theoretical chemistry to help with some quantum chemistry calculations. 
+
+To actually do the experiments and make these things I probably used a few thousand dollars of consumables. But to analyse them I used the expertise of at least 3 people getting paid over 100,000 a year, and over a million worth of equipment.
+
+And every single paper published in the last 30 years probably used about the same amount of stuff. That’s just a normal paper."
+chemistry,fe5n3hv,t3_enuwbz,1578871567.0,"No this doesn’t exist.
+
+Because blast radius is not a constant, it depends on the amount of material, the way it is detonated, the container it’s in, and a million other things. 
+
+But above all else, yellow (white) phosphorus is not explosive in anyway. It’s super toxic but not explosive."
+chemistry,fe3eqnx,t1_fe0xt1d,1578848630.0,"Yeah, I can’t figure out how that would work :)
+
+It would probably need another source of a lower oxidation state sulfur (like SCl2) and it would certainly need a reducing agent of some type to get the S dioxide down from S(VI) to S(IV).
+
+But, that might make a ring! I just think it would be 4 membered rather than 4."
+chemistry,fe3eakk,t1_fdzljoz,1578848481.0,Normally you can override that by just pressing N while hovering. But fair :)
+worldnews,fe24x8n,t1_fdxyzeu,1578834521.0,"Right so this is a bit awkward because obviously causing civilian deaths by blockading ports is really not ok but the fact is an [armistice](https://en.m.wikipedia.org/wiki/Armistice) is not necessarily the end of a war. What it is is a formal cessation of hostilities usually while negotiating a lasting peace. But not always, the Korean War ended in an armistice and legally North and South Korea are still at war.
+
+Until the treaty of versailles was signed in June 2019 the war was not really over from the point of view the UK or France and so they maintained their advantageous position until that point.
+
+That’s normal behaviour and not really “wrong” so it’s pretty disingenuous to criticise it.
+
+Once the treaty was signed the blockade was lifted - so as soon as the war was formally over it stopped. We just view 1918 as the end of the First World War because the armistice and peace negotiations worked, that wasn’t a given.
+
+For all France and the UK knew Germany could have been using the cover of peace talks to have that blockade lifted and they prepare for a new offensive - it wouldn’t have been the first time a belligerent used the cover of peace talks to prepare for a new offensive."
+chemistry,fdzl7jx,t1_fdza4pk,1578791243.0,"Apart from the positive charges on the nitrogen atoms yep! That’ll work! 
+
+The positive charges I know are stylistic but unless you have a pair of negative charges to put somewhere I feel like it makes neutral 2 electron donors a lot more confusing."
+chemistry,fdykuuq,t1_fdyjorx,1578780861.0,"Then you should be grown up enough to get some tools and measure the burette and frankly you should have enough common sense to realise they are all different and there is no way we can answer this with anything more than a guess which is obviously not ok for published work.
+
+Assuming you mean paper as in peer reviewed academic paper... If you mean paper as in to be marked at school/college/university in which case that’s homework."
+chemistry,fdybjiy,t1_fdy40jq,1578778028.0,"You seem to be struggling with this here so I’m going to be nice and make it very clear.
+
+I did not know why you were asking, so;
+
+I don’t know that the measurement is actually what is important to you or do you just want to know how thick the glass of a burette is because maybe you want to make one? Maybe you are just a bit curious? Maybe you have no concept of how thick any glass is? 
+
+Literally no way of knowing, so I opened with it doesn’t matter because the thickness of the glass of a burette has no effect on the function of that burette and I ended with “probably a couple of mm” because that is the answer for anyone a bit curious.
+
+The doesn’t matter followed by thick enough to support its own weight thin enough to not weigh 3 kg tells you that it is a “how long is a piece of string” type question. One of the few questions that falls into the category of “stupid question”.
+
+Because I don’t think someone could be so monumentally stupid as to ask the internet how big their own fucking burette was? 
+
+Like, did you think there is a factory somewhere that makes every single one in existence? Do you think they are all identical and there are no manufacturing tolerances? We all just call up burettes-r-us when we need one and a magically created burette exactly the same as every other one appears? 
+
+Yes burette are all calibrated but they are not standardised - that is all burettes with a volume of 100 mL have a volume of 100 mL but not all 100 mL burettes are physically identical.
+
+It’s such a stupid question I couldn’t even imagine it was the question you were asking - yes asking about glass thickness of a burette is weird but actually I can think of reasons you might ask.
+
+Maybe you wanted to put a burette under increased or decreased pressure? Then you’d need to know the glass thickness to know what your safe pressure differential is going to be.
+
+Like I said, in future ask the question you want answered and say why.
+
+If you had said “I need to know how thick the glass is because I have an equation I need to put that in” then I’d probably have banned you for asking a homework question which is against the rules - but in the ban PM I sent you I’d always have said “all burette a are different and you’ll have to measure the specific burette you used but it’s probably around 2-3 mm.”
+
+But that’s not what you asked now is it?"
+worldnews,fdy9me2,t1_fdy3a3b,1578777488.0,I mean it’s still a lot of votes compared to any single other party in Scotland.
+chemistry,fdy0s9f,t1_fdxrk7k,1578774863.0,"So you want us to tell you the measurement of your burette? Well that’s fucking stupid.
+
+My point was it could be literally anything from just over 1 mm to about 5 mm - you want the size of a specific one? Go get that one and check because there is no way in the world we can tell you. 
+
+Also, I didn’t know why you’re asking did I? Maybe you wanted to fucking make one? How am I meant to know? In which case “doesn’t matter” is a perfect answer. 
+
+In future, ask better questions, and think what information you need before leaving the lab."
+chemistry,fdxh3z0,t1_fdx8bzf,1578768654.0,"This seems like a badly thought out experiment, all of the soil, the pot, and the plant will have to be treated as cadmium waste - as will the washings off of any tools you use.
+
+Disposing if cadmium waste (any toxic metal waste) is very very expensive and like beyond the budget of your school. If you came up with this idea yourself run it by your teachers and ask about waste - if they helped you ask if they have thought about waste disposal as it’s likely to be expensive.
+
+It could easily run to hundreds of $ depending on the weight of the material."
+chemistry,fdxfsp9,t3_enb7ro,1578768314.0,"Doesn’t matter as it’s never under pressure, thick enough to support its own weight, thin enough it doesn’t weigh 3 kg. 
+
+A couple of mm probably."
+worldnews,fdx0h3m,t1_fdvfxmt,1578764083.0,"Mate come on, you know as well as I do that’s nonsense! Yes, they say “a vote for us is a vote for Scotland not for independence” because that’s a great fucking line.
+
+It isn’t really true, if it was true the SNP would not use getting lots of votes at a UK election to try and have a referendum. 
+
+Yes, absolutely voting for the SNP in and of itself will not cause independence - it will also require a vote for independence but a vote for the SNP is absolutely going to be taken as support for that and the outcome they wish. The same way a vote for the Conservatives is seen as a vote for brexit - but the SNP are far more the “independence party” than the conservatives are the brexit party.
+
+Every other SNP policy is aimed at saying “look how much better it could be without those evil Westminster politicians” and has been since 2007. 
+
+As a government they are a pretty broad church with members who are slightly right of centre to those who are really rather left wing.
+
+As a party they are an even more broad church and the independence movement is even more broad all the way from communists to people more right wing than Rees-Mogg.
+
+And 90% of those independence supporters vote SNP - why? Because of independence there is no other fundamental belief or policy in the movement or the party and barely any in the government. 
+
+None of this is necessarily a negative, but pretending the SNP isn’t essentially a single issue party is very disingenuous and pretty much just spouting party talking points - something you wouldn’t do for any party you don’t support and you would call out people doing the same for a Conservative party line as well."
+worldnews,fdw180z,t1_fdvw2zu,1578754013.0,"General people I’m happy they are friendly, airport security? Nah, that’s not normal! TSA are normally grumpy, in the UK ours are basically silent and only speak if people don’t understand how to do something."
+todayilearned,fdsm1zv,t1_fdrk9hj,1578704955.0,"Thank you, I was starting to think I was being stupid with how insistent they were being. I’m going to guess they somehow managed to conflate a needle decompression (at second intercostal) for a pneumothorax with an emergency tracheostomy and also a sucking chest wound - I think that patient might be fucked."
+todayilearned,fdskbu5,t1_fdsgs1d,1578704256.0,"They don’t actually need to close it! They make a fairly big cut because their finger needs to get in as well as the tube but the hole through the internal membrane is only really the size of the tube - a little bit bigger but not much, as long as the hole you leave isn’t bigger than the trachea then air should only go in via the trachea as that’s the path of least resistance.
+
+The tube is held in place by one single suture through the skin and tied around the tube. Then it’s surrounded by gauze and taped.
+
+[Here](https://m.youtube.com/watch?v=IdmMR8JxmFo) is a video showing you how it’s done - don’t worry it’s on a dummy so no blood or anything. Although there are videos online with the procedure being done on an actual human if you want to find them search “ tube thoracostomy procedure” or “chest tube placement” and you’ll find a real one. But it’s probably easier to see what is going on with a dummy because they can make bigger cuts and really exaggerate it so you can see it. Also dummies don’t say things like “ouch” when you ram a pair of Kelly forceps through their chest wall."
+worldnews,fds9x9s,t1_fds4sfg,1578697733.0,"Wait until you meet a friendly one, fucks with your mind to no end.
+
+I’m not American and rarely do internal American flights I like to land where I need to be. But last year I reason to go to Omaha, fucking hell, chatty, smiling TSA agents, genuinely worse than angry ones - they caused such a line because the we’re having a full blown chat with half of the people because they recognised them “ohh good to see you again, you off to Chicago again? How are your kids?! Did Brian get into the college he wanted? What about Dave did he get his car sorted? Ohh and how is your cute little dog?” Genuinely took them 10 minutes to put about 5 people through their little ID check point. 
+
+Then I get up “where you going to?” “Chicago” “ohh what takes you there? Hang on, what’s that accent” “I’m Scottish” “ohh wow, have a nice day” and I walk away so utterly confused, never had an interaction like that with airport security in my life, even in the UK where they are at least somewhat happy they don’t chat, well I once chatted with one of them while their scanner was acting up at 6 am when there was 3 of us in the line. But it was “at least the rush hasn’t started yet” “yeah, give it 10 minutes” “haha” “on you go now” type of chat, not my life story. 
+
+That TSA guy asked more questions than the CBP guy asked me to let me in the fucking country..."
+todayilearned,fdryn0j,t1_fdrras1,1578691712.0,"I got a good sleep once on a plane, I got flung into first class because unknown to me my friend was flying the plane! He knew I was going to be taking that route on the day but pure chance I ended up on his flight. 
+
+As I go on the plane and show my ticket the cabin crew says “ohh I’ve been looking for you, come with me, your new seat is *blah*” - whatever it was 2A or something and walks me down there fucking otherworldly shit, this is proper first class on major international airline on an LAX to Heathrow flight - so not like domestic USA “ohh you get no one sat next to you” first class. 
+
+Absolutely insane, felt so awkwardly out of place! But the rich people give you funny looks when the pilot comes and talks to you... Haha, they either thought “fucking crew taking up space in here” or “how important is this guy that the pilot is greeting him not the head of cabin crew?”. 
+
+Anyway, turns out anyone can sleep in what was basically an actual bed on and airline. And the food was actually delicious as well. 
+
+Favourite bit, the guy with his special plane pyjamas - not even kidding he calls over the cabin crew, who puts down his seat and makes his bed up while he goes to change into pyjamas in the toilet. I’m just say their unable to figure out if that is the height of ridiculousness or just using the service you’ve paid for to it’s full extent. 
+
+Although, I felt a bit less weird about it when I went to put my bed down and the cabin crew came basically running out of the galley and sit “sir let me do this for you, you go into the galley and my colleague will get you a drink or just go for a walk and when you come back I’ll have this all ready for you” - I say I felt less weird, I felt less weirded out by what he had done but it was one of the weirdest experiences I’ve ever had, having this woman telling me to move so she could make my bed...
+
+Pity I don’t own a small oil company so I can experience that more than once in my life, I feel like it was probably wasted on 25 year old me."

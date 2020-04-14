@@ -1,0 +1,47 @@
+subreddit,self ID,parent ID,time,text
+interestingasfuck,ffy2p2v,t1_ffxolhl,1580337416.0,"That's neat, thanks!
+
+Have to say, though — your idea of ""fairy wings"" is **dark.**"
+rust,ffx6wna,t1_ffwcjh3,1580319014.0,">  Let me know if you think this idea has potential.
+
+That sounds fantastic!"
+TrumpCriticizesTrump,ffx5oac,t1_ffwqd6i,1580318281.0,"Rudy? Donald!
+
+Can you imagine? You're the President of the United States, and you've been impeached. You won't resign, but you also won't testify in any way on your own behalf. Craziness."
+rust,ffx4nrm,t1_ffwem9i,1580317668.0,"> i wonder what to do if computations, operations of u32 numbers move into u64 space. what's the best approach to have good code that compiles in all circumstances.
+
+Convert the numbers first, then do the computation:
+
+        u64::from(x) * u64::from(y)"
+rust,ffw2alb,t3_evcsz9,1580281274.0,"You should be learning ""big-O"" analysis at about this point. Using Gauss's Formula (#2) is *O(1)* worst-case. Using the others is *O(n)* worst-case. If you care about the runtime, use Gauss's Formula. If you don't care so much, one of the others is fine. I would use (#4) in this case, as it is the clearest and least likely to have a bug.
+
+*Note:* As someone else pointed out, #2 is wrong. You probably want
+
+    fn gauss(s: u32, n: u32) -> u32 { n * (n + 1) / 2 - s * (s - 1) / 2 }
+
+except that won't work when `s == 0` because underflow. You can instead write 
+
+    fn gauss(s: u32, n: u32) -> u32 { (n * n + n) / 2 - (s * s - s) / 2 }
+
+which should be OK. Alas, when `s >= n` this will still underflow: you can use [`saturating_sub`](https://doc.rust-lang.org/std/primitive.u32.html#method.saturating_sub) to get around this.
+
+*Note:* You might as well use `u64` instead of `u32` here. You may really want the extra headroom, and even on a 32-bit machine it's not that much more expensive."
+bestof,ffuk10e,t1_ffts84d,1580243586.0,"""Never underestimate the bandwidth of a station wagon full of magtapes."""
+bestof,ffufwih,t1_ffu3yxe,1580241109.0,Key & Peele *High on Potenuse* https://www.youtube.com/watch?v=k1tsGGz-Qw0
+rust,fftzdao,t1_ffttsqw,1580231042.0,"Maybe?
+
+I think that it is legitimate in some ways to take the view that Rust has no intrinsic language support for handling errors other than `panic()`. The Rust error-handling model is extra-linguistic: the compiler has nothing to do with how errors are normally handled in Rust — errors are handled monadically by convention. If you wanted to do Rust-style error handling in SPARK you could; if you want exceptions in Rust it's not obvious you could add them without changing the language.
+
+That said, it does seem that both models take you to similar places in practice."
+rust_gamedev,fft82um,t3_ev136c,1580211684.0,"You typically want to buffer-swap. Step the simulation forward by whatever amount you want or can afford in less than one frame time, then render into an off-screen buffer. When the next frame starts, swap the off-screen buffer to be on-screen and vice-versa. You will incur one frame-time of lag this way, but will have predictable smooth rendering. Do not ever sleep explicitly: when you finish simulating and rendering a frame way early (as you normally should), block on the frame start (refresh / vblank / vsync) from the graphics card. If your OS is working as it should, you will get woken up right quick when it's time to swap buffers and start production of the next frame.
+
+In many situations you can skip the buffer-swapping part and render during the vblank interval. But you want to be running the simulation for the next frame while the buffer is being painted by your video hardware.
+
+Most game frameworks will do at least parts of this for you. Doing it cross-platform in raw OpenGL is [hard](https://www.reddit.com/r/opengl/comments/aif3pb/how_to_properly_sleep_for_vsync/)."
+todayilearned,ffrn8hv,t1_ffrn6i7,1580161553.0,Ah. Missed that bit. My bad.
+todayilearned,ffrk7xm,t1_ffrk2eu,1580159724.0,https://www.reddit.com/r/todayilearned/comments/eusa30/til_1990s_most_obese_state_mississippi_had_at_the/ffrfl4q/
+todayilearned,ffrjulf,t1_ffrd5sp,1580159501.0,~~No. The BMI definitions were revised during this time period.~~
+todayilearned,ffqxz8r,t1_ffqwazy,1580146165.0,"A lot of this is the ""merge bits"" plus a few ""sync bits"", which deal with recovering timing in the data format. Not having to have ridiculously accurate clocks and fancy sensors makes the CD reader much much cheaper at the cost of losing some storage. Remember that CD readers were still quite expensive when they came out: they had a frickin' laser in them back when that was a new thing."
+rustjerk,ffqtt8m,t1_ffqj10h,1580143485.0,"You can use `.iter().position(|&c| c == 0).unwrap()` to get the index of the first 0 byte.
+
+You could also work with [`std::ffi::CStr`](https://doc.rust-lang.org/std/ffi/struct.CStr.html) which is usually more convenient."

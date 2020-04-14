@@ -1,0 +1,129 @@
+subreddit,self ID,parent ID,time,text
+netsec,ffg26eh,t1_fffcp6k,1579896843.0,"Ever suck dick for weed?
+
+Everyone downvoting me hasn't seen Half Baked."
+homeowners,ffg1ksl,t1_fffp0ma,1579896470.0,"Texas here. About $350/mo. But it was old construction, so we knew roughly how much it was going to go up.
+
+The tax assessors here try to play little tricks by sending you a ""Formal notice"" asking you to report how much you bought the house for. However there is no legal statute requiring that you disclose that information. If you do, though, they'll sure ratchet up the taxable value, if able."
+homeowners,ffg1dia,t1_fffg8ms,1579896344.0,"Ahh, then very good advice."
+homeowners,ffffs8b,t1_fff0urk,1579883008.0,"No, he said $400 *per month*. He's screwed."
+homeowners,ffctr1x,t3_esxmnr,1579807085.0,"Take high-resolution pictures of *everything* before you move furniture in. You'll eventually see a crack in the wall, or something peeling up, or a wet spot, and wonder if it was there before. Whip out the pics and find out."
+CarPlay,ffcdgot,t1_ffca3et,1579797083.0,"Yeah.
+
+I mean, you can disconnect the phone from the wireless instead, but that means taking your phone out of your pocket, which is the thing I wanted to avoid with wireless carplay in the first place."
+CarPlay,ffbzq5p,t1_ffbjcnp,1579787782.0,"Disconnect the dongle, then reconnect it. A screen will come up letting you choose which phone."
+linuxadmin,ffaaqoj,t3_esegew,1579731216.0,"I would create a new user on the remote server. Set up autossh on the client to connect with a key to the new user on the server, while setting up the tunnel. 
+
+Make sure rsyslog is set to TCP, as you can't tunnel UDP over SSH."
+PFSENSE,ff9q8bv,t3_es4y6o,1579718545.0,Checking in. Netgate shipped me the wrong device. Cross-shipped the replacement (after verifying with a photo) within a day.
+AdviceAnimals,ff9l1cn,t1_ff9g4b0,1579715240.0,This is America.
+boardgames,ff7crrp,t1_ff7bfpx,1579646543.0,"Basically, there were accusations that Stonemeier intentionally printed fewer copies than anticipated demand would require in order to drum up hype for the game.
+
+Absurd if you spend even 30 seconds thinking about it."
+Splunk,ff79vp0,t3_es1v26,1579644146.0,"Splunk Fundamentals 1 is free to take to anyone. https://education.splunk.com 
+
+That will get you started."
+MacOS,ff65pbt,t3_erpgd5,1579619756.0,https://github.com/drduh/macOS-Security-and-Privacy-Guide has a great guide to securing MacOS
+MacOS,ff65271,t1_ff5nq4f,1579619314.0,"I tried it with MS-DOS and while the mount claims to be ""union"", the second mount overrides the first."
+linuxadmin,ff4kgmp,t1_ff3lmjm,1579565786.0,"I use a high port simply to cut down on auth logs. After a few months, I start getting regular attacks and have to change it again."
+aggies,ff19235,t1_ff18g1p,1579476433.0,"I know less. There are more hardware-based classes. Still a good amount of theory, but less than CS-track."
+aggies,ff17cj6,t3_er2mfl,1579475989.0,"Computer science at TAMU is way more than “programming” FYI. There’s a ton of math and calculus, as well as theory. You might be interested in that, but just be aware that pure “programming” is just about 6 classes worth."
+AppleWatch,feyff0z,t1_feyejms,1579444789.0,Check out r/hardwareswap .. I often see good deals on watches there.
+AppleWatch,feyee88,t3_eqww0t,1579444347.0,"If you aren't getting cellular service on your watch, it doesn't matter where you buy it.  However if you do get service, it must be the same provider as your the line on the paired iPhone."
+commandline,fetp5xv,t3_eqjag2,1579377890.0,iTerm2 can display colors. The MacOS versions of those utilities just don’t display them by default. Try ls -G
+CarPlay,fetaekk,t1_fepghc8,1579373306.0,"If you’re having the same problem I had, it’s because Siri suggestions started kicking in trying to take you home or work or somewhere you go a lot. Tap the map, tap the x if it’s there. If not, tap “home”, then “eta”, then the x. Then go back to this view and it might start working again. At least that does it for me. 
+
+Super annoying behavior."
+osx,feta1p3,t1_fet5q77,1579373177.0,"Okay...
+
+So full disk encryption (which FileVault is) means you can’t mount the disk without first decrypting it. However once you decrypt it, all bets are off. If you can decrypt it on a system where you have root (such as in single-user mode) you can still do anything. If you decrypt it but only have regular user access, your access will be the same as that user."
+aggies,fesc5zi,t1_fes5r5w,1579363754.0,YOU CAN SET THEM TO DIGEST AND RECEIVE LIKE ONE COMBINED MAIL PER DAY.
+aggies,feo4ypa,t1_feo18qd,1579295168.0,"Try mailing listserv@listserv.tamu.edu and putting in the body of your message:
+
+SET listservname DIGEST"
+funny,fenro8a,t1_fennv77,1579289763.0,"Ok how about 0.1223334444555556666667777777888888889999999991111111111... this is an infinite, nonrepeating sequence which never contains the string “15”"
+aggies,fennqtz,t3_eq489c,1579288362.0,You can set them to digest and receive like one combined mail per day.
+aggies,fenlfpi,t1_femyiev,1579287203.0,"""nor"" in this context is an abbreviation for ""nor does he tolerate those who do."" Neither...nor is a different usage."
+boardgames,felm0ux,t1_fektdk8,1579225388.0,"Chances are pretty good that your die isn’t perfectly random, either."
+YouShouldKnow,fel0h3h,t1_fekzt9q,1579211421.0,"Yup. The intent of the law may have been to stop tiel's kind of scam, but it's a common sense law in general to prevent other types of scams."
+YouShouldKnow,feky5cu,t1_fekwbwg,1579210027.0,Probably best to give up before tielknight blows a gasket.
+YouShouldKnow,fekowt5,t1_fekoapt,1579204565.0,"> Q. Must I notify the seller if I keep unordered merchandise without paying for it?
+
+> A. Although you have no legal obligation to notify the seller, you may write the seller and offer to return the merchandise, provided the seller pays for shipping and handling.
+
+Doesn't make much sense in the context you're referring to."
+YouShouldKnow,feko1g9,t1_fekk07h,1579204050.0,"I provided a source, and they did not."
+YouShouldKnow,fekjqyl,t1_fek9128,1579201497.0,"The FTC disagrees. In fact, the FTC says you don't even need to notify the company that sent you the items.  
+https://www.consumer.ftc.gov/articles/0181-unordered-merchandise"
+aggies,fekgg6t,t3_epflex,1579199526.0,"One thing that's sometimes hard to wrap your brain around is that your tuition is your tuition. They break it down for you so that you see exactly what parts of it go to which areas in the University, but ultimately it's just the cost of going to school. You may not take advantage of every amenity that's offered here, but that doesn't mean you don't contribute to it.
+
+The breakdown of what costs go where is a matter of transparency; it's not a way to treat TAMU like an a la carte menu."
+aggies,fei1c7h,t3_ep9lkv,1579128136.0,"There are some ""Any Valid Permit"" lots. They're pretty far from everything though. Transport.tamu.edu has maps."
+AskNetsec,fedgwyf,t1_feddk4o,1579011212.0,Indeed. Good advice!
+AskNetsec,fedg77o,t1_fedeanu,1579010663.0,Excellent advice. Thanks!
+AskNetsec,fed7w7w,t1_fecu42r,1579002949.0,"I've got a demo planned, great idea! And Stuxnet is such a good story, if I can fit it all in, I will definitely do it. Thanks!"
+AskNetsec,fed7v74,t1_fecl3zo,1579002915.0,Exactly the kind of thing I was looking for. Thanks!
+AskNetsec,fed7u0g,t1_fecgkly,1579002876.0,Interesting idea! I will add this to my list.
+AskNetsec,fed7rmd,t1_feceicw,1579002799.0,"Ooh, even if that's been known a while, I hadn't heard it. Good one. Thanks!"
+AskNetsec,fed7qza,t1_fecbehw,1579002777.0,Excellent idea. Stuxnet is a great story.
+AskNetsec,fed7qdo,t1_fec9vzp,1579002759.0,Thanks! Great ideas!
+Atom,fec890w,t1_febr0ev,1578968369.0,"Good points, all. I love this post."
+Atom,feb1hpg,t3_eob9zh,1578954527.0,"Your Title and Post ask different questions.
+
+> What is the most abundant physical thing in the universe that aren't atoms?  
+
+The next-most abundant ""thing"" in the universe, given that everything is composed of atoms, is probably the H2 hydrogen molecule. Unless you count atomic particles...
+
+> Is there anything in the universe that is more abundant than the amount of atoms in the universe?
+
+No, unless you subdivide into atomic particles. Then you could say that there are more protons in the universe than there are atoms."
+bestoflegaladvice,feb0llb,t1_feayzus,1578954233.0,"I'm also in recovery. Well-versed in the damage I did to my body. My liver fully recovered, but things like kidneys don't heal damage.
+
+At my worst, I would start to black out around 500ml. I woke up too often to find an empty bottle by my chair. 
+
+I'm better now, though. Still freaks me out whenever I think about how far gone I was though."
+bestoflegaladvice,feaz3p6,t1_feaq5p4,1578953745.0,"Recovering alcoholic here. I'm well familiar with the difference. Most of my ""blackouts"" were more like ""brownouts"" where I'd remember some things but not others.
+
+I never drove drunk. When I drank, I'd lock my keys in my safe, where I figured I would likely be too drunk to open it if I tried."
+bestoflegaladvice,feaxn2k,t1_feawrbu,1578953269.0,"I mean look; it's dangerous for anyone, even a seasoned alcoholic. The liver damage alone...
+
+A non-alcoholic might try this, and they'd almost certainly vomit up most of the alcohol before it was half gone."
+NintendoSwitch,feafauk,t1_fdw866n,1578947975.0,Fantastic platformer. Love the unique premise.
+NintendoSwitch,fea3qyo,t1_fe6my5s,1578944058.0,The load times honestly almost made me quit the game. Starting a new character who is low level was painful.
+Bad_Cop_No_Donut,fe9ye86,t1_fe9xtwr,1578942579.0,"Not your post history, just the general feeling Reddit has. I also realize that not all redditors are the same. 
+
+However, there's a big overlap in people who are anti-gun and people who are anti-cop. I usually get blank stares when I ask them (in person) what their solution is."
+Bad_Cop_No_Donut,fe9sx9v,t1_fe9l0qd,1578941202.0,"Reddit: Doesn't want cops  
+Also Reddit: Doesn't want private gun ownership"
+hardwareswap,fdx7s7r,t1_fdviewr,1578766143.0,Confirmed
+hardwareswap,fdvy7uz,t1_fcfc23q,1578753126.0,Confirmed.
+AppleWatch,fdvcwiz,t3_en6ce4,1578746111.0,I'm sure it would be possible to mirror his company contacts and calendars to another iCloud account using Shortcuts.
+zfs,fdrakxe,t1_fdqz25i,1578681729.0,"Ah, I see now.
+
+So https://blog.programster.org/zfs-record-size states that a file will be stored in blocks of *varying* sizes (up to the recordsize). I don't know what the smallest block can be (presumably the size of the disk's block, or based upon the ashift?) But it seems like Chris' analysis is correct. If the file takes up more than one record, it will consume an amount of data which is a multiple of the recordsize. But this means that **per file** the most you will ever save is *recordsize - blocksize* (if I'm reading and assuming correctly.)"
+zfs,fdqyfia,t3_emtcni,1578676746.0,"> That means that 160kb file will use 256kb on disk. Does this particularity apply to ZoL?
+
+This is a factor in any modern filesystem. There will always be a smallest block size that will be taken up by every block. Compression will not change this behavior, although if compression can compress 2 blocks into 1 or less, then you still get an improvement in storage."
+NintendoSwitch,fdl0qrs,t1_fde95ls,1578515015.0,#
+NintendoSwitch,fdkzlbm,t1_fdkrs2p,1578514402.0,#
+PFSENSE,fdjqtun,t1_fdjkgla,1578483972.0,"This is kind of a crummy answer, but I’d say the thing you’re most familiar with is the ideal way. I’d throw nginx on a Raspberry Pi or something personally. Also this keeps the firewall from having services open to the internet."
+PFSENSE,fdilnp2,t3_eliyky,1578445671.0,"If you have multiple services behind your firewall performing similar tasks, I’d consider setting up a reverse proxy instead."
+homeowners,fdhwink,t3_elhr2j,1578431429.0,#
+zfs,fddk1r9,t1_fdcwqab,1578315327.0,#
+zfs,fdcjgyc,t3_ekl4e1,1578276422.0,#
+zfs,fdc7qwq,t1_fdc76iy,1578268749.0,#
+zfs,fdc6gg0,t3_ekl4e1,1578268033.0,#
+MacOS,fczdr4j,t3_ejo24g,1578098913.0,#
+networking,fcz0ids,t3_ejmy5b,1578091186.0,#
+MacOS,fcvb2ro,t3_ej3uev,1577998377.0,#
+freebsd,fcmrvlg,t1_fclskxp,1577789190.0,#
+freebsd,fclsh4q,t1_fclrtoy,1577755367.0,#
+freebsd,fclqw54,t1_fclq8pz,1577754279.0,#
+freebsd,fclpr8e,t3_ehuzcq,1577753493.0,#
+PleX,fcihk8m,t1_fcigrb4,1577662660.0,#
+apple,fcf6zno,t1_fc96gc8,1577627164.0,#
+news,fc5n4mx,t1_fc5mh8q,1577461905.0,#
+news,fc5lbhr,t1_fc5ktfi,1577460648.0,#
+MacOS,fc5jrw1,t1_fc4xmhm,1577459507.0,#
+AppleWatch,fc3i0yv,t1_fc388cd,1577390247.0,#
+AdviceAnimals,fbqdu2t,t1_fbmaxfi,1577030737.0,#

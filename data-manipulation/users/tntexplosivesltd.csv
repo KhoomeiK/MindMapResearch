@@ -1,0 +1,136 @@
+subreddit,self ID,parent ID,time,text
+newzealand,ffoeya1,t3_eu8a0x,1580076968.0,"I like when people drive with their lights on, it makes them more visible."
+auckland,ffkxqoe,t1_ffkvn0p,1580030876.0,They won't stop inhalation of the virus
+auckland,ffkw12o,t1_ffkvcfc,1580030028.0,Or for Auckland Anniversary?
+auckland,ffkv64h,t3_eu3j3q,1580029537.0,Masks don't really help mate.
+mildlyinfuriating,ffk4cxa,t1_f8mqdj4,1580015453.0,[https://electricaloutlet.org/type-i](https://electricaloutlet.org/type-i)
+Ubiquiti,ff6zc6r,t1_ff67i0o,1579637991.0,"I would if I did this all the time. This was a one-off job though.
+
+I would still have to order from overseas and deal with the currency conversion, shipping times, tax etc."
+Ubiquiti,ff6z65z,t1_ff5xmoh,1579637894.0,"It plugs into the far right end of the patch panel. I had to do this because a two-link aggregated trunk ended up being on cables #24 and #25. So opposite ends of two different patch panels.
+
+The other end plugs into the bottom switch, port 1."
+Ubiquiti,ff5nlx8,t1_ff5nerh,1579601955.0,Oh yeah lol homelab would definitely be custom cables. Definitely.
+Ubiquiti,ff5n3cf,t3_erqk60,1579601176.0,Full cabinet: https://m.imgur.com/a/N1EWFmC
+Ubiquiti,ff5mzj5,t1_ff5mt88,1579601015.0,That's not worth my time. Would end up taking a couple of hours when I can get slim cables and be done.
+Ubiquiti,ff5m1xs,t1_ff5log6,1579599573.0,"No, I am in NZ. I don't want to have to order my cables from overseas"
+MechanicalKeyboards,ff5krc1,t3_errjja,1579597609.0,Probably easiest to make your own if you have specific requirements.
+Ubiquiti,ff5kknb,t1_ff5kg6q,1579597342.0,"Haha yeah it's a bit like that.
+
+The only reason I used them is because they're the shortest ones I can find (25cm). The shortest regular ones are 30cm, and stop the door being able to be closed."
+linuxmasterrace,ff5eptj,t1_ff4xkzf,1579589693.0,Even worse when people are proud of it
+Ubiquiti,ff5drfc,t1_ff5cwvt,1579588623.0,"I counted 25-26 links, are you sure you have enough?"
+Ubiquiti,ff5dhn9,t1_ff5d4kc,1579588326.0,"It's the management network, isolated from the rest of the network. Someone would need physical access to the network, in which case I have worse problems."
+Ubiquiti,ff5bvzf,t1_ff5bex2,1579586616.0,"What about the 16-port PoE switch just for running the cameras and access points? Link the two with a couple of DAC cables aggregated together?
+
+Keeps it separated visually in the rack, easier to think about."
+Ubiquiti,ff53sbp,t3_erlv7c,1579579437.0,"It looks like you could get away with only having the 24-port switch, no USWs, with a dedicated link from the switch to each camera/AP. If you're running two cables to the attic, might as well run 8. Easier to diagnose if there's a fault, fewer devices in the attic to have to replace if they crap out (especially if the attic is annoying to get to)
+
+Even if you need to upgrade to the 48-port PoE switch, the equipment you eliminate (2x USW Flex, 1x US-8) probably cost more than the difference between the 24-port and 48-port PoE switch, and you have a bunch of ports to spare if you ever need to expand the network"
+Ubiquiti,ff52gft,t1_ff4oat4,1579578414.0,"Yeah I second this, just put them in and disable them in the switch"
+Ubiquiti,ff52e7w,t1_ff4zln2,1579578368.0,A speed-up loop. It rapidly accelerates the packets so they traverse the network much faster. It works kind of like a turbocharger.
+auckland,ff4uhb7,t1_ff4rs1j,1579572733.0,oooooooh :)
+auckland,ff4n7mb,t1_ff4i5ll,1579567704.0,wat
+Ubiquiti,ff48oy9,t1_ff23d8r,1579557967.0,"Yes they're short enough that it doesn't matter.
+
+I am running AP-AC-HD access points off them and it's no problem.
+
+I probably wouldn't use them for anything above PoE+"
+Ubiquiti,ff1o25x,t3_er1l1d,1579482400.0,Is the client usage graph for LAN or WAN traffic?
+techsupportgore,ff0az2v,t3_eqxub7,1579467023.0,That camera shake though
+LinusTechTips,ff0ap6s,t3_eqvilu,1579466930.0,"""Cheque please"""
+cableporn,few40b5,t1_feu6izr,1579405035.0,"Haha probably not, unless the bare metal is exposed. This should use a shielded patch panel."
+Ubiquiti,felkqzw,t1_felcqt4,1579224525.0,"Nice! That's a good idea if you want to learn more :)
+I find a lot of people are cautious around fibre before they try it out."
+pebble,felkmzg,t3_epqkon,1579224451.0,"PTS silver, Pebble Steel..."
+Ubiquiti,fel1ii8,t1_fekw9z3,1579212034.0,"Yeah true. I have never really needed shielded ones. I would use slimline shielded patch leads if I needed cat6a:
+
+[https://www.pbtech.co.nz/product/CABDNX0588/Dynamix-PLSSK-C6A-025-025m-Cat6A-SFTP-Black-Slimli](https://www.pbtech.co.nz/product/CABDNX0588/Dynamix-PLSSK-C6A-025-025m-Cat6A-SFTP-Black-Slimli)"
+Ubiquiti,fel08ez,t3_epiy41,1579211276.0,Looks good. Why not use a DAC cable between the USG and US-24?
+Ubiquiti,fekynw9,t1_fejzl9k,1579210336.0,Yeah it's really not worth your time to make them.
+Ubiquiti,fekvpi0,t1_fekjbu3,1579208575.0,"They work perfectly fine for PoE+, they're only really short and PoE+ is pretty low current. It also uses two pairs to share the load. They also aren't that flimsy.
+
+I probably wouldn't trust them for anything more however. Still, why not test them out and see what they can actually do?
+
+Also, where I am the shortest regular cat6 patch cable you can easily get is 30cm (1') meaning more often than not the rack door won't close if you have a patch panel directly above the switch. These slimline cables will squash down easier, and go down to 25cm long."
+auckland,feku1k4,t1_fekp8k1,1579207595.0,Nah it's fine. It just means I don't really know much of the city.
+Ubiquiti,fektydq,t1_fejt2fc,1579207544.0,"That's the latest firmware version available, I just updated mine last night."
+Ubiquiti,fejplen,t3_ep0uhd,1579182566.0,What version does it say you're currently running?
+Ubiquiti,fejpg2d,t1_fejnb6c,1579182444.0,"In the Unifi controller software. Click on Map, change the drop-down in the top left from Topology to Floorplan."
+Ubiquiti,fejos6o,t3_epj5w6,1579181898.0,"You can connect them to each other many ways. Are you anticipating expanding the network in the future?
+
+It would be perfectly fine to connect one of the US-48 switches and the US-24 to the other US-48 SFP+ ports. Treat it as a mini US-16-XG. There's no problem with doing that."
+Ubiquiti,fejok93,t3_epigg8,1579181712.0,I would imagine you can set up DNS entries on the UDM. What concerns you about this?
+Ubiquiti,fejnh0t,t1_fejjayu,1579180768.0,They said they were going to make up come custom length cables :-)
+auckland,fejcye1,t3_epecad,1579167845.0,"I didn't recognize any of that as Auckland.
+
+Source: entirely exist on The Shore"
+linuxmasterrace,feiiqss,t1_fehn6w2,1579139469.0,"We use linux at work, never needed to pay for support. We're all pretty competent linux users though."
+linuxmasterrace,feiihj5,t1_fehoq4o,1579139301.0,The example here was about all their tools being webapps though...
+linuxmasterrace,feiicvl,t1_fehq2y3,1579139217.0,So much overhead
+newzealand,fei6gyi,t1_feg81se,1579131344.0,"The different meanins of ""set"" don't have a lot to do with the cultural significance of the word."
+newzealand,feftcer,t1_fefbqxf,1579064585.0,"Maori is about more than just the language, and some aspects of the language are more complicated than just words.
+
+E.g. Tapu has a lot of connotations to it that are more than just what it translates to. Same with taonga."
+rccars,fefdzob,t3_eook2k,1579054292.0,I mean we don't all like it... doesn't stop everyone flooding this sub with pics though...
+Ubiquiti,fefd8th,t1_fefcmuq,1579053817.0,"That said this looks super clean, you should be proud.
+
+It's always a learning experience, and you haven't made any real mistakes here! The fibre patch lead length is perfect too, looks so good."
+Ubiquiti,fefc9ii,t1_fef78xs,1579053179.0,IMO patch panels should never be wired together in the same rack. It just causes confusion. If you need to wire two devices together just use a patch cable with good cable management.
+newzealand,feev4ux,t3_eoqyot,1579041880.0,[https://www.stuff.co.nz/national/118793548/bus-fire-in-wellington-suburb-of-wadestown](https://www.stuff.co.nz/national/118793548/bus-fire-in-wellington-suburb-of-wadestown)
+shittykickstarters,feeorsx,t1_feddulw,1579038070.0,It's full of somewhat unrelated stuff as well.
+shittykickstarters,feeooga,t1_fedfueh,1579038016.0,Your time estimate assumes that you have perfect heat transfer out of the can.
+BeAmazed,fec7ju5,t1_fdz8peo,1578968014.0,Or everywhere but the US. No idea why they need a different name...
+OrnaRPG,fe6fotn,t3_enoy8e,1578889497.0,Which one?
+LinusTechTips,fe5hwrl,t3_enj8cb,1578869643.0,\*ad
+Ingress,fe0sa95,t3_enct5d,1578818086.0,\*Portals
+todayilearned,fdzc3jq,t1_fdpr6m3,1578788673.0,Oooooooooh.
+todayilearned,fdzbxm5,t1_fdqvlv3,1578788589.0,"Fine, sometimes with blood and pus :)"
+pebble,fdzatq9,t1_fdq0dwf,1578788304.0,"I went with the one I linked because it covers the charging light, I would charge mine at night and lights bother me.
+
+It also just looks the nicest."
+Ubiquiti,fdza5wn,t1_fdq0nwr,1578788169.0,"Oh the longest link is \~75m, I mean all the cabling runs added up.
+
+Too late to change it all now, the cabling has gone in.
+
+The whole office space is in an old warehouse, but the desks are just in the middle of the floor. The office manager wanted to avoid having cable drops from the ceiling, so they had to run the cables kind of specifically, and the warehouse hasn't been lined or anything, so the cables are just coming down the one main beam, or along one concrete wall. We already have the server room at one end, so the problem wasn't how remote the area was. They just wanted to do less cabling, so 1-2 links per desk group was deemed to be the most cost effective."
+Astroneer,fdpmu23,t3_emhcmm,1578633125.0,It sounds like a local convergence point for a random number generator with an odd seed.... Or maybe it's just a bug.
+pebble,fdpmjrj,t3_emlf0j,1578632873.0,"Looks great!
+
+I 3D printed mine: [https://www.thingiverse.com/thing:2173445](https://www.thingiverse.com/thing:2173445)"
+todayilearned,fdplzrk,t1_fdpl29u,1578632389.0,Are you talking about the P38 pistol?
+LinusTechTips,fdplw9h,t3_emkm1b,1578632305.0,Max is in this? She's not even around any more
+todayilearned,fdpku9d,t1_fdpkchl,1578631409.0,">Oregon Trail
+
+What's that?"
+todayilearned,fdpiznd,t1_fdosv95,1578629910.0,Gotta throw in the P38s...
+todayilearned,fdpiuhc,t1_fdpe54b,1578629798.0,"It's not just diarrhoea, it's hard-core stomach-cramping life-threatening diarrhoea, sometimes with blood and pus."
+todayilearned,fdpihx8,t1_fdoqv0a,1578629533.0,I had the exact same thought lol just recently watches that series.
+auckland,fdp2vv7,t3_emgn6l,1578618703.0,So everyone can put their pitchforks away now?
+MapsWithoutNZ,fdmd2jy,t1_fdmc0yz,1578546027.0,It would be awesome!
+MapsWithoutNZ,fdmba13,t3_em2eim,1578544547.0,This is maps WITHOUT nz. Not maps with nz in another place
+auckland,fdma2qw,t1_fdm3xsi,1578543605.0,[https://www.nzherald.works/nz/news/article.cfm?c\_id=1&objectid=12298557](https://www.nzherald.works/nz/news/article.cfm?c_id=1&objectid=12298557)
+auckland,fdma0v5,t1_fdm7ies,1578543566.0,[https://www.nzherald.works/nz/news/article.cfm?c\_id=1&objectid=12298557](https://www.nzherald.works/nz/news/article.cfm?c_id=1&objectid=12298557)
+Ubiquiti,fdm9bp3,t3_em3xvj,1578543039.0,"I would probably go with a UDM instead of the flexHD and USG, it combines the two (as well as the Unifi cloud key).
+
+I don't think you need cat7 cables at all, there's literally no reason to get them other than the look. Get regular cat6 instead if you aren't worried about aesthetics."
+Ubiquiti,fdm82pa,t3_em1o5g,1578542116.0,"I really wish I could help, just recently got a bunch of lite APs instead of Nanos :( not sure if they have the same mounting holes?"
+Ubiquiti,fdm26n2,t1_fdgnvvh,1578538036.0,"They explains it in their identical post from the same day:
+
+[https://www.reddit.com/r/Ubiquiti/comments/el81ey/just\_finished\_my\_first\_project\_40\_acpro\_setup/fdgbwqj?utm\_source=share&utm\_medium=web2x](https://www.reddit.com/r/Ubiquiti/comments/el81ey/just_finished_my_first_project_40_acpro_setup/fdgbwqj?utm_source=share&utm_medium=web2x)"
+Ubiquiti,fdm1zxa,t1_fdgcn83,1578537909.0,What cable management? :D
+Ubiquiti,fdm165z,t3_em2l3o,1578537353.0,"It turns out 3 or 4 of the boxes have the wrong cover slip thing, they have the one for the 60W PoE version of this switch."
+Ubiquiti,fdlz4iv,t1_fdly8w7,1578535956.0,I will make a new post when I have shucked them. Didn't want to unpack everything yet.
+Ubiquiti,fdlz3hx,t1_fdlyw0s,1578535936.0,"They decided it would be cheaper to run 1-2 links to every group of 4-6 desks and have a switch at the end with one port for each desk. Outfitting an old warehouse into an office space in the most unconventional way possible.
+
+I suggested running one link to each desk but it's all cat6a cabling and it was decided that would be too expensive. It's already 1600m (5250 feet) of cable as it is, would have to at least triple that."
+auckland,fdjwwkt,t1_fdjkc0c,1578490106.0,Doesn't that cost more?
+auckland,fdjfzq3,t1_fdjagjv,1578469173.0,Ooooh that makes sense :) Cheers
+auckland,fdj6roh,t1_fdj5s29,1578460033.0,We had those here. Why is this american?
+auckland,fdj2z17,t1_fdj2nw4,1578457081.0,People go to post shops to send courier items too. Not just letters.
+MapsWithoutNZ,fd15iqg,t3_egzosp,1578127736.0,[https://www.reddit.com/r/MapsWithoutNZ/search/?q=pandemic&restrict\_sr=1](https://www.reddit.com/r/MapsWithoutNZ/search/?q=pandemic&restrict_sr=1)
+MapPorn,fd14zk1,t3_ehp1rc,1578127563.0,\*Which
+MapsWithoutNZ,fd140y3,t3_ejkt8e,1578127318.0,[https://www.reddit.com/r/MapsWithoutNZ/search/?q=amazon&restrict\_sr=1](https://www.reddit.com/r/MapsWithoutNZ/search/?q=amazon&restrict_sr=1)
+LinusTechTips,fcxd974,t1_fcx3ssi,1578059806.0,It's not the same as it used to be
+DRSubmissions,fcoco3i,t3_ei6va3,1577828997.0,He mentions it in like every video. Aircraft Paint Remover. But it's mildly carcinogenic.
+BmwTech,fc6wxtr,t3_egatcn,1577491619.0,Jeez 160km/h !?!?

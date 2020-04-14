@@ -1,0 +1,191 @@
+subreddit,self ID,parent ID,time,text
+ceph,ffgzhrw,t3_etdctl,1579919073.0,"I understand your not wanting to go back to ceph after having a rough time, but we have multiple clusters ranging from hundreds of TB up to 8PB all running size=2. I haven't had any luck with cephfs (lost data there also) but RBD has been predictable for us and generally fault tolerant, even when I think we have lost data for sure it seems there is a way to get it back. We do things mostly in object storage but also do some direct RBD device mapping as well as using cinder with openstack to build vols on. I wish I had an answer for your cephfs issues but I ultimately had to back away and accept the loss of data with our cephfs experiment (it was luckily a POC at that point, and I actually caused the failures that lost the data during testing). We've also not really come to any sort of happy place with EC either so are where we are now.
+
+If I had anything that I could recommend I would... but there's nothing I've seen that can scale for our needs so we're still in camp ceph. Admittedly, it would have to be very compelling for us to make a move at this point. Maybe there's a way you could do things with just RBD in the future, and if you need to gain space perhaps multiple pools with different sizes would be beneficial. For us the 2x size was for cost as well as speed. Using multiple pools you could kind of get best of both worlds.
+
+I'm interested in seeing what other people chime in with here...
+
+Edit: should have waited to submit... anyhow if you have a way to borrow or stand up more nodes to distribute those drives in you could add them (with some of your crashing drives) and just update crush to reflect the change in topology. That would at least hopefully fix your crashing issue and reduce the actual failed OSDs to the ones with legit corrupt rocksdb.
+
+I've dealt with lots of these rocksdb issues and have found that sometimes they correct themselves but often times they just deadlock on startup and crash out so ymmv, but at least getting the others moved would give you access to the data. You could even do a thing where you move a few to a new host, get them up and running, reweight 0.0, and wait for the data to drain off and rinse/repeat. Of course this assumes you have the space to backfill it somewhere. I'll chime in if I think of anything else but above would get you some more data back."
+bayarea,fenej2i,t1_fem06et,1579282979.0,Jetblue was significantly cheaper. I fly nearly every week.
+networking,fendpnp,t1_felv0pz,1579282481.0,Thanks for the intel!
+networking,felsege,t1_felp9ca,1579229769.0,"I know a guy that works for a big company and (his words) apparently all vendors are suffering from QC issues on DAC > 5/7M. Take that with a grain of salt but I've yet to have a bad one, but also yet to try DAC > 5M in my environment.."
+videos,fe930xa,t3_eo1vom,1578933683.0,"I may be old school but ""bat shit crazy"" still applies."
+homeowners,fd1q5tn,t3_ejsd4x,1578135080.0,"it depends on if it is a track door or a spring door, but they both have some momentum so my initial reaction is that it's probably OK. Spring doors that swing down have way more though. If it's a track door you want to be concerned about how well the wheels are doing and tracks.
+
+Both have a tether you can pull to disengage the track, and manually open it or close it. It's important to know about that for your concerns about power outages and such."
+CatTaps,fd1ph9p,t3_ejs1mz,1578134768.0,we have one of those nuclear catnip bananas and they are no joke.
+orangecounty,fd1or0k,t3_ejsrhv,1578134425.0,"cars and coffee in san clemente looks like the jam, as I'm into the same [https://www.southoccarsandcoffee.com/](https://www.southoccarsandcoffee.com/)
+
+I took my 68 big block dart out to the old cars and coffee in irvine about 8 years ago and found it was quite a mix of old musclecars and supercars. Cool deal all around and apparently it's been growing.
+
+Cya tomorrow."
+depression,fd1nvo2,t3_ejty7s,1578134002.0,"I understand the wants for a slower simpler life. My work also is such that issues will keep you up at night or working odd hours. Sucks.
+
+I have a very demanding job as in I can't do it for 5 more years type job.
+
+Sold my house last year and definitely gave a really hard look at putting all my shit in storage, cats to my moms place, and quitting said job and going on a hike from mexico to canada."
+depression,fd1koi5,t3_ejtqm7,1578132582.0,Thanks. I read it all and feel a little better now because of it <3
+sysadmin,fd1jywr,t1_fd0ntbn,1578132293.0,"I see the jist of what youre alluding to here but any solid devops or systems engineer can spin up k8s or mesos, and openstack for the ""cloud"" stuff and microservices on prem. Bonus points for ceph and cinder there, but these are all pretty simple standard and mature services at this point. 
+
+It's cheaper to do on prem but harder and takes people with experience. That's the thing, and at a certain point you need those same people in order to not have a bad time even in the cloud as well since the same issues happen there as on prem, and cloud only people don't really have a basis to start troubleshooting the underlying hardware issues that are happening in the ""cloud"". It's a tough industry."
+sysadmin,fd1ib8m,t1_fd0ef95,1578131618.0,"Good point about data. We're over 25Pb on prem in multi - dc and growing. I've seen the bills from before in AWS 4 years ago vs now on prem, it's crazy. And we have a lot more capability. AWS seems to have so many random issues with AZs or intra AZ networking which are things we just don't deal with on the majority of our infra now."
+sysadmin,fd1gsod,t3_ejs6ym,1578131199.0,"My numbers from the last 4 years (from ceo/cto which I report to in a company with a 250 kW footprint)
+
+CPU  +/- 3x the cost to do cloud vs on prem
+
+GPU +/- 10x cost
+
+I think at a certain point you  break out of cloud either for general cost reasons above, or application reasons below. It really is a size thing though in my opinion. At some point you're going to need the same talent to come in and troubleshoot issues for you no matter which environment you have, so as a CEO/CTO so it's logical to BYO after some scale really in my opinion. I've seen lots of this actually in the last 20 years i've been pretending to do a good job at this. People seem to have been primarily on prem then there was a big rush to cloud, lots of companies just would get started on cloud (this is the big bonus of cloud IMO), then they'd get past the fad part of growth and actually having to buy reserved instances, and then paying multiple 100k per month bills to the point they decide it's time to move to on prem DCs. Lets not mention the multi AZ nature of AWS uptimes, or any other cloud provider you wanna get into or their bandwidth costs, or.... OK that was a rant sorry.
+
+Just my views.... likely skewed but whatever! Happy holidays all"
+aww,fd1a1ra,t1_fczr9za,1578129005.0,"Yeah, having had lots of cats these skin reactions are something I notice immediately but certainly didn't during the first years. Cats are super nuanced creatures and once you realize and embrace that you really get to appreciate them. This is how they communicate and a reason for why people don't vibe with them generally if they don't pick up on the cues."
+aww,fd194cg,t3_ejmgfy,1578128804.0,"this just made me love cats even more, and I already love them more than humans by far. Thanks"
+funny,fd15niu,t1_fczy5s3,1578127786.0,"sometimes good neighborhoods too, you just never know. Probability...."
+docker,fd14dn3,t3_ejs7ed,1578127447.0,Do two seperate containers so that if you need to scale one independently of the other you can. Think in terms of cores and memory not processes.
+oakland,fd13he7,t1_fcopksh,1578127107.0,"I hear what you're saying here, and this is a cautionary tale to my own self not to run after my stolen laptop (long as they close it) if it ever gets snatched up like this..... I'm not one to hang out in a cafe and work there but in a pinch I may have to.
+
+This one is pretty rough. Condolences to this mans family and friends"
+oakland,fd108rw,t1_fcuos32,1578126176.0,this seems normal oakland to me. Agree it's insane
+oakland,fd0zmkm,t1_fctqh7s,1578125935.0,I was there for 4 years and went down this rabbit hole so far and came to the same conclusion. Applaud your friend for what he does. PM me for drinks anytime I work in the bay area but don't live there anymore because of this.
+oakland,fd0z2m2,t1_fculhwu,1578125719.0,"If you wanna look at huge problems, you need to start with DAs. PD personnel are generally doing what they're told and have little to no policy wiggle room."
+oakland,fd0ynx0,t3_ej0j9g,1578125556.0,Who are we kidding - does anyone even try and get a scheduled train on bart anymore? FFS I just show up and wait like everyone else. Might not even get into the next train and have to wait for the next or the one after that.
+news,fd0y0jf,t1_fd0x2eh,1578125302.0,"I'm all about us leaving and let them have it out. It's not like there's been a warless time in the ME ever so I feel like they'll hit their usual stride again and just get back to normal.
+
+I don't want our people there. At all. period. This is my opinion and I'd be happy to send lots of missiles in their place if needed to ""fix things as needed""
+
+proxy wars are terrible. it's all terrible"
+bayarea,fd0xfsz,t1_fd0voq4,1578125078.0,"Yep, fucking animals. Sucks so bad for everyone involved and sadly nothing is going to change :("
+bayarea,fd0wq8a,t1_fd0cqbn,1578124797.0,"doesn't matter, in the yay area crime isn't criminal anymore so wtf does she need to worry about. That macbook aint worth over 1k"
+AnimalsBeingDerps,fd0vty9,t3_ejqvlp,1578124444.0,love this family
+linuxadmin,fd0vmxl,t1_fd0tayy,1578124369.0,"To me it's more about learning the 2 package managers (deb and rpm) and their strengths and shortcomings. You need to be OK with an environment that runs either of these in prod day to day, no matter what your opinions are of them,"
+linuxadmin,fd0v51f,t3_ejrfp2,1578124178.0,"As others have mentioned, switching to daily use of linux is going to be your best way to get first hand experience. Things are going to break, like your graphics drivers. If you're worth your salt you'll sacrifice those 10-15 FPS to game in linux and not have to switch over to windows! If not it's gonna cost you a lot of reboots and you'll have no uptime.
+
+If you REALLY wanna learn I would recommend [http://www.linuxfromscratch.org/](http://www.linuxfromscratch.org/)
+
+I did this back in the day with li and only some people will get what I just said."
+AskReddit,fd0tfr8,t1_fd0mv0h,1578123518.0,this made me laugh thanks
+AskReddit,fd0tch7,t1_fd08rfk,1578123483.0,the things that don't kill you only make you stronger. Good for you handling it in such a positive way.
+news,fd0smqk,t1_fd0aywe,1578123206.0,people above you were literally doing comparitive monstrousness. It's all in the lens.
+worldnews,fczondr,t1_fczkmyu,1578105800.0,"Age of hyperbole we're living in here, but that doesn't mean that we should start accepting this new ""normal""
+
+Thank you for bringing it up, and agree with your sentiments. I just wish I could communicate them half as well as you did here!"
+bikewrench,fczm8kn,t1_fczcdf7,1578104294.0,"I've always heard these referred to as ""ground scores"" but i like the term ""Road Treasure"""
+news,fcx6cso,t1_fcwus61,1578053073.0,I like how you think america isn't also fighting in this way now sweety.
+worldnews,fcx5v9e,t1_fcx0t6i,1578052510.0,"please cite these war crimes, I'm genuinely interested.  I read a lot about afghanistan and iraq."
+news,fcwzguh,t1_fcwpmfz,1578044365.0,"Oh man totally forgot about these more popular books but also good
+
+lone survivor
+
+restrepo
+
+Also, Junger just released a documentary called Korengal which I haven't seen but is on my queue."
+news,fcwwi8f,t1_fcwsxus,1578040585.0,Many of these operators have some pretty severe ptsd just like troops that shoot people up and close. Rough gig if you ask me.
+sysadmin,fcwsov9,t1_fcvmixy,1578036034.0,">e back around with having been on for way too many hours, way too drained, and completely missed the one detail he needed to see to prevent it. It brought about a couple added layers of ""are you sure?"" to catch those moments, but in the end, it was ""dude, you should've called it 3 hours earlier, and none of this would've happened."" ... basically, don't try to be a hero and turn out to be the mook that breaks everything. (they had several   
+>  
+>other  
+>  
+> low level systemic issues that exposed, like non-functioning backups... and to my knowledge, no, he wasn't in any way, shape, or form penalized for it since... it was a simple mistake, and a lesson he'll never make again).
+
+Yeah, I agree with this whole heartedly. If there's something I could have done better in monitoring or process I will stew about on it until I have it deployed and working in my environment every time there's an issue.
+
+If you don't do it now, the right way, it'll never get done until something worse happens."
+personalfinance,fcwsgit,t1_fcwas9c,1578035772.0,"This. 
+
+But.. if you really want to maximize your sale value you would probably move your stuff out and hire stagers for at least the photos, but ideally the showings. Have done this a few times and it really helps since these people have tons of rad furniture and are very good at showing the property off and maximizing the positives while covering the negatives.
+
+I stayed in my home while staged and just camped out on the last one. Depends on your level of comfort needed obviously but this worked for me."
+news,fcwpmfz,t1_fcwo53y,1578032769.0,"Oh man, here goes my last year of books. If I were to jump in today from scratch I'd probably start with 
+
+- The Operator, written by the seal that killed OBL. Have read some other seal books but this was such a great read I'd recommend it to anyone.
+
+- Next up I'd have to put To Quell The Korengal written by one of the funniest soldiers I've ever had the opportunity to read.
+
+- C.J. Chivers The Fighters was what got me into this whole thing, and is another damn good read
+
+- Sebastian Junger is an excellent author, WAR is a great book. Would recommend Tribe as well. Sebastian was embedded with many of the teams in these other books.
+
+- Hooligans of Kandahar is also really good, in some ways like Quell the Korengal but different content.
+
+Lately I've been reading James Christ's books which are more focused on individual events in the theater since I've gained a bit of familiarity as an armchair kindle veteran. It's interesting to me to read and learn what these young men have been going through. I definitely prefer the books written by these soldiers but Christ does a good job of listening and writing.
+
+If you have anything I've missed or that you've read and enjoyed on the subject please post it! And thanks for starting the reddit Afghanistan war book club with me!"
+news,fcwmxyj,t1_fcwf07c,1578030208.0,Mexico City is indeed a more astute analogy.
+news,fcwmwg7,t1_fcwitu7,1578030172.0,"Yep, I read a ton of books about afghanistan and instantly recognized this guys name when i saw it on my reddit feed for this reason."
+news,fcwmtlj,t1_fcwlq8d,1578030102.0,">o mad about. He just wanted his country to have more MySpace accounts, more
+
+I laugh but it saddens me to realize how many people in this thread believe myspace was around in hitler days...."
+news,fcwmbqh,t1_fcwikw9,1578029671.0,"yeah, he literally said that he would respond accordingly. Is this not accordingly? Yeesh."
+news,fcwknl0,t1_fcwhnkv,1578028254.0,"Thank you for bringing this well thought out and worded post. I'm a terrible communicator and this sums up my thoughts pretty succinctly. Some people fail to grasp that we have people working 24/7 on this stuff, and I applaud the delivery here."
+news,fcwk89j,t1_fcwbfqe,1578027903.0,raise my taxes if this is the worst thing we do with them. Good riddance to this waste of oxygen and his HVT friend.
+bikewrench,fctjq8z,t1_fcticpa,1577945707.0,"I don't think so. Bike fit is all about making small(ish) changes and experimenting to get comfortable. Once there, you'll find that your needs change as well, so you'll find yourself making changes until things are good then making progressively smaller tweaks to optimize.
+
+I'd try adding a spacer to get your drops more accessible especially if you go wider (more distance). I like wide bars but also race mostly cyclocross. Have raced on the track with small (40cm) ones too (I'm 6"" tall). I always try and setup my bikes to work for the drops first since if you are uncomfortable in them you will not use them. Compact bars are great for this reason!
+
+This is personal opinion based on 20 years of riding/racing but drops are for 3 things, and compact bars are made to get you there. 
+
+1) sprinting
+2) control on descents
+3) aero when you gotta close a gap or are going full out (sprinting)"
+homeowners,fctig5z,t3_eitpdr,1577944374.0,"I'd move everything into storage and live super spartan if you're looking at a gap rather than pack/unpack/pack/unpack again. It's literally the worst thing I dealt with in 2019. would not recommend, and I kept at least 60% of my stuff in storage. I thought that was enough but you should aim for like 85% or 90% to save your sanity and weekends.
+
+Rent a furnished apartment somewhere nice and treat that time like vacation? I have too much stuff so could never actually pull off a place right on the beach, but if I was in your shoes this is what I'd do. Substitute beach for any desirable place in your vicinity...
+
+Slowly unpack from storage and assess what's worth keeping and what needs to go. I've moved a ton of times and always have to do this no matter what. Sometimes stuff doesn't work and you will not be happy till you have it sorted out. Maybe do some of this on phase one and save on storage unit costs, but over all that's a small % of what is being spent. Large furniture is great to sell and rebuy if it's not vintage or super high end.
+
+HTH and congrats on purchasing! It's so worthwhile and you'll be doing something great for yourselves as well as your neighbors buying into your new neighborhood."
+networking,fcthkjd,t1_fctezk1,1577943516.0,"been there, done that. Mesh won't work in places that are faraday-cage like like my old house referenced above. Have a unifi setup here at my new home that works great but old house crushed it. I think something to do with old construction and wire inlays..."
+networking,fcthfzn,t1_fctf71u,1577943394.0,"cool, thanks for answering. I had a home in the past that was over 100 years old and had wifi inpenetrable walls I swear. Did everything imaginable to get internet throughout the house aside from this but ended up getting the full cable installer setup and going to town with cat6 everywhere. In hindsight I kindof wish I had taken the leap on the EoP thing but I really wasn't willing to accept another failure at that point."
+networking,fctev70,t1_fcteopl,1577941026.0,"so does this even work? I've always just bit the bullet and run the cable even if I had to use fish tape or flexible 6"" drill bits or ?????"
+bikewrench,fctesm1,t3_eitaq0,1577940962.0,my ex loved those fsa bars for sprinting bc of the flares but ended up being pretty happy on the shimano PRO compact 44s after going from 42-44 over a season or two on multiple bikes.  I think the reach is more of a stem thing and the curve of the compact drop on the shimano bars was close enough that it worked out...
+networking,fctdasa,t1_fct92zm,1577939648.0,"\^ you'll need to run the controller software somewhere and push these changes out every time you wanna update anything (reboots required). This is the why for my comment above, I'd keep it all ubiquity and save yourself some headaches."
+networking,fctd6t7,t3_eisgmf,1577939555.0,"I don't have the specs offhand on that SG200 but you might have POE interop issues there. We ended up going with the ubiquity one after dealing with the adapter issues (don't get me started) 
+
+POE is still kind of wild wild west when it comes to standards. I'd snag an ubiquity switch again and save the hassle even though I hate the switch every time I have to make a change."
+cats,fct4y1d,t1_fct4hu6,1577932989.0,Good point - I totally forgot about the slime! Mine has a stainless top and hasn't gotten bad like that but I think it's really dependent on the water you have. The old petsafe one I had would get all gunky like that so I def know what you mean there.
+news,fct4ps6,t1_fcrg3ct,1577932822.0,"Agreed....  People get shot everywhere in Oakland. If this was r/oakland I'd prob not even bring it up, but this is a big sub so I feel like people legit may not know and think that the violence has been gentrified out. I lived in West Oakland for 4 years and literally heard a person get shot and bleed out screaming before the medics could get to him. Seen tons of stuff in my life but that one haunts me.... Lots of shootings all over the city and I am pretty sure most  are unreported/underreported Stats seem much different than what I experienced in my time there."
+news,fct2jtt,t1_fcrnrzr,1577931209.0,"I hope so too, since this story has gotten some exposure due to the timing but I won't hold my breath. This kind of thing happens all the time in Oakland. I doubt that it'd have gotten this kind of reaction nationally if it weren't for the holidays. Tragic and I feel for this young man and his friends/family :(
+
+Be safe out there people"
+news,fct1rkk,t1_fcss7bb,1577930634.0,"I moved away last January. Miss my norcal friends and easy commute but don't miss all the nonsense that comes with living in Oakland. Fortunately I'm 50-60% remote so I can pull that off but can't imagine being there another year. Serious ptsd issues from the 4 years that I spent there.... I had no idea this could ever happen growing up in a bad neighborhood but the bay is something different for sure.
+
+As the poster above you alluded to - it's not OPD's fault, but 100% the policies that have been put  in place by the representatives that have been voted in by the people. I just do not agree with them so made my peace with it and did what I needed to do to save my sanity.
+
+/rant (sorry)"
+cats,fct0nvi,t1_fcsyeee,1577929830.0,"I've had a few over the years, right now they like the ""catit"" one I got them that has a little flower in the middle... should come up easily in a search on amazon. The filters are pretty nice and simple, and it's got a usb charger (easy to disconnect/reconnect for frequent cleaning and refilling).
+
+Bonus - they will probably get water all over their faces when they drink which is kind of hilarious."
+cats,fcsnsg7,t1_fcsj74e,1577920620.0,Definitely recommend some sort of filtered cat fountain as well. My kittos love love love theirs. I'm considering buying a second one because life is short and they deserve it.
+AnimalsBeingDerps,fcsnm2j,t1_fcrt5dm,1577920494.0,they are definitely my favorite cats by a wide margin.
+homeowners,fcsn796,t3_eioglq,1577920195.0,"I'd set up a bunch of different searches for areas and home sizes/features you're interested in and just refine them day by day. Zillow is great for this since you can draw your map and really focus on neighborhoods you like. Drive around and check out the ones you're interested in and adjust as needed. I was lucky to have a buddy that's a realtor to help on my last home buy but used a referred realtor on the one before and had great results. I'd start interviewing now and just be clear about your timeline. If they're not busy likely they will offer to show homes you're interested in even if you're not quite ready to make an offer.
+
+As mentioned you can pre-approve ahead of time. I'd work on your credit and reduce all your debt to under 30% if you can before applying for your loan approval to get the best rate. There's other things you can do to improve your scores ahead of time as well to ensure you get the best rate but as far as I  know nothing is better than VA loans right now.
+
+Anyhow, I would also not stress about buying before the lease is up if you're looking to buy a home that you plan on being in for a long time. A few months rent is not going to likely be a huge % of that purchase regardless, and is worth it in the long run if you really find the house you want. I went through this exact thing last year and just factored in the double rent/mortgage thing but came out of it with the home that I wanted rather than passing it up and in hindsight am really happy I did things the way I did.
+
+Best of luck!"
+aww,fcsh3ib,t1_fcphcy1,1577916449.0,maybe 08 was the trial run of the tasty wires.... sorry you had to deal with this as well......
+Showerthoughts,fcpaf82,t1_fcop33v,1577856099.0, I certainly hope we will
+aww,fcp0pob,t1_fcois2q,1577846921.0,"can confirm, ex mechanic for 10+ years and have seen lots of things jump or fly out when opening the hood of a car.
+
+Also, just recently had to pay a 400$ bill for rat damage to wiring on my wifes 2008 toyota minivan, so not sure it's just new wiring..."
+ShittySysadmin,fcoz7t1,t1_f9mr4bs,1577845687.0,"fellow no voicemail teamer here. Never full, and never have to check.
+
+&#x200B;
+
+It does get annoying when people remind you that your voicemail isn't setup when they text you the abbreviated version of what they were going to leave there which you would have to take time out of your day to delete later in order to keep the system from filling up."
+ShittySysadmin,fcoxmqn,t1_faj6way,1577844397.0,don't forget the infinite password history as well
+investing,fc7xhrp,t1_fc7gk0n,1577521242.0,"> and you get used to the daily or weekly fluctuations. Eventually you become numb to the market swings.Q4 2018 was painful but I kept investing anyways and returned about 30% so this year.
+
+I pulled a few 30% personal investments out after the late 2018 bust, and kept my normal retirement investments going the whole time. Also have a long window but I also bank some short term savings in personal investment accounts since I know worst case I have to sit on it for a unknown amount of time, best case do better than savings..."
+modular,fc7wv61,t1_fc6w08y,1577520761.0,For me - I saw the ajh minimod and decided that I was going to have a eurorack model D. I dig the option of modular in the studio and plenty of synthesizers nowadays have patch outs/ins for integrating with it. My tvs pro is almost modular itself.
+modular,fc7wbw8,t1_fc72amt,1577520351.0,OP still needs a maths.... it's such a great module and that's the reason you see it in so many setups
+nvidia,fc7vwzl,t1_fc7elg5,1577520030.0,"cool, I have a 9900 that I haven't even bothered to try OCing and have one of the larger corsair water cooler radiator combos installed. Maybe I can get there we'll see!
+
+Thanks for posting!"
+oakland,fc4t94f,t1_fbx8yxw,1577427547.0,"I just want this stagnant bs to move forward, it's so silly.. but omnipresent in the way shit gets done in oakland so whatever.."
+Catswithjobs,fc4t5fa,t3_eg3s01,1577427435.0,My kitty knows when I'm gonna travel and does this. <3
+AskReddit,fc4t3i4,t3_eg58c8,1577427379.0,ka-ching
+oakland,fc4q339,t1_fc43g6d,1577424359.0,(in oakland)
+oakland,fbx7sus,t1_fbwkbfo,1577173201.0,not sure why downvoted but this seems like business as usual. Thanks for typing that out for us to see. I am annoyed at oakland city for not being better as well.

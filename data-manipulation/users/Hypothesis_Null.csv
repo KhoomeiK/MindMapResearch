@@ -1,0 +1,184 @@
+subreddit,self ID,parent ID,time,text
+Showerthoughts,ffjec7b,t1_ffhri2c,1579996471.0,Well now that's just silly.
+Showerthoughts,ffhm8h5,t1_ffhm3se,1579941992.0,"Nonsense.  All planets have 24 hour days, one biome, and breathable atmosphere.  It's basic science."
+explainlikeimfive,ffhk19c,t3_etm9we,1579938827.0,"A lot of people are giving you metaphors, or just repeatedly using the phrase 'the computer interprets' as though no matter how deep you drill down there is some sort of ineffable, intelligent gremlin that performs the magic of understanding.
+
+So, here is what's done.  It may be a bit harder to follow than ELI5 ought to be, but it should actually answer the question in as simple a form as I can make it.
+
+The most basic kind of process that would resemble a computer is an arithmetic processing unit.  But we'll focus on an even more basic kind of processor than that - something that just lets us store numbers in memory, and add them together.  We'll do this with 4-bit numbers.
+
+What you need to make this device is an adder circuit, and a bunch of memory circuits.  You can look up how to make these from logic gates - but all you need to understand is their basic input-output behavior.  
+
+For an 4-bit adder, you'll have 8 input lines which you can make high or low (first 4 represent first number, last 4 represent second number) and 4 output lines, which will represent their sum (with any carry-over truncated.)  This circuit acts more or less instantly - whatever you assert on the input lines, the output will automatically match.
+
+For an 4-bit memory circuit, you have 5 input lines.  You have 4 input lines which you assert as high or low to represent your number.  And then you typically have a one more input line which, when asserted, will 'store' each of these bits, so that the 4 output lines match the current value of each of the 4 input lines, and will continue to output them until they get another 'store' command.  Without that 'store' command the memory slot will just ignore the current inputs.
+
+To make our super-dumb calculator, you'll arrange these kinds of circuits together as shown in the following diagram, with 4-wire buses (4 wires in parallel that link outputs of circuits to inputs of others).  The horizontal and vertical lines represent these buses.  The sideways arrows -> represent 'gates'.  A gate is just an electrically-controlled switch.  Not drawn are a bunch of single wires connected to these gates.  If that wire goes 'high' the gate is opened.  If the wire is 'low' the gate is closed. I'll mention what the ARB is for in a minute.  We'll attach the input to our gates at the memory-inputs to the memory's 'store' function as well, so when the gate is opened it'll store the value.
+
+
+>|||| -> memory 0---Adder......|||| <- ARB 1     
+|||| ------------------Adder -->|||| <- ARB 2      
+||||.....................................|||| <- ARB 3   
+||||.....................................|||| <- ARB 4       
+|||| <- memory 1 <-----------||||  
+|||| <- memory 2 <-----------||||   
+|||| <- memory 3 <-----------||||   
+|||| <- memory 4 <-----------||||   
+|||| <- memory 5 <-----------||||   
+
+
+So how would we use this to do operations?
+
+Well, let's say we want to add the numbers 3 and 5 together.  For now let's just say that the value of 3 (0011) is stored in memory slot 1 and the value of 5 (0101) is stored in memory slot 2.  So how do we do that?
+
+Well, they have a single set of 4 wires along the left-hand side attached to the outputs of all the memory slots.  If we 'open the gate' at the memory 1 output, then the value of 3 (0011) will spread across the four wires.  It will run up against the input to the adder, and the input to the memory 0 slot.  We can't also open up the gate at the memory 2 output, because that would put both the values of 3 and 5 (0011 and 0101) on the bus at the same time, so you'd probably get a random result, or the superposition of the two (0111 = 7).  So we can't just open both gates and let them flow into the adder.  And two 4-wire buses would be inefficient, since we'd need two gates for each memory circuit, one to connect it to each of the two buses.
+
+That's why memory slot 0 is there.  We open the gate from mem1, which will deliver its value (0011=3) to the adder and the input of memory 0.  Then we open the gate on memory zero input (which is also tied to the 'store' line) so the value in mem1 gets delivered to and stored in mem0.  Now the value that was in memory slot 1 is continually being input to the adder via the memory 0 output.
+
+So, then we close the gate leading from memory 1 to the left bus, and we close the gate leading into memory 0 so it won't get overwritten with a new value.  Then we open the gate on the output of memory 2, so that the value there (0101=5) flows directly into the Adder's second input.  With this gate open connecting memory 2 to the adder, and memory 0 deliverying memory 1's value to the adder, the output of the adder will be the sum of the values in memory 1 and memory 2 (1000 = 8).  This value will be output constantly at the output of the adder.
+
+If we open the gate on the output of the adder, and open the gate to the input of memory slot 3, then the sum will get stored in memory slot 3.  Thus we will have added two values and stored the result.
+
+Going back to the ARB thingy - we need a way to place our desired values into memory in the first place.  How do we get the values of 3 and 5 into memory slots 1 and 2 to begin with?  We have to put them there.  So ARB_IN is actually just a source of high voltage connected to the 4-wire bus with 4 individual gates.  We open or close those gates to place a total value on the bus, and then open the input of a single memory slot to store the value.  So to store the value 3 in memory 1, we open the memory 1 input gate, and then open ARB_In gates 3 and 4 while leaving 1 and 2 closed (0011 = 3).  We do a similar thing to place the value 5 (0101) in memory 2.  Thus, we can input ARBitrary values into arbitrary memory by opening the right combination of gates.  This is also why we need a gate on the adder output - so we can block off the result constantly flowing out of it if we want to put an arbitrary value on the memory input line instead.
+
+
+So this really just breaks down into 4 steps.  Leaving all other gates closed:
+>1) Open gate mem1_in, ARB gate 3, and ARB gate 4  
+2) Open gate mem2_in, ARB gate 2, and ARB gate 4  
+3) Open gate mem1_out and mem0_in  
+4) Open gate mem2_out, adder_out, and mem3_in  
+
+This will:
+>1) store the value 3 (0011) into memory slot 1  
+2) store the value 5 (0101) into memory slot 2  
+3) store the value in mem1 into mem0  
+4) deliver the value in mem2 to the adder, adding it with mem0 and storing it in mem3  
+
+
+This is our program. *This* is what we need to tell the computer to do, at the most basic, fundamental level.  Build it so that we can make it do different, useful things by opening and closing gates, and then tell it what gates to open and close in what order to make something happen. So what does this *program* look like when written for the computer?  Well, we have 16 total gates. We'll label them 0-9 and the remaining six A-F.
+
+>0) ARB 4  
+1) ARB 3  
+2) ARB 2  
+3) ARB 1  
+
+>4) mem0_in  
+5) mem1_in  
+6) mem2_in  
+7) mem3_in  
+8) mem4_in  
+9) mem5_in  
+
+>A) mem1_out  
+B) mem2_out  
+C) mem3_out  
+D) mem4_out  
+E) mem5_out  
+
+>F) adder_out  
+
+
+So our 4 instructions above become:    
+>1) open gates 5, 1, and 0    
+2) open gates 6, 2, and 0    
+3) open gates A and 4    
+4) open gates B, F, and 7   
+
+These gates are all blocking (no signal gets through) if they receive a low voltage (0) and are connecting if they receive a high voltage (1).  So that's exactly what our instruction looks like.  Our instruction is formatted as 16 high/low signals delivered to the gates in the format of:
+
+>FEDC BA98 7654 3210
+
+(spaces added to make it easy to identify individual bits)
+
+So our 4 instructions, finally, in fundamental 'machine code' are:  
+>1) 0000 0000 0010 0011  
+2) 0000 0000 0100 0101  
+3) 0000 0100 0001 0000  
+4) 1000 1000 1000 0000  
+
+
+That's it.  That's the machine code.  There's no interpretation going on.  There's no Gremlin. These are the physical instructions that make the machine go.  You could deliver these instructions, say, in the form of a punch-card.  Have a cardboard card with lines of 16 perforated holes that can be punched out. Place it between a piece of metal with high voltage, and a line of 16 spring-loaded contacts each attached to a gate. Any holes that are punched out will let the contacts connect to the plate, delivering voltage to their individual gate.  Perform each instruction by pushing the card through, to the next line so all 4 lines occur in-sequence (with all gates closed in between to prevent any instruction mixing).
+
+
+All computers are just [much] more complicated combinations of this fundamental mechanism.  No matter how many layers of abstraction there are, at some point the system just turns into 'telling which gates to be open and closed for each step to occur"".  And the computer doesn't have to 'interpret' anything.  At the fundamental level, the instruction *is* the set of signals that electro-mechanically open and close the gates.
+
+If you read through all this, well done.  Let me know if it was helpful, or if any part was unclear."
+Showerthoughts,ffhe1la,t1_ffhcoyn,1579931452.0,"Easy.
+
+They were in a horrible movie made by Disney."
+Showerthoughts,ffha2ce,t1_ffgtqrg,1579927525.0,"TIE fighters don't have self-contained hyper-drives like X-wings do.  So the Ion engines aren't related to the kind of lag being talked about here.  It'd be hyper-lag.
+
+Solution though:  Land on whatever part of the planet matches your clock."
+AskReddit,ffh9mag,t1_ffh4ax8,1579927119.0,Calm down Satan.
+dataisbeautiful,ffh8zn9,t1_ffgw2bt,1579926565.0,"1) That's not straight insurance anymore.  Every one else is going to be forced to pay more to cover the bad health of others.  An ideal insurance pool would be you paying into a pot with 1000 clones of yourself.  Since it's hard to find good clones these days, instead you group up with many other people, and then all pay different amounts into the pool based on what risk you bring to it.  M4A would not be structured that way.
+
+2) Medical resources are limited.  Finite.  And a more limited amount than we'd like.  Giving everyone health *'insurance'* doesn't automatically mean everyone gets great health *care*. It will still have to be rationed.  So instead of being able to prioritize your own health, and be responsible for it, and being able to make your own choices for how much you'll pay for what things, a bureaucracy instead will be choosing who lives, who dies, and how much treatment someone gets before being cut off.  You've only moved the loci of choice - who decides who gets what and how - you haven't removed the necessity of that choice, and you've arguably moved it to a worse spot.  
+
+3) While there would be improvements in efficiency in moving away from the horrible current hybridized system, those savings are unlikely to make up for the decline in available medical resources.  With the government dictating [lower] prices due to its monopoly buyer power, you're going to see a disincentive for people to supply medical treatment.  Fewer drugs, fewer hospitals, fewer doctors, etc.  If you plan to pay people less than they're currently getting for what they're currently doing, you can rest assured there will be fewer people still willing to do those things, and willing to do less of it.
+
+4) Good luck with that second part.  Sure, you can force them to sell any medicine they're making today for pennies on the dollar.  And you'll never see a new drug get made again.  So, Arthritis, Alzheimer, AIDS, Depression, Cancer, Atherosclerosis, The Flu... well, I hope you like those things, because they won't be getting any better treatments any time soon.  Ever heard the phrase *'killing the Golden Goose'?*"
+dataisbeautiful,ffgv7jn,t1_ffg8yno,1579915898.0,"That's... actually not how insurance works.  You're not paying for other people.  You're grouping up with other people to enable you to pay for your statistical self, because while you can afford the *expected* cost of your own care - the cost of care weighted by the risk of needing it - you can't actually afford the care itself if you do need it. 
+
+Insurance pools risk, not resources.  That's something different."
+Futurology,ffguga9,t1_fffnpfq,1579915353.0,"It will provide power for a long time.  But the power it provides will always be pathetically minuscule.  The energy itself is also quite finite - fairly large when integrated over its lifespan, but still quite limited.
+
+We've known about this technology for more than a decade.  We don't do anything with it because it is very limited in useful applications.  We're talking things that need to run for a long time, but consume *microwatts of power.* That's on the order of tens to hundreds of millions of times less power than your microwave.
+
+Meanwhile this would do nothing to 'make nuclear waste safe'.  Putting nuclear waste out into the world, putting it to work, is always going to be more dangerous than just leaving it in a steel tank encased in concrete.  Not that we need to make it any safer than that in the first place, but there is a double bit of nonsense here regarding both the perception of nuclear waste, and how using it for a purpose somehow makes it not be what it is."
+funny,ffgphwc,t1_ffg6gpd,1579911769.0,username checks out.
+nottheonion,ffed6h8,t1_ffe1n8g,1579843722.0,R.I.P. /u/Cireburn's Thursday evening.
+nottheonion,ffdx4da,t1_ffda3s8,1579831104.0,"Someone's genre savvy about [Petting the Dog](https://tvtropes.org/pmwiki/pmwiki.php/Main/PetTheDog)
+
+*WARNING - Tvtropes.org link*"
+nottheonion,ff4osk8,t3_ere6f9,1579568821.0,"""Learn to Code.""
+
+""Little Creeps."""
+todayilearned,ff28e2s,t1_ff16nxf,1579496799.0,"Eh, the leaders were all guilty of executing other innocents, independent of whatever specific charge was leveld at them to put them on the chopping block.  It was called the 'Reign of Terror' for a reason. 
+
+Robespierre can burn in hell. Glad his trip there was expedited."
+history,ff0cm5g,t1_fezw9s1,1579467604.0,">“Did you really think we want those laws observed?"" said Dr. Ferris. ""We want them to be broken. You'd better get it straight that it's not a bunch of boy scouts you're up against... We're after power and we mean it... There's no way to rule innocent men. The only power any government has is the power to crack down on criminals. 
+
+>Well, when there aren't enough criminals one makes them. One declares so many things to be a crime that it becomes impossible for men to live without breaking laws. Who wants a nation of law-abiding citizens? What's there in that for anyone? But just pass the kind of laws that can neither be observed nor enforced or objectively interpreted – and you create a nation of law-breakers – and then you cash in on guilt. Now that's the system, Mr. Reardon, that's the game, and once you understand it, you'll be much easier to deal with.”"
+explainlikeimfive,feo5php,t1_fenitd1,1579295440.0,"**TL;DR**
+
+It'll go right to your thighs.  And then you blow up."
+AskReddit,fenulls,t1_fenu6mc,1579291032.0,Close enough.
+AskReddit,fenmz9d,t1_fenl1yr,1579288066.0,"But... but sir, I'm in *Ravenclaw...*"
+AskReddit,fena7in,t1_fen05f5,1579280328.0, You're still my favorite novelty account.
+AskReddit,fen9rf5,t1_fen2wks,1579280054.0,"Well, sort of.  The cup didn't *have* to be in Gringotts, but as you say, all of the other horcruxes had to be where they were, for various story reasons. So it did get put there by default, as the one remaining.   But by the same token, it couldn't have been anything else.
+
+*Edit -* which I just realized is exactly the Hufflepuff stereotype."
+AskReddit,fek63p4,t3_ephk8p,1579193389.0,"*The Reckoners,* from Brandon Sanderson
+
+I see a lot of series I love here, but a lot of them just *aren't suited* to tv/movie adaptations.  Different mediums have different strengths,  and when the story relies on that unique perspective and descriptive method of delivery from a book, movies will tend to just *fail* to deliver.
+
+So this is just a series that I liked,  that has a story and plot and format that's well suited to live action.
+
+One day, a red star dubbed ""Calamity"" appears overhead in the sky, visible at all hours of the day.  At the same moment, a small percent of the human population all gain various super powers. From the arbitrary and mundane, to the completely broken.
+
+And they are all evil assholes. Every *single* one.
+
+Good luck, humanity."
+todayilearned,fei14xb,t1_fei0qju,1579128013.0,"But it's almost like The Nobel prize committee is not.
+
+Besides, Einstein did much of his work while in Zurich, Switzerland.  So not only must you consider swiss standards as much as Austrian, but you must acknowledge that travel was not terribly difficult, were a more accepting environment important and necessary.
+
+On top of that, considering she was a PhD student, whatever the standards of her environment were, they *had to include* permitting women to research and publish.  As that is, after all, a core foundational requirement of getting a PhD.  So i think the speculation here is utterly baseless."
+history,fehyiyh,t1_fehqwnk,1579126442.0,"*""That's Phil's boy!""*"
+todayilearned,fehwqh6,t1_fehm60o,1579125388.0,">Saying she didn't achieve things women at the time were universally barred from achieving
+
+Wasn't this all about the same time Madame Curie won two Nobel Prizes in two different fields?  One of which was this very same field of Physics?
+
+Not that things were not harder for women at the time, but you ought to be pretty carful when using totalizing statements like *""universally barred""*, when such a stark contradiction is readily available."
+space,feh4cbk,t1_feh1xyb,1579108876.0,"They havent ruined quality.  I'm sure thosr women are perfectly qualified.   What it ruins is the faith in meritocracy.  That they are there because they were the *most* qualified rather than merely *sufficient.* 
+
+Which sucks for everyone,  but especially for the people who really are all-that, but are stuck with this looming skepticism that they're not."
+AskReddit,fecnwos,t1_feck77t,1578978669.0,"Gun homocides per year are ~10,000.  Driving deaths, a large chunk of which are caused by alcohol, constitutes around ~40,000
+
+""By promoting and protecting a society where drinks designed to inebriate are readily and easily available, you contribute to the deaths of children indirectly, whether you like it or not.""
+
+I'm not saying this argument is correct.  I'm just saying it's as equally valid as claiming gun owners are responsible for any homicide involving a gun.  You can't have it both ways."
+LifeProTips,fe5xs32,t3_enqfi2,1578877316.0,[This... This is how you game the system](https://www.youtube.com/watch?v=wiMyCzezfTg)
+dataisbeautiful,fe5quh2,t1_fe5q9nf,1578873214.0,"Oh. Well. I guess that's it then.
+
+Cancel the industry everyone. Abandon any coursework or research. Rid yourself of any fantasies of future possibilities and clear out.  /u/psychopomp1047 has determined that there's nothing good here."

@@ -1,0 +1,338 @@
+subreddit,self ID,parent ID,time,text
+worldnews,fh2mehv,t1_fh241l4,1581257761.0,Sort of like this: https://i.imgur.com/Vd4cW86.jpg
+space,fgxud1u,t3_f0miks,1581176723.0,"It's a bad idea.  We should start off with closer systems and use the knowledge gained from developing those to shorten the travel time.
+
+If we could do a 160y journey *now*, but can get a 10% reduction in travel time 10 years from now, the later launch will arrive 6 years sooner."
+Starlink,fgwow7t,t1_fgu9y5q,1581164132.0,"To clarify on ""best direction"", it's easiest to create a good beam out of a phased array antenna that is perpendicular to the array.  So the antenna will likely try to level its horizon.
+
+eg if you placed it at the bottom of a cliff, I'd expect it to settle at a 45 degree angle.
+
+I'm not sure why the motor is really necessary, as it should be a one-time adjustment, unless they expect heavy clouds to affect the signal significantly, or readjusting the antenna when switching from one orbital plane to the next."
+AskReddit,fgurhb5,t3_f0dcoj,1581127742.0,"Candy.  Gummy candy works great as a replacement for packing peanuts.  Even if the bag arrives as one large gummy due to the heat, it will be appreciated."
+Starlink,fgtnbug,t1_fgtdoqz,1581106877.0,"Depending on how the antenna tracks the satellites, gyro input may not even be necessary."
+spacex,fgqhchw,t1_fgpvm4s,1581024198.0,"Even if Starlink pays the exact same as other SpaceX customers, it will still be a cash cow.  It will make up a good percentage of SpaceX's business for the next few years at least.
+
+All SpaceX has to do is *not* give it a ""frequent flyer"" discount, and because it's a known payload, they can really optimize the launch, minimizing their costs."
+PowerShell,fgpsu0d,t1_fgpooey,1581011326.0,"If you're just concerned with individual characters, you can use `$regex = ""[ßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]""`
+
+For more general non-ASCII search, use `$regex = ""[^\x00-\x7F]""`"
+PowerShell,fgpn7u2,t1_fgpbudy,1581008189.0,"If you're passing it as a variable, you don't need quotes."
+todayilearned,fgpa4tw,t1_fgmf7mp,1581000498.0,"The genius of Austrian PR... convincing the world that Beethoven was Austrian, and that Hitler wasn't."
+PowerShell,fgo0c1l,t3_ezexnu,1580956873.0,"I'm not sure exactly which part you want to keep.
+
+For ""CN=MYComputer"": `[regex]::Match($test,'^[^,]*').Value`
+
+For ""OU=Win 10 Workstations,DC=Laptops,DC=sca,DC=local"":  `[regex]::Match($test,'(?<=,).*').Value`"
+spacex,fgn7ous,t1_fgmqefp,1580939254.0,Definitely saving that link for the next time a vendor insists on me talking to a sales person to get an estimate...
+IdiotsInCars,fgn5e1s,t1_fgmoda7,1580938029.0,"In theory, the weight of the vehicle won't affect the stopping distance.  As the weight increases, the pressure on the contact surface increases, which increases the friction, which increases the stopping force.  The changes cancel out.
+
+But there are two notable exceptions:
+
+* Once the vehicle gets past a certain weight, you run into problems with heat dissipation.  All that kinetic energy turns into heat.  So a fully loaded truck needs more time to stop or else the brakes and tires would melt.  This is considered bad.
+
+* If the vehicle is light enough, the rear can lift off the road.  So an empty truck needs longer to stop, or it would faceplant.  This is also considered bad. 
+
+Whether a truck at max load or no load takes longer probably depends on the truck, but they both take longer than a medium load."
+todayilearned,fgjlm0b,t1_fgjjwac,1580846566.0,"Except that for a proper trial, you need a fairly high number of test cases, some of which should be a control.
+
+So now you're exposing hundreds, if not thousands of people to a deadly, highly-contagious disease that *was* eradicated, and a significant number of them won't be vaccinated."
+todayilearned,fgji6oy,t1_fgjecz7,1580844559.0,"A more modern-style vaccine would *probably* work (and would be safer), but how do you test it?"
+politics,fgj7ghz,t1_fgix9eg,1580838446.0,"Iowa only had a population of about 80k in 1846, when it became a state.  
+
+Like many aspects of our democracy, it made sense when it was instituted.  Now, imagine getting all of Des Moines in one place.  The largest stadium would only fit half."
+todayilearned,fgiyr5e,t1_fgisppq,1580833697.0,"The smallpox vaccine is given using a bifurcated needle (small fork at the end), which is used to prick the skin multiple times (15, I think).  The injection site then gets infected (the vaccine is a live virus that related to smallpox).
+
+When it finally heals, you're left with a scar that's usually about half an inch in diameter.
+
+There are other vaccines that have been developed, but it's been difficult to test them, which is probably why the military sticks (no pun intended) with the old method."
+todayilearned,fgigcok,t3_eyb7o9,1580820768.0,"What does it say about our culture that ""It could harm birds"" is more effective than ""It could harm other people""?"
+todayilearned,fgig2nm,t1_fghztik,1580820506.0,"In addition, IT jobs (especially sysadmin or dev) are ones where you really need to trust your employees.  Even your level 1 helpdesk technician is going to routinely get access to possibly sensitive data.  Imagine what someone able to edit the antivirus whitelist can do."
+funny,fgic5yl,t1_fgi32em,1580816318.0,"If you take a small piece (square inch or more) of what you want to match, most paint shops will have a machine determine the exact mix for you.
+
+Or ask the maintenance department.  They'll likely let you have a small bit of the exact paint that was used the first time."
+SelfDrivingCars,fgheyey,t3_eyckt7,1580783332.0,"Then again, snow and ice also pose a vexing obstacle for many human drivers..."
+worldnews,fg85fq5,t1_fg7wa4q,1580610011.0,A lot of VA records aren't on outdated software.  But only because they're on paper...
+videos,fg84u6i,t3_ex5xgm,1580609565.0,"The flood control measures in Vienna, Austria are a good example of how to do it well.
+
+If you look at a map of Vienna, you'll notice the Danube river flowing fairly straight through the city, a narrow lake right next to it, and a smaller curved narrow lake.
+
+That curved lake (The ""Old Danube"") was the original riverbed.  The current one is wider than the original, allowing for more water to flow through without flooding the city.  Then, another channel was added alongside the main channel (The ""New Danube"")
+
+This gives the Danube flowing though Vienna a large volume that it can use during floods, protecting the downtown areas.  And when it isn't flooding, there are large bodies of water and islands available for recreation, separated from ship traffic.
+
+In addition, if you zoom out, the flood plains outside the city are clearly visible, and aren't built up."
+videos,fg7x9st,t1_fg6ut6b,1580603824.0,"My big takeaway from his channel is that if he actually picks the lock (instead of raking or completely bypassing it), it's better than 90% of locks out there."
+videos,fg7vp9a,t1_fg6xdo0,1580602655.0,"> By the video's logic if you close ALL roads then you wont have any traffic jams.
+
+Technically..."
+todayilearned,fg7uimu,t1_fg7slwk,1580601786.0,"Even equal load doesn't always work.  There's one that I go through that's particularly bad in the afternoon.
+
+I approach from the East, and want to head South.
+
+There's a constant flow from South to North.  This being a right-hand drive country, that means that anyone coming from the East has to yield to them.  Even worse is that the N/S road has two lanes in each direction, meaning that I need to wait for two lanes to be clear for me to enter the circle."
+PowerShell,fg682xl,t1_fg670jd,1580558381.0,"Forgot to check for when the sum is divisible by 11.
+
+    if ($checksum -eq 10) {
+        $checksum = 'X'
+    } elseif ($checksum -eq 11) {
+        $checksum = '0'
+    }"
+news,fg66vkt,t1_fg5kjqx,1580556703.0,"Considering that this thread is literally the only result on Google for ""nebraskan cameo"", it can't be *that* traditional."
+PowerShell,fg65bd3,t3_ex48w6,1580554403.0,"Using the calculation from https://en.wikipedia.org/wiki/International_Standard_Book_Number#ISBN-10_check_digits : 
+
+    $isbn13 = '9780008195816'
+
+    $isbn10 = $isbn13.Substring(3,9)
+
+    $checksum = 0
+    $weight = 10
+    for ($i = 0; $i -lt 9; $i++) {
+        [int]$digit = $isbn10.Substring($i,1) #can't use $isbn10[$i] because we need it to be a string, not a char
+        $checksum = $checksum + ($digit * $weight)
+        $weight = $weight - 1
+    }
+    $checksum = 11-($checksum % 11)
+    if ($checksum -eq 10) {
+        $checksum = 'X'
+    }
+    $isbn10 = ""$($isbn10)$($checksum)""
+    $isbn10"
+PowerShell,fg64h4i,t1_fg5kj3p,1580553146.0,"My suggested changes:
+
+Add a switch line `',{4}' {continue}` before the last option, to filter out the blank lines.
+
+Change the `'^\w*\s'` to `'([^,]*,){4}'`.  While your regex works for the current dataset, it assumes a space in the first cell.
+
+instead of acting on `($data)`, act on `($data[2..$data.count])`, to strip the first two lines.
+
+Maybe replace `'\: level (\d*)' { $level = $PSItem -replace ',*$' }` with `'(?<=\: )level (\d*)' {$level = $matches[0]}`.  Unless you want the ""Workgroup: "" in every line.
+
+You'll still need to add on the header line.  `$final = @(""Users Name,Logon,Branch,Status,Affiliate,Workgroup"") + $newdata`"
+talesfromtechsupport,fg62eql,t3_ewtyik,1580550048.0,Maybe you can drop an anonymous hint to the certifying agency that an audit might be in order?  Or alert security any time a breach happens?
+PowerShell,fg5h5na,t3_ewtmxv,1580527346.0,"    $list1 = @(get-content C:\FileLocation\file1.txt)    
+    $list2 = @(get-content C:\FileLocation\file2.txt)    
+
+    #sanity check
+    if ($list1.Count -ne $list2.Count) {
+        Throw ""Lists not equal length""
+    }
+
+    #merge the two arrays into one
+    [System.Collections.ArrayList]$arr = @()
+    For ($i = 0; $i -lt $list1.Count; $i++) {
+        $arr.Add(@($list1[$i],$list2[$i])) > $null #$arr.Add() wants to output the index
+    }
+    
+    #Output the combined array, or do other stuff
+    $arr | %{
+        Write-Host ""$($_[0]) : $($_[1])""
+    }"
+PowerShell,fg5ere7,t1_fg5aekx,1580525518.0,The first index of an array is 0
+PowerShell,fg5efb5,t3_ewwgjp,1580525274.0,"I would test out:
+
+    $port = new-Object System.IO.Ports.SerialPort(""COM6"",9600,""none"",8,1)
+    try {
+        $port.open()
+        $port.close()
+        Write-Host ""port accessible""
+    } catch {
+        Write-Host ""port inaccessible""
+    }
+
+It may fail if your program keeps the port active.
+
+Note, the $port.IsOpen parameter doesn't tell you if another process has it open.
+
+Edit to add: you should also check whether the issue is on the computer side or the pinpad side.  When it's not responding, is the pinpad actually sending data over COM6?  This sounds like an issue that needs to be fixed at the root cause.  By the fact that it *has* to be COM6, it sounds like you're using vastly outdated software and/or hardware."
+AskReddit,fg5c05k,t1_fg54pv7,1580523501.0,"It wouldn't have to be that big.
+
+For each day, list the 10 biggest movers.  For 20 years of data, you're only looking at roughly 7000 entries.
+
+Next, for each day, do the same except with the weekly change, then monthly, then annually.  That will help even out your investment fluctuations."
+Camry,fg59fhe,t3_ews912,1580521622.0,"I would take it to a Toyota dealer, and ask them to look at the torque converter.
+
+If the vibration is only while accelerating, and not when cruising at 45, it is definitely an issue with the drivetrain.
+
+I would definitely suggest trying to get it fixed if your budget just decreased.  If it is the torque converter, replacing it should cost less than $1000.  Bear in mind that with a bad vibration starting at 35mph, your trade-in value will decrease."
+technology,fg55uve,t3_eww55p,1580519026.0,"Maybe you don't hear talk about the 22nd century because we just started the 21st, and most people alive today don't expect to see the 22nd?
+
+Also, looking at the advancements between 1900 and 2000, how confident are you about predictions of 2100?"
+mechanical_gifs,fg3bt2b,t1_fg2s0sa,1580477299.0,"Usually, but not always."
+mechanical_gifs,fg3bqeu,t1_fg2m602,1580477238.0,"Heatsink: more *mass* to sink the heat into, preferably with high heat conductivity and high heat capacity. It does *not* need cooling fins to be a heatsink.
+
+Radiator: more surface area to radiate heat away.  Also used to describe items designed to lose heat through conduction with air.
+
+Most heatsinks have radiators built in, and most radiators are attached to heatsinks, hence why the terms are often interchangeable. 
+
+Heat exchanger: broader term, but usually used when a coolant flows through channels in the material to be cooled.  Usually a heatsink with pipes for both hot and cold side flowing through."
+iiiiiiitttttttttttt,ffzlfyb,t1_ffzjr3y,1580384751.0,"> And since all every mac-adress is unique,
+
+Unfortunately, that isn't the case.  Let me introduce you to VMs...
+
+All Hyper-V VMs use the identifier 00-15-5d.  This only allows for 256^3, or 16.8 million different MAC addresses.  Which means globally, collisions will happen.  But it gets worse.
+
+The next two octets are from the last two octets of the host's first NIC's IPv4 address.  So any one host only has a pool of 256 possible MAC addresses.  And while the last octet of the host's IP likely is well-distributed, how many networks use 192.168.0.x or 1.x?  So the pool before global collisions are likely is more like 256^2, or 65,536 different MAC addresses.  And in larger networks, where VMs can jump around a lot, you *will* run into collisions.  The 257th VM spun up on a host will have a collision with one of the previous ones.
+
+VMWare's allocation is a bit better, using a hash function of the UUID and hostname instead of the NIC, but MAC address collision is still something that needs to be watched for on larger networks.
+
+Thankfully, the IPv6 address generated from the MAC Address is only a link-local address, so you only have to worry about IPv6 collisions within your own network."
+nextfuckinglevel,ffzhgfm,t1_ffz1dhb,1580379324.0,That explains why they were trying to dock in that weather.  I was thinking they had to be desperate.
+unpopularopinion,ffvhet8,t1_ffvduip,1580264174.0,">  there’s hardly any difference between a normal penis and a circumcised one in terms of sex.
+
+And you know this how?  The number of men who can compare ""before"" to ""after"" is very small."
+wyzecam,ffvfyqb,t3_evcfhe,1580263216.0,"One thing to bear in mind is that larger microSD cards are usually formatted in exFAT, not FAT32.
+
+It will work fine for storage, but the manual firmware update procedure requires FAT32."
+spacex,fft7tcw,t1_ffs0n8w,1580211362.0,"From [a previous tweet](https://twitter.com/elonmusk/status/1215719463913345024?s=21)
+
+> ""Dome to barrel weld made it to 7.1 bar, which is pretty good as ~6 bar is needed for orbital flight. With more precise parts & better welding conditions, we should reach ~8.5 bar, which is the 1.4 factor of safety needed for crewed flight."""
+technology,ffqal1d,t1_ffoa1ap,1580128324.0,"As a Navy Electronics Technician, one of the communications systems I worked on had rows and rows of power amplifiers.  We rarely had fewer than 3 out for replacement.
+
+These were ""lowest-replaceable units"".  We weren't even allowed to open them up, and they had to be shipped out at high cost to get replaced and refurbished.  Bear in mind, we had a shop on board that was capable of doing component-level repairs.  (if you've seen the Louis Rossmann videos, that level of repair)  If nothing else, we could have troubleshot and repaired bad power supplies.
+
+Come to find out, about half of our failures could be fixed with a laptop and serial cable, but that ships weren't given the procedure or the software required.  (not advanced software level troubleshooting - literally ""plug in the cable and run this"")
+
+Was there equipment that we literally couldn't fix ourselves?  Of course.  But most of the faults *could* have been fixed locally if we had schematics and access to repair parts.
+
+The blanket ""you can't fix these"" without even a ""these are the stringent requirements for repairing these"" statement is frankly insulting.
+
+And if equipment is designed in such a way that *any* repair has to happen in a ""clean room"", instead of isolating and shielding the sensitive components, that's either lazy design or a scam."
+sysadmin,ffq8vxf,t1_ffpl6df,1580126352.0,"World-wide, possibly.  US forests are increasing.  But some of the forests around the world *are* old-growth.
+
+If you want to make sure *your* paper was sustainably harvested, look for a certification like FSC.
+
+Of greater concern currently (at least in the US) is emissions and power source for the mills."
+sysadmin,fflisli,t1_ffk3v02,1580040146.0,"If the demand for paper increases, more forest gets planted to meet it.  Or prices increase.  More likely both."
+AskReddit,ffjvjsx,t1_ffj0v6y,1580008127.0,"The gold variant is ounces or pounds, because gold is measured in Troy measurements instead of the more common ""Avoirdupois"" measurements.
+
+A troy ounce is about 10% larger than an avoirdupois ounce, so an ounce of gold is heavier than an ounce of steel.
+
+To confuse things even more, a troy pound only has 12 ounces, so a pound of gold is actually *lighter* than a pound of steel."
+worldnews,ffjs5rh,t1_fficm3y,1580005483.0,"Is there a reason that map has no data from Wuhan for the ""Wuhan Coronavirus""?"
+sysadmin,ffjqyvs,t1_ffj4c32,1580004666.0,"The vast majority of paper is from sustainably-grown trees.  They replant the trees they cut down.
+
+Printing more actually *increases* the amount of forest."
+Camry,ffitapj,t3_ettadf,1579982181.0,"If you have an Aux port, try looking into a bluetooth adapter instead of a full replacement.  They're typically $20-$30"
+todayilearned,ffi4f7q,t3_etoufr,1579964778.0,"Though conveniently, when fat gets used, one of the products is a roughly equal mass of water.  Fat's formula is close to C(x)H(2x).  ""Burn"" it by swapping the C for an O, and you produce CO2 and H2O.  And as Oxygen is heavier than Carbon, you actually get more water by mass than you had fat.
+
+So technically...  They do store water.  They just store it in the form of fat."
+functionalprint,fffxvi3,t3_et9xyl,1579894185.0,You're probably going to have issues with layer adhesion on that loop.
+funny,ffe1b1a,t3_et0f5e,1579834124.0,"As a possible improvement, I'd have the clamping surfaces be much larger, and use a fine velcro-type surface to grab the socks better."
+Camry,ffd14sp,t1_ffchnp7,1579811358.0,"Really depends.  But your heat/AC shouldn't be causing a 25% mpg hit.
+
+Winter driving has a lot of other factors: road conditions, winter tires.
+
+It might also be changing driving habits or different traffic.  Put it on cruise on a flat stretch, and take your numbers from that.
+
+But assuming you're driving on clean and dry (not just plowed) roads, the decreased efficiency is most likely due to subtle issues with your engine.  Check your transmission fluid, belts, air filter, etc..."
+AdviceAnimals,ffcywdb,t3_estuvx,1579810121.0,"The rain, it raineth on the just,
+
+And also on the unjust fella;
+
+But mostly on the just, because
+
+The unjust stole the just's umbrella."
+news,ffc54vx,t1_ff9tnuh,1579791753.0,"A lot of what made the ""Spanish Flu"" so bad is the same thing that gave it the name - lack of information.
+
+Because of war-time censorship (to keep morale up), nobody knew that a deadly flu was circulating, and large-scale operations to minimize the impact couldn't take place.  Because the only country reporting it was Spain, it looked (in the media) like Spain was the hardest hit."
+sysadmin,ffbr9cy,t1_ff9qilm,1579779593.0,"Aside from the ""inappropriate pictures"" issue others have brought up, it's often used with something like [BgInfo](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo), which creates a customized image with useful text to be used as the background.
+
+Stuff like computer name, IP Address, boot time, etc...
+
+I can't count the number of times I've had to walk users through finding the computer name..."
+news,ffb1a5w,t1_ffaq4qj,1579749307.0,"For general lead hazard, it's a (somewhat) useful map.  Though a general statement ""watch for lead in old houses"" works just as well. 
+
+But for showing where there may be high lead in tapwater, it's the wrong dataset."
+technology,ff8x3bq,t1_ff8cyji,1579698924.0,"> It's saying there is no paper even though there is so it just errors out
+
+Most likely cause is a stuck or broken sensor arm."
+teslamotors,ff7d591,t1_ff71r4b,1579646798.0,"Directional sound is better done with subtle timing than with volume (though volume plays a part. 
+
+A sound coming from the right hits your right ear before your left ear."
+news,ff6vcdb,t1_ff6qk1o,1579635641.0,"That map is almost useless in this regard.  It's simply a map of where housing is old.
+
+It's also intended to be for lead exposure in general, not just lead in water."
+PowerShell,ff6ktjw,t3_erwx7n,1579629338.0,"[ISESteroids](http://www.powertheshell.com/) is highly recommended by some of my coworkers, though I haven't used it much.  As a slight warning: some of the recommendations it gives for ""cleaning up"" code don't work too well with PowerCLI commands.
+
+I use Notepad++ for most of my editing, and just use the ISE for in-depth debugging."
+funny,ff5tyqn,t1_ff5rj4b,1579610149.0,"Check your manual.  There should be procedures for putting your wipers into ""service position"", which will then let them be raised up.
+
+In most cars I've seen, the procedure is to turn off the car, and then (within 30s) move the wiper lever and hold for a few seconds."
+technology,ff32ep4,t1_ff30o7k,1579531897.0,">Someone cutting you off from a blind area, someone running out in front of the vehicle, a deer, hell any animal
+
+Can be handled better by the *current* automation in most new vehicles than most humans
+
+>a boulder coming down a cliff, an object coming at you
+
+Assuming here you mean one that will land on you, and not one that will activate the emergency breaking.  You really think you'd notice that and be able to respond properly in time to save your life?
+
+The one-in-a-million event that might warrant the use of a steering wheel within a second in a L4.99 car doesn't warrant keeping it in all cars.  But I'm sure that it will be available in most models as an option for a long time to come, and you'll be free to spend the extra money for it.
+
+I'd actually guess that giving the passengers the ability to take manual control of the vehicle at a moment's notice would actually *increase* the risk, due to panic."
+technology,ff30h7p,t1_ff2ypel,1579530361.0,"> so that emergency situation that needs attention in maybe a few seconds or less
+
+such as...?"
+pics,ff2uj1c,t1_ff1rxwf,1579524700.0,Just because there are fines doesn't mean the coffee was finely ground.  A cheap coffee grinder will produce a wide range of sizes.  A better grinder (eg a burr grinder) will produce a more even grind (but you'll still get some fines)
+pics,ff2u7dc,t1_ff2pqkb,1579524335.0,"Hopefully if this particular method is common, each place would choose the marker colors randomly (maybe even switching colors occasionally), so that a potential abuser wouldn't know what each color meant."
+technology,ff1s6b0,t1_ff1p80e,1579484990.0,"> Unless you have true L5 than a ~~steering wheel~~ *means of manual control* must be included for emergencies.
+
+That doesn't need to be what we now know as the standard steering wheel and pedals.  It could be an app on your phone or a small joystick.
+
+But yes, I imagine emergency vehicles will be some of the last to still be mass-produced with full steering wheels."
+technology,fezey47,t1_feyyx84,1579456622.0,"> For emergencies we can still use a phone or something as steering wheel anyway.
+
+I hadn't considered that.  Though there are quite a few laws that will need to be updated for that to work, or you'll get a ticket for using your cellphone while driving."
+technology,feywj6y,t3_equp0u,1579451391.0,"Going from L4 (driving within geo-fences, essentially) and L5 (driving everywhere without input) is going to be virtually impossible, because of the edge cases.
+
+But we'll rapidly get close to that goal, and eventually get close enough that edge cases can be handled as needed through the infotainment interface instead of taking full control.
+
+The important question is ""how close to true L5 do we actually *need* to be before removing the steering wheel?""  IMO, if it can handle public roads, parking lots, and any ""normal"" driveway, that's enough.  You might have to tell your car where to park in a weird driveway the first time, but it will be added to that car's info after that."
+technology,feurisr,t1_fetwrgz,1579389278.0,"Total vehicle sales in 2019 was just over 17 million.  Tesla sold 367,500, for 2.16% of the overall market."
+spacex,feorj3e,t1_feoddom,1579304454.0,"The big problem with explosives is that they can only be used once.
+
+If you're activating the inflight abort, it's highly unlikely that any part of the rocket other than the Dragon will be reusable anyway."
+spacex,feoqkj9,t1_feokm6t,1579304034.0,"Save the following link: https://www.youtube.com/embed/mhrkdHshb3E?start=1
+
+That will start it in full-window mode, at the 1s mark."
+Homebrewing,fenf0n6,t3_eq0hvr,1579283278.0,"These people seemed to get good results with chips and an ultrasonic bath:  
+   https://www.youtube.com/watch?v=YlQT4ptwLKs "
+PowerShell,fei4gkp,t3_ep87bl,1579130070.0,"Try throwing a write-host in the for-each, to make sure the file isn't getting hit twice.   You might need to use a temporary array between the gci and the rename."
+Camry,fege3i2,t1_fee6v9b,1579089508.0,It should also show up on https://www.toyota.com/owners/my-vehicle.
+PowerShell,fef3s76,t3_eoqstz,1579047497.0,"Regex solution that's easily expandable:
+
+    $ClusterOwner = ""East1"",""West2"",""North3""
+    $ClusterNewOwner = @()
+    foreach ($Owner in $ClusterOwner) {
+        $newOwner = [regex]::Replace($Owner, '.$', { 
+            param($m)  #[regex]::Replace() passes the match to this parameter
+            Switch ($m) {
+                '1' {return '2'}
+                '2' {return '1'}
+                default {
+                    Write-Host ""I don't know what to do with: $m""
+                    return $m
+                }
+            }
+        })
+        $ClusterNewOwner += $newOwner
+    }
+    $ClusterNewOwner
+
+The `return` isn't necessary, but it helps readability.  Instead of a switch call, you could also reference a lookup table: 
+
+    return $OwnerLookup[$m]"
+unpopularopinion,fec8qw0,t3_eo9ihi,1578968633.0,"It depends what you mean by 'good'.  Good for idle listening or background music? Absolutely agree.
+
+The greatness of the song (IMHO) is that the lyrical and musical changes are well timed to hold attention for the full length.  And while exploring many different styles, it still presents a (mostly) cohesive whole."
+IdiotsInCars,feb72vo,t1_fe8m4ya,1578956021.0,"Most new cars have cameras (both front and rear, if not all around)
+
+The crazy thing is that they can't be used as a dashcam.  They don't store footage anywhere that you can access."
+Toyota,fe3rshj,t1_fe32cl1,1578852224.0,"I'd rather have the dashcam wired in directly, not via the outlet. (mostly for aesthetic reasons, but I also want the higher power from the outlet available for phone charging)"
+Toyota,fe3rm02,t1_fe3hztr,1578852164.0,"It does, but I have to drive places where I can't have a dashcam running, so I have to turn it off manually."
+wyzecam,fe3rfr5,t1_fe3keqk,1578852101.0,"Double-checked.  I have the Pan, which is 4.29.4.41.  Wyze Cam v2 is at 4.28.4.41 (though with the same date-stamp)"
+wyzecam,fe2cit1,t1_fdzv0ch,1578836832.0,"The latest version of the RTSP firmware (4.29.4.41) is date-stamped 2019-09-23.
+
+It just has to get updated manually."
+gaming,fdvose1,t1_fdu5dbp,1578749808.0,"> The problem with defending the purity of the English language is that English is about as pure as a cribhouse whore. We don't just borrow words; on occasion, English has pursued other languages down alleyways to beat them unconscious and rifle their pockets for new vocabulary.
+
+- James Nicoll"

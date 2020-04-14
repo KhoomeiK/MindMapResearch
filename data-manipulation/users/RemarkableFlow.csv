@@ -1,0 +1,21 @@
+subreddit,self ID,parent ID,time,text
+selfimprovement,ff3mb5c,t1_ff35717,1579544095.0,Did this help you overcome fear? I'd love to hear about it!
+selfimprovement,fdnxxsd,t3_em8vt9,1578595105.0,"Hey man, its really crazy to read this. I feel like this was totally me about 2 years ago. Fear took me over. In fact the most relateable part of this is you mentioned your parents were not ""hard on you"" growing up. I had that some experience! I was given nearly everything, was in a comfortable cocoon constantly nurtured by my parents. I wasn't exposed to much adversity and never was forced to take on much responsibility, which I think amounted to a person not aware of my own capabilities. Once I escaped the cocoon, out into the real world, I was shook. I wasn't equipped with the proper mindset and tools to overcome my fears. I wallowed in them for a few years, cowering back any chance I was given. Then everything turned around over the course of about a year and I think what really helped me was learning a good life philosophy, and a big part of that philosophy was viewing those fears as challenges, rather than something chasing me down. There is a big psychological difference there, instead of letting the fear consume me and beat me down, I viewed these things I was afraid of as a challenge to overcome, and in doing so I experienced some positive emotion (as I was moving toward a goal, instead of running away), and built up a ton of confidence in myself (by seeing myself in the light of a person who doesn't back to down to challenge).
+
+That was probably the biggest attitude adjustment that had a profound effect on my life, and I still can't believe the person I've become and the confident approach I take to fear now. Additionally, I think that daily exercise (running in my case - having a goal is huge, like marathon training is what keeps me motivated. The confidence building effect here is HUGE) and cold showers (voluntarily exposing yourself to discomfort as part of a daily routine that essentially keeps my mind conditioned to voluntarily face discomfort -which is closely linked to fear).
+
+I tried to keep this short, but as a result of facing fear and overcoming obstacles my horizons have expanded so much it's hard to decouple the individual effects of the numerous changes that have come along the upward spiraled path this has taken me. Some books that really made this whole attitude adjustment click to me are 12 Rules for Life by JBP and Can't Hurt Me by David Goggins.
+
+Godspeed and feel free to reach out to me if you have any questions!"
+excel,fdniqqx,t1_fdkvxb6,1578586657.0,Ah I see. Just looked through all the workbook functions and none of those aforementioned functions are being utilized.
+AlternativeHealth,fdl5qs6,t1_fdkxagx,1578517508.0,"Beta-carotene is in a ton of plants. It gets processed by the body and turned into vitamin A. Also there are tons of healthy plant-based fats like avocado, nuts, olives, oils, etc just to name a few."
+excel,fdkti26,t1_fdkkjmg,1578510826.0,"I searched for all of those functions within the project, and the only one that came up is 
+
+    > ActiveCell.Offset(1).EntireRow.PasteSpecial xlPasteAll
+
+Which just so happens to be a line of code executed in the function that was called just before all the shit went down! You think that could be causing problems?"
+excel,fdkf16v,t1_fdkcpn7,1578502488.0,"Good question! I went ahead and put breakpoints inside of the main sub and the 3 macros it calls and none of them are getting broken on. Is there any way it could be stuck in a loop without firing the break points?
+
+In fact during this process I did notice that when I got broken on the Worksheet_SelectionChange event, even while frozen at the breakpoint, the workbook continues to calculate shit. Could that indicate this may not even be a macro issue?"
+selfimprovement,fdhjg6n,t1_fdhf05y,1578423937.0,I'm interested in hearing about these questionable views. Do you have any examples?
+nba,fbhcvwa,t1_fbgjxq1,1576870678.0,Would someone mind explaining the context here? Sounds amusing as hell

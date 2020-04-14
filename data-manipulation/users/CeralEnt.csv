@@ -1,0 +1,223 @@
+subreddit,self ID,parent ID,time,text
+legaladvice,ff9zbc6,t1_ff9z91m,1579724716.0,"Got it, appreciate the input."
+blackmagicfuckery,ff88bs9,t1_ff84fhu,1579668922.0,Hey Google. Tell the bots to be nicer to me.
+UpliftingNews,ff6n3q7,t1_ff6mymp,1579630723.0,Picking up trash? Did you see the occupy protests?
+msp,ff5yyxo,t1_ff5eevm,1579614736.0,Calm down Satan.
+HomeNetworking,feus4gz,t1_feuripc,1579389384.0,"It's still public facing. When you use port forwarding on your firewall to forward ssh traffic to that box, you are exposing that box to the public.
+
+You WILL immediately have people trying to break in, the automatic scanners that try and break in are fast."
+HomeNetworking,fetybs6,t3_eqjphk,1579381260.0,Can you setup a VPN instead? Better to not have a public facing box if you can avoid it.
+navy,fes7vbj,t1_fes7mtj,1579362294.0,You owe him 100 cards
+networking,fedd7o6,t1_feda8ab,1579008206.0,"This is somewhat a case of not asking smart questions. You're sort of there, because you mentioned the goal at the beginning, but everything else you're trying to do is complicating the situation.
+
+[http://www.catb.org/\~esr/faqs/smart-questions.html](http://www.catb.org/~esr/faqs/smart-questions.html)
+
+Attempting to segment every single VM to it's own network is certainly an option, but it's an overly complicated one as you're finding out. It also sounds like you are missing some fundamental understanding of how networking works, which is going to make this process way more difficult for everyone involved, and means you are likely to make mistakes.
+
+While trying to achieve security is obviously a good thing, you are probably going to end up with a bunch of holes while expending a ton of effort with the way you are currently going.
+
+I'd recommend having one VLAN for your DMZ machines to segment them from the rest of your network. I'd also recommend you study or review some fundamentals of how subnets, routes, and basic network communication works, because of your questions like the following:
+
+>*Is this because the machines are on the same subnet and are trying to find the other vms using broadcast rather than routing via default gateway?*
+
+Routing is for communication between subnets, so when devices are on the same subnet, they won't need the default gateway at all. This is where the netmask comes in, it's a way to tell machines what other IP's will be on their network.
+
+Is this for a business or home setup? And what Hypervisor are you using?"
+networking,fed9jxt,t3_eok42g,1579004741.0,It sounds like you're attempting to create something overly complicated to achieve a goal that should probably be left undone.
+MCCPC,fe60g9v,t3_elee3f,1578879019.0,"4670k here, OC'd to 4.1 GHz, runs the game at 4k 60 FPS without a problem."
+AWSCertifications,fdw02yj,t3_en7oln,1578753599.0,"I respect your continued push for getting this certification. I failed one of the MCSA 2012 exams twice, and it was always really crushing, I can't imagine 4 times.
+
+I passed SysOps at the beginning of December, so my experience with it is relatively recent.
+
+If you have failed this exam 4 times, I suspect there are larger issues at play than your in depth knowledge of the material, given that you have passed SA and Dev. I took SysOps the same week I took Dev, and the only thing I used for SysOps to supplement my knowledge was the Bonso exams. The stuff I had learned from SA and Dev were largely applicable and sufficient.
+
+I'm really not sure how you would go about this, but I think it'd be beneficial for you to work on your test taking skills in general. If you're running out of time, you're probably taking way too much time thinking about the questions. I'd work on going through some practice tests, even if it's for a different cert, and work on quickly reading the question and picking and answer before moving on. Often people's first guess is more likely to be correct than if you change it. If you sit there pondering about a question, and can't come up with a convincing reason why another answer is right, stick with your first guess. If you have a practice exam that you haven't memorized the answers for, try and complete it in \~45 minutes or less.
+
+I don't know that I would go through the Pro courses, there is going to be a ton of information in there, and given your situation I don't think it'll help you retain the parts you're missing. It does look like you need to review Monitoring & Reporting and Deployment & Provisioning more than anything else, I'd probably focus on doing some of that using Free Tier over just doing another course."
+todayilearned,fdvx14x,t1_fdvr5k6,1578752660.0,"Everyone is certainly different, all three of our kids self-weened by about a year old. And it wasn't for lack of milk, we had I think a gallon and a half extra that had been frozen that we ended up donating with our youngest."
+todayilearned,fdvw27y,t1_fdvry4n,1578752271.0,"> interests my fascism 
+
+Wait...."
+techsupportgore,fdsy6fd,t1_fdsv6db,1578709476.0,"I worked on a client that was a chemical manufacturing company once, CEO had a hardcore thing against cables. Everything was custom, computers where inside of the custom built desks, TV's were inset in walls. He spent a ton of money on all his cable management, but that place was gorgeous."
+ITCareerQuestions,fds24sd,t1_fdrymum,1578693185.0,"I concur. I was leading server implementations and network overhauls on a near weekly basis my 2nd year in IT, where someone working as a junior sysadmin for an internal position might only assist with something like that every few years."
+RemoteJobs,fdqb1ld,t3_emo4cv,1578661679.0,">**Requirements**  
+>  
+>You are the ideal candidate for this job if you have:  
+>  
+>.....   
+>  
+>Willingness to work hard (50 hrs per week) 
+
+Is that an actual 50, or is that ""50""(ie: 80)"
+techsupportmacgyver,fdpgl9l,t1_fdnl80c,1578628081.0,"I bricked a brand new Asus AC3100 by trying to install custom firmware, and was only able to recover it by pulling it open, connecting to it with a special serial cable, and using tftp or some shit to load a good firmware.
+
+Doing things like flashing firmwares don't always work the way they are supposed to, and are often well outside of the technical ability of normal people."
+todayilearned,fdpdtgf,t1_fdoqtf9,1578626087.0,">Homer truly loves his family. 
+
+[Do it for her](https://imgur.com/aK3Zwz8)"
+homelab,fdpcdds,t1_fdoinpb,1578625087.0,"> What OP has is noise isolation or damping (dampening involves moisture, damping is the term regarding sound waves). 
+
+I agree with you about canceling vs isolation, but dampening is also valid in this case, even if damping is a more appropriate term.
+
+&#x200B;
+
+>2.  to reduce or weaken in strength or feeling 
+
+\-  [https://www.merriam-webster.com/thesaurus/dampening](https://www.merriam-webster.com/thesaurus/dampening)"
+cscareerquestions,fdnjtg1,t1_fdmfrrn,1578587299.0,"One thing I find helps when asked to explain projects or topics, is ask what they want to know about.
+
+If asked about a project or technology, give a 30,000 foot view like you'd give to a business person, and then ask a question like, ""That's the high level overview, what aspects would you like me to elaborate on in more depth?""
+
+It shows that you're aware that different people will want different levels of depth depending on the situation/role, and also allows you to specifically determine what that person in particular wants to hear about. You could even provide options, ""Would you like me to start with how you'd implement this technology, or would you prefer that I explain what projects/business goals where this technology would be useful?"""
+todayilearned,fdl3xh0,t1_fdkz7qs,1578516628.0,"And if you were to call something that was rectangular but not square, square, it would be wrong. Kind of like saying that ellipses which are not circles are circles."
+freenas,fdikg55,t1_fdijqil,1578444897.0,"I don't remember the specifics about adding to the pool, it's been too long since I read about what you can/cannot do with adding drives."
+freenas,fdijlr0,t1_fdijel1,1578444369.0,"I'd probably rely on the data in that link I provided regarding speeds. IO isn't going to scale perfectly, there are other considerations with the way that all this works. I would feel safe saying that your performance will probably be near identical to the 4TB drives used in that article."
+freenas,fdij1ju,t1_fdii2k3,1578444016.0,"Okay, got it. Changes things.
+
+If you're trying to maximize available storage, for the cost, I'd probably do one large RAIDZ2 pool. Your reads should still be really high, you can tolerate 2 losses, and have pretty good write speeds.
+
+If you need higher write speeds, I'd probably look at striping across two RAIDZ1 vdevs. Better write speed(roughly 2x), basically same read as above. **NOTE:** I'd backup any important data that you cannot reproduce somewhere else. You stand a good chance of having a bit error during a rebuild of a 10TB drive.
+
+Also, I recommend you get an SSD for a read cache, and an SSD for a write cache. The write SSD doesn't need a lot of space, but larger SSD's perform better than the very small ones. The last device I got from TrueNAS had a 200GB SSD for the write cache, but only used a 10GB partition due to the way writes flush and all that jazz. For home I'd probably just get a 64 GB and call it a day for the write cache.
+
+For read cache I'd probably do 512 GB or 1 TB. 
+
+Regardless of what you do, I strongly recommend you make sure any important things, like family pictures, documents you can't reproduce, etc, is backed up. Preferably off-site."
+freenas,fdii0ua,t1_fdihz9v,1578443367.0,What about the other questions?
+freenas,fdihxpz,t1_fdihsct,1578443311.0,"Will you have additional backups outside of the FreeNAS box, can you sustain downtime, is this for a business, how many VM's are you running, any highly utilized SQL servers?"
+freenas,fdihpx7,t1_fdihj6l,1578443173.0,"What do you need the box for? Virtualization? Bulk storage? Does it have 10Gb networking? 
+
+Recommendation entirely depends on what you're going to be using it for."
+freenas,fdih3f2,t1_fdigg0h,1578442768.0,"With RAID setups it's all about probability. Everything can happen in real life. You need to look at the requirements for your application(uptime, IO performance), and figure out what that requires on the storage side. If you need max IO, you're looking at 5x mirrored pairs, like the previous poster said.
+
+If you need better redundancy, start looking at 50, 60, a large RAIDZ2 pool, etc. Make sure you look at the probability of errors with your drives, which is why things like RAID5 isn't recommended much anymore for large drive sizes.
+
+Also, remember that RAID is not backups.
+
+Here's an excellent writeup about performances of different setups:  [https://calomel.org/zfs\_raid\_speed\_capacity.html](https://calomel.org/zfs_raid_speed_capacity.html)
+
+&#x200B;
+
+>ZFS Raid Speed Capacity and Performance Benchmarks  
+>  
+>(speeds in megabytes per second)  
+>  
+>1x 4TB, single drive,          3.7 TB,  w=108MB/s , rw=50MB/s  , r=204MB/s  
+>  
+>2x 4TB, mirror (raid1),        3.7 TB,  w=106MB/s , rw=50MB/s  , r=488MB/s  
+>  
+>2x 4TB, stripe (raid0),        7.5 TB,  w=237MB/s , rw=73MB/s  , r=434MB/s  
+>  
+>3x 4TB, mirror (raid1),        3.7 TB,  w=106MB/s , rw=49MB/s  , r=589MB/s  
+>  
+>3x 4TB, stripe (raid0),       11.3 TB,  w=392MB/s , rw=86MB/s  , r=474MB/s  
+>  
+>3x 4TB, raidz1 (raid5),        7.5 TB,  w=225MB/s , rw=56MB/s  , r=619MB/s  
+>  
+>4x 4TB, 2 striped mirrors,     7.5 TB,  w=226MB/s , rw=53MB/s  , r=644MB/s  
+>  
+>4x 4TB, raidz2 (raid6),        7.5 TB,  w=204MB/s , rw=54MB/s  , r=183MB/s  
+>  
+>5x 4TB, raidz1 (raid5),       15.0 TB,  w=469MB/s , rw=79MB/s  , r=598MB/s  
+>  
+>5x 4TB, raidz3 (raid7),        7.5 TB,  w=116MB/s , rw=45MB/s  , r=493MB/s  
+>  
+>6x 4TB, 3 striped mirrors,    11.3 TB,  w=389MB/s , rw=60MB/s  , r=655MB/s  
+>  
+>6x 4TB, raidz2 (raid6),       15.0 TB,  w=429MB/s , rw=71MB/s  , r=488MB/s  
+>  
+>10x 4TB, 2 striped 5x raidz,   30.1 TB,  w=675MB/s , rw=109MB/s , r=1012MB/s  
+>  
+>11x 4TB, raidz3 (raid7),       30.2 TB,  w=552MB/s , rw=103MB/s , r=963MB/s  
+>  
+>12x 4TB, 6 striped mirrors,    22.6 TB,  w=643MB/s , rw=83MB/s  , r=962MB/s  
+>  
+>12x 4TB, 2 striped 6x raidz2,  30.1 TB,  w=638MB/s , rw=105MB/s , r=990MB/s  
+>  
+>12x 4TB, raidz (raid5),        41.3 TB,  w=689MB/s , rw=118MB/s , r=993MB/s  
+>  
+>12x 4TB, raidz2 (raid6),       37.4 TB,  w=317MB/s , rw=98MB/s  , r=1065MB/s  
+>  
+>12x 4TB, raidz3 (raid7),       33.6 TB,  w=452MB/s , rw=105MB/s , r=840MB/s  
+>  
+>22x 4TB, 2 striped 11x raidz3, 60.4 TB,  w=567MB/s , rw=162MB/s , r=1139MB/s  
+>  
+>23x 4TB, raidz3 (raid7),       74.9 TB,  w=440MB/s , rw=157MB/s , r=1146MB/s  
+>  
+>24x 4TB, 12 striped mirrors,   45.2 TB,  w=696MB/s , rw=144MB/s , r=898MB/s  
+>  
+>24x 4TB, raidz (raid5),        86.4 TB,  w=567MB/s , rw=198MB/s , r=1304MB/s  
+>  
+>24x 4TB, raidz2 (raid6),       82.0 TB,  w=434MB/s , rw=189MB/s , r=1063MB/s  
+>  
+>24x 4TB, raidz3 (raid7),       78.1 TB,  w=405MB/s , rw=180MB/s , r=1117MB/s  
+>  
+>24x 4TB, striped raid0,        90.4 TB,  w=692MB/s , rw=260MB/s , r=1377MB/s"
+freenas,fdigcq4,t1_fdifkyo,1578442283.0,"5 drives per in what config?
+
+With 10 TB drives  in two striped sets, I'd expect something like RAIDZ2."
+homelab,fdc67c9,t1_fdav4lu,1578267894.0,Then do some research and don't except people to dumb down their posts on your behalf.
+todayilearned,fczfsyj,t1_fczeznx,1578100296.0,"The OP responded to a post asking how immigration is unfair. They posted a link, and complained about wealthy being able to buy their way into a visa. They then edited their post to add that "" any system that  distributes wealth so that some people are wealthy and some are destitute is unfair."" They additionally responded to follow-up posts about how it's ""unfair"" that countries have these visa policies, and that trying to determine if someone would be a net benefit to a society makes you a ""supervillian"".
+
+So we know that:
+
+1. They think it's not right for people to be able to buy visa, and that the policy is ""unfair""
+2. They think wealth inequality is bad
+3. Restricting immigration based on whether or not people will contribute to society is immoral
+
+If you can read all that and think that *doesn't* mean they don't think the policy that allows wealthy people to buy visas should be revoked, you're being intentionally disingenuous. Who the hell says, multiple times, ""I think this policy is very unfair, but, by golly, I support it!"""
+todayilearned,fczdwn5,t1_fczcp1q,1578099006.0,"The goal of the OP that you and I are both responding to was obviously to make it harder for wealthy people to come in, with the addition of implied undertones about how wealthy people are evil.
+
+You're admitting the benefits of the investments, which means it sounds like you and I would agree that that method of coming into the country should be maintained. Which means it's not an ""unfair"" immigration policy, because that would mean it should be removed.
+
+Ironically enough, the only one here putting words in the others mouth is you. I was saying the OP couldn't understand how those policies would be beneficial, or they wouldn't have been bitching about it while going on about how ""everything is designed for the rich"". I wasn't talking about your understanding of it. 
+
+Normal people are productive as well, I agree. I do think we should lessen the bureaucracy with immigration, like I think we should lessen the bureaucracy across the board, because our government is overly restrictive which causes a significant number of issues."
+todayilearned,fczazk2,t1_fcz4vas,1578097272.0,">Now that is a poorly defined goal. Assessing benefits on the level of a society is how you get to supervillain justifications about the greater good.
+
+That's obviously incorrect. Trying to control a society to try and achieve a utopian view is what you're thinking. See socialism and communism for examples.
+
+Figuring out if a single individual will likely be a benefit to society isn't that hard. And if you want to pretend otherwise, you're being disingenuous. Do a quick recall of people you went to high school with, you'd probably be able to guess in 98/100 cases who contributes more to society than they take."
+todayilearned,fcz977m,t1_fcz8czo,1578096210.0,"Nope, a view where you literally can't understand how economic investment is valuable and can be used as a determining factor in allowing a person to live in a country is overly simplistic and flawed.
+
+And the myriad of countries that have policies about that, including places like Canada, the UK, Australia, and New Zealand, is evidence of that."
+todayilearned,fcz3mmi,t1_fcz39mj,1578092991.0,"""Fair"" is not very well defined in this case. Admittance to a country isn't entirely a lottery, even though there is often a lottery component.
+
+In general, the goal is to allow people to live here that will be a net benefit to society. If someone can throw down half a million dollars to move, that money, and their economic output, will be benefits to the economy at large. On average the chance of them being a criminal is also much lower than if you pick any person at random."
+todayilearned,fcz2s76,t1_fcz2hly,1578092502.0,"Or maybe there is a positive economic benefit from doing it, and anyone who has that much money to throw down to move to a place will be a positive for the society and economy, and your paradigm that you view the world through is overly simplistic and flawed.
+
+Dawg."
+todayilearned,fcz00ef,t1_fcyx614,1578090863.0,"You realize that granting visas/residency and even citizenship for monetary investment is pretty common, right? Including the UK, New Zealand, Australia, Spain, Portugal, Greece, and Canada."
+todayilearned,fclrleu,t1_fclrao3,1577754768.0,"I don't think I've ever had raw ground beef, but I've had beef carpaccio and I've eaten a raw steak."
+todayilearned,fclqv88,t1_fclod8l,1577754261.0,I mean... I've had raw beef before. But there is a huge step between that and gas station hot dogs that have been left out for days....
+vmware,fckyj9o,t1_fckkvha,1577735938.0,"I ran into this when I was setting up some systems while waiting for a clearance. I was allowed to install esxi and driver updates and such, but had to pass it on to someone else to configure the IP's."
+hoggit,fckht13,t1_fckgtlc,1577725637.0,Thrust vectoring and a very high thrust to weight ratio.
+business,fc4l6ke,t1_fc4iuo1,1577419920.0,"Yes, 48% of the population has more than no money. Obviously. The median household income is over $60k a year.
+
+How delusional are you that you legitimately think half the country has literally no money?"
+business,fc4blzo,t1_fc3x6k4,1577411973.0,"Especially when you look at certain state taxes, like those based on the value of your car. If the fed starts a wealth tax of any type, it will be unfathomable that they don't quickly push it down to everyone."
+business,fc38sy3,t1_fc32dem,1577384226.0,"It's called a wealth tax because it's based on net worth(wealth), not income."
+todayilearned,fc2mya6,t1_fc2mm4k,1577367595.0,"
+You may be right, what you're describing may be legal. I'd be curious to see if it would stand up to an audit."
+todayilearned,fc2m9b7,t1_fc2ilrv,1577366850.0,"They're breaking the law. They have to pay taxes on at least some of those things. 
+
+https://www.irs.gov/businesses/small-businesses-self-employed/employee-benefits
+
+https://www.irs.gov/publications/p15b"
+todayilearned,fc1w8zy,t1_fc1vyij,1577331646.0,"I couldn't say for sure, also not an accountant. My understanding in general though, is that if you get benefits from a company, like a car or housing, the taxes still have to be paid based on the value of that benefit. I think this can be paid by either the company or the employee. In this case, that would be the same person.
+
+ I'm not sure if those benefits would be subject to FICA, which could be a potential benefit, but could also be counted as tax evasion. This is why you have to pay yourself a fair salary for your position if you are operating as an employee for your llc or S Corp, so you can't avoid Medicare and Social Security taxes. While I don't know for sure, my gut says paying yourself those types of benefits would be similar."
+todayilearned,fc1rktn,t1_fc1rb0p,1577327489.0,"IRS still has it listed.
+
+https://www.irs.gov/credits-deductions/individuals/home-office-deduction-at-a-glance
+
+So does Forbes. 
+
+https://www.forbes.com/sites/kellyphillipserb/2019/03/21/taxes-from-a-to-z-2019-h-is-for-home-office-deduction/"
+todayilearned,fc1gqn9,t1_fc1godo,1577318272.0,Home office deduction. This is a completely normal thing.
+ITCareerQuestions,fc1ffeq,t1_fc1f5gb,1577317153.0,"Got it, I'd recommend taking a look at the Raleigh/Durham area personally, it seems to be a really good environment for tech."
+ITCareerQuestions,fc1eo2i,t1_fc1eils,1577316501.0,"I'd take a look at areas like Houston/Austin/Dallas, Raleigh, NC, Virginia near DC if you can get a security clearance.
+
+Take a look at the ""Silicon"" areas: https://en.m.wikipedia.org/wiki/List_of_technology_centers#Places_with_%22Silicon%22_names"
+ITCareerQuestions,fc1ee3t,t3_efn3if,1577316265.0,Are you willing to move for work? You'll have a lot better luck if you relocate.
+security,fby7zov,t1_fby5f6x,1577210308.0,"They may spend a lot more, but it doesn't mean they do a good job. See the OPM breach for a very applicable example."

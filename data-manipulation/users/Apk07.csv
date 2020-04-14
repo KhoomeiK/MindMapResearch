@@ -1,0 +1,195 @@
+subreddit,self ID,parent ID,time,text
+aww,ff9t45p,t1_ff97bvo,1579720677.0,"Are people spamming ""FIX YOUR CATS"" on other cute cat threads? If so, sorry for missing that because I don't often peruse the comments here."
+xmpp,ff9svch,t1_ff8qjv9,1579720518.0,"Yeah I'm really just sending to and listening for stuff from one specific remote server. I have no control over this remote server, its by a third party I'm working with that is much larger than myself, so I have no pull over asking for changes or anything to their architecture/code. 
+
+
+Their idea is to send to messages to {anyone@myserver.com} where ""anyone"" doesn't necessarily exist on my end, because I'm not actually running an XMPP server, just a TCP listener. I get these and handle them by converting the messages into data that my own software/database/APIs understand. It would act as a sort of catch-all user that captures all incoming messages regardless of their intended delivery recipient.
+
+
+Then the inverse is true as well, I need to send messages from my {random@myserver.com} off to their server's *real* users/usernames.
+
+
+You can think of this whole idea as an adapter of sorts. Using/consuming their server's stuff and adapting it to work with my own internal APIs and software. Linking the two so they can interact, despite me not actually running any XMPP stuff.
+
+
+This is proving pretty difficult, though, which is why I started poking around existing XMPP server software that might be able to be adapted to do this... We are strictly a .NET/Windows shop, so whatever it is has to run on Windows, nothing Linux, Java, PHP, etc."
+aww,ff8bf0n,t1_ff7v10v,1579671803.0,"I can't tell what you're advocating for or against here. 
+I think most people, including myself, are for fixing their pets as well as catch-and-release strays. Breeders are the exception. Do you wish there were no such thing as breeders or something? Do you want 100% of cats fixed so no cats are ever born again? Whats your end-game here?"
+aww,ff7kvff,t1_ff7bdlw,1579651961.0,"They're expensive because they are certified pure-bred breeders that exchange mates between catteries, often internationally, to prevent inbreeding and the diseases and cancers associated with it.
+
+If every pure-bred cat was fixed, the breed would cease to exist...
+Just be responsible."
+aww,ff7kmmr,t1_ff7dmnp,1579651790.0,"[This](https://www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/exported/cat-care/images/russian-blue-cat-on-cat-bed.jpg) is a Russian Blue. They're lankier, have a much tighter shorter coat, and traditionally have light green/yellow-green eyes. 
+
+Other than being grey they aren't really related at all."
+aww,ff7kcov,t1_ff7jsqf,1579651598.0,"They're Blue British Shorthairs, they can seem tinted blue under some light"
+aww,ff7k768,t1_ff6y8e8,1579651493.0,"Looks like a pretty cool color temperature of the photo overall, but they are called ""blue"" for a reason. Its a very silvery grey that seems to be tinted blue sometimes. In most light they'll probably look at more more neutral grey though."
+aww,ff0rfvm,t1_ff0r1wm,1579471610.0,Amen
+IAmA,ff0on2f,t1_fezqnlf,1579470839.0,Does marrow not mix between races??
+hardware,ff05jau,t1_ff01lyc,1579465398.0,"I think you underestimate the markup on Xeon hardware and server hardware in general. If not for marketing junk, then for the certification, stress testing, lifespan, and error correcting."
+gadgets,feq47ql,t1_feogq4k,1579337485.0,"They would never because Apple is all about proprietary. They wouldn't license their stuff out.
+Plus Android is (mostly) about open source, interoperability, compatibility, and diversity. Android phone manufacturers would much sooner adopt an ""open"" standard than a proprietary one."
+aww,fep8n7u,t1_feosbia,1579314600.0,"I'm not sure where you live, but in the US a lot of health insurance covers most of allergy testing, which after you can get monthly shots to boost your immunity to it (it being the thing you're allergic to)."
+aww,fep8it0,t1_fep1h0x,1579314524.0,"You can buy it on amazon, its cheap"
+aww,feommpx,t1_fenzw7w,1579302252.0,"I can't imagine being at a shelter where a zillion cats have been will give you an accurate representation of whether it'll trigger you allergies or not. I also wouldn't recommend adopting a cat just ""in hopes"" of it not effecting your allergies. Then if it still does, you're either fucked or the poor cat is fucked."
+aww,feomh0j,t1_feoazvn,1579302158.0,"I've been taking 10mg generic of Zyrtec every night for like 15 years. Withdrawals suck (makes you itch everywhere without hives), and my allergies are awful, so I tend to just go right back on it every time I try stopping.
+
+I haven't had any adverse effects from it yet, but I'm only 30 and just a drop in the sample-size bucket."
+aww,feom06o,t1_feo1i5h,1579301982.0,Adoption sites label any gray cat as a russian blue these days. Real ones are kinda lanky. If its a big thicc chonker its probably a mix or just a gray domestic/american short hair.
+smarthome,feol1p6,t1_feo2ggk,1579301610.0,Is it the same for stuff like Lutron's On/Off switches or is that only applicable to dimmers?
+homeautomation,feo0lyv,t3_epkvpx,1579293542.0,"I'm glad my Ecovacs unit can maneuver around my office chairs fine. Its got LIDAR or whatever, but even the non-mapping one I had before still had decent enough programming to not get trapped forever. It'd like go into a panic mode and just start skirting around the edge of the house slowly with the sucker off until it encountered the base station."
+smarthome,feo0b06,t1_fenz1kf,1579293414.0,"I might be missing something, as I don't know a ton about electrical, but that article shows it being installed on a 3-wire with a neutral still... despite mentioning 2-wire, all the instructions still show the neutral.
+
+For instance I have 5 retrofit recessed LED lights all wired to one dumb-dimmer. The dimmer is only wired up with black, white, and ground. Where does the bypass go if I installed an Inovelli or Lutron ""no-neutral"" dimmer?"
+homeautomation,fenyqzx,t3_eq52ok,1579292752.0,Cast/Play the song from your phone to the Google Home after pressing the physical mic-mute button on it so they can't override it with their voice.
+smarthome,fenxqt5,t1_femtt3i,1579292395.0,But don't the bypasses need to hook to a neutral wire...?
+smarthome,fenxlle,t1_femukbx,1579292317.0,He contributed to the topic by offering a workaround. People are being kind by offering to help you and you're rude in return...?
+smarthome,fenxdbv,t1_femq999,1579292184.0,"I'm confused, they say that include a ""minimum load cap"" to use for some lighter LED loads... but this cap has to be installed with a neutral wire, thus defeating the purpose of not ""requiring"" a neutral...?"
+smarthome,fenx4ji,t1_femoynj,1579292133.0,No release date still
+dotnet,fengwfn,t1_feng1qr,1579284429.0,"You can use a REST API just for internal use if you want. If you're just having one program on Server A query another program on Server A, REST services still work perfectly fine. 
+
+The added benefit is you can ""expose"" this service to other remote servers and clients and other programs with little effort if need be.
+
+There is also nothing really stopping you from having a WebAPI project and tossing your WCF into it as well. They can run in tandem. Obviously if .NET Core doesn't have WCF that wouldn't work, but if you are hanging back on 4.x at all you could keep both."
+dotnet,fenghe3,t1_fenf8ks,1579284173.0,"For REST, look at WebAPI (for .NET 4.x and also .NET Core).
+
+It is the basic concept of making controllers and functions for sending and receiving data over HTTP/HTTPS.
+
+For instance you can have a ""Controller"" named ""CustomerController"" and then functions like List, Create, Get, etc...
+
+So you then issue a GET request from a client (another program's code behind, javascript, the browser itself, anywhere really) to 
+
+    /customer/get?id=123
+
+And return appropriate customer data, like results from your database or a class of compiled info in JSON or XML.
+
+Once you get into the basics, it becomes a pretty simple concept to incorporate. You usually read stuff with a ""GET"", and write stuff with a ""POST"" or ""PUT"". There are other verbs like DELETE and stuff but they're optional unless you're really following all the rules.
+
+Its nice because REST is a pretty universal standard so almost anything can consume it. Most APIs you find for third party services online are all REST-compatible as well. The browser or program you're reading this Reddit message on probably retrieved its info via an HTTP GET which is part of REST. Same with the Reddit logo."
+videos,feilj1i,t1_feil0yw,1579141339.0,"I don't think its fair to say he's ""making fun"" of anyone? He makes funny videos, as a comedian, but most of the time he has legitimate points portrayed in a comical and/or edgey light."
+pics,fehnm1g,t1_fehifsu,1579120189.0,Texas Roadhouse doesn't belong anywhere but in my stomach
+gifs,fefuxm6,t1_fefoilq,1579066007.0,"I think what people really wanted to hear was an event where the queen directly, not by proxy, exercised her power.
+
+Saying that the Governor-General acted on her behalf and therefore meets that criteria is a stretch and isn't really a gratifying answer, however true it may be.
+
+Comparing the soldier to the Governor-General is just semantics. Both are, in context to your example, subordinates of the queen. You can't say the Governor-General's actions *are* the Queen's actions, but the soldier's are not. You can't have that both ways just because they are at different levels of the same totem-pole."
+buildapcsales,feebe4k,t1_feavrzs,1579030280.0,doesn't work anymore :\
+aww,fecoeoh,t1_fecjaqe,1578979072.0,"He's a mix of Russian blue and domestic short hair, which is basically just a ""who knows"" filler. He's from a rescue. The eyes remind me more of a British Shorthair if anything, but he doesn't have the chonk of one."
+aww,fecocst,t1_feciusd,1578979030.0,Still need one for him!
+dotnet,fe9ye1h,t1_fe95wf9,1578942578.0,"To make things a little more complicated...
+
+What we're doing is acting as a sort of SMS gateway for someone else's XMPP shenanigans. They have a working product based on XMPP but they want to add SMS (via us) into it. 
+
+Their idea is to treat us as a federated server, where we just have a little TCP listener waiting to see a message go out to phone@domain.com. They federate that over to us, we pick it up, and send it to our own API's (REST/HTTP).
+
+We will also poke them to send a message out on someone's behalf. Lets say one of our users (REST/HTTP) wants to tell an XMPP guy ""how are you"", then we basically pretend we are an XMPP user and send to them.
+
+Its kind of convoluted and confusing, both to me and to everyone else trying to understand it. Obviously the best solution would be for this company with XMPP to just spam us HTTP POSTs instead of doing this federation BS, but they refuse to modify their code (and it is likely they can't because they may be using premade software).
+
+Basically all I have at the moment is a plain old TcpClient() in .NET blasting packets of XMPP-ish XML over to them. I get responses (in XMPP-ish XML), where it says stuff like TLS and Dialbacks required, but that's as far as I've gone.
+
+If there was a way to do all this dialback and handshake stuff with a library instead of re-inventing the wheel it'd be a lot simpler. For all I know what I'm doing is impossible or just awful. Maybe both."
+dotnet,fe8tb7g,t1_fdrw1i2,1578930617.0,"The way its being described to me is that we're trying to do server-to-server XMPP ""Federation"".
+
+We aren't trying to accomplish user-to-client/client-to-client."
+technology,fdw4b8c,t1_fdttv71,1578754869.0,"...thats kind of why I said ""in a Utopian society..."""
+battlestations,fdtt6o3,t3_en2uop,1578721813.0,Those legs probably go wobblewobblewobble. If they get annoying the trestle ones are a lot better but you sacrifice some leg-room.
+technology,fdtrqyb,t1_fdtccp8,1578721173.0,"In a Utopian society everyone's DNA sequences would be in a public open-source database for anyone, companies or random at-home scientists, to query and utilize for the greater good. 
+
+You don't really have much to gain hiding your DNA unless you're a criminal. I just don't see what tangible value someone can find in their own DNA that would hurt them if it was shared."
+technology,fdtrcax,t1_fdshxt4,1578720994.0,"More like you went out of your way to pay money and submit your DNA to a for-profit company, then after scanning your DNA they say ""hey can we share this with other companies?"" and you answer ""Yes go ahead.""
+
+I think the whole concept of opting-in to this is the most important aspect. If you are concerned about sharing your DNA with outside companies, maybe don't submit it to begin with, and definitely don't tick the ""share with outside companies"" box when it comes up."
+technology,fdtr3tq,t1_fdsvx74,1578720894.0,"If we're being ideological here, banks use this information solely for profit, where you could argue that institutions are using this information to improve quality of life and for the greater good.
+
+Yeah they're gunna profit off it as much as they can, since nobodies ever that altruistic, but new drugs still save lives."
+technology,fdtqb6c,t1_fdt2xcw,1578720544.0,"I think you missed the part where you have to opt into this. They said 80 percent of their customers choose to allow their DNA to be shared with the implication that the subset of information you're sharing will not include PII. 
+
+As /u/rickosborne mentioned in another top comment, you could argue back and forth about ""how much"" of your DNA qualifies as PII, but either way they are manually consenting to this at some point."
+aww,fdpowea,t1_fdp0ca8,1578635057.0,"Unless you have some sort of active battery-powered pump to force air through a filter, they're always going to be restrictive. Maybe when carbon batteries are a thing..."
+aww,fdpos54,t1_fdosw2w,1578634942.0,"America is a big place with a lot of people... there are a lot of shitty people and a lot of great people. Most of the guys working in fields like Firefighting and EMS, though, are truly honest good people, regardless of what country their from."
+aww,fdpokcp,t1_fdp4svq,1578634734.0,"I don't think anything about his comment implied this was exclusive to Americans. 
+
+Canadians are great.
+
+I think he's just talking about a lot of stupid negative stereotypes you hear from some people about Americans being fat, lazy, stupid, and roaming around Walmart with guns stuffed in their belts."
+aww,fdpo9yy,t1_fdol687,1578634460.0,Feel like I'm reading the description for a buff Pokemon
+dotnet,fdnypj7,t1_fdnxbp5,1578595549.0,"The first one is just the client interface to connect to an existing server. One of the weird concepts I'm still trying to understand in XMPP is server-to-server communication. They have a server and need to mirror messages to me, as I act as another server.
+
+The Matrix library you mention has some of this server-to-server stuff, but its the $1,600 one I mentioned."
+AskReddit,fdm7izw,t1_fdm0hxi,1578541718.0,"Its like it snows, then the sun comes out and melts a little bit of the top so it makes a sort of crunchy crust. It sounds like crushing cereal."
+sysadmin,fdhapiq,t1_fdg71zt,1578418991.0,"What all did you have to remove? I ask because as I noted in my OP, we do a lot of SMS messaging back and forth from businesses to customers. I understand a lot of ""identifiers"" like addresses, usernames, emails, etc. are supposed to be deleted, but would messaging history be considered something that had to be deleted? Or is that property of the business?"
+sysadmin,fdh7ym1,t1_fdeteyp,1578417334.0,"Thanks, I think this is really the important piece I needed to know"
+sysadmin,fdh7x22,t1_fdgp2ls,1578417308.0,"That is what was unclear to me. If a person asks for their data to be deleted, do I have to prevent it from being recorded again, or do I only have to delete their data from that point backwards?
+
+The ""opt-in"" is a little tricky because often-times we will process bulk loads of data from a car dealership's internal software... where the customer that opted-out yesterday may get iterated over again because they still have a vehicle in the dealership's system. We're like a third party that the dealership integrates with, so data may be requested to be removed from our system and not necessarily theirs."
+sysadmin,fdepng0,t1_fdeop9t,1578343997.0,"The problem is we would have to record somewhere they they opted-out.
+
+If John Smith @ 555-555-5555 texts me or even verbally asks to be opted out, I have to store somewhere... presumably in my database... that 555-555-5555 is opted out. I'm storing his phone number to know this information. From what I've read in the text of the CCPA bill, the customer's phone number is part of what needs to be removed. That's what I mean by a catch-22."
+homeautomation,fd7iczm,t3_ejx9sq,1578205005.0,"I could imagine motion sensor light-switches (not necessarily smart ones) would be helpful if he ends up in a wheelchair or mobility scooter of any sort. To turn the kitchen or bathroom lights on without him needing to stop, reach up, and press them.
+
+Also it may be invasive but interior-facing cameras that can be shared with more able-bodied family members to check up on him could be nice eventually. Especially since a lot of cheap ones have two-way audio where you can just speak to them from your phone directly through the camera."
+homeautomation,fd7hujs,t1_fd7e59z,1578204763.0,"Not out yet, no release date other than ""early 2020"""
+homeautomation,fd7hstp,t1_fd6ho6i,1578204739.0,There are hubless GE no-neutral switches coming soon but they are all wifi-based as opposed to z-wave
+homeautomation,fd7hp2o,t1_fd6n16c,1578204687.0,Is that all they have is dimmer switches? And why this over Lutron? (coming from someone with zero smart switches)
+LivestreamFail,fd40ot7,t1_fd1o34s,1578163305.0,"I think a dude in a mankini oiling himself up for the sake of being sexual is against ToS too. I never said it only applied to women. The ToS never said it only applied to women. 
+
+You're making some ridiculous accusations, generalizations, and bad conclusions for someone trying to portray their opinion as superior.
+
+The girl (on the left) in his Twitter post was intentionally being sexual for views. She has the bare minimum clothing on to not get banned, and has a mirror off to the side focusing on her ass. The girl on the right (while not nearly as bad), has a sub-goal that when reached will prompt her to stand up and dance for her viewers.
+
+His Twitter post is calling out twitch and their double-standards for what is and isn't against ToS. You can be overtly sexual and not get banned when it's clearly stated that being overtly sexual is a bannable offense. This fact and anyone's personal feelings towards men or women are two completely separate entities. The argument was never about misogyny yet somehow all these people are so quick to jump to that conclusion because they see boobs and controversy and don't do any research."
+LivestreamFail,fd0z4rb,t1_fd0jnci,1578125744.0,"Yeah but then Train makes an equally misogynistic joke, for the ""sake of comedy"" (or sarcasm), and then Wubby points it out and nobody backs him up. 
+
+Train is hypocritical in that moment by not realizing he's doing the same thing as Wubby. Nobody else harps on Train for doing it when they are very open to condemning Wubby.
+
+And in Wubby's defense, yeah you either laugh at everything or laugh at nothing. That's how comedy works. There are plenty of people who would hear Bill Burr or Louis CK or any ""edgey"" comedian and be immediately offended by it.
+
+Comedy is completely subjective and it isn't fair to claim that its all ""under the veil of misogyny"" if you don't already understand the comedian's brand or any of the context. I don't think Wubby was targeting complete strangers when he made this tweet about TOS, he was targeting his audience that already knows him. The guys in this podcast don't watch Wubby. They don't share his brand of comedy. They aren't his audience, and I seriously doubt any of them would consider themselves ""comedians"" in any of the same light that Wubby would."
+LivestreamFail,fd0wxfw,t1_fd0mwpb,1578124873.0,The twitter post he made literally mentions TOS... Did you read into this at all or did you only watch the clip and jump to a false conclusion?
+LivestreamFail,fd0wmim,t1_fd0aj2u,1578124758.0,"He's pretty open about his appearance/weight/image. You don't have to be a male model to criticize someone else's appearance. Not saying its right, but its true."
+LivestreamFail,fd0veaa,t1_fd06eay,1578124277.0,"Neither, he likes to be edgey, that's his brand. He knew what he was doing, but he thought it was just a dumb funny joke-post, not something that would blow up as much as it did (relatively speaking)."
+LivestreamFail,fd0uw5p,t1_fczl9ui,1578124082.0,"She leans forward a lot to hide her shorts and has a mirror (cropped out in this example) that shows her ass. 
+The point he was trying to make is that Twitch has crazy double standards when it comes to ToS violations. She is blatantly being sexual for the sake of being sexual, which is against ToS. Can't really argue in her favor when [the ass-mirror](https://twitter.com/Chaseroony/status/1212591547906084864/photo/1) is there.
+
+https://www.twitch.tv/p/legal/community-guidelines/sexualcontent/"
+dotnet,fd0nzg9,t1_fczrkrr,1578121435.0,Would also love to know this
+homeautomation,fcwsfb4,t1_fcuvzo6,1578035733.0,"You got the old models, the new ones dont even have a release date yet. Its kind of annoying that they are named the same as the previous gen when they have significant feature differences."
+homeautomation,fcwsc33,t1_fcuyg6z,1578035630.0,They have more basic-looking toggle and traditional switches
+hardware,fcsg1zy,t1_fcsa2bm,1577916007.0,"TN and IPS are just different types of LCD panels. All LCD panels basically have a ""pixel"" that switches between different colors. The ""liquid crystal"" part contains what look like shutters that open and close in response to electricity. These pixels have to be lit from an external source, like an LED behind it (backlight), or a light (such as an LED) at the edge of the screen (called edge-lit, diffused by sheets/films of plastic). Higher-end LED-lit LCDs get fancy by having a bunch of LED backlights in a grid/array to give more finite adjustment to the overall lighting on screen.
+
+---
+
+With OLED every single ""pixel"" is sort of its own LCD panel. It has it's own colors, like an LCD pixel, to switch between, but all the pixels also contains their own tiny backlight. This means you can effectively have a single pixel lit, and every other one turned completely off (true black).
+
+---
+
+With Micro LED, its sort of an evolution of OLED. Each pixel contains a bunch of tiny (microscopic) red green and blue LEDs that otherwise do not need a backlight (because they are lit as the given color)."
+dotnet,fcsckhj,t1_fcqxisi,1577914645.0,"Check out OneSignal if you want some easier push notification stuff, both for out-of-app notifications and infrequent in-app updates.
+
+SignalR is more for real-time constant updates back and forth."
+ferrets,fconqbf,t3_ei4pjh,1577836831.0,Why's he laying in hamster bedding?
+ProgrammerHumor,fcm50aw,t3_ehuqrc,1577764398.0,Can't like every modern mobo do RAID
+printers,fcjlbyl,t1_fa2m381,1577692345.0,"Its cool that you can print 13x26, but where do you find high quality or glossy paper that giant?"
+gaming,fcjjoxo,t1_fcja6ln,1577690287.0,You should consider selling this at/on Displate. Pretty painless to toss up there and make some money.
+atheism,fcd963f,t1_fcbzxyi,1577607861.0,"I think you'll find that a lot of people your age simply don't care. They are either shoved into whatever their parents practice, or they are just detached from it all.
+
+Most kids in high school are more worried about their appearance, their friends, their social status, gossip, their grades, etc. They probably haven't spent a ton of time internally debating morality or their mortality.
+
+I think you'll find a lot of people that proclaim themselves as atheists don't do so until a few years later when they end up having to think and act for themselves. Independence brings on a lot of these internal quarries.
+
+Also its kind of important to understand there are different types of Atheism like their are different sects of Christianity. The people that ""just don't care"" (IMO) would probably be categorized as ""Agnostic,"" meaning they basically think ""I don't really believe in a god but I'm open to being proven wrong""."
+aww,fcarohz,t1_fcaf22j,1577575296.0,I don't think he can do any other face
+videos,fc7yh63,t1_fc7y4jm,1577522007.0,"Its a shooter, he plays shooters. Not sure COD is a good example for your point. There are always outliers, of course, but my point was more than he's not played every single game that came out in 2019... and he's not going out of his way to play things that don't catch his attention. 
+
+He's reviewing games he has personally played this year, and if he didn't play Ace Combat 7, its obviously not going to appear in his list, regardless of his feelings towards it."
+videos,fc7y9iv,t1_fc7673g,1577521845.0,"It was just a game that existed, it wasn't amazing, wasn't terrible. Just there. People had fun with it for a bit and moved on. Doesn't really resonate with you for a long time afterwards like Sekiro or DMC5 or other games with real memorable action, riveting stories, or unique gameplay."
+videos,fc7xcah,t1_fc7i67z,1577521122.0,"He didn't argue against it's visual fidelity or game library. He seemed excited by it, but put-off by the  Its not consumer-ready because it has such a high bar of entry. If you want to enjoy HL:A the ""best way"" you have to splurge $1k for the headset, and maybe $1.5k for a really good rig with a 2080. Plus the higher end VR headsets require you to have a decent dedicated open space and cameras/sensors set up.
+
+Your average console pleb isn't going to do this. They have a hard enough time moving PS:VR units. They have a hard time understanding why they should invest $2k or more in PC VR when all their buddies are already there on Xbox Live. They might not even be tech-savvy enough to build their own PC, or better yet even install/configure drivers or the VR software properly.
+
+Consumer-Ready is when any ol' dumbo can hop into it with little cost, setup, or specific knowledge. Lower the bar of entry to the same level of ease as a console. When PC VR is 1/4th the cost it is now, or console VR because a mainstay, then we'll see much wider adoption of the idea and way more AAA titles pushing the platform along. We're getting there."
+videos,fc7wf9v,t1_fc6ifp4,1577520425.0,"I doubt he played it, as its not really a game in his genre, so why would you expect it to make his list?"
+videos,fc7wcnf,t1_fc7cvat,1577520368.0,"You have to account for this being **his** GOTY list, meaning games he's put a lot of hours into. He hasn't played everything in existence, especially not early access stuff."
+dotnet,fc3hm3w,t3_efynpb,1577389982.0,"Browsing Nuget and GitHub is usually sufficient, given that you can't easily give working examples on WPF like you can with JS"
+SwitchPirates,fbvjyrh,t3_eemoun,1577131894.0,Are you using 90DNS or any special DNS to block Nintendo's servers? I've had much slower internet speeds when using those versus normal/automatic DNS

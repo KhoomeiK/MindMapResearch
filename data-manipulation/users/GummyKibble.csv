@@ -1,0 +1,72 @@
+subreddit,self ID,parent ID,time,text
+amateurradio,ffgwurz,t1_ffg6588,1579917102.0,"There’s no such thing as a private email address. That ship sailed a decade or more ago. Any address you’ve used for anything less strict than communicating only with another similarly “hidden” address should be presumed known the every spammer everywhere. I wish it weren’t the case, but it is.
+
+Source: I literally wrote the manual for spam filtering on an extremely common mail server package. This was the bane of my existence for too much of my career."
+AskReddit,ffflqbt,t1_fff27q8,1579886684.0,"I’m not sure. It probably would have, but I don’t know what you call one that was found again."
+AskReddit,ffflo0b,t1_ffeukg7,1579886644.0,"That’s pretty cool! If they’re still in contact, have they ever compared family trees?"
+AskReddit,ffflm8z,t1_ffep438,1579886615.0,"I hope so too. My cousin and I became great friends, but we almost never knew each other because of some dumb long-forgotten grudge a few generations earlier."
+gifs,fffexxy,t1_fffd80f,1579882486.0,"The camera zoomed out during the process. That first cell was teensy, and the whole animal grew in size as the cells divided and increased in number.
+
+And yep, that’s exactly right: DNA carries the instructions for how cells specialize into legs and organs and eyes as they multiple."
+BostonTerrier,ffehyco,t3_et2v9l,1579848729.0,"What an angel. Mine is snuggled up against my chest as I write this, and I just gave her a hug for you."
+AskReddit,ffehpi0,t1_ffdewfx,1579848448.0,"Wow, this triggered a memory! I was in US Navy “A” school (where you go after boot camp) several states away from home. I met a guy, “John”, at a local dive bar where Navy folks hung out. We got to be pretty good friends over the next few weeks, but always saw each other off base on the weekends and such. One day I bumped into him when we were on base and in uniform:
+
+Him: Wait, your last name is [uncommon name]?  
+Me: Yeah. Why?  
+Him: That was my birth dad’s last name. He was all the way over in [my home state] though.  
+Me: That’s where I’m from!
+
+Turns out his dad and mine were cousins, but the family had split because of some old-timey feud BS. John and I had the same great grandpa, then his family left the state never to be heard from until then.
+
+Six months later, after being transferred across the country, we bumped into each other again at our next schools and ended up being roommates for a couple of years."
+AskReddit,ffbhqp0,t3_esbf2p,1579765846.0,"She wore a raaaspberry beret,
+The kind you find in a second hand store."
+gifs,ffbhkdz,t1_ff9krq6,1579765616.0,The first and only sentence out of the dad’s mouth should have been “get your ass down *NOW*.”
+funny,ffbfyri,t1_ffa9eaj,1579763590.0,We found out Boston Terrier on the roof once. To this day I have no freaking idea how he did that.
+AskReddit,ffb2mym,t1_ffaz81i,1579750238.0,"I don’t know either of you, but I love you both. Huge respect to the two of you."
+news,ffb1bhq,t1_ffaf8e0,1579749331.0,"Imagine you have a straight son. You hoped he was gay, but you find out he likes girls. You send him to a camp where they starve him, make him fool around with boys, and force him to watch gay porn.
+
+What the actual fuck.
+
+If you wouldn’t do this to your straight kid, don’t do this to your gay kid. I can’t imagine what it would take to convince me to torture my own children this way. I love them, and this bullshit isn’t what love looks like."
+synology,ffa3hvi,t1_ffa0ncs,1579727147.0,"I think you're exactly right. I think the other poster was probably pretty close to right maybe 10 years ago, but the financial and regulatory environments are radically different than they were back then."
+synology,ffa388l,t1_ffa0stx,1579726993.0,"Since you didn't include any of the colo pricing in your calculator, I assumed you were hosting it in a data center you already owned. The cheapest full rack I saw in a legit DC was about $1,000 per month, but you can buy just a few U's for a lot less, of course. Still, that's going to be a couple hundred $ per month for electricity for 35 or so drives (plus their servers), and this adds up. And the colo isn't going to build and configure your servers, or swap out your dead drives (if you're lucky, 1 per month), so be sure to budget for hot hands."
+synology,ff9zvtk,t1_ff9yitl,1579725048.0,"Nope, don't buy it. This is what I do all day, every day, and I've not experienced any of the limitations you describe. I'm sure there's something like that _somewhere_, but it's far from the common case, even in very highly regulated industries. I mean, look at my list: even the  DoD and IRS have provisions allowing for this."
+synology,ff9zejl,t1_ff9xs41,1579724768.0,"I went to https://calculator.s3.amazonaws.com/index.html and plugged 300TB with 5TB retrieval into US East (Ohio) Glacier and got $1,279.90/mo, or $15,358.80 per year. That's cheaper than your calculated colo costs, which I don't believe because that much storage on WD Red drives (using 10TB models to get the best price per TB) alone would cost about $10,000, and not counting the servers to put them in, the racks to mount them in, the power and Ethernet to those racks, the data center to put the racks in, the cooling to keep the data center at reasonable levels, and the staff to get it all set up and keep it running.
+
+I don't believe it's possible to store data yourself more cheaply than by putting in Glacier. The math just doesn't work out."
+synology,ff9xywj,t1_ff9wbgo,1579723925.0,"This is almost never true. I've also worked with plenty of companies who still think that requiring regular password rotation is a good idea because they haven't kept up with current standards. I would be very interested in seeing any regulatory framework that prohibits storing encrypted data in the cloud. I know for a fact that Medicare allows it with appropriate procedures in place, and [AWS GovCloud](https://aws.amazon.com/govcloud-us/) is a thing:
+
+> AWS GovCloud (US) gives government customers and their partners the flexibility to architect secure cloud solutions that comply with the FedRAMP High baseline; the DOJ’s Criminal Justice Information Systems (CJIS) Security Policy; U.S. International Traffic in Arms Regulations (ITAR); Export Administration Regulations (EAR); Department of Defense (DoD) Cloud Computing Security Requirements Guide (SRG) for Impact Levels 2, 4 and 5; FIPS 140-2; IRS-1075; and other compliance regimes.
+
+I don't doubt that there are some regulations that don't allow any cloud storage under specific circumstances, but the largest government departments are OK with it."
+science,ff9wyj4,t1_ff9tu3p,1579723311.0,"This is absolutely, 100% wrong. Influenza is one of the illnesses known to trigger [cytokine storms](https://en.wikipedia.org/wiki/Cytokine_release_syndrome) in healthy adults. People without strong immune systems (e.g. the sick, young, and old) don't experience this. It's what makes epidemics like the 1918 flu, SARS, and H5N1 particularly deadly _especially for healthy adults_.
+
+For many things, your logic is often fine: we have a few billion years of evolution helping us get over infections. For the flu in particular, it's deathly incorrect."
+synology,ff9vyus,t1_ff9v76t,1579722703.0,"Almost every company you interact with on the Internet is hosting huge amounts of personal information in a cloud provider. Even frameworks like HIPAA are perfectly fine with cloud services (including backups) as long as you take appropriate precautions, like encrypting the data beforehand."
+pics,ff7v5uu,t3_ery4f3,1579659111.0,"If you turn that into a tattoo, you will win the Internet.
+
+Source: I Internet."
+Dudeism,ff7u0ho,t3_erujep,1579658336.0,"Right on, Dude!
+
+And it bears repeating: being dudely is *not* about being an exact clone of The Dude. In fact, that’s about as un-dudely as you can get. The real lesson is to live *your* best life, with the environment and habits that work best for *you*."
+AskReddit,ff7scz5,t1_ff7nb5t,1579657187.0,"I really fought the urge to downvote this, even though you’re just quoting Henley and not saying it yourself."
+ipad,ff3q6im,t1_ff2o8p7,1579546474.0,"I loved Pythonista but it ded, as far as I can tell. [Pyto](https://apps.apple.com/us/app/pyto-python-3-8/id1436650069) is an excellent, (very) frequently updated alternative that I’ve started using."
+ChoosingBeggars,ff3nhcx,t3_er9w2c,1579544824.0,"Depends on location. For example, if that’s in the Bay Area, it’s a fantastic deal. Babysit one time a month and get way, *way* under market rate rent? I’m serious: people would be lining up for that."
+sanfrancisco,ff2aaw0,t1_ff1znid,1579498522.0,Same. Down side: one of my favorite teams is going to lose. Up side: one of them is going to win.
+ipad,ff2a7q3,t1_ff1ufzr,1579498439.0,"This. Changes. *Everything.*
+
+Thank you so much for sharing!"
+news,feyzl3d,t1_feww5j9,1579452431.0,"I can’t recommend this enough! I love my credit union so much. 99% of the time, they’re just like a regular bank but with no fees, good customer service, and a ginormous ATM network. That 1% of the time when you need to borrow money is when they really shine, though. I needed to take out a car loan. They evaluated it based on our financial history with them instead of making us provide a bunch of outside information: “we know how much you make - we see your paychecks come through”. It was all so *reasonable* and sane. They approved our loan about an hour after I completed the online application.
+
+I can’t imagine ever going back to a bank again."
+pics,fetthp8,t3_eqdz3h,1579379884.0,Welcome aboard! It’s good to have you.
+AskReddit,fetsrca,t1_fetaqev,1579379630.0,"I was like 35 when I coughed out my first tonsil stone, broke it open, gagged, and gave in to my wife’s nagging to have my tonsils yanked.
+
+OMG, I wish I’d done it earlier. No more recurring tonsillitis! No more annual strep throat! No more snoring! No more hell-born grey lumps of horror growing inside my neck! It was so, so worth it, and hurt less than the strep throat."
+news,fetp050,t1_fetkp4u,1579377829.0,"In the Bible, [Matthew 7:1-5](https://www.biblegateway.com/passage/?search=Matthew+7%3A1-5&version=ESV):
+
+>	“Judge not, that you be not judged. For with the judgment you pronounce you will be judged, and with the measure you use it will be measured to you. Why do you see the speck that is in your brother's eye, but do not notice the log that is in your own eye? Or how can you say to your brother, ‘Let me take the speck out of your eye,’ when there is the log in your own eye? You hypocrite, first take the log out of your own eye, and then you will see clearly to take the speck out of your brother's eye.”
+
+Lots of people get as far as the first comma and stop, trying to weaponize it as “you’re not allowed to judge me!” It’s sort of like “the customer is always right”, where the original advice is actually very good and sound but lots of people miss the point."
+news,fesxc8r,t1_fesswer,1579369884.0,Game on!

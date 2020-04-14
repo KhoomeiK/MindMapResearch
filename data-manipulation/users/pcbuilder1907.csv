@@ -1,0 +1,283 @@
+subreddit,self ID,parent ID,time,text
+worldnews,fgxxrz2,t1_fgxodoe,1581177604.0,"This is why Reddit sucks outside of the niche subs.  The admins are the #1 contributor to the polarization on this site because they let mods of default subs abuse rules and push an agenda.  The only time they step in is when the media complains, and since the media would like this, nothing happens."
+unRAID,fgvzud0,t3_f0b19f,1581155079.0,"If you need I/O speed on the main disk array, FreeNAS is better than Unraid (though Unraid can bypass some of these problems with a SSD cache if it's big enough).  If you value flexibility (ie the ability to buy one drive to expand the array), then Unraid is better.
+
+In regards to Steam, I have most of my Steam library on a 1TB SATA SSD using the Unassigned Devices plugin, and since I have a 10GBe connection between my gaming PC and the server, it works fine."
+homelab,fgvwpt5,t1_fgv8b1h,1581154028.0,"No, hadn't tried that.  I didn't know that the switches don't care, so I assumed that since they were working, that I was doing something wrong.  I mean, the text on the pins or w/e are all facing the same way.
+
+It looks like Chenbro mislabeled the ground and LED parts of the pins.  Annoying.
+
+Thanks for your help."
+unpopularopinion,fgv37hc,t1_fgubyyy,1581135848.0,"Whenever someone says that slavery built the United States, ask them why the North won the Civil War.  Hint: the North didn't have slavery, and because of that, it had a bigger economy."
+todayilearned,fgr8bhw,t1_fgr81c5,1581040613.0,"I mean if they want to buy them fine.  But stealing isn't okay.
+
+I'm pretty sure China won't hold together.  They have no local oil supplies, the US has no desire to police the global tradeways anymore, there's 1000 times more toxic/interest free money flowing around the Chinese economy, and last year... it was cheaper to hire a Mexican to make widgets than a Chinese person.
+
+I fully expect China to look a lot like it did in 1930 within my lifetime, and that may not be a peaceful breakup."
+todayilearned,fgr7ci9,t1_fgr653j,1581039937.0,"I'm not convinced that China will be a united country in the next 10-20 years, so it may not be a good idea to give them back."
+todayilearned,fgr5m7u,t3_ezuu1s,1581038730.0,China is lucky that the colonial powers took their artifacts.  Mao's Cultural Revolution destroyed a lot of it.
+Economics,fgqvxbt,t1_fgq1tm3,1581032623.0,"That might be, but while the rest of the West has been increasing their CO2 emissions post Kyoto, the one country that didn't sign it (the US), has decreased their CO2 emissions with natural gas.  We actually met our Kyoto targets before everyone else.
+
+We have so much natural gas that it's decimated coal, and it's even replacing other fossil fuels in petrochemicals and pharmaceuticals."
+PoliticalHumor,fgqrii4,t1_fgqol9w,1581029938.0,"Which was the point.  The Founders saw the chaos that was gripping France at the time and said no thanks.
+
+It's likely the States wouldn't have agreed to form a Union if there weren't clear State representation."
+PoliticalHumor,fgqn37x,t1_fgqmxgy,1581027371.0,That's because they are elected by popular vote... things weren't always like this.  A lot of our problems are a result of the change that happened in 1913.
+PoliticalHumor,fgqmo2d,t1_fgp1myz,1581027134.0,"The Founding Fathers have nothing to do with the current selection of US Senators.  [They were never supposed to be selected by the people.](https://www.ourdocuments.gov/doc.php?flash=false&doc=58)
+
+And if you want that, you want something akin to Revolutionary France, and there are a lot of skeletons in graves right now missing their heads because there were no brakes on the people's passions."
+PoliticalHumor,fgqmj3y,t3_ezrxgi,1581027055.0,"Uhhh... Senators were supposed to represent the interests of the individual States, not the interests of the people.
+
+[It was only in 1913, with the 17th Amendment that this changed.](https://www.ourdocuments.gov/doc.php?flash=false&doc=58)  Previously to this, Senators were choses by State legislatures.  That's the reason why State Governors can select Senators to serve out a term even now; it's a leftover power from prior to 1913.
+
+So, this meme is bad, because you don't know anything about US civics as the Founders had nothing to do with changing how Senators were selected in 1913.
+
+You'd have a better point, maybe, if you were talking about House members.
+
+You know what else happened in the early 20th century?  Congress capped the number of member of Congress, which in my opinion is the reason why there are only two parties, and why those two parties are polar opposites of one another.  There just aren't enough Congresspeople to represent 300+ million people."
+unRAID,fgolnh9,t1_fgf8wsy,1580974891.0,"So, I tried using this docker.  After configuration/creating account, etc when I tried to scan it gave me an error.  Now I can't log back into the app... keeps telling me invalid credentials and I can't find a way to reset my password.
+
+Any help would be appreciated."
+unRAID,fgm52ot,t1_fgm1jt0,1580918138.0,"If you pass a GPU to a docker, it becomes unavailable to VMs.  I don't know about that docker, but if it can do what like what is in this video it might work: [https://www.youtube.com/watch?v=GOhHiFAXwOE&](https://www.youtube.com/watch?v=GOhHiFAXwOE&)
+
+Use these links: [https://www.elpamsoft.com/?p=Plex-Hardware-Transcoding](https://www.elpamsoft.com/?p=Plex-Hardware-Transcoding)
+
+[https://developer.nvidia.com/video-encode-decode-gpu-support-matrix](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix)"
+unRAID,fgky3ey,t1_fgkxyxq,1580876426.0,"From what I've seen, those processors are less capable of the other tasks the OP wants to do, whereas the Quadro will allow them more flexibility."
+unRAID,fgkvos6,t3_ez0dbw,1580874689.0,"I wouldn't recommend the V4s as they stopped being new just in 2017, so you will pay out the nose for them, even used.  The V3s are almost as good... a little more power hungry, but not much less powerful.
+
+If you're running Plex, I don't advise that you use your CPUs for transcoding... it's like using a Ferrari to pull a trailer..  Get a Plex pass, install the Nvidia Unraid version and if you don't need more than two streams, you can pick up a P400 for less than $90 on Ebay and it only consumes 30W at max."
+SandersForPresident,fgkqcte,t1_fgkkila,1580871277.0,[https://www.politico.com/news/2020/02/04/iowa-caucus-low-turnout-110674](https://www.politico.com/news/2020/02/04/iowa-caucus-low-turnout-110674)
+SandersForPresident,fgkk9th,t1_fgkk1eg,1580867525.0,"The low turnout is a bigger story.  It's comparable to 2016 and less than Obama in 2008 (30,000 less).  It should worry everyone that cares for Bernie."
+worldnews,fgk3obn,t1_fgk345n,1580856814.0,"Do you turn everything into an attack against someone?
+
+All I did was provide polling, and you're using the polling data to somehow divine my opinions on the FBI?  [You must be a wizard or something.](https://i.ytimg.com/vi/YFNsRogBqb0/maxresdefault.jpg)"
+worldnews,fgju1sp,t1_fgjswcd,1580851393.0,"The only two institutions that had good ratings prior to Trump were the FBI and the military.  I'm of the opinion that James Comey destroyed the FBI's reputation (on the left, because he went after Hillary right before the election, and on the right because he went after Trump after it).
+
+[The media's trust?  Declining long before Trump.](https://news.gallup.com/poll/267047/americans-trust-mass-media-edges-down.aspx)
+
+[The Congress' trust?  In the gutter, before Trump.](https://news.gallup.com/poll/1600/congress-public.aspx)  The list goes on and on... all things that the public no matter which party you were with we didn't trust most institutions.
+
+[Here's the overall rating of 14 different institutions.  This began all the way back in 2004.](https://news.gallup.com/poll/212840/americans-confidence-institutions-edges.aspx)"
+Amd,fgjkwci,t1_fgjje76,1580846151.0,"Dude, you're ignoring my thread and responding as if you know what you're talking about.  Previous generation Threadrippers have NUMA issues which makes it bad for servers.  Bet you don't even know what NUMA is.
+
+That's not even mentioning that there is only 1 motherboard on the market with lights out management made by Asrock Rack, which only patch their boards for two years.  Again, also bad for servers.
+
+So again, still thinking like a consumer.
+
+I have two Ryzen systems in my home.  One is a 2nd gen and the other is a 3rd gen which just so happens to be my daily driver.  So try again."
+Amd,fgjc4a8,t1_fgjal87,1580840946.0,"[The new Threadripper starts at what, $1300?](https://www.newegg.com/amd-ryzen-threadripper-3960x/p/N82E16819113619?Description=threadripper&cm_re=threadripper-_-19-113-619-_-Product&quicklink=true)  You can get an [8-core Epyc](https://www.newegg.com/amd-epyc-7252-socket-sp3/p/N82E16819113597?Description=epyc%207252&cm_re=epyc_7252-_-19-113-597-_-Product&quicklink=true) for $500, or a [16-core for $530.](https://www.newegg.com/amd-epyc-7252-socket-sp3/p/N82E16819113597?Item=9SIA6ZPA7R3926&Description=epyc&cm_re=epyc-_-19-113-597-_-Product)  But, there are no PCI-4 motherboards on the market.  They are all last Gen.  Hell, Newegg is bundling the old boards together with 2nd Gen Epyc to get rid of them because there are no other options for consumers SIX MONTHS AFTER LAUNCH.
+
+[Xeon scalable processors actually start around $250.](https://www.newegg.com/p/pl?d=xeon+scalable&N=100008494&name=Processors%20-%20Servers&Order=PRICE&isdeptsrh=1)  And you can actually find SuperMicro boards in various form factors that have IPMI, 10G, and vetted ECC support.  Not to mention that since Xeon isn't sensitive to RAM frequency like Epyc is, the RAM is much cheaper.
+
+When you're going into the motherboard and modifying voltages on a server, you're doing it wrong, so again, this sub knows little to nothing about servers and yet tries to apply consumer thinking in the Enterprise space.
+
+PS. No IPMI on Threadripper, which makes it useless to me.
+
+edit: I just built a LGA 2011 server that outperforms both those 8 and 16 core Epycs for $300 (that includes the processors, RAM and motherboard).  So tell me, why should I spend $2000+?"
+Amd,fgj2z9f,t1_fgizlw1,1580835997.0,"Too expensive, and the previous generations have NUMA issues which makes it a poor solution for a server.
+
+As per usual, this sub knows little about servers.
+
+edit: that's not even mentioning limited ECC support, no IPMI except on one Asrock Rack board (asrock rack doesn't support their motherboards past two years, a major problem in enterprise), and uses too much power."
+Amd,fgix6jx,t1_fgiu73g,1580832821.0,"No, it's not.  I needed a server upgrade and it makes zero sense to buy a processor along with a $600 motherboard that you can't fully take advantage of.
+
+Considering there are zero standard form factor motherboard outside of one Gigabyte board you can't get off the shelf means that in 4-6 years you won't be able to find a motherboard.
+
+Get with the program and follow along."
+Amd,fginqnc,t1_fgi5r47,1580826709.0,"It's been seven months since release, and you cannot find a single CEB, ATX, or E-ATX SP3 motherboard on the market.
+
+At least I can find motherboards that support the latest Xeon standard and I know they are stable.  But it's not okay to be critical of AMD amirite?"
+worldnews,fghzzro,t1_fghyuz7,1580799530.0,"[Not only are you unhinged, you're incapable of doing basic math.  Clinton and Trump were separated by 2.1%.](https://www.newsweek.com/trump-impeachment-approval-ratings-contested-election-results-714938)
+
+> In fact, the pushback against Trump started immediately after Election  Day 2016, when 62,979,879 Americans voted for the Republican candidate  and left him trailing Democrat Hillary Clinton in the popular vote.  Trump got 46.1 percent of the votes, while Clinton nabbed 48.2 percent—a  fact Trump opponents seized upon as they organized challenges to the  election results."
+worldnews,fghz5h3,t1_fghyuz7,1580798633.0,"Fascism has lost all meaning when people like you use it as it demonstrates how ignorant of history you are, and you're quite literally unhinged and no longer worth talking to."
+Amd,fghy6zy,t1_fgh5dac,1580797673.0,"I honestly wanted to build an Epyc server to replace my Unraid box.  But I couldn't justify the cost and the lack of PCI4.0 server boards combined with the unknown quality of the experience I'd have.  I fully expect in 4 years, when this $300 LGA2011 dual socket system becomes more expensive to power than the used Epyc parts, but AMD has got to put pressure on board partners to develop motherboards, or I see myself going with Xeon Plat/Gold."
+worldnews,fghu87h,t1_fghpgge,1580794015.0,"So, first off, 30% of the population, not 30% of those that voted.  Second, what does Trump have to do with this?  Why does he have to enter every single discussion of history?"
+unRAID,fggvof2,t3_ex2r2b,1580770601.0,"I wouldn't get a consumer card like that as it consumes more power than other options.  If you're considering that kind of card, it seems as though you don't need that many transcodes at the same time.  I therefore recommend what I'm using, which is a Nvidia Quadro P400.
+
+It can handle two 4k transcodes or seven 1080p transcodes and I picked one up for $85.  Even better... it only consumes 30W max.
+
+[https://www.elpamsoft.com/?p=Plex-Hardware-Transcoding](https://www.elpamsoft.com/?p=Plex-Hardware-Transcoding)
+
+P.S. You can unlock with the driver hack, but I've never done that as I don't need to for my needs."
+unRAID,fgguu0q,t3_eye9r9,1580770063.0,"You should have an appdata share.  What are it's settings under ""use cache disk?"""
+news,fggu0hg,t1_fggtwsp,1580769537.0,"So, you're accepting my thesis that this is about ideology more than it is about solving the problem?"
+news,fggtsxw,t1_fggth58,1580769399.0,"I'd think the same way if I hadn't been reading and hearing the same message from most environmentalists since the 1980's.  They were against nuclear then, and now.  Which shows that it isn't a blind spot, it's ideological.  Back then it was linked to nuclear weapon opposition, but now... I don't think they even question it as it has become dogma to them."
+news,fggt8by,t1_fggspej,1580769032.0,"Because I think that if people care about an issue enough as they profess to then they should have already examined all the possible solutions.  
+
+We know that wind and solar can't provide base load for the entire grid because its extremely hard to store that power for when it isn't sunny or windy.  There are very few places on the planet where those sources work 100% of the time.
+
+Nuclear on the other hand doesn't generate CO2 and modern reactors are safe and the fuel can be reused and safely stored.  We've had nuclear fuel sitting out in the open for decades here in the US, and France gets about 80% of their grid power from nuclear, so it isn't as if this hasn't already been done.
+
+Instead, people like Greta tell us how much they care, and dismiss the only proven technology that could solve the problem in the short to mid term (at least for the power grid, transportation is a different issue), which suggests to me that it's more about having power over others or at best making herself famous."
+news,fggrtit,t1_fggre9x,1580768141.0,"Who said anything about incels?  I don't like her message because she's not serious about solving climate change.  I know this because her plans also ban nuclear power, which is the only solution on the table that has the power density to be a stepping stone until other sources are advanced enough to provide base load.
+
+That's why I didn't like the Green New Deal, because both it and Greta seem to be more interested in power than they do in solving the problem."
+news,fggr2ph,t1_fggn10l,1580767675.0,"Didn't she say we needed to stop all carbon production immediately?  Does the commission that gives out these things not know that that would result in billions of dead and not just from starvation, but from war as nations wage war over food and resources at a scale we've never seen?"
+news,fggqxvj,t1_fggoxr9,1580767592.0,But a 17 year old that no one cared about 2 years ago until some media types decided she was a star?
+worldnews,fggnd7f,t1_fggmit2,1580765456.0,"If you're going to cite something, at least read it:
+
+>At the [July 1932 Elections](https://en.m.wikipedia.org/wiki/July_1932_German_federal_election), the Nazis became the largest party in the Reichstag, yet without a majority. Hitler withdrew support for Papen and demanded the Chancellorship. He was refused by Hindenburg.[\[62\]](https://en.m.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power#cite_note-FOOTNOTEBullock1991117%E2%80%93123-77) Papen dissolved Parliament, and the Nazi vote declined at the [November Election](https://en.m.wikipedia.org/wiki/November_1932_German_federal_election).[\[63\]](https://en.m.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power#cite_note-FOOTNOTEBullock1991117%E2%80%93124-78) In the aftermath of the election, Papen proposed ruling by decree while drafting a new electoral system, with an upper house. Schleicher convinced Hindenburg to sack Papen, and Schleicher himself became Chancellor, promising to form a workable coalition.[\[64\]](https://en.m.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power#cite_note-FOOTNOTEBullock1991128-79)  
+>  
+>The aggrieved Papen opened negotiations with Hitler, proposing a Nazi-Nationalist Coalition. Having nearly outmaneuvered Hitler, only to be trounced by Schleicher, Papen turned his attentions on defeating Schleicher, and concluded an agreement with Hitler.\[65\]
+
+Reading further shows that the Nazis were able to seize control of the country with 40% of the country, which isn't a majority."
+worldnews,fgglvxz,t1_fgglean,1580764586.0,He actually wasn't.  His party was the largest party and then outlawed all other parties after he prevented the government from functioning by preventing it from having a quorum as required by the Weimar Constitution.  The majority of the people voted for the Conservatives and Socialists.
+worldnews,fggkshf,t1_fggjkul,1580763934.0,"Yeah, when was the last time a fascist or a communist gave the people power to select their own leaders?  Hint; never."
+worldnews,fgg72xa,t1_fgg4d6a,1580755657.0,"The significant difference between fascism (which is different than National Socialism) and communism is economic.
+
+Communism seizes private ownership of production and transfers control to the government.  So the government takes full control of how much of x needs to be produced.
+
+Fascism allows private ownership of production as long as it serves the State's goals.  ie, there were no Chinese millionaires or billionaires prior to the 1990's.  Now there are many.
+
+China hasn't been communist since the late 1980's when they allowed private ownership.
+
+edit: that other significant difference is that communism is supposed to be a global movement/form of government, while fascism is centered on the nation, ie Spanish fascism is different than Italian fascism, etc."
+worldnews,fgg63uu,t1_fgfxp0s,1580755051.0,"Because totalitarian regimes rely on reputation more than other government systems.  If the government that never changes isn't always right, then that government needs to change.  People instinctively know this."
+SubredditDrama,fgenh50,t1_fgeervx,1580704026.0,"If that's what you said, you probably got banned for being rude, not for being against homophobia."
+news,fgemjla,t1_fgcv6aa,1580703292.0,"We?  Do you mean Reddit?  Reddit is a cesspoll in the defaults and a giant liberal echo chamber that contributes to separating left and right in every country whose population participates on it (which radicalizes both sides).  
+
+It's astroturfed to fuck as well.  The most recent example of this is how the Euro/UK centric subs were like ""ra ra! Labour"" and then Labour gets crushed late last year.  There's also obvious astroturfing for both Star Trek and Star Wars.  
+
+Look how people loved the new stuff for the first few months, and then either one of two things happened.  Either millions of people changed their mind, or the ad money Disney and CBS was spending to astroturf dried up."
+worldnews,fg720bi,t1_fg70pd0,1580582134.0,"I'll buy the AP, but I wouldn't put Politico in there.  They have some really skewed editorial choices.  They may not bake their headlines like others do, but they make very partisan choices as to what stories to cover."
+NoStupidQuestions,fg71wi7,t1_fg6r4bc,1580582062.0,"You may not like to hear this, [but Obama assassinated American citizens without trial for the public good.](https://www.amnestyusa.org/is-it-legal-for-the-u-s-to-kill-a-16-year-old-u-s-citizen-with-a-drone/)  By your standards, we should have impeached Obama because he violated US citizen's right to trial.
+
+[We also have Obama on tape telling the Russians that he is making foreign policy decisions with his political future in mind and not for the public good.](https://www.youtube.com/watch?v=0mgQaFlo_p8)  
+
+Lincoln should have been impeached for suspending habeas corpus, and FDR for putting Americans citizens in concentration camps.  Under the House's stance, every President including George Washington, should have been impeached and removed from office.
+
+I don't think we should have impeached Obama as it's so hard to separate what is politically good for a President from what they believe is in the public good.  
+
+You're also misreading what happened.  The House didn't actually send articles to the Senate that included a crime.  So the entire removal of Trump centered on Trump's state of mind, and as the House had no evidence other than a few witnesses' opinions I have a hard time justifying invalidating an election for a hypothetical thought crime.
+
+The House should have continued going to court if they wanted to have more witnesses to prove their case, as that's the way all the other impeachments have gone.  
+
+But for some reason, they were in a hurry, and then decided to wait for 3 weeks.  Why were they in such a hurry to have the House vote on the articles, and then sit on the articles for three weeks if this was such a crisis?  I felt like I was being gaslighted."
+worldnews,fg70cth,t1_fg6nw4b,1580581039.0,"Just an FYI, the US doesn't import much oil from the Middle East anymore.  Even Canadian crude is having a rough time in the US market because fracking crude is just about as cheap as Saudi crude.
+
+It's more likely that we're not penalizing Saudi because they are part of our alliance with the Arabs+Israel against Iran."
+worldnews,fg6zt9h,t1_fg6z7ss,1580580678.0,"Man, I fully expect that headline now."
+AskReddit,fg4x3s1,t3_ewpc8d,1580513051.0,Multi-layer toilet paper is now banned.
+Amd,fg40uae,t1_fg30bv5,1580493791.0,"I've also stayed away from AMD because of their ongoing driver issues... at least on the GPU side.  I still have a 2600X based gaming system, just can't see myself going for a AMD GPU right now."
+TMNT,fg1pg30,t1_fg1iel9,1580431284.0,My childhood has officially been ruined.
+unRAID,fg1anh9,t1_fg18hvm,1580423787.0,"The Unraid GUI will do it if you do some math on what your server idles at and compare it to when you're transcoding to RAM.  32GB should be plenty as long as you're not running a crap ton of dockers, transcodes, and/or VMs (I have the same amount of RAM).
+
+I personally use the Netdata docker, as it gives a lot of details like CPU cycles, RAM usage, network, etc of each of your running dockers."
+unRAID,fg16wmx,t1_fg16hd1,1580421921.0,You're welcome.  Now all your CPU is doing is any audio transcoding.
+unRAID,fg14hku,t1_fg147lb,1580420575.0,Not sure a grad student paper is what I'd call an independent security audit.
+unRAID,fg10n15,t3_ew8cqi,1580418626.0,Has WireGuard had an independent security audit?  That's the only thing preventing me from setting it up.
+unRAID,fg0m07k,t1_fg0hu1z,1580410486.0,"I have a 55"" 4K television, and I did not notice a difference when playing 4K content at average viewing distance (7-8').  This is with my glasses on so I have 20/20 vision.  You can test it out if you have a consumer card before buying something else (I believe the 900 series or better is needed).
+
+The other thing I'd say is that the P400 can't really do two 4K transcodes as it doesn't have enough RAM.  From what I can tell it uses 1.3GB of the 2GB, so you'll need a better card with more RAM if you need more transcodes at the same time.  But the P400 only consumes 30W and I only need 1 4K transcode.  My server would hit 170-180W transcoding, and now it averages about 108-120W."
+unRAID,fg06ezz,t3_ew5852,1580401227.0,"I believe your settings are correct.
+
+You can check if it's working by playing a file that needs transcoding (ie not direct play) opening terminal in the Unraid GUI and typing:  cd /tmp/Transcode/Sessions
+
+edit: then type dir to list the contents and you should see ""plex-transcode-randomnumber""
+
+I also advise that you get a GPU to transcode, as CPU transcoding just isn't energy efficient.  In my case, my CPU was using 50% more power than the $80 P400 Quadro I put in my server does to transcode the same file.
+
+Resources: [https://developer.nvidia.com/video-encode-decode-gpu-support-matrix](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix)
+
+Transcode calculator: [https://www.elpamsoft.com/?p=Plex-Hardware-Transcoding](https://www.elpamsoft.com/?p=Plex-Hardware-Transcoding)"
+Amd,ffytwar,t1_ffymy6c,1580355023.0,"I'm building a new server, and I'm not interested in this at all.  Asrock Rack only seems to support their boards for a couple years, which is a big no-no in server hardware."
+worldnews,ffyt6kp,t1_ffybd03,1580354519.0,I've read that Scotland is very much dependent on London for money because of how old their population is.  I have my doubts that Brussels would want an old folks home (they already have several).
+unRAID,ffxo7fc,t1_ffxgbev,1580329128.0,"Hmm.  I don't have to do that.  If I remember correctly, I had some initial issues getting it to accept the password, but now it just works."
+unRAID,ffx9lkv,t1_ffwosy8,1580320611.0,"It wouldn't work for him (I made the same suggestion), because while the original description was that it took weeks for his RAM to fill up, he's since changed the symptoms to be every few days.  When asked about that, I was insulted, so I'm not sure this guy is worth the effort to assist."
+unRAID,ffx98qh,t1_ffx7aig,1580320400.0,"""Jobsworth cunt..."" that's a new insult to me, and I had to look up.  But it doesn't apply, because I was trying to help you.  But since you're saying things like this, you're not worth helping any longer."
+unRAID,ffx5jnt,t3_ev64np,1580318202.0,I'm able to use an [Outlook.com](https://Outlook.com) address.  What issue are you experiencing exactly?
+unRAID,ffx4ycc,t1_ffx0gq7,1580317844.0,">I noticed that my server would grind to a halt every few weeks
+
+That's what you said.  You said every few weeks Plex would consume your RAM, not every few days.  Now you're changing your symptoms, which you shouldn't do if you want help on this subreddit.
+
+So again, my solution would resolve the issue if you stood by your original description of the problem."
+unRAID,ffwry2p,t1_ffw7c02,1580309569.0,"All my dockers restart every week because I use CA Backup.  So this would never be a problem for me, and it might be a good idea for you to use it too if your system/apps are on a cache."
+Amd,ffvnrs1,t1_ffv14sx,1580268487.0,A better question is this; how much is your time that you spend troubleshooting worth?
+Amd,ffvno6g,t1_ffusz17,1580268419.0,All I've seen on this subreddit since this generation of cards launched is complaints.  I'm not touching these cards with a 10 foot pole (even though I'd love one for a macOS VM) and I think that applies to a lot of people.
+unRAID,ffrya57,t3_euwclp,1580168654.0,"I'd use it as an Unassigned Device if you don't want the data on your array.
+
+Otherwise, if you want it backed up to the array, the only limitation is that your Parity disks need to be equal to or larger in size to the 3TB Barracuda you're adding.
+
+You might also want to have your shares exclude this disk if you want is as part of the array."
+unRAID,ffrs5o0,t1_ffpoazt,1580164619.0,"I feel this was a bit poorly worded, and I want to make sure people understand what you mean so they don't have to update their server twice; if you want the Nvidia drivers, don't update using the official Limetech update (ie Tools > Update).  Use the Nvidia Unraid plugin to update."
+RedLetterMedia,ffr6glf,t1_ffr0euv,1580151485.0,Watch the video.  There's a section that shows a TOS scene that deals with what Trek is about while attacking a modern problem (racism).  Picard isn't dealing with it tastefully.
+PrequelMemes,ffqvzzl,t1_ffqvts9,1580144903.0,"According to what I've read, Spielberg did IJ4 as a favor to Lucas and didn't exercise much creative control over the story as most directors can."
+RedLetterMedia,ffqrdlk,t1_ffqovuq,1580141879.0,I think these new shows are too obvious about it.  Previous Star Trek series handled similar issues with taste without attacking the audience.  The writers now can't seem to do that.
+PrequelMemes,ffqn0d9,t3_euo7qh,1580138892.0,"As long as he's just the idea man, I'm okay with this.  Get some better directors and his stories will shine."
+RedLetterMedia,ffqja86,t1_ffpnbm9,1580136146.0,"That's assuming that you agree with the writers that the government's immigration policy is regressive.  By being on so on the nose, you turn off half the country that doesn't share those views."
+worldnews,ffpbq1p,t1_ffov6zt,1580091070.0,They're like the Waffen SS.  They are the military arm of the ideology.
+xboxone,ffhe8il,t1_fffhar3,1579931659.0,"I disagree.  The game population crashed HARD about 1 month after launch.  I was there.  That wasn't enough time for mismanagement, that was just the launch features not winning people over."
+unRAID,ffgwx5s,t1_ffgsp0m,1579917150.0,"I'll take a look at it.  I'm currently compiling a spreadsheet that compares core count, TDP, benchmark, and Ebay cost.
+
+Do you have any recommendations for a dual CPU motherboard?  It gives me an upgrade path to have two slots."
+worldnews,ffgnxm3,t1_ffgn5bg,1579910664.0,Their reach is more limited than you're implying because everyone wants access to the US market.  No other market can you say that about.
+unRAID,ffgmu6n,t1_ffgerko,1579909904.0,"I can't find any reasonably priced LGA 2011-3 dual CPU motherboards on Ebay.  Best I found is $450 and the 2011 one I've found is $150.  The CPUs are also a lot more expensive.
+
+I think this is because 2011-3... the last released CPUs were in 2017, so a lot of these units are still being used in production."
+unRAID,ffgasuu,t1_ffdte9v,1579902159.0,I'm in the process of building a dual Xeon LGA 2011 system because it's cheap and known to work.
+worldnews,ffebf28,t1_ffe5n3n,1579842087.0,"China can't bully as much as you think it can.  Yeah, it's moving around in the South China Sea and buying infrastructure in Africa.  But it has no force projection.
+
+If there ever were a serious problem with their neighbors, all it would take is a few subs to blockade their oil supplies."
+worldnews,ffdvwrb,t1_ffduwee,1579830243.0,"Countries don't react that way when they are internally fragile.  It's only when dictatorships are strong that they look outward.  If something goes wrong internally, whether financially, economically, etc, they will turn inward.
+
+This is already happening.  Xi made himself dictator for life, and they are moving to crack down internally with the social credit system, the Chinese internet, etc."
+worldnews,ffde6sq,t1_ffd5n8d,1579819000.0,"China isn't an economic equal... they have no uniting waterway like the US does (Mississippi river system).  This means their production sites have to be centrally located and it is expensive to transport goods.
+
+They have a crashing demographic because of the one-child policy (half as many millennials as they would have otherwise) which means it now costs more to hire a Chinese worker than a Mexican worker.
+
+They have more interest free credit sloshing around their system than the entire Western world during the 2008 crisis (1000% more in fact).  When that bill comes due the country may not even survive.
+
+They have no oil reserves and can't even feed their population without imports.  The US is a fossil fuel exporter and if push came to shove has enough oil domestically that we could shut off the exports and use it internally.
+
+The Chinese economy is entirely dependent on the United States, while only 4% of US GDP is tied to exports outside of Mexico and Canada.
+
+China has made more concessions in the last 6 months than it has made in the last 20 years because they know they are vulnerable."
+UpliftingNews,ffciuct,t1_ffcfwuf,1579800393.0,"I doubt it.  What I'm hearing from my family is that since they started with confiscation, that's what Democrats will eventually end up doing when their guard is down."
+UpliftingNews,ffch23z,t1_ffcdn23,1579799301.0,"Because you can observe someone's handwriting to see which hand is better at it.  You could do a reflex test by throwing a ball at them, or have them throw a ball with both hands to measure accuracy.
+
+There are other reasons besides that, but that should be enough."
+UpliftingNews,ffc3oca,t1_ffbzryp,1579790753.0,"The issue is that something like that is subjective by its very nature.  Your beliefs about yourself are entirely your own, and cannot be objective because those things can change even the next day.
+
+The earlier examples of being a brunette and right handed are terrible, as both of those things are objective, ie, everyone can agree on those things."
+UpliftingNews,ffc3cpn,t1_ffb9yy8,1579790523.0,It's because Bloomberg (who is big time anti-gun) bought the election.  I dunno why people aren't more upset over that.
+UpliftingNews,ffc39nv,t1_ffazf0f,1579790462.0,"I don't think you understand how these bills fundamentally upset the conservatives in my State.  I fully expect 2021 to be a blowout with the GOP seizing a majority of seats because of how angry it has made them.
+
+Gun control isn't popular with many of the Democrats in this State either, and that's not even mentioning how upset conservatives get about transgender issues."
+worldnews,ff9b6nw,t1_ff8f4wh,1579708979.0,"Reddit is just as toxic as Facebook and Twitter, if not more so."
+worldnews,ff82uhk,t1_ff81jkb,1579664519.0,"[These aren't single use...](https://www.forbes.com/sites/emanuelabarbiroglio/2019/11/27/coca-cola-sweden-first-market-to-adopt-fully-recycled-plastic/#58a6dfa955b0)
+
+Many markets they operate in, a lot of the bottles are partially recycled, and they're trying to move to 100%."
+worldnews,ff82lkx,t1_ff7yvv8,1579664339.0,"Reddit is useless, yet you and I are both here.  
+
+These bottles are made up of a plastic than can be recycled and made into new bottles.  Most bottles of this type are made up of mostly recycled material.
+
+Can you recycle the electricity you're using to post here?"
+news,ff50m1n,t1_ff4dqfe,1579577035.0,This thread has been like an alternative universe to me.  I've never seen anything like this on a default sub.
+news,ff4z728,t1_ff3vs1e,1579575995.0,"No, I think these people always felt this way.  Trump and Brexit too (same thing happened in the UK) connected with people that the elites in both countries hate.  We've seen it for years.  Flyover country has been a thing for two decades at least and people with more power have demonstrated their contempt for non-elites for decades."
+news,ff4yv8s,t1_ff3ucs1,1579575764.0,It's the same syndrome as we saw with Brexit.  It's the elites against people they hate.
+news,ff4y3la,t1_ff3j1qq,1579575229.0,I feel like hell is freezing over reading this.
+AskReddit,ff3m1lq,t1_ff2if2h,1579543929.0,"I think a big part of the issue is that the last 100 years have been an anomaly in terms of who lives with whom.  It was common 100 years ago, for grandparents to live with or very near by their children and grandchildren.
+
+Multi-generational households were a thing for most of humanity's history.
+
+In the 20th century that began to change as we had a population explosion post WW2.
+
+I think it best that we return to that.  It would be better for everyone I think."
+unRAID,ff3ewiw,t1_ff1bo44,1579539663.0,"You can RAID 1 your cache, so it will protect against one drive failure.
+
+It's still a good idea to backup the Appdata, etc to the array using CA Backup."
+SelfAwarewolves,ff39hzt,t1_ff2q8ze,1579536843.0,"No, what you're saying is that you don't like being proven wrong.  You're trying to deflect onto me when the facts don't align with your agenda.
+
+Then you call me a monster for shining a light on the truth.  You're so pathetic.
+
+None of you people have explained how $800 billion is going to feed everyone.  That's because it WON'T.
+
+Warren's plan is the only one that's been honest about how she's going to try to pay for it, and she's getting slaughtered in the primary because she was honest.  So Democrats like these ideas only in theory.
+
+Even her plan doesn't zero out defense spending, and neither does Bernie's.
+
+Yet you say we can pay for these things just by gutting the defense budget.  You're so dishonest it's even more pathetic."
+SelfAwarewolves,ff25l9l,t1_ff22f1p,1579494442.0,Federal spending is Federal spending.  You don't get to redefine words to fit your agenda.  1984 wasn't supposed to be a manual.
+Virginia,ff1t8yi,t1_ff1sxsl,1579485665.0,Has anyone challenged this in court?  Both voting and firearm ownership are Constitutional rights.

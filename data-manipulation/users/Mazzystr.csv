@@ -1,0 +1,36 @@
+subreddit,self ID,parent ID,time,text
+sysadmin,ffhkofj,t1_ffhb2vg,1579939734.0,You should not have applied as you are way off topic.
+DIY,ffhkfts,t1_ffhb10m,1579939387.0,Nuttin worse than a drunk beaver beaving...
+AskReddit,ffhk5p0,t3_etkqrx,1579938993.0,Late to the game...  I rewrite history... Sephiroth doesn't kill Aerith Gainsborough
+AskReddit,ffhjavl,t1_ffh931z,1579937822.0,When you're slidin in to home and you feel a little foam...
+AskReddit,ffhj8ur,t1_ffh44cs,1579937748.0,Braddock:  Bible 3
+AskReddit,ffhj5sw,t1_ffhat48,1579937636.0,Why is the bush always flaming?  I've only seen it sing a couple of times.
+AskReddit,ffhj1ob,t1_ffh08is,1579937486.0,Think you'd stick with fire and brimestone or go with something modern?
+sysadmin,ffh8y59,t1_ffh63h2,1579926529.0,I think you're misunderstanding.  I'm talking about removing OnTap off a NetApp and installing Linux (and various other arrays).
+sysadmin,ffgwuui,t3_etiyqd,1579917104.0,"Any time a device has been physically compromised you should have encryption for data at rest.  You could have just wiped out the key and rebooted, bam! no more data access.
+
+&#x200B;
+
+Let this be a lesson.  You have a job ahead of you now because no matter what you do short of ""shred""ding the disk... I can restore filesystem and retrieve some data."
+AskReddit,ffgulwg,t1_fffpn87,1579915466.0,Get off the internet Dwight Shrute!
+Volkswagen,ffgtiml,t1_ffezm5q,1579914669.0,You're gonna wanna check out the jazz blue on the 99-03 Audi S4 Avant
+linux,ffgex2w,t1_fffeswy,1579904704.0,You think I'm stuuupid?  You don't drive a phone!  A phone's not a car!  I'm not gonna be part of this syyyystem!  I threw it on the ground!
+DIY,ffgbo6r,t1_ffg9t29,1579902689.0,"Hard work but it's gotta be done.  
+
+I'm doing hardwood floor in my house right now.  The floor doesn't start until transitions are dealt with.  My first threshold was easy.  There isn't one, Lol.  Hardwood goes straight through the threshold.  Hallway and three bedrooms will be one seamless master bedroom will have floor rotated 90 deg parallel to joist.  Ask me how I'm prepping for that and I'll tell you how I cut up the sub floor and blocked every joist 12"" oc.  Fuuuun.  Wife loooves me right know, Lol!"
+DIY,ffgataj,t1_ffga4sd,1579902166.0,And keep it wet.
+OldSchoolCool,ffg9r1k,t1_ffew8v7,1579901512.0,"I thought that was me on the silver bike then I saw the mags.... Nope not me.  I had spokes., Lol!"
+homelab,ffg9gyj,t1_ffg6fv6,1579901339.0,"I do what I can not to make people rich, Lol"
+homelab,fffxjiu,t3_etdc1c,1579893979.0,"This is why everyone flashes their raid cards to pass-through.  Linux will land data on disk and the IO will pause until the disk says Yea it's landed.  It's slow but safe and not proprietary.
+
+I am about to move my 6 internal OSDs on my single node to an external Promise Tech array.  This exposes me to a proprietary raid back end.  I am not pleased but I'm stuck and I'm less happy about that.  The disks will also need to be configured as raid 0 luns and presented to each host over direct-attached-sas (1 host 1 sas link 1 gig-e link for cluster replication 1 gig-e link for client access).  I'll have the option to add up to 4 hosts and 4 OSDs each.  This will force me to keep OSD count low which will help keep mem usage low as I expand the cluster.  I'm using cheap ass Core i7's / 16 gig mem nodes.  The crux is the J610 array is like a 10 year old array at this point and anything can happen to the guts."
+homelab,fffw2qr,t1_fffp4dp,1579893064.0,">nsing. I think for the license they had it only let you add 1 mount?!? no clue, I didnt get into it. either way it was cash and I hadn't had a contract in a bit. its feast or famine.
+
+That VTL license is draconian.  When it represents 30% of your infrastructure budget ... fuck that shit..."
+jellyfin,ffftuci,t1_ffewpls,1579891666.0,oh boy... this is going no where good...fast
+sysadmin,fffthl6,t1_fffoqxm,1579891448.0,BUM Equipment is still around??
+sysadmin,ffft8zz,t1_fffrj7x,1579891300.0,Just??  It's been 3.5 yrs
+LateStageCapitalism,fffec20,t1_fff3xmp,1579882099.0,CONSUME
+BudgetAudiophile,fff7m9w,t1_ffenjil,1579877741.0,"Lol.  Might be but who cares.  Are you doing critical listening while this device is playing when you're in the garage under your car changing engine oil?  Or out back refinishing your deck? Pulling weeds in the garden?  
+
+Keep it in mind what these devices are for and you'll see they do their job well."

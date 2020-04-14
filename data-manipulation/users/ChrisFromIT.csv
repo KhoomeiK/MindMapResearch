@@ -1,0 +1,280 @@
+subreddit,self ID,parent ID,time,text
+todayilearned,ffl4017,t1_ffkylyt,1580034404.0,"You could, you would be dead, but you still could refuse."
+worldnews,ffkyauj,t1_ffkjhl6,1580031220.0,"I don't know. The article doesn't go into much detail. The thing is the 2019-nCov virus has a 14 day incubation period. From the article we don't know when his flight into Taiwan was. For all we know is he could have been in the incubation period when he entered and did not have symptoms.
+
+But you are right, disclosing is the best course of action."
+pics,ffi83ez,t1_ffi354p,1579967537.0,"No. **It is safe for everyone**. The reason why vaccines aren't approved for infants under 6 months old is because it is the understanding that they haven't had their immune systems developed enough to be able to effectively use the vaccine to build up their immunity for what the vaccine is for. So it is a waste of a dose of vaccine.
+
+However there have been a few studies on infants as young as 6 weeks that have found that they are able to develop antibodies to the strains of flu that are covered by the vaccine given to them. [Here is one such study.](https://www.medicinenet.com/script/main/art.asp?articlekey=113200)"
+pics,ffhvhwo,t1_ffhocsv,1579955810.0,">The flu shot is only recommended by the WHO for certain people (e.g. elderly or kids).
+
+The CDC and Canadian government recommends everyone over the age of 6 months get the flu shot.
+
+It is highly recommended by all health organizations around the world for people in high risk groups and people who interact with people who are high risks. 
+
+But honestly it is easier if everyone gets their flu shot."
+GameUpscale,ffht3j4,t1_ffht0vm,1579952509.0,No clue. I don't have Gigapixel AI so I don't use it. So I can't really compare it.
+GameUpscale,ffhsrq0,t1_ffhsbag,1579952023.0,"You need to download [Autohotkey](https://www.autohotkey.com/)
+
+Then you need to download Ahk2exe from [here](https://www.autohotkey.com/boards/viewtopic.php?t=65095). The installation instructions are included in that post.
+
+Then run Ahk2exe.exe to run the converter, it should be fairly straight forward after that."
+GameUpscale,ffhpp6i,t3_etn7kb,1579947287.0,"You will want to use this.
+
+https://github.com/maz-1/waifu2x-gui
+
+Follow the installation guide, it is fairly straightforward. It shouldn't require any compiling on your end.
+
+When running it, you need to select the option **Force OpenCL**. Then you need to click the button below the force openCL option to choose your GPU.
+
+Hope that helps."
+todayilearned,ffh4w8a,t1_ffgygcv,1579923194.0,"Nah, people are weird in general. Rich people are rich enough to make their weird dreams reality."
+worldnews,ffgmn1e,t1_ffgivk0,1579909771.0,"I don't know, you could end up dead with either of them. And death is a very serious and horrific symptom."
+todayilearned,ffetx1k,t3_et75yh,1579865348.0,"Remember, Freud is one letter away from Fraud"
+worldnews,ffet4ka,t1_ffehv3b,1579864283.0,"For starters, typically in these cases, diplomatic immunity is waived. The US is one country that doesn't waive their diplomatic immunity or charge their diplomats for crimes they commit while they have diplomatic immunity.
+
+Second of all, diplomatic immunity was not created for the reason you stated. It is so that diplomats don't have to fear being a pawn between the nation they belong to and the nation they are serving in.
+
+>This is especially true because, given the outrage over this case, she wouldn’t be safe in a British prison.
+
+She would have, if her immunity was waived to begin with and she didn't flee the country. The outrage is because of this and that she lied to the British police."
+Futurology,ff7zby1,t1_ff6or9j,1579661972.0,">A much bigger problem are the fracking fluid additives, dozens of which are toxic. These are novel materials that we should not be introducing into the oceans at all.
+
+Not only that, fracking has been found to cause the ground to become unstable. This does cause earthquakes.
+
+https://www.pbs.org/newshour/science/earthquakes-triggered-by-fracking
+
+I think before North Dakota started having the fracking rush, it had maybe 0-2 earthquakes a year. Now it has over 200 a year."
+explainlikeimfive,ff63jo1,t1_ff5ru76,1579618243.0,"Very alarming, either he is a black market kidney stealer and seller or a surgeon or both."
+nvidia,ff61c1e,t1_ff5y2lg,1579616609.0,"In certain titles that are optimized for AMD cards, yes."
+gaming,ff5pjcu,t1_ff5hd7p,1579604820.0,">I'd rather companies just release the game when it's done and not make promises about a release date. 
+
+O boy. If that was true, no video game would release. The reality is that no piece of software(video games included) are ever finished. This is because almost no software is bug free. Video games are never bug free."
+worldnews,ff5o2ul,t1_ff3twaz,1579602673.0,He is the Whiner in Chieft after all.
+ProgrammerHumor,ff5lume,t1_ff5fvyj,1579599261.0,The backdoor obviously.
+nvidia,ff5joiq,t1_ff2tgm6,1579596057.0,"Certain tasks can get a 2080ti to almost max out PCIe 3.0 x16. For example, doing a lot of machine learning training can do it."
+nvidia,ff5jjrv,t3_erj0ew,1579595868.0,"Its complicated. The thing is, how chip designs work is that you have the overall process agnostic design. Once you have that, you then select a process and have to tool your design for the given process. That design is then used to create the masks for the manufacturing process, etc.
+
+So for instance, I can't use the same Masks from a chip in TSMC'S 16nm in Samsung's 14nm even tho they are comparable in most of their specs. I also can't use the same mask in TSMC'S 7nm process. Because of that, I also can't use the same design, since the manufacturing process also affects the design of chip.
+
+So when you do a die shrink, you have to tweak the design to fit the process. This is a costly endeavor since you have to do tape outs, you have to test the tape outs, fix any flaws, etc.
+
+Because of all that, it is unlikely we will see Turing or Pascal on 7nm. The MX350 isn't on TSMC'S 12nm which was what Turing was on. But don't worry, there will be budget cards in the next generation architecture of Nvidia GPUs that will be on a 7nm process."
+nvidia,ff5779v,t1_ff3i9ts,1579582221.0,"AMD still doesn't have anything on the 1080 TI yet either. Their best card is between a 2060S and 2070/1080.
+
+Not to mention is AMD has nothing anywhere near the output for Machine Learning or Ray Tracing as Nvidia does. Heck, most likely your phone has a chip that out performs an AMD GPU when it comes to machine learning."
+insaneparents,ff3msey,t1_ff371pq,1579544393.0,">They love Trump because the stock market is soaring and all their wealth is in their retirement investments. The rest of us scrape by in a lagging economy where wages have been stagnant for decades and costs have risen everywhere.
+
+Wait, what? Sure the stock market went up for the first year under Trump (Thanks Obama), from Jan 18, 2018 till before the impeachment investigation started, the Dow Jones has had 0% growth. Since the impeachment investigation, the Dow has been increasing.
+
+I know a lot of people who have lost money in the stock market due to the GOP and Trump's policies. Heck even I lost quite a lot in the down turn that happened Jan 19th 2018 due to the GOP passing their new tax bill. I made my money back and then some by shorting a lot of stocks. I have only been able to short stocks well in the past two years since the stock market has been unstable."
+Showerthoughts,ff3cvfl,t1_ff3387g,1579538617.0,[Here they are?](https://youtu.be/xHcC6WbwuUw)
+nvidia,ff34una,t1_ff30nao,1579533713.0,Aka CUDA cores.
+nvidia,ff1d3bf,t1_ff1aa4n,1579477633.0,">GA104 for the 70 class card... looks like we are going to have the stupid ""Super"" cards mid cycle again.
+
+Maybe. The Super cards came along mostly due to improved yields after awhile.
+
+>full die like in the old days
+
+You do understand that Titan cards are full dies."
+worldnews,ff02krf,t1_feznfuf,1579464487.0,">If you search the term ""climate change"" you're more likely to see results featuring climate denial than any other type of result, including ""science videos"".
+
+I just did that, almost all of the videos were of explaining what climate change is, how it effects us, news clips talking about climate change, etc. None about climate change denial besides one or two videos of politicans in new clips denying it.
+
+The issue with youtube and other forms of social media is there is an echo chamber, even when you search stuff up. For example, I watch quite a few flat earth debunking youtube channels, if I search up flat earth, I get mostly debunking videos. Even if I search up flat earth proof, I still get a few debunking videos. While if a flat earther does the same search, they are very likely to get different results, more tailored towards their taste of what to watch.
+
+It is just like how if I search up on Google that might have to different understandings with one related to software development, I'll most likely get the software related result over the other results due to my search history."
+pics,fewv5tr,t1_fewqzom,1579419981.0,"From taxing to reaching mach 2.02, cruising speed uses well over 25000 liters of fuel alone, which is apparently half the fuel tank on the thing.
+
+Anyways that is besides the point. Ideally you should be comparing fuel consumption per km per passenger, that gives a much better comparison. Even just comparing the fuel consumption per mile, you can clearly see that the Concorde is not as fuel efficient as other planes. 
+
+Concorde is about 15 liters per km. A 747 is 12.5 liters per km."
+news,fewtbxk,t1_fewmucg,1579419184.0,"Works with power generation too. Previous solar concentrated solar power plants hit as high as 570 C, where they use that heat to turn water to steam to go through steam turbines."
+videos,fewkz9y,t1_fewkk0y,1579413122.0,You can tell it's fake because of Criss Angel.
+worldnews,fepymf5,t1_fepyflu,1579334756.0,Hospitals in the US pay about the same for doctors as in Canada. In the US they also have to pay for malpractice insurance in hospitals. That was why my friend went with a private practice because he thought he would be able to make more.
+worldnews,fepvvzm,t1_feomal3,1579333193.0,"While they are paid the highest, their actual taken home pay is the same or less than other places around the world. This is because they have to pay for malpractice insurance and pay for more admin staff.
+
+I have a friend who is a doctor that is looking to move back to Canada from the US because he is estimating that she is able to help more people, worry less about admin work. And he figures that his take home pay in Canada will be higher than his take home in the US currently is, even tho he gets paid more. For his practice he has 6 admin people looking after his whole practice. He guesses in Canada, he can get away with 1 or 2 at most."
+thedivision,fepsipz,t1_fepsf99,1579329781.0,Possibly. I think my friends and I also have an extra skill point. I'll have to check tomorrow.
+thedivision,fepscst,t1_feps81u,1579329621.0,"Wait yeah, sorry, it is late and I'm tired."
+thedivision,feprozx,t1_feprle5,1579328996.0,Nope. They are there just to look pretty if you get them all.
+thedivision,feprhmb,t1_fepny0p,1579328808.0,"It isn't a bug. You likely got one of the skill caches out there that your friend didn't get. There are more skill points in game than there are skills to use them on. I can't remember off the top of my head how many more skill points there are than skills, I think it is 4 or 5."
+explainlikeimfive,fepow8z,t1_fepkjuw,1579326458.0,Canada too.
+Futurology,feposbb,t1_fepm2h9,1579326363.0,"Well considering the rate global warming is going, the inaction of governments around the world and the civil strife happening in a lot of countries, by 2050, 1 million people might be a majority of the population."
+ProgrammerHumor,feplsg1,t1_fep0jhn,1579323865.0,">""static typing is better because you do not need to specify what type a variable is and you can reuse a variable.""
+
+Either you mean dynamically typed or the people you talk to have questionable software development skills."
+Showerthoughts,feplaql,t3_eqa7ur,1579323489.0,Either he had the fastest internet connection ever to allow him to download the whole internet in 5 seconds or he only saw a few websites.
+worldnews,fekzq44,t1_fek9kch,1579210974.0,"Sorry, I should have clarified what overall education meant in my post. It includes post secondary education.
+
+Alberta is 4th when it comes to percentage of the population who have a bachelors degree, with 28.2% of the population in Alberta. With Ontario having the highest at 31.9%. With Nunavut having the lowest at 14.3%. All according to the 2016 census.
+
+One side note that the census was during the downturn in the oil industry so many people who had bachelors degrees or a post secondary education likely left Alberta for other provinces for work at this point."
+ProgrammerHumor,fek58wq,t1_fejsd88,1579192881.0,That is what the scanner class is.
+worldnews,fek4pes,t1_fejz82l,1579192554.0,"That is debatable. For instance Alberta has some of the best k-12 education in Canada. Overall education places it in the top 3 provinces when you include post secondary education.
+
+I remember when I applied for university after graduating grade 12 in Alberta, pretty much every university would boost my grades compared to other students from other provinces apply. So say I got an 80% in a course, university admissions in other provinces would treat it like I got 85%.
+
+Edit: clarified what overall education is."
+worldnews,fejhhil,t1_fej2tbd,1579174463.0,">got 1 million each this past September.
+
+Is that before or after lawyer fees?"
+WatchPeopleDieInside,fegdjnd,t1_fegbflq,1579088881.0,Or the war in Eastern Ukraine.
+mildlyinteresting,feflea5,t1_fefhu5v,1579058809.0,Close. Island in Icelandic doesn't actually mean Island in English. Island is old Norse for Ice Land.
+news,fef4usz,t1_feec2y7,1579048219.0,"You can actually look at the report and see the location that the incident happened. The incident that I'm talking about is about Colin Nathaniel Scott.
+
+First thing to note is that H2S is heavier than air, and a very small amount can be lethal or can knock you out.
+
+Now on to the area of the thermal pool. You will notice that it is in a little bowl with in the center of that bowl, is the hole that has the water. Many thermal pools typically don't have this feature in the landscape around them, so H2S build up is extremely low. But due to the thermal pool that Colin had decided to test, it was the perfect place for H2S to build up.
+
+Because of that, is likely he died instantly or was unconscious."
+news,fee9bex,t1_fee8wr4,1579029065.0,"From my understanding, 1000ppm is instant death, 500ppm is unconscious.
+
+Either way, he wouldn't have known what happened to him and he wouldn't have felt a thing, consciously. Apparently from the report his sister gave, he went straight into the water and didn't come up or was visible and then ran to get help. She didn't see him surface at all. So he was atleast very much unconscious or dead."
+news,fee7k3x,t1_fee3f25,1579028028.0,"It was unlikely he was cooked alive. It was likely he was dead by the time he hit the water due to the gases he inhaled while he bent down. H2S is highly toxic and can be typically found in gaseous form around hot springs.
+
+But yes Yellowstone was the location where it happened."
+worldnews,fedv0q2,t1_fedufgo,1579020483.0,"Nothing I have said is false. You even quoted supporting evidence to what I have said. But if that isn't good enough for you, continue reading the article.
+
+>It is highly unusual to base the monitoring team outside of the country where the election is being held, but the observers decided this was necessary for safety reasons. Among other security precautions all but the head of the mission, Canadian Jean-Pierre Kingsley, remained anonymous. **The main burden on monitoring the election thus fell to Iraqi representatives on the ground who sent reports to Amman. The majority of these volunteers were some 35,000 partisan scrutineers representing the parties competing in the election. Another 21,000 non-partisan volunteers were recruited by a variety of agencies and NGOs.[8]** **The observers assert that despite the unusual circumstances the election was adequately monitored.** Others disagree arguing that the IMIE was created to rubber stamp the American-created elections.[9]
+**At the close of the polls, Kingsley stated that ""the Iraqi elections generally meet international standards,""** while a preliminary assessment released after polling closed said that areas needing improvement included ""transparency regarding financial contributions and expenditures, improvements to the voter registration process and reviewing the criteria for candidate eligibility.""[10]
+The final report is available on the IMIE Web site.[11]"
+worldnews,fedrns8,t1_fedr5ep,1579018425.0,The difference is that the Iraqi 2005 election were monitored by many people and those monitors were supported by the UN. Huge difference.
+WatchPeopleDieInside,fedn9zq,t1_fedii0n,1579015659.0,Because they only provided partial source. Link is required for source on reddit these days.
+ProgrammerHumor,fedmo7z,t3_eolruw,1579015263.0,It would be funnier if it was Apple maps. Because it actually happened.
+news,fedm4zm,t1_fedljq2,1579014907.0,Sadly they can't. What they have to do is write a version of iOS that disables to encryption. And then push that to the single device. If that special iOS version gets released some how it would be game over.
+news,fedlxlj,t1_fedl0r6,1579014768.0,Didn't the US gov withdraw their petition before the supreme court ruled? Since a company offered them up a solution to their problem.
+ProgrammerHumor,fedlj7b,t1_fede2tc,1579014498.0,">but you've actually done nothing more than leverage intelligence greater than their own.
+
+Aka Google"
+news,fedlclf,t1_fedi2ls,1579014375.0,"Windows 10 could be great but they fired most of their QA team and no longer test on actual hardware for windows 10 updates. They run their tests on vms that are suppose to simulate the hardware, but that doesn't work well."
+nottheonion,fedk6uc,t1_fede04x,1579013583.0,Probably Chris Martin trying to remember and live the good old days.
+worldnews,fed891h,t1_fed7s8v,1579003362.0,">He means caretaker government
+
+That is the definition of a provisional government.
+
+But there is no provisional government in Iraq. It is the same government since 2005. They still have the same constitution since 2005. There is no new form of government either and no change in their form of government either. They held their last election in May 2018. 
+
+So by all purposes, they are not a provisional government."
+worldnews,fed7ab3,t1_fed4uax,1579002221.0,Where are you seeing that they are a provisional government? Iraq has had a non provisional government since 2005 when they held their first election.
+LifeProTips,fe50225,t3_enqnzr,1578864415.0,"This is only true if you are moving the files to another drive or are copying the files.
+
+If you are moving to files to a new location that is on the same drive, it is nearly instant due to how most file systems will just change the reference location and not actually physically move the file on the disk to a new location."
+worldnews,fe4o04p,t1_fe4m2cm,1578861225.0,"http://news.bbc.co.uk/2/hi/uk_news/england/2284320.stm
+
+https://www.nytimes.com/1997/01/11/us/georgia-prepared-to-waive-immunity-of-a-top-diplomat.html"
+worldnews,fe4k36c,t1_fe49owu,1578860188.0,">Isn’t that kind of the purpose of immunity though? So the host country can’t charge diplomats with crap that has nothing to do with diplomacy in an effort to gain leverage or whatever.
+
+Yes, but typically Nations will wave diplomatic immunity if a crime was committed by someone with diplomatic immunity, if said crime is a crime in the diplomat's nation.
+
+In this case, most nations would wave diplomatic immunity. The US is very unique in the western world where they won't ever wave diplomatic immunity for an American citizen who has it."
+science,fe20pnj,t3_enm7fl,1578833249.0,"Title is very misleading.
+
+They did not make a new AI method. They made a neural network model. Huge difference between the two."
+nvidia,fe1jjmt,t3_enm0em,1578827313.0,"No, they were never resolved.
+
+/s
+
+
+Of course the issues were resolved. Apparently it had to do with some of their testing tools weren't reporting results correctly and thus bad chips got through. This was fixed around November 2018."
+worldnews,fe06uoq,t1_fe02pr2,1578804578.0,"This is a different. This time instead of doing it to hurt a political rival and for personal gain, he doing it for the gain of the US government."
+nvidia,fdu9qbf,t3_en3mw6,1578730020.0,"From what I can see, a bit higher boost clock rates and potentially being able to overclock higher than other RTX 2060s. The cooler might be better, who knows.
+
+Besides that, nothing really."
+nottheonion,fdtv16w,t3_emvj3o,1578722673.0,"Damn, if the person I was dating said the Earth was flat, the first words would be ""I'm breaking up with you"". Its the only logical reply."
+nottheonion,fdtpc1e,t1_fdsf3xa,1578720121.0,It was probably the first thing they decided to burn.
+videos,fdqhsh5,t1_fdqgdqd,1578667005.0,">Who the fuck needs an assault rifle on their wall ? 
+
+My wall needs to be able to defend itself from all the other gun wielding people and walls."
+worldnews,fdqgb5i,t1_fdq69v7,1578665942.0,"It actually did work well. It isn't that hard to make nukes, specially if you already have nuclear power plants.
+
+The deal prevented them stockpiling the material needed to make the nukes. And included monitoring of their nuclear plants to prevent them from stockpiling the materials."
+OldSchoolCool,fdqeqlf,t1_fdpx9ba,1578664757.0,"Not fake. The date on the news paper is apparently December 17th, probably 1998.
+
+https://en.m.wikipedia.org/wiki/Bombing_of_Iraq_(1998)"
+worldnews,fdqdota,t1_fdqbwuz,1578663934.0,Because then it no longer is stealth. IFF works in tandem with Radar. Because of that it is possible to determine the speed of an aircraft and to track it if it responds to IFF.
+worldnews,fdq0ye7,t1_fdpltsq,1578649432.0,"The issue is that military planes typically don't fly at the same speed as civilian planes. And the IFF system works with Radar too. Because of all that it would be fairly difficult for a military plane to pretend that it is an enemy with an civilian IFF code.
+
+At least that is from what I understand. I could be wrong."
+explainlikeimfive,fdpxb2h,t1_fdpi5n5,1578644433.0,">There's simply no other way - it's not possible to exercise away.
+
+It is possible. Some athletes eat over 10k calories a day to fuel their bodies.
+
+https://qz.com/753956/how-olympic-swimmers-can-keep-eating-such-insane-quantities-of-food/"
+news,fdpx2pu,t1_fdourne,1578644136.0,I don't think you want to add more fire to the fires happening in Australia.
+Futurology,fdmt4x2,t1_fdmmeux,1578564507.0,">Some of the self driving stuff is impressive.
+
+Sorry to say but their self driving tech is very poor, specially when you compare it to other self driving tech.
+
+In my opinion and in the opinion of quite a lot of experts in the field believe that the approach that Elon is taking is the wrong route to take. The main issue I have with his approach is that Tesla has gone the route of relying mostly on computer vision when it comes down to its self driving tech. Then there is the fact that he is rushing the team to the point they release buggy and poor implementations for the solution they are trying to solve. For example, the summon feature, all it is, is creating a map of edges around the car and using GPS to navigate that map of edges to the GPS location of the summoner. This has caused accidents and dangerous situations.
+
+Then there is the issue I have of him deciding to use a inhouse developed processing hardware for their self driving tech. With the reason given was due to Nvidia not having enough processing power, which wasn't the case if Tesla had decide to use Nvidia's latest chipset for self driving cars at the time as they were using the previous generation. Overall this move most likely won't save much money in the long run. If I was Elon, I would have stuck with the Nvidia self driving car kit and done research and development to make in house LIDAR and do it cheaply.
+
+In short, Elon has done some poor choices in the development of Tesla's self driving tech while rushing it as fast as they can. Which isn't going to end well for the self driving industry."
+worldnews,fdm2lff,t1_fdllhfl,1578538310.0,"This. I have a friend who is a doctor. He moved about 4 years ago to the US to start a family practice there. He is thinking of moving back to Canada because in his practice he has 4 people handling billing and administrative duties, while he figures in Canada he would only need 1 person to handle administrative duties for his practice. The real kicker is that he figures that his take home would be the same or higher in Canada than in the US even tho he makes more in the US. Because he has to pay for more employees and malpractice insurance and that."
+ProgrammerHumor,fdly9kf,t1_fdlsvm2,1578535369.0,Surprisingly quite a few. I asked one person about why they did it and they responded to make sure that it is true.
+Futurology,fdldori,t1_fdl5ps2,1578521808.0,They are a pretty shitty AI firm.
+worldnews,fdjqzk5,t1_fdjq0l4,1578484165.0,"Not that I know of, most people don't really care about estimated reserves. Here is an article that goes over potential estimated reserves for Canada and has a table for the top 3 countries with the largest estimate reserves. Estimated reserves are also be referred to as oil in place and proven reserves as recoverable reserves.
+
+https://www.jwnenergy.com/article/2017/3/how-its-quite-possible-canada-has-worlds-largest-oil-reserves/
+
+One thing to note, in the article, it acknowledges that Russia has an estimated oil reserves of 1.3 trillion barrels, it doesn't consider them in the top 3 because those oil reserves might not ever be recoverable or economically recoverable."
+worldnews,fdjolzb,t1_fdjo9d3,1578481062.0,"We can't train their troops unless we were legally invited.
+
+So how were we not legally invited there?
+
+Canada: iraq, we are training your military.
+
+Iraq: You are not invited. You can't train our military.
+
+Canada: aha, we will do it by force.
+
+Iraq: Nooooooo
+
+
+And before you forget, Canada was not part of the War in Iraq, we only went into Iraq when they invited NATO to train their troops."
+worldnews,fdjo9zr,t1_fdjnm3j,1578480599.0,"So what you have to understand there are two terms, proven reserves and estimated reserves. Proven reserves are oil deposits that have been found and are economically feasible to extract. Estimated reserves include both oil deposits that are found but not yet economically or technically feasible to retrieve and oil deposits that haven't been found but are likely to be there based on geology of the area. Most of the time when you talk about oil reserves, you talk about proven oil reserves.
+
+As I mentioned, the Canadian oil sands is estimated to have 2 trillion barrels of oil. Right now about 10-20% of it is economically feasible to extract and technologically possibly to extract.
+
+One major reason why Venezuela has a higher proven oil reserve is because its oil sand is not landlocked and has easy access to the ocean for trade. The Canadian oil sands are landlocked and are traded at 70-80% the global market index."
+worldnews,fdjnt2v,t1_fdjmg0k,1578479943.0,This. Canada was leading the NATO mission to train Iraqi soldiers.
+worldnews,fdjmmcr,t1_fdjm03r,1578478214.0,"It actually is easy to extract and new technology is making it easier. The issue is getting it to market. Because of that, it is sold for less than market value. For instance, oil in the middle east can be extracted for as low as $10 a barrel, oil sands in Canada, it costs $30 a barrel, roughly same cost as the Venezuelan oil. But because it is not land locked, they are able to sell the oil at market value."
+worldnews,fdjjcl1,t1_fdjj73j,1578473500.0,"It actually doesn't. It is estimated that there are 3 trillion barrels of oil from oil sands around the world. Canada is estimated to have 2 trillion of that with Venezuela having 1 trillion.
+
+Currently with the way the world market is and Venezuela not being landlocked, it is more economically feasible to get that oil from their oil sands right now."
+TwoXChromosomes,fdjj8ld,t1_fdgmikv,1578473351.0,"Thanks.
+
+So from my experience, it sounds like you might have torn or stretched the ligaments in your SI joint/hips. What the rest of your back muscles are doing are trying to compensate for those loose ligaments. You could talk to your doctor or physiotherapist about prolotherapy and see if they might recommend it instead of the surgery."
+worldnews,fdje6pp,t1_fdjbndn,1578467087.0,"I'll let you in on a little secret. Canada actually has the largest amount of oil reserves in the world. The Canadian oil sands alone have an estimated 2 trillion barrels of oil.
+
+Interesting fact is that the shale oil fields in Montana and North Dakota are from the same formation as the Canadian oil sands. It is unknown how much shale oil is in that formation is in Canada. It could potentially be double or triple the amount that the US alone has."
+worldnews,fdgubf9,t1_fdgfcug,1578408513.0,Have they officially cancelled it now? Last I heard it was temporary suspended till they sort things out which would be either end with it resuming or being cancelled.
+LifeProTips,fdgisck,t1_fdgcz6k,1578398535.0,">Reddit is a far worse cesspool than anything else on the internet.
+
+You forgot 4chan"
+gadgets,fdgin6y,t3_el1ra9,1578398371.0,"For the people too lazy to read the article, the lapto comes with a physical keyboard that can be attached to the lower screen.
+
+>That’s why Dell included a small, removable keyboard that can function in a number of different modes. It can magnetically attach to the top of the screen where a keyboard normally would be on a laptop, creating space for a digital touchpad below.
+
+
+>The keyboard can also slide down to the bottom, leaving room for a Touch Bar-like surface across the top. "
+gadgets,fdgig5m,t1_fdg29kl,1578398147.0,"Good news, they actually have a physical keyboard that attaches to the bottom touch screen.
+
+As a software engineer, this laptop would actually be potentially good. As you can have the physical keyboard and have room for an app bar on the bottom screen that can be filled with a bunch of macros. It certainly would help cutdown on the amount of keyboard shortcuts I would have to remember."
+todayilearned,fdgezyp,t3_el7aax,1578393709.0,[What! No](https://youtu.be/jEbl-umsFOM)
+TwoXChromosomes,fdgd01c,t3_el6uem,1578390834.0,"I feel like you might want to see if you can find a different physiotherapist.
+
+Now when you say injections, what do you mean?  It could mean a while variety of things which having clarification of it could help us tell you of alternative methods out there."
+gaming,fdfafzc,t1_fdf4y67,1578357082.0,"From the looks of it, Dell might have a patent lawsuit on its hand with how the controllers detach and are attached to the screen. Unless Dell is licensing it or decides it is only a proof of concept."
+news,fdeegcv,t1_fdeb4rr,1578337243.0,"This. He was hired by the family to make it seem like it was a murder, not suicide so that the family could sue for wrongful death."
+Futurology,fde9gq7,t1_fddua05,1578334113.0,I was correcting him in that he only said that trees release carbon when they burn.
+Futurology,fde9863,t1_fddt8an,1578333959.0,I was correcting him in that he only said that trees release carbon when they burn.
+Futurology,fddjtv0,t1_fddjlvy,1578315098.0,Carbon is released from trees when the tree burns or **decomposes**.
+pics,fddjm73,t1_fddigt2,1578314868.0,"He faked his own death, duh."
+tifu,fddhluj,t3_eksbsa,1578312623.0,">sweating her balls off
+
+Well there's your problem, your girlfriend has balls.
+
+Joking. But yeah, you done goofed. In the future the bathroom is the safest place to whack it with the possibility of other people being around. They also come with locks on the door and tissues or toilet paper to help clean up afterwards."
+worldnews,fddd4co,t1_fddcvuc,1578306547.0,That was actually added later on. I can't find the exact date that it was clarified to be only North of the Tropic of Cancer. Some sources have it as early as 1953 and some as late as after a few years after the Falkland war.

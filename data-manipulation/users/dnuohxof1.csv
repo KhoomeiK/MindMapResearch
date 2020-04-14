@@ -1,0 +1,111 @@
+subreddit,self ID,parent ID,time,text
+Office365,ffoo2bg,t1_ffiimd2,1580079781.0,"Downside to that is it grants them access to edit ALL DLs not just the ones they own, at least in my testing"
+SweatyPalms,ffmaoka,t3_etzx9s,1580051446.0,I saw these in a James Bond movie when I was younger and wondered if these were ever actually a thing.
+Office365,fffuwao,t1_fffulsd,1579892320.0,"Yea my groups are set to Closed and used non-offline GAL... tried with multiple users set as owner and just doesn't work...
+
+&#x200B;
+
+I opened a case with MS and see if that leads anywhere..."
+Office365,fffrkop,t1_fffqz3j,1579890263.0,"Not using the partner portal, regular admin portal. 
+
+My global admin works managing the DL via the GAL in Outlook. But the end user who is Owner of a DL cannot make changes, gets that error.
+
+&#x200B;
+
+I notice a role in EAC for Distribution Lists, but appears to be global which is not ideal. I am waiting 15-20 minutes to see if adding a user to only that role will allow them to make changes."
+Office365,fffng4h,t1_fffapro,1579887729.0,"Drats.... it did not work. It is cloud only but I get this error:
+Changes to the public group membership cannot be saved. You do not have sufficient permission to perform this operation on this object."
+Office365,fffaun8,t1_fffapro,1579879888.0,"\*facepalm - HARD\*
+
+I totally forgot about the GAL view!!! That worked!! I'd give you 10 upvotes if I could."
+sysadmin,ffcakny,t3_esewdz,1579795272.0,"Personally I don’t like disabling wallpaper choice for my users. We’re not in a highly branded or super secure marketplace or anything and I enjoy the freedom, so should my users.
+
+I hear horror stories of nude Pamela Anderson’s, shameful Facebook photos, and political rags but I have yet to experience that through 3 clients totaling over 2,000 users. So until that happens, happy wallpaper changing. Personally I think that’s an HR issue rather than an IT issue. If they’re going to be inappropriate with a desktop wallpaper, odds are that’s the least offensive thing they do in the office.
+
+Now we do set branding on newly imaged machine and a lot of users just don’t bother. But the few who do stare at their screen performing monotonous tasks for 40 hours a week enjoy the ever-so-small slice of peace looking at a picture of their kids or vacation spot as they switch between windows and tasks."
+Office365,ff7l9bz,t1_ff69fkj,1579652230.0,This
+sharepoint,ff787qi,t1_ff6t1fy,1579643040.0,"My work around, which is fucking awful but worked in my case was to copy it to my OneDrive then go to my target sharepoint and move to there and it worked.
+
+Have yet to find a better solution web, PowerShell, or otherwise."
+Office365,ff6071p,t1_ff5za3l,1579615730.0,This is so infuriating that there’s no group based or global policy set for things like this.... same with enabling MFA.
+sysadmin,ff4hbtp,t1_feyokv1,1579563616.0,I’m trying to run a lightweight OS from USB or SSD and leave the only two bays for just data. But seems I can’t do that even with a PCIe SSD card.
+sysadmin,ff4h8oa,t1_fey48jl,1579563554.0,"I’m resigning that the DL20 will not boot from anything other than the RAID controller or front USB2.0
+
+I got a PICe SSD card and a Corsair SSD and no amount f setting tinkering would allow it to boot. Sees the card as a storage controller in the bios PCIe settings, but nothing appears in PCIe Boot priority and cant add it to the boot order.... super frustrating."
+sysadmin,ff4gzjf,t1_fexdx9x,1579563383.0,"I want to boot a daily OS from it, the DL 20 only has two bays and I don’t want to waste a bay just for an OS and have 1 data disk."
+sysadmin,ff4gqok,t3_eqt8ev,1579563213.0,"I give up. I even went and bought an SSD and a PCIe card to put it in and this thing just will not boot to anything other than a USB and one of the two HD bays.
+It recognizes the PCIe as a storage controller but will not boot to it. All I want is a stateful OS in its own drive and to use the only two available bays as data disks...."
+PleX,fezg2ko,t3_eqxhx9,1579456951.0,[You wouldn’t get it](https://i.kym-cdn.com/entries/icons/original/000/031/622/cover1.jpg)
+sysadmin,fex8jjm,t3_eqt8ev,1579426855.0,The other problem is that I got this second hand so I don’t have a warranty or service agreement so I can’t update the damn bios.... unless someone were kind enough to share/PM the latest ROM firmware file for the bios ;)
+sysadmin,fex7qo9,t1_fex7lp9,1579426338.0,"I was using Rufus but with DD mode instead of ISO mode.... I haven’t tried the ISO mode on the 3.0 USB yet.
+
+Edit: tried both DD and ISO both didn’t work"
+sysadmin,fex6xyv,t1_fex6rvy,1579425643.0,"Yup there are not many USB options anyway and all are enabled. UEFI only boot, fat32 drive gpt
+
+And read that exact blurb about USB support hence my confusion..."
+sysadmin,fex6mnq,t1_fex6jrp,1579425427.0,"Three different sizes/brand combos. Kingston, PNY and Sandisk."
+sysadmin,fex5gwu,t1_fex2pqs,1579424756.0,"Played with boot order and even when going to boot menu the drive isn’t listed. Oddly enough a USB 2.0 will show up in a 3.0 slot
+But a 3.0 USB will show only in USB 2.0... it’s backwards and I’m using brand name drives and the 3.0 drive has the blue plastic as does the read ports."
+sysadmin,fex5aio,t1_fewzbq7,1579424658.0,I haven’t read anything yet that says they aren’t. I have read mixed posts of HP forums about bootable USB 3.0 ports but those were all posts from 2012/2013
+sysadmin,fex56ww,t1_fewwmud,1579424600.0,USB was written with DD mode
+sysadmin,fewun6q,t1_fewtlyh,1579419748.0,"Not using legacy bios, UEFI only."
+homelab,fewc8mw,t1_fes4lu0,1579408258.0,"So looking at #1 and OPs pic, makes me wonder if it’s the same person. Both stated 9 racks and look at the hardwood floor in both pictures. Quite a coincidence 9 extra racks delivered to two people with the same hardwood flooring? *correlation is not causation* lol"
+Ubiquiti,festrq8,t1_fesrjev,1579368924.0,"Materials like glass, drywall, plywood etc are easily penetrated by Wi-Fi signals
+
+
+https://www.mistralsolutions.com/articles/dos-donts-wi-fi-connectivity-maximizing-range-reception/"
+AskReddit,feeufnc,t1_fed4zah,1579041449.0,I’m mad this was so far down.
+cats,fec5xuu,t3_eo378l,1578967173.0,LÖRGE
+StrangerThings,febhs7a,t3_env8t6,1578958922.0,"What a sight this would be....
+
+This is one of those nature events that would be epic to witness in person, but also sucks because it’s not without destruction and, almost certainly, loss of life."
+sysadmin,feau6dt,t3_eo6q3s,1578952198.0,"Any gDrive data synced to local machines, back up and store elsewhere
+
+Make as many backups of anything you DO have access to as possible.
+
+Gather all of your invoices and payment records for gSuite and your domains
+
+Reach out to Google and your domain provider ASAP as the organization owner and relay the situation. If you provide decent proof they will hand over access quickly. If you have control of DNS its much easier to get your gsuite back.
+
+&#x200B;
+
+And as others said, GET THE LAWYERS FIRST! Not only is this unprofessional, but illegal. Not 100% sure but since its your company data which may have PII of your customers, there may be some GDPR string you can pull to really go after your hostile IT manager."
+sysadmin,fe97nyv,t1_fad527m,1578935073.0,"/u/Vexxt
+
+I started looking at Papercut and looks really good. Do you have the NG or MF version, and would you mind if I asked a ballpark of costs you're paying?"
+Cringetopia,fe6eta9,t1_fe5gsqa,1578888775.0,/r/praisethecameraman
+PixelArt,fe2uy4k,t3_enm06z,1578843113.0,Another great pixel work of art!
+Fuckthealtright,fe03ize,t1_fdzn0nk,1578802163.0,Who we archives the webarchive? Lol
+PoliticalHorrorStory,fe03feh,t1_fe032a8,1578802094.0,"http://archive.is/JsSSa
+
+It has an earlier snapshot than before webarchive apparently starts.
+
+It’s just funny, a Freudian slip. And the fact you’re getting all hot and bothered by it shows who’s really pathetic.
+
+Edit: you know what, no, that’s not what shows who’s really pathetic. What shows is your profile, which looks like you spend, like, ALL day in conservative Reddits posting, reposting, and shitting on liberals. 
+Get a life outside of mommy’s basement."
+Fuckthealtright,fe02zkr,t1_fe02x3d,1578801784.0,So I’m not the only one who noticed! I’m not crazy.
+PoliticalHorrorStory,fe01hq8,t3_eni2qv,1578800743.0,"Except it was edited after the fact. If you read the comment thread you'll see a link to a web archive snapshot of the page before it was edited.
+
+ [http://archive.is/JsSSa](http://archive.is/JsSSa) 
+
+&#x200B;
+
+Facts are hard for TrumpThumpers"
+Fuckthealtright,fe016px,t1_fdwiap9,1578800545.0,"Seems Wayback machine doesn't go way enough back
+
+ [http://archive.is/JsSSa](http://archive.is/JsSSa)"
+techsupportgore,fdxwmza,t3_en7gxw,1578773676.0,"Ah, just crimp the ends, it’ll be fine."
+Fuckthealtright,fdwf4mw,t3_en5qnp,1578758089.0,"Oh my god, it’s real.... and it’s still up.
+
+EDIT: current archive link: http://archive.is/JsSSa
+
+https://action.donaldjtrump.com/thank-you-president-trump"
+AskReddit,fdpeqrs,t1_fdp0iza,1578626738.0,Lol
+Ubiquiti,fdoxnz8,t3_emc8cp,1578615238.0,Sexy
+Intune,fdnse6g,t1_fdns8w0,1578591880.0,I've usually had to wait up to 20 minutes but this is too long. I am trying to set up machines while ON-SITE but I obviously cannot wait EIGHTEEN hours.... that is ridiculous.
+burgers,fdkcr34,t3_elrar6,1578501122.0,Omfg that looks good
+AbandonedPorn,fdk9hog,t1_fdizstq,1578499111.0,Sad that people do that. This looked like it was a beautiful place.
+PleX,fdk54tx,t1_fdk51j7,1578496280.0,Yes. More pride than the dev team kicking an issue for 3+ years with no resolution.
+xboxinsiders,fdjy7d5,t1_fdjxvfu,1578491194.0,"I would say I’m surprised, but I’m not..."
+WatchPeopleDieInside,fdjxf2a,t1_fdjqkci,1578490549.0,/r/lostredditors

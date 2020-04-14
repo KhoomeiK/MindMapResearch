@@ -1,0 +1,68 @@
+subreddit,self ID,parent ID,time,text
+polandball,ffdsz19,t3_eswtbu,1579828154.0,"I'm offended. Also, tomorrow is a nation-wide strike, so there's that."
+ProgrammerHumor,ffd3us8,t3_estl98,1579812897.0,"- did expand
+- did deploy
+- FAIL keep user dry"
+facepalm,ffc2iud,t1_ffbldfr,1579789918.0,Isn't Madagascar good enough of a target for a virus?
+ProgrammerHumor,ffaip3k,t1_ffahx08,1579736677.0,"Sure, but handling newline using sed itself is a chore ;)"
+ProgrammerHumor,ff9ym11,t1_ff9uxpn,1579724302.0,"It's a pretty standard ubuntu (well, kubuntu, but it doesn't matter much).
+
+What actually happened might have been more complex, I'm not really sure. From what I know at least the kernel should just start killing stuff when memory completely runs out, but I know from experience that some program (looking at you, all web browsers with maybe-badly-written JS code) can sometimes lock up the system.
+
+So far it's not common enough that I want to crawl through hypothetic kernel log to sort it out. I just avoid stuff that extreme."
+OSHA,ff9nfgc,t3_es2lyz,1579716653.0,He started with nine lives. There might have been an incident that prompted that yellow jacket.
+ProgrammerHumor,ff9hxbf,t1_ff8yf10,1579713388.0,"VSCode tend to grab all those extensions for himself sometimes, resulting in unpleasant surprises :D"
+ProgrammerHumor,ff9hsku,t3_esalro,1579713306.0,"Funny story. I had around 200MB of data encoded as base64 in a file, and needed to have it all in one line instead of the usual 80ish line cut.
+
+My best idea at the time was to open it in vim, and do a simple ""%s/\\n//"" to replace all newline with nothing. For reasons unknown, the fact that vim took a few seconds to show up didn't raise any alarm in my mind. I started typing, then it froze. Not vim, not the terminal, not even the desktop manager. The computer locked up. Mouse not moving, but still fans at full blast for ten minutes before I finally pulled the plug.
+
+Turns out I have a convenient extension that show in real time what the substitution string I'm typing will do. My assumption is it was trying to apply a regex (a simple one, but still a regex) to the whole file, something around 3.7M lines, and maybe, format the output to display it live on screen."
+fuckepic,ff8u41c,t1_ff8itxl,1579696140.0,"Of course it is about money. That's the point of having a business. There's just different ways of running said business, some that show some care for the customers, and some that shit on the customers."
+AskReddit,ff7lojp,t3_erstu3,1579652523.0,Burn and/or die
+ProgrammerHumor,ff5xthz,t1_ff5xmxy,1579613772.0,"Ah, this kind of groups. I suppose it makes sense."
+ProgrammerHumor,ff5w54i,t1_ff5q8cs,1579612260.0,You're the punchline. Litteraly :D
+ProgrammerHumor,ff5w3nw,t3_erqsas,1579612223.0,"Honest: why so little? Aside from the byte thing, it sounds like a low limitation for such a service."
+todayilearned,ff19mdm,t1_fezvqt0,1579476589.0,They made for nice bird deterrent though.
+techsupportmacgyver,fep3m4g,t1_feok13j,1579311381.0,"Surely you mean ""it's taking heat in""?"
+bindingofisaac,fep3ezq,t3_eq2bzl,1579311252.0,"Everyone: ""Some bosses are so free in this game, it's nice to see them sometimes""  
+This subreddit: ""hold my tears"""
+facepalm,fe9gm33,t1_fe7rq3u,1578937363.0,"Internet, the place where being able to do -3 is considered being a genius :(  
+
+
+(not a jab at the parent post; just that people are that low in various social media)"
+ProgrammerHumor,fdsavqf,t3_emwnci,1578698378.0,"You probably posted that on the wrong sub.
+
+Also, it works because you can have pretty much anything before and after the content of a zip file, and a jar is a zip file.
+
+Also also, a nice(er) way to to that is to use binfmt so that jar can be run without changing them."
+instant_regret,fdp4bws,t1_fdp21ov,1578619685.0,"So, fair game then. Gotcha."
+fuckepic,fdo6sd2,t1_fdo3wpe,1578599884.0,"I got a joke, but it wasn't predicted correctly by Stadia's negative latency."
+ProgrammerHumor,fdnytfy,t3_em8itf,1578595612.0,"1. copy whole project to new directory
+2. delete all the stuff that's not relevant
+3. delete everything else except a handful of files
+4. change almost everything in the remaining files
+5. start working
+
+And somehow it still looks like a better idea than starting from scratch"
+bindingofisaac,fdklusb,t3_elqc3y,1578506237.0,Update us when you shoot the second salvo of tears ;)
+gamernews,fcn5xfn,t1_fcmgggi,1577804123.0,"Missing the point. Also I'm curious if it's a million copy sold to customer, or a million copy sold including sale in by epic. But you wouldn't care either way."
+gamernews,fclxc2e,t1_fclwjmo,1577758757.0,"I get what you mean. Still isn't a free pass for them to spit in the face of the people they supposedly made this for.
+
+There have been projects that were complete and ready to ship, with tons of people behind, that decided to go the ""guaranteed money"" way. What does it tell to people that supported them, sometimes even financially? That we're useless to them. I'm no masochist; if I'm useless to you, I'll just walk away.
+
+I can't tell for \*all\* games that have gone epic exclusive, but for most of those that I carred for, they were not in an uncertain position regarding if people would buy it or not; they had decent following. They made a conscious choice of ignoring that."
+gamernews,fclvzbu,t1_fclt0zu,1577757807.0,"Yes. I was not talking about hurting the money they got, but the long term. I know most people won't care because ""free game"", ""cheap game"" or just ""IDGAF"" attitude, but for some it's a big nono.
+
+This move basically mean ""we don't need you as a customer"", and some people will go out of their way to make sure the message is heard loud and clear. I know I'll make sure to avoid people that decided to go along this way.
+
+Again, I know I'm part of a minority here; but if your game is successful, I feel like this deal only weakens the impact it could have in the end, and at best could give you trouble for your future releases. If your game is unsuccessful, well… I guess it doesn't matter."
+facepalm,fclrgq8,t1_fclagqy,1577754677.0,"That's part of the problem: nowadays there's no difference between a joke, a troll, and someone being serious about this :("
+bindingofisaac,fclra4n,t3_eho538,1577754551.0,"Going for the ""old school"" way I see.  
+
+
+I'm still a little angry that they added holy mantle to the lost. They could as well have added another character, it's not like the ""lore"" is complex enough to prevent that. It was a thing for people that like a big challenge."
+gamernews,fclq10y,t1_fcliay3,1577753680.0,"Yep. I wonder how much it hurts them. Probably not as much as one would think, seeing that most people won't care. But I know a few people that skipped this game for that reason only."
+worldnews,fc3wtr7,t3_eg078x,1577400667.0,TIL I have more in common with world leaders than I thought.
+ProgrammerHumor,fc2n9gc,t3_efsr4c,1577367921.0,"That's how I do all my arithmetics. Your start with that, then you divide by itself to get one. From there is only addition and substraction to get where you want."
+bindingofisaac,fc1ugl1,t3_efomy5,1577330083.0,"I recently had to check the wiki to make sure it was supposed to \*sometimes\* give an item from the current room item pool. I always end up using it in a devil/angel room, and I swear I got poop at least the last five times (probably more, but I won't check the tapes for poop presence)."
+bindingofisaac,fbzg362,t1_fbylwug,1577245517.0,Where do you take that from?

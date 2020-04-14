@@ -1,0 +1,320 @@
+subreddit,self ID,parent ID,time,text
+Hue,ffiyljw,t3_etvvi2,1579985915.0,Discontinuing? Are you sure they're not just sold out? I can find them quite easily on Amazon UK. They were only released a few months back.
+Hue,ffih4g7,t3_ets9gt,1579973739.0,"If they're the only Hue lights in the room, just put the lights in the same room. Otherwise, make a zone called ""Master Ceiling Fan Lights"" and put your ceiling fan lights from your Master Bedroom in that Zone. Then you can just say ""Alexa/Google/Siri - turn the master ceiling fan lights on""."
+Hue,ffi7hm2,t1_ffhmpq1,1579967104.0,"Came here to say exactly this. They work, but don't always respond to commands. You'll find bulbs ending up in states that are not what you expect, and groups of bulbs all being on different states.
+
+In the end, I regretted buying Tradfri, and had to spend more money migrating everything to Hue. They are SO much more reliable. Plus they act as repeaters, ensuring a much more reliable and longer range ZigBee network."
+Hue,ffi72h4,t3_etbigu,1579966800.0,"Definitely can with ""all 4 hue"" on Android. Just edit the rules for the motion sensor. They activate scenes but default, but you can change the action to be simply a turn on command. Similarly, edit the rules the turn the lights off to do exactly that, rather than restoring the previous state. It's actually a simpler behaviour than the default rules."
+Hue,ffhv5ur,t1_ffhsp4g,1579955389.0,A great idea. Real data is always better than estimated.
+Hue,ffewqer,t3_eslhp8,1579868660.0,"The unreliability of other brands and other technologies (non-Zigbee), like LIFX, Osram, Tradfri. I had Lifx, as on paper they're better. I had other brands like Tradfri and Osram because they're cheap.
+
+However, I eventually migrated everything to Hue, because I was fed up of my other lights not obeying the commands given to them every time. Imagine telling Alexa to turn the lights on on the kitchen to 100% and say cold white, only for 2 lights to not turn on at all, some turn on but to their previous warm white 50%, some turn on at 50% but do change to cold white, some turn on at 100% but stay warm white, and only one light does as it's told. That was the kind of mess I encountered daily. It just became so frustrating turning the lights off to go to bed, only to have to repeat the command several times, and eventually having too use the power switch to turn them off. Also some manufacturer's cloud took like 5 seconds to respond.
+
+All in the past, thanks to Hue."
+Hue,ffep5v2,t3_esk7wd,1579858419.0,"Did you change any of the scenes? I had a similar issue when I wanted to make my own Energize scene (the Hue one isn't 100% cold), and I forgot to update the TBL recipe to use the new scene. I'd deleted the old one, and hence it didn't work."
+Hue,ff93cc9,t1_ff92bl7,1579703833.0,"I had a mix of Tradfri, Osram, and Hue. It was always the non-Hue bulbs that didn't accept every command. If I hit the Scene again and again, eventually all the bulbs would end up correct.
+
+In my kitchen, I have 5 lights (two over the area where I eat, and 3 over the prep area). I have similar scenes to you, in that I would often want one half of the room lit. Never had this problem with Hue, but when Tradfri were in the ceiling I did."
+Hue,ff8w3km,t3_esaq8t,1579698035.0,"It's this exact issue that made me move from Tradfri to proper Hue bulbs.
+
+I don't know why, but Tradfri bulbs seemed to struggle to do more than one thing at a time (e.g. Turn On, and then set to a specific Scene). So many times I would end up with a room with several Tradfri lights in it, which were all meant to be the same brightness/colour, only to have at least some of them be in some other previous configuration."
+Hue,ff8vo50,t3_es9n5h,1579697648.0,"You want the Hue Labs Formula ""Time Based Light"". It allows you to use any of the Hue switches to turn the light on to a given Scene (brightness/colour) depending on what time of day it is.
+
+Of course, not everyone wants to use a Hue Button or Hue Dimmer, so there's also an Automatic version of Time Based Light, which will fade any lights that are On to the ""correct"" scene for that time of day. This has the added advantage that if you switched the lights on during the day (and hence they're bright), they'll automatically fade to a dimmer scene at night."
+interestingasfuck,ff77i5e,t1_ff76eex,1579642645.0,"So by the same convention, should we stop calling a glass a glass and call it a cup too?"
+Hue,ff76jgm,t3_erx0dk,1579642104.0,"There are different types of resources on a Hue Bridge. You can check them in Hue Labs (click the (i) icon next to the picture of your bridge), then Manage Resources. The resources are:
+
+* Geofence users
+* Rules
+* Routines
+* Sensors
+* Groups
+* Scenes
+* Bulbs
+
+You can have up to 63 bulbs, but the bridge struggles more and more once you get to around 50. This manifests itself as lag when turning bulbs on and off, or bulbs being temporarily unreachable. 54 will work, but you may well be in the danger area there.
+
+Adding a bulb only uses up a single bulb resource.
+
+Adding a sensor (e.g. button, dimmer, motion sensor, etc) uses up 1 sensor, but you can also have software sensors which are created to do clever things. But it also uses up some rules. You will need at least 1 rule for each thing your sensor can do. So... a Dimmer switch has 4 buttons (On, Dim Up, Dim Down, Off). If you want each of those 4 buttons to do something when you press it, you'll need to use up 4 rules. If you also want to be able to hold down the Up and Down buttons, that's another 2 rules. If you add one of the Hue Labs Formulas (e.g. Time Based Light), that'll use up some 5 to 15 rules, depending on what the Lab Formula is. A motion sensor also has a light level and temperature sensor, so they use up 3 sensor slots.
+
+Scenes are quickly used up, as each group and zone tends to have a bunch of default scenes, but you also need scene slots for recovery scenes (i.e. to store light states to return to when a motion sensor finishes). So sensors can also have Scenes associated with them.
+
+I have some 30 Hue bulbs and 9 dimmers, but the limits I hit were for Rules and Scenes."
+Hue,ff6eghu,t1_ff6cua2,1579625422.0,"I agree. I noticed my bridge struggling too, and I was running out of resources. A second bridge did solve that issue, but created the Alexa issue. 
+
+Really this should be easy to fix at the Alexa Skill level... Just allow multiple accounts."
+Hue,ff6c97a,t1_ff6c5e2,1579624044.0,"Silver lining :D
+
+I wish there was a method that worked well. I have 2 bridges too. I ended up putting all my outside lights on one, as they're all motion sensor controlled and I don't really use the app or Alexa to control them."
+Hue,ff69gnh,t1_ff65t66,1579622250.0,"I did edit my post to include another step which I'd forgotten, so you may not have seen it.
+
+On that second Amazon account, you need to add the Hue Skill (you can do it online) and link it to your second Hue account."
+Hue,ff6565s,t1_ff653jp,1579619390.0,"That's a shame. This method isn't too difficult to do, and it makes sense that it would work."
+Hue,ff64t08,t3_erv80j,1579619135.0,"On Android use ""all 4 hue"". Click on the light you want to know the colour temperature of, press ""Set colour temperature"" then something like ""Click here to enter a colour temperature"". It will show you the current colour temperature in Kelvin, and allow you to enter a numeric value to change it."
+Hue,ff64nts,t3_erst67,1579619034.0,"There's another method that I have seen posted more than once, but I've never seen a reply confirming it works.
+
+Make a second Amazon account using the email address you used for your second Hue Bridge. Add the Hue Skill to it and link the Hue Skill to Hue as needed. Log back into your main Amazon account and add your new Amazon account to it as a family member."
+YouShouldKnow,ff6385a,t1_ff5n3e2,1579618013.0,"I did too. From what I've found from a quick Google, Indigo is more prevalent in the UK. Specifically, the British police and CB users use Indigo. I'm from the UK, so that explains it for me. However, most standards state India."
+interestingasfuck,ff626ww,t1_ff5j31j,1579617251.0,"So by the same naming convention, should we call it ""a plastic""?"
+YouShouldKnow,ff5o5kn,t1_ff4jwv6,1579602787.0,"> And don't be lazy about making a backup
+
+THIS!"
+Hue,ff5h4wo,t1_ff5e4xw,1579592636.0,"I don't know if it's a free feature or not, as I have the paid version, but setting the colour temperature is as easy as clicking the light on question, selecting ""Change colour temperature"", then the link that says ""Click here to enter colour temperature"". You're then presented with a text box where you can see the current colour temperature in Kelvin, and enter your own.
+
+Of course, you can only do this on bulbs that can actually adjust their colour temperature... Basically anything from Hue that has a name that ends in ""...Ambiance"""
+YouShouldKnow,ff4hyf1,t3_erlhaj,1579564051.0,"I'm not worried...
+
+Looking at the table in the article, most people (that's people using consumer grade SSDs) can expect their SSD drives to last upwards of 244 weeks (assuming stored at 25C after being powered off, which seems high given most people prefer around 20C or 21C ambient temperatures) and 50C when running. If they're stored at lower than 25C when powered off, it'll last longer. In fact, if you look at the table, life expectancy is pretty much doubling for every 5C drop in storage temperature. So if you extrapolate that table down to 20C, it looks like you can expect 10 years of life after the drive is powered off.
+
+If I've not used a drive in 10 years, I'm not likely to be worried about its contents degrading.
+
+Now if you run enterprise grade SSDs, that hang around in hot places after being powered off (e.g. a NAS rack), then, yes, this is important."
+Hue,ff49ik4,t3_erh0nb,1579558483.0,"You can set the colour temperature in apps like ""all 4 hue"" on android. So whatever you think ""pure white"" is, e.g. 6000K, you can set it to that. The temperatures are reasonably accurate, and at least accurate to human perception (i.e. + or - 500K).
+
+The thing is that this is all interpretive. One person's ""pure white"" is someone else's ""cold white"" and someone else's ""daylight"". Furthermore, unless every item in your room is also the same colour, these objects will reflect different coloured light, and change the colour temperature."
+Hue,ff48swu,t3_era9jg,1579558037.0,"Light level set incorrectly? 
+
+My motion sensors (indoor and out) always trigger within, maybe, half a second at most. The only exception is that if I turn the lights off manually, the motion sensor doesn't trigger again until it hasn't detected motion for the set amount of time."
+Hue,ff47syl,t1_ff2l5vn,1579557412.0,"5. (or 4B) Third party control (Amazon Echo, Google Home, Siri, Logitech Pop, etc etc)"
+Hue,ff0u2ir,t1_feycekd,1579472316.0,I would try again. This is definitely how you do it. I have scenes with different brightness levels per bulb. Check the scene is working in the Hue app before continuing with anything else.
+Hue,feo8tww,t1_femop4z,1579296704.0,"Works for me too when I disconnect my router from the internet.
+
+Your phone will detect that your home WiFi does not have a good internet connection, and will fall back to mobile data. You can turn this functionality off in the (advanced) network settings.
+
+You won't be able to use smart assistants, non-zigbee switches (e.g. Logitech Pop), or anything else that requires the internet/cloud to work.
+
+You can still control your lights using ZigBee switches, such as the Hue Dimmer, and you can use the app so long as your phone is genuinely connected to your WiFi, and your phone is actually using it rather than mobile data. To test the latter, with your internet down, open a browser on your phone and see if you can browse the internet. If you can, you're NOT connected to your home WiFi properly."
+Hue,fegffvb,t3_eovq56,1579090951.0,"Interference. ZigBee and 2.4GHz WiFi overlap. Close proximity to any transmitter can interfere with your modem too. Change your ZigBee channel in the Hue app, and move the Hue Bridge further away from your router.
+
+Synology are a really good brand, and so is Hue. I would doubt it's anything to do with remote access our anything serious."
+Hue,fegf6qi,t1_feg8u4r,1579090692.0,"Came here to say exactly this. ""all 4 hue"" is a learning curve, but so worth it."
+Hue,fege54u,t3_eosib1,1579089561.0,"Just going to second what other people have said... I got Tradfri (and Osram) because they were cheap, and Lifx because on paper they are the best. 
+
+I now regret those decisions and have migrated everything to Hue, because they work all the time. The biggest issues for me were the unreliability of other brands. Many times I'd tell lights to turn on/off or change colour, via voice or switches, or IFTTT, or timers/routines, and often the non-Hue bulbs would not do everything I asked.
+
+Picture your 9 Tradfri bulbs, where 3 of then are cold white, 2 of them are warm white, 2 of them are dimmer then the others, and the rest just didn't turn on. That's the kind of mess I had when I told them to turn on and then set to cold white, and 100% brightness. Repeat all the commands and you might fix 1 or 2 of the bulbs, but the rest will stay at the wrong settings.
+
+By comparison, while a Hue bulb occasionally misbehaves, it must be months since I last experienced it, and every light in my house is Hue."
+YouShouldKnow,febrhoc,t1_febp0i4,1578961885.0,Quorn is made from a type of fungus. Specifically Fusarium venenatum.
+Hue,feavoc3,t1_fearqjf,1578952642.0,"Yeah sorry. I feel bad too. I know it's possible to get this to work as I've done the same thing with one of my dimmer switches (one press of the on button turns it on, and the second turns it off). But I don't understand why you're version of all 4 hue looks so different."
+Hue,feajyc6,t1_feaga8s,1578949721.0,"I'm not sure what's going on. My app looks different to yours. My motion sensor icon in the rule conditions looks like a running person, not. When I add the condition I have a whole much bigger section for Mode and Trigger Attributes which I just don't see on yours."
+Hue,feaejdq,t1_fea7ugj,1578947714.0,"You are using ""all 4 hue"" yeah?
+
+When I go to Menu, Accessories, find my Motion Sensor in the list, Show Rules For Sensor, and you should see your two rules in green. If you press the off rule, Edit. Add New Condition, Motion, Trigger Condition, scroll right down to bottom and select""presence"" and ""With delay after sensor was updated"", and set a time there which is the minimum time you want your light to be on for before monitoring for motion again.
+
+This should stop it triggering off unless that delay has elapsed."
+Hue,fea5cor,t1_fea484r,1578944545.0,"For now, I would test we can turn it off, and if that works modify it to save and recover the previous state...
+
+So find that on rule you made (Accessories, Motion Sensor, Find rules for sensor), long press to duplicate the rule, edit the copy, add a condition that the lights are on, and change the action to turn the light off. Feel free to make a video again or screenshot the final rule."
+Hue,fea1qwh,t1_fe9nou6,1578943447.0,"It looks like you've done it! So now if you turn your light of, then trigger the motion sensor, what happens? I'd expect the light to go on..."
+Hue,fe9edk9,t1_fe98hen,1578936832.0,"If you don't have any other switches/sensors, etc. Sure.
+
+But you don't need to look at All rules. Your need to find the Accessory (search for your motion sensor) and show the rules associated with it. That's what the ability to just look at rules associated with a given sensor is for, so your don't have to look at hundreds of irrelevant ones. There are lots of rules for it, because you will have a rule for switching it on during one time range, another for the second time range, rules to dim the bulb to 49% when no motion is detected, and a rule to turn it off after a set time, and rules to save the various states the light can be in. I have 11 rules for my outdoor sensor that's configured with the default settings in the Hue app. But only one turns it off. Or actually, it sets the scene to recoveryScene which was saved by another rule. That's because my motion sensor is set to revert to its previous state when no motion is detected, rather than switch off.
+
+Another way is to totally simplify it and disable all the rules for that motion sensor (so if things go wrong you can just turn them back on) and write your own 2 rules.
+
+If you do that, your rule to turn on will need 2 conditions... Motion Sensor Presence Detected, and Motion Sensor Presence Updated. With Actions Turn On Light and either Activate Scene or Set Brightness + Colour. You can then test this once it's saved. If the light turns on when you move near the sensor then copy the rule, add another condition that the Light is On, and change the Actions so that it just turns it off. Remember to Activate the rule, as copied rules are off by default. I don't know how quickly it'll respond to two activations in a row... I suspect it'll only trigger every 30 or so at most. But if the delay is too short you can change the condition in the Off rule to that it uses the mode ""with delay after the sensor was updated"" and set the delay to whatever you need."
+Hue,fe8exkx,t1_fe723y8,1578925428.0,"Yeah they're quite bright. Not the same as a 500W halogen, but similar to a 200W."
+Hue,fe8elk3,t1_fe73ce8,1578925312.0,"I wanna say both ways will work. The rules are actually stored on the Bridge, so which app makes little difference. You might want to consider disabling it in the Hue app, then creating the simplest configuration in all 4 hue to turn it on. Then find the motion sensor in Accessories, and select Find Rules For Sensor to display all the rules. They often just have numerical names. There may be a surprising number of them too. You'll have to go into each rule to find out which has an activity at the bottom that says to turn in a light or scene. That's the one that you'll need to copy. You can make sure that's the right rule by disabling it and seeing if your light stops turning on. Then once confirmed, enable it, copy it, and modify the copy in the way I tried to describe earlier."
+Hue,fe6xc03,t3_eo1h1w,1578907159.0,"You can do this with ""all 4 hue"" on Android, or similar apps on Windows or iPhone.
+
+There is a learning curve.
+
+Turning on X lamp with Y scene when motion is detected is standard.
+
+You'd then duplicate that rule for the sensor, but add a condition that the light is already on, and change the action from Turn On Light and Turn on Scene, to Turn Off Light. This will hence only run if motion is sensed and the light is already on. When those two conditions are met it'll turn off the light."
+Hue,fe5lhho,t3_entg6o,1578870965.0,"It comes supplied with just a cable. If you want to attach a plug then you would have to do it yourself. But, once that's done you can definitely just plug it in, sure."
+Hue,fe5khh3,t1_fe5dopx,1578870569.0,"Not that I know of, but I've not looked very hard."
+Hue,fe5cdmq,t3_enrrc1,1578867666.0,"Sure I've answered this a few times before, but, yes, you can do this.
+
+With an Amazon Echo / Alexa app, you can trigger a Routine whenever motion is detected (or not detected) on a Hue Motion Sensor. The Routine can pop up a notification via the Alexa app (it's in Messaging when you add the routine commands).
+
+If you want to trigger IFTTT, then you can do that too, but it's more of a hack (you'll need to know how to use Tasker, AutoVoice virtual smart home devices, and IFTTT WebHooks)."
+Hue,fdz099e,t1_fdyzzg2,1578785411.0,"Wow, well spotted! Puzzle solved!"
+Hue,fdy83tv,t3_enbo92,1578777031.0,"As this isn't a Hue product, you're probably not going to get much help here.  
+
+
+How come you posted a screenshot from your phone, rather than the actual picture you already had?"
+Hue,fdxh6i2,t1_fdxh264,1578768675.0,"I'll give that a go when I'm back at home and report back. In the meantime, thanks!"
+Hue,fdxfezo,t1_fdxa06o,1578768180.0,"So if I tell Alexa to at the lights to red, twice, TBL Auto will stop running temporarily?"
+Hue,fdx4koe,t1_fdx36fh,1578765276.0,"Right, but I can't use Auto, because sometimes me or the kids issue a command like ""Alexa, set the lights to Blue"" or I set them to 1% Red for a nightlight. With Auto, the lights will fade to one of the time based scenes in 30 seconds."
+Hue,fdx1mq8,t1_fdwzky3,1578764374.0,"Currently, I have the lights turn on to one of  four scenes, which are dependent on the time of day. E.g. 0000 to 0600 Dimmed, 0600 to 0900 Energize, 0900 to 1800 Read, 1800 to 0000 Relax. But that's from the Dimmer Switches.
+
+I'd like to be able to say ""Alexa, lights on"" and have the lights turn on to the same scene using the Dimmer Switch would have resulted in.
+
+Currently, the issue I have is that turning the lights on with Alexa results in the light turning on with whatever settings they were using when they last turned off. If that happens to be Energize, because they were last used at 8am, and it's now 3am, it hurts.
+
+I know I can issue commands like ""Alexa, turn on Dimmed in the Master Bedroom"", but I was hoping for some workaround or hack that would automate the process with the shorter ""lights on"" command."
+Hue,fdpygof,t1_fdown7s,1578645975.0,"Try turning the light on manually during the day, and use the slider in the motion sensor settings to adjust the light sensitivity. You may find that there is still a small window where it won't trigger during daylight but will with the light on.
+
+My only other suggestion is to shield the motion sensor from the light. For example, making a shroud for the sensor if it's facing the light, or re-positioning the sensor so that it faces away from the light."
+Hue,fdpwq4z,t1_fdpg1z7,1578643697.0,"I agree it's a failing, and I agree it's far from ideal. I also agree that perhaps Hue could do more.
+
+But as it stands currently, the only person that had the power to protect that person was you. They bought a Hue Bridge that was already configured to connect to your account(s), and nobody else in the chain of people that it passed through between you and them had the power to unlink it.
+
+While the data sharing between your account and their Hue account is somewhat one sided (you can see their lights and control them), they may also be able to see things like your email address (username) in their Hue account under the list of linked services.
+
+So my position is that it's best practice to unlink all accounts and factory reset any and all devices that are returned, where possible. Never trust anyone else to do it, if you can do it yourself. Even at places like Apple, mistakes can and sometimes do happen."
+YouShouldKnow,fdpw0wa,t1_fdpdeub,1578642834.0,"On Android, you can use HedgeCam 2. You just tap the button to change cameras twice to cycle through to the ToF. At least this gives me access to the ToF on my Pixel 4. It really does allow you to see in IR. Everything looks weird as my black trousers look white, but my black shirt still looks black. My LED lights, TV, laptop screen, etc, all look off even though they're on. You can see pretty clearly in the dark, but what's really happening is the phone has a bright IR led on it that it's using for a light. This comes on with the camera. You can clearly see it on my security cameras (it looks like a bright torch) and you can see it with other phone cameras as a dim blue/purple light just like was described in the original post.
+
+You can probably use HedgeCam 2 to set the ISO really high on your other camera and see how well it performs. Let us know!"
+Hue,fdoimci,t3_emcbzs,1578605896.0,"I've looked through all the rules for my motion sensor, timers, and software sensors, and nothing mentions a time other than the the ones that deal with dimming and turning the bulb back off or to the recovery scene.
+
+I'm gonna guess...... that maybe it's the light sensor? If the light sensor has the light from the bulb shining on it, then it may think it's daylight, and hence not turn on. It seems this sensor only updates every few seconds. You could try setting the light value so that it always triggers, even in daylight, and see if that fixes the issue. Then at least we know why it's happening and can figure out a workaround."
+Hue,fdog4g6,t3_em813y,1578604455.0,"An Amazon Echo can do it too. Make a routine, set the ""When this happens"" to Smart Home -> YourOutDoorSensor -> Detected/Not detected -> Next, then add whatever actions you want. These could be saying something, turning a light on/off/colour, or sending a notification to your phone (Add Action -> Messaging -> Notification)."
+Hue,fdnmyrh,t1_fdnihib,1578589153.0,"But there's a difference between returning a faulty item, and an unwanted but working item. Sellers can't resell faulty items, but they can resell working items.
+
+Is imagine most faulty phones are returned to Apple, and are hence refurbished and wiped. Very few working iPhones would be returned, and those that are world likely have security (pin/face unlock) set up so the only option for a new user world be too wipe it.
+
+Most importantly, it's easier to factory reset a phone than it is for a seller to convince Phillips and Amazon they need global access to everybody's cloud account so that they can delete stuff. They just wouldn't allow it."
+Hue,fdnguh1,t1_fdnaxpc,1578585517.0,Also meant to ask... I wonder why your PXE Image Server would cause the Hubs to reboot? Just the huge amount of traffic when a PXE client boots?
+Hue,fdndjjt,t1_fdnaxpc,1578583499.0,Thanks for coming back to let us all know!
+Hue,fdmte8e,t3_em2bbp,1578564882.0,"Sensors include dimmers, switches, motions sensors (which also have a temperature and daylight sensor, so 3x sensors each), and most importantly variables within the Hue system known as Memory Sensors, because these can be monitored for changes.
+
+For example, a dimmer switch will have a variable (Memory Sensor) to record what scene it's cycling through when you press the On button multiple times, and one to record the scene when turning off so it can recall it when turning back on. The motion sensors have ones to record the presence state, and so on.
+
+So for every actual sensor, you likely have several sensors for it on the Hue Bridge. Hence you need a lot."
+Hue,fdmmk05,t1_fdm6j5s,1578555680.0,"But that's what I said. Apple products returned to Apple is one thing, because they're returned to the one place that has the equipment and trained staff that can securely wipe the phone.
+
+Did you buy and return your kit directly from Phillips? Or from somewhere else like Amazon or Walmart? Because if it wasn't Phillips, you're Bridge never came in contact with anyone that would know how to reset it, or anyone that would have the type of access required to the Hue cloud and Amazon cloud to go in there and delete data from user's accounts. It was probably just resold by that seller, and never returned to Phillips itself."
+Hue,fdjk6dk,t3_elmmg6,1578474673.0,"I would go into your Alexa app and remove the Hue skill. This will remove the devices from  your account too.
+
+If the returned goods were sent back to Hue, then yes I agree they should have reset it all before selling it to a new customer. However, returned goods are often sold at reduced prices by the seller (e.g. Amazon), or bundled together into boxes of random stuff that people can also buy, and never returned to the manufacturer. Sellers are not responsible for, qualified, and in many cases can't, reset equipment before selling it on.
+
+So the lesson here is to always factory reset stuff, and remove stuff from cloud accounts (e.g. Hue and Alexa in this case) before returning or selling them. Just like you would with an old mobile phone - you wouldn't want some random person having access to all you email, Facebook, pictures, etc."
+Hue,fdhs38q,t3_elfgwz,1578429094.0,"Scenes can be bulb specific, rather than room specific. I hit this issue myself when I moved a bunch of bulbs around in my house and only the bulbs that were originally in the room worked with the room's scenes correctly. So if you're turning them on with a scene, try deleting that scene and recreate it (with all 4 bulbs)."
+Hue,fdhb7iu,t3_el2e1c,1578419256.0,"I had this issue too. There are three solutions...
+
+1. Change your smart plug to a Hue or ZigBee compatible. This is the route I went down eventually and don't regret it.
+2. Buy a Smart Switch, such as a Logitech Pop, which can control devices from multiple vendors. Configure it to turn your Hue and Aukey plug on/off. I originally went down this route, but as everything is controlled by the cloud there's an infuriating 2 or 3 second delay before stuff happens.
+3. Use an Alexa or Googe Home Routine. E.g. set it to respond to ""Alexa, illuminate"" and then add the commands to turn your Hue Lights and Aukey Plug on. I have also gone down this route, but the issue is that you have to make routines for every type of usage you need, such as one for 50% brightness, one for 75%, one for 25%, one for Off, one for On, and so on, and you need to think of and remember the activation phrases for these, which need to be different from the standard commands you can issue to your voice assistant."
+Hue,fdhaj1a,t3_el1h0n,1578418895.0,"Other than turning on, a Hue Bulb cannot be controlled while it's off. When a Hue Bulb turns on, it always turns on with the same setting it had when it was off. This means that if a light was on at 100% and then switched off, and then later you switch a light on at 50%, it will turn on at 100% first, then it receives the command to reduce to 50%.
+
+There isn't a fix for this.
+
+There is, however, a workaround. If you're using a Hue controller, such as a Hue Dimmer Switch or Motion Sensor, use an app like ""all 4 hue"" on Android to directly edit the rules for that controller. Change the rule for pressing the Off button (or what happens when when no motion is sensed), so that it dims the light to 1% before turning it off.
+
+That way, when the light is switched back on, it'll turn on at 1%, before changing to the Scene / Brightness that you actually want. I feel this is better than turning on at some other brightness (e.g. 100%) and dimming down to the value you want."
+YouShouldKnow,fdduv5c,t3_ekvdy7,1578324549.0,"I mean you say that, but most messaging apps (Facebook, WhatsApp, MMS, etc) vastly reduce the quality of shared images. Using Facebook Messenger as an example, my 5MB image becomes 80K.
+
+Sure, there are ways around that (WhatsApp will give you the option of sending original sizes, or email, or whatever) but these will also eat up people's data allowances, and people these days don't have the patience to make an email."
+Hue,fddso6h,t3_eku2h0,1578322967.0,"I don't know of anything that can easily react to the temperatures. That being said, I am pulling the temperatures off my motion sensors using Tasker on Android. I'm basically reading the JSON from the Bridge every 5 minutes and grabbing the temperatures. I could, I guess, react to those temperatures and use the Hue plugin or IFTTT WebHook to tell Hue to do something (e.g. turn a Hue Plug on/off)."
+Hue,fddsftg,t1_fddnzll,1578322793.0,"These are only £20, available now, and work perfectly (have with me for years) on Hue: [https://www.amazon.co.uk/gp/product/B07GSNJWPN/](https://www.amazon.co.uk/gp/product/B07GSNJWPN/)"
+Hue,fddrx6f,t1_fddrudf,1578322397.0,"I understand. I have that ""try cool tech out"" bug too."
+Hue,fddr8pr,t3_ekt4yd,1578321872.0,"Hue Veteran here... I tried lots of solutions, but in the end I settled on using 3rd party covers that go over my existing light switches, and then a Hue Dimmer attaches on top of it. This has the added benefit that people don't accidentally turn my light's off at the switch, but I can still access the switch easily if needed (e.g. to replace a bulb).
+
+In places that I walk/pass through, such as the stairs and toilet, I have a motion sensor."
+Hue,fddq418,t1_fdcunxs,1578320956.0,"All Hue bulbs have a default fade time of 400ms. You can change this using various apps like ""all 4 hue""."
+Hue,fddq2sn,t3_eko9qe,1578320927.0,"Yeah all Hue bulbs do this. If you use an app like ""all 4 hue"" on Android, you can configure the duration it takes to dim up/down. The default is 400ms."
+Hue,fddahy2,t1_fdcqff0,1578302574.0,"Why is being battery powered an issue? They're easy to replace, a readily available size, and I've had some of mine for 2 years and they're still working fine so don't need replacing often. They also give you plenty of warning when there running low.
+
+Yeah it all uses ZigBee, so is independent.
+
+One other thing to bear in mind, if you can't mount the dimmer over your existing switch, is that you can have it anywhere, which can spread out the clutter or disguise it. I have one of mine stuck on the side of my fridge as it's magnetic."
+YouShouldKnow,fdda79k,t1_fdcwllp,1578302134.0,"Yeah, OK, Audi is perhaps not the most unbiased source, but it has some merit. 5,700K is the same as bright sunlight on a cloudless day, and colour temperatures in that area reveal the most information (contrast, clarity, and colour differentiation) to us. Obviously there is more to it than this, as many people prefer warmer temperatures for night driving, so there is a personal preference factor too."
+Hue,fdc5emh,t3_ekjoud,1578267444.0,"Why not use switches like the Philips Hue Dimmer? You can get (unofficial) light switch covers on Amazon, that go over the normal light switch and allow the Philips Hue Dimmer to magnetically attach over the top.
+
+The Hue Ecosystem doesn't need any network connectivity to work. You only need to give the bridge access to the internet if you want to get firmware updates, control your setup when away from home, or use other cloud services like Amazon Echo / Google Home / IFTTT, etc.
+
+If things really go bad (e.g. your Hue Bridge dying), then you can still use your Hue bulbs just like normal lightbulbs by switching them on/off at the wall. They turn on at maximum brightness. Unless, of course, you've explicitly changed this behaviour in the Hue App."
+YouShouldKnow,fdbpsji,t3_eki0z9,1578259990.0,"Some of that is right...
+
+Original halogen headlights have a colour temperature 3,200K (yellow) to 5,000K (daylight appearance).
+
+Xenon bulbs take those colour temperature ranges higher, from 4,000K (slightly warm white), to 6,000K (bright pure white). Some Xenon bulbs have a blue glass coating which can take the colour temperature higher still, maybe up to 7,000K (a sort of ice blue).
+
+Aftermarket HID bulbs are readily available in colour temperatures ranging from 3000K (golden) to an insane 12,000K (purple white). Blue looking ones are around 10,000K.
+
+LED headlights can have a variety of colour temperatures too, but they're harder to find in extreme colours, and more expensive. You can't really perceive a colour difference of anything less than a few hundred Kelvin, so 5,500K to 6,200K are common LED colour temperatures as that's what's in demand and what all car manufacturers use, but it's moot as they pretty much all look the same colour within this range.
+
+HIDs don't have to be ""aftermarket"" - many cars, including my last 3, came with HIDs from the factory.
+
+LEDs can also be factory fitted or aftermarket.
+
+Both HIDs and LEDs from the factory tend to be around 6,000K (Bright Pure White), give or take a few hundred. Research by Audi say 5,700K is the best colour to use for the human eye.
+
+The bottom line is that any of these bulb technologies can look blue, it just depends what someone buys.
+
+However, when seeing a factory fitted halogen bulb next to a factory fitted HID or LED (e.g. as you see several oncoming cars passing you at night), the HID or LED will look ""bluer"", and this is often what people mean when they refer to ""those blue looking headlights"". Aftermarket bulbs, of any technology, can look very blue, but these aren't necessarily what people are referring to, they could be referring to factory fitted Xenon, HID, or LED, because they all look ""blue"" when compared to traditional halogen bulbs.
+
+However, I don't think they're the issue. The biggest issue is people that buy aftermarket LED or HID ""upgrades"", and don't adjust them properly, or at all. They're often pointing too high. For this reason, LED and HID headlights here in the UK must, by law, have a computerised automatic levelling system. People also buy bulbs that are (often illegally) brighter (e.g. 120W Halogen Bulbs, or equivalent HID/LED). These are two issues that dazzle people the most."
+YouShouldKnow,fdauq4h,t1_fdasw54,1578250435.0,"For small aperture cameras, below the cost of a medium sized house, yes.
+
+For night vision you either have IR lights (detectable), big lenses to collect lots of light (obvious), or very expensive camera modules that are super sensitive. Alternatively you can go for things like thermal imaging, but again they're expensive, especially when small."
+Hue,fdaam1s,t3_eke3q3,1578243748.0,"Make sure the names for your individual lights are VERY different from the name of the room/zone of lights, otherwise Alexa will think you want to control a specific light. You can see what Alexa things you said by going to the settings in the Alexa app, and I think it's then in Account, then History, and it'll show you the text of everything its heard. Check it heard you right and see if it's struggling to correctly identify the light/room names.
+
+Anyway, if you have a Room called ""Bedroom"", and a light in there called ""Bedroom Light"", and another called ""Bedroom Desk"", and you say ""Alexa, turn the bedroom lights on"", it will likely control the singular ""Bedroom Light"", rather than the lights in the room called ""Bedroom"".
+
+So, instead, call the Room/Zone whatever you want to use to control the lights ""Bedroom"" is fine. Call your lights something long and different like ""Bob's Main Bedroom Light"".
+
+All of the above is in the Hue App, not Alexa. Get Alexa to search for devices to get it to find the name changes. Make sure the names have changed in the Alexa app as what is in the Alexa app is what Alexa will try and use.
+
+Another thing you should do, is in the Alexa app add your Echo devices to the rooms that they're in. For example, if you have an Echo in your Bedroom, then edit the Bedroom room in Alexa, and add the Echo that's in the Bedroom too. Then, you just need to say ""Alexa, lights on/off"" and Alexa will turn on/off all of the lights in that Alexa room. It's a great shortcut.
+
+Finally, if stuff still doesn't work, you can always make an Alexa routine with a custom phrase that turns your bedroom lights on."
+Hue,fda7z9s,t1_fd39uk5,1578242758.0,"OK, so we've eliminated the power supply and the Hue Bridge being the issue.
+
+My next two suspicions would be the mains supply to the power supply. If it's on an extension, make sure it's reliable and not loose.
+
+After that it would be the ethernet connection. If there's a power discrepancy or a ground leak on your Router then that could cause issues. To test this, simply unplug the ethernet cable from the back of the Hue Bridge and see if it reboots. Make sure your Router isn't trying to give Power Over Ethernet to the Bridge (it probably isn't).
+
+Finally.... time it. Does it reboot at exactly the same (say, within 5 seconds) amount of time every time?"
+Hue,fd8ms6t,t3_ejy3cu,1578220361.0,"I had the same issue with my outdoor Hue Security Floodlights. Turns out it's normal for motion sensor controlled lights.
+
+If you use an app like ""all 4 hue"" on Android, you can drill down into the rules associated with the motion sensor, and you'll find 2 or 3 (one per time slot?) rules that says if the light is on and no motion is detected then reduce the brightness by 49%. Just change that 49% to 0% (worked for me, reversible, and doesn't break anything else the rule does)."
+Hue,fczcmov,t3_ejmgd0,1578098238.0,"To be clear here... you've tried two different Hue Bridges (the square box with the blue circular light in the middle and 3 small blue lights)? Both of them reboot every 2-3 minutes?
+
+Have you tried a different power supply? I've seen power supplies on numerous electronics cause exactly this problem."
+Hue,fcw4f09,t1_fcvg1vf,1578016899.0,"If you want a £20 version, I've used 3 of these over the past year and they've been flawless and instantaneous when paired with the Hue Bridge: [https://www.amazon.co.uk/gp/product/B07GSNJWPN/](https://www.amazon.co.uk/gp/product/B07GSNJWPN/)
+
+My use cases are exactly the same as yours... For example, I have a 12V LED strip that runs up my staircase. It's connected to a 12V PSU that plugs into a normal mains socket. So, I plugged it into one of those sockets linked above instead, and added a Hue Motion Sensor, and now my stair lights come on whenever I go up or down the stairs. I can also control it with Alexa, or the Hue Dimmer switch in the hall. Perfect!"
+Hue,fcsafmi,t3_eini0c,1577913773.0,"I assume you mean ""not turning on""?
+
+Did you cut it while the power was connected (even if the light was off)? If so you've shorted it out and you'll need to buy a new one. Cut strips aren't covered under warranty."
+Hue,fcf352e,t3_eh4khn,1577626203.0,"Hue White and Colour Ambience, or Hue Filament."
+Hue,fcf301i,t3_eh3nmz,1577626161.0,"Routines can sometimes take a day to kick in (especially ones based on sunrise/sunset), so leave them to see if they work tomorrow. Check the routines are actually toggled on in the Routines part of the app. Check you've selected the right Room/Zones for the routines. Make sure you've selected the right days you want the routines to run (a common mistake is thinking black means On for that day, but Grey means On). Make sure you've selected the right Scene/settings for the bulbs to change to."
+Hue,fcf1ogm,t3_egu51f,1577625812.0,"One other very minor difference, that nobody has mentioned yet, is that the colour bulbs can go slightly dimmer at minimum brightness. So if you're wanting to use them as a nightlight, the colour ones may be the way to go.
+
+If price isn't an issue, I'd go with colour. You don't have to use the colours, but they're there if you do ever want them."
+Hue,fc8orml,t1_fc8o4lc,1577539220.0,Two custom routines... One to turn on at set time (6:30). Another to turn off at Sunrise.
+Hue,fc8ldbh,t3_egomq7,1577537318.0,I'm wondering what will happen on days when Sunrise is before 6:30am...
+Hue,fc8ky7h,t3_egptji,1577537073.0,"Not easily. The best workaround I've seen is to have something poll the Bridge and look for changes, but it's not reliable as more than the remote can change the state of a light (e.g. Alexa, phone, etc).
+
+There are switches that CAN do this though. I use Logitech Pop switches. They can perform several actions on Single Press, Long Press, or Double Press, including IFTTT or directly controlling tons of different brands of smart devices.
+
+If you have the IFTTT app, you can also make a button in that to do stuff."
+Hue,fc8klkd,t1_fc86x1c,1577536874.0,"If you're worried, and have a Hue Dimmer (the 4 button rectangular one) you can use that to reset lights to their factory defaults. Just hold the dimmer right up next to the bulb and hold the On + Off buttons down together. The Light will flash dim up and down a bit and flash, then it's reset."
+YouShouldKnow,fc8bu4u,t1_fc6hpti,1577531393.0,"> Everything your granny says is true?
+
+No, but had she, or anything else, said ""there is no year 0"" in the context of the Gregorian calendar, it would have been true.
+
+As I said before, there ARE calendars that have a year 0, but those are not the calendar system that we're talking about here."
+YouShouldKnow,fc6hf8n,t1_fc6gzf5,1577480645.0,"I'm quite aware of how the Gregorian calendar works. It doesn't matter if the source is Wikipedia, or my granny. It's simply true.
+
+Your logical fallacy is [Burden of Proof](https://yourlogicalfallacyis.com/burden-of-proof)! Instead of making unsubstantiated claims that countless people have shown to be wrong in this thread or the many others that have been posted recently, why don't you provide the rest of us with a reliable source that states that the Gregorian calendar has a year 0."
+YouShouldKnow,fc6ezix,t1_fc6cybx,1577479000.0,"First line of the Wikipedia article on Year Zero: [https://en.wikipedia.org/wiki/Year\_zero](https://en.wikipedia.org/wiki/Year_zero)
+
+>The year zero does not exist in the Anno Domini (AD) system commonly used to number years in the Gregorian calendar and in its predecessor, the Julian calendar. In this system, the year 1 BC is followed by AD 1."
+YouShouldKnow,fc6eg9b,t1_fc6d2vc,1577478636.0,"You're confusing age with the Gregorian calendar.
+
+Yes, you're 0 years old when you're born, but the age of something has absolutely nothing to do with the design of the Gregorian calendar, that most of the world uses.
+
+Bear in mind that the Gregorian calendar was created in 1582, and based on previous calendars, such as the Roman Calendar, all of which started at least 40 years after BC/AD divide.
+
+*For whatever reason*, it was decided that the calendar years close to the BC/AD divide went...
+
+3 BC, 2 BC, **1 BC, 1 AD,** 2 AD, 3 AD, etc.
+
+**Note there is no year 0 AD, or 0 BC, or 0 anything.** Right or wrong, it's just how they decided it would work.
+
+Therefore, the first decade (10 years) of AD consisted of the years 1 AD, 2 AD, 3 AD, 4 AD, 5 AD, 6 AD, 7 AD, 8 AD, 9 AD, and 10 AD. The second decade was 11 AD to 20 AD, the third decade was 21 AD to 30 AD and so on.
+
+**Note that decades always start with a year number that ends in a 1, and end on a year number that ends in a 0.**
+
+As such, the current decade doesn't end in 2019 (ending in a 9) it ends in 2020 (ending in a 0), just like every AD decade in the Gregorian calendar. Conversely, BC decades always start with a year ending in a 0, and end in a year ending in a 1.
+
+There are other calendars that do have a year 0, such as Astronomical, Buddhist, and Hindu calendars, but most of the world most of the time uses the Gregorian calendar.
+
+Further reading: [https://en.wikipedia.org/wiki/Year\_zero](https://en.wikipedia.org/wiki/Year_zero)"
+Hue,fc2os9w,t3_efuxg5,1577369441.0,"One thing to bear in mind, is that a single strip has the same light output as a single strip + a bunch of extensions attached to it. My point being that if any of your strips are long, a given area of that strip will always look dim when compared to a single strip. So you might end up wanting more than just one strip base unit per room."

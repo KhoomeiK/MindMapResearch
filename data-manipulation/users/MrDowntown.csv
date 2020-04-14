@@ -1,0 +1,259 @@
+subreddit,self ID,parent ID,time,text
+chicago,ffp2l4c,t1_ffoknyo,1580084922.0,"Well, there you go! Some people moved out five years ago and said they feared crime.  Rock-solid proof that they're fleeing because property taxes are too high!"
+chicago,ffmh3tl,t3_eu2wu8,1580054620.0,"As you point out, the factories—and therefore the ridership base—no longer exists."
+chicago,ffi46ud,t1_ffge3f6,1579964586.0,"Thanks.
+
+Luckily, I was never very much in the ""folding commercial map"" business, as that's almost entirely disappeared.  Just this one and one for O’ahu, for which we never found any retail outlet.
+
+But I did the CTA map for many years, I did the city and regional bike maps prior to 2012 or so, I do the RTA map, I do the Concierge Chicago maps, I do lots of book maps."
+AdobeIllustrator,ffe8a3o,t1_ffe44lo,1579839413.0,Thanks!  I wonder how many other such triangles I've never noticed.
+AdobeIllustrator,ffe88i2,t1_ffe2go5,1579839377.0,Thanks!
+chicago,ffcg13m,t3_esv503,1579798668.0,"I think this happens when something about the GPS or communication system on the bus isn't properly communicating the bus's location to the headquarters computer.
+
+More puzzling, and of course more frustrating, is when BusTracker shows a bus that never shows up, and it suddenly resets from 6 min to 26 min.  I don't have a good theory on what causes that.
+
+But what an advance in Western Civilization, compared to the old days of intently peering into the distance while trudging down a snow-covered sidewalk . . ."
+Maps,ffcd8o1,t1_ffcbwla,1579796946.0,"Georeferencing in ArcMap is a breeze (particularly compared to doing other things in ArcMap).  You just point to the same place on the image as on a GIS map.  With only 4 to 6 points per image, they should line up nicely.  
+
+I think you'll want to georeference/rubbersheet each image before trying to merge them.
+
+Not sure at what license level, but it's also possible to put your frame-center dots into ArcMap and have that be clickable, bringing up unmerged images from a server.  [Here's an example.](http://maps.isgs.illinois.edu/ilhap/)"
+Maps,ffcad2t,t3_eshzgu,1579795144.0,"It's an easy problem to solve with GIS.  Just use the centroid of the ZIP Code for each athlete's high school, and display the resulting points on a map with states, cities, maybe shaded relief from Natural Earth.  Any grad student in the geography department should know how to do it.
+
+I've done high-quality maps like this for several clients, typically for around $400-600.  If you want something that'll look really nice on the Athletic Dept. office wall, PM me."
+Maps,ffc9b8w,t3_esuga3,1579794483.0,"So you've got three interconnected problems:
+
+* Figuring out which photo goes where.  This is just a jigsaw puzzle problem, and is made easier by the water you noted.  Also look at the marginalia on the prints, which typically will show a clock (time of day the photo was taken) or a frame number.  Both those will allow you to reconstruct the flight sequence.
+
+* Scanning and merging the images.  Obviously, scanning isn't much of a challenge, but you're likely to find noticeable differences in brightness and contrast from one photo to the next, meaning you'll want to have a way of feathering one image unnoticeably into the next.  Aerials often include at least 60 percent overlap (so they could be used for stereo viewing and mapping), so you can typically just use the juicy filet from the middle of each image.
+
+* Georeferencing and orthocorrection.  You can't keep the airplane perfectly level and perfectly straight, so from frame to frame there will be differences in scale and orientation, and even a single frame will often have a slight tilt to it.  This requires orthocorrection, by georeferencing things visible in the photos to places whose position is known.  In much of the country, intersections of section-line roads are an easy thing to spot.  On the East Coast, you may be looking at chimneys of older houses, older bridges, lighthouses, etc., that don't move and are still visible on modern maps and aerials.  You'll be georeferencing to modern, known positions in GIS software, and this (not Photoshop) will typically be where you merge and store the resulting imagery—even if you then also make a big printout for the office wall.
+
+There are a number of contractors who do this type of work regularly, including overseas companies that use Indian or Mexican labor for cost savings.
+
+Finally, rereading your post, I see that you're not necessarily committed to merging the imagery, and may just want a way to index them so you can find the right frame.  For that, just use a paper map of the counties and, based on what you can see in the photo, put a big dot at the center of what it shows, along with the photo number.  Commonly, aerial photos were designated with a flightline number (one pass across the county or whatever) and frame number.  You might find numbers such as 17-4 somewhere on the photos.  Once you've done 5 or 6 photos, a pattern is likely to be apparent."
+chicago,ffc6gyu,t1_ffbdi5d,1579792651.0,"CTA subway lines are shown with dashes: red for Red Line, blue for Blue Line."
+chicago,ffc5v8o,t3_esrolv,1579792245.0,"I'm the guy who makes many of those maps.
+
+The [pedway map I posted yesterday](http://chicagoinmaps.com/pedwaymap.html) comes from my Downtown Chicago Plus map, but the only place in town that sells it is Barnes & Noble (at a hefty markup).  It's also [available on Amazon.](https://www.amazon.com/Chicago-Downtown-Plus-Recreation-Transit/dp/0938011669)
+
+You can usually find the RTA's system map, subregional maps, and downtown visitor map at Union Station (near the Metra ticket windows).  If not, for sure during office hours at RTA (175 W Jackson).
+
+CTA has a different, smaller downtown map as well as its system map.  Both *should* be available at CTA train stations—but often they're out of stock.  But CTA headquarters is at 567 W Lake.
+
+The Tourist Info booth in Macy's State Street will have plenty of tourist maps.  I also recently saw a huge stack of Where maps at Columbia's 618 S Michigan building.
+
+Hotels will typically have a brochure rack with the Where map, possibly Concierge Preferred, and other brochures and maps.
+
+Just let me know if there's something specific you're seeking."
+gis,ffb7wqr,t1_ffaq366,1579754396.0,Ingenious!  Thanks so much.
+Shoestring,ffaekfx,t3_esdns3,1579733817.0,"In particular, look at ANA and United out of ORD and probably other hubs.  They seem to make money flying the front of the plane, and twice I've gone to NRT for $440rt.  Plenty of empty seats in economy on both trips.
+
+One thing they do is discount open-jaws, to differentiate the leisure from business travelers. I often see on TheFlightDeal ""visit two cities for the price of one"" on ANA.  So look at things like into NRT and out of BKK (via NRT)."
+chicago,ffa1jsj,t1_ffa1113,1579726024.0,Without security desk hassle?  Can an ordinary person enter from the sidewalk on Lake and exit on Randolph?
+chicago,ff9wlt5,t1_ff9vrco,1579723096.0,"Yes, you can connect in all five instances shown on the map.  Were it *not* possible, I'd have found some way to indicate that (as I do when freeways cross with no interchange)."
+chicago,ff9l89a,t1_ff9iza6,1579715352.0,[Here's one I made.](http://chicagoinmaps.com/pedwaymap.html)
+Maps,ff98rjw,t3_es04av,1579707461.0,It means the map is 25 years old and all the red and yellow ink has faded.
+AskAnAmerican,ff95zu0,t1_ff7tvdl,1579705653.0,"Got any caselaw to back up that claim?  You may want to first have a look at [*McGrain v. Daugherty,* 273 U.S. 135 (1927).](https://supreme.justia.com/cases/federal/us/273/135/)"
+chicago,ff7dw34,t3_es1zyf,1579647294.0,">west down Dearborn from Michigan Ave.
+
+Poor thing seems to have had some directional confusion as well."
+Maps,ff6yozj,t1_ff50uv2,1579637614.0,"I can do that.  [Would look like this if oriented Manhattan North.](https://imgur.com/fbotnNQ) PM me to arrange design, delivery, payment details."
+chicago,ff6uq77,t1_ff6u473,1579635275.0,Where—other than the Chunnel or beneath mountains—do European freight railway tracks ever run below grade?  European freight primarily moves by truck.
+chicago,ff6ondj,t1_ff6kqaw,1579631657.0,"Suppose they want to take a CTA bus to Union Station.  When it arrives, a wheelchair user is already on board. They're told sorry there aren't enough wheelchair spots for both kids; one of them will have to ride another bus. Is it wrong for a family to expect to ride a gov funded bus together in 2020? 
+
+Well, yes, it might be.  The ADA says ""reasonable accommodation,"" not ""every wish granted."""
+AskAnAmerican,ff66olx,t1_ff55uk5,1579620425.0,"It's not a settled area of the law, and they may well decide it's a ""political question"" over which they have no jurisdiction.  The uncertainty and certain appeals is why the House didn't arrest witnesses for failure to appear, or delay impeachment until they did."
+chicago,ff646b1,t1_ff61srs,1579618689.0,"Each car has room for one wheelchair, but Access Living requested five spaces on a train that only has three.  Amtrak suggested two users take the train earlier that day or later that day, but Access Living instead wanted to be given a price for the accommodation."
+AskAnAmerican,ff4rf03,t1_ff4o09p,1579570633.0,"It's a dispute between coequal branches of government, as observed in *U.S. vs. Nixon.*  The Constitution does not give the Supreme Court, nor any inferior courts, jurisdiction over such a dispute."
+AskAnAmerican,ff4lim8,t1_ff4gyqy,1579566517.0,How is it up to the courts?  It's a political question not within the jurisdiction of any court.
+AskAnAmerican,ff4l3ml,t3_erm3c1,1579566230.0,"Foreign. More interesting food, and typically better service."
+Maps,ff4jx1w,t3_erg4f8,1579565404.0,What's your budget?
+gis,ff4e470,t1_ff43t5z,1579561443.0,"I'm an independent cartographer with a wide variety of publishing, tourism, and real estate clients. I work on a different city or region every week.
+
+But I'm not sure I agree with your claim.  I see the same thing all across the country, from both municipalities and regional COGs.  The polygon I showed as an example came from an Atlanta Regional Council dataset that covers 20 counties."
+AskAnAmerican,ff3ytkv,t3_erh0lo,1579551828.0,"It was the cities, and their congressional representatives, that demanded the urban highways be included so their downtown ports and inner-city industrial/warehousing areas could remain relevant as intercity trucking became more important. 
+
+The history in the US is complicated by the fact that we were already in the process of using urban renewal to clear our most shameful slums, and that cleared land then often became the most expeditious place to put the new freeways.
+
+In other countries, the geography of cities was different (not as monocentric), there were much stronger land-use controls to prevent industrial relocation to cheap rural land, superhighways were built much later (often by private concessions), and auto ownership was much lower until the 1980s."
+cartography,ff32ubv,t1_fexwmct,1579532231.0,Good work.  I could not figure out who has such long bypass or express routes.
+AskAnAmerican,ff30hbl,t3_erd1nq,1579530363.0,"Because it was supposed to be a safeguard against the dangers of direct democracy.
+
+Those who set up the electoral college intended for it to function independently, exercising its own judgment about whom to select as president. They worried about the danger of a ""man on horseback""—a charlatan who might bamboozle the majority of people into electing him—so they set up a system where wiser heads would prevail.  We've since perverted that intention by making the electoral college a state-by-state reflection of the popular vote.
+
+It's an example of where *too much* democracy can be a problem."
+chicago,fezc2wy,t1_fez3dvz,1579455819.0,"Because the owner hasn't yet developed it.
+
+It was railroad land, then owned by the railroad's real estate arm, who  weren't interested in taking a lowball offer.  Then a local real estate investor bought it, and about 3 years ago it went to CMK, which is developing other South Loop parcels that seem like lower-hanging fruit.  Naturally, CMK doesn't want to be caught by the next recession with huge exposure from having to put in infrastructure on this land.  Much better for the moment to develop modest towers in places (like 717 S. Clark or 14th & Wabash) that already have sewer, water, and roads.
+
+Once the Riverwalk extends past River City and The 78 is begun, new units in this location will go for much more."
+AskAnAmerican,feth4q9,t1_fetfvep,1579375405.0,"To be able to examine your leavings, for blood or worms."
+chicago,fetg62n,t1_fet2ews,1579375143.0,"It never was.
+
+Olmsted wanted (after the Fair) to create such a waterway, but the soil was sandy and the South Park Commission thought it had better things to spend money on."
+AskAnAmerican,fepaix6,t3_eq877d,1579315822.0,"LA has one of the best-patronized bus systems on the continent, especially the Westside area.  I remember being at a West Hollywood dinner party in Apr. 1986 where the host noted with some interest that not one of the five guests had arrived by private automobile."
+chicago,fep9scn,t1_fep69e0,1579315341.0,"City doesn't care one way or another.
+
+Being taller than Willis makes your building a higher-profile security target, for no good reason."
+AskAmericans,feowt6y,t1_fenv7o5,1579307099.0,"[Here's one I work with from time to time.](https://www.loc.gov/resource/g4103c.la000106/?r=0.184,0.111,0.32,0.201,0)  The figures below the names are the acreage they own."
+AskAmericans,fel0yn0,t1_fehib9q,1579211707.0,"The only bank that ever declined to open an account for me was . . . Lloyd's.  Yes, that Lloyds.  From the UK.
+
+When the manager learned that I was only in San Francisco for the summer, working a summer job, he said they didn't want me as a customer."
+AskAmericans,fejttlu,t1_feji492,1579185696.0,"Cadastral maps show nearly every farmer owning 40 acres or more.  That means the houses average 1/4 mile apart.
+
+In the Middle West, it was common to homestead or purchase a quarter-section, or 160 acres."
+chicago,fehuvm8,t1_fehrj8f,1579124336.0,"The store was your basic factory outlet.
+
+The chocolate was utility-grade at best, and not inexpensive."
+onebag,feftyxb,t3_eoskxl,1579065127.0,"Yes, I want a mesh pocket on my daypack. But [one of these](https://www.ebay.com/itm/1x-Carabiner-Water-Bottle-Buckle-Hook-Holder-Clip-Camping-Outdoor-Colorful-ODCA-/113967520449) is just fine for hanging a water bottle on my main pack.  After all, the bottle has to be empty most of the time I'm carrying my main pack (through airports, mostly)."
+AskAnAmerican,feftj8q,t3_eoskio,1579064751.0,To keep my feet warm.
+transit,fefbimk,t3_eojb28,1579052683.0,"I have no trouble classifying Singapore MRT as a metro based on the stop spacing, complete grade separation, type of equipment, and type of stations.
+
+We sometimes use the term *regional rail* for systems like Washington Metro and BART that have closely spaced stations in the center city and much wider spacing (at least 2 km apart) in the suburbs, and use metro-style stations and equipment."
+onebag,fee1742,t1_fed3i8b,1579024254.0,"A United employee just glances at your bag as you check in. They've never given me a problem about my Jansport 39L bookbag, even when it was *stuffed* returning from a winter trip."
+AskAmericans,feclx1j,t3_eocbaa,1578977162.0,"When I'm traveling with others.
+
+Not only can I not afford restaurants, but they're pretty tedious for a single person.  Even when I'm traveling by myself, it's fairly common for me to get something from the supermarket or something like doner kebab to just eat in my hotel room (where I can surf Reddit)."
+chicago,fech5jm,t1_fecdxsg,1578973807.0,"None of that has anything to do with FRA and Metra.  Metra is not a ""US government agency"" and FRA's congressional authorization is solely to oversee railroad safety—not railroad business practices."
+chicago,fec7mvo,t1_fec3pfs,1578968055.0,"Sounds like you're just making things up.
+
+FRA is a regulatory agency, not some kind of super-owner of railroad companies.  Just as they can't force the Durango & Silverton R.R. to take cash for tickets, they hold no such power over Metra.
+
+Nor is there any ""federal currency provision"" that binds state agencies, authorities, or municipal corporations. Chicago or Evanston can decide to only take credit/debit cards for their parking machines if they want."
+chicago,febg7hc,t1_feag0av,1578958504.0,What federal agency do you think Metra is part of?
+chicago,febfn80,t3_eocbim,1578958301.0,". . . Beat 112 or 113, whoever's closer . . . caller says she saw two lions on Michigan near Adams."
+chicago,feb3djc,t1_feab87f,1578955049.0,Those only apply to horse-and-**carriage** rigs for hire.  The original query was about horses and **buggies.**
+chicago,fea61uc,t1_fe9vqhw,1578944776.0,Sarcasm?  No; though horse-drawn vehicles must have a slow-moving vehicle reflector mounted on the back.
+chicago,fe9llm8,t1_fe9k78c,1578939173.0,There are no restrictions on driving around town in a horse and buggy.
+translator,fe6164a,t1_fdl865v,1578879474.0,Thanks very much.
+chicago,fdwbcne,t1_fdwax7b,1578756992.0,The only people who sit over here are long-distance travelers. Suburban commuters go directly to their trains.
+geography,fdsaorj,t3_em23kj,1578698249.0,"Seems to be the Village of Des Plaines, location of Ray Kroc's first McDonald's.  Is the restaurant decorated with any other McDonald's history memorabilia?  Is there also a map of San Bernardino, Calif.?"
+chicago,fds186b,t1_fdru23g,1578692743.0,"It's only practical to land airships in big open fields, where a sudden gust of wind won't push them into anything. No buildings anywhere were ever used for airship mooring, though there was a one-time publicity stunt in the 1930s to deliver newspapers to the Empire State Building.
+
+There's a photo displayed in the Hotel Inter-Continental showing the building with an airship nearby.  Someone in the history of the Medinah Athletic Club (the building's original owner) pasted a note on the photo saying ""Count Dr. Eckener and his Zeppelin visits our club by air."" Apparently based on nothing more than this, some hotel employee began telling the story that the hotel's chimney was designed for zeppelins. It isn't true, and would just be utterly impractical. Airship passengers disembark from a cabin hung under the belly, while a mooring mast would attach to the nose. Plus the tail of a 200-foot-long airship docked to the top of the hotel would swing around in the wind and hit the top of Tribune Tower!
+
+The Hotel Inter-Continental has a decorative chimney cap designed to resemble a minaret, topped with a nonstructural flagpole.  There’s no steel structure or other provision of any kind for airship mooring; no catwalks or stairways for crew or passengers.  
+
+It's really hard to prove a negative, but I went through the online *Tribune* archives back in 2011, looking to lay this urban legend to rest, and could find absolutely no mention of an airship dock. The *Tribune* gave extensive coverage to the building's construction and early operations (it was, after all, right next door). In that era, there was discussion of mooring masts for Burnham Park and other locations, but never at the Medinah Athletic Club."
+AskHistorians,fdrsj2x,t3_emp5n0,1578689009.0,"I can help with a few notes:
+
+*Lonesome Dove* is set in the late 1870s (the 1876 Battle of Little Big Horn is joked about in Chapter 93), when Fort Worth is the end of the Texas & Pacific/Missouri & Pacific railroad line linking North Texas to St. Louis and to Eastern meat markets.  Fort Worth had been on the Chisholm Trail* that linked South Texas ranching country with Abilene, Kansas—the end for a few years of an earlier railroad link.  So Fort Worth had a particular importance as the trading center for the longhorn cattle ranched in post-Civil War Texas, and therefore it would be logical for someone associated with cattle, such as Jake Spoon, to pass through and be known there.  Though Fort Worth might *look* like a suburb of Dallas, historically it predates Dallas (as evidenced by the name, established when the area was a frontier for European settlers) and had become a small city a decade before Dallas began to grow.  The two cities, 30 miles apart, grew quite independently, fierce rivals, until the end of the 20th century.
+
+As for the route Roscoe Brown would take from Fort Smith to Texas, the novel mentions (end of Chapter 51) that there was an easy road to follow, laid out by Captain Marcy.  That’s true—but it was a road **westward,** toward Santa Fe by way of the Texas Panhandle (essentially today’s Interstate 40).  But Arkansas, settled for nearly 50 years by then, had other roads and traces through the forest, including those skirting the eastern edge of the Kiamichi Mountains southward from Fort Smith to the sandy-loam farmland and timberlands of Southwest Arkansas and Northeast Texas.  Roscoe discusses (in Chapter 43) the difficulties of finding his way based on asking the inhabitants, but he would have found his way south, probably avoiding the Indian Territory (today’s Oklahoma) for various reasons (including a graphic warning from the soldiers), to cross the Red River and enter Northeast Texas near Piney Point, Richmond, Index, or Fulton (all near modern Texarkana). The small group of soldiers he meets tells him all he has to do is to hold a southwest course and he’ll find San Antonio.  That's a practical way of navigating on open prairies, on a sunny day—but ""southwest"" is a hard concept to keep in mind when working your way through forests and underbrush. One of the reasons he decides to let Janey accompany him is that she mentions having walked from San Antonio, meaning she might know the way back there.  
+
+The town of Lonesome Dove is a literary invention, whose name McMurtry said came from [a cemetery he spotted in North Texas.](https://www.findagrave.com/cemetery/454738/lonesome-dove-cemetery)
+
+----------------
+
+^*Technically, ^the ^Chisholm ^Trail ^generally ^refers ^to ^the ^main ^route ^north ^from ^a ^crossing ^of ^the ^Red ^River. ^But ^several ^tributary ^trails ^converged ^on ^that ^crossing, ^including ^ones ^that ^passed ^Fort ^Worth."
+chicago,fdqshkx,t1_fdqkjmq,1578673921.0,"Yeah, it's a strange conflation of *Citizen Kane* with the life of Samuel Insull that just makes no sense.
+
+The other story told by summer tour guides that annoys me is that the top of 311 South Wacker resembles an engagement ring in memory of the architect's dead fiancée.
+
+The design architect has been happily married since 1964."
+chicago,fdqs532,t1_fdqo87l,1578673710.0,"The townships north and south of North Avenue were surveyed at different times, and the surveyors were instructed to make all the mile-square sections the same acreage wherever possible. They were surveying farmland for sale, not laying out a future city. The idea of putting roads on those section lines was still 30 years in the future, and the idea of driving faster than 8 mph was still 70 years in the future."
+chicago,fdqjnqf,t1_fdqi4de,1578668297.0,"Why stupid?  In the original government surveys, such ""correction lines"" *were* made to section lines every 24 miles.  (The Will-Kankakee county line is one.)"
+chicago,fdpn08x,t1_fdpmuzb,1578633285.0,"Remember the elevated railroad tracks had already been there, forming a barrier, for 50 years. And [the expressway wasn't a particularly noticeable boundary.](https://i.imgur.com/7PwAlEw.png)"
+chicago,fdpmrvg,t1_fdplwqs,1578633071.0,"A myth.  The South Expressway alignment had been chosen in 1939.  The section between Cermak and 35th was changed soon after Daley became mayor so it could use the vacant land next to the Rock Island tracks that was being cleared of slums by urban renewal programs.
+
+See Dominic Pacyga's book *Chicago: A Biography* (p. 337)."
+chicago,fdpf788,t1_fdpbjjk,1578627065.0,"That the top of the Hotel Inter-Continental was designed for airship mooring.
+
+That *Bowman* and *Spearman* used to have weapons.
+
+That the jog streets take at North Ave. (out in K-town and beyond) is to account for curvature of the earth.
+
+That the Dan Ryan alignment was changed to deliberately separate the Black Belt from Bridgeport.
+
+That the Grant Park garage was designed as a fallout shelter, and the pedway connected it to government offices."
+chicago,fdperbk,t1_fdp9s3b,1578626750.0,"No, they pretty much rebuilt the exact same buildings from the exact same blueprints.
+
+An entire generation later, structural steel, elevators, telephones, plate glass, and terra cotta made possible invention of the skyscraper."
+chicago,fdp8af3,t3_emjyla,1578622338.0,"I do a whole lecture on Myths of Chicago History.  The one that bugs me most is the idea that ""the whole town burned"" (only a quarter of it did) or that the city was in any way replanned after the Fire (property lines didn't change just because buildings burned)."
+AskAnAmerican,fdo9bow,t1_fdnxl75,1578601127.0,"How is the state involved (other than simply providing a court in which the matter would be adjudicated if there's a dispute over valuation)?  The Texas Central R.R. will file a motion in the state district court, testimony about the valuation of the land they want to take will be heard, and an order will be entered.
+
+If it's the adjoining rancher taking the land by action of adverse possession, or easement by necessity, surely you wouldn't call that government involvement."
+AskAnAmerican,fdnnvjt,t1_fdnj8ke,1578589662.0,"No, many state constitutions give eminent domain power to railroads, gas utilities, and electric utilities. Those companies can exercise it as they see fit, without any particular state oversight (other than judicial review of whether compensation was ""just"")."
+Maps,fdnjijc,t1_fdn1vl6,1578587121.0,"I guess my question was what level of labeling, and what sized map.  The two are obviously related, but a 4 x 6-foot map with a hundred or so cities/mountain ranges/rivers labeled on each continent is a fair amount of work.  One with only a dozen or so labeled is less of a project.  Countries and oceans would be labeled in any case.  
+
+You can PM me if you're interested in having me do such a project for you."
+todayilearned,fdloyqk,t1_fdlok6a,1578529035.0,Irrelevant to the defense of Detroit streetcars I was responding to.
+todayilearned,fdlo8al,t1_fdl81ui,1578528535.0,When did GM ever have any ownership interest in NOPSI?
+todayilearned,fdlo4t3,t1_fdlmj3x,1578528468.0,"Streetcars don't run on a ROW, either.  You have to wait for them out in the middle of a snowy-slushy street, get stuck behind left-turning vehicles, and then trust someone won't hit you when you disembark.
+
+Oh, you might say, but we *could* put the streetcars in their own ROW.  Yeah, you could do the same with buses for a lot less money."
+solotravel,fdl5kur,t3_elvkc7,1578517429.0,"I tend to visualize it as concentric circles of stuff, or shells within shells.  The length of the trip and destination determine how big a bag I take and how many circles I include.
+
+Middle three circles are passport and money, toiletries & one change of underwear, phone & charger. Then come laptop, earbuds, wipes & emergency food/meds.  Then additional shirts & pants & underwear.  Finally, travel cup & emergency towel."
+solotravel,fdl49mu,t1_fdkkfnb,1578516792.0,"You can always get laundry done no matter where in the world you are.  In SEA, you'll see signs in hostel/backpacker neighborhoods.  But even if you're in a two-star hotel, the front desk can have laundry done for you, typically for about $3 per kg.
+
+In developed countries, it's typically not hard to find and figure out a nearby coin laundry."
+todayilearned,fdkq16d,t3_elu43l,1578508764.0,"Nonsense.  Section 2 of the 21st Amendment explicitly gives states the right to impose their own prohibition restrictions:
+
+>The transportation or importation into any State, Territory, or possession of the United States for delivery or use therein of intoxicating liquors, **in violation of the laws thereof,** is hereby prohibited."
+Maps,fdkppl7,t3_elw0qq,1578508573.0,"I can do this for you (even though I think Gall-Peters is a silly conceit). But what do you mean by ""nominally labeled?"""
+Maps,fdkpnjm,t3_ellpsr,1578508540.0,Fantasy maps get more attention in /r/mapmaking.
+cartography,fdkpm8h,t3_elus1b,1578508517.0,Fantasy maps get more attention in /r/mapmaking.
+cartography,fdkpjx4,t3_elvri7,1578508479.0,"I can do this for you (even though I think Gall-Peters is a silly conceit).  But what do you mean by ""nominally labeled?"""
+onebag,fdknb4k,t3_elv2xu,1578507131.0,I've recommended his [classic toiletry bag](https://store.ricksteves.com/shop/p/classic-toiletry-kit) for years.
+geography,fdgs0j0,t3_el63z6,1578406828.0,Exactly how would someone see these aerials?
+AskAnAmerican,fdgrp8m,t1_fdgomrk,1578406590.0,100th Meridian.  There's no 100th Parallel.
+todayilearned,fdfunbw,t1_fdfrlmg,1578370660.0,">Not remotely plausible.
+
+You'll want to have a look at Eric Haseltine's book *The Spy in Moscow Station: A Counterspy's Hunt for a Deadly Cold War Threat.*
+
+Called ""The Thing,"" the cavity in a carving of the Great Seal had no electronics in it.  Instead, it modulated microwave radiation being beamed at it."
+translator,fdfaa0l,t1_fd9vrbs,1578356971.0,¡Muchísimas gracias!
+chicago,fdf5wj4,t1_fdf2sf2,1578354033.0,How is is not manipulative for the Reds to choose geographic cuts that will result in 5 Red reps and no Blue ones?
+chicago,fdei2lk,t1_fdcxypr,1578339486.0,"That has its own manipulation problems.
+
+Imagine a circular state, pop. 1 million, entitled to five reps.  400,000 mostly Blues live in Capital City, located in the middle of the state.  600,000 mostly Reds live in the rest of the state.  If the Reds draw the map, they'll draw perfectly defensible ""geographically based"" pizza-slice districts that divide Capital City's Blues into five districts, none of which they can win.
+
+That's currently the case in Austin, Texas.  Republicans chopped it up so Austinites could never elect a Democrat."
+chicago,fdebral,t3_ekxym3,1578335559.0,No surcharges on a CTA ride.
+chicago,fde7wbf,t1_fddx3v5,1578333119.0,"Exactly.  I was so excited to have the new library so close to me, but it was such a pain to go into and out of that I found it discouraging.
+
+Now the discouraging thing is how paltry the collection is, and how much of it is, well, missing, when you try to retrieve it."
+chicago,fddvexd,t1_fddlwud,1578324936.0,Now—25 years after the building opened—only one of each.  The elevators on the Plymouth Court side now go all the way from G to 9.
+chicago,fda0yl3,t1_fd9ylh8,1578240386.0,"Unless the ward's not-so-progressive voters ""fired"" him for having views on affordable housing and development that are similar to Mayor Lightfoot's."
+chicago,fda0a83,t1_fd5l4l8,1578240225.0,He wasn't doing sign code administration.  He was acting as a liaison between the city and delegate agencies (typically business associations) and similar outreach.  Seems like being an elected official would be much better preparation for that than studying for the AICP exam.
+translator,fd9tv21,t1_fd9sowl,1578237972.0,">It would have been better to have the original text.
+
+Happy to oblige:
+
+**Introducing the Equal Earth projection**
+
+The Equal Earth map projection shows continents and countries at their true sizes relative to
+each other. Continents keep their familiar shapes and the rounded sides of the map suggest
+the spherical form of the Earth. Straight parallels make it easier to compare how far north or
+south places are from the equator.
+
+Capital
+
+Dependency or area of special sovereignty
+
+Independent state
+
+The bounding lines around scattered island groups are shown for clarity. They are not
+actual maritime boundaries.
+
+Elevations are in meters."
+translator,fd9skq7,t1_fd7jloy,1578237566.0,"OK, thanks."
+AskAnAmerican,fd6hn3o,t1_fd6d48b,1578191159.0,"American school buses are almost always bonnet-forward models, as those are cheaper.  California has specific standards for school buses that mean theirs look more like a public transport bus, with a flat front.  The flat-front models are occasionally seen elsewhere as well.  But they are almost always yellow, a dedicated fleet owned by the school authorities or contractors.
+
+Public transport buses typically are only 10.5 feet tall, with front and rear doors; while intercity highway coaches typically have only a front door, have under-floor luggage storage compartments, and are 12 to 13 feet tall.
+
+There are also a variety of smaller vehicles used in suburban and rural public transport."
+cartography,fd62vcy,t3_ek3dho,1578184789.0,"For truly professional results, you'll want a combination of GIS (ArcMap or QGIS) and illustration software (Adobe Illustrator or InkScape).
+
+You'll search state and county sites for the data you need, select and symbolize it in GIS, and then export in Illustrator format.  On the Illustrator side, you'll then tweak the typefaces, colors, label positions, and marginalia."
+chicago,fd5ekrc,t3_ejp6dz,1578176870.0,"I'm pretty sure it's Prudential, given how there are several sections of building stretching along the street with a setback and then [the short part on the southeast corner coming right out to Randolph.](https://binged.it/37zUKu5)  That would also make sense with the sloping viaduct or barrier in the foreground.
+
+The Prudential Building was a big deal in 1950s Chicago, as it was the first highrise built since 1933, and was on such a prominent site.
+
+[A birds-eye view from the time.](https://www.aisc.org/modernsteel/news/2019/december/history-of-prudential-plaza-in-chicago-illinois/)"
+chicago,fd5chxx,t1_fd2e4g5,1578176256.0,Because . . . . ?
+AskAnAmerican,fd06toi,t3_ejqym6,1578114502.0,iPhone 5S.
+Maps,fd01ahx,t1_fczj9po,1578112140.0,"It's moderately easy to make if you have access to GIS.  You'll just add the Natural Earth Urban Areas polygons on top of Natural Earth shaded relief.  Project any way you like, and assign colors to match the other map.  The urban areas are classed in attributes so you can only label the most important, as Europe and East Asia get pretty crowded."
+transit,fcxuvnn,t1_fcxq6ud,1578070775.0,"Yeah, I was disappointed when I rode it in 2017, and [so was Robert Schwandl.](http://schwandl.blogspot.com/2019/01/bangkok-urban-rail-impressions.html)"

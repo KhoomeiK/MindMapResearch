@@ -1,0 +1,154 @@
+subreddit,self ID,parent ID,time,text
+funny,ffnados,t1_fflzo17,1580063661.0,"> reduces boredom
+
+doesn't seem to be working on the kid"
+Electrum,ffn7nxt,t3_eua9iw,1580062870.0,Download and install it again. Download the windows installer version because it creates convenient shortcuts on your desktop/startmenu.
+explainlikeimfive,ffn6xmc,t1_ffl1nxq,1580062603.0,"I think it's because we named the planet ""Earth"""
+explainlikeimfive,ffn5ymm,t1_ffjvgk6,1580062380.0,It doesn't work in the modern world though which is why most developed countries have falling birth rates and declining populations.
+webhosting,ffn5e0u,t1_ffn497o,1580062193.0,fix the home and site urls in the wp database like i said in the other comment here.
+television,ffmvv5x,t1_ffmh1el,1580059466.0,6.5/10
+television,ffmvlnu,t3_eu16lv,1580059368.0,some shows completed their stories inside of 2 seasons. so do you mean all such shows or just the ones that got canceled abruptly?
+WTF,ffmtpei,t1_ffmgwkx,1580058766.0,/u/oderdigg says don't wear two socks while you're saying he should
+WTF,ffmsvb8,t1_ffm5vin,1580058565.0,just another day in a hazmat suit
+webhosting,ffmshyl,t1_ffmgje8,1580058428.0,it's going to lead to a redirect loop since WP is redirecting from www to non-www.
+webhosting,ffmse54,t1_ffmfzym,1580058383.0,WP can do this on it's own. OP should fix his WP configuration instead of adding more .htaccess rules. BTW if he added that rule he'd end up in a redirect loop since WP is redirecting www requests to non-www.
+linux,ffm7g2v,t3_eu6n5j,1580049712.0,"try 7zip. it's freeware.
+
+btw i think even winzip can unzip gnu zip files"
+hardware,fflzks0,t3_eu69ku,1580046249.0,usb could be one reason but you never get the advertised speed. the advertised speed is for sequential file accesses under ideal conditions. you will never see those IRL
+Electrum,fflzcky,t3_etz41e,1580046062.0,the receive tab is not the authority for transactions that have occurred in your wallet. look at the history tab and the balance in the bottom left corner. more info [here](https://bitcoinelectrum.com/frequently-asked-questions/#what-can-i-do-if-i-havent-received-bitcoins-sent-to-me)
+Electrum,fflz9c1,t1_ffj321f,1580045989.0,you should have panicked some more
+Electrum,fflyrjb,t3_eu3pdz,1580045863.0,yes. see note for windows users on the download page: https://electrum.org/#download
+Electrum,fflyntj,t3_eu3xsa,1580045841.0,it's safe
+webhosting,ffly8i4,t3_eu19wj,1580045627.0,I don't recommend it. I suggest installing WP stock and a caching plugin like w3total cache. Keep it simple and reproducible.
+webhosting,fflxpsi,t3_etxb7z,1580045498.0,"Your DNS records are OK. The change will have to be made in WP alone. What happens when you visit the www version of your domain? Does it redirect you to the non-www version?
+
+If you're comfortable with mysql you can make the change in the WP database wp_options table. Set home and site urls to the www version. see https://www.ostraining.com/blog/wordpress/site-url-and-home-url-wordpress/"
+webhosting,fflxawr,t1_ffj3tk0,1580045336.0,there's no need for this. WP should do the redirects to the canonical domain on it's own. if he messes with the .htaccess file manually he's going to make things worse.
+webhosting,fflw2r0,t3_eu3l7w,1580044908.0,"sedo also has a search tool on their site. use it to search domains that are listed there and then use that to contact the owner.
+
+if you want the domain you're going to have to negotiate with the current owner and arrive at some mutually agreed price. it's not going to be as cheap as an unregistered domain.
+
+alternatively you could get creative and look for unregistered alternatives. Sometimes people add prefixes like ""the"" or ""online"", use synonyms or try different top level domain names (TLDs). There are a bunch of new TLDs now."
+funny,fflul46,t1_ffjnw59,1580044422.0,"it did?!
+
+still there are many of them and, regarding the plague, they did urbanize before most other countries so that could be a reason."
+CryptoCurrency,fflufzc,t1_ffjdmk0,1580044359.0,like what?
+funny,ffjatlz,t3_etwczy,1579994421.0,Could have something to do with there being so many of them. Also it's just the last two ones. The plague certainly didn't start in China.
+startrek,ffj8whb,t3_etvn5h,1579993224.0,I thought it was Picard as Locutus
+linux,ffj8bi9,t3_ettpsr,1579992858.0,yes it's possible. use fdisk to change the partitions and mkfs to format them.
+funny,ffj4hq9,t1_ffiyre5,1579990173.0,martyrdom is for everyone
+webhosting,ffj39kt,t1_ffiriei,1579989284.0,"Every server faces this. It shouldn't cause the issues you are seeing with journald
+
+But if you want to stop it you can do two things. a) change the port number sshd listens on and b) disable password authentication and only use public key authentication. a. will stop the attempts while b. is a security measure."
+funny,ffikhwu,t1_ffgxog2,1579976042.0,B
+localbitcoins,ffik44o,t3_ettxgq,1579975776.0,lol they will keep asking for docs until they come up with one that you don't have.
+todayilearned,ffid8gw,t1_ffhy7zu,1579971099.0,So he was pretty rich even before all that?
+todayilearned,ffid5ui,t3_etjhyq,1579971050.0,$7 billion in 94 and over a $100bn today
+gifs,ffibakh,t3_etr415,1579969774.0,This is animal abuse!
+webhosting,ffi8y02,t1_ffi817q,1579968139.0,It doesn't sound like it secures anything. Encrypting emails after you've seen the plaintext version is pointless. That does nothing for anyone.
+localbitcoins,ffi8rmi,t3_espc7i,1579968013.0,"This was posted on bitcointalk:
+
+
+>Customers residing or otherwise located in the following countries are required to have an enhanced due diligence process. The countries are defined by EU commission: Afghanistan, American Samoa, The Bahamas, Botswana, Democratic People’s Republic of Korea, Ethiopia, Ghana, Guam, Iraq, Libya, Nigeria, Pakistan, Panama, Puerto Rico, Samoa, Saudi Arabia, Sri Lanka, Syria, Trinidad and Tobago, Tunisia, US Virgin Islands, Yemen. The process to activate the account will be introduced in the near future. If you’re not willing to wait for your account to be activated, you can withdraw your bitcoins by deleting your account.
+
+They basically decided to ban a whole lot of countries en masse. They've gone nuts!"
+webhosting,ffi79cc,t1_ffi73h9,1579966938.0,"emails sent via proton mail won't be encrypted in flight though right? so what's the point? you are trusting their smtp servers not to spy on you? what about other servers that handle the mail while it is in transit?
+
+pgp is truly end to end."
+localbitcoins,ffi73c0,t3_eslunr,1579966817.0,loll why did you do that? you can hold bitcoin on a wallet on your own device and no one can confiscate your bitcoins. instead you chose to trust them again even after they stabbed you in the back?!
+webhosting,ffi6n7r,t1_ffi3w0s,1579966488.0,i don't see what that has to do with the OP's query?
+CryptoCurrency,ffi1ajn,t3_eth60b,1579962075.0,no you can't. try buying locally for cash from someone in the EU. see the sticky on /r/bitcoin.
+CryptoCurrency,ffi15gx,t1_ffhfm01,1579961943.0,It's not crypto. There's no need for a blockchain if there's a central authority.
+CryptoCurrency,ffi142v,t1_ffgd3h5,1579961907.0,Seems you are the backward one.
+CryptoCurrency,ffi12sh,t1_ffhxbwt,1579961874.0,yeah but china bad US good
+CryptoCurrency,ffi1117,t1_ffhsiud,1579961829.0,non have released one yet though because it kills commercial banks. governments like banks.
+CryptoCurrency,ffi0zer,t1_ffgvc48,1579961788.0,people don't do anything unless their rivals have done it first. governments and banks were pretty happy with the way things were until bitcoin showed them an alternative. now all of a sudden they all want to issue digital currencies.
+CryptoCurrency,ffi0vwc,t1_fffxd0k,1579961694.0,They are not cryptocurrencies. They are just currencies.
+technology,ffhzf48,t1_ffhz7qw,1579960259.0,"aren't guns for a revolution an american thing? i hope you were being sarcastic. all governments have the potential to become abusive.
+
+i'm not in the west btw."
+technology,ffhy5a4,t1_ffhnxy8,1579958934.0,So what did you do then?
+technology,ffhy3bc,t1_ffhweia,1579958874.0,You can't finance a revolution without untraceable money. Your govt. can abuse you and you will have no recourse.
+technology,ffhy00i,t1_ffhoo7z,1579958776.0,you can't evade profiling by commercial entities or taxes imposed by the government if you don't have an anonymous payment method to use.
+Electrum,ffhxlju,t3_etil8i,1579958319.0,"Those are some problems you have. Ledger doesn't work with electrum *and* you wrote down the wrong seed(s)? How did you manage to mess up so bad?
+
+Regarding the seeds try the things listed [here](https://bitcoinelectrum.com/frequently-asked-questions/#why-wont-electrum-accept-my-seed-when-i-attempt-to-restore-my-wallet-from-it). Electrum seeds are not bip39 while the ledger seed is. A guide to create a multisig wallet is given [here](https://bitcoinelectrum.com/creating-a-multisig-wallet/). Start with ""Create the final wallet"" with one exception - in step 4 you would select ""Enter cosigner seed""."
+webhosting,ffhv29c,t3_etp5cg,1579955259.0,yes. if you want privacy use pgp.
+BitcoinMarkets,ffhuxj2,t1_ffhu0dr,1579955084.0,it's money leaving crypto
+startrek,ffhud2c,t1_ffhtsxd,1579954325.0,They probably can't stand the vulcans. I was wondering why the pointy eared dude in Picard's kitchen was smiling. Turned out he wasn't vulcan but romulan. It's hard to recognize them without the bad haircuts and grey suits!
+BitcoinBeginners,ffhtqxa,t3_etkagr,1579953459.0,"the thing with phones is that they are capable of wireless networking so you can never be sure whether it's truly offline or not. also android has many malware apps.
+
+if you just need to store a soft copy of your wallet why not use a usb drive?"
+todayilearned,ffg41dd,t1_ffek5ob,1579897993.0,[hmmm](https://commons.wikimedia.org/wiki/File:Flag_of_Zheleznogorsk.svg)
+technology,fffzjp0,t3_etcs9y,1579895223.0,#ULTRA
+technology,fffzg3x,t3_etdwh1,1579895162.0,"i suggest ""not really auto pilot"""
+startrek,fffzcq7,t1_fffyxtm,1579895104.0,Right. Only the Romulans are allowed to be two phased!
+technology,fffz89l,t3_etcw4y,1579895026.0,getting that sugar high while up high
+technology,fffz419,t1_fffqh3d,1579894954.0,an all knowing AI could allocate resources quite efficiently. problem is that humans would corrupt it anyway.
+technology,fffz0s6,t1_fffqn7t,1579894899.0,that's capitalism for you. you have 7 billion people competing for the same jobs so of course they will be willing to work long hours. even if they can do more in less time they will still be willing to work longer.
+startrek,fffya5v,t3_esqaoa,1579894441.0,Am I the only one or does Picard sound different?
+startrek,fffy5yl,t3_et6g6s,1579894367.0,starfleet captain and king of side hustles!
+startrek,fffy0e5,t3_etczlb,1579894270.0,TNG wasn't that sort of show though. It wasn't a popcorn scifi flick. It was more food for thought kinda stuff.
+startrek,fffxwqj,t3_etczlb,1579894206.0,"Spiner is probably too fat for that now 
+
+^*ducks*"
+startrek,fffxr1m,t3_esqaoa,1579894109.0,"Alternate title: ""Living with the enemy"""
+Electrum,fffxh46,t3_etei94,1579893938.0,Setting fee estimation to ETA or mempool under tools > preferences > fees tab is the same as dynamic fees in earlier versions. ETA and mempool are two dynamic fee algorithms you can choose from. See under fee estimation [here](https://bitcoinelectrum.com/how-to-manually-set-transaction-fees/).
+startrek,fffwk30,t1_fffa34x,1579893366.0,Probably the greatest mystery of all
+startrek,fffwd27,t1_fffkcd2,1579893243.0,Why is soong tech lost tho? Surely he would have documented everything like a good scientist.
+startrek,fffw9kb,t3_esqaoa,1579893184.0,Ships that fire two phasers at once are cool! Why didn't they think of that earlier?
+startrek,fffw6jc,t1_fffmweu,1579893131.0,It's definitely an interesting world. The effects are good too. It's like a movie.
+startrek,fffw43j,t1_fffnctq,1579893088.0,900 million people abandoned to their fates is reason enough for Picard to leave. No need to look for other reasons.
+startrek,fffvz6w,t1_fffok8p,1579893000.0,She didn't have eyes like that.
+startrek,fffvudu,t1_fffqy3m,1579892915.0,"but the synths are nice. even cats agree!
+
+i hope gemma chan makes an appearance!"
+startrek,fffvqfv,t3_esqaoa,1579892846.0,lol some AI's go rogue and starfleet decides to take it out on the romulans. what's up with that? were the romulans responsible for it?
+BitcoinBeginners,fffmnls,t3_etaq10,1579887246.0,"That's an address not a private key. If you don't have the corresponding private key you shouldn't use that address because you won't be able to spend coins sent there. 
+
+Easiest way to get bitcoin depends on where you are. Try googling ""bitcoin exchange <country>"". Most IRL stores don't support it though."
+webhosting,fffi1xo,t1_fffhlh0,1579884419.0,That was nice of them. I agree with you on one thing though. It's very rare that the IP changes. OP could get away with it for a long time.
+webhosting,fffgzzv,t1_fffcaf0,1579883761.0,"> Yea, but any hosting company that is worth staying, should inform the end user of the change. 
+
+They won't do that because they control all the DNS records of almost all their customers so they can simply make the change for them. The only customer's DNS records that they won't control would be the OP since he's using cloudflare's nameservers and not hostgator's."
+webhosting,fffgqkq,t3_etamwg,1579883600.0,"Wordpress (WP) is a type of free application called a Content Management System (CMS). A CMS lets you organize and publish content on a website. 
+
+Web hosting is the service of making your website available on the web. For this purpose the hosting provider will let you use some of its always on server's resources in exchange for a monthly fee. Once you acquire web hosting you can use any number of different CMS on that hosting package. 
+
+The difference between web hosting in general and WP hosting is that the latter claims to offer certain optimizations that make WP sites run faster plus technical support for WP users that general web hosting will not provide."
+webhosting,fffc2wf,t1_ffeu4z1,1579880674.0,There is one caveat with this. It may cause your site to go down if they switch you to a different web server with a different IP address.
+BitcoinBeginners,fff54n5,t1_ffebhdr,1579875944.0,What proof do they need when bitcoin payments are irreversible? It's the buyer that is bearing all the risk.
+Electrum,fff4dhc,t3_etacyu,1579875385.0,See [here](https://www.reddit.com/r/Electrum/comments/etacyu/trying_to_recover_a_wallet_with_its_seed_after/). 1 probably applies to you.
+startrek,ffew3t9,t1_ffdxivw,1579867990.0,there's huge overlap between linux geeks and startrek fans. even the insults are the same. both get called communists!
+BitcoinBeginners,ffevbpz,t3_et2vxa,1579867104.0,Why don't you just use the app ledger provides? Also FYI restoring from seed on a software wallet negates the benefit of having a hardware wallet.
+Electrum,ffeqtj0,t3_et4td0,1579860940.0,"Private keys look like this:
+
+https://en.bitcoin.it/wiki/Private_key#Base58_Wallet_Import_format
+
+You can export all the private keys via wallet > private keys > export. Electrum prepends the script type to them (p2somethingsome:). You can remove that part and import them into any wallet you like.
+
+The seed consists of 12 random english words. The seed is not  cross wallet compatible.
+
+Whatever you do please make sure you move your bitcoin to a new wallet before you expose your private keys to alt/forkcoin wallets. A lot of these wallets are dodgy and you don't want your bitcoins to be stolen. So move them out of the way first. You can create a new wallet in electrum using [this guide](https://bitcoinelectrum.com/creating-an-electrum-wallet/).
+
+Also note that a lot of these chains don't have replay protection meaning transactions you make on one alt/forkcoin chain can be replayed on other chains too meaning your coins move on those chains too. I'm not sure how people deal with that."
+WTF,ffeql26,t1_ffcng6g,1579860585.0,There are catfish here. I just didn't know whether the ones you have in your country are the edible kind.
+BitcoinBeginners,ffccitr,t1_ffahr98,1579796501.0,"which app do you have?
+
+>When you say withdraw do you mean convert back to £/$ or does that include moving it to a wallet?
+
+bitcoin can be held independent of an account with any company so withdrawing means to withdraw to a wallet on your own device for which only you have the key. it may not be necessary to do this if you have the non-custodial version of coinbase because in that case you already control the keys. since you won't tell us which version you have we can only guess."
+BitcoinBeginners,ffccfiq,t1_ffalj2r,1579796443.0,coinbase has a non-custodial deterministic wallet as well.
+BitcoinBeginners,ffccego,t3_esk23c,1579796424.0,did you write down 12 random english words when setting up the wallet? that's your seed and your keys are derived from that.
+hardware,ffc1v4b,t3_esp806,1579789430.0,Given the OP's username I thought he meant Torvalds.
+WTF,ffc0t8h,t1_ffbr4ic,1579788633.0,pakistan
+Electrum,ffborsa,t3_esotdm,1579776160.0,stop looking at block explorers. rely on electrum as the authority for how much money you have.
+funny,ffbooyv,t1_ffajqsr,1579776044.0,donating takes time and effort. not wanting to waste my time does not make me an asshole
+funny,ffa7bnc,t3_esf4zb,1579729287.0,gotta spin them up in a new sleeve first
+linux4noobs,ffa5t2s,t3_esgvcb,1579728448.0,Try running it with the verbose switch (-v). Also if you can access the command line via some other method like solusvm take a look at what it logs in /var/log/auth.log.
+Electrum,ffa4hle,t3_esgyhq,1579727710.0,It'll send you to the send tab where you can presumably do everything you normally do when sending bitcoin.
+WTF,ffa477r,t1_ff0hyjv,1579727546.0,are they edible?
+WTF,ffa3w3l,t3_erqpzm,1579727373.0,Muslims do this during eid ul azha every year.
+WTF,ffa3rvb,t1_ff8kaq6,1579727306.0,share it here!
+WTF,ffa3oja,t1_ff69lzb,1579727252.0,Because there was a scandal and reputation matters more than anything in indian families.

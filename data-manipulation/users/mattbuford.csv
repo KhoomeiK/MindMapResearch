@@ -1,0 +1,296 @@
+subreddit,self ID,parent ID,time,text
+networking,ffg58ij,t3_etblmg,1579898729.0,"You're going to need to actually give detail here.  What is the actual error message you saw?  Did you then look at the interfaces (like with ""show interface"") and actually see the same MACs?
+
+Look at the MAC address that conflicted.  What is that MAC?  Are those IPs two physical interfaces configured as router ports?  Or are these switch ports?  VLAN SVIs?  Are they HSRP or GLBP addresses?
+
+My experience is with the 6500, and a bit old (haven't touched them in 6+ years), but as I recall the mac addresses of the physical ports actually come from the chassis, not the line card."
+pocketcasts,ffg0sgl,t3_esfz40,1579895987.0,"In whatever filter you want to use, switch it to not even display undownloaded episodes.  Can't accidentally play via streaming what isn't even in the list..."
+HomeNetworking,fffjvbu,t3_eta86x,1579885530.0,"Since this IP looks to be a CDN node, and the ""attack"" is said to be a SYN/ACK scan (SYN/ACK packets are normally responses to outgoing connections), there's a 99.9% chance that you are the one that is making outgoing connections to them, and their response packets are triggering something on your router.  Looks like something to be ignored."
+pocketcasts,ffe15lt,t1_ffe0lbc,1579834014.0,"Oh, I was wrong it is 400GB not 512GB.  My phone (Samsung S9+) has 64 GB internal storage and then I inserted a 400GB microSD card in there too.  I set PocketCasts to use the microsd card so it doesn't store downloaded podcasts on the phone's limited 64GB storage at all.
+
+https://www.amazon.com/gp/product/B074RNRM2B"
+pocketcasts,ffe00hd,t1_ffdz2po,1579833185.0,"Hmmm, not sure then.  It does sound like you have everything set correctly.  I have done that in the past, but it has been a long time since I had any podcast that I didn't want to download every new episode for.  The 512GB sdcard makes it too easy.  :)"
+pocketcasts,ffdyvc0,t1_ffdfr2p,1579832356.0,"There are 3 sections on that page that control which episodes are downloaded and I guess you only told me the settings for one section.  So, you're saying the podcasts section is enabled, but only has 2 podcasts selected.  What do you have for the ""up next"" and ""filters"" part of that page?"
+news,ffdvusk,t1_ffdr5lg,1579830204.0,"Were you really running into cash-only regularly?  Or, was this 10+ years ago?  Even the tiniest food vender has one of those Square card readers these days.
+
+I'm American and travel the country extensively, and I almost never use cash.  The only exception I can think of is that sometimes parking lots have a guy out front that only takes cash.  I can also think of one single restaurant in my city that is cash-only.
+
+It's kind of a problem.  Sometimes friends and family pay me back for things in cash, and I have to go out of my way to spend it or else it just builds up."
+pocketcasts,ffd9m02,t3_essjsh,1579816127.0,"Is it actually downloading?  I've had a few cases where I'm on wifi then walk out of range, and it switches to LTE but the download indicator is still there.  The progress bar doesn't move at all while on LTE though."
+pocketcasts,ffd761p,t3_esxiu6,1579814741.0,"Profile -> settings -> auto download
+
+What are your settings in this section?"
+tifu,ff7kkbr,t1_ff7kgvs,1579651746.0,"It gives you a normal USB ""A"" port on your phone.  You can then plug in a USB thumb drive, an external hard drive, keyboard, mouse, etc..."
+GalaxyS9,ff6us29,t3_erxlgb,1579635306.0," [https://www.amazon.com/gp/product/B0754NDNT8](https://www.amazon.com/gp/product/B0754NDNT8) 
+
+I like this one because I can easily put the phone in or take it out one-handed.  Many mounts default open and you have to close them against the spring.  This one defaults closed, so it's always trying to grab the phone harder.  When your phone touches that little button you see in the middle, it snaps shut firmly.
+
+This also has wireless charging.  If you have a bluetooth receiver, you can be done connecting any wires to your phone at all."
+Nest,ff6fupn,t3_erwokk,1579626290.0,"I'm not aware of any way to do that directly, but depending on your needs it may be helpful to understand that each mode has its own schedule.  Heat, cool, and heat-cool are 3 sets of schedules that are remembered and switched between when you switch modes.  Obviously heat and cool modes aren't really interchangeable, but heat vs heat-cool and cool vs heat-cool can be.
+
+So, for example, you can use the heat-cool mode as your normal year-around schedule, but also have an alternate schedule that you flip to sometimes stored in heat or cool mode."
+tifu,ff6ev0u,t1_ff64qr3,1579625673.0,"You can also get a ""USB OTG"" adapter that just gives you a normal USB port for plugging in regular thumb drives, external HDs, etc:
+
+ [https://www.amazon.com/UGREEN-Adapter-Samsung-Controller-Smartphone/dp/B00LN3LQKQ](https://www.amazon.com/UGREEN-Adapter-Samsung-Controller-Smartphone/dp/B00LN3LQKQ)"
+pocketcasts,ff5fd1v,t3_erp231,1579590446.0,"Not that this really gives you what you want, but you might be able to accomplish at least a single list at a time by using the ""starred"" state to mark episodes that you want to be in a list."
+btrfs,ff5eqhl,t3_ernfaq,1579589715.0,"This is all just theory since you started running a balance before we saw any output but here's how I suspect it happened...
+
+Immediately after adding the new disk, sdd and sdc were full and sde was empty.  Your metadata was probably at 98% back then too.  At that point, you had somewhere to write data but nowhere to write metadata.  Writing metadata required raid1 to allocate a new metadata block on at least two different disks, but you had no space on 2 of your 3 disks so it could only allocate on one.
+
+So, what you needed was at least a partial balance.  Even rebalancing only 5-10 1GB blocks would probably have bought you enough space for metadata to expand for a decent while.
+
+I guess the question is, now that you have balanced at least partially, are you able to write files?"
+networking,ff38l4m,t3_er9dmu,1579536250.0,"Just because I haven't seen anyone else mention it:
+
+PAT requires keeping state of every connection, and keeping state is hard and dangerous.  It requires symmetric traffic flow, extra router CPU and RAM, and a lot of hoping that you don't fill your state table.  Any device that has to keep so much state like this, especially when centralized like CGNAT, is inevitably going to be a very weak point in your network uptime."
+UMF,ff1z7j8,t3_er049o,1579489609.0,"Look out by the airport.  For example, I just checked and found Red Roof Inn Plus+ Miami Airport for $178/night.  The train station is maybe a 10-15 minute walk from the hotel, or you can use an Uber.  I just walked it every day.  The Orange line train is like $2.25/person, runs directly from the airport to downtown, and they do run it late during Ultra.  This is the hotel I used last year."
+Dashcam,ff1xpjs,t1_ff1cbke,1579488562.0,"This would be problematic just because US state laws about using hazards vary so much.  In many states, it is illegal to use hazards while driving.  I'm not saying you're likely to get a ticket for using them in this kind of situation, but I think manufacturers are unlikely to make them come on automatically when that action would be illegal in some states."
+btrfs,feyoe7o,t3_eqw81a,1579448241.0,"A full rebalance just means it reads and rewrites all data.  If you have tons of data, especially on spinning drives, this can take a long time, which is probably why you saw it not recommended.  However, you only have 41 GB used AND you're on an SSD.  I would expect a full rebalance to take you maybe a few seconds.
+
+In 40 hours, your SSD has managed to read and rewrite 3 GB or less.  You also were unable to clone it.  Look at ""dmesg"".  I think you're going to see something bad in there.  Your drive is probably failing."
+LivestreamFail,feud1pt,t1_feubcqv,1579385373.0,"She has said before that one day she decided that she didn't like her life because she was shy, very quiet, and had no friends.  The way she came up with to fix it was to change her personality.  So, I think she is shy, but she actively pushes the boundaries every day.  After a year of doing that, this clip is what you get."
+networking,fep36k4,t1_feovz3a,1579311102.0,"VDCs aren't really useful when you're talking about how many hundreds of customers you can put on a single switch.  VRFs are more for routing, and generally a managed hosting provider tends to have little need to route customer networks around.  There were occasional needs, but for the most part customer networks lived entirely within our own building.  So, lots of VLANs and huge layer 2 networks.  Not so much layer 3 until you get outside the customer solution, at which point there's a fairly normal datacenter backbone.
+
+This was maybe 2003-2005 that I was setting up PVLANs and moving customers to them, and maybe 2010-ish that we had switched over to putting new customers on VLANs behind real firewalls instead.
+
+I don't know about any lack of support.  It was certainly well supported on the Cisco 6500 and Nexus platforms.  The Nexus added some nice features like ""switchport mode private-vlan trunk secondary"" allowing me to set up tagged ports facing hosts but with PVLAN behavior on one of the VLANs.  That way the PVLAN looked like a normal VLAN to the hosts and not the 2+ VLANs that PVLANs are normally trunked as.
+
+In general it was pretty common to have little or no segmentation between customers for a long time.  A new server might come with 10 IPs out of a /24 on the same VLAN as the next customer who has the next 10 IPs.  Remember that the PVLAN feature I used actually restored full L3 connectivity between all customers.  My goal was not to block L3 connectivity, but to protect the L2 network against faults (usually from dumb configs).  When the users have admin/root access to their servers, they are prone to doing things like typing the gateway into the IP field and taking down the entire /24.  PVLAN deployment was meant to stop the IP conflicts more than anything else.  I would have considered the design broken if any server wasn't able to reach any other server.  PVLAN without local proxy-arp wasn't really an option because then customers couldn't reach each other.
+
+As we shifted the business to focus on large highly managed customers, there was much more focus on security.  At that point, firewalls (which we managed and customers didn't have access to) had their outside WAN interfaces piled into the shared /24 VLANs, and then the inside interfaces were connected to a VLAN dedicated to a single customer.  Customers who wanted a DMZ would get another firewall interface connected into another VLAN.  So, at this point there was much better segmentation and there were firewalls to decide if customer servers could talk to each other.  But still, if customer A had a public web site opened to the world on their firewall, it was certainly reachable from customer B's servers.
+
+As VMs and then cloud came along, there was a lot of chaos as people tried random architectures.  In the very beginning, we deployed VMs right into the VLANs that were behind firewalls, exactly like physical servers had been deployed.  However, this was largely not automated so it didn't really work out for cloud, which needed to be self-service with immediate deployment.
+
+For a while, it seemed like the future was going to be VMs that weren't behind firewalls and everyone would just depend on iptables or hypervisor firewalls (think AWS security groups).  This was what you got with AWS before VPCs came along.  But then, AWS came out with VPCs, and the trend shifted more toward having your VMs on your own network behind some sort of firewall/NAT appliance that controlled/limited access."
+networking,fenwxix,t3_eq55iv,1579292099.0,"No, these things are not illegal."
+networking,fenqsmr,t3_eq2boi,1579289470.0,"At my previous job, I ran the network at a large managed hosting provider for over a decade, and during that time I migrated them to PVLANs (and then later migrated away from them).
+
+Look at ""ip local-proxy-arp"".  This causes the router to answer ARPs for everything inside the subnet.  The result is that all of the PVLAN hosts are able to communicate with each other - but at level 3 via the default gateway.  Even same-subnet traffic now has an extra hop through the router.
+
+You get the L2 isolation of PVLANs, but retain full L3 connectivity.
+
+* Customers are not able to create an IP conflict with the default gateway at all because they will never hear anyone else's ARPs.
+* Customers are somewhat protected against IP conflicts with each other in that ARP renewal requests only go to the host that is already using that IP.  Put simply, a customer IP that is in use can not be conflicted with or stolen, but if that customer ever fails to reply to an ARP refresh then that IP is released from the ARP table.  Entries that are not already in the ARP table are a free-for-all and can be stolen by anyone.
+* Customers can talk to each other via L3, just as you'd expect over the Internet.  You don't get any customers from company A complaining that they can't email company B (because company B's mail server is on your network too and PVLANs normally break connectivity).
+
+I was running something like 40 /24 networks on a single PVLAN like this at peak.
+
+The reason we eventually migrated away from PVLANs is that we moved to serving only larger customers.  Our larger customers always had a firewall, and thus always had a dedicated VLAN behind that firewall.  The PVLAN with local proxy-arp model was more suited for the low end ""just a server or two"" customers who didn't bother with a firewall or took care of it with iptables.
+
+For your IPMI question, is this happening on the same NIC as the server's main uplink, or on dedicated IPMI NICs?  We didn't have IPMI, but we did have a backup network.  The backup network consisted of a PVLAN without local proxy-arp, which means that all customer servers were unable to talk to each other at all over this network - exactly what we wanted for backups.
+
+In early years, we had an uplink NIC and a backups NIC on each server.  Later, I migrated from 6500s to Nexus, and at that point I started giving every single server 2 Ethernet cables and doing vPC/MLAG and VLAN tagging by default.  Every server could be put on any VLAN just by adding the tag into the existing cables.  This was great because we no longer had to involve the DC if someone asked for a 3rd VLAN or anything like that.  This also meant we had proper redundancy and I could power off any L2 switch and have sub-second failover.  Customers wouldn't even notice.
+
+Edit:  I somehow missed that you are using Juniper the first time I read your message.  Not sure if they have something like ""ip local-proxy-arp""."
+Austin,fem4dp8,t1_fem235f,1579239361.0,"s2000, but it isn't lowered or anything."
+aws,felwn7m,t1_fekil2n,1579232791.0,"Just keep data transfer costs in mind.  Transit gateway isn't cheap, especially if you do lots of data transfer.
+
+1 GB between hosts in same VPC and in same AZ = $.00
+
+1 GB between hosts in same VPC but different AZs = $.02
+
+1 GB between hosts in different VPCs via VPC peering = $.02
+
+1 GB between hosts in different VPCs via transit gateway = $.04 plus $73/month in attachment fees"
+HomeNetworking,fels0bx,t3_epseoq,1579229497.0,"First, the pingplotter results show at least some pings to [192.168.1.254](https://192.168.1.254) are quite high.  This is your router right?  That's a pretty high ping for across your LAN.  This makes me suspicious that spikes might be related to wifi.  Would it be possible to plug into a LAN port on the router and try the game and pingplotter test?
+
+Second, your destination's average and minimum pings are quite high for gameplay.  The destination IP you gave is in Singapore, while you appear to be in Austin.  Are you purposely playing on Asia servers?  That may be kind of rough even if we get your network issue sorted out."
+Austin,felggy2,t1_felg5zk,1579221607.0,"If you mean the big bang when I slam on the brakes, that is a cooler in the passenger seat flying forward.
+
+If you mean the low rumble after that, this was caused by me trying to accelerate in too high of a gear for such a low speed after the hard braking.  I was kind of distracted by the jogger and needed to downshift."
+Austin,fekw3w7,t1_fejyh0q,1579208815.0,"I had the same problem, and in my case it wasn't even that dark.  The sun was up, but low on the horizon causing the jogger to be very backlit.  All black in front of the dark shadow of a backlit tree = invisible.
+
+I'm happy to be cautious around pedestrians, even crossing illegally, but please let me be able to see you.
+
+ [https://www.youtube.com/watch?v=45nZYw4qUds](https://www.youtube.com/watch?v=45nZYw4qUds)"
+Nest,feia4ea,t3_ep2p7s,1579133703.0,"Does everyone in your household have a phone?  If so, I suggest disabling the motion sensors and only using phone assist to determine if you are home.
+
+Advantages:
+
+* Away mode with motion sensor takes 45+ minutes to notice you are gone, but is very fast when based only on phone location.
+* No false at-home toggles from the motion sensors.
+* Having away assist enabled (regardless of whether you disable motion sensors) ensures your system won't go into away mode because you took a few hour nap during the day, causing no motion to be seen.
+
+Disadvantages:
+
+* If you have a visitor staying at your home while everyone on the Nest account is gone, the Nest will think the home is unoccupied and go into away mode."
+HomeNetworking,fehr0q6,t1_feg2z4q,1579122153.0,">If you have them all on the same channel, your clients will not be able to hop from one to the other. They will hang on to the weak signal for dear life and never switch to the stronger signal.
+
+This is incorrect (though your post in general is great).  Roaming works just fine on a single channel, though obviously this is not a desirable configuration.
+
+Years ago, before mesh was a thing, I used 4 Linksys WRT54G routers and used WDS to link them all together in a line.  1 -> 2 -> 3 -> 4.  I then deployed this long line of APs with #1 having an Ethernet uplink via LAN port, and all other APs having no network cables at all.
+
+\#1 was parents living room
+
+\#2 was parents garage
+
+\#3 was sister's garage (2 houses away)
+
+\#4 was sister's living room
+
+All APs were on the same channel because this was necessary for single-radio APs to do WDS to each other.  This allowed them to share a single Internet connection and to have a single LAN across 2 houses.  The single-channel many-hop deployment was an inefficient use of wifi spectrum, but their Internet link was only 2 Mbps anyway.  The same-channel deployment did not cause any problems for roaming.  I could start a download near AP #1, walk outside, down the street, into the second house and go near AP #4 and I'd end up roaming to either #3 or #4 without any interruption to my download.
+
+All that said, I'd certainly always recommend putting them on different channels.  The above situation was a special case where I had no choice."
+torrents,feccmyp,t3_eoet30,1578970808.0,"It is probably dead, yes.  However, you never know.  Sometimes someone with the missing chunk will come along months later.  For example, maybe someone who has that torrent downloaded only runs their torrent client when downloading.  Several months from now they might decide to download something else, launching their torrent client for a few hours and seeding the torrent you want, allowing everyone to get a little closer or even finish.
+
+Vuze/BiglyBT has some good features for finding the same file in other torrents, and I have used that several times to get the file from a different torrent and then re-seed it into the dead torrent, fixing all those people stuck at 99%."
+todayilearned,fe9itvm,t1_fe9c9js,1578937868.0,"Exactly.  I'd even say it is considered rude and dangerous there to pass someone without honking.  Nearly every truck has writing on the back reminding drivers to honk for safety.
+
+[https://images.indianexpress.com/2015/05/horn-ok-please.jpg](https://images.indianexpress.com/2015/05/horn-ok-please.jpg)
+
+[https://media.istockphoto.com/photos/blow-horn-indian-truck-parked-up-picture-id458262823](https://media.istockphoto.com/photos/blow-horn-indian-truck-parked-up-picture-id458262823)"
+GalaxyS9,fe93v59,t3_eo3h6w,1578933893.0,"I don't know if this is true in other countries, but at least in the US, the carriers have their fingers in the Samsung updates - even for unlocked versions not purchased through a carrier.  Last year, T-Mobile forgot about the S9 unlocked and there were simply no unlocked updates at all for 6+ months even as the locked version got regular updates.  Eventually this was resolved and now we seem to be back to (mostly) monthly updates."
+HomeNetworking,fe2m6ef,t1_fe22w3s,1578840394.0,"I'm not an expert at this, but some googling around seems to indicate it is not that simple.
+
+ [https://www.quabbin.com/tech-briefs/channel-requirements-and-length-stranded-cable](https://www.quabbin.com/tech-briefs/channel-requirements-and-length-stranded-cable) 
+
+The tables at the bottom give some algorithms and results for determining max length depending on your mix of solid and stranded lengths.  The lines where horizontal length is 0 is the ones we care about for this discussion.
+
+To summarize, it looks like stranded only matters slightly at cat6 and below and depends on AWG.  At cat6a, it seems to matter moderately."
+cordcutters,fe2l6b2,t1_fe0uj6s,1578839795.0,"Next time you find it limited to 100:
+
+On windows, start -> network status -> change adapter options -> right click on adapter and select status
+
+Within the box that appears, there is a speed indicator.  If it says 1 Gbps when you're only getting 100 to the Internet, it doesn't sound like a cable problem.  However, if that is switching to 100 Mbps, then yes you likely have a bad cable.  It could be the NIC on your PC or the router port too, but usually it is just the cable."
+torrents,fe0ha1c,t1_fe0g5d4,1578813421.0,"Capital B is bytes.  Lowercase b is bits.
+
+Your torrent is showing 547.3 KiB/s so that is bytes.
+
+Your task manager is showing 4.9 Mbps so that is bits.
+
+Also relevant is understanding the difference between KB and KiB (with the i in there):
+
+ [https://en.wikipedia.org/wiki/Kibibyte](https://en.wikipedia.org/wiki/Kibibyte)"
+Windows10,fe0gjuh,t3_enjz2x,1578813091.0,"Did she perhaps have her documents folder moved into Onedrive?  If you do that, your ""c:\\users\\username\\my documents"" folder will be blank.  Check out ""c:\\users\\username\\"" and look for any folders that start with ""onedrive"".  Search inside there.  For example, my corporate laptop has it in ""c:\\users\\username\\onedrive - companyname\\documents\\"".
+
+If she had her folders moved to onedrive, but syncing wasn't working for some reason, I think the up to date versions that hadn't been synced should be in there.
+
+For the future, make sure anything important is being synced and/or install a fire-and-forget continuous backup solution like Backblaze or competitors."
+cordcutters,fdzxkv0,t1_fdzsehr,1578798255.0,"It's not that they have redundant wires.  It's that 100 Mbps and lower only used half the wires, while gigabit uses all wires.  If one of the wires that 100BASE-T doesn't use breaks, your gigabit connection will downgrade to 100 Mbps.  If one of the wires that 100BASE-T uses breaks, your cable will not work at any speed anymore."
+aws,fdzsp7a,t3_enee8h,1578794886.0,"On a related note, I suggest planning for AZ affinity from the beginning if you do go multi-AZ.  People seem to forget that.  $.02/GB adds up quick when you start scaling.  If each layer of your application stack load balances back and forth across AZs, you might be adding that $.02/GB repeatedly for each transaction."
+HomeNetworking,fdru19c,t1_fdrt2qa,1578689664.0,"OK, I saw the picture you attached and you're in the wrong section.  You appear to be adding a static route to your router, which is not the same as port forwarding.  Here are some instructions for doing port forwarding with your router:
+
+ [https://portforward.com/linksys/ea6350/](https://portforward.com/linksys/ea6350/)"
+btrfs,fdqu80h,t1_fdq9zhn,1578674975.0,"I went with Samsung QVC 4TB SSDs for $400 each.  The QVC drives are the low endurance ones, so it remains to be seen if that will be a problem for me.  I don't tend to write a ton of bytes continually to them, so I'm hoping they'll last a long time.
+
+11 years ago, everyone told me WD green drives should never be used in a NAS, but my array of 5 of them worked great and exceeded 10 years of power-on-hours before I decommissioned them for the SSD upgrade."
+HomeNetworking,fdqtvyo,t1_fdpr9se,1578674775.0,"No.
+
+If you're trying to do a port forward, you go into your router, find the port forward section and type in the port and then the server's IP.  The only IP you will be typing into the port forwarding section is the server's IP."
+GalaxyS9,fdowf5c,t3_emf40b,1578614417.0,"This isn't exactly what you asked, but something else to consider would be a travel router with USB port and fileshare capabilities.  It's kind of nice to be able to access a HD or USB stick on my phone without actually connecting any wires to it.  The access just done over wifi.
+
+I usually just use sdcards though.  512gb microSD isn't very expensive and is incredibly smaller and lighter than even a 2.5"" SSD.
+
+I used something like this when I was on a ship for a month with no Internet access.  I loaded up my microSD with movies and TV shows, and could sit in my cabin and stream whatever I wanted wirelessly without a dangling mess of USB cables."
+HomeNetworking,fdol9md,t3_emghrb,1578607427.0,"If you want to learn networking, and really want to learn by doing (vs using a premade solution), install a general Linux distribution and turn this into your router.  Don't install a router OS like pfsense, just a regular Linux of your choice.  Then install dhcpd, configure iptables for NAT, and so on until you have a router.  Then, if your ISP supports it, add IPv6 with prefix delegation to the mix.  Learn to do stateful firewalling.  Learn to add port forwards.
+
+If you really want to get fun, add a second ISP and learn about dual-WAN.
+
+Learning how to turn generic Linux into a router would be a good learning experience for someone wanting to become a network engineer.
+
+If this sounds like too much for you, starting with a premade router distribution would be an OK way to dip your toes in."
+HomeNetworking,fdokp36,t3_emgjlx,1578607091.0,Sounds like you're putting the default gateway into the router port-forwarding field that is expecting the server IP.
+btrfs,fdnxy6w,t1_fdn6thu,1578595112.0,"I checked when I got home, and my server, after the SSD upgrade, now uses about 50 watts.  That's with 4 SSDs and 2 HDs being actively used, but the backups array turned off.  It has a very power efficient CPU, so roughly 25 watts is being used by the CPU/motherboard/RAM and 25 watts by the HDs and SSDs.
+
+I haven't had trouble with HD failures.  I don't think I've had any drive fail in the past 10 years except for an external drive that I knocked off the desk while it was spinning.  They seem to last very long, no matter if I run them 24/7 or power cycle them every single day.  The 5 HDs that I recently replaced with 4 SSDs were Western Digital Green 1 TB drives that had reached >10 years of 24/7 runtime.  I decided that was long enough, and SSDs had gotten cheap enough, that I could convert the primary array to all SSD.
+
+I don't use any enterprise drives at home.  I'm generally looking for cheap and low power storage and don't care much about performance.  So, my numbers are going to be consumer grade, and not even high performance consumer.
+
+I am familiar with the sun near the poles.  Here's a picture I took at midnight in Antarctica (during the summer):
+
+ [https://i.imgur.com/mKvWZBW.jpg](https://i.imgur.com/mKvWZBW.jpg)"
+UMF,fdmkqea,t3_em4gn2,1578553561.0,"This question got me wondering if they go by Korean age or international age when deciding if people are 19+.  Looks like the answer is international age:
+
+ [https://www.soompi.com/article/989257wpp/giveaway-win-3-tickets-see-ultra-korea-2017](https://www.soompi.com/article/989257wpp/giveaway-win-3-tickets-see-ultra-korea-2017) 
+
+ [https://www.reddit.com/r/korea/comments/395c73/umf\_korea\_anyone\_going/](https://www.reddit.com/r/korea/comments/395c73/umf_korea_anyone_going/) 
+
+ [http://u-ticket.co.kr/shop/service/faq.php](http://u-ticket.co.kr/shop/service/faq.php) 
+
+ [http://ticket.yes24.com/Pages/English/Perf/FnPerfDeail.aspx?IdPerf=14606](http://ticket.yes24.com/Pages/English/Perf/FnPerfDeail.aspx?IdPerf=14606) 
+
+Confusingly, this URL talks about Monster Energy giving away UMF Korea tickets, and minimum age to win is 19+ by Korean age (which would be 17 or 18 international age):
+
+ [https://www.monsterenergy.com/promotions/win-tickets-to-ultra-korea-567](https://www.monsterenergy.com/promotions/win-tickets-to-ultra-korea-567)"
+torrents,fdldhs1,t3_elw8gl,1578521691.0,"Depending on your torrent client, often the answer is increasing the number of connections above the default.  Sometimes there are low per-torrent connection limits, or sometimes you hit the global application connection limit.  More connections means downloading from more seeds at the same time."
+btrfs,fdld21o,t1_fdl9ezn,1578521426.0,"The drives are in USB enclosures and connected to the server via USB, so they're not using regular in-server-case power.  Their power is controlled by an APC managed power strip.  The one I have is super old, from like 2000-ish, and it supports turning ports on/off via SNMP.  So, my backup script calls snmpset to turn on the power, sleeps for a minute for everything to start, mounts the disks, does a backup, unmounts the disks, sleeps a minute, then calls snmpset again to turn off the power.
+
+Using USB also means I'm not tying up any precious SATA ports."
+btrfs,fdk6dgx,t1_fdk2rnw,1578497103.0,"My backups system is designed to power up the backup drives, perform a backup, and then power them off.  All of the listed btrfs drives spin probably <1 hour per day on average.  While this doesn't completely negate your comment, it is largely mitigated.  However, I do agree there is still some merit to what you're saying.
+
+Your watts estimate is very high though.  It's more like 5-7 watts per hard drive when active.  I keep my server and my desktop on kill-a-watt meters so I have a pretty good idea of their usage.
+
+Up until a few months ago, my entire server with 7 24/7 spinning HDs pulled 70 watts, and about 25 watts of that was the CPU/motherboard/RAM.  I recently replaced 5 of those 7 HDs with 4 SSDs, reducing the power use, but I can't remember the current watts.  I'll check when I get home.  At this point, I only have 2 HDs left at home that spin 24/7.  Everything else has migrated to SSD."
+btrfs,fdj2rur,t1_fdit0px,1578456939.0,"This array of trash disks powers up every night, does a backup, and powers off again.  So, power consumption is not a huge concern."
+btrfs,fdi5pi5,t1_fdi0a82,1578436197.0,"I don't really care about performance.  I just love the flexibility.  Where old hard drives go to die:
+
+    Label: 'backups'  uuid: 81f5c405-9864-4178-b964-ed60149caa82
+            Total devices 10 FS bytes used 4.42TiB
+            devid    1 size 931.51GiB used 910.00GiB path /dev/sdj
+            devid    2 size 931.51GiB used 910.00GiB path /dev/sdk
+            devid    4 size 111.76GiB used 91.00GiB path /dev/sdr
+            devid    5 size 465.76GiB used 445.00GiB path /dev/sdq
+            devid    6 size 465.76GiB used 445.03GiB path /dev/sdl
+            devid    7 size 1.82TiB used 1.80TiB path /dev/sdp
+            devid    8 size 2.73TiB used 2.71TiB path /dev/sdh
+            devid    9 size 465.76GiB used 444.00GiB path /dev/sdi
+            devid   10 size 931.51GiB used 910.00GiB path /dev/sdm
+            devid   11 size 931.51GiB used 333.00GiB path /dev/sdn
+
+The 111 GiB one is an old PATA drive pulled out of a TiVo that was first installed in like 1999-2000.  At this point, the size is so tiny I could remove it, but if it's still working then I might as well keep it going just to see how long it lasts.  Whenever this array starts getting full, I just grab another drive from the decommissioned old drive pile and add it in."
+btrfs,fdhfs8u,t3_elf2qt,1578421721.0,"This matches my experience exactly, except that I never even bothered deploying ZFS after learning it wasn't flexible about adding/removing drives.
+
+I do feel a little stupid and wasteful using RAID1 instead of RAID5/6, but the convenience of btrfs adding/removing disks is so huge that I'm willing to use the 50% inefficient storage method.  Generally, my arrays either have a small number of disks, so 50% inefficiency isn't much worse than RAID5/6 would be, or my arrays have quite a few disks, making RAID1 much less efficient with space but also making the convenience of add/remove so much more important."
+GalaxyS9,fdeqd7p,t3_ekumn0,1578344417.0,"I don't know much about this and didn't want to try it on my phone, but...
+
+[findmymobile.samsung.com](https://findmymobile.samsung.com)
+
+Log in with Samsung account and then there is an ""unlock"" button that claims to be able to unlock the phone, which deletes all lock settings (biometrics, pattern, password).  So, it sounds like this should be able to unlock your phone, but then you'll probably have to redo your pattern and fingerprint settings."
+HomeNetworking,fdcmdo5,t3_ekki8z,1578278503.0,"Gigabit (1000BASE-T) was designed to run on cat5, so it will be fine on your cat5.  It is not going to be limited to 100 Mbps.
+
+If you're running it along an easy to replace path, this is fine.  However, if you're installing it inside walls or in any way that makes it hard to upgrade in the future, I'd suggest using a newer cable standard.  Not because you need it now, but so you don't have to rip things out 5 years from now when you want 10Gbps.
+
+Also, doublecheck the box label.  Does it say 100 Mbps or 100 MHz?  Cat 5 is 100 MHz, which is why I ask."
+Economics,fdcj5ml,t1_fdcatx6,1578276198.0,"That's easy.  They're recovering from a huge dip where the bottom happened to line up with the year's end.
+
+Jan 2018 = 877
+
+Dec 2018 = 615
+
+Dec 2019 = 920"
+PublicFreakout,fda75tt,t1_fd6rscn,1578242537.0,"Yep.
+
+ [http://specializedtowingfl.com/](http://specializedtowingfl.com/)"
+pocketcasts,fda1qyd,t3_ekecqe,1578240736.0,"I don't know if it is related, but I've been having download issues with a couple episodes.
+
+I have 2 podcast episodes, from different podcasts, both from December 27th, whose status was stuck as ""Waiting for WiFi"".  Never mind that I'm on WiFi 95% of the time and it has been over a week, and newer podcasts have downloaded just fine.  I have disconnected and reconnected WiFi, rebooted, and even disabled the setting that requires WiFi for downloads, allowing my podcasts to be downloaded over mobile data, and still the status is still always ""waiting for WiFi"".  Pressing the little X on the episode, which should cancel the download, does nothing.
+
+I eventually found the button for ""cancel all downloads"" in settings.  Hitting that changed the status of the waiting downloads to look like un-downloaded episodes.  At first I thought this was going to be a fix, however now clicking the download button on the episodes does nothing.  Both of these podcasts will immediately play just fine if I hit the play button for them to stream.  This sounds somewhat similar to the state you ended up in, however one big difference from what you describe is that I don't even get a momentary download indicator.
+
+My phone is an S9+ and PocketCasts version is 7.6.1 (4886)."
+quicken,fd0u4yn,t3_ejo0bl,1578123791.0,"Edit -> preferences -> Register -> ""Show memo before category"""
+aws,fcynyrw,t3_ejk8nm,1578083609.0,"While others have mentioned the availability issue, another thing to keep in mind is cross-AZ costs.  I'm currently working on fixing a VPC that was deployed with a single NAT gateway shared by multiple AZs of instances, and the NAT gateway is doing large amounts of traffic.  Although not as expensive as the NAT gateway data processing fees, the cross-AZ fees that are happening in this deployment are still significant.  By simply spinning up a NAT gateway in the other 2 AZs, I increase NAT gateway per-hour costs by $73/month and decrease inter-AZ traffic costs by thousands of dollars a month."
+networking,fcy68qm,t3_ejiolj,1578075343.0,You'll need a traceroute from the server to the client to know the server to client path.  Note that reversing the client to server traceroute is not the same thing.
+todayilearned,fcxtxa3,t1_fcxmjys,1578070408.0,"Downtown meter hours:
+
+>Monday and Tuesday - 8 a.m. to 6 p.m.  
+Wednesday through Friday - 8 a.m. to 12 midnight  
+Saturday, 11 a.m. to 12 midnight.
+
+Pricing is $2/hour."
+todayilearned,fcxscha,t1_fcxjkwm,1578069725.0,"Pro tip:  After 5 PM weekdays, and all day Saturday and Sunday, the Capitol Visitors Parking Garage is free and reliably not full.  During weekday work-hours, it is paid, but caps out at $12/day.  During SXSW, and rarely other special events, the price goes up and it might be something like a flat $20."
+Twitch,fcvbu0t,t3_ej452d,1577998822.0,"The distribution algorithm is not public, presumably so that people can't game the system."
+HomeNetworking,fcphr9w,t1_fcpho9k,1577864646.0,"OK, that explains it then.  You scanned much more than your own network, so you got responses from hosts outside your network.  It's probably not worth looking into any further."
+HomeNetworking,fcphlv0,t3_eif71l,1577864445.0,"So the first thing to understand is that your network is probably not [192.168.0.0/16](https://192.168.0.0/16).  You probably are using only a /24.  The rest of that big /16 network is likely being routed upstream to your ISP, which may have those IPs used in ways that respond.  If you want to scan your LAN, then specify only your LAN network block."
+torrents,fcog66b,t3_ei6mc6,1577831442.0," [https://en.wikipedia.org/wiki/Network\_address\_translation#Methods\_of\_translation](https://en.wikipedia.org/wiki/Network_address_translation#Methods_of_translation) 
+
+ [https://en.wikipedia.org/wiki/STUN](https://en.wikipedia.org/wiki/STUN)"
+LivestreamFail,fc26sqq,t1_fc1a2wg,1577343028.0,"She used to work at a convenience store, and she says some customers were nice and would buy her a chocolate bar or other small gifts.  She used to actually stream from the convenience store desk until her boss found out.
+
+[https://www.twitch.tv/hachubby/clip/SinglePlainChinchillaPrimeMe](https://www.twitch.tv/hachubby/clip/SinglePlainChinchillaPrimeMe)
+
+[https://www.twitch.tv/hachubby/clip/MoralRelentlessChoughSaltBae](https://www.twitch.tv/hachubby/clip/MoralRelentlessChoughSaltBae)
+
+So, she had the idea to do the same sort of gifting with a whole basket of snacks for convenience store workers who are working on Christmas day.  The day before, she did something similar, roaming around and finding any people working at 4am Christmas eve, and gave them presents of blankets, snacks, etc.
+
+She says she is saving most of her donations to buy her own convenience store, which she will stream from."

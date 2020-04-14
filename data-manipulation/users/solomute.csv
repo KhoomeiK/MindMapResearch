@@ -1,0 +1,246 @@
+subreddit,self ID,parent ID,time,text
+electronic_circuits,ffp5svw,t3_eufwm3,1580086967.0,"The value of the capacitor matters because in between open circuit at dc and short circuit at infinity hertz, the capacitor has a finite impedance, and the value of the capacitor affects exactly what that is. In audio circuits you will tend to use larger coupling capacitors so that audio frequencies (as low as 20 Hz) can still pass through them.
+
+R8 is a potentiometer, which is a resistor with a wiper that taps off a point along that resistor. What it's doing here is forming a variable resistor *divider,* creating an output gain control.
+
+Just spitballing, but I'm guessing this is some kind of distortion, compressor, or other non-linear circuit, and the components in the feedback path are providing that behavior."
+amateurradio,ffo2g76,t3_eu8z9w,1580073496.0,"The envelope of an SSB waveform doesn't really flow intuitively from the baseband waveform. The way to tell is to look at it in the frequency domain, not the time domain.
+
+SSB in the frequency domain looks like the frequency domain of the baseband, just shifted up. AM looks similar but with a mirror image around the carrier frequency. DSB-SC looks like AM without the carrier signal."
+oddlysatisfying,ffjt2ic,t1_ffjbpoo,1580006185.0,"I whipped up a model during some downtime at work. I had to make a thingiverse account and apparently new users are restricted for 24 hours, but in 24 hours it will be available [here](https://www.thingiverse.com/thing:4127425)"
+sportsarefun,ffj21sw,t1_ffiy7dm,1579988423.0,"* Basketball was ruined forever when somebody figured out that committing a penalty could be strategically advantageous, and the rules weren't patched to eliminate that. Making fouls a ""resource"" that you ""spend"" to gain an advantage goes against the entire point of having actions you don't want in the game and penalizing people for doing them, and it turns the last few minutes of a close game into an excruciating free-throw-shooting contest rather than a legitimate sporting event.
+
+* Defense is so ineffectual that there's no such thing as an exciting, low-scoring defensive contest. Maybe this comes down to personal preference but when you're not allowed to *physically prevent* scoring, defense becomes a lot less interesting and exciting to watch. Defense is literally half of any sport, and here we have a sport where an entire half of the game is *boring.*
+
+* The high scoring nature of the game makes it really hard to get excited about individual scores and their effect on the outcome, and this is reflected in the fact that your highlight-worthy plays aren't things that represent turning points in the game or whatever, but rather, flashy displays of individual athleticism. Which are fun to watch, sure, but this is supposed to be a team sport, not a gymnastics meet."
+oddlysatisfying,ffixdbp,t1_ffim40y,1579985033.0,"It's sold out, but if anyone's interested I think it should be pretty easy for me to whip up an STL you can 3D print if you or someone you know has a printer. Or you can order it from Shapeways or whatever. Reply if you're interested so I know it's worth the effort
+
+Edit: I whipped up a model super quick. I had to make a thingiverse account and apparently new users are restricted for 24 hours, but in 24 hours it will be available [here](https://www.thingiverse.com/thing:4127425)"
+sportsarefun,ffiv6ja,t1_ffiprv4,1579983504.0,"Team Handball: Basically Basketball, only about a million times less shitty."
+VIDEOENGINEERING,ffiuuyy,t1_ffiug52,1579983296.0,Sennheiser has talkback-capable wireless
+VIDEOENGINEERING,ffhf1px,t1_ffg1od4,1579932542.0,What is the reason for trying to go with some weird VOIP solution instead of regular old two-wire PL? Your camera CCUs should be able to speak it directly so you can take advantage of the intercom that's already built into the camera infrastructure.
+CCW,ffcf8d0,t1_ffcdo9m,1579798179.0,"I think you and others are possibly missing the point of ""slow is smooth.""
+
+The point is to deliberately focus on performing the correct actions consistently, at whatever speed you are capable of doing so. The point isn't to be deliberately slow, but to be deliberately *correct*. Speed flows naturally from developing and practicing consistent technique. Consistent technique can not flow from pushing yourself beyond your ability to execute it. The point of ""slow is smooth, smooth is fast"" is that pursuing speed for its own sake creates bad habits, it is better to develop that speed by first developing good habits."
+PublicFreakout,ffbflra,t1_ffbaeke,1579763146.0,That cop is an idiot. You have no idea if that guy is carrying a knife or something else that will ruin and/or end your day if you escalate the situation to physical force. If your actual safety isn't being imminently threatened your best bet is to do exactly what you did.
+livesound,ff99pvu,t1_ff98suc,1579708062.0,"Oh, here's another one.
+
+Went down to Iowa to do an outdoor show the start/finish line of... I think it's a bike race? Anyhoo, set day, we had some weather predicted so we double-tarped FOH, no side walls on the tent but we figured the tarps should work well enough. Went back to the hotel, called it a night.
+
+Around 1am my boss rings my phone, he's looking at the weather and wants to get eyeballs on our rig. So I get dressed and hop in the truck with him to go down and check.
+
+First thing we notice is that the wind has blown the spotlights out of the spot tower, mere feet from FOH. Second thing we notice is that the tarps have blown off the dimmers and it's raining directly into them. Audio gear all looks fine, so we re-tarp the dimmers (too little too late?), and make a phone call to the lighting guys letting them know about the situation.
+
+In the morning I discover that water has somehow gotten through two tarps and into my audio console. I open it up to let it bake for a couple hours, and when it's time to sound check my opener I close it back up and pray. One dead channel but otherwise fine. Woot! Lighting had to acquire two replacement spotlights by showtime, but somehow the dimmers were fine. I couldn't believe it."
+livesound,ff98suc,t3_es9p31,1579707484.0,"In a town about an hour south of me, there's an outdoor amphitheatre. A local production company puts a roof over the stage and supplies PA for shows in the summer.
+
+Until one day, there was an intense storm that blew the roof over (luckily everyone had taken shelter away from it and nobody was hurt).
+
+This story is not about that.
+
+This story is about two weeks later, when the production company I worked for was hired to supply the roof and production for the rest of the summer.
+
+So we were putting on a little festival out there, around the middle of the show we started getting rain, called off the show, and started working on battening everything down.
+
+Over the next hour, the weather got hellish. 40 mph winds, rain that felt like it was landing punches on you. The stagehands, traumatized from the events of two weeks prior, were lamenting their bad fortune. Our roof was rated up to 70mph so we weren't worried about any structural issues but you try explaining that to folks who just had a roof almost land on them two weeks ago.
+
+Anyway, I got FOH pretty well buttoned down, I went to the stage to see if they needed anything, they were struggling keeping rain out of the backline but told me to go keep FOH dry. Works for me. The walls of my FOH tent were whipping around and the ropes tying it down to the ballast were visibly straining but the tent did its job.
+
+Touring crew was nowhere to be seen during this debacle, they were all cowering on the bus. After the rain subsided their FOH came off the bus and asked me about the status of his gorgeous vintage analog rig that would have probably been impossible to replace. He seemed prepared to hear the worst. I happily let him know that it was dry as a bone under a tarp inside a tent. I didn't tell him that he could've put some of his own effort into saving it if he really cared about it that much.
+
+Next day we un-tarped the rig and did day 3 of the festival like nothing had happened."
+BroadcastSound,ff5d2h0,t3_erm545,1579587868.0,Doesn't look like an Artemis... Which one is it?
+livesound,feu0pt5,t3_eqhr98,1579381989.0,"Yamaha is the only audio console manufacturer that actually understands or even gives a shit about usability. Fight me.
+
+Avid, and the S6L in particular, is an abomination."
+bestof,fer55q4,t1_fepm4pi,1579350004.0,"One of these things is vastly, vastly, more likely to actually happen"
+weekendgunnit,feold60,t1_feo9a3c,1579301782.0,"I thought it was Kansas
+
+Maybe it's both"
+gifs,feln5e9,t1_felfohv,1579226164.0,"Too precise for a human? You haven't seen many of the things that humans can do, huh?"
+gifs,feln0ii,t1_felkxdo,1579226072.0,Once you've flown the track a few times you're no longer reacting to it. You know what's coming up and can fly a line on muscle memory.
+gifs,felmub8,t1_fellpjr,1579225952.0,"The analog signal coming out of it is the only low-tech thing about that camera. Go back a decade or two and you'd be hard-pressed to find a camera small, light, and cheap enough to fly on a drone that size."
+gifs,felm9yo,t1_felkj0x,1579225565.0,"Nah, you just haven't watched enough videos of good pilots. The speed of this video is very achievable with practice."
+livesound,feedhnc,t1_fedzu9j,1579031504.0,"A lot of broadcast gear will re-clock incoming MADI streams, so it's not a problem if the gear on the other end isn't synced."
+VIDEOENGINEERING,fed54x1,t3_eoj0yd,1578999351.0,"The human eye doesn't respond to light the same way that camera sensors do. It's more sensitive to the differences between darker colors than the differences between brighter colors.
+
+Cameras work by turning the range of possible brightnesses into numbers. There are only a limited amount of possible numbers you can use, and since the human eye is less sensitive to differences between bright colors, it doesn't make sense to dedicate the same number of possible values to those brighter colors as to the darker ones. If you increase the brightness value by 1, you want it to represent the same perceived difference in brightness all the way from the bottom of the scale to the top.
+
+So you change how the camera assigns brightnesses to numbers, so that the smaller numbers represent colors that are closer together. This is what gamma does."
+redneckrevolt,fdsdrn1,t1_fdscjri,1578700346.0,"I don't have intimate knowledge of exactly what JBGC does, but short of advocating to overthrow the government I can't imagine anything you could do at a gun club meeting that would be illegal. Again IANAL."
+redneckrevolt,fdsc1vy,t3_emwraj,1578699165.0,"Define ""armed community defense"".
+
+It's legal pretty much everywhere to use lethal force to prevent death or great bodily harm to yourself or another person.
+
+It's legal pretty much nowhere to use lethal force in a situation that you personally escalated into violence, even if you would have suffered death or great bodily harm otherwise.
+
+Laws on open and concealed carry, permitting processes, and your duty to retreat from violent situations, vary from state to state.
+
+I think it's pretty safe to say that arming people and patrolling your neighborhood for evildoers will be regarded as gang activity by local law enforcement and you'll find yourself under a microscope, if not in jail.
+
+Encouraging and training people to lawfully carry firearms for their own self defense is perfectly fine.
+
+IANAL."
+audio,fdo311v,t3_emec9t,1578597970.0,"8 AWG is rated for 50 amps. Your little 50 watt desktop speakers are distorting because you're trying to drive them too hard, not because 1/8” thick copper wire is somehow failing to keep up with them.
+
+For comparison, I plug in 10000 watt power amps with 12 gauge, and wire them up to the actual speakers with 16 gauge. These are speaker systems driving large festival PAs."
+livesound,fdktm6b,t1_fdjxqyi,1578510895.0,"> How much actual *tonal* work do you find yourself doing? Particularly in the context of live sport broadcast. 
+
+A lot less than on a music show, but enough that I'm glad the EQs are there. If I'm in a rush I can do a whole show without EQing anything but there are little things to be done here and there. The big thing for me in the winter is eqing away those damn sneaker squeaks from the basketball court. I try and get more of the footsteps and the ball bouncing."
+livesound,fdktch9,t1_fdkrojw,1578510733.0,Why are you listening to master control and stage and EVS?
+livesound,fdkt6d3,t1_fdkphou,1578510631.0,">I should add the guy who mixes the Twins home show is one of the best in our business a solid dude and a good friend. 
+
+I owe my career to Tweeter! He got me started as a broadcast A2 in town, and later he taught me how to be an A1. He's also a fantastic president of our union local."
+livesound,fdksopg,t1_fdk4t29,1578510343.0,"Too bad news is all automated now. There's no entry level for TDs and A1s to learn the ropes anymore, they just gotta get thrown into the gigs and sink or swim. It's definitely good for my career since it's resulted in a bit of an A1 shortage, but man were those first few gigs rough."
+livesound,fdksa2a,t1_fdk7lmy,1578510101.0,">I guess my main question is, what would you say are the most important  things for someone who is transitioning from the theatre and band stuff  into more of a broadcast area to know?
+
+The big thing is that your routing is a hell of a lot more complex in broadcast world than anywhere else. You need to be methodical and organized to manage all of it.
+
+The other thing is that you have to develop the ear for being able to listen to and comprehend cues from your producer and director, while also making your show sound good. Doesn't matter how good your mix sounds when you miss a tape roll because you were too busy listening to the mix to hear your director's cue. But you're also gonna get yelled at if your announcers are buried under the FX."
+livesound,fdkrm6v,t1_fdk5ptr,1578509705.0,">For example when the video changes from one feed to another, are you  making the change for the audio to switch simultaneously, or how is that  managed?
+
+Most of the time, in sports, you're doing everything with fingers on faders and listening to the director and producer call the show. There are a couple opportunities to let technology do the work for you though.
+
+So, video switchers have signals that they output called ""tally"" which indicate which sources of video are live. Tally from the switcher is hooked into the cameras to light up a red light letting the camera operator know their camera is live, it's hooked into video walls to turn sources red in the monitor wall when those sources are live... and it can also be sent to the audio console and used to trigger macros.
+
+It's totally possible to build your show so that sources of audio are automatically made hot in response to certain sources of video getting tallied. You might notice this a bunch in auto racing, but it's also used for things like dealing with graphics machines that make noise.
+
+>Would there ever be a situation where one person is managing both the audio and video?
+
+Most local TV news is automated nowadays. One centralized program operates the video switcher, playback, audio, etc, firing off pre-built cues that are placed in the script by the producer and director during preproduction."
+livesound,fdkqueb,t1_fdk3sks,1578509246.0,"So there's two types of intercom connections, called two wire and four wire. Four wire intercom has a separate path for audio going in each direction between two points. Two wire intercom carries audio in both directions down the same conductor. Both have their place, so our shows have a mix of both. If we want people on four-wire and two-wire segments of the intercom to talk to each other, we need what's called a hybrid. If you talk into a two-wire intercom while listening to it, you will hear your own voice coming back out of it. The four wire users talking into that two-wire segment don't want to hear themselves echoing back out of the two wire, so the hybrid attempts to cancel it out.
+
+Nulling the line is when the hybrid makes noises into the two-wire line to test its frequency response. It needs to do this because that frequency response can change depending on what's connected to the line, and mismatches between what the hybrid is trying to cancel, and the actual frequency response of the line, will cause undesired audio to leak through the hybrid."
+livesound,fdkpytq,t1_fdkkwgq,1578508726.0,"A note about compression ratios -
+
+The conventional ""2:1/4:1/8:1 etc"" notation for compression ratios is, quite simply, wrong. It fails to create an intuitive understanding of how much compression you are requesting.
+
+2:1 sounds like gentle compression, right? Wrong. 2:1 is halfway to a brick wall!
+
+4:1 sounds like twice as much compression as 2:1, right? Wrong. It's three quarters of the way to a brick wall, compressing just 25% harder than 2:1. 8:1 sounds like twice as much as 4:1, but it's only compressing about 12% harder, and it's about 88% of the way to a brick wall. 50:1 sounds insane, right? It's almost a brick wall, but not that much closer to a brick wall than 8:1, the difference between 8:1 and 50:1 is about the same as the difference between 4:1 and 8:1. Crazy huh?
+
+Compressors would be a hell of a lot more intuitive if the ratio knob were instead labeled in percent."
+livesound,fdkowrw,t1_fdk8jkf,1578508095.0,"To elaborate on the other responses -
+
+The word ""interruptible"" here refers to the fact that talent foldback is fed via the production intercom system. Normally they are fed a program mix, but a user in the truck (typically the producer) can *interrupt* that program mix to talk to the talent."
+hmmm,fdi8mvd,t1_fdhgidm,1578437707.0,"In most of 'murica, openly carrying a firearm doesn't require a license. Carrying concealed does. This is because the idea of concealed being the ""polite"" way to carry is fairly new. It used to be that anybody carrying concealed must be up to no good because they're hiding their weapon. People who want to commit a crime don't show you their weapon first, they want it to be a surprise."
+livesound,fdg37wp,t1_fdg0uoe,1578378336.0,"Groups make a lot more sense for broadcast than for live mixing for a lot of reasons -
+
+* Building ""stem"" mixes that make it easier to build other mixes by only having to worry about contributions from a small number of groups rather than from all of your individual input channels
+
+* Broadcast mixes move around a LOT as you go between pre-taped packages, so you have a lot more need for single handles that you can use to manipulate groups of channels (you can use DCAs too but for some reason I've never gotten the hang of remembering that channels are under DCA control, it's easier for me to remember that the audio is flowing through a group)
+
+* I personally like compressing things in groups, it makes sure that a loud hit on the ice won't duck my announcers, for example"
+livesound,fdg0nec,t1_fdfkxws,1578375749.0,"The big thing is routing and how your mix is organized.
+
+On a Calrec there is no concept, whatsoever, of a sequence of numbered channels. If you're ever locating a specific channel in a menu somewhere, channels are listed by what faders on the surface they're assigned to. This is because you don't just have one stage box with a bunch of channels plugged into it that all originate from a single 40 foot stage. You are dealing with sources that hit your from all over a building, and it's logistically much easier to group them *physically* by where they come from in the building, but *arrange* them in your desk according to what makes sense for the show you're mixing. Reducing the number of *intermediary* cross-patches makes your show a lot easier to organize. On the Studer Vista you have to patch sources to channels, then arrange those channels on your surface, and there's no painless way to make changes to your patch because you don't think of the channels on your surface in terms on what channel numbers they are, but the console forces you to reason about them in those terms.
+
+Another great thing that broadcast desks do is give every individual fader a second layer, essentially. If you've got more sources than faders, the traditional solution is layers, but pressing that layer button changes every single fader on the entire desk, including faders you might want to still keep your fingers on. You could put those faders on the second layer, or you can do what broadcast desks do, which is give every fader a second layer for just that fader. My announcers are doing an open on hand mics, I can put those on the back side of the faders I'm using for their headsets because both things aren't going to be used at the same time, and flipping those faders doesn't affect the faders where I have my tape machines etc.
+
+Another thing broadcast desks do is shitloads of routing and paths. Top end Calrecs have 1500 total audio paths, hundreds of which can be auxes, or groups, or masters. The big thing eating paths isn't so much your inputs as your outputs, of which you need a ton to feed all of the various things that need them. Tape land is particularly hungry for feeds. On one show I did last year, I had to build submixes of 6 different gymnastics events going on at the same time so that any of them could be played back from tape at any time."
+MurderedByWords,fdfhxo0,t1_fdfhkb3,1578362107.0,This right here
+BroadcastSound,fdfgsss,t1_fdf073a,1578361350.0,"That's funny, pretty much every nhl, nva, and mlb game in the US is a side-by-side"
+specializedtools,fd8cwh2,t1_fd81fgy,1578217009.0,That's where I learned about it! Thanks Gun Jesus!
+specializedtools,fd7amqj,t1_fd7a3p0,1578201630.0,A guy in the UK made a fully-automatic submachine gun out of hardware store parts. I kinda wanna make one myself but even a semi-auto open-bolt design is considered a machine gun by the ATF and I like my dog too much.
+specializedtools,fd6j1pi,t1_fd6ehvk,1578191792.0,"FTF means ""failure to feed,"" so the answer is no."
+specializedtools,fd6ioal,t1_fd60e2w,1578191625.0,If you have access to one of these you probably have access to everything you need to make a *much* better firearm.
+HumansBeingBros,fd6eqla,t1_fd6bbdg,1578189858.0,"Or if you only use your laptop for writing papers and using the internet, get a Chromebook or a cheap tablet with a keyboard and keep the other $800"
+2ALiberals,fcz1knb,t1_fcynnn0,1578091815.0,"Actually \*funding\* the necessary bureaucracy so that it works effectively would make it convenient to own firearms, and we can't be having that.
+
+In reality we'd end up with a situation like we have with NFA items, where the ATF is purposely not given enough resources to handle the workload in order to make the process an obstacle."
+liberalgunowners,fcyudr1,t1_fcytcqe,1578087282.0,"> The other thing is, firearms and their parts are really expensive in the Czech Republic. A typical G19 Gen 5 costs a standard monthly wage of an assembly line operator.
+
+Why the hell would you buy a Glock when you live in the country that makes the CZ75"
+BroadcastSound,fcyu4sl,t1_fcyltzy,1578087129.0,What kind of routing situation did you get yourself into?
+audio,fcxq08c,t3_ejfy4z,1578068734.0,"Turn the knob until it sounds good. You're the listener, it's up to you.
+
+It does look like you are giving it a bit of the classic ""smiley"" curve, which is pretty common. It's also common for people to develop more appreciation for midrange as their aesthetic tastes mature. But again, you're the listener, make it sound good to you."
+politics,fcw35qs,t1_fcvqsro,1578016063.0,"Look, I'm just pointing out the political reality.
+
+30% of self-identified liberals own guns. That's a lower proportion than conservatives, but still a pretty good number of people.
+
+How many of those people stay home, or worse, cross party lines, because they don't want to cast a vote for a politician who wants to criminalize their lifestyle?
+
+What do you think the Democratic party could do with tens of millions of additional voters who don't need to feel conflicted about voting for them?
+
+Do you want to address economic inequality and systemic poverty? Do you want to end the war on drugs? Do you want public health care? Do you want to address climate change? You need people to vote with you on those issues. You need to stop telling people you want to send them to prison over their peaceful ownership of lumps of metal and plastic, when that's why those people aren't voting with you, and ultimately those issues are far, far more important.
+
+This notion that you don't need to actually convince people to vote for you, that you'll impose whatever restrictions you want on them regardless of how they feel about it, is authoritarianism at best."
+politics,fcvpz56,t1_fcuzq5h,1578007477.0,">You aren't going to find many people who agree with democrats on most things except for ONE issues which keeps them voting with Republicans. 
+
+/r/liberalgunowners
+
+You can agree with 99% of a party's politics, but when the last 1% is ""you deserve to be thrown in jail even though you haven't done anything wrong,"" it's pretty easy to become a single-issue voter for the single issue of ""I don't want to be thrown in jail"""
+TwinCities,fcvogrm,t1_fcuo835,1578006522.0,"I used to go to the Saloon when Hard Mondays was there, I liked it. I appreciated the quieter area in the back."
+PublicFreakout,fcsmm1s,t1_fcslrpn,1577919784.0,"... Yes, you absolutely do need to be grounded. It's just that whether you are grounded or not can depend on how much voltage we're talking about. The high voltage of the third rail might be enough to overcome the insulation in your shoes, for example.
+
+Power companies do repairs on high-voltage (~hundreds of kilovolts) transmission lines, without turning them off, by just flying a helicopter next to them. No path to ground, no problem"
+BroadcastSound,fcsclrj,t3_eif97n,1577914659.0,"Is that still in service or an old photo?
+
+I shudder at the notion of mixing on a console that's been riding in the back of a semi for two and a half decades"
+electronic_circuits,fcscacu,t3_eijglm,1577914530.0,"Static electricity, radio waves, or even just random noise. You made yourself a very sensitive detector."
+ThatsInsane,fcs6os9,t1_fcrbrct,1577912192.0,"Am former sports cameraman (and now sports audio guy), can confirm, that little zoom out is *exactly* a ""wait, where did it go"" moment."
+interestingasfuck,fcmionp,t1_fcm1avq,1577776847.0,"Because then people who already have the government of the City of New York to represent their interests wouldn't be able to impose their values on people with fundamentally different lifestyles halfway across the country, and we can't be having that now can we?"
+nextfuckinglevel,fcm7p70,t1_fcls9lr,1577766415.0,"> There is no real background check system in place. 
+
+Have you ever actually bought a firearm or are you just regurgitating talking points"
+Iamactuallyverybadass,fclrhkb,t1_fcl5c0k,1577754693.0,"This seems to me like one of the more common fallacies in the gun debate - ""We need stricter gun laws, and this is a stricter gun law, therefore we should do it,"" without actually connecting the proposal to an actual mechanism by which that proposal would address any actual problem.
+
+I can type a word into Google and get millions of results back in a quarter of a second. It's absurd to me that people act like instantaneous background checks are some kind of lapse in public safety, as opposed to the simple application of modern technology to the process.
+
+Mandatory waiting periods have had zero effect on crime anywhere they have been implemented. In the absence of an actual benefit to public safety, this just ends up being an attack on legal gun ownership."
+Foodforthought,fcje9ft,t1_fcj15em,1577684527.0,"So why did Michael Bloomberg spend $80 million lobbying for restrictions on gun ownership in 2018?
+
+I love how firearms are, simultaneously, overly-powerful military weapons of war that don't belong in civilian hands, and ""toys"" that nobody is really afraid of. Which is it?"
+Foodforthought,fcje1xn,t1_fcjdu00,1577684336.0,"I was literally replying to somebody who said ""but what about mass shootings and right wing terrorism"" as a way to argue in favor of restrictions on firearms but okay
+
+[All you had to do was scroll up but here it is](https://www.reddit.com/r/Foodforthought/comments/ehbcba/the_us_and_uk_political_systems_are_now/fciusbf)
+
+I also love the bit where the guy telling me to commit suicide with my ""fat cheeto fingers"" is the one scolding me about ""not having an adult conversation"""
+Foodforthought,fcjdjn1,t1_fcjawyf,1577683886.0,"If you think I'm being disingenuous, it's because you think the word means ""I can use this word to dismiss you and your argument without bothering to admit any evidence of my own."" *That* is disingenuous. I am quite sincere.
+
+It's a simple fact that being a victim of terrorism, mass shootings included, is one of the rarest things that can happen to you in this country, and rare events shouldn't be used as a basis for policy. I think we all agree, for example, that the USA massively overreacted to 9/11 and it shouldn't have been used to justify our massive reduction in civil liberties over the next decade. If you can't see how criminalizing tens of millions of people is a massive overreaction to the ""mass shooting"" problem, you either believe they are more common than they actually are (thanks to the availability heuristic and media sensationalism), or you simply have no sense of proportion."
+Foodforthought,fcjcqg2,t1_fcj96c0,1577683189.0,"See, here's the problem.
+
+The Republicans play by what the rules actually are.
+
+The Democrats play by what they wish the rules were, and bitch about it when that results in them losing.
+
+Either change the rules or use them to your own advantage. Just don't spend all your energy bitching about political reality."
+dogswithjobs,fcj0frt,t3_ehbdwb,1577674194.0,"I fly out of Minneapolis pretty frequently and he's never there when I do. =(
+
+Probably because most of my flights are either super early or super late"
+todayilearned,fcj08k4,t1_fcikedx,1577674055.0,"Before I worked in sports broadcasting I used to work in concert production, and I'll never forget the time the company I worked for was doing production for an Adele concert (before she was \*really\* huge), and she was riding a scooter around the arena floor and I jumped out of her way.
+
+If I'd been a quicker thinker I could be sitting at home right now instead of babysitting announcers at a hockey game"
+Foodforthought,fciwpu3,t1_fciv60r,1577671641.0,"The Republicans also maintained majorities in the House and Senate, or did you forget that the federal government has a legislative branch as well as the executive"
+Foodforthought,fcivgwb,t1_fciusbf,1577670788.0,"You are more likely to be struck by lightning in this country than killed in an act of terrorism, and if it weren't for news media (such as... Bloomberg News, whoa, there's that name again) blowing these events well out of proportion, nobody would care."
+Foodforthought,fciubom,t1_fcipsxv,1577669995.0,"Ditto with Trump in the US. The left in the US doesn't understand why they lost so badly in 2016, and hasn't even bothered attempting to understand, and I fear that's going to turn into a second term in 2020."
+Foodforthought,fcinjt5,t1_fcimr3l,1577665572.0,"Billionaires like Michael ""Stop And Frisk"" Bloomberg singlehandedly fund every anti-gun advocacy group you could name. Bloomberg specifically is behind Moms Demand Action and March For Our Lives. Bloomberg was also the single biggest donor to the Democrats in 2018, who purely coincidentally started coming out hard for firearms restrictions in that election cycle."
+Foodforthought,fcimm20,t1_fcifc8g,1577665097.0,Why do you think America's elite are so concerned with restricting firearms ownership?
+Foodforthought,fcigq06,t1_fcavbio,1577662274.0,">Who is talking about that kind of ban though? I've never heard that from anyone really. 
+
+Apart from everything in /r/NOWTTYG, Democrats proposed legislation banning and confiscating common firearms and accessories on the very first day they took control of the Virginia state legislature, and such bans are listed in bold text at the very top of their national party platform. The notion that ""nobody is talking about bans"" is a bit ridiculous and directly contradicts observable reality.
+
+>A more obvious move is just normal gun regulation, like many other countries have. Perhaps some sort of effective registration or licensing etc. 
+
+How does this actually address criminal use of firearms? This is the sort of thing that I'm talking about, this chain of logic that first starts from the premise ""we need stricter gun laws,"" which then follows to ""this is a stricter gun law, therefore we should do it,"" without bothering to connect the actual effect of that law to an actual goal in the realm of public-safety. It reveals that the goal has nothing to do with public safety, the goal is simple prohibition of firearms by whatever incremental means are possible.
+
+>Is it authoritarian that we require a license to drive a car? Lol
+
+Aside from the fact that the point of driver's licensing is to certify competency in an attempt to reduce *negligent* motor vehicle deaths and injuries, and the problems related to firearms are due to *intentional* malicious behavior (i.e. a fundamentally different problem which requires fundamentally different solutions).
+
+Aside from the fact that you don't need a driver's license to merely *own* a car and drive it on private property, and a license is only required to drive on *public* roads, which is already the case with guns, where a permit is required to carry them in public in most jurisdictions.
+
+Aside from the fact that the need to certify competency before letting people loose with two-ton machines that kill tens of thousands of people a year despite that certification, is broadly agreed upon, and what makes many proposed firearms regulations authoritarian is the fact that those regulations are not broadly agreed upon, especially by the people actually affected by them.
+
+Aside from those things, imagine a world where events like that Charlottesville Nazi running people over were, instead of being considered the behavior of a deranged individual, were used as pretext by a powerful anti-car lobby to restrict the ownership of motor vehicles by civilians. ""Nobody needs a high-horsepower assault car whose only purpose is to exceed the speed limit and make it easier to run people over."" Imagine if driver's licensing, instead of being a simple certification of competency to drive, were instead used as a financial and class barrier to intentionally deny driving privileges to everyone not rich or well-connected enough to get through the process. Imagine if you could meet all of the legal requirements for a driver's license, pay all of the appropriate fees and jump through all of the appropriate hoops (none of which have anything to do with public safety), and *still* have an unaccountable bureaucrat arbitrarily deny your license. Imagine if you had to give ""good cause"" for being issued a driver's license, and ""because I need to drive to work"" wasn't considered a valid reason. And now imagine that crimes committed by *unlicensed* drivers were used as a pretext by lawmakers to make the process of getting a driver's license even more difficult.
+
+This is the situation, today, for gun owners in states like Hawaii, California, New York, and others.
+
+>Should people be allowed to have rocket launchers and missiles too, just in case?
+
+People *are* allowed to have rocket launchers. It's a $200 permit and you go through the same background check that you need to buy a regular-old firearm. Actual off-the-shelf civilian availability is pretty low but any reasonably handy person could build their own out of model rocketry or fireworks parts pretty easily.
+
+The reason you don't hear about crimes being committed with homemade RPGs is because they are simply impractical for crime. Ditto with suppressors (something like three crimes, total, have been committed with legally-owned suppressors in the last century) and machine guns (the only crime committed with a legally-owned machine gun since WW2 was committed by a police officer)."
+livesound,fcazo7u,t1_fcawq1n,1577579784.0,"I mix pretty actively and follow the ball/puck around the field/court/rink and I have had a few complements, especially when something happens right under one of my mics and it comes through loud and clear. Still pretty rare tho :("

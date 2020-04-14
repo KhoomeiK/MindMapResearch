@@ -1,0 +1,58 @@
+subreddit,self ID,parent ID,time,text
+ShadowPC,fgsyesd,t1_fgqerer,1581095238.0,">So the Windows client can't use FreeSync/GSync ?
+
+That is correct, no such thing.
+
+&#x200B;
+
+> So I guess the video stream can have variable framerate ? 
+
+Basically the encoder will ramp down the FPS and bitrate IF there is no need to push data so hard. This saves bandwidth, CPU, power and everything on both sides without any visible degradation of quality.
+
+If you see the FPS going all haywire while in game, that can mean a network connection problem."
+ShadowPC,fgsy7bt,t1_fgrvkos,1581095113.0,"It is 100% legal to upgrade the Shadow Windows to Professional. Sorry I didn't mean to be so confusing. I meant that these ""5$ keys"" are not completely legal. Gray area. 
+
+The whole point is that you should avoid such keys on business computers, laptops and so on. That's all. They will work fine everywhere else."
+ShadowPC,fgq3elw,t1_fglyecg,1581017119.0,It'll be a while until that happens. I mean some extra saved money never hurts from a budget standpoint... :p
+ShadowPC,fgq39hs,t1_fgnu1rm,1581017039.0,\^ This.
+ShadowPC,fgq2492,t3_ezvv9j,1581016426.0,Nope.
+ShadowPC,fgq22xd,t1_fgpvei7,1581016406.0,"Ah I meant by Microsoft's standard/EULA, not by Shadow's, sorry."
+ShadowPC,fgp6gtp,t1_fgmx2vc,1580998054.0,"Up to 2TB... yea, that's been the promise for 2 years. I am a few of the lucky people who signed up back then for +1TB. But imagine waiting now 2 years for that extra space... I mean come on."
+ShadowPC,fgp6e94,t1_fgoxqb0,1580998004.0,"There is also the decode lag, as you said the network lag, etc. It's just unfeasible for real time use (like music) IMO. And I do like the service but there is delay definitely."
+ShadowPC,fgp6bc5,t3_ezsckw,1580997947.0,"* The Linux client is in a very early shape. You can only use it with Intel / AMD GPU. But even then it's hit or miss.
+* Please do a ping test to Amsterdam or Paris before signing up.
+* You might end up having a sub-par experience due to the ping you have. You MUST have a 0% packet loss, stable, fast connection for Shadow.
+* It would kinda work for desktop use but fast paced games just won't be too responsive.
+* Don't expect much support as you are signing up from an unsupported region using an unsupported way."
+ShadowPC,fgp63qc,t1_fgp3aby,1580997796.0,Your post to /r/ShadowPC has been DM'd as spam and has now been removed
+ShadowPC,fgp5p2i,t1_fgp3b8f,1580997504.0,"Keep in mind, those keys are not legal / not legit. They work, they usually don't get deactivated, but don't EVER think about using those keys on a company computer for example. You might get in a huge trouble - as you are basically committing piracy by using such keys.
+
+They are usually stolen or just MSDN (or whatever it's called today)  generated. Basically you can have a subscription on MSDN which grants you keys. You can generate as many as you want. So people buy a subscription and resell the keys. This is absolutely, 100% illegal. Again, the keys work at home, the FBI won't knock your door down, but they are absolutely illegal. 
+
+Hope that helps.
+
+Ps.: A better ""cheap option"", especially for business use is ""refurb keys"", which are basically old Windows 7/8 keys from old PCs. Those are legal - at least in the EU."
+ShadowPC,fgp5iz8,t3_ezr4vk,1580997383.0,"* If you don't use the official client, your Shadow will turn off by itself as it cannot ""sense"" that you are actively using it. Ie.: You cannot really use alternative clients long-term.
+* Shadow uses Windows 10 - which does have RDP by default. But the Shadow computers are behind NAT and they don't have any open ports at all. Ie.: You cannot use RDP at all. If you build a virtual network with Hamachi or ZeroTier One, then you can reach your Shadow via RDP.
+* You can upgrade the Windows 10 on Shadow with a legit Windows 10 Professional key, but it makes zero sense to do so."
+Huawei,fgkhcy1,t3_eyqnf7,1580865591.0,Train outlets are very scary. Never ever plug anything remotely valuable into them. I heard stories about dead laptops. Just don't. Use a quality power bank.
+RingOfElysium,fgi4uyz,t3_eyg986,1580805623.0,"Just use a hwid changer. The game's anti cheat is laughable. Doesn't ban real hackers and has too many false positives.
+
+https://sourceforge.net/projects/hwid-changer/"
+joinsquad,fgi2ltv,t3_eyfj7x,1580802647.0,"Sir, very excellent clip, sir. It's bad to get facepunched from the back, sir!"
+cloudygamer,fgi0cdl,t3_eydu1h,1580799921.0,Nice!
+RingOfElysium,fgg6ksw,t3_ey6nym,1580755345.0,Can't blame hacks if the game has in-built wallhack lmao.
+qBittorrent,fgey4n0,t1_fgewgph,1580714736.0,"Sorry, no, I meant the 3 day thing. The site definitely had issues right now, it was our host. As soon as I saw the alarm I started fixing it but it took some time. The forum will be also up in just a moment. Terribly sorry about the downtime.
+
+tl;dr: Downtime should have been few hours not 3 days. If someone can't reach it for so long, please definitely open a ticket, tag on Discord, reach out any way you can, we really appreciate it."
+qBittorrent,fgevw2j,t3_exzice,1580712020.0,"Terribly sorry about the downtime, it was a host problem. We will make sure this won't happen anytime soon by deploying some more redundancy."
+qBittorrent,fgevup8,t1_fgechpg,1580711977.0,"That must be wrong, the site worked perfectly just hours ago.. I also use two monitoring services to make sure the site is always reachable."
+RingOfElysium,fgevg3h,t1_fgcsr2q,1580711515.0,"The entire game is swamped with cheaters lmao... Not surprising, devs haven't spent a dime on a proper anti-cheat."
+ShadowPC,fg6ihl3,t3_ex47xz,1580568876.0,I'd absolutely not even try to use Shadow with 75GB limit.. that's just impossible to pull off.
+ShadowPC,fg6ejpn,t1_fg6c6il,1580565645.0,"Just make sure OP to check the ""recipient"" email address whenever you get a mail to know which account got the email, lol."
+ShadowPC,fg6eiwe,t3_ex5mrk,1580565625.0,"Yes, of course you can own 2, 3, 4, etc."
+aww,fg2uu81,t1_fg2aiv7,1580456860.0,"Eww scrum
+
+Eww pair programming
+
+These things make me regret my choice of career at times. Luckily there are still normal places out there without such bs."

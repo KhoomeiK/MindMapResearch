@@ -1,0 +1,240 @@
+subreddit,self ID,parent ID,time,text
+excel,ffgpted,t1_ffg8byv,1579911992.0,"u/CFAman has the correct answer. You can add a little more flexibility to it though.
+
+* Add a blank sheet, name it First, put it as the first sheet
+* Add another blank sheet, name it Last, put it as the last sheet.
+* Add a summary sheet, place it so it is not between First and Last
+* Use this formula: =AVERAGE('First:Last'!C4)
+
+Fundamentally the same concept, except that using blank placeholder sheets lets you move sheets from in between First and Last to get different averages."
+interestingasfuck,ffficef,t1_fffhryo,1579884594.0,I only played classical. I was in awe of the types of sounds electrics could make.
+excel,fffi7gx,t1_ffed4jy,1579884512.0,"Glad you were able to get it to work. As far as the pivot tables are concerned, double check the field names. Remove extra spaces and use consistent capitalization."
+interestingasfuck,fffhtoc,t1_ffe249t,1579884275.0,I did not know that was what they were called.
+interestingasfuck,fffh8vg,t1_ffe9ltm,1579883913.0,Here's a  video that explains it: [https://youtu.be/icsFJP4dSOk](https://youtu.be/icsFJP4dSOk)
+interestingasfuck,fffgyrb,t1_ffej1oh,1579883740.0,Yes
+interestingasfuck,fffgtyj,t1_ffevzla,1579883658.0,"Correct. By 'self-tune', I meant it is tuned to itself not to a standard 440 tone."
+excel,ffdsuq0,t1_ffdsg5n,1579828068.0,Definitely try again. I have a file that is >500 MB and PQ works ok with it.
+interestingasfuck,ffdfmkc,t3_eszff2,1579819864.0,"You can use sympathetic resonance to self-tune a guitar using harmoncis. It's hard to explain but you can hear the strings get into tune with one another.
+
+Edit: By self-tune, I mean it is tuned to its other strings, not tuned to a standard 440 A tone. You tune it but you hear the vibrations come into sync."
+excel,ffczjlj,t3_esvifi,1579810479.0,"Use PowerQuery to get data from Workbook A. Depending on the structure of the data in Workbook A, you might have to play around with the columns etc, to get it right. All the data from A will be imported into a table in B when users click 'Refresh All'"
+excel,ffbda70,t1_ffb6l35,1579760478.0,">It would work fine the first time I ran it, but when trying to add new weekly files, it would always grab the header row as a data row.
+
+Yes, PQ will do that if the file has a header row. What you do is add a last step that filters out any header rows. For example, if the first column header is InvoiceNumber, you add a <>InvoiceNumber filter. When you RefreshAll, every row will be appended and that last step will remove all the header rows."
+excel,ffas3yx,t3_eshuwh,1579743199.0,"    =SUBTOTAL(109,$E$9:OFFSET(E10,-1,1))
+
+$E$9 will be the starting point of the sum
+
+OFFSET(E10,-1,1) will always point to the cell above itself (this formula was put in E10)"
+excel,ffaozoe,t3_esl1sh,1579741104.0,"If the source data is in a website or csv, you can use PowerQuery to import the data. PQ is pretty fast and you can do all the ETL in it.
+
+To get new data in, you click on 'Refresh All'. However, you will need to change the source file in the code or set up a parameter in a worksheet."
+CasualConversation,ffao9po,t3_esjphn,1579740617.0,That's similar to the start of the movie 'Following'. I 100% recommend watching it. Such a good movie and everything comes together perfectly at the end. A great story.
+excel,ff77qre,t3_es1dan,1579642774.0,"> 1>T33>0.5 
+
+This will not work.
+
+You need to do something like this for all your comparisons:
+
+AND(1>T33,T33>0.5)"
+excel,ff73pjp,t3_es0krd,1579640501.0,"Highlight the column and go to Data, Grouping. This will give a pane with a plus sign that users can use to interactively show/hide the column. 
+
+To prevent the text from spilling over into the next cell:
+
+1. Select the cells
+2. Go to the Format Cells Dialog pane (CTRL+1)
+3. Change the horizontal alignment to 'Fill'. Unfortunately, if the text is shorter than the column width, it will repeat.
+
+Alternate clunky solution: Type in a space in the cell next to the text to prevent overflow"
+todayilearned,ff6yhx8,t1_ff6mkkq,1579637499.0,"There's a nice Taco Bell in Pacifica, Ca with an Ocean View"
+news,ff4mvl3,t1_ff4jha8,1579567467.0,His head was always slightly crooked.
+excel,ff4menk,t1_ff4m0v4,1579567134.0,"I thought that was what you wanted but after reading your post again, maybe you want a merge instead? A merge will combine all tables using a common key. 
+
+If that's still not what you want, post a pic of some of the data with explanations."
+excel,ff4kck5,t3_erm3y6,1579565706.0,"I have read that if you want to do heavy statistical analysis, you can use Python. If you want compatibility across devices and for Excel online, you need to use the new javascript API. For everything else, I would use VBA."
+excel,ff4hsn1,t1_ff4gvwb,1579563942.0,You don't have to create a new connection for each table. You can append directly in PQ. I don't think it'll break anything if you built connections to them though.
+excel,ff4gqjf,t3_erl50l,1579563211.0,"Create a new append query, add all the 8 tables to it."
+SanJose,ff4fs22,t1_ff4f1rj,1579562557.0,"OK thanks. I got a mountain bike yesterday, gf is getting hers tomorrow and we are scoping out easy places to get started on."
+SanJose,ff4ei3t,t1_ff4ed7r,1579561701.0,Really? I did not know that. Are there any other apps that you would recommend?
+SanJose,ff4dz3l,t1_ff4c77l,1579561348.0,Check out [AllTrails.com](https://AllTrails.com) for trail maps.
+excel,feouu2y,t1_feoudnr,1579305924.0,">Case Else"" Textbox1.BackColor = RGB(0, 0, 0)
+
+should be
+
+>Case Else: Textbox1.BackColor = RGB(0, 0, 0)
+
+But that might not be the source of the object required error"
+excel,feou5ap,t3_eq7s2u,1579305571.0,"Why do you have
+
+     Sub AutoShape3_Click() 
+
+that is not part of a subroutine"
+excel,feotdvn,t3_eq7xlu,1579305134.0,Why not use Advanced Autofilter with A1:A5 as the criteria range?
+excel,fehkprk,t1_fehkeyw,1579118515.0,Needs to say Solution Verified
+excel,fehk8jy,t3_ep738h,1579118242.0,"=SUMIFS(AG:AG,P:P,""<>"")"
+excel,fehii5f,t3_ep6wjh,1579117229.0,"You can use PowerQuery.
+
+1. Change the current data into a table
+2. Create a new query from that table
+3. Use 'Split Column by delimiter'
+4. In the Split Column pane, select 'at right most occurrence
+5. Load the resulting data into a new table"
+excel,fegzr1n,t1_fefgvla,1579106122.0,">Range(ActiveSheet.AutoFilter.Range.Offset(1).SpecialCells(xlCellTypeVisible).Cells(1, 1), ActiveSheet.AutoFilter.Range.Offset(1).SpecialCells(xlCellTypeVisible).Cells(1, 12)).Select
+
+change the second number (the column index) in CELLS to change the width of the selected range"
+Wellthatsucks,fef92nk,t3_eossv9,1579051066.0,Can you dance?
+excel,fef71cg,t3_eoudu8,1579049696.0,"Replace
+
+>Range(""L13"").Activate
+
+with
+
+>ActiveSheet.AutoFilter.Range.Offset(1).SpecialCells(xlCellTypeVisible).Cells(1, 12).Select
+
+to select the first visible cell after autofilter is applied
+
+edit: I saw your other reply, change cells to Cells(2,12) to start at the second row. Adjust as necessary."
+todayilearned,feevkmb,t3_eop78t,1579042148.0,That was a god article. Thanks for sharing.
+excel,feeqyeu,t1_feeq8ls,1579039331.0,There you go. u/small_trunks to the rescue!
+excel,feeek22,t1_feedv55,1579032131.0,"Here's what I think you can do.
+
+Name column 41 UNIT in the sample file. When PowerQuery merges files, it will look for UNIT in every file and put it in the same column."
+excel,fee91k4,t1_fee6az2,1579028903.0,The sample file needs to have >= number of columns of all the source files. You need to change the sample import to not 'promote headers' or 'change type'. It will import all the columns with fake names. Then you can manually promote the headers and change the type.
+excel,fedxqi1,t1_fedjiwv,1579022112.0,">I want to import everything, so I will need to open 30files find every unique headers in each to put them in the dummy file
+
+Yes, but you only have to do that once.
+
+I don't know how to do this without a sample file. PQ uses the column names to append columns. It needs some type of guide to tell it what the columns are. That's what the sample file is for.
+
+If the original files have the same name, with the same capitalization and spacing, the columns will be appended correctly.
+
+The only other way I can think of doing this is to name the sample files V1 through V100 (go up to the max column count), import everything then merge the columns you need to go together. I think this is more work though."
+NoStupidQuestions,fedx5m3,t1_feckm55,1579021765.0,"Happy cake day, Dark One!"
+todayilearned,fec1qcr,t1_feaxgw0,1578965380.0,">gingervitis
+
+r/BoneAppleTea"
+todayilearned,febvf62,t3_eobhji,1578963136.0,If you subtract 1 then you're all good to publish?
+NoStupidQuestions,febfk2n,t1_febcocv,1578958271.0,Don't google it. Some things cannot be unseen.
+excel,febcjy1,t1_febbx0f,1578957487.0,"If the headers have the same name, that will happen automatically.  Insert the desired name in the sample file."
+excel,feb140j,t3_eob8vi,1578954399.0,"1. Create a dummy sample file. Make sure it has enough columns to account for all the columns that will eventually be in the query.
+2. Put that file in the folder.
+3. When you combine the files, choose the sample file in the 'Example File' drop down.
+
+You will import all the data from the file but all the columns will be mixed up. That is, all the first columns from each file will be combined into the first column of the query."
+interestingasfuck,fe9dysc,t3_eo4h67,1578936677.0,The word of the day is: homeostasis
+excel,fe9dgd3,t1_fe9cbu7,1578936599.0,"Yeah, I'm in the same situation. I always think, 'I could make this so much easier with these formulas...' then I have to build another pivot table."
+excel,fe9d9ct,t1_fe9ccd2,1578936529.0,You have no use for formulas that don't work in tables? I would love to use them to build dashboards and reports in lieu of pivot tables (where no moving of fields is needed)
+BoneAppleTea,fdskhav,t3_emw64v,1578704320.0,Or did they?
+TooAfraidToAsk,fdsjhdm,t3_emwwt7,1578703922.0,"I think most of the money is going to humanitarian aid.
+
+>""The problem is that it's so dry that we cannot put out these fires. And that's what's different this time around,"" she said.  
+>  
+>""These fires are also in very dense bushland. They cannot be put out by human effort,"" Holman continued. ""We're waiting for rain. But we're in the midst of the worst drought on record here in New South Wales. So there is no possible way that these fires can be put out no matter the enormous human effort that is going into it.""
+
+ [https://www.npr.org/2019/12/21/790444258/catastrophic-wildfires-continue-to-rage-across-australia](https://www.npr.org/2019/12/21/790444258/catastrophic-wildfires-continue-to-rage-across-australia)"
+oddlyterrifying,fdsimec,t1_fdqfo6s,1578703456.0,He's great at parties
+facepalm,fdsdp9r,t1_fdqyk0s,1578700301.0,r/UnintendedPuns
+interestingasfuck,fdrd8bt,t3_emqpxh,1578682859.0,What Donald does when the cameras are off
+interestingasfuck,fdquf82,t3_emrdt8,1578675070.0,Bees are serial rapists
+excel,fdowsum,t3_emhnn0,1578614668.0,"Nice!
+
+I remember Minitab from college stats classes. Good times."
+CasualConversation,fdoabqi,t3_em8prp,1578601610.0,"Mistborn was awesome.
+
+I'll suggest Tigana and The Fionovar Tapestry by Guy Gavriel Kay."
+nonononoyes,fdo7rmc,t1_fdo29e2,1578600367.0,The 'ol Samurai sneak
+excel,fdns9sg,t3_emctfp,1578591809.0,"Add a cell to store the $15 price per foot. For example, put it in B1. Then you can copy B1:B11 to C1:C11 and give another quote with a different price.
+
+Am slightly disappointed in title. I was expecting swordplay."
+interestingasfuck,fdm9lfb,t3_em3kon,1578543241.0,Wow. When I was a kid I worked at a movie theater and every Thursday I would help the projectionist move the reels. I remember being amazed at the complexity of the machines. They have changed quite a bit since then.
+excel,fdlhi8k,t1_fdlhc42,1578524134.0,Solution Verified
+EarthPorn,fdkkzee,t1_fdjyx31,1578505731.0,How hard is that trek?
+worldnews,fdkibtg,t3_elrqnz,1578504417.0,I wonder what the truth is
+CasualConversation,fdki9kj,t1_fdkado2,1578504386.0,At least two people...
+SanJose,fdisjrt,t3_elkmb7,1578450084.0,You should be able to find one easily. I hear there are a lot of openings in that field.
+excel,fdif31a,t1_fdiejm4,1578441461.0,"Cool. Don't do all the math in one step. Write each step in a column, then at the end you can delete everything except the answer column. You can also try to combine the M, if you want. Up to you."
+excel,fdie23q,t1_fdiblwp,1578440798.0,"PQ records everything you do, like a macro. To start, you don't need to learn the M language. Get the data, remove the columns and rows you don't need, use a merge query from another list to get the names. Save the workbook.
+
+Next time, click on Refresh All and all the steps will be run again against the latest data."
+excel,fdhzt8f,t3_eleuem,1578433170.0,Use PowerQuery. Select SharePoint as a data source.
+interestingasfuck,fdhrxat,t3_eldzdl,1578428998.0,Did that one shit all over the back window?
+excel,fdh4eqk,t1_fdfn2cj,1578415142.0,"In Excel, you cannot change the size of the worksheet tabs, you can only hide them. I believe the same applies to PowerBI. Then again, PowerBI is under constant development and I haven't tested that lately."
+excel,fdfl7ue,t1_fdfkpl4,1578364290.0,You mean the tabs at the bottom of PowerBI? I don't think you can change those.
+excel,fdfhjxt,t1_fdfgk5f,1578361849.0,I think you can export the PowerQuery data set to a worksheet and then set up a linked sheet in PowerBI.
+excel,fdfg4p8,t3_el3kgi,1578360906.0,"You will need to use PowerMap which is in PowerBI. As far as I know, once the map is exported, it will not update outside of PowerBI."
+NoStupidQuestions,fdfdkp3,t1_fdfbvsa,1578359188.0,"If you need a few bucks, PM me."
+NoStupidQuestions,fdfb6dk,t1_fdfau5s,1578357570.0,Ahhh crap. That sucks. You can use the library to check email. What about one of those prepaid phones? Put just a few bucks on it.
+NoStupidQuestions,fdf9afe,t3_el2yv2,1578356303.0,Get a  job
+SanJose,fdf962t,t3_el2u3q,1578356222.0,"Kims tire and automotive
+
+ 463 Blossom Hill Rd Suite A, San Jose, CA 95123"
+SaraSigmundsdottir,fdey8l6,t1_fdeb10h,1578349139.0,A koala can dream
+excel,fdex9fo,t3_ekzken,1578348532.0,"Sumproduct
+
+The new array formulas (if you have that version of Excel)
+
+Offset"
+excel,fdewmff,t1_fdewctu,1578348132.0,Clever
+excel,fdew74n,t3_el0vtb,1578347874.0,"=""AA""&TEXT(ROW()-1,""00"") will give you AA00. Drag that down to AA99. Change the formula to use AB, and so on.
+
+It's a bit tedious but you only have to do it 40 times to get the 4000 records populated if it's a one-time thing.
+
+Edit:
+
+I just saw this
+
+> smart enough to drag down thousands of files 
+
+My simple solution won't work. Let me think about it for a bit."
+youseeingthisshit,fdehe3z,t1_fdd8jsk,1578339066.0,"He pulls his foot back in disgust and calls the attendant.
+
+Foot dude: That person sneezed on my foot!
+
+Attendant: Wut? That's impossible.
+
+Without seeing the image, I would be puzzled as to how that outlandish claim would end up being true."
+NoStupidQuestions,fdefvxp,t3_ekwdrl,1578338139.0,"I kind of have the same situation. I answer, 'do you mean by nationality, cultural identification or birth'? Throws them for a loop."
+excel,fdee1xf,t3_ekv34e,1578336992.0,"Record a macro of yourself using Find/Replace to get rid of the letter A. Open the macro, copy it (the part that does the replace) and change the found item to B. Do it for every letter. Save the macro, run it when you need it."
+worldnews,fde3oax,t3_eku1g1,1578330471.0,"If there were attacks only on his international properties, how do you think he would respond? Would the US retaliate for an attack on another country?"
+excel,fdc2mry,t3_ekkg0g,1578265881.0,"Use power query.
+
+1. Convert the list into a table
+2. Load the list into a PQ query
+3. Use text to columns
+4. Before clicking ok in 'text to columns' select 'advanced'
+5. Select 'split into rows'
+6. Click OK
+7. Load query into a new table"
+excel,fd06yns,t3_ejqzfh,1578114563.0,"You can do it with a formula but it's convoluted.
+
+1. Create a named range for each layout (e.g. A1:G5 will be named One, etc)
+2. Write down each name in an empty column
+3. Next to the name use the RAND() formula
+4. Sort by Rand
+5. The first three will be your sample set
+6. Create three camera reports (also known as linked pictures)
+7. Put the linked pictures over your outlined areas
+8. Change the formula of the linked picture from a hard coded range to the cell with first value in the list. You might have to use INDIRECT.
+9. Do the same for the next two.
+
+Now every time you recalc and resort, you will get a random set of 3 layouts."
+excel,fcyfr0k,t3_ejk4mm,1578079465.0,">it is about 1.2MM rows
+
+Max rows in Excel is 1,048,576
+
+I would say that it is just taking a long time to calculate. You could fill down the formula at the end of the day and let it run overnight.
+
+However, a better solution is to use Power Query in another file. Access the original file, number the rows, do the sums and any other ETL you need. Leave the query as 'connection only' and build pivot tables off the query results."
+excel,fcye3ah,t3_ejjs9u,1578078707.0,Have you Trimmed and Cleaned both fields? TRIM will get rid of leading and trailing spaces. CLEAN will get rid of non-printable characters.
+excel,fcwiu0i,t3_ej54fz,1578026783.0,"The new array formulas in Excel
+
+Automation in VBA (control Access, PowerPoint, Word from Excel)
+
+M language in Power Query
+
+More Automation with the IE object (lets you control Internet Explorer and manipulate websites from Excel)"
+excel,fbk3jml,t1_fbikuh2,1576944234.0,"You need to put the image so that it fits in a cell (resize the cell as needed)
+
+Assign a named range to the cell
+
+For the camera image, instead of pointing to a range, change it so that it points to the named range (in the formula bar). You might have to use INDIRECT"

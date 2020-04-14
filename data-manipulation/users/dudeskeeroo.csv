@@ -1,0 +1,152 @@
+subreddit,self ID,parent ID,time,text
+AnimalsBeingJerks,ffk631s,t1_ffjmtkm,1580017077.0,This is why we lost the emu wars
+AskReddit,ffjh68o,t1_ffjeadc,1579998142.0,Bojack Horseman.
+funny,ffgwap6,t1_fffkj28,1579916691.0,"It's a pangram. And it's more succinct to end with ""a lazy dog"""
+ABoringDystopia,ffgcm6k,t1_ffgc5x3,1579903265.0,I'm not sure you understand how addiction works
+fountainpens,ffec20q,t3_et3rg6,1579842668.0,P51s are exquisite in their heft and balance
+golang,ff246er,t1_ff23s4l,1579493323.0,"I get that. But one of the things I love about Go is that it seems resistant to trends and feature creep.
+
+I guess you can google other Clean articles and use your judgement. Each project will have its own nuances that will defy any given article ;)"
+golang,ff238vc,t1_ff213ug,1579492599.0,"As mentioned, Go is still at v1 and no features have been removed. And no big changes have been added that would affect the principles in the article.
+
+What is missing is Context. Context was added a few short years ago...it isn't strictly necessary but it was added for good reasons."
+golang,ff1qzfc,t3_er3a6a,1579484254.0,"This should get you started:
+
+https://manuel.kiessling.net/2012/09/28/applying-the-clean-architecture-to-go-applications/
+
+I'm not saying it's gospel but it's comprehensive and a pretty good example of clean in go."
+facepalm,feue94p,t1_feuddwj,1579385680.0,"Yes. Yes I did.
+
+But did you see me see them with your own eyes?"
+facepalm,feu9kke,t1_feu4y5j,1579384478.0,"Yup, Princess Diana is bringing around a casserole for tea"
+gaming,feou33b,t1_feoore1,1579305536.0,I think the rationale was that men name sons after themselves (especially in those uppercrust circles) so why couldn't Lorelai name her daughter after herself
+gaming,feojdh4,t1_feoiss9,1579300872.0,"Yes. Lorelei was named after Lorelai, who named her daughter Lorelai.
+
+It's Lorelais all the way down"
+gaming,feohhhi,t1_feogh55,1579300239.0,"Poor Lorelei and Lorelei and Lorelei
+
+Rip in peace grandma"
+videos,fefgxfj,t1_feex8nl,1579056089.0,"He looks like a human Mr Peanutbutter
+
+(Not sure how nuanced that is)"
+news,feev2h8,t1_feei1pv,1579041840.0,"TBH you just described Australian tourists.
+
+Source: am an embarrassed Aussie tourer"
+OldSchoolCool,feet2ma,t1_fedj21p,1579040611.0,One women
+AskReddit,fe6cvrq,t1_fe5wtiw,1578887240.0,"I can't read that word without my brain messing it up now
+
+https://youtu.be/EShUeudtaFg"
+golang,fe56rfn,t1_fe235ft,1578866113.0,"Sure thing. Here is an idea using your code. I haven't use Gorm so I may not get some of its semantics right... be kind. Also be kind to the code, I haven't run it; it's for illustration purposes only ;)
+
+Also, look up CLEAN architecture in Go and take from it what you need. It is a neat way of separating the layers of your code to make them easier to maintain and test.
+
+EDIT: I just looked at your error handling and it seems like you are calling the db.Find() twice. This is probably undesirable because it's trying to hit the DB twice, trying to populate the structure twice etc. It would be neater as:
+
+    err := a.db.Find(&activities).Error
+    if  err != nil {
+            // maybe consider using a logging library like logrus?
+            fmt.Println(err)
+        }
+
+Now to the code:
+
+    package repository
+
+    import (
+        ""fmt""
+        ""log""
+
+        ""github.com/jinzhu/gorm""
+    )
+
+    // If you code the caller of ActivityStore referencing this interface
+    // instead of using the ActivityStore struct directly, you can create a dummy
+    // struct (DummyStore) that can be used for testing. The dummy struct can 
+    // hand back pre-rolled values and you can test that layer without connecting to
+    // real database (and you won't have to maintain a ""clean"" database for
+    // testing)
+    type ActivityStorer interface {
+        GetActivity(id int) *Activity
+        GetActivities() []Activity
+        StoreActivity(a Activity) error
+    }
+
+    type ActivityStore struct {
+        DB *gorm.DB
+    }
+
+    // when testing
+    type DummyStore struct{}
+
+    // if you want to pass in or reuse an existing connection
+    func NewActivityStoreUsingDB(db *gorm.DB) *ActivityStore {
+        return &ActivityStore{DB: db}
+    }
+
+    // if you want to create a new connection
+    func NewActivityStore() *ActivityStore {
+        db, err := gorm.Open(""mysql"", ""connectionString"")
+        if err != nil {
+            log.Fatal(""Could not initialize the database connection: {}"", err)
+        }
+        db.AutoMigrate(&ActivityType{}, &Activity{})
+        return &ActivityStore{DB: db}
+    }
+
+    func (a *ActivityStore) GetActivities() []Activity {
+        activities := []Activity{}
+        if a.db.Find(&activities).Error != nil {
+            fmt.Println(a.db.Find(&activities).Error)
+        }
+        return activities
+    }
+
+    func (a *ActivityStore) GetActivity(id int) *Activity {
+        // code here
+    }
+
+    func (a *ActivityStore) GetActivity(id int) *Activity {
+        // code here
+    }
+
+    func (d *DummyStore) StoreActivity(a Activity) error {
+        switch id {
+        case 0:
+            return &Activity{
+                id:   0,
+                name: ""activity 0"",
+            }
+        case 1:
+            return &Activity{
+                id:   1,
+                name: ""activity 1"",
+            }
+        case -1:
+            return nil
+        }
+    }
+
+    func (d *DummyStore) GetActivities() []Activity {
+        return []Activity{
+            Activity{
+                id:   0,
+                name: ""activity 0"",
+            },
+            Activity{
+                id:   1,
+                name: ""activity 1"",
+            },
+        }
+    }
+
+    func (d *DummyStore) StoreActivity(a Activity) error {
+        if a.id == -1 {
+            return fmt.Errorf(""Store failed"")
+        }
+        return nil
+    }"
+golang,fe1xwm5,t3_enls00,1578832152.0,"As a side note, depending on the complexity of your application, you may want to consider not using packages this way. It may be better to create a struct that contains the db variable as a member and convert the functions to take that type as a method receiver. 
+
+You then put your db init code in a function such as NewMyStructName() and return an instance of the struct.
+
+This approach makes it easier to test your code, reuse your package and possibly move towards using interfaces if you decide to use dependency injection down the track."

@@ -1,0 +1,117 @@
+subreddit,self ID,parent ID,time,text
+gamedev,ff8qjmm,t1_ff8lnwt,1579691919.0,"I guess the difference is that most other businesses require a lot of up-front investment. It's easier to have more and more money and time drain into an indie game venture, not giving up because of the gambler's fallacy. 
+
+Most non-tech businesses you'd start, everyone expects you to have some form of business plan as well, while indie devs making a GDD or other planning seems to be the exception rather than the norm."
+Steam,ff8huzg,t1_ff7nlso,1579679182.0,"I know it *should* be like that, but it's not always the case. Some of the things I've seen at my previous job were insane."
+Steam,ff7n318,t1_ff7l7kk,1579653490.0,"Huh, I've not paid attention to it much recently. Definitely need to try that then. 
+
+Second part of my previous comment still stands though."
+Steam,ff7jou2,t1_ff6gi9o,1579651143.0,"Are you trying to run Remote Play between your work and home network? IIRC it's only supposed to work on the same network, right?
+
+It's possible both locations have a good connection to the ISP, but the connection between the two places is bad. Your connection will only ever be as good as the worst connection on its way."
+gamedev,ff5kxk7,t1_ff5k06x,1579597862.0,I must be missing a joke.
+gamedev,ff5jkdm,t1_ff5hrel,1579595893.0,"This is pretty much the advice I give everyone with that question. 
+
+Don't make a game engine if you want to make a game. Make a game engine to learn more about game engines, then do a couple of game jams with it, but use an off-the-shelf engine for serious projects. 
+
+I once wrote an interpreter and compiler for a custom programming language. Do I use my shitty language for anything? Hell no! Did I learn a lot about how all the systems work and do I now understand what's going on behind vague syntax errors? Totally. A learning experience like that is definitely worth it (+it looks good on your GitHub profile when looking for a job)."
+gamedev,ff5jcfd,t1_ff5isuk,1579595582.0,"Because game engines take a lot of time to design and make. It will take a fraction of that time to learn enough of an existing engine to be productive. 
+
+The only case where this may not be true is if you're making a super simple 2D game where you can get away with a framework, but even then it's hard to argue against the rapid prototyping capabilities you gain from an engine like Unity or Godot."
+airsoft,ff2i5wy,t1_ff2a24i,1579507188.0,"You've got a lot of fire there. Just take the fire and put it in a bottle, and then you've got a flamethrower!*
+
+\*I'm not a scientist, but I'm *pretty sure* this is how it works"
+unrealengine,feyxwnj,t1_feywmhf,1579451795.0,"Just in GameLift. Try it out with the smallest instance and work your way up from there.
+
+It may also be useful to [read the docs](https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-intro.html) if you haven't yet."
+unrealengine,feyuylw,t3_eqy1js,1579450850.0,"There's no one correct answer for everyone. The hardware requirements all depend on how much your game server needs.
+
+The best option you have is to do load tests on the smallest instance, monitor resource usage and performance and then scale up if needed."
+devops,feu8vhh,t1_feu47ox,1579384276.0,With a credit card in a fake name too? You're still running up a debt and basically committing fraud at that point.
+Steam,fet1jzb,t1_feslmk7,1579370944.0,"It only needs to improve enough for you to comfortably survive until the next major improvement, and so on. Not that impossible."
+ik_ihe,feo9lj6,t1_fengsyt,1579297006.0,Uitstekende viral marketingcampagne voor het schoolterrein.
+HydroHomies,femh91a,t1_fem5bvn,1579255430.0,Dry? What's wrong with using good old water?
+HydroHomies,femh57r,t1_fejteeq,1579255269.0,It doesn't say it increases in *size*
+ems,femblm6,t3_epmk6p,1579247393.0,"Those tiny water bottles are the worst though. Want to stay hydrated? Sure, down a handful of these. It's like they're designed to make you drink too little water. 
+
+Also, shoutout to r/hydrohomies"
+ems,fembf3z,t1_felzuih,1579247163.0,*You don't need money to buy a nice car if you buy it on credit!*
+homelab,fejgvsd,t1_fej668y,1579173667.0,"1000.0.1
+
+It's a patch."
+homelab,fejgq17,t1_fej4r38,1579173448.0,100% recycled!!!2
+gamedevscreens,fejd6lj,t1_feilxcb,1579168193.0,"If in doubt, choose a simpler font. A font that doesn't fit a style exactly will probably stick out like a sore thumb. A font that is very simple will at worst be very bland."
+aww,fei14f7,t1_fehpuzj,1579128004.0,We're all just monkeying around.
+IndieDev,feg7c98,t3_eozmpl,1579080443.0,I now need this as a loading animation for some of my CLI applications. Probably gonna waste some hours at work trying to implement something like that.
+coolguides,fef465n,t1_fef3iae,1579047759.0,"If it were an old colony name like French Sudan vs Mali I would understand, but it's literally the name of the country with the second highest population in the world. 
+
+I know a guy called Oscar, do those people not sympathise with him too?"
+coolguides,fef2yg2,t1_fef0t1f,1579046944.0,What's not politically correct about ***the name of a country***???
+Unity3D,fed70hh,t1_fed5ic3,1579001886.0,"They're pushing it *hard* though, and almost making it seem like it's the only correct option."
+aww,fed6ldj,t1_fed5cpd,1579001351.0,Balance has been restored.
+coolguides,fecxpnc,t1_feanau8,1578988867.0,Bitly has survived because they have plans for businesses that give quite good analytics and the ability to use your own domain. Most relatively large companies I know don't use self-hosted solutions but bitly.
+masterhacker,fe9ebc2,t1_fe8sbru,1578936807.0,"IP address == In Person address
+
+Then you know where they are, duh"
+masterhacker,fe9e622,t1_fe9c446,1578936752.0,"Ah, the good old ""I'm not going to waste half a second of my time adjusting this thing that will save me way more time"". 
+
+Bested only by ""I'm going to write a script to automate this manual task, except it's a one-time process that takes ten minutes and I'm going to spend the rest of the day scripting it""."
+ems,fe6tvcj,t1_fe4w8al,1578905163.0,"Give it a good rinse with some water, iron out the creases (no steam obviously) and then neatly fold it up again in the packet. If you want to be extra nice, add a little note of encouragement for the next user, congratulating them for having safe sex."
+Seaofthieves,fe5wlvq,t1_fe4wo7c,1578876576.0,"100k fine? How about mandatory recording of all their gaming moments, and when they turn 21, a cringe compilation gets made of it that's the first result for their name on Google."
+MildlyVandalised,fdxg0nu,t1_fdwnvoy,1578768381.0,"If you own such an expensive fridge, your entire ~~house~~ mansion is a flex zone."
+airsoft,fdq0z8p,t1_fdpeqno,1578649467.0,"Adding on to that: don't forget to wear eye pro when shooting something. If that's your only pair, wait until you have a new one before testing this more."
+airsoft,fdq0uj1,t1_fdo16qt,1578649282.0,"Technically they would be properly rated. 
+
+The safety standard airsoft glasses follow only specifies they have to survive an impact, not multiple impacts. Kind of like how bike helmets only work properly for the first impact."
+airsoft,fdpzo4w,t1_fdn8qon,1578647618.0,Lightweight bbs means there's less weight holding you back. It's basic science.
+Airsoft_UK,fdpyqfg,t3_emo7uo,1578646341.0,Have you asked their support?
+MechanicalKeyboards,fdnxbnj,t1_fdn5b7e,1578594742.0,"I once saw someone leave a bad review because it took three days to arrive even though ""I pay for an Amazon prime subscription"". 
+
+And it wasn't on Amazon..."
+ik_ihe,fdmp48g,t1_fdmoddy,1578558900.0,'rommeke
+MechanicalKeyboards,fdmp2e7,t1_fdm4ion,1578558833.0,"It just arrived and it looks good so far. 5/5, will update how it holds up in a month. 
+
+- posted 3 years ago"
+MechanicalKeyboards,fdmoztx,t1_fdmoba6,1578558736.0,"That, and what I've seen a couple of times is that the product is only available from a third party seller and they were only selling returned and not fully functional items as new (in these cases monitors with multiple dead pixels)."
+MechanicalKeyboards,fdmour7,t1_fdm709v,1578558547.0,5/5 very fast delivery. I will be buying from Mr Amazon again :)
+ProgrammerHumor,fdg7wkk,t1_fdek9lm,1578383749.0,"In case nobody mentioned it in the other comment thread:
+
+VSCode (or at least the extensions I personally use the most) has options to choose whether to run tools on autosave. If your tools are properly integrated, it should work fine."
+ProgrammerHumor,fdg7qz9,t1_fdg0nez,1578383547.0,Don't you use feature branches? It's usually perfectly acceptable for feature branches to be unfinished/unstable.
+GasBlowBack,fddgf4c,t1_fdde2v0,1578311148.0,Bolt carrier group
+airsoft,fd4qk86,t1_fd4b745,1578170045.0,Just use bio bbs /s
+airsoft,fd4q53x,t1_fd3y755,1578169985.0,"With the lighter bt, you can have some success with green and red at the same time. Red will always be dimmer though. 
+
+I typically use green ones with mine, with the 10th last one and the last 5 being red."
+ems,fcuh6yv,t1_fcuckkc,1577980875.0,"Well, to the people who make policies and budgets, property and insurance are worth more than human lives/welfare, so that's probably a factor."
+golang,fcu10yj,t1_fcu0gug,1577968871.0,"At that point, wouldn't it be better to use [Shamir's Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)?"
+ems,fcu0ew6,t1_fctvvf5,1577968177.0,"Credit scores are out of 10, right? So 8 is pretty good, right?"
+ik_ihe,fcs367l,t1_fcra742,1577910786.0,Dus de correcte tentoonstelling is de Khoikhoihuttententoonstelling?
+ProgrammerHumor,fcq8cir,t1_fcphmp8,1577880884.0,"""He's in his 30s""
+
+""Oh yeah, how old is he?""
+
+""40"""
+airsoft,fcpv2zo,t1_fcog07p,1577872760.0,Took me a couple of seconds to realise you weren't talking about FO76.
+golang,fcowgtn,t1_fcouwgc,1577843462.0,"The issue is that module support isn't being pushed enough. There are literally tools (with a lot of users) that tell you to *disable* module support in order to use it. 
+
+There seems to be some kind of growing rift between module-aware Go and ignorance Go, and I feel like if it's not tackled soon, this will become our Python 2.7
+
+Maybe it's a lot better now. I last checked all this two, maybe three months ago. From what I've seen recently though, I don't feel good about it."
+golang,fcougup,t1_fcnusn3,1577841881.0,"Why must I always find the cool tools that solve my exact problem *after* they get abandoned?
+
+Guess it's a good opportunity to try to contribute some work to it."
+devops,fcnu0c1,t1_fcmfwy2,1577818388.0,Are you trying to tell me you *don't* need your presentation software to be turning complete??
+airsoft,fcmnda0,t1_fcmhxer,1577782783.0,"Bonus: the roomba will clean up the ball bearings after it goes off. No witnesses, just you and your little robot friend."
+ems,fckzywu,t1_fckhmsx,1577736823.0,"TBH, I always expected them to only have a shitty workplace first aid kit, an AED and maybe an epipen. I'm already impressed they carry more advanced gear."
+airsoft,fckygqn,t1_fckxnfu,1577735894.0,"Actually, it's a SCAR-Holy-shit-look-at-the-size-of-that-lad."
+rarepuppers,fckxrwz,t1_fcktqh1,1577735472.0,"You didn't, just sharing my experience with some people. We're good here :)"
+rarepuppers,fckseb3,t1_fckmr3d,1577732169.0,"You don't have to follow, just accept that that's how some people are and don't try to 'fix' them."
+homelab,fcks6xk,t1_fckqxb6,1577732043.0,"Even if they paid you 10 euros to take it, it wouldn't be enough."
+ProgrammerHumor,fckmxfr,t1_fckmdd1,1577728801.0,"The other issue is that you have to use Cloudflare exclusively for it to work. There's no way to have a fail-over in case Cloudflare goes down, even if there were a viable alternative. 
+
+The execs at my day job complained about the Cloudflare outage, but in the end they just accepted it as our only single point of failure."
+rarepuppers,fckmc7h,t1_fckldlo,1577728446.0,Some people just don't like babies or children. Doesn't mean there's anything wrong with them or they need someone to talk to. They just don't like babies or children.
+airsoft,fcjouov,t1_fcjfp7t,1577697168.0,Digital pattern gorka + Adidas stripe hat. Comrade has some money...
+airsoft,fcfr6sn,t1_fcff0ou,1577632935.0,"It's nice for spotting and identifying targets, but you definitely don't need a 12x like some people use."
+BossFights,fcew49c,t1_fccljd6,1577624248.0,*Weird dick but ok

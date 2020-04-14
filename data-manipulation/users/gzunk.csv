@@ -1,0 +1,385 @@
+subreddit,self ID,parent ID,time,text
+buildapc,ffr7m7x,t1_ffr7bng,1580152206.0,"Do you feel lucky?
+
+But seriously though, you should try and go for the closest that you can find, since there might be differences in the design, but generally they will work. As with everything, there's always the risk that it'll not work and the worst case scenario is that it bricks your card - so you have to weigh up the benefits and consequences."
+buildapc,ffr6xx1,t1_ffr3rrd,1580151784.0,You could try looking at the [VGA BIOS Collection](https://www.techpowerup.com/vgabios/) to see if the R9 270 has a UEFI compatible BIOS that you could flash it with.
+buildapc,ffr3a3y,t3_euru55,1580149515.0,"It's unlikely to be the R9 270, since if that wasn't UEFI compatible then you wouldn't see anything on the display (since the UEFI firmware wouldn't be able to initialize it).
+
+You say that Windows is installed on GPT, but it's feasible that you have a legacy boot on a GPT partitioned disk.
+
+To make sure, run the **msinfo** utility and check what is says in System Summary under BIOS mode. If it says legacy then that's your problem - you can't legacy boot without the CSM.
+
+If it says UEFI, well, then it might be the GPU, but in my experience in that situation is that you see absolutely nothing on the screen."
+buildapc,ffq0dzs,t1_ffq0atg,1580113581.0,"One is split into a block of 6 and a block of 2, one is split into a block of 4 and and block of 4.
+
+Also one will likely have VGA printed on it, and one will likely have CPU printed on it,"
+buildapc,ffpzzjh,t3_euku2e,1580113018.0,"The way that Windows now renders the desktop makes this irrelevant. The 980Ti would not be used to render the display on the 4K or curved 1080Ti except as a simple framebuffer.
+
+The windows DWM (Desktop Window Manager) renders the entire display to an offscreen buffer using the primary GPU so that it can do compositing and other effects, then pushes that buffer to the relevant framebuffers on the different GPUs for final display.
+
+So even if you're running a fullscreen game on the 2080 Ti and the Windows desktop on the other monitors, the 2080 Ti is still being used to render the Windows desktop."
+buildapc,ffo6y62,t3_eucy0b,1580074763.0,Any not AMD and Nvidia?
+buildapc,ffo2s8u,t3_eud17m,1580073552.0,"It'll be missing the 3.3v lines (orange wire) since you're connecting it to a peripheral connector (molex).
+
+Should be OK,"
+todayilearned,ffm95qd,t1_fflv4t4,1580050780.0,"Just wait until you're late one day for whatever reason and you have to sit in the desk with the gunked up keyboard and mouse from the messy eater, then spend the first fifteen minutes cleaning them.
+
+God knows how they manage to get all that crap on the bottom of the mouse so that it doesn't slide over the desk surface, it *drags.*"
+buildapc,ffm7gu7,t3_eu6bnm,1580049730.0,"Looks like an [Asus P6T Deluxe](https://www.asus.com/Motherboards/P6T_Deluxe/).
+
+Actually, I think it's an [Asus P6T Deluxe V2](https://www.asus.com/Motherboards/P6T_Deluxe_V2/)"
+buildapc,ffjbdf5,t1_ffjayhn,1579994740.0,Optane has significantly lower latency than other SSD's.
+worldnews,ffj86c3,t1_ffizofa,1579992770.0,Diplomatic immunity can be waived at the discretion of the country of the person protected and does happen when they commit serious crimes. It's a political thing and it's never been immunity for life.
+worldnews,ffj7teq,t1_ffijjs1,1579992539.0,"Her husband isn't an ambassador, he's a spook."
+worldnews,ffj7m5s,t1_ffj2l1x,1579992401.0,"No. In serious offences the host country typically asks for the diplomatic immunity to be waived and the diplomats country agrees and waives said immunity.
+
+For example, in 1997 a Georgian diplomat killed a teenage girl in Washington DC in a car accident, his immunity was waived and he served three years in a US jail.
+
+Double standard eh?"
+buildapc,ffj4eus,t3_etxdha,1579990114.0,"Pro
+
+* Silent
+* No vibration
+* Fast
+
+Cons
+
+* Expensive
+* Limited Capacity
+
+My gaming rig is pure SSD."
+buildapc,ffj4828,t3_etxdl4,1579989977.0,"Get a normal (SATA) one, you will be able to afford a larger size. M.2 also comes in SATA and there isn't that much of a price premium for it."
+buildapc,ffj3vzo,t3_etxb6e,1579989731.0,You'll have to pay VAT if it hasn't already been added.
+buildapc,ffiuk6z,t1_ffiq57j,1579983087.0,"X99 is just as picky about DDR4 RAM that first gen Ryzen was.
+
+To even get to 2666 the BCLK is generally increased from 100 to 127.5 so that the memory controller isn't run at a high multipler, since the memory controller in 5000 series chips isn't quite as good as in later chips."
+buildapc,ffg78mu,t3_etgj7x,1579899962.0,"In the UK? There is nothing like Microcenter.
+
+Many many years ago, PC World was a bit like it, but the market isn't big enough so they had to start selling Fridges, Microwaves and TV's as well.
+
+Well, they were always Dixons/Curry's but at least at the beginning you couild pretend that it wasn't.
+
+Best prices in the UK will all be online."
+buildapc,fffdgln,t3_etc5zv,1579881542.0,"I've got a Mini ITX system with 2 x 2.5"" 5TB Seagate drives in a [Streacom FC7 Alpha](https://streacom.com/products/f7c-alpha-chassis/) (non-optical version).
+
+It can fit 2 x 3.5"" drives, but it means that the CPU cooler has to be 28mm or less in height, which was a problem for me because I've got an i7 5775C in there which runs a bit hotter than an Atom would.
+
+You have to use a PicoPSU and an external power brick because it's so small."
+buildapc,fffb0uq,t1_fffal3h,1579879998.0,Not necessarily. You could get an adapter like [this](https://www.amazon.co.uk/LINKUP-Internal-Motherboard-Converter-Adapter-USB-3-0-3-1/dp/B07WG8ZJ41) and it would work at USB 3.2 gen 1 speeds and without the additional charging current - i.e. it would be 1A rather than 3A.
+buildapc,fff77i1,t3_etb081,1579877457.0,"VLC has got much better at playing blurays in the past year, but it still might have trouble with some. I'd just get a cheap external bluray drive and see how it goes."
+buildapc,fff6r1q,t3_etb95s,1579877132.0,"You might just have to bite the bullet and pay the premium. Not much we can do about how the manufacturers decide to price things.
+
+I mean, X570 is priced at a premium for PCIE 4.0, and Mini ITX has never really been cheap, so to combine them both and ask for another high end feature (front panel USB C) for a mid-range price might be asking a lot."
+buildapc,ffdmxt2,t3_et1fs6,1579824302.0,"Personally, I'd get the 5700XT for almost the same performance for a much lower price.
+
+Unless you're doing some scientific computing that needs the FP64 performance (which is highly unlikely) then the Radeon VII isn't really good value for money."
+buildapc,ffd4sc2,t1_ffd4qjv,1579813414.0,"Yes, absolutely fine."
+buildapc,ffd4jx9,t3_esz542,1579813284.0,"3600X - 24 lanes total
+
+* 16 lanes for GPU
+* 4 lanes for NVMe
+* 4 lane link to chipset
+
+X570 chipset - 20 lanes total, combination depends on motherboard
+
+* 8 PCIE lanes
+* 4 PCIE lanes
+* 4 PCIE lanes
+* 4 lane link to CPU
+
+On a board with two M.2 slots, one will be connected to the CPU and one connected to the chipset, and the GPU will run at full speed."
+buildapc,ffarjx5,t3_eskuij,1579742827.0,"Simples.
+
+Your boot files aren't on your SSD, they're on your 1TB HDD. Just because you have Windows installed on the SSD doesn't mean that the boot files are. Especially if you installed Windows 10 alongside Windows 7 - Windows 10 just re-used the boot area that Windows 7 used.
+
+Plug in both the SSD, 1TB and 4TB drive and your computer will magically start working again.
+
+How to solve it? Re-install Windows without the 1TB or 4TB drive installed. That'll force Windows to put the boot files / partition on the SSD.
+
+If this is too painful, then you'll just have to live with having your 1TB drive installed as well, since moving boot partitions around isn't really something that's easy to do."
+buildapc,ffaic9i,t1_ffa93v7,1579736421.0,"There are lots of different sensors and it's not standardized.
+
+Keeping software up to date with new motherboards and processors is a big task, and sometimes they use the wrong sensor, or use it in the wrong way."
+buildapc,ff9mfxw,t3_esfmqr,1579716065.0,It'll just run at the slower speed.
+buildapc,ff9e3bg,t3_eseaxi,1579711019.0,"If you have a free USB 2.0 header on your motherboard you could get an adapter like [this](https://www.amazon.co.uk/Female-Motherboard-Adapter-Housing-Converter/dp/B079BLW9MF) to plug the cable into. You'll be limited to USB 2.0 speeds of course.
+
+Or if you have a spare PCIE slot you could get an AIC like [this](https://www.amazon.co.uk/Inateck-Express-Controller-Internal-Connector-Expand/dp/B00JEVLEFQ) and plug the cable into it.
+
+Or you could just not plug in one of the cables, and live with two USB ports instead of four on your case."
+intelnuc,ff9a40o,t3_es3g6y,1579708308.0,"I doubt that the prices of Hades Canyon / Bean Canyon / Frost Canyon will go down after the launch of Ghost Canyon.
+
+Mainly because I don't think many people are going to buy Ghost Canyon given the price and size, so the other NUCs will still be in demand.
+
+I've got a two Hades Canyons and a Bean Canyon and I took one look at the Ghost Canyon pricess and went nah."
+buildapc,ff8nees,t1_ff8mql9,1579687278.0,"Yes, no problems."
+buildapc,ff8mhdy,t3_es9odf,1579685864.0,"Just looking at the board on the [website](https://www.msi.com/Motherboard/B450-TOMAHAWK-MAX) shows that it's 22110, you can see that it has four mounting posts for all the sizes.
+
+The diagram also says:
+
+* **Turbo M.2** Delivering speeds up to 32 Gb/s using Gen3 x4
+
+So there you go. Wasn't that hard."
+buildapc,ff7n4hi,t1_ff7inir,1579653518.0,"It depends on the driver type you have installed. The newer DCH driver packaging does not include the control panel. The older ""standard"" packaging does include the control panel.
+
+So you've likely got the standard driver installed, and not the DCH driver."
+buildapc,ff7kuyx,t3_es30sf,1579651952.0,"A sudden instant power off is indicative of an overcurrent / overvoltage protection kicking in, bad drivers typically give you blue screens, thermal throttling gives you really poor performance.
+
+It might not be the PSU and it could be that the motherboard VRMs are crapping out trying to feed that much power into the GPU and CPU."
+buildapc,ff7k351,t3_es3gps,1579651415.0,"Shouldn't be a problem if you're running Linux. Sounds like you want to run Linux natively and then run Windows in a VM with a decent GPU.
+
+Actually plugging both GPU's in isn't going to be a problem, they will both fit and they will both work, it's trying to ensure that they get assigned to the correct thing.
+
+You just need to configure appropriate kernel parameters to tell the kernel to ignore the first GPU (or pass it through, however that's done) and it should just use the cheap GPU installed in the PCIE x4 slot.
+
+All bets are off if you're running Windows though. Not sure if you can tell Windows to ignore a GPU once it's seen it."
+buildapc,ff43b7i,t3_erjddz,1579554618.0,"Yes. 
+
+If you [search](https://www.google.com/search?q=13020-01811400) for the serial number on the packet (13020-01811400) you would have found out."
+buildapc,ff2lgk6,t1_ff2l5x6,1579511721.0,"I'm not sure how the X570 lanes can be split - if an x8 connection can't be split then you **could** use it for a single x4 NVMe, but four lanes would be wasted.
+
+So in the real world, on X570 you'll typically be limited to 3 NVMe drives tops, but the motherboard manufacturers are free to engineer around this and provide more - you'll have to search the motherboards.
+
+If you **really** wanted NVMe heaven, then you should go for a Threadripper platform - because the x16 lanes to the CPU can generally be split x4 x4 x4 x4, allowing you to use something like the Asus Hyper M.2 x16 which runs 4 NVMe drives in one slot.
+
+In my old threadripper system I had **seven** NVMe drives - 3 on the motherboard and 4 in a Hyper M.2 x16. All directly connected to the CPU.
+
+I've had to downsize a bit with my new Threadripper, since it has fewer motherboard NVMe slots, so I've only got five."
+buildapc,ff2l1as,t3_erafro,1579511094.0,"OK, the Ryzen 3000 CPU has 24 lanes.
+
+* 16 PCIE lanes are intended for graphics.
+   * They can be split x8 x8
+   * They don't have to be used for graphics
+* 4 PCIE lanes are intended for an NVMe drive
+* 4 PCIE lanes are used for the link to the chipset
+
+The Chipset has additional PCIE lanes which can be distributed more flexibly. X570 has
+
+* 8 PCIe lanes typically used for PCIE slots
+* 4 PCIE lanes typically used for a second NVMe drive
+* 4 PCIE lanes typically used for a third NVMe drive or PCIE slots
+* 4 PCIE lanes used for the link to the CPU
+
+So generally, if you plug two NVMe drives into a 3800x system, one will be connected to the CPU at x4, one will be connected to the chipset at x4 and your GPU will run at x16."
+buildapc,ff1gf99,t1_ff1g1s0,1579478824.0,"It really all depends on the motherboard. I had exactly the same problem with my threadripper build from a couple of years ago - the Zenith Extreme motherboard layout means that the top PCIE slot is right up against the GPU.
+
+I mean [this is what it looked like](https://i.imgur.com/ktRl5tx.jpg)."
+buildapc,ff1ftz4,t3_er4pfq,1579478556.0,"My guess is that it's a three pin fan (so DC voltage controlled) and the motherboard is trying to run it at too slow a speed.
+
+Try doing some fan tuning in your BIOS, it should detected the slowest speed it can run at without stalling."
+buildapc,ff1fjm2,t3_er4in2,1579478433.0,I'd likely just use velcro - like [this](https://www.amazon.co.uk/VELCRO-Brand-Fasteners-Perfect-Office/dp/B00186RSFU) \- and just stick it on.
+buildapc,ff1e9r5,t3_er4jbf,1579478088.0,"Chopstick.
+
+Safer than a fork, because it's either wood or plastic.
+
+Also the Noctua fans should be able to slide slightly away from the GPU to give you a bit more room to wiggle the chopstick down there."
+buildapc,ff1dzo3,t3_er3nb5,1579477971.0,"For best results you need an **active** DisplayPort to HDMI adapter, not a cheap passive cable. Using a cheap cable means you're relying on DisplayPort++ to output an HDMI signal and as you've found out it's generally limited to 1080p.
+
+Prices for Active DisplayPort to HDMI 2.0 adapters have come down drastically the last couple of years, you should be able to pick one up for $20 or so."
+buildapc,femh2xs,t3_epy6tq,1579255174.0,"The problem here is that the lanes from the CPU generally can only be split in specific ways. mainstream Ryzen, the same as Intel, supports splitting the lanes x16 or x8 x8, not x8 x4 x4.
+
+Ryzen has an additional 4 lanes from the CPU that the mainstream Intel chips do not have that are supposed to be used for NVMe storage.
+
+X570 then provides additional lanes - x8 x4 and x4 which can either be used for slots or NVMe drives.
+
+To be honest, unless you know that you're going to need a lot of I/O bandwidth then it's not worth going for an HEDT (AMD Threadripper / Intel X299) platform. X570 (and to a lesser extent Z390) should be able to provide enough bandwidth for what you need.
+
+I wouldn't worry about future proofing."
+buildapc,feldyac,t3_eps6ye,1579219923.0,"You can if you want to, but depending on the case it might make things more difficult.
+
+For example in the last build that I did, which was a Mini ITX build in a Node 304, I had to put the PSU in after the motherboard because otherwise it would be very difficult to plug in the cables onthe right hand side of the motherboard."
+buildapc,feieif4,t3_epbdk2,1579136647.0,"OEM CPUs come in a little brown box just barely larger than the CPU itself. Retail units have a fancy blue box and might come with a cooler (not sure if the 9700K does though).
+
+(Although the newer i9's seem to come in a black and blue box)"
+buildapc,feh4loh,t3_ep56g8,1579109029.0,No processor graphics. It's fused off. You need a GPU for everything.
+buildapc,fef3gtj,t1_fef25ih,1579047285.0,"You were right the first time, after people see the performance there will be tears."
+buildapc,fef3ci2,t1_fef2ca3,1579047205.0,"I'm really special!
+
+I use a GTX 1080 Ti and Radeon VII to muck about with CUDA and OpenCL. (I know that NVidia supports OpenCL but that's not the point)"
+buildapc,fef2gr6,t3_eotw03,1579046609.0,"It's not really worth it for drives of that size, unless you can get an external enclosure that does it all for you, and I've not seen one.
+
+Lets assume a few things because you've not mentioned in your post:
+
+* The drives are NVMe
+* The drives are PCIE 3.0 x4
+
+So in order to RAID them you're going to need to be on an HEDT platform that lets you split an x16 slot into x4x4x4x4 and then use something like the Asus Hyper M.2 card to RAID four of them together. Lets also say that you have two x16 slots that can be split.
+
+You're now using 32 PCIE lanes just for storage, leaving 8 on Intel HEDT platforms for everything else - i.e. your GPU. Threadripper is a bit better since you get 60 lanes at the outset.
+
+But what have you got? 4TB of really fast storage. Now the thing about Plex is that it streams the media over your network. So your gigabit LAN connection can stream 1000 Mbit. Now since the average compressed bluray is going to be about 10-15 Mbits/s you can stream loads anyway.
+
+With good drives your storage can provide 24000 MBit/s. That's right 24 times as much bandwidth as your network can pump out, and enough to stream around 1500 bluray quality rips at the same time. Now I don't know how many people on your network use your plex server, but I doubt you're serving 1500 people who all want to watch different films simultaneously. It's also one of the most biggest bottlenecks that mankind has ever seen...
+
+You could buy a single 4TB SATA SSD and get exactly the same performance, with significantly fewer headaches."
+buildapc,fed2thw,t1_fecud0d,1578995951.0,"Just so that you know, standard 3 pin fans run at 12V."
+buildapc,feaeq0t,t3_eo9u78,1578947799.0,IPS monitors are best for this. TN panels tend to have the colour changes accentuated when you flip them into portrait mode - maybe that's what's happening with your Samsung.
+buildapc,fea7c5l,t3_eo8z3e,1578945207.0,"Either will likely do.
+
+5 \* 220 \* 0.707 = 780W
+
+10 \* 220 \* 0.707 = 1555W"
+buildapc,fe7htx3,t3_eo1my2,1578914687.0,"It depends on whether the memory you have is single rank or dual rank. four dual rank DIMMS will suffer a performance penalty as opposed to four single rank DIMMS. The advantage being of course that they are larger.
+
+Of course you might be able to get the same timings with 4 DIMMS that you could with two, but it's not guaranteed."
+buildapc,fe3mto7,t3_enq39g,1578850757.0,"Just choose one from the same site. I got an [Akasa 7106HP](https://www.mini-itx.com/~7106HP) for one of my Mini ITX systems, but then replaced it with a [Thermaltake Engine 27](https://www.thermaltake.com/engine-27.html) because it looks cooler. Doesn't actually cool any better as far as I can tell, but boy does it look good.
+
+Here's a [video](https://www.youtube.com/watch?v=6gbHwBTxqlc)."
+buildapc,fe3lqr2,t3_enq75i,1578850459.0,"The problem with most laptop CPU's is that they're BGA rather than FCPGA. That means they don't go into a socket, but are soldered onto the motherboard, so you have to buy the motherboard with the CPU already on it.
+
+Apart from that they have the same features as their desktop bretheren, so if the motherboard had a PCIE x16 slot you could put a GPU in.
+
+It is viable for cheap PC's, and you can get various boards that are pre-populated with CPU's. [Mini-ITX.com](https://www.mini-itx.com/store/category?type=motherboard&maxram=4GB-or-more&lan-ports=over-1&cpu-onboard=1&storage-ports=over-1&sortby=price&page=1) has quite a good range."
+worldnews,fe318w5,t1_fe1j6qz,1578844943.0,"Whether you like it or not, emotions are a fundamental part of what it means to be human. An emotional reason for doing something is just as valid as any other reason."
+buildapc,fe102k4,t3_enlf6y,1578820892.0,"I assume that you're thinking about getting either the [Asus Hyper M.2 x16](https://www.asus.com/Motherboard-Accessories/HYPER-M-2-X16-CARD-V2/) card or the [ASRock Ultra Quad M.2](https://www.asrock.com/mb/spec/product.asp?Model=ULTRA%20QUAD%20M.2%20CARD) card.
+
+One thing to bear in mind is that these cards only work in PCIE x16 slots that can be bifurcated in the BIOS to x4x4x4x4, which is not common on mainstream motherboards. Generally  only HEDT platforms (Threadripper, X299) have this functionality.
+
+Download the manual for the motherboard you're thinking of getting and check to see whether it supports it. If the motherboard doesn't support it and you plug the card in, you will only ever see the first M.2 drive of the four."
+buildapc,fdzrykd,t1_fdzr9sm,1578794395.0,"So between 65-75% full then. So at this usage, you have a 25 GB SLC cache in front of the slow QLC, meaning that after 25 GB's worth of sustained writes it'll slow down drastically.
+
+For comparison, I have a 2TB 660p which at the moment is less than 25% full, so I get 280 GB of SLC cache in front of the QLC.
+
+This only really affects sustained writes - if you're writing less than 25 GB at any one time then the performance will be great.
+
+(The dynamic cache isn't really SLC, it's just QLC cells used like SLC - so they're faster)."
+buildapc,fdzr5c6,t1_fdzqrv4,1578793893.0,"Well the biggest thing letting you down is the 660p, that's signifcantly below in the sustained write category. Is it nearly full?"
+buildapc,fdzqhqr,t3_engvro,1578793452.0,"The only advice I can give you is to ignore UserBenchMark. I mean, you didn't buy your computer for the sole purpose of running UserBenchMark did you?
+
+Use it for whatever you bought it for and see how it performs. If it's still not performing as you want then you can do something about trying to improve it. I mean, you did get UFO in all three categories and there's a lot of people on this sub that can't say that."
+worldnews,fdy7yaj,t1_fdwds2g,1578776998.0,">Again respectfully, what currency would you use
+
+Respectfully in return, none of your business. An indepedent Scotland would be free to use Sterling if they wanted to - England does not have to ""give permission"", but it would mean no control or input to monetary policy - **which is exactly the same as it is at the moment.** I highly doubt that the great and the good at the Bank of England think that much about Scotland when deciding interest rates.
+
+> free university costs ,  a better funded nhs (in comparison to some of my local hospitals) 
+
+These benefits aren't additions, they are choices in funding. England could have exactly the same thing but Westminster chooses to spend money on other things. In England, Westminster chooses to spend money in the South East of England - it's one reason for you to be angry at Westminster, not Scotland.
+
+> would independence from the UK actually help the average Scottish person? 
+
+Scottish people would be poorer, with a higher tax burden. But that's not the point. The point is to be free of Westminster. I think it's worth the cost.
+
+> Would it even be detrimental to other UK citizens? 
+
+That is pretty insulting to be honest. What you're implying is that Scotland should sacrifice itself for the benefit of England - i.e. if it makes English people poorer then Scotland must be stopped.
+
+> Culturally, are you happy to get rid of the Union Jack? 
+
+Oh most definitely. I see it as symbol of Imperial oppression hated by many in the world. The faster I can ditch it the better."
+worldnews,fdy448u,t1_fdxu0hg,1578775907.0,"Why does there have to be one?
+
+I want independance. I know I will be poorer. I still want independance."
+buildapc,fdwxgfz,t3_ena43r,1578763191.0,"> If I can, will I get 3.1 gen 1 performance or will it default to USB 3.0? 
+
+USB 3.1 gen 1 **is** USB 3.0. It's just renamed. So yes, you'll get all 5 Gbps."
+buildapc,fdwpuci,t3_en9777,1578761228.0,"The issue is, and always will be, cost.
+
+The USB-IF is made up of companies that make the devices. They want to make the devices as cheaply as possible and sell them for as much as possible. So they want to be able to call their latest chip or doodad as USB 4.0, but without having the cost associated with actually developing something new."
+todayilearned,fdwlrc9,t1_fdwkacj,1578759980.0,"I'm not saying we can't understand the brain, I just found your use of language interesting and I wanted to point out the implicit contradiction.
+
+One thing that no-one can explain yet though is consciousness and self-awareness. How does it emerge from the way that the brain is wired? Is it even that? Is it a soul?"
+todayilearned,fdwjpv6,t1_fdw59k7,1578759457.0,">I don't see why
+
+So it's incomprehensible to you that there is a topic that is incomprehensible?"
+buildapc,fdv8dzm,t3_en6ns8,1578744537.0,It'll likely perform similarly to $15-20 cpu coolers from today.
+buildapc,fduvmdz,t3_en5zd5,1578739560.0,"You don't. It depends on how you install your operating system.
+
+If you've got the Windows installer on a USB stick, when you do the initial boot make sure that you choose an option with **UEFI** somewhere in the name."
+buildapc,fduj2cp,t3_en55yj,1578733828.0,"> I used to have a radeon RX 550 until a few months ago 
+
+So what have you got now? A 2060 Super or a 5700 xt? Why did you upgrade? Surely the RX 550 was good enough for you? You didn't really need the newer card at all."
+buildapc,fds0492,t1_fdrzc8c,1578692279.0,"msinfo32.exe
+
+Under system summary - BIOS mode."
+buildapc,fdryt2f,t1_fdrxuc6,1578691800.0,Yes - that should do it.
+buildapc,fdrw60l,t3_emx089,1578690677.0,"CSM = Compatibility Support Module.
+
+Your firmware (what people call BIOS) can boot in one of two modes - UEFI or Legacy. If you have the CSM turned on then you can still boot in UEFI mode, but you can also boot in Legacy mode. If you have the CSM turned off, then you can only boot in UEFI mode.
+
+Booting in UEFI mode requires a GPT partitioned disk and an EFI boot partition. Booting in legacy mode requires an MBR partitioned disk with an populated MBR (Master Boot Record - the first sector on the disk). In UEFI booting, the first sector on the disk runs the UEFI bootloader that then loads the actual boot system from the EFI system partition, meaning it can have far more functionality.
+
+Once you have installed Windows, it's tricky to switch between Legacy and UEFI booting, and honestly, it's not worth it. UEFI booting only really gets you things like fast boot.
+
+In order to install Windows in UEFI mode, you must ensure that whatever disk you're trying to install Windows on is either partitioned using the GPT scheme, or is not partitoned at all - Windows will partition it as GPT for you. When you're booting you then have to choose the USB Stick (or DVD-ROM) that has **UEFI** at the end. That's all there is to it. No need to disable the CSM at all.
+
+Hope that helps."
+buildapc,fdrpn4g,t3_emwktt,1578687801.0,"It's from your motherboard, it's a PCIE locking latch. Check your PCIE slots, one will be missing."
+buildapc,fdrld6t,t1_fdrkex4,1578686217.0,"It's complicated...
+
+A hard disk is split into partitions, and each partition is formatted - not the entire disk. So you have an EFI partition and a system partition on the HDD, it's this system partition that you would see from Windows, not the EFI partition.
+
+If you were to format the system partition on the HDD, then it would still be bootable - since you haven't touched the EFI partition. If you were to clean all the partitions off the HDD then it would no longer be bootable, as you would no longer have an EFI partition.
+
+There is no easy way to fix the SSD to work independently. It involves resizing existing partitions, creating an EFI system partition and then populating it with the correct boot files. If I've ever found myself in this scenario then I just re-install Windows with only the disk that I want bootable plugged in, rather than mess around creating and resizing partitions, and I consider myself a very experience builder (20+ years experience)."
+buildapc,fdrktwv,t3_emw0am,1578685904.0,"This is the absolute cheapest way for manufacturers to ensure that their product will work. They can't ask you to have an internet connection, since that might require you to move house - but they can ask you to have a CD ROM drive to install drivers.
+
+I don't think that any of them expect people to use them, but can you imagine the outcry if people bought some hardware and then couldn't get it to work because there was no way for them to install the drivers?"
+buildapc,fdqfdku,t1_fdq0v01,1578665251.0,"Well, you can go integrated graphics or a GPU that doesn't need PCIE power - but you're right the EPS12V and the 24 pin Motherboard connector will still be there."
+intelnuc,fdon6qk,t3_emf8v8,1578608570.0,"""Those prices are not entirely ludicrous""
+
+Well, I for one beg to differ. $1700 for an i9 excluding GPU, RAM and Storage is utterly extortionate. It's literally twice the price of a higher performing desktop i9 plus a decent mITX motherboard, case and PSU.
+
+Count me out for sure."
+buildapc,fdom7yt,t3_emfwsa,1578607993.0,"In my experience the RK61 bluetooth implementation is flakey, so it might not actually be  a problem with the PC.
+
+That said, you might not have an RK61"
+linuxmint,fdnpxwa,t1_fdnp62k,1578590643.0,"I believe so, however I think they do have non-free packages. OpenBSD really take it to the next level though."
+linuxmint,fdnooar,t3_emab7n,1578590046.0,"If you don't like the way that proprietary software is delivered in Mint, then don't use it. Nobody is forcing you to. Oh wait, you're not using Mint. So why are you bothered?
+
+You have a misconception anyway. Linux Mint isn't supposed to bring casual users to Linux it's to produce a modern, elegant and comfortable operating system that is both powerful and easy to use (quote from the ""about us"" page).
+
+If that brings new users, then great! But to then start saying that only free and open source software should be used is quite blinkered, I'd much rather have an operating system that enabled the functionality that I want, rather than impose artificial philosphical restrictions."
+buildapc,fdmqmen,t1_fdlb9r2,1578560957.0,">Later I installed windows onto my main ssd, and set that as my default boot device, and left the old hard drive in, but didn't use it.
+
+My guess is that Windows re-used the EFI partition on the HDD because it was there. Windows is can be very ""helpful"" like that. You should install Windows with only the drive you actually wanted to boot from installed, to prevent Windows from doing something stupid.
+
+Put your HDD back into your new computer if you can, alongside the main SSD. Then it'll start booting again because the EFI partition will be available."
+buildapc,fdlmwcf,t1_fdlghru,1578527639.0,">x570 Hero
+
+Not at all. Check in the [manual](https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/ROG_CROSSHAIR_VIII_HERO/E15379_ROG_CROSSHAIR_VIII_HERO_UM_WEB.pdf) on page 1-8 for details."
+buildapc,fdlai31,t3_elzdfw,1578519897.0,"Did you have another drive in the old system? Like an HDD?
+
+Sounds like the boot files were on the HDD and not on the SSD, which is why it's not bootable. If you're booting in EFI mode there's no easy way to fix this as the SSD will be missing the EFI boot partition."
+buildapc,fdlaa5n,t3_elyxev,1578519767.0,">will running each nvme (gen 3, i.e. HP EX950) at x2 be at full speed in the x570 platform? 
+
+No, the M.2 slots will run at gen 3 to support the drives.
+
+That said, your GPU will still run at x16, since one of the M.2 slots will be connected to the CPU at x4 gen 3 and one of them will be connected to the chipset at x4 gen 3."
+buildapc,fdjn9t1,t1_fdjn63e,1578479172.0,">soapy wet lint rag
+
+That's not what a baby wipe is. Baby wipes are perfectly fine to remove dried hard thermal paste from CPUs, you then dry and polish the IHS with a soft cloth."
+buildapc,fdjn2dh,t1_fdjmx0n,1578478873.0,"Use baby wipes to get the initial load of gunk off, but then I'd dry / polish the chip with a soft cloth, personally I use a good quality lens cleaning cloth (which is washable). You don't have to worry about static if you're just cleaning the IHS."
+buildapc,fdjmyll,t1_fdjmhsu,1578478720.0,">Building their very first PC and making it Mini-ITX 
+
+I think this is general is not the best idea, mini-ITX in general is not the easiest to assemble because of the restricted space that you have available. To try to do it on your first build can lead to much more frustration than if they had just gone with mATX or ATX."
+buildapc,fdjmkg7,t3_elqj1m,1578478140.0,"It's hardly a mistake, just a choice.
+
+I've currently got a Mini-DTX board in a microATX case, it did have a mini-ITX board in it before. If I had gone for a compact Mini-ITX case that fitted the previous motheroard, I wouldn't have been able to re-use it for my current motherboard."
+buildapc,fdjlpah,t3_elqnz8,1578476888.0,"For the power switch (and the reset switch) it doesn't matter.
+
+It does matter for the HDD LED and Power LED, and they should have + - on the wires, which should be matched up with the + - on the motherboard (you manual should say which)."
+buildapc,fdjffq6,t3_elpfq2,1578468520.0,"The 4930k is an HEDT chip with 40 PCIE lanes.
+
+Do you still need these lanes? If so, then you need to look at the HEDT platforms (X299 for Intel, Threadripper for AMD).
+
+If you don't need the lanes, then you can switch to a mainstream processor and get more cores for less money."
+buildapc,fdjf8ak,t3_elpbv4,1578468281.0,"The front I/O in most PC cases is going to be your stumbling block, apart from that you can pretty much do it now.
+
+The MacPro can do it because it's a custom case."
+intelnuc,fdjdx1i,t3_eldgtz,1578466783.0,"Back to the future again.
+
+My first job in 1992 was working with Unix midrange computers, which had a baseboard with slot in processor, memory and and I/O cards. Some had a baseboard management system that would allow booting without a CPU.
+
+Big advantage is that you can do hardware hotswap of almost everything. Downside is the speed of whatever bus you're using to communicate between all the components. Not a problem when you're using 40 MHz SPARC processors, but the I/O demands of modern processors might make this quite niche."
+worldnews,fdjbupr,t1_fdjbox9,1578464609.0,"Yes indeed, I would assume that every government does this, if they can."
+worldnews,fdjbbck,t1_fdjaq8z,1578464078.0,"I'm just talking about jurisdiction, not about whether certain agencies operate in other countries.
+
+You would have to assume that both the NSA and CIA are acting illegally according to the local jurisdiction of wherever they are operating - otherwise they wouldn't have to hide what they were doing would they?"
+worldnews,fdj9aqn,t1_fdj8ryj,1578462186.0,"Americans have been known to assume that their agencies have global jurisdiction, hence the clarification."
+buildapc,fdi3rxx,t3_elhiit,1578435220.0,"I was indignant that the PC had the temerity not to post first time for me. Took the RAM out and slapped it in a bit harder and it posted correctly the second time.
+
+You've got to put the fear of god into the components, so they're too scared not to post.
+
+Edit: I have to say that I'm a very experienced builder and 99% of the time the PC boots first time, hence my behaviour when it didn't that one time."
+buildapc,fdf49mh,t3_el27r6,1578352962.0,You think Europe is bad? Try living in Australia / New Zealand.
+buildapc,fdev4aw,t3_el0mu0,1578347236.0,"Yes, with a logitech unifying dongle."
+buildapc,fde6xnj,t1_fde6u5s,1578332522.0,I'd run it as an intake myself.

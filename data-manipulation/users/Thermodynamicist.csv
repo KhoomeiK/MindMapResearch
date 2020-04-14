@@ -1,0 +1,57 @@
+subreddit,self ID,parent ID,time,text
+politics,ffs0b00,t3_eureng,1580170026.0,Is there some sort of emergency alarm system in place in case Donald Trump tells the truth at some point?
+politics,ffispyb,t1_ffimezw,1579981763.0,"> As of 2011, only 4.7% of the population lives until the age of 90
+
+Statistically this is the wrong way to look at the problem because Bernie is already 78.
+
+You need to ask ""what percentage of people who live to the age of 78 go on to live to the age of 90?"", or ""what is the life expectancy of 78 year old men?"" if you prefer. 
+
+A brief internet search suggests that [the life expectancy of 78 year old men is almost 10 years on average](https://www.annuityadvantage.com/resources/life-expectancy-tables/). 
+
+As such, the chances of Bernie making it to 90 are much greater than the 4.7% figure you quote."
+interestingasfuck,ffgf76m,t1_fffe8a3,1579904881.0,[Fuel contamination.](https://www.avweb.com/news/two-citation-flameouts-from-def-contaminated-fuel/)
+AerospaceEngineering,ffc90ur,t3_esnacv,1579794299.0,"Looks like a rub trying to start a titanium fire. Expensive. 
+
+Definitely share with the airline so that they can inspect & repair as necessary."
+teslamotors,ff9u49z,t1_ff9th29,1579721350.0,"It makes a big difference at fleet level, when there are huge numbers of vehicles in service, because there is an infinite difference between one incident which might meet the ""extremely improbable"" threshold, and the zero required to meet the ""impossible"" threshold."
+teslamotors,ff9s0ti,t1_ff99t6u,1579719924.0,"I made the point that it's a bit silly to say unintended acceleration is ""impossible""; given the description of the system provided, I think ""extremely improbable"" would be more accurate. 
+
+> Without a robust understanding of the way the hardware works, like Hughes has, you can’t rule out a mechanical impossibility right?
+
+Given the description of the system provided in the article, yes, I can:
+
+>The drive units contain at least three distinct pieces of hardware that all simultaneously crosscheck any pedal input. The pedal hardware itself contains two independent sensors that must agree as well. This way, only a genuine pedal input will cause torque to be commanded. There are additional crosschecks of this in other modules as well, such as the ABS.
+
+This is basically a recipe. If all the sensors give a spurious reading which looks like a pedal input then unintended acceleration would result. Of course, if this happens, the chances are that the logs won't know that the acceleration was unintended. 
+
+This is not *impossible*, but it is likely to be extremely improbable."
+WeirdWings,ff9reca,t1_ff9plgd,1579719440.0,V-22's cockpit seems to be ahead of the rotor plane.
+teslamotors,ff95je5,t1_ff94auw,1579705343.0,At the 10^-9 level the things which go wrong are usually things that you haven't thought of.
+technology,ff91vai,t1_ff8jfjn,1579702770.0,"> Saying Fox News is the most watched 24 hour news channel might sound impressive, but their prime time audience is around 2 million people
+
+The impact depends entirely upon whether it's the same 2 million people every time, or e.g. 14 million individuals tuning in once a week. 
+
+> Avoid echo chambers that may actively seek to reinforce false or misleading narratives that support your biases. 
+
+This is one of the best uses of private / incognito browser modes."
+teslamotors,ff91iy6,t1_ff90oc0,1579702512.0,"I think you underestimate how unlikely 10^-9 events are. This is the sort of thing which you would not expect to experience in more than ten thousand lifetimes.
+
+At this level of improbability we can be talking about a car leaving the factory with a very particular combination of build faults, combined with perhaps a faulty software update and a lightning strike, or a cosmic ray flipping a bit or ten somewhere crucial.
+
+In human terms, it's impossible, but at fleet level if you log a lot of hours then really weird things will happen."
+WeirdWings,ff8zwjl,t3_es9vmg,1579701250.0,"Just in case the underlying idea wasn't dangerous enough (e.g. no evidence of a power transfer system to manage engine failure cases), it appears that all of the propeller disc planes intersect the cockpit for extra lethality."
+teslamotors,ff8zhr4,t1_ff8wsng,1579700926.0,"10^-9 per operating hour is a pretty robust standard. 
+
+There are 8760 hours in a year, so this implies one event should be expected every 114,115 operating years. 
+
+Cars are parked about 90% of the time, so you'd expect about one event every million ownership years if this standard was achieved.
+
+At mass market scales, extremely improbable events will happen in the wild from time to time. 
+
+For this reason, it is more sensible to think in terms of probability than to say that something is outright impossible. 
+
+You're almost certainly not going to win the lottery, but people do from time to time."
+teslamotors,ff8o1zd,t3_es78rk,1579688279.0,"It is unwise to describe any failure condition as *impossible*, but it is perfectly reasonable to suggest that it is [extremely improbable](https://en.wikipedia.org/wiki/AC_25.1309-1)."
+teslamotors,ff8nr0i,t1_ff8gaec,1579687816.0,">  I believe the flaw there was that Toyota were not using multiple redundant processors.
+
+I wonder if the people responsible left to work for Boeing?"

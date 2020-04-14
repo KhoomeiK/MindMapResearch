@@ -1,0 +1,183 @@
+subreddit,self ID,parent ID,time,text
+gifs,ffy5auu,t1_ffxv92e,1580338824.0,"$1,803.35 when adjusted for inflation. Still a nice return."
+GoogleAppsScript,ffuwrqc,t1_ffutarr,1580250819.0,"Well assuming the data is consistent from the service, there are a couple ways to go about this. As usual I am looking at this subreddit on my phone right before bed so this is a barebone framework. This is very doable though.
+
+1: you must create a label in Gmail and filter out the target emails. Easy.
+
+2: Create a new Google Sheet and create a new apps script project attached.
+
+3: Use the GAS GmailApp (may have to turn it on) to download the emails from your filered label, then delete the emails on Gmail. You should now effectively have a log of the calendar events you have to generate.
+
+https://developers.google.com/apps-script/reference/gmail/gmail-app
+
+4: Upload those events to a calendar with the CalendarApp, perhaps use a toggle cell on each line and upload it to 1 when you upload, and use an if( cell != 1) {} in the with the upload script. That would allow you to keep the log.
+
+https://developers.google.com/apps-script/reference/calendar/calendar-app
+
+You will need to utilize for loops and if statements to get this done. You will need to split cells into arrays etc etc."
+politics,ffq2ugf,t1_ffq28lx,1580117344.0,"The Truth is whatever it is in the moment that it is said. I've heard both narratives, with the Ukrainian one being currently pushed by Trump. But Trump has said the Russians where helping the Dems in the last election."
+politics,ffq1uv1,t1_ffq1knx,1580115780.0,Former National Security Adviser to Donald and notable warhawk and mustache enthusiast.
+politics,ffq1sme,t1_ffq1of9,1580115684.0,"Bolton provides evidence.
+
+Republicans, ""Just another example of the Russians manufacturing evidence to help the Dems."""
+bartenders,ffj75y1,t1_ffixfv6,1579992088.0,Weird but not something that instantly disgusts me. I am having a hard time imagining it on my taste buds. But apperently red wine and coke is a thing she why not.
+bartenders,ffifacg,t1_ffiemi9,1579972484.0,You shall not suffer a witch to live. But in all seriousness I've only had them in Mexico where they didn't know what they where doing and it was cheap scotch. Maybe there is a good one.
+bartenders,ffidgkb,t1_ffibjgv,1579971252.0,Ya you people are weird. Better than scotch old fashions though. Those people need to be burned as witches.
+bartenders,ffi30pn,t3_etpw72,1579963604.0,I mean the two drinks are sort of similar. No sugar and add vermouth. Hell it's even traditionally garnished with a maraschino cherry. Granted it tastes much different.
+bartenders,ffi2sxi,t1_ffi26f5,1579963420.0,"Most people prefer Bourbon in old fashions, so good guess and imo the default. I like rye though."
+gifs,ffhl0h4,t3_etjywj,1579940213.0,Where's the canned chicken?
+GoogleAppsScript,ffhkt5d,t3_etne3w,1579939922.0,"Well I have an idea.
+
+If you haven't already create a variable for your range and values before your loop do so. I assume most people do something like:
+
+Ie. var data = ss.getDataRange(). getValues ();
+
+Copy the entire function and past 4 times (5 functions total)(you can do more if you want).
+
+Function 1
+For (i = 0; i<(data.length)/5); i++) {
+
+Function 2
+For (i = ((data.length)/5)+1); i<((data.length)/5)*2; i++) {
+
+Function 3
+For (i = (((data.length)/5)*2)+1); i<((data.length)/5)*3; i++) {
+
+Etc.
+
+You should be able to seperate them into bite sized chunks and set different triggers on each formula.
+
+Additionally you can create a time trigger in function 1 to trigger function 2 then in function 2  you can delete that trigger and create one for function 3 etc but that's too much to explain on mobile. But that's good if you want one trigger to trigger the chain, say you have this thing updating every hour it should complete it's cycle in < 1 hour then start again."
+insanepeoplefacebook,ffh3coe,t1_ffgdn93,1579921992.0,"Unless, and here me out here. The center of that hallway is the exact opposite side of the earth from Mecca."
+vancouver,fff97kx,t3_et71bi,1579878829.0,"Food is great, eat some dimsum if you get the opertunity. Do not travel during rush hour."
+television,fff51fe,t1_ffduq6r,1579875879.0,JUST GIVE US ROGUE SQUADRON.
+facepalm,ffei8pe,t1_ffds489,1579849072.0,Did he try to literally cash a cheque or deposit it into his account. I mean if it was a deposit just put a hold on the funds until the cheque clears. If he was trying to get cash for a large sum then I can understand some concern. Was it a certified cheque then run it through the system to check if it's legit. I just don't understand how the cops get called without you knowing this is a criminal.
+dankmemes,ffeh5tj,t1_ffe8afc,1579847828.0,"Crackhead breaks into house. Sees you in a family picture on the nightstand. Kisses a dirty finger and places it on your lips, then slowly walks out."
+dankmemes,ffd4fqt,t1_ffcue7t,1579813220.0,"Damn that's sad. I actually know him through a mutual friend. Played paintball with him once and been to dinner a few times. Nice guy, liked to run around like a crazy person when playing paintball."
+The_Mueller,ffbh6gm,t3_eseuct,1579765114.0,"1.5oz Russian Vodka
+
+1.5oz Kentucky Bourbon
+
+3oz ginger beer
+
+0.3oz lime juice
+
+0.5 oz Sunny D
+
+Garnish with a single McDonald's French Fry."
+GoogleAppsScript,ffaermf,t3_eshhcn,1579733976.0,"I recently learned how to create a website and intrigrate it with a free database. It's not as hard as you might think provided you got some basic knowledge. The trick will be getting the site to recognize their account and returning a database response with their answers. Which I would say do it with a google login button. If the answers are text a free SQL or MongoDB might be all you need.
+
+I'd do it... But not for free...
+
+Unfortunately you hit the nail on the head with Google forms biggest limiting factor. The fact that you can't prefill answers based on a previous question answer also erked me."
+vancouver,ff95z38,t1_ff8h8f9,1579705638.0,Ah glad we could clear this up.
+dankmemes,ff8xwfo,t3_es97tu,1579699629.0,"Let's be real. I have a problem, and I more or less understand the problem, Indian guy with bad English can solve the problem.
+
+In school. Learn this to solve this problem you don't understand."
+vancouver,ff8f5nt,t1_ff8b6sb,1579675827.0,As a former Vancouverite is it okay to be on your phone will driving if traffic is at a complete stop and the person ahead of you turned off his engine?
+mildlyinteresting,ff8f0vl,t1_ff8779i,1579675675.0,Not celeb... Bitch.
+SandersForPresident,ff7b233,t1_ff766x3,1579645143.0,"I like to think with some strong arm politics this might just be possible. Bernie's campaign infrastructure would basically keep canvasing for that topic and you would have to threaten to primary any Democrat who votes against it. You would need some very capable whips in Congress. I can't imagine that any normal American who knows what Citizen United is actually likes it.
+
+In all seriousness I doubt a Bernie presidency will get much done, the entire establishment (Democrats and Republicans) will stonewall him. This will have to be a war for good governance."
+The_Mueller,ff6bl8s,t3_eru4ax,1579623618.0,"Republicans, ""You need a trial to prove the president broke the law so he can be impeached.""
+
+DOJ, ""You cannot put a sitting president on trial.""
+
+Republicans, ""Well our hands are tied, sorry."""
+AskMen,ferjsyo,t3_eqf3ye,1579354796.0,Good. I would feel good about it.
+politics,fenxodh,t1_fentgaa,1579292358.0,I'll just cry with my 3 months and 10 days of minimum parental leave.
+politics,fenxja9,t1_fentq6v,1579292281.0,"Stockholm, It's not that much colder than Vancouver (especially this winter it was very mild with a lot of rain), but the days are real short in the winter, \~6h of daylight. and it never really gets dark in the winter, gets to twilight"
+politics,fenqt51,t3_eq4wtt,1579289479.0,"Canadian living in Sweden here, it is now 8:30 and I'm looking after my 1m old. I have nothing to say really except Hej."
+todayilearned,fenar5d,t1_fen6g4h,1579280666.0,More like a professor would take a 16 year old kid and completely destroy his psyche while feeding him powerful Psychedelics.
+todayilearned,fen2ye6,t1_fen1v80,1579275807.0,I don't think he was paid to participate in the Murray Study at Harvard. I think he had just asked a bunch of undergrads to be part of the study. Kid was 16 when he went and the youngest person in that study.
+todayilearned,femxb1c,t1_femx747,1579272028.0,It's truly horrifying actually.
+BetterEveryLoop,femx3f8,t1_femwsg6,1579271876.0,Vancouver?
+todayilearned,fempttz,t1_femjfpq,1579266028.0,You're just missing the secret ingredient... MKUltra.
+BetterEveryLoop,femo507,t1_femnucy,1579264384.0,Looks like he/she cranked the wheel max into the spin. Which was an overreaction and wrong. But I wouldn't say he/she didn't try to avoid the crash.
+BetterEveryLoop,femnlgq,t1_femniyb,1579263821.0,"Ya... I'm Canadian, so I guess that fits with the stereotype."
+trashy,femniyp,t1_felgclc,1579263749.0,"Vancouverite here, 10c for beer 5c for cola.  
+
+
+I was in Germany (Trier) at a student party where you could buy a bottle of Bitburger for 3€, but if you brought the bottle back they gave you 2€ return. I then found 15€ on the ground... That was a good night. Seriously though, higher deposits mean you actually bother to bring bottles and cans back."
+BetterEveryLoop,femn8wh,t1_femhwn1,1579263452.0,"No one really did anything wrong. Driver of the other care wasn't driving carelessly, he/she just lost control in icy conditions. Dude was just on point.
+
+&#x200B;
+
+EDIT: Ok no one did anything THAT wrong."
+funny,femj8q1,t1_fem2k8q,1579258384.0,I call it diabetes.
+IdiotsInCars,femj591,t1_femi89k,1579258243.0,Its honestly making me wonder. Someone had to have hit and bent it beforehand.
+politics,fem491t,t1_fel3ch8,1579239236.0,Or could it be the fact that a large chunk of their revenue comes from Pharma and healthcare advertisements?
+DankLeft,fem2ux2,t1_felulwe,1579237930.0,Man the republican party has changed though. This is extreme condensed shit we are dealing with now
+politics,fektmhn,t1_fektemq,1579207348.0,It'll end with a picture of both of them at an Epstein sex party.
+politics,feksnvf,t1_fekf1wk,1579206779.0,It's the start of the fight. He's going to need allies in Congress that can do some strong arm politics if he hopes to get anything meaningful done.
+politics,fekhebw,t1_fekha18,1579200088.0,Tossing coin to your Congressman and Senators will probably yield more results.
+DankLeft,fejl603,t1_fejaslp,1579178610.0,"I think it was a misunderstanding on her part. Either she misheard him, or took what he said in the wrong way. If you look at what Sanders has fought for and said publically, it just does not make sense. The timing of it coming out is really suspect though. And I think it blew up in her face."
+canada,fej0zhh,t1_feiauzf,1579153017.0,"Victoria's a nice place to raise a family, and it's pretty chill while still being connected to the world. I get the choice. You don't have to really care while still understanding that... Granted if you live there the chances of that town becoming a gong show have increased dramatically."
+Futurology,fehkn6n,t1_fehe4f5,1579118475.0,America's rail system/public transit so so bad that Americans try to avoid using it at all costs. Europe is generally miles ahead in that regard.
+SandersForPresident,fehk3u9,t1_fehk0gj,1579118167.0,"He's far to nice, he needed to verbally slap that moderator."
+trashy,fehjh18,t1_fehixu6,1579117797.0,"When it hit I remember breathing out a long slow breath and collapsing back into my chair, and I was gone. I would like to try it again, but I live in Sweden now and I don't know anyone into that type of thing. I've never done nos, Just weed and Mushrooms mainly... man I miss mushrooms, particularly Pacific Northwest Mushrooms."
+SandersForPresident,fehj3e2,t1_fegw66o,1579117574.0,"You're not dumb, I thought she more of a political creature then him, but I thought her heart was in the right place and she was a Bernie Ally."
+SandersForPresident,fehiwq3,t1_fehi625,1579117465.0,"Dude, I wish Bernie would have responded to that BS framed Healthcare question about bankrupting America like this ""Well maybe we should take a break first so you can run your Health Insurance and Pharma Company commercials.""
+
+When they cut to commercials, I guarantee there would have been Health Insurance and Pharma Company commercials."
+SandersForPresident,fehiqrr,t1_feh2ter,1579117369.0,Was it their goal to try to develop animosity between Warren and Sanders so either ones supporters won't switch over to the other if one drops out... I have my suspicions.
+trashy,fehi4q7,t1_fehfy3r,1579117010.0,"I remember it not being very pleasant to smoke. I basically inhaled to the point that it hurt and then I pierced the veil. Basically I had to have iron lungs.
+
+My friend had made it, and I trust him when it comes to that type of thing, so either you didn't hit it hard enough, or you had an ineffective batch."
+trashy,fehfgku,t1_fehap4q,1579115445.0,"Not an expert, just was along for the ride."
+trashy,feh73qh,t1_feh3yz1,1579110523.0,"Pretty good, didn't seem to be high for that long. Saw a female face/entity."
+trashy,fegu8vv,t1_fegklvl,1579102657.0,I smoked DMT out of one of those once.
+politics,fegtnki,t1_fegswha,1579102275.0,More Clinton supporters didn't vote for Obama in 2008 then Bernie supporters not vote for Clinton in 2016.
+politics,fegqlv7,t1_fegpgr3,1579100224.0,"Bernie looks at Camera ""Shall we cut to commercial so you can run some pharma and health insurance ads?""
+
+When they do cut to commercial, there WILL BE pharma and health insurance ads."
+politics,fegqgq4,t1_fegq42w,1579100126.0,"I think that argument held more weight for me in 2008. But then the republicans proved they didn't care about working with the left for any reason. America is dealing with decades of bad policy and I am not happy with, but willing to negotiate with those that benefited from those bad policies, but only from a position of strength. I want someone to fight, then make deals."
+politics,fegobh6,t1_fegnsxk,1579098619.0,"Well it's tough to get an answer to that question in the current political system as any answer generally has filtered through the interests of the political donors. Probably fixing that should be the flagship issue, but medicare for all got traction."
+politics,fegn43y,t1_fegmme5,1579097727.0,Hmmm I bought into that talking point. Granted I come from Canada and live in Sweden so affordable healthcare doesn't seem so far fetched. The US healthcare system seems extremely bloated.
+politics,fegmi8a,t1_fegkeyg,1579097256.0,Bernie has been getting pretty good about unpacking crazy framed questions and answering them though. However he needs to verbally smack a debate host at some point.
+politics,fegm7wn,t1_fegh8a2,1579097029.0,"HEY! People who buy adds make money off that, HOW DARE YOU!"
+politics,fegm5h3,t1_fegk6qv,1579096975.0,"It's really toxic out there, and there are a lot people who want to blame Bernie and Bernie supporters.
+
+ Now lets be real, I'm sure Bernie has some Toxic supporters, as every candidate probably does as well. But it's really tough to accuse Bernie of anything when there is probably a Video out there of him arguing passionately against whatever you're trying to slander him with."
+politics,feglrek,t1_fegfr6f,1579096664.0,"A Koch brothers funded study concluded that it would save Americans 2 trillion a year. A KOCH BROTHERS STUDY!
+
+Of course it would mean a dramatic cut in Insurance companies profits, and probably not great for pharma companies either. So they ignore the savings and focus on the dollar figure, it's pathetic, it makes me angry and I hope no one buys it. But people will, and the environment is pretty toxic out there."
+politics,fegle5c,t1_fegcl1e,1579096368.0,"Bernie, ""Maybe it will bankrupt CNN, is it time for a break so you can run some pharmaceutical adds?"""
+canada,fegksca,t1_fegkf1a,1579095836.0,Sorry for asking a question to clear up my confusion. Especially since the linked article references HSBC. Jerk.
+canada,fefseuz,t1_fefdaef,1579063799.0,That was HSBC no?
+politics,fefrijk,t1_fef6ntm,1579063088.0,"He gives no policy positions, and every division he makes is a political calculation. If that's him being dead inside, then he's dead inside."
+politics,feeqh10,t1_feeecou,1579039049.0,I need to know which way Wayne Brady is leaning.
+politics,feeqc53,t1_feeib1p,1579038970.0,"Well in all fairness, have we seen Yang's feet?"
+AskReddit,feeoiqf,t1_fedurib,1579037923.0,I say down 2 at breakfast. You'll be 3-4 down by the time you get home. Also the alcohol content better be reasonable.
+politics,feeo3p4,t1_feem8xb,1579037679.0,"I personally think that if either Warren or Bernie gets in the chances of anything meaningful happening are pretty low. The establishment dems still control the party and most dem elected seats are establishment. That group and the Republicans will obstruct maybe everything either one of those administrations attempt. However change needs to start happening, and I figure you might want a populist fighter controlling the narrative. Maybe throw in a couple House and Senate whips that can fight dirty (threaten progressive primary challengers etc). Then maybe... Just maybe the ship can start to be turned.
+
+Do have no illusions though, this fight is just starting, and it should have started a decade ago.
+
+Let's not talk about Pete, he depresses me."
+politics,feelnjs,t1_feekq85,1579036264.0,She seems to overall have the right ideas... But she seems to make a lot of political calculations. Where Bernie just does not appeal to the power establishment at all and goes full populist. And interestingly has been doing that for decades.
+politics,feelc3j,t1_feeke45,1579036079.0,"Yes he did but there was some context for that. He voted for it because of the protections it offered women which he thought was sorely lacking in the US legal system.
+
+Here he is voicing his dissatisfaction for it.
+https://m.dailykos.com/stories/2015/8/8/1410122/-Senator-Sanders-remarks-on-1994-Crime-Bill"
+politics,feektjx,t1_fee3t7z,1579035776.0,Bernie brought out the unlikely voters in margins that the pollsters did not factor in.
+politics,feekkh1,t1_feebisi,1579035628.0,"Afghanistan was housing and training Al-Qaeda which had just done 911. The world was behind that war, article 5 had been called (I believe the only time?) In NATO and it was a coalition going in. I doubt Bernie would have been down for 19 years of it. But logically that war made sense at the time."
+politics,feek09r,t1_fee7jbr,1579035305.0,"I think you should realized. They are going to come up with bullshit talking points anyway.
+
+Bernie is going to try to do things that go against the entrenched powers bottom line. They are going to obstruct and try to slaughter him (politically). They will push anything and push hard if it gets traction.
+
+I honestly think he will fail, almost the entire establishment with stonewall. Left or Right it doesn't matter, but changes have to be made and the fight needed to start yesterday."
+politics,feejard,t1_fee4uow,1579034896.0,"It's not salting the Earth to point out another candidates voting record, It is a primary after all. Biden did support removing Sadam and did voice that support before Iraq got in America's Cross Hairs and did vote for it when it did came up. He did champion the 90s crime bill, he was a strong advocate for the war on Drugs. And he did championed the Bankruptcy bill that made it so students couldn't discharge their Student Loans.
+
+If the hosts of these debates would actually ask him some questions, maybe he could answer in a satisfactory way... But probably not. He is not the heir apperent, this is a primary and a candidate must be able to highlight their differences. What else can they reference but their voting record and what they have said."
+politics,feehwok,t1_feec5ge,1579034090.0,"""Bernie Sanders said this bad thing.""
+
+Everyone who's gotten to know Bernie Sanders since he burst onto the national scene. ""Pretty sure he didn't."""
+bartenders,feeb94l,t1_fee97wc,1579030197.0,The Swedes?
+bartenders,fee8yxp,t1_fee7w2w,1579028859.0,"It represents Trump.
+I haven't seen Sunny D in years, I'm not sure I can get it in Sweden."
+bartenders,fedxizq,t1_fedpfnb,1579021990.0,"Knowledge is power, power corrupts, study hard and be evil.
+
+What exactly did you think the D stood for?"
+bartenders,fedo0h9,t1_fednt5h,1579016132.0,Still a bit sore about the 2011 Stanley Cup Finals there buddy.
+bartenders,fedkkmw,t1_fedkgoh,1579013843.0,No... a single Mcdonalds french fry
+bartenders,fedhxfq,t1_fedeawk,1579011971.0,and a golden goblet made in China.

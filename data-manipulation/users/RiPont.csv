@@ -1,0 +1,407 @@
+subreddit,self ID,parent ID,time,text
+csharp,ffz6bvk,t3_evysgm,1580365368.0,"The only time you need to worry about instantiating lots of small objects are
+
+1) Micro-performance-sensitive apps like games - you *might* put a lot of load on the garbage collector, causing a hitch in the game performance.
+
+2) High-scale web apps where 1 user request triggers many, many object instantiations - this could limit scalability and cause performance hitches.
+
+In both cases, it's not really the object instantiation itself that's the problem (unless the constructor is doing something stupid), it's what you do with them afterwards.  Don't leave dangling references!"
+changemyview,ffyde7u,t1_ffwzrdd,1580343754.0,"> (that hucksters sell fake medicine for example, this has happened forever)
+
+And commonly under a falsified banner of science-based medicine!  Yes, their fake science medicine is more easily falsifiable than woo-medicine, but that doesn't change the fact that plenty of people believe in medicine that claims to be science-based but is entirely fake."
+liberalgunowners,ffyc0pj,t1_ffy8ekh,1580342830.0,"Yeah, I was using ""True AI (tm)"" as a unicorn metaphor. 
+
+> I still wouldn't support that smart gun thing
+
+Gun control proponents think they want smart guns, but they really don't understand.  They think smart guns will be regular guns that authenticate the users.  In reality, smart guns will be more like smart phones -- something so advanced with so many features *for the user* that they justify the hassle of dealing with electronics.  Target highlighting.  Complete Recoil Cancellation.  Automatic rangefinding.  etc."
+nonononoyes,ffy4c7w,t1_ffy1a00,1580338297.0,I'd guess troll account.
+bjj,ffy3myz,t1_ffxj4zt,1580337922.0,Ground-effect triangle.
+bjj,ffy3m42,t1_ffxwlba,1580337909.0,"Well, I have terrible stamina and my brain shuts down into ""use 100% of capacity to keep basic motor functions working"" when I get gassed.  Having someone yell obvious shit to me is actually quite useful, in that situation."
+liberalgunowners,ffxv1uc,t1_ffxtucy,1580332981.0,"I get that, but a 30-inch barrel really isn't even a minor impediment.  People have toes.
+
+Preventing suicide by gun by making it mechanically more difficult is fundamentally opposed to the idea of a gun ever being useful for self-defense.  Until we  have True AI (tm) powering smart guns that can tell moral right from moral wrong, a gun you can effectively point at someone else is easily pointed at yourself."
+liberalgunowners,ffxsxjf,t1_ffx54u4,1580331784.0,"> there'd be fewer gun suicides because most people's arms aren't long enough
+
+Toes.
+
+String.
+
+Using a stick to push the trigger.
+
+This isn't a barrier.  You'd have to ban everything including single-shot muskets, what to speak of anything and everything even remotely suitable for self-defense."
+liberalgunowners,ffxsskg,t1_ffxi7gi,1580331707.0,Only if the gun control law being proposed applies to police.
+liberalgunowners,ffxsosn,t1_ffwn6fn,1580331647.0,"RE: dgu stats
+
+This is the fundamental breakdown in reasonable discussion with anti-gun proponents.  You simply cannot get them to agree on nearly anything as a valid Defensive Gun Use.
+
+They will cling to the ""official"" numbers, which are only events where
+
+1. A shot was fired.
+
+2. Police were involved and there was a police report.
+
+3. The shooter was 100% clearly in the right and was not charged with anything so much as a traffic violation themselves.
+
+4. The shooter wasn't off-duty or retired law-enforcement, as that doesn't count for some reason.
+
+5. The recipient of the shot was human.  Self-defense against animals also doesn't count, for some reason.
+
+The justification is that these numbers are ""hard"" evidence, whereas most other DGUs are ""anecdotal"".  While true, it doesn't mean that the non-recorded (in a way that can be easily tallied) DGUs didn't happen, it means that the recorded ones are the baseline minimum number for DGUs, whereas we *just don't know* the real number, but we know that it's higher.
+
+There is too much disincentive for a gun-owner to report a defensive gun use where no shot was fired.  ""No good deed goes unpunished"", and simply admitting you drew your gun would risk getting charged with brandishing."
+csharp,ffxqp4h,t1_ffxav4e,1580330527.0,"> If I wanted a line of code to mean 3 different things in 5 different contexts, I'd be a Perl dev.
+
+Been there, done that.  I absolutely know what you mean.
+
+Checkin-enforced style and static analysis rules are a godsend to any project you want to actually be maintainable."
+csharp,ffxql5a,t3_evorxh,1580330464.0,"It's just the nature of online examples.  Given what they're doing, they're just less likely to be the type of class that would be internal.
+
+Much more likely to be public classes, but public classes often have protected and private members."
+worldnews,ffwbwe3,t1_ffvyevr,1580294504.0,"This is why I advocate keeping your hands slathered in ridiculously high levels of capsaicin, such as ghost peppers.  Not only will you quickly teach yourself to avoid touching your mucous membranes without washing first, but you'll be teaching everyone you shake hands with, too!"
+worldnews,ffwbsvu,t1_ffw2b16,1580294371.0,"The most effective way to not get sick would be to rub ghost peppers all over your fingers and hands.
+
+This will keep you very, very conscious of not touching your eyes, nose, or mouth with your hands unless you *just* washed with plenty of soap.  Since touching a contaminated surface and then touching a mucous membrane is how you usually get sick, this will keep you from getting sick.
+
+(/s, but only kinda)"
+Windows10,ffw86by,t1_ffw4e37,1580288991.0,"IIRC, there are local exploits that can avoid the prompt coming up at all.  It's not much of a speed bump for sophisticated malware, if you're already running as an Administrator."
+politics,ffvrvpu,t1_ffvrjll,1580271500.0,"> Like, why is an impeachment trial not held to the same standard as other courts
+
+Because it's not a court.  The Constitution doesn't specify much of how an impeachment trial is actually carried out, only that the Chief Justice presides, and not even what his powers are while presiding.  
+
+Therefore, it's up to the Senate to write the rules themselves."
+worldnews,ffv19ew,t1_ffujdo3,1580253369.0,I wanna be sedated....
+civ,ffv0soj,t1_ffughsv,1580253071.0,Set up a custom game with Mvemba a Nzinga as the only other player and set the only win condition to Religious Victory.  Make sure to build enough units so that he doesn't just raze all your cities immediately.
+LightbringerSeries,ffuy6xt,t1_fftpedh,1580251601.0,"Why does mirror armor work?  Because luxin is light, and mirrors reflect light.
+
+What is a blue surface?  A surface that reflects blue light.
+
+You can't use a color against itself, because it just reflects.
+
+Edit:  And, as others have pointed out, drafting a color off of its own luxin gives reduced effectiveness."
+Windows10,ffux06e,t1_ffunh3n,1580250949.0,"If you really want to be secure, you go one step further.
+
+By default, normal people generally run as an account with Administrator access, and then UAC prompts the user when an action is required.  This, however, can be bypassed by malware.
+
+If you run your day-to-day in a non-Administrator account (as every OS suggests, actually), you will still get the UAC prompts, but you'll have to authenticate as a user with Administrator privileges.  This is a bit less convenient, as you have to remember the actual Admin password, but *much* more secure.  If the malware bypasses the UAC prompt, it still doesn't have Administrator privileges!"
+Windows10,ffuwibi,t1_fftqh5v,1580250668.0,"Well, there's a certain truthiness to it.  
+
+Because it's the default and therefore most prevalent, virus authors are going to test themselves against it.  If Windows Defender catches it, it's not going to propagate as well.  Therefore, successful viruses are inherently ones that Defender doesn't catch, yet.
+
+All that said, if you're being narrowly targeted by a virus writer exploiting the latest and greatest threats, your anti-virus program is probably not going to help you.  I stick with Defender because it's the least intrusive on my daily life."
+askscience,ffuvkrn,t1_ffu6a2i,1580250163.0,"I got shingles at 23, after being laid off with a mortgage and being the sole income for a family of 4.  Yeah, that was a stressful time."
+Battletechgame,ffuctgi,t1_fftkfq3,1580239267.0,Not if you cheese it!
+warriors,ffuciwl,t1_ffubyjl,1580239095.0,"> i dont think we are making a big trade until offseason
+
+Agreed.
+
+Not unless there is another situation like WCS, where a contender has a big injury and needs a trade ASAP."
+warriors,ffuaz8b,t1_ffu1x3e,1580238178.0,"If they're really trying to trade for a big time center like Giannis, then Looney is probably part of that deal because some team is losing a center."
+California,ffsymru,t1_ffsye9f,1580198019.0,"I'm talking from the school's point of view.
+
+e.g. If all the classes of a certain teacher have a far higher incidence of needing mental health days, you can look into the reason.  Maybe they're just preaching about the importance of taking mental health days, or maybe they're stressing the fuck out of the kids with abusive behavior."
+California,ffsy71p,t1_ffsw1fz,1580197453.0,"If you let them take mental health days explicitly, then you can track it and identify patterns that might let you minimize the need.  Can't do that if you force the kids to pretend they've got a cold."
+science,ffsy1uf,t1_ffs81se,1580197268.0,Right.  There is a cost to taking away the productive years of a person's life beyond the cost of treating them for cancer.
+explainlikeimfive,ffsx7dx,t1_ffss2sy,1580196185.0,"Older GPUs *were* ""just for graphics"".  They were basically specialized CPUs, and their operations were tailored towards graphics.  Even if you could use them for general-purpose compute, they weren't very good, even for massively parallel work, because they were just entirely customized for putting pixels on the screen.
+
+At a certain point, the architecture changed and GPUs became these massively parallel beasts.  Along with the obvious benefit of being used for parallel compute tasks (CGI render farms were the first big target), it let them ""bin"" the chips so that the ones with fewer defects would be the high-end cards, and the ones with more defects would simply have the defective units turned off and sold as lower-end units."
+explainlikeimfive,ffswydh,t1_ffsq0zd,1580195868.0,"Specifically, Intel actually tried that approach with the ""Larrabee"" project.  They literally took a bunch of old/simple x86 cores and put them on the same die.  
+
+I don't think it ever made it into a final, working product, though."
+motorcyclesroadtrip,ffsabs8,t1_ffqpezn,1580176983.0,"The SMH-10 was miles ahead of everyone else at the time.  Everyone else got much better, and Sena's had some missteps."
+motorcycles,ffs9akn,t1_ffrif38,1580176283.0,"It's not the water, it's the mud.  Between driveways and road construction, there's always some of that slick mud in random places, whenever it's wet or damp, these days."
+motorcycles,ffs93a6,t1_ffrf6fy,1580176145.0,"And while it's always beautiful, I find it terrifying to ride skyline on days like that.  Random fog banks, and all that mud that is slicker than pig shit at random places in the lane."
+politics,ffrroei,t1_ffr4eq0,1580164317.0,"Yes.  Even without explicitly enumerated powers and even though the Senators can simply overrule him on everything, *he's still the Chief Justice of the United States* and a member of the Supreme Court.
+
+They *need* him to remain sympathetic to their side, in general, because there are many cases in the pipeline he will be or could be ruling on.  Specifically, questions of executive power.
+
+A strong glare of disapproval from him would have them shitting in their seats."
+politics,ffrr9yh,t1_ffrk0fp,1580164063.0,"> If you know that you're being investigated for criminal activity, your lawyers aren't afforded the opportunity to question whoever the investigators are speaking to, that's their business.
+
+More specifically, the defense *can* question the same witnesses you question, they just have to do it on their own.  They don't have an inherent right to piggyback on your time and resources and can't leverage your office for the power of subpoenas.
+
+There was nothing stopping the Republicans and Trump from calling those witnesses on the phone and asking them questions.  They could even get the witnesses to voluntarily sign an affidavit under oath."
+WindowsMR,ffrplq0,t3_euv0v2,1580163005.0,"Um... yeah.  It's got inside-out tracking using two cameras in the front of the headset.  It's never going to be able to actually track the controllers out of sight of those cameras.  Only VR systems with external trackers can track behind your back.
+
+Games like BeatSaber can fake it pretty well by extrapolating your movements, but even they lose tracking if you *hold* your controllers out of sight."
+Music,ffrn6b0,t1_ffqn08k,1580161516.0,"Agreed.
+
+I appreciate the talent in Celine Dion's ability to belt it out, but her music does nothing for me.
+
+I don't know that I've ever heard Tom Waits ""belt it out"", but man does his music sing to me.
+
+""Belt it out"" is a measure of vocal talent, but not the be-all and end-all of music by any means.  Sometimes, having an artist you can sing along to without sounding terrible is actually a very good thing."
+programming,ffrkpbc,t1_ffr7p60,1580160016.0,"> Often one of the side effects is database IO. How do you ""capture"" that without heavily modifying the code?
+
+Start simply.  Just log the SQL statement and parameter values."
+programming,ffrkg03,t1_ffqkpiw,1580159861.0,"Lesson learned the hard way:  You *have* to add some tests first, before you change anything.
+
+If the existing code has no tests, you can't assume that the existing code works, or even semi-works/is-broken in the way the previous developers thought it did.
+
+I once inherited a system where the role authentication was actually completely broken.  I was tasked with adding a new role, and simply could not get my code to work.  It turned out, that it was ""failing safe"" to just giving everyone the least-privileged role, and the previous owner had just been doing all admin work directly in the database."
+dotnet,ffpdyso,t1_ffp71nk,1580092658.0,"> but our c# objects have Pascal case so we require the case insensitivity
+
+The property names and the serialized field names don't have to match.  You can have a `PascalCase` property that is case-sensitive and requires the JSON field be `camelCase`."
+worldnews,ffp93z3,t1_ffp8ln4,1580089257.0,"> ok why would this change anyones behaviour? if its the same cost just shuffled then who would bother doing anything different? 
+
+Seriously?  Are you just being willfully dense?  Delayed costs are often ignored.  It's human nature.
+
+More importantly, it's just not feasible to charge for each individual item to dispose, which is why we pay a flat rate for a bin.  This provides an even bigger disconnect between the cost of disposal and purchasing preferences.
+
+> make the recycled item cheaper then i will buy it, i buy whatever costs the least because if it didnt i would be homeless.
+
+We don't care about recycling, in this particular case. Not directly. Because it is in the up-front cost of a product, it will affect customers' purchasing habits, and the market will respond with cheaper and better and more sustainable materials.  The sustainable materials *will* be cheaper.
+
+Theoretically, your monthly garbage bill would go down, too.   You'd still have to pay someone for the service of collecting, but the fees on the goods would pay for their proper disposal after collection."
+programming,ffocivy,t1_ffo67st,1580076257.0,"You don't use DateTime for millisecond accuracy, though.  You use Stopwatch."
+civ,fflk0sr,t1_fflj5qt,1580040550.0,"Also, the production cost of the walls is entirely dependent on the amount of coast it  has to protect.  If you build the wall early, when the city only has one coastal tile, it will be cheaper.  If you wait until sea level rises and/or the city expands, it will be more expensive (and you resort to MEs).
+
+However, if you complete sea walls, any new coastal tiles the city acquires are automatically included."
+civ,fflipgn,t1_ffkqugk,1580040105.0,"1) If Valletta is in the game, you can simply buy the coastal walls with faith for a pittance.
+
+2) Unless you are in a super production city, don't bother actually building coastal walls with normal production.  4-5 Military Engineer charges will finish them, so you can build your Military Engineers in the cities that do have high production, and then spend them on your coastal cities that need it.  The key here is that ME charges complete a fixed % of the coastal walls,  no matter how much they cost in total."
+explainlikeimfive,ffk5lyq,t1_ffj1ruu,1580016622.0,Humans are also rare in that we're very visual.  Most animals are scent-based.
+beatsaber,ffgsc3u,t1_ffgs1kl,1579913804.0,"> There are multitudes of reasons that people drink expensive coffee at starbucks, and it's not the selection of coffee. 
+
+Right.  Bad metaphor, I guess.  I was focusing on the fact that it's convenient and there's plenty of it, so there's always more to consume when you are hungry for it.
+
+Music and maps are hungered for and consumed differently, obviously."
+Stormlight_Archive,ffgrb8i,t1_fff66rk,1579913068.0,"> AND HE STILL BLOWS YOUR MIND EVERY SINGLE TIME
+
+Yeah.  I'm doing a re-read, and all the hints that Shallan already had a Shardblade are there.  All the hints that she's an unreliable narrator of her own memories, etc.  
+
+Now, at the point you read them the first time, you lack the background to understand that the ""long, slender blade"" she's trying so hard not to think about might be a Shardblade.  You have no way to know that she could possibly be a Shardbearer without being a warrior and therefore without being a man, but those hints are dropped just a little later.  She's so, ""I'm so weak and innocent"" in her own thoughts, that you don't question.
+
+When it's finally revealed, mind = blown."
+csharp,ffgqep7,t1_ffffew0,1579912416.0,"> Lots of new users think that their problems are unique and novel, because they don't have the experience to know that literally everyone deals with the same kinds of issues when they get started.
+
+Specifically, they may suspect their problem isn't novel, but don't know the common name for it.  
+
+e.g. They don't know the magic words ""mutable shared state"", or they'd know why accessing static variables from separate Tasks is a bad thing."
+csharp,ffgq74z,t1_fffds7f,1579912261.0,"It's hardly like there's so many posts in this sub that having those questions drowns out the more interesting ones.  It's just not that high volume.  If the Homework ones were tagged, it'd be easy to just scroll past."
+warriors,ffgpouz,t1_ffgnpy0,1579911903.0,He helps fill JaVale's role of an instant shot of effort and energy.  He and Chriss coming off the bench both do that well.
+warriors,ffgpghi,t1_ffgkwj4,1579911741.0,"This season, we'd be glad to have Dell back in uniform."
+beatsaber,ffgp9jk,t1_ffgcsrc,1579911604.0,"So are the espresso drinks at Starbucks, but people gobble that shit up.
+
+The fundamental problem is that the current selection does not meet people's hunger, so they go elsewhere.
+
+The demand is there, the supply is not.  I'd argue that if the supply was there, a majority of *new* users would stay legit, simply out of convenience."
+beatsaber,ffgb206,t1_ffehj0e,1579902312.0,"That could change if they had an extensive library to buy.  They don't, so people get bored, and dip their toes in the free world.
+
+One thing they could have done to go legal would be to make maps freemium, but songs paid through a service like Amazon Music.  You buy the song and maps separately, but only have to buy the song once and you also have it as a standalone song for your music library.
+
+This would potentially save them the hassle of negotiating rights to the music, even."
+todayilearned,ffgae5t,t1_fffieua,1579901908.0,"> Advancements in human nutrition, equipment, training have far outpaced that of horses.
+
+On the other hand, we care about human lives more than horses, and would potentially allow destructive enhancements to horses.  The horse might win the race and then die a week later of liver failure, but someone would be willing to pump up a horse with the go-juice if the prize was right."
+todayilearned,ffga6kz,t1_ffg4i2m,1579901780.0,"It's mixed.  If both parents display the recessive traits, it means both parents have the recessive trait doubled up and are almost^1 100% likely to pass it on to all of their offspring in a way that manifests.  If one parent displays the recessive trait but the other carries it, it's down to a 50% chance to pass it on in a way that manifests in their offspring.
+
+^1 It is my understanding there are edge cases where a recessive gene will manifest despite the presence of a more dominant gene.  e.g. With Chimera syndrome, a single organism possesses cells of two different genotypes, so they could manifest a recessive trait while carrying a dominant trait in other cells."
+motorcycles,ffg0kxo,t1_fffnr1v,1579895860.0,I have a white helmet and my FJR looks close enough to the old BMW cop bikes from the front that people just part in front of me like I'm Moses.
+motorcycles,ffg0are,t1_fffzi6a,1579895687.0,"Which war?
+
+The War on Carbs."
+worldnews,fffzvdc,t1_fff463y,1579895425.0,"> Digging holes is quite sustainable for the foreseeable future.
+
+We'll just have to agree to disagree, there.  Burying plastic is just not sustainable at the levels of plastic waste we're generating.  Furthermore, it contaminates the ground.  Burying plastic with the rigor and safety we plan for nuclear waste would be very expensive.  Burying it with something in between ""dig a hole anywhere"" and nuclear waste safety would quickly become another situation we have now with recycling, where a few places would initially welcome the business, then realize that it was terrible environmental disaster for their local area and stop taking it.
+
+> Are you referring to recycling?
+
+No.  Not for plastic, not in volume.  There's a small market for recyclable plastic of specific types, but the viable market for recycled plastic barely scratches the surface of the plastic problem.  Furthermore, there are so many different types of plastic, it's functionally impossible for consumers to recycle it properly.  We bought into the plastic recycling lie because China let us conveniently toss everything in one bin and ship it to them, but those days are over.  Some small amount of plastic recycling might still have a niche, especially if we can tag the recyclable plastic with a UV dye or something so that it can be automatically extracted from the waste pipeline, but that's not a solution for plastic waste in general.
+
+> It depends on the reason for taxation. Are you suggesting a tax to raise funds to further provide public goods? Then we can discuss the merits of such a thing. Are you imposing a tax simply to punish people for doing things you don't want them to or simply to take money from people you don't want to have money? That's a problem.
+
+I'm not proposing a tax for punishment, I'm proposing a tax to capture the direct cost to society that is being hidden.  ""Digging a hole and burying it"" has a direct social cost in loss of land, contamination of land, smell that reduces real-estate values nearby, possible contamination of waste water, etc.
+
+The vast majority of plastic packaging is completely unnecessary, and is only economically competitive because the cost of processing the waste is hidden from the consumer.  The consumer would end up *not* paying much more, because the economic incentive would shift towards more reasonable packaging.
+
+We're already at a crisis in waste disposal since China stopped taking our trash.  We shopped around a few other countries, but they come to the conclusion that it's a disaster much more quickly than China did.  Make no mistake, the consumer *will* be paying the true cost of disposal in the US soon, one way or another.  Unfortunately, it'll likely be a painful transition of waste management companies hiking rates, municipalities trying to pass laws preventing them from hiking rates, and so on back and forth until we finally admit that the days of cheap garbage disposal are over."
+MaliciousCompliance,ffepi6q,t1_ffek32g,1579858948.0,"> Ant, bird nests, bugs and anything about protecting the house in emergencies is up to the real estate. They own the house. 
+
+Specifically, it's up to them to make sure it gets taken care of because they own the house *and will lose a shit ton of value if the problem is not attended to*.  If it involves shared walls, then one tenant's insect problem could easily turn into a massive problem.  Obviously, there is the potential for a You Did Stupid Shit billback to the tenant.
+
+Similarly, tenant disputes are property management's business, but only partially.   If two tenants have a dispute over claims of violation of policy, then at least one tenant is going to have to get a warning.  It's not PM's job to solve purely interpersonal matters, of course."
+startups,ffdj1a2,t1_ffcoj8d,1579821904.0,"> In conclusion, respect and trust are the most important factors, friendships can be a good or bad thing.
+
+Exactly this.  I have friends I don't trust with financial matters, and I would never do business with them.  I have coworkers whom I respect and trust greatly, but have no desire to hang out with.
+
+I would add that co-founders should have a shared vision of the goal line.  
+
+If one founder wants a comfort business that gives them, personally a $1m/yr income and the other wants to go IPO, it's going to be a bitter split at some point."
+worldnews,ffd7ogq,t1_ffd0ph1,1579815020.0,"> Plastic is just as easy to throw into a hole. 
+
+That's not the ""proper disposal cost"" that I was suggesting be added at time of manufacture.  I'm suggesting it should be the cost of sustainable disposing of it.
+
+> So people don't care and don't want to do what you tell them to. But you think you should still be able to force them to do things against their will? Do you understand the concept of consent?
+
+It's a *tax* for fuck's sake.  Are you one of those ""all taxes are theft"" nutjobs?"
+worldnews,ffd0007,t1_ffcz2a2,1579810732.0,"> That's ignoring the fact that you would also increase the price of sustainable products by a similar amount
+
+If they're sustainable, it wouldn't be a similar amount.  Plastic has to be processed.  Biodegradable packaging can just be tossed in a hole.
+
+> If customers value minimizing waste, then they will support producers who do so.
+
+The care-o-meter is pretty weak incentive when it comes to deferred gratification.  Individuals may care, but the general population pretty much doesn't.  Especially when it comes to putting food on the table."
+csharp,ffcy0dj,t1_ffcvix6,1579809608.0,"I see.  `listModel.get(2).name` threw me off, as that doesn't look like a very domain-specific model."
+worldnews,ffcx8p1,t1_ffctb67,1579809165.0,"> You're just shifting the cost around. Consumers are still paying the 0.05 to dispose of the bottle, now their just paying Coca-Cola instead of Waste Management,
+
+Yes.  Exactly.  Shifting the cost around *in time*, so that the consumer sees the cost of disposal *up front* and market economics can actually encourage choices of more sustainable options.
+
+Paying WM a flat rate for a bin makes the cost of disposal very indirect, is ignored by most people because they can generally stay under the bin size, and leaves no incentive for the producer to avoid wasteful materials and packaging."
+csharp,ffcv36x,t3_esw4hn,1579807867.0,"I don't see a model in there, only a view.
+
+All GUIs must translate between the idealized data model (e.g. Person.Name.SurName etc.) and the view, which is made up of Buttons and TextBoxes and other UI-specific classes which have nothing to do with the problem domain (as their problem domain is UI).
+
+The old way of doing this was to directly set properties of the view objects in code.
+
+    form1.TextBox1.Text = person1.Name.SurName + "", "" + person1.Name.GivenName + "" "" + person1.Name.MiddleName[0];
+
+This gets very verbose, very fast.  Your syntax above is more declarative, but still functionally the same.  State changes would happen with an Event-driven model, and also got exponentially more complicated as the complexity of the domain model and view increased.
+
+The XAML world uses declarative syntax in XML to do the data binding to the model, but that's just trading one syntax for another and not really changing the complexity.
+
+MVVM simply adds the ""ViewModel"" in between the view and the domain model.  The ViewModel is an idealized (and simplified) model *of the UI*.  The View no longer needs to be aware of any of the complexity or specifics of the domain model.  `form1.TextBox1.Text` binds directly to a `DisplayName` property, without caring that the DisplayName is a composite of various pieces of the person's name.  The ViewModel contains all the complexity of notifying the UI of changes and receiving changes from the UI, managed by `INotifyPropertyChanged` and `ObservableCollection`.
+
+In turn, the domain model no longer needs to be aware of any of the complexity of the view.  It no longer cares if the data is coming from a textbox, password box, drop-down list, etc.  It just interacts with the ViewModel in plain-old-C# and gets values from a simple property."
+worldnews,ffcofsc,t1_ffbzuwq,1579803795.0,"> I think you have a misunderstanding of how businesses operate. You've already agreed that recycling isn't cost competitive. Businesses will gladly provide recycled goods at a higher cost to consumers, the issue is that for the most part, consumers simply don't value recycled goods. This isn't some conspiracy, it's plain ole economics.
+
+And I'm simply saying that if you priced in the cost of disposal, whether it's recycling that actually happens or landfill or biodegradable, at the time of manufacture, then ""simple economics"" would make consumers prefer the easily recyclable or biodegradable packaging.
+
+> Okay so Coca-Cola is paying $0.05 cents to dispose of my plastic bottle instead of me (even though I'm probably going to be paying $0.05 more per bottle).That doesn't solve the issue that recycling is not economically viable at this point in time.
+
+*You don't have to solve that problem*.  You've funded the true cost of disposal (and it would be more than 0.05 for a plastic bottle) *or* proper recycling (which doesn't exist for plastic right now).  So if it's not economical to recycle, it won't be recycled, but it won't end up in a river, either.
+
+> You just need the public to value creating less waste, which there's progress being made every day. If you want to get to your goal, you have to accept that you can't get there over night, it takes steady progress.
+
+You could spend billions on ""awareness"" and it would shift behavior a bit.  As soon as you stopped your PR campaign, laziness would reassert itself and people would slip back to old behaviors.  The easiest, most effective way to get the public to ""value creating less waste"" is to simply put a proper monetary value on the waste at the time of purchase.  That way, there is no disconnect between the waste decision at purchase time and the cost of disposal later."
+California,ffao46u,t1_ffajo3l,1579740514.0,"Climate events have been getting much stronger, but we have far, far better mitigation technologies.  For example, we can predict hurricanes much better."
+worldnews,ffadjz1,t1_ffad284,1579733029.0,"> Consumers simply don't value recycled goods
+
+I agree that recycling isn't cost competitive, but I'm saying that the true cost of landfill-destined goods is ignored.
+
+> but if the option is recycling vs making a new product, likely the best option right now is to just make a new one
+
+That's the false dilemma. That's what producers want us to believe, because it is the business model they know and keeps their products cheap.
+
+I'm saying that if you priced in the cost of disposal/true recycling into the product at time of manufacture, the free market *would* respond and producers would be forced to switch to more sustainable materials and packaging.
+> but where I live (USA) you have to pay someone to come pick up your garbage and dispose of it
+
+Yes, and it's flat rate, up to whatever size bin you have, so there's little to no incentive to change your purchasing decision on small products based on how wasteful the total package is."
+worldnews,ffa7p18,t1_ff9xq96,1579729495.0,"> What's the economic cost of making a new item vs recycling? There's got to be a reason the market it rejecting the concept of recycling right now, it's simply too expensive. The economic inefficiency of recycling is being reflected in the price. Consumers aren't willing to pay that price right now. 
+
+Because the price is *being ignored*.  Rather, recycling has a cost associated with it, but throwing something away does not (or is flat rate), and neither is paid by the manufacturer/wholesaler/retailer.
+
+We need to price the cost of proper disposal into products at the time of manufacture.  Suddenly, that plastic blisterpack on a plastic tube containing a smidge of lipstick becomes a significant cost, and manufacturers will switch to biodegradable packaging en masse."
+worldnews,ffa71ww,t1_ff9dp92,1579729135.0,"> Items packaged in recyclable materials must carry a fee which exclusively covers the cost needed to recycle it.
+
+Why bother with that?  
+
+All products must carry a fee which covers the true cost of disposal in-country, including the packaging."
+worldnews,ffa6m22,t1_ff9seu9,1579728891.0,"> For pretty much anything other than aluminum, the energy spent collecting and recycling outweighs the recycling benefit.
+
+Energy spent isn't the only thing.  Recycling glass and pretty much all metals is worth it because the recycled product is usable in all but the most demanding applications of the material, easing pressure on mining/collecting more natural resources.  
+
+Paper recycling is pretty good, too.  Plenty of demand for recycled paper products.
+
+Plastic recycling is mostly worthless."
+worldnews,ffa6ax9,t1_ff9whnx,1579728721.0,"Add a true cost of disposal tax to all items, including packaging, *at production time*.  Watch the industry switch to biodegradable packaging overnight."
+todayilearned,ffa2twd,t1_ff9qx0c,1579726762.0,"If the blacks get liberated, the poor whites won't have someone to look down on.  Without someone to look down on, they might look up at the people that are pissing on them and realize they're being pissed on."
+California,ff7abht,t1_ff766ir,1579644507.0,"While that's true, it's likely to shake things up dramatically."
+LightbringerSeries,ff70oaf,t1_ff5qqrz,1579638770.0,"> Him losing his colours gradually I assume is because the Blinding Knife is acknowledged to be both inconsistent and bound by intent/will, and because he is natural Prism and therefore affected differently.
+
+And he wasn't stabbed through the heart."
+assholedesign,ff6zz1i,t1_ff6nfzb,1579638364.0,"If they decreased the size by simply reducing the length of the bar, which would be obvious from the length of the box shrinking, everyone would understand and there would be much less backlash.
+
+Using (bad) trickery to reduce the amount of product you are giving while filling the same box is deceitful, and triggers resentment."
+California,ff6zgqr,t1_ff6lyqc,1579638067.0,"Outside a very select few colleges, sports do not even break even.  
+
+One particular sport such as basketball or football *might* be net positive at given institution, but the proceeds are then used to cover all the other sports that are nowhere near profitable.  Typically, the participants of sports programs also pay significant fees on top of their regular tuition for the privilege of participating."
+California,ff6z5kn,t1_ff6hza0,1579637885.0,"> That will never change.
+
+Climate Change:  ""Hold my beer...""
+
+But yeah, not for a while.  Climate Change may shift the desirable parts around a bit in the not-so-distant future, but there will always be a large ""I can finally afford to live in California!"" contingent to swoop in and pick up demand in falling areas."
+Stormlight_Archive,ff6ovfb,t1_ff64k7t,1579631794.0,"Also, I believe the cut of the gem affects the efficiency of retaining stormlight, as well.  Naturally, with entire wars being fought over shards, the most efficient gems would be reserved for tactical necessity.
+
+Finally, it's like the half-life of radio isotopes.  It's all about probability.  The longer the weeping goes, the more likely a gem has drained.  However, there are a lot of gems out there being used as currency.  If a gem has a 0.1% chance of still having stormlight at week X of the weeping, there will still be gems with stormlight remaining somewhere."
+nba,ff6nk3z,t1_ff57y44,1579631001.0,"I don't blame Dame for trying it, as every player does it and he thought Lee would be in the air when he made contact.  In the air = foul, consistently judged.
+
+I do blame the refs, because Lee was quite clearly not in the air anymore and they were reviewing it."
+changemyview,ff3phor,t1_ff3feml,1579546053.0,"Imagine you had *never* been taught that ""men are men and women are women"".  No stereotypes that men are stoic and women are touchy-feely.  No stereotypes that boys play rough and girls are nurturing.
+
+Now realize that although people in male bodies trend towards the masculine stereotypes and people in female bodies trend towards the female stereotypes, there is actually an *infinite* variety in just how masculine or feminine someone is.  It's conformity that pushes us further towards the extreme.
+
+Imagine you are in a society that sees interacting with children as *absolutely* feminine.  You want to hug your daughter/niece, but that would be feminine and people would mock you.  Do you simply accept your gender identity as a man and refuse to hug the little girl, or do you question whether what society defines as masculine behavior reflects who you are as a person?  (Answer:  You probably conform and don't hug the girl, because such societies are generally pretty brutal towards nonconformists on the gender front)"
+civ,ff3oe6x,t1_ff3hx97,1579545385.0,"I kinda miss UUs keeping their benefit after upgrade, from Civ 5.  e.g. English Longbowmen kept their +1 range upgrade as Machine Gunners.
+
+I understand that's hard as shit to balance, but it made the early UUs much more compelling, and typically encouraged expansionism at the same era the historic civ did."
+motorcycles,ff3npzh,t1_ff3hjar,1579544971.0,"Your kids learn from what you do, not what you say.  
+
+If you show them that life is about sacrificing and being miserable, they will internalize that.
+
+If you want your kids to be happy adults, be a happy adult yourself."
+motorcycles,ff3nmbp,t1_ff3mrle,1579544908.0,I sincerely h ope he was talking about 8 hours of work + 8 hours of parenting.
+Battletechgame,ff3mjjo,t1_ff3lbax,1579544239.0,"Yeah, I was just appending my opinion to ""jump jets and arm mods not a great combo"".
+
+In general, I agree.  In practice, most of my JJ mechs have stacks of 0-ton arm mods because it's great when you want to cool down for a minute or finish off a high-evasion light mech.  Also, +stab mods on a laserboat (many JJ-heavy mechs are laserboats) comes in quite useful when you have that enemy that is unstable and no other way to tip them over."
+programming,ff3llym,t1_ff3cdm6,1579543661.0,"One thing I miss from vim in IDEs is quick record of macros.
+
+Now, IDEs have refactorings which do a better job for lots of things I used to use macros for, but quick macros are still quite useful for repeating operations on bits of syntax the IDE doesn't understand.
+
+A key to this ability to quickly make macros is vi's modal nature.  Things like ""search for this regex, find the next instance, move two characters forward, delete up to the next '['"" are just repeated keystrokes you would have made yourself."
+Windows10,ff3k9zh,t1_ff30bnm,1579542846.0,"> Fixing the app does not simply pay
+
+It's more that it's not *sexy* from an internal achievement point of view.  What middle manager is going to stake their claim on, ""I'm going to moderately improve the built-in photo app""?
+
+Now, part of that is because of $$$.  It's easy to get accolades (and therefore raises) for improving anything that generates actual revenue, but much harder to quantify your impact on something that is free and bundled. You don't even have number of downloads to track and claim improvement in user satisfaction."
+Battletechgame,ff3jp46,t1_ff39hp6,1579542495.0,"> Arm mods & jump jets usually are not a great combo. 
+
+I collect and stack the 0-ton arm mods."
+programming,ff3j2o6,t1_ff2qxr5,1579542113.0,Fair enough.  I haven't really done enough python to be intimately familiar with its type system.
+WindowsMR,ff3iwin,t1_ff2mv8n,1579542007.0,Virtual Boy.
+programming,ff283na,t1_fezzlpb,1579496548.0,"> I'd like to point out that 1 != ""1"" in any dynamic language I'm familiar with.
+
+Sure, because that's just shorthand for the real problem.
+
+    let foo = 2 + ""2""
+    foo = foo + ""0""
+    
+I can't even remember off the top of my head (it's been a while since I did JS) if foo is 22 or 220."
+programming,ff26i0u,t1_ff02ppm,1579495190.0,"> and 10 lines Python == 30 lines C++ == 1.25e12 lines of Java (and usually XML)
+
+Which is why Java had to move to 64-bit so fast.
+
+;)"
+programming,ff26fro,t1_feyz5hm,1579495139.0,"> tend to have a lot of patterns, which I've come to believe are signs of shortcomings of the language
+
+*All* languages have patterns, and *all* patterns are there to overcome shortcomings of the language or paradigm. For example, the Factory pattern exists because the language does not allow you to return different child types from a constructor depending on the inputs.
+
+However, if you're not seeing patterns in JS codebases, you aren't looking.  There are a lot of patterns in OOP that are well-worn, well-known, and famous enough to be named.  JS is a mishmash of procedural programming, functional programming, and really crappy OOP, so you'll see different patterns.  Hell, you have fucking *type-checking* patterns in a lot of JS codebases."
+programming,ff25pwp,t1_fezc2of,1579494545.0,"> The tighter the constraints on data, the greater the range of things that can be done with data fitting those constraints.
+
+To say it another way...
+
+Constraints, when adequately enforced, become *guarantees*.  We like having guarantees.
+
+Would you rather have a lottery ticket with the possibility of $0 or $1000 dollars, or one with a *guarantee* of $50?
+
+The fewer constraints you can put on your data, the fewer guarantees you have later on.  With static typing, you end up checking your constraints up front.  With dynamic typing, you have to check the original constraints at every single level of the program."
+programming,fezrom9,t1_fexmpzj,1579460784.0,"> People should stop pretending that it's somehow faster to develop in.
+
+I was gifting that side of the argument on the basis of having an army of JS developers and sharing a language between front-end and back-end.  
+
+For me, personally, strong typing wins."
+explainlikeimfive,fewzytj,t1_fewsbp6,1579422092.0,"I'm with you there.  The standard may make everything safe, but we know that not everybody will follow the standard, especially with power sources."
+explainlikeimfive,fewrqwt,t1_fewqp9h,1579418513.0,"Well, as long as plugging a cable into the wrong port won't fry your machine, it's not too bad."
+programming,fewpoyq,t1_fewo5qo,1579417631.0,"> Scala 3 will be able to use Scala 2 libraries
+
+That'll help, but those libraries would still have to be updated in Scala 2."
+explainlikeimfive,fewo0ub,t1_fewl1k4,1579416512.0,"> that ethernet was not a flexible product or adequate at the time, so many other types of cables/connections/protocols were developed for specific often very purposes
+
+Cat5 cables were plenty flexible.  *Too* flexible.  You could use them for power, analog audio to speakers, plain-old-telephone, etc.  Unless you knew how to read the different colored cables you could barely see in the connector, you wouldn't know if it was a ""normal"" cable, a ""crossover"" cable where some of the inner wires are switched, or some custom monstrosity someone was using to carry multiple telephone lines in one Cat5 cable without following a standard of any kind.  *All* of those different kinds of cables fit in *all* ethernet ports.
+
+A similar problem existed with parallel ports and such.  The connector was a standard, but they're just pins connected to wires and people used the same connector for different purposes.
+
+A large factor in USB's adoption was the *Universal* part.  You plug a USB cable into a USB port and it just works. You plug the end that fits in your computer's USB ports into the computer, and you plug the end that fits into the smaller port on your printer into the printer, and you're good to go."
+bjj,fewnmje,t1_feuq6yu,1579415930.0,"Also, in a tournament, you're likely going to be fighting someone as heavy or even much heavier than you, because the weight class is ""and up"". 
+
+If you've been pulling guard, you will suddenly realize that doesn't work against someone who is too wide to put your legs around.  And even if you're 300lbs, it's might unpleasant to have someone 300lbs putting all their weight on you."

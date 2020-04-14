@@ -1,0 +1,261 @@
+subreddit,self ID,parent ID,time,text
+videos,ffnzvwz,t1_ffmbv44,1580072775.0,You have to kill a lot of cows to fill a book case. At least that is what Minecraft taught me.
+programming,ffmbun4,t1_ffitouo,1580052020.0,"> They have been using big capital names with too short variables that make no sense when reading them without good context.
+
+All those big capital names are defines so the big capital is good practice - at least far better then them overwriting near and far to mean nothing and messing with min and max. Two of them are for types and use Hungarian notation, so LRESULT and HWND actually encode what they contain - a long integer (32bit instead of 16) as return type and a handle to a WND (a window) . \_In\_ is a compiler specific name in C - note the leading _ followed by a capital letter and denotes an input argument for whatever tooling / linter Microsoft has. That leaves CALLBACK which simply denotes the function as a callback function and sets the calling convention without anyone having to worry about getting it right. 
+
+The question is of course what qualifies as good context? Never looked at the windows api? Might as well ask someone on the street what float, int and string mean and come to the conclusion that modern programming languages use utterly impenetrable jargon."
+programming,ffm4t67,t1_fflwvj3,1580048555.0,"Just feed it the string ""aaaaaaaaaaab"" there is a good chance that a 100gb regex has some catastrophic backtracking."
+worldnews,fflgbso,t1_ffl2os6,1580039342.0,"> without self righteous pedestrians feeling like they can cross anywhere
+
+In Europe the rule is to use marked sections if any are within a 100m and you have to ensure that the path is safe either way. Crossing the road blindly isn't ""self righteous"" it is called ""suicidal"" and few people are inclined to do it."
+programming,ffle1yp,t1_ffki361,1580038487.0,"> The for-loop encourages use of unary incrementors and decrementors, which will be soon removed from the language.
+
+This language is going places, but it will never be double plus good."
+programming,ffersn2,t1_ffe9f8d,1579862384.0,"> you should use Python.
+
+Styleguide last updated January 2018. So do they mean python 2 or 3? Because that is a backward incompatibility dumpster fire and some of us actually have to care about things like that.
+
+Edit: I can't really use python 3 if the systems I have to support only have 2 and I cannot use 2 since there is an ongoing purge for newer systems. There was a time I considered python the go to solution for linux scripting since it was installed on just about any system I had to support (even if it meant python < 2.7). Now I have systems that either  support 2thon or 3thon, back to portable and self contained binaries it is."
+pics,ffd09al,t1_ffcuiqw,1579810876.0,"On the one hand it is a 108 year old lock, on the other hand it isn't a master lock... . The interesting question is how many rounds will it survive against a ramset?"
+programming,ffckrkf,t1_ffcb22h,1579801554.0,">  the reason you never just dump user input onto a web page.
+
+Even better, it shows that it is practically impossible to provide a ""safe"" subset to users as they can just build and invoke any function name even from a minimal set of features. You need to take additional steps outside of the language itself to isolate untrusted code."
+funny,ffc0chp,t1_ffbzhzh,1579788275.0,Even EAs best only managed around 670 000.
+Futurology,ff6y4rq,t1_ff01xov,1579637284.0,"Seems like they have plans for waste water treatment around that size: 
+
+>  [Additional facilities will include a waste water treatment plant with a capacity of 252 m3/h](https://en.wikipedia.org/wiki/Tesla_Gigafactory_Europe)
+
+The car production itself may require a lot of water."
+worldnews,ff1ayo5,t1_feztkyt,1579476952.0,"By my interpretation not really, catholic confession requires the will to repent. Apparently he repeatedly tried to repent by not doing it again and failed to meet even that low bar until they had to remove him due to legal threats. Unless he did a complete 180 in the last 30 years he fails hard at one of the basic requirements."
+worldnews,ff15fl2,t1_ff0dggx,1579475414.0,"Forgive, yes. Let him keep managing a scout group, especially when there is no sign of him stopping? Hell, no. It took them years and legal threats to finally remove him from that position. Lets hope that no victims pop up from his follow up position."
+todayilearned,feyr50l,t1_fey8x4x,1579449596.0,Downside: It wont be worth anything until you die.
+gaming,fes16z7,t3_eqcjyd,1579360374.0,Orange and blue portals? Portal 3 VR confirmed.
+funny,fenicy0,t1_fenhyww,1579285328.0,"Clearly LGBQT, no conservative fish would leave the water and start to breathe air as that would be considered highly unnatural."
+programming,feng8n5,t1_femrvuo,1579284022.0,"> Allowing anyone to come along and **unilaterally, arbitratily modify** and read your internal state is the exact opposite of encapsulation.
+
+You could enforce constraints in setters. Nor did you have to expose all your state with getters."
+IAmA,fenf70s,t1_femy90d,1579283387.0,"I wouldn't call that an apology. There have been situations where I would call ""I'm sorry for your loss"" and similar statements an insult."
+gaming,fendn38,t1_fen2opi,1579282438.0,[Stupid long horses](https://www.reddit.com/r/pics/comments/8aqjh/awww_this_is_just_too_sad_pic/c08pp5z/).
+worldnews,fend2og,t1_fen7rwy,1579282097.0,"The problem is that you can keep an inefficient system going as long as you use your other system to support it. It basically bypasses a competitive market as other companies operating in that segment may not have alternate means to support themselves. The result doesn't have to be better, more competitive or efficient in any sense as long as it outlasted the competition. 
+
+
+An example is IE from Microsoft, a ""free""^1 browser supported by the most widespread OS that killed of all competing browsers and crippled web development for years as it barely received updates itself once it achieved market dominance. Google is currently in the process of taking advantage of its current market dominance in order to kill ad blockers, newer Chrome plugin APIs intentionally limit how ads can be blocked and Googles own services appear more and more broken on browsers that do not share chromes back end^2 . 
+
+A second example was Microsoft Word early on. When Microsoft planed new APIs for Windows it involved the authors of several competing word processors. When Microsoft released the new Windows version it did so with several breaking changes to those APIs, only Word ran from day one. So if you ever wondered how Word became so widely used, it is not because it was even remotely good, Microsoft just made sure that it was the only working option. 
+
+Going away from Microsoft we have Intel and its Intel compiler. The Intel compiler is to this day one of the best in the industry, you want fast software? You use it. Intel is also known for its great CPUs and we have lots of benchmarks to prove it. Of course those benchmarks were intended to run as fast as possible, so they used the Intel Compiler and for years Intel won with barely a question. Only AMD added more features to its CPUs, features that should have shown a large increase in performance and the benchmarks stayed the same, what was going on? Turns out the Intel Compiler inserts a CPU vendor check into every binary it compiles, causing the execution of fallback code for every non Intel CPU, fallback code intended for CPUs that lacked any feature added in the last 10 years. This trick wasn't documented until a lawsuit forced them to come clean. 
+
+^1 Microsoft pulled a fast one on the original developers behind IEs web engine with that, at a time when browsers cost money they asked for a share of the profit. They settled for a few million. 
+
+^2 Youtube for example was written against Googles own Shadow DOM proposal, implemented by Chrome. Any browser implementing the official standard version of the API has Youtube running in a slow fallback mode."
+PoliticalCompassMemes,fen1lhl,t1_femtvav,1579274935.0,You need to tell that to Musk. Of course he just opened a car factory in China so he already got that memo.
+PoliticalCompassMemes,fempzil,t1_fe5wzr7,1579266171.0,"> And how its workers joining together puting in jeopardy the project in any way? 
+
+Musk likes to make up goals. I think some of his production goals for Tesla required a lot of late night shifts and short weekends to meet public deadlines. As far as I know unions usually frown on CEOs randomly cutting down employees free time."
+AskReddit,feme6nv,t1_fell529,1579250871.0,I bought one since my old one fried itself. I play Minecraft.
+programming,fejfrn7,t3_eph94t,1579172091.0,"Linus: Don't use spinlocks unless you know what you are doing. Most of the time you don't.  
+matklad: Spinlocks are evil. Let me show you how you can get a worst case with getrandom by intercepting several system calls and forcing them to sleep most of the time.
+
+Systems matklads example applies to: 0.  
+Systems Linus original point applies to: all."
+AskReddit,fejbvce,t1_fei92ir,1579166198.0,"It was Hammerlock's. He was convinced you were after him and kept nagging you to hunt him down, only to panic when you actually do."
+gaming,fehnfa4,t1_fefs5h2,1579120080.0,">  Two of those burning hands spells were not enough for the job
+
+I just tried a mage build. It took two fireballs (2-30 dmg) or a single firebite (15-20dmg) to take out a mud crab. Given that I spammed fireball instead of just using firebite I ran out of magica after around 7 enemies . Having to rest after that however might qualify as a minor annoyance. 
+
+Just stabbing them with a dagger also went well enough, even if it took some time as I intentionally avoided any armor or weapon skills during character creation. 
+
+>  Bound dagger just...whiffed, all the time. 
+
+Exhaustion from constantly running is punished by the game. However recovery potions for that stat can be made early. In contrast to magika, which I think requires daedra parts for the ingredients and the only recovery scroll in the starting area cost around 400."
+programming,fegitgj,t1_fegehot,1579094089.0,"> I wish people would stop trying to force inject cynicism into this because this is actually pretty amazing of an idea imo
+
+For me Google reached Microsoft levels of (anti)trust, there is no need to ""force"" inject a negative assumption at this point. 
+
+> browsers like Falkon or QuteBrowser they are perfectly serviceable browsers but actually using them can be annoying due to UA 
+
+The UA string is just a string, if that is their biggest problem they can just send the same as Firefox does. Isn't that even the reason why most current UA strings are so bloated, every browser pretends to be several others."
+programming,fegfgeb,t1_feftdty,1579090966.0,"So now we not only have to wait for the browser to parse and execute JavaScript. Instead the page now has to render a few hundred feature tests to check if everything aligns correctly before it even executes the correct JavaScript to render the page.
+
+Win 3.1 called, it wants its SimTower startup process back."
+programming,feg9iod,t1_feg7wov,1579083556.0,"expertsexchange is just a fond childhood memory, I think they renamed themselves to experts-exchange to avoid that misinterpretation years ago. And nobody can tell me that they handled the CoC correctly when the first reaction to a moderator asking questions on an internal mailing list / chatroom is a firing and the second reaction is a smear campaign involving news sites."
+programming,feg8wtg,t1_feg80ls,1579082691.0,"> By the way most users were fine with using gender neutral terms.
+
+As far as I understood they literally kicked out a moderator over asking that question."
+programming,feg8rn3,t1_feg864i,1579082486.0,Apparently asking about the policy before it was released was considered a offense.
+programming,feg7hfb,t1_feg61mv,1579080649.0,"It is in a way hilarious that the site replacing experts sex change started its decline with a questionable decision over pronoun use.
+
+Edit: I didn't expect a reaction this negative. I don't have an axe in the pronoun game and mostly meant how they handled their moderators and community, with the resulting fallout."
+worldnews,feg792m,t1_fefo1k1,1579080317.0,"You know what the US called people that pointed out corruption during the cold war? Communists and you really did not want to be considered a communist in the US, people ended up shot for being communists."
+worldnews,feg6l8t,t1_fefix0s,1579079383.0,"The german railway system is partially outdated. When we had a train collision in Bad Aibling it came up that the lockout system used was around a decade out of date. Of course the crash itself was caused by the guy in the station giving both trains green light and overriding the existing lockout, hard to play mobile games if you have to keep track of what trains pass."
+worldnews,feg6a9z,t1_fefsk2y,1579078956.0,"The place I work at has a shitty connection, the good one is just over the road. We tried every provider, the owners of the cables and even alternative routes. The answers: outright refusal or complete lack of interest. One of our crazier ideas was to just rent a small plot of land on the other side of the road and set up a directional beam right into our office."
+worldnews,feg5wwb,t1_fefq8iw,1579078430.0,"> It's always the cheapest.
+
+Our politicians just completely suck at specifying requirements and our judges will fling the book at reality rather then prioritize usability. The university I went to for example had large empty hallways and no places where you could just sit and rest, it didn't fit with the artists vision. Fire safety also seems to be a common issue, one of the schools I went to had to completely redesign its stairways and I know of one other school where the designer just completely blocked any change, making use of the schools top floor legally questionable. The artists right to his creation is held rather high."
+todayilearned,fef53cr,t1_fee5i36,1579048379.0,"> Like if Bill Gates endorsed me for something, 
+
+So how many of your competitors did you financially kill? Played part in a large scale protection raked a la SCO recently? Maybe even bribed a few third world countries to make formatLikeWord95 part of the next big ISO document standard? 
+
+As much as he invests in getting good press today I would still count any endorsement by Bill Gates as do not trust."
+gaming,fef4fas,t1_feeq9io,1579047931.0,"In early counter strike I just sniped everything with a M249. I miss the days when I could just head shot anything that moved, really have to start playing on gun game servers again to knife everything that moves and share my grief."
+gaming,fef2ahg,t1_feeypuj,1579046492.0,"> Good luck finding me again
+
+Most of the time it wasn't that bad. Usually you had enough information to find the quest giver again. Finding the target of the quest on the other hand could get nasty, I remember trying to find a cave for the main quest over two days and giving up in favor of doing more side quests."
+gaming,fef212y,t1_feeyt25,1579046322.0,">  the mud crab, was all but unkillable outside your specialty with your starting loadout.
+
+Easy to deal with with any ranged attack, as far as i remember those things where slow as fuck. Of course I was used to Baldurs Gate mechanics, where 1 vs. 1 combat in the early game had a good chance to get you killed (in one hit) and you almost had to avoid fights to even survive the start. 
+
+> It was for me, at least. I never could do more than twenty minutes of Morrowind.
+
+That far in I usually had the starting town figuratively robed blind. Leveling alchemy while selling back all the useless potions meant you would never run out of money and have everything you need right from the start. Of course you could also literally rob everything or just clean out the nearby cave if you wanted fight for the money."
+programming,feexik0,t1_fedzf7u,1579043369.0,">  (yes, I know that all the main browsers auto update but I believe this criticism still holds weight). 
+
+The main browsers also provide long term support versions. So yes the criticism still holds weight."
+programming,feex5fq,t1_feepkzt,1579043139.0,"It can just detect the APIs used to implement uBlock, the plan for Chrome is after all to remove them in favor of crippled alternatives ."
+programming,fe8v5bn,t1_fe6xvhc,1578931303.0,"I heard you like hanging, so I wrote a super efficient debugger in Electron so you can hang while you hang. /s
+
+My experience with JavaScript debuggers is a bit limited, but as far as I could tell it can involve a lot of lag on larger (several MB) sites."
+programming,fe86o8v,t1_fe7bdv3,1578923154.0,"Better:
+
+      //Do not remove, this somehow fixes a crash
+     printf(""Debug print for bug #12541: entering foo()\n"");"
+programming,fe514tt,t1_fdzuxko,1578864678.0,You laugh until someone pulls a Xerox and replaces every 6 in those images with an 8. While quite limited compared to getting full access it still can cause a lot of damage.
+programming,fe4evqc,t1_fe3h365,1578858543.0,His example is literally optimizing a book burning. It was clearly obsoleted around the 1940s.
+programming,fe1lwmb,t1_fe0z34k,1578828220.0,"> I should add a comment on why I've done it 
+
+I once commented 5 lines of code with an exact explanation of the bug I was avoiding. First response on the review board asked me to change it to the simple and clean one liner that caused an invalid memory access.
+
+> Also there implication that an unfinished feature was in master is frightening.
+
+If it doesn't break anything? Worst case you can hide it behind an experimental feature flag until it is complete."
+funny,fdz5xao,t1_fdwkihn,1578787046.0,"If I remember correctly the main issue was that the preconditions for a legal sale weren't met at the time you pushed the button. So the ability to cancel a sale that was never valid made no sense from a legal perspective either. There were probably many ways Amazon could have resolved the issue, however the court case ended only a few months before Amazon scraped the buttons entirely."
+funny,fdw9x06,t1_fdvtgpw,1578756582.0,"They were even outright illegal in Germany. There was no fixed price, so it was impossible to know at what price you were ordering until after the fact. I think Amazon could also swap around similar products, so you wouldn't even know what you ordered."
+AskReddit,fdw3049,t1_fdvxumx,1578754543.0,I think it came up when he wanted to look for murder suspects and one of the other cops jokingly mentions going through the phone book starting with Aron A. Aronson. It isn't the only joke name that turns out to be attached to an actual person.
+videos,fdui312,t1_fdt153w,1578733351.0,"> It is illegal to set arbitrary fines, such as those based on income.
+
+[Is it?](https://lawreview.uchicago.edu/publication/constitutionality-income-based-fines)  There was an experiment started in 1988 on [Staten Island](https://www.nytimes.com/1988/08/29/opinion/criminal-fines-by-the-day.html). 
+
+>  inability to pay should not reduce your fine, i.e. if fines were tied to your income, those without income would be fail to be disincentivized from comitting fineable offenses
+
+In the case of parking violations someone needs to be able to afford a car in the first place. In the case of prison time the affordability would not prevent the whole sentence, only avoid worsening it. 
+
+> no way to set a fine without a minimum required amount.
+
+There wouldn't be? Certainly you could take every approach to its extreme or you could still have a cutoff point, maybe with the ability to work them of doing two or three hours of pointless busywork - like sweeping the front of the court house with a broom. Theoretically you could have a two day prison sentence right now, get incarcerated on Friday and get let out immediately to avoid the weekend."
+funny,fds7oc0,t1_fdqeesr,1578696218.0,How would it fare against a [car](https://youtu.be/ZVTLsQ8iNCM?t=377)?
+gaming,fdq7nnr,t1_fdq42f5,1578658310.0,"Nothing against reusing a working engine. However Fallout 76 does not make a good case for the ""working"" part and at least at the start people complained that they still saw the same bugs that were already reported for Fallout 4. I really think it would be best if they fixed the issues before they release another buggy mess."
+gaming,fdpwy1p,t1_fdppunq,1578643974.0,Their games all use the same engine. Do you really want a new elder scrolls before they fixed the current shit fest?
+programming,fdmswyo,t1_fdmkj6j,1578564185.0,"> Between Amazon Prime and Netflix I've got more than enough to watch.
+
+Amazon Prime has been anoing me quite a bit:
+
+* Often only the local dub is available if any is available at all. Can't watch content in the original language.
+
+* Their content management is a mess. For some series they have the wrong episodes listed. Sometimes episodes are missing or in an inversion of the above point in a completely different language. 
+
+Those two points alone make torrenting necessary if you actually want to watch the affected videos as intended.
+
+Also constant adds for prime exclusives between videos, is there an option to just turn them off? They get rather repetitive when I marathon a series, yes I know you have some amazing shit playing in a Victorian setting right now, you already told me fifteen times."
+technology,fdmrt2w,t1_fdmpxj7,1578562615.0,"Why would the server need to completely decrypt the videos at all? Split them into ten second increments, encrypt them, put the encrypted files into the database and every time the user requests a video just return the still encrypted slice for the application to decrypt with the users private key, which can be stored on a different server or stored on the users device (with explicit pairing for any device used to access it)."
+worldnews,fdklmgv,t1_fdk95q3,1578506097.0,"Boeing just isn't trustworthy. They have every motivation to conclude whatever the Trump Administration tells them to if they want more money and more military contracts (emphasis on the ""more"") . They also are habitual liars when it comes to their own failures, the 737 MAX is just the latest. When various 737 suffered from rudder reversal due to faulty valves Boeing concluded that it was a psychological issue and caused by the pilots panicking - after a complete valve was recovered from a crash and used to reproduce the fatal error in tests done by one of their own engineers."
+programming,fdk4ibp,t1_fdj9jbj,1578495855.0,"It is mentioned as the current work place of one of the original Swift developers, with a speculative note that there might be a Google based future for this project. Current project state: denial, may be followed by acceptance or proceed directly to death."
+programming,fdk3nbv,t1_fdk0zk9,1578495262.0,"You are preaching to the choir. However that doesn't make this enforcement any more surprising, especially since it has been doing similarly without blow back for years. 
+
+And if you want to talk about Microsoft, then you can consider public APIs fair game too. Early windows went out of its way to detect if it was running on DR DOS and also broke agreed on APIs to break Words competition.  As far as corporate evil hood goes Apple wont be able to compete with Microsoft until Gates finally retires from its board of directors."
+programming,fdk2laa,t1_fdib0fn,1578494517.0,"ASICs and wasm or other browser abuses, it doesn't have to be efficient if you aren't burning your own money."
+programming,fdjhxjf,t1_fdjfaaq,1578471595.0,"Except that the ""don't use private APIs"" has been a rule since the beginning. The only change is that Apple now enforces it for more functions, I think they even gave developers several months to fix it when it first came up. Not Apples fault if Googles software breaks long standing rules."
+programming,fdhc67o,t1_fdh82iu,1578419761.0,It worked rather well for python3. /s
+worldnews,fdhapjq,t1_fdfs7r1,1578418992.0,"But they live in dirt huts and eat dirt on their dirt plates, the dark ages will be an upgrade - probably every republican voter. 
+
+Don't expect people to know anything about people living half a planet away. Hell, if you asked me for facts about Iran I would come up nearly empty and I am sure that Trump aligned news agencies know just what pictures to show to his supporters to give the wrong impression."
+worldnews,fdh9uej,t1_fdg759i,1578418497.0,Don't worry. The US has long standing plans to invade any international court handling war crimes if anyone ever raised a case against it. Trumps freedom of consequences is part of an age old tradition and he abuses the shit out of it.
+programming,fdgm7k1,t1_fdezqr8,1578402012.0,"Most drivers are part of the kernel, so those 200 per day may include a lot of workarounds for broken hardware. Intel alone can keep an army of bug fixers employed."
+worldnews,fdga4b7,t1_fdg0wkj,1578386679.0,"Assassinated him apparently after requesting Iraq to act as in between for peace negotiations to lure him into the open. I am sure they have the pardons that Trump needs to sign printed and ready, if not already signed."
+videos,fdezg53,t1_fddx00w,1578349888.0,"Naive equality is about fining a millionaire $60 for parking violations. Gets the point across so well that Steve Jobs spend the last years of his life parking on a handicapped spot. 
+
+Often the punishment needs to fit the criminal, someone cannot leave prison on a weekend without suffering unduly? Either make sure they are incarcerated on a proper date, which certainly should have been possible to manage in this case, given she was only sentenced for 14 days. Or handle the worst case as appropriate for the person in question and if there is no undue hardship by spending the full sentence in prison there shouldn't be an early end to the stay."
+videos,fdew25l,t1_fdedn55,1578347791.0,I mistook that brand name for Fallouts Vault-Tec at first. Given the quality of Bethesda s merchandise that would have been impossible to close without breaking it. That just leaves the question if Vaultek products are sturdy enough to survive WWIII.
+videos,fddrmlv,t1_fddppx9,1578322170.0,That would be an understandable hardship for someone poor. For the rich on the other hand?
+AskReddit,fddmdws,t1_fdcux9q,1578317677.0,"One of my coworkers was DotA 2 obsessed. I thought he had to be a good gamer at first, the way he talked about it was in depth and seemed to speak of a lot of experience. Then his alt accounts came up, turns out he was pretty much an asshole in game and ended up in low priority matches for weeks at a time. When Valve changed the punishment algorithm his alts became useless and he stopped playing, however he kept watching twitch streams of it."
+programming,fd8oi1a,t1_fd7sl40,1578220948.0,"Using the struct module you just have to specify the types of your raw data using a format string that you can use to pack and unpack between tuples and byte arrays. I think it is easy enough to use, but can get rather unreadable for larger data structures."
+worldnews,fd26zl0,t1_fd26knc,1578142674.0,He is only the second largest owner with [330 million shares](https://www.investopedia.com/articles/investing/122215/top-4-microsoft-shareholders.asp).
+worldnews,fd26g6m,t1_fd24i7w,1578142428.0,"> They give away a huge amount of money and have saved hundreds of thousands of lives. 
+
+I am not sure if I trust that as good deed or just see their charitable foundations as a smoke screen to hide bribes in third world countries. There have been claims that they directly intervened when some less well of countries decided to adopt Linux instead of Windows. Bill Gates has such a long history of being a backstabbing sociopath that I expect every ""good"" deed to come with a hundred ulterior motives, just like the time Microsoft kept Unix alive by paying a few million in licensing fees to SCO."
+AskReddit,fcy5658,t1_fcy1g5h,1578074983.0,"Everyone expected Half-Life 3 as next installment and its release has been a running joke for years (it will be worth the weight),  Half Life Alyx might not be 3, but it is a new installment in the series. Also the ever present Valve cannot count to 3 so they just call it Alyx joke."
+pics,fcvp5zo,t1_fcuhcpf,1578006961.0,[The boulder ties it all together](https://www.youtube.com/watch?v=6Qq7754ZZlE&feature=youtu.be&t=147)
+programming,fcvmghe,t1_fcvjxwd,1578005258.0,"Microsofts email client ended up as part of office, succeeding a mail client for local networks. In 1994 Bill Gates apparently said ""I see little commercial potential for the internet for the next 10 years"", so by the time IE became a thing it practically had to be free to gain any relevance^1 .
+
+> Imagine the browser being a product akin to office
+
+A decent browser not directly financed by the biggest ad and spyware vendor of the world? That would be nice. While Firefox is doing a decent Job Mozilla doesn't exactly grow its money on trees and is at least partially dependent on Googles goodwill. 
+
+^1 Excluding Microsofts other business tactics of just pulling APIs used to implement competing software or throwing up weird errors if detected the wrong software."
+programming,fcvhe9o,t1_fcvfxtj,1578002135.0,"Microsoft [licensed the source](https://en.wikipedia.org/wiki/Internet_Explorer#Internet_Explorer_1) of the Spyglass Mosaic Browser for IE 1.  The deal was a quarterly fee + a percentage of the revenues. The resulting lawsuit ended with a $8 million settlement.
+
+>  God, can you imagine having to pay for your browser?
+
+IE is by now deeply integrated with Windows^1 , so you pay for its development with every Windows license.
+
+^1 This was given as reason why you couldn't just replace IE completely with any competing browser when the EU came checking for monopoly abuse. For a time you couldn't run Windows update without loading an ActiveX component in IE, which lead to interesting contortions when IE itself was updated."
+programming,fcv6bb3,t1_fcunkcw,1577995541.0,"> OTOH that time coincides with a distinct lack of online searchability
+
+Microsoft: Internet? Nobody wants that.  
+
+Microsoft: New Windows versions come with FREE copies of IE. The developers wanted a share of the sale, suckers.   
+
+Microsoft: IE5 is good enough and hardwired into the OS."
+todayilearned,fcuulfn,t1_fcumi10,1577988831.0,Suicide is apparently hard even when you want to die. Robbing a bank in a well armed town seems to be a good way to have someone else kill you.
+programming,fcuaslk,t1_fcr3g84,1577976637.0,">  This means the end of free support by the Python core developers
+
+I heard he retired last year, so that is only natural."
+programming,fcuajgl,t1_fcrmcyf,1577976463.0,"> or Java
+
+Java never made it past version 1.x, it just changed the scheme when it went from 1.4 to 5.0 ."
+programming,fcu7y02,t1_fcpylfu,1577974689.0,A reskinned Windows Millennium Edition most likely.
+todayilearned,fcu3vtm,t1_fcu24ds,1577971863.0,Only a few more months. Still need to unpack those VR controllers.
+programming,fcu366k,t1_fcttl8q,1577971165.0,"> With 95 you basically had to be a power user to get even the most basic components to work.
+
+When windows 95 came out I was a stupid kid. Installing and running games was easy. I am not sure if we even had to do anything special to get word or the printer to work.
+
+> You remember trying to set up a network between two if those machines? That took half the Ian party time.
+
+Some of that resolved itself by the technology itself becoming less diverse. Game trying to use your 56 k modem instead of the network card? No longer exists. Visibility issues due to different IP address ranges, every network now has a router for internet access with a dhcp server running. Your games want IPX support? Everyone uses IP based networking. Your games want a serial crossover cable for network play (I think C&C Red Alert)? Same, IP it is. Can't get your machines onto the same Workgroup to share files? Looks at Windows XP/7/10 monstrosity over at the table, lets try again in a decade when only Windows 10 systems are left in the wild. Game needs the IP address of your server? That is an Application issue, not something Window 10 could have improved."
+programming,fctyif0,t1_fcsj6rz,1577965857.0,">  it has outsized consequences
+
+The description of the compile process alone seems utterly broken. No incremental builds? Combined into a *.o i thought objects where bundled into a *.a ? Also the symbol lookup for dynamic dependencies is executed each time you run your program, so complaining about its near non existing impact at compile time seems hilarious. 
+
+Either the people behind cgo made it behave intentionally bad or the guy writting that article has no idea what he is talking about. 
+
+> > By default cgo is disabled when cross compiling.
+
+Wtf."
+todayilearned,fctvqzy,t1_fctsrs8,1577962027.0,crunchy
+worldnews,fctvpv6,t1_fctmjif,1577961978.0,"One of the shops I buy at sells ""recycled"" bags, made cheap enough that their seams tear within weeks from normal use. Whoever came up with that scam should be banned for life from working in marketing."
+worldnews,fcqwshm,t1_fcqtjf4,1577893405.0,"> No one has to follow Bavaria.
+
+Well the point was that apparently nobody in the CDU/CSU has to follow environmental goals and might even outright sabotage them. Making Merkels vow ring rather empty as long as there is active opposition from her own people. 
+
+>  It’s in some way nearly the same party.
+
+Then there should be a way to remove people that consistently oppose major parts of the party line, right? My prediction is that acting against that vow wont affect the carrier of any CSU politician negatively."
+todayilearned,fcqlrcu,t1_fcql41g,1577888245.0,Are there any women here today?
+gaming,fcqddd2,t1_fcq7q5d,1577883773.0,The only underwater sound I need is from [sonic](https://www.youtube.com/watch?v=Yv4a4E8sObc) . Ah the nostalgia ^^^^^^^^^^^^andPTSD
+programming,fcqcxze,t1_fcq2rtf,1577883532.0,Given that argument can we finally fix from \_\_future\_\_ import braces ?
+programming,fcq0co8,t1_fcpz7ch,1577876018.0,"> These projects pledge to drop Python 2 support in or before 2020.
+
+I guess you can strike the ""before"", I checked three projects (Tensor flow, Requests, PyTorch) and all of them still had 2.7 listed. I guess we have until 2021 to find out how much that pledge is worth."
+worldnews,fcpz3tg,t1_fcpvhvo,1577875256.0,"> Firstly, those bans were done on state level, so the Federal Chancellor can’t do anything about it. 
+
+Those bans where made by the CSU and fully supported by the parties leadership. Merkel could require concessions from the CSU leadership for further cooperation between the CDU/CSU in the Bundestag. I mean isn't that exactly what other parties do when they form coalitions? Agreements over the shared goals and compromises where they disagree?"
+worldnews,fcpy1yf,t1_fcp30vk,1577874620.0,"That would be the CSU, while acting as one party with the CDU in the Bundestag it runs its own exclusive show in Bavaria. Of course Merkel making vows like that without cleaning up the CDU/CSU act on the matter just makes it ring hollow."
+programming,fcpvb8a,t1_fcpf3tb,1577872906.0,"Jython is 2.7 only and recently released an update. Pypy is written in a Python 2.7 subset, so it also still supports it. One group declaring Python 2.7 dead is not ""the open source community (TM)""."
+programming,fcpuzw3,t1_fcphaoa,1577872708.0,">  ""will not be supported"" 
+
+Which also isn't true, we already have the guarantee of RedHat maintaining a fork for the next several years. Not to mention all the alternative Runtimes like Pypy and language specific ones like Jython continue to support 2.7 . Unless someone dumps thousands of developer hours on any of those projects python 2.7 will remain alive."
+funny,fcol4mn,t1_fcnhypy,1577834970.0,"The new version of Googles web extension API removes a function that uBlock relies on for the way it blocks ads, so it can no longer be maintained for Chrome or any derived browser. uBlock should continue to work with Firefox as long as Mozilla does not adopt this change for its own web extension API."
+funny,fcn9c14,t1_fcn63cu,1577806590.0,Depends on which branch of Christianity you ask. I think it ranges from eternal suffering in a lake of fire down to suffering the absence of god as long as you reject him.
+funny,fcn6xvb,t1_fcmskxl,1577804870.0,"May just be a fake, that 15% battery charge is just perfectly annoying."
+funny,fcmwh03,t1_fcmwb0g,1577795407.0,Use Firefox instead? What does the YouTube app offer that is worth the price?
+funny,fcmw2i0,t1_fcmvnvz,1577794913.0,So it is no longer using Linux or Java? I must have missed that memo.

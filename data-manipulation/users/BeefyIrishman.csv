@@ -1,0 +1,291 @@
+<<<<<<< HEAD
+subreddit,self ID,parent ID,time,text
+Teensy,ffl1g2y,t1_ffkwbby,1580033022.0,">with a diode it would go down about 2,7V
+
+It sounds like you might be thinking about a Light Emitting Diode (LED). Instead you can use something like a schottkey diode ([like this one](https://www.digikey.com/product-detail/en/smc-diode-solutions/19TQ015CJ/1655-1005-ND/6022095)).
+
+Even if you have 19A running through it (way more than a Teensy would ever use), it will only operate at ~360mV. At 1A it runs at about 125mV, and at typical Teensy current draw of <100mA it should be somewhere around 75mV. 
+
+Reverse voltage is 15V, meaning at less than 15V it should not allow current to flow.  Since the Teensy is only outputting 3.3V, this will block that current flow such that the Teensy will not be able to power the other devices on your 3.3V rail."
+todayilearned,ffgd1o3,t1_ffgby16,1579903532.0,"Ya but are the humans also stopping to rest? If I could sprint 100m, rest 15 minutes and get a Dr checkup, then sprint another 100m, and so on, without the stop time counting against me, I could beat most people in a 1 mile race. Ya, there are some 0.002% of the population that could probably still win, but I would wager that I could beat pretty much any normal person, and I don't run regularly nor am I a fast sprinter or anything. Just doesn't seem like a fair setup for an actual race."
+todayilearned,ffg2zz6,t1_ffg1flc,1579897350.0,"I get it from a humane point of view, but if the horses have to stop to not die, sounds like the human should 100% win the race."
+TalesFromRetail,fffr8ag,t1_fffo9ew,1579890049.0,I hate when that happens. I feel like my story telling gets worse each time I have to re-write it.
+TalesFromRetail,fffny9q,t3_et61mj,1579888034.0,">If they were ringing out a pre-order either scan the pre-order slip, or look up the info and then scan the appropriate UPCs on the red sheet. If it was a pre-order, scan the UPCs on the green sheet.
+
+I think there is a typo here. You say to scan both colors for a pre-order."
+todayilearned,fffk1lv,t1_fffcw42,1579885640.0,Wait.... What? How is that remotely fair?
+funny,fffizab,t1_fffesf7,1579884981.0,Peanut butter also works well.
+Shitty_Car_Mods,ffelbao,t3_et498j,1579852879.0,"Friend: ""Can I throw my bag in your trunk?"" 
+
+Owner: ""Ya sure, just let me grab my toolbox from the backseat. This may take a few minutes.""
+
+Friend: ""........? """
+nottheonion,ffcgoj9,t3_ess9v8,1579799067.0,">""The problem that the bank is having is that these check(s) appear different then (the company's) payroll checks so their computer system is telling them that they are fraud.""
+
+Then, two paragraphs later:
+
+>[According to Thomas], Mack [Assistant Branch Manager] immediately appeared suspicious, explained the checks would need to be “verified” but that the bank's computerized “verification system” was not working that day.
+
+>...
+
+>She then walked away to a back area to ""call in the checks,"" but before leaving, she asked Thomas: ""How did you get this money?""
+
+Sounds like the bank can't even keep their story straight. Maybe they should rehearse it some before getting in front of a judge so they can pay this guy more money.
+
+>Thomas closed his TCF account that day and left the premises. Within an hour, he deposited the checks into a new account at a Chase bank in Detroit. 
+
+You would think if a computer system had actually flagged it at one bank, other banks would also flag it.
+
+Also, the quote under the photo of Thomas said this happened Jan 22, 2019. Since the article was updated 1 hour ago, I'm guessing that was a typo, just like the than/then typo in that first quote I have."
+GTAGE,ff76qx5,t1_ff71rhf,1579642219.0,"I wish we had the Commodore Ute in the US. I would love one with a manual. BF used to have a  manual Chevy SS, which IIRC, was essentially a left hand drive Commodore VF. That was really fun to drive, but a ute would certainly add some usefulness to it as well."
+assholedesign,ff62qdk,t1_ff5s66g,1579617650.0,"That first one was supposed to be ""work""."
+assholedesign,ff575sg,t1_ff54wei,1579582185.0,"Ya he told me they would remove my number, but it would take 30 days and during those 30 days I would most likely still receive phone calls. And if after 30 days I still got phone calls, just to tell them to remove me from their call list, which is exactly what i had just done. If it didn't work the first time why would expect it to work the second time?"
+assholedesign,ff55xgc,t1_ff55q1b,1579581148.0,If not longer. Last time I tried it was 30 days I think.
+assholedesign,ff54l3y,t1_ff549hw,1579580065.0,"Yup. I ~~with~~ work with/ help design databases as part of my job. One time I literally told the person that it was bullshit for it to take that long. His response: ""There are a lot of lists"".
+
+Edit: typo."
+assholedesign,ff51t8w,t1_ff51nwn,1579577925.0,Lol. Did you actually do some math for that or just pick a bunch of zeros?
+assholedesign,ff4ymo7,t1_ff4bv9e,1579575599.0,"Or ""You have unsubscribed. We are sorry to see you go. You should be removed from all our lists within 78 days. You may continue to receive emails (or calls if asked to be removed from a call list) during this time. ""
+
+How the fuck does it take 78 days to change a bit on a server from a 1 to a 0?"
+NorthCarolina,ff39dgo,t1_ff38tg9,1579536764.0,"Yup, just double checked to ensure they hadn't added anything new. Definitely none where that car was."
+NorthCarolina,ff34q8d,t3_ere53b,1579533628.0,"There are only like 2 roads up there, how do you get lost?"
+Satisfyingasfuck,fewl5mz,t3_eqqdqk,1579413294.0,Why does he keep starting and doing the video? Anyone know?
+AskReddit,fewf50p,t1_fevhgvx,1579409555.0,"I knew someone who did this in eigth grade. He sold it to this idiot kid who lived in my neighborhood. Kid smoked it all, and the whole cul-de-sac smelled of oregano for like a day."
+CatastrophicFailure,fevkp0n,t1_feuz8qk,1579398543.0,"Yes, they raised it 8"" from 11'8"" to 12'4"". Most box trucks (of the variety that often but it), are 12'6"". So while they raised it some, it wasn't quite enough. Rails can only have a really minor incline, and there were other bridges/ things limiting how high they could raise it, else they would have gone further."
+ProperAnimalNames,fet8f5s,t1_fet7upu,1579372729.0,"Hmm, maybe. Though I thought I'd you have goldfish a large tank and enough food they would also get large in captivity."
+ProperAnimalNames,fet5ow8,t1_fet39yn,1579372063.0,"From Wikipedia:
+
+>A sexually mature adult axolotl, at age 18–24 months, ranges in length from 15 to 45 cm (6 to 18 in), although a size close to 23 cm (9 in) is most common and greater than 30 cm (12 in) is rare.
+
+https://en.m.wikipedia.org/wiki/Axolotl#Description
+
+I didn't know they could get up to 18in, that's crazy. I just figured it was a smaller danger noodle making the axolotl look larger."
+ArtisanVideos,fet5f14,t1_fessndp,1579371979.0,"Yup. He didn't even bother to avoid knots in his basic handle. I watched the first and last 30 seconds, and am so glad I didn't watch the other 16 minutes of this video."
+IdiotsFightingThings,fet495l,t1_fery7ps,1579371696.0,Or just honked. He was sitting in a car.
+ProperAnimalNames,fet2nk2,t1_fet053y,1579371278.0,"Not OP, but that's what it looks like to me."
+blackmagicfuckery,feszkb9,t1_feqwbge,1579370473.0,"Definitely way higher 330kV. Dielectric breakdown of sure is approximately 1KV/mm. At some points they seem to be arcing across ~2m (~6.5ft). That would mean they need at least ~2000kV to jump the 2000mm gap. And that is just absolute minimum to jump 2m in air. It is probably higher, so I would guess your 3GV guess it's probably not too far off."
+whitepeoplegifs,fesvirj,t1_ferp7oh,1579369441.0,"Hey, it worked for the US. 
+
+Reddit comment...formally written and signed document...basically the same thing."
+notinteresting,fepo48u,t3_eq936d,1579325781.0,I had an omelette today and this is a comment.
+funny,fephc48,t1_fep8o8w,1579320506.0,">didn't turn off her phone
+
+Wait, does anyone actually turn off their phones?"
+TwoXChromosomes,fekywkq,t1_fekboi2,1579210481.0,">DS is Dear Son, DD is Dear Daughter
+
+What if you have a son or daughter who is neither a Dear nor so bad as to be Damned?"
+Jokes,fekfv70,t1_feka5qm,1579199176.0,"Also, she would probably have a driver or something anyway."
+Futurology,fekfdib,t1_fek73jh,1579198883.0,">Yeah, USB-C may well be the ""endgame"" port
+
+The problem is we can't accurately predict future technology. There is probably something yet to be invented that won't be able to use USB-C. 
+
+Supposedly (never seen confirmation but have read it many places) in the 1970's some CEO was quoted as saying something like ""I see no reason why anyone would need a computer in their home"". Now we all carry a computer more powerful than supercomputer of the 1970's. The Cray-1 had 160 MFLOPS of processing power, smartphones now have 100's of GFLOPS. That literally >1000 times greater. Who knows what we will have 10, 20, or 50 years from now?
+
+>The next step is probably wireless everything, not a new port
+
+This may be true, I could definitely see a lot of things using wireless, but I think some things will still require wired connections. Technology rarely has an ""endgame"", it just keeps evolving with innovation."
+therewasanattempt,fek5eae,t1_fek0h34,1579192970.0,">Operable windows often have a lift then push the bottom out method of removal
+
+I feel like this depends on where you are located. I have never seen a window where I live (NC in USA) that came out that easily. However, when I travel in China for work I see them a lot."
+pics,fek505e,t1_fek40nz,1579192735.0,"Ya I was trying to decide where along the line it was. I was thinking it looked kinda like Wan Chai, but I wasn't sure. It has been a while since I visited. With the current political situation there my company no longer books my China travel through Hong Kong. I used to get some RnR time in HK at the beginning and end of each trip, but now they won't let us travel there."
+EgregiousPackaging,fej9v2n,t3_epct7s,1579163284.0,"Well, clearly that cardboard box can only fit 7 boxes of contacts with the packing paper. And they couldn't leave out the packing paper, that would be absurd."
+toolporn,fej9o05,t1_fei7a97,1579163014.0,"Right? I feel like that looks fairly neat overall for a prototype. I have seen much worse at my work, and some of those turned into production tools as nobody had the time to actually make a final version. The whole situation makes me nervous as fuck, because if some wires were to get pulled out, who knows where they go."
+=======
+subreddit,self ID,parent ID,time,text
+nottheonion,ffcgoj9,t3_ess9v8,1579799067.0,">""The problem that the bank is having is that these check(s) appear different then (the company's) payroll checks so their computer system is telling them that they are fraud.""
+
+Then, two paragraphs later:
+
+>[According to Thomas], Mack [Assistant Branch Manager] immediately appeared suspicious,Â explained the checks would need to be â€œverifiedâ€ but thatÂ the bank's computerized â€œverification systemâ€ was not working that day.
+
+>...
+
+>She then walked away to a back area to ""call in the checks,"" but before leaving, she asked Thomas: ""How did you get this money?""
+
+Sounds like the bank can't even keep their story straight. Maybe they should rehearse it some before getting in front of a judge so they can pay this guy more money.
+
+>Thomas closed his TCF account that day and left the premises. Within an hour, he deposited the checks into a new account at a Chase bank in Detroit.Â 
+
+You would think if a computer system had actually flagged it at one bank, other banks would also flag it.
+
+Also, the quote under the photo of Thomas said this happened Jan 22, 2019. Since the article was updated 1 hour ago, I'm guessing that was a typo, just like the than/then typo in that first quote I have."
+GTAGE,ff76qx5,t1_ff71rhf,1579642219.0,"I wish we had the Commodore Ute in the US. I would love one with a manual. BF used to have a  manual Chevy SS, which IIRC, was essentially a left hand drive Commodore VF. That was really fun to drive, but a ute would certainly add some usefulness to it as well."
+assholedesign,ff62qdk,t1_ff5s66g,1579617650.0,"That first one was supposed to be ""work""."
+assholedesign,ff575sg,t1_ff54wei,1579582185.0,"Ya he told me they would remove my number, but it would take 30 days and during those 30 days I would most likely still receive phone calls. And if after 30 days I still got phone calls, just to tell them to remove me from their call list, which is exactly what i had just done. If it didn't work the first time why would expect it to work the second time?"
+assholedesign,ff55xgc,t1_ff55q1b,1579581148.0,If not longer. Last time I tried it was 30 days I think.
+assholedesign,ff54l3y,t1_ff549hw,1579580065.0,"Yup. I ~~with~~ work with/ help design databases as part of my job. One time I literally told the person that it was bullshit for it to take that long. His response: ""There are a lot of lists"".
+
+Edit: typo."
+assholedesign,ff51t8w,t1_ff51nwn,1579577925.0,Lol. Did you actually do some math for that or just pick a bunch of zeros?
+assholedesign,ff4ymo7,t1_ff4bv9e,1579575599.0,"Or ""You have unsubscribed. We are sorry to see you go. You should be removed from all our lists within 78 days. You may continue to receive emails (or calls if asked to be removed from a call list) during this time. ""
+
+How the fuck does it take 78 days to change a bit on a server from a 1 to a 0?"
+NorthCarolina,ff39dgo,t1_ff38tg9,1579536764.0,"Yup, just double checked to ensure they hadn't added anything new. Definitely none where that car was."
+NorthCarolina,ff34q8d,t3_ere53b,1579533628.0,"There are only like 2 roads up there, how do you get lost?"
+Satisfyingasfuck,fewl5mz,t3_eqqdqk,1579413294.0,Why does he keep starting and doing the video? Anyone know?
+AskReddit,fewf50p,t1_fevhgvx,1579409555.0,"I knew someone who did this in eigth grade. He sold it to this idiot kid who lived in my neighborhood. Kid smoked it all, and the whole cul-de-sac smelled of oregano for like a day."
+CatastrophicFailure,fevkp0n,t1_feuz8qk,1579398543.0,"Yes, they raised it 8"" from 11'8"" to 12'4"". Most box trucks (of the variety that often but it), are 12'6"". So while they raised it some, it wasn't quite enough. Rails can only have a really minor incline, and there were other bridges/ things limiting how high they could raise it, else they would have gone further."
+ProperAnimalNames,fet8f5s,t1_fet7upu,1579372729.0,"Hmm, maybe. Though I thought I'd you have goldfish a large tank and enough food they would also get large in captivity."
+ProperAnimalNames,fet5ow8,t1_fet39yn,1579372063.0,"From Wikipedia:
+
+>A sexually mature adult axolotl, at age 18â€“24 months, ranges in length from 15 to 45Â cm (6 to 18Â in), although a size close to 23Â cm (9Â in) is most common and greater than 30Â cm (12Â in) is rare.
+
+https://en.m.wikipedia.org/wiki/Axolotl#Description
+
+I didn't know they could get up to 18in, that's crazy. I just figured it was a smaller danger noodle making the axolotl look larger."
+ArtisanVideos,fet5f14,t1_fessndp,1579371979.0,"Yup. He didn't even bother to avoid knots in his basic handle. I watched the first and last 30 seconds, and am so glad I didn't watch the other 16 minutes of this video."
+IdiotsFightingThings,fet495l,t1_fery7ps,1579371696.0,Or just honked. He was sitting in a car.
+ProperAnimalNames,fet2nk2,t1_fet053y,1579371278.0,"Not OP, but that's what it looks like to me."
+blackmagicfuckery,feszkb9,t1_feqwbge,1579370473.0,"Definitely way higher 330kV. Dielectric breakdown of sure is approximately 1KV/mm. At some points they seem to be arcing across ~2m (~6.5ft). That would mean they need at least ~2000kV to jump the 2000mm gap. And that is just absolute minimum to jump 2m in air. It is probably higher, so I would guess your 3GV guess it's probably not too far off."
+whitepeoplegifs,fesvirj,t1_ferp7oh,1579369441.0,"Hey, it worked for the US. 
+
+Reddit comment...formally written and signed document...basically the same thing."
+notinteresting,fepo48u,t3_eq936d,1579325781.0,I had an omelette today and this is a comment.
+funny,fephc48,t1_fep8o8w,1579320506.0,">didn't turn off her phone
+
+Wait, does anyone actually turn off their phones?"
+TwoXChromosomes,fekywkq,t1_fekboi2,1579210481.0,">DS is Dear Son, DD is Dear Daughter
+
+What if you have a son or daughter who is neither a Dear nor so bad as to be Damned?"
+Jokes,fekfv70,t1_feka5qm,1579199176.0,"Also, she would probably have a driver or something anyway."
+Futurology,fekfdib,t1_fek73jh,1579198883.0,">Yeah, USB-C may well be the ""endgame"" port
+
+The problem is we can't accurately predict future technology. There is probably something yet to be invented that won't be able to use USB-C. 
+
+Supposedly (never seen confirmation but have read it many places) in the 1970's some CEO was quoted as saying something like ""I see no reason why anyone would need a computer in their home"". Now we all carry a computer more powerful than supercomputer of the 1970's. The Cray-1 had 160 MFLOPS of processing power, smartphones now have 100's of GFLOPS. That literally >1000 times greater. Who knows what we will have 10, 20, or 50 years from now?
+
+>The next step is probably wireless everything, not a new port
+
+This may be true, I could definitely see a lot of things using wireless, but I think some things will still require wired connections. Technology rarely has an ""endgame"", it just keeps evolving with innovation."
+therewasanattempt,fek5eae,t1_fek0h34,1579192970.0,">Operable windows often have a lift then push the bottom out method of removal
+
+I feel like this depends on where you are located. I have never seen a window where I live (NC in USA) that came out that easily. However, when I travel in China for work I see them a lot."
+pics,fek505e,t1_fek40nz,1579192735.0,"Ya I was trying to decide where along the line it was. I was thinking it looked kinda like Wan Chai, but I wasn't sure. It has been a while since I visited. With the current political situation there my company no longer books my China travel through Hong Kong. I used to get some RnR time in HK at the beginning and end of each trip, but now they won't let us travel there."
+EgregiousPackaging,fej9v2n,t3_epct7s,1579163284.0,"Well, clearly that cardboard box can only fit 7 boxes of contacts with the packing paper. And they couldn't leave out the packing paper, that would be absurd."
+toolporn,fej9o05,t1_fei7a97,1579163014.0,"Right? I feel like that looks fairly neat overall for a prototype. I have seen much worse at my work, and some of those turned into production tools as nobody had the time to actually make a final version. The whole situation makes me nervous as fuck, because if some wires were to get pulled out, who knows where they go."
+todayilearned,febisbn,t1_feaxmf6,1578959274.0,"Of course I do. They are pronounced ""É”"" and ""É™""."
+todayilearned,feaqdxt,t1_feaknc4,1578951338.0,Ah ok. That clears it right up.
+todayilearned,feaq6g1,t1_feamf1p,1578951276.0,I think they were pointing out that they were referring specifically to her Hermione voice.
+SrGrafo,fe4akja,t1_fe44qe8,1578857331.0,"But, that doesn't exist in Roman Numerals...
+
+I=1, V=5, X=10, L=50, C=100, D=500, M=1000
+
+So for MCMMM, you have M (1000), CM (100 before 1000, or 900), then you can't have M again, you would have to go to smaller numbers."
+Jokes,fe41578,t1_fe1vv2a,1578854766.0,"Someone called ""Headmaster"" should also know how to spell ""enrollment""."
+AskReddit,fe14p8s,t1_fe13vzv,1578822498.0,Those magazines in the bushes still had photos of naked women. It is pretty easy to see the location of the vagina.
+AskReddit,fe0v9wc,t1_fdzk4fv,1578819126.0,I don't understand why everyone gives this advice. Had none of y'all seen porn prior to having sex?
+CableManagement,fe0tbby,t1_fe0gl2n,1578818404.0,Still seems to be no picture. Do you somehow have it set to private (not even sure if that is a thing)?
+gaming,fdulmnk,t1_fdujvfw,1578734879.0,Wait..... Do you think that the only people into sounding are gay? Or did the comment you replied to get edited?
+AskReddit,fdrzcos,t1_fdrsnru,1578691947.0,"Depends on how hard you press when you write and how large your writing is. I write small and light, so I like the really fine point pens. My BF writes large and in cursive, so he presses a little harder as he uses the pen as the contact point and not his hand (which is often moving). I use my hand as the contact and lightly touch pen to paper.
+
+The paper you write on also impacts it. If you go with a heavier/sturdier paper, a thinner point isn't going to grab/ tear the paper as easily."
+funny,fdrwtmr,t1_fdrugil,1578690855.0,"Not op, but I like a medium well/ well done steak with steak sauce. It's what I grew up eating.
+
+On the other hand, I like a rare steak with only its own juices 1000x more. I know some people that like the flavor of the rare/ medium rare steak better but just can't deal with the texture, and thus get medium well steaks. Everyone has their own likes."
+TalesFromThePizzaGuy,fdri7w3,t1_fdrajuu,1578684884.0,Ya. I can only imagine how much that would suck.
+Shredderporn,fdr22n0,t3_emo56x,1578678374.0,u/stabbot
+TalesFromThePizzaGuy,fdr19ox,t1_fdqu4xg,1578678126.0,"To me it looked like a ski town. Apartments everywhere, snow, mountains, etc. Nobody really lives there so they barely know the address of where they are staying, let alone how to tell someone to get there."
+Jokes,fdqyjum,t1_fdqxrz3,1578676820.0,Right? Same.
+funny,fdnwfub,t1_fdnqurd,1578594232.0,This should clear it up: https://youtu.be/bhyYgnhhKFw
+MaliciousCompliance,fdntnjo,t1_fdnedfn,1578592604.0,"IT has server backups (supposedly), but when your .ost file is >50GB outlook really starts to slow down."
+MaliciousCompliance,fdntjpc,t1_fdnsc6l,1578592543.0,"Sure, outlook has that capability, but nobody uses it. You can just type @ then it pulls up your address book and you can type a name. It automatically moves them from CC to To and will add them if not on the email. It also flags it differently on your inbox. But, most people don't use it and often there are things where I may not be the direct recipient but still need to be aware of the information."
+MaliciousCompliance,fdn5l1a,t1_fdn43zp,1578577913.0,I didn't know you could do that
+MaliciousCompliance,fdn3fdu,t1_fdn0gr6,1578576138.0,I tried that. Got to the ~4 year mark and outlook literally would not open. IT told me I had to delete some old emails to get it working.
+MaliciousCompliance,fdmgjxq,t1_fdm70gc,1578549160.0,">CC the chain of command....everyone in the department - all the way up
+
+My company has a bad case of this. As a result, I'm get literally hundreds of emails every day, 98% of which have nothing to do with anything related to my job. Only like maybe 5 a day are actually relevant to me. So I have to spend, on average, ~1.5-2 hours a day reading/ keeping up with the inflow of emails.
+
+I have tons of rules to automatically sort and mark as read a lot of them (200-500/ day), but still end up having to manually go through at least 100-150/ day. Last time I added up the totals from each folder, there was just shy of 100,000 emails in my inbox. That's with deleting things older than ~2 years every few months, otherwise Outlook will lock up and crash.
+
+Making sure to cc your boss is generally a good idea, maybe a co-worker or two who may need to be in the loop, but there is a point where you have crossed the line. My company sprinted past the line many years ago and never looked back."
+LifeProTips,fdm1gud,t1_fdlx3gy,1578537555.0,Research shows that u/Socrates_Burrito knows what he is talking about.
+IAmA,fdlxaav,t1_fdkvihg,1578534707.0,"Completely wrong in a math sense, but when it comes to G2 pens, 0.5 > 0.7"
+news,fdlsp1o,t1_fdlr603,1578531578.0,"It was the ruling that Trump couldn't block people and thus prevent people from seeing his tweets as they were official statements. 
+
+Here is an interesting podcast about the Constitutional law around this topic: https://trumpconlaw.com/23-president-twitter-and-the-first-amendment"
+airsoft,fdg3c3r,t1_fdfrlr5,1578378458.0,">the red should be orangered.
+
+And the trigger should be periwinkle?"
+ThatLookedExpensive,fddvwya,t1_fddo9kd,1578325284.0,They did spell it the same exact way in another comment.
+funny,fdd2g9k,t1_fdctavz,1578292102.0,First thing I thought of too
+redneckengineering,fdclp13,t1_fdcjzjr,1578278010.0,"So if you a convection oven setting on your normal oven, they are entirely useless? Actually asking here. After some Googling it seems NuWaves is the same as an air fryer, which seem to be all the rage and I can't understand why. I always thought they were exactly like a normal oven and couldn't understand why people were buying them. But I realize not everyone has a convection setting for their oven so I guess that sort of makes sense.
+
+The whole ""To Air Fry (or NuWave in this case) or not to Air Fry"" debate seems to have many people on both sides when you go down that rabbit hole of Google/YouTube results."
+ProperAnimalNames,fdc8jwe,t1_fdc6v46,1578269204.0,"Jesus. I knew some morphs got expensive (especially the piebald morphs), but holy shit that's a lot."
+ProperAnimalNames,fdc4ag1,t3_ekg4c5,1578266827.0,I think they are ball pythons? Anyone with better knowledge that can confirm or deny?
+redneckengineering,fdbj53t,t1_fdbimwf,1578257831.0,"How so? I was just trying to figure out how this was different from an oven. OP said it was different, but it sounds exactly the same."
+redneckengineering,fdbh5kd,t1_fdbbdgn,1578257354.0,"Hmm. Your description in the first comment of:
+
+>It blasts heat in one general direction to increase the thermal radiance of a target food object.
+
+Sounds a lot like marketing bullshit for ""it throws heat at a thing until said thing gets hot"", which is essentially the same exact thing an oven does. ""Thermal radiance"" is basically just a fancy term for temperature."
+redneckengineering,fdawepv,t1_fdabdpe,1578251133.0,So... It's basically a small oven?
+Jokes,fd3vrry,t1_fd39i4s,1578162066.0,"But.... But..... It's not an autopsy, it's a necropsy. It's only an autopsy if they are both the same species."
+tifu,fd10amj,t1_fd05xx0,1578126196.0,"BMW steering: 3/10
+
+BMW steering with rice: 9/10
+
+Thanks for the suggestion!"
+AskReddit,fczhnel,t1_fczai3o,1578101459.0,"It is missing a lot of subreddits though, especially some of the more obscure ones. Not sure if it is just not up to date or if they gave up."
+WatchPeopleDieInside,fcz0z6z,t1_fcyr1oq,1578091487.0,"I liked the ""Ehh, not really.... But kinda..... Ok fine, I'll give you some credit"" gesture he made."
+tifu,fcyzek8,t1_fcyxymo,1578090475.0,He has one. He just thinks that how they should be.
+tifu,fcyrq8p,t1_fcxrasm,1578085676.0,">Nails are actually not very good at cutting things the vast majority of the time. They're not very sharp...
+
+Speak for yourself. My BF has the thickest fingernails I have encountered, and for some stupid reason he cuts them straight across. It leaves sharp as fuck corners that then scratch and cut me all the time. He always claims that is the way you are supposed to cut your nails ([example](https://images.app.goo.gl/EWQcLUbcfAYyaboY7), except minus the polish and some length). Considering that's not how they end up when he gets mani/ pedi's, I seriously don't the validity of his statement. 
+
+>Short nails (few mms past the finger pads) are much more dangerous than long nails
+
+Oh.... Well, yeah you're definitely right there. Guess I should have read the rest before starting this tirade."
+gadgets,fcwvv7u,t1_fcuxl2d,1578039788.0,Hmm. I have been using a WD15 for a year or two without any issues. I don't know of any co-workers that have had problems.
+HumanForScale,fcwe22o,t1_fcualrq,1578023274.0,"As others mentioned, she was on the West Wing. In one of the first few episodes she was in, Annabeth Schott (played by Kristin Chenowith) is standing next to CJ Cregg (played by a 6ft tall Allison Janney), and CJ remarks ""I can't believe we are the same species"". 
+
+Youtube clip in question: https://www.youtube.com/watch?v=8xYwaTvkU_M
+
+Anyway, that scene inspired a NSFW subreddit, /r/samespecies. A screenshot from the West Wing scene is in the sidebar."
+todayilearned,fctkjjy,t1_fct8ohh,1577946606.0,"CEO salary and total compensation are going to be very different numbers. Some CEO's will have a salary of $50k, but total compensation of $millions (adding in stocks, bonuses, etc).
+
+There are even some CEO's out there with a salary of $1 (ex: Mark Zuckerberg of Facebook). There is actually an entire Wikipedia page on this: https://en.m.wikipedia.org/wiki/One-dollar_salary#Notable_one-dollar_salary_earners"
+LifeProTips,fcsqwf5,t3_eilqnx,1577922833.0,"One thing I appreciated after a loss was having a sense of normalcy. My friends would come to hang out and not mention anything about my loss or how they were there if needed things, or anything like that. They just showed they were there for me by being there and didn't treat me like I was so fragile I might break down any second (which is how most people seemed to treat me), but instead just gave me a really needed break from all that and a sense of things being ok and normal. Really helped me see that things would go back to normal and that my life wasn't completely ruined."
+whitepeoplegifs,fclyp5m,t1_fclxk2d,1577759729.0,"Just having Android instead of iOS should be a good enough reason. Though, I do like Apple's hardware. It's a shame their software sucks."
+whitepeoplegifs,fclw986,t1_fclodym,1577758000.0,"Sadly, no. I have a work iPhone I use when traveling internationally, and I hate that iOS doesn't have Relay. I haven't found any that I like as mu h as Relay on my personal Android phone. 
+
+And before people ask, on iOS I have tried Apollo, BaconReader, Reddit's own app, Narwhale, Slide, plus like an handful of others. I tried all the top rated ones on the app store plus others that people recommended.
+
+On Android, I also have tried Reddit is Fun, Reddit's own app, boost, sync, BaconReader, Slide, and maybe one or two more.
+
+By far I like Relay the best of all the ones I have tried. On iOS, I found Apollo to be decent, and then Reddit's native app to be one of the better options, but I had to change a bunch of settings to make it better. It's still not great, and it shows all the ads, which sucks."
+whitepeoplegifs,fclocgc,t1_fcllwk3,1577752527.0,It does on Relay.
+Jokes,fcl1ner,t1_fcl19vi,1577737862.0,Is he like one of Dave's friends or something?
+IRLEasterEggs,fckofje,t1_fcko3jq,1577729731.0,"Where the fuck are you finding a Sears? I thought they all we went out of business. All the ones I know of are closed, and have been for a while. There was a holdout Sears appliance center near me that finally closed about a year ago."
+IRLEasterEggs,fckftnr,t3_ehljqh,1577724376.0,Since when does Craftsman make boots?
+whitepeoplegifs,fckd7vv,t1_fcjv609,1577722706.0,What do you mean? There is audio already.
+Jokes,fckcyla,t1_fckby3n,1577722541.0,Who?
+AskReddit,fcje14w,t1_fcjc30y,1577684316.0,"You don't Bing things? Everyone Bings. All the cool kids are doing it. 
+
+Lol, I can't even type that without snickering."
+AskReddit,fch1itn,t1_fcgcx5m,1577646346.0,Have you tried not just setting Google as the default search but also removing Yahoo as a search option entirely?
+AskReddit,fc9tz8e,t1_fc9np1j,1577558189.0,"I expected it as soon as I saw the post. It's a thread talking about songs on repeat, of course John Mulaney is going to be mentioned."
+Whatisthis,fc9mlnp,t1_fc98xsk,1577554945.0,"Depends on where you live. There are plenty of people who live in Hong Kong and work in Mainland China. My company employee a number of them in our China factory. Most of them swap sim cards when crossing the border. One HK sim card, one China sim card. A lot of them carry a small plastic case in their backpack for sim cards, I could see a slot in the wallet being really useful for them."
+Justrolledintotheshop,fc9id7g,t1_fc8wpfs,1577553113.0,"There are some earbuds that are designed to be ear protection. For instance, these ones that look similar to what he is wearing. 
+
+https://isotunes.com/collections/earplug-headphones/products/isotunes"
+todayilearned,fc9djao,t1_fc8tqx7,1577550988.0,I'm not crying.....
+redneckengineering,fc7vjuz,t1_fc7f1ym,1577519750.0,Maybe they just prefer the aesthetic?
+LifeProTips,fc7q327,t1_fc7ot4u,1577515715.0,On Relay for Reddit you can use the volume buttons to move to the next (volume down) or previous (volume up) top level comment.
+assholedesign,fc6bt79,t1_fc3xoqi,1577476909.0,"I feel like a long time ago, when you had to get there early to get a seat, they would show ads before the start time and start the movie at the start time. They slowly started showing one or two big movie trailers after the start time, but most things still came while everyone was just sitting there claiming their seats. 
+
+Now, everyone has reserved seats and only shows up a few minutes before start time. To make sure people see the ads (otherwise they can't charge as much to run the ads) they have to show them at the start time since that is when people are actually there to see them."
+OSHA,fc6axdi,t1_fc685f1,1577476322.0,It's always smoggy in Philadelphia?
+OSHA,fc6avod,t1_fc6a87r,1577476290.0,"You can also just eat some of it. If it tastes sweet, then it's lead based paint."
+outrun,fc6akvz,t1_fc5xuqr,1577476088.0,Have you seen the latest Tesla?
+outrun,fc6ajn6,t1_fc655b9,1577476066.0,At least we now know where he got the idea.
+TalesFromThePizzaGuy,fc4bb1p,t1_fc3me1d,1577411728.0,"I have a working doorbell, but like 60% of the time delivery people will quietly knock on the door and we don't hear it. Sometimes we just notice someone standing on the porch through the window. One time someone was standing on the porch and just called to say they were standing on the porch. We have a glass window on part of our front door and we're standing about 10 ft from the door. No way she didn't see us. For some reason she didn't ring the doorbell or knock (or maybe she knocked really quietly and we didn't hear it). I'm more and more thinking about putting a note that says ""ring the fucking doorbell like normal person"".
+
+Maybe OP is smart enough to knock on a door loudly or ring a doorbell, buy they really need to realize that not all delivery drivers are (at least not in my area)."
+EngineeringPorn,fc3pym5,t1_fc2n8i1,1577395718.0,But that's already a one man task....
+AskReddit,fc3pk3z,t1_fc2z3x3,1577395429.0,"Well, what is the best now that this one has apparently been surpassed?"
+arduino,fbyg4kq,t1_fbyfk9l,1577216042.0,"Not that I am aware. I would look to another option. Autodesk makes one called Eagle that allows for schematic and PCB design, and they have a free hobbyist license allowing for 2 layer boards. If you need 4 layer you have to pay. 
+
+There's also other (free) options for PCB layout only, like ExpressPCB or FreePCB."
+>>>>>>> b2c2856e21b6decdd12b8bdccd381cae2c58ec91

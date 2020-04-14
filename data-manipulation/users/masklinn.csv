@@ -1,0 +1,322 @@
+subreddit,self ID,parent ID,time,text
+programming,fgsmv1o,t1_fgshqiv,1581088183.0,"In js even if you’re given 2 parameter you can ignore them, so the ordering makes sense: if you’re taking a single parameter and ignoring the second it’s more convenient / useful to take only the error and ignore the result than to take only the result and ignore the error. 
+
+Kinda the same as langages taking hof callbacks first or last depending on what’s more useful / convenient."
+programming,fgs7mb2,t1_fgp7doi,1581075368.0,Also http://www.purescript.org if you think elm’s type system it too basic (and it’s error messages are not challenging enough).
+programming,fgs7js2,t1_fgpr5ci,1581075283.0,Purescript already exists.
+programming,fgs7id5,t1_fgp7bvb,1581075235.0,That the “failure” type would be the first parameter weirds me the hell out.
+programming,fgoh23w,t1_fgo8pv5,1580969695.0,"> There absolutely is, the BSDs are complete OSes.
+
+Being a complete system does not mean everything is homegrown. BSDs don’t have their own vi or emacs. They don’t have their own sudo either, as can easily be seen by the freebsd sudo manpage linking to sudo.ws multiple times. 
+
+> They do not use the gnu binutils, so bare minimum two modern implementations.
+
+sudo is not part of gnu anything let alone binutils."
+rust,fgmgc4b,t1_fgmayob,1580923974.0,Nah it’s - and _ instead of + and /.
+rust,fgm6acu,t1_fgm1f4m,1580918760.0,The rollout of the replacement finished in may 2019. Chances are by February rewrite was already well under way (possibly already starting testing) and there was no reason to keep trying new releases when the entire thing would be gone soon.
+programming,fgm1vwx,t1_fgl58xs,1580916280.0,"That’s really not what it’s for though. There *are* mechanisms for “private” production deployment (the “in-house” enterprise deployment system, there’s also a “ad-hoc” profile but that’s pretty limited and intended more as a friends & families thing)."
+programming,fglzf0p,t1_fglo5fn,1580914658.0,"I don’t think there are multiple sudo, it’s not a largely extended posix / original unix command. You might be thinking about `su`, which does date back to 1st edition."
+programming,fgl7fst,t1_fgjqj42,1580884649.0,"Btrees have more reliable worst case, are somewhat more memory efficient, can have much better memory locality depending on workload, and are really quite suitable to the working set having to live in “slow” storage. 
+
+That’s why dbs have tended to use them (way better to work with  a btree from disk than a hashmap) and it turns out modern memory hierarchies kinda have the same properties (at a lower scale)."
+programming,fgjye9c,t1_fgjwa60,1580853824.0,"> The work that a garbage collector needs to do is based on the number of live objects at scanning time, not the amount of ""garbage"" created. 
+
+Well not necessarily if you have a generational GC (because pretty much all your LRU would be in gen1/gen2 and if you don't have significant allocation patterns it'd never even get looked at).
+
+But of course Go does not."
+programming,fgjy193,t1_fgjnrq8,1580853619.0,"The switch was *completed* in May 2019 so 1.9 was not 3yo at the time they started the effort, and tests on 1.10 had shown no improvements."
+programming,fgjxvty,t1_fgjdvmi,1580853534.0,"> I wonder how upgrading to Go version that is not 3 years old would change it. There were few GC improvements since 1.9.
+
+From an other comment:
+
+> We tried upgrading a few times. 1.8, 1.9, and 1.10. None of it helped.
+
+Seems 1.11 didn't have anything either. 1.12 apparently may possibly have provided improvements for their use case, but it was released in Feb. 2019, they switched over to the new implementation in May, so chances are the effort was well underway by 1.12."
+programming,fgjxo1g,t1_fgjtk10,1580853408.0,"The generational hypothesis is the hypothesis that object lifecycles fall into large categories or generations: the bulk of objects have a very short (ephemeral) lifespan, and then there's a long tail of objects with longer lifespan. This resulted in *generational* garbage collectors which group objects by ""generations"": when just created, objects are part of a ""nursery"" (or gen0), which is the first thing the GC hits and has excellent recovery rate. Objects which survive a gen0 collection get promoted to gen1, which is collected more rarely (e.g. iff collecting the nursery doesn't yield enough memory, or the number of nursery allocations is very low).
+
+Then GCs can have levels beyond that e.g. they might have a 2nd generation for objets which survive a gen1 collection as well, those would be checked for even more rarely (because just as the rich get richer long-lived objects tend to live longer). Some even have a ""permanent"" generation to which objects can be promoted and which isn't even scanned.
+
+LOH is a .net concept (though other runtimes probably have a version or variant of it, erlang certainly does): bigger objects (more than 85kB) are allocated separately from everything else in a location that's checked more rarely, and is collected using different rules."
+programming,fgjvz56,t1_fgjvl3s,1580852458.0,"> Go 1.10 was released on 2018/02, so they must have taken the Go's metrics before then.
+
+https://www.reddit.com/r/programming/comments/eyuebc/why_discord_is_switching_from_go_to_rust/fgjsjxd/
+
+> We tried upgrading a few times. 1.8, 1.9, and 1.10. None of it helped.
+
+I'm told changes which may possibly have helped with their use case might have apparently gotten released with 1.12 in 2019-02. The service switched over in 2019-06."
+programming,fgjvqg0,t1_fgjv1gf,1580852324.0,"> The Twitch's issue with heap sizing at the very least is as proposal for some time with some experimental code.
+
+That's more than two years old, the lack of interest in tunables is palpable."
+rust,fgjvig5,t1_fgjrg53,1580852204.0,"And they replied that they'd tried updating and it changed nothing. It's apparently possible that their situation might have been improved by Go 1.12, which was released as the conversion was likely well underway (they switched over in May 2019, Go 1.12 was released in February)."
+rust,fgjuunc,t1_fgjc2ly,1580851832.0,"> That said, Cassandra still struggles beyond 500GB per server. This is why ScyllaDB, a C++ reimplementation of Cassandra exists.
+
+And in a sibling comment (and on HN) a discord dev notes they've also switched that service from cassandra to scylla."
+rust,fgjuew0,t1_fgjr75k,1580851589.0,"> the generational hypothesis is one of the strongest empyrical findings in computer science. For decades the consensus has been that generational GCs are superior. The Go team acknowledged this and tried to build one, but failed.
+
+There is a bit of a trap though, which is that Go's ""nursery"" objects tend to remain on the stack much more so than e.g. java's (to say nothing of languages which don't do escape analysis and go straight for the heap), so much of the benefit of a generational GC is already realised by the stack / heap dichotomy, meaning it's harder for a generational GC to show off.
+
+So for many workloads it's not going to do anything, which make it less useful to implement (given it increases the complexity and number of moving parts), but then when your workload would be really suitable to a generational GC… you don't have it"
+programming,fgjtnys,t1_fgjh1qf,1580851182.0,"Also it is already ""a couple months later"", on the orange site one of the devs reports [the switchover was completed in mid 2019](https://news.ycombinator.com/item?id=22239707).
+
+edit: in fact in a reddit comment they (not sure whether it's the same or an other dev) more precisely report the switchover happened in may."
+programming,fgjth3t,t1_fgjhkd8,1580851074.0,"Apparently the 2mn backstop is to release memory to the OS, as Go only does that during / after a GC run."
+programming,fgjt6bc,t1_fgjr7ws,1580850907.0,"The difference is that in most ""high performance"" languages you can tune the GC (or even swap it) so that its heuristics better match the workload. The Go team refuses to provide tunables, so if the GC's heuristics break down on your workload as is the case here or [at twitch](https://blog.twitch.tv/en/2019/04/10/go-memory-ballast-how-i-learnt-to-stop-worrying-and-love-the-heap-26c2462549a2/) you're SOL and JWF."
+programming,fgjsraz,t1_fgjrehm,1580850670.0,"> .... do the code uses GC much ?
+
+It absolutely doesn't use the GC. In fact that's one of the issues they reported with the JVM and why it was so much slower than C#: limited ability to avoid heap allocations, IIRC they couldn't go below 20 bytes per packet or so.
+
+This was not ""some guys"" either, this was an academic project: https://github.com/ixy-languages/ixy-languages"
+programming,fgjsfj9,t1_fgjqo4i,1580850486.0,"It's very unclear but 2 years seems unlikely for a relatively small and self-contained service. On HN, a discord dev noted the transition was done by mid 2019."
+programming,fgjs45j,t1_fgjib44,1580850309.0,"1. they'd also get the interface of a Go userland map which is… bad
+
+2. that would reduce the heap size somewhat, the heap size would still be large enough to trigger GC spikes every 2 minutes."
+aww,fgjfw4u,t1_fgiauhc,1580843186.0,"> it was all going well (3kg down!)
+
+FWIW the initial loss is often water weight, that’s why it goes easy and quickly. And why the actual weight loss is so damn discouraging.
+
+An other trap: fat is alive. Fat is not dead wood, it’s adipose cells exchanging with the rest of the body. That means they burn energy to do their work. As you lose weight and those cells do less work your metabolism decreases. So any given diet’s “energy deficit” only does so far until you’re back at equilibrium and need to lower the budget again to run an energy deficit."
+rust,fgiylpi,t1_fgivgyx,1580833612.0,Fair. Does posix at least guarantee conserving the ordering between pipes?
+australia,fgig9ho,t1_fgh9b54,1580820686.0,"Wood power is kinda near in that it’s renewable but it’s still farming, just farming trees: you’re going to deplete and destroy soils and there is no ecosystem in tree farms, they’re as dead as a corn field if not deader. 
+
+Clearing old growth for tree farms is pants on head stupid."
+rust,fgig2b0,t1_fgi7xlt,1580820496.0,It should if you unbuffer stdout (using `stdbuf` or the aptly named `unbuffer`) though that won’t work for Rust binaries (not that big an issue as it never fully buffers stdout but still).
+programming,fgibwrp,t1_fgibgta,1580815997.0,"It’s GPL2 and most of the tooling is BSD-licensed so the licensing seems largely innocuous, what’s your issue with it? That the kernel is GPL (and thus you can’t closed-fork it) or that the tooling is bsd (and offers no patent protection)?"
+aww,fghv5qk,t1_fggy52i,1580794804.0,You’re thinking immunoglobulins which is often part of post-exposure prophylaxis (alongside the vaccine).
+aww,fgg66i6,t1_fgfxh7z,1580755097.0,"We don't really know. IIRC they have extremely variable body temperature and their immune system works in a somewhat weird way which makes them not really react to viruses (amongst other things they don't seem to get inflamed).
+
+Research on the subject is extremely recent though, they've not been studied much historically so all we know is that they play host to [a ton of pathogens](https://en.wikipedia.org/wiki/Bat-borne_virus#Bat_viruses) and modern encroachment on their living grounds is the origin of most emerging diseases these days."
+aww,fgg5gof,t1_fgfoyxb,1580754658.0,"> I think they meant to say treatment instead of vaccine. Im no doctor but I dont think theres a vaccine
+
+There absolutely is a vaccine, and it's the only ""treatment"" which is known to work if administered soon-ish after exposure (within ~10 days).
+
+It's the treatment that's lacking, once the virus sets in you're about guaranteed done for."
+OutOfTheLoop,fgc6dma,t1_fg6cjcq,1580669534.0,"> Aren’t there already a legal framework in place to get things done ?
+
+Nope. While the power of impeachment is provided for in the constitution there is no specific constitutional or legal framework (or even criteria) for it: the impeachment and removal process was always intended as a mix of political and moral one. As a result the house and senate get to decide their respective procedures on the outset."
+Python,fg6wpwv,t1_fg6wgik,1580578647.0,"It’s a bit of a pain to debug and maintain, so you want to reserve it for when you have no choice or it provides really significant advantages you could not come close to otherwise (and I’d say pytest’s assert rewriting is that)"
+rust,fg6gwpd,t1_fg69po9,1580567643.0,FWIW `map_or` will perform both operations in a single call. It’s a pretty old shortcut on `Option` and was just stabilised on `Result`.
+Python,fg68nvm,t1_fg6581b,1580559180.0,"You could use *import hooks* to create modules ""by hand"" and e.g. implicitly run the C preprocessor on module code before eval-ing it."
+marijuanaenthusiasts,fg62o22,t1_fg602vr,1580550428.0,Interesting. Was it something from “the ol’ country” (many European langages are completely gendered so a first or second gen immigrant might reflexively match their native langage) or just a personal peculiarity?
+rust,fg30s0g,t1_fg304ai,1580464920.0,"> No. The whole world isn’t rust developers. A lot of Rust is published on rust forums and subreddits, a lot of programs are rusty versions of existing programs, and a lot of people download them after deliberately searching for rust software and subscribing to those forums, but we have to think bigger than that.
+
+That’s got literally nothing to do with my comments. I’m not arguing against you packaging whatever you want wherever you want, you’re asserting that improving `cargo install` is bad. 
+
+> From another perspective, as a community we can’t complain about compile times and also refuse to avoid running the compiler when there are standard, battle tested ways of doing so.
+
+Cool story but you’re not arguing that it should be easier to create packages, or that there should be a packaging sig, or providing help with binary packaging of existing tools. 
+
+You’re just asserting that `cargo install` should not be improved because that will magically make packages appear through immaculate conception it something."
+politics,fg2ya5z,t1_fg2sdbg,1580461354.0,"> the transcript
+
+Afaik the transcript is still unreleased, there is a *memo*. Don’t call it a transcript, it’s vital to note that it’s not one."
+programming,fg2ryg9,t1_fg2qrw0,1580453457.0,"I think Rust is better than C in general, it’s safer (in the memory sense), its type system is significantly more expressive and capable, it has less error prone types and defaults and it has a lot less implicit behiaviours (eg no integer promotion or array decay, …). Overall it makes it easier to build working and reliable software. 
+
+However it’s also a much bigger and more complex langage, it’s costlier to compile (especially though not only when taking advantage of its more arcane features), it does put “unnecessary” limitations on code (borrowck allows any code it knows is correct but there’s a lot if correct code it doesn’t know is, so e.g. cyclic data structures like any sort of graph is either very difficult or inefficient), there is a single implementation and it has waaaaay less platform support (whereas you can get a C compiler for anything under the sun). 
+
+Some of these issues will eventually resolve themselves but not all (the langage size will not decrease to such an extent that it would be comparable to C, and while compiler performances regularly improve and are very much a thorn it’s unlikely rust will every be fast to compile in the way pascal or go are)."
+programming,fg2r3q6,t1_fg2kavl,1580452550.0,"Wasn’t it “just” that they were using free lists to avoid going to the OS I’d they could? It’s not uncommon especially for multiplateform software with performance constraints/requirements as the performances of system allocators can vary extremely widely. 
+
+It does indeed defeat any security feature added to the system allocators though which is why it’s usually easy to disable and security oriented platforms tend to disable them. 
+
+IIRC open SSL’s passthrough was bittotted an untested and an openbsd dev hand to fix several things to force a local build to straight use the system malloc (and respect malloc.conf)."
+programming,fg2qou2,t1_fg2o72b,1580452116.0,Possible though unlikely as a complete universal replacement. It has already been used to replace C in some places eg the librsvg gnome library.
+programming,fg2qlfg,t1_fg2fqm5,1580452020.0,"It’s the only thing you can do, `cargo install` requires a package name which provides binaries."
+rust,fg2nugl,t1_fg1jwns,1580449318.0,"> I don’t think you want to make the feature too good
+
+I absolutely want to, because *cargo install* is easy to use, up to date and *works everywhere*, I get the same procedure and the same package names on every single machine, and the author doesn’t have to deal with the arcane rules of 25 different package managers to say nothing of distributions with a 25 years release cycle or whatever it is redhat does these days."
+biology,fg13lfa,t1_fg0jxdp,1580420082.0,"They really weren’t pet, dude had a private zoo."
+rust,fg0yxoa,t1_fg0vpja,1580417753.0,"Yes, and / or -l to see what local bins are not up to date. But baby steps… (there’s cargo list or something but the format is not great for feeding back into install, and i don’t think it can filter by outdated, would be a nice enhancement for it though)"
+rust,fg0qn4r,t3_ew8htz,1580413116.0,"> Starting from Rust 1.41.0, cargo install will also update existing installations of the crate if a new release came out since you installed it.
+
+Oh nice, means cargo-update is mostly unnecessary."
+Python,ffzcprh,t3_ew10gi,1580372495.0,"When I need that I generally go the hof / threading route: 
+
+    def pipe(val, *fns):
+        return functools.reduce(lambda v, f: f(v), fns, val)
+
+The biggest annoyance compared to e.g. clojure threading macros is the partial application / lambda wrapping.
+
+All pipes implemented without syntax extensions have that issue and are therefore crummy."
+rust,ffzaoxj,t1_ffz9qk5,1580369870.0,"> they are not needed […] still Rust's type system can express the desired types today
+
+Your entire example is that it does not because there’s no way you can make Rust accept `<i32, f32, Map>`, because Rust only accept nullaries (kind `*`) but Map is a binary (kind `* -> * -> *`). That is, Map is a *constructor* for a type and needs two parameters to yield an actual type.
+
+HKT is exactly what you’re asking for because the verbosity is exactly due to a lack of HKT meaning you can’t abstract over higher kinds."
+bestof,ffxlaq3,t1_ffvrux8,1580327443.0,"It also explicitly says that new territories of the CSA would automatically be opted into a slavery regime, and (despite generally dunking on the government above state level, even more so than the CoUSA) making very sure no state could put restrictions on slaveowners traveling through with their slaves."
+AskHistorians,ffxl2z2,t1_fft5gn4,1580327319.0,"One of the things you didn't quote but I feel should be noted: by and large the constitution of the CSA was a quick edit job on the constitution of the USA, so much so that the wikipedia article on it just outlines where it diverges from the CoUSA.
+
+Its main difference with the CoUSA, aside from repeatedly further limiting the power of the confederate government, is that it makes outlawing slavery unconstitutional (Art I 9(4)), forbids a state of the confederation from putting restriction on a slaveholder traveling with their slaves (Art IV 2(1)), and preemptively asserts that CSA expansions would be under the same CSA-wide slaveholding statutes (Art IV 3(3))"
+bestof,ffxhxkt,t1_ffuszpl,1580325497.0,"> You can basically build a gpu out of cpus using a raspberry pi cluster.
+
+And now you have all the overhead of a general-purpose CPU with all the limitations of a GPU.
+
+Intel tried to create GPU/GPGPU out of complex dies (Xeon Phi), and it's not completely failed, but it's not exactly a smash hit either."
+bestof,ffxhmbc,t1_ffu1xkn,1580325323.0,"> GPUs have very high performance memory controllers
+
+Yes and no. GPUs have a lot of bandwidth but fairly bad latency (and getting vendor info is hell, plus IIRC it's hard to define locality and your latencies will crater if you're on the wrong warp), which is why e.g. bcrypt is ""stronger"" than pbkdf2, it does use a bit more memory but importantly it does a lot of small random access."
+programming,ffxgeqh,t1_ffv2jqq,1580324622.0,">  I don't see how you can have that kind of behaviour in Python without running some sort of transpiler.
+
+    # -*- edition: 2018 -*-
+
+the same way you used to specify your file was UTF8 when Python would default to ascii."
+programming,ffwhxsu,t1_ffwgvfw,1580301616.0,"> If I remember correctly, one reason why deprecation warnings got silenced by default because they could unsettle normal users who can't do anything about them anyway. 
+
+I’m sure software completely breaking will not be unsettling in any way. 
+
+> Insert plug for pytest which does just that when running tests (which all test frameworks should do, looking at you, nose).
+
+Of note: afaik unittest does not, which is one more reason upstream really can’t complain about an issue they’re the direct cause of.
+
+I’m not saying this is easy, mind, we’ve got a bunch of dependencies with warnings we’ve a hard time getting fixed, but you can’t have it both way, you can either put your plans at the bottom of a cabinet in a disused lavatory in a condemned basement *or* complain people were not aware of those plans. Doing both is just not fair, or honest."
+programming,ffw22px,t1_ffuk82p,1580281021.0,"> Too many people ignore deprecation warnings
+
+Everybody ignores them in the python ecosystem because **upstream changed them to ignore by default in 2.7/3.2 and they were never re-enabled**. 
+
+You can’t disable deprecation warnings then complain people don’t fix deprecation warnings."
+programming,ffw1y2m,t1_ffukxlc,1580280874.0,Except python has suppressed deprecation warnings by default since python 3.2.
+programming,ffw1v2o,t1_ffutvir,1580280780.0,"No. Deprecation warnings have been *ignored by default* since Python 3.2. 
+
+If you don’t think to go and enable them you will not see a deprecation warning in or from a project running in stock python."
+programming,fft7hrb,t1_ffr4m32,1580210958.0,"Yes. Large under tested (or untested) codebases are common, and having to update them without being given years to shore them up first also is. 
+
+And while getting better discipline down the line is a worthwhile goal, getting them under some sort of test to avoid breaking them *now* is extremely valuable."
+programming,fft789d,t3_eunf24,1580210622.0,Sounds like you could have a fuzzer upstream and store a bunch of input -> output artefacts as your “tests”.
+rust,fft6z72,t1_ffst4na,1580210286.0,"The system might be interacting with others which generate one or the other. That doesn’t necessarily mean the offset itself but it does require the ability to convert back and forth.  
+
+Also not sure that’s relevant to your question but UTC is not necessarily correct, especially when dealing with and storing future events, then you may need properly zoned datetimes which means you might need to generate one in order to send it to the server or whatever."
+politics,fft3dag,t1_ffs5u3u,1580204909.0,"It’s hardly an Obama thing. The nation decided to « move on » after Nixon and Reagan, both should have been indicted and their cronies taken down, both were left to fester and that’s who you find at the top of the GOP now: people who assume (and know really) that their major opposition balks at post-administration criminal proceedings."
+nottheonion,ffrnby8,t1_ffqaz1g,1580161611.0,"> Purposely infecting yourself or a pet to spread to others, for example, sounds fun in a game, but if the consequence was your own end or the permanent death of others, people may rethink this behaviour. 
+
+Still exists though. 
+
+Look up bugchasers…
+
+And even ignoring such populations, it would be a useful proxy for people breaking quarantine because reasons."
+programming,ffq3l44,t1_ffq2iem,1580118536.0,"> I simply stated the facts
+
+You really did not. Go read the question, your comment, and the specific part of your comment I objected to. 
+
+And the “not exactly” you open up with is not “the facts” either.
+
+> they asked whether Ruby had the same issue as Python
+
+That’s not actually what they asked, but your clarification on that point is not the problem I have with your original comment either.
+
+> I answered them truthfully that it's alleviated by another of the language's systems. Nothing more, nothing less.
+
+The last paragraph of your original comment is none if these."
+aww,ffq1n27,t1_ffpzke8,1580115444.0,750 is a better approximation. The metric HP is 735W and the imperial HP is 745.
+aww,ffq1mb7,t1_ffprgm6,1580115412.0,"1HP is the power output a horse can comfortably sustain over an entire work day. So yes, a horse can “burst” much higher levels of power. 
+
+In much the same way a human worker can sustain about 0.1HP but can reach or exceed 1HP for short time periods."
+aww,ffq1ics,t1_ffpz3r0,1580115248.0,"Well for a few seconds you can have the power output a horse can comfortably sustain over an entire day, so not exactly."
+worldnews,ffq0rei,t1_ffp03gy,1580114129.0,"Did it, or are you thinking the AJB (a *judenrat* created by the German military government) predated the invasion and subjugation of Belgium?"
+news,ffpyq8q,t1_ffmhbiv,1580111289.0,"> Was selling wildlife not responsible for the SARS epidemic as well?
+
+Pretty much all emerging diseases are zoonoses, meaning they jump from “reservoir” animals (almost always wild since domesticated animal diseases have long jumped over if they could) to humans. 
+
+And so the factors are significant presence around and interaction with wild animals giving diseases the *opportunity* (which is why the zoonoses jump over from either jungle-type environments or markets), and the ability for the disease to first jump to a vector domesticated animal, usually pigs or domesticated fowls: sone diseases can’t jump straight to humans and need an intermediate to give them some adaptation time. 
+
+This makes markets involving wildlife ideal jumping grounds for zoonoses."
+programming,ffpxn12,t1_ffpwkm6,1580109875.0,"> Read the article. import something imports the entire module
+
+In a specific and dedicated namespace, which is why *there is no reason to filter it*: since all the content is properly namespaces there there’s no risk that it’ll pollute or collide with symbols of the namespace it’s imported into. 
+
+Mitigating this issue is the entire and sole purpose of `__all__`, which is why it applies solely to star imports."
+programming,ffpv4u5,t1_ffoq3uy,1580106884.0,"Dude just acknowledge that your second paragraph has nothing to do with “the question as asked” but your ego required you get in a little swipe.
+
+Hell, you could not even bring yourself to “answer the question as asked”, you had to lie first to soften the ow to your ego."
+programming,ffput8t,t1_ffoils1,1580106530.0,That… is what `import something` does?
+programming,ffoffu4,t1_ffnsct6,1580077137.0,Your comment is extremely confusing. What are you talking about?
+programming,ffof1tg,t1_ffnsdc4,1580077006.0,"> In other words, in Python you have to go out of your way to ensure the desired behavior by using `__all__` (which is not part of the typical workflow), where Ruby is saved from that issue by its best practices (which are part of the typical workflow).
+
+The “best practices” of python is to not use star imports, so this paragraph is at best patent nonsense."
+apple,ffnzj5p,t1_ffmmkqe,1580072657.0,Gods yes. Oddly enough I’ve found that using the keyboard swipe style produces significantly less garbage. I have a hard time picking up the habit though it just feels so slow.
+programming,ffn718m,t1_ffn447k,1580062639.0,"Most likely the latter, especially given that was no great technical tour de force of a game."
+programming,ffleqfm,t1_ffki361,1580038763.0,"I'm definitely on the Swift team side, iterator-based loops are the better default and it's easy enough to use a ""desugared"" C-style loop for the few if any cases were the iterator-based case does not work."
+rust,ffkqqdw,t1_ffjwjls,1580027228.0,"And you don’t have to select a range because you are getting one out of whatever the OS’ ephemeral range is.
+
+Though if you're trying to find a port to hand it off to something else it obviously has the same race condition issue as you need to close. Depending on the exact use-case SO_REUSEPORT could help you there."
+rust,ffhyw5x,t1_ff97l4q,1579959718.0,"Yeah, but since !crate redirects to crate.io instead and I get it wrong half the time, I much prefer !cargo."
+rust,ffhyren,t1_ffgi3zs,1579959581.0,"That it moves its input to its output is absolutely 100% so you can put a dbg! around an existing value and not change anything else: https://github.com/Centril/rfcs/blob/rfc/quick-debug-macro/text/0000-quick-debug-macro.md#for-experienced-developers
+
+Though I guess a python-style `=` format parameter could also be useful to support the case where you want to print the entire expression in a println! e.g.
+
+    dbg!(a + 8)
+
+will print
+
+    [file:line] a + 8 = 45
+
+whereas
+
+    println!(""{:#?}"", a+8);
+
+will just print 45."
+science,ffhmyju,t1_ffhbu50,1579943086.0,"It’s not so much the non-vegetarian diet as the interaction with and consumption of wild animals, especially those well known for zoonoses like bats. 
+
+Zoonoses are diseases which normally live in animals (the reservoir species) but can jump to and be extermely virulent (though not necessarily spread between) humans. 
+
+Zoonotic diseases from domestic animals are either gone or well known so the emerging ones are from wild “stock”. There are also additional complexities as some zoonoses are direct (reservoir > human) like rabies but others are only problematic after they’ve incubated or recombined in an intermediate species."
+books,ffeui5d,t1_ffend53,1579866101.0,"Zamyatin wrote We in the very early 20s. There is no possible dispute that We was a significant influence and inspiration for 1984:
+
+> Orwell began Nineteen Eighty-Four (1949) some eight months after he read We in a French translation and wrote a review of it. Orwell is reported as ""saying that he was taking it as the model for his next novel"". Brown writes that for Orwell and certain others, We ""appears to have been the crucial literary experience"". Shane states that ""Zamyatin's influence on Orwell is beyond dispute""."
+books,ffeu7xs,t1_ffesco3,1579865743.0,While more recent (1993) Parable of the Sower is also absolutely nauseating and terrifying.
+rust,ffbiv3k,t1_ff979ae,1579767353.0,"TBF given an fd / open file you could fstat(2) from which you get the inode, which you can compare to the stat(2) inode. 
+
+Though this is still racey as the FS file could be swapped out afterwards."
+programming,ffbdocb,t1_ffbbrb4,1579760914.0,"And it’s not that translation itself that’s a problem. Replacing or marking all strings properly is annoying but not really difficult: translate to some garbage non-language, check what’s not properly substituted, fix, rinse and repeat. 
+
+The challenge is the rest of the internationalisation: properly formatting values, properly formatting strings so they can be reordered to account for locale-specific needs (ordering and specific requirements like pluralisations), …"
+news,ffbdbo4,t1_ffb1xmy,1579760522.0,"> Even at that height, he'd have to be massively malnourished
+
+Of that there’s no doubt, weight doubled from a few weeks in care. Also severe dehydration, kid apparently gained more that 2lbs on the first day, which would likely have been just IV."
+programming,ff9q4xk,t1_ff9phum,1579718479.0,"> But even so, the characters of KOI-8 might all be mapped in Unicode, but are the code points the same?
+
+No: many of the pre-unicode encodings were incompatible extensions of ascii to 8 bits. 
+
+The original was about names not being expressive in unicode though, not about the requirement of transcoding."
+books,ff9puvd,t1_ff905h9,1579718287.0,"> Like the stuff about corporate lodgings
+
+That’s historical (company towns, and company scrip) and a mainstay of capitalistic distopic SF. 
+
+Hell, in shadowrun the largest corps are fully extraterritorial, and employees are *corporate citizens*."
+programming,ff9m8se,t1_ff9lfxw,1579715947.0,"I don't think that explanation makes sense. KOI-8 is not ""people's name"" name, and is specifically the name of a legacy encoding, some of which (but not koi-8 as far as I know, though I could well be mistaken) were not fully translated to unicode, or are not fully preserving transformations because unicode ""unified"" some of the items they encode."
+programming,ff91odr,t1_ff8z8z0,1579702626.0,"Yes your second line answers the second query, but the first doesn’t answer the first query (and is not relevant to the second)."
+rust,ff8pi72,t3_es35u6,1579690444.0,"FWIW DuckDuckGo has a bunch of “bang patterns”, and amongst others “!rust <term>” will go and search the stdlib while “!cargo <term>” redirects to crates.io."
+programming,ff8og83,t1_ff8d360,1579688879.0,"I’m pretty sure KOI-8 is fully mapped to unicode. 
+
+There are rare / old / historical hanja / kanji which were not originally part of the standard, and thus many which likely still are not. “Urgently Needed Characters” requests are a pretty good way to find these. 
+
+Then there’s a few other weirdos e.g. Prince’s Loce Symbol era, that symbol is not in unicode and likely will never be."
+books,ff8mk4k,t1_ff81467,1579685983.0,"I would also suggest and recommend Malazan Book of the Fallen. 
+
+I think it’d have benefited from some more cuts / harsher edition *but* it’s Epic fantasy with a capital E: not many fantasy books giant battles, epic struggles of entire peoples across continents or flashbacks across hundreds of thousands of years. 
+
+And it’s *done*, no waiting for a book, you can get the entirety of its 11000 pages across 10 volumes right now."
+programming,ff8is1p,t1_ff7w969,1579680394.0,There’s also the time steam for linux deleted everything it could from / down if you moved (then symlinked?) your user profile: https://github.com/ValveSoftware/steam-for-linux/issues/3671
+politics,ff8ik9l,t1_ff89g2i,1579680112.0,"Without gravity there’s no “up” and thus no “high”. Checkmate, highgroundists."
+aww,ff7ceb6,t1_ff5m6z5,1579646282.0,"Fruit bats are really cute, sadly huge reservoirs of diseases which get pretty easily (and dangerously) transmitted to other mammals. Nipah, hendra, ebola, sars, rabies, …"
+programming,ff5pb9m,t1_ff5n2lt,1579604494.0,"> As an informative note, the format isn't arbitrary
+
+It absolutely is. Arbitrary doesn’t mean “bad”. 
+
+> 64bits will get insufficient before we think. Sure that we want more representation precision and then 64 will be not so far, the sun problem
+
+There are things for which 64b is not sufficient. Time is not one of them: most species don’t last a million year, the sun will exit its main sequence in 5 billion years. Storing seconds in 64b gives close to 2 OOM safety beyond that. 
+
+Hell, while storing time as a double would not let you last way beyond the sun’s death, the 285MA would be orders of magnitude more than we’ll ever need before we go bye-bye."
+programming,ff5d88x,t1_ff5by82,1579588038.0,"You know how sometimes people write dates using only 2 digits and then it gets confusing and you need context to know whether they mean 1920 ou 2020? Or even 1820 or 2120 sometimes?
+
+Well the same happens with computers except worse because computers don’t have context. 
+
+When computers store data (any data) it takes bits in memory and on disk, you don’t want to use too much but don’t want to use too few either. Now when it comes to dates their representation is pretty much arbitrary, you do what you want, but an extremely common scheme is *unix time*, as it was used by original UNIX and pretty much every derivation since (which is just about everything but windows and some older or portable consoles). 
+
+Unix Time counts the seconds since an arbitrary date (the epoch) of January 1st 1970. Back in the 70s they went with 32 bits “time stamps” (necessarily, the step below of 16 bits would only have tasted until the epoch’s afternoon). They also went with *signed* integers which halves the range but means they could record dates before the epoch. 
+
+2^31 seconds is 68 years. Which means these second counters stop working for dates starting in 2038 and systems start misbehaving in various manners e.g. think they’ve travelled back to 1902 or stop seeing time happen or various other issues. Which is what Y2038 is about: programs losing their shit because as far as they’re concerned time itself is broken. 
+
+There are various fixes for it, one of which is pretty simple and people have been working out for some time now: just bump the counter to 64 and you get way past the end of the sun (290 billion years or so). Issue’s there’s a lot of systems out there which are not really maintained yet critical, including programs whose source is lost (or which never really had one), these things need to be found and fixed *somehow* but the knowledge of their existence itself might be limited. And then you’ve got uncountable numbers of data files which assume or expect time stamps can’t be larger than 32b. 
+
+Other fun facts, we’ll go to this at least once more when *unsigned* runs out. Though afaik that’s less common."
+Python,ff3pc7x,t1_ff3ihmj,1579545960.0,"Good point, i'd skipped that bit."

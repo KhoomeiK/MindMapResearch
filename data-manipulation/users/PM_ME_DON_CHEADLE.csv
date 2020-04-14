@@ -1,0 +1,75 @@
+subreddit,self ID,parent ID,time,text
+cats,fff7jgb,t3_et8ui2,1579877687.0,Korea cat?
+Catswhoyell,fff6cvo,t3_etaju3,1579876848.0,omg desperado just stole my heart
+nba,ffe0y46,t1_ffe0ue7,1579833860.0,So hes the best at not being the best at anything?
+ProgrammerHumor,ff5w775,t1_ff5spqd,1579612314.0,"First paragraph: I'm not a front end developer
+
+Second paragraph: This is how we should architect front end apps.
+
+You have 'future management' written all over you."
+Catswhoyell,ff4q9my,t3_erd9zh,1579569845.0,treat please
+nba,fezx9gz,t3_er0kzz,1579462875.0,Frank Vogel is a bad coach
+cats,feofasu,t3_eq3sb2,1579299370.0,She is fucking glorious
+hearthstone,feobpud,t1_fenm0gn,1579297802.0,Or combo with it
+Catswhoyell,feietkq,t1_fehwofe,1579136857.0,FOR THE LOVE OF GOD
+cats,fehnz1d,t3_ep1xq3,1579120397.0,Double trouble right here. Watch out for these guys
+Catswhoyell,fegnses,t3_ep0fet,1579098233.0,omg fettuccini linguine alfredo yes pls
+node,fef9l0j,t3_eorjyf,1579051408.0,Awesome share
+ProgrammerHumor,fedeugd,t1_fedei7q,1579009579.0,"""Cannot read property 'length' of undefined"""
+Catswhoyell,fe8uwmm,t3_eo4fk7,1578931154.0,no pet pls
+nba,fe5whgz,t3_enw2mo,1578876498.0,"This is fucking basketball right here. None of that pansy ass dick tugging smile for the camera bullshit. Men puke, men show bare ass, men deliver their new born baby on the side lines. Fucking hard core dick in the ass butterball Naismith fuck it chuck it game time shit."
+javascript,fe2bpg5,t3_enm24z,1578836626.0,"run something like this in console on the page
+
+```
+(function scrape() {
+	const items = document.querySelectorAll('.listing-item');
+	let res = [];
+
+	console.log(items);
+
+	items.forEach(item => {
+		try {
+			const rank = item.querySelector('.rank-value').textContent;
+			const subreddit = item.querySelector('.subreddit-url a').textContent;
+			let subscribers = item.querySelector('.listing-stat')
+			if (subscribers) subscribers = subscribers.textContent;
+			res.push({ rank, subreddit, subscribers });
+		}
+		catch(e) {
+			console.warn(e, item);
+		}
+	});
+	console.log(res);
+	return res;
+})();
+
+```"
+cats,fdvixvm,t1_fdthdcy,1578747927.0,"ah damn, that's what I was gonna get.
+
+&#x200B;
+
+No prob, I'll take the flour-dusted artisinal loaf on the far left."
+Catswhoyell,fdp1ff3,t1_fdomxr5,1578617716.0,spy cat vs spy cat
+Catswhoyell,fdn5siu,t1_fdlp8sj,1578578079.0,professor longcat
+cats,fdjxxd0,t1_fdjxirr,1578490969.0,please pet
+cats,fdjw87j,t3_elpj95,1578489519.0,"""Ill take the usual"""
+cats,fdey1qg,t3_eky0fl,1578349022.0,Excellent form
+cats,fd29yay,t3_ejmpgg,1578144011.0,omg he/she is doing such a good job
+cats,fczc1tr,t3_ejojbi,1578097894.0,Falling in love with cats at a cat cafe is like falling in love with a prostitute
+nba,fcz5lna,t1_fcxu1bx,1578094135.0,You could say he brought a different animal to the table
+IASIP,fcxf4fp,t3_ejciq3,1578061289.0,I wonder how many rings and coins he found
+WhitePeopleTwitter,fcxcds6,t1_fcx0wkm,1578059067.0,For real. Keep talking like that u/Folix97 and we're going to liberate the shit out of you next
+Catswhoyell,fcwpmcy,t3_ej6il3,1578032766.0,give please
+nba,fcworwg,t1_fcwh8zq,1578031920.0,Thick in all the right places
+PetTheDamnCat,fcueiav,t3_eisb54,1577979048.0,"I'm no expert, but I think he wants to go fishing"
+cats,fcswbp8,t3_eip20x,1577926757.0,A little bayou bengal
+WhitePeopleTwitter,fcsw49p,t1_fcsq9ya,1577926606.0,Downvoted by people who assume community college is insultingly bad even though they've never been to one.
+WhitePeopleTwitter,fcsvuyg,t1_fcr0kst,1577926421.0,It takes a lot of guts to declare yourself unilateral representative for the rest of the world.
+MechanicalKeyboards,fcqdw5p,t3_eih8p8,1577884060.0,absolute unit that one is
+cats,fck93rc,t3_ehfmk7,1577719910.0,nm chillin hbu?
+cats,fck4gke,t3_ehjlf1,1577716310.0,"""It's not what it looks like"""
+nba,fciw9ca,t3_ehcc5j,1577671323.0,"One of the all time greats doing what he does, putting up hall of fame numbers and making it look easy."
+IASIP,fc8xlz2,t3_eghd3k,1577543710.0,Dooley in the house!
+Saints,fc6qy6w,t1_fc6pljc,1577487229.0,Probably thrown by taysom hill to intended receiver taysom hill
+WhitePeopleTwitter,fc5bspj,t1_fc4h58s,1577452527.0,Hey babe
+hearthstone,fc3hsl9,t3_efxf6n,1577390096.0,twin tyrant is the only card in arena that matters right now

@@ -1,0 +1,111 @@
+subreddit,self ID,parent ID,time,text
+csharp,ffex6ka,t1_ffert0n,1579869124.0,Fair enough. Good points.
+csharp,ffe9nho,t3_et1zgz,1579840539.0,This is exactly what Azure Functions consumption plan is for. A million executions a month for free and something like $.05 per 10k after that.
+AskReddit,ffaw5ha,t1_ffa7chc,1579745879.0,Kmart was a victim of the big debt swap purchase scheme like got Guitar Center and lots of others.
+WeAreTheMusicMakers,ff868ut,t3_es6fir,1579667151.0,Natural harmonics
+pics,ff4pb5q,t3_erhgja,1579569185.0,"Eww.  
+
+Love it."
+csharp,fepev24,t1_feovd7c,1579318759.0,"Eh, you could definitely make this work with Azure Functions. Can help with scalability, too. If you wind up having to deal with Middleware you are in a tougher spot, though."
+webdev,fepakrv,t3_eq99dp,1579315857.0,"I'd probably deserialize it server side before it ever gets to the client. If you're worried about spam and phishing, you should probably keep that as far away from the end user as possible. 
+
+What kind of API do you have? What language? Give some details so folks can help."
+movies,fe80thh,t3_enyz3t,1578921095.0,"My daughter is huge into Frozen right now and the death scene of the parents always gets me in the context of the last verse of ""Do You Want To Build A Snowman"". The last line is just heartbreaking, as Ana doesn't know what else to say or do, having no experience in the world and no way to deal with the loss. She's emotionally lost and can't speak to the one person that is supposed to be there for comfort through everything...her sister. This despite Elsa being just on the other side of the door, but still out of reach. The vocal performance is delivered very well (big ups, Kristin Bell) and that adds a ton to the weight of the situation. 
+
+Elsa, please I know you're in there
+
+People are asking where you've been
+
+They say, ""have courage"" and I'm trying to
+
+I'm right out here for you
+
+Just let me in
+
+We only have each other
+
+It's just you and me
+
+What are we gonna do?
+
+Do you want to build a snowman?"
+WeAreTheMusicMakers,fe6htjt,t3_enwqw6,1578891343.0,"When you're developing your time, get a metronome that you can hear over your playing. Make it obnoxiously loud so it drowns you out. Play in short clips or sections so you can really nail each one. This is the ""training wheels"" part of getting in time. It's JK Simmons standing in front of you yelling, ""WRONG! *MY* TEMPO!""
+
+As you improve, turn the metronome down so that the click ""disappears"" when you're playing in the beat. If you're playing at the same time as a click, you shouldn't hear it. 
+
+Then you can try timing a section with the click playing, and then play without the metronome and see if you finish at the right time. 
+
+Remember that unless you're playing electronic music, time is meant to be fluid; sometimes more, sometimes less. The click isn't in charge...the art is. So have fun!"
+AZURE,fdsbipx,t1_fdsabtj,1578698805.0,Check my reply below....spoke too soon  :((
+AZURE,fdsbgib,t1_fds7e2x,1578698765.0,"And, once again, I spoke too soon.  Now I'm getting a JS navigation error (which seems pretty silly...if MSAL is meant to be used with SPAs, why would there be any weird navigation errors??):  
+
+
+Unsafe JavaScript attempt to initiate navigation for frame with origin '[https://sniffle-na-dev.azurewebsites.net](https://sniffle-na-dev.azurewebsites.net)' from frame with URL '[https://login.microsoftonline.com/<tenant id>/oauth2/v2.0/authorize?response\_type=token&scope=user.read%20openid%20profile&client\_id=<my client id>&redirect\_uri=<my web app URL>&state=9c7...a1a&nonce=aa5..2d9&client\_info=1&x-client-SKU=MSAL.JS&x-client-Ver=1.2.0&login\_hint=<my email>&login\_req=<my AAD object id>&domain\_req=<tenant id>&domain\_hint=organizations&client-request-id=287...a3e&prompt=none&response\_mode=fragment](https://login.microsoftonline.com/f141b505-85cc-44f9-a3fa-a288c484d2ca/oauth2/v2.0/authorize?response_type=token&scope=user.read%20openid%20profile&client_id=62ec2d18-b521-458a-9ef2-61f6d91b73fa&redirect_uri=https%3A%2F%2Fsniffle-na-dev.azurewebsites.net%2Fsearch&state=9c791457-4450-4a7a-9e7a-ab67857f8a1a&nonce=aa5e01fe-c67c-4b6e-a4db-b23e654ca2d9&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=1.2.0&login_hint=bo.clifton%40bluesource.net&login_req=a0cfa5b6-ba80-4506-b148-b6f57822f90e&domain_req=f141b505-85cc-44f9-a3fa-a288c484d2ca&domain_hint=organizations&client-request-id=28788345-a802-4083-949c-939897d92a3e&prompt=none&response_mode=fragment)'. The frame attempting navigation of the top-level window is sandboxed, but the flag of 'allow-top-navigation' or 'allow-top-navigation-by-user-activation' is not set."
+AZURE,fds7e2x,t1_fdoxnhb,1578696029.0,Got the answer.  Check out the top of my edited post here:  [https://stackoverflow.com/questions/59637635/calling-azure-function-app-from-static-file-spa](https://stackoverflow.com/questions/59637635/calling-azure-function-app-from-static-file-spa)
+AskReddit,fdp6owk,t3_emew1i,1578621267.0,Final Fantasy 3. The US one...no idea what it was in the full numbering scheme.
+AZURE,fdow0la,t1_fdotolj,1578614154.0,"The audience comes back as MS Graph, the one we both posted about earlier in the thread.  The ""appid"" and ""app\_displayname"" values are correct for the app I'm trying to call, which matches how I set it up in code, and the token contains all the correct details about me.  Tenant id ""tid"" is correct, again, per the setup in code."
+AZURE,fdorvkn,t1_fdoqxkj,1578611501.0,"I really want to deal with the tokens as little as possible.  I want the user to have to log in against the AD tenant when logging into the app, and I don't want to deal with that again.  Using Easy Auth on the web app works great and behaves exactly as I like. If I could get an access token from .auth/me that worked on the API, I would be golden.  But my .auth/me request only gives an id token.  How do I exchange that id token for an access token that will work with my API?  
+
+
+Edit: forgot to mention, just to keep the info all together, I can get an access token using MSAL, but it doesn't seem to work as a bearer token.  I believe the audience and/or requested resource is wrong and I can't seem to figure out how to set that."
+AZURE,fdoop0b,t1_fdm5yj0,1578609481.0,"Ok...I changed the client id in the MSAL code to be the AAD id of the function app. I'm still getting 401.
+
+I cross posted this on StackOverflow and got someone who posted a very detailed, but very different approach than you've recommended.  If you have time, I'd appreciate your feedback on how that approach is different.
+
+ [https://stackoverflow.com/questions/59637635/calling-azure-function-app-from-static-file-spa](https://stackoverflow.com/questions/59637635/calling-azure-function-app-from-static-file-spa)"
+todayilearned,fdnz45u,t1_fdnjrlq,1578595784.0,"Wasn't Dunkirk shot on 70mm?
+
+
+Edit: yep. https://www.imax.com/news/experience-dunkirk-imax-70mm-film-and-imax-laser"
+AZURE,fdmea83,t3_em3w8o,1578547079.0,"Contact support. But your probably hosed. Sucks, man..."
+AZURE,fdm086q,t1_fdlt5tq,1578536715.0,I think I have it set to the web app client ID right now. I'll check that first thing tomorrow and try it. Will update when I have an answer.
+webdev,fdlono3,t1_fdlldsf,1578528824.0,"Great point. I've got an access token now but I'm getting 401 Unauthorized on the API endpoints.  Got a thread going with more info over here, if you are able to chime in...
+
+ [https://www.reddit.com/r/AZURE/comments/elylpl/azure\_web\_app\_and\_function\_app\_with\_easy\_auth/](https://www.reddit.com/r/AZURE/comments/elylpl/azure_web_app_and_function_app_with_easy_auth/)"
+AZURE,fdlofx1,t1_fdlewaw,1578528679.0,"UPDATE: I made some changes and am reliably getting 401 Unauthorized on the API endpoint now.  Inspecting the token in the JWT Decoder shows me an audience that doesn't make sense...  ""aud"":""00000003-xxxx-xxxx-xxxx-000000000000"".  I don't know what that ID is.  The audience is set correctly (I think) with Allowed Token Audiences set to the web app URI and http://localhost:8080 for testing.  Maybe that 00000... audience is for localhost?"
+AZURE,fdllfna,t1_fdlewaw,1578526680.0,"Ok, I think I understand now.  It wasn't your explanation, it was my lack of experience in auth.  
+
+I AM only handling things client-side, and unfortunately re-architecting the app to use a server is beyond what I'm able to tackle for now; I'm stretched pretty thin as it is.  With Easy Auth active for the web app, no one who is truly ""unauthorized"" will have access to the app anyway for now.  I'll look into getting a server into the mix in the near future.
+
+In the meantime, I'm back to requesting user tokens using MSAL.  As mentioned, I can get an access token, and assign it as the authentication header bearer token just fine.  However, I am still getting the CORS error (see below, copy/pasted from Chrome dev console). CORS is set to accept all (value of \*) on both the web app and the API for now. I have added https://mywebapp.azurewebsites.net/.auth/login/aad/callback to the redirect URI list in the app registration for the API.  
+
+Access to XMLHttpRequest at 'https://login.windows.net/<tenant id>/oauth2/authorize?response\_type=id\_token&redirect\_uri=https%3A%2F%2Fmywebapp.azurewebsites.net%2F.auth%2Flogin%2Faad%2Fcallback&client\_id=62ec2d18-b521-458a-9ef2-61f6d91b73fa&scope=openid+profile+email&response\_mode=form\_post&nonce=32bad3506f304e8b94ac24132ccb2b39\_20200108233340&state=redir%3D%252Fapi%252Fpermissions' (redirected from 'https://mywebapp.azurewebsites.net/api/permissions') from origin 'null' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+AZURE,fdldrlb,t1_fdl93pv,1578521855.0,"Excellent response, thank you so much!  
+
+I want to be sure I understand what you're suggesting I do.  The first way you suggest sounds exactly like what I want to do.  Users of my app should be authenticated through AAD, and I'll be managing in-app permissions in code from a SQL db.  If I'm understanding you correctly, you are saying I should turn on Managed Identity in the web app and let the Azure framework handle the token management between web app and API.  I also need Easy Auth turned on for both web app and API.  Is there anything else I need to turn on or alter before this will work?  
+
+
+I turned on the managed identity piece for the Web App and I'm not getting 401 any more (VICTORY!), but am getting a CORS error, despite the web app origin existing in the CORS exceptions in the API.  Any clues here?"
+funny,fdj2bzu,t3_ell117,1578456620.0,Is that...is that Sir Ben Kingsley?
+csharp,fdj27o8,t3_eln7qq,1578456534.0,"StackOverflow has a great and popular job site that can easily be filtered by location and specialty. I doubt you'll get more specific than a city for the area because a lot of job postings seem to try to keep things a little vague for some reason. 
+
+Try LinkedIn too."
+csharp,fdgqp3q,t3_el8sdt,1578405819.0,"Lots of good points here but the one that clinches me firmly in the ""No"" pile is lack of hot reload on code changes. There are some solutions, but they seem fairly hacky to me and still have limitations. Webpack has spoiled me..."
+WTF,fdft32p,t1_fde7duw,1578369516.0,It was on an episode of House in the first 3 seasons....that should be all you need to know that lepto ain't no joke.
+AskReddit,fd4j3k1,t1_fd2nsii,1578167930.0,"Nowhere near as big as you, but I was a pro musician for a short while and I tell anyone who asks that it's not an easy job. Even when you're not doing all that stuff you mentioned, you're often talking with folks and ""soft working"", building the brand. If you haven't slept in three days and snap at someone, you never know who they might be connected to, or how many friends they have, or how much influence. As such, you generally need to be nice and friendly to everyone, all the time. You need to be ""on"" even when you're not at work. This is why so many movie stars and huge music stars work so hard to find some alone time...it's exhausting to be ""on"" 100% of the time. 
+
+Until doing the job, I thought the stories of Brittany Spears having to cancel performances for ""exhaustion"" were BS code for rehab. Now I understand...she just wanted a little rest. I was nowhere close to that level of performance and media exposure, and it was still a really tough job. 
+
+Props to you guys who can make it a career for so many years. Takes a special kind of person."
+vuejs,fd39cst,t1_fd31s6b,1578155981.0,Yeah...it wouls require v-else-if in the middle condition. Good catch
+WeAreTheMusicMakers,fd2tsyq,t3_ejwuju,1578151589.0,"Use two amps. Then you could have two separate eqs, two separate volumes, etc. You can also make it as ""stereo"" as you need to that way. If you have a wider stage, you can spread the amps out more, and vice versa."
+vuejs,fd2smo7,t3_ejx7hs,1578151293.0,Not really necessary but your last one could just use v-else instead of another v-if.
+funny,fd03lz8,t1_fczz79r,1578113129.0,"UNT alum here...fun one, but an urban legend. The college was North Texas State before changing names, and the radio station call sign has always been KNTU. 
+
+I know, I wish it was true, too"
+movies,fd01hm0,t1_fczbls9,1578112231.0,"As a classically trained and formerly professional musician with about 20 years of experience, I can't ever watch a musical sequence in a show or movie that doesn't REALLY work hard to get it right. 
+
+Off the top of my head, the guitar work in Pixar's Coco was amazingly well done and while most won't really notice, it makes me enjoy the movie more. It was the same with House MD, when Hugh Laurie would play the piano or guitar. It made me believe his character could do that because HE can do that, so it was done properly and in a believable way. They're little details, but being able to see this medical savant playing a bluesy tune on his baby grand makes me appreciate the character all the more."
+AZURE,fcw9arf,t3_ej7gko,1578020103.0,"SQL free tier is more like $3/mo but you're right, it may not be on the calculator. It's there though, I assure you. 
+
+Sounds like you need to look at hosting the app in an Azure Web App, which has a free tier. Should be easy to look up getting Blazor on a Web App, most likely in the quick starts in the MS docs.
+
+Edit: don't use a VM for this unless you have a very specific use case that requires it for some reason."
+pics,fcqwoqa,t3_eihdu6,1577893362.0,Is that woman Jim Belushi??
+AskReddit,fcgsxae,t1_fcggziw,1577643696.0,"I've been doing this every time I travel ever since I heard about it. I did a week's lazy vacation in a laptop bag and still had room for the laptop.  
+
+This is before having kids, of course...now going for an overnight at Mom's place feels like we're moving."
+todayilearned,fca6xsp,t1_fca1ewh,1577563964.0,https://en.m.wikipedia.org/wiki/Everyone_Poops
+todayilearned,fc940ns,t1_fc8wu2l,1577546674.0,"I agree that people are generally good, and I never said people are bad. It's a bell curve, a normal distribution where most people are somewhere in the middle. Most people are good, but not great. I like to think I'm somewhere on the ""greater than 50% "" part of the curve because I'm generally good and try to help people when I can. But I recognize in myself that I'm somewhat selfish, if I'm honest with myself. That keeps me out of that elite 2.5% at the top of the range where folks like Fred Rogers live. 
+
+I'm not saying people are bad, just that most people aren't _great_."

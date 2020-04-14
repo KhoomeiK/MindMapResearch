@@ -1,0 +1,145 @@
+subreddit,self ID,parent ID,time,text
+AskReddit,ffgz0lk,t3_etcyd6,1579918716.0,"Off-topic, but do you have a source for this number?  Do you know if it is only counting ‘successful’ suicides, rather than attempts?  I know that the suicide rate for men is significantly higher than it is for women, but this is shockingly so."
+SandersForPresident,ffem8jz,t3_et68mo,1579854120.0,"> He instated MASSIVE tax cuts for the rich instead..
+
+/r/LeopardsAteMyFace"
+hockey,ffem4ig,t3_esvncl,1579853967.0,Does it still qualify as a SHG if the goalie has been pulled for an extra skater?
+linux,ffclhzi,t3_esw4in,1579801998.0,I used to use it almost exclusively back when it was still called pico. I stopped after I learned how to use vi/vim (which isn't anywhere near as hard as people make it out to be).
+apple,ffc6wkv,t1_ffc5rz4,1579792934.0,"No, they abandoned it in 2018 with the release of watchOS 5.  Note that this also includes the $17,000 'Edition' model."
+apple,ffc4n1g,t3_estp6w,1579791417.0,"I'll bet that the first-generation watch won't work for this; I've never seen Apple abandon a product so quickly.
+
+EDIT: When did this sub implement the ""never say anything negative about Apple, or we'll downvote you straight to hell"" rule?"
+Ubuntu,ffc4ecw,t1_ffc46pm,1579791253.0,"If the installer doesn't see the drive, how did you delete the windows partition?"
+Ubuntu,ffc44b5,t3_est7jy,1579791063.0,Does this machine already have an installation of Windows on the hard drive?
+Ubuntu,ffc3urw,t3_estew2,1579790879.0,"The issue is that GRUB is failing, but the computer doesn't know that; it's simply booting exactly what it's been asked to boot.
+
+If you can't get into the picker by holding option on boot, try the following:
+
+\- Boot into recovery mode with your liveusb plugged in, and look through the menus for 'startup disk' or something of the kind and select your USB.  If there is no 'startup disk' option, or if your USB doesn't show up, you can try the nuclear option:
+
+\- Find disk utility in the menus, and delete the linux partiton(s) (you probably only have to delete the boot partition, but it sounds like you're ok with starting from scratch).  No need to recreate the partitions here; it makes more sense to create them with the linux installer.  This is also what you'll need to do if you want to go back to MacOS; the MacOS installer thinks there isn't a disk to install to because the drive has no partitions that MacOS can read/install to.
+
+\- Exit disk utility and reboot the machine with your liveUSB plugged in.  Since the machine will find no bootable volume, it should fail over to trying USB.  If not, holding option should now work.
+
+Hope this helps."
+hockey,ffbu7q8,t3_esg7v3,1579782900.0,It’s Philly; they’ll like Gritty even more if the allegations are true.
+electronic_cigarette,ffbtrfc,t3_eskjj7,1579782445.0,Too bad our elected officials seem to be immune to scientific facts.
+AskReddit,ff93i4h,t3_esbf2p,1579703946.0,Friend of the Devil - Grateful Dead
+ItalianGreyhounds,ff9274f,t3_erytsu,1579703015.0,The amount I spend on a toy or accessory for my iggy is inversely proportional to how much she plays with/uses it.
+AskReddit,ff91tog,t3_es76uw,1579702736.0,"I watched the first 6 seasons of Game of Thrones at least 4 times each, before I figured out that they weren't planning on actually finishing it."
+electronic_cigarette,ff91cky,t3_esbi3l,1579702378.0,"I'm having a hard time imagining a warning that would ""put off"" former smokers. There has been a Surgeon General's warning on every pack of cigarettes since the sixties, and it doesn't seem to have done anything in terms of scaring people away."
+asoiaf,ff5og6s,t3_erd6i0,1579603232.0,"Until he actually gets around to writing THE ending, the shitty show ending is all we have."
+linux_gaming,ff5niwh,t3_errqmw,1579601827.0,"R\* doesn't do Linux; GTA5 has been on PC for almost 5 years, still no linux version."
+AskReddit,ff46dxw,t3_erdojr,1579556537.0,"It might, but Starbucks coffee is completely disgusting without a pound and a half of sugar."
+electronic_cigarette,ff2uvab,t3_ercrb3,1579525079.0,"'Healthy' is a loaded word here.  Vaping is undeniably less unhealthy than smoking, but obviously the 'healthiest' thing is to not do either.
+
+With all of the disinformation in the media, non-vapers see healthy and vape in the same sentence and immediately disagree."
+conspiracy,feybxy9,t3_eqpy53,1579443490.0,"Can anyone explain why Ghislaine Maxwell doesn't even seem to be under investigation?  She helped Epstein find & groom these girls, but we're just going to let her go?  I fail to see how she isn't just as culpable as Epstein."
+entitledparents,fey9qye,t3_eqtu59,1579442656.0,"In fairness, opening the windows *is* probably enough in most cases."
+apple,fey2gvb,t3_eqhqhd,1579439845.0,"Tiny nitpick: They actually landed the exclusive deal with Cingular, who were then purchased by AT&T."
+electronic_cigarette,femz9s8,t3_eply0d,1579273389.0,"As far as salt nic, did you try more than one flavor/brand of juice?  Your migraines are unlikely to be caused by the salt nic itself, but rather the flavorings or the sweeteners in the juice.  Also, Vuse cartridges use salt nic.
+
+As far as freebase juice, you probably need a higher-concentration juice than 6mg; I started on 6mg (in a much more powerful device than a cigalike), which worked well for me, but I was barely over a pack a day.
+
+Offtopic: How did you find enough time in the day to smoke almost 4 packs of cigarettes?  Do you work outside?"
+ADHD,femrr8f,t3_epzcpe,1579267729.0,"Happens to me all the time, and sometimes I don't even have to hear a snippet of a song to get me started; a song I haven't heard or thought of in years will just randomly pop in there and be stuck there all day.  I joke that my fillings must be picking up AM radio signals."
+freefolk,femqhcy,t3_epsf7b,1579266622.0,Neighmeria
+todayilearned,femq0g2,t3_eppa70,1579266195.0,"When you think about it, it's kinda crazy that this isn't how it's done everywhere."
+Ubuntu,fek71r3,t3_epjdfm,1579193950.0,"I made the same choice a few years ago, but the XPS13 died literally 3 days after the warranty expired, and Dell basically told me to go fuck myself.  Needless to say, I won't be buying any more of their shitty hardware.
+
+Meanwhile, my 2012 Macbook Pro is still working just fine.  I did have a problem with it, which happened 4 years after purchase (out of warranty and out of AppleCare by that point), but Apple fixed it for free; Complain about Apple all you want, but at least they stand behind their product."
+LeopardsAteMyFace,fek6b9j,t3_epdob0,1579193514.0,"This is an *extremely* worrisome attitude, because it's exactly how Trump won the first time. I sincerely doubt it was Bernie voters choosing to vote for Trump; More likely Bernie voters staying home because they felt disenfranchised after the primary was stolen by the DNC on behalf of Hillary.  I am team Bernie all the way, and I totally understand the sentiment, but the thing that *really* matters is getting rid of Trump; The crookedest Democrat is still \~1,000,345,172X better than King Cheeto."
+AskReddit,fee79s1,t1_fedsp27,1579027860.0,"I consider myself to be a somewhat 'advanced'-level drinker, but 6 beers before leaving for work is too many (especially considering I drive to work in an area FULL of shitty drivers), and certainly more than I need for a 'light' buzz.
+
+Depending on the beer, 2-3 in the morning, 1 or 2 at lunch, and the remainder afterwards."
+AskReddit,fee5wzh,t3_eoma58,1579027059.0,How do you correctly pronounce 'backpfeifengesicht'?
+linux_gaming,fee450g,t3_eooqfy,1579026008.0,"Have you tried using a frontend like Lutris?  It's got tons of 'recipes' that help ensure you have a compatible version of (and correct settings for) wine for each particular game.  It's by no means perfect, but it does a pretty respectable job, and may be worth a look."
+ADHD,fee2sc3,t3_eonre6,1579025208.0,"You know the core is perfectly edible, right?  Pop out the seeds and stem, and bam; 20% more apple."
+Stargate,fee2npt,t3_eonk1p,1579025131.0,"No idea what you're talking about, but it led me to this gem: [https://twitter.com/iamchrisjudge/status/611246525830688768?lang=en](https://twitter.com/iamchrisjudge/status/611246525830688768?lang=en)"
+ADHD,fedza7y,t3_eon0g6,1579023037.0,"It depends on what you mean by 'watch'. I can have the TV on while doing other things, but my retention will suffer greatly.  I tend to remember the broad strokes of the episode (most TV shows these days don't have particularly challenging narratives), but watching them again without distraction reveals that I'm remembering a CliffsNotes version of the story, at best; certainly not what I would consider to be a reasonable level of retention."
+electronic_cigarette,feddkru,t3_eokedg,1579008521.0,"Never, under any circumstances, buy anything with a SMOK logo on it."
+politics,feddb6r,t3_eokkit,1579008291.0,"> “When the Democrats try and defend him, it’s a disgrace to our country.""
+
+This is a ridiculous statement; No one is trying to defend Suleimani, they're just uncomfortable with the extra-judicial killing of a high-ranking military officer of a country that we're not in an active war with."
+politics,fed7cx4,t3_eockc8,1579002308.0,"Is it to *get* dirt, or to *plant* it?"
+electronic_cigarette,fe8xl10,t1_fe8w3k3,1578932082.0,"I don't anymore. When I started vaping, Smok was the only brand that my local vape shop carried, so I didn't think I really had a choice.
+
+Nowadays, I immediately leave a store if the salesperson recommends a Smok product; If they're recommending that crap, they clearly know nothing."
+electronic_cigarette,fe8vm3h,t3_eo5k5u,1578931529.0,"I've owned 4 smok mods, only one of which lasted for more than a month before it died."
+todayilearned,fe0b5nt,t3_englqs,1578808399.0,"IQ = Intelligence Quotient. It means you take the score gotten on the test and divide it by the age of the person taking the test. Last I heard, dividing one number by another was a simple matter that shouldn’t be ‘impossible to calculate’."
+politics,fdwf3k5,t3_en67de,1578758082.0,What on earth for? This administration has done nothing but lie to the American people; why would this make any difference at all?
+mechanical_gifs,fdwa97b,t3_en1mk9,1578756666.0,He’s going to attract a worm.
+hockey,fdqmocv,t3_emrk0d,1578670295.0,Matt Hendricks
+todayilearned,fdqi8xt,t3_embiv9,1578667327.0,Imagine if the ruling class all had a kid or sibling in the military; They'd be a lot less cavalier about starting wars if there were a personal stake.
+electronic_cigarette,fdqh2zg,t1_fdqgsz0,1578666498.0,"Are cigarettes legal where you live?  
+
+Nicotine is nicotine, regardless of whether it comes from a cigarette or vape juice.  Unless they specifically told you that nicotine was being tested for, I see no reason for you to worry."
+electronic_cigarette,fdqgl7d,t3_emrf5w,1578666144.0,"What makes you think that they're testing for nicotine?  That would have to be a VERY broad-spectrum test.
+
+If, as I suspect, you're underage, then don't vape; Not only does it set you up for a potentially lifelong addiction, but underage vapers are EXACTLY why we have all of the incoming bans."
+electronic_cigarette,fdqfod4,t3_emr0y7,1578665479.0,"You're ok.  There are several finishes for the Zero, dependent on color.  The white and black models both have the same rubber-ish coating.  The blue and (darker) green are more glossy, the orange and 'minty' green ones are more of a satin finish, and the rainbow one is ultra-glossy (to collect more fingerprints)."
+gaming,fdq83hl,t3_emonwz,1578658784.0,"All that armor, no helmet."
+Redskins,fdq3ydc,t3_emmcwo,1578653699.0,"Dan still owns the team, so probably."
+askscience,fdq1wxu,t3_emg093,1578650813.0,"That would prove that cell signals do not affect airplanes, so it would expose in-flight wifi as the scam that it is."
+theydidthemath,fdmphu0,t3_elvy6a,1578559402.0,"Nice try, Blockbuster."
+gaming,fdmpc4a,t3_em0h3e,1578559192.0,Has that PPK bitten your hand yet?
+electronic_cigarette,fdmoxf9,t3_em3c23,1578558644.0,"Our entire government is for sale, and the tobacco companies are buying.  I don't see the point of demanding the DOJ does something, since it's probably the most corrupt department right now."
+politics,fdkl93l,t1_fdkl2am,1578505874.0,"No. I don’t think there was anything wrong with it, but I’m sure that that’s exactly why Trump tore it up."
+politics,fdkkp40,t1_fdkkeim,1578505591.0,The old one had Obama’s signature on it.
+RetroFuturism,fdk1m2l,t3_elt1fk,1578493807.0,"This is built on a Cadillac chassis; as soon as I read that, it started to make more sense.
+
+[https://justacarguy.blogspot.com/2015/07/the-1971-star-streak-motor-homes-and.html](https://justacarguy.blogspot.com/2015/07/the-1971-star-streak-motor-homes-and.html) has several other angles, including some from the front and back that make it very obvious it's built on a Caddy."
+electronic_cigarette,fdk0igo,t1_fdjpeap,1578493002.0,"The Suorin Edge has a replaceable battery, but unfortunately the batteries are tiny (< 300mAh), so even with 2 batteries, it still doesn't last all day.  Plus, the battery is held on with a fairly weak magnet, making it inevitable that it will fall off and be lost someday."
+Vaping101,fdeuz81,t3_ekxgop,1578347152.0,"It can use either, but you’ll probably want salt nic; it’s what the juul uses, and is more similar to the way you get nicotine from a cigarette."
+worldnews,fdavfip,t3_ekfyoz,1578250722.0,Can we set up a Patreon or a Kickstarter to donate to this worthy cause?
+TheMandalorianTV,fdapatg,t3_ekbsr0,1578248631.0,If only comics still cost 40 cents.
+worldnews,fdaonzt,t3_eke9t2,1578248491.0,Did we have any allies left before this?
+NoStupidQuestions,fdaokw5,t3_ekchqq,1578248459.0,Ingredient list != recipe
+see,fdaf8eb,t3_ekey6e,1578245419.0,How can an ‘Americana’ playlist not contain a single song from the Grateful Dead?
+todayilearned,fdadjkj,t3_ekdvhz,1578244837.0,2K’s NHL games were also vastly superior to anything EA has released.
+MapPorn,fd9p3o9,t3_ekbtk0,1578236293.0,"Is this posted on NASAs website? If so, you can bet they’ll be ordered (by King Fuckbag himself) to take it down for being ‘politicized’ science."
+Redskins,fd2pyp2,t3_ejrw2w,1578150521.0,"Despite the long-needed changes in the front office, do we really want to be responsible for ruining another promising young QB’s career?"
+atheism,fd2a958,t3_ejrrlg,1578144165.0,Anyone who cheered at this should be rounded up and permanently deported.
+todayilearned,fd29qtx,t3_ejqwql,1578143904.0,"In 9900 years, people will all lose their minds thinking that Bezos was predicting the end of the world."
+electronic_cigarette,fcxarkj,t3_ejf787,1578057636.0,"FYI, tobacco-flavored juice tastes NOTHING AT ALL like a cigarette, if that's what you're trying to replicate."
+electronic_cigarette,fcx9uwo,t3_ej2kt2,1578056769.0,I would absolutely try Sauerkraut vape juice.
+Vaping101,fcx9r6o,t3_eja7el,1578056666.0,"This was exactly my experience with the Suorin Edge and Air (never tried the Air+).  I went to a Renova Zero and later a Caliburn, and have had a much better experience; Pods for either device tend to last over a month."
+atheism,fcx9ao1,t3_ej7us0,1578056221.0,"If Jesus came back today, evangelicals would stone him to death for being such a hippy."
+technology,fculk9v,t3_eiwz7r,1577983658.0,"I'm sure they've found a way to make it safer, but isn't the Hindenburg still the first thing you think of when you think about people using hydrogen? Weird that the article makes no attempt to address this."
+Vaping101,fcu361o,t1_fcu2r52,1577971162.0,"Weirdly, my Alien 220 was the only SMOK product I've owned that lasted longer (but not much longer) than a month"
+blackmagicfuckery,fcu2zd1,t3_eir60a,1577970974.0,"The fact that it gets heavier makes sense to me, but I don't understand why/how steel wool burns."
+RetroFuturism,fcu2jxj,t1_fctv3j8,1577970532.0,Came here to say basically this.  The question is: would/could we have gotten CRTs this small *by now* if flat screens were never invented?
+RetroFuturism,fcu23i6,t3_einrch,1577970051.0,"The pizza box appears to be at about the level of his knee, while the pizza slice appears to be at roughly shoulder level.  For the pizza slice to be that big in relation to the box, this guy must be like 17 feet tall."
+YouShouldKnow,fcu1sfx,t3_eiuejn,1577969720.0,"For those of you who are still in need of a password manager, take a look at bitwarden; The 'premium' version (only $10/year) will also store TOTP codes for 2FA.  In other words, you can store your passwords and use 2FA authentication from the same app.
+
+https://bitwarden.com"
+insanepeoplefacebook,fcu1iee,t3_eisag6,1577969415.0,Why would a bear come to a wedding?
+mac,fcu0yih,t3_eiqzjd,1577968796.0,"I've had an identical Apple remote for several years now.  It has been dropped, stepped on, and even thrown across the room more times than I can count, and this has not happened.
+
+If you \*try\* to break it, of course you'll succeed."
+hockey,fctz5k5,t3_eip9za,1577966681.0,"I *really* don’t like Tortorella, but this is bullshit."
+atheism,fctyfva,t3_eiuexq,1577965766.0,"If a Muslim had said this, it would be seen as a call to bomb the shit out of the guys entire hometown. The double standard of religious idiocy needs to stop."
+Vaping101,fcrc6u4,t1_fcral7f,1577899856.0,"YMMV, but I’ve had very good luck with products from Uwell."
+TalesFromYourServer,fcqqo5e,t3_eieof7,1577890669.0,"The best part?  They'll come back in with those free entree coupons and fail to tip because ""the bill is $0""."
+Vaping101,fcqpuy7,t3_eihzw5,1577890259.0,"I don't know about most of these mods, but I can tell you one absolute truth: Smok is terrible, and no one should ever buy their devices."
+cordcutters,fcqoueh,t1_fcqlo67,1577889756.0,"I'm not asking for 20+ episodes per season unless the story of that season can actually fill 20+ episodes.  I'm just saying that 8 episodes is a pretty short time to tell a ""season-worthy"" story."
+cordcutters,fcqffhf,t3_eihl8c,1577884984.0,I'm also a little annoyed at what passes for a 'season' in the streaming era.  8 episode seasons just aren't  enough when you have to wait a year between them.
+NintendoSwitch,fcojvzq,t3_ei66aj,1577834072.0,"This list places GTA V above Witcher 3. Hence, I cannot take it seriously."
+trashy,fcoj968,t3_ei7261,1577833600.0,"What law makes it illegal to hang out in your own car in an empty lot? The rest of it is fine, but what kind of probable cause is there for sitting in a car?"
+RATS,fcm36f2,t3_ehvv2k,1577763034.0,She should get all the hamburgers.
+AskReddit,fcm0d7w,t3_ehn3ua,1577760947.0,"Fruit Juice.  If you strip all of the fiber and other solids from fruit, all you have left is sugar water."
+atheism,fcm0843,t3_ehlxdp,1577760843.0,Science: 30 years late to tell us what we already knew.
+Redskins,fclzwdm,t1_fclzceu,1577760606.0,"> Dan reacted to the outcry from the fanbase for the first time in my 30 years
+
+There.  That's the problem.  If Dan was a competent owner, he would have fired Bruce LONG before we had to hashtag it."
+Redskins,fclxfhd,t3_ehsvf2,1577758825.0,"Maybe it’s just the nature of a 40-year Redskins fan, but I think that this celebration is VERY premature. 
+
+We still have the worst owner in all of professional sports (the fact that the useless Bruce Allen lasted a DECADE is proof of that), so why should we expect that he will have learned a lesson from all of this? He’ll name another spineless yes-man as GM, and we will be right back where we’ve been. Until Snyder does us all a favor and sells the team, we will continue to suck."
+etymology,fckp9lb,t3_ehm7vv,1577730243.0,This is *exactly* the kind of content for which I subscribed to /r/etymology
+AskReddit,fckorae,t1_fckofy6,1577729931.0,This.  This is the answer.
+electronic_cigarette,fckoed5,t3_ehn5ns,1577729711.0,"Does it make financial sense for the company who makes/sells coils to make coils that last?  No.
+
+I've had MUCH better luck since going to pod mods; I get (minimum!) 4-6 weeks out of a Renova Zero pod, and 3-5 weeks out of a Caliburn pod."
+Redskins,fcknud0,t3_ehl91y,1577729369.0,DAN STILL OWNS THE TEAM! WE WILL PROBABLY STILL SUCK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+electronic_cigarette,fckamwr,t3_ehg5qv,1577720982.0,Funny that gum and patches are missing from the list. I guess nicotine is ok when the money is going to the big pharma fucks.
+RoastMe,fcjz5j6,t3_ehhrsp,1577711302.0,What’s with the brow dimple? We’re you kicked with a Sabaton?

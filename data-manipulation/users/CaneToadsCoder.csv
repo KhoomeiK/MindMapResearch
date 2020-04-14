@@ -1,0 +1,204 @@
+subreddit,self ID,parent ID,time,text
+programming,fgv7c26,t1_fgv7a21,1581139329.0,Of course.
+programming,fgv6k83,t1_fgv6f8m,1581138642.0,"It's all good!  I'm good at teasing out the unintuitive details. Sometimes, some, like NIST's website using a trash system time implementation, are so unintuitive that it feels natural and right to think I am retarded."
+programming,fgv6evh,t1_fgv5y86,1581138514.0,Yeah I figured that - but it's always fun deriving these kind of things just from reverse engineering and applying a bit of logic.  Thanks!
+programming,fgv5geg,t1_fgv54gm,1581137689.0,"Yeah - if you wilfully disagree with facts you tend to be beyond hope.  
+
+https://stackoverflow.com/questions/46623018/does-a-program-make-a-system-call-to-get-the-value-of-an-environment-variable-in
+
+Environment variables don't require a system call.  Apache can set headers from environment variables.  CGI script can maintain the value of the environment variable, making the webserver faster and removing the latency of the system calls it uses."
+programming,fgv3uzz,t1_fgv2qk2,1581136373.0,"You didn't know that the server was using Apache - so don't try and pull this educational bullshit.  
+
+CGI is a way to interface a random ass script's stdout to apache.  So they have Apache calling a random ass script.  If this script is doing anything other than reading from an environment variable it is taking 2 system calls MINIMUM.  Plus setup and teardown time.  
+
+So the CGI script is just a script.  
+
+If the CGI script was running in a while loop, setting an environment variable on each loop, the webserver could access this super accurate time with zero system calls.  
+
+
+If you can read this website's code and look at me with a straight face and say 'the developers knew what they were doing', well, I think you might be beyond hope."
+programming,fgv1y70,t1_fgv1ozu,1581134861.0,Im mostly saying they literally only check for characters after the first equals.
+programming,fgv0u92,t1_fgv0003,1581134008.0,"Edit:  Read the response headers on the site.  It is served via apache.
+
+Well that's a long way to write ""I didn't know that you could configure apache to read a header from an environment variable"".
+
+The time is a decimal string of this format:
+
+1581133422221293
+
+This is short enough to fit conveniently within a header.  
+
+If you configure Apache (the webserver used by this particular service) you can have a process running constantly updating the environment variable on the system.  Apache, being naturally on the system it is running on - will then be able to set the content of the response headers based on these accurate variables.  
+
+This will remove the additional time skew of process startup and interprocess communication from the system, increasing the accuracy.  
+
+
+It is most likely that the CGI script itself is reading from system time, and we are seeing an additional process created (with overheads) for the sole purpose of reading system time, or an environment variable, or for reading a mmapped file (another system call!  oh my!  So efficient).  
+
+
+And all this on an endpoint prefixed with zzz__, which is in my experience the prefix used by contractors to denote a deprecated variable."
+programming,fguyoma,t1_fguxndn,1581132449.0,"?  
+
+Configure apache to set headers from environment variables.  Create a dedicated listener rather than CGI scripts.  Anything other than a fresh process for every request.  
+
+I mean given their XML time parameters are inexplicably time2 and time3 and are explicitly directed from a domparsed xml.  
+
+
+They set time based on setinterval - every 10 minutes.  Between pageload and 10 minutes you are displaying system time skew."
+programming,fguxbck,t1_fguvts6,1581131537.0,"Pull Request status:  Changes requested.
+
+Good design changes.  The code is bad.  There are better ways to zero pad numbers.  Alert boxes are bad practice - use a modal or fixed div.  Is the time endpoint proper?  zzz__ suggests that this is an old version of the time endpoint.  
+
+
+CGI?  Why not enable time headers in apache instead and just read the headers?"
+programming,fguvts6,t1_fguvmwb,1581130561.0,"  
+    // SET MINUTES
+    if(minNum > 9) {
+      newVal = Number(String(minNum).charAt(0));
+      if (timeDotGov.data.mymin0 != newVal) {
+        timeDotGov.data.mymin0 = newVal;
+      }
+    } else if(Number(timeDotGov.data.mymin0) != 0) {
+      timeDotGov.data.mymin0 = 0;
+    }
+  
+Explicitly handling 1 and 2 digit numbers?  Is this 1991?"
+programming,fguvmwb,t1_fguvapm,1581130438.0,"https://time.gov/zzz__7c012fb98c9751310d6e9c66d4651b5e7eeadc8a.cgi
+
+The endpoint they use to get current timestamp from."
+programming,fguvapm,t1_fguuzi9,1581130221.0,"	var noMoreAlerts = false;
+    // NOTIFICATION BOX FOR BOOKMARKING 24-HOUR SETTINGS PAGE
+    var twentyFour = document.getElementById(""twenty-four"");
+    twentyFour.addEventListener(""click"", function(event) {
+		var hourLabelDiv = document.getElementsByClassName(""am-pm"")[0];
+		var url = window.location.toString();	
+		if(timeDotGov.data.twentyFour()) {
+			window.history.replaceState(url, """", ""/?t=24"");
+			if (!noMoreAlerts) {
+				alert(""Bookmarking this page will save your preference for 24-hour time display."");
+			}
+			noMoreAlerts = true;
+		} else {
+			window.history.replaceState(url, """", ""/"");
+		}
+  		timeDotGov.clockController.handleonrefresh(new Date());
+		
+    });
+
+Oh dear god - alert box on switch."
+programming,fguuzi9,t3_f0l12r,1581130018.0,"	/* PARSE THE URL FOR 12/24 VARIABLE*/ 
+	var getT = location.search;
+	var tArr = getT.split(""="");
+	var t = tArr[1];
+	
+	// CREATE A VAR FOR THE CHECKBOX  
+	var twentyFour = document.getElementById(""twenty-four"");
+	
+	// CHECK VALUE OF 12/24 URL VAR ""t"" AND SET CHECKBOX ACCORDINGLY  
+	if (t === ""24"") {
+		twentyFour.checked = true;
+	} else {
+		// DEFAULT TO 12HR DISPLAY
+		twentyFour.checked = false;
+	} 
+
+gross
+
+
+use 24 hour time using:
+
+https://time.gov/?=24"
+canada,fguqtkm,t1_fguctnv,1581127305.0,"Aye - truly atrocious the terrible conditions these people are fleeing.  Some of these people have literally never even seen snow - let alone first run on pwder.  
+
+
+I feel like some of our nation need to keep that in mind when they vote for politicians who want to close our borders to the less fortunate."
+hearthstone,fgu7lwv,t3_f0b0ns,1581114485.0,The Lich King in his Prime.
+politics,fgtqzmx,t1_fgtlab4,1581108172.0,"Not OP, but consider that, similar to the WW2 death toll where a substantial portion of the deaths were en route, on capture of a slavic village, or were power vacuum deaths the War on Terror has caused many serious knock on effects that lead to casualties not counted in typical scores.  
+
+
+As an example, the displacement of Islamist groups from Iraq and Afghanistan lead to almost all Pakistani tribal lands becoming out of reach of the Pakistani government.  This lead to an increase in internal conflicts which were directly part of the fractured 'ganglike' structure of Islamist leadership.  This was frequently violent and actually came to a head I think in 2010 where wide swaths of Pakistan fell under Islamist control.  
+
+
+Similarly, displaced Islamist groups became major players in the dynamics of many African countries.  
+
+
+The odd nature of todays wars is that fighting an insurgent force is like trying to fight a bowl of small pox in a crowded room with an acetylene torch.  Yes you will succeed in having the bowl sterilised, but is the situation any better for it?   
+
+
+The most likely death toll in Iraq/Afghanistan is probably 1-2 million (most estimates are conservative).  I can easily see a world where the overall death toll that can be directly attributed to the surge in Islamist strength is several times higher than that.  
+
+
+I personally consider this to be the set of deaths attributable to the War on Terror, as the rise in Islamist strength can be directly tracked to the day thay the Iraq military was disbanded and sent home weapons in hand.  
+
+
+Hundreds of thousands of people returning home, their only skill fighting, now unemployed with a nice assault rifle?  That was the recruiting pool for Islamist groups for years, and then they had youth who had grown up knowing only war and occupation to recruit from."
+politics,fgtmy9a,t1_fgtlrde,1581106723.0,"Kissinger won and bombed Red Cross in a parallel fashion.  
+
+
+Turns out the joke about hospital and drone operator should go back to the Vietnam era at least."
+canada,fgqatro,t1_fgqa05q,1581020953.0,"Media's responsibility to ask the hard questions would suggest to me that they should have asked that question of someone who could answer it - which is all that I am saying.  
+
+They didn't even bother to indicate if they followed up on that statement."
+canada,fgq1hz8,t3_ezvac8,1581016090.0,"It is becoming a regular thing for me, but I hate this article.  Focus on the 'sexy' part - the upcoming possibility of police on protester violence.  This story is all about Police vs Protester.  Easy clicks.  
+
+Of course our media (including CBC our taxpayer funded news organisation) picks the easy story.  It's easy to pick a side (for either side) in protester vs police.  Law and order people have the justification that the police are just fulfilling their mandate of executing legal decisions.  Fair.  People against the pipelines support the protesters for peaceful protest and civil disobedience.  
+
+
+But what I really want to be looked into is:
+
+> A statement said the extension was granted ""despite over 50 instances of non-compliance""
+
+So our corporations are allowed to break the law with impunity and people doing what they consider as their civic duty to protest are constrained to the full extent of the law."
+educationalgifs,fgpvm0d,t1_fgpvg3q,1581012869.0,O shape with hand?
+educationalgifs,fgpn42m,t1_fgpmq1k,1581008131.0,I can't really take credit.  I just know off hand of a hand-counting system that does that.
+educationalgifs,fgpinc8,t1_fgp8dx7,1581005551.0,Fist is a six.
+canada,fgo0ob9,t1_fgnxu1o,1580957091.0,Maher Arar?
+hearthstone,fgnuuen,t1_fgmz9x7,1580953393.0,"Yes the heron power!
+
+
+Caw! Caw!"
+wallstreetbets,fgnp6tr,t3_ezjq1g,1580949841.0,"Asset sales aren't afaik considered income.  
+
+
+Uber is going to the moon!  Burn rate hype!"
+canada,fgneiur,t1_fgnddmc,1580943169.0,"Hence the ruling was that the only reparation he was entitled to was Canada asking for repatriation.  
+
+
+Maher Arar?"
+canada,fgnd8mc,t1_fgncege,1580942402.0,"> Because dismissing a ticket and harassment by the officer are two separate issues.
+
+So is an unjust incarceration and a violation of rights.  The violation of rights was evidence of an unjust incarceration.  
+
+
+I asked a question, by the way.  Do you or do you not feel the same way about Maher Arar?"
+canada,fgnbpgi,t1_fgn9hf4,1580941508.0,"Actually, were it true, it would be hypocrisy.  
+
+
+I read your post.  I just didn't feel the need to comment on irrelevant points.  
+
+
+Of course the SCC of Canada didn't give him a red cent in rulings regarding the status of his current incarceration in the US.  If a police officer is harassing you and gives you a ticket, when you go to the court date for the ticket the judge won't give you a settlement there, to the applause of the audience.  No - the judge will rule the ticket is improper and another judge will rule on the separate legal claim of harassment.  
+
+
+It is utter lunacy to consider these things related.  
+
+
+But lets test your faith.  Do you feel the same way about Maher Arar?"
+canada,fgn8izx,t1_fgn4t6s,1580939701.0,"Ah yes - the brilliant clap act of 2001 - a clever piece of legislation!
+
+;) 
+
+Cheers."
+canada,fgn8f9w,t1_fgn6xlu,1580939646.0,"Sure - but if they chose to ask for him to be returned, rather than turn a blind eye to better their prospects during interrogation, they wouldn't have had to pay the $$$$$$.  
+
+We will never know - because it was never tried.  That was all the law requires.  The law doesn't require war - it requires a good faith effort.  
+
+I know that a good faith effort is likely an alien concept to someone as ignorant as you, however."
+canada,fgn6h4b,t1_fgn5hvr,1580938614.0,"> The only way Canada was getting Khadr out of Gitmo was by sieging the island.
+
+Or they could have asked.  Which they didn't do.  Maybe the 'only' is in your head."
+politics,fgmifk9,t1_fgmgj6z,1580925207.0,"A more nuanced approach and a whole look at Manchin paints a different picture.  He isn't one to pick fights he won't win, such as Kavanagh, but if Republicans learned from him the US would be in a good place.  
+
+
+He is strong on consumer protections, public infrastructure spending and on healthcare.  Would you gamble that senate seat that is quite securely democratic under Manchin in a red state on a chance at having maybe a Doug Jones if they rrun a pedo against him?"
+SandersForPresident,fgm15wr,t3_ez8702,1580915816.0,It might be time to throw in a bet on Buttigieg now.  Biden is going to spiral harder and the first states are good for Bernie and Buttigieg so might get some nice pickup as Biden CTD.

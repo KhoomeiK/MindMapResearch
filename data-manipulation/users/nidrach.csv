@@ -1,0 +1,157 @@
+subreddit,self ID,parent ID,time,text
+JoeRogan,fft6zdd,t1_fft5o86,1580210293.0,You still have to able to read a room. I don't give a fuck about Kobe or basketball but the reaction to his death made it clear that he meant something to a lot of people so I did the only thing that makes any sense and that is to say nothing.
+JoeRogan,fft6kn0,t1_fft6696,1580209732.0,Oh I didn't read that stuff about his parents. Yeah that's fucked up.
+JoeRogan,fft646z,t1_fft3ouw,1580209085.0,"Especially if you are Ari ""consent"" shaffir"
+aww,ffq0wua,t1_ffpubnv,1580114352.0,Ft•lb sCieNcE
+aww,ffq0vo8,t1_ffpwb3c,1580114304.0,Well he mainly wanted to sell it to mines. And for continuous work 1 hp is about the power of a horse so it's not arbitrary.
+aww,ffq0rzp,t1_ffpymsz,1580114153.0,Peak output. For continuous work it's more like 1 horse power.
+Futurology,ffpxjhb,t1_ffpwk46,1580109749.0,Coal is also just freight. It just depends where you are. If there is no coal and no power plants next to where you are you will never see it. https://www.aar.org/article/freight-rail-coal/
+WinStupidPrizes,ffirl6e,t1_ffir9e0,1579980953.0,Normally you use your own car.
+WinStupidPrizes,ffiqixy,t1_ffiqdxh,1579980207.0,The zebra car was a bit of a giveaway.
+ConsumeProduct,ffi52yu,t1_ffi27ux,1579965303.0,"Of course not and those kind of extreme purity tests are more a thing for the left. This sub is more about rejecting consumption as an Ersatz religion. A lot of young people have no personality or purpose beyond their consumption of media and merch. People should strive for more than their dopamine fixes in the form of cooming or consooming. It's a rejection of the infantilization of modern men in particular and call for or people to be more family and community oriented. 
+
+Like all niche subreddits it is of course prone to radicalization but the core of the message is always the same callback to traditional family values and the moral system that propped it up in the past.
+
+Everybody understands that you have to live your life within the confines of modern society and almost nobody really wants to reject society completely and live like uncle Ted. But that doesn't mean that one can't mock the siren song of worthless trash peddled by the commerical interests that is meant to distract you from a system that makes a human life in this society less and less attainable. 
+
+Family, children and community are at the very core of the human experience and rejecting them is to reject your humanity and that is going to cost you. That's what this sub is about. The rest is just cultural noise."
+CasualUK,ffhzu1p,t1_ffhy38f,1579960674.0,https://en.wikipedia.org/wiki/Republic_of_Letters
+explainlikeimfive,ffhu44r,t1_ffhehfi,1579953979.0,"The compiler is a piece of software that takes a text input and translates it into machine code. 
+
+To do so it first has a scanner or lexer which is a piece of code that takes an text input and converts it into a stream of tokens. So instead of a character sequence ""f o r"" you get a ""for""-token. That's the lexical analysis. It only checks if those character sequences are part of the language. Some tokens are keywords like ""for"" others are identifiers like variable names and others again are just symbols like ""("" . If you encounter a malformed token that's a lexical error. Like a variable name that starts with a number is often not allowed.
+
+The next piece of software is called a parser. It checks the grammar. Just containing the correct words doesn't make something a correct sentence it also needs to be in very distinct pattern and that's called grammar. The parser can read those tokens from the scanner and checks the order in which they are. In a simple form they are top-down parsers which work like giant decision trees. If you are at a certain point in a sentence you know that only certain words are valid as the next possible word. In English the verb has to b at a certain place for example. In Java or C you know that if the last token was a ""for"" the next has to be a ""("" . At the end of an expression there has to be a "";"" and so on. Sometimes there are multiple choices and you just follow the next token, as I said just like a decision tree.
+If you encounter a token that's wrong like a ""#"" after a ""for"" it's an error in the code you try to translate. (That also means that you have to be able to make a decision a every fork in the road and that's limiting in language construction so there are other more powerful methods for parsing but that one is the simplest.) If you are done with one rule, for example you reached the final ""}"" in a for loop, you go back a step in your decision tree and check for the next decision. 
+
+You now have checked if your program has the correct words in them and if they are in the correct order. What you can now do is to translate the sentence into another language. That can be machine code or it can be something else like Java byte code which is like machine code but for a virtual machine i.e. a piece of software that interprets the code again. 
+
+Say you encounter something like ""x=5+a"". First you would generate machine code that loads the number 3 into a register let's say register A. 
+
+const 5 A
+
+ for example in a sort of pseudo machine code. 
+
+ The parser has encountered a variable name before in ""x"" and that was followed by an assignment operator in ""="" so now it is at a point in it's logic which says that it is going to save whatever is in the other side of that assignment into x. ""x"" has to be declared somewhere in your program and at that point the parser is going to generate an entry in the something called a symbol table that stores information relevant to that variable. If it is the second variable it says that wherever memory address our program starts go to the section where variables are and look at the second entry. The same thing is true for ""a"". Let's say it's the third variable. 
+
+So after we generated our code for ""5"" the parser sees a ""+"" and goes into the rule for add. That rule says that if you see a variable name load that variable. So we generate something like 
+
+Load 3 B
+
+That takes whatever is at that memory address and stores it into another register B. (a register is a memory cell in your cpu). 
+
+Then the add rule says that it should generate the machine code for add.
+
+Add
+
+Add is defined as take A and B and store the sum in A.
+Then it generates the code for storing the sum. We remembered x when we encountered it and we see it it is the second variable so we generate
+
+Store 2 A
+
+Now the sum is in the memory of where we defined x to be in. 
+
+That generates a long list of instructions out if your whole program. If you have a decision to make in your program like an ""if"" decision it is done via jump instructions that check if something in Register A is bigger than in register B for example if it is it goes to a certain point in that instruction list and if it isn't it continues where it is. 
+
+That's the gist of it. There are other more complex strategies that allow for other language features or for optimization. But in it's simplest form you just check for correct words and whether they are in the correct order or not and if they are you translate it into some sort of lower level language."
+assholedesign,ffhp2g0,t1_ffhkfl7,1579946311.0,The US distributer is going to b responsible for the US packaging.
+JoeRogan,ffgo4ih,t1_ffg6mqh,1579910799.0,">  maybe I'm not a very good leftist
+
+Well you're alive which is like error number one on the way to becoming a good leftist."
+ScottishPeopleTwitter,fff8xvh,t1_fff8rpa,1579878650.0,Oh that's for a road. It's just under 10 meters of snow.
+ScottishPeopleTwitter,fff5xb5,t1_fff36jw,1579876533.0,"lol. that's a cute little toy.
+
+-Austria https://www.youtube.com/watch?v=K79jwuMTmag&feature=youtu.be&t=17"
+sports,fff0bxa,t1_ffezl1n,1579872122.0,Yeah it looks like he calculated that perfectly and baited him into giving him an opening.
+JoeRogan,ffeu1sh,t1_ffeqfeh,1579865519.0,Oh bullshit this sub can't even agree on whether they like Joe or not.
+ConsumeProduct,ffdf58z,t1_ffd30bw,1579819574.0,Stop having kids so that you can be replaced by 500 million Nigerians.
+ConsumeProduct,ffdf18k,t1_ffdcui5,1579819508.0,It was just the prelude to an eternity in hell.
+news,ffctm1o,t1_ffcp4u1,1579807003.0,Don't accuse other people of cherry picking when you do the same thing and ignore countries like Sweden or Germany.
+europe,ffc6vwn,t1_ffby4gy,1579792921.0,Then it's even more stupid.
+europe,ffc6ryg,t1_ffbve39,1579792851.0,But Tesla is a shiny techy company fueled by unlimited VC money. The billionaires of this world have to park their money somewhere.
+ConsumeProduct,ffc5s2z,t1_ffbvlfq,1579792185.0,The problem is that the gains that are being made now are hard to perceive because of diminishing returns. Once you pass a certain treshhold you gain no practical functionality any more. 2000 to 2010 was a huge gain in functionality but 2010 to 2020 wasn't despite similar technological gains. With phones that point has been reached around 2016. The biggest difference now is that useable stuff is getting cheaper.
+ConsumeProduct,ffc57c4,t1_ffc2hwq,1579791799.0,Nah not really. A good 2005 car isn't bad. The biggest change in that timeframe have been assistance systems but those can be compensated by driving responsibly. In terms of airbags and so on 2005 was already good.
+ConsumeProduct,ffaxqo4,t1_ffailu9,1579746936.0,Even 8 is kinda valid because otherwise you just have to add work to your list of personal problems. Work is an obligation and not a choice.
+ConsumeProduct,ffaxfxw,t1_ffawswm,1579746738.0,Still the developers are hardly the cause here. They are as much a victim as everybody else. The left has made opposing anti-humanistic propaganda a taboo and businesses have to adapt. For America to function the fiction that everyone is the same has to be kept alive.
+SandersForPresident,ffawwci,t1_ffavuir,1579746377.0,"It's not his job to fight them. He is just a platform and by fighting them badly it would be a disservice anyway and he would be bound to fight them badly because you can't be an expert at everything. And yeah you should be able to come up with an argument as to why eugenics are bad instead of trying to silence people. If you can't you kinda have a problem.
+
+ Again the idea that you can hinder the spread of information became obsolete 500 years ago and it's downright idiotic in the age of the internet."
+ConsumeProduct,ffau4o5,t1_ffahiyx,1579744541.0,Because it doesn't cost anything and gives you brownie points.
+SandersForPresident,ffat84z,t1_ffarut4,1579743940.0,"Yes it would be okay and should be encouraged. If you can only fight their arguments by hiding them you have already lost because people will find them anyway. It's just like security through obscurity doesn't work. Censorship didn't stop a single thing since the invention of the printing press but it's like our guys haven't learned anything from those 500 years of history. It didn't work for Louis XVI., Metternich or the Romanovs. Martin Luther did spread his message despite being deplatformed by the Church. It does not work. All it does is to please your authoritarian streak."
+ConsumeProduct,ffajx01,t1_ffa0r78,1579737576.0,"The prevalence of those kind of people are symptoms of a sick society. The way our society is structured rewards those people. If you are an emotionally crippled narcissistic sociopath you get to have more money for yourself and money is the way we as a society express our valuation of an individual. There is no village community anymore where you are being rewarded through appreciation. Your only value is your monetary value and all the other people in your community are anonymous non-factors. 
+
+Not having children is the rational decision in our society. Every metric that measures social success gets negatively impacted by having children. 
+
+It's a sick system and those people are the victims of it and we shouldn't celebrate their failure at the hands of it. Even if you can weather the storm it isn't guaranteed that your kids won't be indoctrinated by some liberal douche in the education system that brings them to sell their souls for shiny trinkets."
+news,ffa88gf,t1_ffa3mh6,1579729796.0,The real problem of American politics isn't Trump but the treatment of candidates like Tulsi or Berni by the establishment and the drones in subs like r/politics .
+news,ffa7vwn,t1_ffa5cfm,1579729600.0,"Yeah obviously everyone who thinks that impeaching Trump over such piss poor charges with a Republican Senate is stupid has to be a Russian asset. /s
+
+You guys are so stupid. There are so many reasons why this impeachment is bad but you won't acknowledge them."
+fasting,ff5p7wy,t1_ff5dxav,1579604360.0,"You're absolutely gorgeous! But the most important thing is that you're doing it for your long term health. That ""investment"" right there is going to buy you 30 more years of being healthy instead of miserable and that's the most important thing."
+aviation,ff5ofse,t1_ff55l0s,1579603215.0,Si vis pacem para bellum
+europe,ff5nvu0,t1_ff5lbdy,1579602374.0,https://youtu.be/TvaqDNEppwQ
+europe,ff5ntlz,t1_ff5hzym,1579602279.0,The best example of that are the tramways in Vienna. When everybody else was tearing theirs down and replaced them with busses Vienna stuck to them and then they kinda became fashionable again.
+Austria,ff5iarx,t1_ff5h9xz,1579594152.0,Gibt immer noch iOS/Android bzw Konsolen. Läuft eh alles im Browser heute.
+news,ff2pqvt,t1_ff2al5s,1579518306.0,"The big difference between Germany and the US is that almost all German homeless life in shelters. You will rarely find unsheltered homeless whereas in California for example the majority is unsheltered. There are 48000 unsheltered homeless in Germany and 27000 in Los Angeles county so there is no comparable level of visible homelessness in Germany. 
+
+The other thing is that if those who are living in the streets are predominantly eastern European with no access to the social systems."
+ConsumeProduct,ff0pdos,t1_fezqmsf,1579471003.0,Idk about you but I know plenty of people here in Europe personally that raise whole families on the single income of one unskilled labourer as long as he has a job working shifts in a steel plant or something like that. I would consider any job that's unskilled basic. You can mock European socialism all you want but it is better for blue collar workers.
+ConsumeProduct,ff03ts6,t1_ff02yyi,1579464863.0,The good thing about luxuries is that you don't miss them if you were never exposed to them. All they do is to introduce a need where there was nothing before.
+ConsumeProduct,ff02tex,t1_fezxqcj,1579464567.0,Well thankfully times aren't desperate for me I just hate unnecessary waste. There's nothing wrong with not eating meat for every meal and cooking for yourself and you don't have to go full frugaljerk and can save a lot of money. With interest it really adds up over the years.
+ConsumeProduct,fezt0rg,t1_fez34x1,1579461274.0,Nah free food keeps the crime rate lower. Otherwise here would be marauding gangs of cultural enrichers roaming around.
+ConsumeProduct,fezskf9,t1_fezqe5u,1579461107.0,Peasants life's weren't that bad. modern medicine is probably the biggest difference along with food variety and security.
+ConsumeProduct,fezrp7l,t1_feyqsof,1579460790.0,6 € is a day or two worth of food for me.
+mildlyinfuriating,fezr1ye,t1_fez9562,1579460571.0,I sometimes even manage to piss on the floor while sitting down.
+shockwaveporn,fequmss,t1_fepsje0,1579346193.0,Not an explosives guy but you'd have to drill a thousand holes in the later case.
+thefighterandthekid,feoexfz,t1_feoc3h1,1579299136.0,That's just saying that he majority of his audience are men.
+books,fek44fu,t1_fejv7ul,1579192201.0,There are quite a few reasons given why he turns but it could be a bit more developed. The big one is the emperor seemingly abandoning them at every front and the there thing is that he would have died without a pact with Chaos. You're right that the actual turning point isn't shown iirc but it's not like it's out of the blue. When we leave his perspective it could go either way and which way he decides is only shown by him surviving.
+ConsumeProduct,fejckzn,t1_fejbmu7,1579167280.0,Because there are no other tattoos? There can't be meaningful tattoos in a life without meaning.
+ConsumeProduct,fejcicr,t1_fej6s6k,1579167167.0,It's the only socially acceptable form of identity that's left for a lot of people. For some it offers the illusion that they are more than capitalist drone #65389264
+ConsumeProduct,fejce6m,t1_fej8f3l,1579166990.0,Because the place was overcrowded and they were poor.
+ConsumeProduct,fejc9cj,t1_fej0r9m,1579166788.0,"People, especially men, need the feeling of being wanted and needed in their community. Today they are neither. The individual isn't worth anything and any illusion of community is gone. Any culture is also gone and all that's left is consumption. That's all what's left to define your identity and status. There is no horizon in a hamster wheel."
+IncelTears,fejbdf7,t1_fej0wvb,1579165450.0,It's just an easy label to attach to someone so you don't have to take them seriously.
+IncelTears,fejb95c,t1_feiknl6,1579165277.0,Yeah most people being too broke to start a family really is the pinnacle of civilization.
+IncelTears,fejb4fq,t1_feivk42,1579165085.0,Sorry but no sub 40 year old ever lived in a world where men had all the power.
+assholedesign,feg8guh,t1_feg8307,1579082049.0,Nothing because at that point they have become unusable.
+ConsumeProduct,fedfi22,t1_fedevbg,1579010110.0,Not every form of cooperation is communism and you don't have to be a doomer nut to realize that our current level of consumption is not sustainable. Unless you want to live like the Unabomber you can't ignore the global and even if you want to live that way the global won't ignore you.
+ConsumeProduct,fede7y7,t1_fedcf3b,1579009063.0,Nah labour is just too expensive today. Nobody is going to pay for ornamentation.
+europe,fe87bd1,t1_fe82akc,1578923386.0,The problem is that you are fundamentally wrong with your assessment of the situation in Greece and I honestly don't want to go into details. Greece had and has enormous systemic problems that they hid behind inflated government spending. Such systems are going to collapse sooner or later. But that information is freely available to anyone so when I tell you that what good is it going to do? You're going to ignore it anyways.
+europe,fe7m8tk,t1_fe7lds2,1578916366.0,What the fuck is it with right wing Americans and their obsession with the EU?
+europe,fe7jq69,t1_fe7en61,1578915535.0,Could you please limit your anti EU propaganda to British subreddits? Thank you.
+europe,fe7j3hu,t1_fe6wvr3,1578915246.0,"Look, I get liking Trump. I even get voting for Trump. But trusting him?"
+educationalgifs,fdx7fio,t1_fdwh4mj,1578766023.0,It's not about saving 10 seconds. It's about saving +200k€ per year on that one worker assuming they are running the factory in shifts.
+averageredditor,fdwnvfz,t1_fdtxpm9,1578760651.0,Idk about you but I tend to try to avoid diarrhea. But if you you like your asshole being violated you do you.
+ConsumeProduct,fdwky5e,t1_fdwfc5u,1578759800.0,Nah over a few years it's completely reasonable. It's important to unwind sometimes. The deciding thing is whether you let your consumption consume you or not. Being productive all the time is an unreasonable standard.
+worldnews,fdvgf1z,t1_fdvarr2,1578747149.0,Dude the US kills way more civilians with drone strikes. Just a few days ago 60 were hit in Afghanistan to get one Taliban. That's even worse than an accident. As long as the US continues it's war of terror in the middle East and randomly escalates tensions every now and then accidents are going to happen.
+worldnews,fdvd2by,t1_fdv2vos,1578746183.0,Yugoslavia shot down a F117 with even older equipment.
+worldnews,fdvcum1,t1_fdv2dfx,1578746088.0,I think you're right and the main error being at the interface between civilian air control and military would be very typical. It was also at 0600 local time so other factors like changing shifts could have played a role.
+worldnews,fdvb6pm,t1_fduw5c2,1578745530.0,Who knows what their technical capabilities are. Don forget that they have been sanctioned for ever now.
+worldnews,fdv9yxw,t1_fdv3tpp,1578745162.0,Iran is about the only semi competent country in the region. Accidents happen everywhere.
+worldnews,fdv9gs1,t1_fdv7a4b,1578744920.0,The main error was in the communication between civil air traffic control and military in that the delay didn't reach the guys at the triggers.
+europe,fdv749r,t1_fduosua,1578744043.0,Nope. Talking to you has exactly the opposite effect.
+technology,fdshb69,t1_fds8ema,1578702743.0,Of course nobody wants any of that and that also includes Google. So it's easier for everyone to play by the rules.
+IdiotsInCars,fdqhbiw,t1_fdqepk7,1578666668.0,Just flipping it on its side means that they wouldn't have to lift the full weight. Flipping smart cars is also a thing that some retards do apparently. https://youtu.be/atTsZQ7T1FI
+technology,fdqf0hh,t1_fdqc3d7,1578664970.0,Google has enough assets in the EU to seize. Plus the real power of the EU comes from being able to regulate access to one of the biggest consumer markets in the world.
+technology,fdqeub8,t1_fdqbawb,1578664838.0,Fun fact: if you go into a store you can just take stuff without paying if nobody is checking.
+Grimdank,fdq0o6y,t1_fdpphgc,1578649032.0,The trigger can be basically anywhere all you need is some levers or an electronic ignition.
+europe,fdotsgd,t1_fdotapl,1578612702.0,There hasn't been a symmetrical war since WWII that involved industrialized nations. The US kicking around 3rd world countries doesn't really count as war that's just some belated imperial ambitions.
+europe,fdorktt,t1_fdoqryw,1578611312.0,Not all by themselves you moron but by having fought the biggest wars in world history. There is no point to war anymore.
+europe,fdoq64e,t1_fdo9n0o,1578610375.0,Why would I trust any country that had troops in Iraq? They are all forever discredited.
+europe,fdoq12n,t1_fdomnkr,1578610289.0,Oh no we get to miss out on all those trillion dollar wars.
+europe,fdooym5,t1_fdong6j,1578609642.0,No? Even if it turns out that the US didn't lie for once why would I trust anyone that had troops in Iraq?
+europe,fdohe1f,t1_fdoew7o,1578605186.0,Teheran has nothing to do with what I believe right now. I'm just going to assume that it's an accident until someone trustworthy says something else or Teheran flat out says that they shot it down. If Germany says that the Iranians shot the plane down I'm going to believe them. That doesn't mean that I am suddenly on the US's side.
+AskReddit,fdoem0j,t1_fdoc2yf,1578603677.0,Same. They are simply the best when it comes to the history and mechanical workings of guns and frankly that's the only thing that interest me about guns.
+europe,fdo9ipm,t1_fdo924t,1578601222.0,No it's not? I just don't trust the US. You have to be a special kind of stupid to take anything that comes from Washington as fact.
+europe,fdo7b3a,t1_fdo6gc3,1578600139.0,I trust neither?
+europe,fdo22eu,t1_fdo13gm,1578597463.0,"It's simply a matter of trust. I don't fucking know what America could possibly gain from that I just know that I don't trust them when it comes to anything remotely war related. At this point I trust like Germany, Japan or France and that's about it. And yeah Orange Man bad but I wouldn't have trusted Obama or Bush either."
+europe,fdnzzzu,t1_fdnwrsn,1578596299.0,Well of course it is incompetence but that's what happens.
+europe,fdnzodb,t1_fdnxc34,1578596113.0,Same reason they lied about Iraq.
+europe,fdnzcdn,t1_fdnulah,1578595917.0,Still the US saying something is a reason to believe the opposite. There is a strong possibility that there was some fuckup in the Iranian air defense and I wouldn't travel to the area any time soon but there is zero reason to believe anything coming out of Washington when it comes to the middle East.
+unitedkingdom,fdmzcy6,t1_fdmribc,1578572309.0,I just have the feeling that a lot of people that feel that way you guys are feeling about it wouldn't be all that bothered by getting rid of monarchy altogether. I'm sure the move is much more controversial with people that are strong royalist and if there's one thing the queen and the rest of that parasitic clan depends on it's those people.
+WinStupidPrizes,fdlsnau,t1_fdlcqz3,1578531545.0,He was able to leave the hospital on January 3rd. And he was Austrian so bills aren't going to be a problem.
+WinStupidPrizes,fdlsd8x,t1_fdll9cg,1578531354.0,Nah he was able to leave the hospital after 2 days and apparently he injuries weren't that bad.
+WinStupidPrizes,fdls75f,t1_fdleg67,1578531237.0,He was able to leave the hospital after 2 days and apparently it wasn't that bad of an injury.
+WinStupidPrizes,fdls3kt,t1_fdlbk77,1578531170.0,Yeah those are two different videos.
+WinStupidPrizes,fdlrurw,t1_fdlnpuv,1578531003.0,They guys in the second part of the video are 100% Austrian. I'm not sure the two parts of the video are connected though.
+intel,fdhmtp9,t1_fdhakg2,1578425983.0,Minus all the massive security flaws.
+hardware,fdfgpka,t1_fdfctdi,1578361290.0,I had harddrives smaller than 256mb
+gadgets,fdfg2mr,t1_fdf39we,1578360867.0,I had hardrives smaller than that cache.

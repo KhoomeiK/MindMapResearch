@@ -1,0 +1,58 @@
+subreddit,self ID,parent ID,time,text
+0ad,ff94vlr,t3_es3nut,1579704896.0,"Not sure what the answer to your question if, but the forums are very active if you’re looking for the hardcore fan base to chat with"
+bulletjournal,fcxya5j,t1_fcxknni,1578072117.0,Oh the binding quality is an interesting point. Thanks for the response!
+bulletjournal,fcwjs8u,t3_ejaga7,1578027538.0,"That’s super sad, and there’s no shame in starting a new one. If you feel bad leaving so many unused pages, consider using the stained one as a place to sketch out new spread ideas :)"
+NotionSo,fcwjhhl,t3_ej6uty,1578027298.0,"The tasks, notes, etc are all pages in the related databases. 
+
+If you just create two databases in notion and relate them to each other, it’s pretty obvious how it works. Unless you’re confused about how to relate databases ?"
+NotionSo,fcwj9rv,t3_ej76st,1578027125.0,"Closest thing in notion would be to filter for that month and tag and use the bottom calculation row with a sum. 
+
+As others have said, Notion definitely isn’t the best solution for this."
+bulletjournal,fcwj008,t3_ej8hfu,1578026913.0,"I don’t do this, but I know some people do their long term spreads in the back of the journal so as to avoid the kind of anxiety you’re facing since you can modify and add to it as needed. 
+
+Might be worth trying while you get on with regular daily/weekly/monthly spreads."
+bulletjournal,fcw6j6o,t1_fcw6ek1,1578018292.0,"Awesome, those are great features -- thanks for the reply!"
+bulletjournal,fcvzgfe,t1_fcvd4g9,1578013626.0,"As someone who gave up on a Leuchtturm halfway during 2020 setup (grabbed a thicker gsm instead), I’m curious. What is there to love so much that isn’t available in higher gsm notebooks? I’m curious if I’m missing something since I didn’t give it much of a chance. 
+
+The only thing I can think of is the color selection? And I guess maybe the thickness vs page count, but that’s an obvious compromise for thicker paper. 
+
+It’s actually working out nice to have a scrap journal to mock up spreads on since the grid is identical to its replacement. :)"
+todoist,fck4vif,t1_fck3n9i,1577716661.0,"Yeah, that's unfortunately how it works as far as I know with trying to filter for complex dates. 
+
+The best-looking way I can think of would be
+
+```
+@label1 & !(due after: today | no due date)
+```
+
+If you don't mind dateless items appearing, you could drop the ""no due date"" part to clean up further."
+NotionSo,fcjv8e2,t1_fcjo6sv,1577706389.0,"You’re welcome! Feel free to shoot me a message if you need more help with it
+
+One way to get around the number thing that I just thought of would be to make a spreadsheet in excel using it to auto number and then pasting or importing into Notion."
+todoist,fcizpj0,t3_ehbqz5,1577673693.0,"This is ugly but I think it will get the job done: `!due after: today & @label1 & !no due date, !due after: today & @label2 & !no due date`"
+NotionSo,fci2u8o,t3_ehb8o2,1577657081.0,"Everything you want is possible except for the most tedious part: automatically incrementing numbers. You'd have to assign numbers manually.
+
+This is because Notion handles rows in a database without any sense of sequence/order.
+
+Here is a test page: [https://www.notion.so/Test-Book-Catalog-Forumla-3ca17dd3561d44559dfb21bd649080d2](https://www.notion.so/Test-Book-Catalog-Forumla-3ca17dd3561d44559dfb21bd649080d2)"
+bulletjournal,fcawuxo,t1_fcawmd9,1577578196.0,"Oh sorry I’m dumb or blind or something haha. 
+
+I do most of my stuff quarterly, but I also have a board game list for the whole year. I see others doing things that align with their hobbies, whether books or movies or travel."
+bulletjournal,fcap9kh,t3_egx1gr,1577573838.0,I have a mood tracker that spans the whole year
+NotionSo,fcam7td,t1_fcalm3h,1577572016.0,You’d have to do something weird with a separate table and rollups I think. You can add simple things like sum and average at the bottom of each column (hover just below the bottom cell)
+NotionSo,fcad6t7,t1_fc9wr1v,1577567165.0,Awesome!
+NotionSo,fc9rcyc,t1_fc9qfrf,1577557059.0,Weird. It's working fine for me here: [https://www.notion.so/e34dd422b7824709a979aea36114effe?v=29463e318d3d4b1bb5dc7af967767fbc](https://www.notion.so/e34dd422b7824709a979aea36114effe?v=29463e318d3d4b1bb5dc7af967767fbc)
+NotionSo,fc9qbl5,t1_fc9pvn3,1577556588.0,Still error?
+NotionSo,fc9prxz,t1_fc9pca0,1577556353.0,Hmm. You probably have an extra space at the end of the line
+NotionSo,fc9o56z,t1_fc9nr6w,1577555622.0,"Oh I would put both props in together if you’re trying to round the result. In your case try:
+
+`round(prop(“Balance”)/prop(“Credit Limit”)*100)/100`"
+NotionSo,fc9ktde,t3_egibl5,1577554143.0,"If I understand correctly, you can do `round ( x * 100 ) / 100`"
+bulletjournal,fc9k0f1,t3_egtbqe,1577553802.0,"I love the idea of having a word for the year, but I know I wouldn’t be able to last a whole year with it so I’m doing quarterly words. :) 
+
+Mildly obscured under the mildliners are the various things that I’m measuring throughout the quarter. I’ll be filling in the bars (hopefully) as the quarter progresses. 
+
+I’ll also be filling in the bar under the header as time passes to serve as a reference at a glance for how much progress all the other bars should have. 
+
+I’m not sure yet what to do with the empty space on the bottom-right of the left page — maybe more trees or a landscape? Or maybe some notes or moments? Or I might leave it blank... hmm"
+bulletjournal,fc6yfq0,t1_fc6wnzc,1577492732.0,"Two page spreads are very much a thing BUT it’s easy to work around misalignments. And I would 100% sacrifice perfect full spreads to have those beautiful journals, especially if my SO made them"

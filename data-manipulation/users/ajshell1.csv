@@ -1,0 +1,55 @@
+subreddit,self ID,parent ID,time,text
+touhou,ffvrjdx,t1_ffsr0aw,1580271237.0,"...I just realized that the author of that doujin is also the author of a safe-for-work and wholesome and funny doujin I'm typesetting.
+
+What the actual fuck?"
+touhou,ffvq584,t1_fftn152,1580270182.0,"...dude. The title on Pixiv is literally ""Red Oni and Ibuki Suika"""
+touhou,ffv969x,t3_ev94ne,1580258649.0,Pics like this make me wish ZUN drew his characters a little older.
+archlinux,ffu4mt3,t1_fftqykv,1580234392.0,"Dumb question: I'm currently using the normal zfs package (not zfs-dkms) because on Antergos the DKMS package recompiled the ZFS/SPL packages every time I upgraded any packages.
+
+Now I'm on Arch. Is there a way to make sure that the DKMS recompilation only occurs with a kernel upgrade?"
+DataHoarder,fftde4u,t1_ffsqsci,1580217224.0,"VueScan is worth it. It's the only part of my book-scanning process that isn't open-source (since it runs natively on Linux, and my motto is ""scan properly the first time"").
+
+I use it with my Epson V550. I have the option of going up to 6400 DPI, but I typically don't go above 1600 DPI since I'm able to count the CMYK dots at that resolution.
+
+And VueScan also works with the feeder scanner on my old HP Officejet 8600 (connected via the network, VueScan is much nicer than the LCD touchscreen interface), which I use to scan debound text-only books. This one only goes up to 300 DPI in JPG format, but this is enough for Tesseract to get me some good results after a bit of touching up.
+
+Fortunately, I found a single ImageMagick command to fix images in bulk:
+
+for f in *.jpg; do convert ""$f"" -grayscale average -level 33%,66% -trim -deskew 40% ${f%.jpg}.png; done
+
+[Before](https://cdn.discordapp.com/attachments/451083363173007361/670394457589284888/0003.jpg)
+
+[After](https://cdn.discordapp.com/attachments/451083363173007361/670394495044550676/0003.png)
+
+Now, I just need to figure out how to make a proper epub out of a bunch of tesseract'ed TXT files."
+touhou,fftacut,t1_fft6d99,1580214288.0,Screw your precious canon! Touhou's continued existence is dependent on derivative works!
+touhou,ffta7ps,t1_ffsn8tx,1580214138.0,"Looking at the original, Patchy asks her to say ""shiteru ai"" in Katakana (which has no specific meaning).
+
+Marisa responds with ""Ai shiteru"" written with Kanji and hiragana (which definitely means ""I love you"").
+
+Which rendition is more  accurate is up for the viewer to decide."
+pcgaming,ffs2ivu,t1_ffrkfy2,1580171541.0,"City of Heroes...
+
+Darkspore...
+
+Tabula Rasa...
+
+Star Wars Galaxies...
+
+Battleforge...
+
+THIS is why I NEVER buy games that are dependent on a central server to work."
+Ubuntu,ffrk4wz,t3_eus9t4,1580159674.0,"Using the [Kansas City Standard](https://en.wikipedia.org/wiki/Kansas_City_standard#Floppy_ROM) which was intended for compact cassette tapes (a common home data storage format for microcomputers back in the day, especially where floppies were too expensive), the magazine ""Interface Age"" released some software on FlexiDisc vinyl.
+
+At a rate of 300 to 2400 bits per second, or 300 bytes per second...
+
+Ubuntu 18.04 is 1.8 GB IIRC
+
+Well, it would need A LOT of records to store it all. The exact number is left as an exercise for the reader.
+
+And the playback time would be REAL TIME. As in, a vinyl disc containing 22 minutes of ""Data"" stored as audio would require 22 minutes to play back.
+
+Yeah. Super impractical."
+Ubuntu,ffrjuvt,t1_ffrca8e,1580159506.0,"That's assuming Red Book-format audio.
+
+If you were actually intending to store data on a vinyl, you'd need MUCH more redundancy and probably a smaller bitrate. [Like this](https://en.wikipedia.org/wiki/Kansas_City_standard#Floppy_ROM)."

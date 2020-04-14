@@ -1,0 +1,87 @@
+subreddit,self ID,parent ID,time,text
+raisedbynarcissists,fglgkuw,t1_fglfybn,1580896676.0,*unexpected twist intensifies*
+JustBootThings,fglb4j6,t1_fgjltjg,1580888985.0,The food scene was disgusting lol
+depression,fgla2op,t3_ez2blh,1580887666.0,"People tend to project a lot, some can't even do anything but project their way of living on others.  
+Not to mention that they only see a tiny bit of you as a person, your achievements etc.   
+It could be that you and I disagree in the next post about something deep, or maybe something petty. Maybe even both.  
+But you should invest a lot of time in to your self, to make yourself the one you should listen to. To just shrug off what other people tell you, if it's complete BS or want to push another ""well meant"" but unwanted and rather pushy ""advice"" down your throat.   
+Try and look at is as if it were about your finances or your hobbies.  
+Would you do what other people tell you to do, with *your* money, or *your* hobby, without actually providing a meaningful solution (like paying or providing the actual thing they tell yo to do/buy?).  I usually shut that down real quick with a ""Okay, you get it for me then"". You'll get confused or angry looks, but they'll shut up. It's not in their place to tell you what to do.  
+Now, if you were dependent on your parents or guardians, it's a tad different, but still, it's your hobby and money.  
+I've been struggling a lot with what other people tell or imply to me, but that way of handling stuff helped a lot.  
+I don't care that much at all anymore. I did almost everything the way I wanted it before, but now I just shrug it off instead of ruminating all day long about it.  
+It also made me realise how dumb most people are. Who the fuck are other people to tell you how to do your thing, without you even asking for it? Suggesting is okay, depening on the person, but I've had random technicians from my landlord in my home telling me that I should sell my car because it costs me too much.   
+I could have bought a way better car.  
+He didn't even know exactly what model it was, why I had it, how I got it, and why I kept going on with the thing since I got it. No, I should throw it away and just buy another one and play a huge gamble.  
+Sadly, he's not the first one from that company doing that kind of unwanted and forced up upon opinions. Actually all four of them did tell me something which they did not have anything to do with, not were in the place to tell me how to live my life.  
+I was flabbergasted how someone in that position thinks it's okay to tell me that.  But then again, those persons are working with that company with a reason.  I laugh a tad about it, get a tad annoyed because triggers, but that's about it. I used to ramble for ages without stopping.   
+Putting things in perspective really helped me a lot."
+homelab,fgl47e3,t3_eyy5g7,1580881478.0,What's the link to the bug report? I'd like to see how the devs respond to this issue.
+ApexOutlands,fgl2ztb,t3_eyupkd,1580880410.0,"Is this the equivalent of PC's ""finalizing.."" after the download completed?"
+subaru,fgl2tir,t1_fgkzfk8,1580880259.0,"And there will be no bolts for those sections, everything is welded together and protected by factory rebar enclosures."
+JustBootThings,fgl2q8l,t1_fgkn5ce,1580880179.0,"> People who yell at people ~~in the service industry~~ can fuck right off.   
+
+
+=]"
+interestingasfuck,fgkyllw,t1_fgkvbwb,1580876813.0,What the fuck hahaha
+Proxmox,fgks2pw,t1_fgkpmhr,1580872352.0,Yea it's basically dynamic ram
+interestingasfuck,fgkp8i1,t1_fgk9ue2,1580870604.0,Slugs nom nom nom
+Proxmox,fgkp18l,t3_ez244v,1580870484.0,"Windows is probably doing a lot of caching in the background.   
+Install the balloon driver, and enable ballooning in the proxmox web ui.  
+If your host system starts to need more RAM, the. The ballooned guest will return as much as it can."
+subaru,fgkou7b,t1_fgkl1la,1580870369.0,Soon catalytic converters aren't the main target anymore
+Justrolledintotheshop,fgkog5a,t1_fgkkcdx,1580870132.0,"I'm really hesitant to use anything with sticky tape in something like vehicles, there's just so much that's compromising the tape's ability to stick.  
+Heat, cold, moisture, vibrations and the occasional knock from something or someone. Doesn't matter if it's inside or outside the vehicle.   
+I like to either zip tie things locked in place, or drill it in to place if clips aren't possible.   
+Also, those reusable cable ties/guides with screw holes are awesome. They usually come with double sided tape on the bottom, which is great for initially sticking it into place until it gets screwed on."
+homelab,fgko1vu,t1_fgkmttk,1580869891.0,"ZFS is amazing. I'm running a 4*4 mirrored stripe on my NAS, and mirrors on everything else what's supposed to be 24/7 online."
+Justrolledintotheshop,fgkh4vn,t1_fg30a2z,1580865443.0,Das ist natürlich etwas das ein VAG Spezialisten Sagen würde. Ich bevorzuge trotzdem den Ölmessstab!
+homelab,fgkftpj,t1_fgkdpaj,1580864566.0,Yea i was joking haha
+homelab,fgkfrr5,t1_fgkfnrk,1580864529.0,It's the worst
+Justrolledintotheshop,fgkf6h2,t1_fg8ahld,1580864130.0,You just described my cars front right suspension haha
+Justrolledintotheshop,fgkez50,t1_fg8szzx,1580863995.0,"I've set up a nice environment for a friend with a laptop running proxmox, on top of that pfsense, pi hole, librenms monitoring, a SMTP relay, nginx for SSL, and nextcloud behind that. For Wi-Fi he's got a OpenWRT router, all connected to a VLAN capable switch. Everything is in different subnets, he's got a LAN, a server network, a network for directly internet reachable hosts, and a guest network.  
+I can dial in over a site to site VPN whenever I have to.   
+Everything is just nice. How I'd do it if I were to redo my own network.   
+Now to my network.   
+It's very similar in terms of layout and functionality, everything is firewalled just about right, but god damn those expired certs trigger HSTS continuously. I'm completely ignoring my perfectly set up DNS because I'm too lazy to replace the expired certs, so I'll just connect to the web UI over the IP address. Backups work, but storage is filling up constantly.  The UPS has been running with failed batteries since August, and only yesterday I've bought new ones and replaced the leaky failed ones.  My virtualized router is on a laptop that doesn't support wake on lan, wake on ac or wake on time of day.   So if both the UPS and laptop run out of battery runtime, it won't come up on it's own.   
+A lot of band-aids everywhere haha.   
+
+But it runs everything I want it to. It's just a tad inconvenient to go around hoops, which is the reason why I didn't fix it yet haha.   
+My systems do score high on security tests though, mozillas observatory and the third party tests are all 100% or above. Security is necessary. Convenience isn't."
+Justrolledintotheshop,fgke3o4,t1_fg8knut,1580863422.0,"I thought well I don't that shit so I'll get some good double sided tape and just fill up the back of the LED lights I've been putting on a metal surface ceiling.  
+Nothing would stick to it.  
+But god damn, I had to pry it off, bending the metal part of the LED.  And it wasn't enough to just use one screwdriver, no, I had to use two in order to get enough torque applied.  
+And even then it was a bitch to take off. I regret using so much on other stuff as well, since I'll have to take it all off when the next person moves in.   
+So I found my weather proof tape lol.    
+It's a tad expensive, but it's gooood."
+interestingasfuck,fgkdk5u,t3_eyxlfq,1580863070.0,Interesting how it also could upscale the sound to be completely different
+homelab,fgkd7z0,t1_fgk3edf,1580862845.0,The good ol' reliable
+homelab,fgkd7cb,t1_fgk9jd1,1580862833.0,"Why not, more usable storage = more better"
+ThatLookedExpensive,fgkbtel,t1_fgk5cy2,1580861922.0,"Maybe lose 1k or lose well beyond 10k, easy choice"
+Rolyat,fgka8gs,t1_fgk4hyp,1580860883.0,Yea at least the left one has a piercing
+facepalm,fgk1yf7,t1_fgjmbb2,1580855818.0,###OH BOI
+linux4noobs,fginlbw,t1_fgijpin,1580826601.0,"> Windows is just full of s***  
+
+It's that one. Non-boot disks are quick, and do next to nothing just like a disk that's running as a non-boot disk with Linux.  
+Windows constantly does something in the background.  
+The ""System"" process is at minmum 0,1MB/s busy, I see ""Registry"" now doing  0,1MB/s as well, then ""Antimalware Service Executable"" with something between 0 and 5Mbyte/s constantly near the top, and ""Local Security Authority Process"" is also doing constantly a minimum of 0,1 Mbyte/s.    
+A lot of ""Service Host"" subprocesses are doing a lot of things in what it seems like minute intervals, those are also quasing a lot of writes.   
+TL;DR the cheap af TL-100 SSD is constantly at 5% and above busy, reading at least 131 KB/s and writing at least 54 KB/s but over 150 ""normally""with tops at 700 KB/s.   This is on a system that is mostly idle. Of course, there's stuff running in the background, and I've got a few tabs open in Firefox right now.  
+Now I don't notice any of that, but that's because my Windows install is located on a SSD.  
+If you'd hand me two identical laptops to work with, both state of the art but with 5400RPM platters as boot disks, only difference would be Windows or Linux, then I'd choose the Linux one.  
+
+
+If you check something like IOtop on Linux, on a mostly idle system doing similar stuff like my windows machine does now, you'd see that the disks are not reading or writing anything for the most part of the time.  
+Of course, logs have to be written, programs need to fetch stuff from the cache etc.  
+But the continous reading and writing that a idle Windows OS does, that (usually) doesn't happen with a Linux system under similar conditions.    
+
+
+Oh and if the storage driver would be shit, you'd notice it by Windows being very sluggish with anything related to storage.  Explorer would open slow, browsing through folders would be slow, openening programs etc would be waaay slower than ""normal"".   
+It wouldn't write or read more than with good storage drivers, but it would kind of ""limp"" doing so. Since it would still have to read or write the same data, but it takes way longer to do so."
+pihole,fgik3ex,t3_eylman,1580823959.0,"Set the DHCP DNS provides DNS server to your pi Hole's IP address, there is no need for static IP adresses on client devices.   
+If you'd like to use your pi hole away from campus, you can do that by using a VPN. However, due the nature of how a VPN works, I'd suggest you'd try out AdAway first. It doesn't drain the battery as much as a VPN, and tends to be quicker if you don't run millions of hosts.   
+But you would need root permissions for that, so it kind of depends if you're willing to go that route."
+Justrolledintotheshop,fgii2wt,t3_eykctc,1580822293.0,"Why did you use an abbreviation for your friend?  
+Even though there are just two people in this post, it still makes it way harder to read.  
+Just write the full words"
+linux4noobs,fgidbkp,t1_fghu2pg,1580817681.0,It's unbelievable how many VMs can run on the same disks when you switch from Windows to Linux

@@ -1,0 +1,62 @@
+subreddit,self ID,parent ID,time,text
+selfhosted,ff3hboa,t1_ff2rlg0,1579541033.0,"You're not wrong. There's really no proper self-hosted-only solution though if you want good new artist recommendations. It requires knowing what other people are listening to. Sure you can get loose recommendations based on genre tags etc but you'll never be able to touch the quality of discovery streaming services provide.     
+    
+I imagine it's possible to create some type of open source decentralized alternative and I would gladly use it if it existed!"
+selfhosted,ff1vxkj,t3_er4kqz,1579487391.0,"You can scrobble to last.fm with airsonic/dsub to get recommendations based on what you're listening to.
+      
+If you want to you want to go further you can take inspiration from [this post](https://www.reddit.com/r/selfhosted/comments/9ya0or/selfhosted_music_playerspotify/ea0m2bk/)"
+jellyfin,fdxlrxy,t1_fdwnub0,1578770307.0,It does not. Keycloak can use ldap as a user source for OIDC or SAML but cannot serve ldap itself.
+jellyfin,fdxjoj5,t3_en9cjg,1578769407.0,"No, currently the only supported identity provider is LDAP.     
+       
+You can upvote my feature request here!    
+https://features.jellyfin.org/posts/230/support-for-oidc"
+selfhosted,fdu2nx5,t1_fdrxgpq,1578726443.0,"Yes, its about control. Using a vps or a dedicated server from a cloud provider maintains data ownership and is not vendor locked. Lots of people here use hosting providers."
+TikTokCringe,fdjbn27,t1_fdj1soj,1578464396.0,If you google the lizzo 84kg the number is coming from a bunch of shitty ass celeb wikis that clearly all copy each other to scam ad money. It's not like she's putting this out there and manually updating her pages...
+IdiotsInCars,fd7if7l,t1_fd7bkhr,1578205035.0,"No it's not... It's diesel fuel or fuel for short.     
+      
+Gas is short for gasoline. There is no such thing as diesel gasoline..."
+homelab,fczgxdk,t1_fczdh85,1578101006.0,"its fixed now. FWIW there are zero perc branded hba cards available for the dell r720/xd. Specifically there is only one hba on the compatibility list for the r720/xd and its the LSI 9207-8i.     
+      
+Also my perc h310 that works is flashed to LSI IT firmware.     
+      
+Edit: Undoubtedly one will get better compatibility by sticking to compatibility lists but in a lab environment that is a luxury."
+homelab,fcz62w0,t1_fcz1w4b,1578094413.0,I don't see a boot option for the drive attached to the HBA. I would assume it would show up under something like Raid Card 1: Disk 2 or something similar if the bios was recognizing the EFI partition. Known good drive boots fine elsewhere.
+selfhosted,fcyg4zu,t1_fcyflvn,1578079616.0,I had mine set as dash.example.com. So any of my users could use it. No bookmark sharing necessary etc. Also helped with service discovery as people could see all the available services. If you don't have any users aside from yourself the value of a static dashboard webpage does drop.
+selfhosted,fcyftsq,t1_fcy6civ,1578079507.0,"Last time I looked you could do multi-user but not third party auth. Though inconvenient that was enough for me as I had Heimdall behind an authenticating reverse proxy anyway.     
+     
+The default no-login heimdall had all my services available as it was protected by my reverse proxy. If you then logged into heimdall with the admin account you'd see all the backend services too. Worked well enough for me. So you can't easily set up a per-user dashboard, but you can segregate admin services easy enough if need be."
+halo,fcrnmlm,t1_fcr9aqb,1577904176.0,"Band of Brothers is the single best piece of WWII media ever created.     
+     
+After you've finished that there's The Pacific, the almost as good counterpart set in the WWII pacific.     
+      
+And then after you've finished that there's Generation Kill for the Iraq war which fittingly is a bit more cynical than the above two."
+nonononoyes,fcpgtyj,t1_fcpgl12,1577863413.0,How do you even rig rock paper scissors lol? I guess you could throw rock every time...
+witcher,fcp6ti7,t1_fcotvjz,1577852386.0,You're right as I learned today! I was under the impression that if you save the spirit before encountering the crones you can save both. It's partially true as the dialogue doesn't say the crones took the orphans. But unfortunately they don't show up in novigrad.
+lotrmemes,fcls3qh,t1_fclqcie,1577755111.0,"There's not much that you won't get in the extended versions. If you are a big fan of the movies you should watch the extended versions. I watched them like 10 years after watching the movies a ton of times and it was beyond awesome just to have more lotr footage.     
+      
+It definitely messes with the pacing though so unless you're already a big fan who wants to get lost in middle earth I think the theatrical is a better fit."
+witcher,fcl9upw,t1_fcl74kw,1577742949.0,This. I disliked velen during my first playthrough and was just itching to get to the next location and get out of the dingy swamp with the dumb peasants. But by the time I was finished with skellege I was sure that it was my favorite part and that the culmination of the crookbag bog and baron plot-line was one my favorite moments in any game. And I didn't get the good ending there.
+AskReddit,fcl77p1,t1_fcju3hy,1577741302.0,Specifically weed.
+AskReddit,fcjmmwo,t1_fcjlt33,1577694072.0,Back in the day I was always worried about getting busted over some carpet nug
+jellyfin,fcc0yz0,t3_egzybt,1577593183.0,"This is currently possible if you deploy on k8s   
+     
+https://www.careyscloud.ie/intel_gpu_plugin"
+todayilearned,fc37aim,t1_fc2a170,1577383179.0,You're right. Additionally kids these days do not have torrent to the degree I did back in the early 2000s. Streaming services have come a long way and their parents all have netflix etc. Most people I knew growing up didn't have netflix and if you wanted a movie it was $20 at Best Buy. Nowadays most people legitimately do get enough content from their streaming services. But ultimately it's another step away from consumers actually owning things and another step towards companies controlling everything that graces our eyeballs.
+todayilearned,fc36p29,t1_fc2eiaw,1577382767.0,"I mean that in most use cases it's morally wrong and not justifiable but, when you cross into archival territory it's a grey area.     
+      
+Another grey area imo, is people in countries with bad currency pirating games that haven't been price adjusted for their region. In some places a AAA game that hasn't been adjusted costs a month's salary."
+todayilearned,fc270dz,t1_fc25by6,1577343318.0,"DRM is generally useless and every show gets ripped from streaming services the moment it airs. There's no real threat to losing any recently created television and movies as long as you're willing to sail the high seas. Music is at a much higher risk of loss than movies/tv. Many albums cannot be bought in stores or listened to on spotify. The real risk is in media that has not been digitized yet, e.g. specific releases of albums or obscure artirsts. So many have already been lost. Imo archival purposes is one of the few areas where piracy is morally gray. When OiNK was shut down artists like Trent Reznor recognized that it was a death blow to one of the greatest catalogues of music ever compiled. When what.cd was shut down it was the same. Like the burning of the library of alexandria. Feelsbadman"
+bigboye,fc26i97,t3_efotqt,1577342627.0,Looks like an effective missile platform.
+selfhosted,fc1ro56,t1_fbxnfxl,1577327574.0,"For a single node there's not really any major features that differentiate the options. Proxmox's main advantage in this space is being FOSS and simple to set up.     
+      
+Once you move to multiple nodes, proxmox overtakes esxi free as esxi free does not support clustering. To get close to feature parity with proxmox you will need to spend $4000 on licensing for vsphere enterprise plus or, $200 a year in perpetuity for vmug (which can't be used in production).  
+       
+Unless you have a career that puts you in contact with vmware environments there are not many compelling reasons to implement it in a home server. Even then I would be more inclined to use the vmug licenses in a nested lab environment within a proxmox or ovirt cluster.     
+       
+Edit: To be clear I think VMware is the best hypervisor on the market, I just don't think it makes sense for use in a self-hosted/homelab environment."
+selfhosted,fbyjnke,t3_ef1cu6,1577218586.0,This is pretty cool. Tuning in to tv broadcasting has a different feel than selecting a movie from a library. This definitely captures some of that!
+homelab,fbyj61f,t1_fby8whe,1577218226.0,"It's just a minimum for that specific topology. HA cluster minimum is 3 app nodes + 3 control nodes. Optionally you can run etcd separately from the control nodes as well, which means 3+3+3.    
+       
+See https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/ha-topology/#external-etcd-topology"
+homelab,fby6fma,t1_fbxwex5,1577209229.0,What a coincidence! 9 is the minimum number of nodes for a k8s HA  cluster with external etcd. Wow! Looks like you've got work to do...
+homelab,fbfrhf1,t1_fbfrdb6,1576818552.0,Wrong account fam

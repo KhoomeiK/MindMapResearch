@@ -1,0 +1,151 @@
+subreddit,self ID,parent ID,time,text
+AppleCard,ffdjvrb,t3_et0ybw,1579822429.0,yep
+mac,ffcvsrr,t1_ffco5j4,1579808302.0,"I don't think Apple wrote this ad copy. I think ""first tech computer"" did."
+ProgrammerHumor,ffcrh60,t1_ffbs4j4,1579805744.0,No
+ProgrammerHumor,ffbme8c,t3_espbfn,1579772550.0,Not… programming related
+redditdev,ffbbh06,t3_esonqf,1579758524.0,"Do something different based on the type of the thing:
+
+    from praw.models import Comment, Submission
+    
+    savedcontent = reddit.user.me().saved(limit=None)
+    
+    for item in savedcontent:
+        if isinstance(item, Comment):
+            savedpostsdict[""saved content""].append(item.body_md)
+        elif isinstance(item, Submission):
+            savedpostsdict[""saved content""].append(item.url)"
+netflix,ff8kpuc,t1_ff8k0vk,1579683155.0,Two countries known for being half american!
+netflix,ff8jp93,t1_feqvr3h,1579681672.0,Don't know where you got that idea. None of them have American accents and they drive on the left side of the road.
+videos,ff7nu3l,t1_ff7n34i,1579654018.0,"> now if the entire world stopped right this instant and foreskin became the norm then i would be all fore it.
+
+Replace ""world"" with ""country"" because the Great USA is the only nation that regularly circumcises its baby boys for non-medical and non-religious reasons. Circumcision is not the norm anywhere else."
+redditdev,ff7lnye,t3_es10zj,1579652511.0,"Turns out the issue is that you have to refresh the comment first. After defining `com`, add another line that is just `com.refresh()`. Then the rest of the function will work.
+
+This is per [documentation of `replies`](https://praw.readthedocs.io/en/latest/code_overview/models/comment.html#praw.models.Comment.replies)."
+redditdev,ff7dqtm,t3_es10zj,1579647200.0,Try removing the first `if`.
+redditdev,ff6momb,t1_ff5whhi,1579630470.0,"This works on Linux as well, and I don't see why it wouldn't work on Windows, as you still have a home directory.
+
+If you don't know what your home directory is, you could try opening git bash and doing `cd ~ && pwd`."
+redditdev,ff522tw,t3_erjd00,1579578126.0,A good place to put a `praw.ini` file to make sure it gets recognized is at `~/.config/praw.ini`. That's inside a subdirectory of your home folder. You could try moving it there.
+ProgrammerHumor,ff2jjdv,t1_ff2ht8d,1579509002.0,Yeah for real
+mashups,ff28o5v,t1_f1m2c18,1579497044.0,"[Apple Music](https://music.apple.com/us/album/sweet-dreams-seven-nation-army-mashup-feat-sarah-dugas/1480737921?i=1480737923)
+
+[Spotify](https://open.spotify.com/album/7mc9ieq9hxzLZRd74jOaRf)"
+redditdev,ff0f6mp,t1_fezt1uc,1579468274.0,"It's /u/PonyToast, mod of /r/num."
+facepalm,feyvx3z,t1_fexfsri,1579451089.0,❄️
+facepalm,feyvvyj,t1_fexoyyh,1579451074.0,❄️
+facepalm,feyvmvy,t1_feyj4r3,1579451022.0,"Be upfront: ""Hi, I wrote Men in Black. I could answer some questions about it if you'd like."" This is pretty much just an introduction, which is how you meet people."
+facepalm,fex0xh5,t1_fewpeak,1579422534.0,"Yeah, I agree. A (perceived) random stranger can't just interrupt my conversation and expect me to listen to them."
+redditdev,fewqyxp,t1_fewleog,1579418178.0,No.
+programming,fewlp8m,t3_eqifgj,1579413842.0,This is super cool. Thanks for posting!
+redditdev,fewl281,t1_fewkxqg,1579413202.0,"I don't understand why you ask for help and then delete the post once your issue is solved. Wouldn't it help others to leave the post up, in case they have the same issue?"
+redditdev,fewksk4,t1_fewkpru,1579412939.0,">     reddit = praw.Reddit(client_id='wWlIJLo-_UiqZA', client_secret='[redacted]', user_agent='Toast_app_stuff')
+
+You need to provide `username=""PonyToast""` and `password=""hunter2""` as well."
+redditdev,fewkpob,t1_fewkng8,1579412864.0,"Yes, they are. That's what the `Forbidden` exception means."
+redditdev,fewkmld,t1_fewj9jg,1579412783.0,"Your password, username, client secret, and/or client ID is wrong."
+redditdev,fewkksk,t1_fewj3m6,1579412737.0,Your attitude needs adjusting and you're unlikely to get help until that happens.
+AppleCard,fewkjsn,t1_few2tti,1579412711.0,"I paid with the physical card when picking up my iPhone after a battery replacement, since the phone had been factory-reset."
+learnpython,fewicqf,t1_fewh1dv,1579411127.0,"For very simple programs, like this one, I think argparse is overkill. But good to point it out to OP for future endeavors."
+redditdev,fewi2vv,t3_eqs6ic,1579410965.0,Try /r/requestabot
+explainlikeimfive,fevtddv,t1_feu17le,1579401240.0,"Yeah that's a stupid statement. You ""could"" always die when running and it wouldn't necessarily have anything to do with this."
+AppleCard,feugaml,t1_feuf4eq,1579386251.0,"I figure they'll realize their mistake and want to take it back at some point. Otherwise it's somehow free money. I'd rather they take it back now than later once they realize their mistake. Until they've taken it back, it's a liability."
+AppleCard,fetv4dx,t1_fetudml,1579380348.0,It was a special promotion during the month of December.
+AppleCard,fetk94w,t3_eqhdlp,1579376282.0,Same thing happened for me: I made a purchase from the Apple Store in December and got 6%. Refunded it in January and got 3% daily cash taken away. I contacted support about it but haven't heard anything since they filed a dispute.
+videos,femdh7h,t1_fem9f92,1579249882.0,Obama?
+redditdev,fel9yh6,t3_eprm50,1579217290.0,"Can you post the full traceback? Also, please format your code for Reddit by putting four spaces at the start of every line."
+facepalm,fejc4q8,t3_epcyj4,1579166593.0,"Can you spell ""joke""?"
+youtubehaiku,fejava5,t1_feiy0oi,1579164716.0,"…if you think that's accidental, boy do I have a bridge to sell you"
+youtubehaiku,fei911d,t1_feh973k,1579132984.0,"I think she's just short-circuiting her syllables. The way she pronounces ""told you"" blends together two words and ends up sounding like ""toljew."" So I think she initially skipped several syllables by mistake because she was nervous and thinking ahead: ""What did you think when Sentator Sand[ers told] you…""."
+videos,fehy6ms,t1_fego194,1579126235.0,yes
+mealtimevideos,fehkugr,t1_feh7sh7,1579118591.0,it was just a clip from this video — that clip made its rounds a few days ago.
+mac,fehfr0f,t1_fehdon2,1579115616.0,"I'm starting a petition. Please sign!
+
+[https://www.change.org/p/apple-fix-your-file-icons-or-we-will-switch-to-windows](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+ProgrammerHumor,feg9397,t1_fefzg2j,1579082947.0,This here is proof that if statements are really just syntactic sugar.
+learnpython,fe0lc7r,t3_enkmei,1578815478.0,Can you please post the full traceback of the error?
+learnpython,fe0lahc,t3_enkn0g,1578815450.0,"It's unclear what you're asking. You should post the code along with any errors you get when you try to run it, and describe exactly what you expect it to do."
+redditdev,fdye51d,t3_enddtr,1578778753.0,/r/sandboxtest
+redditdev,fduowig,t1_fdg1l8o,1578736507.0,"The redesign uses a different auth scheme than old Reddit, which is the OAuth API. So it plays nice with PRAW (or other API clients), but you usually have to discover the endpoints by watching a browser network request."
+redditdev,fdunpam,t1_fdu7321,1578735912.0,Code injection isn't at issue here.
+redditdev,fdunasr,t1_fdu18up,1578735708.0,"PRAW will fetch the comment body and comment body_html for you. To parse and work with the HTML, consider [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)."
+redditdev,fdun6d9,t3_en3hm9,1578735645.0,"Ultimately you have to parse the comment. Reddit's comments are in Markdown, and I'm sure there are Python libraries that can parse it. Once you have a parsed representation of a comment, it should be easy to tell whether any particular section is within a code block or not."
+redditdev,fdumzqp,t3_em55fr,1578735550.0,"For what it's worth, karma from downvotes has a floor at -100, so you get downvoted past that level, your karma will not go down further."
+redditdev,fduk4wq,t3_emiza7,1578734173.0,"There's an [open issue](https://github.com/praw-dev/praw/issues/1079) in the PRAW repo for this.
+
+I've considered trying to add chat support myself but as I don't personally use the chat feature, I'm not very motivated to pursue adding PRAW support for it."
+AppleCard,fds9159,t3_emx5ia,1578697156.0,"You have to give up your address as well as (some/all of) your SSN to apply. At that point, there's really nothing else your DL divulges aside from maybe hair/eye/weight/height. I don't understand the premise."
+mealtimevideos,fdrbkfm,t1_fdr5j70,1578682092.0,"And also in his return they had him not be front and center for once, which showed that he was becoming just a normal part of the office.
+
+That's it. That's the entire video."
+ProgrammerHumor,fdmpy2n,t3_em5ef3,1578560013.0,"Not ""programmer humor."" Maybe ""computer user humor""?"
+firefox,fdhg0vl,t1_fdgmskr,1578421862.0,"> Still, I have to wonder how Mozilla decided to have (at least one) version that included TouchBar features but no way to edit them.
+
+It seems like there used to be an `about:config` flag that was removed. Perhaps you had that option available to you."
+learnpython,fdff06e,t3_el3gd5,1578360150.0,"Python uses the call-by-value convention, so if you pass an argument into a function you are passing the value, *but* values for everything but primitive objects happen to be references, hence the value **is** a reference in the case of objects.
+
+For example, this code will print ""3"":
+
+    class Number:
+        def __init__(self, x):
+            self.value = x
+    
+    num = Number(2)
+    
+    def modify(number):
+        number.value += 1
+    
+    modify(num)  # mutates num
+    
+    print(num.value)  # prints 3"
+firefox,fdf9iax,t1_fdf4gtz,1578356449.0,What version of Firefox? It worked for me.
+firefox,fdcvqx9,t3_ejc0fj,1578285705.0,"See [this answer](https://support.mozilla.org/en-US/questions/1270310#answer-1257743). Use the hamburger menu in the upper right, and click [""Customize…""](https://i.imgur.com/DJYvN9q.png). Then click [""Customize Touch Bar…""](https://i.imgur.com/9KNaRXC.png) in the lower right."
+NoStupidQuestions,fdakiii,t3_ekf836,1578247052.0,"Reddit is not really left-leaning. If you go to the right (ha) subs, there are leftists, but there are also plenty of right-wing and non-leftist subs. 
+
+Remember how Reddit reacted to the Gillette commercial that basically just amounted to ""don't be an asshole""?"
+mac,fdah51d,t1_fd9j45j,1578246078.0,"They fixed the keyboard on the 16"" MBP but this person has the 15""…"
+AppleCard,fdae9cf,t1_fd7q5c7,1578245134.0,"Once you've chosen to eat at Olive Garden, all complaints about tackiness and the dining experience are your fault."
+ProgrammerHumor,fd8c3bf,t1_fd4tbrg,1578216638.0,"Ooh, this is fun! I'm assuming this is because of how a twos complement integer works: to get the negative version of a value, you invert the bits and then add one. So, this inverts the bits and then inverts the bits again and adds one!"
+OutOfTheLoop,fd5zdjd,t1_fd286h7,1578183424.0,"Worth noting that `.ml` domains are free to register, which makes it cheap to set up sites like this."
+AppleCard,fcypzm1,t3_ejkz9i,1578084716.0,What state do you live in?
+learnpython,fcycntu,t1_fcycely,1578078098.0,"Yep! That case would be a violation of condition #2, symmetry."
+learnpython,fcyaedu,t3_ejh6uw,1578077095.0,"For those of you interested in math, this means that equality of dicts and OrderedDicts fails to be an [equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation). An equivalence relation is a handy comparison such that:
+
+1. `a == a` for any `a`.
+2. `a == b` if and only if `b == a` for any `a`, `b` (where ""if and only if"" means that `a == b` and `b == a` will either both be `True` or both be `False`).
+3. If `a == b` and `b == c`, then `a == c`.
+
+These qualities are nice because it gels with how we think about equality: it should be reflexive (#1), symmetric (#2), and transitive (#3).
+
+This behavior of dicts and OrderedDicts fails the third condition. Even though `AO == A` and `A == BO`, `AO != BO`."
+learnpython,fcy9j0e,t3_ejjitq,1578076672.0,I use yagmail too and I think it's fine for personal automation.
+AppleCard,fcwrwt5,t1_fcwox3n,1578035158.0,I got 6% on an Apple Store gift card I mistakenly bought during December.
+AppleCard,fcwruf0,t3_eiz0np,1578035084.0,"I got the opposite answer via Apple's chat on their website (not with Goldman Sachs). I ordered a MBP in December but was worried the charge wouldn't post until January (expected pickup Jan 2). They promised I'd get 6% regardless of when it posted, since I ordered in December.
+
+It ended up posting during December anyway, so I didn't get to test if their answer was correct.
+
+I have screenshots if anyone is interested, but I'm not posting them now because it feels like too much effort."
+nwordcountbot,fctl8qe,t1_fctl0a7,1577947422.0,didn't think I had but it's good to get the confirmation
+nwordcountbot,fctkzz9,t3_czvc41,1577947133.0,/u/nwordcountbot /u/throwaway_the_fourth
+learnpython,fctf4dg,t3_eitg1s,1577941259.0,Please [format your code for reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F) or use a site like [Gist](https://gist.github.com). Your code is hard to read and test otherwise.
+AppleCard,fcssaet,t1_fcsarie,1577923841.0,OP chose to pay. They didn't have to pay early.
+learnpython,fcohfo9,t1_fcode12,1577832304.0,"Actually, this works in a number of Python REPLs ([read-eval-print loops](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)), including the default that you get by typing `python3` on the command line, and in IPython."
+ProgrammerHumor,fcme88s,t3_ehuqrc,1577772073.0,Database?
+StarWars,fclslqd,t1_fb9gi7m,1577755457.0,"I read that as Leia calling out to Ben to stop him, creating some sort of Force connection, before Rey stabs Ren, killing both him and his mother due to the connection."
+AppleCard,fcgtbrt,t1_fcdwlg5,1577643819.0,"> After getting approved for CLI has your payments been processing and giving you available credit immediately?
+
+That was my experience. It used to take time for my available limit to increase, but after my CLI it is immediate."
+AppleCard,fcgt6rr,t1_fcdw80w,1577643777.0,"> Seth with a visable erection
+
+what?"
+AppleCard,fc9i98e,t3_egrbak,1577553067.0,"I suspect you didn't actually complete and submit the application, because you should get a response immediately."
+AppleCard,fc6j74t,t3_egh0rl,1577481856.0,"The purchase history and categorization is nice. There are benefits too, but they aren't as good as some other cards (or so I've heard)."
+AppleCard,fc6j3dz,t3_egg7qx,1577481785.0,"> they hijacked my money
+
+Um, credit is not money. GS not restoring your credit limit immediately is not ""hijacking your money."""
+AppleCard,fc6iyhq,t3_egg7qx,1577481692.0,"This is a really long rant that amounts to being upset about available balance not immediately reflecting new payment. 
+
+This only happens to some people based on how much GS trusts your payment. For me, it used to take several days for a payment to be reflected in my available balance, but after my credit limit increase I started to see my balance increase happen instantly when I pay."
+programming,fbygmsl,t3_ef18gq,1577216400.0,"> Unfortunately I didn’t get take off and landing - I only ended up getting data while I was
+
+While you were what?"

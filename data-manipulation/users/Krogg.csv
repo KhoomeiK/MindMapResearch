@@ -1,0 +1,147 @@
+subreddit,self ID,parent ID,time,text
+CombatFootage,fff1b68,t3_et0jr1,1579872956.0,"You can run, but you'll only die tired."
+LifeProTips,ffe0jsj,t3_et2txr,1579833571.0,"2 things I was always taught:
+
+1. Wrap your toe in a piece of bacon. It absorbs the puss.
+
+2. Cut a small ""V"" into the middle of the toenail instead of straight across. It causes the nail to grow the middle to bring it even, helping with the ingrown part of the toenail."
+mtgfinance,ffbnkfy,t1_ffahg0n,1579774353.0,"> clear 7k cash
+
+You must not be very good at selling things. You realize TCG Player sells thousands of cards each day. If you have a card that is in high demand, you're going to sell a lot of them. Sell it for 2% lower and you could move inventory much faster than a few months. Plus, ABU doesn't sell just MTG singles, or just MTG.
+
+Then again, the other options you stated are also other options myself and others have stated here in this thread, so my words that OP may or may not want to do this, still stands.
+
+Either way, it seems you wouldn't want to do something like this, so more power to you. Do, or don't, it doesn't matter much to me. I was suggesting a creative ""outside the box"" method that people don't tend to think about with these kinds of things."
+mtgfinance,ffabf2o,t1_ff9yprf,1579731609.0,"[Their buylist says trade for this sealed box is $11,000](https://abugames.com/buylist/packs?search=Collectors%27%20Edition%20International%20Box%20Set&language_magic_sealed_product=%5B%22English%22%5D).
+
+I've buylisted to them many times, their prices don't change from when you place the order."
+PoliticalHumor,ff7fq4j,t3_erlhcx,1579648503.0,"Daycare. Finally I get to see a topic I've wanted to be on the platform with healthcare and tuition.
+
+Daycare is crazy, and it's of no fault to the daycare providers. They have to pay a living wage, while keeping costs down enough to make it worth a parent going to work, while also keeping within government guidelines of adult vs. kids ratio.
+
+""I don't want to have to pay for your kids."" Is the common response, countered with ""you pay for my kids' public education."""
+Boise,ff66niq,t1_ff5l38v,1579620405.0,.. but.. you just responded.. ?
+mtgfinance,ff66cke,t3_erpjxm,1579620207.0,"The top post gives good advice about what to do. A quick sale? [Card Kingdom](https://www.cardkingdom.com/purchasing/mtg_sealed?filter%5Bsort%5D=price_desc&search=mtg_advanced&filter%5Bcategory_id%5D=2460&filter%5Bprod_type%5D=) was the best I could find. This will require shipping and a really good insurance if you aren't around them, but is the best price from a retailer I've seen."
+mtgfinance,ff65pi9,t1_ff60i1l,1579619760.0,"I look at this like the CS:GO key industry. You sell a high value item for a lot of keys, to easily sell the keys by the hundreds.
+
+Buy a high demand card in a large quantity using the trade credit, sell those cards (the rep issue would be taken care of after about 5 sales) for slightly below market value to move them faster, and get closer to that $11k.
+
+Or go to Card Kingdom since they are buying this for $9k."
+mtgfinance,ff5xo0u,t1_ff58msh,1579613639.0,"I responded to another post on accident, but ABU games is offering over $11k trade. If OP isn't in a hurry, maybe trade for lower value, but easily sellable cards/items, and sell those for close to the $11k?"
+mtgfinance,ff5wnpy,t1_ff59fhh,1579612742.0,"I'm not sure OP has the time or want to do this, but ABU games is offering over $11k for trade. Trade for a lot of lower value, but easily sellable cards and walk with $11k?"
+cscareerquestions,ff5wex0,t1_ff5k9l6,1579612510.0,"Just bring a copy with you to the interview. Always do that, buy in this case you can show the interviewer that their version is not correct."
+PoliticalHumor,ff4ce3n,t3_erdbqn,1579560314.0,"I had an argument with a couple of in-law family members over the weekend. After giving many, many pictures of this guy all they had to say was:
+
+""Lies. As a computer guy you should know that pictures can be altered/photoshopped.""
+
+You just can't get anything through to these people."
+learnjavascript,ff3yxox,t3_eritdb,1579551900.0,"[Here's](https://support.shorthand.com/en/articles/8-scrollmation-section) where they are getting the image changing as the scroll happens. 
+
+The image displaying when scrolling, making it look like the text is hovering over it, is called parallax (or I am going to assume based on the css and js code)."
+pussypassdenied,ff3vp80,t1_ff3scof,1579549878.0,"In my state the only way the state goes after a parent for child support is if there is a court order. Birth certificate doesn't matter. Granted, if the ""father"" doesn't contest the judge ordering paternity without a test, then the order will go off of birth certificate. The state also does not go after a parent for benefits given like Food stamps, etc.
+
+Either way, the state doesn't go for child support unless the other party requests it.
+
+Source: I just got done with a really bad custody battle, and have been dealing with this situation for almost 12 years."
+Jokes,fehzs5n,t1_fegg902,1579127196.0,[I.. can't.. keep.. up.](https://youtu.be/hmUVo0xVAqE?t=30)
+Jokes,fehzla5,t3_ep0sxp,1579127082.0,My daughters love it when I say tongue twisters and have been asking me for another. I forgot about this one. Thanks!
+learnprogramming,fehmy8g,t3_ep3x10,1579119809.0,"1. I don't feel comfortable stating the name of the company, but we work in the delivery software industry.
+
+2. We use a combination of SQL server and SQLite. SQL server for the central DB and SQLite for local handheld (mobile phones and tablets) DB.
+
+3. Our databases store the data needed for delivery operations. For a very limited scope of use: if a company delivers beer to a set of convenience stores, they use our software on the desktop to create delivery routes. A delivery route might have a truck, a customer, the day that customer gets delivered to, etc. A truck will go out in the morning with the report of what is on their truck and what customers in what order. They make a stop at each customer and deliver the goods. They might even create a ""presale"" while there. Which then gets sent to the desktop where the warehouse will pick that order for the next time that truck goes to that location. The software also links into accounting software such as quickbooks, so there is a lot going on there, too. This is a ***very*** small chunk of what the software does, but it should give you a good idea. One of our customers has 193 tables in one SQL server DB. That same DB has a table with the most rows at 1,129,437 rows. Second largest table is 1,118,592. It's a large DB and that's only one of our clients.
+
+4. The benefits are pretty obvious based on what I just described. My wife works for a logistics company. She works on a team of 4 that handle a specific client (""SunBucks"" coffee) and she is the only one who manages a specific set of data through their spreadsheet system. They use Excel to manage all of the records and the first 30 minutes of her day is just letting that report run. With SQL it would likely take 30 seconds. The company doesn't want to move to a DB, so don't ask me why they don't use it. I can't think of downsides unless you are talking about relational vs. object databases. Even then, there really aren't disadvantages to any database type, just the different use cases I suppose."
+personalfinance,fefz2yn,t3_eou9tp,1579070147.0,"I'm about to turn 35 and just finished my associate of applied science. I started working for a company for the largest salary I've ever had. I have 4 kids and a wife.
+
+You are much further than I am. I know it's all worth it, so I hope this helps you feel the same.
+
+Keep it up. You're doing awesome! You will get to where you measure success."
+PoliticalHumor,fe4pthv,t3_enpu67,1578861688.0,"""Get on the plane, get on the plane. FUCK YOU!! I'm getting *in* the plane! Seems a little less windy in here.""
+
+I used to listen to that tape on repeat. I still have quite a bit of it memorized."
+personalfinance,fdxszk0,t1_fdxsck9,1578772574.0,"I'm thinking it's more like he paid it to be done with it (something he would do), or it was with the same bank. Either way, I agree."
+personalfinance,fdxs1t2,t1_fdxq729,1578772337.0,"This was my thought, too. Of course they could if the debt received a judgment, but other items would be in that judgment.
+
+He swears they just up and took the money without his consent and the second account wasn't shared or with the same bank. Granted he's the type that would have just paid it anyway, but this was brought up because we are going to open a joint account to pay them back on a loan.
+
+They say they don't want any bank account linked to this account in any way, not even for transfers, because of this situation."
+personalfinance,fdxr8qd,t1_fdxpk18,1578772135.0,This is in the U.S. sorry.
+HadToHurt,fdxqd76,t3_en81lm,1578771778.0,"She curb stomped herself, jeez!"
+facepalm,fdqn0ge,t3_empilw,1578670514.0,"This sort of happened to a friend of mine. It was explained that some women don't gain much weight and due to their internals, things just kind of move around instead of causing a lump. She was in labor when they went into the E.R. for horrible stomach cramps/pain.
+
+The kid is healthy, but was slightly premature."
+news,fdp2csx,t1_fdoijgh,1578618345.0,That same Twitter has an image of the nose of a missile linking to an article showing that missile next to another and it seems they are the same.
+facepalm,fdnzvzo,t1_fdnws2v,1578596236.0,"Usually, but maybe that's also why Twitter OP said ""be aware of other drivers."" Maybe there was more to it and Twitter OP said something like ""look at the car on the other side, it's too far over and for me to park I had to do this. You had so much room on the other side, be aware of other drivers."""
+facepalm,fdnzgog,t3_em95u3,1578595986.0,"I'm curious how it should be handled if I had to park slightly to the side because asshat next to me parked over the line and I still need room to open the door and get my kids' carseat out (takes more room than normal).
+
+If the original asshat leaves before a car on the opposite side shows up, am I asshat #2?"
+RaidShadowLegends,fdntwvw,t3_e9ij64,1578592753.0,"[Here's my champ list](https://imgur.com/a/5ajU8tx). I could use some help on who to move around. I am at the point where I have a few options after doing a main team of #1-5 on CB and #s 1, 3, 4, and 5 on everything else. I'm SIII in Arena, but don't focus on that much more than just the daily or missions, I would like to do better there. I get to about stage 12-13 on most dungeons, 9 on Spider.
+
+1. One main question I have is replacing Madame Serris with Mausoleum Mage. Serris is awesome in Arena where she takes everything away from the team right after they buffed first round, then makes them vulnerable to my AOEs from Dark Athel and Pitiless One. I haven't used Mausoleum Mage because I haven't maxed him out to compare to Serris, so I'm wondering if I should focus on him to do so.
+
+2. Another question is whether I have a good composition. I don't really have a tank, so should I add one? If so, who do I pull (I'm thinking dark Athel)?
+
+3. With having Serris *and* Mage, do I put both in and focus more on utility than quick damage?
+
+Do you see any other spots where I can trade out? Here's the mentality I've had with my team so far:
+
+* Raglin is a great healer/revive. I have her maxed, so I can revive every other turn. The heal is awesome, but takes a little bit to cool down. She hits for almost as much as any of my other attackers.
+
+* Pitiless One is a great AOE, plus main attack hits hard if equipped right, but after the AOE he's slow.
+
+* Dark Athel is a great AOE with two AOE hits, but after her juice has run out, she's usually the first to go.
+
+* Serris is explained above. I have her go second so the other team can buff their guys before she takes them away. No point in her taking them away just before they buff, so her speed requirement is replaced with accuracy.
+
+* Relic Keeper I have fused 2 times, and continue to do so for a replacement to using tomes. He has a good kit with the extra turn and increased damage, but he needs to be the last one in the turn to really do something for me and that isn't exactly where I want to be."
+learnprogramming,fdgy5se,t1_fdgx6lx,1578411201.0,This sounds like a great starting path. Thanks!
+learnprogramming,fdgy4v0,t1_fdgwett,1578411183.0,"> I’ve found the actual structures are universal.
+
+I was under the impression of the same thing. Good to know I am on the right track!
+
+Thanks for the recommendation."
+worldnews,fd3teux,t1_fd3bgr8,1578161472.0,"Anyone's worth is what they are willing to give. Think about an hourly job. If you thought your time was worth $30/hr and a company came along and offered you $10/hr, you would likely not take it (barring any situations of poverty, homelessness, etc.). If that same company came to you and offered you $40 you would likely take it.
+
+It's all in how you value yourself and what the job entails."
+worldnews,fd3scnr,t1_fd3neab,1578161272.0,I think you are pretty out of touch with politics right now.
+worldnews,fd3s1qp,t1_fd3mo9k,1578161187.0,"He's donated more than $15billion. The thing Bill Gates is a genius for, is how that money is spent on the charity.
+
+If you have $100 and give it to someone to spend, you donated $100 and they spent $100.
+
+If you put $100 in a bank account for the same person and said they can withdraw it at certain intervals, you donated $100 and they spent (over the lifetime of that money) 3-4 times that.
+
+The amount of money he donates into a charity, like this, allows that charity to operate on interest alone. This is the same with his own money."
+cscareerquestions,fct28dh,t1_fcswijg,1577930977.0,How long did you work for these guys before interviewing with Big N?
+cscareerquestions,fct1wvs,t1_fcsozab,1577930741.0,"This. Was just hired on from Contractor to Employee at a small 12 person company. I went from $32k/yr to $50k/yr in a low cost of living area. Not nearly what I would have liked, compared to other companies in the area, but better than unemployment while I look for another option."
+videos,fcpajeb,t1_fcpa38k,1577856218.0,I feel like we live in two different decades.
+Games,fcn5juj,t1_fcn1i3c,1577803842.0,"Absolutely, it's where the points don't matter. The gold is real cash, so thanks for that."
+technology,fcmvg8k,t3_ehsfgt,1577794135.0,"I like how HBO has realized this and has decided HBO Max is going to be the new DirecTV/Dish/Cable company.
+
+They want to bundle all streaming services under their umbrella.. just like a damn cable company."
+Games,fclus53,t3_ehsav0,1577756971.0,ITT: a lot of gamers who have girlfriends who beat something before they could touch it.
+Games,fclunre,t1_fcl9y03,1577756886.0,"> my girl
+
+> she beat it in an hour before I even touched it
+
+Literally all I heard. You could have just Snoopied the rest of that.
+
+**EDIT** okay, this is the strangest comment feedback in my 9 or 10 years on Reddit.
+
+Negative and gold. Y'all must be confused on how you feel."
+Boise,fckvhda,t1_fcktb9m,1577734074.0,"For ""hiking"" I would say that's the best you can offer from in town. If it needs to be more ""rugged"" then going outside town is the only way.
+
+If they don't mind a ""walk"" then the greenbelt and just around the North end should do the trick."
+Boise,fckn67y,t1_fck532q,1577728949.0,"Boise High is the only one I can think of that has a red logo, but I think it's a ""B"". Unless we venture out to Nampa, because Nampa High is the bulldogs (like Fresno and Georgia) and their logo is red."
+Boise,fckmyov,t1_fck4w1g,1577728821.0,Have you been exposed to the [Ridge to rivers](https://www.ridgetorivers.org/) trails? Is this what you are looking for?
+learnjavascript,fcjaqdp,t3_ehftva,1577681551.0,"Most ""hackish"" way to do this is to make an option visible when it's not chosen and not visible when it is.
+
+Shift the visibility around when something is chosen so that the 3 visible don't include the 1 chosen.
+
+I hope that makes sense?"
+PoliticalHumor,fc5i1c2,t1_fc4hk2o,1577458163.0,"> Trump does not get removed from office.
+
+This is the shitty part. The Republicans hold the Senate. The impeachment process goes to the Senate. The Republicans overwhelmingly voted along party lines in the House, which means the Senate will too. Unfortunately, holding the majority in the Senate means nothing, that the Republicans **cough** *the White House* **cough** don't want, will get through."
+hiking,fbrd8wx,t1_fbr408u,1577041759.0,"I want to point out that this is why forest fires, naturally started, are a good thing. They burn away the dead, opening the seeds for new forest's.
+
+Naturally created is a key term there. You fuckers who start fires and just leave can go to that special place in hell Descartes never wrote about."

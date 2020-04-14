@@ -1,0 +1,47 @@
+subreddit,self ID,parent ID,time,text
+homebridge,fff2qyn,t1_ffeu5to,1579874122.0,"Put a watch on that Github repo, I guess. Perhaps search for other branches too."
+homebridge,ffe6d56,t3_et3sgs,1579837891.0,"I've had this challenge for Home Assistant recently. LG are transitioning to a new API and the main branch of the wideq library doesn't implement it yet.
+
+This fork does
+
+
+https://github.com/gladhorn/wideq/tree/api2_merged
+
+But the HA plugin doesn't use it yet, and I'm guessing neither does your Homebridge plugin. If you sit tight, it will likely get resolved."
+Hue,ffe53zi,t1_ffd5wob,1579836934.0,"We just moved from a house that was all rocker switches to one that has toggles everywhere. Previously I was using shallow covers to cover the switches and mounting the Hue dimmers nearby. Worked well, and honestly we hardly touched the dimmers anyway, because the house shape lent itself well to using Hue motion sensors for places that only really require temporary lighting. Places like halls and bathrooms. More routine/permanent lighting I automated based on time and location using Home Assistant.
+
+In the new place I've been putting in these Aurora dimmers and they are *fantastic*. They feel much less like ""tech"" stuff and much more like conventional dimmers. Absolutely love them. Apart from bathrooms the shape of this place doesn't lend itself well using motion as a trigger for transient lighting but I'm honestly not feeling like I've lost much."
+ecobee,fdwy1nk,t1_fdwtb5g,1578763381.0,"These are backend issues and they apply to everyone. Any time you see a break in the history charts, that's a failure. You may not know or care about them, especially if you're a HomeKit user, bu they are there."
+ecobee,fdwad5x,t1_fdw9z4v,1578756707.0,"Thanks. And thanks for the reasonable discussion, rather than reflexive downvote and denial this community has become rather adept at."
+ecobee,fdw90u6,t1_fdw6hgb,1578756308.0,"The same things that get posted about all the time here, the constant portal outages and Smart Recovery. That and a unit failing after a year, though Ecobee replaced it quick to their credit.
+
+Oh, and see the picture I posted in the OP. Only just realized it didn't post, making my title nonsensical."
+ecobee,fdw8p4y,t1_fdw7g0r,1578756223.0,"Excellent question and the simple reason is that I'm a Home Assistant user. I don't use HomeKit so HA's integration is via cloud, with all the same breaks and losses as the native app. All I want is a simple, reliable WiFi thermostat works entirely locally, including statistics. I'm not averse to it having Cloud Integration but core features, and that includes stats, should not rely on it."
+ecobee,fdw2xst,t1_fdw1ees,1578754518.0,"That's great. If you're happy with it no complaints from me. I'm not trying to tell anyone what they should or shouldn't use or enjoy. 
+
+As I said, I loved it at first and was a huge evangelist for them among friends and family and an active Vibee member. However, the online component has gone to pot (I only have to go back to yesterday to see the usual breaks in the graph) and features like Smart Recovery were genuinely bad, no matter the training period."
+ecobee,fdw27v8,t1_fdw0hbc,1578754239.0,"Nice presumption there. I actually switched from Nest to Ecobee and have no intention of going back. Not f finished research yet but will probably just go with a basic Wifi Honeywell. None of the ""smart"" stuff is really worthwhile."
+wholesomememes,fdg0dj1,t1_fdg093l,1578375492.0,I got swarmed by 12 golden retriever puppies once. That was a nice day.
+wholesomememes,fdg05yn,t1_fdfmqoe,1578375295.0,"""What happened to my testicles, Summer?"""
+MacOS,fdfzka9,t1_fdfsgh0,1578374743.0,"Seems like you're looking for affirmation of using Windows for DevOps, Java and Python developement, OP. 
+
+When you say ""someone who has used both systems equally"" I'm a) presuming you really mean an unbiased source and b) I'm a bit confused as to which two systems you mean, as your OP mentions WSL for Windows, which is pretty much just a Linux VM at this point, and ""MacOS Terminal"" which is basically only related to Linux to by it's UNIX heritage.
+
+The whole reason WSL and WSL2 came into existence is because Microsoft saw themselves losing ground to Linux and Mac developers doing basically any development that was non-Windows specific.  This was a smart, pragmatic decision as by this point workflows and a raft of tools came about which were simply not available for Windows, or Windows was an afterthought. However, the resultant solution still has limited compatibility and, as I noted earlier, even WSL2 has pretty terrible I/O performance and overall performance well short of native Linux.
+
+Meanwhile, over on the Mac something like Macports or Homebrew gives you access to a very Linux-like package manager with a huge collection of *NIX software. It's not emulated and it's not running under a hypervisor.  It's the same software available on Linux, but compiled for Mac and it fits like a glove in MacOS' UNIX environment.
+
+Once again though, if you want to use Linux software in many ways it's just the path of least resistance to use Linux. Good luck, whatever you end up using. I wish you well on your journey.
+
+Edit: Just to provide some context on performance numbers. WSL2 is improved in some areas over WSL1 and has regressed on others. These numbers are quite old and have probably changed a bit but emulation/virtualization < native pretty much every time. Of course performance may not be your primary concern, and you may have other reasons to use Windows and WSL in which case, have at it.
+
+https://www.phoronix.com/scan.php?page=article&item=windows-10-wsl2&num=2"
+MacOS,fdftab9,t1_fdfsj5p,1578369654.0,"The company I work for has products that run on Linux. Maybe it'd run under WSL but the I/O performance for WSL is known to be comedically bad. I either run it on VMWare (or Docker when it only requires Web UI or command line) on Mac, since that's what I mainly use, or natively on hardware running Linux.
+
+Same for my home server. Linux is the path of least resistance and most well worn ground for the stuff I run."
+MacOS,fdfp2w4,t3_el58c6,1578366823.0,"Who considers it that? MacOS terminal isn't Linux at all. It's some BSD userspace tools atop a Mach kernel. You can certainly install a lot of the GNU utilities that make it feel more Linux-y, but it's still not Linux in any way, shape or form. WSL (moreso WSL2 as WSL1 was really everything that makes a Linux distro userspace atop a whole bunch of shims to the Windows kernel) actually *is* Linux. 
+
+That said, if I wanted to use Linux (And I often do) I'd just, you know, use Linux."
+IdiotsInCars,fdcv0a5,t1_fdcunr3,1578285090.0,*brakes
+wholesomememes,fcsux2p,t1_fcsa881,1577925735.0,In my day we called them image macros and we liked it
+insanepeoplefacebook,fc1p5er,t1_fc1l3wy,1577325301.0,"You probably had the SIFM vaccination. Protects against Stupid, Ignorant, Facebook Morons. Also known by it's generic name, Education."

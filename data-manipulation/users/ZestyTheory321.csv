@@ -1,0 +1,67 @@
+subreddit,self ID,parent ID,time,text
+China,ffhl9mg,t3_etj7hc,1579940580.0,"You have total freedom of speech
+
+We can honestly share our thoughts on Winnie the Pooh
+
+I think he is a fucking retarded bastard of a bitch with a pathetic primary school degree"
+raspberry_pi,ffgrcg5,t1_fff3lni,1579913092.0,Yahoos that steal from place like that probably never recognize nor operate Pi
+TooAfraidToAsk,ffgq6g4,t1_ffflw14,1579912247.0,"To be fair they haven't fucked over Taiwan for a while cuz we have a great president.
+
+Their last try failed miserably with our president won the election at a historically-high vote count. She is the best, getting so much improvement on Taiwan-US relation"
+China,ffe32q5,t1_ffcc165,1579835421.0,"Oh...I was only 10 when SARS stroke my country and you definitely won't want to take this like a flu.
+
+There is no effect cure nor vaccines against this new virus. Literally the worst thing you can get from China other than stupid shit on Ali Express"
+China,ffe2iki,t1_ffdd1vi,1579835005.0,"What's up for Chinese referencing their country as the word ""continent"" itself"
+raspberry_pi,ffd47an,t3_eq95oh,1579813090.0,"Hey, this is a great post and I'd like to reference it for setting up my cluster with similar structure.
+
+But there is some code I couldn't understand. Would you kindly explain this part?
+
+    apiVersion: v1
+    kind: Service
+    metadata:
+      name: pi-temp-headless
+      namespace: pi-temp
+    spec:
+      clusterIP: None
+      selector:
+        app: pi-temp-agent
+    ---
+    apiVersion: v1
+    kind: Service
+    metadata:
+      name: pi-temp-public
+      namespace: pi-temp
+    spec:
+      selector:
+        app: pi-temp-agent
+      ports:
+        - protocol: TCP
+          port: 80
+          targetPort: 5000
+      type: LoadBalancer
+
+I am not sure what exactly happens here. As the result, it seems the service `pi-temp-public` forwards requests to `pi-temp-headless`, but I cannot find the documents of having service-to-service request forward setup like this. The closest thing I got is this: [Connect a Front End to a Back End Using a Service](https://kubernetes.io/docs/tasks/access-application-cluster/connecting-frontend-backend/), which has another layer of pods acting as transparent proxies.
+
+The `LoadBalancer` is set to select pods labeled `app: pi-temp-agent`, how is it possible for it to select on the headless service rather than one of the pods with exact same label?"
+China,ffcjs1f,t3_esvqe3,1579800956.0,"To be fair, president Xi only has a middle school degree.
+
+More hard-working is his best, don't ask him to work harder"
+news,ffcjicb,t1_ffcd2vy,1579800793.0,You got the point of production
+China,ffcilnz,t1_ffbycaj,1579800245.0,"Seems pretty over-reacted
+
+Take the estimation from British model and that's only 4000 cases. Locking down is more like CPC party trick for getting officials out of trouble"
+China,ffchk4v,t3_esu1rj,1579799609.0,"TBH, everyone that is contacting Chinese personnel coming back from China should have taken the same level of precaution as she is.
+
+The first outbreak was reported last week but the incubation period is identified to be around 2 weeks. Most people who left the city are still in the time frame where no symptom show up even they are infected. Those who left before the lock down are now all over eastern Asia, multiple countries including Taiwan and Japan, patients are identified being infected by the virus. Now Seattle has one, it is the matter of time for other place to go off...
+
+FYI...There are Chinese people leaving the country heading straight to the US for their children.  Good luck in the Tri-State area near Flushing"
+Comcast,ffa1t01,t3_ese2md,1579726172.0,"Election gimmick
+
+Come back to me after 100/100 broad band is utility"
+news,ff9p0z0,t1_ff80yjg,1579717682.0,"If I were the crown prince, I would have posted a link for signing up free lifetime prime member on his Twitter"
+Comcast,ff6nsjz,t3_erxwuu,1579631142.0,"I set up a filter and have everything sent from Comcast right into trash
+
+The exact place the company should be"
+trashy,ff5al33,t1_ff4r5rk,1579585320.0,"Never want actual fur
+
+Does that thing even survive a run in washing machine and dryer?"

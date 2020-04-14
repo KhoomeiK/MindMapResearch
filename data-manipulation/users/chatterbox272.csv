@@ -1,0 +1,161 @@
+subreddit,self ID,parent ID,time,text
+whiskey,ffhuddg,t1_ffhk3yz,1579954336.0,"Yeah why not, I'm sure it makes an excellent scotch and coke"
+datascience,ffhmncw,t3_eth4lg,1579942611.0,"At first quite a lot, some time most days. Once you've got some skills under your belt, then only when your existing tools won't do the job. Knowing when to use different techniques and their pros and cons is more useful than always trying to use the latest and greatest that hasn't proven itself to be reliable in the real world"
+linux,ffeua4g,t3_esw4in,1579865822.0,"I'm an emacs user, and even still when I want to make a quick edit to a config file it's straight to nano. It's simpler, quicker, and easier."
+todayilearned,ffeta8m,t1_ffd1y7g,1579864500.0,"If you have participants intentionally trying to bias a study, that's a problem. The study should be controlled for this kind of thing, having people record before, during, and after, to ensure that this kind of thing can be dealt with. If this is the underlying problem then it tells us nothing aside from poor experimental design"
+computervision,ffekymw,t3_et6i3c,1579852426.0,"How big is your dataset? Do you mean Landmark/not-landmark or actually what landmark it is? if the latter, how many examples do you have of *each* landmark? What kind of hyperparameters have you tried? What are your results so far? There are many more details that you need to provide"
+deeplearning,ffegh17,t3_esqjvo,1579847068.0,"The comments do a pretty good job. Everything before the first comment is argument parsing, everything else says exactly what it does"
+MachineLearning,ffe147a,t3_esukgd,1579833985.0,"If it's too long for me to sit in front of the notebook, it doesn't belong in the notebook. That's my rule anyway. Processing a couple images for debugging purposes with a pretrained model isn't that bad, I can wait. Training, data preprocessing, etc. should be put into proper executable scripts one I have them worked out"
+learnmachinelearning,ffdx1nk,t3_esnmro,1579831049.0,"If you're a technical person getting started I'd look at [fast.ai](https://www.fast.ai/). Tensorflow is a complete mess, with the API changing so much that guides are outdated as fast as they're produced (and they're produced fast, although often not well), and there is sweet FA for actual API docs so you can't figure it out yourself unless you're willing to dig through hundreds of tutorials.
+
+The [fast.ai](https://fast.ai) course was originally designed for people like you, with a technical background not a theoretical one. It gets you up and working quickly and then steps back into the details as needed. Once you get better and want more flexibility you can either learn PyTorch (which fast.ai is built on top of, and is IMO a better designed framework than TF), or you can return to learning TF but actually knowing what you want to do and needing to figure out how, as opposed to figuring out both at the same time."
+computerscience,ffb96jx,t3_esmv8n,1579755769.0,"You may have already climbed [mount stupid](https://www.smbc-comics.com/?id=2475) and left some classmates behind, you'll get the hang of it"
+learnmachinelearning,ffb23mk,t1_ffaxvka,1579749861.0,With book bundles they're usually so cheap that if a single one is useful then it's worth it. With these it's a little trickier since the value is in the mid and high tiers which do cost a bit (although still not much)
+horn,ffau93c,t3_esll75,1579744622.0,"You're going to a tech to get the pinky ring adjusted right? Ask them what they can do for your trigger. They might have parts, they'll know where to get them if not, or they may be able to reshape the existing one to work for you"
+bikecommuting,ff8hl1x,t1_ff3of7o,1579678831.0,"Just try to find some kind of pattern you can remember. My uni has a maintenance stand outside the bike locker, with a far better pump than I have at home, so I pump it there before I leave on the first day I ride to school each week. This keeps a pattern whilst accounting for changes in schedule that might mean I don't ride the same days each week. Or just pick a time where you'll never be working or can always make 5 minutes to deal with it (e.g. last thing before bed on a Sunday or something), even if you're not about to ride."
+MachineLearning,ff84fc2,t3_erx7d2,1579665709.0,"Be increasingly sceptical as reported accuracy metrics exceed 95%. It usually means one of two things:
+
+1. There's something wrong with the method (i.e. this)
+2. The metric is too easy (e.g. accuracy with a heavy imbalance, where the null hypothesis exceeds 99% accuracy)"
+curtin,ff5ba7n,t1_fbbzzvk,1579586003.0,"If you CRL it then you'll just not have to complete it (i.e. have a 75 credit semester). You can have a look at other units from your degree to pull forward to move where that semester is but it'll be there. AFAIK there is no way to add extra coursework to the degree, so the only way to take ""another elective"" would be to take it as Not For Degree study, which IIRC can't be HECS'd"
+programming,ff2gf38,t1_ff2f6hl,1579505031.0,"Emacs I'll pay (even as an emacs user myself) but if you honestly believe that nano is harder for the average person than vim (i.e. no dev experience, used to ms word, notepad, wordpad, etc.) you might want to get yourself checked.
+
+Tell one group of people to edit a file by using `nano myfile.txt` and another to use `vim myfile.txt` and then save and exit, no other help is allowed. Watch as the nano people realise that the save is Ctrl+W not Ctrl+S and then have no issues, whilst the vim users bash their keyboards to work out how to enter edit mode, and then put things through walls trying to work out how to save and exit."
+programming,ff2b43d,t1_ff2au2z,1579499297.0,"Not as simple as nano though, modality sucks as a beginner"
+tensorflow,feq86ij,t1_fephe1n,1579338726.0,"This and their reliance on full-fat tutorials over api docs. You can't look up the arguments and details of probably 90% of TF's api, and the general community response is ""Have you read X tutorial? It's covered in there"".  Tutorials aren't a replacement for API docs. When you're working through to learn tutorials and guides are excellent, but when you just can't remember the exact parameters of a method, or want to check details about it, then having to fish through hundreds of tutorials to find how to do something takes too long. If the API was properly documented you could simply search your method"
+tensorflow,feph4gp,t3_eq9vpg,1579320354.0,"TF is frustrating because there are two levels of abstraction that are passably documented: blindly using keras.fit, and constructing everything from low level primitives. Worse, they're not super interoperable, so you largely have to pick one or the other. This is why people abandon it for pytorch, because it provides that middle ground of ""complexity in the complex parts, simplicity in the rest"" that TF ignores"
+deeplearning,femyl4q,t1_feml00o,1579272924.0,">Because spending $2,000 on one GPU will almost always get you a better result than $2,000 on two GPUs.
+
+Not really, because you enter the wasteland between the 2080ti and the Titan RTX. If the TRTX is out of budget then you may well still be able to afford a couple 2080tis, or 2080 supers."
+artificial,felwy7e,t3_epmu8t,1579233017.0,"It's an excellent book for general AI, as a textbook there isn't much better out there (which is why it's such a popular book). Yes there is a new edition coming that updates modern deep learning stuff into it but really at the level of most courses using the book it isn't that big a deal"
+todayilearned,felw5p5,t1_fekfzav,1579232438.0,"You typically will get told a few songs when you're trained because its the easiest way to describe the pacing to an average person. Stayin' Alive and Another One Bites the Dust are favourites (in training) because of the obvious relation to what you're doing. If you tell an average person to push between 100-120bpm they won't know what it means, if you tell them to do it to every beat of Stayin' Alive they'll pretty much nail it.
+
+Google CPR songs, you'll get a list"
+todayilearned,fejx5i9,t1_fejmznw,1579187878.0,"Yes EAR would probably be as effective, but in the moment you don't know exactly *what* got him, so you don't know the exact cause of action. We typically don't check for a pulse anymore, it's too unreliable, so if someone isn't breathing you just start CPR. When you're in a crisis situation and have any first aid training it's these clear no-ifs-or-buts procedures that you fall back to. You can't think clearly, so being able to mechanically carry them out saves lives. Making the decision as to how to resuscitate is too much for a first aider in the middle of a crisis"
+todayilearned,fejwmjj,t1_fejr59t,1579187535.0,"If it were me, and I was thinking in clear mind, and there were extra people available, and there aren't any extra complications from being on a boat, I would probably teach them CPR if I was going to be doing it for more than 10 minutes. It's going to take a solid 5 probably to teach them whilst you're actively doing it (see my comment below about how to teach someone mid-crisis) so anything south of 10 I probably wouldn't bother. I might not if they are not calm though, panicked and unskilled is a scary combo"
+todayilearned,fejox4w,t1_fejj4km,1579182014.0,"Entirely possible they were snorkelling off the coast which would be a risk area. Also entirely possible it's bullshit, just a story I was told when I was requalling my bronze medallion"
+todayilearned,fejomuz,t1_fejn9dv,1579181773.0,"It's not about broken ribs, it's about driving ribs through internal organs, causing arrhythmia, etc.
+
+Breaking ribs in CPR is perfectly normal (or so a few ER nurses have told me)."
+todayilearned,fejoe62,t1_fejlkiz,1579181567.0,"Yes and no, they do train us how to teach someone mid crisis (at least here in Aus, this teacher trained me on it). You interlock their hands with yours as you perform it to get them into the rhythm/feel of it, tell them the rhythmic pacing (stayin' alive etc.), and have them doing it with you for a minute or so. Not ideal but they'll usually be good enough for you to catch your breath.
+
+However in this case I'm not sure how many bystanders there were, their ages, or any other information about them. It may not have been practical, or it may have just been panic brain on everyone."
+todayilearned,fejo24r,t1_fejmxny,1579181279.0,"Makes sense to me:
+
+>Conscious as in breathing/ heart beating?
+
+Standard advice for this situation is DRSABCD, which changed a fair while back from Circulation (i.e. check for pulse) to Compressions (start CPR) because finding a pulse in such emergency situations is so hit and miss. He obviously wasn't breathing, so she started CPR.
+
+>why didn’t the bystanders just switch out instead of complaining?
+
+They thought he was dead, I'm also not sure if it was one or multiple people (not my story) and if it was only one they may have been the only one who knew how to drive the boat."
+todayilearned,feja7p7,t1_fej8wep,1579163778.0,"You'd be surprised I think. Burning to death won't be that bad once you've scorched the nerve endings. Spikes would only be bad if they don't kill you quickly by severing something vital if they do you'll go into shock and feel relatively little. Same with the crocs. Buried alive I'd pay, but it's largely the same unless you get claustrophobic"
+todayilearned,fej9ys0,t3_epdbvn,1579163427.0,"One of my swim teachers told a story about one of these when she was out swimming and boating with her father and some family friends. The old man had a run-in with one, she realised had happened and hauled him onto the boat, and for lack of any other ideas started CPR while one of the family friends drove the boat back to shore and called for an ambulance. They were a fair bit out and it took a while to get back and for the ambulance to arrive, she was pretty banged up from the exertion (CPR is hard work), and the friends were telling her ""he's gone, it's been too long and he can't breathe, you're just going to hurt yourself if you keep going"". Meanwhile the old man is totally conscious, hearing every goddamn word of his friends saying to let him die whilst his daughter does everything she can to save him. He ended up making it, their friendship with the other people wasn't so lucky"
+programming,fefgtvt,t1_feejkvv,1579056028.0,"Very common on Macos laptops because for some reason the alternatives eat more battery (esp. Chrome, which is a well documented issue)"
+deeplearning,fe8inqy,t3_ena5t5,1578926570.0,"Which do you anticipate needing to do more often? Train a single 8-12gb model or two <8gb ones? Get whichever suits your more common task.
+
+You can train two models one one GPU, or a single model across multiple GPUs, it's just a pain. So pick the case that minimises the number of times you need to do that"
+deeplearning,fe7cg3z,t1_fe6pxxn,1578912772.0,"I get it, although I'm not sure I'm sold on the idea. But to say you don't need to inherit nn.Module is incorrect, you're still inheriting it, just further up the inheritance hierarchy."
+deeplearning,fe6ciwf,t1_fe4skgh,1578886970.0,Every class you have inherits from nn.Module except your resent which inherits VisionModule which inherits nn.Module
+tensorflow,fe6b1oy,t1_fdreu2v,1578885876.0,Be very careful referring to Pytorch as Torch. Torch is an entirely different library that is a predecessor to Pytorch: [Torch](http://torch.ch/)
+tensorflow,fe69z69,t1_fdrgkw2,1578885104.0,"Tutorials can never address everything and are not a replacement for good API docs. Tensorflow's API docs are hot garbage. Look at `tf.keras.applications`, the model arguments are seemingly not documented anywhere, and you have to dig through the tutorials to work out what they are. 
+
+In comparison look at the `torchvision.models` docs, every model tells you what arguments there are, even if they are kwargs.
+
+There are lots of parts of TF that are like this, so if you don't want to do what is already done in the tutorials, it is a massive headache. Pytorch tutorials are fewer, but the actual API docs are far better"
+Trombone,fdv9ch9,t3_en2l4t,1578744853.0,"Get comfortable with both, but you'll probably play it in 1st more. 6th pos F is mostly used when you're already playing other notes in 5th, 6th, or 7th position at a tempo or in a phrase where the shorter arm movement is beneficial"
+euphonium,fdv8pjp,t3_en5jgm,1578744720.0,"Yes, take it to a technician and have them repair it. Seriously, **take it to a tech**. Yes I'm sure you're a perfectly capable welder but this is different so ***take it to a tech***. No it doesn't matter that your father is a professional mechanical engineer ***TAKE IT TO A TECH***."
+datascience,fdq2x8s,t1_fdosjk1,1578652246.0,"Not really relevant, because it's all within the library so they actually CAN unify the standard"
+todayilearned,fdq2o3e,t1_fdpof9v,1578651888.0,"Same for the international language of research, bad english"
+buildapc,fdn1swp,t1_fdn140b,1578574692.0,That is not why you shouldn't do it. The reason you shouldn't mix cables is because not every manufacturer uses the same pinout on the PSU side of modular cables. The device side is well defined but each manufacturer has their own pinouts for the PSU side. OP should either buy a replacement cable for their PSU from the manufacturer or look up the pinouts and make sure they're correct for any other cables (and swap the pins around if they're not).
+MachineLearning,fdiytx9,t1_fdht10b,1578454185.0,"I found with my work I had to go back. The problem with implementing a recent paper is that there is a huge number of potentially broken steps, so if you go back to earlier ones you can cut things down.
+
+For example, I am working on weakly-supervised object detection. I tried to implement the latest state of the art and had no success for months, so instead I went back and built [WSDDN (Bilen et. al., 2015)](https://arxiv.org/abs/1511.02853) and spent a while getting that to work. Once I had that, I spent time building [OICR (Tang et. al., 2017)](https://arxiv.org/abs/1704.00138) and I knew that any problems I faced had to be in my implementation of the pseudo-labelling/loss, or the extra branches, since my WSDDN (which is a component in OICR) works. Once I had that I could implement [PCL (Tang et. al., 2018)](https://arxiv.org/abs/1807.03342) knowing again that it had to be my pseudo-labelling function, since the rest of the model is the same as OICR. I am finally implementing [this model (Gao et. al. 2019)](https://arxiv.org/abs/1906.06023) which is SOTA, and again I know which components must be failing when it doesn't work. Decomposing things helps immensely with progress in this regard, and building up through the literature helps gain understanding of what the problems were, how people have tried to fix them, how successful they have been, and where to look for further improvements."
+computervision,fdgrb2j,t3_el7zny,1578406292.0,Are you in an engineering firm or similar interacting with MATLAB systems? No? then don't use MATLAB
+horn,fdg92ar,t3_el58c3,1578385250.0,"Once you get that high, it will probably depend a lot on your horn and how it sits in that range. Since the harmonics are so close lipping is harder so you'll need to find fingerings that are pretty in tune. If you can play a note, you can always play the octave above it on the same fingerings. So start off with the fingerings you use for the octave below. If you find any notes that are horrendously out of tune, try any alternative fingerings you know for that note on either side of the horn"
+euphonium,fdg6ixj,t1_fdfw11i,1578382031.0,"That might be historically correct, however, if the goal is to actually communicate what it is to another human then ""American Baritone"" would be far more appropriate. You tell any low brass player you play euphonium and they'll expect the standard british style euphonium, you say baritone and depending on where you are in the world they'll expect either this or the british type. If you call it an american baritone then people will know exactly what it is."
+curtin,fdcmvae,t3_ekc5u3,1578278851.0,"The major trimesters thing starts next year, not this year. There's a part of me that vaguely recalls one school (maybe Law?) that has already been running on trimesters but most of the uni does not."
+learnmachinelearning,fd903na,t3_ekaeua,1578226154.0,"GAN mode collapse is when the generator essentially decides part of the problem (or the complete problem) is too hard, and just doesn't try. So for example if we're generating handwritten digits like in MNIST, if it can't produce a convincing 2, it might just stop trying to generate 2s and stick to easier numbers like 1.
+
+Other types of model collapse usually refers to a model learning to predict a trivial answer that technically performs well but isn't useful. This often happens with class imbalances. If you are training hotdog-not-hotdog, in a database of 100000 food images but only have 100 hotdog images, the network may learn to never predict hotdog. This leads to a 99.9% accuracy, and a pretty low average loss, but obviously isn't useful.  To beat this you should both change your metric to something better balanced than accuracy (so you don't get false senses of security from a high accuracy score). You should change your loss function to something that penalises this type of result, for example focal loss which will severely penalise failing the minority class."
+deeplearning,fd881b0,t3_ek2ze2,1578215018.0,"Why write for Pytorch 0.4? The framework hit 1.0 long before this paper was even released. It makes it much more annoying to set up and use, or integrate into new work"
+computerscience,fczxk97,t3_ejq0qd,1578110342.0,"Work-life balance, self-motivation, and understanding that mistakes are okay.
+
+I started a job maybe a year ago, a casual role related to my postgrad studies. It's my first in-field job after having spent years working fast food and retail sales. First starting it was really tough to balance working, studying, and maintaining a social life. The hardest part was actually working out what I wanted my balance to be since I had a habit of getting sucked into a problem and working on it nonstop for days or more, and I wasn't necessarily unhappy with that. I ended up deciding that for me, balance is working my ass off most of the time with a couple of nights blocked off for my hobbies and/or the occasional drink/catchup with a friend. Then during uni breaks, I'll go off-grid for a week or so and let everyone else deal with things.
+
+My job also lets me work remote (and for a little while encouraged it due to lack of available office space), so self-motivation was something I needed to work on. When you can just enter hours into a timesheet, and not all of your work produces tangible results, it's very easy to end up not working as much or as hard as you should. Having the discipline to dedicate work time was something I had to learn.
+
+Finally understanding that mistakes are okay. In my last job (sales), mistakes were treated as catastrophic, involved lots of shouting from the boss, and unpaid overtime to fix. The person who worked there before me left because she was going home daily crying. One of my colleagues got chewed out for an hour, over going $50 below our ""best sell"" price on a $5000 item (there was still plenty of margin in it). So I was used to thinking mistakes were going to ruin my week at a minimum. In contrast, I introduced a bug into an internal tool that ended up invalidating a weeks work of using the tool for myself and one other person. I was terrified to tell my boss, but when I did he handled it way better. He asked me whether I'd fixed the bug (I had), and how long would it take to make up the work, then approved me to work as many hours as I needed, as well as volunteering a day of his own time, to catch up on the invalidated work. I caught up the work over the weekend and he was congratulating me for the machine-like effort needed to fix it that fast, and had no interest in discussing the fact it was my fault that we needed to do it. This idea of ""people make mistakes, so long as they learn then that's fine"" was something I'd never seen in a workplace before."
+Trombone,fcu0r3a,t1_fctbm43,1577968559.0,"Yeah I'm not fond of it either, I would usually refer to it as C5, and the note you're looking for as Bb4. 
+
+As far as actually hitting it: 
+
+1.  Don't sweat it, you're far ahead of the curve if you're actually hitting this range with good tone, control, etc.
+2. Start by hitting a note you can hit comfortably below it, like A or G, and slide up (you should play G in 4th for this exercise). Make sure you have plenty of breath support and don't let the note break as you slide. Once you hit Bb, hold it for as long as you can maintain tone and pitch comfortably. Do this for a few days, then you can start attacking it.  When you start aiming for it directly, first warm up with the gliss exercise to get a feel for the note, then spend a few minutes doing simple crotchets at a comfortable tempo (think 60bpm). Again, once you've been doing that for a bit, you can start working in scales and playing it in context."
+Trombone,fctbiz5,t1_fctb9zx,1577938150.0,"Okay, that is just High C, triple C would be at least another octave above that, if not two (as in high C, double high C, triple high C)"
+Trombone,fct5dw9,t1_fcsx7jf,1577933313.0,"You're saying you can musically, controlably, play E6, the 3rd E above the bass clef staff, in the 9th leger line, on a bass trombone? I call bullshit."
+learnmachinelearning,fcng1vj,t3_ei37yd,1577810966.0,"Probably not, Packt books are very rarely good"
+deeplearning,fclkal0,t1_fcke05p,1577749770.0,"They're more convenient to use if they're used repeatedly, but they're not. A researcher more often than not will write a function, check the outputs seem reasonable, and then never test it again. In that case the overhead of writing unit tests is more effort than the gain"
+whiskey,fcjtuof,t1_fcitsmj,1577704433.0,When people talk about adding water to whiskey they typically don't mean a cap full of tap water. They usually mean a couple drops of filtered or distilled water
+linux,fcjtrr4,t1_fcjoydk,1577704313.0,"\^This set up a super thin host that automatically starts up a VM in virtualbox, have everything set to auto-mount, etc. so he doesn't have to learn anything"
+deeplearning,fcjou2z,t3_eh8cl5,1577697145.0,"This is dumb, very dumb. The entire thesis of the article is ""Researchers and competition participants should spend time making their code production-ready so I can more easily turn a profit on it.""
+
+Research and competition code is **not about producing code that can be applied to the real world**. It's about proof of concept. It shows that fundamentally, an idea works in a controlled setting. The code is therefore written with these goals in mind.
+
+To go through some of the listed issues:
+
+> Coding a pipeline using bunch of manual small “main” files 
+
+This allows you to swap components in and out without needing to write code, for cases where the researchers are not software developers (quite common) this is easier.
+
+> Forcing to use disk persistence 
+
+This is mostly a byproduct of the multiple files thing. But also allows for different components to be investigated independently of one another more easily since you don't need the whole pipeline
+
+> Making the disk persistence mechanism different 
+
+These are almost always (as far as I've seen) done in the appropriate standards for what is being dumped. These communities have well-known standards for most dumps, and people use them.
+
+> Provide no instructions 
+
+This is mildly annoying, it is something of a reproducibility issue that people are actively speaking out about in recent times.
+
+> Have no unit tests 
+
+These provide little value to a researcher like they do to a developer. Unit tests are there for two reasons: 1. To test it works, 2. To test that it still works, after you change it. The thing is, once a researcher has something working they probably won't change it. So they'll ad-hoc test it in the first place, then leave it the hell alone for the rest of time.
+
+> You ideally want a pipeline than can process your data by calling just one function 
+
+As a researcher, this is almost never the case except for perhaps right at the very end when doing final evaluations. When you do research, you want to be able to execute just the bit you changed (or from that point on) rather than the whole pipeline to save time.
+
+> Having the possibility to not use any data checkpoints between pipeline steps simply...  in production it’s just heavy 
+
+Disabling checkpoints is pretty much not valuable for research or competitions. And I'll repeat **researchers and competitors are not writing production code**.
+
+> The ability to scale your ML pipeline on a cluster of machines 
+
+Not really valuable for research or competition, only for production.
+
+> want the whole thing to be robust to errors and to do good predictions 
+
+If you mean errors in the program (such as those which may raise exceptions), this again is rarely valuable for research or competition which is so hands-on and typically the user is also the developer. Good predictions are measured according to the task, probably accuracy on a benchmark dataset, and we do that.
+
+**TL;DR:** Researchers and competitors are not professional software devs and as such have different goals, so they write code that is not suitable for production"
+todayilearned,fcc11fn,t1_fcbt7ol,1577593204.0,"You assume that people would be aware. The average consumer who doesn't follow tech news and buys the latest iPhone every generation or two wouldn't even know until they break it and try to repair it cheaper than Apple's ""easier to replace the whole phone for $700"" type option"
+computerscience,fc92mgd,t1_fc90hq7,1577546025.0,"SICP was quite literally written as an introductory text, for an introductory class. It was written in Scheme so that you could teach pretty much the whole language in a class, and spend the rest of your time on concepts"
+Bass,fc8ue2l,t1_fc8tmhb,1577542129.0,"Well there's basically every 6 string pack, just discard the low B. Or you buy 4 string packs and single C strings. Don't really pay enough attention to strings to know if there's a sufficiently light 5 pack that you can string EADGC. Guitar strings won't work, too short"
+Bass,fc8k5ml,t1_fc8jf2b,1577536610.0,"They almost all come that way, but it's a very simple modification to make it EADGC, you just need a new nut and a C string"
+Bass,fc8aqe8,t3_egpafq,1577530683.0,"Pros: Alternate fingerings, 5 more notes on either the low side (common) or high side (rare, but not unheard of especially for jazz players).
+
+Cons: Heavier
+
+Personal Preference: Wider neck, often narrower string spacing
+
+Edit: formatting"
+Trombone,fc5jnnh,t3_eg9rcl,1577459418.0,"Courtois are a legit brand, pretty sure they're owned by Buffet-Crampon these days (they also own B&S, and Besson which as a euph player I'd expect you'd have heard of). As always try before you buy is a good mantra to follow"
+deeplearning,fc51f0s,t3_eg68fy,1577438154.0,"There aren't really tutorials for this that I know of, because the simple implementation is very simple, and more complex ones are very hard, and there isn't a lot in the middle.
+
+Ensembling means train K different models independently of each other. At eval time, predict with each model independently and then take the mean of the predicted scores.
+
+Pseudo labelling is also pretty straightforward. Train on your labelled training set. Predict on your unlabelled set. Create the labels by thresholding the predictions (anything above 0.5 becomes 1, anything lower becomes 0) and save them. Now train a new model using both the original labelled set, and the pseudo labelled set"
+computerscience,fbxd3md,t3_eez0pd,1577180980.0,"I'd start watching [Louis Rossmann](https://www.youtube.com/user/rossmanngroup/featured) on youtube if this is a more casual interest. If it's something you'd like to work with then it's probably Computer Engineering or Electrical Engineering courses, but I'm not certain"

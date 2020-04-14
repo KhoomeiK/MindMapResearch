@@ -1,0 +1,146 @@
+subreddit,self ID,parent ID,time,text
+tortoise,ffgb16u,t3_etdeoq,1579902298.0,"> UVA or UVB?
+
+Both. UVA is for vision (unlike most humans, tortoises can see UVA). UVB is for vitamin D3 synthesis.
+
+> Also does anyone give their tort a cuddlefish bone?
+
+[Cuttlebone](https://en.wikipedia.org/wiki/Cuttlebone). Yes."
+tortoise,ffgar1t,t1_fffs1eq,1579902128.0,Looks like coconut fiber / coco coir.
+turtle,ff44bzs,t3_erfbd8,1579555246.0,Beautiful Hermann's tortoise. That shell is perfect.
+pics,ff4388a,t1_feun4xg,1579554566.0,"> simulating a different lens angle is more than just cropping the image and stretching it a little horizontally
+
+First, I didn't stretch that image, I just cropped it. And yes, changing focal length while keeping everything else the same does exactly the same as cropping, as far as perspective and proportions are concerned.
+
+> I just took these three photos of objects in my room which I didn't move at all between pictures
+
+The perspective in each of those shots is clearly different, therefore you moved *the camera*. Changing the focal length doesn't change proportions of objects in your frame. Moving the camera does. Got it now? Protip: use a tripod next time.
+
+Again, [read the mathematical proof](http://scubageek.com/articles/compression.pdf), and [watch this video](https://www.youtube.com/watch?v=tod2qZnKZEQ).
+
+[Or try this demo by Nikon](https://imaging.nikon.com/lineup/lens/simulator/). Changing focal length simply zooms in/out, it doesn't distort or compress proportions."
+pics,ff42veo,t1_fevdw5j,1579554348.0,"Nope, he didn't. His claim that he didn't move between those photos he took is demonstrably wrong. Again, [read the mathematical proof](http://scubageek.com/articles/compression.pdf), and [watch this video.](https://www.youtube.com/watch?v=tod2qZnKZEQ)
+
+[Or try this demo by Nikon.](https://imaging.nikon.com/lineup/lens/simulator/)"
+pics,feubnkc,t1_feuauf6,1579385001.0,"The lens doesn't dictate where you stand. You as the photographer do that. You can always crop the borders a little in postprocessing, which gives you a different framing and field of view.
+
+""wide angle lenses compress the size of things in the distance"" is just false. They make *everything* look smaller *equally*, not just ""things in the distance"".
+
+[Here's the photo with a narrower field of view](https://i.imgur.com/zrx4h5t.jpg), as if it were taken with a ""longer"" (non wide-angle) lens. As long as the positions don't change, the proportions remain exactly the same for everything in the frame, whether distant or not."
+pics,feu9jg1,t1_fetla57,1579384465.0,"> wide angle lenses compress the size of things in the distance 
+
+No, they don't. Wide-angle lenses have a wider field of view / lower magnification. They can fit more of the world inside the frame, which tends to make you move closer to your subject in order to make it appear larger. It's this change of distance between camera and subject that ""distorts"" or ""compresses"" proportions and spatial relationships. Because that's perspective, and perspective only depends on the position(s), not the lenses.
+
+[Here's the mathematical proof](http://scubageek.com/articles/compression.pdf), and [here's a good video on the topic.](https://www.youtube.com/watch?v=tod2qZnKZEQ)"
+tortoise,fesfz3z,t1_fcot4tv,1579364782.0,"> Seems to say they are in fact dinosaurs.
+
+Nope, read more thoroughly. Quote:
+> Instead, authors place turtles in the newly named group ""Archelosauria"" with their closest **relatives**: birds, crocodiles, and dinosaurs. Scientists suspect the new group will be the largest group of vertebrates to ever receive a new scientific name.
+
+According to this, birds, crocodiles, dinosaurs, and turtles are all Archelosauria. But that doesn't mean at all that turtles are dinosaurs.
+
+The [Wikipedia article about Archelosauria](https://en.wikipedia.org/wiki/Archelosauria) shows a diagram from that paper you found. It has turtles (Testudines) as **siblings** of Archosauria. And Archosauria / [archosaurs](https://en.wikipedia.org/wiki/Archosaur) is the group that includes dinosaurs, crocodilians, and birds.
+
+So, even if this is correct that Archosauria are Archelosauria, and turtles are Archelosauria as well, then that still doesn't put turtles within the subgroup of dinosaurs.
+
+PS: Sorry for the late reply. ;)"
+tortoise,fenh0tw,t3_epdt9h,1579284504.0,"[Russian tortoise.](https://en.wikipedia.org/wiki/Russian_tortoise)
+
+A ""roommate"" is a bad idea, especially for small indoor enclosures. These tortoises lead rather solitary lives outside of mating season. If you confine two or more of them in a small enclosure, they can bully, fight, and injure each other."
+explainlikeimfive,fec2qqt,t1_febxhbt,1578965810.0,"I've heard that argument before, of course, and while it might be acceptable in the way that you phrase it (with ""wide angle"" and ""telephoto""), it immediately falls apart when using ""short and long focal lengths"" instead like Vinccius did. Because what's ""short"" and ""long"" is entirely dependent on the sensor size. When people are taught that ""short focal lengths distort and long focal lengths compress"", and then hear that the iPhone Xs for example has a wide-angle lens with a focal length of 4.25mm, and a ""telephoto"" lens with 6mm, then they might come to the conclusion that they'd get an awful lot of distortion with both of those, because the focal lengths are so much shorter than what you'd use on a DSLR, for example. That's of course nonsense. Like you mentioned, you could try to introduce 35mm equivalent focal lengths, but then you add yet another layer of obfuscation that requires explanation. Why not teach it properly from the start - it's not that complicated:
+
+1. How much of a scene you can capture on your photo depends on your field of view (FoV), not simply focal length.
+2. FoV is a function of focal length **and** sensor size (longer focal length or smaller sensor --> narrower FoV).
+3. If you want to take frame-filling shots of a subject, then a wider FoV tends to make you move closer to your subject, whereas a narrower FoV tends to make you back off. This change of camera-subject distance changes perspective, i.e. the spatial relations, proportions, etc. of everything in your frame.
+4. Perspective distortion is a thing. It is caused by that change of distance, not by lenses or focal lengths!"
+explainlikeimfive,febscjn,t1_fe8us7i,1578962147.0,"> agree completely that ""focal length"" is the answer to the question ""why can't I take a good picture of the moon looking as big as a building.""
+
+You shouldn't, because the real answer isn't focal length, but magnification / field of view. Of which focal length is only one contributing factor - sensor size is the other. With a sufficiently high-res sensor, you could crop the image down (effectively decreasing the sensor size and therefore narrowing the field of view / zooming in) without getting ""horrible pixelation"". ;)
+
+Otherwise, great post!"
+explainlikeimfive,febljxw,t1_feavklp,1578960025.0,"It's unfortunately wrong, or at least misleading. Yes, wide-angle make everything look small on a photo, but absolutely not ""disproportionate"". They show the same proportions you'd see with your naked eyes, or any other lens, when standing in that same position. It's a myth that wide-angle lenses distort proportions and that telephoto lenses ""compress"". [Here's more info.](https://np.reddit.com/r/answers/comments/dwciox/why_does_the_moon_look_smaller_on_photos_than_it/f7ifv4c/)"
+explainlikeimfive,febkspb,t1_fe889dj,1578959864.0,"> it makes the foreground and background completely disproportionate. The longer and narrower the focal length, the more the foreground and background gets compressed
+
+Sorry, but that's false. [Here's a longer explanation from an older, similar question.](https://np.reddit.com/r/answers/comments/dwciox/why_does_the_moon_look_smaller_on_photos_than_it/f7ifv4c/)
+
+And [this video](https://www.youtube.com/watch?v=tod2qZnKZEQ) I linked there debunks that misleading photo series of yours, which shows the effect of distance, not focal length.
+
+Focal length, together with film/sensor size, determines the angle/field of view. You can take great moon shots both with wide and narrow fields of view, you just need to get the focus and exposure right. If you want to see more details in the moon, you simply need a higher magnification = narrower field of view, which can be achieved by increasing the focal length *or* decreasing the sensor size (while keeping sensor resolution constant, or better increasing). You're right that most phone cameras are unsuitable for that, because they have a wide field of view, which is more useful to people in ""normal"" situations. But with the advent of multicamera phones, [that is starting to change](https://old.reddit.com/r/explainlikeimfive/comments/eo2nmv/eli5_why_can_phone_cameras_not_take_good_photos/feaqngs/). Though if you want to take a really detailed shot of the moon, then your best option [is a telescope.](https://old.reddit.com/r/explainlikeimfive/comments/eo2nmv/eli5_why_can_phone_cameras_not_take_good_photos/febia8c/)"
+aww,fe87hp3,t1_fe6huzs,1578923452.0,"Since this species of tortoise shouldn't be eating fruit anyway, it's good that it at least gets some physical exercise out of it. It's a very young Russian tortoise, their diet should consist of leafy weeds and maybe grasses."
+aww,fe86q2j,t1_fe6huww,1578923172.0,"*Russian tortoise
+
+Which is a type of tortoise, and [tortoises are a type of turtle.](https://np.reddit.com/r/EILI5/comments/6ucmgd/eili5_what_is_the_difference_between_a_tortoise/)"
+tortoise,fe6935k,t1_fe47f1c,1578884484.0,"> Coloration suggests it's just an extra scute
+
+The growth lines prove that it's not an extra scute, though. It is a crack, but probably just superficial and nothing to worry about. My adult male Hermann's tortoise has one in the exact same spot! And at least one of his many offspring got it as well. I've also seen it on some other unrelated Hermann's. Could be genetic, or maybe there's even an anatomical reason that makes cracks in that location more likely. Come to think of it, this is the area of the plastron that is open during development ([the ""navel""](https://i.imgur.com/WcjV3mn.jpg), where the yolk sac is attached), that could have something to do with it.
+
+Edit: https://i.imgur.com/GKIolXZ.jpg  
+left side: 31-year-old male, right side: 3-year-old"
+WTF,fcxkkcd,t1_fcxax15,1578065192.0,[Tortoises are also turtles](https://np.reddit.com/r/EILI5/comments/6ucmgd/eili5_what_is_the_difference_between_a_tortoise/) (and Japanese has no separate words for them).
+funny,fcvjr05,t1_fcvajtl,1578003572.0,"Tortoises, even the herbivorous ones, are opportunistic eaters. When they find worms, snails, slugs, etc. and also carrion, they will take a bite. So, yeah, that wiener would be gone."
+aww,fculfg0,t1_fcujpze,1577983578.0,"Well, as you can see in that ""Greek tortoise having a swim"" video (I'm quite sure it's a Hermann's tortoise, they're called ""Greek"" in some languages, so the uploader probably mistranslated). Tortoises have large lungs at the top of their carapace, and as long as they fill them with enough air, they'll float, and paddle with their feet to move around. When tortoises get scared and retract their extremities into the shell, they drastically decrease their lung volume, so they'll probably sink in that state. Which is why you should never force a tortoise into water (let alone throw/drop them)."
+aww,fcujmvr,t1_fcuin10,1577982507.0,[Here are some examples.](https://np.reddit.com/r/facepalm/comments/36k6he/a_guy_i_went_to_school_with_just_posted_this_on/crf95ne/)
+aww,fcuj8h0,t1_fctnjxm,1577982241.0,"In Australia, they even use ""tortoise"" for some aquatic species. [More details here.](https://np.reddit.com/r/EILI5/comments/6ucmgd/eili5_what_is_the_difference_between_a_tortoise/)"
+aww,fcuimxa,t1_fctnb2n,1577981846.0,"Two more examples:
+
+* [Male western Hermann's tortoise chasing away rival](https://gfycat.com/tidysneakyannelid-animalsbeingjerks-explainlikeimfive)
+* [Florida gopher tortoise running to its burrow](https://gfycat.com/flickeringwiltedborderterrier-tortoise)"
+aww,fcuignl,t1_fcu1s53,1577981730.0,"Not really. Quite a few tortoises can swim. They cannot dive, though.
+
+https://np.reddit.com/r/EILI5/comments/6ucmgd/eili5_what_is_the_difference_between_a_tortoise/
+
+/u/CarPeriscope, FYI."
+aww,fcui8le,t1_fctrgwe,1577981582.0,That's a [softshell turtle](https://en.wikipedia.org/wiki/Trionychidae). Significantly lighter than OP's sulcata tortoise.
+absoluteunit,fcogi01,t1_fcob9bo,1577831664.0,"You didn't read [my explanation](https://np.reddit.com/r/EILI5/comments/6ucmgd/eili5_what_is_the_difference_between_a_tortoise/), did you? Scientifically, all tortoises are also turtles, regardless of your opinion."
+absoluteunit,fcoa4jp,t1_fco9uua,1577827241.0,"You must be blind. Because the video I linked is neither ""trodding across the bottom or floating"". If that isn't swimming, then dogs can't swim either.
+
+And yes, just because they can swim doesn't mean they're turtles. They're turtles because all tortoises are turtles, even if they can't swim. There are also [pond turtles that live on land](https://en.wikipedia.org/wiki/Box_turtle), but that doesn't make them tortoises. ;)"
+absoluteunit,fco9s97,t1_fco9q2a,1577827005.0,"> But they can’t swim!
+
+... are you blind?"
+absoluteunit,fco9ob1,t1_fco9ccw,1577826930.0,"[Aldabra giant tortoises](https://www.youtube.com/watch?v=Dlfno6YJ-Co) live on an atoll, therefore always [close to the sea](http://ichef.bbci.co.uk/wwfeatures/wm/live/1600_900/images/live/p0/2r/nf/p02rnf2c.jpg). ;)"
+absoluteunit,fco96ro,t1_fcnzmy9,1577826601.0,"It's an Aldabra giant tortoise. Which is a tortoise, [and also a turtle.](https://np.reddit.com/r/EILI5/comments/6ucmgd/eili5_what_is_the_difference_between_a_tortoise/)"
+tortoise,fco7lsf,t3_ei30o6,1577825627.0,"Yes, they exist. Mercury vapor bulbs (MVBs), and metal halide lamps. The latter are usually more expensive than MVBs, but produce a better light quality and also consume less power (which could be a drawback if you want to produce more heat).
+
+[Here's my little UV lamp summary.](https://www.reddit.com/r/turtle/comments/34ztx9/uvb_and_infrared_bulb_enough/cr0sdrz/)"
+BeAmazed,fco3a65,t1_fcn0b31,1577823260.0,"This is an Aldabra giant tortoise, though. Supposedly above 200 years old, [according to the source](https://www.youtube.com/watch?v=HNqTPtsQRmk), but I'd take that with a grain of salt."
+bigboye,fco33x0,t3_ei30cd,1577823165.0,Source: https://www.youtube.com/watch?v=HNqTPtsQRmk
+ThatsInsane,fco326k,t3_ei1pu6,1577823139.0,Source: https://www.youtube.com/watch?v=HNqTPtsQRmk
+absoluteunit,fco2xt9,t1_fcn6wxg,1577823074.0,"Supposedly above 200 years, [according to the source](https://www.youtube.com/watch?v=HNqTPtsQRmk). Could be bogus, of course."
+absoluteunit,fco2oj8,t3_ei1mlz,1577822941.0,Source: https://www.youtube.com/watch?v=HNqTPtsQRmk
+AnimalPorn,fco2mz6,t3_ei3lht,1577822920.0,Source: https://www.youtube.com/watch?v=HNqTPtsQRmk
+aww,fco2lhj,t3_ei2xdv,1577822900.0,Source: https://www.youtube.com/watch?v=HNqTPtsQRmk
+Damnthatsinteresting,fco29id,t1_fcmrx5h,1577822744.0,Maybe [the source](https://www.youtube.com/watch?v=HNqTPtsQRmk) will help.
+AbsoluteUnits,fco1vzi,t1_fcnqu7k,1577822569.0,"Nope, Aldabra giant tortoise. [Source.](https://www.youtube.com/watch?v=HNqTPtsQRmk)"
+AbsoluteUnits,fco1jre,t1_fcnn7vj,1577822405.0,"It's an Aldabra giant tortoise. And it's probably stolen content, because it's mirrored. [The original source is here](https://www.youtube.com/watch?v=HNqTPtsQRmk).
+
+/u/hellogawgous, FYI."
+tortoise,fco18sw,t1_fcnsqma,1577822253.0,"Aldabra. Easily recognized by the head shape there (if you know what to look for), and confirmed by [the source.](https://www.youtube.com/watch?v=HNqTPtsQRmk)"
+tortoise,fco13ur,t1_fcnorg1,1577822190.0,"Technically, turtles/tortoises aren't dinosaurs. Birds are.
+
+Anyway, this clip looked familiar. I looked at my youtube favorites and [found the source.](https://www.youtube.com/watch?v=HNqTPtsQRmk)"
+Damnthatsinteresting,fco0tjy,t1_fcn49pg,1577822051.0,"It's an Aldabra giant tortoise. You can tell by their head shape.
+
+[And here's the source](https://www.youtube.com/watch?v=HNqTPtsQRmk), by the way."
+tortoise,fcm2923,t1_fc3e4ab,1577762339.0,"Yeah, it's easy to think ""aww, they're helping each other"" when seeing those videos. It's possible, but more likely just anthropomorphizing. Male tortoises in particular often fight by pushing and ramming each other. And they don't necessarily stop when one flips over. They can keep going and then ""rescue"" the other tortoise from the predicament that they've caused in the first place."
+tortoise,fcm13pd,t1_fc2rk29,1577761487.0,"> they can’t breath when they are flipped like that
+
+That's not true. The weight of the internal organs pressing on the lungs in that upside down state has certainly an effect, but the lungs are also squeezed whenever a tortoise retracts its head and limbs. The lung volume of a Greek tortoise for example is reduced to 20% when fully retracted. Luckily, tortoises can cope with surprisingly little oxygen.
+
+Anyway, they still can breathe when flipped over, but if that state persists for a longer time, it can lead to some unpleasant consequences, as [listed in this short article](https://sites.google.com/site/tortoiselibrary/health-and-medical/upside-down-tortoise). Note that suffocation isn't mentioned - apart from possibly choking on vomit. In reality, sunburn, heatstroke, dehydration are far greater threats to an upside down tortoise that can't right itself than the impaired breathing.
+
+PS: Seen this? https://www.youtube.com/watch?v=TbsUlaHRWPI"
+tortoise,fcm0ke5,t3_eh4ady,1577761093.0,"From the sidebar:
+
+> If you want a species identified, please show at least two photos: top and bottom of the shell. The more photos, the better.
+
+This is some Mediterranean tortoise, perhaps Egyptian like others have already said. But to be sure, you need to show a photo of its plastron, the shell's underside."
+pics,fclzo5o,t1_fckxir0,1577760440.0,"Almost right. Except that perspective is never ""eliminated"". Perspective always exists, it's simply the camera's/observer's view, which depends on their position. Change the position, get a different perspective."
+tortoise,fclz2zr,t1_fc97e43,1577760011.0,That's not a sulcata. [Learn about the cervical scute.](https://i.imgur.com/Qz1l3Tz.jpg)
+tortoise,fbeodeu,t1_fben3kd,1576790191.0,"Thanks for clearing that up. That shell detail is so obvious to me that I wasn't sure you weren't pulling my leg.
+
+> Even on your link it says at the bottom ""Cute sulcata""
+
+Yes, because in *that* post, it really was a sulcata. In *this* post here, nope.
+
+I just made this for you, hope that helps: https://i.imgur.com/Qz1l3Tz.jpg"

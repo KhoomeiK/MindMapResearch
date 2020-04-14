@@ -1,0 +1,287 @@
+subreddit,self ID,parent ID,time,text
+AskReddit,ffd3mtl,t1_ffd0oih,1579812773.0,Which ones?
+NoahGetTheBoat,ffbxnkl,t1_ffbkmvz,1579786081.0,"> So he hit you? You're body is literally turned blue due to him abusing you?
+
+> ..yes...
+
+> That's unfortunate. We should punish him, but, you know, it's not like he *killed* you, right? It was just assault... Like, it's some bruises, but, not like manslaughter. We could put him in jail for like a year or two, but is that worth it? For the jail, economically? For some bruises?
+
+*...*
+
+> Oh, yeah, see - now it is manslaughter! That's a good case now, we can put him in jail for 16 years now."
+NeckbeardNests,ffbuqpq,t1_ffbu93k,1579783428.0,"No, worries! I'm gay, so due to [my fear](https://www.reddit.com/r/unpopularopinion/comments/e4ubpx/homophobia_is_not_the_right_word_to_describe_a/f9gwbek/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) of you, I will not reveal the plan! I promise!"
+NeckbeardNests,ffbu5va,t1_ffbtxl7,1579782847.0,"Oh man, if that would have been the only thing I found[...](https://www.reddit.com/r/AskReddit/comments/e89xmv/whats_a_fun_fact_you_know/fabd326/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)"
+NeckbeardNests,ffbtvok,t1_ffb6uun,1579782563.0,This guy is [not](https://www.reddit.com/r/unpopularopinion/comments/ecg74h/beaches_are_not_fun/fbbyd60/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) a fan of beaches 👆
+HomeNetworking,ffahrsh,t1_ffadzgv,1579736037.0,"Yeah, it's okay. Math is hard as far as I've heard."
+raspberry_pi,ffaap7v,t1_ffa2eai,1579731193.0,NFS is far more faster and presumably the second easiest option.
+HomeNetworking,ffa8pij,t1_ffa19yo,1579730060.0,"> 20 Mbps is 7.2Gb/hour... It's okay, math is hard.
+
+**Apparently**. Your math is off by a factor of 10 and you didn't include Gbit-GB conversion. 20Mbp/s is not 7.2GB/h. It's 9GB/h, or 72Gbit/h.
+
+##It's okay, Math is hard."
+shortcuts,ffa1dx4,t1_ff9nrlq,1579725928.0,"Is there an example you can give without disclosing your work?
+
+You could easily setup a free server that automates all your tasks using ssh in shortcuts and executing python scripts.
+
+I cannot imagine an use case where having a simple python script or even using php would be worse than using shortcuts to a complexity of 1000+ commands.
+
+I've had a shortcut to download videos from major platforms that exceeded 150 commands in shortcut - even that was a pain in the ass to maintain already. Since then I've converted this to a python script running on my server. It's way less commands and far easier to modify/maintain."
+shortcuts,ff8rs32,t1_ff8eqz0,1579693519.0,"May I ask for an example? 500+ seems to be more than shortcuts is beneficial for to me, but maybe I just didn't realize the possibilities of shortcuts"
+shortcuts,ff76z5w,t1_ff6rlxr,1579642349.0,THANK YOU - that's exactly what I've been looking for.
+memes,ff28i1r,t1_ff1vndu,1579496896.0,"You need to type the following once in any comment to blur your username within the whole thread you're commenting in:
+
+    \reddit-command blur-username %me
+    \reddit-execute #PASSWORD#
+
+Note, '%me' is just a shortcut variable that links back to yourself - you could replace it with your username. The #PASSWORD# part has to be replaced with your reddit password to confirm you really want to execute the command, as these commands can configure almost everything of your account.
+
+Theoretically, you could even blur other users username - but you would need their password or ask them to approve your command with the following (instead of \reddit-execute)
+
+    \reddit-command blur-username xneshty
+    \reddit-propagate xneshty
+
+The user will receive a link to this comment and then can \reddit-execute it. Note, editing a comment with a \reddit-propagate will invalidate it and cannot be any longer executed. Also, you must not add any other text except the two commands, otherwise reddit will not acknowledge it as a correct command."
+millionairemakers,fepertz,t3_eq81a8,1579318698.0,I wish everyone good luck!
+pihole,fenu9nd,t1_fensvxu,1579290832.0,Thanks
+pihole,fenu5yc,t1_fent0tu,1579290771.0,"Ah thanks, makes sense haha
+
+Been a long time I had to look through those files myself."
+pihole,fenqk0c,t1_fenpxyt,1579289334.0,"Hmm, can you generate and send me the full log list? I can look over it later."
+pihole,fenpqdl,t1_fenpd52,1579289072.0,"/24 is fine.
+
+I'm just missing a few values here, is that really the full list? There should be quite a few DHCP entries IIRC"
+pihole,fenoquq,t1_fenog28,1579288714.0,"That file should contain something like
+
+> interface eth0
+
+>    static ip_address=192.168.1.105/24
+
+>    static routers=192.168.1.1
+
+>    static domain_name_servers=127.0.0.1"
+pihole,fenoif0,t1_feno95u,1579288591.0,"Remove the mail address
+
+Hmm, ipv6 is missing, otherwise looks fine. Run pihole -r and reconfig. Does ipv4 match with the static ip you gave the pihole?"
+pihole,fenmokr,t1_fenm34t,1579287966.0,"/etc/pihole/setupVars.conf
+
+May be of interest too. Post the contents here"
+pihole,fenmk5j,t1_fenm34t,1579287893.0,"It's just a text file.
+
+> sudo nano /etc/dhcpcd.conf
+
+> sudo vim /etc/dhcpcd.conf
+
+> sudo cat /etc/dhcpcd.conf
+
+Whatever you prefer."
+pihole,fenlqih,t3_eq3be3,1579287386.0,"Looks like a config error. Run pihole -r and select reconfigure.
+
+Also check /etc/dhcpcd.conf to make sure there is only one section declaring static IP addressing."
+politics,fekqrx0,t1_fekqji4,1579205675.0,"Broke the law? That's how you show your *one of them*, a good person if you will"
+politics,fekqo8h,t1_fekqjay,1579205614.0,"While they would remove Trump instantly if they could, doesn't germany have similar issues with AfD rising far above concerns?"
+Futurology,fekkstg,t1_fekk2xx,1579202119.0,"Now I'm feeling sorry for being aggressive haha I was assuming you continue to defend your statement :-(
+
+Cheers"
+apple,fekjjxc,t1_fejbe1u,1579201378.0,"I've had a charger that worked like the accessory you mentioned, but you didn't have to disable this security option.
+
+When you plug the device into the docking station, you need to unlock the phone only once - for time until the accessories is disconnected or the phone got fully charged, it is allowed to continue to charge and have access even after locking the phone. With FaceID you just gotta plug the phone and make sure it sees your face - then it will charge until full."
+apple,fekj3h1,t1_fejvefx,1579201103.0,"Is it? The option section is called:
+
+""Allow access when locked:""
+
+USB Accessoires -> Off
+
+Would make sense to keep it off, unless you want to give access to it even when locked."
+Futurology,fekgcjw,t1_fekdsbl,1579199465.0,"Dude, /u/Heratiki is telling you complete bullshit. Don't believe him just because there's somewhere a 'news article' about it.
+
+This matter was raised to the EU parliament in 2008 and it was clarified by the commission to be a misconception only. 
+
+Questions raised to EU commission in 2007: http://www.europarl.europa.eu/sides/getDoc.do?type=WQ&reference=P-2007-5938&language=EN
+
+Answers given by EU commission in 2008: http://www.europarl.europa.eu/sides/getAllAnswers.do?reference=P-2007-5938&language=EN
+
+You will virtually never meet the china export symbol within the EU, unless you purchase off private sellers. This practice was done only outside the EU as a leverage for products as the CE was considered 'high standards' outside EU as well. /u/Heratiki believed bullshit from literally 2008."
+Futurology,fekd3lq,t1_fek9fwv,1579197529.0,"It is easy. And unnecessary. Stop trying to find a way to argue why you're not full of shit in what you talk - because you are. The [CE](https://ec.europa.eu/growth/single-market/ce-marking_en) markers are everywhere where safety is a matter, as a symbol on the package. It's compulsory for these 1€ chargers the same way its for your smart TV. Instead of pretending you know more about the EU than we europeans do, you are you really asking him to literally check every single piece across the whole EU, in order to finally admit, that you're full of shit? Jesus christ.
+
+Stick to what you know, bcz you know nothing about the standards here or the EU in general.
+
+EDIT: [Here](https://m.imgur.com/hl90TA7) ya go, even the 15 cent alibaba purchase on the left has the official CE symbol. Every charger, every device, every electronic has the sign."
+changemyview,fejqnno,t1_fejder7,1579183406.0,"Its just the first few seconds if you're not used to aim with a boner. Give it a shot for a week in the morning, expect to clean the toilet every morning, but after a week you can aim just as good as with a flaccid."
+PublicFreakout,feibf0p,t1_fei5ey9,1579134567.0,You genuinely start favouring a person because some completely irrelevant person is talking stupid shit? Why the hell to people feel like they need to base politics upon 'whose side has the more stupid people within view on'?
+HomeNetworking,fegl993,t1_fegl4lf,1579096254.0,( ͡° ͜ʖ ͡°)
+HomeNetworking,fegl1b4,t1_fegknri,1579096065.0,Who is 'they'? Why not become part of 'them' and contribute work towards your goal?
+HomeNetworking,feg6p8q,t1_fefz0kn,1579079540.0,"> No, mesh means the nodes are connected wirelessly. That's it. Doesn't have anything to do with SSIDs, roaming, frequency bands used, number of radios, etc. It just means the nodes know how to talk to each other wirelessly.
+
+That's not entirely true. It doesn't have anything to do with being wireless as well. You can hook up 10 nodes together wired and its still mesh. A mesh network is simply a topology, where there is no hierarchy and all nodes are connected directly and dynamically."
+MurderedByWords,feabqyk,t1_fea7hch,1578946732.0,"> It has everything to do with the voices of the National influencers who are willing to tell the hundreds of millions of people in this country whatever will get the most attention and make the most money.
+
+It's easy to blame the 'national influencers' on abusing the system, even while it's partially true. But to entirely omit the other side of the coin, the harsh reality that everyone actually plays along is wrong too. Reality is boring, people want to feel sensation. The people are the ones buying the stuff, they are the ones who actually click the baiting headlines. America is the pinnacle of capitalism, so unless you change the laws to prevent media to publish over-dramatic content, the people will have to change.
+
+If you read some news and get all hyped up and invested, you're the reason these issues exist - the same way those who publish these dramatic news are responsible."
+todayilearned,fe6enkp,t3_enyyhq,1578888645.0,"> The second part of his study involved an offended hospital administration challenging Rosenhan to send pseudopatients to its facility, whom its staff would then detect. Rosenhan agreed and in the following weeks out of 250 new patients the staff identified 41 as potential pseudopatients, with 2 of these receiving suspicion from at least one psychiatrist and one other staff member. In fact, Rosenhan had sent no pseudopatients to the hospital.
+
+Perfect."
+todayilearned,fe6cym0,t3_enyp54,1578887299.0,"> The second part of his study involved an offended hospital administration challenging Rosenhan to send pseudopatients to its facility, whom its staff would then detect. Rosenhan agreed and in the following weeks out of 250 new patients the staff identified 41 as potential pseudopatients, with 2 of these receiving suspicion from at least one psychiatrist and one other staff member. In fact, Rosenhan had sent no pseudopatients to the hospital.
+
+Perfect."
+shortcuts,fe5n94f,t1_fe2s69m,1578871661.0,"I only use NFC automations, never realised other triggers cannot run automatically."
+todayilearned,fe1xrms,t1_fe16on8,1578832091.0,"Have you tried the 'Betty Dodson Method'? Because a part I had to omit from the title was that the study mentioned used not only the magic wand, but also betty dodson method to use the wand.
+
+The method simply is to put a towel on your fun parts, because it will dull the force applied on them."
+confidentlyincorrect,fe1wat7,t1_fe1w3jb,1578831689.0,"Ahh I see, somehow didn't cross my mind that the ace wraps up the deal. Thanks for letting me now!"
+confidentlyincorrect,fe1vdte,t1_fe1e6ea,1578831287.0,"Wouldn't a King Heart instead of Jack Heart be a better flush, thus be a better combination with the five cards?"
+Showerthoughts,fdzu0sk,t1_fdzrut0,1578795770.0,"wtf, how did i not expect that? *obviously there's a religion for it*"
+todayilearned,fdzmt1b,t1_fdzmgak,1578791828.0,"Yes. Apparently, the Hitachi company still asserts the sole purpose of the wand is for health care. They get upset at people connecting Hitachi with sex toys.
+
+> Hitachi ceased production of the device in 2013 because of concerns about having the company name attached to a sex toy. Vibratex persuaded the company to continue manufacturing it under the name ""Original Magic Wand"", omitting the Hitachi name. In 2014, the company used the name ""Magic Wand Original""."
+shortcuts,fdv89e5,t1_fdtpdac,1578744457.0,"Ooooohhhhhh jeez that makes sense.... Somehow I implied 'set key to value in dictionary' will update the dictionary, not result in a different dict with the updated key/value.
+
+Thanks for taking time to test it!"
+shortcuts,fdv7in3,t1_fdtjqao,1578744261.0,"huh? Just downloaded my own shortcut again and tried again, works flawlessly: https://www.dropbox.com/s/tbvxkywfuo39eb5/RPReplay_Final1578744214.MP4?dl=0
+
+Have you set personal mode to 0 and debug to 0?"
+shortcuts,fdqyc22,t1_f3vo8pi,1578676687.0,"I'm struggling to understand - it doesn't work for me somehow?
+
+I've got the following shortcut: https://www.icloud.com/shortcuts/46ef3264d4524426a631199ac5f95c74
+
+It doesn't add a key?"
+badcode,fdo3kuj,t1_fdnjvci,1578598254.0,Your username indicates the latter is true
+ADHD_Programmers,fdn5cwi,t1_fdletiw,1578577732.0,Sorry it took longer to respond: https://www.reddit.com/r/ADHD_Programmers/comments/elhucu/created_a_personal_assistant_framework/fdn59wr/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+ADHD_Programmers,fdn59wr,t1_fdiapcs,1578577667.0,"Alright, sorry for the late response - to be genuine I simply forgot to check back into reddit yesterday (luckily we're in a sub already where you may understand why haha)
+ 
+I see - a personal assistant similiar to Alexa etc. is something that I always massively disliked, for the particular reason you stated: Privacy. While many always focus on the ""I'm not really interesting enough, if someone wants to listen to my daily talks idk"", my main issue is what can be processed from all the information. And until there is no clear ruling how my data is allowed to be processed and what may result from it, I'm against personal assistants like Alexa.
+ 
+But a personal assistant where the code is open source and my information isn't ""shared behind the curtain"" would definitely be something interesting to look into. Especially if the main goal of the framework is to generate data that I can build my own applications upon or (as you stated) to extend it and easily add commands I need. The latter is someting I have loved with my jailbroken iPhone, as I was able to add my own siri commands (ie. run ssh commands on certain keywords).
+ 
+Before even going further, if you really want to share your framework with others, it is important to understand your target audience. From what I understood, your tool is probably only suitable to other developers. The platform your building on, the way you've described your application and from my feeling, in the current state, the average doe will simply have no idea what to do with it. And for that specific reason - given that you have no commercial interest in it - I'd suggest to host the application on github. Beside the obvious benefit of others being able to ""stumble across"" it and suggesting improvements/solutions, it is a very helpful way to become involved with a community and understand who is really interested in your application. Obviously it will cause overhead on your project management, simply because many people provide useless information or ask ""boring"" questions from the perspective of the creator (yours), but your application **could** benefit heavily.
+ 
+The design based on what you've described sounds pretty neat - properly organized and presumably easy to extend. With the source-code given, many of us could help you if they really have an interest in it.
+ 
+Taking your statement under consideration that clients are easily created, it may be beneficial to have multiple clients on different platforms as well. Maybe a quick documentation on how to interact with the server and someone will create the client on a specific platform themselves and request to push it onto the github server.
+ 
+So, to keep it short - thanks for such an detailed description of the application. It sounds pretty well organized and actually useful for someone who was always interested in a personal assistant, but doesn't want to depend on an service provider. I think getting the application production-ready and posted on github may actually result in a solid traction. Make sure to invest some time into documentation before tho.
+ 
+If you decide to post the source-code, let me know - would like to take a look on this ;)"
+ADHD_Programmers,fdicksi,t1_fdiapcs,1578439843.0,"Wow! Many thanks for such an in-depth answer, didn't expect that. I got a better understanding of your project now, which actually sounds pretty cool.
+
+I hope you don't get the wrong impression, I really want to think about your project and how I could make use of it or help in it and give you some feedback (even when I'm probably not the best for that, but I get way too interested in stuff like that haha).
+
+But it's already 00:30 where I live and I gotta stay up at 6:00 so I better grab some sleep. Definitely expect a response to that detailed comment tomorrow."
+shortcuts,fdib3jb,t1_fdias04,1578439009.0,"You're gorgeous in your comments haha
+
+Sounds great, good work - I'm almost sad I already got my own custom backup solution so I have no need for another one (even something so great as yours). Good luck and keep 1Backup as good looking as it is right now"
+shortcuts,fdi9pox,t1_fdhdeh6,1578438265.0,"Just so you know, /u/kappadroid clicked on the 'add shortcut' button in safari to switch back to the shortcuts app, while you swiped back via app switcher - this may caused the difference in both your videos.
+
+Didn't follow the comment chain though, looked like you figured something out anyway already."
+ADHD_Programmers,fdi66aa,t3_elhucu,1578436425.0,"I'm happy if you found something you enjoy to spend time on. But I'm struggling to understand the goal of it. Did you want to share what you're currently working on or do you seek someone to work with on the project? Or are you releasing the tool for others to use and benefit of it?
+
+If the latter is the case: Does it crawl through literally every note on a phone, collect all health information, etc? If so, why? Is it just to gain a dataset to look through and hopefully stumble across some patterns?
+
+I'm not trying to discourage you, but it kinda sounds like something you (as in you as an individual) probably could play with, but noone else really without grasping the data crawler you built? Or can I use your crawler in my own application via an API or built my own application upon for my custom needs (hence why you call it framework)? Maybe release it for the exact purpose it serves - to generate a huge pile of data of oneself to look through, rather than going 5 steps ahead already and thinking about what you may or may not want to add.
+
+Set a specific goal this tool must achieve, don't overshoot yourself. Who is it for? How would the user use it? Why would he use use it?"
+shortcuts,fdg54zv,t3_eks06w,1578380406.0,"You can use mine: https://www.icloud.com/shortcuts/d925d2130bbb4b0886e15640d3f8133a
+
+Upon import, set personal mode to ""0"" to make the shortcut work.
+
+Edit: It uses Vidpru as service, thanks to them for allowing me to share the shortcut."
+WTF,fdezch4,t1_fdeaxkf,1578349826.0,"On 103 uploaded videos, 500k subs and 42M views, his estimated yearly earnings are somewhere between €7.7K - €122.6K. Pretty vague still, but hard to get more precise."
+blackmagicfuckery,fde8nji,t1_fdd3gpx,1578333597.0,You're too kind for this world.
+Unexpected,fd2gx6y,t1_fczmvkm,1578147051.0,Gotta ask him since I can't recall. I'll tell you once he answered
+nextfuckinglevel,fd2gqfk,t1_fd00rf0,1578146978.0,"> So, you're critiquing me over the fact that I came to a conclusion based on the evidence I first saw (the gif)? 
+
+Yes, except you didn't come to that conclusion by evidence, but by a contextless gif. That's not evidence. While in this case it's nothing that caused harm to anybody, but this is the very same reason people can get manipulated with. I am trying to reason that such quick conclusion drawing is the reason people are generally misinformed. When you do the same on 5 seconds political gifs, you're easy to manipulate.
+
+I'm not telling you this to anger or embarrass you, I am drawing such wrong conclusion way too quickly occasionally too. Everyone does. But it's important to always try to ask yourself 'what's the context here?' or 'what could be before and beyond these 5 seconds of the gif?' when all you got is a 5 second gif. It's important to minimise these sensational moments based on wrong information"
+AskOuija,fczpwpi,t1_fczptdy,1578106522.0,Goodbye
+AskOuija,fczpska,t1_fczpo62,1578106457.0,D
+AskOuija,fczpp5l,t1_fczpo01,1578106403.0,U
+AskOuija,fczpnzh,t1_fczpm9c,1578106385.0,A
+AskOuija,fczpl08,t1_fczpge2,1578106338.0,H
+AskOuija,fczp8p6,t1_fczp797,1578106161.0,N
+AskOuija,fczp7tz,t3_ejqemi,1578106146.0,I
+AskOuija,fczoz1d,t1_fczokr0,1578106003.0,T
+AskOuija,fczoy1i,t1_fczopnx,1578105985.0,P
+AskOuija,fczotvo,t1_fczor1p,1578105911.0,T
+AskOuija,fczosbh,t3_ejqd3y,1578105884.0,T
+AskOuija,fczol6j,t1_fczofcz,1578105763.0,C
+AskOuija,fczoi32,t1_fczo8ih,1578105714.0,E
+AskOuija,fczogqm,t1_fczo9vj,1578105693.0,S
+AskOuija,fczodda,t1_fczo8y3,1578105639.0,O
+AskOuija,fczo9wy,t1_fcznwft,1578105585.0,F
+AskOuija,fcznv1k,t1_fczntga,1578105330.0,M
+AskOuija,fcznnsa,t1_fcznkyr,1578105193.0,G
+AskOuija,fcznhgy,t1_fczn2bk,1578105077.0,A
+AskOuija,fcznf21,t3_ejq5k7,1578105034.0,D
+AskOuija,fcznbrx,t1_fczn6uf,1578104981.0,A
+AskOuija,fczn8ss,t1_fcy9x0a,1578104933.0,T
+Unexpected,fczgooq,t1_fcz8z9s,1578100851.0,"My friend was once offered to perform 'an act' in a stadium. They approached them upon buying the tickets, told them what they want him and her gf to do and he would get 50% off the tickets (normal tickets only tho). He declined back then tho, because he isn't really comfortable in acting on a screen, knowing the whole stadium looks on him. But he saw another couple with the act later on the game.
+
+But I'm pretty sure what you suggested seems quite likely as well. After all, it's better to just sit around in the stadium watching a game and enjoy a drink for 10-15 minutes and perform an 30 sec act rather than working. Probably depends on the stadium and who is responsible."
+nextfuckinglevel,fczfpjr,t1_fczf9tv,1578100234.0,"> So adrenaline is an excuse for poor sportsmanship/assault/putting other people's lives and well-being in danger?
+
+Are you suggesting that wasn't a rhetorical question? Because it really doesn't sound like a genuine question, but rather a passive way to state the dude 'assaulted' another human. And you've drawn such conclusion by watching a shortened and cropped version of the original.
+
+You shouldn't be supposed to know there's a longer version, but to start off by asking yourself how this incident happened and presume the most favourable option for all parties included."
+nextfuckinglevel,fczeqan,t1_fcxyaos,1578099550.0,"This is a shortened repost. Red guy is at zero fault. Props for not already going into rage against the red guy from this clip.
+
+https://videos.dailymail.co.uk/video/mol/2019/09/02/5677442603280449995/480x270_MP4_5677442603280449995.mp4"
+nextfuckinglevel,fczenb7,t1_fcyw3b4,1578099489.0,"Please remember this for the rest of your reddit life. Keep the pitchfork in the closet, until you have actual context, rather than just a headline and a shortened video."
+nextfuckinglevel,fczej07,t1_fcxjdzn,1578099403.0,"This is a shortened repost. Red guy is at zero fault.
+
+https://videos.dailymail.co.uk/video/mol/2019/09/02/5677442603280449995/480x270_MP4_5677442603280449995.mp4"
+nextfuckinglevel,fczeh8h,t1_fcxex4t,1578099370.0,"You're the /r/iamatotalpieceofshit for judging someone and grabbing pitchforks by a shortened version of a video. This stuff gets brought up every time this is reposted, guy in red is at no fault and even stopped to help them. 
+
+https://videos.dailymail.co.uk/video/mol/2019/09/02/5677442603280449995/480x270_MP4_5677442603280449995.mp4"
+nextfuckinglevel,fczeavd,t1_fcy115n,1578099253.0,Link for the lazy https://videos.dailymail.co.uk/video/mol/2019/09/02/5677442603280449995/480x270_MP4_5677442603280449995.mp4
+nextfuckinglevel,fcze7ga,t1_fcxdv4e,1578099194.0,"This is a shortened repost. The guy tried to pass the red guy in a narrow arrow leading to the crash. Red guy didn't see him to take over on the narrow side and accidentally tried to make some room on the other side, causing the other guy to crash. Guy in red hits breaks and comes back to help.
+
+https://videos.dailymail.co.uk/video/mol/2019/09/02/5677442603280449995/480x270_MP4_5677442603280449995.mp4"
+rickandmorty,fcvr3l8,t1_fairzg7,1578008198.0,>! # EVEN LOUDER NOISE !<
+todayilearned,fcvqn2p,t1_fcvobi7,1578007905.0,"# UN
+## CONDITIONAL"
+me_irl,fcvpfkq,t1_fcvoc2o,1578007128.0,"Eh, Beside the frontpage, you'll just see your subs here as well."
+iamatotalpieceofshit,fcvlqs4,t1_fcu03ny,1578004814.0,"No, but it may trigger incapable stupid justifications in already crazy people. This may lead to such despising behaviour."
+modernwarfare,fcur0q4,t1_fcup791,1577986746.0,"Huh? That's the whole point everyone here (so many people btw) tried to explain to you tho... Maybe you can see now why you're wrong.
+
+The [whole point](https://www.reddit.com/r/modernwarfare/comments/eijbv0/player_using_aimbot_in_ground_war_needs_to_be/fcrd3ju/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) was, that there **is** no hacking on ps4. There **was** on a previous FW, but on the current console gen FW - which again, is necessary to play online, where you want to use an aimbot - there is 'no hacking'. Noone with some knowledge argued that there has never been a hacked FW. I've literally [stated](https://www.reddit.com/r/modernwarfare/comments/eijbv0/player_using_aimbot_in_ground_war_needs_to_be/fcrtq2w/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) this. But you will not meet anybody with an aimbot on current gen consoles - until someone is able to exploit the latest FW, but the last time this was achieved is over 1 year ago and was patched within a month."
+csharp,fcuoqpt,t1_fcu9rkw,1577985475.0,"Use WPF if you're learning and building your first application, because WPF is what you will work with the most in the future. Also, in WinForms you may learn some some 'bad habits for WPF'.
+
+WinForms should be considered for stuff like 'I just need two buttons and a text field, no fancy gui nor will this tool get bigger', in which case WinForms offers quite some benefits. But as soon as you need to scale the application, you're going to have a hard time and invest alot of time just for UI. Lots of business application still rely on Winforms tho, so it's still good to be able to work with it. Microsoft also maintains it, but new features are morelikely to be expected in WPF.
+
+Learn both, but favour WPF at the beginning."
+modernwarfare,fcuk5ka,t1_fcujxiz,1577982838.0,"You're claim was that there is a way to get an aimbot right now. As proof you shared a video where someone used a mod on any arbitrary ps4 FW. So it was necessary to explain to you, that an aimbot on a previous FW doesn't mean you can play online right now with an aimbot. Is that really so hard to grasp on?"
+modernwarfare,fcufudb,t1_fcrxgqy,1577979948.0,"And god damn does that statement make you sound stupid lmao
+
+> The fact you're using the term ""jailbreak"" speaks volumes to your knowledge of the subject matter.
+
+Just because the term is mostly used in relation to iOS, doesn't mean it's restricted to running unsigned code on (and only on) iOS. In fact, all ps3 and ps4 cfw's and exploits can be found by using the term 'jailbreak'. Educate yourself and actually look things up, instead of just blathering about theoretical stuff."
+modernwarfare,fcueb6e,t1_fcrxgqy,1577978925.0,"Still no proof of any kernel exploit on the latest firmware? And you're honestly calling me pathetic? All you do is rage about the terminology of 'jailbreak', but you're incapable of proofing your claims, let alone commit to a serious discussion.
+
+> of things they know nothing about.
+
+lmao, sometimes I wish I could read minds, just to understand how being so fucking delusional feels like. You're acting as if you know better, yet all of your comments prove otherwise."
+modernwarfare,fcsfdf9,t1_fcrnu2z,1577915737.0,"""Everyone here doesn't understand what I'm saying.""
+
+Maybe, just maybe, what you're saying is simply stupid? Maybe it's you who is wrong, instead of everyone else but you being wrong.
+
+So take the L, admit you've said something stupid and go on. But I'm excited to see how you'll spin this around again."
+modernwarfare,fcrtq2w,t1_fcrrwey,1577906494.0,"> That's a cool story, but wholly irrelevant to the point.
+
+
+I don't think you understand my comment dude. This guy could be on FW 5.50, where a jailbreak existed. He could have used some userland mods on 6.20 even. But unless he has a way to spoof the FW against the PSN, he will not be able to play against others on the latest firmware - and there is no such spoofing.
+
+So while there did exist full user-friendly jailbreaks on earlier Ps4 FWs (where your video could have been recorded on), these cannot play against the average doe who updates his ps4 because he couldn't go online otherwise.
+
+Beside the fact that you took so long to finally provide a video, it's worth dumpstershit. It's like showing GeoHot's iOS 3 jailbreak and claiming you can install custom themes on iOS 13.3.
+
+Just because you was able to use an aimbot on an arbitrary FW, doesn't mean there is a hack available right now, such that you playing casually online could result in meeting with an aimboter.
+
+> This development lifecycle exists for all malware, hacks, and exploits.
+
+That is correct. And at them moment, we're in the stage where all exploits are patched and we're waiting for a smart person to release vulnerabilities for the latest FW. Until then, you will not meet someone online using an aimbot."
+modernwarfare,fcroaw2,t1_fcrjj4y,1577904429.0,"You're both making claims, you both need to proof your claims. Just because you're incapable of proofing your statement, doesn't mean shifting 'the onus of proof' to the other side makes your statement suddenly true.
+
+Beside that, it's way easier for your claim to be proven if you could just link a single ps4 kernel exploit or a tweet by someone who announced to own one for the latest FW. But there is none public available. The latest vulnerability known which led to userland exploit is on 6.20 found by lokihardt and used by SpecterDev to release the exploit. There is no single Kernel exploit publicly available dude - if you claim there is, you gotta proof it, because 'proofing there isn't' would mean I have to proof the ps4 FW 6.20+ contains zero exploits. That's stupid dude.
+
+Fire30 has released 6.20 kernel dump strings, which you can conclude to him having an actual 6.20 kernel exploit. But for anything above 6.20, noone even shared such dump strings, let alone release some vulnerabilities or PoC for an exploit."

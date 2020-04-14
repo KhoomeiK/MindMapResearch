@@ -1,0 +1,60 @@
+subreddit,self ID,parent ID,time,text
+KerbalSpaceProgram,ffa3mfc,t3_eshv3n,1579727219.0,Click the little water/paint droplet icon next to the part
+KerbalSpaceProgram,ff9mx0q,t3_esa466,1579716348.0,"This is a pretty good resource. I haven't skimmed through the whole site, but it's fairly comprehensive. It doesn't go into derivations or much, but if you just want to do the math then it's a good start
+
+http://www.braeunig.us/space/"
+KerbalSpaceProgram,ff9l0ji,t1_ff9jnow,1579715227.0,Kerbal Engineer Redux (KER)
+KerbalSpaceProgram,ff8zy30,t1_ff8q1ki,1579701283.0,"If you move the mouse over another part that uses symmetry 3, then it automatically switches to it if you're on anything except 1. Just try to avoid moving over other parts if possible"
+KerbalSpaceProgram,ff842pg,t1_ff80vgx,1579665441.0,"If you're running the game through steam, I think it's always going to redownload them. You can run the game through the executable in the install folder without needing steam open and it won't bring the stock ships back (or didn't when I just tried). 
+
+That said it's only like 6 MB if you mean physical space, or you can disable them in the difficulty options (per save file) if you want to remove them from the list of ships in the VAB"
+KerbalSpaceProgram,ff3p53u,t1_ff2vp1u,1579545841.0,"The in-game robotics with the DLC don't have very many options in terms of control inputs, I think it's really only action groups or keypresses that can trigger them in a preset sequence.
+
+If you can program or want to, then [kOS](https://ksp-kos.github.io/KOS/tutorials/quickstart.html) and [kRPC](https://krpc.github.io/krpc/) both are good for more robust scripts (like mechjeb-level stuff). kOS is its own language and is better implemented imo, but kRPC can use several real languages like Python (which is what i've been using to make my own meager mechjeb)."
+KerbalSpaceProgram,ff1n7tc,t1_ff1gi47,1579481982.0,Some super long copy pasta ranting at one of the many bots who post smiley faces
+KerbalSpaceProgram,ff0yh0m,t1_ff0fc84,1579473504.0,"The HG-5 isn't really strong enough to make a reliable network out of, though the next tier (the smallest static dish one) is pretty good. For ease of use, a simple 3-way satellite triangle around the equator is pretty reliable for any mission that won't be on the poles. Any reasonable altitude is fine, the theoretical minimum is the planet diameter but keosynchronous satellites are coolest imo.
+
+The first satellite is always the hardest. I'd stick to a very vertical ascent so you don't lose sight of KSC while trying to circularize. The rest should be able to see either the KSC or the other sats without too much risk of a deadzone."
+KerbalSpaceProgram,feybcud,t1_feyafn0,1579443212.0,"Just imagine the cursing scene from Christmas Vacation, but a neckbeard with a thesaurus wrote it"
+KerbalSpaceProgram,feshad7,t1_fesf6dy,1579365097.0,"If you press 'r' in the VAB or hangar, you should be able to change to mirror mode which lets you place wings, elevons, etc. symmetrically across a fuselage. Still slow-going, but at least keeps it symmetrical. You can also use the 'move' tool to align them better"
+KerbalSpaceProgram,ferjzsk,t1_fepud5u,1579354863.0,"You can't put air into a rocket engine and expect it to work right. Most engines use liquid oxidizer (vs. gaseous air) and air has a measly 21% oxygen (not to mention the other stuff, which further messes with the chemistry), so you'll have a super low flow rate (gas vs. liquid density) plus a poor chemical reaction. It does not make for a lot of thrust, if it would even work at all.
+
+That would also be pretty unbalanced for gameplay anyways"
+hardware,feova73,t3_eq85xs,1579306175.0,"The 2016 version I don't think is compatible if [this](https://thermalbench.com/2016/03/08/be-quiet-pure-rock-cpu-cooler/) is correct. You might be able to find a mounting kit somewhere online, since newer versions of the cooler are compatible.
+
+Also, questions like this are better suited for /r/buildapc, here is for hardware news or in-depth discussions"
+KerbalSpaceProgram,fei26lp,t3_ep8ps8,1579128649.0,"I've only seen the orange symbol when the probe core was hibernating, you might double check that."
+ThingsCutInHalfPorn,fei0de5,t1_feghgrv,1579127552.0,"Hydrogen would go from the right, through and around around the nozzle back out the left. This cools the whole nozzle. It could be sent to a turbopump first and then through the injectors, or just directly to the injectors. 
+
+Oxygen usually goes straight to the injectors, the input for those is on the top where we can't see.
+
+Really not sure what the hole in the top center is, maybe the igniter or turbopump exhaust. It wouldn't be hydrogen or oxygen alone, since those need to be sent through an injector together to properly ignite."
+KerbalSpaceProgram,feh5l85,t1_fegt3n2,1579109613.0,"With super long burns, you aren't always actually adding to your velocity in the way you want to. For example, take a prograde burn that takes exactly as long as your orbit. You'll be pointing prograde at the node, but when you start the burn you'll actually be pointing retrograde if you start at half the burn time. Pointing retrograde is exactly the opposite of what you want to do, even though it's the ""right"" direction on a solar scale it doesn't matter since you're still around Kerbin. That's beyond inefficient into detrimental. 
+
+The key to long burns is to either split it up into several smaller burns that will all actually be in the right direction, or to, like you said, be in a higher orbit, where the relative burn time is small compared to the orbit. The former is more efficient, but the latter is easier.
+
+If it's easier to think about the math, you will always have an angle between the direction you are pointing at and the direction your node is designed around. The 'efficiency' of your burn is the cosine of that angle, where a lower angle going on zero will be 100% efficient; my example earlier is 180^o , so cos(180) = -1 makes it 100% inefficient."
+hardware,feex3nt,t1_feewt45,1579043107.0,"Yeah, go for the newest. 2.00 is the minimum, but newer ones were updated/made for a good reason (probably)"
+hardware,feew3se,t1_feevrh5,1579042477.0,"Looks like that means version 2.00 or later, so if your bios version is less than that you would need to update it. You can check which version you have installed in the bios itself or with cpu-z"
+KerbalSpaceProgram,feevhou,t1_fe9l392,1579042098.0,"Double check for v-sync options in-game and in the nvidia control panel and disable them. Also just in case, make sure that you're plugging the monitor into the GPU rather than the CPU/Motherboard, otherwise you aren't using the GPU at all."
+KerbalSpaceProgram,feev7nd,t1_feenatf,1579041928.0,"It usually transfers every 10% in my experience, just let it run a bit longer"
+hardware,feeuy1n,t3_eosnpd,1579041763.0,"I wouldn't think so. Double check the CPU compatibility list of the BIOS version you already have installed though, you should be able to find it just by googling your mobo"
+KerbalSpaceProgram,fdlvk9t,t1_fdljpst,1578533515.0,"The interstage nodes just add blank spaces in the air that you can attach to. They do not have any decouple features or whatnot. You have to add a decoupler (or engine plate, which won't leave the decoupler hanging there) in order to be able to separate anything attached to those nodes. The decoupler has to be the root part of whatever you want to detach.
+
+The truss structure will build a truss structure between any two nodes. It covers two sides and the top of whatever it's above, but I believe it disappears if you decouple everything that is attached to the node. So using a decoupler won't get rid of it because the decoupler stays behind, but a stack separator will get rid of it since it separates from both parts.
+
+For the Saturn V, I'd use an engine plate. You have to make sure that the engine plate is the part that attaches to the node however. I've had it happen where it looks like you attached it correctly, but you actually attached some other part of the spacecraft to the node, then it just stays there taunting you when you stage your decoupler."
+KerbalSpaceProgram,fdcvrdm,t1_fdbj71w,1578285716.0,"You can try /r/buildapc for build suggestions too, if you throw it all into a pcpartpicker list. 
+
+Off the cuff, I'd say unless you know you need it, you can get a much cheaper motherboard and throw the money into a 2080 Super for a similar total cost. It really doesn't make a difference unless it has specific features you know you need. Same with the processor if you're just gonna be gaming, a 3700x is gonna be really similar in performance to a 3950x even for a few years yet. Also try to get 3600MHz RAM since it's not too expensive and that the PSU is actually a good model (not just high watts). 
+
+Can't speak for visual mods, though :P"
+educationalgifs,fcba1b0,t1_fcb2bl1,1577584316.0,"Just because an object is near a planet doesn't necessarily mean it's going to stay there. It also has to be going slow enough so that it doesn't end up overshooting the planet and continuing on its path. For example, with New Horizons NASA flew really close to Pluto but at 22.5 km/s (50,000 mph) so it was never going to stay in orbit. That doesn't mean it is not affected by being so close though. Every time you get near a very massive object in space, you transfer a little bit of energy with it with that affects your orbit. 
+
+What we see here is actually the Moon doing all of the work. Without it, the object would have simply flown by and if it was in orbit already, never have left. In the beginning we see the Moon pull the object in reverse to where it was headed, so it slowed down enough to actually stay in orbit. Towards the end when it got really close to the moon, the moon pulled it in the direction it was already heading so it sped up enough to leave again."
+educationalgifs,fcb2hji,t1_fcawe22,1577581439.0,"It looks weird because it's in the sun's reference frame, meaning we're also seeing the Earth's movement as well. From Earth it would still look like an ellipse (any other orbit), which is calculated with the [Lambert problem](https://en.wikipedia.org/wiki/Lambert%27s_problem)"
+educationalgifs,fcb1uhc,t1_fcax28d,1577581087.0,"Lagrange points don't exist in KSP because it uses Patched Conics, which is a way of simplifying the orbital math by ignoring all other massive bodies except the one you're currently orbiting (so only the sun, or only Kerbin/Earth). The lagrange points exist because there are simultaneous forces by the sun and Earth that maintain a stable orbit which is otherwise improbable due to various perturbations including those same forces."
+hardware,fc6byli,t3_egfsnp,1577477006.0,"If you already know the performance and prices, then only you can really determine whether its worth it or not. 
+
+Look at benchmarks for what games you want to play and at the resolution you want to play them. If the 5700XT will get you the performance that you want, then you won't be disappointed by buying it"
+hardware,fc09hdk,t3_efgssa,1577283972.0,www.pcpartpicker.com and yes

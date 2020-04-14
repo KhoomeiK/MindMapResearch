@@ -1,0 +1,25 @@
+subreddit,self ID,parent ID,time,text
+Iwidkhtr,ffrb68a,t3_euq521,1580154404.0,ah....
+worldnews,fffeaqp,t1_fffd6cf,1579882077.0,"“to shutter” means to close the shutters of; it’s unrelated from “to shut”, though the confusion is understandable."
+AskReddit,ffcuvw9,t1_ffbxkba,1579807745.0,i think radicalism of any sort has the potential for hostility and intolerance
+gamemaker,ff7rmu0,t1_ff7pceo,1579656686.0,"Ok, so this was insanely helpful; thank you so much! The only issue, which I assume is pretty minor, is that the running code executes a\_lh\_count amount of times. For example, if the player enters the running state when a\_lh\_count = 3, the code for entering the running state will execute three times, which is somewhat problematic given the system my game uses for running. I'm still trying to wrap my head about what you've provided so I'm not quite sure why that is, but extremely helpful nonetheless."
+gamemaker,ff7jhju,t1_ff7izkt,1579651008.0,"So, I've slowed the game down a bunch to test this and, yes, this does appear to be the problem. When the game runs slow enough, the axis value will go straight from 0 to 1 and, by extension, consistently switch states. The only problem is that setting the room speed to 5 isn't a great solution."
+gamemaker,ff7ja77,t1_ff7izkt,1579650870.0,"In a sense? I'm not really locking the number, more so wrapping all of this code in an ""if state = states.idle"" test to ensure that this code can only run while idling and therein won't let the player change from walking to running or vice versa without releasing the stick. Regardless, I figure the issue is the same."
+gamemaker,ff7gc6j,t1_ff7dccu,1579648902.0,"I think the issue comes with the fact that tilting the stick won't always bring the axis value from 0 to something > .4. Even if it's just for one frame, if the axis value is less than .4, it'll enter the walk state. Since you can't enter the run state from the walk state, only from the idle state, it isn't consistent."
+RivalsOfAether,ff7g513,t1_fejmd2p,1579648774.0,wait what
+gamemaker,ff7fe4l,t1_ff7dccu,1579648282.0,I hastily threw that code together to demonstrate what I had previously tried. I accounted for leftward movement when I last attempted; sorry about that confusion. Swapping else if and else doesn't seem to change anything. Thanks!
+gamemaker,ff7898v,t1_ff7402d,1579643065.0,"Honestly, it’s antiquated code. Like I said, I have a pretty limited grasp on how gamepads work in GameMaker and I must’ve picked that up from a tutorial as it seems to work for me. I’ve just been using it to get input for the horizontal axis of the left stick."
+aww,ff1vdty,t3_er3rkl,1579487028.0,YES
+smashbros,fejwqws,t1_fejwprl,1579187614.0,nah they rly didn’t
+RivalsOfAether,feidh1i,t1_fehytth,1579135946.0,no it’s always said racist
+aww,fefe419,t1_fefbf86,1579054367.0,i’m sorry but who the fuck is he
+aww,fefe38s,t1_fef8oia,1579054352.0,she’s literally perfect
+tf2,fef2yza,t1_feet8g0,1579046953.0,he’s drunk what did you expect
+comedyheaven,fec6gnv,t1_fec4yy4,1578967443.0,is the administrator
+comedyheaven,fec6f1j,t1_febzfxg,1578967417.0,funny!
+askgaybros,fdnsgvi,t3_emb2sv,1578591923.0,man i be looking back to 12 hours ago realizing how stupid i was
+iamatotalpieceofshit,fddp5xs,t1_fdcx3er,1578320163.0,yeah it’s kinda sad honestly
+scifiwriting,fdb7dbo,t1_fdanhp6,1578254592.0,wish star wars didn’t have rose
+AskReddit,fckmvyj,t3_ehljus,1577728776.0,"“F*ck this, I’ll just be a male stripper”"
+iamveryrandom,fcfo9ou,t1_fcficvb,1577632195.0,this is generally why we censor usernames
+PhonesAreBad,fccql4q,t1_fcc42fh,1577601470.0,why did you throw hobbes away you monster

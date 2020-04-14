@@ -1,0 +1,322 @@
+subreddit,self ID,parent ID,time,text
+cpp,ffd5jdf,t1_ffd4l7d,1579813833.0,"Ah, fair enough. For what it's worth, cppreference is the only thing I use as well."
+cpp,ffd4e56,t1_ffcq2rb,1579813196.0,lmao literally the second sentence mentions how the OP already tried this
+hiphopheads,ff8i2ji,t1_ff7sk34,1579679458.0,it's his kid
+MovieDetails,ff7tfd8,t1_ff7rfiu,1579657929.0,"You're missing the point. An insurance company has no incentive to actually pay out claims beyond what they are legally required to. If your claim is substantial, they will do everything within their power to deny it. Health insurance providers are notorious for this."
+cpp,ff7dzjr,t1_ff7dqcb,1579647358.0,"Huh. I guess I was confused by Raymond's assertion that using `erase` would avoid throwing an exception. I assumed he meant that `erase` would never throw an exception, but I see now he must have meant `erase` wouldn't throw an exception in this scenario."
+cpp,ff79xfh,t3_es0j63,1579644184.0,"I'm confused, it seems like the quoted parts of the standard contradict one another:
+
+>[basic.string]: basic_string is a contiguous container.  
+>[container.requirements.general] (11): Unless otherwise specified…, all container types defined in this Clause meet the following additional requirements:  
+>[container.requirements.general] (11.3): No erase()… function throws an exception.  
+>[string.erase]: Throws: length_error if n > max_size().
+
+Doesn't this say: the `erase` method on a container cannot throw, and at the same time, `basic_string` is a container whose method `erase` throws `length_error` if `n > max_size()`?"
+rust,ff727zz,t1_ff6xsf0,1579639652.0,"You'll find working with array types of size larger than 32 a pain in general. Since Rust doesn't yet have stable support for const generics (non-type generic parameters), trait implementations can't be generic on array size. The work around was to manually implement common traits for arrays of size up to 32.
+
+In the nightly compiler, these trait implementations are actually already done via const generics, but for stability reasons, will still hard-error if you attempt to use a trait with an array size greater than 32. Once const generics get stabilized, this issue will go away."
+programming,ff6z4bs,t1_ff6o7wb,1579637864.0,">the Rust leadership has air-gapped the Reddit sub from their web-site
+
+What are you referring to?"
+rust,ff6ynqt,t1_ff6ouvn,1579637593.0,"Try adding a [build.rs](https://doc.rust-lang.org/cargo/reference/build-scripts.html) to your Cargo root.
+
+Something like
+
+    fn main() {
+       let lalrpop_files = /* determine your list of files */
+       for file in lalrpop_files {
+           println!(""cargo:rerun-if-changed={}"", path_to_file);
+       }
+    }
+
+should suit you nicely. This will cause Cargo to re-build if any of the given files have changed. I'm not sure how well this plays with RLS. You may have to enable unstable features."
+rust,ff3wq87,t3_era5pe,1579550516.0,If `Json` is not a generic type (and rather an indicator for some kind of JSON magic) then I think the attribute more clearly displays that.
+programming,ff3acbs,t1_ff1y21c,1579537324.0,"His postscript makes it clearer that it wasn't all political waffling; there was a serious stability issue introduced by the need to interoperate Lisp with C.
+
+>Many of the multi-language integration headaches were caused by the interprocess communication system that allowed Lisp and C to communicate. The IPC relied on a central server (written in C) which crashed regularly. Getting rid of Lisp did in fact alleviate those problems (because the unreliable IPC was no longer necessary). It is nonetheless supremely ironic that the demise of Lisp at JPL was ultimately due in no small measure to the unreliability of a C program."
+programming,ff0cp7t,t1_fezt98e,1579467611.0,"I'm not a heavy user of either, but my understanding is that generics are implemented very differently. Java uses type erasure, whereas C# bolted them onto the runtime itself."
+programming,feyrvb4,t1_feyp33n,1579449793.0,"By runtime checks you mean input validation? That's not what I think of when you say ""runtime checks"" like in a dynamically typed language.
+
+At least in a statically typed language, once you've validated your inputs, you don't have to continuously validate them so it doesn't blow up when `None` ends up somewhere it's not supposed to be."
+programming,feyocjt,t1_feyml8x,1579448217.0,">You need runtime checks anyways. 
+
+Citation needed"
+todayilearned,fep5ir0,t1_fep510f,1579312594.0,"America is one of the largest countries in the world. It's a geographical inevitability that people are spread out.
+
+I'm not arguing that the state of American public transportation isn't unnecessarily dismal, but there's more than just culture preventing it."
+todayilearned,fep246a,t1_feoxewo,1579310423.0,"Most of America isn't urban. Your argument is correct when speaking of a much more dense society, but many Americans have little or no access to public transportation, and in many places the population is too spread out to make it effective."
+programming,feodzwy,t1_feod0bt,1579298800.0,"I said it's unnecessarily mean, but I wholeheartedly agree with why they said it. My emotional reaction would probably be the same."
+rust,feod59u,t1_feo1r9d,1579298505.0,"Isn't that basically the PowerShell model as well?
+
+I imagine it works well in an organization where you can plan ahead and dictate how the data is structured, but I wonder how well it would work when the various tools don't explicitly go out of their way to collaborate with one another."
+programming,feo79n7,t1_feo6k9b,1579296075.0,"Point of comparison, I believe. Or perhaps proof of concept"
+programming,fenmxfq,t1_fenhogl,1579288054.0,">Nemo157 commented: As a PoC this patch applied to actix-net passes all tests, and when the second playground is run against it under Miri it soundly fails with thread 'main' panicked at 'already borrowed: BorrowMutError' from within the AndThenServiceResponse. Presumably this requires benchmarking/more exhaustive testing which I don't have time to do, but if someone wants to take the patch and get it merged feel free (I license it under Apache-2.0 OR MIT, though I don't consider it to be creative enough to be copyrightable).
+
+>fafhrd91 commented: this patch is boring
+
+>CJKay commented:
+
+>>this patch is boring
+
+>So is resolving silent data corruption.
+
+>bbqsrc commented: @fafhrd91 seriously? Please just stop writing Rust. You do not respect semver, you do not respect soundness, so why are you using a language predominantly based around doing these things right?
+
+The last comment is mean for no reason, but I understand the sentiment.
+
+Not only did it take several attempts to convince fafhrd91 that there was an actual soundness bug, but once someone had done the requisite work to fix the bug, he responds with a pithy ""this patch is boring.""
+
+Regardless of what you think a maintainer's duties are, I don't believe being condescending and dismissive of other's work in attempting to fix *your* bugs is appropriate. It certainly warrants some level of derision"
+programming,fenl9sd,t1_fen604w,1579287102.0,"A technical evaluation is not an attack. If by ""severely damaged"" you mean ""exposed technical flaws"" then, I don't know what one would expect.
+
+If you make false claims, don't be surprised when people evaluate them and find them to be false."
+rust,fenbwtw,t1_fen51gy,1579281384.0,"That's a false equivalence. The unsafe code in the standard library has been tested and not a single one of them is a bare `unsafe` block with no comment about proving the safety of the block.
+
+In fact there's work underway to statically verify the safeness of the `unsafe` blocks in the Rust standard library."
+programming,fen4k3o,t1_fen2itg,1579276818.0,"> Why is everyone calling this awesome ?
+>> a) Rust's compile time guarantees are awesome, b) as long as developers don't undermine them in the case of questionable performance wins.
+
+The current situation isn't awesome, specifically because certain libraries subvert the language's safety features.
+
+> good old libcurl is still the best.
+
+Did we read different articles? Did you miss this paragraph from the author?
+
+> libcurl is fairly benign by comparison with only [9 publicly reported security bugs per year (no matter how you count)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=proj&colspec=ID%20Type%20Component%20Status%20Proj%20Reported%20Owner%20Summary&num=100&q=-status%3AWontFix%2CDuplicate%20-Infra%20proj%3Acurl&can=1). Which is, you know, a new exploit every couple of months or so. But that’s just the vulnerabilities that were properly disclosed and widely publicized; dozens more are silently fixed every year, so all you need to do to find an exploit is look through the commit log. Don’t believe me? [Here is a probably-exploitable bug](https://github.com/curl/curl/commit/68ffe6c17d6e44b459d60805813f646d244a186b) that is still unpatched in the latest release of libcurl. You’re welcome."
+rust,femwddl,t1_femszke,1579271343.0,"It's not the ""responsibility"" of a library author to maintain Rust's safety reputation, sure, but that also shouldn't shield them from criticism when they seem to be unnecessarily abusing `unsafe`. What's the point in using a ""safe"" language if you're just going to use `unsafe` everywhere to skirt the safety guarantees?
+
+Use of `unsafe` is only intended for when you know something is safe, you just can't prove it to the compiler. It's an escape hatch, and one that we often get wrong. Not because anyone sucks but because writing safe `unsafe` code is hard.
+
+I think efforts like `cargo-geiger` are a step in the right direction. Every bit of `unsafe` code should be scrutinized and justified. People can write unsafe libraries, but their consumers should be made aware of what they're getting into."
+cpp,felvpfv,t1_felv3tb,1579232115.0,Lambdas are far more than simple syntactic sugar
+cpp,fei800d,t1_fei7h7u,1579132323.0,"Took about that long on the dev servers at work, but ironically the real killer was memory, not CPU. The final link took several gigs, one of the largest I've ever seen."
+rust,fehpbdg,t1_fehjofq,1579121171.0,"I don't think I understand what you mean when you say ""implemented on stack."" What do you mean when you say ""stack""?
+
+The compiler keeps track of borrows during compilation. They don't exist in the resulting binary. i.e. the borrows aren't ""implemented on the stack."" The fact that local variables are stored on the stack has nothing to do with it.
+
+If you make `a` and `b` `static mut`, the function doesn't touch the stack at all. You can verify that from the [resulting assembly](https://godbolt.org/z/2KM6Z8).
+
+If you don't know what I mean by that, I'm not sure I can help you any further."
+rust,fehjh4g,t1_fehh48u,1579117798.0,"How did you get that from my explanation? You asked where `c` is stored, and I told you it isn't stored at all.
+
+The fact that `a` is stored on the stack has nothing to do with borrows."
+rust,fehf93m,t1_fehdxbi,1579115326.0,"~~A register~~ this is incorrect, see edit. I feel like you're missing the point here. Even if the value of `c` were stored on the stack, the borrow doesn't end because the value of `c` gets popped off the stack, it ends because `c` goes out of scope.
+
+I think what's confusing here is that scopes sort of work like stacks in that everything gets ""popped"" off the scope at the end (goes out of scope). But these scopes doesn't correspond to ""the stack"" as it exists in memory.
+
+EDIT: Actually, if you inspect the resulting assembly, `c` and `d` are nowhere to be found. `1` gets pushed on the stack (representing `a`), it gets loaded into `eax` which represents `b`, the `1` gets re-written on the stack (same place, again representing `a`) and then that value is added to `eax`, which represents the result `a + b`.
+
+So the borrows only exist in the source code, and aren't stored anywhere."
+rust,fehah1u,t3_ep0s60,1579112529.0,"So ownership is not about when something gets dropped. Ownership *is* used to determine when something gets dropped, but it's more than that. Ownership is about whether or not a value can be borrowed.
+
+If something owns a piece of data, then it can lend it out (borrows) It can lend out unlimited immutable borrows or one mutable borrow. Where the data actually lives is irrespective of the ownership.
+
+    let mut a = 1;
+    let b = &a;
+    let c = &mut a;
+
+All of the above data lives on the stack, but ownership rules are still in play. You can't mutably borrow `a` because it is already borrowed by `b`.
+
+Also scopes =/= stack frames
+
+    pub fn blah() -> u32 {
+       let mut a = 1;
+       let b;
+       {
+          let c = &a;
+          b = *c;
+       }
+       let d = &mut a;
+       *d = 1;
+       a + b
+    }
+In the above, [no stack frame is created for the innermost scope](https://godbolt.org/z/bqSmbS). Borrows have nothing to do with the stack, and aren't implemented using the stack."
+programming,feh91k0,t1_feh8wl3,1579111661.0,The irony that most of those comments are me arguing with conservatives on /r/conservative. *sigh*
+programming,feh8iaj,t1_feh8a63,1579111340.0,Why does it mark me as an /r/conservative user? Just because I've made comments there before? I heavily resent the association
+programming,feh85bw,t1_feh7vv8,1579111129.0,"oi, what's with the RES tag? I just thought it sounded funny out of context."
+programming,fegtmx6,t1_fegdifm,1579102264.0,"One of the things I love so much about Rust is that it's clearly a language that caters to programmers. Code examples like that (trivial or not) are our bread and butter. They give you a feel for what writing the language is like. The old example displays several of the major selling points of Rust:
+
+- C-like syntax with type inference
+- Python-like format strings
+- Built-in UTF-8 support
+- Functional-style iterators and pattern matching
+
+Is it literally a perfect demonstration of every feature of the language? Of course not, it's inherently contradictory for an example to be both simple and display all the complex features Rust offers. If anything, the triviality (I prefer to say simplicity) of the example is exactly why it's so perfect. The use of a common example like Hello World allows you to focus on the language itself, so you can compare and contrast it with how the same example is written in other languages.
+
+Sorry if I rant about this, but that site redesign is one of the few things that I think the Rust team has done completely wrong. The example on the old front page was literally the reason why I initially looked into Rust. It's like they had a problem with their front page not being as bland as every other programming language's front page, and decided to kill it because apparently CTO types need to be impressed by fancy CSS and meaningless quotations."
+programming,fegs7vr,t1_fegqkdc,1579101322.0,"> trap the illegals
+
+Too early this morning, read your comment a little fast, remembered what sub I was in and spit out my coffee when I realized this didn't mean what I thought it meant
+
+EDIT: I don't usually complain about downvotes, but what gives? I didn't mean to offend anyone. Is this really in that poor of taste?"
+WhitePeopleTwitter,fefa2na,t1_fef8hko,1579051733.0,"Google translate says:
+>>لطفاً از این واقعیت غافل شوید که من یک ممنوعیت مسافرت برای شما ایجاد کردم و تهدید کرده ام که سایت های فرهنگی شما را بمباران می کنم
+>
+Please ignore the fact that I created a travel ban for you and threatened to bomb your cultural sites."
+rust,feeek66,t3_eoo95w,1579032133.0,"Everywhere where you see a bare `&` or `&mut`, the compiler actually inserts *inferred* lifetimes. So in that sense, lifetimes are built into the language, and are always there even if you don't type them. The point of lifetime annotations is to assist the compiler when it infers wrongly, or can't infer the lifetime.
+
+Consider the most common lifetime annotation `'static`. Say you have a member function that consumes the object returns a `&str`. You might write:
+
+    fn foo(self) -> &str { return ""bar""; }
+
+But the compiler will reject your program, because it has no information to infer the lifetime of `&str`. If, for example, the definition was
+
+    fn foo(&self) -> &str { return ""bar""; }
+
+The function will compile, because the compiler is able to infer the lifetime of the return value from the lifetime of the object itself -- we can replace the above with
+
+    fn foo<'a>(&'a self) -> &'a str { return ""bar""; }
+
+**However**, we still haven't written a version that will behave as expected. Something like
+
+    let b: &'static str = a.foo();
+
+will fail to compile unless `a` is itself a `&'static`, because the inferred lifetime is the same as the object's lifetime. The correct, final version of `foo` is
+
+    fn foo(&self) -> &'static str { return ""bar""; }
+
+or, to use our original example where we consumed the object,
+
+    fn foo(self) -> &'static str { return ""bar""; }
+
+This might seem like a trivial or silly example, but hopefully it illustrates the concept."
+cpp,fee9bof,t1_feccmom,1579029069.0,Compiling LLVM from source? See you in a few days.
+programming,fee6h4j,t1_feb9weg,1579027392.0,"I think u/Somepotato is referring to back in 2015 when they added a clause to their TOS that effectively said ""you can't sue us in a class action suit, and if this clause isn't valid in your jurisdiction, then litigation must occur in federal court, San Francisco"" (where, I assume, the clause is legal)"
+history,fect2rs,t1_fecshjx,1578983535.0,"Yeah one of the reasons the Romans were so historically militant is because ""barbarians"" from the north had previously come and sacked Rome.
+
+I mean, technically Brennus was a Gaul, but they were all ""barbarians"" to Rome."
+rust,fecrd01,t1_fec93c3,1578981735.0,"An `asm` statement in C/C++ isn't allowed to jump anywhere but to a specific set of labels that are specified within the containing function. It actually works just like a regular `goto`, and will invoke destructors/unwind the stack as necessary."
+programming,fecfnml,t1_febitf2,1578972779.0,"The compilation step is a good thing, that's where the static analysis happens, i.e. where you catch bugs.
+
+Compile times are nothing compared to wasted developer time finding bugs a compiler would immediately catch."
+rust,fe8b47b,t1_fe84vgi,1578924368.0,`rustc_codegen_cranelift` is the backend for `rustc` that uses `cranelift`.
+todayilearned,fds3ilx,t1_fdr3jal,1578693746.0,"Dude, I don't care who you are, if you do dishes in my house, you're my best fucking friend.
+
+It's such a weird thing that when your friends come over, it's implied that you'll clean up after them. To the point that I get yelled at when I try to do my own dishes at a friend's house."
+worldnews,fdrsies,t1_fdrpxkn,1578688998.0,"Which came first, the attacks, or the assassination?"
+programming,fdqu78h,t1_fdpvnel,1578674962.0,I'm curious as to what Nim can do better. I thought Rust macros were pretty powerful?
+programming,fdqp58o,t1_fdqmgs0,1578671856.0,"Mostly C++ development, hence why it trips me up.
+
+I don't know what you're arguing here, is it that no one finds this counterintuitive? Clearly people do, otherwise it would have never made it on this page in the first place.
+
+Perhaps this is standard knowledge for people used to working with Python and scripting languages in general, but that doesn't mean it's not a ""wtf"" moment for many."
+programming,fdqlssl,t1_fdqh856,1578669725.0,"It might be fundamental, but it's definitely counterintuitive for programmers coming from a non-Python background. Sort of like that Javascript ""wat"" talks, a lot of this probably would be known to a seasoned developer, but it's worth noting."
+politics,fdph1fx,t1_fdpek7i,1578628417.0,"He hasn't yet. I'm not rebutting that, just this notion that the President may effectively wage pseudo war without Congressional approval."
+politics,fdpdvpk,t1_fdpcj7h,1578626131.0,"I mean, the War Powers Resolution of 1973 says you're wrong.
+
+The President may not send troops abroad for more than 60 days without a congressional declaration of war or emergency such as an attack on the United States."
+politics,fdpbcks,t1_fdp9com,1578624382.0,"It was never intended for the President to have full control over the military to wage war without a declaration. The founders intended for the President to be capable of emergency actions -- because even in those days, decisive action at the beginning of a conflict was paramount -- but anything beyond that was to be approved by Congress."
+programming,fdoqh06,t1_fdntyjj,1578610558.0,A garbage collector isn't going to protect you against data races. The borrow checker is for more than just memory safety -- it also statically prevents the multiple writers problem.
+AskReddit,fdlqc6x,t1_fdjo146,1578529967.0,Why?
+programming,fdidzgi,t1_fdhlck4,1578440749.0,"I'm not sure exactly how C2Rust works, but typically C parsers work on preprocessed output. That's how EDG works, for example.
+
+The alternative is to write a preprocessor-aware parser, and then come up with some way of translating C macros into Rust macros. Probably doable, but certainly messy, and definitely not worth it for transpiled code that's just going to be rewritten anyways"
+rust,fdhtuap,t1_fdhnwnk,1578430043.0,"That's fair, but smells like optimization at the expense of readability (imo). If the allocation is really a big deal, couldn't you just use `Vec::with_capacity(y_parts.len())`?"
+rust,fdhfpks,t3_el7wpv,1578421678.0,"Personally, I prefer `for` loops over `map(..).collect()`, but usually only when the type has to be annotated.
+
+Something like
+
+    {
+       let mut beta = Vec::new();
+       for y in y_parts {
+          beta.push(self.params.g2 * y);
+       }
+       beta
+    }
+
+I would just write as a `map().collect()`, since the return type can be inferred, but for `secret_keys` and `verify_keys` I prefer the for loops. Sort of like a ""almost always no turbofish"" style.
+
+Small note: if a struct's member has the same name as its initializer, you can omit it (i.e. `SecretKey { x, y }` instead of `SecretKey { x: x, y: y }`."
+programming,fdh013i,t1_fdgjfj6,1578412404.0,"> The Linux kernel has a lot of funky code using things like __builtin_constant_p where it checks if a variable's value is known at compile-time, and then checks the variable if and only if that is true, calling a subroutine, otherwise calling a more 'generic' function. Something like that wouldn't work well in godbolt.
+
+All the compiler explorer does is put the source code through a compiler and annotate the resulting assembly. If GCC (or Clang, or MSVC) understands it, so will the compiler explorer.
+
+Unless I'm mistaken, your [example](https://godbolt.org/z/fvS49W) works perfectly fine."
+todayilearned,fdg302a,t1_fdg2nda,1578378113.0,"To be fair, it is a translation of a poem."
+2007scape,fd5g3en,t1_fd50rtk,1578177271.0,"The original ""lowest fire cape record"" was set back in 2007 at level 40 by U A E X. It was lowered by Rendi to 25 in 2016, which it would stay at until he lowered it again in 2019. In this intervening time, KempQ made several videos theorycrafting a level 19 fire cape but it never came to fruition. It was later lowered via other methods down to where it is today at level 4.
+
+The joke is that the OG firecape record (level 40, U A E X) and the new firecape record (level 4, Rendi) are laughing at theorycrafted ""conspiracy"" record (level 19, KempQ) represented by the Charlie from IASIP meme."
+2007scape,fczwxeu,t1_fczq7fw,1578110028.0,[Swampletics merch](https://settled.store)
+rust,fczfnxf,t1_fcyq4lo,1578100205.0,"Any time! If you ever need help, there's a Rust language Discord server with a channel tailored specifically for these kinds of questions. Not only do some really helpful people lurk there, but you may also find useful answers to other beginner questions."
+rust,fcyoxfh,t3_ejlbzo,1578084134.0,"A minor style note: almost every control flow keyword (`match`, `while`, `if`, `for` and `loop`) is actually an expression that returns a result.
+
+So instead of what you've written above, you could write
+
+    let size = match limit % 2 {
+        0 => limit / 2,
+        _ => (limit + 1) / 2,
+    };"
+rust,fcyhgce,t1_fcy6db5,1578080211.0,"Encapsulation of implementation details -- why should every module be available from every other module? Just because something is `pub` doesn't mean it should be accessible from every other module.
+
+For example: it's a common idiom to have unit tests as a submodule of the current module. Say you have a module `a`, with a submodule `tests`. It's a common idiom to just declare it as an inline module like `mod tests {}`, but you could just as well declare `mod tests;` in `a.rs`, and then create `a/tests.rs` containing the unit tests. You wouldn't want to be able to do `use a::tests;` from any module other than `a`, because the tests are inherently private to `a`.
+
+There are other motivating examples, but I think the `tests` example is the most common and most compelling."
+rust,fcygiio,t1_fcxwb5a,1578079723.0,"What is the structure you want? If you want `b` to be unknown to the main module, then it has to be a submodule of another module (which is itself a submodule of main).
+
+From my understanding, in Rust every file is essentially wrapped with a hidden `mod <file_name> {}` block. `main.rs` denotes the main module, accessible via the `crate` keyword. To make a module a submodule of another, you add a `mod <submodule>` declaration to the parent. In order to access a module (or its contents), you have to import it via `use`, specifying a path to it.
+
+I suspect you'd want something like
+
+    main.rs:
+       mod a;
+       use a::foo;
+
+    a.rs:
+       mod b;
+       use b::bar;
+
+       pub fn foo() -> u8() {
+          bar()
+       }
+
+    a/b.rs:
+       pub fn bar() -> u8 {}
+
+That way you encapsulate the details. As you may notice, the module system is directly tied to the file system to simplify module resolution."
+programming,fcxonp0,t1_fcvnm25,1578067888.0,"With editions and raw identifiers, Rust is in a better place than most when it comes to adding new keywords. If they wanted to make `select` a keyword, for example, they could just issue a new edition where it becomes a keyword. Anyone wanting to upgrade without renaming their `select` function/variable can just do a find and replace to change it to `r#select` it'll just work. This is exactly what they did with `try` in the 2018 edition."
+rust,fcugivi,t1_fcuecor,1577980417.0,New reddit allows for code fences with ``` but old reddit and most mobile apps don't support it
+programming,fcozzig,t1_fcofrj4,1577846311.0,">Some modules use borrowing and safe memory access logic wrapped into C++ primitives - pretty much what Rust offers us.
+
+It's impossible to fully replicate Rust's safety guarantees within C++. The type system just doesn't allow it."
+rust,fcnz4ce,t1_fcnxb65,1577821203.0,"Well, but there are conflicting goals here for Rust. Rust's primary focus is safety, its secondary focus is performance. Rust's standard library's defaults will almost always favor safety and precision over performance.
+
+That being said, maybe the standard library could offer more/better bells and whistles to tune performance."
+Iamactuallyverybadass,fcl9i5a,t1_fcl8jci,1577742730.0,It's the second amendment
+rust,fcl2m50,t3_eh7wkx,1577738456.0,Strangely can't read this due to some work filter assuming this is adult content?
+rust,fckrtss,t1_fckqvq2,1577731819.0,"They don't maintain the old interface at all. As seen by the fact that triple backticks don't work on old reddit.
+
+I mean, I can understand why they did it, I just wish they never redesigned the interface in the first place."
+rust,fckm4g3,t1_fckj7cw,1577728312.0,"old.reddit.com will give you the old interface. It's also possible to toggle in your preferences (though that might be an RES feature, not sure.)
+
+Personally, I find the redesign too noisy, and I didn't have a problem with the old interface at all. Frustratingly, reddit seems to be attempting to kill it, but something like 10% of users  still use it."
+ProgrammerHumor,fcgcu1l,t1_fcg7673,1577638716.0,"Most languages only allow pointers to be `null`. You can't have an integer be `null` in C, for example."
+ProgrammerHumor,fcfrh76,t1_fcdybt4,1577633036.0,Imagine still worrying about variable initialization time in 2019
+ProgrammerHumor,fcfpxd8,t1_fce8zgx,1577632632.0,"When you don't initialize a variable in C and then read said variable, you end up reading whatever value was on the stack. It's actually a security hole"
+programming,fc6k4qs,t1_fc5vusb,1577482487.0,"The shares are the points on the polynomial. Given n points of a polynomial of degree n+1, you can recover the coefficients (the constant term being the secret)
+
+That way there are infinite potential ""shares"" but you only need n of them to recover the secret."
+news,fc6jqan,t1_fc6j09i,1577482220.0,"You can't seriously think I said ""domestic abuse wouldn't happen if fast food employees made more money."" That's a ridiculous interpretation of my comment.
+
+>I get this is all about wages to you, but you're really showing just how selfish and tone deaf you are right now.
+
+I can literally say ""of course I would help someone in need, it's the right thing to do"" but apparently I'm selfish for suggesting it shouldn't be part of your job description at McDonald's.
+
+>There literally is no added risk to the employees at these locations.
+
+Domestic abusers can often be violent people, especially when they think you're going to call the police on them"
+news,fc6hocm,t1_fc6gnvg,1577480817.0,"Of course you help a fucking person in need. I don't think people should need an incentive to do so, and I think it's incredibly rude and presumptuous of you to respond with ""clearly you're not a decent human being.""
+
+But if you're going to add ""oh and by the way we encourage victims of domestic abuse to come here and we expect you to help them"" to my job description, I'm not going to be keen on the added risk. There's a reason why there are actual crisis centers with trained professionals who are prepared for the risk."
+news,fc6gzzh,t1_fc6ac43,1577480364.0,"It's not all one way or the other. Obviously banning such a thing would be outright evil, but that's not the opposite of obligating them to do so. I'd do it regardless, because it's the right thing to do, but I personally don't feel like I'd enjoy a company expecting me to do so."
+news,fc6gkwu,t1_fc6fs9y,1577480080.0,"Lmao, ""you should help anyone in need. If you don't stop the bad guy, they might go murder your uncle.""
+
+Most of us aren't motherfuckin Spiderman"
+programming,fc4pzf3,t3_eg1aec,1577424261.0,"This is one of those ideas where you read it and think ""This is so simple! How have I never thought of this?"" Crazy how such a powerful tool can be hiding inside a combination of such simple concepts."
+hiphopheads,fc4mgiz,t1_fc4ltx9,1577421042.0,"Ye is more famous, as an icon outside of just the musical realm. But you can't deny his musical popularity heavily fell off in the last half decade. At least, his music is much less popular than Kendrick's."
+WhitePeopleTwitter,fc0nw30,t1_fc0kqr3,1577295520.0,"No, you don't understand. They're not Starbucks, so they must be counter culture /s"
+WhitePeopleTwitter,fc0no37,t1_fc0ggdc,1577295370.0,"All jokes aside, this is so fucking true. I feel like I hear about Christmas earlier and earlier every year."
+2007scape,fby2her,t1_fby15rw,1577206495.0,"Not op, but I agree with the sentiment. EVE is the coolest space sandbox game, that I somehow just cannot get into.
+
+I love the idea of an MMO that's almost entirely player-driven and player-run, but the actual gameplay is super boring. The combat is basically spreadsheets in space, and it doesn't help that PVE in that game is grindy as fuck. The skill training being tied to real time is another cool concept that ends up just being annoying to deal with. Losing all your stuff on death sounds cool until you realize you have to grind again just to have more fun. PVP in that game has such a high skill floor it's ridiculous.
+
+I'm not hating on EVE. I love the design, the concept, and the community. I just don't enjoy the gameplay."

@@ -1,0 +1,87 @@
+subreddit,self ID,parent ID,time,text
+politics,ffgu54s,t1_ffgpsov,1579915125.0,"Yeah, she was a pretty hard-hitting journalist in that interview. None of this meek well-behaved media stuff letting the administration control the narrative."
+todayilearned,ffgrerr,t1_ffgkzj1,1579913139.0,Minihydro and microhydro is a thing: https://en.m.wikipedia.org/wiki/Small_hydro
+todayilearned,ffcwaqg,t1_ffctrce,1579808604.0,"[Centralia, PA]( https://en.m.wikipedia.org/wiki/Centralia_mine_fire)"
+ECE,ffanxjv,t1_ffahy4w,1579740390.0,"Yep! Intel, NXP, and Microchip are all in Chandler. IIRC, ON is in Phoenix. ARM has an office in Tempe, not sure what they do though."
+technology,ff94oc9,t1_ff7q7st,1579704759.0,I bought a Brother B&W laser printer a few years ago. Cost me maybe $100-120. I've only had to buy one toner cartridge.
+rust,ff6tz56,t3_ervc99,1579634836.0,Awesome! Wish I had more time and more (any!) Rust experience to help.
+programming,ff37m9y,t1_ff2de4r,1579535608.0,"Get it right and cite [George Carlin](https://en.m.wikiquote.org/wiki/George_Carlin):
+
+> Have you ever noticed that anybody driving slower than you is an idiot, and anyone going faster than you is a maniac?"
+programming,ff1mrwo,t3_eqqwac,1579481758.0,"Does this mean that the .git directory is the same size as the remote one, but the working copy is small... or that my local .git directory can be smaller than the remote one if I only want to work on a small subtree?
+
+I'm thinking about the case where there's 1GB of history of a large tree but I only need to work on 1% of it."
+ECE,feteuv0,t3_eqkq7x,1579374715.0,"Some of this technology just seems insane:
+
+>But that one chip extends over 46,255 square millimeters—more than 50 times the size of any other processor chip you can buy. With 1.2 trillion transistors, 400,000 processor cores, 18 gigabytes of SRAM, and interconnects capable of moving 100 million billion bits per second, Cerebras’s Wafer Scale Engine (WSE) defies easy comparison with other systems.
+
+...
+
+>The WSE’s 1.2 trillion transistors are designed to operate at about 0.8 volts, pretty standard for a processor. There are so many of them, though, that in all they need 20,000 amperes of current. “Getting 20,000 amps into the wafer without significant voltage drop is quite an engineering challenge—much harder than cooling it or addressing the yield problems,” says Lauterbach.
+>
+>Power can’t be delivered from the edge of the WSE, because the resistance in the interconnects would drop the voltage to zero long before it reached the middle of the chip. The answer was to deliver it vertically from above. Cerebras designed a fiberglass circuit board holding hundreds of special-purpose chips for power control. One million copper posts bridge the millimeter or so from the fiberglass board to points on the WSE."
+AskReddit,fepevjv,t1_fep10y8,1579318768.0,"
+>I don't know much about depression to be honest, but this isn't a sadness. 
+>
+>It really is just a feeling that I'm going through the motions of living, but without any intrinsic purpose. 
+
+That's depression. It isn't sadness, rather it's a lack of drive. Talk to your doctor, maybe your medication isn't right.
+
+I had a long bout of mild depression, not enough to get stuck in my house, but enough to talk myself out of enjoying life for a while."
+embedded,felunsy,t1_felp0sg,1579231367.0,"Oh, gosh, there are so many horrible things about the C preprocessor that can be replaced by better programming techniques and a good modern optimizing compiler. If you want to create a thin abstraction layer, use Inline static functions instead."
+embedded,felg20q,t1_feldsbz,1579221328.0,ICK! No.
+embedded,fel1z62,t1_feks6kl,1579212316.0,"Why not allow access to both the filtered and unfiltered current, via appropriate APIs? They each have their use.
+
+I think it is always possible to have well-partitioned, modular code. It just may be very hard to enforce that, given that sometimes it's ""easier"" to punch holes through an abstraction barrier."
+embedded,fegmbod,t1_fefzsw6,1579097111.0,"Op-amps don't generally like driving ADCs directly (capacitor gets switched in and out)... although that may be changing since nowadays ADC sampling capacitors are getting smaller, 1pF or less compared to 10pF or more in the past.
+
+A small RC circuit helps mediate between the op-amp and ADC."
+programming,fegjwq8,t3_eozm61,1579095010.0,I was going to say that the problem is still [Soup Nazis]( https://www.embeddedrelated.com/showarticle/741.php) but now it sounds like Soup Nazis *and* a schism between bumbling corporate types and their moderation community.
+embedded,fegiwpu,t1_fefzuou,1579094167.0,"Oh, never mind, I thought you were sampling both channels in sequence periodically. This can lead to charge transfer issues.
+
+See https://www.embeddedrelated.com/showarticle/110.php for an explanation."
+embedded,fef7jpe,t1_feej2n5,1579050039.0,10K between opamp and ADC pin is way too high. You shouldn't need more than about 500 ohms worst-case to keep ADC capacitive loads from causing problems with the opamp.
+embedded,fef731k,t1_fee9pq8,1579049727.0,"Try reversing the sampling order - does it change the situation? 
+
+What RC filter values?"
+todayilearned,fee9n0q,t1_fedzj8x,1579029253.0,According to Walter Lantz in 1941 it was [$21/day paid once a month.]( https://www.dailymotion.com/video/xx4w26)
+todayilearned,fec54ml,t1_fec3s1r,1578966792.0,"There's old growth forests in New England, they just tend to be very small patches in ""undesirable"" areas (sides of mountains or black gum swamps).
+
+John McPhee wrote an article on some ""old-growth"" forest either in NJ or MA, I  can't remember which.
+
+NJ: https://www.nj.com/inside-jersey/2014/05/nj_old-growth_forests_trees_untouched_for_hundreds_of_years.html
+
+New Hampshire had a few patches in the White Mountains that weren't clear cut. (You can still see visually where some of the clear-cutting was in the 1800s if you look today, because there was a kind of terracing in the way they cut.) See also https://forestsociety.org/forest-journal-column/old-growth-more-big-trees
+
+MA: https://en.m.wikipedia.org/wiki/List_of_old-growth_forests_in_Massachusetts"
+todayilearned,fec4mbm,t1_fec1mpz,1578966576.0,"How bad are the black flies up there? (in North Ontario-I-O, in North Ontario)
+
+(I used to live in New Hampshire, couldn't work on my garden for most of May because of the damn things)
+
+(edit: in case you missed the song reference: https://youtu.be/f389hIxZAOc )"
+embedded,febyx79,t1_febnxzq,1578964459.0,How would you replace Simulink in Python? I'm curious because I abhor Mathworks's pricing model and love Python.
+embedded,febx0vr,t3_eo740n,1578963694.0,There was a good embedded.fm podcast ([307: Big While Loop](https://embedded.fm/episodes/307)) on this topic.
+whatsthisplant,fe8ilq5,t3_eo4sv2,1578926549.0,"Texas mountain laurel  ([Sophora secundiflora]( https://www.wildflower.org/plants/result.php?id_plant=sose3))
+
+Has nice purple flowers and rattly seedpods."
+Music,fe8h1fr,t1_fe869me,1578926029.0,"Ditto. I wanted to post a Cake song I've been listening to, denied."
+askscience,fdlzhs4,t1_fdjtzn6,1578536210.0,"Hence the title of John McPhee's profile of Theodore Taylor, [The Curve of Binding Energy]( https://www.newyorker.com/magazine/1973/12/03/i-the-curve-of-binding-energy)"
+whatsthisplant,fdgvtq9,t1_fdf6kju,1578409584.0,Are you sure? Those spines look a bit long.
+Music,fd9s47h,t3_ek0mwq,1578237348.0,I prefer [Effigy]( https://youtu.be/LGEENWVlu0c) myself.
+askscience,fd7hrmc,t1_fd66av3,1578204721.0,Hydro-Quebec has a HVDC line that comes down through Vermont and New Hampshire.
+IAmA,fctjbp1,t3_eisfup,1577945270.0,"I really love Cane's chicken fingers! Thank you for starting the restaurants.
+
+Are there any other items you are considering adding to the menu? If so what are they?"
+IAmA,fctj59d,t1_fcti9la,1577945085.0,"You can, I think. We buy a 25 finger tray all the time. I think you can buy fewer chicken fingers without the sides. Not sure how much you save though."
+IAmA,fctj1m3,t1_fcthymu,1577944981.0,Ask for honey mustard.
+IAmA,fctj00q,t1_fcthc4v,1577944937.0,"Ask for honey mustard, that's what I do."
+IAmA,fctiy10,t1_fctfg7l,1577944880.0,Honey mustard sauce. Not sure what else.
+IAmA,fctiwpl,t1_fctf9gd,1577944840.0,"There's one around Ocotillo and Arizona Ave in Chandler, is that too far away?"
+IAmA,fctist3,t1_fctdnaz,1577944730.0,More? I already have a few choices in the Chandler / Gilbert area.
+programming,fcotc0m,t1_fcoell1,1577840991.0,Or Nim?
+AskReddit,fcmeqze,t3_ehvimp,1577772578.0,The Yayhoos cover of Dancing Queen
+AskReddit,fcmepz8,t3_ehvimp,1577772551.0,Joe Cocker's cover of The Letter by the Box Tops
+politics,fckuwbc,t1_fckdjkk,1577733710.0,Don't forget Bolton
+politics,fcjhzu3,t1_fcj7hqv,1577688327.0,Left? You mean everyone else besides the Republican right.
+AskReddit,fc4scd9,t1_fc4fbza,1577426591.0,"Amd I would've gottem away with it, if it werem't for you neddlimg kids!"
+AskReddit,fbzqddx,t1_fby1riv,1577256299.0,Cough tough bough

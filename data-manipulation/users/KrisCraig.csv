@@ -1,0 +1,263 @@
+subreddit,self ID,parent ID,time,text
+WayOfTheBern,ffkumjh,t1_ffkr9de,1580029193.0,I tried it in Chrome but the page scripting just goes unresponsive when I submit the form.  Gave it a few minutes before giving up.
+WayOfTheBern,ffjqqn4,t3_etua83,1580004514.0,TIL Muslims don't exist.
+StillSandersForPres,ffhqy22,t1_ffhprsi,1579949215.0,"Unfortunately not.  The Facebook API just doesn't support it.
+
+You could try this to mirror your tweets on Facebook:
+
+http://socialbarrel.com/twitter-introduces-new-way-to-post-tweets-to-facebook/116871/"
+WayOfTheBern,ffhig8c,t3_etnpfc,1579936702.0,"# FAQ
+
+**Q. Does Birdie comply with Twitter's rules?**
+
+Yes, Birdie is 100%-compliant.  Automated retweets like this are explicitly permitted in the API rules.  Furthermore, the app distributes larger sets of tweets over time so as not to overload or spam the network.
+
+While Twitter and other social media sites do make combating spam bots a priority, Birdie is not such a bot (and no, I'm not from Russia, either).  Birdie is designed to be used by real Twitter users with active accounts; people who would otherwise be inclined to retweet all of Bernie's tweets, anyway, if it were sufficiently convenient.  
+
+This project does *not* welcome the use of dedicated bot accounts like those designed to manipulate Twitter's algorithms.  This is about making Bernie's tweets visible to your friends and family, exposing them to what he has to say on the issues despite the pervailing media blackout.  The hope is that at least some of them will, in turn, follow Bernie on Twitter, thereby increasing his Twitter reach.
+
+This type of use-case is permitted, even on larger deployment scales.  The app does *not* auto-like tweets or do anything else that violates Twitter's API rules or ToS.
+
+Worst-case scenario, if Twitter were to change their rules so this is no longer allowed, they would simply strip the app's permissions so it can no longer tweet.  The actual person using the app would be otherwise unaffected (so long as they're real and not just a dedicated spambot account, of course).  But again, I need to stress that Birdie is 100% compliant with Twitter's rules.  I was very careful about this.
+
+**Q. Why not just make it have the user choose whether to retweet each tweet?**
+
+There are already apps out there that can be used to do that.  Birdie is designed for exposing *all* of Bernie's recent tweets to your followers, in the hopes that at least some of them will then like what they see and follow him as a result.
+
+There are already volunteers out there doing this manually throughout the day.  The whole point behind Birdie is to automate this process, freeing up those volunteers to work on other things, while also opening the door for people who otherwise wouldn't have time to volunteer to easily make a difference.
+
+**Q. I installed the app, but if I leave it in the background for more than a few minutes, it stops running until I open it again.  What gives?**
+
+Some phone manufacturers use a custom version of Android that prevents any apps not made by a ""trusted"" source like Google from running in the background for more than a few minutes.  They do this by suspending or terminating all of an app's scheduled background alarms and jobs.
+
+This prevents Birdie from periodically executing its background tasks as intended.  Unfortunately, on some devices (like my fucking TracFone), there is simply no way to turn this behavior off and no way to get around it as an app developer.
+
+So if this happens to you, here's a simple and only mildly inconvenient workaround:  Two or three times a day, open Birdie on your phone, wait for it to load, then hit your phone's home button to go back.  That will force the app back into the foreground and the operating system will stop blocking it from working.
+
+**Q. When can we expect an iPhone version of Birdie?**
+
+Short answer:  I don't know.
+
+Long answer:  [Here](https://www.reddit.com/r/StillSandersForPres/comments/es93dh/ive_built_a_new_android_app_that_quietly_runs_in/ff8y4yx/?context=3)."
+StillSandersForPres,ffhhyvh,t3_etndbh,1579936068.0,"# FAQ
+
+**Q. Does Birdie comply with Twitter's rules?**
+
+Yes, Birdie is 100%-compliant.  Automated retweets like this are explicitly permitted in the API rules.  Furthermore, the app distributes larger sets of tweets over time so as not to overload or spam the network.
+
+While Twitter and other social media sites do make combating spam bots a priority, Birdie is not such a bot (and no, I'm not from Russia, either).  Birdie is designed to be used by real Twitter users with active accounts; people who would otherwise be inclined to retweet all of Bernie's tweets, anyway, if it were sufficiently convenient.  
+
+This project does *not* welcome the use of dedicated bot accounts like those designed to manipulate Twitter's algorithms.  This is about making Bernie's tweets visible to your friends and family, exposing them to what he has to say on the issues despite the pervailing media blackout.  The hope is that at least some of them will, in turn, follow Bernie on Twitter, thereby increasing his Twitter reach.
+
+This type of use-case is permitted, even on larger deployment scales.  The app does *not* auto-like tweets or do anything else that violates Twitter's API rules or ToS.
+
+Worst-case scenario, if Twitter were to change their rules so this is no longer allowed, they would simply strip the app's permissions so it can no longer tweet.  The actual person using the app would be otherwise unaffected (so long as they're real and not just a dedicated spambot account, of course).  But again, I need to stress that Birdie is 100% compliant with Twitter's rules.  I was very careful about this.
+
+**Q. Why not just make it have the user choose whether to retweet each tweet?**
+
+There are already apps out there that can be used to do that.  Birdie is designed for exposing *all* of Bernie's recent tweets to your followers, in the hopes that at least some of them will then like what they see and follow him as a result.
+
+There are already volunteers out there doing this manually throughout the day.  The whole point behind Birdie is to automate this process, freeing up those volunteers to work on other things, while also opening the door for people who otherwise wouldn't have time to volunteer to easily make a difference.
+
+**Q. I installed the app, but if I leave it in the background for more than a few minutes, it stops running until I open it again.  What gives?**
+
+Some phone manufacturers use a custom version of Android that prevents any apps not made by a ""trusted"" source like Google from running in the background for more than a few minutes.  They do this by suspending or terminating all of an app's scheduled background alarms and jobs.
+
+This prevents Birdie from periodically executing its background tasks as intended.  Unfortunately, on some devices (like my fucking TracFone), there is simply no way to turn this behavior off and no way to get around it as an app developer.
+
+So if this happens to you, here's a simple and only mildly inconvenient workaround:  Two or three times a day, open Birdie on your phone, wait for it to load, then hit your phone's home button to go back.  That will force the app back into the foreground and the operating system will stop blocking it from working.
+
+**Q. When can we expect an iPhone version of Birdie?**
+
+Short answer:  I don't know.
+
+Long answer:  [Here](https://www.reddit.com/r/StillSandersForPres/comments/es93dh/ive_built_a_new_android_app_that_quietly_runs_in/ff8y4yx/?context=3)."
+StillSandersForPres,ffhgjf8,t3_es93dh,1579934282.0,"Thanks for your help, everyone!  The beta turnout was more than double what I'd hoped and so far I haven't received any bug reports or other indications of trouble.
+
+The first production release is tentatively set for Monday."
+KidsAreFuckingStupid,fff2wi8,t1_fff27bi,1579874245.0,That your mother and I are lovers.
+bernieblindness,ffe38wi,t1_ffdz4vg,1579835547.0,Thanks!
+bernieblindness,ffe38gy,t1_ffdzk29,1579835538.0,"Yes, which exposes all of your Twitter followers to all of Bernie's tweets.  So every person who runs this expands Bernie's Twitter reach."
+Kossacks_for_Sanders,ffdxkyg,t1_ffdbd8p,1579831432.0,Well said and thanks!
+StillSandersForPres,ffbjwdj,t1_ffbis00,1579768794.0,"> I’m talking about twitter’s algorithm, not your coding. You do realize combating spam & manipulation is their #1 priority (as it is for Google, Facebook, Pinterest, Instagram or any UGC site as well).
+
+Condescension aside, yes I am aware of this.  I've been a software engineer for over 25 years and I don't go into a project like this without knowing what I'm doing.
+
+That said, as I have already repeatedly pointed out, this app does not fall under Twitter's definition of spam or manipulation.  The number of users is irrelevant because that only matters if we're doing something we don't want Twitter to notice, which again does not apply to this situation as everything we're doing is above-board.
+
+> Your tests are too small scale to really know. Add 100k users (especially new accounts) all retweeting in blocks at the same time, and you’ll surely be reviewed by their spam teams
+
+At the risk of sounding like a broken record here, I'm not interested in evading their spam teams/algos.  Any app that generates sufficient traffic is going to be reviewed for compliance.  The rules do not state that automated retweeting is only allowed on small scales.
+
+Also, it should be pointed out that the retweets come out in blocks of 3 every 15 minutes, which is orders of magnitude below the API per-user speed limit.  Furthermore, each app runs on its own timetable; i.e. they're not all retweeting in sync.  The load is distributed so as not to spam the network, even with 100K+ users.
+
+> It would be a shame for users accounts to be banned or Sander’s tweets to be auto-filtered.
+
+It would also be a shame if the app evolved into a malevolent superintelligence bent on the extermination of the human race.  Both scenarios have about an equal chance of happening here.
+
+> You want things to be as natural as possible with as much user control & variation as possible.
+
+Again, you're making it sound like we want to hide what we're doing, but that's bullshit.  This app complies entirely with Twitter's rules.  If they did have any questions or concerns about it, my contact information is readily available.
+
+I appreciate your concerns, but they're unfounded for the reasons I've stated."
+StillSandersForPres,ffbj5qq,t1_ffbie6l,1579767759.0,"> Automated likes: You may not like Tweets in an automated manner.
+
+**This app does not do that.**
+
+> Automated Retweets: Provided you comply with all other rules, you may Retweet or Quote Tweet in an automated manner
+
+Which the app does, in full compiance with the rules.  I was very careful about this.  While fully automated retweeting *can* be abuse/spam, it is not inherently so, as the rules clearly state.
+
+> mass retweeting campaigns will be seen as trying to manipulate their algorithm
+
+Based on what, exactly?  People already mass-organize retweets to boost their candidates' Twitter reach all the time and Twitter has never stood in the way.  Furthermore, each Twitter user is choosing to install the app so they can share all of Bernie's tweets with their friends and family, a legitimate use-case.
+
+> it will be very easy to spot & punish because you have no randomness built-in.
+
+Randomness would only be necessary if we were trying to evade Twitter's rules enforcement.  Since we are not doing anything that violates the rules, why would we want to do that?
+
+You seem to be making a lot of assumptions about how Twitter implements their API rules which are not consistent with my many years of experience working with it.  Back in 2016, I had built a similar Windows app for this and they never gave me any trouble.
+
+**TL;DR: This app is 100%-compliant with Twitter's API ToS.  The rules you yourself just quoted substantiate this rather clearly.**"
+StillSandersForPres,ffbhauu,t1_ffb61g0,1579765273.0,"> Better to prompt the user to decide whether to retweet or not. Also better to include your own tweet with it.
+
+Why, exactly?  **The Twitter API Terms of Service allow for automated retweets and it's hardly a new thing.**
+
+This is a volunteer app installed by people who want to help expand Bernie's Twitter reach and, subsequently, boost voter turnout in his favor.  **An app that runs in the background on their phone makes perfect sense, actually.**  Do you really think said volunteer wants to be spammed with ""Retweet this!"" prompts throughout the day when it can just be automatic?
+
+If you're just looking to retweet individual tweets you like and add your own commentary, you can already do that with any standard Twitter app or through the Twitter website, itself.  That's not what this app is for.
+
+> Speaking from someone who has studied algorithms most of their adult life.
+
+How does that even have any relevance to this conversation?!  **Are you saying you don't think the algos will work?  Because I've already got a ton of successful test data that proves they do.**
+
+But if you'd like to study *these* algorithms, be my guest.  It's all open source and can be found on the GitHub page linked in the post.  If you see any *specific* problems with the code, speaking from someone who has studied algorithms most of your adult life, please feel free to contribute by sharing them here or on the GitHub Issues page."
+WayOfTheBern,ffb58nw,t3_eskeqa,1579752133.0,This is treason.  Ronald Reagan committed treason to win the Presidency....
+WayOfTheBern,ffb4uir,t1_ffb1z6p,1579751836.0,And nobody at school likes him.
+WayOfTheBern,ff916o7,t1_ff911i2,1579702255.0,Thanks!
+StillSandersForPres,ff8y4yx,t1_ff8lgiy,1579699828.0,"Unfortunately, there are multiple reasons why I can't right now:
+
+1\. I don't have any iOS devices to test on.
+
+2\. I can't afford the ridiculous $99/year fee that Apple charges.
+
+3\. I don't know if iPhones even support the kind of backgrounding the app needs to do and no way to test it.
+
+Now here's the good news:  The codebase is Xamarin.Forms, which means adding iPhone support should be a fairly simple matter for any dev equipped for and experienced with iOS development.
+
+This is an open source project.  If somebody contributes code that adds iPhone support, you can bet I'll use it.  =)"
+WayOfTheBern,ff8iwve,t3_es6t03,1579680571.0,"If Bernie had been similarly reluctant to declare that he'd back Hillary if she were the nominee back in 2016, she'd be citing it to this day as evidence of his sexism."
+WayOfTheBern,ff7yybq,t3_es5pja,1579661705.0,She thinks *everybody* cares what she has to say about everything.  Is she being ironic or is she really this delusional?  I can't tell.
+WayOfTheBern,ff6f00e,t1_ff64z62,1579625757.0,This is why it's generally a good idea to refresh the comments first....
+WayOfTheBern,ff62mm3,t3_erv5b4,1579617573.0,"> In the fall of 2017, producer Howard T. Owens got a call from famed Washington power broker Robert Barnett. Barnett's longtime client, Hillary Clinton, was sitting on nearly 2,000 hours of campaign footage and planned to turn it into a documentary. Hulu was already on board to distribute it domestically, but would Owens consider producing and selling it abroad?
+
+> The son of a onetime Democratic state senator from Connecticut and himself the former head of National Geographic Channel, Owens was immediately interested. **He'd have to meet and woo Secretary Clinton and her top aide, Huma Abedin, he was told, and then, with the streamer, begin compiling a list of potential filmmakers. The only requirement: that she be female.**"
+WayOfTheBern,ff62duw,t3_erv5b4,1579617396.0,"> Hillary Clinton in Full: A Fiery New Documentary, Trump Regrets and Harsh Words for Bernie: ""Nobody Likes Him""
+
+I like him.  Anybody else?"
+WayOfTheBern,ff61qs4,t3_ermd0l,1579616917.0,Disgraceful.
+WayOfTheBern,ff4yav4,t1_ff4w0wp,1579575369.0,You might try cafepress.com for the shirts.
+WayOfTheBern,ff2nbc3,t1_ff2adt1,1579514582.0,"> I will gladly vote for her if she becomes the nominee.
+
+That's not gonna happen.  Not in 2020, at least.  She's falling in the polls and her latest gambit with CNN backfired colossally.  I can't imagine anything saving her campaign at this point.
+
+Besides, it's worth noting that Elizabeth Warren is the one who poisoned the well, herself.  The media just helped her out with it."
+WayOfTheBern,ff2n7kv,t1_ff2fefo,1579514417.0,This idiot has been trolling a number of threads on this sub. Probably best to just ignore him.
+WayOfTheBern,ff2n4h5,t1_ff2e0ki,1579514283.0,"> Are you a progressive or not???!
+
+Sorry, but a person's progressivism is not defined by adherence to an arbitrary list of ""good"" and ""bad"" media sources.  In today's landscape, that's just the height of stupidity.
+
+Given the present media blackout, we can't afford to be picky about only using sources we like or whose editorial opinions we agree with.  Not when you have outlets like CNN focused on jamming a contrived narrative down our throats and refusing to report on stories like this.
+
+So if you don't like the source, there are two things you can do about it:
+
+1\. Fact-check the article and point out any incongruities you find. 
+
+2\. Find a source more to your liking and post a link to it.
+
+Furthermore, while The Federalist is definitely far-right in terms of political alignment and it shows in their editorials, they also produce articles that appear to be well-researched and often cover topics like this that mainstream outlets habitually ignore because they go against the neoliberal establishment.  So if they occasionally produce a piece that's worth posting here, I'm going to post it.  
+
+And if you think this is what makes a person progressive or not, then you clearly don't understand what it means to be progressive.  Fighting for things like M4A is what makes you a progressive.
+
+> Are you a progressive or not???!
+
+Seriously, I just laugh my ass off every time I read that part of your comment."
+WayOfTheBern,ff24unf,t3_er1ezh,1579493854.0,"> deceptively edited
+
+How?"
+WayOfTheBern,ff24og7,t1_ff1loz6,1579493716.0,Second.
+WayOfTheBern,ff24mqt,t3_er2xvc,1579493677.0,The campaign needs to put this on a t-shirt and sell it.
+WayOfTheBern,ff1xt36,t1_ff1xq5e,1579488631.0,"> tl;dr
+
+> Fuck off
+
+I rest my case."
+WayOfTheBern,ff1whnz,t1_fez7m1a,1579487760.0,"> This ain't it, chief.
+
+> when enemies look in here
+
+> oh a downvote because I don't appreciate your creepy fucking ""satire"".
+
+> Don't quit your day job.
+
+I deleted it since the mods were getting spammed with reports, but you really need to chill.  For starters, they may be our opponents and they may be dishonest, but they are **not** our enemies!  Al Qaeda and ISIS are our enemies.  These people are just assholes.
+
+Second, I didn't downvote you.
+
+Third, humor is in the eye of the beholder, especially dark humor.  Some of us use it to express ourselves about issues like people making up ridiculous lies about Bernie while CNN treats them as gospel fact.  Attacking people for it with insults and calling them ""creepy"" is not good for the movement.  I have since downvoted your latest rude comment for those reasons.  
+
+**I removed the 90%-upvoted post that offended you so profoundly, but next time you might try being a little more civil and keep the petty personal insults and name-calling to yourself.  I've seen this kind of needlessly combative behavior from you here before and it isn't helping.**"
+WayOfTheBern,fez4l3v,t3_eqx49n,1579453793.0,"Step 1\. Make a false accusation that can be easily disproven with a quick YouTube search.
+
+Step 2\. ???
+
+Step 3\. Profit."
+WayOfTheBern,feyeb5i,t3_eqpmg6,1579444307.0,"> **Tomorrow on CNN:**  For the first time since childhood, Pete Buttigieg comes forward about how Bernie Sanders molested him at Bible Camp while serving as a counselor.  
+
+> ""His hands were everywhere,"" the presidential candidate tearfully recalled in horror.  ""I begged him to stop, but he just ignored me and kept saying that a gay person will never be elected President.""
+
+> Pete Buttigieg confirmed this version of events to CNN.  No word yet from Senator Sanders on why he believes a homophobic child molester should be President."
+WayOfTheBern,fepjyu1,t1_fepbyes,1579322455.0,"I agree completely, gayassnerdbitch.  :P"
+WayOfTheBern,femse57,t1_femas6y,1579268262.0,"#""#"
+WayOfTheBern,felur6a,t3_epj9oy,1579231432.0,"Here's one comment from the Warren sub that seems to summarize how they're choosing to interpret this:
+
+> I'm not so bummed by the spat itself, it seems pretty clear there was a miscommunication in their talk and Liz felt what he said was wrong but didn't say anything because she didn't want to make too much of it.
+
+Mental gymnastics...."
+WayOfTheBern,fellcbj,t1_fejozjv,1579224924.0,Yes.
+WayOfTheBern,fe8708j,t3_enuo0j,1578923279.0,Proof that Warren is getting desperate.
+WayOfTheBern,fe6s192,t3_enoxae,1578902685.0,Always liked Luckovich's work.  He really stuck it to Dubya et al back when he was in the White House.
+WayOfTheBern,fe6rtzy,t3_eny624,1578902404.0,What was the call script?
+WayOfTheBern,fdzvxef,t3_endb9q,1578797073.0,https://i.imgur.com/xYdBWQD.gif
+WayOfTheBern,fdvuwkc,t3_en32vx,1578751705.0,"Warren is *barely* within the margin of error, but still."
+WayOfTheBern,fdpymby,t3_emijp6,1578646189.0,"I can see the headlines now....
+
+NYT:  ""Bernie Sanders Polls at Mere 17%; Time to Drop Out, Analysts Say""
+
+MSNBC:  ""Joe Biden Holds Onto Lead at 15%""
+
+WaPo:  ""Elizabeth Warren Surges Into the Lead at 17%""
+
+CNN:  ""If Trump Impeachment Fails, Russia Wins"""
+WayOfTheBern,fdpke0x,t3_emgy2c,1578631039.0,""""
+WayOfTheBern,fdpiqrm,t1_fdpdsgu,1578629719.0,"No.  Fuck the writers.  I should get the credit.  Why?  Because if it doesn't go to me, it could go to Vladimir Putin.  
+
+Do you really hate America so much that you would risk letting that happen?!  Unpatriotic bastard."
+WayOfTheBern,fdpi9bu,t3_emab0q,1578629346.0,Plot twist:  He's actually a Warren supporter who stole all the Bernie yard signs in his neighborhood and stashed them on his front lawn.
+WayOfTheBern,fdmus13,t3_em2czi,1578566783.0,"Also, Bernie voted against SOPA/PIPA.  Amy Klobuchar not only voted for it, she was a co-sponsor."
+WayOfTheBern,fdmkpo9,t1_fdmbz2q,1578553539.0,"You're trying to narrow the definition of ""backing"" to just *open, overt* support, but that's not what we're talking about, here.  MSNBC, among others, quietly backed Trump's candidacy by doing everything they could to elevate him with disproportionate coverage.  The DNC and their corporate media allies wanted very much for Trump to be the Republican nominee because they thought he'd be easy for even Hillary Clinton to beat.
+
+[Report: MSNBC going big on Trump coverage](https://www.washingtonpost.com/blogs/erik-wemple/wp/2015/07/13/report-msnbc-going-big-on-trump-coverage/)
+
+Furthermore, why are you saying they ""only"" supported him when he was threatening war as if that somehow doesn't count?  Do you believe, as the corporate media seems to, that warmongering bullshit is the one thing that can justify President Trump's behavior?  Come on."
+facepalm,fdm7wrv,t1_fdjywwf,1578541995.0,"I was responding to the points raised in the comment, not the tweet, itself.  Chill."
+facepalm,fdjrqir,t1_fdjlsf7,1578485040.0,They like to hang out at the cemetery.
+facepalm,fdjrnga,t1_fdjjlgc,1578484943.0,"> people trying to ""out-progressive"" each other with this nonsense
+
+The irony being that there is nothing progressive about identity politics."
+facepalm,fdjrgbr,t3_elhqj8,1578484713.0,[Reminds me of this](https://comb.io/hc1GBa.gif).
+WayOfTheBern,fdjo155,t3_elmqmv,1578480253.0,"Personally, I think the graphic's ""Centrists"" vs ""Moderates"" distinction is pure bullshit.  Warren and the others listed there are centrists, just like Biden.  Only difference is they pursue the progressive branding much more aggressively."
+WayOfTheBern,fdjnxi1,t3_ellffs,1578480112.0,"I would urge caution, as we've seen lulls in the neoliberal trolling campaign before.  It's possible that they're just regrouping to adjust their strategy to account for world events.
+
+I strongly suspect that the shills will return with a vengeance.  We should make use of this downtime while we can and avoid complacency."
+WayOfTheBern,fdjnojk,t1_fdj60hi,1578479761.0,"Yes, they did.  They've just never openly admitted it."

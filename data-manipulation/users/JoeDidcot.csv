@@ -1,0 +1,225 @@
+subreddit,self ID,parent ID,time,text
+excel,ffbuufk,t1_ffbronu,1579783528.0,"Good afternoon comrade,
+
+You can get a slight improvement by ditching Year and Month in favour of EOMONTH. It would look like this:
+
+    =MAX(0,MIN($A2+30,EOMONTH(B$1,0))-MAX($A2,B$1))"
+excel,ffbtz4b,t1_ffbpy83,1579782660.0,"    function countBoth(column_one as range, column_two as range) as integer
+    countBoth = application.worksheetfunction.countif(column_one,...) +_
+     application.worksheetfunction.countif(column_two,...)
+    end function
+
+Enjoy the tennis!"
+CompanyBattles,ffbnw3r,t1_ffa5mta,1579774843.0,"You can tell by looking at the pixels.
+
+(I've seen a lot of 'shops in my time)"
+excel,ffble7h,t3_espwsd,1579771018.0,"My own take on this:
+
+    =SWITCH(0,
+        MOD(A1,15),   ""DuckGoose"",
+        MOD(A1,3),    ""Duck"",
+        MOD(A1,5),    ""Goose"",
+                             """")
+
+Edit: Also....
+
+    =CHOOSE(1+(MOD(F17,3)=0)*1+(MOD(F17,5)=0)*2,"""",""Duck"",""Goose"",""DuckGoose"")"
+excel,ff8undv,t1_ff7dlid,1579696673.0,"Also, some time invested googling will reward you with one of these for VBA and one for DAX as well."
+excel,ff8uejv,t1_ff6d3zf,1579696430.0,"I think elsewhere on this thread we spoke about using filters to acheive the same result. The problem with filtering the table in excel would be that the filter would be visible, but not actually affect the data.
+
+I think this would be a really good time to have a try at using Power Query, if you haven't already used it. With any cell in Table2 selected, click Data > Get Data > From table. 
+
+You can then apply filters on the screen that appears, and click ""close and load to..."" > ""table"". This will create a new table which is a copy of Table2, but with your filters applied. Crucially, the new table will contain only the data shown by the filters in power-query. These filters affect not what is visible, but actually what is included. 
+
+My own opinion is that too much effort invested in doing this by formula is unwise in that it's making the difficult-to-debug problem worse for next time, and it's depriving yourself of a good chance to move towards the power-query way of working, which many find to be faster and more fun."
+AskOuija,ff6bvl3,t1_ff6bskg,1579623803.0,O
+facepalm,ff6bsrj,t3_erwv00,1579623753.0,Makes sense. This dude has been doing wheelchair tricks for about five years now. I think he kind of expects a few scrapes while learning a new trick.
+excel,ff6ayat,t1_ff69sg6,1579623211.0,"It's only since I started inheriting spreadsheets, that I started putting in much more effort into making stuff self-documenting.
+
+I used to think that helper columns were ""weak and un-nerdy"", but now it's nice to give a little gift to whichever poor soul has to debug my work. Now I have loads of helper columns with stuff names like ""Part-Is-In-Subset"", and ""Value-Greater-Than-Threshold""."
+ImageStabilization,ff693ig,t1_ff68jnx,1579622016.0,"Sadly, I don't know much about who made it. It has a younger brother called /u/stabbot_crop , which behaves slightly differently.
+
+Whenever you mention their name on this sub, they produce a basic stabilisation."
+excel,ff686a4,t3_eruqge,1579621412.0,"I've had a bit of a look at this. What I *think* is going on is that the previous excel fella is using Aggregate instead of COUNTA, and then loading into it an array of ""true/false"". It seems like a really convoluted way of making a sumproduct, which is what we used to do before COUNTIFS got invented.
+
+I think this will become dramatically easier if we rip the guts out of it, and stuff a sumproduct in instead.
+
+Edit:
+
+I've worked out a bit more. This is a function to sort the results of the table into a new range, in ascending order, disregarding some values.
+
+I think it works like this:
+
+    =@IF(
+    	ROWS($A$36:A38)<=$C$34,
+        ...more formula....
+    	    	"""")
+
+Means, ""I'm only interested in a making a table as large as the value in C34. In cells below that, do nothing.
+
+    	INDEX(	Table2[Table ID],
+    		SMALL(
+    				(Table2[Booking Value Currency]=$C$8)/(Table2[Booking Value Currency]=$C$8) *
+    				(ROW(Table2[Booking Value Currency])-ROW(Table2[[#Headers]])),
+    				ROWS($A$36:A37)
+    		))
+
+Means, ""Ignore any entries in table 2 where [Currency] is not the same as C8.""
+
+""With what's left, tell me all of the table IDs, in the same order in which they appear"".
+
+Unless I'm missing *quite a lot*, this formula could be replaced by just using filters on Table2."
+ImageStabilization,ff66fdn,t3_ertm1i,1579620256.0,Calling /u/stabbot
+facepalm,ff12jhe,t1_fez8knh,1579474598.0,"It’s fine, it’ll take them at least six weeks to mobilise and coordinate their defences."
+excel,ff11gfx,t3_er09mq,1579474317.0,"Spend a bit of time on this sub. Look at each problem, and solve it or critically assess the solutions posted by others."
+excel,ff114f2,t1_ff0x5wn,1579474211.0,Not ophthalmic instruments manufacturers by any chance?
+excel,ff10t3k,t1_fezq6xd,1579474100.0,"I was so pleasantly surprised by it myself. I don’t normally get on with MS documentation, but the vba stuff is really good."
+facepalm,fen7urh,t3_epz9px,1579278883.0,"Twenty years from now, there will be a scientist sat in the corner crying, rocking back and forth.
+
+""It was never meant to get out of the box. It was never meant to get out of the box..."""
+facepalm,fen7rlh,t1_fen70lf,1579278827.0,"I would guess watchpeopledie. (Not a link, because you don't want to view it)."
+therewasanattempt,fen7gt5,t1_fen737v,1579278642.0,"The ""theres two types of black people"" routine, right?
+
+""Heard you got robbed"""
+WatchPeopleDieInside,fen4few,t3_epxdxp,1579276737.0,"He should have seen that one ""coming"" eh?"
+quityourbullshit,fen48fa,t1_fen0x60,1579276616.0,"That problem is partially looked after by the court's financial system. In my case, the court paid me what was due to me before they recovered it from the defendant. They then sent some strongarms round to politely ask him for the money (or the computers from his office, presumably)."
+therewasanattempt,fen3yyk,t1_femusec,1579276450.0,"I agree, but I don't think it's fair.
+
+Also, I think race is a social construct (of which physical skin colour is an overwhelmingly large component).It's within the power of a whole generation to change what a big identity means. Like how feminism changed the definition of ""women's work"" in Europe and America between 1920 and 1970. 
+
+I think, in time our collective ideas of ""white ambition"" and ""black ambition"" will change. It would be a noble ambition to try to be on the positive side of that change."
+therewasanattempt,fem9m3g,t1_fem20y1,1579244896.0,"Part of the problem is that social pressure is not fairly applied. People might not apply for their dream job because it's not for 'people like me', for no reason other than status quo.
+
+In my opinion, articles like the above serve some value as they can help people to overcome unfounded assumptions about what they can and cannot do."
+quityourbullshit,fem9bqb,t1_fem6vrp,1579244559.0,"US and UK laws are very different beasts. I'm in the UK and got conned out of £300 (about $450 at the time) by a local business. I took them to court, and got my money back. They also got charged about £180 in expenses.
+
+Edit: money, not monet."
+NoStupidQuestions,fem8pb3,t1_felzvmt,1579243846.0,"I routinely have phone calls between Massachusets, Spain and the UK. If you schedule them using outlook, it sorts out the time zones for you, and displays the time in the zone of each user."
+Jokes,fem6yun,t1_felwzf3,1579241973.0,"Wait... is that you, /u/shittyjokeexplainbot ?"
+excel,fekbhbu,t1_feg59wu,1579196570.0,"in the VBA editor, in the navigation where all of your modules appear like folders, there should be a section called ""excel"" objects. In here is an object for the workbook, and an object for each worksheet. 
+
+Right click on the workbook object and click ""view code"".
+
+If there's a sub here called something like ""workbook_initialise"", then that code will be run every time the workbook is open.
+
+There could be code there that says, ""if this computer is logged on by someone called susan, close the workbook""."
+trashy,fee80pt,t1_fee4uy7,1579028299.0,People don’t get rich by giving money away. I never expect much from rich folks. “Camel through the eye of a needle” and all that.
+Showerthoughts,fee7p8z,t3_eokhkg,1579028110.0,"I heard someone say once that if it’s got fur and four legs, it ain’t poisonous."
+excel,fedsqik,t1_feczm8o,1579019090.0,What about macros in the Workbook object? There could be something running on workbook-Open?
+trashy,fecvq27,t3_eoerpk,1578986511.0,"Not got a battery and antenna in it, I presume."
+excel,fecq3x0,t3_eobj29,1578980541.0,"For the days, consider using mod().
+
+    Mod(ag4-ag3,7)&"" d""
+
+If it's for personal use, try to not bother about single/plural for ""days""."
+Economics,fec4oz8,t1_fe8kl91,1578966608.0,"Other people on earth. Total debt is more or less the same as total credit. 
+
+Government debt is loans from IMF, from other governments and also from issued bonds, many of which are bought and held by citizens of the country with the debt."
+Jokes,fec2uvd,t1_febzts9,1578965856.0,"Since American comedy of the late twentieth, I believe. Same for Germans, vietnamese, North Koreans, Iraqis and Afghans I think."
+Jokes,fec1my6,t1_feb8hd4,1578965337.0,"Welcome to /r/jokes.
+
+In a few weeks, someone will repost the one about Will Smith in the snow, though. That ones a bit better."
+vba,febfkmu,t3_eobe0n,1578958276.0,"Simulating the keystrokes is a bit of a long way off doing it. I think VBA has a way of directly getting the current time. 
+
+    Myrange.value = time()
+
+I presume there's one for date as well."
+trashy,feaherj,t3_eo6edq,1578948793.0,"Which white man, I wonder. Not me, I hope."
+oddlysatisfying,feag2m4,t1_feacb3w,1578948231.0,Except the ones that are bots.
+excel,feafepw,t1_fea6v3u,1578948034.0,Everything is difficult when you don't know it.
+excel,feaeo8u,t3_eo7d8g,1578947783.0,"Have you got much experience with power query? This could be done with merge tables, potentially."
+excel,fead805,t3_eo3gqm,1578947184.0,"What error does it make on the machines that don't run it?
+
+Also, did you make the macros yourself? Is there any possibility that there's VBA code in a worksheet object that's hidden?
+
+Another line of enquiry, are all machines 64bit pcs running Windows, and the same version of office? How long is the filename, and how long is the folder path?"
+natureismetal,feaaf38,t1_fe9qid0,1578946266.0,"Metal oxide, I suspect."
+specializedtools,fe62rua,t1_fe48jso,1578880487.0,"The original Thomas The Tank Engine series was filmed through one of them, so there's that."
+ThatsInsane,fdodi4p,t1_fdnxdxd,1578603147.0,BA baaam BADA da da BA baaam.
+NoStupidQuestions,fdob7go,t1_fdnhozd,1578602042.0,"Sword fighting, gardening, or suffering brain damage?
+
+Edit: or selling stolen stuff?"
+vba,fdjuyhl,t3_elqk1l,1578488357.0,"One advantage is if you need to use Worksheets(""Sheet1"").Range(""A1:C10"") in multiple places, and then later in the development of your spreadsheet, you need to move that range, or expand it.
+
+I've been stung a couple of times on things like this, which is why I tend to name all of my ranges (either in excel name manager or as Range variables.
+
+As a side note, I presume you're not using the name ""myRange"" in any actual modules?"
+unitedkingdom,fdjsi6r,t3_elbhoe,1578485904.0,No mention of Grand Theft Auto... sad times.
+Unexpected,fdfwjqw,t1_fdesjbk,1578372142.0,"Iraq was the same in the seventies. Liberal compared to some of its neighbours and rapidly developing. 
+
+One of the great tragedies of the two gulf wars is that the fresh water system was more or less destroyed, and clean running water became much rarer. Their military defeat was so thorough, that people are still dying from it even after the war is ended."
+WTF,fdfvenl,t3_el2ar9,1578371244.0,"If they bury me in a flood plane, tell them to perforate the box."
+whatisthisthing,fdcw0q3,t3_ekd14w,1578285936.0,"Cobbler's Last perhaps. 
+
+Some households had them in mid twentieth century to repair their own shoes. Also nice decoration in a quaint garden.
+
+Also, is that a bullet? If so, it looks very old. Pre WW1."
+excel,fcx8ggy,t1_fcx84c1,1578055369.0,Perhaps sumifS might be better.
+excel,fcx4cbz,t1_fcvb20w,1578050661.0,"For posterity, I reckon it'd look something like:
+
+    Function IFZERO(Formula As Variant, ZeroVal As Variant) As Variant
+        Dim v_Evaluation as Variant
+        v_Evaluation = Evaluate(Formula)
+        
+        If v_Evaluation = 0 Then
+            IFZERO = Evaluate(ZeroVal)
+        Else
+            IFZERO = v_Evaluation
+        End If
+    End Function"
+excel,fcv0mam,t1_fcuy019,1577992223.0,Does this evaluate the formula twice though? Couldn't you do it once and store the result?
+excel,fcv0cpg,t1_fcuq4ag,1577992075.0,"Also, I think -- will trap only numbers."
+vba,fcuce2k,t1_fcmwaw3,1577977684.0,"With hindsight, I could probably get by with what I learned in the first quarter. 
+
+The trick to learning it quickly is to get absolutely bullet-proof on your knowledge of the definition of these terms {""Object"", ""Method"", ""Property"", ""Type"", ""Class""}. Thereafter, the more time that you spend on Microsoft's own documentation for VBA, the better. VBA is really well documented, and most enquiries can be answered by googling, stuff like ""VBA MailObject Object methods"" etc."
+unitedkingdom,fcubxzx,t1_fctzfnt,1577977396.0,"To my mind, this all depends on the extent to which you factor in the carbon cost of making the car. 
+
+Some people reckon that about half of a family car's carbon cost is the cost of getting 10 tonnes of rocks out of the ground, refining it into 1 tonne of metal and making that into a car. 
+
+Thus the taxi is more environmentally friendly as a single car can meet the commuting needs of 10-20 people. Of course, if they have cars on their driveway at home, this advantage counts for nothing.
+
+Edit: On reflection I started this post disagreeing with you, but then kinda talked myself into seeing your point of view."
+unitedkingdom,fctxahk,t3_eivay9,1577964222.0,"Oxford is *pretty much* car free in the middle already, on account of being a pain in the arse to get into and out of."
+blackmagicfuckery,fctey5a,t1_fctb3ps,1577941101.0,"Tell that to Albert E, the rascal that he is."
+toastme,fcoo57x,t3_ei4aw2,1577837138.0,"You’ve made a great decision comrade. I didn’t have a drink last New Years and it was the start of a new personal best for my number of days. 
+
+20, and 25 days are just around the corner. Good luck."
+vba,fcmw73t,t3_ei0f2b,1577795073.0,I'm happy where I'm at after about a year.
+vba,fckat2n,t3_ehgvtl,1577721103.0,"I've not tried this, so a bit of speculation.
+
+Have you tried copy /  paste special, paste formats for the types of format that can exist in both excel and word?
+
+You could thus have a dummy table set up somewhere in a worksheet and copy over some of the formats. I'm not sure whether it's reasonable to expect this to take less time to process, but it might give something else to try as a point of comparison."
+vba,fckag92,t3_egie78,1577720853.0,"I think you'd benefit from reversing hte order of line 21 and line 22.
+
+dteStart increment needs to be inside the loop, but it's nothing todo with tblholidayEventData.ListRows.Add."
+therewasanattempt,fck7d7t,t1_fcjz8s1,1577718632.0,"Thank-you, kind scholar. 
+
+This might be the time that I learn that word, or if not is a step towards that time. 
+
+11/13 letters is good progress."
+unitedkingdom,fck77fk,t1_fcjp60g,1577718510.0,"Maybe they factor in that the policyholder might die from diabetes or a heart condition during the course of the year, and thus is less likely to make a claim during the second half of the policy."
+unitedkingdom,fck74s7,t1_fcjxac0,1577718454.0,"So goes the theory. The capital to run it will be cheaper, but the government still has to pay for the capital somehow. Essentially the total saving to be had is the same as the equity risk premium for utilities companies, which as I understand it is fairly low (couple of percent, I reckon)."
+unitedkingdom,fck6y99,t1_fcjx5ab,1577718313.0,"I'm also serious about /u/benwillock's question. 
+
+Do you drive less now that petrol is 1.25 a litre, rather than when it was 1.00 a litre? If it's 1.26 in a particular week, do you plan to drive less that week in case it returns to 1.24 the following week?
+
+I certainly don't. For some things, like beer, chips and shampoo, I have a fixed budged and vary the quantity based on price. For other things, like electricity, petrol and gas, I have a fixed consumption, and vary my budget based on the price. 
+
+Is there any evidence that in energy there's a significant number of households who have a fixed budget and vary their consumption with the price? (Certainly there's technology for this, but is there much uptake of it?)"
+therewasanattempt,fcjyl9a,t1_fcjxqc2,1577710659.0,"Perhaps a german word, containing a selection of letters from ""Schedenfreiden"", plus some others, but not necessarily in that order."
+BetterEveryLoop,fcjbx78,t3_ec4shl,1577682511.0,"In America you can turn the tables. 
+In Soviet Russia, the tables can turn YOU!!!"
+Whatcouldgowrong,fcickml,t1_fcawshh,1577660547.0,At least they didn't drop the for on him as well.
+trashy,fcib3wf,t1_fcheip2,1577659985.0,How can you tell?
+NoStupidQuestions,fciamp8,t3_eh5wag,1577659805.0,"I was witness to a surgery where the anaesthetist saved the patient's life. The patient, under sedation and not intubated, threw up and the vomit pooled in their mouth and nose. The anaesthetist took command of the room and everyone else stopped what they were doing while he sorted that out, and then all was well again. 
+
+I reckon the surgeon is about making sure the patient gets better, and the anaesthetist is about making sure they don't get worse."
+whatisthisthing,fci8kgz,t1_fchby6b,1577659051.0,/r/nevertellmetheodds
+excel,fbxay1a,t1_fbx1ctv,1577177696.0,"To concatenate the size operators ("">="") with the contents of the cell reference, to make it into one string (which is what sumifs is expecting). Because we want the criteria to evaluate like:
+
+    "">="" & B$1
+    "">="" & 314        (for example)
+    "">= 314""
+    >=314
+    TRUE"

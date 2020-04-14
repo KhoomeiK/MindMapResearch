@@ -1,0 +1,304 @@
+subreddit,self ID,parent ID,time,text
+IdiotsNearlyDying,ffw890y,t3_evg7yx,1580289103.0,Are you fucking serious
+AskReddit,ffw7vm5,t1_ffv7r3y,1580288542.0,i say whu whu whu
+AskReddit,ffw7m2p,t1_ffvzcvx,1580288154.0,"The last time i screwed up with grammar, someone suggested i should sterilize myself. Some people take this shit SERIOUSLY."
+funny,ffsgm01,t3_euwetn,1580181219.0,Ahh.. goon bag. Otherwise known as cardboard bordeaux
+pics,ffpr5uz,t3_eu7uk4,1580102789.0,And they are delicious!!!
+Wellthatsucks,ffj75ap,t1_ffip1rg,1579992075.0,And my axe!!
+GetMotivated,ffeo9jy,t3_et4kms,1579857064.0,and have an axe
+techsupportgore,ffdlzdv,t3_es5pev,1579823712.0,Folderlock encrypted data..? cryptolocker for phones? wouldn't that be scary.. android phones would be screwed!
+techsupportgore,ffdl132,t3_et1hm4,1579823127.0,One at the back is flipped around the wrong way.
+techsupportgore,ffdiyi3,t1_ffa40b1,1579821857.0,"Super shit plastic that gets even more brittle with age and heat, and they just shatter. This is relatively common."
+techsupportgore,ffdiuix,t3_esko34,1579821790.0,I have succesfully put those two things back together again. Its just very fiddly.
+techsupportgore,ffdijf5,t1_ffas1xo,1579821605.0,VIRTUALISATION
+techsupportgore,ffdhkl7,t1_ff9tnev,1579821018.0,"Technically you are wrong. Those tiny little wires will add ESR, inductance and plain old resistance to the output stage of the step down regulator that powers the chip. Yes, it was probably working, but there is a reason that special capacitors are used for switch mode power supplies like this and adding new ones with tiny little wires like this is the wrong way to do it.
+
+The caps are supposed to be physically as close as possible to the inductors that are behind them (which is why they are, when soldered properly, close as possible to the inductors) to provide clean power to the chip. Those short little thin wires basically undo that hard work of the PCB layout."
+techsupportgore,ffdgwii,t3_esxtvg,1579820613.0,"Someone tried to cook this at the recommended 150-200 degress C for a few minutes to fix solder ball cracks.
+
+I think somewhere along the line they screwed up."
+techsupportgore,ffdgrlv,t3_esxti1,1579820531.0,"Those ""power board"" UPS units use a tiny little step up converter to around 200 volts DC, then chop that back up to AC using a H bridge.
+
+I have opened many of them before though and the filter capacitor that stores that 200 volts DC is univerally popped, and the circuitry keeps failing its self checks and resets itself - thats exactly what's happening here."
+gatekeeping,ffdag3i,t3_esun7n,1579816627.0,Holy shit that second guy's flashlight has low batteries and he has eaten the charger.
+ProRevenge,ffd9nm4,t3_eswi0p,1579816154.0,Solid work!
+LegalTeens,ffbj76p,t3_esj7uf,1579767815.0,Her shape is amazing.
+iamverybadass,ffa8viv,t3_esdb8q,1579730154.0,"So yea, when this guy falls over one day he is gonna fuckin Final Destination himself."
+AdviceAnimals,ffa6lhl,t3_esd5ka,1579728882.0,Good guy OP doesn't approach girls at gym!
+facepalm,ff8sxyj,t3_es8v16,1579694889.0,Oh this hate account again. Charming.
+facepalm,ff83sbs,t3_es3xys,1579665223.0,"The hatred in this picture.
+
+""the only truth is freedom, but as long as you follow our idea of freedom and you aren't free to do anything else. """
+AskReddit,ff7b0cg,t3_erx73j,1579645099.0,Get naked too
+facepalm,ff5tg5s,t3_erqbfp,1579609598.0,take your dirty upvote.
+assholedesign,ff4kbk1,t3_ergyr6,1579565686.0,"1. Free has ads.
+
+2. Offer premium service for money with no ads.
+
+3. Put ads on premium service anyway.
+
+4. offer new premium service for money with no ads.
+
+5. repeat."
+facepalm,ff4b82q,t1_ff3eecc,1579559562.0,"Thats quite possible, with the OP taking that picture and editing it for safety to post on reddit."
+facepalm,ff2snwp,t1_ff2sm23,1579522453.0,"*shrugs*
+
+reddit"
+facepalm,ff2sjel,t1_ff2qz2r,1579522290.0,"Cant do shit with it. Its just 3 digits.
+
+Look. ""551""
+
+oh and ""211""
+
+and ""118""
+
+They mean nothing."
+MurderedByWords,ff2o5y9,t1_ff2haoq,1579515899.0,The removal of lead based gasoline.
+facepalm,ff2ddec,t1_fez2dfj,1579501591.0,A BAD businessman who has gone bankrupt multiple times by the way...
+Damnthatsinteresting,fexkxk8,t3_eqotpz,1579432671.0,"Love the video, music is Emancipator - Lionheart."
+memes,fewkkt8,t3_eqm9a4,1579412737.0,no u
+TikTokCringe,fewidi6,t3_eqi47e,1579411140.0,i am so hungry now
+MovieDetails,feq9nty,t3_eq965i,1579339188.0,"That looks so fake.. the guns have no recoil, and random dust balls just poof out of nowhere."
+politics,fepi99h,t3_eq7k20,1579321184.0,What was his reasoning? I mean apart from some old white man somewhere getting richer?
+assholedesign,fepgrkf,t1_fepamly,1579320091.0,"Yea im thinking the dipstick would be perfect. Thin, strong, and coated in oil. Should slide right between the cups and windscreen."
+interestingasfuck,feovd3f,t3_epyyfk,1579306217.0,"This is because the LED display is ""multiplexed"".
+
+The LED display will have 3 cathodes, (negative lines) per digit. Then there would be anodes (positive lines) for the digit segments, top line, left line, right line, middle line etc. (or anodes and multiple cathodes, it depends entirely on the designer but the principle is the same).
+
+To save CPU lines and electricity, the little cpu on board would send one of those anodes negative, and then set the postive lines to display a digit. 2 for example in this case. It waits a little time, then sets that first digit cathode back to open, and then set the second cathode to negative, and then the cpu would set the lines to the anodes for the 4, it would then repeat the process for the 9.
+
+So at any time time only ONE of the digits are actually on, 8, 4 or the 2. This is a more efficient way of lighting displays like this. The human eye is too slow to respond to the other digits being off as its refreshed so quickly.
+
+The two dot flashing is a seperate line thats controlled directly, as you can see its blurry so is on for the full time."
+TumblrInAction,fel31cp,t3_epl5f9,1579212974.0,what the fuck
+AskReddit,fejr5ew,t1_feiwbqp,1579183776.0,Fractals fuck with my mind.
+AbsoluteUnits,fejp139,t1_fejcvx8,1579182105.0,I still lose it whenever i watch it. Its old but damn its gold.
+ANormalDayInRussia,fejoflk,t3_epfd7s,1579181602.0,Looks like a kid stood on a hotwheels car and now all the suspension is fucked.
+PrequelMemes,fejnpv2,t3_epgrd9,1579180989.0,Exactly how trickle down economics doesnt work at all.
+sysadmin,fej7pmi,t3_eped0o,1579160417.0,"Update: its file length. 
+
+Onedrive is constantly syncing as its downloaded the same files over and over again but can't write them as they are too long. As for how they got up in the cloud in the first place? Guess is as good as mine. Implementing changes now with the admin staff to try and locate the overlength files with lots of spaces in especially as spaces expand out to %20 which can signficantly increase the length of a file name and path."
+funny,fej6yah,t1_fej4nyp,1579159459.0,"That stupid movie with the motorbikes that could do ridiculous speeds made me cringe. You just cant.. UP the power on a motorbike and have it corner like it was doing 15, or weave through traffic BETTER now that it has more power. Its just... sigh"
+sysadmin,fej5m0g,t1_fej1p2f,1579157829.0,"Limited users for admin staff, the agents are all BYOD, so local admins. No AD here, its real estate, agents come and go. 
+
+New user comes in, create in o365 admin, sign into their laptop with those details on onedrive, all good.
+Set sharing on the agents name for the admin staff so they can see the agents files so they can do the reports and paperwork etc. Staff admin get the email ""new user has shared their folder with you"".
+Open in office.com, click on folder, click on sync. 
+
+It should be as simple as that. But no, on admin staff PCs, onedrive constantly pegging 1 cpu core, constantly syncing, like it never ever stops.  So many times i see onedrive at ""syncing 9 files, 4.2gb of 4.3gb"" but it never changes, it sits there for hours and hours.
+
+Quit onedrive, reload, fixes the issue instantly. What's worse is that the admin staff are using the online storage option which doesnt even download the damn files until the admin staff has to open/work with it, yet still onedrive is stuck constantly at syncing.
+
+The only half reliable onedrive install is the one on the server used to maintain a local file history and concurrent backup that prevents agents who leave ""unhappy"" from destroying their local data. Even if they do, the local server keeps a cache and volume shadow copy helps as well."
+sysadmin,fej5ie0,t1_fej1p2f,1579157712.0,"Its on every single admin machine. New, old, windows 7 converted to 10, new installs. Its only on the admin machines with the most files on it, the agent machines with only one onedrive account synced have no issues, but the admin staff who have synced to the agent onedrives are the ones that have issues.
+
+I think i may have narrowed it down though, seems as there have been a few instances of complete file and paths exceeding 255 characters. Since in onedrive, anything thats not a alphanumeric code is stored as extended codes. For example ""Property 1 - Report"" is stored as ""property%201%20-%20Report""
+
+A few folders of that business exceed the 255 limit pretty quickly and word just looses its shit, so im guessing onedrive is also have issues with it.
+
+I just now have to find a way of discovering all those too long paths/names and fixing them somehow. Sounds like a job for powershell!"
+PrequelMemes,fej0woo,t3_epa4oo,1579152943.0,"i still say roger roger to people when im agreeing with them and saying ""yep i will get that sorted.""
+
+roger roger"
+sysadmin,feiyng8,t1_feix6ty,1579150913.0,"Makes absolutely no sense at all then. I have been getting a LOT of these on the reception PCs.
+
+Faulting application name: OneDrive.exe, version: 19.222.1110.6, time stamp: 0x06c52c8d
+Faulting module name: KERNELBASE.dll, version: 10.0.18362.535, time stamp: 0x5bd9df62
+Exception code: 0x80000003
+Fault offset: 0x0015d0b2
+Faulting process id: 0x241c
+Faulting application start time: 0x01d5cc198280c520
+Faulting application path: C:\Users\Reception\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+Faulting module path: C:\Windows\System32\KERNELBASE.dll
+Report Id: 643983b9-72e1-46ef-8bf0-31018f02a972
+Faulting package full name: 
+Faulting package-relative application ID: 
+
+Over and over and over again.
+
+Exactly the same machine, 9 minutes later later.
+
+Faulting application name: OneDrive.exe, version: 19.222.1110.6, time stamp: 0x06c52c8d
+Faulting module name: KERNELBASE.dll, version: 10.0.18362.535, time stamp: 0x5bd9df62
+Exception code: 0x80000003
+Fault offset: 0x0015d0b2
+Faulting process id: 0x2648
+Faulting application start time: 0x01d5cc198f122178
+Faulting application path: C:\Users\Reception\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+Faulting module path: C:\Windows\System32\KERNELBASE.dll
+Report Id: daa0a704-e34a-43ae-9b86-1d34f18d815e
+Faulting package full name: 
+
+Onedrive is also constantly using a whole CPU core.
+
+We have checked and are way under the 300 thousand file limit. At about 82 thousand files atm.
+
+This is an entirely difference PC, hell its a server and its also doing the same stupid error.
+
+Faulting application name: OneDrive.exe, version: 19.222.1110.6, time stamp: 0x06c52c8d
+Faulting module name: KERNELBASE.dll, version: 6.1.7601.24441, time stamp: 0x5cb93873
+Exception code: 0x80000003
+Fault offset: 0x000133e8
+Faulting process id: 0x224
+Faulting application start time: 0x01d5c7a03754c61e
+Faulting application path: C:\Users\Administrator\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+Faulting module path: C:\Windows\syswow64\KERNELBASE.dll
+Report Id: 71e2af57-35b0-11ea-896f-000c29e2ddb1"
+funny,fegdg3h,t3_ep02fv,1579088766.0,"Just hold the spoon and pull.
+
+Once its apart, put the pin back in."
+funny,fegd60h,t1_fee8erc,1579088430.0,"No. As it attracts dust, and then the silicone oil and dust form what's basically abrasive paste.
+
+Your friend for sliding glass doors? Graphite dust, or generic soap."
+funny,fegd32m,t1_fee0le6,1579088331.0,"If you use WD-40 to free up and lubricate a computer fan you are going to be in for a bad time when in a week it completely evaporates.
+
+Its a terrible long term lubricant. Inox, lanolin, lithium or silicone spray are all miles ahead of WD-40."
+assholedesign,fegat6r,t1_feg1bln,1579085374.0,I know.. its like people think reading the button is just too hard. You have to look at the button to push it. How do you willingly not read a button?
+assholedesign,fegas5e,t3_eoys3c,1579085335.0,"Just read the number. You can read right?
+
+You have to look at the button to push it, that means you have to read it?"
+electronics,feg8rnm,t1_fefz279,1579082487.0,"80Va will only be able to supply 1 50 watt audio amp with headroom.
+
+Maybe 2 if you never go full volume. 
+
+Just FYI. 
+
+I built a 5 channel gainclone for my PC, along with a 250 watt class D subwoofer amp, and the power supply was beasty, i used 2 200va transformers for the gainclone supply, and 1 300va for the class D amp."
+Damnthatsinteresting,feg5906,t1_feg5236,1579077525.0,"What is their definition of stupid and unneccessary? Are they doctors? Immunologists?
+
+In australia 30 odd years ago, there used to be a small addon fee to power bill i think? or registration or something, it was only 6 bucks or something tiny, but it was voluntary, and it was for helping run ambulances and pay for the medic's salary. 
+
+As it was voluntary, you could opt out of it, which meant that if did need an ambulance it did cost a small amount of money. (this was a long time ago now, im 41).
+
+My mother (may satan roast her evil soul) decided to not pay that small fee. 
+
+Her reasoning?
+
+""if anyone in my family needs an ambulance, i will drive them to the hospital myself""
+
+So i understand how frustrating and illogical some people can be. That was her reasoning. To this day i facepalm so hard i give myself concussion."
+oddlyterrifying,feg4yu5,t3_eoxfyf,1579077142.0,/r/holup
+Damnthatsinteresting,feg4ref,t1_feg446p,1579076872.0,"The number of kids dying from NOT being vaccinated is also very low in the grand scheme of things, however when you go from one year with zero deaths, then the next year hundreds, thats a pretty significant issue that is directly as a result of this anti-vaxx movement.  The fact that most children survive measles with or without vaccinations is a moot point, as the problem is if an unvaccinated child never contracts measles as a child, that's seen as a ""Win"" by the anti vaxxers, but the REAL problem is that if that individual who has grown up then contracts measles, it can be very very deadly, causing sterility, brain damage from fever or even death.
+
+What really sucks is that if said unvaccinated adult contracts measles from an unvaccinated child, you have two points of failure. Two sets of parents who have failed in being parents and taking every step to protect their offspring.
+
+Thats just sad.
+
+What's even worse, is that if there WAS a chance for vaccinations to cause autism in 1 of a million cases, would you want an alive autistic child? or a dead one....
+
+Anti-vaxxers are choosing death. And thats where i think anti-vaxxers should be convicted of child neglect."
+Damnthatsinteresting,feg3wy3,t1_feg3ja1,1579075791.0,"Not at all. That's because there is no survivorship scenario with vaccines. There are no deaths or injuries apart from a tiny percent of a percentage. 
+
+There is a survivorship scenario WITHOUT vaccines, as the number of deaths that are attributed to lack of vaccination, especially recently in the case of measles, along with the proven false studies have people seeing their child survive measles without the vaccine as ""Evidence its not needed""
+
+A lot of children DO die without vaccines, but none die that HAVE had that vaccination. Thats classic survivorship bias. ""my child survived, so that means vaccines are bad"" which is the same as saying ""i survived an accident without a seatbelt, thats proof that seatbelts are not needed"". It also works the other way, when a vaccinated child or adult gets the disease anyway, ""oh theres proof the vaccination doesnt work""
+No, it just didn't work for that one person. Its exactly the same as dying in a car accident, even wearing a seatbelt. When you hear of deaths in car accidents you dont immediately go ""oh well thats evidence that seatbelts, airbags, safety features, abs and traction control don't work.""
+
+
+YOU survived measles, or a car accident. Thats the ""Filter"" or survivorship bias. Instead of the entire pool of data, you are using one data point. Litereally ""ONE"" data point as a judgment for the entire pool.
+
+The real kicker is that if vaccines caused autism there would be a LOT of adults with autism right now as everyone who is alive right now has been given plenty of different vaccines over the years. Survivorship bias would have been uncovered when 1 out of 10 people alive today would have been diagnosed with autism.
+
+Which hasn't happened..."
+technicallythetruth,feg2lbl,t3_eovjgn,1579074178.0,Yep
+Damnthatsinteresting,feg230y,t1_feg0q1w,1579073570.0,"Safety features in vehicles. Helmets for motorbikers, and seatbelts for example.
+
+A doctor was against seatbelts because there were so many more injured people in hospital after they were introduced.
+
+So many more injured people is bad right?
+
+No, because they survived to get TO hospital, where as normally they would be dead.
+
+Survivorship bias would be to use the figure of ""number of people in hospital is going up.""
+
+The real data is ""number of people dying going down."""
+pics,fefx85m,t1_fefwgyl,1579068195.0,"I love how you threw in that ""lack of gun voilence"" yea thats such a negative thing."
+tipofmytongue,fefqrg8,t1_feflpox,1579062510.0,"No, real life."
+todayilearned,fef2s0d,t3_eo69vw,1579046823.0,"And in australia, BMW doesn't bother installing indicator stalks, because BMW drivers never use them at all."
+MurderedByWords,fef10di,t3_eod2g4,1579045640.0,Holy shit that's vicious
+oddlyspecific,fef03xm,t3_eoo3ch,1579045052.0,"Ouch
+
+This hit way too close to home :("
+funny,feezuhb,t3_eolcpm,1579044880.0,"This is just sweat, not fart."
+funny,feeze99,t3_eokeki,1579044587.0,ACTUAL!
+facepalm,feeww6p,t1_feden9y,1579042974.0,"Everything reflects light apart from black holes. If the moon was its own light source, it would be seen each and every night, but that's not the case as the moon waxes and wanes in its 28 day cycle. Because.. its reflecting sunlight. On a new moon, out in the scrub you can sometimes see the moon by the starlight it reflects."
+ChoosingBeggars,fecx7dk,t3_eod31g,1578988245.0,"""They let me fill up a backpack with stuff i was going to steal, they let me steal it but then didn't because they stopped me. 1 star"""
+facepalm,fec12q5,t1_fec0oz7,1578965088.0,I think the aim was to cut away the alloy to allow access to the nuts and then remove them.
+facepalm,fec00hz,t1_febyf86,1578964773.0,"Yea, good idea, very flawed in execution.
+
+By this point i would have had it flat bedded to a mechanics to get it done properly."
+facepalm,feb95p8,t3_eobccr,1578956556.0,"The nuts/studs are corroded, so he decided to sacrifice the wheel just to get the spare on and get the car running again."
+funny,fe6ehdi,t1_fe59uip,1578888506.0,Upvote for Shaun of the Dead reference!
+interestingasfuck,fe68i4o,t3_enswfe,1578884106.0,And this is how a disney movie starts.
+tipofmytongue,fdz17l3,t1_fdvriga,1578785657.0,"I thought it was stealth too, but its way too new. This would be early/middle 80s."
+tipofmytongue,fdvgwqk,t1_fdvgr93,1578747295.0,"> The red balloon
+
+Nah, definitely was a small helicopter/drone."
+tipofmytongue,fdv7nk7,t1_fdv7d2b,1578744316.0,"No, that was in a building, it wasn't aliens though that is also a fantastic damn movie."
+ArtisanVideos,fdv7kp4,t3_eksvza,1578744285.0,Oh awesome he put it back up again! I saw this a good 6-9 months ago and the effort and work that went into it was amazing. The music selection was absolutely top notch too.
+tipofmytongue,fdv5r0e,t1_fdv5mzl,1578743551.0,"Definitely not that. It was specifically a chopper, human made. Military perhaps? 
+
+There was sand involved, like a battle in the desert."
+tipofmytongue,fdv3wjo,t3_en6glu,1578742859.0,"Its been bugging me for years. 
+
+Not sure if it was a chopper or small drone kind of thing."
+straya,fdu8g01,t3_em49jt,1578729393.0,Just waiting for a mate.
+ThingsCutInHalfPorn,fdu6npm,t1_fdt9j0t,1578728520.0,"Nah, you can see the bell housing there, with a shaft sticking out? That connects to an engine, which is not installed."
+assholedesign,fdu5cfu,t1_fds6cja,1578727827.0,Its microsoft. Its ads. Just check the start menu on a windows 10 machine.
+assholedesign,fdu4xb4,t3_emwgsk,1578727613.0,"That screen doesn't look like that in real life though. They are LED screens using very high frequency PWM to get the various colours and cameras have a very hard time capturing it.
+
+Source: i fix them."
+interestingasfuck,fdu4jxm,t1_fdsmvdv,1578727422.0,"Name: Lizard-man. 
+
+Occuption: Lizard-man."
+talesfromtechsupport,fdu3iv3,t1_fdqqyoi,1578726886.0,"Yea, when it first came out it called it ""plug and pray"""
+interestingasfuck,fdtysxl,t1_fdt25vj,1578724483.0,"There would never be an occasion to watch one of these im afraid, safety was HUGE. Range safety is something they never fucked with. There where just too many things that could go wrong.
+
+For example a few years before i went through kapooka they used to allow the range target control sections (the people who pulled the targets down, marked the shots, recorded, and then put the little yellow stickers back on the targets) to go downrange with live ammo until it was their turn to go back the mound and do their shoot.
+
+A recruit, while down at the targets loaded his steyr with live magazine, put it into his mouth and shot himself. Any opportunity or occasion where recuits could get injured or killed even accidently was monitored and controlled heavily. Obviously after that event, no one was allowed to go downrange with live ammo anymore. No watching a live grenade go off even at a distance as catching a stray piece of shrapnel in the eye even at 200 meters was just too dangerous. 
+
+Leaving the range was a big affair, with everyone's weapons, magazines, and webbing all double checked by the section corporal and the range safety officer. Once again due to someone taking a single live round back to the dorms and shooting themselves. Not only that but accidently mixing a live round with blank ammo was a recipe for disaster. To blank fire an steyr, a blanking pin was screwed into the end of the barrel, so firing into that with a bullet would be disastrous to both the firer, and anyone close by. 
+
+Range safety was one of those things that no one ever fucked with, there was never any punitive or odd punishments, no horrific ""Boot"" treatment. If you found a live round and handed it in, it wasn't a big deal, you were thanked, and nothing ever happened. They treated us hard and harshly, but some shit was deadly serious, and ordance was the big one.
+
+The austeyr has an underbarrel grenade launcher attachment and we never ever got a chance to use those, and we also never got a chance to fire the 9mm pistol, though that wasn't a big deal as the joke was it was more accurate to throw the pistol at an enemy then it was to shoot him. Apparently they were pretty horrific accuracy wise."
+interestingasfuck,fdtxy8d,t1_fdstije,1578724051.0,"Nerves, actually holding live ordnance, and 6-7 weeks of working on low sleep and being yelled at non stop, with a LOT of physical training (PT). Basic training/boot camp is hell on you. On purpose of course. The aim is to get as much muscle memory, instinctive responses and fitness. Put it this way, due to the amount of physical work we did, the mess allocated 4 standard meals for all recruits. You were up at the crack of dawn, with your bottom sheet over your left shoulder. You had 15 minutes to shave, get dressed, make your bed and be standing outside your dorm room in camo. If someone didn't make it in time, the section leaders would go back in, tear everyones beds up and you had to do it again. 
+
+Sometimes that did that just for kicks.  You wouldn't get to sleep till 10pm, at night it was weapons drills, cleaning weapons, your room, shining boots or brass, cleaning the dorms, or even the platoon HQ if it was your section's turn. You didn't get to sleep until HQ was shiny. If it was uncomfortable or hard, there is a chance you had to do it.  Wierd punishments were the standard. If you fucked up, often your section had was punished and you had to do nothing at all, which was way worse then if you fucked up and you had to the punishment.
+
+Drop and give me 50, pretty common. Yelling ""YES CORPORAL"" until you lost your voice sucked until you got the hang of yelling. Dress inspections, getting all dressed up in your parade uniform, checking brass for scratches, making sure your dress boots were shiny, all part of it. It was brutal, hard and the aim was to break you out of your habits and ""remold"" you as an obedient fighting soldier in 13 weeks. 
+
+I remember the very first day getting of the bus, and getting all your clothing and equipment issued, and then number 2 head shave for all the men, and pretty specific haircuts for the women. Some recruits would rock up with fucking golf clubs as they thought they would get some opportunity for R and R.. haha. R&R only ever happened after the first 6 weeks when you got your first leave into the city. In my case it was ""wagga wagga"" a hell hole of a town in the middle of nowhere. You would go crazy first up, get your cash, and waste the entire lot on booze or partying or even hookers, and then get carried back into the base. It was a fucking wild time. 
+
+But yea, you ran on little sleep, coffee, and being yelled at. Not a lot of thinking happened when you were bordering on passing out half the time.  So you threw your grenade, watch it land next to a tyre or a target and your brain goes ""ooo i wonder how much damage it will do"" so you just look at it. I got yanked down the first time as well. 
+
+Range control was in a tower about 50 meters back with a thick layer of bulletproof plastic/glass on the front, and i remember looking at that and seeing pockmarks. 
+
+And grenades dont go ""boom"". its more of a ""CRACK"". Very little smoke from what i could see."
+interestingasfuck,fdsigwa,t1_fdqd2u6,1578703370.0,"They aren't heavy but there is a specific way to throw one as its a ""process"" to pull the pin, check the pin, check the hole in the grenade top, look at the target, throw, etc. Its all done to form muscle memory. Thats what 99 percent of being a soldier is.. repeat repeat repeat until its instinctive. When i was in the army the weapons we had were F88 steyrs. I haven't seen/touched one for nearly 17 years now but im pretty sure i could still pick one up and do the weapon drills. Load, unload, safe, etc etc."
+interestingasfuck,fdsiced,t1_fdqecrc,1578703303.0,"But thats not how to throw a grenade. You aim is to land the grenade as close as possible to the target, so you have to be looking at it when it lands. THEN look away and get to cover."
+interestingasfuck,fdsi8dp,t1_fdqh26u,1578703242.0,"Yea they arent exactly ""locked"" into place. Whenever i see a movie/tv show with grenades being held up by the pin or looped using the pin rings i shudder. They are tight, but yea... no thanks."
+interestingasfuck,fdsi5l1,t1_fdqhp7j,1578703199.0,"This is correct, there is actually a specific way to throw a grenade, and its to do with checking the hole. You pull the pin, and then have to look through the hole to make sure none of the pin has broken off inside. Its also where the spoon has to sit in your hand so it doesnt flick out, the spoon is palmwards."
+interestingasfuck,fdsi1fj,t1_fdqi1xt,1578703135.0,"Yes we did, But its whole new ball game holding live ammunition/armaments. All us 18-19 year olds were still kinda half phased out at about half way through basic training. (13 weeks)"
+interestingasfuck,fdshy2j,t1_fdqo24q,1578703085.0,"We had one guy try to break his arm by jamming it into his top bunk and then jumping off.
+
+Had a girl try to drown herself. We had a few odd ones in our platoon.
+
+The oddest was our bombardier. Two corporal chevrons right?
+
+Don't ever dare call a bombardier a corporal.
+
+""IM A BOMBARDIAR, NOT A CORPORAL! 10 LAPS IN THE PARADE GROUND NOW""
+
+Ahh basic training."
+interestingasfuck,fdshs94,t1_fdqrk0v,1578702997.0,"Its just reflex. You are drilled to keep your eye on the target, and weapon drills are always ""be aware"", ya know, whats around the target, whats BEHIND the target. 
+
+So you are throwing something that is trying to kill a target, so you look at it to see how close you get. Then the instructor grabs your webbing and pulls you away because you know.. fucking grenade."
+WritingPrompts,fdshkn3,t1_fdsahm9,1578702885.0,Oh nice!! Goosebumps!
+interestingasfuck,fdsg8pu,t1_fdqg0eb,1578702107.0,"6 platoon, 3 section. I was TESG, in RAEME for 7 years. Australian army."
+interestingasfuck,fdqbtv7,t1_fdqbp83,1578662379.0,"Its a bit heavier then anything you would expect to throw. I mean it's not hard, but you have this tendency to look at what you are throwing at to make sure the grenade landed where you wanted it to land, and you then look to see what damage it could do, its instinctive. Throwing something and then not looking where it landed is pretty hard to do. 
+
+Go outside a throw a heavy rock at something, but then dont look where it lands."
+HolUp,fdqanfy,t3_emnpee,1578661317.0,ohh shite
+pcmasterrace,fdqagtp,t3_emo0z0,1578661149.0,"I went cheap and bought a 1660 Ti, and damn i have all the FPS i need for my office 1080 monitor that has so much ghosting i feel like im on the history channel and waiting for ghost hunters to smash down the front door."

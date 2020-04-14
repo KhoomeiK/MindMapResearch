@@ -1,0 +1,315 @@
+subreddit,self ID,parent ID,time,text
+xbox,ffnejmn,t1_ffnd9m1,1580064925.0,SSDs dont have moving parts so they should be unaffected by vibrations.
+AdviceAnimals,ffisjq8,t1_ffibcyz,1579981638.0,"I'm normally a social drinker. I was recently at a wedding and had the flu. Normally I would have just skipped it but it was my sister's and I was standing up at it. Can't exaclty miss that. So I was taking flu medicine throughout the day, which specifically says not to mix with alchohol. Come reception time, I had to keep reminding everyone that I couldn't drink due to taking medicine. The same people would keep trying to get me to drink over and over... They didn't seem to get it."
+FanTheories,ffiiy21,t1_ffihpnh,1579974978.0,"Yupp. Except for 2, they all used Roman numerals."
+todayilearned,ffh7n7v,t1_ffgzl8f,1579925416.0,"That's not a big issue with [High Voltage DC lines.](https://en.m.wikipedia.org/wiki/High-voltage_direct_current) We already can transmit power *thousands* of miles. Currently the record is held by the [Rio Madeira HVDC system](https://en.m.wikipedia.org/wiki/Rio_Madeira_HVDC_system) in Brazil at 2,375 km (1,476 mi)."
+homeassistant,ffgypyu,t3_etjjsy,1579918494.0,">Has home assistant recently been updated in a big way that makes tutorials and information about a year old and older not apply anymore?  
+     
+It depends on the tutorial. Somethings still work the same way, some do not. Authentication and the Lovelace UI are the 2 biggest overhauls that I remember recently so they may not work in older tutorials. Most of the other stuff should still work.  
+     
+>Was it in the past not built into the GUI of Hass and you had to code it but now you can just add cards through the GUI?   
+     
+Correct. It wasn't nearly as easy to get some of the slick-looking dashboards you see now. Using groups or custom webpage was the only way to not have your dashboard look like sensor & device throw up lol. Those methods still work but there's not much reason to use them. Lovelace makes things much easier and most things can be done without any coding. Some cards still do require some, like vertical stacks, but it's much easier and intuitive than the old way.   
+    
+>Why is there no more hassberry? hassbian?   
+    
+It's simply easier to install and use HASSIO. They are, at their core, the same thing. HASSIO just has the addon repository to make installing some commonly installed supplemental things *much, much* easier. When I migrated, I had my new HASSIO instance running with all the supplemental stuff - NodeRed, Lets Encrypt & DuckDNS, Samba share, Influxdb, and Mosquito - all set up in a few hours. It would have taken me a whole weekend to do it the old way.    
+   
+>Is the only thing supported now HASS.IO?   
+    
+Nope. I just switched over from an old HA installed in venv that predated HASSIO and it got released at the same time as HASSIO. It didn't have the addon repository though. I only switched over because I borked my upgrade of python so it was just easier to backup my config files and start from scratch.    
+    
+>I've been trying to mess around with themes and am unsure to point to the themes.yaml file or the themes directory when adding it in the configuration.yaml file.   
+   
+Depends on where you are storing your themes.yaml. If it's in your main config folder: /config/themes.yaml  
+      
+    themes: !include themes.yaml  
+   
+is fine.  
+    
+If you have it in a separate folder like:  /config/themes/themes.yaml
+    
+    themes: !include themes/themes.yaml
+    
+should do it."
+nodered,fffhs0q,t1_ffer9zk,1579884246.0,"Sure. I'm not sure the best way to share it so I'll just copy/paste the export code. I did have to rewrite it after migrating to HASSIO so things might not be 100% the same. The normalization part is still the same though with the exception of using a <= 5 instead of separate < 5 and = 5 conditions.    
+     
+Node code:
+     
+    [{""id"":""b6eb9edc.f4d31"",""type"":""poll-state"",""z"":""3c7bf43b.8daefc"",""name"":""Dryer"",""server"":""63a963d1.b1d45c"",""version"":1,""exposeToHomeAssistant"":false,""haConfig"":[{""property"":""name"",""value"":""""},{""property"":""icon"",""value"":""""}],""updateinterval"":""60"",""updateIntervalUnits"":""seconds"",""outputinitially"":false,""outputonchanged"":false,""entity_id"":""switch.dryer"",""state_type"":""str"",""halt_if"":"""",""halt_if_type"":""str"",""halt_if_compare"":""is"",""outputs"":1,""x"":170,""y"":240,""wires"":[[""70591db7.f98e94""]]},{""id"":""70591db7.f98e94"",""type"":""switch"",""z"":""3c7bf43b.8daefc"",""name"":"" > or <= 5w"",""property"":""data.attributes.current_power_w"",""propertyType"":""msg"",""rules"":[{""t"":""gt"",""v"":""5"",""vt"":""num""},{""t"":""lte"",""v"":""5"",""vt"":""num""}],""checkall"":""true"",""repair"":false,""outputs"":2,""x"":330,""y"":240,""wires"":[[""1b3c0a99.425325""],[""d5dd467d.f9ad08""]]},{""id"":""1b3c0a99.425325"",""type"":""change"",""z"":""3c7bf43b.8daefc"",""name"":""Normalize to 5"",""rules"":[{""t"":""set"",""p"":""payload"",""pt"":""msg"",""to"":""5"",""tot"":""num""}],""action"":"""",""property"":"""",""from"":"""",""to"":"""",""reg"":false,""x"":520,""y"":200,""wires"":[[""8e5d4354.759f6""]]},{""id"":""d5dd467d.f9ad08"",""type"":""change"",""z"":""3c7bf43b.8daefc"",""name"":""Normalize to 0"",""rules"":[{""t"":""set"",""p"":""payload"",""pt"":""msg"",""to"":""0"",""tot"":""num""}],""action"":"""",""property"":"""",""from"":"""",""to"":"""",""reg"":false,""x"":520,""y"":260,""wires"":[[""8e5d4354.759f6""]]},{""id"":""8e5d4354.759f6"",""type"":""rbe"",""z"":""3c7bf43b.8daefc"",""name"":""Block Unless Value Changes"",""func"":""rbe"",""gap"":"""",""start"":"""",""inout"":""out"",""property"":""payload"",""x"":760,""y"":240,""wires"":[[""de7ed8a.4c80328""]]},{""id"":""de7ed8a.4c80328"",""type"":""switch"",""z"":""3c7bf43b.8daefc"",""name"":""On or Off?"",""property"":""payload"",""propertyType"":""msg"",""rules"":[{""t"":""eq"",""v"":""5"",""vt"":""num""},{""t"":""eq"",""v"":""0"",""vt"":""num""}],""checkall"":""true"",""repair"":false,""outputs"":2,""x"":990,""y"":240,""wires"":[[""e84c0f6d.49a7b""],[""9b1aecbb.ad10a""]]},{""id"":""e84c0f6d.49a7b"",""type"":""change"",""z"":""3c7bf43b.8daefc"",""name"":""Change to True"",""rules"":[{""t"":""set"",""p"":""payload"",""pt"":""msg"",""to"":""true"",""tot"":""bool""}],""action"":"""",""property"":"""",""from"":"""",""to"":"""",""reg"":false,""x"":1180,""y"":180,""wires"":[[""7c453fd3.71de8""]]},{""id"":""9b1aecbb.ad10a"",""type"":""change"",""z"":""3c7bf43b.8daefc"",""name"":""Change to True"",""rules"":[{""t"":""set"",""p"":""payload"",""pt"":""msg"",""to"":""true"",""tot"":""bool""}],""action"":"""",""property"":"""",""from"":"""",""to"":"""",""reg"":false,""x"":1180,""y"":280,""wires"":[[""52c3de62.aa39f""]]},{""id"":""52c3de62.aa39f"",""type"":""api-call-service"",""z"":""3c7bf43b.8daefc"",""name"":""Dryer is off"",""server"":""63a963d1.b1d45c"",""version"":1,""debugenabled"":false,""service_domain"":""notify"",""service"":""weather"",""entityId"":"""",""data"":""{   \""message\"": \""Dryer is off\"" }"",""dataType"":""json"",""mergecontext"":"""",""output_location"":"""",""output_location_type"":""none"",""mustacheAltTags"":false,""x"":1350,""y"":280,""wires"":[[]]},{""id"":""7c453fd3.71de8"",""type"":""api-call-service"",""z"":""3c7bf43b.8daefc"",""name"":""Dryer is on"",""server"":""63a963d1.b1d45c"",""version"":1,""debugenabled"":false,""service_domain"":""notify"",""service"":""weather"",""entityId"":"""",""data"":""{   \""message\"": \""Dryer is on\"" }"",""dataType"":""json"",""mergecontext"":"""",""output_location"":"""",""output_location_type"":""none"",""mustacheAltTags"":false,""x"":1350,""y"":180,""wires"":[[]]},{""id"":""63a963d1.b1d45c"",""type"":""server"",""z"":"""",""name"":""Home Assistant"",""legacy"":false,""hassio"":true,""rejectUnauthorizedCerts"":true,""ha_boolean"":""y|yes|true|on|home|open"",""connectionDelay"":true,""cacheJson"":true}]"
+homeautomation,ffe3o44,t1_ffe20sl,1579835859.0,Then it's not the issue I described unless you have other Hue automations that fire at the exact same time.
+homeautomation,ffdvtnr,t3_eswzaa,1579830181.0,"How many individual calls are you making at once?   
+     
+Hue seems to have a limitation of 3 at once. Calling an entire room or zone seems to count as 1 call. My node red flow has 5s delays between groups of 3.   
+      
+If I called each bulb of my 5 bulb lamp, it would count as 5 calls and need a delay. Bulbs 1-3 -> 5s delay -> bulbs 4-5.   
+      
+If I call the room the 5 bulb lamp's bulbs are a part of, it would count as 1 call and I would not need a delay.   
+    
+If I call 3 rooms and 2 bulbs at once, I would need a delay. Room 1-3 -> delay -> Bulb 1-2.       
+    
+I don't know if 5s is the minimum delay needed. It's just the default for the delay node but it worked for my purposes."
+smarthome,ffdst3k,t1_ffdb21a,1579828034.0,"These are new to me. Usually when people talk about smart switches, they're referring to ones that can only control dumb bulbs."
+HomeImprovement,ffc7qkn,t1_ffbwhsv,1579793473.0,Federal is 7.25 in the US at least. It may be different in other countries.
+smarthome,ffc7531,t1_ffc24g5,1579793087.0,"You can't use RGB bulbs though, which is the point of the question."
+HomeServer,ffaubh6,t3_esm24c,1579744665.0,"If you're ok with used, Aruba switches are dirt cheap and fairly easy to work with. My S2500 was ~$100USD shipped. Granted that's a 48 port switch. PoE versions aren't the much more expensive. I haven't done anything too advanced with it yet though."
+techsupport,ffatdpt,t3_eslcxe,1579744044.0,"Clean it out regularly. Laptops are dust suckers, especially if you put it on a fabric surface. They don't have the greatest cooling to begin with so all that dust buildup can cause things to thermal throttle. Cleaning it out can help components cool *much* better and avoid throttling."
+techsupport,ffaqnfn,t3_esjea5,1579742218.0,"It probably thought it heard ""Ok google"" and responded to a sentence about youtube. You can go to https://myactivity.google.com/ and it will show you what google assistant responded to along with the audio clip that triggered it."
+smarthome,ffano7e,t1_ffai0h0,1579740214.0,"Eh, I get your point but I use queries like that for some of my automations all the time. I use outside temps as triggers for my furnace/AC, Sunset/sun rise for turning on and off automatic lights, NFL team game times for light reminders that the game has started, etc."
+homeassistant,ffadbb9,t3_esj87b,1579732860.0,I use Home Assistant as a compatibility layer and dashboard. There are several devices and services I have that would be a pain to add to Node Red directly but are a breeze to set up in HA.
+MapPorn,ffa5x23,t1_ff9wz5d,1579728511.0,"1820 and 1920 did but 1720 didn't.
+
+1720 - [Great Plague of Marseille](https://en.wikipedia.org/wiki/Great_Plague_of_Marseille): limited to Marseille, France.      
+1820 - Yellow Fever: seems to be mostly isolated to the US and Carribean, [Middle of the 1st cholera pandemic](https://en.wikipedia.org/wiki/1817%E2%80%931824_cholera_pandemic)    
+     
+[Source](https://en.wikipedia.org/wiki/List_of_epidemics)"
+smarthome,ffa00ey,t3_esgs6k,1579725123.0,I could see this being useful for someone with a very large property that's mostly fields or maybe woods depending on it's navigation but not for the average lot. Most people are better off with regular cameras.
+cordcutters,ff9t3rh,t1_ff9p91m,1579720670.0,"KB+M is a pain to use in a traditional living room/home theater setting. A cell phone app that emulates KB+M, however, would work quite well."
+memes,ff9qn2j,t1_ff8subq,1579718843.0,[Genndy Tartakovsky](https://en.wikipedia.org/wiki/Genndy_Tartakovsky) did both Samurai Jack and Clone Wars.
+memes,ff9dhab,t1_ff9arqo,1579710611.0,"1720 - [Great Plague of Marseille](https://en.wikipedia.org/wiki/Great_Plague_of_Marseille): limited to Marseille, France.    
+1820 - Yellow Fever: seems to be mostly isolated to the US and Carribean, [Middle of the 1st cholera pandemic](https://en.wikipedia.org/wiki/1817%E2%80%931824_cholera_pandemic)  
+     
+[Source](https://en.wikipedia.org/wiki/List_of_epidemics)"
+oddlysatisfying,ff6pcb3,t1_ff6mhy8,1579632074.0,"Of course. I was just saying it was possible, not that it was better."
+oddlysatisfying,ff6kouo,t1_ff6cjvs,1579629257.0,"Bells on string for audio cue or position the string line so that they line up at the windshield. 2nd one only works reliably if its the same model of car, which it is in OP's case."
+chemistrymemes,ff4jjgr,t1_ff3f63x,1579565140.0,I have the ACS certified bachelor's and still miss a few here and there.
+sports,ff21a2z,t1_ff209l8,1579491109.0,"That's Larry McGrew who was 233lbs for reference. Reportedly when Lawrence didn't get up immediately after the play a teammate came over and asked him if he was okay. Lawrence replied ""Yeah, I'm fine. But I just made ESPN highlights for eternity."""
+sports,ff1tz4z,t1_ff1psun,1579486137.0,Hit hit another one the next year [against the Blue Jays](https://m.youtube.com/watch?v=pccnt1l1Iv8)
+sports,ff1iiwv,t1_ff0pyzx,1579479763.0,The Fridge did [score in Superbowl XX but it was a run play.](https://www.chicagobears.com/video/nfl-100-greatest-no-79-william-the-refrigerator-perry-hammers-in-a-td-run-in-sup)
+homeautomation,ff034g1,t1_ff00m5i,1579464695.0,It might also be disabled in Windows as well. Device Manager -> Device in question -> Power management tab -> Allow device to wake computer
+nodered,fezzj07,t3_eqzafd,1579463566.0,"[I did a similar automation.](https://i.imgur.com/l06t9nN.png) I normalized the data then used an rbe node to block the flow if the normalized power value hasn't changed. After that I used the normalized data to determine ""on"" or ""off"" status and trigger notifications."
+baseball,feymvfj,t1_fex0l4w,1579447718.0,I've wanted a Cubs-Sox World Series since I was a kid. Who cares if it starts the Great Chicago Fire Part II?
+baseball,feylwq3,t1_feybp3t,1579447361.0,Canceled as a mercy to the teams the '23 Orioles would have to play.
+TheoryOfReddit,fev52fe,t1_feuckez,1579393196.0,jpeg and jpg are the same thing. The extension was originally .jpeg but early Windows required 3 letter extensions so it was shorted to .jpg. Macs of the same era didn't care about extension length so it was .jpeg there. Eventually Windows began to accept longer extensions but people were already use to .jpg so it stuck around too.
+freeware,fet6d7o,t1_fet3bs7,1579372184.0,"LibreOffice is basically one of the successor forks to the original Open Office. I'm assuming you're talking about Apache Open Office, which is another successor fork to the original Open Office. I haven't used Apache Open Office but I assume, since they're forks of the same source, they're probably similar.   
+    
+[Map of forks](https://en.wikipedia.org/wiki/OpenOffice.org#/media/File:StarOffice_major_derivatives.svg)"
+CHICubs,fep7q31,t1_feoh8g7,1579314010.0,"Bryant quit the team and in a flash of passionate, jealous rage, Rizzo killed him. Now Rizzo, Javy, and Ross are just Weekend at Bernie's-ing things until they can get rid of the body and Theo finds out.. /s.  
+   
+EDIT: Better story"
+Hobbies,fep5mwp,t1_fep420j,1579312667.0,"Sure, you could go solo. Most of the time, whether in a group or by yourself, you still get assigned to an overall larger team based on gear color, usually either Green or Tan. Civilian clothes and Black gear usually get assigned to the side with the least number of people to help balance teams. Most of the time I go with friends but we usually get separated fairly quickly anyway so I just head out with whatever group of people are spawning at the moment."
+Hobbies,fep07mh,t3_eq7m8e,1579309220.0,"r/airsoft might fit that depending on your budget and location. ~$200USD (~$150 for a starter gun, ~$25 for a good pair of properly rated goggles or mask, ~$10 for some .2g bbs) to get started then ~$20-35 for admission at a local field (sometimes more or less depending on the field/event). You can add more gear as you go but that's the basic minimum. Most games are held on weekends.     
+     
+Some bigger fields do rentals. Usually for ~$25+admission you get a gun, a few mags, and mask to use for the day. BBs may or may not be extra, depends on the field but they're cheap. I'd suggest renting before buying to see if you enjoy it."
+homelab,feoecle,t1_fenf3bz,1579299008.0,"> Once you get up to 18u or more the price skyrockets.  
+    
+Agreed. That's why I went with 2 smaller racks instead of one larger rack. It's especially true if you don't live near a tech center. I see used ones get posted on r/homelabsales or ebay but they're never near me."
+HomeNetworking,feo86pt,t3_eq64ou,1579296388.0,"I agree with the rest of the posters. A switch will work just fine. I have 2 8-port switches behind my entertainment center with no issues.    
+   
+That being said, I'd run at least 2 cables anyway. This way you have a back up if something happens to the cable or you need to expand beyond your original switch in the future."
+freeware,feo62bn,t3_eq6d33,1579295585.0,LibreOffice - Haven't used it in a few years but it worked just as well as Word did.
+PleX,feo57b7,t3_eq56ef,1579295294.0,"Do you have an indirect connection or direct connection? Indirect connections are limited to 2Mbps. That was my issue. Once I port forwarded on my router, my remote users could stream at full resolution."
+alexa,fenv4pq,t3_eq5859,1579291318.0,Bad scam bot!
+homeautomation,fentok6,t3_eq4fm9,1579290651.0,"I probably wouldn't use it. I use Home Assistant as the main hub and automation center of all my devices since I find most smart speaker routines to be too limiting for automation. With Google closing off their ecosystem more and more, I doubt I could use it to pass Z-Wave/Zigbee devices to HA to use in automations."
+smarthome,fenqn3a,t1_femxgfw,1579289385.0,Note: The Kasa Mini Lite (HS103) is only rated for 12A or 1440W.
+homeautomation,fenqg4d,t1_fend7se,1579289268.0,"Flexibility, especially for non-work days. If I'm visiting a museum or going shopping on my day off, for example, I'll be gone for most of the day. Setting the thermostat to away would save some money on gas/eclectic bills.   
+    
+If your house takes that long to heat, don't set the away temp so low. I set mine to 60F in the winter/80F in the summer. The whole 1700 sq ft, 2 floor house takes less than 15 mins to heat/cool back to 70 in the winter/75 in the summer."
+smarthome,fennp0e,t3_eq2bdt,1579288330.0,"I've got a good mix of stuff, zigbee, zwave, 433MHz, and wifi. I've got about 20-25 wifi devices and haven't seen any slow down. Archer AC1750. Everything is on one network. One thing to note, though, is all my heavy bandwidth using devices like my PC, game consoles, smart TVs, servers, etc are wired with Ethernet so that takes a *ton* of strain off my wifi. I think the only non-smart devices I have on my wifi are my phone, laptop, and tablet. I don't use any of them for high bandwidth activates. They're usually on the 5Ghz band anyway. There's not much interference from neighbor's wifi either."
+chicago,feh1o3o,t1_fegtury,1579107285.0,[Correct](https://www.chicagotribune.com/entertainment/museums/ct-lincoln-park-zoo-pepper-donation-lion-house-renovation-1212-20191212-rferblztirc2xgn2bgwkqu5qrq-story.html). The renovation is expected to be complete in 1½ - 2 years.
+ArtefactPorn,fegzaen,t1_fegthl7,1579105837.0,"IIRC, Garfield's hat is at his former home which is now a national landmark & museum, the James A. Garfield National Historic Site in Mentor, Ohio."
+homeassistant,feewkjc,t3_eorxpz,1579042769.0,Add an rbe node. It will only pass on if the data changes.
+Hue,feevl2h,t3_eoq4rv,1579042156.0,https://www.reddit.com/r/Hue/comments/ecvbzf/fixed_lightstrip_plus_whirring_coil_whine_buzzing/
+ecobee,fedssp2,t1_feddo7n,1579019127.0,">Where should the link to it be?  
+> - In a pinned post   
+> - On the sidebar   
+> - Both     
+     
+Both. Depending on the app, finding the sidebar on mobile can be challenging or unintuitive. This is especially true if you don't know sidebars exist."
+smarthome,fe9v6xv,t1_fe9g9b4,1578941760.0,"To add to this, if you go the Home Assistant route, also install Node Red to create your automations. It makes using HA soooo much easier than it standalone."
+Hue,fe9qv4t,t3_eo7cjs,1578940689.0,"Generally, I put stuff like this all in one Room but with different but with different groups of lights in their own Zone. The newest update allowed the control of Zones from accessories like the Hue switches."
+amazonecho,fe8u95i,t3_eo3p6s,1578930978.0,"I have a smart plug that also measures power usage. I have one hooked up to my washer and another with my dryer. When the power dropped below a certain threshold, an automation fires that has Alexa announce which one has turned off. I'm using Home Assistant, Node Red, and the Alexa Media Player custom component to get this to work."
+smarthome,fe8t7wy,t1_fe8nuy6,1578930565.0,Or they're not connected to a switch at all. My basement lights are all pull cords so smart plugs aren't an option either.
+alexa,fe8mc6b,t1_fe6qlkh,1578927873.0,They meant CO but [here's the relevant thread](https://www.reddit.com/r/legaladvice/comments/34l7vo/ma_postit_notes_left_in_apartment/)
+PleX,fe15ihc,t1_fe07sgj,1578822711.0,"Of course. But depending on your movie/TV preferences, it can be more than just a few. My buddy loves older/obscure b-horror and older indie films. His collection is well over 1000 dvds and I've only been able to find about 3/4th in above dvd quality. Older TV shows suffer from this as well. Many never got a bluray release or were never formatted to HD for streaming.   
+    
+IMO, you should only time you should (at least temporarily) settle for DVD quality when higher quality is available is either:    
+
+If you don't have the bandwidth to download it all at once. Then rip and replace it over time as bandwidth allows. It sucks that bandwidth caps exist but it is a reality that many people have to deal with.    
+   
+You're on a tight budget and you don't have the hard drive space for so many movies and shows. Then rip and replace as your budget for expansion of your storage array allows."
+PleX,fe10kti,t1_fdxzk1u,1578821145.0,It should be set to wanted/monitored automatically. You just have to tell it to start searching. You can launch a system wide scan from the wanted tab.
+UpliftingNews,fe0vlp3,t1_fe0day4,1578819182.0,"Considering the whole area was covered with jungle for about 500 years from when it was abandoned during the Spanish Conquest until excavations during the early-mid 1900s, probably none that ready haven't been."
+PleX,fdx6ihs,t1_fdx5q2d,1578765813.0,Some of those niche titles can be difficult to find on the internet as well.
+PleX,fdx5zcc,t1_fdw9jib,1578765625.0,Use at least 2 or 3 subtitle providers. The more the better. I've had a few that either reached an api limit or otherwise shit the bed after searching though only a few dozen episodes/movies.
+PleX,fdx3450,t1_fdwy7iw,1578764787.0,"It depends on your internet speed, data caps, and size of your collection. With a 1TB connection and a 100 Mbps connection, it might take several months to download 1080p rips."
+DataHoarder,fdpsd7a,t3_eml9zj,1578638619.0,"I usually run disks until they die. They then get put in a stack in my closet. Eventually I'll get around to destroying them.   
+   
+I usually upgrade everything at once so random components aren't a big issue for me. When I do have them, I wrap them in a static bag (usually the one the upgraded component came in) and put them in a plastic bin until I have a use for them.   
+      
+I try to find a use for other old hardware. My old gaming pc from 2009 was repurposed as a NAS when I built my new one. Eventually it got replaced by a rackmount server. Now it is being used as my craft room PC. The most demanding thing it needs to do is play youtube videos so it's age isn't a huge factor. 90% of the time it's playing podcasts and showing a static image I'm using for reference.   
+     
+I've got a ca. 2005 Dell XPS 400 that is currently unused but I plan on integrating that with a model train layout I plan on doing in the near future."
+homeassistant,fdpp9ru,t1_fdoyvzu,1578635427.0,"Proxmox > Ubuntu server > venv > hass, mosquito, Influxdb, and NodeRed here. My install pre-dates Hassio (and I think most good Hass docker tutorials). Hassio seem much easier to work with but I'm dreading moving everything over."
+xbox,fdnor8h,t1_fdn3sw4,1578590084.0,"I did the same. On nice days, I'd take my 360, laptop, and small TV outside and game."
+homeassistant,fdna3w0,t1_fdn8dbp,1578581267.0,I'm a couple of HA releases behind so that might be the difference.
+HistoryMemes,fdn8a5g,t1_fdn728l,1578579966.0,There were 3 that I know of: *Chateau Snavely* with Betty White only got a pilot.       [*Amanda's*](https://en.m.wikipedia.org/wiki/Amanda%27s) with Bea Author. Lasted less than a season.        [*Payne*](https://en.m.wikipedia.org/wiki/Payne_(TV_series\)) with John Larroquette. It also lasted less than a season.
+Proxmox,fdn0mim,t1_fdn0aln,1578573577.0,It's cool. I learned something new today and that's what I'm here for.
+PleX,fdn0gbd,t1_fdmuem2,1578573409.0,Or an indirect stream because the server host didn't port forward on their router. indirect stream is limited to 2Mbps.
+Proxmox,fdn05hw,t1_fdmzyp7,1578573108.0,"Correct, I thought you were talking about just your ssh server crashed out or something like that. I wasn't aware you didn't need to log in like normal to containers that way."
+Proxmox,fdmzvks,t1_fdmzjm6,1578572831.0,"Unless I've misinterpreted what you meant, you can access them though the built in kvm. In the web GUI, Click on the VM -> Console."
+homeassistant,fdmze0y,t3_em5x6o,1578572341.0,"Most things are automated. For lights, I usually use Hue dimmers, some automation, or voice control. Everything else, I pretty much use Alexa voice control. I have 2 mounted tablets and a phone app but I rarely use them. The only time I really need to access the UI is to activate my guests input Boolean. That disables some automations that guests might find annoying."
+homeautomation,fdmz55l,t1_fdmuz9e,1578572080.0,"If they use a properly rated smart plug it will be fine. Some of them are rated for higher loads than others. For example, TP-Link Kasa Lites (H103) are rated for 12 amps. Kasa Classic Mini (H105) are rated for 15 amps. The H103 might not cut it for a window AC unit."
+homeassistant,fdmys2o,t3_em82gu,1578571684.0,I use the Alexa Media Player custom component in HA and just call that in NodeRed. It's been running for a few months and haven't had any issues so far.
+Proxmox,fdmyg9g,t1_fdmswml,1578571320.0,">if you ever lose access to ssh you can enter the container directly from the hyper visor.  
+     
+You can do this with VMs as well."
+Hue,fdm8i0b,t1_fdm6yo3,1578542424.0,Phillip's lighting divison's after it was spun-off to become an independent company in 2016. They changed their name in 2018. They still use the Phillip's branding for Hue.
+alexa,fdknnoi,t3_eltesj,1578507341.0,"It can be done with Home Assistant, NodeRed, and the [Alexa Media Player custom component](https://github.com/custom-components/alexa_media_player) for Home Assistant. [Here is the flow I use.](https://imgur.com/a/dSi3TKC) The Dark Sky summery componet in Home Assistant is the input of the flow.      
+     
+The shift select and time filters block the automation during times I normally sleep and when I'm at work. The *Home?* node blocks the automation when I'm not at home.    
+    
+The second switch splits the message based on rain, drizzle, or snow."
+homeowners,fdjlp6h,t1_fdj981w,1578476883.0,"Location can vary by system. Usually, it's between the air return and the furnace. Google your furnace model for a more precise location. Once you pull out the filter, it should have labels on it to tell you the dimensions of the new one you need to replace it."
+homeautomation,fdh18ef,t1_fdgpe9i,1578413172.0,">I'm also told that TileBoard may be a way to go. Any experience with that vs ActionTiles on the SmartThings front? (I'm using Home Assistant and haven't had exposure to SmartThings at all...)
+   
+I only use it to display the Home Assistant dashboard. I haven't tried either TileBoard, ActionTiles, or SmartThings.  
+    
+>I have been thinking about z-wave, though I'm not entirely sure I want to make that investment. What is a z-wave stick, exactly? How well do the devices/frequencies work in your experience?  
+    
+Z-Wave sticks are basically like Wifi dongles but for Z-Wave. They let your computer communicate with your Z-wave devices without a Z-Wave enabled hub. [This is the one I currently use.](https://www.amazon.com/gp/product/B00X0AWA6E/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) I only have a few Z-wave devices right now: my locks. They've been solid so far. I'm planning to add a z-wave valve shut off for my water and some leak sensors in the future.   
+
+>I have a schedule that varies a LOT. I also sleep in two different places in my house, so I've been finding it difficult to do any sort of standard scheduling. I think sensors and detection are going to have to be key for me when determining automation stuff as a result... Some days I will wake up at 7am, others not til 1 or 2pm, or I'll sleep in a different room, or I'll move from one room to another to get more comfortable (insomnia is a bitch). Any suggestions on how to go about tackling this? Ecobee sensors are slow and not really designed for something of this nature, even if they work with the ecobee for general temperature and occupancy things...  
+   
+There's a few methods.   
+The most effective would probably be [load sensors.](https://www.reddit.com/r/homeassistant/comments/856yav/i_made_a_stupidly_accurate_bed_occupancy_sensor/) They're DIY but will give you the most flexibility. Eventually, this is the route that I'm going to take.       
+   
+You can also use door sensors if you close your door when you sleep. Using that to trigger awake climate settings or sleep climate settings.     
+   
+There are better motion sensors but I haven't used any yet so I can't make recommendations. I've been hesitating on this because I have pets.  
+   
+My sleep schedules vary by what shift I'm on. [Here is the flow I use in NodeRed.](https://imgur.com/a/nCGnM3V) In Home Assistant, I have a drop-down menu that I manually set to my current shift. Depending on what that is, it will turn on a certain setup of timed climate settings and turn off unused ones. I'm still working on automating days off. My days off much more flexible so I've been manually setting sleep and awake for now. Not sure how much it will help with your use case but you may be able to draw inspiration from it. [The Hookup has a great into series on NodeRed & HA.](https://www.youtube.com/watch?v=SuoSXVqjyfc)     
+  
+>I like the idea of door and window sensors a lot. Which ones do you use? Are those ESP8266 or is that something else?  
+     
+[These are the specific ones I use.](https://www.banggood.com/GS-WDS07-Wireless-Door-Magnetic-Strip-433MHz-for-Security-Alarm-Home-System-p-1174915.html?rmmds=myorder&cur_warehouse=CN) This is the [tutorial I used to set it up.](https://www.youtube.com/watch?v=OfSbIFIJPuc) More DIY stuff but the sensors are so cheap and I needed so many that the monetary savings was more than worth it. I think I needed 27 sensors in total so the cost adds up fast. IIRC, the hub that allows the sensors to connect to Home Assistant is ESP8266 based. They've been rock solid for the past 6 months. There are alternatives that use Z-Wave but they're more expensive. Wifi ones exist too but they're not as good on battery life as 433MHz or Zwave.  
+   
+>What automations do you disable when guests are over, out of curiosity?  
+    
+Any automation that triggers when I leave the house. Sometimes I go down the street to pick up pizza while my guests stay at my place. The pizza place is far enough away that it would trigger the away automation that turns the lights off.   
+    
+My timed ecobee comfort setting changes. Sometimes guests stay longer than anticipated so I wouldn't want to turn down the temp while they're still there. This is especially true on my days off since the ecobee schedule is a rough estimation for those days.   
+   
+My Alexa welcome home message. I'm still experimenting with this one. So far, when I open the back door, the door sensors trigger an automation that makes Alexa play a message from Home Assistant using [this custom component](https://github.com/custom-components/alexa_media_player) (Google Home has this ability natively). Right now she just says: ""Welcome Home."" That can get really annoying when the door is opened and closed several times a day with you're having a cookout.       
+   
+>Any pointers on ecobee? I've noticed their app and communication can be ... Well, flaky at times. Particularly geofencing and the slow sensor updates.   
+    
+I set up all the comfort settings that I wanted on the ecobee then use Home Assistant/NodeRed to call them. I don't really use any of ecobee's smart features or scheduling. I use Life360 and my Phone connecting to the wifi to determine if I'm home or away instead of relying on ecobee's geofence. As you saw above, I use HA/NodeRed to automate my basic schedule. Life360 & wifi connection take care of any unscheduled aways like shopping. So far I haven't had any connection issues (that I noticed) between the thermostat and Home Assistant.   
+    
+I don't even bother using the sensors for occupancy because they're too slow. They work well enough as temperature though.  
+      
+I disabled the smart home/away feature. It would sometimes override my set schedules. The only time I use the app is when I have to manually set my comfort settings, which isn't very often.     
+    
+>Also, do you happen to know how to UNpair one from homekit? I paired mine with Home Assistant but had to wipe it and didn't unpair before I did so now the ecobee still thinks it's paired and HA can't find anything unpaired.  
+    
+I don't use HomeKit so I can't help you there."
+HomeImprovement,fddxknf,t1_fddvcry,1578326419.0,Karcher K4. I went electric because it was cheaper than gas-powered ones.  I don't need that extra power for my use cases so I'd be spending money on power I don't need if I went gas.
+HomeImprovement,fdduu32,t1_fddtki6,1578324528.0,Electric
+HomeImprovement,fddopj6,t1_fddob0l,1578319771.0,I had trouble with even brand new mowers. I just could never get them to start. The battery powered ones are about the same cost as the electric start ones so I just went with battery so I didn't have to worry about gas.
+Hue,fddmu7y,t3_ekt4yd,1578318102.0,"I've been adding dimmer switches room by room as budget allows. I started with the most used rooms and worked my way to least used rooms. The dimmer switches are about $20 USD refurbished on Amazon which is the cheapest I've found any Hue compatible switches. Refurbished is good enough for me and I haven't had any issues with them. I throw on in my cart whenever I make an order for other things. I normally use voice control but the dimmers are great for guests.     
+    
+I kept the regular wall switches in place just in case I need to replace a bulb or switch it out for some reason. I bought some switch covers [like these](https://www.amazon.com/Lisols-Mind-Switch-Guards-Security/dp/B07RBTMG78/ref=sr_1_5?keywords=light+switch+covers&qid=1578317832&sr=8-5) so they don't get flipped accidently."
+homeassistant,fddm4ny,t3_ekttx0,1578317433.0,I'm getting a page doesn't exist error.
+homeautomation,fddl05x,t3_ekpbme,1578316310.0,">The big part is that I'd also like to build out a server for home automation and some minor web server tasks.   
+     
+I wish I did this from the start. I started on a Pi3. That worked for the most part but restarting Home Assistant took upwards of 5 minutes. That became a pain when troubleshooting automations. I've moved it over to my main server and the difference is night and day.   
+     
+>bare metal hypervisor for VMs  
+    
+Use what you're familiar with. I personally use Proxmox because I was able to find tutorials for that the easiest at the time. 
+   
+>I also know next to nothing about server hardware, but I have heard Supermicro makes some semi-decent lower cost stuff.   
+    
+If you go with rackmount hardware, be warned that it can be loud. My R710 sounds like a vacuum when it's really going. Normally it sounds like a box fan on medium.   
+   
+>So any space-conscious VM server suggestions would be great.   
+    
+I don't know of many rackmount severs that will fit in that depth. A tower laid on it side might on a rackmount shelf might fit. Or custom PC in a small form factor case. I think r/HomeServer is the sub with a bunch of whitebox builds. Intel NUCs are also a popular choice for small servers where space is at a premium.       
+    
+>old Kindle Fire   
+    
+Just did this with some Kindle Fire HD 8's. [Tutorial here](https://www.andrewconnell.com/blog/using-a-kindle-fire-as-a-home-kiosk-for-smartthings-smart-home-monitor). The Asus should be able to install the Kiosk Browser natively. I have them display my Home Assistant dashboard. I have one mounted by the back door and another in the living room. I don't use them a ton though.    
+   
+>remove the key timber or something for security reasons   
+    
+I'd keep the key. Having a manual backup method to get in your house if the power goes out or the batteries die is a good thing. You won't have to smash a window to get it. As far as batteries go, I have the Schledge Connect Camelot and batteries last 3-5 months depending on the weather. Battery life isn't as of an big issue as most people think. They last about 3 months in the winter due to the cold Midwestern winters. I keep 2 sets of rechargeable batteries for each lock so I can just swap them.    
+     
+>I'm not really sure what to do about the doorknob locks, but I suppose just a standard, non-lockable one should work?   
+    
+Unless you're replacing the knob for aesthetic reasons, just don't lock the knob. Lock only the smart deadbolt.        
+    
+>With regard to the power monitoring system   
+    
+Right now I only monitor power to specific devices: washer, dryer, and my PC. Automations trigger if they're on or off. That's determined by how much power is flowing though. <5w seemed like a good cutoff. My use case might be different as I don't care too much about logging or efficiency. I just care about things that are on or off. I monitor them using wemo insights.   
+     
+>I'd like everything I use to be as ecosystem agnostic or friendly as possible       
+      
+I generally stick to the main big brands or things with local control for this reason. One of the major reasons I run Home Assistant is that it's open source. If the devs in charge of it quit, someone else can pick it up and continue it. You also might want to look into Z-wave devices as they're platform agnostic as long as the platform can receive z-wave signals. I have a z-wave stick for Home Assistant to add this functionality.        
+     
+>Are there ""required"" smart home/home automation pieces I'm missing here?   
+    
+My advice is always to focus on tasks you specifically want to automate vs a general check list. For example, many people can just use scheduling on their smart thermostats because they work regular hours and have regular off days. For me, that's not the case. I had to also look into methods that determine if I'm home or away as well as a ton of Boolean logic to determine if I'm working days, nights, or if it's a day off. Everyone's needs will be different.   
+     
+You've already covered most of the more common ones. The only other thing I can recommend are door/window sensors for exterior windows and doors. I have mine set up to turn off my furnace when any of them are open. I use some generic 433MHz sensors because they're dirt cheap.  
+    
+>Special software that I may need other than Home Assistant? Things I should avoid due to incompatibility with other products listed?   
+   
+Node-Red. It helps make automations *so much* easier than coding them in Home Assistant.   
+    
+Tasmoda. If you're looking at ESP8266 based devices, like Sonoffs, most can be flashed to this open source firmware that makes them more versatile with system compatibility. I flashed a Sonoff RF Bridge for my 433MHz sensors. It's a bit DIY to flash them but it's fairly easy to do.     
+    
+Tasker. Automation software for Android devices. Right now I only use it to auto-mute and unmute my phone based on location & time and send my Wifi password to guests when they text me a specific phrase.   
+   
+>Snags or catches that you've run across in your own builds?  
+     
+I have an Input Boolean switch that I manually activate when I have guests over. It disables some of my automations that might they might find annoying.    
+    
+Instead of setting my Ecobee to a certain target temperature. I use temperature ranges. It helps keep furnace/AC usage to a minimum without having separate summer and winter settings in my automations or manually changing setting on the Ecobee. I set up ranges for Sleep, Home, Away, Guests, and Morning and call them when needed from Home Assistant & Node-Red. The top of the range is my normal target temp for summer. The bottom of the range is my normal target temp for winter."
+HomeImprovement,fddazz4,t3_ekoy0j,1578303339.0,"1. Cordless drill. It's not the greatest quality but it works well enough for me. I use it at least once a week it seems.      
+    
+2. Battery powered lawn mower. I'm a small guy and can never get gas powered mowers to start. Getting a battery powered one has been a life saver over manual mowers that I was using previously. During the spring and summer, I cut the grass once every two weeks.     
+   
+3. Electric drain auger. I live on reclaimed wetlands so the soil is mostly fine silt that clogs my perimeter drains regularly. I run this thing at least once a month, some time more often in the spring. The drains should probably be replaced and redone but I don't have that kind of money right now.          
+     
+4. Wet vac. A ton of silt builds up in my sump pits so they also require regular cleaning. I have to clean them out about once every 3 months, less during the winter. Using a wet vac to just suck out the silt makes this so much easier. Before I got the drain auger, it was great to clean up any seepage that was caused by backed up drains.       
+    
+5. Power Washer. Nothing too powerful, but it gets the job done. Makes cleaning thing outdoor surfaces, the garage, and my car a breeze. Also good for blowing away the spider infestation on the exterior of my garage. Gotta love living in a swamp..."
+homeowners,fdcvsls,t1_fdcvbce,1578285745.0,"If a garage furnace isn't properly vented, I don't have much confidence that the garage is properly insulated. The furnace will give off much more carbon monoxide than car exhaust."
+homeowners,fdcuzq0,t1_fdcupvz,1578285077.0,"To be fair, this is true regardless of installation location."
+nfl,fdcn1pu,t1_fdc7715,1578278979.0,"2010 NFC Championship, Bears vs. Packers."
+educationalgifs,fd8vjvc,t1_fd8o84a,1578224022.0,"Never seen that one before. Found a procedure [here.](https://www.law.cornell.edu/cfr/text/16/1500.43)   
+    
+Looks like it's similar to the Cleveland open cup (COC) method but uses a water, brine, or glycol bath to avoid directly heating the sample. It's designed for low (under 175F) flash points so a direct flame heating can blow past that really quickly and/or cause boiling of the sample at the point of contact of the flame and sample cup. A glass cup (as opposed to a brass cup for COC) is also used to slow the heating of the sample. The test is otherwise identical to the COC method."
+homelabsales,fd83y7l,t1_fd72lx7,1578213609.0,"Have one with a nearly idental configuration in a spare bedroom in an enclosed rack. When idling, It sounds like a box fan on medium from outside the room with the door open.  When it's really going it sounds like a medium vacuum cleaner."
+nfl,fd7pd2l,t1_fd7dzwa,1578208012.0,"Wait, that's not what fantasy football is about?"
+amazonecho,fd79hyd,t1_fd70fxm,1578201191.0,"This is probably the reason Amazon added the ""Now playing from <source>"" notifications that everyone has been annoyed with lately."
+Hue,fd78uva,t1_fd7837r,1578200950.0,Shape. Gen 1s are round. Gen 2s are square.
+Hue,fd77zbg,t3_ek7xc6,1578200620.0,[Support for the Gen 1 hub ends in April](https://huehomelighting.com/support-for-1st-gen-hue-bridge-to-end-april-2020/) so upgrading is probably a good idea.
+AnimalCrossing,fd75hj5,t1_fd753dy,1578199685.0,Documentary
+WeMo,fd711cx,t3_ejxqeh,1578198142.0,">Is this typical?  
+   
+Yupp. IFTTT limits polling to save computing and bandwidth on its end. It's a common complaint about the service. I don't use it for anything where late messages will matter.    
+   
+>If so, then the notification capability is pretty useless.   
+    
+It's still useful for things where that level of timing doesn't matter a whole lot.  
+     
+>Can it be improved any way?   
+     
+Not using IFTTT. The limitation is on their end. I recommend using something hosted locally if timing matters. Something like Home Assistant."
+educationalgifs,fd6r7ax,t1_fd566c6,1578194717.0,"Never seen one calculated in pure O2. Usually I see values measured in a closed container, like a [Pensky–Martens closed-cup test](https://en.wikipedia.org/wiki/Pensky%E2%80%93Martens_closed-cup_test), or an open container, like a [Cleveland open-cup method.](https://en.wikipedia.org/wiki/Cleveland_open-cup_method) Bot which are usually at atmospheric oxygen levels. Might be a method I'm not familiar with."
+educationalgifs,fd6ksi5,t1_fd68qjh,1578192491.0,"Scalding is the water transferring the heat to the object. Once the object heats up enough, then it starts to burn. Two different processes that occur one after another. The injuries would technically be a scald if your flesh didn't get hot enough to combust but colloquially it's just called a burn."
+MapPorn,fd6had2,t1_fd69fu2,1578191003.0,"There will always be some bias. Statistical models will be biased by the criteria we use to generate them, people that make up groups in charge will have their own biases, 3rd parties may have their biases as well, etc. The idea here is to use combinations of techniques to minimize those biases.    
+   
+For example, a committee created to redraw districts should be made up of all major parties in the area with equal representation. This would hopefully keep one side from overwhelming the other and keep things as fair as possible.    
+    
+Their drawings should fit a statistical model or multiple models that is developed by a trusted 3rd party or parties, like an outside university or higher government body. Throwing in models developed by each side probably wouldnt be a bad idea. It would give an idea of what each side believes is fair but partisan models shouldn't be the only ones. They should only be intermediate tests. These models should help evaluate how fair the new districts are. Any models that don't fit at least the 3rd party models should no make it past here.  
+    
+Any accepted models produced from this method should then be voted on by local, county, or state governments and/or the people directly. This helps ensure that anything that is percieved to be unfair will not make it into offical use without some kind of accountability. The whole process should produce something less bias (and in some cases *much* less bias) than we have, even if it isn't perfect. 
+  
+Of course this is just one example of how things could work. There are probably others as well."
+organization,fd19fto,t3_ejtgu4,1578128882.0,"I have zero icons on my desktop. Most of my frequently used programs are launched from my Elgato Stream Deck. I have a few folders on it for program categories: Games, Productivity, Utilities, etc. Associated working directories are usually launchable from in their respective categories. Sometimes I use different profiles depending on my workflow.       
+     
+Lesser played games are launched from Steam or Origin. Lesser used non-game programs have their shortcuts or standalone exe placed in organized folders. Those folders are kept in a folder called ""Programs"" on my secondary drive. I keep ""Programs"" pinned in Windows Explorer for easy access.   
+     
+I keep a To-Do list for projects that I use for inspiration or browse my Steam library."

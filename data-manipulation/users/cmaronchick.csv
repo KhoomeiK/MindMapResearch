@@ -1,0 +1,265 @@
+subreddit,self ID,parent ID,time,text
+AskReddit,ffz26pg,t1_ffyxpug,1580361550.0,"Between you and your coworker, who bought the first round after work that day?"
+AskReddit,ffycq66,t1_ffwpkqj,1580343303.0,">then... wash it.
+
+Check out Martha Stewart over here."
+personalfinance,ffyaqme,t1_ffyalez,1580341974.0,"My experience was the same. And again, what length of time would make it *not* worth it?"
+personalfinance,ffy9lne,t1_ffxw2rp,1580341260.0,"Even if it did, what cost would make it *not* worth it after getting your W2 stolen?
+
+In any case, it's free, and it is very easy to unfreeze temporarily.
+
+OP should freeze their credit YESTERDAY."
+reactjs,ffy5758,t1_ffxv33j,1580338766.0,"Got it!
+
+Install @babel/plugin-transform-runtime
+
+In the babel config, add it to the plugins
+
+    plugins: [['@babel/plugin-proposal-class-properties'], [""@babel/transform-runtime"", {
+      ""regenerator"": true
+    }]]
+
+Tests and Edge are now both working. Thanks for the help!"
+AskReddit,ffxl066,t1_ffxk1zo,1580327274.0,"Right. Sometimes you have to say no with empathy if the solution doesn't scale, and other times you can give someone what they want because they didn't realize your offering actually solved their problem."
+AskReddit,ffxksjd,t1_ffxjiqe,1580327150.0,Great line. Thanks for bringing it up.
+reactnative,ffxk553,t1_fft4dnq,1580326773.0,Thanks.
+reactnative,ffxk4nw,t1_ffti9d4,1580326765.0,Thanks.
+reactjs,ffxitw7,t1_ffv74fs,1580326008.0,"Thanks. If you have a moment, I ran into a bit of an issue.
+
+Here's are my steps:
+
+*  Removed target: { node: 'current' } from the @babel/preset-env object in presets: ['@babel/preset-react', ['@babel/preset-env']]
+* Edge now renders correctly
+* Ran tests using jest - Received a Runtime Regenerator is not defined - all tests failed
+
+From my investigation, it sounds like the target: { node: 'current' } is the fix for the testing, but that creates a bug in Edge. Any thoughts? Thanks!"
+AskReddit,ffxb283,t1_ffwzz6e,1580321488.0,"I worked at a pizza place where my boss (the owner) took customer service very seriously, and he used to say, ""The customer is always stupid.""
+
+Thing is, he didn't say it in a mean way. He meant that if you treat customers as stupid people (and you have a capacity for empathy), you can usually find a way to give them what they're looking for because half the time, they don't really know what they want. I really took that to heart."
+AskReddit,ffxahnf,t1_ffwzmx0,1580321144.0,"One of my favorite lines from the West Wing summed this up perfectly:
+
+""We occupy a moral safe house where everyone's to blame so no one's guilty.""
+
+Then President Bartlett goes on to state simply: I was wrong. 
+
+Man, that line still sticks with me. You just never hear people say that anymore, so people come to think the world will end if they admit fault their own."
+dogs,ffutaq2,t1_ffus2l5,1580248935.0,Thanks. I'll do that.
+reactjs,ffut90j,t1_ffui3jf,1580248908.0,"Thanks. When I debugged using a source map, Edge complained where I referenced a destructured object.
+
+I'm working on updating preset but am now getting a different error in Edge - something about bindings of null - that I am now troubleshooting.
+
+Thanks again."
+reactjs,ffugc7u,t3_eictui,1580241368.0,"I just realized that my react app is not working in Edge (yeah, no one likes it, but still ...).
+
+In doing the debugging, it appears that Edge does not like it when I destructure objects (...this.props.initialData).
+
+I assume that this has something to do with my transpiler, right? I'm using webpack and babel. I have had trouble figuring out how to remedy.
+
+Any suggestions? Thanks!"
+worldnews,ffro2dn,t1_ffrleon,1580162055.0,"Shaggy Defense - I'm going to use that.
+
+Stay vigilant my friend!"
+worldnews,ffreb3w,t1_ffram53,1580156334.0,"I saw just the start of your response and thought, ""Here we go."" I was pleasantly surprised by the second half! 
+
+I agree! We should all be diligent about the news we receive, both when it aligns with our beliefs as well as when it runs counter to them. Rock on."
+worldnews,ffqyzhs,t1_ffqrlld,1580146804.0,"Well, the tape is public now, and I think you'd have to be in willful denial to think it's *not* him.
+
+https://nyti.ms/36oG9k7"
+BeAmazed,ffkx5yh,t3_etzi8z,1580030600.0,"I remember a church sermon once where the pastor said that you can put your troubles on God. He can handle it.
+
+Based on this video, dogs are God."
+learnjavascript,ffixxbf,t1_ffivbus,1579985430.0,You magnificent bastard! That of course is the answer. Thank you.
+worldnews,ffh8zos,t1_ffh3dlu,1579926566.0,"> Pretty fucking close to complete fabrication.
+
+They're basically saying that this is on ABC News if it's fake. What is an undeniable fact - it's undeniable - is that ABC News actually reported it. 
+
+So, you basically have to ask yourself if news outlets would repeat it if they didn't think it was trustworthy. I don't have a strong opinion of ABC News, but I can't recall any situation in which they falsely reported something. If you know of something, that'll certainly change my opinion of them."
+nfl,ffgu0ds,t1_fff8tj2,1579915030.0,This feels worse to me than what Donald Sterling did.
+worldnews,ffgrtyf,t1_ffg60k8,1579913441.0,"Sounds like they are holding it until they can verify it independently.
+
+Why they published the article before having verified it is beyond me."
+AroundTheNFL,ffg0nuf,t1_fff2ofo,1579895909.0,I appreciate that your list includes 3 OLs. This is a thinking man's list. 50% of the offense is composed of OLs that rarely take plays off. They should probably represent more than 10% of the nominees.
+videos,ffdtoao,t1_ffdr7jb,1579828659.0,Thanks!
+videos,ffdo38l,t1_ffcc222,1579824998.0,"I know this is a long shot, but is there a database that tracks statistics by police department?"
+MadeMeSmile,ffd4whe,t3_ess27a,1579813480.0,"It's a bit old fashioned, but I just happen to believe that standing up when your date leaves and arrives at the table is classy af. If he added that to his repertoire this interaction would have been 100."
+dogs,ffcy43r,t1_ffc7u2i,1579809666.0,Thank you.
+learnjavascript,ffaj0ab,t1_ffahy24,1579736907.0,Thank you. That was it.
+learnjavascript,ffaizjp,t1_ffahvkb,1579736891.0,That was it. Thank you.
+learnjavascript,ffaiyy0,t1_ffahl3v,1579736879.0,Holy hell. That makes sense. Thank you.
+dogs,ffagpu8,t1_ffagimf,1579735345.0,Thank you.
+flexibility,ff7g7yw,t1_ff7bohb,1579648827.0,"This is excellent advice, and it sounds consistent with some of the other sensations I've encountered."
+dogs,ff7b9tf,t1_ff7azq0,1579645349.0,"OK, I figured. Thanks."
+flexibility,ff7azpb,t1_ff7a41b,1579645082.0,"Yes, a little bit but not as much."
+dogs,ff783mg,t1_ff74idf,1579642974.0,"Thanks. I have called the police to report the attack, and they have forwarded me to their animal control division, and I'm waiting to hear back.
+
+I didn't get a good look at the dog, but it looked like an Australian shepherd with dark fur (no white fur that I remember). Do you know what kind of dog that might be?"
+dogs,ff77rfj,t1_ff74sjh,1579642786.0,"Thanks. I have a doctor's appointment scheduled for tomorrow (on their recommendation after I called about getting a tetanus booster), just to make sure.
+
+I had not heard of muzzle training, so I'll look into that as well. Thanks again."
+AskReddit,ff2ccy6,t1_ff27bzg,1579500540.0,"Well, he taught you to be a man of your word which is better than most."
+flexibility,ff24fvq,t1_ff1tj20,1579493528.0,"OK, well, if you still can't see it, a few of really good suggestions:
+
+* Be patient. It can take time for your body to get used to poses
+* Check Squat U on YT for the Hip Impingement versus Flexor Strain diagnosis
+* Yoga by Daisy What's that pain in my hip video."
+AskReddit,ff22tcm,t1_ff0c2he,1579492267.0,"Your dad browsing porn while not in Incognito mode is... concerning. If he's not teaching you the basics, just what *is* he teaching you?"
+flexibility,fezlx8s,t1_fezdhd8,1579458809.0,"No, why?"
+flexibility,fezlv9d,t1_fezc8t2,1579458788.0,Thanks!
+flexibility,fezlo6b,t1_fextsts,1579458701.0,Thank you very much!
+flexibility,fezku3r,t1_fexf4ip,1579458388.0,Thanks.
+getdisciplined,fevlonb,t1_fevd8im,1579398811.0,Thanks so much!
+getdisciplined,fevcw5k,t1_fevc9jy,1579395864.0,Awesome! Do you mind sharing the agency name?
+getdisciplined,fevax4j,t3_eqlbcv,1579395275.0,Tangential question: how did you create the graphics? Those are really beautiful.
+IWantToLearn,feobzon,t1_feoatir,1579297954.0,"That's up to you, I'm afraid. I would advise you to focus on your studies as they will pay dividends down the road.
+
+The reality? Just start saving and investing when you can (read: are out of college and have begun your career). Once you have income, make sure you live before your means and save what you can. You are still well ahead of the game."
+mildlyinteresting,fenta9n,t3_eq2hv7,1579290484.0,"Please someone confirm that the WW symbol for dog stands for ""woof woof""."
+AroundTheNFL,fenrrs3,t3_epz9pq,1579289821.0,"I'm going to add one bit of context that was missing from Wess' perspective, and to me, that's why his take was off base. 
+
+As a security guard, I imagine that they are instructed to be extra vigilant about when someone touches you. If you allow people to make contact with you inappropriately, you risk performing the one job you are tasked with - maintaining security.
+
+The security guard is not some average Joe. He has to maintain security, and to do his job, he needs to draw the line sooner than most people would. Most people would probably say, ""Hey OBJ, don't do that."" (the reasonable response that Wess wanted) and leave it at that. But as a security guard, if you let people off with a warning when they cross the line, you risk being overrun.
+
+It honestly wouldn't surprise me at all if the security company's policy were to file charges every time a security guard was contacted inappropriately because that's the best way to ensure they do their jobs well."
+UnexpectedlyWholesome,fel9qw6,t3_epix87,1579217155.0,"I agree that this looks nuts (the part about inviting her to watch Netflix sounds especially ridiculous), but I'm just going to add one thing. A lot of people are locking onto the ""where are your pants"" thing, and no one has mentioned that maybe the bouncer got her home and said, ""Go into that room, and I'll wait by the door while you get your vomit covered clothes off. Just put then outside the door and I'll take care of them."" It's both feasible and just as likely as anything else. Or, he put her in the bedroom fully clothed, went to check on her, and saw that she had disrobed before getting into bed which even a pretty drunk person can do. 
+
+As for ""why is it printed?"" I'm just guessing here not being a bouncer myself that bouncers are probably used to being up a few hours after closing time, so taking 30 minutes to type up a note like this is also reasonable.
+
+Just saying people, be skeptical, sure, but it's reasonable to believe that this dude really is this cool."
+AskCulinary,fel5gmb,t1_fel4n04,1579214468.0,Thanks.
+AskCulinary,fel4ykt,t1_fel4x9a,1579214162.0,"Hahaha! Well done.
+
+Thanks for the advice."
+AskCulinary,fel4w5i,t1_fel2tb2,1579214119.0,Thanks.
+AskCulinary,fel4vmk,t1_fel2oly,1579214110.0,Thanks.
+AskCulinary,fel4v7p,t1_fel2kz4,1579214103.0,Thanks.
+AskCulinary,fel4u0c,t1_fel31s1,1579214083.0,Thanks.
+AskCulinary,fel4tea,t1_fel39v3,1579214072.0,Thanks.
+AskCulinary,fel4sog,t1_fel3o5l,1579214060.0,You're right. Thanks.
+AskCulinary,fel4rr3,t1_fel4k3k,1579214042.0,What kind of cookies are we talking about here? s/
+productivity,fekbler,t3_epgiur,1579196636.0,"The most important thing (and I struggle with this myself) is to avoid context switching.
+
+Try this: pick two long-ish words (8 or so letters) and time yourself writing them consecutively.
+
+Then time yourself writing them by alternating between each word one letter at a time.
+
+You'll find that you take far longer the second time than the first.
+
+The same happens when you switch tasks.
+
+So for now, just pick one task and focus on nailing it.
+
+Once you get it done, then start working on the second one. But you can't hit flow until you're able to string two, then three, etc. together first.
+
+(I say this like I do it myself, but as I said, I struggle with this quite a bit.)"
+IWantToLearn,feidfyu,t3_ep7g8x,1579135927.0,"The best day to plant a tree is 20 years ago. The second best day to plant a tree is today.
+
+\-- Not Michael Scott, probably
+
+Head on over to r/personalfinance. It is a no-nonsense subreddit. They will not - WILL NOT - give you any get-rich-quick investment paths, but they will - THEY WILL - provide you with simple, easy-to-follow steps to maximize your savings (they also have book recommendations that you'll find interesting).
+
+In short, here are the steps:
+
+1. Budget - You cannot know how much you can save unless you know how much you're spending. Track your expenses and your income. Do your best to spend less than you make.
+2. Build an emergency fund - I believe that the general rule is 6 months of expenses (see step 1). Once you have that, move on to step 3.
+3. (you may be a bit young for this, but it still holds) Max out your employer matching funds such as a 401k, if available - A 401k is a pre-tax investment. This is good (for the moment) because it means you save money before the government can tax it. You WILL get taxed when you retire in 39 1/2 years, but that is a small price to pay. If you keep investing, it'll be worth it. Additionally, the match is free money from your employer.
+4. Max out your retirement accounts - Start with a Roth IRA. This is a post-tax investment, but the good news here is that as it grows over time, you will NOT be taxed when you take the money out. There is a salary cap to this one, so take advantage of it for as long as you can. Once you get past that salary cap, max out a traditional IRA.
+5. Invest in index funds (when you get into steps 3 and 4, make sure you select index funds as an option) - Index funds are stock market investments that have the most reliable returns of any investment out there. Yes, there are stocks that turn out better results, but you have to manage those investments actively.
+
+That's it my friend. Complete steps 1-5 and you'll be just fine. It's great that you are interested in getting started now. 20 is way, WAY younger than most people start getting serious about saving."
+nfl,fef6zgx,t3_eongwx,1579049662.0,"I wonder who else fits this category for other Redditors?
+
+I have no allegiance to the Cardinals, and my Raiders only play them once every four years, yet for some reason Fitzgerald is one of my favorite players to watch. He's just an absolute stud who plays the game in a way that I love. This only reinforces that idea."
+nfl,febyq03,t1_febwnpi,1578964395.0,"I hear you. Having seen Wilson come back so many times, that throwaway shook me to my core. I'm glad it turned out the way it did."
+nfl,feb5y32,t1_feb0fta,1578955761.0,"I need to give you credit here. I was expecting a rage-filled response, and this was both respectful as well as insightful regarding your perspective that I have to agree with. Thanks for both. 
+
+In short, we diverge mostly by temperament. As good as Rodgers is, I was freaking out at the notion of passing on third down to get the first; you sound more comfortable with Rodgers taking the risk.
+
+Thanks for the discussion. Cheers."
+nfl,feafms8,t1_fea82c6,1578948141.0,"Peace, my dude. Just know you're looking back on everything with the results in mind too. ""They won, so he had to be right."" This is a fallacy.
+
+I'll grant you one thing: he was 7 yards deep on that throwaway, not two. He takes the sack, they probably run a draw and then punt.
+
+The timeout was critically important for the Seahawks. They took a timeout ahead of the two-minute warning after a run. Then they let the clock run to the two minute warning after a second run. Then they took the timeout after the Graham reception (again, risky; that it worked out makes it water under the bridge). Without that extra stoppage, it would have been: timeout, two-minute warning, probably a run which takes the clock to 1:20, then a punt inside the 20. 80+ yards in less than 80 seconds with no timeouts would be near impossible, even for Russell Wilson. 
+
+But just try it next week: if the Packers are leading late in the game against the Niners, come on to the game thread and argue that they Packers should pass instead of losing a yard or two on a run. Please let me know when you do so I can watch.
+
+PS Troy Aikman during the broadcast also was talking about Rodgers' stopping the clock aided Seattle. I grant you that I'm just a jabroni watching on TV, but Aikman has been the number 1 color-commentator on Fox for a long time, and he said pretty much the same thing."
+nfl,fea9v1q,t1_fea6chf,1578946078.0,"I know I'm not going to move you off your spot, but here's what I'll say anyway. (By the way, maybe this matters, maybe it doesn't: I love Aaron Rodgers, and I was rooting for the Packers. That's, again, why I couldn't believe what I saw.) 
+
+I have never heard anyone advocate that throwing the ball away rather than forcing the other team to use a timeout be the right decision when you're trying to grind clock. The reason being that timeouts are incredibly valuable in the endgame as they allow the trailing offense to utilize the entire field rather than try to force throws to the sideline. 
+
+All you have to do is look at team tactics when trying to gring the clock. Why is the offense running even when the defense knows they're running? They don't care about getting stuffed because it's about forcing the opponent to use their timeouts.
+
+To put another way, try to argue the point that teams should pass when trying to grind the clock. During the next game thread, put that argument out there and see what kind of response you get. 
+
+Rodgers was vindicated only because of two outstanding plays to convert third downs. If his throw to Adams falls incomplete, the Seahawks would have had two minutes, two timeouts, and the two minute warning. That extra timeout would haver been very handy near the goal line because then the Packers would still have to respect every part of the offensive play book instead of just sideline/end zone passes if the Hawks got to their red zone."
+nfl,fe8mpiu,t1_fe7w97f,1578928022.0,Ha!
+nfl,fe8mlw4,t1_fe86cws,1578927983.0,"It was two yards, not five to seven, and at that point in the game, the clock mattered more than anything else. Further, he had a clear shot to get to the line of scrimmage at least and go down in bounds, and didn’t do that.
+
+That’s what was so mystifying. A timeout in those circumstances is incredibly valuable, and Rodgers gave one to the Hawks for in exchange for a few yards.
+
+Given the next play, it wouldn’t have mattered if he had taken the sack, but because of the incompletion, the Hawks had an extra timeout that required a SECOND miracle from Rodgers. 
+
+It was just really confusing for an HOF QB to do something like that."
+nfl,fe6qz6c,t1_fe6l1vp,1578901264.0,"Yeah, it's a tough question to answer. The Saints play being blown dead was a terrible call, but they happen probably 10 times a year, so percentage-wise, it's not that common, but they usually get notoriety. 
+
+If it were me as a ref, I'd try to be balancing letting the players play versus something happening afterwards that could have been avoided. Basically, if someone were to get injured after the play should have been over, that would be bad too.
+
+I'm not saying it's right, I'm just saying that's what I'd try to be thinking about."
+nfl,fe6gxs3,t3_env82r,1578890566.0,"The Packers showed possibly the worst clock management/awareness I ever saw at crunch time, especially with an HOF QB. 
+
+Rodgers throwing it away on that last possession was absolutely inexcusable. If the Hawks got the ball back, he gave them a timeout for nothing. Had the Packers lost, he should have been crucified, and deservedly so.
+
+Adams going out of bounds was bad as well, but he was effectively pushed, so it was harder to blame him.
+
+Still, the Packers could have salted the game away with much less drama, and I wonder if LeFleur will address their clock management. If not, I would not be surprised to see it come back and bite them."
+nfl,fe6g350,t1_fe6a7bs,1578889834.0,"Don't shoot the messenger here:
+
+Basically, the rules presume that people stop playing once the whistle sounds, so when the reg rules Hollister down by contact, everyone stops playing. Since the Packers only clearly recovered the ball after the scrum, they can't rule it a recovery.
+
+If the Packer had recovered the ball outside the scrum, they would have gotten possession. 
+
+Still, seems like GB should not have been charged the TO since they did correctly overturn the call on the field."
+nfl,fe6fm42,t1_fe6bmcb,1578889433.0,"The only thing that made any sense to me:
+
+1) you couldn't see the ball, so the call on the field had to stand
+2) the best angle showed Graham's head hitting the ground right at the line to gain, and the ball was fairly even with his head.
+
+If the refs had called him short, I don't see how they overturn that either."
+nfl,fdserr0,t1_fdrogmi,1578701049.0,Mission accomplished. Have an upvote.
+nottheonion,fdsego4,t1_fds2cgs,1578700832.0,Tattoine was a double binary system.  THX 1138 was directed by George Lucas. Paging r/nevertellmetheodds.
+PublicFreakout,fdsdzc8,t3_emwd3r,1578700496.0,"You know the real tragedy? There are few joys in life greater than riding an empty shopping cart. She's so serious, she could have used a little levity. 
+
+I don't care who you are, if you see anyone riding an empty cart to the corral, you'll smile. So you brighten your own day and possibly someone else's."
+AskReddit,fds7lq4,t3_emqd57,1578696169.0,"Late here, but Cooks Illustrated.
+
+I had had plenty of cookbooks prior to coming across them, but they were the first publication I ever read that talked about the why behind some recipes and how they evolved. Their articles read more like detective stories in which they tried to crack the code of a recipe, and that helped me understand much more how recipes in general are put together.
+
+I have cooked hundreds of their recipes and have had a >99% success rate.
+
+If that sounds familiar to r/seriouseats, it's likely because KJA worked there as both a test cook and editor."
+getdisciplined,fdmb97z,t3_eltc38,1578544529.0,"I'll add one that I'm surprised hasn't been done.
+
+If you fail two days in a row, recommend sizing a task down to make it something that is achievable.
+
+For example, if you want to journal for five minutes a day, and the person doesn't, suggest 2 minutes. If they don't do that, suggest simply taking their journal out and putting it on the table.
+
+Maybe after three down-sizes, ask if they really want to do the task."
+nfl,fdj0zcq,t3_elg87a,1578455673.0,"Harbaugh forgot about the golden rule:
+[You mess with crabo You get a stabo](https://external-preview.redd.it/N0_4WujClQh2n0zI908UcQ991Rlp6TJcVHTok-Yy5Ro.jpg?s=53df1311fc1db6bc2d74cf40e8f06028588354dd)"
+AskReddit,fdfskvn,t3_el2az5,1578369163.0,Me and Liz Lemon gonna get our mommy-daddy sheet monster on!
+AskReddit,fcs7cvd,t1_fcrt51z,1577912464.0,"Yes, that was a good one."
+AskReddit,fcrnyyd,t1_fcrmvff,1577904306.0,"Damn, that sounds pretty dope."
+HumansAreMetal,fco1cmd,t3_ehqbe1,1577822304.0,"Note that he took out the shooter with a well-trained pistol shot and NOT a military-style assault rifle.
+
+I'm in favor of gun rights when the guns clearly have self-defense capabilities, and I'm in favor of letting the states handle the where and how people can carry.
+
+That said, I cannot see any logical argument supporting military-style assault rifles or for that matter, not requiring regular training for owning a deadly weapon.
+
+The constitution says ""shall not infringe"", but states and the federal government already infringe (an assault weapons ban was already passed by Congress once), so there is Constitutional precedent to support banning  assault weapons writ large as well as imposing training requirements (if the government can require a license, it can also require training. Any opposition to training is drawing a line arbitrarily. Further, my understanding is that the majority of gun owners are already trained, so not only is training not an undue burden, most gun owners already do so voluntarily.) 
+
+This man clearly was trained/practiced (based on his stance and accuracy), and he saved dozens with a handgun. Shouldn't he set the standard rather than be an exceptional example?"
+recipes,fcn9xsf,t1_fcn7awe,1577807007.0,Thanks.
+recipes,fcn9x01,t1_fcn8iws,1577806992.0,Thanks.
+RedditInReddit,fclfgd4,t1_fcidgax,1577746561.0,No it isn't.

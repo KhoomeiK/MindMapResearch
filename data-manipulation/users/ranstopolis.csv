@@ -1,0 +1,234 @@
+subreddit,self ID,parent ID,time,text
+facepalm,ffm2kjr,t1_ffk6b9f,1580047543.0,You seem like fun.
+AmItheAsshole,ffjiz3n,t3_etslki,1579999287.0,"NTA, and this is a huge, huge red flag."
+step1,ffiumgm,t1_ffisfev,1579983134.0,"haha I'm just good at faking it, I guess.   Happy to help though :-)"
+facepalm,ffird01,t1_ffipp6f,1579980791.0,Rest is healthy goddamn it!!!
+step1,ffiqslu,t1_ffiqng3,1579980393.0,Haha no worries.  Shitty teaching seems like the single common denominator of med-schools everywhere.  I feel ya...
+step1,ffipbtb,t1_ffikt2x,1579979365.0,"Edit: not sure why I buried this in the text below.  Probes are 1) intranasal and 2) at a reference (skin) site -- i.e. a spot unaffected by whatever crap you're doin in the nose
+
+Haha oh...
+
+I was talking about the kidney (where amiloride is usually relevant).
+
+I know from studying cystic fibrosis that chloride inhibits ENaC on its *extracellular* domain.  Summarizing, in CF: decreased Cl secretion into nasal mucus --> release of ENaC inhibition --> increased Na reuptake --> decreased (less positive) resting membrane potential.
+
+However, my understanding is that when testing for CF, you compare the potential between nasal mucous **and a distant reference site** before and after an amiloride challenge (reference probe placed at a standard point on the skin) .  If Cl- channels are not diseased (i.e. you don't have CF), amiloride-->decreased Na flux INTO cell from mucus --> ~~increased~~ decreased Cl- flux OUT --> **decreased** Cl- ~~inhibits~~ **activates** ENaC --> Na flux ~~drops~~ **rises** towards baseline --> resting potential doesn't change much (becomes only slightly less negative) because the Cl flux **decrease** *inhibits* the ~~increase~~ **decrease** in Na flux (i.e. promote ENaC activity).
+
+Compare this to what's seen in CF:First, initial (pre-challenge) potential is much higher because: decreased Cl efflux at rest --> decreased ENaC inhibition --> increased Na+ uptake --> more negative mucus relative to reference potential.
+
+Then, when challenged with amiloride, the effects are dramatic.  While the mutation is obviously in chloride channels, the primary driver of the altered nasal potential is overactivity of ENaC secondary to low chloride, and amiloride directly blocks this channel.  So, inhibit ENaC --> hyperactive Na flux drops WAY off --> nasal mucous potential moves strongly towards 0.
+
+Does this help?  The core take-homes are 1) the gradients (which direction will X flow) 2) the fact that extracellular Cl- inhibits ENaC and 3) the fact that probes are comparing nasal mucous to an unrelated reference potential (usually a standardized skin site).
+
+this paper might help [https://www.researchgate.net/publication/6777206\_The\_CF-CIRC\_study\_A\_French\_collaborative\_study\_to\_assess\_the\_accuracy\_of\_Cystic\_Fibrosis\_diagnosis\_in\_neonatal\_screening](https://www.researchgate.net/publication/6777206_The_CF-CIRC_study_A_French_collaborative_study_to_assess_the_accuracy_of_Cystic_Fibrosis_diagnosis_in_neonatal_screening)
+
+(I just google imaged this and followed my favorite graph...)
+
+ps writing fast and on mobile, if it looks like i made a typo / switched something, ask -- i very well may have...
+
+Edit: u/doom2345 I made a mistake.  Just switched things around, as promised.  See strikethrough/bolding above."
+step1,ffilrmi,t1_ffii9kg,1579976918.0,"Haha, aim to please..."
+step1,ffiljh9,t1_ffije1j,1579976761.0,"Well, I don't have any specific evidence that it does -- I don't think it's a clinically relevant effect (should it exist), I was just thinking about OP's likely point of confusion.
+
+That being said:
+
+Diminished luminal K+ efflux --> increased intracellular K+ --> increased basolateral K+ gradients --> **increased basolateral K+ efflux** \--> more negative resting potential.
+
+A super, super important thing to realize about membrane potentials is that they are NOT really determined by bulk concentration.  Bulk concentrations will make it to electochemical equlibrium really damn fast -- if you pick any given point in the center of the cell *it will be electrically neutral!!!*  (Cells are generally NOT big bags of static charge.)  Instead, it is differential *flux* across the membrane that matters.
+
+So, in terms of the effect of elevated intracellular \[K+\], the take home is that flux across the membrane (i.e. increased K+ leak) is far and away the dominant effect.  Changes in bulk intracellular \[K+\] are small and rapidly normalized, and we only even think about them (as in my --> above) in terms of how they ultimately effect membrane flux.  In other words, increased intracellular \[K+\] should be considered a transition state effect, not an outcome..."
+step1,ffieu8f,t3_etsvcr,1579972181.0,"I might be misunderstanding, but...
+
+Is it possible you're thinking of transluminal potential?  I agree, if you're thinking about resting, basolateral membrane potential, amiloride would be expected to hyperpolarize the cell, and a quick google gives me the sense that, outside of its effect on the luminal membrane of principal cells in the kidney, that is exactly what it does.  (one [study](https://link.springer.com/article/10.1007%2Fs004240050248), among many)
+
+But in the kidney, basolateral resting potential isn't the variable that matters.  The transluminal potential, however, matters a lot, and *does* become less negative (as part of the primary mechanism of diuresis and the major, highly predictable side-effect of hyperkalemia):
+
+ENaC blockade--> diminished Na uptake from lumen (diuresis) --> diminished electrochemial gradient for K+ efflux--> diminished K+ leak from apical membrane (hyperkalemia) --> diminished /more positive resting potential at **luminal**/apical membrane.
+
+Note that you do not see these effects at the basolateral membrane.  The driving forces for K+ efflux are far less dependent on \[Na\] (and much more dependent on the very strong chemical K+ gradient), and ENaC channels are not expressed on that side to begin with.  Thus, the basolateral resting potential remains largely unchanged (even slightly more negative, due to the increased intracellular \[K+\] and resulting increased K+ leak from the basolateral membrane).
+
+Does this help?  (Worried I may have totally misinterpreted your question...)
+
+Edit: If you have a source telling you the basolateral potential gets less negative, I'd love to get a link..."
+AmItheAsshole,ffibvxi,t3_etq8zt,1579970185.0,"NTA.  
+
+
+I don't care what you have between your legs, or how young you are.  If you're assigned to stay with a colleague (who is otherwise a stranger) on a work trip, you treat that person with respect.  Having what sounds like an open house / mixer with a bunch of strange men at 4:00 am around your bed (which you were previously sleeping in) is NOT respectful, and wildly unprofessional.  I've been to Madrid, there are lots of places to go at 4:00 other than your hotel -- this jackass displayed shockingly poor judgement and, in my book, he made his own bed.  You should not feel bad about him getting shit-canned over this.  Totally deserved.  He'll bounce back (and hopefully come out of the experience a little less of an idiot...)"
+trashy,ffasihu,t3_eses02,1579743472.0,Ha! I kinda like this...
+explainlikeimfive,ff7vtms,t1_ff6ott9,1579659559.0,Sounds like what you really need is a snowmobile.
+news,ff7ov42,t1_ff3jk4f,1579654746.0,"Haha, why?  Because I'm kind of a dick?"
+medicine,ff7ossv,t1_ff7ob4w,1579654702.0,:-)
+medicine,ff7nnx9,t1_ff7j0iq,1579653898.0,"From the CDC '[situation summary](https://www.cdc.gov/coronavirus/2019-ncov/summary.html)':
+
+""Early on, many of the patients in the outbreak in Wuhan, China  reportedly had some link to a large seafood and animal market,  suggesting animal-to-person spread. However, a growing number of  patients reportedly have not had exposure to animal markets, suggesting  limited person-to-person spread is occurring, though it’s unclear how  easily or sustainably this virus is spreading between people."""
+news,ff3c3ga,t1_fdfxhje,1579538220.0,"Not a lawyer.  
+
+
+This is 10th grade civics shit.  Every single US citizen should know this..."
+DarwinAwards,ff38goh,t1_ff27vvj,1579536165.0,"It a flashy title, written by a non-scientist.  
+
+
+Practically speaking, those fires can burn so intensely that they can seem pretty explosive, and if the regulator is damaged in the fire you *can* get a little explosion (just not a chemically mediated one -- pure pressure dynamics...)"
+videos,fezxfkq,t3_eqx7t6,1579462946.0,Ha!  I've never heard the audio of this before.  Amazing.
+medicine,fesooo2,t1_feso05f,1579367479.0,"Good luck to you both!  Despite all my gloom and doom, most of the time everybody ends up happy (or at least at a place that feels acceptable and fair).     
+
+
+Either way, this is a great problem to have, and lots of hard work paying off!   :-)"
+television,fene5sk,t1_fen6oqr,1579282756.0,I believe she simply forwarded her vaginal steamer water for analysis.
+step1,fefy9kc,t3_eoqyuk,1579069272.0,"On the left shift: Similar idea to CO poisoning.  While the effect isn't nearly as extreme, oxidizing Fe shifts electrons around in the porphyrin ring in a way similar to what happens upon O2 binding, and you see a similar series of downstream changes.So, In a nutshell:Fe oxidation -> porphyrin ring chemistry changes --> conformational change in affected subunit that simulates O2 binding --> O2-bound conformation stabilized in other 3 subunits --> left shift.
+
+The SaO2 decrease is simply because there are less binding sites available.  Should be noted that as the disease becomes increasingly severe, your (falsely high) SaO2 reading will bottom out at 85% (the color of the Fe3+ heme complex looks to the sensor like blood at 85% saturation, even though no oxygen is bound).  So you can go from nbd to big problem within a pretty narrow range of pulse ox readings...
+
+Edit: note also that the 85% reading reflects the changes in the porphyrin ring (which is the primary absorbing moiety in Hb, in the visual range) I talk about above, which in turn drives the conformational changes responsible for the left shift.  In other words, you can literally *see* the effect of iron oxidation on the porhyrin ring, and it's a straight conceptual line from that chemical change to all the changes in the Hb subunit / tetramer and eventually all the clinical findings and hemoglobin O2 dynamics.  Kinda cool..."
+medicalschoolanki,fdno2b0,t3_embg17,1578589752.0,"Just hit easy?  
+
+
+If you've never seen it before, I don't think you can send a card to the learning pile by hitting good.  Maybe it's possible, I dunno, but that would kind of defeat the purpose (again would be for not knowing the card at all, and good for knowing it 100%, with *nothing in between?*  What are you going to do with cards you *don't* know on first review? Hit again over and over?  That's supposed to be for cards you *really* don't know, not for cards you're learning at a reasonable rate.)  
+
+
+Extend your easy interval if you want, but use Easy for easy cards -- that's what it's there for."
+step1,fdm6g39,t1_fdloneo,1578540951.0,"Thanks so much for your thoughtful reply!
+
+But I did a little more digging, and I don't think your explanation is accurate:
+
+While the Na/K-ATPase is obviously electrogenic, the vast majority of the resting membrane potential is determined by leak channels (primary K+, but also Na+, Cl-, Bicarb, and H3O+).  While those leak channels ultimately depend on the action of the Na/K-ATPase, the resting membrane is *so* much more permeable to K+ than it is to Na+ that you would see erasure of K+ gradients long before Na+ influx can depolarize the cell -- which is not a physiologically relevant situation (except perhaps in rhabdo...)
+
+The picture painted by the articles I found is 1) that we don't really understand the mechanism for sure but that it likely has to do with 2a) a drop in K+ conductance (which has been experimentally demonstrated, with the presumed mechanism being closure of K+ leak channels at very low potassium levels) or 2b) nervous system irritation overriding direct effects on muscle.  The theory here, as I understand it, is that if hypokalamia knocks out inhibitory interneurons via hyperpolarization --> alpha motor neurons fire --> muscle is stimulated to a degree which *overcomes* the hyperpolarizing (and hence relaxing) effects of ~~hyperkalemia~~ hypOkalemia.
+
+My sources:
+
+[https://pdfs.semanticscholar.org/936c/be9f9fc005189e6a9c98d5f82d48dc331276.pdf](https://pdfs.semanticscholar.org/936c/be9f9fc005189e6a9c98d5f82d48dc331276.pdf)    
+
+
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1021913/pdf/westjmed00083-0067.pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1021913/pdf/westjmed00083-0067.pdf)
+
+Thanks again for the reply! If you find a better source or more definitive mechanism, lemme know.  :-)"
+AMA,fdm355k,t1_fdlu1np,1578538689.0,"Haha. Touch a nerve?
+
+If so, you should know ignorance is fixable, and not at all the same thing as intelligence."
+AMA,fdldpmv,t1_fdlcfcq,1578521823.0,"Haha, noooope.  Just trained in a bit of human psychology, and dealing with trauma and grief.  
+
+You're arrogant, and clearly don't know what you don't know.  Google the Dunning Kruger effect...
+
+Edit: And it isn't about whether or not forgiveness is 'justified', that completely misses the point."
+AMA,fdlbmd7,t1_fdlbcvk,1578520562.0,"People express forgiveness for their abusers all the time.  Not everyone, but for many it is very cathartic part of healing.
+
+Your ignorance is on full display here, Bro."
+AMA,fdlb3l6,t1_fdl833h,1578520249.0,"Because, unlike you, they're not assuming they understand OP's emotional state, and are trying to gain insight.  
+
+
+People respond to severe trauma very differently.  OP could be consumed by rage and anger, sanguine and forgiving, or anything in between.  Without asking, there is no way to know."
+relationships,fdl95h3,t3_elwli5,1578519156.0,"You may not have known you were doing it, but you broke his heart.  Sounds like he's respectful of the fact that you don't feel the same way, but doesn't want to see you much (which should be *really* understandable -- if you don't get that, it's a whole other discussion...).  His friends are trying to respect his effort to dig out of heartbreak by not forcing the two of you together.  Which means they've gotta choose -- and they chose him.
+
+I know it sucks, but I think the right thing for you to do here is back off.  I wouldn't view this as them ""not being cool"" with you, but as them trying to support their long(er) term friend as he works his way out of heartbreak.  No one is lying.  No one hates you.  You just are not welcome for now, because they don't want to cause Andy further hurt.
+
+Frankly though, your friend is right.  You should have seen this coming, and by failing to communicate clearly, early on in the relationship (or FWB sitation, whatever) *you made your own bed.*  The respectful, mature thing to do at this point is *back the fuck off*.
+
+As other posters have indicated, don't shit where you eat.  (Or make sure you're *absolutely* sure you are not leading someone on -- *communicate.)*"
+AmItheAsshole,fdhseip,t3_elc7z5,1578429272.0,"NTA, AT ALL.  I admire your handling of your relationship with your brother, he is lucky to have you.  
+
+
+That said, I think this SHOULD be a breakup post.  Her behavior exposes a stunning lack of empathy and selfishness.  Can you imagine having children with this woman?  Because I'd strap in for more of the same..."
+news,fdgysl1,t1_fdgiqob,1578411616.0,"You're putting words in my mouth.  I never said anything about the agents at the border, or their motivations.
+
+First step in fighting for your rights, is KNOWING THEM, you idiot."
+step1,fdg54m7,t3_el6nbj,1578380395.0,"G6PD deficiency is largely a half life problem -- synthesized G6PD does its job, but is unstable and degrades rapidly.  Furthermore, red-blood cells are anucleate -- they cannot replace degraded G6PD.  So, while erythrocyte progenitors can synthesize more to make up for losses (and are thus largely unaffected), erythrocytes cannot -- the longer they live the more severe the deficiency becomes.  
+
+
+So, DNA synthesis proceeds just fine, and most other cells are able to easily get around the deficiency with upregulated G6PD synthesis and salvage pathways.  You really only see effects in cells that are 1) unable to synthesize G6PD and 2) are exposed to very high levels of oxidative stress.  The cell that most fits that description is the RBC (they shunt a full 10% of their glucose load to maintain NADPH stores!  Speaks to how oxidatively stressed the RBC is, and how vulnerable it is to G6PD deficiencies...)"
+LifeProTips,fdg3sxo,t3_el5mky,1578378941.0,"This is a terrible reason to give blood, and an irresponsible idea to be putting out there."
+AmItheAsshole,fdg2vhb,t3_el460c,1578377981.0,"NTA, this is a beautiful tribute.  Time to tell her family to shut the fuck up and get used to it.    
+
+
+Failing that, Dima's an accepted nickname that kinda rolls off the American tongue.  Maybe your idiotic in laws would prefer that?"
+news,fdg0gfk,t1_fdfx902,1578375566.0,Haha fair enough.
+news,fdfvdvc,t1_fdfv9v8,1578371228.0,"This is not an issue of legalese.  At all.  
+
+This is a critical distinction, that is literally the second sentence of the Wikipedia article you linked to.
+
+The 4th Amendment applies.  Period.  
+
+Edit: Why it's SUCH an important distinction: If a search feels unreasonable or overly invasive, even near a border or done by boarder patrol, consult a lawyer or the local ACLU office, you may have a case.  And that case could prove to be very important.
+
+Edit2: And, also no, this is new territory.  DNA collection is a whole new ball game, and raises issues that make even the most invasive cell-phone search look like small fries.
+
+Plain language enough for ya?"
+WeWantPlates,fdfto2t,t1_fdfte07,1578369934.0,"Are you threatening to murder Andreas Caminada?  That's fucked up.  
+
+
+/s"
+news,fdft31d,t1_fdfocxv,1578369515.0,"No. NOOOOOPE.  No.  Not at all.
+
+That exception just changes the standard for probable cause, and when you do/do not need a warrant -- all of which are statutory concerns.  The 4th Amendment *absolutely* applies.  The context in which it is applied changes -- i.e. the definition of what is or is not reasonable -- but its fundamental protections do not.
+
+So, the question is whether this constitutes a 'reasonable' search under the 4th amendment, and that, to my knowledge, is unsettled in the courts (wholly unaddressed, as far as I know).   Challenges are very likely, and their outcome could have far reaching consequences for how the 4th amendment is interpreted in the technological age."
+WeWantPlates,fdfr9u9,t1_fdeu25c,1578368277.0,"The photo was taken from an [April fools joke article](https://www.cnet.com/news/ipad-2-used-as-plates-in-apple-themed-restaurant/).  So, in that context, pretty good idea that probably shouldn't be responded to with horrific, life-altering violence."
+step1,fdfgzwf,t1_fdezggg,1578361479.0,"People are talking a lot about the aortic valve closing, and that's a huge part of it.    
+
+
+But, mechanistically, I think the important thing to realize is that there's a small sliver of time when the heart is relaxing (i.e. LV pressures are dropping *fast*) and the aortic valve is OPEN -- i.e. pressure gradients are reversed and blood wants to flow *backwards* into the increasingly flaccid LV.  So, pressure drops, *precipitously*.  But then the aortic valve slams shunt and pressure rebounds a bit as the blood that would otherwise backflow is trapped in the stressed volume by the aortic valve -- conceptually at least, you can think of this 'trapping' as adding a little bit of volume to the stressed compartment in the moment the aortic valve closes.  Put all this together, and you have the precipitous drop followed by the sudden, blip-like rise of the dicrotic notch."
+step1,fdetwgw,t1_fderbyk,1578346513.0,"Maybe this will just add to the confusion, but this analogy helped me:
+
+Imagine you've got a pressurized tank full of water with a thick filter or sieve on one end.  You can add water under pressure to the tank, but only in fits and spurts.  The tank represents your stressed volume, and the filter represents your arterioles (highest resistance part of the circuit -- where, functionally speaking, your stressed volume becomes your unstressed volume).
+
+So, say you push a bit of water into that tank, and your pressure jumps up \[i.e. your aortic valve is just slamming shut, and you're at systolic pressure\].
+
+What determines how fast the pressure drops?  (And, by extension, how *far* the pressure drops before the next spurt of water is added \[i.e. diastolic pressure\]).
+
+How fast it filters out of the sieve!
+
+What determines that?  The resistance of the sieve / SVR.
+
+Should also be noted that rate matters as well.  If SVR doesn't change -- i.e. your sieve is just as permeable or impermeable -- your pressure is going to drop further the further out your heart beats are spaced.  We don't usually see increases in diastolic pressure in exercise because the sieve is way more permeable (muscles need blood!), but it's an important concept to understand."
+step1,fdeshjo,t1_fder5ka,1578345675.0,This drove me up the fucking wall for a couple hours a few months back...
+step1,fdes40z,t1_fdeqfn5,1578345452.0,"I could be mistaken, but I don't think this is quite right.
+
+A leukemoid reaction 1) is a term used for non-malignant, *reactive* leukocytosis (this is why people talk about distinguishing between leukemia/MDS and leukemoid reaction -- they are for our purposes mutually exclusive conditions) and 2) does encompass the concept of a left shit.
+
+Conceptually, a leukemoid reaction is the over-arching conceptual term for an over-active but generally appropriate immune response (which has a lot of parts, beyond just leukocytosis).  Part of that response is the marrow going into overdrive, so you see a left shift."
+step1,fder6na,t3_el0406,1578344903.0,Why do people talk about gangrenous necrosis like it's its own distinct subtype of necrosis?
+step1,fdeq62q,t1_fde6lwt,1578344300.0,"Adding to this, while interesting, digging into the ***selectivity*** mechanism of leucovorin (why it selectively rescues non-malignant cells, and not malignant cells) isn't relevant for STEP.  
+
+
+Some interesting theories out there (UpToDate has a pretty good [blurb](https://www.uptodate.com/contents/therapeutic-use-and-toxicity-of-high-dose-methotrexate#H6)), but we don't really know.  Won't show up on STEP."
+facepalm,fdekl5g,t3_ekxj33,1578341007.0,Shirts check out.
+worldnews,fdcxiuz,t3_ekkqmm,1578287237.0,Because it's a goddamn war crime?
+medicine,fd7gdh8,t1_fd6w1s9,1578204068.0,"In the Space-Force, I believe radiologists are expected to man the ray-guns."
+relationships,fd77onn,t3_ek1kth,1578200508.0,"I think if you both wanted to fix it, you could.  But it sounds like that might not be the case."
+MaliciousCompliance,fd72d65,t1_fd1yxhi,1578198575.0,"Did she ever apologize?  
+
+
+Med student here, btw.  I would NEVER treat another person like this, no matter where on the totem pole they are.  Totally uncalled for, and wildly unprofessional."
+medicine,fd6x2zi,t1_fd6qnmb,1578196804.0,You are not a student of history.
+IDontWorkHereLady,fd5ceoa,t3_ek14yv,1578176226.0,"I'm usually pretty sane, but I would ABSOLUTELY try\* and pet Sadie, with or without the vest.    
+
+
+(\*by asking nicely)"
+personalfinance,fd5auyt,t1_fd2v5pe,1578175840.0,"Another option is to report him to the state agency involved in monitoring worker rights compliance.    
+
+
+Most states have an option for anonymous reporting, and wage theft is generally taken seriously (at least it is in my state)."
+IDontWorkHereLady,fd54dqb,t1_fd1usne,1578174111.0,"I dunno man...  
+
+
+Having spent a lot of time in R01 institutions, at least in the US, people usually default to Dr. X until they're on more familiar terms..."
+IDontWorkHereLady,fd53h5k,t1_fd1o4dp,1578173837.0,"One clue of many.  
+
+
+And that's a mistake any sophomore in college shouldn't be making, much less an apparently close friend of a Ph.D. holder."
+medicalschoolanki,fd3yg3i,t1_fd3q23v,1578162744.0,"I'm just helping you out with the concept man -- I'll let you dig into the details on your own.  I'm not a neurologist, and would definitely just get an MRI (but the reference I gave should have more).
+
+High level take-home: an L5/S1 lesion can *easily* cause an Achilles reflex deficit, based on the fundamental concept I laid out above.
+
+Edit: Like I said, I'm rusty.  Haven't thought about this since anatomy MS1.  Also, I think splitting hairs on lateral/posterolateral is a waste of time at the MS2 stage..."
+MaliciousCompliance,fd1jhr8,t1_fd1i5ob,1578132092.0,"Haha, hopefully."
+IDontWorkHereLady,fd1hodq,t1_fd0xwjg,1578131389.0,"I stopped reading with the second ""PHD"" from someone claiming to have a PhD.  Nobody with a PhD capitalizes the H.  Small, but: Dead. Giveaway."
+AmItheAsshole,fd1e4cl,t3_ejj5tg,1578130306.0,"ESH.  But only just.  It was really nice of you to offer your car, and Tim sounds like an absolute tool.
+
+That said, I don't think you handled the situation very well.  Your car is clearly a beater, and if you're going to be driving colleagues you don't know long distances in a professional capacity, you need to make it clear up front what you're offering.  I drove my last car (a Subaru!) into the ground.  Loved that car.  I definitely would've gotten a kick out of driving in yours.  But you've *gotta* know *not everyone is like that*, right?  Some people get pretty huffy about having to stay in shitty motel rooms, or be stuck on a long drive (that you're being forced to go on) where the air conditioning isn't really doing it's job in the back and you can't listen to the podcast you want to.
+
+You should have seen this coming, and could have *easily* nipped it in the bud.
+
+With the missed warning opportunity in mind, what pushes this over into 'everyone sucks' territory for me is your angry reaction.  You snapped at a colleague on a business trip.  He was being a whiny little taint, for sure.  But this isn't a college road tip.  You sprung a shitty ride on him, and he reacted poorly -- but that doesn't mean that you, *in your professional capacity*, get to do the same.  There there are a lot of ways to deal with Tim that don't involve snapping at him, and blowing up the trip / office dynamic.
+
+This would be a totally different story if this were a recreational trip.  In that situation, not the asshole AT ALL.  But this is your job.  You were not forthcoming, and handled the fallout ***very*** unprofessionally.  In my book that makes you an asshole. (But Tim sucks major ballsack.)"

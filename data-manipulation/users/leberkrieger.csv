@@ -1,0 +1,350 @@
+subreddit,self ID,parent ID,time,text
+NoStupidQuestions,ffih3fd,t1_ffifvdw,1579973719.0,"Exactly. It isn't laziness, it's just uneconomical, so it's the right business decision to not expend resources to do it.
+
+In my current group (not browser based, but also not a game) one team has started using a protocol based on HTTP/2 to get some of these benefits. It isn't just stateless any more. I was skeptical when they started but they're reporting impressive performance and reliability figures. I suspect as these protocols become more widely used, we'll see applications gain the benefits without having to pay the development cost."
+todayilearned,ffhkpuy,t1_ffh6et1,1579939792.0,I have a guitar that was made in China. It's a fine-sounding instrument.
+Documentaries,ffhjm3k,t3_etky7c,1579938248.0,"""criminalization of dissent"" - does anyone know what that means?
+
+Were they arrested for their words, having done no crime, on trumped up charges and planted evidence? Did they commit small crimes and then get severe sentences? What?
+
+Edit: the IMDB entry lists some of the activist names, such as Jake Conroy who received a 4-year federal sentence. the Stop Huntingdon Animal Cruelty organization aimed to stop an animal-testing lab of that name."
+HomeImprovement,ffh2vzs,t1_ffgq3op,1579921641.0,">These guys are trying to make a living selling windows
+
+They could be trying to make a living casing houses to see where the valuables are. Before having anybody inside the home, they need to be vetted -- are they from an established company in town that has a physical location? Does the office confirm they are who they say they are?"
+NoStupidQuestions,ffh0jbb,t1_ffgy6rc,1579919857.0,"But there's nothing about any of that that requires a game to be stopped and restarted. You're right that there's no way to avoid a glitch, if the data connection gets closed, but these are fast networks. The glitch ought to be in the hundreds of milliseconds. The problem is that it's hard (not all that hard, but not trivial) to write a program that can sense that a channel has closed and open a new channel to continue communicating with a server. It requires the application to maintain its own idea of a session that's channel-independent.
+
+What I'm saying is that if you pay me to write a game that can manage this application-level session management, I can do it. But it will cost more than writing a game that relies on the operating system's normal communication channels, because it's more complicated. There's no technical reason the whole game has to restart, it's a business decision.
+
+Edit: if you're interested in the details, look into how gRPC uses HTTP/2 to create channels and utilize multiple connections. It's quite fascinating if you're in the business, more so if you haven't paid attention to developments over the last few years.
+A good overview is https://www.cncf.io/blog/2018/08/31/grpc-on-http-2-engineering-a-robust-high-performance-protocol/"
+AskReddit,ffgzu23,t1_ffgm58s,1579919331.0,"There's so much obvious evidence for this, I can't believe anyone believes any different.
+
+It's pretty simple, look at any 2-year-old and then look inside yourself. People who say they're righteous inside are lying."
+AskReddit,ffgzdq0,t3_etin5q,1579918989.0,"I used to think if I have facts and logic on my side, it's just a matter of time before other people would see things the way I do.
+
+100% wrong. People have too much invested in their established mental models, they have a worldview and don't even know it, and their natural hormones, emotions, and just plain obstinacy makes convincing most people to change their minds extremely difficult. Facts and logic may help, but are by no means sufficient. Sometimes they're not even necessary."
+Advice,ffgxtoo,t3_etjm79,1579917828.0,"You didn't miss your one shot at true love. It might take a while -- weeks, months, years -- but you'll get another shot with someone else. There's a tiny 1 in 7 billion chance that she was the best thing that could ever happen to you, but even if she is, second best will be fantastic too.
+
+I suggest you don't ever ""confront"" anybody unless you want to start a fight, and don't ever ""ghost"" or ""block"" anybody if you hope to ever have a relationship with them. I'm an old person, but still I'm gonna tell you: try talking more in real life to these people. There's still lots of potential for screwups but there's less mystery involved in reading the person when you can see her face."
+oddlysatisfying,ffgw8pg,t3_etcduc,1579916652.0,It would have been oddly more satisfying if the camera view hadn't jumped around every 4 seconds
+NoStupidQuestions,ffgvyv5,t1_ffgpty4,1579916454.0,"Here are some examples:
+
+Can a private pilot fly his/her own plane any time he/she wants?
+
+If one is a private pilot, can one fly one's own plane any time one wants?
+
+Can a private pilot fly their own plane any time they want?
+
+Can a private pilot fly its own plane any time it wants?
+
+Can a private pilot fly 'is own plane any time 'e wants?
+
+Can private pilot fly own plane whenever want?
+
+As you can see, inclusive language is easy. It's just awkward, grammatically incorrect, or stupid-sounding. Sometimes all three."
+NoStupidQuestions,ffgv8ac,t3_ethoss,1579915914.0,"The technical answers are all good, but I'll offer a meta-answer: youtube makes money when you watch video. It makes less money if you stop for any reason. So they tell their programmers to do what it takes to avoid glitches. It isn't easy, but it's worth it because there's money to be made.
+
+With a game, you've already paid the money to buy it. They don't lose anything if you have to restart, as long as it's not so annoying that you tell your friends not to buy the game. So there's no reason for them to pay their programmers to do the extra work to make it work seamlessly. They COULD, but there's no monetary benefit."
+Advice,ffgudv3,t3_etilah,1579915305.0,"Bars aren't fun at all. It's too much like a bunch of people in a smelly joint drinking and looking for companionship. Maybe what you need is a **goal**.
+
+[This guy cycled every single street in London](https://londonist.com/london/transport/cycle-every-street-central-london).
+
+Hobbies can be productive. Unlike video games and Netflix, playing guitar is a creative outlet. If I had time, I would create a youtube channel and put songs on it. (I don't have time, unfortunately, but you do.)
+
+Translate your photography skills to street photography, and build a website out of the result.
+
+Or photograph every park in the city. Curate the photos into a story. If you have a camera and SD card already, the great thing is this activity is almost free. Again, set yourself a goal -- it might help motivate you on a day-to-day basis."
+AmItheAsshole,ffgrxs6,t3_etbwdr,1579913518.0,"NAH just on the surface descriptions here. You say Jess's first child is something like 10 weeks old, and in that time, you've ""gone to parties, hung out and talked to loads of people, been up to  all sorts of adventures and misadventures, and done a couple short  weekend trips."" I would say that's highly unusual. It doesn't sound like any new mother I've ever known or heard of.
+
+I'm not saying there's anything bad, just that it's unusual. It wouldn't be at all surprising to learn that there's friction between this new father and mother about how to approach a newborn, and if there is, this guy clearly sees you as an accomplice in what he sees as problematic behavior. That isn't really your problem, and I think you did the right thing by trying to be diplomatic.
+
+Let's just say this: I'm a father, I love sailing, and I have a friend with a nice boat. I didn't go yachting overnight on the weekends when my child was 10 weeks old. It never even entered my mind, and if I'd brought it up, my wife would have had something to say about it. And she would have been right."
+todayilearned,ffgpm3b,t1_ffgn66x,1579911849.0,"This reminds me of Joi Harris, an accomplished motorcycle rider who died doing a stunt for Deadpool 2. She clearly knew that riding without a helmet was dangerous, and may or may not have known that regulations required her to do so, but she was just starting a career as a stunt rider and probably was eager to please.
+
+It's just like any inexperienced worker whose boss dangles a carrot - money - in one hand, and wields a stick - unemployment - with the other. At some level the worker should be willing to walk away from the deal, but at another level they shouldn't be presented with the choice. The boss tends to wield the knowledge and power to the disadvantage (sometimes death) of the worker."
+todayilearned,ffgfu76,t1_ffgclgn,1579905282.0,"I think the concern is flavor, not ABV"
+todayilearned,ffgelwx,t1_ffgaqk6,1579904509.0,Yes there is. Being financially under water in your fighter jet is worse.
+AskReddit,ffg6blz,t1_fffqjq2,1579899393.0,"What can the US do?
+
+Action 1: stop fighting useless wars
+
+Action 2: provide superlative health care (including mental health) for returning veterans"
+AmItheAsshole,ffg241t,t3_etda8m,1579896803.0,"Title is misleading.
+
+I thought you'd found a way to outfit your home to prevent pregnancy, and wanted to know how you did it.
+
+Edit: reading the rest of the post, I think maybe you actually did succeed -- clean out wife's prized possession and give it away, wife leaves, that's the end of that. No risk of future pregnancies!"
+unpopularopinion,fffzfc9,t1_ffepnxx,1579895148.0,"If you were eating poi for every meal, sure. But if you eat noodles once a day, every day, and your other dishes are healthy and varied, nothing bad is going to happen unless your noodles are poisoned."
+unpopularopinion,fffz5tw,t3_et87u1,1579894985.0,"Don't be surprised by people having very definitive ideas about food, and going out of their way to comment on it if you do something that's clearly outside the norm. I think it's hardwired in our brains to care about food, and part of why food is so entwined with culture.
+
+You can cause an indignant response by combining the wrong foods (e.g. dipping a pickle in ketchup), for eating the right food at the wrong time (roast beef and potatoes for breakfast), eating at the wrong time (lunch at 2pm instead of 12pm), skipping a meal, eating an extra meal, fasting, cutting a primary food (e.g. meat, or wheat) out of your diet, and so on. In all these cases, you'll find people will typically comment on it, and some will become visibly angry with you.
+
+I think it's because people see it and can easily envision themselves doing it, and it gives them a visceral response that they can't ignore. A person who is used to eating three meals a day, for example, sees you skip dinner and thinks you're engaging in some kind of self-harm.
+
+Just ignore them. They'll go away. If they refuse to stop pestering you, make a point of putting all the ingredients of an entire meal into a blender and drink it while standing very close to them. They won't be able to endure it."
+AmItheAsshole,fffr0zn,t1_ffforz1,1579889927.0,"But if a hospital had a cancer patient who refused treatment, they would definitely tell the patient it's time to go elsewhere so we can use the bed for someone who needs it. The comparison isn't quite equivalent to OP's situation, of course.
+
+What did eventually help you to move away from being a wreck? Was it intervention by someone else, or something you did?"
+AmItheAsshole,fffqbz9,t1_fffnaks,1579889497.0,"True, but imagine having people who love you try to help you for years and refusing to cooperate. How much longer can he expect that to continue? a year? 5 years? the rest of his life?"
+legaladvice,fffirdu,t3_etal1e,1579884849.0,"In answer to no. 1, if a bank considers that the box fee hasn't been paid, the protections for the owner aren't very strong. The contents might even have been auctioned off. The NYT had a good (if unsettling) article recently titled ""safe deposit boxes aren't safe"". It's worth reading."
+Advice,fffhf3s,t3_eta08h,1579884021.0,"Think of a story that's reasonable (I'm  moving to a job that's closer to home, pays more, etc.) and stick to it. Resist every urge to respond emotionally or explain truthfully when they get angry or pry into your business. The one time I've tried to help an employer by giving advice about their shortcomings when they asked why I was leaving, it was pointedly ignored. Don't bother. You won't tell them anything they don't already know.
+
+The hardest part for me has been when a great manager asks if there's anything they can do to convince me to stay and I have to say no in a convincing yet reasonable way. It doesn't sound like you'll encounter that situation."
+NoStupidQuestions,fffefhf,t1_fff9y3a,1579882160.0,"That's interesting, the only first-hand answer so far. Do you remember the ratio between rent cost and your monthly income?"
+NoStupidQuestions,ffeljub,t1_ffekud9,1579853193.0,"I would very much like to hear from a real person in that situation, yes. $3K divided by 3 people is $1K a month. That's a lot of money.
+
+I'm thinking if you made 10 bucks an hour and worked full time, that's about $1600 a month. If you lived in a place like [this](https://www.zillow.com/homedetails/320-Turk-St-2254389-San-Francisco-CA-94102/2082509776_zpid/) with your boyfriend/girlfriend, that's 2100/2=$1050 a month for rent (water, sewer, garbage). Add food and electricity, now you're around $1300, per person. Phone, $50 a month.
+
+Then, it just depends. If you are the type who is happy strumming a guitar and getting books at the library, you might even have some money left over. If you like spending money at the local eateries, or buying clothes, you won't.
+
+This can be a comfortable, fulfilling life. It certainly can be a ""life worth living"" if you don't have high expectations. The huge problem with it is no health insurance and no buffer against emergencies. It's not sustainable by any means.
+
+In this situation, any normal person would work a side gig to cover health insurance and afford a car, or build savings, or pay for schooling.
+
+But again, there are probably parts of the financial picture I'm missing. Does a person making these wages owe federal taxes? I don't think so, but I haven't been at that level for quite a while."
+AmItheAsshole,ffekueg,t1_ffe6ee6,1579852277.0,"There isn't enough in the post to judge this. If they are in sales and making commissions, they may jump at the chance to make hay while the sun shines.
+
+Even I, a lowly salaried grunt, was quite willing to work extra hours on a push to get a product out because my normal job during the slow period several months leading up to the final push allowed me to stroll into the office any time I wanted (even at 1pm, if I felt like it) and just be at my desk long enough to get the work done. It felt perfectly fair to work 5 hour days for several months, followed by 12 hour days for a couple of months.
+
+Some companies exploit their workers, some don't. It's hard to generalize from 5 paragraphs."
+AmItheAsshole,ffekkcl,t3_et3uof,1579851915.0,"YTA. Although it isn't technically a ""punishment"" to not reward someone, the discontent is natural and understandable.
+
+If you had it to do over again -- and you might, next year -- you'd do well to just have some nice treats in your desk and, when midnight rolls around and people are still at the office, hand them out with a word of thanks. This rewards the people who deserve it, right at the time they could use a bit of extra cheer, instead of afterwards."
+NoStupidQuestions,ffejdm7,t3_et5h7m,1579850427.0,"The programs for the original room-sized early computers were created by writing the programs in machine language (binary codes) and entering the binary numbers with switches or wires.
+
+Later, there were plug-board computers. My mom worked on one in the 1950's that was used to compute payroll for a lumber mill. The computer had several circuit boards, and the programmer set them up to do a particular job by plugging cables in (like the ones used by telephone switchboard operators) to establish the program.
+
+[Here is a depiction of how the ENIAC was hooked up](http://www.columbia.edu/cu/computinghistory/eniac.html) (1945) showing how that was done.
+
+Even as late as the mid-seventies, a programmer could toggle a program in by flipping switches to enter binary codes, like on a [DECSYSTEM-20](https://dodlithr.blogspot.com/2014/04/digitals-decsystem-20-part-7-console.html). By then, that was not the normal way to do it. But it was still possible to look up the operation codes in a paper book, write down a sequence of numbers corresponding to the instructions and data, enter them in, and have the computer execute the code."
+NoStupidQuestions,ffeigxz,t1_ffei0i5,1579849337.0,"I think you mean you wouldn't enjoy it.
+
+Did you ever live in a dorm? I had a 9x9 room for two years. 81 square feet, people on all sides, shared bathroom. I loved it. I wouldn't want to do it now, but it was fantastic then."
+AskReddit,ffei850,t3_et1vsc,1579849053.0,"Porn seems like your partner might be willing to do just about anything imaginable. In the real world, your partner probably has a fairly narrow range of tastes, and much of the effort should go into satisfying your partner -- NOT expecting them to do everything under the sun to satisfy you. In fact porn depicts exactly the wrong emphasis in that respect."
+NoStupidQuestions,ffei33h,t3_et3rdv,1579848887.0,"The thoughts in my head present themselves in the same voice I use to speak, including my accent. That's true both in my native language, and in my second language. I'm not all that fluent in my second language, so it's more apparent there as I build sentences. If I want to try to improve my accent and get closer to the way a native speaker talks, I still do that as a separate conscious effort that overrides my natural pronunciation."
+NoStupidQuestions,ffehm63,t1_ffe2idv,1579848343.0,"10 people in a bedroom is an exaggeration. If you had 2 friends and you shared a studio apartment that cost $3K a month, that could be a good life. Whether sharing an apartment with friends is good or bad, totally depends on the friends.
+
+To compare, my son is living in a campus dorm room and paying over $800/mo for a bunk in a cramped 3-person room. He's not especially happy with it, things could be better, but again, it mostly depends on the company.
+
+It would be tough to live that way for 30 years, but to do it for a while -- well, that life itself isn't bad for a young person. I lived that way for 5+ years in my twenties and it was fine.
+
+Living with parents is, of course, comfortable but limiting. Whether it's a life worth living is totally up to the individual."
+NoStupidQuestions,ffegzn4,t1_ffdvay8,1579847636.0,"It must have been a vehicle for Hubbard to evade taxes, but I doubt if TomC or JohnT are using it for that purpose. If they are, I'd be interested in how it would work."
+HomeImprovement,ffe6xls,t1_ffe5yuq,1579838329.0,"Yes, it was a good subject and I learned some things. I was ready to suggest laying a 2-foot wide strip of plywood to spread the load to other joists, but at least one other comment made the point that the existing floor and subfloor are already doing that."
+HomeImprovement,ffe5y1e,t1_ffdpvfj,1579837568.0,"Better to get the money and have your own contractor do the work.
+
+Several other posts in this sub have described folks having the seller's crew do fixes, the work is done poorly, and then the buyers are in a bind - either they aren't satisfied and the money's already been spent, and everyone is unhappy, or the problems weren't apparent until the sale goes through and the buyers have to redo the work.
+
+But I would still side with those suggesting walking away. Even if all the work is perfect, there's a reason termites took up residence in the first place. Usually it's water where water oughtn't be in the structure."
+Documentaries,ffe0co5,t3_et0biy,1579833428.0,"The youtube summary reads ""even in a town that billed itself as America's most livable city, there still existed rampant homelessness and desperation"". It was an ugly place back then, and from what I hear, not much has changed except they allow people to live in tents on the street."
+AmItheAsshole,ffds914,t3_esxjl7,1579827644.0,"I just finished reading a book called ""When I Was White"" that lays out a very similar scenario. I suggest you read it too.
+
+The short version is that, at age 27 after being raised as white in a white family, the author found out her biological father was an unnamed black man. Her mother refused to talk about him. The author was torn apart emotionally for about 10 years and could never reconcile her own need to know who her father was with her mother's need to keep private the details of the sexual encounter.
+
+You have every legal right to talk to anyone you want. Your mother has no right to dictate how things are going to be, but she and her sister probably have a better idea than you about whether this investigation is a good idea. Talk to her. Ask her why she doesn't want you to pursue it. If you ignore her and plow ahead, you can do a lot of long-term damage to people you ought to care about, and that would make YTA. The fundamental thing to understand is, you may have a deep-seated desire, even a need, to know more about your DNA, but in no case do you have the ""right"" to know about past events, if it means extracting information from someone who doesn't want to share it.
+
+""My grandparents are still alive and I will still love them both regardless of what I find"" -- but they may not feel the same way about you afterwards. Beware."
+AmItheAsshole,ffdiixm,t1_ffcje0i,1579821597.0,"I think if she just didn't call him an asshole and a bad father, that would be enough."
+AmItheAsshole,ffdi7tu,t3_estcud,1579821408.0,"NAH. You are both under a lot of stress. Try to keep the heavy sighs to a minimum, and if your wife makes negative comments, ignore it. Focus all your energy on the needs of that new baby.
+
+I remember when our first son would.not.stop.crying at 2am and my wife just gave up in frustration and said ""will you please do something."" I took him to another room and did what I could, and let my wife sleep. Tough times for everybody, I remember it like it was yesterday. That was 19 years ago, he's in college now, smart and athletic. Good times are coming to you, just get through this the best you can!"
+AmItheAsshole,ffdg504,t1_ffdfitg,1579820168.0,I can see some phrasing there that could sound condescending. But how is it sexist? Is it because of my observations about how men generally think and behave?
+HomeImprovement,ffdfbcn,t3_esyota,1579819678.0,"Here's a sanity check: if three grown men, 200+ pounds each, stood next to each other on that spot, what will happen?
+
+In most homes built in the last 30 years, the answer is ""nothing"". You could test it to make sure. And this is a worst-case scenario, all the load near one spot. If you're spreading the load out across the entire joist, that's even less demanding than your three guests."
+HomeImprovement,ffd09zu,t1_ffcyhka,1579810887.0,"I was using online prices from Lowes for a fair comparison. In actuality, if I go to the paint store and ask for a sample they'll give me one for free."
+AmItheAsshole,ffcyoom,t3_essrci,1579809998.0,">I can't have freaking Merida ruining the photos, AITA for asking this of her for just 1 single day
+
+NTA, you can ask for one single day. Then you should knock it off, apologize, and include lovely Merida's hair in your stupid wedding photos.
+
+And if you meant it when you wrote that even GUESTS have been asked to follow your colour scheme with their clothes, you are fantastically out of line. To quote BOC: ""oh, no, they say she's got to go go-go bridezilla!"""
+AmItheAsshole,ffckf0f,t1_ff9xcl4,1579801340.0,"That was a good read.
+
+""She wanted me to figure out all of the things that need done, and devise my own method of task management.
+
+I wish I could remember what seemed so unreasonable to me about that at the time.""
+
+In my case, it's still going on, and I know what seems unreasonable: my partner wants me to use my intelligence to do what needs to be done, but she wants to dictate what needs to be done, when, and how. So we have an impasse. It isn't a partnership at all."
+Advice,ffch3ye,t3_esnswi,1579799332.0,"How about switching schools? Some people flourish after a fresh start. If you have a large friend group then this probably isn't a good idea, but if not, it could be a positive thing.
+
+I assume your parents know everything you've told us. If you were my child, I'd move to a new house in a different school district if I thought it would help you."
+AmItheAsshole,ffcg9vq,t1_ffc9qxs,1579798817.0,"OP obviously shouldn't do all the cooking, shopping, cleaning. That's a big part of my point.
+
+You seem to be taking what I wrote as advice for the boyfriend. But I'm addressing OP. Do you have any actionable suggestions here? Or are you just projecting your own frustrations onto the person you imagine me to be?
+
+I understand your position is NTA. So is mine. Just don't be one of those ""NTA, keep doing what you're doing even though it isn't working"" types."
+lifehacks,ffcf78g,t1_ffc84sp,1579798160.0,"You can make a pipe bender from a 2x4. Of course you have to have a drill and a 1"" spade bit..."
+lifehacks,ffcexj4,t1_ffc4j6m,1579797995.0,"Pretty much like that, except exactly the opposite"
+AskReddit,ffbe9mk,t1_ff9b539,1579761580.0,"That 10-15 year payoff horizon is key. Too many people listen to a real estate agent or bank loan officer when deciding what they can afford.
+
+There's a sweet spot in there, different for every person. Buying more house is like leverage, the loss is greater if there's a downturn but the reward is greater in a rising market. Buying no house would have been a losing position for me, but it's not for everyone."
+AmItheAsshole,ffb74xa,t1_ffb5mju,1579753601.0,"The downvotes might or might not be due to misinterpretation. There's a whole lot of indignation on the internet that wants to say ""he's an ass, he's the problem"" as if that's the end of the story. But it's barely even the beginning of the story. If one person in a relationship assigns tasks and defines roles for the other, it isn't a partnership. It's more like a job.
+
+I'm a little afraid that OP thinks that because she does more than her share, it gives her the right to call the shots. But your experience is what I was trying to get at with the word Ownership. If OP can get to the place where she doesn't delegate, but instead never thinks about dishes because the BF just handles them automatically, that's the ideal. And it's actually easier to get there than she thinks, if it truly is a partnership.
+
+If it isn't, she has bigger problems than dishes. Only she can judge."
+AmItheAsshole,ffb2tko,t1_ffb0fq7,1579750365.0,"You and I think so, but we don't matter. It's what the BF thinks that matters. I believe OP and a lot of other people here are trying to find ways to modify the BF's behavior, but it's his THINKING that needs to change.
+
+I've been through this and it doesn't end well if OP tries to harass, shame, or micromanage. She obviously doesn't want to accept things as they are, and that's good. I'm suggesting she avoid a pattern that won't work, and pursue one that will. That starts with setting boundaries for herself, and negotiating. Doing a bunch of stuff she'd rather not do, unasked, actually puts her in a weaker position."
+AmItheAsshole,ffatxa2,t1_ff9w10y,1579744404.0,"It isn't his share unless he agrees that it's his share. You don't get to define it for him.
+
+He should be doing way more than he's doing now, that's obvious. But if you keep doing things you don't want to do, things you think he should be doing, because you want to be ""nice"", then you need him more than he needs you. Don't be needy. If you're doing more than ""your share"" hoping he'll notice and reciprocate, but then he doesn't, then you've learned something about him. That isn't going to change by itself.
+
+Do the division of labor as a team. In an ideal relationship, both people will give readily and without resentment because they love each other and want to do it, and both will feel like they're getting more than they're giving. Dividing up chores is easy then. But to get to that point is going to take more than one conversation. Depending on how the guy was raised, how he sees his role and habits, and how sensitive he is to your needs, you may never get to that point.
+
+Edit: The above may sound insensitive. I got piled on yesterday in another similar post that involved men and women and dishwashing. But I can tell you from experience that men generally do well with ownership, and don't do well being told what to do or noticing things that other people think need to be done. If you can't get to the place where your boyfriend is willingly doing more than you expect, then you should aim for splitting the chores in a way that you both think is fair and you never have to ""ask"" or ""tell"" him to do anything. If you're asking or telling, you become a household manager, not a girlfriend, and you should kick him out."
+todayilearned,ffar1js,t1_ffa6mfb,1579742482.0,"And orcas actively communicate and use echolocation.
+
+It would be like a teenager encountering a team of navy seal commandos with night vision goggles and radios. The teenager might get one good attack in, but his doom is certain."
+AskReddit,ffamrbi,t1_ffa7chc,1579739596.0,"I don't think there was anything anyone could do for Kmart. We had one a few blocks from my house and I shopped there for many years. WalMart appealed to the same demographic but was (and is) far more efficient and has bigger stores with more items available. The only disadvantage WalMart ever had was being farther away, but when they started building stores that people didn't have to drive to, that was the end. No amount of investment would have enabled Kmart to compete."
+NoStupidQuestions,ffahgdd,t1_ff9jzsm,1579735827.0,"That depends entirely on who is evaluating the resume. For me, years of experience with a tool means ""years of professional experience, using this tool daily"". If I read a resume that says a recent grad has 3 years of experience with a tool, I assume they mean they first used it 3 years ago and have used it occasionally for class projects since then, which is more equivalent to 3 months of daily use. I'll ask some pointed questions to see which of these is closer to the truth."
+AmItheAsshole,ffae9cr,t3_esfxc0,1579733572.0,"NTA. Set expectations now by deciding now what your price SHOULD be (as a babysitter that they trust) and tell them you'll be happy to start again if they choose. That price ought to be $20 or more, in my opinion, but it's up to you.
+
+They'll likely come to their senses and contact you once they figure out they can't enjoy all that money staying home with a child 24 hours a day. When they look at the going price for daycare and figure out how much a trustworthy nanny is worth, they will think you are a bargain.
+
+After they splurge on cars and a big house, learn that property tax is a thing, and find themselves in hard financial straits again, you'll have to choose whether your price is fair. In no case should it be less than minimum wage, though."
+HomeImprovement,ffa9az5,t1_ffa0akk,1579730394.0,"Drats! Downvoted. Maybe I'm wrong and applying a plastic film really is easier than painting for most people.
+
+The only remaining factor is price. Assuming you have no tools or materials already, you can pay $5 for a sample jar of paint and a brush, $6 for a roll of shelf liner, or $12 for a short roll of window film (they'll tell you to buy an installation kit for $10, but you don't need it -- youtube has tips on this)."
+AmItheAsshole,ffa0y01,t1_ff9a3ab,1579725670.0,"So many hundreds of lessons people can learn the easy way as children, with the training wheels on. It's a shame so many parents take the easy way out and let the kids decide to learn them as adults.
+
+As I write this, I feel kind of bad for my own kids. I'm not a perfect parent by any means."
+HomeImprovement,ffa0akk,t1_ff9y33d,1579725288.0,"I've done all these things (painting, window film, and contact paper). Painting is by far the easiest.
+
+I suspect that's because I've spent many more hours painting things than dealing with adhesive films, and that'll be true of the vast majority of homeowners. If someone is on the fence, the deciding factor should be whether they have a can of leftover paint around."
+AmItheAsshole,ff9xtu4,t3_esd1z8,1579723840.0,"NTA. If your sister didn't want your honest opinion, she shouldn't have asked the question.
+
+People who are contemplating having children should understand what's coming. Each one costs a few hundred thousand dollars and 20 years of attention. Some bring enormous joy and make the world a better place, some bring enormous pain and test you in ways you can't imagine. Some come with lifelong strings attached. Only some of this is under your control. And all of the above is the best case scenario when your partner is around and as devoted to the task of child-rearing as you are. Doing it alone is many times harder.
+
+People who aren't fully committed and ready for these eventualities shouldn't even be having sex."
+AmItheAsshole,ff9sk0d,t3_escpo7,1579720306.0,"ESH for the ""failing to come to an agreement"" part. That's where this all went wrong. There's nothing inherently wrong with Aurora Borealis, but you both needed to agree on a name before the time came. You are in the same state now that you were in several months ago, and this is an important decision. You need to get it right.
+
+But there are much more important decisions coming. Will you teach your child to believe in a religion? To not believe? Will you discipline her? If so, how? Your failure to agree on a name doesn't bode well for these future decisions, which are even bigger and more important."
+AskReddit,ff9ogo6,t3_es8f05,1579717282.0,"Humanity itself, of course. No other threat even comes close.
+
+An asteroid impact will do us in too, but I assume you're talking about threats that we can have some influence over."
+HomeImprovement,ff9o0ou,t1_ff8y0qw,1579717000.0,"Normal latex house paint, interior or exterior. Cheap, trivial to apply, trivial to remove with a razor blade. I don't know why so many comments want to complicate things with contact paper and window film."
+AmItheAsshole,ff7wvlh,t3_es3gkn,1579660273.0,"NTA but why are you only ""threatening to bring in HR"" after 8 months? You should have been talking to HR almost immediately when your co-workers created the problem and your supervisor didn't stop it. They may well be assuming you're making a big deal out of nothing because of your inaction.
+
+When you talk to HR -- as soon as you can set up a time to do so -- be sure to emphasize the fact that production is being harmed by the difficulties your co-workers are causing."
+AmItheAsshole,ff7n7xc,t3_erxd89,1579653586.0,"NTA. This is called mandatory overtime. It's hard on employees, but lowers costs so it's good for business if they can get away with it. The reason they haven't said anything is because they don't have any good options. What will they do, fire you? They need you.
+
+Eventually they may hire more people, or they may come up with a set of employees who are willing to be exploited and fire you. Keep your ear to the ground and be ready to be more accomodating if you absolutely can't handle being let go."
+AmItheAsshole,ff7mcce,t3_es1t6f,1579652982.0,"YTA. Your son will never forget this. Ever.
+
+Your words have an immense amount of power over your children. You MIGHT be able to soften the impact somewhat with an after-the-fact apology. But you can't undo it completely.
+
+On the other hand, maybe your son doesn't care what you think of him, doesn't want your approval, and has already forgotten what you said. If so, you're in even worse shape as a father."
+AmItheAsshole,ff7e6oa,t3_ery4cl,1579647485.0,NTA for converting a euphemism into a conversation about reality. You should define your own living space.
+Advice,ff742ld,t3_erwenb,1579640707.0,"I don't get it. Your dad is in the habit of regularly handing you $5K so you can reach your educational potential. He wants you to call him, but you're not doing it. Is his expectation new? 
+
+Doesn't really matter, though. Call your dad.
+
+There must be more going onhere than a few phone calls. I can't think of any easier way to lay your hands on $5K. I'm a highly paid professional with 30 years in my field, and it would take me several days of hard work to get that much money."
+AmItheAsshole,ff7062c,t3_erso9x,1579638478.0,"NTA, if you have a reasonable basis for asking people not to do something around you, and they keep doing it, you're not the problem."
+AmItheAsshole,ff6wugz,t3_ertpbt,1579636527.0,"I give no judgment because you aren't asking for one.
+
+Send a letter, don't send a letter, it makes no difference. You vehemently disagree with people that you thought were your friends, and you aren't satisfied leaving it at that. You want to have the last word on the subject with Carrie. You know it won't change their minds. If it makes you feel better, go ahead! And bask in the internet's validation of your righteousness."
+AmItheAsshole,ff6kps3,t1_ff5q7gu,1579629273.0,I forgive you
+AmItheAsshole,ff5jyx2,t1_ff5jkil,1579596468.0,"Lots of fun facts there. In my office, the fun fact is that the person whose job it is to clean up the kitchen area when people make a mess of it is a man; and the office manager who calls people out when they make his job harder than it needs to be is a woman. She isn't seen as unhelpful or unfriendly, because she does it graciously.
+
+I understand the statistics you're quoting, but they don't apply to a bevy of grad students. Have you worked in an academic department? I have. The grad students who would get bent out of shape about irrelevant minutiae like dishes would be the type to get judged, and not positively."
+Advice,ff5jh0y,t3_ern7e1,1579595760.0,"Most artists do not make a living at it. I know nothing about paintings, but I do know about music, and it's the same story there: even people who have spent 10-20 years working their heart out just barely survive, and those are the really good ones who have honed their craft.
+
+You need a backup plan. If art is your passion, it's great to pursue it and give it your all. But if the world doesn't respond, do something else. If you think your art is great, you probably aren't delusional. But that doesn't mean it will sell. The market is saturated, and then some."
+AmItheAsshole,ff5id0r,t1_ff5gwh8,1579594233.0,"No, one of the men didn't ""come to help"". One of the men washed dishes, as did all of the women.
+
+What did OP think was going to happen if they merely followed the program manager's directions? Were the dishes going to gain critical mass and cause an explosion?
+
+If you're a woman, and you choose to ""take care of it"", it's you're choice. In actual fact, I'm male and tend to do these unsung tasks because I prefer order. I clean up at work regularly even though it's not ""my job"". If I feel like everybody else is not pulling their weight, I stop doing it myself. And you know what? If the management decides the kitchen is a mess, management assigns the task to somebody or puts up a sign with the expectations.
+
+It's not a woman's place to decide who takes care of what and in what way. It's the venue owner's place. If it doesn't get done, what will happen? The venue will tack it onto the bill. It'll get done. I guarantee they won't stand there and hope some responsible woman will come along and volunteer to do the dishes."
+Advice,ff5hptx,t3_ernu9e,1579593385.0,"If you have social anxiety, I suggest you not go to Subway. If you do, the procedure is as follows:
+
+1. enter the store
+2. look at the overhead menu with many options and variations
+3. someone behind you asks if you're in line. You sort of are, because there's no where else to be, but you can say ""no"" and try to put yourself in a location that allows you to continue reading the menu and figure out what you want
+4. get in line and approach the counter
+5. the person behind the counter asks what you want
+6. Advice: DO NOT ask for the meatball sandwich. It tastes good but is guaranteed to make a huge mess and make you worry about who is watching you make a mess while you eat it.
+7. you read the name of the sandwich off the menu, e.g. ""Cold Cut Combo"". Choose 6-inch or 12-inch.
+8. the person behind the counter will ask you a question. You can tell it's a question, but  due to their accent, it's unclear what they're asking. After some back and forth you understand they are asking what kind of bread you want.
+9. You don't know what your choices are, because they're too small to read. Just say ""wheat"". They're all made of wheat anyway.
+10. They may or may not ask you whether you want it toasted. They may or may not ask it intelligibly.
+11. They'll ask you what kind of cheese you want. Study the menu, or ask them questions while the line behind you gets longer, or .... just say ""cheddar"". If you ask for provolone, you do pronounce the ""E"" on the end, but be prepared for the person behind the counter to not know that or for someone else in line to whisper ""I think it's pronounced provo-loan"" to their friend.
+12. Now the person will want to know which toppings you want. There's a wide array of cut vegetables and salad dressings. Take your time, the people behind you in line can't go anywhere. They'll just murmur louder.
+13. Paying is easy. Just hand over a $20 bill and take your change, and carry your sandwich away.
+
+I recommend Jimmy John's, where you basically say the name of the sandwich you want and they hand it to you about 20 seconds later. Paying is similarly easy. Or go to McDonald's and say ""I want a Big Mac, just the sandwich, not the meal."" There's not much ambiguity there."
+AmItheAsshole,ff5fmbk,t1_ff461e6,1579590754.0,"How did they think cleanup was going to happen? Probably the way it always happens everywhere, somebody takes care of it.
+
+If the venue expected the guests to clean up after themselves, guaranteed that was in the written terms. The program manager read those terms and announced that people should put the dishes in the sink. Maybe that was a mistake (dishes were supposed to be washed, not just dumped in the sink), if so it was the program manager's mistake. They should have called for volunteers to take care of the washing.
+
+In the end, OP went the extra mile and volunteered without being asked, and that's great. Now it's amazing to me that the actual volunteers included both male and female, but at least one of the females still found a way to make this into a ""men are lunkheads and don't understand emotional labor"" diatribe."
+todayilearned,ff50v8u,t1_ff4tsws,1579577221.0,"Don't mistake me, I respect my researcher friends and the work they do, and don't begrudge them taking grant money. But government is about allocating scarce resources, and about choice. You and I just have different ideas about choices. You say ""homophobic"" but what I said applies equally to heterosexual activity and intravenous drug use. Do you remember when it was thought that prostitution was contributing equally to the spread of HIV? My logic applies identically to them. But in the end, the CDC claims [men who have sex with men](https://www.cdc.gov/hiv/group/msm/index.html) made up 70% of new cases in 2017, even though they make up a tiny portion of the society.
+
+I don't blame disease on the people who contract it, unless they knowingly engage in risky behaviors. Then they can't escape all blame. But let's place blame squarely where it belongs: on those who SPREAD it. It's the same logic as frowning at the person who shows up in the office with the flu. The worker may be doing what is in his own immediate interest, but putting the health of many at risk. I blame that person. The difference with HIV is that the disease is lifelong, hugely expensive, and leads to greater harms than the flu. There are still many people in the US who can't afford treatment, as well as outside the US. I don't think borders change the ethics.
+
+Risk-taking behaviors are indeed a part of every person's life. That doesn't change anything about this discussion. A person who puts their own life at risk (a smoker, say) has to suffer the consequences. But we as a society have progressed to the point that we banish them, 25 feet away from the building entrance, and charge them more for health insurance. That is as it should be, is it not?
+
+I do thank you for your considered reply above. Believe it or not, the main reason I'm on reddit is to read other points of view, not just spout my own."
+AmItheAsshole,ff4rl8s,t3_ericew,1579570753.0,"ESH. Your reply should have been obvious: ""You just ate her dinner. You should make her something to eat.""
+Period.
+
+If he wouldn't do that, call a takeout place.
+OP's obvious role here was to teach the child to stand up for herself, by suggesting what to say next time Dad does something like this."
+todayilearned,ff4qpz8,t1_ff46nax,1579570159.0,As if Disney has problems with low park attendance
+Advice,ff4jqaq,t1_ff2vysr,1579565278.0,"All good points, but when I evaluate a resume,  ""I helped with"" and ""part of a team that"" are synonymous. I skip over those items and look for ""I did"" or ""I was""."
+todayilearned,ff4ffcr,t1_ff4ddxe,1579562318.0,Separate comment here to address the idea that the HIV epidemic is a public good for the US because it makes us a net profit. That's just ugly. I've never heard anyone make that point before.
+todayilearned,ff4f8az,t1_ff4ddxe,1579562185.0,"""during the actual epidemic"", you write as though you think it's over. But then you say you're a scientist, so I'll assume you don't believe what you wrote, and meant to write something else.
+
+I suggested you might be one of the people benefitting from the continuing epidemic since you are spending so much energy misdirecting blame. Politicians are partly to blame when they fail to address society's problems, but there's plenty of blame to go around. I prefer to focus blame on those who are actually causing the problem. If you are a man who has sex with men without knowing their (and your) HIV status, the CDC says you're part of the problem. If that fact is homophobic, write your congressman and maybe the CDC will change its story to suit you."
+AmItheAsshole,ff4bo6t,t3_er5v54,1579559843.0,"ESH, sounds like you're both trying to control each other instead of discussing it and coming to a mutual agreement.
+
+Find a time when he needs to be held, then say out loud that you just want to hold him for a while and you'll decide when he needs to be put down or be fed. The response will help you judge whether it's a hormonal thing or a lack of trust. Whatever it is, you need to resolve it."
+todayilearned,ff4au43,t1_ff3bw8f,1579559314.0,"""when this country had the chance to help them"", it bent over backwards, spending billions. I knew more than one person in the 80's and 90's who made a career off government grants to study it. Everyone who cared to know, knew how it was spread. It was a death sentence back then but did people change their behavior? Some did, but millions didn't. Sex and drugs are more important.
+
+If you rooted around in my post history you saw it's full of facts. Maybe you find them inconvenient. Who is still doing more than anyone else in the US to spread HIV? Do you care about facts?
+
+The HIV epidemic has done an incredible amount of harm. It continues. The only ones benefitting in any way are scientists and drug makers. Are you one of these? Is that why you're still going on about Reagan?"
+todayilearned,ff3az88,t1_ff2sweo,1579537655.0,"Asimov was a victim. Ryan was a victim. I'm not blaming them, I'm blaming the perpetrators of the epidemic. Reagan was a criminal in his own way, but he didn't actively do anything. The ones that did knew what they were doing."
+todayilearned,ff3aaz1,t1_ff2pfme,1579537303.0,"Ah, yes, insurance, wherein everyone pays for the mistakes of the few. And that's not even accounting for the massive federal tax dollars spent on the research.
+
+The reality is HIV is very hard to catch. You have to go out of your way to spread it, it isn't like the flu. But some people just can't be taught basic principles."
+todayilearned,ff2n7ir,t1_ff2ln3p,1579514414.0,If I have the $$$
+todayilearned,ff2j877,t1_ff22vi9,1579508582.0,"Thanks also to the army of people engaging in high-risk behaviors before and after Reagan left the scene, producing a preventable epidemic that continues to this day."
+oddlysatisfying,ff26raa,t1_ff1y6a5,1579495404.0,"It still bothers you so you keep at it with the razor blade, then OOPS you put a 3-inch gouge in the finish. Now it's permanently marred, and you have to decide: buy a new fridge, or keep this one even though it stands as a daily taunt?
+
+Of course nothing like this has ever happened to me."
+AskReddit,fetlh7z,t1_fetfzh3,1579376590.0,"Not really. Only other idea, if you're not challenged by your current courseload, would be to look into taking community college courses in your senior year if that's an option. My son's friend did that and, again, freed up space in his university schedule."
+NoStupidQuestions,fet674m,t3_eqgp33,1579372161.0,"Answer: in the US, higher education is a competitive profit-making business where the customers have a lot of choice, while lower-level education is paid for by tax dollars and the customers are captive. So the latter is not well funded except in wealthy places, and the administration is incentivized to do turf-building instead of improving outcomes."
+AskReddit,fet1bfu,t1_fept608,1579370894.0,"Excel at math. Not that you'll use it all (you won't), but great scores in a challenging math program look very good on the application, and if you can use AP to skip actual college courses then you can use the schedule space for more CS courses."
+AmItheAsshole,fepr0aw,t1_feooegu,1579328362.0,"My thought reading it was that he did $100/hr work for minimum wage, just because he could. That's normal for the first time out, but from here on he'll know to offer to improve the process for, say, a few grand instead of giving it away. He might also suggest training one of the workers to maintain it.
+
+Nothing is a sure thing, of course. OP learned some things from this one, and can decide how and when to apply skills in the future. I don't think he did anything wrong but some of the result is unfortunate."
+AskReddit,fep86dd,t3_epzspn,1579314305.0,"When I figured out how adulthood works, I was astonished. There aren't really any rules. The freedom is awesome.
+
+I mean yeah, there are rules and regulations and laws and so on. But those only matter if you get caught, and for every rule or law, there are 10 other things that just don't matter to anyone. You choose what to do and you get to/have to figure it out for yourself.
+
+What are real are *consequences*. Nobody can prevent you from staying up until 5am binge-watching movies, but that has consequences. If you want to buy a motorcycle, just save up and buy one. If you know your mother will have anxiety about it, and you love your mom, then don't. It's your choice. You factor everything in, and you make the choice.
+
+Nobody can decide for you whether you should stay home this weekend and scrub the shower, or drive to Canada and go skiing. Or fly there! Maybe fly there, and not come back until spring. Or meet someone on the ski slopes, get married, and never come back.
+
+I love being an adult."
+AskReddit,fep67ed,t1_feosud5,1579313034.0,"I was a geek before it was cool too. It wasn't awful because I didn't care that much about what people thought. The timing was actually great in the long term, once past the stupidity of the public school system. I got into the computer science department at the university, no big deal, and have had a free ticket in the employment market ever since then.
+
+I could never get into the CSci department now. The kids who get in now, excel in ways I never did. I was just fascinated with technology."
+oddlysatisfying,feozqf8,t1_feo6ca6,1579308922.0,"The hole closes quickly (on the scale of weeks, not hours) if it's a lawn. That's pretty much what turf does, it will span a gap like that easily and fill it in.
+
+I have a tool like that (not Fiskars, a cheaper one that I like better) and I go to town on the weeds. The only thing I ever do with the voids is drop a pinch of grass seed in the hole if it happens to be in a bare spot."
+programming,feod90s,t1_fenyzrl,1579298564.0,">you should step aside
+
+Isn't that what he did?
+
+Treat people who are doing work for free like a punching bag, and that's what they tend to do."
+AskReddit,feo52y6,t3_eq1wzh,1579295234.0,"It's a pointless question. I could be perfectly happy for the afternoon if I left work, spent $5 on a tub of ice cream and a spoon, and read my library book for a few hours. There would be no repercussions at all.
+
+I think you're asking me what would it take to make me PERMANENTLY happy, and there's no answer to that. It's not possible."
+todayilearned,fenfod6,t1_femh43n,1579283681.0,"What I don't get is the ""made his own epoxy"" thing. Epoxy isn't glue. The commercial ones aren't made from hooves, they're synthetic polymer resins. Did he really make epoxy, or is the post title just confused?
+
+I'm tempted to search for ""unabomber homemade epoxy"" but I don't think I want that in my google search history."

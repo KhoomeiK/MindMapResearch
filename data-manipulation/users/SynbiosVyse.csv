@@ -1,0 +1,132 @@
+subreddit,self ID,parent ID,time,text
+thinkpad,ffh88sh,t1_ffh6zh9,1579925920.0,Modern Intel CPUs have been plagued with power issues on Linux for a while now. It took years for Skylake's C-states to be properly supported.
+thinkpad,ffh3gsn,t1_ffgt44c,1579922081.0,"Why not look at some AMD thinkpad models? AMD seems to be a first class citizen on Linux, unlike Intel and Nvidia."
+redhat,fffqfix,t1_ffdaixk,1579889558.0,This seems like it's a more common scenario. I wonder if there's an upgrade path from 6 to 8 with skipping a release. Probably not as for most migrations it probably means setting up comparable services on a whole new machine for a replacement. Our 7 stuff is not going to get touched until it goes EOL. 10 yr support cycles is part of the motivation behind using RHEL.
+datascience,fffq112,t1_fffjahe,1579889308.0,"My two cents, committing ipynb is a pain. Git seems to have trouble with tracking changes because it's a complex structured file. I much prefer plain text files like py so they can be browsed and also easily uploaded onto clusters for computing jobs or called straight from bash. I could be totally biased since I never use Jupyter notebooks."
+boston,ffeaz0r,t1_ffdgjfo,1579841690.0,Space savers are just a courtesy. You can move them if you really need a place to park. Very few people are low enough to key your car.
+personalfinance,ffc8657,t1_ffbhbfm,1579793748.0,"Consider taking out a loan on your 401k. The terms are a lot more favorable than student loans, it might be a better alternative than selling your house too."
+nova,ff9khbn,t1_ff9hi5m,1579714913.0,"BMW, probably."
+redhat,ff8y5rl,t3_esbbw5,1579699847.0,"I would use dmesg to look at the kernel related logs since boot. For user creation and others, you'd have to check those specific logs I think."
+matlab,ff8x0eu,t3_es3w2v,1579698852.0,The resources students have these days is immense. When I was learning this all I had was my textbook and some notes from my professor.
+personalfinance,ff5vvoq,t1_ff4o1zv,1579612018.0,I used to have cards that actually said atm card on them and they didn't have the visa or mc logo. They haven't been offered in years though.
+personalfinance,ff4pa0t,t1_ff39z63,1579569163.0,"I see this a lot. Maybe it works for you and some people but I found it pretty bad advice for myself.
+
+Edit: I am more frugal than this technique suggests. If I used this technique, I would buy a ton of superfluous things."
+datascience,ff4omlu,t3_eripqb,1579568705.0,"How is your pay now compared to when you started? It's good to do a little bit of research by asking around and checking salary sites. However, numbers can vary greatly depending on not only location, but industry (nonprofit, finance, hospital, etc). Most places give about a 3% COL raise per year so you could aim for 5-10%. Otherwise you'll need to start applying and get another offer.  
+
+
+Search around advice on how to ask for a raise, there are tons of resources for that even for shy people."
+LifeProTips,ff4myd9,t1_ff4f07e,1579567522.0,Your left.
+LifeProTips,ff4mxe4,t1_ff42xvj,1579567503.0,"It is jaywalking btw, jay was a derogatory term for country folk back in the day. The idea was that ""jays"" didn't know how to cross streets in the city properly."
+datascience,ff4geah,t3_erdwff,1579562976.0,"What you're looking for is Apache Drill. Start the embedded engine and then do a SQL query on the  tsv file. You'll get it going in 10 minutes.
+
+If it's too slow (20TB is pretty big), you can eventually distribute the files with HDFS and/or distribute the query engine with more Drillbits."
+datascience,ff2q17c,t1_ff2fotf,1579518732.0,"Production does not mean everything that's not a Kaggle exercise. There are development/prototyping systems, after which algorithms get pushed up to production."
+datascience,ff22wgo,t1_ff226v3,1579492334.0,Interesting I never had a query more than a few dozen lines (at the PEP8 80 char limit per line) but I guess I could imagine it.
+datascience,ff1y9uk,t1_ff1oe7f,1579488951.0,I could be wrong but it doesn't really make sense to me why you would do multiple queries and then join later. You don't save any memory by loading datasets simultaneously and performing a join.
+todayilearned,fextxj1,t1_fex6r2f,1579436203.0,"Hollywood Video was pretty big, we also had a slew of mom and pop shops that were good."
+debian,fextteg,t3_eqtgjk,1579436083.0,Probably laggy because you're using noveau. Nvidia-detect and then install whatever it recommends.
+movies,fexo1rw,t1_fewz9nd,1579433824.0,That original boxset costs hundreds now after people realized what was in it.
+RealEstate,fet3qfc,t3_eqhzh3,1579371533.0,Do you want to live in the town? It shouldn't matter what happens to the houses around you unless you're looking at this for an investment property or flipping.
+matlab,festae6,t1_fes5fhu,1579368822.0,Is MATLAB appearing in the Playback tab in pavucontrol?
+matlab,fepjyjs,t3_eq9zao,1579322449.0,"If you're using pulseaudio, install pavucontrol and use that. 
+
+While the sound is playing in matlab, open pavucontrol and change the output to desired."
+thinkpad,feph51n,t3_eq95fe,1579320366.0,Debian stable.
+thinkpad,feph4es,t1_fepadhq,1579320353.0,Scientific is discontinued. You can use Centos 8.
+thinkpad,fepg8vt,t3_eq9jv9,1579319729.0,"You should be able to check the FRU, no? Usually FRU are different between manufacturers."
+datascience,fepf15l,t1_fep1wox,1579318876.0,"Indeed. I just want to point out:  
+.loc is inclusive:inclusive, .iloc is inclusive:exclusive (standard python)."
+datascience,fepdsl2,t1_feowur5,1579318029.0,"Most positions get hundreds of applicants. While there's a lot of openings, there's a lot of competition."
+washingtondc,fep66sk,t1_fep1116,1579313024.0,I've been saying this from the very beginning. 5A was underrated.
+linux_gaming,fencutp,t1_fen4x6x,1579281964.0,"i3, Celeron, Chromebooks have a variety of CPUs, really. Chromebook Pixel even had up to an i7 but it's been discontinued."
+linux_gaming,fencp75,t3_eq1chc,1579281868.0,"Thanks, but no thanks."
+boston,fenb4pe,t1_fen1x17,1579280903.0,"It is overwhelming, it has 7-week courses. But it has the advantage of the name."
+boston,fempo0s,t1_fempbmd,1579265877.0,What's the bad connotation?
+todayilearned,femp92y,t1_fem7zdw,1579265480.0,Yes but nobody is arguing freight. We're talking about passenger rail.
+boston,fem2ujw,t1_fegk0s0,1579237921.0,I got so confused because 753 South closed down years ago. I see there's a new place there now and retained the old name.
+boston,fem2jx6,t1_fegrdaz,1579237651.0,"It's just like going to a bunch of car dealerships. You see all the latest cars and get to sit in them and check them out. There's not too many supercars, but a few. Mostly typical Volvo, Chevy, Ford, etc. They might have their top of the line models but plenty of regular stuff too."
+boston,fem28s0,t3_ep2wvh,1579237368.0,"WPI is the most rigorous of the bunch mentioned. UMass Amherst is the best value.
+
+Apply to 7 schools or so and see what kind of financial package they get. Student loans is a critical factor nowadays.
+
+Here's my anecdotal rating for comp engineering: MIT, WPI, BU, Amherst, NEU, Wentworth, Lowell."
+todayilearned,felxgor,t1_felulyi,1579233397.0,"Not really. Nobody wanted to be in the passenger train business in the US. The only major player is Amtrak which is government run, because it's not profitable. If it were private it would literally be unsustainable outside of the Northeast corridor. These 3-day train rides from Illinois to California have profit margins close to -$1000/passenger."
+thinkpad,felwxzc,t1_fel3vqx,1579233012.0,Not really now that eink exists. Best bet is probably the Remarkable or something similar.
+debian,felgn8t,t1_felf8lc,1579221722.0,You shouldn't have to run a browser with sudo.
+bestof,feim65k,t1_fehez5x,1579141775.0,That sounds pretty atypical of the North.
+washingtondc,feik8m4,t1_feh769z,1579140465.0,But all the bums...
+matlab,fei50so,t3_ep8kv5,1579130426.0,That's going to depend on the algorithm you want to implement. Can you rephrase the question?
+thinkpad,fei41rr,t1_fehoff8,1579129813.0,VGA supports up to QXGA: 2048x1536
+boston,fei3iym,t1_fehxir4,1579129482.0,It was awesome. I think it closed basically on 9/11 and never reopened.
+datascience,feh8a72,t3_ep3ida,1579111206.0,"Google hasn't open sourced their most powerful technology, like Dremel. In fact most things you think of Google opensource were acquired by Google and were already opensource, like Android."
+nova,feh81il,t1_fegx0jb,1579111068.0,"No the term accident doesn't imply that it's unavoidable. Accident means it's unintentional. If an accident was caused by human error that doesn't mean it was deliberate. 
+
+You either crash something on purpose or by accident. Unless the driver intentionally crashed into the truck, this was an accident."
+VFIO,feh6tfc,t1_fefqix0,1579110352.0,"It seems like your problem has little to do with passthrough, and more to do with configuring your main machine properly."
+VFIO,fefn632,t3_eoso2t,1579059967.0,"Your question is very confusing to me. In the title you're asking if you can run CUDA in the host and in the body you're using it in the guest.
+
+If you're doing passthrough and you have 2 GPUs you should be fine though and use it in both. If your VM is setup, why would you have to set it up again if you change the host?
+
+Are you using conda to manage everything? It should manage cuda for you to match your nvidia driver version."
+thinkpad,feexhjn,t1_feegajv,1579043352.0,Probably a mistake. It would be listed in the PSREF as a configurable option. You could check there.
+thinkpad,feef15l,t1_fee7qqd,1579032415.0,Yeah I wish Lenovo would make a screen like that. Plus the new XPS has a 16:10 screen making it even better. We can only dream.
+thinkpad,fee4h6q,t1_fee2sdt,1579026207.0,"That's correct. That's why the Dell XPS is praised for a 3200x1800 screen. At 2x scaling its 1600x900 effective with a 13.3 inch screen. Nice!
+
+The MacBook is 2560x1600 which results in 1280x800 on a 13.3 inch at 2x. A little too big for most. Their algorithm is good for fractions, but it uses a lot more GPU power to compute those fractional cases. On windows and Linux, it usually results in some bug somewhere along the line: blurriness, a button that doesn't look quite right, etc."
+thinkpad,fedk3jx,t1_fectgwy,1579013520.0,"Anything other than 2x scaling could result in blurriness, but there are some good algorithms nowadays to deal with fractions."
+datascience,fecauj9,t3_eodp8m,1578969792.0,"You might get more bites on /r/dataengineering
+
+I haven't used either extensively. But potential OS differences come to mind."
+thinkpad,fec9n8y,t3_eoag5u,1578969125.0,"I talked about ppi here cardiacmap.com/ppi
+You obviously like the original PPI target of around 125. A 14 inch FHD has a PPI of 157, so that's actually pretty high.
+
+It's perfectly fine to switch PPI depending on your distance and what you're doing. You could also use 100% and increase font."
+personalfinance,fec7zj2,t1_fec2wl0,1578968231.0,"No, citi gives cash back on the payment. Not many cards do that."
+todayilearned,fec65fv,t1_febn0ca,1578967278.0,"Quite a few people is still less than 10% of the population. So, not really."
+boston,fec4lr2,t1_fe972kn,1578966570.0,"No, just a bad use of ""old"" as an adjective. Lots of confusion in this thread."
+thinkpad,fe6ewka,t1_fe6bszh,1578888848.0,"As ibmthink pointed out, they can't put AMD CPUs in the Carbon."
+RealEstate,fe5vzvi,t1_fe5771h,1578876187.0,"It's not stealing legally. Either party on a joint account could empty the account. This is a bad situation to be in, she needs to remedy this."
+Cardiology,fe5ul6x,t3_engfr2,1578875293.0,"Classic Salama with optical mapping. Nice mechanistic study here, the role of Wnt signaling beyond development is not well known."
+todayilearned,fdzfhfo,t1_fdxqqho,1578789689.0,It's still Washington's birthday on the federal level.  President's day is a colloquial term.
+boston,fdwm05d,t1_fdv7lv0,1578760070.0,"Well that's government regulation for you, it was law. Ride sharing found a loophole in that law."
+washingtondc,fdvw60t,t1_fdsnmxa,1578752320.0,I only use the schedule if I'm leaving a station. If I'm headed to a station then use a tracking app like DC Metro Transit. Once in a blue moon there's a ghost bus but it's pretty spot on.
+RealEstate,fdtkews,t3_emzjak,1578718033.0,This sounds legit. No realtors is advantageous to both parties. Why does that make you concerned? Realtors help you find a place and you already found it so you don't need one. Nor does the seller need one to find a buyer in this case. Get your own lawyer (don't use someone from your landlord's recommendation).
+boston,fdtfwrv,t1_fdr7ebh,1578716180.0,"Why do you think uber and lyft are so much cheaper than taxis? They found a way to function as taxis while avoiding buying a hackney carriage medallion. Well of course they're going to be cheaper, they are paying less taxes."
+LifeProTips,fdte2j4,t1_fdslj31,1578715437.0,It's not advice at all. It's not a LPT.
+thinkpad,fdtd6a2,t1_fdsetsv,1578715077.0,"You mean buy a shallow keyboard, no trackpoint or clickers, crappy hinges, and slippery/easily-dented aluminum? I mean their only saving grace right now are stock Linux and 16:10 screens on the new models."
+movies,fdtclgg,t1_fdsseu4,1578714843.0,The point is that the first one was supposed to be a standalone movie. Fast 5 is a good movie but it's totally unrelated and lost the street racing atmosphere.
+science,fdsr9p8,t1_fdshl82,1578706915.0,Correct
+thinkpad,fdspeql,t1_fdsg7fo,1578706232.0,"Both screen and heat issues can be solved stock. My T480 has the WQHD and nvidia card, which brings it dual pipes. It's the GOAT indeed."
+DSP,fdrh6d3,t1_fdr36lc,1578684513.0,I thought that was Stephane Boucher?
+thinkpad,fdpjsff,t3_embw0c,1578630551.0,I accidentally stepped on my T480 and it was fine. I have felt the T460s in person and do like the magnesium bottom which is just like my X62s. However the X62s has a magnesium lid as well which I don't think any model has had in a very long time. Eitherway you can't go wrong unless you buy an E series.
+DSP,fdp7bsi,t1_fdool96,1578621690.0,I also took a course in continuous time systems and another in discrete time systems before going to digital signal processing.
+datascience,fdoy3fh,t1_fdot065,1578615516.0,Pandas was never supposed to be what it became. It was a quick and dirty way to get dataframes like R. It came in at the right time and stuck.
+technology,fdm8r6a,t1_fdk3c7c,1578542612.0,This sort of thing happens all the time. Bill Clinton gave a talk at a cardiology conference. Michelle Obama went to Nascar.
+personalfinance,fdlyxwr,t1_fdlqlms,1578535830.0,You can apply for tuition remission tax exemption. There are a few scenarios like you described where it would be exempt - for example if your job is conditional on being a student (like if you're a PhD student) or if the class you're taking is directly related to your job (some research job where you're taking a class in the same subject).
+LifeProTips,fdkoo4m,t1_fdkixmu,1578507950.0,"Seriously. The terminology ""close out"" a tab really describes a bar tab. If they said ""close"" a tab I would have initially thought differently."
+IAmA,fdko8l5,t1_fdkmoja,1578507691.0,This description is astonishingly accurate.
+Cardiology,fdiq6cf,t1_fdhwa54,1578448561.0,"Recent site I found is drugbank.ca
+
+They offer a free service in the hopes of advertising their AI services. Eitherway it's a cool website because you can look up any drug and look at mechanisms and side effects. It even sometimes has listed the specific ion channels that are affected."
+movies,fdipaah,t1_fdifukj,1578447991.0,That's exactly right. The whole movie is about his pursuit but never accomplishing it.
+datascience,fdicyc4,t1_fdhep7d,1578440079.0,A lot of people just don't use Git properly. I once made a PR and the maintainer pulled in after 2 years of no activity. This was a lightly used package made by a prof and their group at a top university.
+todayilearned,fdgm4ch,t1_fdgfq99,1578401931.0,Europe was considered a continent hundreds of years before plate tectonics were discovered.
+linux,fdgl9dc,t1_fdgeqaa,1578401113.0,Not really. You can use proprietary blobs in FLOSS to distribute things like that. This is all about money.
+dataengineering,fdfjdds,t1_fd87yac,1578363074.0,This is nuts. 500 million new rows per day?
+todayilearned,fdffquz,t1_fdei8s9,1578360647.0,It's not just the calories that would kickstart a heart attack. It's the level of salt throwing off homeostasis.
+bestof,fdefywt,t1_fde9ils,1578338190.0,"If Democrats enable the war machine too, why are you calling it a ""Republican"" war machine?"
+debian,fdef6vb,t3_ekxrbc,1578337702.0,I cringe for the day Python 4 is announced.
+askscience,fde2ljt,t1_fdcu4b2,1578329774.0,The observable universe is spherical from our point of view.
+todayilearned,fdcwszv,t1_fdc3475,1578286613.0,I wish I learned these useful languages. We started with Scheme (a dialect of LISP).
+technology,fdcwfw8,t1_fdce9jz,1578286300.0,Who in their right mind wouldn't? It's free and the quality is great.
+thinkpad,fdcw4ed,t1_fd8vm8u,1578286025.0,I have used 3 for a while and it's overkill too imo. The amount of neck turning to actually utilize all 3 across is crazy. I end up using just two next to each other most of the time. 2 is perfect.
+linux_gaming,fdcvp2w,t1_fdcnqxv,1578285663.0,It's just whenever you get the steam hardware survey. It's random.
+todayilearned,fdbdvy5,t1_fday7b4,1578256447.0,Well that would be like trying to sneak a fake bomb through security just to test it. I don't think you would have to do such experiment. Fabricated data could easily get published.
+todayilearned,fdadpki,t1_fdaa6uc,1578244908.0,"Data itself is not actually peer-reviewed. Only until recently has it been even an option to share the raw data. Even then, there's not much you can do to validate it beyond reproducing the data yourself experimentally.
+
+The whole peer-review process is dependent on a level of trust that what the authors are reporting is true. Do the methods look sound, data is plausible, experimental variables tested correctly using scientific method, and interpreted with reasonable theories? Accept."
+RealEstate,fdabkfc,t1_fd80t00,1578244171.0,What state is this? I've heard similar things in Texas but it seems like not every state/county allows such things.
+movies,fd6j13b,t1_fd6bv12,1578191785.0,"Requiem, Wrestler, Pi, and The Fountain are all masterpieces. I didn't really like Black Swan but it was decent. I forgot about Noah though; I'm not sure which is worse, Noah or Mother."
+boston,fd5qjts,t1_fd5cwhi,1578180360.0,How do you even inch up?
+linux_gaming,fd5d9bt,t1_fd4zl4k,1578176475.0,I think ghosting is my problem. I'm using a X220 thinkpad with an NMB keyboard.

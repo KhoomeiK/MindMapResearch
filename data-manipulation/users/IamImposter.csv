@@ -1,0 +1,61 @@
+subreddit,self ID,parent ID,time,text
+ProgrammerHumor,ffeuwgo,t1_ffegle8,1579866594.0,*chuckles*
+ProgrammerHumor,ffeuu4z,t1_ffer33a,1579866517.0,You NEVER do this on Friday. Now sacrifice a virgin to pointers.
+AskReddit,ffeu7lj,t1_ffestem,1579865731.0,Me when wife looks at me with horny eyes.
+MetalMemes,ffeqrc9,t1_ffepout,1579860850.0,"He he. Look ma, I'm a sportsman. 
+
+*plays air-guitar*"
+dankmemes,ffen2cy,t1_ffd6ayu,1579855287.0,We're men of wealth and taste
+memes,ffek251,t1_ffehaoo,1579851266.0,Or sister's wife
+meme,ffe5s27,t1_ffddlee,1579837441.0,My finger does many nasty things but not this one.
+MetalMemes,ffcb8oy,t1_ffc3pe2,1579795696.0,"I DIE, TO BECOME IMMORTAL"
+WhitePeopleTwitter,ffca5g4,t1_ffc3gx4,1579795011.0,Ah man. Those posts are funny as hell.
+ProgrammerHumor,ffc4od6,t1_ffbvt3z,1579791444.0,Too Dutch to be furious
+memes,ffbdids,t1_ffb252b,1579760728.0,Nah. Doesn't really work.
+RoastMe,ffbbt42,t1_ffas1lc,1579758877.0,"Huh. That's nothing. I'm 40 and I can't get my dick up if my life depended on it. 
+
+Feeling better yet?"
+meme,ff94k2c,t1_ff92xz5,1579704679.0,"I don't know man. There are just too many with such names- yes, no, maybe, perhaps. It's kinda getting irritating."
+memes,ff8dcbr,t1_ff8cpxo,1579673789.0,3%
+dankmemes,ff8chbg,t1_ff8be90,1579672881.0,Nah. You need atleast 3 more.
+meme,ff8c1tm,t1_ff8b0kt,1579672440.0,Damn! You set me up real nice for that. Well played.
+meme,ff87vvw,t1_ff87u7r,1579668536.0,I'm serious bro. You're doing it too much.
+meme,ff87tbq,t1_ff86bvu,1579668475.0,Fuckin stop it already
+ProgrammerHumor,ff85h3w,t1_ff7zc79,1579666525.0,"Instead of sorting, you promise to build a temple and rule your program."
+meme,ff85al9,t1_ff82l5s,1579666382.0,"""Fuck"""
+cpp_questions,ff706b0,t1_ff5y12n,1579638482.0,"Have you looked into OpenCL? It can do matices easily on GPU. Disadvantage is that you need to maintain separate source file, there is extra biolerplate code that goes into invoking kernels (opencl functions) and debugging is difficult as computation is happening on GPU. 
+
+Then there is TBB (intel's thread building blocks) which makes multithreadong quite easy. There are other intel libraries like MKL (math kernel library) which does math stuff. Though I haven't used it personally. But I have used opencl and tbb and they are good. 
+
+Then there is CUDA but it works only on nvidia gpus and you need specific compiler for it. Advantage is you can have your c code in the same file as cuda code so you don't have to maintain separate source file."
+memes,ff6yqiz,t1_ff6bvve,1579637639.0,I'm 3/4th of a male giraffe then
+memes,ff6c3bv,t1_ff5z9pq,1579623940.0,Who's ready to get silly?
+dankmemes,ff6bu10,t1_ff63i9g,1579623775.0,To restart it.
+memes,ff65oep,t1_ff5k3of,1579619739.0,"You're a good commenter, thank you."
+memes,ff5l2sx,t1_ff5isqv,1579598081.0,"""Hey kid, you're Batman now"""
+dankmemes,ff5kur2,t1_ff54qo5,1579597747.0,Try and try again until you succeed
+dankmemes,ff5ktll,t1_ff542um,1579597700.0,"I date girls who haven't formed memories yet. And yes, it doesn't leave a lot of choice for age."
+MetalMemes,ff5kkxu,t1_ff4q31l,1579597354.0,Yup. His real name is Timmy
+memes,ff5k45e,t1_ff5cgoo,1579596675.0,Exhibit A - myself.
+facepalm,ff5jihk,t1_ff4oneu,1579595819.0,That's a complex sentence
+DarkJoke,ff5e2n5,t1_ff4a49h,1579588963.0,Right after I tickle you.... in tents.
+memes,ff5dw8k,t1_ff54h6k,1579588769.0,Honk-honk. Hooooooooonk. Abe side ho.
+WhitePeopleTwitter,ff5dl3e,t1_ff5993v,1579588429.0,"Water and soap do a pretty good job for hands. 
+
+And it's not like you wipe with dry hands. Pour water as you are wiping. It cleans your ass as well as your hands."
+ProgrammerHumor,ff3y8da,t1_ff3b7bp,1579551459.0,"No bluffing there. I'm gonna find a woman, produce a child and respond back in 9 months."
+cprogramming,ff3rfey,t3_erhk03,1579547237.0,"What is value of n when you define arrays a[n] and b[n]? You haven't initialized it. 
+
+If you want to use VLAs, you need to define them after you get value of n from user. So first do your scanf and then do int a[n], b[n].
+
+Are you expecting user to enter single digit followed by enter? What if user enters
+
+123
+
+456
+
+789
+
+Are you gonna reverse it as 789 456 123? 
+
+If your purpose is just to display numbers, you don't need to reverse-copy a[] to b[]. You can just print the numbers right there in reverse order."

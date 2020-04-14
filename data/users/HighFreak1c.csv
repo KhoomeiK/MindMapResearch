@@ -1,0 +1,267 @@
+subreddit,self ID,parent ID,time,text
+science,ff82mf1,t1_ff7996r,1579664356.0,Does that include profiteering CxO's that think more about their bottom line and have more influence in steering the direction of the business than a scientist with good intentions?
+science,ff6w9rp,t1_ff6oquh,1579636189.0,I would wager it's far more profitable to treat cancer in an ongoing means via status quo than cure it. I'd be willing to bet big pharma is pretty keen to not have this go mainstream.
+CuteLittleButts,ff6vw3l,t3_erhg35,1579635961.0,Grabbing ass in public is probably a pretty good way to end up in a lawsuit.
+BattlefieldV,ff63ymi,t1_ff6083o,1579618538.0,What are you doing on Reddit? Shouldn't you be pretending to run a country while you're actually golfing at your resort?
+Fitness,ff62akb,t3_erig97,1579617327.0,"Looks like you just waxed your chest? I see no difference in those pics.. But good on you, I guess.."
+powerwashingporn,ff61le3,t1_ff5xjhg,1579616805.0,Pressure.
+motorcycles,ff60esa,t3_erkqol,1579615900.0,"*squints at tiny, forced portrait video*
+
+... could you not just post the raw video instead of a screencap of you watching said video?"
+meraki,ff5fvop,t1_ff56z71,1579591078.0,"I don’t think OP is much of a networking person to be honest, but at least his ethernets carry gigabytes."
+meraki,ff5ftax,t3_erodl3,1579590995.0,"If you have gigabit fibre that MX is going to absolutely shit the bed. Plus, licensing is ridiculously expensive and your network is a brick with out it.
+
+Rip and replace."
+funny,ff3phdm,t1_ff3ji0o,1579546048.0,Instant dopamine response.
+toastme,ff3p1pg,t1_ff3nqey,1579545784.0,"I would generally say this is nearly always the case. Looks can start a relationship, but a personality keeps it going.
+
+Edit: spelling"
+meraki,ff3o0va,t3_ere5k7,1579545153.0,You basically can’t - MX has no concept of app-id/app-ctrl like a PAN or FortiGate. Just another drawback 🤷🏻‍♂️
+Fruitarian,fepvlnd,t1_fepvjd0,1579332893.0,"It came up as a suggested sub in my feed.. Thought it sounded like a joke, so clicked out of curiosity."
+tooktoomuch,fepv5x5,t3_epzj10,1579332440.0,Seems fake/gay.
+Fruitarian,fepv1pw,t3_eq9ccb,1579332318.0,"I'll come right out and say it, this seems retarded."
+fortinet,fep7eqv,t1_fep6brg,1579313811.0,"Yeah, not sure what he’s smoking but Cisco certs certainly aren’t free."
+goddesses,fekjtno,t3_epi8l3,1579201542.0,Mmmm... This photo reminds me of a sugar covered donut.
+Ubuntu,feja2na,t3_epeegx,1579163577.0,"Just saying, but you probably could have just installed a fresh copy of Win10 without any vendor bloatware and have it run just as fast."
+WTF,feiu4jz,t3_epcflk,1579147268.0,Nice.
+meraki,feityen,t3_epaliw,1579147139.0,"> IPS/IDS capabilities 
+
+Just FYI, I probably wouldn't be too confident here. When the MX was tested with Ixia's BreakingPoint Strike Pack it managed a 15.4% *block* rate (84.6% *allow* rate). Given this I would say it's not really even worth enabling given the performance penalties and lack of ability to apply it in any granular fashion whatsoever."
+fortinet,feibom8,t1_fei7tq1,1579134748.0,">\#4 Couldn't agree more - My fav director, really great guy told me a story about a decent engineer he had to fire not because he screwed up but because he tried to cover it up and lied about it. ""I'll trust someone more if they own their mistakes because I know they wont make the same mistake twice.  But someone who lies about it will lose my trust forever""
+
+Well summed up, I couldn't have said it better myself.
+
+In addition to that, I used to (technically) lead a team of several network engineers -- the best ones were those who:
+
+1. Had Googled and checked KBs before asking something.
+2. Had a clear and succinct explanation of the issue and what they'd tried thus far.
+3. Expanding on the answer given themselves, where needed.
+4. Never asked the same question twice.
+
+The best part about that type of role is giving someone the breadcrumbs they need to help themselves versus giving them the answer outright."
+fortinet,fei5xob,t1_fei1juo,1579131000.0,"I would say it's situationally dependent. The biggest benefits for us in this scenario was the lack of downtime. Initially I'd suggested we do it the good old fashioned way, but because it's a pretty critical environment we were having a hard time getting approvals to need the full hour or so to reboot over and over again. Not doing it in the lab first would have also been risky as we'd need to pause to resolve any configuration errors and we had no idea to what extent those would impact us.
+
+Granted we didn't do full testing in the lab (e.g. pushing simulation traffic through the device) it was enough to give us a good idea of what needed to change. We were worried about things like IPSec VPN PSKs and OSPF/BGP passwords -- turns out only the latter were impacted.
+
+The other challenge with this situation was that it's actually a geographically separate cluster spanned between data centres using a L2 link. Myself and another engineer had to physically attend both sites. The master was restored using the config, then the secondary was factory reset - configured with the bare minimum HA config and allowed to sync with the master. There were also underlying, managed FortiSwitches that needed to move from v3.4.0 to v6.0.6 which I thought may be difficult, but we just upgraded them after the firewalls and all turned out okay.
+
+Honestly, I quite like this approach and will be using it in future assuming we have an identical unit we can use to do it on the bench before touching production. I will say, from what I've seen it's quite rare to have core firewalls that far behind in FortiOS versions."
+meraki,fehx0nf,t3_ep2zwj,1579125548.0,"If I were you I'd just use the SSL-VPN instead of IPSec client-access.
+
+&#x200B;
+
+.. Oh, wait."
+fortinet,fehtsje,t1_fehthil,1579123720.0,"The 200E should cover this off, even with a decent chunk of the UTM suite applied. However the only thing that I'd be worried about would be the sheer number of users. 
+
+If budget allows, I would steer toward the 400E. Give the 300E a miss as I believe the 400E is similar but with a better processor. Same with the 600E vs. 500E, the price differences are minimal."
+fortinet,feht1k9,t1_fehlpwf,1579123299.0,"Confirming that's a hard ""B"" -- as in, mega**bytes** (MB/sec) per second, not megabits (Mbps)?"
+fortinet,fehlvdi,t1_feh1lbf,1579119187.0,"Yep, same here. This is currently how we're rolling out FAZ/FMG in to customer environments. We build FAZ/FMG on 6.2.3 and use FortiOS v6.0.8 on firewalls.
+
+There are lots of nice to haves on v6.2, especially if you have IoC licensing on FAZ but I wouldn't trust FortiOS v6.2 on firewalls yet in a strict production environment. That is to say unless you have a definitive business requirement for a feature that doesn't exist otherwise."
+fortinet,fehlfqq,t3_ep5in5,1579118931.0,"You need to advise what the bandwidth of the attached circuits will be. ""Unlimited"" is not very helpful in this regard.
+
+Check the data sheet for the 200E and match up the numbers to see if it fits. Depending on your sum-total of bandwidth to be protected, with 400 users and 800+ devices I would say the 200E is likely going to be undersized. I'd look more toward the 400E, or the 600E if you want 10Gbps interfaces and headroom."
+fortinet,fehl4y1,t1_fehfam7,1579118759.0,"Yeah, this is probably your best (or only) option."
+fortinet,fehklmv,t3_ep5xlw,1579118450.0,"The IPv4 policy only applies to ""through the box"" traffic. Traffic that is destined ""to the box"" is not subject to this. The policy shown in your attachment will have no affect on clients trying to sync to the FortiGate interface IP via NTP.
+
+You can use the GUI options to enable view of the ""local in"" policy, which will filter traffic ""to the box"". However, if you enable NTP on the interface under ""System -> Settings"" then the firewall will listen on UDP123 without you needing to configure anything else."
+fortinet,fehkalc,t3_ep7epp,1579118275.0,"I'm relatively certain you can just delete the default FortiLink interface and use these as normal ports (LACP, if you like)."
+goddesses,feewu5k,t3_eoojfv,1579042938.0,"Oh hey, this photo again."
+meraki,feemdsg,t1_feeiz45,1579036688.0,"Most people get a firewall, a switch and an AP via these webinars."
+meraki,feel6o9,t1_feekm3k,1579035991.0,"Yeah, absolutely. Given the impending rarity of v4 addressing you'd be silly not to, especially if there's no cost differential. At worst it gives you a second IP to NAT inbound or hide guest traffic behind, etc.
+
+v6 will be a lifesaver here. I laughed when I first set it up and got assigned a /48 prefix. All 1,208,925,819,614,629,174,706,176 addresses worth for a small home network."
+meraki,feekelj,t1_feedlae,1579035533.0,"Without knowing your specific use case or in-depth info around sizing, have a look at a FortiGate-60F or potentially even a FortiGate-100F (given your statement below around 10x 150Mbps connections). The latter will be especially relevant if you plan on running any security services over those circuits (AV/web-filtering/app-control/IPS/WAF, etc.).
+
+Alternatively, Palo Alto will have similar offerings that will do as good a job (if not sometimes better) in all areas, with the exception of price:performance ratio.
+
+I made a [previous post](https://www.reddit.com/r/networking/comments/det0yh/meraki_rant/f2zcilr) summarising some of the unique shortfalls of the Meraki MX that may be relevant."
+meraki,feeje7m,t1_feeh3px,1579034950.0,"Interesting -- all of them, or just MX specific deployments?
+
+I guess that's good for a greenfield build, but for the majority of our projects we are replacing and not building fresh. We (and the clients we implement on behalf of) have felt the burn on this on multiple occasions.
+
+The fact seems to be almost all INET links I see in the field come with a /30 linknet range (which the customer commonly uses extensively for inbound NAT and almost exclusively for outbound PAT) with any additional public IPv4 subnets ranges routed toward the CPE end of the tail by the ISP. I needn't explain to you as I'm sure you know, but for anyone else reading it makes any ability to change away from this whilst retaining existing addressing difficult. Suddenly you also need extensive involvement and changes from the ISP during a cutover window (interface addressing and routing changes) instead of literally just a cable swap to a pre-configured device that runs ""proper"" high-availability.
+
+Preaching to the choir though as I know you and I tend to agree on these types of points. It's not the first time we've commented on the same posts saying similar things😅"
+meraki,feedi9r,t3_eoq75p,1579031514.0,"Believe so, but it only has a 1 year license on it and it costs a fortune to renew. That money would be better spent on the capital outlay for something more suitable, as there are better tools than the MX for the job, if you want something performant and secure."
+KatyaClover,feebycj,t1_fee5e0y,1579030607.0,Maybe she had a shit to do?
+meraki,feebfh4,t3_eoopfl,1579030302.0,"Ah, one of the many downsides of running Meraki firewalls, lack of proper HA.
+
+This not only applies for your Comcast circuit, but also any other interfaces on the device including any private WAN services. Trying to retrofit Meraki MX in to an existing network with devices that do ""proper"" HA is an absolute nightmare.
+
+Trying to get a service provider to expand your WAN subnet without changing the addressing is likely unfeasible given they (very likely) will have IPs assigned either side of your range."
+fortinet,fee6hli,t1_fee1qru,1579027399.0,"I disagree. v6.2.2 has memory leak issues related to WAD daemon. Whilst they're not all resolved in v6.2.3, many of them are."
+fortinet,fech4ff,t1_fea8177,1578973786.0,Very unlikely to have support on a unit that old.
+fortinet,fecgyue,t3_eo8bx2,1578973681.0,FortiOS v6.0.8
+fortinet,fecaq8g,t3_eoetl1,1578969725.0,"Not that I'm aware of or can find documented.
+
+Nothing stopping your clients from using it, but not the FGT itself."
+oddlysatisfying,fe7keck,t1_fe679xj,1578915827.0,"I don't know what's more shameful, posting it, or 6,600 people upvoting it."
+fortinet,fe6yagy,t3_eo0m3j,1578907709.0,"No, I'm not. What do you mean ""add some security""? What does the FortiGate not do that you want it to?
+
+Have you had a look at FortiProxy?"
+fortinet,fe6046p,t1_fe04xnc,1578878800.0,"I would guess it either wasn't a priority, or was technically difficult/impossible to do with their current type of ASIC. I'm not sure how common PPPoE is, globally speaking - but it's definitely very popularly used here with many of the consumer and small/medium business type ISPs using it for auth.
+
+With that said, there has been a shift by some to IPoE (DHCP). These carriers are now much more preferable for this reason alone."
+fortinet,fe08ihh,t3_enhjd5,1578805965.0,People still play this game? 🤔
+fortinet,fe08b8y,t3_eng1oi,1578805790.0,https://docs.fortinet.com/document/fortigate/6.0.0/fortiosfeatureplatformmatrix60
+funny,fdyovz5,t3_en8x8q,1578782111.0,What does this have to do with love? 🤔
+meraki,fdyn1cc,t3_en9ob1,1578781540.0,"I know you said ""within Meraki scope"", but if you bin the MX or set them aside for other locations and go Forti or PAN you'll be much better off.
+
+Without running security services (which are barely efficacious by any measure) the MX is just a glorified router and it will struggle with managing throughout at the levels you're talking about, let alone if you require any level of security inspection."
+bikinibridge,fdymj6c,t1_fdyiu0q,1578781359.0,They're probably stretch marks from smashing out one or more babies.
+STPeach,fdym9ey,t1_fdxcqs0,1578781284.0,Zoom in... Enhance!
+fortinet,fdxy2qh,t3_enboed,1578774089.0,"Good pointers, thanks. From what I understand, the reasoning behind this is that they're not allowed to ship trial devices with strong-encryption due to US export restrictions."
+fortinet,fdxwr50,t3_en0khc,1578773720.0,"We opt for ISPs who don't use PPPoE when solutioning (and for me at home) as a preferred method for dealing with this.
+
+Another option is to use a bridging device to stand up the PPPoE circuit. In saying that however, I've had trouble finding devices that allowed for the requisite type of bridging that means you can end up having the public IPs on the WAN interface of the FortiGate. Your mileage may vary on this as it will depend on what brands are available to you locally and what physical media types you're needing to interface with from your LAN/WAN sides.
+
+Failing that, your final option would be to just size the device so the CPU can take the load. This might be feasible if the PPPoE circuit is low-bandwidth, or a backup component of a larger solution but generally speaking I wouldn't recommend it otherwise as it makes scalability a challenge."
+fortinet,fdtb25a,t3_en0ki8,1578714259.0,"Did you follow the upgrade path? Post the output of:
+
+diagnose debug config-error-log read"
+fightporn,fdrsuse,t1_fdq7ixq,1578689206.0,> nictorine
+KikiPasso,fdrlg03,t3_emtuym,1578686263.0,What kind of pose is this? Looks oddly uncomfortable and not that flattering.
+fortinet,fdrksh8,t1_fdrefmn,1578685881.0,"The licensing for FortiClient v6.2 doesn't work that way I don't think. You'll probably need to use v6.0 max. Alternatively, it may be an issue with the version of FortiOS and the mismatched FortiClient version."
+keto,fdpz3l6,t3_emhrrs,1578646834.0,"Good stuff. If you haven't already, check out r/StopDrinking"
+networking,fdpumtk,t1_fdpuhs9,1578641162.0,"Yeah, sure. But (for argument's sake) so would a pfSense box if that's all he's after. I would wager that nearly everyone would benefit from running strong UTM at the perimeter versus a bog-standard stateful firewall.
+
+If budget is the issue, you won't beat price:performance of a FortiGate. If you're feeling flush, PAN is not a bad way to go either."
+networking,fdpst2z,t3_emlqr0,1578639094.0,"Drop the SRX, it's next to useless by most metrics. Go Fortinet or Palo Alto for gateway.
+
+Do your UTM on your firewall, make it user aware for the sake of reporting and logging."
+fortinet,fdpkhm1,t1_fdpfmz7,1578631120.0,"I'm confused why you wouldn't, v5.4.2 was released November 2016. It's outdated.
+
+If it's a managed machine, get your IT team to do it for you. If not, do it yourself and retry, I suspect you'll be fine afterwards."
+aww,fdoze9s,t1_fdopyep,1578616365.0,"Not all of them, according to this lady: [https://www.dailymail.co.uk/news/article-7680461/Firefighters-battling-blazes-return-home-BASH-partners-domestic-violence-advocate-claims.html](https://www.dailymail.co.uk/news/article-7680461/Firefighters-battling-blazes-return-home-BASH-partners-domestic-violence-advocate-claims.html)"
+aww,fdoz7b3,t1_fdoz0xg,1578616238.0,"That's true - however, generally speaking, you shouldn't be breathing smoke or airborne particles of any nature. That's what air-purifying respirators (APRs) are used for.
+
+You still need to be clean shaven to wear those as (here, at least) as they use the same Drager masks that the BA sets do, just with a screw/adaptor for the APR filter to attach to.
+
+I guess these guys just tough it out. Which is a shame, if so - there are a large number of illnesses attributed to carcinogen exposure in firefighters."
+aww,fdoz41q,t1_fdotrck,1578616178.0,"Generally speaking, you shouldn't be breathing smoke, or airborne particles of any nature. That's what air-purifying respirators (APRs) are for.
+
+You still need to be clean shaven to wear those as (here, at least) as they use the same Drager masks that the BA sets do, just with a screw/adaptor for the APR filter to attach to.
+
+I guess these guys just tough it out. Which is a shame, if so - there are a large number of illnesses attributed to carcinogen exposure in firefighters."
+aww,fdoym3k,t1_fdo3dg1,1578615855.0,Makes me wonder how they wear BA with facial hair like that.
+HannahPalmer,fdoyd4b,t3_emeq9q,1578615692.0,Pretty heavy on the make-up.. I think she looks better more natural.
+fortinet,fdoy2ea,t3_emibbo,1578615497.0,"Upgrade to FortiClient v6.0.9 (note, not v6.**2**.x) via the [installer](https://filestore.fortinet.com/forticlient/downloads/FortiClientOnlineInstaller_6.0.exe) or grab the full EXE/MSI if required from the support site if you have access to it."
+fortinet,fdox3ke,t3_emggx6,1578614863.0,"For what it's worth, FWB appears as it's own SKUs:
+
+    FC1-10-WBCLD-654-02-12	FortiWeb-Cloud-WAF-as-a-Service 1 Year FortiWeb Cloud WAF-as-a-Service - 20Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC1-10-WBCLD-654-02-36	FortiWeb-Cloud-WAF-as-a-Service 3 Year FortiWeb Cloud WAF-as-a-Service - 20Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC1-10-WBCLD-654-02-60	FortiWeb-Cloud-WAF-as-a-Service 5 Year FortiWeb Cloud WAF-as-a-Service - 20Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC1-10-WBCLD-655-02-12	FortiWeb-Cloud-WAF-as-a-Service 1 Year FortiWeb Cloud WAF-as-a-Service - Additional 1 web site - Annual Subscription
+    FC1-10-WBCLD-655-02-36	FortiWeb-Cloud-WAF-as-a-Service 3 Year FortiWeb Cloud WAF-as-a-Service - Additional 1 web site - Annual Subscription
+    FC1-10-WBCLD-655-02-60	FortiWeb-Cloud-WAF-as-a-Service 5 Year FortiWeb Cloud WAF-as-a-Service - Additional 1 web site - Annual Subscription
+    FC2-10-WBCLD-654-02-12	FortiWeb-Cloud-WAF-as-a-Service 1 Year FortiWeb Cloud WAF-as-a-Service - 50Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC2-10-WBCLD-654-02-36	FortiWeb-Cloud-WAF-as-a-Service 3 Year FortiWeb Cloud WAF-as-a-Service - 50Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC2-10-WBCLD-654-02-60	FortiWeb-Cloud-WAF-as-a-Service 5 Year FortiWeb Cloud WAF-as-a-Service - 50Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC2-10-WBCLD-655-02-12	FortiWeb-Cloud-WAF-as-a-Service 1 Year FortiWeb Cloud WAF-as-a-Service - Additional 5 web sites - Annual Subscription
+    FC2-10-WBCLD-655-02-36	FortiWeb-Cloud-WAF-as-a-Service 3 Year FortiWeb Cloud WAF-as-a-Service - Additional 5 web sites - Annual Subscription
+    FC2-10-WBCLD-655-02-60	FortiWeb-Cloud-WAF-as-a-Service 5 Year FortiWeb Cloud WAF-as-a-Service - Additional 5 web sites - Annual Subscription
+    FC3-10-WBCLD-654-02-12	FortiWeb-Cloud-WAF-as-a-Service 1 Year FortiWeb Cloud WAF-as-a-Service - 100Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC3-10-WBCLD-654-02-36	FortiWeb-Cloud-WAF-as-a-Service 3 Year FortiWeb Cloud WAF-as-a-Service - 100Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC3-10-WBCLD-654-02-60	FortiWeb-Cloud-WAF-as-a-Service 5 Year FortiWeb Cloud WAF-as-a-Service - 100Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC4-10-WBCLD-654-02-12	FortiWeb-Cloud-WAF-as-a-Service 1 Year FortiWeb Cloud WAF-as-a-Service - 500Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC4-10-WBCLD-654-02-36	FortiWeb-Cloud-WAF-as-a-Service 3 Year FortiWeb Cloud WAF-as-a-Service - 500Mbps average throughput - Annual Subscription. Select number of sites separately
+    FC4-10-WBCLD-654-02-60	FortiWeb-Cloud-WAF-as-a-Service 5 Year FortiWeb Cloud WAF-as-a-Service - 500Mbps average throughput - Annual Subscription. Select number of sites separately
+
+Details on contracts (and other info) found here: [https://docs.fortinet.com/document/fortiweb-cloud/4.4.0/user-guide/413488/purchasing-contracts](https://docs.fortinet.com/document/fortiweb-cloud/4.4.0/user-guide/413488/purchasing-contracts)
+
+&#x200B;
+
+FAZ/FMG appear to attach to the FortiGate as per the following SKUs:
+
+    FC-10-0060E-179-02-12	FortiGate-60E 1 Year FortiManager Cloud: Cloud-based Central Management & Orchestration Service
+    FC-10-0060E-188-02-12	FortiGate-60E 1 Year FortiAnalyzer Cloud: Base subscription for Cloud-based Events and Security Log Management plus IOC Service
+
+I *assume* you add these as contracts/entitlements against the unit, then the associated FortiCloud account inherits the right to use them (though I haven't tried personally)."
+fortinet,fdovlj6,t1_fdo884i,1578613878.0,"The FortiClientEMS installer can package this for you. Ref [here](https://docs.fortinet.com/document/forticlient/6.0.9/administration-guide/835597/telemetry-connection-options) and [here](https://docs.fortinet.com/document/forticlient/6.0.6/ems-administration-guide/456965/deploying-forticlient-on-endpoints).
+
+Otherwise, there are MSI files available on the support site if that will help you. Might also pay to grab the latest version in that release train, currently FortiClient v6.0.9.
+
+Once you have that:
+
+>The FortiClient Configurator Tool is available for free download from the *Tools > Personal Toolkit* section of the [Fortinet Developer Network](https://fndn.fortinet.net/).  
+>  
+>You can use the free FortiClient Configurator Tool to create customized FortiClient installation files. See [FNDN](https://fndn.fortinet.net/) for details.
+
+Ref: [https://docs.fortinet.com/document/forticlient/6.0.9/administration-guide/831639/custom-forticlient-installation-files](https://docs.fortinet.com/document/forticlient/6.0.9/administration-guide/831639/custom-forticlient-installation-files)"
+fortinet,fdouw60,t3_emgv3a,1578613420.0,"Given FortiOS runs Linux under the hood, it's probably running BIND or similar which would likely be bootstrapped with it's own configuration as it would when packaged with any other OS. There's very little chance this is configurable.
+
+The larger question is why? What are you trying to do?"
+fortinet,fdo57tb,t3_emddci,1578599105.0,"Best idea would probably be to move your main INET interface to the SD-WAN bundle and start using this for backup/priority flow control.
+
+I don't have a FEX handy, but you should be able to manage it via the FortiGate itself or alternatively if you have a couple of sites and want to centralise management/visbility FEX-Cloud would be a good option. If you want to get to it directly, I think you can assign it an IP, create a firewall policy and manage it the same way you would a FortiSwitch."
+explainlikeimfive,fdo3rru,t1_fdn8kce,1578598359.0,r/AwardSpeechEdits
+meraki,fdnv1la,t3_em9lky,1578593415.0,"Hope you don't plan on securing any of that traffic at 2Gbps, that MX is gonna choke pretty hard."
+technology,fdnuj8d,t1_fdnkgem,1578593115.0,"I know, but for the 99% not using a turnkey cloud solution is far too hard.
+
+My point was all they need is an option to not allow their own support staff access to view your account unless you enable it. I'm sure someone would have god-mode access and be able to work around it, but Meraki are an example of this where their support team can't directly see your config unless enabled.
+
+I'm well aware the data is probably stored somewhere within reach of the private key, assuming of course they even bother to encrypt it at-rest."
+seedboxes,fdnu4ly,t1_fdn4dqa,1578592876.0,"Correct, but if you're given a slot they don't generally run xserv.
+
+You might be able to find somewhere they give you shell and allow you to install something, then you could run proxy/VPN and download via that, I suppose."
+networking,fdmknbf,t1_fdm0rup,1578553465.0,"Not disagreeing, but what are the primary drivers behind this idea?"
+technology,fdmideb,t3_em3bp0,1578550980.0,"All they need is a toggle box in the app that says ""Allow Support to Access my Account"" which temporarily enables view access for Ring helpdesk, etc."
+meraki,fdmdwc1,t3_elxuzj,1578546741.0,Because Meraki. Get a real firewall 🥺
+seedboxes,fdmabqp,t3_elwzbg,1578543797.0,"> I will be downloading films through chrome or another web browser. 
+
+Wut. You going to run Windows on this seedbox? lol."
+fortinet,fdlvl6x,t1_fdiccnv,1578533534.0,"You can still PCAP on non-disk units, up to a limit of 10,000 packets. Unsure if the disk-based units allow more."
+politics,fdkrrcp,t1_fdjva2l,1578509790.0,"No kidding, but it shouldn't. It's illogical."
+networking,fdkrp13,t1_fdjv03w,1578509752.0,"Yikes, Cisco NGFW? You are a glutton for punishment."
+goddesses,fdjqb4c,t1_fdjjr9c,1578483320.0,Imagine finding one of those in your food or trying to clean that shower drain.
+networking,fdjq097,t3_elegjg,1578482934.0,"Lol, wow. That's a comically bad error from CP."
+fortinet,fdjpsyz,t3_elqv47,1578482668.0,"Should be able to use the built in VPN clients, so long as you can match proposals, etc.
+
+IPSec for client VPN tends to be a painful endeavour."
+KatyaClover,fdjnopz,t3_elk4qm,1578479769.0,Poor effort from the photographer. The only thing in focus is some water droplets 🤔
+worldnews,fdji5sn,t1_fdj2mlg,1578471896.0,This guy planes.
+politics,fdjbstj,t1_fdiw9hd,1578464556.0,"They could give a shit, or they couldn't? Because that's a very polarising difference in your opinion depending."
+politics,fdjb8mn,t1_fdjaokk,1578464001.0,Here we are talking about how to work this all and and this guy's gone Mad Max already.
+politics,fdjb3ky,t1_fdirerz,1578463864.0,"That would involve people getting off the internet and out of their homes and in to the streets. People are far too lazy for that these days, they'd just rather go on blast online or grumble to themselves quietly hoping the problem will fix itself."
+fortinet,fdj8vj0,t1_fdj8rww,1578461812.0,"Nope, never had issues with their NTP server. I just have several local stratum 1 servers several milliseconds away so would always prefer to use those over FortiGuard ones which are \~180ms away."
+fortinet,fdj8caf,t3_ell8o4,1578461344.0,"Yeah, we generally avoid using them. They're slow as they don't have any servers local to us in this part of the world.
+
+I consider it best practice to use Cloudflare DNS as well as migrating away from using FortiGuard NTP as well."
+fortinet,fdil8zi,t1_fdieb8n,1578445404.0,"Just went through this at home.
+
+&#x200B;
+
+* Create a reachable IP on the FSW
+* On your FortiGate switch-controller config
+   * Enable SNMP itself
+   * Enable SNMP access on the mgmt interface
+   * Create your SNMP communities or users (if v3)
+* Ensure you have a firewall policy permitting traffic from your NMS to the SVI/mgmt interface."
+fortinet,fdij8dy,t1_fdi32w0,1578444136.0,"Just to clarify, as far as I can tell - OP didn't explicitly say they reside behind the same interface.
+
+&#x200B;
+
+What you're saying is still accurate however, a firewall policy will need to exist to support the traffic."
+fortinet,fdhnps2,t3_eld16n,1578426515.0,"Generally we don't use ""disk"" based units unless it's for a small customer who only has a single location. Limited bandwidth or trust issues can make log replication to the cloud impossible.
+
+Another issues is that free FortiCloud only has 7-days worth of retention, there's a good chance the disk on the FGT will retain longer. You also can't customise reporting.
+
+&#x200B;
+
+It might be worth looking in to FortiAnalzyer-Cloud. Not sure how well it's priced but I'm suspecting it might be a happy medium between the cost of a dedicated/on-prem FAZ (VM or PHY) and FortiCloud."
+fortinet,fdhn01c,t3_elg25s,1578426089.0,There's no logical or obvious reason I can think of that this should not work.
+fortinet,fdhmrt2,t1_fdhkpqn,1578425951.0,"Where'd he go, out of curiosity?
+
+The only other solution worth considering would be PAN but even they're rife with their own issues."
+fortinet,fdhk39w,t1_fdgjn67,1578424325.0,"Just saying, it seems like ripping and replacing seems a lot more trouble than just running the stable version of FortiOS."
+fortinet,fdg9aj6,t1_fdg1gxx,1578385555.0,"Except for the fact they doesn't really teach most people here anything and is generally stuff that is either:
+
+
+
+1) Already well documented.
+
+2) Taught in NSE curriculum.
+
+3) Well known by most."
+AskReddit,fdg944n,t1_fdg0gt9,1578385318.0,"... small, awkward fart"

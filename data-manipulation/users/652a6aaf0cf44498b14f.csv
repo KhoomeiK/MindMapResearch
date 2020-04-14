@@ -1,0 +1,58 @@
+subreddit,self ID,parent ID,time,text
+television,fff77ez,t1_ffdl9pi,1579877456.0,"Well, left on anything that doesn't affect rich blue team member's agendas."
+Bitcoin,ffefbk2,t3_et5kfz,1579845842.0,Thursday
+Bitcoin,ffef1zm,t1_ffcjfmw,1579845569.0,"""That looks like a hard drive in your hand."" ""Nope."""
+programming,ffeecg5,t1_ffe8jlu,1579844853.0,">So you're saying when you soon up a service, you start with making sure it scales arbitrarily, before you ""make it work"", or ""solves a problem""?
+
+Sort of? No piece of data is exposed soley in a presentation view. It must be exposed through a data structure devoid of any presentation information. External identifiers must uuids. Repository, service and controller logic must remain separate. Basically any design decision which restricts horizontal scaling is just silly."
+tifu,ffedo5e,t3_et1aki,1579844190.0,"The difference between someone who can't grok computers and someone who can is the ability to eliminate possible causes. Take it as a lesson to think through how to isolate each problem. So in this case, plugging the monitor into something else you know works would have clued you into the source of the problem.
+
+And even if you get stupid good at this kind of methodical diagnosis you will remain encumbered by your blind spots. Hence why ""rubber ducking"" is a thing.
+
+Point being: good work. You struggled a lot and figured it out. That's all that matters :)"
+television,ffectbc,t1_ffe4y7e,1579843376.0,No they're not chaotic neutral. They're mouth pieces for rich assholes who wear blue. Just like Fox news people are mouth pieces for rich assholes who wear red. Rich reds fights abortion rights to keep their voter populations up and veil it with religion while fucking over the poor. Rich blues fight immigration enforcement and veil it with anti-racist sentiments while fucking over the poor. There's one big club with two factions and we aren't in it.
+programming,ffe5ygo,t1_ffanq1i,1579837577.0,">You're missing the ""vast majority of systems will never have that problem"" part. The easiest, fastest, and probably good enough solution is to use your favorite relational database, build your thing, and iterate from there. Eventually maybe your thing matters, and so you build up some redundancy.
+
+I mean, I guess. It's really not that difficult for someone with the knowledge. And if they don't have the knowledge they're basically building a production system as an educational exercise. At some point we're going to have to graduate beyond that kind of thing."
+programming,ffcmqy2,t1_ffclx3s,1579802753.0,"Nobody's saying there isn't any real innovation happening. Unfortunately it's really easy to fake it depending on what it's being applied to. Nearly everybody on the planet has experience visually identifying objects so they're all well qualified to evaluate if a camera they're holding in their hand is doing it correctly.
+
+It gets a bit fuzzier and shadier for ""predictive"" stuff. There's a lot of variables at play which can muck with your answers. Say they accidentally provided images of dogs after they were adopted and the process was to do some grooming, take the picture and then deliver to the owner. Now you have an algorithm that's optimized to identify the color of the table the dog is placed on just before they're handed off to the owner. Discovering these kinds of issues as some random third party isn't possible because it requires too much depth.
+
+EDIT: Felt like expanding a bit. Basically there are two ways to use ML responsibly. You have data and the result given by the ML algorithm after processing that data. Results which can be evaluated with a high degree of objectivity are easy to use responsibly like the camera example. Subjective results generated from data with a high degree of objectivity are a little more difficult because you need to confirm the result using classical means. Think of these as search results. A lot of them aren't going to be what you're looking for but it can eliminate a lot of wrong answers. Think algorithms predicting heart disease based on DNA. The data involved doesn't leave a lot of room for bias based on how it was gathered. Plus, you use the results to influence areas of further research using classical approaches.
+
+Any time ML is used for subjective datasets to produce subjective results should set off alarms and red flags that the individuals involved are either under qualified or con artists."
+gadgets,ffa25r4,t1_ff9ao73,1579726378.0,">Key escrow is probably, unfortunately, the compromised solution.
+
+It's not a solution though. The U.S. government has already demonstrated they will compel companies to give these up without a warrant. They brought this on themselves."
+programming,ff9ney3,t1_ff8nufg,1579716645.0,">if two pieces of information are dependent on each other, they should belong to a single server.
+
+I gotta wonder about the experience of anybody who writes something like this. Every piece of information you store is dependent on another piece of information. City is dependent on address is dependent on order is dependent on customer is dependent on... whatever. Yes, accessing all that information from one source would be simpler but eventually it isn't possible. At some point you start operating on a scale where you can't serve all this information from a single server because a single server cannot be optimized for the thousand disparate use cases of that information.
+
+So you create ways of distributing that information to multiple servers each being optimized for the particular use case."
+worldnews,ff8ffdk,t1_ff86rfm,1579676137.0,The EU is mentioned nowhere in this article.
+trees,ff83m01,t1_ff7w7qg,1579665089.0,And gun reform is one of the wedge issues used to keep the American voters from coming together on education reform.
+news,ff82dvn,t1_ff7l4rt,1579664182.0,Nah air purifiers suck. Filters regulate the suck.
+worldnews,ff7ylmn,t1_ff7xw5o,1579661459.0,"Governments regularly dictate who banks cannot loan money to and rarely provide any justification beyond ""national security"" or _potential_ money laundering.
+
+This is a clear cut situation where that applies and they're like ""yep. all good here""? What gives?"
+worldnews,ff7ykfy,t1_ff7xtq6,1579661435.0,I'm not asking why the bank is doing this. I'm asking why the EU is allowing it.
+worldnews,ff7wxb7,t3_es22ag,1579660306.0,Can someone explain to me why a German bank is involved in this at all? Nothing about this situation seems good for the EU. Why aren't they bringing down the hammer?
+programming,ff7vpdx,t1_ff5nlm5,1579659477.0,"PHP isn't purple paint. PHP is using a mop as a paintbrush because it was good enough for grandpa and he did great work with a mop.
+
+No disrespect to grandpa. Talent is talent with the tools which are available. Using inferior tools unnecessarily isn't commendable. It's stubborn and you're only holding yourself back."
+programming,ff7vd6k,t1_ff7e1lq,1579659247.0,I haven't gotten hundreds of people to follow me over a cliff but I'd still question the leadership of guy leading the charge.
+programming,ff7v2dt,t1_ff6xmvj,1579659047.0,"Tbf, it's not so much that it's badly designed as it was designed before the designs we now recognize are bad are because we've seen the results.
+
+And that's really why I can't take PHP defenders seriously. At some point you're carrying around so much dead weight... and for what? If PHP is as easy to work with in the modern day as anything else then spend the effort to make it something you call from a more modern language that stood on the shoulders of PHP. Stop making people today deal with decisions made decades ago."
+Bitcoin,ff7tcbd,t3_es38af,1579657869.0,Is it a seed? You can probably eliminate a lot of the possibilities based on the length of the word or something. Should shave down possibilities further. Then figure out how to get a computer cluster to hammer at it for a few hours. Make sure you log what ranges you try so you can exclude them from future attempts should the first few fail.
+Bitcoin,ff7snlf,t1_ff6gkc8,1579657393.0,"And people who don't know what a SHA256 hash is using phrases like ""the next Bitcoin"""
+Bitcoin,ff7sim2,t1_ff6dz64,1579657298.0,This. Start with small transactions and learn how to recover your wallet and such OP.
+Bitcoin,ff7s12a,t1_ff7b3sr,1579656958.0,"Yep life sentence with a little holiday here and there. Hell, someone could even become a productive member of society that way. They get food and board and are generally prevented from killing themselves from addiction. While they're in prison they could hold classes, learn trades, whatever. Go nuts. For some extreme cases of addiction I could imagine that being a _decent_ way to live!"
+Bitcoin,ff7rrm1,t1_ff72pnq,1579656778.0,For non violent offenses? As many as they like. I don't see the huge drain on society to give these guys a few years at most. If all they want to do is have a holiday from prison every now and then so be it. I can't imagine why I or anybody else would care. Especially considering it's not solving anything. Plenty of drug addicts aren't in prison.
+UpliftingNews,ff7qw2s,t1_ff6q0h2,1579656165.0,"Same. I really wish we'd drop it. I remember my parents arguing about this shit 20+ years ago and nothing has changed. Meanwhile it's been used successfully as a wedge issue which has allowed much more serious issues causing much higher (although admittedly less grotesque) death tolls. Lack of health insurance, lack of housing and lack of criminal justice reforms are the cause of more deaths every year. When we solve those things I'll happily participate in a discussion about gun rights. And no, we can't ""do both"" because if we could, we would have."
+SandersForPresident,ff4o8uc,t1_ff4kwaz,1579568434.0,"Exactly. Some of the loudest leftists have used rallying cries of ""us vs. white men"" and it understandably freaks out low education, low income white men."
+funny,ff4ielc,t1_ff47bow,1579564357.0,"I think I caaaan  
+Try every dress on in this whole bag  
+Maybe find two pairs of matching socks  
+Quick find me a hat with yellow sequins on it  
+What's that stain on the back oh god no it's pooooooo"

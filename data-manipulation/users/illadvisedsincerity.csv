@@ -1,0 +1,419 @@
+subreddit,self ID,parent ID,time,text
+PleX,ff2mmiv,t1_ff0fd9t,1579513506.0,"To me it makes more sense than file size as the encoding can make the same content vary massively in file size.
+
+I have ~3400 movies, ~16000 tv episodes, almost a thousand audio books, and ~20k mp3s (*I actually have them in cold storage temporarily because I needed a smidge more space as I wanted to convert my array from raid 5 to raid 6*). I've been a data hoarder for more than two decades now."
+PleX,ff2m8tf,t1_ff27n0d,1579512912.0,">NVENC still looks disgusting, as does VCE or whatever AMD calls it these days. When you compare either x264 or x265 at the same file size as a HW AVC or HEVC encode, respectively.
+
+I think that you're being a bit hyperbolic when you use the word ""disgusting"" but yes - for a comparable setting nvenc is noticeably lower in quality than the same setting otherwise.
+
+However, what you are missing is that nvenc is much faster and on a scale such as mine that makes a difference. 
+
+I found that quality wise I had to encode 1-3 stops higher (*although rarely 3*) to produce an equivalent quality video to standard - however the encode time per hour dropped from about 15 minutes to about 5.
+
+So in my particular case - it was worth it to run nvenc at a higher quality setting and much faster encoding time.
+
+I realize that it may not be the ideal choice for everyone but it is what worked best for me."
+PleX,ff2m2wt,t1_ff1l8nd,1579512659.0,">Have you compared nvenc to handbrake x265 on quality?
+
+Yes - I ran comparisons on quality levels 20-34 and h265 nvenc vs h265 (x265).
+
+In my opinion the degradation level for quality became severe at around 27. As for difference between nvenc and standard, while I did notice about a 1-2 stop difference on the quality meter - the difference in time to complete encoding and file size made it worth it to me.
+
+I was fortunate enough to get a free RTX 2080 founders edition from NVIDIA and with my current system that reduces the re-encode time per hour of video to about 5-6 minutes.
+
+What I found was that an encode using nvenc 24 was close enough within my parameters to a standard 26 but shaved about 10 minutes per hour of encoding time.
+
+Since I'm encoding over 13,000 hours of video, reducing the time per hour from 15 min to 5 mins on average is a massive advantage (*I do like to actually use my computer from time to time and you know, rebooting it once a quarter would be nice.*) Using nvenc means roughly the difference between 140 days of processor time and 47.
+
+I want to be clear lest some pedantic ass lose their shit - I am not saying this is the best encoding settings - only that this is what worked for me given my particular situation.
+
+If I am playing both videos side by side and looking for differences, I can see them - but when I'm watching a single video it looks great and I don't notice any quality loss.
+
+Some people have larger and more splintery brooms up their asses and therefore may find my particular decisions unpalatable."
+PleX,ff2ll4h,t1_ff01jb4,1579511906.0,"Walk it the fuck off numnuts...
+
+Yes, 1 byte = 8 bits we all get it.
+
+Normal people don't give a shit."
+PleX,fezb1vv,t1_feyswnu,1579455549.0,"I’ve been reencoding my entire media library in h265.
+
+My standard is 1080p at Quality 24 using nvenc & it comes out to about 1.5gb an hour.
+
+I tested out higher quality settings and while I could see a difference it was trivial to me as I don’t need to see each individual hair of stubble and with the size of my library (*~13,565 hours*) each gb in increased file size is 13.5 tb of additional disk space.
+
+I’ve got a 60tb r6 array but I need about 20tb of that for work files so at 1.5gb an hour it takes up half the remaining space and leaves plenty of room for non-video media & other files.
+
+For me it’s about finding a balance."
+AskReddit,fetuckc,t1_ferwduf,1579380168.0,It really is - that song in particular really speaks to my brokenness...
+RoastMe,feq6yph,t1_fepsxqm,1579338400.0,I suspect she listens to the nickelback of nickelback...
+RoastMe,feq6tt8,t1_fept2t0,1579338348.0,Weird I thought it was “*beef curtains with day-old broccoli*”...
+AskReddit,feizvo0,t1_fehseu1,1579151991.0,"""*Come Healing*"" by Leonard Cohen is my go to for that.
+
+Goddamn song wrecks me in all the right ways..."
+ANormalDayInRussia,feigmir,t1_fegrksp,1579138070.0,Still like four times as much as he paid for his wife...
+Whatcouldgowrong,feigim8,t1_fehh8kf,1579137998.0,Fortunately that same rule applies in her future porn career so it won’t be a wasted lesson...
+europe,fe97xo2,t1_fdq7zi8,1578935158.0,">Or at least don't stay in a bloody AirBnB.
+
+I have a love/hate relationship with AirBnB and for the most part I stay in boutique hotels but sometimes what I'm looking for is space rather than services - and that is where AirBnB can really shine.
+
+I acknowledge that AirBnB is having a very toxic effect on many communities but I think to a large extent this is where government regulation has to step in. 
+
+One particular suggestion that I've seen would be to limit how many listings a particular entity can have - another would be to limit the renting of rooms to rentals where the host lives on the premises.
+
+This trend of ""*Well it is online so we don't have to follow the laws and regulations that other businesses do and we can call that ""disruption""*. Really has to stop - disrupting an industry by breaking the law isn't innovation, it is abuse - and companies from AirBnB to Uber have been raising billions on that basic premise."
+europe,fe95nhm,t1_fdqbzxl,1578934500.0,"Oh come on now - don't be a pusilanimous bugger...
+
+No true redditor wouldn't risk their livelihood for a few magical internet points..."
+europe,fe9515w,t1_fdqdn3c,1578934290.0,">Young people have...
+
+There is your problem - you kids today just don't have the basic decency to know when you should already possess accumulated wealth.
+
+It is almost like poverty has become the fashionable thing among kids today..."
+reactiongifs,fe6qmzh,t1_fe4pzdf,1578900832.0,"As my pappy always said -
+
+*You ain't drunk if you can lay on the ground without holding on...*"
+pics,fe65hb9,t1_fe5s479,1578882228.0,">I’m speaking ill of the rediitors not her
+
+Hardly, you were insinuating if not outright saying that there ever was or ever will be a time where rubbing one out to her is not a moral imperative as well as a venerated endeavor of our most sacred nationalism..."
+pics,fe5s7fv,t1_fe5ek1s,1578873799.0,"Wait, it isn't because Leia has a big old happy to see you trap bulge?"
+pics,fe5s56m,t1_fe5dbiq,1578873764.0,I thought it was cause she gave Leia a big ol trap bulge but apparently I'm the only one who thinks she is happy to see me...
+pics,fe5rquq,t1_fe5il4f,1578873616.0,How dare you speak ill of the dead!?!
+StarWars,fe5hsdq,t1_fdq6aed,1578869584.0,It turns out I had seen some of her previous work but I didn't connect any of it in the episode - and I agree that she was extremely well cast for that role and a pleasure to watch as well.
+StarWars,fe5hmlh,t1_fdq5gn7,1578869506.0,">It's stupid as fuck when you see the 90lb models trying to kick ass.
+
+Seriously.
+
+I love (*for example*) watching women kick ass but when you see a 90 pound chick punch a 300lb brick wall and the wall goes flying, it is rather absurd.
+
+I do like what seems to be a recent trend where female protagonists are fighting smart rather than pretending to be equal to a man three or four times their size. (*I felt both Peppermint and Atomic Blonde while not perfect examples of this, definitely moved more in that direction*)."
+StarWars,fe5g826,t1_fdqc8mf,1578869094.0,"To be fair, while I find the comment rude and objectionable - it would explain why she's got those dead ass lifeless eyes that creep the hell out of me..."
+RoastMe,fds7l1q,t1_fdppuex,1578696157.0,"Actually it is clear and convincing evidence that god is a man.
+
+And like the rest of us men - he has no fucking clue what women want...."
+RoastMe,fds7ggm,t3_emmric,1578696075.0,I think it’s great that you want to use a natural sheep intestine condom but maybe next time try taking it out of the sheep first...
+AskReddit,fds6sqf,t1_fdrfra5,1578695644.0,"Lol my wife & I don’t even close the bathroom door normally - and honestly if she wanted to lock it while pooping I could learn to deal with it.
+
+Oddly I feel more comfortable with the door ajar because I can still hear what’s happening on the rest of my home. I feel uncomfortable with the idea that someone could open my front door without me hearing it.
+
+Outside of the bathroom - I just do not like the idea of someone using my own door to enforce their own reality in my own damn house.
+
+Well that and 20 some years volunteering as a paramedic has made me vary wary of locked doors - the number of calls I’ve been to that would have had a much happier ending if we didn’t have to spend 20 minutes take a door off the hinges to reach the patient."
+UnethicalLifeProTips,fdr2a9i,t1_fdosc7r,1578678502.0,"The clock is only reset by you making a payment or agreeing to make a payment (*either in writing or on a recorded phone call*).
+
+Nothing the creditor does except obtain a civil judgment against you can reset the clock."
+UnethicalLifeProTips,fdr1xos,t1_fdoq05j,1578678367.0,There is a Jewish law which states that (*with a few caveats and exceptions*) all debts are wiped away every seventh year.
+UnethicalLifeProTips,fdr1a00,t1_fdonaxb,1578678130.0,"Yes & No.
+
+You still owe the money - the debt just becomes uncollectable - meaning they can’t list it on your credit or sue you etc. 
+
+They can still for example hold the negative balance on their books - so in this case AT&T could still require payment prior to opening a new line of service.
+
+Basically they can’t make you pay it, or harass you to try to get you to pay it."
+AskReddit,fdq8inv,t1_fdmv68b,1578659231.0,">That sounds sane.
+
+Indeed and far more so than my longstanding policy which is simply to kick down any door I encounter locked in my home (*I do allow an obvious exception for various situations that may arise when guests are in the home*). 
+
+Fortunately, it only took my wife two doors (*an interior and a front door*) to realized that I was neither joking (*the interior door*) and fully capable of kicking a dead-bolted door down (*the front door*).
+
+I would never dream of opening a door without my wife's permission, and similarly knock (*and wait*) before entering but I won't tolerate the use of a physical lock when a simple request would suffice."
+AskReddit,fdq7sqm,t1_fdn8ma9,1578658467.0,">Wow, people really hate that joke
+
+People (*especially redditors*) are squeamish little bitches (*especially the sort that use /s*)...
+
+Fortunately, I was acquainted with the fallacy of popularity at a young enough age that I was able to successfully comport it into areas of my life outside argument.
+
+>Anyway the version
+
+Well, didn't see that coming but bravo, glad to know you have a pair afterall.
+
+I'd heard the ""*performance*"" version before and wasn't as thrilled with it - it lacked a certain panache that the doubled awful realizations of the version I used - that said - the final sentence in your version, really spices it up nicely.
+
+Surprise buttsecks is always funny..."
+AskReddit,fdq7ekj,t1_fdn964u,1578658028.0,That works although I enjoy the double awfulness of the listener's realization in my version...
+tifu,fdq79kg,t1_fdnkkjz,1578657874.0,"Have you even heard of Mick Jagger?
+
+Given how few people remain alive at the crack of dawn while in his company, I'd say that the crack of dawn is very likely an extremely hazardous time to be around him..."
+AskReddit,fdq754y,t1_fdnx68p,1578657733.0,Oh given your username - I doubt you'll have to wonder long...
+tifu,fdmpjvj,t1_fdm324x,1578559481.0,">That's the closest I'm gonna get.
+
+Goddamn kids today, no goddamn work ethic, I tell ya...
+
+Why back in my day, we'd just grab the shovel and ..."
+tifu,fdmpg9k,t1_fdm0i2m,1578559344.0,Mick Jagger will fuck anything that moves - hell you go over to his house and the fish stop swimming...
+tifu,fdmpea8,t1_fdm2oq0,1578559270.0,">Necrophilia is a group activity
+
+So that's what I've been doing wrong..."
+tifu,fdmpccr,t1_fdmgdsh,1578559201.0,God ain't yet made a man straight enough to ride bitch with David Bowie and not pop wood...
+tifu,fdmp2qo,t1_fdmenji,1578558845.0,"See, no judgment here or anything, but as a guy who like chicks, lesbian porn does nothing for me, zip zilch nada..."
+blunderyears,fdmnbz6,t1_fdmlvrs,1578556614.0,like I said...
+AskReddit,fdmn9in,t1_fdm4gut,1578556528.0,"In my family we had a no locked doors in the house rule.
+
+There were two exceptions - one was the bathroom doors and the other was if there was a house guest staying in your wing, then you could lock your bedroom door.
+
+That said, (*with the exception of my mother occasionally spacing it out*) there was also a strict rule about waiting for a response to a knock before opening anyone's closed bedroom door. So I never felt like locking my door was necessary for privacy."
+AskReddit,fdmmoan,t1_fdm9iag,1578555825.0,"German's are odd...
+
+Years ago, I was on this date with the hot little German girl...
+
+Everything was going great until we started having sex...
+
+Then for no reason I could decipher, she started shouting at the top of her lungs... it made no damn sense - she just repeated her age over and over again..."
+AskReddit,fdmlwl8,t1_fdmj76t,1578554929.0,"That video was made by a professional news organization.
+
+Let that sink in for a minute..."
+AskReddit,fdmlroz,t1_fdm8aor,1578554768.0,">This just made me realize I need to make some strange family customs to create more colorful childhood memories for my future children...
+
+Yes because your collection of thousands and thousands of hand painted doll's heads definitely won't be enough on that front..."
+blunderyears,fdmljbj,t1_fdmhj6d,1578554492.0,"That's not genetics, it is just shitty photography.
+
+Even if your irises were completely black - the whites of your eyes would still be white."
+UnethicalLifeProTips,fdlqmla,t1_fdllwcr,1578530165.0,"Why kill the slag when you can just stick it up her pooper instead.
+
+Its like a win/win or something..."
+UnethicalLifeProTips,fdloecp,t1_fdl1f1y,1578528650.0,"Well, sure, I mean you have to clean up afterwards somehow..."
+trashy,fdlo3nv,t1_fdkuec2,1578528446.0,">but as a woman I'd give my spouse 1,000 BJ's before I agreed to that.
+
+You would, or you have?
+
+Because the former is meaningless considering your age and marital status.
+
+Although the last would be greatly improved by the latter..."
+trashy,fdlniak,t1_fdl0cci,1578528041.0,">Ever been on a greyhound?
+
+I have once, I was 15...
+
+I took a series of buses from Truth or Consequences, NM - an aptly named place if I've ever seen one all the way to Washington state.
+
+Those three days exposed me to the seedy underbelly of the seedy underbelly of America, and to this day, I know that there are certain things in life that can only be found within a 3 block radius of any Greyhound Bus Station.
+
+There were heartwarming moments, lustful moments, bizarre moments (*ok pretty much all of the moments were also this*) and down right terrifying moments - but fortune was kind to me in the specific regard to bus bathrooms.
+
+As you see, within the first ten minutes of my first bus the god forsaken retching sound and unholy putrid stank of whatever Lovecraftian beast would spend the next 8 hours in either dying or giving birth - which I could not tell and quite frankly was like the rest of the passengers on the bus, not mentally prepared to determine - instead choosing to pretend to look out the window while whispering to Mz Susy Rottencrotch in the seat beside me (*and who incidentally consoled me with her boobies for most of the ride*).
+
+It was not the best of times, nor as it turns out was it the worst of times - but it was definitely one of the weirdest times in my life and one which I have consciously chosen not to repeat since."
+trashy,fdkt6ip,t1_fdkd189,1578510634.0,">fancy birth control methods, like pulling out.
+
+Bah, pulling out was for Catholics... in my neighborhood all we's could afford was stickin' it in her pooper..."
+trashy,fdkt25n,t1_fdkodq2,1578510564.0,">You might get a personal thank you from the pilot and a voucher for a free first class flight.
+
+Till his wife found out..."
+trashy,fdksx4q,t1_fdkfusr,1578510481.0,"If you're going to stick your dick in crazy - remember the three golden rules...
+
+1) Wrong name
+
+2) Wrong address
+
+3) Wrong hole (*stick it in her pooper*)"
+trashy,fdksu3z,t1_fdk9qnm,1578510432.0,">Some people never learn to not stick their dick in crazy.
+
+Nothing wrong with sticking your dick in crazy, just as long as you practice safe sex when doing so...
+
+By that I mean, wrong name and address..."
+trashy,fdksmuh,t1_fdk8hcc,1578510313.0,">Yeah I don’t think I’m gonna go into the bathroom with the drunken rampaging stranger on the plane, abusing the crew... even if she is kinda cute.
+
+Think of it this way, all you'd need to do is give one drunken slag a mediocre shag and chances are that story could have had a much less violent outcome...
+
+So just close your eyes and think of England..."
+trashy,fdks4nx,t1_fdkmrzs,1578510013.0,I'm guessing you didn't even need the bathroom...
+trashy,fdkrlp3,t1_fdk9r80,1578509697.0,">She has all ~~my favorite~~ the red flags.
+
+FTFY"
+AmItheAsshole,fdkqb53,t1_fdjhxyf,1578508930.0,">NTA Turning off the wifi is very clever.
+
+No, turning off the wifi is *controlling* and borderline abusive behavior.
+
+She has no right to physically intervene in order to prevent his shitty behavior.
+
+She is not his parent or legal guardian - if she can't obtain his compliance willingly than she needs to consider other options."
+AmItheAsshole,fdkq15h,t1_fdjl4qv,1578508764.0,"She's totally an asshole for resorting to control freak levels of punitive measures as a retaliation for what she views as him avoiding his share of the work.
+
+Even if she is completely right about him being a lazy shit - that would just make this an everyone is shitty here - there is no justification for ever thinking it is ok to treat your partner like a child or think you can exercise physical control over their actions."
+AmItheAsshole,fdkprte,t1_fdkdvlc,1578508610.0,"Wow, this is some terrible advice - even if he is being a shit.
+
+Because you know, acting like a control freak and a punitive jerk really tends to bring out the best in people..."
+AmItheAsshole,fdkpfix,t1_fdjilww,1578508407.0,"Where exactly do you get off policing your husbands behavior?
+
+I get that you feel he is not pulling his weight or using this a way to avoid doing stuff - but that is something y'all should be addressing head on - if you can't, then seek marriage counselling - the idea that you get to implement or control his wifi access is frankly absurd and bordering on abusive (*in terms of being a control freak*)."
+AmItheAsshole,fdkp8jk,t1_fdjhmyg,1578508291.0,"YTA - He is your husband, not your child - if you can't resolve whatever the issue is with him directly, then you need counselling not gamesmanship.
+
+Turning off the Wifi, banning phones in the bathroom (*as someone below suggested*) is just wrong - your partner is your equal, whether or not they act like it - you do not ever get to the right to police, or parent them and should never let them put you in that position either.
+
+I can't speak to your husbands issues, medical or otherwise, so it is quite possible that he is also being shitty but I can't determine that from the information provided - where you crossed the line for me however, was deciding that you had the right to control or disable your husband's wifi access because *you* didn't feel he was using it legitimately.
+
+Sorry but that is some way out of line bullshit."
+UnethicalLifeProTips,fdkax8m,t1_fdk7ly1,1578500010.0,Then you live in one of the better states on that question - at the moment the courts are all over the place when it comes to the various questions and rules surrounding presumption of paternity - far better to just stick it in her pooper and avoid the hole question...
+Anarcho_Capitalism,fdk6341,t3_edfri6,1578496915.0,"""*This study brought to you by the makers of Soylent Green*"""
+gundeals,fdk5k9z,t1_fdk46ro,1578496566.0,"I got the dual version for extra space - but it means there are some thin foam separators in some spots - might just have to try the plastidip.
+
+Thanks!"
+UnethicalLifeProTips,fdk589h,t1_fdk3bb6,1578496344.0,"I believe the word you were looking for was ""*rebuttable*"" and (*generally, but it may vary by specific jurisdiction*) the only person who has standing to order a DNA test would be the biological father seeking paternal rights.
+
+>That’s why you give a fake name and get a burner phone.
+
+My pappy always said that the best forms of birth control are:
+
+1) Wrong name & address
+
+2) Stick it in her pooper
+
+3) All of the above..."
+gundeals,fdk2rya,t1_fdixqk9,1578494650.0,I have two of the Plano - the pick and pluck could be better but otherwise it is a very fine case (*especially for the price*)
+UnethicalLifeProTips,fdk1fzd,t1_fdjz57o,1578493686.0,Legal Plot Twist - look up presumed paternity...
+Anarcho_Capitalism,fdgx6zc,t1_fdfxlsy,1578410536.0,"Now you're just grasping at straws and moving the goal post because you're losing the argument.
+
+>have multiple glassdoor entries
+
+Why not? All you need to create a glassdoor entry is an email address and it isn't like it is hard to create a dozen or so new gmail/yahoo/etc accounts."
+Anarcho_Capitalism,fdfwnh2,t1_fdflzop,1578372226.0,"Any tom, dick or harry can start a company and call themselves a CEO.
+
+Including any number of private companies with inadequate data available to validate the equivalency of the role just serves to pollute the data pool with invalid data and artificially lower the so-called average for the benefit of the false equivalency that you desire to make - it is intellectually dishonest.
+
+Public companies however are required to make public a variety of information that allows us to categorize and grade the companies and positions by relevancy and equivalency of the data points.
+
+>A company only needs around 20 people to need a CEO.
+
+Actually, all it takes for you to become a private ""CEO"" is the cost of the filing fees with the secretary of state - it does not make you a relevant data point for a national conversation on CEO compensation.
+
+>It might make your position a bit more objective.
+
+I am completely objective here, I do not support his political goals, I merely expect an honest discussion of the man on his factual merits - something which you seem utterly unwilling to do.
+
+As such it seems you are projecting your own lack of objectivity on to me - I suggest you bring that up with your therapist."
+Anarcho_Capitalism,fdd74z0,t1_fdaie2t,1578297776.0,">This is not drastically different from the CEO's and executives he rails against. The average CEO salary in the US is $160,000 a year.
+
+Actually it is drastically different, no the average CEO does not - your number are just way off...
+
+According to Salary.com:
+
+[The median base salary for CEOs is $807,430](https://www.salary.com/tools/salary-calculator/chief-executive-officer?type=base)
+
+[If you include bonuses that climbs to $1,258,597](https://www.salary.com/tools/salary-calculator/chief-executive-officer?type=bonus)
+
+[If you include benefits (include $154k in paid time off) it comes out at $1,475,715](https://www.salary.com/tools/salary-calculator/chief-executive-officer-benefits)
+
+Which means the median CEO in the US makes almost as much in vacation pay in a year as Bernie's entire federal salary.
+
+>He's easily as rich as the people he hates the most
+
+1) Not even close
+
+2) I don't think he hates anyone, I think he just believes that society needs to be restructured more fairly.
+
+Now, I'm not a supporter of his but I think it is incumbent on any rational and intelligent mind to weigh and measure the strengths and faults of another person fairly and with accurate data - something which you seem to be struggling mightly to avoid doing - it makes me wonder what your emotional stake is."
+Anarcho_Capitalism,fd9sjaf,t1_fd6vnkl,1578237551.0,"He has been in that income bracket maybe 3 of the last 4 years as a result of his book sales - and that's it.
+
+For the last 28 years he has been a federal employee, his current salary as a US Senator is $174,000 a year - so not even half of the number you've stated."
+Anarcho_Capitalism,fd1qbrr,t1_fd1lu4b,1578135140.0,Yeah apparently I have a problem with doing that...
+Ranching,fd1q678,t3_ejrtvg,1578135086.0,First thing you need to do is find out exactly what your water situation is.
+Anarcho_Capitalism,fd1fimw,t1_fczq89i,1578130798.0,"I'm not a Bernie fan but this is absurd.
+
+To be a top 1% in the US you need assets exceeding $8.4mm - Bernie barely tops $2.5mm 
+
+Then when you consider that $1.7 mm came from the sales of the three books he's written since 2016. 
+
+That means that 4 years ago - 74 year old Bernie had a net worth of less than $700k - the vast majority of that (approximately $650k) was in his federal pension plan.
+
+Not exactly a fat cat.
+
+There are plenty of legitimate criticisms of Bernie that one can make, this is however is just shoddy work for cheap points."
+RoastMe,fd1cer2,t1_fcz7kt6,1578129778.0,Something tells me that even inbreeding couldn't do any worse than those two...
+instant_regret,fczccgw,t1_fcwvxfl,1578098072.0,">I’m assuming because the bottle is expensive, you think he’s a douchebag?
+
+As is so often the case, your assumptions are entirely incorrect but thanks for confirming my assertion about your particular status.
+
+No, spilling an expensive bottle of bubbly because you're trying to show off instead of opening it correctly and with appropriate support to avoid exactly what happened.
+
+Yeah, that makes you a douchebag."
+instant_regret,fcv9ref,t1_fcukuzf,1577997601.0,"I'm not judging people, I'm judging behaviors."
+instant_regret,fcub4df,t1_fcqcdfa,1577976849.0,"If you can't see the reason, I suspect you might also be a douchebag but I'm guessing you already knew that..."
+instant_regret,fcuaz3k,t1_fcqgup1,1577976753.0,"Actually, there is a tradition to do exactly that..."
+instant_regret,fcuawgg,t1_fcqg7if,1577976707.0,"No, but I spent a summer in Ibiza and had the opportunity to meet literally hundreds of guys just like him..."
+instant_regret,fcuasmo,t1_fcqg9hb,1577976638.0,"Not special per say, but given the physical characteristics of the bottle,  there are many ways it can be opened - some are more successful and others (*see above*) are less so..."
+instant_regret,fcq7onu,t3_eiher0,1577880486.0,"It amazes me how people can put so much effort into being pretentious douchebags but not bother to spend 5 minutes learning the proper way to open a Jeraboam.
+
+I'd say this could not have happened to a more deserving fellow but honestly the bottle deserved better than that."
+interestingasfuck,fcowa7u,t3_ei7m21,1577843319.0,"Well did anybody stop and think that maybe if we weren’t going around & chopping their heads off all Willy nilly they might not have gone extinct?
+
+I didn’t think so."
+aww,fcoqjnb,t1_fcnsidd,1577838892.0,">How am I supposed to know if a dog has been on the seat I am going to sit on
+
+You don't - you either cope with the uncertainty or you take steps to protect yourself.
+
+If the worst thing that happened to a seat on a public transport was a dog sitting on it - you should count yourself very very lucky."
+aww,fcmtug2,t1_fcmpkal,1577791979.0,">They don’t just suddenly decide to shit where they’re sitting. Must be confusing dogs for humans ~~babies~~
+
+FTFY & Seriously...
+
+I don't take my dog on transit with me because I dislike crowds and if I'm unhappy or agitated my dog gets anxious so it would be setting her up for an unpleasant experience.
+
+That said, she will do anything in her power to avoid an accident, the only time she's had an accident since we got her was once when we moved and she managed to grab an entire bag of greenies, hide it then eat the entire bag in the night like a sneak.
+
+I woke up the next morning and walked into the bathroom and it looked like I'd unknowingly offended a pack of drunken leprechauns as she'd clearly had several episodes of explosively green and foamy diarrhea during the night.
+
+That said, she managed to contain it to the bathroom and she looked so mortified and ashamed I couldn't even bring myself to yell at her."
+aww,fcmszvn,t1_fcmoex5,1577790795.0,"If an animal is permitted by the rules of the transport system then it isn't them who makes your day worse but whomever established the rules.
+
+Perhaps if you have unusually strong allergies you should take additional steps to ensure that you do not come in contact with anything that will give you an attack - rather than expect the world to cater to your specific conditions."
+aww,fcmsgu3,t1_fcmnlnk,1577790040.0,">OP is forcing whoever comes next to sit down in a spot that was touched by the dog's uncovered anus before.
+
+Yeah,  I think you are making a mountain out of a molehill here - perhaps if you're that afraid of getting cooties you should wear protective barriers."
+aww,fcms1ut,t1_fcmnzau,1577789441.0,">Having been on public transit before - I treat all seats like they've been touched by a ~~dog~~ human's uncovered anus...
+
+FTFY"
+aww,fcmr7cy,t1_fcmmy6p,1577788215.0,If the dog has dirty paws or something then sure I get that - but otherwise it seems silly.
+trashy,fcmqax6,t1_fclcotf,1577786925.0,"Well that's sad - although maybe having a conversation with him about it might be more constructive than seeking attention on Instagram?
+
+I'm not remotely insecure but the values that Instagram promotes are just not compatible with the values I care about - so much so that I would have a hard time dating someone who even used it.
+
+Fortunately for me, my wife feels the same."
+nottheonion,fcmpwhj,t1_fclfj19,1577786360.0,"Only in Alabama would that sign be qualified with ""*kinda*"""
+HistoryMemes,fcjsfnq,t3_ehaw12,1577702357.0,That's like saying my College age nephew is the boxing champion of the elementary school down the street.
+Simulated,fcjs0w2,t1_fcjayy3,1577701753.0,">Though it does taste remarkably like beaver ass.
+
+One might wonder how you came to know exactly what a beaver's ass tastes like but one is smart enough to know that some questions are best left unasked and unanswered."
+nevertellmetheodds,fcjqhzi,t1_fcjbi07,1577699524.0,">Visa/MasterCard/etc register the first 8 digits (the BIN) to financial institutions
+
+First 6 actually - but each bank has a public list of possibile prefixes.
+
+[I list all of the possible prefixes for a Chase Visa Debit card in my first response to this post.](https://www.reddit.com/r/nevertellmetheodds/comments/ehcar9/nice/fcjq2p1/)"
+nevertellmetheodds,fcjqds2,t1_fcjezw1,1577699354.0,">Look at a check and then guess your card in 100 tries. You have a bank and routing number with a check, you can use that to clear a payment far easier.
+
+That is even easier (*at least for most debit cards*).
+
+Out of the 16 digits - the first 6 are assigned to the issuing bank - you can google to find a complete list of those used by a specific bank. 
+
+The next 9 digits are the account number - so for a debit card that will usually be the checking account number (*conveniently located at the bottom of a check*) then you can use a Validation tool that will use the standard Lund Algorithm to calculate the final digit which is the checksum.
+
+That wouldn't work here because Chase assigned different account numbers for the Visa Debit cards but it does work for BOA and many others."
+nevertellmetheodds,fcjq8jh,t1_fcj3657,1577699141.0,"All 16 digit credit cards use the Lund Algorithm.
+
+The first 6 digits are proprietary to the issuing bank. The last digit in the checksum, the remaining 9 digits are the account number in larger institutions but you'll see some variance with Credit Unions since many of them only use 7 digit account numbers."
+nevertellmetheodds,fcjq2p1,t1_fcizy1x,1577698910.0,">Visa has preset digits for the first 4
+
+Actually the first 6 are easy to narrow down - We know the bank (*Chase*) the Brand (*Visa*) and the Product (*debit*) - we can look online and find the first 6 digits for  all Chase issued cards. Then we filter that list down to only include visa cards and debit cards and that leaves us with...
+
+The following number sets:
+
+406032, 406042, 406045, 406068, 412451, 412453, 420767, 428208, 430326, 431231, 434769, 441103, 441105, 442732, 442742, 442755, 450952, 456323, 456331, 461046, 473622, 475055, 475056, 478200, 483312, 483316, 483323, 483324, 486742, 486796, 490070, 490071, 406032, 406042, 406045, 406068, 412451, 412453, 420767, 428208, 430326, 431231, 434769, 441103, 441105, 442732, 442742, 442755, 450952, 456323, 456331, 461046, 473622, 475055, 475056, 478200, 483312, 483316, 483323, 483324, 486742, 486796, 490070, 490071.
+
+Since we already have the last 4, that just leaves 6 unknown digits (*out of a total of 16*) which are the first 6 digits of their account number. 
+
+This might leave the OP reasonable secure if it was a random string of digits, but since credit card numbers follow the Lund formula for checksum verification, it really narrows the potential numbers down to about 20% of initial random number groups.
+
+Anyone with a decent credit card validation program could write a script to validate the remaining possibilities fairly quickly and come up with a short list  of potential 16 digit numbers which could be his debit card number to start testing.
+
+Then we need to determine the expiration date which only has a maximum of 60 possible options. Fortunately you can validate card number and exp date without throwing up red flags (*see below*) they could fairly quickly condense the initial list even further.
+
+Finally we need the CVV which seems like it would be a bit trickier as it has 1000 possible choices and credit card validation system throws up an alert if you enter the wrong CVV too many times. However, as that is only on a single site or merchant processor - so all someone would need to do is write script which distributed the 1000 potential options through multiple sites and merchant operators and they should be able to determine the CVV within a few hours at that point.
+
+If I was the OP, I'd probably want to replace my debit card fairly soon..."
+iamatotalpieceofshit,fcjivjs,t1_fcjii0j,1577689310.0,">Prosecutors always offer a plea..
+
+Only a Sith deals in absolutes..."
+iamatotalpieceofshit,fcjitiw,t1_fcjilgn,1577689247.0,"I agree and I'm not biased.
+
+In a situation like the OP where the guy is being sleazy - maybe some community service or counselling could be ordered by the court but prison (*and especially not sex offender registration*) doesn't make sense for statutory rape."
+4chan,fcjh049,t1_fcjgs79,1577687263.0,"Wait, when did you stop sucking cock?"
+JustBootThings,fcjgnve,t3_ehad8x,1577686908.0,"I don't shoot to wound, I don't shoot at all.
+
+I just wait till they are tied to a chair and then inflict hundreds of paper cuts to the webs of skin between their fingers and toes..."

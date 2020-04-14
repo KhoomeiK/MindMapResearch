@@ -1,0 +1,267 @@
+subreddit,self ID,parent ID,time,text
+technology,ffz4kub,t1_ffyuow4,1580363765.0,"> the Oculostenotic Reflex that surgeons suffer from, defined as the ""irresistable urge"" to do unnecessary surgery on people, and coercing the public into surgery for that end.
+
+One of the things that ""tort reform"" advocates tout is how much cheaper healthcare will be once the doctors don't have to pay so much for their malpractice insurance. [Nope.](https://www.newyorker.com/magazine/2009/06/01/the-cost-conundrum) Texas passed pretty hardcore malpractice reform and the docs took their malpractice insurance savings and bought fancy new equipment to do more tests with, because after a few years of ""doing these tests to make sure we don't get sued"" they realized that they could be ""doing these tests because everytime we do them the machine makes a ka-ching sound""."
+HealthInsurance,ffyc6kl,t1_ffyasi2,1580342939.0,"Maybe it's just Texas then, or maybe the providers I've worked with figured that was the more politically correct reason to give."
+IdiotsInCars,ffxmuov,t1_ffwz666,1580328347.0,"""If it's stupid and it works, it's still stupid."""
+HealthInsurance,ffx83fc,t1_ffx48pb,1580319717.0,"State laws vary but I think this is pretty standard across most of them.
+
+Usually the reason doctors don't take Medicaid is because they don't pay enough, so if they're limited to what Medicaid would pay if they see you, they're still not getting paid enough."
+HealthInsurance,ffw2n6l,t1_ffw05bt,1580281685.0,"The way COBRA is usually gamed is that you plan to spend one month uninsured and have insurance lined up starting the month after (keep in mind most states have a deadline of enrolling in the exchange by the 15th to get insurance starting the next month).
+
+In your case though you can skip 2 months: at the end of February you should either have a job or get an exchange plan that will start April 1.  Then, if you need insurance during February or March, at that time you submit your COBRA paperwork and pay for both February and March and retroactively re-activate your company insurance.
+
+This works because you have 60 days after losing coverage or getting your COBRA notice to retroactively get COBRA, and 60 days after losing coverage to start a new exchange plan going forward.  February is only 29 days so it's exactly 60 days to April 1 :)  Otherwise, for instance if you lost the insurance on March 31st, and tried to skip 2 months you could end up in the hospital on May 31 with insurance starting tomorrow and the deadline for applying to COBRA yesterday.
+
+You also need to watch out for probation periods at new jobs, if you don't get insurance until you've worked for X months you'll be stuck without if you didn't have an alternate plan in place. Also, the federal penalty for being uninsured is gone but some states have created their own penalties, so you may need to check how long you can be uninsured in your state before you try to skip two months."
+HealthInsurance,ffw03n5,t3_evi704,1580278901.0,">  Can I do COBRA for Feb and then if I don't actually end up getting hired switch to an exchange plan for March?
+
+No. Once you start COBRA, stopping it is not a qualifying life event unless you run out the entire benefit period (18 months with no extensions) by which time you'll get a plan during the next open enrollment or a different job."
+HealthInsurance,ffvulrg,t3_evhcx1,1580273716.0,"> ""Preventive care"" must be billed as such by the provider and that provider must be in network
+
+It also needs to be in the government's list of preventive care included in the ACA (Listed here: https://www.healthcare.gov/coverage/preventive-care-benefits/ ) and you have to meet the requirements for the test including how often it can be done.
+
+Some companies *might* cover more stuff, but only because the state law requires it or they feel particularly generous."
+AskReddit,ffvqdpg,t1_ffvolqa,1580270356.0,"Given the price of guac, I just assumed, never asked.  Not sure that this knowledge will convince me to go back and see though."
+Qubes,ffvo125,t3_evgcll,1580268664.0,"It looks like around 2008, [manufacturers started promising hypervisor support](http://www.linux-kvm.org/page/PowerPC) but it seems like [IBM is the only company that is actually delivering](http://archive.ibmsystemsmag.com/power/infrastructure/linux/powerkvm-overview/) with [some limitations to protect their PowerVM product](https://www.mainline.com/kvm-even-need-powervm-anymore/)
+
+So basically, assuming that PowerKVM is more-or-less compatible with stock KVM, then whatever effort is being done to port the Qubes glue from Xen to KVM should be the largest stride towards PPC support."
+HealthInsurance,ffvl4hd,t3_evf25p,1580266676.0,"I'm not sure if numbers are publicly available, but there are people who remain employed past 65 with insurance through their company (Medicare has a term for this for their claims: ""[Working Aged](https://www.cms.gov/Medicare/Coordination-of-Benefits-and-Recovery/Coordination-of-Benefits-and-Recovery-Overview/Medicare-Secondary-Payer/Downloads/MSP-Working-Aged.pdf)"").  Their premiums would be whatever their company is able to negotiate.  I've worked for companies where everyone got the same premium (decided as an average across the entire corporation) and where premiums were set by age.
+
+As for getting their own coverage (which I think is currently impossible, and was probably also impossible prior to Medicare being created), I don't know where or when these numbers came from but [this site](https://www.valuepenguin.com/how-age-affects-health-insurance-costs#age) has a graph and table showing the average ACA silver plan premium by age.  You can see the cost increase really starts speeding up as you approach 60, though it grows a little less at 64. I personally think after 64 it would speed back up.  The insurance company would look at the average cost of 75 year olds and their broken hips, heart attacks, cancer and so on to decide what the cost of insuring any given 75-year-old in your area would be."
+AskReddit,ffvfcju,t1_ffu6fjl,1580262801.0,"I'm from Texas and I've got pretty much the same experience as /u/uptonhere.  Every Chick-fil-a is immaculate and the service is excellent and once you get through the sparkling, beautiful outside shell, the food inside turns out to be *just ok*, but exactly the same every single time, anywhere you go.
+
+Personally, I prefer Popeye's because their chicken still has a flavor other than ""salt""."
+AskReddit,ffvbv11,t1_ffu5pt9,1580260459.0,"Where I am, it's a short drive to Uberrito where I can have a burrito with 20 toppings if I want and excellent queso, or a bit farther to Freebirds where I can have a burrito with 10 toppings if I want (they stopped having red onion as an option, but their beef fajita is better IMO) and excellent queso.  Or I drive a bit (ok, a *lot*, it looks like they closed the local one) farther than that I can go to Moe's and get a burrito that doesn't charge extra for guac.
+
+Or I can drive to Chipotle and get a burrito with my choice of cheese ***or*** sour cream, a salsa, and, if I want to pay out the nose, a spoonful of guac.  When they finally got queso it was some sort of bizarre non-newtonian fluid looking stuff where it looked like you could see the individual cheese particles like grains of sand, yet it flowed so well it did not even stick to the plastic cup.
+
+I don't eat at Chipotle, but it's not the e.coli stopping me."
+politics,ffv7dro,t1_ffv19pp,1580257443.0,"This is just ""it's ok when WE do it"" which gets us punched in the face 20 times by THEM because WE gave permission and refuse to learn the goddamn lesson.
+
+Environmental groups, patient advocates and so on are going to have to learn a new way to do things.  Sorry, but just like lawn darts, the miscreants ruined it for everyone else, and no amount of promising ""but WE can do it right"" can't be abused by other people who make the same promises."
+HealthInsurance,ffkas8a,t1_ffk1fp8,1580019737.0,"> Meaning they are in your insurance company's network, so they're ""in network"".
+
+No, all it means is that they'll take and bill your insurance. Out of network doctors will bill your insurance too.
+
+> never ever ever EVER rely on your provider to tell if your they take your insurance.
+
+This part is true though."
+AskReddit,ffj5zks,t3_etv4e8,1579991259.0,Had to be me. Someone else might have gotten it wrong.
+AskReddit,ffj5wd5,t1_ffj2qox,1579991194.0,[HA HA HA](https://www.youtube.com/watch?v=sOzM4ClFG1o)
+AskReddit,ffj1whs,t1_ffj0cob,1579988317.0,"Five, seven, then five.  
+This is what makes a haiku.  
+Refrigerator."
+Showerthoughts,ffi7mry,t3_eti11r,1579967207.0,The half he sleeps with often end up dead too.
+news,ffhc4ka,t1_fffbc50,1579929486.0,"> Or even once a year
+
+Not once a year. This is #3 in the last 12 months for the Houston metro area."
+sysadmin,ffgrezb,t1_ffgaju8,1579913143.0,"> But no, you just wait a little longer and a PA comes in
+
+Actually, that person is generally a Medical Assistant (MA)."
+AskReddit,ffflurs,t1_fff0x02,1579886756.0,"> I am authorized to leave whenever I want!
+
+The monkey's paw curls: You were authorized to ***ENTER***."
+AskReddit,ffflkw5,t1_fff0pvc,1579886592.0,Only way to know is to see if the top comes off.
+politics,fff6vmu,t1_fff05vh,1579877225.0,"You'd need to find me one of those from before they formed Ally Financial in 2010 to change my view.  I managed to find several that [compared other banks to GMAC Bank](https://www.philadelphiafed.org/-/media/cra_pes/2007/2354985.pdf) but I couldn't find one for either GMAC ResCorp, GMAC Mortgage, or GMAC Bank itself.  Since part of the Community Reinvestment Act's requirements is that the bank lends in the community where its branches are, a bank with no branches is fairly hard to control. (The CRA [""mandates that all banking institutions that receive Federal Deposit Insurance Corporation (FDIC) insurance be evaluated by Federal banking agencies to determine if the bank offers credit...in all communities in which they are chartered to do business.""](https://en.wikipedia.org/wiki/Community_Reinvestment_Act#Enforcement)).  There's some [good articles](https://scholarship.law.unc.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1084&context=ncbi) on difficulties using the CRA to regulate these branchless internet banks.  [As of 2014 these issues have not been resolved](https://www.americanbanker.com/opinion/what-branchless-banking-means-for-the-cra) (this article also notes that in 2005-6, CRA loans accounted for just 6% of all subprime loan originations), and [as of *right now* you can submit your comments on two different options for changes to the CRA regulations](https://nextcity.org/daily/entry/a-tale-of-two-community-reinvestment-act-proposals)."
+AskReddit,ffeb68s,t1_ffe2x19,1579841871.0,"> It was all creepy af and eventually she cut my brakes.
+
+Well that accelerated quickly."
+todayilearned,ffdz99j,t1_ffdf2zq,1579832636.0,"Yes, just like you're told the pill will cure your migraine (and it does because you think it will), you're also told the pill causes itching and dizziness (and it does because you think it will)."
+todayilearned,ffdys73,t1_ffdm9j8,1579832293.0,"""Nocebo"" specifically refers to the phenomenon of patients taking the placebo also experiencing the side effects they were told the real drug has.  That is to say: just like they feel good because they were told they will feel good, they feel bad because they were told they will feel bad. 
+
+So not only does the sugar pill cure their headaches because they were told it would, it gives them dizziness, rashes, and the runs, because they were told it would.  It does not have anything to do with whether or not they know it is a placebo.
+
+> [Nocebo effects can modulate the outcome of a given therapy in a negative way, as do placebo effects in a positive way.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4804316/)
+
+These effects are important because the placebo and nocebo effects stack on top of the actual effectiveness of the drug.  If you slipped migraine sufferers a real migraine pill in their food without them knowing at all, some portion of people will not notice any significant change either way.  But once they know they are taking a pill, their headaches become better and their rashes get worse."
+politics,ffdw6y6,t1_ffd57rd,1579830444.0,"> Likewise for the Government Motors bailout, though in that case they did ""need"" it
+
+They did need it. They needed the money in order to save ditech.com, their mortgage financing unit which participated in making a *lot* of subprime loans, all without any government meddling at all what with GM not being a bank and not beholden to whatever Clinton regulation people think made subprime loans happen.
+
+Thanks to the government bailout they were able to shed their toy car division and reemerge as Ally Bank."
+AskReddit,ffdoeaq,t1_ffdm4ga,1579825184.0,"But people justify that by claiming that everything the government does ""for free"" could have been something done for profit, and thus ""the stuff that creates wealth"" has been appropriated.
+
+Of course, it's usually claimed that way by people who feel it is sooooo unfair that fedex and UPS are legally forbidden from carrying your letter for 50 cents."
+HealthInsurance,ffdmv2l,t1_ffdlg8n,1579824255.0,"If you claim your company insurance is too expensive, then if the company has more than 50 employees, your company receives a tax penalty.  The company would then appeal the penalty and show your income and the costs of the available plans to prove they are less than [9.78 (it changed for 2020)](https://www.shrm.org/resourcesandtools/hr-topics/benefits/pages/irs-2020-affordability-threshold-for-employer-health-plans.aspx) percent, and then the IRS comes back to you to collect that subsidy back.
+
+If it's less than 50 employees then maybe the IRS asks the company nicely to confirm, not sure?"
+gaming,ffcn1jf,t1_ffckli8,1579802930.0,"It's ok, I put a bucket over his head before I took it, he doesn't even know it's gone."
+rpg_gamers,ffc7hff,t3_esrwuv,1579793308.0,"Vagrant Story had weapon affinity which is kind of like levelling, though making use of it was pretty damn grindy (weapons gained power against the types of enemies you used it on, and there were various target dummies around the game world you could beat on for hours to level up the weapon against that type of enemy), but as for the rest, you just combine weapons to craft new ones so they don't really evolve beyond that."
+HealthInsurance,ffc4xgi,t1_ffc4oek,1579791616.0,Texas didn't expand Medicaid.
+Showerthoughts,ffaoyix,t1_ffajmlt,1579741083.0,"Yeah the original meaning wasn't all that impressive.  I can imagine the speeches:
+
+""Look to your left, now look to your right.  Most of you are going to survive, in fact pretty much all of you are.""
+
+I can't help but wonder if there was a translation error at one point where ""reduce to 10%"" became ""reduce by 10%"" because why would someone bother coining a term for this?"
+HealthInsurance,ffahnxs,t1_ffa98n3,1579735967.0,"> single this one out because of the Cough diagnosis
+
+The other gal replied with a lot of words, but the original reply really says all that needed to be said. It was singled out because it's not on the list of free preventive services and your insurance probably doesn't add any freebies not required by the law.
+
+Even if the billing department took Cough off, the insurance company would still refuse to pay it, except perhaps now they'd deny it completely as an unnecessary test instead of discounting it and using your deductible on it.
+
+Edit: Sorry"
+HealthInsurance,ffaftyr,t1_ffact14,1579734754.0,"Once her previous insurance realizes she did not sign up for Cobra, they will retroactively cancel the claim and she will be billed for that scan."
+anime,ff99p77,t1_ff953mj,1579708051.0,Ain't nobody got time to pick it up and flip it over.
+funny,ff98zmj,t1_ff8mqc8,1579707604.0,"The real deal is that CocaCola used to sell 24 can packs.  Then they became 20 can packs, now 15.  Meanwhile I can still get 24 can packs of Dr. Pepper."
+HealthInsurance,ff967j8,t1_ff8a8oa,1579705797.0,">Your prescription benefits manager doesn’t have any visibility regarding your claim with regard to secondary or tertiary payors once they’ve adjudicated it.
+
+In at least my case that wasn't true, after using an assistance card I got a letter from BCBS saying that unless I could prove that the card was income-based (it wasn't, the manufacturer gives them out to everyone) they would reset my deductible, and they did."
+HealthInsurance,ff6ofkm,t3_ery8v9,1579631526.0,"If you are pregnant now then no, all just about every non-aca plan excludes existing conditions. Otherwise it is just very unlikely and you will have to read the plan docs very carefully to make sure it covers all the prenatal care and ultrasounds."
+AskReddit,ff5bdwo,t1_ff4zz3y,1579586106.0,That guy banks!!!
+gaming,ff54vtj,t1_ff3j5tb,1579580309.0,"I'm sorry, I can't hear you over the sound of saving the beer."
+gaming,ff51i55,t3_ern6a1,1579577694.0,"I have already finished two games off my steam backlog this year.
+
+400 someodd more to go."
+IdiotsInCars,ff4mopd,t1_ff3exso,1579567332.0,"Got me like that too years ago. U-turn under an underpass. Guy ahead of me went behind the pillars and stopped out of sight, and I hit them while watching for oncoming traffic.  Now I always stop at the yield point and check both ways."
+IdiotsInCars,ff3lclc,t1_ff3jgo3,1579543500.0,"> It gives me mild stress to walk away from the car with the lights still on.
+
+What really ticks me off is that a ton of cars have the *reverse* lights lit in back in ""auto light"" Mode. I'm crusing for a parking spot and see a car with their reverse lights on and wait for them to back out and nope, they eventually turn off."
+news,fez905z,t1_feuj7i3,1579454966.0,"Sounds like they trained the translator AI on that ""My hovercraft is full of eels"" guy."
+news,feyyjch,t1_feymecj,1579452032.0,"> It’s like putting cheap spark plugs in your new car and saying the entire car is shit when your truck crashes.
+
+FTFY. Fitting you use a car analogy, 50%+ of the subprime mortgages came from non-bank institutions like ditech.com, which might be better known as ""General Motors""."
+news,feyxk09,t1_fexfwys,1579451667.0,"> Loans guaranteed by the federal government
+
+The definition of ""Subprime"" is ""not insured by the government""."
+linux,few0hbb,t3_eqn5gu,1579403718.0,"For gaming, see [ProtonDB](https://www.protondb.com/explore) for figuring out what windows (Steam) games work well in Proton.  It'll also let you know if there's a native Linux version.
+
+My eyesight's pretty crap so I can't judge whether I'm getting HD video or not but Amazon Prime and others play in Firefox after enabling DRM plugins. I definitely don't think you'll be able to get 4K (last I checked even in Windows you had to use Edge for that on Netflix)"
+politics,fevaofb,t1_feuwdgk,1579395188.0,"> make less money
+
+Facebook already has [15,000 employees moderating content](https://www.npr.org/2019/07/01/737498507/for-facebook-content-moderators-traumatizing-material-is-a-job-hazard)  and [contracts with companies employing hundreds of thousands of people around the world](https://www.cnet.com/news/facebook-content-moderation-is-an-ugly-business-heres-who-does-it/) and people are unhappy with the result. How many more people do they need?  Once they have a million people working for them, how many mistakes do you think will be made a minute?  Better hire some more to double-check their work.
+
+That's just the content moderation to make sure people aren't posting about their exes sleeping around with the football team or employees aren't talking about how bad it is to work for their bosses. (Oh, and all the nazi stuff everyone wants to get rid of, but that's like 0.001% of the lies and tall tales that people post every single day on social media, that you want to make companies responsible for.)  Of course, what people are really angry about is the advertising.  I expect whatever changes companies are forced to make in this field will reduce revenue.
+
+> You're not even trying to argue in good faith.
+
+Did you even have an argument other than ""it's impossible to lose money?""  If it costs more to run the site and they earn less revenue, then at some point it's no longer about ""less profit"" and more about taking the cash and shutting down before they get cleaned out by lawsuits or whatever fines you think will ""hold them responsible""."
+Qubes,feuhdks,t1_fetsto1,1579386579.0,"> I would have assumed it would be labeled ""Template"" instead.
+
+I've never tried it but I don't think the standalone HVMs can be used as templates like the normal TemplateVM/AppVM pairs."
+todayilearned,feugx8e,t1_fet3xmn,1579386472.0,Probably someone who couldn't get Newsweek to load.
+todayilearned,feughzc,t1_fetpczs,1579386324.0,"> just happened to have a coat hanger on his person.
+
+When I was a kid in the 80's, my father drove us to see a game in the city (soccer, I think it was).  After the game we discovered that he had locked the keys in the car.  He had us scour the parking lot and we actually found a coat hanger that for whatever reason had been dropped in the lot, and he was able to get the door open and us back home."
+politics,feue4bg,t1_feozo4y,1579385641.0,"> holding them responsible for the ideas to which they give a platform.
+
+Which do you think will happen, that facebook will hire a hundred thousand more fact checkers and reviewers to review every little post coming through or that they, and every single other website and host that allows people to post, will shut down?"
+politics,feuaokm,t1_fetkvgg,1579384775.0,"It's hilarious watching people act like nazis or gays are going to use this for something or another.
+
+Twitter will die within minutes from the thousands of posts about exes sleeping around.  Facebook will be next once companies start suing over posts about poor work conditions. Everything else will close up shop and shut down before they're next."
+politics,feu97zf,t1_fenkgth,1579384346.0,"> Back in the day, message forums had moderators who did this kind of work.
+
+""Back in the day"" was 1996 when the law passed.
+
+BTW ""moderators"" are authorized by S.230:
+
+> No provider or user of an interactive computer service shall be held liable on account of—  
+(A) any action voluntarily taken in good faith to restrict access to or availability of material that the provider or user considers to be obscene, lewd, lascivious, filthy, excessively violent, harassing, or otherwise objectionable, whether or not such material is constitutionally protected; or  
+(B) any action taken to enable or ***make available to information content providers or others the technical means to restrict access to material*** described in paragraph (1)."
+politics,feu831e,t1_fenorog,1579384049.0,"> I think it would be similar to how slander works now
+
+So I post on facebook that my ex cheated on me.  When that news gets back around to my ex, how does facebook prove whether I'm lying or not. Am I going to have to fly to California to testify in court to save facebook? Is facebook going to pay me to do that?"
+politics,feu7f6f,t1_fenh559,1579383819.0,"Since we're in a thread about reading the goddamn law and it's obvious that nobody has read the goddamn law...
+
+>There has to be protections for comments
+
+***CDA S.230 isn't about protecting comments.*** It's about protecting the newspaper for sharing your comments.  Under CDA S.230, if your comment was determined to be fake news, you are responsible for it as the author of the comment, not the newspaper for allowing you to post it.
+
+[S.230 provides two protections:](https://www.law.cornell.edu/uscode/text/47/230)
+
+> No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider.
+
+and
+
+> No provider or user of an interactive computer service shall be held liable on account of—(A) any action voluntarily taken in good faith to restrict access to or availability of material that the provider or user considers to be obscene, lewd, lascivious, filthy, excessively violent, harassing, or otherwise objectionable, whether or not such material is constitutionally protected; or(B) any action taken to enable or make available to information content providers or others the technical means to restrict access to material described in paragraph (1).
+
+S.230 isn't about protecting comments, it's about protecting the service providers like reddit and such so they'd be willing to allow people to post comments on their website.  But it goes beyond just comments, it's also what allows web hosting companies to host people's websites.  That ""B"" there in the second half is what allows community moderation.
+
+Removing S.230 is the nuclear option.  Once the bomb has gone off, **and it will**, the internet is over.  It will become a desolate wasteland for companies to sell stuff to people.  Reddit, Facebook and Twitter will go down to jilted exes suing over ""fake news"" that they cheated.  Youtube will delete their comments section and every video not uploaded by a corporate account.
+
+You can have any comment you want.  You just won't be able to have any website or online chat to put it on."
+ofcoursethatsathing,fetu7xr,t1_ferd5f0,1579380129.0,"Push bacon, receive scorn."
+HealthInsurance,fep7p0w,t3_eq7kmi,1579313993.0,"In addition to asking the  surgeon for the CPT codes and passing them along, you'll want to find out what pathologist the doctor plans to use, so you can ask the insurance company if that pathologist is in network.  Same for anesthesiologist, those are often contracted out to random people and you may have to do some advanced scheduling to get one in your plan available at the same time as your surgeon is available."
+Qubes,feode80,t1_feoab0b,1579298652.0,"You will need to boot some other linux to edit the other partitions, windows can only recognize the EFI partition"
+Qubes,feo7h82,t3_eq6g9c,1579296188.0,Googling for the error I found https://bugzilla.kernel.org/show_bug.cgi?id=203617 which has some commandline options you can use to try and fix it.  If you are using UEFI you will need to edit the install media according to the instructions at https://www.qubes-os.org/doc/uefi-troubleshooting/#change-installer-kernel-parameters-in-uefi
+todayilearned,felsc5p,t1_felpon0,1579229724.0,"> why religions might have this rule.
+
+I think for a lot of them, its so you're not missing any bits in the afterlife.  [Even the Egyptians figured you'd need them when it was time to go.](https://en.wikipedia.org/wiki/Canopic_jar)
+
+While it looks like even the Jehova's Witnesses don't mind if you get an organ transplant (as long as you don't need a blood transfusion with it) it seems an interesting question to me whether those bits become part of you and go with you in the afterlife, or say you get a murderer's spleen, do you go to heaven while your loaner spleen goes to hell?"
+HealthInsurance,felomaf,t3_eptgu6,1579227173.0,"1. I think you'll need to contact HR at your old company to ask for another copy of the paperwork.
+2. You pay the insurance administrator the premium for the insurance, and the hospital whatever the copay/deductible etc is for the services.  Since it's the beginning of the year, the deductible probably reset so you will need to pay that too if the ER charges that much.
+3. Hard to say.  ER visits are pretty inflated, and you might be able to negotiate a cash pay discount.
+4. Correct, once you have your new company's insurance starting in February you would cancel the COBRA coverage.  You would only need to pay the premium for January.
+
+To figure out the cost of COBRA premiums you will need to know the true premium (most companies pay some portion of your insurance policy, often 50%, which is why people are amazed how expensive COBRA is).  COBRA adds a 2% ""service charge"" on top of the true premium cost for managing your enrollment outside of the company.  As for the cost of the ER trip with insurance, you'll need to look at your plan information and figure out if your deductible resets in January (most but not all do) and if so, how much it reset to this year."
+HealthInsurance,felmt7f,t3_ept3pa,1579225932.0,"Most insurance companies will reset your deductible if they ever figure out that you did not actually pay the $2000.  The doctor's scheme is basically exactly the same as with the drug copay assistance programs, where the drug manufacturer fronts thousands of dollars to pay off your deductible on their expensive drugs because once that's done they expect to get thousands more direct from the insurance.
+
+That said, I think if the doctor bills the insurance for services he did not perform, that would be fraud, even if the doctor did not bill you and receive any money.  The doctor may be able to put together a case that whatever he did do was worth $2000, especially since he's not in network and not beholden to the insurance company's contracted rates.
+
+Aside from that, what happens after you meet this out-of-network deductible? Is the doctor going to be similarly charitable if your insurance only pays 50% of everything else out of network?"
+todayilearned,fel5d4z,t1_fektu4p,1579214409.0,Makes sense in several ways. If you have a religious restriction against taking out organs then it's likely you didn't want some randos organs stuck in you anyway.
+HealthInsurance,fekbftm,t1_fejwviy,1579196546.0,"Do you have the CPT codes for the labs (5 digits, for labs almost always starting with ""8"") or just LabCorp's 6-digit codes for the labs?  The insurance company can't help you without the CPT codes since those are what are actually sent to them for billing.
+
+If you have the 6 digit codes from LabCorp, you can look them up on their website: https://www.labcorp.com/test-menu/search to get the CPT code.  For instance, a [028142 CBC without differential](https://www.labcorp.com/tests/028142/complete-blood-count-cbc-without-differential) says CPT:85027. Some tests may have multiple codes, all of them will be billed together so you will need to total them up.  Tests that say ""reflex"" may have additional testing done in certain conditions, you'll need to search for the additional tests separately.
+
+Not all of the tests will show up in LabCorp's website, you should be able to call them and ask which CPT codes are in tests that don't (these are often custom order codes that doctors have made that might have a dozen or so tests included in them so be ready to write them all down)."
+IdiotsInCars,feieqy9,t1_fehx88a,1579136807.0,"We thought he was a goner, but the car came back."
+HealthInsurance,fehdb9y,t3_ep6c21,1579114200.0,"You'd need to check with the secondary insurance to see how they process your claims as secondary. You should get an EOB with the claim information from them, and they may or may not pay the $20 difference between the primary's copay and their copay."
+news,feh9tzu,t1_feh2igw,1579112142.0,Kids certainly don't.
+Qubes,fef4xjs,t3_eosg40,1579048270.0,"Someone would need to implement the wireguard protocol in the mirage kernel, then create some way to hardcode the data structure configured in the kernel by `wg set` on Linux, so it just boots with that configuration already baked in.
+
+EDIT: https://github.com/cfcs/ocaml-wireguard/issues/1 seems like it was a thing someone worked on for a bit then lost interest or something."
+anime,fef400q,t3_eot1bk,1579047643.0,"I am a little disappointed that it didn't end with Yoake's infamous cabbage, with the live action version being someone cutting a volleyball painted green."
+todayilearned,febvepm,t1_feazk0h,1578963130.0,"Can confirm, am Houstonian and felt that burn in under a minute."
+news,fdy0p24,t1_fdtdy8c,1578774830.0,"> there still is absolutely no motive for him to have done so.
+
+Unless, of course, it's true that this guy had testified against the rapist previously.  Why didn't it come up during the trial?  Maybe it wasn't admissible, or maybe the public defender just slept through the case that day.   Why didn't it come up during the exoneration? Maybe it wasn't relevant to the DNA evidence.
+
+>  The guy who testified against Robinson took a huge risk naming him if the test came back negative.
+
+Nah. Back in the early 2000s D.A.s routinely ignored DNA evidence whenever it didn't tell them they had the right guy.  Source: [Josiah Sutton](https://www.chron.com/news/houston-texas/article/Josiah-Sutton-still-waits-for-legal-exoneration-1986031.php)  See also: https://www.johntfloyd.com/cases-of-brady-violations-and-prosecutorial-misconduct/"
+Qubes,fdsonfg,t3_en0fwu,1578705957.0,"It is having an error assigning hardware into a virtual machine.
+
+You can try unchecking the option to create a USB qube and see if that allows you to continue (note that you lose security in terms of plugging in a potentially malicious USB device in this case).
+
+To truly troubleshoot this, you would need to get a console open (not sure if you can ctrl-alt-f2 in the Qubes installer or if you'd need to boot another Linux distribution's live image), run `lspci -vv` and see what devices exactly are 5:00.1 and 5:00.0 to understand why Qubes might want to move the .1 device to a VM without the .0 device."
+awwnime,fdpn9xp,t3_emllr0,1578633535.0,That's a huge sunflower seed.
+pics,fdplttt,t1_fdpled3,1578632246.0,"What's really impressive is when you're following along the Youtube video and realize in your parents' day they didn't have Youtube to show them how to do this stuff, they just muddled along until they made it work and that's why so many houses from early decade 19xx's are electrical fire deathtraps with lead in the paint and lead in the water."
+lipsum,fdplivg,t3_emlry5,1578631985.0,"Ah, sample text! Just like my mother used to make!"
+personalfinance,fdpicga,t1_fdpgsc8,1578629413.0,"Since you say you're moving money from savings, keep in mind that you can only contribute up to what you were paid as job income for the year you are making the contribution.  So even though there is a $6k limit per year right now, you must have a job paying you at least $6k to put that much in there, even if you're really taking the money from your savings account."
+gaming,fdphldk,t1_fdpcgl5,1578628837.0,"That's when you discover multiclassing.  There are a lot of cases where a Lv 40 warrior with a little Lv 1 magic is way better than any Lv 1 mage, but you've got to look at the smaller guilds where they don't pigeonhole everyone into ""tank"" or ""magic user"" and can appreciate people who bring that experience to the job."
+personalfinance,fdpgap5,t1_fdp5u35,1578627868.0,"""Taxed on deposit"" I think is a little confusing terminology. [You deduct Traditional IRA deposits from your taxes now, and pay taxes when you take the money out.   You don't deduct Roth IRA deposits, but when you take the money out you don't pay taxes on it.](https://www.investopedia.com/ask/answers/081414/can-i-deduct-my-individual-retirement-account-ira-contribution-my-tax-return.asp)"
+politics,fdpdy48,t3_emjits,1578626178.0,Well of course Republicans would believe in a shitty god who aims at homosexuals and hits kids getting blood transfusions.
+HealthInsurance,fdpcnx1,t3_emkfb3,1578625288.0,"When you call in, ask for a call reference number and who you are speaking to.  Keep a record of these, who tells you you owe money and who doesn't."
+gaming,fdp12rb,t1_fdotg63,1578617481.0,"Well, hopefully you can toss a coin to her."
+funny,fdozytr,t3_emi901,1578616742.0,"I had a bad case of the pre-meds myself, then I failed organic chemistry and found a new career path."
+ProgrammerHumor,fdozfka,t1_fdouhws,1578616388.0,"    @ Print String
+
+    This code prints the string
+
+    @<Code Block 18@>=
+      printf(""%s"", str);"
+interestingasfuck,fdoupi8,t1_fdookrd,1578613300.0,"There's a door opening inwards in the video, just has to have enough space for the tool to fit between the plate and the latch then push it inwards to open the latch."
+interestingasfuck,fdoum8o,t1_fdnzb9b,1578613242.0,It worked on the door opening inwards. It looks like the tip is pointy so you can slip it between the metal plate and the door latch and push in rather than pull out.
+IdiotsInCars,fdot4b1,t3_emd3p0,1578612279.0,THIS! IS! CARTA!
+Moescape,fdncsip,t1_fdn34qa,1578583026.0,"Antartica. English name is ""A place further than the universe"", Yorimoi is the Japanese abbreviation."
+AskReddit,fdm8469,t1_fdklfcw,1578542147.0,"Finally, the hero we need to stop that lemon stealing whore!"
+HealthInsurance,fdlfold,t1_fdlab0s,1578523017.0,"If the document doesn't define what the insurance company thinks a routine lab test is, then this is on the insurance company to provide better documentation and you should appeal it based on the company's documentation."
+HealthInsurance,fdl1ypz,t3_ely3jh,1578515658.0,"The government has a list of tests that they require to be covered under the ACA.  Note that some of these tests have either limits on frequency (for instance pap tests once every 3 years), or high risk factors such as having a family history of some disease in order to be covered.
+
+https://www.healthcare.gov/coverage/preventive-care-benefits/
+
+Some states may have additional services they require, and some insurance companies may offer more (but not likely)."
+anime,fdih1zb,t1_fdi6u6r,1578442741.0,"So, about that thread a couple days back about how you discover songs? This is how I discover songs."
+politics,fdi2k91,t3_elg9l3,1578434599.0,"Republicans: ""This is *Deeper State*."""
+AskReddit,fdfmo45,t1_fdf4r3q,1578365237.0,*[Sweet Georgia Brown intensifies]*
+AskReddit,fdfm652,t1_fdf78f6,1578364912.0,And now for something completely different
+AskReddit,fdfl7b2,t3_el2az5,1578364279.0,"Thankfully I've been mixing it up, last show I watched was The Saint, so I get Roger Moore in black & white, and he's not so bad looking.
+
+Otherwise I don't think the FBI would appreciate my ""She's actually an XX year old librarian"" defense for the main character of Ascendance of a Bookworm."
+awwnimate,fdfkghg,t1_fdfbrqf,1578363790.0,"Cute, but without animation, it belongs in r/awwnime"
+Showerthoughts,fdfjgtq,t1_fdfeaj2,1578363138.0,p=000001.00
+funny,fdfihy3,t1_fde0xde,1578362486.0,"> Whats is the box! Is my favorite part. Reminds me of se7en.
+
+[NOTHING! ABSOLUTELY NOTHING!](https://www.youtube.com/watch?v=hXOjyv4d998) is my preferred answer."

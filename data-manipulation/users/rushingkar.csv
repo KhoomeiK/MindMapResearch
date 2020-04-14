@@ -1,0 +1,233 @@
+subreddit,self ID,parent ID,time,text
+Maya,fffbgdp,t3_etaahc,1579880277.0,"Everything starts and ends on the same frame at the ends of the loop. Add more overlap. If you are looping it across one cycle (pre/post infinity), you'll need to pay attention to your start and end tangents"
+Maya,ffbcukb,t3_esmy67,1579759998.0,"Something looks very unnerving about the turntables, like the pivot isn't centered and it keeps translating every 15 frames to make it centered"
+Maya,ffbc9u1,t1_ffam2xu,1579759370.0,"Deleting prefs sounds like an overreaction for that kind of issue. It seems a lot of people jump right to that when they any kind of issue, and sure it will fix a lot. But you can fix maya issues with a lot less. Not to mention deleting your prefs means you have to setup your workflow again.
+
+A lot of times deleting your prefs is like getting a new car because you got a flat tire.
+
+Also, were you deleting your history on the model?"
+Maya,ffbc5jf,t1_ff9zxfd,1579759243.0,"> Just Google it, there are several solutions
+
+To be fair, he's asking in this sub because he wants to hear from people that can see what he's doing wrong. He'd find lots of tips that apply to modeling generally, but he may be doing something specific wrong that someone here could notice and point out - and explain how to fix it.
+
+Imagine you're learning and you ask your teacher a question, and they said ""just ask around, there's lots of ways to do that."" That doesn't help anyone, because that's exactly what you're doing - asking."
+tasker,ffbbw22,t3_eson03,1579758964.0,"From what I understand:
+
+1-4 are all False. 
+
+ADB Wifi is a method of allowing Tasker to run commands it used to need root for. You have normal permissions, and above that you have ADB, and at the top you have root permissions. Before this update, Tasker could only access regular and root. The addition of ADB wifi opens some of the root level commands to regular users.
+
+You only need to plug into a computer to initiate the ADB Wifi. Basically, Android can receive some commands through ADB. Normally, ADB is only used when you plug your phone into a computer, but ADB wifi (is it new?) allows the same thing. Tasker is exploiting this. Instead of a computer sending (through USB) a command to Android to (let's say) kill an app, Tasker can send that command instead. 
+
+Unfortunately, Tasker isn't allowed to send that command by default. So we have to plug the phone into the computer and give Tasker permission to send it. This only has to happen once per *phone* reboot. After you run 'adb tcpip 5555' (the command that gives Tasker permission to run ADB commands) you can unplug the phone and use it as normal. If you reboot the phone, ADB Wifi commands will not work until you re-grant Tasker the permissions to run ADB commands (by plugging it in and running 'adb tcpip 5555' again.
+
+The WiFi part of it is just a way to trick Android into thinking the ADB command came from another device over Wifi. It doesn't really care that Tasker on the device is sending it, because Tasker is spoofing itself using the tcpip (I'm still unsure of this part)
+
+If you remember jailbreaking in the early 2010s, this is effectively a ""tethered jailbreak"", but the only limitation is you can't use ADB commands until you tether. The rest of the phone is still usable."
+interestingasfuck,ff9c5ue,t1_ff96fmu,1579709631.0,"So you know who is saying it, of course! 
+
+Sincerely,
+
+Louis XIV"
+interestingasfuck,ff9c2fc,t1_ff9anwv,1579709560.0,You haven't met my quarter!
+interestingasfuck,ff9bvnr,t1_ff97vnz,1579709430.0,My uncle farted then crashed his car. Fart accidents are no joke
+aww,ff8dklk,t1_ff7hw8f,1579674044.0,Do people really buy these dogs for the perfect markings?
+bayarea,ff8crt9,t3_es77sa,1579673186.0,"I went to high school in Fremont. I think it's mostly the immense pressure to do well. The parents fed the pressure into the kids, and it definitely showed. It wasn't just ""My parents are making me do all this extra work"", it was ""I am doing all this extra work (so I can get into a good college, etc)"". Honestly, most of the time it seemed like the only reason people had that mentality was to get into a good college. In high school, that was the only end goal. My high school certainly felt like it was just college prep. I think we sent 30 something kids to UC Berkeley, and another couple dozen to UCLA (of a class of 500 something)?
+
+It's definitely a culture of ""if you're not doing as well as everyone else, you're not as good as them"" and the kids absolutely perpetuate that culture. 
+
+As for what kind of homework and projects and studying make it hard, I'd say it's again the pressure. I didn't experience high school outside Fremont, so I don't know what others went through. But the homework on its own isn't terrible - it's the pressure of doing as good or better than your peers that makes it hard. Of course, when you pile up on AP classes + sports + volunteering + more AP classes, the workload naturally adds up (and I have no doubt a lot of people did those just to look good to colleges, not because they actually liked it)."
+interestingasfuck,ff8bxg1,t1_ff8af3m,1579672318.0,What if the little waves are really really mean?
+interestingasfuck,ff8bvou,t1_ff883aw,1579672269.0,"There's no dinner on the plate, it's barely lunchtime"
+interestingasfuck,ff8anpo,t1_ff6m1wi,1579671070.0,I've gotten much better results with 2 to 2
+Maya,ff89l9y,t1_ff6x7kh,1579670056.0,"I've noticed even if you reference things that are within the project, sometimes it uses a relative path and sometimes it uses an absolute path. There seems to be no rhyme or reason as to which one it chooses (though I haven't delved too deep into it. Never heard of the file path editor, that sounds like it would help this issue.
+
+Any idea?"
+Maya,ff89hjg,t1_ff6wsq2,1579669962.0,"Look into the (freeware, possibly open source) program called Synkron. I used to use it in college to mirror my portable harddrive to my school workstation's local folder. That way I wasn't working directly off my harddrive (which would be slow to read/write) but I trusted that it was constantly synced (every *n* min, you can set it)"
+Maya,ff899ia,t1_ff6aqh4,1579669758.0,"That's what I mean, why is your university's network causing issues with Maya? I don't think Maya interacts with the network except for checking the license (and obviously if you're using networked drives).
+
+My college used networked drives too, but I liked to work locally off my harddrive or copy the project to the computer, work on it, then copy it back over to my drive.
+
+Are you able to copy your files to the computer while you work on it? I used to use a program called Synkron to easily sync my HDD and a folder on the computer so I didn't have to drag and drop every time."
+lgv30,ff8923s,t1_ff6x3ix,1579669577.0,"> whichever cookie you want
+
+I'm not understanding...
+
+I want both cookies...?"
+lgv30,ff88zkh,t1_ff6pfbk,1579669512.0,"Thanks, that's exactly what I wasn't sure of - how to actually use it. It doesn't seem super intuitive at first, but it's not too complicated once you use it.
+
+I don't usually mind snapchat's compression for this instance though, especially since I'm usually just pointing out something like OP."
+Maya,ff69mhp,t1_ff66rh9,1579622355.0,"Why do you say the network causes the instability? AFAIK Maya only cares if there's a license available. I don't think it constantly pings home.
+
+If it's university wide, it may be a hardware or driver issue"
+Maya,ff65uzd,t1_ff5jooh,1579619867.0,Honestly it sounds like the rig wasn't optimized as best it could. Have you tried using a proxy rig to make it more stable?
+Maya,ff65q5w,t1_ff5so6s,1579619773.0,"> Fortunately
+
+Autosave should never be relied on as a primary backup. Make your own backups, and only look to autosave if that fails. That way you'll have 2 layers of protection"
+bayarea,ff652u8,t1_ff5pg9t,1579619327.0,">What could they possibly be thinking?
+
+Exactly what every other bad driver is thinking. ""Screw everyone else, this is my road I do what I want"""
+interestingasfuck,ff4j675,t1_ff45fzd,1579564880.0,"> It's very common
+
+In fact, Wikipedia says [most major moons](https://en.wikipedia.org/wiki/Tidal_locking#Occurrence) in the Solar System are tidally locked with their primaries"
+mildlyinteresting,ff479fl,t1_ff3p3h8,1579557080.0,"You forgot the number 2 rule of Real Estate.
+
+Location, Roof Frogs, Location."
+Maya,ff3l4h4,t3_erbut2,1579543360.0,"Any correctly made rig is able to be scaled, especially for games when you're certainly going to be switching between software. 
+
+Why don't you just import him into UE4 and scale him there? Why scale it in Maya? 
+
+Also keep in mind the speed of two creatures at different scale will look very different. A human moves much faster than a 28ft beast"
+lgv30,ff3jb30,t3_ergd3z,1579542255.0,"Honestly, I find the apps you mentioned to be a bit confusing for that purpose, so I just load the picture into Snapchat, draw over it, and save to my gallery"
+explainlikeimfive,ff2gj24,t1_ff2fc25,1579505167.0,"Apparently schizophrenics are able to track ""nothing"" smoothly, because in their mind they are tracking something (a hallucination) so their eye is just following it like you follow your finger
+
+Edit: this is what I remember reading about the wikipedia page for saccades"
+mildlyinteresting,ff29lan,t1_ff264h1,1579497870.0,Put it in a spray bottle and you don't even have to worry about a butter knife
+mildlyinteresting,ff29ixl,t1_ff249md,1579497814.0,"Then where does the running water for the faucet come from, silly?"
+mildlyinteresting,ff296op,t1_ff28266,1579497508.0,">Would you wanna be some nerd holding a knife to slowly heat it up, and then can only use it once before soiling the knife? Or whip out a mini handheld flamethrower like a boss.
+
+You're right, I want to be that jock that makes everyone wait ""Hold on guys, let me just heat up your butter knives with my handy dandy pocket lighter! Look, it sounds like an airplane! How badly do you want to be me right now??"""
+AskReddit,fezf70j,t1_feyi3c4,1579456711.0,"My dreams are flakes. They said they'd be there, but 3 years later they're nowhere to be found"
+AskReddit,fezeur6,t1_fezber1,1579456590.0,"I took a radio class once. Our station had a value for each song where you could talk over it. Some songs, you could talk over the first 20s, sometimes it was only 2s, or just depended on the song. But the little display for the song would show you the value"
+AskReddit,feze9di,t1_fez3856,1579456466.0,That sounds like a broader issue
+bayarea,fep45ye,t1_feoumxq,1579311733.0,"I've definitely heard blasts, especially as the sun is setting and most people are on their way out. It could have been blast charges though, no way to know"
+sanfrancisco,fem5ytx,t1_felvej5,1579240939.0,"He will, pretty sure he works there"
+androidcirclejerk,felk21z,t1_fel4l40,1579224053.0,"
+>- 3.5 mm jack to get good sound (Phone speakers suck)  
+
+Don't forget front facing stereo speakers!"
+mildlyinteresting,fek2i6x,t1_fejfn67,1579191221.0,Did that person know they had the Rosa Parks bus or did they think they had some random bus?
+Android,fej0j0h,t1_feitj23,1579152585.0,The garlic will cover up the smell too
+MotoX,fegs4a4,t3_ep21ff,1579101254.0,"The MotoX is notorious for that. I believe the issue spans across multiple generations, and even affected the Nexus 6.
+
+IIRC the only way to fix it is to replace the battery"
+bayarea,fefta9b,t1_fefk2no,1579064533.0,I'm so disappointed the Volt was discontinued. It seems the only vehicle with a range extender (that's in production) is the BMW i3
+todayilearned,fefa1tn,t1_fef7r5x,1579051718.0,"He also takes up valuable airspace. Do you think he has a permit to build up that high? NOPE.
+
+Some say he's building higher and higher every day"
+bayarea,fe4ry5r,t1_fe46xpt,1578862244.0,">I do know what SB is in this context. So does everyone else.
+
+Except, I guess, the initial person you replied to that was asking what it means. You know, when you started this whole comment thread of negativity?"
+technology,fe3x3ab,t1_fe39zl4,1578853631.0,Wow these are discriminatory fires
+bayarea,fe3w4gu,t1_fe3qwyf,1578853417.0,"Santa Barbara
+
+Calm down, it's okay for people to not know things. Asking questions is how you go from not knowing things to knowing things. It's better than not knowing things but acting like you know things. And MUCH better than knowing things and making fun of other people for not knowing things.
+
+You should try being nice sometime."
+bayarea,fe3vr2r,t1_fe0w1c3,1578853298.0,"By the time you reach the far left, you should be up to speed"
+AskReddit,fe3uklp,t1_fe1o3uv,1578853041.0,"This is similar to what happens in the movie ""Seven Pounds"" with Will Smith"
+interestingasfuck,fe3ryd9,t1_fe2krxv,1578852279.0,"If you try to make any sudden movements, your vest will harden into bulletproof mode"
+interestingasfuck,fe3rjmc,t1_fe37bqk,1578852140.0,The planet is a great bulletproof shield
+lgv30,fe3qf5v,t1_fe31kc9,1578851874.0,"It'll be a really wide lens, like horizontal bifocals that transition. And you physically slide the camera to get the right field of view for your shot"
+Android,fe3pkxm,t1_fe09y82,1578851680.0,"I've got a theory that most of the people in this thread saying ""I disable it as soon as I get a new phone"" think haptics = vibration on tap. And for a lot of phone it is.
+
+But sometimes (like iPhone) it's so much more than that. And if you disable it from the start, you'd never know. They might be missing out on it because they assume nothing has improved in years, or because they don't know what haptics actually details (no one's fault, really)"
+Android,fe3mlbt,t1_fe0wfe3,1578850663.0,"I'm using one now, and honest it feels like every other Android phone I've used. 
+
+What was different about it for you? Maybe I'm missing a setting or something"
+Android,fe3kjpy,t1_fe3igvz,1578850145.0,"Similarly, I thought the touchpad of a MacBook locked when it was off"
+androidcirclejerk,fdzj00g,t3_enb28b,1578790648.0,That top bezel is huge
+Maya,fdx63d8,t1_fdvw12c,1578765663.0,"If you save as .ma, you have the option to ""ignore Maya version"" but I don't know how effective it is"
+bayarea,fdnax61,t1_fdn1ck0,1578581820.0,"I'm indifferent towards both, what's the irony?"
+lostinspace,fdk7l5x,t1_fdjhwe0,1578497900.0,">Turn your brain off. 
+
+Um... No?"
+Android,fdjat5q,t1_fdj602j,1578463579.0,"Was it an image of what a fan thought the new product might look like, and AMD used that in their presentation where they unveiled said product?
+
+Or had it been released, someone rendered it real nice like, and AMD liked the image so they threw it into a presentation that wasn't part of the unveiling?"
+Android,fdjapv8,t1_fdj4u1d,1578463489.0,Sausage isn't a medical device. He's been fooling us this entire time!
+bayarea,fditpqj,t1_fdi88jx,1578450822.0,"I always lock my doors when I get out to get gas. I feel silly doing it because, well, I'm getting gas. 
+
+I don't feel so silly anymore"
+bayarea,fditjmh,t1_fdhzgzs,1578450713.0,"That happened to me in Oakland. They broke the quarter panel, but I guess in their thieving stupor they didn't realize it's so small you can't fit your hands through. So they broke the side window too, pulled the seat down to access the trunk, didn't take anything. Not even my umbrella. 
+
+I had a brand new nice backpack (completely empty) in the trunk and it was untouched. I guess they couldn't see it from that angle. The car behind me was also smashed too (I think), but left before me so I just saw glass on the sidewalk."
+Android,fdc803r,t1_fdbnc2a,1578268892.0,"The thing is, there's someone with your opinion about every single feature. Fingerprint readers, Face Unlock, Voice Assistants, folding screens, etc. There's always someone that is insistent that it's going to be a useless feature. 
+
+You may not use it. Other people may or may not use it. It may fail, it may succeed. There's only one way to know.
+
+You're talking like you *know* it's going to fail, but that's silly. You know just as much as the rest of us."
+AskReddit,fdb4s62,t1_fdb1mb2,1578253817.0,">Are you dumb?? 
+
+Pretty sure I am, but I don't know how to check. 
+
+>What part of better throttle response do you not understand?
+
+The part where you never mentioned it before. Also the part where you *just now* brought it up but didn't explain it further.
+
+>I doubt you drive luxury sport cars so you can’t relate keep driving ur Prius
+
+2014 Sentra, actually. The way you phrased that sounds like you're trying to make me feel bad/small/insufficient for not driving a luxury sports car, but I know that's not your intention. You're better than that.
+
+>The funny part is I’m the one who always believed cheaper gas was the same as shell/chevron but it’s not... ur Prius wouldn’t know the difference
+
+Sentra, but isn't that the opposite of what we're talking about here? I assume you drive a luxury sports car of sorts, and from what I understand they generally require/prefer higher octane by default. But the original post was about using higher octane for cars that *don't% require it. Correct me if I'm wrong, of course."
+mildlyinteresting,fdayudd,t1_fdak91l,1578251928.0,"I see several of what look like Chevy Escalade, Tahoe, and Suburban esque cars.
+
+Are those not considered luxury SUVs?"
+AskReddit,fdax2ne,t1_fdam143,1578251397.0,"You knowing that your car has different fuel on it ruins the experiment. You would need to do a blind test, otherwise you are likely driving differently with each fuel, even subconsciously.
+
+You *want* premium fuel to come out on top, so you drive more economically with it, which reinforces your theory. 
+
+That's where the placebo is. ~~Idiot~~"
+AskReddit,fdawp04,t1_fdah84d,1578251249.0,Can I interest you in some placebo pills?
+mildlyinteresting,fdas1ue,t1_fdadjr3,1578249368.0,ILM to be specific. In the presidio
+WTF,fdaqufd,t1_fdakz59,1578249062.0,"Much more attractive than ""Really ...wtf...but scary"", that's for sure"
+WTF,fdaqgr6,t1_fdakmye,1578248943.0,"Bud, he meant professional as in you get paid to do it, not that you're good at it."
+todayilearned,fdaliiv,t1_fdac19p,1578247434.0,Did you get to tour the studio by any chance?
+AskReddit,fd6866j,t1_fd47mc6,1578186962.0,Put the window at the exit instead if the entrance. You're exiting the outside
+explainlikeimfive,fcxo433,t1_fcxkvyv,1578067536.0,Can we agree it's a positive feedback loop that is then stabilized by a negative-positive oscillating feedback loop?
+interestingasfuck,fcuh4u7,t1_fcu1fx9,1577980834.0,"Technically aren't kilograms a unit of mass, not weight?"
+bayarea,fcsxx8y,t1_fcsugj6,1577927892.0,Does the other terminus station (Diridon SJ?) compensate for the engine on the station side? Or do they just deal with it?
+lostinspace,fclw134,t1_fclvtim,1577757843.0,"C'mon Will, think a little!"
+mildlyinteresting,fcktbwk,t1_fckp829,1577732743.0,"Or, it makes everything else seem like a real bargain!"
+lostinspace,fcjloa0,t1_fcivb3r,1577692789.0,"I thought they didn't know how long it would be open, and didn't want to risk it?
+
+Still doesn't excuse the fact that they could've taken the parents' Jupiters through the rift as well, since the robots were on the Resolute"
+lostinspace,fcjijg9,t3_ef5v1f,1577688931.0,"When FAR (good robot boi) showed Will the hole in the back of SAR's head, then held the bridle out, was that supposed to mean ""It's how they controlled him"" (bridle lets the person control the horse), and at the end we see them making the same hole to control (or I guess tap into) FAR?
+
+I definitely didn't pick up on whatever Will did, when he answered 
+""we're not gonna let him die"""
+lostinspace,fcjesp2,t3_ef5v0i,1577685025.0,"If the Resolute was never designed to enter an atmosphere, WHY DOES IT HAVE INTAKE VENTS"
+lostinspace,fcjbomc,t1_fcanqk4,1577682313.0,"> Suddenly a new planet
+
+Which happens to conveniently be made of the exact chemical they need to filter the water?
+
+Might as well have just mentioned it to Don and he responds with ""Oh yeah, I've got a few barrels of ammonia hidden in my locker. Used it when I smuggled alcohol."""
+IdiotsInCars,fcj5ivq,t1_fb9d8l7,1577677785.0,Wouldn't you notice that your rear view mirror suddenly got a lot brighter?
+lostinspace,fcj3xvj,t1_fcamyf1,1577676666.0,"> How can they be sure that flying into the atmosphere won't attach the microbes, they could be blowing in the wind
+
+There's now a floating *building* orbiting that planet that is full of those microbes. By the time it makes another orbit, it will have probably eaten all the metal away and just be one giant blob of super rust. 
+
+So you've got a skyscraper made of metal, which is on a similar trajectory as 2 story house sized amoeba that *eats* metal. As well as millions of mini metal-eating amoebas created in the explosion. All in the same orbit. And they're trying to move everyone **back** to the *Resolute*"
+lostinspace,fcj3k2t,t1_fbzy81r,1577676391.0,"Also given that it's an explosion, wouldn't *that* have thrown them free from everything? Do they need the propulsion to separate them from everything else?"
+lostinspace,fcj3guy,t1_fbzxwvt,1577676327.0,"> leaving the horses outside as scavenger-bait
+
+Sounds like they forgot the 1st rule of being in the wild: Never leave food unattended. You don't want to attract animals."
+lostinspace,fcix0e1,t1_fbyu6dn,1577671840.0,The trexs built the metal ring around the planet. The shiny things attract the aliens
+lostinspace,fciwwld,t1_fc4ynk6,1577671769.0,"> And a friggin' mining site doesn't have a first aid tent with some emergency medical supplies in it?
+
+Wasn't her job to literally replenish the medical supplies at the drill site?"
+lostinspace,fciwt3q,t1_fc4pd3f,1577671701.0,"Hey, you're talking about the state finalist of track and field!"
+lostinspace,fciwobd,t1_fbzmnk6,1577671612.0,"Why has no one contacted the Robinsons? 
+
+""Hey you were with this woman for the last seven months, what's wrong with her?"""
+bayarea,fci7cg0,t1_fcgu5dy,1577658605.0,"It's not that people don't *know* the rules. They know them and can drive by the rules for their test. But when they're driving on their own, they *don't care*"
+mildlyinteresting,fci38rb,t1_fcg6y4b,1577657230.0,Is that because Australia uses the metric system?
+aww,fchrblq,t1_fcglspw,1577653261.0,"OP is not part of the couple. If it was ""who I have"", it'd mean he's dating both of them (since it's ""friends"" not ""friend"""
+aww,fchqo0f,t1_fcgi3st,1577653134.0,"And its opposite, who'd'nt've"
+Maya,fchlebn,t1_fch65s8,1577651570.0,This is how I would do it. Have a secondary controller that you only use when you're near gimbal lock so you still have all 3 axes
+educationalgifs,fcaxsma,t1_fcafzzh,1577578728.0,">if a small body were to be placed at L1, it would remain in the same position 
+
+To add to this, I believe the Lagrange points themselves are not too stable, but objects are placed in small orbits *around* the Lagrange points."
+bayarea,fc7iten,t1_fc7adth,1577508767.0,And 3 cars blocking the box
+AskReddit,fc61aqq,t1_fc5v1wb,1577470017.0,It's short for Jennifred
+tasker,fc47r95,t3_eg2vou,1577408901.0,"I believe ""Run Shell"" with ""input swipe x1 y1 x2 y2"" should work. 
+
+""Use Root"" may be needed"
+Scrubs,fc474au,t1_fc43k3m,1577408408.0,"I would think that hurts a lot, and then it just maxes out and you can't feel anymore pain. Like you could throw another 3 tanks on there and you it wouldn't hurt more"
+lgv30,fc18zbp,t1_fc0uymr,1577311688.0,"That's the thing, it's a better of technicality. Different people interpret the question differently. It's not quite ""making a problem out of nothing"" though
+
+Do you technically have burn in? Probably.
+
+Is it noticeable? Possibly not."

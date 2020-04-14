@@ -1,0 +1,121 @@
+subreddit,self ID,parent ID,time,text
+running,fffoui1,t3_et9o83,1579888575.0,Don't add too much more than a mile at a time!
+Petioles,ffddr85,t1_ffdczeu,1579818744.0,"That's what I get for not reading closely enough before replying, I stand corrected!"
+Petioles,ffdceh3,t1_ffdb7tc,1579817905.0,"That isn't actually what they claimed, the text made it clear that they meant 72 hours cumulatively, like smoking every other day.
+
+They're definitely guilty of sharing their personal experience in the second person -- ""*You* need to do x so *you* can avoid y"" -- but that's pretty common. Like I said, this just boils down to mismatched expectations about a subreddit's standards of discourse."
+Petioles,ffd719t,t1_ffd5gkx,1579814668.0,"r/Petioles is essentially a support group, not a research journal.  I also discount an anecdote, but this is also stuff that doesn't get enough research funding.  People telling their stories are making a valuable contribution to the community."
+running,ffd3so1,t3_esku9j,1579812867.0,"My gym is 24/7... Wonder if they'd let me plug the Switch into their screens during the middle of the night when people aren't around.
+
+Pokemon seems perfect for this!"
+funny,ffbi0z5,t1_ffbfur1,1579766225.0,"Your intuition was totally right, 12/10 etymology points"
+RemarkableTablet,ffbgsmz,t1_ffb6qw9,1579764627.0,Opening up past notes on my laptop while writing new ones on the tablet?  What a dream
+typescript,ff9ff8m,t1_ff8ne95,1579711859.0,"I saw a post about it the other day, still haven't tried it out yet!  I appreciate how the command modules line up with what yargs does.  It looks like it doesn't have the command string arg parsing right out of the box (e.g. `command <arg1> [arg2]`), but there's a plugin!  I'll give it a go sometime.
+
+Have you tried plugging Ink into it?"
+typescript,ff9clgc,t1_ff987v1,1579709957.0,"I've worked with commander as well! It was more than enough for a single command, but yargs felt more ergonomic for a multi-command CLI -- its automatic help text is v well designed
+
+Both great libs for similar issues! They're pretty close on npm download count last time I checked"
+typescript,ff88l1u,t1_ff85z94,1579669152.0,"The usecase here isn't really command line for automation, it's a CLI tool so developers can interact with the product without leaving their terminals.  With that in mind, it's really meant to be a UI -- the usage is going through menus and making choices, not scripting.
+
+Once you're in UI world, JS is the bomb.  I find React to be very convenient for reasoning about state; this was my chance to try using it with Ink, the command line renderer.  There's an ecosystem of reusable components, so I never did any math to work out how to make a fully aligned and indented table.  When I needed to display the size of a file, there was an easy library to pretty-format the bytecount in the appropriate denominator.  Have you used moment.js before?
+
+That said, I also found node streams to be buggy and difficult.  Ended up just shoving stuff into buffers at one point.  Like I said, the usecase isn't super performance intensive -- we were optimizing for the I in CLI."
+typescript,ff85q11,t1_ff82wu5,1579666726.0,"It could be faster, but given that the commands are all interactive, the extra half-second at start time isn't very noticeable! Plus, all the perks of the JS ecosystem
+
+But yeah, it isn't lightning quick -- there's a solid quarter-to-half second delay between hitting enter and getting rendered output"
+Petioles,ff688wh,t3_erloav,1579621460.0,"Why does she want you to stop smoking?  What does she like about you which isn't there anymore when you're stoned?  If you can start valuing that same part of yourself, then you'll internalize the desire not to smoke and make it your own!
+
+In the meantime, make sure to plan out a few ways to distract yourself: hit the gym, cook a meal together, decide which show you're going to binge, and then let the boring nights go on autopilot."
+alcoholism,ff3izvc,t1_ff2ouao,1579542065.0,"Honestly, it's painful, but you can't keep acting with his well-being in mind.  He's a danger to you, that comes first.
+
+If you're the only thing keeping him from going off the rails with his drinking, then he needs to go off the rails to understand that.  Allowing the addict to experience consequences (e.g. you acting on how he makes you feel, wanting to leave) is one of the best things you can do for them.
+
+Plenty of addicts talk about losing the people around them as a key turning point which led them to go sober.  Alcoholism is even partly defined by it creating issues in your relationships.  Walking out on him is the clearest way to communicate those issues.
+
+What you'd really be doing is setting up boundaries; you love him, but you can't be with him if he doesn't go sober.  The boundaries are gates, not walls -- you'd love to be with him, but only on your side of the boundary.  That boundary is the distance at which you can love both them and yourself.
+
+Good luck, OP, I hope you get somewhere safe & positive soon <3"
+LifeProTips,femnw1s,t1_felwnn3,1579264124.0,"Right, but at least with the government, we can force those excessive receipts to see the light of day. We can push our legislators to create oversight measures for eliminating waste. Military contractors charge whatever they want because, as a nation, we never want the smaller gun. Medicare, on the other hand, negotiates a rate lower than many insurance companies.
+
+You hit the nail on the head. Any system of pooling money to administer a service is ripe for graft. The question is where can we fight that graft more effectively. In private markets where scale reigns and competition is nominal, those companies are basically unaccountable to anyone other than shareholders.
+
+There's a wide set of applications where private markets create enough competitive entities that we get better results than using one big entity. But in the markets where that isn't the case, like healthcare, I think it's important for that entity to be structurally accountable to everyone."
+LifeProTips,felw2eu,t1_felvlea,1579232372.0,"Everybody wants healthcare, people are paying for it one way or another.  The point of using the government, rather than a private profit-driven organization, is that the administrators don't have an incentive to extract more money than is required for care."
+RemarkableTablet,felvn15,t3_epttus,1579232067.0,"The wikipedia page says that the screen is just a smidge larger than A5, 10.3"" instead of 10.1"".  Does have the right aspect ratio, though."
+LifeProTips,felv4cm,t1_feltw98,1579231694.0,"I'm not certain the profit motives are what has driven medicine so far.  There's certainly a lot of money to be made, but like earlier commenters said, a lot of the most important drugs weren't made by drug companies.  Viagra is a money-maker, but it doesn't address the hard problems (just a soft one)"
+LifeProTips,feluyy9,t1_felthha,1579231587.0,"It's tough to get ahead as a small new startup if a big company is allowed to immediately steal whatever you come up with.
+
+That said, our healthcare shouldn't be profit-driven.  Pharmaceutical IP is a subset of IP law, and I think the government ought to have a system for turning its researcher's results into publicly funded medications.  We don't need private industry to motivate research into not dying, we can all agree on that goal."
+stopdrinking,feltt25,t1_felq7ls,1579230761.0,"Maybe try switching to gum & patches!  Will give you a lot of the health benefits while still using nicotine.  Dropping cigarettes is a huge boost, your lungs will thank you.  The CVS Fruit brand is pretty tasty (& cheaper than cigs), Amazon's Habitrol brand of patches is like half the cost of everything else on the market.
+
+Don't sleep on the patch -- instead of putting in a bit of gas each time you feel a craving, it's like hooking up to a battery.  Fewer cravings overall, steady energy."
+trees,felrg72,t1_felr9wk,1579229118.0,"The closer the pen is to an oven, the better -- I've had a few meh ones & a couple of fire ones
+
+That said, who knows! YMMV"
+trees,felqm2f,t1_felnyqx,1579228550.0,Pen or nail?  Proper enail will give you that experience if you pop enough in there
+Petioles,feljqvo,t1_feljhdw,1579223842.0,"It's all in your head, buddy"
+DecidingToBeBetter,feljgsp,t1_fekrelq,1579223649.0,"I'm glad somebody wrote all this out -- my sister's in the middle of med school applications, I've got close friends who struggled through it for years.  Both of them working in medical environments during their time after undergrad.  Didn't wanna be an asshole to OP, but it's a little shocking to hear that somebody thought they could not do anything more and then get in."
+leaves,felj04k,t1_felcabn,1579223329.0,"I'm secular -- you are your brain, we're both just hamburgers in chemical bath.
+
+My take is that at the same time, our brains are small little corners of the universe, dramatically affected by what surrounds them.  Our brains don't have control over most things in the universe, and at least consciously, not even over most of what's happening with our bodies.
+
+My ""higher power"" is the abstract premise of other people, social connection.  The people I connect and surround myself with influence me in a way that I know I'm not fully conscious of, or have control over.  When you're part of something bigger than yourself, that affects the core of you.  People can lend you strength when you feel you don't have any, and at the end of the day, that's most of what the rule is there for.
+
+It was a big step once I understood that my conscious will, or more precisely my inner monologue, wasn't the most powerful component of my decision-making.  It isn't for anyone."
+Petioles,feli1dw,t1_feky455,1579222661.0,"Spoken like somebody who hasn't heard of CBT.  Also you're probably kind of depressed, there was nothing delusional in the comment -- just a focus on the positives, rather than catastrophizing the negatives."
+dropship,fecktpg,t1_febnyco,1578976371.0,"It has been roughly 4 hours since you wrote this comment
+
+&#x200B;
+
+&#x200B;
+
+**reminded**"
+stopdrinking,feccvzf,t1_fec3y0e,1578970963.0,Happy to help! I find thre science here fascinating
+stopdrinking,fec3gvu,t1_febyrel,1578966098.0,"Both are true. Twin studies (focus on nature, eliminate nurture) show there is a strong genetic component. There's also a strong family component, nurture does count, but there's clearly something hereditary.
+
+Alcohol is addictive, but it's not like addiction is a switch -- it's a gradual slide. The genetic component essentially controls how slippery your slope is. Anyone can become an alcoholic, but some people are predisposed.
+
+Edit: If you want to learn more, here's a paper discussing the current state of research on genetic underpinnings of Substance Use Disorder: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5911369/"
+stopdrinking,fe9rm83,t1_fe9npq5,1578940905.0,"I think that's one of the big reasons to go to meetings.  Newbies get to hear old-timers talk about how easy sobriety becomes, and the old-timers get to hear newbies stories which remind them of how bad a relapse would be.
+
+For most things in life, we remember pain much more than pleasure.  For the 10% of us who drew the genetic short straw, drugs & alcohol are the opposite.  We forget all the pain, fixate on the pleasure.
+
+Thanks for prompting me to reflect a little!  IWNDWYT"
+bostontrees,fe9q79n,t3_eo3xb1,1578940469.0,"I've always been satisfied with the product out of Mayflower!  My understanding is that they also supply a number of other shops, so that might explain the dry bud some other commenters mentioned.  Mayflower grew & dried it, then it had to get shipped to the other shop's facility for packaging and labeling, leading to overdry product."
+Petioles,fe9kmet,t1_fe96jgv,1578938677.0,"It does!  Even after just a few days, the idea of doing one more feels much easier.
+
+Remember that cravings are a side effect; having some will make you want to have more, and the further you get from having had any, the less you'll want it."
+startups,fe6gcqg,t1_fe4ni04,1578890063.0,">Someone also mentioned that there is no guarantee that you'll see any money in the event of an acquisition or IPO - that is inherently false. You will see some kind of payout in a liquidation event, the company is bound by contract. Your mileage may vary though.
+
+If the company over-raises and the final liquidity can't match the paper value, the company is often contractually obligated to pay out investors first.  I'm pretty certain there are scenarios where employee options end up not paying out.  Right now, for instance, they've raised $150M and their revenue is $14M -- a more than 10x multiple, which is pretty high.  The company's growth might be such that it adds up, but over-raising is a very real issue."
+motivation,fe6elik,t1_fe6el3z,1578888599.0,20!!
+motivation,fe6el3z,t1_fe6ekt2,1578888590.0,give me
+motivation,fe6ekt2,t1_fe6ekhh,1578888583.0,and
+motivation,fe6ekhh,t3_enpcoz,1578888576.0,Drop
+RemarkableTablet,fe57bs8,t1_fe3uw5x,1578866275.0,"I've used it -- the biggest issue is that it can't gracefully handle different text layouts.  For instance, if you break your page into two columns with a line between them, the converted text ignores the line and treats it as one big paragraph.
+
+That said, if you're just writing on a lined page (bullets work alright), the conversion is pretty decent!  You'll need to do a second pass in order to correct everything it misreads, but it does at least 85% of the transcription work for you.  Pro-tip: Send whatever it creates to another machine where you can edit with a proper keyboard.  Editing text on an e-ink keyboard is not the snappiest experience out there."
+SocialEngineering,fdpoxic,t3_el7wsy,1578635088.0,"This VICE post is the coolest example story I've read, strongly recommend: [https://www.vice.com/en\_us/article/qv34zb/how-i-socially-engineer-myself-into-high-security-facilities](https://www.vice.com/en_us/article/qv34zb/how-i-socially-engineer-myself-into-high-security-facilities)"
+running,fcwpfwd,t1_fcwld58,1578032588.0,"Guns are dangerous tools, just like cars.  There are strong arguments for ensuring the right people can own them, but we should ensure they're used responsibly.  
+
+If gun manufacturers supported licensing, rather than fighting tooth & nail to prevent any sort of precautionary measures, nobody would be talking about banning them wholesale.  The no-gun-control stance is self-defeating, because it cuts against all the reasons gun owners say guns are important.
+
+I'd recommend this video discussing the merits of licensing over closing the peer-to-peer loophole: [https://www.youtube.com/watch?v=ENw2y0ek1Jg](https://www.youtube.com/watch?v=ENw2y0ek1Jg)"
+compsci,fctojdn,t1_fcsy1hr,1577951590.0,"Your last sentence is on the money.  There's an argument for going back to school, coursework can be a big boost to learning speed.  Whether or not you choose to, learning the math is going to put you a big step ahead as a programmer.
+
+On some rare occasions, you'll need to write out your own equations for the sake of checking something.  More often, though, understanding the math (esp algorithmic complexity) gives you an intuitive grasp of ""good"" or ""bad"" ways to implement something.  And when you do run into those rare programming problems where you have to do some math on paper first, you're dead in the water unless you've learned this stuff.
+
+In terms of immediate utility, I think it might be worth checking out MIT's Discrete Math class before diving into books on algorithms:  [https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/) 
+
+That'll give you the mathematical building blocks required to go further into whatever you're interested in."
+Fidlar,fcrrflw,t1_fcrdc6d,1577905606.0,"Their YouTube hasn't been touched, makes me wonder what Google is doing better security-wise."
+Fidlar,fcpx5e6,t3_eigfhm,1577874052.0,"My money is that somebody's name, cell, and email [got leaked recently](https://www.cpomagazine.com/cyber-security/massive-personal-data-leak-of-1-2-billion-showcases-new-privacy-security-concerns/), and hackers are finally working their way back to figure out who has accounts worth ransoming"
+Fidlar,fcpwubr,t1_fcpsg5g,1577873855.0,dunies?
+compsci,fc01s0m,t1_fc01cri,1577274103.0,"I haven't looked up Reddit's CTO before, so here's my instant-check profile of what he does and the skills he needs to do it:
+
+He was a founding engineer, which means he built the damn thing.  That means deep experience in the stack they use.  He has extensive architecture experience from building out reddit, and later hipmunk, but he's never worked at any another software companies -- although, neither has Zuck, y'know?  He's a Harvard PhD in Physics, so the baseline is that he can turn any real-world problem into an equation, and then he knows how to solve it.
+
+ [https://www.linkedin.com/in/chrisslowe/](https://www.linkedin.com/in/chrisslowe/) 
+
+If you think about this from a business sense, you only need one company to succeed.  That company will be built on one foundation.  A good CTO has experience with evolving that foundation to meet new needs, both from customers & a growing team.  The technologies used are just variables in what the CTO really does, which is creating solutions for business problems."

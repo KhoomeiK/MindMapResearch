@@ -1,0 +1,117 @@
+subreddit,self ID,parent ID,time,text
+ProgrammerHumor,ffr2lgg,t1_ffr2dwc,1580149089.0,It's the way it is being used for modern development that is much more involved than the original intent and scope that is the problem.
+ProgrammerHumor,ffr0abi,t1_ffqxq2u,1580147631.0,"Thanks for the detailed response.  I feel like you can make similar pro/con arguments for any approach to JavaScript development.  So it comes down to tradeoffs.  I believe that is an inherent flaw in JavaScript.  It is being used in modern applications in ways that are beyond the scope of its original intent.  So much layering, abstraction, configuration to support making modern apps.
+
+I partially disagree with your first point, because you can tighten or loosen explicit type enforcement in your TS configuration so you don't need to explicitly type everything.  You can also be lazy and use `any` and `unknown` types.  Obviously there is more overhead, and I personally object to using `any` type, but it's an option.
+
+I have a hard time believing that any modern IDE has the same type safety/enforcement/resolution of TypeScript.  They are constantly updating the compiler to make typing flexible and powerful.  Support for generics is also a nice feature that I'm not sure there is an equivalent for in JS and a nice IDE.  Not to say that makes TypeScript superior, it really comes down to the needs of the project.  For large-scale enterprise applications, I think the strong type enforcement is a win.
+
+I agree with your point on TS being a superset, not directly affiliated with the official standard.  But they are careful to follow the standard.  Also due to the need to support older standards, there is still a strong demand for transpilation with JS and essentially an abstraction of the runtime code from the specific standard you write it in.  But there is definitely a steeper learning curve in TS than just getting to know the latest JS standard.
+
+I personally love writing in JavaScript as well as TypeScript.  It isn't that I champion one over the other.  And as JavaScript continues to evolve, it will weaken the case for TypeScript.  But it might never completely replace the need for TypeScript, because it has different goals."
+ProgrammerHumor,ffqvq7c,t1_ffqvg9s,1580144726.0,"If you're doing modern JS then you're most likely using a transpiler anyway. Wht specific problems are you talking about?
+
+In this case I noted aspects of TS specific to dealing with `this` so wasn't suggesting it solves all problems"
+FuckYouKaren,ffquc1u,t3_eupdlo,1580143823.0,Extreme Karen's hair is a wolverine that attacks the manager when they reluctantly come over to get an earful.
+ProgrammerHumor,ffqtx8c,t3_eupfmo,1580143557.0,"TypeScript much?  (Lambas, \`ThisType\`, etc are your friend)"
+maybemaybemaybe,ffq2hsh,t3_eukxjo,1580116784.0,I'm a little disappointed you didn't provide a soundtrack to this
+insanepeoplefacebook,ffnz5rl,t1_ffnwjyq,1580072516.0,"You're not wrong. I'm talking more specifically about the hypocrisy of American nationalism here.  The ideologies of good and evil, even if misguided, that those people don't even pretend to follow anymore"
+religion,ffnvdwq,t3_eubpdy,1580071348.0,"The fact that humans have free will means that we can do terrible things to each other and ourselves.  I'm not taking a particular stance in this argument, but that has to be factored in somewhere"
+funny,ffntmca,t3_eubbsr,1580070646.0,Faster to just shit in your boot when the urge hits
+insanepeoplefacebook,ffntc01,t3_eub9am,1580070528.0,"Probably shouldn't be, but I still find it shocking that there are people in the US, including the president, who can be cool with a dictator who systematically mass murders his people.  Seems like the most un-American thing to endorse fascism, yet here we are."
+Wellthatsucks,ffnsscs,t3_eub29r,1580070311.0,The egg at the bottom has the most reason to be  upset out of any of us
+EarthPorn,ffnj7tb,t3_eua16h,1580066642.0,r/earthpornandalloficeland
+wholesomememes,ffnixdm,t3_eu9xyj,1580066514.0,She turned part of him to stone
+destiny2,ffngjc9,t1_ffnbv3z,1580065656.0,Twins?
+destiny2,ffmk1vo,t1_ffmjkjh,1580055795.0,"Sorry what i meant to say is go back to playing destiny on your crayola box, infantile peasant (better?)"
+destiny2,ffmicsf,t1_ffmd347,1580055128.0,As someone who started on console then moved to PC I can confidently say we're both wrong.  Play on whatever platform feels right/you can afford/is more comfortable/etc.  (for the record I still play on ps4 sometimes and it still feels great)
+destiny2,ffmi7b0,t1_ffm0bud,1580055036.0,Flex that hammer
+destiny2,ffmhzfm,t1_ffm29hl,1580054947.0,Joined Pregnancy Event
+destiny2,ffmhumc,t1_ffmbyc1,1580054865.0,"Honestly not sure why you got downvoted so much, but then I remembered where we are.  You're not wrong though.  Esp when we start talking about adaptive technologies for people with disabilities.  The more we can make those folks feel included in discussions about gaming, the better off we'll all be."
+wholesomememes,ffjuctu,t3_eu0c8v,1580007182.0,Cursed or blursed at best.  Definitely not wholesome.  I feel sad now
+NatureIsFuckingLit,ffju1ch,t3_eu02ab,1580006929.0,Lay down your soul to the gods rock and roll
+gaming,ffjtyjj,t1_ffjqdsn,1580006869.0,\*Mine\* too
+gaming,ffjtxtt,t3_eu0ezd,1580006854.0,"Man I did that shit on the bottom left all the time.  Didn't even realize it was a thing other people did.  For some odd reason, that one reminds me of the power puff girls."
+funny,ffjtpz4,t1_ffjsxub,1580006685.0,Hope you're having garlic bread for dinner
+BlackPeopleTwitter,ffh2b2a,t1_ffgybw7,1579921199.0,You're right.  I'm giving liberals a bad name
+BlackPeopleTwitter,ffgqoap,t3_etic9j,1579912609.0,No fucking way Eric Trump wrote this. The only word he knows is Eric
+destiny2,ffg8lxx,t1_ffg8jm1,1579900810.0,I would need to betray my own mind to even think of changing your mind
+destiny2,ffg8hib,t1_ffg8fvw,1579900735.0,Yeah it gets pretty sexy
+destiny2,ffg791s,t1_ffg5x7q,1579899969.0,Forsaken has been the absolute high point in destiny 2 imo. I strongly recommend getting through the base story content then picking up that dlc if you're still enjoying it
+audiophile,ffbeike,t1_ffakrlt,1579761860.0,"Awesome, thanks so much for all the info. I've only heard the issues with Tidal from a business perspective, didn't know they did high quality audio. Where do you buy stuff in flac format? I'm only aware of bandcamp"
+insanepeoplefacebook,ffbdl9r,t3_esokdk,1579760817.0,">Aged urine rubs with a partner are electrifying spiritually
+
+r/BrandNewSentence (besides the fact that this a repost)"
+OldSchoolCool,ffbdftu,t3_esot0c,1579760651.0,I believe you mean... outlaws
+AbsoluteUnits,ffb29do,t3_esmtar,1579749974.0,Is that his grandson or his dad?
+Wellthatsucks,ffb1i7x,t1_ffax7fi,1579749456.0,I need you both as life coaches to make me feel better as I embarrass my way through life
+holdmycosmo,ffb1d2c,t3_esm1pl,1579749360.0,Someone else has also done this prank
+cursedcomments,ffb0zrc,t1_ffattes,1579749111.0,A whole nother level of cursed comments
+audiophile,ff8c4w3,t1_ff8bvpl,1579672528.0,That's really what I wanted to hear. If there is the option to download music legally that is higher quality than CD then I'd want to go that route. But sounds like general rule of thumb is that CD is source of truth for digital music
+audiophile,ff7yapr,t1_ff7xqwc,1579661245.0,"For sure, hence why I have my own library. You're absolutely right about future proofing, but if there are some practical decisions I can make now that can mitigate the amount or speed of obsolescence I'd like to try to do that"
+audiophile,ff7xj6k,t1_ff7x0w3,1579660718.0,"I'm not too worried about having the best possible format, just something that is as close as possible for a reasonable amount of time and money.  Trying to think about how to future proof my library a little"
+audiophile,ff7uhv8,t1_ff7ty3t,1579658666.0,"What I've seen lines up with versions of physical releases.  But I don't know if there's a definitive answer on that. And i agree, remastered isn't necessarily better.  I just want to make sure that I'm acquiring the highest quality versions of stuff within reason."
+audiophile,ff7u7bg,t1_ff7u0rg,1579658467.0,"Ah got it, thanks!"
+audiophile,ff7rgeh,t1_ff7i9p3,1579656562.0,"I'll check it out, thanks!"
+audiophile,ff7rfpq,t1_ff7i86p,1579656549.0,">Redbook
+
+What... what is that?"
+audiophile,ff7rdkv,t1_ff7puu5,1579656508.0,"Cool, I feel like for most of the music I listen to the remasters have been more recent releases and still not difficult to find."
+audiophile,ff7ral9,t1_ff7itow,1579656450.0,"Haha, I promise I knew that!  Thanks for the info"
+cursedcomments,ff7fc5y,t3_es1i56,1579648246.0,Code Red! Code Red!
+wholesomememes,ff7ezw8,t1_ff7en7p,1579648021.0,Just repeat through the lunch in bed part and you're good
+gaming,ff6m9rz,t1_ff6gbyb,1579630219.0,Wheelie hot
+youseeingthisshit,ff6cjzk,t1_ff67ai7,1579624234.0,">Cowboy-Conor
+
+r/murderedbyconor"
+BlackPeopleTwitter,ff6560l,t1_ff64qgz,1579619387.0,Oh I've long given up on that
+BlackPeopleTwitter,ff6414o,t1_ff63qj4,1579618588.0,If only we could get gun nuts to think gun reform was nascar...
+BlackPeopleTwitter,ff62kt8,t1_ff5z9mm,1579617537.0,Sounds like that's exactly what we need today to get comprehensive gun reforms passed
+sonos,ff5y7ua,t1_ff5x7hu,1579614112.0,Makes sense and thanks for the feedback. Just wish they'd start with some of the bigger manufacturers like Samsung and Google
+sharditkeepit,feoxkeg,t1_feowiig,1579307566.0,"That's great info, I'll try that out thanks"
+insanepeoplefacebook,feoutlt,t1_feohdha,1579305916.0,There'd be more white around the eyes and the hairline based on his current face painting skills.  He'd look like an inverse panda
+sharditkeepit,feoijbf,t1_feoi8s9,1579300662.0,I have been messing around with it and it feels like I'm getting a lot of crits from the hip but I don't know how much of that is perceived and how much could actually be due to stacking. Just wondering if anyone has a definitive answer on how that perk and mod stack.
+Wellthatsucks,feocy6z,t3_eq6axj,1579298384.0,The only problem here is that there are only 24 hours in the day
+antimeme,fenrgme,t3_eq4034,1579289704.0,When anti and dad memes collide
+blursedimages,fenr8t3,t3_eq4i3m,1579289675.0," If that cat had nine lives, it sure used em all"
+maybemaybemaybe,fenqhik,t3_eq43iu,1579289292.0,Everyone loves sloths.
+LifeProTips,fenpvux,t3_eq479n,1579289157.0,That was some good aspirin tho
+antimeme,fenptym,t3_eq3s86,1579289126.0,Still less people/fibers than trump's inauguration.
+NatureIsFuckingLit,fenpnso,t3_eq44p6,1579289030.0,Unreal Engine 5 confirmed
+gaming,fenntwl,t1_fennlo5,1579288407.0,"Word.  I had the original, the DX one for gameboy color, and picked up the remake and still thoroughly enjoyed it"
+gaming,fenmb0n,t1_fenik5b,1579287736.0,Did you play the remake?  It's pretty delightful
+iamatotalpieceofshit,fencuhd,t1_fen5yhh,1579281958.0,\*game music changes\*
+gaming,fen7y77,t1_fen2bnj,1579278943.0,Playing gameboy on evening car rides was riveting
+gaming,fen7vx8,t1_fen05n8,1579278904.0,And it was enough! Kids these days with their 800+ pokemon smh
+gaming,fen7t2k,t1_fen32qn,1579278854.0,Now there must be an AOL landfill mountain range somewhere
+gaming,fen7qjx,t1_fen5876,1579278809.0,When ridge racer dropped on ps1 I was so excited after having played it at the arcade so much. I mean the graphics were baked potato topped with dogshit compared to the arcade but still blew my mind playing it in the comfort of my own home
+gaming,fen7ibz,t1_fen05x9,1579278669.0,Was it every blockbuster or just mine where the employees would flick the lights on and off rapidly at the end of the night to tell you to hurry up and fuck off?
+mildlyinteresting,fen6y9o,t1_fen38ug,1579278326.0,"You can make a pretty reasonable homemade ranch.  I've never been able to perfect the taste, but it's enough for a little fix"
+mildlyinteresting,fen6qne,t1_fen3cyk,1579278194.0,"It doesn't taste exactly like the salted Lays in the US though.  There's some extra flavor to it, and they're really good. I taught English in China for a year and I might've cried a little when I walked into the grocery store in my little town and found PBR and Lays chips lol.  I mean I mostly ate local cuisine, but it was comforting knowing those things were there."
+gaming,fen62q0,t1_fen5b63,1579277779.0,I don't know.  I think AR/VR will be a game changer once it really takes off and that is the main way to play games.
+gaming,fen45sh,t1_fen3uzm,1579276569.0,Right but it's the magic of experiencing it as a child that I'm referring to
+BlackPeopleTwitter,femzmtj,t3_eq0wxc,1579273642.0,\#relationshipgoals right there.  I'm still stunned how we went from this to the cheetle encrusted clown show we got now.
+gaming,femxu61,t3_eq06bx,1579272404.0,I was blown away by Zelda on the original gameboy.  Now kids have BotW on a handheld (not to mention Skyrim and Witcher 3).  I'm happy for all of us.  But I'm also a little jealous.
+holdmycosmo,feltm58,t1_felsf44,1579230625.0,"Wait, both people can get prognat??"
+gaming,feled2w,t1_felbmht,1579220194.0,You could wait until you die before watching it
+ShitAmericansSay,fejq0ut,t1_fejlg9b,1579182906.0,That made me laugh. If we didn't spend all our money on military maybe we could get safe drinking water in places like Flint
+StardewValley,fejpupc,t3_epj3pq,1579182770.0,Absolutely marvelous
+imsorryjon,fejpfqm,t3_epizsj,1579182437.0,Garbelb and Odor was the last thing I saw before I died. Well done
+BlackPeopleTwitter,fei8vvv,t3_epa333,1579132889.0,Please let me be one of the happen to b ones
+todayilearned,fei0jhe,t1_fei08pp,1579127653.0,"I do. But when you look at what we've done to the planet and environment, I'm not sure the good outweighs the bad"
+todayilearned,fehyfn8,t1_fehxavc,1579126388.0,You mean documentary right?
+todayilearned,fehngpn,t3_ep6lo0,1579120104.0,It was also successfully flown by one of the earliest robots with artificial intelligence codenamed D.A.R.Y.L.
+todayilearned,fehhdzq,t1_fehgzmr,1579116574.0,You're absolutely right. But it blows my mind what members of this species are capable of.
+todayilearned,fegz7hc,t3_ep3gzs,1579105788.0,This species lol
+creepy,fegz4fr,t3_ep3hb0,1579105736.0,Find a girl that looks at you the way Elena's glass eyes look at Carl
+mildlyinteresting,fef06c3,t3_eos9wa,1579045095.0,I'm pretty sure you're supposed to push it with your forehead
+Minecraft,fedghug,t3_eokvjo,1579010893.0,I would recommend taking a cleaner picture of it to share. At least make sure part of it isn't cut off.  Looks good btw
+agedlikemilk,fe9s9tj,t3_eo7c88,1578941001.0,It costs Apple less
+ProgrammerHumor,fe9rea2,t1_fe9oqh9,1578940849.0,SVN
+insanepeoplefacebook,fe902dj,t1_fe8jr4e,1578932810.0,Do the kids have to wait that long??
+Wellthatsucks,fe8zsud,t3_eo52z0,1578932704.0,Buy your buddy a vacuum
+Showerthoughts,fe8t1v3,t3_eo4och,1578930468.0,Yes but every time a cat is pushing something off a ledge they are trying to murder it
+insanepeoplefacebook,fe8qywp,t3_eo4j23,1578929591.0,It's almost impossible to tell which of these kinds of posts are real or joking these days.  But I'm pretty sure this is joking.
+funny,fe4nqw5,t3_ens2t0,1578861200.0,Sonic the Movie before they reworked the CGI
+trippinthroughtime,fe30yms,t1_fe2r8sx,1578844844.0,"And just a refreshing lack of judgment in this scene. I mean I'm sure there is divine Judgment going on here for not spending their meager wages on enough prayer beads, but no one is judging each other, everyone respects each others kinks."
+trippinthroughtime,fe2lhj5,t3_ennj6s,1578839967.0,Goddamn people had fun in the middle ages

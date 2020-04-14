@@ -1,0 +1,75 @@
+subreddit,self ID,parent ID,time,text
+gifs,ffc2vl5,t1_ffbwo99,1579790180.0,"The animation is good but ya, the ending is excessive.
+
+The camera panning could also use some work. Eg. There's no initial reaction to the umbrella starting to move, but then reacts too quickly as it crawls on the wall, also it pans to the left in a straight line and stops sharply."
+YouShouldKnow,ffbwgcp,t1_ffbljpc,1579785031.0,"Should be clarified not to put the water inside the jar of honey.
+
+The low water content is what makes honey have no expiration. When you add water to it, you're making a home for bacteria."
+AzureLane,ff6dzhv,t1_ff6bo7t,1579625128.0,"Do you actually need to assign oil to the paints at all?
+
+I've been sortieing but all the paints still show ""0"""
+PublicFreakout,ff5ku6c,t1_ff5ihy3,1579597723.0,"That's not true, they're not required by law or anything, carriers just do it out of respect.
+
+But it's not an absolute method, it's pretty simple to bypass if your phone is rooted (though there are unrooted solutions too) and you have the mental capacity to search google and follow instructions.
+
+For Android phones, there's a config file in core/res/res/values-[mcc for country sim] which specifies whether shutter sound should be forced with option ""config_camera_sound_forced"". So when the phone detects there's a sim card inserted of that region, it checks the file to determine if it should force shutter sound but you can modify those config files yourself to always disable shutter sound.
+
+Other options are to: just delete the shutter sound audio file from /system/media/audio/ui or simply just don't have a sim inserted.
+
+I think carriers implementing the option for forced shutter sound is really more a marketing strategy to show they care and to raise awareness of the issue rather than an actual working solution because anyone who is diligent enough to be taking such creep shots is going to easily find how to bypass it."
+AzureLane,ff5dowe,t3_er9sr5,1579588547.0,"What's the max amount of oil/coins you can have?
+
+I've only just recently gotten back to playing and the wiki doesn't seem to mention this, I think it used to show you on the profile screen but not anymore.
+
+My commander level is 65, the max oil I can have displayed on the home screen is 7400 (which I know only limits collection from canteen). I've been doing commissions which adds to my oil exceeding the displayed cap, but at 25k oil I started getting an error saying I can't complete the commission because I'm at the oil cap.
+
+So how is this cap calculated?
+
+I'm a pretty casual player, I don't play much outside of events so I have too much oil. Not really sure what to do with excess oil other than to waste it on snacks in the dorm."
+Showerthoughts,ff2ib9e,t1_ff1sdke,1579507376.0,"Or degausing a CRT monitor, or using the static to give an electric shock to your friends."
+Futurology,fekqnsg,t1_fejvm2r,1579205607.0,"Phones (and consoles) should just be modular in design in general, similar to PC's. That would reduce waste as it would mean only having to upgrade specific parts once in a while and being easier to repair instead of replacing the entire phone."
+2Booty,fejgj9q,t1_fejcj7c,1579173187.0,The cosplayer said so herself a while back that she uses fake boobs for these cosplays. She has never actually done nude cosplays using her own body as far as I'm aware.
+BeAmazed,feh8rar,t1_feh6dis,1579111490.0,"Motivation & a lot of practise are the only things you really need, nobody starts out as a pro and learning to do anything is easy these days with the internet where there's an abundance of free learning resources.
+
+I'm good at playing piano, drawing & programming. I didn't start out good at any of these things and I don't consider myself to have any amazing capabilities or whatnot, I just practised a lot and have done so for many years.
+
+Suggesting that someone must have ""natural talent"" because they're good at something is really insulting."
+Animemes,fdbg63r,t1_fdba50l,1578257083.0,"She wouldn't be allowed to be featured in porn if she lived in Australia where it's illegal to feature women with ""child-like characteristic"" such as small breasts or small height."
+YouShouldKnow,fd59j6y,t1_fculcq1,1578175410.0,"You don't seem to understand what I meant.
+
+If you're using a different alias for everything you signup to, a bot having your email without the alias isn't going to be of much use to them when it comes to using a db leak to test other services for credentials or attempting to find more information about an account owner with the use of the email on those services."
+explainlikeimfive,fd4on5v,t1_fd1tfq9,1578169453.0,"It's not just the ""quality"" of the network code, it's the intended function.
+
+The big difference in whether something lags in a game is how authorization is handled. Authoratitive server logic is where the client needs to tell the server what its doing and the server confirms whether the client is allowed to do it before responding with the result of that action.
+
+A lot of these games which have a global server that everyone plays on seemlessly do not use authoratitive server logic for the gameplay elements. Eg. Attacking an enemy results in instant feedback of the damage being done because the client is doing all the calculations without permission from the server and any interactions with other players use predictive logic. (The only elements that typically involve authoratitive logic in these games is things like obtaining items/currency - things that don't require complex calculations).
+
+This kind of networking can be vulnerable to security issues because there's no 3rd party to confirm whether the client's actions were valid. Which is why you often see a combination between both methods where an authoratitive server is used, but the actions it receives are not time sensitive.
+
+In this kind of non-time sensitive logic, if the server does notice a discrepancy, the client will receive a response with what the server expected, and the client will make up for the expected differences which may cause a rubberbanding effect.
+
+These methods which limit the amount of authorization are often seen in games which focus on PvE elements. Games with competitive PvP or require reliable syncing between clients in general will always use authorization which results in latency issues if the clients are located in different regions which requires prediction in order to compensate or waiting for clients to sync back."
+YouShouldKnow,fcu2cjz,t1_fctogil,1577970319.0,"2FA isn't perfectly secure, it has its own vulnerabilities.
+
+When registering for a service, you should assume that it's likely to be compromised eventually.
+
+Some suggestions:
+
+* Use temporary email addresses for services which you won't be giving any personal information to and won't be losing anything if the account is hacked. Eg. Some support forum that forces you to register an account in order to see the posts.
+* Use aliases in email addresses to make it specific to the service you're registering an account for, but make the alias vague. Eg. myemail+rdt@gmail.com using the alias ""rdt"" when registering a Reddit account. This will allow you to know which services are selling your email to 3rd parties who send you spam mail, and also makes it difficult for bots to find your accounts for other services from a db leak because they'll only know the alias you're using for that one specific service.
+* Firefox has an option to notify you of when it detects that a website you created an account on has been breached, this is better than having to manually check all your emails/aliases on haveibeenpwned. I'd also suggest using Firefox Lockwise as a password manager if you use the Firefox browser."
+facepalm,fcsjgb7,t1_fcruw5s,1577917784.0,"With the semicolon, it'd look like PHP"
+facepalm,fcse0j1,t1_fcsap24,1577915210.0,"You don't need to understand what binary is to be a good programmer, you rarely come across binary in many areas of programming.
+
+It's like suggesting a painter should understand the chemistry involved in the paint they're using & how the paint is made. The only real requirements of being a good painter are things like practise and having the tools. Knowing how the paint is made isn't necessary.
+
+Though a programmer (or someone working with computers in general) is probably more likely to understand what binary is if they took some IT related field in professional education because it's one of the most basic things taught. But not all programmers study IT related fields in school, you can teach yourself programming through online resources that are unlikely to start with ""What is binary?"" because it's not necessary, they're more likely to start with ""Hello World"" in whatever programming language you're learning.
+
+The only time I can think of where you would be using binary in a high-level language is with bitwise operators, but there are several ways of coming to the same outcome for any one problem, so I still wouldn't consider it necessary."
+Animemes,fckvkyh,t1_fckpcu4,1577734135.0,"There's also an app called DNS66 which blocks all ads whether in apps or in browser, doesn't require root.
+
+Can't download through the playstore though, need to get it through f-droid."
+Animemes,fc62ws9,t3_ega4ha,1577471053.0,Don't need a gf when you have a waifu
+gaming,fbur5wz,t1_fbu3yt4,1577119048.0,"Even if it's bricked, it can still be repaired - for pretty cheap these days might I add.
+
+I used to resell bricked ps3's on ebay that I'd repair, easy profit."

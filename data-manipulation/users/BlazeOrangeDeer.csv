@@ -1,0 +1,339 @@
+subreddit,self ID,parent ID,time,text
+youtubehaiku,ffhl7gy,t1_ffg6edl,1579940493.0,"harder  
+better  
+faster  
+stronger  
+more  
+than  
+ever"
+Physics,ffhgvp6,t1_ffg2yse,1579934694.0,"This isn't something you can do with physical objects following known physical laws, so those laws can't tell you what would happen."
+AskPhysics,ffh6ye2,t3_etdznu,1579924839.0,"[Spacetime](https://en.wikipedia.org/wiki/Spacetime) is the background that fields exist on, and subatomic particles are excitations of those fields. Mass and energy affect the shape of the surrounding spacetime, producing the effect we know as gravity. 
+
+The exact shape of the spacetime (including how far away events are in space and time, and the paths that objects follow in the absence of force) is described by the [metric tensor field](https://en.wikipedia.org/wiki/Metric_tensor_(general_relativity\)), the relativistic version of the gravitational field. The math on that wiki page looks complicated (and it is), but it's almost the same kind of math used to describe the shape of any curved surface. In this case one of the directions along the surface is time, which is almost like a spatial direction but not quite.
+
+The path of an object traces out a curve in spacetime called a [worldline](https://en.wikipedia.org/wiki/World_line), each of the points on the curve corresponding to the position of the object at a particular time. The velocity of the object at any point on this curve is determined by the tangent vector to this curve, the direction in spacetime the curve leaves that point. Breaking down this vector into components requires a coordinate system that will depend on the chosen frame of reference, which is why velocity (the spatial components divided by the time component) depends on reference frame."
+AskPhysics,ffb8g38,t1_ff9zpt5,1579754938.0,"The spatial Fourier transform gives you the momentum-space wavefunction, f(p,t). Then |f(p)|^2 is the probability density for momentum states, so to get a probability that the momentum is within some range you'd integrate the density over that range. It's just like how you'd integrate |psi(x)|^2 over a range of x to get the probability that the particle will be found in that region. 
+
+The momentum eigenstates (for which f(p) is nonzero only at one specific p value) are not usually going to be stationary states, they are just the states that are eigenstates of the x derivative (stationary states are eigenstates of the t derivative). They are only stationary states for the case of a free particle (constant zero potential). 
+
+The stationary states are always energy eigenstates, given by the time independent schrodinger equation. It's harder to calculate what these are since it depends on the potential that is used in each scenario, but once you know what they are it can make it easier to analyze how the wave changes over time by breaking it down into a sum of energy eigenstates."
+AskPhysics,ffab3tl,t1_ff9kc8x,1579731429.0,"The time independent SE is not linear, it's an eigenvalue equation that is only true for energy eigenstates. If you add more than one eigenstate there is no one value of E that works so there is no solution. It's the time dependent SE that is linear, and has solutions for any combination of states."
+furry_irl,ffa9x2s,t1_ff9n3ae,1579730745.0,"Zallen, the King's Pet
+#__________________________________
+Lud, the King's Pet 
+
+#__________________________________"
+physicsmemes,ff5gh0o,t1_ff5e84w,1579591803.0,"Slightly cropped?
+
+Doesn't look like anything to me."
+darksouls,ff4ans5,t1_ff2rdsf,1579559204.0,"You're right, the [default parry window in Sekiro](https://sekiroshadowsdietwice.wiki.fextralife.com/Deflection) is better than the [best parry shields in DS1](http://darksouls.wikidot.com/parry). 
+
+The Sekiro parry window does decrease for every time you pressed the button before in the last half second, though."
+AskPhysics,ff48gvd,t3_erj0tb,1579557825.0,"There are only a limited number of fundamental particles that things can be made out of. For all the known particles, they interact much more strongly with the other forces than with gravity (unless they don't interact at all with a particular force). 
+
+When gravity wins against the magnetic force between a paper clip and a balloon, it's not a fair fight. The magnetic forces aren't aligned with each other so the magnetic forces cancel themselves out, despite their comparatively huge strength."
+AskPhysics,ff47soi,t3_erk2iu,1579557408.0,"Air resistance depends on velocity: the drag force is higher the faster you go. When you start falling, drag is low because of your low speed, and gravity accelerates you downward, increasing your speed. 
+
+As you speed up, gravity stays (roughly) the same, while the drag force continues to increase due to your increasing speed. The total force is the sum of the gravity downward and the drag upward, and that force determines how fast you accelerate. 
+
+Terminal velocity is the velocity that produces an amount of drag force on an object equal to the gravitational force on that object. At this point the total force is zero, which means that you won't accelerate any faster, and you stay at the same speed from then on. 
+
+Gravity depends on mass, and drag depends on how aerodynamic the object is, so both of those things affect what the terminal velocity will be for any given object."
+AskPhysics,ff46mib,t1_ff3vf4b,1579556684.0,"There's still only one version of you that has your current sense impressions, which is the only data you have (in the next moment you get more data and your situation changes). If the universe continues indefinitely and Boltzmann brains are possible, there's a chance for fluctuations to produce a brain with those same observations an unlimited number of times."
+Physics,ff40s04,t1_ff3yqta,1579553048.0,"All kinds of people, not just physicists, are curious about what the world actually is and how it works. I would think that this impulse has a lot to do with what motivates physicists to enter the field in the first place. 
+
+There's always going to be specialization and the details of any subfield will be irrelevant to most others, but quantum mechanics is the underlying framework for a huge number of subfields. So you could flip it the other way and ask why it gets so little attention when it's the driving force underneath so much other research. Finding ways of clarifying and unifying the underlying principles of a theory has always paid off before."
+Physics,ff3xup5,t1_ff3v3x2,1579551224.0,"Carroll always clarifies what he means, that the field has not come to an agreement about the physical significance of the model. In other words, there are several competing ways of understanding quantum mechanics, and it's weird that so many physicists don't think it's important to find out whether there is a right answer."
+Physics,ff2ldwx,t1_ff1uoif,1579511611.0,"Definitely not. Conscious observation does not play a special role in quantum mechanics. There are still some physicists who think so, but it is a fringe idea and not at all the mainstream view.
+
+The specific connection between consciousness and physics presented in the article is their own speculation, dishonestly presented as if it has anything to do with actual physical research."
+AccidentalRenaissance,ff242gl,t1_ff1b2t0,1579493237.0,"For comparison, the US has a 97% rate of defendants pleading guilty in hope of a reduced sentence"
+AskPhysics,fep1h4l,t1_fep16wx,1579310021.0,"This [video series](https://www.youtube.com/playlist?list=PLoaVOjvkzQtyjhV55wZcdicAz5KexgKvm) might help. It's a big shift in perspective to what we are taught growing up, so it's normal for it not to make sense at first."
+AskPhysics,fep0nck,t3_eq9eni,1579309500.0,"No matter how precisely you measure speed, there will be both rational and irrational numbers within the margin of error."
+vive_vr,feoyrxy,t1_feovh1k,1579308322.0,"It's not hard to notice what's wrong here, enough people in this thread have. If light doesn't ever do this in real life, it shouldn't be the most noticeable feature of your lighting system."
+vive_vr,feoqlfw,t1_feoo9di,1579304049.0,"They're pointing out that you're doing it wrong, not that isn't perfect. It would be more correct to use the average color of the whole screen than to do this."
+physicsmemes,feoh8na,t3_eq5b22,1579300083.0,"greek means 4-valued indices (space + time), latin means 3."
+Physics,fekkks7,t1_fekcwfp,1579201990.0,"Yes, the frequency of the light decreases."
+AskPhysics,fekebef,t3_epkzjq,1579198255.0,">I can't really see where the -ux/c^2 is coming from. Can someone explain?
+
+It's called [relativity of simultaneity](https://en.wikipedia.org/wiki/Relativity_of_simultaneity). Two events that happen at the same time in one frame will not necessarily happen at the same time in another frame. The -ux/c^2 term has the effect of tilting the line where t=0 in the new frame (and the t=1 and t=2 lines, etc.), in a similar way that the line x=0 is tilted in the new frame (things that stay at x=0 in one frame appear to move in the other frame). 
+
+Part 4 of [this video series](https://www.youtube.com/playlist?list=PLoaVOjvkzQtyjhV55wZcdicAz5KexgKvm) shows how this works visually on a spacetime diagram."
+AskPhysics,fekaoq0,t1_fejmiat,1579196102.0,"The entire point of physics is to study the effect of time on physical objects. Doing this without time would be a massive pain, to say the least. It would be just as awkward as doing physics without space. When you figure out how to do physics with ""only movement"", let us know. 
+
+>I see it that humans have confused memory with the measurement of movement, or time. The past is always a result of the present. Without a present there is no past. In other words, if an object wasn't HERE then it could have never been THERE.
+
+Do you think it's ""now"" right now? Didn't you also think that same thing yesterday? If both your present self and past self feel like they live in the present, what makes you right and them wrong? Why does your past self need a future to make him real and you don't?"
+AskPhysics,fej10ca,t1_fej01ks,1579153038.0,"Movement requires time and space. An object *was* there, it's *now* here. An object not moving is in the same place now that it was then, but time has still passed. Some things don't change over time, other things do. Some things cease being altogether and become other things, a change over time that cannot be accounted for by motion. 
+
+A strong connection between motion and time by no means makes them the same thing. No more than it makes motion and space the same thing, or space and time."
+AskPhysics,feiztay,t1_feiz4bk,1579151934.0,">Photons can frame drag, so they can curve spacetime. 
+
+Spacetime curvature is sourced by the stress-energy tensor, which isn't just mass. Photons have energy and momentum but have zero mass. 
+
+>It just bothers me that a very influential value is being taken for granted. 
+
+It's not taken for granted, but it would be in your best interest to take it for granted for now until you learn more. You can't use predictions of quantum field theory like vacuum fluctuations to argue against foundational principles of the same theory (constancy of a maximum speed). It's a long road to learn quantum field theory, with a lot of surprises and awesome/frustrating math on the way. You shouldn't be too worried if it seems confusing if all you've heard are stories about it."
+AskPhysics,feiyxn9,t3_epclo5,1579151160.0,"The scale reads the normal force pushing down on it and divides by g (9.8 m/s^(2)) to get the mass. Removing 3.33g means that the normal force is (3.33g times g) less than the 100g times g it would be otherwise. From there you can follow the chain up matching the equal and opposite forces. 
+
+The normal force up on the object is opposite the normal force down on the scale. There's gravity down (known) and tension up (unknown) and the total force is zero because the object is still. Solve for tension. 
+
+The tension force down on the balloon is opposite the tension up on the object. The balloon has buoyant force up, and total force zero because it's still. Solve for the buoyant force."
+AskPhysics,feix97y,t1_feivbei,1579149736.0,"A totally stopped object in one frame of reference is moving with respect to another frame of reference. There's no way to absolutely stop everything because there's no such thing as absolute motion, only relative motion. 
+
+Time and space are both examples of a dimension, and both are necessary for our world to exist. If time stopped, space would cease to make sense either, since even things right next to each other would be utterly unable to notice each other (like a universal travel ban on literally everything). 
+
+To see why time and space both matter, and the ways in which they are similar and different, check out [minute physics](https://www.youtube.com/playlist?list=PLoaVOjvkzQtyjhV55wZcdicAz5KexgKvm) series on relativity."
+AskPhysics,feiw8d3,t1_feivds0,1579148906.0,">We've measured the speed of light in the least impactful medium on the speed of light we can. But it is still a medium. Light will travel slower in that medium than it would without it.
+
+The vacuum is not a medium, light travels in the electromagnetic field which does not act like any medium you're familiar with. The presence of vacuum fluctuations (what is commonly and incorrectly referred to as particles popping in and out of existence) doesn't make light any slower. Even with that effect it's still completely massless and for that reason it travels at the maximum possible speed. There's no need for any further correction, it's already going as fast as it can."
+AskPhysics,feigjku,t1_feidsf7,1579138016.0,"I'm the last person to ask about error propagation tbh. 
+
+All I can say is that this problem is caused by the fact that only two values are being considered instead of the range of values in between. The formulas work just fine for those two values, what breaks is the assumption that if a<b<c, then either f(a)<f(b)<f(c) or f(a)>f(b)>f(c). This isn't true if the function has a local maximum or minimum between a and c. Sine and cosine have local extrema at the quandrant boundaries, so that's why you have to be careful. 
+
+You could just plug in all the values in between to find the true max and min of your range. That's effectively what you're doing by graphing the function between your max and min input values. There's no easy general formula for it, the endpoint values just get overridden if there is a lower minimum or higher maximum in that region."
+AskPhysics,feif8jy,t1_feibiwq,1579137139.0,"Kinetic energy is (1/2)mv^(2)
+
+gravitational potential energy is mgh, h being the height above some reference level (usually the ground, but in this case you could choose the center of the circle, so the top would be a height of +r and the bottom would be a height of -r). g is gravitational acceleration, equal to 9.8 m/s^(2)
+
+Conservation of energy means that the total energy (sum of kinetic and potential) is the same at the top and bottom, because no energy was transferred to or from the system. We can write out the total energy at the top and set it equal to the energy at the bottom:
+
+(1/2)m(v_top)^2 + mg(r) = (1/2)m(v_bottom)^2 + mg(-r)
+
+you're given m, r, and v_top, so you can solve for v_bottom
+
+Vertical acceleration just means the vertical component of acceleration. Acceleration is a vector, and you can always break a vector up into a sum of component vectors that are purely horizontal or purely vertical. In this case we care about the vertical component because tension and gravity are both vertical, and there are no horizontal forces (at least at the top and bottom). 
+
+For your FBD of the bottom, the forces are in the vertical direction (tension up and gravity down). The sum of these forces (the net vertical force) is what you plug into F=ma, the a is the centripetal acceleration given by v^(2)/r (it's a vertical acceleration because it points straight up towards the center of the circle). 
+
+Answers:
+
+bottom speed: 6.4 m/s
+
+bottom tension: 62 N upward (61.9356 but only 2 significant digits)"
+AskPhysics,feicq6w,t3_ep9uq3,1579135447.0,"It works as long as you stay in one quadrant. If your upper and lower bounds are in different quadrants then you should plot them on the unit circle and find the range of values that matches. Example:
+
+cos(0±60^(o)) = .5 ± 0
+
+It's true that the highest and lowest possible angles both have a cosine of .5, but the values in between have cosine of between .5 and 1. So the real answer would be .75±.25 instead. 
+
+This is always an issue with functions that aren't monotonically increasing or decreasing. If you're near a point where the function goes from increasing to decreasing or vice versa you should make a sketch, you might have to replace one of your bounds with the maximum or minimum of the function in that region."
+AskPhysics,fei8ows,t1_fei6ngm,1579132765.0,"You're thinking of centrifugal acceleration, which only applies in rotating frames. It's always the tension that keeps the rope taught, and it's only in the rotating frame that you need centrifugal force to balance against the tension. A rotating frame is unnatural to use in this situation since the ball doesn't revolve at a constant speed. 
+
+In circular motion, centripetal acceleration is the radial acceleration needed for the object to follow the curved path, and it's directed towards the center. The sum of all the radial forces divided by the mass have to be equal to v^(2)/r and directed inward for the mass to remain on the circular path."
+AskPhysics,fei7mun,t3_ep6i40,1579132091.0,"Yes, that's all it means. Seeing them at the same location just means the position coordinates (in the observer frame) are the same, which means an object traveling in a straight line between them would be motionless relative to the observer. 
+
+The simplest example is if the observer passes through both events without accelerating. Then the proper time between the events is the same as the difference in coordinate time the observer measures with their clock. 
+
+Any observer at rest relative to the first observer would see their position as the same during both events and would measure the same time, so that's why the definition is more general."
+AskPhysics,fei629v,t1_fei3twl,1579131083.0,">In this case, acceleration must be the change in speed rather than velocity to be useful.
+
+No, the speed does not change in uniform circular motion, the velocity does. Acceleration is the change in velocity, in this case indicating that the velocity is constantly changing direction."
+AskPhysics,fei5szl,t3_epa1h4,1579130920.0,"Velocity is a vector, and vectors can't simply be multiplied the same way scalars (single numbers) can. 
+
+There is a way of ""multiplying"" two vectors to get a scalar, called the dot product a·b. 
+
+a·b=(length of a)\*(length of b)\*cos(the angle between them). 
+
+If a and b are in the same direction, then the angle is zero and the cosine is 1, so the dot product would just be the product of the lengths of a and b. 
+
+v·v is the dot product of v with itself (both are clearly in the same direction), and the length of v is the speed. So v·v is equal to (speed)\*(speed), or speed^(2). 
+
+So, as long as you use the dot product, in this case it doesn't matter whether you use speed\*speed, or v·v. You just have to keep in mind that you're using a different kind of multiplication in each case."
+AskPhysics,fei4kir,t3_ep8a9y,1579130139.0,"How much potential energy does it have at the bottom vs the top? What should the difference in kinetic energy be? What does this tell you about the velocity?
+
+An object on a circular track experiences radial (centripetal) acceleration of v^(2)/r. When it's at the bottom this is also equal to the total vertical acceleration. The total vertical acceleration times the mass is the net vertical force, which includes tension upwards and gravity downwards. If you know the velocity, you should be able to solve for the tension."
+AskPhysics,fei3r39,t3_ep8r3y,1579129624.0,"A vacuum is the lowest energy state, not zero energy (the difference is called zero-point energy). The constant speed of light is not affected by the actual value of energy in the vacuum, according to the quantum field theory we use to model these things. Our actual measurements of the speed of light and everything that depends on it are consistent with the theory so far."
+AskPhysics,fei2da9,t1_feh7g68,1579128762.0,"Interaction with the Higgs field is why some fundamental particles have mass, but it's not responsible for mass in general. Most of the mass of ordinary objects comes from the strong nuclear force between quarks in the atomic nucleus. 
+
+Mass is the rest energy of a system (but in different units, E = mc^(2) is just to convert the units of energy to mass). Mass, energy, and momentum are closely related. 
+
+Basically energy is a measure of how a system changes over time, momentum involves changes over space, and mass is a combination of those two that is the same in any frame of reference. 
+
+The reason that physical systems behave like that is either from an action principle or the schrodinger equation (also closely related), which there is no known justification for as far as I know. 
+
+It's also dependent on the definitions of time and length, which are also just things we measure."
+physicsmemes,fehxvpf,t3_ep4i91,1579126056.0,"Simple, make the ship as heavy as Earth. 
+
+Tesla didn't even understand special relativity, he was a great engineer and a shit-tier physicist."
+madmen,fehx3jb,t1_fehvpoh,1579125593.0,"Peggy's line is witty, but usually that phrase doesn't come before a *good* conversation. They don't use ideas with bad associations like that"
+darksouls,fehuy52,t1_fehifvw,1579124376.0,"By the time you're in the swamp you've already done the hard part. The ring barely does anything since you want to avoid the poison muck anyway, and 10 estus is plenty to stave off the poison for 1 lap around the swamp. The real life pro tip is remembering to buy throwing knives for the mosquitoes"
+AskPhysics,fefezp0,t1_fefeggv,1579054918.0,"No, I'm pretty sure the other guy rambling about time dilation volumes, cosmic voids, and extra dimensional black holes was not someone else"
+AskPhysics,fefe72y,t3_eovmv1,1579054419.0,The Nobel prize is on its way. Let us know if you switch accounts again so we know where to send it
+AskReddit,fectyok,t1_febt8jt,1578984514.0,"[Sean Carroll made a podcast about this](https://www.preposterousuniverse.com/podcast/2018/08/13/episode-9-solo-why-is-there-something-rather-than-nothing/) from the perspective of a physicist (He's mentioned in that wiki page). Lots of interesting stuff on the way to the answer, which is that we have no idea and there may not even be something that humans would accept as a reason."
+AskReddit,fectly9,t1_febtitl,1578984120.0,"Assuming that everything was made by a ""who"" is going to give you incorrect answers to even basic questions about the natural world. Who made this rock? No one, there's a sequence of processes like nuclear fusion, planet formation, volcanic activity, erosion, etc that all play a part, all of them were necessary but none of them alone are responsible. Ascribing intention to things outside the physical world is surely even less likely to work."
+AskReddit,fect8vh,t1_feao6v4,1578983718.0,"TL;DW everything and nothing exist in all possible ways and the world we experience is only one perspective of this infinite spectrum of existence and nonexistence. 
+
+Of course, this tells us jack shit about the specific features of the world as we experience it. So it's not actually explaining anything, it's just asserting that everything is possible and doesn't need a reason for being because everything already exists. It doesn't tell us anything about what we will or won't experience, so it's utterly useless for making sense of any factual question. 
+
+The idea of perspective is incredibly useful (like in Einstein's theory of relativity he mentions but doesn't really engage with), you just can't take it all the way like he does and still have anything left to show for it."
+AskReddit,fecm92v,t1_feb7oh5,1578977404.0,"It's a hoax, they never cite an actual study with those results. It's true that people can better distinguish colors when they have different names for them, but those examples are ridiculous"
+razer,fecjkpn,t1_fe6nu0v,1578975476.0,"I did repair before. Just reinstalled and it seems to have solved the issue, thanks"
+razer,fe6bfv1,t1_fcpv6q2,1578886165.0,"Synapse crashes constantly every hour, and I have to kill all the razer processes to get it to start again. It stops recognizing my mamba wireless until I restart it. It happened again as I was typing this.
+
+from Event Viewer:
+
+>The Razer Synapse Service service terminated unexpectedly.  It has done this 9 time(s).
+
+>Application Error
+
+>Faulting application name: Razer Synapse Service.exe, version: 1.0.0.0, time stamp: 0x5dd38a08  
+Faulting module name: ucrtbase.dll, version: 10.0.17763.719, time stamp: 0xa18cd287  
+Exception code: 0xc0000409  
+Fault offset: 0x000a522b  
+Faulting process id: 0x493c  
+Faulting application start time: 0x01d5c9c1c1ab7968  
+Faulting application path: C:\Program Files (x86)\Razer\Synapse3\Service\Razer Synapse Service.exe  
+Faulting module path: C:\WINDOWS\System32\ucrtbase.dll  
+Report Id: 741b46e0-d01e-4260-b979-5d905e04da3e  
+Faulting package full name:   
+Faulting package-relative application ID:"
+educationalgifs,fe5oui7,t1_fe3tknt,1578872391.0,"The mass and radius aren't known, but based on the guess on the wiki page it would be 3x10^45 Joules
+
+Which is **5000 times the mass energy of the Earth**
+
+wtf"
+educationalgifs,fe5maf7,t1_fe5lq0o,1578871289.0,"There are differences based on local elevation, but the overall shape of the Earth follows the rule. The app is comparing you to sea level, not the equator, because at any latitude the same time passes at sea level."
+educationalgifs,fe5kyrd,t1_fe3eo2n,1578870769.0,"Actually not, since it's also further from the center and experiences less gravitational time dilation. Those two effects balance exactly, the whole surface has the same rate of time. The same is true on Earth's surface."
+facepalm,fe5grln,t1_fe592w3,1578869209.0,"My house is on fire, but the temperature changes all the time so I'll be ok.
+
+[btw check out the actual numbers](https://xkcd.com/1732/)"
+AskPhysics,fe4l81v,t1_fe4hmat,1578860512.0,"A wheel could be uniform, because the weight is balanced there is no net torque from gravity"
+rickandmorty,fe4iubq,t1_fe2we6d,1578859800.0,How do you have exactly the opposite of my opinion
+seancarroll,fdznlbs,t3_en8drh,1578792044.0,">It would allow separate frames of reference to scale ..we know it is doing this because the speed of light is the same in time dilation volumes. Gravitational waves fluctuate the scale of reality as they pass. It could make cosmic voids expand and black holes contract.
+
+You're making things up. That's not how any of this works. 
+
+>This is interesting because I think it explains how a black hole is started. A giant star collapses in on itself into the 4th dimension using the inverse cube law. You would need the force of a collapsing star to interact with the fourth dimension.
+
+Black holes are already described just fine using General Relativity with 3 space dimensions and 1 time dimension. There's no point trying to explain something by guessing what a new dimension might do to it if you don't even know how dimensions work. You should just be picking up a GR textbook instead (Sean wrote a good one), you're not going to get the right answer on your own."
+Physics,fdym49h,t3_enddb2,1578781270.0,"I'm not asking btw, it's the video title. He has a cool simulation of it that shows why"
+AskPhysics,fdyek5j,t1_fdyc4i4,1578778914.0,">Am I to understand that in the double slit experiment all trajectories of the particle in question are realized in some world, and that would mean in some world every particle has hit the exact same spot?
+
+As long as that spot isn't in a place where there's zero chance for the particle to land there (there are stripes on the screen where the particles won't ever hit due to destructive interference of the wave). Then since every particle has some chance to land there, it could happen that they keep hitting that place and there would be a timeline where that happens."
+youtubehaiku,fdsul6u,t1_fdp7e8w,1578708137.0,Imagine thinking aliens would use pi instead of tau
+AskPhysics,fdsqjee,t1_fds2uzc,1578706650.0,">One character explains it as worlds branching because of things that happen at a subatomic level, things we can’t really effect and that don’t effect us. She says besides this things are predetermined, but it’s not really something worth worrying too much about.
+
+Branching only happens when something on a small scale affects something, which affects something else, etc. If it truly affects nothing then it won't branch. Small scale events affect large events all the time, they just mostly (but not always) get lost in the noise. 
+
+The branching is deterministic overall, it's the fact that we can't tell which branch we're on that causes the appearance of randomness. The probability of being in a particular branch isn't equal on all branches, but every world that's allowed by the laws of physics does exist. 
+
+A lot of the things we consider deterministic are just things that happen in the vast vast majority of possible worlds, but there are rare exceptions. You just shouldn't expect them to happen in any given world even if you waited longer than many times the age of the universe.
+
+>has such or could such an experiment ever be run? By which I mean one which, as you said, has different measured outcomes?
+
+The [Stern Gerlach experiment](https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment) or [double slit experiment](https://en.wikipedia.org/wiki/Double-slit_experiment), or any experiment involving quantum randomness. 
+
+>doesn’t this mean that there are worlds with very strange statistical outcomes?
+
+Yes. If you flip a coin you can get 1000 heads in a row, quantum events are no different. It's just extremely unlikely."
+Physics,fdrzb0p,t1_fdo8d0v,1578691918.0,"The word ""particle"" is misleading, because in this context it literally means the same thing as quantized wave (or field quantum). It just acts enough like a particle in certain contexts (like if you measure its position) that the name stuck around, even though it's totally different in other ways.
+
+This series of blog posts is a good introduction
+
+https://profmattstrassler.com/articles-and-posts/particle-physics-basics/fields-and-their-particles-with-math/"
+AskPhysics,fdrfpaw,t3_emjbkq,1578683887.0,">is the timeline constantly splitting due to events that occur on the subatomic level? 
+
+Absolutely. The theory doesn't explicitly involve observers, it uses the standard rules of quantum mechanics (the Schrodinger equation) to describe how the wave function of the universe constantly splits or ""branches"" into multiple self-consistent parts, or worlds. This happens whenever interactions between physical systems produces effectively irreversible entanglement between them (aka quantum decoherence).
+
+An observer would be anything that measures or records a property of some system, by physically interacting with it. Because quantum systems can be in superposition, this usually produces different measured outcomes in different worlds, which appears to us as quantum randomness."
+ENLIGHTENEDCENTRISM,fdobejf,t1_fdmhly3,1578602140.0,The [Star Wars parody episode](https://www.youtube.com/watch?v=q5MTIIou56Y) is one of the funniest things I've ever seen
+TrueAtheism,fdlplqk,t1_fdlojkf,1578529469.0,"You're right, a discussion with someone who doesn't know what an analogy is would probably be a waste of time."
+TrueAtheism,fdlo59y,t1_fdlmtkf,1578528477.0,"Why is continuity so important? If you froze time and restarted it later, everyone would have a discontinuous break in their consciousness, but would not notice any difference.
+
+A copy of a book is the same story on different pages. Why couldn't a copy of you be the same person in a different body?"
+Physics,fdj545o,t1_fdj4cbr,1578458699.0,"The change in velocity during the throw would be the same. In the lab frame the ball is already moving, while in the rotating frame it's still (relative to the carousel), then the throw adds the same additional velocity in both cases."
+Physics,fdj05qg,t1_fdhzurs,1578455097.0,Yes. Maybe they are asking for only the radial part?
+Physics,fdg95va,t1_fdg8vnu,1578385384.0,">Do they mean it goes in a straight line in the direction of the sum vector of the initial throwing speed and the tangential speed the ball had due to its rotation?
+
+Yes."
+bloodborne,fdg8rnc,t3_el2bzy,1578384858.0,">Hunters have told me about the church. About the gods, and their love. But... do the gods love their creations? I am a doll, created by you humans. Would you ever think to love me? Of course... I do love you. Isn't that how you've made me?"
+Physics,fdg6yk5,t1_fddyrsh,1578382555.0,"If the ball has a constant direction in the inertial system, then it has a constantly rotating direction in the rotating system. Just because the directions in the rotating system are constantly rotating compared to the directions of the inertial system.
+
+Coriolis force is the force in the rotating system that causes the velocity to rotate. It doesn't affect the component of velocity parallel to the axis of rotation, so it's only the tangential and radial components that matter. The force is just enough to match the rotation rate to that of the rotating system, so it's higher if the velocity is larger (more force is needed to turn around a faster moving object)"
+Sekiro,fdd97sd,t1_fdd4gfw,1578300678.0,"only if you divine confetti, and if they are real generous with their attack patterns"
+AskPhysics,fcygxcz,t3_ejjj3b,1578079926.0,"Two things sounding vaguely similar does not lend extra legitimacy to a theory that otherwise has simply nothing going for it, no quantitative successes to speak of. 
+
+The aether is supposed to be a background of stuff that other things move through. But the key point and the reason it doesn't work is that it's also supposed to have its own state of motion, in particular a specific and unique frame of reference where it does not move. In other words, a special frame of reference that moves with it that other things can be compared to.
+
+Such a special frame of reference does not exist, instead we have a principle of relativity which states that the laws of physics are the same in a wide variety of different reference frames in different states of motion. This principle is one of the most solidly verified experimental facts in science. 
+
+The theory of relativity is a mathematical framework for describing physical systems that is built on that principle, and modern physics with all of its experimental successes has been based on it for about a century. In this theory, the relativistic fields that describe matter and forces are set on a background of spacetime that can be described equally well in any frame of reference. The spacetime manifold itself doesn't have a state of motion."
+AskPhysics,fcusm4m,t1_fctomhe,1577987699.0,"An object accelerating forward will have differing proper times on the front and back sides (easiest to see from the equivalence principle, the accelerating frame that follows the object acts like it has a gravitational field). So there is still reason to prefer straight paths according to OP's rule"
+AskPhysics,fcurmto,t1_fcur7ml,1577987095.0,"The magnitude of velocity is the definition of speed, so those will always be equal."
+AskPhysics,fcuqzyz,t1_fcupkbo,1577986735.0,"Specifically, Einstein's beliefs about how contemporary physics affects the philosophy of time. It's not *not* about physics"
+AskPhysics,fcupdx4,t1_fcuor9w,1577985836.0,"Because the average of the magnitude isn't the same as the magnitude of the average. Let's say I have 3 velocity measurements in some time period, [1m/s, -3m/s, 2m/s] then the difference looks like:
+
+(|1| + |-3| + |2|)/3 = 2
+
+vs 
+
+|(1 + -3 + 2)/3| = 0"
+AskPhysics,fcuonda,t1_fcuj1bc,1577985421.0,"It's philosophy of physics, and physics is relevant to the question"
+AskPhysics,fcuob4s,t1_fcub4pc,1577985225.0,"You're referring to the growing block universe. The block universe (aka eternalism) is where the past present and future all exist. He couldn't have been referring to a growing block universe as that has a ""real"" present moment that changes over time. 
+
+The block universe is arguably just another name for spacetime, the geometric structure which encompasses all events and the relations between them. You can define a generalized past, present, and future for any observer corresponding to their past lightcone, spacelike separated region, and future lightcone respectively. But this is relative to the observer, and no observer can consider themselves to be living in the ""now"" more than any other. 
+
+So in the framework of relativity, the distinction between past present and future is not a fact about the universe, but how the universe is seen from a particular perspective. In other words, an illusion (probably too strong of a word, but it does point to the difference between things as they seem and things as they are)."
+movies,fctfrtv,t1_fcmyxlc,1577941848.0,"She was negligent because she didn't read the drug labels, she went by feel which is why switching the labels didn't work. And I expect she was technically duty bound to call 911 even if she knew he would be toast before the ambulance arrived."
+Physics,fcsdmgp,t1_fcs9zg4,1577915068.0,"E and the three components of P form a 4-vector, which is to spacetime what normal vectors are to space. The energy equation comes from the generalization of the Pythagorean distance formula to include time as a dimension.
+
+https://en.m.wikipedia.org/wiki/Four-momentum
+
+The euclidean appearance is not accidental, but it's misleading because the correct norm is minkowski, not euclidean. This means the time component (the energy) contributes positively but the spacial components (momentum) contributes negatively. The mass therefore takes the role of the magnitude of the vector if it's written the right way:
+
+M^2 = E^2 - P^2"
+Sekiro,fcruvqn,t1_fcqezm2,1577906931.0,"Jump when he swings so it hits you on the way up, r1 right when you start falling back down. Run in and get some more hits while he's staggered"
+youtubehaiku,fcrg0r9,t1_fcr4e0c,1577901336.0,"Socialism isn't just when the government does stuff, it's when workers control the means of production."
+science,fcogvk6,t1_fcnjqki,1577831925.0,"That's basically right. To receive the teleported data you have to set up a system that *could* give you any possible message, and if you measure it too early that's what you'll get, a random message. It's only after you get the signal from the sender that you can act on the system to put it into the state you want. It's only interesting because you can do this without the message being readable at any point along the way, and without violating the rule that quantum data can't be copied (the original is destroyed in the process)."
+science,fcofsxv,t1_fcocn1g,1577831191.0,"With quantum encryption you can design it so that it's physically impossible for someone to retrieve your data without having a 99.9999% chance of being caught. It's not about using a hard to solve computer program, it uses the fact that you can't measure a quantum system without disturbing it."
+science,fcof57k,t1_fcocjga,1577830736.0,"It can simulate some processes that would not be feasible on a regular computer, but it's not just doing things faster or doing more things at once (despite what pop science articles will tell you). It's like having an amphibious vehicle instead of a car, it can do everything a car can and in some cases take shortcuts through water where a car would have to take a longer way. 
+
+What it's actually doing is complicated, but it's using entanglement which is a unique feature of quantum systems that allows correlations between parts of the system that wouldn't be possible otherwise. It's a statistical thing, where you have to manipulate the probability of the answers so that you're more likely to get a correct answer to your problem than an incorrect one."
+science,fcoeuzf,t1_fco5kz9,1577830539.0,You can't copy quantum data. But teleportation allows you to send it without looking at it by necessarily destroying the original. Unfortunately you also have to have entangled particles sent in advance and you have to send a signal when you do it to decode it at the other end. So about the only thing it's actually useful for is if you're about to lose your connection to the quantum internet you can save up bandwidth and then use it later by using normal internet instead.
+SweatyPalms,fco4vpp,t1_fcmdp15,1577824127.0,And when you reach terminal velocity you don't feel weightless anymore because the air drag is pushing you up the same amount the ground normally would.
+Physics,fcnz98f,t1_fcnor1w,1577821270.0,"Either he meant them to be at the same distance when the light was emitted, or the light emitted further away was emitted earlier. 
+
+Edit: A link to the video would help to decide which is the case"
+Art,fcmbb9q,t1_fclvq20,1577769429.0,Whiskey does that.
+cursedimages,fclefmz,t1_fckn89e,1577745894.0,He was after Texas Red
+physicsmemes,fcl6vvk,t3_ehegdw,1577741097.0,waves of maybe
+explainlikeimfive,fcl4cnf,t1_fcl1z82,1577739532.0,"Publicly funding things like education, heath care, and infrastructure gives massive returns on investment that can't be achieved by private industry that ignores positive externalities (benefits to people other than shareholders)."
+math,fcl3395,t1_fckcyy2,1577738750.0,"The (x,y) location of each pixel corresponds to a complex number x+iy. Then to that number you do an operation a bunch of times and check whether the result ever gets more than 2 units away from (0,0). 
+
+For the mandelbrot set the operation is
+
+z_new = z^(2) + c
+
+Where c is the number corresponding to that pixel. You start with z=0 and keep feeding the result back in to the same function. Points within the mandelbrot set will always stay within 2 units of (0,0), while any points that leave that region can never get back in. The number of steps it takes to escape is what determines the color (but the colors are also set to cycle so it looks cooler)."
+math,fcl1uhq,t1_fck8c7n,1577737982.0,"I think they took every sixth color and replaced it with black, then smoothed it out. There are 24 stripes before it repeats so I'm guessing they took the remainder of the iteration count divided by 144 and used that to map to a cycle of pastel colors that looked nice (with stripes blacked out). 
+
+The motion of the stripes comes from subtracting the current frame number from the iteration count each frame before taking the remainder."
+math,fcl0sr1,t1_fcjtgbl,1577737335.0,"It's zooming in, but at the same time the colors are being cycled in a striped pattern. The stripes move deeper into the fractal at a similar speed to the zoom, so it there's an illusion that they're standing still while the geometry is expanding underneath."
+AskPhysics,fckulzo,t3_ehpp0u,1577733534.0,"Check out [Feynman's lectures](https://www.feynmanlectures.caltech.edu/II_31.html) for examples and motivation.
+
+A tensor is a multilinear map, a function that takes in some number of vectors and outputs a number. ""multilinear"" just means that f(A + B) = f(A) + f(B) for any input vectors A and B. This is useful because to know what this function does to any vector, all you need to know is what it does to the basis vectors (for example, unit vectors along the x,y, and z axis). Then the result for any given vector can be calculated by breaking that vector down into basis vectors, running each of those through the function, then adding the results back up to get the final answer. 
+
+A matrix is an example of a rank 2 tensor, because to get a single number out of it you have to input 2 vectors. The rows and columns of a matrix are a summary of what it does to each possible combination of basis vectors that you can give it. Multiplying that matrix by one vector gives you a rank 1 tensor, the output vector. To get a single number out of that output vector you have to give it a direction (some basis vector) to get the component of the vector along that direction. 
+
+For the moment of inertia tensor, you input the angular velocity of the object as a vector, and another unit vector in some direction, and the function tells you how much angular momentum the object has in that direction. If you do this 3 times giving it the x,y, and z basis vectors, you get the components of the full angular momentum vector."
+AskPhysics,fckii97,t1_fckfw9j,1577726076.0,Mwi explains why we can't see them. Copenhagen doesn't explain under what circumstances collapse happens
+MurderedByWords,fcgy1lq,t1_fcgc8bj,1577645192.0,">Do not worry about your difficulties in Mathematics. I can assure you mine are still greater.
+
+-Einstein"
+educationalgifs,fcgtfvt,t1_fcdifpt,1577643851.0,"It's weirdness from the rotating frame of reference (the earth is actually traveling in a circle around the sun, not sitting still as it seems), which produces apparent centrifugal force and coriolis force. In addition to the gravitational force from the earth, sun and moon. 
+
+Centrifugal force pushes the asteroid away from the sun (the center of rotation).
+
+Coriolis force makes the velocity of the asteroid turn clockwise, because the frame of reference is turning counterclockwise to follow the earth. 
+
+The L1 point is where the earth's gravity, sun's gravity, and centrifugal force balance exactly (for a stationary object without coriolis force). As the asteroid passes that point, the balance shifts and the earth's gravity becomes more significant, which makes a sharp turn in the path of the asteroid."
+AskPhysics,fcgrdk1,t1_fcgjc6a,1577643273.0,"[This diagram](http://www.mysearch.org.uk/website1/images/pictures/250.4.jpg) from [this page](http://www.mysearch.org.uk/website1/html/250.Twins.html) shows the effect, specifically the right side where the emitted light is viewed from another frame. 
+
+In the rest frame of the traveling twin, they send out signals every year. For the twin that stays still, the time between the emission of signals is longer due to time dilation. But the time between receptions of the signal is even longer than that because each subsequent signal is sent at a further location in space and takes longer to reach the other twin. 
+
+When the twin turns around, the emissions are still slow due to time dilation, but because every subsequent emission happens closer and closer, the time between receptions is shortened. 
+
+This applies not only to the frequency of the light (determined by the time it takes for each peak and trough of the light wave to pass by you) but to any period of time that you measure by intercepting light signals emitted from the events you're observing (so a clock would appear slow or fast based on the light you see from it). 
+
+The travel time of light does not matter in the [Einstein synchronization of clocks](https://en.wikipedia.org/wiki/Einstein_synchronisation), which is how the time coordinate is defined in each reference frame (and how time dilation of one reference frame compared to another is defined). This is because events are labeled by the time read on clocks that are at the same time and place as the event (and moving along with the reference frame), which means there is no delay between the event and the measured time coordinate of the event. But the timing of light signals far away does depend on the relative motion of the emitter and receiver."

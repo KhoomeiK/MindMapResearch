@@ -1,0 +1,32 @@
+subreddit,self ID,parent ID,time,text
+todayilearned,ff8ykfz,t1_ff8kvsj,1579700179.0,Still asks you to reverse a linked list in an interview
+todayilearned,ff3r211,t1_ff3py1w,1579547009.0,"Entry-level pentesting can still be difficult to break into. Once you get experience (even 1 year), it goes away. Coalfire, NCC Group, and others turned me away from entry level positions after I got OSCP and I had 4 years of dev/sysadmin experience on top of that. 
+
+Realistically, even if you can do a few easy boxes and do some basic programming, you'd qualify for paid basic training. You could shadow other pentesters and learn from them. Meeting the need is do-able, we just don't have a training/apprenticeship culture. Entry-level folks are also valuable because low-hanging fruit can re-appear on your network.
+
+It was much, much easier to break into development and I am self-taught in both areas. I believe it's actually cultural and business reasons on why the demand goes unmet."
+todayilearned,ff3p65g,t1_ff3bycd,1579545858.0,Remember that negative unemployment includes companies that simply don't want to train their talent and post hilariously demanding job postings. They are saying there are unfilled positions because those positions are all asking for unicorns. It isn't an accurate measurement of demand being met in the industry.
+todayilearned,ff32tvi,t1_ff2u74z,1579532222.0,"I don't think this has been done for a while. There's enough law-abiding talent that you don't actually need to employ them, just get their methods."
+GetMotivated,fesym9z,t1_fesqev3,1579370196.0,">  This type of stuff is especially prominent in the CS field, where aged employees get fired on a dime.
+
+They get fired from entry level jobs and get much better positions"
+sysadmin,fedbfha,t1_fed2vfy,1579006591.0,"crypt32.dll is used by lots of things 
+
+For example, here's a stack trace in ASP.NET Core running on IIS where it's called: https://github.com/dotnet/aspnetcore/issues/13706 (I really doubt anything in that stack trace is what's actually getting patched). I think it's also a key component of DPAPI which is in turn used by Chrome to encrypt passwords/cookies/user data.
+
+My speculation only, but MS giving out patches to military/intel agencies ahead of time means it's probably more serious than signature spoofing."
+HongKong,fe5d5vz,t3_ent4ly,1578867923.0,Who would you now bank with because of this?
+CentOS,fdxbczm,t1_fdx7g9c,1578767152.0,"I didn't have Network File System Client selected during install. Once I resintalled with that, it mounted after joining the domain."
+StardewValley,fdoxyzw,t1_fdorlci,1578615436.0,Me and Factorio
+programming,fdlezyf,t1_fdl8ltk,1578522599.0,Every day is crunch week
+programming,fd2bhqp,t1_fcxlb4o,1578144779.0,"First class usually means stuff like this:
+
+https://docs.microsoft.com/en-us/azure/devops/test/run-automated-tests-from-test-hub?view=azure-devops
+
+and then:
+
+https://docs.microsoft.com/en-us/azure/devops/test/associate-automated-test-with-test-case?view=azure-devops
+
+Associating the unit test with a test case and having it appear on Azure DevOps means it's inspecting the assemblies to some degree (rather than just running a shell command to execute unit tests and dumping the output)
+
+IDK if they have this for other languages, but this is useful if you have a larger team with Agile managers who know what unit tests are."

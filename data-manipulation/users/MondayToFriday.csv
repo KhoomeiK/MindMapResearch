@@ -1,0 +1,60 @@
+subreddit,self ID,parent ID,time,text
+mildlyinteresting,ffi64mj,t1_ffi40x6,1579966101.0,[Porcupine](https://www.etymonline.com/word/porcupine#etymonline_v_18475) fits the pattern too! It's literally a spiny pig.
+science,ffbh1m9,t1_ffazovy,1579764942.0,"Hair serves a relatively unimportant biological function, so in times of disease, malnutrition, stress, it's one of the first body parts to be sacrificed. That's why cancer patients lose their hair. It's also why people instinctively appreciate long healthy hair as beautiful: it's a proxy indicator of consistently good health."
+politics,ff4cbkx,t1_ff44sow,1579560258.0,"I interpret 51% quite differently.  That's merely half of the public — basically an even split.  How is that enough justification to convince 2/3 of the Senate to convict?  It sounds like sweeping it under the rug as a ""witch hunt"" is actually a winning strategy.
+
+Furthermore, [Trump's approval/disapproval ratings](https://projects.fivethirtyeight.com/trump-approval-ratings/) haven't budged at all since mid-2017, which indicates that people either love him or hate him, and nothing that anyone does is likely to change their minds."
+coolguides,ff47kly,t1_ff3jvkj,1579557272.0,"In Miami, the price for a banana has gone as high as $120000."
+WTF,ff3rhpa,t3_er7h8x,1579547275.0,Some pig!
+todayilearned,fezpy9g,t1_feywf4g,1579460189.0,The real lesson here is to beware of math PhDs named Theodore.
+UBC,fex4l9r,t3_eqjver,1579424232.0,A good start would be reforming engineering curricula to make room for liberal arts electives.  (Technical writing and ethics courses don't count!)
+onguardforthee,feobkrp,t1_fenpjpz,1579297732.0,It's really happening! [Here's the evidence.](https://www.reddit.com/r/coolguides/comments/dngp1d/those_numbers_tell_you_where_your_milk_is_from/f5avg2q/)
+CatastrophicFailure,fenz3lq,t1_femse8b,1579292935.0,Nope.  Just blew their cover.
+worldnews,fel273m,t1_fekqwxt,1579212453.0,"I doubt that Conservatives think long term.  I'd bet that they want high-school kids to fill low-wage jobs now, and it will be possible since the kids don't have to be in school during regular hours."
+worldnews,feijhtl,t1_fehwzu1,1579139963.0,"The common narrative that Easter Islanders chopped down all of their trees is likely simplistic or wrong.  [Rather](https://youtu.be/nCyzrie_les?t=2747), the ecological collapse was probably brought on by rats gobbling up the seeds and nuts of palm trees."
+sysadmin,fei39y3,t3_ep4cfh,1579129323.0,"I didn't get it either, until I started looking into Kubernetes recently, specifically to build a deployment of [JupyterHub](https://jupyter.org/hub).  JupyterHub is an application that lets users log in and launch their own web-based computing environment.  One simple way to deploy it is to put everyone on one giant server.  However, if you want it to scale up, you have to let each user launch a Docker container instead.  Kubernetes picks a host machine within the cluster on which to run each container, and also takes care of allocating storage, load balancing, and other details.  An application needs storage?  It just specifies how much it wants, how persistent it needs to be, whether it's shared with other containers, and the mountpoint within the container — then Kubernetes just hands over a chunk of storage to the container out of a giant pool of resources.
+
+On its own, my reaction to Docker has been lukewarm.  You either take someone else's prepared images (who knows what's in there and whether I can trust it?) or build your own (which is kind of a hassle of questionable benefit).  But when you combine Docker with Kubernetes, which gives you scaling and fault-tolerance in a totally automated way, it's awesome.  I feel like I've seen the future of system administration."
+asktransgender,feh89rt,t1_feghxzz,1579111200.0,"I also didn't have many friends as a kid, and I still don't now. Part of the reason was that developing every new personal relationship felt like I was digging myself into a deeper hole. I also refused to discuss any personal thoughts and issues with anyone, and refrained from asking personal questions to anyone, lest they ask personal questions of me and force me out of my shell.  Basically, I felt that society wasn't going to be kind to me, so I figured that I would be better off alone.  (Studies now are showing that loneliness is a risk factor for premature death. That sucks.)
+
+Not every transgender person has that personality, of course, but that may be a possible coping mechanism that your child has developed."
+macsysadmin,feh6r98,t1_feh5n3o,1579110316.0,"Qualitywise, any screen these days will have enough clarity and brightness. It's really just a matter of personal preference for the size. Larger screens let you see more code. Smaller screens give you a more portable machine, and help a tiny bit with prolonging battery life."
+worldnews,feh00fs,t1_fegnj6y,1579106280.0,"With Thailand, it's usually westerners doing stupid stuff there while on vacation, such as illegal drugs.  Sometimes they end up in the media, and sometimes they get rescued from Thai prisons.
+
+Mustafa Kassem was an Egyptian American, detained while going back to visit his family.  The article doesn't state whether he was still an Egyptian citizen, and if so, that may have been a factor in the US's non-intervention."
+asktransgender,fegtnro,t1_feghxzz,1579102279.0,"At age 12, the body is developing, and ""she"" likely finds those changes disturbing and wrong.  It's not about being attracted to future partners who may or may not exist.  It's not about counting friends.  It's also not about your divorce.  If there is a gender identity issue, it started 12.7 years ago.  Your child has probably been dealing with the problem internally for a while, and is finally trusting you enough now to seek help.
+
+If you act soon, there is a wonderful opportunity to stall some irreversible changes that could cause a lifetime of grief.  Definitely start by involving a therapist who has experience with gender issues."
+macsysadmin,fefsii1,t3_eor9gf,1579063881.0,"Depends on what you're developing, of course. If it's basic web development, or if much of the work is done on a server anyway, then the specs don't matter that much. If you need to run Xcode, clone large git trees, or test the product using multiple virtual machines, you should really consider increasing the specs.
+
+Personally, my priorities would be:
+
+1. Make sure you never run out of storage or even get close to running out. A machine is pretty useless once the file system fills up. You really don't want to spend your time deciding what files to offload. Also, very bad corruption can happen when storage is 100% full.
+
+2. A large screen is an excellent productivity enhancer for development work, as it allows you to visualize more code at once.
+
+3. CPU comes next, since less time spent waiting for compilation means you get distracted less easily.
+
+4. Memory is nice to have, but you can always quit some apps to recover some memory."
+vancouver,fecgwic,t1_febq0pc,1578973635.0,"Couldn't you have hung the bag outside the car, either tied to the mirror or clipped to the window?"
+coolguides,fe62f99,t1_fe2i8zr,1578880269.0,"The plugs look similar, but they are *not* the same! [Switzerland](https://www.power-plugs-sockets.com/switzerland/) uses Type J, which is unique to Switzerland and Liechtenstein. [Brazil](https://www.power-plugs-sockets.com/brazil/) uses Type N, which is also used in South Africa.  [Type N is flatter than Type J.](https://www.worldstandards.eu/electricity/plugs-and-sockets/n/)
+
+Both J and N are kind of compatible with the Type C that is used in most of the rest of Europe, in that they all share the same size and separation of the main power pins.  An ungrounded two-prong connection could work if the socket isn't too picky about the plug shape.
+
+Brazil's electric grid is a mess, though, in that it can have 127V or 220V mains voltage, both served by the same socket!"
+askscience,fe02quh,t1_fdztlwi,1578801610.0,"I'd add that the earth's crust is currently splitting apart at the [East African Rift](https://en.wikipedia.org/wiki/East_African_Rift) and in [Iceland](https://en.wikipedia.org/wiki/Geology_of_Iceland).  Both places are geologically active, but neither seems to have cataclysmic events."
+transgender,fdxy6oj,t1_fdxtgzj,1578774126.0,"I'm sure that everyone who has experienced being transgender sympathizes 100% with the kid's plight. Transgender people already suffer enough through bullying, general shame, self-doubt, and medical gatekeeping. To get to the point where you seek medical intervention already takes a huge amount of bravery and effort. To be undermined at that point by one's own parent, with no recourse, would just be cruel. I'd add that if the father vents about it publicly, that would just be transphobic hate speech."
+AskReddit,fdx1wbb,t1_fdwds9o,1578764467.0,"[Examples](http://chemistry.elmhurst.edu/vchembook/549sweet.html) include saccharin, cyclamate, acesulfame, and sucralose."
+AskReddit,fdwzvjn,t1_fdvn0np,1578763880.0,"[Minoxidil](https://en.wikipedia.org/wiki/Minoxidil#History) was hoped to treat ulcers, but ended up treating blood pressure, and then its use for hair growth was discovered."
+mildlyinteresting,fdupg6y,t1_fduginm,1578736790.0,The [GE Appliances](https://en.wikipedia.org/wiki/GE_Appliances) company isn't even owned by General Electric anymore. It's basically a Chinese-owned company continuing to use the old name.
+worldnews,fdtilmj,t1_fdtgjhw,1578717283.0,"It can be both. I'd classify this as an issue of [affordance](https://uxdesign.cc/affordance-in-user-interface-design-3b4b0b361143). If something looks like a button, people are going to try clicking on it. If something looks like an incomplete form field, people will think it should be filled in."
+transgender,fdskyvk,t3_eksbo0,1578704515.0,"Meanwhile, in British Columbia (Canada), [the answer is yes!](https://www.reddit.com/r/transgender/comments/en0bo0/transgender_teen_has_right_to_transition_despite/)"
+worldnews,fdsjlby,t3_emvtwx,1578703965.0,"The incident is also partly due to bad UI design, though.  There should either be no signature field at all, or better yet, an officially printed ""NO SIGNATURE REQUIRED FOR PASSPORT BEARERS UNDER AGE 16"" message over the field on relevant passports so that such a mistake is impossible.
+
+**Follow-up:** I just looked at my kids' Canadian passports. They do indeed have
+
+> Signature  
+> not required / non requise
+
+printed on them — on the laminated photo page, not on the signature page."
+MaliciousCompliance,fdrtxm5,t1_fdoelns,1578689605.0,I believe it's the same legal principle that makes homeowner associations possible: a covenant puts a restriction on the property that requires the owner and successors to be governed by the the HOA.

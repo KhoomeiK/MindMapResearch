@@ -1,0 +1,64 @@
+subreddit,self ID,parent ID,time,text
+CrappyDesign,fg4vmts,t1_fg4iozd,1580512098.0,The guy listening to the screen reader at 2x speed? He's reading much faster than I am.
+AskReddit,fg4v1ak,t1_fg4tu7n,1580511720.0,This was one of the most interesting comments I've read recently.
+AskReddit,fg48tto,t1_fg3nikh,1580498595.0,I kinda like the second one. Make it actually difficult to buy expensive shit. I'd like to add one thing: the person making the purchase must bring in the currency by hand. Good luck buying that yacht or mansion.
+todayilearned,fg2vo8c,t1_fg1ppcv,1580457884.0,I can translate: they're the fresh-lead transportation systems.
+mildlyinteresting,ffw3y1y,t1_ffvwknh,1580283263.0,"I don't see why it would need to be. I saw the same thing at my doctor, where a couple of drawers were reserved for certain very common names because it was much easier to sort through them that way."
+natureismetal,fft0u6v,t1_ffsnw4b,1580201048.0,I haven't seen the movie yet. Is that really what happens?
+todayilearned,ffbuva8,t1_ffbg68a,1579783550.0,">she had semen from three people, one of them stepbrother
+
+This sounds so wrong..."
+apple,ff642c5,t1_ff61s2o,1579618611.0,"They ask for permission, but you don't really have any choice but to agree to being tracked or you lose most of your phone's functions."
+apple,ff60vux,t1_ff5y24j,1579616266.0,"Really? You actually need to enable location services to be tracked on an iPhone? The tracking comes by default with Android, even with location services off..."
+facepalm,ff5vxr6,t1_ff5tph4,1579612071.0,Junior CEO. Everyone who wants to be a CEO needs to do the job for the first time in their lives at least once. You can't always have experienced workers.
+facepalm,ff5pqfn,t1_ff5pdru,1579605096.0,Or somewhere in between. I don't see why it should be black or white.
+facepalm,ff5pbfj,t1_ff5jmzm,1579604501.0,It's not about what's between their legs but about giving non-experienced people a chance. Some times you gotta hire for junior positions.
+CouldYouDeleteThat,ff2s2uv,t1_ff2gyuy,1579521672.0,You mean HIV. AIDS is the effect of the HIV.
+freefolk,fezij0r,t1_feyzxh7,1579457712.0,"Ok, so I haven't seen it and I have no idea what it's about except a few memes I've seen around. I know everyone is pissed about the ending... can anyone explain what happened?"
+BrandNewSentence,ferz9jj,t3_eqdoxi,1579359887.0,"True, but it's a tautology because it's a tautology."
+todayilearned,fen84tq,t1_femtivi,1579279058.0,"I'm pretty sure you're right. He was smart enough to hide his writing style, he just couldn't help himself."
+DarkHumorAndMemes,femnejl,t1_femn4tr,1579263619.0,What about it?
+Catculations,fekmxgw,t3_epkp2o,1579203386.0,"""How many lives did I lose this time?"""
+explainlikeimfive,fekcxjo,t3_epjfbc,1579197430.0,The answer is in your question. They understand the half-life of any particular isotope by studying the half-lives of all isotopes. They see the general trend and from that they can find the exceptions.
+Futurology,fek5w3o,t1_fejytxf,1579193264.0,"While I think you're right and I don't know much about smartphones, I don't think many manufacturers are making micro-USB phones any more. Besides, all the new Android phones have USB-C, so it's just a matter of time until the old ones die out. And if it wasn't for audio, USB-C would be perfect for a long time."
+funny,fek0tgt,t1_fejvypn,1579190178.0,Joe.
+todayilearned,feeured,t1_fedrszo,1579041650.0,"I'm talking about the reverse of what you're saying, discovering new physics by observing the universe in various stages of development."
+todayilearned,fedphns,t1_fed2v9f,1579017068.0,"It could be that life is rare and it appeared on Earth or maybe it's so common that it came from space and there are plenty of space rocks full of it (we just haven't found one yet or we haven't realized it was a precursor to life) and it could be that life is so common that it appeared on Earth before it got the chance to fall from the sky.
+
+I think the last one is true. We still don't know with certainty whether or not there is other life in our solar system. We know that water helps A LOT, so who knows what secrets Europa holds under its ice?"
+todayilearned,fedp31p,t1_feda879,1579016812.0,"Pretty much the same we do with space, where shit takes billions of years to happen."
+InsiderMemeTrading,feaero9,t3_eo42qa,1578947817.0,https://i.imgur.com/L3vZCqA.png
+todayilearned,fdh4996,t1_fdgsf06,1578415049.0,Then you'll be glad to know that we're at over 100 million transistors per **square millimeter**.
+todayilearned,fdg82l6,t1_fdg6t2x,1578383964.0,"Well, a CPU has over a billion, a GPU has like 10 billion and SSDs have a few hundred billion... You do the math.
+
+https://en.wikipedia.org/wiki/Transistor_count
+
+>In terms of the total number of transistors in existence, it has been estimated that a total of 13 sextillion (1.3 × 1022) MOSFETs have been manufactured worldwide between 1960 and 2018, accounting for at least 99.9% of all transistors. This makes the MOSFET the most widely manufactured device in history.
+
+That's about 13 trillion billion transistors ever made. Or 10 trillion per second for 1 billion seconds (~30 years)."
+webdev,fde0txi,t3_eks8uh,1578328623.0,"Because the same route can have different verbs. You can have a `GET /user/profile` route on the **back-end** which returns the currently logged in user's profile as a JSON, and you can have a `PUT /user/profile` route on the **back-end** which updates he profile of the currently logged in user with data from the request JSON body.
+
+In express you do:
+
+    /* To handle a profile get request on the back-end: */
+    app.get('/user/profile', (req, res) => res.json({ name: ""John Doe"", age: 30 }));
+    
+    /* To handle a profile update request on the back-end: */
+    app.put('/user/profile', (req) => Profiles.updateById(req.session.userId, req.body));
+
+Then, on the **front-end**, you call `GET /user/profile` to display the user's profile information, and when the user edits their profile and saves it, you do a `PUT /user/profile` with the data to be updated in the database.
+
+In React you do:
+
+    /* To get profile from back-end: */
+    const profile = await fetch('/user/profile');
+    
+    /* To send a profile update to the back-end: */
+    await fetch('/user/profile', {
+      method: 'PUT',
+      body: JSON.stringify(profileToUpdate),
+      headers: { 'Content-Type': 'application/json' }
+    });
+
+Look up REST and CRUD."
+Romania,fcr7tv6,t1_fcli0tq,1577898042.0,Nu stiu daca un limitator de viteza ar fi o idee buna. Trebuie sa poti controla masina bine si usor ca sa poti sa eviti accidente.

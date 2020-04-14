@@ -1,0 +1,239 @@
+subreddit,self ID,parent ID,time,text
+Morrowind,ffj4573,t3_etkvsr,1579989918.0,Where do you sit to play?
+todayilearned,ffiyv3b,t3_etwb8e,1579986106.0,"""..and that is now the single greatest thing another person has ever done"".
+
+It might not be the ultimate response, but I'll start the counter-argument with ""penicillin""."
+Optics,fffwsq5,t3_etdoyd,1579893519.0,"I'm traveling until Monday.  Will check what I have archived.
+
+Do you explicitly need the 32bit installer?  Think mine are all 64."
+interestingasfuck,ffeaxm1,t3_et1s9g,1579841655.0,"Looks like there's a trampoline / gymnasts vault ""table"" under the mat just before the target.  The mat has an upward curve to it."
+news,ffdmtzm,t3_et1rmf,1579824237.0,Good girl Lassy!
+worldnews,ffdmlom,t3_et1v07,1579824098.0,Says the man in Geneva.
+worldnews,ffbca3h,t3_esowyh,1579759377.0,"Yes, clearly. 
+
+Oh, and I'm pretty sure that the US isn't typically thought of as part of Asia."
+biggreenegg,ffaraxd,t1_ffaiufv,1579742660.0,"Pizza ideally doesnt bake; it's cooked by radiant heat from the walls and lid.  So, you need the egg screaming hot for a long time (an hour+) so that the internal surfaces are all stable-hot at (e.g. 550-600+ F).  I use the platesetter legs up, grate on top, pizza stone / dish on grate.  The coals are orange+ hot at this point, so you also need to protect the base from the direct radiant energy from the coals.  About 9 minutes for a thin crust pizza."
+biggreenegg,ffa2tbn,t3_ergloa,1579726753.0,"Check the beginner's faq at bge website.
+
+Don't buy anything until you actually decide you need it.  There are a ton of gadgets out there, all are expensive, few useful to all cooks.
+
+The one exception might be the platesetter / conveggtor which is used for indirect cooking (it's just a big heat-shield).  Oddly- at low temp for e.g. pulled pork, and also screaming high temp e.g. for pizza.  That said, I did just fine without one for the first of couple years- lots of steaks, chicken, burgers, roasted veggies before I did my first pulled pork (or beef as an alternative), and pizzas.  
+
+You can even do whole turkeys, whole chickens direct if you spatchcock them (as opposed to indirect which is most people's initial tendency).
+
+I can't reach my post history at the moment, but will add some recipe links later.
+
+Welcome to the club."
+Optics,ff9uy6h,t3_esbakt,1579722007.0,"Yes, if you're good enough to take it and pass it, then it ought to be on your resume as an indication of your engineering skill / knowledge."
+Optics,ff9syok,t3_es76g9,1579720579.0,"From memory (don't have Goodman handy).
+
+From object to image, you write two Fourier propagation integrals (one in. object coords,  second in aperture coords).  
+One of the simplifying assumptions that removes a problematic quadratic phase term inside the integration over object coords is that the lens is mapping a single point on the object (x coords) to a single point on the image plane (x' coords).  This is usually written as a Gaussian transverse magnification term, effectively  dirac(z/z'-M), where M is constant mag If you make your M(x'), you'll be able to accurately generate psf that accounts for distortion.
+A second quadratic phase term is removed if the lens makers equation is true, tying 1/z' = 1/f +1/z.  Then tie x' /x  = z'/z = M.
+Now, the odd thing here is that the delta function(x,x') above ""slides inside"" the integral dx, and probably violates causality.  I've always thought that this is necessary because Goodman's describing the field behavior as entirely scalar; the lens adds a directional restriction (Snell) that I don't recall being accounted for elsewhere."
+Optics,ff5doml,t3_eqyir7,1579588539.0,"Covering an entire theater projection wall with an active display would be very expensive.  So, we still use projectors.
+
+You want to minimize the amount of optical power used to prevent damage to components (including the celluloid film, historically), so projecting into a dimly lit environment is still the way to go."
+todayilearned,ff43d0g,t3_erfhqe,1579554648.0,"~~travel influencers~~ self absorbed hoodlums
+
+Ftfy."
+Optics,ff2m7r2,t1_ff2l55s,1579512865.0,"Fourier optics transverse (image quality) is all the same math as longitudinal Fourier pulse quality (temporal profile).  You just end up swapping your x/y for z. 
+
+Lens is a spatial Fourier transform. Diffraction grating, spectral transform.  Prism, spectral transform.  All the same quadratic and linear phase terms appear.
+
+Spectral bandwith (delta lambda) is a Fourier conjugate to temporal pulse-width.  Need high delta lambda for short delta t (great for short pulses).
+
+Spatial bandwidth (PSF) is a Fourier conjugate to MTF.  If you have high delta PSF, you have short delta MTF (poor images)."
+Optics,ff2gusj,t3_eqpgbc,1579505559.0,"What's your intended specialty; laser, or lens design?
+
+Either way; Arrange with the departments to go visit and tour the schools. Spend a few days in each town; get the feel of either place."
+smoking,ff27csp,t1_ff20n7e,1579495906.0,"Assuming you're using the web version rather than the app, it's even easier than that; see my post above ;)"
+smoking,ff266mx,t3_er5mvb,1579494925.0,"Breakfast looks good- I think you disappointed your dog.
+
+You'll kick yourself when you find out about multiple pics.
+
+To post multiple images into one post; start the post via the browser version/Reddit website and just keep using the ""add image"" icon (it looks like stars over a mountain at night). 
+
+1st image: click ""add image"", and type a caption for that image.
+
+Keep doing \^ until you're finished :)
+
+You can even edit in extras / delete the originals, and the captions, after posting.
+
+For example:
+
+[https://www.reddit.com/r/biggreenegg/comments/e691zz/7lb\_chuck\_roast\_pulled\_beef\_pictures\_included/](https://www.reddit.com/r/biggreenegg/comments/e691zz/7lb_chuck_roast_pulled_beef_pictures_included/)
+
+Hope this helps,
+
+AoN."
+Optics,ff24mww,t3_er5jbx,1579493681.0,"No; the shape of the source \[the sun\] is not what you're seeing when you observe a rainbow.
+
+Rainbows happen because of the first internal reflection followed by the first refraction in spheres of water.   See wikipedia's page in rainbows; specifically this nice image:
+
+[https://en.wikipedia.org/wiki/File:Rainbow1.svg](https://en.wikipedia.org/wiki/File:Rainbow1.svg)
+
+There's a 42° degree angle between the direction of the incident light (i.e. Sun to raindrop((s)) ), and the direction of observation to the raindrop.  That's a cross-section through a cone for any observer.
+
+If you're on the ground, a rainbow is an arc.  If you're lucky enough to see one from an aeroplane, they can be fully circular.
+
+Your second paragraph:
+
+A long thin source would have to be I) very bright (II) long on the scale of the distance (source-water-droplet) to affect the geometry of the shape of your proposed ""thinbow"", assuming it was caused by rain reflection (as opposed to diffraction through a spectrograph)."
+Optics,ff218c7,t3_er6nom,1579491074.0,"What's your academic background (level, specialization)?  Are you comfortable with trigonometry?"
+news,fezpai0,t3_eqqz5d,1579459960.0,"Title is misleading. Read the article.
+
+She was fired  because of her “unauthorized interaction with a customer.”  She left a call center to give him money at a nearby gas station.  Then returned to work.
+
+A nice gesture, but a breach of the bank's security protocol.   She'd also dealt with him before.  This time, he called the bank's 800 number and requested her by name.
+
+Reads like the first 5 minutes of an Elmore Leonard novel."
+Optics,fezmrqk,t3_equjmd,1579459101.0,"Wikipedia has a lovely article:
+
+[https://en.wikipedia.org/wiki/Spectral\_phase\_interferometry\_for\_direct\_electric-field\_reconstruction](https://en.wikipedia.org/wiki/Spectral_phase_interferometry_for_direct_electric-field_reconstruction)"
+news,fenloqy,t3_eq2pzb,1579287355.0,...And the quality of the water improved.
+biggreenegg,fenkvkt,t3_eptezj,1579286862.0,"If you like to cook / grill / smoke / make pizza, absolutely buy a kamodo.
+
+I'm a bge owner, but if I had to do it all over, I'd take a look at Kamodo Joe over bge. It's a more modern system. Prices are lower too. Kj  Warranty is transferable too, if you sell it. 
+
+Good luck, whatever you buy, you won't regret."
+todayilearned,fekysom,t1_fek90uu,1579210415.0,"You're confusing a smart person's opinion with an expert's opinion. They are not the same thing.
+
+Isaac Newton had no proof that alchemy might exist. His comments were hope and speculation.
+ 
+Fleming understood how penicillin might be useful, and appeared to also understand the risks and issues with continued long term use."
+biggreenegg,fekepst,t3_epiqin,1579198493.0,"You should try to get the process down without the added complication of the wood / chips.  Your charcoal will provide plenty of smoke flavor.
+
+The white smoke could be caused by:
+
+Poor combustion - either 
+1) damp charcoal (keep it inside, or in a sealable  container- e.g. trashcan with tight fitting lid)
+2) poor airflow - clean out your egg, make sure the vent holes inside are not clogged
+
+Or
+
+Volatile compounds(sap/resin residue), outgassing.  This is the acrid gasoline smelling crap. Get the egg hot (250+) for a half an hour to an hour, and it'll boil off / cook out of all the charcoal inside."
+woodworking,feholpp,t1_fegvze5,1579120761.0,"Wherever you buy your wood will likely also deliver it.  I live in a tiny town. We've a local hardware store, and also a much better quality ""mill store"".  Both will deliver by truck in town for free on an order $100+.  It's easy to spend that much if you're planning on building something sizeable with furniture-grade wood."
+Optics,fefxme3,t3_eogp7x,1579068597.0,"I use a sharpie or a #2 pencil to write the lens part number on the ground edge so I know what it is, in two years time."
+woodworking,fefx7ld,t1_fefvgaq,1579068180.0,"Drop the back seat to the trunk space. 8' plank will fit inside, resting on the passenger side dash."
+ConvenientCop,feck7ba,t3_eoan08,1578975920.0,"Crossed a solid line, white or yellow - do not cross.  Double line indicates neither direction should pass. That'll be an expensive ticket, does it scale with the number of axles on the vehicle?"
+biggreenegg,febg8i8,t1_fe7nczr,1578958513.0,"Have to be careful, you can easily strip the seasoning in a howling hot egg.
+(Edit: in fact that's how I strip mine, when needed)"
+Optics,fe475d4,t1_fe3yvqr,1578856414.0,"Apologies, you're correct, I hadn't considered that.  I'll take a guess; remember that a lens acts like a spatial Fourier transform.  If the diffractives  (which are also a spatial Fourier transform) are arranged like a quilted pillow they will also behave something like a lenticular lens, creating that patchwork of images.  If the PowerPoint you showed is literal, this is probably the case.
+
+Now, I may be completely off-base, which is possible, as I haven't built one of these devices, nor run any kind of optical model.  
+
+So, if the lenticular setup either doesn't work, or is too optically complex, the other way to do it would be to sub-divide the fpa into macro-pixels.  Each macro pixel gets a spectral filter whose lambda value changes in a zigzag pattern.  You build your lambda image by choosing the appropriate lambda element of each macro pixel.  Describing this in PowerPoint might be a little complex.
+
+Hope this helps."
+Optics,fe3x9zs,t3_enqwct,1578853692.0,"Neat.
+
+"" Shouldn't every group of pixels see a totally different image? "".
+
+Yes - go back and take another look at pp15, 20 and 23.
+
+Edit: I was focused on image(lambda) not image(x,y).  See reply below."
+biggreenegg,fe042s9,t3_enbial,1578802568.0,"That looks as though it's where the two ends of the gasket come together, and they're just a little short of making a good seal. Won't affect the cook.
+Ask your dealer if they've any extra gasket material.  Cut out, and patch that gap.  Good idea too, to add a ring of it around the upper ceramic chimney, to get a good seal around your top vent, and stop stuff rattling / rotating."
+Optics,fdy34cx,t3_emzrpz,1578775540.0,"You will not be able to build a ""good lens"" for your DSLR using lenses acquired at random, unless you are re-assembling an exact copy of a commercial system from multiple donors of the same type.  Petzval curvature of the plane of the image (sum of surface curvatures \* index of that element) is a critical parameter for ""good imaging"".
+
+See e.g.: [https://en.wikipedia.org/wiki/Cooke\_triplet](https://en.wikipedia.org/wiki/Cooke_triplet) 
+
+then follow the SPIE link at the bottom
+
+ [https://spie.org/publications/pm92\_101\_triplets?SSO=1](https://spie.org/publications/pm92_101_triplets?SSO=1)
+
+for nice description of balancing the required ""q"" aberrations + focal length with the ""p"" available parameters.  Think of it as solving ""q"" equations in ""p"" unknowns.
+
+""That  being said after 20 years in business I’m fully aware that the lenses  produced by canon et all are by no means the “best” products that can be  made.   $4000 for a 20 year old 50mm f/1.0 lens is ridiculous to me.   So if I learn enough on scrap I know I would probably make some custom  lenses for personal use.""
+
+I disagree with this statement.  A lens from Canon, Nikon etc is definitely the best performance you're going to get for the price; they've economies of scale on their side, and lots of experience of design for manufacture.  A custom built 50mm f/1 lens is probably a $200k commitment.  You might get 1.5x better MTF performance out of it over an OTS but no-one will notice that in any of the photographs you take.
+
+For a nice set of critical reviews of Nikon/Nikkor lenses take a look at [https://www.kenrockwell.com/nikon/nikkor.htm](https://www.kenrockwell.com/nikon/nikkor.htm)"
+funny,fdmg4b0,t1_fdmg0ym,1578548751.0,""" Ive seen paraplegics who became paralyzed from attempting backflips ""
+
+Paraplegics can't do backflips."
+oddlysatisfying,fdmbhcp,t1_fdmbb8r,1578544708.0,Unless you understand what latitude means.
+worldnews,fdirkla,t3_elhgco,1578449458.0,The camels also piss it out.  They're not  extra-dimensional gateways.
+biggreenegg,fdiqz5u,t3_ekmy40,1578449076.0,"I go the other route.  
+
+I have thermoworks chef alarm for continuous probe into meat.  
+
+I also have a bunch of $12 dollar instant read Amazon specials around the grill and the kitchen.  I buy CDN, to support the local economy.
+
+Just another perspective. Good luck, AoN"
+instantpot,fdi40ch,t1_fdhxyms,1578435334.0,"This is not a sensible response.
+
+The pot base, and the pot lid are the pressure vessel.  The stainless inner bowl merely holds- and transfers heat- to the food inside."
+todayilearned,fdhpwzp,t3_el47q8,1578427827.0,"I read the article; the black paint was radar absorbing.  Car is now orange; I wonder whether the radar absorbing paint is still under the orange layer?  If so, I bet it still works. Also, those big ""dark"" lamps are probably IR lamps, to illuminate for nvg.  Cool (actually, a little warm, but...)."
+biggreenegg,fdes97g,t3_ekniak,1578345537.0,"Over 600 seems way way too hot.  500-550  is a 9 minute cook for a thin crust pizza in a large bge.
+
+The top of the pizza cooks by radiative heat from the inner dome, so you need to have stabilized your temps for a good long while before dough goes in.
+
+I wonder also whether different oven shapes, and perhaps different locations for heat sources mean that 900 in a traditional huge kiln sized oven is a different cooking method than e.g. 900 in a L egg (relatively a much smaller volume)."
+instantpot,fde9x15,t1_fdcq7z7,1578334399.0,"You can still use dishwasher detergent and a toothbrush.  Wear eye protection.  
+
+My parents used to use neat dishwasher soap to wash tar off their taxis.  It's very very aggressive."
+todayilearned,fdbw2wv,t1_fdbtq0x,1578262789.0,"The manual of standard internet forum responses, under ""visible from space"" says p42:
+
+""Visible from Space:
+
+General responses falling into
+
+If not (your penis)
+then (your mother)
+
+Usually cover this situation."""
+todayilearned,fdblnm4,t1_fdbh8ll,1578258565.0,"No, just proof that beavers either
+1) believe in aliens, and are 
+a) trying to be noticed
+
+Or
+
+b) believe in aliens, and don't give a polite Canadian fuck whether their beautiful dam is noticed, eh?
+
+Or
+
+2) don't believe in aliens, and just like to build dams
+
+The last of which is frankly ridiculous."
+news,fd011xr,t3_ejixfr,1578112039.0,"Sadly, Boeing stock took off, but couldn't stabilize, and crashed.
+
+Oh wait, that wasn't the stock. It was one of the planes they self-certified as safe to fly."
+biggreenegg,fczqezv,t3_ejkl3f,1578106796.0,"You're better off asking whether there are any controllers that are best avoided.  
+
+Every poster here is going to reply ""I've got.... And it's great"".  But likely no-one here has tested multiple controllers, in order to assess which is the best.
+
+I've got Egg genius. And it's great."
+Optics,fcyjec6,t1_fcy84nx,1578081051.0,Sorry. Corrected.
+Optics,fcy6sxe,t1_fcx5tik,1578075619.0,Alt ~~229~~ 955
+biggreenegg,fcwx4th,t1_fcwufos,1578041377.0,"No, that's a great question.  The temp of ice can be 0C or below.  See: [https://www.quora.com/Is-ice-always-at-0-C-Can-it-be-colder-or-warmer-What-about-an-ice-water-mixture](https://www.quora.com/Is-ice-always-at-0-C-Can-it-be-colder-or-warmer-What-about-an-ice-water-mixture)
+
+But if there's ice in water, that mixture must be between 0 and 4C.  Can't remember the reason, maybe Van Der Waal's forces.  Its late here - I'll come back to this and re-edit in the morning.
+
+The difference between 0 & 4C, on the scales we're interested in, is negligible."
+todayilearned,fcwwcjt,t1_fcwu1el,1578040386.0,"Nah, he prefers them stale.  
+
+Baguettes d'hier"
+Optics,fcwrbzf,t1_fcwpkap,1578034529.0,"You originally asked how to map multiple \[undefined\] light signals to a single optical sensor; I proposed using a CCD/CMOS sensor and fiber(s) as a way to monitor multiple input optical signals.
+
+How does your proximity sensor work; what is its output- is it light, or electrons?"
+Optics,fcwo4kr,t3_ej8r1n,1578031294.0,"Wait a second, there's a much simpler solution.
+
+Large area CCD/CMOS detectors are stupidly cheap.  Just run a (100µm) fiber from each of your compartments and butt it directly onto the imager; bond them on with hot glue.  Then just monitor each 100µm/3.45µm \~ 30x30 pixel region of interest for each of your compartments every time the FPA reads out.  I assumed 3.45µm pixels.
+
+Matlab probably has 99% of the required functionality built-in already."
+Optics,fcwnqif,t1_fcwlwnn,1578030929.0,"Yes, or plastic light pipes (it's the linguini to fiber-optics' angel-hair pasta, old school, and typically beautiful to look at). Beam splitters and lenses / mirrors would work too."
+biggreenegg,fcwm9qi,t3_eioigb,1578029621.0,"That's why you boil your bodies in a sealed drum of sulfuric acid, instead of trying to dispose of them in your big green egg.
+
+1) You'll never enjoy pulled pork again
+
+2) You get all these weird calcium-bits under the fire-box"
+smoking,fcwlkpt,t3_ej770x,1578029031.0,Suggest turning your phone to landscape mode for videos that will be viewed on a monitor; unless you're videoing (e.g.) a tall human walking.
+Optics,fcwlffh,t3_ej8r1n,1578028906.0,"One way to do it would be to modulate the light sources in each compartment; feed all sources to your detector and demodulate based on what you measure.
+
+(Edit: To avoid having to time-sync signals...)
+
+Modulation could be flashing at a particular frequency - I like primes for frequency-based detection, so (f, 3f, 5f, 7f, 13f).  This seems complicated.
+
+Modulation could also be amplitude based.  Compartment 1 gets 1x, 2 gets 0.5x, 3 gets 0.25x, 4 gets 0.125x ...  You measure total received signal at any one time, and then just decode the value.  This seems easier."

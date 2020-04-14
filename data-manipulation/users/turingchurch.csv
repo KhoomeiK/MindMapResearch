@@ -1,0 +1,289 @@
+subreddit,self ID,parent ID,time,text
+asklinguistics,ffhgd2r,t1_ffhfjp6,1579934071.0,Thanks! This answers my question perfectly.
+haskell,ffcaouu,t1_ffc8i5u,1579795347.0,I meant that monads/functors/applicatives are themselves repeated patterns.
+asklinguistics,ffad9vb,t1_ffacbau,1579732832.0,"Yes, I've heard about that, but I'm wondering about the opposite. Formal 2P lost in prestige dialect, but kept in others."
+haskell,ff8fglq,t3_es71yt,1579676179.0,"I would recommend it, but at the end of the day, monads/functors/applicatives are just a generalisation, a repeated pattern. Learn IO, Maybe, Either, State, etc., and then look at what they have in common that makes them all monads.
+
+So learn monads eventually, but it doesn't have to be a priority."
+asklinguistics,ff8eqg4,t1_ff876ei,1579675340.0,"Latin never died, though, it just changed."
+math,ff76nkx,t1_ff62z03,1579642167.0,"Basically, completeness means every statement or its converse can be proven. In inconsistent systems, everything (even false statements) can be proven. In fact, you can define consistency as something like '1=0 cannot be proven' (which I believe is what Gödel did, but I'm not sure).
+
+You can, of course, prove something to be inconsistent by showing 1=0, or any other false statement. By 'false' I mean that the converse statement is true. If you can prove a statement and its converse, you can prove any other statement ([ex falso quodlibet](https://en.wikipedia.org/wiki/Principle_of_explosion))."
+math,ff75ypw,t1_ff51f2g,1579641784.0,"The Gödel sentence is something that is true, but cannot be proved. Gödel provided a way to correspond mathematical statements to natural numbers. Propositions and their proofs could be embedded in numbers. He constructed a statement, G, which said 'There is no proof of G'. It would have to be true for the system to be consistent (if it were false, there would be a proof of G, which would mean G is true), but cannot be proven.
+
+A further example would be one of the implications of this. Gödel showed that it was possible to prove that within this system, if the system is consistent, then G cannot be proven. This then means the system cannot be proven to be consistent. If you could prove it to be consistent, then you could prove that G cannot be proven, which is equivalent to proving G."
+math,ff756cz,t1_ff4lqw3,1579641339.0,"It's true for any set of axioms in which you can construct the natural numbers and the operations of addition and multiplication. So this includes the Peano axioms, but also the ZF set theory axioms."
+math,ff4i5zm,t1_ff49551,1579564194.0,"It's very much a book for the layman, but it lays out the general ideas of how Gödel embedded mathematical statements in the nats and outlines the proof. Obviously not the choice of you want something rigorous, but fine for a high school student imo.
+
+Also decent for light reading."
+samharris,ff42usb,t1_ff3yqom,1579554337.0,"> Nothing like supporting the suppression of free speech and association to own the libs.
+
+Again, it's not freedom of speech. You could argue that it tramples on freedom of association, but there's nothing in the Constitution that would prohibit this.
+
+> Being forced by the state to sware loyalty to Israel is fucking disgusting.
+
+Again, there's no loyalty oath.
+
+> Israel is a person not a nation comparing the two is absurd.
+
+It really doesn't matter with regards to the Constitution."
+samharris,ff3zng1,t1_ff3z92f,1579552349.0,"That has zero bearing on the actual facts of the case, I merely used it as an analogy. This is not a loyalty oath, it is an affirmation that one is not breaking the law."
+samharris,ff3y4ta,t1_ff3wjwh,1579551398.0,Not really; government contractors have to certify all the time that they're not breaking any laws. Is signing a declaration that you're compliant with the CRA a loyalty pledge to minorities?
+samharris,ff3um1k,t1_ff3twed,1579549199.0,"You can support BDS under the law, you just can't participate in a boycott, just as you can support discriminating against minorities, but you can't actually discriminate against minorities. The former is free speech, the latter is not."
+samharris,ff3rfat,t1_ff3qnmx,1579547235.0,Almost every case of the application of the law has occurred because somebody refused to sign an employment contract that included the anti-boycott provision when their current contract was up for renewal. I haven't heard of anyone who was fired over supporting BDS.
+samharris,ff3qg41,t1_ff3qcny,1579546636.0,"> but are free to ... donate to anti-Israel campaigns or candidates
+
+Are you incapable of reading?"
+math,ff3pcvw,t3_erh31s,1579545971.0,"I recommend reading [Gödel's Proof](http://calculemus.org/cafe-aleph/raclog-arch/nagel-newman.pdf) for a layman's guide to his theorem.
+
+In short: Gödel's Theorem only relies on a very minimal set of axioms. Basically, all you need is natural numbers and the ability to perform addition and multiplication on them. E.g., the Peano axioms.
+
+Using this, Gödel manages to create a correspondence between mathematical statements and the Peano nats. He manages to embed a statement of the Gödel sentence in his mathematical language: 'This statement cannot be proven.' If it can be proven, it results in a contradiction, whereas it is consistent if it can't be proven. So obviously the statement should be true, but it can't be proven.
+
+Keep in mind that he proved this for a very simple set of axioms, using the natural numbers. But that doesn't mean that this only applies to the Peano axioms. Any set of axioms where it's possible to construct something resembling natural numbers with addition and multiplication will be subject to Gödel's Theorem. So e.g. ZF. Simpler systems are not subject to Gödel's Theorem. E.g., Presburger Arithmetic, which is natural numbers but only with addition, is not subject to Gödel's Theorem for this reason. 
+
+In fact, there's some relation between Gödel's Theorem and computability, so the fact that Gödel's Theorem doesn't apply to Presburger Arithmetic also results in it being decidable, and therefore having an algorithm by which you can determine any statement in Presburger to be true or not (albeit if I recall correctly, such algorithms have abysmal time complexities and would end up taking quite a long time for complicated statements \- but still, a slow algorithm is better than no algorithm)."
+JoeRogan,ff3mme6,t1_ff3kns8,1579544290.0,"> Specific to the BDS movement, these boycotts do not boycott based on race, or even a country.
+
+I'm not sure why that particularly matters with respect to the law.
+
+As for the listed court cases, note that those were all injunctions, so they will still have to be fully challenged in court. In [Arizona](https://reason.com/2020/01/07/arizona-first-amendment-challenge-to-anti-bds-law-dismissed-on-first-amendment-grounds/), at least, they amended the law to only apply to businesses over a certain size, which got the last case tossed out since the law no longer applied to the plaintiff. The law in Arkansas was upheld in federal court. 
+
+Note that an injunction does not mean the case will be decided that way. Trump's immigration ban had an injunction placed on it, but was ultimately upheld by SCOTUS. imo, these laws, too, will likely be upheld by SCOTUS (and if they aren't, they open the door to constitutional challenges to public accommodation laws \- it will be interesting to see the outcome either way)."
+samharris,ff3jvqm,t1_ff2vbga,1579542605.0,"No, I don't really have a dog in this fight, and I think the laws themselves are bad ideas. But imo they are as constitutional as public accommodation laws."
+JoeRogan,ff3jqkv,t1_ff31h89,1579542520.0,"The amicus brief addresses the Claiborne case:
+
+> Of course, boycotts usually involve speech—people urging others to join the boycott or organizing in groups that promote the boycott—as well as conduct. Like other advocacy, advocacy of boycotts is generally constitutionally protected: NAACP v. Claiborne Hardware Co.made that clear, in noting that ""peaceful picketing,"" ""marches,"" ""urg­[ing others] to join the common cause,"" ""support[ing the boycott] by speeches,"" ""threats of social ostracism,"" and gathering and publishing the names of those who refuse to join were all ""safeguarded by the First Amendment."" 458 U.S. 886, 907, 909, 910, 933 (1982).
+
+> But Claiborne Hardware had no occasion to decide whether a person's not dealing with someone based on that someone's race was itself protected by the First Amendment, because it was clear that Mississippi law did not prohibit such private choices not to deal. Under Mississippi law, whites could generally refuse to deal with blacks, and blacks could refuse to deal with whites. Nor was the boycott banned by general prohibitions on ""concerted refusal to deal,"" ""secondary boycotts,"" or ""restraint[s] of trade."" Id. at 891 n.7, 894, 915.
+
+> Indeed, Claiborne Hardware expressly reserved the question whether a boycott ""designed to secure aims that are themselves prohibited by a valid state law"" is constitutionally protected. Id. at 915 n.49. It follows that the question whether a boycott that involved refusals to deal that were themselves prohibited by a valid state law—a law that targeted conduct rather than speech—was also not resolved by Claiborne Hardware. And in Rumsfeld, the Court did resolve the issue: a boycott by universities of military recruiters could be outlawed outright, 547 U.S. at 60, and certainly could be penalized by withdrawal of government funds as well, id.
+
+> The holding of Claiborne is thus consistent with the principle set forth just six years before in Runyon v. McCrary: Though people and institutions have a right to advocate for discrimination—to ""promote the belief that racial segregation is desirable""—""it does not follow that the practice of excluding racial minorities from such institutions is also protected by the same principle."" 427 U.S. 160, 176 (1976). Likewise, though people have a right to urge a boycott of white-owned stores, as in Claiborne, it does not follow that the practice of refusing to deal with an entity based on the owners' race (whether black or white) is also protected by the same principle. And though people have an indubitable right to urge a boycott of Israeli companies,[3] it does not follow that the practice of refusing to deal with such companies based on the owners' nationality is also protected by the same principle.
+
+> We see the same in International Longshoremen's Ass'n v. Allied International, Inc., 456 U.S. 212 (1982), where union members engaged in a purely politically motivated boycott of cargoes shipped from the USSR (engaged in as a protest of the invasion of Afghanistan). The Court noted that even outright speech—secondary picketing—in support of refusals to deal might sometimes be properly restricted notwithstanding the First Amendment (a controversial position, but one the Court had settled on in earlier cases). Id. at 226. And, the Court noted, if even picketing supporting a boycott could be restricted, ""[i]t would seem even clearer that conduct designed not to communicate but to coerce"" (there, a refusal to unload ships) ""merits still less consideration under the First Amendment."" Id. Of course, the refusal to unload ships was obviously a part of a broader plan designed to communicate. But the refusal to deal was itself not treated as communication entitled to First Amendment protection.
+
+In other words, you can advocate for a boycott, but boycotts themselves can be prohibited. Just as you can advocate discrimination against minorities, but discrimination against minorities may be prohibited. Laws against boycotts themselves have been upheld by SCOTUS in e.g. International Longshoremen's Ass'n v. Allied International, Inc. and Rumsfeld v. Forum for Academic & Institutional Rights, Inc."
+samharris,ff2u45j,t1_ff2sjyd,1579524237.0,"> I’m free to criticize Israeli policy but can’t engage in any activities which might exert economic pressure on Israel to change or amend those same policies? I can talk all I want, just don’t do anything? Horseshit.
+
+Yes. Just as one is allowed to criticise same-sex marriage, but in certain states cannot refuse to, e.g., bake wedding cakes for a same-sex wedding. See: <https://reason.com/2019/06/06/why-the-arkansas-law-aimed-at-boycotts-of-israel-is-generally-constitutional/>
+
+> Summary of Argument
+
+> Decisions not to buy or sell goods or services are generally not protected by the First Amendment. That is the necessary implication of Rumsfeld v. FAIR, 547 U.S. 47 (2006), and it is the foundation of the wide range of antidiscrimination laws, public accommodation laws, and common carrier laws throughout the nation.
+
+> Thus, for instance:
+
+> - A limousine driver cannot refuse to serve a same-sex wedding party, even if he describes this as a boycott of same-sex weddings (or part of a nationwide boycott of such weddings by like-minded citizens).
+
+> - A store cannot refuse to sell to Catholics, even if it describes this as a boycott of people who provide support for the Catholic Church.
+
+> - An employer in a jurisdiction that bans political affiliation discrimination cannot refuse to hire Democrats, even if it describes such discrimination as a boycott.
+
+> - An employer that is required to hire employees regardless of union membership cannot refuse to hire union members on the grounds that it is boycotting the union.
+> - A cab driver who is required to serve all passengers cannot refuse to take people who are visibly carrying Israeli merchandise.
+
+> - Of course all these people would have every right to speak out against same-sex weddings, Catholicism, the Democratic Party, unions, and Israel. That would be speech, which is indeed protected by the First Amendment.
+
+> But as a general matter, a decision not to do business with someone, even when it is politically motivated (and even when it is part of a broader political movement), is not protected by the First Amendment. And though people might have the First Amendment right to discriminate (or boycott) in some unusual circumstances—for instance when they refuse to participate in distributing or creating speech they disapprove of—that is a basis for a narrow as-applied challenge, not a facial one. For this reason, Ark. Code Ann. § 25-1-503 is constitutional."
+samharris,ff2jabs,t1_ff2izyz,1579508662.0,"> They not only don't have to take a pro-Israel oath but are free to criticize Israel as much as they like, donate to anti-Israel campaigns or candidates, and so on."
+JoeRogan,ff2h2v2,t1_fezwy6l,1579505837.0,"The law doesn't ban speech, it bans boycotts."
+JoeRogan,ff2h1x3,t1_ff29jf9,1579505804.0,"[Amicus brief](https://reason.com/2019/06/06/why-the-arkansas-law-aimed-at-boycotts-of-israel-is-generally-constitutional/) in the Arkansas case (which was upheld):
+
+> Summary of Argument
+
+> Decisions not to buy or sell goods or services are generally not protected by the First Amendment. That is the necessary implication of Rumsfeld v. FAIR, 547 U.S. 47 (2006), and it is the foundation of the wide range of antidiscrimination laws, public accommodation laws, and common carrier laws throughout the nation.
+
+> Thus, for instance:
+
+> - A limousine driver cannot refuse to serve a same-sex wedding party, even if he describes this as a boycott of same-sex weddings (or part of a nationwide boycott of such weddings by like-minded citizens).
+
+> - A store cannot refuse to sell to Catholics, even if it describes this as a boycott of people who provide support for the Catholic Church.
+
+> - An employer in a jurisdiction that bans political affiliation discrimination cannot refuse to hire Democrats, even if it describes such discrimination as a boycott.
+
+> - An employer that is required to hire employees regardless of union membership cannot refuse to hire union members on the grounds that it is boycotting the union.
+> - A cab driver who is required to serve all passengers cannot refuse to take people who are visibly carrying Israeli merchandise.
+
+> - Of course all these people would have every right to speak out against same-sex weddings, Catholicism, the Democratic Party, unions, and Israel. That would be speech, which is indeed protected by the First Amendment.
+
+> But as a general matter, a decision not to do business with someone, even when it is politically motivated (and even when it is part of a broader political movement), is not protected by the First Amendment. And though people might have the First Amendment right to discriminate (or boycott) in some unusual circumstances—for instance when they refuse to participate in distributing or creating speech they disapprove of—that is a basis for a narrow as-applied challenge, not a facial one. For this reason, Ark. Code Ann. § 25-1-503 is constitutional."
+samharris,ff2gtj5,t1_fevik2b,1579505517.0,"It isn't a loyalty pledge.
+
+> Anti-BDS laws do not require anyone to ""pledge loyalty to the state of Israel."" This is any easy one. They simply don't. This is a lie (not the first one) that originates with Glenn Greenwald, who claimed, in a headline no less, that a Texas anti-BDS laws required a contractor to sign a ""pro-Israel oath."" Contractors must simply certify that they are not participating in anti-Israel boycotts. They not only don't have to take a pro-Israel oath but are free to criticize Israel as much as they like, donate to anti-Israel campaigns or candidates, and so on.
+
+\- <https://reason.com/2019/02/18/everything-you-wanted-to-know-about-anti/>"
+samharris,ff2gkah,t1_fevo4i8,1579505210.0,"It was upheld in [Arkansas](https://apnews.com/e2c70df2d1716f0b819f093b6a9d7e48).
+
+Further, so far only injunctions have been placed on current BDS laws, as far as I am aware, none of them have been struck down yet.
+
+It's not clear that they're 'blatantly unconstitutional' either. See, for example, [the argument in the amicus brief for the law in Arkansas](https://reason.com/2019/06/06/why-the-arkansas-law-aimed-at-boycotts-of-israel-is-generally-constitutional/).
+
+> Summary of Argument
+
+> Decisions not to buy or sell goods or services are generally not protected by the First Amendment. That is the necessary implication of Rumsfeld v. FAIR, 547 U.S. 47 (2006), and it is the foundation of the wide range of antidiscrimination laws, public accommodation laws, and common carrier laws throughout the nation.
+
+> Thus, for instance:
+
+> - A limousine driver cannot refuse to serve a same-sex wedding party, even if he describes this as a boycott of same-sex weddings (or part of a nationwide boycott of such weddings by like-minded citizens).
+
+> - A store cannot refuse to sell to Catholics, even if it describes this as a boycott of people who provide support for the Catholic Church.
+
+> - An employer in a jurisdiction that bans political affiliation discrimination cannot refuse to hire Democrats, even if it describes such discrimination as a boycott.
+
+> - An employer that is required to hire employees regardless of union membership cannot refuse to hire union members on the grounds that it is boycotting the union.
+> - A cab driver who is required to serve all passengers cannot refuse to take people who are visibly carrying Israeli merchandise.
+
+> - Of course all these people would have every right to speak out against same-sex weddings, Catholicism, the Democratic Party, unions, and Israel. That would be speech, which is indeed protected by the First Amendment.
+
+> But as a general matter, a decision not to do business with someone, even when it is politically motivated (and even when it is part of a broader political movement), is not protected by the First Amendment. And though people might have the First Amendment right to discriminate (or boycott) in some unusual circumstances—for instance when they refuse to participate in distributing or creating speech they disapprove of—that is a basis for a narrow as-applied challenge, not a facial one. For this reason, Ark. Code Ann. § 25-1-503 is constitutional."
+Professors,ff2fmjc,t1_feo2phc,1579504093.0,"> I think the doctrinal question could fairly be said to be open, but I would not want the Court to say that boycotting--refusing to do business--is inherently expressive. If it is, then the baker in Masterpiece Cakeshop and indeed anyone who wants to boycott LGBT customers or customers protected by any other form of anti-discrimination law have prima facie speech protection. So would employers who want to ""boycott"" female, Muslim, or African American prospective employees. I don't want to say no distinctions could be drawn between consumer boycotts and other kinds of boycotts, but I think down that road lies trouble. If Shanor's point is that public accommodations laws and anti-BDS laws are categorically different, then saying boycotting is inherently expressive invites a heavier, not a lighter, justificatory burden.
+
+\- [Dorf on Law](http://www.dorfonlaw.org/2019/02/anti-bds-laws-anti-discrimination-laws.html)"
+chaoticgood,fe73fx8,t1_fe2u8o0,1578909483.0,It's not entrapment.
+math,fdxwhgb,t3_ena1ze,1578773616.0,"Gödel's incompleteness theorem proved that given a sufficiently complex set of axioms, it is possible to construct a proposition but not be able to prove it. I believe the axioms basically involved natural numbers, addition, and multiplication. So even seemingly simple systems like the Peano natural numbers have theses sorts of results.
+
+Basically, the proof consisted of using the natural numbers to embed mathematical facts about the system. Gödel had devised some method of making a correspondence between statements like 'proposition P has a proof Q' and numbers. Using this, Gödel managed to construct a 'Gödel sentence' which essentially said something like 'This proposition cannot be proven.'
+
+The Gödel sentence is still *true* in the sense that it can't be false - if it could be proven, then you would have demonstrated the Gödel sentence to be true, which would lead to a contradiction. But you still can't prove it to be true within the set of axioms that you have. If you adopt the Gödel sentence as a new axiom, then a new Gödel sentence can be constructed. So this problem cannot be fixed.
+
+I recommend *Gödel's Proof* as a layman's guide to this."
+tumblr,fds2otz,t1_fdris48,1578693438.0,"Calling that censorship is laughable. Studios release endless streams of sequels and reboots not because they're enforcing their preferences on the masses, but because that's what people watch and they want to make money. If people stopped watching sequels and reboots, studios would stop making them. Big blockbuster hits are hits because the preferences came bottom up, not top down.
+
+In the meantime, nothing is stopping an independent filmmaker from creating films, and nothing is stopping audiences from viewing those films other than their own preferences. Look at the Oscar nominees for Best Picture last year. Only one of them (*Black Panther*) was part of an existing franchise. One of them (*Vice*) was heavily critical of the US government. Is *Vice* the kind of film that could have been made and released in China?
+
+This year, probably the only franchise film that's a contender for Best Picture is *Joker*, and it probably won't win. Look at [the other contenders](https://www.indiewire.com/2020/01/2020-oscars-final-nominations-predictions-1202201658/). Other than *Joker*, the only other film that made any decent chunk of change was *Once Upon a Time in Hollywood*, which still sits at a third of what superhero films (including *Joker*) make. Can you blame studios for not spending tons of cash on films that don't make them money? It's not like they don't market them, either - I certainly got quite a few ads for *Jojo Rabbit*, but that only made some $30m.
+
+Personally, I also don't think the cinema is as much of a cultural fixture as it used to be anyway. The number of tickets sold has barely changed from 1995 to today, despite a quarter century of population growth. Divided by the population, and the average person goes to the movies maybe four times a year. The vast majority of American cultural output is probably in television, and perhaps streaming, which has opened the door to many new players in the field. Netflix has paid for a ton of independent content, some of it actually even good. Amazon, too, has several decent series right now. Focusing on the box office as the centrepiece of American cultural production is overly narrow.
+
+Anyway, all that is pretty tangential to my overall point. American media consumption is dominated mainly by what Americans want to watch, but if you can get the money for a project, there's nothing stopping you from making it. And if you want to watch it, you'll have the freedom to do so. Whereas in China, even if you have the money to produce a piece of media, you may not be allowed to distribute it if the government doesn't like it. One of these is much more stifling towards creativity and free expression than the other."
+tumblr,fdptus8,t1_fdp9yt7,1578640254.0,"> ""chinaman bad at creativity and it's all propaganda""
+
+There's plenty of good Chinese cinema - from Hong Kong. Hong Kong actually provides a great case study, because one of the best films of Hong Kong cinema, *Infernal Affairs*, was adapted into the Departed, which won an Academy Award. How did the film's ending differ between what was released in Hong Kong and what was released in China? In Hong Kong, the film ended with the mole getting away with the crime. In China, the mole's identity is revealed and he is arrested - a change that is utterly incoherent with the theme of the movie and the plot of the sequels.
+
+> In the US you have the ""freedom"" to work on a soft reboot franchise attempt owned by Disney or one of the like two other movie companies still standing
+
+There are many independent films in America. And there are many countries other than America where films are made."
+todayilearned,fdo4ryu,t1_fdnwx9r,1578598895.0,lmao why did you delete your comment and make the exact same one
+ProgrammerHumor,fdmfe97,t3_em3246,1578548078.0,Will submissions made on time be penalised at 1%?
+todayilearned,fdm2b33,t1_fdm0omq,1578538120.0,The article in OP even says Alweg went bankrupt the following year lol
+law,fdi7b19,t1_fdi6z0l,1578437007.0,[It's back on](https://www.usatoday.com/story/news/nation/2019/10/28/cov-cath-judge-rules-lawsuit-against-washington-post-can-continue/2489395001/)
+math,fdf0rm8,t1_fdezr72,1578350716.0,"The problem with exercises in abstract algebra (and, for that matter, other higher-level mathematics courses such as analysis) is that the exercises tend to be proofs, and it's hard to have an answer key for those."
+math,fdey0su,t3_el1271,1578349006.0,Dummit and Foote is pretty good.
+legaladviceofftopic,fde28t2,t1_fde1lzz,1578329543.0,"> I also think that Walmart would have a hard time proving that that particular persons tic compromised their ability to perform their business duties or operate the business.
+
+How would Sweet Anita's tic compromise Twitch's ability to operate their business in a way that a woman physically present at Wal-Mart and ticcing?
+
+> profanities is one thing, but racial epithets could be construed as a violating another protected class.
+
+How? Is another protected class going to sue Twitch because they don't seem to actually intend to ban her?
+
+> And if it included coprophagia then there’s no reasonable way to accommodate that.
+
+Anita has coprolalia as well."
+legaladviceofftopic,fde0tcp,t1_fde0i7m,1578328613.0,"Can you have rules against profanity in a physical store, such as a Wal-Mart? Wal-Mart kicked out a woman with Tourette's in Karr v. Wal-Mart, but the DOJ seemed to think the ADA was violated there."
+legaladviceofftopic,fddz64u,t1_fddykyu,1578327506.0,"If Twitch is a public accommodation, do you think they could have a TOC that e.g. allowed people to wear Christian religious jewellery like a crucifix, but banned people from wearing Muslim religious jewellery like a crescent? Someone wearing that would be violating the TOC, after all."
+legaladviceofftopic,fddxzy8,t1_fddchzp,1578326713.0,"> But breaking the ToC for any reason is grounds for a ban, disability or not.
+
+I doubt the TOC provides a blank check for how they can ban if Twitch is a public accommodation (e.g., would they be allowed to have a TOC that allowed them to ban minorities? Blind people?)."
+legaladviceofftopic,fdd1395,t1_fdd0pee,1578290629.0,"Is it because Twitch would not be considered a public accommodation? E.g., could Twitch ban streamers based on other protected class characteristics? Or would individuals with Tourette's still enjoy 'full and equal' access to goods, services, etc. when being banned for offensive tics?"
+MovieDetails,fdcrjee,t1_fdcpcg6,1578282284.0,"Just because a superstition isn't accurate doesn't mean that someone can't be referring to it. Friday the 13th isn't a particularly unlucky day, after all."
+space,fdc34b9,t1_fdc1zu8,1578266145.0,"We're talking about why, if intelligent alien life exists elsewhere and FTL is possible, they haven't contacted us. The premise in this conditional statement is that FTL is possible, which there is no evidence of."
+space,fdbykjk,t1_fdbw2cm,1578263903.0,"'If aliens have magic, how come they haven't visited us?'
+
+'Even if they had magic, the odds are astronomically low.'
+
+'Well, how do we know they don't have even more magic, then? Doesn't that make it strange that we haven't seen any aliens?'"
+space,fdbid0u,t1_fdbas9x,1578257670.0,"Sure, and I don't think that's the contentious portion of the premise. Intelligent life is clearly possible, since we know of at least one instance in which it has occurred. On the other hand, we have zero instances of FTL travel occurring, and a well-established physical theory ruling it out, so if your paradox relies on the existence of hypothetical technology that violates the current understanding of physics, maybe it isn't much of a paradox after all."
+space,fdb4j6s,t1_fdb15yb,1578253706.0,"My point is that you can't put up a hypothetical as a premise, and then act like it's a mystery when an implication of that premise doesn't appear.
+
+If a stuffed animal the size of Africa is orbiting the planet, then why can't I see it? Well, a simple explanation is that there isn't a stuffed animal the size of Africa orbiting the planet. This doesn't exclude alternate explanations, such as the stuffed animal being invisible, but the simplest explanation, given the lack of evidence of both continent-sized stuffed animals and FTL travel, is that the premise is incorrect."
+space,fdat6d9,t1_fd9qgn3,1578249798.0,"But then you're just stacking hypotheticals on top of hypotheticals. IF intelligent life exists elsewhere, and IF FTL is possible, why haven't they contacted us? Well, maybe FTL isn't possible and that's why."
+todayilearned,fcxq5l9,t1_fcx8qqe,1578068828.0,"The US DOT has a [fairly educational primer](https://ops.fhwa.dot.gov/congestionpricing/index.htm) on congestion pricing. Congestion pricing, if properly implemented, would actually increase the number of people able to use the road by raising throughput (the number of cars per unit of time passing through an area)."
+todayilearned,fcxoyb6,t1_fcxmx9i,1578068075.0,"Congestion pricing works shifting traffic to off-peak hours and increasing throughput during peak hours, as roads with traffic jams tend to have very low throughput.
+
+Here's what the [US DOT](https://ops.fhwa.dot.gov/congestionpricing/faq/index.htm#faq_03_02) says about the matter:
+
+> Isn't pricing inequitable towards low-income motorists?
+
+> Results from surveys conducted for projects in operation show that drivers of all income levels use priced express lanes. Although many low-income users don't choose to use the tolled facility every day, they support having the option. For instance, a low-income parent racing to avoid the financial penalty associated with being late for pick-up at a day care facility, or for work, is often pleased to have the option of paying a fee to bypass gridlock in the regular lanes. In fact, a high level of support for San Diego's HOT lanes comes from the lowest income users (70 percent support). Moreover, low-income bus riders may benefit significantly from toll-financed transit improvements. Finally, a well-designed value pricing plan can be less burdensome to low-income citizens than current systems that are based on regressive taxes, such as car registration fees, sales taxes and the gas tax. For example, a proposal for pricing the San Francisco-Oakland Bay Bridge included life-line discounts for low-income motorists. The Bridge also currently provides free service for carpool vehicles during rush hours.
+
+> If road pricing enables reductions in current regressive fuel tax rates, low-income drivers will be better off, especially if the quality of public transport is improved and free alternative roads are available for those who do not choose public transport.
+
+> For more information on equity towards low income motorists, see the one page brief Congestion Pricing: Equity and the white paper Low-Income Equity Concerns of U.S. Road Pricing Initiatives"
+math,fcvudei,t1_fcv647f,1578010311.0,"A Stanford PhD in statistics just happens to win the Texas lottery four times at the same store a thousand miles from where she lives, and you think she just has good RNG? While nobody knows how she's broken the Texas lottery, you can read the Wired article, which has a full discussion on the way the Toronto lotto was broken."
+math,fcuaigz,t3_eiywv6,1577976444.0,Most negative real numbers will be mapped onto the complex plane by x\^x.
+worldnews,fcu97vz,t1_fcu6is1,1577975551.0,"Are you talking about this poll?
+
+> But by 2014, only 3 percent still identified exclusively as Chinese — and more than 60 percent Taiwanese, hovering around there ever since. Today, only one-third of Taiwan’s residents think of themselves as both Chinese and Taiwanese. Among those who are 29 or younger, born after martial law ended in 1987, 78 percent hold an exclusively Taiwanese identity — as do nearly 70 percent of people younger than 40. If this trend continues, a solely Taiwanese identity will prevail as residents’ consensus.
+
+\- [WaPo](https://www.washingtonpost.com/news/monkey-cage/wp/2017/01/02/yes-taiwan-wants-one-china-but-which-china-does-it-want/)
+
+I don't think it's fair to exclude people who identify as both Chinese and Taiwanese. It would be like excluding Texans who identified as both Texans and Americans in a poll about how many Texans identified as American (obviously not completely comparable since Texas is not yet an independent country). At any rate, it would represent about a third of the population, which is only slightly more than the number of Taiwanese who don't believe Taiwan is an independent country according to the poll (28%) - and roughly the share of votes KMT got in 2016, between 25-30%."
+math,fcu20ck,t1_fcu16v1,1577969958.0,"Nah, people get sloppy everywhere. Randomness is hard to do right.
+
+> I wrote recently about the husband and wife team out of Michigan who figured out how to game the lottery, and walked away with almost $27 million over the course of nine years.
+
+> But it turns out there's a greater mystery in the world of lottery watchers. 
+
+> Her name is Joan Ginther, and she won the Texas Lottery at least four times in 10 years, while apparently buying thousands if not millions of dollars wroth of tickets.
+
+> Oh, did we mention she has a Stanford PhD in statistics, lives in Las Vegas, and yet repeatedly made the trip to a single store in rural Texas to make many of her purchases?
+
+\- [Inc.](https://www.inc.com/bill-murphy-jr/this-stanford-phd-reportedly-figured-out-texas-lottery-won-20-million-playing-over-over-for-years.html)
+
+There's a [Wired article](https://www.wired.com/2011/01/ff-lottery/) that breaks down some of the non-randomness that comes into scratch-offs.
+
+Even for the regular lotto, [occasionally the value of the jackpot has exceeded the cost of buying all the tickets](https://www.washingtonpost.com/archive/politics/1992/03/10/australians-luck-out-in-va-lottery/cbbfbd0c-0c7d-4faa-bf55-95bd6590dc70/)"
+math,fcu1dd0,t3_eivvis,1577969258.0,"If you read a book on analysis, you might be able to review calculus and learn something new too. Rudin is a good choice for that. Functional analysis will also formalise certain methods of solving differential equations, but is somewhat advanced, and I would recommend reviewing linear algebra first. I believe Dummit and Foote's Abstract Algebra (a fairly important subject I'd recommend) covers linear algebra, but not until a while through."
+math,fcu0p3q,t1_fctu9ni,1577968496.0,"That just means you still make money on the asset, but doesn't present a way to beat the market."
+math,fcu0kyq,t1_fcttshy,1577968366.0,"People have used mathematics to successfully cheat the lotto, but I think there's a difference between beating a system somebody planned out versus an unplanned emergent system like the stock market."
+math,fcu0h2v,t3_eiw92f,1577968246.0,"There's the [efficient markets hypothesis](https://en.wikipedia.org/wiki/Efficient-market_hypothesis) which is an idea from economics that has some criticism, but I think it is essentially why the task is difficult. Apparently Mandelbrot of fractal fame had some role in this."
+worldnews,fcu0942,t1_fctifi4,1577967993.0,"> The assumption here is that PRC policy towards both KMT and DPP is equal and same. I do not believe it is.
+
+Perhaps, but I think the simplest explanation is that the DPP's supporters are Hoklo who have been in Taiwan for many generations, and the KMT's supporters are mainly the descendants of mainlanders who arrived a generation or two ago (and the aboriginals who apparently don't like the Hoklo, but they're not a large proportion of the population) and still view themselves as Chinese."
+worldnews,fct4ufz,t1_fct44i1,1577932916.0,"The 1992 consensus is that there is one China, but that the PRC and the ROC disagree about who the legitimate government of China is. The KMT's position has always been that the ROC government is the legitimate government over all of China. It may be a pipe dream, but you are misrepresenting their position."
+worldnews,fcst5fl,t1_fcrvq1s,1577924456.0,The 1992 consensus is not the same as 1C2S. The KMT views the ROC government as the legitimate government of all of China.
+worldnews,fcspk0y,t1_fcr9t0o,1577921869.0,"You could read Taiwan's statement at the time on it yourself:
+
+> ""Both sides of the Taiwan Strait agree that there is only one China. However, the two sides of the Strait have different opinions as to the meaning of 'one China.' To Peking, 'one China' means the 'People’s Republic of China (PRC),' with Taiwan to become a 'Special Administration Region' after unification. Taipei, on the other hand, considers 'one China' to mean the Republic of China (ROC), founded in 1911 and with de jure sovereignty over all of China. The ROC, however, currently has jurisdiction only over Taiwan, Penghu, Kinmen, and Matsu. Taiwan is part of China, and the Chinese mainland is part of China as well.""
+
+Chiang-style reunification is unlikely, however, so it is dubious that that is what the KMT would expect in any sort of reunification. But nevertheless, I haven't seen anything about the KMT changing their position that the ROC is the legitimate government of all of China."
+worldnews,fcsp041,t1_fcqb8dk,1577921477.0,"> In reality, they do not declare independence because the PRC would see that as a casus belli for military intervention.
+
+I believe that is the official position for why the DPP does not view a formal declaration of independence as necessary, although the possibility of war is likely a consideration in the matter. But again, the position of the DPP is that they are already independent.
+
+> As the other poster pointed out, a change in this position [by the KMT] would be seen by CCP as a casus belli for military intervention.
+
+If your belief is that it is acceptable for the ruling party to hold the position that Taiwan is an independent nation as long as a formal declaration of independence is made, then the KMT could adopt the position of the DPP instead. I don't see why the PRC would view the KMT declaring that Taiwan has been independent since 1895 as requiring military intervention more so than the currently governing party already holding that position."
+worldnews,fcq2w2l,t1_fcq226g,1577877544.0,"It is the KMT's position, but the position of the DPP (the party in power right now) is that Taiwan is independent and has been since 1895."
+worldnews,fcpxipt,t1_fcpw6ri,1577874280.0,"Here is a [Reuters article](https://www.reuters.com/article/us-taiwan-election-idUSKBN1XO235) from 2019 in which  the KMT presidential candidate reaffirms support for the 1992 consensus. The 1992 consensus is as follows:
+
+> ""Both sides of the Taiwan Strait agree that there is only one China. However, the two sides of the Strait have different opinions as to the meaning of 'one China.' To Peking, 'one China' means the 'People’s Republic of China (PRC),' with Taiwan to become a 'Special Administration Region' after unification. Taipei, on the other hand, considers 'one China' to mean the Republic of China (ROC), founded in 1911 and with de jure sovereignty over all of China. The ROC, however, currently has jurisdiction only over Taiwan, Penghu, Kinmen, and Matsu. Taiwan is part of China, and the Chinese mainland is part of China as well."""
+worldnews,fcpwh3m,t1_fcpw6ri,1577873640.0,"Well, find me the source on them changing their position since, then."
+worldnews,fcpvro7,t1_fcpvhtb,1577873199.0,"The KMT has claimed it [as recently as 2008](https://en.wikipedia.org/wiki/One-China_policy).
+
+> The Kuomintang holds the ""One China Principle"" and maintains its claim that under the ROC Constitution (passed by the Kuomintang government in 1947 in Nanjing) the ROC has sovereignty over most of China (including by their interpretation both mainland China and Taiwan). After the Communist Party of China expelled the ROC in the Chinese Civil War from most of Chinese territory in 1949 and founded the PRC, the ROC's Chinese Nationalist government, which still held Taiwan, continued to claim legitimacy as the government of all of China. Under former President Lee Teng-hui, additional articles were appended to the ROC constitution in 1991 so that it applied effectively only to the Taiwan Area.[21] The Kuomintang proclaims a modified form of the ""One China"" principle known as the ""1992 Consensus"". Under this ""consensus"", both governments ""agree"" that there is only one single sovereign state encompassing both mainland China and Taiwan, but disagree about which of the two governments is the legitimate government of this state. Former ROC President Ma Ying-jeou had re-asserted claims on mainland China as late as October 8, 2008.[22]"
+worldnews,fcpvaw7,t1_fcpocr8,1577872900.0,KMT could really only be described as 'pro-China' insofar as they view themselves as the legitimate government of China.
+worldnews,fcpujly,t1_fcplyvf,1577872427.0,"The rival party is the KMT, the nationalist party which has historically been anti-communist. They support eventual reunification with the mainland, but I doubt they'd want to do so if it meant submitting to the communists. It's unclear to me what exactly they would want in reunification, but it's worth noting that their official position is that the ROC is the legitimate government over all of China, not just Taiwan. For this reason, I think calling the KMT 'pro-China' is a bit misleading, if not outright false.
+
+By contrast, the DPP does not support reunification, believes Taiwan to have been independent from the mainland since 1895, but will not declare independence because they're already independent."
+HumansAreMetal,fco4p37,t1_fco4eev,1577824023.0,"Well, I guess that's a lesson for paparazzos then."
+HumansAreMetal,fco47ni,t1_fcnv7wb,1577823766.0,"Was she arrested, though?"
+HumansAreMetal,fco0hgb,t1_fcnmgta,1577821871.0,"Crossbows aren't firearms, so you probably won't have to go through a background check to buy one. And people who are prohibited from owning firearms (e.g. felons) could own one."
+todayilearned,fcmnham,t1_fcmn07h,1577782937.0,You know what the derivative of jerk is? Inauguration.
+instantkarma,fcmdg3i,t1_fcmcwvk,1577771340.0,Maybe. Or maybe he's not driving straight because he's panicking since there's a person on his car. I don't think it's clear.
+instantkarma,fcmck5x,t1_fcmbhgs,1577770525.0,"Does the driver have an intent to kill, or is he just trying to get away?"
+starterpacks,fclv0p9,t1_fclpghf,1577757136.0,"The comic specifically leaves it ambiguous as to whether or not the peace will last, since it ends with Rorschach's journal being sent to a newspaper."
+starterpacks,fcluvi2,t1_fcljd4q,1577757036.0,"He didn't want Doctor Manhattan to kill him. Rorschach told him to kill him because he knew Doctor Manhattan wouldn't let him tell the truth. Since he obviously wasn't going to be able to beat Manhattan, he told him to do it to get it over with."
+AskReddit,fclsjmw,t1_fcls4wi,1577755415.0,Just pointing out that the EU rules allow these pesticides to be used in organic agriculture.
+AskReddit,fclrkc4,t1_fclmvto,1577754747.0,[List of active substances approved for use in EU organic agriculture under EU Regulation (EC) No 889/2008](https://www.pan-uk.org/site/wp-content/uploads/List-of-active-substances-approved-for-use-in-organic-agriculture.pdf)
+todayilearned,fcllm6j,t1_fcll2cw,1577750658.0,"I believe she was a bartender he met at the club, who asked him to check out her boyfriend. So he (JD) wasn't friends with the girl."
+iamatotalpieceofshit,fclgobc,t1_fclg2nl,1577747359.0,"And then the cop arrests you, you argue it in court, and lose because you actually were impersonating an ADT employee to case a house to burgle."
+todayilearned,fclf2zt,t1_fcleg74,1577746317.0,"The usual distinction is that morality has to do with good/evil while ethics pertains to things like codes of conduct and professionalism.
+
+E.g. in a certain Scrubs episode, JD finds out a woman's boyfriend has VD after examining him and is in a dilemma. Telling her would be unethical, but you could argue that it would be a moral thing to do."
+iamatotalpieceofshit,fcldbvx,t1_fclc7zn,1577745171.0,"> Probable cause for arrest exists when facts and circumstances within the police officer's knowledge would lead a reasonable person to believe that the suspect has committed, is committing, or is about to commit a crime.
+
+If a stranger claims to be from the security company but is gonna bolt the moment I want to call the company, you better believe that's probable cause."
+todayilearned,fclbz5m,t1_fcjp5fe,1577744304.0,The tax revenue collected does not offset the subsidies stadiums typically receive.

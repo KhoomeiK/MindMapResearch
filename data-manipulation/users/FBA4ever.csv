@@ -1,0 +1,50 @@
+subreddit,self ID,parent ID,time,text
+todayilearned,ff32ef1,t1_ff2zjbj,1579531892.0,They hang around forums and wait for exploits the same way people hang around some sites and wait for coupon errors. They wait for a bug so they can buy $100s worth of product for $5 because of a bug that let them stack coupons.
+todayilearned,ff325ll,t1_ff2wmfo,1579531704.0,"This^. The  burden falls on the payment processor. If they dont vette all their customers and allow fraud occur, they will lose their payment processing ability. Imagine losing all your customers and entire business because of 0.03% transactional fees on a fraudulent transfer."
+CentOS,ff1nl1s,t1_ff05k9e,1579482157.0,"I wasn't getting an error from terminal or application in CentOS 8. Just spinning wheel and it disappeared.
+
+I installed CentOS 7 and had the same issues but this time teamviewer GUI loaded when I type.
+
+    yum install epel-release
+
+Chrome also didnt load from applications but I was able to load it after doing the following:
+
+    vi /usr/bin/google-chrome
+    
+    exec < /dev/null
+    exec > >(exec cat)
+    exec 2> >(exec cat >&2)
+    
+    # Note: exec -a below is a bashism.
+    exec -a ""$0"" ""$HERE/chrome""  ""$PROFILE\_DIRECTORY\_FLAG"" \\
+    ""$@"" --no-sandbox --user-data-dir
+
+There's no way the very helpful guy could have loaded chrome without typing --no-sandbox because chrome does not run in root without it."
+CentOS,fey7awr,t1_fey1ew1,1579441708.0,Very helpful. Thanks
+worldnews,fexknux,t1_fexe4xv,1579432532.0,"Dont worry.
+
+
+The records of these corrupted criminal politicians getting elected by buying votes still intact."
+worldnews,fexkc3b,t1_fexjcsq,1579432386.0,"Bottled water cannot sit in sunlight. The plastic leeches into the water. 
+
+So yeah, it was wasted."
+melbourne,fexf8mu,t1_fex3vfb,1579430028.0,"What are you talking about,?
+
+His fingers would look great. With some ketchup and mustard."
+todayilearned,fepd0qa,t1_feojm3h,1579317505.0,">Rapestein
+
+Double the stigma, none of the guilt."
+funny,fejvgys,t1_fejm960,1579186783.0,[Harvard has a similar thing called action verbs so people can sound more professional.](https://hls.harvard.edu/dept/opia/job-search-toolkit/action-verbs/)
+personalfinance,fdscrhj,t1_fdsbs2c,1578699655.0,"Repair to a damaged front fender for a 5-year old car starts around $700 and then goes up to $1500-$1800 for matching paint. That's just the bumper. If metal needs to be re-worked it goes up more. A new car will be a lot more expensive because of fewer replacement parts on the market.
+
+Not sure why OPs 10 year old car with tons of available spare parts is so expensive. I think OP should drop full coverage for this and drive it like the beater it's supposed to be."
+slavelabour,fdrtwwl,t1_fdpdj77,1578689596.0,That's a lot of patience. 99% of the guys who apply for my jobs are ineligible because they have no documented past experience.
+videography,fdqgq8s,t1_fdqfkss,1578666246.0,"I'm looking for candidates who've had previous experience creating real estate, youtube, corporate, etc videos. It will help them know what's possible and how the team deliverables can be improved to increase client satisfaction, without much guidance/education."
+AskReddit,fddoc6v,t1_fddnv9f,1578319442.0,"To add, a lot of high paying jobs require you be on call during weekends too."
+amazon,f5rkxw1,t3_do7cdm,1572396778.0," 
+
+What's with all the fake reviews?? Clearly people have gamed whatever system Bezos thinks he got going on. Went shopping for a computer chair today. Every single listing with 4 stars and above was plagued by fake reviews. If you read the negative comments, you will see people saying they are selling $20 products for $100. I mean, seriously, how many people casually take pictures of fully functioning chairs in their disgusting environments? I don't remember society being this nice.
+
+Thank God I don't pay for prime.
+
+P.s Before you guys go an a tangent, I was a FBA seller way before most people even knew it was a thing. I quit when Amazon asked me for my invoices and directly contacted the manufacturer to under cut me."

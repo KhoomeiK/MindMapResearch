@@ -1,0 +1,329 @@
+subreddit,self ID,parent ID,time,text
+Mecha,fgulv7u,t1_fguixt6,1581124045.0,"First thing you do is remove the pilots.
+
+This would just be an extreme weight class of Battlebots then, but wow have recent seasons of that been good (when you watch it with all the fluff stripped out, at least.)"
+politics,fgujegk,t1_fguhtlz,1581122280.0,"They hate anyone who is something they cannot be.
+
+Which is why they openly hate decent, compassionate, and kind people the most.
+
+They hate people who are loved and respected.
+
+They hate people who are intelligent and capable.
+
+They hate people who are honest and truthful.
+
+And they especially hate people who are *different* and *stand out*, because of rainbow flags or the color of their skin.
+
+But they love the people who hate the same things they do. It's all they have as identity: Hate."
+aww,fgr7dip,t1_fgr4vvy,1581039956.0,"Wait, black and tan Borzoi is a thing!?"
+aviation,fgqzs0l,t1_fgpgmc7,1581035010.0,"Engine limits usually come up first except maybe at low altitude.
+
+A MiG-25 can do a bit over mach 3 *once* and then it needs the engines rebuilt, but a 'time of need' is what you have that bit extra for. My A&P school had a non-flying (but taxiable) Rockwell Sabreliner, which was originally a USAF design, the T-39, and still had the 'war power' selection on the power levers."
+Unexpected,fgqy3if,t1_fgqisq9,1581033946.0,"You're more correct than you realize. Almost every game with guns has you reload back to the clipsize, but if you did reload early it should be your clipsize plus the one in the chamber, so it is like you toss the gun with the mag.
+
+Metal Gear Solid 5 is the only game I've seen get this right."
+WeirdWings,fgqsnjh,t1_fgp22bw,1581030633.0,"I know zero German, I just wanted to keep the form and rhyme, with the added gag of reading ß wrong."
+WeirdWings,fgoniur,t1_fgojlej,1580977342.0,"I don't speak German, I just wanted it to rhyme if you read ß as a B :V"
+WeirdWings,fgo4kvx,t1_fgo2iry,1580959636.0,The funny part is it only rhymes when pronounced wrong by an english speaker.
+WeirdWings,fgo28a5,t1_fgnv4yy,1580958073.0,In stoß wir glaube.
+MechanicalKeyboards,fgo1k3j,t1_fgnr5n2,1580957657.0,"Whoever thought it should be ISO, for one."
+TankPorn,fgnmnhp,t3_ezd5ua,1580948176.0,"""Engineering Vehicle"" that literally screams ""DESTROY ME IMMEDIATELY HOLY SHIT WHY CAN'T I HOLD ALL THIS DAKKA"""
+politics,fgkdeaq,t1_fgjyfwb,1580862962.0,Nothing Trump has ever produced could be called top-shelf. Not even his lies which are as transparent and flimsy as bargain-bin plastic cutlery.
+politics,fgkcxgj,t1_fgjaawy,1580862654.0,"https://linode.com
+
+https://digitalocean.com
+
+Take your pick. I've used both now and prefer the former for being more transparent and zero cruft.
+
+Basically, any flavor of linux you want on a headless server basically anywhere useful in the world for $5-500 a month depending on cores/memory/storage you need, but you can resize any time just be sure to keep the disk allocation small. No restrictions (beyond the sensible), no support (you break it, you fix it, though you do have nice backdoors).
+
+If you're shipping whole servers around, though, you might be at a different scale. I've gotten up to 112 cores clustered (7x 16c/64gb) but any more than seven nodes starts to push the Galera overhead too high, even over private IP in the same datacenter. Galera (MariaDB's multi-master clustering) is likely a different beast from what you're used to as well. All nodes are master and confirm transactions independently, so you *can* use locking but it's 'optimistic' and will roll back and error if you conflict with a different node on commit, which your app should handle gracefully (even assuming you aren't 99% autocommit). With it, though, all your reads and effectively your writes are local so in high rate i/o applications it rocks.
+
+Virtual Hosts are basically the middle ground betweeen running your own hardware and app-only deployment like AWS Lambda. Both of these services are far older than AWS actually, it's just a bit too involved for most while I have my own workarounds like a central LDAP auth for all my nodes.
+
+Not to mention your hardware basically upgrades itself over time."
+pcmasterrace,fgk5q68,t1_fgjl8ia,1580858056.0,"My power button is the power button, but my old Thor has a recessed reset button you have to push with a pen. I plugged it into the BIOS clear jumper instead and it's been super handy while overclocking the new ryzen."
+TIHI,fgiqjr0,t3_eyp9rf,1580828646.0,"This was one of the better Love Death Robots episodes, the one with the werewolf soldiers."
+politics,fgiq6d7,t1_fgih9gf,1580828396.0,"Uh, that's why a linode or a droplet and I'll never touch hardware again. Less than five minutes to rescale anything as long as you know that it's tied to disk size. You can always overscale at launch and ratchet back after.
+
+So I mean, yeah, if your app pegged everything it's probably the app, but rescaling a virtual host is trivial.
+
+HA would just be using linode's own loadbalancers (admittedly I've pegged one of these, 10k concurrent connection limit) but I'm not unfamiliar with a swarm of small nodes in the DNS all running haproxy and health checking of app nodes, and fault tolerance from using Galera for a clustered DB backend. Every node is the complete app and will join/leave the cluster freely. I like Galera clustering for locality, directly on the app node, so long as you pin clients to a node effectively.
+
+And that's *still* massively overkill."
+Roadcam,fgicccb,t1_fgi3217,1580816535.0,~$150 and you've got one that will blind you faster than your blink reflex.
+politics,fghtbcw,t1_fghrh9v,1580793258.0,Even for 1700 *concurrent* users that would be massive overkill. This should run on a $5 linode.
+AskReddit,fghstvh,t3_eykt6g,1580792856.0,McMurray would still find a way to fuck it up.
+pathofexile,fggzwew,t1_fgfv8fg,1580773376.0,*exoyle
+cars,fggxb6i,t1_fgfkyi7,1580771649.0,">It's the best looking modern McLaren, imo.
+
+Because it stole cues from the Regera. Even the fucking color."
+evilbuildings,fgefjgz,t1_fgecjmf,1580698386.0,"Something to understand about aircraft engines is they have to produce their power continuously, not just for a short period of time at the top of each gear. Propeller turning engines also turn much slower, and their torque figures are actually insane while they churn at 2500 RPM tops, directly or after gearing, meaning 300 horsepower is >600lbft of torque being put out *continuously*, not just for a few seconds on a dig or straightaway.
+
+Think of aircraft engines more like they're towing a load uphill, but the hill never ends and you're already two miles up where air is thinning. It's a totally different breed of 300hp once you consider the thermals, wear, and reliability involved in that."
+TIHI,fge0gkf,t3_ext95r,1580689059.0,Fold for thickness and then scrunch for contour.
+WatchPeopleDieInside,fgamc9g,t3_exnnwo,1580652950.0,"Okay, between my recent Epic Splits comment, ""Everything Great About Deadpool 2"", and now this, how many times can I hear *Only Time* in one day?"
+pcmasterrace,fgaha04,t1_fga8tli,1580651257.0,"Windows got mentioned also having these ads if you're signed in, and we're in PCMR after all.
+
+Just doing the duty in demonstrating that PC users don't have to put up with this shit one bit.
+
+You decrapify an Xbox by resetting it to factory default. Then you sell it on Craigslist and build a PC instead."
+pcmasterrace,fgagom7,t1_fgaa80k,1580650964.0,"Context came from
+
+> ads will appear on your Windows too, if enabled in your Microsoft account
+
+I had so little doubt this kind of shit appears in Win10 Start menu tiles now, though, that I didn't realize it was an Xbox, indeed."
+pcmasterrace,fga24h8,t1_fga0llx,1580645837.0,Calm down and go drink your verification cans.
+pcmasterrace,fga0pr3,t1_fg9wtyv,1580645397.0,"> My $1,000 laptop can’t run GTA V
+
+Probably because it's a Mac, judging from how ignorant the rest of your post is."
+pcmasterrace,fga09xs,t1_fg9x3p2,1580645207.0,With upcoming AMD APUs it might not even be $300.
+pcmasterrace,fg9ztek,t1_fg9x2xb,1580645120.0,"The account Microsoft convinced you was necessary to use Windows but isn't.
+
+The only reason Microsoft built so much spyware and malware protection into Windows 10 is to eliminate the competition once they realized how much they could get out of selling personal data themselves."
+pcmasterrace,fg9zcr5,t1_fg9tyb5,1580644973.0,"You act like the Decrapifier script and Group Policy Editor don't exist.
+
+The latter can be cheekily enabled on Home editions even."
+pcmasterrace,fg9zald,t1_fg9xojf,1580644948.0,"https://community.spiceworks.com/scripts/show/4378-windows-10-decrapifier-18xx-19xx
+
+https://community.spiceworks.com/how_to/148624-how-to-clean-up-a-single-windows-10-machine-image-using-decrapifier
+
+Should do it well enough, but you can also do a lot of things with the Group Policy Editor."
+gatekeeping,fg7ouz4,t1_fg6otud,1580597765.0,"He had a safety harness that would keep him from falling to the road anyway, and the wires were edited out.
+
+The trucks are driving in reverse, it's very real, and he actually did it in one take."
+gatekeeping,fg7orva,t1_fg6yvjt,1580597704.0,"Not backwards, not fake. They only edited out the safety rigging and foot platforms.
+
+Jean can't rise from splits like that anyway, even if the platforms moved inwards."
+gatekeeping,fg7oa23,t1_fg6n00g,1580597358.0,"There's a little dashed line he goes to just outside of the stripe, like they adjusted it out slightly. Definitely following it in the mirror."
+chrome,fg68yp5,t1_fg682qx,1580559575.0,"Why Alt+D instead of Ctrl+L? Saves you a thumb/pinky swap.
+
+Or how about just right click the tab and 'duplicate', since apparently you've optimized this to left-hand-only.
+
+We can go deeper: Just hold alt and press D and then Enter. Just learned that one."
+chrome,fg67w34,t1_fg66gov,1580558116.0,"Image search urls have always been filled with useless garbage and the *isch* parameter is always buried in the middle. No other google search url has ever been useful and one looks like a tool when they blindly copy-paste a 300 character URL. It's replacing something that isn't really all that useful except in the rare case where a right click menu isn't a major holdup.
+
+It is a curious change though."
+gatekeeping,fg63w59,t1_fg61wef,1580552266.0,"I had to go watch the [Epic Split](https://www.youtube.com/watch?v=M7FIvfx5J10) again.
+
+I absolutely believe that man knows pain, and would take his word on it."
+lego,fg62huf,t1_fg5vfpx,1580550174.0,Hey now. Even minifigs gotta make ends meet sometimes.
+pcmasterrace,fg6208q,t1_fg61cj1,1580549456.0,"Further up the thread it was found that any screen that is 1440p, 144hz, and HDR but only has DisplayPort 1.2 is lying.
+
+Which is basically all of them. DP 1.2 cannot support 10bit and 1440@144 at the same time.
+
+Yours isn't an HDR screen though, which is why it can eke out 165hz despite also only being DP 1.2. Interesting. That's why I asked."
+pcmasterrace,fg6040w,t1_fg600jp,1580546719.0,HDR? What monitor?
+chrome,fg5zmu7,t3_ex1ma2,1580546044.0,This is a new update coming. You can right click and 'show url'.
+pcmasterrace,fg5p68a,t1_fg5p1j5,1580533966.0,"They can believe in Unicorns too. Hell, I should sell them Unicorn viewing goggles."
+pcmasterrace,fg5ou12,t1_fg5oelm,1580533653.0,"Okay cool. Show me the ABX test proving it.
+
+Because those people are full of shit.
+
+At this point you can believe whatever you want and go waste your money on an imperceptible difference or ruin your HDR and color accuracy for it. I can't teach someone who doesn't want to learn."
+pcmasterrace,fg5nkik,t1_fg5mv3j,1580532518.0,"I'm gonna burst your bubble. Nobody can see the difference between 120hz and 144hz. Not a single person on earth. You can ABX test it until you're blue in the face. Anyone who claims otherwise is *selling you something*.
+
+I will occasionally believe someone can see strobe backlight flickering at 120hz in their peripheral vision with an all-white screen, but that's looking for the effect and not *using* the monitor and is still anecdotal in all cases (you can't ABX test it because of brightness changes when strobe is on or off).
+
+Same thing goes on with high-end audio stuff. People will claim to hear the difference in all sorts of nonsense, but in actual ABX testing they can't tell the difference and it always involves *selling something* or wanting to justify having *spent too much on something*.
+
+You *can* see the difference between 60hz and 120hz because that's a 2x factor beyond what is already close to the limit of human vision. That is the jump that matters. That is a perceptual difference. 120hz vs 144hz is meaningless."
+pcmasterrace,fg5mknk,t1_fg5mbb2,1580531667.0,"You didn't examine the question deeply enough.
+
+Are you insisting that 144hz is perceptibly better than 120hz? Does it get you more headshots in CS:Go or something?
+
+I just pointed out that the monitor is *more color accurate* in HDR mode than not, therefore HDR on/off is a perceptible difference.
+
+Therefore you're turning off a known benefit for an unknown and likely imperceptible benefit. Why even do that? Why justify that?"
+pcmasterrace,fg5lzfx,t1_fg5ljaj,1580531179.0,"Right, so why bother switching? Why put that much effort in to ruin your HDR experience for something you can't actually perceive? Just stay in 120 HDR all the time because you won't tell the difference between 120 and 144. This monitor is *calibrated* in HDR, and will likely be incorrect otherwise, which I've verified over at [lagom.nl](http://lagom.nl/lcd-test). Perfect 2.2 gamma, black and white tests are spot-on (all the black squares turn horribly grey if you drop to 8bpc), and the only thing that might need adjusting right now is sharpness.
+
+Do you really, honestly, think 144hz will somehow be 'smoother' than 120hz? You're already at double the 'gold standard' of 60hz that consoles rarely manage to meet, what does 20% more even do? Do you think anyone will pay $200 more for that imperceptible difference?
+
+No. You're absolutely right. Anyone who does pay $500-$600 for 144hz HDR over 120hz HDR is a moron with ""Bigger Number Syndrome""."
+pcmasterrace,fg5k0f9,t1_fg5jji3,1580529567.0,"**Gee it's almost like I spent a week shopping monitors looking for an exact technical specification at a given price point and you just can't put forward the knowledge or effort right now.**
+
+My point is every screen in this class seems to be DP 1.2, therefore *none* of them can do 144hz at 10bpc anyway. The $200 savings is because you will *probably* find something in the $550-$600 range.
+
+But you still want 144hz at any cost, huh? Despite all the technical drawbacks. Despite losing HDR bit depth. Despite running into pixel clock glitches on some panels. You just gotta have that **bigger number**.
+
+You poor fool. Life is gonna beat the concept of tradeoffs into you soon enough."
+pcmasterrace,fg5j962,t1_fg5j6v5,1580528978.0,"You haven't found me a screen that is DP 1.4 yet, none of these are even cheaper than the one I got, let alone any more capable.
+
+You should be careful, you're up against someone who dares to *know and understand stuff*.
+
+Edit: I did see you were shopping by the way, strong rec on the VG271U if you can *deal* with 120hz instead of 144hz. ;D"
+pcmasterrace,fg5j088,t1_fg5ivqm,1580528784.0,"> pixio px7 prime
+
+DisplayPort 1.2
+
+> pixio p275h
+
+Also 1.2
+
+Both of these displays are cheap garbage and lying to you. Did you even bother to google first?
+
+VG271U was $349 and is a respectable 350nits too. Not quite 400 spec but few things are. I'm pretty sure it's the same panel as the Predator, just without the gamer fluff and tax."
+pcmasterrace,fg5hwdr,t1_fg5hc36,1580527920.0,"See, you take the silly examples as my own experience. They're not.
+
+I don't care about FreeSync because I never drop below 120fps. I don't need it.
+
+But guess what? My monitor is not the only 1440p/144hz to only have DisplayPort 1.2. The ROG and Predator of the same class are also only 1.2 and are both $100 more than the VG271U I ended up buying, so they can't do 10bit 144hz either!
+
+So no, you can't just throw more money at this problem. Oh, and guess what? If I was still on the 1080 TI that's in my VR rig, that thing is limited to DP 1.2 as well. Find me a 1440p/144hz monitor that is DP 1.4. I'll wait patiently.
+
+So yes, it *is* that hard.
+
+Or I can save at least $200 and not care about that 20% more refresh rate that nobody can perceive anyway. The important part is getting *enough*, strobed backlight or otherwise.
+
+I'll be keeping this very nice monitor on 120hz because the other things gained with it are *actually visible*."
+pcmasterrace,fg5gaa2,t1_fg5g3bc,1580526670.0,"""You're""
+
+Right, but that's what console peasants are all about. They want the *bigger number* without actually understanding the technology. Just the same as they see the ""Pro"" version can ""do 4k"", ignoring that none of the games actually render at 4k.
+
+You just see that 144 is a bigger number without actually knowing the pixel clock issues on some displays and displayport versions that prevent 10bit color and a whole host of other things involved in setting up high refresh rate displays.
+
+PCMR used to be about understanding things and not making these shitty ""nuh-uh! not true! my number is bigger!"" posts.
+
+I will happily correct such things all day, just like with your grammar. This is how people learn.
+
+Edit: Also, while I do have FreeSync turned on, it's meaningless unless you've pushed things so far that you're dropping to non-PCMR framerates anyway. Dipping to 100fps in some scenes? Okay. Dipping to 45fps? FreeSync doesn't fix that horrible experience, despite still eliminating tearing."
+pcmasterrace,fg5fujx,t1_fg5f4hp,1580526337.0,"""I don't see the effect, therefore it doesn't exist.""
+
+Go have fun, peasant. Also, ""you're""."
+pcmasterrace,fg5e253,t1_fg5dhlf,1580525006.0,"Because its origin is rooted in 24fps cinema. Absolute peasantry.
+
+It's also only 20% higher than 120hz while 1. Not being in sync with 60fps video and frame-locked games and 2. Having hilarious frame-skipping issues in engines that use integer milisecond frame timing, because it's 6.9ms and generally that gets floored you can end up *skipping* about one in eight frames unless you can actually render 166.7fps.
+
+So of course being 'cinematic' ruins everything, including 144hz. It's almost like *knowing how shit works*, unlike the willful ignorance of console peasants, is a big part of PCMR
+
+Ignoring math, mechanics, and facts is the realm of the Console Peasant, and this sub continues to slide into that darkness for sake of dankness."
+pcmasterrace,fg557fl,t1_fg54u2j,1580518562.0,"You obviously know jack shit about actually *running* a >60hz monitor, like being able to set it to anything up to the maximum.
+
+Or that 144hz only exists for 24fps movies to be triple flashed per eye in 3D applications.
+
+Or that you actually have to render those frames, the monitor doesn't magically make your games run 144fps.
+
+Don't even get me started on integer frame timing glitches with 144hz, 60fps content sync aside.
+
+Now get this garbage post off my 1440p 120hz HDR IPS.
+
+*Edit:* Here's a fresh discovery, since this subreddit used to be about objectivism and meaningful metrics. I've only had this monitor a few days and just updated video drivers meaning I had to reset some stuff that got defaulted: DisplayPort 1.2 cannot do 1440p 144hz at 10bpc, it can only do 8bpc. **Dropping to 120hz allows 10bpc at 1440p**, eliminating the horrible banding in dark scenes that tipped me off that stuff had defaulted. The *monitor itself* is DP 1.2, it's not the cable's fault.
+
+This all came about because I no longer had DVI-D support for ye olde 2411z, but at least I don't have to patch firmware and run the strobe timing utility anymore."
+battlestations,fg52ona,t1_fg51p8f,1580516800.0,"I was waiting for you to disavow them, since we can see they're plugged into the top ports, lol."
+pcmasterrace,fg52iba,t3_ewsx2k,1580516677.0,"144+hz at what res? 1080? Get a bigger screen dude. Nobody gives a fuck about 240hz if it's at 1024x768 just to keep your framerate up there with it. Visual fidelity is not just one number.
+
+120hz is still the sweet spot. Safe guarantee you can't actually see any higher, it's slightly easier for your game to stay at, and it won't microstutter 60fps content, be it Youtube or, Gaben forbid, locked fps games.
+
+Stop with the Bigger Number Syndrome. PCMR is better than that. Getting very Poe's Law in here."
+battlestations,fg51ia3,t3_ewx07s,1580515988.0,Which movie did Vader have pink cat ears? Was it RotJ?
+HumansBeingBros,fg4z87p,t1_fg4vj60,1580514454.0,"Which is amazing, since I looked into the math earlier today.
+
+Right now, people in the US pay between 13% and 20% of their income to health insurance.
+
+Single-payer would be a 2% income tax increase for those people.
+
+The **fuck?**
+
+*Edit:* And just to be extra pedantic for whose whom this might be news to: Yes, the 2% single-payer means you don't pay the 13%+ anymore."
+AdviceAnimals,fg3klao,t1_fg3jp0u,1580483761.0,"2% lower income tax so we can spend 13-20% of our income on health insurance! 'Murica!
+
+Yes, those are the **actual fucking numbers**."
+aviation,fg3etx5,t1_fg3ehug,1580479694.0,"Bombardier Dash 8, a Q400 because it's got the strakes."
+pathofexile,fg3bbzk,t1_fg30tei,1580476902.0,"There's a **huge** difference between offscreen 2mil dps and have-to-stick-your-ass-in-their-face (and stand still if you wanna ray) 2mil dps, and the former only costs ~2ex on a Necro.
+
+I made RF with reverse knockback ignite loop as a meme build this league. It's *almost* as braindead as my summoner."
+cars,ffs75ys,t1_ffs721c,1580174803.0,"Probably fewer than are taught that going 55 in a 60 in the left lane gets better mileage,"
+cars,ffs54wv,t1_ffr7fvt,1580173379.0,"Modern vehicles (meaning 90s+ not just a few years back) have so much less drag that even 80mph shouldn't be a significant hit to mileage. Gear selection and resulting rpm can be the bigger factor.
+
+It's an old story that a mid-90s Saturn SC2 will get better mileage at 78mph than at 60mph, because it's so light and aerodynamic enough that the bigger factor is brake-specific-fuel-consumption at a given speed to maintain that speed.
+
+tl;dr version is the 20hp it takes to maintain 60mph at 2400rpm can take *more fuel* than the 23hp it takes to maintain 78mph at 3200rpm. My tuned '96 got 45mpg on higher speed runs between Tacoma and Portland but only a little over 30 or so on the 60mph stretches south of Portland.
+
+Remember that in general, engine efficiency *increases* with RPM, and this can even apply in non-full-load situations. 55mph always being better mileage is a boomer myth."
+AskReddit,ffs2puv,t1_ffrzgb9,1580171677.0,"Oh hey what's this?
+
+> what you've come across is cheaters looking for an excuse.
+
+Who said that? Oh **you** did elsewhere in the thread! You've acknowledged my exact case already. Cheaters will identify as poly and use it as an excuse.
+
+Someone who plays mono and cheats is just a scumfuck cheater who broke my trust, but painting it as poly nature jumps straight into manipulative garbage territory and does indeed poison my notion of all poly people, because while they're still a scumfuck cheater it's not for me to deny them being poly as well; they can still be both and in my case of a cheater claiming poly I do genuinely believe she was poly, it just made a really shit excuse.
+
+But you have the gall to call me a hypocrite while playing this two-faced doublespeak game where the cheaters who masquerade as poly don't actually exist or matter or something, or even worse you're suggesting that poly people don't or can't cheat, which again is fuckery of definitions.
+
+You forget the entire context anyway. if someone gets as far as a first date and *then* brings up poly relationships, that's the big red flag. The mere possibility that they're using it as a cloak to cheat, on me or with me, is unacceptable.
+
+It's very simple: My trust is simply harder to earn for a poly person, and it starts with them being up-front about their definition of poly. If they are vaguely 'poly', hard pass. If they are concise, direct, and 'poly/closed', I'll continue a conversation with them.
+
+Edit: You so far sound *exactly* like the person I dropped on Bumble, someone who does nothing but *question my ability to trust* instead of earning my trust."
+3Dprinting,ffry1np,t1_ffr3qup,1580168493.0,"I was gonna suggest just buying bearings in bulk, but now I realize scrapping fidget spinners might be cheaper now that the trend is dead."
+Wellthatsucks,ffrx87m,t1_ffrvkn5,1580167939.0,"I'm all-in on clover when the time comes. Grass is garbage.
+
+I'm also all-in on a robotic mower too, though."
+AskReddit,ffrw5mf,t1_ffrv62l,1580167219.0,"She was left-handed too, should I be shutting out all left-handed people? This is just my own experience which is *not for you to validate*."
+WeirdWings,ffrvn30,t1_ffqyoe2,1580166875.0,"Tandems don't really have a dynamic rollover tendency, they just have a way nastier [ground resonance](https://www.youtube.com/watch?v=-LFLV47VAbI)."
+AskReddit,ffruawc,t1_ffqg52l,1580165986.0,"It'll be selection bias one way or the other. Poly-closed folk just don't want it to look this way, so will speak up about it. I might even be one, they aren't the problem. The problem is the excuse of ""I told you I was poly, that means an open relationship"" after someone cheats, usually long after the line in my prior post.
+
+Those very few people ruin it for the rest. ""Leaning open"" is also to mean that they are seeking other relationships on their own while in one, independently dating but not sleeping with new people.
+
+You can #NotAllPoly all you like, it's still gonna be a hard no from me. I recently had someone blow up at me on a dating app, turning into a demeaning judgemental shitfuck overnight, because I merely suggested that I'm hesitant with poly folk after getting burned once. That *also* doesn't help.
+
+Eventually I stand on the bank of the river and tell anything that looks like a scorpion to fuck off, no matter how much they insist they're a solifugid. That trust is long gone."
+3Dprinting,ffq6r85,t1_ffpg7o3,1580123505.0,I forgot about the tongue. Holy crap it's more horrifying than I remembered.
+aww,ffptt49,t1_ffpif4a,1580105448.0,/r/Stealthbombers would be appropriate too.
+TankPorn,ffpky3x,t1_ffpkkfi,1580097582.0,"I'll be honest, I had to look up the Bob Semple tank.
+
+What the crap?"
+TankPorn,ffpkdd9,t1_ffp7f9c,1580097155.0,*Baneblade enters the chat*
+AskReddit,ffpahk7,t1_ffnokmn,1580090209.0,"If I got as far as a first date with someone who was antivax or a flat-earther, something else has gone horribly wrong and it's time to examine the process that lead up to it. That would be on me, not them."
+AskReddit,ffp9xhr,t1_ffnj7lq,1580089819.0,"Especially if you've ever run into the ""I'm poly but can be mono for the right person"" thing before.
+
+Yes, the one cheating liar ruins it for the rest, but I'm not taking that chance ever again.
+
+My other major complaint is people who conflate Mono/Poly and Closed/Open. They are separate concepts and it seems like every self-defined poly person has a different definition, usually leaning 'open'. That's how the argument about 'not all poly people cheat' starts."
+AskReddit,ffj1yfq,t1_ffizter,1579988356.0,"I made the mistake of leaving my hair down on a two hour ride once. Spent twice as long detangling it and I immediately stashed some ties in my jacket.
+
+I've always wanted that fat Duo Maxwell braid."
+aww,ffh9hg8,t1_ffh8uta,1579927000.0,"A while back, after years of referencing that song, I finally looked up their others expecting it to be some strange outlier.
+
+Nope. All of King Missile's songs are *exactly* like that."
+ATBGE,ffgzidl,t1_fff309q,1579919085.0,Not to mention those people whom are deathly allergic if it's even in the room with them.
+DnDGreentext,ffgo11u,t1_fffzw03,1579910732.0,"TIL Puget Sound is actually defined as a fjord system, even if not directly formed by glaciation."
+WeirdWings,ffge3rg,t3_et8hdl,1579904192.0,"[""I said it couldn't fly, I never said it couldn't taxi!""](https://youtu.be/GcbBgtEzS60?t=148)
+
+This is an interesting semantics discussion though. A rowboat is a still a rowboat even without oars."
+Roadcam,ff8azmr,t1_ff7i1ze,1579671387.0,"In Washington it's stated in law that you do this. The turn lane is for left turns ""to and from"" the main road.
+
+Most other states just don't specify, but it wouldn't be news to me that Michigan makes it illegal for all the other boneheaded shit the have about left turns. Have you ever seen a 'Michigan left""? It's about the dumbest and most wasteful road planning I've ever seen."
+Roadcam,ff5ibfx,t1_ff5ht7z,1579594176.0,*8. You drive something akin to a shopping cart with barely 100hp but you couldn't get into trouble if you tried.
+AskReddit,ff5cdxl,t3_ero8mj,1579587135.0,"""Aphantasia? Oh. Oh fuck. That makes sense..."""
+WeirdWings,ff5bgv4,t1_ff59vy4,1579586189.0,[Here's the second part!](https://www.youtube.com/watch?v=IjJmTeBSEzU)
+WeirdWings,ff4wx2q,t3_erlc5v,1579574411.0,Somewhere between Crimson Skies and [Fortress](https://www.youtube.com/watch?v=pyMNIFZTQkg).
+pathofexile,ff48noo,t1_ff3plrr,1579557945.0,Base model MTX has been a suggestion for years... Just to give him pants.
+cars,ff2dfhi,t3_er63kn,1579501653.0,"""No power adders""
+
+Except, y'know, fucking *nitromethane*, dumped in for more than 2x the stoichiometric energy of gasoline.
+
+Now put it in something MR and run 7s."
+Mecha,ff0j1sz,t1_fex85dg,1579469341.0,"Interesting. That's a good candidate for a bug report. I also ran into differences between ortho and perspective but it was early in URP availability, like right after they renamed it.
+
+Awesome concept by the way. I even see htal damage in there."
+Mecha,fex6atb,t1_fex603d,1579425222.0,"Yup, that's Anima2D which is native in 2019 and up.
+
+If you go to the Universal Renderer, you can also do secondary textures on the 2D sprite assets, but they didn't quite load into the shader pipeline quite correctly last I checked. They're suppose to just auto-populate as variables in your fragment shader. Once this is working, it will be possible to have correct normal maps on skeletal animated 2D, so your shadows are from real lighting and are correct not matter what rotation."
+worldnews,fex4w7u,t1_fewggzd,1579424418.0,Every Japan based/released gacha game discloses odds now too. It's the law there.
+lego,fex0w70,t1_fev6kl3,1579422515.0,"Gonna be honest, it could be dialed in a little better. OP's is much closer in appearance while also being simpler."
+Mecha,fewzna0,t3_eqlhrr,1579421947.0,Anima2D? Spine? I'd guess the former because it looks like you're using IK.
+DnDGreentext,feug0se,t1_feu68zw,1579386155.0,And it would still be a twist because red dragons aren't really into the whole lies and subterfuge thing and would instead just bite your face off immediately.
+DnDGreentext,feu2w2o,t1_fesmo64,1579382621.0,"Except then you'll have to play against meta knowledge and have it betray them eventually, and the whole gambit is still rather unlike a regular red dragon so should still be entertaining."
+pathofexile,fepz30o,t1_fepx467,1579335066.0,"I started in talisman league and I've been told it's a fucking miracle I kept playing, because it was shit."
+pathofexile,fepihz8,t1_fepb15w,1579321361.0,"Just put it in your cwdt then (so you can accidentally click the portal in a panic, lol)"
+pathofexile,fepdxz0,t1_fep7xu4,1579318143.0,"[[The Stampede]]
+
+They set your movement speed to always be 150% of base, so no movement speed effects affect you at all."
+pathofexile,feojttn,t1_feo5zsa,1579301138.0,"> no investment other than the bow 
+>
+>I was using awakened gems as well 
+
+*Visible confusion*"
+pathofexile,feojhxd,t1_fenmn5a,1579300944.0,Or you just wear those boots from blight league and ignore cyclone speed penalty entirely.

@@ -1,0 +1,60 @@
+subreddit,self ID,parent ID,time,text
+hockey,ffdw1u9,t1_ffdto5f,1579830342.0,Even that guy I agreed with a Sharks fan on hating?
+aww,ffdvpj9,t1_ffdm8ow,1579830099.0,Don't touch that shiny red button
+aww,ffdvohb,t3_et1tjc,1579830078.0,Challenge accepted!  And worth it
+AZURE,fezcy3q,t1_fez82hq,1579456028.0,"Many of the platform services have a base cost and then usage costs...  i think that any time you enlist a new resource provider and/or resource type, check the base costs. 
+
+I think that the real takeaway here is to evaluate what feature you get for what cost and to be able to present that to a decision maker.  The ""good"" part of this is that there are web pages to go to to check pricing... in the data center days, you'd call your rep and ask about a server or device with XYZ specs, negotiate... get an answer... buy the thing... 6 weeks later it would get racked... and then you'd find out that the OS version you bought didn't have the feature and you'd argue until it got right...  all the while, the dev team is building code against an architecture that won't be able to be implemented."
+AZURE,fez0osf,t1_feypltk,1579452821.0,"Always check pricing before buying something.  Include the cost of the resource and the operating requirements in your analysis of whether a resource is a good choice for your solution.  
+
+I had a similar experience with an AppSercice Environment, but fortunately checked pricing before buying... had a conversation with my security team about the sensitivity of the data and whether a dedicated AppService Plan was OK to use... turned out Dedicated AppService Plan was good enough and that saved $1600 a month flat rate plus additional resource charges.
+
+It's important to evaluate each resource for its correctness in your solution.  Unfortunately there are some Azure resources that have a high entry bar price; it makes it challenging to learn about them."
+AZURE,fenhpnb,t1_fen5p72,1579284928.0,"If the request with the 400 response is initiated by iframe, could be a CORS issue...  I'm not sure why it'd act like that"
+AZURE,felyl0u,t3_eppggt,1579234258.0,"https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile#add-traffic-manager-endpoints
+
+Wouldn't the storage static website URL be configured as the failoverEndpoint in the profile?"
+hockey,feix1cm,t1_feguug2,1579149554.0,HISTORIC!  And I'll take it!
+CrohnsDisease,fe6otkt,t1_fe6k27h,1578898578.0,Im 41 and there thought of asking with this scares me
+BackYardChickens,fdyceiq,t3_enac8c,1578778287.0,Don't skip egg day
+changemyview,fdplk8h,t1_fdo2748,1578632017.0,"If the category was ""sounds like"", Ken's answe is right... but the category does not indicate homonyms
+
+Edit... clarifying"
+greatdanes,fdlwbo8,t3_elxy54,1578534059.0,Is that a trampoline?  That is a cool picture
+dotnet,fdfsuq5,t3_el3yub,1578369357.0,"Simple explanation  many details can be applied at your leisure.  If you're doing User, Business logic, data layering, this fits... onion and other architectures may be a more complicated explanation. 
+
+The entity objects are a direct (or view) representation of the database.  The dbcontext is the tracking mechanism for changes to the database.
+
+On top of the dbcontext would go the business logic layer, so from a user, business, data perspective, the dbcontext and entities handle all the DAL.  You could compose different data sources in the BLL or the DAL... that is up to you.  For your sanity, though... do not bring entities up into the User layer."
+CrohnsDisease,fdfjanm,t1_fdeycky,1578363023.0,Easily tested by sharting yourself on the first date... go boldly my friend!
+dotnet,fd3vxx0,t3_ejkn85,1578162118.0,"Your follow up question regarding Web Profile User info being stored in Business Entity data...  this is a VERY tricky setup... I worked on an ecommerce platform that had many front ends with many profile systems (including OAuth patterns with 3rd party Identity Providers).  No matter what you do hear, there will be failure possibilities...  in the current GDPR world, you also need to separate the user identifier from the user's personal information.  Take an AAD User as example... there is a UPN, usually an email which disqualifies it as an identifier that you could store on an object if you are going to have any supportable data sharing agreements with 3rd parties (e.g. sending order info to a Fraid Risk Profiling system).  Back with Passport RPS, it had a PUID which is essentially a user id hash (irreversible identifier). 
+
+I think making the user id field in the business system a string field, define an interface or a delegate to generate the ID from the user tier.  You mat want to keep a mapping of the UserId to the method that generated it so that you can know what algorithm was used to generate the id.  Obvious disclaimers for per user salt in hash, etc..."
+greatdanes,fcytj8p,t1_fcyrx1w,1578086763.0,"I'll look them up, ty"
+dotnet,fcufiyg,t1_fctlkyp,1577979725.0,"Your JWT is authentication material to the web server... if the server is using a profile system of its own, then it will look up the user during the authentication phase of the response.   After your token is validated and user is captured as the HttpContext.User, then all that will be left to do is to get the UserId onto the mapped Locations entity object...  in aspnet core, there is an interface,  IHttpContextAccessor. This interface can be resolved (if it is registered) from the ServiceCollection... here is a link about registering the service so that you can resolve it... https://stackoverflow.com/a/38186047
+
+To move forward you have two choices...  you can add a line to your controller method such that after the Map call (translation of LocationsCreateDto to Locations entity) to set the UserId before you save or you can get that logic to run inside the AutoMapper mapping function."
+hockey,fctjq0n,t1_fcs2iky,1577945700.0,"No, that's just Getzlaf's receding hairling lightening the load on those shoulders... but yah, I'm happy I don't have to watch Perry as much now.  As stated on other thread...
+
+Fuck Corey Perry"
+dotnet,fctje3i,t3_eit69o,1577945340.0,"You say Location has FOREIGN KEY UserId (or something like that) on ASPNetUsers table, right?  You take a POST model, pass it through AutoMapper, put it in the repo, then SaveAll... have you validated that LocationCreateDTO UserId is a valid id in your Users table?  I see nothing in the MapperProfile that is taking anything from current user or anything    you don't state what you POSTed using Postman... I bet you did not pass UserId in your POST."
+AZURE,fcs2xeb,t1_fcqtwp9,1577910685.0,"Be aware that durable functions can have retry logic .. so if you have an exception somewhere inside the activity function (i.e. when a durable function calls another function), the durable function can continue to retry until it succeeds...  just be aware that you may ask for expensive SQL processing function to be called, then have some transient error marshaling the result, depending how your functions are setup, you could end up running that SQL query a bunch before it succeeds.
+
+https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-error-handling"
+AZURE,fcs1vtp,t1_fcqg8kp,1577910166.0,"Simple schedule... Timer Trigger on a function
+
+Event driven... bind to file or queue or blob or table...
+
+Composite/conditional logic... LogicApp makes HTTP Trigger call OR durable function with logic to decide scheduling/invocation"
+hockey,fcs1g6i,t1_fcrzkdc,1577909952.0,"Agreeing with a sharks fan...
+
+Fuck Corey Perry"
+dotnet,fcohvxt,t1_fcn2sbp,1577832616.0,Expressions are fun...
+BackYardChickens,fca2n6b,t1_fc8jf20,1577562159.0,"Bear eating a kayak is very much like seeing a person attacking a bush... you're not sure what they think they're gonna get, but you definitely keep your distance"
+BackYardChickens,fc7fj43,t1_fc6lt0o,1577505895.0,"I have a Reolink and it does 2 way audio... i think it was about $100 with the solar panel kit.  The audio out of the camera is pretty weak, but it doesn't take much to spook a wild animal"
+aww,fc74k4v,t3_egfj19,1577497351.0,"It's things like this that human's should be doing... let the robots dig, manufacture, and toil... let the humans excercise love, compassion, and communion with our fellow species.
+
+My initial knee jerk thought was, ""how much would that therapy cost and does it even make sense?""  I LOVE my dogs and would do this for them, but I don't think I would pay someone to do this for them... I don't think I could justify the cost (against student loans, home, supporting family, etc).  When the fuck can we do what we love as opposed to what fills the belly?"
+hockey,fc4tl7n,t1_fc4q5e1,1577427915.0,That's some advanced analytics right there
+technology,fc1i7bl,t1_fc1675m,1577319531.0,"I did not intend to come off as opposed to your point...i think you were right... just putting some extra flavor on the conversation... i appreciate this reply, as well... your statements demonstrate an objective point of view that appreciates when abstraction is appropriate."
+technology,fc0xps6,t1_fc0r0fs,1577302503.0,"I think it's important to remember where in the stack you are... i can write seriously cool thread pools to limit max degree of parallelism, but if I'm in c#, I'll just implement a synchronization context and then just let the rest of my team use async/await without thinking about the low level... this abstraction is a useful pattern for being able to do more than just shifting memory in and out of registers, but building big software solutions.  Something most low level software engineers forget is that the API surface you expose is your application and that will be consumed by a larger system."

@@ -1,0 +1,9 @@
+subreddit,self ID,parent ID,time,text
+arduino,ffgugvw,t3_etcij6,1579915365.0,"Do you have a capacitor across the power lead? Those power supplies will start up with a high voltage pulse that can damage components. I have had the protection capacitor explode due to the startup pulse before when the voltage rating on the cap wasn't high enough to cover the spike. 
+
+Otherwise, set all the LEDs to one color to ensure they are working. Use the most simple code possible. Then troubleshoot your code once you know the strip is connected correctly."
+IdiotsInCars,ffgim09,t1_fffj5tv,1579907077.0,It's actually Indian Bend. The fact that the reservation is less than a mile away may have something to do with the names.
+GolfGTI,ff870mn,t1_ff85pz7,1579667798.0,"The MDI interface won't supply the current required to charge because it isn't designed to provide that function. You would have to add an interposer to transmit the data between the USB and MDI interfaces while transparently injecting 5V at about 1 amp or more into the USB power lanes. I think it could be done, but you would need to find out if you can get the functionality you are looking for from just the MDI adapter. Once you know the data transfer works the way you want it, you know if it is worth doing the interposer. I think the design would be simple, two USB ports and some diodes to control current direction, with an external power source, which could be a USB phone charger. 
+
+I could be wrong; this is what I think would be needed based on my limited knowledge of the systems involved."
+GolfGTI,ff82y29,t3_es68vd,1579664592.0,I know there is an adapter to give you the USB port. I assume you could use that. Are you looking for a specific location or function?

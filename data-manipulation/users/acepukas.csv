@@ -1,0 +1,76 @@
+subreddit,self ID,parent ID,time,text
+AskReddit,ffxrn18,t1_ffxjb40,1580331065.0,"> True but I'm some cases...
+
+Right. Which is why I said
+
+>...but that doesn't mean that being victimized absolves the victim of some/any responsibility **in all cases**."
+AskReddit,ffxjkux,t1_ffxdul5,1580326443.0,How would that not open a business up to abuse? I don't get it. Is it that people looking to defraud a business are comparatively low compared to the overall customer base?
+AskReddit,ffxiesq,t1_ffx1j2b,1580325769.0,"Honestly the ""If you run into assholes all day then maybe you are the asshole."" expression is ridiculous. There are *a lot* of toxic people out there. Every workplace I've ever worked has had a toxic environment and not just towards me. Everyone is always at everyone's throat. Everyone is jockeying for power, looking for easy targets. It's pervasive. Every time someone trots out the ""...maybe you are the asshole"" saying I think ""Do you every leave the house?"""
+AskReddit,ffxhlnl,t1_ffxct62,1580325313.0,"I've gotten into a few arguments about this on reddit. Their reasoning is literally just ""but that's victim blaming!""
+
+Very frustrating. Victim blaming absolutely does happen but that doesn't mean that being victimized absolves the victim of some/any responsibility in all cases. It all comes down to circumstance which means every situation is unique and should be dealt with accordingly."
+AdviceAnimals,ffusudj,t1_ffudwgd,1580248699.0,"You're completely ignoring accumulative effects. In the long run, the corruption will eventually bring us all down. Short term, sure, someone's selfish genes allowed them to ""get ahead"" in terms of their immediate environment. As far as evolution is concerned it may *seem* like a win but if the entire species (not to mention the many others) eventually parishes as a result of so many ""winning"" in the short term, than it's really a huge loss in the end.
+
+The sad thing is humans have the foresight (or at least the capacity for it) to avoid this end but we are clearly not working towards that now."
+Cyberpunk,ffnsztk,t1_ffnagna,1580070393.0,Hey! It's only garbage if you don't have rock bottom standards!
+interestingasfuck,fflu093,t1_fflsrv1,1580044198.0,That's why you're supposed to replace the mask every three hours.
+boomershumor,ffixypx,t3_etrzua,1579985458.0,"So... you see this comic and think ""this is how the author 'views' women""?
+
+It's a joke not diatribe about the current state of society. It's not a particularly *funny* joke but that doesn't mean it wasn't a joke. Damn."
+MurderedByWords,ff975ml,t1_ff8s3w6,1579706422.0,"Why are people fawning over this comment? I don't get it. You're suggesting that advertising (capitalism) simply appeals to a persons disposition while somehow not influencing said person. If an advertisement uses a harmful stereotype to promote a product, it is also promoting that harmful stereotype. The more people see it and are influenced by it, the more they assume it's a reflection of reality.
+
+If you honestly think that the average person is resilient enough to fend off the negative influence that comes from advertising/media then you are mistaken."
+golang,ff3a4fo,t3_er8klk,1579537208.0,Nice. This sub definitely helped when I was just getting started with GO. Looking forward to seeing the community grow and grow.
+NatureIsFuckingLit,fetrdfd,t3_eqkhua,1579378856.0,I miss winters like this. We had a huge snow storm years back in southern Ontario. Must be over 20 years ago now. We had to literally tunnel out of our driveway. Fun sledding though.
+rareinsults,fenuhlq,t3_eq20qc,1579290965.0,Someone posted a picture of her to one of the botched surgery subs and I wanted to say she looks like Kill Face from Frisky Dingo but the thread was already locked.
+worldnews,fen90ma,t1_fen7fal,1579279600.0,That *does* sound perfect... and delicious.
+scifi,femsaj5,t1_femlr0k,1579268177.0,"I literally bought the WG Alien 3 series (as a single book) yesterday and read it and I was a little let down. It wasn't terrible but I expected more. Oh well, I'm a sucker for the Alien franchise and a Gibson fan so it was a total impulse buy."
+worldnews,femlu1y,t1_femk43r,1579261820.0,"What even *is* a ""perfect"" call?"
+worldnews,fe28z16,t1_fe27qvy,1578835788.0,Oh my. That makes me relieved AND worried. What a joke.
+YouShouldKnow,fdqxqh4,t1_fdqwgj0,1578676324.0,"Honestly, people are so fickle that it seems like an absolute chore to try to get on people's good side, which is why I don't bother most of the time. ""Oh, you don't share 100% of the same interests as me. Sorry, I think I hear my dog calling me...""
+
+If they won't put any effort in after I've made an attempt to socialize with them, than it's a lost cause. Of course then people take my indifference as ""wow that guy's a jerk"". So yeah, back to square one. Seems like that's just the way it's gotta be."
+YouShouldKnow,fdqvbpt,t1_fdqdozn,1578675399.0,"Couldn't agree more. There are some stupefyingly ignorant comments in this thread like ""Even if you don't mean to come off as a jerk you're still being a jerk! Fix yourself!"".
+
+So annoying. Not a shred of understanding. Like, if it was easy for me to be the type of person that everyone instantly takes a liking to, I think I would have done it by now."
+YouShouldKnow,fdqu7gv,t1_fdq9a5z,1578674967.0,"God this pisses me off. We shouldn't have to adjust for them because they are paranoid and insecure, thinking people who aren't saying something 24/7 are somehow judging them. As far as I'm concerned it's their behavior that's unhealthy. I'd like people to like me but if I have to jump through 50 hoops just to make them feel comfortable than they're just too damn tedious for my tastes and I'm better off without their approval."
+worldnews,fdpnhmu,t1_fdpn2k8,1578633728.0,So... Climate Change?
+worldnews,fdpf5vl,t1_fdpdpz9,1578627038.0,"From the article:
+
+> ""It was determined that there was no criminal activity and no fraudulent transactions,"" the spokesperson said.
+
+The spokesperson for the VPD said that. So how is my comment wrong exactly?"
+golang,fdpawa1,t1_fdp0m5l,1578624076.0,"What I've done when I don't want to go through the trouble of setting up a github repo for a local module (but intend to eventually) is something like the following in my go.mod file:
+
+    module github.com/user/whatever
+
+    go 1.13
+
+    require (
+        ...
+        github.com/user/morestrings v0.0.0
+        ...
+    )
+
+    replace github.com/user/morestrings => ../morestrings
+
+This is like an alias so in your code you'd have
+
+    package main
+
+    import (
+        ""fmt""
+
+        ""github.com/user/morestrings""
+    )
+
+    ...
+
+That would point to where you placed your module locally. Adjust the path to the local module accordingly.
+
+When you're ready to publish your module, just remove the replace statement, and probably the require line too and just let go reimport the published version."
+worldnews,fdp7u3l,t1_fdp05pj,1578622030.0,"Did *you* not read the part of the article where the police determined that no fraud took place? Seems strange that the bank saw ""fraud"" and the police didn't, don't you think?"
+AskReddit,fdiijcm,t1_fdiets6,1578443694.0,"Every woman in my family gets defensive when there's a possibility that they might be wrong about something. That's also personal experience but it's true. In my experience women are much more stubborn and insecure about being proven wrong than men. I've met plenty of men that are stubborn like that though. Point is, our personal experiences don't really mean shit in the grand scheme of things."
+worldnews,fdgu4bh,t1_fdgl12s,1578408371.0,"Your comment reminds me of when a reporter accused Elon Musk of making Mars into an ""escape hatch for the rich"". This exoplanet is so far out of reach it's not funny and staying right here on Earth and making it a better place is a far easier and more practical solution to our problems than any other option. The 1% ain't goin' anywhere. Trust me."
+comedyheaven,fcuw9y4,t1_fcuqn53,1577989822.0,"Wait, I just have to get my character up to level 8 and then I get *real* magic spells? You DnD guys have been holding out on me!"
+MurderedByWords,fc6nzea,t1_fc6a4ms,1577485129.0,"As long as the bears were high fiveing each other, then I'm O.K. with the mauling."

@@ -1,0 +1,102 @@
+subreddit,self ID,parent ID,time,text
+HolUp,ffpxq4d,t3_eujmye,1580109986.0,Apply cold water to burnt area
+maybemaybemaybe,ffpsfue,t1_ffpqbgn,1580104030.0,*got on fire
+gifs,ffnem1p,t1_ffndjfk,1580064953.0,He’s the bomb
+interestingasfuck,ffmpcxo,t3_eu8e45,1580057503.0,"This warms my heart, good luck to you both!"
+todayilearned,fflxxzi,t3_eu5wt2,1580045525.0,No shit
+comics,ffinxxv,t1_ffifjbj,1579978416.0,"Tell me what’s so wrong about calling it dark? Why does it trigger you? Maybe it’s you who need help. Stay strong, buddy."
+comics,ffiern8,t1_fficy33,1579972132.0,"Dude, you couldn’t take a simple compliment and went on insulting me. You won’t have a lot of fans with this attitude."
+mildlyinteresting,fficd90,t3_etrwwm,1579970507.0,Your shit is hot
+comics,ffhkfue,t1_ffhjahd,1579939387.0,"Uhm, why are you offended? Wanna talk about it?
+
+FWIW the implication of your joke is that either
+
+a) this particular mime has serious mental issues thinking their “dog” is real. That is a horrid thing. Mental issues are _no joke_.
+
+b) everyone else has a _blind spot_ to the fact that invisible dogs of mimes do actually exist; consequently this mime will get no support whatsoever and face only ridicule while searching for his dog, likely ending up in a mental institution, even though they are the only one bearing the real truth. Quite a horrid situation, I’d say.
+
+Hope this explains why I thought your joke was a bit dark. I still think it’s funny and you should do more. I apologize if my compliments above were not of the quality you would have expected."
+comics,ffhivzq,t1_ffgp5iy,1579937277.0,"You know those do not actually exist, right?"
+AskReddit,ffg7uqa,t3_etfl5h,1579900344.0,"“Stand back in the line, sir.”"
+comics,fffxtf4,t3_etecv4,1579894151.0,"I like it. Dark, but funny. Keep them coming. And please don’t explain it next time."
+Wellthatsucks,ffefgue,t3_et4z0x,1579845994.0,r/accidentalrenaissance ?
+ProgrammerHumor,ffa1szi,t3_esg6mg,1579726172.0,Both are beautiful in their own ways
+WTF,ff9y0x7,t1_ff9uyg5,1579723958.0,Yet
+softwaregore,ff9134t,t1_ff900t5,1579702180.0,"Yeah you take the wrong in the morning and boom, you got yourself a commute through half of the globe. It happens all the time."
+funny,ff5gd5j,t3_erqhzo,1579591674.0,MTV too
+WTF,ff42zpb,t1_ff40j2x,1579554421.0,"They might be right but then again, neither is water."
+tifu,fezhab5,t1_fez9npf,1579457341.0,Oof
+DiWHY,feza0wi,t3_eqyhua,1579455198.0,So where’s the ramen?
+ProgrammerHumor,feyl6pp,t3_eqwbli,1579447061.0,Tell me this is fake. Can’t be real.
+Showerthoughts,feyh4he,t3_eqwk3d,1579445476.0,That took a dark turn
+maybemaybemaybe,fex23qz,t1_fewzfri,1579423064.0,"And the guy behind taking off his hat or whatever, like “oh he’s dead,”"
+WTF,fev3muh,t3_eqntsc,1579392718.0,The answer to all of those is alcohol.
+Wellthatsucks,fetf68v,t3_eqjcp9,1579374826.0,Retired for good
+WinStupidPrizes,fet95og,t1_fet1m19,1579372894.0,160kph is leasure pace on the Autobahn. Would not do it on a country road though that’s just stupid.
+Damnthatsinteresting,fer66br,t1_fer5gla,1579350366.0,Because Soviet Russia
+funny,fer325p,t1_fer1662,1579349154.0,The pooh
+HolUp,feqymb5,t3_eqetpu,1579347551.0,“Just like everyone else”
+funny,fepyf3t,t3_eqd8f5,1579334595.0,That’s not how any of it works
+AskReddit,fepxnsw,t3_eqcxsx,1579334215.0,Clockwork Orange
+maybemaybemaybe,feo75mc,t3_eq5wbw,1579296008.0,This cries for a soundtrack
+shittyprogramming,fejjvlf,t1_fejel13,1579177282.0,Welcome to the world of software engineering - writing the code itself is rarely the bottleneck. And there’s no easy proof that your solution will prevent more issues than it causes. Sure it fixes this one type of bug.
+shittyprogramming,fejb1kb,t1_fej7tiv,1579164969.0,"“Rejected - Your code does not conform to our coding guidelines. Please refactor it to make it more understandable. Add tests and documentation.  I don’t see the Payments department  review, please add a reference to the relevant design docs as well.“"
+shittyprogramming,fejaqkz,t1_fej7wca,1579164529.0,And tests. And documentation. And bugs. And maintenance. And opportunity cost (is this really the best use of the dev team’s time?) Production software is much more than just source code.
+shittyprogramming,fej7a02,t1_fej6eez,1579159869.0,"Fair point although TLS itself does not rely on system time (Certificate validation does, somewhat). 
+
+Anyway, I’m not saying this or that is the right way but there’s much more to it than just “hey I can implement this in 2 lines of code!” and arguments can be made for the fixed list being - in this particular case - a preferable solution."
+shittyprogramming,fej5lra,t1_fej38iy,1579157821.0,"Are you going to take device time or server time for that? The latter is a lot more complex the former is unreliable.  Sure 99.99% of the time it works but then if you have a million users there still be hundreds having a problem of say their device be at epoch for example. Times the time and effort of the support personell. Oh and of course now you have a new dependency and at the bare minimum a guide for the support folks to check device time if something like this happens. Contrast this with the 5 minute effort of 1 developer per year required to maintain the fixed list.
+
+Edit: see my comments below. The point I’m trying to make (without saying which solution is “better”) is that there’s a _lot_ more to this then just “hey it’s easy I can implement it in 2 lines of code!”."
+shittyprogramming,fej0kqh,t1_fej05yv,1579152630.0,"Ux. You don’t want to have an arbitrary long list there. Someone probably told the dev that card companies issue card for a maximum of x years, say 10. It was likely even true. It got implemented with a fixed list in the UI. Couple years passed but noone updated the list. There’s probably a low prio ticket sitting somewhere in the queue that says it needs to be updated at some point, but there were always more important things to do."
+Unexpected,fej07vt,t1_fej00gr,1579152300.0,"First, hydraulics. Second, no idea."
+oddlysatisfying,fej01t0,t1_feixlr2,1579152143.0,Would you say it was like magic?
+AskReddit,feg3l5h,t1_feg354u,1579075387.0,Same
+AskReddit,feg3ko5,t1_feg2yk1,1579075370.0,Finally someone notices me!
+meme,fefw1r0,t3_eoxdur,1579067055.0,This
+gifs,fefvwti,t1_fef6zwl,1579066923.0,Think harder
+maybemaybemaybe,feenf2y,t3_eoqyle,1579037283.0,"Excuse me, what the actual fuck"
+oddlysatisfying,feen195,t3_eorbz1,1579037065.0,What happened to the guy???
+gifs,feemauh,t1_feel4tc,1579036640.0,Think
+shockwaveporn,feegxq4,t3_eopx2r,1579033532.0,That’s a big boom.
+Damnthatsinteresting,fee6v7i,t3_eoo9k0,1579027621.0,I’m pretty sure that’s a horse
+AskReddit,fecot3s,t1_fecnxr7,1578979401.0,“Say”
+BetterEveryLoop,fe0sraz,t3_enk4ns,1578818209.0,"Welcome to 2020, my friend! Where have you been hiding this past decade?"
+facepalm,fe0r52c,t1_fe045bp,1578817708.0,r/dontputyourdickinthat
+meme,fe0mc3m,t3_enjzg7,1578816003.0,"Oh, well, thanks!"
+AskReddit,fe0m6sq,t3_enke37,1578815929.0,All of them
+Wellthatsucks,fdxmlax,t3_enakem,1578770605.0,Well done
+pics,fducn83,t3_en45g6,1578731235.0,Congrats! That will feed the family for weeks!
+mildlyinteresting,fducb0d,t3_en4jev,1578731091.0,I wonder what kind of chickens all you guys have I’m eating egg for 40+years and never encountered a double yolk so far.
+facepalm,fdpnnoy,t1_fdpa3m6,1578633883.0,"Well, yes, but actually, no."
+WTF,fdoete7,t3_emew3w,1578603775.0,"Just a little clog in the shitter, happens all the time. Stanley will fix it in no time."
+facepalm,fdoeky2,t1_fdo98yl,1578603662.0,Love octodecember :) made me think - would be super unfortunate to have a Friday 13th in unodecember.
+AskOuija,fdmwg3j,t3_em7yng,1578568957.0,Goodbye
+NoStupidQuestions,fdl2xs5,t1_fdl0l2k,1578516153.0,r/yesstupidquestions
+AskReddit,fdg4mxz,t1_fdf5h0c,1578379844.0,Win-win
+AskReddit,fdefd3t,t3_ekx7gi,1578337811.0, Cause I’m black? (I’m not - this will throw them off)
+3Dprinting,fcufbea,t3_eiyryy,1577979580.0,"Great ~~print~~ story, cheers bro :)
+
+Edit: formatting"
+gifs,fctzcac,t3_eiwop9,1577966915.0,I feel that either the boat or the wave was not supposed to be there
+AskMen,fcqww1b,t3_eij5mq,1577893448.0,It’s been 5 years and counting
+Unexpected,fcq566w,t1_fcq4lyw,1577878944.0,You can make cheap silverware out of them
+AskReddit,fcq4p2w,t3_eigxyo,1577878646.0,Before what?
+funny,fcmxmn1,t3_ei1xf0,1577796728.0,So she killed Curiosity?
+Showerthoughts,fcmlfdq,t1_fcmkbd8,1577780200.0,"Well, reptiles do eat their skin, so... I’m thinking it would be valued based on aesthetics, probably? Small pieces of shed would not worth much but a nice whole leg or arm would worth quite a bit. Whole body sheds would probably be museum worthy pieces."
+Showerthoughts,fcmjina,t3_ehyxkr,1577777830.0,"It would also be a delicacy and poor people would make some pennies on selling their sheds.
+
+Edit: spelling"
+AskOuija,fckvich,t3_ehpj6i,1577734090.0,2
+notinteresting,fckvg7h,t3_ehq0y4,1577734054.0,For most practical purposes it is though.
+Damnthatsinteresting,fckef07,t1_fcke66f,1577723476.0,"Funny, Epstein asked the same thing."
+whatisthisthing,fckebwl,t3_ehna8m,1577723420.0,Maybe a poop knife of sorts?
+Damnthatsinteresting,fckdu5h,t3_ehnfry,1577723100.0,"Fake, you will most definitely not want to make a fire in a closed space like that."
+WhitePeopleTwitter,fcjn8ut,t1_fcij6xw,1577694903.0,Solved!
+funny,fcdosk2,t3_eh3g6o,1577612088.0,Jerks
+AbsoluteUnits,fcd7i5q,t3_eh2uqe,1577607318.0,That’s.... grate.
+AskMen,fcd465v,t3_eh2n36,1577606135.0,Embrace it
+ProgrammerHumor,fca75w1,t3_egtuga,1577564062.0,That’s arbitrary precision math for you
+guitarporn,fc9j3f8,t3_egs9xv,1577553405.0,"I just found Dunlop Flow 2.0s and fell in love with them, they’re absolutely fantastic."
+OldSchoolCool,fc8otd8,t3_egqffs,1577539245.0,"With a camera, I suppose"
+funny,fc4qxaq,t1_fc4nrpg,1577425177.0,I came too

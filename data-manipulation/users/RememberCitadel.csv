@@ -1,0 +1,132 @@
+subreddit,self ID,parent ID,time,text
+liberalgunowners,ffjgrsl,t1_fficafn,1579997910.0,"Why would there be 5 guys? Could be plenty of reasons.  
+
+They drove around the neighborhood and saw that giant tv box you put out on trash day,  or one of them saw you take out a bunch of cash at the bank, or that neighbor you got in a fight with told some shady guys as revenge you keep lots of cash around, or guys of questionable character saw your wife in public, thought she looked good and followed her home.
+
+The possibilities are endless.  Bad things can happen in any neighborhood because bad people dont tend to just stay in bad ones.  The phrase ""these things never happen here"" gets reported on the news and its little consolation for the people it happened to, assuming they still exist."
+networking,ffgmcwt,t1_ffg052h,1579909582.0,What licensing do you have on it?  With the right licensing it can do multiple gigs of throughput.
+networking,ffgk7r4,t1_ffgjq0i,1579908135.0,"Not sure.  I had several similar tickets.  Eventually they called to renew support, and I asked what support.
+
+Recycled all their products shortly after."
+networking,fffyi9q,t1_fffrxi9,1579894582.0,"Back when i used to deal with Lifesize just after Logitech bought them I had am amazing support experience.
+
+I put in a ticket, then called back requesting updates about twice a day for a week.  Finally got a response to my ticket exactly 6 months later saying the tech responsible for the ticket had quit, so they were closing it."
+networking,fffoc89,t3_et80ru,1579888266.0,"We have a bunch of them, we use them as cores for various sites.   They are great.  We run them in pairs with HSRP. They have a bundle going that includes two of them with a hand full of 40Gbps BiDi optics
+
+N9K-C93180YCEXB18Q 
+
+Lists for about 60k but you should be able to get it for at minimum half off."
+Ultralight,ffdjp3s,t1_ffc929x,1579822314.0,"I feel like I am the weird one who gets hot in a 20 degree bag in single digits.  I sleep very hot though.  In anything 50 or above, I am happy with the sleeping bag open and just a sheet or something over me.  70 and above I dont even want the sheet."
+OutreachHPG,ffd3zbk,t1_ffcwm15,1579812968.0,"Basically anything that existed in any lore is in it.  And you can select what you want.  Do you want protomechs? Heavy artillery and nuke carriers?  Crazy pirate shit that might explode when fired, or do heavy damage if it works?  Also switchable ammo, all sorts of engine types, structure, and cockpit mods.  
+
+Also superheavy mechs as rare bosses, and new flashpoints."
+SpaceHaven,ffcj317,t3_ess7sp,1579800536.0,"Its a great game.  A bit light on the long term content at the moment, but everytime I get bored they drop a new patch that adds more.  
+
+Overall the actual game itself is also pretty stable, with only minor bugs that get patched pretty quickly."
+Cisco,ff6jrkv,t1_ff6frcr,1579628691.0,"I believe version 3.0 is when it takes effect.  Trying to find my notes from live on that.  Of course there is time for them to backtrack on it too.
+
+According to cisco community it was supposed to be patch 2.4 but apparently got pulled based on community backlash."
+Cisco,ff6bmbd,t1_ff67m76,1579623637.0,"Yeah, it is supposed to be our authentication server for everything but apps( they use ADFS).  If I have to light up any other server to make it do what I want, then why wouldnt I just go with that product and eliminate a costly license?  
+
+My other annoyance with ISE has always been cost, and licensing bait and switch.
+
+They originally were pretty expensive for the first few versions, but decent.  Later on with the new licensing model they have gone up significantly in cost.  Also annoyed that we bought an unlimited device license for using TACACS+ which Cisco then decided translated to a 50 device license in the new version.     The PAK literally says unlimited device license.  50 is a limit if I am not mistaken."
+guns,ff59ilx,t1_ff4ru9i,1579584307.0,"And variant.  I have a Mark II that will eventually gum up and the slide will fail to fully go back.  Like you I also have a Mark IV that goes longer shot for shot with the same ammo.  Then again, my Mark II has probably 30k rounds through it more than the IV, so wear is probably a factor."
+Cisco,ff59bi4,t1_ff4u7uo,1579584126.0,"I have worked with both, and in it we know there are plenty of ways of doing things, some better and some not thr most ideal.  I find whenever i am trying to do something with ISE that is not exactly how cisco envisioned things, that I run into issues.  Usually I will have some ideal way I would like to do things, and end up falling back to a more hacked alternate way because the thing I want to do is not supported the way I want to do it.  
+
+My biggest annoyance so far is that PEAP over LDAP is not supported.  I try the same things on Clearpass, and suprise they work the way I want.  If Cisco ends up supporting it, it is generally years later after Clearpass already added it.  PEAP support over LDAP for instance has been supported there for years, where Cisco has equally old entries on the forums of people asking for it.  
+
+In our case we have a network of other entities that all allow each other authenticated guest access, since our staff all go back and forth, and those networks share some resources normal guest access doesnt.  Printers, file access, things like that.  So it is very important for us to have secure ways of access, with preferably the same ssid for ease of use.  Likewise it is very important whatever we use is encrypted, but segregated, so some methods are less ideal.  We always have a much easier time setting it up when I see them running Clearpass vs. ISE.  Sometimes days of extra work and TAC cases."
+guns,ff4q89n,t1_ff4o91n,1579569820.0,"Well yeah, the cycling issues are my main problem.  After around 500 rounds or so my Papoose will start having issues extracting, or the firing pin channel will get gummed up causing light strikes, but that happens usually much higher in the round count."
+Cisco,ff4j51b,t1_ff4i4rg,1579564858.0,"I guess that is true to an extent, however they generally take the cake for this specific product.  
+
+Then again, I have also never had a rep so upset about me not purchasing a product either, so there is likely a fire under their ass about the whole thing."
+guns,ff4iqso,t1_ff4h9j0,1579564588.0,"I am still very on the fence about it.  On one hand, it should be done to preserve it, but on the other hand, it is a several generation family heirloom.  Then again, I am trying to figure out a way to hollow out the wooden butt so that I can store stuff in it/reduce weight."
+Cisco,ff4hq9y,t1_ff42b4m,1579563897.0,"The time to commit thing is very misleading.  The general time to commit using Panorama in our production environment is always less than 60 seconds, where our FTD demo box which isn't even doing anything heavy is ~5 minutes.
+
+Cisco also has a particular way of promising every next patch is going to fix everything under the sun, all the while actually fixing only 1 or two issues correctly and introducing a whole pile more issues.  At least when it comes to Firepower and to an extent ISE.
+
+But that being said, I would second Fortigate if Palo isn't an option."
+guns,ff4gk4f,t1_ff4g69x,1579563086.0,"I just did a deep clean on my marlin papoose, and there was like a 1/4th inch thick layer of that crud on it.  I threw the whole action in a tub of solvent to soak, and I still had to scrape it off with picks.  
+
+It being my favorite rifle by far, I am almost tempted to cerakote it just so it is easier next time."
+Cisco,ff4fcr2,t1_ff3svbc,1579562269.0,"ISE is great, and does many things from an authentication standpoint.  We even have it tied into our Palos to forward wireless auth to them for filtering for devices that do not forward NTLM data correctly (cough MacOS, iOS)  
+
+On the other hand, Clearpass is a better product.  If we were not a 99% Cisco shop, we would likely be running it."
+OutreachHPG,ff4bqrk,t1_ff44v8h,1579559889.0,"I think the biggest thing for me is that it made light mechs useful again.  And with the expanded lance options, I can run a steiner scout lance and a decent light mech for spotting and harassment.
+
+Nothing like using a spotter to narc and tag a big guy, and then smack him in the face with a few 100 damage arrow IV missiles, maybe a bunch of ATMs too."
+OutreachHPG,ff43dzc,t1_ff3wwq2,1579554665.0,"That's why I could never go back from roguetech.  Give it a smaller engine and a massive ballistic like heavy gauss paired with a massive energy, would make a decent mech.  
+
+Or you could add in alk the other ostech gear to make a super punch bot."
+guns,ff4299z,t1_ff3o48e,1579553966.0,Also anything that fires .22. Those thing can become caked with a clay made out of lead and gunpowder remains.
+networking,fezqf3a,t1_fexu0d0,1579460345.0,"I would second layer 3 at this point, it is the easiest when running a bunch of different vendors.  Give each port pair between switches a /30 and run all switches and hypervisors  in a single ospf area.  Pretty much all layer 3 switches and virtual switches support ospf."
+X3TC,feuiqrn,t1_feti5m1,1579386864.0,The Lenovo gaming series are actually really nice.
+X3TC,feui222,t1_fetdcw9,1579386730.0,"As a person who had this and the non 2 in 1, do not buy the 2 in 1.  Buy the regular laptop. I have worked with dell computers for 20 years, and their damn touchscreens and hinging mechenisms are unreliable.  Always have been.  We have about 10 of the 15 inch ones too and half the damn lot had something wrong that broke on them within the year.  Particularly the detector that sensed when you are in tablet mode.  Randomly turning off the keyboard and touchpad, or the touchscreen going haywire.
+
+I will say that the i7 you can get with them is one of the best mobile processors you can get at the moment, and the machine can handle quite a bit.  The only downside is the lack of a discrete graphics card.  I think you can get an external thunderbolt enclosure for that though.  Otherwise, an amazong laptop.  Great battery life, really nice screen, and a fast ssd.
+
+Edit: some spelling issues."
+Cisco,felpcyc,t1_fel7ebn,1579227678.0,I threw out a box of them a few years back.  Nobody told me they were made of gold...
+X4Foundations,feloo67,t1_fekl9xl,1579227208.0,"I always liked the highway system from freelancer.  Branching paths that took you all over, with some important places at the intersections, amd some off the beaten path.
+
+This system is merely ok.  One big loop really doesnt make you feel like you are actually exploring anything.  When you actually are exploring it is slow and plodding and take the fun out of it.  
+
+In X3, you felt the thrill of exploration when you found and entered a new gate.  Suddenly you were in a new land giving you an install feeling of exploration, followed by a more gradual one when you actually explored the system.  
+
+In X4 it's like, well, there looks like there is something cool over there, so I'm going to hop in this ring for awhile, then slowly fly out to it.  Although, im not really all that excited, because I can already see most of it from here.
+
+The best part of the old system was the anticipation and nervousness of going through that gate, having no idea what is on the other side.  Will it be a unique planet with a perfect asteroid field for a base, or will it be swarming with xenon."
+networking,fego55i,t3_ep0ma4,1579098493.0,"Cradlepoint makes great products.  They have two ethernet ports on the better models, which can both be access ports or one cab be a wan port for fallback,or the primary.  They also have wireless, and all the normal functions of a router."
+AndroidGaming,fefu2y8,t1_fef9vi2,1579065229.0,A little more pain in the ass on mobile.
+news,feexter,t1_feei1k6,1579043564.0,[Like this?](https://jurassicsystems.com/)
+AndroidGaming,febp7hu,t3_eo4zxc,1578961242.0,"I voted, but I really wish that list was alphabetical.  Hard to find the games I was looking for."
+networking,fe5wnf1,t1_fe5t343,1578876603.0,You would think that but the places I have seen it were by people admittedly doing it to try to save money on heating.
+networking,fe5wisj,t1_fe4jkq4,1578876521.0,Ive seen it every way you can.  Sometimes flopped up in piles by what I can only assume were annoyed electricians.
+networking,fe4ju2f,t1_fe37d3s,1578860095.0,"The worst part is there isnt much benefit to it.  The point of insulation is to trap layers of air.  The only way it would optimally is if they stapled it to the roof, since drop ceiling already has an insulation rating.  You want that layer of air between two layers of insulation."
+networking,fe2gv55,t1_fe2c9gu,1578838211.0,Until you run into some place where some asshole decided it would be a good idea to add fiberglass insulation resting on top of every tile.
+roguetech,fe0biy9,t1_fdzs6sp,1578808757.0,"The only downsideis, with so much damage, sometimes you ruin the salvage when alk that damage bleeds through into other sections."
+roguetech,fdys9tz,t1_fdv2t1y,1578783046.0,"Drop Masc and Narc, replace with TSM and small heavy lasers.  Add a heat bank too so you get that overheat threshold up.  I dont remember exact numbers but TSM when hot will give +40-50% melee damage and movement.  Maybe even replace the JJs with improved for getting closer faster.  My biggest problem with TSM is always the loss of heat when doing a melee attack, so anything that makes heat during a melee attack like micros and small lasers is good."
+science,fdsbm9w,t1_fdrw0kq,1578698871.0,"Everyone fucks something up at some point in their lives, it is just more important to make sure guns are not one of those things.  
+
+By the time we were 12, we were riding our bikes with rifles on our backs down to the local game lands to go target shoot.  I dont remember when I was taught, I just remember knowing the rules as long as I can remember back."
+PAguns,fdosmk2,t1_fdoea5b,1578611967.0,Righttobear is still shipping too.  A friend told me.
+Firearms,fdn5kn2,t1_fdn1xp0,1578577905.0,"I used an acetylene torch for ours.  Release gas, press torch igniter, boom."
+Android,fdefs0s,t1_fdeb4cb,1578338071.0,"Those are limitations of the bands and standards to be fair, but also greatly depend on the type of wireless card you have, and specifically the number of antenna you have.  
+
+Also, generally note that unless you are the only wireless network in range, with no other sources of interference, with a clear line of sight between the access point and the computer will you actually likely see those speeds anyway, even with the right wireless card."
+Android,fde83k6,t1_fddzmwb,1578333247.0,"They are specifically sold at their packet routing speed.  Which is total traffic that they can route through the processor.  Although depending in how that is given to you, it could be misleading.  Usually it will be throughput listed next to max and minimum packet size.  
+
+On shady companies packaging, they will list max speed with optimal packet size and all other features disabled.  A speed which you are unlikely to achieve in real use.  
+
+Home routers are basically a router and a switch in one, so they list the speed of the limiting component, the router portion.  Usually in the form of a switch with layer three enabled, which explains why its routing speed is the weak point."
+news,fcwg9qd,t1_fcw375n,1578024853.0,True.  This state has been ass backwards on a number of issues for a long time.  I mean it was only a few years ago when they started relaxing the useless blue laws.
+news,fcw0z1p,t1_fcvbjf0,1578014626.0,"Hey now, people other than conservatives hate wolf too.  A man who's plan to fix public education was nothing more than robin hooding all the functional districts to fund the poor districts, making everything worse in the proccess."
+guns,fcugqo0,t1_fcug013,1577980563.0,"Back before I was born, you used to be able to buy an entire house from the sears catalog.  Catalogs in general were just getting replaced with the internet when I was old enough to actually order anything from them."
+guns,fctm0ca,t1_fct8656,1577948345.0,The first few to pop up were mostly prior mail order catalog types like cheaper than dirt and sportsmans guide and cabelas.  Only one of those however didnt turn into a complete price gouging asshat company during the run up to the Obama election.
+guns,fct64gd,t1_fcstrng,1577933866.0,"I also like PSA.  My biggest reason to look elsewhere is sometimes finding less common ammo.  Some places only carry stuff they can move quickly.  Before online ordering, it used to be hell finding 7.62x25 and .30 carbine."
+aww,fct5t96,t1_fcsoz8j,1577933628.0,"One of my cats currently had his love of the outdoors ruined when he got scared of a truck going by, and leaped over one of those little rounded wire garden fences, which tore out a chunk of fur.  He panicked, but my dad hard enough to puncture his hand, and dove through the cat door.  Haven't had him try to escape since. 
+
+It's just as well, since the fight to put on a harness wasn't fun, and there are too many cars not to use it."
+aww,fct5f9a,t1_fct0pqf,1577933341.0,"Yeah, he was a good cat.  When taking a walk in the woods, he used to follow hopping from tree to tree, although hated being picked up, so the chair situation did repeat itself."
+aww,fcsena9,t3_eimvqu,1577915456.0,"I had to do that for one of my childhood cats.  We had a pair of 6x6 post in the backyard with 2x6s attached crosswise as laundry poles.  The cat chased a bird up there, and when I went up with a ladder to grab him, he growled.
+
+I had to hold a lawn chair up next to him, and look away for him to climb onto it, he was too proud to admit he was stuck.  
+
+He also used to sit on the roof when I got home and drop birds and squirrels off the roof as gifts.  He even killed a groundhog once.  He was a big tough muscular tom cat.  Sucks that he dropped dead one day."
+guns,fcs8001,t1_fcrlswm,1577912727.0,I usually grab most of my stuff using sgammo.  If they dont have something i consider a good price I hit up ammoseaker.  I prefer having a longstanding business relationship with a reputable vendor whenever possible however.  Doesnt always work that way anymore though.
+guns,fcrb7rn,t1_fcr7ytn,1577899434.0,"I remember when I was a kid, I used to get $7 a week for allowance.  We wne to cabelas every two weeks and one of those 550 round boxes of .22lr used to cost about $12.  I remember getting one every time we went and a hotdog from the food court while my parents shopped with the left over money."
+guns,fcr7828,t1_fcqzxgy,1577897778.0,"Oh wow, there used to be piles of them on gunbroker for cheap.  Times have changed it seems."
+guns,fcpg0j8,t1_fcp8p0j,1577862342.0,"An old marlin papoose is a good alternative to the henry, and ruger takedown.  Accurate, shares parts with some other popular marlin models, and weighs nothing.  Many came with a floating carry case too.  Even accepts 25 round aftermarket mags, although they make benching it impossible.  The marine version (read ocean, not military)  comes in plastic with a nice nickel coating, although the wood one is lighter."
+pcgaming,fcmj9cl,t1_fcll9un,1577777528.0,"The redux versions of both add all of the good functions and improvements back to the first, as well as some general improvements overall.
+
+I believe it is just improved engine and gameplay though, I do not think any content is changed other that perhaps ranger mode."
+blackmagicfuckery,fc9icxo,t1_fc8yuta,1577553110.0,"I had a couple of those to play with as a kid, I remember a bucket and watering pail too, but they never got field tested"
+blackmagicfuckery,fc7qd6p,t1_fc7i0du,1577515963.0,"They were pretty big back then, not beanie baby big, but something people could buy from stores like hallmark.  I guess popular with old people who liked to collect dumb shit."
+blackmagicfuckery,fc7q9ow,t1_fc7juao,1577515888.0,"They withstood falls, and didnt scratch.  I had a couple leftover unpainted ones that I used as toys as a kid alongside army men amd the like."
+blackmagicfuckery,fc7q56e,t1_fc7npnh,1577515770.0,My mom used to paint all the figurines when I was a kid.
+blackmagicfuckery,fc7bset,t1_fc7b04v,1577502865.0,"Wood resin is a thing.  It's used to cast various things using molds.  Mostly decorative things, but it is pretty hard.   
+
+
+If anyone remembers lizzie high dolls from the 90s, most of the accessories for those were wood resin(plants, animals, things held in hamds).  I remember the goose figurines were particularly indestructible."
+PAguns,fbtvfmt,t1_fbtbqo2,1577098006.0,If it is any of those I call dibbs

@@ -1,0 +1,193 @@
+subreddit,self ID,parent ID,time,text
+boston,fffucyy,t3_esz8a8,1579891986.0,"> magical mystery tour
+
+Pretty sure that's Liverpool"
+programming,fffqoio,t1_ffexdpi,1579889714.0,Aside from needing JavaScript to display static text?
+Foodforthought,ffezv4c,t1_ffexh2s,1579871700.0,Probably for responding to the headline with something already addressed in the article
+urbanplanning,ffdrye8,t1_ffdpt0i,1579827449.0,"That's the normal way of things for durable goods. They get old, they wear out, they go through multiple owners/users whose care for the goods was uncertain, etc.
+
+Old construction holds value more from the difficulty of new construction and scarcity of land than from residents' preference."
+NEU,ffdnycu,t3_et1740,1579824915.0,Because it's right there in the middle of campus. They'd also care about things happening at Northeastern station if anything ever happened there.
+csMajors,ffd4zuu,t3_esuvub,1579813532.0,"Generally, MS applicants' research experience (if they have any at all) comes from working with a research group during undergrad. It's too late for that to affect applications you're already putting together now though."
+computerscience,ffcgxtj,t3_esujrj,1579799227.0,"If the mantissa gets too big, increase the exponent."
+badmathematics,ffby65z,t1_ffbi8uf,1579786520.0,Chances are someone who's been reading this sub for a while has read a fair amount of this author's writing in the past.
+urbanplanning,ffad17j,t1_ff51t4w,1579732666.0,"You specifically complained about YIMBY, which is a movement about reducing restrictions on building and density."
+Racket,ff9ym2y,t3_es6vef,1579724303.0,"> I'm still a bit confused as to why everything would be double quoted, and just a bit unsure as to the mechanics of it all.
+
+This [distinction](https://en.wikipedia.org/wiki/Use%E2%80%93mention_distinction) also exists in natural languages:
+
+Alice said, ""Bob said I won."" -> Alice won and was told so by Bob
+
+Alice said, ""Bob said, 'I won.'"" -> Bob won and told Alice
+
+Quoting sort of turns arbitrary text into a noun. The phrase ""I won"" is not used that way in the first sentence, but it is in the second. In the second case, exactly that phrase is attributed to Bob, whereas in the first, it's only an incomplete part of something Alice said. What *is* attributed to Alice in the second case is itself a statement attributing something to Bob."
+cscareerquestions,ff9fw81,t3_es9lix,1579712145.0,"> Finances are not an issue for me but my concern is whether I'll learn anything.
+
+If money is so tight they can't afford to pay you, I wouldn't bet on them having someone mentor you on company time either."
+ProgrammingLanguages,ferlvos,t1_feprc33,1579355606.0,"The clock is part of a CPU, not external input."
+ProgrammingLanguages,fepmh3o,t1_fepkjmv,1579324411.0,"The cited automaton only runs as long as it keeps getting keystrokes. If run time is bounded by input size, it's not Turing-complete :-P"
+math,fepfl2j,t1_fepcktn,1579319263.0,"Within computable reals, you might be able to convert between checking whether a point is inside some circle and checking whether it is inside some square of the same area.
+
+Of course, you can't write a procedure that checks whether a point is inside a given circle.
+
+Edit: I think I have something solution-like
+
+Suppose we have a black-box procedure which checks whether a point (given in rectangular coordinates as a pair of reals) is within R of the origin.
+The square we'll construct is also going to be centered at the origin, and it has sides of length R*sqrt(pi).
+The goal is to check whether a point P (also rectangular) is in the square.
+
+1. Take the absolute values of its x and y coordinates, forcing it into the 1st quadrant
+2. Convert to polar coordinates, then replace theta with abs(theta-pi/4), forcing the point into the ""1st octant""
+3. Multiply r by R\*sqrt(pi)\*cos(theta)/2, the polar-coordinate description of the square's right side
+4. Convert back to rectangular coordinates
+
+That's a computable function which maps every point inside an origin-centered square with area A to a point inside an origin-centered circle with radius A.
+Use that black-box procedure to check whether the resulting point is in the circle you care about.
+
+The sneaky bit I'm not entirely comfortable with is the assumption that the cirle we're squaring is centered at the origin, or at least at a known position.
+That doesn't seem like it ought to matter, but I'm not sure how to proceed knowing nothing about the initial circle."
+cscareerquestions,feohgr1,t1_feo68vv,1579300226.0,"My biggest frustration with materials from the 90s was that so many of them didn't bother explaining the tools you would need in order to *run* your code, let alone how to get them."
+news,fen9t50,t1_femse1i,1579280083.0,"Yeah, sounds silly to spend so much text saying so, but just think of this article as preempting Hanlon's razor. Its real value is in pointing out that they're not motivated by sincere misunderstanding of the evidence."
+urbanplanning,femxw61,t1_fekijvd,1579272444.0,"> So when do prices actually fall? Ive seen ""luxury"" apartments with the same prices for 4 years now.
+
+I've seen a lot of long-lasting vacancies lead to offers like a month or two of free rent. I don't know if that's some anchoring tactic or developers doing anything to not admit to themselves that the market won't bear the monthly rent they wanted, but it is 8+% off the cost for the year."
+Somerville,fekyjnl,t1_fekwbd3,1579210264.0,"And now you can get the same selection of generic West Coast-style IPAs somewhere else!
+
+Well... you could already do that before Aeronaut opened too."
+computerscience,fek9cgr,t3_epgyd2,1579195313.0,"Ideas that haven't had to withstand close scrutiny don't get high valuation. You give no evidence that your idea is actually any good. If the rough idea is the only thing that makes this company stand out as a winner, you'll get your lunch eaten by competitors shortly after you launch anyway. Every startup I've taken seriously as a potential place to work has been willing to say what they're making, could argue why there's a market for it, and had a reason why copycat competitors wouldn't be a major threat.
+
+And the sneering edit just completes the picture. If you yourself were familiar with how startups operate, you'd have known what response a post like this would get. Every ""idea guy"" who ""just needs a programmer"" gets the same response you're getting here."
+csMajors,fejz7tu,t3_epgizj,1579189188.0,"If you're a top 5% CS student, then just skip the leetcode grinding -- you can already handle those interviews, especially if you're good at coming up with new ways of solving problems."
+cscareerquestions,fejvhwn,t1_fej46c8,1579186801.0,As opposed to using someone else as the benchmark to evaluate your interview? You're going to get compared against other candidates no matter when you interview.
+cscareerquestions,fehthnn,t3_ep8i9i,1579123550.0,"Can you clarify what you consider ""Real Science""? Does computational science count? Theoretical? Or only experimental? Must it be natural science, or do you include sociology, economics, anthropology, etc.?
+
+In any case, the conventional entry point on the way to the job title ""scientist"" is a PhD program."
+csMajors,feexsbt,t1_fee5fmk,1579043544.0,"> You can't give people advice when you're some peasant undergrad with no real world experience dude.
+
+Didn't you just graduate last month? And isn't this thread more about pedagogy than industry practices? How much teaching experience do you bring to the table?"
+csMajors,feevzci,t3_eon06d,1579042399.0,"Complicated sentence structure is bad for someone who wants to read quickly. If you feel like you're packing too much text together, split it into separate bullet points. The example you give could be two separate points -- one for what you built and one for the impact it had."
+ProgrammingLanguages,feel4lp,t3_eon92a,1579035957.0,"Broadly speaking, what makes a programming language ""data-oriented""?"
+computerscience,fee5h95,t3_eooz8y,1579026800.0,"This needs a lot more context. Without that, the only possible answer is ""whatever the instructor said it was during class."""
+computerscience,fedi1c0,t3_eoidr7,1579012051.0,"Value numbering lets you identify redundant computation, which often appears in generated code (e.g., address computation), and it can be done locally or globally. You can also cram copy propagation into the same pass.
+
+If you're feeling ambitious, you could try loop invariant hoisting and induction variable elimination.
+
+Dead code elimination skips computation made vestigial by other optimization passes."
+boston,fe8wega,t1_fe8s1wl,1578931809.0,Still makes sense. The seconds aren't just teammates. They are the ones who arrange the fight itself. The dead guy's second was actively involved in setting up a time and place for him to get killed.
+cscareerquestions,fe61yy4,t3_env0f1,1578879976.0,"I mostly answer questions related to academia/research because that's what I do. Questions about my own career path don't seem likely to get good answers because most users on this sub haven't had any close contact with industry research labs and have only experienced academia from the ""customer"" side.
+
+> I guess ironically, they don't see Reddit as a good place to address their own problems even though they are willing give out advice to others on here?
+
+People you can help with their problems aren't necessarily capable of helping you with your problems."
+badmathematics,fe2tlqk,t3_enok6o,1578842700.0,"R4, a constructivist dismisses mathematical objects he doesn't like as not existing ""except in human minds""?"
+cscareerquestions,fdygu8y,t3_enci1f,1578779609.0,"You're kind of on your own here. This is primarily a decision about career direction, and nobody else knows what you like/want as well as you do. People close enough to you to give useful advice about picking your life direction may not know enough about the two options to compare them.
+
+Keep in mind that unless you've got a 6-year FIRE plan option #2 still leaves you with some long exposure to the 2026 job market, but also ignore anyone who tells you a PhD is a good financial move."
+cscareerquestions,fdxwej3,t3_enbyv4,1578773584.0,"What's your app->interview conversion rate been?
+
+A lot your work history section seems text-dense and meaning-sparse. You could probably make it easier for someone to read by cutting a lot of fluff out and focusing on concrete accomplishments and skills.
+
+The way you phrase some project descriptions makes them sound like fairly small homework assignments (e.g., ""various forms of sorts, lists and stacks"" -> was this a weekly data structures exercise?). Try focusing on a few of the largest ones and the skills you had to use, especially non-language stuff like managing codebase complexity. Gameplay doesn't matter if you're not seeking a game design job, but the libraries and algorithms involved would say something about what you can code."
+cscareerquestions,fdxsaan,t1_fdxr436,1578772423.0,"How many small, unrecognizably named companies did you apply to this round?"
+AskScienceDiscussion,fdx62n0,t1_fdt258r,1578765656.0,"> The readers will be able to read something faster (as they will become familiar with the phrases and their true meaning over time)
+
+The world's collective experience with logic suggests otherwise. People have often come up with ideas that are difficult or impossible to state in a particular widely used logic. That's why we've invented so many of them. The one you invent is unlikely to unify all the ideas that will ever need to be expressed in scientific literature."
+csMajors,fdsg5tj,t1_fdpcvnq,1578702049.0,"It still takes a sizable enrollment to fill even a single teacher's schedule, north of 100 students taking CS every term."
+csMajors,fdrmhnl,t3_emtlhp,1578686610.0,"> So, while looking for post-doctoral opportunities, where and how should I start searching?
+
+Look at what labs are publishing work that's closely related to what you want to do. Go to conferences, and talk to them about what you're up to and what they're up to. When you're on the market for a postdoc, say so. Cold-calling someone to ask for a position out of the blue doesn't typically go over well, but if you've already established your mutual interests in prior conversation (or even better, prior collaboration), it's a lot less awkward.
+
+Even faculty who aren't looking to take on postdocs at the moment might know someone who is (or might be looking later, once some grant goes through).
+
+In the US, a lot of postdocs are arranged outside of any formal application process (I don't know to what extent this applies in Europe though)."
+cscareerquestions,fdrh2ji,t1_fdnh72g,1578684481.0,"That's a strong upward trajectory.
+
+When/if you get back to formal study, you'll find classes much easier."
+math,fdo8q94,t1_fdo2hal,1578600834.0,"I think it's still fair to call that nonconstructive (e.g., you cannot express it in CIC)."
+highereducation,fdnmshf,t1_fdnicd3,1578589053.0,"We already have built more schools. This doesn't eliminate the admissions problem because people still care *which* school they attend. When someone asks for a spot at MIT, that request is not met by admitting them to Lesley.
+
+You also seem to be conflating size and selectivity(?)
+
+Good faculty governance would likely keep some limits on class sizes, so even if you somehow got every student in the country into one giant unified university system, you'd still need some way to decide who gets to take classes with the highest regarded professors."
+cscareerquestions,fdn687k,t3_em2nc2,1578578414.0,"> ""Do you realistically think you're capable of self-learning math and computer science?"" To which I would respond, yes. …  Is there a better option I failed to consider here?
+
+You need to work out *why* you're getting more C's and D's than A's and B's in intro-level courses. If you don't fix whatever issue is causing that, removing actual instructors from your plan of study isn't likely to get you to learn more than when they were part of it. People who are successful at self-study don't collapse just because they get some externally imposed deadlines."
+computerscience,fdl78wp,t1_fdkqn74,1578518232.0,Could you put together a poster or workshop paper based on your research in time to use that grant to go to a conference and present your work?
+cscareerquestions,fdl5vss,t1_fdkuhbr,1578517574.0,"Pretty much this. If you tell a court, ""this company has wronged me, and I wish to be made whole,"" the obvious question is what it takes to make you whole. I wouldn't be confident about a court being willing to give a big payout, since you'd have a duty to mitigate damages by pursuing employment elsewhere (and how much worse is a genuinely qualified applicant likely to do than this $45/hour contract?)."
+cscareerquestions,fdkcc0x,t1_fdjzzt1,1578500874.0,"Yes, everything is ultimately reads/writes to data stored somewhere. The term ""CRUD"" is more about (lack of) algorithmic depth. How tricky is it it to know what you should create, read, update, or delete?
+
+""Is the `obj1`'s `foo` method called here guaranteed to return the same result as when it's called from `obj2` there?""
+
+""Go read this stack of papers on alias analysis and higher-order flow analysis""
+
+vs
+
+""Which customer's order history should we add this to?""
+
+""The one whose ID is on the order"""
+cscareerquestions,fdk9oeb,t3_eluj31,1578499225.0,"They run that risk, yes, but applying there with the intention of getting an award of damages instead of a job offer is probably not a great plan."
+cscareerquestions,fdk7pxj,t1_fdk3p1i,1578497986.0,"Looking through this sub's recent history, I'm not sure it's all that much extra mod strain. Maybe a dozen or so reportable threads in a busy month.
+
+There just aren't that many college students who are petty enough to actually create a special thread about how a company ""[gave] me false hope"" but ultimately turned them down some time after the final-round interview for an internship. Deleting such threads also removes a source of encouragement for others to post their own."
+cscareerquestions,fdk5tb8,t3_elnz4t,1578496732.0,"> However, one of my professors has offered me pretty lucrative deal. He’s offering to use his research grants to pay for my tuition and semester stipend for my PhD.
+
+That's the normal way of things in a PhD program and generally not lucrative."
+NEU,fdgyipw,t1_fdgvanq,1578411440.0,"That's not really a living alone kind of budget around here. You might manage to find a 1k studio out near Worcester, but then getting to campus will mean spending even more money on parking or rail fares."
+NEU,fdgqg9f,t3_el7v8d,1578405623.0,"> How is housing in Boston? Where could I find somewhere cheap to live alone?
+
+Outside the Boston area. But really, what's your budget?"
+cscareerquestions,fdeel1x,t1_fdec8o1,1578337326.0,"Definitely better than the flood of ""Did I get an Amazon internship?"" posts at /r/csMajors"
+AskScienceDiscussion,fd5sbyc,t1_fd2z58c,1578180941.0,"> I worked in electronics and there were definitely tiers. I’d hope that an article would be cited if it’s work were replicated.
+
+That'll only count as a citation if the replication gets published."
+csMajors,fd2k73i,t1_fczlq3h,1578148403.0,"In the US, any serious PhD program is funded, and applicants are not expected to already have an MS. There isn't an advertised ""job opening"" tied to a specific grant, though your application will be stronger if your personal statement describes how your research interests align with those of some faculty in the department where you're applying (especially if you've discussed research plans with them ahead of time).
+
+Requirements differ elsewhere, so I don't know if Edinburgh would take a PhD student directly from a bachelor's program, but that's not the norm in Europe."
+Foodforthought,fd2j75x,t1_fcyv96n,1578148002.0,"Not sure what this ""white picket fantasy"" derision is all about considering how much money you're willing to spend on it. Your words say one thing, but your actions say that living indoors instead of out on the street is pretty important to you. Otherwise, you'd be getting a lot more benefit out of that condo by renting it out to someone else."
+Foodforthought,fcyld2l,t1_fcues4g,1578082135.0,"MA has open primaries, so He could remain unenrolled."
+programming,fcy297l,t1_fcxr3k3,1578073807.0,`(* Ceci n'est pas un logiciel *)`
+cscareerquestions,fcxwf5l,t1_fcvpgwe,1578071413.0,"> To answer the two questions now, I believe that any other field is intelectually broader.
+
+Broader than the field where you say you keep hearing people talk about tools/techniques/concepts you don't know anything about?"
+csMajors,fcxl2op,t1_fcs6p89,1578065536.0,I saw quite a lot of posts for autumn 2019 openings this past August.
+csMajors,fcxkl3j,t3_ej9g25,1578065207.0,"> due to financial constraints, the top US schools are not affordable
+
+Have you considered going straight to PhD instead?"
+NEU,fcxjm6k,t1_fcxhqlf,1578064547.0,"The ""commuter"" pricing is maybe workable if necessary, but over the course of six months, you might spend enough to buy your own used car."
+Foodforthought,fcw2fdx,t1_fcvimcj,1578015581.0,"> yet most people don’t bat an eye at incurring hundreds of thousands I debt for a house
+
+They're willing to do that because of the immense value a house has outside of its performance as a financial instrument."
+GradSchool,fcvkzc1,t1_fcvdw0u,1578004338.0,This is also very location-dependent.
+computerscience,fcuknap,t3_ej02df,1577983126.0,"Make your own shell. It's easy to make a very feature-limited one (just needs to fork off a new process for each command and wait for it to complete), but there's a lot of room for adding more (I/O redirection, pipelines, job control, name globbing, line editing, ...)."
+AskScienceDiscussion,fcs37yd,t1_fcrhmp2,1577910805.0,"There are too many other factors in play, like how well-mixed the fuel is with air already, how hot the engine itself is, how long you've maintained that higher speed, etc."
+cscareerquestions,fcqgmfi,t1_fcnxnop,1577885628.0,"> As for ""FAANG"", I think that's a dumb investment term which is no longer relevant.
+
+As an investment term it is pretty dumb, but people come to this sub to talk about getting jobs, not picking stocks."
+AskScienceDiscussion,fcqernf,t1_fcpg5f9,1577884555.0,"It's not the speed in the sense that diving through vacuum won't cool anything down, but moving cold air across the engine and blowing the hot combustion products away does decrease engine/fuel temperature. There's still plenty of fuel and plenty of oxygen to burn it with."
+AskScienceDiscussion,fcnep1g,t3_ehzy1q,1577810180.0,"Fire is self-sustaining because the energy released from burning one bit of fuel keeps the next bit of fuel hot enough to combust. If you blow a little air on the fire, you'll typically make the fire hotter since the fuel gets easier access to oxygen (small enough fires will gradually go out without that extra oxygen, though how small depends on the fuel). If you blow too much, the hot gases generated by combustion get carried off too quickly to heat up the nearby fuel. A human blowing on a candle is enough to extinguish it, but an engine fire is a lot bigger and needs a lot more airflow (exactly how much depends on how much is burning to begin with, what fuel you're burning, how well mixed the fuel and air are, etc.). A steep dive quickly increases an airplane's speed without first having to feed a lot more fuel into the engine."
+cscareerquestions,fcn8i9a,t1_fcn658t,1577806008.0,"Calculating that number doesn't mean that much money goes into the fund. The company might prefer to spend some of it on other things. There's also some wiggle room in how much interest they predict the pension fund will earn over time.
+
+Betting your retirement on one company's corporate governance is a risky strategy. They might turn out to be the next GE. A 401(k) lets you diversify more."
+cscareerquestions,fcn616a,t3_ehybz0,1577804203.0,"> Can I just get away with tech support for 90k?
+
+Sounds unlikely, but...
+
+> just want to get home at 5:30PM, watch TV, eat Tacos, wake up not have to go to work (prefer remote job)
+
+... this doesn't cost 90k/year. Even for *really* fancy tacos.
+
+> If they say it's a job where it's hands on and everyone sounds very excited/building something from scratch or works 7am-7pm, I drop the phone call
+
+But you're still considering the military and think you would make a good doctor?"
+cscareerquestions,fcn2al4,t1_fcm5mlu,1577801256.0,I don't think it's a worry about whether the pension fund manager will invest wisely so much as whether the company will put enough money into the pension fund to begin with.
+haskell,fcn0jff,t1_fclnzke,1577799703.0,">> You have shown no patents, no proof of concept, no defensible advantage, no business plan, absolutely nothing.
+
+> Did you know Apple's first patent was in 1980? It was like 3 or 5 years after its inception.
+
+You conveniently leave out the bit where Apple had a working prototype before founding and was thus able to ship their product to paying customers within a few months."
+urbanplanning,fcm51pi,t1_fclrqjt,1577764427.0,"> But right now he is a figure that inspires people to want to fix the world.
+
+Jenny McCarthy also inspired people who wanted to fix the world. That doesn't mean the people she inspired actually made the world any better."
+urbanplanning,fcm51gw,t1_fclu6wr,1577764422.0,"> Should urban planners work to change humans love of celebrities?
+
+They should not rally behind a celebrity who is actively harmful to their cause."

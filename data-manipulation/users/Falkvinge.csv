@@ -1,0 +1,58 @@
+subreddit,self ID,parent ID,time,text
+btc,fgz5y35,t1_fgxmfcw,1581191086.0,"Ah ok, so the ForkIdTransaction has a couple of overrides now to provide more native support for Bitcoin Cash (even if I'm annoyed at their ""abbreviation"" of it). Got it, thanks!"
+btc,fgxekem,t3_f0r1tq,1581171943.0,"Hmm. I'm missing the point where the flag SIGHASH\_FORK is or-ed into a value before the signing takes place (the BCH transaction replay protection). Where does this happen now?
+
+Specifically this:
+
+`Transaction tx = txBuilder.BuildTransaction(true, SigHash.ForkId | SigHash.All);`
+
+See [https://github.com/Swarmops/Swarmops/blob/master/Logic/Support/BackendServices/ReturnBitcoinEchoUtxoOrder.cs](https://github.com/Swarmops/Swarmops/blob/master/Logic/Support/BackendServices/ReturnBitcoinEchoUtxoOrder.cs) for my code that returns a transaction less a return fee. It uses an older, but working, version of NBitcoin to handle Bitcoin Cash."
+funny,fgucqj4,t1_fgtzzeq,1581117644.0,"Sixteen states, three of which are city-states. You've probably heard of at least one of them, Berlin."
+funny,fguclnp,t1_fgtgodi,1581117552.0,I live in Berlin which is completely surrounded by Brandenburg and I can barely point out Brandenburg.
+todayilearned,fgkhcnc,t1_fgjss7a,1580865586.0,"Ah, ""this is your last chance to press the cancellation button""?"
+AskReddit,fgfdqdu,t3_ey2of6,1580735625.0,Gun oil
+birdstakingthetrain,fg6yudw,t3_ebm7mi,1580580046.0,Dude... That posture doesn't look like a pigeon. Is that a falcon?
+europe,fg09q44,t1_ffzri9a,1580403236.0,"""BrexitÜG"". Lovely."
+btc,ffyx5ea,t3_evkqog,1580357380.0,"I'm working on accounting, but it's very much \*\*not\*\* a Point-of-Sale software or terminal. Rather, it's business-to-business cashflow with invoicing and reports.
+
+As always, no promises about when, or if, it will be ready, whatever ready means in this case. It's public domain and some 160,000 LoC though, so if anyone wants to use it, or do something else with it, that's cool too.
+
+The current obstacle is tax reporting and cryptocurrency inventory -- specifically that you need to keep track of when you got every single piece of non-presentation currency, according to your inventory policy, in order to declare capital gains/losses correctly."
+pics,ffx3z1a,t3_evlt8v,1580317251.0,But I am le tired
+funny,ffusmey,t3_ev57r5,1580248580.0,This video should be shown in every UI design training.
+worldnews,ffuibj6,t3_ev6zmb,1580242554.0,Madagascar has closed its ports
+self,ffrmte9,t3_eusrjg,1580161298.0,"> I just helped revive an old lady's dog after getting hit by a car
+
+Wow, some day you've had! Most people would have gone to the hospital."
+videos,ffhsb5z,t1_ffhoxvg,1579951332.0,An anonymous Redditor stating that a relative of theirs confirms the accent is from the generally correct area is enough for me to take the message as fully authentic
+btc,ff8wr4p,t3_es8udg,1579698622.0,Was heading over to do Swedish but it's already at 100%. The Swarm rocks :)
+btc,ff1ja88,t1_ff1ivlh,1579480097.0,"> ...Microsoft. Aside from AWS, they run...
+
+Microsoft runs Amazon Web Services? That's a new one."
+todayilearned,fen17ll,t3_epye6b,1579274685.0,"Even if you do buy it used, you're not very likely to transport it far, because printers are bulky things.
+
+So even that narrows it down to a pretty small geographical area."
+todayilearned,fen0tef,t1_femvo3c,1579274430.0,"No fuck you, low on cyan
+
+(Note: this is a cultural reference as worded, not intended as an insult)"
+todayilearned,femv2ns,t1_femun49,1579270385.0,"The dots contain time, date, and the printer's model and serial number. Most vendors record serial numbers on sales slips for more expensive items.
+
+So while there's no central database, it's absolutely traceable with some work"
+AskReddit,femt71f,t1_femjf74,1579268912.0,"Uh? Gesundheit. “Health"" in German."
+btc,femhrg3,t1_fekzjid,1579256205.0,">Also, the new conditions and logic where already implemented regardless, if only to protect themselves from replay attacks. So from that point on giving access to replay protected BSV poses no risk whatsoever to other coin holdings.
+
+With this statement, you make it clear that you do not understand the very basics of risk management in enterprise level engineering of a billion dollar codebase.
+
+You're thinking of it like a left-hand evening hobby project. That's not how decisions are made, at all."
+btc,fekl0ah,t1_feki7xd,1579202241.0,"Yes. This is the big deal, not what kind of scraps Kleiman manages to collect."
+btc,fekeu2a,t1_fejl53w,1579198563.0,"I disagree. It is not a matter of choosing to fuck people over; it is a matter of not exposing your customer base to unnecessary big risk by integrating new conditions and logic paths into their **current** codebase with people's **current** money, for a relatively small gain they said in advance they wouldn't support."
+btc,fekehhz,t1_fejs7dw,1579198356.0,"Contempt, yes. And lose the case massively, and probably be hit with punitive damages. Considering the stakes, we \_can\_ be talking billions of dollars, this time (for the first time in his life) actually enforced by a big mean machine."
+funny,fek4q2j,t1_fejt3nv,1579192565.0,"Flygande bläckpatroner söker villa i centrala Tuve.
+
+(This reference will probably be lost on everybody younger than 50 and not from Sweden. Also, autocorrect improved it even further - the original starts ""flygande bäckasiner"", which is apparently a kind of bird I still have never seen despite radioing about it in every check.)"
+Futurology,fegxt8i,t3_eotpj5,1579104922.0,So Britain can finally have a proper liverpool?
+btc,feged1e,t3_eosrcv,1579089806.0,What's the deal with this many memes trashing other technologies lately? It's just adding noise to the discussion of how to rebuild the world's financial system and get the unbanked talent onboard the economy.
+btc,fdr15x3,t1_fdqz5th,1578678063.0,"No, the server absolutely doesn't receive the password in plain text. It is normally decrypted inside the Apache process, unless you have a reverse proxy load balancer configuration that terminates the https tunnel."
+mtgoxinsolvency,fdnia2l,t1_fdm1w5q,1578586380.0,"I disagree; intent matters a lot. If you try to fulfill a contract, capable thereto or not, it's not fraud.
+
+For fraud to come into play, you'd need to have an intention of never fulfilling a contract. The difference is rather important in my opinion."

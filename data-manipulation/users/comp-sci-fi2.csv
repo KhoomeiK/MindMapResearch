@@ -1,0 +1,452 @@
+subreddit,self ID,parent ID,time,text
+todayilearned,ffaefuy,t1_ff9hrp1,1579733715.0,"> a piece of commentary, typically produced quickly in response to a recent event, whose primary purpose is to attract attention.
+
+Why not both?"
+termux,ff30cua,t1_ff2vdq2,1579530259.0,"Note there's another use of SHA1 that I haven't fixed yet. Also, it's over 1mb bigger than it needs to be, even zipped (it includes the whole crypto part of Bouncy Castle).
+
+But `dx` now basically works, if people need it.
+
+I see you added DexMerge too, nice."
+termux,ff20ykr,t1_femx3f1,1579490877.0,"/u/kcubeterm /u/unbyte /u/Cherrybomb15
+
+In case you need it, I patched `dx` for Android P/9, and /u/xeffyr tested it and packaged into 1.5M: https://linx.li/dx-termux.jar  Make an executable shell script to use it:
+
+    dalvikvm -cp dx-termux.jar dx.dx.command.Main $1 $2 $3 $4"
+funny,ff1y4cb,t3_eqye5o,1579488844.0,to Happy.
+specializedtools,ff1tpif,t1_ff15eee,1579485961.0,*everything*
+specializedtools,ff1tp91,t3_er41ai,1579485956.0,Like a titanium coated butter knife with internal copper alloy heat tubes through butter.
+termux,ff1t4jw,t1_feylt4a,1579485588.0,"    diff -y a b 
+
+Outputs side by side. an also spec screen width with e.g. `--width=40`.
+
+It's in `diff --help` and also `man diff`... but I found it by googling ""diff side by side"", and going to the first result (which is a stackoverflow answer).
+
+I tell you this because it's a powerful approach used by developers for getting things done."
+termux,ff1siic,t1_feyi8ja,1579485205.0,"You might also try `git diff`, git's diff. You'd need to `apt install git`. Although its not side by side, color-words is very nice in some circumstances:
+
+    git diff --color-words a b"
+termux,feyh2xp,t3_eqwzyh,1579445461.0,"    vim -d file1 file2
+
+But you''ll need to learn some vim..."
+termux,fexw1cb,t1_fet285k,1579437395.0,"My argument is that it's not taking over. That you and I do it (and the 4 upvoters, maybe) is many orders of magnitude less than a rouding error...
+
+I guess you mean this part?
+
+> And Android is becoming more like iOS, decreasingly developer-friendly. 
+
+1. In Android P/9, for java development, you can't create the `dex` files android needs.
+
+2. In Android Q/10, you can't `exec` code. See termux's [top issue](https://github.com/termux/termux-app/issues).
+
+There are workarounds for both, but... *Android is becoming ""decreasingly developer-friendly.""*
+
+You're right, for recent development targets (I can't bring myself to say ""modern"", since they're often worse), tools target linux, and aren't simple to port to termux. This even includes many java tools, supposedly ""write once, run anywhere""."
+todayilearned,few4xfo,t1_feu479k,1579405430.0,I'm from New York.
+termux,ferq6yw,t3_eqg0uv,1579357083.0,"soft link
+
+    ln -s $PATH_TO_CARD $PATH_OF_SHORTCUT
+
+e.g.
+
+    ln -s /storage/sdcard1/ ~/sdcard
+
+So my card appears as `sdcard` in my home directory."
+termux,fepsj4m,t3_eqcc8s,1579329792.0,"What's your Android version?  
+Can you paste the error here?
+
+In earlier versions of Android (e.g. 5), there's problems with numpy because it uses long paths."
+BeAmazed,fepoo1t,t1_fep76fn,1579326258.0,Virtual Denial
+BeAmazed,fepoka0,t1_fep6kqh,1579326164.0,AR
+interestingasfuck,fepngb8,t3_eq8m4y,1579325215.0,It's been living in the future since the 80's.
+PS4,fepho6j,t1_fenvmbb,1579320754.0,"So we'll get a RDR2 remaster as a nextgen near-launch title, and GTA VI 4 years later."
+mildlyinteresting,fepfgpp,t1_fepc9l4,1579319178.0,bonehead
+mildlyinteresting,fepfbzr,t1_fep7m1b,1579319086.0,"Yeah I know I know, it's just a model."
+termux,fepdmo1,t1_feot5wu,1579317918.0,"I didn't know you could do that.
+
+BTW I just tried it but forgot to rename, and it still worked:
+
+    zip output.dex dx.dex SC.dex"
+termux,feo70iv,t1_femx3f1,1579295925.0,"Thanks, great!
+
+Merged is simpler. Did you merge it using `dx.dx.merge.DexMerger`?  Seems quite hidden functionality!"
+PS4,femqc2d,t1_femofd4,1579266489.0,"Oh yes, I see. Like GTA V double dipping.  
+And with it so close to PS5 release (probably Nov), only the extremely impatient couldn't wait.
+
+But... if it was like GTAV, it would take a year for a true remaster...
+
+From the visuals, cyberpunk never looked like a PS4 game to me.. OTOH, Death Stranding didn't... and still doesn't! So what do I know."
+termux,femnm1b,t1_femna76,1579263838.0,"Done! quick and painless, thanks!
+
+https://linx.li/dx-mod.tar
+
+*EDIT* Doh! i should have just included the file to run it, too:
+
+    $ cat dx-mod
+    dalvikvm -cp dx.dex:SC.dex dx.dx.command.Main $1 $2 $3 $4"
+PS4,femncyh,t1_femldjt,1579263574.0,What do you mean?
+termux,feml2vl,t1_femjvzp,1579260889.0,"Thank you!
+
+How should I get the files to you? I guess I should be the one to have a method, but I don't... I think you have a much better idea of these things than me! e.g. Is there paste-bin. for binary files?
+
+Would you prefer I come up with a script?  That would be text, so I could just paste it here, and same with a patch."
+termux,fem6szb,t1_fd6a9v8,1579241797.0,"Hi /u/xeffyr,
+
+I patched `dx` to not need jca!
+
+Would you be able test it on a Pie/9 emulator please, like you did [here](https://www.reddit.com/r/termux/comments/ejrasu/java_on_my_s10_refuses_to_work/fdn4rb5/)? If not, do you have any suggestions for how I could test it? (I don't have a PC). I could post, asking for testers...
+
+If you can, I'm also not sure how to get it to you. It's Dx.dex (763KB), SC.dex (2.7MB) and:
+
+    dalvikvm -cp Dx.dex:SC.dex dx.dx.command.Main $1 $2 $3 $4
+
+Maybe a acript plus patch (diff is very short) would be a better way. I'd kinda like to ensure it's fixed all the problems before polishing... but I've done many hours of work already (dx, jarjar, spongycastle), so a few more won't hurt!
+
+Thanks for any help!"
+PS4,fem5rpk,t3_epmi0s,1579240737.0,It was a PS5 game *the whole time*!
+androiddev,fem5kit,t3_epscg7,1579240535.0,"> I'm afraid, I might end up burning my motivation down.
+
+> Please help me how I can be a better developer, improve my skill and boost my confidence.
+
+First: worrying too much about this takes attention away from your actual work. It is an extra cognitive load --- in a very real sense, it lowers your IQ. It takes energy and time and thought. It also makes you tense and worried and less able to learn. (But don't worry about that!)
+
+I personally have found the key to learning is to have *LOWER* expectations of myself. This enables me to focus on the learning. To be curious and interested in the work itself, rather than judging myself on the outcome, or comparing myself to others. There will always be those greater and lesser than me --- but they aren't doing the work I'm doing right now.
+
+Think of yourself as a student, a beginner. They don't expect you to know everything.
+
+It's easy to not notice your progress and take it for granted. Here's a technique for confidence: when you learn something new, compare yourself with how you were before learning it. This demonstrates to yourself that you learnt something. And if you can learn one thing, you can probably learn another!
+
+Here's a brutal way to think about it: Maybe you are smart enough or maybe you aren't. You can't change that; you can only do your best and see how it goes. It's not your fault if your best isn't good enough. So don't worry about it. Just give it your best shot.  
+Because you thought you could do it, and your interviewer thought you could do it, and your co-workers think you can do it... I also think you can do it too."
+insanepeoplefacebook,fem4154,t3_eprlvv,1579239023.0,I sense a marketing opportunity...
+termux,fek2mwn,t1_fejxk0b,1579191301.0,Desktop mode sounds promising... maybe the failed dream may yet live!
+termux,fek1hd7,t1_fed3as8,1579190585.0,"update (/u/xeffyr please see very end)
+
+OK, got ""spongycastle"" (SC) working, the bouncycastle (BC) crypto library with renamed packages (I could have done this with jarjar, but let's keep it simple). The hardest part was making sense of all the different downloads on the BC site, with different abbreviations, trying to find the SHA1 part...
+
+I ended up downloading the whole zip of SC from github, and grepping for ""SHA1"". It's in ""core"" (at `org.spongycastle.crypto.digests.SHA1Digest`), with source in `main` and `test`.
+
+Compiled and dxed the main and test separately - here, practice in use of libraries came in handy (jar for ecj;  dex for dalvikvm - both colon (:) separated lists).  
+A problem here was running out of RAM for dxing `main` on my 1GB phone! I first increased RAM flag in the `dx` script to `-Xmx512m`. Still fail. So restarted my phone to clear RAM. That worked! The resulting `dex` file is 2.7MB 
+
+I got the test working (`SHA1DigestTest`), also used junit (using the junit jar and dex from getting `jarjar` working).
+
+Next, I wrote my own little test code (outputting hex, like `sha1sum`), and made sure was getting the right answers. A tricky thing here is that `echo abc` adds a newline, giving a different hash... need to use `echo -n abc` if you want the hash of ""abc""...
+
+---
+
+OK! Finally, edited `DexFile` in `dx` to use the SHA1 from SC. It's a very simple change, just a different class ('MessageDigest` -> `SHA1Digest`) with a slightly different API. This worked - even managed to dx this new version of dx with this new version of dx.
+
+I learnt that `~` is not expanded in double quotes (use $HOME instead)... and that there's no error if `ecj` can't find a jar file, or `dalvikvm` can't find a dex file. All they say is they can't find the classes that were meant to be in them, but not why...
+
+But this doesn't mean it will actually work on Android Pie/9, because there might be other problems. I grepped the `dx` source for any other uses of `security`, and found another, in `com.android.dx.dex`. It looks like duplicate code, doing the same as `DexFile`.... It also doesn't run in the dxing I've done (I added a println)... perhaps it is used in multi-dex? I haven't studied it yet.  Whatever, I can just replace it the same.
+
+TODO extract only the needed source from SC (far less than 2.7MB!) and put into dx - so it's smaller and just one dex.
+
+I've also just commented out the changes; I probably should make a proper git project... especially if I need to do it again, for the next release of `dx`.
+
+I'm not sure, but it might be possible to put it all into patch script like termux uses.  Perhaps, download the SC jar, extract the class files needed and add to the dx.jar. Then, a patch file (?) to modify `DexFile` and anything else. ANnway, thart's a few steps ahead.
+
+---
+
+So, now we are up to actually testing it on Android Pie/9... (one where the current `dx` fails). /u/xeffyr would you be able to try it on an emulator?
+
+Not sure how to get it to you. It's `Dx.dex` (763KB), `SC.dex` (2.7MB) and:
+
+    dalvikvm -cp Dx.dex:SC.dex dx.dx.command.Main $1 $2 $3 $4"
+PublicFreakout,fejnkdu,t1_fejmij0,1579180854.0,"Mortgages, bills, growing apart from his friends, career pressure, marriage breakdown - you know, just silly 2 yo stuff! haha, really thinks he's reincarnated!"
+proceduralgeneration,fejm2pv,t1_fejatcd,1579179483.0,"Look on my works, ye mighty, and despair!"
+interestingasfuck,fej6jpg,t3_ep17qi,1579158954.0,"What kind of coffee do you usually serve here?  
+*Oh, we got both kinds. We got black AND white!*"
+interestingasfuck,fej6g6y,t3_ep17qi,1579158833.0,*customer will remember that*
+interestingasfuck,fej6elv,t1_fej5g85,1579158781.0,"Move over mowers, it's the all-newer *hover mower™*!"
+interestingasfuck,fej69a2,t3_epcg22,1579158601.0,graceful af
+PS5,fej081t,t1_fej05ro,1579152304.0,a joke
+termux,fej063b,t1_fe4utpm,1579152255.0,"Samsung has discontinued DeX, haven't they? :("
+PS5,fej00pk,t1_feijcce,1579152115.0,"They better not, they'll sue themselves for everything they've got!"
+PS5,feizxzo,t1_feif88n,1579152048.0,I find it simply amazing that a company can keep their NDA secret nowdays.
+PS5,feizth6,t3_epbs5h,1579151938.0,"Everything *has* been leaked. Just not officially confirmed.
+
+Fake leak, so we can't tell what's true."
+australia,feizl76,t3_epacul,1579151735.0,Bonus: avoid smoke inhalation
+gifs,feiyvat,t3_ep9nah,1579151105.0,Not nice marmot.
+NatureIsFuckingLit,feiyiag,t3_epcfi1,1579150788.0,https://youtube.com/watch?v=1rI-kg2IGAI&t=2m43s
+WhitePeopleTwitter,fefxdlf,t1_fefuz9z,1579068347.0,"Every year you get fatter, but George stays the same weight."
+termux,fefp5jl,t3_eodb0f,1579061328.0,"I've encountered few differences in practice, because the termux repositiory already patches tools to account for the differences. For example, bash is the same, python is the same. But every so often, there is one e.g. on some versions of android can't run python's numpy.
+
+Surprisingly when java is a key part of android, java programs often don't run without work. Android doesn't have the latest version of java; you can't store data with class files; there's name collisions with parts of android.
+
+But to learn the important parts of linux/CLI, termux is great!"
+todayilearned,fefnz5v,t1_feexyvd,1579060517.0,", uncaffeinated."
+todayilearned,fefnlz1,t1_feetaqt,1579060264.0,goddamnit Keanu!
+todayilearned,fefnhwv,t3_eosgcx,1579060188.0,"But which drinker died first?
+
+Are they both still drinking?"
+nextfuckinglevel,fefnenq,t3_eot8q1,1579060128.0,Twist: the neighbours set this whole thing up as a hint.
+nextfuckinglevel,fefnbpb,t1_fef1hg5,1579060074.0,That's how you get Painty McPaintface.
+nextfuckinglevel,fefn8qj,t1_fef5bhq,1579060018.0,"You could use fingerprints. Or fingers, I guess."
+nextfuckinglevel,fefn115,t3_eot8q1,1579059874.0,It won't accept my vote.
+insanepeoplefacebook,fefms6e,t1_fef9dzv,1579059715.0,Twist: it was  your dad dressed as a mystery shopper all along.
+todayilearned,fefdsv1,t1_fefaukp,1579054174.0,"Yes, and there's also convection as the warmed air rises, so it's not perfectly cozy. But much less than if there's a breeze."
+todayilearned,fef9kgt,t1_feeoxe0,1579051397.0,"Still air is an excellent insulator. Even if it's extremely cold, your body heats up the air touching you, so its not cold.
+
+But even the slightest breeze will remove this layer, and your body has to heat up the next layer. Repeat until no heat left.
+
+I don't know the weather that night, or what saved him, but I think this must have been a factor."
+nextfuckinglevel,fef850q,t1_fedbndm,1579050441.0,"> It's probably time I was getting out of this cave in fact.
+Oh, I don't know though, why stop just when I'm enjoying it?"
+termux,fef4zt7,t1_feda0l5,1579048313.0,"Thanks for thinking of me!
+
+ I didn't actually say it, but I don't have a PC. Otherwise, 
+""Remote debugging"" would do what my post asked.
+
+It's really only the network tools I need --- for working out how a page uses webservices in its backend, so I can write a lightweight CLI version. I'm also really reluctant to use apps with broad permissions, apart from firefox."
+termux,fed3as8,t1_fe6dngv,1578996665.0,"update
+
+First, I *could* have ""manually"" renamed `dx` (using sed), >400 classes, but it's all just package and import and one file (Main.java) uses fully qualified classnames for dispatch. But I thought I'd have a go at porting `jarjar` to android, for the experience, and seems it might be useful later on. It's a proper tool for refactoring, unlike a bunch of sed scripts that are error-prone.
+
+OK, downloaded jarjar source, and inlined the `help.txt` as a string (sed to escape newlines and quotes).
+
+There were jar dependencies to put in the classpath for ecj, and to dex and put in the ""dex path"" for dalvikvm.
+
+Turns out jarjar needs the class files (that are to be converted) in a *jar* (not a directory).  Rather than port the `jar` tool, I just used `zip` and named it as a jar (they have the same fileformat: a jar is a kind of zip).
+
+To test jarjar, I used a helloworld. Also a similar test for dx.
+
+Although I have dx and jarjar in their own directory structures, this project is getting a little complex! It's potentially confusing using the same names for the test cases (even though it different directory structures) - perhaps better to name them `Testdx` and `Testjarjar`. Also confusing to work on a tool `dx`, when another `dx` is used to build that tool - but that one can't be helped.
+
+It was good practice to make one project neatly usable by another (the `dx` build uses `jarjar` to rename it) with a script (using the example of termux's `dx` script), and similarly good to use code as a library (as `jar` and as `dex`) in other code. I can use this in some of my own projects.
+
+OK! Now I am finally in a position to make `dx` work without jca for (SHA-1 MessageDigest), so it works on android P/9."
+termux,fearnu2,t1_fe8gcn2,1578951616.0,"I know java reasonably well I guess, but only a little of the Android SDK."
+termux,fe843ak,t1_fe0m1ve,1578922304.0,"Hi, I just saw that you sent a DM; by coincidence, since I don't use DM's, and they don't show up on the ""compact"" version of reddit I usually use anyway (e.g. https://www.reddit.com/r/termux/.compact).
+
+Anyway, thanks for the offer! But I'm uncomfortable sshing into aomeone else's phone.
+
+Don't worry about this project while you have exams!! These projects can get really involved, one problem after another.
+i'll think further about testing when I've got further along and actually have something to test..."
+termux,fe6mgx4,t3_enq7ga,1578895931.0,"There's a bit of a failed dream here...
+
+The history of computing is miniaturization dominating the previous mainstream: mainframes, minicomputers, workstations, desktops, laptops, netbooks briefly (ASUS eee PC), phones/tablets... maybe next to dominate with be wearables: watches, glasses, ear ""phones""? With the previous industry leaders getting ""disrupted"" in turn.
+
+The dream was that everyone would switch to phones... which is *true* for most people. Phones sell more than PCs, people use them more than PCs.
+
+But, for programming, (and some other content createion) of course, everyone still uses PCs (desktops or laptops). There's the keyboard, screen, a powerful processor for quick builds of large programs, and for runnig graphical IDEs --- and decades worth of development tools and libraries.
+
+One can argue that a bt keyboard and a tablet screen is ""the same user interface"" as a laptop... and if you're used to programming in linux, with terminal tools, it isn't very different. In fact, phones today are much more powerful than the PCs that linux and unix tools were developed on. So they run great. Git too.
+
+But... no one does this. So that's the first way the dream fails. And Android is becoming more like iOS, decreasingly developer-friendly. That's the second way the dream fails.
+
+However, the prophecy may yet be fulfilled... in a kind-of-a-sort-of-a-way: if desktops and laptops start using *the same smaller internals* as phones: ARM CPUs, GPUs, SSDs etc. This has already happened with Chromebooks. Raspberry pi. Screencasters. Game consoles (well, one: Nintendo Switch uses ARM processors).
+
+And further, it's long been speculated that Apple will ship laptops with their own proprietary mobile chips. Changing CPU is a huge undertaking, but Apple has done it before, from PowerPC to Intel. And recently (last year?) their most powerful mobile SoC (in iPad Pro) became more powerful than their least powerful laptop. So... it seems inevitable from a hardware point of view. Though, iOS is *NOT* developer-friendly and they don't make much money from laptops/desktops anymore, so maybe they can't be bothered.
+
+However.... it seems the *form factor* and operating system will remain desktoip/laptops... even if, inside, the hardware is a phone.
+
+I still love the idea of a tiny, light, low-power usage, yet high-powered computer in my pocket. Terminal, some one still loves you."
+termux,fe6l376,t3_enq7ga,1578894483.0,"bluetooth keyboard. Mechanical. Smaller than a fullsize keyboard, but Ok. It's actually weird going back to fullsize.
+
+One annoyance: for android, vim's ESC key is the home key shifted. I would like termux to do what terminal-ide does: remap a function key to esc (and physically remove the home key cap). Of course, can remap esc within vim (or even use control-[ e), but not to function keys (which are next to ESC).
+
+I *have* done coding with hacker's keyboard, and it is awful. Typos are very easy, and when correct them, often introduce another typo --- same issue as the web on a phone. It's doable for writing code, but the worst part is for refactoring, where you also need to read code: the keyboard takes up half the screen...
+
+One nice thing if only reading is to hide the keyboard, you can touch scroll in vim. Same with bash, less, mam... but `man` doesn't touch scroll when within `tmux`.
+
+> **EDIT** found a workaround https://github.com/tmux/tmux/issues/1320#issuecomment-381952082 that converts mousewheel (touchea) to up/down keys, when `man` is running in `tmux`. It seems to work.
+
+
+Funny thing is, the huge drawcard of phones is convenience. I'll often end up doing a little coding without a kb, even though it takes only a few seconds to set up, and go to a table.
+
+I do however need a bigger screen. I'm thinking of a 7"" tablet (twice the area of my 5"" phone). A 10"" tablet is of course bigger, but at that size and 500g, it really is a lot less convenient. (There's an expensive samsung at 400g - really cool, but still too big and heavy. With a phone, you don't even notice you're carrying it)."
+termux,fe6dngv,t1_fdw4zdf,1578887843.0,"update
+
+I used `sha1sum` to get the same SHA-1 hash as appears in a dex, at bytes 12-31. I used `:%xxd` in vim to see them. I made the hash by deleting the first 32 bytes in a dex (I did this in vim... the trickiest part was knowing to use binary mode `vim -b Main.dex`, or vim modifies the file! There'a surely a better tool for this than vim...), then running `sha1sum` on it. 
+
+I first got the source for dx 1.7 (old version). I had to comment out a couple of junit lines, then it compiled fine, but failed to convert target Hello.class of version java 7. So I recompiled Hello.java with `ecj -target 6 -source 6 Hello.java` (note: `ecj -6 Hello.java` *should* work, but doesn't override the `-7` in the ecj script). This works - though I've not changed the SHA-1 part yet.
+
+Need to use the current version of dx (1.16), to avoid that ecj issue. Found [dx 1.116 src](https://android.googlesource.com/platform/dalvik/+/master/dx/src?autodive=0/) (see tarball at ""tgz"" link). This compiles, but throws an exception, leading to termux issue [#1801](https://github.com/termux/termux-packages/issues/1801) and [fix](https://github.com/termux/termux-packages/commit/56e3efbc2641f5a4a9b318b9be85ce5223535376) ... which is exactly the re-jarring to avoid clashes with android classes that /u/xeffyr alerted me to above.
+
+EDIT OK, I've got jarjar.jar, but (after dexing it), I found it accesses its `help.txt` file in its jar, so won't work in android. I'll need to edit [*its* source](https://github.com/google/jarjar/blob/master/src/main/com/tonicsystems/jarjar/Main.java) too.
+
+    HELP = readIntoString(Main.class.getResourceAsStream(""help.txt""));"
+PS5,fe3hb4m,t1_fe36bme,1578849266.0,Thanks. Do you remember approx when it is said in the recording?
+PS5,fe31kg8,t3_enovu6,1578845059.0,"I like the asym look, nod to the PS4.
+
+But it's gonna be V for Ventilation."
+PS4,fe305et,t1_fe0468t,1578844692.0,The Best Of Ps
+space,fe2zw3l,t1_fe2po26,1578844612.0,what's not so surprising is the moon and yo mama are the same size
+WTF,fe2x7n3,t3_enlku6,1578843865.0,Wait til they turn on the Reality Distortion Field.
+WTF,fe2x1l6,t3_enlku6,1578843780.0,I could really see myself in that train.
+WTF,fe2wjq9,t1_fe23vit,1578843669.0,"Did use rollers, as the train went by?"
+pics,fe2uwrh,t1_fe1pay7,1578843094.0,"Shotgun wedding, Vulcan style."
+pics,fe2u4rq,t3_enmcoc,1578842868.0,boy-being meets girl-being under a silvery moon which then explodes for no adequately explored reason
+termux,fe2qucu,t3_enmhmm,1578841876.0,"> And i kinda have caveman brain.
+
+BTW Feymann says we're all some [kinda apes, kinda stupid](https://youtube.com/watch?v=lytxafTXg6c), at 0:20"
+termux,fe2ohix,t1_fe2g3yd,1578841212.0,"No, it's not a perfect comparison, but for someone who doesn't know what bash is, or what kind of a thing it is, I think it's a very *helpful* comparison.
+
+BTW saying bash is not a programming language is debatable, but that's beside the point.
+
+Yeah, I probably should have omiited the ""exactly"" in `bash is exactly like that`. It was just for emphasis."
+termux,fe275mh,t3_enmhmm,1578835183.0,"> what is bash?
+
+When you type things into termux, and results come back, you are actually typing into `bash`. It processes what you typed, and decides what to do (including running other programs).
+
+Have you done any prpgramming? Bash is a programming language, but you can use it by typing one line at a time.
+
+Have you used `python`?  If you type `python`, you'll get an interactive prompt. You can enter a line of pythjn code, e.g. set a variable, print something etc. Bash is *exactly* like that!
+
+Like python, in `bash`, you can set a variable and print it too:
+
+    msg=""hello""
+    echo $msg"
+termux,fe22o1s,t1_fe0nzye,1578833801.0,Thank you. Don't worry about any of this - good luck with your exams!
+PS5,fe03n2e,t1_fdyw3n6,1578802243.0,source?
+PS5,fe03mfr,t3_enesgh,1578802231.0,"Where is the quote? Must we listen to 1h 26m to find it?
+
+And how do they know?"
+termux,fdw4zdf,t1_fdpr6r0,1578755129.0,"Update:
+
+    md.update(bytes, 32, bytes.length - 32);
+
+The **reads** bytes. Calculates the SHA-1 inside `md`, using all bytes except the *first* 32. Args are `(buf, offset, len)`
+
+    int amt = md.digest(bytes, 12, 20);
+
+This **wrties** into bytes. This puts the resulting SHA-1 20 byte hash (20x8=160bits) into bytes[12...31]. Args are again `(buf, offset, len)`. It returns number of bytes writren (should be 20).
+
+So the dex fileformat contains the sha-1 hash at bytes 12...31.
+
+The checksum (of sha-1 and rest of the file) is at bytes 8..11
+
+    Adler32 a32 = new Adler32();
+    a32.update(bytes, 12, bytes.length - 12);
+    int sum = (int) a32.getValue();
+    bytes[8]  = (byte) sum;
+    bytes[9]  = (byte) (sum >> 8);
+    bytes[10] = (byte) (sum >> 16);
+    bytes[11] = (byte) (sum >> 24);"
+termux,fdvz8es,t1_fdn53q6,1578753378.0,"
+
+Wait, now I think you meant, if I can put together a new version of `dx`, that you could try it on Pie/9?
+
+i.e. a `dx` that doesn't need Android's JCA classes. Maybe I include java code to compute `SHA-1`, or as a quick hack to test, to call out to cli `sha1sum` (seems to be in package `coreutils`).
+
+It might take me a while, but would that work for you?
+
+EDIT Actually, this wouldn't test it, because `dx` is working for you. We need to test it where it fails. Perhaps the emulator? I'll worry about testing after I've done it."
+termux,fdpr6r0,t3_em5wi6,1578637389.0,"/u/xeffyr /u/kcubeterm /u/unbyte  /u/Cherrybomb15
+
+Error from [Java on my S10+ Refuses to Work's image](https://preview.redd.it/b77y6lkkqo841.jpg?width=1080&format=pjpg&auto=webp&s=744d305071ef4e4acd2c38a0e07e8d553f3c8aac  --- BTW please please please cut and paste text next time, so much easier to work with!) starts when here in `dx`'s [DexFile.java](https://android.googlesource.com/platform/dalvik/+/a9ac3a9d1f8de71bcdc39d1f4827c04a952a0c29/dx/src/com/android/dx/dex/file/DexFile.java)
+
+    private static void calcSignature(byte[] bytes) {
+        MessageDigest md;
+        try {
+            md = MessageDigest.getInstance(""SHA-1"");
+
+BTW: different 'dx' version from the stacktrace above: line numbers differ and even class hierarchy is factored differently...
+
+In `toDex0`, it calculates the signature, and the checksum, which are appended to the end of `byte[] barr`, the dex file being generated.
+
+
+I guess I could just try commenting out these parts, so there's no signature/checksum, and see if it works on my device, an Android 5 phone.
+
+EDIT The nice thing about SHA-1 is it just calculates a hash - there's no key involved! So, there should be no problem with replacing this part.  Of course, there might be other problems we haven't seen, and the stacktrace Exception stopped it on only the first problem.
+
+Could scan the source for other JCP usages."
+termux,fdpofzx,t1_fdn9ym2,1578634619.0,Thanks for trying this! That's the first time I've played something in asciinema on the CLI - cool. I see you used your own hello world after all.
+termux,fdpocpl,t1_fdne1yy,1578634532.0,"That's plausible; though I'm surprised it would keep the cache intact over such a dramatic change. OTOH if it doesn't have to flush the cache, it's more convenient to the user to leave it there."
+termux,fdn78y0,t1_fdn53q6,1578579203.0,"Thank you very much!! That's very kind of you.
+
+It's not the source so much, but the `dx` tool, so hello world will do:
+
+    $ cat Hello.java
+    class Hello {
+      public static void main(String[] args) {
+        System.out.println(""hello world"");
+      }
+    }
+
+Need to install `ecj`, `dx` if you don't already have:
+
+    apt update; apt install ecj dx
+
+Then compile with `ecj` (should be OK), and `dx` - should be a problem!
+
+    ecj Hello.java
+    dx --dex --output=Main.dex Hello.class
+
+The proposed soln is to prefix the `dx` command with `proot -0` (that's a zero, not a capital `o` - best to cut and paste). You may need to install `proot` first:
+
+    apt install proot
+
+    proot -0 dx --dex --output=Main.dex Hello.class
+
+But /u/xeffyr found it didn't work, and shouldn't work, except by coincidence. If it does work, run it with:
+
+    dalvikvm -cp Main.dex Hello
+
+Sorry if I've gone into too much detail, I just thought it easier to lay it out for copy-and-paste."
+termux,fdn5w1r,t1_fdn4rb5,1578578155.0,"> Likely it was just a trigger for reusing old entries from Dalvik cache which contain JCA classes
+
+Maybe could trigger usage of those classes, to populate the cache? Though seems... unreliable!
+
+> even older version of DX.
+
+Wouldn't older versions of `dx` also not work, because they use jca?"
+termux,fdn52vd,t1_fdn28v2,1578577510.0,"A simple solution might be for me to edit the source of `dx` so it doesn't need jca (or use a Provider I include), and recompile.
+
+But dalvik/ART might check for a specific signing key... I mean, that's the point of signing a dex with a cert, isn't it? /u/xeffyr"
+termux,fdn469c,t1_fdmsk08,1578576767.0,"BTW /u/xeffry confirmed `proot -0` [doesn't work](/r/termux/comments/ejrasu/java_on_my_s10_refuses_to_work/fdn28v2/)
+
+Reading manpage, `proot -0` runs as if root - pretty cool. BTW for fun I did try it on my phone (android 5), and `dx` worked - just as if does without it."
+termux,fdn3y3s,t1_fdn28v2,1578576580.0,"You got hold of a Pie/9 phone to test it on?  Thanks!  
+Yes, it seemed bizarre that it worked for OP."
+PS5,fdmu8sf,t1_fdmnjcx,1578566047.0,logo literally *means* thought
+termux,fdmtx0t,t1_fdmsk08,1578565602.0,"Thanks!
+
+> Did you try it inside proot (like advised in the linked thread) ?
+
+I don't have a Pie/9 phone yet; I'm thinking of buying one.
+
+
+> If you are serious about Java turn maybe a better option would be to install Arch Linux inside proot and then install OpenJDK.
+
+That sounds sensible! It would also give other tools, like `javadoc`.. proot would be slower, and arch linux less power-eff, but maybe OK.
+
+Do you know if anyone has actually had java working like this?"
+termux,fdmiy7s,t1_fdgorlm,1578551591.0,"Really? I've been so worried about this!
+
+So, now `dx` runs without giving that error you posted?
+
+I thought, from other comments by /u/xeffyr, that the problem was no jca provider, which proot wouldn't fix.... so I don't understand how that could have fixed it, or what the problem was..."
+PS5,fdluqm8,t3_em1t8y,1578532954.0,"Since everything announced so far is common to Scarlett (CPU, GPU, SSD), *any* unique elements will be the ""biggest""..."
+funny,fdlswhv,t3_elycul,1578531717.0,*I'll just paint this little tree*
+aww,fdfnmt4,t1_fdfn91z,1578365872.0,what's down dog?
+aww,fdfn6t0,t3_el1g2a,1578365577.0,up dog
+termux,fdfkya6,t1_fddwf4h,1578364115.0,"Thanks. I'm confused - this seems a different answer from before. I think I'm mixing too many concerns here.  
+And maybe there's also many issues I don't know about here, that stop me understanding.
+
+I think I'll submit a new post, with only my one most important concern."
+termux,fddo4rv,t1_fddhz6g,1578319262.0,">> I guess this is out on Android Q/10 due to exec, but does it work on P/9?
+
+> Unless Termux app will bump target SDK to 29, it will work
+
+But doesn't termux have to do that? i.e. that's the issue with the stickied [No more exec from data folder on targetAPI >= Android Q](https://github.com/termux/termux-app/issues/1072)
+
+> EDIT  re-reading, it's guessed to be a year after imtroduced, maybe Nov 2020
+
+I think you're saying termux will be fine on Android Q, provided it doesn't bump to target SDK 29?  If so, what's the time frame for the bump? (or is it unknown).
+
+Anyway... it looks like java is out, even on Android P, with this `dx` problem.
+
+From https://github.com/termux/termux-app/issues/1072#issuecomment-474385386
+> For users to be able to extend it with their own native code, they would need to have their own build of Termux signed with their own key, along with scripting for generating new extension apks out of their code. There might be a better approach than my suggestion. It was just intended as a starting point.
+
+OK, that's one way. But if any java is needed, it won't work, because of this `dx` issue, I think?"
+termux,fddnbcw,t3_ekr7bn,1578318537.0,"I found `man` auto-formats to page width.
+
+Workarounds: in `less` output, right-arrow on a too-long line scrolls horizontally (by several characters).
+
+in `vim` (with `:set nowrap`) moving to the right side of the screen causes a similar scroll.
+
+A while back, I looked into the termux source for horizontal scroll, and there are several layers involved."

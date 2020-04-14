@@ -1,0 +1,156 @@
+subreddit,self ID,parent ID,time,text
+xboxone,ffgwmq6,t3_etj2z4,1579916938.0,I would do this. My Xbox has been collecting dust as I work through my backlog of Switch games.
+SwitchHacks,ffgvgk0,t1_ffgtd0x,1579916081.0,"Local match is fine, I've done it myself. You can also use a homebrew such as TinFoil to remove just the update and then re-install it."
+motorcycles,ffgpm7h,t1_ffgp5y2,1579911852.0,"> Welcome to your opinion
+
+> Nobody cares about opinions
+
+Pick one."
+motorcycles,ffgo89l,t1_ffgins6,1579910873.0,"> isn’t on the front page very often
+
+Gee, I wonder why after seeing this guy try and ride between the lanes."
+PoliticalHumor,ffgnng0,t1_fff4pq6,1579910467.0,“Banning guns wouldn’t have prevented a situation like this.”
+SwitchHacks,ffg27io,t1_ffg24jc,1579896862.0,"Hmmm, if that’s the case the easiest thing to do is reinstall just the updates and see how it goes."
+WTF,fffwzr0,t1_fffvf0o,1579893640.0,"I heard the iPhone does that, but not sure about the various Android models."
+SwitchHacks,fffhhp7,t1_ffc2zsq,1579884066.0,"[https://team-xecuter.com/happy-holidays-from-team-xecuter/](https://team-xecuter.com/happy-holidays-from-team-xecuter/)
+
+[https://www.maxconsole.com/threads/exclusive-leaked-pictures-of-the-upcoming-team-xecuter-modchip.55273/](https://www.maxconsole.com/threads/exclusive-leaked-pictures-of-the-upcoming-team-xecuter-modchip.55273/)"
+SwitchHacks,fffh2p3,t1_fffgjja,1579883808.0,"Just reply here, I'm not going anywhere."
+SwitchHacks,fffduzc,t1_fffdfej,1579881791.0,"Personally I just skip Hekate and use fusee primary to go straight into Atmosphere but it's a preference thing. Go here: https://github.com/Joonie86/hekate/releases
+
+Download the package called Kosmos_patches_12_08_2019_bootconfig.zip
+
+Extract it to your SD card overwriting anything it asks to overwrite. Then you'll need to reboot to Hekate again and launch CFW for it to take affect."
+SwitchHacks,fffd81b,t1_fffd4fo,1579881389.0,"Dumping the physical games and installing them still need the same patches, so that would only waste time. How do you boot your CFW? Through Hekate or directly with fusee primary?"
+SwitchHacks,fffcjzg,t1_fffc86o,1579880970.0,"No this is only for physical games. Are your installed games... legit? If not, you may also need to update your patches for 9.0 to allow those games to play."
+SwitchHacks,fffcei9,t1_fffbu5y,1579880876.0,"First of all, you shouldn’t. It causes a lot of problems, more so for macOS users. Second, here’s how to properly remove the archive flag on macOS via Terminal:
+
+`sudo chflags -R arch /Volumes/SD/switch/`
+
+Change SD for whatever you MicroSD cards partition name is. Only do this on the Switch folder and never on the Nintendo folder or the whole card."
+SwitchHacks,fffbwy3,t1_fffbqkv,1579880570.0,"If you absolutely hate booting CFW using RCM then you may want to stick on 8.x in the hopes that a software means of booting CFW is developed. If you don’t really care about using RCM to boot CFW then no, go ahead and update."
+SwitchHacks,fffbqz7,t1_ff7diwd,1579880463.0,"The Switch, like the 3DS, actually has two internal clocks. There’s the one you can change and then there’s one you can’t. The Switch keeps track of the difference between these two clocks. This is done so that if you alter the time the Switch knows and will disable any time based events in games (things that reset every 24 hours for example. Seen a lot in Pokémon and Animal Crossing). When you restored the changeable clock was also restored but not the hidden internal one. 
+
+There is a homebrew that lets you alter the hidden clock and allows you to skip time based events."
+SwitchHacks,fffbaev,t1_ff99dni,1579880169.0,"You’re using exFAT, aren’t you?"
+SwitchHacks,fffb6dd,t1_fffb037,1579880097.0,They don’t need to be but Nintendo occasionally updates the firmware for the game card slot. It was updated in 9.0. By default Atmosphere blocks this update from happening. Without the update the game card slot won’t work on 9.0 (but will work on 8.x should you boot stock). You can disable the protection and update your game card slot firmware but then it will stop working on 8.x and only work on 9.0+
+SwitchHacks,fffatjv,t1_fffakmp,1579879868.0,"I don’t mean the CFW version, I mean the actual Nintendo firmware. Is the Nintendo Firmware version on your emuMMC newer than the Nintendo Firmware version on your SysMMC?
+
+After moving the games to your emuMMC’s Nintendo folder double check that all the folders insides the Contents folder have the archive flag set. On Windows right click on a folder inside the Contents folder, go to properties, click Advanced and see if the box for archive is filled. It needs to be filled for all the folders in the Contents folder."
+SwitchHacks,fffa7nb,t1_fff9yq9,1579879481.0,"As for installed game not working, you need to move or copy the games from your SD:/Nintendo folder to you emuMMC Nintendo folder. Where that folder is located is in the emuMMC.ini file. 
+
+As for physical games not working, is your emuMMC on a newer firmware version than your stock firmware?"
+gaming,ffe68ua,t1_ffe51t6,1579837798.0,Hello fellow Mainer.
+gaming,ffe6103,t1_ffe5ekk,1579837631.0,"""Nintendo, give me free stuff."""
+pokemon,ffdq87q,t1_ffdq5z7,1579826334.0,"Yeah, I recognized it which is why I was so surprised to see the delay but OP cleared it up for me."
+pokemon,ffdobn5,t1_ffdo9eo,1579825140.0,"Ah, so it’s a mode you can turn on and off?"
+pokemon,ffdo1ks,t3_et1oym,1579824970.0,"Wow, the delay on that stylus is insane."
+aww,ffdkwan,t1_ffdktcr,1579823044.0,I didn’t. I said they suffered. Suffering comes in many forms and intensities. Don’t gatekeep suffering.
+talesfromtechsupport,ffdh4cb,t3_eszgue,1579820741.0,Today’s numbers are all uppercase. Here’s what lowercase numbers used to look like: https://en.wikipedia.org/wiki/Text_figures
+SwitchHacks,ffdg8e1,t3_esmvtj,1579820223.0,Man I want this on my Switch Lite so bad.
+aww,ffcta4m,t1_ffc429m,1579806811.0,"So it can join the ranks of other animals that humans have brought into existence for a life of suffering such as the chicken, cow, pig and any other animal we have a grand purpose for that we feel outweighs the importance of the creature’s own well being."
+aww,ffcsj3s,t1_ffclsiu,1579806371.0,It’s cutting edge teddy bear technology.
+WritingPrompts,ffcom6z,t1_ffck8tf,1579803905.0,"While this a great (but long) read the prompt was about Witcher’s, not Witches, lol."
+NintendoSwitch,ffap47o,t1_ffai1fw,1579741186.0,"But, you see, Nintendo has to pay for the bandwidth expended with allowing you to download the game and even though it only costs them a fraction of a cent they absolutely need the full cost of your pre-order to cover that bandwidth and electricity spent."
+NintendoSwitch,ffaouki,t1_ffama08,1579741010.0,It's not good. That's why they were getting sued for it and why this outcome is a shitty one making the news.
+Breath_of_the_Wild,ff9jp94,t1_ff99225,1579714451.0,"They actually said why they didn’t include a dog petting animation in an interview. I’ll look for the link and edit it in later if I find it but if I recall it was something along the lines of every action and animation Link does is tied to the games engine and that each animation is reused in a lot of tasks but that dog petting would have been a unique animation for Link that couldn’t be reused for anything else so they didn’t add it in.
+
+Edit: https://www.ign.com/articles/2017/12/09/zelda-breath-of-the-wild-director-explains-why-you-cant-pet-the-dogs"
+Breath_of_the_Wild,ff9j1wk,t1_ff9fv01,1579714065.0,"This was the concept art for the game before it was made. So some of these things made it into the game, others did not."
+HistoryAnimemes,ff9ip3z,t1_ff8ss0l,1579713851.0,"Came here to see if someone would post these, lol"
+Instagramreality,ff88h3c,t1_ff80ooc,1579669054.0,"Only downside is having to constantly shoo your significant other out of the room you hang all your spare boobs in. And track down any ""missing"" ones."
+NintendoSwitch,ff7rbzi,t1_ff6t26i,1579656478.0,"While Moonlighter is a good game that involves dungeon delving for loot to forge armor, weapons, potions, and enchantments along with a fun merchant aspect where you sell off your excess to fund your improvements to the town and your gear it does have an end. Eventually you’ll beat the last boss, craft all the weapons and armor, enchant everything to its max level and upgrade your shop and the town to its limits at which point there’s no real reason to play anymore. It’s not a never ending game with randomized weapons or armors or anything like that and it’s not getting continuous updates for more content like Diablo or Warframe. So while I feel it’s a good game, keep in mind you can ‘beat’ it."
+NintendoSwitch,ff7qd2d,t3_er98ys,1579655800.0,"This is because at the time you got your Switch there wasn’t a true Hong Kong eShop. You had to buy game codes and then redeem those codes. However, at the end of 2019 a true Hong Kong eShop launched: https://nintendosoup.com/fully-functioning-nintendo-switch-eshop-to-launch-in-hong-kong/
+
+Now that there’s an official shop they don’t want you using an out of region one. On top of that a new version of the Switch launched in China in collaboration with Tencent to allow region locked physical games to be released in China that will only work on these new Switches: https://www.forbes.com/sites/erikkain/2020/01/09/tencent-nintendo-switch-game-cartridges-will-only-work-in-china/
+
+So basically the Switch market in Hong Kong and China became more developed immediately after you bought your Switch and now Nintendo is trying to force you to use your own region’s eShop instead."
+NintendoSwitch,ff7oa2c,t1_ff6axqa,1579654333.0,It did come out for Vita... in Japan. But if you have a hacked Vita there’s a translation patch for it.
+HighQualityGifs,ff6xwur,t1_ff64szo,1579637158.0,"Top left, 0:16"
+xboxone,ff66aki,t1_ff66855,1579620162.0,I’ve heard this and hope it’s true. I changed my tag before the new system kicked in to ensure I had a unique one.
+HighQualityGifs,ff65iow,t1_ff60hlo,1579619629.0,"Yeah, that confused me in the movie too when Peter asks “How do I know I won’t mess it up again?”, Miles responds “You won’t.” when it really should be “You don’t”."
+SwitchHaxing,ff62deq,t1_ff5otxs,1579617386.0,The unique certificate on your game card is discarded and not used with this install method.
+xboxone,ff5xxag,t1_ff5xbj5,1579613864.0,Because you don’t need to come up with something original in the new system. All tags now have an auto generated tag number at the end so people can use the same gamer tag.
+NintendoSwitch,ff48b40,t1_ff45e11,1579557724.0,[https://youtu.be/O4wGalssNls](https://youtu.be/O4wGalssNls)
+NintendoSwitch,ff48a0q,t1_ff426rc,1579557705.0,">Zelda BOTW X ring fit
+
+[https://youtu.be/O4wGalssNls](https://youtu.be/O4wGalssNls)"
+KitchenConfidential,ff2fgdn,t3_er0zir,1579503894.0,Should have been Kristoff from Frozen.
+NintendoSwitch,ff1z87y,t1_ff1q3m6,1579489623.0,"Just to be clear for anyone else reading this, the Microsoft Adaptive controller is not natively compatible with the Nintendo Switch. You need to use another adapter from a third party that translates Xbox controllers to the Switch, such as this one: [http://www.mayflash.com/products/nintendowiiu/magic-ns.html](http://www.mayflash.com/products/nintendowiiu/magic-ns.html)"
+niceguys,fey9kpr,t3_eqszqv,1579442565.0,“... she says as she gives me that coy and seductive smile.”
+NintendoSwitch,fenj7vz,t1_feni44g,1579285855.0,"It’s specific to Argentina since they don’t have an eShop on the Switch itself, they use the US or other region shop. The Argentina eShop is only a website with cheaper prices. Giving codes is the only way to allow them to use the US eShop while getting different pricing."
+NintendoSwitch,fenh43t,t3_eq1ly9,1579284560.0,"I just bought Moonlighter used from Amazon Warehouse. The game was fine, it still had the manual, the artwork was fine. The case had a small crushed part towards the corner and lots of stickers on it impossible to remove. This didn’t bother me though as I bought some empty Switch cases from Nintendo due to GameStop shenanigans so I just moved the artwork into a fresh case. Would buy again."
+BustyPetite,fem4yhb,t3_epulwf,1579239924.0,/r/ghostnipples
+BustyPetite,fejvwud,t3_ephm6c,1579187072.0,"Magic word is... repost!
+
+
+https://www.reddit.com/r/RealGirls/comments/eay6xf/if_you_say_the_magic_word_ill_open_my_legs_for_you/"
+DnD,feftqw7,t1_feffzbz,1579064932.0,There's a link in this thread from OP for a PDF copy with a 90% discount (making it $1.99). Hardcover is not for sale.
+NintendoSwitchDeals,fedw35l,t1_fedtmgq,1579021117.0,Won’t let me change region. It’s greyed out and stuck on US.
+NintendoSwitchDeals,fecr0t6,t1_fec1i6p,1578981401.0,"You can?
+
+[https://en-americas-support.nintendo.com/app/answers/detail/a\_id/45047/\~/how-to-transfer-your-save-data-to-a-nearby-nintendo-switch-system](https://en-americas-support.nintendo.com/app/answers/detail/a_id/45047/~/how-to-transfer-your-save-data-to-a-nearby-nintendo-switch-system)"
+NintendoSwitch,fe9k1av,t3_eo75wr,1578938518.0,He needs to either deregister via the eShop on the Switch or from Nintendo’s website. If he doesn’t remember his password then he needs to do what everyone else does and follow the Forgot Password instructions on the Nintendo website.
+GameSale,fe6374q,t3_enx7am,1578880758.0,"Posting to say I received 2 each of Hotline Miami Collection, Stardew Valley, Wargroove, and Katana ZERO from this seller."
+NintendoSwitch,fdzga9e,t1_fdz5iut,1578789959.0,What did you change to fix it? Mine worked on one purchase a few hours ago and now refuses to work again.
+NintendoSwitch,fdzbjh5,t1_fdz7nlt,1578788530.0,I was able to get to the credit page and enter in my card number but upon submitting you get a generic ‘can’t process transaction contact credit card or support.nintendo.com' message.
+NintendoSwitch,fdzba7j,t1_fdzb50l,1578788463.0,"Mine were a few hours apart, that may have been a factor. I’m not the only one in the thread where it suddenly stopped working."
+NintendoSwitch,fdz70e1,t1_fdz6u15,1578787284.0,"Yeah, tried to make another purchase about 4 hours later and I can’t get it to go through no matter what. I even made a new account and used a VPN."
+NintendoSwitch,fdz3tv3,t1_fdz2wko,1578786355.0,"Damn, I can't make any more purchases. It's like you only get one shot and then that's it. Wish I had known that before hand."
+NintendoSwitch,fdyuvkv,t1_fdys1w1,1578783846.0,"Sorry, I tried to buy some more and now all my payment methods are getting declined. I think they're on to us."
+NintendoSwitch,fdyrpv9,t1_fdx4cwk,1578782864.0,Doesn't work for me anymore. Guess the account is flagged.
+NintendoSwitch,fdyobol,t1_fdybu9s,1578781904.0,My MasterCard from Capitol One worked fine.
+NintendoSwitch,fdx4cwk,t3_en8vjn,1578765200.0,Just grabbed Stardew Valley finally for $2.41 USD. Thank you for this post.
+gameswap,fdwf4nc,t3_emqkhu,1578758089.0,This offer is still up for anyone reading this.
+NintendoSwitch,fdts9qh,t1_fdtmemt,1578721407.0,"Yeah, like I said it gets easier later on in the game but you’re not gonna have 3 Platinum Sukamon and Tactician USBs until you’re a bit into the game and if OP can’t hold out that long then it’s wasted money for them."
+NintendoSwitch,fdth0ih,t3_emx9ko,1578716631.0,"1. Yes
+
+2. No, just make sure the Lite is set as your Primary console. DLC will require that the regular Switch has internet. 
+
+3. Same across both
+
+4. Yes"
+NintendoSwitch,fdtf3fl,t3_emydyh,1578715851.0,"You said you enjoyed the Pokémon games. Imagine Digimon as like Pokémon but every time you evolved your Pokémon they’d start back over at level 1. And instead of 3 forms maximum, your Pokémon could have up to 6. And instead of a party of 6 it’s a party of 11. And sometimes you de-evolve them back to an earlier stage (again having the level reset to 1). 
+
+That’s Digimon Story Cyber Sleuth. The only saving grace to protect you from the constant leveling you’ll be doing is that all members of the party get experience after battle which makes leveling low level Digimon fairly quick but also there’s a farm where you can leave a bunch of Digimon (like 30) to level up on their own while you play. And on the Switch version specifically, the farm Digimon will continue to level while the Switch is in sleep mode. 
+
+If the part of JRPGs that you don’t like is all the level grinding then I can’t really recommend Digimon. While gaining levels does get a lot faster towards the end of the game that initial 1/3rd is gonna be torture for someone who doesn’t enjoy grinding."
+NintendoSwitch,fdtdh5p,t1_fdtcrve,1578715193.0,"Nope. Once an account is attached it’s permanent. You’d have to make new profiles but then they wouldn’t have access to their saves. 
+
+Also be careful, since their profiles are attached to your account, that means they will upload their saves to your cloud save. This could cause issues where one overwrites the save of another if any of you play the same games."
+NintendoSwitch,fdrzpzc,t3_emuvwh,1578692170.0,"Alright, now it’s the same price it’s been at Walmart since launch."
+pokemon,fdrze42,t1_fdrzcw4,1578691971.0,Next month.
+pokemon,fdrzajt,t1_fdrvlma,1578691911.0,Not when Home comes out because the Pokémon data still needs to be in the game. So you’ll need to wait for the update from the DLC to hit before you’ll be able to transfer them over in Home.
+gameswap,fdqucim,t1_fdqsj04,1578675031.0,"And Bea >_>
+
+And also I’ve been liking Swords Gigantamax events more like Coalossal."
+pokemon,fdqipwk,t1_fdqie6i,1578667653.0,"Ah yes, that’s right. That’s how the G-Max Meowth and Yamask worked. There’s so many mechanics I’m having a hard tune keeping them all straight."
+pokemon,fdq93e0,t1_fdpimts,1578659821.0,Not even with Everstone and a Ditto?  Normally having a regional variant hold an Everstone while breeding will produce a Kanto offspring.
+pokemon,fdq8mpj,t1_fdq8iye,1578659348.0,"Shit, you’re right. Even the item description changed. It used to be able to do this, sorry."
+pokemon,fdq8ien,t1_fdpqsao,1578659224.0,You actually managed to lose? I tried and couldn’t. He just spammed status moves on me until I ran out of PP on my own status moves and was forced to KO him.
+pokemon,fdq8do1,t1_fdppwhi,1578659087.0,Yes there is. Using an Ability Capsule on a Hidden Ability will turn it to one of its two common abilities. Be warned that the Ability Capsule cannot re-grant hidden abilities though.
+WTF,fdppu9h,t1_fdpmz63,1578635997.0,Why do I do this to myself.
+pokemon,fdpo23c,t1_fdpjrm0,1578634255.0,"In the direct he literally says that the DLC’s are something they’ve been working on “for a long time”. Considering the interview was 2 months ago, I would find it hard to believe their concept of “a long time” being less than 8 weeks."
+pokemon,fdpnhap,t1_fdpn1ow,1578633719.0,"Doesn’t matter where you buy it from (Primary Switch, website, someone else’s Switch) what matters is the account you make the purchase with. Whatever console is registered as the Primary Console for that account can share the games and DLC with all other profiles on that Switch. If you change the Primary Console assigned to that account then the profiles on the old Switch will suddenly stop being able to play."
+pokemon,fdpmbfj,t1_fdplw7y,1578632669.0,https://en-americas-support.nintendo.com/app/answers/detail/a_id/22266
+pokemon,fdp7i40,t1_fdp44hv,1578621807.0,"If the Switch is Profile A’s registered home console, yes."
+pokemon,fdp79ry,t3_ekrm4t,1578621653.0,"So I know this isn’t really the subreddit to post this which is why I’m asking here to find where to go. 
+
+I bought Pokémon Shield for Switch on physical cart and regret it. I would rather have Pokémon Sword. Any like minded person or place I can go to maybe facilitate a swap?"
+gravityfalls,fdolnf0,t1_fdnp9yl,1578607655.0,Dipper gets his first journal in the official comics. If you haven’t read them you really should.
+gravityfalls,fdola3n,t1_fdo33fl,1578607435.0,Dipper starting his own was in the comics. Specifically the one with the multi-verse Mabels.
+gravityfalls,fdol71y,t1_fdoe6ye,1578607383.0,"The one with the Fez is Soos, the one with all his teeth is his son."
+NintendoSwitch,fdnzmit,t3_em587a,1578596083.0,I know someone getting a Switch Lite for their birthday and this game would be right up their alley.
+pokemon,fdlj8pr,t3_elwyad,1578525231.0,"I want a new Pokémon Trading Card game. Not the one currently available on PC and tablets, but a new one with a storyline like for the GBC."
+pokemon,fdlj2cj,t1_fdkggns,1578525116.0,"Actually in Sword and Shield? Not a lot. Experience earned is capped by your badge count. For example, if you have no badges and thus can only catch Pokémon up to level 20, if you were to battle and defeat a level 60 (as seen here in the comic) then at the end of battle you're only awarded the amount of EXP that a level 20 would have given you.
+
+It's to prevent going around the Wild Area and power leveling in the early game with a move like Toxic or Destiny Bond."
+NintendoSwitch,fdjy9gh,t1_fdjidkf,1578491242.0,$40 for National Dex and missing Pokémon DLC.
+AskReddit,fdg610v,t1_fdg5tau,1578381437.0,Really don't think she's the main character...
+ShittyLifeProTips,fdeizc0,t1_fde7d2i,1578340035.0,You get it back if you return the cart to the corral. It’s to encourage people to put their carts away rather than leave them in the parking lot.
+ShittyLifeProTips,fdeim5u,t1_fdec7fz,1578339814.0,Because he stole a shop I g cart from the market.
+Showerthoughts,fdegu6j,t1_fdefgw9,1578338725.0,"I’m sure you’re trolling but in case you aren’t, the idea is that other predators struggle to survive and live their life from meal to meal, in a world where the amount of calories you have dictates how long you’re going to live. 
+
+Then you’ve got humans over here, who have such an excess of calories that we purposefully burn them away in unproductive physical activity just to look like we’re not living a life of luxury."
+NintendoSwitch,fdeewp5,t1_fdeer45,1578337528.0,"Yep, I got it completely backwards."
+NintendoSwitch,fde8k2g,t1_fddt690,1578333535.0,"Haha, I had no idea that XC1 released for the 3DS, I thought the only XC game on the 3DS was X. Thanks for the info!"

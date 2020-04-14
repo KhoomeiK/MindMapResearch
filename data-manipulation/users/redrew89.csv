@@ -1,0 +1,166 @@
+subreddit,self ID,parent ID,time,text
+skyrimmods,ffj0p5m,t1_ffi9wh0,1579987444.0,"I'm of two minds on this point. There are many followers who are more morally adaptable to the player and don't have any defined moral alignment of their own. Also, some of Lielle's character does tend to speak to her specific moral framework, which is informed by her experiences in her backstory, which factors into some of her reactions to certain factions and characters. 
+
+That said, I have the beginnings of an idea on how a morally-ambiguous, or even fully evil player character could corrupt her. It's not something I plan to implement for a good while, though."
+skyrimmods,ffi8m3l,t1_ffi84bx,1579967904.0,"At this time, I'm not sure how possible an Xbox port will be. There are some planned features in this mod that might require SKSE, in the future. I'll revisit the idea after I've gotten more content built."
+skyrimmods,ffg11wo,t1_ffg0j2h,1579896146.0,"She has a patch for Obscure's College. Choose Your Own Archmage shouldn't conflict, but she may still refer to you as Archmage. I might be able to condition against that in a later release. Otherwise, I think she'll be okay. You're welcome to try her out now or wait, up to you.
+
+&#x200B;
+
+Also, she may bombard you with her various dialogues. I eventually plan to go back and rework her introduction lines to give you more options to skip some of it."
+skyrimmods,fffy43u,t3_etf3tc,1579894335.0,"# Additional Infos:
+
+We have a [Discord](https://discord.gg/h4aEZm9)! If you want to talk about Lielle, feel free to stop in.
+
+All patches are considered experimental. Particularly the EFF patch. It does work, but can cause issues with her combat AI changes and targeted healing. If she stops using spells, use EFF to remove any spells she has and then teach her some new ones. 
+
+If you use Nether's Follower Framework, or AFT, she should work within those systems, but I have not thoroughly tested either. If you notice issues with her AI, please let me know.
+
+The Arcane Research quests have been updated and streamlined for hopefully better and more consistent behavior than 0.3.0b. If you experience issues, let me know and try to be specific about which quest is causing the issue.
+
+The new content I've added contains of a heavily-scripted cut scene quest. It is mostly unvoiced, currently, and may get stuck, especially if you don't have Fuz Ro D'oh installed. Please let me know if you have issues with this specific quest. You'll know it when you see it."
+skyrimmods,fffxk4t,t1_fffxeik,1579893990.0,"I was planning on holding off for a bit until more of the dialogue was voiced, but I was seeing a lot of reports regarding broken research quests on the old 0.3.0b release, so I decided to do a quick pass on them and then package this release."
+skyrimmods,ffaon1c,t1_ff9xib0,1579740871.0,"I think a lot of the misinformation comes from the idea that mod authors, ever fed the fuck up with user complaints of ""ur mod broke mai gaem. u bad!!!"", began giving over-cautious instructions regarding save file maintenance and starting new saves when removing or adding mods to reduce the headache involved when people do it the ""wrong way"".
+
+In my casual observation, cleaning scripts from your save when removing a mod works well for most mods, but isn't a guarantee for all mods. Some very heavy mods will never be fully scrubbed from a save file, which ultimately does entail a new save if you want to completely clean the old crap away. 
+
+That being said, if you're knowledgeable about the game, modding and save maintenance, what you do is your choice. When an individual doesn't know what they're doing and then whines because ""it's broken"" does it cause an issue."
+skyrimmods,ff9i8dm,t3_epbhwh,1579713575.0,"ANNOUNCEMENT:
+
+It has since come to my attention that mods developed in SSE CK64 cannot be safely back ported to LE in the manner I had attempted. Per u/Arthmoor, doing so can cause significant errors and potential save corruption. If you have previously installed the Classic Edition version of Lielle on Skyrim Legendary Edition, do yourself a favor and UNINSTALL NOW, and clean your save thoroughly with {FallRim Tools}.   
+
+
+I cannot, in good conscience, distribute files that may potentially cause corrupted save files. I apologize to those users on LE who wish to continue adventuring with Lielle. I may, at some point in the semi-distant future, release a Classic Edition version of Lielle, but cannot guarantee when or if that will happen."
+skyrimmods,ff4sb29,t1_ff4a05d,1579571245.0,"I haven't noticed any issues with it, but maybe I wasn't paying attention enough."
+skyrimmods,ff3sclm,t3_erg9h5,1579547801.0,"I've found {Every Attack Different} has a good module for one hand attacks. It's meant to be used with your preferred flavor of PCEA, so I'm not sure if that's quite what you want, but check it out."
+aww,ff3rp5i,t1_ff3iezi,1579547402.0,Or Evangelion.
+skyrimmods,fewo2aw,t3_eqrgsq,1579416592.0,"You could try to locate the mesh used for the enchantment magic effect, and increase the scale, possibly."
+skyrimmods,felzhmv,t1_felw174,1579234993.0,"Glad to hear! And, don't worry about aggressively tracking down those bugs. I have a couple dedicated play testers who are helping me nail down any issues. 
+
+In general, I'm just looking for feedback in terms of quest design and features that people want to see expanded."
+skyrimmods,fel8fbr,t1_fel3g6e,1579216308.0,"She currently has no personal stake in the Civil War, but has a notable dislike of the Thalmor, for both personal and philosophical reasons. 
+
+The only point where she draws the line is with harming the innocent, particularly children."
+skyrimmods,fekhnm2,t1_fejh344,1579200241.0,"Be advised, you will probably want to make a replica of the original Gauldur Amulet before having Lielle study it. Her research quest for that artifact in particular replaces it with an improved version, which may not work with LoTD."
+skyrimmods,fekhipf,t1_fejekzs,1579200160.0,"I haven't spent much time with Lucien, yet. I have him installed in the live-testing profile I use for Lielle builds, so I'll have to track him down and add him to the party, at some point. 
+
+I'm still trying to brew up clever and entertaining interaction between Lielle and other followers, so exploring the other popular follower mods for inspiration is on the docket."
+skyrimmods,fek4uh2,t1_fek0ea9,1579192638.0,"I'll edit the post with a more direct link to the Nexus page. 
+
+While Lielle was designed to be conventionally pretty, she's not intended to be super-model tier. YMMV."
+skyrimmods,fek0wo7,t1_fejzr1d,1579190233.0,"That was a semi-conscious decision on my part. My primary development workflow was migrated to Special Edition and CK64, and there seems to be some issues plaguing the RS Children port for SSE. I may go back and look at doing a patch, but for the moment I generally run with TK Children as my preferred child replacer."
+skyrimmods,fejy1gu,t1_fejcd6y,1579188445.0,"Compatible? Yes, I see no reason it wouldn't* be. There is no patch included for it, so the three child NPCs that (briefly) appear for a specific quest may look a bit off, but that shouldn't impact basic functionality, nor drastically undermine the scene they appear in."
+skyrimmods,fejxsrx,t1_feja8sp,1579188291.0,"That's really where I start. It helps that some of Lielle's personality traits are mine, as well."
+skyrimmods,fejxjkz,t1_fejixh6,1579188129.0,"I think you might be confused. Lielle doesn't edit any base game scripts. This version sees revision to some of her own scripts and quests to improve performance and stability, which is why I suggested a full uninstall for users of 0.3.0b.
+
+EDIT: Furthermore, if you are that concerned about conflicts, don't use this mod. No one has a knife to your neck over it."
+skyrimmods,fej9b71,t1_fej8u6t,1579162530.0,"Regrettably, I don't currently have plans to release on console. I will have to look into it, after more of the basic content is built."
+skyrimmods,feix41k,t1_feiwsnh,1579149616.0,"I take great pains to make Lielle a somewhat believable female character. A struggle, given my actual gender... I have to be very careful to avoid the pitfalls of r/menwritingwomen"
+skyrimmods,feiwa4s,t1_feive7h,1579148945.0,"I keep the innuendo to a minimum. Lielle is much more practically-minded that Sofia.
+
+It's entirely likely that if I end up making an interaction patch for the two followers, Lielle might call Sofia out for being overly flirtatious.
+
+Edit: For an example video, check the [Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/26983) page."
+skyrimmods,feiq29a,t1_feio01i,1579144378.0,"You shouldn't have any issues with loading her onto an existing save. If you've already started some of the Winterhold content, she may bombard you with her opening dialogues, but that won't take long to get through."
+skyrimmods,feinu51,t1_fein9cc,1579142888.0,"Yes! Patch included in the FOMOD. For this release, I took the time to build patches for the three more popular Winterhold overhauls, Immersive College, Magical College, and Obscure's. Of the three, I am inclined to say I like Obscure's most."
+skyrimmods,feil567,t1_feikviw,1579141076.0,"The FOMOD includes a vanilla body shape. I'll probably tweak it with more suitable custom textures in a future release.
+
+As far as the percentage of voiced content? I'd say about 80% of the existing dialogue is fully voiced."
+skyrimmods,feidc4l,t1_feid2ii,1579135855.0,[You're welcome!](https://tenor.com/view/youre-welcome-gif-11045554)
+news,fei4otk,t1_fei424y,1579130215.0,"I'm not arguing against you, but asking for rationality in the ""death to pedos"" circle-jerk is a surefire way to being called a chomo, yourself."
+news,feh1ke4,t1_feg6yae,1579107222.0,*Charlie Sheen visibly trembles*
+NSFWskyrim,fefw7f7,t3_elww3x,1579067202.0,[This passage has been censored by order of the Temple.]
+skyrimmods,fefve4n,t1_fefbc9h,1579066436.0,"Motivation is a tricky beast. I can say, in my own experience, that it's fine to take a break when you feel your motivation slip. I've been working on my own large-scope custom follower for over two years, on and off, and while I do wish I had made more progress, I find that seeing the character gradually come to life is its own motivation. 
+
+If I weren't incredibly busy with my own project and life, I'd offer to help, but I don't know if I can provide the amount of support you seem to be looking for. That said, there are a lot of guides for making custom followers, and you always have the option to open an existing follower in xEdit to reverse engineer."
+skyrimmods,fecsm66,t1_feb959r,1578983043.0,"I literally just switched today after my FNIS PCEA2 stopped working, probably because I breathed on it. 
+
+Disabled FNIS + PCEA2 via MO, installed Nemesis and Project New Reign. Copied my animation packs over from PCEA2 and ran the tool. 
+
+It works fine, so far. (Including... *those* mods, with caveats.) I did have to give up Halo Poser, due to a known CTD bug, but otherwise I'm happy with it. 
+
+And, I'll also echo the prevailing sentiment that fore is an entire tool shed, and it's refreshing to have an alternative. Reading through forum posts trying to troubleshoot PCEA2 reminded me just how abrasive he can be."
+skyrimmods,fecqptu,t1_fece90o,1578981108.0,"I've seen this multiple times, even with custom followers. Particularly in Folgunthur."
+Eve,fe9w148,t1_fe9ujl5,1578941927.0,"> Surprisingly well-made machinema movies.
+
+FTFY"
+Aquascape,fe9jbzq,t3_eo6nes,1578938092.0,"As weird as it sounds, my local Petco has had a decent selection of freshwater and marine plantlife, and even occasionally corals."
+skyrimmods,fe6oguj,t1_fe6hjzd,1578898157.0,"Then I'm not really sure what the cause could be. I would suggest deleting your enb files and reinstalling the latest again, along with your ENB. Perhaps check a different preset to see if it still happens."
+skyrimmods,fe413co,t1_fe3zxf1,1578854749.0,"Oh, yeah, simple armor, weapon and texture mods are safer to remove, naturally. It's just a better rule of thumb to finalize load order and mods before committing to a playthrough, to avoid save corruption."
+skyrimmods,fe36jbr,t3_enmgg1,1578846475.0,"Hair and NPC overhauls are cause one of needing a Merged Patch and/or a Bashed Patch.
+
+Merged Patched combine various edits from other plugins, while Bashed Patches are good for leveled lists."
+skyrimmods,fe309lt,t1_fe2xf3m,1578844728.0,"{Fallrim Tools} can be helpful if you collect unattached scripts in a save, or if you do something dumb and uninstall a mod mid-playthrough (which you should never do). I find it useful in testing certain mods before I finalize my load order and start a true playthrough."
+skyrimmods,fdtcdwh,t1_fdta420,1578714760.0,"That's exactly what I was thinking about, actually. A number of mods add unique crafting furniture, LoTD being one example. I was inclined to take a crack at it, but it seems you have something in mind, already."
+skyrimmods,fdt9akp,t3_emz0c8,1578713597.0,"Hrm... This has me pondering... What's the upshot to constructing a new special furniture object like a lectern of some kind? It could probably use the same animation behaviors as the vanilla enchanter, just a unique model where the constructables could then be added.
+
+I might look into this."
+pcmasterrace,fdrlmpt,t1_fdrcyyi,1578686335.0,"Eh, depending on where and legality, hash can be anywhere from $20 to $40 gram price, depending on the quality. 13 * 20 = 260, which seems like a reasonable price for a low-spec laptop. 
+
+I've made worse deals..."
+pcmasterrace,fdpk3dn,t1_fdpcg68,1578630796.0,That escalated very quickly....
+pcmasterrace,fdo00tg,t1_fdnlbxb,1578596313.0,Fanboys that drank the Google Koolaid so much they decide Games as a Service isn't a terrible idea...
+skyrimmods,fdjg3pu,t3_elphl2,1578469305.0,"Check the key maps on your enblocal.ini. If necessary, just delete that whole block. 
+
+Many moons ago, I had an issue where an ENB preset I was using had the ""brute force"" option bound to the B key. Using that key in the console, or naming prompt for enchanted items would tank my FPS until I realized what was happening. It could be something similar in your case."
+skyrimmods,fdjfv2t,t1_fdjeyko,1578469021.0,"Hot take: SexLab has a bad reputation because people associate it with the various bondage and other fetish content that LL has on offer alongside it. People fail to realize that, like a buffet, you can take some potatoes without the gravy."
+skyrimmods,fdjfmpg,t3_elke6v,1578468746.0,"I used ICoW back on LE, and while I liked what it did, I was frustrated by how laggy it made the College and Winterhold itself on my less-powerful system. Went back to check it out on SE, for the purpose of making a patch. Still kinda laggy.
+
+Checked out Obscure's, also for patching purposes, and found that, while it does cause a slight performance hit, it isn't as drastic as ICoW, and the changes aren't as extensive, but still seem like an improvement over the vanilla college.  
+
+All in all, OCW is staying in my load order, for the time being."
+skyrimmods,fdi8xpa,t1_fdhypr1,1578437860.0,"Hrm... Taking a closer look, I see the author of that mod has some restrictive permissions. I'm reluctant to step on someone else's toes in such a way, even if it's a one-off, for personal use. I would suggest you try to contact the original author in good faith to see if they might release a version with the variant you're looking for."
+skyrimmods,fdhy89s,t1_fdhrlck,1578432331.0,"No worries. I'm looking at the files, now. So, you just want a darker variant of the Jedi robes?"
+skyrimmods,fdhtu17,t1_fdhrutb,1578430039.0,It's a paid mod from the Creation Club.
+skyrimmods,fdhrrje,t1_fdhr0qk,1578428905.0,Okay. Then I'm not going to be able to help. I don't have Survival Mode. There are other needs mods that do what you're requesting. iNeed is one example and there a few others that also consider vampire feeding as a valid food source.
+skyrimmods,fdhqw1a,t1_fdhky8y,1578428399.0,Right. I understand what functionality you want. What I'm trying to find out is which mod's functionality you want to edit. What mod or addon are you using for hunger?
+skyrimmods,fdhin62,t3_el8jws,1578423443.0,"By ""food bar"" are you talking about a specific needs mod or the CC survival add-on? Please be specific when making mod requests; it will increase the likelihood of someone responding."
+skyrimmods,fdhgzn9,t3_el4wi3,1578422447.0,Link the robes your using? It's not terribly difficult to retexture existing clothing. I could probably take a look at it.
+skyrimmods,fdf2qeb,t1_fddesnf,1578351966.0,"Can vouch for TSVA. It's how I ultimately got in touch with JoJoRawr, the voice actress for my custom follower. They're a great place to find talent as well as learn more about modding."
+technology,fdarz4m,t1_fdaprr3,1578249340.0,Found the hospital administration guy.
+books,fcyvlzm,t1_fcyv6lw,1578088047.0,Dan Schneider the Spermicider.
+skyrimmods,fcy8tqp,t1_fcwz0qe,1578076468.0,"Oh, my mistake. I misunderstood the original query. 
+
+Now that you mention it, I can't really think of any armor replacer that does what you're asking, off hand. I imagine that it would exist in some capacity, possibly on The Other Forum."
+skyrimmods,fcwz1ea,t3_ejapcy,1578043795.0,I am a devout Rumarin acolyte here to spread the gospel of Our Blade Binding Savior.
+skyrimmods,fcwyw22,t3_ej6t0o,1578043604.0,"Honestly, I say neither. I have been using {Enhanced 3rd Person Camera} to replicate an over-the-shoulder camera position that suits my playstyle rather well. It takes a bit to configure the MCM and get it just right, but the shoulder swap option and dynamic camera positioning options feel nice and seem to work well, even in conjunction with the Improved Camera beta that has been posted on this sub."
+skyrimmods,fcwyc3y,t3_ejcl66,1578042895.0,"Hoo boy... Buckle up, butter cup...
+
+{Killer Keos Skimpy Armor Replacer}
+
+{Tiwa44 Minidresses Collection}
+
+{The Book of UNP} and {The Book of UNP CBBE Conversion}
+
+{Remodeled Armor}
+
+{Legendary Armors - Bikini}
+
+That should point you in the right direction."
+skyrimmods,fcwxowh,t1_fcwwocz,1578042070.0,"{WACCF} has an option in its MCM for ""Protective Clothing"" which adds armor rating to clothing objects, but not the keywords which would break Mage Armor perks in Vanilla and perk overhauls like Ordinator. I assume this is what OP is referring to.
+
+Speculative Edit: I suspect those very keywords are what SkyUI looks at when determining what icons to display for Light versus Heavy armor, as well as whether or not to display an armor rating. Whether or not that is the case, I can't be sure, and that doesn't exactly lead anyone to a solution..."
+pics,fcw5rxm,t1_fcva35l,1578017803.0,"Or, because it would take up too much space for vehicle traffic, it would never be approved to begin with. 
+
+America's love affair with the automobile has impacted our infrastructure in ways that we don't even realize."
+skyrimmods,fcvq70o,t1_fcvdd3s,1578007618.0,The Chud Who Must Not Be Named.
+videos,fcuoe4w,t1_fcuifrq,1577985273.0,[Moonbase Alpha](https://en.m.wikipedia.org/wiki/Moonbase_Alpha) a [glorious meme.](https://youtu.be/Hv6RbEOlqRo)
+aww,fcti1vp,t3_eiqylg,1577943983.0,"As a budding aquarium nerd, I relate to this kitty."
+bettafish,fcs40aa,t3_eim0ky,1577911144.0,wiggly boi
+DestinyTheGame,fcry0y4,t3_eilv31,1577908176.0,"That ring is awesome. I'm a guy, and I'd still rock the fuck out of it."
+pics,fcrolwa,t1_fcrnjk8,1577904543.0,"This is an alt-right talking point, and is argued in an intellectually dishonest fashion."
+AdviceAnimals,fcrkzcf,t1_fcrcudt,1577903178.0,I wasn't aware of this... I'm disappointed but not entirely surprised.
+news,fcrj149,t1_fcrer17,1577902458.0,"It's almost as if the War on Drugs was actually a war on minorities...
+
+Nah, that's crazy."
+redneckrevolt,fcrcszt,t1_fcras4s,1577900101.0,"Or, maybe, like most forms of media, some anime sucks, some of it is okay, and some of it is great. It's just that the market is over saturated with low-quality, cheaply produced garbage.
+
+Also, opinions, etc."
+AdviceAnimals,fcraxyg,t1_fcqz458,1577899323.0,"AccuWeather is a viable alternative, but I may be biased as it's headquartered in my state.
+
+EDIT: As pointed out by /u/so_not_cia, there may be political concerns with respect to AccuWeather's corporate leadership. Do with this information what you will."
+skyrimmods,fcpf1qz,t3_ei9w60,1577861166.0,"Personally, I just wish the Archmage's Quarters could be recognized as a valid playerhome you could move a spouse into."
+aww,fcmerd9,t1_fcm9mgh,1577772588.0,See /r/elsagate for more information.
+bettafish,fcjiece,t1_fcjgq7m,1577688772.0,"Oh, yeah. I had to use a Dovahzul translator, and condense the original thought to make it work."
+bettafish,fcjfywq,t3_ehgxpk,1577686185.0,*Sahrot Alduin! Mu fent du daar zah lein!*
+videos,fcivoke,t1_fcira2k,1577670929.0,"I was just thinking the same thing. When unhitching any tow-behind, always either block the wheels, or lower the rear jacks, if equipped."

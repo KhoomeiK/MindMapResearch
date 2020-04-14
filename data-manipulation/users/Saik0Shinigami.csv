@@ -1,0 +1,555 @@
+<<<<<<< HEAD
+subreddit,self ID,parent ID,time,text
+mesaaz,ffe5c33,t3_et362y,1579837104.0,"I'm not sure live feeding is ""just for kicks"". His pet's gotta eat to. What's the difference between a cat killing birds and these things eating some rats/mice?
+
+I don't see any videos on that youtube channel where he himself is actually causing undue harm. Although it's not interesting enough for me to watch all his videos... Damn that house is dirty as hell."
+homelabsales,ffd8t2a,t3_esvx8t,1579815665.0,I'm subscribed.
+CompTIA,ff9xglh,t1_ff9vqdv,1579723620.0,"In my mind, I think it could have been worded more along the lines of:
+
+""Expendable items or items that tend to have a lifetime that is a fraction of the rest of the parts in the device must be reasonably serviceable."" 
+
+Along side some verbiage that stops a company from completely potting the entire board so BGA and other surface repairs are always possible. And of course the banning of the T2-style issues. [Edit:] Oh! and the mandatory software updates that eventually obsolete your device. Apple does this too, forces updates to your old phone until it slows to unusable.[/Edit]
+
+This way items that don't typically die can be integrated and tied into the board directly as they are now... things like fuses (designed to be expendable) can't be hidden away or integrated into larger packages and batteries are covered. Also any part in a device that could have a reasonable life of 10 years but only lasts 2 years would have to be designed in such a way to allow replacement... 
+
+I dunno. I don't make laws for a living so I'm not sure this is 100% more reasonable but I think this would more accurately reflect what the Right to Repair ""movement"" wants."
+CompTIA,ff9ucq0,t1_ff9rm41,1579721532.0,"Ram has a purpose in being soldered directly on. The slot mechanism takes up a meaningful amount of space (required board space to blow out all the pins, required the ram chips on their own board... etc. at least in the historical sense via DIMMs and such) and shortening trace lengths has benefits. You know what doesn't take a lot of space? Not using that epoxy-like glue to glue in a battery is definitionally an expendable item. 
+
+Technicians like Louis are capable of replacing ram... Ram is actually one of the easier things if you manage to not fry the chip with heat. BGAs are annoying but not impossible. And reasonably skilled technicians can do BGA repair already. So the on-board stuff isn't an issue in this instance. I've watched a lot of Louis' stuff, he can do a lot of repairs but I never hear him complaining about ""oh this chip is impossible to replace because it's soldered on the board""... it's always ""this chip is impossible to replace because I can't even find a Chinese factory worker to find and export it to me"". The issue isn't the logistics of current board design. It's the actually supply chain logistics because companies like apple specifically make it an issue.
+
+Digging out glue to get the battery out... or worse, epoxying it in in such a way that makes it impossible to safely get the battery out (batteries aren't the most hardy thing and some of these phones use glue that's simply stronger than the battery which means you end up damaging the battery, causing the exact thing they claim they don't want people exposed to ""dangerous li-ion batteries"") is the point of that section as I read it.
+
+However, I can agree if your argument is that it's vague. It definitely could have been made much more clearly worded... I think they even realized since they tacked on the battery example."
+lgv20,ff9pwij,t1_ff9lt39,1579718319.0,"> https://smile.amazon.com/dp/B07JGRDWWW
+
+For the lazy"
+CompTIA,ff9ez84,t1_ff9djl8,1579711581.0,"I understand that. But you're not understanding the bill. The senator says it pretty clearly. ""If I want to service a car I have 3 levels I can do it at. The dealership, a third party (certified) shop, or my neighbor Ed who does this stuff."" It's not necessarily an end result to get grandma to do microsoldiering. It's to enable fair options to get equipment repaired. So grandma can give it to her local repair technician rather than send it in to apple and they wipe her phone because grandma is too computer illiterate to save her stuff somewhere else first.
+
+Louis Rossmann literally has to create e-waste to repair boards that customers come to him with. Simply because Apple says so. They could easily allow their sources to sell parts to him but they go out of their way not to, including specifically making minor changes to one chip in order to have a one supplier lock-down.
+
+We're not talking ""user accessible"". We're talking about literal expert repair people (option 2 in the above senator statement) are limited. Which in turn means option 3 above is also limited (the people who tinker and know more than the typical person... Probably fits a lot of this subs base). 
+
+I would figure this subreddit should be behind this almost completely. Most of us who obtain certs are generally skilled in the arts of electronics. Now imagine even though your A+ and network+ certified, that you're not allowed to get your hands on a USB cable... or make a network patch cable. That's the level of inane this is. Skill repair professionals... even with certifications (Jessa Jones is apple certed) can't get their hands on parts that are required to effect repair. And for her it basically is the same skill as making a network patch cable."
+CompTIA,ff9dyl1,t1_ff9cvfj,1579710934.0,"I said reddit... as in overall. Not that this subreddit specifically has issues. Something that could be construed as disparaging to the namesake of the sub is usually removed on reddit. This is almost expected. Just because you guys don't do it doesn't mean it's not still surprising.
+
+You didn't need to flex your mod tag, as that kind of shows the point that mods do odd things on reddit. :)
+
+I mean looking at the mod team one is named ""comptia_CIO"" it would be in their interest to have this removed if their name is accurate."
+CompTIA,ff9az34,t1_ff8zycw,1579708845.0,presumably because this is a Comptia subreddit and reddit does tend to have censorship issues with moderation teams and such.
+CompTIA,ff9aw4m,t1_ff8zlmg,1579708794.0,">Do you think you can have an easily repairable smartwatch on your wrist if it had replaceable parts?
+
+If you watch Louis Rossmann or Jessa Jones you'd know the answer to this. It happens to be yes. They do ""hard"" repairs all the time, on video, while stepping through exactly what they're doing. WITHOUT access to part because apple does their best to shaft you, the customer.
+
+Getting parts is literally the hardest part of their business.
+> I can contact Dell and ship [...]
+
+Dell isn't a good example. Dell typically is pretty fair about parts availability and such. Samsung is generally okay in this aspect too in that you can actually generally get a hold of parts through the OEM. But a lot of, if not most other companies aren't like this."
+technology,ff83f3t,t1_ff839z5,1579664944.0,"I don't know at all... It's just my interpretation of what they said. I don't iOS unless it's Cisco original.
+
+To me it reads that if you deny access to any information that's a ""I don't agree"" and the app shuts off. Meaning you can't use it without giving permission to everything. Which is silly if you don't want to give up gamgam's phone number for an app that doesn't need it."
+technology,ff839lb,t1_ff7vfym,1579664828.0,">  about individuals that is maintained in systems of records by federal agencies
+
+Facebook, equifax, etc... are not federal agencies... and thus don't have to abide by it."
+technology,ff8348c,t1_ff7ykfp,1579664719.0,">Contacts and Calendars is for importing existing contacts/events into Salesforce
+
+Yes, but he said they deny access to the app if you block these requests... Shouldn't salesforce work if you don't want to give up your whole contact list to them?"
+technology,ff82zmc,t1_ff6rubj,1579664625.0,"No offense, but I think you should work on HIPAA or any other number of privacy issues first. Doesn't matter if you have privacy on the internet if you guys haven't even codified health privacy."
+gaming,ff7fzd1,t3_es171d,1579648671.0,New Game + will be fun...
+mesaaz,ff7firk,t1_ff6an8a,1579648366.0,">Some agents forget to remove the posts, others do it on purpose.
+
+Still valuable information... If they blow if off or you suspect they did it on purpose then you know you probably don't want to work with them. Auto-remove from the list of potential agents and check the next property listing/agent."
+ConvenientCop,ff7e9mm,t1_ff76qv8,1579647539.0,">but the tesla model 3 is light-years ahead.
+
+Including in price.
+
+Edit: Never said it wasn't worth it... But if someone only has 30k... and not enough more, price is a factor. ya'll be throat jumpy."
+technology,ff7aodv,t1_ff72mok,1579644803.0,">Facebook isn't handling anywhere near the classified information that is likely being held on most people's iCloud. That isn't an apples-to-apples comparison. 
+
+Confidential? Are you kidding me? A lot the pictures that get taken on that phone are generally destined for Facebook or some other app that's owned by Facebook. Facebook already gets contact book information when you import your contact list to find your friends. What other ""confidential"" things do you think is different? Messages? [Whatsapp](https://www.statista.com/statistics/260819/number-of-monthly-active-whatsapp-users/)(I think? I don't use it so I dunno if it's spelled like normal english) is bigger than texting at this point and is completely owned by Facebook with 1.5 BILLION monthly active users in 2017.
+
+>On-Prem is much easier to target for employees of large billion dollar companies with access and simple plug-in abilities. 
+
+What? Large billion dollar companies keep their servers in locked datacenters. Ones that you need key-card to get into the 4-5 doors in order to plug things into the relevant systems. Large billion dollar companies have functional GPO and permissions that stop exactly what you just mentioned. If you had said small office or something then you'd be right... But I categorically have to argue that you're wrong here.
+
+>That is simply a fact.
+
+I disagree. Please cite your fact.
+
+>You will find that in many scholarly articles and examples online done by people much smarter and more savvy than you or I.
+
+I work in academia... I read articles all day long, especially student submitted things. Most articles talk about big systems, like vulnerabilities in AWS or similar. It's considerably more rare that you read about self-hosted systems being targeted... and even more rare that the bugs in those systems continue to work since there's usually a healthy amount of people contributing to the code.
+
+---
+People, right now, don't give a shit about their own data. If apple did it, I bet there'd be virtually no repercussions. The typical user's iCloud probably looks virtually indistinguishable from their Facebook. You can claim it's not apples to apples but it's pretty damn close. In the end offsite hosting is less secure because it's a third party who has complete access to your data and you let them do it. ""Oh it's e2e encrypted!"" yeah... and you know exactly what algorithm it's using because the whole database of a million people are using the same mechanisms. Good luck trying to decrypt any of my on-prem stuff. 
+
+What I find funny is that you think they have some magic code that is unavailable to a typical use to run on their own systems? You realize that a piece of software running on their systems will have 100% of the same vulnerabilities as it would if you ran it on your own system right? Just in the latter instance you can configure your own solutions/options.  Further, systems that are self-run are typically open-source. Meaning nerds like me will look into the code and find the vulnerabilities and test things regularly. Where-as closed source stuff... we're not allowed to test like we would elsewhere. You're right in one sense in that vulnerabilities are found more often in that code, not because there's not as many if not more in the closed-source stuff, but because we can only work where it's legal to work and where there's code to evaluate."
+technology,ff6xof9,t1_ff6w0ps,1579637020.0,"Even if it was ""open source"", you have no way to prove the implementation they actually use is the same as the one that's been made available to the user on the phone.
+
+Edit: point being there's no way to validate it without a completely open source system... including unlocking and tinker of phones in order to validate code presented as running, is actually what's running. Apple will NEVER allow this."
+technology,ff6xc9d,t1_ff6oz4g,1579636819.0,"Oh yeah! Cause Facebook is totally crying after being repeatedly forced to own up that they regularly give away ALL their data. Facebook is dead now right? Right?! [Wait... what do you mean they're still going ~~pretty~~ strong[er than ever]?](https://www.statista.com/statistics/346167/facebook-global-dau/)
+
+And there's a give and take to hacking large systems like iCloud vs singular instance of a server on an on-prem situation. Oftentimes it's hard to even find the on-prem to hack where-as iCloud is going to be a huge target no matter what. 
+
+So no... Not easier for any average Joe."
+HomeNetworking,fekmkrr,t1_fekixmy,1579203176.0,"In this instance, I'd double check with Ubiquiti that it functions this way. The terminology is standardized, so I can make statements like I did, but you want to verify that their implementation is standardized as well. I'm wary because of the lack of documentation... And the fact that I can't try it on hardware I already have. 
+
+If I were you, in your position I'd try the egress thing on a couple of ports and iperf between them to make sure it works as intended before relying on it whole-heartedly and buying more hardware.
+
+Edit: Readability."
+HomeNetworking,fekie16,t1_fekggn2,1579200678.0,"Egress to ports. so if uplink is on port 50 (SFP+ port) you can egress on the uplink to control upload speeds of the group and egress on each individual port for each client for download speeds.
+
+I don't see this in documentation... mind sharing where you see this? Maybe I can read into it and give some insight."
+HomeNetworking,feki6pk,t1_fekeuhj,1579200559.0,">Thanks a lot for testing! But if i run QoS on all interfaces apart from the inbound interface, i won't be able to get 10 gbps spread over all interfaces right?
+
+Well the idea being that you rate limit on switches as much as possible and then if there's a public wifi or something you can chuck that on a VLAN, and that should manage the rate limiting as much as you probably can get away with in this ecosystem... And yes your imagination is right.
+
+
+>our current switches are unifi
+
+Then I don't have much to help you with. I don't toy with Unifi except for APs. So I don't have enough experience here to tell you if the unifi switches are capable. Sorry."
+HomeNetworking,feke38q,t1_fek013b,1579198123.0,"Rate control is considered QoS in this instance.
+
+Regardless of if the traffic flow could be offloaded after initial processing UBNT seems to disable the HW offload on an interface the moment you apply any QOS setting in that menu (Shame). It is possible to keep all other running interfaces on the HW offload, e.g. Interface 1 is running shaping and interface 2 is not, therefore 2 is offloaded and 1 simply isn't. This also works on subinterfaces... so 1.100 can be offloaded when another vlan on the same interface 1.200 isn't.
+
+What could work is shaping on the switch which doesn't suffer performance penalties that I'm aware of(https://dl.ubnt.com/guides/edgemax/EdgeSwitch_AdminGuide.pdf page 245-247) and you can pickup stragglers on a VLAN if you can't rely on downstream hardware to deal with it. When I did a WISP we did it as close to the customer as possible so that we can distribute the workload across a bunch of smaller devices (the CPE antennas in our case). Without knowing your physical configuration (each apartment has an ethernet jack? is there public wifi? Is all the hardware centrally located? etc...) it's hard to make a hard call on what ""best"" solution would be. And I don't have a lot of experience doing this in the switch as CPEs are a little differnt. Someone else might be able to chime in here.
+
+To be fair, it takes some beefy hardware to properly QoS a full 10Gb line. More than I would expect a $1000 router to manage."
+HomeNetworking,fejy7zl,t1_fejx0cd,1579188559.0,"Can you define what you're calling ""simple queues""? I'll gladly test it on my infinity if you'd like."
+HomeNetworking,fejsp9n,t1_fejkfn7,1579184905.0,"https://help.ubnt.com/hc/en-us/articles/115006567467-EdgeRouter-Hardware-Offloading
+
+Just for reference for anyone else who meanders through this chain. The Infinity is Cavium-Based. Can handle a lot, but QoS, Netflow, and Bridging are three functions the break offloading."
+WTF,feizla8,t1_feimzoa,1579151737.0,"yeah but my point was that this isn't necessarily a zoning issue for all of texas like the previous poster implied. Houston is the ""famous"" city for ""no zoning"". But that's still relatively unique to just Houston. 
+
+I understand that you're right in that most refineries aren't in Houston distinctly, but that wasn't my point. I was correcting the understanding that ""all of texas is unzoned"" myth that I see from time to time. I lived there for 3-4 years while I was in the military, the area I was in, most of the places I saw, and Dallas (which I visited often) are definitely zoned.
+
+Edit: I should clarify... everything I saw was definitely zoned. But IMO Zoned poorly. But that's not my area of expertise, I only know what I learned in Simcity and City Skylines. So I'm not necessarily disagreeing with you. Just clarifying what my statement was meant to educate on."
+WTF,feihf9k,t1_fei593j,1579138602.0,zoning is a thing in most of Texas... It's places like Houston that don't do zoning.
+HomeNetworking,fehpzhl,t1_fehok8k,1579121559.0,">Do they have something that doesn't require some kind of management infrastructure?
+
+You don't need it running all the time for a basic setup. You can even just run the android version to setup/configure the AP and never run the app again."
+HomeNetworking,fehjwby,t1_fehhb1g,1579118047.0,But both of those networks are on the same subnet... I hope you meant /24?
+homeassistant,feegisc,t1_fedtdod,1579033289.0,"I'm not sure many systems check for ""dynamic"" marked ips... I'm not sure there's a good repository that's reliable enough to validate such a thing. An ISP doesn't have to notify anyone what they do with their blocks of addresses... 
+
+What server software are you running? It's something I've been looking into and that would be a solution I think could be valid for me. (EC2 for reliability, but out of google's hands)"
+HomeNetworking,fee1cce,t1_fedzm05,1579024342.0,"So then it does do bridge mode... It's all it can do and the guy is wrong...
+
+But it's easy to tell by the context of the article that were talking about the typical modem router hybrid."
+homeassistant,fecggko,t1_fecg3mi,1578973327.0,"Shouldn't if you DKIM, SPF, and DMARC everything properly... But that's a hard process for a ""joe blow"". I've done it a few times without issues."
+homeassistant,feca8fc,t1_fec6oop,1578969453.0,"The only real solution is to invest in your digital-self. Get a small server like a synology and host your own services that you'd like. 
+
+Federation is the real way to go in my mind. Services like Owncloud (with onlyoffice) and Matrix-Synapse is the required for owning your own data in my mind.
+
+Short of email (cause downtime on consumer connections makes email harder... and good spam filtering), everything else DOESN'T need to be on someone else's server."
+ASU,febnqaj,t1_fea9ct7,1578960788.0,You and 400+ other people.
+ASU,fe4qevu,t1_fe4kzic,1578861867.0,"You can't re-star old classes (""previous enrollment""). So if you're looking to keep a class on the front-page of canvas don't unstar it. In my instance, an ""advanced"" class that the previous ""basic"" class has references for."
+videos,fdrgh4g,t1_fdquh03,1578684125.0,"Company: ""We're going to DMCA/sue you!""   
+LPL: ""HAH, you've just triggered my trap card!"" *lays law degree on battlefield*"
+HomeNetworking,fdqrh2n,t1_fdqhjcy,1578673302.0,"To make it clear, a rule of thumb in RF engineering is that every 3dB is double the power. So 1.5 dB difference will be significant range losses, especially if there's things like walls in the way. The bigger differences between a higher power device (from 26 -> 18.5) is actually over 4 (closer to 6 or maybe 7) times weaker... The device will see the network just dandy... but probably have a hard time talking back."
+ASU,fdedqil,t3_eirnj3,1578336795.0,RP now will detect Remote Desktop is active and require it to be shutdown. So you won't make it to the test environment.
+ASU,fde4jyv,t3_ekwzil,1578331026.0,"Why do speed limits still apply on roads when there's no traffic?
+
+Break the rule if you like... But the rule applies regardless."
+HomeNetworking,fddqp14,t1_fddirz2,1578321438.0,"Well when your options are 900mhz, 2.4 ghz, 5ghz, 11ghz, 24ghz, 60ghz, and a few more in between with obscenely high licensing costs... 6ghz is on the low end.
+
+And PTP... As in point to point, shooting signals dozens of miles. Like this... https://nextcloud.saik0.com/s/Bsj6FpRkN8TbDxK which is a 36 mile link.
+
+I also never said ""increased"" penetration... Just that at 6ghz your not trading off too much... Unlike 24 and 60... At 60ghz it feels like a piece of paper blowing in the wind kills your signal"
+HomeNetworking,fdctisl,t1_fdcssov,1578283879.0,This much spectrum... I'm more interested in how much more feasible terrestrial wireless becomes. With that many new channels I suspect that multi-gig PTP connections become a lot easier... especially since it's still a relatively low frequency so it doesn't lose out so much on penetration.
+HomeNetworking,fdcfcnm,t1_fdcehk9,1578273518.0,"Yeah totally... [I definitely don't have one.](https://nextcloud.saik0.com/apps/gallery/s/irB5RsKt7aC5aN9)
+
+Oh wait... looks like I do."
+gaming,fdce4xf,t1_fdc9vef,1578272678.0,So that's where the money for the canvas bags went...
+HomeNetworking,fdcb2j4,t1_fdb2kp8,1578270714.0,"Uhm... You realize that ""Edgerouter"" is a line of products right, not just a single thing right? 
+
+I have an [Edgerouter Infinity](https://www.ui.com/edgemax/edgerouter-infinity/)... It's capable of 80gbps aggregate throughput and has 16cores of cpu in it. Far from ""pathetic cpu"". If you're talking ER-X then sure, it's a small little 40$ router... Of course it's ""weak"". But the others in the line are not slouches."
+ManjaroLinux,fdabvot,t1_fda66ym,1578244309.0,"You're right. I read the ""to startup""(as in machine startup) while I was reading this on my phone. There's no good way to run a command as root on your user login. 
+
+Every way I can think of requires you to type a sudo password."
+ManjaroLinux,fda3dld,t3_ekepy9,1578241184.0,"`sudo crontab -e`
+
+Then add a new line
+
+`@reboot <the command you want>`
+
+Not in front of a computer at the moment but crontab should be able to handle it."
+homelabsales,fd74h1m,t1_fd72lx7,1578199312.0,"I have an r710 in my rack somewhere.
+
+On most recent bios, it's not that bad. Best with at least a door in between it and the wife to make sure it doesn't mess with WAF that much..."
+aww,fczw7ty,t1_fczsr9p,1578109671.0,"RIP /u/Unidan.
+
+Edit: clicked the automagicked link for fun... Turns out Waybackmachine (plugin that automatically tried waybackmachine if page 404s) has his profile archived."
+aww,fczfx7d,t1_fczetgz,1578100372.0,"Look at the pictures of both of those species... What people recognize as a ""Pterodactyl"" is typically a Pteranodon (eg. Jurassic world). 
+
+Which is why I stated Pteranodon. The Pterodactylus was my point on the name though, commonly known != actually named. Which is why I made the Berenstein Bears reference.
+
+Edit: Specifically this information is relevant.... https://pterosaur.net/myths.php
+
+>The term ‘pterodactyl’ is sometimes used for pterosaurs, particularly by journalists, with the implication being that the term is synonymous with pterosaur. In fact it isn’t: the term pterodactyl—originally written ‘ptero-dactyle’—was first used for one specific type of Upper Jurassic pterosaur, the European ctenochasmatoid Pterodactylus, and doesn’t apply to other members of Pterosauria. It has been used on occasion for giant short-tailed pterosaurs like pteranodontids, but this is not common among pterosaur workers. If we used vernacular names for prehistoric animals (which, generally speaking, we don’t), then we might well term members of the genus Pterodactylus ‘pterodactyls’. But we don’t, so the words pterodactyl and ptero-dactyle are pretty much redundant today."
+aww,fcze820,t1_fcyzbjf,1578099203.0,"Pteranodons... Pterodactyls aren't a real thing... Just a name lay people gave the Pterosaur genus that kind of stuck in common vernacular, but isn't accepted as a real genus name. I only know this because there's a shitty app on my kids tablet that they leave on from time to time that's this grating 6 year old talking about it on repeat... Then I had to look it up because I felt that couldn't be right... Now I feel the compelling urge to share it with you since I see it, you must share in my berenstain bears moment of prehistoric flying creatures.
+
+https://www.livescience.com/24071-pterodactyl-pteranodon-flying-dinosaurs.html
+
+https://en.wikipedia.org/wiki/Pterosaur"
+worldnews,fcxscy9,t1_fcxqktd,1578069733.0,You prove his point by instantaneously discount Syria... And don't act like Lebanon couldn't be auto-corrected to Lydia.
+politics,fcsveh3,t1_fcsnknm,1577926088.0,"While I'd admit it could be pretty disingenuous... Nearly the entire workforce was working on the recovery for months... further we had additional people from other locations like upstate and other states come help too. The reality is that that percent is likely to be much lower than even the .06% I've mentioned if total response force was taken into account. There's no consistent way to know how many people were there at any given moment since there were so many people... but you don't think that on any given day there weren't at least 11k people there? I'd say that's a pretty low-ball number. For the first few weeks (probably over a month) for damn sure that's a super low number as I remember reports of 20k+ people being on scene to help. So is my number really that disingenuous?
+
+And yes for a good chunk of time NYC did COMPLETELY exhaust their own resources since they were trucking in fire teams from upstate to handle local duties."
+politics,fcs0bv6,t1_fcrxitj,1577909377.0,"I have to assume this is somehow proof that he shifted priority? So the argument is that we should have left the vaults untouched down there? Even though they've shown signs of tampering and one of them had weapons since it was a depot for law enforcement? Yeah! nothing can go wrong with that.
+
+Not sure a 30 person team of firefighters and police officers would really count as prioritizing recovery of the vaults over recovery of people... remember there are 11,000 NYC based firefighters alone... forget the ones that were brought in from outside locations.
+
+Not sure that I would call a less than .2% of workforce shift a shift in priority. And that's not even accounting for police officers... real percentage is actually less than .06%..."
+politics,fcrq9vv,t1_fcrpd8r,1577905177.0,"You're right. Busy trying to get the content down, I've corrected it now. Thanks!"
+politics,fcro7it,t1_fcrn6h8,1577904394.0,"No bid doesn't mean that research wasn't done against other competitors. Just that those competitors were necessarily given a chance to come in offer their own solution. 
+
+I can do research on 10 companies offerings and give a no bid offer to the product that I feel fits the bill best. A bid offer would be that I publicly publish my requirements and let the companies offer their solutions/prices.
+
+I perfectly understand what ""no bid"" entails."
+politics,fcrmduv,t1_fcrl93y,1577903703.0,"And what you're missing in the story (that OP even confirmed) was that they were returned... Which furthers the point that this is unrelated.
+
+I did logistics in the military as well. I know the price of radios. While 1700 isn't a terrible price considering, DoD most definitely has higher requirements than Civilian counterparts. Therefore there will be room here to come down on price if needed... Now keep in mind this is the ""cut corner price"" If the other company wanted 2000... Then whats the issue... You just admitted that 1700 is about right."
+politics,fcrkky6,t1_fcrhuk7,1577903038.0,"Holy fuck, no argument that actually refutes or debunks my statements! What a wonderful addition to the conversation! I applaud your in depth research!
+
+I opened the fucking post with ""he's a piece of shit"". Which he is. Probably the worst ~~governor~~ mayor NYC has ever had (as a person, business was booming quite well). But literally every in this post is simply bullshit attribution or name calling. At least call him out for the real shit he's done.
+
+Things like using the 9/11 attack to continue his time in office bypassing term lengths.
+
+>Mr. Giuliani became so entwined in the disaster's aftermath that he briefly considered himself indispensable, and floated a plan that would allow him to continue as mayor after his term expired on Dec. 31.
+
+Source: https://www.nytimes.com/2001/12/31/nyregion/the-giuliani-years-the-overview-a-man-who-became-more-than-a-mayor.html
+
+And not to forget his absurd fixation with ""crime"". 
+
+So no... Not because I ""fell like it's okay"" but because I fucking remember what happened because I was there. Also because I have life experiences in things like the military... you know places where you have to organize thousands of people together."
+politics,fcrgdsi,t1_fcrea9f,1577901473.0,"Which corner cutting are you referencing? The radios? Why pay 10$ more per radio when the other variant is sufficient? You have to remember that there's at least 55000 people to outfit with radios... and now those vehicles and buildings that also need those radios... This can easily jump to 100,000 radios.
+
+I chose 10$ out of thin air. It could easily have been 50 or 100$ a radio. Is finding a radio that could save 10million dollars in comparison to some other radio a bad choice? Considering the lack of information here I would claim that there's no sufficient evidence to make such a claim that it would have been dangerous. Considering that I haven't heard of this radio issue until now... 18 years later... I'm going to say that it wasn't a serious topic of issue.
+
+The only issue I could dig up in research was [a purchase of 2,700 radios totaling 4.5 million dollars... and only for FDNY.](https://www.nytimes.com/2001/03/25/nyregion/fire-union-demands-inquiry-into-contract-for-new-radios.html) So not only did OP blow it severely out of proportion... but it would be a drop in the bucket.
+
+Also, to make it clear... this meant that each radio cost about 1700$...  You think there isn't money to legitimately save here?"
+politics,fcrawlt,t1_fcpxx4g,1577899307.0,"As a New York Native... Giuliani is a dick. But I'm not buying even half of this shit being distinctly his fault.
+
+
+>FEMA and the Army Corps of Engineers offered to run the initial response to the 9/11 attacks. Rudy said no, and invented a new NYC office to coordinate efforts through instead.
+
+NYC police force is generally accepted at around 40,000 strong (at the time). Outnumbering ACOE(37,000) and FEMA (11,000)... Likely outnumbering both organizations outright in responders. Definitely outnumbering both plus more if you're counting firefighters(~11,000) and EMTs(~4,000) and the like.
+
+Why is making an office to handle the process of the worst disaster that has basically ever happened to NYC an issue? Kind of requires some structure to manage all those people... And with over 50k people to manage for a single incident you kind of need *something*. A new office sounds about right. Also holding off on accepting aid when you don't even know where your own pieces are... also sounds pretty fucking reasonable.
+
+>NYC Police, Fire, and Ambulances all received new radios in 2001, however they didn't work and had to be returned prior to September. Rudy was responsible for the no-bid contract on the defective radios.
+
+Which is a problem of timing. Also, when you're outfitting probably 100,000+ radios... It makes sense to try to cut a corner(Edit: Even if it wasn't a corner cutting thing... might be a selection of specific requirements in radios) here or there since that could easily save 10$ a radio... you know... million dollars or so of savings. However, I don't know much about this... so there could be more to it that I'm not understanding... You certainly didn't link information that would expound on what happened.
+
+>When it was discovered that toxic waste had been spread over a larger area than initially speculated Rudy told FEMA, ACE, and OSHA to stand down and left it to individual landlords to handle the toxic clean-up.
+
+What makes you think that FEMA, ACE, and OSHA were equipped to handle it to begin with? I don't think you understand the sheer size of Manhattan. Also the shittiness of Landlords. Without a decree from above that Landlords needed to act on their own accord... all the above organizations would likely still be cleaning to this day and the Landlords would be sitting around with an excuse (Gotta wait for FEMA!) to let their tenants live in fucking HAZMAT conditions. Putting the onus on the people might have cause some additional exposure in the short term... but ends up being the better call in the long run.
+
+>When during recovery Rudy prioritized the recovery of precious metals over the recovery of bodies.
+
+Not in my experience as I knew people in the towers. But of course with that much debris and damage you have to move the shit somewhere to get the to the bodies to begin with. So some level of emphasis on moving the shit out of one of the most dense cities in the world make sense considering.
+
+>Everything else...
+
+Pure speculation with no logic or source behind it."
+ASU,fcntkus,t1_fcnaps0,1577818151.0,"So there damned if they do; get a lawyer and they're somehow strong arming a multi billion $ college... Or damned if they don't; probably get convicted as a sexual predator... 
+
+You literally give no other option other than they're guilty... You realize how silly that is I hope..."
+ASU,fcnsn5v,t1_fcnmgmb,1577817650.0,IFT is abet accredited as well.
+HomeNetworking,fcnqsz4,t1_fcnq8vy,1577816688.0,These are already unterminated... And the other end is likely behind wall plates... Just put a patch jack in. If you snap a cable just order another 5$ jumper patch. The stuff in the wall should remain safe this way.
+HomeNetworking,fcnpzka,t1_fcndw7w,1577816250.0,"You can feel that way if you want... But the switch has to sit in the closet wherever this picture is... A little fan noise in a closet doesn't hurt anyone. 
+
+And i've run fiber to my office direct to my pcs... Tell me what ""accident"" could occur?"
+HomeNetworking,fcn3t42,t1_fcmcb1z,1577802494.0,"Old enterprise 10gb switches can be had for a couple hundred... And old enterprise 10g pcie adapters are like 20-30$ on eBay. Transceivers will be a bit expensive(cause of how many you'd need,only like 40 for 10g no name ones) alongside the terminations."
+worldnews,fckhvid,t1_fck82jw,1577725682.0,The average cost of a tesla is closer to 70 or 80k. It's a luxury vehicle that requires wealth. Just keep in mind that the model x and s are easily over 100k and have been out considerably longer than the 3.
+homelab,fcbz0zq,t1_fcbxmdh,1577592551.0,"Oh yeah the off-gassing is super serious. If you ever walk into you server area and smell something strong (ups alarms likely going off too) unplug that shit and leave the area taking as few breaths as possible. Try to open direct paths to outside and let it air out for an excessive amount of time. Shit is super toxic. To the point that in a datacenter environment you call a response team with hazmat suits. 
+
+Me at home reaponse... Open the garage, turn on the attic fan, login to remote console and turn off bad ups... Probably cry a little on the inside that one or both ups(I run hot/cold systems back to the breaker box on different phases... So 2 of everything power related) will now need to be replaced. Bottle of vodka and some credit card usage (to get the replacements) later it's probably aired out enough at that point.
+
+Edit: https://www.reddit.com/r/sysadmin/comments/eeitvn/dont_panic_butwhat_do_ups_fires_smell_like
+I found it... Wasn't here, but another subreddit."
+homelab,fcbv4y2,t1_fcbsfo9,1577591321.0,"UPSes tend to be comprised on a bunch of smaller cells of 12v batteries meaning that just one or two of those cells have to leak not necessarily the whole pack.... I've seen plenty of batteries die(edit: while in use) in my time (20ish years, 5-6 in a datacenter). Most die ""nicely"" I'd say it's maybe 1 in a couple thousand failures for a bad failure where you'll get swelling and sweating with possible leakage. We had a post a couple days ago about a guy smelling a weird smell... Which was a ups battery off-gassing/leaking and since most of the cells are laying sideways or even upside down in some UPS configurations, you're going to get leaks with these situations.
+
+And the weight thing is really best practice of keeping the denser things lower. Which is why I admitted that I tend to he ""that guy"" in the first place. Other than the battery concern which a lot of people ignore (it is rare enough to ignore if you'd like) there's no other""good"" reason. So do whatever you'd like. I was just tossing my 2 cents in."
+synology,fca1smp,t1_fca152f,1577561723.0,It's not available if your raid-5. And even if it was available is be worried you might run into other issues considering that volume was created that long ago. There's an option to export all settings somewhere. Look for that and then import it on the new primary volume.
+homelab,fc8exc2,t3_egkpic,1577533390.0,I was going to be a ups commenter.... Reasons are weight primarily... Rack is most stable with the bulk of the weight at the bottom. But there's another reason too; if a battery leaks on you then it doesn't take out servers if they're on the bottom as well. A single battery leak will destroy both of those 720xds quite handily.
+technology,fc1cse0,t1_fc14ish,1577314901.0,You can't give everyone that speed on wireless. There's not sufficient spectrum to do it. Especially if your taking about as home service usage.
+=======
+subreddit,self ID,parent ID,time,text
+mesaaz,ffe5c33,t3_et362y,1579837104.0,"I'm not sure live feeding is ""just for kicks"". His pet's gotta eat to. What's the difference between a cat killing birds and these things eating some rats/mice?
+
+I don't see any videos on that youtube channel where he himself is actually causing undue harm. Although it's not interesting enough for me to watch all his videos... Damn that house is dirty as hell."
+homelabsales,ffd8t2a,t3_esvx8t,1579815665.0,I'm subscribed.
+CompTIA,ff9xglh,t1_ff9vqdv,1579723620.0,"In my mind, I think it could have been worded more along the lines of:
+
+""Expendable items or items that tend to have a lifetime that is a fraction of the rest of the parts in the device must be reasonably serviceable."" 
+
+Along side some verbiage that stops a company from completely potting the entire board so BGA and other surface repairs are always possible. And of course the banning of the T2-style issues. [Edit:] Oh! and the mandatory software updates that eventually obsolete your device. Apple does this too, forces updates to your old phone until it slows to unusable.[/Edit]
+
+This way items that don't typically die can be integrated and tied into the board directly as they are now... things like fuses (designed to be expendable) can't be hidden away or integrated into larger packages and batteries are covered. Also any part in a device that could have a reasonable life of 10 years but only lasts 2 years would have to be designed in such a way to allow replacement... 
+
+I dunno. I don't make laws for a living so I'm not sure this is 100% more reasonable but I think this would more accurately reflect what the Right to Repair ""movement"" wants."
+CompTIA,ff9ucq0,t1_ff9rm41,1579721532.0,"Ram has a purpose in being soldered directly on. The slot mechanism takes up a meaningful amount of space (required board space to blow out all the pins, required the ram chips on their own board... etc. at least in the historical sense via DIMMs and such) and shortening trace lengths has benefits. You know what doesn't take a lot of space? Not using that epoxy-like glue to glue in a battery is definitionally an expendable item. 
+
+Technicians like Louis are capable of replacing ram... Ram is actually one of the easier things if you manage to not fry the chip with heat. BGAs are annoying but not impossible. And reasonably skilled technicians can do BGA repair already. So the on-board stuff isn't an issue in this instance. I've watched a lot of Louis' stuff, he can do a lot of repairs but I never hear him complaining about ""oh this chip is impossible to replace because it's soldered on the board""... it's always ""this chip is impossible to replace because I can't even find a Chinese factory worker to find and export it to me"". The issue isn't the logistics of current board design. It's the actually supply chain logistics because companies like apple specifically make it an issue.
+
+Digging out glue to get the battery out... or worse, epoxying it in in such a way that makes it impossible to safely get the battery out (batteries aren't the most hardy thing and some of these phones use glue that's simply stronger than the battery which means you end up damaging the battery, causing the exact thing they claim they don't want people exposed to ""dangerous li-ion batteries"") is the point of that section as I read it.
+
+However, I can agree if your argument is that it's vague. It definitely could have been made much more clearly worded... I think they even realized since they tacked on the battery example."
+lgv20,ff9pwij,t1_ff9lt39,1579718319.0,"> https://smile.amazon.com/dp/B07JGRDWWW
+
+For the lazy"
+CompTIA,ff9ez84,t1_ff9djl8,1579711581.0,"I understand that. But you're not understanding the bill. The senator says it pretty clearly. ""If I want to service a car I have 3 levels I can do it at. The dealership, a third party (certified) shop, or my neighbor Ed who does this stuff."" It's not necessarily an end result to get grandma to do microsoldiering. It's to enable fair options to get equipment repaired. So grandma can give it to her local repair technician rather than send it in to apple and they wipe her phone because grandma is too computer illiterate to save her stuff somewhere else first.
+
+Louis Rossmann literally has to create e-waste to repair boards that customers come to him with. Simply because Apple says so. They could easily allow their sources to sell parts to him but they go out of their way not to, including specifically making minor changes to one chip in order to have a one supplier lock-down.
+
+We're not talking ""user accessible"". We're talking about literal expert repair people (option 2 in the above senator statement) are limited. Which in turn means option 3 above is also limited (the people who tinker and know more than the typical person... Probably fits a lot of this subs base). 
+
+I would figure this subreddit should be behind this almost completely. Most of us who obtain certs are generally skilled in the arts of electronics. Now imagine even though your A+ and network+ certified, that you're not allowed to get your hands on a USB cable... or make a network patch cable. That's the level of inane this is. Skill repair professionals... even with certifications (Jessa Jones is apple certed) can't get their hands on parts that are required to effect repair. And for her it basically is the same skill as making a network patch cable."
+CompTIA,ff9dyl1,t1_ff9cvfj,1579710934.0,"I said reddit... as in overall. Not that this subreddit specifically has issues. Something that could be construed as disparaging to the namesake of the sub is usually removed on reddit. This is almost expected. Just because you guys don't do it doesn't mean it's not still surprising.
+
+You didn't need to flex your mod tag, as that kind of shows the point that mods do odd things on reddit. :)
+
+I mean looking at the mod team one is named ""comptia_CIO"" it would be in their interest to have this removed if their name is accurate."
+CompTIA,ff9az34,t1_ff8zycw,1579708845.0,presumably because this is a Comptia subreddit and reddit does tend to have censorship issues with moderation teams and such.
+CompTIA,ff9aw4m,t1_ff8zlmg,1579708794.0,">Do you think you can have an easily repairable smartwatch on your wrist if it had replaceable parts?
+
+If you watch Louis Rossmann or Jessa Jones you'd know the answer to this. It happens to be yes. They do ""hard"" repairs all the time, on video, while stepping through exactly what they're doing. WITHOUT access to part because apple does their best to shaft you, the customer.
+
+Getting parts is literally the hardest part of their business.
+> I can contact Dell and ship [...]
+
+Dell isn't a good example. Dell typically is pretty fair about parts availability and such. Samsung is generally okay in this aspect too in that you can actually generally get a hold of parts through the OEM. But a lot of, if not most other companies aren't like this."
+technology,ff83f3t,t1_ff839z5,1579664944.0,"I don't know at all... It's just my interpretation of what they said. I don't iOS unless it's Cisco original.
+
+To me it reads that if you deny access to any information that's a ""I don't agree"" and the app shuts off. Meaning you can't use it without giving permission to everything. Which is silly if you don't want to give up gamgam's phone number for an app that doesn't need it."
+technology,ff839lb,t1_ff7vfym,1579664828.0,">  about individuals that is maintained in systems of records by federal agencies
+
+Facebook, equifax, etc... are not federal agencies... and thus don't have to abide by it."
+technology,ff8348c,t1_ff7ykfp,1579664719.0,">Contacts and Calendars is for importing existing contacts/events into Salesforce
+
+Yes, but he said they deny access to the app if you block these requests... Shouldn't salesforce work if you don't want to give up your whole contact list to them?"
+technology,ff82zmc,t1_ff6rubj,1579664625.0,"No offense, but I think you should work on HIPAA or any other number of privacy issues first. Doesn't matter if you have privacy on the internet if you guys haven't even codified health privacy."
+gaming,ff7fzd1,t3_es171d,1579648671.0,New Game + will be fun...
+mesaaz,ff7firk,t1_ff6an8a,1579648366.0,">Some agents forget to remove the posts, others do it on purpose.
+
+Still valuable information... If they blow if off or you suspect they did it on purpose then you know you probably don't want to work with them. Auto-remove from the list of potential agents and check the next property listing/agent."
+ConvenientCop,ff7e9mm,t1_ff76qv8,1579647539.0,">but the tesla model 3 is light-years ahead.
+
+Including in price.
+
+Edit: Never said it wasn't worth it... But if someone only has 30k... and not enough more, price is a factor. ya'll be throat jumpy."
+technology,ff7aodv,t1_ff72mok,1579644803.0,">Facebook isn't handling anywhere near the classified information that is likely being held on most people's iCloud. That isn't an apples-to-apples comparison. 
+
+Confidential? Are you kidding me? A lot the pictures that get taken on that phone are generally destined for Facebook or some other app that's owned by Facebook. Facebook already gets contact book information when you import your contact list to find your friends. What other ""confidential"" things do you think is different? Messages? [Whatsapp](https://www.statista.com/statistics/260819/number-of-monthly-active-whatsapp-users/)(I think? I don't use it so I dunno if it's spelled like normal english) is bigger than texting at this point and is completely owned by Facebook with 1.5 BILLION monthly active users in 2017.
+
+>On-Prem is much easier to target for employees of large billion dollar companies with access and simple plug-in abilities. 
+
+What? Large billion dollar companies keep their servers in locked datacenters. Ones that you need key-card to get into the 4-5 doors in order to plug things into the relevant systems. Large billion dollar companies have functional GPO and permissions that stop exactly what you just mentioned. If you had said small office or something then you'd be right... But I categorically have to argue that you're wrong here.
+
+>That is simply a fact.
+
+I disagree. Please cite your fact.
+
+>You will find that in many scholarly articles and examples online done by people much smarter and more savvy than you or I.
+
+I work in academia... I read articles all day long, especially student submitted things. Most articles talk about big systems, like vulnerabilities in AWS or similar. It's considerably more rare that you read about self-hosted systems being targeted... and even more rare that the bugs in those systems continue to work since there's usually a healthy amount of people contributing to the code.
+
+---
+People, right now, don't give a shit about their own data. If apple did it, I bet there'd be virtually no repercussions. The typical user's iCloud probably looks virtually indistinguishable from their Facebook. You can claim it's not apples to apples but it's pretty damn close. In the end offsite hosting is less secure because it's a third party who has complete access to your data and you let them do it. ""Oh it's e2e encrypted!"" yeah... and you know exactly what algorithm it's using because the whole database of a million people are using the same mechanisms. Good luck trying to decrypt any of my on-prem stuff. 
+
+What I find funny is that you think they have some magic code that is unavailable to a typical use to run on their own systems? You realize that a piece of software running on their systems will have 100% of the same vulnerabilities as it would if you ran it on your own system right? Just in the latter instance you can configure your own solutions/options.  Further, systems that are self-run are typically open-source. Meaning nerds like me will look into the code and find the vulnerabilities and test things regularly. Where-as closed source stuff... we're not allowed to test like we would elsewhere. You're right in one sense in that vulnerabilities are found more often in that code, not because there's not as many if not more in the closed-source stuff, but because we can only work where it's legal to work and where there's code to evaluate."
+technology,ff6xof9,t1_ff6w0ps,1579637020.0,"Even if it was ""open source"", you have no way to prove the implementation they actually use is the same as the one that's been made available to the user on the phone.
+
+Edit: point being there's no way to validate it without a completely open source system... including unlocking and tinker of phones in order to validate code presented as running, is actually what's running. Apple will NEVER allow this."
+technology,ff6xc9d,t1_ff6oz4g,1579636819.0,"Oh yeah! Cause Facebook is totally crying after being repeatedly forced to own up that they regularly give away ALL their data. Facebook is dead now right? Right?! [Wait... what do you mean they're still going ~~pretty~~ strong[er than ever]?](https://www.statista.com/statistics/346167/facebook-global-dau/)
+
+And there's a give and take to hacking large systems like iCloud vs singular instance of a server on an on-prem situation. Oftentimes it's hard to even find the on-prem to hack where-as iCloud is going to be a huge target no matter what. 
+
+So no... Not easier for any average Joe."
+HomeNetworking,fekmkrr,t1_fekixmy,1579203176.0,"In this instance, I'd double check with Ubiquiti that it functions this way. The terminology is standardized, so I can make statements like I did, but you want to verify that their implementation is standardized as well. I'm wary because of the lack of documentation... And the fact that I can't try it on hardware I already have. 
+
+If I were you, in your position I'd try the egress thing on a couple of ports and iperf between them to make sure it works as intended before relying on it whole-heartedly and buying more hardware.
+
+Edit: Readability."
+HomeNetworking,fekie16,t1_fekggn2,1579200678.0,"Egress to ports. so if uplink is on port 50 (SFP+ port) you can egress on the uplink to control upload speeds of the group and egress on each individual port for each client for download speeds.
+
+I don't see this in documentation... mind sharing where you see this? Maybe I can read into it and give some insight."
+HomeNetworking,feki6pk,t1_fekeuhj,1579200559.0,">Thanks a lot for testing! But if i run QoS on all interfaces apart from the inbound interface, i won't be able to get 10 gbps spread over all interfaces right?
+
+Well the idea being that you rate limit on switches as much as possible and then if there's a public wifi or something you can chuck that on a VLAN, and that should manage the rate limiting as much as you probably can get away with in this ecosystem... And yes your imagination is right.
+
+
+>our current switches are unifi
+
+Then I don't have much to help you with. I don't toy with Unifi except for APs. So I don't have enough experience here to tell you if the unifi switches are capable. Sorry."
+HomeNetworking,feke38q,t1_fek013b,1579198123.0,"Rate control is considered QoS in this instance.
+
+Regardless of if the traffic flow could be offloaded after initial processing UBNT seems to disable the HW offload on an interface the moment you apply any QOS setting in that menu (Shame). It is possible to keep all other running interfaces on the HW offload, e.g. Interface 1 is running shaping and interface 2 is not, therefore 2 is offloaded and 1 simply isn't. This also works on subinterfaces... so 1.100 can be offloaded when another vlan on the same interface 1.200 isn't.
+
+What could work is shaping on the switch which doesn't suffer performance penalties that I'm aware of(https://dl.ubnt.com/guides/edgemax/EdgeSwitch_AdminGuide.pdf page 245-247) and you can pickup stragglers on a VLAN if you can't rely on downstream hardware to deal with it. When I did a WISP we did it as close to the customer as possible so that we can distribute the workload across a bunch of smaller devices (the CPE antennas in our case). Without knowing your physical configuration (each apartment has an ethernet jack? is there public wifi? Is all the hardware centrally located? etc...) it's hard to make a hard call on what ""best"" solution would be. And I don't have a lot of experience doing this in the switch as CPEs are a little differnt. Someone else might be able to chime in here.
+
+To be fair, it takes some beefy hardware to properly QoS a full 10Gb line. More than I would expect a $1000 router to manage."
+HomeNetworking,fejy7zl,t1_fejx0cd,1579188559.0,"Can you define what you're calling ""simple queues""? I'll gladly test it on my infinity if you'd like."
+HomeNetworking,fejsp9n,t1_fejkfn7,1579184905.0,"https://help.ubnt.com/hc/en-us/articles/115006567467-EdgeRouter-Hardware-Offloading
+
+Just for reference for anyone else who meanders through this chain. The Infinity is Cavium-Based. Can handle a lot, but QoS, Netflow, and Bridging are three functions the break offloading."
+WTF,feizla8,t1_feimzoa,1579151737.0,"yeah but my point was that this isn't necessarily a zoning issue for all of texas like the previous poster implied. Houston is the ""famous"" city for ""no zoning"". But that's still relatively unique to just Houston. 
+
+I understand that you're right in that most refineries aren't in Houston distinctly, but that wasn't my point. I was correcting the understanding that ""all of texas is unzoned"" myth that I see from time to time. I lived there for 3-4 years while I was in the military, the area I was in, most of the places I saw, and Dallas (which I visited often) are definitely zoned.
+
+Edit: I should clarify... everything I saw was definitely zoned. But IMO Zoned poorly. But that's not my area of expertise, I only know what I learned in Simcity and City Skylines. So I'm not necessarily disagreeing with you. Just clarifying what my statement was meant to educate on."
+WTF,feihf9k,t1_fei593j,1579138602.0,zoning is a thing in most of Texas... It's places like Houston that don't do zoning.
+HomeNetworking,fehpzhl,t1_fehok8k,1579121559.0,">Do they have something that doesn't require some kind of management infrastructure?
+
+You don't need it running all the time for a basic setup. You can even just run the android version to setup/configure the AP and never run the app again."
+HomeNetworking,fehjwby,t1_fehhb1g,1579118047.0,But both of those networks are on the same subnet... I hope you meant /24?
+homeassistant,feegisc,t1_fedtdod,1579033289.0,"I'm not sure many systems check for ""dynamic"" marked ips... I'm not sure there's a good repository that's reliable enough to validate such a thing. An ISP doesn't have to notify anyone what they do with their blocks of addresses... 
+
+What server software are you running? It's something I've been looking into and that would be a solution I think could be valid for me. (EC2 for reliability, but out of google's hands)"
+HomeNetworking,fee1cce,t1_fedzm05,1579024342.0,"So then it does do bridge mode... It's all it can do and the guy is wrong...
+
+But it's easy to tell by the context of the article that were talking about the typical modem router hybrid."
+homeassistant,fecggko,t1_fecg3mi,1578973327.0,"Shouldn't if you DKIM, SPF, and DMARC everything properly... But that's a hard process for a ""joe blow"". I've done it a few times without issues."
+homeassistant,feca8fc,t1_fec6oop,1578969453.0,"The only real solution is to invest in your digital-self. Get a small server like a synology and host your own services that you'd like. 
+
+Federation is the real way to go in my mind. Services like Owncloud (with onlyoffice) and Matrix-Synapse is the required for owning your own data in my mind.
+
+Short of email (cause downtime on consumer connections makes email harder... and good spam filtering), everything else DOESN'T need to be on someone else's server."
+ASU,febnqaj,t1_fea9ct7,1578960788.0,You and 400+ other people.
+ASU,fe4qevu,t1_fe4kzic,1578861867.0,"You can't re-star old classes (""previous enrollment""). So if you're looking to keep a class on the front-page of canvas don't unstar it. In my instance, an ""advanced"" class that the previous ""basic"" class has references for."
+videos,fdrgh4g,t1_fdquh03,1578684125.0,"Company: ""We're going to DMCA/sue you!""   
+LPL: ""HAH, you've just triggered my trap card!"" *lays law degree on battlefield*"
+HomeNetworking,fdqrh2n,t1_fdqhjcy,1578673302.0,"To make it clear, a rule of thumb in RF engineering is that every 3dB is double the power. So 1.5 dB difference will be significant range losses, especially if there's things like walls in the way. The bigger differences between a higher power device (from 26 -> 18.5) is actually over 4 (closer to 6 or maybe 7) times weaker... The device will see the network just dandy... but probably have a hard time talking back."
+ASU,fdedqil,t3_eirnj3,1578336795.0,RP now will detect Remote Desktop is active and require it to be shutdown. So you won't make it to the test environment.
+ASU,fde4jyv,t3_ekwzil,1578331026.0,"Why do speed limits still apply on roads when there's no traffic?
+
+Break the rule if you like... But the rule applies regardless."
+HomeNetworking,fddqp14,t1_fddirz2,1578321438.0,"Well when your options are 900mhz, 2.4 ghz, 5ghz, 11ghz, 24ghz, 60ghz, and a few more in between with obscenely high licensing costs... 6ghz is on the low end.
+
+And PTP... As in point to point, shooting signals dozens of miles. Like this... https://nextcloud.saik0.com/s/Bsj6FpRkN8TbDxK which is a 36 mile link.
+
+I also never said ""increased"" penetration... Just that at 6ghz your not trading off too much... Unlike 24 and 60... At 60ghz it feels like a piece of paper blowing in the wind kills your signal"
+HomeNetworking,fdctisl,t1_fdcssov,1578283879.0,This much spectrum... I'm more interested in how much more feasible terrestrial wireless becomes. With that many new channels I suspect that multi-gig PTP connections become a lot easier... especially since it's still a relatively low frequency so it doesn't lose out so much on penetration.
+HomeNetworking,fdcfcnm,t1_fdcehk9,1578273518.0,"Yeah totally... [I definitely don't have one.](https://nextcloud.saik0.com/apps/gallery/s/irB5RsKt7aC5aN9)
+
+Oh wait... looks like I do."
+gaming,fdce4xf,t1_fdc9vef,1578272678.0,So that's where the money for the canvas bags went...
+HomeNetworking,fdcb2j4,t1_fdb2kp8,1578270714.0,"Uhm... You realize that ""Edgerouter"" is a line of products right, not just a single thing right? 
+
+I have an [Edgerouter Infinity](https://www.ui.com/edgemax/edgerouter-infinity/)... It's capable of 80gbps aggregate throughput and has 16cores of cpu in it. Far from ""pathetic cpu"". If you're talking ER-X then sure, it's a small little 40$ router... Of course it's ""weak"". But the others in the line are not slouches."
+ManjaroLinux,fdabvot,t1_fda66ym,1578244309.0,"You're right. I read the ""to startup""(as in machine startup) while I was reading this on my phone. There's no good way to run a command as root on your user login. 
+
+Every way I can think of requires you to type a sudo password."
+ManjaroLinux,fda3dld,t3_ekepy9,1578241184.0,"`sudo crontab -e`
+
+Then add a new line
+
+`@reboot <the command you want>`
+
+Not in front of a computer at the moment but crontab should be able to handle it."
+homelabsales,fd74h1m,t1_fd72lx7,1578199312.0,"I have an r710 in my rack somewhere.
+
+On most recent bios, it's not that bad. Best with at least a door in between it and the wife to make sure it doesn't mess with WAF that much..."
+aww,fczw7ty,t1_fczsr9p,1578109671.0,"RIP /u/Unidan.
+
+Edit: clicked the automagicked link for fun... Turns out Waybackmachine (plugin that automatically tried waybackmachine if page 404s) has his profile archived."
+aww,fczfx7d,t1_fczetgz,1578100372.0,"Look at the pictures of both of those species... What people recognize as a ""Pterodactyl"" is typically a Pteranodon (eg. Jurassic world). 
+
+Which is why I stated Pteranodon. The Pterodactylus was my point on the name though, commonly known != actually named. Which is why I made the Berenstein Bears reference.
+
+Edit: Specifically this information is relevant.... https://pterosaur.net/myths.php
+
+>The term â€˜pterodactylâ€™ is sometimes used for pterosaurs, particularly by journalists, with the implication being that the term is synonymous with pterosaur. In fact it isnâ€™t: the term pterodactylâ€”originally written â€˜ptero-dactyleâ€™â€”was first used for one specific type of Upper Jurassic pterosaur, the European ctenochasmatoid Pterodactylus, and doesnâ€™t apply to other members of Pterosauria. It has been used on occasion for giant short-tailed pterosaurs like pteranodontids, but this is not common among pterosaur workers. If we used vernacular names for prehistoric animals (which, generally speaking, we donâ€™t), then we might well term members of the genus Pterodactylus â€˜pterodactylsâ€™. But we donâ€™t, so the words pterodactyl and ptero-dactyle are pretty much redundant today."
+aww,fcze820,t1_fcyzbjf,1578099203.0,"Pteranodons... Pterodactyls aren't a real thing... Just a name lay people gave the Pterosaur genus that kind of stuck in common vernacular, but isn't accepted as a real genus name. I only know this because there's a shitty app on my kids tablet that they leave on from time to time that's this grating 6 year old talking about it on repeat... Then I had to look it up because I felt that couldn't be right... Now I feel the compelling urge to share it with you since I see it, you must share in my berenstain bears moment of prehistoric flying creatures.
+
+https://www.livescience.com/24071-pterodactyl-pteranodon-flying-dinosaurs.html
+
+https://en.wikipedia.org/wiki/Pterosaur"
+worldnews,fcxscy9,t1_fcxqktd,1578069733.0,You prove his point by instantaneously discount Syria... And don't act like Lebanon couldn't be auto-corrected to Lydia.
+politics,fcsveh3,t1_fcsnknm,1577926088.0,"While I'd admit it could be pretty disingenuous... Nearly the entire workforce was working on the recovery for months... further we had additional people from other locations like upstate and other states come help too. The reality is that that percent is likely to be much lower than even the .06% I've mentioned if total response force was taken into account. There's no consistent way to know how many people were there at any given moment since there were so many people... but you don't think that on any given day there weren't at least 11k people there? I'd say that's a pretty low-ball number. For the first few weeks (probably over a month) for damn sure that's a super low number as I remember reports of 20k+ people being on scene to help. So is my number really that disingenuous?
+
+And yes for a good chunk of time NYC did COMPLETELY exhaust their own resources since they were trucking in fire teams from upstate to handle local duties."
+politics,fcs0bv6,t1_fcrxitj,1577909377.0,"I have to assume this is somehow proof that he shifted priority? So the argument is that we should have left the vaults untouched down there? Even though they've shown signs of tampering and one of them had weapons since it was a depot for law enforcement? Yeah! nothing can go wrong with that.
+
+Not sure a 30 person team of firefighters and police officers would really count as prioritizing recovery of the vaults over recovery of people... remember there are 11,000 NYC based firefighters alone... forget the ones that were brought in from outside locations.
+
+Not sure that I would call a less than .2% of workforce shift a shift in priority. And that's not even accounting for police officers... real percentage is actually less than .06%..."
+politics,fcrq9vv,t1_fcrpd8r,1577905177.0,"You're right. Busy trying to get the content down, I've corrected it now. Thanks!"
+politics,fcro7it,t1_fcrn6h8,1577904394.0,"No bid doesn't mean that research wasn't done against other competitors. Just that those competitors were necessarily given a chance to come in offer their own solution. 
+
+I can do research on 10 companies offerings and give a no bid offer to the product that I feel fits the bill best. A bid offer would be that I publicly publish my requirements and let the companies offer their solutions/prices.
+
+I perfectly understand what ""no bid"" entails."
+politics,fcrmduv,t1_fcrl93y,1577903703.0,"And what you're missing in the story (that OP even confirmed) was that they were returned... Which furthers the point that this is unrelated.
+
+I did logistics in the military as well. I know the price of radios. While 1700 isn't a terrible price considering, DoD most definitely has higher requirements than Civilian counterparts. Therefore there will be room here to come down on price if needed... Now keep in mind this is the ""cut corner price"" If the other company wanted 2000... Then whats the issue... You just admitted that 1700 is about right."
+politics,fcrkky6,t1_fcrhuk7,1577903038.0,"Holy fuck, no argument that actually refutes or debunks my statements! What a wonderful addition to the conversation! I applaud your in depth research!
+
+I opened the fucking post with ""he's a piece of shit"". Which he is. Probably the worst ~~governor~~ mayor NYC has ever had (as a person, business was booming quite well). But literally every in this post is simply bullshit attribution or name calling. At least call him out for the real shit he's done.
+
+Things like using the 9/11 attack to continue his time in office bypassing term lengths.
+
+>Mr. Giuliani became so entwined in the disaster's aftermath that he briefly considered himself indispensable, and floated a plan that would allow him to continue as mayor after his term expired on Dec. 31.
+
+Source: https://www.nytimes.com/2001/12/31/nyregion/the-giuliani-years-the-overview-a-man-who-became-more-than-a-mayor.html
+
+And not to forget his absurd fixation with ""crime"". 
+
+So no... Not because I ""fell like it's okay"" but because I fucking remember what happened because I was there. Also because I have life experiences in things like the military... you know places where you have to organize thousands of people together."
+politics,fcrgdsi,t1_fcrea9f,1577901473.0,"Which corner cutting are you referencing? The radios? Why pay 10$ more per radio when the other variant is sufficient? You have to remember that there's at least 55000 people to outfit with radios... and now those vehicles and buildings that also need those radios... This can easily jump to 100,000 radios.
+
+I chose 10$ out of thin air. It could easily have been 50 or 100$ a radio. Is finding a radio that could save 10million dollars in comparison to some other radio a bad choice? Considering the lack of information here I would claim that there's no sufficient evidence to make such a claim that it would have been dangerous. Considering that I haven't heard of this radio issue until now... 18 years later... I'm going to say that it wasn't a serious topic of issue.
+
+The only issue I could dig up in research was [a purchase of 2,700 radios totaling 4.5 million dollars... and only for FDNY.](https://www.nytimes.com/2001/03/25/nyregion/fire-union-demands-inquiry-into-contract-for-new-radios.html) So not only did OP blow it severely out of proportion... but it would be a drop in the bucket.
+
+Also, to make it clear... this meant that each radio cost about 1700$...  You think there isn't money to legitimately save here?"
+politics,fcrawlt,t1_fcpxx4g,1577899307.0,"As a New York Native... Giuliani is a dick. But I'm not buying even half of this shit being distinctly his fault.
+
+
+>FEMA and the Army Corps of Engineers offered to run the initial response to the 9/11 attacks. Rudy said no, and invented a new NYC office to coordinate efforts through instead.
+
+NYC police force is generally accepted at around 40,000 strong (at the time). Outnumbering ACOE(37,000) and FEMA (11,000)... Likely outnumbering both organizations outright in responders. Definitely outnumbering both plus more if you're counting firefighters(~11,000) and EMTs(~4,000) and the like.
+
+Why is making an office to handle the process of the worst disaster that has basically ever happened to NYC an issue? Kind of requires some structure to manage all those people... And with over 50k people to manage for a single incident you kind of need *something*. A new office sounds about right. Also holding off on accepting aid when you don't even know where your own pieces are... also sounds pretty fucking reasonable.
+
+>NYC Police, Fire, and Ambulances all received new radios in 2001, however they didn't work and had to be returned prior to September. Rudy was responsible for the no-bid contract on the defective radios.
+
+Which is a problem of timing. Also, when you're outfitting probably 100,000+ radios... It makes sense to try to cut a corner(Edit: Even if it wasn't a corner cutting thing... might be a selection of specific requirements in radios) here or there since that could easily save 10$ a radio... you know... million dollars or so of savings. However, I don't know much about this... so there could be more to it that I'm not understanding... You certainly didn't link information that would expound on what happened.
+
+>When it was discovered that toxic waste had been spread over a larger area than initially speculated Rudy told FEMA, ACE, and OSHA to stand down and left it to individual landlords to handle the toxic clean-up.
+
+What makes you think that FEMA, ACE, and OSHA were equipped to handle it to begin with? I don't think you understand the sheer size of Manhattan. Also the shittiness of Landlords. Without a decree from above that Landlords needed to act on their own accord... all the above organizations would likely still be cleaning to this day and the Landlords would be sitting around with an excuse (Gotta wait for FEMA!) to let their tenants live in fucking HAZMAT conditions. Putting the onus on the people might have cause some additional exposure in the short term... but ends up being the better call in the long run.
+
+>When during recovery Rudy prioritized the recovery of precious metals over the recovery of bodies.
+
+Not in my experience as I knew people in the towers. But of course with that much debris and damage you have to move the shit somewhere to get the to the bodies to begin with. So some level of emphasis on moving the shit out of one of the most dense cities in the world make sense considering.
+
+>Everything else...
+
+Pure speculation with no logic or source behind it."
+ASU,fcntkus,t1_fcnaps0,1577818151.0,"So there damned if they do; get a lawyer and they're somehow strong arming a multi billion $ college... Or damned if they don't; probably get convicted as a sexual predator... 
+
+You literally give no other option other than they're guilty... You realize how silly that is I hope..."
+ASU,fcnsn5v,t1_fcnmgmb,1577817650.0,IFT is abet accredited as well.
+HomeNetworking,fcnqsz4,t1_fcnq8vy,1577816688.0,These are already unterminated... And the other end is likely behind wall plates... Just put a patch jack in. If you snap a cable just order another 5$ jumper patch. The stuff in the wall should remain safe this way.
+HomeNetworking,fcnpzka,t1_fcndw7w,1577816250.0,"You can feel that way if you want... But the switch has to sit in the closet wherever this picture is... A little fan noise in a closet doesn't hurt anyone. 
+
+And i've run fiber to my office direct to my pcs... Tell me what ""accident"" could occur?"
+HomeNetworking,fcn3t42,t1_fcmcb1z,1577802494.0,"Old enterprise 10gb switches can be had for a couple hundred... And old enterprise 10g pcie adapters are like 20-30$ on eBay. Transceivers will be a bit expensive(cause of how many you'd need,only like 40 for 10g no name ones) alongside the terminations."
+worldnews,fckhvid,t1_fck82jw,1577725682.0,The average cost of a tesla is closer to 70 or 80k. It's a luxury vehicle that requires wealth. Just keep in mind that the model x and s are easily over 100k and have been out considerably longer than the 3.
+homelab,fcbz0zq,t1_fcbxmdh,1577592551.0,"Oh yeah the off-gassing is super serious. If you ever walk into you server area and smell something strong (ups alarms likely going off too) unplug that shit and leave the area taking as few breaths as possible. Try to open direct paths to outside and let it air out for an excessive amount of time. Shit is super toxic. To the point that in a datacenter environment you call a response team with hazmat suits. 
+
+Me at home reaponse... Open the garage, turn on the attic fan, login to remote console and turn off bad ups... Probably cry a little on the inside that one or both ups(I run hot/cold systems back to the breaker box on different phases... So 2 of everything power related) will now need to be replaced. Bottle of vodka and some credit card usage (to get the replacements) later it's probably aired out enough at that point.
+
+Edit: https://www.reddit.com/r/sysadmin/comments/eeitvn/dont_panic_butwhat_do_ups_fires_smell_like
+I found it... Wasn't here, but another subreddit."
+homelab,fcbv4y2,t1_fcbsfo9,1577591321.0,"UPSes tend to be comprised on a bunch of smaller cells of 12v batteries meaning that just one or two of those cells have to leak not necessarily the whole pack.... I've seen plenty of batteries die(edit: while in use) in my time (20ish years, 5-6 in a datacenter). Most die ""nicely"" I'd say it's maybe 1 in a couple thousand failures for a bad failure where you'll get swelling and sweating with possible leakage. We had a post a couple days ago about a guy smelling a weird smell... Which was a ups battery off-gassing/leaking and since most of the cells are laying sideways or even upside down in some UPS configurations, you're going to get leaks with these situations.
+
+And the weight thing is really best practice of keeping the denser things lower. Which is why I admitted that I tend to he ""that guy"" in the first place. Other than the battery concern which a lot of people ignore (it is rare enough to ignore if you'd like) there's no other""good"" reason. So do whatever you'd like. I was just tossing my 2 cents in."
+synology,fca1smp,t1_fca152f,1577561723.0,It's not available if your raid-5. And even if it was available is be worried you might run into other issues considering that volume was created that long ago. There's an option to export all settings somewhere. Look for that and then import it on the new primary volume.
+homelab,fc8exc2,t3_egkpic,1577533390.0,I was going to be a ups commenter.... Reasons are weight primarily... Rack is most stable with the bulk of the weight at the bottom. But there's another reason too; if a battery leaks on you then it doesn't take out servers if they're on the bottom as well. A single battery leak will destroy both of those 720xds quite handily.
+technology,fc1cse0,t1_fc14ish,1577314901.0,You can't give everyone that speed on wireless. There's not sufficient spectrum to do it. Especially if your taking about as home service usage.
+gaming,fc1772z,t1_fc14tuh,1577310220.0,Its flash media... 32gb isn't a hard limit on the switch. And bluray at can get upwards of 300 with bdxl.
+homelabsales,fbzkhvz,t1_fbzjskt,1577249763.0,"Agreed. OP we gotta know if this is simple networking stuff that needs to stay online for 10 minutes, or a rack of servers. What load are you trying to power and for how long?"
+>>>>>>> b2c2856e21b6decdd12b8bdccd381cae2c58ec91

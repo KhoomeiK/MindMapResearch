@@ -1,0 +1,184 @@
+subreddit,self ID,parent ID,time,text
+toptalent,fgszyim,t3_f09igp,1581096169.0,/u/GifReversingBot
+PublicFreakout,fgsz50k,t1_fgsyscu,1581095679.0,"Well people need to defend themselves if you pull a gun out on them, and they can't do that if the gun they are holding you up with is unloaded!"
+spaceporn,fgr7k5a,t1_fgr635q,1581040085.0,I get your point but OP makes a much better wallpaper than an x-ray readout from the Chandra telescope.
+bestof,fgqmyg0,t1_fgphz84,1581027295.0,"Thanks to Bernie Sanders, we now know.
+
+And quite likely he won Iowa popular vote in 2016."
+educationalgifs,fgnryj0,t1_fgnosu8,1580951588.0,"I understand your point, and agree that it would be ideal to have factually stated content in the title of every post.
+
+I am, perhaps, a bit more tolerant of people who make mistakes, and wouldn't wish the loss of karma and comments on anyone.
+
+There are other options, like an inaccurate flair, which would also encourage people to start reading the comments, because as I've seen countless times, the education doesn't end with the gif, it often pours into the comments as well."
+educationalgifs,fgno87u,t1_fgnnfpr,1580949213.0,"If it was intentional then it is an issue; I would agree with you there.  This seems unintentional, therefore I would regard it as an acceptable accident."
+educationalgifs,fgnn55o,t1_fgnkmbz,1580948499.0,But Reddit also upvotes the corrections.
+reduxjs,fglsm1e,t3_ez8t79,1580909926.0,"I don't cache my items, but if I did, I would probably do the following:
+
+I would cache all returned items in the client application.
+
+Each item would include a timestamp for the last modified date.
+
+When a user navigates to page x, my client application would make an API request to get the item meta data for items on page x, providing a page size of y.  My back-end uses math to know which chunk of items to respond with.
+
+Item meta data would include the item id and timestamp.
+
+Any item id not cached, or item with a later timestamp, will be requested again in a single query.  Otherwise, my cache prevails."
+csharp,fgkoiwl,t1_fgkm2iz,1580870180.0,"You don't look like OP, and I'm not OC, but I answered your #1 in another comment."
+csharp,fgkofoh,t1_fgkklhf,1580870125.0,"Not the OC, but I believe it's because regions collapse by default when opening a csharp file, and people don't like that behavior, and so they discourage use.
+
+I do like regions.  Although I configure visual studio to not collapse things by default."
+worldnews,fgk8mwo,t1_fgk7q41,1580859858.0,Stress and emotions are tied to chemical releases throughout your body.
+politics,fgj9i6o,t1_fgj8fr9,1580839650.0,"You're acting like political parties never change.  The democratic party is moving further left, like it or not.  Those who have been considered moderate democrats in the past will be viewed as conservative -- some of the conservative democrats might even jump ship and start calling themselves republican."
+politics,fgj8u47,t1_fgiqooa,1580839255.0,25% is a victory for Pete even if someone else gets more delegates.
+Wellthatsucks,fgha0hz,t1_fggo3su,1580780150.0,The moment someone sneezes the person wearing the hazmat suit will tackle the driver to protect him from the airborne coronavirus.
+news,fg47c5a,t1_fg3zhfu,1580497677.0,Felon becomes capitalist becomes felon.
+csharp,fg46kt6,t1_fg3leax,1580497216.0,"I have had to deal with equipment which suffered performance issues due to excessive standard out logging, so I would agree that it can become expensive.  However, the applications I am developing are to be used for serviceability of equipment, and the logs are part of that serviceability design."
+csharp,fg43i0h,t1_fg3ut5a,1580495384.0,"I'm not throwing new exceptions, I rethrow the same exception (throw;).  My libraries that catch, for example, a webexception are not going to contain the logic that logs to filesystem or displays the exception details.  I separated these duties, and allow the exceptions that are being thrown anyway to be caught and released for the sake of having meaningful logs.
+
+And as stated, my log requirements demand that I catch and release in order to log the progress of an exception and provide state and contextual information along the way back upstream, which those who digest the logs find incredibly useful.  To do things differently requires developing more architecture for the sake of addressing concerns that are not seen or observed in my code.  There is no performance concerns in using exceptions like I do in a single user desktop application.
+
+I'm developing serviceability tools with an emphasis on logging the procedure of the application so that there is an increased awareness of problems when they arise, without having to rethrow custom exceptions after encountering webexceptions.
+
+I understand your points though.  They just do not apply here."
+csharp,fg3iz26,t1_fg3hqpl,1580482670.0,"I understand that.  I also don't make software that needs to worry about the expense of exceptions.
+
+I write software for a support department which interfaces with equipment that we support.  It's very important for me to have very clear logs on the behavior of the software (we use these logs to help troubleshoot the equipment we work with).  When the exception is thrown and the error message pops up immediately, I see no problem with the way exceptions are being used in my code but I do see better and more informative logs, which is an important part of the software I develop.
+
+There is a time and a place to use them, and some of the alternatives present a lot of muck in my code base.
+
+But you are exactly right, exceptions are more expensive than other options.  I hope exception performance would be improved because it's a very nice way to propagate an exceptional state upstream."
+csharp,fg3gi63,t1_fg3crhv,1580480939.0,"I prefer to catch and re-throw exceptions around in my code so that I can log the journey of the exception throughout my application, or ignore the exception as needed (some exceptions you can safely catch and ignore).  I **handle** most of my exceptions in my ViewModel command with a MessageBox to the user.
+
+For example, my EndpointController.Connect method may catch a WebException and log ""Failed to connect to endpoint, throwing exception upstream."" and throws the exception upstream to the ViewModel that made the call to the EndpointController.Connect method, the ViewModel command logs the exception again and shows the messagebox to the user.  I don't want my EndpointController to show a messagebox (it's not close enough to the view to present UI), but I also don't want to hide the fact that an exception occurred within the EndpointController.Connect method."
+news,fg25v8m,t1_fg0s9n2,1580438973.0,It would be more surprising if the ex-girlfriend that he promised you he was over gets it.
+spaceporn,fg1ogtb,t1_fg1m8wt,1580430822.0,This feels like a family guy reference.
+democrats,ffxyla2,t1_ffxu6g0,1580334972.0,You could throw Bolton further than you could throw Trump.
+socialism,ffwlhld,t3_evd0ey,1580304716.0,Capitalism has not failed us.  We have failed capitalism.
+democrats,ffvd6gb,t1_ffv3jl0,1580261340.0,"We have a criminal at the head of our executive, and a Senate majority defying duty to protect a party."
+TrumpCriticizesTrump,ffv5vod,t1_ffugf3m,1580256413.0,The Art of the Swindle
+spaceporn,ffv5h9o,t3_evaafz,1580256136.0,"I need this in a higher resolution to use as a mobile wallpaper, but it looks simply amazing!"
+business,ffuytvh,t1_ffua59w,1580251954.0,"That is actually a big problem.
+
+Most of our news is made to be sensational because no one cares about the mundane.  Capitalists learned long ago that there is money to be made by telling people what they want to hear and calling it news.  It's a very competitive market, and the interest of the people can fade quickly.  But there is an article for pretty much everyone.  There are articles for and against every argument, on every topic, from a variety of outlets.  There are also a lot of biased opinions and advertisements woven in.
+
+And that is just the business model of our big conglomerates, e.g. CNN and Fox.  Many outlets are intentionally peddling non-factual, misleading, and extremely biased opinions.  Many outlets attempt to control how the news is understood (let's hear from the panel to tell you why I'm correct.)  Perhaps then it is deserving that it's getting harder to tell the difference between reputable and satirical news.
+
+People don't verify the content of articles before sharing when the content either already aligns with their personal bias and opinions, or if it comes from a source which they have entered into a trust relationship with.
+
+But let's be real for a second, no one has time to come up with an informed opinion before making quick a rebuttal on the internet.  But rest assured there is an article to validate their uninformed opinion, and it's only a quick Google search away."
+SandersForPresident,ffru3ns,t3_euo45u,1580165859.0,"""Thousands of people share a meme with a big blue dic..."""
+csharp,ffq80jz,t3_eui6aw,1580125251.0,"I have multiple projects in my WPF solution, and I follow MVVM with Controllers.
+
+My main projects are:
+
+- Application
+  - App.xaml
+  - appsettings.js
+- Settings
+  - AppSettings.cs
+- Models
+  - BaseModel.cs
+- Views
+  - Images
+  - Resources
+  - BaseView.cs
+  - MainWindowView.cs
+- ViewModels
+  - Commands
+  -  - RelayCommand.cs
+  -  - BaseCommand.cs
+  - BaseViewModel.cs
+  - MainWindowViewModel.cs
+
+I also have other projects in a solution folder named Libraries.  These projects provide some services and static methods for my solution.  Here I have things like an ExtendedWebClient and Repository project.
+
+I override the OnStartup for my ServiceProvider and ConfigurationBuilder code.  All my views are instantiated with GetRequiredService which I extended from App.xaml.cs.  Runtime configuration is loaded via appsettings.json, and my data persists through a Mongodb connection at the moment.
+
+All projects except my Application project are class libraries (dll).  Application is the only Windows Executable.
+
+I can post some screenshots of anyone wants.  What I have now is the result of a year or so of relentless refactoring."
+warcraftlore,ffjxxd7,t1_ffjnyvo,1580009999.0,I'd love a single player Warcraft experience that isn't an RTS.  Think Fable and Kingdoms of Amalur.
+massachusetts,ffjpnq5,t1_ffjftqe,1580003804.0,How much is a quarter there?
+SandersForPresident,ffijqyd,t3_etp259,1579975524.0,It's going to be more difficult for the media to ignore Bernie with these recent polls results.
+Polycom,fff5orj,t3_eta96k,1579876357.0,"Log in to the phones web ui.
+
+Navigate to utilities > software upgrade.
+
+You can upgrade or downgrade simply from this utility using the Polycom hosted server.
+
+On vvx if you have a o365 Skype and exchange registration, the phone will join teams calls using the Skype to teams gateway.  It will not join a native teams call.
+
+The trio can be configured to boot into teams base profile to join native teams calls (audio only).  The trio can also enjoy video in teams calls if you use realconnect for teams.  The trio can also use the Skype to teams gateway from an o365 Skype registration (audio only).
+
+Skype to teams gateway will only be available as long as o365 Skype is available.
+
+Contact an SE for more details on your options."
+politics,ffe2a0j,t1_ffcn03d,1579834828.0,It always comes down to ruling elite and everyone else.
+maryland,ffdl11m,t1_ffdif2o,1579823126.0,"It was very obvious when I moved here that New Englander's use their cellphones and run yellows and the beginnings of red lights and take your right away.  Living around Baltimore County for 30 years of my life and people drive like assholes there, sure, but I've noticed much more of that around the New Hampshire and Mass border."
+maryland,ffct7rb,t3_eswi5k,1579806773.0,"I moved from Maryland to New Hampshire about 5 years ago and have seen this to be the opposite.  People here in New Hampshire run every yellow light and even into the first few seconds of red they're still going, because there are no intersection cameras.  Maryland drivers are much more cautious than New England drivers."
+Polycom,ffbwrqa,t3_essw4h,1579785312.0,"Are the working vs non-working phones running the same software?
+
+Have you tried using the working credentials on the non-working phones?
+
+Have you compared phone backups to determine if there is a deviation in configuration?
+
+I would need to take a look at the phone's app log and phone backup to assist.  You should configure the log level for nisvc, auth to be ""2"" (event 2)  Those log levels will let you review the HTTP requests the phone makes to the web services (including for oauth tokens and EWS) and the response codes."
+SandersForPresident,ff965r5,t1_ff94mek,1579705763.0,"Private insurance is the reason we spend so much, per capita, on taxes for healthcare."
+Pixel3XL,ff8ufw0,t1_fe0gb1d,1579696466.0,"I use ""methinks"" all the time in typed conversation.  I do sound silly when saying it out loud."
+spaceporn,ff8u5uu,t3_es90s5,1579696191.0,We need more mobile resolutions!
+nextfuckinglevel,ff7mige,t3_erxwno,1579653100.0,This guy lumbers.
+Wellthatsucks,ff47y32,t1_ff3ugna,1579557500.0,I have two extra teeth.  How common is that?
+politics,ff1su0s,t1_fezbe38,1579485405.0,Once they piss off all the racists they will not have enough votes to get reelected.
+PublicFreakout,fey5mpb,t1_fexf403,1579441115.0,"To be fair, he likely needs some mental healthcare, rather than to be thrown in jail.  Some people are fine 99% of the time, and every now and then have an episode which turns out like this.  Episodes built from a high anxiety childhood.  We need to better identify and help people in need, rather than lock them up."
+space,few76z7,t3_eqop4f,1579406308.0,"One day we will run out of words to name galaxies.
+
+It's crazy to think but one day we will run out of words to name galaxies.  We have an estimated 200 billion galaxies in the known universe, and less than 200,000 words in the English language."
+wow,few6va9,t3_eqkevg,1579406148.0,Horde hunter fox vs alliance fox hunter.
+IdiotsInCars,few68v8,t1_fev6cgo,1579405867.0,That's exactly what happened here.
+IdiotsInCars,fejz7bv,t1_fejvncr,1579189179.0,"Or because the person behind them was waving them forward, and they blindly followed that direction.  The anxiety in a situation like that causes you to do stupid things."
+news,fejyz2w,t1_fejxhki,1579189034.0,And because animals fuck.
+politics,fehx4f3,t3_ep7e84,1579125607.0,Why be a Democrat if you won't vote in a democratic primary?  I'm not affiliated with a party and I will be voting.
+socialism,fehkf98,t1_fegyw8g,1579118349.0,"I am a Sanders supporter.  My ranked choices are:
+
+Bernie
+
+Warren
+
+Amy/Yang"
+socialism,fehkbwn,t1_feh7scb,1579118296.0,I'd choose a shoehorn over Trump.
+newhampshire,fec37z2,t1_febhkcr,1578965997.0,"God made ladies shirts for a reason, bro.  /S"
+Wellthatsucks,fe7rkxb,t1_fe6d4nf,1578918404.0,"It's now the dog's shower, apparently."
+oculus,fe4gb9z,t3_enqlo4,1578859031.0,We need gloves with rumble for collision detection.
+politics,fe35sly,t1_fe2w73t,1578846188.0,"They have been saying ""we need more information"" for decades.  Do you know how many lives have been impacted by waiting around and not (really) pursuing it executively or in the federal legislature?  Today we have state legislatures, executives and state popular votes legalizing it, against federal law.  We have an entire industry at risk who have to accept living with a certain level of anxiety regarding their work and livelihood.  It's a mockery at this point to suggest that ""we need more information"" after all the legitimate studies and private interests we have now promoting the substance.
+
+Even where it is just decriminalized, there continues to be penalities and stigmas surrounding posession, and cops must continue to intervene in some way if they catch you with it, and so even in those states, people must live in anxiety for choosing to possess a substance.
+
+There are still many people in jail today for non-violent posession crimes.  What exactly are we waiting for, and at what cost do we wait?
+
+""We need more information"" is a conservative talking point on the Democratic stage.  More than half the country supports legalization.
+
+We can do better than that.  We don't need to wait.  Bernie 2020!"
+Pixel3XL,fdzb75k,t1_fb6hp3i,1578788436.0,"A selfie stick taped to a tripod?
+
+Most selfie sticks I have seen, you can unscrew the mount from from the stick, and then mount it directly to the tripod.
+
+That's what I'm using."
+Mordhau,fdwi6z5,t1_fdvvn4o,1578758880.0,"Admins of servers have a gun in the game, I assume devs have admin on public matchmaking servers.  Make a local match and type ParryThis into console."
+Wellthatsucks,fdtp9tw,t3_emvt69,1578720095.0,Why are there odd groupings of different colored lockers?  Are they trying to make all the OCD kids anxious?
+Mordhau,fdt1z38,t3_emuslm,1578710875.0,Next patch I want a diving kick and kungfu.  Please.
+nextfuckinglevel,fdrpy97,t1_fdq6f74,1578687978.0,"Or, after they move it:
+
+""Okay guys, back it up.  It looked better where it was before."""
+worldnews,fdqd0e4,t1_fdqcgc3,1578663379.0,"The Resolute Support Mission in Afghanistan is commanded by a United States Army general, and is responsible to the United States Central Command, which is part of the Department of Defense."
+socialism,fdodz6w,t1_fdnyxsv,1578603374.0,"You don't make terrorists by killing everyone, some of them have to still be around to hate you."
+politics,fdm7ery,t1_fdm7ckh,1578541635.0,And happy cake day!
+politics,fdm788h,t1_fdm74wu,1578541506.0,"Should be self evident, but alas, you're right."
+politics,fdm6rmo,t1_fdm16mm,1578541180.0,Probably the cheapest frugal place he can find.
+Mordhau,fdm6fpf,t1_fdlan93,1578540943.0,"Or if they are playing a shitty song.
+
+Or if they are swapping lute for weapon when you turn your back."
+spaceporn,fdktpil,t1_fdiztj3,1578510951.0,"It depends on how dense the star is when it collapses.  Black holes are at the core of galaxies, they (in my opinion) are not infinitely dense, and are comprised of energy and mass just like any other celestial body.
+
+Any body dense enough to create a gravity field that traps in light is going to behave like a black hole.  Those forces destroy mass, churn up energy, and expel radiation.
+
+Your disclaimer applies here, too."

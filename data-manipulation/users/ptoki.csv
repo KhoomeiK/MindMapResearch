@@ -1,0 +1,861 @@
+<<<<<<< HEAD
+subreddit,self ID,parent ID,time,text
+pinephone,fffcpxu,t1_fffaqao,1579881075.0,"Also. There is a lot of linux tools which will help you with conversion between formats.
+
+My favorite is handbrake. And coupling it with youtube downloader makes a really nice set.
+You can download whole playlists from youtube with it.
+
+To make it batchable you can compose playlist (your favorite works too) and then feed the url of the playlist to downloader. It will fetch and convert all the videos. It can also convert the videos to mp3.
+
+This plus rsync (or its better version unison) can make  the synchronization between devices smooth.
+
+Sorry, if you expected for me to tell you where to find music in mp3 format I cant help you with that."
+pinephone,fffc5ru,t1_fffaqao,1579880725.0,"> You’ve made so many assumptions
+
+Whats wrong with that? Usually works. If not then a little conversation usually clarifies situation.
+
+Where to begin? You may start with first aspect and then move further.
+
+As I can see the mp3 export solution is available for you."
+PINE64official,fff8cgq,t3_et6zay,1579878244.0,"Open terminal (yes I know many people dont want to go this path but trust me thats the best you can do, even if it sounds complicated), try to switch to root user (that will make things easier but be careful and not delete, modify anything).
+
+type dmesg just after you try to plug your drives
+this log will tell you what might be wrong (probably missing ntfs module)
+
+Also you may check logs located in /var/log/ and in directories below that.
+
+You can do that by going to the directory:
+
+cd /var/log
+
+and reading the log:
+
+cat name_of_the_log_file
+
+or just reading last n lines:
+
+tail -n name_of_the_log_file
+
+
+With that sort of info you can go to any linux forum, subreddit and find help.
+
+The beauty of pine devices is that they run normal, non proprietary linux distros. So you can get help from anyone who knows stuff about linux."
+pinephone,fff6wxp,t3_et8ng3,1579877251.0,"Your problem is that you started wrong.
+By tying to a DRM-ed services you locked your purchases in vendor controlled environment. Whether its app or device or streaming service is not really important. You have your music locked.
+
+Right now Pinephone can help you in a few ways:
+
+- get your music in mp3 format and load it onto card
+
+- check if the service has linux native client, if yes, then we can help you installing it and making it run.
+
+- if none of above is possible, get unlimited data and listen online (that will bring you multitude of other problems)
+
+There is also another option: If you can get your music on android then some of the os-es for pinephone can emulate android (SailOS IIRC). You can port and cache your music this way.
+
+Anyway, the simplest solution is to just get your music in mp3 format. In my opinion its worth to spend some time assembling your library manually and just keep the files in drm free format. From then on you can listen to it from almost any device you will own in the future."
+gadgets,ffdek7z,t3_esya6k,1579819221.0,Can I get this in a form of glasses?
+AskReddit,ffdebde,t3_ess64d,1579819076.0,"Thank you for your advice,"
+=======
+subreddit,self ID,parent ID,time,text
+gadgets,ffdek7z,t3_esya6k,1579819221.0,Can I get this in a form of glasses?
+AskReddit,ffdebde,t3_ess64d,1579819076.0,"Thank you for your advice,"
+engineering,ffaj4ox,t1_ffaczfg,1579736999.0,ðŸ‘ :)
+engineering,ffab1po,t1_ffa9usl,1579731395.0,Thats true. But its good to know about this alternative.
+engineering,ff9qok8,t1_ff7u3yg,1579718875.0,"You can, kind of.
+
+Look at refurbish corporate equipment sometimes called ""after lease"".
+
+Its still decent, even laptops are in good condition, reasonable specs, already fixed if the early age failure happens.
+
+I use a few of those and I'm happy and it costs 200-300-500USD for 3year old device.
+
+my t61 is still working despite being 13years old. I switched to different laptop only because the cpu could not keep up (C2D 2.2GHz). And funny thing is it was working fine with 8GB of ram despite ibm saying its supports only 4. Im not even sure if I did not have 12GB briefly. Still it was not fast enough with additional memory. But thats a different story."
+WayOfTheBern,ff9q8an,t1_ff9i2yb,1579718544.0,Indeed.
+WayOfTheBern,ff9ekob,t1_ff9b5ak,1579711327.0,"Regarding the rising prices. Some businesses actively search for profits from that. Some dont. Also if there is a competition then usually the conditions for bussiness are more or less equal so they end up with similar prices.
+
+If the market is liquid then the business with lower price will sell product because it has it on stock. The cheaper will make profit while the more expensive will have to wait. Usually (like 99% of time) it works just fine."
+WayOfTheBern,ff9e5ak,t1_ff9c25f,1579711054.0,"By allowing tax people to dictate whats business expense and whats not. You can see that this will open another box of worms. Not gonna happen.
+
+Alternative is to just let people to run their families just like businesses. Like buy milk and get vat back because you need it to make profit. Thats equally crazy but its actually equivalent of what the businesses do."
+engineering,ff79nan,t1_ff6bb6m,1579643976.0,"Yes and no.
+
+No - because every manufacturer produces its consumer grade laptops with similar shitty quality.
+
+Yes - because the enterprise grade laptops are actually decent. That applies to dell, hp, lenovo.
+
+Look at t4x0 lineup of lenovo, elitebooks from hp and similar lineup of dell. They may not be the best speced devices but their build and overrall quality is decent at least."
+worldnews,ff6j227,t1_ff6bmeq,1579628262.0,"Its not interesting. I saw how the nonfree market not worked in eastern europe and russia. I see how the heavily regulated job market in us makes problems).
+
+And on the contrary, highly regulated job market is actually hurting people who can not enter a job because of that.
+And funnily the relatively unregulated job market there allowed people to quickly shift to a job they could actually do.
+
+Thats actually opposite to what you imply."
+worldnews,ff6b1g3,t1_ff65rxi,1579623267.0,"Depends on the situation.
+
+If there is no need for labor, people will not have money and they will not buy the products.
+
+There will be new equilibrium. 
+
+The question is whether it will be somewhat pleasant for people or will they be already resorting to crime.
+
+However we all can plan ahead and pick professions, hone skills which allow us to stay needed."
+worldnews,ff66gn2,t1_ff5cmif,1579620279.0,"> I understand the economics perfectly. I understand it all, I just object to the fact that people are being obsoleted on a mass scale.
+> 
+
+I understand your point. I also dont like this. There are two to blame. Or even three. System, employers, people with undesired skills.
+
+> 
+> It used to be labor was valued. Then we automated that away.It then became knowledge and degree oriented, now we are replacing that more and more with complex machine learning.
+> 
+
+The first change you described gave us better working conditions and lower prices. That was a massive improvement. 
+The second change went a bit sideways. One thing is that people pursued degrees or skills which are useless or unneeded. 
+Second thing is sometimes employers dont recognize some skills as useful for them.
+
+However there are organizations who try to close the gap. They analyze what employer need and try to match the best candidate from the pool.
+
+The problem with that is the pool is not delivering whats needed.
+ 
+> 
+> Computer learning is going to take off so fast in the next ten years that any degree will be worthless unless you're already at the top of the field in it.
+> 
+
+Thats very popular opinion. I disagree. AI and CL is right now very good at matching stuff. Its not smart in any way. You can easily train even nit very bright person to do new simple job. To train AI for new task you need to hire fancy specialist and spend a lot of time.
+Of course once trained you can easily switch from one task to another but in many cases its not needed.
+
+AI and CL will automate some jobs but not as much as you think.
+ 
+> 
+> What are people supposed to do when there are no viable jobs?
+>
+
+Adopt, adapt and improve.
+
+Iam now looking at US reality.With my european background I can see how US is lacking.
+The stuff US aims now (college degree, higher education, being not specialized in one job but being flexible) was naturally solved like 60-70 years ago in europe.
+Germany, Eastern block had vocational and college like schools were a must in 1950-1960s.
+And in those schools you did not became a specialist of one thing. You learned a lot to be able to shift from one industry to another (but similar, like mechanic/welder or carpenter/mason).
+
+Lot of people in US does that but thats not really a common path. 
+
+Thats one half of the problem.
+
+The other half is employers mindset and the system. Employers need to realize that sometimes you need to pick a candidate and put an effort to train it and not to be fixed with the naming or expect strict prior experience in this role.
+And the system part: US should shift to more freedom in many areas of employment or jobs.
+
+IT is thriving because its not regulated.
+
+Trades are kind of doing well.
+
+Many other areas are heavily regulated, once you are certified and ready to work you are out of options, you are locked in.
+
+The system needs to be more general. Certifications needs to be broaden to let people shift between positions.
+
+Sorry for such long rant."
+worldnews,ff64qhy,t1_ff60ury,1579619086.0,"Indeed. But if people dont realize that they need to be useful to be paid no other change will deliver sustainable situation for them.
+
+In my opinion its not even a matter of being competitive (thats the model in US) but more like being useful and not have to pay a lot to sustain yourself (part of europe, many places around the world where taxes are low)"
+worldnews,ff53jn3,t1_ff4s0sl,1579579251.0,"But its true. Just imagine, loads of programmers. Everybody can program now. We have one billion programmers. Very good programmers. Do you think they will still be very well paid?
+
+Thats exactly what happened with mailmen. We all can walk, we all can read, we all can put letter or box into someones mailbox.  Do you see rich mailmen?
+And now imagine if someone puts 5 years into mailmen degree.
+
+It happens to all saturated industries/professions.
+Over time the cost is equalized, price is low as it could be and there is equilibrium. If new player wants to enter the field he needs to agree to existing conditions. If there is a lot more players than positions they will be desperate and drive prices to the ground.
+
+Its simple. Its 9-th grade logic."
+engineering,ff3oxuj,t1_ff2ihub,1579545719.0,"I see. So cardboard approach will be the best you can do.
+
+The worst case scenario is that you may need to establish the production line yourself. The best one is that some egg container or packaging manufacturer will make them for you.
+
+Good luck!"
+WTF,fewnj0s,t1_fewfnpe,1579415816.0,"Then you need to turn on the windshield blower with full heat, wait a minute and then swerve a few times left and right!
+
+There you go! Problem solved ;)"
+pics,fewndfe,t1_fevub50,1579415642.0,"Thats my thought here.
+
+The restaurant owner has golden heart and will have to have really tough butt. 
+Once wrong people learn about free food there he will have a lot of other problems.
+
+It takes a lot of knowledge to help in right way."
+linux,fewn4hb,t3_eqohbx,1579415369.0,"This looks really interesting.
+
+It reminds me a tool which I used on my Zaurus pda. It was composing all notes, photos other files into calendar like view and allowed creation of structured notes.
+
+I like this very much!
+
+Thank you for announcing it here!"
+linux,fev6qhv,t1_feqeqpe,1579393757.0,"You dont need fancy gpu to run video, calc or thunderbird.
+
+If this SOC handles fullhd video then you dont need too much more, rest of the system will be rather light (with exception of heavy js webpages)
+
+So going back to the topic, no problem with RAM. For most cases no problem with cpu. GPU on linux will not be utilized much. Maybe some fancy gui animations, some simple tux racer game or an emulator and thats it."
+linux,fev692h,t1_fepplcm,1579393542.0,"Its not a theory. While used arm cpu and gou may not be equivalent of desktop components this one plus 2GB of ram are sufficient for many apps running together.
+
+I am not afraid of the problems with this.
+
+BUT. To fuel your doubts a bot I would say something different: 
+
+It will be running fine and be fluent but the battery will be drained quickly.
+
+I promise making a video with the example mentioned above after I get my BH phone."
+linux,fepoaii,t1_fepdxb3,1579325930.0,"2GB is plenty for linux.
+
+You can have full firefox, thunderbird, vlc and calc running simultaneously and on one screen. And it will still be fluent."
+todayilearned,fepmx51,t1_fep4ywd,1579324778.0,"That is what I found surprising after moving to NA.
+
+In my old country life was kind of easy, slow, predictable, cheap.
+
+You could count on someones help, you could count on family support. etc.
+
+Here you are mostly alone. Even if you have family and they are good people the society expects you to be self sustainable to be the rat in race, you need to support the system. And the system is expensive (rent, mortgage, insurances of all sorts, food, medical stuff).
+
+I get what you mean about the total lack of urgent stuff to do, no things chasing you.
+
+Many people dont realize that..."
+engineering,feng4td,t3_epyti9,1579283956.0,"You may try to look on other side of this problem.
+
+Try to find out if this may be reusable. The bottles may be shipped clearly labeled and/or the tray may be shaped so the bottles fit only one way. This way if the owner of the device has one of this holders it may be reusable with ease."
+Manitoba,fek6hom,t1_feiurmk,1579193621.0,"The thing is, bacteria may be there if the bag is dirty but in a few days they will dry and die once they consume all the useful material.
+You may get some fungi on that as it may be more resistant to starvation.
+
+But still, all the groceries are either packaged or you are supposed to wash them before use so no big deal here."
+Winnipeg,feikt7h,t1_feij3ii,1579140854.0,"Thats true.
+
+However I see it slightly differently. 
+
+The issue is not to have to spend that much money on those problems.
+
+When I moved here I realized how expensive is just staying afloat. 
+You need about 1200 dollars per month to support one person. 
+If you have a family you need about 2400+.
+
+Thats some serious money. If you dont have that much and your family dont want to support you, your life will be hard.
+So no wonder so many people get into trouble or cant afford personal development.
+
+This is complicated topic and I dont know enough to suggest solutions but I can compare how it works in other not so wealthy places. And common denominator of those places which are poor but not a bad place to live is the cost of living. Here in Winnipeg I find the property taxes really impacting the poor people."
+Winnipeg,feherdd,t1_fehaw52,1579115037.0,"Thanks for link. I was not aware of this. Still the schools need to get this money from people or cut costs. 
+
+However that might be a good move to let poor people have more money while applying higher income tax to cover the missing part."
+Winnipeg,feh9b8e,t1_feh0zev,1579111825.0,"While I agree with your comment about snow clearing, buses and infrastructure, I cant agree (or Im missing some key info) about the garbage pickup (its paid with water and waste right? If not it should be) and school part of the property tax. Also by ems I mean fire and police. Im not sure who pays for ambulance.
+
+Right now school and ems is the largest chunk of the property tax.
+The rest is very little. So if an owner pays 3kCAD of tax, 1200 is school, another 1200 is ems, this leaves about 600 for all the infrastructure. 
+
+And still I repeat, school and ems are not really bound to area. School is not much more expensive if the kids come from the distance. The same for police or firebrigade
+
+So either, school and/or ems will save or become more efficient or city would bump the 600 to double that and all goes their way happy as now the issue is solved.
+
+Still I dont see real numbers, estimates in this thread. All talks about costs, problems but if I dig deeper no more info emerges, just the same arguments over and over.
+
+Will anybody explain that to me?"
+Winnipeg,feh83w5,t1_feh2wvv,1579111107.0,"You have decent car then :) 
+Not many of them here. :("
+Winnipeg,feh81j4,t1_feh428x,1579111068.0,Nope. The ems and school costs will be roughly the same regardless of the area where residents are scattered.
+Winnipeg,feh1e2a,t1_fegx83h,1579107114.0,"This guy covers it partially
+
+https://www.youtube.com/watch?v=O1lZ9n2bxWA
+
+The last car also has side blinkers.
+
+This is standard in europe:
+https://www.youtube.com/watch?v=E4etMLPskTs
+
+Here in canada some cars have it (european and some asian) but most dont."
+Winnipeg,fegvhcf,t1_fefd7au,1579103448.0,"The point is that those costs are not sqmile bound. They are head count bound.
+
+The guy in Waverly will statistically use the same amount of school and EMS as the one in West End. Yet he pays more tax and is shamed as unsustainable.
+
+There is no logic here.
+
+The situation would be the way you describe if the majority of costs would be bound to pipe/road/street/sidewalk length.
+But its not. At least as far I can see that."
+Winnipeg,feguzbt,t1_feg72v8,1579103129.0,"But then its also not taxed that much too.
+
+Im wondering what is going on here as I can compare the taxes and services here with the one in my old country.
+
+And its really baffling that Winnipeg is touted unsustainable while either rural or my old country runs just fine with a lot lesser taxes.
+
+Here I can see the school part of the tax being quite large (like 30-50%), fire/police budget also eats a chunk.
+
+That has almost nothing in common with area sprawl of the current city design.
+Both are bound to population and not to length of roads or pipes.
+
+So, what is going on here? Am I missing anything or the articles about this are just bullshit?"
+Winnipeg,fefkqqi,t1_fefggvp,1579058400.0,second half is school district?
+Winnipeg,fefdo4q,t1_fef67fb,1579054090.0,"This is some creative math there.
+
+Developer builds infrastructure. Its paid from mortgages. That is paid by citizens. Then city comes and says, your home was purchased for 300k. Pay tax on that (I know its more like sqft but still the value of the property matters) and this is the price of not only the property but also the infrastructure which was built by your mortgage.
+
+Thats some shady stuff going on here. Or maybe I dont know something crucial? Is new development entitled to some sort of tax credit for the infrastructure build with it?"
+Winnipeg,fefddmk,t1_feef9y1,1579053901.0,"Yeah, I dont get it. What is that expensive in winnipeg that is not as expensive outside of it?
+
+Sewage? Busses? Snow removal?
+
+I have lived in some other places and each one was somewhat cheaper than winnipeg. Either the taxes were smaller or cost of living was lower.
+
+Where all this money sinks? Schools? Road repair?"
+Winnipeg,fef69w6,t3_eorxqo,1579049182.0,"Complicated topic.
+
+From my perspective: American cars dont have proper blinkers.
+The blinkers of those cars are red which is confusing and they are not located on the sides of the cars. Which prevents people from seeing the intention of the merging cars.
+
+Additionally a lot of places have this ""ending lane syndrom"" either because of parked cars or because the merging lane is short or actually nonexistent.
+
+On top of that many drivers dont turn right into empty right lane because they are afraid that the car from their left will change the lane and they will be at fault.
+
+How to fix: Simple solution: some paint job on the intersections plus lane designation will work in the summer. May be confusing in the winter when the lines are invisible.
+
+More fancy solution is to add regulation that cars should have european style blinkers.
+
+More expensive solution: remodel the roads allowing easier merging."
+woodworking,fedu986,t1_feds0jj,1579020015.0,"Because there is not so much strength just at the tip if this dovetail.
+
+The fact the dovetail is glued to endgrain and the problematical spot makes this part susceptible to breaking.
+
+You usually need to deal with one of such condition in a joint but here you have two.
+
+I think it will be ok but still, looks as the weak point.
+
+Also the panel is just glued and not supported by perpendicular beam. :-|"
+pinephone,fecwmlp,t3_eofdia,1578987555.0,"As for me I think the usb hub plus an external usb graphics card is a good start. That and the standard kb+mouse set.
+
+I find also the wireless mouse appealing.
+You can use it on any surface, it does not take much space nor power.
+
+So it may be a nice alternative to fingertapping interface.
+
+A game pad may also be worth considering as there will be a ton of emulators running fine on pinephone so with decent screen its kind of nice gaming station.
+
+For each of the approaches some sort of stand would be nice. 
+
+If you are radio enthusiast you may consider getting an SDR dongle. The phone, with a decent powerbank will let you make some nice listening sessions while hiking."
+Winnipeg,feaec2e,t3_eo9q1h,1578947610.0,94.3 THE DRIVE!!!
+aww,fe5umfz,t1_fe4obsc,1578875315.0,https://www.instagram.com/theofficialbeansfold/
+pinephone,fe5tkw3,t1_fe5qu8z,1578874641.0,"next release is just pinephone regular. There should be no hardware changes. That was the goal and still no info about any changes needed.
+
+I guess the production cycle is kind of quick so keep tracking the situation as the braveheard devices will be tested by many people and if they find any problem some changes may still happen."
+worldnews,fe5h6eq,t1_fe1nqjb,1578869420.0,"No they cant. There is simply no logic for that.
+Poland during that time was not existing. There was no Poland then. 
+
+And if you want to express that relation of location you would use different phrase in english.
+
+Your ignorance is a product of such manipulation. That is why I think germans are not consistent with their approach towards the truth."
+programming,fe1bo4d,t1_fdzqdnu,1578824740.0,"I see it not only as communication issue. I see it as a case where individual finds his approach, his code better than the other team member.
+
+Look at this thread, almost every second answer is in a form of ""what a dumb approach, my one is superior!"".
+
+All people here jump on this bandwagon without even reading the article to the end (Also including you as the article states the communication is key) and not realizing this was not about this repetitive code or actually any code at all. It was about collaborating and creating the best code for the team, product, company, current moment and the future.
+
+Today one approach is better but in the future it may need to be reworked to a different shape. The article points out that such changes and a decision to actually change the code should be a collaborative effort. Not a single rogue besserweisser coder."
+programming,fe19wxo,t1_fe15la4,1578824207.0,"Sorry for replying here but I think your post fits my feelings about this thread the best.
+
+I find this thread kind of funny, like the never ending story of tab vs 3 spaces or if the { bracket should be just after if or in the next line.
+
+All the generalizations here, all the assumptions and all the opinions are so definite that it just hurts my eyes.
+
+The code shourd be readable and easily comprehensible. (yeah, thats my generalization ;) ) if this form of code is best, leave it, even if its inconsistent. However if it shows the intention and can be maintained with no additional effort it should stay this way. Thats my idea :)"
+worldnews,fdzmqau,t1_fdyzj6b,1578791801.0,"Yup, exactly."
+worldnews,fdzmjsb,t1_fdz5j4s,1578791736.0,Its not as prevalent now. It was strong in the past. Yet you can still see the former differences in some stats.
+worldnews,fdzmc33,t1_fdxc50f,1578791654.0,"It was almost always that sort of democracy you have now in usa. Basically you can vote only for designated candidates and the system is crafted to make election of any non establishment candidate impossible.
+
+This leads to all sorts of abuse, corruption and in a result this is what you get:
+
+People simply dont care abut juidical system as they see it corrupt and monopolized by a group of nepotistic people. Which is funny as the top comment complains about that.
+
+You can actually see that the number of common people on this protest is low. Its even lower than the protests about freedom of internet some time ago.
+
+People here will tell you its PIS party or some political folks which are the aggressors but from people point of view its wolves and hyenas fighting over the sheep.
+
+Both parties are scum. But common folks lean more towards PIS at this time as they see judicial system as flawed and unjust.
+
+And about the fight for democracy in 1980s, the alternative story is that old style communists realized that the system is unsustainable, they were right and kind of smart. So they pretended to give away the power but they gave it to opposition they created. So now you have power in hands of some shady folks who cooperated with old style communists.  Thats the reason simple people dont care.
+
+This is often regarded as tinfoilhat version but a lot of people find it truer and explains the situation a lot better.
+
+If you take this into account you will realize that people see judicial system as a direct descendant of the communist system. With the kids of communist judges being judges and advocates.
+
+And one more thing, the stuff they protest against is actually the same idea as functions in germany, yet even german media picture this as outrageous. Which many people find scummy."
+worldnews,fdz19sh,t1_fcio7q5,1578785679.0,"Let me pick up the topic once again.
+
+The initial claim that germans are consistent in the approach towards the atrocities of third reich.
+
+Stating that those were ""not german"" camps is the same as denial. Its sneaky cowardly tactics.
+Here you have very symptomatic case:
+http://patrianostra.org.pl/en/german-publisher-sues-patria-nostra-association/
+There is unofficial information that the case was dropped and the apology will be issued. Its not on the site yet.
+
+How ballsy you must be to try to sue someone who wants the lie to not be spread?  Its the same issue as with Tendera, just different medium.
+
+There is a ton of this happening."
+worldnews,fdz12iy,t1_fcle07g,1578785607.0,"Let me pick up the topic once again.
+
+Its not false accusations.
+
+The initial claim that germans are consistent in the approach towards the atrocities of third reich.
+
+Here you have very symptomatic case:
+http://patrianostra.org.pl/en/german-publisher-sues-patria-nostra-association/
+
+There is unofficial information that the case was dropped and the apology will be issued. Its not on the site yet.
+
+How ballsy you must be to try to sue someone who wants the lie to not be spread?  Its the same issue as with Tendera, just different medium.
+
+There is a ton of this happening."
+bestof,fdslfrc,t1_fdsd7zu,1578704704.0,"I understand your point.
+
+From my point of view both mentioned situations have similar background while very different outcome. An illogical action performed while in very unstable mental condition.
+And by unstable condition I dont mean externally induced state.
+I mean internally developed temporary stress based on untrue foundations.
+
+That was the common denominator for all the stories I mentioned."
+bestof,fdsa3dq,t1_fds7dma,1578697847.0,"Running away is not much less serious or radical than suicide. Especially with kids who dont have all knowledge, logic and priorities set.
+
+I was lucky that me and the people I have spoken did not have that serious ideas in our minds. However I can imagine that some kids do."
+engineering,fdrwwpn,t1_fdr6zsw,1578690906.0,"I would add that this is very often no competition if an airline is boeing only due to pilot training, vendor specific workflows, part inventory etc.
+
+So if airline is vendor locked to boeing then there must be very strong reason to move to airbus. Not always possible also due to airbus manufacturing abilities..."
+engineering,fdrwhyf,t1_fdqo20v,1578690762.0,"I would point out that there was very little feedback from world/authorities to being.
+
+Competition is one thing but very slow or no feedback regarding reliability or design principles is another.
+
+In ""normal"" world if your product is flawed you know that as your designers and engineers will tell you. Your customer will tell you. Authorities will tell you. Other engineers will tell you.
+
+In corporate bubble this feedback is limited. this limitation does not have to be intentional. My point is that in this case either there was no feedback or it was badly managed."
+funny,fdrvoc1,t1_fdrbw3q,1578690404.0,"I think modern people treat past times like nothing was there, people were clueless, everything died immediately after being born and of not then had painful and short life (like everybody were deat at 32years old), all people were stupid, nothing was invented etc.
+
+And suddenly in 19 century it became less shitty and got decent just recently and will collapse in like 2022...
+
+Or at least the loud reddit crowd suggest thats what people think."
+bestof,fdruvba,t1_fdrport,1578690155.0,Yup. Whole three times.
+bestof,fdrumsl,t1_fdrovtb,1578690024.0,Thats my thought!
+bestof,fdruj3x,t1_fdrnne9,1578689963.0,"I was that kid. I was stupid.
+
+Stupid in a sense of not applying any reasonable logic, or the logic was flawed. This has nothing to do with belittling them or being offensive.
+
+I have empathy, thats why I dont blame kids, thats why I tried to explain how it works.
+
+If you dont find this explanation valuable, no problem. 
+
+However if you think that kids control their emotions, can tell whats good or bad or reasonable or illogic you are wrong.
+
+And they can still kill themselves even if no one pushed them to do that."
+bestof,fdrjy7n,t3_emsbft,1578685608.0,"While the post neatly describes some of the problems children have it does not explain the warning less suicide.
+
+So addressing this aspect just a bit I would say that this happens when person does not see any way out of the situation but the warnings are there, but just unnoticed. Thats the case we all think about.
+
+However there may be cases when kid does something serious without any warning but I find this possible in any case. Whether its well off or downridden. Whether its bullied or just scared to death over some imaginary problem.
+
+I myself remember my crazy thoughts and got some thoughts shared by my friends which we find stupid from the perspective.
+
+The thoughts like: Im in love with this new priest! I think im pregnant with him (age 12 or something)! I dont know how Im supposed to tell this to mom. Maybe I should run away?
+
+Or
+
+Everywhere are gangsters and mafia! They kill each other all the time! My friend told me not to go to this neighboorhood, its late, its beter to cross the river over this ice than go there! Its not so thin!
+
+And those two examples are from people who later admitted that this has nothing to do with any family background, being neglected, abused, misinformed. Just stupid kid imagination and false logic. 
+
+In my opinion many of the unexplained situations are just this kind of kids being kids. Looking for explanation in such cases will lead to forced conclusions, guilt etc.
+
+Im not saying all the cases are like this. But based on what I saw there is a lot of such situations. Its hard to tell which one is a case where someone actually could do something and how many of them are just kids being kids stupid."
+programming,fdqt8ai,t1_fdqee6p,1578674377.0,"https://docs.oracle.com/cd/E37838_01/html/E61017/timeslider.html
+
+https://blogs.oracle.com/solaris/file-version-explorer-v2"
+programming,fdplbm1,t1_fdpirtq,1578631811.0,"ZFS has many fancy features. One of the most mindblowing is the history slider.
+
+Basically you could open the folder in an file manager and drag a slider so the contents of the directory and the files would change.
+
+So you could go back in time with just mouse and rough idea about the date you want to navigate to."
+pinephone,fdon0ql,t1_fdojfhy,1578608468.0,"Well, if you travel between specific points (like your family home and university) you can have two sets of monitors in each place and be able to easily hook up and have a phone and daily driver in one.
+
+I agree that having calc on the phone and do serious work on the phone screen may be not really comfortable but entering your monthly spendings to it is kind of ok if you set the zoom a bit higher.
+
+The good thing about pinephone is its linux. With all its pros and cons.
+
+For some being able to fiddle with it and having rogue systemd service is a good thing. 
+
+For others its a non issue as they dont install stuff besides their normal set of apps.
+
+For another group it may be a problem if they run an update and the app breaks the way you described.
+
+But that happens also on desktop, including windows in android or ios too (however not really frequently). 
+
+To me this blog post is a bit grumpy. I dont know what you have been reading but I did not have an exposure to this overly positive and misleading news/info.
+
+In most places I found pinephone (or linux on desktop in general) news or opinions its always stressed that its not for everybody and its not finished and its open source and so on.
+
+So I react to it negatively as its mostly grumpiness and no constructive criticism.
+
+And my other opinion:
+
+I was very dissapointed seeing android gui when it was born.
+I am still dissapointed with it and I dont find it in a state of ""customer ready product"". I have similar feelings towards windows 8/10 interface. The older devices had the interface consistent (windows CE, symbian, palmos) while android and windows got confusing (android hamburger menu being three dot menu or not being there at all and you have to use bottom soft menu button, windows having this tile interface mixed with old style windows mixed with the web style window contents and the list goes on).
+
+Also the old style interfaces were very detailed. Lots of information was on screen. Now the only detailed piece is the status bar. All the rest must be finger reactive and the buttons are still huge despite we have so huge screens.
+
+There is a large dormant group of people who want the old style GUI back. We want win98/lxde style gui. We want to have lots of info on screen, we want tiny fonts, crisp graphics.
+
+For me Pinephone is a chance for that kind of liberation."
+pinephone,fdoggv6,t3_emfje3,1578604656.0,"Not much info there besides some generic thoughts.
+
+Nobody expects for the gimp to be finger controllable.
+But if you connect a mouse and maybe hook up external monitor you will be able to use it and do some photo edits.
+
+Thats the info we are all looking for."
+pinephone,fdo76dh,t1_fdo05fa,1578600073.0,"You may be too late for brave heart edition as some guy said in other topic that the pine store says its not available now.
+
+But the march edition will show up soon."
+PINE64official,fdo6vj8,t3_emexkm,1578599926.0,"Thats probably true.
+
+We were wondering how popular this device is, and it turns out its moderately popular.
+
+About 3000 sold over about two months.
+
+But dont worry, march is soon. You will be able to order production grade unit then."
+pinephone,fdo02oh,t3_eme2bu,1578596343.0,"There is always a possibility of a backdoor.
+
+Even if its manufactured in usa. Just different folk may be having access.
+
+Pinephone is build with kind of popular and generic components so if there is a backdoor a lot other devices is also affected and there is a bigger chance someone will find the backdoor.
+
+The good thing is that most of pinephone is failry open thus its easier to diagnose/debug/monitor suspicious activities."
+ArtisanVideos,fdnhfvn,t1_fdmwewk,1578585880.0,"Yes. Its actually very practical. It is strong, stable, and the parts are repeatable."
+Winnipeg,fdka8xb,t1_fdk778c,1578499588.0,"Thats right.
+
+I would add that some cars have slightly higher voltage and that makes the +xxx% bulbs burn even more quick.
+
+It depends on model and even on the side of the car. So if your bulbs go fast, you may have this problem."
+Winnipeg,fdh6zw4,t1_fdgy9ug,1578416739.0,"Also check if you have a trimmer to correct the beam height. I mean the internal one, the one used for adjusting the beam when the car is heavily loaded.
+
+If you have one it may be switched to high position. It happens often when you are wiping dashboard (at least in my ford)."
+Winnipeg,fdh6rd5,t3_elca9h,1578416590.0,"First of all, dont use those +200%/hi/blue/fancy/schmancy bulbs.
+
+They are designed to be brighter and it makes them less durable.
+
+Buy normal ones or just be cool with more frequent changes (keep a few spares in your car).
+
+Second: When replacing them dont touch the glass. Like at all. Some people suggest to hold it in gloves but actually to replace them you dont have to touch the glass at all.
+
+The oil/dirt from your fingers will degrade the glass.
+
+When you replace the bulb be sure it fits. People sometimes stick the bulb wrong way and it gets out of focus.
+
+Also depending on your car light enclosure you may need to pay attention of you put it back properly. Sometimes the mounts kind of fit and the enclosure is stable but its mounted wrong."
+todayilearned,fdh66sv,t1_fdh2lgu,1578416233.0,"Yup. Thats the least emotional aspect of multiview of history.
+The rest is a lot more controversial and emotional."
+todayilearned,fdh16c5,t1_fdgoz2u,1578413135.0,"Usually the political events are non sharp and defined.
+
+Do you define beginning of a war as the declaration? 
+
+Or as the tanks cross the border?
+
+Or as the order was given to start the offensive and still no tank moved?
+
+Usually the point of time when war started is fuzzy and people just agree to a particular date as a start of the war.
+
+For Polish people the start of WWII is 1 september 1939.
+
+For Chinese, Japanese, Russians, Norwegians or French the starting date of WWII may be different."
+technology,fdgzkve,t1_fdfsyyt,1578412116.0,"But its not double.
+
+escape is a bit heavier but still the difference is big."
+technology,fdgzhge,t1_fdfwffu,1578412056.0,"I agree. Fixing is a lot better. And pollution is kind of fair. We pollute, we suffer, we dont push the pollution to next generation.
+
+But here we dont talk about not fixing. JD will fix the tractor. But it will be costly.
+
+So real equation is: do we want farmers to be better off, not waste the crops and have more pollution and less efficient machines OR we want to stuff JD pockets and have cleaner environment and some crops wasted..."
+Winnipeg,fdgz3so,t1_fdguxs0,1578411814.0,"I ambled and asked if you are ready because I wanted to know what is the expected result.
+
+If you want to get rid of cars for the sake of saving planet then its pointless. Even if there is a progress/saving in some cases its still too little.
+
+If your answer would be that you want to improve the overall experience with public transport or/and make it more popular then I would have some suggestions which would make whole commuting better.
+
+In winnipeg you can do a lot with just paint and lane designation.
+You can change some general rules to make traffic smoother.
+But that will not save the planet. It will not even have an impact.
+
+As for public transport, north american cities which layout is grid could implement very nice pattern of bus routes which would work well. But the cities now are a mix of grid and baroque layouts.
+And the routes usually go like ""from nowhere to nowhere through some key points and downtown"" Which works for some people. But not for many others.
+Especially if you need to put the kids to daycare or make some grocery shopping.
+
+That could be fixed with not much of an investment. But that would mean total change of routes for everybody. Im not sure you want that..."
+technology,fdgxydl,t1_fdg6hk0,1578411062.0,"escape 1500kg
+
+focus 1200kg.
+
+Not that much of a difference but the fuel consumption is almost double."
+technology,fdfqr8x,t1_fdfml3o,1578367930.0,"Yeah. My old european diesel focus was like 5.5l/100km
+
+6 years younger american gasoline escape is 9l/100km at best and usually around 12.
+
+Yet, the focus was more dynamic and was still kicking after 390kkm..."
+technology,fdfqgjs,t1_fdffvza,1578367739.0,"There are such tractors being manufactured. But you will not be able to buy them. Or more precisely, the tractors are not allowed to be sold as they will not keep the epa standards about exhaust gases.
+
+So now, reddit will be puzzled, allow smoking tractors or allow fixing them easily?
+
+I know, its complicated but the simpler tractor the worse the emissions."
+programming,fddy4h5,t1_fddvg5w,1578326799.0,"The data store is kind of cheap.
+Its ""just disk"".
+
+To serve data you need computational power. This may be costly in case of big databases and quick response expected.
+
+Still, amazon can charge for storage and additionally per query and on top of that per data transferred.
+Its up to them to change it anytime.
+
+And I guess they will change to more aggressive model once they realize the customers have nowhere to go. Just like oracle."
+Winnipeg,fdchuhp,t1_fdceef2,1578275270.0,"Almost none of the reasons really matter if you consider switching from cars to public transport.
+
+When looking from individual point of view even great public transport is not better than car in busy city.
+
+When looking from stastical point of view that also does not matter. the differences are small. By small I mean 20-30-40% depending on case. Sometimes there is no change, sometimes its change for worse.
+This will not influence significantly almost any of the things you mentioned.
+
+I know this sound like old prick complaining but thats the truth.
+
+I asked why because that influences the solution.
+
+But ok. You want to change the above? Good. 
+My solution: Move to a milder climate. Move to a place which is nearby a safeway and place to work. Maybe switch to remote work. the place should be close to schools.
+
+This way you can fix all the issues as an individual.
+
+But then you will ask, its not possible for everybody to move to such place!
+Yes. Correct. This place should be like a big Chinese city. Lots of tall apartment buildings, all places of interest in close proximity. Solved?
+
+Partially. You will still have to allow people to travel. Its not easy (even as for Canadian standards) to move places because you changed your job. 
+
+You see where its heading? Do you prefer to have Winnipeg condensed to downtown like place? All population crammed into limited space with all of its pros and cons?
+
+I see it differently, to change the car obsession you need to make it unneccessary. So more like no travel than bus travel. More like cheap and efficient travel than current public transport experience (bus is late, bus is crammed, next bus is empty but you are not sure if it is a ghost on bus display or real one, etc...). 
+
+And most importantly, you need to make car unneccessary not by making it ridiculously bad option (no parking, parking fees, lane limits, move restrictions etc.)
+
+To achieve this you not only need to make public transport and cycling better. You need to change almost whole city. Almost rebuild it. Are you ready for winnipeg rebuild discussion?"
+Winnipeg,fdcet6o,t1_fdbz7sh,1578273146.0,"This is a evolutionary attempt to fix the issues.
+
+It will help, a bit. It will improve some aspects but It will not change it much.
+
+Based on my experience Winnipeg is not a bad place. It has its problems here and there but usually its not that bad. 
+
+I dont want to sound like nay-sayer but its not possible to significantly change the situation without making fundamental changes.
+
+You can tweak a bit here and there you can make an intersection more smooth and reorganize the traffic flow to make it more efficient. But in the end the individual people will calculate their effort and time wasted and in a lot of cases car will win. Even if you pay for like 40-60-80% of their bus fare.
+
+If you want to make Winnipeg really good place to live you need to make a bigger change.
+
+I shared some suggestions in some other threads (change the way neighbourhoods are planned - lindenwoods is a good example, make merging easier, put less traffic lights, separate local and transit traffic, organize places like university campus better so students dont have to travel that much, etc.) 
+
+But to do that you need to have a plan and make the decision and stick to it.
+
+And last hint.
+In my old country there is a lot of places called ""new place"". Like New York or New caledonia etc.
+Sometimes its better to start from scratch and create a new winnipeg on either side of the river so there is less topographical problems, clean slate and time for planning. Here in Winnipeg its possible. There is a lot of space still. With modern planning you can have new city which might be car free."
+Winnipeg,fdc5wog,t1_fd9s0cc,1578267729.0,Before I go into long rant let me stand the issue on its head. Why do we need to break it?
+PINE64official,fd8atfv,t1_fd7xysq,1578216068.0,"Yeah, I remember that too.
+
+I remember how rpi was advertised as 25USD device and turned out about 2-3x more expensive and still was a hit.
+
+Im wondering what pinephone may turn out to be if people like this guy start tinkering with it:
+
+https://www.instructables.com/id/Arduino-Walkie-Talkie/
+
+Just imagine the multitude of diy addons for it. And the multitude of off the shelf usb devices which will be supported due to usbc compatibility.
+
+Gaming on external gpu? crazy! :)"
+PINE64official,fd7x6gp,t1_fd7uxe3,1578211361.0,"Personal anecdote:
+
+There was a time when I traveled and lived far from home a lot. I loved my mobile devices. I used them for so many things. 
+
+Personal finance - check. 
+
+Ebooks - check
+
+movies, music - check
+
+games - hell yeah!
+
+Today I dont travel, I game only a little due to lack of time, I use my mobile mostly for youtube, messaging, car navigation.
+
+Todays me would say I dont need games on mobile, that reading ebooks is soo uncomfortable.
+But I remember how I loved doing that!
+
+I remember having external monitor and keyboard scattered over a few locations so I could use my mobile device and play games on it!
+
+Getting out of personal anecdote.
+
+I can imagine someone who dont want to carry a lot but still be able to use their device as the daily driver. I did that with OQO 01+. I see potential for that with pine devices. And I like it :)"
+Winnipeg,fd7vp1o,t1_fd6hgzv,1578210854.0,"What would be the purpose of such discussion?
+
+Wish list?
+
+Complaining?
+
+Idea sharing?
+
+My 5ct:
+
+I have seen and lived in a few european cities. I have seen how the traffic and commuting works there and I have few ideas, suggestions. However who would listen to a Joe like me?"
+PINE64official,fd7m6do,t1_fd7kado,1578206611.0,I agree with you.
+worldnews,fd7kzpq,t1_fd6rypz,1578206118.0,"This site is sketchy.
+
+Put there 60k CAD and you are 0.38
+
+Put 180k PLN and suddenly you are 0.09
+
+Both figures are the same. So either some cost of living is calculated in or its just not only income.
+
+If the cost of living is calculated in then I wonder if the ""cost of cola"" is also adjusted."
+PINE64official,fd7ii2p,t1_fd7cel2,1578205072.0,"You may need to wait long time for this to happen. Maybe some fancy wrappers based on systemd will tackle this in some way? Who knows?
+
+Ios, android adressed the battery life vs apps standby behavior in one way. This does not mean its the best way.
+Actually there is many complaints from ios/android users about this. They have very little control over the battery life.
+
+Remember facebook app energy consumption issue? Remember the ios battery capacity related throttling?
+Also the fact you dont have total control which app is actually launched and running even if you put the device to standby. 
+Also my phone uses about 92% of capacity for google services which are almost useless for me while im on the go.
+
+All that despite very fine and fancy power management implemented between os, services and apps.
+
+I have no opinion if this is the best way or not. I have seen it adressed differently on palmos, symbian and windowsce."
+programming,fd7gv2l,t1_fd7edur,1578204300.0,Have a nice evening!
+PINE64official,fd7gf5m,t3_ek1azl,1578204090.0,"Quake2 should run on it just fine. The pinetab has the same hardware (not exactly the same) and you can play quake there
+https://www.youtube.com/watch?v=ahONNYFLjK4
+
+The experience may be so-so but still it will run.
+
+If you look for modern gaming experience you may not be happy.
+
+BUT, for some emulation it may be actually quite ok.
+
+Soon, we will know more as the braveheart edition will reach lots of people and they will start posting their experiences."
+PINE64official,fd7e93t,t1_fcu57by,1578203105.0,"It would be nice to see how many were ordered.
+
+On one hand its good that everyone interested can still buy the device and its not like with those linux phones from past which were unobtainable.
+
+On other hand if they were not as popular that may mean there is not as many fans out there as we need for it to take off.
+
+Holding my thumbs/crossing my fingers for it to take off :)"
+PINE64official,fd7dtzm,t1_fd4z0tx,1578202932.0,"No shipment yet.
+
+2 of january they were supposed to be manufactured (soldering etc)
+
+5 of january they were supposed to be assembled, packaged.
+
+I guess shipping will happen around 15 of january."
+programming,fd7dg9l,t1_fd3zs9j,1578202753.0,"Regarding word interpretation. 
+
+https://www.merriam-webster.com/dictionary/authority
+
+: persons in command
+
+: an individual cited or appealed to as an expert 
+
+: convincing force 
+
+In setting up standard there is no requirement for the authority to be any kind of highly established. If I run my own company and set my own standard, used solely by me, I am the authority. And I defined and used a standard. 
+
+Dont blame me for using words exactly what they mean. The fact that usually they are used in slightly different context (the one you suggest and I am aware of) does not change the definition of the words.
+
+Dictionary holds explanation of the word. There may be many meanings of the word. Thats it. If the standard had to be defined as an multiple entity concept it would be there. Its not.
+
+You seem to ignore that there is a base meaning of the word and extended meaning. Both, standard and authority have very simple base meanings, the one I used. The extended meaning is the one you are thinking about.
+
+If you dont agree with this interpretation then obviously you will not understand my point.
+
+And explaining further, in algebra which explains a lot of logic there is a concept of a dimension. You seem to treat standards, authorities as entities which does not exist in lower dimensions. Thats logically false. 
+
+Still, if you dont agree here, I see no point of arguing.
+
+As for the last part.
+
+I understand your point of view for standards as an implemented agreement between multiple entities. I know how it works. But you said you cant build standardization by yourself. And thats what spawned this offtopic.
+
+The fact that minority agrees to something does not mean its right or true. 
+
+This topic is controversial and as you can see spawns a lot of questions across philosophical stack. Im not trying to convince you. I am proposing my point of view and as a result I can see we dont agee on the basics. This is beautiful proof how delicate and complicated issue this is.
+
+Please keep this discussion high quality and spare me the personal tangents."
+PINE64official,fd78b9d,t3_ejyurh,1578200745.0,"From my point of view this is not implemented the way you describe.
+
+Linux offers three main ways to conserve power.
+
+1. Powerstates (cpu throttling, screen dim, specific device power save states)
+
+2. Standby (all processes are halted but still in memory.
+
+3. Hibrenation (all is stopped and saved to disk).
+
+There is no general way to tell process that it shoud react specifically to current power conditions. Each process may do in its own way. They may check the battery status or the charging state.
+
+Such solution as you describe was one of the main changes google did to linux kernel (I am not sure if they actually published this code) and to the android api."
+worldnews,fd1jtcs,t1_fcz9x3g,1578132230.0,And Ajit Pai!
+programming,fd0efcp,t1_fd05uh3,1578117646.0,"Thats true.
+
+My devil advocating was about the fact the api may actually be something valuable and hard to design by itself."
+programming,fd04qqj,t1_fczyrgg,1578113605.0,"This is the meaning of standard:
+
+https://www.merriam-webster.com/dictionary/standard
+
+: something set up and established by authority as a rule for the measure of quantity, weight, extent, value, or quality
+
+No mention of the standard adoption.
+
+I can be my own authority. And my cat can be the only implementer. ( I know, funny example but I hope you get the point)
+
+Yes, thats really what it is. The same applies to api. You can have api with single function used by single instance of single computer. Its still an api and it can be considered an standard and being adopted by someone else.
+
+I know usually thats not the case but still, its standard.
+
+As for API.
+I understand what you are saying. But from my point of view it does not really matter. The issue is the api here. Whether its part of something more and patentable is not relevant. The point is that up until now we viewed API as a simple mindless stuff between meaty parts.
+
+IMHO today API can and usually is something non trivial and therefore worth patenting or protection.
+
+And on the same rule as you look at api, the beefy stuff behind may be often worthless without api. Its the other side of the coin, very often inseparable.
+
+I get your point. Im not trying to convince you or convert, nor I am siding with anybody here. 
+
+My point is that from some perspectives (and those are not really unsubstantiated, crazy ones) API may be worth the same as code behind it and thus may require protection or at least definition the conditions for such."
+programming,fcztgws,t1_fczfiy3,1578108325.0,"Of course the edge cases exists. However You probably dont want to suggest that ignoring new JDK is the way to go for most?
+
+What I suggested was waiting, and it turns out the solution from article worked with not much effort after they switched the JDK."
+programming,fczt91h,t1_fczhhvo,1578108220.0,"All analogies are more or less partial. And I am as well not sure if thats infringement.
+
+My comment was a small attempt to show its not as obvious as the analogy suggests.
+
+You may remember the SCO vs linux court fight. They also tried to proove how much linux code was taken from their property.
+
+https://en.wikipedia.org/wiki/SCO%E2%80%93Linux_disputes
+
+They also argued about the amount of smilarity needed to proove something is ""stolen"".
+
+As for the small company thing. Its almost never api only thing.
+
+Its always api+logic behind.  And while some of the logic is patentable the api currently may be not. And as you can see, even if you copy api 1:1 there are still people who think its not an infringement.
+
+For the small company its a lot of effort to build the solution (along with finding the best approach, failing many times AND getting the customers).
+Then the big guy comes, has the manpower to mimic the solution overnight as its already proven to work and simply switch the customers by just saying ""please replace this ip with this and put new trusted cert).
+
+Its kind of similar thing as for drugs patents."
+programming,fczs6ya,t1_fczhxy5,1578107716.0,"If you implement the technology with different syntax, not. If copying it word for word, most likely yes.
+
+You can write a story about a orphan wizard. But if you make it too similar to harry you know you will be crushed by copyright.
+
+So basically it depends on the amount of similarities. If its 1:1 but the vendor IP is different. Good luck, in todays world you are guilty of infringement...
+
+Thats the way I see it."
+programming,fczrsts,t1_fczj7lm,1578107531.0,"> Standardization isn't something you build.
+
+Of course it is.
+I can build a standard and use it all by myself. 
+
+I agree that spreading standard is community action. But you dont have to have multiple entities to have working standard. Just one user can use it and it still will be standard.
+
+In the context I provided the api is a standard. And its adopted between vendor and clients. Its not an effortless work. the vendor needs to put effort to design the api. Its not merely a bunch of random calls with random parameters. Its published to clients, they may use it. 
+
+But to copy api and the concept behind it is a different matter.
+
+Api is an equivalent of a story. Its written with words (network/os calls) the words may be generic - non patentable but the whole piece will be patentable. Or at least its not obvious that its not."
+>>>>>>> b2c2856e21b6decdd12b8bdccd381cae2c58ec91

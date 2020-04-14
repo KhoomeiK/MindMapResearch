@@ -1,0 +1,222 @@
+subreddit,self ID,parent ID,time,text
+emacs,ffgckct,t1_ffg701s,1579903234.0,"ah gotcha, and nice one thanks I might just add that"
+emacs,ffg2k2d,t1_fffuru7,1579897079.0,"Fixed here: https://www.reddit.com/r/emacs/comments/etbafn/proper_invocation_of_systemd_emacs/fffyf75
+
+My version was 27, but I think the daemon was not properly killing emacs. It might be an arch linux thing..."
+emacs,ffg2f5m,t1_fffyf75,1579896994.0,"This fixed it - thank you so much!
+
+This is strange though because my emacs is version 27 and other than the `ExecStop` command, my emacs.service file is identical to yours.
+
+Are you using Arch linux?"
+educationalgifs,fff9ub3,t1_fff79jo,1579879242.0,Jiminy Jillinkers!
+emacs,fff9swf,t1_fff8tgn,1579879217.0,"Thanks, so I had emacs originally running as a daemon service via 
+
+    systemctl enable --user emacs
+
+using the `emacs.service` provided with the released version, but I had issues:
+  1. The user process would hang on shutdown, and I usually had to force power off
+  1. I sometimes get these multiple instances of the emacs daemon as seen by the above image"
+emacs,fff6oib,t3_etbafn,1579877081.0,"I seem to have too many daemons and too many clients....
+
+What is the standard way of starting up the emacs daemon using systemd?"
+educationalgifs,ffepdfr,t1_ffemr60,1579858747.0,Just bring a brolly and make sure it doesn't get in your eyes.
+educationalgifs,ffepc43,t1_ffeo7u6,1579858688.0,"The impact speed is quite slow here, the speed it rebounded off pretty much lost all of it's momentum to the gravity of the planet.
+
+I think in real life the moon would have been travelling much faster and so the rebound would have had a much farther orbit and would not have been sucked back in a second time like that."
+educationalgifs,ffep9d7,t1_ffenruq,1579858568.0,"Nah, standard Friday night."
+educationalgifs,ffep7if,t1_ffemz2d,1579858488.0,The 90s were weird.
+Jokes,ffeowpu,t1_ffellcp,1579858041.0,"No, to the Oval Office."
+gifs,ffdeafu,t1_ffddrp8,1579819060.0,With uraniferous coating no doubt
+gifs,ffddrcr,t1_ffczn2f,1579818746.0,can I claim that I did it? I want to use it as my own 404 image.
+london,ffcyd4x,t1_ffcx0xp,1579809814.0,"yes please, PM me a rough asking price too please :D"
+london,ffcuwe1,t3_esmn25,1579807753.0,anywhere i can print this?
+gifs,ffcswvf,t1_ffc28i6,1579806597.0,"Wow, not wrong.
+https://i.redd.it/llk754neji941.jpg"
+CasualUK,ffcs8v3,t3_eswg4b,1579806201.0,"Respect the correct the polarity.  
+Don't recharge."
+CasualUK,ffce6zd,t1_ffc1a5f,1579797540.0,"> The failure in all this is a failure of the state to provide education and public services that empower people and to not curtail an economy so dependent on house prices. That's my take anyway.
+
+It's totally  this. Lack of affordable housing or good public transport is driving communities apart by outpricing the locals. If housing was not an issue, prices wouldn't be so high, and if transport was actually reliable, prices in central wouldn't be so competitive."
+CasualUK,ffbk860,t1_ffbi6pc,1579769260.0,"> better now that it's more gentrified
+
+mixed feelings about this statement, but at the same time - yeah I get it."
+ScottishPeopleTwitter,ffbk0zt,t1_ffb70d5,1579768979.0,I got called a Monkfish by my 13-year old cousin. I had to sit and think on that one a while.
+Jokes,ffbjvqi,t1_ffbd03q,1579768769.0,"""C'mon man, stop stroking that cock and live a little."""
+gifs,ffbjman,t1_ffbez8h,1579768402.0,":3
+
+€:
+
+:}"
+Showerthoughts,ff9m39g,t1_ff9k3bj,1579715857.0,"YES I AM, I'LL PROVE IT  
+*whips it out*"
+Showerthoughts,ff9inr7,t1_ff9hy7y,1579713828.0,You're not the boss of men ow
+Showerthoughts,ff9fhct,t1_ff9est3,1579711894.0,"You mean ""cheer you down"" and you know it!"
+interestingasfuck,ff9drra,t1_ff9cp08,1579710808.0,ip me off to Newcastle and call me Shirley! I have once again m-
+emacs,ff9dn4b,t1_ff996t1,1579710722.0,"Well, I like to believe that - it would explain a little why RMS has never shared his config:
+
+https://www.reddit.com/r/emacs/comments/8j98jz/has_richard_stallman_ever_shared_his_emacs_file/"
+Jokes,ff95p0f,t1_ff918yp,1579705450.0,I actually thought it was
+Jokes,ff95nxo,t1_ff8yuvt,1579705429.0,"*Murmurs of discussion*  
+""We all agreed that you suck the most."""
+Jokes,ff95keo,t1_ff92k2p,1579705362.0,It appears we are at an imp ass.
+Showerthoughts,ff95ctu,t1_ff92x5b,1579705222.0,"Yeah, I'ma uh, I'm a just sit in here for a couple of hours"
+Showerthoughts,ff956pg,t1_ff93vs4,1579705108.0,"Don't go have some ice cream, it won't cheer you up.
+
+Nah I think the logic checks out."
+OldSchoolCool,ff94up1,t1_ff8spuv,1579704879.0,"[I hear ye're a racist now, father](https://www.youtube.com/watch?v=6zkL91LzCMc&feature=youtu.be&t=80)"
+emacs,ff94fd1,t1_ff8t3hw,1579704591.0,"True, but they *work* which I think is the key point here ;-)"
+OldSchoolCool,ff8s4ku,t1_ff8pbah,1579693936.0,"Bush, Bush, Bush, Bush, Bush, Bush, Bush   
+
+No income tax, no VAT  
+No money back, no guarantee"
+OldSchoolCool,ff8rzqu,t1_ff875qy,1579693775.0,"No income tax, no VAT  
+No money back, no guarantee"
+interestingasfuck,ff8rv86,t1_ff86t5c,1579693625.0,-mp.
+interestingasfuck,ff8runi,t1_ff8bqtp,1579693606.0,-oke.
+interestingasfuck,ff8ru3s,t1_ff8onot,1579693587.0,"g. However, I do concur that the r-"
+interestingasfuck,ff8rlyt,t1_ff8jzto,1579693307.0,"I guess so, but the sheer look of wonder on his face as he lies there next to the sink, soaking in the rays."
+okko,ff8r94f,t1_ff8lbth,1579692851.0,Got a time stamp?
+OldSchoolCool,ff8qx95,t1_ff8qkgc,1579692429.0,and what of it? don't kink shame
+emacs,ff8nj7w,t1_ff8ftlg,1579687483.0,"This.
+
+@OP - Start off with a good vanilla setting, play around with it for a week, getting to know the bindings, and then incrementally build from there.
+
+Or, try one of the more comprehensively customized emacs like Centaur, Space, and Doom."
+emacs,ff8lzkj,t3_es7sw9,1579685095.0,"> Another issue is that functionality seems to change quickly. Variables get deprecated, functions no longer behave the same way. E.g. -- I used to be able to insert capture templates directly into org-mode, then with the latest release, the capture buffer always pops up. The maintenance cost of keeping Emacs consistent is, by my standards, high.
+
+This is the nature of the game, friend ;-)  
+
+The key is to never upgrade or to lock your packages to specific versions and lock your emacs version too.
+
+(But I never do that, and spend 5mins-1hr a day hacking at my config)"
+PublicFreakout,ff6tlkt,t1_ff6pc41,1579634615.0,host countries usually aren't so welcoming...
+AskMen,ff5ytis,t1_ff5lf82,1579614613.0,"> only to come back and realize it was exactly what the thread wanted 
+
+that point where you're in reddit so long you forget what thread you're in.
+
+It sounds like you do a ton of scrolling though. Why not just minimize the thread chain, it's way less stressful and it gives you a chance to read the comment more"
+AskMen,ff5yjy3,t1_ff5plch,1579614392.0,"""no wait, a really light and sexy moose! Why are you running"""
+gifs,ff5mv3r,t1_ff5k90z,1579600828.0,Murder or sex.
+oddlysatisfying,ff3glig,t1_ff340p8,1579540611.0,And rectangles!
+Showerthoughts,ff2kr8x,t1_ff2cyi6,1579510693.0,https://linux.die.net/man/6/moon-buggy
+emacs,ff2khkc,t1_ff2e5x2,1579510308.0,https://github.com/nmartin84/.doom.d#org-mode-settings
+emacs,fezd3w4,t1_feykua9,1579456084.0,really beautiful colors
+dataisbeautiful,fey6sat,t1_fey1r3z,1579441477.0,"Yup, I rushed it.  
+Purple is births and deaths combined into one (I should write that). I could not understand how to do a custom legend for a multiplot. I will try to fix the scale."
+whatisthisthing,fexlhn9,t1_fexhqqk,1579432940.0,Oh hey yargle
+dataisbeautiful,feve6n2,t3_eqplwz,1579396407.0,"**Legend:**
+ * Red = Births
+ * Blue = Deaths
+ * Yellow = Other Events
+
+Full Album of different Year ranges [here](https://imgur.com/a/qT9sbWq), including:
+ * Full range of data (-4000 BC to 2020 AD)
+ * After 1900 BC (above image)
+ * Between -100 BC and 100 AD
+ * Before 0 BC
+
+
+*******
+
+**Source**: Repo with [Data and Code](https://github.com/mtekman/WikipediaPlots)
+
+**Tool**: Generated using `org-mode` in `emacs` via `Python` and `R` code blocks.
+
+This is just a small little project that tries to summarise the Wikipedia articles that consist of a day of the year (e.g. [January 12](https://en.wikipedia.org/wiki/January_12)). Each one of these 366 articles lists years where:
+
+1. A significant event happened (e.g. 1895, *The National Trust is founded in the United Kingdom*)
+1. Someone is born (e.g. 1772, *Mikhail Speransky, Russian academic and politician*)
+1. Someone dies (e.g. 1665, *Pierre de Fermat, French mathematician and lawyer*)
+
+The following plots summarize Births/Deaths, and Events to see if there are any significant months (12) or days (31) that can claim a bias in any of the above three types."
+dataisbeautiful,fevcxx9,t3_eqphhb,1579395888.0,"Legend:
+ * Red = Births
+ * Blue = Deaths
+ * Yellow = Other Events
+
+Full Album of different Year ranges [here](https://imgur.com/a/qT9sbWq), including:
+ * Full range of data (-4000 BC to 2020 AD)
+ * After 1900 BC (above image)
+ * Between -100 BC and 100 AD
+ * Before 0 BC
+
+
+*******
+
+Repo with [Data and Code](https://github.com/mtekman/WikipediaPlots)
+
+This is just a small little project that tries to summarise the Wikipedia articles that consist of a day of the year (e.g. [January 12](https://en.wikipedia.org/wiki/January_12)). Each one of these 366 articles lists years where:
+
+1. A significant event happened (e.g. 1895, *The National Trust is founded in the United Kingdom*)
+1. Someone is born (e.g. 1772, *Mikhail Speransky, Russian academic and politician*)
+1. Someone dies (e.g. 1665, *Pierre de Fermat, French mathematician and lawyer*)
+
+The following plots summarize Births/Deaths, and Events to see if there are any significant months (12) or days (31) that can claim a bias in any of the above three types."
+emacs,feuq0yy,t3_eqlle7,1579388921.0,"this is awesome stuff
+
+> For larger use cases, notably, this finally makes the performance of ""eval"" as written in Scheme faster than ""eval"" written in C, as in the days of Guile 1.8.
+
+If I read this right, this is faster than emacs is now (which uses C primitives)?"
+interestingasfuck,fete1r7,t1_fepa2mj,1579374425.0,How bout you dooo anyway
+interestingasfuck,feneg35,t1_fen924u,1579282930.0,"me too, the musk propaganda is strong"
+Showerthoughts,femslrw,t1_fempjiu,1579268433.0,your*
+AskReddit,femsgmc,t1_fems3do,1579268317.0,"Pass the broomstick on the left hand side.
+
+[^^^^^^UK ^^^^^^music ^^^^^^buff? ^^^^^^Please ^^^^^^help ^^^^^^me ^^^^^^find ^^^^^^this ^^^^^^song. ^^^^^^And ^^^^^^don't ^^^^^^derail ^^^^^^this ^^^^^^thread ^^^^^^by ^^^^^^posting ^^^^^^here ](https://www.reddit.com/r/The2ndMysteriousSong/)"
+natureismetal,femoitc,t1_femo170,1579264775.0,this is how cock magic is born
+Showerthoughts,femohkz,t1_femnije,1579264742.0,"Jesus, being a woman back then (and probably still now) must have been rough.
+
+Whip yourself on the back? You are a humble servant of god.  
+Start cutting youtself with needles? Your uterus is acting up."
+AskReddit,feml5yb,t1_femkois,1579260999.0,Don't don't don't let's start.
+natureismetal,femko9n,t1_fem7vnw,1579260362.0,"Looks exactly like it
+https://upload.wikimedia.org/wikipedia/commons/5/5b/1951b12interior.jpg"
+natureismetal,femkhz3,t1_felo8ko,1579260131.0,it's funny how my brain skips over the first t in 'that'
+dataisbeautiful,femkdpn,t1_femjei6,1579259974.0,"Yeah true, 9 dimensions is a bit low for non-linear stuff.
+
+Very cool to see this!"
+dataisbeautiful,femj7ae,t1_femitu2,1579258325.0,"I'm surprised the PCA outperformed the tSNE and the UMAP... but I guess the clustering by the GMM is linear in principle(?) so that could be it,"
+dataisbeautiful,femj2wr,t1_femitu2,1579258148.0,"But what is being increased with time?
+
+Edit: Oh, you're tweening between the original and embedded space"
+funny,femiy9f,t1_femdtsq,1579257964.0,Therefore beauty is in the eye of the beerholder
+Showerthoughts,femita3,t1_femhjs4,1579257760.0,I was hit in the eye with a ping pong racket.
+Showerthoughts,femis6p,t1_felxtoh,1579257715.0,could you explain that a little more
+Showerthoughts,femioou,t1_femh4jy,1579257574.0,*OH.* *YEAH.*
+Showerthoughts,femilk3,t1_femibe8,1579257447.0,"y'all need jesus
+
+[^^^^^^UK ^^^^^^music ^^^^^^buff? ^^^^^^Please ^^^^^^help ^^^^^^me ^^^^^^find ^^^^^^this ^^^^^^song. ^^^^^^And ^^^^^^don't ^^^^^^derail ^^^^^^this ^^^^^^thread ^^^^^^by ^^^^^^posting ^^^^^^here ](https://www.reddit.com/r/The2ndMysteriousSong/)"
+gifs,femijyt,t1_felxlzs,1579257382.0,man I remember that giant dick butt fondly
+dataisbeautiful,femhua0,t1_fem6fvj,1579256326.0,"What is this actually showing...? The data looks well clustered already and then seems to progressively worsen.
+
+Is the complexity of the tSNE is being increased.... or something else is happening?
+
+Any why does the UMAP change so much?"
+AskReddit,femhizl,t1_femfzdn,1579255850.0,Mine is late forties. I'm gonna go for it.
+AskReddit,femhhps,t1_femgfdc,1579255795.0,"[Ana Ng and I are getting old](https://www.youtube.com/watch?v=2m7yrOv_7v4)  
+And we still haven't walked in the glow  
+Of each other's majestic presence..."
+Jokes,femh2wv,t1_fem4wi3,1579255173.0,deus mios
+AskReddit,fel1tc6,t1_fekumhy,1579212217.0,"Man I miss playing as [Smiley](https://youtu.be/oankQ6Ux03o?t=48), the guy who threw the knives in a spherical arc."
+funny,fekvfx8,t1_fekrtce,1579208418.0,Exactly what I thought too!
+PublicFreakout,fekhxqm,t1_fekfkn5,1579200410.0,"not without her consent though, eyed brother."
+funny,fekfdu3,t1_fejzl8w,1579198888.0,"""Q: X Dank womp bitches fry vulgar JZ"""
+gifs,fejnohy,t1_fej71ip,1579180957.0,[Jon Peters](https://en.wikipedia.org/wiki/Jon_Peters) was that producer. Cracked had a [good article](https://www.cracked.com/blog/4-reasons-why-bad-movies-are-allowed-to-happen/) on it.
+AskReddit,feghbx6,t1_fegd74n,1579092767.0,"*But little did Olivia know that as as soon as her back was turned, the swordsman turned around raised steel above his head just as he emits a large croak*"
+AskReddit,fegh8og,t1_fegcum6,1579092683.0,You have ten minutes to collection your cheque
+AskReddit,fegh64g,t1_fegcssw,1579092616.0,"4, 8, 15, 16, 23 and 42"
+CasualUK,fedjjmo,t1_fedj3so,1579013130.0,"I somehow think your pain is worse ;-) It's like you're 99% there and it's the final 1% that's screwing you. 
+
+Backup the song on the cloud somewhere if you can, and post it on reddit on somewhere in the (naively optimistic (like me!)) hope that you will find the person who actually wrote the song."
+Showerthoughts,fedja93,t1_fediswm,1579012949.0,how'd you say it then?
+CasualUK,fediqld,t1_fedieqf,1579012564.0,"Yep, it looked like he was just taking the name and running with it as a solution :("
+Showerthoughts,fedgs5f,t1_fedgof6,1579011110.0,"in german, turkish, and probably french (?) 'e' is sort of pronounced like 'eh', so that's what I was going for."
+Showerthoughts,fedgomi,t1_fed9es2,1579011036.0,.no wi wud oll jus start tolking laik scandinayvians
+Showerthoughts,fedgfum,t1_fedf824,1579010850.0,"ah true, let me edit"
+Showerthoughts,fedged1,t1_fedesgz,1579010818.0,"""with"" -- I was actually wondering how to represent the ""th"" sound in the english alphabet with its own symbol"
+Showerthoughts,fedg9vl,t1_fedfpjb,1579010721.0,"""tipe"" would read like ""tee peh"" to me"
+Showerthoughts,fed4ih1,t1_fed409e,1578998446.0,ai sed «?wud yue rileH»
+AMA,fed4dae,t1_fecz4ed,1578998239.0,Those goddamn martians...
+AMA,fed4c96,t1_fecx7qn,1578998197.0,Do you drink caffeine or take other stimulants? Do they take the edge off?
+AMA,fed4999,t1_fecz7fb,1578998074.0,"I just read up on it now, it's a dominant disease right? Didn't one of your grandparents have it too? How long has this existed in your family?"
+AMA,fed47lx,t1_fecrkoq,1578998005.0,"I used to (once or twice a year) do 3.5 days without. I found that the first 24 hours sucked, but then afterwards I would feel fine and not tired, especially if all I drank was water and ate little, though my judgement would be severely impaired."

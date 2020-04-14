@@ -1,0 +1,46 @@
+subreddit,self ID,parent ID,time,text
+LaptopDeals,ffiy0wd,t3_etklnl,1579985503.0,It begins
+LaptopDeals,ffixse0,t1_ffid7mf,1579985332.0,literally can't play games on this /s
+Python,ffi4a4u,t3_etooem,1579964663.0,Are you sure those are characters and not tokens inserted by a lexer?
+CrusaderKings,ffi42ml,t1_ffg5dev,1579964490.0,"Is it just that you play fast and loose and get game overs, or is there something else you do that makes them go quickly?  My games last days on end in Ironman."
+FPGA,fffhvss,t1_ffe83yd,1579884312.0,"Is there a way to write directly to the UART address space directly without having to worry about the internal and control signals associated with the UART protocol?  My IP is exercising the DDR, so if I buffer the UART output in memory it will interrupt that functionality.
+
+&#x200B;
+
+I found that the UART base address is 0xE0000000, is it sufficient to just write my data there or is there some control signals I will need to manage?"
+FPGA,ffe56be,t1_ffe3fgw,1579836982.0,"As a sanity check, I'm just writing to the base address with a fixed value.  The base address assigned when I make the connection is the GP0 slave AXI base address on the PS.
+
+I am writing fixed values for now, but ultimately it will be an arbitrary 32-bit address followed by a single arbitrary 32-bit data.  However, I don't need to send either to different addresses, they will both go to the same destination address."
+Pitt,ffe4w85,t3_et29dy,1579836774.0,See if your professor will set up Piazza.  We used it in a databases class and it was really helpful
+compsci,ffe47j5,t3_et1acy,1579836260.0,Why not just store it in a heap instead while you're reading it in?
+WhatShouldICook,ffe3l5a,t3_et3e2x,1579835798.0,"You could make cranberry grappa, I can't imagine it would be much different than using grapes.  If you're not into booze, cranberry vinegar for salad dressings.
+
+Dehydrated cranberry could be ground up to add to coffee or cocoa.
+
+Cranberry simple syrup for cocktails or lemonade.
+
+Preserve it in cane sugar for baking."
+FPGA,ffe2omo,t3_et1psj,1579835130.0,"Why move it?  Just untar it in place, you can pick the installation directory.
+
+Also, there are Linux driver install scripts inside the tarball IIRC"
+FPGA,ffdyuw6,t1_ffdv047,1579832347.0,"I don't know that the device would help me in this case, but your link introduced me to the microzed blog, which has several other solutions I can try.  Thanks for the info!"
+FPGA,ffdpmu7,t1_ffdnlzi,1579825960.0,"I thought (perhaps incorrectly) that by using the board files in the vivado toolchain, all the constraints are handled automatically (you can select things like the system clock, reset, and DDR pins with human-friendly names in a block diagram rather than binding them to pins with a .xdc file).  Apparently this is not true for all pins.
+
+I added a constraints file with the pins in question manually mapped, but it seems to have been ignored.  Setting a false path also failed.
+
+Thanks for the help, I'll keep searching"
+LaptopDeals,ffcw5a2,t1_ffbexoe,1579808512.0,"As far as I can tell, it is a complete unknown/sticker brand.  I've asked on buildapcsales and no one can comment on quality or longevity.  I would be happy to be proven wrong..."
+FPGA,ffc52ch,t3_est8oa,1579791707.0,"Correct me if I'm wrong, but I was under the impression that these languages and frameworks boil down to HDL at the end anyway.  Maybe you don't see it in industry because people don't share their workflow, just the source of the end product."
+nottheonion,ffbz6hn,t1_ffb1uk5,1579787354.0,Everybody's got a plan until they get punched in the mouf
+ComputerEngineering,ffbvx5h,t1_ffawqq8,1579784541.0,yes that's what I meant
+ComputerEngineering,ffao88g,t3_esieoh,1579740589.0,"Registers are made up of groups of latches out together, so that you can access 32 of them at once.
+
+The latches themselves are D-latches, if you search for a dlatch block diagram you will see the logic gates that make up each dlatch.
+
+The gates are made of CMOS transistors.  For each gate, you can look up the gate transistor schematic to see how they are put together to realize the function of each one.
+
+In general, each level of memory is cheaper, slower, and larger capacity.  There is only so much space on each CPU chip, so that limits the amount of registers you can use among other things."
+ComputerEngineering,ffajowc,t1_ff9j45m,1579737417.0,I would add that even EDA tools used for PCB design and RF stuff will require code.
+ComputerEngineering,ff926by,t3_esbsl5,1579702999.0,"Brush up on DSP, system design languages (system C and verilog), and HDL design.  Since you don't want to code, I imagine you will work with these tools very often."
+pittsburgh,ff8wx65,t3_esbarm,1579698771.0,"habitat for humanity is great, they do a good job of assigning work that you're comfortable doing.  It's pretty low commitment too, you can sign up for a single day."
+pittsburgh,ff8wr6k,t3_es5sft,1579698623.0,Can anyone that went in previous years comment on the food?

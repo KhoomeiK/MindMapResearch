@@ -1,0 +1,278 @@
+subreddit,self ID,parent ID,time,text
+ArtefactPorn,ffg5rzx,t1_fffwm5u,1579899057.0,This is already the case today. Ancient trash heaps are a fantastic place for finding everyday items.
+techsupportmacgyver,fff9ac4,t1_fff8tol,1579878881.0,Reminds me of [Fordite](https://en.wikipedia.org/wiki/Fordite).
+techsupportmacgyver,fff8i51,t1_fff8721,1579878353.0,There must be layers upon layers of paint on these...
+techsupportmacgyver,fff7w0p,t3_etaz0e,1579877928.0,Which school on Earth still has these 1940s style school desks?
+blursedimages,fff7oo5,t1_fff0rv7,1579877787.0,"The body material is called Duroplast, cotton fiber reinforced composite plastic. Pretty high-tech for the 1950s. Great material for building cars, since it's light, strong, doesn't rust and can, unlike other composite materials like fiberglass, easily and cheaply be produced in large numbers. They chose this material in order to save on steel. Since the Trabant was produced for decades with little changes under increasingly worsening conditions, the molds used to create body panels wore out, resulting in rather uneven panel gaps.
+
+The frame is still steel, that's why it's not unusual to see rusty door sills on Trabants. These days, Duroplast is most commonly used to make toilet seats, by the way.
+
+Modern cars often use pure plastic for body panels, which is cheape, lighter and thinner, so that's why there isn't anyone making a Duroplast car these days. Back in the '50s however, this was the next best thing. It's quite unfair that people made fun of this aspect of the Trabant, since it was easily its biggest strength. The horrible two-stroke engine, awful build quality and laughable electrics are much more worthy of criticism."
+politics,fff6oru,t1_fff5w4q,1579877087.0,"Nonsense. The car wasn't invented by a billionaire, neither was the smartphone or the Internet. Capitalism enabled the spread of these technologies, but there is nothing supporting the claim that there have to be billionaires sitting at the top in order for the system to work."
+politics,fff6g73,t1_fff55ja,1579876914.0,"> relatively easily 
+
+The median net worth of a retiree is $200000, not a million. This includes all assets they have and in most cases, it's little more than the house they are living in. Most people can never hope to retire with a million dollars in savings, that's completely absurd."
+architecture,ffeuf0l,t1_ffet8wr,1579865992.0,Because jet pack fuel is expensive in the long run.
+de_EDV,ffeu2jl,t1_ffeni2c,1579865546.0,Zwischen Micro USB und USB-C liegen 14 Jahre. Würde also bis dahin mit einem neuen Anschluss rechnen.
+de_EDV,ffetx8l,t1_ffepnpk,1579865355.0,"Zumindest mein mehrere Jahre alter Laptop lässt sich sowohl mit dem Hersteller-Netzteil, als auch über USB-C laden."
+todayilearned,ffes1qi,t1_ffek6mv,1579862760.0,Can you name examples of movies that were held back for years?
+WeirdWheels,ffen4ft,t1_ffdnm5k,1579855369.0,Safety regulations. Notice how there is almost no crumple zone.
+ShouldIbuythisgame,ffemzhi,t1_ffdgikj,1579855171.0,Reinstall Steam. Delete everything except for the downloaded games. Make backups of them (in the same menu we used before) so that you don't have to download them again.
+AndroidGaming,ffemsft,t1_ffec724,1579854893.0,"If you want to earn money, make the game F2P and implement micro transactions, lots of them. I won't play the game, but many people will. Ads are not lucrative enough anyway."
+silentmoviegifs,ffdu1ss,t1_ffdhrun,1579828924.0,"Frame rates were generally lower than today. Around 18fps were normal and far from the lowest, although this varied of course (from as low as 12 to as high as 30) due to hand-cranking. Films were deliberately projected at higher frame rates than they were shot and low frame rates were less obvious, because each individual frame was shown at least twice (which is still the case with modern film projectors).
+
+The reason why Hollywood eventually arrived at 24fps was that ""talkies"", as movies with sound were initially called, required a consistent frame rate in order to have a properly synced audio track. This took years to perfect."
+de,ffdscp3,t1_ffco3ao,1579827713.0,Habe gefälschten Tim und Struppi erwartet.
+ShouldIbuythisgame,ffdghjz,t1_ffdgffn,1579820368.0,"The benchmark does run, I assume?"
+ShouldIbuythisgame,ffdgcqg,t1_ffdg6oq,1579820292.0,"Does the prompt to download again only come up after you've started your browser? If yes, then you can safely ignore it and close the tab."
+ShouldIbuythisgame,ffdee33,t1_ffddtvo,1579819120.0,"1) I forgot to mention this, but did you download the 64bit version of this driver (Windows 10, 64-bit) or the 32bit version? Your system is using the 64bit version of Windows, so make sure you pick the right one from the list on the left side of the download page. This may be why you are getting the error message. If you downloaded the right version and still got the error, then get back to me.
+
+2) Well that's unfortunate. Right click on the game in your Steam library -> Properties -> Local Files -> Verify integrity of game files. This will redownload the file you just deleted. After having done this, try manually installing DirectX from that folder. Does this work?"
+ShouldIbuythisgame,ffdcelf,t1_ffdbhbn,1579817907.0,"Try installing that driver I linked to above. Have you tried that?
+
+I think it's more likely that there is a problem with the installer than DirectX itself. Just to make sure, download [Uningine Heaven](https://benchmark.unigine.com/heaven) (green download button) and run it set to DirectX 9 and 11. It should work if your system is working fine (although it'll push your hardware to its absolute limits). One of my favorite benchmarks, by the way.
+
+Also, go into the install folder of these games (right click on the game in your Steam library -> Properties -> Local Files -> Browse Local Files) and delete the DirectX folder inside the redist folder. This should prevent Steam from trying to install DirectX, but it may also result in the game not working, so report back if it did anything good. We may have to fiddle a little..."
+ShouldIbuythisgame,ffdaxot,t1_ffd56yz,1579816940.0,"I've done tech support on Japanese language computers and had no trouble whatsoever. It's all in the same place, just with a different name, so don't worry about it.
+
+Sooo, you have a really decent CPU (mine's almost the same and it can still handle everything) and a usable amount of RAM. No dedicated GPU, just the one integrated into the CPU. That's your system's Achilles' heel. It's seven years old and wasn't fast when it was new. While DirectX 12 is installed, this GPU fully supports only up to DX 11.
+
+What can it actually do? It's fine for most 2D games, that's for sure. You can play titles like Stardew Valley, for example. Pixel Art should generally be fine. Some more demanding 2D games with more complex visuals might cause issues however. In terms of 3D titles, you can play less demanding e-sports games like Fortnite, Fifa, World of Tanks, Team Fortress 2, CS:Go, Rocket League, Leage of Legends, Overwatch, etc. Almost all of these will only run on lowest settings, however, and do not expect high frame rates. What your integrated GPU can also do is run older AAA games. GTA V for example should run at ""normal"" settings (which are the lowest setting in this game, about equivalent to the Xbox 360 version). If you are fine with minuscule resolutions and frame rates that skirt the edge of playability, then even more games are technically [playable](https://www.youtube.com/watch?v=S9gX_ahfcbo), but this isn't going to be an ideal experience and I would advise against it. 
+
+If you are going to continue using this PC as it is, you should at least upgrade the driver. Yours a couple of years old now, which is not ideal if you want to play games. Download and install [this update](https://downloadcenter.intel.com/download/29313?product=75043). 
+
+By adding a dedicated GPU, you could turn this machine into a very capable gaming PC. First, you'd have to check your power supply however. Open the case and read the make and model and the specs on the side. It's a big block, likely with a fan, that the power cable plugs into. Many GPUs need additional power from the power supply. I think it's best if you just opened the case and took a clear, well lit photo of the inside with your phone. That way, we can see if the required wiring and space for a GPU are there.
+
+A Radeon RX 570 (around €130 in Portugal) would allow you to play every game on the market at medium and often high settings at 1080p. Since your display resolution is just 1366x768 (Thought about upgrading your screen? Feel free to ask if you need help with this...), high settings should be doable nearly all the time, except with some very demanding games like Red Dead Redemption 2.
+
+If you don't have the money for a new GPU, used cards are an option. Search classifieds for capable cards. I'd work my way through [this list](https://www.techspot.com/article/1775-guide-buying-used-graphics-card/). There are good cards out there for as little as €50 that'll massively enhance the performance of your machine, although it has to be said that in this very low price range, even 10 or 20 bucks more can make a huge difference in performance. Google a few of these cards in combination with games that you want to play to find info on their performance, which will come either in the form of professional benchmarks, forum posts of people discussing the hardware or Youtube videos running the game in question (if both card and game are reasonably popular). Check availability, compare a little. If you are unsure or need further help, feel free to ask.
+
+P.S.
+
+Check Windows update. Your version is still supported, but you should be on the next one already."
+Games,ffd4qch,t1_ffd4fgq,1579813384.0,"Sure thing and they have every right to. If you know any of them, tell them all about Boot Camp."
+ShouldIbuythisgame,ffd3kjt,t1_ffd2jv6,1579812737.0,"To find out the exact specs, do the following: Hold down the Windows Button and press R (I'm assuming you are using some version of Windows) then type in
+
+    dxdiag
+
+Hit Return. If some kind of warning is being displayed, just click it away. The ""DirectX Diagnostic Tool"" will open (if it does not, ignore the next paragraph, tell me exactly what kind of error message you are getting and continue with **Plan B** below). 
+
+The ""System"" tab should be displayed. Note down the operating system, the exact processor name, the amount of RAM and the DirectX Version (or create a screenshot). Next click on ""Display 1"" (or ""Display"") at the top and note down both the name of the GPU and the amount of memory it has, as well as the driver version (to the right) it's using. Then tell me about all of this and I'll tell you what's going on with your PC.
+
+**Plan B** (you only have to do this if the above didn't work): If the DirectX Diagonistic Tool does not open, do the following: Go to ""This PC"" (where you'd normally look for your drives), right click on the empty space and click ""Properties"". You'll see your operating system and your CPU, as well as the amount of RAM you have. Next click on ""Device Manager"" on the top left. It'll list the entire hardware of your PC. Look for ""Display adapters"" and click on the small arrow left of it. Write down what's written there, then right click on the component you just unveiled and click ""Properties"". Go to ""Driver"" and write down the date and version."
+ShouldIbuythisgame,ffd2grn,t1_ffd2ehk,1579812106.0,It should already be installed by default. What's your hardware and your operating system?
+Lost_Architecture,ffd1z1z,t1_ffcx2pb,1579811827.0,"It's almost never that easy. Older buildings tend to use space very poorly and even based on just looking at the facade, this one appears to have been in poor shape to begin with. It's not improbable that there was mold, rot, leaks, all of those issues you don't have to think about while looking at it from the outside. It's almost certain that wiring and piping would have to be replaced entirely, as well as every floor and every window (that's a very old style of window). With current regulations and energy prices, it would likely have been necessary to add exterior insulation, which would have resulted in a building that looks far worse than the replacement. All of this adds up.
+
+All in all, this is a very unremarkable building, so there is zero incentive to preserve it. Most people won't miss it and whoever is moving into the new building will have a far better experience there than in even a completely refurbished old building. It has the same footprint, but two extra stories. Pay attention to how much larger the windows are and how there's much less space between them. This means more light, which I would personally prefer. Not to mention, tenants will have smaller heating bills, will not have to worry about room layouts that made sense in 1900, but certainly don't anymore today. The new building has a large entrance (that can be entered from two sides), which is far more accessible to both larger groups of visitors/employees (this looks like an office building, after all) and people with disabilities, whereas the only way into the old building was through a much narrower door with a step.
+
+Old buildings can be pretty to look at, but this doesn't meant they are great to live with, this doesn't meant that they are cost-effective and competitive in today's market. I'm all in favor of preserving old architecture that is worth preserving, but let's not pretend that this building was in any way a loss to this world. It was just as unremarkable as the new building that replaces it."
+Games,ffczujp,t1_ffcvbiw,1579810649.0,"I suspect that projected Switch sales numbers were considered to be worth it, whereas the same could not be said about macOS."
+AndroidGaming,ffcpaw4,t1_ffcp5et,1579804323.0,I'm just not installing free games anymore.
+GameUpscale,ffcnnfl,t1_ffccohq,1579803308.0,Excellent work. Your second Youtube link doesn't lead to a video though.
+AndroidGaming,ffcmsm2,t1_ffcae79,1579802780.0,"The moment any game tries this nonsense, it gets uninstalled."
+AndroidGaming,ffbzhju,t3_esrjck,1579787596.0,"It's the early days of pop-up ads on the Internet again, isn't it? In any case, use an ad blocker, people. Blokada works pretty well and doesn't need root.
+
+https://blokada.org/index.html"
+patientgamers,ffbx76n,t1_ff95957,1579785689.0,"Back in 2001, when the N64 was on its way out, we got a second N64 with Star Wars Episode 1 Racer for 110DM (which translated to around €55 back then). The bundle was cheaper than buying a second controller and the game.
+
+Edit: By comparison, our first N64 cost 240DM with two games (Mario 64 and one game we could choose, I picked F-1 Pole Position 64, which I loved back then, but does not hold up) in the summer of '98, which was the same price as a PS1 with one game. The store employee convinced us to get the N64, because cartridges were more robust than CDs and would more easily survive small children (which is true). What's interesting about the N64 is that some games were in extremely short supply and thus hideously overpriced. I remember seeing the golden cartridge of Ocarina of Time behind glass at a store and it was on sale for 180DM two years after its release (remember, the entire console with two games was 240DM). That's the reason why I only played this game (and a few other rare titles) many years later using an emulator."
+ShouldIbuythisgame,ffbx0jd,t1_ffbwiw3,1579785527.0,"That's a barely five year old laptop. Should easily run games like Terraria, more than easily, even if it has the worst specs. PUBG is a different matter, but you might be delighted to hear that there's a new F2P version of the game based on the mobile port. It's quite close to the real thing, but runs on much weaker hardware.
+
+To find out the exact specs, do the following: Click on the start button and type in
+
+    dxdiag
+
+Hit Return. If some kind of warning is being displayed, just click it away. The ""System"" tab should be displayed. Note down the exact processor name and the amount of RAM. Next click on ""Display 1"" (or ""Display"") at the top and note down both the name of the GPU and the amount of memory it has, as well as the driver version (to the right) it's using."
+ShouldIbuythisgame,ffbwb1s,t1_ffbw5jf,1579784897.0,"A laptop is still a PC. Every laptop is a gaming laptop. 
+
+What's inside? Exact specs please. It's likely some old dual core, an anemic iGPU, a smidgen of RAM and a slow old HDD? Still good enough for decades of great games and likely even recent Indie stuff. Which genres, which specific games have you enjoyed? Which games and genres have you thought about playing, but never tried?"
+ShouldIbuythisgame,ffbvxei,t1_ffbo6f7,1579784548.0,What's your hardware? Every PC is a gaming PC.
+WeirdWheels,ffbuz93,t1_ffak0ad,1579783657.0,"It's gonna happen eventually. This was just the first production car to do it. Several new EVs are getting rid of side mirrors in favor of cameras and screens, like the new Honda e."
+WeirdWheels,ffbuqmj,t1_ffavx2b,1579783425.0,"AMC did not have the capital to actually develop new tech and truly new models, so instead they tried to innovate by changing cheaper aspects like styling and suspension height.
+
+In terms of tech and quality, they fell further and further behind every year."
+GameUpscale,ffbri5h,t3_esjefm,1579779895.0,"Small correction: These games use Unreal Engine 1, not 2; the first game came out a year before Unreal Engine 2 was released. They kept using UE1 in the second game, because it was cheaper to develop for and the lower hardware requirements made sense given that kids would often play games on older PCs.
+
+The first Harry Potter game to make use of UE2 was The Prisoner of Azkaban in 2004."
+WeirdWings,ffanuun,t1_ff9vq5v,1579740339.0,"In case anyone was wondering, yes, ground crews reportedly got drunk from this stuff."
+AskGames,ffadtka,t3_esgvlr,1579733226.0,"Lots of racing games do something similar. They start out with spectacular supercars in equally spectacular opening scenes, only to then give the player the choice between far less powerful cars. Test Drive Unlimited 2 (driving a Ferrari into the sunset, which turns out to be a dream) and the Forza Horizon series (which perfected the spectacular opening with part 3 and 4) come to mind.
+
+It serves the same purpose as in an action game or RPG: Give the player a taste of what's to come, make them hungry for more, provide them with motivation to endure the beginning of the game."
+europe,ffa7oeo,t1_ffa7l5x,1579729485.0,I'd change the setting so that it opens videos using the Youtube app.
+europe,ffa7fs6,t1_ffa7ann,1579729350.0,"As it says in the title, the description and the comments underneath the video, it's from the highly acclaimed TV show ""The Wire""."
+AskTechnology,ff9xlzh,t1_ff9t7pf,1579723711.0,"Note that it's written Symbian, not Simbian. Should make the search easier.
+
+I would look for the most popular phones only. N-Gage was compatible with lots of Java games, but it was different enough to cause issues. Note that most games were developed for specific phone models (specifically their screen resolutions and input methods). Popular titles usually had multiple versions for different screen sizes and input methods, especially late in the history of Java games, as touch-screen Java phones enjoyed a brief surge in popularity.
+
+A standard phone, ideally a late model and one that you can easily get a replacement battery and a working data cable for (that registers the device as a simple USB storage device, ideally, since it's no fun to use old data transfer software) would be your best bet. Oh, and make sure the exterior plastic is not coated in rubber. One of my old Siemens phones and an old Nokia are slowly disintegrating right now because of this. The melting rubber has a glue-like consistency that is extremely unpleasant to the touch. This is a very common issue with mid '90s to mid 2000s hardware.
+
+Once you've found a phone that might make sense, do some research on how you can get programs onto it. Note that many phones from that era refuse to work properly without a SIM card. There are also examples that are locked down by the phone companies they were sold by. I had two Siemens for example that were locked down by T-Mobile (disabling the installation of programs that weren't provided by T-Mobile themselves), which required me to reverse-engineer the apps already on the device and apply this information to any game or other software I wanted to play on them. Neat if you are a 14 year old with too much time on your hand, far less enjoyable if you are not."
+architecture,ff9sdj4,t1_ff9c2be,1579720181.0,"> Nearly everyone had access to extremely well-built housing
+
+This is inaccurate. Most housing in East Germany was not large concrete blocks like in this photo, but increasingly dilapidated pre-war buildings.
+
+Edit: Since Both Western media and the East German propaganda apparatus focused on Berlin and a few ""example cities"" like this one, that's where this misconception comes from."
+HistoryPorn,ff9ohrb,t1_ff9eihg,1579717303.0,"That's just a legend. The name actually comes from a similar looking instrument:
+
+https://en.wikipedia.org/wiki/Bazooka_(instrument)"
+europe,ff97l6w,t1_ff945v7,1579706701.0,Guess I should finally watch this then. Brilliant scene.
+HistoryPorn,ff96yjk,t3_escq7m,1579706295.0,"More info on this division here:
+
+https://en.wikipedia.org/wiki/92nd_Infantry_Division_(United_States)#World_War_II"
+Games,ff8wxje,t1_ff8bioa,1579698781.0,HDMI TOSLINK extractors exist and are very cheap.
+Games,ff8wtod,t1_ff8tty4,1579698685.0,Wouln't a simple HDMI splitter solve this issue?
+architecture,ff8vtrh,t1_ff74oiz,1579697791.0,"If you've ever lived with old wooden window frames through German winters, you'd adopt modern ones in a heartbeat."
+architecture,ff8vo9w,t1_ff87duf,1579697651.0,"Seems like both architectural critics (who universally praise this building) and locals (who call it the ""friendly extraterrestrial"" and do not revile it, unlike what you think) disagree with you. This building is considered *the* architectural landmark of the city and a huge magnet for tourists. Despite looking alien compared to its surrounding buildings, its blobby shape means that it does not feel like it crushed some centuries old quarter, but instead makes it appear like it softly landed in between what was already there, adjusting itself to the location instead of the other way around.
+
+There is nothing inherently bad about creating strong contrasts. It has been done for millennia - or do you honestly think that an Ancient Egyptian palace or a Gothic cathedral did not stand in strong contrast to the surrounding buildings? If you actually looked at what you call ""architectural harmony"" of Regensburg, you would quickly realize that there is a bewildering amalgamation of architectural styles spanning centuries, with significant differences between most structures. 
+
+I'd also like to mention that this building isn't just about looking different. The interior space is well lit and highly usable, its roof contains photovoltaic panels, resulting in a far lower energy consumption than otherwise, and the facade can be dynamically lit up using large circular ""pixels"", which look stunning at night:
+
+https://www.youtube.com/watch?v=Uq1lkrtAJ_0"
+northkorea,ff6o86f,t1_ff5wkce,1579631403.0,Ignorance and overconfidence appear to be siamese twins these days.
+nottheonion,ff6hetr,t1_ff6ed6e,1579627257.0,"Well, she still is and you shouldn't have."
+nottheonion,ff6h5b9,t1_ff6fuqe,1579627094.0,"This is the kind of mature response we should all aspire to deliver upon being personally attacked. Well done. You not only have the facts on your side, but are also far more civilized."
+northkorea,ff6d5lw,t1_ff602wy,1579624611.0,"They are notorious for not paying their bills:
+
+https://www.newsweek.com/north-korea-debt-sweden-volvo-cars-691493
+
+This is just the most well known example.
+
+They are also known to just run with the money when they are supposed to deliver goods. It's a government that behaves like small-time criminals.
+
+Are you being deliberately obtuse or what's your goal here? No matter how many facts you are presented with, you are just denying, denying, denying."
+AskTechnology,ff6brs3,t3_ertjqz,1579623735.0,"What's the make and model? Many phones built in the early 2000s or later support data transfer via USB and not all of them require a working battery in order to do this (but some do). Depending on the popularity of the phone, all you may need is a new battery, which are surprisingly easy to find (if the phone isn't too exotic). Note that it's common that phones from that era require a software from the manufacturer for data transfer.
+
+USB is not always supported however. In addition to Bluetooth (which is usually very simple to use with old devices, but also rather slow), infrared was also commonly used. Advantage: A general purpose infrared receiver can do the job. Disadvantage: Bluetooth is downright fast by comparison and you may, once again, require specialized software, which might not be easy to find and/or hard to run on modern systems, possibly requiring some fiddling.
+
+If the phone doesn't start at all, not even with a new battery or a proper data cable and if there isn't an old-timey memory stick or similar like /u/TiagoTiagoT mentioned, then there isn't really much you can do with ordinary equipment. An expert could extract the NAND chip and implant it into a working device, but this would be exceedingly expensive and only worth it if you are looking for irreplaceable data. It's too difficult and expensive if you just want to satisfy your curiosity."
+northkorea,ff68y9i,t1_ff5x09a,1579621923.0,"The unique thing about North Korea is that they are doing it all. Sure, every government has done *some* awful stuff at some point, but they are literally the uncrowned champions of state-sponsored crime."
+HistoryPorn,ff64cky,t1_ff5vpkk,1579618812.0,"> Many sharks were later seen near the position.
+
+Yikes."
+WeirdWheels,ff5widg,t1_ff5ukxz,1579612601.0,These are not common cars. I suspect you are confusing [the second generation Renault Mégane](https://en.wikipedia.org/wiki/Renault_M%C3%A9gane#M%C3%A9gane_II_(2002%E2%80%932009\)) with this car.
+Games,ff5wcp6,t1_ff5cdgy,1579612455.0,I've done this multiple times. Also works great with Rock and Crystal ships.
+northkorea,ff5voe6,t1_ff5vdc0,1579611832.0,"Where do I even start?
+
+Crimes against humanity:
+
+https://www.hrw.org/news/2019/01/17/north-korea-no-justice-human-rights-crimes
+
+https://www.bbc.com/news/world-asia-44234505
+
+Abductions:
+
+https://www.newyorker.com/news/news-desk/north-koreas-abduction-project
+
+Cybercrime:
+
+https://arstechnica.com/tech-policy/2019/09/us-sanctions-north-korean-hackers-for-wannacry-and-dozens-of-other-attacks/
+
+Human trafficking, smuggling, organized crime, counterfeiting, terrorism, etc. You name it, they've done it:
+
+https://en.wikipedia.org/wiki/North_Korea%27s_illicit_activities
+
+Have you never heard of any of this?"
+northkorea,ff5uthx,t1_ff5swkr,1579611011.0,"It is well known that North Korea acquires foreign currency for weapons luxuries for their elite via tourism (this includes the sale of trinkets to foreigners), various often illegal businesses conducted by their foreign embassies and activities like hacking. Your mockery is completely besides the point. It's just not advisable to conduct any sort of business with a criminal regime like North Korea."
+gamedev,ff5pnlx,t1_ff5lmty,1579604988.0,"> Basically the most outdated and tedious possible way to program anything
+
+I'd argue that physically wiring program logic or manually flipping bit-switches is more outdated and tedious, but perhaps I'm looking too far back into the past."
+gamedev,ff5ph4x,t1_ff5iaem,1579604731.0,Have they added occlusion culling yet?
+pcgamingtechsupport,ff5p5i4,t1_ff4n626,1579604264.0,That's how it should be. The cooling system is definitely working as intended.
+northkorea,ff5p3l1,t3_ers0gw,1579604188.0,"If you don't want to send money to a murderous regime so that they can spend it on Swiss chronographs or nuclear weapons, just find high quality scans and get them printed somewhere or buy cheap prints that do not claim to be from North Korea."
+WeirdWings,ff5ovaw,t1_ff5inj3,1579603848.0,"This kind of thinking (which was, of course, based on objective reality) resulted in a ton of friendly fire incidents during the Ardennes offensive. German anti-air guns shot down their own aircraft, thinking that it was impossible for their side to field that many planes at once. Fearing leaks, the offensive was kept secret even from frontline AA-crews."
+whatisthiscar,ff5opud,t3_ermvpy,1579603627.0,Anyone else find it funny that the cover on the Bricklin is secured by a brick?
+de,ff5jtla,t1_ff3esi8,1579596261.0,"Du hast den Chromecast vergessen. Immer noch die unkomplizierteste Methode, Dinge auf dem TV abzuspielen."
+pcgamingtechsupport,ff42u04,t3_erixdh,1579554324.0,"Researching your variant of the 1080, it seems like you bought a particularly loud version of this GPU. You are not the only one complaining about it. My 1080 is completely fine and produces less noise than the 960 it replaced.
+
+There are things you can do to make the noise less noticeable. Position your PC under your desk instead of on top of it, choose an all-metal case instead one of the fashionable ones with a pointless window on it. Add sound insulation to the case. 
+
+You can also adjust the fan curve so that the fans kick on later (but this has the downside of higher temperatures, so be careful). You could clock it slightly lower so that it produces less heat, requiring less work from the fans, resulting in less noise."
+architecture,ff2wgmt,t1_ff2q62e,1579526746.0,"> It is an anonymous monolithic tower built to feed corporate greed.
+
+Then why do you, with your years of experience and knowledge, write nonsense like this? There is nothing anonymous about this building; it's incredibly well proportioned and sophisticated. Notice how your eye wonders up the building, following a path laid out by terraces that break up the clear structure of the facade. Pay attention to the simple, but elegant arcades at the bottom and the detail on the wall next to them. 
+
+> If you took the name tag off this building, i'm sure you wouldn't have looked twice at it, let alone post this.
+
+If this building were brand new, built right now, it would still be a nice looking office tower. Not as spectacularly new and innovative as back in 1922, of course, but still far above average even by modern standards.
+
+My main issue with your statements is not that you have an opinion that is different from mine. You are free to not like this style of architecture and you are also free to criticize its social impact. What I - and looking by the number of downvotes you have received, many others on this subreddit as well - do not appreciate is shrouding your personal opinion in a cloak of moral and factual absolutism. Don't do that. It's the kind of arrogance that is sadly typical of many students and that *will* cause issues in your future career if you don't invest some time into a little introspection and put a stop to it now. I've fallen victim to the same kind of hubris before, so please listen to this friendly advice.
+
+I'm also surprised by your remark about ""corporate greed"". This was for the offices of a newspaper. With free press being one of the cornerstones of democracy, how can you say something this crass about this building and its intended use?"
+architecture,ff2pfkt,t1_ff2f7fg,1579517836.0,"Can you tell me what you are doing on this subreddit? You are obviously not interested in architecture and neither are you knowledgeable about this subject or you wouldn't post comments as ignorant as this one. Instead, you are trying to use this subreddit as a soapbox."
+HistoryPorn,feznsza,t1_fezm1zr,1579459447.0,"""... and then I followed it up with a mean left hook!"" - ""Sure you did, Willy..."""
+600euro,fey5ca4,t1_fey5a42,1579441016.0,Kleinvieh macht auch Mist.
+600euro,fey528z,t1_fexvlo3,1579440889.0,Glaube für hochrangige Regierungsmenschen werden sich wohl ein paar Sprachexperten finden lassen. Prioritäten können gesetzt werden.
+webcomics,fexighz,t3_eqtb30,1579431527.0,There are games that do this automatically without telling the player.
+TheWayWeWere,fevdu97,t1_fevcytp,1579396278.0,That's just the name though. It has no relation with the original Woolworth.
+TheWayWeWere,fevcb7a,t3_eqjb22,1579395733.0,Woolworth is still around in Germany and Austria. This subsidiary survived the downfall of its American parent company.
+photography,fet9b7e,t1_feswup1,1579372913.0,"It's perfectly possible to be anti-communist without being right-wing. Not to mention, the days when this network was fighting against communism are long over."
+photography,fesvg41,t1_ferxvxw,1579369417.0,"They do not have a right-wing bias, but they do occasionally publish propaganda:
+
+https://mediabiasfactcheck.com/radio-free-europe-radio-liberty/
+
+This is not one of those cases, however. The article is perfectly fine."
+gaming,fesrrj7,t1_fesrfpq,1579368336.0,The original version of the game was developed for the Dreamcast. I suspect it's surprising to many that Sega's system was also capable of accessing the Internet (although it was far from the first one).
+gaming,fesh35n,t1_feps1zy,1579365015.0,"There aren't any better headsets by then, but it's very pricey and its controllers in particular are not universally supported by other games. Expect to run into at least some issues outside of HL Alyx. Another downside is the rather complicated setup process.
+
+Inferior, yet much cheaper VR hardware that is easier to set up and, frankly, good enough can be bought for a tiny fraction of the price of an Index. Spending a thousand dollars or more on a VR headset (without the PC that can run it) is a big commitment, too big in most people's eyes. WMR headsets in particular, which can be found for as little as a tenth as the price of Valve's headset, are perfectly fine and scored well in a recent comparison of VR headsets with a pre-release version of HL Alyx:
+
+https://www.youtube.com/watch?v=T54aGkkXfuc&t=1677s"
+gaming,fesekze,t1_fes0aya,1579364392.0,"These totally exist. The most common way of doing this is via a keyboard that attaches to a normal controller:
+
+[Exhibit A](https://i.imgur.com/R1BldLS.jpg)
+
+[Exhibit B](https://i.imgur.com/UxSAfty.jpg)
+
+But there are also controllers that are pretty much exactly like this. The most famous example would be this Gamecube controller, which was specifically designed for an MMO that ran on the system, Phantasy Star Online:
+
+https://i.imgur.com/7k8H9Uo.jpg
+
+You can still totally play this game today - even on Gamecube - using private servers.
+
+Here's a modern equivalent of this keyboard for Nintendo Switch (standard joycons are attached to the keyboard):
+
+https://i.imgur.com/azTkfRh.jpg
+
+There's also a smaller alternative:
+
+https://i.imgur.com/3PEWcDb.jpg"
+todayilearned,fes87a0,t1_fes0yid,1579362426.0,"This reminds me of when some Republican demanded that people speak ""American"", only to receive an answer in a native American language."
+whatisthiscar,feovaf1,t3_eq1gc4,1579306178.0,"This is definitely a British license plate, pre-1932. These consisted of one or two letters (obscured in this photo) and a four digit number. The clothes of these gentlemen also fit the time and place.
+
+I haven't been able to identify the car yet, but the grill looks really familiar.
+
+Edit: I'm almost entirely certain it's a 1923-1928 Standard 14hp. See this vintage ad:
+
+https://www.alamy.com/stock-photo-original-1920s-vintage-print-advertisement-from-english-magazine-advertising-51388466.html"
+whatisthiscar,feoucxd,t1_feo9a3v,1579305634.0,This looks nothing like a Model T. Every single detail is different.
+badhistory,fen0i4z,t1_femzqab,1579274223.0,"This is true, but the matter is a bit more complex: Most of these companies would not have been competitive outside of the socialist economic system. Like with all socialist countries, economic figures were exaggerated to a ridiculous degree (in order to look better and to secure Western credit, which was desperately needed) and unprofitable industries were heavily subsidized. After reunification, it became evident in just how poor of a state most of the economy truly was.
+
+There were exceptions, companies that were innovative, productive and had a great outlook. Some of them thrived, some of them were indeed sold off for a nickel and dime, some of them remained, but all of them had to change, often quite drastically.
+
+One example is a factory for strollers in Zeitz (Zekiwa). Pretty much the entire economy of this town depended on this production facility and when it had to be outsourced in order for the firm to stay competitive (because it makes no sense whatsoever to produce these kinds of products in Germany), the town became one of the poorest and most desolate in all of Germany."
+de_EDV,femzjn2,t1_femeu66,1579273582.0,"> Ich bin mir jedoch nicht sicher, ob die Audio-Möglichkeiten ausreichen.
+
+Tun sie nicht. Tonqualität ist eine der größten Schwächen beim Pi, auch beim neusten Modell. Wenn man brauchbare Tonqualität will, muss man [nachrüsten](http://raspberrypimaker.com/cheap-quality-audio-raspberry-pi/).
+
+Normales Windows läuft eh nicht drauf (nur embedded) und die Performance is zu bescheiden in der Praxis, außer für sehr anspruchslose Anwender. Würde eher nicht dazu raten."
+badhistory,femy84o,t1_femxyee,1579272677.0,"I never implied they were. Still, I should have at least mentioned this.
+
+Adjusted for inflation (US$ inflation), the 1989 figures would be almost exactly twice as high (x2.03, if we go by June 1989 and June 2018)."
+RetroFuturism,femwxfy,t1_femws83,1579271755.0,"My pleasure. I think you'd enjoy this lengthy video of Jay Leno geeking out about his DS:
+
+https://www.youtube.com/watch?v=kzW_ERSgFRY
+
+The suspension was only part of what made it special."
+RetroFuturism,femwl0b,t1_femvpz7,1579271499.0,"If you've never seen a DS: This is how they park. After turning the ignition on, the hydropneumatic suspension system is being pressurized and the car can be risen up:
+
+https://youtu.be/x5gds6alUy8?t=48
+
+You can even change a tire without a tire jack: Just raise it to the highest position and remove the tire - the car will be stable and can even be driven on three wheels in an emergency (which saved Charles de Gaulle's life when his unarmored DS was peppered with machine gun fire). It is generally known to be one of the most effective suspension systems ever devised:
+
+https://www.youtube.com/watch?v=ghUInp1JBRo
+
+At higher levels, the DS has enough suspension travel for terrible roads. It won the 1966 Monte Carlo Rally (likely because the Mini team was disqualified, but still). Footage from various rally competitions:
+
+https://www.youtube.com/watch?v=L3XACjeGmFc"
+WeirdWings,femvst4,t3_epyy4q,1579270926.0,Looks quite mean for a trainer.

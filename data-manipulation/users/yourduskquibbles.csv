@@ -1,0 +1,56 @@
+subreddit,self ID,parent ID,time,text
+YouShouldKnow,ff26eyf,t1_fehobxi,1579495120.0,"> Just wondering why you don't list Adblock Plus? It took me a while to figure out that the one-click install link would work since it only mentions uBlock Origin.
+
+Adblock Plus, atleast at the time of list creation doesn't provide the compatibility for the [extended uBO filter syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#extended-syntax) that is used throughout a lot of the list to help with cosmetic site adjustments.
+
+Even without that, some filters in the list would be loaded properly (mainly newletter subscribe filters and social media share filters) but it's possible websites could be buggy and not display properly using Adblock plus without the uBO extended syntax so it is not recommended for that adblocker."
+YouShouldKnow,ff2657y,t1_feqlf8w,1579494892.0,"> I have copied the link and pasted it in a custum filter in addgard. It says it has been enabled. Did I do it right?
+
+That should do it if you are using the [`raw txt link`](https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt). It should also be available as a default filter list that you can enable in Adguard under the 'Annoyances' filter section of adguard."
+uBlockOrigin,feexjuw,t3_eojcx1,1579043393.0,"Get the DOM branch further up IMO - try this which seems to be named after the size and placement of the overlay
+
+`wunderground.com##snack-bar-container`"
+YouShouldKnow,feeji54,t3_enkhsq,1579035014.0,"Maintainer of this list here, feel free to let me know your feedback if you are having any issues after installing.
+
+Thanks for checking it out, and the original post recommending the filter list!"
+uBlockOrigin,fdreumd,t1_fdr4gmn,1578683599.0,"Try adding these additional filters with the filters I [posted up above](https://old.reddit.com/r/uBlockOrigin/comments/emdovh/yahoo_webmail_again/fdqzath/):
+
+    mail.yahoo.com##.O_0, [data-test-id=""pencil-ad-messageList""]
+    mail.yahoo.com##[data-test-id=""pencil-ad-messageList""]:nth-ancestor(2)
+    mail.yahoo.com##[data-test-id=""comms-properties-bar""]:style(padding: 70px 4px 0 4px !important;)
+    mail.yahoo.com###Atom .E_6Fd5, [data-test-id=""icon-btn-tap_to_top""]
+    mail.yahoo.com##[data-test-id=""virtual-list""] li:style(position: relative !important; top: 0 !important;)
+    mail.yahoo.com##[data-test-id=""mail-reader-sticky-header""]:style(position: static !important; top: 0 !important;)
+    mail.yahoo.com##[data-test-id=""virtual-list""]:style(overflow-y: hidden !important;)
+    mail.yahoo.com##[data-test-id=""mail-reader-list-container""]:style(display: block !important; overflow-y: scroll !important;)"
+uBlockOrigin,fdqzath,t3_emdovh,1578677270.0,"I love working on stuff like this... Besides the Web Annoyances Ultralist[0] that I maintain I've also made a filter list for my own use for a condensed gmail inbox[1] after their 2018 redesign so I know how you feel. 
+
+All that being said, how does it look after adding the following filters to `My Filters` for what you are trying to accomplish? 
+
+    mail.yahoo.com##.Z_qc, [data-test-id=""comms-properties-bar""]:style(display: flex !important; -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important; -webkit-box-flex: 1 !important; flex-grow: 1 !important;)
+    mail.yahoo.com##.r_P.C_ZamTeg.cdPFi_ZamTeg.ab_C.D_F:style(position: absolute !important; top: 4px !important;)
+    mail.yahoo.com##[data-test-id=""comms-properties""]:style(display: flex !important; -webkit-box-orient: vertical !important; -webkit-box-direction: normal !important; flex-direction: column !important;)
+    mail.yahoo.com##[data-test-id=""comms-properties""]>* , [data-test-id=""icon-btn-settings""]:style(margin: 14px 0 0 0 !important;)
+    mail.yahoo.com##[data-test-id=""comms-properties-bar""]:style(height: unset !important; padding-top: 70px !important;)
+    mail.yahoo.com##[data-test-id=""right-rail-hidead-btn""],[title=""Hide Advertisement""]
+    mail.yahoo.com##[data-test-id=""right-rail-ad""]:nth-ancestor(1)
+    mail.yahoo.com##[data-test-id=""settings-link-label""]
+
+
+
+Screenshots of what it should like:
+
+Before: https://i.imgur.com/3ZQwoNk.png
+
+After: https://i.imgur.com/i90avYC.png
+
+
+^[0] ^Web ^Annoyances ^Ultralist: ^https://github.com/yourduskquibbles/webannoyances
+
+^[1] ^Condense ^Gmail: ^https://github.com/yourduskquibbles/condensegmail"
+uBlockOrigin,fbay76m,t3_ecd6id,1576689330.0,"Can fix with ONLY cosmetic filters by adding the 2 following filters
+
+`tagesanzeiger.ch###tamovl-page-wrap`
+`tagesanzeiger.ch##body:style(position: unset !important; overflow-x: hidden !important; overflow-y: scroll !important; user-select: text !important;`
+
+or update `uBlock Filters`, those have been added"

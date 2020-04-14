@@ -1,0 +1,64 @@
+subreddit,self ID,parent ID,time,text
+HTML,ff7fgtp,t3_es1jjb,1579648331.0,"Check [this](https://jsfiddle.net/g7103sy5/) out. 
+
+First off you want to make sure your script is at the bottom of the html or linked at the bottom and in a separate js file. Also, avoid starting off an id or class with a capital, use camel casing when needed. 
+
+Another way I cleaned up your code is making the character variable one string instead of an array. Much easier to type out and deal with. From there all I did was create a function to produce a random integer and use that integer to pull a letter from the chars string I built. I also added a text box to display the result as prompts and alerts halt your script and aren't really viable in real world applications. Also I am no expert I just started learning JS a few weeks ago but I hope this helps!"
+HTML,femy7b9,t3_eq189c,1579272661.0,"There are a lot of factors that go into positioning a div. Each div itself has content, padding, a margin,and a border. You should look up the case box model to understand this concept better. That being said it really depends on what exactly you're trying to position. You really should take a lesson or watch a few videos about css if you're having trouble positioning."
+HTML,fehh2wh,t1_fehg4it,1579116393.0,"The spacing is just for organizational sake you could write all that html on one line and it would look exactly the same on a web page, just extremely difficult to understand. I'm not sure I exactly know what you mean but if you want rows that are empty just don't put anything in the <td> elements"
+HTML,feheu2y,t1_feghzst,1579115081.0,Take a look at [this](https://jsfiddle.net/jepz6Lqt/). If you have never used bootstrap before you should go on their website and read about their grid system a little more. By linking to the bootstrap css in the head I am able to use classes to automatically apply the css needed to position the divs. You can then override or tweak the css with your own css file (that must go below the bootstrap file in the head) to tweak the style and positioning. Also its good practice to put your script at the very bottom of the body element right before the closing tag.
+HTML,feggvon,t1_fegd1z0,1579092348.0,This is just a guide you can change the amount of table items accordingly.
+HTML,fefmz7p,t3_eouhs2,1579059841.0,"I would use bootstraps grid system to create 2 column divs and and split the table between the two. Something like this;
+
+    <div class=""container"">
+            <div class=""row"">
+                <div class=""col-sm-6"">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class=""col-sm-6"">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    
+        </div>
+
+you would have to link the bootstrap css file in the head."
+selfimprovement,fedib2p,t1_fedhnom,1579012248.0,"No problem bud, and if it helps, in my experience, the late bloomers end up being the successful ones."
+selfimprovement,fedh7y9,t3_eoloed,1579011443.0,"I remember feeling exactly like you at your age. I know you probably think about girls for inappropriate periods of time, but the truth is youre 13 odds are youre not running in to your wife anytime soon. That being said there is nothing wrong with having interest or pursuing girls, just know you have a lot to learn and you shouldn't worry too much about not being able to find a girlfriend. If youre feeling lonely spend some time with the boys or try to improve existing relationships you have. Trust me if you focus on yourself and creating happiness independent of any girl youre going to find you wont have to put so much effort in to pursuing a partner. Best of luck to you man. I know its a cliche but if you really put the time and effort in to work on yourself it will get better, and if youre feeling upset maybe try opening up to a friend, just probably not the one you mentioned, it could help grow your relationship with them as well as hold some cathartic value."
+webdev,feao00x,t1_feak41u,1578950728.0,This makes much more sense. I spent an hour pseudo coding but just couldn't figure out the structure. much appreciated!
+HTML,fdyx7wp,t1_fdwbsyv,1578784474.0,this worked! thank you
+HTML,fdxkwrx,t1_fdwbnl2,1578769953.0,not sure what that was there wasn't in my code
+selfimprovement,fc82jfp,t3_egez9w,1577525206.0,I have an ex with a large social media following like 10k plus and she had nothing but awful things to say about me to her friends and social media even though she was the one who cheated and ulitmately ended the relationship. I have her blocked at this point but people still felt the need to show me her posts I've since blocked anyone who feels the need to do that and yea maybe my reputation is damaged but it honestly feels way better taking the high road. IMO if I see anyone talking about their ex on social media it comes off as pretty weak and desperate. Keep your head up man. Just worry about you and you'll be fine. Shes doing this to save face and because shes clearly not over you.
+EntitledBitch,fblra58,t1_fbl81m2,1576968240.0,This isn't even a truck. Honda Elements have about as much utility as a sedan.

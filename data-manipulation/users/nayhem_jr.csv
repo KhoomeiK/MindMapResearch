@@ -1,0 +1,186 @@
+subreddit,self ID,parent ID,time,text
+nottheonion,ffb6w8m,t1_ff9j7ws,1579753408.0,RIP Terry Jones
+techsupportgore,ffb1u1r,t1_ffanbvs,1579749678.0,Atiecs
+photoshop,ffaxsmg,t3_esly1z,1579746971.0,"What color space does your camera use? It's fine to start in Adobe RGB or ProPhoto RGB, and usually recommended to convert to sRGB during export, unless your output devices support something better.
+
+Is your camera profile in Lightroom or ACR applying unwanted desaturation? For whatever reason, my camera's import profile does so. This is separate from all of the other color management you already have to worry about."
+todayilearned,ffar1t1,t1_ffa1ea0,1579742487.0,"The password was ""BEEF WOMEN,"" Hermione cried."
+todayilearned,ffaqv05,t1_ffaoxir,1579742359.0,"Stolen, according to another comment"
+food,ffakj7g,t1_ff9el89,1579738028.0,Skin crispily flaking apart like my poor heart
+gadgets,ffajvja,t1_ff8ts1k,1579737547.0,How are they supposed to sell your consumer data if you keep blocking access? Why won't you comply?! ^/s?
+mildlyinteresting,ffaeub7,t1_ffa9erv,1579734035.0,"Seems to be missing from there, too."
+photoshop,ffacd10,t3_esggas,1579732208.0,"Exporting a GIF? If you started from a video, you might have better luck just exporting video using the Video Timeline (not Frame Timeline). (Much better to use After Effects instead.)
+
+Might also try exporting frames as layers, and generating video using something like ffmpeg or ImageMagick.
+
+If you started with a GIF, try using the filter on an image containing colors from your color table, save the results to a new color table, and swap that into your GIF."
+photoshop,ffaaarx,t1_ffa8jfx,1579730963.0,"4k resolution is 3840×2160 pixels.
+
+How many screens does it use? Or better yet, what is the brand and model number of your system?"
+photoshop,ffa8f2m,t1_ffa7ir8,1579729899.0,How many pixels does your LCD wall use?
+photoshop,ffa6usd,t1_ff9zk91,1579729024.0,Maybe I'm in the wrong line of business!
+photoshop,ffa6fbf,t1_ffa4rys,1579728789.0,"Doesn't matter—it isn't print. The LCD wall has pixel dimensions. Maybe some multiple of 1920×1080?
+
+If you must insist, you'd have to measure the physical dimensions of the LCD screen, divide pixel dimension along one side by its physical dimension to get pixels/inch."
+photoshop,ff9vm33,t3_esf8ea,1579722473.0,"PS refers to width and height as dimensions, while you may see these referred to as ""resolution"" elsewhere. Use whatever dimensions you need to get the job done. Personally, I use a canvas size where I can comfortably draw linework with an 8px brush, and scale down the image during export. The default round brush is fussy below 4px, and there's an annoying jump in size from 10 to 15px when using the [ and ] hotkeys for changing brush size.
+
+Pixels have no arbitrary size. Photoshop can set a PPI (pixels/inch) value for resolution, not DPI (dots/inch). This affects few things within PS itself: relative font sizes, sizing of placed images, any other measurements based on non-pixel units. Resolution mainly affects how large an image will print, but printers may ignore PS' value and use their own (e.g. borderless printing, fit to page).
+
+It is common to see images with 72 ppi, even though it has no actual effect when viewing on a screen. Handheld prints are often made at 300 ppi. You can use less resolution for works meant to be viewed from farther away, such as posters or billboards. I usually start with 480 ppi, 8×4.5 inches to start at 4k and scale down to full HD.
+
+PS cannot directly control how toner/ink dots are placed on a page, and so has no use for any DPI (dots/inch) value. Printers specify DPI, and you generally want more DPI than PPI to get smoother, more detailed prints."
+mildlyinteresting,ff7r8ul,t1_ff7i5rn,1579656416.0,Check if your library has a makerspace!
+mildlyinteresting,ff7r7vf,t1_ff7h2je,1579656396.0,Some of these new small-scale CNC routers are pretty impressive.
+GetMotivated,ff7qsvg,t3_errfpn,1579656104.0,"""Cousin, let go of bag! We go bowling and pick it up later. Or leave be."""
+techsupportgore,ff7qmlq,t3_erpyd7,1579655983.0,What caliber is it?
+photoshop,ff7pkar,t1_ff7ily1,1579655235.0,"Whether your printer can actually print the image with the detail desired depends on its print resolution [(dots/inch)](https://en.wikipedia.org/wiki/Dots_per_inch), and whether your paper stock can hold ink without smearing or bleeding (supposing you are using an inkjet). The dots/inch (DPI) value should exceed the pixels/inch (PPI) value, or else you may wind up with each dot taking up the space of multiple pixels."
+photoshop,ff7oazx,t3_erzrcn,1579654351.0,Some of these shortcuts are hard-coded. The engineers apparently know better than you how you want to interact with PS.
+photoshop,ff7mt4w,t3_es3a40,1579653301.0,"The hidden Stamp Merged command (Ctrl+Shift+E) should be able to make a copy using a regular layer, and you can just hide the smart object. 
+
+If you’re absolutely certain you don’t need to adjust the smart object anymore, and you have a backup available in case you’re wrong, you can rasterize the layer."
+todayilearned,ff7antg,t1_ff5p9w7,1579644789.0,"Probably started with US, back when the USSR was busy in the area. Tables turned and its Russia pumping in to make US efforts suffer,  tarnish the prestige. Nothing direct, just the same war-by-proxy activities since at least WW2, along with what can be wrested from less-successful parties (fellow rebel groups, the defeated). Tack on other aspirants like Iran, Pakistan, Saudi Arabia, non-states. There might even be some Chinese munitions flying around.
+
+Everyone that has had dreams of peace and prosperity in this part of the world have thus far proven squishy or meek, while the warmongers continue cashing in."
+AskReddit,ff55bpw,t1_ff4ja4d,1579580659.0,"""Epstein? The writer? What made you think–
+
+""… wait, what?!"""
+todayilearned,ff53ntb,t1_ff51nkz,1579579340.0,"I don't know, that documentary *Robin Hood: Men in Tights* doesn't quite cast them in a saintly light."
+todayilearned,ff5365t,t1_ff4xkhp,1579578963.0,C S A! C S A!
+todayilearned,ff52h3p,t1_ff51go3,1579578427.0,Better be real cunning to go after your own leadership.
+todayilearned,ff51b9f,t1_ff50v9q,1579577550.0,"The Taliban, for one. Smart, well-meaning people are choice targets for any authoritarian regime."
+sysadmin,ff4zxba,t3_ero9na,1579576529.0,Any early indications that the job might be troublesome?
+bayarea,ff4rqc9,t1_ff41c2z,1579570851.0,Explains all the foam
+gifs,ff4g76d,t1_ff469p6,1579562841.0,Get that education!
+todayilearned,ff2vfs8,t1_ff2nmr8,1579525691.0,"It’s surprising how staunch “experts” can be when they’re convinced they have all the knowledge. The doctor who first suggested washing hands after handling the dead and diseased was driven out in disgrace—how dare he suggest that doctors were not inherently free of disease!
+
+Though we’ve advanced our knowledge of HIV and AIDS (thanks to Princess Diana and many other brave people), there remain plenty of other problems that stupid people think they can defeat with ignorance. Part of the problem is we keep electing them to power, or giving them airtime and other access to mass communication."
+todayilearned,ff2uuhd,t1_ff2gke7,1579525054.0,"**H**uman **I**mmunodeficiency **V**irus - this is the virus that can be transmitted through blood transfusion, infected needles, sexual contact, and congenitally from birth. 
+
+**A**uto**i**mmune **D**eficiency **S**yndrome - this is the latter stages of an HIV infection, after the virus has weakened the immune system, allowing even mild illness to overwhelm."
+UpliftingNews,ff200pp,t1_ff1m9pn,1579490196.0,and really shouldn't have cost that much in the first place
+UpliftingNews,ff1zojh,t1_ff1w94j,1579489951.0,"Or perhaps the debt was sinfully overvalued to begin with, and those of us paying ""full price"" for healthcare are being fleeced.
+
+No love for the debt collectors, but if this is what it takes to get healthcare without bankrupting the next two generations, maybe we're in dire need of reform."
+gifs,ff1w6pv,t1_ff15pio,1579487559.0,More muscle in that odd part of the elbow than I have on my legs.
+AskReddit,ff1s03o,t3_er4ahs,1579484880.0,"Not sure I agree with your premise, but it would likely come down to record label marketing, and the record labels will gladly assert that *they're* more important than the artists and other talent.
+
+Meanwhile, the audience puts a lot of emphasis on singers, sometimes to the detriment of the songwriter and other performers. Penultimately, it's the singer's voice we're most likely to identify (after the lyrics, I'd argue).
+
+Quite a few of us aren't even sure what a producer ""produces""; they are a *record* producer—they produce the recording. These days the role seems to be confused with composer and performer. If a producer does get famous, it's usually because they produced for a variety of successful artists."
+WhatsWrongWithYourCat,ff12pr9,t3_eqzt01,1579474652.0,Your other left
+todayilearned,ff0xie2,t3_eqz0wj,1579473276.0,/r/theocho
+todayilearned,fezv5qv,t1_fezlmfe,1579462066.0,"My only objection to cursing is how it cheapens language and thought, and thus turns troubles into a vague hatred. I guess somewhere along the way, the idea of avoiding cursing wandered from ""be specific about what is troubling you"" to ""you're not allowed to be mad or rude""."
+nottheonion,fezruiw,t1_fexysy0,1579460840.0,"Anthony Bourdain was a big proponent of this, and stated it in pretty much this way."
+BattlefieldV,fezoh3n,t3_eqwdxl,1579459680.0,"Not much to learn from Task Manager. Look at Event Viewer > Windows Logs > Application around the times BFV crashed, see if there is a record containing an error code, and follow the clues.
+
+Might point towards a faulty driver."
+techsupportgore,fext458,t3_eqoffs,1579435604.0,The smell is fucking horrible!
+tvtropes,fexrngv,t3_equ5ky,1579435104.0,"There’s BJ Blazkowicz from the *Wolfenstein* video games, Fievel Mousekewitz from *An American Tail*."
+photoshop,fex7od5,t3_eqtm41,1579426252.0,"For the most part, the first photo just looks shot with lower exposure than the second photo. Underexposing allows you to capture more detail in the snow, detail that would otherwise be clipped to white. The train in the first photo also seems to be burning dirty for train reasons (heavier load? steeper incline? lower quality fuel?).
+
+This happened before the photos were imported to Photoshop. If you shoot well, you don't need to edit at all."
+AskReddit,fevhv8a,t1_fevexd0,1579397653.0,RIP Breyer's Coffee
+AskReddit,fevhe23,t1_fevaxg7,1579397470.0,The US used to have the largest navy in the world until they switched to NWU Type III. Now it's just a bunch of officers and their lonely ghost ships.
+AskReddit,feveqfr,t3_eqlvt4,1579396506.0,"— ""It'll cost $10 to disable the warning that we don't–""
+
+— ""Holy shit! $10?! What sort of money factory do you think we are?!""
+
+— ""As the CIO, answering the question you asked me …""
+
+— ""C-I-E-I-O, and *fired* is your name-o!"""
+gadgets,fevak6p,t1_feu1wy0,1579395143.0,"Eye tracking might be up to snuff, but most people can't focus on an image that's sitting on their eye. I'm very nearsighted, but still can't focus on anything closer than a hand's length away. Unless this thing is highly directional with its projection (assuming that is what it is doing), I'm not sure that the image would be useful."
+UpliftingNews,fev8a1v,t1_feppona,1579394378.0,"> “Promise has two meanings to it; one of the meanings is if you say you are going to do something you’ll do it, and the other meaning is hope and the mission of finding life on Mars shows lots of hope,” Allen said."
+gifs,fev7ina,t1_feuzw11,1579394085.0,"previous poster, but I'm sure there's a less pissant abbreviation"
+television,fev79l0,t1_feurz1f,1579393970.0,"Possibly, but those shows are still somewhat scripted. None of those are free-for-alls, despite appearances."
+battlefield_one,feurn8k,t3_eql62t,1579389313.0,Shame we never got the carrier airships.
+techsupportgore,feuraty,t3_eqjooj,1579389215.0,I admire that BIOS is keeping with the theme.
+bayarea,feuq7ly,t3_eqknf9,1579388965.0,"Are we downvoting the kid because they're too young to know about TV antennas, or regret over our old age?"
+gifs,feuntz0,t1_fets57m,1579388359.0,"Not all of the time. There’s cloud-to-cloud lightning like PP suggests, and also infrequent ground-to-cloud lightning."
+todayilearned,feuguox,t1_feswvnt,1579386449.0,But the cougar survived.
+IAmA,feue8gg,t1_fettebq,1579385673.0,"""This is precisely why we need to arm the children so they may defend their Second Amendment rights!"" — NRA"
+IAmA,feudg89,t1_fetq10g,1579385515.0,"I can sympathize with parents feeling helpless, but adding yourself to the body count, and making yourself a target to both the assailant(s) *and* police that may be gunning for them? That's getting Darwinian."
+photoshop,feub1jl,t1_feu370s,1579384895.0,"Is the Pen tool set to ""Combine Shapes"" mode when you are creating the path? This is what Keith was suggesting back at the start."
+wholesomeanimemes,feu9kc7,t1_fermwna,1579384475.0,🍰
+AskReddit,fetd5tj,t1_fes9rew,1579374105.0,"Everything mentioned prior is definitely on the money for ""8 hour popular"". All of the conventional tastes return by ""1 week"".
+
+I don't usually have to program adblock element blocking rules."
+todayilearned,fepestu,t1_fep91f3,1579318716.0,"No, you're thinking of the Hague. And that's supposing Vlad lets things get that far."
+todayilearned,fepct2w,t3_eqakgr,1579317360.0,You can see them in action on [Journey to the Microcosmos](https://www.youtube.com/channel/UCBbnbBWJtwsf0jLGUwX5Q3g).
+todayilearned,fep6cvp,t1_fep09ce,1579313135.0,"Carbon dating is only reliable to 50,000 years ago."
+techsupportgore,fep5i7l,t3_eq07s2,1579312584.0,"""You spilled t . . . hermal paste?"""
+photoshop,fep43mf,t1_feoql2z,1579311690.0,I do wonder what the /r/accidentalartgallery folk think of this illuminated work.
+science,feoh8vx,t1_feo9bxk,1579300087.0,Apparently not injecting straight into the placenta.
+photoshop,feogf8p,t3_eq7eui,1579299796.0,"Usually starts before Photoshop, checking that your subjects are in even lighting. The bright areas might not have salvageable detail, especially if this is already JPEG."
+photoshop,feoc0sm,t3_eq1c8v,1579297970.0,Have you updated your GPU driver?
+techsupportgore,feo6p0a,t1_fenfe2a,1579295874.0,Had to pull a bunch back into service after EliteDesks started giving out with mobo failures a week after extended warranty.
+photoshop,feo4ztc,t1_fenknex,1579295184.0,"There's a dropdown selector for path operations in the toolbox (Combine, Subtract, Intersect, Exclude). When you select the path, it will show which operation the path uses.
+
+You can also press numpad plus for Combine, numpad minus for Subtract, and numpad asterisk for Intersect."
+photoshop,femgb6s,t3_epvaqm,1579254015.0,Did your GPU give up without warning? You’ll see in Edit > Preferences > Performance that advanced options aren’t available. An OS restart should bring it back up.
+HumansBeingBros,fem8r5f,t3_epw4a1,1579243905.0,/r/outoftheloop is pretty helpful when you come across some redditry you don't comprehend.
+gaming,fem68wt,t1_fem65vn,1579241223.0,#SUPER
+gaming,fem68w6,t1_fem665i,1579241222.0,#SUPER
+techsupportgore,fem5dma,t3_epvprn,1579240341.0,"`""Ooh, harder, admin!""`"
+food,fem3995,t3_ept9sb,1579238303.0,Magical bowl of bibidi babidi boo
+nottheonion,fem0s34,t1_feltm1j,1579236076.0,PM again?
+photoshop,felz4yz,t3_eptqdl,1579234701.0,Your image just doesn't have enough detail. Much of that text is one pixel high—you're literally asking what letter a square represents.
+photoshop,feldevo,t3_eprzcp,1579219561.0,"PS has a pattern feature. You can see the “cell” containing the LV and each of the other symbols. Just replace the one instance of text, select the cell with Rectangular Marquee, use Edit > Define Pattern, and you can have your own counterfeit bags ;)"
+science,feld14w,t1_fekywlk,1579219304.0,Throwing it back out to be retrieved again? Well that’s just right out!
+photoshop,fel2ft6,t1_fek3tab,1579212603.0,"If your outermost or ""bottom"" path is in Subtract operation, this causes the entire canvas to be selected by default, minus the path.
+
+Check the operation in both your Pen tool (new paths) and the Direct/Path Selection tool (selected path).
+
+And every once in a while, PS just gets confused, and you have to cut and repaste the paths to get things back in order."
+photoshop,fekyjcu,t1_feku3qi,1579210259.0,"Yes, the ripples at that range look more like noise than strokes. Realistically, there [isn't a discernible reflection](https://www.google.com/search?tbm=isch&q=distant boat) because the bright sky has outshone it."
+aww,fejcahi,t1_feh3k88,1579166836.0,"Sylvester and all the canned food, but no can opener"
+photoshop,fejbxqw,t1_fej63lg,1579166300.0,"> If you're an American, I guess they want you to pay the full price without the Balkans discount.
+
+Adobe isn't nearly as bad about this as the health industry!"
+photoshop,fejbklb,t1_feivhfm,1579165756.0,"In my experience, it's just a tough job. The Brush tool takes a lot of training (and a graphics stylus) to do well. The Pen tool is great at sharp lines, but also tedious when you need a lot of linework. If you have Illustrator (or Inkscape), it might be easier to just do linework there.
+
+If you're sticking with Photoshop, I do recommend scaling up your work, and scaling back down to final size during export. Brush strokes clean up very well, and paths are easier to work with when you have more space.
+
+For complex linework, scaling up also gives the ""Create work path from selection"" command a better chance. In the Channels panel, you can Ctrl+click the composite (RGB) channel to get a selection of the bright parts of the image. Invert this selection, convert it to a work path using the Paths panel, and use Layer > New Fill Layer > Solid Color to trace the linework. This may work better if you increase the contrast (or slap on a Threshold adjustment layer). You can also Alt+click ""Create work path"" to set a tighter Tolerance value.
+
+The Paint Bucket tends to be horrible at its own job, because it usually leaves a thin edge uncolored, especially with black-on-white linework. It also likes to escape out of any gaps it finds, and can obliterate similar colors if you make Tolerance too loose.
+
+Lately I've taken to creating shapes for the *fill* color I want to use, copy the vector mask to a line layer underneath, and expand the path to get a nice variable stroke around the shape. You can add another line layer on top, or cut into the fill layer with the Pen tool set to ""Subtract front shape"" operation. So the ""line"" layer ends up being a slightly larger shape than the fill layer. You can clip mask other layers on top to give more character to the fill layer (and/or the line layer).
+
+The Pen tool can be used in ""Shape"" mode to automatically create a filled layer. If you want a fixed-width stroke, use the toolbar to add one—this particular stroke is superior to any other that PS can create for you (Stroke layer style, Edit > Stroke, Stroke Path). Make sure to find the setting that lets you place the stroke outside, inside, or centered on the path."
+mildlyinteresting,fei74fy,t3_ep95yf,1579131765.0,Hie thee to a reputable tailor!
+AskReddit,fei6vnd,t3_ep9up7,1579131607.0,"Sudoku, so all digits except 0. This reality is already underway."
+photoshop,fehojex,t3_ep21xk,1579120724.0,"1\.
+Paths have their own panel, and do not directly exist as layer content. By default you create a ""work path"", which can be used as a guide-like base for filling, stroking, creating a precise selection, or as a baseline for the Type tool. You can also attach a path to a layer as a ""vector mask"", where it acts like a layer mask. Layers can have both layer masks and vector masks. If you use the Pen or Shape tools in ""Shape"" mode, they will create their own shape layers (special fill layers with vector masks).
+
+Paths work best when they are used as outlines. This can make them unwieldy for recreating linework, but can also help you make very precise linework.
+
+3\.
+Every anchor point (the main thing you create with the Pen tool) can have two control handles that change how the path enters and leaves that anchor. If you merely click with the Pen tool, the anchor will be created without control handles, usually forming a corner. Dragging the Pen tool creates two control handles that are in line with each other, and makes a smooth transition from that anchor. Alt+dragging (or using the Convert Point tool) lets you break the control handles to form sharp corners. Alt+click on an anchor to remove its control handles.
+
+Sometimes you have to zoom in to ensure you're clicking on what you want—there isn't much room for error, and it is easy to drag a segment (which will alter both control handles) when you meant to just drag one control handle.
+
+The color and width of the path guides (which never appears on finished, exported work) can be changed in Preferences. The color of any shapes filled or stroked by paths can be changed in the Pen/Shape toolbar, the Layers panel (fill only), or by clicking the Swatch panel (PS 2020, fill only).
+
+2\.
+The Pen tool can adjust any existing anchors or control points. Get used to using the Ctrl, Alt, and Shift keys, since they change how the tool works. Without them, the Pen tool will add anchors to bare canvas or path segments, or delete an anchor and attempt to conform the remaining path segment. 
+
+The Direct Selection tool (white triangle pointer) and Path Selection tool (black triangle pointer) also allow you to manipulate paths. The Convert Point tool can change an anchor between a bare corner (no control handles), a smooth node (linked control handles), or a sharp corner (unlinked control handles).
+
+Have a look at https://bezier.method.ac/, a good tutorial."
+todayilearned,fehf8r7,t1_feheo0i,1579115320.0,"Gotta ease into it, slave baby steps"
+techsupportgore,fehetcp,t1_feh3aed,1579115069.0,"Well, it says it's compatible, but it looks like it was really designed for an Nvidia CPU."
+nottheonion,fehdlxv,t1_feh23ne,1579114371.0,"""The fifth blade goes deeper, digging below the first layer of skin to remove the hair follicle …"""
+aww,fehdeix,t3_eovu48,1579114252.0,"""All that time, *you* were in control, and it was a damn *game* to you … !"""
+wholesomeanimemes,fehaw0s,t3_eoyd97,1579112776.0,"Saw Frog from Chrono Trigger for a brief moment.
+
+""T'was but an imitation, lass."""
+photoshop,fegbeg9,t1_fe6bp43,1579086184.0,"Had an actual look at this, and it does seem to be the ""Stroke path with brush"" command in the Paths panel, not the Edit > Stroke command.
+
+You can select a specific tool and enable ""Simulate pressure"" by Alt+clicking on the command.
+
+If you convert from a selection to a path, it starts from the topmost (or top-leftmost) part of the path and proceeds clockwise. Otherwise, it starts from the path's first anchor and follows whichever direction you last set."
+nottheonion,fefee8d,t1_fefaila,1579054546.0,What sub do the dispatchers frequent?
+photoshop,fefdoli,t3_eotj3z,1579054098.0,Did you accidentally activate View Proof (Ctrl+Y) on the left image?
+todayilearned,fefcomf,t1_fef4tzc,1579053452.0,It takes raw gumption to mountain a healthy lifestyle after such an ordeal.
+Catswithjobs,fef03gv,t3_eopumx,1579045043.0,"OP, OP / sitting in a shoe shine shop …"
+powerwashingporn,feey53m,t3_eoo0zh,1579043774.0,"sloppy seconds, and in public"

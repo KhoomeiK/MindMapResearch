@@ -1,0 +1,102 @@
+subreddit,self ID,parent ID,time,text
+television,ffkkpc4,t1_ffjzl15,1580024366.0,"Blackface was made to mock physical traits on African Americans.
+If you want to draw a similar line I would point to Mickey Rooney."
+todayilearned,ffiqzma,t1_ffi28aw,1579980529.0,"Plus if the world's economy collapses, you can still eat that cheese."
+videos,ffilu8f,t1_ffhpm2p,1579976969.0,Welcome to suburbia
+television,ff6mvlt,t1_ff4fz6p,1579630588.0,Plus the theme is great.
+television,ff6l89q,t1_ff5kpuj,1579629581.0,o.o.l. America explain.
+todayilearned,ff6l0kz,t1_ff6jrb3,1579629454.0,"I don't have original thoughts and I was mostly paraphrasing this:
+
+[https://www.youtube.com/watch?v=26ZDB9h7BLY](https://www.youtube.com/watch?v=26ZDB9h7BLY)"
+todayilearned,ff6fqn4,t1_ff5tw0f,1579626220.0,Unhappiness is the path to holiness
+todayilearned,ff6fgwg,t1_ff64rik,1579626049.0,Luxury! We started school by 3 in the morning and there were no buses so we had to walk for miles on the freezing snow.
+videos,fem12fy,t1_felvx98,1579236325.0,As high as a majestic soaring eagle.
+books,feip9ao,t1_fehfltv,1579143832.0,"Just a random quote of an eternal list of highly quotable miracles:  
+
+
+""An education was a bit like a communicable sexual disease. It made you  unsuitable for a lot of jobs and then you had the urge to pass it on"""
+Games,feilmbp,t1_feidpgm,1579141403.0,"""Detecting multiple , Leviathan class life-forms in the region . Are you certain whatever you're doing is worth it?"""
+ManjaroLinux,fe84ltc,t3_eo1kij,1578922497.0,"Linux and Windows have different approaches towards memory utilization, so that will be worth looking into:
+
+[https://www.linuxatemyram.com/](https://www.linuxatemyram.com/)
+
+If that's not the case, then let's go by parts.
+
+Do a  `$ free -m` and post it here.
+
+Then let's check what might be using your memory. 
+
+This command will tell you the processes that are using your memory sorted top to bottom (quit with q):
+
+`ps aux | sort -rn -k 5,6 | less -S`
+
+Then there's the interactive application called `htop` which is a bit more user-friendly than `top`. 
+
+Here memory utilization is represented by colors:
+
+* **Green**: Used memory
+* **Blue**: Buffers
+* **Orange**: Cache
+
+There are four columns related to memory utilization:
+
+* **VIRT** or virtual memory, related to everything included memory files (this isn't really your issue).
+* **RES** or Resident size is physical memory used, however it does not include SWAP or shared memory.
+* **SHR** or Shared shows if RES is actually shared with other processes.
+* **MEM%** is the result of dividing RES by your physical RAM. <- This is what you're looking for.
+
+Note: You might see some outrageous numbers in VIRT, but pay them no attention as some apps like browsers rely heavily in caching.
+
+Post back what are your top ten suspects and lets see what might be the cause."
+StarWars,fe2yta7,t1_fdj3ply,1578844349.0,UNLIMITED PAWA!
+movies,fdndiab,t1_fdn1lgg,1578583477.0,Ouch!
+worldnews,fdmklz5,t1_fdlxstp,1578553423.0,"Newer phones use capacitative scanners so you will have a different result using a corpse and it might not unlock. The body also changes so that would affect the results.
+
+That said, it doesn't seem they're foolproof: [https://www.biometricupdate.com/201911/chinese-researchers-reveal-method-to-bypass-biometric-fingerprint-scanners-in-smartphones](https://www.biometricupdate.com/201911/chinese-researchers-reveal-method-to-bypass-biometric-fingerprint-scanners-in-smartphones)
+
+Some Asian vendors like Fujitsu use vascular biometrics which would require blood flowing to work."
+movies,fdmk13i,t1_fdlz4ut,1578552769.0,"This combined with Ginger Snaps, might make it worth of a triple feature in a full moon night."
+movies,fdmjyze,t1_fdlpcau,1578552702.0,"Rob Bottin (Eddie's creator) was supposed to work in An American Werewolf in London before dropping off to The Howling. Which makes me wonder what it could have been.
+
+Still if you give it first place, that movie should hold a steady second just for its transformation."
+movies,fdmjpxu,t1_fdlv075,1578552425.0,"My older cousin was dead scared of werewolves because of some old movie, but while he was explaining this to me, I failed to feel scared of a man-turning-dog, while giant spiders and the ball from ~~phantom~~ Phantasm were also a possibility.
+
+That was until I saw An American Werewolf in London.
+
+Edit: Memory."
+movies,fdmjb8n,t1_fdm3xw5,1578551978.0,"I think there were several horror movies with cat people, namely 'Cat People', 1942.  
+There's a remake bearing the same name from 1982 that's not as compelling as the original, from Paul Schrader (He wrote Taxi Driver, Raging Bull, American Gigolo right before this).  
+
+
+There's also Sleepwalkers, 1992, based on something Stephen King doodled in a napkin.
+
+I think Spookies, 1986 also had a ""were-cat"" and might be entertaining if you're into terribly bad but good horror.
+
+There are many more, although none worth watching in my opinion. Still the original is pretty great for a slow night.
+
+I consider Avatar as a canon continuation on Cat People."
+MechanicalKeyboards,fdmidhq,t1_fdk7yd9,1578550983.0,How else would you have a successful reception at the ambassador's house?
+television,fdd7qj3,t1_fdd5qh6,1578298578.0,[https://www.youtube.com/watch?v=unHW5-FagHM](https://www.youtube.com/watch?v=unHW5-FagHM)
+videos,fdd4wb2,t1_fdaw6k9,1578294921.0,"I think you got it backwards. Most cars have positive **caster**, it's explained here: [https://youtu.be/VbReLNi2JP4?t=917](https://youtu.be/VbReLNi2JP4?t=917)"
+videos,fdd33wx,t1_fdcsxu7,1578292825.0,That's NBC's line of thought there.
+space,fd2cv94,t1_fd0eamm,1578145386.0,So until now it was a smooth sail into the sun.
+worldnews,fcxda4u,t1_fcwu64e,1578059827.0,"Also HK is the key to the mega-city project for the region, which would unite it with the western Chinese territories in order to bring cheap labor without getting through customs every single time:
+
+[https://www.spiegel.de/international/world/china-tries-building-a-new-kind-of-megapolopolis-a-1285094.html](https://www.spiegel.de/international/world/china-tries-building-a-new-kind-of-megapolopolis-a-1285094.html)
+
+""The reformer Deng Xiaoping created a monument to himself in Shenzhen,  and for his successor, Jiang Zemin, it was in Shanghai "" says Chen  Yalei. ""The Greater Bay Area is the project that President Xi Jinping  intends to be remembered by in the history books."""
+australia,fcu3ur7,t1_fcu0sh5,1577971834.0,Just like in the simulations.
+videos,fcn52za,t1_fcmzguj,1577803484.0,I don't think the Geneva Conventions would allow such cruelty.
+Ornithology,fcmw511,t1_fckfhib,1577795002.0,"Windmills, not wind turbines. Those pesky millers and their paramount hate for birds.
+
+Also the sound provokes cancer."
+multilingualparenting,fcfc02p,t3_eh5xqs,1577628467.0,"In our case, I talk exclusively in a language and my partner does the other, while between us we speak in English as ""encrypted"" communication.
+
+This lead to confusion for my eldest around 18 \~ 20 months in, as when she learnt ""carrot"" or ""banana"", realized that one of us will ""correct"" her. Eventually, after a couple of months she came to terms with us using different languages and now is natural for her to point things to us to hear each word.
+
+That said, it requires a big effort from all three parties in my opinion, and my kid while she had a lot of vocabulary counting both languages, initially struggled to talk with her school mates as she was less skilled in their common tongue. This will bring a new set of issues and problems, but currently (preschool) she's merry as a cricket and speaks fluently both languages with ease, as much it can be expected from a preschooler.
+
+For my youngest, he just saw his sister speaking both languages naturally and didn't have any hurdles to become fluent.
+
+BTW: Playgroups in your husband's language may be very helpful."
+todayilearned,fbxhg0s,t1_fbxb7lp,1577187644.0,Odd way to refer to a pregnancy.

@@ -1,0 +1,312 @@
+<<<<<<< HEAD
+subreddit,self ID,parent ID,time,text
+learnprogramming,fflomnz,t1_ffln0nn,1580042200.0,And no one would consider that code golf solution readable or maintainable.
+Animemes,ffllp8k,t1_fflf7yo,1580041175.0,/r/expectedsabaton
+learnprogramming,fflku37,t1_fflfxyh,1580040820.0,"> You mean post-increments.
+
+You're right, corrected.
+
+> It's a pretty standard implementation of string copy and the intent is pretty obvious to anyone familiar with C. Your implementation is much more verbose and requires having to parse many more steps in order to understand the intent, making it arguably harder to read and being less safe due to more potential points of failure.
+
+It's a standard library function that essentially no one should have to implement themselves, but if you are it's a bad implementation. No one would consider that readable code. This thread would not exist if it were readable code. In the past implementations like that were somewhat common because they are more efficient *without optimizations*, but that's irrelevant these days."
+ProgrammerHumor,fflbwcd,t3_etx79m,1580037581.0,I found a bug in MSVC last week while doing some heavy template metaprogramming. I also managed to crash both MSVC and Clang with some of my template errors.
+ProgrammerHumor,fflbr9a,t1_ffjqek4,1580037515.0,"I did this last week, crashed both MSVC and Clang, in addition to finding a bug in MSVC. I was doing some heavy template metaprogramming."
+ProgrammerHumor,fflb4pe,t1_ffk31vn,1580037399.0,He didn't mix that up though.
+ProgrammerHumor,fflawl7,t1_ffkvdij,1580037300.0,Am I the only one that still uses desktop shortcuts instead of pinned icons? (For things that aren't important enough to have a shortcut I just use the windows button.)
+ProgrammerHumor,ffl98q6,t1_ffk1axu,1580036670.0,"Man I have no clue why you are getting downvoted so hard, I'm sorry. You didn't say anything wrong or mean."
+ProgrammerHumor,ffl8p4k,t1_ffjr2zd,1580036392.0,Doesn't work in Python 3 (you can't assign to True).
+ProgrammerHumor,ffl88or,t1_ffk4xqh,1580036145.0,"I think it's actually unspecified in C, but usually right to left because that's the order that parameters usually get pushed onto the stack. Later languages specified it as right to left in order to eliminate a lot of unspecified behavior."
+learnprogramming,ffl6l8p,t3_etxplw,1580035480.0,"C# is very similar to Java. You can pick it up in a day and start working on your game, and you'll learn the minor differences along the way. If all you care about is making a game, this is the best choice.
+
+C++ will teach you many more new things, like memory management and pointers. If you want to expand your skill set more, this is is the best choice. You will make little or no progress on the game for the first few weeks while you are picking up the language though.
+
+C++ runs faster as others have already said, but it's highly unlikely that this will matter for your first game."
+learnprogramming,ffl3uua,t3_eu4b77,1580034326.0,"This is a tricky bit of code because it has three(!) side effects inside a condition on an empty loop. On each iteration of the loop the condition is executed and has three effects: `src` is incremented, `dst` is incremented, and the byte at `src` is copied to the byte at `dst. Additionally it's important to note that both increments are *~~pre~~ post*-increments, which means that the value of the expression is the value (in this case address) *before* the incrementing. Finally, since the value of an assignment is the value that was assigned, the character copied is used to evaluate the condition. If this is a null character (byte 0) then the loop terminates.
+
+If we were to expand this to make it more readable it would look like this:
+
+    void copy(char* src, char* dst) {
+        do {
+            char* pre_src = src;
+            char* pre_dst = dst;
+            src++;
+            dst++;
+            *pre_dst = *pre_src;
+        } while(*pre_dst != '\0');
+    }
+
+Ignoring the precise order of evaluations we could simplify this to:
+
+    void copy(char* src, char* dst) {
+        char cpy;
+        do {
+            cpy = *src;
+            *dst = cpy;
+            src++;
+            dst++;
+        } while(cpy != '\0');
+    }
+
+I checked this on godbolt.com with Clang and GCC and after optimizations it produces the same assembly code as the original function.
+
+Finally, and perhaps most importantly, I would argue strongly that the original function is a bad example of how to write code. It looks clever, packing a lot of behavior into a single line, but it is very difficult to read. The reader needs to consider the difference between pre-increment and post-increment, and how a char is treated in a boolean context. The empty loop body should raise eyebrows, and any sort of assignment in a conditional expression is usually a code smell. At best it might be mistaken for a bug by another programmer (as using `=` instead of `==` is a common typo) and replaced with a `==`, which would break the function. I think almost anyone would agree that the code I showed is much more readable, and it produces the exact same assembly (meaning it will have the exact same behavior and execute exactly as fast)."
+gifs,ffky3ad,t1_ffkr5zc,1580031101.0,"Cooking the food in front of you with a bit of showmanship sure, but getting hit on the head with an egg? I've never seen it before."
+Games,ffk1y09,t1_ffjnya2,1580013316.0,"Refueling Base, Downtown, Suburbs, Courtyard, and Monster Condo have lots of enemies active at once. There are definitely rooms with more than 20 enemies active at once."
+AskHistory,ffk0vsv,t3_eu0vj0,1580012400.0,"John C Calhoun is considered pretty bad today and likely contributed significantly to the Civil War happening, but at the time he was considered a great senator."
+Games,ffjntsk,t1_ffhtaje,1580002559.0,Yep. Just lost my first UN attempt to an Imp on the Foundry.
+Games,ffjg9ev,t1_ffhtyov,1579997611.0,Doom 2 had a lot more demons at a time.
+Games,ffjc9hg,t1_ffioqsa,1579995268.0,That doesn't necessarily make it harder. If you increase both player and enemy damage the difficulty depends on a number of factors.
+ProgrammerHumor,ffhq7ki,t1_ffgn987,1579948072.0,"Which for the most part isn't even hard. You just write some stuff like `assertEqual(1, 1)`, exercising each of your testing functions."
+smashbros,ffhnco8,t1_ffghlr7,1579943686.0,"Not logistically possible. A lot of work goes into seeding pools, and players need to know what time their pool is."
+smashbros,ffhnb4l,t1_ffg0olk,1579943618.0,Really stupid laws.
+smashbros,ffhn7e4,t1_ffg2528,1579943461.0,"No no, don't meet the TO. He won't be at 7/11, he has nothing to do with them. But I hear there is a guy there who really loves these worthless baubles that we give away to the winners at tournaments, and he will give you a lot of money for them. I wonder where he gets the money to buy those, I guess it will forever be a mystery."
+ProgrammerHumor,ffhmc5r,t1_ffex9gq,1579942145.0,"You need to work on your humor, no one got the ""joke"". All the replies are sympathetic to your (supposed) difficulty with pronouncing the words."
+Cuphead,ffhm9tj,t1_fff0b84,1579942049.0,"On expert you don't move backwards, you move forwards. That's why he's easier."
+learnprogramming,ffhm6zi,t1_ffgu6z0,1579941930.0,"The best answer there (IMO) involves using Shamir's Secret Sharing: [Link.](http://web.archive.org/web/20160909032102/http://www.smartarchitects.co.uk/news/9/15/Partial-Passwords---How.html)
+
+I doubt that's what the bank is doing though. They're probably just using an encrypted database, which makes me very uncomfortable."
+learnprogramming,ffhlz05,t3_etmquq,1579941602.0,If the body of both is the same then I don't think it makes any difference. `Type&` is implicitly convertible (by copy) to `Type`.
+Doom,ffhiz2g,t3_etmb8u,1579937389.0,"I've often wondered what they were trying to convey with this fight and the couple other pre-scripted infighting episodes. It makes sense when demon infight because one of them hurt another, but why are they just immediately infighting?"
+smashbros,ffhi8o2,t3_etmx2l,1579936426.0,Crazy that SFAT was ready to hit that shine as soon as he was saved by PewPewU.
+smashbros,ffhi4il,t1_ffhc2gy,1579936274.0,"I think Abu was dead anyways. He tried to SDI, but I don't think he got enough. And he never actually moved from the dair, he was still in hitlag from the dair when the second hit of up air connected. The dair added extra damage, but at that percent I believe he was dead anyways."
+Showerthoughts,ffhdhs2,t1_ffgzyu2,1579930861.0,That's a horrible idea and makes the problems it's meant to solve much worse. https://qntm.org/abolish
+Showerthoughts,ffhdgnq,t1_ffh84z8,1579930828.0,I'm pretty sure that everyone who suggests this idea subconsciously thinks that is how it's going to work. As soon as you give it any serious thought you realize how terrible the idea is.
+Showerthoughts,ffhbnpr,t1_ffh3qjc,1579929024.0,"Dealing with timezones in programming is not hard. You store all times as unix timestamps and use a timezone library to convert to a display time. If you're trying to roll your own timezone library you're an idiot.
+
+And yes I do this frequently, in my job we have people working in three different timezones and the corporate headquarters uses a fourth. So we do a lot of timezone conversions, and they're very easy."
+Showerthoughts,ffhbk88,t1_ffh6s2e,1579928928.0,You can make a very good guess if you know what timezone they are in.
+Showerthoughts,ffhbi4u,t1_ffh7y7x,1579928870.0,"Except in the proposed system there would be no UTC-4.  The only thing they could say is ""I work between X and Y"". And if they are offline when you need to ask, you don't have any good way to look up the time shift. In our current system I can check Australia's timezone and make a good guess of what time they will be at work. In the proposed system you will have people posting to /r/australia asking ""Can someone tell me what typical business hours are? I have to schedule a meeting in the next 30 minutes and my client is offline."""
+Showerthoughts,ffhbaa1,t1_ffh1wcw,1579928660.0,"It makes zero sense once you think about it at all. How would you know what business hours were in another country? When is lunch? When do people sleep? You would have to ask someone who lives there or look it up in a chart. In the end you would have reinvented timezones, but with even less standardization because there would be no official standard for how much people should shift their schedules."
+smashbros,ffh931b,t1_ffh88e0,1579926648.0,Reflector and cape are 1.5x.
+Games,ffh5eci,t1_ffgzsu5,1579923590.0,"This was true in Doom 2016 as well, on lower difficulties fewer enemies could attack at once. But it sounds like they have refined and extended this approach."
+funny,ffh1m5k,t1_ffh0xc4,1579920677.0,I...don't think you know what that word means.
+smashbros,ffh0bpo,t1_ffgwbv1,1579919698.0,"""Just"""
+Futurology,ffgzusk,t1_ffgt5jz,1579919346.0,"> Maybe the lane is for more than EVs, but also transit and stuff?
+
+Bus lanes and car pool lanes can make a lot of sense for reducing traffic by reducing the number of vehicles on the road, but if the author had meant that they would have said that. EV lanes do nothing for traffic."
+Futurology,ffgzk19,t1_ffgjyo7,1579919120.0,"> Sure most people don't use it for a daily commute
+
+And therein lies the problem. The author's proposal requires *all* drivers to be using GPS *all the time*."
+Futurology,ffgzg0y,t1_ffgqijt,1579919036.0,"It also causes more people to take the main roads instead of side streets, until the main road is as slow as the side street. And the side streets aren't usually limited by traffic, so they don't get much or any faster because of the change. So you have reduced volume on the side streets and increased volume on the main road, but haven't increased the speed anywhere (in addition to other effects)."
+Futurology,ffgz91z,t1_ffgffob,1579918893.0,Most of those people aren't using GPS navigation at any given time though. They're driving routes that they've driven every day for years and don't turn on their GPS for.
+Futurology,ffgyko3,t1_fffvc23,1579918385.0,"You can usually only synchronize lights in one direction. In fact it often makes the timing in the opposite direction as bad as possible. This makes them useful for one way streets or roads that have significant asymmetric traffic (and you can switch the synchronization when the traffic flow switches), but not very useful on two way roads with roughly equal traffic in both directions."
+funny,ffgy1c7,t1_ffgw7fn,1579917987.0,"They're canids, so dog hardware."
+funny,ffgw9rf,t1_ffge6tw,1579916673.0,"It makes sense if you extend the top left until it forms a complete circle. Then it looks like an O with an extra squiggle in the bottom right, so like a Q.
+
+The 2-looking form is just a shorter form."
+AskReddit,ffgutdx,t1_ffgf1qy,1579915617.0,"The difference is that car accidents aren't *caused by* sobriety. There are a lot of different potential causes for car accidents, but none of them make up as large a group as drunk driving (actually phones might be close, I'm not sure, but it certainly was not the case when people started campaigning against drunk driving)."
+smashbros,ffgc1rw,t3_etgdc7,1579902920.0,"For those who don't know, Link's nair is bugged. It doesn't contain the code to disable the hitbox, so the hitbox remains out until the *entire* animation (including the recovery frames) has finished."
+smashbros,ffgbu75,t1_fffpju9,1579902792.0,"You know that when you watch a clip or VOD on Twitch it plays back the chat too, right?"
+smashbros,ffgbo2d,t3_etey5h,1579902687.0,What song should I be singing this to?
+smashbros,ffgbkcw,t1_ffg4diw,1579902625.0,"Yeah, with how late that charge shot was I think he was waiting to confirm the shine just so he could power shield it."
+smashbros,ffgba0l,t3_etf4mc,1579902448.0,Is no one going to say anything about Slime saying that Young Link and Sheik are brother and sister?
+Documentaries,fffyqtr,t1_fffr43p,1579894730.0,Lots of tankies on Reddit. I've seen people unironically defending North Korea.
+Documentaries,fffy5n7,t1_fffrub5,1579894362.0,He is saying that people who wear Che T-shirts are also almost always people who support LGBT rights.
+askscience,fffvvp3,t1_fffuyxa,1579892939.0,"I get what he's trying to do, but I don't think the analogy makes sense."
+ProgrammerHumor,ffesmt5,t1_ffesffi,1579863596.0,Fucking Aussies man.
+ProgrammerHumor,ffeslgv,t1_fferkh7,1579863545.0,More like inside out lungs.
+ProgrammerHumor,ffesc58,t1_ffeqhiz,1579863178.0,What fucking country calls them that?
+ProgrammerHumor,ffesarr,t1_ffd6tfz,1579863124.0,Too many syllables? Have you seen your own fucking names? Don't give me this shit about too many syllables!
+ProgrammerHumor,ffes9m2,t1_ffddhf6,1579863076.0,">  ‘ah mate you must be needing a whipper snipper’.
+
+I know enough Australian slang that I can't tell if you're joking about that."
+ProgrammerHumor,ffes2q9,t1_ffd5n8p,1579862799.0,JavaScript is a C-like language. Also known as braces languages.
+ProgrammerHumor,ffes229,t1_ffe4skc,1579862773.0,Read the third bullet point under the first column...
+ProgrammerHumor,ffes196,t1_ffequd5,1579862739.0,"You made one critical mistake:
+
+This meme is not about Python."
+ProgrammerHumor,fferw6x,t1_ffeqhrs,1579862534.0,He was probably just using a laptop with a screenreader.
+ProgrammerHumor,fferv34,t1_ffea7cd,1579862487.0,I knew a blind student in my CS class who did it.
+Cuphead,fferage,t3_esl5bj,1579861625.0,"Wally is not that bad. First phase is the only hard part. Second phase is easy, third phase is a bit long so save up a full meter to get it over with quickly, and for the last phase stick to the lower left corner. You can damage him from below, hit EX shots for massive damage (when the heart isn't out), and easily dodge all the projectiles."
+Cuphead,ffer8u0,t1_ffbp5aj,1579861556.0,Grim is one of the easiest expert fights. He's easier on expert than normal.
+Cuphead,ffer7wx,t1_ffc17qb,1579861520.0,The trick I found for that was to whetstone the puppet phase. That makes it go very quickly.
+Cuphead,ffer6sr,t1_ffbtpbq,1579861476.0,"He was actually one of my fastest S-ranks. His patterns are all very predictable, which I think makes him easier to S-rank."
+Cuphead,ffer4gu,t1_ffbzb9r,1579861380.0,"Cala Maria's last phase is fine, it's her second phase that is hell. I have never found a way to consistently do it without taking damage, I just try to get it over with as fast as possible and hope for some luck."
+Cuphead,ffer31z,t1_ffbbbvc,1579861323.0,"Same. He was one of my fastest S-ranks. I think once you've learned his patterns he is one of the most manageable fights, everything is very predictable and nothing requires you to react quickly."
+Cuphead,ffer1d6,t1_ffarwit,1579861254.0,"I didn't think I could either, but you just start trying and you keep getting better and before you know it you've done it."
+Cuphead,ffer0ia,t1_ffb8iz9,1579861220.0,Grim Matchsticks is widely considered easier on expert than on normal.
+Cuphead,ffeqzfn,t1_ffeh7tl,1579861173.0,"Nah, Hilda expert was one of the hardest for me, and I've S-ranked every boss."
+Cuphead,ffeqxe1,t3_et5s0i,1579861093.0,I've heard of this happening when people get the super meter requirement after the boss has been defeated.
+smashbros,ffeqtl0,t1_ffegg7h,1579860942.0,"Looks like it was created by people that left SnS. I assume SnS 6 is still happening, though there is no smash.gg page for it yet."
+SSBPM,ffeqr3o,t1_ffd65ah,1579860839.0,What is the pools format going to be for Melee and P+?
+Animemes,ffeqhzx,t1_ffdc6wb,1579860457.0,When you need the episode to be 30 seconds longer but don't have anymore content to show.
+Animemes,ffeqfgb,t1_ffd62lq,1579860354.0,"I've never seen a show with a 2 minute ED. With very, very few exceptions, OPs and EDs are always 1:30."
+HistoryMemes,ffeprsz,t1_ffeixxr,1579859349.0,"The Soviets weren't going to be a threat to the Japanese home islands for several months, they had no amphibious landing capability. And you can just read the surrender declaration, it makes no mention of the Soviets but specifically mentions the atomic bombs."
+HistoryMemes,ffeppnc,t1_ffeogf1,1579859258.0,"TF2, Expiration Date."
+HistoryMemes,ffepp1i,t1_ffe5fma,1579859233.0,You told me to.
+HistoryMemes,ffepnez,t1_ffed06i,1579859167.0,No one went to prison for being a communist. Some people lost their jobs because it was an obvious security risk.
+learnprogramming,ffeofyt,t3_et76x0,1579857333.0,"Googling ""make android app with python"" suggests that this is possible. Or, if you have already learned all the basic elements of programming in one language (Python), learning a new language (Kotlin) is not difficult."
+AskReddit,ffek4ua,t1_ffdqfo5,1579851364.0,"The nickel is the thickest US coin, so it has the best chance of landing on it's side."
+AskReddit,ffejze4,t3_esy81b,1579851171.0,"Playing a surf map in Counter-Strike: Source, I landed a no-scope AWP headshot on a guy on the other side of the map (while both of us were surfing)."
+learnprogramming,ffefzyw,t3_et4rog,1579846557.0,"Yes there are big problems with global variables. They are prone to bugs, make the code inflexible, have thread safety issues, expose implementation details, etc."
+todayilearned,ffedzep,t1_ffed9mg,1579844498.0,"They were most definitely not nuclear powered. The first nuclear powered submarine was the USS Nautilus, launched in 1954. The Germans did research nuclear reactors, but it's actually much more difficult than a nuclear bomb because you have to contain and control the reaction."
+videos,ffe8x5h,t1_ffdvb1v,1579839934.0,Well in this case they destroyed their culture in the 60's and replaced it with a culture that is all about watching our for yourself and no one else.
+videos,ffe81ii,t1_ffdsooz,1579839217.0,"Controlled? They didn't even report that there was an epidemic for three months, long *after* the epidemic had been detected by monitoring internet media."
+AskReddit,ffe2kdr,t1_ffdfczn,1579835041.0,"Because it is, no matter how fancy you try to phrase it."
+AskReddit,ffdzkde,t1_ffdoeu9,1579832863.0,Most just use screen readers.
+Games,ffdjw3q,t1_ffdiqhn,1579822434.0,"And who is modding Rocket League, a live-service game?"
+Games,ffdigh9,t1_ffd7ffl,1579821555.0,If a game doesn't need more than 4gb of RAM there isn't really any reason to be 64-bit.
+Games,ffdieet,t1_ffd3ild,1579821520.0,If a game doesn't need more than 4gb of RAM there isn't really any reason to be 64-bit.
+Games,ffdi1vq,t1_ffd3pk2,1579821307.0,If a game doesn't need more than 4gb of RAM there isn't really any reason for it to be 64-bit.
+learnprogramming,ffden69,t1_ffdczzw,1579819270.0,"    int i;
+    while (something) {
+        i++;
+    }
+
+This is trying to count the number of times the loop runs, but because `i` was not initialized there is no telling what value it will hold at the end. Instead it should be `int i = 0;`
+
+Another common mistake is to not initialize a pointer. This will *usually* cause a segfault when the pointer is dereferenced (same as dereferencing a null pointer), but in some cases it may cause more subtle errors.
+
+The tricky thing about uninitialized variables is that because they can contain anything, they can even contain valid values that will not cause errors. This can cause inconsistent errors, or errors that seem to appear and disappear when you try to debug them. For example adding print statements or running in a debugger could cause the error to disappear or change it's nature. This can make them very difficult to track down."
+learnprogramming,ffdcgy3,t3_et0c5k,1579817947.0,"You don't *need* to initialize the value in this case, but it is good practice to just always initialize everything. You *will* make the mistake, probably very soon, of trying to use a variable that you forgot to initialize and wonder why you get garbage values."
+todayilearned,ffda50f,t1_ffcuk5a,1579816438.0,"> but it still blew my mind coming from English which has a single formality level for everyone.
+
+That's not true. Think about how you would talk with your friends compared to your boss (or some formal situation if you have a very casual workplace). The grammar is the same (usually), but the words you use change, your intonation changes, you might use more careful pronunciations, etc."
+todayilearned,ffd9vd6,t1_ffcuxgy,1579816281.0,[Great Vowel Shift](https://en.wikipedia.org/wiki/Great_Vowel_Shift)
+=======
+subreddit,self ID,parent ID,time,text
+ProgrammerHumor,ffesmt5,t1_ffesffi,1579863596.0,Fucking Aussies man.
+ProgrammerHumor,ffeslgv,t1_fferkh7,1579863545.0,More like inside out lungs.
+ProgrammerHumor,ffesc58,t1_ffeqhiz,1579863178.0,What fucking country calls them that?
+ProgrammerHumor,ffesarr,t1_ffd6tfz,1579863124.0,Too many syllables? Have you seen your own fucking names? Don't give me this shit about too many syllables!
+ProgrammerHumor,ffes9m2,t1_ffddhf6,1579863076.0,">  â€˜ah mate you must be needing a whipper snipperâ€™.
+
+I know enough Australian slang that I can't tell if you're joking about that."
+ProgrammerHumor,ffes2q9,t1_ffd5n8p,1579862799.0,JavaScript is a C-like language. Also known as braces languages.
+ProgrammerHumor,ffes229,t1_ffe4skc,1579862773.0,Read the third bullet point under the first column...
+ProgrammerHumor,ffes196,t1_ffequd5,1579862739.0,"You made one critical mistake:
+
+This meme is not about Python."
+ProgrammerHumor,fferw6x,t1_ffeqhrs,1579862534.0,He was probably just using a laptop with a screenreader.
+ProgrammerHumor,fferv34,t1_ffea7cd,1579862487.0,I knew a blind student in my CS class who did it.
+Cuphead,fferage,t3_esl5bj,1579861625.0,"Wally is not that bad. First phase is the only hard part. Second phase is easy, third phase is a bit long so save up a full meter to get it over with quickly, and for the last phase stick to the lower left corner. You can damage him from below, hit EX shots for massive damage (when the heart isn't out), and easily dodge all the projectiles."
+Cuphead,ffer8u0,t1_ffbp5aj,1579861556.0,Grim is one of the easiest expert fights. He's easier on expert than normal.
+Cuphead,ffer7wx,t1_ffc17qb,1579861520.0,The trick I found for that was to whetstone the puppet phase. That makes it go very quickly.
+Cuphead,ffer6sr,t1_ffbtpbq,1579861476.0,"He was actually one of my fastest S-ranks. His patterns are all very predictable, which I think makes him easier to S-rank."
+Cuphead,ffer4gu,t1_ffbzb9r,1579861380.0,"Cala Maria's last phase is fine, it's her second phase that is hell. I have never found a way to consistently do it without taking damage, I just try to get it over with as fast as possible and hope for some luck."
+Cuphead,ffer31z,t1_ffbbbvc,1579861323.0,"Same. He was one of my fastest S-ranks. I think once you've learned his patterns he is one of the most manageable fights, everything is very predictable and nothing requires you to react quickly."
+Cuphead,ffer1d6,t1_ffarwit,1579861254.0,"I didn't think I could either, but you just start trying and you keep getting better and before you know it you've done it."
+Cuphead,ffer0ia,t1_ffb8iz9,1579861220.0,Grim Matchsticks is widely considered easier on expert than on normal.
+Cuphead,ffeqzfn,t1_ffeh7tl,1579861173.0,"Nah, Hilda expert was one of the hardest for me, and I've S-ranked every boss."
+Cuphead,ffeqxe1,t3_et5s0i,1579861093.0,I've heard of this happening when people get the super meter requirement after the boss has been defeated.
+smashbros,ffeqtl0,t1_ffegg7h,1579860942.0,"Looks like it was created by people that left SnS. I assume SnS 6 is still happening, though there is no smash.gg page for it yet."
+SSBPM,ffeqr3o,t1_ffd65ah,1579860839.0,What is the pools format going to be for Melee and P+?
+Animemes,ffeqhzx,t1_ffdc6wb,1579860457.0,When you need the episode to be 30 seconds longer but don't have anymore content to show.
+Animemes,ffeqfgb,t1_ffd62lq,1579860354.0,"I've never seen a show with a 2 minute ED. With very, very few exceptions, OPs and EDs are always 1:30."
+HistoryMemes,ffeprsz,t1_ffeixxr,1579859349.0,"The Soviets weren't going to be a threat to the Japanese home islands for several months, they had no amphibious landing capability. And you can just read the surrender declaration, it makes no mention of the Soviets but specifically mentions the atomic bombs."
+HistoryMemes,ffeppnc,t1_ffeogf1,1579859258.0,"TF2, Expiration Date."
+HistoryMemes,ffepp1i,t1_ffe5fma,1579859233.0,You told me to.
+HistoryMemes,ffepnez,t1_ffed06i,1579859167.0,No one went to prison for being a communist. Some people lost their jobs because it was an obvious security risk.
+learnprogramming,ffeofyt,t3_et76x0,1579857333.0,"Googling ""make android app with python"" suggests that this is possible. Or, if you have already learned all the basic elements of programming in one language (Python), learning a new language (Kotlin) is not difficult."
+AskReddit,ffek4ua,t1_ffdqfo5,1579851364.0,"The nickel is the thickest US coin, so it has the best chance of landing on it's side."
+AskReddit,ffejze4,t3_esy81b,1579851171.0,"Playing a surf map in Counter-Strike: Source, I landed a no-scope AWP headshot on a guy on the other side of the map (while both of us were surfing)."
+learnprogramming,ffefzyw,t3_et4rog,1579846557.0,"Yes there are big problems with global variables. They are prone to bugs, make the code inflexible, have thread safety issues, expose implementation details, etc."
+todayilearned,ffedzep,t1_ffed9mg,1579844498.0,"They were most definitely not nuclear powered. The first nuclear powered submarine was the USS Nautilus, launched in 1954. The Germans did research nuclear reactors, but it's actually much more difficult than a nuclear bomb because you have to contain and control the reaction."
+videos,ffe8x5h,t1_ffdvb1v,1579839934.0,Well in this case they destroyed their culture in the 60's and replaced it with a culture that is all about watching our for yourself and no one else.
+videos,ffe81ii,t1_ffdsooz,1579839217.0,"Controlled? They didn't even report that there was an epidemic for three months, long *after* the epidemic had been detected by monitoring internet media."
+AskReddit,ffe2kdr,t1_ffdfczn,1579835041.0,"Because it is, no matter how fancy you try to phrase it."
+AskReddit,ffdzkde,t1_ffdoeu9,1579832863.0,Most just use screen readers.
+Games,ffdjw3q,t1_ffdiqhn,1579822434.0,"And who is modding Rocket League, a live-service game?"
+Games,ffdigh9,t1_ffd7ffl,1579821555.0,If a game doesn't need more than 4gb of RAM there isn't really any reason to be 64-bit.
+Games,ffdieet,t1_ffd3ild,1579821520.0,If a game doesn't need more than 4gb of RAM there isn't really any reason to be 64-bit.
+Games,ffdi1vq,t1_ffd3pk2,1579821307.0,If a game doesn't need more than 4gb of RAM there isn't really any reason for it to be 64-bit.
+learnprogramming,ffden69,t1_ffdczzw,1579819270.0,"    int i;
+    while (something) {
+        i++;
+    }
+
+This is trying to count the number of times the loop runs, but because `i` was not initialized there is no telling what value it will hold at the end. Instead it should be `int i = 0;`
+
+Another common mistake is to not initialize a pointer. This will *usually* cause a segfault when the pointer is dereferenced (same as dereferencing a null pointer), but in some cases it may cause more subtle errors.
+
+The tricky thing about uninitialized variables is that because they can contain anything, they can even contain valid values that will not cause errors. This can cause inconsistent errors, or errors that seem to appear and disappear when you try to debug them. For example adding print statements or running in a debugger could cause the error to disappear or change it's nature. This can make them very difficult to track down."
+learnprogramming,ffdcgy3,t3_et0c5k,1579817947.0,"You don't *need* to initialize the value in this case, but it is good practice to just always initialize everything. You *will* make the mistake, probably very soon, of trying to use a variable that you forgot to initialize and wonder why you get garbage values."
+todayilearned,ffda50f,t1_ffcuk5a,1579816438.0,"> but it still blew my mind coming from English which has a single formality level for everyone.
+
+That's not true. Think about how you would talk with your friends compared to your boss (or some formal situation if you have a very casual workplace). The grammar is the same (usually), but the words you use change, your intonation changes, you might use more careful pronunciations, etc."
+todayilearned,ffd9vd6,t1_ffcuxgy,1579816281.0,[Great Vowel Shift](https://en.wikipedia.org/wiki/Great_Vowel_Shift)
+todayilearned,ffd9s4h,t1_ffd8o8b,1579816228.0,"Some of them do, but also spelling was just super inconsistent back then. /É™/ can still be spelled with just about any letter, and it was the same back then except they might not even be consistent with the same word. It's unlikely that ""aftirward"" was pronounced with a /i/ because we also have the spelling ""after"" in other Middle English and even Old English texts."
+todayilearned,ffd9ge4,t1_ffd7lr5,1579816034.0,Spoken middle English is pretty much unintelligible due to the [Great Vowel Shift](https://en.wikipedia.org/wiki/Great_Vowel_Shift). But if you read written Middle English with modern vowel sounds you can often figure out what a lot of it is saying (especially late Middle English).
+todayilearned,ffd94zh,t1_ffd0azc,1579815850.0,"> Seems like it's pronounced like a really breathy 'o' that is a proto-'v'
+
+No, it's simply pronounced as /v/, the same as the modern letter. They just didn't make a distinction between the letters U and V back then."
+todayilearned,ffd6l9t,t1_ffd5uv7,1579814419.0,"Those are all just plot devices. Hodaka runs away and Hina's mother is dead so that they can be teenagers living alone in Tokyo. Hodaka finds a gun so that the police will be looking for him in the climax. Suga's wife is dead to create a parallel with Hina's disappearance.
+
+For the record, Garden of Words is one of my least favorite of his movies."
+todayilearned,ffd4w55,t1_ffd498b,1579813475.0,"They're not trying to say anything, his works aren't that deep. They're beautiful and emotional, but they have no underlying meaning. The only exception is 5 Centimeters per Second, which actually does have a meaning at the end about moving on and not getting hung up on past romances. You could try to argue that Your Name and Weathering With You have a ""love finds a way"" meaning, but I would argue that is Shinkai just wanting to have a happy ending for a change."
+todayilearned,ffd3vmz,t1_ffcujbm,1579812911.0,The themes are all pretty simple. They're about young lovers who are forced apart by fate.
+sports,ffd2b5k,t1_ffcsso6,1579812018.0,"I don't see anything like that in the [official rules](https://www.ittf.com/wp-content/uploads/2019/11/2019ITTFHandbook_v2.pdf) (sections 2.6 and 2.9). It looks like the only requirements after the ball is hit are that it bounces on the server's side and then on the receiver's side without touching the net. 2.9.1.5 describes some restrictions like what you three have said, but that only applies to wheelchair players."
+math,ffcs5ic,t1_ffbwxzz,1579806147.0,"No, Calc 3 is a one semester course."
+math,ffbt5at,t1_ffbrnwv,1579781803.0,What that lists as Calc 3 and Calc 4 would all be part of Calc 3 at most universities.
+math,ffbrel9,t1_ffbrbzp,1579779772.0,"That's calc 3, at least in the US."
+learnprogramming,ffbn3qx,t1_ffb4xk1,1579773642.0,"And now you have learned the trouble with weak types. Python is mostly strongly typed, but these are exceptions.
+
+`True` and `False` are always interned, so `foo is False` or `foo is True` are a reliable way to check that `foo` is exactly `False` or `True` and not some other falsey or truthy value. However this doesn't work for comparing to `0.0`."
+truegaming,ffblplt,t1_ff7ru5m,1579771504.0,"Okay, but you can't ignore the meta and then claim to know that the game is balanced, which is what the post above yours is doing."
+truegaming,ffblj2d,t3_eshjty,1579771224.0,"People have been saying this for over ten years. In fact real time ray tracing has been possible for awhile, it's just that it's so demanding that all the other graphics levels have to be very low, so the image overall looks much worse. And this is how it's always been, ray tracing is just not as efficient as rasterization, so whatever you can render with ray tracing you can render with rasterization faster and with more effects.
+
+Where ray tracing might see some use is in applying effects that rasterization can't handle well, like refraction, caustics, and shadows, on top of an otherwise rasterized scene. The thing is, this isn't new either. Every game engine has a ray cast function and it's used for a lot of effects (and gameplay, like hitscan calculations). All RTX does is allow more of these effects to happen, but the scene is still fundamentally rasterized."
+math,ffbl8u3,t1_ffb6ux7,1579770792.0,"> You can almost think of it as a ""Calculus 5"" course.
+
+Wait what topics would Calculus 4 be?"
+math,ffbktuf,t1_ff9lfo2,1579770149.0,"Turing surely would have recognized it as a power of 2, but would it's importance to computers have been recognized? As I recall binary computers weren't invented until a bit later."
+math,ffbkou0,t1_ffabhbo,1579769936.0,"His work during the war was still highly classified, so his vital contributions were not recognized except by a very small number of people."
+math,ffbkipo,t1_ff9hiyn,1579769682.0,"> The UK issued a royal pardon (the 4th ever) within the last decade.
+
+Wikipedia lists [at least 48](https://en.wikipedia.org/wiki/Category:Recipients_of_British_royal_pardons), and that doesn't claim to be a complete list either."
+smashbros,ffbgy96,t1_ff9mt0j,1579764824.0,"[Found it](https://www.youtube.com/watch?v=TJsYeSFE7l0), it's Brood Wars."
+ProgrammerHumor,ffbg7k2,t1_ffbfwg6,1579763892.0,"Mate, not every language is whatever language you've been learning (probably Java or C#). In C++ you can pass any type in whatever manner you want."
+smashbros,ffbg2en,t1_ff9pf1m,1579763713.0,Shit I don't think I won a set until like my fifth tournament.
+smashbros,ffbfviy,t1_ffazy16,1579763476.0,Blur said in a video awhile back that he has been pushing TOs to use Slippi and just not say anything.
+ProgrammerHumor,ffbfro0,t1_ffbff9x,1579763345.0,"The post above mine is talking about pass by value versus pass by reference, so we're clearly working in a language that let's you choose."
+videos,ffbciul,t1_ffb7u2p,1579759643.0,Same with Caribbean English.
+gaming,ffbcbvh,t1_ffaripu,1579759432.0,Because it was inspired by the SARS epidemic that started in China in 2002.
+Doom,ffb6xbb,t1_ffb5jjy,1579753432.0,It makes enemies a little bit stronger but it makes you a *lot* stronger. Pretty much everyone I've seen agrees that it makes the game easier overall.
+Doom,ffb5993,t1_ffarxe0,1579752146.0,I'm impressed you only needed 10 retries.
+Doom,ffb4sf1,t1_ffb06at,1579751791.0,"Brutal Doom gives you more powerful weapons, which makes the game easier, so why not?"
+Doom,ffb4o8h,t1_ffatimf,1579751701.0,They're definitely trying to force people to use more than two weapons.
+smashbros,ffb1hl0,t1_ffb0vdv,1579749443.0,"Also obligatory to post this:
+
+https://www.youtube.com/watch?v=YPAj-uOHH_g
+
+https://www.youtube.com/watch?v=ePf5uyKV9uc"
+funny,ffay1zp,t1_ffaljcx,1579747143.0,Mrs. Robinson
+ProgrammerHumor,ffaxbrp,t1_ffawd1t,1579746659.0,"As I said in another post, at this point it's no longer cheating, it's AI research."
+ProgrammerHumor,ffawc8x,t1_ffaw3fg,1579746003.0,"I mean you could make a bot that reads the screen and enters inputs through the controller, but at that point it's no longer cheating, it's AI research."
+ProgrammerHumor,ffaw5vz,t1_ffaptse,1579745887.0,It's mainly that having both creates a lot of potential confusion.
+ProgrammerHumor,ffavzfn,t1_ff95hm7,1579745767.0,You can see it to the left of the backdoor.
+ProgrammerHumor,ffavpoi,t1_ff9ez6m,1579745589.0,\*hwat
+ProgrammerHumor,ffavns9,t1_ffafqob,1579745554.0,It does make for cheat-proof games though.
+ProgrammerHumor,ffavj9e,t3_escjmy,1579745472.0,Donald Knuth wrote [a famous paper](https://en.wikipedia.org/wiki/The_Complexity_of_Songs) on this topic.
+ProgrammerHumor,ffav854,t1_ffash5x,1579745271.0,I think passing the universe by value my have some negative performance implications...
+ProgrammerHumor,ffaukli,t1_ff9nfyi,1579744831.0,"1. Right click.
+2. Open With.
+3. Select Notepad++
+4. Check ""Always use this application to open files of this type""."
+Animemes,ffan3yb,t1_ff9pxqp,1579739837.0,*Laughs in Professor Oak.*
+Animemes,ffamwht,t3_esd78h,1579739696.0,You know how a few drops spill out before the entire cup is knocked over? And how more drops spill out the faster you shake it? That's evaporation.
+Doom,ffamfgv,t1_ffalr5x,1579739373.0,"No, but visually it would fit very well into classic Doom."
+askscience,ffajhnc,t1_ff9d814,1579737268.0,"If it started at rest within the gravity well of the star then it would oscillate. However if it approached the star from outside the star's gravity well then it would escape back out. In practice since dark matter has no way to dissipate kinetic energy, essentially all of it is always moving fast enough that it will never be bound to a star."
+askscience,ffahtri,t1_ff9og6q,1579736074.0,"That's the point of the above posts. Matter clumps, dark matter does not. So average matter density is much lower than dark matter, but it clumps up into very high density (relatively) solar systems."
+learnprogramming,ffa5bn5,t1_ff9msjq,1579728179.0,"Smart pointers handle the memory management for you, but if you don't understand when to use pointers you won't understand when to use smart pointers."
+learnprogramming,ffa4sy1,t3_esdof4,1579727888.0,What is your code and what error are you getting? A simple Hello World program should work regardless of what C++ version you're using.
+Doom,ffa42zn,t1_ff9ydjo,1579727480.0,"I'm pretty sure the people complaining about the game looking too cartoony never played classic Doom, so I think ""ok zoomer"" is the correct choice."
+Games,ffa3a9d,t1_ff9vr6x,1579727025.0,"[""Nose to the grindstone""](https://en.wiktionary.org/wiki/nose_to_the_grindstone) is attested from 1532."
+smashbros,ffa1nzp,t1_ff9u2s8,1579726092.0,Ping Pong is such a good anime. I highly recommend it to anyone.
+smashbros,ffa1jdf,t1_ff9plcv,1579726017.0,Which Google location is he working at?
+AskReddit,ff9r6w9,t1_ff8x7jx,1579719280.0,"No, there are a few dubstep songs that I like too (though with much less of the wub). I just hate most of it."
+smashbros,ff8pz2n,t1_ff8n6q9,1579691111.0,">  but they're also extremely rare and there are only 2 spikes in all of melee that are actually useful for spiking (only 1 in the European version)
+
+Those are Marth and Falco's down airs, for those wondering. Less common spikes are the upper hitbox of Captain Falcon's down air (nipple spike) and Ganondorf's down B.
+
+There are also semi-spikes, which send at a horizontal angle (or very close to it). Due to gravity these appear to hit downwards, and are still very deadly. Those include Fox's shine, and and certain hitboxes on Pikachu and Ganondorf's up airs."
+AskReddit,ff8nxuy,t1_ff8iu0d,1579688110.0,"Rap and country...
+
+That's actually a lie, there are both rap and country songs that I like. But most songs that I don't *like* I at least tolerate enough that I would rather listen to them than nothing. But if there is a song that I would rather not listen to at all, it's statistically most likely either rap or country. Or dubstep I guess, but since that fad died down I almost never have to hear it."
+Games,ff8ngn4,t3_es8hpo,1579687375.0,"Ultra widescreen is kind of stupid for a lot of these games, there's nothing on the outside to see. And Mario Kart is like a 5:1 aspect ratio when you consider that the bottom half of the screen is the map. But it's really cool that this is possible, and a lot of the games look really good in 16:9."
+learnprogramming,ff8n3l6,t1_ff86nv6,1579686819.0,"> Asked, someone wrapped it in an async/await, and returned a promise, and it works all of a sudden, and I dont understand why it needed to be async.
+
+Without seeing your code it's impossible to give a definite answer, but it's important to understand that Javascript is singly threaded (per webpage), meaning that only one thing can be happening at a time. If you start something that will take time to complete, nothing else on that page can execute in the meantime (the page will freeze). Async-await provides a way to work around this by allowing tasks that are waiting for something external to complete (usually an HTTP request or a timer) to stop running so other tasks can run instead. This is called [cooperative multi-tasking](https://en.wikipedia.org/wiki/Cooperative_multitasking).
+
+It's likely your problem had something to do with this (or rather, not understanding this concept)."
+>>>>>>> b2c2856e21b6decdd12b8bdccd381cae2c58ec91

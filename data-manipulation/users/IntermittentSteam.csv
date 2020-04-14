@@ -1,0 +1,143 @@
+subreddit,self ID,parent ID,time,text
+todayilearned,ffmh817,t1_ffmbgoa,1580054667.0,"But if I choose my door and don't answer it, ever, and use a Lysol wipe to open it, surely I've reduced my exposure somewhat."
+learnpython,ffbqljr,t3_esqxj8,1579778749.0,"This is because of [PEP420 Implicit Namespace Packages](https://www.python.org/dev/peps/pep-0420/),
+which was adopted into Python 3.3+
+
+Note near the bottom, the PEP states:
+
+> If a developer knows that her package will never be a portion of a namespace package, then there is a performance advantage to it being a regular package (with an `__init__.py`). Creation and loading of a regular package can take place immediately when it is located along the path. With namespace packages, all entries in the path must be scanned before the package is created.
+
+So you're taking a performance hit. The differences between an Implicit Namespace Package and a normal package otherwise seem fairly inconsequential in normal use, but probably are worth learning if you're going to use them."
+todayilearned,ffbpc81,t1_ffbigsf,1579776990.0,"That's how offerings work, yes."
+worldnews,ff8ouhv,t1_ff8jbno,1579689471.0,"American here. Those really thin, “film” balls are reused many times by folks were I grew up.  My grandmother has a special tube hanging on the wall of her kitchen where she shoves the bags in to store, and then she uses them for everything from berry picking to carrying the mail back from the mailbox to lining small trashcans (their final use). All the neighbors do similarly. It's not unusual to be given a gift of excess vegetables from someone's garden in a film bag."
+science,fdssr1i,t1_fdsksx0,1578707462.0,"Peppers are fruits in the same way tomatoes are (berries, if we want to be specific).
+
+But in culinary terms, tomatoes are vegetables."
+UUreddit,fdshq9r,t3_emt9hw,1578702968.0,That link is for a template Order of Service...
+UUreddit,fdmxj3j,t3_em5boa,1578570267.0,"The other members of the board can remove a member:
+
+> [UUA Bylaws](https://www.uua.org/sites/live-new.uua.org/files/uua_bylaws_2019.pdf) Section 6.7. Resignation and Removal of Trustees.
+> A trustee may at any time resign by giving written notice to the Board of Trustees. Such resignation shall take effect at the time specified therein, or, if no time is specified, then on delivery. A trustee may be removed by a three-fourths vote of the entire Board at a meeting at which not less than three-fourths of the entire Board is present if in the opinion of the Board such trustee is incapacitated or unable to carry out the duties of the office or otherwise for good cause."
+todayilearned,fdissx5,t1_fdi7uwe,1578450246.0,"She's been a guest on MasterChef Junior with Gordon, too, so there's some celebrity (and I imagine she got paid)."
+AskReddit,fdirvoj,t1_fdib5fj,1578449654.0,"As an American with good health insurance....my doctor outright demanded that I not schedule a physical more frequently than every three years unless I've noticed a change or have some external need (e.g., a discount on insurance premiums). He said yearly is a waste of both of our time.
+
+I'm a middle-aged obese man with a family history of heart disease, cancer, diabetes, and several other potentially hereditary diseases."
+learnpython,fd9h49e,t3_ekcn57,1578233260.0,"I just switch keyboards with a hotkey when I want to type Greek characters. And for one-off symbols, I use [Compose key sequences](https://en.wikipedia.org/wiki/Compose_key#Compose_sequences) (on a Mac, many are available via the [Option key](https://www.webnots.com/option-or-alt-key-shortcuts-to-insert-symbols-in-mac-os-x/))"
+boston,fd5cwhi,t3_ek3bww,1578176381.0,Sideways carts should be standard whenever the line would otherwise interfere with shoppers.
+worldnews,fcvoltn,t1_fcvetbc,1578006607.0,A much better introduction of [convicted war criminal and child killer Eddie Gallagher](https://en.wikipedia.org/wiki/Eddie_Gallagher_\(Navy_SEAL\)) than the one on Wikipedia (which seems to be twisting itself up to avoid admitting that Gallagher was convicted of war crimes).
+UpliftingNews,fcow50k,t1_fcorzlc,1577843204.0,"How about 10,000 employees?
+
+Company A:
+
+* 1 x $2,000,000
+* 9 x $50,000
+* 990 x $40,000
+* 8,000 x $30,001
+* 1,000 x $30,000
+
+Top 10% = $40,250  
+Bottom 10% = $30,000  
+So a factor of 1.3 between bottom 10% and top 10%
+
+And company B:
+
+* 1  x $60,000
+* 9 x $55,000
+* 990 x $40,096
+* 8,000 between $31,000 and 40,000
+* 1,000 x $30,000
+
+Again, we have a much more pronounced wage divide in Company A than in Company B, but given this way of reporting they look identical.
+
+**edit** The thing about using the average of the top/bottom 10% is that it actually makes it easier to hide if you have a lot of employees by just ensuring that there is an income divide in that top 10%.
+
+Watch what happens if we assume the minimum anyone can make is $30,000 and that our board wants to keep our wage multiplier at exactly 2 while still paying our CEO the absolute most possible no matter how ridiculous:
+
+10 employees:
+
+* 1 x $60,000
+* 8 between
+* 1 x $30,000
+
+100 employees:
+
+* 1 x $330,000
+* 99 x $30,000
+
+1000 employees:
+
+* 1 x $3,030,000
+* 999 x $30,000
+
+
+While these are absurdly contrived, they show the flaw. A system like this is ripe for abuse. Any company will decide what they want their results to look like and then figure out who to fire or promote in order to achieve those numbers in the reports. 
+
+You need more data to have any idea what's going on. Knowing the highest and lowest individual compensations would be a very helpful additional data point. Or including the range in each 10% block (do the bottom 10% all make essentially the same amount? Do the top 10% have a vastly larger spread?)"
+UpliftingNews,fcobhyz,t1_fcn5mwc,1577828187.0,"A simple average (assuming arithmetic mean) is not great here without at least one more data point (e.g., standard deviation).
+
+Here's an example company A:
+
+* 1 x $2,000,000
+* 9 x $50,000
+* 80 x $35,000
+* 10 x $30,000
+
+Top 10% average is $205,000  
+Bottom 10% average is $30,000  
+So the top 10% is making about 7 times the bottom 10%
+
+But very different from example company B:
+
+* 1 x $225,000
+* 4 x $210,000
+* 5 x $197,000
+* 80 between $39,000 and $196,000
+* 1 x $38,000
+* 2 x $33,000
+* 7 x $28,000
+
+Which has the same top 10% average, bottom 10% average, and the multiple difference is thus the same.
+
+But in company B, wages are more evenly distributed from the bottom all the way up—contrasting the drastic wage divide seen in company A."
+AskReddit,fcmvo34,t1_fcmrk6h,1577794411.0,"Regina, Marquis, Noble, and Major look bored."
+AskReddit,fcmr3a0,t1_fcm5o1s,1577788051.0,"Baron, Bishop, Paige, Stuart, Patricia, Earl, Justice, Marshall, Harold, and Duke enter the chat."
+UpliftingNews,fcmpgtn,t1_fcm07fj,1577785741.0,"> Guess it's a cis-male thing, no lipstick.
+
+Plenty of cis-males wear lipstick. Obvious examples would be drag queens and goths."
+AskReddit,fcmhk49,t1_fcmgomj,1577775533.0,"
+5 million = 5,000,000  
+5 milliard = 5,000,000,000  
+5 billion = 5,000,000,000,000"
+todayilearned,fcmgnm4,t1_fcmf1kc,1577774542.0,"$1 for a bottle or can, $2 for a basic pour/draught, $5 for a mixed drink, always in cash after each drink. 
+
+What's odd is that I've not adjusted those amounts at all in the past 25 years since my first trip to a bar while in university. A professor took a small group of us out and taught us the basics (part of a business communication course, preparing us for the inevitable drinks with a client)."
+todayilearned,fcmga2i,t1_fcmes3d,1577774143.0,"I call it a broken system because it inherently reinforces wage discrimination. Two people don't exactly the same work for the same amount of time will get paid wildly different amounts based on their apparent race, sex, and physical characteristics. That's wrong."
+todayilearned,fcmemdm,t1_fcme7go,1577772455.0,"No reason they can't continue making way over minimum wage without tipping.
+
+I was taught to always tip the bartender $5 per drink. So my $8 drink is actually a $13 drink. Change the price to $13, adjust the wage accordingly, and we're all set."
+todayilearned,fcme8lx,t1_fcl553a,1577772082.0,"It's not untaxed. But under the current system, we're relying on the record keeping and honesty of every individual tipped employee.
+
+Call me cynical, but I suspect many are under-reporting their income."
+todayilearned,fcmdn2z,t1_fclxuqj,1577771524.0,"The U.S. Federal minimum wage for tipped employees is $2.13/hour. The federal minimum wage for non-tipped employees is $7.25/hour.
+
+Generally, if tips are insufficient to cover the difference (i.e., at least $5.12/hour), the employer must pay the higher rate.
+
+But it's just a broken system. Attractive people get bigger tips. Women get bigger tips. Tips are often in cash, making them difficult to get accurate reporting (which is sometimes abused to avoid income taxes, and other times abused by the employer skimming the tip jar).
+
+We need to eradicate tipping culture and just have prices and wages that make sense and are fair and equitable."
+AskReddit,fcm8tqb,t1_fcltre8,1577767324.0,"Only in “short scale” regions. 
+
+1,000,000,000 is 1 billion in the U.S. but not everywhere.
+
+ 1,000,000,000,000 is 1 billion in “long scale” regions (which not all that long ago would have included England)."
+AskReddit,fcm7vhx,t1_fcm7e48,1577766556.0,"I wasn't sure, but after reading that definition I am now. That's not what survived means."
+todayilearned,fclejms,t1_fcl3l6g,1577745966.0,"It's called jargon.
+
+And it's why tomatoes are fruit (in botanists’ jargon) and vegetables (in everyday use)."
+science,fcj0pjc,t1_fcimyjb,1577674387.0,After marriage?
+boston,fc66lch,t1_fc5z6od,1577473445.0,"St. Louis Public Library
+
+
+.
+
+.^(wouldn't that be something?)"

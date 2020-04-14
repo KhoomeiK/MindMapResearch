@@ -1,0 +1,100 @@
+subreddit,self ID,parent ID,time,text
+worldnews,ffjonsp,t3_etvg18,1580003124.0,What’s the fatality rate of this versus the flu?
+iphone,ffjnhi4,t1_ffjm702,1580002332.0,Update through iTunes
+technology,ffjkic4,t1_ffizlib,1580000308.0,Don’t you mean schtoyle?
+comedyheaven,ffj8nfc,t3_etwz54,1579993064.0,This is how I know we aren't even close to true AI
+RedditForGrownups,ffj49ue,t3_etuw93,1579990012.0,An ex's cousin took in a trashy couple that they sort of knew after they got kicked out of another place. The trashy couple ended up killing the cousin and the partner.
+todayilearned,ffj12vm,t1_ffiqzma,1579987722.0,Food would basically be one of the few things worth anything if the economy collapses
+mildlyinteresting,ffiupok,t1_ffi32wg,1579983198.0,Chainsmoking cats is the only explanation for this
+mildlyinteresting,ffimyon,t3_etrwwm,1579977746.0,/r/ShittyFacts
+gadgets,ffijf8d,t1_ffi38u3,1579975300.0,"It doesn't even matter that it's an iPhone. The same tool (if it's Pegasus) works on Android too
+
+There's also no conclusive evidence the OS on the phone was compromised, it may have just been limited to whatsapp."
+AskReddit,ffesw3c,t1_ffesuj8,1579863959.0,haha
+todayilearned,ffdgqa3,t1_ffd4zfe,1579820510.0,yeah they're FAR FAR FAR cheaper than the hospital. You only go to the hospital when it's life or death
+todayilearned,ffckpx1,t1_ffbnuy4,1579801527.0,"Yeah I'm gettin' real tired of these near worthless one dimensional statistics getting plastered all over headlines. They don't even just report on the numbers, they tell you how you should feel about it (which is, of course, outrage)."
+iphone,ffc285k,t1_ffc1tns,1579789701.0,"I mean the passcode protects user data, not the OS. What protects the OS is apple's code signing key (among other things). So this is kind of the same issue as the FBI one. They would have to build a legit signed ios version with a backdoor that would allow easy access to root. And then once it gets out everyone's security is fucked."
+iphone,ffc1o5o,t1_ffc158p,1579789285.0,"I guess it would be the same as the ""encryption backdoor"" issue, where if apple does something to easily access the root, then any bad actor would be able to do the same.
+
+I'm also interested to see what the final word will be. There's a big difference between whatsapp spilling its data because of a bug, and the whole OS being compromised remotely without user interacion"
+iphone,ffc0u7b,t1_ffbzjy0,1579788654.0,"From some further research, it looks like Pegasus will stop and remove itself if it can't root the ios device, so the phone may actually have in fact been compromised just by that video file that didn't even need to be opened. That's scary stuff.
+
+Still, we don't know for certain that it even was pegasus"
+iphone,ffc0o9m,t1_ffbzj0x,1579788527.0,"That statement is just saying that a video file was sent unsolicited and that they have additional notes to confirm it, along with the report."
+iphone,ffbx5x5,t1_ffbwraa,1579785659.0,"https://www.vice.com/en_us/article/v74v34/saudi-arabia-hacked-jeff-bezos-phone-technical-report
+
+From the looks of it, any app can call nsurlsession and so could be used without an OS exploit. Exfil with mobile safari would be another story, though"
+iphone,ffbw3yn,t1_ffbtfyt,1579784720.0,"Looks like the media once again is spouting inaccurate statements. Here is the text verbatim from the report:
+
+>Advanced mobile spyware, such as NSO Group's Pegasus"" or Hacking Team's Galileo, can hook into 
+legitimate applications and processes on a compromised device as a way to bypass detection and 
+obfuscate activity in order to ultimately intercept and exfiltrate data. The success of techniques such 
+as these is a very likely explanation for the various spikes in traffic originating from Bozos' device. For 
+example, more than 6GB of egress data was observed using exfiltration vectors such as nsurlsession, 
+Mobile Safari, and Apple's email client following the initial spike on May 2, 2018. It should be noted that 
+these types of advanced Cyber tools are typically employed by sophisticated nation-state actors. An 
+investigation into Saudi Arabian sponsored hacking activity demonstrates many examples of 
+sophisticated espionage tools such as those provided by NSO Group or Hacking Team being used to 
+spy on dissidents and political adversaries. 
+
+So mobile safari and the email client are potential exfiltration vectors, but it doesn't mean that the OS was compromised and that they were in fact being used.
+
+Also:
+
+>FTI will gain access to and conduct a forensic examination of the root filesystem of Bezos' 
+iPhone X byjailbreaking it prior to analysis. Advanced weapons grade mobile malware 
+typically installs itself to the root filesystem of a device to maintain persistence and avoid 
+detection. Identifying evidence of malicious artifacts on this portion of the device could 
+validate if an infection existed and corroborate evidence presented in this report. 
+
+and
+
+>FTI also conducted an in-depth investigation of the artifacts related to the iPhone X's logical file 
+system from the redacted Cellebrite report, and audited 274,515 directories, subdirectories, and 
+filenames. Special care was taken to identify evidence of jailbreaking28 tools and known iOS exploits 
+tools.29 After a comprehensive review of the logical file system and a validation of all false positives, 
+FTI assesses with medium confidence that no evidence of these types of tools were identified on 
+Bezos' iPhone X to date. As previously stated, lack of evidence of malicious tools of this nature does 
+not refute their existence since sophisticated malware often contains self-destruction capabilities 
+that may activate if certain conditions or objectives are met. 
+
+So really, they don't know if the OS was compromised. Which would be necessary for exfiltration using mobile safari or the email client."
+mildlyinteresting,ffaz33e,t1_ffaycoj,1579747822.0,"Yeah now any tweaks will probably be undone by a forced version upgrade, so it hardly feels worthwhile going through the list of services and disabling the ones you don't need or whatever. I think black viper still updates the stuff for windows 10, though"
+RedditForGrownups,ffatgaa,t1_ffa1ztv,1579744093.0,I'll be speechless if he gets reelected. The societal rot in order for that to happen has to be severe
+mildlyinteresting,ffat1fg,t1_ffafml4,1579743817.0,"Nah you could upgrade with this one, it just cost more dough than the upgrade edition, so you would be wasting money"
+iphone,ffa7ah5,t1_ffa63ok,1579729268.0,"Nope, it was solely constrained within whatsapp and whatever whatsapp had access to, as far as I can tell. So the iPhone did its part in being secure in this instance. But whatsapp usually has access to a lot of things: mic, camera, photos, contacts, for obvious reasons.
+
+This flaw is also not limited to just iphones, it affects android versions of whatsapp as well: https://www.zdnet.com/article/attackers-using-whatsapp-vulnerability-triggered-by-video-files-can-remotely-execute-code/
+
+So the media is fucking lazy at best and least disingenuous when it points out that he had an iphone x as if it had anything to do with the fact that it got compromised."
+AskReddit,ffa46rf,t3_esbeba,1579727540.0,They’re fine. The savings in airfare with how they are now versus if they were posh resorts pays for a lot of therapy to help you get over whatever inconvenience you faced at the airport.
+AskReddit,ffa3fo6,t1_ff9cfeg,1579727112.0,I got a cheap wristwatch that I wear when flying. Totally worth it
+iphone,ffa0m20,t1_ff9rnfs,1579725474.0,"The iPhone itself didn’t get exploited. A flaw in WhatsApp did. The media is too stupid, lazy, or just wants more controversy bucks by making it seem like iPhones are insecure.
+
+Edit: It actually looks like the jury is still out on whether the OS got compromised
+
+https://www.reddit.com/r/iphone/comments/esgbyw/anyone_notice_that_jeff_bezoss_hacked_phone_was/ffbw3yn/"
+iphone,ff9xlo1,t1_ff9x9ze,1579723706.0,"Seems like the SEs just had subpar batteries. Or maybe it's related to the fact that I have it in a case and it would retain more heat, but I don't think it makes that much of a difference. Was yours in a case?"
+iphone,ff9xb4u,t1_ff7wph2,1579723527.0,"holy shit guys, I think I know who really planned 9/11"
+gadgets,ff9x0hs,t1_ff9wngh,1579723345.0,"Nah just the fact that it's cheap, recent, apple, and will get 4 years of software updates will entice a lot of people. Paying 1k for an iphone is absurd to me, even if I prefer it over android, but around $500 is worth it
+
+Or I might be totally wrong and it will floudner because consumers are distracted by shiny stuff, IDK"
+iphone,ff9wgq2,t1_ff88ebc,1579723009.0,How old? I've had 2 SEs and around 1.5 years the battery got fucky and both were at around 85%
+iphone,ff9w7my,t1_ff7u84b,1579722855.0,"I went to replace my battery and they fucked it up, so I got a brand spanking new one, in 2020. Guess I'll ride it til IOS 14 comes out or something."
+ios,ff9vuja,t1_ff8w996,1579722627.0,"hard reboots are bad, it's like pulling the plug of a PC. Then who knows what got corrupted and what will be fucky wucky in the future. I don't know why this myth is so popular."
+gadgets,ff9vk3m,t1_ff9npth,1579722438.0,I'll take two
+mildlyinteresting,ff9vcu1,t3_esgkzj,1579722302.0,"That's far more funny than the awkward and slightly crass ""we always hated you"" type stuff"
+todayilearned,ff9v4ua,t3_es9h8a,1579722147.0,I can only imagine if they had some outsourced call center
+technology,ff9974p,t3_es1627,1579707735.0,Explorer even got ads for OneDrive a year or so ago. Fuck this trend
+technology,ff991b5,t1_ff8zxtw,1579707633.0,Even bezos knows fireos is absolute trash
+technology,ff98vza,t1_ff7t74b,1579707540.0,Is it called the big dicc club perchance?
+technology,ff8ycmi,t1_ff7v9jf,1579700004.0,"This really should be higher. I’m not a fan of HP or any big corp, but this is not outrage worthy. Let’s stick to fighting the real battles.
+
+I'm sure this detail (which is kind of obvious it would happen if you think about it) was in the terms. Also, if they let people keep using the cartridges after the service was cancelled, everyone and their mom would just sign up for just a month and then cancel."
+AskReddit,ff8uv6g,t1_ff8u84e,1579696882.0,"Was just one of those witty internet comments, don't take it too much to heart. But defense mechanisms are to avoid discomfort and you said you get uncomfortable being silent, so maybe it would be worth digging deeper? Unless you're cool with being known as the talky person"
+AskReddit,ff8uac4,t1_ff8sgh6,1579696316.0,"I know a couple of these. They really just keep their emotions at arms length. Under the surface there there are a lot of built up negative emotions that were never processed or acknowledged. I think it's the fakeness that makes them ""boring"" but really, I kind of feel sorry for them; it's no way to live.
+
+This is just from being a casual people reader. Of course this doesn't apply to everyone."
+AskReddit,ff8r9te,t1_ff8nmtv,1579692875.0,"Sounds like an unmet need and a counterproductive defense mechanism, bro"
+AskReddit,ff8r4nn,t1_ff8g42y,1579692693.0,Yeah
+mildlyinteresting,ff6x73q,t3_ersss6,1579636736.0,Yeah the sun imparts like 1000W worth of power per square meter on us. An impressive amount if you think about it.

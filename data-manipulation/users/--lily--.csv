@@ -1,0 +1,312 @@
+subreddit,self ID,parent ID,time,text
+Android,ffhdt21,t1_ffhdreo,1579931193.0,"ah I see, that is definitely important context."
+Android,ffh0ptd,t1_ffgiaju,1579919994.0,"i feel like it's really fair. they've got a reasonable amount of messages and stuff for free users, and it resets monthly. they gotta make money somehow, and that just means they're more likely to be good with your data"
+3Dprinting,ffe0h9k,t3_esv1g0,1579833519.0,does BAAM by any chance stand for big ass additive manufacturing?
+ender3,ffdtfzs,t3_et1wh8,1579828494.0,"that's called the extruder. things to try:
+
+take that little brass gear out, its attatched by 2 black grub screws, and clean the teeth
+
+make sure the nozzle isn't way to close to the bed and it's actually pushing plastic out
+
+if plastic is coming out inconsistently or anything, you may have a clog
+
+the black plastic arm its attatched to is shitty, doesn't tension enough, and can crack. so check it for cracks.
+
+print one of these https://www.thingiverse.com/thing:3066664
+
+and you should really buy the aluminum extruder arm, the plastic one is going to break, it's just a matter of time https://www.aliexpress.com/item/32834380573.html?spm=a2g0o.productlist.0.0.31d5411e1cSnrg&algo_pvid=aff97ecd-7154-43aa-918b-659d401f9b09&algo_expid=aff97ecd-7154-43aa-918b-659d401f9b09-0&btsid=d11f66e5-5af2-4552-ac85-2f2c42a89aee&ws_ab_test=searchweb0_0,searchweb201602_3,searchweb201603_53"
+ender3,ffbldhh,t1_ffbin57,1579770987.0,"I'll let you know if I think of anything else too, which I probably will! I hit the 10k character limit there so I sorta had to shorten a few things"
+ender3,ffawnjs,t1_ffarkq0,1579746214.0,"calibrate your esteps, just google for a guide.  really hard to say without a better photo, can you borrow a phone to take a pic with?"
+ender3,ffauboa,t1_ffapyvs,1579744668.0,"for the ender 3 in general? oh boy so many, i set mine up on christmas day and have been nonstop printing since. prepare for some rambling. 
+
+first of all throw the assembly guide out. it's garbage. literally don't even bother. follow along with this instead https://www.youtube.com/watch?v=me8Qrwh907Q
+
+before I forget, the printer comes with a tiny amount of plastic to test it, but not enough to print it. stick to pla at the start, then petg is superior in a lot of ways, but not that much better, and harder to print. i'd stay away from abs if i were you, it's dirt cheap, but stupidly hard to print without a temp controlled enclosure. amazon basics or hatchbox is good if you're in the us and want something that'll arrive quickly. if you can, get something that isn't stupidly bright or dark, makes it easy to spot errors when you're just starting out. 
+
+one thing that's super important to note before you even start printing is that the ender 3 has no thermal runaway out of the box. that means that if something happens to the temperature probe in the hotend, it'll read 0c, think ""hey I need to be at 200c"" and put more power thru the heater. But the probe is broken, so it keeps reading 0, so the printer keeps getting hotter, and so on and so forth. This is known to start fires. you'll need an arduino uno or a raspberry pi to burn a bootloader to flash firmware that has thermal runaway. it seems complicated but if you just follow along with a guide, it's actually quite simple. no matter what you do, the worst thing you can mess up is the bootloader, in which case you'll just have to burn it correctly then flash firmware again for the printer to work. you can't brick the board.   https://howchoo.com/g/mge1mdfkzjv/ender-3-bootloader-firmware-update-marlin
+
+get any cheap arduino uno clone if you don't have one so you can burn the bootloader, plus figure out which cables you'll need for burning the bootloader and get those toohttps://www.aliexpress.com/item/32964588171.html?spm=a2g0o.productlist.0.0.355f7a41dG2WBt&algo_pvid=1139c062-bf05-429c-916c-c3ae163d8b13&algo_expid=1139c062-bf05-429c-916c-c3ae163d8b13-5&btsid=fe5f7c84-42a0-4a65-8d1f-910fe217b68e&ws_ab_test=searchweb0_0,searchweb201602_3,searchweb201603_53 
+
+till you have thermal runaway protection, don't leave the printer unattended.
+
+the one other saftey checks you should do are making sure the x60 power connector is crimped, not soldered, and doesn't get warm during use, and that the mobo wires in the green terminals aren't tinned. 
+
+https://www.youtube.com/watch?v=4yDp9frWkcg I think this video has all the relevant info. 
+
+https://ps.reddit.com/r/ender3/comments/awo8ae/psa_check_the_screwed_in_connections_on_the/
+
+
+
+---------
+
+**Everything after this is optional. it can wait till your printer is set up, nothing has to be done day 1.** 
+
+---------
+
+give these a watch for getting your printer dialed in the two most important ways, bed leveling and esteps 
+
+https://www.youtube.com/watch?v=5eqTmb01cBk
+
+https://www.youtube.com/watch?v=JJLCAdAKPkg
+
+_____
+
+**Printed parts**
+
+some sort of filament guide. pretty much essential. I use the first one but i'm gonna get the second going today. if you have a 608 bearing laying around it's way better. they're cheap on aliexpress and really useful, so it might be worth buying 10 for a few bucks anyways. the filament enters at a really steep angle, which makes it harder for the extruder to work and grinds away at the plastic arm, which leads to contaminants and tons of wear. 
+
+https://www.thingiverse.com/thing:2917932
+
+https://www.thingiverse.com/thing:3052488
+
+anti vibration feet are pretty important for stopping issues like ringing. I'm gonna figure out making feet from some spare foam, but I use these right now and they definitely help. 
+
+https://www.thingiverse.com/thing:2913473
+
+some kind of anti snag. cable chain is better, but uses more materials.
+
+https://www.thingiverse.com/thing:2940855 (if you use the anti vibration feet, you'll need a longer one. I whipped one up in tinkercad, if you ever need that just hit me up)
+
+
+https://www.thingiverse.com/thing:2920060
+
+this knob. holy crap, it made such a huge difference. there's plenty of times where you have to spin the knob like 10 times around, which is horrible with the stock knob. one of the first things I printed and my absolute favorite mod. 
+
+https://www.thingiverse.com/thing:3090591
+
+this is the level test I use, works nicely. I adjust the knobs as it takes two or 3 loops around then check my results with the circles. comes with an stl and a  .gcode, don't bother slicing the stl, just use the gcode file cuz it's set up for your printer already
+
+https://www.thingiverse.com/thing:2987803
+
+you should seriously buy the metal extruder, like day one, but until then, printing at least the 0.5mm version of this will help the shitty plastic extruder actually get a grip 
+
+https://www.thingiverse.com/thing:3066664
+
+the mobo fan is in a horrible location and will get plastic in it unless you print a cover like this. you can find psu fan covers on thingiverse too, they'll help quiet the fan. just search there.
+
+https://www.thingiverse.com/thing:2935204
+
+exposed pcbs are bad, you should probably print this cover. looks really nice too. there's versions that cover the buzzer if the sound is too loud for you
+
+https://www.thingiverse.com/thing:2858209
+
+check the stuff on here too https://ps.reddit.com/r/Ender3/wiki/modifications
+
+_____
+
+**Parts to Buy**
+
+ yellow bed springs and a metal extruder are just imo essential. the stock springs are so weak and the bed loosens so quickly, and the plastic extruder will crack on you, it's only a matter of when. the springs are actually 25mm, my bad. get 10, they'll come in handy for a lot more stuff. 
+
+https://www.aliexpress.com/item/32951835638.html?spm=a2g0o.productlist.0.0.13303e419SfEgU&algo_pvid=0ebf01b6-618d-465c-8707-6ebdf5b72a3b&algo_expid=0ebf01b6-618d-465c-8707-6ebdf5b72a3b-0&btsid=7b75b50a-93f1-4072-b911-a406cd96057c&ws_ab_test=searchweb0_0,searchweb201602_3,searchweb201603_53
+
+https://www.aliexpress.com/item/4000016452750.html?spm=a2g0o.productlist.0.0.4fab7c37rn7jXj&algo_pvid=42e50c19-4c53-48ad-9ffe-b7ea1d17d990&algo_expid=42e50c19-4c53-48ad-9ffe-b7ea1d17d990-18&btsid=3ef4d001-28c3-4255-a2ed-efa59b0d6be9&ws_ab_test=searchweb0_0,searchweb201602_3,searchweb201603_53
+
+the stock bowden couplers on the printer are total shit, but I couldn't tell you off the top of my head which connectors to buy instead. I'm sure you can figure it out googling tho. you should get steel ones, not brass. at some point you'll want to get a new ptfe tube too, just google for the right diameter and buy one off aliexpress. either buy a cutter for ptfe or print this one, do not freehand it  https://www.thingiverse.com/thing:3427170
+
+I bought some spare wheels and nozzles, just because they're a consumable and I don't wanna have to wait a month for shipping if mine break.
+
+https://www.aliexpress.com/item/32868193117.html?spm=a2g0o.detail.1000014.9.28523f4biDZ73Z&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.13338.142407.0&scm_id=1007.13338.142407.0&scm-url=1007.13338.142407.0&pvid=38942e5d-1273-4103-ba54-691a53e6f858
+
+for nozzles, 0.4 is stock size, smaller ones print slower but more detailed. i'd say get a 0.2 and a 0.6 to play around with, and another 0.4 or two. they won't wear very quickly, but sometimes it's easier to replace one than clear a really nasty clog, and if you're printing anything with additives like carbon fibre plastic or glow in the dark or metal filled plastic, you'll wear thru brass nozzles stupid fast. you need to make sure the nozzles say mk8, do not buy volcano or v6 nozzles, they won't fit. 
+
+then non printer parts to keep around. buy some 608 bearings, there's so many things that use them, they're super standardized, and dirt cheap. if you get ones with a plastic shield, just remove it with a screwdriver or something, most come shielded but for our applications low resistance is important, not resistance to water and contaminants. 
+
+i'd also hop on amazon or something and get a kit of m3 and m4 screws, washers, and nuts in various lengths. you'll need them for printer upgrades and potentially printed stuff. I consider m3 and m4 screws a must, but they might not be for your stuff. if you do get them, spend a couple bucks for some of these too, so you can screw strongly into your prints. one of those things that's really good to keep around for the day you do need them so you don't have to wait months for china shipping. https://www.aliexpress.com/item/33003887129.html
+
+
+you should also think about getting some silica gel packets. even pla plastic absorbs water over time, albeit way slower than abs or other stuff, and you should store it in a cardboard box with some silica gel if you're not using it. 
+
+____
+
+some youtube channels you should follow, for tips and just seeing cool 3d printing stuff
+ 
+https://www.youtube.com/user/TheMakersMuse
+
+https://www.youtube.com/user/beginnerelectronics chep does lots of stuff for the ender 3 and the cr10 (most of the cr10 stuff is applicable, they're pretty similar.)
+
+https://www.youtube.com/channel/UC5Lbnd97HV3rU98gcwHklzQ also lots of ender 3 content 
+
+https://www.youtube.com/channel/UC_7aK9PpYTqt08ERh1MewlQ
+
+
+https://www.youtube.com/channel/UCbgBDBrwsikmtoLqtpc59Bw
+
+______
+
+holy shit sorry, that was a bit of an information overload. Did not mean to write that much lol. all you need to digest is the top assembly and safety stuff, the rest can wait till you've started printing. if you've got any questions or anything, feel free to ask! I've only been printing for a month but i'm pretty frickin passionate and tend to get way too deep into any hobby I like, so I'm happy to answer."
+3Dprinting,ffaq8pi,t3_eslcuv,1579741945.0,can you post a photo?
+ender3,ffaq5rg,t3_eslknf,1579741892.0,"what exactly have you tried? and we're gonna need a clearer picture ideally with flash on, so we can see individual layer lines. I'm betting underextrusion, so esteps or a partial clog or extruder slipping."
+ender3,ffapvh6,t1_ffapqfv,1579741698.0,"ive never printed on polyprop, just the creality glass bed, which is nice but I wouldn't have bought it if it wasn't bundled in with the printer. worst case with polyprop, it turns out bad and you go to a hardware store and get them to cut you some window glass for a couple bucks. Or, if it isn't working for you, put blue painters tape down and print on that."
+ender3,ffaplp8,t1_ffapjwq,1579741514.0,"on the 1st gen ender 3s they were attached with adhesive to the aluminum plate, but anything you buy new now will have a magnetic plate."
+ender3,ffapi1j,t1_ffaoe3p,1579741445.0,ah who even knows. people downvote stuff for no reason sometimes.
+ender3,ffapgu4,t1_ffao78r,1579741423.0,"all you gotta do is take off the stock build surface, plop the glass down, and secure it with some binder clips or something"
+ender3,ffan2ed,t1_ffabe0t,1579739807.0,"Maybe I'm used to the Arduino ecosystem but firmware was dead simple. Wire up an Arduino uno like it shows in a picture, burn the bootloader which is a couple clicks, grab th3d firmware, use the batch file and let opens in a custom Arduino ide with everything you need, uncomment the ender 3 stuff as specified in a guide and hit flash. It's a bit harder once you get into modifying the firmware but just flashing something stock ish is super easy.
+
+Esteps was an hour of running filament thru the extruder doing other stuff, used cheps cura profile which mostly just worked till I learned enough to modify. The only hurdle for me is still learning how to adjust the wheels perfectly"
+ender3,ffamewf,t1_ffalnaq,1579739362.0,"Seconding the skr mini e3. Total drop in replacement. Don't buy the creality silent board, the mini is cheaper and works just as well if not better.
+
+Then you honestly need upgraded bed springs (yellow 20mm) and the red metal extruder upgrade. You won't need either immediately so buy them from china off AliExpress or something, but in the long run they're essential and dirt cheap. Better Bowden connectors are one I've heard are important too tho I haven't needed them yet, but they're cheap enough you should get."
+Games,ffa6itq,t1_ffa58is,1579728842.0,"okay so scratch me having that, I have her 100ft 3.5mm male-male cable, not the hdmi. but it was a fully passive cable, and she played a bunch of osu on it, which needs latency compensation dialed in within milliseconds. it added at most a few ms compared to a normal hdmi cable with the same tv and pc."
+Games,ffa544w,t1_ffa4z2y,1579728062.0,oh dang yea I forgot how big the next generation of consoles are shaping up to be. Super curious to see how large the ps5 is
+Games,ffa41ly,t1_ffa3w47,1579727459.0,"Fair enough, tho I was thinking closer to console footprint, in which case it's significantly harder (but obviously possible with some planning) to build your own. but yea absolutely, I should have said if you're fine with a slightly larger build you won't run into any problems.
+
+
+I was thinking like this size
+
+https://www.amazon.ca/FRACTAL-FBA_FD-CA-NODE-202-BK-Fractal-Design-NODE/dp/B00ZANF3GI/ref=sr_1_3?keywords=fractal+node+202&qid=1579727484&sr=8-3"
+ender3,ffa3um8,t1_ffa3j2a,1579727350.0,"it's pretty easy. https://letsprint3d.net/how-to-calibrate-the-extruder-steps-ender-3-5-cr-10/
+
+give it a shot, and let me know if you run into any snags :)  I redid it over and over till i was within a fraction of a mil from the 10cm it would have extruded, took me maybe 5 passes tweaking bit by bit. 
+
+if that doesn't fix it, you might have a partial clog or blockage in your hotend potentially. I've never had to deal with that myself but i'm sure you can find a guide by googling it pretty easily."
+Games,ffa36nm,t1_ffa2qaj,1579726968.0,"agreed, but sff pcs tend to have a pretty crazy price premium. I was always a fan of steam link and running ethernet over powerline adaptors or just printing some of these and running it on my floor 
+
+https://www.thingiverse.com/thing:1182945"
+Games,ffa332c,t1_ff9woig,1579726910.0,"I dunno about that, my gf has a 100ft cable she left at my house. I can dig it up and test it if you're curious. She used to use it all the time and said it worked great."
+AgainstHateSubreddits,ffa2gsu,t1_ffa2a44,1579726556.0,"Yea, my partner and I are both trans and have autism, and while it's probably more that we ended up together because of having that in common, it's certainly made me curious about a potential link. I know a crapton of neurodivergent trans people.  here's hoping all this stuff gets figured out in our lifetimes."
+AgainstHateSubreddits,ffa20cs,t1_ffa0v6d,1579726290.0,"> autism has like something to do with an imbalance in gut bacteria iirc
+
+there's been a couple studies, but nothing even close to conclusive. we really don't know what causes autism yet. I think none of them really made claims it was a causal link either, so it could be stuff like people with autism on average eat a less varied diet because of sensitivity to food textures and smells, which leads to certain gut bacteria. 
+
+there's also some very preliminary stuff between estrogen levels in the womb and autism, and while there isn't any known link between prenatal estrogen levels and anything trans related, it's certainly an interesting thought.
+
+plus a bunch of other theories for what causes autism."
+AgainstHateSubreddits,ffa1oml,t1_ff9ilvo,1579726102.0,"Yea, the only kind of actual trans porn I'm really comfortable consuming is from people I personally know on their personal onlyfans page or something. There's lots of people making really really trans friendly content, but fuuuuuck stay away from mainstream sites and most free content in general. I kinda stopped watching porn after I started hrt tho anyways, but fuck have I ever seen some shit."
+AgainstHateSubreddits,ffa1hsc,t1_ff9evuk,1579725991.0,"fuck, I admire that so much."
+ender3,ff9yrys,t3_escz2m,1579724400.0,"No, that definitely isn't official creality. Did they ever claim that? They've got great feedback and ebay buyer protection is bulletproof so there's nothing to worry about. Chinese sellers have weird names all the time."
+ender3,ff9y8sc,t3_esgqew,1579724088.0,calibrate your extruder steps
+worstof,ff9p0y5,t1_ff8p7ik,1579717682.0,"6 months, then just t blockers for another 6 before that."
+WinStupidPrizes,ff8ca7d,t1_ff8c67u,1579672675.0,"Yea, riding a giant trance, but I demoed a reign too and pedaling was just too brutal even tho I was in way better shape than I am now. It's a nice midpoint imo"
+WinStupidPrizes,ff8c0av,t1_ff7w9po,1579672397.0,"Hell I've been hucking 4 foot flat drops on my 140mm trail bike, been a damn good way to condition myself into not fucking that up
+
+Love to try some dh soon tho. I'm in the koots so no shortage of gnarly stuff I'm way under biked for"
+BeansInThings,ff8650r,t1_ff734xg,1579667064.0,ive seen too many pics on /r/LushCosmetics with beans growing from people's drains lol
+worstof,ff8567x,t1_ff850uz,1579666287.0,"I wouldn't really agree with that either. Again, there's no real criteria for being trans, that's just a term for someone with gender incongruence/dysphoria who is transitioning or wants to transition, or someone without dysphoria who wants the same, or anyone who is anything other than their assigned at birth gender. There are cis people who have gender dysphoria who don't want to transition, having gender dysphoria doesn't make you trans, and being trans doesn't mean you have gender dysphoria. 
+
+so no, the actual brain part, gender dysphoria/incongruence, isn't always a medical need."
+worstof,ff84qk5,t1_ff84l5m,1579665948.0,"> Transness has to be neurological in the same way every condition involving the brain and ones sense of self is
+
+i mean yes in that case literally everything is neurological. Happiness, sexuality, my favorite color, food preferences. Of course. I'm just saying that study's conclusions are not to be used to actually define or diagnose gender dysphoria/incongruence."
+3Dprinting,ff80pkf,t1_ff80nbm,1579662957.0,"you too, actually. pinging me a day after arguing with me just to make an obviously bad faith argument? but i'm not gonna cry about it, just block you and move on."
+3Dprinting,ff80hry,t1_ff808nj,1579662803.0,"hey, fuck off :) I made it pretty clear I was just agreeing with what another user said about it being a boy's club, and that i've had some negative experiences, not that there's anything wrong with printing boobs or a dick. print what you want dude"
+WinStupidPrizes,ff7u21h,t1_ff77fav,1579658366.0,"oof yea, as a mountain biker i was cringing the entire time. you just gotta send drops or you're gonna eat shit lol"
+worstof,ff7tlzh,t1_ff7jxx3,1579658058.0,"god exactly. since starting to transition, my dysphoria has been near zero many days. it's almost like treating gender dysphoria with the recommended treatment (hormonal and social transition) works lol"
+worstof,ff7tf9k,t1_ff7oidg,1579657927.0,"that's not really true, and a very slippery slope. yes, SOME people's brains responded to SOME stimulus in SOME ways more like their correct gender, but not all did, and the response varied in scope, location, and intensity. you can't just hook someone up to an mri to tell if they're trans or not, the things people are extrapolating that very limited scope study to are kinda gross. sorry, that study has been used against me enough it's kind of a pet peeve when people say it's a definitive test for who's trans and not. plus ""transgender"" is a lot more than afab people wanting to be boys and amab people wanting to be girls. it's an umbrella term and encompasses a lot of non binary identities too. it's simply being any gender other than the one you're assigned at birth. 
+
+
+plus you mean gender incongruence/dysphoria is a mental condition (this is very contested even among healthcare providers and diagnostic resources though, and an area of active debate), not being trans in and of itself."
+untrustworthypoptarts,ff7rh12,t3_es0yla,1579656574.0,meh that seems super plausible honestly
+news,ff5e0a8,t1_ff5azmp,1579588891.0,Sorry what exactly do you think sadist means?
+ender3,ff5dryp,t1_ff4mto7,1579588639.0,Isopropanol and ethanol are totally different chemicals and are both available in different concentrations but they should both work just fine. I wouldn't sweat it so long as your bed looks clean afterwards
+ender3,ff5do8k,t1_ff4n9az,1579588527.0,"Tempered glass doesn't inherently have different temp resistance, just a different stress concentration. You're thinking of borosilicate glass which is way better at handling temp changes"
+ender3,ff5dk0x,t3_erlz6v,1579588396.0,Maybe post what your prints actually look like so you can figure out what would help it.
+3Dprinting,ff57chc,t1_ff576aw,1579582347.0,"I see, okay. maybe bring it up a few steps and find a level test to print. you can tell if it's too high or low by how that prints"
+3Dprinting,ff573j7,t1_ff571md,1579582130.0,"so I've never actually used an auto leveling printer, but can you just level it normally with a piece of receipt paper? google for a tutorial. auto level might get it a touch too close to work right."
+3Dprinting,ff5701j,t1_ff56x75,1579582048.0,"I didn't know the select mini v2 had auto level, I thought it was only the select mini pro?"
+3Dprinting,ff56qzi,t1_ff56om5,1579581835.0,the select mini or the mini delta or?
+3Dprinting,ff56nr7,t1_ff56n7f,1579581758.0,how are you leveling your bed?
+3Dprinting,ff56kwz,t1_ff56iva,1579581691.0,your nozzle might be too low then. are you specifically using blue painters tape? I've never had a problem with that tape.
+3Dprinting,ff56hfi,t3_erpe4t,1579581609.0,"It's not a glass bed right? if leveling it again doesn't fix it, you can just put blue tape on the bed every print and it'll peel up with the tape easily. might have to level again to compensate for the thickness of the tape."
+3Dprinting,ff55r3k,t1_ff54qum,1579581005.0,"Yea, I'm obviously not comfortable talking about something super personal like that with a person who out of the gate makes it clear that they're not going to treat me with any respect lol. Honestly that was like the most ironic interaction I've ever had with anyone
+
+but hey I've had friends with the similar experiences. an old friend of mine kept getting hit on for weeks in a row by the guy who ran our local makerspace while SHE WAS THERE WITH HER BOYFRIEND. and that's not even getting into how it is online lol"
+3Dprinting,ff4k40w,t3_eri6jb,1579565540.0,Anything in the same diameter. It's 2.85 I think but double check that.
+3Dprinting,ff4hze2,t1_ff4h84f,1579564070.0,"people like you are actually a huge part of the problem. I tell you I've been uncomfortable in some spaces before, and your first thought is to tell me all the reasons I'm wrong and those experincies are invalid, or that it's *my fault*, not stop to consider that just because you've only witnessed positive things, very negative interactions and experiences happen too. 
+
+I don't really expect that to mean much to you. by the time you're reading this you're probably already thinking up arguments to what I said, how to debunk me and why my experiences don't matter. but who cares!"
+3Dprinting,ff4go4t,t1_ff4gm9c,1579563164.0,">> it's definitely not the friendliest space for me to be in sometimes.
+
+>I declare that statement BS"
+3Dprinting,ff4eqo8,t1_ff4edhx,1579561858.0,"""as a woman, I sometimes feel uncomfortable in certain spaces""
+
+""no you don't"""
+3Dprinting,ff4e7on,t1_ff47v12,1579561508.0,"meh most maker stuff can be pretty unfriendly to women at times. I don't really think this is in and of itself problematic, and you bet your ass i printed one, but it's definitely not the friendliest space for me to be in sometimes."
+ender3,ff2ijm0,t1_ff2hopg,1579507676.0,Nah I'm better versed in materials stuff and have only been printing since Christmas so I don't know too much. Used to do another hobby that had frequent debates about ptfe degradation so I learned up on it a bit.
+ender3,ff2hp7r,t1_ff2fzrc,1579506604.0,"I don't, sorry. I understand materials science type stuff better than I understand hotend design"
+ender3,ff2bvh7,t1_ff26nqn,1579500053.0,"in addition to what's already been said, you're assuming pure, virgin, long chain ptfe, which isn't the only type of ptfe or even the only compound in the most expensive stuff, let alone cheap shit.
+
+but whatever, here, have an article. 
+
+https://www.ewg.org/research/canaries-kitchen/teflon-offgas-studies
+
+>The lowest temperature at which nonstick coatings have been reported to kill birds in a peer-reviewed study is 396°F (202°C) [3]
+
+>In a 1975 study by Waritz, Teflon breakdown products generated at lower temperatures were determined to cause death. Within four hours of exposure to a Teflon-coated pan heated to 536°F (280°C) parakeets died
+
+and here's why the theoretical numbers for ptfe aren't accurate 
+
+>These reports and personal accounts indicate that Teflon offgases toxic substances at temperatures as low as 396°F and 325°F. In 1991, a report by a collaborative team of DuPont and Louisiana State University scientists also addressed this issue. These scientists generated low molecular weight PTFE by heating Teflon to high temperatures and allowing the fumes to age for a few minutes; aging allowed the chemicals in the fumes to react to form small Teflon molecules. The scientists found that when this low molecular weight PTFE was reheated to 464°F two out of three exposed rats died. Evidence indicated that particulate matter was responsible for the rats’ death, and this particulate matter was composed of small molecules of Teflon [5].
+
+>Seidel and coworkers explain that “fumes generated at temperatures below 572°F (300°C) are formed exclusively by sublimation of a low MW (molecular weight) fraction already present in the polymer”[5]. From the Seidel study we can conclude that at low temperatures PTFE offgases particulate matter which is composed of small molecules of PTFE. We can also conclude that this particulate matter, which has been reported to cause bird deaths at temperatures below 500°F (260°C), is the result of the presence of low molecular weight PTFE.
+
+>This low molecular weight PTFE may be present in Teflon at the time of Teflon’s manufacture, or the PTFE may be created when a pan is heated repeatedly and the coating degrades as PTFE bonds break.
+
+there's absolutely no reason to take the risk for a couple bucks extra for an all metal setup. don't be dumb.
+
+citations at the bottom of that article.
+
+also, from that wiki page itself
+
+>Processing PTFE can be difficult and expensive, because the high melting temperature, 327 °C (621 °F), is above the initial decomposition temperature, 200 °C (392 °F).[28]"
+3Dprinting,ff27rfr,t1_ff0xf9s,1579496256.0,"i haven't had any issues, it loads like a normal webpage for me now."
+ender3,ff21o2k,t1_ff21ek5,1579491399.0,That's normal. It has to print in discrete layers which means this happens. You can play around with a setting called ironing in your slicer and make your layer height smaller but it'll always be there to some degree.
+ender3,ff21boj,t1_ff1zsdz,1579491142.0,"they probably mean infill, which does reduce pancaking. are you talking about the layer lines on the top or what? can you show what the print is supposed to look like? pancaking is when sections kinda collapse because there isn't enough support below them from the infill."
+interestingasfuck,fewzqft,t1_fewxqrr,1579421986.0,"just for you I literally took a big bite out of of a failed print and nope. Doesn't taste plasticy either tho, just really neutral. Maybe like the slightest hint of starch."
+interestingasfuck,feww8yx,t1_fewsxvw,1579420462.0,"Ehhh it's nothing like corn, feels like any other plastic really. I print tons of stuff in it, and it's plenty strong. This is definitely just an art price tho, can't get good layer adhesion with a 3d pen so this would never hold up"
+3Dprinting,fewldcs,t3_eqq13x,1579413508.0,you don't have to even get close to matching the heatsink. just use something that has roughly the same surface area and use thermal paste or a pad
+IllegalLifeProTips,fevf5z8,t1_fetdonb,1579396681.0,">heavier stuff like LSD
+
+sorry, what???"
+ender3,fev8tz3,t1_fev714e,1579394476.0,"No matter what, this damage is only able to be caused by arcing. Arcing only happens when there's a gap between the terminal and the wire. If it was an electrical fault error sure, check everything, but this literally cannot be anything else and there's no way it could fry the board since it didn't arc anywhere but between the terminal and the wire. If it wasn't a well known and easily diagnosable problem with 0 risk once it's fixed, go ham. But don't mistake caution for paranoia.
+
+There's no reason not to check everything else, but saying there's other causes for this or to buy a new board is just untrue."
+ender3,fev341q,t1_fetvji3,1579392610.0,"This is an extremely well known problem. Somebody posts about it every day or two. The tinned end of the wire creeps, or the terminal loosens till there's a gap and it arcs. No risk if it's soldered, and it's not a real electrical fault."
+3Dprinting,fev2id6,t3_eqnmo7,1579392381.0,"Oh hey, that's from a file called snakez right? Just printed one earlier and have another going now, I was amazed at just how articulated they are"
+3Dprinting,fev2d1o,t3_eqnzm9,1579392309.0,"Google how to calibrate esteps. That's the first thing I'd try
+
+And definitely level your bed better."
+3Dprinting,feuemiv,t1_feucnf2,1579385801.0,"it should bridge, which should be just fine. the middle of the bridge will be supported by the ends of it. for example, my ender 3 handled this 22mm long bridge with little effort and only a few mm of droop. https://imgur.com/a/Mre8aGm
+
+and if you look at the first bridging layer on your model, it's probably less than half or a 3rd of that. it should be fine if your printer is set up right. https://imgur.com/a/fE9GVZW"
+3Dprinting,feubw8q,t1_feubd89,1579385090.0,"presumably like this https://imgur.com/a/lbN6NA4
+
+the taper at the top means the only unsupported bridge is actually pretty small"
+3Dprinting,feuag80,t3_eqmzpg,1579384693.0,"it says right there at the bottom
+
+>Printed with top face of holder on the print bed."
+interestingasfuck,feu9rs4,t1_fetfwzd,1579384552.0,"ebay, amazon, aliexpress, bangood, dhgate, whatever. just google it lol"
+interestingasfuck,feu9paw,t1_fetno41,1579384526.0,"what's unreliable with aliexpress? if you get something shitty, send it back. it might be cheap shitty products, but it's more ebay than wish. 
+
+or hell just buy off ebay then you have great customer support https://www.ebay.com/itm/3D-Doodler-Drawing-Printing-Pen-Printing-Pen-Present-Toys-For-Kids-Blue-Color-US/273573420572?hash=item3fb23f1e1c:g:2AQAAOSwvcFcNBoG"
+interestingasfuck,feu9k1u,t1_fetudp2,1579384472.0,"uh what do you mean pla won't break down in a landfill https://all3dp.com/2/is-pla-biodegradable-what-you-really-need-to-know/
+
+it doesn't degrade in non landfill conditions, but will degrade faster than other plastics in a landfill or similar."
+interestingasfuck,feu9bqg,t1_feth5jv,1579384384.0,"meh most 3d printing is done in pla, which is made from corn I think and degrades significantly faster than other plastics https://all3dp.com/2/is-pla-biodegradable-what-you-really-need-to-know/"
+3Dprinting,fepfclc,t1_fep550l,1579319097.0,"nah, look at the angled part along the side, the layers shouldn't be that detached. and the bottom, even if that was supports, it shouldn't look like that either, with the diagonal lines doing so little filling in."
+IllegalLifeProTips,fep4lk8,t1_fenvtgf,1579312007.0,lol
+3Dprinting,fep38lj,t3_eq9tqt,1579311139.0,"probably not enough support, or under extrusion."
+creepyPMs,fep36oz,t1_feodz37,1579311105.0,"yea definitely. every person I know who's poly or otherwise in any kind of an open relationship is super nice and very respectful of boundaries. my gf and I are just starting to experiment with a tiny bit of involving other people online, and dang does it ever teach you boundaries real quick. no better way to learn lol"
+CatastrophicFailure,feouryg,t1_feniw6k,1579305887.0,I... No... That's not how any of this works
+3Dprinting,feoimsn,t3_eparqx,1579300706.0,"Dang, usually as a Canadian I never get free stuff. Credit where credit is due, they didn't even ask for payment. Awesome :)"
+ender3,feoih60,t1_fen0npb,1579300630.0,">extrustrudrds
+
+You okay there? Do you smell toast?"
+ender3,feohfwa,t3_eq7e8e,1579300211.0,"Don't do any major upgrades until you have the printer going well, unless anything is broken. You don't want to change many variables till you know the machine itself is good"
+3Dprinting,feoh4q7,t1_feofcji,1579300013.0,It's definitely underextruding too
+3Dprinting,feogjdf,t1_fenxvk6,1579299863.0,"Uh no? Tons of people running pla dicts constantly. I've put a full day of printing on mine and it's still flawless, and I'm sure it'll keep being good. There is after all, cold air being pushed thru it constantly"
+3Dprinting,feog9nt,t1_feo7721,1579299704.0,Then go to the store and get some blue painters tape for like 5 bucks. It should work as a band aid till you can figure out the issue
+3Dprinting,feofik9,t1_feo7py0,1579299486.0,"It's not the plastic that's the problem, it's the way printing creates voids and such that can't be cleaned and harbor bacteria"
+3Dprinting,feofd9v,t3_eq6vk0,1579299409.0,Post a pic and your cura settings
+blackmagicfuckery,feo54ub,t1_felhby2,1579295258.0,the exact mechanism isn't even fully understood but he lays it out pretty well in the source video https://www.youtube.com/watch?v=LL3kVtc-4vY
+chemicalreactiongifs,feo50z3,t1_feni3ew,1579295204.0,"nope, it's called the Belousov-Zhabotinsky reaction and it's super complicated but tldr just watch the video  https://youtu.be/LL3kVtc-4vY"
+chemicalreactiongifs,feo4xuj,t3_epubf4,1579295154.0,good ol' Belousov-Zhabotinsky reaction
+creepyPMs,feo4sie,t1_feo0yq7,1579295065.0,"trans is an adjective, not a verb. it's not that hard, you don't call people adjectives. you wouldn't say a postal, you'd say a postal worker. you wouldn't say a fast, you'd say a fast person. you don't say a gay, you say a gay person. 
+
+anyways you're a chaser so eww"
+creepyPMs,feo499a,t1_fenibid,1579294956.0,"ehhh not saying it's real, which is probably isn't, but i know tons of people in open relationships or who are poly who'd do something like that. asides from the whole don't try to involve people in your sexual stuff without consent jesus fuck part, that sounds pretty fun tbh"
+NonFunctionSlackFill,fenvvfh,t1_fenqizo,1579291703.0,"those aren't actual filters, more accurately they're cardboard crutches. does not catch any significant amount of tar at all."
+SwitchHaxing,fenvhxc,t1_feng296,1579291534.0,"uhm yea no dude. what law exactly? against the tos sure, but it's a device you purchased, it's not illegal to violate the tos"
+RealLifeShinies,fent5m7,t1_fensox9,1579290411.0,why you gotta lie to us like that? https://twitter.com/Kaphotics/status/1193903820574580739
+3Dprinting,fenoqrl,t3_eq3wcu,1579288712.0,How much is it for the makerspace? One off prints aren't all that cheap.
+3Dprinting,fenolh3,t1_fenl95y,1579288640.0,"Oh the ring is garbage. That shape just doesn't work. Either print a petsfang one with stock fans, buy fans for the hero me, or go back to the stock duct"

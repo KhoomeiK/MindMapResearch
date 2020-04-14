@@ -1,0 +1,152 @@
+subreddit,self ID,parent ID,time,text
+electricvehicles,ffvhe3s,t1_ffulnlh,1580264160.0,"A Tesla AND something with decent range?  Don't Teslas *have* decent ranges?
+
+Keep in mind Leafs were the first mass-market EV, paving the way for Tesla and everyone else.  Yes, Tesla had the electrified Lotus in 2008, but those 2,500 niche cars didn't change the landscape anywhere near how Nissan did, and Tesla didn't even touch the numbers Nissan was putting out until very recently.  The Leaf is still the best-selling EV of all time.
+
+Give them the credit they deserve, and don't spew dismissive hyperbole; it does no one any good."
+electricvehicles,ffve5wo,t1_ffunht6,1580262009.0,"Absolutely possible.  When I bought my Leaf from a couple hundred miles away, that was part of the plan to get it home.  At the point we were switching to ""Tow Mode,"" I found that the car didn't come with a recovery hook, so that plan went out the window.  I had JUST enough charge to make it to a (closed ) Nissan dealer, found the disconnect they had turned off, and charged her up enough to get to the next charger.  I was almost screwed."
+electricvehicles,ffvdwnu,t1_ffutzjl,1580261837.0,"Extended total drains are problematic.  To leave one's headlights on and totally drain a battery used to be a very common occurrence before, say, the '80s/'90s.  Cars used to not even beep at you."
+PLC,ffvckoi,t1_ffubosi,1580260935.0,"Yeah, thanks!  I put in a call to some applications engineers at a couple controller manufacturers today.  Waiting on calls back.
+
+You would think this would be handled by an off-the-shelf control."
+PLC,ffvcbmw,t1_ffuaq45,1580260766.0,"Yeah... not going to put $1,600 in part of the hardware alone on this.  Thanks, though!"
+PLC,ffu2220,t1_ffszmv5,1580232810.0,"I think you may be, or maybe I'm just...dense.  I have looked at lots of different temperature controllers, and have a level of familiarity with them, but I am not seeing any that would allow me to have a second temperature setpoint after a variable time period.  While I see several that have programmable ramp/soak thermal curves (like for  surface-mount soldering baths), I don't see anything that allows for the pattern to be easily adjusted.
+
+Similarly, temperature controls I've generally worked with tend to be made where it is not easy to adjust their setpoint.  Doing so repeatedly could stand to break the membrane switches, for instance, where a nice knob would be great.
+
+Ease of adjustability, two setpoints, and a timer between those setpoints seems like it would render a temp/process controller insufficient for the task."
+rundisney,fftfxme,t1_fft9onu,1580219416.0,"I did 2:30/0:60 for a while, which yielded some good paces compared to what I could run continuously.  Right now, I'm trying an adaptive AI-based trainer that generates workouts based on performance data with heart rate and speed feedback.  Early stages of using it, so hard to say how well it will work, but it sure makes sense instead of going with a one-size-fits-most approach that predates modern technology."
+atheism,ffssx4w,t1_ffssmad,1580191277.0,Just making sure.
+ElectricalEngineering,ffssv9r,t1_ffsrpgi,1580191226.0,"I don't really know what you are driving at.  We can turn off any inverter in an instant and cease generating.  One of our strings of panels will only ever produce about 700VDC.  The inverters can handle between 300 and 900.
+
+We sure aren't utility scale, but fairly large nonetheless.  40kW is only a little over 100A per leg."
+electricians,ffsrvqe,t3_eupxne,1580190228.0,Grade-A Shitpost
+ElectricalEngineering,ffsrbbg,t1_ffsq59i,1580189687.0,I have no idea what you are trying to say.  Can you explain?
+AskElectronics,ffsr6m4,t1_ffs81xj,1580189566.0,Buy a multimeter.  You can get cheap ones for $5.  You will learn a lot.
+atheism,ffspvkz,t1_ffqx6wl,1580188341.0,"You aren't confusing him with Lindsey Graham, are you?"
+rundisney,ffsp3oj,t3_euzlr6,1580187650.0,They will gladly take anyone's money.
+ElectricalEngineering,ffsoq44,t1_ffsm17o,1580187318.0,Photovoltaic solar.
+ElectricalEngineering,ffso2qk,t3_euxfii,1580186764.0,"This is an elaborate project for high school!
+
+I'm not sure why you are controlling speed, or even powering the wheel for that matter.  But, hey, your project.
+
+Keep in mind that there are ways to do things wirelessly.  You need not have wires.  But, there are also ways of ""wiring"" to things that spin.  Slip rings are an example, as are things like carbon brushes against a commutator.  You might be too young to have ever seen a telephone handset cord, but they get twisted up over time due to how people handle the handset.  In any event, [a product was made to deal with that](https://www.google.com/search?q=handset+de-twist&safe=off&tbm=isch).
+
+Amazon has some 12-wire slip rings for about $20.  This isn't my strong suit, but I think that'd almost give you what you need to uniquely identify 36 spaces.  Imagine you used a steel ball bearing for the ball, and each ""number"" had a hole in it where the ball would come to rest.  Put a pair of contacts in each hole.  For six adjacent holes, wire ""Wire 1"" to one of the contacts.  Then, wire Wire 7 to the other side of the first hole, Wire 8 to the other side of the second hole, and so on, up to Wire 12.  Then, do this with the next block of 6, using Wire 2 as the first contact.  Something like:
+  
+Number | Left Contact | Right Contact
+---|---|----
+1 | 1 | 7
+2 | 1 | 8
+3 | 1 | 9
+4 | 1 | 10
+5 | 1 | 11
+6 | 1 | 12
+7 | 2 | 7
+8 | 2 | 8
+9 | 2 | 9
+... | ... | ...
+35 | 6 | 11
+36 | 6 | 12
+
+Those wires would then go perhaps to a 6 x 6 matrix of LEDs.  Each LED could represent one spot on the wheel.  Each combination of (1-6) and (7-12) would make a single LED light, *somewhat* like [this picture](http://lednique.com/wp/wp-content/uploads/2016/09/Multiplexed-display-all-switches-open.png).
+
+I guess you could also do that with some decoder ICs like the 74LS138.  You can also use some critters like BCD to 7-segment display drivers.  Anything's possible, really!
+
+You could simplify the whole damn thing and still prove your concept by having a much smaller roulette wheel, like 16 or fewer holes.
+
+Maybe some of this will give you some ideas.  Good luck!"
+interestingasfuck,ffsi6fw,t1_ffsfeaa,1580182297.0,"[Yup](https://www.google.com/maps/@40.5906715,-74.0645905,3a,75y,197.19h,61.56t/data=!3m8!1e1!3m6!1sAF1QipMcxnqPHA1M529q0FehsqCuuU55oQEzHkZxwKTC!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMcxnqPHA1M529q0FehsqCuuU55oQEzHkZxwKTC%3Dw203-h100-k-no-pi-0-ya343.608-ro-0-fo100!7i8192!8i4096)"
+rundisney,ffsgnnv,t1_ffs93q6,1580181251.0,"I'd bet most anything that you'd be faster and hurt less if you tried 60/60.  So much is spent accelerating/decelerating.  Consider humoring me and trying it on a 5K route you typically run, and report back."
+ElectricalEngineering,ffsg4er,t3_euwi4t,1580180874.0,"I generate power.  Where it touches the grid, it is approximately 121V on any leg to neutral.  We generate 208V, 3-phase.  At the pole, I believe it is stepped up to 50kV.
+
+We have seven inverters, generating a total peak power of about 40.2kW.
+
+We are not a big generating facility, for sure, but a ""power plant"" nonetheless."
+interestingasfuck,ffsfkb4,t1_ffsec53,1580180475.0,"Mmm, gotta say, that isn't helping me any.  That sure looks like wood to me (pause when the camera is pointed down).  Also, look at the angle of the shadows.  The sun appears to essentially be perpendicular to the boardwalk.  Check her shadow and the angles of the coast and boardwalk at 0.56s.  I don't see how this works, and I sure wish I did.  I may have to go play in the sun tomorrow afternoon with a patterned material."
+interestingasfuck,ffsd368,t1_ffs5plx,1580178818.0,"You're going to have to help me understand that.  Well, you don't have to do anything...I just don't understand it a bit.  What is going on here?"
+interestingasfuck,ffsd087,t1_ffs9fms,1580178766.0,"OK, I've been working on it for 5 minutes and just don't understand it.  What am I missing?"
+todayilearned,ffs0kqt,t1_ffrocyu,1580170215.0,"The food pyramid came out in 1992.  (Also, it is **'70s**, btw.)"
+todayilearned,ffs0exd,t1_ffrpmxa,1580170100.0,"> and we all know you're only gonna have one right?
+
+You *reorder* orange juice?  Don't you also have water or coffee?  I suspect you are in the minority, reordering OJ."
+rundisney,ffrzp5h,t1_ffrrc57,1580169610.0,"Only for the corrals that require it, I believe."
+WTF,ffrd76p,t1_ffqnxp3,1580155642.0,"[Funny you should bring up the FDA](https://pacificlegal.org/press-release/new-study-finds-98-of-fda-rules-over-17-years-are-unconstitutional/) regarding Constitutionality.
+
+But, the FDA and OSHA have been able to exist because they have been a part of the expansion of federal power through potentially unconstitutional interpretations of the Commerce Clause.  (The Feds have always had the power to regulate interstate commerce, but what about regulating things such as labor laws that happen just in one state?  Look at US vs. Darby (1941) and the resulting ""Substantial Effects Test,"" giving Congress the power regulate intrastate activities where they have a *substantial effect* on interstate commerce.
+
+Does having an emergency stop on a gas pump have a substantial effect on interstate commerce?  Does cocaine legality have a substantial effect on interstate commerce?  There's a difference."
+leaf,ffrao3l,t1_ffqz7yy,1580154099.0,"I mostly L2 at work, though I will L1 once every several weeks or so at home.
+
+I really suspect the trickling of the PV is what has helped it to stay alive, but I don't know."
+WTF,ffqcyku,t1_ffpwl0v,1580130755.0,"That is not true.  There are several areas where the Federal Government has the power for regulation.  However, when it comes to health and safety, [that is an exclusive power of the States](https://www.infoplease.com/us/government/legislative-branch/powers-of-the-government)."
+AskEngineers,ffpmrpe,t1_ffpmg6m,1580098958.0,"Read what I wrote:
+>  No, I don't recommend it for safety reasons.
+
+I think I'll make a high salinty brine tomorrow and see if I can get so much as a tingle from 24+VDC.  I'm not calling you a liar, but I'll be **shocked** if I feel anything."
+fasting,ffpkjrr,t3_eu8ml7,1580097284.0,"""makes me feel pretty good""
+>This statement has not been approved by the FDA."
+WTF,ffpjalo,t1_ffmfqg5,1580096385.0,"Probably, but maybe it failed somehow.  I want to know more."
+WTF,ffpiwz3,t1_ffmxrwg,1580096134.0,"Yeah, I'm calling baloney if you are talking about the USA.  Why would that be a federal power?  Everyone needs to dust off their Constitutions I think, as well as refamiliarizing themselves with at least the Bill of Rights.  The 10th applies here.
+
+EDIT:  Lots of downvotes, yet no one has pointed out this supposed federal law."
+WTF,ffpigog,t1_ffn0kh5,1580095823.0,"The NEC isn't federally mandated.  AHJs set the standard, not the private NFPA."
+electricians,ffphz8u,t3_eubxc0,1580095504.0,"It is rated to work at 208V.  Plus, that is *nominal*.  You can expect it to operate at lower voltages, *and it will*.  The electronics won't draw much current, and the power supply therein will have no problem chopping the rectified 208V down to the 24 or 12 or 5 that it needs to run.
+
+Infant mortality of the control board is a possibility.  Also, check that manual-reset high limit switch.  Check that the temp setting is where it should be.
+
+The low voltage is NOT the cause of your problem; heating elements don't give a shit, and like I said, the control board's power supply certainly shouldn't care.
+
+Verify wiring, and verify the thing is getting voltage.  Maybe the breaker tripped or something."
+worldnews,ffpgbpd,t3_eug87f,1580094347.0,"Is ""NATOexit"" next?"
+leaf,ffpg8jr,t1_ffpfxjr,1580094285.0,"I suppose it is the little bitty solar panel, but SOMETHING about this car and its battery makes it the very best one I have ever owned.  Including the office fleet, I've had several dozen cars over the years, and have *never* seen a battery last a decade!"
+AskElectronics,ffpg18c,t3_eudgfw,1580094140.0,"Also, what's your city?  There's got to be someone on here who is close enough and willing to help."
+AskElectronics,ffpfw6t,t3_eudgfw,1580094041.0,"Go to the closest iPhone repair shop you can find.  The places are everywhere these days.
+
+Tell them you are needing to fix your kid's toy, and show them what you've got.  I honestly can't imagine ANYONE charging you to solder that back on.  It would take two minutes, tops, and earn some serious goodwill.
+
+Of course, you might wish to tip them or something if they are a kid, too... but I sure wouldn't take your money."
+electricians,ffpdqre,t1_ffpdghy,1580092497.0,"Why would it trip, though?  Ever burnt toast in a toaster?  Soldering irons melt metal and don't trip breakers.  This isn't an overcurrent situation, it is an OVERHEAT situation resulting from a high resistace splice.  Save your money."
+electricians,ffpdam7,t3_euffy7,1580092177.0,Why replace a panel because of a loose wire nut?
+electronics,ffoinlj,t3_ehdn2z,1580078022.0,"Wait a minute, I think I may have figured it out.  You dial in how many attacking pieces there are, and how many defending.  You then press ""set"".  Then, when you press ""roll,"" the counters decrement by how many units were lost on either side, based on the dice rolls you can't see.  It actually calculates the result, and doesn't just simulate dice rolls."
+electronics,ffohqfh,t3_ehdn2z,1580077694.0,"What is the purpose of the cherry switches, do you think?  Also, how can there be only four seven-segment displays?  Doesn't the attacker need three and the defender two?  Maybe the rules had changed in the early 70s.
+
+I also wonder how ""set"" works.  There's probably a schematic and explanation in Popular Electronics or something from that time."
+electronics,ffofnvp,t3_eihjsy,1580077206.0,"American here, used to get the catalog.  It was full of gems like ""pre-blown light bulbs"" that USE NO ELECTRICITY and ""universal replacement aerials"" which were coat hangers.  Early 80s I think.  Good stuff."
+leaf,ffoemt3,t1_ffoayo5,1580076851.0,excellent.
+AskEngineers,ffoak1h,t3_euc87z,1580075737.0,"The reason for this is because your skin has a capacitive property.
+
+I see the comments people are saying here, but you can try this yourself (if you haven't already).  No, I don't recommend it for safety reasons.  But, we at our shop are old and crazy.  We ran a variac to a bridge rectifier to a cap, then dialed her up.
+
+You couldn't begin to even feel it until somewhere in the 150-250VDC range.  I think went to 300-something before it got tinglier than I wanted to hold, and I suspect this was ripple!  (Next time we play with this, I'll put a scope on it, then maybe add more filtration.
+
+Now, I suspect if I were to grab 250VDC straight away (without dialing it up), the inrush current would yield a lot more of a surprise than otherwise.
+
+People at /r/electricians, /r/AskElectronics , and /r/electronics tend to think I'm bullshitting about this, and I just need to redo it and film it for everyone.
+
+But, capacitance is the reason."
+leaf,ffo7bwi,t1_ffo3jhe,1580074871.0,KBB shows a trade-in value of $4400 for a good condition 2013 SL (not sure what trim this one is).  I don't know how that'd compare to the price the insurance company would pay.
+leaf,ffo53eh,t1_ffo3jhe,1580074270.0,"Then I'm supposing you might not be using the same definition.  And, it is probably irrelevant, as you and I both know, because OP didn't have insurance (who knows what may or may not happen with the other driver).
+
+But, the cost to repair this car exceeds the value of the car.  Can it be fixed?  Yes.  Would it cost the insurance company less to pay the fair market value of the car?  Yes.  Will they go the cheaper route?  Yes.  This car is, financially, a total loss."
+leaf,ffo3byp,t1_ffo0si9,1580073652.0,"Door, fender, hood, headlight assembly, washer assembly, bumper cover/air dam, wheel, airbags, front-end damage...all of that isn't going to ""buff out.""
+
+/u/Azrael-Azzy :  Did they total it out?"
+loseit,ffo2520,t1_ffo05ic,1580073396.0,"I'm old to the point where my ""one days"" are running out.
+
+You're already running 10K time.  That should be a piece of cake.  Do this:  find a local 5K that seems like it would be fun some time in February.  Go sign up now.  Report back with how much fun you had, then take it from there.
+
+If you have spent an hour on a treadmill every day for a month, you'll rock the 5K, easy-peasy.  I also missed how relatively light you are.  Piece of cake!"
+loseit,ffnzb8f,t3_eub12y,1580072573.0,"1.  Congratulations on your effort, your progress, and your tenacity!
+
+2.  Seeing as how you are seeking to learn with podcasts (and because I can't help myself), I wish to point out that there is a difference between ""everyday"" and ""every day.""  The former means common and ordinary, while the latter means repeated every 24 hours.
+
+3.  Seeing as how you are running, take a look at [this AI-based training tool](https://beta.trainasone.com/referralCredits?targetUserId=016fa1663e3400004aa88d95b50805c0#) that uses your performance metrics to optimize training for you, adapting it as you progress.   I'm a few weeks into it, and am damn impressed with how it is working.  
+
+4.  Keep it up!  Maybe pick a marathon to run in the fall.  I'm a fat, old guy who is training for one in November.   If I can do it, you can do it."
+news,ffntw8q,t3_etu1pd,1580070760.0,"""Dramatic"" is a stretch."
+AskElectronics,ffnb9ij,t1_ffna3yt,1580063887.0,"""Cooperative learning"" is a good thing.  Jobbing out your homework to internet procrastinators isn't.  The difference is subtle."
+interestingasfuck,ffn12ur,t1_ffmx9xz,1580060907.0,"Meh, not as bad as getting [hunted by Shia LaBoeuf](https://www.youtube.com/watch?v=Y88gpZvpGws&t=16)."
+RASPBERRY_PI_PROJECTS,ffmc2bk,t1_ffjspf0,1580052160.0,Perhaps post the images here to have proofed before producing?
+RASPBERRY_PI_PROJECTS,ffmbzlw,t1_ffhiurn,1580052110.0,Weird for me to see a V...  I learned Voltage as “E.”
+specializedtools,ffm6cpl,t3_eu4832,1580049246.0,"""hammer"""

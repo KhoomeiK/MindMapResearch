@@ -1,0 +1,369 @@
+subreddit,self ID,parent ID,time,text
+WritingPrompts,ffargpl,t1_ffa62lt,1579742770.0,"To an extent, this is sort of discussed in [The World Is Saved](https://www.youtube.com/watch?v=wBzqOa9y02I) as it mentions ""The hero hangs up his sword and says his goodbyes...but then where does he go? What does he do? The adventure is over, so where does that leave you?""."
+AskReddit,ffar2x9,t3_esh49y,1579742508.0,"AI and to an alternate aspect, automated weapons.
+
+Everybody likes to claim that this or that advancement is bringing us dangerously close to a Skynet type moment. As a robotics engineer...this just isn't true.
+
+Will we eventually get to such a time? Sure we will, but that time is optimistically 50+ years away. We still have trouble getting a camera to recognize that a pen is in fact a pen and not a new object once you change the lighting of the room.
+
+The real near-term danger of AI isn't really the AI per se, but unintelligent use of automation. Skynet won't be causing a human extinction war just to get rid of us, but automated reaction programs might cause a minor border scuffle to escalate out of hand before people realize what is going on. Imagine having an automated CIWS (close in weapon system) on the border of the Koreas. Someone pops off a mortar round from the north, or even more benignly, someone from the south sends up one of those balloons with moon pies (seriously, that's a thing) and the CIWS is in a high automation threat mode, it spots the object and fires at it. Systems on the other side spot all of these incoming rounds and reacts to handle them, which causes the other systems to react, and before you know it troops are rushing to their tanks and artillery as what appears to be a pitched battle rages.
+
+You didn't need AI to make that happen, just simplistic automation. To clarify, an AI is a computerized system that attempts to examine and learn from the environment whereas an automated system isn't one that ever changes, it just has a state machine ""If I see an incoming object, shoot. If not, don't."" and has no capacity to adjust its programming based on experience. That's not a great description, but it gives you an idea.
+
+To use a more human oriented example. In the Cold War there were numerous instances of times where an equivalent to this almost triggered a nuclear exchange. Humans receiving data from instruments, then refusing to take the action they were required to take (which theoretically amounted to treason, as they were allowing an enemy nuclear strike to happen), which turned out to be the correct action. Some of the treaties between the US and the Soviet Union existed partly to try and make things take longer should someone decide to push the button (ex: the one that had everyone set their targets to ocean locations instead of keeping Moscow, DC, etc locked in.), because everyone was worried about shaving minutes off the response time, it left VERY little wiggle room for determining if something real was happening.
+
+On the topic of automated weapons however, people are terrified of what happens when you pull humans away from aspects of warfare without realizing some simple truths. My automated tank will never fire on a crowd of innocents and claim ""I thought I saw a gun."" because the other day its fellow tank was destroyed from an IED and was wanting revenge. If the tank DOES fire on a crowd of innocents, its reasoning will be 100% logged and can be retraced by a forensics team, determining the exact reason the tank did what it did. The lesson learned from that event can then be corrected in software (or possibly hardware) and then near-instantly the entire fleet of tanks is updated such that the particular corner case won't ever happen again. With humans, the incident will result in yet another training class that will slowly be rolled out to the current soldiers over the course of several years, with no guarantee that it's going to do anything at all.
+
+Much like self-driving cars, the automated weapons system DOES NOT NEED TO BE PERFECT. It just needs to be better than a human. Lets say an accident means that the automated weapons system results in 1 unnecessary death per year, compared with (a completely made up statistic) 100 unnecessary deaths per year from humans. Does the fact that we still have ONE incident mean we shouldn't replace humans? No.
+
+What's better, in theory if you set things up right, each incident an actually be checked against a human. Take the logged kill data and the telemetry leading up to the incident, craft a virtual reality simulation, and have a hundred soldiers run through it. If the average soldier would fire, then you've demonstrated the hardware is merely as bad as a human. If the average soldier would NOT fire, then you know you need improvements. In particular, you can now tweak the simulation in order to try and determine what triggered the humans to not fire (or if reversing things, what caused us to fire when the robot didn't) and use those lessons to generate new algorithms to improve the robots, which can again be instantly updated fleet-wide.
+
+Should humans be totally brought out of the loop? Certainly not. There's far too much potential for abuse, both internally and externally (ex: an enemy nation hacks the tanks, or a commander directs his tanks into doing something they shouldn't.), but we shouldn't be AFRAID of this technology, not when it can improve a lot of problematic areas. Humans are going to wage war on each other. It's sad, but it's true. The tactical and strategic advantages of automated weapons are, without overstatement, as massive as the difference between a nuclear armed nation and one without nukes. They WILL be built. You can create all the laws and treaties you want, but unlike nuclear, biological, and chemical weapons, there is ZERO giveaway that these devices are being constructed. A microcontroller could be bought for use running a water pump...or for running the servomotor on a robotic tank turret. You can't tell just by looking at the purchases. Coding environments have no giveaway as to what is being worked on without access to the codebase being developed.
+
+These devices WILL be created, there's no stopping it. What we CAN do is mandate via treaties and such, specific methods of improvement that require people to make the devices better and more effective...which can help avoid a lot of the problems we are afraid of.
+
+Granted, there's eternally the issue of ""What if the leader uses them improperly."" but this has been an issue with armed forces going back to the times of Caesar and is more a matter for individual countries to decide than a global mandate of humanity (which, strictly speaking would decide that we just shouldn't have any and should work together. But sans a world-government, that will never happen.).
+
+And just to head off the idea of Asimov's 3 laws, unfortunately automation doesn't really work that way. You would outright need to have a nearly-sentient machine just to make those work...a nearly-sentient machine which is now also a slave incidentally.
+
+tldr: AI development is NOWHERE near the point of accidentally making a self aware system to kill us all. The risk is purely in how we decide to use the system, not the system itself. Similarly, Automated Weapons WILL be built, we shouldn't foolishly try to stop this, we should instead mandate specific methods of improving them which will help avoid the real problems with their use. (No army wants to waste bullets on false targets. If the civilians are not your targets, then everybody wants to make their systems better at not shooting them. If they are your targets...well, that's a problem with your government and not the robots.)."
+news,ffann7m,t1_ff9hozh,1579740196.0,"Strictly speaking an HOA exists to act as a collective for various services the neighborhood needs, all towards the end of maintaining the value of the neighborhood.
+
+Effectively, you don't have the value-lowering aspect of someone who refuses to cut their yard excepting for the legally mandated minimum of care, simply because the HOA pays for (using the dues you agree to pay as part of the act of purchasing the house) a lawn care service that will do it for you.
+
+There can be other cases as well. In the HOA my dad used to manage, the neighborhood was coming up on the time it needed to redo the roofing shingles. Two of the members were demanding that the cheapest option be used because they were planning to sell their homes in the next year or two and so they wouldn't see the benefit of the more expensive ~20-25 year roof ratings (which are necessary in this area of high winds, roofs last a lot shorter than the ratings suggest). He enforced that the purpose of the HOA was to protect the value of the neighborhood as a whole, which doesn't mean making it cheaper for someone that's intending to dump and run. Granted, he had the support of the majority of voting households, but it's the sort of issue that an HOA exists to handle, partly because an entire neighborhood getting a quote for roofing can end up getting a cheaper per-home quote than if each home did things on their own.
+
+Now, all that said, an HOA has a LOT of room for bullshit to happen. My dad was ousted as the head of the HOA...because one person was creating a huge amount of bullshit over the fact that the one house that didn't happen to have a deck, which necessitates an enclosing safety fence, enclosed their porch using the same materials our gardeners use to secure our plants from the wildlife. For five years or so, every meeting had this person screaming about how terrible and unfair it was that this person was ""claiming communal land for personal use""...even though the porch is legally their land. So they conspired and did all this stuff to get a vote to have dad replaced. Then they got their way, declared the person has to take down the gardening fence...and now wants my dad to take it back over because they don't want to do any of the other duties. Fun response? My dad's like ""Nope, you said you could do it better in the face of my 'gross mismanagement of HOA resources', so I refuse a nomination to the post."" and since nobody else wants it, the guy is stuck with it.
+
+They literally wanted control just to force someone to make it so that if this person WANTS to, they can go up and sit on a neighbors porch and use it for their own purposes...even though the person can legally cite them for trespassing for doing so. They didn't actually think they could do it better or even want to do the job, they just didn't like that this other person was preventing other people from using their porch as was their legal right."
+AskReddit,ffagzi0,t1_ff99xj7,1579735519.0,"As a lover of Tarantino movies, I can understand not liking them.
+
+The pacing is ""all wrong"", and by that I mean that he is fully willing to take 30 minutes to tell a bit of information that other movies take 4 minutes to tell. Now this is because he WANTS to tire you out so that when the climax happens, it's maximally startling.
+
+But I can see that as just not being worth it for a lot of people. Especially because AFTER that, he'll give you another hour of content explaining why certain things happened the way they did."
+AskReddit,ffagitn,t3_esdjti,1579735217.0,"The Godfather.
+
+I watched it with my dad who had a great knowledge of background stuff (like how ""Leave the gun...take the cannoli"" line was improvised and stuff like that). The movie itself was...honestly pretty boring to me. I was more excited whenever he chimed up with stuff."
+news,ffa5way,t3_esfi6e,1579728499.0,"My 1 year old nephews each weigh 21 pounds, which is right on the average...26 pounds at 16 years is fucking terrifying."
+news,ffa31s8,t1_ff9q3tc,1579726889.0,"Not to mention that it's quite possible to sign a contract which says that you waive rights and such which the state/federal laws say you cannot actually waive.
+
+Most liability forms for dangerous activities (ex: skydiving and such) actually have no standing in a court and just exist to make people think they cannot sue when something goes wrong."
+AskReddit,ff9kcz4,t1_ff96r8c,1579714841.0,"Currently there's almost no basis for the idea that genetics sways the baseline intelligence of a person, beyond obvious examples of severely impaired brain formation.
+
+By far the largest determining factor of a childs intelligence is the quality of schooling, which contains factors like how much help they are able to obtain from their parents, teacher to student ratios, and funding for classrooms."
+gamedev,ff8ezem,t3_es7uxz,1579675626.0,"Both Unreal and Unity have their strengths and weaknesses.
+
+In the gaming industry for larger companies, you have a tendency towards C++ use, which coincides nicely with Unreal. Unreal is ""more powerful"" in that C++ has less inefficiencies than C#, but in no way is this a serious problem with C#. You can do outstanding things with both and a great many video games do not need to eek out that extra tiny bit of performance that C++ provides.
+
+Indie studios generally, but not always, tend towards Unity because with a few exceptions (namely, two people cannot work in the same scene at the same time), Unity is a bit easier to develop in as a small team. It's Inspector window also makes certain aspects of game development a LOT easier (linking disparate aspects of the program together without necessarily needing to screw around with singletons or information calls that crawl all through the program).
+
+There also is the appearance that Unity has a lot more support in the form of YouTube/Web tutorials than Unreal, but how applicable this is to anybody is on a case-by-case basis for what it is you are looking to do.
+
+As a programmer that's been doing it for a few years, switching back and forth between C++/C# isn't that hard for me to do, but it could be confusing in your early days of coding, so for that reason alone it MIGHT be better to stick with Unreal. The only caution I'll give you is that you shouldn't get too drawn into the Blueprints. They are nice, convenient, and entire games have been made using them, but they are supposed to be an aid, not the entire structure of your game.
+
+Good luck!"
+news,ff8eltj,t1_ff6ihyc,1579675196.0,"To be clear, an MCAS type system was required in order to linearize certain realms of control stick input (namely, situations where the lower placement of the engines tendency to pitch the nose up tends to be exacerbated by the pilots input). That requirement was drawn from FAA rules. Effectively you can't have a control stick that has an undefined, and potentially moving, spot where the behavior of the stick changes drastically compared with its normal operating areas.
+
+The issue with MCAS wasn't really its existence, but in ways it was engineered (single point of failure, non obvious feedback to pilots on what it was doing, etc) and in Boeing's attempt to basically ""hide"" the system from the pilots so that way they wouldn't trip any flags that would have required a full retraining of any pilots that were shifting from other 737s to the Max 8."
+news,ff8ec27,t1_ff6cakt,1579674888.0,"A recent article I read suggested that two control cables back to the tail might have been wired too close together for standards. Something that would take out one would be likely to take out both. So if that's true, they'll have to rerun those cables in all the MAX-8 aircraft."
+airsoft,ff8aewu,t1_ff7cxtt,1579670836.0,It costs four hundred thousand dollars to fire this weapon....four twelve seconds...
+pics,ff7tk3w,t1_ff7t6k1,1579658022.0,Of course I'm serious. And don't call me Shirley.
+pics,ff7scel,t1_ff7rv2j,1579657176.0,It's a quote from the Airplane movie.
+technology,ff7key0,t1_ff5bw39,1579651643.0,"The only real sugar coating from players tends to come from the fear that they won't have their cosmetic items anymore. Or the strange fear that they might have to just pay a ""full price"" for the skin they want instead of paying cheaper one time* for a loot box to give it to them.
+
+*: One time, repeated several dozen times."
+AskReddit,ff7bfdk,t1_ff693c7,1579645495.0,"You wouldn't even have to steal any. There's a shitload of atomized gold in the ocean. Without knowing any specifics of ""control"", you could presumably go on a cruise and come back with some gold bars in your luggage."
+AskReddit,ff7bccb,t1_ff6bq20,1579645417.0,Imagine how you could low-key screw with someone. Any phone they ever touch instantly loses all charge. They can only ever use the phone plugged in.
+technology,ff791g6,t3_erv2h2,1579643588.0,"Guys, let's just thank Trump for helping to further along the UK's inevitable return to the EU when they realize that they've become the minority partner in any trade deal they can possibly arrange."
+TheForgottenDepths,ff73u9l,t3_es0aya,1579640576.0,"Are those sticks in the bottom right? Or is that just a dirty box?
+
+Great find!"
+Thatsabooklight,ff71wje,t1_ff5xqhw,1579639479.0,"Strictly speaking this sub was created with an intention towards identifying the props that appear in movies and shows, so I can see where /u/Sowee is coming from.
+
+However, I do think there is perhaps some untapped potential in showing items like your own.
+
+Perhaps the Mods could be petitioned to create tags for say [Cosplay] and [Media] or something equivalent?"
+u_SrGrafo,ff6ta93,t3_erxui1,1579634430.0,*Plays the Mission Impossible theme as I repel from the ceiling onto the fridge*
+WritingPrompts,ff408vf,t1_ff3w62a,1579552716.0,"What a pleasant place to end up stuck!
+
+Thanks for responding to my prompt!"
+spacex,ff3yjsw,t1_ff36644,1579551655.0,"As /u/Hertog_Jan says, if the stack is fully intact at the time of an explosion in the first stage, then the shock will proceed through the structure and components of the rocket, which being denser than air have a higher speed of sound. So you could have a scenario where the first stage detonates and possibly results in force somehow damaging the second stage detonating it and then the capsule. NASA and SpaceX seem to think this isn't terribly likely, but is possible."
+spacex,ff2kjam,t1_ff1lf0w,1579510374.0,"I've heard it described that part of the reason for doing the test this way, is that it is a much more realistic test. The Merlin Engines have demonstrated sufficient safety over their history (inclusive of a center engine that detonated mid-flight, but the other engines came through intact and just thrusted longer to compensate, allowing the mission to progress without further incident) that while you can never rule out a total RUD scenario, the most likely failure scenarios that will be encountered are ones that don't immediately destroy the vehicle but guarantee that it cannot make its destination orbit.
+
+Basically, total destruction of the vehicle is sufficiently unlikely and a sufficiently random event (you can't prove that a given piece of shrapnel won't fly JUST SO to hit the capsule, but you can't prove that it will either) that the primary thing to look at are the scenarios that are not instant-death, but end-of-mission."
+spacex,ff2k6kx,t1_ff1kwxi,1579509882.0,"As a note, it's looking like the second stage largely survived the explosion of the first stage and impacted the water mostly intact. So there's actually a surprisingly decent chance that other than the shock of the detonation, the capsule and trunk might very well survive such an incident."
+Satisfyingasfuck,ff2jb9v,t1_feyonq1,1579508699.0,"A 3Doodler is only $80-100 new and 1 kilogram spools of plastic range between $20-50 depending on the type. 1 kilogram would last you many hours of printing via the pen-printer. All together, not the worst expenditure for a hobby."
+worldnews,ff2e3eg,t1_ff2227k,1579502365.0,"> Maybe containers that are water tight.
+
+From an engineering point of view, this is actually quite difficult.
+
+You are going to be looking at a sealant of some type to get that. Which is going to mean having some sort of rubberized product acting as the seal (which is probably as wasteful as the plastic wrap) or possibly a wax variant. The wax variant isn't perfect either because any real jostling and the seal will break, improper storage conditions can result in it melting or having other issues. Largely you can fix that by simply having a LOT of wax...but at that point you are probably adding enough mass to the product that the increased carbon-cost of shipping it around has undone the progress gained in saving on plastic. Not to mention in either case you are likely having to upgrade your packaging from cardboard to something more water resistant. While cardboard isn't strictly the best option for the environment, at least it generally breaks down easier and is made from renewable resources for the most part.
+
+I'm all for reducing plastic usage where possible, but unfortunately there are a variety of situations where a single-use plastic is currently still the best solution, even from an environmental standpoint."
+AskReddit,ff2dl6g,t1_ff2b9ql,1579501821.0,"Seriously?
+
+At the level of damage he probably took, he was looking at waking up at the last inn he visited."
+pics,ff2crvz,t1_ff23jw3,1579500968.0,[Windmills do not work that way!](https://www.youtube.com/watch?v=WhtKkl0L7Ek)
+science,ff2ci0a,t1_ff29dbj,1579500683.0,"No idea if this is true on the other islands, but on my island one of the issues that businesses would be upset about is that likely that money would go towards generating housing. Housing which takes up the limited plots available to create new hyper-expensive condos/houses that get bought at extreme prices so they can be turned into air-bnbs.
+
+So chances are, it's pressure from the businesses that don't want the real numbers known."
+CatastrophicFailure,ff26hhn,t1_ff0tkov,1579495178.0,">  And if a cloud of smoke is sending telemetry, who cares?
+
+Mission Control cares.
+
+If somehow there's an eruption of smoke from the rocket and yet telemetry datalinks are still active, then this means there's something they can do. That might simply be to send a manual abort command (which for unmanned rockets would detonate whatever remains of the fuel supplies up high, potentially preventing dangerous concentrations of things like Hydrazine on the ground). It might mean something else which is still recoverable to some extent. If the first stage detonated during stage-separation, the second stage might be automatically recovering and the loss of telemetry is simply due to the shock causing the on-board radios to lose their necessary orientation to the normal transceivers. The call of LoS will definitely result in one of the Mission Control people working to try and use other means to reestablish signal in the hopes that this is the case.
+
+> What are you going to do with that data? Nothing.
+
+Figure out what went wrong. Yes, you have the telemetry data leading up to the moment of the incident, but as long as the telemetry stream is continuing the data can help post-incident analysis. For example, if one of the engines ruptured in such a way that it produced the requisite cloud while the others are firing (and before you say that there's no way this could happen, this happened on [CRS-1](https://www.youtube.com/watch?v=dvTIh96otDw) and the rocket was still able to complete it's mission with one engine having literally exploded in flight), you will be able to tell that this was the case (and likely even WHY it happened based on what systems are still reporting from the wreckage of that engine).
+
+> They literally just announce the loss of telemetry because they feel like it.
+
+Incorrect.
+
+They say it because it is part of a rather thick book of procedures covering all sorts of situations. Once LoS is declared, it triggers all sorts of events in mission control. Attempts at secondary and tertiary communications. Contact with down-range vessels/aircraft to determine if there is any debris siting. Verification that data recorders are active. The ""lock the doors"" order is given to prevent anyone from leaving for a variety of purposes (shift changes can result in lost information, maybe this was an act of sabotage, etc).
+
+So in short, there's EVERY reason to announce it."
+AskReddit,ff1ia7a,t3_eqzdrn,1579479652.0,"Good form, gotta up that wrist action a bit though champ!"
+technology,fez4q4b,t1_fexazk9,1579453837.0,"For what it's worth, this particular implementation of the traffic cams frequently gets declared not allowed in the US."
+technology,fez47i6,t1_fexeqt7,1579453670.0,"As one of the people that has Glass, I'm sad that things went the way they did. The thing was stupidly useful to me, even though none of the app developers were interested in releasing their apps for free (One of Google's stipulations was that during the test phase, the Glass app store was free-only. This was one of the problems that led to the appearance that there wasn't anything you could do with it.).
+
+The driving HUD alone was a modern miracle. I'm going to use my GPS to drive, that's just a fact of life. Which would you prefer, that I take my eyes off the road to look down at the phone in my lap or in my hand, or that I tilt my head slightly and look through a transparent screen that the brakelights of the car in front of me shine through like a beacon from god?
+
+The other issue that was had was the massive PR campaign Apple and others headed to declare all sorts of BS about what Glass had. I legit had someone come up to me once and scream at me for ""Using the x-ray mode to look at them through their clothes.""."
+submarines,fey5l5k,t1_few1i7s,1579441095.0,"As someone that grew up there, the only person I know that ever says it that way unironically is my grandmother."
+explainlikeimfive,feu8be9,t1_ferx29g,1579384131.0,Thanks for the response! That was very interesting to read! I'm glad such an awesome aircraft has turned out well.
+spacex,feqtevn,t3_eq24ap,1579345814.0,"Damn you /u/HighAltitudeWinds!
+
+Well, at least your cousin...recovery area winds..."
+explainlikeimfive,feqek53,t1_fepvkjd,1579340920.0,"I'd long been in the camp that once the initial roll-out problems for the V-22 were ironed out, it would be a pretty great plane. As I've not heard anything additionally ""bad"" about it in quite some time, I assume this is pretty much what happened. Would you be able to provide any thoughts on this? Thanks!"
+explainlikeimfive,feqe58q,t1_fepj9id,1579340749.0,"In an homebrew RPG a friend was running, our party had an entire session devoted towards crossing this ocean after showing up from the multiverse. We, nearly ageless characters, were on the beach and spent weeks/months/years(?) developing the relevant skills and items to create a boat that we could traverse the ocean with.
+
+Finally we land on the other shore, which we know is the right shore but we're not certain if the area we need to go next is north or south of us.
+
+So then one of the other players says ""I can handle this, I just reach into my magical pouch and pull out my gyrocopt....GOD DAMN IT!"".
+
+He'd forgotten he had a magical gyrocopter that could have just transported us all across the ocean, sitting in his inventory.
+
+To be slightly fair, after having visited a dozen different universes that each had unique physics/magic systems, our inventories were HUGE lists of strange items. Some of which we didn't even know what they were, but hey. This mug is glowing, that's probably meaningful somehow. Better keep it."
+AskReddit,feqczt1,t1_feoxbsp,1579340270.0,When my mom and I were in London we just swung by the spot at like 10-11PM. There was an unofficial line with like 4 people in it. We just took our pics and were done inside of a couple minutes.
+AskReddit,feqcsaj,t3_eq1a8z,1579340182.0,"The actual island of Hawaii.
+
+My family describes lots of the bigger islands as ""Los Angeles, but stuck on an island."". The smaller islands like Kauai have most of the touristy things you want to do (fresh out of volcanoes though), and like 10% of the tourists.
+
+So you actually FEEL like you are in Hawaii as opposed to a Hawaii style theme park in your own city that took 6+ hours to get to."
+worldnews,feqbx17,t1_feq0vmb,1579339971.0,"Not so.
+
+Generally speaking government issued standards ARE slow to change...which is literally the point, but they DO change periodically when there is a large enough call for it to be done.
+
+Yes, this does mean that an individual company cannot just strike out on its own, but it does mean that the resulting standard upgrades propagate almost instantly and are LARGELY resistant to first-mover syndromes."
+news,feqae2a,t1_feo15ri,1579339480.0,You tryin ta say that I evolved from some flightless manicotti?
+news,feqa1su,t1_fen76v9,1579339353.0,"> Thimerosal is what has traces of mercury in a non-harmful chemical form.
+
+A friend of mine worked at a place that manufactured vaccines. During the Thimerosal craze, due to the mercury, she once drank herself under the table to run from her sorrows over just how poor quality the shelf life and other similar stats are for non-Thimerosal preserved vaccines. Admittedly I've never been sure just how much exaggeration was in this activity for her."
+worldnews,feq9d61,t1_fep9m0d,1579339060.0,"It is illegal for US based companies to sell GPS receivers to foreign countries that do not have one of two cutoff systems installed (either going too fast or too high bricks the receiver). This is to prevent other nations from using our GPS receivers in their ballistic missiles.
+
+Which is not an inconvenience in the slightest.
+
+The technology isn't secret, the signals are not encrypted or anything. All you need is an antenna for the right frequency and a decent CPU to do the relevant math. So there are plenty of foreign electronics companies that make GPS modules just as good as any a US based company would produce in-country, that don't have the restriction.
+
+Quite frequently US companies/groups that want to do projects with balloons and such buy modules from out of the country just because it is easier than trying to get an ""unlocked"" one in-country. It's not even illegal in the slightest to buy these modules externally either."
+AskReddit,feq7sz4,t3_eq7gkm,1579338605.0,"I was a nerd, though was maybe a bit outside the standard nerd stereotype?
+
+I read scifi books, I did programming classes, I watched anime (but strictly speaking just DBZ, though I did watch Ranma for a short period), but I was athetic (on the football team for a year, discus for the rest)."
+gaming,fepxgsd,t1_fepw3ij,1579334003.0,"It's fair that you don't quite have to deal with as much as the hands across the body.
+
+I'll have to check out the Teslasuit to see precisely what it's doing. :D"
+gaming,fepwx7g,t1_fep694e,1579333828.0,"The issues, from a game developers side, is that you have 3 options available.
+
+Open world, limited world, chairbound.
+
+In an open world, you need to provide the player some way to move beyond the limits of the room available to them. This can be done with teleport-casting, or having the world move while you stand still. Both of these are extreme immersion breaks and the latter can be very nausea inducing to players. Teleport-casting CAN be done well, but it does not work for all game types.
+
+In a limited world, you don't have the immersion breaks, but you do have the problem that not all game types or stories really work from trapping the player in what amounts to a closet. There are plenty of game types that do this one really well, but you ARE shoehorned into those game types.
+
+With chairbound there's a fair amount you can do that's interesting, but you get back to limited game types. MOSTLY, but not entirely, cockpit/piloting/driving simulators. Chairbound also runs into the problem that while there IS a difference between sitting at a keyboard and mouse and using a VR rig, it makes the cost of upgrade to VR a little less palatable for many consumers.
+
+One day we will have a hardware solution, like the Virtuix Omni, where the user can stand in one place and walk/run/jump and such, but...like the VO, they are EXPENSIVE. Frequently dwarfing the cost of the rest of the VR rig. When I bought my VO from the Kickstarter, it was like ~$800. It is now expensive enough, particularly when including shipping (which was like ~$250 more), that they no longer sell to individuals but businesses."
+gaming,fepvls9,t1_feoyd0h,1579332897.0,"Haptic feedback is such a hard problem in a lot of ways.
+
+Even at the lowest levels where it's just ""your finger cannot close any further to provide you with a sense of grip"" there's been a variety of attempts which have generally turned out too expensive, too unreliable, or too fragile.
+
+We'll eventually get that part down of course.
+
+But then when we start looking at things like individual touches across the body...the mechanics of trying to do something like that with any useful amount of fidelity scare me from a complexity sense."
+spacex,fepv3qb,t1_feot6b4,1579332377.0,"While you do raise a fair point about super heavy lift compared with other systems, I think part of what people are getting at is that in a fairly big way, the number of lesser launches you get for the same amount of money so wildly exceeds the capabilities of the system that is being designed that it would have been a cheaper engineering problem to have instead designed your cargoes to be lifted up in smaller batches and assembled in orbit by robots or crew.
+
+Based on the chart, if NASA were to have instead of building the SLS, reimbursed SpaceX for the F9 costs and then bought F9 costs, they would have been able to launch something approximating ~170 SLS launches worth of mass into space (taking into account the development of Orion and related items as well), and that's before any money was spent actually launching the SLS (which is estimated at somewhere around 1.2B per launch).
+
+And since the non-Orion cargoes the SLS is meant to launch haven't even been designed yet, I believe the proposals are still open for the Artemis Gateway Station and such, there's no real reason they couldn't have just had the system designed to have been launched in smaller pieces than already (the SLS is expected to need several launches to get the AGS and such up there and assembled)."
+spacex,fepunuk,t1_fep44jc,1579331928.0,I think your forgot your sarcasm tag.
+worldnews,fepu0re,t1_fepgno2,1579331256.0,"HOPEFULLY unrelated, but apparently before the election happens, the Supreme Court is scheduled to make a decision on the constitutionality of States establishing penalties for their electors making decisions counter to that mandated by the state's laws.
+
+Specifically, there are 32 states (and the District of Columbia) that have rules regarding how their electors must vote based on the popular votes of their citizens. Some mandate winner-take-all, others mandate proportional, etc.
+
+This case exists to determine if a state can punish its own electors for ignoring those rules and voting however they want.
+
+If they decide that no, you cannot punish your electors for violating laws you've passed regarding your internal elections, then there are not ~130M people voting. There are 538 people voting.
+
+Granted, some of those punishment laws are entirely slaps on the wrist (One place, if you vote counter to how you are required to vote, then you pay a whopping fine of...$1,000), but still, it can make things much worse."
+worldnews,feptea1,t1_fepi5cm,1579330637.0,"As an American, all things considered WW2 wasn't really that bad of a time over here compared to pretty much everywhere else.
+
+An example is that most nations had rules regarding ""Lights out at night."" so attacking enemies couldn't navigate via landmarks in the night. When German U-boat captains surfaced near NYC and other locations to attack shipping, they were confused that we weren't even taking the slightest of sensible precautions despite being involved in a two-front war.
+
+All things considered, life was considerably improved for the average person in WW2 when compared with the Great Depression previously. If you want to go by just deaths, the US is estimated to have given ~405,000 lives during WW2. Meanwhile some estimates claim that 7 MILLION people died in the Great Depression due to malnutrition and such.
+
+Now, granted, that still means that OP wants a worse 4 years than the GD which, even as a guy that hates Trump...probably not worth that."
+MovieDetails,fepquyn,t3_eqacid,1579328226.0,"As a guy that gained a rather gnarly scar on my face when I was young causes by my brother being mean/dumb, I have never even slightly felt even the smallest resentment to him over it."
+AskReddit,fepi9md,t1_fep8mzl,1579321191.0,"There IS an advantage towards having a person trained in the equipment and systems doing the admin related to those tasks. They'd have a better idea of what sort of...undocumented needs the group might have. Hard to give a good and proper example, but effectively they might recognize that a given item sees far more replacement than it's by-the-book procedures might suggest."
+AskReddit,feofeya,t3_eq1wzh,1579299433.0,"99% Happy? Musk confirming I'll be on one of the rockets to Mars.
+
+100% Happy? It's the first one."
+AskReddit,femhwgr,t1_fel0p48,1579256419.0,"There was a story posted on Reddit a while back by someone else claiming to be a health inspector.
+
+They inspected the restaurant and at first nothing was too bad. It wasn't great, but it wasn't bad either. And then they got to the fridge area. All the chicken was on one platter/shelf area. The fresh chicken...and the rotting chicken that had been dripping juices into the pool with the rest of it.
+
+He went ballistic over this and made them bag up all the chicken in trash bags and toss it into the dumpster. They argued, offered bribes, etc, but he stood pat and made them do it. After concluding the rest of things he got into his car and started driving away. As he was passing the alley behind the restaurant he slammed on his brakes...because the workers were pulling the bags out of the dumpster.
+
+At this point he went back in and made them pour cleaning chemicals into the bags with the chicken so it couldn't possibly be used."
+todayilearned,fej9hec,t1_fej8xjg,1579162764.0,"Ultimately those are engineering questions that can spiral out of control as far as I understand it.
+
+If you've got an infinitely long wing and you can move it forward, you'd generate infinite lift, but you'd also have infinite weight.
+
+Quite frequently altitude (you are just moving ""forward"" without doing something like rising straight up) is determined entirely by speed, but not all planes are created equal. That faster a specific plane goes in level flight, the higher it will climb. Take the same plane and give it smaller wings that weighed the same as the larger wings, it will now need to move faster to get to the same altitudes as before. Conversely, weight ends up being extremely important. If you can suddenly slice out half the weight of a plane and change nothing else about it, the plane will fly higher.
+
+The U2 has flown to ~73,000 ft weighing ~30,000 lbs and the SR-71 has reached 85,068 ft weighing at most 172,000 lbs. How can the Blackbird reach higher despite weighing several times as much? It moved faster. The U2's max speed was Mach ~0.538, the Blackbird's max speed was Mach ~3.32.
+
+Long story short, the design of your aircraft is going to influence your flight characteristics, so in the case of the Karman line, I believe they use a somewhat idealized craft design, but I'm not 100% sure on that."
+gamedev,fej8xp0,t3_epegn9,1579162021.0,"As an American, I got my Masters Degree of Science in Computer Game Engineering at Newcastle University in the UK.
+
+This program was excellent, it had been about 4-5 years since I had done any real programming (despite my undergrad degree in robotics engineering) and day 1 they start you with ""Here's an 'if' statement."", by day 4 you've got your first triangle rendering. By the day 9 you are creating point-light shadows from scratch.
+
+[Here's a link to the program.](https://www.ncl.ac.uk/postgraduate/courses/degrees/computer-game-engineering-msc/)
+
+Note: If you are an American, use StudyAcrossThePond for help applying to schools in the UK!"
+todayilearned,fej8ojj,t1_fej8lnd,1579161686.0,It's within a Fermi Approximation. >:D
+todayilearned,fej8ek1,t1_feiw8an,1579161325.0,"To further explain, the Karman Line is the point at which the speed you have to travel to generate enough lift on the thinned atmosphere at your altitude is the same speed as orbital velocity at your altitude.
+
+It's SLIGHTLY imprecise because exactly how dense the atmosphere is at any given altitude is variable depending on things like solar output. However it isn't going to vary TOO drastically all things considered."
+AskReddit,fej71c1,t3_ep1pxk,1579159566.0,"I'll be a little light on details because I never saw the show myself, but in Sliders there was one actress who wanted off the show. Things were getting heavily toxic between her and the directors or something.
+
+So they booted her off the show...by having her friends knowingly leave her behind in a universe where she'll be kept in a rape/breeding facility till she dies. Which entirely happens offscreen of course."
+news,fej6mp5,t1_fej3ctd,1579159055.0,Nice.
+worldnews,fej6jcm,t1_fej2t4u,1579158942.0,"Unfortunately that's basically the case. The situation gets even worse if the people who are supposed to be part of the process of applying the laid out punishments WANTED you to do what you did.
+
+Strictly speaking Trump has done tons of things that are impeachment worthy, even if you ignore the catch-all clause that grants the actual ability to impeach for no reason whatsoever, but the punishment system was designed with the expectation that Congress and the President would always be in a fight, not that a majority Congress would approve of the President breaking the law.
+
+The only recourse is for the constituents of those Congressional seats to vote that person out or do a state-level impeachment of their representative. However, considering that many states people support their representative doing these things, it is unlikely they will face punishment or consequence."
+worldnews,fej65yf,t1_fej3kxi,1579158488.0,"I wouldn't say that's strictly true.
+
+We as a people are definitely varied and many of us have extremely unenviable beliefs on important topics, but quite frequently if you can avoid the buzzwords that people have been trained to react defensively/offensively to, you'll find that there's a lot of agreement.
+
+One example is that that many Republican citizens are entirely for Obamacare...when you never call it by name and only describe what it does and how it was intended to work.
+
+The entrenched leadership is the problem."
+worldnews,fej603w,t1_feiy8za,1579158292.0,"Chances are that is a decision for the Supreme Court, which like other decisions (such as if the Executive Branch can ignore subpeonas from the Legislative branch that are issued during an investigation into possible wrongdoing by the Executive Branch...an actual issue that will be discussed by the SupCourt...In June.) the Republicans don't want to wait for an answer for before casting their votes.
+
+Even conservative judges are unlikely to declare the Executive Branch is exempt from standard legal processes designed to ensure that the powers of the two other branches are not being impeded. That would basically be stripping their whole branch of government of power."
+videos,feiyxxg,t1_feixd5x,1579151168.0,"The problem with waiting that long is that you effectively cannot fix the effects of puberty at that point.
+
+Imagine living with a face scarred beyond any hope of you ever being happy with it, now imagine that you got this way because someone said you should have to wait for the corrective surgery to see if you REALLY wanted it?
+
+That is the EXACT same situation."
+videos,feiysy1,t1_feilr1m,1579151048.0,"> That being said hormone therapy should also be illegal on anyone under 18-21, kid or parents idea.
+
+Provided that the children are allowed to receive hormone/puberty blockers, then I'm not SERIOUSLY opposed to this, but as I'm not someone immediately impacted by this decision, I'd largely concede my vote to someone who is."
+u_SrGrafo,feht1qn,t3_ep5d0s,1579123302.0,You didn't note that this was the crosspost for the pepperonis you pepperoni!
+space,fegqmm9,t1_fedor9z,1579100238.0,"Is it possible to get raw LIGO data that isn't associated with specific events? Not a researcher, just a curious fellow interested in trying some visualization stuff for giggles."
+worldnews,fefjgde,t1_feensue,1579057604.0,"It's an easy one to fix though. After a certain point of desperation, the government can just municipalize all water industries in the country, seizing all of it basically, and redirect the water back to its people.
+
+This will cause all sorts of things to happen of course, but China isn't going to deploy across the ocean just to siezie a relatively minor spring, not when they could conquer larger freshwater sources closer.
+
+That said, this situation should not have been allowed to pass."
+news,feeumfx,t1_feeu50f,1579041566.0,"More specifically, it showed that we'd found ways to miniaturize the tech AND make it reliable enough that it can operate on satellites for a decade without maintenance.
+
+The level of correction on huge telescopes is absolutely insane and have been for quite a long time, but you've got loads of equipment mucking around with deforming the mirrors, measuring atmospheric distortion, etc."
+news,feeud95,t1_feefs68,1579041407.0,"Way back when I was getting some security training for my first job, they gave us an example of how the Soviets were able to determine how good one of our radars was by knowing the stats of the truck it was mounted on, the rough size of the system based on the tunnels/planes/trains it moved through, and the depths of the depressions in dirt the truck had left driving through an area.
+
+Knowing the stats of the truck told them its weight and load bearing capacity, knowing the spaces the thing could move through established an absolute maximum size of the radar mounted in the back, and the depths of the depressions told them how heavy the truck must have been which told them the weight of the radar system.
+
+All that pieced together gave them a rough idea of basically how ""dense"" the system was, and with a fair idea already of this from other radars they'd seen they were able to calculate an estimated set of radar specs that we were told were within 1% or so of the real specs of the system.
+
+Of course, all this is from like 40 years ago, but it just goes to show that there's someone out there that WILL use even the slightest bit of info to piece together stuff like this."
+news,feetui1,t1_feenuwo,1579041083.0,It occurs to me that if we already have deformable mirrors used for canceling out atmospheric distortion for huge-ass telescopes meant for looking at stars...there's no reason we couldn't put the same equipment on a satellite based camera.
+todayilearned,feep65e,t1_fedke9y,1579038303.0,"It's a difference in unhappy fates.
+
+Fate A) Complete and total sensory deprivation for eternity.
+
+Fate B) Trapped in your own mind with your limited imagination, but able to experience anything you can imagine, for all eternity.
+
+The first will drive you insane and eventually catatonic. The second might get boring as hell, might even STILL reach that same catatonic state, but it took longer and is still better than nothing."
+todayilearned,feeoz6i,t1_fedm816,1579038189.0,"With our current modes and methods of civilization yes that is true, but we don't quite know how that may change with the upheavals likely on the way.
+
+Once automation hits in a big way and the majority of people don't have jobs, society will adjust. Maybe under a UBI system people are more interested in having children for an unexpected psychological reason? Maybe once death is no longer an assured thing, people find they like being parents every 50-100 years?
+
+I'm not discounting that effect, but we can't necessarily rely on it holding true."
+todayilearned,fedcwhs,t1_fed99nr,1579007930.0,"Not a biologist, but likely there's a correlation between the microscopic creatures metabolism and cell division rates. You can probably draw from the first some moderately decent estimates on the second. Sure, they could be off by a fair margin, but even if they are off by say 20% that's still ~700 years per cell division."
+todayilearned,fedcrxp,t1_fedajs6,1579007816.0,"First rule of invincible style immortality: Immediately dive headfirst into hypnotism to provide you the ability to shove yourself into a permanent lucid dream which will end upon input triggers (feeling temperature changes, hearing sounds, etc).
+
+Once you've got that up and going, congrats! You are the life support capsule of the universe. When the heat-death hits, your little fantasy world gets to be a continuance of society and sentience."
+todayilearned,fedcnrz,t1_fed6ovj,1579007711.0,"Not to mention you wouldn't even need to try in order to eventually become a billionaire. Just load up a small fraction of every paycheck into a bank account you never take any money out of. After a thousand years between compound interest and your constant adding, you'll have more than enough to be in the 1%.
+
+Once you get to that point, if everything is still same-shit-different-millennia, you now have enough resources to start influencing things on relatively large scales."
+todayilearned,fedchsf,t1_fed5f1y,1579007564.0,"Even without immortality, we're going to eventually need some form of population controls, all biological immortality will do is increase the rate at which we realize we must do it."
+technology,fedc77t,t1_feda7t7,1579007305.0,Thanks!
+worldnews,fed4k08,t1_fed4hu3,1578998507.0,"I'd strongly have to consider the value/cost efficiency of buying a ticket to go up there if they did it, hah.
+
+I'd probably have to save up a year though, no way would that be cheap enough for a normal vacation."
+worldnews,fed4g77,t1_fed3yoc,1578998356.0,"If China was backing it, I'd largely assume it was as a vanity project, showing they could tame the tallest mountain or some such thing."
+worldnews,fed3ws3,t1_fed3poa,1578997561.0,"The singular advantage they'd have in building such an elevator system is that they wouldn't have to do things like a cable system, it would likely be a slanted system that's a bit more akin to certain narrow gauge rail systems.
+
+I acknowledge this is not likely to ever happen, but if randomly Nepal or China were to decide they want to do it, I wouldn't be opposed to it."
+technology,fed3s6t,t1_fed31qj,1578997373.0,"Steam and Blizzard's F2A apps require other things, though those are at least easy to discount when I am searching.
+
+Several preferred Google Authenticator, some preferred Authy, and then I have a few locked in some other one I can't seem to unlock...because it wants a code from within itself to do so. Go figure."
+aww,fed2lyb,t1_fed2535,1578995636.0,"pls no
+
+T_T"
+AskReddit,fecyhsk,t3_eoe574,1578989870.0,"Battlefield Earth.
+
+I love that movie. I read the book years later and recognize the book's story is vastly superior, but I STILL love that movie."
+news,fecyfrq,t1_fecm5oe,1578989799.0,"Worse, if Sanders or Warren do get the presidency and manage to set up some of the needed progressive policies, they'll just scream about how such things are financially impossible because CLEARLY those policies are what brought about the problem, not the Republican ""Milk it for all it's worth and laugh about it later."" economic policies."
+worldnews,fecy9o3,t1_febs6jm,1578989566.0,"Honestly at this point I think the best thing we could do is just build a pressurized visitors center at the summit and create some sort of underground elevator system to take you to the top.
+
+Would it be insanely expensive? Oh hell yes.
+
+Would people still climb it? Definitely!
+
+But at the very least it would help a bit with the trash and theoretically the health/reward aspects (people not helping others because to do so would mean that they won't reach the summit)."
+funny,fecy2yu,t3_eo7cq0,1578989330.0,"If I had Terry Crews as a training buddy, I'd get ripped in no time. That enthusiasm of his gets me smiling every time."
+AskReddit,fecws1b,t3_eodtd1,1578987735.0,"There was a senior at my high school that got high and drove his truck to school, completely failing the entrance turn and driving down the hill to run into a parked car.
+
+The campus police officer and others rushed out to help, and the officer saw the huge stash of weed in the car. He was arrested as his possession exceeded the amount necessary to charge with intent to sell and was expelled from the school for having drugs on school grounds.
+
+He was like 2-3 days from when graduation occurred, during which time the seniors are actually not supposed to be on campus (their finals are a week early for this reason) so they don't disrupt everyone else.
+
+Didn't officially graduate high school and got a very serious drug charge and jail time."
+WritingPrompts,fecwa4f,t1_fecvzj2,1578987149.0,"Hah! I suppose in a world without guns, the man with a blade reins king.
+
+Thanks for responding to my prompt!"
+aww,fecvg4e,t3_eohdxm,1578986202.0,"My dog, who is not a cuddler, has the magic ability of ONLY deciding to cuddle EXACTLY 5 seconds before I MUST get up from where I'm at."
+technology,fecv5e4,t1_fec8v49,1578985861.0,"I'm technoliterate enough to use 2FA for things I find important, like this account, but even JUST doing the bare minimum of accounts with that, I have to have 4 different 2FA apps on my phone (because a given website/service/etc requires you use a specific one) and it's an eternal hunt for which app has what account when I'm trying to log into shit. I've actually turned off 2FA on several accounts just to purge a 5th app from my phone."
+CrazyIdeas,fecup2y,t1_fect5zl,1578985345.0,Don't be swayed by falsehoods! It's gif or death!
+technology,fecugvf,t1_fec8akt,1578985086.0,"To play devils advocate, I'm pretty sure their next move after mandating the backdoors is to steadily increase the punishment for having backdoorless encryption. They might not be able to get you on whatever crime the encrypted document is evidence of, but they have you dead to rights on that one.
+
+That said, this is a terrible terrible idea."
+technology,fecucqm,t1_fecqrdr,1578984956.0,"They should try to legislate that Pi must now be 3. See how that goes for them. (And yes, I'm aware that a state in the US almost did this once.)"
+news,fecu677,t1_feccuc7,1578984754.0,"The average person is almost never going to fight back against the government. As long as things are ""alright"" for them in an immediate sense, or that they can trick themselves into believing any inconvenience is temporary, they'll see no reason to do anything about it.
+
+These miners, what would it gain them to camp out with guns? Nothing more than they have right now, and a whole lot of risk that now they can be put into a LOT of trouble even if things go their way.
+
+And quite frequently gun owners are similar. They don't care about what the government does to anybody else, so long as THEY are unimpacted. For years whenever anybody, face to face or online, says they have a gun to protect against the government, I ask them the same question. ""Under what exact circumstances would you actually use your gun against the government?"". And I've gotten exactly two types of answers, if I get one at all. The first is ""I'll use my gun against them if they come for my gun."", which is cyclic and self serving. The second is ""I'll use my gun if the police come for my family when I don't think they've done anything wrong."", which is an admission that you don't want laws to apply to you.
+
+At the end of the day, there's plenty of reasons not to even try something as crazy as a civil war. Think about it logically, either A: The insurrection immediately wins/loses or B: The fight drags on. If option B occurs, then the fight will likely never actually end. All sorts of countries would have an interest in helping various sides. China and Russia would love to just hand off crates of guns and weapons to any and every side in the hopes that the increased chaos burns us harder and faster, the UK and our other NATO allies have an interest in helping the established government AND any side with the potential to win that ideologically is likely to align with them.
+
+In the two cases of A, a fast resolution, either you've accomplished nothing but giving a reason why the government should disarm the populace, or you've overthrown the government...and reestablished that violence is the way to solve political problems rather than using the system itself. After that, who's to say that guns aren't the way people should resolve the outcome of an election that they didn't like? After all, it provably worked last time."
+AskReddit,febsbc6,t3_eo83cx,1578962132.0,"Being transgendered I'm largely on the fence about, informing the person that you are infertile (for any reason, being TG or not) is something that you should probably tell them sooner rather than later so they don't get committed towards the idea of having children when it can't happen."
+technology,febdjcc,t1_feat68y,1578957710.0,"I believe Musk has said previously that Starlink is being designed for end-to-end encryption. Assuming that's true, access to such a node would only give you knowledge of what packets were going where, but not their contents.
+
+Not ideal of course, but a big improvement."

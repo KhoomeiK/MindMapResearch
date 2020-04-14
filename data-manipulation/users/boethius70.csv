@@ -1,0 +1,244 @@
+subreddit,self ID,parent ID,time,text
+ITCareerQuestions,ffaipqu,t1_ff9p3t8,1579736691.0,Great list BTW.  For those of us who know little to nothing about the business this is a great reference point to look at to determine the relative health of the MSP.
+networking,ff9rymg,t1_ff8tlal,1579719878.0,"Yea, definitely.  I had had several people tell me in the years leading up to being offered the opportunity to manage my group that I ""should"" be the manager or ""I thought you were the manager"" and so on.  It seemed like this was the next thing to learn, next thing to grow/evolve in, and it would put me in a solid position for the next phase of my career.   That said I think your vision has to be more personal and bigger than just some vague sense this is what you ""should"" do.  If you genuinely prefer being deeply technical, project- and task-focused, and all about delivering stuff then management isn't for you.  
+
+Ultimately management is about your team, about developing them, improving their performance and motivating them, and managing expectations and perceptions up/down/horizontally in your organization.  You bringing your technical expertise into the mix will certainly help - managers are quite often completely or almost completely non-technical so you'll be a rarity - but you have to set aside your aspirations to be the technical lead and let the team take on the technical nitty gritty while you're the one making sure they have all the tools they need to deliver.  Managing people is hard and is probably one of the hardest things you can do.  Honestly the technical stuff seems much much easier in comparison."
+networking,ff7j8ww,t3_es17fj,1579650845.0,"FWIW don't assume management is the default go-to for mid-/late-career dudes like us - I'm almost 50.  I thought I was ""supposed"" to go into management and when given the opportunity - and admittedly I was fortunate even to be given the opportunity - I didn't do well at it.
+
+All that to say I've been re-positioning my skills to be much more cloud-/DevOps-centric.  95% of my career has been corporate IT and conventional infrastructure (storage, systems, virtualization, network) focused.  While there's certainly no lack of opportunity there in the corp IT world the path forward feels much more like it's going to be ""cloudy"" - Azure, AWS, GCP, etc. - and containers, container orchestration, virtualization of the network stack, automation across all elements of the stack, some comfort level with coding (Python, Go, shell, etc.), and more.  I know a lot of this is chasing the latest shiny thing but there's patterns, tools, languages, etc. that seem to percolate up so you're not following after every new thing.  
+
+It's also a specialization focus that seems to lend itself much more to being open to remote work, which I vastly prefer, and generally seems solid in the pay department.  In fact I'm doing technical interviews for a remote-exclusive role with excellent pay for a small startup end of this week.  We'll see if it goes anywhere."
+Documentaries,ff6kq7e,t3_ervk1o,1579629281.0,"I lived in San Diego until I was 13 and lived in PB from about 5 to 8 years old.  Lived about 4 blocks from the beach and was a block from my elementary school (which is no longer there).  
+
+It was truly an amazing place to live in the late 70s.  There were lots of party animals like today that came to Mission Beach and PB to have fun - though now the entire area seems utterly swamped by mostly college-aged partiers 24/7 - but it was still a great place to grow up.  Had a great core group of friends that I played Star Wars and army men with and we rode our bikes and big wheels all around, played with Matchbox and Hot Wheels, went to Thrifty's for 5-cent scoops (we could easily fish around for change in the couch and get a double scoop), and just generally had a blast.  We left to play in the morning and I don't think my mother saw us until dinner time.  We lived outside.  Helps of course that San Diego weather is near-perfect year round, especially that close to the beach.  
+
+Watched this documentary of Slomo years ago and he's a regular fixture there.  I follow a PB Instagram and it reposts a lot of people who ""find"" him skating almost daily.  He definitely captures the beach vibe and spirit."
+creepy,ff4odle,t1_ff4jbbk,1579568527.0,It's your mummy.  Be nice to your mummy.
+ITCareerQuestions,ff4ixw0,t3_eref9l,1579564724.0,"Indeed you do.  Nearly 25 years in the field I've been laid off twice, terminated once for cause (yea and honestly I **hated** that job), and shifted from an FTE to a contractor from a great company but new management so yea that happened.
+
+Some no doubt are luckier, smarter, better at their jobs (I guess?), more strategic, whatever... but layoffs at least seem inevitable at some point in your career.  My little brother has said he deliberately stayed out of the tech field because of all the times he's seen me laid off. 
+
+One of those layoffs was from a big Fortune 500 and yes the severance and benefits coverage was much much better than the other layoff I had in the early aughts from a tiny startup which was effectively zero severance.  If you've got to get laid off that's the kind of place to do it.  That said, hopefully you get a new job quickly as the severance goes FAST.  
+
+If you don't want to cope with the ups and downs of IT at various companies work in public sector which is usually unionized.  Tends to be much much lower salary but once you're there you're embedded like a tick.  You can ride out your entire career in public sector IT if you want.  
+
+Keep your head up.  If you've got to get laid off this is a good time for it.  Many many jobs.  If there's not a lot in your area, look outside your area.  And don't be afraid of recruiters.  Most of my last several jobs have come through recruiters."
+todayilearned,fezkmv0,t1_fezfxcq,1579458316.0,Interesting time capsule view of the store on an adjoining street to Bay Road - Universal Dr -  from 2012 that shows the store still open.
+personalfinance,feb38vt,t3_eo9hbk,1578955005.0,"Not sure if it's off-topic since you were going to an investment brokerage, but I sure got a dose of illuminating financial wisdom after watching Frontline's [The Retirement Gamble](https://www.pbs.org/wgbh/frontline/film/retirement-gamble/).  
+
+Kind of breathtaking when you realize how much of your retirement is being bled away by innumerable mutual fund fees.  
+
+Watching the crackling intelligence of John Bogle, who led the Vanguard Group for decades, is worth every second too."
+linuxquestions,fe9yya9,t1_fe9trt8,1578942662.0,"Yes I'd explore this.  I'm thinking you'd want AHCI setup typically as the RAID option is software RAID and sounds like op doesn't have two or more drives anyway.
+
+Very surprised you don't have a default SATA driver that supports your controller but there's a variety of commands in Linux to extrapolate your motherboard's chipset and you then determine which driver to download for Windows:
+
+dmidecode, hwbrowser, lspci -v,  ""hwinfo --bios | grep Manufacturer""
+
+etc. 
+
+Once you determine the chipset I'd go hunting for a Windows 10-compatible driver disk for the SATA controller.  Once you get the driver disk you can probably extract it to your USB stick or to another USB stick that you can in turn specify when installing Windows 10 and it requests a driver disk location. 
+
+There's also a bunch of slipstreaming tools like nLite or NTLite where you could slipstream the needed SATA driver directly in to the Windows 10 image but you need an existing install of Windows to work with those.  You'd have to install Windows 10 in a VM in Ubuntu, copy the ISO into it, get a slipstream tool (or use ""native"" Windows tools for slipstreaming like DISM or PowerShell), slipstream the SATA driver, then re-write the newly created ISO back to the USB stick.  Seems like a lot more work vs. just copying the driver over to a USB stick and trying to load that during the install process."
+IAmA,fe9nmjx,t3_eo4fc1,1578939805.0,"Just wanted to say THANK YOU to the OpenReach team.  I used to work for a US-based manufacturing company with a small sales and logistics office in the UK, in Stevington, Bedford.  They had a plant at one point in the UK- which was in a business park and had ample fiber and Internet connectivity - but shuttered it and moved the remaining staff down to Stevington without consulting - as usual - IT.  The office could only get a truly horrible bonded ADSL solution which was incredibly (dog) slow and unreliable.  The office was often kicked offline from the Internet and from the company's VoIP service regularly.  I was aware of OpenReach and had setup a notification if the fiber service ever passed the address in Stevington.  After \~2 years finally it got lit up.  I immediately contacted our ISP and had them see if they could order the FTTC service - yes, 100/100M fiber Internet (and probably faster) was available!  They came by and installed it and the office's reliability and bandwidth performance increased about 1000%.  Soooooo much better.   OpenReach saved a basket case of an office."
+networking,fe49yhq,t1_fe47viv,1578857191.0,So you're saying I shouldn't take out a high-interest loan every time I want to acquire some fancy new electronic $800-$1200 do-dad?
+gaming,fe0aorr,t1_fdyj1hz,1578807950.0,I had a friend in junior high whose dad was a missile engineer at General Dynamics.  Early 80s and the heyday of the Southern California aerospace industry and all that.  His dad knew some really savvy electronics folks and anyway my friend had a PCB with a removable EEPROM slot in it.  He had several dozen Atari 2600 games on individual EPROMs sitting in foam.  The level of hacker elite there was freaking awesome and unfathomable for a kid at that time.
+networking,fe07dw8,t1_fe05r90,1578805015.0,"End of the day you do whatever you want but I wouldn't use it.  Does the non-insulated wire even ""bite"" into the  patch panel or keystone jack when punching it down?  I suppose it could but I'd be afraid it might slip out easily.
+
+As someone who has had the misfortune of pulling a bunch of network cable in previous lives I get it.  I'd cringe if I had to go and re-wire a bunch of drops I'd just made.  In all subsequent IT lives I've hired professionals to do the job.
+
+I suppose you could punch it down on a slightly different color code sequence and maybe have it still maintain spec.  Might be very confusing for anyone who comes in behind you wondering why your color sequence is so off but oh well.
+
+Unusual situation.  You could try suing the manufacturer for lost labor but it's almost certainly not worth your time and energy for a few hundred/thousand dollars worth of labor.  You could always discuss it with the manufacturer but I doubt they'll give you the time of day.  Certainly they'll want to know they've released who knows how much faulty product and should recall a bunch of cable that were part of that batch."
+ITCareerQuestions,fe05rmb,t3_enfo8p,1578803742.0,"Oh yea, it's common.    I had a contract most of 2018 - first serious one I'd ever had and the money was quite good - and had thought the contract was re-upping after the new year last year but the place I worked through that got the contract was not renewed.  We had a good advocate inside the company but the well dried up and he was overruled.  
+
+Contractors are often the first to go when budgets, leadership, direction, priorities, etc. etc. change.  Unavoidable and a part of the brutal reality of contracting.
+
+Many folks prefer it since you're effectively working for yourself, especially in a C2C relationship, but they often have a large network of recruiters, businesses, ex-colleagues, industry contacts, etc. they can tap in to relatively quickly transition to new gigs. 
+
+I was out of work 2.5 months last year between the contract and a full-time gig.  Pretty brutal but at least I was paid in arrears 30 days so I got checks January and February even though I hadn't been working since the end of year 2018."
+networking,fe050nx,t3_eniqfg,1578803232.0,"Feels like the answer is easy and self-evident:  No, don't use wire that's clearly not up to CAT6 spec.  Would an electrician use cabling that is out of spec?  
+
+Go get it swapped on Monday.  Someone goofed somewhere.  Graybar should deal with sending it back to the manufacturer.  
+
+And seriously do you have a 320x200 flip phone camera from 2002 taking that picture?"
+linuxadmin,fdptanm,t1_fdp9j02,1578639627.0,"Yea I once worked at a Fortune 500 where - at the time, anyway - they adamantly refused to use even small DHCP scopes on their server networks.  All IPs had to be statically assigned and go through the provisioning process.  It was some kind of policy.  Somehow they also wanted to start using PXE too across those same server networks.  At the time I don't think I could convince them of how much better/easier it would be to use DHCP and proxyDHCP."
+linuxadmin,fdou9ez,t1_fdotly0,1578613011.0,"Yea good point.  I would just confirm that the existing DHCP server is or is not responding even if it's not ""supposed"" to be.  If op doesn't have admin control over the DHCP server there's no telling how it might be configured.   Someone at some point may have setup PXE functionality and it's since been abandoned.  Not unheard of."
+vmware,fdocy98,t3_emfbrm,1578602884.0,"If you used a CM tool like Ansible, Saltstack, Chef, etc. you could probably enforce compliance in a manner that consumers of the infrastructure couldn't necessarily change.  I know with something like Ansible Tower you could provide users with a self-service interface to provision VMs but the playbooks backing the provisioning UI would enforce whatever rules you want.
+
+""Cloud-y"" VMware-centric provisioning tools like vCloud Director may also allow you to enforce rules but I'm not super familiar with it and would totally defer to an expert on that or reading the docs in greater detail."
+AskReddit,fdoc8n4,t1_fdno28n,1578602546.0,"Used to have a decent pair of subwoofers in my car back in the day.  Man I CRANKED ""Closer"" until my ears bled.  Techno-y bass had such a nice, tight kick to it and it absolutely rocked."
+linuxadmin,fdnxd79,t3_emclqt,1578594768.0,"What's DNS have to do with this?  Do you mean DHCP?  Generally most folks use dnsmasq as a proxyDHCP server so they don't have to change their DHCP server settings to support PXE boot.
+
+That said:
+
+1. Are you using an IP helper/DHCP relay on your layer-3 gateway?  I.e., you're forwarding your DHCP broadcasts to the designated DHCP helper. 
+2. Or... is dnsmasq on the same subnet as your clients attempting to PXE boot?
+3. Is your regular DHCP server also setup in the ip helper settings?  Or is it also on the same subnet as your PXE clients?
+4. What do you see on the dnsmasq logs when it fails?  You should be seeing something even if it's failing.   If you see no traffic, no ACKs, etc. that could point to the broadcasts not forwarding - this would be assuming you have some form of IP helper or your dnsmasq server is on the same subnet. 
+
+My main thought is maybe the regular DHCP server is attempting to respond to PXE boot and failing (maybe misconfigured options 66/67 which of course you should not need at all in the proxyDHCP/dnsmasq scenario) so that's why you're ending up with inconsistent responses.
+
+If you see no logged dnsmasq responses/errors but you're confident the IP helper/relay is working and forwarding DHCP broadcasts to the DHCP server and proxyDHCP/dnsmasq server then maybe run tcpdump on the dnsmasq server and output to a PCAP file which you can then review in a tool like Wireshark; e.g.,
+
+    tcpdump -i eth0 -n port 67 and port 68 -w dhcptraffic.pcap 
+
+This should allow you to analyze the DHCP packet capture and narrow down why it's failing."
+sysadmin,fdlrtlt,t1_fdl8fmq,1578530981.0,A race car driver?  Oh no wait that's Stirling Moss.
+vmware,fdi28xs,t1_fdhv1q2,1578434437.0,"Looks like a desktop. Quacks like a desktop. 
+
+Yea I think it's a desktop.  Intel can smack a ""NUC"" label on it all day long but small form-factor PCs with some level of modularity have been around for a very long time."
+iiiiiiitttttttttttt,fdi0sch,t1_fdhx81w,1578433697.0,I never thought to let my baby sleep on my laptop.  My Thinkpad IS pretty sturdy.  Guess we can say it's now a 3-in-1 laptop.
+videos,fdfdshc,t1_fdfclky,1578359334.0,"Not sure what one has to do with the other but yea.  
+
+Woody Allen's pedo tendencies are well documented.  Hell they're basically on screen right in front of you in at least a few of his movies."
+todayilearned,fdeq3jm,t1_fdd3z2q,1578344259.0,"Yea, they're all just human beings - of course - at the end of the day. 
+
+Definitely went through my Beats worship cycle early in college.  Read a lot about Kerouac and Ginsberg in particular.  
+
+Kerouac was quite the inveterate alcoholic and drank himself into an early grave.  There's a fair number of Youtube video interviews of him in the '60s and he was clearly massively sauced in most if not all of them.  One can only imagine how bad he was privately.
+
+History has been pretty kind overall to the Beats.  One could argue they essentially popularized the idea that it was OK and perhaps necessary to be massively high when writing and that their work would become more transcendent the higher they were.  Kerouac was legendary for being whacked out on speed and apparently could type 160WPM+ out on long rolls of Teletype paper.  My recollection is the first drafts of his early novels including **On the Road** were written on Teletype.  
+
+Great artists can often be very bad people.  History is littered with the type."
+dementia,fdeh8m1,t3_eknpcr,1578338973.0,"""Everything's fine,"" ""No no no nothing's wrong with me..."" etc. etc. The denial that something, anything is wrong - when it's clear that something is and they continually insist nothing is or could be wrong is a harbinger.
+
+My mother has done a lot of this.  Simultaneously she's admitted to my wife and I she's been in decline and ""sick"" for years.  It goes back and forth where she is more transparent than other times where she's insistent, almost belligerently so, that all is well. 
+
+Intellectually my mother appears fine to most people but her executive-functioning is way, way off.  She's also clearly making very concerted attempts to appear OK and independent to everyone.
+
+An internist/GP/FP type doctor can do basic neuro tests and get her referred to a neurologist for more extensive cognitive and neuro testing, scans, etc.  She may resist this but you have to insist.  If you have to lie - often referred to as ""therapeutic fibbing"" - do it.  Eventually of course she'll probably realize what you're doing but getting her there and talking with a doctor may be enough to kick her resistance to more complete testing.
+
+My mother insists all doctors are ""idiots"" and they ""don't know what they're doing"" but getting her in to see them hasn't been terribly difficult.  She does attempt to cancel her appointments frequently which is a problem though and you have to be mindful of her attempting to undermine the process and path you're on. 
+
+It's a hard road.  You need baseline testing and clinical determinations.  Given what I'm reading - and I'm obviously far from expert - you may be heading down a road to conservatorship / guardianship faster than you realize."
+AskReddit,fdczf6p,t1_fd4xp5p,1578288941.0,">you're on vacation, but it's not possible (for the average person) to maintain that year round.
+
+Yea we went on vacation on the North Shore about 4 summers ago.  We stayed for 2 weeks so tried to eat in as much as possible.
+
+The owners of the vacation rental advised us to buy as much as we could at Costco if we were planning on eating in a lot.  That's how they save as much money as possible because staples like milk, eggs, bread, fruits, veggies most meat, etc. are relatively affordable compared to most Hawaii-based chains like Foodland and Times.  I mean it's generally quite shocking the price differences compared to the mainland.  I'd say 20-30% higher is probably not too far off.  The Foodland was right around the corner from our rental and I went there with some frequency to get staple items and cringed at how awful the prices were.
+
+Hindsight being what it is we would have stayed less time and eaten out all or almost all the time.  Honestly two weeks is a bit much.  Even with every 100' being a picture-perfect paradise vista you start to miss home after a week-ish.  Also we'll definitely get a unit with air conditioning.  We went in the dead of summer and it rained almost non-stop the first week.  Us ""but it's a dry heat"" Californians were **not** ready for humidity on that level.
+
+I was also surprised at how paltry salaries seem to be in my industry (IT) even in a major city like Honolulu.  You'd expect they'd very approximately track with major metro salaries on the mainland but honestly it seems like it's half or less.  Senior-level Systems/Network Administrator type roles for example might be $70-$80K, which is way, way below most metros in California, New York, Texas, Florida, etc.  I just thought how can people possibly afford to live here on that salary?  You definitely pay a huge premium to live there and who knows maybe in reality salary discrepancies aren't as bad as they seem."
+AskReddit,fd3j4mr,t1_fd1plas,1578158823.0,"We had family friends that would always go to Hawai'i. Like 3-4 trips a year for decades.  They just loved the Islands.  
+
+Anyway as they were heading toward retirement they decided to pull the trigger and move there.  Sold off as many possessions as they could and their house on the mainland.  Went to a huge amount of trouble to move. 
+
+They barely lasted a year.  My recollection is they just couldn't stomach how radical the differences were in cost-of-living.  Easy to armchair quarterback their decision from afar but one would think they would have closely analyzed how radically different the costs were but I guess they didn't."
+Documentaries,fd3c8yn,t1_fd35l3e,1578156851.0,"Ultimately it's a choice they're consciously making.  They have to be.  It's like a boxer.  You don't get into boxing and aspire to greatness in that particular sport without the understanding that basically you're willfully and constantly exposing your body to serious brain injury.  
+
+The reality of what the sport does to the human body won't stop thousands of players annually from desperately wanting to be professional players, whatever the cost.  The toll to the body is well-known, understood, and documented and has been for a very long time."
+networking,fcy4qo5,t1_fcxa9pi,1578074756.0,"Yea it wasn't like it had spring-loaded resistance on the toggle or that the toggle switch only put the UPS into bypass - a common toggle switch I typically see on the back of UPSes, especially really big ones.  When you hit OFF it was OFF.  BAM - all connected power was out."
+aws,fcy3c23,t1_fcxm79p,1578074199.0,"All our environments - production, staging, dev - for now.  Our environment is **very** small though for the moment - couple dozen AWS instances across two regions.  A lot of issues creep in through logged messages vs basic infrastructure problems like running out of disk space, excess CPU/memory utilization, general capacity issues, etc. so logging is quite important.  Graylog server sizing is t2.xlarge and I gave it about 200GB of disk.  No additional Elasticsearch cluster nodes.  As we scale of course I expect that will grow."
+networking,fcwk0ur,t1_fcw2wyz,1578027733.0,"That's nothing.  I've turned off the power to two mission critical racks of hardware.  Twice.
+
+First time it was one rack and I grazed the toggle switch of an APC UPS and it flicked off all the core network hardware.  Second time I managed to power off the same network rack and a really important rack of server and storage hardware when I was fiddling around with the power whips for the same terrible UPSes.
+
+Until we could fully migrate the VMs to other hardware I taped the UPS toggle switches UP and heavily taped the power lead from the data center and whips together.  Drove me crazy that APC made it so easy to toggle the power off those UPSes.  A light graze of that toggle and you could literally instantly power off everything hanging off that UPS.  
+
+Yea and still don't understand why they had a separate APC UPS in a data center with its own battery backup.  Weird paranoia by a previous network manager.
+
+Probably brought their mission critical ERP down for 2 hours the first time and \~3 hours the second."
+todayilearned,fcwjead,t1_fcwar7j,1578027225.0,"I'll take your version of events entirely at face value.  I know nothing of the actual history and science behind the discovery of the double helix structure.  It was just an informational post that oh by the way there happens to be a dramatization of this exact story.   
+
+If some seem to be taking my read on a fictionalized film version of events around the discovery of the double helix as an actual opinion on actual, real events around this discovery it was not my intention.  My read is of the film, not the real people or real events or real science.
+
+I would say watch it and draw your own conclusions but it seems a bit hard to find.  A streamable copy may be out there on the Internets."
+todayilearned,fcvtyd4,t3_ej3wsi,1578010039.0,"FWIW they did a pretty solid dramatization of this very story staring Jeff Goldblum as James Watson:  
+
+[https://www.imdb.com/title/tt0093815/](https://www.imdb.com/title/tt0093815/) 
+
+It's been years since I saw it but my recollection is this particular take seemed to take the slant that Watson/Crick were kind of a bunch of collegiate bro-flakes who lucked into one of the major scientific discoveries of the 20th Century and it was Franklin who did all the actual hard work.  It does seem to take the position though that Franklin - and many others - didn't really quite see or envision the double-helix structure as Watson and Crick did."
+videos,fcvq2gt,t1_fcvo9m2,1578007535.0,"Yea many many years ago they had a super long psychometric test for your basic minimum wage retail gig at a Waldenbooks.  Only question I can recall is one where they basically asked if you're OK with stealing from the company for any reason - like would you take a pen from the supply closet kind of question.  
+
+I think I lied and said I wouldn't but maybe that flagged me right off because they would KNOW I was lying.  Also I had absolutely bupkis for work experience back then."
+dementia,fcvkp28,t3_ej55el,1578004161.0,"I am not sure there is such a thing as ""gentle"" way to remind him.  
+
+You may have to get creative.  Perhaps you could create some kind of memorial/reminder with her picture, the date she died, and maybe put it in a picture frame where he can see it easily?  Then when you DO discuss it with him you can place the picture frame close by and say something like ""Dad I know this has been hard but I don't want you to have to re-live mom's death all the time.  I am going to put this frame close by you to remind you that mom is gone but always loved you and you always loved her.""  Maybe seeing the picture repeatedly will seed something deeper in his memory and make it less likely he'll forget.  
+
+If that doesn't help long-term you may have to simply do what is often called ""therapeutic fibbing"" as it becomes eventually impractical and far too difficult / stressful having to constantly re-live that time.  It's not healthy for either of you."
+aws,fcuxccs,t1_fcu7okk,1577990415.0,"For log aggregation, searching, etc. CloudWatch just seems horrible to me.  
+
+I jettisoned it in favor of Graylog.  ELK is cool too but alerting functionality seemed to cost money and I needed log-based alerting badly.  
+
+Been using it for a few months now and it's great and the users love being able to search easily for errors, debug problems in our app stack, etc."
+dementia,fctdl0f,t1_fcsl44o,1577939896.0,"Yea great idea.  I just learned about elder day care myself and it's actually pretty affordable - around $75/day out where we live and AFAIK they can be there 7a-7p and of course they are fed and all that.
+
+Not a bad idea if you need a place for a parent to go during the day."
+Music,fcm8ncl,t1_fclxjv1,1577767181.0,"Dan Tyminsky also plays in Union Station, Allison Kraus' absolutely fantastic band.  Truly amazing musicians.  Really enjoy their stuff."
+linuxmasterrace,fcm7s56,t3_ehsut2,1577766482.0,"I know I could Wikipedia it but my recollection and the US Government settled.  It wasn't ""forgotten"" per se.  I think one of the biggest settlement actions to come out of it was Microsoft agreed to ""unbundle"" Internet Explorer with a Windows OS install.  Recall this was at a time when Windows 95/98+IE (then later XP which killed in the marketplace for years of course) ruled the Internet.  1998-2013 they basically owned the browser market - but then competition arose with Firefox originally then Chrome.  Chrome really broke the final strangehold but Firefox was very much a viable alternative to IE for several years before that.  I know I had stopped using IE a LONG time ago.  Certainly long before 2013 which really wasn't that long ago.
+
+I worked for a tiny ISP in the 1994-1997 time frame.  Netscape was still dominant back then - really the first known, commercially viable Web browser - but wanted to charge us $40 per license.  IE was free and Microsoft bundled it with the OS, which almost everyone used.  The deployment customization tools - anyone remember the IEAK? - were plentiful and free.  You could create your own ISP signup floppies with it.  We sold maybe a dozen copies of Netscape in the course of the year and I remember then-giant ISPs like Pacific Bell Internet and Earthlink bundled Netscape Navigator with their signup disks.  They could afford it because they were huge and all but certainly got licenses very cheap in volume (100,000+ units, basically).
+
+Eventually even the big ISPs moved over to IE because it was clear that was where the market was going.  Netscape was later reborn as Mozilla and then Firefox.  In a roundabout way they kind of got their revenge and showed that alternatives to IE were totally viable in the marketplace.
+
+And this meme is kinda pointless.  The U.S. Government also ""split up"" AT&T in the 80s and well look what that ultimately got us:  AT&T.  Let's just say I'm highly skeptical of government-driven trust-busting."
+RemoteITJobs,fclhbc6,t3_ehfd36,1577747789.0,Ok so did you even try on this posting?
+sysadmin,fc7kj70,t1_fc72hzv,1577510385.0,"It's hard and to be perfectly honest I didn't do it well at all.  
+
+I basically used the opportunity as a manager to brute force projects that had been languishing the entire time I had been at the company - nearly 5 years at that point. 
+
+In less than a year we upgraded all major site-to-site WAN connections to fiber, put minimum 100Mbps egress Internet at all major sites (and better links at smaller sites), upgraded core data center networking and routing to a fault-tolerant dual-homed pair of routers and switches with 10G at the core, transitioned all virtualization from XenServer to VMware Enterprise+ and from creaky old server and iSCSI SAN hardware to Nutanix HCI, moved all sites and the DC to Palo Alto HA firewalls, migrated our core ERP solution which ran the whole business to Nutanix, and got Commvault installed and backing up the entire core virtualization and server stack.  We got several other smaller projects done like 3 smaller site build-outs, a retail location stood up - something we had never done before, a critical logistics planning/scheduling solution upgraded and its use expanded, and more.  
+
+Even though I ""got things done"" I skipped building a real organization to deliver these projects.  I did a ton of the work myself either because I could or because I was the only one really capable of delivering certain aspects of the project.  Most of my team didn't really understand Linux admin and we ran 95% of the ERP solution on Linux.  To migrate it my skills were ""needed"" - but really I should have hired someone who could deliver.  
+
+So yea doing all or even a portion of the technical work yourself is actually a bad idea.  If that's what you want then don't be a manager.  I thought mistakenly I ""should"" be a manager and here the opportunity presented itself in big bold letters.  The timing was seemingly perfect as I was effectively a mid-career IT pro with \~20 years in the field.  I had an enormous personal champion who was brought in by the then-CFO and he actively, avidly supported me and gave me the best performance review of my career.  Then the bottom dropped out when a deeply unsupportive CIO was hired, axed my champion within a year, and hired her own people who were the opposite type of my old boss and were highly unsupportive, distant, and difficult management who were attempting to take the entire department in a completely different direction."
+networking,fc73jjs,t3_egjia8,1577496580.0,"Better and much more skilled experts will no doubt weigh in but this just sounds like a terrible setup and IP Network design, in general.  
+
+I'd scrap the aspirations to L2 it across multiple links and separate the networks out via L3 and a proper routing protocol - ANY proper routing protocol  - like OSPF or BGP.  
+
+If you really must keep the cross-connect L2 and not use the perfectly good L3 capabilities of the ASRs then I'd keep just the one primary L2 and hopefully steadily migrate whatever services are requiring VLANs be distributed to one DC or the other, then renumber - so fun! - and go with actual subnetting and L3 routing across locations.
+
+I can understand the desire to keep things simpler and flatter by having a single L2 domain and hopefully the DCs are physically close to each other - sounds like they are - but nearly all of what I've read about shops that have tried stuff like Cisco DCI and L2TP is it generally hasn't gone well.  Someone with actual in-the-trenches experience may totally slap my hand and say I'm nuts and it all works splendidly but the anecdotal stuff I've heard isn't favorable.  
+
+Ivan Pepelnjak discusses why he doesn't like DCI here:
+
+[https://www.ipspace.net/External\_Routing\_with\_Layer-2\_Data\_Center\_Interconnect\_(DCI)](https://www.ipspace.net/External_Routing_with_Layer-2_Data_Center_Interconnect_(DCI)) 
+
+He also has a DCI webinar where he goes into more detail but charges for it."
+funny,fc70du8,t1_fc6l0sq,1577494181.0,"Yes, exactly.  It was actually kind of crazy.  I recall using Alta Vista most of the time back then - though there were a shitload of various search engines out there like Lycos, Webcrawler, and Yahoo, which back then was basically kind of still just a menu-driven directory / menu of web sites - though they of course were getting heavily into search engines at the time too, especially by buying engines like Inktomi and probably others.  There was another one too... like a search engine of search engines.  Dogpile or something.  
+
+Anyway, Google was immediately and clearly vastly superior right from jump.  Page rank was really and truly revolutionary at the time.  It just made the results so much better than everyone else, usually by orders of magnitude.  I immediately switched from using Alta Vista and honestly don't think I ever went back.  
+
+Even though Google is a global Internet cash-printing behemoth now and Larry and Sergei are basically heading off to retirement after making tens of billions each, those core principles that made it ""just better"" are still there.  I won't argue that they do all sorts of sketchy shit with the huge amount of private information they've hoarded on just about every human on the planet who has a mobile device or computer and the whole ""Don't be Evil"" thing is basically a crock of shit, but at the time what Google did was amazing and awesome."
+books,fc6z347,t1_fc6xj62,1577493217.0,"Well said.  It's tough because he really is an incredible filmmaker.  ""Chinatown"" is absolutely one of my favorite movies - just so perfectly acted, directed, written in just about every way - and yes even though it may have been before he raped that 13 year-old girl it's hard to read about what happened and have a lot of sympathy for the guy, especially since he's chosen never to face the consequences for his actions after roughly 50 years.  Artists all over the world hail the guy but he can't come to the US ever again because he refuses to be accountable.  
+
+Polanski may be a genius and a great artist but he's a massive creep and pedophile.  What he did was inexcusable."
+AskReddit,fc6ybfh,t3_egbmco,1577492642.0,"I was in the UK on business once and was watching some kind of medical show late at night.  Flipping through the channels dontcha know.
+
+Anyway the doctor who hosted the show performed a full physical exam on transgender female (i.e., male-to-female transsexual; I guess - I obviously don't know the lingo).  I guess they were transitioning.  The exam was... shall we say... quite revealing.  
+
+Short of soft-core Cinemax porn on Friday/Saturday nights, I can't imagine a scenario where I'd see that much flesh on ordinary broadcast TV.  And of course Cinemax is paid premium channel so not regular broadcast.  I can't imagine ABC/CBS/NBC/PBS broadcasting such a thing over the air, ever."
+sysadmin,fc6c1fb,t1_fc5fkzx,1577477058.0,"I was given an opportunity to become my group's manager after showing a lot of incentive on various projects.  It also ""helped"" that my manager was wildly ineffective and going through a lot of personal bad stuff.  I ended up managing my manager - which yes this is as weird as it sounds.
+
+Personal takes:
+
+1. Stop being an engineer/IC - mostly.  You have to willfully suppress that desire.  If you find yourself taking over the technical details of a project or projects you're doing something wrong.  Let your team take it over and you become the driver behind the scenes and manage expectations and deadlines up and down the food chain.  
+2. Learn the business and whom to peer with across the organization.  Yes you will probably have to play politics to some degree.   If you report to a CxO-level or Director-/VP-level person you will want to get good at socializing with them and understanding what they want from you and what you can deliver.  You don't have to be an extrovert but don't hide in your office either.  They are often completely non-technical so you have to learn to speak their language and understand that they may be strong managers but don't understand one thing about what your team does.  Selling them on your value means they sell you and your team across the organization.  
+3. If you're inheriting your team - and most will be - learn the strengths and weaknesses of each member as quickly as possible.  I knew most of the projects happening when I was promoted but still it helps to get a read from individual team members. 
+4. Don't be afraid to put low performers in Performance Improvement Plans and cut those who aren't doing well after you've given them ample opportunity to fix what's wrong.  This is VERY hard - arguably the hardest part about being ""the boss"" - but it's necessary because the quality of your team and how they are perceived across the organization is ultimately your responsibility.  
+5. Meet regularly with individual team members and the team as a whole.  Expense a lunch for the team every few months.  Don't overkill it either.  We all hate meetings but maybe stagger the team/individual meetings monthly or bi-weekly.  
+6. Yes absolutely you want to be the manager you always had but trust me you WILL be perceived as ""the boss"" and there will be things your team will share with each other that they won't share with you - even when they trust you.  The parent/child relationship is still very much a thing.  Sometimes you're the parent and that's just the way it is.
+
+I say this all in hindsight - as in these were things I SHOULD have done, but didn't do or at least not do very well.  I'd argue your biggest job is to build a strong organization and to do that you build up your team and their place in the company."
+photoshopbattles,fc43xvy,t1_fc3wmx7,1577405998.0,Staged set photo?  Guessing they weren't as concerned about the shot if it wasn't destined to be in the movie.
+NetworkingJobs,fc42mlk,t1_fc3yzu2,1577405003.0,"This.  While us nerds appreciate the occasional sales droid who knows at least a bit of the lingo and understands concepts it's not insulting either if you just take some notes on our requirements then schedule a follow-up with a pre-sales engineer.  
+
+Technically literate sales people are rare however you work for a large corporation that all but certainly has a wealth of literature and information on how to sell across the company's line.  They may not be training you properly but I'm sure there's information to be had on the company intranet and primary marketing web site."
+AskReddit,fc41tzt,t1_fc2yj1d,1577404406.0,"Yea I worked with a physical plant engineer in England several years back who had traveled all over the world for his job but said it's really not a great way to experience the world.  You only see the cities and places you're in briefly and often strictly through the lens of the place you're working.  You go to and from that place from some airport, stay in a hotel in the city / town you're in perhaps for a few days or weeks at a time - depending on the length of assignment, obviously - then bam you're back at an airport traveling off to some other place.  
+
+I got to experience that in miniature in England - I was the one visiting the plant where he was working - and while I stayed the week I didn't see hardly any of England while I was there.  I wanted to at least spend the night or two in London and travel out to Heathrow but didn't even get to do that. Straight to the town which was about 2 hours north of London then back again 5 days later, severely jet lagged most of the time."
+Documentaries,fc18bkq,t1_fbzw5pi,1577311128.0,"Yes exactly.  I cannot fathom a scenario where I'd ever allow my kids to hang out and sleep over at a MALE ADULT'S HOUSE alone.  Fame is not the deciding factor for this - though MJ was certainly a very odd duck (lifelong + extreme/unimaginable global fame IMO just fucks majorly with people + MJ's father and upbringing) and regardless of all that how can you possibly know a person's character and intentions, especially when they do something like invite children over to an adult's house?  It's one thing if it's an adult inviting children over to a children's party of some kind with the general assumption that you and numerous other parents will be in attendance.  An adult inviting children over with the stated purpose of having them sleep over?  Not a frosty chance in hell of that.
+
+I can only assume the parents hoped they would gain something by being in Michael Jackson's orbit and were inexplicably willing to risk their children's innocence and safety to do it.  
+
+I'm still unsure if MJ was a pedophile but something was undoubtedly off there.  No question at all.  He just wasn't normal and I wouldn't want my kid blindly hanging out with him."
+sysadmin,fbz32qb,t1_fbynqqb,1577233601.0,"\>  I kinda miss the intimacy of BBS's 
+
+Me too.  It was my first real social outlet as an independent adult.  The first friends I had when I first moved out and lived on my own were all people I met from BBSes.  There were a number of pretty good chat boards in the area so there was a social element already on the boards themselves as people could chat in real-time.  I had a roommate and he was a nice guy but his social circle was completely different.  
+
+BBS gatherings were common - once a month and sometimes more.  We usually met either at a local well known university bar and grill or at various pizza joints.  Some BBSes called them MUPTs - Modem User Pizza Thingies.  Lots of other parties and DOOM LAN parties grew out of these.  
+
+Some of the same groups and BBSes live on for nostalgia's sake on Facebook but of course it's not really the same."
+videos,fbwefv6,t1_fbvb5ff,1577147758.0,I'm sure it's not.  Probably dirt cheap for a TV studio and not even really that fancy.   Most school districts struggle to buy books and basic stuff like computers but I suppose well-heeled districts or private schools maybe getting a philanthropic donation or just be good at fund-raising it's probably not that crazy to get a decent TV studio setup.

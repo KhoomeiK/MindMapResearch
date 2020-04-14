@@ -1,0 +1,194 @@
+subreddit,self ID,parent ID,time,text
+AskReddit,ffpmjm6,t3_eu6iol,1580098778.0,"There was this song/skit back in the day about keeping your parents off the internet. At a break in the music, the dad is asking his son about getting his computer connected. The dad wants to paint the garage, and is worried about getting the right paint, and if it will stick. Figured he'd do one of those Google searches on latex and bondage."
+todayilearned,ffpiaqc,t1_ffolh4z,1580095715.0,Just thinking about that really ticks me off. What a horrible way to end an otherwise great weekend.
+flask,ffi9ldd,t3_etoqtk,1579968592.0,"I would recommend it, especially if you're looking for the Swagger/OpenAPI style docs and to take advantage of python's async capabilities. 
+
+I used to use [ApiStar](https://github.com/encode/apistar#where-did-the-server-go), but the author changed direction quite a bit. The author built another tool called [starlette](https://www.starlette.io/), which I really like and I am using.  I'm currently using starlette.config for a non-web app. FastAPI is heavily inspired by ApiStar and it wraps Starlette  for the web framework and [pydantic](https://pydantic-docs.helpmanual.io/) for the modeling/validation/strong typing.
+
+I know that sounds like a history lesson, but what I'm trying to say is that you should spend some time reading Starlette's and Pydantic's documentation. I think FastAPI is really slick and intuitive, but if you dive into FastAPI directly, you may find yourself confused by things the author assumes you know about either Starlette or Pydantic. You might want to make some one-off playground code with just Starlette or Pydantic.
+
+On a side note, I started a new command line app recently using Pydantic models. Models are not just for databases. I love it and can't imagine not using that method moving forward. I am no longer passing dicts around between functions. In a package, I define a data model (with validators) and that is one gets passed around. I only convert to strings or dicts or json at the final output somewhere."
+AskReddit,ffhvhc5,t1_ffhakw7,1579955790.0,"The dealership has free Keurig drinks, snacks, and bathrooms. Sleep in the car when they close and go in for breakfast when they open. Never want for anything every again"
+AskReddit,ffhlioo,t1_ffh11iv,1579940944.0,But then people will start asking uncomfortable questions about why you let their child die of cancer. Or just complex morality questions.
+amateurradio,ffex1u2,t3_eswwqj,1579868989.0,"This is brilliant. These batteries have always concerned me because I don't have a good way to secure them. I can put foam and web the battery down to something, but I don't like it. I only recently got a working 3d printer (and I'm waiting till I get my shop rebuilt to open it up), so I could definitely see making several variations (based on battery size of these). 
+
+I could also see putting some tabs on the bottom and top. I know you keep yours is in a bag, but I put my stuff in cases. Setting up a tab on the bottom to screw down through, or tabs on the top for webbing to slide through (or both for safety) would let me secure it pretty well."
+pics,ff6l9wv,t1_ff6hb34,1579629609.0,"I have a drywall screw driver bit. Thought that was pretty specialized. Then I saw someone with a drywall driver. It looks like a drill, but it's specially designed specifically to drive drywall screws into drywall. Calibrated torque setting and preset screw stop. I think the bits were special for that tool and required using a screwdriver to swap out. Crazy."
+AskReddit,ff6iztk,t1_ff6iu9z,1579628224.0,I prefer the white hooded robes. Some will even cover your entire face.
+todayilearned,ff5n6hx,t1_ff5hc07,1579601307.0,I think he meant candles. Roman candle bats.
+todayilearned,ff5n4br,t1_ff52u9b,1579601217.0,"I've definitely seen at least one  cartoon where someone is tossing up explosive baseballs and batting them at people/monsters/cars.
+
+I think I've even seen one where the bat works like a grenade launcher.
+
+Not sure if I've seen one where the bat itself is explosive though. Need someone to get on that."
+funny,ff5mo92,t1_ff3xpt4,1579600527.0,They should have blue boxed the 69.
+AskReddit,ff4zucf,t1_ff3vmbl,1579576466.0,"Purgatory would be the DVDs with the unskippable ads at the front. Like you press menu, next, fast forward, all you get is a no symbol. These are previews for upcoming movies that actually came out a decade ago (well, an eternity in mehven).
+
+Also purgatory is the one scene on the DVD that is scratched so the entire movie freezes there. But if you know about it and time it right, you can fast forward past it"
+AskReddit,ff4zars,t1_ff3z9oh,1579576070.0,"Do you guys have the unlimited soup and salad?
+
+The food is free, your can get unlimited chicken lasagna if you wanted.
+
+That does sound good, but I want the soup and salad.
+
+Well technically it's unlimited soup or salad. To get both, you need to order an entree.
+
+I thought you said everything was free. I want the unlimited soup and salad!
+
+I will have to check with my manager on that.
+
+Meh. Let's get some chicken Alfredo and the soup and salad."
+fifthworldproblems,ff4yd86,t3_erc7f2,1579575414.0,"Ignore the naysayers. Starch is fine. Really almost anything to give it a sense in continuity. You almost don't even need time, most people don't notice it, it really is pretty meaningless.
+
+I will say that if you have any causality or lemon herb, that will add a nice warm taste without being overbearing."
+technology,ff3desh,t1_ff333qi,1579538880.0,"[ Dungeons and Dragons. Satan's game. Your children, like it or not, are attracted in their weaker years to the occult, and a game like D&D fuels their imagination and makes them feel special, while drawing them deeper and deeper into the bowels of El Diablo!](https://www.youtube.com/watch?v=-leYc4oC83E)"
+HamRadio,ff2wiw4,t1_ff2661h,1579526808.0,"Ok, that sounds good. If the radio is receiving (but just didn't receive when the other did), then you probably don't have the clone/firmware issue. It's more of a ""it receives or it doesn't"" tha a ""it doesn't receive as well"". However, miklor is a just a great resource for these radios in general.
+
+I don't have anything else to add that wasn't already mentioned, and that overloading comment could be very likely. 
+
+Good luck!"
+HamRadio,ff2wa1f,t1_ff0mcb3,1579526564.0,"To get started ""just to see"", you can get APRSDroid and use it entirely on the internet. Then connect via the cable to your radio and see local traffic.  It's really fun getting two phone+radios setup and turn off your wifi/data to pass messages back and forth. You can do that on either 144.39Mhz, or tune to almost any other simplex frequency not in use.
+
+One tip: set phone into DND/silent mode when connected via audio cable. Any app making noise will key up your radio, so you want to minimize the possibility of notifications and ringtones going out over the air.
+
+The ""next step up"" from the audio cable is a [mobilinkd](http://www.mobilinkd.com/). This bumps your cost up of course. The TNC2 is about $65 and an audio cable (from the TNC to your radio) will be around another $20. With this, you keep it attached to the radio (many use a rubber band method) and your phone talks to it over bluetooth serial. This is nice in that you can set your radio in a good location, but you can freely move around in a 20-30ft bluetooth range. 
+
+Then the big step above that is the [ArgentData Tracker4](https://www.argentdata.com/catalog/product_info.php?products_id=200). This may be overkill if you'r just looking for basic message sending, but depending on your budget, may be worth skipping the mobilink and going to this. This is a fully standalone unit with GPS and wifi. It can be attached to a radio, whether handheld or mobile and run whether your phone is around or not. It can be your igate, your digipeater, vehicle tracker, and you can still connect a smartphone to it within wifi range. Now when you phone is using this for wifi, the wifi won't have internet; however most android phones are smart enough to detect this and still pass data over 4G. 
+
+There are some other options. You can find these all-in-one trackers, and some all-in-one radio+tnc+bluetooth devices on ebay, but most of these are 0.5W. Then there are the dedicated radios like HRO was trying to sell you. I have the Kenwood TM-D710G. It has APRS+GPS built in. When I'm driving down the road, I can see other APRS stations show up right on the screen. You can ""text"" with it, but text entry is slow - you need to spin the dial to select each letter. You can connect a PC to it with a special serial cable on the back (and I have made a serial to bluetooth adapter from ebay parts). So it's a nice setup for mobile, but you do definitely get more use out of it if you have it connected to a smartphone/tablet/laptop."
+HamRadio,ff23z5f,t3_er3jk1,1579493166.0,"If you transmit from one the ""good"" radio to the deaf one, does it receive in that frequency? That would be the first test. If these are commercial frequencies you're not licensed for, maybe set the power low and try it in an underground iron mine.
+
+Next, I always caution people about cloning baofeng radios. The firmware changes frequently and cloning can lead to a radio that either won't transmit or won't receive. The site miklor.com has some descriptions of this behavior and suggestions on fixing it. 
+
+When I'm programming a batch of radios, I export the frequencies to a csv file. Then I read each radio, import the frequencies, tweak the config options by hand, then write back to the radio."
+politics,fez8p79,t1_feyndig,1579454874.0,"""That's going to become a bad meme"".   -Truth"
+sysadmin,feyht9u,t1_feyexb9,1579445772.0,"I didn't think of that. Is leasing it available on a short-term basis? OP would be looking at 2-3 months at most. I'm betting the ""powers that be"" for OP is going to be looking at the shortest amount of time possible for double-tenancy (though I would argue that's part of the cost of the move project)."
+sysadmin,feybryc,t1_fewr4pu,1579443409.0,"Also agreeing with this. Even if you can't get all new, get some new gear into the new DC, setup bridge VPN networking (or MPLS if you can). Then start migrating services and data to the new gear. Consider it a gradual process of turning up the new datacenter as you work on turning down the old one. Switching service from a server in site A to site B can be done during a window, if it fails, you can roll back. 
+
+Once you get one of your existing servers switched over, you can decommission it from the old DC and physically move it to the new one. Migrate the service over first, then the hardware. 
+
+As you go along, you will almost certainly find room to improve the current way your services are setup and how you deploy them. You might be able to consolidate down to a smaller number of servers or even reduce the number of services you have.
+
+NOTE: Since you OP didn't say what is running on the servers, I spoke from an OS-on-bare-metal approach. If in fact OP is running VMs or containers, this can go a lot smoother. For instance, in VMWare/vcenter VMs, just spin up new ESXi hosts in the new DC, get connectivity, and vmotion over. Due to storage latency it won't be a hot transfer, but definitely doable. If the new servers don't have shared storage, you can set them up with local for the duration of the move. This is often referred to as a ""lifeboat setup"". You might setup a lifeboat cluster in your current datacenter, migrate essential services to that, then move your SAN and other ESX hosts."
+HamRadio,fextuq0,t3_eqvh9z,1579436118.0,"Ham radio is licensed two-communication between individuals without music allowed.
+
+What you want is an [FM audio transmitter](https://www.amazon.com/s?k=fm+music+transmitter&crid=1JJ36F4A5HSYZ&sprefix=fm+mus%2Caps%2C142&ref=nb_sb_ss_i_1_6), of which there are many options."
+fifthworldproblems,feqywul,t1_fen45lm,1579347673.0,May I stand underneath it?
+fifthworldproblems,feqyvok,t1_fenpga6,1579347659.0,"This just says ""I can do what I want"".
+
+Looks legit, carry on."
+AskReddit,femnmi5,t3_epugyy,1579263852.0,"I really wanted to name my son ""Awesome"" but my wife kept vetoing that name."
+Pennsylvania,felfky7,t1_fejovvg,1579221006.0,[who doesn't](https://youtu.be/CvonKpvp3k0?t=66)?
+politics,fejn5wo,t1_feir7mv,1579180490.0,"I learned something new and fascinating today. Well, maybe disturbing is the better word.
+
+Also, I am now thinking the white House leaker might have been John Barron."
+politics,fejlr32,t1_fejcm5x,1579179178.0,The rich and the shameless. Always complaining.
+sysadmin,feijrkm,t1_fei9czn,1579140146.0,"Everyone likes to pretend that Windows 8 didn't exist. The upgrade path is from Windows 7 to Windows 10. Sometimes you find a 32-bit tablet with a non-removable 32gb ""solid state drive"" running Windows 8, but it ran out of space and can't install any new updates."
+AskReddit,fedp7ou,t1_fedmb38,1579016893.0,"I heard he goes both ways. 
+
+But yes, most stories as a prosecutor to bring criminals to justice. But he also takes on defense cases as well."
+AskReddit,fedaw0y,t1_fed67mn,1579006076.0,You can't tell me what to do!
+pics,fe964nx,t1_fe6fvun,1578934688.0,"Not all narcissists are millionaires, and not all millionaires are narcissistic. But being one does help lead to the other."
+funny,fe7rr7e,t1_fe7ncog,1578918472.0,I too have a business-based home.
+selfhosted,fe6vud0,t1_fe5t13v,1578906404.0,Babies are pretty much the definition of self hosted.
+selfhosted,fe212ox,t1_fdzt2pz,1578833378.0,"With drone, you can run the drone binary against your local copy of the code and run all the same tests. You might have to tweak variables to account for differences between ""on my laptop"" and ""hosted"", but otherwise identical."
+AskReddit,fe1hn7y,t1_fe06q9o,1578826638.0,"In the book firestarter, the dad has low level psychic abilities, mainly the ability to push people into doing things. He ended up running a weight loss clinic. Very standard diet and fitness, but everyone actually stuck with it and had amazing results. Later, he opened a general life improvement training course. Got people to build up confidence, perform better at work, be less nervous in social situations.
+
+Your comment reminded me of that. Used his powers to help people help themselves."
+funny,fdxtr9e,t1_fdwycw0,1578772831.0,"They didn't cheat with the rectangle tool, they used the line tool. It's hard to tell, but if you look in the bottom left corner, there's a slight misalignment. You'd have to know what you're looking for and zoom in pretty far to see it, but it's pretty good after just one month of photoshop."
+AskReddit,fdw9486,t1_fdsd1dw,1578756344.0,"Not knowing anything about musical instruments, I really thought /u/MikiemCZ was referencing [this scene](https://imgur.com/gallery/dX7Qq)"
+funny,fdvwwou,t1_fdttla5,1578752612.0,"That and jet-knife water pressure was why I uninstalled mine. You still end up wiping, the TP comes away with poop water, and I was using more TP to dry myself than I usually do wiping. I read some people keep a bin of washcloths in a bin beside the toilet (like using clothe diapers/wipes), but that really wasn't a route I wanted to take."
+sysadmin,fdtchqb,t1_fdt651n,1578714802.0,I wonder if it's a start menu Bing result for Dell command update in France.
+Android,fdr4lxt,t1_fdof0gy,1578679405.0,Double stereo
+Android,fdr4e8d,t1_fdp9quq,1578679275.0,This will be perfect for my 360 degree videos. Or I could use it like a large smartwatch
+sysadmin,fdq2co3,t1_fdnmkym,1578651438.0,"Shoot, any time one of us gets access denied, we usually ask if we need the account reset or if we would wait to hear from hr."
+sysadmin,fdq2475,t1_fdovqso,1578651103.0,Under the fridge of course.
+AskReddit,fdo8jz3,t3_em7trd,1578600747.0,https://en.wikipedia.org/wiki/Memepool
+HamRadio,fdnezu5,t1_fdm4sl3,1578584393.0,"If you open up an ""actual repeater"" you'll find that it has two radios inside of it. Depending on who makes it, you'll see two actual radio PCBs, each in their own metal box, or you'll see a slide in card radio as the Rx and a slide-in card radio as the Tx.  Then there will be some sort of audio link and controller between the two radios. 
+
+The biggest problem people have with homebrew repeaters is shielding, insufficient isolation from a cheap duplexer, and duty cycle. In most cases, it is the duty cycle. In a ""proper"" repeater setup, you want your transmitter to be operating at lowest possible power to give it the longest possible life, then you feed that into a power amplifier. Most people save money by skipping the PA, run their transmitter radio at full power, and overheat their radio every time their repeater gets busy. But even if you skip the PA and run your transmitter at the lowest power setting, you can still prolong life quite well."
+funny,fdielh9,t1_fdhy1m6,1578441147.0,I too forgot this guy's wife.
+AskReddit,fdiebbd,t1_fdicy5e,1578440965.0,I can only go down 2-3 levels [before I can't tell what's real anymore](https://i.kym-cdn.com/photos/images/newsfeed/000/817/873/84c.gif)
+AskReddit,fdicjty,t1_fdi3f5o,1578439828.0,OMG. You can't just ask someone if a comment undermines their sub.
+selfhosted,fdgkdns,t3_el9cl9,1578400230.0,"Like many things, ""it depends..."".  There's ""selfhosted"" where you just want to have more control over your services, and there's ""homelab"" where you use it to learn. Of course, these overlap quite a bit.
+
+Also, keep in mind that a server can be a full rackmount, an intel nuc, a desktop computer, a laptop, or a raspberry pi. 
+
+If you want to access your self-hosted stuff while at home, a home server makes a lot of sense. It doesn't depend on your internet connection at all. If you want to access it on the go with a limited internet connection, VPS might make more sense. If your self-hosted app is low bandwidth like calendars or basic web site, home can make sense.
+
+My suggestion for low bandwidth is get something like a raspberry pi (or smallish computer) to learn on at home, and then when you're ready to step it up, get a vps somewhere."
+AskReddit,fdfni8r,t1_fdf5086,1578365787.0,"Same here.
+
+Sam! Dean! Sam! Dean! Sam! Dean! Sam! Dean!"
+devops,fdfg8kb,t3_el03t2,1578360979.0,"Curious what your experience is. For instance, do you know that network automation is a big thing that a lot of companies lack? If you already do network engineering, but not much automation, you may go far by adding onto what you know. If you already do all that and want to get into more development/cloud deployment, then check out all the other answers.
+
+- Get your network under a [single source of truth](https://www.youtube.com/watch?v=B3X-4PtVM7U)
+-  [Ansible + Napalm](https://napalm.readthedocs.io/en/latest/tutorials/ansible-napalm.html) for switch configuration.
+- I'm a big fan of StackStorm, and you can use it for [networking](https://stackstorm.com/2017/04/11/ensuring-network-configuration-consistency-stackstorm-napalm/). StackStorm is funded by Extreme Networks, so they have ""Extreme Workflow Composer"" as the commercial version.
+
+I linked napalm twice, but I know a net eng team that found Napalm too heavy handed and they just wrote pure python to automate loading script configs from jinja templates + source of truth and found it much easier to implement. YMMV.
+
+Also, pretty much all the modern switches and routers have a rest api which you can explore with curl/http commands, or gui rest clients like [insomnia](https://insomnia.rest/) and [postman](https://www.getpostman.com/). I've used these rest apis to help do cable validation. Understanding these and a bit of programming, you can provide a self-service portal. When we would be deploying racks of new servers, we would always have to bug network to check a port for link, it's port profile applied, any mac addresses it sees, and maybe to bounce a port. Exposing port information through a read-only account to a web gui is easy. Giving a method for the server team to do a shut/no-shut on a port makes you a superstar."
+amateurradio,fdfbz6o,t1_fdersod,1578358102.0,That's ridiculous. Op is using stilts.
+AskReddit,fdfbj9a,t3_ekhzji,1578357807.0,"Get a puppy. Basically has to pee every 4-6 hours. So my wife takes the dog out better 10-11 and the dog wakes me up to go out almost exactly at 4 every morning. 
+
+It means I have to go to bed before 10, and I have to really try to be asleep before the wife comes back. Otherwise I'll be awake till after she's done playing on her phone and I'll organic end up being awake for another thirty minutes because it's really hard for me to fall asleep.
+
+Other than that, have a kid and get up at 6:45 each morning to get them on the bus at 7:30. If you have an adult dog, they get used to this routine and make sure you don't slack off on weekends or holidays. It's only when you get the puppy that you learn the joys of 4am outings.
+
+Now, it is a bit tough at first. But you do this day in and day out, for years on never ending end, never sleeping in, and you soon get really used to going through life in a sort of perpetual sleep deprived depressive haze. If you are really lucky, you can travel somewhere for work and sleep in till 8am.
+
+Also, drink water. It's about as effective  as coffee (meaning not at all)and better for you. You can drink coffee, but make sure you drink water to make up for it."
+apple,fder4ie,t1_fdeqbn5,1578344868.0,"I like for Macs for MacOS, and I use an external keyboard/monitor/mouse most of the time, but many people are absolutely in love with the Macbook trackpad/touchpad. I was just talking to someone the other day that had to use a Dell for work and while he didn't mind running Windows, he couldn't stand the touchpad."
+amateurradio,fdeaza4,t3_ekv2bw,1578335071.0,"Reminds me of the ""HP has the cloud thing"".
+
+""How much storage does your cloud have?""  
+""One... thousand?  Yes. One thousand."""
+funny,fddceex,t1_fddbb7w,1578305473.0,"I can't source this either, but I believe that penguins were originally antorcat."
+AskReddit,fdb730u,t1_fdb3sht,1578254482.0,"Not sure why, but that sounds kind of erotic. Maybe not most of the time, but from time to time in an erratic fashion."
+AskReddit,fda55vf,t1_fd76dn6,1578241809.0,You can do that today with [Pigeons](https://www.youtube.com/watch?v=kiNkYs_gKCk).
+todayilearned,fd9vwu1,t1_fd7sfxg,1578238714.0,"Thanks. I should have put some context, especially since I'm not on a programming sub."
+AskReddit,fd9orll,t3_ek3hna,1578236154.0,[We need to talk about the ducks.](https://www.youtube.com/watch?v=f5d8pVg3Qtg)
+todayilearned,fd6ivrm,t1_fd6dzgz,1578191719.0,"Reminds me of the meme where Guido gets asked how many years of python experience he had. 
+
+""All of them"""
+selfhosted,fd2ot1d,t1_fd1wcb2,1578150241.0,"That's one reason I like that Letsencrypt can do wildcard certs (you have to use dns verification, which is fine)."
+IAmA,fd1mvz7,t1_fd04ivw,1578133551.0,"Oh good, you got my text message."
+IAmA,fd1mnpa,t1_fczxiwg,1578133446.0,"His pigeons captured hers, and when she confronted him, he captured get heart."
+financialindependence,fcyzplh,t3_ejkuw8,1578090670.0,"Thanks for this. I was working on a spreadsheet with balances only and I was also wanting to capture my savings/contribution rates, which you're doing on the ""In"" tab. I actually am not concerned about budgeting so much as tracking savings vs spending. So I think I'm going to use your sheet as a base over the other one I worked on in December. I did input my balances for each month in December, so I will probably go and backfill those (though I would have to fill in my paycheck contributions as well for the savings rate).
+
+A couple comments/observations:
+
+1. On your dummy sheet you put in negative numbers for debt, but on the blank copy, we need positive numbers because = Net WorthQ5: does a subtraction instead of an addition. It's fine either way, but it just threw me a bit.
+EDIT: I saw in the dashboard and others that we want negative debt numbers, so I fixed the formula in Net Worths Q column.
+2. I don't like only having one debt column. I like to break it between long-term and short-term debt. This distinction could be arbitrary (people often tie it to prime apr), but in my case it's 5% is long-term, while anything higher than is short-term (credit card/revolving debt). My only exception is a student loan debt, some portions of which are 6.8% I setup a separate sheet just for debt (actually I copied in the one I had been working on). Then on your sheet's Net Worth, I had the Debt cell sum up all the debts on my sheet. I'll probably poke at splitting debt between two columns, but I thought you might be interested in splitting that column up as well.
+3. I liked that you put HSA on this. I hadn't even included HSA in my balances report, an oversight on my part. In fact, I even have some of my HSA invested, so I'm even considering two HSA columns.
+4. (Added in EDIT): Have you tried this at a multi-year level? I'm planning to go back and fill 2019 in to give me a better view. I've backtracked a couple months and it seems to work, but not sure how it will look once you have many months in place. Is the deisign to create a new sheet each year (ie, copy 2020 in to 2021 and clear values)?"
+sysadmin,fcyswr3,t1_fcyso0u,1578086377.0,"And who are these people?
+
+Those are rebel scum."
+funny,fcwyo8m,t1_fcwnoy5,1578043319.0,"Troy.
+
+(Seriously, I don't know either)"
+funny,fcwyeei,t1_fcv177r,1578042975.0,"""I'm going to need you to ring this up separately."""
+politics,fcwan1n,t1_fcv1syr,1578020996.0,Never again.
+todayilearned,fcw8vyd,t1_fcw76c2,1578019828.0,"I know my social, I know my last 4. But once I was asked for my last 5 and I almost couldn't answer. Eventually I had to pretend to write it out and count backwards, even though it was really just the number before the last 4 that I needed."
+todayilearned,fcw8gv1,t1_fcw3mt6,1578019546.0,That's an amateur move right there.
+selfhosted,fcu3f16,t1_fctwejt,1577971411.0,"Good docker containers just the their application, and you would run a separate container with Apache/nginx/traefic that handles your http ingress. Even php apps in docker should be running under php-fpm (or similar lightweight solutions).
+
+That said, devs first learning to package their app in docker often go the all-in-one route, treating it more like a lightweight VM. Better are when they learn to separate their app from the webserver and move to a docker compose file with the separate web server container, the database container, and the app container. Then someone looking to set it up in their own environment can tie the app container into their existing ecosystem"
+selfhosted,fcu32a4,t1_fcu0bja,1577971057.0,"I recently saw the phrase ""apples to giraffes"""
+sysadmin,fct3obt,t1_fcsu872,1577932050.0,I bet it's yellow phosphorus as well! Pretty much the golden standard is display technology.
+AskReddit,fct3fes,t1_fcsz7vw,1577931866.0,"Not a sexxor myself, but my cousin once sexed a sexy sex while sexing. Fallopian."
+AskReddit,fct349m,t1_fcsx123,1577931635.0,"Also, if you're not going to buy any furniture, I'm going to have to ask you to leave."
+sysadmin,fcslbs0,t1_fcnhe3i,1577918943.0,"Millennials are in their late thirties at this point and grew up using 5.25"" and later 3.5"" floppy disks."
+AskReddit,fcsfzwf,t1_fcsel0p,1577915983.0,Working on it.
+sysadmin,fcqwmm8,t1_fcnb7g5,1577893337.0,"I remember those. I built a computer with one. It didn't work the first time, so I took it out, blew in it, and then it worked."
+funny,fco5vs6,t1_fcnm78v,1577824668.0,And an almost fanatical devotion to the pope.
+funny,fco2365,t1_fcndd77,1577822662.0,It's a reference to [this scene](https://www.reddit.com/r/funny/comments/ei1jcj/thrill_is_real/)
+selfhosted,fclxux4,t1_fcjlii9,1577759132.0,"I've been using CiviCRM for about a year now for my radio club. Not sure what OP's use case is, so I can't recommend/not-recommend it. For a non-profit organization that wants to track memberships, it works pretty well. My use case is to get our membership list off of the spreadsheet and into a self-hosted webapp. I was also able to setup a report that emulates the ""membership list"" that I used to print out and distribute from the spreadsheet. Our treasurer can also go in and record payments. So that part is pretty nice.
+
+What I haven't been able to really get working is a simple way to have people register with our wordpress site and be able to access their CiviCRM profile. I've got a civi/wordpress sync plugin going, and I can make custom forms. But I can't give a wordpress user a link to 'edit their own profile'. The best is telling them linking them to civicrm page in wp-admin, and telling them to search for themselves (and getting their wordpress role to match a civicrm role). Ultimately, I'm sure it's doable, but it's more complex. I really think I'd like it better if I can just setup a ""members.domain.com"" and not have to worry about a wordpress setup. Just create accounts or let people register with their email and be a standalone system."
+funny,fclw7qa,t1_fcletb6,1577757971.0,Everyone should play a game of volleybomb once in their life.
+fifthworldproblems,fcjoc3b,t3_ehb3cn,1577696429.0,"
+According to my records, you're a space worm. Since your identity matches your records, there's nothing to fix. Thank you for your call."

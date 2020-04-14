@@ -1,0 +1,352 @@
+subreddit,self ID,parent ID,time,text
+funny,ffvtdwh,t1_ffvt4y3,1580272703.0,Grab a brush and put a little makeup
+todayilearned,ffutroj,t1_ffu2us9,1580249185.0,You should try to be more positive. It can be pretty exhausting to have such and anemic outlook on life.
+learnmath,ffulk5y,t3_evar10,1580244516.0,"It doesn't matter how you pick your code, the probability of it matching the true code is the same. Each event is uniform and independent so you are free to choose your code with state or not. 
+
+The probability that you will see the same true code twice is much higher than you might realize (birthday problem) but you won't know which code will repeat until it does (if it does). 
+
+This is like those cases where if I have a coin and I flip it twice. Whats the probability that I get the same side twice. The first flip locks in the route (it can be either heads or tails doesn't matter) and the second flip is the unlikely outcome to be the same. It's the exact same probability as me calling one or the other on one flip. Same situation here. I can choose to call heads, or flip a coin to tell me what to call but the second coin flip is still 50/50."
+FPGA,ffujnrr,t1_ffu52oj,1580243365.0,"Eh, apologise if it came across as snarky but this sub is filled with people who, after just learning about HDL design, come in asking about making a modern CPU/GPU/NIC etc. 
+
+In general yes, large companies will vet their HDL designs on FPGA(s). They also might do a cheaper process run before running to final design process. ARM is a little bit strange in that they don't make hardware, they license it. So while they certainly test the designs, it's not going to wind up in a physical chip until someone designs a SoC around it."
+FPGA,ffu23qq,t3_ev6hp6,1580232839.0,"Can you implement a modern arm core on an FPGA: yes
+
+It would require a beefy FPGA and access to arms design files 
+
+Should you implement a modern arm on an FPGA: probably not.
+
+The only reason would be to test new cpu designs (core not periperals) and if you had that level of knowledge and experience you probably wouldn't be asking this question.
+
+If you want/need an arm cpu next to some custom compute or periperals then you are better off getting an FPGA that already has an arm core in it like the zynq series."
+vancouver,fftmodo,t3_euvh5c,1580224436.0,"My father was in much the same boat. Times change but boats are a good place to start. There're starving for people. Best thing is, the longer hauls will net you a bunk and 3 square meals. Might mean being away for weeks at a time, but I dont think that's an issue in your case."
+talesfromtechsupport,ffs600i,t1_ffs4nx1,1580173992.0,So what does that make us?
+haskell,ffr95vf,t1_ffn25z2,1580153167.0,"> pedistool
+> 
+> pedestal
+
+pedantry"
+programmingcirclejerk,ffqy420,t3_eupfop,1580146248.0,The container protects the code from side impact.
+haskell,ffoly2s,t3_eubimz,1580078977.0,"You always have the option of adding a concrete type signature. However, I think you're missing the point. It might be a maybe, but I could just as easily swap it for an Error or Either a. What's more I can do that at the call site without changing that code at all. I could run the code with a testing mock instead of IO and it would still compile and run. This exact flexibility is what allows for large scale changes without tedious copy and pasting of type signatures while still having the type checker verify functionality. Getting rid of that behaviour would be akin to Java getting rid of interfaces."
+mathematics,ffofk52,t1_ffneonn,1580077175.0,"Integral(X(t),dt,-inf,y)=B(y)
+
+Integral is A
+
+Works for derivatives too
+
+Fourier or Laplace transforms are other good examples."
+todayilearned,ffndwus,t3_eu1vq4,1580064656.0,"Given what Ive heard about weird al, he probably thought that was a bonus."
+haskell,ffmsqm5,t3_eu90av,1580058518.0,"I suspect the names and the laws go over your head but the cocepts don't. These object are in most other languages they just aren't explicity put on a pedistool and given a name.
+
+I would suggest just writing a few small IO heavy programs. You can't do IO without monads in haskell so just slogging through that will at least give you an I dea how they're consumed."
+mathmemes,ffk35bg,t3_ety2a7,1580014362.0,Theres only one button there.
+dwarffortress,ffjpgc5,t1_ffj6q2u,1580003662.0,Why would you want to be on the surface?
+programmingcirclejerk,ffid2b2,t1_ffgkv7p,1579970984.0,Or in this case unhappy paths. Optimism has an O(n!) complexity
+FPGA,ffhblil,t3_etlvlb,1579928963.0,"> All the standards that I have found (axi4-stream, wishbone, etc.) specify that data is in bytes.
+
+Well most of these are talking to a processor/RAM so they expect you to have already projected your type into a byte block.
+
+> I would think, often, in modern system verilog or vhdl, that one would want to pass generic types instead.
+
+The type system in modern HDL is still very much limited. It's only in the last couple of years have tool chains upgraded to support type level generics and even then it's pretty clunky. Afterall, we're talking about a community (both vendors and users) who think that C is a high level language."
+AskElectronics,ffhaicw,t1_ffh2fpc,1579927928.0,second^second
+AskElectronics,ffhahf5,t3_etf147,1579927904.0,Looks about right.
+canada,fffltu0,t1_fffk6tu,1579886741.0,"Lol, its the current robellus crowd that argues that so they can put the infrastructure in to differentially block content and violate net neutrality.
+
+edit: roberts to robellus, apparently even my cell is in on it. A conspiracy I say."
+AskReddit,ffebwm3,t1_ffclxwf,1579842531.0,"Jokes on you, I make my own. The probability of dead hooker in it is nowhere near zero."
+AskElectronics,ffcs5gb,t1_ffb74c2,1579806146.0,"> I belive this cap is shorted
+
+> shows a capacitance of 0.480 nF but I'm not sure if this is the correct value.
+
+Only one of those statements can be true"
+talesfromtechsupport,ffb71py,t3_esk1lw,1579753526.0,"https://youtu.be/-JPkvO1e1Gw?t=195
+
+Is the only appropriate response"
+mathematics,ffamoi8,t3_esiz53,1579739541.0,"Computer graphics
+
+Machine learning
+
+Physical simulation
+
+Compute algorithms (simplex optimization, bipartite matches, etc)
+
+Of all the math Cs majors need to know, half is linear algebra and the other half is set theory."
+talesfromtechsupport,ffagrik,t1_ff90blz,1579735376.0,"Lets say I work for a small town ISP and everyday during peak time, the systems overload all the connections drop for 1 minute. All your streaming videos drop out, your browsing is just dead, games disconnect. Now, according to you, that's only 30 minutes a month or less than a penny. After all, its 99.9% reliable. Yet to the customer the service is practically worthless, because every time they need to use it, it fails.While you may be providing service 24/7, the consumer is only requesting access for a small fraction of that. So while from your perspective the service is 99.9% reliable, the customer might only see 10% reliability, or maybe 0% if they only ever try to use it at the same time. What more is peak time is peak time because that's when the majority of your customers want to use it, so you can't even say that this experience would be an outlier. You can't just take the 24 hour period and amortize your down time across it."
+mathmemes,ffaca4k,t3_es83qz,1579732153.0,your meme is inappropriately quantized in more than one way.  Looks like your JPG compressor is running on the same calculator.
+mathematics,ff7obgi,t1_ff7njv3,1579654360.0,"other one is tiny, just pulled it up because it's an obvious search."
+mathematics,ff7muct,t3_es3vgq,1579653324.0,"did you try the obvious?
+
+/r/mathmemes/
+/r/MathematicsMemes/"
+FPGA,ff6zhrv,t1_ff6v4jx,1579638084.0,I don't know of a single NIC that doesn't allow for MAC spoofing on both linux and windows.
+learnmath,ff4skvt,t3_erms5n,1579571436.0,"For the same reason that sometimes its more useful to use a different coordinate system.
+
+There are many transforms, but the fourier transform is useful because:
+
+Its orthonormal 
+
+Its complete (wrt to the hilbert space)
+
+Derivative and Integral operators on the basis vectors result in scalar multiplication."
+canada,ff4k9xj,t3_erg94f,1579565655.0,Then they'll bring to the table another milk drinker.
+programmingcirclejerk,ff443cm,t1_ff407fa,1579555099.0,"did it terminate, or were you terminated. Your skills are clearly not employable."
+mathematics,ff3vogq,t1_ff3tlxf,1579549864.0,"> Well, Einstein kinda did: E2=(mc2)2+(pc)2.
+
+> The only time I've seen that is in relatavistic computations 
+
+Huh, I wish I thought of that that particular expression."
+learnmath,ff3tl3p,t3_eraw94,1579548563.0,"For video games its sufficient to have something appear random (without actually being random. To do this they use functions which have a highly unpredictable behaviour, the details of which are pretty heavy in the math  and there is some heuristics to them as well to validate performance. Many are variants of linear feedback shift registers but they get more complicated. 
+
+The idea being that you seed this function once with a known value and then repeatedly evaluate it using the previous state as the new seed. Because it's very difficult to predict the next state from just the outputs, it gives the appearance of randomness. Eventually, it will start repeating but usually not for the age of the universe or so. Likewise, I said it's difficult (but not impossible) to determine the state of the generator from it's outputs. 
+
+So all this is fine for stuff that just needs to appear random, but what about things that really do need to be not predictable like cryptographic keys. Well, These systems tend to be pretty good at that too, but modern computers have another trick up their sleeve. They have true randomness generation. Some have dedicated hardware, while some do it by looking at all the Inputs and outputs on the system. If you ever do a certificate generation on a computer and it asks you to move the mouse around and kit the keyboard, that's what it's doing. Taking randomness from the outside world, namely you. 
+
+So if computers can generate truely random numbers, why not do that all the time. Well, When you're moving the mouse around or the little tempurature monitors are flickering about, that stuff isn't completely random. If you move your mouse in one direction, there is a good bet that in the next instance it will be moving in the same direction. So, the randomness (entropy) that the system collects is fairly low grade and takes a long time to accumulate.
+
+So given these two methods, we have more tools in our tool box for different applications. For games that only need to appear random and performance is more important so we approximate. For security, where we only need the randomness from time to time, it's more important that it be good randomness and so we use entropy generators."
+learnmath,ff3s84h,t1_ff2p1ox,1579547725.0,"Actually, most modern computers do have a true randomness source. Sometimes it's a dedicated peice of hardware, but more often it's drawn from all the sensors that are at the kernels disposal."
+technology,ff3pd07,t3_erd274,1579545974.0,Must be a level in stardew valley that I don't know about.
+mathematics,ff3ke5l,t3_erfor8,1579542916.0,"Given how busted those units are, I presume the dot is a stand in for some constants. Either physical constants like the speed of light or geometric constants from design constraints.
+
+Edit: also who the f*ck squares energy. The only time I've seen that is in relatavistic computations and what's up with the (((((((extra))))))) brackets?"
+NatureIsFuckingLit,ff3c1x8,t3_erb4ox,1579538200.0,If you're brave enough
+EliteDangerous,fezwsjg,t3_eqz9st,1579462683.0,Or space engineers and then you can actually fly it
+politics,fezsmos,t1_fezdox6,1579461131.0,">We could if we drowned the billionaire  ~~out with our combined shouting...~~
+
+Not a bad idea"
+programmingcirclejerk,fewfwgk,t1_fev06k7,1579409918.0,Nah she just had her mouth full.
+AskElectronics,fewcxa5,t3_eqqkek,1579408552.0,A finely sliced piece of rock.
+gaming,fethdwz,t3_eqjo3p,1579375495.0,"Literally unplayable, wouldn't be ruined until after I picked it up."
+pics,fet9wsn,t1_feso23b,1579373129.0,"META
+
+E
+
+T
+
+A"
+todayilearned,fet7m8n,t1_fes90oi,1579372482.0,">Not a criminal, but I keep a coathanger in the bed ~~of me truck (it’s covered and locked),~~ just for this type of purpose
+
+Ftfy"
+math,fesw9a6,t3_eqj2r3,1579369660.0,https://youtu.be/XFDM1ip5HdU
+elm,fepivn2,t3_eq5m4w,1579321645.0,"x is an integer foo = x therefore foo is an integer. Y can get evaluated until the cows come home but because the result is never returned it doesnt matter. Text is not a side effect, its a request to perform a side effect, if the request doesnt reach the runtime (is never returned) then no side effect occurs."
+programmingcirclejerk,fepap4r,t1_feo9jy8,1579315941.0,But kink shaming is my kink.
+DSP,fenru62,t1_felf1t8,1579289859.0,"unless you flip the resulting transformed signal exploiting the fact that F(f(-t)) = F(-w) thus getting or desired signal and ordering without causing a copy.  In fact, the  recursive implementation of an FFT requires a re-ordering step anyways because of the even/odd patterns.
+
+> If I precalculate the butterfly LU it's faster than using e functions. I bet if I tune it like fftw I'd be faster.
+
+And if you use signals of powers of 4 in length then the matrix entries are just (1,-1,j,-j). There is an amazing amount of time and energy dumping into optimising FFTW, I am quite sceptical that you would even be able to approach it in performance, because I can gauntee that for every numerical recipe that you have access to, the authors of FFTW can access quite a few more."
+learnmath,fenqvkb,t1_felf4zs,1579289514.0,"> This stuff is pretty interesting Btw, what do you mean when you talk about the orthogonality of the sinusoidal functions? Is it that they're out of phase by 90 degrees? Or that they're basis functions or something else?
+
+That they form a basis for a space and that basis is (like the cartesian basis) strictly orthognonal with respect to the inner product. 
+The inner product for this space <f,g> is integral(f(x)*g(x),x,-inf,inf) which satisfies all the properties an inner product needs. Thus, when you consider sin and cos:
+
+integral(cos(at)*cos(bt),t,-inf,inf) = dirac(a-b)
+
+integral(sin(at)*sin(bt),t,-inf,inf) = dirac(a-b)
+
+integral(sin(at)*cos(bt),t,-inf,inf) = 0 
+
+This whole linear transform theory is based on specifying an inner product such that functions are vectors. 
+
+> 
+> Also, I was wondering about this, but what do you think was Fourier's intuition about decomposing signals into specifically sin and cos waves of varying frequencies?
+
+I suspect he was trying to solve the heat equation and found that sin/cos would solve it, but he needed a way to build up arbitrarily complex solutions. He knew it was linear so that sums could work, but he had to prove that using only sin/cos alone was sufficient and that was the big insight. 
+
+>  I wonder if you could possibly decompose any complex function via appropriate (ie abstract space dependent) basis functions?
+
+Well there are often convergence criterion that depend on the basis and the inner product and I suspect that you could find some functions so pathelogical that finding an inner product and complete basis for it would be neigh impossible. However, nearly all the ""nice"" functions we work with for physical things can be decomposed. In fact, that kind of decomposition is essential for working with them on computers and cuts to the heart of numeric simulation. 
+
+Not every set of functions is useful as a basis, but there are certainly more than one (infinitely many in fact). The taylor series is a good example of using a polynomial basis to represent functions. You also have wavelet transforms, etc."
+AskReddit,fenlgr4,t1_femymin,1579287220.0,"Wheres that crazy product guy, I want to see ambitious scissors."
+AskReddit,felkde4,t3_epq4h9,1579224269.0,Cranberry. That bog berry can stay there.
+learnmath,felehrc,t1_fekypi8,1579220279.0,"> Thanks for the new perspective into this.
+> 
+> I heard than sinusoidal functions were really popular in calculus and physics because of their lagging and standing wave properties so I figured that they would be more useful than exponential functions. 
+
+They are useful to physics because they are solutions to f''(x) + f(x) = 0 thus giving rise to wavelike phenomenon. Exponentials statisfy this if you admit complex numbers and also work for f'(x)+f(x)=0 for real numbers so there are slightly more general. More specifically d exp(x) /dx = exp(x) which means they are somewhat invariant to any order of derivative. 
+
+The property of sinusoids that we are interested in here is the fact that they are orthogonal with respect to the standard inner product and complete with respect to the hilbert space. This is useful because it results in unitary transforms (no stretching or squeezing) and thus efficient decomposition and that we can represent any function in the hilbert space within the transformed coordinates. 
+
+> Why do you think that exponential functions are more intuitive?
+
+sin(a)*sin(b) = ? 
+
+cos(a)*sin(b) = ?
+
+cos(a)*cos(b) = ?
+
+something involving a trig identities, i'd have to look it up. 
+
+exp(a)*exp(b) = exp(a+b) simple exponential properties 
+
+You will get similar results for the products sin and cos, but whether the result is a sin/cos or whether it's positive or negative all vary. Turns out all those are special cases of the exponential product when you take into account Euler's theorem. 
+
+You need to understand that exp(ix) = cos(x) + isin(x) is and equivalence relation, one can be substituted for the other. 
+
+cos(x) = Re{exp(ix)}
+
+sin(x) = Im{exp(ix)}
+
+you can always chose one representation or the other, it just might be simpler or more convenient in some cases. I find the complex representations to be more convenient because it eliminates most of the special cases and having to keep track of two distinct quantities at the cost of having to use complex numbers. I think that's a pretty fair trade. 
+
+> 
+> Also I'm curious as to what type of signals can't be transformed via Fourier transform. I've heard that modern physics consider Hilbert space all the way until the quantum level, so I'd assume that any waves in reality can be transformed with Fourier transforms. Am I getting something wrong here?
+
+Hilbert spaces are the spaces of finite square integration (there is an extension to finite power if your signal is periodic), so nearly all physical phenomenon are in this space because (usually) the energy in the signal is the square integration and things are finite energy/finite power. This isn't necessarily true for some arbitrary approximation or model you are using. If your signal is blowing up or if it converges too slowly, then your transform might not converge."
+learnmath,feknuti,t3_epijbv,1579203940.0,"> Also, do you know what's the intuition behind using phase? Why opt for finding phase and magnitude of a Fourier transform instead of the real and imaginary parts?
+
+Those are literally Identical statements. If you know the phase and amplitude, you know the components. The only reason to use complex numbers is because the notation is compact and convenient. An exponential is far easier to work with then sin, cos and products thereof. 
+
+
+The result of performing the Fourier transform on a function in time is a function of angular frequency. The Fourier transform itself is a transform, that is, it takes a function and converts to another function. 
+
+Colloquially we might refer to that result as the Fourier transform of the original signal, but it might be a bit more accurate to say that is the ""fourier transformed function"" or it's ""representation in the Fourier space""
+
+The reason for this language is because the Fourier transform is a rotation of sorts, a change in coordinates. The underlying object (a function) is the same, but you are viewing it from two different angles which gives you a different perspective and perhaps more insight. Any function which meets the criterion to be transformed (either it's in the hilbert space or one of a select few others) then we can use the Fourier transform to express the function in angular frequency. In a similar manner that we can express an object in either Cartesian or polar coordinates.
+
+I don't think I have ever heard the term ""fourier process"" and I work with this stuff quite a bit."
+programmingcirclejerk,fekl9c2,t1_fejvngk,1579202390.0,You made the mistake of assuming they aren't one in the same.
+programmingcirclejerk,fehvwlx,t1_fehr4ws,1579124920.0,So is his type system
+learnmath,fefwmkd,t1_feflbya,1579067606.0,"eh, I do this for fun. But if you want to, find I good one for the wildfire relief in Australia. I don't live there but I have a few friends there and my home province goes up in flames every now and again."
+learnmath,fefkvzl,t1_fefdstc,1579058491.0,"
+> Thats because its the inverse I'm guessing? Like I said I am still very much learning and my linear algebra is not as strong as I want yet
+
+There should be an inverse somewhere, I think you wrote or copied your original formulation down wrong. 
+
+> So the more important part is to understand that as D increase it more heavily penalizes those vectors and approaches 0 and as D decreases it approaches the psuedo-inverse? The actual way it will interact with my data will be on a case by case basis depending on say what Positive semi definite matrix I use?
+
+The choice of the structure of D, the actual structure of A and the overall optimization formulation, all of these matter. If you look at the singular value spectrum of A that will tell you which range of your d will be relavant. That said this inverse is not unique. I could have just as easily be formulated as :
+
+J = x^t D x + l (Ax-b)
+
+which is minimize x^t D x subject to Ax = b  
+
+and have something which can be legitimately called a pseudo inverse
+It results in D^-1 A^t (A D^-1 A^t )^-1 
+
+or I can define the inverse in other fashions such as:
+invert via the largest eigenvectors of A such that the condition number of the resulting matrix is less than Y
+
+The approach depends on the formulation of your minimization, which depends on the quantity you are seeking to resolve. There isn't one way to perform a pseudo inverse, because performing a pseudo inverse necessarily requires filling in missing data and what you fill in depends on your problem."
+AskReddit,feewvuh,t3_eondj6,1579042968.0,non-alcoholic beer.
+learnmath,feeu9qp,t1_feea4yb,1579041346.0,"Take a careful look at my derivation, you are missing the critical inversing step in your original question. 
+
+Also look at the construction of the minimization. As D becomes larger, then larger vectors are penalized (not preferred) and thus shorter results are weighted. Likewise, as D becomes smaller, it is more important that the residual is smaller and better fits are preferred.  
+
+You are also neglecting the A^t bit at the beginning where you get the initial projection of b into your space.  The idea is when D is zero you can do that initial A^t projection and then you can backout all the cross coupling of the terms with (A^t A)^-1 . Likewise, as you increase D you say, ignore the cross coupling and just use the regular projection because the system is ill-conditioned anyway (but also shrink it towards zero). It's along the same vein of weiner deconvolution, where you have this constant noise floor that starts setting things to zero as your SNR gets smaller (if you know filter stuff). 
+
+Most of the usefulness of these techniques comes from understanding the underlying minimization and the preferences that go into it's formulation. In fact, most analyses requires the formulation of the preferred or unique minimization inorder to codify in what way things are optimal. The actual structure of the inverse that falls out is just mechanics. This stuff is all completely useless if you are trying to just grab a formula and come to a conclusion."
+learnmath,fee8m26,t1_fedvz1l,1579028646.0,"> When I said random I meant blind to what is being influenced excuse me if that makes more sense?
+
+Not even that, its a calculated trade off between the row space of A and an Identity space where the value of D determines which singular values are relavent.
+
+> 
+> Minimizing the residual vs the result? This means that as we minimize the residual we maximize the result?
+
+no, there is no maximize. When D approaches infinity we see your result approaching zero. When D approaches zero you see your result approaching the regular pseudo inverse. 
+
+> 
+> so when I think of an identity matrix I’m thinking 1s along the diagonal how could you relax that? Isn’t that a strict definition?
+
+If you stick to an identity matrix yes, I""m saying relax the criterion that it is exactly a scaled identity. You can choose any diagonal matrix with positive diagonals or even any matrix at all so long as it is postive semi-definate. 
+
+
+> 
+> Also if we are adding the Matrix D which is the identity * D along the diagonal wouldn’t certain inputs become more important depending on which row and column they belong too?
+
+The choice of a scaled identity is to specifically avoid weighting your results when conditioning. You are scaling every single element by the exact same value to specifically avoid biasing one value over the other. In fact it's your A that will play favourites and D will allow you to weight towards either the preferred directions in A and the more regularized uniform space described by D."
+aww,fee0kp3,t3_eojlk9,1579023865.0,I winced on the last jump. Those kitty claws were straight into the drumstick.
+aww,fee0gim,t1_fedna2j,1579023786.0,*catillac
+learnmath,fedu866,t1_fedifbr,1579019996.0,">or is it simply “random” 
+
+Nothing about it is random. While there are some matrix operators which are NP-hard and appear to be random. This optimization stuff on semidefinate matricies is well behaved.
+
+You are trading off minimization the residual vs minimizing the result. In both cases all elements in the residual are weighted the same and all results are weighted the same with d being the ratio of weights. If you wanted to penalize a specific residual in the output it would need to be restructured. If you wanted to penalize a specific input you could relax the identical matrix into a more general diagonal. In alot of cases you weights will end up being inverse covariance matricies if you assume noise to be gaussian."
+atheism,fedsqow,t3_eok5kz,1579019093.0,"When they talk about privatizing education, this is what they want. Strip all those constitutional rights by making it all private."
+learnmath,fecms85,t1_feckglg,1578977794.0,"To add to this:
+
+The normal pseudo inverse is formulated as an optimization 
+
+either 
+minimize (Ax - b)^2 
+
+or 
+
+minimize x^t * x   subject to Ax = b
+
+the choice of which depends on whether you have a row heavy or column heavy matrix
+
+
+In your case it is not a strict inverse but a weighted trade off.
+
+minimize x^t D x + (Ax - b)^2
+
+which if you take the derivative wrt x, set equal to zero and solve you get 
+
+D x + A^t ( Ax - b) = 0  or x = (D + A^t A)^-1 * A^t b 
+
+because we can formulate this for any b the ""inverse"" portion becomes:
+
+(D + A^t A) ^-1 * A^t
+
+your expression above is missing the actual inverse portion of it. 
+
+the reason you would do this is to create tuning knob that allows a trade off between minimizing x and minimizing your error."
+learnmath,feckglg,t3_eodvqo,1578976103.0,The normal pseudo inverse doesnt have the regularization matrix D.
+vancouver,feauh1o,t1_fea4noy,1578952267.0,"Why give them a free brush, make them use their hands. More of a lesson in forward planning for next time."
+NatureIsFuckingLit,feahvzu,t3_eo0s0f,1578948964.0,Like sleeve of wizard
+canada,fea9mwz,t1_fe9wpyl,1578946000.0,Whoosh
+math,fea7id6,t1_fe9uy9t,1578945268.0,"As someone who works in model formulation/analysis and has worked with optimal control I have yet to see a formalized definition. Thank you, have something to read on my next flight now."
+math,fea6a4u,t3_eo63rz,1578944850.0,Q profile reconstruction sensitivity wrt various diagnosis packages in the context of applications to fusion plasmas.
+shittyaskscience,fe9uk20,t1_fe8hk0o,1578941584.0,In vancouver they're for the five foot nothing individuals to carry around at eye level while walking under the awnings.
+pics,fe9dnx4,t3_enyfmd,1578936644.0,"Ahh man, they got to meet the conductor. Jelly"
+programmingcirclejerk,fe9cjca,t3_eo5cyr,1578936392.0,Imagine having a language feature so ambiguous you need an hour long talk devoted to it.......annually.
+AskReddit,fe96a1s,t1_fe7y48n,1578934741.0,"Eh, they were doing that before. Scuzie."
+haskell,fe6n3i6,t3_eo093t,1578896624.0,"Do notation can help you out
+f x = do
+
+   let a = f1 x
+
+   b <- f2 a
+
+   let c = f3 b
+
+   return $ f4 c"
+AskReddit,fe6a5pm,t3_enpz15,1578885233.0,Mom parked the car on my foot.
+AskElectronics,fe5w2l5,t1_fe5rzfw,1578876236.0,"depends on what it enumerates as. If it's low speed USB it will likely be fine as it signals at only 1 Mhz or so. If it's full speed USB then it might be hit and miss as that signals closer to 12 Mhz, you could just have a short cable. If you tried to put Hi-Speed or Super speed it will choke. Thing is, even if it ""works"". the USB spec provides required return loss and impedance mismatch so it will be difficult to meet the actual spec and as such will likely work or not work depending on which machine or port you plug it into. In a nut shell, things get flaky fast when you violate standards."
+AskElectronics,fe5qcew,t1_fe5i4x6,1578873083.0,"> Surely buy that logic I could wire an XLR to usb?
+
+not really, the signalling speed of USB means that you can't use just any old connector to hook it up."
+CanadaPolitics,fe4vtbz,t3_enqeen,1578863249.0,"In general I would agree with this sentiment. However, I get the feeling that when it comes from the conservative side it has the undertone of ""to make room for more populist demegogues"". The last thing we need is more donald trumps and doug fords."
+AskReddit,fe3xzfm,t3_eni3n7,1578853912.0,Albino rhino
+gaming,fdz7pa0,t1_fdy55r1,1578787516.0,"> Fire might kill it,
+
+I think I need to call either the police or a support helpline."
+DSP,fdz2wdv,t1_fdyreb2,1578786117.0,"Flipping or time reversal doesn't cost a copy. It can be done inplace, just as a conjugation can be done in place."
+todayilearned,fdx7nsc,t1_fdsb4x9,1578766101.0,Bortus wants a word
+DSP,fdwdq5s,t1_fdw2btf,1578757633.0,Its not there because its not an option. If you expect things to have a button you are going to have a very hard time in DSP. you just have to realize your output FFT is flipped when you access it. If your input is real then you might only need to conjugate the output to get the answer.
+programmingcirclejerk,fdrhczo,t3_emrktm,1578684553.0,"But rust is moral, and if allocations make things Turing complete then Turing machines are immoral. 
+
+To begin our holy war I suggest the following targets:
+https://en.wikipedia.org/wiki/Turing_completeness#Unintentional_Turing_completeness
+I believe we have already begun the war against some of them."
+learnmath,fdr8any,t3_emtip0,1578680867.0,if it was rewritten as (j) * (j-1) * k would that help?
+learnmath,fdr15i7,t1_fdqy9nb,1578678056.0,Check your signs
+worldnews,fdqsn2i,t1_fdqau5f,1578674014.0,They dont use it just in case a woman has been pregnant and didnt know it.
+3Blue1Brown,fdoeexm,t1_fdobv8g,1578603582.0,"The representation maybe isomorphic as well and the algebraic operations, but the  objects themselves are not. Isomorphism implies bijection such that you are making the statement that all finite dimensional vectors are rank 1 tensors. This statement is not true. 
+
+In order for something to be a tensor it must transform like a tensor (a change in coordinates alters the components by a jacobian multiplication). This is the defining and interesting characteristic of a tensor, not the fact that it can be written as a grid, list or N-dimensional array of numbers, nor the fact that the multiplication is performed like in a dimensional collapsing product and sum fashion. An arbitrary vector (such as a position vector) does not transform like a tensor and is thus not one. 
+
+There is some annoyance here because the machine learning and GPGPU folks will refer to any N-dimensional grid of numbers as a tensor but this is not strictly true."
+AdviceAnimals,fdob18i,t1_fdo9ds3,1578601959.0,"cooking fish at all, blocked by a wall"
+3Blue1Brown,fdnzwsc,t1_fdlbql2,1578596249.0,"incorrect. A vector can be a tensor, but is not necessarily one. Likewise you can represent some tensors as a matrix, but a matrix is not a tensor."
+politics,fdnho1t,t1_fdn6bwf,1578586016.0,"Yes yes, let the hate flow through you."
+polandball,fdlt5h4,t3_eloi06,1578531884.0,"There's nothing more irish than eating potatoes.....
+
+well except maybe, not eating potatoes."
+AskElectronics,fdjfz16,t3_elo2jz,1578469150.0,Appotech is the manufacturer
+WTF,fdinvj7,t3_elhlvn,1578447088.0,"Thats a sprig of mint on top, not basil."
+AskReddit,fdikcb4,t3_eled64,1578444832.0,self referential and meta ask reddit threads.
+learnmath,fdi0s8j,t3_elcujm,1578433696.0,d sqrt(x) / dx > 0
+RimWorld,fdfq9a4,t1_fdefuwp,1578367607.0,"Well if they go to figure out what rim world, I suspect you'll scar some for life."

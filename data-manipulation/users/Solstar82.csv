@@ -1,0 +1,219 @@
+subreddit,self ID,parent ID,time,text
+amiga,ffnqgpl,t1_ffn7t2i,1580069374.0,"sorry for bothering you again, i asked some more clear pics of the amiga unit from the seller i bought it from, and seems like there is a tab that says ""a-500 "" on it and not ""a500 plus"". i asked the seller about it and still hasn't replied. on the auction it says a500 plus, but the logo says only ""a500"". apparently by reading onlien it seems that some plus models shipped with that logo without the plus"
+amiga,ffno3xt,t1_ffn7t2i,1580068410.0,"> I would do this.
+> 
+> 
+> 
+> Firmware: FlashFloppy (Open Source, easy to upgrade and imho better than HxC).
+> 
+> 
+> 
+> Display: OLED + Buzzer
+> 
+> 
+> 
+> Rotary: Included.
+> 
+> 
+> 
+> Cable: No, unless you care
+> 
+> 
+> 
+> Power: No, unless you care
+> 
+> 
+> 
+> USB Stick: None (you can do that much yourself, preparing any usb stick)
+> 
+> 
+> 
+> Adapter: M1 + cables + df0 selector
+
+perfect thanks, ordered :)
+
+> Good question. People generally make a hole somewhere on the case and stick the switch through. I don't have anything on the left slot (or anything bulky... I actually use the left slot to do NMIs) so I just pass it through the left expansion slot.
+
+No i meant the chip itself, not the switch. it does not need soldering, so i can just plop in there..but where exactly?"
+amiga,ffmvz0g,t1_ffmluxz,1580059503.0,"> If you haven't ordered a gotek, it'll help you if you get one with FlashFloppy preinstalled, OLED screen, speaker (you can disable it via config file if you hate it later) and digital wheel for changing disks. Look at the options at: https://amigastore.eu/en/323-usb-floppy-emulator-gotek.html#/
+
+Thanks! i have not bought it yet so i might as well get it from here. which other fields i need to compile in that page? like Hx\flashfloppy etc?
+
+> If you plug it externally, it'll be DF1. You need this kind of adapter: https://amigastore.eu/en/440-amiga-external-floppy-disk-drive-adapter-m1.html
+
+got it, it has a switch for when i want to use the internal df0. where do i i have to insert it?"
+amiga,ffmktfk,t1_ffmefc7,1580056006.0,">     change those cia sockets?
+> 
+> 
+> 
+> No need to ""change"" cia sockets. This ""mod"" is just an extra socket, sandwiched between the real socket and the cia chip.
+
+ok but if i don't ""mod"" it?let's say i just buy a gotek and put it there. will it be identified as dfo (if i replace the disk drive entilery)or as df1 if i plug it in ""externally"", right?"
+amiga,fflteqb,t1_ffl36w9,1580043867.0,"> Yes. That's what these DF0 switches mounted on CIA socket do. They can make external floppy be df0 at will. Else you get normal df0 internal df1+ external.
+
+ok so other than a gotek i also need to find a way to change those cia sockets?
+
+> Whdload will patch games so they work well on CPU expansions and such
+
+I see so they shoulld work fine on a 500+ with that car?
+
+thanks in advance for all your replies :)"
+aww,fflsppg,t1_ffl48rm,1580043687.0,BuTtOCk
+aww,fflsnzg,t3_eu2mde,1580043658.0,"Mine just stared at the wall indefinitely
+
+&#x200B;
+
+Its not common to have a cat\\dog that ""understands"" what is going on on tv\\tablet. Some pets can. other just don't ""get it"""
+retrogaming,ffkyl2g,t1_ffizmbq,1580031448.0,"I see, thanks, i will save my money then"
+retrogaming,ffkyjyh,t1_ffizty7,1580031409.0,"yeah but as i said i just use everdrive\sd2snes, and right from the start, the menu of the flashcart is already letterbox'ed, so nothing i can do there. there is not a setting about enlarging screen and the likes, regardless of game region"
+amiga,ffkyh1c,t1_ffk8jt2,1580031325.0,"> Get an adapter to plug gotek to the floppy expansion port, and a switch to make DF1 DF0 (they are implemented as a second socket for the CIA closer to the floppy drive). Do install FlashFloppy open firmware into your gotek. Get an encoder wheel if you haven't for the gotek, to easily switch floppies. Leave the internal floppy drive where it is, so that you can still use Amiga floppies, and as the gotek is external, you can see its screen, change floppies with ease, and have the gotek free to quickly attach to other computers you might have or get in the future.
+
+but can i switch it to DFO if i don't want to use my main drive?
+
+>and expect you to attach further expansions to them
+
+such as? i read that those cards can just run alone natively
+
+> I can have an installation with whdload etc, 010 enables reliable whdload exit key via moving vector base to higher memory, and an additional bump in speed. I got my ram68k/ide68k combo unit on ebay directly from the person who makes them.
+
+I thought only a1200 could start\read whdload games?
+
+>If you plan on using a modern screen
+
+I'll just use my daewoo 32 inch crt through scart :)"
+softwaregore,ffkxe3m,t1_ffjw34b,1580030707.0,"i really wanted to like it..but the constant enemies spawning a-la NES games from 8-bit and disgusting upgrading method (where they give you so few experience, random ""body exp"" parts and 4 weapons) just killed it for me. Its clear that they used that thing to pad out the game shallow experience"
+SegaSaturn,ffiz846,t3_etwbt4,1579986371.0,^(Cool!we need a) [^(hi.nu)](https://hi.nu) version too :P
+retrogaming,ffitt8l,t1_ffiklqc,1579982548.0,"> as mentioned above though, Retro Gaming Cables should have you covered :)
+
+in the sense that their cables will work on my pal snes regardless of snes version ?"
+amiga,ffitpkw,t1_ffikq4s,1579982475.0,"Thanks, i decided to bite the bullet just today and got an a500+ :) happy with the buying, now i think i will get an aca500+, and a gotek for sure. something i would need?"
+retrogaming,ffik5or,t1_ffhpvef,1579975807.0,ok so i need to look on google rgb cable for snes?
+retrogaming,ffik235,t1_ffhq7io,1579975736.0,yeah i just tried and tried again and man the difference is huge. i need to find out a a rgb scart cable for the snes then
+gifs,ffijy0h,t1_ffi613x,1579975659.0,indeed :XD
+gaming,ffijt45,t3_etrgn4,1579975565.0,"that's the best thing i have ever seen in any CAC..no wait, in any game ever"
+retrogaming,ffhoukh,t1_ffhoct1,1579945971.0,"i have an av to scart adapter, i might try that too first. i ordered a 2 in 1 adapter for sega mega drive 2 and mega cd from them last week, didn't even sent me a tracking code or anything like that, don't know if i can trust them again"
+Doom,ffhosvs,t3_etjnc2,1579945899.0,since when they became a family...ugh these damn ships
+worldnews,ffho1pd,t1_ffhiex4,1579944733.0,"welp, then when i make a post when i say that to 90% of Chinese people all they care for is money, i got billed as racist -\_-"
+gaming,ffhlo48,t3_etlpnu,1579941163.0,fresh from the kindergarten oven
+Steam,ffhlisi,t3_etcq5f,1579940949.0,the many faces of our lord and savior
+mildlyinteresting,ffhlf54,t3_etjtmi,1579940804.0,"looks like road tires trai
+
+&#x200B;
+
+&#x200B;
+
+oh i see"
+aww,ffhlbgn,t3_etkpju,1579940655.0,"love how the second guy from the bottom looks at the front guy ""how the heck is he doing it?"""
+softwaregore,ffhl9tu,t3_etmlcb,1579940587.0,"which for some stroke of luck, happens to get right in where the eyes and mouth are suppose to be -\_-"
+Steam,fff71wj,t1_fff66id,1579877349.0,thanks i will look for it
+Steam,fff62qo,t1_fff55t1,1579876641.0,no i mean just the colors :P
+Steam,fff40m2,t1_fff1b8b,1579875114.0,can you still change colors?
+gaming,fff0no5,t1_ffevgpt,1579872405.0,that's another accurate choice ;)
+gaming,fff0mqr,t1_ffewe4v,1579872383.0,lol me too :P
+farcry,fff0lln,t1_ffez1ag,1579872356.0,wow really never realized it
+amiga,fff0itg,t3_eta0ty,1579872287.0,amiga was really great at late 90's arcade ports
+gaming,ffetixg,t3_et8mzz,1579864825.0,r/4PanelCringe
+sports,ffetd4t,t3_esx197,1579864606.0,"more like a pedo but that's ,like, my opinion"
+ActionFigures,ffet7qh,t3_et45r1,1579864403.0,i recognize the one on the left and right but that thing in the middle..what is it?
+ActionFigures,fferuw2,t3_et7hyj,1579862478.0,what batman is that??
+HalfLife,fferr0a,t1_ffer4b1,1579862317.0,yeah i have seen him putting those inside his suitcase
+farcry,fferhql,t3_et0yl5,1579861931.0,we really need a new SC game dammnit
+mildlyinteresting,ffepm6w,t3_et334p,1579859117.0,good times when there were only ~~150~~ 152 pokemon
+ActionFigures,ffepj4p,t3_et2qbk,1579858988.0,thier faces..they look so creepy
+PlayTemtem,ffepdax,t3_et4375,1579858742.0,so is this luma a sort of Legendary pokemon\\ temtem ?
+PlayTemtem,ffenbay,t3_esvvj8,1579855653.0,the third step is acceptance
+gifs,ffemztz,t1_ffe8z9m,1579855187.0,"right and what about ""pool"" is ""loop"" backwards"
+gifs,ffemwt7,t1_ffdysb7,1579855066.0,"when you can fly all day everyday, you find fun in other , more mundane things"
+gifs,ffemuc1,t3_et192d,1579854968.0,"love the underlining of ""alone""; like if doing snowboard alone is for losers XD"
+wallstreetbets,ffemi4b,t3_esvves,1579854490.0,seriously  i am newcomer here how does it work to have unlimited money without sucking dick
+mildlyinteresting,ffem3ip,t3_et2ew3,1579853927.0,just like it would happen on human veins
+ActionFigures,ffem1bc,t3_eszvz8,1579853842.0,the ones and only
+aww,ffelo6q,t3_et2fzr,1579853355.0,this is like the 3rd video i am seeing where koala thanks humans by giving their hand. They must be the most grateful animals on Earth. Not even my dog thanks me :(
+4PanelCringe,ffeljni,t3_esu926,1579853186.0,"What is exactly the reason why baby yoda, of all things, is infatuated with chicken nuggets, according to 10 years old online?"
+everdrive,ffcysgo,t1_ffcw810,1579810059.0,"yep formatting it forcefully into fat32 with Easues partition master solved the issue, thanks :)"
+everdrive,ffcwyp6,t1_ffcw810,1579809001.0,"the samsung 128 gb now says instead that the file system is not fat. i will seek an app that will format those sd into fat32, being that windows only format them into either exfat or ntfs"
+Documentaries,ffcvnuq,t1_ffcpvsy,1579808218.0,"> ou’re the kind of pathetic dork that gets punched in the face and tries to shrug it off like “that didn’t even hurt” because you’re too pussy to do anything lmao. You sad little loser.
+
+so, let me recap. you say i am a loser, that, uh, ""gets punched in the face""when i am pretty sure you are the one who gets bullied at school for saying such idiotic stuff (yeah i am sure you still are at school).  You possibly are fgrom a divorced family, who gets frustrated and gets easily angered at Lol or cod whatever the fuck you zoomer plays nowadays, and decided to come here and be all bold, when im reali life you counts less than zero. bet hey behind a kyeboard we are all cool and strong, am i right ""lulz lozl hurr durr git rekt IMMA GUNNA pwn u in cod"". Sure.Also, you keep on sayin i'm 12 and stuff,without actually argumenting on the subject matter, but just an endless ""vent"" of your own failures in life.
+
+also, ""LMAO"", that's already a teenager spotted there. oh almost forgot, reported and blocked. Enjoy...""lmao"""
+everdrive,ffcvfv8,t1_ffcumzg,1579808083.0,"its a SP sd 16 gb one, not pricey, maybe a bit on the cheapo side.latest os version, that can be found on the website.
+
+i also have a 128 gb samsung one, but it can only be formatted into ntfs or exfat :("
+worldnews,ffcvbpq,t1_ffcqy04,1579808014.0,"thanks for the reply, it was really food for the brain. thanks for letting me meditating about it"
+worldnews,ffcp9n0,t1_ffc62gu,1579804300.0,"could be. i never accused in general or hating Chinese ""because they are Chinese"", it's their MO to live by greed that just disgust me.Many other people in the world do that, mind you, but It just happens that a good chunk of those persons lives in China"
+retrogaming,ffcp32m,t1_ffc8j4h,1579804185.0,i thought it was an arcanine
+PlayTemtem,ffcp250,t1_ffccwr6,1579804169.0,"or what, you ""GUNNA PWN ME""?"
+Documentaries,ffcp0mz,t1_ffcf8j6,1579804144.0,">You sound like you’re twelve
+
+if only
+
+>and have no idea how the world works
+
+you seem to do on the other hand. yet you cannot grasp a simple comment, stated just because, into some ""too serious 4 u"" comment that MUST be taken seriously or else..
+
+God i love people like you. They make my miserables days much better, thanks to your useless banter."
+worldnews,ffc6099,t1_ffc5j56,1579792340.0,"not to mention that a country that has avoided all possible ways of decreasing pollution and installing anti pollution systems, just to produce more, a country that enslaves their own people for less than a minimal wage, a country that build all electronic stuff at the minimum cost but selling at 200% of their manufacture, is a country that does not care only about money?"
+worldnews,ffc5qvt,t1_ffc5j56,1579792163.0,"might be racist in yoru eyes, despite me not being racist, but when you hear things like that, when the chinatown in my city is full of people who ran over with a car a friend of mine, with the only justification being ""sorry but if i don't sell x items in x time my boss will fire me""; then yeah you start developing some sort of racism"
+worldnews,ffc5ee9,t1_ffc4shf,1579791929.0,"I would escape yes.
+
+but going to disneyland and infecting other people? fuck no
+
+Now i know that 99% of chinese people just don't give a fuck about anything other than money, but this is just downright absurd, it goes beyond any substandard they follow"
+worldnews,ffc4n9g,t1_ffbxc5q,1579791422.0,">and seek help in other provinces,
+
+this is one thing
+
+&#x200B;
+
+saying i 'm going to disneyland to spread it even further is another thing"
+worldnews,ffc4h5p,t1_ffbt7hc,1579791306.0,would you rather going a mass murder spreading the virus because you're an egotistic fuck?
+worldnews,ffc4dmb,t1_ffbswym,1579791239.0,they are forced to
+worldnews,ffc4a4s,t1_ffbq9n7,1579791174.0,"for sure the ones going to disneyland to spread it even more are not ""intelligent"" individuals"
+PlayTemtem,ffc42xo,t1_ffc0hng,1579791036.0,"yeah it's true. despite adult players playing it too, like i did back in the day, the writing was just aimed at that demographic
+
+then you play digimon cyber sleuth and you have stories about attempted suicide, lesbian couples etc and you 're like :O"
+PlayTemtem,ffby6hm,t1_ffa8ork,1579786528.0,">but this makes me wish nintendo would have made even a PC pokemon game in the last 10 years.
+
+""consolez only git rekt"""
+PlayTemtem,ffbxxw4,t1_ffa8ork,1579786325.0,">doesn't have some form of competitive pvp yet but we know its coming
+
+oh right because that's what fucking pokemon became now, nowadays all games must be ""competitivez onLy luLZ lolz Hurr DuRr"" or else ""gem iz ded IMMA GUNNA own u lulz lolz"", am i right, dear pre-schoolers?
+
+&#x200B;
+
+pokemon started as a single player game. the fact that you could trade pokemon and battle other players was just a nice bonus. now the game MUST center around...""competitive"", the rest is just fluff"
+PlayTemtem,ffbxjcu,t3_esnvi7,1579785980.0,"i wish pokemon would learn from that. i swear even in sword and shield the dialogues are so cringeworthy damnnit, everything revolves goddamn battles"
+PlayTemtem,ffbxgi0,t3_esqnuy,1579785911.0,"""git gud lulz lolz Huur DuuRr IMMA GUNNA pWn U NeXt TimE BuRh Smh SMh BRuH"""
+Documentaries,ffbwrhy,t1_ffbw3nb,1579785306.0,> and rescue them all
+ActionFigures,ffbwq2r,t3_espdau,1579785270.0,awesome poses
+PlayTemtem,ffbumr2,t3_espzag,1579783318.0,..nesquik...
+todayilearned,ffbugxa,t3_esrew3,1579783158.0,because people are that stupid
+Documentaries,ffbu8xv,t1_ffbu67x,1579782934.0,sounds quite intimidating :)
+ComedyCemetery,ffbtp5u,t1_ffbq7zx,1579782379.0,thanks for letting me know about it :)
+Documentaries,ffbq2ul,t3_esqi4w,1579778046.0,can we just make a gang and go there and rescue them all
+ComedyCemetery,ffbq08x,t3_esp02z,1579777945.0,pwediepie subs should be renamed r/comedydump
+gaming,ffbnn1k,t3_esq18a,1579774462.0,same with steam games unfortuantely :(
+softwaregore,ffbmsrs,t3_espc4x,1579773171.0,"""what is it?""
+
+&#x200B;
+
+""oh nothing just the world glitching"""
+softwaregore,ffbmrf8,t3_espbgt,1579773114.0,H3VR intensifies
+PlayTemtem,ffbmajp,t1_ffbln74,1579772392.0,"well yeah its not what it does, its HOW it does it"
+todayilearned,ffblytp,t3_esj66b,1579771891.0,I..uh..guess that's the only reason why they were there?
+mildlyinteresting,ffblw2u,t3_esjwyc,1579771774.0,that's very Machiavellic
+retrogaming,ffbltaa,t3_eskgb7,1579771657.0,dat obese penguin tho
+gaming,ffblqdz,t3_esnl6m,1579771536.0,she is not even going close to anyone who even played only pacman in his entire life
+Doom,ffbl2rd,t3_esfc7o,1579770531.0,"been reposted like, what, 5 times already?"
+gaming,ffbkpkv,t3_esmz57,1579769967.0,"huh yeah sure keeo on slapping it in our face.""bro"""
+ActionFigures,ffbke9y,t3_esn768,1579769500.0,love like it has the face of a kid
+PlayTemtem,ffbkarf,t3_esk2t0,1579769363.0,"aaaaand when you are finally in, it crashes against first opponent ;)"
+4PanelCringe,ffbjo0g,t1_ffbfza4,1579768465.0,found the hitlerist
+4PanelCringe,ffbjneq,t3_esnmt0,1579768442.0,"this ""template"" is really getting cancerous"
+aww,ffbjmi4,t3_eslvef,1579768410.0,I can't understand where the towel begins and the cat ends
+fuckepic,ffbjkra,t1_ffb4k4e,1579768341.0,GAYMERISM
+fuckepic,ffbjk24,t1_ffavic8,1579768312.0,"can confirm that, being that the nephew of my friend still bothers him about letting him play fortnite when he is at my friend's home, only to go back playing xbox when he got back at his own house"
+retrogaming,ff9vzv2,t3_esenv6,1579722720.0,Dr George STRAFACE
+retrogaming,ff9tf5y,t1_ff94wy2,1579720871.0,"yeah i would never ever go beyond the limit of the amper. thank you very much for keeping me up with that, i will try a pico fuse from the site you gave me earlier"
+pcgaming,ff9tc1b,t1_ff95ggt,1579720815.0,"Indeed. It was basically a dumbed down version of the much superior deus ex 1. this and many more, max payne 2 , half life 2 etc"

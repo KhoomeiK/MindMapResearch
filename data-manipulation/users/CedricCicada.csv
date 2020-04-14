@@ -1,0 +1,150 @@
+subreddit,self ID,parent ID,time,text
+nononono,ffcwf3d,t3_esxzm9,1579808678.0,What was the fate of the driver?
+todayilearned,ff9z6uf,t3_esgktz,1579724644.0,Why was it deemed a failure?  The article didn't say.
+GemsofWar,ff61rnu,t1_ff48j9w,1579616935.0,"It's not just to share teams among guild members.  I sometimes use it for pet rescues.  I go to a team I like, click Edit Team and then Manage Team, and then click the string of numbers at the bottom.  Then I can go into Pet Rescue, go to Edit Team and Manage Team, and then click Paste Team.  Presto!  I get the team I want in just a few clicks instead of having to load up each team member individually.  There's several other times I want to copy teams from one place to another like that, too."
+learnpython,ff3u9ii,t1_ff3u3y6,1579548983.0,I repeat:  please show me the complete python code and some sample input data so that I can try it for myself.
+photocritique,ff3tuer,t3_erh3jo,1579548722.0,The model's feet should be in the photo and the photo should not be tilted to the left.
+learnpython,ff3ks11,t1_ff3jpt9,1579543150.0,"Without seeing any more helpful information from you, my best guess is that that assumption is false."
+learnpython,ff3jgfc,t3_ergk27,1579542346.0,"Also, can you test this with smaller data sets, say four rows each instead of nearly 18 million?"
+learnpython,ff3jcrf,t3_ergk27,1579542283.0,"In order to help, we need to see your code."
+BeAmazed,ff2x730,t3_erd9j9,1579527467.0,I don't understand
+learnprogramming,ff06hhf,t1_ff05spf,1579465703.0,"Yes, but OP wanted to be able to access B.z."
+learnprogramming,ff04xac,t1_fezulzv,1579465285.0,"Yeah, come to think of it, I think you're right.  The B part would get sliced off.  I think you'd need to store a list of pointers to A.  Then, when you're walking through the list, you'd cast them to pointers to b.
+
+It's been a long time since I've worked in C++, and I never needed to downcast."
+learnprogramming,fezsw31,t3_er0mhu,1579461226.0,"Search Google for ""C++ downcasting"". That will get what you want, but there may well be a better way."
+Cplusplus,feo5aem,t3_eq6eh2,1579295345.0,"Libraries can have functions, but most have classes.  A class can have functions and data members.  Think of a class named ""car"".  It has a data member of type ""engine"", four data members of type ""wheel"", and so on.  It has a method named Start(), a method named Stop(), and so on.
+
+cin is an object of type istream and cout is an object of type ostream, or of classes derived from them.  
+
+Get a book about object-oriented programming in C++."
+MurderedByWords,fennbrr,t3_eq4lfc,1579288115.0,Image is missing
+dotnet,feng1qr,t1_fenbue6,1579283905.0,"REST services are designed for use over the web.  I originally wrote the connection assuming that the client and server would be on the same machine, and therefore that the web would not be necessary.  Typically, if we need to examine the state of the service, we would use a remote connection to the customer's computer.   It might be nice to have the ability to query the service's state over the web, though."
+dotnet,fenf8ks,t1_fenbue6,1579283413.0,Because I'm old-fashioned and behind the times.  I don't know what a Rest service is.
+dotnet,fen4vlw,t1_fen3e5u,1579277021.0,"Thank you.  From the little I've seen about it, gRPC looks good.  This is just a simple connection between two processes running on the same box, so IIS support won't be needed."
+dotnet,fen38h3,t1_fen2d33,1579275985.0,"Our application runs as a service.  In order to get insights into what is happening, the service uses WCF to set up a TCP communications channel so that other applications can request information from the service and display it to the user.  For example, here's the server-side configuration for the connection:
+
+      <system.serviceModel>
+        <behaviors>
+          <serviceBehaviors>
+            <behavior name="""">
+              <serviceMetadata httpGetEnabled=""false""/>
+              <serviceDebug includeExceptionDetailInFaults=""true""/>
+            </behavior>
+          </serviceBehaviors>
+        </behaviors>
+        <services>
+          <service name=""SimShopService.SimShopService"">
+            <endpoint address=""""
+                      binding=""netTcpBinding""
+                      bindingConfiguration=""NetTCPLargeMessages""
+                      contract=""SimShopService.ISimShopServiceLib"">
+              <identity>
+                <dns value=""localhost""/>
+              </identity>
+            </endpoint>
+            <endpoint address=""mex""
+                      binding=""mexTcpBinding""
+                      contract=""IMetadataExchange"" />
+            <host>
+    <!--          
+              <baseAddresses>
+                <add baseAddress=""net.tcp://localhost:1235/SimShopService""/>
+              </baseAddresses>
+    -->          
+            </host>
+          </service>
+        </services>
+        <bindings>
+          <netTcpBinding>
+            <binding  name=""NetTCPLargeMessages""
+                      maxReceivedMessageSize=""10000000"" 
+                      maxBufferSize=""10000000"" 
+                      maxBufferPoolSize=""10000000"">
+              <readerQuotas maxDepth=""32"" 
+                            maxArrayLength=""100000000"" 
+                            maxStringContentLength=""100000000"" />
+            </binding>
+          </netTcpBinding>
+        </bindings>
+      </system.serviceModel>"
+seashanties,femzprb,t1_femwo6n,1579273698.0,"""Shantily Clad"".  Wonderful name!"
+learnpython,feju5gd,t3_epk5gg,1579185913.0,I have separate 32-bit and 64-bit Python interpreters.  I had to install modules in each of them separately.
+Python,fehz3je,t3_ep99e0,1579126783.0,"i really don't like using an array element to hold the choice type.  It's cute but very hard for someone else to read.  Just use ""if choice == 1"" and so on.  
+
+Please use more descriptive variable names.  Call x ""current\_index"" or something.  Call Ul ""use\_upper\_case"".  Call ""alph"" ""alpha\_characters"".  Call ""char"" ""special\_characters"".
+
+I don't know what you are trying to do with getting the first character in your arrays and then using that as an array, as in:        
+
+     l = char[0]         
+currentSelect = l[cC]  
+
+Your variable l at that point should be a single character, not an array, and trying to use it as an array to get your selected character should throw an error.  I admit I don't know everything there is to know about Python.  But if I, a decently experienced Python programmer, don't know how it works, you should put in a comment explaining it."
+WeirdWheels,fegoujq,t1_fegoimq,1579099000.0,Probably because it looks cooler that way.
+WeirdWheels,fegot6k,t3_ep1ael,1579098973.0,There's someone who has too much money and knows what to do with it!
+facepalm,feer0uo,t3_eos6og,1579039370.0,I see nothing in there about encouraging parents not to vaccinate.
+Python,fee5vnk,t3_eop2gy,1579027037.0,"Could you please repost this on r/learnpython, which is the preferred sub for questions like this?  Also, could you please post your complete program, which I assume is not much longer than this, and could you please use the code formatting button?  It's much easier to read that way, and also to see your indentation, which as you know is important in Python.
+
+For what it's worth, I don't see anything wrong with this function."
+todayilearned,fedt7ll,t1_fediva5,1579019378.0,He was in a body cast right after the accident.  I don't know if he was still in it when recording the Flintstone episodes.
+todayilearned,fedt18c,t1_fedfu17,1579019272.0,Thanks!  I'll dig that up!
+todayilearned,fedsuqz,t1_fedeiv7,1579019162.0,"That was another thing he talked about when I heard him in college.  He was the first voice actor to be credited.  A producer didn't want to pay him what he wanted but offered the voice credit instead.  He accepted, and the rest is history."
+todayilearned,fedsm9p,t3_eokwn6,1579019018.0,"I heard Mel Blanc speak when I was in college.  He talked about that accident.  He had an insurance policy with Lloyd's of London.  He recorded one cartoon while he was in a body cast.  I don't think it was for anything professional.  But Lloyd's heard about it and said that since he was able to make a cartoon he could work, and therefore they wouldn't pay on the policy.  
+
+I'm guessing that was before the Barney Rubble tapings."
+OSHA,fedpilc,t1_fedbfyc,1579017084.0,Many thanks!  I'm in a little folk band that sings several shanties. We can always use more!
+itookapicture,feaoh9u,t3_eoa6lv,1578950845.0,"I can't speak for usage in other parts of the world, but at least in my corner of the US, a track is a pair of rails that can hold one train.  A line can have any number of tracks.  For example, two railroads run near my house.  One uses a single-track line and the other uses a double-track line.
+
+I'd love to hang out on that bridge for a while and see what comes past!"
+itookapicture,feai88q,t3_eoa6lv,1578949080.0,Several of them.
+happy,fe9sk9w,t3_enxfl4,1578941094.0,"I just read an article that said that doing anything is a great cure for depression.  It doesn't matter what, as long as it's something.  Congratulations!"
+whatisthisthing,fe92iwu,t1_fe80oz5,1578933458.0,"""Badonkadonk"" sounds like onomotopoeia to me."
+photography,fdsrzbk,t3_en0jlk,1578707178.0,"Any place!  You never know where you'll find a picture.  Parks, for nature.  Grundgy industrial buildings.  Railroads and trains (but stay off the tracks).  Alleys.  Your own bathroom.  Look at everything not as things, but as shapes and colors and light and shadow."
+photocritique,fdny9lf,t1_fdn4nb4,1578595293.0,"I started to say I agree with this, but after a longer look, I think I like it the way it is.  You wouldn't get as much of a sense of distance if you cropped, I think."
+flying,fdl5z4m,t1_fdl4mtv,1578517617.0,Thanks very much!
+learnpython,fdl44jf,t3_elyly7,1578516723.0,"f is an integer (the length of firstname).  In order for the ""for"" loop to work as you're trying to use it, the thing you are looping over, f in this case, must be iterable.  In other words, it must be a container that holds a bunch of things.  An integer is not a container.
+
+Python does not require you to specify the type of a variable, unlike C, C++ or C#.  While this can be helpful, it is sometimes confusing."
+flying,fdl29ww,t1_fdl141m,1578515825.0,"This is a bit off-topic, but something I've been curious about for a long time.  I used to have a job reading about aerospace issues and writing summaries of the articles for an on-line database (back when companies could charge for access to on-line databases).  I left that job just after articles started appearing about the P&W geared turbofans.  I've been curious ever since about whether those engines have been successful.  Have they?"
+Python,fdkuwve,t1_fdkube7,1578511663.0,"Sorry, but I don't have time write now to write a sample program.  Google for ""python read from file"", ""python create list"", ""python compare string"", ""python is one string contained in another"", ""python write to file"", and whatever else occurs to you."
+cats,fdktzzu,t3_elx7xb,1578511127.0,We got a cat that way.  Had him for several years.
+Python,fdktmwf,t3_elx9ry,1578510907.0,"I don't think you need to worry about Notepad++ for this  Read your text file line by line, see if each line contains something that matches your list of desired names, and if so, write the line to a new file."
+learnprogramming,fdknvek,t3_elweqg,1578507469.0,"Your program is an application.  I guess it's just an application that runs without a user interface.  Like maybe you run it from a command window.  
+
+Try a google search for ""C++ create user interface"".  Or go to your local library and check out a book on C++ programming, since it will probably have code that will do you what you want, and I find it easier to follow examples from a book than from on-line tutorials or videos."
+TalesFromTheFrontDesk,fdhlim4,t1_fdglft5,1578425194.0,But the name sounds cool!
+photography,fdhjf8m,t3_eld0cn,1578423920.0,"Ansel Adams said, ""You don't take a photograph.  You make a photograph."""
+todayilearned,fdhdfgn,t3_elf0ul,1578420381.0,"Sometime fairly soon after that, they split the central office into pieces, and we got our seven-digit numbers.  I learned my phone number as ""Montrose 2"".  I don't remember when it officially became 662.
+
+(I miss the feel of the holes around my finger as I dialed the phone.)"
+technology,fdh8xf8,t3_eledq2,1578417941.0,"The article says that the problem of keeping hydrogen and oxygen separated after breaking the bonds in water is a huge stumbling block in the current process, but it doesn't say how this new process solves that problem."
+TrainPorn,fdeav8k,t1_fde5q8p,1578335001.0,Thanks very much for the clarification.
+TrainPorn,fde4ddk,t1_fddjzqm,1578330911.0,"T4 means four traction motors instead of six, with the middle axle on each truck unpowered, right?  Why is that a benefit?"
+cats,fddr7fs,t3_ekuct0,1578321845.0,That's not a cat.  That's a furry demon.
+nextfuckinglevel,fddnheq,t3_ekqxir,1578318688.0,I'm getting motion-sick just from watching this.
+flying,fd6cz9a,t3_ek664v,1578189082.0,"This seems to have been a successful takeoff.  What happened at the end of the flight?  I presume the plane turned around and returned to the airport?
+
+[Answering my own question.](https://montreal.ctvnews.ca/none-injured-after-a-plane-lost-a-wheel-upon-takeoff-from-trudeau-airport-1.4753350)"
+Damnthatsinteresting,fd5zmb4,t1_fd5pwu2,1578183510.0,Drat.  Thanks for letting me know.  I corrected the link.
+Damnthatsinteresting,fd5ovva,t3_ek4017,1578179813.0,I believe that this ship was sinking at the time.  [Here's the story.](https://en.wikipedia.org/wiki/Prestige_oil_spill)  You can see the tow line and that's probably the oil slick behind her.
+interestingasfuck,fd5nj4v,t3_ek41ed,1578179400.0,"The houses pictured in [this Wikipedia article](https://en.wikipedia.org/wiki/Jaite_Mill_Historic_District) were ordered from Sears.  They are still standing, and are in use by the Cuyahoga Valley National park."
+classicalmusic,fd5a36d,t3_ek35me,1578175589.0,I don't think you should try.  Just sit back and enjoy the music.
+nextfuckinglevel,fd4fbgr,t3_ek18q2,1578167037.0,"In this case, the next fucking level is down."
+science,fd3b3wd,t3_ejyu2h,1578156487.0,"I'm pretty sure that article has it backwards.  Color depends on heat, not the other way round."
+CatastrophicFailure,fczenm3,t1_fczdr5i,1578099495.0,No deaths or injuries.
+CatastrophicFailure,fczeeku,t1_fcyzqz2,1578099319.0,And they sort correctly.
+learnpython,fcyle72,t3_ejka3g,1578082153.0,"Obviously this isn't what you have tried because those comments aren't marked as comments.  Please show us what you have tried.  Also, please look at the Reddit Code Formatting page.  There's a button on the right side of this page that will take you to it.  You may have to create a new post because formatting code in comments is a royal pain."
+cats,fcyixqh,t3_ejkc3d,1578080825.0,I'm glad you could get that leg fixed.  The little ring around the tip of his tail is interesting.
+aviation,fcy6wkm,t1_fcxhbo2,1578075672.0,I couldn't imagine what this was until you said Chinook.
+cats,fcvan7m,t1_fcvak00,1577998122.0,I just saw your flair.  You obviously are living the right way.
+cats,fcvalgi,t3_ej40e2,1577998093.0,This is for photos and discussions about real felines.
+csharp,fcv2jg8,t3_ej0et1,1577993313.0,"I never heard of this before.  Sort of a simplistic version of an abstract method in an base class, which must be defined in derived classes.  But for partial methods, you have the choice of implementing them or not, and you don't have to worry about anything to do with inheritance.  I have a custom code generator I use all the time, and partial methods could be very helpful.  Cool!"
+learnprogramming,fct714p,t1_fco7dso,1577934554.0,Seems like overkill to me.
+nononono,fco78oo,t3_ei8le2,1577825424.0,"I can't tell what's happening.  Some dude sets off a firework, and then the camera guy starts jerking around."
+learnprogramming,fco733e,t3_ei8ld5,1577825335.0,"No.  But please make sure you understand the code, for two reasons.  One, to teach yourself.  Two, because sooner or later, you'll probably have to come back and tweak it."
+learnpython,fchhsbd,t1_fcg63io,1577650612.0,"If you try to automate trading, you're competing with huge companies with huge computers that can identify trades and execute them in milliseconds."
+interestingasfuck,fc9s49i,t3_egtyfb,1577557385.0,Very spooky.  Do you know the history of those people?  How long did they survive?
+therewasanattempt,fc9nzur,t3_egplkh,1577555555.0,What game is that?
+SQL,fc6foyn,t1_fc6byfn,1577479480.0,Thanks for the additional details.  I'm afraid I can't help.  You're way beyond my level of knowledge here.
+SQL,fc6b0rq,t3_egfug9,1577476386.0,"I'm guessing that it's merely talking about syllables in a word.  The word ""syllable"" has no special meaning in the database world.  It looks to me like that line you quoted, about number of entries in a book and so on, is the beginning of a problem statement, but you haven't shown us the complete problem.  There's no good way to calculate anything from the information you gave us."
+oddlysatisfying,fby3nvf,t1_fby1o8f,1577207307.0,I appreciated it and I upvoted!

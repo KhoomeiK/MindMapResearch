@@ -1,0 +1,148 @@
+subreddit,self ID,parent ID,time,text
+My600lbLife,ff9u9ma,t1_few4m51,1579721464.0,The third world country quip was absolutely hilarious. My wife and I quote that to each other all the time!
+Rowing,ff9b2fs,t3_esbv05,1579708906.0,I have one to sell as well - I'm in the Chicago area. Hit me up if you're interested.
+mallninjashit,ff8hhto,t1_ff6irel,1579678714.0,"I'll tell you what I want, what I really really want ...."
+Rowing,ff7vfih,t1_ff7temi,1579659290.0,I thought the Leap was more comfortable.
+fatlogic,ff7pu8u,t1_ff7ldvk,1579655432.0,"Did it, ya know, work?"
+haikuOS,ff7fd0o,t3_es04j0,1579648262.0,"Great month of progress, and it's exciting to see that there are only 3 blockers for a beta 2 release. Great work everybody!"
+RCSB,ff6mnbu,t3_erlmvc,1579630448.0,Nice looking truck!
+Rowing,ff6m8f1,t1_ff68vlu,1579630196.0,"Great chair though, and worth the effort! I've been using a Steelcase chair in my home office for the last 10 years, and it's still going strong. They were one of the few manufacturers I found that would make a chair for a 'tall' (6'7"") person."
+Knife_Swap,ff57qae,t3_ernbb8,1579582686.0,Great price on the Chef. What a gem of a knife!
+perl,ff54d4l,t1_ff4vyur,1579579888.0,That's a good idea. I have a few books that could use a new home. Though sadly it seems that anybody going to a Perl mongers meeting now is probably well-versed in Perl.
+voidlinux,ff3j483,t1_ff2v1nl,1579542139.0,"There's no reason to reinstall from the newer image. You don't even need a Void live CD to install the OS. You can boot an Ubuntu live CD, download the [static xbps tools](http://mirrors.servercentral.com/voidlinux/static/) and install from there. Before voidlinux-ppc had install media, that was the way to do it."
+voidlinux,ff3fpdh,t1_ff2w8wd,1579540111.0,"Thanks for the tip on snooze! Nice to see in-tree runit services files, too!
+
+[snooze](https://github.com/leahneukirchen/snooze)"
+Knife_Swap,feypabb,t3_eqwm94,1579448579.0,I'm curious what steel the blade is!
+tmux,fetq11k,t3_eqkdje,1579378221.0,"I use tmuxc (https://github.com/zdykstra/tmuxc). In Sway, $mod4+enter opens a new terminal with a new window in my default session. It uses cloned session groups to track everything.  
+
+It handles remote sessions easily, as long as SSH keys are in place. It won't be able to help you with tmux in a tty, though."
+vaxxhappened,fetdake,t1_fetcemd,1579374153.0,Was that as painful to write as it was to read?
+vaxxhappened,feot80h,t3_eq5hg2,1579305050.0,"Bug repellent and sunscreen come out and then boom, just like clockwork, it's summer!"
+Truckers,feoqiwp,t1_feo79fk,1579304007.0,Darn them to heck!
+haikuOS,fem4inv,t3_epsfs6,1579239493.0,What are the symptoms of the video being broken?
+fatlogic,fem0a24,t1_felt5dj,1579235656.0,Don't touch the poop!
+Knife_Swap,feey99k,t1_fecmdl8,1579043849.0,It looks really short / rounded off to me. Could just be a perspective thing though.
+linux,fe5e4zv,t1_fe5c1sy,1578868240.0,"Lumina is part of the Void repositories! They don't want to do any one-off things here, but to instead use the full Void infrastructure."
+linux,fe4zkxj,t1_fe4pcrb,1578864245.0,FreeBSDs ZFS is rebasing onto ZFS on Linux. The majority of ZFS development happens in the Linux realm these days.
+linux,fe3p6o5,t3_enos0t,1578851556.0,"The title of this isn't super clear. Project Trident was originally released as a desktop-focused distribution based on TrueOS, which itself is based on FreeBSD. 
+
+Late last year, the project maintainers decided to move to a Linux base. This beta release is the second release of that. The project settled on Void Linux. Everything they're using in the beta release (with the exception of zfsbootmenu) is part of the official Void repositories. That effectively makes Project Trident Void a nice root-on-ZFS installer for Void.
+
+I plan on contributing a package for ZFSBootMenu to Void - for development/testing speed I've been packaging it on my own private repository as I work with the Project Trident team."
+swaywm,fe0a0tt,t1_fe044gi,1578807331.0,"I'll give it a try, thanks!"
+nottheonion,fdzeh7g,t1_fdzc8lh,1578789440.0,"> helicopter goat snipers
+
+That's quite the visual."
+swaywm,fdyxbun,t3_eneuld,1578784515.0,"I like it, seems to work quite well under Sway! When typing out the name of a program, it'll eventually narrow down to a single item. It'd be nice to just hit enter, instead of hitting the down arrow twice to select the item, then enter."
+Frasier,fdybu1m,t1_fdxkcp3,1578778086.0,Pay $4? More per month for Hulu without commercials. Easy peasy.
+fatlogic,fdom6t9,t1_fdojupd,1578607974.0,Twice a week? How does that work?
+voidlinux,fdojfmh,t3_emgbra,1578606367.0,"https://github.com/void-linux/void-packages/pull/17225
+
+The package hasn't been merged, so it's not available on the repositories. You can likely just build it yourself based on that PR via xbps-src and xtools."
+diyaudio,fdmd12v,t1_fdmcho9,1578545994.0,"I use a Cambridge Audio DacMagic Plus. I connect it to my workstation via USB, and then balanced out to each amp. 
+
+It sounds pretty good, and thanks to the huge volume dial on the front, it's easy to use on my desk."
+thinkpadsforsale,fdm4ue4,t3_elx3op,1578539829.0,"As someone that dailys an X260, this is amazing. Good luck with the sale!"
+StallmanWasRight,fdm0px4,t1_fdldx5m,1578537048.0,I'd imagine an army of Google lawyers ready to make your life a living hell.
+voidlinux,fdl93vf,t3_elybqq,1578519134.0,"Because it's part of the official upstream release.
+
+```
+Remind ships with three back-ends: rem2ps generates PostScript calendars; rem2html generates HTML ones, and tkremind provides an X Window GUI for Remind.
+```"
+Iowa,fdhrhmt,t1_fdhcrcr,1578428747.0,"Exactly. A calorie is a calorie is a calorie. However, some foods are far more filling / satiating than others. 500 calories of chicken and broccoli is going to fill you up more than 500 calories of pop and Snickers. One 20oz of pop and one Snickers is roughly 500 calories!"
+tmux,fdhn0gw,t1_fdhdxml,1578426096.0,"Ahh, cool. I'm glad you were able to track it down and (at least temporarily) work around it."
+tmux,fdh9cem,t3_ekyk3r,1578418191.0,"If I had to hazard a guess, I'd say that your status line has a mode that tracks your power state. When you're charging, it's trying to print a character that iTerm can't display correctly for whatever reason, and that is messing up your text rendering. 
+
+Can you share your tmux configuration file and/or test this behavior with a completely stock .tmux.conf ?"
+voidlinux,fdh62yo,t1_fdg8nnl,1578416168.0,"It's generally very positive. On the understanding that they're a smallish boutique computer company with limited staffing, they're excellent. For a period of time it was difficult to get in contact with them, but they seem to have made process improvements in recent months.
+
+I absolutely love my Blackbird. It's extremely capable as a desktop/workstation system under Void. Aside from closed-source binaries (Slack being the big one), there's nothing I find to be missing on this machine. I don't run Chrome/Chromium, so it doesn't bother me that it's not built for PPC64. Firefox and Falkon cover all of my needs, and if I really really need something I have an x86_64 laptop at my disposal.
+
+Hats off to q66 for the amazing work he's done here!"
+voidlinux,fdev2uw,t3_ekux1r,1578347212.0,"I daily it on a Raptor Blackbird - at least on modern hardware, it's amazing. I don't have older PowerPC hardware, so I don't know what the experience is like on that. 
+
+Take a look at https://repo.voidlinux-ppc.org/stats.html to see package coverage for your specific hardware platform."
+HFY,fdcyb87,t1_fdcxy7z,1578287929.0,"Don't expect pulitzer-prize winning writing, but for pulp sci-fi from the 80s and on, they're pretty fun."
+HFY,fdcsw5o,t3_ekmsl7,1578283382.0,This reminds me a lot of the Orion books by Ben Bova. They're good HFY material.
+tmux,fd63c78,t1_fd29yy1,1578184973.0,Nice little bit of integration here - great use of fzf!
+i3wm,fd3a57o,t3_ejytzc,1578156256.0,"Every day, rain or shine, I do thumb workouts. I can hit the $mod key like Tyson in his prime."
+tmux,fd0b0lq,t3_ejnw1b,1578116267.0,Clever. I use nested sessions - I'm going to implement this on a few of my machines. Thanks!
+voidlinux,fcyy8dm,t3_ejl5ic,1578089718.0,The other option is to install `tlp` and change the CPU governor in the configuration file for it. [Processor and Frequency Scaling](https://linrunner.de/en/tlp/docs/tlp-configuration.html#scaling)
+voidlinux,fcy3q9b,t3_ejdr9m,1578074388.0,Sway on both my laptop and my desktop. The only way Wayland-based configurations will improve is if people use it and report issues / develop new tools.
+fatlogic,fcwapgx,t1_fcvuqlx,1578021041.0,"Can you translate your comment for me? I don't understand the verb 'stan'.
+
+Edit: https://www.google.com/amp/s/www.urbandictionary.com/define.php%3fterm=stan%2ba%2bqueen&amp=true
+
+Apparently this came from the song Stan by Eminem. Huh."
+MasterReturns,fcwacdc,t1_fcw941p,1578020800.0,... Fuck off with your adolescent guilt trip.
+privacy,fcw9hva,t1_fcvk7wf,1578020235.0,What does your comment contribute to the discussion?
+openbsd,fcumh2f,t1_fcu0yy1,1577984174.0,"X260 works very well, too."
+fatlogic,fctnuv5,t1_fctk5tn,1577950675.0,It just slaps you in the face.
+voidlinux,fcpdgwh,t1_fcpa0gq,1577859341.0,"I was looking at https://wiki.syslinux.org/wiki/index.php?title=SYSLINUX#Linux for how to use syslinux. 
+
+As far as downloading packages, you'll want to use `xbps-install` in download only mode. Once you've downloaded everything you need, you can then create a repository pointing to that directory and install your system from that. I'm sure there are other ways to do it, but that method _should_ get you a working system."
+fatlogic,fcnsa26,t3_ei2y94,1577817454.0,"I went to the ER in college because a Chinese restaurant mislabeled a dish and it had seafood of some kind. I didn't have an EpiPen at that point in my life, but I knew I was deathly allergic. I spent the night getting pumped full of drugs and puking my guts out.
+
+A few years after that, I was driving into work on I90 in Chicago and I had an allergic reaction to something. I pulled off into a highway maintenance depot and barely got the vehicle into park in the entrance to the depot. A highway patrolman came over VERY annoyed that I parked there, but when he saw that I couldn't talk or well .. do anything .. he started trying to help me. I had an EpiPen in my laptop bag, but I was unable to open the bag or even administer it at that point. The patrolman used the pen on my leg, on the ground of the depot. He saved my life.
+
+Common side effects of epinephrine include: vomiting, nausea, upset stomach. In other words ... you'll be puking and shitting your brains out. 
+
+Yes, Christy, you can eat whatever you want. But suggesting that a person with allergies eat whatever they crave is tantamount to telling a person that it's okay to commit suicide. Get fucked you horrible bitch."
+Frasier,fcn7lyf,t1_fcmx5bq,1577805361.0,Hulu without ads is $12 a month. Pretty reasonable price.
+voidlinux,fcmda5s,t1_fcmc2ni,1577771186.0,"There's no need to edit the question. Install the syslinux package, follow the upstream directions. They're pretty easy, and conceptually similiar to grub/grub2. 
+
+There is a way to find exactly which packages are needed and store them in a local directory. You can use a static version of xbps to download them. You will need a linux host of some kind.
+
+The xbps documentation is pretty complete, I'd recommend reading through it."
+linux,fcm6fhk,t3_ehtnsc,1577765441.0,"Pretty awesome that they're building ppc64le packages. Nicely done, guys!
+
+Edit: the project is run by Timothy Pearson, who owns? Raptor Computing. Makes sense that ppc64 is a first-class citizen!"
+voidlinux,fcm5p7u,t3_ehwj59,1577764904.0,"syslinux looks pretty easy to install. The upstream documentation looks fairly complete / comprehensive. Install the package, follow the official docs, reboot and pray!
+
+The easiest option for an offline install might be to make a custom livecd and add the packages you want to it. Void has an official process for this, as does 'hrmpf'."
+swaywm,fclzhkm,t3_ehw1ui,1577760305.0,"I can't speak to RPi4 compatibility, but kitty has been very stable and performant on x86-64 and ppc64le. It runs very smoothly, with effectively no noticable startup lag or crashes."
+diyaudio,fclw4or,t1_fclvvt0,1577757913.0,Huh. Guess I'll avoid Yamaha.
+diyaudio,fcka81n,t1_fcjz7bd,1577720692.0,Is it powered on and working 24/7 and/or is it driving a really hard load? It seems odd that three have died in the past 4 years.
+Roadcam,fck563w,t1_fcjzghw,1577716901.0,Your neighbors are cunts.
+i3wm,fcbju2i,t3_egzwqa,1577587703.0,"Nope, can't be solved with out a compositor. In i3, that has to be an external tool like Compton."
+fatlogic,fc93pze,t1_fc7b1cc,1577546532.0,"Oh, Ragen won't answer - she's busy training for her Ironman Distance challenge."
+perl,fc92wbb,t1_fc5z671,1577546155.0,"God, wouldn't that be nice though? I'd love to see it make it into core."
+freebsd,fc7jlht,t3_egl68h,1577509492.0,Congrats to everybody involved! This staves off the downgrade to a tier 4 platform for PPC.
+voidlinux,fc4i08o,t1_fc4hjhb,1577417227.0,Try the static musl bin instead - http://mirrors.servercentral.com/voidlinux/static/ .
+voidlinux,fc4f2x3,t3_eg3vgt,1577414813.0,"Which exact xbps binary did you download, and what exact command are you running that core dumps?"
+perl,fc4ey1x,t3_eg1ibq,1577414701.0,That's excellent news! Mojo seems to do it all - and with stellar documentation.
+freebsd,fc3lrh0,t3_efynmo,1577392706.0,"rsync and scp are probably both CPU bound and disk IO bound. Get the ISO in RAM, transfer it via netcat and make sure it never hits disk on the receiving end."
+linux,fc1pe8n,t1_fc1feru,1577325524.0,"voidlinux-ppc.org is excellent. Great package coverage for LE and BE, along with musl and glibc builds. LE releases are able to target POWER8 and newer systems, so there are some nice optimizations there if you have new hardware.
+
+Give it a look!"
+linux,fc18nm5,t1_fc17wua,1577311413.0,It's been picking up steam in the last few months. Check us out on Freenode - #voidlinux-ppc !
+linux,fc11a2t,t1_fc10t9h,1577305390.0,"I paid $800 or $900 for the motherboard as an early adopter. Pre-ordered in November of 2018, got the board/CPU at the end of June 2019.
+
+Edit: off by a year ... I'm getting old."
+linux,fc0zoa6,t1_fc0y8o8,1577304088.0,"The drivers are open source, but the binary firmware blob loaded onto it is proprietary. It's the same blob used on any architecture or OS, though."
+fatlogic,fc0wdm1,t1_fc0vtdm,1577301440.0,"Those numbers are meaningless. If they eat X calories and don't gain weight, they're eating to match their TDEE.  If you eat X calories and do gain weight, you're eating too much."
+linux,fc0tvoi,t1_fc0t9v8,1577299559.0,"I do normal Linux workstation stuff on it - dev work (perl, python, ansible), web browsing, listen to music, etc. It's pretty serviceable as a regular desktop, but you do have to be willing to give a few things up. You won't be able to download and run closed-source applications released for Linux.  Slack, for example, won't ever release a ppc64le binary. 
+
+
+I don't want to steer people away from it, but for certain users it's a great system. I'm also willing to make a few sacrifices to support this market."
+vaxxhappened,fc0t4ut,t3_efjozh,1577299050.0,Why was this shit 10 posts instead of one post with an album?
+Knife_Swap,fc0sl9q,t3_efilr8,1577298702.0,"Ugh, I'm only a man. One of these days I'm going to give in and buy a Drift."
+linux,fc0qci5,t1_fc08vs5,1577297089.0,"Void Linux for PowerPC ships it - voidlinux-ppc.org. I run Falkon on my Raptor Blackbird!
+
+As an addendum, take a look at https://repo.voidlinux-ppc.org/stats.html . Coverage is pretty good. Certainly enough that I daily-drive it as my primary OS for personal and professional work."
+linux,fc0p8a4,t1_fc0nmt1,1577296388.0,"I use a https://raptorcs.com/BB/ . They have a single socket and dual socket EATX option as well. I run Void (voidlinux-ppc.org) on my machine - very stable and fast.
+
+* 8 core / 32 thread
+* 64 GB DDR4 ECC
+* 2x1TB SSD
+* AMD W5100
+* Supermicro case
+
+I think I spent around $2000 total on the build."
+linux,fc0mzfa,t1_fc0ir38,1577294899.0,"POWER9 hardware is excellent. I have a 32 thread 3.8ghz CPU in my workstation, running Linux. Fully open source on everything but my AMD GPU firmware."
+fatlogic,fbz3h3n,t1_fby5wi4,1577233940.0,I like to say that motivation gets you started while discipline keeps you going.
+fatlogic,fbz37g4,t1_fbyyyr3,1577233712.0,"Older metabolisms need love, too."
+swaywm,fby1v5i,t3_eewutx,1577206071.0,I use `$HOME/.pam_environment` and I launch sway from a TTY. It's a reasonably distribution/OS-agnostic approach.
+RCSB,fbxqgi9,t3_eemwii,1577197627.0,"Damn, looks nice."
+Knife_Swap,fbkni8q,t1_fbkm1s1,1576952985.0,Confirmed

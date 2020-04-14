@@ -1,0 +1,153 @@
+subreddit,self ID,parent ID,time,text
+linux_gaming,fgx6uxt,t3_f0o9sb,1581169735.0,"What vga does it have?
+Actually awesome"
+intermittentfasting,fgst7by,t1_fgst1pe,1581092149.0,Cool!
+haskell,fgst3d3,t3_f0akau,1581092083.0,Genius
+intermittentfasting,fgssw33,t3_f03gk2,1581091961.0,Beautiful! Are eyes natural color?
+mastcelldisease,fgotmbq,t3_ezctmq,1580986009.0,I have thc allergy
+MechanicalKeyboards,fgdvc5u,t3_exxo5a,1580687320.0,"Hello guys, sorry my friend does not speak English.
+
+He test two arduinos with crkbd/rev1 firmware. Tries to enable master/slave mode.
+
+As you can see arduinos are unstable, every time he reconnects something else does not work.
+
+I have two more keyboards not working in master/slave mode. While i can disable M/S and change code for one to be master and another to be slave + connect power bank to slave side. Then it works. Otherwise slave side is black."
+linux_gaming,fg9lh2g,t3_exlwvz,1580640397.0,1:100. After we get 5% the growth will be faster
+getdisciplined,fg63c8r,t3_ex1p95,1580551431.0,"Just stop it!
+
+https://youtu.be/4BjKS1-vjPs"
+relationship_advice,fg61v6t,t3_ewz3oa,1580549244.0,"Give massage?! Fuck What??!
+This guy better stop now or he will end in jail."
+mastcelldisease,fg55w18,t1_fg1b1su,1580519050.0,"Thank you, it's really helpful"
+linux_gaming,fg4xeag,t3_edaq0s,1580513241.0,"How about volounteers, we can help people not stop after first obstacles"
+DataHoarder,fg30e5r,t3_ew9ncx,1580464367.0,"oh you genius, i did not have idea to cram it inside the box"
+mastcelldisease,fg2y08r,t3_ewhpja,1580460966.0,"I think sometimes more then 4w. I started lower, got to 100mg but still feel exhausted after crom"
+mastcelldisease,ffze71a,t1_ffz7np8,1580374569.0,"I think this is about controlled substances, nobody cares about cromolyn"
+mastcelldisease,ffzdmud,t3_ew271g,1580373778.0,hydroxyzine 50mg twice a day
+mastcelldisease,ffz5jrt,t1_f80wpdg,1580364715.0,">Gene by Gene company
+
+Hey, i probably have HIT - you said you tested for TPSAB1 in GnG company. Is this test approved and can be used to make diagnosis?"
+HumanMicrobiome,ffymuzg,t1_ffye12b,1580350194.0,"No, it is not Mastocytosis. There is a lot of other varieties.
+
+[https://www.mastattack.org/](https://www.mastattack.org/)
+
+&#x200B;
+
+When you read the list - it is full blown MCAS. For example my relative had occasional headaches, i told him because of his father he must have HAT **Hereditary alpha tryptasemia.** Five years later he has got GI symptoms, neurological and now he is convinced because food list match. First years i had occasional GI symptoms and lots of neurological, now it's worse because of medical mistake and natural progression
+
+[https://www.mastzellaktivierung.info/en/downloads.html#foodlist](https://www.mastzellaktivierung.info/en/downloads.html#foodlist)
+
+Download and check it.
+
+&#x200B;
+
+Vitamin C, histamine degrading probiotics, quercetine - it helps at the beginning"
+mastcelldisease,ffydxl8,t1_f88tslq,1580344115.0,did you try histamine provocation test?
+television,ffydhy0,t1_ffxapdf,1580343823.0,"I hate BB, that kid should have been dumped after few days.
+
+Better call Saul is much better"
+mastcelldisease,ffy97g1,t1_ffy7okn,1580341031.0,"Thanks, i think they can work different in case of histamine. I once took both and i had remission that time. Going to use Xolair and deciding what supplements to continue"
+sffpc,ffy67k7,t3_evtv9o,1580339334.0,Cat model?
+mastcelldisease,ffxssp8,t1_ffxsjn3,1580331709.0,Chicken approves
+mastcelldisease,ffxsg1g,t3_evhyl7,1580331511.0,"Can't you eat fresh chicken and rice? I know many people use similar combo. 
+
+&#x200B;
+
+Shakes is good idea, going to test it"
+HumanMicrobiome,ffxqon4,t3_evone1,1580330520.0,see MCAS mast cell activation syndrome
+intermittentfasting,ffxkysz,t3_evpu51,1580327251.0,Thumbs up
+mastcelldisease,ffxjptw,t3_evrkra,1580326525.0,I remember having first issues at 15
+mastcelldisease,ffxhqpz,t3_evrcap,1580325392.0,I think capsules was in Europe and liquid in USA
+mastcelldisease,ffx8mjg,t1_ffvnvgs,1580320033.0,Apolactoferrin or lactoferrin?
+MechanicalKeyboards,ffvfu3o,t1_ffvffre,1580263132.0,"I don't use yet, I found one diy but did order it yet because I need to solder CPUs, too complicated for a moment. But I did not see the news and code updates so I think this project must be dead. Can't give a link, I am in bed nowj"
+MechanicalKeyboards,ffvf094,t1_ffvdu2n,1580262576.0,"I wanted to use the wireless one, but it seems dead"
+mastcelldisease,ffvbykz,t1_f80hp08,1580260526.0,"What doses of Lactoferrin?
+
+&#x200B;
+
+Comglycate seems to work. I had pins and needles reaction first month, now it feels like nothing."
+MechanicalKeyboards,ffv8avk,t1_ffv366m,1580258068.0,DFU means you don't use Arduino Pro Micro ?
+MechanicalKeyboards,ffv2l6o,t3_euy62h,1580254225.0,did you have problems with the slave side not working?
+MechanicalKeyboards,ffv1i6i,t1_fcl3k37,1580253527.0,"Hi, i have the same issue with Corne - the second part does not work properly.
+
+Any slave side does not work at all.
+
+\----
+
+I changed keyboards/crkbd/rev1/split\_util.c
+
+to set has\_usb true for left side and false for right side
+
+Now both sides have leds on, slave side doesn't have oled and doesn't send keypress.
+
+If i power the slave side with powerbank - it totally works, sends keypresses
+
+If i remove power from slave - you can see logo, but no keypress sent"
+crkbd,ffudbsz,t1_ffuc5no,1580239570.0,"oh, shit )"
+crkbd,ffubx3h,t3_eivbbb,1580238737.0,Fixed?
+MastCellDiseases,ffptn94,t1_ffpsuen,1580105274.0,"Regression in medicine is a characteristic of diseases to decrease in severity and/or size. Clinically, regression generally refers to lighter symptoms without completely disappearing. At a later point, symptoms may return. These symptoms are then called recidive
+
+You may do anything harmless or nothing at all and you will get regression. All malpractice built on this ) if you have recidive - you are guilty, if you have regression - x worked. That's why we have long term double blind experiments."
+MastCellDiseases,ffpshvb,t1_ffps3we,1580104086.0,It is not random switches :) I pay $1000 to anyone who will switch my extra copies of TPSAB1
+MastCellDiseases,ffprp73,t3_euit3h,1580103305.0,It cures healthy people. If your broken dna produce broken last cells this shit is powerless
+linux_gaming,ffpdrwo,t1_ffo5shl,1580092520.0,Surviving Mars is cool too
+mastcelldisease,fffqxmj,t3_ete5k4,1579889869.0,Same feelings. Especially when eating one or two times a day
+reactjs,fff8nsl,t1_fff3n86,1579878462.0,Can you show the example? RTL does not seem easy to write. Still low level
+linux_gaming,ffaw0ya,t1_ffakt60,1579745795.0,Most people just don't want to make any effort. Even move from Windows 7. They would use Windows 98 forever if it's possible
+linux_gaming,ffauoac,t1_ffajkai,1579744899.0,I used zfs and snapshots. Never needed
+reactjs,ffamy3t,t3_esfraa,1579739726.0,How does react category differ form reactjs?
+sffpc,ff6de32,t3_ersm4e,1579624757.0,Noctua! Just got my brown L9a
+videos,ff5cmz6,t3_erl5nv,1579587398.0,"Horse in the house, loud music and lots of people. What bad can happen?"
+DataHoarder,fevnawz,t1_feudkfl,1579399279.0,Electrons transmitted from the power grid are attached to the plate
+awfuleverything,fetmvuh,t1_fesbr9s,1579377000.0,"Taxi drivers in ukraine, russia especially illegal - when you wear seat belt feel personally attacked. ""You think i am bad driver?"" Fucking hillbillies."
+DataHoarder,fesnp7v,t1_feslnad,1579367180.0,"13 TB when formatted weight 50g more, don't you know?"
+linux,fesk8n8,t3_eqa0be,1579366100.0,It looks great!
+AdvancedFitness,fes73fj,t1_fequfjr,1579362080.0,"cool, thanks"
+linux,feorty2,t3_epqqe4,1579304548.0,So much cool languages and so little time
+Kotlin,feorf6b,t3_eq7yxn,1579304407.0,Totally. If you need Kotlin to do your job or projects - you will succeed.
+books,feombwd,t3_eq56ta,1579302074.0,This site is not available in your region. Free Internet they said
+AdvancedFitness,feo1ftb,t1_fejlhxf,1579293813.0,which one and which one?
+AdvancedFitness,feo1f21,t1_feiaf8c,1579293800.0,thank you!
+linux,fenha9h,t3_eq2pwa,1579284665.0,I am happy to know that ARM laptops are thing at last )  $200 is crazy ) Kudos to Pine64
+Kotlin,feks4f2,t1_feknyyv,1579206463.0,"You need to navigate, read and maintain all this crap"
+getdisciplined,feka6nv,t3_epiwr0,1579195809.0,If it works you would have zero comments :)
+Hypothyroidism,fejjwwc,t3_epdzap,1579177321.0,https://healthybutsmart.com/red-light-therapy/
+mastcelldisease,feibqh6,t3_epb64h,1579134783.0,"Totally. Wake up exhausted unable to sleep and to function.
+
+I use Seroquel for bipolar, this helped"
+AdvancedFitness,fei947x,t1_fei72c6,1579133042.0,">eccentric hamstring-quad-adductor circuit with core stability 
+
+Link please?"
+linux_gaming,feedqgy,t3_eoki5x,1579031650.0,W7 users are those who does not like changes. Linux is too big change
+funny,feb28sx,t3_eo7cq0,1578954790.0,"I think Terry Crews must have cameo in Cyberpunk 2077 , he is awesome"
+mastcelldisease,fe1fgsc,t1_fdzne2p,1578825946.0,Before diagnosing MCAS i had IC and it's diet works great. Did not have IC then.
+mastcelldisease,fe1dikh,t3_enfwfs,1578825314.0,"I used to have long fasts and it greatly helped to fight the MCAS. Later i was too weak without eating. Now i stabilized on OMAD.
+
+&#x200B;
+
+Brain histamine controls leptin, thats why it's harder to drop the weight despite doing OMAD.
+
+&#x200B;
+
+I think psyllum husk is good to keep gut busy, because without purge microflora will produce a lot of ammonia which is toxic to liver and brain. Gives headache and crappy feeling.
+
+&#x200B;
+
+Three days fast is not special as i know, so you can start with any light meal, but not overeat."
+mastcelldisease,fe19g63,t1_fe0ct6c,1578824005.0,Could you give a link?
+getdisciplined,fdyebhq,t1_fdkv3uz,1578778824.0,"I have three screens list of notifications. Stopped using the curtain, because it overwhelms me"
+HumanMicrobiome,fdy3of5,t1_fdul7ks,1578775744.0,"> It is possible it just takes longer for these people to show damage again.
+
+True, have this with MCAS where mast cells react on food or histamine from food. Anyway slow process to heal or to damage again."
+ErgoMechKeyboards,fdxnqhw,t1_fbl49at,1578770995.0,"I use two Pro Micro, did not solder myself. second half does not turn on, u cant see any diode or resistor soldered. Board version 2.1
+
+&#x200B;
+
+Edit: nevermind. We had no ttrs sockets and we soldered cable wrong."
+olkb,fdxkxde,t1_f50l1ta,1578769964.0,"Cosmic chi, love it!
+
+Have same issue with two pro micros. Second one does not turn on. Green led works. 
+Both works as primary, but not secondary"
+Stoicism,fdpy0an,t3_emdh42,1578645359.0,"I think the best outcome is to avoid situations like this. He could go for firearm and nobody survives.
+I had few stories like this, and I called parents of the guy or the police."
+DataHoarder,fdo2fjf,t3_embrgb,1578597650.0,Miracles happens )

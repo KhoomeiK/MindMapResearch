@@ -1,0 +1,183 @@
+subreddit,self ID,parent ID,time,text
+security,fff2zeh,t1_ffeoalj,1579874308.0,To hide spoilers in plain text messages like emails or newsgroups where you can't use >!HTML!<.
+movies,ffedkxf,t1_ffeb8tq,1579844103.0,"Behind every great man, stands a great woman.
+
+They're not either-or, you know. Women manipulate, men do... for better *and* for worse."
+gamedev,ffed0gz,t1_ffd85b8,1579843564.0,"It's even worse in gaming: some of those people are actually kids, and just behave like kids."
+gamedev,ffecvw4,t1_ffcgms0,1579843443.0,"Negative reviews are also great for discovering extra information. Like, if a positive review says ""great combat mechanics"", and a negative says ""the game is too long"", one can expect a long piece of great combat mechanics."
+movies,ffeavbr,t1_ffe4gsw,1579841597.0,"Men kill, women instigate."
+worldnews,ffea2i0,t1_ffe75vz,1579840897.0,"> Wuhan police said they had summoned eight people for spreading ""rumors"" about the virus.
+
+> the people who were arrested posted on the social networking site Weibo and/or other messaging apps that **SARS was back**.
+
+Well, given that this is *not* SARS, what those people did *was* spreading a rumor and fearmongering.
+
+There probably is a middle ground between arresting people for spreading rumors, vs. the president of a country like the US spreading lies because ""he's not under oath"", but I don't think this comment section has many examples of it."
+gaming,ffdvbax,t1_ffdr5f5,1579829823.0,"Star Trek = science fiction  
+Star Wars = just fiction
+
+There are many people who think less of Star Wars because of that (and after seeing Episode IX, I can't really blame them)."
+AskReddit,ffdtvq8,t1_ffdlaer,1579828803.0,"In capitalism, those who have more money make the rules.
+
+In soviet Russia, those who make the rules have more money."
+techsupportmacgyver,ffdop7x,t1_ffdik6t,1579825373.0,"That really depends on how the multi-GPU rig is set up, but generally speaking GPUs have multiple ground connections. The voltage difference between the grounds of the PSUs should only be transient (otherwise you'd have a whole different problem), so it's more about having some not-too-flimsy and redundant paths for them to get to the same level.
+
+If you have the SSD hooked up to a different PSU than the MB, then one of the possible paths ""should"" be: PSU1 ground, MB ground plane, SATA data cable ground, SSD data connector ground, SSD common ground, SSD power connector ground, SATA power cable ground, PSU2 ground... and that ""should"" be enough, so you could have no other ground connections and it ""could"" work.
+
+But one thing is what ""should"" and ""could"" work, and another is what actually will. If for any reason that path gets broken, like a bad SATA cable, a broken connector, or whatever other reason... and you just happen to have a ground differential like maybe you touched one of the PSUs or the case with your hand... the next path could become: PSU1 ground, MB ground plane, MB SATA controller **chip**, SATA data cable A wire, SSD data connector A wire, SSD controller **chip**, SSD common ground, SSD power connector ground, SATA power cable ground, PSU2 ground... and now you're risking blowing up some of the chips on either the MB, the SSD or both.
+
+The adapter you're using for the PSUs does have a ground cable, so that's good, but you're basically trusting that single cable, plus your ""MB, SATA cable and SSD"", to have no faulty ground connections so no surges can fry any of the chips.
+
+Based on how many silly failures I've seen over the years, and how sensitive 3.3V electronics are, I'd feel better if you had like 3 or 4 ground paths between those PSUs instead of just 1 or 2.
+
+For example, I'd be similarly concerned about a GPU mining rig set up with some of those PCIe-over-USB cable adapters hooked up to different PSUs and no other ground connection between them... but if the adapters were hooked up to the same PSU as the MB, while only the GPU's additional power was connected to a second PSU, then I'd be less concerned."
+security,ffditeg,t1_ffdcyll,1579821772.0,"> roll your own safe
+
+You could use KeePass and not depend on anyone... not sure whether downloading the software but managing the data yourself would fit your definition of ""roll your own"", though."
+security,ffdik9b,t1_ffdh7sy,1579821620.0,"Encrypted with `rot13(rot13())`, for twice the encryption!"
+techsupportmacgyver,ffdia65,t1_ffdfmfu,1579821447.0,"Well... wishing you all the best, but I personally wouldn't risk it. I did once, and probably should write some of it down as anecdotes... hm."
+techsupportmacgyver,ffdfchf,t1_ffd3b8g,1579819697.0,"It's not about what you have connected to them, but whether there will be a voltage differential between the grounds of the two PSUs. If there is, even for a moment, current will flow through the path of least resistance, which should be that cable... but if that cable fails, the next path could lead through the SSD and motherboard, and you *really* don't want that to happen.
+
+Having both PSUs connected to the same UPS is not necessarily a guarantee that the internal grounds will match. Ground in a wall socket is often a ""safety ground"", which is not really a ground, just a way to detect whether there is any current leaking to the case of a device directly connected to it. An UPS may or may not (depends on the design) let that safety ground pass through, and the PSU may or may not let it pass to the case and/or to the ""ground"" pin on the internal connectors (actually, it shouldn't).
+
+It's a common misconception that ""all ground is ground"". While it may be convenient as a simplification from a single circuit design point of view, and anything case-side from a PSU should probably share the same ground, isolating transformers are called that precisely because they don't (shouldn't) let any of the inputs to be directly connected to any of the outputs, including ground."
+techsupportmacgyver,ffd3242,t1_ffcy5ox,1579812444.0,"Uh... if it's the kind of adapter that connects *only* 2 pins (ground, PS_ON) to one of the PSUs, be aware that any difference in ground potential between the PSUs will run *in full* across that tiny cable.
+
+You may want to consider joining more of the ground cables in order to avoid any sparkly surprises."
+todayilearned,ffc4fgj,t1_ffc30eu,1579791274.0,"Some cats are assholes and bite each other's whiskers off. We had one like that several years ago, and his brother would end up with cropped whiskers all the time. It took me a while to realize what was going on, until one day I saw their ""friendly play"" of trying to lick each other's face, then bite the loser's whiskers. Seems like big brother was better at the game."
+science,ffc29v1,t1_ffc0e3n,1579789736.0,"Doctors need to do shit that they know will hurt like hell, because they know the alternative is most likely even worse. They wouldn't last a day without going insane if they had to empathize with every single patient."
+DataHoarder,ffayvnx,t1_ffaxxdv,1579747686.0,"It works like a sponge, in order to clean it you need to fill it with liquid, then let the liquid out. So a single cycle of ""flaccid, hard, flaccid""."
+DataHoarder,ffaxfna,t1_ffav357,1579746732.0,Yeah... not on this sub.
+DataHoarder,ffawbhy,t1_ffa4o4x,1579745989.0,"Also erectile dysfunction. Not ""flushing out"" the blood vessels on a regular basis, leads to increased cholesterol plaque accumulation, which over time can lead to a total obstruction.
+
+**Edit:** judging by the downvotes it seems like people don't understand this is a thing. That's fine, more business for ED pill sellers. For anyone still interested in knowing how this stuff works, feel free to [learn more](https://en.wikipedia.org/wiki/Corpus_cavernosum_penis)."
+worldnews,ffarvqk,t1_ff9izk1,1579743044.0,"In a world where:
+
+* A woman can not survive without a man providing for her.
+* A man will not want to ~~buy~~ marry a woman if she's ~~broken merchandise~~ not a virgin.
+
+In order for female rape victims to survive, it's ""only logical"" to have the rapist provide for the woman for the rest of her life (""you break it, you buy it"").
+
+Some people want to go back to that kind of world."
+gaming,ffag8r2,t1_ffa914w,1579735031.0,You cook the butter.
+techsupportmacgyver,ff9wsuq,t1_ff9wepu,1579723214.0,Fixed.
+AskReddit,ff9wbia,t1_ff9807s,1579722922.0,"> time lines split as soon as he leaves that universe
+
+That would be ""parallel universe travel"", not just ""time travel"". There is no reason to believe that it isn't possible to go forwards/backwards along the same time line... it's just kind of pointless in this case since 13 year old you will end up being... well, you as you are right now. Anything you may tell yourself, you already heard yourself tell you that one time when you traveled as a 13 year old to meet your older you. Any attempt to change the past, already happened in the past, with the present being a consequence of that."
+gaming,ff9v9so,t1_ff9jtal,1579722243.0,"Step-grandma likes what she's seeing, go on."
+techsupportmacgyver,ff9t55w,t3_esdhhc,1579720694.0,"That's so clever! Did the guy... [buy it on Amazon](https://www.amazon.com/Retractable-Cat5e-Shielded-Ethernet-Data/dp/B01BMSWA56), or [directly at LightCast](https://www.lightcast-store.com/xlr-Mic-Audio-Ethernet-Cat-5-6-USB-Cable-Reel-s/2.htm)?
+
+Edit: fixed the link."
+AskNetsec,ff9faml,t1_ff8gzp0,1579711778.0,"> sandboxie
+
+Windows 10 comes with a [sandbox feature](https://techcommunity.microsoft.com/t5/windows-kernel-internals/windows-sandbox/ba-p/301849) since 1903, which is actually a lightweight VM, much more secure than sandboxie."
+badcode,ff9erfx,t1_ff8p2ko,1579711446.0,">  Why would I slow down a function call by a whole second every time it is called
+
+You don't; you should wait *inside* the loop, only if the file doesn't exist. Like:
+
+    void waitForFile (File file) throws FileNotFound {
+      if (file.exists()) {
+        return;
+      }
+      sleep(50);
+      for (int i=0; i<3; i++) {
+        if (file.exists()) {
+          return;
+        }
+        sleep(1000);
+      }
+      throw new FileNotFound();
+    }"
+mylittlepony,ff99y7k,t1_ff8yygy,1579708208.0,[](/ohhi) Hi there!
+news,ff90f9q,t1_ff8uphq,1579701657.0,But... do they teach you to not urinate on 12 year olds? Do they?! /s
+worldnews,ff8ydqy,t1_ff8lo30,1579700029.0,">couldn’t, for example, put a viscous liquid in a can.
+
+They sell bot molasses and ketchup in a can, how more viscous do you need it?
+
+>cannot properly and safely be resealed
+
+I have a cocoa can, a coffee can, and a paint can, all of them with pretty solid and safe lids.
+
+>anything carbonated
+
+There are aluminum bottles, aluminum threaded caps... and either way the moment you open a bottle of soda, even a plastic one, it will always lose part of its carbonation.
+
+If we're talking about transport, Coca-Cola could save a ton of costs by selling their concentrated extracts directly and letting people mix them with water and/or carbonate them either at home or at some local shop, in reusable bottles... but then they'd struggle to keep a captive market even more than they're struggling right now.
+
+The real reason for using plastic, is that it's transparent so people can see the product inside. It's marketing.
+
+PS: pro tip, don't buy large soda bottles, buy single use soda cans, it's also better for your health to drink less of the stuff."
+todayilearned,ff8l1th,t1_ff8kqc5,1579683657.0,"Where I live in Spain, you can get fined for prank calling an ambulance, and you can get charged for non-emergency services up to 0.80€/Km (slightly more expensive than a taxi), but any time you go to the ER it's just free no questions asked."
+worldnews,ff8kqm5,t1_ff8ixzq,1579683188.0,"Cans are covered in a layer of plastic varnish on the inside, so anything that works in plastic bottles can be put in cans.  Transport considerations are similar for both empty cans and bottle parisons, and I bet the likes of Coca-Cola keep all the stages from sheet metal or plastic pellets, all the way to the finished product, in either the same or adjacent buildings."
+todayilearned,ff8jqva,t1_ff8hncb,1579681736.0,"The NHS is understaffed, so people from other countries of the EU would go and work as doctors and nurses... so now the UK needs a BREXIT to stop all those filthy immigrants... and next they'll try to privatize in order to ""fix"" the understaffing problem.
+
+Like they say in the US: ""there ain't enough doctors for everybody""."
+todayilearned,ff8jfm8,t1_ff8gu41,1579681293.0,"There are broken arms, and then there are ""bones poking through the skin"" broken arms."
+todayilearned,ff8jb8n,t1_ff8htac,1579681120.0,"It makes sense for an ambulance ride, that is in a special vehicle, with trained EMS personnel, with all the supplies needed to try and keep you alive... to be more expensive than a random Uber ride. Just not $1000 expensive."
+todayilearned,ff8izj2,t1_ff8hpuh,1579680668.0,"In civilized countries, we do that all the time: we pay our taxes so that nobody has to worry about an ambulance ride being ""covered"", they all are."
+worldnews,ff8epaf,t1_ff8byz2,1579675304.0,">none of them use sustainable bottles
+
+They're called ""cans"", you can buy pretty much any kind of soda in them, and the metal is 100% recyclable."
+techsupportmacgyver,ff7kmas,t1_ff7i6wn,1579651783.0,"Neither are we weaving cables atom by atom. In the time it takes you to search on Amazon, pick one, and confirm your payment, you can easily open any random speaker, hook up a couple cables, and close it back up. It probably already took me longer to write this that it would to do either one."
+techsupportmacgyver,ff6hn3k,t1_ff6ddyk,1579627398.0,"I'll concede the bulkier part, but WiFi may be a plus if you want more range, or if you put WiFi repeaters around the place for some WiFi roaming, and the battery+receiver could be either hooked to the headphones (I did that with a 1x 18650 powerbank), or just stay in your shirt pocket."
+sysadmin,ff6gze6,t3_eru7nl,1579626992.0,"Whitelist those words, keep ""V1a.grá, P€Nl5 and væ6lna"" still blocked."
+linux,ff6deis,t1_ff69563,1579624765.0,">>FOSS tools
+
+And FOSS hardware!"
+techsupportmacgyver,ff6cn32,t1_ff6b5tv,1579624288.0,Or you can rewire whatever you have at hand for $0 and the same amount of time it would take you to place an order on Amazon.
+gaming,ff6bljc,t1_ff62bhe,1579623624.0,"Make it a [$1 mic from AliExpress](https://a.aliexpress.com/_Tz2Mw). I got 4 of them just to have some spares, but the first one is still going strong after some years of use.
+
+Donating ""$10 each"" to some random guy just sounds like a scam."
+worldnews,ff6a7tg,t1_ff67op7,1579622741.0,"Well... it just happens that I personally use that tidbit of information to have a feel for when the pyramids were built, so saying something like ""2000 years before the pyramids"", in my mind gets translated to ""about 3 Cleopatras ago""."
+worldnews,ff69vqw,t1_ff61iwi,1579622521.0,"Unfortunately, voting itself has become a way of distancing people from solving the hard stuff, and just expecting ""someone else"" to handle it."
+worldnews,ff68z0b,t1_ff66gwa,1579621937.0,2 girls 1 bucket of eels
+worldnews,ff68kg0,t1_ff66eox,1579621673.0,"Could be worse: ""Archaeologists suspected of starting bushfires to save money on exploring an aquatic system older than the pyramids""."
+tech,ff67grt,t1_ff5rdof,1579620945.0,">But those thousand people are people. They have common sense, they can adapt do different things, they can spot obvious errors or omissions that computers miss.
+
+And yet, most of them don't. People either perform a trained task barely fast enough, or fail completely. To spot anything out of their training, people also need to stop and think about what they're doing. 
+
+>You can train a neural network to do a specific task, and if you train it very well it will perform very well. But it can only do what it does for the *exact* task it was trained for.
+
+That's exactly the same with people, and for a reason: **people are neural networks**. We can't yet simulate the full neural network of a person, and it doesn't look like we'll be able to do so for at least a couple decades more, but we can simulate the chunk of neural network that people train to respond in a particular situation... then train that chunk much more, much better, run it much faster, and make a ton of copies.
+
+People are still better at using their ""common sense"" while sitting on a couch and deciding what to do... while AI is much better at actually doing it."
+AskReddit,ff5u2m7,t1_ff5s5wo,1579610260.0,"It's not a secret where I live, you can find it on Google. Also not a secret that you won't get anywhere close to your missile's worth out of shooting me, so... yeah, unless you're a drug addict hobo waiting to mug me, I'm not all that concerned."
+tech,ff5o74b,t1_ff4zdc4,1579602848.0,">we have common sense and can rapidly adapt to changing inputs
+
+LOL... wait, you're being serious?
+
+People are notoriously bad at applying that ""common sense"" when they have to quickly make a decision, we fall back to basic trained behaviors, which are worse and slower than an AI. Only when we have time to fully evaluate a situation, we might be able to use that ""common sense""... and still, even then many people don't do it.
+
+What it comes down to is a simple question of training: you can train a thousand people for a thousand hours each... or you can train a single AI for ten thousand hours and make a million copies of it."
+explainlikeimfive,ff4l999,t1_ff3z6vq,1579566340.0,Absinthe.
+explainlikeimfive,ff4kveq,t1_ff4bbpe,1579566069.0,"Pretty much anyone can get a few liters of reactive grade H2SO4 and H2O2, worst case scenario you might need to get a license and say what you're planning on using it for, which shouldn't be a problem if you aren't planning on doing anything illegal."
+tech,ff4edqk,t1_ff4apdp,1579561620.0,"Most people are not all that smart, and definitely suck at focusing all their abilities on a single task. A much ""dumber"" AI can replace a ""smarter"" person and still perform a given task much better than the later."
+security,ff45zca,t1_ff40dab,1579556285.0,"Nobody's stopping you from traveling to NK, just [don't go back to the US afterwards](https://www.coindesk.com/freedom-fighter-or-fool-jurys-out-on-arrested-ethereum-developer-virgil-griffith)."
+security,ff34bba,t1_ff2kuic,1579533329.0,"If you're a US citizen, not without special permission from the US government."
+security,ff345xh,t1_ff2yol7,1579533223.0,"They don't call it ""cocaine parties"", it's just polite to share some of your cocaine with any guests."
+IAmA,ff2zlqc,t1_ff2yd2x,1579529632.0,"No, let me have look...
+
+> death from surgery was 3.1 per 10,000 donors
+
+Now I do. Well, that is indeed a low risk, but still higher than dental procedures (about 3 deaths per 1,000,000)."
+television,ff2xmbr,t1_ff2ts3k,1579527868.0,With or without torrents?
+linux,ff2t66x,t1_ff2pf3k,1579523105.0,That's... a lot of happy ~~endings~~ times per hour.
+IAmA,ff2snmk,t3_er5fav,1579522443.0,">Volunteering to have organ removed that could potentially end with you dying
+
+I wonder... if you were to die during the operation, could you ask them beforehand to just keep hacking at your other organs and put them to good use?"
+rickandmorty,ff2oo6v,t1_ff25x0y,1579516677.0,"Too bad they only get a tiny percentage of what you pay, while most of it goes to the networks and intermediary platforms which you wouldn't need when torrenting."
+rickandmorty,ff2o906,t1_ff2m6ju,1579516028.0,Get and adblocker and you can steal from the thieves!
+rickandmorty,ff2o6es,t1_ff2n0p4,1579515919.0,"Wait, so I could have ads with my piracy? Sign me up! /s"
+worldnews,ff2h0h4,t1_ff24pk4,1579505756.0,"It's easier to spend it, though. All you need is a thousand people doing your bidding 24/7."
+worldnews,ff2gtvb,t1_ff23qtj,1579505529.0,"Yes. And a tiger, mauling them, while you do the tiger, on your private yacht, and the next 10 chicks stand in line watching."
+technology,ff2fwt5,t1_ff0v6iy,1579504423.0,Delayed until after BREXIT... that's smart. I wonder if the prosecution will stay in the UK so they could ~~get bribed~~ have the law changed more easily.
+technology,ff0c6ys,t1_fezpx3c,1579467536.0,"Yup, the GDPR is not to be taken lightly, the penalties for the worst breaches *start* at 20M€. Like the Marriott breach has a proposed fine of $120M, or the British Airways one of over $350M."
+technology,ff08wf6,t1_ff03pam,1579466449.0,"Seeing how some places, including some US states, have no statute of limitations for rape or statutory rape, that length of time is ""forever""."
+explainlikeimfive,fezc9gi,t1_fez1ji8,1579455881.0,Not sure about your point... that's a 5Gbps (less than 10G Ethernet) USB 3.2 (still USB 3). *<confused Pikachu face>*
+gaming,feyojz2,t1_feyemej,1579448340.0,"Plot twist: it was the owner, they put the AC at the next place they were trying to get someone to pay for."
+gaming,feyoe4y,t1_feyhmpj,1579448240.0,"> trs to optical cable
+
+That sounds more like an active converter than just a cable. If it isn't something Mac specific, are many reasons to use one of those, mostly to reduce interference and decouple grounds."
+gaming,feylije,t1_feykbrs,1579447199.0,"Throw away the old monitor too, that way you don't need a cable for it... but having said that, I also have a couple VGA monitors, they're still good enough for many things."
+explainlikeimfive,feykzq7,t1_feygupv,1579446973.0,"I don't think you're supposed to keep the pendrive sized ones plugged in 24/7, only the Nano ones. Either way, I use a USB extension cable that leaves it lying next to the keyboard."
+explainlikeimfive,feyacc7,t1_fexsfu1,1579442933.0,"Yubikeys and other ""PCB connectors"" are not true USB connectors, which require a solid housing."

@@ -1,0 +1,134 @@
+subreddit,self ID,parent ID,time,text
+IAmA,ffq15xm,t3_eukqya,1580114731.0,Do you like horror movies/games too?
+AskReddit,ffg7cg8,t1_ffg20jw,1579900028.0,"It's made by Kris Straub who is amazing. He has fantastic webcomics (Chainsawsuit and Broodhollow), wrote the original Candle Cove pasta and is responsible for this [classic](https://i.imgur.com/CSP7pyp_d.jpg?maxwidth=640&shape=thumb&fidelity=medium)."
+aww,ffg6h3o,t1_ffft7hh,1579899488.0,"[Don't worry there are Australian possums that are complete hellspawn](https://i.imgur.com/bVbZW88.jpg)
+
+That's a cuscus which are a type of possom too (although I'm not certain if that particular species is specifically from Australia or just part of Australasia)"
+aww,ffg6eg0,t1_fffutau,1579899443.0,Possums in Australia have grabby hands like this too. There is nothing more adorably disconcerting than having your fingers grabbed by a gangy demon paw from an adorable fluff back
+aww,ffg61bs,t1_ffg3vtn,1579899217.0,Goth rats
+aww,ffg5yu9,t1_fffudbu,1579899175.0,Wee took a baby possum into a vet after we found mum and checked her pouch. First thing the vet did after checking it was all ok was put down the front of her shirt.
+MyPeopleNeedMe,ffeyhmm,t1_ffexgxh,1579870419.0,Even that dog felt it
+chemicalreactiongifs,ffevs17,t3_et2hgo,1579867625.0,Boids!
+whatisthisthing,ffedk1j,t3_et5ws3,1579844078.0,Looks like a plush toy covered in ash
+whatisthisthing,ffedb01,t1_ffe1ike,1579843841.0,Could be half a black sesame seed
+AskReddit,ffd3vaf,t1_ffbxi2r,1579812905.0,"Damn now I want a pinatas made of tortilla chips, filled with salsa and guacamole"
+softwaregore,ffd2yj1,t1_ffcvhlv,1579812388.0,Like a rhino?
+destiny2,ffd1u4o,t1_ffbhisj,1579811751.0,Oryx purposefully made (allowed himself to be made into?) touch of malice it's described in the last segment of the [books of sorrow](https://www.destinypedia.com/Books_of_Sorrow#Calcified_Fragments:_Insight). Although I guess he probably wouldn't be happy about who was involved in it's creation.
+destiny2,ffbajuh,t1_ffb7uq4,1579757520.0,Yeah I wonder how the vanguard will react. I like the fan theory idea that it would be Zavala who hates him and doesn't understand while Ikora understands he is someone new.
+destiny2,ffb7kxm,t1_ffazh5f,1579754041.0,"Yeah we went from planes crashing into each other and the tortured souls trapped in an existence being shorn apart at war with those around them. Beings beyond gods sending people on giant robot suicide missions to destroy cities. Eugenics experiments at war with a plane full of body horror nightmares.
+
+To
+
+Avengers but only one person dies (from a plane where people die and come back like it's nothing no less) and Thanos is a big goofy dwagon who is mad at his brother."
+destiny2,ffb6stn,t1_ffb1bje,1579753334.0,Did he pull a touch of malice on us with Whisper? Damn I sure hope the weapons like that pay off story wise
+destiny2,ffb6ole,t1_ffb62yn,1579753243.0,In a weird way I would like him to atone although I guess in reality he is just somebody that looks like Uldren and I guess technically isn't the Uldren we know. It's super interesting from a philosophy perspective and hope it it's done ham-handedly (pulled pork pun not intended)
+awfuleverything,ff7riiv,t3_es2tny,1579656604.0,Ah molg h shitty edgy comics for the sake of being edgy
+AbruptChaos,ff75oku,t1_ff72sr8,1579641626.0,Get more clicks
+assholedesign,ff5xdbn,t1_ff5qo9s,1579613384.0,"There can be good reasons. Usually what happens is that rather than storing your password as text (which would be insecure if the storage gets breached in some way), what is actually stored is a hash of your password. A hash is basically a fixed size piece of data that gets generated using your password. All hashes are the same size regardless of how long your password is.
+
+When you log in, you enter your password and then the hash gets generated. Then to check the server you are logging into just checks if that hash matches the one you they have on file.
+
+This way only you know what your actual password is, but apple etc. Can still check its you.
+
+The software for generating that hash may have issues dealing with longer passwords. It might take too long or might just not be possible for the software to compute if for passwords that long.
+
+Long passwords might also cause and issue where two hashes, for two different passwords are the same, which can be exploited to hack the system.
+
+Other reasons might be to prevent attacks to the site e.g. someone send a password with a million letters to try and cause denial of service.
+
+In general having a maximum password size isn't really ideal and often sites just have a maximum length without really understanding why (e.g. sites that have like maximum lengths of 8), but there is some good reasons. In this case 32 characters is pretty generous."
+assholedesign,ff5wdx1,t1_ff5qpc0,1579612486.0,"
+I'm not sure you're quite right here as most password storage and verification uses hashing not encryption. 
+
+That should be able to deal with arbitrary sizes unless the hashing algorithm has issues with collisions with longer strings or has issues with performance which is unlikely. They usually just hash the password text not use it to generate a key.
+
+I'm sorry but this explanation that it uses encryption isn't really true and doesn't make sense. So the encrypted password is stored, but what happens to the key? Is the key generated every time I enter my password and then used to encrypt my password and compare my encrypted to the encrypted password stored by the server, because that has more overhead than hashing your password and comparing. Hashing also gets around the issue of fixed column widths."
+aww,ff5vgpd,t3_erpwqj,1579611633.0,"""It's great to meet you""
+
+""Pleased to meet you""
+
+""Hello""
+
+""Hmmmm ... Ok I will grant you the honor of shaking my paw"""
+Damnthatsinteresting,ff5axd7,t1_ff4q8q9,1579585650.0,r/TheDepthsBelow would be more appropriate than thalassophobia
+mildlyinteresting,ff29ekh,t1_ff296op,1579497707.0,"Like multitool guy
+
+Oh I have a multitool I can open/cut/break that up for yo- oh your just using your hands for that oh...ok
+
+Source am multitool guy"
+mildlyinteresting,ff29aw8,t1_ff23lst,1579497615.0,Or just run it under your hot tap
+AskReddit,ff230n0,t1_fezvo7m,1579492424.0,Big thankies for mcwankies
+AskReddit,fexpyju,t1_fex5fnh,1579434623.0,Calamari rings and a cucking for 300 quid. Seems like a good deal
+AskReddit,fexooj1,t1_fewk3e2,1579434151.0,These dumplings are hairy
+AskReddit,fexoj46,t1_fexgxux,1579434075.0,Oh yeah do my taxes
+AskReddit,fexodi9,t1_fex03ui,1579433997.0,Flayo the mayo
+AskReddit,fexn4qf,t1_fewn0um,1579433545.0,"Yum yum, I've drank the oil out of sardines a few time, tastes nice but it's just too much oil, thankfully I can get ones in spring water now"
+AskReddit,fexmpnr,t1_fewo56f,1579433354.0,"Usually only the real stuff uses alcohol, imitation is often water or water+glycerin"
+TIHI,fevbmla,t3_eqm2gv,1579395450.0,Except when it's cloaca
+whatisthisthing,fev9quq,t1_feup1iw,1579394841.0,Huh awesome there are all over a park near my that I walk by every day. I always thought they were some construction waste. Me and a friend made little bow and arrows out of them one time
+CrappyDesign,feuep0u,t1_fetsbse,1579385825.0,Yeah if they start drawing the figure at zero but just cropped to the region they want it would be fine
+videos,fer1uth,t3_eqccn8,1579348616.0,That's a lot of words to say repost
+aww,fer0pet,t1_feqhxr7,1579348264.0,Yeah this dog was posted every a few days ago. No thanks it's terrifying!
+shittydarksouls,feqx2l5,t3_eq8w0i,1579347046.0,Black knights are basically dark souls Spartans anyway. Silver knights are odst
+awwnverts,fepqqkg,t3_e4t0k0,1579328114.0,Spanner Crab! https://en.m.wikipedia.org/wiki/Ranina_ranina
+awfuleverything,fepol54,t3_eq0i6z,1579326186.0,"Larger one https://en.m.wikipedia.org/wiki/Japanese_spider_crab
+
+
+What about a smaller one
+
+https://en.m.wikipedia.org/wiki/Amblypygi"
+awfuleverything,fepo5z3,t1_femzzq2,1579325823.0,Yep horse hair worm. They brainwash the host to seek water and drown so they can key eggs. If you ever find a cockroach in your shower and it seems sluggish it may have one and it's looking for water
+awfuleverything,fepn5do,t1_feojnyh,1579324962.0,He has free range eggs now
+awfuleverything,fepn4a4,t3_eq0cjr,1579324935.0,Fun fact people eat these
+Deusex,femtp24,t3_epojhh,1579269311.0,Can I get a Shanghai gut lunch
+TheDepthsBelow,femtmjv,t3_eprkh1,1579269256.0,Bloodborne looking ass motherfucker
+MyPeopleNeedMe,femtgdw,t3_eptli9,1579269123.0,Looks like loads of fun but also looks like a good way to lose a tooth
+AskReddit,fel0xbn,t1_fek3ou2,1579211685.0,"Such a good game my and my friends used to play just the demo on Xbox for hours and hours. It's a really inventive game, looks great and loads of fun."
+AskReddit,fel0pgm,t1_fekoyk2,1579211557.0,The Alanah/Jacob/Peake/Jon/John/Ryan/Rahul Kohli team always kills me. The sense of humor is different to the original group but it still such a fun dynamic. The Sundered gameplay was so insane.
+AskReddit,fel0f10,t1_fekewyj,1579211387.0,"The demo disk saga of Mother Be Aware is fantastic too if that counts as a series
+
+Deadly premonition is great too"
+awfuleverything,fejk8q8,t3_ep9ju9,1579177668.0,https://youtu.be/LFikOKLwDJ4 someone wearing them at 3:40
+todayilearned,fejglqo,t1_fejaf61,1579173284.0,The hard part is that they don't show the rings until agitated. They can look just plain brown until you set one off
+videos,feejcgm,t1_feehita,1579034922.0,She has graves disease and that affects her looks too. Wendy Williams is still a POS bit don't drop to her level
+mallninjashit,fed2zy5,t3_eoexgb,1578996217.0,I hope he gets help for his bulimia
+shittydarksouls,fed2v87,t1_fecqylu,1578996022.0,And spiky honk and holy bonk
+awwnverts,fe4jnn3,t1_fe3bp36,1578860021.0,Woah that's pretty hefty. Do they slow down on feeding at that size?
+whatisthisthing,fe4ji3r,t1_fe2t856,1578859957.0,Hmm my guess is is some tool supplied with the fridge for maintenance. Maybe a screw driver for removing the seal? You might be able to pull back a segment of the seal and see if there is a set of screws holding it in.
+whatisthisthing,fe1w2qp,t3_emfzd6,1578831595.0,"The dragon looks like the gore magala from monster hunter
+
+Edit I'm certain it is since it has hands on it's wings like that too
+
+Edit 2: bingo! https://mobile.twitter.com/rosegoldjelly/status/1203602717643403264 enamel pin to do with monster Hunter. It's definitely a gore magala. Top of the first image"
+whatisthisthing,fe1u47d,t1_fdqlq2d,1578830858.0,Are you the only one with access to your fridge?
+whatisthisthing,fe1l42n,t1_fe02elc,1578827892.0,"https://en.m.wikipedia.org/wiki/Penile_prosthesis
+
+Usually is like two inflatable cylinders in the shaft withe a tube down to a pump like the one shown inside the scrotum. The pump can be used to inflate them to achieve erection. Often used if the penis is injured or if there is scar tissue from an injury like a break"
+AskReddit,fe1ixqt,t1_fe02lgf,1578827027.0,"""Trick shot! I'm finding a cure for cancer"", Proceeds to spends years of life researching feeling satisfied because you know it will pay off."
+awwnverts,fe1fwl1,t3_el360j,1578826035.0,I feel like we names crabs wrong because I always thing if they could talk they wouldn't be able to say r and just say cwab
+awwnverts,fe1fhf7,t1_fdm95g2,1578825949.0,How big will they get? I've seen only seen buffallo leeches in captivity before and know they get huge although feeding is obviously a bit different.
+awwnverts,fe1cawl,t3_en2wsy,1578824942.0,"What are the other little things moving about in there?
+
+And yes of course it can get some love : )"
+sydney,fe1c00w,t1_fe07wj6,1578824808.0,Yeah it felt very wrong. It felt like being in winter with a fire place running it was surreal
+pics,fdyohi2,t1_fdw7vzp,1578781964.0,That's good because it got used for betting and gambling ads too so anything is better than that.
+mildlyinteresting,fdselnl,t3_emxppt,1578700928.0,I remember getting a lollipop like this with a scorpion in it. Crunchy!
+worldnews,fdsb0gb,t1_fdrri2i,1578698467.0,I feel like if you're complaining about not getting one it's a pretty good indicator you don't deserve it.
+AskReddit,fdsae7l,t1_fds5vs7,1578698047.0,Yep Labour actually tried to just run an open campaign and apparently that doesn't work anymore
+AskReddit,fdsa5c7,t1_fds5mlb,1578697883.0,So I'm just a bit confused why you mentioned Whitlam being shocked by the disaster. I'm assuming you mean fires in the past not these current ones.
+AskReddit,fdqijac,t3_emp529,1578667525.0,Disappoint my boss in more ways than one
+AskReddit,fdqhqh8,t3_emkkri,1578666965.0,"Sing it back , still say you not me, try to harmonise or just do it monotone"
+AskReddit,fdpppt0,t1_fdpe11o,1578635872.0,Shvooooop blup blup
+oddlysatisfying,fdolkui,t1_fdo9ji3,1578607614.0,IDK the banana probably tastes fine
+AskReddit,fdolfky,t1_fdnho23,1578607527.0,Yeah but you also gotta know what order to rub her arms in before you rub her belly and her clothes disappear
+UnexpectedThugLife,fdokklb,t1_fdoixpa,1578607018.0,It's a shitty repost bot all their posts are crossposts that barely make sense
+AskReddit,fdoinwu,t1_fdof1ga,1578605921.0,Their tool covers are amazing too!
+AskReddit,fdmlgwk,t1_fdm4vtf,1578554412.0,Yeah I never got being sent to my room as a punishment all my tools and book are there. That was until I was madly addicted to Lego and PlayStation and they were outside
+whatisthisthing,fdly6qb,t1_fdlo9ba,1578535317.0,I know what your referring too but this isn't the same as the emergency siren things
+magicthecirclejerking,fdlxq2w,t1_fdlwtr4,1578535003.0,Yeah I guess it frustrates me too because magic really isn't a good investment financially. It's game meant to be played. For me cards that I value highly have way more sentimental value then their monetary value. I have a handful of cards I could easily set to double the size of my collection but I never will because they mean a lot to me.
+Damnthatsinteresting,fdlx69s,t1_fdlv13o,1578534633.0,LMAO what?!
+Damnthatsinteresting,fdlk5m5,t1_fdlctjg,1578525845.0,"It's not adapted to fires this extreme though, coupled with heavy extended drought. There will absolutely be major changes to life here."
+artificial,fdk0nwm,t3_elovyr,1578493119.0,"It's an interesting idea but not really possible with what we have now since at the moment we need to supply some sort of data and have an intelligence model it. What you want for that intelligence to then create models that exist outside of what it has been trained to model. The problem becomes how can we generate new knowledge from a system that can only take in existing knowledge.
+
+From a physics standpoint too you have to keep in mind this is the same way physics works for us too. We make observations from and then generate models (theories) that describe it appropriately e.g. the wave equation is some mathemagical element encoded into everything, it's just a model that describes what we observe very well. Sure we can teach an AI the models we use, but they can't then progress further than that. Just because we teach it atoms doesn't mean it can now discover quarks for example."
+Sneks,fdjyu7c,t3_elo4s7,1578491700.0,When the waiter asks how your food is

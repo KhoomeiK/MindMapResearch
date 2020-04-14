@@ -1,0 +1,77 @@
+subreddit,self ID,parent ID,time,text
+docker,ffv8iyj,t3_eve7z7,1580258219.0,"1. Don't try everything all at once. Work on the databases last as they are generally the hardest.
+
+2. You can use a volume map to store files that need to be edited. Alternatively you can directly replace or edit files in a container via docker exec commands but this is not a good production method. 
+
+3. There's several ways to skin a cat. You can include all the files needed for the containers at build and any change involves a new build and deploy (this is considered the best usually). Or you can mount files in a volume and reload the container as needed. With nginx you can even gracefully switch to a new config without even restarting a container using a -s HUP in a docker exec. But it's probably better to put them behind a proxy and reload containers.
+
+4. There are shortcuts for containers to reference each other using DNS. Localhost.docker.internal for example will reference the host up from inside a container.
+
+5. Check out docker compose and some examples folks have already built. No doubt you'll see some nginx-Cassandra examples."
+aww,ffv562i,t1_ffu7l6q,1580255926.0,Still has the shitty photoshop job of covering the watermark. Definitely not the original source.
+food,ffrphzu,t1_ffrk857,1580162942.0,Bran muffin with cream cheese frosting sounds good about now.
+worldnews,ffrnh1e,t1_ffrcj45,1580161697.0,"I remember reading a while back that the ""arbeit macht frei"" sign had been stolen. Was it returned or did they make a replica?"
+funny,ffqxam7,t1_ffpwaiu,1580145731.0,I think I remember a TIL like this. Something about the laugh means the baby's soul has decided to stay iirc.
+space,ffqu4mf,t1_ffpja5w,1580143691.0,I know this is a joke but maybe he was talking about drag on the atmosphere via ginormous balls.
+devops,ffqkw8s,t1_ffpg1o6,1580137360.0,What about DR?
+food,ffnc116,t1_ffnbmum,1580064173.0,"Not a chef, but just a spitball from other materials: are you letting it cool too quickly?"
+aww,ffjmx18,t1_ffix0y2,1580001952.0,"Seems a harsh judgment and a bit confusing too given that the main post is 400 points but the ""extra"" tricks are -17 points. Do we have any evidence this animal wasn't a rescue?"
+aww,ffiv5t5,t1_ffi0xr7,1579983492.0,Can someone explain to me why this is downvoted?
+funny,ffioao3,t1_ffigtcb,1579978656.0,"No, it doesn't look like him. I hope for Manolo's sake that he has retired by now. Although I suppose ice cream dudes probably don't really get much retirement. Must be a nice serene job however."
+AskReddit,ffifvdi,t1_ffh9h3c,1579972886.0,https://youtu.be/qFDT2L5bPFI
+funny,ffi6btr,t1_ffi5al7,1579966255.0,"That's what I said! ""It's Manolo with the .50 sol helados!""
+
+Seems the city is much nicer than when I used to live there back in the late 90s though."
+docker,ffa3kxu,t1_ffa2asn,1579727195.0,"Great points! I think folks often underestimate the cost of maintaining the new tools that are supposed to make your life easier. If you've added a new tool, you've added more work to your life, make sure there's a benefit that outweighs the cost."
+docker,ffa340h,t1_ff9v6e5,1579726925.0,"Swarm used to be recommended for an easier lighter version of kubernetes but due to the announcement that it will no longer be developed, it's no longer recommended. It sounds to me like docker compose would be the best solution in your situation. It allows you to launch multiple containers and specify all the necessary volumes, networking, and parameters necessary in one go. Then you can docker-compose up or down to bring the stack up or down as needed. One disadvantage I haven't seen a solution to is that there's no good way to update one piece of the stack without cycling the whole stack.
+
+You can in theory split up the pieces but I've had issues with multiple compose stacks communicating with each other or standalone containers due to the way they set up networking. No doubt there's a solution but I haven't had a chance to work it out.
+
+Reverse proxies are easy to implement in a container and the traeffik or jwilder nginx solutions are both good options. Haproxy is a good solution as well but has less of the automation unless you're using the ingress controller.
+
+If you haven't seen the hashicorp tools (terraform, vagrant, vault, consul, etc), take a look at those. I've seen folks talk about using consul and nomad to control their stacks. You could set up automation with a CI/CD tool like teamcity, octopus deploy, circleci, or Jenkins as well. Check ins of yaml to a VCS can trigger deployment events."
+dataisbeautiful,ff9v7q6,t3_esc6vh,1579722203.0,So what caused all the individual fires to start?
+docker,ff9u9kz,t3_esf4qr,1579721463.0,"Yeah, this is a misunderstanding of Docker. No worries, it's a common misconception. Getting past the ""a container is the same as a VM"" stage is a phase we all go through. There's several things you've missed:
+
+A container is NOT the same as a VM: yes it often looks that way because we have containers with all the files and configurations of a full OS but a container doesn't need to be that way. It is actually possible to have an assembly compiled application in a container with no additional OS files. This is because a container is not a full OS. It leverages the kernel of the host and does NOT run it's own. The reason we have all the extra OS files in a container is because most applications are built with dependencies on those. The app can't leverage files from the host, just the kernel, so we bring those along. This is by design so that you can have them different for each container. Your app may prefer a different version of library or a whole different library. This allows multiple infrastructure incompatible applications to run on the same host. Because a container leverages the host kernel, the resource demands should be less for a container than a VM as none of the drivers and so forth need to be loaded again. The security impacts are also different as a container has more access to the host.
+
+Containers win at scale. The major advantages of containers come from their ephemeral nature. Managing VMs takes more effort per system than containers as you need to IP them and manage them independently and directly. A container will pull networking automatically and can be updated with a redeployment without being directly patched. Combine this with kubernetes and now a yaml edit from v22 to v23 means all your systems are patched for this month with basically no effort. Additionally when you scale up the amount of running applications, you increment the quantity in a yaml without having to spin up the VMs. You might argue about automation but I assure you that editing a yaml will always be quicker, easier, and better than ansible, etc. Each bit of kernel overhead you're saving by running containers instead of VMs also adds up at scale.
+
+Ephemeral means easy set up and clean up. A developer can docker run nginx -p 80:8080 quicker and easier than they can install nginx and set it up for port 8080. They can also remove it quicker. Any time an application breaks, you can redeploy it faster and better than uninstalling and reinstalling. While yes some things take extra config to set up due to a container, your average application on docker hub has the most common configurations available by default or with basic parameters. In many cases this actually makes it easier than the normal installation for that app. You're experiencing extra heartache because you're not running anything at scale yet so the benefits are at the low end. Some of the things you mentioned like a reverse proxy can be one time costs when using an ingress in kubernetes and each additional application gets automatically added to the RP (depending on set up, traeffik and lets encrypt make things pretty easy).
+
+In the end however, each environment is different and you may not see benefits for what you're doing. You'll need to assess for yourself if containers are right for you. Sometimes the hot tech is a bad fit. Hope this helped, best of luck!"
+Jokes,ff9qkux,t1_ff95aho,1579718798.0,An anti-anti-joke
+tifu,ff2z9sd,t1_ff2q86v,1579529351.0,"Probably equivalent to the way we use whack. ""That's whack, yo!"""
+Showerthoughts,ff1vigw,t1_fey5vnr,1579487112.0,Wondershowzen?
+funny,ff0vhep,t1_fai82ig,1579472691.0,"Damn artists, always stealing their own content."
+OldSchoolCool,fez44g6,t1_feyqs90,1579453642.0,The jokes are funny but if I had to wager a guess it's a metal piece like 7 of 9 had.
+aww,fez0amf,t3_eqpg8a,1579452677.0, r/ronperlmancats!
+funny,feyk3rn,t1_feyixvv,1579446577.0,"Naw the color of the lake and lightning is different too. Same crazy dog, different day"
+AskReddit,fey6tnv,t1_fewl8u4,1579441495.0,Apparently there are bots that edit comments when they hit a certain karma level.
+movies,fejpxs8,t1_fejpefr,1579182838.0,"7.62 is the NATO Heavy round, 5.56 is the NATO light."
+AskReddit,fe4c3gp,t1_fe3g3eg,1578857724.0,I need a counter for how many times I've been *sucked into* watching that video.
+docker,fe4788x,t3_enobbd,1578856436.0,"Depends on what you're running. Different isolation modes have different limitations. If you're running a linux container on windows, you need to increase the VM specs in docker configs; the -m parameter doesn't work on LCOW.
+
+Edit: nvm, I just realized you said Ubuntu for both. Idk the problem."
+videos,fdgr1ao,t1_fdgpafl,1578406088.0,"Normally I might agree with you but in this case it provides a clear distinction in what is occurring. You arrived too fast, rather than just too early."
+IdiotsInCars,fdcts0r,t1_fdcs4nm,1578284089.0,"If you're implying the brake check was caused by the tailgating, I disagree. The brake check was caused by the driver that did it. There was no need for them to do that: there were other ways they could, and should, have responded."
+IdiotsInCars,fdciuss,t1_fczeits,1578275987.0,Not sure what language that was but it isn't Russian.
+IdiotsInCars,fdcgnhv,t1_fd0a76o,1578274426.0,"Also contributing to being top heavy and possibly causing the roll over in the first place, but details details."
+IdiotsInCars,fdcgf9h,t3_ejiena,1578274270.0,"Oh man, I'm guilty of this one. Coming back from college, I made it 3 hours into a 4.5 hour trip. 65mph was okay, I pushed it to 70 and it ripped the whole roof rack right off. Luckily it didn't come completely off right away so I was able to stop before it became a speed bump for someone else.Lesson learned, strap that sucker on front to back bumpers, not to the roof rack. In case you're wondering, the inside of the SUV was full to the brim of other stuff.
+
+A different time, someone else's mattress became a speed bump for me. That was less fun but fortunately no damage. It's terrifying because there wasn't any time to stop or turn to avoid it."
+IdiotsInCars,fdc9l5u,t1_fdc34id,1578269810.0,"If you watch the slowed down version, you can see he lands on the roof. It's the bike that collapses the A pillar. Not to say he isn't dead, because he hit that roof damn hard."
+IdiotsInCars,fdc9apj,t1_fdc6gcg,1578269640.0,"That's called a stoppie, when you're on the front wheel like that. On account of it happening from hard braking."
+IdiotsInCars,fdb3vtc,t1_fd3pl1a,1578253436.0,"A bollard seems like a good choice, https://youtu.be/HAkCypsQIQk"
+IdiotsInCars,fdb12cz,t1_fda52ii,1578252523.0,"Both parties are the asshole here. Tailgating and brake checking are both extremely dangerous, irresponsible, and illegal things to do. Of the two, brake checking is worse because you're actively trying to cause an accident."
+IdiotsInCars,fdb0gl2,t1_fd9ibr8,1578252322.0,"Also, off center and crashes not aligned with the front/rear are way more dangerous because all of the energy absorbing design are in that direction."
+mildlyinteresting,fdauhuq,t1_fdae1vj,1578250340.0,I wonder if it's because cars more mush than 'crack' in an accident now.
+mildlyinteresting,fdaozp0,t1_fdalfrl,1578248562.0,It's like a bad Eric Cartman impression.
+kubernetes,fd9u5sj,t1_fd9peim,1578238053.0,There are many places where cloud is not feasible or acceptable given internal or external rules. Consider government or security research applications for example. You ought to be kinder with your words and a little more open to alternative realities to your own. The post explicitly wants bare metal and yet you're here bashing it. Clearly this is not helpful.
+videos,fcz6uwk,t1_fcxhvil,1578094861.0,Tell Bill Scannell I said hi.
+videos,fcw71lz,t1_fcw59ks,1578018622.0,"They find me through the various sites, usually LinkedIn or Dice.com. After a while, you get on the list for recruiting agencies and it's honestly hard to get off. I get a lot of messages for entry level jobs and I just ignore them because they obviously haven't paid any attention to my profile."
+videos,fcw3h8r,t1_fcvxbv0,1578016279.0,"I fucking hated Taleo when I had to apply to a bunch of jobs a decade ago. It was on the vast majority of big business sites and it was completely standardized but gave you NO OPTIONS to export or share your data across applications. Like c'mon, give me a CSV or something to import on the next one. It was so bad that sometimes you'd spend an hour inputting data for one job just to do it all over again for another job ON THE SAME SITE."
+videos,fcw38qy,t1_fcvvtcn,1578016119.0,Honestly there's a point in your career where this stops being the norm. The overly aggressive application processes are for entry level jobs and cold applications. I'm at the point now where all my jobs come from networking (coworkers usually) or recruiters. I barely even apply anymore.
+todayilearned,fcu4lhj,t3_eitu93,1577972413.0,"When I was a kid (elementary school) in the early 90s, Marc came to my after school program and signed autographs. I thought it was super cool but I was disappointed that my friend who was a bigger Star Trek nerd than I was missed out. I got him an autograph too but somehow never got it to him. I think maybe it was the summer program and I didn't see him the next semester. Anyways, somehow his copy got highlighter on it and I felt real bad so I taped an index card over the mark which just made it even more tacky. I would see that thing in a box every time I moved and I would shake my head at it. I probably still have it somewhere but I haven't seen in it in many years by now. I don't even remember the friend's name anymore, I think it was Josh. If you're out there buddy, come and get your autograph."
+AskReddit,fcslyjp,t1_fcslcif,1577919354.0,Oh no...
+DIY,fccydmk,t1_fcb1l07,1577604130.0,Ah didn't notice you said raw. Didn't know using raw was a thing.

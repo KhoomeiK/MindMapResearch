@@ -1,0 +1,39 @@
+subreddit,self ID,parent ID,time,text
+stocks,fff39qj,t1_ffdy9kh,1579874531.0,"Any numbers to back up the idea that all of those factors combined actually sum to something economically significant? Mass shootings gain a lot of attention but don't actually kill all that many people compared to heart disease, cancer, etc."
+rust,ffdwreg,t1_ffdwmvt,1579830846.0,But in emacs yank puts it *into* the file. (Yank is paste)
+rust,ffdttrm,t1_ffdb4u5,1579828766.0,Yank usually means to pull out very quickly. The vim/emacs use is totally weird to a native speaker.
+RSI,ffballw,t3_esmpg4,1579757579.0,What was the career plan?
+rust,ffbadr8,t1_ffb7a8g,1579757295.0,"I just thought I had to ask for a specific version, that's what I've been doing."
+rust,ffb5m4u,t3_esl6xu,1579752415.0,I always assumed the cargo lock file was there for... file locking. What kind of data is in there and why would I be interested in parsing it?
+rust,ffawntu,t3_esj03j,1579746220.0,An example bare bones .emacs where everything language server wise works perfectly would be my #1 wish.
+AmItheAsshole,ffaczvl,t1_ff8qzfi,1579732642.0,Actually they don't do those tests anymore because they're not reliable. People who aren't allergic react and vice versa.
+rust,ff9p0jj,t1_ff9ldgh,1579717674.0,"Not necessarily. Rc has to perform increment and decrement operations that a garbage collector won't. However, if we're comparing against a single threaded garbage collector than Rc is the right comparison and the compiler can probably eliminate many of the increments and decrements. If we're comparing against a multi-threaded garbage collector though, Arc is the better comparison, and then you're using much more expensive atomic increment and decrement operations and the compiler is less likely to optimize them away (I don't know if it's smart enough to at all currently I have not tested). I think the compiler would have to specifically be aware of the semantics of Arc to know eliminating them in some circumstances is safe.
+
+Remember a real garbage collector doesn't use reference counting -- it periodically freezes execution and crawls the registers to see which objects in the graph are still reachable. So periodically you're doing something much more expensive but in the times between collection what you are doing is less expensive because there are no increments and decrements."
+emacs,ff9f21n,t3_es7sw9,1579711629.0,"You're going to get a lot of people in this thread saying you're crazy but you're not. That said the emacs community is very helpful and responsive -- you could start making stack exchange threads for each individual problem.
+
+Emacs has a few fundamental problems that generally prevent it from being robust. I only live with them because I don't have the time to develop my own replacement. I don't want to sound ungrateful, I'm glad emacs exists and that people continue to work on it, but I don't think it's problem should be ignored either.
+
+ * Essentially it's a single threaded OS with cooperative multitasking. That means if any part of the system goes into an infinite loop the entire OS is hosed. C-g doesn't always work, and sometimes when it does work it breaks your session and you have to restart anyway because some piece of code doesn't deal well with C-g.
+
+ * The plug-in model is to have any plug-in be able to rewrite any function making up the editor. Often this doesn't compose well across plugins and they step on each other's toes.
+
+ * Some people are really going to dislike this one but the dynamic typing is a real problem. Half the time when I get a back trace out of emacs it's from numberp, listp, etc. Functions don't always return the same type and people write plugins assuming that they return what they return in the 99% case, and the compiler doesn't check, so lots of plugins have unhandled edge cases. 
+
+And some problems that are not fundamental but strongly contribute to it feeling flaky:
+
+ * Long line rendering has been broken for forever, accidentally opened a file with one line that's too long and your session is hosed.
+
+ * Communicating with external processes is not very robust. One shell flooding a window with output causes emacs to stop servicing communication with other processes. I think it's always going for the lowest file descriptor in poll or something instead of round robining."
+FPGA,ff6gf85,t1_ff696yi,1579626643.0,thanks these look very helpful!
+rust,ff6g3zt,t1_ff696xy,1579626450.0,">It seems very worthwhile to sacrifice some amount of performance on servers
+
+Only if you aren't using it on the server. But this is a false trade-off, there is no reason the implementation on one architecture has to slow down another. And there is no reason you can't have a generic portable implementation and a fast x86 specific one or an ARM thumb specific one."
+FPGA,ff68u9u,t1_ff619x8,1579621851.0,Every time I try to read about LFSR I get tripped up by Galois Fields because I never took whatever math class they are usually covered in. What course are they usually taught in? What prerequisite knowledge do I need to already have?
+rust,ff3zh3h,t1_ff3w5xa,1579552237.0,"Say I'm in \`myroot/\`. So I do \`cargo new somebinary\`. Now I have a Cargo.toml inside \`myroot/somebinary\`, but I don't have one in \`myroot/\`. LSP seems to want to look for one in \`myroot/\`, I'm guessing because my \`.projectile\` file is there which tells emacs it's the root of ""the project"". Should there be a Cargo.toml in \`myroot\`? If have \`myroot/lib1\` and \`myroot/lib2\` that I start as separate \`cargo new\` projects can they depend on each other?"
+programming,ff3cd08,t3_erc4x2,1579538354.0,"Even if the difference was only 2x between internal functions and processes, people would still expend enormous effort and time to use internal functions instead of processes. So reducing things so there is only a 4 order of magnitude difference is great but probably not significant enough."
+natureismetal,ff31s7l,t1_ff2ukrq,1579531416.0,Look up true facts on YouTube
+highfreqtrading,ff319p5,t3_erbk5s,1579531002.0,Sent you a pm
+StallmanWasRight,fen39k9,t1_fem8igh,1579276004.0,Your message looks cut off at the bottom
+StallmanWasRight,fek7l5s,t3_epf0pm,1579194272.0,I've never heard of this kind of thing before. Are speech restrictions actually tied to sanctions laws?
+TheMonkeysPaw,fek6yhr,t1_fejoesr,1579193895.0,As somebody who didn't use MSN messaging I don't understand. The monkey's paw is he just manages to say hello to everyone? And your hypothetical is that some other group has managed to have the same power that he already has?

@@ -1,0 +1,85 @@
+subreddit,self ID,parent ID,time,text
+rust,fetrgco,t1_fesoaqi,1579378914.0,"When you do `let x = ...`, x is *always* on the stack. There is no magic moving between the stack and the heap. When you do `let x = Vector::new()`, x is *still* on the stack. This can be a bit confusing, because you'll also here people say that a vector is allocated on the heap. What gives?
+
+Well, it's just the language people use for it is a bit imprecise. A `Vec<T>` has a fixed sized, since it's a size (usize), a capacity (usize), and a pointer. All of these have a fixed size! However, that pointer points to data on the heap, which has a variable size. This is what people mean when they say a vector is on the heap.
+
+There are two common times unsized comes up. One is when using trait objects, e.g. `dyn Error`. This basically means ""some object that implements Error"", but because I don't know what the type actually is, I don't know it's size. So it's really common for these trait objects to be put on the heap, e.g. `Box<dyn Error>`. Another one is slice, e.g. `[T]`, which means ""some continuous sequence of T"". Because I don't know how many T's there are at compile time, it's unsized. That's why it's really common to see `&[T]`, basically a pointer to a slice, where that data lives somewhere else."
+rust,fetp296,t1_fesllcs,1579377850.0,"Why can't unsized types can't go on the stack? 
+
+I know that C++ dropped support for VLA's, and linux made an effort to get rid of all VLA's in the kernel. However, I don't think there're any hard reasons that unsized types can't go on the stack, just increment the stack pointer but by the runtime size of the type. I know it can be bad practice, such as eating through stack space which a low-cost malloc could avoid, but it seems (from my naive perspective) like a wrong choice for a low-level language to prevent you from doing it at all. And, for Rust it'd give you the ability to put any unsized data on the stack, which would be seriously cool."
+programming,fep53f0,t1_feo151n,1579312320.0,"What the hell? ""Get fucked, Steve""? Steve has been an irreplaceable force for good in rust and programming at large, and helped with numerous projects. 
+
+Telling him to ""get fucked"", calling the post ""ineffable garbage"" isn't close to an honest critique. Calling the actix developer himself a ""con artist"" is literally the exact same type of harassment you're trying to dismiss. The great thing about open source is you can always fork it and move on, but nobody does, because ""some person made bad code"" isn't what any of this is about. You really can't understand what it's like to be at the end of an internet hate mob until you've experienced it."
+rust,fea561u,t1_fea3ovl,1578944488.0,"Syntax highlighting is nice too, though. I dunno, I really like the way python f strings look. It'd be nice to have some of the other convinces like {val=}. Meh."
+rust,fe9okux,t3_eo62s9,1578940024.0,"> The older iformat!(""inside {mystring}""); syntax will still be supported. It may be removed in v1.0.
+
+Why remove it?? It's so convenient. Maybe make it a different macro, but don't delete the functionality. There's nothing inherently wrong with putting code in string literals, especially if there aren't side effects, and makes certain cases more readable."
+facepalm,fdhfd0r,t1_fdgw803,1578421467.0,OK boomer
+facepalm,fdgv79x,t1_fdgoyg3,1578409140.0,They edited it in when they were called on their shit.
+facepalm,fdgt8p6,t1_fdgs6la,1578407732.0,"That's so fucking dishonest, and you know it."
+facepalm,fdgrnwy,t1_fdgq73a,1578406562.0,"I mean, that link both talks about euthanasia and the whole ""peta kidnap and murders pets"" myth. I was responding to the latter, because the former is even easier. Lots of animals are euthanized in animal shelters. Peta is no different. They just try to do it as humanely as possible."
+facepalm,fdgr3qa,t1_fdgqn8i,1578406138.0,"LMAO that fourth one was edited in, then completely changed the comment after, which said thousands of years originally. What a joke. And they only need to be groomed the rest of their life, not ""breaded"" for more offspring. So unless literally everyone in the world gives up wool at the same time, giving up wool yourself is going to be good for sheep."
+facepalm,fdgpm6y,t1_fdgpdw0,1578404961.0,"The dumb conspiracy theories like that [peta kidnaps and murders](https://www.petakillsanimals.com/contact/) is pushed by the ""Center for Consumer Freedom"", innoculously named and a cover for the [meat industry](https://www.sourcewatch.org/index.php/Center_for_Consumer_Freedom). In fact, almost all anti-PETA theories will lead you somewhere back to their site.
+
+There were two incidents, 2007 and 2014, neither of which reached a guilty verdict. in the first case it was somebody's hunting dog abandoned on the side of the road (didn't die and returned, charges were dropped to stealing the collar, then dismissed because obviously). In the second case, they believed it was a stray dog, one of many that were attacking livestock, so they took it to a shelter. it's sad that the dog died but there wasn't evidence there was crimininal intent, and it was settled out of court. And that led to an extremely hostile and exaggerated smear campaign funded by the meat industry against a pro-animal organization that most people accept as truth."
+facepalm,fdgpg5d,t1_fdgoqlc,1578404825.0,"Or, just stop breeding them? That's what essentially all animal activists call for when it comes to genetically engineered breeds that suffer because of their engineering. And stop engineering new ones."
+facepalm,fdgp9pc,t1_fdgoveg,1578404680.0,"Yes, they absolutely are. Out of here with this nonsense."
+facepalm,fdgp6v7,t1_fdgmfx6,1578404615.0,"The meat and dairy industry runs campaigns against peta, and that's not a conspiracy at all."
+politics,fdfseo9,t1_fdfmxid,1578369039.0,"I don't feel like you're reading anything that I said. So frustrating. 
+
+Like, I can't just choose to have wealthy parents. Wealthy parents makes you significantly more likely to succeed and life without you having done anything. It doesn't provide a benefit. Hence, that is an unjust hierarchicy. So I want to abolish intergenerational wealth. That has nothing to do with a free market decision? Huh?
+
+Capitalism is about accumulating wealth, then using that wealth to accumulate more wealth by any way the system allows. Like, straight up lobbying is one way to do it, so is multi-billion dollar deep AI advertising campaigns that people constantly soak up, owning the means of livelihood and jacking up the price, etc.. All these are deeply corrupt and unjust and limit freedom, but justified by just saying ""freer the market freer the people lol"". 
+
+There are tons of unjust hierarchies that can arise in a free market. Like, wealthy people are destroying the planet, and they are free to do that in the free market, but other people are unjustly suffering, so I don't think that's good. Successful people aren't chosen by some objective metric. Tons of people get successful without working for it. Which means tons of people are getting screwed out of their labor. You're really just reducing it down to saying if you want to maximize freedom, let people do whatever they want, but that's not actually how the world works. Sometimes people do things that are good for their own self interest but bad for other people. Shocker. 
+
+Again, you go back to talking about hierarchies, which I don't want to eliminate. I want to eliminate unjust hierarchies. You're so dense!"
+politics,fdfbkx4,t1_fdf6kj1,1578357836.0,"Parent comment linked six anarchist essays. Recommend you skim. Plenty of examples. I know that's the lame response, but I've got limited free time and am not an expert. 
+
+From what I can tell, it seems like other commenters (and maybe you) seem to think of anarchism really as just chaos, when that isn't true. It opposes the central, authoritative state, as we think of today, becuase it can lead to unjust hierarchies. Corporations lobby the government, the government uses war and police to maintain control and take resources, they choose who gets to vote, they write laws to help the corporations, yadda yadda. It's just rife for corruption, and that's exactly what we see. That's the basic anarchist position.
+
+This extends to wealth pretty easily. Those with money own the housing, food, internet, and healthcare, charge obscene prices because they can, nobody can do anything about it because they don't have massive amounts of capital to just buy the healthcare system. Importantly, owning the means of production let's you profit off other people's labor without doing the labor yourself. All this is how someone can work hard their entire life but have an infinitely worse life than some random lazy rich son. That's unjust.
+
+So, in contrast to the state, where power is centralized, the goal is to decentralize it. There's a strong emphasis on democracy, direct action and representation, and tightly knit communities. You might have people responsible for, say, building the bridges, because they're engineers. They're not there because their dad owns the bridges, and they don't have the power to make it so it's harder to be removed from that position, and they can't turn around and charge whatever they want. Becuase respectively, wealth (at least, intergenerational wealth) is eliminated, they're not part of ""the state"", and they don't have private ownership of the means of production. The bridge is publically owned. They designed the bridge because that's what they're good at. That's it.
+
+You can, and should, specialize and organize. There will be people to build bridges, grow food, whatever you want. There might be public planners that are voted on to help orchestrate the decisions, or enact rules to follow, e.g. speed limits (this is the closest you'd get to what we call politicians). But they and no other small group of people get to dictate essentially everything about society ""the state"", especially not their own rules for election, or write rules to benefit their private capital, and a distributed means of production and democratic voting help to maintain that."
+politics,fdewh8c,t1_fdeuj2g,1578348043.0,"Horizontal structures is what it means for control to be distributed rather than concentrated. That's not a contradiction, that's a definition. You can use your control to do what you want, but you can't use it to control other people, since that infringes on their control. You don't get to choose to put yourself above other people. That doesn't mean you don't have any choice, just not that specific choice. Make sense?
+
+Anarchists don't want to eliminate hierarchies. They want to eliminate unjust hierarchies. An engineer is better suited to deciding how a bridge is built, so they get control over a layperson. That's just. Maintaining political power by writing laws to choose who gets more voting power? That's unjust. 
+
+Most of your ridiculous strawman questions are actually answered if you read anarchy or just like, think through them. Some of them are stupidly precise. Like who gets to date the most attractive people under anarchy? How is it determined under capitalism? Like they're both political ideologies, they don't say anything about how people date."
+politics,fdeowih,t1_fdekwuo,1578343560.0,"that's pretty simply not true? have you ever talked or read the works of an actual anarchist? 
+
+You can, and should, still organize people, just not around a central, all powerful authority with a pass to do whatever they want to maintain their power (start wars, destroy the planet, organize a police and laws favoring them, etc.)"
+politics,fdeoj0t,t1_fdekj66,1578343344.0,she's the only one who's done the right thing here because she's anarchist. the state isn't going to expose the state for its crimes.
+MechanicalKeyboards,fd0kkj8,t1_fd0e3mi,1578120149.0,"> GMK Oblivion
+
+Ooooo nice"
+MechanicalKeyboards,fd07al2,t1_fd063hr,1578114703.0,"Brighter colors in general - rainbo, minty, rose, etc.. And yeah, I like those keycaps too!"
+MechanicalKeyboards,fd00k30,t3_ejdg1x,1578111809.0,"Looking for high quality keycaps for my Drop CTRL (TKL).
+
+- Don't really care the price (if it seems worth it). Like I'd be fine with GMK, but don't see one I love.
+
+- I'm a Window and Ubuntu programmer using it at work. ""grayish keyboard with some color"" is what I'm going for. 
+
+- Consideration 1: https://kbdfans.com/collections/keycaps/products/xda-keycaps-set ([this](https://kbdfans.com/collections/keycaps/products/pbt-xda-pbt-keycaps-1) seems to be the same thing with fewer keycaps? mistake?). Not sure I love the XDA profile though.
+
+- Consideration 2: https://drop.com/buy/everglide-xda-9009-dye-subbed-keycap-set (not in stock)
+
+- Consideration 3: https://www.oliviaplus.plus/ (not in stock, expensive)
+
+- Vim keycap extension would be nice
+
+- Feel free to toss any other caps you like (especially programmers), honestly just having a hard time navigating all the sites and options."
+MechanicalKeyboards,fctbdug,t3_eigtr4,1577938030.0,"I'm a programmer, looking for:
+
+- 75% or TKL 
+
+- Hot-swappable switches 
+
+- No soldering required
+
+- <$250 without switches or keycaps
+
+Any suggestions? Looking at Drop CTRL, but unsure if there's anything better. Thanks!"
+rust,fbd15yb,t1_fbcqx8x,1576741790.0,"This is very different than a reference. This takes ownership of the internal data - this is most similar to an Option<Box<T>> (where the option represents the null case). This has to own, and therefore clean up the underlying data, unlike &mut which doesn't need to own the data (and other code create their own references once this reference is dropped)."

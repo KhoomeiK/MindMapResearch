@@ -1,0 +1,76 @@
+subreddit,self ID,parent ID,time,text
+wherewasthistaken,ffb7ujd,t3_eqksgx,1579754330.0,solved
+wherewasthistaken,ffb7tz7,t1_ff3wqob,1579754314.0,"I cross posted in /r/whereisthis/ and /u/Smoothvirus identified this as the West Front fountain at the United States Capitol building in Washington DC.
+
+https://rvmotion.com/wp-content/uploads/2017/10/Capitol_02.jpg
+
+Solved!"
+whereisthis,ff86qul,t1_ff77qdz,1579667569.0,"Solved!
+
+Many thanks to everyone in this thread.  My 80 year old mother was visiting me this week. We were going through and scanning many of her old photos.  She loved her dad very much and was really excited to hear that kind internet strangers helped us with this. She loves this photo of her dad even more now.  You all have our most sincere gratitude.  <3 <3 <3"
+WTFgaragesale,ff5fh7g,t3_ero5ix,1579590583.0,Awkward boner.
+entertainment,ff5eijh,t3_erpvz0,1579589464.0,"Like many Hollywood celebrities, a great actor. But sorry... I don’t give two shits what he thinks about politics or any other topic for that matter. Just because he’s good at pretending to be someone else doesn’t mean that his opinions about other stuff amount to jack squat. DeNiro and all of his self-important famous friends can all kiss my hairy ass."
+wherewasthistaken,ff39fxa,t1_fev4s18,1579536807.0,"Certainly a possibility. Following your lead, I looked for ""Free Library"" in Philadelphia. I had to look at a dozen or so different locations until I found this one.
+
+https://goo.gl/maps/6EEsheTFEwpU9rVq5
+
+Is this the location you're talking about? It certainly has some similarities and it even has an empty area in front where a fountain could have been at one time. But there are some significant differences in how the building is constructed. The window arches in the old photograph seem to be quite a bit higher above ground level than the library in the Street View. Also, in the old picture, there are support columns (topped with some entablature) between the windows that lead up to the balcony above. Those are absent from the library building shown in Google Street View. 
+
+I think it's close, but I don't think that's it. Am I looking at the wrong branch?
+
+Edit: As I look around big libraries in other Pennsylvania cities, I'm seeing many similarities among the various structures. Good lead that it could be a library; the challenge will be finding which one. :-)"
+2healthbars,ff25rhp,t3_er79lc,1579494579.0,"I watched all the way to the end knowing for sure that you would run into the tunnel, but you never did. :-(
+
+(Seriously though... amazing job.)"
+confusing_perspective,feync5s,t1_fevz43q,1579447918.0,“Child’s Foot” is actually the official nick name for mine.
+WTF,fej4tnp,t1_feikb37,1579156941.0,"Like, “What the hell???” But he’s certainly going to keep watching; that’s for sure."
+Turntablists,fej4ge8,t3_ep6879,1579156535.0,"In my experience, 45’s get “cue burned” much more easily. Go ahead and do your mixing, but expect those records to have audible signs of damage shortly thereafter."
+HamRadio,febfgs9,t3_eob3ua,1578958240.0,These were just on woot.com. Is that where you got it?
+misc,fea77a3,t1_fe82jho,1578945158.0,"Just curious.... By saying “so-called,” are you implying that the economy isn’t very good?  Certainly, there are many who would argue that’s true. As it pertains to the economy, “great” is a somewhat subjective term. Great for whom?, I suppose. Absolutely great or relatively great? While there are many aspects that aren’t great, I’m pushing 50, and I can say that in my lifetime, there haven’t been many times it’s been much better than it is now.
+
+So I agree with you?"
+gadgets,fe5b9nz,t1_fe0dg8d,1578867284.0,https://www.backblaze.com/blog/hard-drive-stats-q2-2019/
+funny,fdsz9sh,t1_fdscu48,1578709882.0,Shouldn’t it become harder to fool someone the older they get? Why is it the other way around?
+CatastrophicFailure,fdmt7gw,t3_em5ogb,1578564612.0,Grain “bin?”
+gif,fdje6ks,t1_fdh6ppy,1578467083.0,That’s more than a pair o’ troopers.
+misc,fdhp9bu,t3_elail0,1578427432.0,"You can watch Juggalos applying spray paint to their faces here. (Fast forward to 7:40.)
+
+
+https://youtu.be/GDixIy0xOjY"
+synology,fdc736u,t1_fdb5zmy,1578268385.0,"It's not how I would do it. You're exposing your NAS to the internet. I suppose if all you have on your NAS is music and movies, it's no big deal. I have personal data on it so I will not be opening ports directly to it under any circumstances. I guess it's up to each individual to decide what qualifies as a justifiable risk."
+synology,fdbh7dy,t1_fda8gfr,1578257373.0,"1. That's good.
+
+2. It sounds like your router might be assigning a different subnet to VPN clients than it is to the LAN clients. You can confirm this by checking the subnet mask of each. If they are both 255.255.255.0, then these are indeed different subnets. (10.0.0.xx would be the one for the LAN devices, and 10.0.1.xx would be the other for the VPN clients.) Assuming they are different subnets, you would need at least two routing statement in the router in order for the two subnets to see each other. One to route traffic from 10.0.0.xx to 10.0.1.xx, and the other from 10.0.1.xx to 10.0.0.xx. It seems like this would be so obvious that the router would automatically add this configuration. I mean... why would they let you set up a VPN and then not be able to reach the stuff on LAN from the VPN? But I wouldn't take it for granted that it would just automatically be there. It's worth checking. Every router is different; I've never configured a Netgear Orbi, so i couldn't give you specific instructions on how to do it, but perhaps someone else here can.
+
+3. If #2 above is true, then that would explain it.
+
+4. You should at least be able to ping the default gateway of the subnet you're on. From your VPN-connected phone, look at your network settings and see what you're default gateway is. (This will probably start with 10.0.1.xx, not 10.0.0.xx. If you can ping that gateway, then at least your connectivity to the router is working. If you can't get to any 10.0.0.xx addresses, then I think it's a missing routing statement in the router. (See #2.)"
+synology,fd9y3e5,t1_fd9u1xg,1578239415.0,"I use an iPhone to connect to my NAS via VPN. In the VPN configuration, there is a switch called “Send all traffic.” Does your device have a similar setting? If so, make sure that’s on.
+
+How about the other stuff I was asking about?"
+todayilearned,fd9wdj5,t1_fd7na3b,1578238798.0,"In the late 50’s my mom waited tables at a restaurant he owned. (Not a Kentucky Fried Chicken.) She said he was a horrible, mean, SOB."
+synology,fd9tcdt,t3_eke1qr,1578237786.0,"Some questions...
+
+Once connected, can you browse the Internet? If you go to https://www.whatismyip.com does it show that you’re coming from the same IP as your home router’s WAN port?
+
+Is the IP of the device that’s connected via VPN in the same subnet as the other devices on the LAN? Some routers assign IPs to VPN devices out of a different subnet. You may need to set up routing statements in the router to route traffic to and from this subnet. 
+
+What is the default gateway of the device that’s connected via VPN? Can you ping that address?
+
+What _can_ you ping? Can you ping any of the router’s interfaces? Try pinging its WAN and LAN ports and see what works and what doesn’t work. That may shed some light on what’s going on."
+news,fd6b284,t1_fd5w0gp,1578188250.0,"Meanwhile, thousands chant, “Death to America,” at many places that aren’t Solemani’s funeral for literally decades before Solemani was killed."
+MAME,fcmholc,t3_ehjwif,1577775673.0,"I had a brief exchange a few months ago with one of the Votrax developers on the mame team. You may find some of what he said interesting.
+
+https://www.reddit.com/r/MAME/comments/e2cdr4/mame_0216/f8xaydn/?utm_source=share&utm_medium=ios_app&utm_name=iossmf"
+cordcutters,fclrx89,t3_ehmqsj,1577754989.0,Its
+todayilearned,fcji73p,t1_fcfpkhc,1577688550.0,"I don’t know, man. Reddit. Whatever."
+todayilearned,fccvjsa,t1_fcc31fj,1577603158.0,"When traveling to Mexico, I find women of Mayan descent to be the most attractive."
+offbeat,fccua5n,t3_egyl6l,1577602711.0,"This is what happens when you have virtually every politician saying, “No one is above the law,” yet they fail to enforce even the mist basic rules of public decorum. I work in SF. When friends come to visit me, I would often times take them into The City. It always made for a fun day. But not any more. It’s turned into a scary, intolerable, disgusting dump.
+
+We used to say that San Francisco is like the most beautiful woman you’ve ever seen, except she has a yeast infection. It’s a lot worse than that now, I’m afraid. She’s not really very beautiful any more. Time to come up with a new simile."
+misc,fcbrde9,t1_fc9cvdv,1577590124.0,I forgot to add a giant “/s” to the end of my post.
+misc,fc99nnu,t1_fc8kuad,1577549286.0,"So true... She’s just as God made her. Some people get dealt a tough hand. But at least she’s making every sensible choice she can to ease the burdens of her affliction.  /S
+
+Edit. Added “/s.” Thought it would be obvious."
+AskReddit,fc7rxmo,t3_egi52s,1577517074.0,Who is Mrs. Poopie Pants’ husband?
+WTF,fc7rg0c,t1_fc7954k,1577516725.0,https://youtu.be/KuEs5zYNHec

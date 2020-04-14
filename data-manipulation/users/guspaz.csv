@@ -1,0 +1,222 @@
+subreddit,self ID,parent ID,time,text
+Monitors,ffgel0o,t1_ffgd52j,1579904493.0,"I'm kind of biased since I have the wide gamut version of that LG monitor (the 850). I'd focus more on the TN vs IPS comparison. People criticize the LG for having a slightly lower contrast ratio than other IPS monitors, but that Dell has an even lower contrast ratio than that. Plus the narrower viewing angles of a TN panel. On the other hand, the Dell wouldn't suffer from panel glow as much, since that's more obvious on IPS panels.
+
+You can see the reviews of the two monitors for comparison here:
+
+https://www.rtings.com/monitor/reviews/dell/s2716dgr-s2716dg
+
+https://www.rtings.com/monitor/reviews/lg/27gl83a-b
+
+The LG has a lower average response time (though higher worst case) with less overshoot, but the Dell has BFI that can produce lower motion blur in total, at the expense of brightness and VRR/BFI only working together above 85Hz."
+Monitors,ffgb283,t1_ffg5hvp,1579902315.0,"You mean, what is required for a FreeSync display to be qualified as G-Sync Compatible? I don't know the full detailed list of criteria, but nVidia has said that they must at least:
+
+- Activate their VRR features automatically (enable VRR by default)
+- Not show blanking, pulsing, flickering, ghosting or other artifacts during VRR gaming
+- Operate in VRR at any game frame rate by supporting a VRR range of at least 2.4:1 (e.g. 60Hz-144Hz)
+
+That third point is one that a lot of FreeSync monitors fail. A FreeSync monitor with a VRR window of 40-60Hz, for example, won't pass the certification to be considered G-Sync compatible. Having a VRR range above 2:1 is extremely important because it allows low framerate compensation, that is, performing VRR below the monitor's minimum refresh rate. A monitor that operates at 40-60, for example, has no way of displaying a VRR framerate of 35 FPS. It can't double up the frames, because that'd require 70Hz. But a monitor with a VRR range of 40-120 could display 35 FPS by drawing each frame twice at 70Hz."
+Monitors,ffflkdy,t3_es24j1,1579886584.0,"Pick whichever works best. Some people claim GPU scaling has more input lag, some people claim display scaling has more input lag, but nobody, as far as I can tell, has ever actually attempted to directly measure the latency. In the end, your GPU and your monitor won't use quite the same scaling algorithm, so try both and pick whichever looks better to you. Don't forget to compare the scaling mode options between your display and your GPU; aspect ratio scaling is probably what you want, and not all monitors have that built-in."
+Monitors,fffhwtv,t1_ffb3l3s,1579884329.0,"At the moment, yes, but the current xbox consoles support some HDMI 2.1 features, and the next-gen consoles will use HDMI 2.1. The LG CX also supports 120Hz over HDMI 2.0 either by using a 1440p resolution, or at 4K using 4:2:0 (not good for gaming, fine for films)."
+Monitors,fffhgku,t3_esogzu,1579884046.0,"Check the ""Preferred refresh rate"" setting in the nVidia control panel (it's in the 3D settings). IIRC, the possible settings are ""Highest available"" and ""Application-controlled"""
+Monitors,fffh2xc,t1_ffc71c9,1579883812.0,"Freesync is not the same as g-sync compatible. G-sync compatible is a freesync monitor that nVidia has tested and certified as meeting various capability and compatibility requirements.
+
+All g-sync compatible monitors are freesync, not all freesync monitors are g-sync compatible. If they're not listed as g-sync compatible, that's either because it failed the compability checks, or hasn't been tested yet."
+Monitors,fffgkfs,t1_ffdj2mx,1579883493.0,"The ability to limit framerate is now built-in to the nVidia drivers as of 441.87, so external tools are no longer required. You can apply framerate limits on a global or per-application basis just like any other setting."
+startrek,ffdwskk,t1_ffcojst,1579830868.0,"It could be because they're keeping it under wraps, it could be because he won't appear until a later season, or it could be that he won't appear at all.
+
+Brian Brophy, the actor who played Bruce Maddox, doesn't appear to be an actively working actor anymore. He's only acted in television or film three times in the past decade, none of them recurring roles. He works at Caltech now: http://tacit.caltech.edu/about/brian
+
+That said, I can't imagine it would be that big of a problem to reprise his role for a brief appearance, and Pasadena isn't that far from where they're shooting Picard."
+startrek,ffdw9z5,t1_ffcpyl2,1579830503.0,"> Perhaps the Federation now bans any artificial intelligence which can appear to be a real biological being.
+
+""Your honour, Starfleet was founded to seek out new life. Well, THERE IT SITS. Waiting."""
+worldnews,ffd53zs,t1_ffd2ezf,1579813597.0,"That doesn't really match the climate data on Wikipedia. January high/low in Montreal is -5/-14 while in Pyongyang it's -1/-10. However, the difference is more stark in the spring, where for example in Montreal, March is 3/-6 while Pyongyang is 9/-1, which shows that not only are the winters milder in Pyongyang, they're much shorter too.
+
+I'm having trouble finding average snowfall figures for Pyongyang, everything gives average snowy days or overall precipitation... so all I can say is that Montreal has 59 snowy days a year as compared to 28 in Pyongyang. That doesn't mean that you can just take Montreal's 210cm of annual snowfall and divide by 2.1, though."
+worldnews,ffd0s6y,t1_ffcsv39,1579811164.0,"What part of North Korea has harsh winters? Looking at the climate data for Pyongyang on wikipedia, they have much warmer winters with much less snow. Montreal's winters are much more harsh than Pyongyang."
+manga,ffc7ax2,t1_ffbfmtu,1579793191.0,"Most of the pages of last chapter too, which they never fixed. I don't get it, is it some sort of anti-aggregator thing? Why haven't they fixed it?"
+worldnews,ffa64np,t1_ffa3833,1579728625.0,"The laws of physics won't be any different 40 years from now, though. This thing is basically like an RTG, except less power but over a longer duration. We started putting RTGs on spacecraft 60 years ago, and AFAIK the efficiency hasn't improved much since, because the efficiency of thermoelectric generators is fixed (and poor)."
+worldnews,ff9z9s9,t1_ff9quhh,1579724690.0,"A single 18650 battery can produce around 20A of current. One of these beta batteries can produce around 0.2 milliamps (100 microwatts at 2V). If your car requires 7,104 18650 cells to run, you'd need roughly 710 million of these beta batteries to run. Not terribly practical."
+worldnews,ff9yyby,t1_ff9q3u6,1579724505.0,"The prototype produces 0.1 milliwatts at 2 volts. Considering it also operates at 750 degrees, the potential use cases for this thing are extraordinarily limited.
+
+A conventional chemical battery might not last 5,000+ years, but at 0.1 milliwatt, a pair of alkaline AA batteries would last around a decade, which is probably plenty for most applications."
+Gameboy,ff875kq,t3_es1aje,1579667914.0,That is the most bizzare moiré pattern that I've ever seen.
+worldnews,ff7cqd3,t1_ff794dw,1579646516.0,"He sold 100 million albums, and then used the money from that to invest in companies and become an entrepreneur. Some of the companies that he started or invested in are worth quite a lot of money."
+movies,ff7aesg,t3_erx3mw,1579644579.0,Fifth time's the charm!
+AdviceAnimals,ff77hx6,t3_eruh1v,1579642642.0,You know what really grinds my gears? Text that lacks anti-aliasing.
+Monitors,ff73vjp,t1_ff6z2xk,1579640596.0,"No, I was thinking that YCbCr 422 might have been causing it. RGB is what you want it to be on.
+
+I'd also suggest making sure you're on 8-bit output and not 10-bit, I've seen wierdness in Windows with 10-bit enabled."
+Monitors,ff6x5yn,t3_erzvnx,1579636717.0,"Will you be updating any previous reviews to have the new metrics, so that we can still compare?"
+Monitors,ff6x15f,t3_erwq6e,1579636638.0,"Is your video output set to RGB, or YCbCr?"
+worldnews,ff6w0id,t1_ff61a0n,1579636037.0,"If Trump wins the election, he'll have been in power roughly as long as Caesar was, cumulatively. He'll have governed a country with roughly 6x the population of Caesar's Roman Republic, though the Roman Republic represented around a fifth of the world population at the time."
+funny,ff6ams2,t1_ff60nb7,1579623008.0,"However, the royal family has been paid 25% (with some additional math, as the amount cannot decrease year to year) of the income of the crown estate since 2012 (other solutions were in place prior). That's roughly £82 million a year at this point. The royal family isn't exactly hurting for cash, and would be quite well off even if the UK abolished the monarchy and took ownership of the crown estate."
+gifs,ff4j2df,t1_ff4hfx8,1579564809.0,"A missile launcher located on a coast would, on average, feature 50% of all directions being ""towards the water""."
+spacex,ff3less,t1_ff1h6rp,1579543537.0,"Not quite. The slowest possible launch escape separation would happen if, when aborting around MaxQ, the first stage engines kept firing for some reason. Musk said at the post-launch press conference that Dragon had enough thrust to abort in this scenario, but I can't imagine it'd be terribly fast."
+oculus,fewmf60,t1_few87rv,1579414603.0,"So, very very not real-time in any practical sense. If you try to do that on a single GPU, 9ms becomes 36ms. If you try to do that at Rift S resolution instead of 1080p, 36ms becomes 64ms. Using the Tensor cores must surely consume some of the TDP budget in the chip, so let's then assume a 20% reduction in available power for actual rendering, so 64ms becomes 76.8ms. Your achieved framerate is now 13 FPS.
+
+The enormous power required to do this completely negates any benefits that might have been gained via sparse rendering. When they talk about ""sparsifying a frame"" above, they're talking about taking the original fully rendered frame and turning it into the sparse data set, which is completely irrelevant when you need to actually render directly to the sparse data set.
+
+It's not even a matter of waiting for hardware to get fast enough to do this in real-time, because even then, it seems like the power budget is better spent on actual rendering."
+oculus,fev6m95,t3_eqj2ss,1579393706.0,"They say it's done in real-time, but how much power are they throwing at that? Most machine learning upscaling techniques usually run at, like, seconds per frame, rather than frames per second."
+funny,feurolc,t1_feucyjo,1579389320.0,"But... They could be ""spacemen""..."
+pics,feuqbi4,t1_fesfoys,1579388987.0,"The room is at 22, and the oven's warming up my pizza at 425."
+Starlink,fenu69u,t1_fdnl9ez,1579290777.0,"Even for Royal Caribbean, Starlink could likely offer them more bandwidth with less latency for a lower price. Other cruise lines either have restrictions (like no streaming video) or still operate on the old-fashioned ""charge by the megabyte"" packages."
+Starlink,feng1ma,t1_fdif4bj,1579283903.0,Starlink doesn't do anything remotely close to 60GHz. The highest frequency it has is the gateway uplink that tops out at 30GHz. The user-to-satellite uplink (the only bit relevant for phone power consumption) is 14.0 – 14.5 GHz.
+Starlink,fenexos,t1_fe6q7tt,1579283227.0,"Starlink communicates with end-users over 10.7-12.7 GHz for downstream and 14.0-14.5 GHz for upstream. Cellphones are, for the most part, roughly between 800 MHz and 2-3 GHz (some below and above, but not that far). GPS falls into that range, as does some satellite television. Higher frequencies have a harder time penetrating stuff. Satellite TV drops out when you have a storm too."
+Starlink,fene5t1,t1_fe1puvn,1579282756.0,"Bezos owns 12% of Amazon, which has an annual revenue of $233 billion USD. Musk owns 54% of SpaceX, which would have an annual revenue of around $32 billion in your scenario.
+
+Ignoring the fact that it doesn't work this way, Bezos's stake represents $28 billion in revenue, while Musk's stake represents around $17 billion.
+
+On the other hand, SpaceX's profit margins on Starlink are projected to be much higher than Amazon's profit margins, so if Starlink is producing $30 billion a year in revenue, SpaceX's net income (assuming no Mars program) would be higher than Amazon's net income. SpaceX plans to dump all of that income back into R&D, though."
+Starlink,fend0rh,t1_feeysrr,1579282065.0,"It's not about stopping you, it's about the terminal being far too large to use for fully mobile applications. There's nothing stopping you from mounting the receiver on a car, but then you're only as mobile as the car, not the phone in your pocket.
+
+There is also the possibility that the consumer terminals won't work well when moving. That's a planned use case (they talk about putting them on vehicles), but there may be a different receiver or firmware for that scenario."
+television,fen782j,t3_epzbg7,1579278493.0,"> It is sadly that we report on Derek Fowlds, elsewhere referred to as Bernard Woolley. While it would be premature to commit ourselves to a definitive position on his merits or even his existence, a committee is being struck to consider the possibility of a decision, in the fullness of time, to regret his passing, if any.
+
+Shamelessly adapted from The Ottawa Citizen's report on the passing of Sir Nigel Hawthorne."
+worldnews,fen3k7a,t1_fen18m9,1579276193.0,"But, didn't he explicitly say that they wanted to be financially independent? So why would people who oppose the expense of maintaining the royal family be opposed to a royal wanting to earn their own living independent from the public purse?"
+worldnews,feibb52,t1_fei6ze0,1579134495.0,"Source of, them being on the USB-IF? Their website (https://www.usb.org/members), which also shows Apple as being one of the seven board members of the USB-IF.
+
+Source of them being involved in the development of USB-C? The specification lists their employees involved on page 16: https://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019_0.pdf
+
+Apple is also one of the seven companies in the USB Promoter group that are responsible for developing the actual USB specs before they're transferred to the USB-IF. I'm not sure where the official list is, but near the end of this document you can see the list of members involved when USB 4.0 was announced this year, which includes Apple:
+https://usb.org/sites/default/files/2019-03/USB_PG_USB4_DevUpdate_Announcement_FINAL_20190226.pdf
+
+Apple is also one of the core members of the Khronos Group, the company responsible for OpenGL and Vulkan:
+
+https://en.wikipedia.org/wiki/Khronos_Group#Promoter_members
+
+https://www.khronos.org/members/list
+
+It's well known that Apple designed the mini DisplayPort connector and made it royalty free, but they're also one of the members of VESA responsible for developing DisplayPort as a whole. They're in a lot of standards bodies, contributing to a lot of standards."
+worldnews,fehx2r3,t1_fehvuwv,1579125581.0,"Apple is a member of USB-IF, and they did contribute to the development of USB-C. Around a quarter of the engineers in the working group were Apple employees."
+worldnews,fehwjfy,t1_fehuqms,1579125277.0,"The had an existing proprietary connector (the 30-pin dock connector) that was developed in an era where there was no standard connector (it predates micro usb by years). They needed a new connector. The existing standard was shit, so they decided to make their own. People lauded it as a big improvement when it came out, though many complained about breaking compatibility with 30-pin accessories.
+
+Lightning's reversible nature influenced the design of the USB-C connector, which finally fixed one of the largest complaints about all pre-existing USB connectors. Apple was involved in designing the USB-C connector."
+worldnews,fehsux1,t1_fehobc6,1579123193.0,"Lightning was an alternative to micro USB, USB-C only came about several years later. Lightning was absolutely a huge improvement over micro USB, and there were no better alternatives at the time.
+
+Their reluctance to migrate from Lightning to USB-C is probably related to USB-C sockets being thicker than Lightning sockets, but their most recent generation of phones sacrificed thickness to fit larger batteries, so that may be changing."
+explainlikeimfive,feheq67,t1_fehdh94,1579115017.0,https://i.ytimg.com/vi/9dtPEk73X9U/hqdefault.jpg
+retrogaming,fefl3f3,t1_fefce9c,1579058621.0,"I'm not sure he is, but rather than debate that, I'll just link to the excellent RetroAhoy video that examines the subject in extreme depth:
+
+https://www.youtube.com/watch?v=uHQ4WCU1WQc"
+AskReddit,feeehij,t1_fed75ou,1579032090.0,"My wallet is from there and I've owned a few sweaters from them in the past. They're expensive but high quality, is my impression."
+AskReddit,feedrtj,t1_fedsa2x,1579031671.0,"It aired in primetime during the olympics, commercial-free, via television, radio, and streaming. The Prime Minister attended the concert, and most cities held public outdoor broadcasts. One-third of the entire population of the country tuned in, a higher percentage than Americans watch the Superbowl."
+technology,feea7gj,t1_fee7uwp,1579029586.0,"My expectation with Starlink is that, compared to the general expectations, it will cost more, have lower speeds, higher latency, later availability, and more geographic restrictions.
+
+In terms of cost, I don't think it will be outrageous, but I think that it will be competitive with fixed broadband providers at best, and still much cheaper than GEO services at best. It's not going to make Comcast drop their prices, but it's going to put GEO providers out of business.
+
+In terms of speeds, I'm sure gigabit speeds will be technically possible, or perhaps even available, but that it would be the most expensive tier that only a few people would get. I think that typical speeds will be substantially lower, but even 100 megabit service with no transfer caps would be an enormous improvement for a very large number of people. You can throw $150/mth USD at a GEO provider today and all you get is 25 mbps, 50GB/mth, and latency that's often closer to a second than half.
+
+In terms of latency, I think that once you include latency variation, buffering, and the actual trip to the destination (people seem to just focus on Starlink's latency just to get to the satellite and back), it will be higher than people expect, and slower than fixed broadband, but still a massive improvement over existing GEO services.
+
+In terms of availability, I don't think it will be open for general signups (that is, without coverage limitations) in 2020. 2021 is likely, assuming there are no launch failures, since those freeze all launches for that vehicle until the investigation and mitigation is complete.
+
+In terms of geographic restrictions, people expect that anybody will be able to sign up anywhere in the world. First of all, there will have to be some sort of restriction or customer cap in urban centres since the constellation will never (even at the maximum size) be able to support that sort of population density, or maybe just exclude them entirely. Second, they won't be able to offer service in any country until they've worked with the local regulators. The FCC in the US, the CRTC and ISED in Canada, Ofcom in the UK, etc. In some countries, they may need to partner with a local wholesale ISP to manage the customer relationships."
+technology,fee10v0,t1_fed7ixm,1579024147.0,"They've never claimed otherwise. They've always said that this is not for urban centres, and that they could only service at most 10% of the demand in urban areas. There are, however, a very large number of people who live in rural and suburban areas. They can, to a certain extent, scale by adding more satellites (the current plan is for 42k, though only the first 12k have been approved), and the capacity per satellite will grow over time since they only have a five-year lifespan."
+technology,fee0icp,t1_fectlmg,1579023822.0,"Yes, but 60ghz suffers from oxygen fade. As in, the oxygen molecules in the air significantly attenuate it."
+technology,fecq04i,t1_fecm1ki,1578980446.0,"Sure, but Tesla didn't design the rockets or satellites. That was SpaceX. Musk owns a majority of SpaceX. He only owns roughly a fifth of Tesla."
+technology,fecpwgw,t1_fech5ts,1578980355.0,"IIRC they did say that they plan to launch satellites with the links by the end of the year. I realize that it's not an easy problem to solve, but I doubt it's an impossible one. If nothing else, between satellites in the same orbital plane, where the relative movement is far more limited."
+movies,fecpklj,t1_feb0140,1578980064.0,Not if Spielberg has anything to say about it.
+worldnews,fecga5k,t1_feawz1d,1578973200.0,"That's not a given. If Taiwan declared de jure independence, the US would not defend them (support from the US is contingent on Taiwan doing nothing to rock the boat), but China may still stay their hand due to the enormous costs of conquering Taiwan, both in terms of military casualties, financial cost, and economic damage from the rest of the world; even if Taiwan did not receive direct military assistance, China would likely be hit with severe sanctions.
+
+Taiwan's military is well-equipped, well trained, sitting on a very defensible position (there are very few good landing sites), and has spent the past seven decades digging in with the goal of making an invasion by China as extraordinarily difficult as possible. Taiwan also has, due to a combination of mandatory service and regular large-scale public drills, a very large reserve force available.
+
+China, for their part, only has a very small number of landing craft, meaning that China would need to completely cripple Taiwan's anti-ship capabilities before attempting a landing. Taiwan wouldn't need to take out very many of them to stop an invasion by sea.
+
+Nobody doubts that China could eventually succeed. But that was never the point."
+technology,febugx9,t1_febjo59,1578962840.0,"You peer where you can, and pay for transit where you can't. Transit is very cheap."
+technology,febu8be,t1_febqdk4,1578962726.0,"There's a big difference between 11 and 60 GHz, though something like rain and snow would impact both.
+
+My understanding is that there should only be one trip up and one trip back for a packet to get to its destination. In the final constellation, up to the satellite, from satellite to satellite, down to the destination (be it a customer terminal, or a gateway at a PoP or exchange). In the initial configuration, up to the satellite, down to your local PoP and over traditional transit from there.
+
+I'm not sure where everybody got the idea that it would be bouncing up and down using customer terminals as a mesh. I can't remember them ever talking about doing something like that, but maybe I missed something."
+technology,febt8s4,t1_feapyw2,1578962421.0,It uses a phased array antenna which uses multiple electrically steerable beams without any physical movement. The motors on the thing are only to get it pointed in the most optimal direction for sky coverage.
+technology,febsc7k,t1_fe9sy0k,1578962143.0,"They did, for one of the satellites in the most recent launch, to see how much of an improvement it made."
+technology,febs3g6,t1_feajqw3,1578962041.0,"A view of the sky in general should be fine, since you're not trying to hit a specific satellite, but the service is not intended for use in dense urban areas. Even with the massive numbers of satellites being discussed, that would be too many people talking to too few satellites."
+technology,febry9l,t1_feaf5x2,1578961978.0,"None of them are planning to launch a ton of satellites if you compare their plans to SpaceX, as far as relative numbers are concerned. Assuming no more delays (the first launch has already been pushed back), in 2020, OneWeb should launch 374 of 648 satellites, while SpaceX's plan is for 12,000 satellites in the initial constellation, with FCC filings having been made to bring that up to 42,000 satellites.
+
+Amazon's plans are the closest to SpaceX's in scope, with plans announced for 3,236 satellites, but it's just talk at this point. They haven't even applied for an FCC license yet, let alone built any satellites or signed any launch contracts."
+technology,febm1lh,t1_feaei54,1578960218.0,"Worldwide coverage, though they may need to work with local regulators to actually offer service."
+technology,feblynr,t1_feaawwo,1578960186.0,"The plan is to use the revenue from the internet service to fund their Mars ambitions. Investors don't want to dump billions of dollars into putting people on Mars, but if a private company wants to dump billions of dollars of their ISP profit into putting people on Mars, there's no problem."
+technology,feblpbk,t1_fea75qg,1578960085.0,"Current satellite internet services are slow in multiple ways, because they use a very small number of satellites that are very far away. While there are no guarantees that SpaceX's new service will be a success, I would still suggest waiting around a year and seeing how it compares to the traditional satellite services, rather than spending the time and money installing one of the traditional services now only for it to be supplanted by somthing dramatically better shortly later."
+technology,febkwt2,t1_fea6i4y,1578959906.0,"It's a fixed-receiver service, not a mobile service. There's not a ton of value in knowing your home address. The government already knows where you live."
+technology,febkq33,t1_fea4ekj,1578959836.0,"SpaceX is a privately held company, and is unrelated to Tesla other than some common ownership and Musk himself."
+technology,febjqjt,t1_feapioa,1578959553.0,"Musk promises a lot of things. Most of them happen, but much later than he promised.
+
+That blog post from somebody trying to sell their company's financial analysis products (it has nothing to do with Forbes, it's a private blog hosted by them) basically says ""Musk claims Tesla will break even in Q3'2019 and turn a profit in Q4'2019, and here are all the reasons why that's impossible"". Tesla turned a profit in Q3'2019, invalidating the main arguments of the post.
+
+All that aside, Tesla and SpaceX are two very different companies, operating in very different ways, in very different markets. Musk doesn't even run SpaceX. He's the CEO and CTO, but the actual operations of the company are managed by Gwynne Shotwell, the president and COO. Tesla doesn't even have a COO."
+technology,febg7ne,t1_fea7oco,1578958505.0,"This time, their FCC license has very specific deadlines. Half of them deployed by 2024, all of them by 2027."
+technology,febfy6e,t1_feak2ft,1578958408.0,Tesla had no involvement in anything related to this. This is all SpaceX.
+technology,febfpqx,t1_fea2z8w,1578958325.0,"The albedo of the satellites goes down once they get into their operational configuration (most of the videos you see online of the ""trains"" are from shortly after launch when the satellites are still spreading out unpowered), and one of the satellites in the most recent launch has an experimental low-albedo coating (IE: they painted it black). If that works out, it should cover most scenarios. For more serious astronomy work, there will be software solutions to automatically filter the satellites out of long/multiple exposures."
+technology,febeh1w,t1_fear73a,1578958024.0,"They have multiple shells of satellites planned, with some of them specifically intended for inter-satellite communication rather than uplink. The idea is that as much traffic as possible over the network is peer to peer (directly between two Starlink end users), since that generally spreads things out, and for anything else they can distribute the load between various exchanges and peering points based on network proximity and congestion."
+technology,febdy12,t1_febcrbv,1578957843.0,"Their FCC license has deadlines. Simplifying things a bit, they need to have half of them (5,972) in orbit by 2024, and all of them (11,943) by 2027. They've filed for permission to launch an additional ~30,000 satellites on top of that, though I don't think that's been approved yet."
+technology,febcjm8,t1_feaui6u,1578957484.0,"- User Downlink Satellite-to-User Terminal - 10.7 – 12.7 GHz
+- Gateway Downlink Satellite to Gateway - 17.8 – 18.6 GHz 18.8 – 19.3 GHz
+- User Uplink User Terminal to Satellite - 14.0 – 14.5 GHz
+- Gateway Uplink Gateway to Satellite - 27.5 – 29.1 GHz 29.5 – 30.0 GHz
+- TT&C Downlink - 12.15 – 12.25 GHz 18.55 – 18.60 GHz
+- TT&C Uplink - 13.85 – 14.00 GHz"
+technology,febbvdt,t1_feb4ole,1578957274.0,They've already launched nearly two hundred of the satellites.
+technology,febbrk9,t1_feaut0d,1578957238.0,"It doesn't use satellite dishes, the client terminals are phased array antennas. It'll look like a thin, flat disk on a stick, with some motors to orient it optimally based on local conditions (presumably as a one-time or infrequent automated calibration).
+
+With such a setup, you can electrically steer multiple beams to multiple satellites so that there's no interruption during the handoff."
+technology,feba883,t1_feav4av,1578956837.0,"IIRC, SpaceX's satellites have a rated throughput of 20 gbps. The planned frequency bands:
+
+- User Downlink Satellite-to-User Terminal - 10.7 – 12.7 GHz
+- Gateway Downlink Satellite to Gateway - 17.8 – 18.6 GHz 18.8 – 19.3 GHz
+- User Uplink User Terminal to Satellite - 14.0 – 14.5 GHz
+- Gateway Uplink Gateway to Satellite - 27.5 – 29.1 GHz 29.5 – 30.0 GHz
+- TT&C Downlink - 12.15 – 12.25 GHz 18.55 – 18.60 GHz
+- TT&C Uplink - 13.85 – 14.00 GHz
+
+These would not be considered high-throughput satellites: ViaSat-2 was designed for 300 gigabits of throughput, though it only delivered 260 gbps after launch due to problems with some of the antennas."
+technology,feb8ywt,t1_feajth9,1578956518.0,"More likely until they get the inter-satellite links up, they'll just serve customers by bouncing you to the nearest PoP where you'll go through peering to traditional transit providers. They have no reason to bounce the signal up and down a bunch of times like that."
+gaming,fe9ena6,t1_fe99vg8,1578936929.0,The $315 million dollars they spent buying Respawn makes it their game.
+gaming,fe9eche,t1_fe99zr4,1578936820.0,"Respawn is a subsidiary of EA, thus, EA made the game."
+gaming,fe9e54g,t1_fe9abro,1578936741.0,"EA was the developer too, since the game was developed by an EA subsidiary."
+Gameboy,fe9buqq,t1_fe95yb7,1578936161.0,"OP is saying there is ink on the front too, so replacing the back only partially solves the problem."
+funny,fdu89jl,t1_fdtllrd,1578729307.0,"Captain, what is it? Where are we going?"
+movies,fds2tgj,t1_fdqlf4x,1578693516.0,"It was the very last film that I'll probably ever get to see on 70mm IMAX film. My local cinema had switched from film to digital IMAX (which is 2K resolution, fuzzy as hell for a screen that big) years earlier, but they broke out the IMAX film projector one last time for Interstellar, and it was glorious. They've never done it since, even for subsequent Nolan films, so I'm guessing the hardware is gone now."
+manga,fds249j,t1_fdrx42g,1578693176.0,"Your search isn't returning a result because there is no series called ""yakuza-reincarnation"". If you search for ""yakuza reincarnation"" it comes up fine:
+
+https://mangadex.cc/search?tag_mode_exc=any&tag_mode_inc=all&tags=-37&title=yakuza%20reincarnation"
+askscience,fdpqk4w,t1_fdpl59t,1578636735.0,"Musk has specifically said that he wants Starlink to deliver up to 50% of all backhaul Internet traffic, which would pretty significantly compete with tier 1 ISPs, so I'm not sure where you got the idea that he doesn't want to replace current infrastructure.
+
+Apart from capacity concerns on the satellite-to-satellite links, it's cheaper and significantly faster (speed of light issues) for SpaceX to carry the traffic over the satellite network as close to the destination as possible so that they can get it directly to peering ISPs or exchanges rather than paying somebody else general transit fees to get it where it needs to go."
+askscience,fdpq9t2,t1_fdpasii,1578636435.0,"The US Airforce pulled off 610 megabits per second from a C-12 in flight to the initial two Starlink test satellites (they're not very similar to the actual production satellites they've been launching), so they've demonstrated the capability in the real world. Time will tell if the whole system if commercially viable, but they've already put 180 of the things in orbit, and currently plan to begin offering coverage in limited areas by the end of this year."
+askscience,fdppxzs,t1_fdpnii1,1578636101.0,"A planned consumer-level Starlink connection should have an approximate capacity of 450,000 MB per hour. It's already been tested in-flight on a C-12. I think requiring airlines to dedicate 0.06% of their available throughput for flight recorders is pretty reasonable, and I don't think the cost of requiring airlines to have that or equivalent hardware installed on all flights would be particularly onerous considering we're talking about a network designed for consumer connectivity and they can use that same system to sell access to in-flight internet access to the passengers."
+askscience,fdpppzb,t1_fdp8wji,1578635877.0,"And that's why the LEO constellations that are being constructed are going to make it feasible. SpaceX has put the first 180 of an initial 12,000 satellites in orbit, with the goal of providing global coverage up to gigabit consumer access. It's already been tested in flight, with the USAF using their initial two test satellites for a 610 megabit link to a C-12 in flight.
+
+If you consider that the final constellation is intended to offer higher speeds than that for monthly costs that a consumer would pay, it's hard to see how it would be burdensome for airlines to send a full copy of all CVR/FDR data in real-time. If you've got a full gigabit per second of available bandwidth on the aircraft, is it really such a big deal to dedicate four 64 kilobit audio channels for the cockpit voice recorder, and however much the flight data recorder requires?
+
+Airlines are going to want to install these things to offer global in-flight internet access to passengers, considering their costs will be substantially cheaper than existing competing solutions for in-flight network connectivity, and they'll still be able to charge passengers just as much since passengers won't have any choice. The connectivity for real-time FDR/CVR will already be there."
+news,fdl8m78,t1_fdka3k0,1578518903.0,"It might not be as high a number as Los Angeles (a city more than twice the size), but there are still around a hundred thousand Iranians living in Toronto. It's a substantial population."
+videos,fdcr3aw,t1_fdcnoec,1578281949.0,"I'm no expert, but I believe that we've got two wings, 3 Wing at CFB Bagotville (Saguenay), and 4 Wing at CFB Cold Lake, and then some aircraft (squadrons?) rotate through other CFB bases, or get deployed overseas, but Bagotville and Cold Lake are their home bases."
+videos,fdcf6iz,t1_fdasb5r,1578273399.0,"The airport in Montreal, the third busiest in the country, is home to Air Canada's headquarters (literally between the runways) and one of their primary maintenance facilities. Saguenay's airport is a Canadian Forces base (one of two CF-18 Hornet air force bases in the country), and has very little civilian traffic (only one Air Canada route).
+
+All that said, this wasn't an Air Canada aircraft, it sounds like it was Jazz flying an Air Canada Express route (those are all outsourced flights), and I don't know if they use Air Canada's maintenance facilities."
+manga,fd7dkb5,t3_ek2xl9,1578202807.0,"It was exactly her intention, and the perceptive readers had a feeling it's onee x shota."
+todayilearned,fd4reqp,t3_ejyyvz,1578170360.0,"This redditor did it with a $5 CAD cheque a few years back:
+
+https://www.reddit.com/r/funny/comments/utq3u/i_asked_the_lotto_what_is_the_minimum_winning/"
+spacex,fd4lm2u,t1_fd2vg6q,1578168695.0,"I think he was trying to imply that ULA had not launched any commercial orbital space missions, but even that isn't accurate. ULA had VERY few commercial launches over the past, they were almost all for the US government, but they did have a small handful of commercial launches."
+manga,fd0hwjt,t1_fcz41vq,1578119047.0,"It works fine for me on iOS, but then, I've bookmarked directly to the series page for the stuff I read from them. Only complaint is that images aren't the full width of the screen, which makes them ever so slightly harder to read."
+aww,fd00pol,t1_fczzntg,1578111883.0,"Quebec does everything it can to block access to English-language education and services (the most recent shenanigans involve suggesting that only ""historical anglophones"" should get access to service in English), so maybe we should fix that before we start demanding that other provinces offer services in French for the 1% of their populations that speak French instead of the 9% of their population that speaks Chinese."
+aww,fczzgiv,t1_fczwph2,1578111294.0,"Is there really a point of requiring everything to be in French in provinces where very few people speak French? In many provinces, French is only the fourth or fifth most spoken language. Roughly 9% of the residents of BC speaks some form of Chinese, but only 1% speak French. More people speak Tagalog than French in Alberta. Twice as many people speak German as French in Saskatchewan, and that German/French gap is nearly as wide in Manitoba."
+movies,fczxann,t1_fcy4axh,1578110214.0,"Netflix is worth twice as much as what Disney paid for Fox (maybe more than twice as much if it went to bidding), it might be a bit much even for them."
+movies,fczx1rf,t1_fcxypoa,1578110088.0,"Netflix Canada still has all Marvel films, all Indiana Jones films, and one Star Wars film (Solo).
+
+Disney Plus (which is available in Canada) appears to have those same Marvel and Star Wars films, but they don't have any of the Indiana Jones films.
+
+Licensing is weird."
+aww,fczvdr4,t1_fcz9swq,1578109257.0,"Random information: while they've privatized most small airports, nearly all of Canada's major airports (representing 94% of scheduled passenger/cargo flights) are still owned by the federal government (and operated by private non-profits). As such, rules about bilingual language use by the federal government apply."
+manga,fcwshj8,t3_ejb8z8,1578035804.0,Is that the same artist as Miss Leo? Sure seems similar.
+videos,fcwqazb,t1_fcwmur8,1578033457.0,"As soon as the package enters Canada, Canada Post becomes the agency handling/tracking the parcel, and the information that USPS gets will be limited and delayed due to not being entered directly into their system. At that point, start tracking the package via the Canada Post website instead."
+snes,fcvix8r,t3_ej17ge,1578003063.0,"Super Metroid. The controls are terrible (wall jumping is a nightmare, but it's somehow required) and the exploration is less excitement and more ""Damnit, where the hell am I supposed to go now?""
+
+I bought a copy of it and tried it out because it's supposed to be some amazing ""greatest game of all time"" sort of thing, but I was severely disappointed.
+
+It's not like I dislike the genre, I've loved all the Iga-style castlevanias (and loved Bloodstained), but Super Metroid was just an unpleasant experience."

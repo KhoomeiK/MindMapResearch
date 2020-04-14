@@ -1,0 +1,264 @@
+subreddit,self ID,parent ID,time,text
+cats,ffwu65q,t3_evhpn7,1580311078.0,"Even the cat is like ""this is too much""."
+maybemaybemaybe,ffudkfq,t3_ev9jkh,1580239711.0,"An entire team of me (aka ""the brick"")!"
+politics,fftyoxj,t1_fftvnki,1580230627.0,The other 5% is cocaine.
+whatisthisthing,ffmexpa,t3_eu7o5g,1580053611.0,Koi pond?
+politics,ffme3b2,t3_eu7knc,1580053187.0,Will no one rid me of this Shifty Schiff? - @realDonaldTrump
+AMA,fflwtk3,t3_eu5v4c,1580045092.0,Ever have a nightmare where a shark drags you underwater and clips a tag through your bicep?
+AnimalsBeingDerps,ffkujfc,t3_etx1hf,1580029143.0,Definitely being judged.
+webdev,ffgwrxe,t3_etk4jv,1579917043.0,"> Since the pricing model is per user, per month, say the following scenario occurs: A user signs up at the start of the month and registers 5 users. Half way through the month, the user wants another three users so adds them. At the end of the month, what do I bill the user for? Obviously the five original users, but what about the three ones added halfway through the month? Are these billed for a half a month? Do I generate a seperate invoice for these in another half month (1 full month after they were created)? Is there some standard to handle this?
+
+This is why lots of SaaS products use Stripe.com for payment processing. Stripe handles the nitty gritty of that calculation down to the minute. Basically it issues a refund for the unused portion of the last payment, then charges for the new month with the new number of users (iirc)."
+politics,fffdbnw,t1_fff9qfy,1579881455.0,"> They should not get any kind of legal exemption from facing justice.
+
+I think it is more to protect diplomats from corrupt proceedings."
+NetflixBestOf,ffdt03u,t1_ffcc129,1579828176.0,"Pretty damn funny.
+
+And, no spoilers, the last 15 minutes of it was unique. Never seen that done before by anyone and it was hilarious.
+
+Lobby Baby!"
+hardcoreaww,ff8if6k,t3_es7qa4,1579679924.0,"""Come a bit closer food."" - El Tigra"
+ANormalDayInRussia,ff8ehfu,t1_ff83o62,1579675058.0,Babushka shot first?
+Fantasy,ff7fm0c,t1_ff788wa,1579648425.0,You are 100% right!
+Fantasy,ff6u4kr,t1_ff6kldj,1579634925.0,This version of Dune has been marketing itself hard for quite a while now. Personally I take that as a bad sign.
+programming,ff5qovr,t1_ff59eut,1579606386.0,"Why build from scratch when you can pay for a few dozen drones to keep things working? Oh sure all nice and new and we can cut down on the drones... but only for a few years, they'll be back. Seems like a waste of money to me."
+NewsOfTheWeird,ff59klb,t3_erpcge,1579584358.0,Pastor wants a younger crowd... hmm... maybe dating is easier when there's fewer 60 year olds?
+SQLServer,ff2othj,t1_ff2ognf,1579516906.0,See my updated response. Change the ordering to historyID (though ordering by datetime might be better because depending on autoincrement id's to always be in order can be a mistake).
+SQLServer,ff2oauy,t3_erbd61,1579516106.0,"How are you ordering the ""type of policy"" column? Why does ""new"" come before ""committed""?
+
+This would probably be too slow:
+
+    select *
+    from Tbl
+    where not exists(
+        select * 
+        from Tbl as PriorRows 
+        where PriorRows.Policy_Number = Tbl.Policy_Number 
+            and PriorRows.Type < Tbl.Type
+    )
+
+Basically this selects rows that do not have a ""lower"" (i.e. previous) Type field. These rows correspond to the ""first"" row (first also means ""has no prior entries""). Sometimes thinking about ""first"" in this way helps illuminate what you're trying to do.
+
+Note this would run into problems if there are duplicate Policy_Number and Type records (both would get selected). You'd need to add a tie breaking condition to adjust for this.
+
+The query can be transformed from a subquery to an outer join:
+
+    select *
+    from Tbl
+        left outer join Tbl as PriorRows
+            on PriorRows.Policy_Number = Tbl.Policy_Number
+                and PriorRows.Type < Tbl.Type
+    where PriorRows.Type is null
+
+This is roughly speaking a type of Cartesian join. Each Policy_Number is joined to the same Policy_Number but with a lower/early Type. The entry that doesn't have a PriorRows is the ""First"".
+
+Not sure how this would perform either. You'd need to study the execution plan's pretty carefully."
+catpictures,ff1wl6z,t3_er0ub4,1579487828.0,"""Beg me for knowledge"" - Moose"
+unitedkingdom,ff1wdqx,t3_eqvsaf,1579487687.0,Don't involve us in this. Those people are your problem!
+politics,ff0wvn5,t3_eqvscw,1579473053.0,Did no one tell him that the actual trial itself will not be broadcast?
+NewsOfTheWeird,fezcgvb,t1_feykl2x,1579455943.0,"Quantum computers do exist now, they're just not very powerful."
+NewsOfTheWeird,fezc2xb,t3_eqwl56,1579455819.0,"> Some will believe that gold is the most pertinent hedge against any sort of financial collapse, but movements from Bitcoin in the early part of January could be pointing towards the digital asset becoming an accessible safe haven.
+
+Bitcoin moved from $7,000 to $9,000 in less than a month which points to it ""becoming an accessible safe haven""?
+
+What rubbish."
+politics,fez4kzv,t3_eqwrqg,1579453792.0,"Pam ""Bribie"" Bondi? Whatever."
+NewsOfTheWeird,fexgp8d,t3_eqiszy,1579430705.0,"In the picture that asshat took of the girl, she looks like the face of /r/talesfromretail... all the life just ground out of her.
+
+Her face on the gofundme page is a complete turnaround."
+javascript,fewrgs3,t3_eqmuit,1579418395.0,"This is why I don't like javascript much. I've used it for years, even done some pretty complicated stuff in it, but out of 4 random questions I only got one right (the fetch one). For the other ones I was ""I don't know... let me run it and check"". 
+
+JavaScript is an edge case incarnate."
+pics,fewh9vi,t1_feul5rk,1579410560.0,"Be polite! The preferred nomenclature is ""New Yorkers""."
+oldschoolcreepy,fetsy8a,t1_fepe4aj,1579379695.0,"Actually not. 
+
+The troops on both sides had very little entertainment so they had to resort to punch & judy style puppet shows across no mans land. This led to the Christmas truce where the players for each side got to exchange notes on techniques and upcoming story lines."
+politics,fetot26,t1_fetar5y,1579377752.0,"""... as a prize for the biggest donation you get to choose who's next"" - @realDonaldTrump"
+politics,feto258,t1_fet35mc,1579377450.0,"> but losing your license is plenty.
+
+Except that's not the penalty. Sure it might be referred to the bar association... but it's a long long way between a referral and a disbarment. It might only be a suspension.
+
+Acosta let a man who regularly sexually abused underage girls, including trafficking them, escape significant punishment. Apparently he did this just because the perpetrator asked for it. AUSA's are well known for leniency, all you need to do is ask."
+politics,fesk49e,t3_eqgqmk,1579366056.0,"> Federal prosecutors who violate the rights of a crime victim could be suspended or fired, referred to state-level bar associations, suspended from practicing law on behalf of the U.S. government and referred to the Justice Department if there is evidence of criminal misconduct.
+
+Pretty weak tea.
+
+Making it a 2nd degree felony (2-20 years in prison and/or a fine of up to $10,000, on par with domestic violence) would give it some teeth."
+politics,feowyh5,t1_fenm3ib,1579307190.0,"Yup, that's Pam, I Took a Bribe from Trump and Had to Give It Back, Bondi."
+Fantasy,feobvqq,t3_epzgax,1579297891.0,"> Dormer stars as Sam Vimes, Captain of The Watch, disempowered by a broken society that’s reduced his department’s jurisdiction to almost nothing. Jo Eaton-Kent is Constable Cheery, the ingenious non-binary forensics expert, ostracized by their kin and finding a new home and identity. Adam Hugill plays Constable Carrot, the idealistic new recruit, raised by dwarfs, but really a human abandoned at birth. Marama Corlett is the mysterious Corporal Angua who is tasked with Carrot’s training and keeping the rookie alive. Lara Rossi plays the formidable Lady Sybil Ramkin, last scion of Ankh-Morpork’s nobility, who’s trying to fix the city’s wrongs with her chaotic vigilantism.
+
+Just so many things wrong."
+politics,femksoc,t3_epvbcy,1579260526.0,"A few more ""I don't know him"" lies and Parnas will reveal that he's actually a woman and the mother of Donald's love child. After the next lie she reveals the DNA test results."
+dotnet,femkhrs,t1_feme0bn,1579260123.0,Generics. to set an instance of a type to its default value. Also the switch statement.
+dotnet,felxwvj,t3_epowmu,1579233733.0,"As a guess... I'd try getting rid of the BOM (byte order mark). The compiler clearly thinks something is wrong right after ""namespace "" (character position 11). If the BOM is being ignored and clumped with ""namespace"" that would cause syntax errors.
+
+NEVER MIND!
+
+The problem is ""default.Domain.Enums""... you can't use ""default"" (conflicts with a keyword). You can use ""namespace @default.Domain.Enums"" instead."
+NewsOfTheWeird,fejhd07,t3_ephk46,1579174301.0,The dumbest idea I've seen in a long time.
+worldnews,fejg7em,t3_ephi2g,1579172728.0,"I'd like to see the look on Trump's face if you asked him ""Would you be ok with Apple being able to unlock your phone at the request of the NY AG?"". 
+
+Also... Tim Apple! If people keep saying Tim Apple then maybe in 20 or 30 years someone will name their kid Timapple."
+pics,fehs4tm,t1_fehpvxf,1579122787.0,"> Mississippi is 50
+
+50 out of 50! That's 100%!! We're #1!!! We're #1!!!!! Woooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo #1!!!!!!!!!!!!!!!!!!!!"
+CatsAreAssholes,fefsqua,t1_fefburl,1579064076.0,"> And smarter and craftier than most humans I know. -_-
+
+ftfy"
+CatsAreAssholes,fed5u8k,t3_eoj83q,1579000348.0,Siamese cats are not starter cats.
+Whatcouldgowrong,fed4u5e,t1_fed209g,1578998922.0,"> and probably have sex on that couch
+
+That had never been cleaned..."
+AnimalsBeingDerps,fecxrx2,t1_fecgbs6,1578988945.0,[Including humans](https://www.reddit.com/r/maybemaybemaybe/comments/e641o7/maybe_maybe_maybe/?ref=share&ref_source=link) (wait for it)
+politics,fec5n7n,t3_eodxg1,1578967020.0,More likely to plant dirt.
+cats,fe0g13v,t3_enewio,1578812814.0,Has it kicked in yet? I feel like it's not working.
+dotnet,fe06uuc,t3_enfdlx,1578804582.0,"Legacy .aspx support doesn't support ""Find All References"" or ""Rename...""."
+SQLServer,fdtzx0z,t1_fdtyeft,1578725027.0,"I avoided string conversion because some of our customers run with odd server defaults (though 120 is just YYYY-MM).
+
+And now that cast/floor/cast is in muscle memory it's never coming out :)"
+SQLServer,fdtzj3v,t3_en3oy2,1578724847.0,I suspect the SQL Standards folks to be the root cause. This [postgres doc](https://www.postgresql.org/docs/12/sql-createfunction.html) implies it.
+Whatcouldgowrong,fdtwm9r,t1_fdtdmb0,1578723400.0,Leaves... aka plant lungs.
+SQLServer,fdtu6sp,t1_fdtqrp1,1578722269.0,Ah yes. My cast/floor/cast dates from before the date datatype :)
+politics,fdsyzot,t3_en0uae,1578709782.0,"Texas needs a border wall south, west, and north. No problem."
+SQLServer,fdqeuow,t1_fdqe8oj,1578664845.0,"No problem. 
+
+I don't remember where I got the topological sort from but the streaming bit used PipeStream from https://www.codeproject.com/Articles/16011/PipeStream-a-Memory-Efficient-and-Thread-Safe-Stre
+
+Good luck :)"
+unitedkingdom,fdqatr8,t1_fdq1gj6,1578661480.0,Totally different from a Nice Hairy Sussex. You don't make that mistake twice!
+SQLServer,fdq8qip,t3_elxvey,1578659458.0,"How many tables are in the db? And of those how many are configuration vs actual data?
+
+I'm wondering whether just building a dedicated bit of code to do a database export would be worthwhile. Basically the code would need to do:
+
+* load the database schema (including foreign keys)
+* sort the schema based on dependencies (topological sort)
+* export the schema (eg. ""create table x ..."")
+* loop through each table and do the following:
+* - select either all records or a representative sample
+* - export the records as SQL (eg. ""insert into x (...) values (...)"")
+
+I've done the above for a small application of 300 odd tables with the vast majority being configuration-ish and only a small core (half a dozen or so) being data intensive.
+
+What I really like about this bit of code:
+
+* Customer support starts with ""send us your configuration""
+* The configuration is striped of some data elements (eg. password to a smtp server)
+* Support can load a complete working configuration using SMSS (or cmd line if really big)
+
+What's annoying about this code:
+
+* Need to keep it in mind when upgrading schema elements. 98% of the time don't need to do anything (because the schema export and data export ""just work"")... but sometimes a bit of adjustment is needed.
+
+So... rather than look for an existing tool maybe just spend the effort to create one dedicated to exactly what you need. The above wasn't tricky code to write, though exporting the schema was a pain (saved by not have a super complicated schema... some views, some functions, some sp, but that's about it). The most tricky part was streaming the raw SQL output through compression and down to the browser on the fly (saves on runtime memory and doesn't need to create a file on the server)."
+holdmycatnip,fdpce2x,t3_emkdfj,1578625100.0,Cat going shopping.
+ArcherFX,fdos73a,t1_fdoqasz,1578611698.0,She loved that dog.
+politics,fdoqrvk,t1_fdooztw,1578610800.0,Which he later returned to show how innocent he was. And Trump must have laughed his ass off at that because he basically bribed the DA for zero dollars.
+SQLServer,fdngpa2,t3_em4cm1,1578585430.0,"    declare @FirstDateOfPeriod datetime 
+
+    -- current datetime with time 00:00:00
+    set @FirstDateOfPeriod = cast(floor(cast(getdate() as float)) as datetime)
+
+    -- first of the current month
+    set @FirstDateOfPeriod = dateadd(dd, -1 * day(@FirstDateOfPeriod) + 1, @FirstDateOfPeriod)
+
+    -- first of previous month
+    set @FirstDateOfPeriod = dateadd(mm, -2, @FirstDateOfPeriod)
+
+    select ...
+    from tbl
+    where tbl.DateField >= @FirstDateOfPeriod
+
+One reason to calculate the starting point, @FirstDateOfPeriod, is to ensure that any index on the DateField can be utilized. Solutions that perform math on the DateField itself, eg ""datediff(mm, recorddate, ..."",  and ""MONTH(Field)"", preclude the possibility of using an index.
+
+Note you could make the calculation of @FirstDateOfPeriod inline:
+
+    dateadd(mm, -2, dateadd(dd, -1 * day(getdate()) + 1, cast(floor(cast(getdate() as float)) as datetime)))
+
+But... tricky to understand. And it uses two invocations of getdate() which always makes me wonder exactly how SQL handles getdate() in queries. Will all invocations of getdate() in a query have the same value? Am I willing to bet on it?"
+MEOW_IRL,fdnf984,t1_fdn3sfs,1578584552.0,That ear hair!
+BigCatGifs,fdmp5qx,t3_elu5jv,1578558956.0,Kitty needs a belly rub!
+BigCatGifs,fdmp44g,t1_fdkc7dm,1578558896.0,I think it's the smell. They behave the same way as with catnip (which they absorb via smell).
+maybemaybemaybe,fdmp05p,t3_em099s,1578558749.0,Ocean going raccoons abscond with bin.
+MEOW_IRL,fdmomvr,t3_elvpa4,1578558259.0,Put a ring on it.
+cats,fdlx1c4,t3_elul7h,1578534541.0,"""Not coming out! I can smell the cold!"" - W.Cat"
+business,fdlwtpc,t3_elwsh5,1578534398.0,"Maybe see if there's a way to work together? 
+
+How could two clothing stores sell more if working together? 
+
+If you both sold different brands/styles/whatever then you could send customers to each other. Kind of free advertising in a way.
+
+If you're both buying from the same supplier only place one order and get a discount for a bigger order. 
+
+Brand the stores the same and then share the cost of advertising. Make it look like the business has two locations (but is in fact two separate businesses with a legal agreement about the brand).
+
+And... I'm out of ideas."
+BigCatGifs,fdk3tly,t3_elgz5a,1578495383.0,Will no one think of the Zebras!
+hardcoreaww,fdgtjwo,t3_el8ej4,1578407961.0,"Tiger: Hello food!
+
+Me: Meep!"
+politics,fdegqe2,t3_ekxzii,1578338660.0,"Let me give you a prediction:
+
+JB: My name is John Bolton
+
+JB: I have no recollection of that.
+
+JB: I can't answer that because of executive privilege.
+
+JB: I refer you to my previous answers."
+catbellies,fdeay5m,t3_ekw0pm,1578335051.0,"""How we do'ng on that 'nip?"" - O.Cat"
+politics,fddz5sf,t1_fdcv306,1578327500.0,"> We actually withdrew around 2011 after **Obama** got us out.
+
+The agreement to withdraw originated with George W. Bush and Obama only followed the agreement."
+politics,fd3ix51,t1_fd295ta,1578158760.0,Trump STD(tm)
+AnimalsBeingDerps,fd02aqo,t1_fczvotj,1578112589.0,Better go down and check!
+BeAmazed,fczznwo,t1_fcywiwo,1578111400.0,Dub in some screams and it would be even more terrifying.
+whatisthisthing,fczz6km,t1_fczf7yy,1578111159.0,Mods... make that a thing please!
+politics,fczz2fy,t3_ejqiv1,1578111102.0,"> You should come up to my office sometime, so we can kiss - @realDonaldTrump
+
+That's his game... ""so we can kiss"". That's pretty damn weak, even for a 68 year old."
+politics,fcxozow,t1_fcxo0e4,1578068099.0,All Putti wanted for Christmas was Iraq.
+politics,fcw1o3o,t1_fcvwnf8,1578015085.0,Trump Crime(tm)
+politics,fcvaeda,t1_fcv7mx2,1577997977.0,NMJ (not my jesus)
+australia,fcuajhr,t1_fctzlap,1577976464.0,"PM turns away young pregnant girl! People wonder why there is ""no more room""! Strange lights seen in the sky! Many odd tourists from strange countries!"
+dotnet,fcu9gki,t3_eixy8w,1577975696.0,"Why not:
+
+    bool WillChange = false;
+    foreach (var child in children) {
+        WillChange = Check if transform will make changes(child)
+        if WillChange break
+    }
+    if (!WillChange) 
+        return this
+
+    var newChildren = new dictionary
+    foreach (var child in children) {
+        newChildren.add(Transorm(child))
+    }
+
+    return new CNode(newChildren)
+
+
+Efficiency-wise this should be ok... except the logic for determining whether a transformation takes place might be run on a few extra children (the children before the first one transformed will be checked twice).
+
+It might also be linq friendly:
+
+    var WillChange =
+        (from child in children
+         where WillTransform(child)
+         select 1).Any();
+
+    if (!WillChange) 
+        return this
+
+    return 
+        new CNode(
+            (from child in children
+             select Transform(child)).ToDictionary(v => v.key, v => v)
+        );"
+pics,fctnxbg,t1_fctjc2a,1577950769.0,Scotland gets 4 more Trump courses!
+politics,fctnm2e,t3_eiugrh,1577950358.0,"From his staff there was a susurration of: ""don't forget to say prevention. don't forget to say prevention. don't forget to say prevention. don't forget to say prevention. don't forget to say prevention. don't forget to say prevention. don't forget to say prevention. don't forget to say prevention. don't forget to say prevention. don't forget to say prevention."""
+politics,fcopiwo,t3_eia6hy,1577838147.0,Only voters actually want voting to be important. Politicians just want a job.
+entertainment,fclueh0,t1_fclqwcy,1577756708.0,I kind of ran out of steam at about an episode and a half of witcher.
+pics,fclu4ua,t3_ehupct,1577756519.0,"Tell your friend he's too old to carry a Harry Potter wand everywhere. And that cat's don't respond to ""alfelinus"" spells."
+pics,fcll00t,t1_fclgaf2,1577750241.0,No return address on the envelope? Barbaric!
+aww,fcho1n3,t1_fccb1xv,1577652269.0,"And he does it ""penitentiary"" style."

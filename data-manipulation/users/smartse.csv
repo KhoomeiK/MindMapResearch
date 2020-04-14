@@ -1,0 +1,59 @@
+subreddit,self ID,parent ID,time,text
+vegan,ffar3jf,t1_ffachzx,1579742520.0,No because they're fermented by yeast not bacteria. Yeast extract has plenty of other B vitamins naturally but B12 is added.
+Agronomy,ff910zz,t3_esa270,1579702134.0,"[ERA5](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) is a model and models are always wrong, so it's not surprising that the values don't match up with a weather station at the same location. I doubt that there is much you can do about this iff ERA5 is the best source of historic data you can find. Analysing the differences between the weather station and ERA5 data would at least give you some indication of how reliable the ERA5 data might be for another location where you don't have a weather station."
+Homebrewing,ff6zw21,t1_ff6tm0b,1579638316.0,Yeah I can imagine that - the ratios on that byo recipe are for a lot of potato and to be fair you do need a lot if you are going to get a sizeable proportion of your fermentables from the potatoes. My mash was already pretty gloopy at 1:1 potato:barley so using more would be tricky. I didn't get the point of draining and mashing the potatoes and then having to boil more water which is why I blitzed it and went straight onto mashing. I did have loads of trub (5l in 20l) after a day but it has slowly settled out. Maybe I've stumbled on the secret to cloudy neipa though...
+Homebrewing,ff6kr9b,t1_ff61hjj,1579629299.0,Disappointing how? Was it related to the potatoes or something else? Hope to hear more either here or in a new post!
+Homebrewing,ff5uia0,t3_dg1fx6,1579610702.0,"Did you give this a go in the end? I've got a batch in the fermenter right now - I boiled 3kg of potatoes in 5l of water, blitzed it all up and increased to 10l, and added 3kg of Golden Promise. Mashed at 68C for 1.5 hrs. Was a bit sticky but after a couple of sparges I collected normal quantity of wort. Smells more like beer than potatoes at the moment. Will keep you updated!"
+CasualUK,ff5jvmw,t1_ff2s4dh,1579596342.0,"From what I've read, you need a lot more toilet paper if you consume this gruel!"
+spacex,fexv488,t1_fexuvy2,1579437040.0,It was delayed due to winds at the recovery site preventing them from picking up the capsule afterwards.
+AskProgramming,fegmtck,t3_ep1mve,1579097496.0,"This should be roughly what you need. You will need to work out what you want in the ""do stuff"" bit, depending on what you are trying to extract from the files. This will only work well if your excel files are just a big table of data i.e. not lots of seperate tables in the same sheet. If the excel sheets are messy then you can use [openpyxl](https://openpyxl.readthedocs.io/en/stable/) to read the files instead, but it will take more work.
+
+`import glob`
+
+`import pandas as pd`
+
+`from pandas import ExcelWriter`
+
+`files = glob.glob('*.xlsx') #make a list of all excel files in the directory`
+
+`out = []`
+
+`for i in files: #iterate through the list`
+
+`day = pd.read_excel(i) # read a single excel file`
+
+`#do stuff`
+
+`out.append((a,b,c)) # store results from each file`
+
+`pd.DataFrame(data=out) #put all the results in a dataframe`
+
+`pd.columns = ['a','b','c'] #names columns`
+
+`writer = ExcelWriter(""output.xlsx"") #creates output file`
+
+`out.to_excel(writer,'All crops') #send output`
+
+`writer.save() #save`"
+collapse,feglubz,t3_ep0yi2,1579096729.0,"It's not gone, [just moved to Saudi Arabia](https://www.thenational.ae/world/gcc/snow-turns-parts-of-saudi-arabia-into-a-winter-wonderland-1.963796)  
+
+
+Edit: today in the UK I saw a bumblebee"
+collapse,fealc87,t1_fe8r4jd,1578950046.0,">The problem with monoculture is that it inherently lacks genetic diversity
+
+This isn't really the case. Monoculture just means growing one species of plant in an area, rather than a mix, allowing them to be grown optimally and harvested mechanically.  Admittedly I'm not sure about oranges, but the problem comes when crops have low genetic diversity and therefore pathogens can overcome their resistance and spread rapidly. There's no difference in this respect between a crop grown in monoculture or not. On a landscape scale, you can have lots of monocultures but if they are different varieties that are genetically diverse then they are relatively disease resistant. If we could use GM resistance freely, then you could grow crops that were essentially genetically identical but have different resistance genes which would then prevent the spread of disease."
+wikipedia,fdhe20k,t1_fdhb782,1578420700.0,See https://twitter.com/marc_rr/status/1047569328021954561 there was a google doc somewhere too but can't find it yet. To summarise the twitter: 3/11 women didn't have articles before awards and for men it was 18/91. Fisher exact test: p = 0.4049 = Not significant difference.
+wikipedia,fdgreg1,t1_fdehjzn,1578406364.0,">Yes, ""notability"" is based on reports by multiple independent news agencies (essentially)
+
+In the case of academics that's not actually true. [Academics have their own special criteria](https://en.wikipedia.org/wiki/Wikipedia:Notability_(academics)) and articles can be created (and not deleted) even when there is no independent news coverage."
+wikipedia,fdgr6p7,t1_fdefgz8,1578406200.0,">The Nobel Prize thing seems particularly out of line
+
+Myself and other editors looked into this at the time and female nobel laureates were no less likely to not have a Wikipedia article when they got the award than male nobel laureates. Can try to find the analysis if anyone is interested."
+learnpython,fdgpb4x,t3_el9h0p,1578404712.0,"Cool idea! It looks at the moment though as if there is nothing to prevent non-pdf files being selected by the user, but tkinter lets you do this using:
+
+     filelocation = askopenfilename(filetypes=[('Pdf files', '*.pdf')])"
+sciences,fddovlo,t1_fddmlth,1578319917.0,"This is the crucial question, but considering the company are still looking for funding, it's unlikely that there is any useful data on this. Even planting saplings, I imagine survival to maturity is pretty low, so just dropping seeds is going to have a much higher mortality rate.
+
+Edit: looking at [their website,](https://flashforest.ca/) the first time they dropped the seeds from the drone was in 2019, so obviously no data on survival rates."
+unitedkingdom,fcx3wxt,t1_fcwyv1p,1578050129.0,"Supercomputers are for forecasting, not calculating averages of observations."
+unitedkingdom,falqxat,t1_falpp7q,1576188959.0,This is really the only viable option. If they were already independent I'd be moving tomorrow.

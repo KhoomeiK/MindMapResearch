@@ -1,0 +1,171 @@
+subreddit,self ID,parent ID,time,text
+OurPresident,ffhz27i,t3_eti7ew,1579959890.0,Look out for Trumps newest sidekick! Elizabeth Warren!
+instantkarma,ffhypjy,t3_etg5q8,1579959529.0,I’m about to watch it bur........
+facepalm,ffhye63,t3_etopsu,1579959195.0,r/atetheonion
+Machinists,ffhxw9o,t1_ffhgvms,1579958656.0,"Continuing here...
+
+The processes all have noted and programs linked to them. The program page has tools which all have a tool inventory system that tracks the tooling inventory for the tool crib. When tools need to be ordered, you click a button, say the quantity, and it notifies the ordering person. I’d like to have the system automatically check the tool inventory based on orders which is a simple script I’ll add.
+
+The inprocess inspection and FAI create PDFs and save the files to your order folder.
+
+The entire database actually structures the network drive while using it. It’ll create folders and place documents in correct areas as you use it.
+
+The orders Gantt charts uses excel to keep track of machine schedules. Linking the access table to excel allows for a reasonable scheduling system as it’s harder just in access.
+
+CARs, CIs, and ECRs are done in the system and will flag production through the part form.
+
+Signing into a job is done on a PC, so I’m not really using tablets there. I have a plan to us DPRNT on the CNC to print the current program onto a shared folder and then fetching with a VB script to automatically sign into jobs. 
+
+Measuring equipment, customer supplied material, and process records are all in the same system. 
+
+The program page is linked to tools. My plan is to link this to MasterCAM so you’ll be able to select tools once while programming and you’re good to go. 
+
+There’s a Pareto system built into the database when reporting errors. Basically, you can report how many parts you’ve made and then you need to report errors as well. There is a Pareto system where you select reason codes and write a story or add a picture. This is also linked to tools and Part families  in the event that you are having a unique tooling issue.
+
+I think I covered the basics..."
+Machinists,ffhxcom,t1_ffhgvms,1579958032.0,"I’ll try again.
+
+The reason I create this system was to help companies that want to certify their quality management system do their tasks more quickly.
+
+The system is really meant to consolidate managerial tasks. I’m not aiming for shops larger than 10 people but I’m sure it would work for larger shops. There are thousands of machine shops that have 10 or less people working for them and probably will never grow. 
+
+I based the system off of the work I did to get certified for ISO9001:2018. My QMS was unique to the shop and is not a solution for everyone because as everyone should understand QMSs are not general applications but need to be unique to their shops.
+
+The system starts with a quote estimator. It’s a customizable quoting tool. It requires a part number, revision, and customer. This tool then links to a quoting tool that creates a quote for the customer. It creates the quote into a PDF and sends you an email with the file using an email account that every customer makes for themselves. It’s not necessary to use the email but it was easier for me. 
+
+When the customer sends a PO, you can select the estimates you made in the quote to create the order in your system. The PO form can be placed in a scanner and you click a button on the database, it’ll scan your file and place it in a unique folder.
+
+Since you created the estimate in the quoting form, you can use the data you input to create a part number in your database with all the operations, programs, quality FAI, process inspection, manufacturing orders, etc."
+Machinists,ffhwa8k,t1_ffhgvms,1579956777.0,"Wow, I wrote you a 5 page response and my phone crashed sorry!!
+
+So I use a backend database on the network that works well. I use a lot of Refresh Requery to make sure things go the right direction."
+AskEngineers,ffgt9hf,t1_ffgsx0j,1579914484.0,"https://www.amazon.com/Wright-Brothers-David-McCullough/dp/1476728755
+
+This list could be good as welll
+
+
+https://www.google.com/amp/s/www.washingtonpost.com/technology/2019/10/23/great-books-about-space-race/%3foutputType=amp"
+Machinists,ffgt098,t3_etivv8,1579914298.0,"I actually had a similar experience a couple years ago. I’ve made a huge ACCESS database that my company uses now that functions for machine shops and also functions as a quick books system. I’m working on YouTube channel for it and will release it open source pretty soon. It’s always interesting to see different MES solutions for sure, hope this works out for you"
+AskEngineers,ffgsm29,t3_etjj7k,1579914005.0,Are you interested in equations or stories?
+AskEngineers,ffgs38f,t3_etc5ca,1579913628.0,"So my experience meeting people in big companies has been, “Yeah, I tried a startup for 7 years and decided to come here. I was promoted because I learned so much being hands on at the startup blah blah blah.” The perks of a startup are that a lot of times, you’re not working through the red tape of someone else’s design. You have a little more freedom to maneuver. The downside, you a lot of times are redesigning the wheel. You find that you need to spend a lot of time developing systems that exist. Then you realize the importance of those systems for larger companies. I always tell people, they’re going to learn where ever they go. You might learn how to do things right or you might learn how not to do things. It’s really hard to say what’s right and of course you’re making the decision for yourself"
+ArduinoProjects,ffgrfl6,t3_et8nye,1579913155.0,"So in the CNC manufacturing space, there are a lot of machines that require .txt files to run. These files are transferred to the machines. A lot of people transfer using a USB. You could program your Arduino to hook up to wifi and possibly aid in the file transfer by working as a wifi connected flash drive possibly."
+AskEngineers,ffgquyg,t3_etfy8v,1579912742.0,"After 5 years working experience and a bachelors, I’m still working on it"
+CNC,ffgl4hq,t3_etcl0m,1579908745.0,"Ok, some important places to start are understanding the fundamental equations and relationships between chip load and tool diameter and sfm.
+
+RPM = SFM * 3.82 / Diameter
+
+Feed = RPM * Amount of Flute * Chip Load
+
+Depth of cut changes based on the amount of radial cut. Most tool guides have suggestions and HarveyTool has great descriptions of this stuff.
+
+I generally tap slow like 500 RPM on a 8-32 on 6061 and do a lot of peck tapping for steel. On a Haas peck tapping is funny but I can supply you an example if you’d like.
+
+Know the difference between carbide, colbalt and HSS. This is key to knowing when to slow down and when to speed up.
+
+Get your SFM suggestions from the tool supplier and make sure tool stick outs are appropriate to what you’re doing. Longer stickout, slower RPM and depth of cut. 
+
+Please ask questions if you have them. Please also watch some YouTube videos about tools and how they cut. Tool suppliers usually have videos online"
+EngineeringStudents,ffgjkjy,t3_eteg9p,1579907713.0,"I had some problems getting through school but I eventually got through. You will too! You got this, keep your head up! Everyone in my engineering program knew I had problems and it was totally fine. They understood I couldn’t handle the stress levels because I’d get manic, it was good to have a team. You’ve got a team and you will make it through this!"
+politics,ffex0cn,t1_ffev8j9,1579868947.0,"https://www.thebalance.com/national-debt-under-obama-3306293
+
+Brief overview, but surely there are better sources. My point is that clickbait headlines aren’t going to win 2020"
+unpopularopinion,fferjon,t3_et1i5i,1579862012.0,"If you get angry at some ma’am or sir when they get the wrong sex, fuck you, we’re just trying to be respectful"
+politics,ffer8gs,t1_ffe9fdu,1579861540.0,"Not really, his spending just happened to fall after the recession."
+PublicFreakout,ffer731,t3_eszeh7,1579861486.0,"This, I’m going to politely intervene in this situation” video buzz is really annoying. I really don’t think approaching people this way helps them become better citizens"
+coolguides,ffdz73p,t3_esxk8v,1579832593.0,The last 5 times I ate out I asked for Medium Well. Every time I’ve gotten Rare. I just ask for Well Done and avoid the issues
+AskReddit,ffdxp7n,t3_est2b4,1579831516.0,Wasps
+politics,ffdx0p6,t1_ffdcc87,1579831030.0,"Yeah, but Bernie started the wave"
+politics,ffdt8qv,t1_ffc5ez5,1579828348.0,Obama also increased the deficit by around 6.7 trillion over 8 years
+Libertarian,ffdk7vi,t1_ffck310,1579822632.0,"I’m not expert here, but I imagine there only being two feasible ways another country will collect on the debt. One is waging war and the other is by putting together an international trade alliance that leaves the US dry and removes the massive amount of work we get from foreign countries. The day the US starts paying for international work at an equal rate as US work, we’re going to be FUCKED"
+nextfuckinglevel,ffdj4ji,t1_ffd0j40,1579821960.0,Or when you need to kick your buddy up on the second balcony in the balls
+EngineeringStudents,ffdbf68,t3_esufum,1579817264.0,"If you’re in it for the money, Sales Engineers make some of the best money in the trade"
+AskReddit,ffcteej,t1_ffbh2rs,1579806879.0,"My friend got addicted to opioids, fucking worst thing ever. I moved closer to him and I’d invite him to program with me in coffee shops. He came and we coded. I don’t know if he’s off opioids but he said he got a job in Denver as a Technical Sales Engineer. He really bounced back and I’m happy for him"
+AskReddit,ffcskdi,t1_ffbvgyb,1579806393.0,"I was diagnosed bipolar in 2010. When I have episodes sometimes my memory stops working temporarily. Absolutely terrifying. I once was in a room and took my shoes off, 15 seconds later I had no idea where they were and people were asking me to put them on. I was horrified."
+cringe,ffbst9d,t3_esi2zi,1579781432.0,One of these girls definitely dropped out of nursing school and works for a MLM
+youseeingthisshit,ffboslr,t3_eskqit,1579776193.0,Getting a girlfriend in 2020 requires becoming a photographer...
+AskReddit,ffaw2iu,t1_ffavv78,1579745824.0,Sounds like a good idea
+AskReddit,ffavt6u,t1_ffavqw8,1579745654.0,"Ah ok, so your phone will be taken or stop working and you’ll call it quits?"
+AskReddit,ffavfm4,t1_ffavcpa,1579745406.0,"Fascinating, any reason?"
+worldnews,ffauutn,t1_ff9x4d0,1579745022.0,Literally the plot to the Mummy
+cringe,ffaukuc,t1_ffabl88,1579744836.0,"Best part about them is none of them understand anything about political theory or the things they are voting for. They all think conservatives all work together to make the world a better place and that conservatives take care of one another and will look out for one another. The problem is that politics really isn’t about who’s looking out for who, it’s about ensuring that we make rules that keep people from getting taken advantage of based on what is fair within a society. The idea that your political party is a group/friend thing is funny because in reality the people who are going to fuck you over most are your close friends and you’ll wish you understood policy and law better when that happens."
+iamatotalpieceofshit,ffatqqc,t1_ffarhq3,1579744284.0,"Easy fix, stop creating buildings for those convicted of first degree murder with confession or completely convincing evidence, throw them in a large fenced in area without any food resources and supply a gallon of water for all to share daily. Let them develop their own society."
+Economics,ffasp6f,t3_esdaeo,1579743595.0,"r/wallstreetbets time to buy Venezuela. Easy cash, easy water"
+Whatcouldgowrong,ffarg41,t3_esfx0s,1579742758.0,Third degree stupid?
+SandersForPresident,ffar4th,t3_esatd2,1579742544.0,I’m convinced Bernie has been winning by a mile the entire time and the polls are not accurate
+oddlyspecific,ffai24u,t1_ffabe26,1579736229.0,"I grew up with this in PA too. I’ve only ever hunted rabbit, once, missed, woohoo... but yeah, definitely grew up with the first day off hunting season"
+witcher,ff8sjkt,t3_es8pi6,1579694423.0,Rocket League?
+RoastMe,ff8qrwq,t3_erxla5,1579692229.0,"Things to never share with Reddit...
+
+1. You’re a Female
+2. You’re a virgin
+3. You’re face
+
+Lucky for you, no ones going to flinch over what you’ve shown us"
+trashy,ff8qlui,t1_ff6ye00,1579692004.0,r/legaladvice
+trashy,ff8qjzi,t3_es06zv,1579691932.0,Time to get lawyers involved
+worldnews,ff8q7r7,t1_ff81tyl,1579691457.0,What’s convenient for you is hardly convenient for everybody else...
+CNC,ff8q08w,t1_ff8ksta,1579691159.0,"It makes sense that there are not a lot of ideal candidates because most companies just call their machine dealer when the machines need calibrated and the machinists aren’t really handling those things themselves. From 5 years in the industry, I’ve never seen a machinist disassemble and realign a machine, take off a turret, or remove a spindle. We had a guy who worked for himself do repairs $100 per hour. He had 30 years of experience fixing CNC mills and lathes and was awesome."
+AskEngineers,ff7gsac,t3_es220h,1579649196.0,Understand all the document and quality control standards.
+CNC,ff7gmjl,t3_es1ss1,1579649092.0,"I’ve heard of companies straight up hiring people with little experience and throwing them to the wolves. I don’t really know a lot about the field, just thought it was funny when my repair guy showed up and said he had a couple weeks of training and had to figure it out"
+politics,ff7fuxq,t1_ff7ev1g,1579648590.0,"I understand completely, but I’d rather 4 years of expected craziness over 4 years of false promises"
+WatchPeopleDieInside,ff79lje,t3_eru2yh,1579643940.0,"The first time my best friend got behind the wheel, he panicked when he pressed the gas and drove his moms new Pilot over a 30 foot embankment. The whole story is my brother was with him and long boarding down a hill. My brother said my friend could drive down the hill to pick him up after my brother skateboarded down. My friend was 15 and hadn’t driven yet, but my brother thought he could do it. My friends family don’t like my brother anymore."
+worldnews,ff792fe,t3_erunbv,1579643596.0,This is coming from a person who believes windmills cause more damage to animals than fossil fuels and trash
+politics,ff78wpf,t1_ff6ljhg,1579643443.0,It’s interesting how I’m not voting for anyone other than Bernie
+90DayFiance,ff5sp8i,t3_ermdja,1579608783.0,This guy is toxic
+worldnews,ff5rt60,t3_erkupg,1579607770.0,Do you know how much water goes into Google searches per year? Just Google searches
+iamverysmart,ff5rhei,t3_eri6yb,1579607379.0,Just another day in the ward
+suicidebywords,ff5re79,t1_ff59p79,1579607274.0,Jim Jones would disagree
+WinStupidPrizes,ff5r15q,t1_ff5ajzg,1579606826.0,I wish I had screw my atv stupidity
+nevertellmetheodds,ff5p8pj,t3_ern3ce,1579604391.0,"Dad: Son, would you come golfing with me
+Son: Dad I work at the fucking golf course, I’ll be mowing the grass, I can’t afford clubs because the economy is rigged but I’ll be there... 
+
+I went too far sorry"
+watchpeoplesurvive,ff5oa6y,t1_ff54k3r,1579602977.0,"https://m.youtube.com/watch?v=SbdF5AZmINc
+
+This is the towing video, pretty cool"
+worldnews,ff4wuxb,t3_er5sc8,1579574369.0,Why do people work for Billionaires?
+politics,ff4wm6j,t1_ff3ttvu,1579574201.0,"Sorry, but your being white doesn’t really affect your ability to speak for another human"
+politics,ff4wiwk,t1_ff3w8g9,1579574139.0,"Quit drooling, you idiot"
+news,ff4nl9y,t1_ff3vb3h,1579567972.0,And this is why the news stations all want Trump to stay in office
+watchpeoplesurvive,ff4naw4,t1_ff4lytw,1579567768.0,That’s a cool video
+AskEngineers,ff4ldev,t1_ff4l78p,1579566420.0,"Nice one, I’ve seen this before. According to our quality requirements, another floor machinist can inspect the first article for another guy. This does help because quality lags"
+AskEngineers,ff4i1gw,t1_ff4f13o,1579564110.0,This makes sense
+watchpeoplesurvive,ff4h68d,t1_ff4h40j,1579563508.0,Thanks for the clarification!
+AskEngineers,ff4e6a6,t1_ff4dsco,1579561482.0,"That’s interesting. I worked for a company that didn’t created an organized data structure for their part development. The owner had actually lost most of his CAD files and we needed to operate and create parts from CNC programs, it was a mess. I can definitely see how stressful that could be"
+watchpeoplesurvive,ff49p9a,t1_ff49nqz,1579558599.0,Like Chernobyl
+watchpeoplesurvive,ff49jff,t1_ff3k56k,1579558498.0,"When towing, this is more likely if the center of mass of the object being towed is further away from the hitch"
+watchpeoplesurvive,ff49ejt,t1_ff3jmr2,1579558412.0,Have you seen those Russian driver reaction videos when they are crashing?
+Economics,ff48ugc,t3_erdbr3,1579558065.0,"I work hard because I enjoy working, but I hate working more than 40 hours when someone else demands it. I work over 40 on my own, but if my boss tells me I have to do it, whatever I’m out.
+
+Also, our world is becoming more and more automated. Think about how fast we are processing information today to 50 years ago. Think about the fact that you can straight up schedule something with someone 400 miles away and plan very complex events with ease. Why are we working more today? Why are more hours necessary? What’s the reasoning behind this? Are our systems requiring more input than output? Are our complex systems actually inefficient? Is the quality of life better?"
+worldnews,ff3z1vw,t1_ff3yv6c,1579551974.0,Way better than mine
+worldnews,ff3y3uo,t1_ff3cfbb,1579551381.0,"Grandad tells grand kid, “I got here by working hard.” Grandkid, “Sounds good, I’ll pass it along.”"
+AskEngineers,ff3is8q,t3_erfx9l,1579541932.0,It's seen in a lot of manufacturing scheduling decisions. The basic idea is that every group of tasks people perform should amount to same same amount of time and throughput. You want the people in step one to produce the same amount as the people in step 10 to avoid downtime and an over abundance of material sitting between operations. There's a term for your specific question and it's something like Process Flow versus Step processes... I can't quite remember. The idea is whether a job is done all at once or one step at a time. You can have 5 people doing something in different stages on an assembly line or 1 person doing 5 stages. This is definitely something manufacturing process engineers thinik about
+Machinists,ff3d1mi,t3_erdkly,1579538701.0,I think people are masters to their shop or a specific kind of part. There are some guys who only do 2500 lb plus parts and there are guys that only run Swiss machines. It’s hard to compare them. I’ve seen guys really skilled on a manual machine but can’t touch a CNC. It’s hard to compare machinists because of this
+wallstreetbets,ff2terl,t3_er29nh,1579523399.0,GE nuf said
+nextfuckinglevel,ff2t8o3,t3_er7rdu,1579523191.0,"\*Ring ring\* ""Hello...""
+
+""It's Etsy."""
+RocketLeague,ff2spd0,t1_ff1t1v3,1579522504.0,"Bumps are one of the most important parts of the game that people avoid. If you don't Demo, you don't gain rank"
+RocketLeague,ff2sjmc,t3_er77rt,1579522298.0,"Nice, I just passed 257 but started playing a couple months ago"
+RocketLeague,ff2s0oj,t3_er694v,1579521595.0,The other day I was thinking about how Rocket League is funny because you can't have anything sexual in it like Halo. I take it all back.
+RocketLeague,ff2rxbt,t1_ff0h0ms,1579521468.0,"haha Yeah, have you seen all the MAGA clan tags?"
+MovieDetails,ff2rr4k,t3_er9rgm,1579521229.0,"I use a keyboard like this daily. They don't put the start buttons on the keyboard anymore. Usually, they are single use buttons. The last time I used a machine with a start button on the keyboard like this, one of the guys in the shop almost lost a hand because the button jammed and teh machine started when he was reaching inside it."
+Machinists,ff0eqil,t1_fezz8r8,1579468207.0,New amusement park ride
+Machinists,ff0enfl,t1_fezsen3,1579468178.0,In his pocket
+politics,ff01q0g,t1_fezg719,1579464257.0,More like miners
+holdmyfries,fezolp5,t3_eqxedh,1579459721.0,People in Louisiana really don’t think of Freedom the same way I do
+facepalm,fezmtpj,t1_fezmi3p,1579459120.0,Do you know what makes your comment interesting?
+2healthbars,fezld86,t1_feygibo,1579458588.0,"There are, you can buy them on Amazon. I bought one of those attachments instead of the joycontrollers but there are definitely some nice ones online"
+facepalm,fezjou6,t3_eqx8bv,1579458039.0,This is one of those shit jokes where the people say they can identify as whatever they want
+insanepeoplefacebook,fezg1q0,t1_fezd17y,1579456943.0,It really is true
+insanepeoplefacebook,fez8jud,t3_eqx4o4,1579454825.0,The only reason we are not currently using a fully renewable energy power grid today is because of people who have investments in oil and coal. It’s the only reason. It’s completely possible and has been for a long time. The only reason is because certain people want the money
+ApplyingToCollege,fez74xp,t3_eqriom,1579454434.0,"I’ll look for the headlines: Boy Interviewed for Yale, but Ended up in Prison"
+JusticeServed,fez6b9t,t3_eqtk3f,1579454235.0,Trippin’ on the Holy Spirit
+FragileWhiteRedditor,fez4913,t1_fevz9an,1579453684.0,"Honestly, it seems so woke"
+FragileWhiteRedditor,fez45oz,t3_eqqo5z,1579453654.0,Amazing how accurate the sub is these days
+iamatotalpieceofshit,fez3gy7,t3_eqr34i,1579453536.0,The bicyclist seems a little entitled here
+TechNewsToday,feyu41b,t1_feymwb3,1579450536.0,"Man, I love when people hire people to post on Reddit to discredit companies"
+AskReddit,fey4izv,t1_few6wox,1579440769.0,"Awesome, this is what I’d like to do"
+AskReddit,fey2cds,t3_eqouu3,1579439792.0,"Grew up skiing and there’s this thing you see a lot where kids fly down the slopes without turning, arms out, screaming, skis in a wedge (pizza). I call it Power Wedging"
+AskReddit,fevxd70,t1_fevvpp4,1579402691.0,Are you under 16?

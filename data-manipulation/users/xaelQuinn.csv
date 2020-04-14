@@ -1,0 +1,260 @@
+subreddit,self ID,parent ID,time,text
+depression,ff5lcfv,t1_ff4yw81,1579598486.0,But ur baby need u
+depression,ff59106,t1_ff4ynd6,1579583857.0,"This is true we will survive and suffer together as best friends. Like when you breakdown I'll comfort you, if I breakdown you'll comfort me or we'll just both die"
+depression,ff4yjvy,t1_ff4cq99,1579575543.0,"I feel you. It really sucks to feel like a trash, like a literal trash that people can easily throw away after using"
+depression,ff4ygz7,t1_ff4bsdp,1579575487.0,This sucks because they didn't even have the time to understand you.
+depression,ff4yfcb,t1_ff3wsj6,1579575455.0,You're lucky that atleast there is this one person who cares about you.
+tipofmytongue,fes0i50,t1_fes03g1,1579360193.0,Solved!
+tipofmytongue,fes05s5,t1_ferzxst,1579360123.0,Is there a movie version of it? Cause from what I remember its a movie not a series
+tipofmytongue,ferztds,t3_eqhf8g,1579360003.0,Send help. And thank you in advance
+learnprogramming,fek3adw,t3_epl6dl,1579191700.0,"So far this is all I got. We are using Eclipse photon
+
+&#x200B;
+
+package \_8\_Week8ObjectArrayExercise;
+
+&#x200B;
+
+public class \_1\_ObjectArray {
+
+&#x200B;
+
+	private byte documentControlNum;
+
+	private String propertyOwner;
+
+	private int propertyNumber;
+
+	private float ratePerMonth;
+
+	private double tax;
+
+	
+
+	//Constructor
+
+	public \_1\_ObjectArray(){
+
+		this.documentControlNum = documentControlNum;
+
+		this.propertyOwner = propertyOwner;
+
+		this.propertyNumber = propertyNumber;
+
+		this.ratePerMonth = ratePerMonth;
+
+	}
+
+	
+
+	public \_1\_ObjectArray(byte documentControlNum){
+
+		this.documentControlNum = documentControlNum;
+
+	}
+
+	
+
+	public \_1\_ObjectArray(byte documentContolNum, String propertyOwner){
+
+		this.documentControlNum = documentContolNum;
+
+		this.propertyOwner = propertyOwner;
+
+	}
+
+	
+
+	public \_1\_ObjectArray(byte documentContolNum, String propertyOwner, int propertyNumber){
+
+		this.documentControlNum = documentContolNum;
+
+		this.propertyOwner = propertyOwner;
+
+		this.propertyNumber = propertyNumber;
+
+	}
+
+	
+
+	public \_1\_ObjectArray(byte documentContolNum, String propertyOwner, int propertyNumber, float ratePerMonth){
+
+		this.documentControlNum = documentContolNum;
+
+		this.propertyOwner = propertyOwner;
+
+		this.propertyNumber = propertyNumber;
+
+		this.ratePerMonth = ratePerMonth;
+
+	}
+
+	
+
+		
+
+	public byte getDocumentControlNum() {
+
+		return documentControlNum;
+
+	}
+
+&#x200B;
+
+	public void setDocumentControlNum(byte documentControlNum) {
+
+		this.documentControlNum = documentControlNum;
+
+	}
+
+&#x200B;
+
+	public String getPropertyOwner() {
+
+		return propertyOwner;
+
+	}
+
+&#x200B;
+
+	public void setPropertyOwner(String propertyOwner) {
+
+		this.propertyOwner = propertyOwner;
+
+	}
+
+&#x200B;
+
+	public int getPropertyNumber() {
+
+		return propertyNumber;
+
+	}
+
+&#x200B;
+
+	public void setPropertyNumber(int propertyNumber) {
+
+		this.propertyNumber = propertyNumber;
+
+	}
+
+&#x200B;
+
+	public float getRatePerMonth() {
+
+		return ratePerMonth;
+
+	}
+
+&#x200B;
+
+	public void setRatePerMonth(float ratePerMonth) {
+
+		this.ratePerMonth = ratePerMonth;
+
+	}
+
+&#x200B;
+
+	public double getTax() {
+
+		return tax;
+
+	}
+
+&#x200B;
+
+	public void setTax(double tax) {
+
+		[this.tax](https://this.tax) = tax;
+
+	}
+
+}
+
+&#x200B;
+
+&#x200B;
+
+\-----------------------------------------------------------------------------------------
+
+&#x200B;
+
+package \_8\_Week8ObjectArrayExercise;
+
+&#x200B;
+
+import javax.swing.JOptionPane;
+
+&#x200B;
+
+public class \_1\_ObjectArrayRunner {
+
+&#x200B;
+
+	public static void main(String\[\] args) {
+
+&#x200B;
+
+		\_1\_ObjectArrayRunner per1 = new \_1\_ObjectArrayRunner();
+
+		per1.getClass();
+
+		
+
+		
+
+		/\*(Double.parseDouble(JOptionPane.showInputDialog(""Enter Rate Per Month: "")));
+
+
+
+		int \[\] array = new int per1.getTax();
+
+			
+
+		
+
+		
+
+		
+
+(Byte.parseByte(JOptionPane.showInputDialog(""Enter Document Control Number: ""))),
+
+(JOptionPane.showInputDialog(""Enter Property Owner: "")),
+
+(Integer.parseInt(JOptionPane.showInputDialog(""Enter Property NUmber: ""))), 
+
+(Float.parseFloat(JOptionPane.showInputDialog(""Enter Rate Per Month: ""))));
+
+		per1.setTax\*/
+
+		
+
+&#x200B;
+
+	}
+
+}
+
+&#x200B;
+
+&#x200B;
+
+&#x200B;
+
+I don't really know what to do"
+AskReddit,fcktic3,t1_fcksnqw,1577732853.0,Am not just gonna sell wallpapers. Its just an example. I'm gonna sell some of my photographs that are like stock photos. Know any sites?
+AskReddit,fcksdg4,t1_fcksbvo,1577732155.0,I'm looking for a site where I can sell
+itookapicture,fckqu09,t3_ehlu2s,1577731207.0,Is this the MOA Eye?
+depression,fcdpwjo,t3_egz4nv,1577612398.0,I don't hate them I just feel awkward when someone really compliment me. Like I can't tell if its a lie or an act of pity
+depression,fcdhwbl,t3_egzqgq,1577610203.0,Relapsing is the one reminder to us that we can never escape our demons even if we try so hard. I myself oath not to cut again but the moment I've been triggered I snap and relapses and now I'm enjoying it again. I am not being negative here but relapses are normal because healing don't happen in a snap. And we should not force ourself into an oath to stop because the more we restrict ourselves from doing what we want to do every emotions will just compile and suddenly burst and then a lot will happen. Stay strong
+offmychest,fc9kc15,t1_fc9i366,1577553939.0,I am happy for her its just that I felt so unnoticed I'm feeling frustrated cause I am losing my friend thats all
+kpophelp,fc9i4dc,t3_egt0cz,1577553010.0,any lyrics you remember?
+Needafriend,fc8r4ot,t3_egqnwb,1577540490.0,Baka naman kasi nauubasan kagad ng topic? Btw hi
+tipofmytongue,fc6583l,t1_fc6527z,1577472554.0,"Solved!!
+
+Oh my gosh thank you so muchhh I really love this movie I just forgot the tittle. Thank you"
+tipofmytongue,fc64wh5,t3_egf0hb,1577472342.0,Thanks in advance
+offmychest,fc5y7wj,t3_egcwqf,1577468353.0,"We have the same mindset I also used to post my nudes online not just sending them to one person, but I posted them online for a lot to see and for a lot to compliment me because my self esteem is very low and I feel so ugly, but everytime they compliment my body I felt beautiful"
+AskReddit,f6lzj5w,t3_drxin2,1572964218.0,Being all over joyful. And pretending I'm okay despite the hatefulness I can feel

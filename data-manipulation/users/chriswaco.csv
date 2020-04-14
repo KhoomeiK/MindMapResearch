@@ -1,0 +1,227 @@
+subreddit,self ID,parent ID,time,text
+explainlikeimfive,ffhhgio,t3_etm9we,1579935413.0,"A computer's brain, the central processing unit (CPU), is a machine that can perform a limited number of operations. Collectively these operations are called ""machine code"" and include things like reading from and writing to memory (RAM), adding or subtracting numbers, comparing numbers to see if they're equal, and running instructions from a particular place in memory.
+
+For example, a simple CPU might read instructions from memory and map instruction number 1 to the add operation, number 2 to subtraction, number 3 to comparing two numbers, and number 4 to branch / run future instructions based on the results of a comparison. Since raw numbers don't mean very much to humans, we assign names to the operations to make them easier to read. This is called ""assembly code"" and typically you'll see operations like MOV, ADD, SUB, BRA. 
+
+Writing programs in assembly code is still pretty tedious, so some smart people came up with newer languages that are more readable to humans along with a special program called a compiler to convert the human-readable text into machine code. That way programmers can use familiar mathematical notation like `let x = 10` or `let y = x + z` rather than several lines of assembly code.
+
+It's important to note that the computer doesn't really understand anything like a sentient being. It simply performs whatever operations are fed into it very quickly. Everything builds from that premise. 
+
+One of my favorite professors walked into my Digital Logic class the first day carrying a 5 pound metal object called a ""flip flop"", an early form of computer storage. He slammed it on the desk to get our attention. ""This is a flip flop"", he said. ""It stores one bit of information."" He then took a tiny CPU out of his breast pocket. ""This is a Motorola 68000,"" he continued. ""It contains 30,000 flip flops. We're going to learn how it works."" And we did."
+swift,ffhcd6b,t3_etm3rd,1579929723.0,"You have a few options. 
+
+1. The easiest is to make a second network call when the first completes. This is called ""chaining"". Usually the connection will remain open so it's not actually creating a new TCP connection for every call.
+2. You could use WebSockets, but your server would have to support it. 
+3. It is possible for a web request to continue to return data indefinitely. You would use URLSession's `didReceiveData` delegate call, but you couldn't use JSON because it doesn't lend itself to being partially parsed. You could, for example, have the server return coordinate pairs followed by linefeeds. Scan the data in `didReceiveData` for linefeeds and parse the numbers by hand.
+
+You should also see if your server supports HTTP 2.0 because it improves the situation where you have to wait for one request to complete before another one receives data."
+Xcode,fffukcr,t1_fffpr5i,1579892114.0,"I don't know. Try xcode-select first. If that doesn't work, try changing the project/target settings to 10.13, although there's a good chance that won't work."
+swift,fffnl3m,t3_et7qn8,1579887810.0,"I'll echo what others have said, but every time we upgraded the last big app I worked on it would go out to 500,000 people at once. It was NERVE WRACKING. 
+
+You never know what's going to happen, so you test and test and test. You have beta users if possible. You look over every line of code that changed since the previous version. You run the app on bad networks, on every physical device you have, check network logs, etc. You test new installs and upgrades, even from very old versions because some people skip intermediary ones. 
+
+Now any time an app gets into an unexpected state we log that to a log server and track it. We check crash logs regularly. The App Store has a slow rollout feature (""Phased Release"") now which would have been great back in the day. 
+
+Software has always been this way. In the old days before the internet we'd finish the software and then burn 10,000 CD-ROMs. If you messed something up, you not only lost tens of thousands of dollars in inventory but you had to figure out how to get a fix to users. Now at least you can fix problems and get an update to all users within a day or two."
+Xcode,ffflngd,t3_etbe7w,1579886635.0,"First thing to try is xcode-select. It depends on where you installed Xcode to, though. For example, you might try:
+
+`sudo xcode-select -switch /Applications/Xcode.app`
+
+However, you may have two different errors. This probably won't solve a system version issue."
+news,ffegwvu,t1_ffe3ud7,1579847551.0,It's easier to skim cash.
+AnnArbor,ffe53mv,t3_et4cz0,1579836927.0,I second Pinball Pete's.
+atheism,ffe3w0l,t1_ffdjokl,1579836022.0,"Went to a Lutheran funeral once. Minister talked about how the ""killers of Christ"" and their ancestors would burn in hell for eternity. I think they know. 
+
+Best part: The deceased's grandkids were half-Jewish."
+FuckImOld,ffe2im5,t3_eslnw0,1579835006.0,"Old enough to have used cassette tapes to load software, but not quite old enough to have used punchcards."
+SwiftUI,ffdfj5m,t1_ffd5rij,1579819807.0,These books are excellent: https://www.bigmountainstudio.com/
+iOSProgramming,ffd2wx3,t3_eswvgj,1579812363.0,"I don't have any particular resources, but my two cents:
+
+I agree with keirmot: Do not over-engineer your apps. As Brian Kernighan said:
+
+>**Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.**
+
+Dependency injection helps. That is, create objects that are not dependent on global state. Pass whatever information the objects need into them. This isn't possible 100% of the time, but in general it's a good way to design code for flexibility, to eliminate spaghetti code, and for testing.
+
+Do not create deep object hierarchies. Object-oriented programming is fine, but try not to create too many levels of classes, each with various method overrides. It makes code hard to follow because it jumps from one file to another and you can't just eyeball the code and figure out what is getting called.
+
+Be judicious with callbacks. A calling B is easy to follow. A calling B calling C is more difficult. A calling B calling C who later calls D who then later calls E is even more difficult. Try to keep your call chains short.
+
+Modularize your code in a way that allows you to replace modules (network, database, business logic) without having to modify code throughout the rest of the app. For example, we have a database object that that uses SQLite files. Rather than sprinkle SQL code throughout the entire app, I confine it to this one class. That allows me to swap the class out with another that writes to plain text files, all by changing only a few lines of code."
+AnnArbor,ffd0w5u,t3_esyhh0,1579811225.0,You should be able to use the kiosk at the SOS office. I haven't done this personally but someone I know did.
+iOSProgramming,ffciyqv,t3_esvqv6,1579800465.0,"Not sure about documentation, but you should watch [What's New in File Management](https://developer.apple.com/videos/play/wwdc2019/719/) from the 2019 WWDC."
+AnnArbor,ffcip38,t3_esw2bp,1579800303.0,"""Please enter a valid 5-digit zip code!"" after I enter 48103."
+apple,ffcdyf5,t1_ffcbim3,1579797395.0,"Except iOS keeps bugging them and at some point users turn it off, perhaps accidentally, because they just want to run the app and not be annoyed."
+swift,ffcdvlu,t1_ffcbojy,1579797344.0,Core Data would work. SQLite would work.
+apple,ffcaplr,t3_esukx8,1579795360.0,"Good for privacy, bad for location specific alerts like weather."
+swift,ffcakrg,t3_esuzjl,1579795274.0,"If you want to store the data for a single run of the app, use a Dictionary. If you want to store it between runs, use something like SQLite, Realm, or Core Data. If it’s only a small amount of data, you can store it as JSON."
+SwiftUI,ffca4gi,t3_esu12r,1579794994.0,[Big Mountain Studio’s SwiftUI books](https://www.bigmountainstudio.com/) are great.
+git,ffc2q9t,t3_esrmfl,1579790071.0,"This may work, but Notes are synced with iCloud so restoring them could fail miserably and even propagate that failure to other devices. It all depends on how the sync works under the hood."
+todayilearned,ffc12k8,t1_ffbyq5v,1579788831.0,In the ~~greatest~~ most corrupt city in the world
+AskReddit,ffc0wpu,t3_est2b4,1579788707.0,Hypergolic rocket propellant separated by a thin membrane.
+iOSProgramming,ffbcphc,t1_ffaeezn,1579759844.0,"I think Swift is wonderful in some ways and a mess in others. I disagree with some design decisions, especially with respect to exception handling and its total lack of decent multithreading support. I think it's becoming almost as complicated as C++ once you get into generics, protocol-oriented programming, Combine, and SwiftUI. We regularly joke about ""the weird error message of the day"". Just this week we posted:
+
+    Referencing initializer 'init(_:content:)' on 'ForEach' requires that 'Dictionary<UUID, Product>.Values' conform to 'RandomAccessCollection'
+
+    Closure containing control flow statement cannot be used with function builder 'ViewBuilder'
+    
+    Cannot invoke initializer for type 'ForEach<_, _, _>' with an argument list of type '([Product], u/escaping (Binding<Product>) -> ItemView)'
+
+Still, it's better than C++ to me, which suffers heavily from its C legacy, speed-at-any-cost design, and cumbersome STL containers. It's better than ObjC in most ways, but worse in a few."
+AnnArbor,ffakfn1,t1_ffai0ca,1579737953.0,"Yep, Old West Side. http://www.annarbor.com/news/historic-district-commission-rules-new-fence-on-ann-arbors-old-west-side-must-come-down/"
+Michigan,ffafwze,t1_ffadqij,1579734812.0,"I don't know who 538 relied on, but they gave Hillary a 99% chance of beating Bernie. I think it was their worst pick of the entire election."
+apple,ffafokm,t1_ffadpe7,1579734654.0,"I am a Dad, but not your Dad."
+AnnArbor,ffaffij,t1_ffa8kxz,1579734479.0,There was a case where someone put a split-rail fence in front of their house. Historic district made them remove it even though there are photos of Ann Arbor with split-rail fences. It seemed pretty arbitrary to pick a later idealized aesthetic over a historically accurate but less idealized one.
+Xcode,ffa6cxj,t3_eshhzv,1579728752.0,You really want a Mac with an SSD and not a hard drive. macOS and Xcode are REALLY slow with hard drives.
+Michigan,ff9ge1i,t1_ff9dqw2,1579712446.0,"It depends on his opponent. If it’s Buttigieg, the low turnout in Detroit could easily tilt the scale to Trump."
+iOSProgramming,ff98q55,t3_esdaqs,1579707436.0,"Any recent MacBook Pro is fine. The 16” is great. Get at least 16GB/256GB or, better yet, 32GB/512GB if you’re also going to be running Android Studio, VMs, etc.    
+    
+I can’t say how long it will take. A lifetime maybe because it’s constantly changing. It depends on which other technologies you decide to use - SwiftUI, Combine, Core Data, SceneKit, etc. I wouldn’t plan on shipping anything original for six months."
+apple,ff97l2m,t3_esbu2k,1579706699.0,I remember watching this and just thinking WTF? It was so weird people were talking about it on tv for days and are still talking about it.
+AnnArbor,ff96afi,t1_ff95dvu,1579705852.0,I don’t know. The historic district makes its own rules which can be arbitrary and political. Even replacing the windows or putting up a fence in the district requires approval.
+Michigan,ff95qap,t3_erzor4,1579705474.0,[Idlewild](https://99wfmk.com/idlewild-michigan-2019/)
+AnnArbor,ff955zh,t1_ff93tgx,1579705094.0,"I think it’s in the historical district, which would make that difficult. https://www.a2gov.org/departments/planning/historic-preservation/Documents/Historic%20District%20Maps/OldFourthWard.pdf"
+iOSProgramming,ff94tnv,t3_esckq8,1579704860.0,"I’m not a VS user, but you can use Terminal to debug iOS apps, at least in the simulator. We did this with gdb years ago. I suspect it’s still working with lldb. 
+     
+https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-terminal-workflow-tutorial.html     
+    
+    
+Wait for app launch using the lldb equivalent of attach and then start the app manually or via xcrun.   
+
+https://stackoverflow.com/questions/10112164/terminal-command-line-debug-of-ios-simulator-apps"
+Michigan,ff92noc,t3_esc2p5,1579703347.0,"Don’t believe polls in Michigan. They’ve been wrong many times, from Levin vs Lousma to Bernie vs Hillary to Clinton vs Trump."
+AnnArbor,ff7tvsr,t3_es4tej,1579658246.0,"It seems like every interesting unique place in Ann Arbor is closing. 
+
+Oh, and I'll lay odds that Zingerman's buys it."
+iOSProgramming,ff69cu1,t3_eruhz4,1579622181.0,There’s no risk at all. The UDID is just a device number. It’s not a secret password or anything.
+Detroit,ff65i1i,t1_ff5ock3,1579619617.0,Found Shoresy’s Reddit account.
+AskReddit,ff5bx6e,t3_erocgb,1579586650.0,Sports
+Xcode,ff5btb2,t3_erqbfn,1579586540.0,"You can download it from [Apple's developer web site](https://developer.apple.com/download), but it won't run without a VM."
+iOSProgramming,ff5bnbm,t1_ff5ag0i,1579586369.0,"It's also highly debuggable, which is nice when a view shows up where it doesn't belong."
+iOSProgramming,ff59r8t,t3_erpv3v,1579584533.0,"Order does matter in SwiftUI. To really understand it, you have to look at how Views and ViewModifiers work. In this case, think of it like a series of changes to a View. Each step produces a new View based on the one just before.
+
+In the top case, you clip it last, so that's the final clip shape. In the lower case, you clip it early, but later add a rectangular background that extends outside the View sent into it.
+
+See [https://www.hackingwithswift.com/books/ios-swiftui/why-modifier-order-matters](https://www.hackingwithswift.com/books/ios-swiftui/why-modifier-order-matters)"
+iOSProgramming,ff5718r,t3_ermk12,1579582077.0,"[Background fetch](https://developer.apple.com/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/updating_your_app_with_background_app_refresh) might be the best way. You can also have the server send your application [silent notifications](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_background_updates_to_your_app) to wake it up, send the data, and then go back to sleep.
+
+If the device is locked, you may not be able to read `UserDefaults` or other files, though. You can mark a file with a ""do not encrypt"" bit for those cases. Something like:
+
+>try data.write(to:fileURL, options:.noFileProtection)"
+SwiftUI,ff4r43n,t1_ff4pdl2,1579570427.0,"Core Data is definitely overkill. The first question is whether it needs to be persistent between runs of the application. If not, just store it in an array of Doubles. If it does need to be persistent, I would use UserDefaults since it's the easiest storage API."
+pics,ff4fjnk,t1_ff4e983,1579562399.0,Not that one. :-)
+pics,ff4d0k0,t1_ff4b7wr,1579560717.0,Just stay away from The Bachelor. :-)
+pics,ff482e8,t1_ff479u4,1579557575.0,"If you like Face Off, watch Blown Away on Netflix. It's the same thing, but for glass blowing."
+iOSProgramming,ff47uwt,t1_ff432yi,1579557445.0,"Before autolayout, we would position views by hand. That is, we'd create a view and set view.frame manually: 
+
+`myView.frame = CGRect( 0, 0, 200, 300 );`
+
+Hardcoding sizes was bad, though, once Apple started shipping phones with different sized screens. And you had to handle portrait vs landscape too, especially on iPads. Autolayout was supposed to completely replace manual layout, but in my opinion created more problems than it solved. 
+
+So instead of setting up constraints, either in code or in the storyboard/xib, we write one routine per viewController to place the views where we want them. We have a few helper functions for centering views, stacking them (similar to UIStackView), pinning them to each other, etc. We call the placement routine whenever we need to, typically from viewWillAppear and viewWillTransitionToSize. 
+
+It creates more code, which some people don't like, but it's more dynamic and flexible than autolayout and you never get those annoying autolayout exceptions or restraint warnings. Plus changes are highly readable in source code control, unlike storyboard constraints."
+pics,ff42mpq,t3_erhgja,1579554196.0,"If she hasn't seen it already, watch [Face Off on SyFy](https://www.syfy.com/faceoff) together. My daughter did some horror makeup as well at that age and loved the show."
+iOSProgramming,ff3v41f,t3_eri1zc,1579549511.0,"You have many choices. Pick whichever you prefer. 
+
+1. Storyboards
+2. Code with autolayout
+3. Code with manual layout
+4. SwiftUI
+
+For shipping apps I prefer #3, but I'm in the minority. For my own personal new stuff, SwiftUI is looking really nice in many ways and I think it will eventually become the norm."
+GreatLakesShipping,ff3f32f,t3_erehav,1579539765.0,Impressive.
+todayilearned,ff2zf6q,t1_ff239iy,1579529476.0,The first medical name for the disease was “Gay Related Immune Deficiency” (GRID). Reagan didn’t just make that up.
+Xcode,ff2yz61,t3_er9t1y,1579529093.0,You can open any file you want in the assistant editor. Easiest way is to option click on the file in the panel on the left.
+iOSProgramming,ff24odb,t1_ff1zyx9,1579493714.0,"Also, the way you call `sleep()` won't work. It puts the thread to sleep but doesn't return to the runloop so you won't get location updates. Call `locManager.startUpdatingLocation` like you are doing but then return from the method to the main runloop and wait for the responses to come in. It may take a few seconds. You may get errors. If you want to timeout after a few seconds, start a timer and if you don't get a location by the time it fires then display an error."
+todayilearned,ff09a6r,t1_ff08o7y,1579466592.0,Yep. Was just chatting with him a few minutes ago.
+AskReddit,ff05nad,t1_ff04wxc,1579465442.0,"I was nearsighted, but it's still hard to believe I could ever read 5pt type unassisted. Once you hit 40 it all goes to hell."
+todayilearned,ff04cod,t1_fezu8k5,1579465069.0,"Author worked at Apple. Got laid off with a lot of other people. Continued coming to work to finish the project. Apple eventually shipped it on millions of Macs. 
+
+[https://www.pacifict.com/Story/](https://www.pacifict.com/Story/)
+
+Fun fact: I'm working on [Graphing Calculator for iOS](https://apps.apple.com/us/app/pacific-tech-graphing-calculator/id1135478998?ls=1) right now. Same codebase goes back 30 years. Just added AR support."
+AnnArbor,fezfv0d,t3_eqzgk8,1579456877.0,"They're fine, except the two lane ones, which are a bit of a mess, especially on State & Ellsworth."
+AskReddit,fez3hqt,t1_fey6v4u,1579453543.0,"Funny you should mention this one. I just cleaned out an old drawer and found my printed contact list from around 2000. Had my family, friends, airlines, eyeglass prescription, etc, in 5pt type on one teeny piece of paper in my wallet."
+uofm,feywhyc,t1_feu6jnr,1579451370.0,"Maybe you need to look up and not enter the road until the car slows down? I realize pedestrians have the right of way, but that won’t matter if you’re dead.  -Dad (Not your Dad, but a Dad)"
+news,feyn730,t1_fey55ty,1579447862.0,"Jews have horns, or so my 4th grade classmates thought. They even showed me some religious book where they got the idea. This was a long time ago, though, and I was probably the first Jew they ever met."
+wallstreetbets,feylhin,t1_feuotz7,1579447187.0,r/unexpectedavatar
+vintagecomputing,feyjuaa,t3_eqv95l,1579446476.0,I started with cassette tapes and my first hard drive was 10MB. I’m still amazed at all of the leaps we’ve made in digital storage in one lifetime.
+iOSProgramming,feyj34z,t3_eqv380,1579446116.0,"GitHub, but be careful because once you rely on a 3rd party library it can become a long-term commitment. If it’s buggy or breaks with an iOS update you may have to fix it."
+funny,fewjj78,t1_fevumbs,1579411904.0,"The snow filled in the potholes, so it's like a bonus."
+science,fewath5,t1_few9tua,1579407689.0,"They did the same thing to me - they sent me a message saying it would auto renew but then sent me another saying I had to re-apply. I called them and they said it would auto renew but then they sent me ANOTHER notice telling me I had to re-apply. Took an hour on the phone to fix it and I wound up with two dental plans. <sigh>
+
+Unfortunately there are only 1 or 2 other ACA plan providers here in Ann Arbor and our doctors and UM don't participate in all of them. It's nuts."
+science,fewa8iw,t1_few5kad,1579407459.0,"Except it's not corporate as such. It's a non-profit university hospital. That makes it even worse in my mind. Of course just because it's organized as a non-profit doesn't mean that a ton of people don't make a ton of money from it, it just means they don't have stockholders or pay taxes."
+science,few3szj,t1_few22rj,1579404947.0,"UM went through this big outsourcing fad 20 or 25 years ago. They claimed it would lower costs, but of course it never did. They claimed it would improve service, but it never did. They then centralized office staff and it got worse yet again. It's one of the reasons why tuition has risen 10x since I was in college."
+science,few2b0p,t1_fevynwq,1579404492.0,"I know, right? Sometimes the cash price is less than my deductible. In what world does that make sense? We had a similar problem with CVS. I asked them how much my medicine is and they said my co-pay was $15. I asked what the cash price for the drug was and they said $11. And then the attendant had to fiddle with the computer for 10 minutes to NOT charge my insurance. Crazy."
+science,few1v0c,t1_few0k12,1579404307.0,Except it wasn't expensive 20 years ago. Everything changed as they expanded. They're building a new $1B adjunct hospital right now and apparently need to pay for it while not reducing the CEO bonuses.
+science,few1kqg,t1_fevf93f,1579404172.0,"No, my wife used to work for UM and we had M-Care. Now we have an individual Blue Cross PPO plan. Most group plans have far lower deductibles, but we don't qualify since I'm self-employed."
+science,few1baa,t1_fevm36p,1579404052.0,"Yes, I went to one 60 miles north of here many years ago because they had a more sophisticated MRI and they were great. Unfortunately I can't tell the difference between machines and procedures and want to be certain I get the right one. There are some issues with the contrast agent too - some places will do it without and others won't. And, of course, none of the outside ones can transmit the results to my doctors easily if they're outside the system. 
+
+What I really want is a health spa that I pay the $4000 to and they do all of the scans and procedures over a weekend while giving me massages and umbrella drinks in between. I can dream, right?"
+science,few0sfx,t1_fevnems,1579403846.0,"Yeah, it may come to that - driving 45 miles for a scan. Not all CT scanners and scans are the same, though, so I need to figure out which ones are appropriate for my condition. And that price probably doesn't include the radiologist's fee. At UM we've started to get 3 or 4 bills for every procedure - one for the hospital, one for pathology dept, one for the pathologist, and one for the doctor. Often months later. It's crazy."
+science,fevzvkm,t1_fevovdl,1579403560.0,"Just because you don't want to believe something doesn't make it untrue. Feel free to look at the fee schedule - CT scans go up to $6000. And we have Blue Cross PPO - the best personal (non-group) insurance in the state we could find. 
+
+http://www.med.umich.edu/pdf/price-transparency/mm-imaging-service-uninsured.pdf"
+science,fevzbel,t1_fevr7lv,1579403370.0,"Sorry, but our insurance is $2000/month for a family of three. There is no better insurance that I've found and I shopped around quite a bit. We're over 50 and that doesn't help. Are you on a group or personal plan? Group plans are completely different here, with deductibles much lower."
+science,fevyq1w,t1_fevxnsx,1579403229.0,"Computer programmer. $2000/month for three of us with a $14,000 family deductible. Blue Cross PPO - the largest insurer in Michigan."
+science,fevd4py,t1_fev3lzt,1579395972.0,The CEO has a medical degree.
+science,fevd34q,t1_fevbcba,1579395953.0,"The ones at UMich have always been medical doctors, I think. Obviously that's not true for other systems."
+science,feuueey,t1_feuss6f,1579390022.0,"My daughter was born by emergency c-section at UM 20 years ago. My wife had complications and remained in the hospital for about 4-5 days while my daughter was in the NIC ICU. We had M-Care insurance, UM's own HMO. Total cost was something like $200 to us. 
+
+A few years later UM sold M-Care to Blue Cross. Prices skyrocketed beyond belief. I'm sure the hospital CEO was proud of himself, but for a profession that strives to ""do no harm"" he failed miserably."
+science,feur1lw,t1_feu8n0g,1579389134.0,"Especially working for UMich, whose hospital system quoted me $4000 for a CT scan a few weeks ago. Should be around $500-800. (And, yes, I have insurance, but a $7500 deductible)"
+AnnArbor,feuiu58,t3_eqnazj,1579386897.0,"Can't you just use Google or Bing street view? ie, [https://binged.it/2ubpL9u](https://binged.it/2ubpL9u) 
+
+As for other landmarks:
+
+>Michigan Theatre  
+>  
+>The Cube  
+>  
+>Michigan Union  
+>  
+>The Diag  
+>  
+>Law Quad  
+>  
+>Nickels Arcade  
+>  
+>The Fleetwood"
+iOSProgramming,fetdyzz,t3_eqincj,1579374396.0,"We do it where it makes sense, but not everywhere. Sometimes it's nice to see a struct with only the properties, so we'll put that at the top of the file, and then put the methods in an extension below."
+AnnArbor,fetchmx,t3_eqk4l4,1579373910.0,Looks like [Mort from Bazooka Joe](http://www.tvparty.com/bgifs24/bazook-head.jpg).
+technology,fes8jg6,t1_fes2zlq,1579362554.0,"The original reason was memory. The first iPhones and iPads had very little RAM, 128MB for the iPhone and 256MB for the iPad. Even relatively simple web views took 50MB in our app. This left less RAM for the home screen and other apps, so slowed down the the whole system because apps were constantly being killed and relaunched. If our app hit 90MB the system would terminate it.  
+   
+Even today iPhones have about half of the RAM as Android phones. But i agree that privacy and platform control are part of the reason the rule still applies."
+TheWayWeWere,fes62cf,t1_fes56jy,1579361823.0,"I checked and the post office had the right to destroy FOREIGN mail if it fit their criteria.   
+    
+From The Atlantic:    
+    
+U.S. Postal employees feed 17 tons of reading matter, labeled by postal authorities as propaganda, into a furnace in San Francisco, California, on March 19, 1941. The bulk of the newspapers, books, and pamphlets came from Nazi Germany and some from Russia, Italy and Japan."
+TheWayWeWere,fes46z8,t1_ferp0ym,1579361227.0,The US didn’t enter the war until later that year.
+videos,feryip0,t1_ferb9bn,1579359635.0,as is ketchup. https://en.wikipedia.org/wiki/Ketchup_as_a_vegetable
+videos,fery8mb,t1_ferv7js,1579359557.0,and the green slop is yesterday’s brown slop.
+iOSProgramming,feru3im,t3_eqedja,1579358351.0,"I am not a React expert, but I would try assigning the results of `map` to a local variable and then using that variable after the <~. I don’t know what type the variable should be, though, or whether the compiler will be able to infer it."
+technology,ferpkbf,t1_fernq2d,1579356900.0,"The Mac one is really Chrome. The iOS one uses Apple’s web framework because Apple doesn’t allow 3rd party ones. So the app is from Google, but the underlying web code is from Apple.    
+   
+From the iOS App Store rules:     
+2.5.6 Apps that browse the web must use the appropriate WebKit framework and WebKit Javascript.      
+    
+They do this mostly for performance and to reduce memory consumption."
+technology,ferpilk,t1_fernrok,1579356882.0,"The Mac one is really Chrome. The iOS one uses Apple’s web framework because Apple doesn’t allow 3rd party ones. So the app is from Google, but the underlying web code is from Apple.    
+   
+From the iOS App Store rules:     
+2.5.6 Apps that browse the web must use the appropriate WebKit framework and WebKit Javascript.      
+    
+They do this mostly for performance and to reduce memory consumption."
+Michigan,fero1pl,t1_ferllet,1579356344.0,That sounds a lot like the speech in >!The End with Burt Reynolds.!<
+swift,fephyu3,t3_eqbi6f,1579320974.0,"Depends on the app and whether you need to support iOS 12 or earlier. If it's a personal vanity app, I'd do it in SwiftUI."
+AskReddit,fennqca,t1_fen6ghr,1579288353.0,He only takes tips.
+menwritingwomen,fen13tj,t1_femkw24,1579274618.0,Except it may scar you for life.
+Michigan,femukmw,t1_femq410,1579270003.0,Next time choose a nuclear sub hotel.
+Detroit,femufcr,t1_femkphr,1579269890.0,"[Obligatory Tom Lehrer song, National Brotherhood Week](https://youtu.be/aIlJ8ZCs4jY)"
+swift,fem4hcl,t1_felynbp,1579239459.0,"Yes, exactly. If we could pin values to defined ranges it would make it harder for hackers to construct malicious files - the parser could either refuse to read them or toss out bad values."
+swift,felrpl9,t3_eps7pr,1579229294.0,"This looks cool. Thanks. Is it possible to put min/max limits on numerical data as it's read in?
+
+This almost makes me wonder if we couldn't combine this idea with SwiftUI-like function builders to create safe, fast parsers."

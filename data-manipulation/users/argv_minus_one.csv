@@ -1,0 +1,139 @@
+subreddit,self ID,parent ID,time,text
+wikipedia,ffy1vzh,t1_ffxpsoo,1580336940.0,You sure these people aren't robots? I'm having a very hard time coming to terms with the idea that actual humans can be this programmable.
+Fallout,ffy16cr,t1_ffx16x6,1580336511.0,Ladies love a mutant in uniform.
+Fallout,ffy0rbw,t3_evn4ny,1580336261.0,"So, what I'm getting from this is that super mutants are sexier than humans."
+frontierfios,ffxxr0c,t3_evotsy,1580334494.0,"Probably just signal interference. Wi-Fi is slow by nature. You're lucky you ever got full speed from it in the first place, but it seems the honeymoon is over."
+mozilla,ffxxj0p,t3_evswuf,1580334367.0,"Oh good, ads and spyware in my email client. Just what I needed."
+ForeverAlone,ffxwjc1,t3_evo0dx,1580333819.0,"It is bullshit. I have a girlfriend now, and am significantly happier as a result. No amount of fake self-love can make up for a lack of real intimacy."
+offbeat,ffxw4ng,t1_ffxlxdn,1580333585.0,They're probably already doing that to all those Uyghurs in the concentration camps. Sick bastards.
+offbeat,ffxvxyh,t3_evodfc,1580333480.0,They seized the means of reproduction.
+gaming,ffxuxp2,t1_ffxf1iy,1580332917.0,"This appears to be a Microsoft gamer move, actually."
+gaming,ffxueeu,t1_ffxk9z2,1580332619.0,Nonsense! Swords are cool.
+gaming,ffxtu4p,t1_ffxsreq,1580332301.0,Was the victory fanfare played at your wedding?
+pics,ffxtf0e,t3_evn99t,1580332062.0,How the hell did you manage to get clearance? It's a lot easier for bureaucrats to say no than to say yes.
+todayilearned,ffw9q5f,t1_ffrcrgo,1580291313.0,"How, exactly, do police unions have this much power?
+
+Why, exactly, have they not been RICO'd? That sounds like organized crime to me, not a legitimate labor union."
+news,ffw9meo,t1_ffrfsu6,1580291153.0,"Then you're getting robbed. You have my condolences. That still doesn't justify gas pipelines, though."
+gadgets,ffrnwo5,t1_ffqr3x7,1580161958.0,">If chrome takes all the ram and then doesn't share that would be a problem, but it should be dynamically freeing ram when other processes ask.
+
+If there were a mechanism by which that would happen, sure, but I've never heard of an operating system that notifies user processes of memory pressure."
+gadgets,ffrnqnp,t1_ffql6de,1580161858.0,Processes require more RAM than threads. Inter-process communication requires more CPU time than threads.
+ProgrammerHumor,ffrm9f0,t1_ffr18tg,1580160962.0,Python is way slower than V8 JS.
+ProgrammerHumor,ffrlzwd,t1_ffr3erh,1580160802.0,"`this` in JS is the receiver of the method call. That is, when `x.y()` is called, then inside `y`, `this` is `x`.
+
+Confusion occurs because `this` is *not* preserved inside inner functions. So, if you have:
+
+    const x = {
+        y() {
+            function z() {
+                console.log(this);
+            }
+            z();
+        }
+    };
+    x.y();
+
+…then `undefined` will be logged, because the call to `z` has no receiver object (the function is called directly), even though it's surrounded by a call to `y` whose `this === x`.
+
+Similarly, taking a reference to a method and calling the reference won't work:
+
+    const x = {
+        y() {
+            console.log(this);
+        }
+    };
+    const f = x.y;
+    f();
+
+This will also log `undefined`, because although `f === x.y`, you called it without its receiver object.
+
+There are ways to solve these problems, but they are nonetheless strange gotchas of the language."
+technology,ffrkb6c,t1_ffrg2o7,1580159779.0,">LTE speeds are already faster than most people’s wired internet.
+
+That's a sad statement about most people's wired Internet, not praise for LTE.
+
+LTE is slow. Residential fiber runs circles around it. Even my 30Mbps fiber has awesome latency (2ms RTT to first hop). Fiber is what we should be demanding."
+technology,ffrk0ny,t1_ffr56yo,1580159602.0,"New applications of that bandwidth will appear, provided it's widely available."
+technology,ffri4r4,t3_eupz3c,1580158459.0,"The only thing 5G will do is enable you to overrun your monthly data cap even faster.
+
+Speed is useless in the presence of caps."
+technology,ffrhxo5,t1_ffr3iog,1580158356.0,Now try doing that download over fiber. See how impressive 4G is then. (Spoiler: it's fucking pathetic compared to fiber.)
+technology,ffrhgnb,t1_ffqzqqr,1580158109.0,"No radio will ever replace wired networks. The throughput and reliability will never be there, because radio is full of interference, and fiber cables are not. Caps will also always be there, because there's only so much spectrum to go around."
+news,ffrg0kw,t1_ffqv6f1,1580157340.0,The best way to transport oil is to not transport it at all and build solar panels instead.
+news,ffrfqh2,t1_ffqr2r1,1580157188.0,You know what's even safer than that? Solar panels. We don't have to use so much oil.
+news,ffrfcjl,t1_ffqvf8m,1580156960.0,"You do realize that electric heaters exist, yes?"
+todayilearned,ffrc7hx,t1_ffraclc,1580155038.0,What the fuck is wrong with people? Holy shit.
+todayilearned,ffrc1ev,t1_ffr7z2z,1580154933.0,">Internal Affairs is just ""cop HR department"" - its primary responsibility is maintaining the image of the department rather than actually eliminating corruption and getting rid of bad apples.
+
+Does it not occur to them that getting rid of bad cops would improve the department's image?"
+technology,ffp67fc,t1_ffoqygu,1580087254.0,"I'm extremely skeptical of claims like this. Even if there is a kernel of truth to them, they are suspiciously convenient for the defense contractors who manufacture this equipment, and we already know those companies are crooked as hell."
+technology,ffom2gp,t1_ffob3u0,1580079009.0,"We also have a bunch of actual military personnel in this thread, and of the ones I've read so far, all of them concur with the headline. Seems to me like you're the one that's full of shit."
+Fallout,ffo0pud,t1_ffn3ir3,1580072941.0,"Less radiation over time? Vault 87, the White House, and the Glowing Sea say otherwise.
+
+Real-world nukes' radiation wears off much faster than that. Hiroshima and Nagasaki are both rebuilt, functioning cities."
+news,ffnyfct,t1_ffnp9t9,1580072237.0,"Sometimes, the air beats them instead. RIP."
+news,ffnxaz9,t1_ffnuw1m,1580071948.0,What makes you think they're the same people?
+news,ffnwiri,t1_ffnsyni,1580071653.0,What makes them so dangerous?
+news,ffnwgql,t1_ffnv8nq,1580071630.0,But don't fill them with hydrogen!
+news,ffkya83,t3_etyli6,1580031209.0,Does it speak in Stephen Russell's voice with an English accent?
+Showerthoughts,ffk1ldz,t1_ffjwk6b,1580013018.0,"It's changed its signalling, obviously. Telecommunications weren't even digital in the '60s, let alone with the insanely high bit rate of a modern fiber line.
+
+But no, handling of low SNR isn't that much better. The piss-poor performance of Wi-Fi and cell data makes that painfully obvious. Newer wireless signalling schemes (like 802.11ac) are faster than older ones (like 802.11), but they're agonizingly slow compared to contemporary wired signalling schemes (10GBaseT and 100BaseTX respectively)."
+Showerthoughts,ffjjm8h,t1_ffiy9bx,1579999712.0,"Not really. Then, as now, radio/satellite communications were subject to far more interference and latency than wired communications. You could see it in the picture quality of antenna vs cable TV. You could see it in how long it took for news correspondents in war-torn countries to react to the anchor's questions. Things haven't really changed: you still get the best performance from wired communications. Wireless is only useful in areas where wired communications don't reach, such as rural areas, warzones, and wilderness."
+Showerthoughts,ffjhxew,t1_ffj06km,1579998590.0,"I would call it erring on the side of caution. If there are any unknown properties to your constituent particles, they're more likely to be preserved correctly if the original particles are used."
+badwomensanatomy,ffjd6o7,t1_ffin4zs,1579995800.0,">There was a belief that going after than 30mph would cause physiological damage because ""the Human body was not meant to go that fast.""
+
+That's actually correct, in the sense that if you suddenly stop from that speed (as in, you crash), it will hurt you quite a lot."
+badwomensanatomy,ffjctqe,t1_ffiss7t,1579995592.0,"If that were true, kicking us in the junk wouldn't work."
+badwomensanatomy,ffjcjng,t1_ffj03b7,1579995425.0,Doesn't mean you can't cheat by warping space around you or making a shortcut (traversable wormhole).
+Showerthoughts,ffjc1uh,t1_ffi4xpr,1579995142.0,"Except it's not, because your original mass/energy is used to reconstruct you."
+Showerthoughts,ffix1gz,t1_ffins3a,1579984793.0,Star Trek transporters also convert your body to energy and send it to the destination to be reassembled into matter. They don't artificially kill you; they take you apart and put you back together somewhere else.
+Showerthoughts,ffiww1u,t1_ffipg2j,1579984683.0,">He also figured out in the... in the 40's I think ...that geosynchronous satellites would make terrific communication relays.
+
+They actually don't, because of high latency caused by the low speed of light in air."
+Showerthoughts,ffiwlrp,t1_ffio5z6,1579984476.0,"So computers got miniaturized more than expected, and pocket computers were made from them. That's not that outlandish by 1970 standards."
+Showerthoughts,ffiwdjp,t1_ffince3,1579984315.0,">why would you need to use the same components from your first location?
+
+So that you're still you in every way, all the way down to the constituent particles, to avoid the possibility of the teleporter death scenario we're discussing."
+Showerthoughts,ffiw1rm,t1_ffinztj,1579984080.0,"Star Trek transporters convert you to energy, send the energy to the destination, and reassemble you into matter. They don't copy and destroy…unless they malfunction."
+Showerthoughts,ffivw6i,t1_ffiqrxo,1579983967.0,"Star Trek transporters convert you to energy, send the energy to the destination, and reassemble you into matter. They don't copy and destroy…unless they malfunction."
+science,ffiuyu5,t1_ffi1pto,1579983366.0,">climate change will release old plagues from the permafrost.
+
+That seems unlikely. Freezing tends to tear apart living cells, and viruses tend to only be able to infect one or a handful of specific species."
+news,ffhq1of,t3_etjae7,1579947816.0,"He's getting desperate and making mistakes, then. Good. Keep up the pressure on these criminal scumbags until they break, and then put them the hell away."
+science,ffhpkg0,t1_ffhk2kd,1579947083.0,Do you want to give cancer to frequent travelers? Because that's how you give cancer to frequent travelers.
+ProgrammerHumor,ffgy01j,t1_ffg0tyz,1579917960.0,">Consider what the web as system for constructing arbitrary user interactions with layered and parallel protocols enabling everything from mouse hover effects to real time video communication.
+
+When people started wanting fancy stuff like that, the answer should have been, “Okay. Here's WebAssembly (with direct access to threads, DOM, OpenGL, etc) and some APIs for attaching custom rendering and layout routines to DOM elements. Knock yourselves out.” The answer should *not* have been to implement everything under the sun in the browser core, which, as Microsoft has demonstrated, is insane and unsustainable.
+
+>There's just multiple dimensions of cost and risk to this thing and you  have the option of dodging all of them so what you would really need is a  compelling reason that making your own makes you more money and makes  your users happier.
+
+If developing a browser is so difficult that this is even a relevant consideration for an organization as big and well-funded as Microsoft, then it's too damn bloated.
+
+There was a time when it only took a handful of people to develop KHTML. Now, you need an army to develop a modern browser engine. That's what we of sound mind call “bloat”."
+ProgrammerHumor,ffgwsms,t1_ffg16w8,1579917057.0,"Most of that complexity is blatantly unnecessary. When people started wanting fancy stuff like shadow effects, grid layouts, and animations, the answer should have been, “Okay. Here's WebAssembly (with direct access to threads, DOM, OpenGL, etc) and some APIs for attaching custom rendering and layout routines to DOM elements. Knock yourselves out.”
+
+Instead, the browser makers had the agonizingly stupid idea of adding tons and tons of bells and whistles like `box-shadow`, Web Animations, CSS 3D transformations, and a [half-dozen new JavaScript language features every friggin' year](https://github.com/tc39/proposals/blob/master/finished-proposals.md). Not only is this insane and unsustainable, it's wasting valuable time that could be going toward making WebAssembly fast enough and powerful enough to fully replace JavaScript.
+
+Java and Flash ran on computers from 20 years ago with decent performance. Far from being bloated, they're lightning-fast compared to the abominations we call browsers today.
+
+As for browsers getting better at they do, that's only if you think their rampant scope creep is a good thing. I don't. Browsers should be natively good at only two things: displaying hypertext documents, and being extensible. Everything else belongs in custom code, not the browser core.
+
+Of course, that would result in slower page loads (because more custom code requires more time to download), but tough titties. Regular websites don't need all that fancy shit anyway, and nobody cares about full-blown apps taking an extra 2 seconds to load for the first time."
+ProgrammerHumor,ffgs3rk,t1_ffg3259,1579913639.0,"WebKit is the new IE: a buggy, perpetually-outdated dumpster fire. Not a viable competitor."
+skyrim,fffzqw6,t1_ffeseg1,1579895347.0,"If you can somehow persuade one to marry you instead of kill you. Good luck.
+
+But no, draugr are not corpses. They sure do look like corpses, though."
+ProgrammerHumor,fffzjqx,t1_fffy3ge,1579895224.0,Microsoft's EEE strategy failed catastrophically years ago. They're playing constant catch-up now.
+ProgrammerHumor,fffzeyz,t1_fffx5ey,1579895143.0,"Microsoft runs Linux on Windows these days, so…mission kinda accomplished?"
+ProgrammerHumor,fffza4u,t1_fffkqdb,1579895059.0,The *original* Chromium browser is bloated up with stuff no one needs and also doesn’t see.
+ProgrammerHumor,fffz7a1,t1_fffxzcb,1579895010.0,"They'll stop saying that real quick if Firefox dies, because that's the only thing compelling Google to innovate. Otherwise, Chrome becomes the new IE6."
+ProgrammerHumor,fffz24i,t1_fffwd9b,1579894922.0,"Windows 10 was built on 8, not 7. It has a bunch of the improvements that 8 had, like the new Task Manager."
+ProgrammerHumor,fffyu7s,t1_fffxg2k,1579894785.0,"What the hell are you on about? The default search engine in Firefox is Yahoo, and switching to some other search engine is trivial."
+ProgrammerHumor,fffynje,t1_fffx4mu,1579894673.0,"In other words, browsers have grown so horrendously bloated that even Microsoft can't afford to develop one. What a sad world we live in…"
+technology,fffxpn9,t1_fffdi2f,1579894085.0,"Except they don't. We have lots of guns and bullets, yet the issues remain conspicuously unsolved."
+technology,fffxno3,t1_ffflxb7,1579894051.0,Does .308 go through armor?
+technology,fffxg3i,t1_fffesc1,1579893921.0,The government was not attempting to win the wars in Afghanistan and Iraq. War is good for business; victory is not.
+technology,fffxa80,t1_fffogia,1579893820.0,"Conductor, I would like to get off the poop train. Got psychos to shoot, loot to loot, and Hyperion trains to blow up."
+technology,fffwob8,t1_fffp92e,1579893440.0,"I'm no lawyer, but threatening to commit a crime in front of police sounds like a great way to end up in jail yourself."

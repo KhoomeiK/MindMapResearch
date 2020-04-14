@@ -1,0 +1,214 @@
+subreddit,self ID,parent ID,time,text
+Competitiveoverwatch,ffl5fpq,t1_ffl05n2,1580035117.0,"India doesn't split the number into thousands, but uses a more complex grouping. They still use separate commas and periods, however."
+programming,ffimzd6,t1_ffilkx8,1579977759.0,"Since brainfuck is an incredibly simple programming language that is still Turing complete, implementing a brainfuck interpreter is often a good way of proving that something else is Turing complete."
+AnnePro,ffggeme,t1_ffa4bpe,1579905643.0,"> Therefore i have a question. Is the version 1.12.9-alpha the last working version for this device?
+
+I have version 1.13.2-alpha working on my device.
+
+If you're confident that you could undo the flash if it breaks again, try flashing once more. Make sure your USB cable is well-connected before you start."
+compsci,ffeq8w6,t1_ffedkuv,1579860077.0,"The term ""proper divisor"" is defined to not include n: http://mathworld.wolfram.com/ProperDivisor.html"
+AnnePro,ffdsbls,t3_et0u5r,1579827693.0,"I've had mine a week and it does not do this.
+
+I wonder if it's related to the motherboard's sleep settings. I know that on my current PC, the USB ports stay powered when the PC is off. On a previous PC the USB ports would be powered off too."
+thenetherlands,ffdgmao,t1_ffd3m7s,1579820445.0,"Zie de hierboven gelinkte video. De opslag is alleen bedoeld voor ""high-level waste"", oftewel het echt gevaarlijke spul, en alleen voor afval geproduceerd in Finland. Ongeveer 100 jaar aan geproduceerd afval past er in."
+tableau,ffaiyii,t3_esg83l,1579736870.0,"Go to the Data Source tab, and check the info at the top right. You should have ""Extract"" selected, with underneath the text ""Extract will include all data."" If it does not, click the Edit link to the right to check your settings.
+
+How it looks on my system: https://imgur.com/a/VyZAXAJ"
+AnnePro,ff9tw9n,t3_eqb6a8,1579721186.0,To my knowledge this only works when connected via cable.
+programming,ff6qwyz,t1_ff6hhuw,1579633011.0,Not necessarily. See for example the Real-time Specification for Java.
+outrun,fezf2xk,t1_fez4qmp,1579456671.0,From the crosspost: https://imgur.com/6PTN8Cu
+cats,fezcuav,t3_eqv1o7,1579455996.0,When the lullaby kicks in on the TV there's no resisting.
+SupermodelCats,fez2hoc,t1_feywkkc,1579453238.0,"If your phone camera is even slightly above potato quality it's possible to learn how to take great pics with it! There's plenty of information on youtube, and (cheap) paid courses too if you want to take it seriously. It's a really useful skill to have for the rest of your life!"
+Overwatch,fexvn2v,t1_fewg1ti,1579437187.0,"Just let him play what he wants to play? It's his youth, not yours."
+linuxquestions,fevae2e,t1_feu6sq8,1579395073.0,"There is a PPA available so you don't need to compile from source: https://www.wireguard.com/install/#ubuntu-via-ppa-module-tools
+
+As an answer to your actual question: I've not done something like this before, but I would try doing something using systemd instead of cron. Using
+
+    Wants=network-online.target
+    After=network-online.target
+
+In a unit file would allow the service to (re)start after every network change.
+
+An alternative that I saw [on the Arch wiki](https://wiki.archlinux.org/index.php/WireGuard#Endpoint_with_changing_IP) is to use a cron script or systemd timer that regularly refreshes the DNS to test if the correct endpoint is still being used. I'm not sure what you mean with ""Crappy DNS setup"" but this could be enough to resolve the problem.
+
+If that script doesn't do enough on its own, you could take inspiration from its approach. [The direct link to the script is here](https://git.zx2c4.com/wireguard-tools/tree/contrib/reresolve-dns/reresolve-dns.sh)."
+hmmm,feu7klz,t3_eqfspc,1579383854.0,"""Now cock the gun."""
+programming,fesn5vp,t1_fesch96,1579367008.0,Check out the list of Apache projects still using Java. Hadoop is one of the major ones.
+hmmm,feqrbsf,t1_fepf702,1579345122.0,For the last time stop sniffing the sharpies Frank
+askscience,feqp4ky,t1_fepl9do,1579344483.0,"If it interests you, [Mythbusters did an episode on snow myths including triggering avalanches](https://www.imdb.com/title/tt1049276/). They also demonstrate how the pros trigger avalanches on purpose."
+Awwducational,fenckia,t1_fenc08h,1579281789.0,I think that's the point. Blue items are rare in nature so the male has to expend lots of energy looking for them. Having all this energy to spare indicates that he is successful and would be a good mating partner.
+tableau,fel4wo4,t1_fekvis3,1579214128.0,"Yes. I've barely used Prep but from what I know, Flows can be exported as a separate entity to the data.
+
+~~It should be noted that Prep does not perform joins at the DB layer. The data is pulled locally and acted upon there.~~
+
+edit: from looking around, it appears that Prep will try to push the query predicates, including joins, down to the DB for supported drivers."
+WireGuard,fe99ktk,t3_eo5n2p,1578935578.0,You need to adjust the `AllowedIPs` setting on your Debian instance to only include the addresses of the network you're connecting to.
+hmmm,fe98ubu,t1_fe91il3,1578935452.0,"Gebruikersnaam checkt uit.
+
+I was only joking though, I try to hold no prejudices towards people's preferences (or their professions)."
+WireGuard,fe989bw,t3_eo68ut,1578935262.0,"Is there something like NetworkManager running on the same box and messing with the settings? Alternatively, if there is a relation to the system going to sleep, it could be because the physical device is being reconfigured and causing the custom routes to be dropped."
+WireGuard,fe6rx3r,t1_fe5yyr6,1578902524.0,"80 and 443 (http and https) are typically used for TCP, whereas 53 (DNS) is UDP like wireguard is. TCP and UDP port numbering are separate. If an ISP is blocking ports I'd argue that 80 and 443 UDP are more likely to be blocked."
+vim,fe3af7h,t1_fe2xhk3,1578847486.0,"That screenshot still shows an incorrect value: you haven't included the `=always` part.
+
+Honestly I'm not sure what the purpose is of having both colourized output and the quickfix window. If you're using quickfix, use its highlighting and ignore fiddling with the make command. If you don't use quickfix, run `:make!` instead."
+WireGuard,fe39pnk,t1_fe2wssj,1578847254.0,"The MTU determines how large a packet can be for a given connection. A wireguard connection is tunneled over a physical connection, so the wireguard packets must fit inside the MTU used by the ISP. Additionally, there is some overhead calculation involved, so the MTU of a wireguard connection should always be smaller than that of the physical connection.
+
+1420 is used by default in Wireguard as it fits nicely within a MTU of 1500 which is typical for physical connections. However, some ISPs use a smaller MTU, which would in turn mean a smaller number is necessary for Wireguard. Since it's a simple setting change it's an easy troubleshooting step :)
+
+I saw in your other comment that changing the value didn't work, which is a shame. 
+
+The reason I initially didn't think it was an ISP block is because you still get a few packets through when pinging 8.8.8.8. My experience is that such blocks are ""all or nothing"".
+
+Changing ports *might* help: DNS is on port 53 and can be encrypted, so changing to that port might fool the filter. Your server has to support listening on that port of course."
+vim,fe2hb2c,t3_enmwmv,1578838368.0,"It's `fdiagnostics-color`, as a plural.
+
+Are you sure you want this? As mentioned in the post you linked it breaks vim's ability to parse the output and fill the quickfix window."
+hmmmgifs,fe2ge3p,t3_ennehe,1578838045.0,https://www.reddit.com/r/hmmmgifs/comments/enkkh7/hmmm/
+SampleSize,fe2fsh0,t1_fe23pu2,1578837889.0,"Also, the sampling bias in this case is huge. Reddit attracts a particular type of person, as does this subreddit specifically."
+WireGuard,fe2ekob,t3_ennd80,1578837513.0,"If you're getting a little bit of throughput, then it seems unlikely to be a block from your ISP.
+
+Have you checked your MTU settings? It might be helpful to lower the MTU for your wireguard connection."
+Python,fe1yxs2,t1_fe0zbxh,1578832525.0,"Not really, but it's a fun exercise and does no harm.
+
+Online DnD website roll20.net uses a quantum RNG for its dice rolls: https://wiki.roll20.net/QuantumRoll
+
+As far as I know it was only implemented to stop people whining about how ""pseudo RNG isn't the same as a real RNG and this is why I am *SO UNLUCKY*."""
+hmmmgifs,fe1wdd7,t3_enkkh7,1578831712.0,Get this man a skateboard
+thenetherlands,fe1vth0,t1_fe1v3b9,1578831479.0,Kun je dansen op de maan?
+airplaneears,fe1ocg5,t3_enigpn,1578829019.0,She needs ILS approach so she can maintain visual contact with you.
+WireGuard,fe1jr2k,t3_enl364,1578827407.0,"Am I understanding correctly that you're also installing wireguard in a container? You will need to take extra steps as wireguard is dependent on a kernel module which must be installed on the host.
+
+[This blog post goes through the details of having the kernel module also compiled within docker](https://blog.jessfraz.com/post/installing-and-using-wireguard/). I've got to admit though, when I looked at this I just decided to install wireguard on the host directly instead. Because of its reliance on a kernel module, that seemed like the more logical place to install it."
+Overwatch,fdvqs9t,t1_fdutcvh,1578750440.0,It does give priority to the moments just before the game ends but I guess that if nobody dies it won't trigger.
+sffpc,fdvongv,t3_en20rk,1578749753.0,"I do this with my SG08. Be careful with the corners of the case, I once tore a hole in a t-shirt."
+internet_funeral,fdvn3dr,t3_en6fc0,1578749284.0,It has batteries? What does it do when you turn it on?
+hardware,fdvmc04,t1_fdv5xrx,1578748982.0,Oh man those OCZ drives. A friend of mine went through six of them under the same warranty.
+hmmm,fdvkxpl,t3_en59rm,1578748506.0,I hear escorting pays well.
+thenetherlands,fdsbfv8,t1_fdqsbsm,1578698753.0,Mag ik vragen onder welk merk jullie eieren verkocht worden?
+WireGuard,fdlsq32,t3_em1tjl,1578531596.0,"You most likely have `AllowedIPs = 0.0.0.0/0` in your configuration, which means all traffic is sent over the VPN and the local network cannot be accessed. You need to create exceptions for local traffic.
+
+[I stepped through this](https://www.reddit.com/r/WireGuard/comments/e5mm3z/how_to_allow_local_ips_on_windows_10_client/) in another question here. Make sure to check the linked stackoverflow post for further explanation and a comprehensive exception list.
+
+edit: make sure to uncheck ""Block untunneled traffic"" in the configuration too."
+Overwatch,fdjkny9,t3_eloeqt,1578475382.0,"You sped the replay up, that isn't 9 seconds."
+sffpc,fdilaek,t1_fdgnp7k,1578445430.0,"I love how dense they feel. The weight makes sense for the size they are, instead of holding a metal box that seems to be half full of air."
+vim,fdil1iy,t1_fdihxdw,1578445271.0,"I believe this is dependent on the value of `ttimeoutlen`. Its default is `-1`, which means vim will wait indefinitely after an `<Esc>` to ensure the user isn't inputting a key combination using `<Meta>`."
+WireGuard,fdie9f9,t3_eldu0t,1578440931.0,"I suspect your MTU settings are still incorrect...
+
+The maximum MTU for internet connections is normally 1500. Setting the Wireguard interface to also use 1500 means that Wireguard packets **must** be broken into multiple parts to cross the physical network, which is going to cause terrible performance.
+
+I would try setting it to 1420 again. Make sure you do this on both client and server, and don't forget to restart the wireguard interface on both ends."
+vim,fdi71yx,t1_fdi0pj2,1578436881.0,"It only inserts a space if there wasn't already a space present. It will also remove leading whitespace from the line being moved.
+
+As others have said, `gJ` is there when there should be no whitespace at all."
+WireGuard,fdi5hn2,t1_fdhmw66,1578436086.0,"Try `apt-get install linux-headers-$(uname -r)`
+
+I'm not very sure how DKMS works on raspberry pi, but I suspect that the `raspberrypi-kernel-headers` package installs the raspberrypi specific stuff but you need to install the kernel headers separately."
+WireGuard,fdgev8f,t3_el9ph6,1578393526.0,"Have you rebooted, and booted into a kernel that DKMS rebuilt?"
+Python,fdeo0ru,t1_fddl5ez,1578343047.0,It seems it's your lucky day... this Tom Scott video appeared in my youtube feed: https://www.youtube.com/watch?v=RGuJga2Gl_k
+Python,fddl7ic,t1_fddl5ez,1578316518.0,"> 100 to 200, isn't that just twice more time?
+
+You sound like my boss :D
+
+Happy exploring!"
+Python,fddkxuk,t1_fddjk29,1578316243.0,"The average case is sometimes worth considering. For example, Quicksort has worst case O(n^2 ), which is worse than other sorts, but its average case is comparable and it has other advantages which is why it is still often used.
+
+'n' refers to the length of the input to the algorithm. It's not really a number, but it is helpful to consider it as being really frickin' big. If the length of the input were to become bigger, say n+1, how much longer would the algorithm take ***relative to an input of length n?*** This is what big O notation tries to encapsulate.
+
+It is useful to know what the big O for an algorithm is, as this lets us reason about how the algorithm will perform as our input grows. As an example, lets imagine an algorithm performs in O(2^n ). This is an algorithm which grows in exponential time, which is generally bad news. It could be, however, that in our case we only feed it an input with length 100, and this performs acceptably, so we can deal with having an inefficient algorithm in our code. But, if the boss shows up at my desk and says, ""Hey, we're going to have to crunch more numbers, can we do 200?"" I'd have to tell him no, as it's almost certain the algorithm won't be able to complete its work in a useful amount of time.
+
+If you want to read more about this, [the wikipedia page exists but is utterly terrifying](https://en.wikipedia.org/wiki/Big_O_notation). I also found [this three part blog article](https://justin.abrah.ms/computer-science/big-o-notation-explained.html) which I haven't read entirely, but the examples are in Python and the author seems to have his head screwed on straight."
+Python,fddjb1u,t1_fddiram,1578314537.0,The best case for search problems like the above is 1. It occurs when the first number you test turns out to be your answer. That's why the best case scenario isn't a useful metric.
+Python,fddc2kd,t1_fdd812k,1578304965.0,"Big O notation describes the worst-case time complexity of an algorithm. It is nearly always notated without including constants. This means that an algorithm that loops through a list once, an algorithm that loops through a list twice, and an algorithm that sometimes loops through a whole list once but can often stop earlier, all share the same complexity O(n).
+
+You can't ""work backwards"" to get the actual runtime of an algorithm, since the notation describes the worst case."
+IllegallySmolCats,fdaca6y,t3_ekdd9y,1578244484.0,I'd rather have a hundred Pennies
+SampleSize,fda1o5c,t1_fd7soqx,1578240703.0,"Would have been more useful if it posted, since it includes a ""me too"" link."
+thenetherlands,fd9dbz3,t1_fd9bwl7,1578231839.0,ProRail en NS hebben zelf aangegeven dat twee defecte wielen de oorzaak lijken te zijn: https://www.prorail.nl/nieuws/grote-schade-bij-ontspoord-treinstel-den-haag-centraal-update
+Animalsthatlovemagic,fd93j0b,t1_fd91pbx,1578227808.0,Blaming soldiers for war existing is like blaming firefighters for fire existing.
+thenetherlands,fd91xyt,t1_fd8ylde,1578227077.0,"Ik denk dat je de plank misslaat door Tesla aan te wijzen. In tegenstelling tot de meer traditionele fabrikanten zet Tesla keihard in op zelf-rijdende technologie, een van de belangrijkste stappen in het overbodig maken van persoonlijk autobezit. 
+
+De auto zal nooit weggaan, omdat deur tot deur vervoer eenmaal handig is, en in bepaalde situaties noodzakelijk. Wanneer auto's echt zelfstandig kunnen rijden wordt het mogelijk gemaakt om altijd op aanvraag van deur tot deur te kunnen reizen. Waarschijnlijk wordt het moment dat dat gebeurt de grootste verandering in persoonlijk vervoer sinds de uitvinding van de auto."
+cats,fd8zeve,t3_ekbmu5,1578225826.0,/r/supermodelcats
+thenetherlands,fd8y1f8,t1_fd8i8ny,1578225178.0,Telefoon op de fiets? 90 euro aub
+cats,fd8szin,t1_fd5r0c3,1578223033.0,Sometimes a person's situation changes and makes it hard to keep the pet. Just because an animal was put up for adoption doesn't mean it wasn't loved.
+PeopleFuckingDying,fd5e9d9,t1_fd574vk,1578176814.0,"I read on a previous post of this video that it's because their thumbs are stronger than their index finger when making a pulling motion. You'll notice she briefly tries with the gun in the ""proper"" orientation.
+
+It's unfortunately also how young children accidentally kill themselves with real handguns."
+PeopleFuckingDying,fd5dxg9,t1_fd4teci,1578176713.0,Children don't know what guns do. This is why you keep guns away from children.
+WireGuard,fd5c3op,t1_fd51576,1578176125.0,I am not familiar with sgx-lkl in any way. Check its documentation to determine how to get it to listen or bind to a new network device.
+WireGuard,fd4tok2,t3_ek1aoy,1578170992.0,"Check that the server is listening on the wireguard interface. It might only be bound to one interface. Some software accepts being configured to listen to multiple interfaces, but will fail to listen on interfaces that come up after the software has started."
+Competitiveoverwatch,fd29gcc,t3_ejw7vd,1578143771.0,"If you haven't already, post this to /r/samplesize too."
+hardware,fcx9w5e,t1_fcx6kzz,1578056803.0,"I'm not familiar with graphics programming, and whether there is an equivalent to those functions for streaming data directly to the graphics card.
+
+But I think his point is more that developers have the opportunity to program in a different way, and can start using memory mapping of the filesystem for code that needs to be highly performant where previously you had to assume that reading from disk could take multiple seconds."
+cats,fcvxp0p,t1_fcvvtvx,1578012466.0,Pluto is a dog
+programming,fcvub4u,t1_fcvhife,1578010271.0,"As others have mentioned, context is important. I just wanted to highlight that language can also have an impact. In Python for example, the idiomatic way to check if a list is not empty is simply `if my_list`. If `my_list` is `None` instead of an empty list that statement would behave the same.
+
+Context still matters though, because code might try to access list items without checking that the list is filled - if the variable is `None`, then an exception will be produced instead."
+programming,fcvu0gs,t1_fcvqdnq,1578010079.0,"My understanding from the article was that the code was constructing new sets that could potentially start to contain values, but that in most cases the sets were never actually filled and garbage collected instead.
+
+It's not exactly efficient but I can imagine some dead-brained code doing this (for example, a frequently called function that returns a new object, where that object is too complicated and contains multiple data structures that are not used in all code paths).
+
+So the special empty-set object (which the article does mention later down in the one-liners) wouldn't be appropriate for this use case unless there would be some way to indicate that the set won't be used (but then you probably just wouldn't construct the set). The way the article was written suggests that there was plenty of potential to refactor!"
+cats,fcu252z,t1_fctr02l,1577970098.0,There exists software that creates origami plans so you can make paper sculptures like this.
+thenetherlands,fcs4pxd,t1_fcqfhes,1577911435.0,Daarom geef je ze dan ook geen vuurwerk.
+programming,fcra54n,t1_fcqzaps,1577898994.0,"1. Exactly, so you cannot just remove the python2 package since any package that was written for python2 depends on it
+2. Some scripts simply use `python` in their hashbang. On stretch, this binary is symlinked to python2, which you can't just change since it would break several packages.
+
+The end of support for python2 was announced well before the stretch release cycle. The Debian maintainers made a conscious decision to keep python2 in stretch."
+programming,fcq5tbj,t1_fcpn0n5,1577879361.0,"Almost certainly not, since other packages for stretch expect a python2 to be installed.
+
+Most likely the Debian security team will take responsibility for issuing security updates (Red Hat is doing the same, so they can work together)."
+thenetherlands,fcn14vk,t1_fcn010m,1577800240.0,"Bij de foto's onderaan *denk* ik niet omdat het spoor naast de openbare weg ligt zonder afscheiding. Dat is ook een laden-en-lossen terrein dus het is gewoon de bedoeling dat bedrijfsmedewerkers bij de trein kunnen lopen. 
+
+De eerste paar foto's, en met name de eerste, zijn op verboden terrein genomen. Je kunt ook uit deze foto's vernemen dat dit zijspoor nog steeds aan het hoofdspoor is gekoppeld. Het is dus nog altijd mogelijk dat een trein op dit zijspoor rijdt. Of dat in de praktijk ooit nog zal gebeuren weet ik niet, maar dat is juist mijn punt: je kunt het niet weten. Daarom moet je van het spoor afblijven."
+thenetherlands,fcmzf4j,t1_fcmw96r,1577798626.0,"Maakt naar mijn mening weinig uit. Deze beredenering zie je wel vaker onder spoorlopers, maar men schat dit vaak verkeerd in. Er is heel veel spoor in Nederland dat slechts weinig wordt gebruikt, maar weinig is niet nul. Het komt toch vaak voor dat mensen worden verrast door een aankomende trein op een stuk spoor waarvan ze dachten dat het verlaten was. Al het spoor in Nederland is verboden voor onbevoegden.
+
+Als directe antwoord op je vraag: uit de screenshots in de tweet van ProRail is het ijzer van de spoorstaven in goede conditie. Dat zou erop wijzen dat er minstens een trein per dag over dit stuk rijdt."
+internet_funeral,fcmyn6z,t3_ehsi3e,1577797825.0,I can't wait!
+hmmmgifs,fcmy9q5,t3_ehxmn3,1577797431.0,The newest Strandbeest is looking dope
+soylent,fcmy58s,t1_fcmevjv,1577797296.0,Huel have an unsweetened version right? I'd buy that instead and sweeten it myself (Stevia is pricy but very unlikely to cause problems).
+Overwatch,fcl2x3z,t1_fckz0ch,1577738644.0,Breaking Orisa + Bastion in Misery Heroes? Very impressive!
+ScottishPeopleTwitter,fcjt9da,t1_fcjsfki,1577703565.0,"Here in the Netherlands they have a roadside swab kit that they put in your mouth. It tests cannabis, opiates, meth and something else I can't remember. As far as I know you need to have used sufficiently recently that you'd still be under the influence.
+
+The swab isn't enough for a conviction, so if you test positive you are detained and will have blood tested at the station."
+ScottishPeopleTwitter,fcjt5rg,t1_fcjp0ri,1577703420.0,Xanax is a prescription anti anxiety medication and is absolutely available in the UK.
+WireGuard,fcjpixf,t1_fcisz5r,1577698131.0,"So, for a computer to be a ""server"", it needs to be listening for incoming connections, and other computers (clients) need to know the address of the server in order to be able to connect to it.
+
+What the address of the server is depends on a few things, so here are a few examples:
+
+* A server in a datacentre (usually) has a single IP address, which is ""public"". Any device that is connected to the internet can connect to that server using that address. The address can be accessed using tools like `ifconfig`. Often, such a server is also given a domain name using DNS, so that humans can access the server with an address consisting of easy to remember words, rather than a number, like `example.com`. (You can use a domain name as an endpoint in Wireguard too)
+* An ""internal server"" is a server that is present on a private network, and is not accessible from the internet. An example could be a DNS server at a company's office, which can give easy to remember names to all the computers on site. It also usually has one IP address, which will be from one of the internal ranges I mentioned in an earlier comment. Again, that address can be checked with `ifconfig`. Computers on the network would use that address to connect. Computers on the internet cannot access that server.
+* ""Home servers"" (and similar setups) where a computer is located on a private network, but needs to also be accessible from the internet. That computer still has one IP address, and it is internal. Computers at home can access it via that address, but computers on the internet cannot. Instead, the home router must be configured with port forwarding to pass connections from the internet to the server. The router has a separate, public IP that is available from the internet. Devices on the internet must connect to that address in order to get through to the server. The public address is not available via `ifconfig` on the server, but is usually available from the router's interface. Another option is to run `curl http://icanhazip.com` on the server, which will give you the address that the outside world sees connections from the server coming from and is almost always the address you want.
+
+Basically, I don't know what your setup is, so have some material to learn from (:
+
+If you are connecting to your server with SSH, the address you are SSHing to will be the address you want to fill in as the Endpoint for Wireguard. Your VPN client needs to know where on the network or internet your server is hanging out: its IP address."
+programming,fcimhi5,t1_fci3oog,1577665037.0,"The API solution to these types of problems is for the API host to provide a single-use code that must be in the request to do the ""dangerous"" thing. If the call is repeated with the exact same code, you can conclude that the request is an accidental repeat and can be discarded (or as other commenters are pointing out, respond with suitable reply to indicate the command was previously carried out and further requests are futile).
+
+If you think anyone out there can provide you with a transaction layer that provides you with all the failsafes you need, I've got a ~~bridge~~ networking stack to sell you."
+WireGuard,fcilr8e,t3_egvil8,1577664687.0,"Hi, I just typed up a reply but you removed your comment, so I'm going to post it here so I don't lose it :P
+
+---
+
+> So would it be possible to theoretically use PIA as well as connect to my Wireguard VPN at the same time?
+
+Yes in theory. You need to set this up in the client configuration by adjusting the `AllowedIPs` setting. Change it so that it only contains the IP address ranges that you want to go through the wireguard tunnel. I'm not 100% sure if this will work in combination with PIA, you may need to change something for their configuration too (I don't know how their config works, sorry!).
+
+> and do I need to set wg0's IP on the server, or is it set when I run `wg-quick up wg0.conf`?
+
+Do you mean the `Endpoint`? This is the public address of your server, you must set it in the configuration of the client. Your server already has (or should already have) a public IP address. It is, for example, the address that you SSH into. Your client needs to know that address otherwise it doesn't know where it should be making your Wireguard connection to.
+
+If you mean the ""internal"" address that your server has inside the VPN, this should indeed be set in the server configuration, using the `Address` setting. It must be in the same subnet as the configured IP for every peer, and must be on a different subnet from its ""real"" IP address(es)."
+programming,fcgu7tc,t1_fcgc24q,1577644004.0,"Because RSTs happen.
+
+TCP isn't even robust enough to prevent corruption, never mind preventing connection errors. You could use some protocol over HTTP that provides extra integrity, but at that point why not just make your API robust?"
+Competitiveoverwatch,fcelhb1,t1_fcds7zp,1577621574.0,we love you bb
+WireGuard,fcdsbud,t3_egvil8,1577613159.0,"1. The endpoint is the publicly available IP address of the wireguard server you want to connect to. It is not related to the IP address of the client.
+2. There are three private ranges of IP addresses: 10.x.x.x, 172.16.x.x, and 192.168.x.x. The differences between them is in how the *subnets* are split up. 10.x.x.x is /8, which means that every device in a private network with an IP address in that range should be able to connect directly to one another. 172.16.x.x is /16, so the same rule applies, but note that there are two octets (numbers between periods) filled in now. The total range is smaller. 192.168.x.x is /24, so each range is only as large as the last octet. 193.168.0.x and 192.168.1.x are different networks. I would recommend using a 192.168.x.x range for wireguard, as it is less likely to clash with a local network that a device might be using. /32 btw means that the given address is a single address and not a range.
+3. `wg0.conf` is the server's configuration, it should not be present on the client.
+4. As above. For reference, there is a command line tool to generate QR codes in `apt`, but I don't remember its name.
+5. Nope. Public/private key authorization is considered highly secure, but do keep your private keys private."
+programming,fcadpy4,t1_fcab2ca,1577567487.0,"Not at all. It just means that the Python Software Foundation can take their hands off it and say, ""It's your problem now."""
+Awwducational,fc9nars,t1_fc9b5mw,1577555260.0,Why do you have elbows?
