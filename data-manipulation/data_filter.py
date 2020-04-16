@@ -27,7 +27,7 @@ print(len(csvs))
 # a = [names, data]
 
 # with open('data.pickle', 'wb') as handle:
-# 	pickle.dump(a, handle, protocol=pickle.HIGHEST_PROTOCOL)
+# 	pickle.dump(a, handle, protocol=3)
 
 # with open('data.pickle', 'rb') as handle:
 # 	b = pickle.load(handle)
@@ -38,7 +38,7 @@ print(len(csvs))
 # scores, nd = create_mappings(names, data)
 
 # with open('labels.pickle', 'wb') as handle:
-# 	pickle.dump(scores, handle, protocol=pickle.HIGHEST_PROTOCOL)
+# 	pickle.dump(scores, handle, protocol=3)
 
 with open('labels.pickle', 'rb') as handle:
 	b = pickle.load(handle)
