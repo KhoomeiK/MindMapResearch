@@ -1,0 +1,100 @@
+subreddit,self ID,parent ID,time,text
+berkeley,fpjy8cp,t3_gdgtj6,1588684000.0,"The University administration is flying almost blind here.  They’ve solicited feedback from the faculty about various options but the big problem is we Just Don’t Know...
+
+Part of the problem is the nation as a whole has a significant fraction of the population in an outright death cult: the number of cases are still growing and significant leadership is saying “F-this, we give up”, people are viewing masks as a tribal affiliation, etc...
+
+California is trying to be a lot more sensible, but in some ways that may make in person worse, because we’d be importing the policies of say Texas, where at the state level they’ve overridden local restrictions including some things (e.g. indoor Resteraunts) that are particularly risky.
+
+I think there will be significant plans in place for asynchronous lectures etc, and I can tell you MY class is going to be designed for that next semester, but as a university wide whole we just don’t know yet."
+berkeley,fpjxswk,t3_gdu01h,1588683713.0,"It means, shhhh, we only talk about it in low voices...."
+berkeley,fp0xoup,t1_fp05n35,1588219283.0,"Oh there are clearly undetected cases out there in the Bay Area, the problem is the Stanford study is so much garbage that it can’t answer the question: what is the rate of undiagnosed/undetected infections, because that is the denominator on the infection/fatality rate."
+berkeley,fp05trr,t1_fp03tj2,1588203038.0,"Nope, but that was an amusing incident to watch.  My first major paper in security was ""How to 0wn the Internet In Your Spare Time"""
+berkeley,foz12pj,t1_foyy0m7,1588182852.0,If I was in your position and I could take a semester off I would: out of state tuition is horribly expensive.
+berkeley,foyol1c,t1_foygbtk,1588176280.0,"Sweden is weird.  Their excess deaths are running ~100+/day, but its been stable for a while.  So no clue."
+berkeley,foyoaqz,t1_foyccoq,1588176127.0,"I think that is far more likely:  Researchers exist in more isolated subgraphs, which, combined with good source control, becomes far safer.  See my comments about LBL below..."
+UCSD,foy7rrb,t1_foxzpi9,1588167223.0,"Yes, read the studies for yourself.  The numbers from South Korea are where the .17% comes from: they test & traced their way out of it so they caught the positives.
+
+With New York the serology study we don’t know all that much about, all that HAS been published is the headline number which is enough to get a ~1% fatality rate when the health care system is overwhelmed.
+
+And the Stanford study is just so amazingly bogus it makes the brain hurt.
+
+Likewise, the studies on both Call Center X and Restaurant X are linked to from the CDC."
+berkeley,foy7b7q,t1_foxx913,1588166929.0,"Really depends on the instructor, and it is as much the final as everything else.  I personally allow time conflicts and always schedule a make-up final IMMEDIATELY after the final exam slot for those who want to double-book."
+berkeley,foy71k9,t1_foxq6um,1588166761.0,"The Stanford serology study raises so many questions: Math errors, recruitment bias (which the authors blithely dismiss in interviews), and even ethics problems on the recruitment.
+
+But it provides a very very comforting answer: it allows them to say “this is a bad flu, chillax”.  When it is not.
+
+It is a really REALLY f@#$( bad flu when the health care system is not overwhelmed and, when the health cares system gets overwhelmed, 1% of everybody infected dies.
+
+5 years from now there are going to be some very interesting psychology Ph.D. dissertations on the willful ignorance of people who wanted to downplay the problem even when it is raging through New York."
+berkeley,fowuwrk,t1_fowt9k1,1588127676.0,"No clue, but I think LBL is actually safe to reopen with some reasonable procedures:  Everyone wear a mask except in their private offices, the on-campus dining is take-out only for either widely spaced tables outside or for eating in private offices, keep using Zoom for meetings, etc...
+
+When I did a summer at LBL, except for the cafeteria the # of distinct people I would contact in a day is very low, and that was part of a set of generally disconnected sub graphs of people."
+berkeley,fowunvg,t1_fowt9o4,1588127526.0,"More data, and watching the US totally, completely, and utterly fuck this up.
+
+There first is the gross incompetence with testing.  I would have thought by now that the US would have an order of magnitude more testing capability: you know we have enough capability when most tests are negative.  Instead, testing is STILL being used to confirm that someone who is sick is positive, not as a tool to block the presymptomatic carriers and halt the spread.
+
+The denial of both the virulence and lethality has become a political issue, and that denial means it will spread more.  That we have idiots advocating to “Reopen California”, and the actions by other states, makes me really worry that come fall we won’t be in a good enough place for even a hybrid model.
+
+Especially since a University like Berkeley doesn’t exist in the CA bubble, but we have students from all over.  So if we bring in a huge # of students from across the world, we are also importing those states policies for how to deal with this."
+berkeley,fowuacw,t1_fowtuwl,1588127294.0,"A graph is a way of representing connectivity.  Each person is a “node” in the graph, and their contacts are edges.  For a virus like this, it tends to spread through the social graph.  So if Alice and Bob are in the same class, there is an edge connecting them...  If Bob is then in a class with Carol, there is an edge between Bob and Carol, and a path from Alice, through Bob, to Carol.
+
+Isolated sub graphs, groups of people who only interact amongst themselves, are generally fairly safe because the pathogen has to get into the sub graph first.  But when you have densely connected graphs (you are in a class with 30 other students), and the graph itself is dense (each of those students is in 3 different classes, each with 30 other students...), the number of people just 2 hops away is frighteningly large."
+berkeley,fowpxrb,t1_fowo25r,1588124695.0,"There is a huge risk difference between elementary school, high school, and university, both due to the population, how the population interacts with the outside world, and the shape of the graph.
+
+There is a huge problem with presymptomatic carriers, but there doesn’t necessarily seem to be asymptomatic carriers: so teenagers and below are mostly (but not completely!) immune.  So it becomes a question of graph topology.
+
+With elementary school, if you don’t have the playground common for all classes, each group of 30 kids is their own distinct graph.  High school is more mixed, and the older students may get infected at a low rate.  
+
+College the connectivity graph is nightmare-dense, AND the student population is more likely to get sick (and therefore be infectious even if they are in the low risk of dying category).  You are also adults, so interact a lot more in the wider community.  And what about us poor faculty?"
+berkeley,fowouqk,t1_fownuy2,1588124075.0,"Depends.  Grad classes can probably be done on Zoom just as easily as undergrad classes, projects likewise.  
+
+Lab work for wet labs is relatively safe in the graduate setting: only a few people, lose connectivity graph, etc, unlike undergraduate lab classes.  That is part of the problem is not just the contagion but the graph connectivity.  If you have an isolated sub graph, eg, 10 students in one bio lab, it is probably OK as the links in/out are sparse.  But with an undergraduate lab class, each lab has 30 students, and each of those students interact with a completely different set of 30 students so 1 hop out is several hundred students."
+berkeley,fowohnk,t1_fowndje,1588123867.0,"No clue, they are flying blind just as the rest of us, and there are real negatives if they commit early."
+berkeley,fowof1u,t1_fown5zr,1588123826.0,"The problem is “Snake eyes then snake eyes” is way too low (but still damn scary)...  So that is why “3”.  Proper answer would be the first die as 1 or 2, second as 1, but that is hard to explain so I use a estimate that is slightly high but still probably within the measurement error for South Korean data."
+berkeley,fowntdq,t1_fowlfq8,1588123481.0,"I fear we won’t really get out of the “first wave” with how badly things are being mismanaged.  With it being viewed as a political issue, we have states (e.g. Texas) that are, on the state level, overriding necessary public health measures like reopening movie theaters!?!? and restaurants.  I have a bad feeling that deaths per day will drop a little as New York City recovers, but from then it ends up being a continual grind of 1000+/day body bags because every time a state does a stupid thing, 2-3 weeks later there is massive suffering."
+berkeley,fowni4h,t1_fow89zj,1588123297.0,"Its the right solution, but the devil will be in the details on app implementations.  EG, I would probably want the app to notify the health department, not just the user, when there is a probable encounter.
+
+But its a long essay for another day, really."
+berkeley,fownedk,t1_fow1n5z,1588123235.0,"Another factor on the university side is many will face huge pressure to reopen for revenue reasons.  Berkeley can probably keep most of the students in an online-only format, but many can’t.  So many universities will feel a huge economic pressure to reopen."
+berkeley,fown9qn,t1_fow1b8o,1588123161.0,"Too far in the future.  There is a non-trivial chance that the vaccine timeline becomes a year not 1.5+ years, and I do think a vaccine is highly likely to be effective: this is the type of threat the human immune system is designed to deal with when properly primed."
+berkeley,fown5pv,t1_fow0o98,1588123095.0,"25th Amendment.  Seriously, the dysfunction starts at the top, with Trump’s ego-driven whipsawing making the problem vastly worse.  We have states being dangerously inconsistent, no federal focus, and at the state level when the state does well (e.g. CA), people complain that we overreacted.
+
+Short of a change of federal leadership, I don’t see us being meaningfully functional in the fall."
+berkeley,fovvwpf,t3_g9uxya,1588108448.0,"I would be personally surprised if on-campus housing is a viable offer in the Fall...
+
+All the units with their shared bathrooms and even the larger foothill suites are highly connected nodes, and the dining halls literally can't run in the presence of Covid."
+berkeley,fovvqrx,t3_g9tmf2,1588108364.0,"61C is one of the classes where we have gone all-in on scalability, so in general we are able to process the waitlist.
+
+It may be different this coming semester however with the fubar-ing of the TA budget..."
+berkeley,fov1f8r,t3_g9r1sw,1588093825.0,"No, just take it P/NP.  Any university who doesn't understand that Spring 2020 is a FUCKED semester doesn't deserve to have you as a graduate student."
+berkeley,fo5dbuf,t1_fo4surm,1587522936.0,Yes way.
+berkeley,fo166rp,t3_g52fz0,1587426560.0,"You are forgiven!
+🤣"
+berkeley,fn6mohl,t3_fzhw7w,1586702965.0,"We have a brilliant TA staff, lead by Stephen Kaminsky, who has made it so that the workload for fall & spring is effectively the same, so for example I went from 5 projects to 4 this semester.
+
+So workload wise we are effectively the same, and we are effectively the same on grading as well, so it is as much a matter of who’s teaching style you like better."
+berkeley,fmv22qj,t3_fxiazx,1586404154.0,"Gah, I’m jealous that it isn’t me..."
+berkeley,fmp9t8v,t3_fwezfc,1586277052.0,"Read ""Smashing the stack for fun and profit"" for project 1.
+
+Get familiar with Go for project 2."
+berkeley,fml6uku,t3_fvspjp,1586180055.0,"OK, I am not an epidemiologist, and I don’t know anything formal about the university’s plans...
+
+But the best-case scenario will be a hybrid one.  CA has, so far, been ahead of the curve of the rest of the states.  We locked down early, we are not letting up for another month, and finally, FINALLY, universal mask wearing is being encouraged.
+
+When case loads are low, and the ability to test is high, it is possible to go back to “semi-normal”: Test/trace/quarantine to prevent outbreaks and social protection (universal mask wearing, keeping your distance) to ensure that the R0 stays low.
+
+But that is only semi-normal.  I suspect that even with a South Korea level monitoring process there will be bans on gatherings of 100 or more in place until there is a reliable vaccine.  The lessons of the South Korean church outbreak and the choir outbreak in Washington really show how virulent this thing can be in enclosed spaces with larger groups.
+
+Which makes a best-case scenario a hybrid online/in person system.  Discussions can be held, and small classes (<30), so that if there is a case you can test/trace/quarantine effectively.  Lectures and exams however are on-line only.  Suite-setup dorms are OK (so Foothill, Clark Kerr), but common floor bathroom dorms are closed.  Dorm DC is a take-out only box & go.
+
+Masks become all the fashion:  Law school gets Brooks Brothers, Haas is rockin the LV, and EECS is overrun by infosession masks.  Just don’t wear the Palantir one to my class, thanks.
+
+And Cal Football once again plays to lose and break everybody’s heart, but we have to watch on TV because the stadium is empty...  Oh wait, how is that different?
+
+But also keep in mind this is the BEST case scenario.  There is also the possibility that the state and nation get trapped in a cycle of “release/outbreak/release” and it is on-line only in the fall.
+
+-Nick (don’t call me Professor) Weaver"
+berkeley,fmi0vw1,t3_fvahud,1586099960.0,"Likewise, the staff for all the classes have done an amazing job of being helpful.
+
+Finally, remember, P/NP.  The department’s guidance for those not yet in the major has been put out already."

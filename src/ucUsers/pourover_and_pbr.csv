@@ -1,0 +1,43 @@
+subreddit,self ID,parent ID,time,text
+Thundercat,fpi229x,t3_gdjpxs,1588632132.0,It’s for when you feel kinda fly.
+minimalism,fpdk423,t3_gcpp7a,1588528556.0,"Become a landlord and live in the woods, emerging only to collect rent checks"
+MachineLearning,fpay9yi,t1_fpamkld,1588458227.0,Thanks for commenting! I hadn’t heard “self-supervised” before but it makes a lot of sense.
+AppleWatch,fpa9eum,t3_gc6pqj,1588443490.0,"Thought this was a meme for a minute, good for you!"
+MachineLearning,fpa78ra,t1_fp8zs1z,1588442227.0,"If I understand the paper correctly, they pre-train the model using COLMAP and Mask R-CNN to get a semi-dense depth map for any frame. They then improve the depth maps at test time by randomly sampling frames from the video and re-training the model using ""spatial loss"" and ""disparity loss"", which are defined in the article. Mask R-CNN is traditional, supervised learning for object segmentation. COLMAP and this model appear to be unsupervised, since there are no reference depth maps being used for the loss. Instead, the loss for COLMAP and this model appears to be based on whether frames which capture similar regions of the scene have similar depth maps. At least, that's what I understood from the paper – someone smarter than me will hopefully come along and clear things up."
+badcode,fp8s157,t1_fp8nb6h,1588401088.0,That’s why the function calls quot(0).
+worldnews,fp6q5uw,t1_fp6px3x,1588356671.0,"America bad, punish me daddy, updoots to the left"
+CFB,fp6mnvg,t1_fp5gdkv,1588354959.0,"I’m not sure what the situation was like back then, but I took it last December and it was basically paying $200 to take the SAT again (as in, it was no more difficult than the SAT)."
+playboicarti,fp4zqrl,t1_fp4zkhl,1588311841.0,"I mean... you’re not even listening to music at that point it’s like abstract art. I definitely listen to it and enjoy it every now and then, there’s a leaked song called “choppa on me” that’s pretty good"
+playboicarti,fp4z8ry,t1_fp4wnsj,1588311428.0,nah 645ar slaps
+hiphopheads,fp4rxg9,t3_gbb50x,1588305875.0,people shitting on the carti verse in 3...2...1...
+CFB,fp4nwg8,t1_fp2uw7h,1588303195.0,"Have you taken the GRE? The cost is a much bigger hurdle than the difficulty. If it was free, it would make more sense, but it shouldn't be a $200 admissions requirement."
+worldnews,fp4nj40,t1_fp4k2la,1588302956.0,"Yeah, but right now he can hide behind the stock market dropping being the Fake News Pandemic^TM"
+berkeley,fp3kedj,t1_fp3jdp1,1588280848.0,"Everyone knows economics doesn’t real, duh"
+berkeley,fp3io1z,t1_fp3hmip,1588279972.0,"If they were confusing the policy preferences of Democrats with science, they must have only been doing so because one could never confuse the policy preferences of Republicans with science."
+berkeley,fp3iitn,t1_fp3hayu,1588279901.0,You mean to say there’s politics in politics? That’s what politicians are for? This is all getting too political for me.
+MachineLearning,fopwszq,t1_fopt62l,1587974780.0,"Yes, according to the paper OP linked convolutions layers are involved in both the encoder and the generator."
+MachineLearning,fonv6ee,t1_folscxu,1587927091.0,"Yep, you’re right, I didn’t see them click “display reconstruction”."
+hiphopheads,fonv09e,t1_fonqjds,1587926996.0,I love the future
+berkeley,fonpi82,t1_fomo1n9,1587923944.0,I second this. Pretty much all of my college friends have been outside the CS/EECS department.
+hiphopheads,fonlynq,t1_fone7uf,1587922041.0,"If you go to the YouTube video where the voice sample comes from, they have a description, but basically a neural network learns to generate audio from text by being trained on samples of Jay-Z’s voice (like they’ll give it a sentence and the audio of Jay-Z rapping that sentence) and over time it gets good enough that it can produce audio that sounds like Jay-Z on sentences it hasn’t seen before. The main model behind this application is called [WaveNet](https://www.deepmind.com/blog/article/wavenet-generative-model-raw-audio) and in the network used here they add a couple layers before WaveNet to extract features from the sentences (basically giving it more to work with) that are used by WaveNet to produce audio."
+MachineLearning,follzwv,t1_foljtun,1587865149.0,"Edit: This is wrong, but I’ll leave it up. 
+
+No, they take a reference image as the baseline (I don’t recognize the celebrity but it’s the first new face after Emma Watson) and then as they adjust the sliders the model generates new faces using the baseline on the fly."
+MachineLearning,follun5,t1_foljx82,1587865054.0,"Good catch, I’ll edit."
+Libertarian,fol5wij,t1_fol5a17,1587855504.0,"Could you for like, fifteen seconds, not be a complete fuckwit"
+MachineLearning,fol4hu6,t1_fol1ucw,1587854720.0,"A variational autoencoder is a pair of networks, an encoder and a generator, one which encodes data into a smaller ""latent"" space, and one which reconstructs the data from the latent space. Basically the goal is to learn a smaller representation of the data which supports reconstruction. 
+
+The generator network can then be trained in an adversarial setting against a discriminator network. The generator attempts to produce real-looking images, and the discriminator attempts to discern fake images from real ones. Over time, this setup allows the generator to produce very realistic images. We can reach this level of detail by upsampling lower-res images into higher-res ones using the same technique.
+
+As /u/Digit117 says, it appears that the specific application here is by using an initial reference image, which then gets tweaked by the input sliders. It would be much more difficult to come up with new faces from scratch. On the last page of the linked paper, you can see some of the reference images they used and some of the rebuilds that the network came up with."
+worldnews,fohpgx0,t1_fohm20c,1587770116.0,It’s just such a bad system for a representative democracy.
+worldnews,foh26hv,t1_fofgamu,1587759680.0,"Well, in Finland, you have a multi-party system. If one of the parties goes off the rails, the other parties can unite against that party while still providing voters with a choice. So, if some batshit populist party gains a following, the others can be united in their opposition, while still allowing voters to choose between more liberal or conservative offerings. 
+
+But here, where the system is bipartisan, if one party goes off the rails, there’s nothing the other can do – they’re already in direct opposition to each other. Sure, a couple conservative senators might abandon their party – we’ve seen that with Romney, McCain, Amash, etc. – but if you want to oppose one party, you HAVE to support the other. So the parties are free to go as off the rails as they want, since they’ll always have support from people who don’t want the other guys to win. If you believe in lower taxes, or smaller government, you’re never gonna vote Democrat, no matter how batshit the Republicans may be."
+Gamingcirclejerk,foeumq8,t3_g6wiv6,1587715322.0,who fucking cares
+apple,focgnl8,t1_foaihzl,1587671109.0,"Would be nice if the Pro-line models let you choose the processor. Like, the Apple variant comes default, but you can pay extra to upgrade to something from Intel or AMD. (Would be super nice if they let you replace it, but oh well.)"
+lawschooladmissions,fo599f5,t1_fo591pf,1587520291.0,OP said 150k
+lawschooladmissions,fo55v1m,t1_fo2doj4,1587518170.0,"If your first years’ salary wipes out your law school debt, how much are you losing exactly in terms of “time value of money”? Sure, being under debt for a long time hurts your ability to buy a home/start a family/etc., but if your debt never gets the chance to accrue interest because you pay it off, you’re in pretty much the same situation as if you’d never taken on the debt in the first place."
+MapPorn,fn3z038,t1_fn3vt3l,1586630715.0,"Regional offices seem to be set up so they’re in major cities, whereas regional divisions are defined more culturally."
+drunkencookery,fn3wu9c,t3_fz6wes,1586629480.0,Looks like the packaging of a TV dinner. 10/10
+worldnews,fmfmbgx,t1_fmfi709,1586030248.0,Why not a different country?
