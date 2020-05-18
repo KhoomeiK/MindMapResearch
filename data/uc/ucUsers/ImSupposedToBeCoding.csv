@@ -1,0 +1,110 @@
+subreddit,self ID,parent ID,time,text
+WeAreTheMusicMakers,fp6lm8q,t3_gbfhog,1588354449.0,FL Studio beginner looking for a good Midi keyboard for making Hip Hop. My budget is $100-$150 and just looking for some suggestions from someone with experience. I've been looking at the [AKAI Mini MKII](https://www.amazon.com/Professional-MPK-Mini-MKII-Est%C3%A1ndar/dp/B00IJ6QAO2/ref=sr_1_2?dchild=1&keywords=midi+keyboard&qid=1588352141&sr=8-2)
+Ubuntu,fp2n6go,t3_gaq1v6,1588264617.0,Why does it use swap when the memory is not entirely in use?
+AmItheAsshole,fow1iza,t1_fouwwqy,1588111300.0,lmao
+AmItheAsshole,fow1doi,t1_foum2cw,1588111225.0,Just here to point out following a court order =/= the basis on which we should determine assholeness.
+cscareerquestions,fovfcrk,t3_g9nozb,1588100372.0,My first assignment was a a huge list of security findings through Checkmarx that I needed to resolve for a legacy application written in VB & [ASP.net](https://ASP.net). There was zero training and they basically threw me in their saying good luck. I was super pissed and really hated my job at the time. Since then I've gotten to work with more recent tech (Angular & Node). Still salty about that and will be leaving my company soon.
+learnprogramming,fofyhmb,t1_fofurg4,1587745030.0,thanks its the reddit account i only use on my work laptop when i truly am supposed to be coding...
+linux,fofw5id,t1_foeu5z5,1587743868.0,"When it comes to multi-factor authentication we describe things as ""what you know"" (eg password) and ""what you have"" (eg authentication app that generates tokens, or a card you insert into your computer). Also, there's ""what you are"" (eg retinal scans, fingerprints).
+
+A username is something you know, but a fingerprint is something you are. So I really don't think a fingerprint can be described like you did. Because not everyone really ""knows"" your fingerprint, just the fact that you have one."
+linux,fofvqd1,t1_foe5fzw,1587743662.0,I clicked on this post super excited just to see your comment :(
+learnprogramming,fofuyol,t1_fof43sm,1587743278.0,">coding is a skill that requires a LOT of investment.
+
+cries in all the years i spent at uni"
+learnprogramming,fofujq0,t1_fofojca,1587743071.0,The tragedy of the back to back typo lol
+BlackPeopleTwitter,fo7vgnv,t1_fo7e6vq,1587585235.0,"I mean... not exactly. Because your tax money will go with what we as a whole voted on. Say you wanted your money to go to schools, but instead it went to some bullshit military spending because that was what was voted on. But in the scenario I described you can literally pick where your contributions go"
+BlackPeopleTwitter,fo7d2pv,t1_fo75exu,1587576271.0,"I always thought it would be cool if there was a portion of our taxes which we could choose what it goes towards. I mean obviously it would be broken if we can choose for it to go anywhere but we could be given some decent options (healthcare, public schooling, roads, military(if you're a dumbass), etc)"
+AmItheAsshole,fo4e2zc,t1_fo47yob,1587502759.0,"Sure if your sole goal in life is to make money, yes it is a ""smart"" move as in it's most likely to get you your money. But at the cost of being an asshole, which I'd say it's pretty relevant based on the sub we're in."
+AmItheAsshole,fo42yfr,t1_fo30tqo,1587497303.0,"The original owner is an asshole, we've established. That but that doesn't give OP the right to literally hold a cat hostage. At the least, give the cat back, but demand payment."
+AmItheAsshole,fo402ln,t1_fo3b0qp,1587495883.0,"Because he refused to give the cat up which was in his house. What he should of at the least done, is give the cat up and continue to pester the owner for the money. THat I think is fair."
+ExperiencedDevs,fnzucrs,t3_g4vbyp,1587400905.0,"I think using a functional programming language is not going to do you any favors. Many interviewers probably havent used a FPL in a while  and your interview will be bogged down by you explaining a few things here and there, detracting away from the actual problem."
+crypto,fnq2qqy,t1_fnq2d9m,1587156570.0,im too lazy to double check so ill take your word for it haha
+BlackPeopleTwitter,fnpwofz,t1_fnpooxy,1587153366.0,\>> Options Trading has entered the chat <<
+crypto,fnptl0d,t1_fnp2dn7,1587151756.0,"Interesting, let's try to do some math. But first, what constitutes ""close variation""? In the context of OP's post, let's say some word A is a close variation of some word B if it differs by 2 or less characters.
+
+Let's make a list of every possibly ""close variation"" of B with the following assumptions: B is of length n, only a-z, A-Z, 0-9 = 62 character space. 
+
+* B, but missing a single character: (O(n) time to check these
+* B, but missing two characters: O(n choose 2) = O(n! / 2 \* (n-2)!
+* B, but a single character swapped with any other character except itself. O(n\*61)
+* B, but two characters swapped with any other character except themselves respectively: O((n choose 2)\*61\^2) = n!\*61\^2 / 2\*(n-2)!
+
+But let's think about what's realistic for n. Most likely someone's password won't be 32+ characters long. But let's assume the worst case is a length of 64. That would take:
+
+64 + (64! / 2\*(64-2)) + 64\*61 +  (64!\*61\^2 / 2\*(64-2)) = A BIG FUCKING NUMBER"
+motorcycles,fnhv9en,t3_g0hrqp,1586969432.0,"Are there any newer cafe racer-style bikes I can get for about $5000? I'm looking to get them second-hand, but all the ones I find are really old Hondas (from the 70's/80's)."
+ProgrammerHumor,fnhhbl3,t1_fnh0z2s,1586962404.0,">   IMO people are offended by append
+
+I wouldn't say anyone is ""offended"" by append.... I'm just saying, when you switch between languages a lot with work/personal projects/etc it can throw you off when a lot of languages stick with the push convention."
+ProgrammerHumor,fng0umr,t1_fnfo5dl,1586919706.0,"elif is definetely shorter but I wouln't say easier to understand since elif is literally short for else if. I agree with your second point though, x if A else y is also intuitive where when everyone first saw  the conditional operator they were like wtf.
+
+Append does make more sense when you say that, but it's not conventional/typical."
+ProgrammerHumor,fng0ly3,t1_fnfyxqq,1586919550.0,lmao wtf
+ProgrammerHumor,fnflhoj,t1_fnfkjga,1586910419.0,"`else if` ? Nah we like `elif`
+
+`(A) ? x : y` ? Nah we like `x if A else Y` (I actually kind of like this one)
+
+`push`? Nah we like `append` (This is the one that fucks me all the time)
+
+The list goes on lol"
+ProgrammerHumor,fnfl4k8,t1_fnfgfjs,1586910204.0,"I'm going to firmly disagree with how verbose Java can be, as well as many small things like wrapper classes (try explaining Integer vs in to a beginner). When compared to something like Python or Javascript I think Java is harder to learn. Not saying it's a super difficult language, I just wouldn't consider it an easy one."
+BlackPeopleTwitter,fnf2px1,t1_fnewv8u,1586900322.0,"This tweet was 100% coherent, apostrophe's and all, lmfao what are you on about?"
+wallstreetbets,fnenbxa,t1_fnemvh1,1586892427.0,$55? what the hell..
+UCSD,fnemtcm,t1_fneiubq,1586892167.0,haha came here to say this
+AskReddit,fnekxij,t1_fne0m0a,1586891212.0,there should be a website for that lmao
+politics,fnegckd,t1_fnefucz,1586888874.0,">the first mainstream African-American who is articulate and bright and clean and a nice-looking guy.
+
+wtf, there are plenty of ""main stream African-Americans who are bright and clean"""
+wallstreetbets,fne7omc,t1_fne7hlf,1586884508.0,straddle gang
+cscareerquestions,fne1no1,t1_fne133a,1586881477.0,thanks!
+cscareerquestions,fne08p4,t3_g16bd7,1586880751.0,"Job searching since December, and I finally GOT AN OFFER. It was only verbal and should be getting the written offer in the next couple days, it's making me nervous, but I'm glad to be done. Still waiting to hear back from another company, but even if I get rejected I don't care!"
+wallstreetbets,fndx7uh,t3_g13jnz,1586879171.0,Anybody else on this LONG STRADDLE train?? Going to cash out when it goes up a little more then cash out again with a crash. Whooooooooo's with meeeeeee??
+wallstreetbets,fndwy1z,t3_g16ekl,1586879027.0,Just hold your puts
+options,fndv7xf,t3_g15yku,1586878113.0,"I just hopped on the long straddle train, hoping to cash out at a peak and then cash out again following a valley. Here we gooooooo!"
+options,fnduwht,t1_fndqprz,1586877944.0,Mike Tyson's online swimming course?
+UCSD,fndr9nz,t1_fnctr88,1586875980.0,"I feel like a remember a looong time ago, like 10+ years ago, some kid made a CS map of his school and got in big trouble for it. Something about practicing an active shooting... I think he just had innocent intentions and just wanted to have fun but the school didnt see it that way."
+cscareerquestions,fndqyx9,t1_fnckxar,1586875816.0,Holy. I think I'm at the beginning of that path. Right now all I want to do is learn more and more...
+BlackPeopleTwitter,fnb8nbh,t1_fna2crr,1586811147.0,lmfao wut
+BlackPeopleTwitter,fnb8liu,t1_fn9z247,1586811120.0,"dont lie, you like that in a women tho"
+ProgrammerHumor,fnafz3z,t3_g0geiz,1586796833.0,"Funny to think back on how confusing recursion was especially with multiple recursive calls, when these days it's so embedded in my brain."
+ProgrammerHumor,fnaflin,t3_g0lesv,1586796642.0,quite accurate
+cscareerquestions,fn0cj25,t1_fn070rx,1586539440.0,Big F
+cscareerquestions,fn04lqm,t1_fn01xgt,1586535353.0,Strike price and expiration date?
+cscareerquestions,fmzxz6c,t1_fmzwcss,1586531794.0,SOMEBODY'S HOLDING PUTS IT SOUNDS LIKE
+UCSD,fmxk4w6,t1_fmxj47m,1586466499.0,"I bought mine on eBay, and i just took a look. This is ridiculous, they are definetely inflated... I'm seeing ones that are like $60. Sorry man.."
+TwoXChromosomes,fmx9f26,t1_fmx5xnq,1586460861.0,"> I’m just going to calm down and move on. 
+
+Something we can all learn from you, :)"
+wallstreetbets,fmx5w6h,t1_fmx5tcl,1586459028.0,Diamond hands sir!
+UCSD,fmx1jwu,t1_fmwzyg4,1586456816.0,"honestly im lazy af, but some good at home exercises i an think of are push ups, tricep dips (us a bed, chair ,couch), of course core. Lately I've been going on a lot of runs which i think is important"
+UCSD,fmwr37g,t3_fxuxej,1586451533.0,"I bought a $20 pull up bar that hangs in the doorway. It's not a direct replacement, but pullups combined with other body exercises can take you a long way."
+HistoryMemes,fmwcrod,t1_fmvedrv,1586444188.0,took me way too long to see what you were talking about
+cscareerquestions,fmwbv1d,t1_fmv9za2,1586443688.0,"Only bachelors, less than two years of experience."
+cscareerquestions,fmwbtx9,t1_fmu6gac,1586443670.0,"Yes, within the last two weeks."
+wallstreetbets,fmsx1ha,t1_fmswscf,1586363332.0,"Oatmeal, rice, and beans for me. Need all the money I can save for gambling on options"
+options,fmsoxll,t1_fmso58w,1586359610.0,"Basically, haha."
+cscareerquestions,fmsonz1,t1_fmrwuj0,1586359473.0,"You fell into the classic trap. Someone looking for a job (often new-grads) get their hopes up for one specific role (usually big-N) and only focus on those interviews. Then you get rejected and not only do you take a huge morale hit, but now you haven't been using your time to apply to other places. I fell into this trap too, so I'm not berating you.
+
+You should learn from this, and next time continue to apply to other places even though you're interviewing with your dream company. You have to be realistic as well as optimistic.
+
+>since all the previous stages went perfect.
+
+This is some dangerous thinking, and a little cocky. There's no way to know you did perfect in an interview. If you solved the question quickly != perfect. They're screening you for a million things not just if you got the problem or not.
+
+Good luck my friend!"
+cscareerquestions,fmso3kf,t1_fmroctq,1586359174.0,"**What is the deal with FB's ""Enterprise Engineer"" role vs standard SWE?** From what I gathered it's ""less prestigious"" but I can give 2 shits about that. I know the pay is a bit lower, but it's still high compared to most dev salaries, so I'm fine with that. **My concern is what do they do on a day to day basis? Is it mostly coding or is there lots of It/dev ops.. ?**"
+cscareerquestions,fmsnyvz,t1_fmsadoa,1586359105.0,"I had my first Zoom interview on a Wednesday, and heard back the following Monday."
+cscareerquestions,fmsna3i,t1_fmrh4ke,1586358741.0,"Many people will has a subconscious bias, but I think most people aren't so shallow and if you shine in your interviews like any other candidate, you will get hired!"
+cscareerquestions,fmpxe3t,t1_fmpgx7f,1586289070.0,"You only ""plan"" to renege if company A is asking for a decision by a certain date and company B won't give you an offer/rejection until after that date.
+
+But just savagely accepting all 4 is shitty behavior, will cause 3 other qualified candidates to lose their spots"
+wallstreetbets,fmp3vdy,t1_fmowj0r,1586273939.0,"99% of people on the sub are buying options, so unless you're writing them, you're not really betting against anyone here lmao"
+ProgrammerHumor,fmoylx5,t3_fwg3sa,1586271056.0,"Me, being a financially responsible adult who *could* finance a fancy car, knowing that lots of other SWE's are show-offy douchebags and instead drives a humble early 2000's Honda:
+
+Wtf is this?"
+ProgrammerHumor,fmoyavs,t1_fmokgzr,1586270888.0,"i was definitely a moron in middle/highschool, not sure what happened but it just clicked for me in college"
+learnprogramming,fmoxtqe,t1_fmobea8,1586270625.0,lmao totally not the reason... esp since URL collisions for the same input != figuring out the algorithm
+ProgrammerHumor,fmow48e,t1_fmnpa14,1586269637.0,That's definitely annoying when it feels like you can just have that tool running on a server that files are uploaded to. Making it an extension to an IDE seems unnecessary
+MechanicAdvice,fmldhe3,t1_fmctap8,1586184205.0,"nah the ones ive worked on were 05 civic, 03 crv, 07 pilot"
+MechanicAdvice,fmck1ak,t1_fmchy76,1585947170.0,"i have that same one from o reillys, but one of the bits broke (after getting the job done). returned it for a fullr efund"

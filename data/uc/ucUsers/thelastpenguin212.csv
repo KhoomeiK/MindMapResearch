@@ -1,0 +1,24 @@
+subreddit,self ID,parent ID,time,text
+theydidthemonstermath,fowd9st,t1_fou36yq,1588117548.0,This account’s post history looks a bit like a downvote farmer.
+UCSantaBarbara,foosxsa,t1_fooiwz3,1587945787.0,thanks!
+UCSantaBarbara,foostpw,t1_fooo7c5,1587945720.0,I tried! The photo is actually taken from a small single prop plane I went up in -- its from an altitude of around 4 thousand feet (if i recall rightly) with a DSLR.
+UCSantaBarbara,fols3zt,t3_g86nuw,1587869172.0,Managed to snap this photo out the window of a plane today of the beach at downtown SB. Sorry about the quality.
+UCSantaBarbara,fnxadp9,t1_fnx97s9,1587334648.0,"of course, definitely its not an excuse."
+DataHoarder,fnx5471,t1_fnwitz9,1587331654.0,"This is not correct. Cloud providers prefer HDDs for backups and infrequently accessed data. Tape is pretty much only used for backing up very large data and restoring it in the event of a failure, the seek time is entirely infesable for anything else. 
+
+You may occasionally find yourself with storage from a block device that is using SSD’s and ram to cache HDDs but with the exception of stuff like amazon glacier it is entirely unclear that cloud providers are using tape at all (and it is not clear that tape is used in glacier either)."
+UCSantaBarbara,fnx4hb4,t1_fnx1eer,1587331299.0,They might not be great doctors / want to work there to begin with. It’s possible they just can’t get jobs elsewhere.
+UCSantaBarbara,fnm83aw,t1_fnm6lrj,1587066732.0,You will be dropped from your classes and will not progress in your major.
+UCSantaBarbara,fnm41vf,t1_fnlzkhs,1587064726.0,"And what about the cost to you in terms of lost wages by delaying your graduation? It concerns me that withdrawing is likely to hurt you a lot more than the university in the long run.
+
+You are right to raise the issue, but I'm not sure this is a wise way of showing your protest."
+SanMateoCounty,fneogcl,t1_fnenozk,1586892998.0,can you provide a source on this?
+unRAID,fmut65t,t3_fxh3fh,1586398328.0,What case are you using for 22 drives? I’m in the market to upgrade.
+selfhosted,fmn1fg5,t3_fvz3ua,1586216200.0,"One debugging tip if you're struggling with docker containers that I don't see too often -- you can use
+
+`docker exec -it <container name> bash`
+
+to open a shell inside the container (so long as it has bash available). This can be super useful for looking around inside your container and figuring out why your configurations might not be working.
+
+docker-compose is also a must for any kind of complex setup."
+unRAID,fm9h062,t1_fm90vsj,1585868557.0,"Yep, I’m running 32gb of ECC ram and it works perfectly. You need to be careful to get the unbuffered kind for this motherboard."

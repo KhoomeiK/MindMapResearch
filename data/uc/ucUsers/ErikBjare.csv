@@ -1,0 +1,58 @@
+subreddit,self ID,parent ID,time,text
+QuantifiedSelf,fpi9lv7,t1_fphrs6q,1588636417.0,There's also  [Bioloop](https://bioloopsleep.com/)
+Lund,fpaciz5,t3_gc8uuo,1588445323.0,"Hey this could be a nice idea. There are already Discord channels for two organizations at LTH:
+
+ - [X-lab - Makerspace at LU](https://discord.gg/ehfmm4)
+ - [Code@LTH](https://discord.gg/bHcGVq)
+
+Invite links expire in a day, DM to get a link after that (anti-spam measure)."
+Syncthing,fp5sbmm,t3_gbhb8n,1588338763.0,">On android, say the device has 32 or 64GB sd memory available, and a server has say 8TB, can the android app only let any other apps browse the files without ""syncing"" them, unless wanted?
+
+Unfortunately not. 
+
+>Can the syncthing android app only ""mount"" the remote storage?
+
+Yes, it only syncs whole directories and does not allow for browsing, although it might be possible to build."
+Python,foyodbn,t3_ga7y7f,1588176166.0,"What a coincidence, [I wrote the PR](https://github.com/plamere/spotipy/pull/191) that added the `current_user_playing_track` method to spotipy! Really nice to see my small contribution in use!
+
+I wrote it when I was working on [aw-watcher-spotify](https://github.com/ActivityWatch/aw-watcher-spotify), a small script which tracks what you listen to on Spotify and stores it with [ActivityWatch](https://github.com/ActivityWatch/activitywatch). I did not imagine it could be used for stuff like this!"
+tDCS,foqhmft,t3_g8konr,1587993764.0,"Huh, first time I see someone mention Flow in the wild. We had our office right next to theirs last summer. 
+
+Can't comment on their product, but I'm pretty skeptical of tDCS in general, so there's that."
+cardano,fohg570,t1_foh1bpm,1587765403.0,BTC and Ethereum has pretty different processes though. And it's not like Vitalik calls the shots on what will be merged.
+nomie,fohae4h,t1_foh2q9u,1587762679.0,Is the internal data UTC though? Or does it store timezone info?
+nomie,fo9n6rn,t3_g6g5ex,1587624557.0,"I don't know how Nomie works, but I would assume that it stores all times in UTC (without timezone, this is probably what you have in your exports if you look at the timestamps) and then simply displays the times in your current timezone. This is how we built it in https://activitywatch.net, and I expect our approach to be pretty standard."
+proceduralgeneration,fo2nsco,t1_fo2e0b5,1587469097.0,Would be fun to see that person have more than one kid.
+ethfinance,fnwgscf,t1_fnwgabz,1587318090.0,"Please link me the best argument you have found, the ones I've read on the MakerDAO forum seem to not give it any weight."
+ethfinance,fnwfzxh,t1_fnvjb3p,1587317666.0,"The lawsuit doesn't change anything. It's in the hands of MakerDAO governance, who [voted in favor of some sort of refund](https://vote.makerdao.com/polling-proposal/qmwfvvguaf8rz8xwgv2cqnzzt9t5h6epzh17qmk2ue99y4). The UI for claiming the refund is likely to have legal terms, including a clause about requiring user to not take any further legal action, so if passed may resolve the lawsuit, and everyone would be happy.
+
+Future governance polls are already in the works on the forum, including if the refund should be in ETH or DAI (valued at liquidation)."
+ethfinance,fnv6kot,t1_fnufg9o,1587281991.0,MakerDAO is looking to refund those who did though.
+WikiInAction,fnrnfif,t3_g3jd7c,1587194678.0,">Here's something that may interest you.
+
+Do you really think this sub gives a shit about Lomax? Please stop."
+ouraring,fnlkqfa,t3_g2ac77,1587055210.0,"It's weird like that, same with VR stuff like Beat Saber and other games where you move your arms a lot."
+unket,fnl9fe8,t1_fnkys1y,1587049504.0,"Förtjänar*, din C-uppsats får betyget: Underkänd
+
+^/s"
+rust,fnkl0jd,t1_fnkkhog,1587031100.0,">- no-std = without std (?? Without stdlib doesn't make sense to me?)
+
+Rust allows you to compile without the standard library, see: https://doc.rust-lang.org/1.7.0/book/using-rust-without-the-standard-library.html"
+berkeley,fnaizxr,t1_fnahyg4,1586798338.0,"Matlab is like Windows. There's better software that's free, but somebody else already paid for your license and built their thing with it, so now you have to too."
+ouraring,fnahb7k,t3_g0cwyg,1586797504.0,"Hey, looks like a great study!
+
+I'm building [ActivityWatch](https://activitywatch.net) together with my brother and a guy who's a CS student at University of Helsinki. We'd love to have a chat and talk about our mutual research interests and how we can help each other advance the field. Sending you a DM :)"
+theouterworlds,fmvzr06,t1_fmvq9nw,1586436004.0,I'd bet that DLC will be released around the time they are allowed to publish on Steam. Coronavirus or not.
+YangForPresidentHQ,fmtqt4a,t1_fmtnm2i,1586377401.0,"Holy shit, that's crazy. In Sweden we've gotten rid of our previous inheritance tax in a way that you don't have to pay capital gains for inheritance, but I think the estate also inherits the cost basis. 
+
+From what I've heard we basically got rid of it because of IKEA founder Ingvar Kamprad, whose estate would otherwise have had to sell a *lot* of shares to pay for the inheritance tax."
+YangForPresidentHQ,fmt9ek8,t1_fms1j8k,1586368975.0,"Huh, works differently in Sweden. We have taxation at ""avyttring"" (which is basically any liquidity event or transferral, it basically means ""disowned"" )."
+YangForPresidentHQ,fms0bcn,t3_fwz9mo,1586342100.0,"Does he have to pay capital gains on his ""donated"" shares? If so, how much?
+
+(I'm not in the US so I know very little about US tax law, apart from common stuff like 401k's)"
+FilecoinMiner,fmrxdnp,t3_fwsfds,1586338995.0,"You can, but you need to compile it yourself.
+
+See issues like: https://github.com/filecoin-project/go-filecoin/issues/2037"
+linuxmasterrace,fmblww3,t1_fmb2mzi,1585928936.0,"Wouldn't the last one be significantly faster due to the second-last one being limited by available system entropy?
+
+Edit: I now see u/bsdlinuxnerd mentioned that further down the comments."

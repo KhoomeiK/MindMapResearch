@@ -1,0 +1,65 @@
+subreddit,self ID,parent ID,time,text
+berkeley,fpjqggk,t3_gdu01h,1588677911.0,This is very different from what I’ve heard of Sahai.
+math,fp6rmdp,t3_gbjrn3,1588357402.0,My hardcover copy of Rockafellar's Convex Analysis is from the 1970's; I bought it used after it was removed from a library's circulation. It boggles my mind that finding a hardcover was so difficult.
+berkeley,fp486op,t1_fp3hayu,1588293633.0,"The goal of science is to uncover truth. Demonstrable, physical truth. This doesn’t always happen, but the fact remains that that’s the goal of science. When faced with a situation where hundreds of thousands of lives are on the line, there is a moral obligation to listen to those who are most likely to know how to save those lives. The situation here is delicate. More American lives lost than in the Vietnam War— in 3 months, under a massive nationwide quarantine. People who believe this virus is like any other are inviting carnage this country hasn’t seen since World War 2.
+
+Edit: I don’t want to mischaracterize your comment. What I wrote above is largely a rant motivated by shit other people are saying."
+RWBY,fp22ljp,t3_gap52l,1588253849.0,Is there any indication RT will continue with the box style / packaging for future volumes? I’d consider buying a box set if later volumes don’t end up awkwardly sitting next to it in different packaging.
+berkeley,fok0suu,t3_g7nbm8,1587833235.0,"You know its serious when you don't start sentences with capital letters :(
+
+Hang in there!"
+Caltech,fof6gad,t3_g6yia5,1587727659.0,"When you arrive, or maybe after tour first quarter, talk to some faculty you might want to work with. Explain that you’d be really interested in working with them provisionally for a year. Say, as a research assistant (not enrolled as a student, not taking classes, basically a “post bac” instead of a “post doc”). If you are a really good fit then they might be up for it. It would be cheaper than having you as a student anyway."
+Caltech,foa5gfl,t3_g6alqn,1587640033.0,"SAT is only for undergrad admissions. 
+
+You do not have to retake undergrad courses, but Caltech doesn’t really admit for masters -> PhD in a way that’s different from undergrad -> PhD, so there’s a good chance you’d spend a couple quarters redoing your masters coursework. But then again, you could probably just opt to take a different set of grad level courses at Caltech.
+
+There is little to no difference to grad admissions for US vs international applicants, except there is some need to demonstrate proficiency in English.
+
+You’d need to take the GRE. You might need to take the GRE subject test in physics.
+
+Disclaimer: I’m a grad student at Caltech, but not in physics. Also, I’m a US citizen so my impression of international admissions might be wrong."
+newhaven,fo49kog,t3_g5ifo5,1587500538.0,... what's the Wenzel?
+berkeley,fo3g990,t3_g55581,1587486388.0,"If you write a function ``my_func``, then you sure as shit better write unittests for ``my_func`` before using it in ``my_other_func``.
+
+Focus first and foremost on getting ``add``, ``remove``, and ``commit`` to work. Then write ``checkout``. When writing these functions, split the cases as early and as broadly as possible. For example, ``checkout`` will need separate logic depending on if a file name is supplied versus a branch name. Once you have these working on a single local branch, get local branches working. THEN figure out complicated shit like merging, push / pull, and rebasing.
+
+Essentially none of your functions should be directly invoked in the command line. It's extremely important that your functions operate on and return Java objects, so that you can test these functions without having to make the user-interface perfect.
+
+Edit: if someone thinks this post contains an inappropriate amount of detail please let me know and I'll delete it."
+math,fnzyqio,t1_fnyywza,1587403067.0,Yikes. You were downvoted so hard for something that's basically true...
+math,fnzygq5,t1_fnz2pzo,1587402932.0,"I'm not sure of the details, since this is way outside my area of research. My only exposure on the topic is [this mathologer video](https://www.youtube.com/watch?v=CaasbfdJdJg). Give it a watch, and check out the links in the description."
+math,fnz0eka,t1_fnz05gb,1587382273.0,"Represented nicely by *continued fractions*. The golden ratio can be expressed as ``1 + 1/(1 + 1/(1 + 1/(1 + 1/(.....))))``. This converges very slowly. Pi can also be expressed as a continued fraction, but that expression converges pretty fast."
+math,fnpnqjz,t1_fnpi2rm,1587148732.0,"I can’t tell if I’m surprised or not, that Numerical Recipes has something interesting to say about the freakin quadratic formula..."
+nerdfighters,fn6h3s5,t3_fz603o,1586699095.0,"RWBY is amazing. It's the only American-produced animated series to be released in Japan under a Japanese dub.
+
+The animation style is very unique, because it's entirely 3D computer generated. At first the quality is pretty bad, but there are some scenes where the benefit of computer animation becomes apparent. In later seasons (season >= 3) the animation quality picks up substantially. Nowadays the show is in a league of its own.
+
+Episodes are like 10 to 18 minutes, and the first 4 or 5 seasons can the bound (legally) on YouTube. The remaining seasons are on RoosterTeeth.com."
+math,fn4n2we,t1_fmt1ocw,1586644773.0,The matrices are almost entirely zero.
+math,fn4mbkg,t1_fmyu540,1586644334.0,"A-priori, nothing. There is a tremendous amount of work on nonsmooth and nonconvex optimization. People generally spend a fair amount of effort to model optimization problems of interest in a smooth and convex way, because smooth convex optimization is very well understood."
+math,fn3w2cg,t1_fn3jmet,1586629041.0,">The atomic number for Carbon is 6. Needless to say, Carbon is a wildly important element. (This might not technically be math-related, but shut up!)
+
+Your enthusiasm here is top-notch, lol"
+math,fn3vx01,t1_fn3jmet,1586628958.0,"Your formatting in ""1*2*3 = 1 + 2 + 3"" came out wrong, because of Markdown.  You need to write `1\*2\*3` to get 1\*2\*3."
+Caltech,fn2e4mv,t1_fn1zugr,1586585858.0,Jesus Christ this is so real.
+berkeley,fn1nak3,t1_fn11j1i,1586565697.0,The underscores are new. No telling if this is the one and only true HornyAsianBro.
+MachineLearning,fmzidpw,t1_fmyr1i3,1586521342.0,"17 months for a first round is neither normal nor reasonable. The editor of the journal and the faculty I’ve spoken to have made that clear. The norm in my field is between 4 to 8 months.
+
+I absolutely agree that no one owes me a quick acceptance, but reviewers do owe authors timely reviews, as a reviewer is certain to have benefitted from those in the past.
+
+I’ll grant that as I’ve described it, “horror story” is too strong a phrase. There are lots of other details which led me to use that phrase, but I won’t get into those in a semi-public forum like reddit."
+math,fmxb46h,t3_fxu11e,1586461741.0,The formatting here is absolutely beautiful. Anyone know what tool they use to manage their website?
+MachineLearning,fmwj9hx,t1_fmwhdgk,1586447577.0,"Submitted to a journal in late 2018. First round of reviews in March 2020. Two reviewers.
+
+Reviewer 2: the paper is good! I recommend acceptance. However it would be nice if some examples were added. Also, Section “X” is quite a bit longer than it needs to be.
+
+Reviewer 1: wrote eleven pages of feedback. (Given, in monospace font. Probably more like 6 pages in LaTeX.) Said the results were nice, but they don’t see how they can’t be inferred from experts who were deeply familiar with a certain line of papers. Recommended a major revision (ie no guarantee of acceptance upon resubmission).
+
+The editor decided to go with Reviewer 1, which I think that’s totally fair on the editors part. It’s definitely true that we weren’t aware of the line of work mentioned by Reviewer 1, and it’s important that we situate our work correctly with reference to that other work. In many respects I’m grateful for Reviewer 1 being so thorough. But I’m also kinda floored by the length of time they required.
+
+I won’t “name and shame” here, since I don’t want to cause drama, and my experience isn’t representative of people who submit to this journal. But just the same, it’s been a pretty demoralizing experience."
+MachineLearning,fmwgn8j,t1_fmw6xo5,1586446237.0,For real though my last reviewer horror story came from Reviewer 1.
+MachineLearning,fmwghf2,t1_fmw4p3p,1586446155.0,Is this /u/SchnoodleDoodleDo's alt?
+math,fmnn45a,t1_fmmw63s,1586229999.0,"You weren’t alone in thinking that CMU referred universally to Carnegie Mellon; I thought that too. (Its now clear that we were both wrong about that, but I figured you’d appreciate knowing that you weren’t alone in that regard.)"
+NintendoSwitch,fml0tjx,t1_fmioz0k,1586175470.0,Target is the primary place where many people get groceries my dude.
+WhitePeopleTwitter,fmgxbnh,t3_fv13hn,1586060375.0,American let me cancel my flight and issued a credit I can use any time in the next two years.

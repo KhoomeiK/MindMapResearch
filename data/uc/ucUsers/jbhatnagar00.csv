@@ -1,0 +1,195 @@
+subreddit,self ID,parent ID,time,text
+UCI,fpmn4rf,t3_ge9wqe,1588736791.0,Epstein didn’t k...nvm 😂
+learnpython,fpmgqtp,t1_fpmedia,1588732718.0,"Thanks. Can you check out my post at [https://www.reddit.com/r/Python/comments/geblqy/should\_i\_use\_a\_while\_loop\_for\_this/](https://www.reddit.com/r/Python/comments/geblqy/should_i_use_a_while_loop_for_this/) 
+
+It has a picture so I couldn't post it here"
+learnpython,fpmgq7x,t1_fpmewde,1588732708.0,"Thanks. Can you check out my post at [https://www.reddit.com/r/Python/comments/geblqy/should\_i\_use\_a\_while\_loop\_for\_this/](https://www.reddit.com/r/Python/comments/geblqy/should_i_use_a_while_loop_for_this/) 
+
+It has a picture so I couldn't post it here"
+learnpython,fpmgpvd,t1_fpmggjw,1588732702.0,"Thanks. Can you check out my post at [https://www.reddit.com/r/Python/comments/geblqy/should\_i\_use\_a\_while\_loop\_for\_this/](https://www.reddit.com/r/Python/comments/geblqy/should_i_use_a_while_loop_for_this/) 
+
+It has a picture so I couldn't post it here"
+Python,fpmg8qe,t3_geblqy,1588732409.0,Trying to turn this chart into code
+YandhiLeaks,fpjecx6,t3_gdtj6n,1588665422.0,Some people were questioning the existence of the song but its confirmed to exist
+UCI,fpeoaug,t3_gco7pm,1588551451.0,Take 161 with Bach if you can
+YandhiLeaks,fpc46g7,t1_fp9jbkj,1588487023.0,Are there GBs from that time? (What my post is about)
+YandhiLeaks,fp7lodq,t1_fp7gp08,1588372985.0,🤣🤣🤣
+UCIConfessions,fp44fsx,t1_fp3i7h2,1588291483.0,"Very true. One of my professors last quarter cancelled the final and then refused to adjust grades. After a dispute where they got upset because I went to a dean, I saw on webreg they gave me a letter grade lower than what I was supposed to get. I was told there is nothing I can do about it after it already happened."
+KingPush,fp05ggp,t3_g9tr3o,1588202839.0,Check out the Play Cloths Road to The Casket Drops mixtape!
+KingPush,fp05cio,t3_ga1rv4,1588202780.0,"I’m sure they were working with Kanye again on his next album, but other than that idk. For JIK, there were multiple Clipse features and a solo No Malice feature that were unfortunately cut. Then, the Clipse were supposed to have a SITW performance which would have been insane but the festival was cancelled due to covid. At this point, we can only hope something is happening behind the scenes. Of course, they will deny anything happening if asked to keep it a secret so I don’t go off interview answers."
+YandhiLeaks,fox920b,t1_fox8y1h,1588137167.0,I just posted about it since a lot of people are still skeptics of what Kanye has been doing and what his real intentions are
+YandhiLeaks,fox8uos,t1_fox8teb,1588137011.0,From Fast and Furious
+UCI,fos2wtv,t3_g97nhk,1588022997.0,"As long as people are distancing and wearing a mask, they are allowed to be outside. That isn’t against the orders. Also, there are cops on the beach to keep people away from each other"
+YandhiLeaks,fop7fcc,t1_foofxxv,1587954762.0,The phases
+YandhiLeaks,foo88ky,t1_foo80t2,1587934416.0,Someone made a post about it yesterday. I forgot the guy’s name who made the tweet but the reddit person said he (the person who made the tweet) is Ye’s manager.
+YandhiLeaks,foilx7s,t3_g7mx3b,1587790035.0,Where is Diddy at?
+YandhiLeaks,fohyhmx,t3_g7hc8k,1587775118.0,Need SS New Level
+KingPush,focu2jt,t3_g683nl,1587675880.0,I’m praying he makes a new album lol or maybe a Clipse album is secretly in the works. I wouldn’t say no to that now that they are reunited
+UCI,fo504hf,t3_g5mvto,1587514676.0,"Gotta remember that a lot of professors are older so we can’t just think about ourselves wanting to be campus and forget their health, which is why I think Fall will be online."
+learnpython,fo4tswv,t1_fo4tq87,1587511065.0,There was another mistake which I fixed now lol so it works
+learnpython,fo4tjj8,t1_fo4tfnj,1587510926.0,When I do that I get an error
+KingPush,fny8q8p,t1_fnrakkp,1587356213.0,"It not what you are referring to, that is legit. There are other random people trying to upload their wack music under the artist name “Clipse” for streams"
+learnpython,fnuq8ch,t1_fnuq266,1587268287.0,"AHHHHHHHHH I see now LOL! I did this and it worked:
+
+    def distinct_sum(my_list):
+        bob = set(my_list)
+        addition = (sum(bob))
+        return addition"
+learnpython,fnupszk,t1_fnupe71,1587267982.0,"What if I delete the first three lines after ""def?""
+
+EDIT: I tried that and it still wont work with \[10, 20, 20, 10, 30, 10\] to return 60. Why?"
+learnpython,fnuoz1e,t1_fnuotko,1587267394.0,"What do you mean by throwing it away? I created the list, use nums for user input, and then add the input from nums into the list."
+learnpython,fnuoobk,t1_fnuojp5,1587267182.0,"I tried doing it but it isnt working. This is what I have.
+
+    def distinct_sum(my_list):
+        my_list = []
+        nums = int(input())
+        my_list.append(nums)
+        set(my_list)
+        addition = sum(my_list)
+        return addition
+    
+    if __name__ == ""__main__"":
+        assert distinct_sum([10, 20, 20, 10, 30, 10]) == 60
+        distinct_sum(my_list)"
+learnpython,fnuo7pj,t1_fnuo52j,1587266853.0,Yeah but I need to ignore duplicates so I need to list to become a set
+learnpython,fnunvb2,t1_fnun7zp,1587266608.0,"What if it had to work with any input? If a user inputs a whatever they want into a list, and then I convert it into a set with set(), would I do sum(my\_list) after set(my\_list)?"
+YandhiLeaks,fnnzlyp,t3_g2s6h9,1587106816.0,No way this man should be free. He isn’t just a low level drug offense or something
+learnpython,fnnyauj,t1_fnnuhro,1587105579.0,Deleting those ifs met the test cases (which are hidden). Thanks!!
+learnpython,fnnpxms,t1_fnnoh6n,1587098408.0,"This is what I have now:
+
+oldPhone = {'Maegan': '1', 'McCulloch': '2', 'Cindy': '3'}
+
+nameO = input()
+
+num = int(input())
+
+nameTwo = input()
+
+numTwo = int(input())
+
+&#x200B;
+
+for name in oldPhone:
+
+if name == nameO:
+
+oldPhone\[name\] = str(num)
+
+&#x200B;
+
+elif name == nameTwo:
+
+oldPhone\[name\] = str(numTwo)
+
+&#x200B;
+
+if nameO not in oldPhone:
+
+oldPhone\[nameO\] = str(num)
+
+&#x200B;
+
+if nameTwo not in oldPhone:
+
+oldPhone\[nameTwo\] = str(numTwo)
+
+&#x200B;
+
+print(oldPhone)
+
+The program works except for some edge cases so I am getting 2/3 points for this for some reason"
+learnpython,fnnn64s,t1_fnnmdgl,1587096379.0,"I used what you had in the picture and did this but it didn't work still. This is for adding a new name that didn't exist before.
+
+if not name in oldPhone:
+
+oldPhone.update({str(name): str(num)})
+
+
+
+if not nameTwo in oldPhone:
+
+   oldPhone.update({str(nameTwo): str(numTwo)})"
+learnpython,fnnm5uc,t1_fnnlrdq,1587095665.0,What part are you referring to by “all that?” Do I delete it? What about the first for-if-elif (talking about the very first elif only) part that actually works?
+learnpython,fnnl96j,t1_fnnktnh,1587095032.0,"The part of my program that isn't working is changing the number for an existing name, and adding a new name/num if it isn't in the dictionary at all"
+learnpython,fnnl57s,t1_fnnktnh,1587094955.0,"I tried that and it didn't work. Btw, I am trying if statements. Here is what I got: 
+
+oldPhone = {'Maegan': '1', 'McCulloch': '2', 'Cindy': '3'}
+
+&#x200B;
+
+name = input()
+
+num = int(input())
+
+nameTwo = input()
+
+numTwo = int(input())
+
+&#x200B;
+
+for name in oldPhone:
+
+if name in oldPhone:
+
+oldPhone\[name\] = str(oldPhone\[name\])
+
+&#x200B;
+
+elif nameTwo in oldPhone:
+
+oldPhone\[nameTwo\] = str(oldPhone\[nameTwo\])
+
+
+
+elif name in oldPhone:
+
+oldPhone.update(str({name: num}))
+
+&#x200B;
+
+\#for name not in oldPhone:
+
+if not name in oldPhone:
+
+oldPhone\[name\] = str(num)
+
+
+
+if not nameTwo in oldPhone:
+
+oldPhone\[nameTwo\] = str(numTwo)
+
+&#x200B;
+
+print(oldPhone)"
+learnpython,fnnju05,t1_fnnjnr8,1587094054.0,Would it be oldPhone.update(oldPhone[name] = num)?
+learnpython,fnnj9v4,t1_fnnj1c6,1587093674.0,That is specifically to make it four. The user can pick who they want from the dictionary and what the new number should be. The code needs to be able to work that way.
+learnpython,fnniq33,t1_fnnhrhw,1587093299.0,"How would I use that though? For example, if the user wants Maegan's number to change from 1 to 4 how would I do that? Keep it in mind that the code has to allow the user to change the number to whatever their input is. 4 is just the example in this case."
+KingPush,fnmumqc,t3_fyyndm,1587078477.0,"I know this song already, but its cool to see Clipse still active on platforms"
+YandhiLeaks,fnigw4k,t3_g1ryhq,1586979783.0,The first one seems perfect for a clipse feature
+KingPush,fn8e60r,t3_fzt5mt,1586739631.0,Wasn’t he terror on Exclusive Audio Footage?
+YandhiLeaks,fn598zd,t1_fn58xdl,1586659012.0,Lol I was just saying since you said “that pastor”
+YandhiLeaks,fn591d1,t3_fyv2rw,1586658864.0,What happened to the No Cap Pack? I guess the whole thing was cap lol
+YandhiLeaks,fn58spq,t1_fn58gdd,1586658699.0,"Vous’ pastor is Rick Wilkerson, cousin (I think) of David Wilkerson who was also a famous pastor"
+UCI,fn4nryr,t3_fyqoj0,1586645166.0,"I took intro to Spanish, Spanish 1, and Spanish 2 in high school which cleared me on the IGETC"
+UCI,fn4nbw7,t3_fzkpcj,1586644910.0,Sorry if this is silly lol I just don’t want to make a mistake
+learnpython,fn1qfct,t1_fn1qcs0,1586567718.0,Check your dm
+learnpython,fn1q2o7,t1_fn1q071,1586567486.0,Believe it not that is what it is 🤷‍♂️ (what the problem asks for)
+learnpython,fn1pw7y,t1_fn1ptox,1586567368.0,Count so it would be 6
+learnpython,fn1pulj,t1_fn1pray,1586567339.0,The problem I am working on requires the input as I have it
+learnpython,fn1phpu,t1_fn1p7pa,1586567106.0,"I tried doing what you did but it didnt work. This is what I did:
+
+cipher = input(""Please enter a cipher-text (as a tuple):\\n"")
+
+key = input(""Please enter a key character:\\n"")
+
+max(cipher, key = cipher.count)
+
+print(""The secret message is"", max(map(cipher.count, cipher)))
+
+I keep getting 24 instead of 6."
+learnpython,fn1p1lk,t1_fn1og13,1586566814.0,Did you import anything when you did this?
+YandhiLeaks,fmqjp3y,t1_fmqipk9,1586300942.0,Explain how that is outdated? Doesn’t the Bible have the exact same words as it did when it was first made? Feelings can’t change the words and this is just MY OPINION
+UCI,fmn8eie,t3_fw6g8q,1586220388.0,Hopefully classes won’t be online in the Fall. There is a good chance they will be I think.
+UCI,fmka25z,t3_fvrvp8,1586148524.0,Sure

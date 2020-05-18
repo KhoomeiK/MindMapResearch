@@ -1,0 +1,150 @@
+subreddit,self ID,parent ID,time,text
+ucla,fpj5tvh,t1_fpis9hu,1588657464.0,"> It's okay to ask your professors/TAs when they anticipate posting grades.
+
+I mean, yeah, of course it's *okay* but, what's the point?
+
+It's not like we've forgotten about them -- they'll be graded when they're graded. So what is gained by asking? If you don't have your grade now, and you ask and we say you'll get your grade on Thursday, what has changed? You *still* don't have your grade, you'll still get your grade at the same time you otherwise would... So, what's the point?
+
+No one is going to be upset about you, as an individual, asking, but in a class of 300+ students, no one needs 100 people sending emails about when they'll get their grades."
+ucla,fp9bfe9,t1_fp923zp,1588421275.0,"I know you're scared right now, so I'll try not to hold your temper tantrum against you. Just breathe and try to remember: everything will be okay."
+ucla,fp5bp3i,t3_gbcfia,1588323370.0,[Fake news.](https://i.imgur.com/ui7pc9s.jpg)
+ucla,fp0htab,t1_fp06rn3,1588209551.0,">And frankly, the ""nothing to hide argument"" is disgusting.
+
+I never made that argument. Please don't put words into my mouth.
+
+I didn't say there were *no* privacy concerns.
+
+My point is there's this spectrum, see...
+
+a             x                                                                                                                    b`|-------|---------------------------------------------------------------|`
+
+Where at one end, **a**, we have data like, your first name and last initial... pretty innocuous. At the other end **b**, we have your complete internet traffic history.
+
+Taking an exam on CCLE, through Respondous, (**x)** is going to, naturally, fall somewhere between the two. Precisely *where* you want to put **x** is certainly up for debate. But, I don't think we need to start a black and white holy war over privacy rights over this.
+
+So, what, exactly, does Respondus do?
+
+1. They record your webcam and microphone for the duration of the exam and store that recording on their servers.
+2. The exam itself is also serving the web pages you are viewing to take the exam, so they could, *in theory*, be recording that, as well as other user activity on the computer while the software is running.
+3. Prior to the exam the LockDown Browser application scans the running processes for anything which could be used to circumvent the security of the browser session.
+4. They have access to your IP address, which can to some extent identify your geographic location.
+5. They also have your name.
+
+So, taking these in order.
+
+1. Yeah, this is specifically what the University of California is *paying* Respondus for. But, what private data is here? It's your image along with a background of your choosing and the ambient audio. If you are concerned with protecting the privacy of your intimate space there are things you can do to **mitigate** that exposure. Not every student will be in a position to eliminate it completely, but I am hard pressed to imagine a *realistic* situation which would affect more than a vanishingly small proportion of students in such a way as to require divulging so much private information it becomes *problematic*.
+2. Respondus doesn't appear to record computer activity other than attempts to close the browser. It would be great if they were recording screen activity as well. If they could they would because then they could sell it. The local browser likely keeps things in cache, but there is no evidence it reports back to the mothership, but since you're not likely browsing pornhub through Respondus, I see this as a non-issue.
+3. Respondus will not run if it recognizes certain software being run on the system. Specifically, it will request you shut down various messaging apps, VM apps, virtual webcam apps, etc. You know, the things people would use on a computer to try to cheat on an online exam. There is also no evidence Respondus logs this.
+4. Respondus definitely logs this, it'll be part of their server logs, but there is no evidence Respondus does anything with this data.
+5. Your name, per University guidelines, is public information and not subject to privacy concerns.
+
+Respondus has published [a statement on FERPA and the LockDown Browser and Respondus Monitor](https://web.respondus.com/wp-content/uploads/2020/03/Respondus_FERPA.pdf).
+
+You can read the following privacy policies as well:
+
+* [Respondus Privacy Policy](https://web.respondus.com/privacy-policy/)
+* [Additional Privacy Information - LockDown Browser](https://web.respondus.com/privacy/privacy-additional-lockdown-browser/)
+* [Additional Privacy Information - Respondus Monitor](https://web.respondus.com/privacy/privacy-additional-monitor/)
+
+With all this in mind, I hope we can agree, the ""privacy price"" you're paying with the LockDown Browser and Respondus Monitor is small. Not nothing, but small.
+
+Now, you may don the mantle of the purist and scream, ""aha! Any privacy cost is too steep to pay and you just admitted my privacy has been infringed!"" Sure, okay.
+
+*You don't have to use it!*
+
+You don't *need* to take the exam!
+
+You *could* simply *drop the class*.
+
+""B-b-b-b-b-ut...,"" you start, ready to jump down my throat about how you shouldn't have to choose between your precious privacy and graduating on time! ""It's not my fault,"" you'll proclaim. ""Covid-19!""
+
+Or, you'll insist ""I'm not a cheater! Why are you treating me like one!?"" Feigning ignorance to the fact that more than half of students, given the opportunity to cheat on an exam in what they perceive there is a low risk of being caught, will, *without hesitation* do exactly that.
+
+The fact is, for better or worse, UCLA is, for this quarter, an *online* academic institution. And this is one of those things that is just part and parcel with being an online school. Accepting it or not is up to you.
+
+""B-b-b-b-b-but.."" you'll start, ready to tell me about all of the other ways we could do things, or about how there are better ways to evaluate student outcomes, or how, during these trying times, there's no way to adequately assess student learning so we shouldn't try to protect the integrity of the assessment process...
+
+Well, *most* professors and TA's here are researchers first and foremost, and educators second or third if you're lucky. That's not to say there aren't some **outstanding** educators, there very much are. But, UCLA is a *research* university. They won't put this in the brochure, but educating you isn't the #1 priority of 99% of the enterprise that is UCLA. If you wanted that you should have gone to a liberal arts college. So, while it's not that your professors don't care, it's simply that teaching you, for most of them, is a very small percentage of their job. And, the teaching teams for your classes had upwards of a month to plan for teaching and assessing students online this quarter (on top of all of the regular work which goes into planning a class), all while getting multiple, often contradictory, guidelines from the University.
+
+So, while nothing is perfect, this is where we are. It's not as bad as you seem to want everyone to think it is. The price you have to pay to play in this crazy new world is having an encrypted video of you taking an exam stored somewhere. If that's too much for you, fine, don't play the game, take your ball and go home. But, tell your story walking..."
+ucla,fozh73k,t1_fozdfqu,1588190601.0,"You have to show your ID anyway in an exam. What private information is being leaked there?
+
+What ""information"" are you concerned about leaking out from your camera recording your home? If you're *that* concerned about it clean the fucking room.
+
+What ""facial recognition""? I can confidently say the potato quality Respondus records in isn't something to worry about. It's capable of answering the question ""is this a face"" not ""is this Daniel's face.""
+
+If you've ever done a Zoom chat, or Skype, or FaceTime, your face data is out there. If you've ever gotten a photo ID it's out there...
+
+Like, who is it you're trying to prevent from having this data?
+
+How much of a fuss you're making over something rather innocuous is quite telling."
+ucla,fozcy3n,t1_foyro87,1588188571.0,What data are you claiming to be so terrified of getting out?
+ucla,foxh5k6,t1_foxfowz,1588143849.0,"I freely admit it's an invasion of privacy... on the same scale as showing up to take the exam in a classroom.
+
+But, yeah, I'm going to call people out on their hypocrisy when they so conveniently and selectively care about their ""privacy rights.""
+
+As far as whataboutism goes though, the OP made no refutable claim. They said it's an invasion of privacy, when they make an attempt to support that claim I'll put forth the effort to debunk it."
+ucla,foxgmdh,t1_fotkfcw,1588143387.0,"At the end of last quarter we gave the final exam on the honor system.
+
+No Respondus, no zoom, and gave them a one week window to take the 3 hour exam which was a cut-down version of the midterm we had written before Covid-19 was a thing. The exam was also quadi-optional, everyone had to take it but it couldn't bring their grade down, it was just an opportunity to show they had improved and bring their grade up from the first two midterms.
+
+2/3 of the class cheated.
+
+So, it's not a matter of the professors being unwilling to trust the students, it's just every opportunity they're given, *most* students seem to go out of their way to demonstrate they are fundamentally untrustworthy.
+
+Trust me, as the person responsible for setting up the exam, I'd much rather not have to bother with it all and all of the accompanying issues.
+
+I understand your concerns about having your personal space seen by your TA and professor. Your feelings are valid. Maybe it will help to know none of the TA's or professors I know are looking at the recordings unless there is a concern.
+
+Respondus flags exams for review based in some proprietary algorithm they have, it seems to mostly be when it can't detect a face in the video.
+
+If you are genuinely concerned I recommend this:
+
+Leave the room dark or try to arrange your workspace so there is a wall directly behind you. Make sure your work area is clear. Make sure your face is well lit, and sit so the top of your head is at the top of the image (if you set it up with too much headroom, if you lean in sometimes your face will exit frame (or mostly so) and Respondus will flag your session for review. Also, sometimes it'll flag you if you cover your face with your hand as it cannot recognize a face (it's not exactly cutting edge stuff)."
+ucla,foxf93o,t1_fox354z,1588142195.0,"It's really not. No more so than it's an infringement of your privacy to take the exam in class.
+
+On top of which, I'm willing to bet cash money you've given away far more of your ""precious"" privacy to a metric shit ton of different apps sitting on your phone...
+
+Even just _having_ a functional smart phone gives away _orders of magnitude_ more privacy than taking a couple of hour long exams with a locked down browser.
+
+In the off chance you're _genuinely_ concerned about privacy, you're picking the wrong hill to die on.
+
+My guess though is you just want to be able to try to cheat."
+ucla,folm9td,t1_fokawjy,1587865327.0,👍
+ucla,fojx9s3,t1_fohobx6,1587831253.0,"If you consider it to have been your misfortune to have had me as your TA, I'm sorry.
+
+I typically held between 8 and 12 office hours a week, which I'm guessing you didn't attend.
+
+I always tried to make discussion about extending the ideas from lecture, but some students prefer TA's who just do homework problems so they don't have to.
+
+I always try to lead students to their answers through the Socratic method rather than giving them to them outright because it's an empirically better way to learn. Some students really dislike being required to think for themselves though.
+
+I'll admit, I'm often disappointed by students because, despite being shown evidence to the contrary every quarter, I, for some reason, believe the students at UCLA are predominately smart and hard-working. When students demonstrate all they're interested in is finding the shortest, least arduous path to an A, it's disheartening.
+
+Now, that's not *every* student of course, but it's far too many of them.
+
+From my experience, 40%-60% of students cheat in any given class, were it not for FERPA I would happily show you the evidence. Most of them are so brazenly blatant I don't know how they think they'd get away with it...
+
+About 5%-10% are students who understand the value in a class at **the top public University in the country** requiring a good deal of effort on their part.
+
+The rest are generally good students just trying to get by.
+
+And, because I'm *genuinely* curious (and because it's 100% *not* my intention), feel free to DM me explaining the specifics of what I did or said which you found so offensive.
+
+I know I'm blunt and direct and I don't have much by way of a poker face, so if I'm confused or frustrated it's going to show, that's just who I am. I can be a bit of a dick ""anonymously"" on the internet, but hey, who isn't?
+
+The one thing I won't apologize for, though, is having high expectations and believing most students are capable of more than they're giving."
+ucla,fn9ai4f,t3_fupp8t,1586765372.0,PIC 10A can help you develop maturity as a programmer. If you are a Stats major any additional experience learning to think programmatically will help.
+ucla,fmy1jok,t1_fmwxpdc,1586476167.0,"Typical student doesn't care about reasoning things out for themselves, just wants everything spoon-fed to them...
+
+1. It's an anti cheating measure.
+2. It allows the professor to ask questions which rely on knowing the correct answers to previous questions without penalizing the students who didn't know the answers to the earlier questions.
+3. It requires students to think about each question carefully, even the ones which seem easy, because they only get one shot at it.
+
+So, there's three reasons.
+
+You can debate all you want about the value of each or how well a sequential exam meets these goals, but there you go."
+ucla,fmv79ye,t3_fxh3ed,1586407982.0,"You just need to develop different test taking strategies.
+
+As for why, there are several good reasons to set the exam up to be sequential."
+ucla,fmdoam0,t1_fmcj4sd,1585973068.0,Perhaps it'd be okay for your professors to name and shame you the next time you do something they're not wildly excited about?

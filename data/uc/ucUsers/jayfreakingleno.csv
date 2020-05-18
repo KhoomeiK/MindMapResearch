@@ -1,0 +1,50 @@
+subreddit,self ID,parent ID,time,text
+statistics,fp2siol,t1_fp1datu,1588267162.0,"Thanks for this, makes sense. I appreciate the help a ton!"
+statistics,fp1bppw,t1_fp1bajp,1588230280.0,"Yeah, that's not what I meant--I was inquiring if you might know of such a test that assumes a difference in the distributions as the null. 
+
+Sure, I appreciate your candid response. I'll try and bring this up to my supervisor and hopefully he can find some people for me to work with."
+statistics,fp1bi0o,t1_fp1aztj,1588230088.0,"Sure, false signal is definitely something that we're trying to avoid. That's why this model validation is so important to me!
+
+We're looking at cell signaling data and basically trying to fit a model to which cells are responding and which cells aren't. This is pretty obviously the sum of 2 Gaussians, when you look at the data (very very bimodal and relatively normally distributed).
+
+I don't have labels on the data points that are responding or not. That's why we went w/ the GMM approach."
+statistics,fp1adp1,t1_fp18310,1588229099.0,"Sure, I ran into that problem with the chi-square. I totally agree with you. I definitely misstated things in my main text; I suppose I'm wondering if there IS a good test to ensure that two distributions compared may come from the same source (null being that the distributions are different). Additionally, I understand p-values, just in the context of the ks test and how the D value was converted to a p confused me. Definitely misstated some things in main.
+
+I guess, I want to continue down this path of model validation, or at least data analysis of these huge data sets I have, and go from there.
+
+Perhaps my post was articulated poorly, I apologize for that. Additionally, I really do want to analyze this data as properly as possible. I take great responsibility in this work and want to do it in a statistically rigorous manner. That's why I'm posting here talking to you lovely folks!"
+statistics,fp19xj3,t1_fp18uo1,1588228706.0,"Erh, do you mind expanding on this? I've read about data dredging and p-hacking and obviously want to avoid these. We don't have a research statistician on staff, and I genuinely do want to dive into the material. What's wrong with clustering to create groups? Unless I'm mistaken, isn't that sort of the point?"
+statistics,fp12127,t3_gamw16,1588222294.0,"Now that I come to think of it, the GMM approach maximizes likelihood. Maybe if I set some cutoff for the change in log-likelihood value, then I'm okay with my models? I want to be as statistically rigorous, granted, but I don't want to do work that isn't helpful to ensuring rigor."
+statistics,fp104hh,t1_fp0ygp1,1588220954.0,"That's exactly right; we're using EM to maximize likelihood of fitting two gaussians to our data. We actually use K-means clusters as our initialization! Interesting that K-means can be reformulated as a mixture model; I had no idea. 
+
+That's what I was thinking--these tests don't say anything about the truth of the null hypothesis, rather the other way around. Maybe I could fit in some Bayesian statistics here haha. Or perhaps a bootstrapped/jack-knifed KS test? That could show reproducibility of clusters.
+
+I appreciate the help a lot!"
+mdphd,fp0q8ug,t1_fp0pw8u,1588214539.0,"Sure, sounds good. I have a couple of humanities profs I'm tight with who I could ask, so I guess I will haha. Thanks!"
+mdphd,fp0pp76,t1_fp0oua5,1588214205.0,"Huh, I've heard conflicting things on this. Do you think it's better to get a non-science LoR, just to be safe?"
+premed,fo7v594,t1_fo7jxuj,1587585079.0,savage
+mdphd,fnf23vh,t3_g1cdh6,1586900002.0,"Erh, I think you might be misconstruing the end goal of the MD-PhD. You're right that most people choose to concentrate on one or another. The way I see it, the PhD acts as training for you to be able to do research in the future. The MD allows you to ensure that research is translational and might have an effect on patients. Physician scientists act as a bridge between clinical care and research. This is hard, definitely not impossible, to achieve without both degrees.
+
+MDs without a PhD or any postdoctoral research training have pretty much no research chops. PhDs without a really deep commitment to translational research may get bogged down into experimental systems that might not end up being relevant.
+
+If you want to go to into research with just an MD--think about the finances: who wants to take a 50k/yr postdoc with 300k of loans on their back? I wouldn't. The MD-PhD route is a supportive pathway that tries to give one the flexibility to stay in research without the monetary burden of going MD to research. Another large motivating factor, for me and many, is that it seems that outcomes for MD-PhDs trying to get NIH funding and pursue research full-time are far more successful than straight PhDs.
+
+Skip Brass, the director of Penn's MSTP, has some really good (and humorous) writing on the path. Take what I've written with a grain of salt, though; I'm just an applicant for next cycle."
+mdphd,fmpx06i,t1_fmmtiqb,1586288875.0,"In this day and age, you need to know how to code. I'd argue that for most jobs, even if you weren't pursuing a career in science. It can make life so much easier and automate the bullshit away. 
+
+In science, there's no way you're going to utilize any sort of modern tech like RNAseq, CyTOF, misc. other single cell tech without knowing how to code (or having a friend who does). I'd advise just diving into R or Python at first and playing around with datasets. 
+
+Plus, you get ooh'ed and aah'ed by all your colleagues who don't know how to code. Like chillax, I just wrote print(""hello world""). It's a nice feeling of undeserved appreciation. (But that's not the reason to learn it!!!!)"
+ucla,fmmelef,t1_fmmay2h,1586203864.0,"Sure, you're right that schools are still online in Korea. I'd be surprised if they didn't open by September, though. And I know that we have a delayed response vs Korea (even though we started cases on the same day), but the second surge of virus that we're anticipating will occur at the same time (fall-ish). The peak death of this viral wave is going to happen across the states within the next month or so, referencing some modeling that I saw tweeted by Eric Topol (physician-scientist, https://twitter.com/EricTopol/status/1247225434535649288. Modeling from Bloomberg).
+
+There will be a 2nd wave, but I do not think we will be fully socially distancing during this wave. During this wave, I am hoping (dearly) that my fellow bio folks create rapid, cheap testing and test the symptomatic and asymptomatic population. People who are + will be contact traced and legally mandated to quarantine (like SK did). Additionally, is possible that older folks may be asked to quarantine separate from school going children. 
+
+EDIT: I suppose what I mean is that there will be in a shift from suppression-->mitigation (at least to an extent) in the 2nd wave.
+
+I will always acknowledge the stochasticity of this situation, so I really don't what will happen. These are the musings of a college senior spending too much time on Twitter and bioRxiv. All we know is that it will be tough, one way or another. 
+
+I appreciate you citing your sources and bringing this conversation up, also! Always important to discuss rationally and to learn together. Your sources taught me things!"
+ucla,fmm71gt,t3_fvszbd,1586199967.0,"For the most part, I understand your points. However, it is a false comparison to compare influenza and coronaviruses. They are different families of viruses (orthomyxoviridae and coronaviridae) and have different biologies. There is seasonality with coronaviruses, so your point holds, but be careful about sweeping generalizations.
+
+Additionally, I think US mental health and the US economy won't survive more than a few months of social distancing. The gov't cares more about sustained $$ than anything. What about how China, SK, etc that have reopened (albeit with resurgence of cases)? Things will be bad, but I think this post is a dramatization of the situation. Not sure about fall, but spring 2021 will certainly not be cancelled. I'd put money on that."
+mdphd,fmj724q,t1_fmj5iq4,1586124344.0,"Awesome, thanks!"

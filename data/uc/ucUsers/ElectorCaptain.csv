@@ -1,0 +1,64 @@
+subreddit,self ID,parent ID,time,text
+northernlion,fossvfk,t1_fonlol0,1588037351.0,"Woa, careful to not burn yourself with that hot take.
+
+I love isaac too tho."
+berkeley,fnzhbmu,t1_fnyst65,1587394078.0,A wake and bake?
+Piracy,fnzh64d,t3_g4naqz,1587393994.0,"Saya tidak berbicara atau membaca bahasa ini, tetapi saya harap Anda dapat menemukan pertunjukan dan menontonnya sambil tetap aman di karantina"
+AskReddit,fnw8ft7,t1_fnw7im4,1587313508.0,"[Modern humans display similar mutations of MC1R, and people who have two copies of this mutation have red hair and pale skin. However, no modern human has the exact mutation that Neanderthals had, which means that both Neanderthals and humans evolved this phenotype independent of each other.](http://humanorigins.si.edu/evidence/genetics/ancient-dna-and-neanderthals/dna-genotypes-and-phenotypes)
+
+Same website. Same paragraph, in fact. Humans interbred with Neanderthals, no one is denying that, but hair color didn’t come from this."
+AskReddit,fnw6tz6,t1_fnw6cg7,1587312596.0,"[A DNA study has concluded that some Neanderthals also had red hair, although the mutation responsible for this differs from that which causes red hair in modern humans.](https://en.m.wikipedia.org/wiki/Red_hair). 
+
+One cool fact on the Wikipedia page is that “redhead” has been around since at least 1510."
+AskReddit,fnw6eps,t1_fnvkxmo,1587312357.0,"Neutrinos are less influential than light. Light hits you every day, and you’re fine (maybe a little sunburnt)."
+AskReddit,fnw5nxv,t1_fnv3x9t,1587311936.0,Could you source this? [Wikipedia](https://en.m.wikipedia.org/wiki/Blond) says blond hair is a mutation because it enables Vitamin D production in sunlight scarce Northern Europe.
+AskReddit,fnw4tat,t1_fnvnoyx,1587311446.0,"This isn’t a very good write up, especially when your target audience knows nothing about computers. If you will, let me explain and offer you some constructive criticism. 
+
+>	Embedded systems engineer here, I’ll give it a go.
+
+Perfect! A man/women after my own heart! I’m an ASIC/FPGA/Hardware engineer myself, but we have a lot in common. 
+
+>	So, you’ve got that the 1s and 0s represent data. Specifically, 1 bit being either a 1 or a 0 is the most basic datum. As Carl Sagan put it, “the answer to one unambiguously phrased question.” So, you can abstract the rest of the world around you and only think of that one bit, maybe it’s a light switch. You look at that 1 bit and all you know is if it is on or off. Then, you can make decisions based on it. If this light switch is on, do one thing, if it’s off, do another.
+
+This is a good paragraph! It sets up the premise rather well. We are trying to teach people about computers and this strikes at the core of that. All computers ever know is whether something is on or off. You know this, I know this, and now our target audience (TA, abbreviated because I’m on mobile). 
+
+>	Then you add a bit. You can now represent a number up to 3 and you can make slightly more complicated decisions. You can string some circuits together and attach them so that various combinations of those two light switches (00, 01, 10, and 11) can activate different circuits. This could be as simple as having 4 light bulbs with labels on them or something, nothing consequential.
+
+Once we have the power to append a bit, we can do a lot, and I like how you build from this, but your approach assumes too much. Sure, we can “string some circuits together” but the TA can’t visualize this in their head. The TA might not even know what a “circuit” is. 
+
+>	Now let’s make the jump to 8 bits. You can represent a number up to 255 in one byte, but you can also represent letters. 
+
+For the most part, this is pretty good. The rest of the paragraph assumes too much, though. 
+
+>	You can assign a byte to a set of functions, like we do in embedded systems, where you have an onboard device, like an analog to digital converter, which just takes an analog reading and assigns a number to it based on the scale, 
+
+This has vocabulary that the TA might not know, and you don’t define them. You need to say that analog is a voltage, a real world value, or a measurement of some kind when you first use the term. Furthermore, you don’t define embedded systems. To the TA, they know you are a programmer of some kind, but they don’t know if embedded systems works with the internet or cell phones or what. You need to say that embedded systems programs small, low power and low memory devices. My go to example is electric car keys. Everyone has them, and I simply say “someone has to program those. That’s embedded systems.” While car keys don’t capture the whole field, it’s good enough, especially for a TA that knows nothing about computers. Lastly, it’s probably best to define a ADC as a way for computers to talk with the outside world, otherwise why do we care if it assigns a number to a scale?
+
+>	Let’s do something with the data. Instead of just passing it through, let’s add some if/thens....
+
+If the heart of the question is “how do computers go from binary to useable?” Adding some if/thens takes a giant leap of abstraction from bytes. With that in mind, I’m not sure the sous vide oven example is a good one. It’s a neat project (and I hope it helped get you a job at one point!) but it doesn’t strike at the core of the question. You’re just talking about *an* embedded system, without, again, exactly explaining what *embedded* means. 
+
+>	32 thousand of those 8-bit registers
+
+This is super, super, super nit picky and is directed towards you and not the TA. My hardware engineer side is itching to say that a register is very specific, and it’s best to just call it memory (though I wouldn’t say anything else. I wouldn’t call it flash/sram/dram/ReRAM. Just memory). 
+
+>	The computer doesn’t really “know” anything any more than a sheet of paper “knows” what’s written on it. When writing code for more familiar stuff like a video game, you’re still just passing values around, making calculations based on them, and translating the answers to those calculations into output for the user.
+
+This is beautiful. It’s an amazing summary of everything a computer does. I really love the paper analogy and I’ll be using it myself.
+
+You have some good ideas in your explanation, but it’s bogged down because you assume too much. I hope I’ve helped make you a better teacher, because this is truly an amazing subject"
+Piracy,fnpcjfy,t1_fnp14eh,1587143109.0,Another great thing about YIFY is the have _tons_ of movies. Perfect for that 1980s movie you have been dying to watch.
+todayilearned,fnhrokf,t1_fnh8776,1586967671.0,"Arsenic is your organic^1, gluten-free, vegan, soy-free, fair trade, cruelty-free, fresh from the Earth all natural poison!
+
+Arsenic -- 50% off your first purchase! Try yours today!
+
+1) Only organic when combined with carbon, but our farming practices are in-line with USDA 'organic' standards."
+HistoryMemes,fnhql7r,t1_fnhlkkq,1586967128.0,"> I don’t think a fully loaded wagon with iron bound wheels is any gentler on a road than a car.
+
+Average Ox weighs [1,200 pounds](https://animals.mom.me/size-oxen-3433.html) and can pull [.57](https://www.sjsu.edu/faculty/watkins/animalpower.htm) horsepower or [425 watts](https://www.wolframalpha.com/input/?i=horsepower+to+watts&assumption=%7B%22F%22%2C+%22UnitsConversion2%22%2C+%22fromValue%22%7D+-%3E%22.57%22&assumption=%22UnitClash%22+-%3E+%7B%22horsepower%22%2C+%7B%22HorsepowerMechanical%22%7D%7D).
+
+The average car weighs [2871 pounds](https://www.creditdonkey.com/average-weight-car.html) and has a horsepower of [120](https://www.autolist.com/guides/average-car-horsepower) or [~90,000 watts](https://www.wolframalpha.com/input/?i=horsepower+to+watts&assumption=%7B%22F%22%2C+%22UnitsConversion2%22%2C+%22fromValue%22%7D+-%3E%22120%22&assumption=%22UnitClash%22+-%3E+%7B%22horsepower%22%2C+%7B%22HorsepowerMechanical%22%7D%7D)
+
+There is a big difference between what we use and what the Romans use on roads. A car is far more violent on the road than an ox with a loaded wagon. You could double, triple, or even multiply by ten and the power the car exerts on the road is more than the power the ox exerts."
+C_Programming,fmz9t0d,t1_fmz9iit,1586512096.0,"This is the correct answer, but OP [look here for more, though](https://softwareengineering.stackexchange.com/questions/201896/what-is-short-circuiting-in-c-like-languages)."
+MapPorn,fmepaes,t1_fmectpi,1586010371.0,"The 395 is such a beautiful drive. On one side you have vast desert, on the other you have mountains reaching up to the gods. Little towns speckle the road. Sometimes it feels like nothing is on the other side of the giant wall that is the Sierra Nevada, because how could man conquer such jagged beasts? [Just take a look](https://www.google.com/search?q=395+sierra+nevada&rlz=1C1GCEA_enUS811US811&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiNsIr8-87oAhXFop4KHWmtCB4Q_AUoA3oECA4QBQ&cshid=1586010343326232&biw=1500&bih=858&dpr=2)"

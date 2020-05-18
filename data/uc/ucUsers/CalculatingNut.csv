@@ -1,0 +1,87 @@
+subreddit,self ID,parent ID,time,text
+ucla,fphj0xj,t3_gd6c0j,1588622136.0,"I just got an email from USAC that trotted out the racism bogeyman again, writing ""After both the USAC and the MO Coalition announced their support of the CUB Referendum, students of color were immediately met with racist and biggoted attacks that left students feeling unsafe and hurt. These instances further highlight the inadequacy of space where Black students are able to feel safe and welcome on and off campus.""
+
+I just want to know, is there any truth to these claims or is it all just pure political hot air? (I am obviously not even pretending to be unbiased at this point, but I still am interested in a legitimate answer)."
+Showerthoughts,fp5ejx4,t1_fp54r9v,1588326433.0,"Something like that. I forgot the specifics but I think the exact difference is that true white noise has its energy distributed evenly through all frequencies (so the Fourier transform is constant, within the range of frequencies included), wheras pink noise has its energy evenly distributed per octave, and has a Fourier transform that is the antiderivative of some log function (I think)"
+Showerthoughts,fp51p41,t1_fp516oe,1588313503.0,"You know how sound is a wave, and light is sort of like a wave? Pink noise has a wave that's shaped similarly to the way a pink light wave is shaped, i.e. contains a range of frequencies, but is stronger in the lower (""red"") frequencies than the higher (""blue"") frequencies."
+Showerthoughts,fp503f7,t1_fp4vngx,1588312131.0,"You'd be surprised. I use an older laptop at night for pink noise, and if I roll over at night and smother it with my blanket (poor thing), it can be too hot to touch in the morning. It's only got a 15W CPU, which is probably idling most of the time for this kind of workload."
+LifeProTips,fomclyp,t1_fol329d,1587885256.0,"Like pineapple but not on pizza, and no one bats an eye.
+
+Like pepperoni but not on pizza, and everyone loses their minds!"
+CrazyDictatorIdeas,fo5w2ur,t3_g4ct03,1587537583.0,..-. ..- -.-. -.- / -.. .- / .--. --- .-.. .. -.-. .
+ucla,fnv31xd,t3_g3uhkz,1587278604.0,Emacs is life
+ucla,fnrp3dy,t3_g3fsje,1587196350.0,"Everyone deserves a big-ass screen, a blue-light filter, and enough elbow room for a 30 inch eye-to-monitor distance."
+gaming,fnm9qx4,t1_fnlvpuv,1587067556.0,"I whipped out a ruler and the answer is 7 mm.
+
+(I love how none of the replies are from the same person)"
+CrazyDictatorIdeas,fnb1duu,t3_g0ac17,1586807518.0,This is going too far!
+ucla,fmzcjvq,t3_fyadsy,1586515332.0,"I generally find it annoying to answer a question by not answering it, but I can't help myself in this case. Based on my painful experience as a CS major, I think it's impossible to use only a laptop long-term without injuring your hands, even with exercises. I'd recommend sidestepping the problem by trying to emulate a desktop computer as much as possible: separate keyboard & mouse, low near your lap in a keyboard tray if possible, and raise the laptop screen up with a stand, or even use an external monitor. The latter might also prevent neck pain, which for me came calling not long after my hand pain started (the summer after my first year at UCLA)."
+ucla,fmyr7av,t1_fmx7au9,1586493369.0,This is just so horrific.
+Showerthoughts,fmvdrpw,t1_fmvd8gt,1586413526.0,"Actually tbh, I loved the parallel compute class and the whiskey enhanced the experience! But yeah, there definitely were dumb classes where I might be tempted to drink for other reasons. I remember my project partner in a particularly lobotimised ethics course took a swig of graduation champagne in the front row & got called out by the lecturer for drinking at 8am! (This was way before the pandemic hit)."
+LifeProTips,fmvag7v,t1_fmvacsp,1586410583.0,Holy fucking shit! At least mine was just a harmless SF spider.
+Showerthoughts,fmv8ab5,t1_fmutjjp,1586408791.0,"Yooo, other side of the classroom, but the first thing I did when classes switched to online at UCLA was drink 4-ish shots of whiskey during my 10am parallel computing class, then attended office hours to discuss the Jordan Canonical Form and the fundamental theorem of abelian groups."
+LifeProTips,fmv7l5n,t1_fmuyauz,1586408233.0,"Shit, well then let me tell you of the time I was in an AirBNB in San Francisco when a spider kamikaze jumped from the bathroom ceiling onto my naked leg like 5 cm from my testicles."
+CrazyDictatorIdeas,fmpqvfl,t3_fwpz1f,1586285686.0,"A genuinely crazy idea, I love it dear leader!"
+CrazyDictatorIdeas,fmnzae5,t1_fmnjvxb,1586239868.0,"Maybe, but I don't know anyone who actually uses decimal. The alternative to fractions I had in mind was IEEE 754 binary floating point."
+CrazyDictatorIdeas,fmnj6l8,t3_fw8lrj,1586227288.0,"Out of character: the reason computers use floating point instead of either infinite-precision fractions or decimals is that for any reasonable computation, the precision will build up much too quickly to be handled and stored at a reasonable cost. Consider running this Python code, which sums up 1024 not-so-big fractions:
+
+    from fractions import Fraction
+    from random import randrange, seed
+
+    seed(1)
+    random_fraction = lambda: Fraction(randrange(65536), randrange(1,65537))
+    s = sum(random_fraction() for i in range(1024))
+    print(repr(s))
+
+The output I get is:
+
+    Fraction(249591518454159095612307351408658728226544301787820539546804471490998446399
+    686871410757712182801285034715098241864769824658551313114713030738120778057481731524
+    939129144826995886152542400932044583111476899952841418975202041472383423747136300672
+    503709726135925733478580697163058430754229378887970250092429895273766899896671286980
+    431859430891255990120247210086527557687780455550200580957384068678081269501956407955
+    789436559802739062704690985370650230394479617280553387633357576426342289654814068024
+    842852636164992069625397319119553540042694147019586498503986547166262650340943737411
+    726951723658247847747758931643289332029814045240829770506336154544216820699688889565
+    860418753636551616082735834322732952432124681199894226900229837975630961401677940065
+    612307772065256563972678020668847761041445494337465516178953738206717909952610587909
+    118239988419266177841105474115718124983093700324715418352279556965722497959240359956
+    906187219725709579164054429132509538186816219739404337537988770598348767661062882109
+    115512462042427996952050660244615066292257616300289888572454002890551925654760024941
+    899444521108804193505780880605568772219314442554850404372148732034412862103773268017
+    646713645864541119085413641272876528425135350523387200594154923060750117934868639283
+    184529674623411600263808975568845975783072865551945277085784131752736183394275413026
+    389594336713638034531640513569328882415567893914938804040268832435205901438414682272
+    801509346684348709561302798014877867705131197064893126919603269929202035901026181797
+    539323344270392836869136412902848568685270578615777576733420955135871525237519950378
+    691868827988076549878437126392497515991383423004014938319857813853561821426791688231
+    171963887811778077194873188160601352331782497227087217157244850730943646241012674309
+    401000856138520187147195806692132777025730307327809741116695069508762705573651453807
+    3814116862333849, 739953231860170605269859032077899109418838224221064088569876389845
+    432312758777746126771624373399266110292476790399886452283985873642190387061218694142
+    801715732309421103524430407253375624227844060054144599549476899982158424576228503027
+    988776894637224257008732960660667933791630351549595441680792724069434487641427448214
+    727962209879394065030788507618584301186326270303821787347755994244422683181636414330
+    577425011457003913723270907382101740855884339246045788179337911036015623363615982438
+    997124457759942920783133087740513420581005916685464335483582413141659442969632474080
+    384513928521952423475521335997470725525864123833117893097734001794474493632390682438
+    305225655991414639357481207589031357523124792375428166853655140792386740206616232805
+    598337214214922428900268417104836608269840439414033688530162804655293469897953731052
+    019434734981755030495268631780544332235580873494314924016549010146751870854500049574
+    594730044187255680844983527696151699143879899548331192622934126764073817103628041331
+    669647838500936404618972239770685772934063722664614988940692495080810089568593749225
+    795660740834702681391065365816367341180026057644193821137442408132431030702517543282
+    744932172858225894641878564986454821795404093896163496128468897608016317979042744568
+    118216413354390621944391751340455484195260017773541351794796996344777674054376588624
+    249645941216863342155700256412582097621290371869024941699860084681463075139262907332
+    201584255064152121579846619165703844480087829201463710962030600498935467466607713878
+    882590016377203217446538134836475055930061857681383578700832906991120786973330916528
+    504307454780631344309122031280156901554115476497765914835239367516090403077691799383
+    342283693719954851199095130682900929477365412692908850980125099393861413866539985443
+    279683768286463139673168591077155065994420322716713348578202375033998093187121567726
+    858075718767015680000)
+
+Basically, every random prime factor encountered tacks on another few bits to carry around. The storage needed for the output is already huge -- and that's only for the sum of 1024 fractions!
+
+It's also not clear how fractions will represent the output of transcendental functions, like `sin` and `exp`."
+LifeProTips,fmisiff,t1_fmhjtn1,1586116026.0,"I may just be a naïve young tot in the grand scheme of things, but that sounds a little extreme for accidentally sending an incomplete email; what's wrong with them?"
