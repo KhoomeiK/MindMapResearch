@@ -1,0 +1,85 @@
+subreddit,self ID,parent ID,time,text
+unixporn,fpmj0je,t3_ge8eoe,1588734134.0,Dang what monitor are you using
+unixporn,fplzn6g,t1_fplzde9,1588722579.0,"There was this on major update before the search bar one, I don't remember when. I'll probably try setting it up again just to make sure."
+unixporn,fplxa92,t1_fpltkd9,1588721253.0,"Awesome, I used to have the one you have but after that one firefox update I just couldn't get it working again."
+unixporn,fpludro,t1_fplrt8q,1588719653.0,"Some programs don't work out of the box, you have to configure them. However, bspwm does come with examples for itself and sxhkd, and the archwiki shows how to use it. Here's the [link](https://wiki.archlinux.org/index.php/Bspwm)."
+unixporn,fplrc08,t1_fplr4fz,1588717989.0,"That's how it works, you have to use a hot key demon like sxhkd and map out keys for certain bspwm commands and for things like spawning a terminal. You can also create a config file that autostarts applications like polybar and nitrogen. I recommend looking at the arch wiki for more explanations.
+
+The beauty of bspwm is that there is no special syntax for it's config, it's just a bunch of shell commands."
+unixporn,fplqxlj,t3_ge0nw0,1588717771.0,"Hey, just wanted to let you know, I also use a nord theme setup on bspwm, but if you want an even more nordy firefox here's one by dpcdpc11 [here](https://www.deviantart.com/dpcdpc11/art/Nord-for-Firefox-837860916)."
+linuxmasterrace,fpdymfo,t1_fpdb5fu,1588536846.0,"Openbox isn't a tiling window manager, it's a floating window manager. But back to your question, I use a tiling window manager for my workflow. It's fast because everything I have is keyboard oriented and it's very minimal compared to a DE.   All it does is handle the windows, it doesn't contain any extra apps or features. I chose bspwm out of others (i3, qtile, etc) because of the way of how it tiles and how simple the config is.
+
+
+(EDIT)A window manager controls the appearance and placement of windows while a DE has a WM and builds on top of it with extra apps, features, etc."
+tennis,fp4d2k9,t1_fp4cirv,1588296472.0,We are all correct
+tennis,fp4bbmt,t1_fp44xsv,1588295445.0,You are correct
+UCSD,foxoylp,t3_ga4thh,1588151158.0,Me on the latest PA for cse12
+UCSD,fow72dr,t3_g9web9,1588114214.0,A picture that describes the email in just a few words
+Rainmeter,fos2lgz,t3_g8nnbk,1588022834.0,The real creativity is up at r/unixporn
+linuxmasterrace,foq26cj,t1_fopzrc6,1587980258.0,"I'm also neutral evil, btw"
+unixporn,fopp766,t1_fogw0u3,1587967776.0,"It's the same way of how one does colors for .Xresources. Colors from 0-7 are normal, while colors from 8-15 are their bright counterparts. Color 0 is always the background while color 7 is always the foreground."
+unixporn,fogrhyr,t1_fogk3n0,1587756149.0,Just updated my first comment with the dotfiles
+UCSD,foep4ow,t1_foee7ag,1587710109.0,Lmao love ur username
+FirefoxCSS,fodashu,t1_fn6bjki,1587682354.0,"yea, can you please share your userchrome and startpage if its possible? Or atleast the startpage background"
+tennis,fo9z1uz,t1_fo9f7kl,1587635412.0,This doesn't work it's his vegan powers
+tennis,fo9yv6y,t1_fo9xyev,1587635261.0,Lmao this is great
+unixporn,fo8ka7i,t3_g5xh11,1587598207.0,Imagine having this setup and working in the middle of the night
+unixporn,fo649z3,t1_fo63aea,1587545956.0,"i cant seem to find it anywhere, is it custom?"
+unixporn,fo62hxz,t3_g5mbyw,1587544058.0,What's the script on the top middle window?
+unixporn,fo4x7iz,t3_g5gnam,1587512993.0,Upvote for sao
+tennis,fo4wtvp,t1_fo4pzyo,1587512777.0,Happy cake day!
+unixporn,fo4s54y,t3_g5dvbr,1587510163.0,This is amazing! And thank god theres a dark theme
+unixporn,fo4rux9,t3_g5hyzj,1587510006.0,"I'm not bold enough to go suckless, but great setup! Might try it soon... also distrotube is amazing
+
+Maybe you can use surf to be truly suckless"
+unixporn,fo4rr8y,t1_fo4fg8q,1587509949.0,lmao that that comment was amazing
+unixporn,fnwh3h4,t1_fnvex9d,1587318256.0,"It is Spotify, I just resized the window to make it smaller"
+unixporn,fnwh02n,t1_fnvitox,1587318204.0,Yup. That's the one
+unixporn,fnva3qz,t1_fnv4ers,1587285600.0,Don't *thonk* about the host name too much
+unixporn,fnuv8wc,t1_fnuv5nb,1587271995.0,Yea
+unixporn,fnufe6g,t3_g3zcyl,1587260822.0,"OS: Manjaro
+
+WM: bspwm
+
+Term: termite
+
+Browser: firefox
+
+Wallpaper (original): [here](https://imgur.com/a/p6z0fhD)
+
+Wallpaper (blur) : [here](https://imgur.com/a/FONNahb)
+
+[dotfiles](https://github.com/JavaCafe01/dotfiles)"
+unixporn,fnplxxp,t1_fnorphu,1587147823.0,It's polybar! They have lots of examples and how-to's at their official page [here](https://github.com/polybar/polybar)
+tennis,fno73w3,t1_fnnw35r,1587114564.0,Lmao
+unixporn,fno6t7o,t1_fno4sl7,1587114240.0,"There's a flag in Firefox that allows you to do css customizations. I found a nice cool nord theme and edited/applied it myself; I don't remember where I originally got it, but I do have the files to my config of it [here](https://github.com/JavaCafe01/dotfiles/tree/master/.config/foxify/themes/Nord)."
+unixporn,fnnx86y,t3_g2wevm,1587104567.0,"OS: Manjaro
+
+WM: bspwm
+
+Terminal: termite
+
+Browser: Firefox
+
+[Wallpaper](https://imgur.com/a/yVn7kpX) (created with gimp of course) : just a color background with the code tags icon (hidden behind firefox)"
+unixporn,fnnjwe8,t3_fy5zyi,1587094098.0,"Dang, first ever rice iv seen with an RTX super, good job!"
+unixporn,fn42dk4,t3_fz3v3z,1586632657.0,Nice rice! How are you managing dual graphics on void?
+unixporn,fn2hncm,t3_fy43gf,1586589351.0,You're on a hybrid graphics setup right? How is it on void?
+UCSD,fn2aaeh,t3_fyqen9,1586582373.0,Them Piazza notifications give me the worst headaches tho
+HistoryMemes,fn28f56,t1_fn21dfj,1586580774.0,Facts
+linuxmasterrace,fmvhafs,t3_fgk7bt,1586416955.0,"Well here's my [dots](https://github.com/JavaCafe01/Dots) with a nice screenshot of my current setup. I'm hooked on bspwm and the gruvbox colorscheme.
+
+Here's the [imgur](https://imgur.com/a/FBR2mSf) link for a shot of my desktop."
+unixporn,fmvf431,t1_fmv7k5z,1586414813.0,"I've been ricing for around a year or two I think. I first started from Manjaro's standard i3 config, which is pretty amazing by itself. After getting used to it and adding little by little customizations, I took a breath and installed Arch with i3. 
+
+My advice: start with prebuilt configs like Manjaro or Regolith, and get to know how they work (like polybar and rofi). Then, you can get some ideas from scrolling through unixporn and start fresh with your own custom configs."
+unixporn,fmv41p4,t1_fmv131l,1586405549.0,Thanks! The wallpaper is in my GitHub repo I commented earlier.
+unixporn,fmurq6i,t3_fxjmke,1586397441.0,"My dotfiles: [https://github.com/JavaCafe01/Dots](https://github.com/JavaCafe01/Dots)
+
+I use:
+
+* OS - Manjaro
+* WM - bspwm
+* Terminal - termite
+* Bar - polybar"
+UCSD,fmdq89d,t3_fulc1p,1585974647.0,I live in San Diego and I didn't feel one :/

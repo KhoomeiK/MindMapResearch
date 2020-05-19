@@ -1,0 +1,676 @@
+%
+1	funct
+2	pronoun
+3	ppron
+4	i
+5	we
+6	you
+7	shehe
+8	they
+9	ipron
+10	article
+11	verb
+12	auxverb
+13	past
+14	present
+15	future
+16	adverb
+17	preps
+18	conj
+19	negate
+20	quant
+21	number
+22	swear
+121	social
+122	family
+123	friend
+124	humans
+125	affect
+126	posemo
+127	negemo
+128	anx
+129	anger
+130	sad
+131	cogmech
+132	insight
+133	cause
+134	discrep
+135	tentat
+136	certain
+137	inhib
+138	incl
+139	excl
+140	percept
+141	see
+142	hear
+143	feel
+146	bio
+147	body
+148	health
+149	sexual
+150	ingest
+250	relativ
+251	motion
+252	space
+253	time
+354	work
+355	achieve
+356	leisure
+357	home
+358	money
+359	relig
+360	death
+462	assent
+463	nonfl
+464	filler
+%
+able*	355
+absolutely	1	16	131	136	462
+across	1	17	252	250
+actually	1	16
+add	131	138
+afternoon*	253	250
+ago	253	250
+agreed	125	126
+allow*	131	133
+almost	131	135
+alone	125	127	130
+along	1	17	131	138
+already	253	250
+alright*	125	126	462
+also	1	16	18
+although	1	18
+always	131	136	253	250
+amount*	20
+another	1	20
+anyone*	1	2	9	121	131	135
+anything	1	2	9	131	135
+anyway*	1	16
+anywhere	1	16	131	135	252	250
+appeared	11	13	131	135	251	250
+area*	252	250
+around	1	16	17	131	138	252	250
+arrived	11	13	251	250
+ask	11	14	121
+asked	11	13	121
+asking	121
+ate	11	13	146	150
+attempt*	355
+aware*	131	132
+away	1	17	252	250
+awesome	125	126	462
+awful	125	127
+baby*	121	124
+back	1	16	253	250
+bad	125	127
+bar	146	150	356
+bargain*	358
+basically	1	16
+beach*	356
+become	11	1	12	14	131	132
+beer*	146	150	356
+begin	11	14	253	250
+believe	11	14	131	132
+best	125	126	355	1	20
+better	125	126	355
+beyond	1	16	17	252	250
+big	252	250
+bill	358
+bit	20
+block	131	137
+blue*	140	141
+bone	146	147
+boring	125	127
+boy	121	124
+boys*	121	124
+bread	146	150
+break	250
+breakfast*	146	150
+bring	11	14	251	250
+brother*	121	122
+brought	11	13	251	250
+brown*	140	141
+brunch*	146	150
+building	250
+business*	354	358
+busy	250	253	354
+butter*	140
+call	121
+called	11	13	121
+came	11	13	131	138	251	250
+cards	356
+care	11	14	125	126
+careful*	125	126	131	137
+cash*	358
+center*	252	250
+chance	131	135
+change	250	251	131	133
+changed	11	13	250	251	131	133
+cheap*	358
+check	358
+checks	358
+children*	121	124
+chocolate*	140
+choice*	131	132
+city	250	252
+class	354
+clean*	357
+clear	131	136
+close	131	138	252	250
+closed	252	250
+cocktail*	150	356
+coffee*	146	150	356
+cold*	140	143
+color*	140	141
+come	11	14	131	138	251	250
+comes	11	14	251	250
+coming	251	250
+companion	121	123
+complain*	121	125	127
+complete	131	136
+completely	1	16	131	136
+concerned	125
+consider	131	132
+considered	131	132
+cook*	146	150	356
+cool	125	126	462	140	143
+cost*	358
+could	11	1	12	131	134
+couple	1	20
+course*	354
+cream	140	141
+customer*	354	358
+cut	125	127	129
+date*	253	250
+daughter*	121	122
+day*	253	250
+deal	121
+definitely	1	16	125	126	131	136
+delicious*	125	126	140
+department*	354
+describe	11	14	121
+described	11	13	121
+despite	1	17
+dessert*	146	150
+didnt	11	1	12	13	19
+die	360
+dine	150	146
+dined	146	150
+diner	146	150
+dining	146	150
+dinner*	146	150
+discount*	358
+dish	146	150
+dishes	146	150
+done	11	1	12	13
+dont	11	1	12	14	19
+door*	357
+doubt*	125	127	128	131	135
+drink*	146	150	356
+drive	251	250
+dry*	140	143
+due	250	253
+early	253	250
+easily	125	126
+easy*	125	126	356
+eat	146	150
+eaten	11	13	146	150
+eating	146	150
+effort*	355
+either	1	20	131	139
+else	1	20
+end	253	250
+ended	11	13	253	250
+enjoy*	125	126
+enough	1	20
+entire*	1	20	131	136
+environment*	252	250
+especially	1	16
+etc	1	20
+even	1	16
+evening*	253	250
+ever	1	16	131	136	253	250
+every	1	20	131	136
+everyone*	1	2	9	121
+everything*	1	2	9	121	131	136
+except	1	17	131	139
+explained	11	13	121	131	132
+extra	1	20
+extremely	1	20	131	136
+face	146	147
+fact	131	136
+fairly	1	20	131	135
+family	121	122	356	357
+fantastic*	125	126
+far	252	250
+fast	253	250
+feel	11	14	131	132	140	143
+feeling*	131	132	140	143
+felt	11	13	131	132	140	143
+fill*	250	251
+final	250	253
+finally	250	253
+find*	131	132
+fine	125	126
+finish*	253	250
+first	1	21	253	250	355
+fit	250	252
+flavor*	140
+floor*	252	250
+folks	121	122
+food*	146	150
+foot	146	147
+forget*	131	137
+forgot*	131	137	11	13
+former*	253	250
+forward*	251	250	252	253
+found	11	13	131	132
+four*	1	21
+free	125	126	358
+frequently	1	16	253	250
+friday*	253	250
+friend*	121	123	125	126
+fries	146	150
+front	250	251
+full*	1	20	252	250
+fun	125	126
+gave	11	13	121
+general	131
+get	11	14
+gets	11	14
+girlfriend*	121	123
+give	11	14	121
+given	11	13
+go	11	14	251	250
+goes	11	14	251	250
+going	251	250
+gone	11	13	251	250
+good	125	126
+got	11	13
+great	125	126
+green*	140	141
+ground*	252	250
+group*	121
+guess	11	14	131	135
+guy*	121	124
+hair*	146	147	140	143
+half	1	21
+hand	146	147	140	143
+hands	146	147	140	143
+happened	11	13
+happy	125	126
+hard	140	143
+head	146	147
+health*	146	148
+heard	11	13	121	140	142
+heart	146	147
+help	121
+high	252	250
+highly	1	20
+hit	10	14
+holiday*	356
+home	357
+honey	121	123	140
+hope	11	14	125	126	131	134	135
+hot	140	143
+hour*	253	250
+house*	357
+however	1	16	18
+hubby	121	122
+huge*	252	250
+husband*	121	122
+immediately	1	16	253	250
+informed	131	132
+inn	356
+inside	1	17	131	138	252	250
+instead	1	16
+issue	131
+item*	1	20
+job*	354
+keep	11	14	131	137
+kept	11	13	131	137
+kids*	121	124
+kind	<of>131/125	<of>135/126
+king*	355
+kitchen*	146	150	357
+knew	11	13	131	132
+know	11	14	131	132
+known	131	132
+lack*	1	20	131	134
+lady	121	124
+large*	252	250
+last*	253	250
+late	253	250
+later	253	250
+least	1	20
+leave	251	250
+left	250	252
+legs*	146	147
+less	1	20
+let	1	11	12
+life	146	148
+light	140
+like	(02 134)125/464 (02 134)126 (02 134)126 253
+liked	11	13	125	126
+living	146	148
+local*	252	250
+long	253	250
+look	11	14	140	141
+looked	11	13	140	141
+looking	140	141
+lot	1	20	131	135
+lots	1	20	131	135
+loud*	140	142
+love	11	14	125	126	146	149	121
+loved	11	13	121	125	126	146	149
+lovely	125	126
+loves	11	14	121	125	126	146	149
+low*	125	127	130	252	250
+lunch*	146	150
+made	11	13	131	133
+main	1	20
+make	11	14	133	131
+makes	11	14	131	133
+making	131	133
+mall	356
+man	121	124
+many	1	20
+market*	354
+may	11	1	12	15	131	135
+maybe	1	16	131	135
+meal*	146	150
+mean	11	14	131	132
+means	11	14	131	132
+meant	11	13	131	132
+meet	121
+meeting*	121	354
+mention*	121
+messy	125	127
+might	11	1	12	15	131	135
+milk*	146	150
+min	253	250
+mind	131
+mine	1	2	3	4
+miss	11	14	125	127	130
+missed	11	13	125	127	130
+missing	125	127	130
+modern*	253	250
+moment*	253	250
+money*	358
+month*	253	250
+mood	125
+morning*	253	250
+mother	121	122
+mouth*	146	147
+move	251	250
+moved	11	13	251	250
+movie*	356
+much	1	20
+must	11	1	12	15	131	134	136
+name	121	131
+near	1	17	252	250
+nearly	1	16	131	135
+neat*	125	126
+need	11	14	131	134
+needed	11	13	131	134
+needs	11	14	131	134
+never	1	19	131	136	253	250
+new	253	250
+next	253	250
+nice*	125	126
+night	253	250
+nights	253	250
+noise	140	142
+none	1	19	20
+north*	252	250
+nothing	1	19
+offer*	121
+office*	354
+often	1	16	131	135
+oh	462
+oil*	140
+ok	125	126	462
+okay	125	126	462
+old	253	250
+one	1	21
+ones	1	20
+onto	1	17	252	250
+open	131	138	252	250
+opened	250	252
+opinion	131	135
+orange*	140	141
+order	250
+original	125	126
+others	1	2	9
+otherwise	1	18
+outside	1	17	252	250
+outstanding	131	134
+oven*	357
+overall	131	135
+owner*	121
+paid	11	13	358
+part	1	20
+party*	121	125	126	356
+pass	251	250
+past	253	250
+pasta*	146	150
+patio*	357
+pay*	354	358
+people*	121	124
+perfect*	125	126	131	136	355
+perhaps	1	16	131	135
+person	121	124
+personal	125	121
+pick	131	133
+pizza*	146	150
+place*	252	250
+playing	125	126	356
+pleasant*	125	126
+please*	125	126
+point	250	252
+poor*	358
+popular*	125	126
+portion	20
+present	253	250
+presentation*	354
+pretty	125	126	131	135
+price*	358
+prior	250	253
+private	121
+probably	1	16	131	135
+problem*	125	127	131	134
+public	121
+put	250	251
+quick*	1	16	253	250
+quite	131	135
+rather	1	16	131	134	139
+read	354	356
+ready	125	126
+real	131	136
+really	1	16	131	139
+red	140	141
+refund*	358
+replace*	251	250
+rest	1	20
+return*	253	250
+review*	354
+rib	146	147
+ribs	146	147
+right	250	252
+rings	140	142
+romantic*	125	126
+room	252	250	357
+rude*	125	127	129
+run	251	250
+said	11	13	121	140	142
+salad*	146	150
+sandwich*	146	150
+sat	11	13
+saturday*	253	250
+save	125	126	131	137
+saw	11	13	140	141
+say*	121	140	142
+school*	354
+season*	253	250
+second	1	21
+seconds	253	250
+see	11	14	140	141
+seeing	140	141
+seemed	11	13	131	132	135
+seems	11	14	131	132	135
+seen	11	13	140	141
+selection	20
+sell	358
+send*	121	250	251
+sent	121	250	251	11	13
+set	250
+several	1	20
+shame*	125	127	128
+short*	252	250
+show	356
+sick	146	148
+side	252	250
+sides	252	250
+simple*	20
+simply	16
+since	1	17	131	133
+sit	250
+sitting	250
+slow*	253	250
+small*	252	250
+smell*	140
+soft*	140	143
+someone*	1	2	9	121	131	135
+something*	1	2	9	131	135	139
+sometimes	131	135	253	250
+somewhere	250	252	1	2	9	131	135
+son	121	122
+soon	1	16	253	250
+sorry	125	127
+soul	359
+sound*	140	142
+sour	140
+south*	252	250
+speak	121	140	142
+special	125	126
+spicy	140
+staff*	354
+stand	250
+standard	131
+start	11	14	253	250
+started	11	13	253	250
+stay*	250
+stayed	11	13
+step	251	250
+still	1	16	253	250
+stood	11	13
+stop	131	137	253	250
+store	358
+story	121	131
+street*	252	250
+sugar*	146	150	140
+suggest*	121
+summer*	253	250
+sunday*	253	250
+superb*	355
+supposed	11	13	131	135
+sure*	125	126	131	136
+sweet	125	126	140
+take	11	14
+taken	11	13
+takes	11	14
+talk	121
+talked	11	13	121
+tell	121
+tender*	125	126	146	148
+thank	11	14	125	126
+thick*	252	250	140	143
+thin	252	250	140	143
+thing*	1	2	9
+think	11	14	131	132
+third	1	21
+though	1	16	18
+thought	11	13	131	132
+three	1	21
+time*	253	250
+today*	253	250
+together	252	250
+told	11	13	121
+took	11	13	251	250
+top	252	250	355
+totally	1	16	131	136
+tough*	125	127
+town	250	252
+treat	125	126
+tried	11	13	355
+trip	251	250
+true	131	136	125	126
+truly	1	16	125	126	131	136
+try	11	14	355
+trying	355
+turn	11	14
+turned	11	13
+twice	1	21
+two	1	21
+type*	354
+understand	11	14	131	132
+unique	1	20
+unless	1	17	18	131	139
+unpleasant	125	127
+upon	1	17	252	250
+upset*	125	127	128
+upstairs	252	250
+us	1	2	3	5	121
+use	11	14	131	133
+used	11	13	131	133
+using	11	14	131	133
+usual	253	250
+usually	1	16	131	135	253	250
+value	125	126	358
+version*	20
+view	140	141
+visit*	121	251	250
+wait	11	14	131	137
+waited	11	13	131	137
+waiting	131	137
+walk	251	250
+walked	11	13	251	250
+walking	251	250
+walls	252	250
+want	11	14	131	134
+wanted	11	13	131	134
+wanting	131	134
+wants	11	14	131	134
+warm*	125	126	140	143
+water	146	150
+way	250
+week	253	250
+weekend*	253	250	356
+well	1	16	463	125	126
+went	11	13	251	250
+white*	140	141
+whole	1	20
+wide*	252	250
+wife*	121	122
+window*	357
+wine	146	150	356
+wines	146	150	356
+within	1	17	252	250
+without	1	17	19	131	139
+wonder	11	14	131	132	135
+wondering	131	132	135
+word*	131	121
+work	354	355
+working*	354	355
+world	250	252
+worse*	125	127
+worst	125	127	1	20
+worth	358
+would	11	1	12	15	131	134
+wrong*	125	127
+year	253	250
+years	253	250
+yes	462
+yet	1	16	253	250
+young*	253	250
+

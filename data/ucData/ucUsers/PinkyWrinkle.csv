@@ -1,0 +1,59 @@
+subreddit,self ID,parent ID,time,text
+Unexpected,fpminkr,t3_ge90pd,1588733909.0,Is this banned in Canada now?
+JoeRogan,fpfmcd4,t1_fpfasm2,1588575766.0,"I was in the navy. When my shop got out first girl, our DIVO sat us down and told use we had gone down our language and stop drawing dicks on the white board."
+MythicQuest,fp6r5ek,t3_gb2h70,1588357168.0,WHAT! I've watched this show like ten times and I never noticed
+dartlang,fp0orhc,t1_fp0n6so,1588213626.0,I always forget about the cascade operator
+business,fozxz9x,t1_foz9wbf,1588198871.0,"> If Space X is truly more efficient then NASA, shouldn't their people need to work less and not more?
+
+
+No."
+Business_Ideas,fozhf84,t3_ga5w47,1588190709.0,How about a docu-series? It would probably be easier to monetize on YouTube.
+AsheronsCall,forfef9,t1_fordu8l,1588011299.0,I agree with everything except for pyreal weight.  It made playing a low level mage an absolute nightmare. You couldn’t sell loot to buy more comps because you’d hit 300bu
+Flutter,fokfbil,t3_g7yzeg,1587841012.0,https://resocoder.com/
+Flutter,foddkv4,t3_g6oe4b,1587683355.0,"> I started by wanting to minimise the number of extensions I was using especially extensions that auto-generate code and force us to write things with some $weird symbols, but I am finding out the ""pro coders"" are saying that the right way of doing things is to use these extensions.
+
+Hey man, don't we all. You don't have to use any of the packages.  As a user of Flutter_Bloc, freezed (a code gen library) is simply a convenience so you don't have to manually write out all of your state classes. That's it really, a convenience. 
+
+
+> get_it and injectable:
+ 
+get_it is a Service Locator package. Personally I prefer a composition root and constructor injection, however due to the nested nature of flutter, it can be annoying to pass in arguments so deeply. 
+
+
+> I used to have a file called ""initialised_services.dart"" where I would initialise services (e.g. final firestore = Firestore.instance;) and whenever I needed to use this service I would just import this file and use it.
+
+Firebase is what you would call a ""Volatile Dependency"" and doing it the way you describe makes it difficult to mock for testing. 
+
+
+> Apparently, the right way of doing this is to pass the firestore instance as an argument for the classes that use this instance  
+
+This is called ""Constructor Injection""
+
+
+>  Why is this the better option? What is it gained in terms of performance? And in terms of clarity?
+
+... probably nothing is gained in terms of performance. But a class shouldn't know how to create its dependencies, it should just have something that meets the interface."
+CrackheadCraigslist,focd1xr,t1_fob4x8k,1587669894.0,How is this cheap?
+Flutter,fo95qdo,t3_g6a901,1587611159.0,"> Is it a good practice to declare mutable variables inside the Bloc class?
+
+I don't think there's anything wrong with that. You'll have to in some cases, but you shouldn't expose these to the UI
+
+>  Is it a good practice to update a variable (and just that) inside BlocListener or BlocBuilder and is it even possible?
+
+It is possible. If you bloc exposes any variable is can be mutated from the UI, but you shouldn't do that. The UI should should only interact with the bloc by adding Events, that will yield new States from which the BlocListener or BlocBuilder can rebuild."
+millionairemakers,fo137ve,t3_g4ug0g,1587424843.0,sent 5$
+millionairemakers,fnqy960,t3_g3cun9,1587174874.0,Ooooh commmooonnn
+compsci,fnnhmqk,t3_g2tc92,1587092574.0,Makes sense to me
+UCSC,fnhircn,t1_fnhhgto,1586963170.0,"Some people don’t want change, they just want to be angry"
+PurplePillDebate,fnexe7j,t3_g19e2w,1586897619.0,"I kind of think the apps (tinder and bumble) are the problem, assuming you use them. I do and I've thought about this before. They both have issues which encourage the disposability. With tinder it's the absolute number of options you have. I just checked mine and have 931 matches. That gives me too many choices. If I'm bored, lonely, or horny, I can just message around until I find someone who can satisfies the need of the moment.
+
+With bumble its the 24hr clock. It puts an incentive on responding to the girl lest she be gone forever (FOMO). But that just pushes all previous conversations down the stack until you forget about them.
+
+What has helped me in the past, was placing a hard date limit (4 dates) before I would sleep with someone. It encouraged me to find someone that I actually wanted to see at least four times rather than just prioritizing a nut. 
+
+ > I hike, ski, run, hot yoga etc I'm 5'5 and 130 lb, 25 years old. I make 128k/ year, software engineer.
+
+On paper you seem pretty great. If you're in the Bay, get at me."
+dartlang,fn4v6if,t3_fzkh7b,1586649679.0,Why not have a list of comments as a field on the post document?
+learnprogramming,fmgsw3c,t3_fv3j3y,1586056949.0,"I’d buy an algorithms book, I liked Skiena,
+. pick a chapter, read it, and try to find a couple leetcodes on that chapter"

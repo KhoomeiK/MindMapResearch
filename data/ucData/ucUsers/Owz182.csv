@@ -1,0 +1,37 @@
+subreddit,self ID,parent ID,time,text
+YouShouldKnow,fpbjmmx,t3_gcchrs,1588471531.0,Nice try big covid
+learnpython,fp8gygh,t3_gbp0a1,1588392031.0,You’re the best!!
+DataScienceJobs,fp62f0q,t3_gbiv9h,1588344787.0,Sounds like a cool project and I’ve heard of WEST’s work on migration corridors. Is this role for detecting mule deer in camera traps images?
+learnmachinelearning,fp19cld,t1_fp0zwbh,1588228198.0,"Basically, yes!"
+learnmachinelearning,fp09vaw,t1_foxfjji,1588205204.0,"No problem! So in terms of the data you are using to fit the model, yes your y values are just a single value for each sample. For prediction, given that you have an entire distribution of possible values for your model parameters, it makes sense to draw samples from that distribution to give you a sense of the possible values that prediction might be. In practice, all this means is taking say 1000 samples from your posterior and using them to make 1000 predictions. The thing with Bayesian statistics is because you get distributions at each stage, you preserve that throughout the process. If you ever wanted to get a single point you would just take the mean of the distribution (but in doing so you would lose lots of useful information and Bayesian goodness)."
+Wales,fp07t7l,t1_foxp8xb,1588204094.0,It was a Suzuki bandit but she’s long gone now I’m afraid! Penclawdd had a mint chip shop on that corner by the gravel car park. Good times!
+learnmachinelearning,foxaqsq,t1_fowrdc4,1588138484.0,"BLR will gives a posterior distribution for every parameter (i.e. the betas and intercept of the logistic regression). The posterior will basically be a huge array of numbers, each one an estimate of the parameter. Because of the way MCMC sampling works, the majority of the samples should end up being near the true parameter value, so from this you can take the mean estimate (i.e the mean of all the values) and also calculate the credible intervals for the parameter too. I’d read more about MCMC sampling to help you see how each sample is generated. But no, you don’t arrive at a single value for the parameter estimate, you can only get a mean of the posterior distribution. Does that make sense?"
+berkeley,fowpedz,t3_g9vxb0,1588124391.0,"Appreciate the work that went in to this, but are you sure all the numbers are correct? A 17% fatality rate for ages 30 to 39 seems too high, are you missing a decimal there?
+
+Edit: you know what, I’m on mobile and reddit app put the decimal on the previous line, sorry!"
+Wales,fowo7rr,t1_fovr5ea,1588123709.0,Haha yes that’s the first road I took my bike to when I passed my test!
+AdviceAnimals,fov1k4l,t1_fouyr6j,1588093887.0,"This! I’m also unemployed at the moment but would never admonish parents for saying their struggling right now. There’s a global pandemic going on and parents are expected to remain productive while also being full-time teachers and care givers. It’s hard man! For folks that don’t have kids, remember it’s this generation we’re raising now that will be paying your social security with their taxes in 30 years. Raising kids is a public good (provided you don’t raise a bunch of serial killers)."
+AdviceAnimals,fov136c,t3_g9ppxi,1588093669.0,"I always appreciated teachers and daycare workers, but I do hope from now on we pay teachers at public schools more. Their contribution to society is huge and they work like dogs for not anywhere near enough salary."
+learnmachinelearning,fov0n1d,t3_g9pwys,1588093460.0,"One thing I noticed is that datasciencefree one has a couple of depreciated functions like df.ix(), so something to look out for."
+learnmachinelearning,founezu,t3_g9mnc4,1588087206.0,"Forgive me if I’m wrong but wouldn’t the first be fit by MLE and the other by some kind MCMC sampling? They might end up on the same solution , but that depends on the size of the lambda penalty you choose and the particulars of the data. Also the Bayesian LR will give you a posterior distribution for your parameters rather than a point estimate and CIs."
+Wales,foumduh,t3_g9mbvz,1588086689.0,"There are many on the Gower peninsula, like “Arthur’s Stone” and “Parc Cwm long cairn”. I think Gower might be a bit of a hotspot for Neolithic structures"
+immigration,foqsmwi,t1_foq6rv7,1588000091.0,"You’re right, it was really tough!"
+immigration,fopq6zq,t1_fop8vze,1587968627.0,This is definitely true
+immigration,fopq5sq,t1_fop7kos,1587968598.0,I was a post doc at Berkeley!
+immigration,fop67c7,t1_foou4jf,1587953970.0,"Of course it totally depends on the area. I moved from Germany on around $30,000 living in a nice two bedroom at about $800 a month, to the SF Bay Area on $60,000 in a one bedroom for $2600. I promise you I had a lot more disposable income in Germany. Would have taken me tripling my salary to really stand still lifestyle wise. I grew up in the UK, and the part I’m from, $35,000 a year would get you a very solid middle class lifestyle. Free health care, easy commutes, 30 holiday days a year. So why am I in the U.S? I married an American!!"
+datascience,fodonap,t3_g6un4o,1587687264.0,Those “Taking you higher” mixes on YouTube are my coding music
+politics,fo79es8,t3_g60iaj,1587574503.0,"Just to caution that this work has not finished peer review yet. I personally don't like research being released to the media prior to peer review, regardless of what that research ends up concluding."
+Wales,fo3ics0,t1_fo3ai77,1587487395.0,Haha that’ll teach me not to trust a stranger!
+learnmachinelearning,fo39u6e,t3_g5e69r,1587483201.0,Also interested in this!
+Wales,fo37i43,t1_fo2f3j5,1587481989.0,Interesting! Thanks!
+Wales,fo1jtqq,t3_g4z7q2,1587434843.0,I wasn’t able to find Liverpool. Was it not around then or did I just miss it?
+Damnthatsinteresting,fn6mbuh,t3_fzvzei,1586702742.0,Proof dogs can look up
+politics,fn3bfy8,t1_fn2u2mn,1586617216.0,"Unfortunately this happened to a friend in Washington, the father passed away last week from complications due to coronavirus. It’s an “I told you so” that nobody wanted to say. That’s why it matters what the people in charge say on TV."
+dataisbeautiful,fmxysru,t3_fxucds,1586474566.0,Point taken
+Dads,fmxxpiw,t3_fy0he8,1586473941.0,"Cymru am byth!  
+
+
+A temp is quite common with jabs, don't worry unless it goes over 40, at that point call your doc."
+Dads,fmwdhot,t1_fmv8cl2,1586444585.0,Not really. Should I be keeping a look out for anything in particular?
+Dads,fmuvecf,t1_fmud4s2,1586399740.0,This cracked me up.
+rstats,flztoob,t3_frxudc,1585633246.0,Add a quadratic term on the covariate of choice?

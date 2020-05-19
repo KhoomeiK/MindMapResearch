@@ -1,0 +1,37 @@
+subreddit,self ID,parent ID,time,text
+Whatcouldgowrong,fopgf49,t1_fonocnl,1587960824.0,You know all of those other dances still exist right?
+FansHansenvsPredator,foc3vfs,t3_g6qfq0,1587666809.0,"If you're into true crime, check out the youtube channel JimCantSwim."
+UCSC,fo7xmfv,t1_fo619v8,1587586294.0,"Whoa, I think this place was before my time. What was it it? It sounds rad."
+politics,fo7grey,t1_fo6reh4,1587578064.0,Who are you talking to?
+learnpython,fnet3lf,t1_fnelny2,1586895372.0,"Thanks for your help, I really appreciate it! 
+
+At first I was confused on how to pass values to quad for the constants (it doesn't take kwargs), but I think I've figured it out. Quad knows that the first argument in myfunc is the variable to integrated, and then takes everything after as positional arguments. So I can pass a tuple of values that match up with the positional arguments of the function and do something like this (I added extra constants to your example function for my example).
+
+    from scipy.integrate import quad
+    
+    def myfunc(x, a, c):
+        return a*x**3 + c
+    
+    boundlist = [1, 2, 5, 8]
+    
+    # Values for a and c
+    parameters = (15, 20)
+    
+    for bound in boundlist:
+        result, error = quad(myfunc, 0, bound, args=parameters)
+        print(bound, "" : "", round(result, 6))"
+learnpython,fnekbgv,t1_fnd0oq1,1586890899.0,"I'm a bit unclear on how to deal with the constants. The documentation for quad defines the integrand with a lambda expression, but since I want to be able to change the constants, should I define a function with arguments for the integration variable and constants and pass that to quad?
+
+&#x200B;
+
+Edit: Or maybe define a lambda function with multiple variables?"
+Chihuahua,fn9cc1v,t3_g07fxt,1586767419.0,omg
+Nioh,fn5zd1q,t1_fn5qpin,1586681397.0,lol fair enough
+fortran,fn5unp1,t1_fn5d49p,1586676496.0,Sublime is another text editor worth checking out.
+santacruz,fn5u2pe,t1_fn5fs9e,1586675911.0,how is this fascism?
+santacruz,fn5u1zi,t1_fn5em5t,1586675890.0,you sound dumb
+politics,fn5tfvt,t1_fn5t285,1586675279.0,so enlightened
+Nioh,fn5ph9h,t1_fn4xmrg,1586671546.0,you sound entitled
+jimcantswim,fmx1ec2,t1_fmwq7q1,1586456737.0,I don't think those are the people who make the JCS videos. I think those are just folks who helped out on that one.
+CrappyDesign,fmmldlg,t3_fw1qhd,1586207399.0,For very large values of 90.
+Nioh,fmgzju5,t3_fv456p,1586062166.0,you sound like a chode

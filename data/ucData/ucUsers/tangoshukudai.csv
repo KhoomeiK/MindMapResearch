@@ -1,0 +1,160 @@
+subreddit,self ID,parent ID,time,text
+PoliticalHumor,fpmnrqt,t3_ge8p7k,1588737208.0,"this is such a good point.  People think Biden isn't great, but compared to tRump he might as well be Joe Biden the Great."
+AskReddit,fplcl9a,t1_fpk4h2q,1588710305.0,Good for him.
+OldSkaters,fpjzdqn,t1_fpjkfvp,1588684748.0,"Most of my bowls and pools are much bigger than that around me, and if they aren't they have some other challenge.  This one seems to be a medium sized mellow bowl."
+pics,fpiohb1,t3_gd0etj,1588645217.0,10 years later she is standing on Letterman's desk and flashing him.
+UCSD,fpi94h8,t3_gdkmcy,1588636139.0,I know plenty of people that are not motivated during a normal school year also.   However I agree being at home all the time is hard and has a lot of distractions.
+pics,fphn8yp,t3_gd4sds,1588624271.0,So unfair that kids have to suffer.   Thank you Cena.
+OldSkaters,fphj2wf,t3_gdfrme,1588622163.0,"I miss my local bowl,and I wish I had a small bowl like that."
+videos,fpdzans,t3_gcs8ru,1588537232.0,"My dad is 96, and was in WWII.  I always look for pictures of him too."
+PoliticalHumor,fpdhglz,t3_gcqobd,1588527065.0,Everyone of them with trump blood has the ugliest face.
+apple,fpczkbx,t1_fpcd524,1588516575.0,So none of those games will work well on Windows and will never get ported to MacOS.  nice.
+politics,fp9vsz4,t3_gbsy6u,1588435599.0,"can you summarize that site, that site gives me cancer."
+UCSD,fp9vph4,t3_gc2bi6,1588435541.0,"They teach java at UCSD, 8a and 8b."
+videos,fp9ij5j,t3_gbspn8,1588427088.0,"I feel really bad for him.  He obviously was raised around black people and identifies with the culture.  He is attracted to black women, and wishes he was black.  He is 100% trans black.   However he is so angry and really does need to seek medical support."
+apple,fp9gg1i,t1_fp8kkdg,1588425516.0,"What did I flip on?  Someone used ID as an example that they only target Vulkan.  I was explaining that most games devs focus on DirectX on Windows first, and if their engine is well abstracted then you will see it running on other platforms because then they support Vulkan, Metal and OpenGL.  If some game developer ported their engine only to DirectX and Vulkan then it isn't that much work to finish the abstraction and port it to Metal.    What someone was trying to say is that they don't target DirectX now that Vulkan is out, and that simply is not true."
+apple,fp8kh53,t1_fp8k3z8,1588394695.0,"I just said, the game just came out.  I wasn't aware it was using DirectX 12.  I am happy it is because it proves my point."
+apple,fp8jyl5,t1_fp8ipp4,1588394295.0,"The game just came out (March 20, 2020), it is the exception to their hatred for anything non Khronos.  Obviously they chose DirectX12 for a reason, and didn't just force Windows 10 users to use the Vulkan version of their engine.  They obviously saw speed improvements with DirectX."
+apple,fp8fjmf,t1_fp8c93l,1588391011.0,"The geometry and tessellation family of shader stages are generally not popular in the wild. They don't actually fit well to how the hardware works. And, with the exception of special-cased uses like ""render to cubemap"" or ""point-to-quad"" that do fit, they are not used much. Also Geometry Shaders Are Slow (Unless you’re Intel)
+Instead, more and more of the shader work is moving to compute. Modern engines are doing skinning and shading in compute. Raster is heading towards only being used for pixel visibility (depth and maybe triangleID+barycentrics).
+Personally, I hoping that AMD gets on board with https://devblogs.nvidia.com/introduction-turing-mesh-shaders/"
+apple,fp8evwi,t1_fp8bjzr,1588390551.0,"ID said:  DirectX 12 and Vulkan are conceptually very similar and both clearly inherited a lot from AMD’s Mantle API efforts.
+
+This allows them to easily port to DX12 because of that.   PS4, uses a similar approach."
+PoliticalHumor,fp8c36i,t1_fp8bsm8,1588388605.0,"Why the hell do you think he is a pedophile, lol."
+apple,fp8b8qo,t1_fp8al7e,1588388032.0,"1st.  Geometry shaders are handy, but all calls to the GPU are simply instructions and you can pretty easily implement anything you need directly with the shaders I mentioned.  
+
+2nd.  https://developer.apple.com/documentation/metal/indirect_command_buffers/encoding_indirect_command_buffers_on_the_cpu?language=objc"
+apple,fp8axvu,t1_fp89j57,1588387826.0,"Those DirectX feature levels are able to target GPUs that Vulkan doesn't yet target.   Xbox development shares almost everything with DirectX for the PC.  PC ports typically take a little longer since they have to test on more hardware and can scale the graphics since there is more or less power available but overall the development is the same.   Xbox covers 90% of the development time to bring your games to Windows and Microsoft is making that easier with every release.    Doom is a Khronos only shop, (OpenGL and Vulkan) they refuse to port their games to DirectX, Metal or PS.   Unreal engine is the opposite and is why they have leap frogged ID in graphics capabilities.  
+  
+>And yet that's very clearly not what's happening.
+
+Yes I agree that Microsoft has a strong hole of the market and game devs don't port their games to anything but DirectX.   Which is why all game engines should be ported to all platforms, DirectX, Metal, Vulkan and OpenGL (if possible) to ensure compatibility anywhere."
+apple,fp8aa00,t1_fp89lod,1588387379.0,"No they were not scared of CUDA, they didn't like the side loading.   
+
+| Right, they had a lot of issues with it,
+According to whom? You? Lol.
+
+Yes I worked at Apple for over 10 years."
+apple,fp8a5q8,t1_fp89scx,1588387301.0,"Geometry shaders are just abstractions and can be accomplished with compute shaders, tesselation and/or indirect draw calls.  Apple gives developers the lower level access that you can implement your own Geometry shaders."
+politics,fp89w0y,t1_fp80lee,1588387121.0,"Yeah she was well spoken, but obviously she was sucking up to trump the entire time.  Almost as if she comes from a republican family that wants to impress trump or something."
+apple,fp89bq3,t1_fp88s4r,1588386741.0,"Right, they had a lot of issues with it, plus they were side loading CUDA which made Apple very mad."
+apple,fp896ig,t1_fp876vd,1588386643.0,Those games are known to use MoltanVK.
+apple,fp893n9,t1_fp87b98,1588386590.0,"DirectX is not limited to D3D (the 3D drawing system) but also includes a lot of other features like audio and input which are pretty important for a game. Vulkan and OpenGL only do rendering.  For Metal it can target GPU specific features since the GPUs are developed by Apple. https://developer.apple.com/documentation/metal/gpu_features/understanding_gpu_family_4?language=objc 
+
+Also Xbox forces devs to go DirectX anyways which forces devs to target DirectX also.   Why would any game company use Vulkan on Windows when they can get native support on Xbox and Windows by using DirectX.  Also the VisualStudio tools are leaps and bounds better for DirectX as well.  This means that now if games want to support Vulkan they need to have a directx and Vulkan backend, and if they built that abstraction it is very easy to add another (aka Metal)."
+apple,fp88ovu,t1_fp87crl,1588386303.0,They don't let anyone provide graphic drivers to the system.  They work closely with AMD and NVIDIA to bring the drivers.
+apple,fp86mmf,t1_fp83zu3,1588384858.0,Both those games use MoltanVK not pure metal.
+apple,fp862az,t1_fp84sqn,1588384452.0,https://www.youtube.com/watch?v=A5y7sOFGVE0
+apple,fp860xs,t1_fp84wkz,1588384425.0,"That's not true, DirectX gives a lot of power to devs that Vulkan can't.  Same with Metal."
+apple,fp85ziu,t1_fp85368,1588384396.0,That's not how it works.
+PoliticalHumor,fp7m9z6,t1_fp7kyfd,1588373316.0,I don't consider it creepy.  Your overly PC view of how men should interact with children and women is sad.
+apple,fp7m4jf,t1_fp7kzhx,1588373232.0,"Metal can run faster than DirectX even.  https://www.youtube.com/watch?v=A5y7sOFGVE0
+
+Apple has no benefits from going to Vulkan, just like Microsoft won't."
+apple,fp7jhrv,t1_fp7gsqk,1588371787.0,"Right, that would be the same problem if Vulkan ran natively, just like all the Vulkan issues on Android and Windows.   Devs should support Metal, DirectX and Vulkan and be done with it."
+apple,fp7fwnp,t1_fp6vybb,1588369870.0,"That port is using MoltanVK, not pure metal."
+apple,fp7fj1s,t1_fp7di63,1588369669.0,"Games are made and developed for DirectX and they are ported to Metal.  I would like to see Metal vs Vulkan, which Metal does outperform.  Also that port is using MolkanVK not pure metal."
+apple,fp7fecp,t1_fp7e1fe,1588369599.0,"Every engine should abstract Metal, Vulkan, DirectX and OpenGL.  Which is what Valve, Unity, Epic and others are doing.   On Windows you still are better off using DirectX and on Mac you are better off using Metal.  Vulkan is ideal on linux and Android."
+apple,fp7dfgb,t1_fp6qqze,1588368546.0,"Apple does allow Vulkan, they can run MoltanVK on apple products."
+apple,fp7dd2t,t1_fp6ve9v,1588368511.0,"Show me one benchmark where that is shown, that is complete BS."
+apple,fp7dbhz,t1_fp6vybb,1588368488.0,"Fortnite is using MoltanVK, not Metal directly."
+apple,fp7d9j6,t1_fp7c8il,1588368459.0,"Vulkan wasn't around when Apple created Metal, and no one is targeting Vulkan anyways. Most shops are targeting DirectX."
+apple,fp6q261,t1_fp6eldn,1588356620.0,That isn’t metal’s fault!
+apple,fp6pzl7,t1_fp63oz8,1588356586.0,"Bullshit. Metal is a fantastic gpu API, companies choose not to adopt it because they are lazy and only support DirectX."
+apple,fp6pnn3,t1_fp66ois,1588356425.0,"Metal is better than Vulkan and game devs already are targeting DirectX (which is why we see so many windows games) if they make their engines correctly they can abstract to metal, vulkan and DirectX with no issues."
+PoliticalHumor,fp6n8bi,t1_fp6lkaw,1588355240.0,"My grandfather did all that, it isn't creepy, it is how they are.   Do you think Biden would abuse a girl on live tv?  You are clueless if you do."
+PoliticalHumor,fp6n306,t1_fp6lsxm,1588355167.0,Well it depends on where they are from and how social they are.   Sounds like you are not from the east coast.
+PoliticalHumor,fp6l2sw,t1_fp65gcf,1588354183.0,"Biden wasn't inappropriately touching anyone.  He was doing it to connect, not to abuse.  I had a coworker file a sexual claim against a coworker from Italy that kissed both sides of her face when they met.   It's their fucking culture."
+PoliticalHumor,fp6kqpb,t1_fp698vk,1588354017.0,"You don't understand people in the age group and culture of Biden if you think he is a creep.  All the footage I have seen is very common with people of his upbringing and culture, and it by no means makes him a sexual predator."
+PoliticalHumor,fp5yi5u,t1_fp5x8m9,1588342599.0,Do you really believe that?
+politics,fp3t8if,t1_fp2kxgw,1588285375.0,"That is what he was trying to do, but he got elected by mistake."
+funny,fp3spty,t1_fp2yzrl,1588285106.0,When slow mo is at 15fps then it looks like laggy video.
+UCSD,fp3sk27,t3_gb1k3d,1588285024.0,that SUCKS.
+AskReddit,fp00qiu,t3_gaarw1,1588200319.0,Titanic.
+politics,foyrnbk,t3_ga6jvm,1588177908.0,"He wants his supporters to demand we open the economy, he wants protesters."
+VWBus,fowsbqv,t3_g9sp8n,1588126090.0,love love love it.
+ebikes,fovrk90,t3_g9cmt2,1588106297.0,Satiator.
+iOSProgramming,foutyxj,t3_g9gx9x,1588090364.0,"It can only do basic things, then it hits a ceiling.  I would rather use storyboards than SwiftUI."
+gopro,fou9xkc,t1_fou5dsd,1588079776.0,Doesn't look pixelated to me.
+videos,fot81t6,t3_g92i9v,1588046792.0,maybe they should have a stop sign for the bikes?
+NewSkaters,fot7e8i,t1_fot67pk,1588046342.0,"Once you get the motion down you can skate in almost every shoe, but it really does hurt your learning."
+AskReddit,fostjq7,t1_fortuf3,1588037751.0,"> Percy Wetmore
+
+He always reminded me of Sean Hannity."
+NewSkaters,fos50kb,t3_g912fm,1588024090.0,"One tip, always practice with the same shoes.  You are wearing two different pair of shoes in your previous and current video.  Also those shoes are pretty hard to ollie in, you might want some that have more of a round suede nose. (Also high tops are bad for the ankle movement you need to make)."
+funny,fos4jbd,t3_g95nt6,1588023838.0,"My sister in law just spent a fortune on three IVF procedures.  The first two led to miscarriages and the last one they found the baby had a fluid sack for a brain.  Meaning the baby would have been born completely brainless, with basic motor functions only.   Well they decided to abort since that was the humane thing to do, but sadly they couldn't tell their religious family members because they would have been committing an awful sin.  Fuck ProLifers."
+apple,fos2dv6,t3_g8xupo,1588022724.0,"You probably have big ear holes.  Your kind will some day die out, women and men should check the ear hole size of their potential mates before having children."
+funny,forml6e,t1_foqtmo1,1588014776.0,"Yep that is what I thought too..  No ground, same outlet design as America."
+WTF,foqggr6,t1_foqgc9h,1587992992.0,Yes he did some amazing stuff at Burnquist's ramp but the OP video is clearly at Woodward.
+WTF,foqg52d,t1_foq0xa2,1587992768.0,"That is the mega ramp in San Diego owned by Burnquist, the other one is in Woodward.  Different days."
+politics,fopiaat,t3_g8necq,1587962213.0,"Trump never intended to be president, but he did want to start a news organization that pandered to the republican base that would squash fox news and set his family up for life.   He didn't succeed, but the ""fake news"" term he uses comes from his idea of how he could bad mouth the current news and make his own channel."
+videos,fophjnk,t3_g8oqxv,1587961659.0,I wonder if your grandpa was attracted to Robin Williams when he dressed like that.
+videos,fopgr78,t3_g83mlp,1587961076.0,"Japan doesn't have a pollution problem, the Japanese people are so fucking clean, they will walk a mile to find a trash can.   These plastics get recycled and that's that."
+videos,fopfbdn,t3_g8r4h8,1587960029.0,I have a huge crush on her.
+funny,fol6swj,t3_g7wsa8,1587856009.0,My toddler is way too smart for this..
+iOSProgramming,fol4bth,t3_g7zwmo,1587854623.0,I love that you take pride in your work and UI.  Awesome job!
+worldnews,fojc7iz,t3_g7o6nm,1587816432.0,"It sucks his life is more valuable than mine or any one else here.  I am not surprised he is having issues, he was a glutton like his father."
+WTF,foja3y8,t3_g7go00,1587814307.0,Oh that is why we have permits.
+politics,foh0qqy,t1_fog58kc,1587759202.0,"or ""It's locker room talk""."
+apple,fogk38b,t1_fog3bfd,1587753570.0,"I am not sure why you think I am claiming Apple is the best.  I am clearly saying that Vulkan doesn't have a home on Windows or macOS/iOS.  It has a home on Linux and Android, but it isn't a one GPU API that rules them all, and it will never be since Microsoft wants developers to use DirectX and Apple wants developers to use macOS.   MoltanVK is a solution for some developers but it will never give you the performance of writing a correct abstraction for all the GPU APIs in the engine directly.
+
+
+Also Apple arcade is $4.99 a month for as many games as you want."
+apple,foff17d,t1_foemrej,1587734429.0,"Apple did fully embrace OpenGL and OpenGL ES, their entire UI acceleration was based on it.  They even shipped OpenCL.   What you might be confusing that with is they completely allowed it to die, and they stopped updating OpenGL and left it at version 4.4 for macOS and OpenGL ES 3.0 for iOS.  This means they never got compute shader support.   Android is on OpenGL ES 3.3 for example..   Once they decided to write their own GPU API (Metal) they invested heavily into it, it is used everywhere, iOS, AppleTV, watch, and macOS.  
+
+
+You are naive to think that Apple isn't getting an insurgence of games.  iOS is the number 1 gaming platform (yes they are casual games) but there is more money being spent on iOS than any other console or OS.   Yes that means more games are being sold and more money is being made on iOS than Sony, Microsoft, or Nintendo.   Apple with Metal and Arcade is forcing developers to make games for that work everywhere, iOS, appletv and macOS, and this means that macOS is finally growing as a gaming platform.    Apple has serious work they need to do if they want to attract AAA games to macOS (I will be realistic that probably won't happen), and they totally botched it with the Mac Pro design and not having a $1000 range expandable GPU tower."
+apple,foelze7,t1_foelluu,1587707400.0,"No I have used all the graphic APIs and I don't think Vulkan should be used on Windows and MacOS/iOS.  It will always need to be supported  for Android/Linux but we always need to write an abstraction for cross platform anyways, so use the correct GPU API for the platform."
+apple,foekpmh,t1_foeivbb,1587706364.0,"I was at WWDC where the Metal guys showed me Metal running very happily on a Nvidia egpu and we had a long conversation as to why Apple isn't using Nvidia.  CUDA is limited to only Nvidia, but I have a Nvidia Mac that I can run CUDA on.  You will see more Nvidia + Apple support soon.   Metal is very nice compared to Vulkan, Vulkan reads like a Dostoevsky novel.   It's not perfect but it sits higher in the abstraction (yet it still let's us as close to the metal we we need, hence the name).   It is like Khrono's went the complete opposite direction than OpenGL where it was too high level..   Linux and Android are perfect places where Vulkan will shine (since they will never get Metal or DirectX, and Switch can use Vulkan 1.0 but you will get more power using Nintendo's GPU APIs. MoltanVK is fine, but it is still using Vulkan 1.0, and I can't use it because I need YUV support that is only available in Vulkan 1.1 for video decoding.    It just makes more sense to talk to Metal directly and use Metal Performance shaders or some of the custom APIs to squeeze out every drop of performance I can.
+
+My point is that developers need to target the best APIs for the most popular platforms.   This is why DirectX is so insanely popular, and also why games for the Mac just never make it over.  For years we could have had game devs just target OpenGL, but they didn't, they needed or wanted to use DirectX.   This caused Apple to be starved of games, and Microsoft kept investing more and more into DirectX (wink wink Xbox) to make it so Windows became the defecto gaming OS (PC and Xbox) and they made it proprietary so no one could port their games easily.   Khronos was too stubborn to go after the performance DirectX had (they vote by committee for every new feature) and they never got OpenGL to where DirectX was.      This screwed Apple, and they lost a huge part of the PC market share because no one would use a Mac for gaming because devs didn't want to use OpenGL.   Now that Apple has made Metal that can match DirectX one to one.  We are seeing a resurgence in gaming on iOS/AppleTV and macOS through Arcade, and I am excited to see if Apple takes it more seriously in the next couple years by allowing more GPU choices and expandability for gamers on the Mac platform."
+pics,foeicjn,t3_g6wi64,1587704539.0,"My daily is a 79 Volkswagen Westfalia Bus.  It is Sage Green and plaid interior, I love it."
+apple,foei6qw,t1_foehrwb,1587704417.0,"No, I develop a graphics engine or macOS, iOS, Android and Windows.   My graphics engine uses OpenGL/Vulkan on Android, DirectX on Windows and Metal on iOS/MacOS.  This gives my users the best performance on every platform.   Apple and Microsoft both have very good reasons to roll their own Graphics APIs and I agree with their reasoning.  Vulkan is great, but it isn't going to replace Metal or DirectX."
+UCSD,foefm1b,t1_fod8hey,1587702575.0,It isn't as bad as you might think.  Even my company is hiring.
+apple,foeb42x,t1_fodzr4t,1587699723.0,"When a game is not taking advantage of a specific graphics API, and it is built using unity which abstracts Metal, DirectX, Vulkan, you won't see any real advantage switching the underlying engine.   However many engines have different optimizations around different graphics API and it wouldn't surprise me on some hardware one performs better than the other.   
+
+>Says who?
+
+Says any developer that has used DirectX 12 or Vulkan, the APIs are very complex and are very verbose.  Metal is beautifully designed.   So the answer is any developer that has used all of them. 
+
+>Vulkan is the odd man out here,  How so?
+
+This is because it isn't officially supported on Windows, and it isn't supported on iOS and MacOS.   Thus it becomes the odd man out.  Developers will always choose DirectX over Vulkan, and if they want to target macOS or iOS, then they have to use Metal since OpenGL is deprecated.   
+
+>As an old time Mac gamer, I think Apple not embracing Vulkan is shameful.     
+
+Vulkan wasn't around when they developed Metal.  Maybe if Khronos group didn't screw over Apple (their biggest adopter) they would have chosen to work with Khronos.   Apple said no, and they made metal which is awesome."
+PoliticalHumor,fodeq9h,t3_g6ofjj,1587683767.0,I like to call him tRump.
+apple,fod3dct,t1_fod02n1,1587679338.0,That isn't true.
+apple,focwaba,t1_focmrw8,1587676721.0,Nvidia doesn't make drivers for macOS.  They could but they don't.  Apple makes them with Nvidia/AMD/Intel.
+apple,focw2mg,t1_fobo6sd,1587676641.0,directx was never a possibility for macOS.
+apple,foclwte,t1_fobuaiy,1587672890.0,All of what you said was nonsense.
+apple,foclnyt,t1_fobvokl,1587672810.0,"CUDA works fine if you have a Nvidia GPU, all Macs sold in the last 4 years do not have Nvidia GPUs."
+apple,fobdaus,t1_fobd046,1587658644.0,"Yes it is, with sandboxed apps on the Microsoft Store those days are over.  Also what a nightmare for devs to have to update the global drivers of a machine just to get their software to work.   This could break every app on the machine and creates a support nightmare."
+apple,fobbn42,t1_fob8uh1,1587658165.0,">What? Microsoft also supports OpenGL. This argument is nonsensical.     
+        
+Microsoft let's OpenGL on their platforms but it isn't maintained by Microsoft.  However I was talking about game developers not Microsoft.  Game Developers choose to make their games with DirectX because it supports the graphics APIs they want to make their game run and look better than the competition.   This caused OpenGL to be forgotten to devs, and this is why you didn't see many games ported to MacOS because the devs targeted DirectX and didn't have an OpenGL port.   Unless DirectX was on macOS (which will never happen) we won't see game developers adopt macOS unless the engine they are using supports Metal under the hood.
+
+> You do not make a ""custom"" API. That's just not how this works... 
+
+Here is an example of Custom APIs only available for A12X gpus.   https://developer.apple.com/documentation/metal/gpu_features/understanding_gpu_family_4?language=objc
+
+If they targeted OpenGL or Vulkan they would have needed to work with Khronos group to deliver these, which is the external dependency I was talking about. 
+
+> And in the process, alienate plenty of software altogether.
+
+Apple doesn't care about alienating developers, because they want quality over quantity (obviously this has been very successful).   However cross platform code is always going to need proprietary ways of handling the same task on different hardware.  From the UI stack to the graphics API, they are not the same platform and you always need to adjust for the platform you want to target.  A good engine writes an abstraction."
+apple,fobaz5s,t1_fob90rl,1587657964.0,"Not for Video, image processing.  Also App devs don't want to hope that Vulkan is installed, they know DirectX is installed."
+funny,fob7xmg,t1_foah52b,1587657050.0,trump was mentally stable is up there.
+funny,fob7fmr,t3_g6l7u5,1587656907.0,"Marketing 101.  Spin the negative into a positive.   Used cars salesmen use this tactic all the time.  ""That smoke coming out of the engine, well that's to make sure people don't tailgate you"""
+apple,fob5jfc,t1_fob2jd5,1587656344.0,">What ""OpenGL issue""?    
+
+Apple fully supported OpenGL for years (they were not interested in making a GPU API), and they were burned by this because Microsoft was able to leap frog OpenGL and devs wanted those more modern API features.   This is also a problem when Apple wants to go to custom GPUs, they would need to inform Khronos group every time they want some custom API to target their GPU and this really puts to many dependencies on them.  
+
+> Once again, there is no reason they couldn't also support Vulkan. Supporting an alternative doesn't magically make Metal worse.
+
+They don't want anyone to use anything but Metal, if devs had a choice they might not..."
+apple,fob4u41,t1_fob4aow,1587656134.0,"Lots of developers use Metal.  Every game on the Apple Arcade uses it, and all the major engines use it with no work for the developer.   Microsoft and Apple  are hoping to keep Vulkan and OpenGL off their platforms and they are doing a good job of that."
+apple,fob151a,t1_foauk4c,1587654930.0,yes but it only uses Vulkan 1.0.
+apple,fob133t,t1_foauqa3,1587654913.0,"Most game engines will choose the correct GPU API for the platform, DirectX for Windows, Vulkan for Android, and Metal for MacOS/iOS/tvOS.  Also Microsoft does not install Vulkan drivers by default and it is a real issue to keep those drivers up to date on Windows.   It becomes a even bigger issue if you want to interface with Image or Video Processing that requires Media Foundation support.  Media Foundation doesn't interface with Vulkan directly while it works with DirectX with no problems.   Game devs will always prioritize DirectX before Vulkan, and they should do the same with Metal."

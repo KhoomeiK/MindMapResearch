@@ -1,0 +1,200 @@
+subreddit,self ID,parent ID,time,text
+IllegalLifeProTips,fpn5l86,t1_fplvcmc,1588751030.0,$20 actually. You spent $100 + $10 and got refunded $90
+gamedev,fpn4zuw,t1_fpn3dcr,1588750451.0,Thanks for the encouragement!
+vintageobscura,fpmvh62,t1_fpmrarl,1588742845.0,Thanks for reminding me of this post - I sampled this for a song but didn’t like it much. Going to try again!!
+eu_nvr,fplukpj,t3_gdv7l8,1588719759.0,“Tudo legal leque e tigo”?
+berkeley,fplfo52,t1_fpl9ipd,1588711864.0,Didn’t know that. Not a CS major
+gamedev,fpl47p7,t1_fpl2fyw,1588706070.0,"Yeah, I suppose so :)"
+gamedev,fpl44rz,t1_fpl42bn,1588706029.0,Thanks! You right :)
+gamedev,fpkw9x1,t1_fpjmd6z,1588702135.0,Thanks! I’ll be on the look out!
+gamedev,fpjlcx9,t3_gdqr73,1588672853.0,Still in school and approaching finals which means I haven’t had time to do shit. I worked for four hours today on my game and that’s the most coding I’ve done in a while...
+godot,fpjl5g2,t1_fpjj7lo,1588672634.0,External editor is not an option - this is a game after all!
+gamedev,fpjl356,t3_gddyv2,1588672564.0,"Just read the whole thing, thanks! 
+
+One thing I wish you had included is *how* to talk to the press. What do you even say? What kind of lingo should I include? Etc
+
+Good read!"
+webdev,fpitdc6,t1_fpgs4yo,1588648274.0,"Flash was awesome for playing newgrounds games. It doesn’t have much utility nowadays. Let flash die, there’s no real reason to keep updating it for what amounts to purely nostalgic reasons."
+chemhelp,fpipz2m,t1_fpiphn3,1588646145.0,Nice! Thank you!
+godot,fpiis2i,t3_gdo5c0,1588641770.0,"I actually just took a little look at Godot's source. It looks like they have some `SyntaxHighlighter` class, but it's never used. In fact, it's an abstract class and is never concretely implemented, and the methods to set the highlighter are never used. There's then a fallback default highlighting option, which appears to be what the editor is using.
+
+It shouldn't be too hard to expose the `SyntaxHighlighter` class and the methods for setting it within the `TextEdit` so that users can write concrete implementations. I can likely submit a PR to do this in the coming weeks.
+
+I just don't know how that plays for GDScript since I mainly use C#. Is GDScript going to panic if it sees an abstract class? I don't know...
+
+Additionally there are all sorts of util functions in there for checking if things are whitespace, etc. It would be very nice to expose those as well, and allow the `add_color_region` to accept some sort of enum for the delimiters that could allow this to be used.
+
+It would actually be much cleaner if instead of calling `add_color_region` and `keyword` inside of `TextEdit`, that all of this functionality was delegated to a `SyntaxHighlighter`, which the default can be set to whatever the `TextEdit` is currently doing."
+godot,fpi0jqn,t1_fphzpcv,1588631290.0,Thank you!
+godot,fphz3vy,t1_fphyrp3,1588630505.0,"Interesting, thank you.
+
+And since GDNative doesn't actually then expose data structures, it means I can't use GDNative data structures? I can't have some GDNative class return a rust struct, yes? Do I have to cast it to some godot Variant in that case?"
+godot,fphyffd,t1_fphxyjn,1588630129.0,"> the exact same way that GDScript and C# cross the boundary to reach the engine C++ code
+
+Is this really the case? If I call `TileMap.SetTile` in C# it's just some trickery that really does a string compare?
+
+> If you're writing code that does a lot of work, then you'll want to rely on passing more information to the NativeScript code, letting it do batch work, and then getting the results rather than repeatedly making calls across the scripting API to do iterative work.
+
+Yeah, I see what you mean. To be honest my application isn't demanding a lot. It wouldn't be slow even if I wrote the whole thing just in C#. But doing something like `obj.Call(""method"", param)` is just so ugly... I suppose I could write a C# wrapper for it that would do this behind the scenes so I don't have to look at it though :)
+
+Actually that is what I might do, I need some Rust practice. The only downside is now I'm doubling my declarations which could cause bugs with me being an idiot and forgetting to update something.
+
+**Edit** And I forgot to ask — If you are calling `GD.Load` for every object, isn't that a bit slow? It's effectively reloading the entire library for every object that ""inherits"" it, no? Would it be more ""idiomatic"" to create a singleton and have the C# class own the data, and simply pass it to GDNative for processing?"
+godot,fphxnt3,t1_fphkk1k,1588629715.0,"Got it! Thanks. But that's really yucky — rustNode.Call(""rust_method"")? Jeez! All those string comparisons would likely negate any performance boost I might get from using GDNative rather than C#. Not to mention the disgustingness of it. I'm better off writing it in C++ as a Godot module so that I can use the method normally. Too bad, I would have liked to use Rust for this project. It seems it would only be worth to use GDNative if I were only interacting with it from gdscript or if I were using the GDNative script by itself."
+godot,fpheyr9,t1_fph8y4o,1588620093.0,"At first I thought, “why is this crazy man doing this?” But then I saw that it is a proof of concept. Very cool indeed! I’m very impressed! Will be coming back to this to see how you did things :)"
+YangForPresidentHQ,fpgod7h,t1_fpfrh88,1588606561.0,Except that’s not how it works. You’re idealizing way too much. FPTP is an awful voting system but it’s what we have right now. By not being realistic you’re accepting the worse of two evils for something that will unfortunately not make an impact. Andrew Yang & Bernie Sanders will not win. All you’re doing is taking away votes from the only two candidates that *can* win - be it Biden or Trump (tho I assume you would prefer Biden) - and you’re actually contributing to a worse America for four years.
+blackpeoplegifs,fpfj92u,t1_fpf9x2x,1588572931.0,Because we care about you :) you’re gunna be happier if you try proper facial wash!
+blackpeoplegifs,fpf8asp,t1_fpelovf,1588564215.0,"But what you’re missing is you don’t need regular soap, so you shouldn’t use regular soap... the face skin is muuuch more sensitive then the rest of your body"
+NotKenM,fpf5n12,t3_gcxfcj,1588562366.0,Totally unrelated but I love the name Alice. I wanna name my child that
+berkeley,fpe4ua3,t1_fpe3dyi,1588540372.0,o i didnt know cs61c also had one
+lordoftherings,fpe34va,t1_fpe2z6z,1588539412.0,May I introduce you to /r/eu_nvr and /r/rance ? Not everyone is from the US or England.
+lordoftherings,fpe2pgd,t1_fpcng4i,1588539167.0,"I dunno, maybe he’s Japanese?"
+berkeley,fpdtzf6,t3_gcqs1f,1588534192.0,"What’s the project? I’m in 61A right now but I’ve been programming for ~10yrs, Might want to try it out over the summer so I can get a feel for what this class is about"
+lewronggeneration,fpdtk7z,t1_fpdsznu,1588533947.0,Omg did it really
+menkampf,fpcoed3,t1_fpc97kq,1588507898.0,Louis CK said it best: “you say ‘the n word’ and I go ‘oh she means nigger’. You’re making *me* say it in my head! Why don’t you fucking say it instead and take responsibility?”
+chemistry,fpas485,t1_fpalyaj,1588454559.0,"Oh yeah AP bio was a lottt of work, but it was really interesting so for me it was worth it"
+KGATLW,fpaj6db,t1_fp9vr4i,1588449268.0,Rattlesnake
+chemistry,fpaiylf,t1_fpaiqnf,1588449141.0,"You’ll enjoy it, it’s a lot of fun! That class and AP chemistry inspired me to major in Chemical Biology in college."
+chemistry,fpagyc0,t1_fpa6q7c,1588447953.0,You will get there :) have you taken AP biology or AP psychology? Both classes should teach this
+godot,fp7963n,t1_fp781sr,1588366306.0,"That’s ok, but it doesn’t really help the problem. Player input should be handled in the player script and should not have any knowledge of the global state of the game. It should only have knowledge of whether or not input has been passed through to it (ie via the unhandled input method)."
+gamedev,fp5ahbj,t1_fp3sh0e,1588322077.0,This is so cool! Tip: do NOT use float(x > 0.0) it’s muuuch slower than step(...). GPUs do not handle conditionals well so avoid them at any cost!
+YouShouldKnow,fp59wsz,t1_fp3v4we,1588321475.0,"I would guess not. I doubt that such a significant portion of mentally unhealthy people off themselves enough to have any statistically significant impact. I don’t mean to sound insensitive, but that’s my gut feeling about it"
+science,fp4hoqu,t1_fp3e3iu,1588299284.0,This is exactly why evolutionarily viruses cause symptoms. They help the spread. Of course the most widespread viruses will cause symptoms like coughing and sneezing - that’s why they’re widespread :)
+godot,fp3msdu,t1_fp2gm92,1588282069.0,Apparently there’s a yarn spinner port for godot
+badlinguistics,fp3ebch,t1_fp35916,1588277812.0,">	nefarious anglophone 
+
+Lol"
+badlinguistics,fp34bjl,t1_fp32udl,1588272850.0,"Good point! But If you were writing in euro you wouldnt write €100.00, you would write €100,00 to begin with :)"
+godot,fp31f2p,t1_fp2zfmq,1588271446.0,"There are many ways to do this. Here's a couple:
+
+1. **You could do it in code.** Use some circle nodes to draw your circles. In your process function, have them moving randomly. Loop through every circle, and then every circle within that. If they're close enough (and not the same circle), attach a line2d node that goes between them. You'll either need to delete all lines every frame, or keep track of them using some data structure to delete them when they become too far apart. Plus you'll have to update each line every frame to make sure its touching the circle.
+
+2. **You could use a shader.** Make a color rect node the size of your ""effect"", and attach a shader to it. Pass into the shader the positions of the circles via a uniform. Godot shader language currently doesn't have arrays, so you can pass in the positions using a texture where each channel corresponds to a coordinate (r for x, g for y, maybe b for size, etc). Then define a signed distance function to draw a color inside the circle and no color outside (there are many tutorials for SDFs online — look it up). Finally, change your SDF to also draw a color if the fragment is within a certain distance of a line between two circles that are sufficiently close enough. To do this you would have to loop over every circle, then through every circle within that to compare the distance. If it's small enough, check the distance between the line and the fragment (this amount to a projection from the fragment vector to the line vector, checking if thats within the bounds of the line, if it is, subtract to get the distance vector). If small enough, draw a color."
+godot,fp2xlu9,t3_gatcn6,1588269583.0,Nobody knows what that means...
+badlinguistics,fp2mlbm,t1_fp2htnx,1588264335.0,Are you an electrical engineer? Lol
+badlinguistics,fp2mj4v,t1_fp20w9y,1588264307.0,"Supposedly it’s to presently falsifying prices because you can always add extra numbers to the beginning but not the end of a value:
+
+100.00$ -> 1100.0$ (!!!)
+
+$100.00 -> $100.000 (???)"
+rust,fp2ikjg,t1_fp2e0bq,1588262366.0,Post if you finish! I use Zsh so as much as this post looks cool I can’t use it unfortunately. I use broot currently but still had the disadvantage that I have to enter it frequently
+StonerProTips,fozykwh,t1_foype06,1588199186.0,I got this one many years ago and it has served me well
+proceduralgeneration,fozlh66,t1_foz3g9e,1588192648.0,"One thing I’ve also noticed is that some species have very specific growth pattern. My mitragyna speciosa tree always grows branches 2 branches at 180 degrees keeping the main branch going (forming a + shape at each node), and the direction rotates 90° after each node. There are very small variations but It’s really interesting how perfect it is!"
+StonerProTips,fozer14,t1_fowsrlu,1588189431.0,Why is 7s mean 7g now?
+antiwork,fozeg6d,t1_fozcrbb,1588189287.0,">	adjective: capitalist
+>	practicing, supporting, or based on the principles of capitalism.
+
+I wouldn’t know because I’m not a Buddhist. Clearly you know what I mean, though, and are being purposefully dense. 
+
+You don’t have to own anything to believe in capitalism."
+berkeley,foz0n6p,t3_ga3wn5,1588182633.0,"~~Are you talking about DeNeros? What was the avg? I feel like I did worse than usual~~
+
+Never mind I just saw the grade :) I also got +1 std yayyy!"
+antiwork,foxqbiv,t1_fovigfw,1588152538.0,"You do not have to own capital to be a capitalist just as you don’t have to be Buddha to be a Buddhist... you can believe in something without being it.
+
+You are a capitalist if you claim to be one. It’s a choice..."
+chemistrymemes,foxpedk,t1_fowpft4,1588151596.0,Same here
+gamedev,foxj2c3,t1_foitsnl,1588145552.0,Hey just wanted to say that because of you I bought Noita and it's been reaaaally fun! thanks for reminding me of this game! I had it on my wishlist a while ago but never converted :)
+meirl,fovgfse,t1_fourd6w,1588100891.0,Definitely pipe organ. Nothing can be louder than an instrument larger than many buildings
+HumanPorn,fovgal9,t1_foveygb,1588100822.0,"Don’t think boy, meow you know how fast you were going?"
+StonerEngineering,fovae0w,t1_foui843,1588098024.0,Me too! Just saw the legendary episode w pain & jiraiya. Gets sadder every time I watch it
+dwarffortress,fov604q,t1_fouw91f,1588095943.0,Lock her in the workshop ¯\\\_(ツ)\_/¯
+noita,fotzmye,t1_for0d58,1588071745.0,">	finish the game
+
+Lol"
+noita,fotzlxp,t1_foqrnv5,1588071718.0,What’s the mod! This looks much nicer!
+noita,fotyaqr,t1_fotiwwy,1588070438.0,This is exactly how I felt on the inside
+berkeley,fotaejy,t1_fosdsvm,1588048473.0,Yeah for example I’m a shitty student and OP is not
+cpp,foswrpx,t1_forhmiv,1588039666.0,">	They are completely branchless 
+
+Can you ELI5 how that’s possible?
+
+Edit: I see `a < b ? a : b`, how is that not branching? Would the processor not execute a “jump if greater than” instruction or something similar?"
+noita,foswalx,t1_fostrh7,1588039378.0,Maybe so.....
+noita,fosr0eq,t3_g9dm46,1588036257.0,"I had a ton of bouncy projectiles, with explode on bounce attached. The one that was set to explode also had accelerate so it would bounce very fast. And also I had a triple cast, with one of the spells having another double cast on it, so I was casting 4 bolts per cast. And finally there was a arc of fire across each bolt.
+
+I thought, with this, I'll finally get passed like the 3rd level. And then as soon as I walk into the snow... turrets everywhere and I die immedatiely.
+
+such is life"
+chemistry,foslsg0,t1_for8or9,1588033237.0,"Not really, you can buy 99% acetone at the hardware store and dry it using anhydrous magnesium sulfate to get nearly 100%."
+apolloapp,foqz9y3,t1_foqt8oc,1588003436.0,You could be shadow banned - are you getting any replies to your post?
+apolloapp,foqz892,t1_foqss01,1588003412.0,Yeah this happens when I try to post on /r/me_irl
+AskReddit,foqydfo,t1_fopqjiy,1588002983.0,I had a bunch of Bitcoin when it was worth $100. I spent it all on drugs
+godot,foqweqa,t1_foq9h3j,1588002014.0,"~~What is this OP??? Is the editor you showed part of godot? I thought the node GUI in godot was for shaders - is this all done as a geometry shader or something? Or is the GUI custom?~~
+
+Oh I see that it’s visual script! That’s really cool, this is going to be a very cool tool when you’re done with it!"
+chemistrymemes,foq2oub,t1_fop3ams,1587980804.0,I had to suppress the very violent urge to downvote you
+gamedev,foq1bus,t3_g8o02e,1587979377.0,"Nice! Looks fun. Keep working at it :) 
+
+Extremely poor choice of music for a trailer though. And try to get rid of the bandicam logo - it’s very unprofessional."
+godot,fopzdgz,t1_fopz2ey,1587977360.0,"For this shader the texture is actually being sampled at different UV coordinates for each channel. This is what causes the chromatic aberration.
+
+The code I posted was just temporary.
+
+Thanks for looking out for my performance tho :)"
+replications,fopypss,t1_fopw0s4,1587976685.0,"Definitely yes - I couldn’t imagine a state more utterly detached than that. I was nothing. Absolutely nothingness - all there was was pure raw experience. Sounds, colors, and touch (no taste though, interestingly). I had no future or past, no memories or ambitions. I had no will to live or desire to die, nor did I know what either of those were. I didn’t even have language.
+
+The whole time there was a presence. I wouldn’t say a god or even a being, certainly not the “machine elves” that people report. Just one sort of presence. I’m not religious or spiritual really, so I can only explain it with science - and to me, it made me realize that there is something much much deeper about the way consciousness works then we know, and much deeper than I’ve ever seen anyone discuss coherently. 
+
+The impression that I got is that life is sort of a “game”. Some people who have these types of experience seem to come out of it thinking that they must get rid to their ego and that ego is somehow bad. I get the opposite impression - that the point of life *is* to embrace ego for a little while. To have experiences, to feel emotions, and to seek happiness.
+
+Anyway a bit of a rambling there - to actually answer your question more fully, I think there’s no hard line on ego death. I’ve had trips on DMT (and LSD) where there’s partial ego death, but not totally. I can still look down and know I’m human. Most of my DMT trips are kind of like this, especially ones where I’ve not broken through. But there’s still definitely some detachment."
+godot,fopqafw,t1_fopnkf3,1587968712.0,He seems to actually call it just in time jumping which I really like :)
+godot,fopm20k,t1_fopkbug,1587965157.0,"Thank you! That's a fantastic idea, I appreciate it.
+
+Also I absolutely fucking LOVE dead cells running and rolling and movement mechanics. They feel SO good. Good to see a video from the gods!"
+godot,fopm0fu,t1_fophvkp,1587965120.0,[This is why :)](https://streamable.com/bi5kyf)
+godot,foovqip,t1_fooucgt,1587947480.0,Awesome! can’t wait! Godot is evolving rapidly :)
+berkeley,fonyrh9,t1_fonxb2i,1587929123.0,"I get what you’re saying and you’re right, I’m probably misinterpreting what she said. From initially reading this I had just got the impression that OP was the type that thinks flirting is disgusting & nobody should do it just because it makes her feel uncomfortable. 
+
+And yes, of course, anybody who treats women as just flesh & makes it painfully obvious that this is how they feel with their “flirtation” is gross.
+
+However i still think OP is being too critical of people who are trying to help her. The best way to teach somebody is to gauge what they know. If I started off talking about abstract syntax trees & op doesn’t know what a tree was I would feel like a dick & make op feel stupid for not knowing, not to mention it would be rather unproductive. And anybody with a rudimentary knowledge of psychology would know that positive reinforcement (“good job!”) is a good teaching tool. In ops example it came off sounding mean but it’s a stretch to say that he was purposefully being condescending"
+microgrowery,fonvexz,t1_fomxs7g,1587927230.0,Why does the NPK have to be different when dealing w hydro versus soil?
+berkeley,fonvbic,t1_fonq7ju,1587927174.0,Obviously I wasn’t talking about that guy in particular. In a school of 40k ppl theres going be some creeps. OP made it sound like she’s absolutely disgusted that anybody would ever hit on her
+math,fomn4yt,t1_fomlz7w,1587896408.0,I do this and have been doing it ever since I saw my French teacher in like sophomore year highschool do it. I told her “I like your q’s” and have never gone back
+berkeley,fommmcw,t3_g8an1k,1587895817.0,"EECS minor here. I don’t really go to class or discussion so I don’t know anybody else doing EECS do I can’t comment on or what you say is true or not. But for point A, consider this: if you ask somebody for help there’s no way of them knowing how much you know. If they start too basic you think they think you’re an idiot. If they start too advanced you think they’re being condescending. Do you want them to just magically know how much you know?  
+
+I agree the guy sounded like a dick with that little comment about don’t sell yourself short, but I’m sure you can tell he was just trying to be nice most likely. 
+
+If somebody’s helping you in the first place then they’re at least trying to be nice. If you think their behavior is inappropriate or awkward that’s totally warranted - but don’t automatically attribute it to malice & remember that they’re really just trying to help.
+
+If you’re uncomfortable with guys hitting on you then idk what to tell you, it’s just a fact of life that guys hit on girls they like and vice versa. If it makes you uncomfortable you can always say so."
+microgrowery,fomcmft,t1_fom8d2b,1587885269.0,Is that the only difference??
+worldnews,fom7fjk,t1_foh9123,1587880522.0,But at what point would paying his lawyers cost more than the $30k itself?
+YangForPresidentHQ,fom6pm5,t1_folzof0,1587879901.0,"Ideally, yes. In reality - no. Our voting system forces there to only ever be two parties. CGP Grey has some good videos about it and I recommend you watch them to understand a little more about how voting unfortunately works in this country"
+YangForPresidentHQ,fom6lgr,t1_fom1hm1,1587879804.0,Underrated comment
+gamedev,foiyb6e,t1_foitsnl,1587801234.0,"I found the video very interesting! I loved powder game as a kid. I would be interested to see if you make more videos about cool performance related tricks we can do for this style of game. When I first saw Noita's trailer the first thing that popped into my head was *how in the hell did they do that??*
+
+A couple things that pop into my head:
+
+* Take a page from minecraft's book and don't store each tile as a struct. In any given chunk you're unlikely to have a huge variety of tiles. In fact, most of them will be pretty much the same one or two tiles. So store a dictionary of unique tiles, and for the tile map you can use a tiny array that can literally use 2 or 4 *bits* per tile. The number of bits per tile changes depending on the number of unique tiles in the chunk.
+
+* Only update a chunk if the last frame update resulted in any changes in that chunk, or if in this update a pixel moved into or otherwise interacted with a pixel of this chunk (basically a dirty flag)
+
+* Velocities probably don't need to be that fine. You can most likely use 2 bytes only for velocity if you quantize velocities to the nearest integer pixel value — which you are likely to do since with this style of game there should be at most one tile type per pixel. In fact you could use just 1 byte if you assume that a tile can't move more than ~~16~~ 8 pixels per frame (since you need to store sign too).
+
+* Color does not need to be in the tile — you could just store the tile type in that dictionary I mentioned before and look up the color. If there are tile types that change color like fire that’s also easy: count this as a separate unique tile and in each unique tile in the dictionary you hold tile metadata like this.
+
+* I'm not sure how to deal with lifetimes. You might just have to really keep those 4 bytes for the lifetime of each since it's very unique to each tile.
+
+In total that'll bring your tile array down to like 10 bytes per tile or less - a bit stream of between 2-8 bits per tile (the unique tile index), a separate array for the velocities (where each velocity is only 2 bytes) and lifetimes (4 bytes). So youll have two arrays: one of between 65kB and 250kB (2-8 bits per tile) for the unique identifier, and one of 1.5MB for the velocities + lifetime. Then just a dictionary of the unique tile types in each chunk which wont occupy more than a few hundred bytes, which would store the tile IDs and any metadata (such as tile state) for each unique tile type.
+
+With this you're looking at at most 3MB per chunk and then a full map of 4 screens of 1920*1080 would occupy less than 100MB."
+gamedev,foisa16,t3_g7d23o,1587795380.0,Cool - but what about storage? You showed a particle struct that used a whopping 136 bytes per pixel. In a single 1920x1080 screen that’s already almost 300MB. Plus anything bigger would run slow as molasses without anything clever going on. In one regular sized game level you could be updating over 10 million pixels every frame...
+GordonRamsay,fohtv1q,t3_g7b1s9,1587772543.0,Why does this play a random iOS sound effect every time I click a new one???
+proceduralgeneration,foh7rh1,t1_fofhgtv,1587761477.0,):
+rust_gamedev,foh7l9q,t1_foh0ydq,1587761422.0,Awesome! I’ll have to get into that.
+rust_gamedev,fof3fh8,t1_foew8fl,1587724626.0,Very nice! Is the process for using rust with godot similar to extending godot with C++ modules or GDNative?
+proceduralgeneration,foema0g,t3_g6k24y,1587707647.0,Looks so awesome bro. Very inspiring!
+css_irl,foeiucg,t1_foc1thf,1587704909.0,Look! Look! She’s fine
+Vaporwave,fo9q8rv,t3_g61bgw,1587627404.0,Love this
+HistoryMemes,fo9pw9d,t1_fo8egkg,1587627068.0,Fuck that North Carolina one is absolute gold
+chemistrymemes,fo9kwmt,t1_fo97vsk,1587622527.0,"bad bot, this repost gets reposted once a week on here"
+godot,fo8tt0s,t1_fo8sblc,1587603693.0,"This is what I was thinking but also the current tilemap is written in c++ and my implementation would be C# - not sure it would be much better at all.
+
+It will be more flexible but I don’t know about speed"
+gamedev,fo74gv4,t1_fo6rw71,1587572084.0,I’m glad I was proven wrong! It gives me some encouragement for my own engine :)
+berkeley,fo6qjmy,t3_g5p4ds,1587564775.0,"I dunno man, I really love being home.
+
+I only miss the greenery in NorCal. It’s feels too deserty in SoCal now ):"

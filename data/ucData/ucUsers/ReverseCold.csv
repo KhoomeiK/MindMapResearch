@@ -1,0 +1,30 @@
+subreddit,self ID,parent ID,time,text
+unexpectedfactorial,fowo8vm,t1_fowngt9,1588123726.0,"Quite a few 3 - 4 word apps so far, probably just going to ignore those unless they're *very* active. Still need to talk about how we're choosing people with /u/wcb98"
+Fedora,fookqz7,t1_fook1t7,1587940919.0,"> Are updates usually hassle free?
+
+It's just a button in software center, so it's low-pain, but using F32 will save you from having to download Fedora twice."
+Fedora,fooh94j,t3_g8nbec,1587938925.0,"1. Definitely 32, it's launching *very* soon.
+2. Yes, just install it as you would windows. The Fedora installer is very nice.
+3. *Try* to use the open source drivers if possible. Since it sounds like you're playing games that might not be possible, so yeah, the rpmfusion repository is one choice. I prefer the negativo17 drivers.
+4. Maybe, but I've never heard of that happening and the NVidia drivers are almost definitely safe.
+5. Not sure exactly what you mean by this, but... While you're running Windows you'll be able to access files from Fedora (and vice versa) if both drives are connected at the same time and are unencrypted. It is possible for something on Windows 10 to affect your Fedora install, but I haven't heard of any attacks like that.
+6. You generally overclock through your motherboard BIOS, it has nothing to do with whether or not you use Fedora or Windows.
+7. Erm... you can get it to look kind of close, but it will be nowhere near as smooth as MacOS. I personally find trying to approximate Windows/MacOS to be not worth it. You might be better off just learning to like GNOME. :P To actually answer the question though, there are MacOS-styled themes for GNOME and KDE if you google ""MacOS theme GNOME"" or similar.
+8. Telegram has a pretty active chat (@fedora) and is beginner friendly. IRC also works but setting that up is a whole chore of its own.
+9. Don't hesitate to ask questions in any of the Fedora channels, we're friendly :)"
+Fedora,fodyjkt,t1_fodw5zy,1587692559.0,FWIW I'm running the beta and it seems stable to me. Launch day should be fine.
+Fedora,fo1n65o,t3_g55ayg,1587436969.0,"I suggested the change on the translation platform; it should show up the next time the site is built. Thanks!
+
+(or at least I think that's how it works, I haven't contributed to the website before)
+
+for future reference: https://fedoraproject.org/wiki/Websites and https://translate.fedoraproject.org/translate/fedora-websites/getfedoraorg/"
+Fedora,fo1m64e,t3_g56m8n,1587436333.0,"For most purposes, the two should be identical. If anything, the version from dnf would be ""faster"" since it doesn't have the same overhead that flatpak does."
+berkeley,fntj4vb,t1_fntdz36,1587242698.0,go bears
+golang,fneao31,t3_g12mfh,1586885985.0,"I like the name. Just by reading what subreddit this was posted to, and the name, I had a pretty good guess of what it was going to be :P
+
+Maybe my brain just confuses broccoli and brotli though"
+europe,fmukru3,t3_fxb0xi,1586393342.0,Are you making this in an actual SMW map editor (so it could be playable at some point) or is this visuals only?
+rust,fmm44vm,t1_fmldfk3,1586198439.0,/r/unexpectedfactorial
+Fedora,fm2uigu,t1_fm2u5cn,1585705719.0,"I have a 23"" (ish?) 4k (desktop, not laptop) monitor, which needs 1.25-1.5 fractional scaling. Super annoying on wayland but it works fine in xorg.
+
+E: I had tested xorg in a different distribution and it worked fine. Apparently that was a patch that isn't yet in Fedora, so HiDPI is just broken in Fedora :("

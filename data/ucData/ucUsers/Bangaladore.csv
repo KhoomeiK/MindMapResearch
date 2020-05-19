@@ -1,0 +1,82 @@
+subreddit,self ID,parent ID,time,text
+unrealengine,fpikzcq,t1_fpib027,1588643088.0,"Never thought I would hear the day that someone missed the simplicity of c++. Lol. Anyways, whatever works for you is always the best option."
+unrealengine,fphayxx,t1_fpggouv,1588618058.0,Personally I find that any thing heavy in logic or random generation is much faster done starting in C++ for me.
+unrealengine,fpexlp1,t1_fpexj9m,1588557140.0,"Ok, so it has something to do with UV mapping?"
+unrealengine,fpevr5x,t1_fpevnmj,1588555996.0,I'm a bit confused. My question was how the objects it merge function properly even though they are now one giant object. How does the material still render correctly?
+unrealengine,fpej622,t3_gcz5ki,1588548571.0,"Preface: I am not a level designer or artist.
+
+Couple things:
+
+The grass is too tiled in its placement and could be much denser.
+
+The lighting just doesn't work for me. Everything is either too washed out or too dark.
+
+Strange blur on the whole image that doesn't sit right for me.
+
+&#x200B;
+
+Generally, I think the scene looked better before the 2:45 mark although the lighting is still strange."
+UCSC,fpace7c,t3_gcarl5,1588445246.0,S Town.
+UCSC,fp6x7js,t1_fp58yle,1588360162.0,Same
+unrealengine,fp3xhjp,t1_fp3wp5i,1588287641.0,"This is not an easy problem to solve. Think about a box that encompasses the character, that is the collision box for the character. Even if you do a mesh-based, complex collision or line traces, what should you do if the player is hanging a leg off the edge? This is honestly a gameplay decision. Some games may rotate the player to show them as hugging the edge, while some might do nothing and act like they are balancing on one foot. Some might just throw you off.
+
+To fix the easy situation where both feet are clearly off, you should be able to modify the collider (assuming there is one) or the bluprint/c++ that controls the character. However, I presume you may run into some weird clipping edge cases if you get it too close."
+UCSC,fp1fyca,t1_fp1flis,1588234207.0,"I think it was very clear what I meant. Sure maybe not legacy. But long maintained code. 
+
+Just because Java is updating doesn't mean it is being used to create new stuff. Honestly in the software world right now, Java just isn't being used as much as it used to. There are better replacements for Java like Kotlin. The reality is, Java has nothing more than any, more modern, language like Kotlin has. Not to mention the licensing costs, large binary size, and languages like c# and .net core. Python is clearly the better choice here."
+UCSC,fp13w18,t1_fp13l3j,1588223696.0,"especially in the science fields, python will be used quite a lot due to the prevalence of libraries and existing code."
+UCSC,fp13gqz,t1_fp13efx,1588223365.0,I would argue that Java is in decline. The main reason you would use Java in my experience is if you are working with some legacy codebase that requires it. This doesn't apply to you.
+UCSC,fp10g7u,t3_gane5r,1588221184.0,"learn python, not java"
+UCSC,fp06nxo,t1_fozw88u,1588203486.0,"tldr: classes will be online. they are going to do what they are doing now and put a single person in a triple. therefore they cannot guarantee everyone will have housing.
+
+they didn't say that, but they are damn making it clear."
+UCSC,foni7tp,t1_fonhwfq,1587919984.0,There is a whole breakdown sheet that shows exactly what the money is used for.
+UCSC,fonhwfq,t1_fomcdyv,1587919809.0,Because it is used to maintain shared facilities on campus that you might use like the gym.
+unrealengine,fokpzfx,t1_foknzbc,1587846735.0,"Ah! Very nice! Price is still a bit high for indie devs, but I honestly didn't even know the refund policy exists. I very well may buy it and a lot of other marketplace assets now. 
+
+Nice work!"
+unrealengine,fokkugv,t1_fokjspg,1587843945.0,"What's the time-limit on the refund system? For something like IK, it may take a fair bit to get everything running as you would expect. And until then, you don't really know if everything will work properly?"
+unrealengine,fokj4n1,t1_foioz8t,1587843025.0,"I will purchase it if on sale also. I can't afford to spend 99$ on an IK solver as I will have no idea if it does exactly what I want. Not trying to sound pretentious, just saying 99$ is a lot for indie games with no funding. Price seems reasonable otherwise."
+unrealengine,fokgfel,t1_fojqwgf,1587841596.0,"From a response on the marketplace, he said they are exterior only. But as he provides the source files, you should be able to add interiors yourself."
+unrealengine,foisai5,t3_g7m1bg,1587795392.0,"I just referenced the engine source code for you. ImportBufferAsTexture2D calls a method called DetectImageFormat which seems to suggest that it supports you passing in a byte array to one of {PNG, JPEG, BMP, ICO, EXR, ICNS }. Your image must be a bit depth of 8 or 16. Otherwise everything seems fine."
+unrealengine,foh0mek,t1_fog0w6y,1587759162.0,Any idea on how it would work for proper two-handed weapon IK? Like where the gun is in front of the player and the hands grab onto the gun in the right places. UE IK just can't handle this right it seems. I can only get it to work if the right hand is animated in place and the left hand gets IK'd relative to the right.
+UCSC,fo5ozdn,t1_fo4vy3s,1587531338.0,I've heard june from some people.
+UCSC,fnynogh,t1_fnymntu,1587368988.0,Maybe it is just this quarter. He doesn't seem to be answering anyone's emails. But I've heard he has this reputation also.
+UCSC,fnxjyli,t1_fnxhsr8,1587340209.0,If only he would respond to emails. Seems like a good guy otherwise.
+unrealengine,fnx3jou,t1_fnx3gih,1587330781.0,I don't know of any side effects by including it. I will note that the default UE4 starter content C++ files *do not* use it. So you are probably fine by excluding it.
+unrealengine,fnx2rx3,t3_g4eoaw,1587330342.0," [https://docs.unrealengine.com/en-US/Programming/Modules/API/index.html](https://docs.unrealengine.com/en-US/Programming/Modules/API/index.html) 
+
+&#x200B;
+
+"" API macros only make sense for modules that are statically imported from another module. The Core module is a great example -- almost every other module in UE4 specifies Core as a import dependency in their \*.Build.cs file.
+
+Many modules never need to be statically imported (e.g. SceneOutliner module.) We refer to those modules as dynamically loaded modules. Dynamically loaded modules are awesome because they can be discovered at startup (kind of like a plugin), and often can be reloaded on the fly.
+
+The API macros are mostly used on older code to allow newer modules to access it from their DLL. In newer bits of code, the API macros are used far less, instead setting up nice interface layers to expose functionality across DLL boundaries."""
+UCSC,fnqgesg,t1_fnq84ej,1587164086.0,Not sure you understand the situation well. The lockdown will likely extend past may for good reason.
+UCSC,fnev4b1,t1_fnev2fr,1586896391.0,"If you want to learn something useful on the jvm, learn kotlin."
+UCSC,fneseor,t1_fnei5px,1586895017.0,"Don't learn C. learn C++.
+
+If you know C++, C is quite easy to write. C++ is used in a lot more newer things except embedded systems."
+UCSC,fn3ni13,t1_fn1s5n3,1586624256.0,"yeah. (I lived there this year) C9 food is probably the same as any other place, but a lot of people like the physical layout of the hall better than other dining halls. I found myself avoiding popular eating times because it becomes too packed. Honestly, 2-3 pm is usually empty.
+
+when it comes to C9/C10, location is everything. Probably the best-located college on campus.
+
+Other than that, I don't think there is much negative about C9/C10."
+UCSC,fn3nb64,t1_fn3na9f,1586624148.0,good luck!
+UCSC,fn3n5x0,t3_fz8o6m,1586624066.0,"if I'm not mistaken, you need to take 12 units to be a full time student. as the other person said, add a 2-unit and drop your 5."
+UCSC,fn3n2im,t3_fyqpik,1586624013.0,"it might be normally, but the world is pretty fucked right now, so hopefully, people will understand."
+UCSC,fn3mqzi,t3_fyvih7,1586623829.0,"react will probably be useless in 5 years and node may go in-favor of another language (meaning away from js). there is no right way to do this and probably teaching node and react is probably objectively the wrong way to do that.
+
+do you want to pay 40k a year to learn node and react when you could do that yourself?"
+UCSC,fn21x7e,t1_fn21w3w,1586575697.0,>you should just be able to switch in your portal I think
+UCSC,fn21wim,t1_fn21mvd,1586575683.0,""" changing your major into CS is a giant no, though please don’t let that stop you from giving it a shot."" it is a giant no... you cannot do it, no reason to waste people's time when the policy is very clearly stated."
+UCSC,fn21uea,t1_fn21qch,1586575639.0,"are you already taking courses here or were you just accepted? because if you were just accepted, you should just be able to switch in your portal I think."
+UCSC,fn21e75,t3_fyv6dl,1586575305.0,you ***cannot*** switch to CS but you should be able to switch to CE if you want. talk to an advisor.
+AskReddit,fmyrq6x,t3_fy2j5o,1586493799.0,Geoguesser
+UCSC,fmwpam6,t3_fxnt2h,1586450633.0,Making homemade pizza along. Got a pizza steel. Passes the time well.
+UCSC,fmv3sbk,t3_fxk1zg,1586405361.0,"CSE 16 is weird and may take a bunch of time. Being good at math doesn't make you good at CSE 16. CSE 12/L is very doable. Labs were easy I think for most after the first couple, but the tests are unnecessarily difficult. CSE 20 should be easy, but I would recommend taking that before CSE 12/L.
+
+I might take CSE 20 first and then take 12 + 16 together."
+UCSC,fmtnenr,t3_fxcfta,1586375725.0,"Notability, but it is lacking some features like increasing each page's size and landscape mode entirely."
+UCSC,fmilbwe,t1_fmhgguc,1586111869.0,natural immunity comes much slower than you think
