@@ -1,0 +1,295 @@
+learnprogramming,fqssdx7,t1_fqss7yr,1589617185.0,You can create it the same way you created your int and String objects. In this case it would be `new StringBuilder();`
+Anxiety,fqsrv00,t3_gkqiia,1589616656.0,"I would definitely bring it up to your doctor in this case. In my experience just one pill should help an anxiety attack. Since it's not helping yours at all they may need to adjust the dose or even try something else completely. Best of luck!
+
+Edit: Also Ativan is a benzo, so bringing up the problem to your doctor shouldn't be suspicious since they already prescribed you one."
+learnprogramming,fqsrnsc,t1_fqsrd55,1589616457.0,"Yeah so basically you would just create a new StringBuilder object (you could maybe replace your String\[\]\[\] b with StringBuilder b). Then from there you can append strings to b very efficiently using the StringBuilder's append method.
+
+At the end when you want to get the full string back you can just do b.toString()."
+explainlikeimfive,fqspsdp,t1_fqsnd17,1589614610.0,"Yes that can happen but is not the most common scenario. The most common would be to go to the app store and download + install from there, so both would happen in sequence with a single button press. This means that for most all circumstances, the speed of download will be factored in with the full install process."
+explainlikeimfive,fqsmosh,t1_fqshrwi,1589611757.0,"To add to this: we also have to factor in that before the system can complete the install, it first needs to download the app data from the internet which is heavily dependent on internet download speed. Uninstalling doesn't have to interact with the internet at all."
+learnprogramming,fqsm60g,t3_gkpqcj,1589611303.0,"Here are a couple of ideas:
+
+* Fold your mine randomization and mine neighbor counting into a single loop. By this I mean that when you pick a cell to contain a mine, indicate that the cell contains a mine and then at that same point iterate over its neighbors and +1 their counts (if a neighbor also contains a mine, skip and move to the next neighbor).
+* Generate your string grid using StringBuilder (at the end of each line don't forget to append a \\n). Then at the end do a single print statement with the completed string representation. This will get rid of the print statements you have in your doubly-nested loop at the end which is a big deal since printing to console is expensive compared to the other things your code is doing."
+learnprogramming,fqs7wk5,t3_gkngwf,1589600530.0,"You would be better off looking into more advanced topics such as artificial neural networks which are inspired and loosely based on the way the brain learns/functions. These topics fall under the broader umbrella of machine learning. Just keep in mind that even in machine learning, even though researchers are often inspired by the brain it's still not a 1:1 match currently.
+
+As far as equating the way the frontal lobe learns and makes decisions to if-else statements, in general that's going to be too far removed from reality to be useful."
+Anxiety,fqkpdts,t3_gjfkp8,1589432685.0,"One thing you can do is to start slowly, and by this I mean starting off with a small amount of exercise and working your way up. In this way you can sort of expose yourself to the normal feelings and sensations that go along with working out, but in small manageable pieces so you don't get too uncomfortable.
+
+Also, if going to a gym is too overwhelming at first then you can start off with home exercises to ease yourself into it. There are tons of things you can do at home with little or no equipment.
+
+Since you have a clean bill of health you know that any sensations that come with it are just a normal part of exercise and nothing bad. You can reassure yourself with this each time. Hope this helps!"
+explainlikeimfive,fqiskr9,t1_fqiqx7g,1589400310.0,"Yeah that's what it seems like from what I can tell. Each soldier model had a massive polygon count, so in the room with an army of them the engine would have had to dynamically scale each of their quality levels to avoid blowing the entire GPU geometry budget."
+explainlikeimfive,fqipobo,t3_gj5wuy,1589399194.0,"We don't have the full technical details yet, so here's some speculation based on what was demoed and what they've said publicly:
+
+* Dynamic scaling of asset polygon resolution. It sounds as though that while the actual asset may have enormous amount of polygons, the engine generates an approximation of the polygons based on what the user actually sees. This is more than just what's visible on the screen - it will also have to factor in what level of detail will actually be significant based on how far away the viewer is from an object.
+   * From what they've said it seems they're aiming for artists no longer having to manually generate high/medium/low resolution assets since the engine will scale the high resolution asset at runtime.
+* Virtual texturing. This technology has been seen before for games like RAGE and DOOM with increasing levels of success each year. The idea is that you can have very large, high resolution textures that can be applied to a landscape/objects. At runtime the engine is then responsible for scaling these textures and dynamically loading/unloading sections of them as needed.
+
+These are two big things that stand out to me right now, but there is definitely a lot more going on especially from a lighting standpoint. Plus we'll have to wait and see what actual performance looks like across different hardware configurations. We know from early experiments with virtual texturing that it is heavily dependent on how much data can be streamed to and from the hard drive per second, and then to and from GPU memory, so it can be tricky to get it right consistently.
+
+&#x200B;
+
+EDIT: Based on some comments made by Tim Sweeney, it looks like they're optimizing Unreal Engine 5's data streaming for the PlayStation 5's custom SSD (Solid State Drive) technology and for NVMe SSDs available for desktop PCs. It gives the impression that if you're trying to load game data from classical hard drives then you may see bad performance."
+learnprogramming,fqcn2by,t1_fqcmkw1,1589262696.0,"Oh ok, in that case you might want to use an integrated development environment (IDE) such as IntelliJ free edition. It will provide you with the ability to start and manage a project, and it uses the JDK as its backend to actually compile and run your code.
+
+EDIT: And if you don't want to go the route of an IDE and want to interface with the JDK more directly then you'll just need some sort of lightweight text editor such as the default one shipped with macOS or Visual Studio Code. From there you can Google how to use javac and java to compile and run your programs."
+learnprogramming,fqcm8qf,t1_fqclvlr,1589262028.0,It'll have to depend on what you're looking to do with it. Do you have some existing code you're looking to compile?
+learnprogramming,fqcl6di,t3_gi4og6,1589261166.0,"Which part are you trying to run? JDK has a handful of different things that it gives you. One of them is the java compiler for example (javac).
+
+If your install worked then typing `javac -version` from the macOS Terminal should tell you which version you're working with."
+learnprogramming,fqcj16z,t3_gi4bpy,1589259488.0,"Honestly it looks very clean in my opinion and it looks like a great first step in learning Python/programming in general.
+
+The next steps will come as you familiarize yourself with different data structures and Python libraries. For example, you could use a dictionary to remove the need for the if-statement inside of `def human(player):`.
+
+Inside of `def computer():` you could make use of a list to get rid of the if-statement, for example `return [""Rock"", ""Paper"", ""Scissor""][floor((random()*100)%3)]`.
+
+Once you have more familiarity with existing libraries you will eventually be comfortable doing something like `return random.choice([""Rock"", ""Paper"", ""Scissor""])`.
+
+So overall I would say that if you want to make changes/improvements to this game then I would do it in a separate file and keep the current around for reference."
+learnprogramming,fqchseg,t3_gi43s1,1589258559.0,"For C/C++ the graphics engine is usually built on top of something like OpenGL, Vulkan, Direct3D or Metal which are low-level graphics APIs.
+
+For something higher level there are things like Ogre3D which is an open source graphics engine that a C or C++ game could be built around. In this case Ogre3D handles all of the interactions with the lower level graphics API so the developer doesn't have to."
+learnprogramming,fqcf2nh,t3_gi1yij,1589256632.0,"I would say that if you are time-constrained, stick with R since you already have some experience for it.
+
+However, if you aren't time constrained and will be with this for a while then I don't think you'll regret going with Python for your research. It's not too hard to pick up even though it will be a little bit weird at first. Here are the main libraries that will most likely be of huge help for you at some point and are a big reason why I use it:
+
+* statistics - builtin with Python 3.4+ and provides a handful of common functions used in stats
+* numpy - efficient handling of vectors/matrices
+* matplotlib - extensive library for graphical display of data
+* plotly - higher level data visualization library compared to matplotlib
+* pandas - data analysis and data manipulation package
+* scipy - pulls together many common mathematics/scientific/engineering packages for a complete experience (also includes its own extensive statistics library)
+* \++ many more including the 2 you listed
+
+All of these are very easily installed using Python's package manager. Plus since Python is majorly popular in both for industry work and academic research there is a mountain of stuff online to help with pretty much any situation in my experience."
+Anxiety,fq4zr1q,t3_ggirsc,1589088261.0,We request that all research studies be vetted by the mod team before posting. Please send us a message via mod mail with the study and IRB or Ethics Committee approval. This post has been removed.
+Anxiety,fq2foed,t1_fq0yzzi,1589055687.0,This is not appropriate for this sub. See rule 2 - be supportive. All of your comments in this chain have been removed.
+Anxiety,fpxde09,t1_fpwjzzc,1588980480.0,Done
+Anxiety,fpqi8st,t1_fpqhlt6,1588823408.0,I've sent this over to the lead mod. We review all reports that get sent our way. Sometimes we remove them but other times we approve them.
+Anxiety,fpqhlr4,t1_fpqgpds,1588822983.0,This comment has been removed. If you feel something breaks a rule you can use the Reddit report feature and it will be reviewed by one of the moderators.
+Anxiety,fpqheid,t1_fpqeh3d,1588822852.0,This comment has been removed. If you feel something breaks a rule you can use the Reddit report feature and it will be reviewed by one of the moderators.
+Anxiety,fpqaxkc,t3_gerwoa,1588818786.0,This subreddit isn't a good place to look for medication recommendations. We are not medical professionals and cannot diagnose or give medical advice. It would be best to take your question to a doctor.
+Anxiety,fpqa6go,t1_fpmt7nl,1588818323.0,Your comments have been removed. See rule 2 - be supportive.
+Anxiety,fpmd91d,t3_ge7eku,1588730550.0,We are not medical professionals and cannot diagnose or give medical advice. It would be best to bring up questions regarding if and what kind of medications to take with a doctor.
+Anxiety,fom73z6,t1_fom6q05,1587880242.0,lol
+Anxiety,fojwqsx,t3_g7vxa7,1587830956.0,"Anxiety can definitely cause palpitations, and the echo and ekg both coming back normal is a strong sign that yours are stress/anxiety related. In my experience getting anxiety under control reduces or eliminates palpitations."
+Anxiety,fojulfw,t3_g7vdc0,1587829710.0,"One thing you can try is to keep a little score board where you mark how many times you look to the news/articles for reassurance that things are still ok. Every time you find yourself looking things up, put a mark down. Start a new score board each day, and keep a record of old ones for comparison. The goal is to decrease the number of marks over time until eventually you find yourself at or near 0 on most days.
+
+Part of this is to make you comfortable with no knowing. You don't need to keep tabs on everything going on in the world in order to live your life, and actually trying to do so will just sap all your energy and wellbeing."
+Anxiety,fojh58m,t3_g7tboc,1587820760.0,"Make sure to establish a clear separation between yourself and the skill you're trying to learn. In the end it's not who you are and does not need to become part of your personal identity. Otherwise it becomes a kind of trap and only increases the fear of failure (""If I fail at this then I fail at a personal level"").
+
+Everyone ends up failing in their lives, and if used properly they can help you grow as a person. If you commit yourself to something new and find that it really doesn't work out even if you try very hard, it just means you need to find something that fits you better. It doesn't make you worthless in any way."
+Anxiety,fojg0l4,t3_g7t0fn,1587819848.0,"Do you have a washcloth, preferably one that's pretty smooth? If so you can soak it in warm water and rinse your eyelids with it. In between rinses you can try blinking a couple times as well."
+Anxiety,fojepxu,t3_g7q2o6,1587818750.0,"I don't feel I have any answers, but I do have some things for you to think about.
+
+* Death is one of the great mysteries we deal with, and so is its opposite which is birth. Birth is a lot like waking up without ever having gone to sleep. Death is a lot like going to sleep without ever waking up.
+* Since you mentioned egocentrical: when all of our focus is on our singular existence, it's easy to feel small and to forget where we came from. We arose out of the earth, within a larger solar system, within an even larger galaxy, within an even larger universe and beyond which science is just beginning to uncover. Since we arose out of it, we're not separate from it. Only thought makes it seem so.
+* What we have learned and continue to learn from the dying (near death experiences, death bed visions, death bed coincidences, etc.): death is not the monster we make it to be. There is stuff to experience and to learn even after we start to slip away. Those who come back after a close brush with death commonly report that not only do they lose all fear of death, but their lives become more fulfilling and more meaningful after.
+
+Best of luck, I hope you find your answers and experience inner peace!"
+Anxiety,fojcctx,t3_g7sajr,1587816575.0,"One thing you can do is that instead of comparing yourself to others, you can make it a habit of comparing your current work with your past work. In this way you can shift your mindset to one of tracking your own personal progress without concern for where other people are on their professional tracks.
+
+The problem with comparing yourself to others is that you will always be able to find ways that you don't measure up. It's a game that can't be won, and luckily it's also a game that doesn't have to be played. Everyone's on their own path."
+Anxiety,foi2wbl,t1_fohyxmp,1587777611.0,"Same here, they're great"
+Anxiety,fohwm8s,t1_fohvcd0,1587774062.0,"One easy way is to slow down your breathing and see what changes. Make it a point to breathe into your stomach, hold for 4 seconds, then slowly breathe out and repeat. If you start to feel a sense of relief then it means anxiety is the cause.
+
+Another thing you can do is to do something physical like going for a walk. If you start to feel better it means anxiety was throwing off your normal breathing pattern."
+Anxiety,fo97g45,t1_fo8wl8f,1587612308.0,"Hi, I recommend reposting this here: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)."
+Anxiety,fo8n1l7,t1_fo76vyx,1587599784.0,All of your comments in this comment chain have been removed. See rule 2 - be supportive.
+Anxiety,fn85per,t3_fzz74c,1586734455.0,"Your a, b and c points are very important here because they can lead you to the root of your problem. All three started with ""what if"", which means that all three are focused on the future. The problem with this is that since the future doesn't exist in any sort of uncertainty, you can come up with an endless stream of what-if scenarios and basically drive yourself insane thinking about situations that don't presently exist.
+
+From what you wrote I would guess that you spend most of your days living in scary, mind-made futures. The first step to being free from them is to recognize that none of them exist. The second step is to see that any time you stop thinking about them and focus instead on what's going on around you, every single possible scenario you came up with vanishes. They're as illusory as the thoughts themselves. The third step is to admit that no matter how much time you spend trying to project into the future, you can never predict it with any amount of certainty, and even if you somehow could there's no way you could ever fully control it. You'll have to practice giving up the idea that you can somehow control the future with anxious thought. Instead, all you can do is to make the best of the present moment and take things one step at a time as they unfold. In the end the present is all we really have.
+
+Then for all of the symptoms you list, including the chest pain, those all unfortunately can be symptoms of severe and chronic anxiety. Anxiety can cause all of your muscles to tense/spasm which can lead to throat/chest pain. It can make your breathing fast and erratic which leads to feeling lightheaded and like you can't get enough air. It also consistently causes you to release adrenalin which speeds up your heart rate and can even make it skip beats. The good news is that none of this is dangerous. The main issue making it hard to get over them is that you have likely become severely oversensitized to every bodily sensation, especially involving your heart. This means you're far more aware of everything in your body than normal making even little things hard to ignore. For the time being you will have to accept that those sensations will be a little unpleasant since you've been struggling with anxiety so badly, but over time as you practice sitting with them without fighting against them, you'll find that things start to calm down.
+
+Also, if possible don't hesitate to make some sort of remote/virtual appointment with a therapist. I hope this helps, best of luck!"
+Anxiety,fn4ybqy,t3_fzizjh,1586651657.0,You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/). Feel free to repost there. New comments have been getting a good amount of attention.
+Anxiety,fmvfgkc,t3_fxnhuc,1586415143.0,You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/). Feel free to repost there. New comments have been getting a good amount of attention.
+Anxiety,fmvfb36,t3_fx2f7e,1586414998.0,You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/). Feel free to repost there. New comments have been getting a good amount of attention.
+Anxiety,fmveo2s,t3_fxhqa7,1586414385.0,You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/). Feel free to repost there. New comments have been getting a good amount of attention.
+Anxiety,fmvegqk,t3_fxl25z,1586414189.0,You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/). Feel free to repost there. New comments have been getting a good amount of attention.
+Anxiety,fmro093,t3_fwlv41,1586329284.0,You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/). Feel free to repost there. New comments have been getting a good amount of attention.
+Anxiety,fmrny7v,t3_fwo0uz,1586329229.0,You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/). Feel free to repost there. New comments have been getting a good amount of attention.
+Anxiety,fmrnsxi,t3_fwroxu,1586329092.0,You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/). Feel free to repost there. New comments have been getting a good amount of attention.
+Anxiety,fmrmtwp,t3_fwykzf,1586328167.0,You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/). Feel free to repost there. New comments have been getting a good amount of attention.
+Anxiety,fmoc2a3,t1_fmnnvnu,1586253356.0,Hopefully that helped bring you out of the panic attack
+Anxiety,fmo291o,t3_fuznnl,1586242741.0,We are now linking to this from the main megathread so that people can continue to find it. Thanks to u/cocosp for posting it and to everyone who has contributed!
+Anxiety,fmnloyg,t3_fwcc5t,1586228994.0,"Keep in mind that those stats alone don't tell the whole story. Many of them (70% and above according to one source) had some sort of underlying health condition that put them at greater risk to begin with. Plus from the data we have right now being pulled from around the world, 95% of all cases are classified as mild while the remaining 5% fall into the serious/critical range. New reports are also indicating that many people who get the virus don't end up showing any noticeable symptoms.
+
+It's easy to get lost in a terrifying, mind-made future and begin to panic. But in the end this future is fictional: it hasn't happened, and if you can reground yourself in the present then it will disappear as quickly as it started. This is very important because in the end, keeping calm and reducing stress will go a long way in allowing you to cope with things. We do need to be alert and informed, but since panicking won't help we can do everything we can do reduce and eliminate it.
+
+I recommend taking a quick break from everything to go and get some water. While you do it make it a point to really focus on each and every step since this will help bring you back to present moment awareness. After you get it, maybe stop and look out a window for a bit and point out some neutral things that you notice while you drink the water. This will ground you further."
+Anxiety,fmnfxwx,t3_fwbshh,1586225167.0,"It's definitely possible to feel like garbage after a string of panic attacks or a prolonged anxiety attack. It can leave you feeling extremely tired/worn out, and racing heart is one of the most common symptoms.
+
+Honestly if you're already following medical guidance as far as staying in as much as possible, social distancing when out, etc. then the next best thing you can do to keep your immune system functioning well is to do things that calm you down and keep your stress levels under control."
+Anxiety,fmn1blo,t1_fmmxfa5,1586216137.0,"I think you're right, if anything it should at least point out any patterns. Best of luck!"
+Anxiety,fmmwo77,t3_fw5tg3,1586213513.0,"You might want to repost this on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+You will likely get a better response there. New comments have been getting a lot of attention."
+Anxiety,fmmw869,t3_fw6jco,1586213270.0,"Hi,
+
+I recommend you repost this on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+You should get a better response there. New comments have been getting a lot of attention."
+Anxiety,fmmw3mi,t3_fw6x17,1586213200.0,"You might get a better response with this on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+Feel free to repost this there."
+Anxiety,fmmw0ig,t3_fw72t3,1586213154.0,"It's possible that you are experiencing those symptoms because you are ending Lexapro. Even though it was a small dose it can have at least some influence both during and while you are coming off of it.
+
+I would recommend keeping a journal of any changes in how you feel day to day to make it easier to tell your doctor how things are going. Also don't hesitate to send your doctor a message/schedule a follow up so you can talk to her about this, just to make sure you're both on the same page."
+Meditation,fmmt7vu,t3_fw7r34,1586211622.0,"One meditation for this would be observation of thoughts coupled with breathing focus. For example, the goal of such meditation would be to watch your thoughts without getting lost in them. Anytime a thought comes up that threatens to pull you into anger, count to 2 as you breathe in, count to 4 as you breathe out. You can even do multiple breaths like this in a row until you feel calm even if the thought is still there. In this way you can train yourself not to fuel any anger that comes up.
+
+Eventually you will be comfortable enough to perform this even when not formally meditating, e.g. in situations that would previously have brought out uncontrolled anger in you."
+Anxiety,fmk8nho,t3_fvrhqx,1586147430.0,"Hi, you might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+Feel free to repost there."
+Anxiety,fmk8ith,t3_fvp9ob,1586147329.0,"Hi, you might get a better response on our covid megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+Feel free to repost there if you want to."
+Anxiety,fmj9kf2,t3_fvaisf,1586125813.0,"Hi,
+
+You might get a better response on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+Feel free to repost this there if you want."
+Anxiety,fmgbfvq,t3_fuz21j,1586045322.0,"You might get a better response over on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+Feel free to repost this there. New comments have been getting a lot of attention."
+Anxiety,fmgbd3c,t3_fv0m4u,1586045277.0,"You might get a better response over on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+Feel free to repost this there. New comments have been getting a lot of attention."
+Anxiety,fmgb3zb,t3_fv0wgu,1586045123.0,"You might get a better response for this over on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+Feel free to repost there. New comments have been getting a lot of attention."
+Anxiety,fmgazzk,t3_fv1c4y,1586045052.0,"Hi,
+
+You might get a better response over on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+Feel free to repost there. New comments have been getting a lot of attention."
+Anxiety,fmfsnu6,t1_fmd4i5r,1586034017.0,Yeah we have a Discord - here's a link: [https://discordapp.com/invite/vF4DqMJ](https://discordapp.com/invite/vF4DqMJ)
+Anxiety,fmahjnl,t3_fu2xcf,1585894352.0,"Hi,
+
+I recommend you repost this on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/?sort=new](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/?sort=new).
+
+I think you'll get a better response there. New comments have been attracting a lot of attention lately."
+Anxiety,fma32sc,t3_fty5kd,1585882606.0,We request that all research studies be vetted by the mod team before posting. Please send us a message via mod mail with the study and IRB or Ethics Committee approval. This post has been removed.
+Anxiety,fm9ggx1,t3_ftvzct,1585868243.0,"Hey,
+
+Consider reposting this in our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+You should get a better response there. New comments have been getting a good amount of attention."
+Anxiety,fm9g8sd,t3_ftvvyl,1585868110.0,"Hey,
+
+Consider reposting this on our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+I think you'll get a response there. New comments have been tending to get a lot of attention."
+Anxiety,fm9fsk4,t3_fttln4,1585867844.0,"Hey,
+
+Consider reposting this in our megathread: [https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus\_discussion\_thread/](https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/)
+
+You'll probably get a better response there. New comments tend to get a lot of attention."
+Anxiety,fm3p5tq,t3_fnz5n3,1585731741.0,"I wanted to post this suggestion since so much has been happening related to covid19, and anxiety levels are just so high right now. My hope is that this will help ground people a bit and slow things down for at least a little while.
+
+At some point today, make it a point to do something for yourself with the fullness of your attention. It can be something simple like washing your hands, making some oatmeal or stepping outside to get some air and look around to see what there is to see. While you do this the idea is to be fully immersed in that task such that the quality of your doing is unusually high - give it your total and complete attention. There should be no thought of what you'll do next, of what's happening of the news, no thoughts past or fear of future - only the task you choose to do.
+
+This will allow you to step away from the hurricane of fearful thoughts and to see that even now, during these difficult times, there is a great depth to life. There is far more to life than just what we're struggling with right now. I hope this helps and remember that we're all here for each other!"
+Anxiety,fm3nrnl,t1_fm3cg23,1585730220.0,That's awesome! Over time have you found that sitting with uncomfortable things becomes easier and more natural?
+Meditation,fm2je9y,t3_fsnzb3,1585698680.0,"I think the basic idea behind observing your thoughts is to stop fighting/fueling any given line of thinking. It's the ability to allow a thought to enter your mind, run its course, and dissolve without you doing anything or adding to it. In this way you don't resist any thought, and no thought stays longer than it needs to.
+
+If you accidentally get caught up in any one thought and follow it, you can use a lot of techniques to get yourself back to it. One easy way is to simply say ""thinking"" to remind yourself that you got lost, and then gently come back to whatever meditative practice you were doing."
+Meditation,fm2iij9,t3_fsnuyu,1585698170.0,"One big reason that people say that the goal isn't to stop thoughts is because if you try to do this, more often than not you'll find that the amount of thinking actually increases because you're fighting it by trying to end it. It's summed up by ""Whatever you resist will persist.""
+
+Instead, part of what meditation can give you is the ability to let your mind quiet itself on its own. There are many ways to do this including: following the breath without narrating it, or using an object as the focus of meditation, or even observing the subtle gap in between your thoughts.
+
+At first it might take a while before your mind finally quiets itself and you are fully present in stillness. But as you practice you'll find it gets easier and faster."
+Anxiety,flyvip7,t3_frptdc,1585609951.0,"In hopes to allow all individuals experiencing anxiety, both general and COVID-19 related, to get support we are asking that all posts primarily about COVID-19 be made in the megathread stickied at the top of our subreddit. This will help to ensure that non-COVID posts do not get buried by the current surge of COVID-19 related posts. For that reason we reason we have removed this post.
+
+Feel free to repost here: https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/
+
+Please send us a message via modmail if you have any questions!"
+Anxiety,flwjxmw,t1_flwjq12,1585553443.0,For under 18 (and if you're young in general) then it's overwhelmingly likely that you'll recover.
+Anxiety,flwiqyq,t1_flwgacu,1585552159.0,"I'll try to help you feel at least a little better about all of this. It's such a difficult time for everyone, and from what you wrote it seems like you're getting hit a little harder than many.
+
+There's still an overwhelming chance that if you or your family get it that you'll be able to recover. Some stats from 2 days ago from NY indicated that for people aged 75+ who got the virus (they're considered one of the most at-risk groups), there was still around a 90% chance of survival.
+
+One of the biggest things you can do right now is to narrow your focus so that you only have to deal with what's going on now. This will let you take things moment by moment and enable you to reduce your anxiety which can massively help your body and mind. Trying to deal with everything at once or projecting into the future will just continue to cause you to spiral. Continue refocusing on this moment anytime you wander into worst-case future scenarios.
+
+Another thing depending on where you live and what's available, but definitely try to use anything at your disposal to allow you to take as much time off of work as possible. Basically just look into any option that would allow you to still make rent yet spend time away if you haven't done this already."
+Anxiety,flwgsa8,t1_flwg5sl,1585550127.0,Sure no problem
+Anxiety,flwfqze,t1_flwe4h3,1585549102.0,"It will probably depend on how it’s being presented. For example, news on what actions are being taken to make sure that doesn’t happen could potentially be posted here to reassure people.
+
+You can always report them as triggering. When that happens we try to look at how people are generally responding to the comment to determine if it’s positive or not. We’ve run into a few already that some felt was negative but the majority seemed to think was positive."
+Anxiety,flwc3uj,t1_flw28ir,1585545670.0,"Several of your recent posts on this thread have been removed, as well as multiple others over the last few days. See rule 2 - be supportive. Further comments of this same nature will result in a ban."
+Anxiety,flrtg5n,t1_flrlaqt,1585427492.0,"Like others said, it's definitely not guaranteed that you will get it.  Plus as each day passes we get closer to successful antiviral treatments + a vaccine which will make us far more effective at dealing with this. Only a few days ago some initial research came out suggesting that the virus seems to have a low mutation rate, meaning that people may only end up needing to be vaccinated once to be covered for many years."
+Anxiety,flrkw6h,t3_fqpwxc,1585422308.0,"Hi,
+
+We currently don't allow other social groups to be advertised here. r/Anxiety maintains its own Discord which can be found under ""About"" on mobile or on the right side panel on desktop ==>"
+Anxiety,flp0ry7,t1_flp00rp,1585349371.0,"You can try slowly replacing the time you would spend on Reddit with other stuff you like. For example, reading a book, watching calming videos, writing in a journal, etc.
+
+I guess the point is to add something new and positive to replace the old rather than just cutting it out and leaving a void."
+Anxiety,flozsl2,t1_flow3zj,1585348809.0,"If it makes you feel better then definitely keep posting here! At the end of the day that's what this thread is for.
+
+One thing to keep in mind is that in life there will be many ups and downs, both internal and external. Right now the whole world is in a deep low, but eventually that will change and things will start going up again. 
+
+What we can do is to practice moving with it rather than fighting against it, sort of like how water yields to overcome obstacles. Doing this can allow for personal growth even during difficult times like we're in now."
+Anxiety,flokyvn,t3_fq45iv,1585340317.0,"In hopes to allow all individuals experiencing anxiety, both general and COVID-19 related, to get support we are asking that all posts primarily about COVID-19 be made in the megathread stickied at the top of our subreddit. This will help to ensure that non-COVID posts do not get buried by the current surge of COVID-19 related posts. For that reason we reason we have removed this post.
+
+It can also be found here: https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/
+
+Thanks and feel free to repost this on the megathread"
+Anxiety,flofecy,t1_flnzx7p,1585337247.0,"In general we don't allow advertisements to other external social groups, be it Discord, Slack, etc. Part of the reason is that we cannot moderate them to ensure that they follow our rules and are consistently safe for people suffering from mental illness. In addition, r/Anxiety already maintains a large Discord group for mental health.
+
+Also, rule 10 applies whether you can make money from advertising it or not."
+Anxiety,flnrdr8,t3_fptsnj,1585324416.0,"In hopes to allow all individuals experiencing anxiety, both general and COVID-19 related, to get support we are asking that all posts primarily about COVID-19 be made in the megathread stickied at the top of our subreddit. This will help to ensure that non-COVID posts do not get buried by the current surge of COVID-19 related posts. For that reason we reason we have removed this post.
+
+It can also be found here: https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/
+
+Thanks"
+Anxiety,flmflyn,t3_fpfm4w,1585282290.0,"In hopes to allow all individuals experiencing anxiety, both general and COVID-19 related, to get support we are asking that all posts primarily about COVID-19 be made in the megathread stickied at the top of our subreddit. This will help to ensure that non-COVID posts do not get buried by the current surge of COVID-19 related posts. For that reason we reason we have removed this post.
+
+It can also be found here: https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/
+
+Thanks"
+Anxiety,flmfe57,t3_fpp3zk,1585282122.0,"We hope to keep this subreddit free of self-promotion. While we understands that many users do not post their blogs/vlogs with the intent of soliciting subscribers, we have found that when we allowed blogs and vlogs in the past the subreddit became overrun. In trying to keep the sub discussion/support based this post has been removed, however you are free to repost on our sister subreddit /r/AnxietyBlogs!"
+Anxiety,flibtwg,t1_fli7zw0,1585179288.0,This comment has been removed. See rule 2 - be supportive.
+Anxiety,fli7t4w,t3_fp04j6,1585176984.0,"In hopes to allow all individuals experiencing anxiety, both general and COVID-19 related, to get support we are asking that all posts primarily about COVID-19 be made in the megathread stickied at the top of our subreddit. This will help to ensure that non-COVID posts do not get buried by the current surge of COVID-19 related posts. For that reason we reason we have removed this post.
+
+It can also be found here: https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/
+
+Please send us a message via modmail if you have any questions!"
+Anxiety,fli70ut,t3_fosy9e,1585176552.0,Here is a link to the official r/Anxiety Discord: [https://discordapp.com/invite/vF4DqMJ](https://discordapp.com/invite/vF4DqMJ)
+Anxiety,fli6atk,t3_fowor6,1585176156.0,"In hopes to allow all individuals experiencing anxiety, both general and COVID-19 related, to get support we are asking that all posts primarily about COVID-19 be made in the megathread stickied at the top of our subreddit. This will help to ensure that non-COVID posts do not get buried by the current surge of COVID-19 related posts. For that reason we reason we have removed this post.
+
+It can also be found here: https://www.reddit.com/r/Anxiety/comments/fnz5n3/coronavirus_discussion_thread/
+
+Thanks"
+Anxiety,fli5sct,t1_flh5cu1,1585175871.0,This comment has been removed. See rule 6.
+Anxiety,flgj6bq,t1_fle9c2q,1585143877.0,"I just wanted to comment to reassure you that your progress hasn't been undone. If last year you were able to make significant progress on preventing panic, you can safely add that as a victory towards improving your mental health.
+
+However, now that you're having a really hard time with a sinus infection + allergies and finding it difficult not to panic, it's a sign that you may need to double down on your efforts to better deal with anxiety and keep your mental health strong. In the long run this will have the added benefit of leaving you even better able to deal with panic than you were before all this."
+Anxiety,fl9r8p5,t3_fnaupx,1584966950.0,"Hi, I recommend you repost this in our [megathread](https://www.reddit.com/r/Anxiety/comments/eupik4/coronavirus_megathread/) as you'll likely get a better response there."
+Anxiety,fl9r0n7,t3_fnir2j,1584966755.0,"Hi,
+
+I recommend you repost this in our [megathread](https://www.reddit.com/r/Anxiety/comments/eupik4/coronavirus_megathread/) as you'll most likely get a better response there."
+Anxiety,fl7dfto,t3_fn29u0,1584899465.0,"Hi,
+
+I removed this post since we've been getting a high volume of posts/comments related to the coronavirus. We're trying to keep a lot of COVID19-related discussion confined to our [megathread](https://www.reddit.com/r/Anxiety/comments/eupik4/coronavirus_megathread/). You'll also find a lot of uplifting comments if you filter the megathread by ""Best.""
+
+Feel free to repost this there as new posts have been getting a lot of attention.
+
+Also consider checking out the [positive-only coronavirus news thread](https://www.reddit.com/r/Anxiety/comments/fj2y1a/lets_post_good_news_on_the_coronavirus_here/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) started by a member of this subreddit."
+Anxiety,fl6gdn0,t3_fmwmmc,1584867636.0,"Hi,
+
+I removed this post since we've been getting a high volume of  posts/comments related to the coronavirus. We're trying to keep a lot of  COVID19-related discussion confined to our [megathread](https://www.reddit.com/r/Anxiety/comments/eupik4/coronavirus_megathread/). You'll also find a lot of uplifting comments if you filter the megathread by ""Best.""
+
+Feel free to repost this there as new posts have been getting a lot of attention.
+
+Also consider checking out the [positive-only coronavirus news thread](https://www.reddit.com/r/Anxiety/comments/fj2y1a/lets_post_good_news_on_the_coronavirus_here/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) started by a member of this subreddit."
+Anxiety,fl6g7ib,t1_fl6g442,1584867417.0,"I would definitely recommend it! Once you're ready, there should be a link under ""About"" on mobile or on the right side panel on desktop ==>"
+Anxiety,fl6g2m1,t3_fmusdr,1584867237.0,"Hi,
+
+I removed this post since we've been getting a high volume of  posts/comments related to the coronavirus. We're trying to keep a lot of COVID19-related discussion confined to our [megathread](https://www.reddit.com/r/Anxiety/comments/eupik4/coronavirus_megathread/). You'll also find a lot of uplifting comments if you filter the megathread by ""Best.""
+
+Feel free to repost this there as new posts have been getting a lot of attention.
+
+Also consider checking out the [positive-only coronavirus news thread](https://www.reddit.com/r/Anxiety/comments/fj2y1a/lets_post_good_news_on_the_coronavirus_here/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) started by a member of this subreddit."

@@ -1,0 +1,37 @@
+Anxiety,fp38mcd,t1_fp33hpw,1588274990.0,I've updated the post with some summary.
+Anxiety,fp30ym7,t3_fj2y1a,1588271222.0,"Lovely article about the comeback process for all major sports, from the Boston Globe. Really appreciate the positive and hopeful (but realistic) tone. For sports fans, there is much to look forward to. https://www.bostonglobe.com/2020/04/30/sports/look-bright-side-signs-indicate-pro-sports-are-comeback-after-bleak-month/
+
+Edited to summarize, since this is paywalled:
+- May will be a big month for sports.
+- NBA is opening practice facilities.
+- NHL said to be readying announcement on return to practice in the coming weeks.
+- After NBA starts, NFL will release its 2020 schedule. They are planning it now. ""On the heels of its ratings-smash draft, the NFL rightfully can make a big deal about the hope a schedule can offer. There are legitimate questions to be posed about the viability and timing of a full season, but the NFL has the luxury of time before having to give answers.""
+- MLB is floating a lot of options: Games in only 3 states, Eastern / Western / Central leagues to reduce travel, grapefruit league vs cactus league, etc. ""If late June or early July is the targeted start date, that means plans pretty much have to be finalized by the end of May.""
+- Baseball is on in Taiwan, and South Korean baseball with start very soon.
+- Soccer in Europe is in flux, but Germany is looking to start soon.
+
+""May begins, and could end, with plenty of sports question marks.
+But compared with April, it’s going to look like May Madness.""
+
+May Madness, here I come."
+Anxiety,foo4ggr,t3_fj2y1a,1587932311.0,"This is line with what I was expecting, but it is nice to hear this formally from the leadership. Dramatic decrease in hospitalizations and deaths in the US expected by end of May. Personally, I’m hoping for even earlier than that, starting in early May.
+https://thehill.com/policy/healthcare/494692-birx-expecting-dramatic-decrease-in-coronavirus-deaths-hospitalizations-by"
+Anxiety,fo6yclw,t1_fo6xpiy,1587568991.0,I’ve been following the Boston Globe lightly. They are not great but not as doomer and sensationalist as some other media. The big positive news is that there is high confidence from everyone that we have enough hospital and ICU space and that we will not have problems with the healthcare system.
+homelab,fch86v1,t3_eflq7u,1577648117.0,"Looked at the AMD option. That would likely be a 3900X Ryzen, with a X470D4U2-2T board since I want IPMI. The performance differential from the E-2288G is substantial (32K vs 20K passmark), and the TDP is only a bit higher (105W). However, I’m reading some horror stories about this board. Stability issues, weird positioning of RAM slots, weird RAM speed limitations, IPMI / BMC crashes, etc. See https://forum.level1techs.com/t/asrock-rack-has-created-the-first-am4-socket-server-boards-x470d4u-x470d4u2-2t/139490
+
+The performance is great, but I’m still leaning towards Intel. The extra futzing and possible stability risks just don’t seem worth it to me, for my requirements. This server runs lots of stuff used by family and friends, and issues with it cause me major headaches."
+homelab,fc3cg1m,t1_fc3bz35,1577386729.0,This is an interesting point. What would you recommend for OOB management outside of IPMI? Some kind of KVM hardware?
+homelab,fc1taa8,t1_fc1k0qo,1577329022.0,"Roughly what I was thinking. The benchmarks I saw for the E-2288g seem like it performs comparably to really expensive Xeon Silver processors. I’m not an expert on AMD but I don’t know if they have something in this segment that meets the requirements.
+
+I’m looking at Supermicro motherboards as well. I’m considering this Supermicro case / motherboard combo. (SYS-5039C / X11SCL-F) (https://www.supermicro.com/products/system/tower/5039/SYS-5039C-I.cfm)
+
+Would the Intel X540-T2 be the Ethernet adapter to get? It does look like it wants an X8 Lane."
+homelab,fc14ut3,t1_fc14bzp,1577308308.0,"Good to know about AMD. I used to have an Athlon gaming rig back in the day but I’m still concerned about AMD for servers. Maybe I’m behind the times, though.
+
+I am planning on using Supermicro as you said. Went with them for the earlier server build and it has been rock solid.
+As for the integrated GPU, no particular reason except that I want hardware transcoding and this seemed like the easiest way to get it. I’m not planning on gaming with this machine, so a PCI video card seemed overkill and like it might waste power.
+
+If I wanted to go with a PCI GPU, where would I go to get more CPU in exchange? The E line tops out at the E-2288g, so I would need to move up to Xeon scalable, I assume?
+Another frustrating thing about the Xeon E boards is they don’t have built in 10 GB Ethernet, do I would need to add a card for that. The more serious Xeons are on a different chipset it seems such that they can have included 10 GB."
+Stellar,fb9f78i,t3_eaaif4,1576636982.0,"I tried to send the resulting coins to my Coinbase account, but I didn't put the memo / tag on it. Are they totally lost now? Is there any way I can get them back?"
+redsox,evau7t8,t3_cj0nad,1564357363.0,"For those using MLB.TV, you can switch the audio to WEEI, at least on the Apple TV. Just saying, for no reason at all. Swipe up from the bottom and go to options."

@@ -1,0 +1,268 @@
+LilPeep,fqkqi8i,t3_gjbe0p,1589433506.0,Walk away as the door slams :(
+explainlikeimfive,fqkqenz,t3_giy6lz,1589433432.0,Do you hula hoop around your waist or your neck?
+todayilearned,fqkq6sv,t3_gj80qd,1589433271.0,Diamonds are nothing but a scam haha
+alberta,fpuubb6,t3_gccall,1588923969.0,"""Something wrong? Yeah. It's just too bad you don't know what it is...""  
+\- Furious Styles"
+webdev,fputwm3,t3_gfoalj,1588923566.0,Post both links so we can see if its bogus?
+webdev,fpc65vo,t1_fpc3ca2,1588488912.0,"@dababolical I prefer to keep it basic because I don’t judge people’s talent though their questions/posts. I hope you found a solution to your issues. If you would like more direct advice feel free to message me directly, I wouldn’t want to bug you with answers you’re not looking for. I can be a mind for you to bounce your ideas off of. Best of luck!"
+AskReddit,fp8ui9s,t3_gbxl2z,1588403427.0,Watered down soy sauce
+webdev,fp8mbe6,t1_fp8mahq,1588396165.0,My pleasure. Good luck friend!
+webdev,fp8m7mc,t1_fp8m5po,1588396079.0,Thats my bad sorry my man! I'm not sure why AdSense isnt working. Just call Google they're very fast and helpful.
+webdev,fp8lxnl,t1_fp8ltus,1588395852.0,Oh sorry i meant why cant you use regular Google Ads as opposed to AdSense? I don't have experience in Google AdSense only Google Ads so I can't really help sorry. But you should be able to run regular ads no problem. Cheers!
+webdev,fp8lmwa,t3_gbzqmr,1588395614.0,What's wrong with regular Google ads?
+webdev,fp8erjh,t1_fp7lnoq,1588390466.0,this sums up my reply
+webdev,fp8dzs0,t3_gbzdst,1588389921.0," [https://www.geeksforgeeks.org/sql-vs-nosql-which-one-is-better-to-use/](https://www.geeksforgeeks.org/sql-vs-nosql-which-one-is-better-to-use/) 
+
+A quick read that might be worth your time. I'm honestly a bit confused by your questions, but it is late here and im probably just sleepy.
+
+In my opinion, your best bet would be the simplest one. To me it seems like you need a simple relational database with the tables ""surveys"", ""users"", & ""options"". 
+
+You can then display a ""survey"", to a certain ""user"", with the following ""options"".
+
+You would then have a ""response"" table (preferably anonymous) that would receive the submitted surveys. 
+
+Excuse my sleepiness :)"
+MadeMeSmile,fngjmfe,t3_g1gqt2,1586934334.0,"This made me smi...
+OH! I get it."
+AskReddit,fn1hggp,t3_fyrfy8,1586562095.0,"I’ll Make a guess cause this is a fun question. 
+
+For the backpack:
+
+1) use your nicest casual looking (not a “bummy” or military etc.) backpack to not raise too much suspicion. More low key the better.
+
+2) pack one or two battery banks with cords for anything you’ll need. A handheld GPS could also prove very useful, or a map and compass. Destroy and ditch your cell phone in some sort of dump truck or water source.
+
+3) ask some random person outside a gas station to go buy you a cellphone with minutes, that you will only be using for emergencies and preferably no GPS. Keep it turned off until needed.
+
+4) pack a small utility knife or pocket tool, and multiple fire starters. Depending on the terrain and distance, a machete or tomahawk could also prove useful and will easily fit in most bags.
+
+5) pack a focused but powerful flashlight for walking though the bush to stay off the roads that will catch unwanted attention
+
+6) trail mix, multiple power bars and water bottles. Plan for like a day or 2? You need to move quick and food will help you keep going.
+
+7) $100 at least in cash to pay for things if it’s absolutely necessary.
+
+8) socks and underwear and a change of clothes/another disguise
+
+What do you think?"
+alberta,fmxduj1,t3_fxy9fw,1586463138.0,Please stop if you feel like it eh
+webdev,fmv8v2i,t3_fx6owm,1586409264.0,Check out [Laravel](https://laravel.com/)
+Calgary,fmv50vj,t1_fmuab0g,1586406261.0,We really do live in a society ://
+alberta,fmrku8d,t1_fmdv98r,1586326310.0,Have faith friend. If you have shelter and enough money for food and supplies maybe you’re not the right recipient of these relief funds. As far as I can tell this is to help people who have lost their living/job and need money between now and receiving EI in order to survive/pay rent/raise children etc.
+AskReddit,flt73t9,t1_flszp55,1585461410.0,Wtf
+Frontend,flt6ro4,t3_fqzk1l,1585461084.0,"You’re using:
+
+“value”: “value”
+
+When you need to be using:
+
+key: “value”
+
+You’re referencing a value, not a key. You need to be referencing the key.
+
+Edit:
+
+var clothes = {
+  hat: “ballcap”,
+  shirt: “jersey”,
+  pants: “shorts”,
+  shoes: “cleats”
+}
+
+console.log(clothes)
+console.log(clothes.hat)
+
+You need to find hat not “hat”."
+webdev,flt4cge,t1_flrgpx1,1585458859.0,These errors are present on almost every website and are not because of the site itself
+webdev,flt43az,t3_fqn6u4,1585458635.0,It’s really cool but the double text effect is kind of giving me a headache
+webdev,flt3h56,t3_fqojb3,1585458109.0,"Hey friend. Have you looked into perhaps using JavaScript ML (with node.js)? Also I think I have heard of python web libraries, excuse my ignorance but I think it’s called Django? This might be an easier way to implement your code into a web app than trying to find some kind of converter/transpiler/wrapper to embed your python code into php or JavaScript. (I’m just guessing)
+
+I’m also going to lay out my opinion of what this stack possibly look like:
+
+- A cloud based instance such as AWS, Heroku, etc. that you are able to install and run python on. Lots of guides and options on this. Be careful with billing!
+
+- A foundation built with the Django web framework (should be easy to learn if you read the docs and are already learning python)
+
+- Copies or references to your ML python library and other necessary code etc.
+
+- Manipulating/fetching/processing your ML data in the back end and using Django to show the chosen info to the end user (this is the “view” in [model-view-controller](https://g.co/kgs/CSav7s)  systems)
+
+As I’m unsure about the level of your knowledge of this stuff I wanted to lay it out simply, so please don’t take offence if I’m telling you things you already know.
+
+If you lay out more details of your project I can provide more insight.
+
+Cheers!"
+webdev,flt1juc,t3_fqsvui,1585456523.0,Bootstrap studio
+AskReddit,flt04ms,t3_fqzmz0,1585455373.0,Blame it on the information super highway
+admincraft,flsrvlf,t1_flsrpek,1585449253.0,Here it is: [amazing developer](https://www.reddit.com/r/admincraft/comments/fq4x9b/im_making_free_plugins_day_1_3272020/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
+admincraft,flsrpek,t1_flsptwt,1585449132.0,There is a lovely developer on this subreddit that is making plugins for people. He’s a great guy and would probably love to do this custom job for you. I will link to his post and account in a moment
+politics,flqi892,t3_fqddwm,1585395825.0,Ok euroboomer
+unpopularopinion,flqcm46,t3_fq2wq8,1585388945.0,r/popularopinions
+explainlikeimfive,flqcgjx,t1_flpju2o,1585388746.0,They should teach this in schools lmao
+explainlikeimfive,flqcc4a,t1_flpixbd,1585388586.0,Send me another $500 and I’ll give you $600 in 10 years I promise
+explainlikeimfive,flqc1kf,t1_flpm984,1585388201.0,I laughed so hard I choked on my beer. Lmao
+admincraft,flq5ccn,t3_fq4x9b,1585379749.0,"pluginkid is NOT F****** AROUND
+
+Someone hire him immediately!!!"
+learnprogramming,flq2elo,t1_flpb8b9,1585376494.0,Canada is way less scared lmao
+BipolarReddit,flq26ao,t1_flo9ylo,1585376257.0,"Good for you on your gambling addiction OP, this stranger is very proud of you. As for the rent, please pay it, don’t consider this behaviour as “manic”, more as “required”.
+
+Good luck!"
+admincraft,flq20ih,t1_flplsri,1585376092.0,This kids a beauty holy shit
+mentalillness,flq1n27,t1_flot0ve,1585375706.0,I think your question went over their head haha
+mentalillness,flq1htw,t1_flpbbva,1585375559.0,"This is like saying all cops are murderers. There are always helpers in any situation, remember what Mr. Rogers said? Don’t give doctors a negative stigma, there’s enough of that in mental illness already. I personally trust my GP with my mental health more than any nurse that has helped me, with no offence to them either.
+
+As for “you not doing the work”, this can be the exact reason people fail to fix their mental health, and I’m speaking from experience.
+
+Also, a nurse can make a mistake and know that they caused it. With mental health, like you said, it’s not black and white. You could be the definition of a perfect mental health worker and your patient could still succumb to their inner demons. Or like you said, be incompetent, but their client survives. They are different battles and should not be compared IMO.
+
+TL;DR life and mental health isn’t always black and white, but medicine arguably is."
+mentalillness,flq1419,t3_fq3rec,1585375175.0,"Hey OP, you’re not alone. I often find myself wishing for the same thing, it’s normal in my opinion.
+
+What really helped me is realizing that I needed professional help. A proper diagnosis, medical support, and the correct medication can make the difference between you fighting for your life, and you fighting to make your life better.
+
+It sounds cheesy, but there’s a brighter dawn coming. It’s up to us to take the first steps towards the future we want, and this first step is typically your family doctor/therapist. 
+
+Please keep us updated OP, and message me if you would like to have a chat to get your mind off things.
+
+Much love friend"
+webdev,flq0koi,t3_fpxarx,1585374634.0,Excellent example of how to do everything right in this kind of situation. Props to OP. This was awesome to read.
+CrappyDesign,flpvu4y,t3_fq8p99,1585370302.0,[r/web_design](reddit.com/r/web_design)
+javascript,flj2eq9,t1_fl3q441,1585196897.0,Excellent work my friend. Mind giving mine a look? www.jaybit.ca
+webdev,flctdxt,t3_fntrpf,1585045757.0,"FRIEND. WALK AWAY.
+
+Companies do this amount of work for very large amounts of money. Sometimes in this field, things that seem too good to be true, really are."
+webdev,flct22u,t3_fnw8lx,1585045345.0,If youre just doing this for forms dont bother with a backend and just use a service like mailchimp.
+webdev,flcspb0,t3_fo2ibz,1585044897.0,Research Node.js & RESTful Json API's. There is massive amounts of info on this subject on Google.
+webdev,flcsenj,t3_fo1zl0,1585044513.0,"Okay so i'm going to try and address some of your major questions (excuse me if i come across as rude or ""matter-of-fact"", it's very late for me):
+
+&#x200B;
+
+>Q: ""*How are people moving away from flash?*""
+
+A: It's quite simple. The features included in **CSS** (keyframe animations) and **JavaScript**(scripting) far surpass what Flash could offer, albeit with maybe some more work. Modern web design has changed alot since [homestarrunner.com](https://homestarrunner.com/) could have been considered a valid web application/game/whatever it is. No offense, it's just that things change and tools change and die. **TL;DR: There are newer, faster, & better options**
+
+&#x200B;
+
+>Q: ""*How do people accomplish the things Flash did? / Why not Flash?*""
+
+A: There are many [tools](https://animista.net/) and [libraries](https://threejs.org/) dedicated to what's (I believe unofficially) called **Web 3.0**. A quick read of [**this article**](https://blockgeeks.com/guides/web-3-0/) can shed some light into the recent change in paradigm. You may have noticed that there has been a large shift towards 3D graphics in websites in recent years, and people expect extremely well polished websites when it comes to web applications and digital multimedia. Here are some examples: [\#1](https://sagmeisterwalsh.com/), [\#2](https://garden-eight.com/), [\#3](http://www.playmapscube.com/). These beautiful sites just couldn't be made with Flash. **TL;DR: 3rd party tools & coding / Because Flash is simply obsolete**
+
+&#x200B;
+
+>Q: ""*How do people do animations, artwork, keyframes, scenes without tools?*""
+
+A: They develop a deeper understanding of the tools they are given, and use other people's tools ([libraries](https://threejs.org/) etc.) for things they don't need to (necessarily) understand. They don't need to accomplish this without tools(Flash), it's just that there are new tools at hand, and they have evolved from the necessities of [Web 3.0](https://blockgeeks.com/guides/web-3-0/). I don't do much web animation so i can't really provide further insight on the issue. **TL;DR: Education, passion, and creativity**
+
+&#x200B;
+
+I hope this clarifies some things.
+
+Cheers!"
+webdev,flcn4hb,t1_flcmqts,1585037727.0,Good to hear. Best of luck to you and your back!
+mentalillness,flcn2k9,t1_flcmzs3,1585037661.0,"This sounds like manic delusion and she should most likely be on medication.
+
+Take care of yourself and don’t stress too much. I’m here to talk if ou need to direct message me."
+mentalillness,flcmxq5,t3_fnwmkd,1585037491.0,"OP, this could be a sign of schizophrenia. You should seek online resources and call a doctor ASAP."
+mentalillness,flcmt8c,t3_fo0wam,1585037334.0,"This sounds like a potential manic (bipolar) state. She is probably panicking and that can easily send people into severe highs and lows.
+
+Not to worry you, but if you’re concerned, you should sit down and talk with her and potentially look online for some resources for you to both understand what might be going on.
+
+I can’t speak for most, but discovering why I was acting the way I was, was my first step towards getting better. 
+
+Please talk with her, OP.
+
+Edit: talking might not be easy so do some research on what Bipolar disorder is if you haven’t already."
+mentalillness,flcmlop,t1_flcld33,1585037068.0,"Sativa personally is almost a guaranteed panic attack, and I’m a very regular user so tolerance isn’t the issue.
+
+Something about it that makes the mind race... idk"
+mentalillness,flcmjyp,t1_flccxvo,1585037008.0,"Not going to lie this almost sounds like minor PTSD caused by a past bad trip (possibly even from some bad drugs). This can happen with hallucinogenic substances more often than you’d think (weed is one of them!). You should ask a doctor about it if it’s really bothering you, but you might also be able to get over it with time and effort. Not really sure NGL.
+
+Good luck my friend, and stay away from the skunk stores!"
+bipolar,flcm92x,t1_fbpwa2m,1585036628.0,I’m with you on that my friend. I also have rapid cycling and this sub has helped me learn a lot about it.
+Agoraphobia,flcm2n6,t3_flehqx,1585036404.0,I’m typically only able to leave the house as the sun starts setting. I’m much more comfortable in the dark and I assume it’s because my mind has “learned” there are much less “threats” out at night as apposed to day. It’s a Very strange thing that you might not notice until your friends ask you why they never get to see you until it’s dark outside.
+Agoraphobia,flclw6d,t1_flbjd2c,1585036182.0,Please share your thoughts and feelings friend we are all here to listen and provide support. Direct message me if that’s more comfortable for you.
+Agoraphobia,flcltxq,t3_fnmslo,1585036102.0,Everyone faces their own battles in life and it’s not up to others to pass judgement. Life is all about the perspective you’re seeing it through... so make sure yours is compassionate and understanding to people of all walks of life.
+gaming,flckozd,t3_fnz5sb,1585034715.0,Please make it scary (think Limbo and Inside)
+webdev,flc8jkf,t1_flc8iki,1585022756.0,Ok boomer
+webdev,flc8e89,t1_flc83ek,1585022638.0,Quit being a douche
+webdev,flc8ceg,t1_flc3jam,1585022598.0,Why couldn’t you just link it without being an asshat? I’m sorry about whatever’s going in your life that makes you feel like snapping on aspiring developers. Just have some restraint dude. u/seanson814
+keming,fl5xsoq,t3_fmgx5z,1584848540.0,I just hate when I see this.
+webdev,fl5vdny,t3_fmsef1,1584846701.0,Heroku
+webdev,fl5syni,t3_fmp1o5,1584844905.0,Bootstrap Studio is my favourite.
+Minecraft,fl5s4fq,t3_fmkp8s,1584844291.0,Should do it with a sticky piston and observer so it only fires when you use it :)
+Frontend,fl5s0x7,t1_fl5ls62,1584844222.0,"I agree but I prefer CodeWars. They give you a dynamic banner to show your rank and this has helped me with technical interviews before. most high level devs either recognize the importance of or use CodeWars themselves.
+
+Also, its great team building challenge that helps your dev team push themselves to be quick and effective problem solvers."
+webdev,fl5rk84,t3_fmel4i,1584843890.0,Incredible work my friend! Please share the repo on github so we can see how you did this :)
+webdev,fl3hk8f,t1_fkxiozv,1584784288.0,Share it and let me critique it :)
+webdev,fl3hj0l,t1_fl3hh2g,1584784239.0,"Of course you can! Message me on here or email me and I can give you more in depth advice (it’s really late for me right now)
+
+Good luck!"
+webdev,fl3e7g7,t1_fl3bt61,1584779775.0,"You should not justify text in your project details. Very Short blurbs can be centered but most text should be left aligned. Also, the main heading is too large for mobile screens and splits into two lines. I like it and keep it up.
+
+Here’s mine: www.jaybit.ca"
+webdev,fl0e5y1,t3_flpodx,1584703241.0,Font awesome or material icons
+webdev,fl0e5e9,t3_flq5fx,1584703225.0,Try twitters bootstrap. It’s a great library of pre built UI.
+webdev,fl0e1fb,t3_flqzq2,1584703102.0,"For example, copy some text from a website and paste it into a work doc with Ctrl + V. Now paste the same thing with Ctrl + Shift + V and you’ll see what he means by “plain text”. You need to strip it down to its very base before you add it to the clipboard. Also, you’ll have to make sure images and attachments are properly handles as well."
+webdev,fl0budh,t1_fkzdqfb,1584700537.0,"I coded it by hand, but you can use programs like bootstrap studio to accomplish similar things (I’m not affiliated with them)"
+webdev,fkww4tw,t3_fl6mzk,1584608472.0,"Here’s an example of a portfolio created without any of this and hosted on github pages for free:
+
+www.jaybit.ca
+
+PS it’s mine :)"
+userexperience,fkwgtji,t1_fkw79p6,1584592087.0,"Haha join the club. After you left your comment, I had a realization that all “white space” doesn’t need to be white. Again, thanks for the input it was a great learning experience."
+userexperience,fkvoxwc,t1_fkhxn71,1584573680.0,"Hey friend. Check out what I added (thanks to your great feedback!)
+
+www.jaybit.ca"
+web_design,fka9v4v,t1_fka9416,1583998270.0,Or are not allowed to! Some systems just aren't meant to be updated. Lots of govt. agencies stick to one particular version of windows and then patch in the security updates when absolutely necessary.
+web_design,fka9rxk,t1_fka7zfw,1583998162.0,"Some companies also strictly enforce NOT updating programs (such as IE) to avoid massive IT headaches. Although I hate old browsers, it's important to not pull the carpet out from underneath websites, companies, etc. by removing old code. That's why it gets depreciated :)"
+web_design,fka5kxr,t1_fka3g13,1583993347.0,You compile HTML/CSS...?
+webdev,fka58uq,t1_fka1ksn,1583992987.0,"I'm glad you took it the right way and understand.
+
+Now that i think about it more, how do you feel about using something like Dropbox's API?
+
+That would be an example of a pre-built solution that you can code into your preferred interface in any way you choose. This way you can avoid the high bandwidth and storage restrictions of AWS etc., while still providing the best experience for your users. Additionally, you could pitch the fact that everything is ""built on dropbox"" (or something similar) and therefore eligible, fast, and socially proven.
+
+Let me know what you think, and message me directly if you would like some more help on the issue!
+
+Edit: here are Dropbox's developer resources:  [https://www.dropbox.com/developers](https://www.dropbox.com/developers)"
+webdev,fka138e,t3_fh736m,1583988934.0,My first name is James and my last initial is B. I chose Jaybit on a whim and have stuck with it since! Good luck :)
+webdev,fka10ns,t1_fk9ipyp,1583988872.0,"Im sure a mod of r/webdev knows about Lighthouse and Dev tools, my friend..."
+webdev,fka0w6v,t3_fhaxz9,1583988766.0,"I hate leaving advice when its like this but here goes...
+
+You're reinventing the wheel. I really suggest you find a third party solution to this instead of creating your own. Also, if youre going to be hosting files, your users are going to expect fast and reliable downloads, so you're looking at having a high-bandwith, high storage system. 
+
+If yure serious about doing this i suggest looking into AWS and virtual instances. With these tools you only pay for what you use as opposed to a monthly fee. If your host sees tons of bandwith its usually within their right to terminate the server, resulting in a down website. This works the other way too though, because if you pay as you go but somebody spam uploads hundreds of files, it could easily cost you upwards of thousands of dollars in a day.
+
+TL;DR: Find a solution that isn't building your own from the ground up, sorry man!"
+webdev,fka0mbu,t1_fka0hag,1583988536.0,After looking deeper it seems as though its using webpack.js. Perhaps you're missing the files this utility is loading. Try searching through dev tools for what youre missing and try to download them manually.
+webdev,fka0hag,t3_fh7esj,1583988419.0,"Seems like your copy of the site is looking for resources that aren't there. Try going into dev tools and let us know what the console says (it should throw errors). Also, if it runs on wordpress or the like, you won't be able to simply ""duplicate"" the website as back end parts are hidden from the end user and therefore wont be downloaded."
+web_design,fka03l5,t3_fhadke,1583988110.0,"I'm with you here. Seems like some people just like complaining. Of course there are alternatives, but the point is to create ONE CONSISTENT LIBRARY for quickly creating UI for websites and apps. Sure, you could spend countless hours designing your own grid system in CSS, or you can just use pre build rows and columns from bootstrap classes. Doesn't make sense to me, and like i said, people just love complaining."
+AskReddit,fk9zoke,t1_fk9xzvh,1583987767.0,"Excellent response, thank you very much!"
+userexperience,fk9ybhq,t3_fbq2zu,1583986686.0," [jaybit.ca](http://jaybit.ca/) 
+
+Here is my web design portfolio. Still have to add more of my work but i just finisged this last night.
+
+Hand coded with Html5, jQuery, and Twitter's Bootstrap (with Material Design theme)
+
+Please let me know your thoughts! :)"
+userexperience,fk5p9sc,t1_fk5l1ei,1583885187.0,"My pleasure. I hope you keep working on your craft, I really did enjoy going through your website. Cheers friend :)
+
+Also: I use [fittext.js](http://fittextjs.com) and a tool that shows me previews of my site on various different devices, although I forget what it’s called. Last thing you want is your beautiful design to be mangled by something so simple as a different screen haha"
+userexperience,fk5ko36,t1_fk3bt88,1583882472.0,"Contact info, location, what you’re looking for (freelance work, a job, etc).  That kind of info. Don’t rely too much on either text or visuals - you need a happy medium.
+
+When I say call to action I mean a meaningful interaction from the user: like perhaps a call button, social links, contact info, forms, etc. The goal is to not just drive traffic to the website but to have that traffic do something meaningful before they leave. Just some food for thought :)"
+userexperience,fk5jmkv,t1_fk5boep,1583881858.0,Good call! I find the contact info should typically be the most important part of your portfolio. It doesn’t matter what you show them if they don’t know what to do after :)
+userexperience,fk30o6z,t1_fk0tabj,1583814045.0,My only concern in this is that you’re passing a password through plain text. Big no no
+userexperience,fk30hht,t1_fk0341v,1583813893.0,Amazing work. But where’s the contact info? Cheers!
+userexperience,fk30g1n,t1_fk039i9,1583813860.0,Beautiful! It needs more information/call to action though. Great job!
+userexperience,fk30eb6,t1_fk1t70l,1583813820.0,"Hello friend. I looked at it for about 2 seconds before being overwhelmed by text. Consider spicing up the delivery of information, and only show what is truly important to the user. Keep up the good work"
+userexperience,fk30bja,t1_fk1vjxj,1583813759.0,Hey man! Love the site and design however there are a lot of typography issues on smaller screens. Consider using a “fit text” library for JavaScript to dynamically create the best size for you. Overall great work and keep it up!
+gaming,fk2z2ht,t3_fg2bxe,1583812767.0,Mail it back like the good old days ;)
+dirtgame,fjxuogd,t3_ffdeqf,1583683761.0,"It’s that small part *there* that’s bugging you, right?"
+web_design,fhjzyoi,t3_f3nxjj,1581661144.0,"I always resize the photo for the size it’s going to be shown at. Once I’m happy with the sizes I throw all my images through online image compressors using a “lossless” format (debatable for sure) and then use them in my projects.
+
+In my opinion, your best bet it exporting it at the proper size with maximum quality, then worry about optimizing it after.
+
+Best of luck friend!"

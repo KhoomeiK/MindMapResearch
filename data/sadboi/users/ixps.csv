@@ -1,0 +1,170 @@
+coolguides,fr2gpme,t1_fr0nfz1,1589836982.0,"The masters degree covers preserving and accessing the records, which are stored on different types of media. Online catalogs are cool, but they're very recent, and a lot of resources haven't been digitized yet. Plenty of records have been scanned to microfilm, or are sensitive to light or touch, or need a special (outdated) type of film reader. Not only do librarians have to be able to find records (which becomes more complicated with more records), but they also need to be able to use the equipment to retrieve them without damaging the records themselves."
+ImaginaryWesteros,fqxlslt,t1_fqwwtfe,1589734277.0,Dany's attraction to Daario is like a teen's attraction to a celebrity rock star. He's over-the-top and bad for a long-term relationship by design.
+trippinthroughtime,fqvzrpe,t1_fqvyuto,1589689009.0,"Yes, and he knew the type of tribalism a partisan system would create in the country and put all his might into creating it."
+todayilearned,fqk6205,t1_fqjl6r3,1589420846.0,"Parades to celebrate winning a major battle were called ""triumphs"" for a long time. How else were the people supposed to know they lost or they won unless the victors made a big show of it?"
+WatchPeopleDieInside,fqhab9q,t1_fqh8ac3,1589372423.0,"I mean, this is why companies don't like it when their employees talk about salaries.
+
+Here's your share of 1 cracker! Be glad it isn't no crackers :) Your sibling is getting way more crackers, even though they didn't do any guesswork. They're kinda in on it because I've known them longer. Don't be upset, okay?"
+Database,fqd3xhp,t1_fqco9dr,1589278895.0,"In MySQL, the table being referenced needs to exist before a foreign key can reference it. In this case it's referencing itself, which means that it would be referencing a table that hasn't been committed yet.
+
+Also, the column names beed to be defined here, because the foreign key has a different column name than the column it's referencing."
+Database,fqcgjx8,t3_gi2azz,1589257665.0,"This is a textbook boxcar or traincar relationship. The foreign key references itself, but you need to add the foreign key with an ALTER TABLE statement after the table is created."
+PixelArt,fq8t1dm,t3_ghg7k0,1589174704.0,This is gorgeous. I love the UI design and the aesthetic in general!
+css,fpqoxcg,t1_fpqlcn0,1588828121.0,"Codepen lets you see the HTML/CSS/JS live while you edit it. It's like a JSFiddle but with an account attached.
+
+Just looking over your clothing.html.php page, starting at line 74 to 90, you have a large PHP block that echos a lot of HTML. Without having a live demo to look at, I'm guessing this is at least part of the issue. You can actually close the PHP, write the HTML like normal, and then have a new PHP tag afterward to close the loop. E.g:
+
+    <?php
+      while ($row = mysqli_fetch_row($result)) {
+      /* Your PHP stuff */
+    ?> <!-- close the PHP tag -->
+    
+    <!-- Your HTML stuff -->
+    
+    <?php 
+      /* close the PHP while loop */
+      } mysqli_close($connection);
+    ?>
+
+Again, I can't really give a better answer without fiddling with a live demo, but looks like your PHP is interfering with your HTML there."
+lotrmemes,fpikbpw,t3_gdnd55,1588642691.0,That's a pretty good cutout for only 20 minutes of work.
+logodesign,fpfpl9g,t1_fpffy5z,1588578928.0,"The sad thing about the ""just Google it"" mentality is that it stifles discussion. Someone on here could probably provide a way better (simpler, comprehensive, funny, etc.) explanation than the first 3 results from Google."
+swoleacceptance,fpeofag,t1_fpehifi,1588551528.0,"> The heaviest weight we lift is not the iron of Broden's temple, but the weight within ourselves.
+
+Wheymen! Truer words hath never been spoken. The battle within is the unending battle with Broki. These words will be with me as I push for gains!"
+WatchPeopleDieInside,fp3imoj,t1_fp3fw5w,1588279953.0,"Denial, anger, bargaining, depression, acceptance. They're all there.
+
+Idk if you've ever played Majora's Mask, but the five main areas in the game represent these in order. At least, that's how I remember them."
+estoration,foyvr11,t1_foysho0,1588180073.0,Are there any better photos of the kids' faces? My schedule is tight this week but I could give it a go once my finals are over (next week) and with more details to go on.
+TrollXChromosomes,fovf6op,t1_fov90ky,1588100290.0,"I'm kinda leery about answering that, because you're using a lot of language that men use when they pretend to be women on this sub.
+
+I didn't have a lot of autonomy back then, and decisions around my pregnancies weren't mine. If I could have, I would have avoided them altogether. But even if I could turn back the clocks, I don't think I would have had enough power to prevent the kids from happening again.
+
+Being childfree isn't selfish. Your life is your own. You owe it to no one else - not to your spouse, current or future, or to your parents, or to any hypothetical kids you may or may not have. Have kids, or don't. If you're not ready, then don't rush it."
+TrollXChromosomes,fov8a4r,t1_fov6jj2,1588097006.0,"I have kids. I never wanted to have kids, but I have them anyway. 
+
+I didn't change. I adapted, sure. I'm nice to them and tell them I love them. I do love them most of the time. My kids are pretty cool people in their own right. I try to provide for them to the best of my ability. But I'm still that childfree wannabe on the inside.
+
+They're not a source of happiness for me, or give me a feeling of purpose, or even the source of identity. I know that some women feel that children give them those things, and that's cool for them, but I am not one of them. I have to pretend like I am, though.
+
+One time I said the cliche ""it's different when they're your own"" line to my childfree friend, because holy shit that has been said to me so many times. It was a reflex. Like a parrot, I just repeated what I heard. It's so wrong, and I later apologized for saying it."
+Breath_of_the_Wild,forrktg,t1_foq6apz,1588017276.0,"No, it's Bob Frost."
+zelda,fopnfud,t1_fopkz0m,1587966292.0,"Skyward Sword's soundtrack is objectively really, really good. That Ballad of the Goddess being Zelda's Lullaby gave me legit tears the first time I heard it. Most of the tracks on it are solid, too. SS had several new melodies to offer which made the whole adventure feel fresh and new, while still featuring callbacks to Kondo's older melodies."
+Wordpress,foomt8t,t1_fonrxig,1587942128.0,"Styling is CSS. If you can't edit your stylesheet itself, then you can hardcode the style in the HTML tag. What exactly are you trying to mimic? The headers? Fonts? Positioning? Colors?"
+classics,fomt8yo,t1_fol1tv7,1587903044.0,Before Percy it was Harry Potter.
+shakespeare,fomkepn,t1_folez6y,1587893344.0,"There are 9? slivers that are shown without a label. Those are probably deaths that only happen once. One of those is likely hers, and I guess Ophelia's death by drowning is unique."
+zelda,foldo8v,t1_foldcgh,1587860012.0,She's still active on Twitter and posts comics with her OC characters every now and again. Mostly she just posts jokes though.
+Knoxville,fogrhpf,t1_fog0mw2,1587756147.0,"Thanks for doing this. I've also been watching the numbers but I haven't been keeping track of them. Something's going on with the way they're testing or reporting the numbers, and it's hard to say what. I know the tests themselves are in short supply so it's hard to really say what it looks like here."
+CoronavirusMemes,foehyar,t1_foebuch,1587704242.0,Or they're trying to make it obvious.
+StardewMemes,fodugit,t1_fod6ls7,1587690339.0,"In my first save I made it to year 5 without a single one. In my second, I found one in my first year and none since then."
+LiteratureMemes,foazion,t3_g6bj3z,1587654391.0,"You're trying to make a point, but that's not a run-on sentence. It's just an awkwardly long sentence."
+pics,foaa3o5,t3_g68b2w,1587642933.0,How did you get this effect? I want to try recreating it.
+TennesseePolitics,fo8s5ct,t1_fo8r49c,1587602712.0,"Restaurants and other live entertainment, I would imagine. The types of businesses that can't be done remotely."
+worldnews,fo8pnia,t1_fo880yp,1587601282.0,Happy in the sense that it was horrifying.
+DesignPorn,fo7j0g4,t1_fo7bhkv,1587579156.0,"Serifs are the little lines on the edges of letters. For instance, the letter ""T"" will some times have little lines at the end of its ""arms"" and as little ""feet"". ""Sans"" means ""without"", so a sans-serif font is a font without those little lines. [Here's an example.](https://portfolios.trincoll.edu/blog/fonts/) Times New Roman is a common serif font, while Arial is a common sans-serif font."
+gamedesign,fo581o4,t3_g5olk7,1587519528.0,A lot of 2D games use tilesets for their images. You can use any program that draws images to draw out your tileset. GIFs can be done in GIMP or PS but most of your tiles will be static. Look into pixel art and other game assets for an idea of how they lay out their images.
+DIY,fo3xfmc,t1_fo3o2ky,1587494583.0,I agree. Those other comments are too snobby. That's a beautiful view.
+Frugal,fo1fpi9,t1_fo1fhx5,1587432293.0,You can just use two plates as though they were a press instead.
+StallmanWasRight,fnubj6e,t1_fnsxh6w,1587258537.0,"Getting an older, less efficient machine can have a better impact than getting a newer, more efficient machine. It takes a long time for new machine to meet and then surpass their manufacturing footprint, and they may not even survive that long."
+StallmanWasRight,fnub6vt,t1_fnu8828,1587258337.0,"If they don't, then the dishwasher will probably connect to the closest unsecured wifi available."
+interestingasfuck,fnpramz,t3_g313nz,1587150554.0,"Sol recently had a flare that was the size of Jupiter, and I had a hard time envisioning it until I saw this model of our little solar system."
+LiteratureMemes,fnl2wwf,t3_g28kx4,1587045895.0,Accidentally laughed so hard that my SO knew I wasn't working.
+startpages,fngxxcm,t3_g1gwix,1586948997.0,"I like the idea of using tabs to categorize your content, and the icons are fun. I think it could be improved by styling the active tab and inactive tabs to look different, so it's obvious which one is active. Maybe change the inactive tab colors and remove the bottom border of the active tab?"
+identifythisfont,fng54nc,t1_fne92pj,1586922552.0,This is it. OP's post and Digital Strip are almost identical. The only differences I see are that OP's kerning is tighter and the I has serifs.
+mysql,fna1kfa,t1_fn8yg30,1586789234.0,"Yes. The variableName in SQL is preceded by a colon (so 'WHERE whatever = :variableName'). 
+
+Others mentioned that you need to be careful with prepared statements, and that's the truth. The problem with allowing a user to enter variable information is that they can input their own SQL (aka SQL injection) and manipulate your database in ways you didn't expect, like writing a statement to grant user rights or deleting a row or table.
+
+Ways to protect your DB from it is to limit how your user can input their data and scrub the variable after it leaves the user to be processed by the server... like having the PHP ensure that the value is an integer and only an integer, or forcing strings to be a specific length and format, and when its not to either set it to a default variable or give the user an error message. You can also add a layer of obscurity to your DB by querying a stored procedure or function instead of the tables themselves."
+mysql,fn8sr7s,t3_g0an52,1586749292.0,"Yes, with prepared statements. See here: https://www.php.net/manual/en/pdo.prepared-statements.php
+
+In the first code box, the SQL query is written to a statement variable. Then, the parameters are bound to the PHP variables. The next lines define the variables, but that can happen before the previous statements. Lastly, the statement is executed on the server."
+FindTheSniper,fn7k0ci,t3_fzyczj,1586721860.0,">!Edge/horizon of the moon, 1:00!<"
+webdev,fn5v6o4,t3_fzru0g,1586677024.0,"Flexbox and @media screen queries. Flexbox is excellent at centering elements both horizontally and vertically. Besides that, adjust padding and margins based off of percentages or vh/vw. 
+
+To keep the design responsive, you need to avoid using pixel measurments for height/width for your major content-holding elements. Having a min- or max- in pixels works sometimes depending on how well it works with the design."
+css,fn5c6m5,t3_fz6y9n,1586661084.0,This is an incredible resource. Thanks for sharing
+identifythisfont,fn4l6yj,t1_fn4bi1q,1586643652.0,"It's almost identical, but Roslindale's M is wider and the O is a little different than what OP posted."
+StardewValley,fn3yn35,t1_fn3wr0a,1586630506.0,"You can toggle ""Controller Style Menus"" in the options menu, which let you use the pointer like a mouse."
+lotr,fn3cdwv,t1_fn2u8n6,1586617795.0,Right? Billy's pulling off Stannis-in-a-Suit better than Stephan Dillane.
+TikTokCringe,fn2pmtu,t1_fn2ok0m,1586598201.0,It's accurate to the commercial.
+TwoXChromosomes,fn2nu07,t3_fyyxub,1586596102.0,"[Sexual coercion is sexual assault.](https://www.womenshealth.gov/relationships-and-safety/other-types/sexual-coercion) Please read under ""What are some examples of sexual coercion?"" and see that they match what you described.
+
+Please don't feel ashamed. It is shameful to commit assault, not be assaulted. It is shameful that those men had no control over themselves and took it out on you. The shame is not yours. You have nothing to be ashamed of.
+
+Assault doesn't just affect the person assaulted - it hurts the people close to them, too. It's hard for people to accept the truth that someone they're close to has been assaulted. They go through their own trauma dealing with that reality and are called [secondary survivors](https://sexualassault.utah.edu/secondary-survivors/).
+
+Secondary survivors deal with assault in different ways, some more badly than others. Your boyfriend reacted to the trauma (of knowing you were assaulted) negatively as a defense to himself. You're hurting, you're trying to heal, and in healing you're leaning on your boyfriend, and he didn't know how to respond. That's why he reacted the way he did. It hurts. Hopefully those articles will help the two of you talk through it and heal together."
+lotrmemes,fn1zo0f,t1_fn1y7l6,1586574055.0,"No, breaking your toe fucking hurts. Definitely scream and buckle worthy. If you've ever stubbed your toe really hard, imagine that but 10x worse.
+
+Source: fractured toe on wooden furniture. It healed wrong and still hurts."
+Open_Access_tracking,fn1xuyy,t3_fyktvt,1586572754.0,"Wow, 65GB of just metadata. Imagine how big it would be if it contained the data, too"
+lotrmemes,fn1uvkn,t1_fn1udic,1586570668.0,Hamfast is Sam's dad's name. It took 4 sons to honor his own dad.
+Knoxville,fmp67hw,t3_fwmdqg,1586275187.0,"When I used to work at the UT library in the summer, it was ghostly quiet, but it certainly wasn't that quiet. I appreciate you uploading this."
+mysql,fmfifw2,t1_fmea7z6,1586027920.0,You're correct. I'll go back and fix my mistake. Thanks for pointing it out.
+mysql,fmdl3zb,t3_ful4l3,1585970626.0,"Reverse, False = 0 and True = 1. MySQL does not have internal boolean data type. It uses the smallest integer data type, which is Tinyint. Tinyint can accept 255 unsigned numbers, but a boolean would be Tinyint(1). Both tinyint and bool/boolean take a full byte of storage.
+
+~~Tinyint(1) would accept only 0 or 1,~~ The number inside the parenthesis of Tinyint influence how many leading zeroes it prints zerofill and the like. If your goal is to use it like a boolean then you should use Bit instead. One Bit will take up a full byte of storage, but a byte can hold up to eight Bit variables."
+gamedevscreens,fmdfzqv,t3_fu8q92,1585966857.0,"Clean, has a great feel, and works as it should. I got about as far as I usually do in Solitaire which is about 3 aces and a few 2s. Nice work!"
+Doesthisexist,fm6vzxg,t1_fm6rw23,1585804874.0,"Try adjusting the volumes of each speaker in the advanced settings, then. The front speakers output voices, so turn that up, and the side and rear speakers output music and other loud sound effects, so turn those down"
+Doesthisexist,fm6rqzo,t1_fm4a6n2,1585801407.0,Try setting your TV's audio settings from Surround to Stereo or from Stereo to Mono. It's trying to split the sounds into speakers you may not have so it isn't balancing the volume correctly.
+EverythingScience,fm6fqly,t1_fm6b606,1585793057.0,"The nucleus is the storehouse for the DNA, often called the ""brains"" of the cell. Mitochondria are the ""powerhouses."""
+space,fm53x26,t1_fm4icpy,1585765877.0,They got me. I have been April fooled.
+Coronavirus,flw811n,t1_flw5rlk,1585542182.0,"In an ideal world, automation would make lives better and easier for everyone, and not just for the people who owned the robots.
+
+I feel that if a job is replaced by automation, then the business should pay more in taxes, which can then be distributed to the people who lost their job or will never get a job because of that robot's existance. 
+
+A lot of people would make incredible things if they weren't so concerned with surviving and living paycheck to paycheck all the time."
+ZeldaBotW,flvsgtp,t3_frenln,1585531051.0,"You could continue doing what you're doing, but you'll end up wasting a lot of firewood that way. There's an NPC outside of the Dueling Peaks stable who will tell you if the next moon will be a blood moon. You can camp at the cooking pot there and check with him in the morning. If he says there will be a blood moon, warp to Satori Mountain, glide over to the spot, and just wait for the blood moon to come up.
+
+Personally I ran around doing all the other things there are to do, and just paid attention to the moon each night. If you notice it before \~9ish then that's plenty of time to make it before midnight."
+Kentucky,fluph7f,t1_flup9wu,1585507322.0,I've probably just been overcomplicating things then. Thanks!
+ofcoursethatsathing,fluna2j,t1_flsy6wv,1585506048.0,"This is a good rule. The one exception for us is a coffee pot, because we use it every day"
+Kentucky,fluhbac,t1_flu02n6,1585502594.0,"Just two 9""x7"" rectangles sewn together? Are you using any wiring for the nose? I've been following a pattern I found online with a pocket for a filter, and it takes too much time for me without a machine so I'm looking for something better. Your mask looks great and if it's easier than I want to give it a try."
+Tennessee,flrj82i,t1_flrdek1,1585421325.0,"Yeah, it would help a lot. Though, I think that 20-29-year-olds also hold a lot of public-facing jobs that are necessary right now, like MAs, CNAs, and store clerks. That probably has influenced the infection rate of that age group at least a little bit."
+TrollXChromosomes,fll76yo,t1_fll106w,1585254891.0,This is very new to me but very interesting. Do you know where I can read more about this?
+woodworking,fldmcul,t3_fo75h1,1585067413.0,Do they secure together somehow? I would worry about it falling. Still a really cool concept.
+ImaginaryWesteros,flbpfy3,t3_fnmboo,1585009619.0,Vibing with 1980s fantasy book covers.
+StardewMemes,fl3rtu0,t1_fl2v4qz,1584796310.0,"Caroline is supposed to be clueless about what Abigail is up to. Abby has the most diverse schedule of all of them, but Caroline calls her a homebody. Until 1.4 Caroline's schedule was really repetitive. Caroline also comments on Abby's dyed hair, but she has green hair herself, >!but that could be the witch's fault!<."
+Knoxville,fl2or78,t1_fl2jv1m,1584756119.0,They also recently had a temp close for an emergency repair. Water was leaking into the bowling alley downstairs. I guess corporate didn't like having two emergencies so close together.
+dadjokes,fl2ohd2,t3_flwf11,1584755924.0,"Didn't take long to cobble this one together, did it?"
+miraculousladybug,fkw2xmf,t1_fkvvikb,1584582257.0,"Fwiw = ""for what it's worth."" And Marinette is definitely 100x worse, no disagreement there. But Adrien's phone is loooooaded with candid shots of Ladybug. She told him no, that her heart is with someone else, and he still goes after her. Didn't miss a beat. ""I love her and some day she'll come around to love me too if I persist"" is not a good way to be."
+miraculousladybug,fkvut40,t3_fkux8f,1584577170.0,"Adrien's is creepy too fwiw. We just don't see it as often. Obsessing over a super hero is normal, but obsessing over your coworker is not."
+CoronavirusMemes,fktqorv,t1_fksn36n,1584531388.0,And babies.
+medical,fkt2z18,t3_fkaoig,1584504794.0,"You *need* a medmal attorney. They'll help you draft your letter, go over your evidence with you, and represent your interests. I also think you should reconsider your stance on suing the office that botched your surgery."
+Knoxville,fksap7p,t1_fks9ft2,1584485872.0,"Thanks, I hope so too."
+Knoxville,fks9cu2,t1_fks7atz,1584485053.0,"You're not wrong. The virus lives for 3 hours in the air, too. They're at risk just by being in public.
+
+If the restaurant doesn't close there's a huge chance that our whole family will get sick."
+Knoxville,fkrz33g,t3_fkb4ie,1584478907.0,"Currently texting my SO, who is at work at a restaurant. Literally no one is eating there. They staff is playing cards, and the restaurant will probably close early because the cost of labor will exceed sales. Again.
+
+Knoxville as a whole is doing a good job on this. But greedy business owners gonna greed, I guess."
+FindTheSniper,fkqrkqx,t1_fkqbevd,1584453924.0,Baron caterpillar
+Doesthisexist,fkpub9h,t1_fkp89b9,1584419614.0,"Staples, Kinkos, OfficeMax, I think FedEx, maybe UPS all have printing services for print jobs. I think you can email it or go to a store kiosk with the document on a flash drive."
+Knoxville,fkkxyqk,t1_fkkvp4d,1584294300.0,That's a real pity. Merita used to be the best.
+Knoxville,fkhdklb,t1_fkhabvi,1584196159.0,"This is honestly why service workers need a union.
+
+I have to risk getting myself and my family sick because there is 0 safety net for us during a pandemic. No health insurance, no sick days, no vacation time, but a looooot of mandatory exposure to the public. And if something prevents customers from walking in and tipping -- like a pandamic, or bleeding money by panic buying -- then the paycheck is gone, too."
+digitalnomad,fkfgfnl,t1_fkf8f1e,1584133840.0,"I did a report in school once about public transportation, and found that 2/3 of all American cities have no public transport option whatsoever. It's depressing."
+musichoarder,fjzk1mf,t3_ff7gtb,1583721567.0,"Classical is hard. The only way I stay sane about it is by organizing by the symphony that recorded it as though it were an independent album.
+
+E.g. I know that Vivaldi wrote Four Seasons, but the London Symphony Orchestra and the Columbus State University Symphony have different approaches to performing it. I like both so I have both, and they can be found in their respective album folders. I don't lump all of my Vivaldis together because the performances are distinct. Vivaldi is credited in the music file's metadata under one of the artist tags.
+
+It's the same reason why I keep song covers separate from the original song they're covering. The performer makes it distinct enough to be credited in their own right, or at least to be stored separately from each other."
+FindTheSniper,fjsj21s,t1_fjs6y8q,1583597501.0,The dog's name is Birdie from the crosspost.
+EverythingScience,fjphb07,t1_fjp9ymp,1583550794.0,"In a lot of areas in America, that's the current reality."
+phonewallpapers,fjkh6r6,t1_fjkek63,1583426766.0,"Made by LennSan, originally posted in r/PixelArt approx. 5 years ago: [https://www.reddit.com/r/PixelArt/comments/2x83eg/oc\_cc\_made\_this\_over\_the\_course\_of\_last\_week\_im/](https://www.reddit.com/r/PixelArt/comments/2x83eg/oc_cc_made_this_over_the_course_of_last_week_im/) . The post has other resolutions, too.
+
+If you liked this, you will probably like [Jessica Smith's painting](https://www.reddit.com/r/zelda/comments/2vpreh/i_wanted_to_paint_something_for_majoras_mask/) that LennSan based this pixel painting off of."
+darkwingsdankmemes,fjdvyem,t1_fjasq71,1583260309.0,"If Robb was a half-way decent king Edmure wouldn't have disobeyed orders. But he wasn't, and he did, and the real wrongdoing was on Robb."
+OldSchoolCool,fj88n2c,t1_fj722k8,1583107600.0,"OP forgot to credit the colorization artist. Jared Enos, aka Captain-Cliche. [Here is the original post from 4 years ago](https://www.reddit.com/r/ColorizedHistory/comments/33lyx4/bulldog_at_the_beach_coney_island_ca_19001910/)."
+OldSchoolCool,fj887sw,t1_fj856s3,1583107322.0,"It's possible, but this was colorized by Jared Enos aka u/Captain-Cliche about 4 years ago. [Here is the original post](https://www.reddit.com/r/ColorizedHistory/comments/33lyx4/bulldog_at_the_beach_coney_island_ca_19001910/) found in r/ColorizedHistory. The top comment shows more of his work."
+Breath_of_the_Wild,fj7n6zw,t1_fj7fl4d,1583094042.0,"If TP Link can have a crossbow training side game, BotW Link should have a side game where he starts up a restaurant."
+StardewMemes,fj56lfe,t3_fbku3c,1583025426.0,This is why the blue chicken is the superior chicken.
+StardewValley,fj3ns2p,t3_fbccyv,1582988850.0,"Flavor text, except the flavor is disgusting and turns you blue."
+Hobbit_Memes,fj0qyub,t3_favjs2,1582905942.0,"r/trippinthroughtime would like this, too."
+college,fivybb9,t3_fa3yal,1582770808.0,"Honestly? If I were you I'd drop the class and take it next semester with a different teacher. Your education is too important to waste on a teacher who doesn't teach, doesn't clearly state their expectations, and doesn't give feedback. Most college professors aren't like this at all. Please don't let this one bad apple get you so upset."
+StardewValley,finecij,t3_f8q7gg,1582561815.0,"Thank you for this! What font did you use for the numbers? I have the SV font, but not the numbers, and this looks really well made."
+migraine,fijqaza,t1_fiiofa6,1582459937.0,I also use this one and recommend it.
+StardewValley,fiirf5m,t1_figs2zl,1582425144.0,"I know right? It made me feel so bad, because he was just being rude to Gus and that's a no-go for me."
+Jokes,fifa66b,t3_f7ttsx,1582387573.0,r/AreTheStraightsOK

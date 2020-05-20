@@ -1,0 +1,462 @@
+cubase,fqt43tz,t1_fqt0jv5,1589629327.0,There's a plugin for it here (https://github.com/Andersama/obs-asio). It's just an add-on to enable obs to utilize the asio driver in cubase.
+cubase,fqjp19h,t1_fqiudyx,1589413115.0,"Ahh, I didn't realize you had elements.
+
+No worries, however. Vinyl should have a basic wind down function. It won't be as tweakable as others, but it could be a free alternative to mess with."
+cubase,fqiepyg,t3_gj2p8c,1589395009.0,"First off, from the stock plugins, I'd use the loopmash fx plugin, but I'd also download izotope vinyl. It's a free plugin from a great company."
+cubase,fqic0hu,t3_gj3c9h,1589393980.0,"Question: is the activity you're seeing (the spike in sound) on a midi or instrument channel, or the actual audio out? If it's either of the first two, then the spike just indicates that the plugin is receiving a midi signal, but it still might not be sending any audio.
+
+Open up your mixer (f3) and play it again to see if both the midi/instrument channels AND the corresponding audio out for that track are generating activity."
+cubase,fnyrimo,t3_g4p3zu,1587372933.0,"I'm assuming that you've seen [the comparisons of the different versions on the website](https://new.steinberg.net/cubase/compare-editions/), but don't know what would be worthwhile or not from the feature list. Here's my general take on the differences from looking at the table.
+
+The first thing to notice is the difference in number of tracks and plugins available. In my opinion, artist should fit your needs, as for general purpose home production, it's still vastly more than you would likely need or use.
+
+As far as features go, I absolutely love VariAudio and audio alignment, which are not included with Artist - but to be honest, that's about all I can say that would be useful for you in Pro. 
+
+I don't really know the extent of the projects you intend to do, but I'd assume that Artist should suffice for your needs. If you find, as you get better, that there's a quality of life feature in Pro you don't have, it's not a terrible process to upgrade, either. I'd probably say to get Artist and learn Cubase a bit, and down the line consider the upgrade if you need it."
+cubase,fnxix48,t1_fnxie8w,1587339581.0,"No worries! I've done that a few times, and spent way too much painful effort trying to figure out why I was going crazy. After making that mistake a few times, you learn to check for it lol.
+
+Have fun!"
+cubase,fnxhjor,t1_fnxgjy6,1587338764.0,"I also just noticed a couple other things. First off, I was a little confused until I noticed that your grid is set to 1000 ms. This means that the ruler at the top is set to measure time and not bars. This will make things difficult to measure musically, especially with musical mode. Change it to bars and beats to better visualise the change.
+
+Also, just a side note, but the sample you've loaded is marked at 1 bar of 87 bpm in the bottom zone editor, while in the project window, it's marked at 174 bpm (2x what it was detected as). If it's problematic, that's where'd you set the correct duration or bpm."
+cubase,fnxgjy6,t1_fnxg6gt,1587338173.0,"I see that musical mode is not selected on the event. Click on the drum event, and click musical mode on the info bar (next to algorithm, and directly under the tool selection).
+
+Edit: To elaborate on what musical mode does, it will snap the sample to the grid, and time stretch according to what it detects the bpm of the sample to be. In some cases, the bpm will be marked incorrectly, at which point you can open the sample in the bottom zone editor and place either the correct bpm or the duration of the sample (in bars and beats). This will allow it to snap correctly to the grid, independent of the tempo.
+
+If the tempo of the sample doesn't change at 120bpm, it's because the sample was recorded at 120bpm. If it's set to musical mode and played back at a tempo other than its original sampling bpm, you will notice the difference."
+cubase,fnxdejj,t1_fnxccba,1587336369.0,"Hmm, that's what musical mode is supposed to do (stretch the selected event to fit the grid - according to the sample's detected bpm), and it sounds like it's not working right.
+
+What version of Cubase is it?"
+cubase,fnxa2yz,t3_g4gfxq,1587334475.0,"Do you mean that the sample doesn't change speed, or that the metronome itself stays at the same tempo, despite changing the tempo?
+
+Based on the first portion of the question alone, I'd think that it's just not having set the sample to musical mode, but the second half of your question confused me a bit."
+bodyweightfitness,fnm4i9j,t3_g2f2k6,1587064952.0,"Hey friend - I'm late to the game, but I wanted to chime in.
+
+A few years have posed since then, but I weighed about 118kg at my heaviest. I was about that weight for years, and my wife at the time made me feel bad about my weight too. In fact, she worked to tie my weight to my emotional well-being and sense of self-worth, so I became very self-conscious about it.
+
+When we separated, I started seriously working out - partially for my health, and partially to manage the emotional turbulence I was feeling. In any case, within several months, I had lost a pretty drastic amount of weight, and as I am now, I weigh about 82kg.
+
+What I learned from this weightloss experience was pretty simple - start slow, but maintain consistency, and increase the intensity/length of the workout in proportion with your capability. Figure out how to continue appropriately feeding your body, but not overeat in response to the activity increase.
+
+There are a lot of apps now that can provide you with workout routines, even without much room or any equipment. I'd say that you can start there if you have any apprehension about going outside or being seen. Don't worry annoy specifics too much, just get started and sort out details as you come across them.
+
+As many here have already said, I have great admiration for everyone who works out, but especially those who have just begun. It takes a lot of determination and perseverance when you first start, but as you continue, it will get easier. You got this!"
+cubase,fnfbfky,t3_g1exug,1586904898.0,"Create a new Signature track, and use the pen tool on it to insert a new time signature."
+cubase,fn5w28u,t3_fzsbcb,1586677915.0,"III indicates a VST3 plugin.
+
+X indicates a VST using external hardware."
+abusiverelationships,fmrh7wl,t3_fwupsb,1586323113.0,"I (31M) am in a different position, but I've been in recovery from an abusive marriage, so I'll try to weigh in on my situation, and maybe something will be helpful.
+
+Abuse in relationships take a lot of time to unravel, and it sometimes takes a long time to even understand the effects entirely. My guess is that you're experiencing this. As you *do* develop another relationship, I'm certain you will discover even more effects. This will be normal, and if the relationship is healthy, it can actually deepen a real bond, rather than be only a deterrent.
+
+Ok, so first things first, do you know *why* you want a relationship? I mention this because many individuals become codependent in abusive relationships, since codependency is a way for them to gain control. If you are, then you will feel a profound loneliness when alone, and will seek a relationship to alleviate the distress. However, going into a relationship like that attracts abusers and invites abuse. This is why the most common advice is to heal yourself before heading back out for a relationship. Getting into one prematurely is asking for trouble, not because there's no chance at a good relationship, but rather because there's a greater chance of a bad one.
+
+That being said, you have already mentioned that it's not because of physical attraction, per se. Many types of abuse will affect physical attraction, libido, and even healthy sexual preferences (take, for instance, [the phenomena of rape survivors preferring BDSM as a coping method](http://gomag.com/article/healing-through-bdsm/)) in different ways. I daresay that you haven't lost your libido entirely, but rather have just emotionally locked it up for safety. Many have similar experiences, and report that in finding the right partner, they are able to express their sexuality again.
+
+I'd suggest, as far as sexuality goes, to keep think of it as a new boundary of yours. If, with enough recovery, you find that it returns to what it was before, then you know that your body is signaling you that it feels safe. If not, just explain to potential romantic partners that you'd rather take it slow. In time, mention that your boundary is due to abuse - a loving and caring partner will understand and respect that. 
+
+Now, in regards to the flirting, it could be that you've come to understand flirting to be different than before. Perhaps you see it as objectification. Maybe, it reminds you of an exertion of control. I don't know the circumstances surrounding your abuse, but *you* do. It may take some time to pinpoint it, but as you explore your feelings and thoughts, you'll come to understand yourself better, even to the point of better understanding what you want and need in a partner.
+
+I've been out of a relationship for several years, and I haven't been intimate in over two. My wife made me feel shame over everything, even my very appearance. She told me that I didn't deserve love if I gained weight, and that's a difficult feeling to overcome. I've lost about 80lbs in the last year and I'm in the best shape of my life, and yet I still feel negative about myself. She weaponized sex and intimacy, and made me feel guilty about having sexual feelings at all. I still have a libido, but it's surrounded with shame and fear. That being said, there's a silver lining.
+
+It takes time to understand the abuse, deconstruct the abuse, and reverse its effects. However, when properly treated, it can provide you with understanding that can be used to positively influence the rest of your life. As I said above, as you explore your feelings and thoughts, you'll come to understand yourself better, even to the point of better understanding what you want and need in a partner. I can guarantee that as you find a man that understands this, you'll feel a different kind of attraction, and as you develop a relationship, those things which you thought you lost will probably return."
+interestingasfuck,fmni9zf,t1_fmlyxdd,1586226684.0,"We're talking about the grain of rice, right?"
+WatchPeopleDieInside,fmngtn0,t1_fmma48t,1586225736.0,"Exactly.
+
+You can see in the kid's face - the genuine smile when showing what he hopes it'll look like, and the embarrassed distress when he sees it. It doesn't matter that he's calm and not throwing a fit. 
+
+The idea that I would learn is that dad cares more about his dumb joke than my desires. I'd learn that my approval means less to him than those of his viewers. I'd learn that I don't deserve respect, especially when dad gives respect to others."
+mentalhealth,fmj0rmn,t1_fmi980g,1586120729.0,"Well, plus the neurological evidence. New research and advancements are starting to show the physical differences in the brain which reveal the root of behavioral symptoms. The general understanding just hasn't caught up to the notion that mental health is also physical, and has to be treated as such. Instead, if we just pretend that a problem doesn't exist, then we don't have any responsibility to change things. It's essentially a form of complacency and denial."
+abuse,fmh0e12,t1_fmgyt9x,1586062854.0,"Don't feel pressured to link it if you don't want. It's definitely something that can help you feel a little more secure about communicating more openly.
+
+Improving yourself is the main goal, and your circumstance will follow, especially as you gain more freedom and opportunity. So, you're on the right track. And don't beat yourself up about progress with therapists - sometimes it takes a bit too find someone with whom you can work well, and even then, it takes time to learn what to do, how to do it, and then actually doing it. It's a long process, but the end result is far better than what most do."
+cubase,fmgie83,t1_fmfi4ex,1586049763.0,"Either unload, or constrain delay compensation. It'll turn it off, but at least you won't lose your settings."
+Advice,fmfed57,t3_fuv69q,1586025481.0,"Stick to your guns. If they actually *would* care, then they will regret having said that, and will likely apologize down the line. If they don't apologize later, then they are either too proud (but still hurt), or don't actually care. Either way, it's better that you don't give in.
+
+If you *did* give in, then they will own you and overstep your boundaries EVERY TIME. By having strong but fair boundaries, you teach them how to acceptably interact with you. If you want respect, you need to enforce it. Any parent willing to do or even say what they have said will not give you the respect you deserve without coercion."
+AskReddit,fmfdkg2,t1_fmexi2k,1586025010.0,[Reminds me of that Bill Burr story](https://youtu.be/w8b81UM74Ow).
+NarcissisticAbuse,fmeaovs,t3_fupbk5,1585996593.0,"Well, you listed a whole lot of narcissistic traits, so if he's not diagnosably a narcissist, he still is very narcissistic. I'd definitely say that he sounds very grandiose for sure."
+abuse,fme83u8,t1_fme5tla,1585993413.0,"Trauma is not something that you can outgrow. Instead, it creates perspectives and patterns of behavior that can be long-lasting. As I mentioned, your experiences forced you to understand things a certain way, but in better more healthy circumstances, they actually don't help. Those defense strategies malfunction, and end up sabotaging the good and healthy things. 
+
+Imagine it to be like wincing, meaning holding up your hands in defense of being hit. It's useful when you're about to be hit, but if you're doing it all the time it doesn't help you. Expecting to get hit when nothing is around is essentially what the body does when it's anxious, in a certain way. Being anxious enough forces you to miss out on experiences and opportunities which could help you grow and improve, and therefore can increase depression. This is why depression and anxiety is so common amongst those with unresolved trauma. There are so many signs that indicate that you're not over it, and that's to be expected. It's really *really* difficult to be able to navigate it yourself. It's something that needs to be done with guidance.
+
+I hope this doesn't intimidate you too much, because there is still hope. There's actually quite a bit. It's difficult when you're still a minor, especially when your household is dysfunctional. However, you're still young, and you're able to come up with a plan while you still have some physical security and support. You are becoming much more aware of your circumstances, and with more observation and practice, you can become incredibly aware of your behaviors, thoughts, and feelings. Those are your main weapons for improvement when you start therapy.
+
+Now remember, your boyfriend is young as well. These are things he may be willing to help you through, but that does not mean that he is well-equipped to do so. He might not always understand, and you might not always be able to explain it. This is why you should lean on him, but not too much. Remember, you are trying to make yourself stronger and healthier - you are the real priority.
+
+Lastly, in regards to what you mentioned about your friend who overstepped your boundaries - your response is normal, but it's not ideal. It's not uncommon for survivors of sexual abuse to develop dissociative responses (disclaimer: I am not diagnosing you, nor am I definitively saying that you experience this exactly). Dissociation is the mind's way of tuning out the danger and bad things that it doesn't want to see. In other words, your brain distracts itself and shuts down. This is why we now add ""freeze"" to ""fight or flight"" with regards to responding to danger. If you can't fight it or run away, you freeze and bunker down. In some extreme cases, this even involves memory loss.
+
+You are probably experiencing some mild dissociative responses in those situations. The point is that you need to define and practice some defensive methods to be able to lean on the ""fight or flight,"" so you don't just ""freeze."" Just some thoughts.
+
+Remember, never lose hope - there really is so much more out there than what you've experienced this far."
+cubase,fmdzcjh,t3_fuounk,1585983166.0,"[Here, try this link to see if it opens for you](https://www.steinberg.net/en/shop/cubase.html)."
+abuse,fmdro4a,t1_fmdqrij,1585975857.0,"Yeah, that makes sense. I mean, there's certainly something to say about both perspectives. In my experience, those who were traumatized less severely still need time and space to heal, but those who were more severely traumatized tend to hide it away more. It's important to keep in mind that the severity isn't determined by the harshness of events, but rather the combination of who you are and the experience you've gone through. Some people can go through certain events without much issue, while others could go through the same exact thing and end up completely paralyzed and destroyed. It is why mental health specialists refer to environmental and genetic heritability - we need *both* factors to be traumatic to be traumatized most deeply.
+
+So it makes sense that you guard your experience more closely, and it makes sense that you want the attention and care her communications reserve for her. It all makes sense.
+
+A relationship isn't impossible right now, but it's very dangerous, as I'm sure you know. The only thing I can say is that it should be taken slowly and with some healthy boundaries in place and enforced. However, it's a very difficult thing to manage, especially when you have unresolved trauma sticking around. Do you still have access to therapy?"
+abuse,fmdoaj5,t1_fmdnsdt,1585973066.0,"Yeah, that's my situation as well. 
+
+The only solution for this is having a competent and compatible therapist, which isn't exactly easy nor viable for everyone, or by somehow making good friends really quickly, which isn't likely to happen right away. That's why I've turned to reddit when I can, and sought therapy as quickly as was possible. My family loves me, but they certainly aren't the emotionally vulnerable type, and recovery without emotional vulnerability isn't going to happen. Either way, you aren't completely alone, as you have a whole bunch of internet strangers who can understand your situation, and share a lot of experiences with you. Keep posting, keep reaching out - it really does help."
+abuse,fmdnjou,t1_fmdn45w,1585972483.0,"You're welcome. And while it's true that I don't know how much it means to you, I do know how much it meant to me. I have been largely discarded by all my friends and peers, to the point where social distancing and quarantine changed nothing compared to the last couple of years, and that's no exaggeration. This discard was done largely in part to a smear campaign of sorts that my ex-wife did.
+
+When I finally opened up about it to a sub full of strangers ( r/NarcissisticAbuse) about a year after I became drastically isolated, hearing that they believed me, understood, and sympathized with me just about changed my life. It actually opened me up to the possibility that recovery was possible, and that there were people out there worthy of trust. I'm not there yet, but I'm at least headed towards complete recovery, and it's time that you figure out how to get there too."
+abuse,fmdmmaw,t3_fumiah,1585971766.0,"Hey friend, you sound like me. It took a long time to understand everything my ex did to me, and even now, I'm not exactly sure I have everything sorted out correctly. However, from what I've gleaned from what you've mentioned here, there was a lot of psychological abuse going on, which often leads to that sort of confusion. That amount of control you mention is common amongst paranoid and narcissistic individuals. That sort of self-doubt you're experiencing is characteristic of her projected distrust for you.
+
+Are you familiar with the term *narcissistic abuse*? If not, I'd recommend looking at [this list of videos](https://www.youtube.com/watch?v=KNpeVRB19xU&list=PLdlFfrVsmlvDDsywkzSsQSVJ0TPKSNtOG) to see if it clarifies anything for you. Again, this is kind of an assumption, since you didn't mention a lot of specifics, but I just got a certain vibe from everything you *did* mention. 
+
+Either way, accepting that she was abusive is a huge accomplishment, and it helped place me on a road to recovery."
+abuse,fmdlzfi,t3_fum6in,1585971286.0,"This one's a tough one, because I feel like it's more complicated than it seems at first glance. 
+
+First off, you were definitely wronged. Even drunk, incapacitated, whatever, you were definitely sexually assaulted. I have no doubt that it's left some very real emotional scars, and judging from the way you describe the effects, you seem to be very aware and conscious of many of them. That's good to hear, because it's a sign of some recovery.
+
+That being said, I also understand how you feel about your friend. It probably feels quite invalidating to hear her express her experience and get *more* sympathy than you do. However, this does not discredit your trauma, nor does it invalidate her experience. 
+
+This is why I say this. I (M31) was married for 7 years, in which I was abused mentally, psychologically, verbally, and sexually. The hard part is trying to get sympathy and validation from ANYONE, considering that I:
+
+1. Am male, and
+2. Was married
+
+Most don't understand how sex between us could have been anything but consensual, and how sexual abuse could even occur in marriage. However, when I explain the nature of the experience, it becomes very clear just how dysfunctional it was. When faced with the abuse, I felt there was no escape, and even though I'd finish, I had felt filthy. Even with some consensual encounters, things would happen during sex which went beyond my consent, and I kept them to myself due to the shame of it all. 
+
+All I'm saying is that she was likely traumatized as well, just in a different way. It's only comparable to yours because it involves sex. However, the dynamic, scope, quality, etc., of it all are as distinct and individual as you both are. Just because you were sexually assaulted doesn't mean that she wasn't traumatized, and just because she has trauma does not mean that yours is any less serious. In fact, you both have described outcomes of trauma, and perhaps, in that way, you're both best equipped to understand one another.
+
+Now, that being said, you are definitely right to assume that your trauma is affecting your relationships. In fact, the mere fact that you find yourself willing to settle for an abusive relationship (despite knowing that it's not ideal) is problematic. Do you have access to a therapist? It's really hard to start having healthy relationships with unprocessed and unresolved traumas, and seeking a relationship prematurely just opens yourself up to more abusive partners."
+dating,fmdkic5,t3_ful81s,1585970174.0,"Nope - those who tell you otherwise and call you a prude are just trying to coerce you to fulfill their fantasies and wishes. There are many who aren't willing to respect boundaries, and that's because you as a person aren't a priority to them - but rather you as an object is what they want. They will therefore hate anything that keeps you from debasing yourself to the objectivity that they seek, so they will hate your boundaries.
+
+Go ahead and seek what you want from a relationship, and let those people reveal themselves as people who aren't right for you."
+dadswhodidnotwantpets,fmdhq7u,t1_fmdglcs,1585968121.0,"Yeah, he was a surprise adoption for us. He was just running around the neighborhood, and we begged our parents to keep him. He was such a great friend. It was one of the few times that I saw my father be vulnerable in some way. It was really tough losing him - but I guess that's just a testament to how much we loved him."
+abuse,fmdhj32,t3_fulahh,1585967976.0,"First off, trauma is anything which drastically and forcefully changes your worldview, skewed towards a negative or otherwise unhealthy outcome. The definition of trauma has expanded a lot within the last 30 years or so, and yet the general understanding of it hasn't. Because of this, a lot of us go through a process of trying to seek validation of our trauma, playing a game of comparing trauma with others, seeking to ""weigh"" out our trauma to others, in order to believe that it's serious enough to be real. Your experiences qualify - you were traumatized. They were traumas. They had no right to do what they did, and it wasn't your fault. That much is perfectly clear.
+
+Now, everything that you're experiencing now - the flashbacks, the anxiety, the rush of adrenaline, and the overwhelming fear - that's all a result of what that trauma has caused. You had to adopt new strategies to keep yourself safe, and in a different situation, those strategies are actually detrimental and destructive. For example, the same impulses which keep some safe during sexual abuse also can destroy a healthy relationship. The key is recognizing which impulses to work to tone down, restructure, and reorganize into something healthier.
+
+This process is best done under the guidance and care of a compatible and licensed professional, as well as with open honesty and vulnerable love and safety of trustworthy social structure (i.e. friends and family). 
+
+To be honest, a lot of what you mention fits many diagnostic criteria of traumatic anxiety disorders, such as PTSD or complex PTSD. When the criteria doesn't fit exactly (which is a common worry amongst self-invalidating traumatized victims), a diagnosis of something like DESNOS (disorder of extreme stress not otherwise stated) is given. You would easily qualify for treatment under those criteria. [Here's a good video explaining just how broad the trauma defining criteria can be for PTSD and other variants](https://youtu.be/NHH18iK3JXY).
+
+It was real. It really happened, and it has caused you distress that has lasted years. That is what trauma is, and what you're experiencing is what trauma does. However, you're not alone in this - we understand, and some of us have had enough experience in recovery to help you along."
+dadswhodidnotwantpets,fmddevb,t1_fmdcgps,1585965045.0,"I had one dog growing up, and as he got older, we unfortunately had to put him down. We all were heartbroken, and my dad said ""Never again. I'll never be able to do this again."" 
+
+He now doesn't even get close to the idea of getting another dog. Dogs are truly something special."
+mentalhealth,fmcwfud,t3_fufp0b,1585954200.0,"Feelings are a hard thing to change. In fact, no matter how consciously we try to force them to change, they come back stronger. 
+
+As Carl Jung said,  “One does not become enlightened by imagining figures of light, but by making the darkness conscious.” In other words, trying to force yourself to be positive (or not think about certain people) will manifest negativity outside, while seeking to understand the negativity (or understanding why you think of those people) will enable you to consciously change more things more effectively.
+
+Here's a strategy that's often used by therapists. In cognitive behavioral therapy (or CBT for short), the idea is that actions, thoughts, and feelings are all connected. Feelings are the hardest to consciously change, thoughts are easier, and actions are the easiest to change. The therapist works with the client to identify problems in all three categories, then works out strategies to change them. The first step is to change actions, meaning to block or confront sources of toxicity and negativity, in this case the people who don't care about you. Then thoughts, as in to gently herd yourself away from thinking about them, and other destructive thought patterns. As you change your actions and thoughts, your feelings will eventually follow - hence cognitive (thoughts) behavioral (actions) therapy.
+
+However, this is assuming that these people are indeed toxic and don't care about you. I do not know you nor your circumstance, but I should issue a warning that many emotional and mental issues are prone to want to self-isolate and self-defeat, meaning that there is always a chance that people care more than you think, and that they're just ill-equipped to offer you what you want and need. I had both circumstances - people who cared and people who didn't, and the end result was me pushing away EVERYONE. Carefully evaluate which your situation is and what each relationship requires. If you need more guidance, reach out, communicate, and think about it. This is what we're here for."
+mentalillness,fmcbjdk,t3_fu62cn,1585942526.0,"Acknowledging the reality behind an issue also carries a responsibility to try to change it. If you don't want to do that work, you pretend you don't really know the reason for it. It's often playing blind because you don't want to see it. It's much easier to be complacent with the situation (since it doesn't directly affect them), and deny what you see to avoid having to fight it.
+
+>""The things you can see with even a single open eye - it's no wonder that people want to stay blind.""  
+>  
+>Jordan B. Peterson"
+abuse,fmawrbl,t3_fu5ea9,1585910866.0,"That was a lot, and it's only a fraction, no doubt, of everything you've been through. From what you've said at the end, however, it seems as if you've improved your situation drastically. That is certainly cause for celebration.
+
+There's so much to unravel and untie, and I can't even begin to imagine where to start. First off, however, is therapy available to you? 
+
+You've mentioned religion and love, meaning that you've been searching for a community, which will help immensely. However, some of the weight you're carrying is best dealt with through licensed and professional care. I do know that this is not ideal, though, through cost alone. It's difficult to find good care that's affordable, especially in whatever situation you find yourself.
+
+I can't imagine having gone through that at all. It's so foreign to me, despite having endured abuse myself. I have no words other than my well-wishes. To have gone through such terrible things and come out at all is a testament to your strength. I know it's no solace, but for what it's worth, I'm proud of you. Keep posting, friend."
+cubase,fma6nvr,t1_fma68vi,1585885198.0,"Yes, very easily in fact. Musical mode stretches the sample to the grid without changing the pitch, so if the bpm is properly catalogued, then you can use samples really easily."
+abuse,fma6ix4,t1_fma5mhh,1585885094.0,"Yeah, the superficial communication runs out quick. You end up wanting to communicate without anything substantial to say. My guess is he's feeling that same exact thing. The most effective communication is that which is done in person, which is why so many struggle with isolation. 
+
+And intention is the best word to describe it. For example, passive ""I love you"" language can be communicated in the slightest touch, even just close proximity while watching a movie. However, it'd get very tiring if you had to say ""I love you"" each time you wanted to express it. With the distance of quarantine, that's exactly what's happening. Everyone's trying to figure it out, because none of us saw it coming. 
+
+Either way, therapy is the way to go. You've been through a lot, and even though you sound as if you're doing well, there's always a lot of work to be done."
+cubase,fma5zjg,t1_fma4o5q,1585884695.0,I had no idea about tape mode. Thanks for the tip!
+abuse,fma572r,t1_fma4b11,1585884120.0,"You're very welcome. I'm glad my response was useful.
+
+This general situation regarding communication is not uncommon, and I expect that it's manifesting itself pretty aggressively during this time. Indeed, statistically, it is more common for females to process communicatively (and with open vulnerability), while males more commonly process internally. It is a huge hurdle in most relationships, and tends to follow that attachment dynamic that I mentioned before. It's a tough one, and that's without any emotional trauma involved! Trauma exacerbates everything, and can shift the general dynamic so drastically that it's very difficult to understand at all. 
+
+My feeling is that you should seek more socialization by distributing your attention more widely, rather than focusing your social and emotional needs on him alone. That way, he can feel more beneficial when he does invest a lot (phone calls can help with bad texters, video chat with bad callers, etc), and you can develop some deeper relationships.
+
+Do you have any other friendships that you've trusted with your traumatic experience?"
+cubase,fma4ico,t3_fu0alo,1585883623.0,"My first thought is that the sample is on musical mode, so it time stretches according to the attached bpm (or what it thinks is the samples bpm). However, the pitch moved up as well. Is this a sample rate mismatch issue?"
+abuse,fma2vtr,t3_ftztow,1585882472.0,"This is tough, and it's a lot to deal with in general, let alone in these times of quarantine. No doubt it's always on your mind, and there's no way to distract from it. I don't know if I can help, but as a man who had a relationship with someone who confided in me about her rape, I can at least clarify what I felt in a similar circumstance.
+
+First off, is his distance abnormal? The reason I ask is because some people don't like to connect via text anyways, and I'm sure that there are multiple potential factors in this. For example, he could be playing video games, and while he can read, he can't respond quickly. My guess is that you know how he has generally been, and that this is abnormal. I'll go ahead and make that assumption.
+
+When I heard that my partner at the time had been raped (by someone I know, no less), it really sent shockwaves through me. It made me feel angry that someone could do that, worried that I'd do something wrong, and ashamed at my helplessness in knowing what to do or how to respond. I felt weak and useless, since I loved her dearly and wanted to care and provide for her, and couldn't in a way that could conceivably change her circumstance or numb the pain. 
+
+I also felt selfish when I realized I had feelings like these at all. After all, these were *her* experiences, and my feelings or reactions were me satisfying my own personal impulses. She shared them with me, and here I was reacting in a way that wasn't helpful or supportive. Or maybe they were. I'll never truly know the best way to react, feel, think, etc. It's an odd thing from our perspective, because it's a perspective shattering encounter with something we never saw coming.
+
+That being said, it's not as difficult as what you've gone through. I am positive that he knows that. My guess is that he needs some space and time to process it a bit. It's difficult for you because it reinforces the feelings of loneliness, guilt, shame, etc. However, you did the right thing. You were honest, and you reached out. That in itself is beautiful.
+
+From here, however, try to be aware of your reactions. Have you also changed your social behaviors since divulging this information? Perhaps the social distance has affected you as well, so you're reaching out for more support than usual, and maybe he's emotionally tired and needs some space to process everything. It could very well be that you're both overcompensating to address the new dynamic.
+
+For example, take the anxious-avoidant combination within a relationship. Anxious individuals try to pull support in closer, and avoidant individuals try to push away issues. When combined, you have two individuals who are trying in different ways to process the same issues, and neither method is complimentary to the other.
+
+I don't really know what to say, otherwise. I truly hope that things improve. If you need someone to talk to, let me know."
+abuse,fm9107n,t3_ftspxa,1585859679.0,"This is a common feeling after trauma, especially childhood trauma. To be honest, many diagnosticians would often consider this to be an aspect of PTSD, or complex PTSD ([here's a video briefly discussing this](https://youtu.be/NHH18iK3JXY)). Perhaps you've learned to change parts of yourself to keep yourself safe. Perhaps the normalization of abusive behaviors are manifesting themselves outside of the abusive environment. In any case, this is known within the psychoanalytic community as identification with the aggressor. There are many different scenarios which could fit, and that's why professional aid is recommended.
+
+However, you are better equipped than you might think. The fact that you are aware of these behaviors is a major advantage. I understand, however, that most of the understanding is hindsight, meaning that you recognize the abusive behaviors *after* having performed them. That leads to more regret, self-disgust, shame, etc., which increase the tendencies you hate. It's a vicious cycle, and requires rehabilitation, as well as conscious and honest dialogue with those you love and trust. Those who are trustworthy need to know how you think and feel to help anchor the thoughts and feelings which are healthy. 
+
+I would definitely recommend seeking professional guidance, if possible."
+cubase,flt1q5r,t3_fqr4vi,1585456663.0,"OBS has no native ASIO support, but there are some workarounds. Other than what I've already seen posted here, there is an open source addon for it, found at https://github.com/Andersama/obs-asio. It worked better for me than the other methods."
+abusiverelationships,flpy3al,t1_flposv6,1585372281.0,"That's actually a decent way of explaining it. I usually say that it's like cognitive behavioral therapy with a little bit of hypnotism thrown in, even though it's not really hypnotism. It's just a way to help the treatment permeate deeper more easily. At first, the therapist is likely to build a rapport with you, especially to understand you, your goals, and your boundaries. Since EMDR was designed with trauma in mind, therapists tend to be gentle.
+
+You can find therapists on the website, as those who are certified through the organisation can list themselves there (www.emdria.org). Any licensed practitioner can be certified, so you can get an lcsw, lmft, psychologists, etc. Therapists will generally list when they are EMDR certified, since it's growing in popularity."
+mentalhealth,floiuzf,t3_fq19ua,1585339143.0,"First off, your question is a very common one. Trauma are often self-invalidating, so we turn to others for validation in quantifying or qualifying trauma. The issue is that it's not so simple. Some people go through experiences and end up seriously distressed, while others may go through very similar experiences, and come out indifferent. The point is that we are all individual, and require validation for our experiences. That being said, we can't go around defining every negative experience as traumatic. Here's what I've found to be true.
+
+The way that I think about trauma is that it has to be an experience which is pivotal to your perspective of the world. It shifts your viewpoint from that point onward, and can be seen as leaving permanent impressions. That doesn't mean that your distress will be permanent, but rather that your perspective will never return to what it was before the experience. In many cases, trauma can invalidate things which we once thought were inalienable or axiomatic truths. We thought that we had them figured out completely, and that is why trauma can be self-invalidating. 
+
+For instance, let's imagine an experience similar to the one you've mentioned about your classmate. I'm not saying that I know the experience, but rather will use a general situation to illustrate the point. 
+
+Let's imagine that you would go to play with this individual because of how you thought about this person. You likely thought of them as an overall enjoyable or positive person. However, after some time, you'd notice that they were not as you imagined, and that the time spent with them turned out to be negative and distressing. It's possible that you still believe that they are wonderful, so you blame yourself for making the situation negative. Maybe they tell you that you are wrong. In this situation, your view of them and yourself have changed, so as to now incorporate the existence of something new that you didn't know or believed existed.
+
+In this case, it's plausible that you would feel distress, and that this new unprocessed evidence will affect how you see things from that point onward. This is where some people can get diagnoses, if those experiences cause sufficient distress (i.e. PTSD, cPTSD, adjustment disorder, DESNOS, etc.).
+
+The quick rule for knowing if a memory is traumatic is if an experience is over several months old and still causes distress. This means that something from your adolescence or childhood definitely qualifies. 
+
+Now, on to what you say your therapist is saying. This is a difficult situation as well, because it sounds as if you understand them to be saying that you should not think about the experiences or distress. Now, I do not know your therapist, nor do I know their intention or method, but I can say with certainty that the avoidant approach would *not* work with me. I have cPTSD, and the nature of the condition is to incessantly focus on the experiences until it is sufficiently understood. [This process is described in this video very well](https://youtu.be/Snke9v4S2rU). We can see that avoiding the thoughts will not work, and may actually cause greater distress. 
+
+However, therapists try to deal with symptoms that can interfere with further treatment. For example, my social isolation will not help me rebuild trust in other people. My therapist works to try to alleviate the stress with social interaction as to allow me to be in situations where I may build relationships. In this context, we can see that your therapist wants you to do something *other* than focus on your trauma.
+
+In the cognitive behavioral therapy (CBT) model, thoughts would be seen as a major catalyst for change. In CBT, we focus on actions, thoughts, and feelings. Feelings are hard to change, thoughts are the next most difficult, and actions are the easiest. This is due to the level of consciousness involved. Despite the differences, we note that all three are interconnected, and as such, we try to control our actions, which can then help us control our thoughts. With our actions and thoughts under greater control, then our feelings eventually follow. That is the thought process, hence cognitive (thoughts) behavioral (actions) therapy. It could be that your therapist is trying to get you to enact some control over your thoughts. But it isn't so simple.
+
+In Carl Jung's [*The Philosophical Tree*](https://www.jungiananalysts.org.uk/wp-content/uploads/2018/07/C.-G.-Jung-Collected-Works-Volume-13_-Alchemical-Studies.pdf), he states (emphasis added):
+
+>Filling the conscious mind with ideal conceptions is a characteristic of Western theosophy, but not the confrontation with the shadow and the world of darkness. **One does not become enlightened by imagining figures of light, but by making the darkness conscious.** The later procedure, however, is disagreeable and therefore not popular.
+
+In other words, trying to force positivity creates negativity. The only way to become more positive is to properly address the negativity. This is what you need to do. You need to find a way to better process the trauma. It may be that your therapist doesn't understand this. Therapists are humans too, and are just as prone to fault and a lack of understanding as anyone else. This is why it's important to find a therapist that can listen just as much as they speak, and modify their own perspective to fit that of the patient.
+
+I know this was a long post. Let me know if you have questions."
+abusiverelationships,flmp89b,t1_flmd0yg,1585291114.0,"EMDR is often used as a type of treatment alongside other treatments, for example, CBT (cognitive behavioral therapy). EMDR stands for Eye Movement Desensitization and Reprocessing, which is essentially a description of the technique. It consists of sessions of exploration and revisitation of distressing thoughts, memories, fears, etc., while incorporating bilateral stimulation (e.g. eye movement , physical taps, sounds, or vibrations alternating from side to side). This is done to stimulate certain aspects of the brain, which help to desensitize and reprocess the stimuli. Hypotheses state that the memories are enabled to be reprocessed by a different place within the brain, and can therefore be desensitized and better understood. [Here is a better explanation of the general methodology](https://www.emdr.com/what-is-emdr/).
+
+From what I know, many attribute greater general distress the same day as the therapy, but also greater alleviation several days later. My sister is the closest individual to recommend it to me, and she reports that some issues have been internally resolved for her within days to the point where they no longer caused distress. For me, I have little experience with EMDR thus far, as my therapist is still getting to know me and my situation. She also is wary to dive right into the harder things, as:
+
+1. The technique needs to be practiced for greatest effect (called resourcing)
+2. Difficult stimuli are extra distressing, and she wants to ensure that things are stable so as to not risk emotional destabilization
+
+As to my personal progress, I'm not exactly sure how to ever report on that. I've learned a lot, and I can say that I have a pretty solid understanding on my past, but I still find myself unable to move beyond that. I know that a fairly significant portion of that is due to my social isolation (it's not uncommon for me to go without human contact or conversations for extended periods of time, and it has been for almost two years), but I lack the ability to balance trust and defensive boundaries. It just feels like a solid standoff, and I'm too afraid to move from my spot."
+Fitness,fllmqf3,t1_flll2ma,1585263515.0,"I wish I had the ability to, as I currently have no medical coverage. It's not terribly serious, however, and so it's definitely not worth the visit, especially in today's climate."
+abusiverelationships,fllcexe,t1_fldcr9p,1585257668.0,"Thank you for your kind words. I've been in therapy for almost two years now, and I've somewhat recently switched therapists to try EMDR. The hard part, however, is that treatment only really sticks if life also improves. I've come to distrust so deeply that developing any meaningful relationship is virtually impossible, so it never feels like I'm making any progress, despite learning so much."
+abusiverelationships,fllbhm1,t1_fldu7u4,1585257165.0,"Thank you for your reply. I've been avoiding replying because it's still very difficult to think about, let alone discuss. 
+
+One of the harder parts of this process was the amount of isolation within the last few years. Immediately after our separation, my wife went on a social rampage and smear campaign of sorts, working to alienate me from my peers, friends, and even family. I was overly passive, and let a lot of these relationships ""lapse,"" so to speak. My wife was able to define a narrative, and I never pushed back. In trying to push forward and cope with everything while this happened, I isolated myself, and pushed people away. The end result was me feeling abandoned, and the only reasons that made sense to me were the reasons my wife fed me for years. 
+
+Of course, my weight is just one small aspect of everything I became convinced I was. I'm sure you understand. The hard part is that I had no one to reassure me that I was more than what she would say. After several years of isolation (covid19 has changed very little for me), it's still so hard for me to invalidate her definitions without some reinforcement from someone I trust. It's hard to explain, but I bet that you understand."
+dating,fll7nyi,t1_fll5k1t,1585255138.0,"10 times out of 10, it's still a fallacy to overgeneralize. Life is too complicated to sort into shallow boxes."
+NarcAbuseAndDivorce,flkredc,t3_fpfx9k,1585246268.0,"This is quite a broad question, but it's a necessary one to ask. Much of what happens after a relationship with a narcissist ends is spent trying to make sense of things, so the psyche can feel adequately equipped to understand and avoid the danger of mistreatment we once left.
+
+As a more simple and concise way to answer your question, I'd recommend watching videos from this playlist (https://www.youtube.com/playlist?list=PLdlFfrVsmlvAg-_g_3uz4uI8sBED-3W__)."
+abusiverelationships,fli7zwa,t3_fov21a,1585177086.0,"This is a very long post, and from what I saw, nothing in there looked very healthy. However, I know the feeling of emptiness after an abuser discards you, and the desire for understanding. Here's what I've found in my experience that I think may resonate with you.
+
+First off, you both sounded fairly codependent, but you moreso. Note, this is not meant to be an attack, nor is it an excuse. There's no virtue in being overly codependent, especially given that extreme codependency is a trait desired by abusers. If they can get someone to emotionally (or, to be honest, in *any* way) rely on them too much, they can exert control over the individual. This is why they cultivate weak boundaries, isolation, occasional positive reinforcement, etc. Strong boundaries repel abusers.
+
+Second, she sounds narcissistic and antisocial. Note, antisocial does *not* mean asocial, despite the widespread misdefinition of the term. [Antisocial refers to what is better known as sociopathy or psychopathy](https://en.wikipedia.org/wiki/Anti-social_behaviour) (both terms are clinically outdated, but refer to sub dynamics of antisocial personality disorder). Feel free to research both [narcissistic personality disorder](https://www.mayoclinic.org/diseases-conditions/narcissistic-personality-disorder/symptoms-causes/syc-20366662) and [antisocial personality disorder](https://www.mayoclinic.org/diseases-conditions/antisocial-personality-disorder/symptoms-causes/syc-20353928) to see if it fits. I can guarantee, from what you've mentioned, that a decent amount may fit, and by finding out what fits, you can see how to best treat yourself in response.
+
+Narcissists tend to follow specific patterns of abuse, relying on psychological and emotional abuse for the majority of the abusive behaviors. However, this does NOT mean that they do not abuse physically or sexually, as these are also very common, but rather that they are less frequent than the aforementioned forms of abuse. These types of abuse can be harder to understand and treat, because they aren't so straightforward and evident (think abuse without evidence, even to you). You could know that something is wrong for years, but never put a finger on it. It could be very subtle or even covert. [I suggest you watch some of these videos to see if it fits](https://www.youtube.com/playlist?list=PLdlFfrVsmlvDDsywkzSsQSVJ0TPKSNtOG).
+
+The reason I focus on narcissism is because you specifically want to know why your abuser would leave you. Narcissists tend to follow this simple cycle in relationships:
+
+1. Idealize the victim
+2. Devalue the victim
+3. Discard the victim
+
+This is done because the narcissists want positive reinforcement about themselves, attention, self-inflation, etc. When they find someone attractive to them, they inflate how they feel about the other person (i.e. ""I am amazing --> I like them --> they must be amazing too""). Within the relationship, they start to see flaws which invalidate the idealization, but rather than assume they made an inaccurate judgment, they scapegoat you (i.e. ""I'm amazing --> they're not as amazing as I thought --> they don't deserve me --> they must have lied to me""). After enough devaluation has occurred, and the abuser has secured another source of attention, they discard the victim (""I'm amazing --> this *other* person is as well --> I deserve this *other* person""). If they lose the attention of the new victim, or it turns out to be insufficient, they will often be back to try and secure more [narcissistic supply](https://en.wikipedia.org/wiki/Narcissistic_supply).
+
+I know this does not feel like a great place to be in, but you are currently in a place of power. You need to take this opportunity to [strengthen yourself and your emotional boundaries](https://www.healthline.com/health/mental-health/set-boundaries#boundary-basics-and-benefits) while you can, otherwise your own status as a codependent victim will be attractive to more emotional predators. You need to recover and reclaim what have turned into vulnerabilities and insecurities before others exploit them."
+Codependency,fle7l02,t3_fo5hh2,1585079087.0,"Despite others having weighed in already, I felt that I had to offer my perspective, mainly because the situation sounds very similar to what I experienced. 
+
+I've been married for 7 years, separated for 2.5 years, and have two kids with my wife. During our marriage, I experienced some of what you mention. To put things simply, she was anxious and I was avoidant. The way in which I would avoid was by appeasing her anxieties, and subjugating myself to her impulses and fears. In short, I ended up allowing her to control and manipulate me, and my boundaries weakened to the point where they essentially disappeared.
+
+However, as time moved forward, she went from codependent to toxic to abusive, and I enabled it under what I now see as:
+
+1. Sunk-cost fallacy
+2. A fallaciously supposed caring and forgiving nature (I was actually naive and overly passive)
+3. Compliance with her negative definition of me
+
+The reason this is important is because I hear much of what I would say in what you have said. There is a sort of acceptance that things aren't good - that neither of you bring out the best in the other, and that you tiptoe around her, constantly awaiting another outburst, etc. However, there's also a kind of denial, saying that you need to accept her for how she is, that there are good days, that your infidelity is a major cause, etc.
+
+For me (and only for me, as I don't know either of you), I found out that my wife was a covert narcissist (for more info, see [here](https://youtu.be/tEd6x0l3b6U) and [here](https://youtu.be/cb9SyOQ2zAU)). She was raised in an emotionally abusive household with a narcissistic mother, and I allowed myself to justify her behavior with this explanation. However, explanations aren't excuses, and I wrongfully gave her license to be abusive because of what I thought was kindness and care. It wasn't, and there was no virtue in me staying with her through that abuse.
+
+While I had some codependent tendencies before the relationship, she brought them out ten-fold. In fact, she trained me to be codependent, and to enforce weaker boundaries, punishing me psychologically, emotionally, and sexually when I didn't comply. This is typical of toxic people, because boundaries are defenses, and an abuser can't abuse someone with strong boundaries.
+
+The point is that you are trying to rationalize a relationship that is NOT healthy, and may never be healthy. Trying to force yourself to pursue it when you distrust its improvement is not going to work. Even if you try to repress it, you and her both feel resentment, and the resentment will come out vindictively. 
+
+Consider this quote by Carl Jung in [*The Philosophical Tree*](https://www.jungiananalysts.org.uk/wp-content/uploads/2018/07/C.-G.-Jung-Collected-Works-Volume-13_-Alchemical-Studies.pdf)*:*
+
+>Filling the conscious mind with ideal conceptions is a characteristic of Western theosophy, but not the confrontation with the shadow and the world of darkness. **One does not become enlightened by imagining figures of light, but by making the darkness conscious.** The later procedure, however, is disagreeable and therefore not popular.
+
+You will never be able to fix the issue by trying to make it seem better than it really is. There is a chance (in my opinion, it's very probable) that you should not keep this relationship going. You say yourself that it feels so unhealthy, and that's because it is. Your infidelity is proof of that. You want healthier connection, and you deserve it. So does she, and by reevaluating the nature of your relationship, you both may find that it's healthier to pursue elsewhere.
+
+Of course it's complicated. Bankruptcy indicates that you have joint financial accounts and transactions. There are always tons of loose ends to be tied up. I know this, but I'm saying that you need to take a good hard look at yourself and her before you resolve to stay in this any longer. 
+
+My guess is if you googled ""signs you should break up with someone"" and read some of the checklists, you'd check almost every box. Now I'm not saying that you should, but rather that you need to reevaluate this very carefully. Do not allow this to become worse than it is."
+Coronavirus,flbekhg,t1_flaj170,1585003019.0,"[Just found this video this morning](https://www.youtube.com/watch?v=RQ7RWkY0QlU). Not certain on the implications of this info, as I haven't looked at the CDC data myself yet."
+JordanPeterson,fl684nb,t1_fl5yrvr,1584857733.0,"I'm not sure I truly know, since every experience, circumstance, and perspective is different. However, judging by what I've experienced and found in research, there are two major things to be understood.
+
+First, forcing conscious positivity isn't ideal. Take this passage from [Carl Jung's *Alchemical Studies*](https://www.jungiananalysts.org.uk/wp-content/uploads/2018/07/C.-G.-Jung-Collected-Works-Volume-13_-Alchemical-Studies.pdf), for example.
+
+>Filling the conscious mind with ideal conceptions is a characteristic of Western theosophy, but not the confrontation with the shadow and the world of darkness. **One does not become enlightened by imagining figures of light, but by making the darkness conscious.** The later procedure, however, is disagreeable and therefore not popular.
+
+This is confirming what you mention - that you can't ""unthink"" that which we see as negative, nor can forcing its opposite improve us either. In fact, in the case of the phobic or traumatized individual, forcing positivity will likely end up making us feel worse - which, coincidentally, is why making the darkness conscious often ends up being more therapeutically effective and relevant.
+
+Second, in trying to tackle the obstacle, exposure therapy is necessary. Generally speaking, this type of therapy is beneficial for helping an individual overcome their fear, not by decreasing the level of supposed danger, but by attempting to help the individual become stronger. [This process is explained very simply but succinctly in this video, which I can't recommend enough](https://youtu.be/Snke9v4S2rU). Even though it's centered on those with trauma induced stress disorders, the distress which phobic individuals experience is largely the same, and much of the recommended rehabilitation is shared. JP speaks about this process in greater detail (and with specific mention to agoraphobics around 6:10) in [this video](https://youtu.be/nyMso_CFU7s).
+
+As an aside, we know neurologically that the symptoms within the brain are similar between those who are traumatized and those with phobias (even seemingly ""irrational"" phobias). These problems are often manifest in the stress and stimulus processing centers of the brain (i.e. hippocampus, amygdala, prefrontal cortex, HPA axis, etc)."
+JordanPeterson,fl66s5n,t1_fl5fpoa,1584856349.0,"If interested, look into his [Self-Authoring program](https://www.selfauthoring.com/). It's basically a set of guided journal prompts designed to help process and structure one's perception of past, present, and future (as there are three different programs in the full suite)."
+bodyweightfitness,fl3fqhg,t3_fm9kli,1584781815.0,"I work at UPS, and I can say that I've seen just as many packages of toilet paper as I have workout and entertainment equipment. It's a lot harder to move than the hordes of wine and pillows that I saw around Christmas-time."
+cubase,fl35kqo,t1_fl2z6nn,1584769588.0,"This post was my first thought as well. This way, input can be done manually (i.e. without playing it), and can be humanized after the part has been input."
+NarcissisticAbuse,fktcur8,t3_fkh1g2,1584514296.0,"It's so true. It also brings to mind an odd memory.
+
+I remember seeing a big difference after having gone no-contact for about 5 months. When I finally interacted with my ex again, she tried to hurt me as she used to, but it was as if her aim was off after having been away so long. While it *was* easier for me to spot the manipulation and gaslighting, it really seemed as if she lost her understanding of how to properly hurt me emotionally."
+NarcissisticAbuse,fkrvg13,t3_fk7n4u,1584476830.0,"Good Lord, friend. This fit my situation a bit too closely. I was married for seven years and got out a few years ago, but I still have no idea how to recover from it all.
+
+In any case, I'm grateful for posts like these. Thanks for reminding me that there are others who understand."
+cubase,fkkuq7j,t3_fj4l4b,1584292346.0,"That sounds like a sample rate issue. Double check your export and playback sample rates (the project sample rate, and your audio driver sample rate)."
+cubase,fki41cy,t3_fin55y,1584211519.0,"I'm not exactly sure, and I'm not at my terminal. However, I know that you can open multiple parts in one window. Would that help?"
+cubase,fkfb9fz,t1_fkf8532,1584130698.0,Gluing works
+mentalillness,fkdoha9,t1_fkdo7ug,1584087527.0,"It will always be hard, but it will almost always work out. I truly believe that the greatest good is often the most inconvenient good. By doing that which we want to avoid, we actually develop into something greater than before. We don't just change our circumstances - we actually change ourselves."
+mentalillness,fkcmajo,t3_fhps3c,1584056139.0,"Sounds like you experience some dissociation and depersonalization (derealization). If these are causing distress, and your provider isn't addressing it, you need a new provider."
+Minoxbeards,fkchq9s,t3_fhokjq,1584053322.0,Just goddamn majestic. Good stuff
+WatchPeopleDieInside,fkcc1li,t1_fkc22a7,1584049934.0,"A bit less extreme, but renowned chef [Massimo Bottura tries similar ideas to reduce food waste](https://youtu.be/HYQg6bz8wvg). He's quite passionate about it, and [works to inspire others as well](https://youtu.be/SlYdKuKdbKA)."
+abusiverelationships,fkbrivh,t1_fkbivz3,1584038479.0,"I have to voice my appreciation for that. As a male who was abused, then alienated by all my friends and peers for leaving (due to the post discard smear campaign), it's interesting to see how people don't understand or care about abuse against males, or less evident types of abuse in general."
+iamatotalpieceofshit,fkalgg7,t1_fkal1f7,1584012539.0,Nope. No it's not.
+iamatotalpieceofshit,fkahix3,t3_fhcine,1584008288.0,"I remember when [this video](https://www.youtube.com/watch?v=KQ-YjGmpO4Q) first came out. It made a bit of an impact, was quickly swept under the rug, and was forgotten. Now, I can't even find it with search results on YouTube.
+
+Of course, he's been known to be a bit [hands on](https://youtu.be/xSSMG0MaEnQ) for quite a long time. Not that it seems to matter. But it certainly makes you think a bit about stuff like [this](https://youtu.be/3DbE2SmV2bs) or [this](https://www.youtube.com/watch?v=_1xnunfpurA)."
+mentalillness,fkagv7n,t1_fka2g0b,1584007473.0,"Yes, explanations aren't excuses, but they can sometimes resemble each other. However, they function very differently. Excuses attempt to absolve the perpetrator, taking away guilt or responsibility. Explanations point to the root of problems and their solutions, and invites sympathy. 
+
+The point is that we aren't excused from the damage done, but that the damage isn't always in our control. If we tell the truth but also take responsibility, then those we hurt will have the opportunity to give sympathy and gain understanding."
+cubase,fkae4r2,t3_fhd7ps,1584003842.0,"Enable the plugin for automation (within the plugin ui, at the very top left, there is an activate, bypass, then read and write buttons). When read and write is enabled, just tweak the plugin while recording, and the automation lane should automatically open up."
+cubase,fkae0mt,t3_fhcrav,1584003691.0,"They're not really compatible, in terms of project files. The only way I can think of (although my garageband experience is dated) is to export each track individually, then to import them individually."
+cubase,fk90gos,t3_fh5s4l,1583966286.0,"Click on the plugin name on the instrument rack, select ""No VST Instrument"""
+CPTSD,fk8p3cu,t3_fgz9lr,1583960215.0,I needed this. Thank you.
+Jung,fk8ndzu,t3_fh1jxm,1583959336.0,"I've had a recurring dream similar to this. After much thought, I've extracted my own meaning, in conjunction with another recurring dream from my childhood. Although, I'm not experienced in dream interpretation or symbology, so I'd be curious as to what others would say about it. In any case, I've had an experience close to this."
+abusiverelationships,fk6qlhk,t1_fk5zlqi,1583911821.0,"Thank you. It means a lot to hear that it's useful for someone.
+
+It's an idea I've thought about a lot, and I feel that I've got a pretty decent handle on it.
+
+The way that I usually explain it is pretty visual, but I've yet to find a way in which it doesn't really fit. For me, I imagine the way we develop as humans to be like a network, branching out like a tree. When we're first born, we develop very simple one dimensional ideas on how to perceive the world. As we grow, we add on details to each of these basic ideas, like branches off the simpler (but more rooted) ideas. It adds to the original idea like extra pixels in a low resolution picture - we gain more clarity. As we develop more branches, the ideas become more sophisticated, and the original ideas become more grounded and permanent. 
+
+These rooted ideas become axiomatic, meaning that we assume they're just innately true. We develop exceptions to these ideas when we encounter something that requires further development for the original idea to still fit. For example, if we're sheltered through our childhood and adolescence, we have an idea of the world which doesn't often include malevolence and danger, because we haven't encountered it. 
+
+Trauma is experience which invalidates axiomatic branches of understanding. It's something which not only breaks large branches, but also affects the surrounding branches as well. Abuse is something which distorts our worldview. We thought we knew the person. We thought we understood their intent. We thought we knew what we were doing. We thought we knew our friends and family. We thought we knew the world. These things are commonly affected by an abusive relationship, and therefore are all damaged branches on our consciousness ""tree.""
+
+As one can imagine, this is dangerous territory for the psyche, because it will suddenly feel threatened by everything, because it now feels as if it knows nothing. This is why with traumatic experiences, retreating into trustworthy relationships is necessary, as trustworthy individuals who know us can reassure portions of our understanding, acting as anchors for branches on our tree. If we lack this support, those branches can easily die.
+
+This is why the most abused individuals are those who are naive with good intentions. They care about the abuser, and the abuser uses that ""virtue"" to manipulate them. This is also why abusers isolate their victims, as trustworthy support strengthens the branches that the abuser needs to invalidate and break. This is also why victims incessantly seek understanding after leaving, as they are trying to fill the gaps left by the broken branches in their consciousness. We want to understand the world again, but our worldview needs to become more sophisticated in order to include the abuser, and those like him/her. That means that we need to understand the abuser (i.e. methods, motivations, etc.). 
+
+It's not an easy, simple, or quick process by any means, but it's a necessary one."
+abusiverelationships,fk5hey4,t3_fgl200,1583880550.0,"It's not uncommon. I know it's certainly this way for me. After having thought about it for a long time, this is the conclusion that I've come to.
+
+One of the reasons that abuse or trauma become so powerfully negative is the lack of understanding behind the circumstance. For instance, when entering into an abusive relationship, we don't immediately assume that it will become abusive. We have no negative expectations for the future. In fact, in many cases, we assume that abuse is not even an option or possibility. When it turns out to be abuse or traumatic, we not only wake up to a bad present, but we also try to reconcile our past experiences - looking for signs in the past which could have deterred us from the negative outcome. We try to figure out where we went wrong, or if there was something else we could have done. 
+
+Trauma is traumatic much of the time because it is not only negative, but because it invalidates a worldview which we once understood to be real and truthful. When faced with proof that it was wrong, it destabilizes past perceptions, experiences, thoughts, feelings, and even self-trust. It changes you to your root, because you were so wrong about what the relationship was. 
+
+When the mind isn't convinced that it understands it completely, then it knows that it's vulnerable in the same way it was before - like a vehicle that isn't entirely repaired. It's trying to find the weak areas that need attention, and it won't feel satisfied until you understand the whole situation. This, however, is near impossible, because you can't get all the details necessary. You can't understand everything that went through everyone's minds. I often get stuck weighing out potentials for all the details that I don't possess, as if it's a way to find the most logical assumption to latch onto until I possess more details.
+
+It's hard for me to briefly and succinctly describe in writing, but [here's a great video on it for your reference](https://youtu.be/Snke9v4S2rU). Pretty much everything in here resonated with me."
+mentalillness,fk3iyir,t3_fg6qdj,1583835738.0,"This worked for me during some of the worst times for me. I basically subscribed to one of those cheap subscription box services, and I had to convince myself that I needed to see what was in the next box. 
+
+As for the whole ""live for someone else"" thing, that always used to bother me. I was largely abandoned and discarded by my friends and peers after I left an abusive relationship, became homeless, and subsequently developed a case of cPTSD. To hear statements like that would make me so angry - I'd think of all the people who'd come out of the woodworks to voice their surprise or lament at my passing, and yet would never call me up when they knew I was struggling. That whole approach just never worked for me."
+selfharm,fk3etu5,t3_fg92gu,1583830027.0,"When I first got on antidepressants, I developed serotonin toxicity syndrome as a result of too large a dose. The culmination of this experience was in two suicidal hallucinations, the worst of which involved seeing me brutally cut myself. Ever since then, I am scared of blades.
+
+However, as time moved forward, I developed the desire to self-harm, and the mechanism helped regulate my emotional distress. Being scared of blades and wanting to self-harm, I turned to scratching, and when that didn't provide enough pain to release endorphins, I turned to hitting myself. This intensified to the point where I'd use tools to self injure.
+
+Even when I reigned in the practice and impulses, I ""emotionally"" self-harmed, which I find to be just as destructive in me. Even if the practice, method, or reasoning may not resemble that of others, self-harm is self-harm, and it's still the same mechanism. Cutting is just the most common (and even then, I'm not sure on the figures). However, if you were to look up self-harm, burning is still mentioned as common method.
+
+The point is that self-harm is self-harm. You don't need to invalidate yourself. You belong here. It's not a competition, nor is it quantifiably standardized. We physically hurt ourselves, and this is a place for people like us."
+NarcissisticAbuse,fk24ape,t3_ffz8w1,1583792849.0,"From my experience, it seems to point at lack of judgment in the narcissist, and therefore threatens their self-perceived perfection.
+
+This is why a relationship with a narcissist follows the similar pattern of idealize, devalue, then discard. They find something they are attracted to, and have to inflate their perception of you to match their expectation for themselves (i.e. ""I am amazing, so I deserve someone who's amazing, and so if I'm attracted to you, you must be amazing.""). 
+
+When they find your flaws, it defies their expectation of that perfection they thought they'd get (i.e. ""You aren't amazing because the relationship has flaws. Since *I'm* amazing, you must have lied to me about how good you were, because I'm not a bad judge of character.""). The truth is that they can't accept that they were imperfect, and that they could have chosen someone who was imperfect. It's *your* fault, and likely because you lied to them, not because they made a bad decision with good information.
+
+They generally discard because they have:
+
+1. Exhausted you of your ""value"" to them, and
+2. Secured another source of ""value"" (likely following the same cycle as before).
+
+In short, they hate your flaws, because they are proof of *their* flaws, which they can't process. Also, keep in mind that the flaws don't even need to be big, but they are MASSIVE to the narc."
+abusiverelationships,fjqojm2,t3_ferk8x,1583575997.0,"Ok, here goes.
+
+I (M31) left my abusive wife (F34) about 3 years ago, and there are a few things I wish I knew. It's not one size fits all, but it would have helped me, so I hope it's useful here.
+
+First off, DO NOT stick around because of some sunk fallacy. DO NOT stick around because of sympathy. DO NOT stick around because of some hope that he will change (just because he *can* does not mean that it's likely - in fact, he's more likely to change when he is left alone, as you will no longer stay there to enable his abuse). There's nothing that makes staying in that environment worth it for you, him, or any of your kids, so stop making excuses for him. Explanations for his behavior aren't excuses for his behavior. You know *why* he is abusive, but that's only useful when trying to fix the issue, which he clearly isn't. That's a clear sign that the positive end you want isn't coming.
+
+You probably did marry the wrong person. Or rather, he may no longer be the person you married. Either way, it's irrelevant. You need to leave this behind and create a better future for yourself and your kids.
+
+That being said, DO NOT cheat on him to be vindictive, or just to hurt him. If you have someone with whom you feel real connection, be open and honest, but don't be rash. The reason I say this is because any behavior like this can backfire socially or legally. It gives him power to manipulate those around you and turn them against you. Think about it - if you cheat, then you become a cheater, and few people care about the reasons behind infidelity.
+
+I actually only found the strength and hope necessary to leave my wife by confiding in, leaning on, and eventually developing a relationship with another individual. That being said, my infidelity became a springboard which led to my alienation and isolation, and it truly affected me just as heavily as the abuse did. I do not regret my relationship, but I regret the misunderstandings it caused. I loved that girl with all that I am, and I wish that for you, but in its due time.
+
+Get the paperwork for your divorce started ASAP, separate ASAP, organize everything you need to in order to make it happen, and THEN start a relationship."
+cubase,fjmpsqu,t3_fe5lgh,1583478710.0,"The hard part for me was finding out that OBS doesn't natively support ASIO. That being said, there is an extension to enable support, found [here](https://github.com/Andersama/obs-asio). It required some tweaking, but I've gotten it to work."
+mentalhealth,fj6afqt,t3_fbm2a3,1583064661.0,"Everyone is throwing in important things to supplement, and I'd also like to recommend Omega-3 supplements. There's some evidence to support the notion that they may have a significant impact for many on mental health, and overall health for most."
+JordanPeterson,fj6513d,t3_fbpg01,1583057042.0,"It's basically the initial topic of conversation in any of his visits to Joe Rogan. Joe is puzzled each time one of these controversies comes out, and Jordan has his own deconstruction and analysis to explain it all. I'd recommend watching those for Jordan's take on it - a take in which I find little fault."
+abusiverelationships,fj25hpl,t3_fagcw8,1582935041.0,"Thank you for sharing. I had to take it in small bursts, but I finally got through it all. It was just so reminiscent of my ex in minor ways, so it ended up triggering a lot of memories for me, but I am grateful. I've found that one of the best ways to recover is to share experiences with others, especially with those who actually understand, and I hope it's helped you. At the very least it's helped me, so I'm grateful."
+mentalillness,fi8d0ln,t1_fi8c82f,1582237918.0,"While this may seem like a flippant and potentially insensitive answer, I do have to say that things like what OP mentioned were contributions to my divorce. It took years to see that what I thought were inconveniences were actually modes of covert and inevident abuse. I'm not saying that it is, I'm just saying that it was for me.
+
+In any case, OP, you deserve to be heard and understood, not invalidated and dismissed, especially with something like this. If communication always ends up this way, there's something wrong."
+mentalillness,fi1bq4r,t3_f5woce,1582054572.0,👋
+mentalillness,fhysqbl,t1_fhyjv2u,1581982923.0,"Well, remember that narcissism is a group of traits, and observations of those traits are much older than the medical diagnosis of NPD.
+
+I think it's fair to say that someone is narcissistic, but to say that someone is a narcissist without a diagnosis is where the distinction should be made. It's possible to be narcissistic without NPD."
+mentalillness,fhuacjk,t3_f4plbp,1581884011.0,"When seeing a mental health professional for the first time, it's easy to assume for many that they will understand things perfectly, as if their training makes them able to see your small and subtle cues, past experiences, even your whole soul. It's probably an aspect of some diagnosable trait, but at this point I'm not really sure.
+
+The actual truth is that they may not notice these things at all, as you just have to remember that they are humans with varying experience performing a job, and that they're not some omniscient being.
+
+When I first saw psychiatrist, he had diagnosed me with an adjustment disorder because I decided some difficulties in my life that I had recently been dealing with. What he didn't know was about my abusive past, and that difficulty in talking about it made it impossible for him to actually know that I had been abused. In seeing another psychiatrist later down the line, he actually changed my diagnosis to complex post traumatic stress disorder, which is indicative of an abusive history. He was only able to diagnose that because I mentioned to him all those aspects that I had previously hidden.
+
+The point is don't hide it from your doctor. They really need to know everything that's going on, otherwise they really can't help you."
+abusiverelationships,fhpo73q,t3_f4asir,1581792919.0,"You did it! That's huge, so try to celebrate that for now. Everything else has already been set in motion, so just take solace in the safety you have for a moment."
+AskReddit,fhe0qou,t3_f2goj1,1581510056.0,"When we had a teacher get caught on ""To Catch A Predator."" We had news crews hanging around for weeks, and plenty of students trying to exaggerate stories to get on tv.
+
+It became a bigger deal when he actually came back to teach for a few days afterwards, because no one in the school district was notified about the incident."
+mentalillness,fhdqzdn,t3_f2bmmi,1581497234.0,"This is a type of anxiety, and without context is absolutely useless for diagnosis (and I'm not saying that diagnosis here would even be possible or warranted either).
+
+While anxiety can be diagnosed as a disorder (e.g. generalized anxiety disorder, etc.), anxiety is also a symptom of countless other disorders or conditions (i.e. most personality disorders). In many cases, anxiety doesn't point to a disorder at all, but rather something less severe than what could be seen as diagnosable. This is why so many people say that it's normal, because it is to a certain degree. However, anxiety disorders are generally *very* disabling in a way that many do not generally understand. This is why we always say to seek professional and licensed guidance and treatment, especially when seeking a diagnosis.
+
+In other words, this question is impossible to really answer."
+gifs,fgnup2i,t1_fgnfg7w,1580953303.0,This hit so close to home it's ridiculous. I was right there with my wife a few years ago.
+mentalillness,fgmqvzs,t1_fglr7gi,1580930216.0,"A few things. 
+
+Research has shown that environmental factors often have *more* to do with it than genetic factors, whereas genetics play a more major role with SMIs (severe/serious mental illnesses). In other words, it's far less likely for environmental factors to induce severe schizophrenia than it is generalized anxiety, for example. From what I know, genetics aren't something that can be passed down within a few generations - it's a disposition passed down through many many generations, and a mutation to spontaneously appearing is unlikely. In order to attribute the majority of a disorder to genetics, it'd have to go back several generations. Now I'm not saying that yours doesn't (it's apparent that your mother growing up poor in Asia is an indicator of a pervasive povertous social status going back generations, supporting both environmental and genetic criteria), I'm just saying that environmental stimuli often have a far greater effect than we recognize.
+
+In addition, it's quite common for individuals with trauma to develop chronic mental health conditions, displaying that these environmental stimuli can be just as potent and pervasive as any genetic factors. It's especially true when experienced in formative years. 
+
+For example, when you mention that your mother had a turbulent childhood, it almost always indicates that something affected her so deeply as to affect the rest of her life. When you mention that she was so poor that food and water wasn't guaranteed, then I can certainly say that I can't possibly imagine that NOT having long lasting effects, perhaps even life long effects. Prolonged distress alters brain chemistry, and when it's due to the lack of our primary needs (i.e food, water, healthy socialization, love and affection, etc.) when we're young and still developing, it can absolutely do lifelong damage."
+mentalillness,fglbjxe,t1_fgkqred,1580889533.0,"That is *definitely* true, and it's why it's a necessary portion of recovery in these situations. Some say that yesterday's experiences are tomorrow's personality, and I personally find that to be more true than not. Our perspectives are a result of our experiences, and so one could say that we are shaped by our circumstances, in a way.
+
+Knowing that we can influence our personal states by shaping our circumstances, however, does require an exemption for those formidable years of development. In those years, we literally lack the capacity to enact positive circumstances on our environment, and we rely on, ideally, our family and parents to do this. They hold the responsibility to shape the environment so as to mitigate the negative stimuli (i.e. ""mental health germs"") while we are defenseless. Like with the germs metaphor, a tiny baby is ideally better guarded against germs than with a teenager. Responsible caregivers know that even the slightest illness could wreak havoc on a newborn, so we create an environment designed to protect the child.
+
+It's the unfortunate truth that there are parents who do this physically, yet do none of this mentally or emotionally. The result is potential life-threatening illness of a mental and emotional variety. However, as physical health has tangibly physical markers, mental health has relatively intangible mental markers (and while the *effects* of those mental markers may have physical effects, they are indirect consequences of the real cause - the mental health germs). Therefore, they can easily be discounted or scapegoated, further reinforcing the negative conditions already present.
+
+I thoroughly believe that if improvement on this front is really our goal, then we have a moral responsibility to cultivate an environment where these germs can't thrive, where we can recognize them, and eradicate them (not through force, but rather gentle coercion). This is something to be done on an individual scale, and can't be legislated or enforced. However, the awareness of this process can definitely be taught - just as we've seen with physical health and hygienic education.
+
+&#x200B;
+
+Edit
+
+To add to what I said concerning the recovery of neglected or abused individuals, it's often the case that the individual finds this sense of power in tandem with feeling angry about the situation. For instance, I was in an abusive marriage, and I didn't realize at the time just what was happening. I was always blaming myself for everything, and I eventually found that my wife was at the center of it. I felt so much pain and anguish rather than anger. 
+
+However, well after I had left, I came across my anger, and I found that it was indeed healthy (when civilized). Essentially, my default previous to this was feeling hurt and sad, depressed, withdrawn, and distrusting. However, once I found a healthier sense of self, I felt angry because I finally understood that I deserved better than I got. I had relinquished my ability to change the environment because I trusted her to do it in a way which was mutually beneficial to us both. She took advantage of my trust and abused me. My anger unlocked something healthier in my self-perception, and I feel that *that* internal aspect of whatever was unlocked is necessary to all individuals. I feel it intrinsically tied to our individual ability to influence our environment, and those who are abused either lack the ability, or they naively relinquish it in confidence. Those who recover from these situations inevitably have to reclaim this ability."
+mentalillness,fgkdodc,t3_eyvr6w,1580863145.0,"The general understanding is that it's far less likely for a condition or a disorder to happen purely from genetic factors than from genetic *and* environmental factors combined. This is why diagnostic material mention environmental heritability, not just genetic heritability. This isn't certain for *every* condition or disorder, but the majority of them. Genetic factors usually just mark a predisposition to the condition, not the likelihood of the outcome.
+
+The way that I generally explain it is by relating the general understanding of physical health to mental health.
+
+For example, with physical health, almost everyone knows that hygiene can help prevent disease. From an early age, we are taught about germs and fighting them off via good habits (i.e. washing hands, proper food preparation, cover mouth when coughing, etc.). We inherently understand a few things from this alone:
+
+1. Everyone is susceptible to disease, but some people get sick more easily than others, and in some cases, often with specific diseases (i.e. cold, chills, etc.).
+2. Germs from the environment affect the likelihood of contracting a disease (i.e. infected food, dirty hands, etc.).
+
+If we apply this to mental health, then we can see that it's not always straightforward. Yes, a parent may have had *X* or *Y* disorder/condition, but that's no guarantee that their children will have it. In many cases, these disorders occur because of the ""mental health germs"" in the environment, i.e. environmental factors. It's why more attention is being spent on trying to quantify the types of environmental factors we may commonly encounter, like [ACE - the Adverse Childhood Experiences scale](https://www.cdc.gov/violenceprevention/childabuseandneglect/acestudy/index.html). A higher score shows the statistical predisposition a person may have to have disorders, but it's no guarantee that they will develop.
+
+To be honest, it's one of the reasons that self-diagnosis is so often damaging - there's a sense of power lost when one sees their statistical ""destiny."" However, in understanding that the majority of the battle is fought (**and can be won**) in our environment, we find that we actually have a lot of power and control over what may occur in the future. To be clear, this is *not* blaming individuals for their disorders, but rather displaying the responsibility and power we all have in improving ourselves and keeping those around us safe from potential ""mental health infections.""
+
+&#x200B;
+
+Edit - clarity"
+funny,fgenvkq,t1_fgemdu6,1580704345.0,"On guitar, some of the easiest chords to learn utilize open strings, since one would have to otherwise press on every string to make a chord. Barre chords are the default when trying to play without open strings, but it requires a substantial amount of strength and coordination. A capo allows one to change where the open strings are located, thus letting the guitarist play with open strings in other keys.
+
+TL;DR - A capo is used to easily change keys."
+MadOver30,fg2w1lq,t3_ewhgt0,1580458355.0,"I used to violently self-harm myself. Through lots of personal work and therapy, I now no longer physically self-harm as much, and it certainly isn't so violent as it used to be. That being said, instead of physically self-harming, I mentally self-harm. My self-talk is just as violent as it used to be, and my mental images are similar to your own.
+
+I'm trying to put in more work into this new phase. I recognize that these behaviors of mine are linked to my past, a result of my abusive marriage. Every one of these negative thoughts have a underlying reason, a perpetuation of what my ex-wife did and how she made me feel. 
+
+When I get these moments of fantasy, I try to imagine the submissive clone as a younger version of me, a child who was so naive and well-meaning. I try to imagine myself as my ex-wife, abusing me and hurting me. That is, to me, the accurate representation of what's actually happening.
+
+I don't know you nor your situation. That being said, I sympathize with your struggle. I hate myself so much as well. However, please believe me when I say that I wish you didn't hate yourself so much. I hope things start to improve for you - I know it can't be easy."

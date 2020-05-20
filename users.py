@@ -1,6 +1,7 @@
 import praw
 import csv
 import time
+import threading
 from os import listdir
 
 subs = set() # Load in list of subs
@@ -42,27 +43,49 @@ users = set() # Load list of users into mem and remove duplicates
 with open('data/sadboi/users.csv', 'r') as userList:
 	for u in userList:
 		users.add(praw.models.Redditor(reddit=r, name=u.strip()))
-print('TOTAL LEN:', len(users))
+print('TOTAL LEN:', len(users)) # 37k for sadboi
 
 def commentData(c):
     return (c.subreddit.display_name, c.id, c.parent_id, c.created_utc, c.body)
 
-worked, errored = 0, 0
+current = set()
 
-for user in users: # generate comment csv's for users
-    if '%s.csv' % user.name not in listdir('data/sadboi/users'):
-        print(user)
-        comments = user.comments.new()
-        try:
-            writer = csv.writer(open('data/sadboi/users/%s.csv' % user.name, 'w'))
-            for comment in comments:
-                if time.time() - comment.created_utc > 31556952: # past year
-                    break
-                writer.writerow(commentData(comment))
-            worked += 1
-        except:
-        	errored += 1
-        	continue
+def fetchComments():
+    for user in users: # generate comment csv's for users
+        if user not in current and '%s.csv' % user.name not in listdir('data/sadboi/users'):
+            current.add(user)
+            print(threading.current_thread().ident, user)
+            comments = user.comments.new()
+            try:
+                writer = csv.writer(open('data/sadboi/users/%s.csv' % user.name, 'w'))
+                for comment in comments:
+                    if time.time() - comment.created_utc > 31556952: # past year
+                        break
+                    writer.writerow(commentData(comment))
+                # worked += 1
+                current.discard(user)
+            except:
+            	# errored += 1
+                current.discard(user)
+                continue
 
-print(worked, errored, worked + errored)
-# '''
+for i in range(5):
+    # worked, errored = 0, 0
+    t = threading.Thread(target=fetchComments)
+    t.start()
+    # print(worked, errored, worked + errored)
+
+'''
+zsh: 
+total=37400.0;
+slpTime=30;
+while true; do 
+    ls users | wc -l; 
+    du -h users; 
+    prev=$(ls users | wc -l).0;
+    echo Done Collecting: $(($prev * 100 / $total))%; 
+    sleep $slpTime; 
+    curr=$(ls users | wc -l).0;
+    echo Time Left: $((($total - $curr) / (($curr - $prev) * (3600 / $slpTime)))) hours; 
+done
+'''

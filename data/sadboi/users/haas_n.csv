@@ -1,0 +1,293 @@
+exapunks,fpcvskh,t1_fpcqqcj,1588514018.0,"Also side note, now that we know the file IDs just wrap around, we can just use a memory debugger to look for and change the ""next file ID"" in memory, rather than waiting through the 4 billion files."
+exapunks,fpcqqcj,t1_fpbcinc,1588509990.0,"Thanks for testing this! And wow, I didn't even think of the implications of file IDs colliding with themselves. I wouldn't actually be so certain. I don't see a reason why the implementation should be more advanced than a single ""current file ID"" counter that gets incremented on every `MAKE`, since all existing file IDs in the game are specifically designed to be below `400`.
+
+However, we can test this much more easily by simply seeing what happens if we create a file with an ID like `404` in the level editor and try `MAKE`ing a file that has the same ID. Since there's no ""left over"" state after the counter has overflowed back to 400, there's no reason why overflowing past 400 and back should behave any different."
+MadeOfStyrofoam,fhzelud,t3_f5kwc6,1581997508.0,"It gets easier over time. Trust me, OP. It always feels impossible at the beginning.
+
+Made that promise 2 weeks ago, and so far I've ""officially"" relapsed once (plus some days spent making light scratches / stabbing at my skin, the first few days), but despite this, I more and more find myself in difficult situations wanting to yeet but then refraining from because I'd feel too guilty for having done it."
+Codependency,fhzasa0,t1_fhyuino,1581994824.0,"Yup.
+
+I think it's disturbingly common that the ""codependent"" in a relationship is often the one with the bigger ego - they pour so much energy and love into somebody they think needs ""saving"" because they *expect* them to give them love in return. It's a way of manipulating others, while simultaneously convincing yourself that you're doing it for them. I suspect a lot of codependents may have ambivalent attachment styles, characterized by pouring excessive amounts of love and attention into the people we want to love us back; only to feel agitation or outright annoyance if they don't ""reward"" us for our efforts in the way we were hoping. Some people end up splitting on or lashing out at the person they're supposed to be loving, others end up just devaluing, disregarding and discarding them, but the ""dependent trap"" is to self-gaslight for getting annoyed at the person you're supposed to be loving, and lovebomb them even harder to try and make up for our own feelings of guilt. It's a vicious cycle because it sets you up for abuse by preventing you from self-sabotaging the relationship.
+
+Healing from codependence isn't just becoming aware of the cycle, and not continuing to fall into the trap of falling in love with people who need to be ""saved""; it's also a very big part of self-reflection and realizing that we are being unfairly manipulative on the people whose affection we try ""engineering"" with our codependent behavior."
+Codependency,fhz9mwp,t3_f5bwbt,1581994052.0,"The literature often says that somebody with attachment issues becoming attached to somebody with secure attachment is one of the ways to heal those attachment issues. You sort of ""normalize"" your sense of attachment by being able to lean on the source of stability and sanity and eventually absorb it by osmosis, rather than falling into the usual anti-pattern of seeking out other people with attachment issues for either explosively clingy or ""escape-chase"" style relationships, which just reinforces the issue.
+
+That being said I can't really counsel your recent relationship as I am not even remotely qualified to do so. But I did want to comment on your suspicion that he may have not been able to fall in love with you because ""you don't need saving"", and I definitely think that's relevant here. As somebody with severe attachment issues himself, one of the most important components of codependency/insecure attachment is a very strong feeling of worthlessness, of not being able to provide anything for my partners. I latch onto partners that I think I can ""save"" because this is the only way I know how to feel needed/loved. Somebody who clearly doesn't depend on me telling me they like me / love me makes me feel guilty, conflicted and even outright confused - I don't experience any of the signs of them ""depending on me"" so how can they say they love me? Because ""being viscerally depended on"" is the only expression of love you know, anything else is just alienating."
+thanksimcured,fhx78nn,t3_f57jgg,1581946847.0,"1. Programming
+2. Programming
+3. Binge-watching educational youtube videos
+4. Reddit
+5. Masturbating
+
+Looks like I'm covered, why am I still depressed?"
+BPD,fhx6xe4,t3_f588ek,1581946570.0,"Agreed. It's not even the stigma of the label, although being labelled does not make it any better. It's the fact that even without a diagnosis, everybody you want to get close to sees through your bullshit and gets wary in your presence because they can tell how desperate you are for their affection. People pick up on just how hard we manipulate them and that makes it even worse for us. It's like a catch 22. Need to stop craving in order to start getting what it is we crave."
+2meirl4meirl,fhx1hiz,t1_fhkapz0,1581940911.0,"Y'all still dream about falling in love?
+
+I'm next level. I have regular nightmares about people telling me they hate me, rejecting me, or breaking up with me."
+antinatalism,fhx0im5,t1_fhwx3tk,1581939660.0,"Good point. Diminished risk, then."
+BPDmemes,fhwus58,t3_f53ewp,1581931291.0,this is the most BPD picture I have ever seen
+CPTSD,fhwfknq,t1_fhvzxh1,1581914388.0,"> So if you want my judgement, it is this: you're being honest, possibly more honest than most.
+
+This is so true it hurts. Really when it comes down to it, a lot of social media (reddit included) is posturing and virtue signalling. Because all of us, but especially those of us who've been neglected, are desperate for the approval of others. We self-censor incessantly. We don't show our true faces, the ones beneath the masks. Being so dishonest on places such as /r/CPTSD which spread an atmosphere of ""positive encouragement"" may not even be helping us, except by providing us with a fuel of social acceptance that we can rely on to self-excuse our own learned *bad* survival instincts rather than confronting them.
+
+""It's okay, I don't need to change, because I posted the best sides of myself on an online forum and they accepted me for being who I am, therefore I can *continue living with a system of extremely destructive interpersonal survival instincts*"". Or maybe that's just the trap I tend to fall into.
+
+This is why I'm glad /r/CPTSDFightMode exists, note, because it's a place deliberately created to avoid having to show your best sides. Because when it comes down to it, everybody who's learned to survive has on some level learned to manipulate, to distrust, and to serve their own needs over the needs of others, even if for some of us that means making sure other people are happy.
+
+And when I stop self-pitying and self-praising and really boil things down, I hate the person I am *far more* than I could possibly hate anybody else. I want to overcome my past, not wallow in its aftershocks. This requires focusing on the real problems and finding real solutions for them."
+CPTSD,fhwesyn,t3_f4y900,1581913819.0,"> It has made me bitter, aged beyond my years, cold, untrusting and focused on myself and my survival. It has torpedoed relationships and friendships. It has often made me manipulative and an asshole.
+
+Amen to that. Amen so hard. Growing up isolated and alone makes you think of nobody but yourself. Growing up with an emotional deficit makes you desperate to fulfill those deficits. Growing up learning to rely on your intuition rather than logic and reason makes it difficult for you to accept changes to your worldview. Growing up being bullied by everybody you know makes you learn to hate other people and carry a pill of resentment for the rest of your life. Growing up amidst unstable social surroundings makes you used to withdrawing from people and ""finding new friends"" at the first sign of conflict.
+
+It show cases the difference between fawn and fight more responses pretty clearly, in my opinion. I'm freeze+fight and I hate it. I hate every aspect about myself and I wish I could hate myself into being a better person, but it doesn't work that way."
+MadeOfStyrofoam,fhwe53a,t3_f4zn9c,1581913327.0,"Mmmm delicious serotonin cakes
+
+I want one"
+Codependency,fhtssnm,t1_fhtncxg,1581877784.0,"The anxious/ambivalent attachment style combined with the hole in your chest causes you to incessantly manipulate people to fill that emotional void; but then blowing up at the slightest bit of conflict or criticism and going into full nuclear meltdown mode either a la ""fine I don't need you anymore, you suck anyways, I was better off alone anyways""-style devaluation as a preferred conflict avoidance strategy, often cycling between the two.
+
+In the extreme case, they will both end up pathological liars and selfish manipulators who bounce from relationship to relationship as soon as it shows signs of not being the source of unconditional love they're secretly looking for. The NPD will just assume they're just being the way they are and continue trying to abuse other people to solve their own baggage rather than actually confronting it; while the BPD will realize they're the source of the issue, want to kill themselves because of it, and assume they deserve to lie down in the dirt and eat worms because nobody will ever love them and their baggage.
+
+That's my personal perspective on it anyway. These disorders manifest themselves in different ways in everybody. I have personally been diagnosed with BPD but I still suspect I'm probably just a narcissist so hard in denial about his own narcissism that I've convinced myself to pretend to feel bad about any of what I do and started believing my own manipulative lies.
+
+(Oh, I also believe that ""codependent"" and ""narcissist"" are disturbingly close together. I'm pretty sure I exhibit characteristics of both. I mentally cringe every time I hear people on social media blaming their ""toxic ex"" on being the source of their misery, because the usual relationship dynamic in the real world is that both parties are being horrible on each other while each being in denial about their own behavior. I get the feeling that truly one-sided abusive relationships are rare. But that's enough unpopular opinions out of me today. Let the downvotes commence)"
+MadeOfStyrofoam,fhtn3jh,t1_fhtm4ed,1581875990.0,it's reddit :\^)
+Codependency,fhtjhed,t3_f4ty5q,1581874997.0,"They devalue themselves and discard you because they figure they're horrible people and are just  abusing you anyways to satisfy their own selfish desires.
+
+Honestly the amount of overlap between BPD and NPD is high and it basically boils down to how hard you're in denial about how much you're the source of everybody else's misery."
+thanksimcured,fhtf086,t3_f4tfl2,1581873852.0,"Am I a horrible person if exactly this fantasy is why I want to kill myself?
+
+Maybe when I'm dead and gone people will start caring."
+MadeOfStyrofoam,fhtdx6c,t3_f4t3c6,1581873437.0,I've never been to a party before but yours sounds cool
+MadeOfStyrofoam,fhtdewm,t3_f4tfod,1581873351.0,what was the joke OP?
+limerence,fht8vyj,t3_f4qsh2,1581871811.0,"A personality disorder isn't a ""reason"". It's is just a set of symptoms one can fulfill. Symptoms that are themselves the result of something deeper. They all overlap. You could just as easily argue that limerence is closely related to DPD as you could argue that it's closely related to BPD, NPD, OCD or CPTSD.
+
+My personal take is that the deeper thing going on here is childhood attachment issues resulting in an unfulfillable craving for love and acceptance. Limerence is basically an addiction and according to modern research every addiction is the result of *some* sort of emotional deficit."
+BPD,fht82v0,t3_f4t07k,1581871470.0,"I do this but I wouldn't call it ""silent treatment"" because that implies it's somehow about *them*, especially with the connotations of the word 'treatment' implying that their behavior is somehow at fault. I would call it ""being too afraid to know what to respond and just deciding to run away from the problem"".
+
+Usually my first instinct after any sort of criticism whatsoever is to get disgusted with myself and then withdraw because I assume it's best that I just stay away from other people."
+antinatalism,fht6ta0,t3_f4rsz3,1581870956.0,Am I the only one being triggered by the implied assumption that antinatalists must be libright?
+2meirl4meirl,fht29a1,t1_fhsd1tq,1581869027.0,"The odds are astronomically low, but my teachers always taught me to never give up on your dreams."
+MadeOfStyrofoam,fht1h0q,t1_fhs9ux2,1581868704.0,ngl when I fucked up and smeared it all over my fingertips and underneath my nails it was pretty lowkey triggering because it genuinely looked like I had damaged or dislodged my nails and was bleeding from it.
+2meirl4meirl,fhs2lzu,t3_f4og9r,1581850724.0,What if you become a successful drug dealer?
+antinatalism,fhs2kbz,t3_f4btco,1581850657.0,"I empathize but I don't sympathize. Like yeah it sucks being them and I'll give them a hug if I see them being sad, but I also won't form meaningful bonds with them because of it or feel a genuine obligation to help them solve their self-made mess.
+
+In a similar note, I also don't really sympathize with people who end up doing dumb shit while drunk. If you decided to drink alcohol you reap the consequences of that decision. Yes I get your life is hard but you still need to take responsibility for your actions. Just kinda reminded me of that."
+collapse,fhs2djn,t3_f4ople,1581850386.0,"Proof of what we already know: The tyrants in control need to have their hand swayed. We can't get them to change their views, we can just change their surroundings to get them to end up doing the right thing.
+
+Change needs to come from policy, and it needs to start by putting people in power who are willing to both see and make that change."
+infp,fhs0p6j,t1_fhs0dvz,1581847961.0,"It unironically is. This is probably an unpopular opinion but MBTI is basically just armchair psychology and at the end of the day, what the ""INFP"" result *really* translates to is ""you should probably see a therapist""."
+infp,fhs0a94,t3_f4ager,1581847358.0,"Emotional neglect and insecure attachment creating such an intense void of craving for any signs of affection that you latch onto the first real hit of dopamine you get in ages and instantly become hooked, wanting more."
+2meirl4meirl,fhrzy5f,t3_f4l7gt,1581846873.0,"Oof. Literally what one of my exes said to me in an argument. That I live in a bubble universe of my own making and have absolutely no clue about any of what goes on outside it.
+
+She's right. It's nice and safe here in my bubble universe."
+antinatalism,fhrzv2l,t3_f4mxt3,1581846748.0,"Nope. I think it's perfectly fine. If anything, it's a slap in the face of evolution. All of the reward with none of the risk.
+
+Sex is pleasurable as a way to motivate us to even bother conceiving. We've managed to trick that system and use it for ourselves. Makes me feel pretty empowered."
+BPD,fhrzklo,t3_f4hnoz,1581846334.0,"Nah, I fucking hate every single aspect of who I used to be. (And still am, let's face it)
+
+I wish I was somebody else but at the same time I don't. I don't know who I can think of who I'd rather be, because I resent most people for being the way they are, especially if they either remind me of myself, or if they remind me of who I'm not.
+
+I kinda just wish I could start lucid dreaming and no longer have any reason to try being anybody at all."
+2meirl4meirl,fhrzhkx,t3_f4no27,1581846212.0,"Or just be like me and start dissociating when your brother starts pressuring you about your career plans.
+
+My career plan is to continue doing what I do until it kills me."
+MadeOfStyrofoam,fhrzal1,t3_f4oeer,1581845932.0,"Looking on the bright side, at least you didn't go home early. That's progress, no?"
+depression_memes,fhrz2tl,t3_f4jrzs,1581845622.0,"It's a phase, I just never left it.
+
+t. 26 year old that's somehow on the developmental level of a teenager"
+wowthanksimcured,fhryx16,t3_f4mvbo,1581845395.0,Forgot to include the gun and bullet so I can shoot myself for reading this.
+MadeOfStyrofoam,fhryqi3,t3_f4nshw,1581845134.0,"The stupidest way I injured myself in recent memory: I forgot I was holding a ~~slicey~~ sharpie and made a sudden movement when I went to pick up something else. Cut deep into my finger by accident. Cue massive adrenaline surge. Became lightheaded and passed out on my way to get it bandaged. Woke up with blood running down my hand and my neck hurting.
+
+Fun times."
+MadeOfStyrofoam,fhrym87,t3_f4kf5y,1581844962.0,"I'm tempted to try heat yeeting just so I don't have to feel guilty about breaking my ""no cutting"" promise. I'm sure it doesn't work that way, though."
+MadeOfStyrofoam,fhry9ti,t1_fhrnmam,1581844477.0,"Ironically I also can't stand it that every psychiatrist I open up to about my SH always makes such a big deal about it, so I guess that makes me a hypocrite.
+
+""WheRe Do YOu cUT?"" ""HoW OFTeN Do YoU Cut?"" ""WHaT do You USe To CuT wiTH?"" ""HavE YOuR cUTs beeN LooKeD AT by a MedICaL ProfFesIOnaL?"" ""ARe thERE anY SiGNs of infeCTioN?"" ""whAT FEeliNg doES cuTtiNG GivE YoU?"" ""do yOU feEl beTTer oR WoRSe aFteR cUtTiNg???"" ""Do YOu eVeR cuT whiLE inToXIcaTeD?""
+
+Like just fucking calm down, I know what I'm doing. I only cut """"""superficially"""""", remember? It's not like my arm is gonna fall off tomorrow. Can we stop making the discussion be about my self harm and start being about *why* I feel like my life is so hopeless that I need to self harm to prove it???"
+CPTSD,fhrxk2l,t3_f4jyn3,1581843471.0,"I think it's a sadly common story that people who were the victims of mainly emotional neglect/abuse end up suffering from the same symptoms as people who were physically or sexually abused, but end up stigmatized by society because they can't look back and identify something ""obviously wrong"" about their development.
+
+It's like, being mentally ill is considered socially acceptable if you have a sob story to back it up with. But if your ""trauma story"" amounts to little more then ""I never had friends and my parents disagreed with my lifestyle choices and tried changing me"", you end up being ridiculed and feeling invalidated as fuck for turning out such a failure of a human being even though ""oThERs hAd iT Way wORsE"".
+
+I relate to this hard as fuck. My own past was mostly defined by early childhood separation trauma, frequent moves (no peer stability or friends), a pattern of punishment by authority figures, school/sibling bullying and parents that constantly tried ""fixing"" me by applying pressure rather than attempting to understand. You know, the usual stuff kids go through. Nothing that's a sob story, even though remembering it still makes me personally break out in tears for some reason. Other people would probably find it ridiculous, which is a big part of the reason I struggle honestly talking about it. I don't feel valid enough to even post on /r/CPTSD. I comment sometimes but I'm pretty sure I don't belong here, and I feel guilty for pretending I do.
+
+I'm sorry you're struggling with similar feelings, OP. But at the end of the day, it's as they say: don't compare trauma stories. You'll only end up self-invalidating. You ending up here obviously isn't a coincidence. Somebody who is in a healthy place in life doesn't end up in a sub for survivors of complex trauma. Even if by virtue of simply not even having to spend so much time thinking about mental health."
+MadeOfStyrofoam,fhrx52h,t3_f4hxgf,1581842887.0,"I don't think it's right of you to listen to somebody trying to pressure you into being somebody you don't want to be. I don't think it's right to minimize it by telling you to ""get over it"" or that it ""isn't a big deal"". It sounds like it very much *IS* a big deal, to you.
+
+I know it's not my place to make assumptions, but I grew up being surrounded by ""friends"" that would pressure me into going along with their dumb shit. I was just so lonely and desperate for social validation that I ended up finding my way into exactly the wrong crowd of people to be growing up alongside. The kind of kids that would guilt me into beating up other kids even though I told them I didn't want to. This is itself a form of bullying and it's not healthy for your development.
+
+It sounds like you need to learn to make healthy boundaries for yourself. I do think you're a good person for not wanting to steal, and I would hate for you to have that resistance broken down by peer pressure.
+
+Would it help you if you went back to the shop and put it back where it belonged? You should be able to do that without anybody noticing, right?"
+infp,fhrw7gz,t3_f4bduw,1581841613.0,"At home, in their rooms. Posting on the internet. Or going on walks hidden away somewhere in nature where nobody else can find them.
+
+tl;dr you won't find them in the usual places where you go to meet new people"
+infp,fhrw31q,t3_f4fkkl,1581841444.0,"I think an important thing to not forget along the way is to ask yourself *why* you feel like you need to uphold a certain ""image"" or ""script"". Are these things that *you* care about, or do you just feel left out by not doing them? What actual needs are you trying to fulfill here, i.e. what exactly is it about the idea of having children that makes you happy? Which emotional and social needs are you trying to fulfill? Are there any other ways you could fulfill those same needs?
+
+(I'm personally a bit biased because I'm antinatalist and believe people who want children are always trying to compensate for something *else*, and I don't think having children makes anybody genuine happy - in fact I think most parents end up miserable but try desperately to avoid showing it to others because they fear being judged - but I'll admit that my perspective is incredibly limited)
+
+Anyway, at the end of the day, people like us have to resort to a bit of radical acceptance. Yes, we're still single. Our prime is past. It's time to stop wishful thinking and resort to coming to terms with what we can do with our lives that *doesn't* involve grasping for an image we already let slip through our fingertips. Is there any way I could become truly happy while also remaining alone for the rest of my life? What would that look like? It's up to us to decide who we want to be, after losing the identity of who we *thought* we could be. Or maybe it's best to live a life of chasing after an empty dream forever. I haven't decided. I don't think chasing a dream is fulfilling me, personally. But I also don't know what else to use to fill the void.
+
+I haven't figured this out myself. You should probably just ignore me."
+depression_memes,fhrvbdh,t3_f4j37k,1581840415.0,"""free space"" deserves to be ""browsing depression memes"""
+MadeOfStyrofoam,fhruzc8,t3_f4m9yl,1581839975.0,I'm so glad the comment section didn't disappoint. (Until I ruined it by commenting haha)
+2meirl4meirl,fhrpkxn,t3_f4gmfp,1581833623.0,"They should make a depression addon to the sims where your sims can get clinically depressed and it's your job to figure out how to solve it.
+
+Try painting something? Too bad, your ""intrusive thoughts"" meter is too high so you keep losing focus and giving up. Try inviting friends? Aaaw, all of the ""positive interaction"" icons got perceived as negative interactions and now your sim is even less happy."
+MadeOfStyrofoam,fhrodzp,t1_fhrmbth,1581832394.0,"The most important connection I think is that most physical illnesses are caused by lifestyle and lifestyle is determined by mental health. Somebody living in a way that neglects their own body is essentially almost by definition a sign of poor mental health, i.e. of the brain behaving contrary to its intended purpose (which is supposed to be ""keeping us alive"")."
+depression_memes,fhrl3te,t3_f4cxhj,1581829349.0,That's me. I'm the temporary problem.
+MadeOfStyrofoam,fhrknpk,t3_f4jvb2,1581828964.0,"I'm starting to believe that most physical illnesses are caused by mental health issues, so technically the lines are all kinda blurry."
+MadeOfStyrofoam,fhrkknn,t3_f4hmm6,1581828892.0,">fine point
+
+DAE use the tip of a ~~slicey~~ sharpie to just poke into your skin until it hurts, on the days you can't yeet because you promised not to, but you still really want to?"
+PhilosophyMemes,fhrkelk,t3_f4jw1m,1581828747.0,"I feel like this needs to be rebranded as a ""trolley solution"""
+MadeOfStyrofoam,fhpstbq,t1_fhpnuis,1581794694.0,"""but still lightly bleeding""
+
+*blood dripping down arm intensifies*"
+BPDmemes,fhpqpnw,t1_fhpp9qb,1581793811.0,"* constantly adjusting glasses or scratching face
+* avoiding eye contact like it's the plague
+* speaking so quietly people make you repeat yourself
+* never in public without earphones/headphones on"
+BPD,fhpfv75,t1_fhorwb4,1581788644.0,"But ""getting rid of intense emotions / craving love"" is just another form of ""personal gain"". I don't see the sense in this distinction tbh"
+CPTSD,fhokeg8,t3_f42vbq,1581761466.0,"I have a very low frustration tolerance when it comes to dealing with other people, if I feel like they're putting in less effort than they ""should be"". I tend to approach team-based things with obsessive perfectionism, and it's a big part of the reason I end up just withdrawing from any such activities. Can't deal with the frustration of other people not caring enough. If it gets too bad my first instinct is to just give up and stop; but if I'm somehow ""stuck"" in the situation and can't find a way to escape it, I'll eventually start passive-aggressively belittling the ""worst offenders"" in the hopes of getting *them* to give up, so we can all just stop and do something less pointless. This is essentially why I stick to isolated activities. Anything else is not fun and just turns me into an asshole.
+
+I also have a low tolerance for frustration for anything made by other people that I think is misdesigned and can't be changed. It's why I'm fanatic about free software - anything proprietary frustrates me simply by virtue of it being a piece of garbage and me being unable to fix it. If I'm somehow ""forced"" to use it, I'll spend the entire time using it making cynical or sarcastic remarks about it to whoever's unfortunate enough to be in my vicinity.
+
+Conversely, I have a very high tolerance for frustration when it comes to my own failures. I don't care how many times I need to try, I'll keep going at it until I get the result I desire; as long as the reasons I failed are entirely my fault. (If I feel like they're too outside of my control, I'll just get frustrated and give up)"
+infp,fhojrvf,t3_f438kh,1581760458.0,"It's a stereotyped answer to a stereotyped question. Not all INFPs are the same, and I think most of those are overgeneralizations.
+
+To answer the question: My worst fear is dying having never experienced healthy love."
+BPD,fhoivve,t3_f40js6,1581759071.0,"Not just today. Also I surprisingly don't even care about it being valentine's day, because I realized that I'm already stressing about being single on every other day of the year. There's practically no difference to me. It's just another day."
+MadeOfStyrofoam,fhoifrl,t3_f45v1z,1581758373.0,"Only 15/25, just barely missing bingo. Guess I'm surprisingly sane. Or maybe my past just taught me to hate the shit out of substances and get anxious and nervous in the presence of alcohol."
+MadeOfStyrofoam,fhoi690,t3_f41dmg,1581757972.0,"""not depressed but just a drug addict"" I'm not sure that's how it works
+
+From everything I've read, the thing about addiction is that it's essentially a substitute for lacking genuine life satisfaction."
+CPTSDFightMode,fhoi2j5,t3_f3yic3,1581757814.0,"Now we need a meme for ""When your abuser wants you to live for them, so you want to kill yourself just to spite them"""
+BPDmemes,fhoi0fr,t3_f41u2p,1581757726.0,"* being the first to leave the room
+* tensing up when somebody's walking behind you in public
+* can't sleep if you have any event at all planned the next day
+* \*new notification\* doesn't check because terrified of contents, but then can't stop stressing about it until you do
+* can't pay attention to what people are saying
+
+but I don't get panic attacks so my anxiety is fine and I shouldn't worry about it"
+BPD,fhohrsy,t3_f41hyu,1581757366.0,"I think it's pretty normal for emotionally strained people to pop in and out of narcissism, *especially* people who grew up being somehow emotionally neglected or isolated from society. I wouldn't worry about it.
+
+What I *would* worry about is people who either lack the introspection to realize they're being narcissistic, or lack the remorse to feel bad about any possible negative consequences their narcissistic behaviors may have on others, once they're out of fight mode."
+meirl,fhohkbd,t3_f43rt7,1581757054.0,aw yeah disorganized attachment
+CPTSDFightMode,fhohida,t1_fhlubat,1581756974.0,[reminds me of this](https://www.youtube.com/watch?v=TMoCRgHkxw8&feature=youtu.be)
+CPTSDFightMode,fhohblp,t3_f3uto3,1581756696.0,23/25. funny considering I was never traumatized
+infp,fhoh7xy,t3_f46acv,1581756543.0,/r/2meirl4meirl
+CPTSD,fhnxfcj,t1_fhl9j6p,1581734966.0,"Heh. I threw this at my friend and he commented with something very unexpected: that's the same thing as ""what doesn't kill you makes you stronger"". It just makes you harder to relate to by weaklings who have no idea what it's like. Difficult to be understood by people who haven't ever been forced to spend so much energy thinking about things.
+
+The right people will see the strength in your weakness, or perhaps in other words: be just as weird themselves. That's my life experience, anyway. I seem to only be able to relate to people that have had a disturbingly traumatic past. Everybody else just sort of glides off me. (Although the cynic in me wants to believe that everybody has a disturbingly traumatic past once you really get to know them)"
+CPTSD,fhnwicm,t1_fhm9v8y,1581734214.0,"I don't know. I'm starting to wonder if whether or not a ""realistic"" portrayal is ""good"" depends on your state of mind and what you're hoping to get out of the media: validation, or wish fulfillment? Everybody will have a slightly different answer to this and I don't think my answer is any more important than anybody else's.
+
+My gut instinct is that you shouldn't concern yourself so much with that you think other people would like to enjoy reading or need to hear, but instead ask yourself this question: what would *you* have liked to read, if this book was handed to you? Now portray it exactly like that."
+CPTSD,fhnw7m3,t1_fhnomtm,1581733976.0,"OTOH it can be a form of deliberate wish fulfillment. By inserting yourself into the role of somebody who went through something similar but ended up strong and powerful, you can feel better about yourself by taking on their strength.
+
+I think that's the only reason I ended up bonding with any of the stuff I used to enjoy watching: to let me self-insert as the person I would *like to be*. So in that sense, stuff like this can be immensely positive.
+
+It really comes down to the frame of mind you're stuck in. What our depressed brains automatically assume is a reminder of our own failures, our younger brains latched onto as a source of *strength*."
+MadeOfStyrofoam,fhnvrwc,t1_fhn3i0e,1581733657.0,"> My parents are the reason I'd commit suicide.
+
+Same. A big part of me wants to do it just to spite them. I never get the whole ""mom would be sad"" meme. If you're suicidal, doesn't that mean you hate your life so why are you thankful for being born against your will, let alone raised by people who managed to instill so many bad values and attitudes that you ended up depressed and suicidal?"
+CPTSD,fhl047i,t3_f3thil,1581693867.0,"I think I can relate. I was body shamed and bullied growing up as well. I always feel repulsed by my body. I feel like I can be attractive but only online - I'm deathly afraid of showing people my picture or physically meeting them, because I know that this will cause them to lose interest in me. People are attracted to the fake personalities I construct for them, nothing more.
+
+The only woman that has made sexual advances on me described herself as ""a nymphomaniac"" and also worked as an escort, so I assume her standards were just extremely low. (And I was signalling desperation at the time, so she may have simply taken pity on me. We stopped seeing each other as soon as she found somebody else she liked and discarded me after letting me close to her.)
+
+I'm not sure how to relate to the rest of your comment because ""even when it's obvious"" is not something that happens in my life. FWIW, my feelings of shame and ""not being good enough for anybody"" are mostly related to my crippling attachment issues and lack of self esteem, rather than simply being a body thing. But feeling physically ugly doesn't help."
+MadeOfStyrofoam,fhky9hn,t3_f3sgge,1581693344.0,"Pretty sure everybody feels that at some level, and it's unhealthy as fuck. There's no point in trying to glorify other people's SH/scars. I found that over time, the ""scar envy"" has almost been replaced by feelings of.. disgust, for me. Please realize what exactly it is we're doing here: permanent scarring, nerve damage, potentially life threatening infections, complications like accidentally opening arteries, etc.; there's absolutely nothing safe, fun or ""glorious"" about self harm. It's not a competition to see who is more messed up inside. It's a last resort coping mechanism and an extremely shitty one at that. Your goal shouldn't be becoming just as messed up as the extreme cases you find on the internet. Cutting is cutting and you don't need to go any deeper to ""prove yourself"" to the world."
+AskReddit,fhkw1x2,t3_f1em0i,1581692238.0,"I honestly might.
+
+The last person I texted is extremely depressed, has had multiple recent failed suicide attempts, is actively being hunted by her abusers wherever she goes and pretty much on the verge of death due to ongoing and constant physical abuse and psychological torture. CPS, police etc. are either bribed off by the abusers, or simply straight up say there's nothing they can do because the organized crime gang hunting her is too big to touch. **I wish I was making any of this up.** She expresses very little will to live and honestly I'm running out of things to even say to her. I'm starting to become convinced that death may actually be the correct answer for her situation.
+
+.. sorry, that was probably unwarranted exposition."
+antinatalism,fhkdppq,t3_f3kmr7,1581679422.0,"I value animal suffering less strongly than human suffering. I'm still against it, but less strongly so. Of course, animals are free to do whatever they want, but *we* shouldn't breed more of them for no purpose.
+
+Incidentally, in case the question extends to this topic, I am conversely generally fine with trading animal suffering for human happiness, especially when the animals that are suffering have a mostly meaningless and self-contained existence; e.g. bred purely for slaughter, with no meaningful interactions ever. (From the view of the ""outside world"" it's as if the animal had never lived to begin with; and I also don't think the animals themselves will be able to perceive much of their lives. Assuming they're intelligent enough to truly realize the despair of their situation, I imagine they'd quickly go insane or dissociate completely as a defense mechanism from the stress of being institutionally tortured)
+
+Side note, I am fully aware of the slippery slope this presents with respect to the question of whether or not it's okay to let humans suffer as long as nobody is around to witness or remember their suffering. I'll get back to you on *that* particular question when I've managed to reconcile my contradictory views on this topic. It feels like my rational instinct is ""yes, that's okay too"" but the increased emotional reaction this creates in my gut prevents me from subscribing to that idea."
+childfree,fhkcsru,t3_f3j59y,1581678185.0,"To be honest, from her wording it sounded just as likely that she was suggesting that people may hold views and values that change over the course of their lives? *You* seem to be making the connection between ""doesn't want kids at the start of a relationship"" and ""oh I guess they must have been lying"".
+
+(Also, side note, your mom is probably more right than you realize. People *do* change at the start of a relationship. Assuming they're actually in love. That doesn't make them liars, just human.)"
+CPTSD,fhkclpx,t3_f3oczx,1581677906.0,"Not quite sure if it's the same thing but I similarly frequently get intense attacks of.. like.. ""everything I believe in is wrong"". It's not so much ""the world is scary"", it's more so.. ""I'm wrong about everything"" or ""it's all a lie / an act"". Similar to an existential crisis, I just intensely doubt the legitimacy of anything I say, do or believe.
+
+The emotion itself flashes over me in the span of several seconds but it can take a good while before I return to the ""base state"". I usually feel relatively vulnerable and hopeless after such a ""flash"" and sometimes that lingering feeling will trigger me into having a more major breakdown if I start paying attention to it.
+
+I'm not sure if these are emotional flashbacks or just my suppressed emotions suddenly making their way to the surface before I manage to shove them down again. I feel like it's more of the latter; that despair is what I genuinely feel and the rest of my life is just me trying to suppress it by dissociating away from my feelings."
+CPTSD,fhkc76b,t3_f3pt7n,1581677343.0,"I can easily make decisions when alone but the moment I'm being watched or observed in any way by somebody I care about it's like my entire decision making process just shuts down because I feel so afraid I'll be disliked for my decisions. I find myself panicking about what decision *they* would like to see me make, and constantly second-guessing myself by imagining them lashing out at me for having incorrectly assumed what they would like."
+MadeOfStyrofoam,fhkbx22,t3_f3pj9z,1581676942.0,"Joke's on you, my bedside drawer's empty. My slicey boy collection and first aid kid is just sitting on my desk in plain sight.
+
+t. depressed adult"
+nihilism,fhkbt8u,t3_f3mpqb,1581676792.0,"Nothing matters but I still feel lonely.
+
+Incidentally, I find that most of society looks down on nihilistic / apathetic views, which tends to *increase* feelings of loneliness in people who hold them."
+TrollCoping,fhk8z02,t1_fhk8ez5,1581672652.0,"Fair. I consider it a perk of being an unloveable waste of space: at least I don't have to worry about people depending on me, because nobody in their right mind would do so, anyways. Means I can use all different sorts of troll logic to cope."
+MadeOfStyrofoam,fhk8vfs,t1_fhk8ihi,1581672507.0,Same. Can't easily have a proper mammal where I live and anything else most likely wouldn't trigger the needed pair bonding hormones anyway; but I just *know* owning a cuddly cat would likely help cure my depression.
+infp,fhk8s9c,t1_fhk89tg,1581672370.0,"> Do you think the lack of consistency has any correlation to the painting/drawing, or is it really that you paint in your head?
+
+Not sure I understand what you're asking. I meant in the sense of, like, I imagine individual *moments*, like snapshots into my fantasy life. I don't ""paint in my mind"", as in, I don't deliberately ""build up"" the scenes - I vividly imagine them wholepiece. But I struggle letting them ""play out"" - I get distracted by other thoughts and often move onto some other scene. The scenes have little correlation between each other - they're just individual ""moments I would like to experience"", not necessarily with the same people. I care about their emotional content more than their ""information content""; once I'm done feeling the emotion I no longer care to think about what would happen next in this scene.
+
+I do also hold conversations in my head but they're detached from any physical reality - I'll only imagine the conversation itself happening, independent of any imagery or scenery.
+
+> Also, if I may too ask, how quickly do the images pass? Can't you just write the idea down and come back to it later, or is it truly just gone, or..?
+
+The images don't pass, just my interest in them? I could hold on to them longer if I wanted to, I feel like I just don't have the patience or motivation for it. Even when I start trying to draw them, I'd rather put down the pencil and doodle something random while continuing to fantasize. It requires *work* to prevent myself from drifting off, and I don't find drawing to be rewarding enough to justify putting in that work. (Probably in part because I feel like my drawings can't even begin doing the mental scenery justice, especially given how much work I have to put into a drawing before it's finally done. The effort/reward is disproportionate, and so is my contempt for anything I create)"
+MadeOfStyrofoam,fhk8b61,t3_f3ojfy,1581671675.0,[inspired me to make this shitty and overdone meme](https://www.reddit.com/r/MadeOfStyrofoam/comments/f3ppr5/based_on_a_true_story/)
+MadeOfStyrofoam,fhk82zv,t3_f3p4fw,1581671343.0,"`about:config` -> `browser.display.use_document_fonts` -> `0`
+
+This is how I solve the issue :\^)"
+antinatalism,fhk72nh,t1_fhk6olc,1581669913.0,I thought that too until I read your comment. At least you're not as retarded as me.
+CPTSD,fhk5x7t,t3_f3n5vm,1581668304.0,Felt loud and clear
+CPTSD,fhk54lm,t3_f3ok3d,1581667249.0,"I hate it when characters with traumatic pasts are used as the epic heroes of movies/games/whatever. Makes me feel invalid and ashamed as fuck that my past has only left me an utter failure that is struggling to *simply live a normal life*.
+
+It's like saying to your face ""look, this character lost their parents at a young age and went through X horrific backstory and they *still* manage to be strong-willed, independent and fight crime! look at how worthless you are in comparison to them; they're true heroes, you're a waste of space"".
+
+I'm trying to enjoy Mirror's Edge: Catalyst at the moment but they did the exact same shit with Faith's backstory and it just makes me feel personally called out for not being as brave or active as her. Usually they'll get the ""has nightmares and flashbacks when sleeping"" part right but then completely fail portraying the whole ""crippling lack of self-image"", ""mental breakdowns over trivial things going wrong"", ""deep-seated feelings of worthlessness, guilt and shame"" or ""random anxiety attacks without even understanding what's triggering them"" bits.
+
+(Another semi-example that comes to mind is Hellblade: Senua's Sacrifice. They researched the symptoms of psychosis very well and did a good job in portraying it in a somewhat relatable way, but then they still make Senua the absolute hero of her story - rather than the more likely reality of her being virtually incapable of sustaining herself, with psychotic delusions as powerful as hers. She basically lives in her own delirious fantasy world, after all...)"
+nihilism,fhk4tpc,t3_f3oh1l,1581666859.0,It's not a bandwagon so much as a generational depression.
+infp,fhk4kvf,t3_f3nt5m,1581666545.0,"/r/maladaptivedreaming
+
+I don't personally do this; I can't keep a consistent narrative. I just imagine individual scenes and then try playing them out in my head but I quickly get bored and switch to a different scene, often in a different context or with different people. The fictitious people from my daydreams aren't ""consistent characters"", they're amalgamations. I don't flesh them out, merely use them as placeholders for temporary images; focusing on their aesthetic more than their personality.
+
+If anything, I feel more like I ""paint"" in my head, rather than ""writing"" in my head. I often get frustrated by not being able to actually draw/paint out my imagination, but even if I could, the fascination with any particular image usually passes by the time I'd even get started on it."
+CPTSD,fhk3wzr,t3_ezjbe4,1581665708.0,"I don't know if this is dissociation, but what happens often to me is that I end up realizing I've been doing nothing but staring at a spot on the wall for minutes, my which time my vision has become all 'distorted' from not having moved my eyes (but if I notice it happening and start consciously moving my eyes and looking at people again, it goes away). Or being in a social situation but realizing I haven't actually been paying attention to what's being said because I'm lost in my own thoughts and daydreams. Being spoken at and needing a few seconds to realize somebody's trying to get my attention, because I had to interrupt my train of thoughts first and needed a bit to readjust to reality and turn the ""social auto-pilot"" back on.
+
+Or watching the world ""shrink away"" and wondering if I'm dreaming or if this is really happening - sometimes to the point where things literally seem farther away than they are, or like these are just scenes on a movie theater screen rather than things I'm viewing with my own eyes. Listening to myself speak rather than consciously speaking, only to stop speaking mid-sentence because I forgot to continue speaking since I was so busy being distracted by how weird it felt listening to myself speak. Sometimes I literally end up speaking without thinking, just because my mouth keeps on talking just to keep the sentence going, while I'm no longer consciously thinking about what I'm actually saying, so I just end up rambling some nonsense. (This usually happens if somebody presses me about some topic I'm uncomfortable about, so whatever nonsense I end up saying will usually just be some bullshit justification for what it is I'm trying to defend / uncomfortable admitting)
+
+It feel like some sort of low-key version of dissociation, or perhaps derealization. I'm not completely gone to the point where time passes faster than it should, I'm just.. not really invested in what's happening. Stuck in my own thoughts, to the point of forgetting to interact with the world - or simply not caring to, because my own thoughts are more entertaining than the situation I'm in. (Which sucks because it tends to happen only in social situations)"
+CPTSD,fhjxt00,t3_f3ixvx,1581658975.0,"Even if it *was* true, I think there's a component of you getting frustrated about them jumping to conclusions when you've been researching the topic for months/years. Online, there's an implicit assumption that everybody here has put in more than the bare minimum amount of research, so we take their claims with a bit of implicit faith. (This goes for all mental health related subreddits, e.g. in your OCD example) But for CPTSD specifically, because it's such an extremely emotionally charged diagnosis, most likely you're actually being thrown off by them simply making light of the matter by nonchalantly dismissing something as ""oh I have this"" without an actual *emotional reaction* to it.
+
+The story you'll usually find here is that people will gush about how they finally understood what's wrong with them. My first reaction to actually reading up on CPTSD (and breaking my own misconceptions in the process) was to begin crying longer and harder than I've ever cried in the past decade. I almost couldn't *stop* crying the next couple of days. I felt every line of what I was reading. This is the reaction I'm missing in your friend.
+
+That being said, I *do* relate well to people who have CPTSD IRL. But in all of the examples I can name of, I found out about their CPTSD diagnosis *after* finding out that I related to them. It's almost ironic that the only two genuine connections I made at the previous clinic I was staying at were both to people who turned out to be diagnosed with CPTSD. (And actually, at the time, my first reaction to hearing their diagnosis was ""oh, no, I don't have anything like that"", because I was never traumatized and my life was clearly all good, and I assumed that diagnosis was only reserved to people who were sexually/physically abused by their parents)"
+infp,fhjxivf,t3_f3more,1581658706.0,"I feel like I'm uniquely unqualified to answer this because I've been in love a double digit number of times, but...
+
+... either somebody else comes along, or you literally just get over them. The latter can take months to years if it's somebody you particularly cared about and depending on the duration of your relationship.
+
+If somebody else comes along it tends to go much quicker, as you realize you never really loved the first person to begin with, you just loved the fact that interacting with them was releasing the 'feel good' chemicals in your brain; and somebody else can do that just as well."
+antinatalism,fhjx51i,t3_f3k1ed,1581658343.0,but flaubert has 8 letters
+CPTSD,fhjwqu5,t3_f3mqda,1581657981.0,"Yep. I see most ""self care"" advice as just more destructive coping mechanisms. It's destructive precisely because by trying to solve the problem on my own rather than reaching out to other people, I'm not getting any of what it is my life is lacking: meaningful social connection.
+
+Sorry, but trying to make a ""quiet evening"" for myself and taking a bath or going for a walk only gives me more time to think about how I'm going to have to spend the rest of my life coping alone because nobody will ever love me. If anything, it makes me feel even *worse* because I feel so pathetic for trying to do things on my own as if that's somehow going to cure my depression, or because these all being solitary activities draws explicit attention to how alone I feel during all of it."
+CPTSD,fhjvnzx,t3_f3mg1l,1581657011.0,"Hey; I'm sorry that you had to go through that form of rejection. Something I'm wondering: Since you described him as your ""favorite person"", has he expressed any romantic interest for you before this attempt? Or would you describe your interest in him as one-sided? Have you ever gotten a straight answer from him about his feelings for you, and what exactly did he actually express when he rejected your advance?
+
+Just because he isn't willing to reciprocate sexual advances doesn't necessarily mean you are ugly or broken. There are a lot of other reasons he could have had; for example something I noticed is that I get strong feelings of guilt about somebody ""approaching"" me like that, *especially* if I wasn't sure if I was romantically interested in them. I'd feel like I was abusing them, even if it's something they offered to me. This is independent of how attractive they are.
+
+I realize that at the end of the day, he still rejected you, and that's something you're going to have to deal with, as hard as it is. I'm not sure I can offer any words that will take that feeling away - the only thing I *can* provide is a potential perspective for why that need not mean you're somehow ugly or ""sexually undesirable"".
+
+(Small side note: Ironically, remarks such as ""even though he's male and single"", as though that fact somehow makes him sexually desperate enough to leap at any opportunity being offered to him, only serve to reinforce a negative stigma of men as being driven purely by sex, and the resulting generational self esteem collapse from being demonized in this way is a big part of what *leads* to feelings of guilt causing men to reject sexual advances. I realize it isn't relevant to your situation, I just thought it amusing to point out how this may be self-sabotage in disguise, at a meta level)"
+CPTSD,fhjubn4,t3_f3jzpq,1581655828.0,"Freezing up like that is my natural reaction to anything unexpected happening, not just loud noises. The other day I was attempting to ""dock"" a chair onto a table (the way you probably did back in school), and when I let it go it did a ""clank"" as gravity made it settle slightly into place. My first reaction was to somehow assume it was about to fall down and had a ""full body cringe"" like that since I was preparing myself for danger. But the thing is that I was already mentally fearing it falling down and trying to place it as carefully as I could, so because I was already internally anticipating that bad thing happening, the slightest noise freaked me out a ton because I assumed it must be a sign of that. This is pretty much exactly how hypervigilance works: you're constantly anticipating something bad happening so even the slightest unexpected sensation makes you jump as your brain assumes it's proof of that bad scenario actually happening.
+
+But yeah, I know what you mean - a lot of people scream in response to loud noises (e.g. my mother does this), but I go into ""protection mode"" (cringing and covering my face). I think part of it might be simply because I generally avoid trying to make any noise if at all possible, and usually have the issue of speaking too softly / not being able to *raise* my voice. I am also freeze-dominant though and have PTSD connected to loud noises, so that reaction just makes sense."
+antinatalism,fhjetll,t3_f3fwdv,1581644435.0,"To be fair, my parents were a lot farther than me in their personal development when they were my age. It was a different time. It's not entirely accurate to compare it. The ""pace of development"" has been slowing down dramatically over the course of human history. 30 is the new 20 for a reason. We're socially expected spend more time in the dependent / childhood phases, due to the increased duration of e.g. education, combined with the generally reduced pressure to become independent ASAP."
+CPTSD,fhjebbq,t3_f3iq3a,1581644072.0,"Yep, same boat. Always felt like I was hypersensitive to almost all senses, not just noise. In general, anything above a certain threshold drives me mad, but noise in particular is the worst - especially footsteps (i.e. people walking around). Even though I've suspected it about myself, autism has also been ruled out several times including during childhood testing. (And all of my peers vehemently claim I'm not autistic, every single time I bring up the topic - including the people with asperger's that I've dated)
+
+I think the noise issue in particular might be somewhat ""inherited"" from my father. He has CPTSD and noise-related hypervigilance, and my mother is an extremely hyperactive/noisy person which stresses out the both of us. He constantly attacks/ridicules her for it. I just withdraw or try and ignore it. There's also a bit of a hypervigilance component in myself because I noticed that it gets worse if I don't feel ""safe"", i.e. if I fear somebody coming into my room, I'll be unable to stop paying attention to the background noises.
+
+But apart from that, I've also always been hypersensitive to taste/smell (and have had a very restrictive diet / food anxiety for the majority of my life), touch (clothing tags etc. drive me mad, I also get constantly bothered by my own hairs and e.g. can't wear headphones because of it) and vision (spent most of my youth in a pitch black room; being outside physically hurts me due to how bright it is and I usually have to squint. My friends used to poke fun at it). I remember being bullied for it as a kid, e.g. by my parents and siblings making fun of me for having to leave the room whenever there was a particularly strong scent present; which I think help contributed to my food anxiety. I didn't want to try anything new, as a *resistance* against them making fun of me for having such a restrictive diet.
+
+I learned about something called [HSP](https://en.wikipedia.org/wiki/Sensory_processing_sensitivity), which increases both emotional reactivity and sensory processing sensitivity, without being linked to autism. My mother says I matched the description of HSP to a t, even when I was a child; and in fact she's the one who claimed I had it, even before I consciously started paying attention to it. HSP is said to be an overactivity of the amygdala, i.e. a failure of the brain to properly manage emotional stress/fear - which in the case of senses, means we have trouble processing the stress of sensory stimulation. My gut instinct tells me that HSP and CPTSD might be connected somehow, though I'm not sure in which way."
+2meirl4meirl,fhjd0r7,t3_f3hfnm,1581643157.0,"I'm not sure what's sadder: this tweet, or the reality of the fact that she's single and spending valentine's day in a mental hospital."
+BPDmemes,fhjcvky,t3_f3gg9e,1581643054.0,literally me irl

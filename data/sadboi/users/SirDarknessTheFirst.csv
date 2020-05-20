@@ -1,0 +1,164 @@
+arduino,fr3tamq,t3_gme1oh,1589865667.0,"You could possibly use sensors designed for smoke detectors. I have a Sharp GPY210 here, though that doesn't exactly make the distinction between different particle sizes."
+EpicGamesPC,fr0912p,t1_fr07we6,1589787523.0,Ahh. I'm not sure then. Sorry!
+quotes,fqzy8gn,t3_glngll,1589778448.0,Hello darkness my old friend.
+EpicGamesPC,fqwjtqa,t1_fqwcaqf,1589707062.0,Are you on a laptop or using a HiDPI screen? Try changing the scaling settings (in Properties > Compatibility on the EXE) to *scaling performed by Application*
+esp8266,fqv17py,t1_fqsypvj,1589667832.0,Yeeeeees?
+esp8266,fqtazsv,t1_fqt4j5r,1589634999.0,Ahh I didn't look that closely. Still cute!
+IsTodayFebruary30th,fqszey8,t3_gkamek,1589624548.0,Motherfucker
+esp8266,fqsctv9,t3_gkjmqp,1589603902.0,Echidnas are so adorable!
+thinkpad,fqrpnu8,t1_fqqpddl,1589589246.0,"I just found a T430 with a 500gb hdd, an i5 and 6gb of ram for $260. Does this count? Oh and it has the 720p screen and doesn't have the nvidia graphics.
+
+https://www.gumtree.com.au/s-ad/mount-lawley/laptops/big-laptop-sale-t430-i5-2-6ghz-6gb-ram-500gb-hd-dvd-wifi-14-screen-/1247449508"
+overclocking,fqr60gy,t1_fqnty6e,1589578242.0,"Hahaha yes why not!
+
+Actually, considering the Pi and similar, a fan might be more efficient"
+calculators,fql28na,t1_fonc5zg,1589443735.0,Hi I have one like this - a Canon BP-37. It's a great calculator but ink is expensive.
+calculators,fql1c1r,t1_fqdeilm,1589442861.0,Do you get an error?
+MiniPCs,fqhagmp,t1_fqgs2jw,1589372530.0,Very nice
+RationalizeMyView,fqhaf99,t1_fqglrzb,1589372502.0,No worries man!
+esp8266,fqfyasw,t1_fqfwvlc,1589334117.0,Can you do `python3 -m nodemcu-uploader`?
+esp8266,fqfuocf,t3_gh7k9j,1589332040.0,I'm assuming it's a typo but did you try `nodemcu-uploaded` or `nodemcu-uploader`?
+RationalizeMyView,fqfs41v,t1_fqf9bdm,1589330612.0,Onision
+MiniPCs,fqffu2f,t3_ggasz5,1589324133.0,"Replaceable wifi adapter (laptop size, can't remember the port name) would likely be welcomed. Not sure everyone would make use of being able to upgrade that though."
+MiniPCs,fqdfoav,t1_fqdd0hb,1589288623.0,I mean...give it a little extra ram and that would be a machine learning beast. Jetson Nano would not hold a candle to it
+MiniPCs,fqdcuwf,t1_fqd5cf0,1589286720.0,"That's packing quite a bit into a very very small board. I should put this into my TI-84+ and be like ""Hey my calculator has PCIe. Does *your* calculator do that?""
+
+That being said, I'm not putting a RTX 2080 Ti into it."
+UQreddit,fqbiqn8,t1_fq9cj8w,1589237739.0,I did CSSE1001 last year. The last assignment was a killer but the course was pretty good.
+MiniPCs,fqb6pyp,t1_fq9d9fp,1589231545.0,Hahahaha that's a lot for such a tiny board!
+MiniPCs,fqb6nrf,t1_fq9fple,1589231515.0,"I appreciate the thought of something else! An ESP32 (I think) also has native Ethernet capabilities. I'm not sure it would be able to fully keep up though. The main purpose of this device will be for PXE booting (which is modified TFTP and http it turns out)
+
+And thank you for the reminder. The external device will just be a mass storage device. I've just checked, and it's only supposed to draw ~20mA, but it's possible that my measuring device is not accurate."
+thinkpad,fqb6anf,t1_fqaawga,1589231331.0,"A month is pretty short for ordering stuff from China. It takes me 6-8 weeks generally, in Aus."
+MiniPCs,fqb5n1d,t1_fqaluo7,1589231001.0,"Ooh true, thank you!"
+medizzy,fq94e1p,t1_fq8u41y,1589185137.0,Ja
+MiniPCs,fq8mibd,t1_fq8m7a7,1589169728.0,"I looked it up, and I didn't realise that you could get power consumption down to ~80mA! That looks very nice, thank you!"
+MiniPCs,fq8cwf9,t1_fq89ju8,1589163352.0,That does look promising with the reduced clock speed! How long does it approximately run off the 3000mAh battery? I know it depends on load but I am curious.
+MiniPCs,fq81rwv,t1_fq7ttjw,1589156743.0,"Ahhh I see. Backpowering the Pi works on all models, but the full-size Pis would require more current than the target system could provide I believe."
+MiniPCs,fq7rp3n,t1_fq7oeck,1589150837.0,"Damn that's tiny! Thank you for the recommendation, I'll definitely look into that."
+MiniPCs,fq7rma1,t1_fq7peeq,1589150793.0,Ahh good point thank you. Yes the OTG port would allow power to be fed through. This would be quite a wiring mess but I'll look into it!
+MiniPCs,fq7rd00,t1_fq7p3dw,1589150644.0,Ooh that would be awesome! The SBC would mainly be operating as a router on ethernet and an HTTP server. I don't think that these would be particularly resource intensive unless it's actively sending data.
+esp8266,fq7grn4,t1_fq6r61d,1589146185.0,Exactly. You'll need to flash `tasmota-ir.bin` instead (which does remove some other functionality) and then set a pin to be IR-TX. So far it isn't working for me!
+MiniPCs,fq7g7am,t1_fon0ond,1589145976.0,I'm using a Moto G6 charger (rated for 3A @ 5V) and I also get undervoltage warnings.
+esp8266,fq5t3nl,t3_gh0hip,1589116723.0,Been trying to use Tasmota with an IR LED and my NodeMCU to control my aircon.
+whatisthisthing,fq58x9x,t1_fq4sr8h,1589096487.0,Do they get triggered by automatic braking systems which also use radar?
+Cinemagraphs,fq402ta,t3_ggm1k9,1589072231.0,This looks awesome!
+Cinemagraphs,fq401wx,t1_fpxvhzg,1589072223.0,It looks amazing!
+BoomerTears,fpz9bfj,t1_fpz6q5f,1589015236.0,OK boomer
+thinkpad,fpy9n7x,t1_fpy52kg,1588999157.0,"On my E490, it gets painful due to the low scroll sensitivity. I think the Linux drivers are a lot better than the Windows 10 ones"
+SneakyBackgroundFeet,fpx5q0o,t1_fpwodp1,1588976165.0,Rube Goldberg machine
+SneakyBackgroundFeet,fpx5oxi,t3_gfpars,1588976147.0,"In the immortal words of Oscar Leroy: ""Holy hell!"""
+screenshotsarehard,fpqv2zd,t3_ges3ve,1588833108.0,DRM generally prevents screenshots. I don't think Netflix allows you to hide ui when paused.
+suddenlysexoffender,fpmu5qt,t1_fpkdf3n,1588741812.0,r/boostgang
+bodycontrol,fpiryuc,t3_f9exjy,1588647379.0,Shut up and dance.
+depression,fpii7p6,t1_fpgfno1,1588641434.0,"Good days are like a +10, bad days are -2 and the end everything's supposed to add to a 0."
+nevertellmetheodds,fpfeorr,t1_fp94cxw,1588569052.0,Happy 4th cake day!
+PoliceBrotality,fpevi5m,t3_gd105a,1588555840.0,Rare footage of Captain Stentley in his native habitat.
+AskReddit,fp9fadb,t3_gbt282,1588424605.0,I'll be having a chair and wall sandwich. This does not sound appetising to me.
+AskReddit,fp9f7ox,t1_fp98sr6,1588424549.0,"Yes officer, this comment right here."
+NSFW411,fp5qgh7,t3_gb48vl,1588337461.0,!RemindMe 1 week
+esp8266,fp5q82b,t1_fp5jj3j,1588337295.0,Huh TIL.
+esp8266,fp53y95,t3_gaahxc,1588315523.0,"I love this idea! What if, instead of using WiFi to copy to the chip, you used a solenoid and the same magnet sensor? It's a silly idea but would be novel."
+CrazyDictatorIdeas,fp0zhbn,t1_fp0640i,1588220509.0,I guess that's how you get a spike in suicide cases and emigration - a government that actively passes legislation that makes some of their citizen's lives *worse*.
+CrazyDictatorIdeas,fp022gh,t3_g9zglq,1588201026.0,What if I'm allergic?
+iiiiiiitttttttttttt,fozpqem,t1_foymuvk,1588194714.0,Ahh yeah.
+iiiiiiitttttttttttt,foy7y3q,t1_fom4vmp,1588167335.0,I just got and pasted! It looks like this to me: *************
+iiiiiiitttttttttttt,foy75o3,t1_foy6p9u,1588166831.0,Java?
+4amShower,foy5s7n,t1_foxejkh,1588165963.0,I really wish I could print this in poster size and post this at all the local shopping centres. I love this one!
+css_irl,foy0gw6,t1_foxtyy0,1588162120.0,Whoops. It's been a year since I had to use css for a project.
+css_irl,foxjmqy,t3_ga1v63,1588146066.0,"    .door {
+        z-level: 2;
+    }
+    .banister {
+        z-level: 3;
+        display: float !important;
+    }"
+TQDC,foxjesn,t3_ga4zio,1588145863.0,"To be fair, I can kinda see why he'd do this - because it's satisfying. Why is it satisfying? Because it's a lot faster than a standard shredder machine."
+androidafterlife,fovy3pd,t1_fouch9u,1588109559.0,No. Cameras between phones generally are not interchangeable and the data sheet and example code are generally covered by NDAs.
+androidafterlife,fovxznc,t1_fouhy9k,1588109502.0,"True, I forgot about authorisation. If you can get into fastboot though, you could potentially flash twrp and then from a root shell in twrp configure it to allow the device."
+AskReddit,foud6ad,t1_fotq15m,1588081765.0,It's law in S Korea I believe.
+AltosOdyssey,fouc02e,t1_fosva2b,1588081067.0,Use Blokada from F-Droid. Not the play store version.
+androidafterlife,fou9y72,t3_g9i9it,1588079788.0,"Parts from phones aren't general reusable. Generally the parts you can use for other things are just the vibration motor, speakers and battery.
+
+The G4 has a glued in battery though I believe, so the last one is not applicable.
+
+If you have working adb set up, you could potentially use it as a type of server (media sharing, etc)."
+aww,foqn2y5,t1_foq9th4,1587997090.0,Subscribe
+aww,fopnxav,t1_fopayni,1587966697.0,Subscribe
+EmKay,fophqv6,t1_fooxr0v,1587961809.0,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur a orci eget lacinia. Nunc non laoreet lacus, vitae laoreet ipsum. Nulla vitae est id mi aliquet congue blandit sit amet orci. Nullam ex eros, tincidunt at dolor vel, lobortis varius elit. Pellentesque vulputate mattis dui, sed viverra est euismod sed. Fusce commodo accumsan nulla nec vehicula. Donec non ante a elit tristique varius vel vel mi. 
+
+Sed vitae ex pellentesque, egestas ante vitae, sollicitudin enim. Fusce nec tellus a eros convallis pellentesque eget nec eros. Donec accumsan euismod ipsum, ac porta nulla scelerisque at. Sed varius, leo vel ultricies interdum, lectus nibh vestibulum elit, eu blandit turpis odio vitae augue. Phasellus tempus ex id elit maximus, in lacinia mauris convallis. Donec auctor maximus rhoncus. Donec non finibus lectus. Donec pulvinar semper imperdiet. Cras non mollis erat, ut varius nibh. Nunc porta efficitur rhoncus. Morbi at lorem faucibus, dictum ligula ut, sodales eros. In sit amet lectus in leo congue blandit sollicitudin id ipsum. Sed efficitur ultrices turpis, eu luctus ligula lacinia eu. Aliquam in enim volutpat, semper urna a, pulvinar elit. 
+
+Curabitur turpis lorem, feugiat a vulputate quis, accumsan vitae diam. Fusce tempor ullamcorper turpis, vel pharetra nulla ullamcorper sed. Sed enim urna, vestibulum ut tortor sed, vulputate scelerisque urna. Praesent accumsan mattis metus, a sagittis nulla bibendum in. Phasellus sagittis massa orci, id rhoncus nunc blandit in. Nunc vitae arcu metus. Phasellus feugiat tristique dolor id semper. In tincidunt semper ipsum in commodo. In a lorem hendrerit, dapibus nibh quis, dapibus tortor. Donec ac sapien id elit tempor egestas. Cras ac velit feugiat, ullamcorper magna non, laoreet neque. Aliquam vitae eros ornare, interdum sem ac, laoreet nisl. Duis quis porta turpis, nec euismod augue. Quisque sagittis sapien massa, eu commodo mi dictum vitae. Donec a fermentum metus. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec lobortis erat. Donec nec risus sit amet eros efficitur eleifend. Aliquam eu suscipit augue. Nulla ac mauris ex. Morbi risus leo, lacinia aliquet ante eu, pellentesque ultricies tortor. Donec pharetra sapien maximus, semper erat nec, porta arcu. 
+
+Mauris eu pellentesque lectus. Duis sit amet lacus ante. Mauris lacinia ornare consectetur. Sed at enim a diam facilisis efficitur. Suspendisse placerat felis non lectus luctus vehicula. Morbi sit amet ex leo. Phasellus non dui fringilla, ultrices purus nec, vulputate est. Phasellus placerat est nec lobortis tempor. Proin varius nisi ornare porta tempus. Nulla facilisis ex eget ligula ornare imperdiet. Curabitur fringilla purus id magna molestie, maximus fringilla tortor congue. Cras quis neque fringilla, rhoncus leo eu, accumsan sem. In vel nulla interdum, imperdiet purus molestie, vulputate augue. 
+
+Sed lacinia, lacus nec semper iaculis, dolor sem commodo arcu, id ornare nulla elit vitae risus. Nulla in tortor nec felis porttitor aliquet. Etiam feugiat eleifend leo, vitae viverra sapien hendrerit vitae. Sed varius ligula in tristique sagittis. Sed ullamcorper venenatis nibh, eget ultrices felis cursus nec. Morbi condimentum nulla sit amet magna suscipit, malesuada luctus lacus sollicitudin. Quisque sollicitudin vehicula ornare. Nullam nec quam sed eros gravida egestas vitae ac ipsum. Sed tincidunt nisl turpis, vitae laoreet est ullamcorper ut. Suspendisse non velit sed nisi interdum euismod. Curabitur viverra enim ac efficitur semper. Etiam nunc justo, pellentesque et augue vel, fermentum egestas nunc. Duis varius scelerisque consectetur. 
+
+Nulla id odio sem. Vestibulum placerat volutpat tortor. Fusce interdum enim vel libero vestibulum, at placerat lacus lacinia. Sed vel sodales arcu, vel ultrices ex. Nulla vitae tincidunt elit. Suspendisse venenatis sit amet augue sit amet interdum. In hac habitasse platea dictumst. Duis fermentum orci ut sapien sodales blandit. Quisque maximus at quam ut faucibus. Sed tortor lacus, dignissim nec nunc eu, molestie placerat ex. 
+
+Phasellus congue et libero et faucibus. Donec elementum rhoncus justo eu vehicula. Pellentesque feugiat massa elit, quis finibus magna egestas non. Nullam at ante sed risus blandit tincidunt. Curabitur luctus id ligula ac tristique. Aenean maximus nisi bibendum ipsum maximus consectetur. Mauris et lorem nec tortor placerat facilisis. Nunc scelerisque sodales pharetra. Donec maximus facilisis risus ut pellentesque. Nam et metus rutrum magna elementum tempor nec non nisi. Phasellus nec mi ipsum. 
+
+Maecenas commodo elit enim, sed varius elit volutpat ut. Nulla tincidunt eleifend libero eu vestibulum. Vestibulum scelerisque a nisl eget semper. Praesent vitae efficitur ipsum, ut maximus sem. Sed sit amet consequat sem. Proin eget scelerisque mi, et bibendum tellus. In felis nisl, condimentum sollicitudin odio sit amet, aliquam vehicula nunc. Maecenas vestibulum dui et risus cursus lacinia. Suspendisse tincidunt ornare mi, a ullamcorper libero consequat eu. Nunc neque mauris, euismod dapibus velit sed, eleifend euismod quam. Cras accumsan, quam id aliquet laoreet, sem metus tempus ipsum, et scelerisque dolor sapien at lacus. Quisque eget metus at lacus dictum bibendum et sed purus. Aliquam convallis mollis molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+
+Donec vulputate lacinia feugiat. Duis ut lacus nisi. Quisque malesuada tortor vitae lacus porttitor, eu pharetra diam commodo. Donec tempus luctus enim varius interdum. Phasellus iaculis orci a enim hendrerit, vitae convallis eros hendrerit. Duis malesuada, odio quis rhoncus molestie, erat lacus ornare leo, ut porta erat nulla ut diam. Praesent condimentum, ante quis vehicula consectetur, purus purus vulputate purus, eu elementum mi nulla ac libero. Quisque vitae rhoncus lacus. Maecenas fringilla est sed dictum venenatis. Duis urna neque, imperdiet sit amet diam at, iaculis auctor nisi. Phasellus eu fermentum mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+
+Curabitur dapibus urna non ante condimentum, ut placerat nisi lacinia. Nulla eget sodales arcu. Proin fermentum ut nunc ac auctor. Mauris id dapibus ipsum, sed bibendum enim. Maecenas dolor dolor, lacinia eget mi malesuada, volutpat porta odio. Ut convallis arcu id erat egestas mattis. Donec suscipit tempor tellus eu porta. Proin ac accumsan ex. Etiam aliquam ipsum turpis, eget varius quam porttitor sed. Maecenas vitae euismod mi. Suspendisse et fringilla justo. Cras aliquet tortor a ante efficitur laoreet. Vestibulum faucibus risus dui, id tempus nunc iaculis condimentum. Quisque ut volutpat urna, vitae porta quam. Mauris mollis tellus urna, eget porta quam ullamcorper in. Proin nec varius ligula. 
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas vestibulum enim bibendum, dapibus dui eget, hendrerit augue. Nulla scelerisque in tortor faucibus iaculis. Ut nibh diam, consequat eu ligula at, pharetra tincidunt nisl. Cras id semper urna. Praesent porta tortor nibh, vel imperdiet nisl placerat eget. Cras sed tempus est, ac tincidunt nisi. Etiam non egestas lectus, quis convallis odio. 
+
+Aliquam erat volutpat. Praesent vitae ipsum lacus. Duis et viverra ipsum. Pellentesque pulvinar ut eros sed tempor. Aliquam ligula dolor, bibendum vitae posuere nec, sodales vel orci. Morbi facilisis justo nunc, nec semper ipsum posuere vitae. Donec accumsan felis id est tempus ornare. 
+
+Praesent id faucibus risus. Quisque rutrum congue lacus vitae lacinia. Curabitur scelerisque arcu nec massa commodo venenatis. Duis in viverra nunc, a ultrices dolor. Curabitur mi diam, auctor sit amet enim in, tempor fermentum elit. Proin porta tristique bibendum. Curabitur nec ante eu urna aliquet molestie. 
+
+Praesent et dapibus purus. Integer efficitur ac urna dictum sodales. Maecenas auctor at eros vel vehicula. Nullam sit amet rutrum lorem, fringilla ultricies eros. Cras ullamcorper ipsum a velit feugiat, eget lacinia nisi feugiat. Nullam sed efficitur justo. Donec malesuada urna augue, in aliquam ex consequat sed. Nunc semper imperdiet est in tempor. Vivamus pretium libero sed dapibus faucibus. Pellentesque et nisl interdum lacus euismod posuere a vitae nibh. Cras dictum eu ante vel sodales. Etiam facilisis mollis ex, et sagittis nulla dignissim eget. 
+
+Quisque dapibus facilisis diam, nec luctus justo. Ut rutrum at eros vel pellentesque. Morbi tincidunt dui metus, ut vehicula risus rutrum et. Nullam pellentesque dapibus gravida. Mauris ultrices, metus non lacinia euismod, augue eros pretium ipsum, quis sagittis lacus nisl in ipsum. Curabitur posuere quam vitae tincidunt vulputate. Integer auctor id orci nec pretium. 
+
+Vivamus at pretium leo. Donec in quam ullamcorper, cursus dui vitae, ultricies velit. Aliquam condimentum commodo mollis. Cras placerat ipsum a nulla convallis, ac finibus urna viverra. Donec ultricies ligula velit, ac molestie turpis egestas ut. Proin vestibulum. 
+
+(1339 words, excluding this in the brackets. Enjoy!)"
+hugs,fophesc,t3_g8lor0,1587961557.0,Is this the guy from ERB?
+aww,foojvut,t1_foojd27,1587940418.0,Subscribe
+LongDistance,foly79a,t1_folruql,1587873355.0,"Because miles, I'd assume the US?"
+Jokes,fohhra7,t1_fogoy94,1587766187.0,Good bot
+botwatch,foeq8xr,t1_foef1dz,1587711119.0,"It's basic
+
+Like, literally. BASIC used numbers in front of lines like that."
+depression,foeq26b,t1_foemerj,1587710951.0,Do you have a video game such as Grand Theft Auto or Just Cause? Destroying stuff in game often helps me.
+Magisk,focs3ja,t3_fggidg,1587675102.0,I have a Moto E2 lying around somewhere and I can try it later today. What ROM are you using?
+CrazyDictatorIdeas,fo5nbpw,t3_g5l9gb,1587530028.0,Australia: no problem
+4amShower,fo2cvt1,t1_fnzacam,1587457597.0,Ohh yeah true. Thank you!
+4amShower,fnz8k63,t1_fny5uat,1587388758.0,"I love today's comic!
+
+What do you mean by 'has a move everything'?"
+LongDistance,fny547t,t3_g4hzuo,1587353634.0,"In my opinion, long distance isn't merely the distance, but how often you can meet and how easy it is for you to do so. My girlfriend used to live the next city over (only about a 2 hour drive) but as we were both 16 and neither of us had a license, I would consider it to be a LDR. We now live in the same city, but still don't meet as regularly as I'd like (before the lockdown)."
+MaliciousCompliance,fnuw2zm,t1_fnrvyhh,1587272652.0,It's 3PM AEST and I'm wiped out and ready to sleep.
+antiMLM,fnsdsnp,t1_fnrdjq0,1587219430.0,Good bot
+boomershumor,fnsb50l,t1_fncuzjz,1587217643.0,"Firefighting aircraft (esp helicopters) have been grounded due to drones. [According to the Civil Aviation & Safety Authority, a drone can down an aircraft in a collision. ](https://www.casa.gov.au/sites/default/files/_assets/main/lib100071/rpa_brochure_fire_fighting.pdf) This is a problem as we use these every fire season at the least."
+JustCause,fns3juf,t1_fnp9rwe,1587211520.0,Runs fine for me.
+JustCause,fns24o1,t1_fnrvebh,1587210180.0,At least it runs on my laptop haha
+iiiiiiitttttttttttt,fnku33x,t1_fnj8f77,1587039959.0,That is great! Thank you for sharing that
+applesucks,fnjbv28,t1_fky6bxw,1586995847.0,"Steve Jobs: ""good artists copy. Great artists steal""
+
+Now what was about Android being stolen? Does that make Andy Rubin and the rest of Android Inc a great artist?"
+LinuxOnThinkpads,fnit6am,t3_g1sorr,1586985926.0,It's a well known issue but fingerprint support on xx80 and xx90 thinkpads is still missing I believe.
+iiiiiiitttttttttttt,fniq2cb,t1_fnh5ajs,1586984354.0,No worries haha!
+iiiiiiitttttttttttt,fniq18k,t1_fnh8iq9,1586984339.0,I feel like it's po-tay-to vs po-tah-to.
+iiiiiiitttttttttttt,fnh57k6,t1_fnh1zh4,1586955137.0,"The word flashed is common in Android communities. They also call various Android distributions ROMs, as that is what early mobile phone OSes were stored on."
+MurderedByWords,fnh177c,t1_fngtspg,1586952003.0,Autocorrect likely
+InsanePeopleQuora,fngcce0,t1_fnby0n3,1586927983.0,Or maybe Michael De Santa.
+InsanePeopleQuora,fngc1qu,t1_fng714l,1586927742.0,I believe Aboriginals would have had over 200.
+TightAndPhat,fnddh17,t1_fk6oe94,1586867201.0,DJHannahB /r/DJHannahB
+iiiiiiitttttttttttt,fn6hnzz,t1_fn0mufu,1586699555.0,"Adding to this, many universities already used Zoom for external students. My older sister used it several years ago when she was doing an addon thing to get pharmacy degree alongside working."
+Jokes,fmzildb,t1_fmyq7jm,1586521526.0,Put a # in front. Fun fact: the # is called an octathorpe.
+esp8266,fmz45kh,t1_fmhv13g,1586505689.0,"I feel like that calls for this classic...
+
+> I'd just like to interject for a moment. What you're referring to as Linux, is in fact, GNU/Linux, or as I've recently taken to calling it, GNU plus Linux. Linux is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX.
+
+> Many computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called ""Linux"", and many of its users are not aware that it is basically the GNU system, developed by the GNU Project.
+
+> There really is a Linux, and these people are using it, but it is just a part of the system they use. Linux is the kernel: the program in the system that allocates the machine's resources to the other programs that you run. The kernel is an essential part of an operating system, but useless by itself; it can only function in the context of a complete operating system. Linux is normally used in combination with the GNU operating system: the whole system is basically GNU with Linux added, or GNU/Linux. All the so-called ""Linux"" distributions are really distributions of GNU/Linux."
+esp8266,fmz3y6z,t3_fwfdn8,1586505468.0,What sort of antenna are you using? The ESP-201 (for example) does a lot better than NodeMCU boards in challenging situations I've found. You could even go for a directional antenna if you wished

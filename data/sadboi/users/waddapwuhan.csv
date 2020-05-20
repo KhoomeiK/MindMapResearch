@@ -1,0 +1,116 @@
+China_Flu,fqxf6ug,t1_fqx4vuz,1589731326.0,its like HIV suddenly becoming airborne... oh wait
+China_Flu,fqxeztm,t1_fqx9v8e,1589731228.0,"why would they do that inside israel, probably just covid killed him lol"
+China_Flu,fqr25s0,t1_fqpahjx,1589576193.0,"it seems to be more prevelant in this virus, in israel a patient jumped out the window and almost died because of psychosis, never heard something so extreme for the flu"
+django,fqiatlt,t1_fqi4rsr,1589393480.0,ty
+django,fqiajg4,t1_fqi4898,1589393344.0,ok boomer
+django,fqi15j1,t1_fqhvfgo,1589388051.0,but you didnt know how to do it either
+django,fqhulbs,t1_fqhsyc7,1589384864.0,nah
+django,fqhrcb7,t1_fqhntc8,1589382845.0,the problem here is made by the django devs
+django,fqhr9xc,t1_fqhqb01,1589382806.0,in my site they will
+django,fqhmg3h,t1_fqhkjxk,1589379977.0,I dont know :(
+elasticsearch,fq59jvi,t1_fq2x3o8,1589097117.0,ok
+django,fq21ftg,t3_ggljee,1589051976.0,fixed with `force_escape` instead of `escape`
+elasticsearch,fpzker8,t1_fpxml7q,1589019473.0,logstash is the recommended way of keeping sql dbs in sync with elasticsearch
+elasticsearch,fpwto4k,t1_fpu72ub,1588969776.0,"ah yes i thought u were talking about logstash, that takes a few seconds, but not when you update it from the app indeed"
+elasticsearch,fpnovq7,t1_fotig7l,1588769222.0,"And if you create a new user for example, it will take a few seconds before it will reach elasticsearch, so elasticsearch is only usable when the delay doesnt matter? so most queries except for the search page should stay SQL? Otherwise a new user wont see his own profile for a few seconds which is bad. Do i understand it correctly that elasticsearch is only for analytics and search page?"
+webdev,fpn6tpe,t3_ge3w33,1588752246.0,fuck that company
+webdev,fpn6hoq,t1_fpn5hgi,1588751916.0,"because amazon is a general used term and its not necessarily related to the company, but if she would put a webshop on the site she would lose the case, but if a company has enough power they can get the domain from you, for example [france.com](https://france.com) was just taken from someone and given to the french gov without paying him, its one of the reasons why domain names are not a safe investment"
+django,fpn68qx,t1_fplfck8,1588751673.0,"its only if you let them type the css, i just wouldnt do it, better to let them selectpredefined options, but idk if there are safe ways to do it"
+django,fpkp3if,t3_gdzv82,1588698583.0,"I am starting to integrate elasticsearch in my django app and I think you can do what you want with elasticsearch as engine also, but there are probably more simple ways"
+webdev,fpk2g7o,t3_gdca9k,1588686631.0,"something to think about is to not switch the context too much, like when you press a button make sure you don't change things on the page that are unrelated, this is disorienting for people with some disabilities"
+webdev,fpk2am6,t1_fpghkgi,1588686541.0,I worked in finance and code reviews sometimes took a whole week for 1 issue
+webdev,fpk25k2,t1_fpj3ksi,1588686463.0,are u a blind programmer?
+webdev,fpk1dv3,t1_fpjg2nc,1588686004.0,"I recommend not using vim unless you are limited to a CLI, its not worth it"
+webdev,fpk10qu,t3_gdspne,1588685783.0,wtf
+django,fpjpg32,t1_fpjn8t4,1588676966.0,"thanks, does elasticpy work well with class based views?"
+django,fpj6y10,t3_gdq6ws,1588658410.0,remember letting users change the css can be a XSS vuln
+django,fpj6qqe,t1_fpiat1y,1588658234.0,"ok ty, should I also use select\_related on reviews for faster query?"
+flask,fphn8bm,t1_fp0nh89,1588624262.0,">ORM, authentication, CORS etc you realise that you might aswell have used Django.
+
+exactly, I would say flask/starlette for microservices and single page apps/mobile otherwise just django"
+flask,fphd33t,t1_fp3b6lo,1588619128.0,why not just use django?
+flask,fph6zt4,t1_fpehxx1,1588616072.0,it always does context switch on IO?
+flask,fph5qqc,t1_fpd8ys9,1588615442.0,multiprocess is better anyway
+django,fpgjo2f,t3_gceem5,1588604028.0,once you can write very efficient ORM queries on paper quickly
+django,fpgieyy,t1_fpcndwg,1588603330.0,tomorrow... tomorrow (I do the same)
+Israel,fpfzw23,t1_fpfzapb,1588589700.0,"uyghur camps is one example indeed, another example is setting up human farms for farming organs even in europe"
+Israel,fpfz8u7,t1_fpcazf9,1588589040.0,if nazis would create nice bridges for israel should we support that because israelis dont work in construction?
+Israel,fpfxsm6,t1_fpdlscl,1588587539.0,"IP? they most likely just buying the userbase, intel could create this in 2 days"
+Israel,fpfxpyh,t1_fpfujr3,1588587461.0,"let me guess, they are friends too"
+ConsumeProduct,fpdqekm,t1_fpd0ir3,1588532136.0,theyre sick in the head they don't care
+django,fp6ehjx,t3_gbhv5d,1588350950.0,"what do you mean, django runs on the server"
+django,fp5lcgl,t1_fp5kxdx,1588333361.0,"I was just trying something similar like this:
+
+&#x200B;
+
+```
+if query:  
+   categories = Category.objects.annotate(product_count=Count('products')).filter(products_name_icontains=query)  
+ else:  
+    categories = Category.objects.all()
+```
+and it worked thanks for the help."
+django,fp5kfny,t1_fp5e2eo,1588332523.0,"Yes but I want the count of products that also match the query string, for example on github if you search for ""test"" it shows how many results there are for ""c++"" in combination with ""test"""
+wallstreetbets,foytyuf,t1_foyo8j7,1588179124.0,lel
+wallstreetbets,foyrdx5,t1_foxndt8,1588177772.0,didnt you know the fed doesnt acually have a reserve of gold but its actually just meat in the freezer LOL
+China_Flu,foxvmu3,t1_fow56ic,1588157827.0,they probably didnt delete the research indeed
+China_Flu,foxrhsj,t1_fow7qoi,1588153732.0,"bleach is the vaccine, trump was right"
+China_Flu,foxkzgt,t1_foxi6t2,1588147316.0,their customer is government and pharmaceutical companies or anyone who gives them money (bribes)
+China_Flu,fovglwm,t1_fovcikz,1588100974.0,u can radiate the blood outside of the body
+China_Flu,fotlzou,t1_fotiag0,1588058126.0,why do u think the american gov raided american hospitals for masks? its for the inevitable war/anarchy.
+China_Flu,fotlwqt,t1_fot07fa,1588058047.0,it cant be true
+China_Flu,fotlfh4,t1_forj3uu,1588057601.0,"the world is failing so hard atm in everything, we cant even make masks, just hopeless"
+China_Flu,fotkwj6,t1_fothehe,1588057122.0,NHS runs for profit
+China_Flu,fotktdc,t1_fot2ksr,1588057042.0,because of corruption
+China_Flu,forecxg,t1_fordvki,1588010793.0,not
+China_Flu,fopza16,t1_fopb9hd,1587977263.0,"A ""collapse"" leads to the opposite of modern leftism"
+China_Flu,fonyfec,t3_g8diwz,1587928935.0,they test a bit more than for example the netherlands
+China_Flu,fony9yz,t1_fom3zqb,1587928850.0,dont antibiotics lower your immune system? I would be careful with it
+China_Flu,fonxrw3,t1_fomxrww,1587928564.0,"dont stop smoking, it increases ace2 receptors"
+China_Flu,fonxipv,t1_fomv5k2,1587928422.0,europeans also fat
+China_Flu,fonvrui,t1_fonkz6s,1587927433.0,"youre awake 16 hours and he didnt work and you can cook while smoking, but he woke up at night to smoke more also"
+China_Flu,fojtuqc,t1_fojepcr,1587829271.0,and then everyone is potentially infertile lel
+China_Flu,fojk2k7,t1_fojg8c7,1587822976.0,death rate in italy is close to 10% and hospitalisation rate in most countries is around 20%
+China_Flu,fojfkx5,t1_fohdcmq,1587819487.0,"its even proven nicotine pills are not more addictive than caffein pills, the role of nicotine in cigarretes is always overrated"
+China_Flu,fojfdqy,t1_foin9k6,1587819319.0,"but non smokers end up in ICU 20% of the time also right, so former smoker is like non smoker"
+China_Flu,fojf8hz,t1_foip1oq,1587819196.0,"bad health effects start to kick in 40's, my father used to smoke 10+ packs a day (usually 14 packs and a few cigars), its not good for you once you hit 40's, but also not as bad as people make it seem compared to alcohol"
+China_Flu,fojao85,t1_foieqn3,1587814893.0,"our scientists are useless, 6 months we had already to find out if nicotine helps or not"
+China_Flu,fojajjx,t1_fohm0ut,1587814757.0,smokers are actually less likely to get severe symptoms also
+COVID19positive,foivijx,t1_fogz4wg,1587798412.0,ok
+COVID19positive,fogc4q3,t1_foeka2p,1587750681.0,"do u have high blood pressure/ fast heart rate cus of thyroids?
+
+I have arrythmia/high pressure/PTSD and I feel like this would kill me"
+China_Flu,foga5xt,t1_fog94p9,1587749952.0,2 weeks use
+China_Flu,fog9hpx,t1_fog3to5,1587749689.0,forced quarantine china style
+China_Flu,fog0gji,t3_g7735j,1587745995.0,this virus is just random russian roullete
+China_Flu,foaxg3w,t1_fo9nxj2,1587653749.0,"The WHO also said the deathrate of SARS was 2%... it was actually 15%
+
+I think its the same now"
+China_Flu,foawwxb,t1_fo9t6td,1587653578.0,it was spreading in italy in november
+China_Flu,foawqhi,t1_foa1blg,1587653522.0,everytime they come up with a new lie
+China_Flu,fo7qe72,t1_fo7k2to,1587582752.0,not with enough masks
+China_Flu,fo6e4h5,t1_fo6e2fz,1587556131.0,it might even be true after all lol
+China_Flu,fo6e125,t1_fo66yij,1587556046.0,so... it stays dormant?
+China_Flu,fo6dqbu,t1_fo5tkjq,1587555779.0,is it?
+django,fo6a0qd,t3_g5xbdt,1587552137.0,"didnt try it but dont have the need for it, I think if you have a good understanding of types in python you wont get many bugs anyway"
+China_Flu,fo66c5c,t3_g5mxcr,1587548165.0,people still laugh when you wear goggles though
+China_Flu,fo667rg,t1_fo59c37,1587548033.0,"different times i guess, globalisation was not that big before WWII, just incompetent society, I also dont understand it"
+China_Flu,fo662qf,t1_fo5tbmf,1587547881.0,"they keep it for military, because otherwise there will be anarchy (once the police gets infected/too busy)"
+Israel,fo3y3ty,t1_fnwpjn3,1587494916.0,"it works better than harsher environments, is just facts"
+Israel,fo3x6qs,t1_fo0yied,1587494462.0,only if ur a dosi
+Israel,fo3wo34,t1_fo2ew4z,1587494209.0,so israel buys from Iran?
+Israel,fo3wg04,t1_fo3u39v,1587494097.0,use the-internet-sir
+Israel,fo3v48u,t1_fo1bffh,1587493456.0,he was resting in peace in a new country
+China_Flu,fo0a3n8,t3_g4yovb,1587408792.0,"wait what, its fcking 0?"
+China_Flu,fo09p7r,t3_g4yoza,1587408566.0,"it could definitely be on the meat, but most people cook it, except from chinese people"
+China_Flu,fnzf9eh,t3_g4qr7i,1587392915.0,easing at the peak 900 iq moves
+China_Flu,fnzer20,t1_fnzemih,1587392621.0,chickens are tastier
+China_Flu,fnvbdr2,t1_fnukc6o,1587286925.0,"I also thought about it, shouldnt most people be preppers by now purely by natural selection? It is strange"
+China_Flu,fntavuf,t1_fnta0t7,1587238000.0,let the bodies hit the floor
+China_Flu,fntakgc,t1_fns76el,1587237821.0,enough for a mask for everyone
+China_Flu,fnta821,t1_fnsv2l6,1587237628.0,so full pneumonia again? damn
+China_Flu,fnt7n5z,t1_fnsgjpy,1587236182.0,if the antibodies dont help that makes second infection even worse
+China_Flu,fnt7ima,t1_fnszxj7,1587236114.0,maybe hyperinflation?
+China_Flu,fnrs72j,t1_fnrqpuc,1587199555.0,"nukes are not an instant win these times, they have tech to shoot them down in the air and stuff, thats why USA and russia have like 10 000 nukes but china doesnt have so much, they would have to shoot them from china which would be easily detected, war could still happen, is what im saying"
+China_Flu,fnrrzta,t1_fnpvpb7,1587199339.0,"its aerosolised in the air but its **not airborne**! it will stay in the air for 7 hours, if you cough.... or talk... or maybe if you breathe... but its not airborne."
+China_Flu,fnloxjj,t1_fnllj08,1587057222.0,maybe they will do it to restart the economy and create new jobs

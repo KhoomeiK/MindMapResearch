@@ -1,0 +1,314 @@
+personalfinance,fqy23q9,t1_fqx4u0m,1589741342.0,"This is AMAZING. Thanks for sharing your experience, and hope y’all (and your marriage) continue to flourish!"
+OldSchoolCool,fqy0cmz,t1_fqxfak5,1589740566.0,"Cool that you’ve tried to imitate the hair. As you’ve practiced, have you seen yourself getting closer?
+
+Which tutorials do you use? I’d be interesting in trying it out too!!"
+dataisbeautiful,fqoh9ew,t1_fqllrvh,1589515202.0,This is cool stuff. Thank you for sharing!
+loseit,fqkgj5q,t1_fqitnhy,1589426810.0,Thanks for the response AND especially the graphic! Very informative!
+loseit,fqkg0ig,t3_giqfh6,1589426496.0,Yay!! Congrats on the new BMI category!
+food,fqg8iu5,t3_giksnv,1589340276.0,This is magnificent! Thank you for sharing! 🍰 🌹
+photoshopbattles,fqc9tv3,t3_ghqr5k,1589253183.0,I love swallowtails! 😍 Thank you for sharing this photo! 🐛
+EarthPorn,fqbivky,t3_ghojmw,1589237812.0,This looks magical! 🧚‍♀️😍
+loseit,fq7ao26,t3_ggxydl,1589143941.0,Thank you for sharing! I like the perspective and finding ways to continue to cultivate motivation and perseverance!
+1200isplenty,fq7a288,t3_gh2mxp,1589143720.0,This is love!!! It’s amazing to see that he put in this extra touch to support you in your goals!
+food,fq79d9l,t3_gh0y6n,1589143464.0,This is so lovely!! 😍 Thank you for sharing it with us. I hope you and your loved ones enjoyed it!
+food,fq4s3e9,t3_ggodv5,1589082850.0,Whoa! These are beautiful! I bet they taste as delicious and delightful as they look!
+loseit,fq3izp7,t3_ggbiqi,1589066957.0,"NSV: Last night, I wanted a snack. Honestly, I think I was feeling a little stressed and was hoping to feel better. I grabbed 2-3 squares of Trader Joe's dark chocolate. Normally I like it. Yesterday, it was not satisfying. I realized it wasn't worth the 230 calories. I almost spit it out. I am glad that I recognized that.  When I eat something like chocolate, I want to eat because I want to savor it.
+
+I am glad that when it didn't satisfy me, I paused and stopped from eating further. Sometimes, when stressed and I eat something that doesn't satisfy me, I will eat more."
+progresspics,fq03k8d,t1_fpwpqud,1589027270.0,"👍🏼👍🏼 Great job on your progress.
+
+8.8 lbs is solid!! Keep it up and hope your health journey success gives you a lot of energy and helps you in achieving the other goals you have!! ☺️"
+progresspics,fpy4j1k,t3_gfx3q1,1588995838.0,"This is awesome!! Great progress. Congrats on the diligent work - it's inspirational.
+
+On a random note - I \*love\* your arms."
+Baking,fpxez7e,t3_gfsu79,1588981396.0,Whoooooa! So lovely! 😍 🎂 🖼 🎨
+excel,fpw4s19,t1_fpw3khm,1588957245.0, Solution Verified
+excel,fpw4p1u,t1_fpw3khm,1588957204.0,"Thank you for your help!
+
+I tried building 1 code for all 4 Columns and got errors. (First related to duplicate Div's so I removed and added a note. Then something else.)
+
+Ultimately, I made 5 macros:
+
+* 1 for each the 4 columns -- this makes it easier if I need to copy again in the future.
+* 1 mega macro to run all 4 sequentially
+
+Thank you again! I appreciate your time and insights."
+excel,fpw2b49,t1_fpw1egp,1588956025.0,"Oh, awesome! Thank you for the explanation of the Cells(ActiveSheet.Rows,Count,1). This worked for Column V!
+
+     For Each XXyear In Range(Range(""V1""), Cells(ActiveSheet.Rows.Count, 22)) 
+
+For the look for W, Y, and Z...  where in the code do I loop? I am rusty and do not remember loop logic. And I would still update the letters under uBound as well, right?"
+excel,fpvy42p,t1_fpvwtfs,1588953908.0,"Here's the code:
+
+&#x200B;
+
+    Sub ConvertXXdatesTo20XXtest()
+    
+    'Change dates with years XX to 20XX (Excel not sure if 19XX or 20XX)
+    
+    
+    
+    Dim i As Integer
+    i = 1
+    
+    For Each XXyear In Range(Range(""V1""), Cells(ActiveSheet.Rows.Count, 1))
+    
+        If Len(XXyear.Text) > 4 Then
+        
+            Dim divText: divText = Split(XXyear.Text, ""/"")
+            
+            If UBound(divText) - LBound(divText) = 2 Then
+                If Len(divText(UBound(divText))) = 2 Then
+                    divText(UBound(divText)) = ""20"" & divText(UBound(divText))
+                    XXyear = Join(divText, ""/"")
+                    Range(""V"" & i).Select
+                    ActiveCell.FormulaR1C1 = XXyear
+                    
+                End If
+            End If
+        End If
+    i = i + 1
+    If (i = 32676) Then
+        Exit For
+    End If
+    Next
+    
+    End Sub"
+excel,fpvw9gx,t1_fpvvj01,1588952968.0,"Thanks for your input!
+
+Are you saying for both lines, change from A to V?
+
+When I test that with a dataset of 4 rows (header in row 1 and dataset in rows 2 to 5), I am encountering an error. (It's pasting the data in rows 44, 66, 88, and 110.)
+
+Additionally, how do it for Columns V to Z? I tried changing the first section to  **In Range(Range(""V:Z"")**  and second to    **Range(""V:Z"" & i).Select** , but it did not work. I will try again after we resolve the other item."
+excel,fpvtcu2,t1_fpvta30,1588951472.0,Can you please restore and delete the other? I got an automod response on the other one.
+AskReddit,fpmoob1,t1_fpmcjsd,1588737811.0,Whoa! 😳
+GetMotivated,fpmokz3,t3_geawfz,1588737749.0,"👍🏼👍🏼 When we invest in a solid process, sometimes it takes a little patience and perseverance to see the results!"
+gardening,fpizr7a,t3_gdmvz6,1588652711.0,This is awesome!! 😍 🥦
+todayilearned,fpd05o3,t1_fpcpeg1,1588516957.0,I - for a moment upon reading your post - thought this was a thing. ☺️😂
+SelfCareCharts,fpbshdr,t1_fpbr92u,1588477595.0,"Hello!
+
+First, I am sorry to hear that you experienced this! However, I am glad to hear that it’s been better as you’ve moved forward.
+
+I hope you can continue to use your experiences to help others.
+
+A couple more questions, if I may:
+
+How did you recognize this as an abusive pattern vs like the normal learning curve of communication and navigating different styles / personalities?
+
+As you move forward, are you extra vigilant with others where you perceive abuse where there’s not, or would you say you are cautiously trusting?"
+food,fpboz6c,t3_gcebb7,1588475131.0,"Messed up, eh?
+
+From my perspective, it looks like you created a masterpiece ☺️ 🍪"
+SupplyChainLogistics,fpbnxh8,t3_gcbwok,1588474414.0,"Hey there! Thanks for sharing this with us.
+
+Is it PDF and the online exam module? Or what's involved in this bundle?"
+progresspics,fpbnset,t3_gcgzlo,1588474318.0,"THIS IS AMAZING! Thank you for sharing. You are beautiful in both pictures -- all the same, I am glad to hear that you are feeling better during this part of your health journey!
+
+Your current stats are close to my UGW. :) It's helpful to see someone else with these stats as a reference."
+SelfCareCharts,fpbmwms,t3_gc9ui0,1588473725.0,"Thank you for sharing. This is informative!
+
+Abuse is tragic and I hope that we are able to find ways to reduce abuse (whether in our own lives or the lives of others). I hope that by increasing our understanding of abuse patterns and how to recognize it, we can do that!
+
+Question - how long do cycles typically last?"
+psychology,fp0vz2f,t1_fp0vojh,1588218164.0,"I have someone in my life who - when I share that the way they speak to me often creates a challenging environment and a combative situation between us - responds, “I am not being combative, I am being DEFENSIVE.”
+
+And then usually adds icing on the cake with, “and it’s because of you.”"
+loseit,fox2dw8,t3_g9yeyk,1588132443.0,"Woohoo! Congrats!!
+
+May you maintain good health of mind and body so you can be your best self for your friends and loved ones! 🙏🏼👍🏼"
+ukulelelessons,fopawgl,t3_g8mqqe,1587957005.0,Thank you for sharing! 🎶
+wholesomememes,foo69gw,t3_g8drqe,1587933320.0,Thanks for sharing. :) I like this perspective!
+progresspics,foo63sy,t3_g8cjiw,1587933230.0,"Love your specs! :)
+
+Also - congrats on your accomplishments in your health journey! I hope good health lets you do the things you've always wanted to do and helps you be a blessing to others."
+psychology,foo5z8g,t1_fonznck,1587933162.0,"Thank you for sharing!
+
+How can you tell that they’re making an effort?
+
+I guess I ask for a couple reasons.
+
+For one, I’ve had some highly spectrum narcissistic people in my life, so it caused me to develop some habits I’ve worked to overcome. (I want the healthiest relationships possible and from my perspective that starts with understanding the world around me and working on myself.)  I continue to try to overcome things as I identify them as an obstacle (granted, usually it's pointed out by someone else). All the same, I wonder occasionally if I am narcissistic unbeknownst to myself.
+
+Another reason I ask is because I’ve recently encountered some people who I think are high on the narcissistic spectrum. I think you kind of answered my question.
+
+One, for instance, told me last week they had overcome the areas we had identified the previous day. I shared that this needed to be shown over time and we couldn’t say based on 1 interaction if there was a change. Within that same discussion and then each subsequent one, they showed that this is not lasting and then they started continuing to deny and blame.
+
+Another, I am not as certain. They do some of these behaviors. They have difficulty receiving correction and deeply ""need"" admiration. I’ve also seen them deny, blame shift, etc, but I also care deeply about the person so I see their heart. I can see their woundedness and I am trying to make a safe space for them. For instance, acknowledging their pain when they express it (even if sometimes it’s also littered with blaming) and trying to encourage them to continue to share their feelings and be vulnerable. My hope is that they are not, or if they are, it can be overcome."
+psychology,fonv446,t1_fonohug,1587927055.0,"Hey there! How does one distinguish between the two?
+
+Like, someone who has stuff they need to work through vs someone high on the narcissist spectrum?
+
+BTW, because intent or tone isn’t always conveyed on the internet, I am asking out of curiosity and wanting to understand further, not because I am saying you are a narcissist."
+Catholicism,fom7rv5,t1_fol3h0a,1587880821.0,"I think I hear what you’re saying and I understand your point!
+
+I agree that those behaviors (passive aggressive, silent treatment, etc) are not behaviors we should desire to model. In fact, these are behaviors that we should work diligently to eliminate.
+
+And then if I hear you correctly, you’re sharing that we should not attribute these as feminine behavior, as that may degrade femininity."
+Catholicism,fom6amf,t1_fom64u9,1587879558.0,"Very cool! Thank you for sharing.
+
+I am glad to hear that you both continued to work together and have been committed to trying to see how to invite God into your marriage and guide you both.
+
+May the Lord bless you and keep you. And may your marriage be one that is a testament of His love and a blessing to both of you, your children, and those whom you encounter. 🙏🏼"
+Catholicism,fom5lvr,t1_fom4fqj,1587878989.0,"Nice! Thank you for sharing!
+
+That’s a wonderful point that your confessor made. I am glad his perspective gave you what you needed and spoke to your heart.
+
+Did the confession and the praying together thing happen close together, or was there time in between this? What nudged you to start praying together?
+
+I am glad to hear that you also lead the prayer. I think that’s important for the husband to do to show his spiritual leadership."
+Catholicism,fom3gg7,t1_fokemjy,1587877262.0,"Interesting! Thank you for sharing more about your experience!
+
+I don’t really know how to comment on the dress wise aspects of before. That’s a bit above my head tbh.
+
+For the emotions wise... what changed? Like, what in connecting with the Catholic nudged you to change? How did you start recognizing these behaviors (ex: silent treatment, passive aggressive behavior) and feel called to do it differently? Was it challenging to make these changes, or was it like an “A-Ha” Come-to-Jesus moment and then pretty straight forward from there?"
+Catholicism,fom37mc,t1_foknisr,1587877071.0,"Thank you for sharing this!
+
+I *love* Fr Mike. His videos and perspective have had a huge influence on my faith walk!
+
+I will save this video to watch later."
+Catholicism,folrldt,t3_g7y4ek,1587868829.0,"This is cool to read. Thank you for sharing!
+
+I am especially intrigued by what you shared here:
+
+>I used to see masculinity solely through how strong my body was, how much money I made and how many women found me attractive. I didn’t see Catholicism as masculine at all.
+
+I have seen men who also think of masculinity in the first way you described. It is unfortunate. Masculinity is so much more!
+
+I am so happy that your wife's words were what you needed. And I am happy to hear that you have found new life. I am especially encouraged by what you said about embracing being the ""spiritual priest of \[your\] family.""
+
+May God continue to look after you and your family. I hope your testimony inspires others and helps them also lean into their manhood!"
+Art,fol7j0u,t3_g7u0f9,1587856421.0,This is so awesome! 😍 🖼
+food,fnsmadj,t3_g3kj7g,1587224520.0,These are beautiful! Great job!! I hope you had a wonderful time making them and also sharing them with loved ones to consume. 🙂
+Christianity,fnqq73u,t3_g35uol,1587169821.0,Sooo lovely!! 👍🏼 📖🙏🏼
+EarthPorn,fnoqjfw,t3_g2qay2,1587131567.0,Sooo lovely! 😍😍
+psychology,fndrdzh,t1_fnd0lt5,1586876047.0,Glad to hear you found it relatable! 👍🏼 Hope it helps provide you with valuable information as you continue to learn about yourself and the world around you!
+SelfCareCharts,fn73ihf,t3_fzqxqv,1586712583.0,This is awesome. Thank you for sharing!
+Catholicism,fn6o9y6,t1_fn5fdyr,1586703958.0,My pleasure. I am glad it helped you. Happy Easter! 🐣🐰
+progresspics,fmusjm4,t3_fx88rj,1586397938.0,"CONGRATULATIONS! So inspiring! Thank you for sharing to motivate others!
+
+Also - I love both outfits!! Dresses/skirts are where it's at. :)"
+funny,fmgs2n3,t3_fv4tyk,1586056328.0,👍🏼🧣 🙃
+UpliftingNews,fmcrf72,t3_fucs29,1585951328.0,This is amazing! 👍🏼👏🏼
+houston,fm6pgi6,t1_fm6p2oc,1585799667.0,"Meeee too!! On both accounts! 👍🏼👍🏼
+
+It’s been such a relief to see - as they provide for their customers - HEB supporting local business.
+
+I read the other day about how on Friday, they catered lunch for their employees by supporting local restaurants!!
+
+They show that success is about lifting others up too!"
+SelfCareCharts,fm2xf4q,t3_fs0470,1585707674.0,Thank you for sharing.
+Breadit,flutmde,t3_fr741n,1585509784.0,These look so lovely!!! I bet they’re as delicious as they are beautiful! 😍 👍🏼
+LifeProTips,flu3uhy,t3_fqvgk7,1585494612.0,👍🏼 Thanks for the insight!
+food,flu3sr2,t3_fr5o4d,1585494580.0,"This is AMAZING!! Thank you for sharing this with us.
+
+Hope you were able to savor the delicious food, and even more so the company!"
+GetMotivated,flsw1a6,t3_fqv7o8,1585452256.0,👍🏼👏🏼
+science,flr58y2,t1_flr4v0q,1585413242.0,Epidemiology
+pics,flimp9o,t3_fozq81,1585185857.0,This is awesome! Helps keep the days from blending together! 👍🏼 🗓
+wholesomememes,flhtuqh,t3_foqsu5,1585169389.0,👍🏼👏🏼
+science,fl92jk1,t1_fl8u7ek,1584938960.0,Epidemiology
+pics,fl8sao5,t3_fn8hgk,1584931068.0,This is beautiful! Your neighbor has a wonderful heart and I hope her gift blesses you. 🙏🏼
+todayilearned,fl8pnas,t1_fl8da7r,1584929236.0,The wife is always right! 😉
+todayilearned,fl8pmm4,t3_fn90jd,1584929222.0,This is AMAZING!!
+GetMotivated,fl8e1c2,t3_fna1x6,1584921552.0,"While not directly related to motivation, I see being teachable and open to correction as a huge puzzle piece in achieving our goals. I believe it’s important to cultivate these traits in our pursuit of success."
+psychology,fl767lh,t1_fl6l7yb,1584895135.0,"Hey there! Sorry to hear that you’ve experienced some of these patterns with you dad. I bet that’s been challenging.
+
+It was interesting for me to read, too! Helped me identify patterns in relationships that I have made me feel uncomfortable and kind of validates (?) my feelings for when I was wondering if it was “normal” for me to feel uncomfortable with them.
+
+I am hoping I can use it to pinpoint these unsafe behaviors in the future and call them out (and ask for better ways of interacting) to **try** to moving towards safety.
+
+It also helped me to think about where I can build awareness and sometimes adjust."
+boardgames,fl4lk6o,t3_fmdjqe,1584816145.0,I was thinking on Pandemic this week (for obvious reasons). Interesting to hear his perspective.
+GetMotivated,fl4l5jh,t3_fmfdni,1584815888.0,👏🏼 thank you for sharing!
+aww,fl2xqje,t3_fm4n3o,1584762726.0,Whoa! I love this transformation photo! 🐈 Glad you’ve made him a part of your family!
+AskReddit,fkztqks,t1_fkz70rs,1584680094.0,Glad it helped you count your blessings! 👍🏼🙏🏼
+Patriots,fkziuxp,t1_fkxs3oo,1584672036.0,Hehe. This idea amuses me.
+gardening,fkzhiob,t3_fljx11,1584671129.0,This is wonderful! It looks magical! 🧚🏼‍♂️ 🌱
+Catholicism,fkzek6l,t3_ff2g4v,1584669156.0,"If you like SGSET, then I recommend other books by Fr Michael Gaitley.
+
+Have you done any of the 33-day consecrations? I really liked both Morning Glory and Merciful Love. I am just getting started with 33 Days to Greater Glory.
+
+He has other non-consecrations too!"
+progresspics,fkwqlsl,t3_fktw54,1584601670.0,"You are beautiful in both photos! All the same, congrats on these big strides in your health journey!"
+EarthPorn,fkt4qyp,t3_fkc9zo,1584506228.0,This is marvelous. 😍 Thank you for sharing!
+Patriots,fkt4350,t1_fksweqa,1584505688.0,Ohhh. He’d be a nice TE 👍🏼
+houston,fkpsz39,t1_fkphswl,1584418513.0,This is awesome! Thank you for sharing what you learned from listening to it!
+howtonotgiveafuck,fkpmv4m,t3_fjmdyb,1584413948.0,👍🏼 👏🏼
+SelfCareCharts,fklmahn,t3_fixgrz,1584309725.0,"I like this!! Thank you for sharing!
+
+I had a situation with which I was wrestling. I am pretty self-reflective so I try to think about what I can do better.
+
+This chart is helpful in multiple ways for me. First, it helps me identify ways to improve. Second (and more encouraging for me), I can see ways that I already do well.
+
+I told the person: “I would like to make my own decision.” I also stated my desire of “I’d like to be spoken to charitably (ie kindly).” I found some ways I could say this better, but I also believe I said something along the lines of, “I’d like to table this discussion because I am at work and have a difficult time pausing. I’d like to be able to focus on work right now.”
+
+Even though there are ways I can continue say things better, I am happy to see the ways that I am effectively communicating. I am also happy that I’ve started identifying those improvement areas (identifying the gap and identifying the solutions are a great start!)"
+BotanicalPorn,fki5g87,t1_fkhv11n,1584212294.0,It’s very lovely! Thank you for sharing.
+SelfCareCharts,fk86snt,t3_fgswsb,1583950429.0,Thank you for sharing this! This is exercise is practical. I appreciate it!
+psychology,fjynjct,t1_fjynesu,1583700587.0,💙
+flexibility,fjmg5sg,t3_fdro14,1583469696.0,Bookmarking. Thank you for sharing!
+bulletjournal,fjmg1j7,t3_fdwul7,1583469602.0,Very lovely!!
+OldSchoolCool,fjkd32m,t3_fdu9sv,1583424782.0,He looks so warm and approachable!
+SelfCareCharts,fjhgzyx,t3_fdd81u,1583347939.0,"I like this chart!
+
+It reminds me of this article that I saw last month (also included excerpt below):  [https://www.psychologytoday.com/us/blog/the-freedom-change/201908/when-and-how-apologize-attachment-theory-perspective](https://www.psychologytoday.com/us/blog/the-freedom-change/201908/when-and-how-apologize-attachment-theory-perspective) 
+
+It's helped me as I continue to try to refine and improve how I take responsibility and give effective apologies. It also helps me build empathy in understanding when others fall short (or even the inter-workings of why I fall short when I do).
+
+&#x200B;
+
+ 
+
+>Schumann (2014) suggests that effective apologies are likely to contain the following eight elements ([available online here](https://journals.sagepub.com/doi/suppl/10.1177/0265407517746517)):  
+>  
+>Expressing remorse.  
+>  
+>Accepting responsibility.  
+>  
+>Attempting to repair the damage.  
+>  
+>Offering an explanation that does not deflect responsibility.  
+>  
+>Promising to behave better in the future.  
+>  
+>Acknowledging the harm that was done.  
+>  
+>Admitting wrongdoing.  
+>  
+>Asking for forgiveness.  
+>  
+>  
+>  
+>Schumann and Orehek’s research indicated that securely attached people tend to engage in more comprehensive apologies, meaning that they are more likely to use a greater number of the eight strategies listed above. Research by Ashy, Mercurio, and Malley-Morrison (2010) indicates that secure attachment also was one of the best predictors of positive attitudes toward forgiveness. Securely attached people are more open to forgiving relative to those with insecure attachment styles. It follows that those with secure attachment styles should expect positive things to come from apologizing and to engage in this behavior more frequently.  
+>  
+>But about 45 percent of the population has one of the three insecure attachment styles. Thus, even if you are secure yourself, you should read this material so that you can understand how insecurely attached people you interact with think about and process apologies. "
+SelfCareCharts,fjhgk3h,t3_fdd8cw,1583347696.0,Thank you for sharing! I like this chart.
+Catholicism,fj15btl,t3_fasfzb,1582913275.0,This is beautiful!
+bujo,fj15592,t3_fat0h7,1582913182.0,Love this! I like that you use this as a way to reflect on your goals!! What questions do you ask yourself? (These two or even more?)
+GetMotivated,fj10jfh,t3_fat3hb,1582910873.0,Love this!! Thank you for sharing.
+bujo,fix7oh0,t3_fa9mt8,1582814611.0,"LOVE IT! Thank you for sharing.
+
+I like to experiment with different finance assessments for myself. I like this one that you made! I hope it helps you!"
+Catholicism,fin4npc,t1_fikwx3a,1582555680.0,As I see it: It’s never too early or too late to read on the saints. 🙂 We can read them on the feast days or even throughout the year.
+psychology,fikqeqv,t1_fikq33z,1582485283.0,"I see. If I hear you correctly, it sounds like you don't like stark labels and black-and-white thinking?
+
+Here's something I really enjoyed a bit further down:
+
+&#x200B;
+
+>Rather than seeing [co-dependency](https://www.psychologytoday.com/us/basics/codependency) as a disease state psychopathology, requiring years of in-depth treatment, we can see it as a learning deficit. We can reframe it as a normal stage of development, which is not a problem unless we get stuck there. Co-dependence is an inevitable and natural part of every relationship. Some people call it love, infatuation, or devotion. There is an [unconscious](https://www.psychologytoday.com/us/basics/unconscious) agreement in a co-dependent relationship that you’re not going to do anything to ruffle their feathers and they’re not going to do anything to ruffle ours. There’s an implicit agreement that we’re going to let each other merge.  
+>  
+>In every relationship, there is a stage where we lose ourselves in the other person, which is wonderful. It’s only a problem if we lose ourselves and don’t get ourselves back again. We keep the “Do not Disturb” agreement under wraps as part of the early developmental stage, until it doesn’t work for us anymore. When we recognize the toll that it’s taking on us is just too dear, we desire to progress to the next stage of differentiation."
+psychology,fikpy5m,t1_fikpdei,1582485029.0,"What do you not like about it?
+
+I really liked the context of the article, and the title caught my eye. From reading the article, is there a different way you would have framed it?"
+BasicBulletJournals,fik0dq7,t3_f7x7yc,1582469587.0,This is awesome. Thanks for sharing! I like this!!
+aww,fiag44x,t3_f7aclc,1582300326.0,Loveeee! 🐕 🎨
+psychology,fi5ynuf,t1_fi5chkq,1582173743.0,"Hey there!
+
+If I understand correctly, you’re saying you’ve been in psych classes where anger is consider a primary emotion? This intrigued me! Do you remember the sources or how they are framing it?
+
+From what I learned - more formally and also from hands-on life learnings - anger is a secondary emotion. Here’s an article from the Gottman Institute:  https://www.gottman.com/blog/the-anger-iceberg/
+
+I find the iceberg analogy to be spot on. Anger may be what we see on the surface, but when we dive deeper, I believe it usually indicates more."

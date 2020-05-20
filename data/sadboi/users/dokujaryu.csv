@@ -1,0 +1,275 @@
+science,fq4uur8,t1_fq3ld7m,1589084699.0,"Same happened to me. I made my special breakfast sausage sandwiches for my roommate and his group of friends in college. They were so impressed at how home cooked they tasted, I got the nod.   I think they were homesick.  I was half raised by a black lady and her family because my mother was a single parent, so maybe that helped my palette."
+politics,fogwbx9,t3_g7a2an,1587757706.0,Don’t be like Trump. Turn off the cable news and lead a more mentally healthy life.
+MiniPCs,fo3qvga,t3_es1f9k,1587491468.0,I saw this recently any thought of this post. https://www.rosch-computer.de/prodDetail.jsp?pi=MI-MI988
+networking,fo1q1kz,t1_fo1k2oy,1587438830.0,"I’m reading the ib_send_bw output, which is made by Mellanox to show throughput, so I assume they made it fairly accurate."
+networking,fo0nafe,t1_fo0hyvp,1587416195.0,"That’s kinda what I figured. I guess I kinda see why 40 gig cards are more popular, cheaper and you can use the whole card. I bet if I tweak the MTU and message size I can get another 5 or so out of it to get into the 90s. For some reason I remember benchmarking these cards at sustained 92gigs, but I may have been wrong. 
+
+I was looking at getting a Ryzen 3950x system with PCI-E 4, but I’d have to also find an IB card that supports it."
+networking,fo0fthk,t1_fo06yad,1587412357.0,"So there’s only one NIC in each machine and only one CPU in each machine. I verified each machine has the NIC on 16 lanes of PCI-E 3.0.  AFAIK you cannot saturate 16 lanes with 100gbits as it is 128gbits of bandwidth. And I’m getting way over 8x at 85 gbits. That being said, I was trying to find out if the 8GT you get per lane is duplex or not. But that being said ib_read_bw and write won’t exceed 85gbits either."
+networking,fnzpnry,t1_fnzk83u,1587398518.0,"I've tried 3 MTUs, 1024, 4096, and 9000. Performance gets *worse* as MTU goes up, at least in ib\_send\_bw with a payload size of 65535. Maybe if I craft the payload to be just under one 9000 bytes frame. 
+
+To be fair, I'm getting an extremely consistent 85gbits each direction or 168 gbits bidirectional, which is you know, 85% of what is advertised so I probably shouldn't complain. I'm really just wondering if this loss is expected and normal at this point. I've seen a few people getting 15 - 20 gbits each direction while looking around. The cable is pretty clean as well, I don't know how it degrades in performance though. 
+
+The CPUs on both systems have one core pegged at 100%, but when I tried to run two at once I just got half speed and had two cores pegged at 100%, so that's not very encouraging. If it's hardware, I wonder if it's memory speed, as RDMA is writing to the memory of the app, maybe that's just as fast as it can possibly write to one of the boxes. Both boxes have 8, 8 GB DDR-4 sticks, one side at 3200 CL14 one is DDR4 JDEC speeds. 
+
+But my concern is if Ubuntu 20.04 is too new and is causing issues. I'm considering trying CentOS 8.1, but I need ZFS support and 20.04 is LTS and is using an LTS kernel and has ZFS without installing any modules, so it's extremely attractive. Both machines are clean installs of 20.04 but there was some package disagreement on perftools, with apt having the newer version of verbs and perf than the actual OFED driver. I can go down to 19.10, which also has ZFS or I can go across to CentOS 8.1 + KDE + OpenZFS."
+networking,fnzj3mo,t1_fnzcycb,1587395048.0,"AFAIK, there's no interrupts happening with RDMA. Also, there's 16 interrupts across 16 virtual cores, so it should be pretty balanced if they were interrupting. 
+
+I do monitor, but the only suspicious thing I'm seeing is ib\_send\_bw is using 100% CPU. I ran two at once and got 85gbits per instance with both instances also at 100% so it doesn't seem to matter, but I'm not sure."
+networking,fnzebws,t3_g4sxhe,1587392376.0,"A bit more info:
+
+perftest - When installing OFED, perftest will complain about versions (Requires 5.7) apt had a newer? version that did work. I assume it was incompatible with 20.04's version of verbs.
+
+`libibverbs1-dbg/now 50mlnx1-1.50218 amd64 [installed,local]`
+
+`perftest/focal,now 4.4+0.5-1 amd64 [installed]`
+
+&#x200B;
+
+`---------------------------------------------------------------------------------------`
+
+`Send Bidirectional BW Test`
+
+`Dual-port : OFF Device : mlx5_0`
+
+`Number of qps : 1 Transport type : IB`
+
+`Connection type : RC Using SRQ : OFF`
+
+`TX depth : 128`
+
+`RX depth : 512`
+
+`CQ Moderation : 100`
+
+`Mtu : 2048[B]`
+
+`Link type : Ethernet`
+
+`GID index : 2`
+
+`Max inline data : 0[B]`
+
+`rdma_cm QPs : ON`
+
+`Data ex. method : rdma_cm`
+
+`---------------------------------------------------------------------------------------`
+
+`local address: LID 0000 QPN 0x0119 PSN 0xf082e6`
+
+`GID: 00:00:00:00:00:00:00:00:00:00:255:255:100:00:00:01`
+
+`remote address: LID 0000 QPN 0x0108 PSN 0xebb0c4`
+
+`GID: 00:00:00:00:00:00:00:00:00:00:255:255:100:00:00:02`
+
+`---------------------------------------------------------------------------------------`
+
+`#bytes #iterations BW peak[Gb/sec] BW average[Gb/sec] MsgRate[Mpps]`
+
+`65536 1914916 0.00 167.33 0.319154`
+
+`---------------------------------------------------------------------------------------`"
+Ubuntu,fnzcyuv,t1_fnzavzt,1587391570.0,"OK, I ignored the warnings and it rebooted fine with the generic kernel. Still don't know why the installer chose it though. I assume the nvidia driver?"
+Ubuntu,fnzae33,t1_fnza1w8,1587389977.0,"There’s kernel mods like the nvidia driver etc. that complain when I uninstall, aborting the process, and a strong warning that uninstalling will cause the machine to not boot. Is it fine to ignore?"
+AdviceAnimals,fn45l57,t3_fz4tty,1586634516.0,"That's because one of these is important, the other is not."
+science,fmzxnyf,t1_fmzj5ks,1586531623.0,"I was going to say, is this article from 1985?"
+worldnews,flzwpnv,t1_flzkhtz,1585636049.0,Hopefully she was just fucking with you. There’s some pranks happening...
+worldnews,fl44dmq,t1_fl42cg8,1584805634.0,It’s cool. We can do both.
+WTF,fkw6q7d,t3_fl1dy8,1584584744.0,"This whole thing is weird. States are giving non-citizens driver’s licenses. Therefore, a driver’s license is no longer valid from those states to the Feds. It’s this whole tension about harbor cities and stuff. At least that’s my take/ understanding of this."
+Anxiety,fktolb7,t3_fkayil,1584529100.0,"Thanks so much for posting this. I also am having major issues. I feel like I have to remind myself to breathe or I’ll stop, which makes it infuriating to try to sleep. I also have a stomach acid issue I’ve been dealing with, which causes pain / strange feelings in my gut. I bought an o2 sensor which is the only thing keeping me sane right now. But I keep waking up at 1AM unable to calm down. I know it’s the lying down causing stomach acid to make my chest hurt, I know my o2 level is 98% at 60bpm. I know I don’t have a fever. On top of all this I’ve had pneumonia before and how I ended up in the hospital was I had a coughing fit and couldn’t stop to catch my breath. Went dark a bit. Now I’m so scared to cough all the time it’s like doom over my head."
+Anxiety,fkto1gm,t1_fkrw9c7,1584528466.0,I have an O2 meter as well and it’s about all that’s keeping me sane. I had pneumonia like 5 years ago so I keep having phantom memories of it.
+todayilearned,fjwfkdt,t1_fjuyyk0,1583638511.0,"I lived in a very rural area that didn't have cable in the 90's and this was still pretty common out there. I moved there from a large town that DID have cable, and it was new to me that TV just stopped at some point. Around high school instead of stopping the infomercials came..."
+MiniPCs,fiy6v8n,t3_fabfu2,1582833686.0,"I do both of these hobbies and in my opinion you need to ask yourself how much you care about the data, encryption, and the speed of access to that data by how many clients. If you don’t care much about those things then it doesn’t matter. Just get something FreeNAS compatible and go wild. Or just plug an external hard drive into your router, as most routers support that kind of thing. 
+
+However, I’m doing a 10 drive double parity ZFS on a Xeon file server with ECC memory and 10gig LAN for housing family photos, videos, backups, Steam/Blizzard/Origin game installs, etc. It runs a stable version of Ubuntu Server with kernel support for Open ZFS with AES encryption.  I do offsite backups of critical data. 
+
+As far as what quality is important, they all are. Crappy LAN cards will make for a bad experience of storing and retrieving. Slow storage same. Not enough drives will result in lost data. Slow CPU will choke on encryption, compression or server side backups to offsite.  Low amounts of memory will result in extremely poor performance during large file or multi user access. Again, if you don’t care about any of that and just want a network drive that works, you can do whatever you want. If you are planning on editing large movie files over the network while someone plays a video game off a mounted drive, you’re gonna have a bad time with low and slow core counts, low memory, bad / slow SATA drives, and network interfaces."
+ft86,fiuxsht,t1_fitibmi,1582750200.0,"Same, especially second when cold like 40c or lower. I couldn’t garage the car the first month which is when it was the worst."
+KerbalSpaceProgram,fi8bhl0,t3_f6siqh,1582237052.0,The way it moves reminds me a lot of that gif of a guy on a sand surfing board giving thumbs up
+science,fi5l9c1,t1_fi5a5fw,1582165521.0,"Well, I’ve heard people tell me snidely that America is a Federal Republic with “democratic elections” To be an actual democracy we’d need to vote on every single policy change with a popular vote. Wouldn’t that be fuuuuuun."
+ft86,fi57x4k,t1_fi54rhx,1582156928.0,PM’ed
+ft86,fi3ik67,t1_fi33dee,1582119978.0,It’s the Weds TC105X. I looked at the product page and I don’t see any indication as to how large or what type fits. Like cone or sphere or tuner or what.
+ft86,fhg49vm,t1_fhfsq0n,1581558256.0,Doh! I meant the CSG Spec Tein Flex A coilovers! :D It says March on that page.
+ft86,fhei4zt,t1_fhd5yao,1581522901.0,It says you are out of stock with more in March. Should I back order or will there be enough stock to wait till April?
+ft86,fhd3tl2,t1_fhcwhz0,1581476708.0,Ahh cool. I was going to get the Verus ones since they are made of 7xxx aluminum rather than 6xxx. I assume any LCA will work.
+ft86,fhd2pom,t1_fhbjvyp,1581476031.0,"Yeah, that's really the problem IMO. How do you get something specifically tuned for the BRZ. Obviously the CSG Teins are, but all the others? Maybe the HKS?"
+ft86,fhbcke3,t1_fhb7urj,1581439488.0,I am in the states and CSG is actually close to me in LA. They are like $300 more than standard flex As but I like how you need to install good lower control arms. $2000 kit total with the LCAs I was going to get so. That’s really interesting.
+ft86,fhb301e,t1_fhan1lu,1581433645.0,"KW v3 is discontinued and doesn’t allow camber adjustments. I figured this disqualified them, but honestly, I’m so new, having a set that comes out of the box ready is extremely attractive. At $2100, i might’ve able to get them on sale. Also I find their color choices hideous. 
+
+I didn’t know the dials get lost! That’s good info. I was worried no dial was a sign of cheapness. The HKS was my first pick, if they are actually good quality mid tier vs the Fortune Auto it would be nice. Also if they are, as most JDM, setup more for oversteer that’d be best. 
+
+Thanks for the comment. This is driving me bonkers."
+ft86,fhabdsy,t3_f1km9h,1581403276.0,"There’s a really nice calculator that shows you the different compatible sizes here: https://tiresize.com/calculator
+
+And wheel it fit also has good stats on how wheel and tire changes affect speedo and such: https://www.ft86motorsports.com/wheelitfit/"
+ft86,fhaay39,t3_f23sho,1581402810.0,"I’m not young, but I went from a GTI to this and my rates went up maybe $10."
+ft86,fge2xf5,t1_fg8ive3,1580690142.0,I think I just prefer the look of the Weds really. The RPF1 double 6 spoke just looks kinda dated and kid racer while the Weds 10 even spoke design looks more grown up and serious I guess. Given what I saw on Fitment Industries wheels can get extremely brash and absurd so neither of these are unacceptable. I also can’t tell if the Titanium vs. Silver in either look better with the Dark Gray paint.
+ft86,fg7i8lc,t1_fg5os5q,1580593155.0,I think the weds look better than the rpf1s all the time for sure. It’s really the price difference that has me conflicted
+ft86,fg7i2xh,t1_fg5weom,1580593044.0,I’m looking at 17x8 45 right now. In both wheel brands.
+ft86,ffxn4yg,t3_euy2se,1580328513.0,Has anyone changed out the radio for the Alpine Halo 9 unit? Any issues with car compatibility? Any pics of how the screen rests in the car?
+ft86,ffs9cj7,t1_ffs63vv,1580176318.0,"Any dynos out there? I was assuming it would be similar, but not quite as good as E85 cause the engine will still run gasoline temps. Everyone says the cooler temps of E85 is most of the secret sauce."
+ft86,ffplxfu,t1_ffplqay,1580098316.0,"Me either. I was enlightened by Chris Fix. 
+
+
+https://youtu.be/CFXfSBR5Q9w"
+ft86,ffpljbd,t1_ffp7hm9,1580098031.0,Technically I had three. The last one was for dirty drying towels.
+overclocking,ffp2jh8,t1_ffma2un,1580084891.0,Damn. Now I'm sad my 4 year old Titan X Pascal has Micron ram.
+ft86,ffmrnup,t3_eu4t3o,1580058231.0,https://youtu.be/tEpl9W7hA6U
+AdviceAnimals,ffk6tde,t3_ettyy3,1580017761.0,"I wish I was as alpha as you, almost as much as I wish this was true. If it is, well. First part isn’t a lie."
+ft86,ffgup5i,t1_fffuts7,1579915532.0,I looked on Subaru's part store and didn't see these. Where can you get them?
+ft86,fffd1i5,t1_ffeiyds,1579881273.0,"Yeah that’s my fear. I believe the GT coilovers from HKS attempt to maintain stock like feel on the road. I plan on tracking at Laguna Seca but well beyond 90% is on the regular Bay Area roads (terrible). Are the stock spring rates known??? I assume they are 6k / 4K as the GTs are setup for that. 
+
+I was considering a 0.5” drop to go with some wider wheels on track day."
+ft86,ffb9xet,t1_ff9to56,1579756698.0,That’s exactly why I asked lol. My GTI didn’t have so much road crap noise.
+MiniPCs,ff89lcq,t3_es1f9k,1579670058.0,"https://shop.udoo.org/udoo-bolt-v8.html
+
+Udoo Bolt v8 has up to 32GB and can add a second network with a usb-c 3.1 speed adapter."
+gaming,fetn9ul,t3_eqj7z0,1579377128.0,Anyone else wonder why they were talking about the Java library for interacting with Redis?
+ft86,fej8kxa,t1_feidbbb,1579161555.0,"I was really considering the Flex As but I didn’t think I would hit the bump stops very often. They seem to be more marketed for rally racing with jumps. I live in the Bay Area tho and the streets are awful in some places.
+
+The coil over thing really bugs me as it’s a lot of money and since I’m not hardcore track racing or lowering my car, the $1000 seems to mostly be to allow adjustments. I can see more direct benefit in wheels, tires, supercharger, clutch, and tune, but everyone seems to go coil overs first. Probably cause they lower. 
+
+I looked at the KW V1s but they don’t have click adjustment, which everyone seems to want and the V3s seem to track focused with features I won’t use. At least TEIN is Japanese and has domestic service and the Flex A does have a feature I can reasonably see as occasionally beneficial with the hydraulic bump stops on potholes. 
+
+The HKS is interesting, and JDM. I’m looking at their parts for some other stuff. The Hipermax IV SP model seems to be what I’m after for a sporty feel. The 8k spring rates was what I was considering too."
+ft86,feiblc1,t1_feha3r5,1579134687.0,"Yep, I was looking specifically at the TC105x with 245/40 PS4S. I’m looking at the BC BR Coilovers or the TEIN z"
+ft86,fefxjak,t1_feeuc1j,1579068508.0,"Yeah, you're right, it's not like I don't agree. I've had my share of blown 4 cyls to go 0-60 in. I'm just looking and learning. I readily admit don't know shit about wheels and suspensions. 
+
+&#x200B;
+
+One thing I'm trying to avoid some bad mojo I had with a Mazdaspeed MX-5 with fairly low profile tires (3"" sidewall) that ruined the ride. Doing the math, stock sidewall height on 215/45/17 is 3.8"", and sidewall height on 245/40/17 is 3.9"" vs 255/40/18 is 4"", so ride comfort from tire sidewall flex should be fine with any of those options I suppose. The 04' MSM wheels bent and punctured (yes the wheel) and cost me a ton. 
+
+&#x200B;
+
+Honestly, I don't like being that guy who just talks about what he might do to the car, but I do eventually plan on putting a supercharger on it, so maybe some of the width concerns might make more sense. Based on what I'm hearing tho, I'm adjusting my budget for a set of street / track coilovers and some lightweight wheels with PS4S. I was just planning on starting with wheels and tires since supercharger is the most expensive part. Seems like coilovers need to come at the same time as wheels and tires. Then again, unsprung will be a bit lower with 17x8 with 245/40s vs. 18s. Tread width of 225/45/17 is 7.5"", while 245/40/17 is 8.3"" and 255/40/18 8.8"". Doing all the math I get with PS4S
+
+17x7.5 (stock) + 225/45 = 22 (I think?) lbs + 21lbs \* 4 = 172 lbs. Or 23lbs per inch of tread width.
+
+17x8 245/40 = 16lbs + 22lbs \* 4 = 152 lbs. Or 18.3lbs per inch of tread width.
+
+18x9.5 255/35 = 18lbs + 23lbs \* 4 = 164 lbs. Or 18.6lbs per inch of tread width.
+
+&#x200B;
+
+Lower power engine is going to do better with lower rotational / unsprung mass, I'm not planning on upgrading the brembo brake kit, but I guess I could throw some slotted / drilled rotors in there as well. Maybe I'm over-optimizing for unsprung weight, but it seems to be important. On the other hand, with 18x9.5s I'd have a lot more tire options available to me, since it seems 17s aren't really in style these days. Still tho, you are right, if I just got these Primacy HP 215/45s off and just threw some 225/45 PS4S on there, I'd probably never know the difference and save a ton of money. It's not like the Performance rims are awful anyway. 
+
+&#x200B;
+
+As far as lowering, I'm not looking to like drop the car down much. What I mean is I'm not intentionally going for a low look. Whatever makes sense for the coilover performance, sure, just as long as it is adjustable for autocross and back up for our terrible streets. I don't find the stock height on the stock wheels offensive or anything."
+ft86,fecxcc1,t1_fec3x6f,1578988408.0,"So, just to follow up on this, the TC 105x comes in 5x100 in 
+
+* 17x8 +42  0.31"" closer (spacers)
+* 17x9 +35 0.04"" closer (perfect fit)
+* 18x8 +45 0.43"" closer (spacers)
+* 18x8.5 +43 0.35"" closer (spacers)
+* 18x9.5 +45 0.43"" closer (spacers)
+
+The 17x9 +35 just fits perfectly as in the inside of the wheel and tire sit exactly in the same place. So I think that's why people go for it with the 245/40 tire. It also allows you to potentially upgrade to 255/40 after some fender rolling? Maybe the rears can take that wide without fender rolling? Dunno. The 17x8 with the Pilot Sport 4 S 245 would be the lowest weight. 
+
+This guy did the TC 105N 17x9 with 245s and his wheel wells look pretty stuffed. But he also did coilovers. 
+
+[https://youtu.be/NQqG9Y0ejjk?t=520](https://youtu.be/NQqG9Y0ejjk?t=520)"
+ft86,fecph5k,t1_fec3x6f,1578979980.0,"Yeah, I can run the Pilot Sport 4 S 245/40 17 on an 8” rim, it’s within spec. Should be less unsprung as well. They are rated at 8.5” tho and damn if I can’t find a good 8.5."
+ft86,fe6oe14,t1_fe6nssw,1578898064.0,"Damn it I sent the wrong link to rim. I was looking at these:
+
+
+https://www.ft86speedfactory.com/wedssport-tc105x-17x9-35-ej-ti-2013-ft86-2014-forester.html#.XhwSCySIYlR
+
+They are 17x9 :-/ nice set so bummed that 9” is too wide. I guess I could look at coil overs but this is getting expensive"
+ft86,fe6n4h0,t1_fe6ipi5,1578896651.0,"I think this setup will work cause the +35 offset keeps in inside of the wheel and tire in exactly the same place. So it's really can I go 1"" out towards the fender without rubbing. That I don't know. 
+
+ 
+
+Tire: [https://www.tirerack.com/tires/tires.jsp?tireMake=Michelin&tireModel=Pilot+Sport+4S&partnum=44YR7PS4SXL](https://www.tirerack.com/tires/tires.jsp?tireMake=Michelin&tireModel=Pilot+Sport+4S&partnum=44YR7PS4SXL)
+
+Wheel: [https://www.ft86speedfactory.com/wheels-40/17-s/17-x-8.html](https://www.ft86speedfactory.com/wheels-40/17-s/17-x-8.html)
+
+215/45/17  +48 (stock) vs 245/40/17 +35 sits almost exactly the same height and  inner room, but pushes the outside of the tire out 1"". I think that  should be good to go?  Used [this calculator](https://tiresize.com/wheel-offset-calculator/).
+
+Here's the comparo: [https://imgur.com/gallery/IpVuGhP](https://imgur.com/gallery/IpVuGhP)"
+ft86,fe6m8vm,t1_fe63d7p,1578895693.0,"So, I'd rather not get a lower profile tire if I can help it. I'm pretty set on the tire since I liked them so much on my other car, and they only go to 245/40/17. The measured rim width for that tire is 8.5"", so I could get a lighter weight 8.5""/ 9"" rim with this tire setup. Seems more street / autocross friendly since this is my daily?
+
+Tire: [https://www.tirerack.com/tires/tires.jsp?tireMake=Michelin&tireModel=Pilot+Sport+4S&partnum=44YR7PS4SXL](https://www.tirerack.com/tires/tires.jsp?tireMake=Michelin&tireModel=Pilot+Sport+4S&partnum=44YR7PS4SXL)
+
+Wheel: [https://www.ft86speedfactory.com/wheels-40/17-s/17-x-8.html](https://www.ft86speedfactory.com/wheels-40/17-s/17-x-8.html)
+
+215/45/17 +48 (stock) vs 245/40/17 +35 sits almost exactly the same height and inner room, but pushes the outside of the tire out 1"". I think that should be good to go?  Used [this calculator](https://tiresize.com/wheel-offset-calculator/).
+
+Here's the comparo: [https://imgur.com/gallery/IpVuGhP](https://imgur.com/gallery/IpVuGhP)
+
+If I have to get 245 tire on 18s, would I want to go for the lower unsprung weight? Tho, I guess there's more sidewall. Still can't weight as much as metal and it's the same width? Dunno, I'm not like a tire nerd so this is all new to me."
+ft86,fe6hj60,t1_fe63chn,1578891085.0,"I'll see if I can find that video. I have the Sachs shock absorbers from the performance pack, but I don't think it's a coilover. Dunno, can't look under the car right now."
+ft86,fe5zjsf,t1_fe4ggwp,1578878437.0,Tire rack won’t let me go any higher than an 18x8 on the car. Does 245 rub on the front or back? That’s 2” more than what I have stock.
+irvine,fcnr5hz,t3_ei54y3,1577816874.0,I mean the Park has all that but there’s no “life” here. You might want to look up in Long Beach and commute.
+apple,fb10866,t1_fb0xtql,1576430998.0,We are like 5 comments down in clarification. Maybe just let them be angry about a product they don’t own.
+overclocking,fb0zdvh,t1_fb0yl4l,1576430797.0,It’s 64 gigs total so 8 x 8GB.
+overclocking,fb0uv0k,t1_faz56zc,1576429484.0,Samsung b-die
+overclocking,fb0paxq,t3_eaxn4d,1576428081.0,"I have the same setup. The GPU can go higher, but I wasn’t stable with memory over 550+ with GPU at 170+. Memory won’t change much, so I suggest you set the memory to stock and go as high as possible on GPU before pushing memory. That being said, I’ve never seen 500+ not working. 
+
+I recommend 3dmark stability test to ensure stable frames instead of max FPS possible. Micro stutter sucks. 
+
+
+https://imgur.com/gallery/VYdcMyk"
+overclocking,faurkqt,t1_f977u6f,1576351876.0,Thanks for the tip on moving up to 1900 fabric. I was able to run at 3800 CL 16 with very tight timings and drive my latency down to 64.8 with 57GB reads. OCing the fabric increased performance in other ways as well.
+PleX,fauapm5,t3_eaeqxy,1576346372.0,I just got mine installed after god knows how long of getting a tech out who would actually do the work and run the damn line. Soooooo fast tho.
+overclocking,f98uu5l,t1_f977u6f,1575183203.0,Oh I thought if you went over 1800 fabric it wasn’t stable. Maybe it’s 1900
+overclocking,f96q6js,t1_f94yd1i,1575149787.0,"Yeah, I think that was the extreme setting in the timing utility. I didn't try those cause I like to keep the Fabric clock the same as the memory clock ."
+PleX,f93hbc6,t1_f938870,1575059052.0,"None. The TV agent updates the metadata, but the players don’t support reading it. iOS Plex agent has the extras button per episode, but nothing else I have used has it. 
+
+I’ve been considering the following options:
+
+- Use mkvmerge to append the deleted scenes to the end of the episode. Or have it as an alternate video track or something crazy. 
+
+- manage the metadata myself after the initial import. 
+
+- merge ALL the deleted scenes into one season extra (which it seems the players also don’t support) 
+
+- Use Kodi when I want to see deleted scenes??? 
+
+- Use playlists?"
+PleX,f91lckd,t1_f91h5m0,1574993550.0,"That worked, but it seems the web client doesn't support extras on TV episodes, but the iOS client does. Is there also some plugin to add extras for TV shows to the web client?"
+PleX,f91h5m0,t1_f90yamd,1574989855.0,This is it exactly! I'll try it!
+PleX,f91h28n,t1_f90hzri,1574989775.0,I'm doing that for specials as well. But there's per episode extras on the tv show I'm importing.
+PleX,f91h17z,t1_f90hmss,1574989751.0,"I did that, but unlike movies, the deleted scenes don't show up under the episode as ""extras""."
+overclocking,f8u03rb,t1_f8tzqse,1574815654.0,">https://imgur.com/a/wgQZgPQ
+
+They are on this screenshot"
+overclocking,f8tzbpi,t1_f8twnzf,1574815070.0,"I got 66ns / 54000 MB/s with 2T GDM on.
+
+I tried for another half hour to get it on 1T, but no go. I went to 1.5v on memory, 1.125v on SOC, higher VDC etc. etc. I think if I relax the CL from 14 to 15 it will go, but I doubt it's worth it. I guess I could try pushing to 1.6v?  I have a 3600, so not the fastest Ryzen anyway. Maybe a 3800x would do it. 
+
+It does CL14 2T GDM at 1.4v and Auto on SOC VDDC. It's rated at 3600 CL15."
+overclocking,f8tu6x3,t1_f8tty27,1574811327.0,"What performance test should I run? I usually run Passmark. 
+
+What am I looking for with GDM enabled / disabled?"
+overclocking,f8ttgkj,t1_f8th3fp,1574810879.0,"04213X8810B
+
+Here's the timings. Just reconfirmed that it will not work at 1T. I ran 6 instances of memtest to 300% with no errors. So it's pretty stable. The CMD rate at 2T vs 1T doesn't seem to be a big performance boost according to others. 
+
+[https://imgur.com/a/wgQZgPQ](https://imgur.com/a/wgQZgPQ)"
+videos,f7gty0q,t3_dw0qmj,1573717463.0,This is so awesome! We need more of this in our lives
+apple,f6v8j40,t1_f6u5pet,1573179418.0,"It’s significantly worse than thumbnails. He regularly gives a platform to to people to spread absolute biased nonsense. He literally had someone on a podcast say that Apple cpus being faster was not important cause everyone makes apps for 4 year old android devices. This same fuckwad suggested that you KEEP your exploding Samsung Note cause he didn’t see anything wrong with it. AND he acted like Apple wasn’t acting properly to deny his repair request when he had an employee disassemble and electric shock the motherboard with a power supply discharge. He repeatedly gives Samsung a pass for making phones that become literally unusable due to hardware fault and harps endlessly on things that don’t work like they do on android (but do work) as reasons to avoid iPhone. 
+
+It is NOT just thumbnails and clickbait. His whole company exhibits a pro-android and pro-windows bias. Which is fine, his content about server hardware and networking and overbuilding and proconsumer PC parts is great. But watching any of his “reviews” is a waste of time. You know exactly what agenda he’s going to push before you watch it. You’d get a less biased review of Obama on Fox News."
+overclocking,f5cta83,t1_f5c3afz,1572140896.0,I’d prefer to stick with multiples of 100 but 4000 CL 17 is attractive. But ultimately I’m looking at those 2nd levels and they seem really high compared to tight timings.
+irvine,f54bzm4,t3_dmmi6v,1571977076.0,Probably the smell of garbage. Or the roaches.
+LosAngeles,f3fbmqm,t3_dgu9uq,1570894245.0,I’ll take “Things that are a start but not a complete solution for $200”
+Android,f3fbgkt,t3_dgrsep,1570894152.0,"Yawn. 
+
+I can’t be the only one thinking this."
+WTF,f2gz9hr,t1_f2e7djw,1570237389.0,This whole digression could use a good dose of shut up.
+DeFranco,ev60ds2,t3_cifst5,1564240995.0,(Everyone disliked that)
+heroesofthestorm,euflvvq,t1_euffji3,1563780009.0,I hate asking questions about the cause so soon after it happens but I have massive medical anxiety and someone dying this young makes me crazy with worry. It's terrifying how fragile we are.
+overclocking,etbb22d,t3_cak1o7,1562641622.0,"Given that this is just getting the cpu to rated speeds, isn't this just ""clocking""? Not overclocking?"
+sony,et0rof9,t1_et0qtqo,1562384962.0,"Just be aware, if you like android OS and apps, you'll have to buy a box like nvidia shield. The LG TV OS is OK, but I miss android being built in."
+sony,et0pjvh,t1_et0odyw,1562383486.0,"Variable sync, higher refresh rates, etc. The next generation of game consoles will use it."
+sony,et0nhug,t3_c9oqdf,1562382348.0,I liked the 950G for value and quality. I ended up getting the LG C9 for hdmi 2.1 and an android TV box
+Ubuntu,erv0bdc,t3_c41ngp,1561302794.0,"I realize I'm on the Ubuntu subreddit, but I've been using the Fedora Steam packages from RPM Fusion. It works fine, so I imagine that it's easy enough to add support to Ubuntu post 19.04."
+gaming,erk5197,t3_c26byk,1560955484.0,Did you follow the Twin Galaxies controversy with Todd Rogers Dragster? How do you feel about Twin Galaxies database accuracy?
+tipofmyjoystick,eq6e2rz,t1_eq6d2cl,1559827447.0,Solved: RONIN
+tipofmyjoystick,eq6d2by,t1_eq5xgef,1559826908.0,"Yes! That s 100% it! 
+Solved: RONIN"
+tipofmyjoystick,eq5gyjq,t1_eq5gur2,1559800823.0,Didn't that just come out? I think this game was like a few years ago. Katana Zero reminded me of it.
+tipofmyjoystick,eq5gwdg,t1_eq5gts5,1559800771.0,Does time stop in mark of the ninja between moves?

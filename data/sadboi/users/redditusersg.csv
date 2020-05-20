@@ -1,0 +1,234 @@
+HomeNetworking,fqwulrw,t1_fqrpqzt,1589718101.0,"how is the IPTVsetTopBox going to talk with the ISP's IPTV DHCP server when there's a router in between without routing the packets through?  
+By ""making g0/0 a trunk port"", I assume you mean creating G0/0.10, G0/0.20 and G0/0.30 right? because on routers you can't do switchport mode trunk...  
+
+
+Even if I setup both G0/0.20 and G0/1.20 with dot1Q 20, the packets won't magically pass through the router right? need a little help on how to configure this... thanks in advance"
+HomeNetworking,fqrypo9,t1_fqrpqzt,1589594740.0,"OH! ok thanks, I will try it out when I get home. Meanwhile I've read up on MAC-based VLANs[https://techhub.hpe.com/eginfolib/networking/docs/switches/WB/15-18/5998-8152\_wb\_2920\_asg/content/ch06s12.html](https://techhub.hpe.com/eginfolib/networking/docs/switches/WB/15-18/5998-8152_wb_2920_asg/content/ch06s12.html)Do you know the commands to do it on a router? I'm trying to find it in packet tracer but it seems that there's no option for it on a 2901.I want to setup MAC-based VLANs to get my IPTVbox on VLAN 20 without having to splurge on a managed switch."
+HomeNetworking,fqrkx2e,t1_fqq7acj,1589586435.0,"what i mean to say that my sub interface g0/0.20 and g0/0.30 dont get any ip from my isp via dhcp.
+
+i dont have seperate dhcp pools atm, only the one for vlan 10 (internet) but I'd assume we want to solve getting an ip from the isp on those vlans first"
+HomeNetworking,fqq0v0w,t1_fqpy720,1589557470.0,"i get what you are saying to setup a trunk link to a switch and have the configure switchport access 10 and 20 for the internet and ip tv switch ports, but should how do I setup the wan link g0/0? do i setup subinterfaces? i tried setting subinference with 802.1q encapsulation for vlan 20 and 30 but idon't get any ip from dhcp
+thanks for your help"
+DataHoarder,fq81tqx,t3_gh7ic4,1589156772.0,"Me please. Currently running WHSv1 with drive extender (because I have a ton of random drives, can't do raid). Would actually use it as WHSv1 is based on server 2003 which only supports SMBv1"
+ClubPenguin,fpddzd2,t3_gcr6jp,1588525120.0,Thanks for taking time to make this AMA :) I'm curious what are some thngs you all have learnt from having invented CPPSs and thru running them?
+SGExams,fpdbzqo,t1_fp1906b,1588523997.0,Was your offer immediately revoked? or was it like OP's case whereby renewal was revoked? Kinda weird I thought that polytechnics would be supportive as well...
+SGExams,fnvs613,t3_g46c7s,1587303318.0,Omg can't imagine anxiety high AF if first day of poly at home hbl. Hope it goes well guys good luck :)))
+NationalServiceSG,fk0d8ij,t1_fk078tm,1583752957.0,Can defer for medical course? I thought up to poly diploma only?
+SGExams,fjnea7r,t1_fjncpwu,1583505395.0,"thanks, do you know if there are education discounts for sage or did you have to buy the full software? looking to learn"
+SGExams,fjncsh5,t1_feiu8hg,1583504370.0,Just curious in poly do they have labs that teach you to use accounting software like QuickBooks? What software do they teach?
+SGExams,fjnc9nd,t1_fddd06b,1583504000.0,Just curious do they have labs that teach you to use accounting software like QuickBooks? What software do they teach?
+SGExams,fjnbzro,t1_fdqgacl,1583503803.0,In TP do they have labs that teach you to use the software like QuickBooks? What software do they teach?
+SGExams,fj973y2,t1_f6r06k9,1583134956.0,"I'm interested in studying Medicine, do you know the reasons why they will discourage you from pursuing Med?"
+SGExams,fj973sn,t1_f6o4n89,1583134952.0,"I'm interested in studying Medicine, do you know the reasons why they will discourage you from pursuing Med?"
+SGExams,fj6gr72,t1_fj6b4ee,1583071422.0,">With regards to route 1, is there any classification of accepted degrees for Medicine? Any specific degree that closely ties with Medicine?
+
+Will taking a degree like Nursing be an advantage compared to a degree say, in Business?"
+SGExams,fj6b3fi,t1_fj6al8r,1583065495.0,Just thought of this scenario: Will I be eligible for aptitude based admission if I'm from a non acceptable diploma?
+networking,fhzcpw4,t1_fhz9b8k,1581996161.0,"\[RouterHPE\]ip route-static ?
+
+  X.X.X.X              Destination IP address
+
+  default-preference   Preference value for IPv4 static-routes
+
+  fast-reroute         Specify fast reroute configuration
+
+  primary-path-detect  Enable primary path detect function
+
+  topology             Specify a topology
+
+  vpn-instance         Specify a VPN instance
+
+&#x200B;
+
+\[RouterHPE\]ip route-static [0.0.0.0](https://0.0.0.0) ?
+
+  INTEGER<0-32>  Mask length of the IP address
+
+  X.X.X.X        Mask of the IP address
+
+&#x200B;
+
+\[RouterHPE\]ip route-static [0.0.0.0](https://0.0.0.0) 0 ?
+
+  Aux              Aux interface
+
+  GigabitEthernet  GigabitEthernet interface
+
+  NULL             NULL interface
+
+  X.X.X.X          Nexthop IP address
+
+  vpn-instance     Destination VPN instance for gateway address
+
+&#x200B;
+
+\[RouterHPE\]ip route-static [0.0.0.0](https://0.0.0.0) 0 GigabitEthernet ?
+
+  <0-0>  GigabitEthernet interface number
+
+&#x200B;
+
+\[RouterHPE\]ip route-static [0.0.0.0](https://0.0.0.0) 0 GigabitEthernet 0/1 ?
+
+  X.X.X.X  Nexthop IP address
+
+&#x200B;
+
+\[RouterHPE\]ip route-static [0.0.0.0](https://0.0.0.0) 0 GigabitEthernet 0/1
+
+\^
+
+ % Incomplete command found at '\^' position.
+
+&#x200B;
+
+&#x200B;
+
+it still requires a nexthop ip address"
+networking,fhz8rdg,t1_fhz4n9o,1581993463.0,any suggestions on what should I do in this case? tried calling the isp the day before and CSO said they are unable to provide the ip address of the next router
+networking,fhz8jde,t1_fhxbczj,1581993315.0,"\[RouterHPE-GigabitEthernet0/1\]ip ?
+
+  address             Set the IP address of an interface
+
+  binding             Bind the interface with a VPN instance
+
+  forward-broadcast   IP forward-broadcast configuration
+
+  irdp                Enable the ICMP Router Discovery Protocol
+
+  mobile              Mobile IP support
+
+  mtu                 Specify the MTU of the interface
+
+  netstream           NetStream function
+
+  policy-based-route  Specify a policy
+
+  source              Source binding function
+
+  urpf                Unicast reverse path forward function
+
+  verify              Verify packets
+
+&#x200B;
+
+\[RouterHPE-GigabitEthernet0/1\]ip address ?
+
+  X.X.X.X      IP address
+
+  bootp-alloc  Obtain an IP address through BOOTP
+
+  dhcp-alloc   Obtain an IP address through DHCP
+
+  unnumbered   Share an address with another interface
+
+&#x200B;
+
+\[RouterHPE-GigabitEthernet0/1\]ip address dhcp-alloc ?
+
+  <cr>
+
+&#x200B;
+
+doesn't seem like it"
+networking,fhz8bus,t1_fhxbs1f,1581993181.0," `This is for an stub network, with G0/1 being assigned by DHCP from the ISP and I do not know the next hop IP address.`"
+smallbusiness,fhnpcur,t1_fhnom95,1581730344.0,"But I withdraw money to pay for housing loans and stuff, is it hard to do that in a single director/shareholder company?"
+smallbusiness,fhnda0a,t1_fhlu688,1581725211.0,"I just read more on this and found that taxable turnover is revenue according to my example, my taxable turnover is $150?"
+DataHoarder,fhjpdfu,t3_f3e51w,1581651966.0,Hiiiiii
+SGExams,fhdlany,t3_f2kfal,1581490240.0,"Honestly personal opinion just do whatever you want right now, like go out with friends and play, during poly you won't have these much of free time, even if you pre study you still have three years to do just that... Personal opinion..."
+SGExams,fh2fzly,t1_fh2bple,1581251086.0,For mrt is it still worth to buy like the monthly unlimited one?
+singapore,fh1pmzt,t3_f0rsur,1581220555.0,👍
+HomeNetworking,fh1o3kp,t1_fh1jntw,1581219362.0,!RemindMe 3 days
+singapore,fgkf8s7,t3_eyy10y,1580864174.0,"Cannot get surgical mask, pitta mask better than nothing?"
+piano,fgb52lh,t1_fgb251x,1580658612.0,"Arranging music sounds interesting, but how do I start? My piano has a midi port, and I have a PC, I will look into this and find information online, thank you"
+piano,fgax090,t1_fgaw1i1,1580656331.0,"What exactly do you want to get out of learning to play the piano? - honestly it just started with wanting to play a few songs, don't really have a clear ""goal""."
+singapore,fg6sa7i,t3_ewvtz7,1580575725.0,"Serious question, can you actually make bank doing private hire like grab?"
+DataHoarder,fg6s002,t3_ex6ud4,1580575537.0,!RemindMe 3 days
+NationalServiceSG,fft33wl,t1_ffsx2or,1580204503.0,"How to get in media work, sounds fun LOL"
+FREE,ffbzris,t3_eshe2l,1579787812.0,Hi hi hi hi hi
+FREE,ff958re,t3_es5twv,1579705146.0,"Going to buy Terraria and Game of Life next month, would be awesome if I could get this too"
+NationalServiceSG,ff4kql8,t3_eik1iy,1579565978.0,If after 2 months still fail ippt how? I never passed any fitness thing from like primary school LOL
+DataHoarder,ff4i7zv,t3_erlv8q,1579564232.0,Exo used?
+NoFap,ff31enz,t3_eiegjk,1579531112.0,I lost
+FREE,ff1dnyl,t3_er31c0,1579477841.0,"Rocket league? Or GTA V if not avail?
+Thanks have a happy new year"
+millionairemakers,feovise,t3_eq81a8,1579306315.0,Hi :)
+DataHoarder,femylos,t1_femprf2,1579272935.0,Please do! Thanks 😊
+DataHoarder,fems0gh,t1_femmebz,1579267942.0,I thought the case with shucked drives you want PSUs without 3.3v output since it disables the drive? Or am I wrong?
+singapore,fej2ohe,t3_ep123g,1579154653.0,Good job!
+singapore,fej2eeo,t1_fej2cw0,1579154367.0,Good bot
+profanitycounter,fdpvxpx,t1_fdpvx5r,1578642725.0,u/profanitycounter
+profanitycounter,fdpvx5r,t3_e6se9a,1578642707.0,Test
+SGExams,fdpoqtc,t1_f1drcwf,1578634907.0,Did they say when they will give annual allowance and laptop? during internship?
+SuggestALaptop,fdctkkn,t1_fd9pyz4,1578283919.0,"Plan on moving around to customer locations, and using an Ethernet port for work. A dongle I think would suffice if the port is not available.
+
+I also plan to doodle sketches and using it for sheet music so a foldable/detachable display with a pen."
+singapore,fcxls3k,t3_ej54sm,1578066009.0,What accounting software is commonly used in Singapore?
+xboxone,fc5g76f,t3_eg4zbg,1577456680.0,Minecraft?
+sysadmin,fbxg6s9,t3_eey25x,1577185781.0,any free applications I can use to link with my test labs at home?
+NoFap,fbr6fla,t3_e97y8u,1577039714.0,"Idk, just fapped, losing motivation"
+millionairemakers,fbisy5g,t3_edhj2m,1576912808.0,Hi hi
+NoFap,fauc20s,t1_fah3cwb,1576346709.0,"Just did it again, at least I did have 3 days streak but I'm still not happy with myself.
+
+Reset because it was late at night and was very tired, but same thing again, I will just see pictures on gonewild, then I take my phone on to my bed and continue, then just gonna watch porn without touching... And I immediately regret after I came.
+
+I was so determined to masturbate before I came, but after I came I hate myself."
+NoFap,fah5dek,t1_fah3cwb,1576079525.0,"Thanks
+
+Sometimes I have this YOLO mentality, you only live once, so I will be like: whatever, I might die tomorrow, so what's the harm in just pleasuring myself just one more time.
+
+Idk, bad habits."
+NoFap,fah2sd4,t1_fah24uw,1576077841.0,"Both phone and laptop, as I put in my post I have also tried putting my devices in another room but if I'm horny I will just go and take them :(
+
+I know it's my self control, I NEED to work on my self control. I will try ""denying pleasure"" to other stuff such as sweet drinks and chocolate, I've never tried this technique, thanks a lot."
+NoFap,fah112i,t1_fah03lz,1576076635.0,"Thanks but I really tried to do all of these, but when I get horny, I don't think about all of these, like even if I have a note in front of me reminding to ""DON'T FAP when your horny, go outside"", I just cannot control myself.
+
+I wish there was some way to have like another person stop me or like slap me in the face if I even think about porn.
+Do you have any ideas on like more stronger ""STOP signals""?
+Thanks a lot"
+guineapigs,f9th6xq,t3_e6u2no,1575624033.0,*boops*
+SGExams,f9tfo2a,t1_f9tcgv8,1575621734.0,"Thanks for the advice, I will try saying stuff like I'm not comfortable instead of I don't want to share next time"
+SGExams,f9tbod0,t1_f9tbfto,1575616234.0,"Yeah, that's what I usually do, I say like ""about 60?"" But still they are comparing like marks and stuff, I don't want to seem competitive either"
+SGExams,f9tbmaz,t1_f9tbexk,1575616162.0,Actually one of my classmates did this in my sec 2 class and people ended up not friending him because he seemed to be making fun of our marks
+ClubPenguin,f9ga8ya,t1_f9fnfbk,1575296050.0,yeah they made great movies and all but still
+DataHoarder,f9g9hr1,t1_f9g1l4l,1575295689.0,Samee :( any deals on like Amazon with free shipping?
+ccna,f9fqab7,t3_e1e7cd,1575283072.0,Would love to know as well
+NationalServiceSG,f8nmukd,t1_eqt8gqh,1574647848.0,Everyday can go home?
+DataHoarder,f8eg1t0,t3_e0jb2p,1574526894.0,When international shipping costs more than the case itself feelsbadman
+DataHoarder,f8efpmm,t3_e0fc00,1574526700.0,Any Amazon server case deals? Newegg international shipping is like 2 times the actual cost of the case 😭😭😭
+AskReddit,f87eb1o,t3_du9kr2,1574328921.0,"Am a boy, but I think like being able to wear whatever I want, pink colour shorts, wearing skirts and dresses"
+printers,f819gzv,t3_dyhayj,1574157092.0,Why would you not want a static IP in the first place?
+DataHoarder,f7dy33r,t1_f7droaw,1573636054.0,Any chance the eBay site ships internationally?
+SGExams,f77qe7r,t1_f77pe9h,1573470928.0,"It's okay, thanks for trying to help :)"
+SGExams,f77oqoz,t1_f77ngfg,1573468234.0,Will I seem too egoistic if I say that? I should never say it's for the money right?
+SGExams,f77o24a,t1_f77nv0d,1573467087.0,Government IT scholarship
+depression,f725r7c,t1_f71z5il,1573354037.0,Even school teacher and stuff?
+DataHoarder,f6rrirt,t3_dstnuo,1573117138.0,Any places that will price match this and ship internationally?
+SGExams,f6rmz1t,t1_envyfy4,1573110621.0,"Sorry for barging the thread, but did you bring anything into the interview? Like are we supposed to bring a portfolio or something? First time going for an interview thingy 😅"
+SGExams,f6rmyt2,t1_f1ivbxk,1573110611.0,"Sorry for barging the thread, but did you bring anything into the interview? Like are we supposed to bring a portfolio or something? First time going for an interview thingy 😅"
+SGExams,f6rmyht,t1_f1h6bpe,1573110600.0,"Sorry for barging the thread, but did you bring anything into the interview? Like are we supposed to bring a portfolio or something? First time going for an interview thingy 😅"
+networking,f6lw2uh,t1_f6lpei1,1572962384.0,"I've tried, can't seem to find anything on this, all that comes up is for hp.com accounts and people advising to factory reset it, or use some command during boot sequence which does not seem to work, or factory reset it, which is not what I would hope to have to do"
+HomeServer,f6hd3lq,t1_f6co977,1572843606.0,">If it does not say it shares bandwidth, is it safe to assume it is not? Board in question is gigabyte H87-D3H"
+DataHoarder,f6d4pfn,t1_f6d14p1,1572791282.0,"12TBs don't seem to be shipping soon in the next few months, they keep going out of stock on Amazon, but hopefully a miracle will happen"
+DataHoarder,f6curjr,t1_f6csnak,1572788835.0,Same idk man
+DataHoarder,f6coahi,t3_dqypxm,1572787259.0,Anyone holding on and waiting for 10tb? Tempted to buy but...
+HomeServer,f6cfwd5,t1_f6bxp0o,1572785298.0,"If it does not say it shares bandwidth, is it safe to assume it is not? Board in question is gigabyte H87-D3H"
+NoFap,f63a23s,t3_dpqakc,1572673921.0,Day 2 let's gooooo!
+DataHoarder,f5ry651,t1_f5rqiov,1572405916.0,"Seatools dont seem to recognise the drives using the provided sata to usb adapter, so you have to shuck them first :("
+DataHoarder,f59h502,t1_f59g9tp,1572088918.0,"Rclone mount seems to be really buggy for me, when trying to drag and drop"
+DataHoarder,f58yzvv,t1_f58lfrn,1572067762.0,What os should I install that works with rclone and file sharing? Something like unraid freenas or Windows 10 centos? What do you recommend?
+DataHoarder,f58kps8,t1_f58ir5r,1572058179.0,"I have an old dell poweredge 2950, do you know if i could I use it as a Nas? Only thing I'm worried about is the power usage, fan noise is another downside though.
+
+Edit: if I SHOULD* use it as a nas"
+DataHoarder,f58huga,t1_f58d59s,1572056478.0,Any recommendations?
+DataHoarder,f557k4s,t1_f54x6vo,1572001843.0,Oh I didn't see this section before! Thanks so much
+singapore,f54u7o3,t3_dmpsie,1571992023.0,Good job sharing the photos! Govt will probably cover up if not
+singapore,f54u4l4,t1_f54awk4,1571991966.0,Yuppps
+singapore,f54u332,t1_f548tnu,1571991937.0,This.
+DataHoarder,f54g970,t3_dmslre,1571981196.0,or any other program that allows you to upload encrypted files using a gui interface?
+DataHoarder,f54g67r,t3_dmslre,1571981108.0,"also, anyone has any experience with getting rclone onto a gui interface? i'm not really used to command line to list files and using commands to change directories. I'm encrypting my files so the native drive.google.com doesn't really help"
+Xiaomi,f4zslvo,t1_f4zs8ye,1571915063.0,Android pay?
+Xiaomi,f4tiwla,t3_dlff61,1571788995.0,Does it remove call recording?
+SGExams,f2w3h4b,t1_f2w2jo1,1570460834.0,"Do you know how about overseas?
+
+Idk really tired of like learning calculus stuff when you are in an IT course, and interested in stuff like psych, business Mgmt, law as well. Interested in dropping into certain extra modules"

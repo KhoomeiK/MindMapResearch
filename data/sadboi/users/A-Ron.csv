@@ -1,0 +1,301 @@
+SCCM,fr37nkf,t3_gm2pam,1589851598.0,I'll be there... Any idea if there will be a limit of attendees? This is something our work will be looking towards in the near future.
+PublicFreakout,fr367up,t3_gm7jc0,1589850767.0,Was expecting cardboard cutouts or something..... This is better
+SCCM,fr2jqvz,t1_fqzzfeu,1589838507.0,"Our main use right now is for a TS that enables BDE (no Bitlocker Management /w 1910 yet).... It does all the TPM settings etc in WinPE, as well as enabling Secure Boot.
+
+So instead of WinPE... I could just run these commands in the OS?!?
+
+I took over the task seuqnce from an employee who left, so I never questioned it. Crap! (though this is good news)"
+SCCM,fr2jgmf,t1_fr0hd6s,1589838366.0,"So... I could build a CB/CI that would turn on any 'missing' in TPM settings, as long as I have CCTK copied somewhere on the systems??? Then my remediation would just be something like 'cctk.exe --tpm=on' (I think I'd have to specify the BIOS password too)
+
+For our Enable BDE, but everything is being done in WinPE.... I guess it works, but unnecessary reboots would be nicer."
+SCCM,fqze9z7,t1_fqyi48a,1589765543.0,"... We're currently booting into WinPE to Enable Secure Boot and Enable the TPM chip, and the various TPM ACPI options...
+
+Would this allow me to change the settings from within Windows? Would you just deploy this module to every system? (Then include it as part of your imaging TS?)"
+facepalm,fqvjzgt,t3_gl0ovt,1589678907.0,"So how does the logic of an anti-vaxxers work, when there's a real high chance they themselves are vaccinated?
+
+Is it just that they think they would have been fine without them?"
+powerlifting,fqtu560,t1_fqtipxe,1589646160.0,"I've read that meniscus injuries can heal if it the part that has blood supply. (I tore my acl years ago and they took some of mine out) And by doctor, you mean a Sports Doctor, right? 
+
+Oh trust me, I know how you feel. Like I said... 3 years of knee issues, 1 step forward 3 back for that time.
+
+
+It's feel ok for a bit, but then it'd come back, or I'd be shifting sto one side, or the bar would be totally lopsided when I squat etc. Then I got shoulder pain where I couldn't bench either. Having an issue somewhere will eventually lead to problems everywhere else will lead to imbalances all over in guess.... But I didn't give up.
+
+Now I have this awful shoulder problem and I'm worried it's not gonna get better without surgery. But, yes... This sport can come with a lot of frustration and it will test the people who really love it.
+
+Also, it's I'm 39 next month and even with injuries, I can't imagine how much worse shape I'd be in if I didn't lift.
+
+Ps... Your numbers are pretty good for a 'novice'"
+playstation,fqrjxtq,t3_gk8f45,1589585859.0,I need to see a video of it
+PublicFreakout,fqq1nbr,t3_gk8id3,1589557860.0,"I'd love to hear that ""Oh no no no no... 'wheeze'"" over the slow-mo part"
+powerlifting,fqpnp93,t1_fqpekp3,1589550489.0,"Re: pain when foam rolling.
+
+Personally I got sick of foam rolling... Getting on the ground and rolling around to my cause myself pain just got old...
+
+Whether it's truly as effective or not, I'd recommend one of those massage guns. (the ~$100 ones are just fine) Squat U even said they are a good tool to have. (I think every lifter knows Squat University by now... Right?)"
+sysadmin,fqmqqy1,t3_gj6abv,1589481925.0,"No, I'm absolutely loving it.  Roll out of bed, make sandwich, grab drink, walk to basement office.
+
+End of Work day = Walk upstairs.
+
+Able to focus nearly 100% on my work and get into a good flow. Otherwise, there's not much difference of me being in the office or remote since I'm more ""behind the scenes"". I can still joke and share memes with co-workers, and Teams video chats are good enough."
+HydroHomies,fqmq4yq,t3_gjg16v,1589481641.0,"*""What's cooler than bein' cool?""*"
+powerlifting,fqmp16k,t1_fqltqcs,1589481115.0,"I personally don't believe Heeled shoes remove any/all need for good ankle mobility.  (I think I've read the same as well)
+
+Worth a shot, but I'd consider working on it. Stretch and roll your calves a good amount before squatting. I'd say if it's painful, that probably shows they're tight....mine used to be awful, but now I can roll them out and it's reasonable.
+
+Also try putting a band around your ankle pulling backwards on the talus bone to help it glide backwards, and do some forward lunges: https://www.youtube.com/watch?v=ILSbK8RnGdI
+
+My mobility is shit, but it's been improving.....Ive had left knee issues for 3+  years and things are finally consistent and pain free.  As you know, the site of pain is rarely the source.....move up or down the chain to the Hips or Ankles."
+PS4,fqmnotg,t3_gjmywa,1589480479.0,"""PS5 is pretty good; Probably better than the PS4!"""
+nostalgia,fqlpmjo,t3_gjbrg3,1589463625.0,"These were good, but putting something between the rear forks and tire for that motor bike sound was the best.
+
+(The old waxy Slurpee cups were the best)"
+worldnews,fqje8g2,t3_gj4au7,1589408704.0,Better than just blaming them for everything and distracting everyone from the shitty job you've done like a president I know of.
+winnipegjets,fqimxof,t3_gixxpn,1589398140.0,No...not even for a single pre-game skate.
+sysadmin,fqiciba,t1_fqglruu,1589394177.0,"Hey,
+
+So my test machine beside me here at home - Running that 'manage-bde' command will output the same Success message whether or not I'm connected to VPN. In either case, nothing is backed up.
+
+To me, that indicates a bug.
+
+I honestly can't say if this is a new problem because we've been enabling Bitlocker via SCCM Task Sequences with the ""Enable Bitlocker"" Step and it's been working fine thus far.  I'm just discovering this because of WFH scenarios I'm trying to cover for the continuation of the bitlocker rollout
+
+
+
+I believe if you just Enable the Policy to Store Bitlocker Recovery Information in AD - It still allows you to encrypt, and it will only attempt 1x to back the key up. However there's another setting within that GPO that says ""REQUIRE AD"".......so the system shouldn't be able to Encrypt at all with no VPN, but it does."
+Manitoba,fqfs2o8,t1_fqfoaae,1589330590.0,"Reasonable responses against their views = ""Comments Locked"" ... For our saftey of course."
+Manitoba,fqfm6n5,t1_fqflyy6,1589327412.0,Fuckin lol... Never change
+Manitoba,fqfktbr,t1_fqeyxv9,1589326694.0,"Greyfox is the absolute worst... He loves calling everything and everyone a racist. I remember the rant he went on when he called anyone who wasn't OK with illegal border crossings a racist.
+
+Straight up clown."
+Manitoba,fqfkkgk,t1_fqelft8,1589326567.0,"Lmao, mentioning his name on that subreddit or even the word 'mods' will get him to show up to come and defend his Reddit Mod Honor."
+Manitoba,fqfkbgl,t1_fqekyo0,1589326439.0,"I've been on Reddit for 8 years... /r/Winnipeg has the absolute worst mod team I've ever seen.
+
+They involve themselves way too much, and that's beyond steering posts and conversations to fit their narrow views."
+news,fqfjou6,t3_gih0qp,1589326116.0,"""Something Something China...?"""
+OWConsole,fqedamt,t3_ghx1l4,1589305663.0,"Noticed they were better last night.
+
+Thanks to those who took the steps to get in touch with Blizzard"
+sysadmin,fqdieag,t3_gi21b2,1589290336.0,"They wanted me to answer a bunch of situational questions.... Which is fine, but they left me a pencil and paper to **write** my answers down and left the room.
+
+
+I did half of them seriously, then wrote down whatever for the others and told them I was no longer interested on my way out."
+GamingDetails,fqdhw3i,t3_gfgx6d,1589290020.0,Pretty sure that's the only one in the game like that.
+BlackPeopleTwitter,fqbvwr9,t3_ght3hc,1589244961.0,Muh 2nd Ammendment!
+OWConsole,fqaiw6v,t3_ghk2dv,1589219830.0,"Is Mercy the only hero that has this 'Hidden' in the ability?
+
+Kind of horseshit that we can't just have it... They even made it so Lucio's wallride goes around corners easily."
+OWConsole,fq87l94,t3_gham1y,1589160121.0,"Just waited 6 mins queued up for Support and Tank
+
+Ever since Echo'ish times... And no nothing to do with rank as some people are saying"
+powerlifting,fq7xjcd,t1_fq7vv1w,1589154243.0,"Re: cues - there's a few other copies that have way stupider notes that were never meant for anyone to see lol
+
+Ah, the interesting thing that Lutz did with his athletes was ask if they were good at hitting reps at higher volume.... Or good at hitting heavy singles... (I've always found I hit a good amount higher than a program estimates I'll be able to do by the end.... Also because I get in my head a lot) I believe with this run I Hit 440 squat, 310 bench, and I ended up not attempting a max deadlift in the gym that day because I tweaked my back on the bench. (Never bothered testing since it wasn't for a comp) 
+
+I should point out those aren't lifetime PR's either... 2017 was my strongest year, (My last run of it was last year that I mentioned above, the '2017'in the title just didn't get changed) but I've had a wack of injuries/imbalances for a few years.... And I'm 39 next month :) 
+
+
+
+In reality, if you stick to almost any reasonable plan and put the effort in, you're basically guaranteed results"
+powerlifting,fq7v81x,t1_fq73uzt,1589152894.0,"Does this work? https://www.dropbox.com/s/rdn22oijyjfe3h9/%21Clutz_intermediate%20-%202017%20PR%27s.xlsx?dl=0
+
+His website is gone, but that's a copy I ran in 2017
+
+The 3 lifts in white I believe were accessory and could be changed depending on what you need.... You'll notice by my max squat, that's where I put in extra work :)"
+conspiracy,fq6yf37,t3_g6uo4u,1589139443.0,Conspiracy Theorist + Trump Supporters = Low IQ/Education
+reactiongifs,fq67kwt,t3_gh19u1,1589126102.0,Offer to go pickup Mothers Day breakfast.... Stop and buy a card/flowers/etc
+powerlifting,fq55ipc,t3_ggqvhb,1589093186.0,An old Connor Lutz program lol... I love the volume and frequency of all SBD
+WTF,fq18qcf,t3_ggen8s,1589043291.0,Inches away from that pole and likely death
+facepalm,fpxj337,t3_gfvomc,1588983561.0,"Man, in the big picture... It's only been like 2 months of your life. You'll be OK."
+nextfuckinglevel,fpxix0x,t3_gg041c,1588983475.0,The small lean was a nice touch
+videos,fpwy7l5,t3_gftgvd,1588972144.0,"Semi-related, if you like rnb, the After Hours album is great."
+quityourbullshit,fpwy1uw,t3_gfubnm,1588972060.0,Is he implying Covid-19 cured his cancer?
+pics,fpwxusw,t3_gfxgo7,1588971957.0,"""Grew up washing my clothes in a puddle. Happy to say I bought my first washing machine!"""
+worldnews,fpwpt4k,t1_fpwo403,1588967760.0,"> Why not be mad at all?
+
+Well yea, exactly. That's kind of what we're talking about here.......people not being mad at Trump because he's deflected blame to China/WHO
+
+Not sure how you figure I'm on a ""high horse"" about it ????? Bizarre comment there bud."
+worldnews,fpwodtr,t1_fpwnosp,1588967019.0,"Yea, I get it, they were wrong and tweeted about it.
+
+Don't tell me for one second  thousands of Americans would be pissed at the WHO if it wasn't for their glorious leader Trump telling them to be.  (Speaking of which, who else makes HUNDREDS of factually incorrect tweets without any repercussions from those same people???  Do you really want to get into a ""Who said What on Twitter debate?)
+
+Again, laying blame in the middle of a crisis does nothing as thousands of lives are lost. Play the blame game after you've dealt with the situation that's been created.
+
+Absolutely amazing how Trump has played his supporters like a fiddle during all of this, I'll give him that."
+worldnews,fpwjxfq,t1_fpwj6rg,1588964759.0,"Same goes with blaming the WHO
+
+An actual leader would work towards a solution, fix it, then worry about what went wrong and where blame lies.
+
+I'd bet anything a large number of his supporters couldn't point out China on a map, or even know what WHO stands for.... Yet they're the enemy somehow."
+OWConsole,fpuipqj,t1_fpugjo2,1588913942.0,"Same, it hasn't even been a steady decline.  It's been completely fine right up until a couple of weeks ago, then all of a sudden it's been a struggle to get into matches. I've literally never used the Deathmatch/Skirmish options while queuing until now lol
+
+I agree, something likely changed.."
+OWConsole,fpu21cj,t3_gfedrm,1588902986.0,"Yea, I'm just about done. I only play Support am just sick of always being the role that people blame when they have shitty games. Somehow it's my fault when I can guarantee 30% team damage taken, and dps gets 5 kills. 
+
+I've gone entire matches without throwing a single Damage orb as Moira, then get called DPS Moira for ending up with 3 golds.... Meanwhile its because our DPS got out played badly. 
+
+I'm also sick of the ""I need Healing!"" tag line being used aggressively. Fuck them, I wish there was a Help Me or I Need Kills tag line. 
+
+I've switched to tank and haven't heard a word. Now with the ridiculous q times for Support and Tank, I don't really want to play.
+
+And yes, I really do think I'm a very good support player  (just like everyone else lol)"
+worldnews,fpu128z,t3_gfbygc,1588902399.0,Kids who got D's in Science class and can barely operate a computer are now worried about 5G 👍
+worldnews,fpu0u63,t1_fpsw44d,1588902264.0,">Set an example
+
+You mean silencing the truth!!!
+
+/s"
+SCCM,fptvidk,t1_fptte7q,1588899099.0,"But if I'm deploying our first Bitlocker Policy down from ConfigMgr 1910, and there's no setting to select FVE or Used Disk Space... Im assuming it's using FVE which means our workstations existing 'BDE - Used Space Only' will never show as 'Compliant' (Unless decrypted, encrypted), correct? Yes, I would think that the keys will still escrow to SCCM properly. 
+
+Or since this isn't a setting, the policy won't care? And both FVE and Used Space Only will be indistinguishable?  And both will show as Compliant ?
+
+Or does the Bitlocker Policy change it to FVE? 
+
+Im really trying to figure out the answer because we are in the middle of rolling out BDE using Task Sequences that's setting ""Used Space Only"" - I'd like to know if we are creating more work for ourselves down the road if we keep going before the inevitable move into SCCM Bitlocker Management ..... And yea, our management team will only care about ""Compliant""  vs ""Non-compliant"" when it comes time for reporting.
+
+https://docs.microsoft.com/en-us/mem/configmgr/osd/understand/task-sequence-steps#BKMK_EnableBitLocker
+
+https://docs.microsoft.com/en-us/mem/configmgr/protect/plan-design/bitlocker-management
+
+These 2 articles just lead me in a circle:  ""Use a task sequence to enable bitlocker, which uses Used Space Only by default"" - Okay, that's what we've done on 65% of our machines.   ""Starting in version 1910, you can create and deploy BitLocker management policies, which use full disk encryption. To manage BitLocker on devices after the task sequence deploys the OS, enable this option.""   - Ok, so if I was already using Bitlocker Management 1910, Id change that TS Step to specify FVE. But what about our already encrypted devices ?? 
+
+Really hoping I'm making sense here as I'm utterly confused as what's going to happen :)  Thanks for your time."
+winnipegjets,fptr8xe,t3_gd9jga,1588896652.0,What is with this shitty fucking weather ?!? Normal for today is around 17...feels like 3 outside and is still dipping below 0 for the next few nights
+cringe,fprn34d,t3_geslz2,1588858010.0,"Blame China
+
+Blame the WHO
+
+Blame the previous administration
+
+Never take any responsibility for anything
+
+Being a Trump supporter must be exhausting... Mostly because getting through the week while being incredibly ignorant must be tough."
+cringe,fprmtfv,t3_geslz2,1588857844.0,"""BuT tHaT's NoT wHaT hE mEaNt""
+
+""OrAnGe MaN BaD"""
+PS4Deals,fppie49,t3_gem1i6,1588802835.0,"What you're gonna wanna do is click on The Messenger... From there you'll want to click ""Purchase"""
+homegym,fpkcywn,t1_fpk5i63,1588692416.0,"> I love the fact I can go for a 5x5 on bench or squat and not be sure I can complete it, it helps me improve. 
+
+Heh, and that's where I'll say ""I better make this lift because I'm not moving the safeties"" for extra motivation.  Mind you, I've only done that my former powerlifting gym where other lifters were around.....most that would happen is I get stapled to the bench and have to call for help, still never happened.
+
+But yes, you're right that I wouldn't be OK if I dropped the bar on my face :/  - They do say you have to be at least a little bit crazy for this sport I guess. And yea, I use the safeties for rack pulls, but that's a different use all together."
+OWConsole,fpkcgrq,t3_gd9ycl,1588692152.0,"Long Q times even for Support, but Arcade Modes have been quick.
+
+Don't know if it's because it's end of season or what......but maybe the player base isn't big enough to support all the custom games, arcade, quickplay and Comp.  And yea, it'll just snowball as people stop wanting to play because of Wait Times.
+
+Cross-play /w XBox/PS4 would definitely help."
+homegym,fpk2ykl,t1_fpk1wgn,1588686928.0,"Not to vouch for the guy you're responding to, I get your point......but after 8-9 years of consistent lifting, and thousands of reps, we tend to get pretty complacent with our safety if nothing has ever happened as we become extremely comfortable with what weights we can lift.
+
+
+But yea....I guess extra safety is always better.  Sometimes I just don't feel like moving them for sets I'm 100% sure I can handle."
+PSVR,fpiiy3f,t3_gd327m,1588641870.0,To The Top will likely always be my favorite PSVR game
+holdmyfeedingtube,fpii37l,t3_gdhfam,1588641360.0,Pretty lucky he hit his head on that GHR padding...
+CanadianInvestor,fpghsry,t3_gdb5u4,1588602977.0,"So what happens if they go bankrupt? That's why I'm hesitant to buy (more), even for the long term."
+AskReddit,fpgd9qy,t3_gd78o0,1588600303.0,Wearing your shoes in the house is still weird af to me. Yuck.
+PS4,fpbgqpk,t3_gcg7m6,1588469625.0,Minecraft (Creative) & Dreams
+SCCM,fp8o1rc,t1_fp8guon,1588397610.0,"Yea, I think that's what I'll do.
+
+Leave it suspended for 2 reboots, but give a 'manage-be -on C:' as a last TS step"
+worldnews,fp7stir,t1_fp6lvgp,1588377062.0,"Lol, no assault guns or flying drones in populated areas is your breaking point for Canada?
+
+Excuse me if I find your comment funny."
+worldnews,fp7s9jk,t1_fp68sp8,1588376735.0,"I've had 3 different Change.org petitions in my feed today.
+
+Good times."
+cringe,fp7czbf,t1_fp6mcu6,1588368307.0,Cipher? (cypher)
+cringe,fp7cvgv,t3_gbihkm,1588368249.0,"Nothing new really. I'd wager it's not even full lines he's reading. 
+
+He even had a verse that mentions him losing a blackberry with all his verses."
+pics,fp7cm5a,t3_gbj2zq,1588368109.0,"Canada: Bans assault rifles today
+
+America:"
+pics,fp7cjrm,t3_gbj2zq,1588368073.0,"Lmao, 2nd dude from the right is straight out of a video game
+
+Wearing that $2.99 DLC"
+pics,fp7cgg3,t1_fp6vwg1,1588368023.0,"I couldn't even imagine the shit show of controversy in the media/social media if that happened.
+
+
+Instead it's these asshats doing it without an ounce of fear and are actually encouraged and applauded by their fellow country men. Absolute insanity."
+pics,fp7c4d5,t1_fp6cb02,1588367843.0,America is a fuckin bizarro world
+worldnews,fp797rp,t1_fp6cohu,1588366330.0,"side note: I've been watching Border Security on History over my lunch breaks.
+
+It's shocking how many Americans come into Canada (or try to) with numerous guns and bins filled with ammo. Why in the fuck do people even travel with them ???  I don't even understand why people need to own assault rifles in the first place, let alone numerous ones.  (And yes, I think you should find a new hobby or something else to collect....you'll be ok)
+
+Then again, America has become an absolute bizarro world in the past few years to me."
+PS4,fp78bfc,t1_fp6zsad,1588365873.0,"A time limit wouldn't solve the problem I mentioned.
+
+Showing some bits = the tutorials.
+
+Just wondering, have you played Dreams ?  Being given full access to all those tools and trying to make ""anything you can think of"" (as the game mentions) would be next to impossible for a beginner.
+
+After probably 40-50 hours, I'm good enough with them now where if I can think of something, I can make it....or close to it. (And that's just with sculpting and basic animations......I haven't even touched sound design or character creation)  Here's a little gym I built....I've improved it since this: https://imgur.com/cTs1t3t  (That's just the first full ""sculpture"" I've put time into, I also have a full Scene created filled with lots of neat little experiments)
+
+And really, most demo's do not consist of Time Limits.  The tutorial is fair. You are being downvoted because you are complaining about something that is free, and gives anyone more than enough exposure to the game if they were at all curious about it."
+facepalm,fp6hl8u,t3_gbdc9a,1588352472.0,"I can't understand how people THIS stupid exist and are able to get through everyday life.
+
+Seeing random dumb thoughts on social media is one thing, but if this is a 
+real video... Holy shit.
+
+Like, she even ducked under the protective Plexiglas"
+PS4,fp67mh7,t1_fp5n19y,1588347534.0,"I think if they included the full creation mode, there would be a lot of people who would just jump into it .......then feel completely overwhelmed and lost, then quit.
+
+The tutorials are all but necessary in this game.......they are pretty fun to do and will likely give you tons of your own ideas while doing them"
+hockey,fp66wqf,t3_gb9o9l,1588347168.0,2010 Golden Goal puck
+worldnews,fp603xb,t3_gbift7,1588343513.0,"Good move, but doesn't matter to the tin foil hat wearers.
+
+This just furthers the narrative of covering up the ""truth""."
+cringepics,fp2z3wq,t3_gawvc1,1588270318.0,"""Blindly follows the crowd"" - only because he refuses to listen to what's being told to people. Either that, or because his tin foil hat is too tight."
+PS4,fozjhfe,t3_gablbw,1588191699.0,"Offering PS+ games that are already on PSNow ????
+
+That doesn't make much sense."
+PS4,fozj5hk,t3_gablbw,1588191539.0,Cities Skylines is really good and fun ...... until you need to deal with Traffic :(
+OWConsole,fowa875,t3_g9okbe,1588115901.0,Ashe can dominate matches... And Bob is easily one of the most powerful ults in the game.. For this low plat player at least :(
+reactiongifs,fow9jgo,t1_fovoffa,1588115533.0,"If you listened to any one of his pressers throughout the entire pandemic.... You'll know he closed the border to China.
+
+That's his default response to EVERY question about how shite of a job he's done."
+reactiongifs,fow99tp,t3_g9m2ki,1588115389.0,https://i.imgur.com/eOJ39pC.jpg
+reactiongifs,fow94al,t3_g9m2ki,1588115305.0,"But he closed the border to China, right after he closed the border to China. Then after that, he even closed to border to China.
+
+This would have all been much worse if he didn't close the border to China.
+
+Great thing he did."
+winnipegjets,fovfhyb,t1_fovegs7,1588100438.0,70's underwear by the looks of that guys nasty beard
+worldnews,fove5bz,t3_g9njuq,1588099803.0,"He knows this won't happen, but he knows his supporters will absolutely fucking love it.
+
+It's the same bullshit he sold them with ""The Wall"".
+
+This has ""MAGA"" garbage propaganda all over it"
+Overwatch,fosxhcp,t3_g966el,1588040099.0,Mercy banned 2x within a month? Wtf
+OWConsole,fosxe5a,t3_g96n2s,1588040043.0,Mercy banned again? Wtf
+reactiongifs,for4vfs,t1_foqmqpe,1588006210.0,https://imgur.com/a/qy4W9GG
+reactiongifs,foqxax3,t1_foqocll,1588002456.0,"""I closed the border to China, no one else wanted to do it, but ***I*** did it"" - Literally Trumps response to EVERYTHING when questioned about how shit of a job he's done during the pandemic."
+reactiongifs,foqwwr9,t1_foqosx4,1588002261.0,"lmao, he made a suggestion to ***MEDICAL PROFESSIONALS*** to try using a disinfectant and UV Light.........Trump likely thought ""I bet they haven't thought of this one! I'll suggest it in front of America so they can see how smrt I am !"" - Have you ever had someone come along and suggest you try something at your job ? Sounds pretty stupid, doesn't it ?
+
+No, he didn't outright suggest everyone go out and try it......but having those words come out of his mouth at all is enough for endless ridicule. The man is an absolute MORON."
+reactiongifs,foqwjt8,t1_foqvzqr,1588002083.0,It's because it's such an absurd and irrational thought that even the dumbest Grade 7 kid wouldn't suggest.......This is the POTUS we're talking about here.
+reactiongifs,foqohou,t1_foqnahm,1587997875.0,"Out of context ?  Where does a thought like that have proper context ?   (Yes, I agree he didn't explicitly say ""DO IT"", but c'mon man)
+
+lol, you can't defend your point, you just keep telling people ""watch the clip"" - They did, they even typed out exactly what he said.......and you just keep saying ""Wrong"".  Typical."
+reactiongifs,foqodea,t1_foqnycf,1587997809.0,"It's okay, even though he didn't explicitly say ""TRY THIS"" his defenders still think its appropriate that The President Of The United States has such a stupid and insane thought, that he said in front of miliions of Americans....or that it was appropriate he was ""Being sarcastic"" (He wasn't)"
+pics,folg6i8,t1_folbwg7,1587861533.0,Redditeurs mad the content doesn't match the subreddit apparently.
+pics,folg2ap,t1_folcb9w,1587861462.0,"If it works for Covid, it can work for jaundice.... I guess"
+playstation,foldibj,t3_g81teq,1587859915.0,https://i.imgur.com/xjPi6Th.gif
+PSVR,fojv5p0,t3_g7odx9,1587830043.0,"I'm not gonna say it's too late, but they've definitely missed the boat."
+cringe,fohbklx,t1_fogfp8m,1587763232.0,"Just watch any of his pressers, all he does is deflect and blame.
+
+Anytime someone questions his slow response, he just brings up how HE decided all on his own to close the border to China."
+cringe,fohb7ou,t3_g7d4di,1587763060.0,"This makes it worse. He looks and sounds even stupider while he's trying to defend his already stupid comments.
+
+lmao, him crossing his arms at the end is the equivalent of ""I'm taking my ball and going home"""
+trees,fogfg2r,t1_fogcvos,1587751897.0,"Yea.....about ""pills"".
+
+Last July I was prescribed a light does of Mirtzapine (15mg) to help with anxiety and sleep.  I can say there is definitely a Life Before & After getting this prescription.
+
+It might sound counter-intuitive - but man, I've been so much LESS stressed since being able to work from home, so I stopped taking my pills thinking I don't need them.
+
+I didn't think anything of it until my wife asked if I had been taking them....well we know the answer.
+
+I feel like an idiot, but I also know this happens to a lot of people on meds like that. They think ""I'm better now ! I don't need them!"" - Well, I guess I hopefully learned a lesson and that I can continue smoking without some of the negatives.  Downside is that I feel like I'm taking the pills for the first time again, and it's kinda rough...major 'disconnected' and empty feeling :/
+
+Thanks for the response ! Stay safe."

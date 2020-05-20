@@ -1,0 +1,114 @@
+game,foiuhlf,t3_g7hyo8,1587797424.0,"Same tbh, welcome!"
+ProgrammerHumor,fly61qq,t3_frm093,1585596194.0,[I love this joke.](http://steamcommunity.com/id/ohheysnow)
+css,flhfm4i,t1_flhadru,1585161728.0,"That's the general idea! Mozilla has good [discussion](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout#Grid_and_flexbox) of this.
+
+Flex also allows you to specify flex properties (grow, shrink, basis) on the children, whereas with grid you need to define the columns / rows all at once on the parent. (The article above calls this content-out vs layout-in.)"
+game,fg8n0vh,t3_exj9gc,1580624970.0,Avalon!
+triviaoftheday,ffvjsew,t1_ffvjlcc,1580265778.0,"I knew the consequences, and still I clicked."
+triviaoftheday,ffvjedq,t1_ffvi7ca,1580265515.0,[Oh yeah](https://media1.giphy.com/media/eHcmW8fYIRm9qkjvs4/giphy.gif?cid=19f5b51a5b37fc56a1256e866ee394021cd09c18d2ecd70f&rid=giphy.gif)
+worldbuilding,ffk2j1k,t3_eu28gc,1580013815.0,"As the title says, this is a first pass at the map for Saméodun, the setting for my upcoming D&D campaign. I'm looking for any feedback! Let me know what you like, what you hate, and any other general advice you might have. Especially interested to hear what map elements pique your interest, and which ones seem a bit confusing. I'm early in the creative process, so there's lots of room to improve.
+
+Edit: grammar"
+game,ffjtmqu,t1_ffjmd40,1580006616.0,Thanks! Excited to be here :)
+game,ffjsqrs,t1_ffjpkki,1580005934.0,"Awesome. Well hope it goes well. Writing code is a ton of fun, always more to learn :)"
+game,ffjp3q7,t1_ffjotfh,1580003425.0,"Nice! Unity is pretty neat, had the chance to learn a bit during a class. Any project you're working on?"
+game,ffjo4kv,t1_ffjnplt,1580002763.0,My job mostly! Though recently I transitioned to more mobile-oriented work and have been using it less. How about you?
+game,ffjmidq,t1_ffjmf2m,1580001671.0,You're in for a treat! I'm currently working on full clears.
+triviaoftheday,ffcmgn8,t3_esm5hh,1579802575.0,!Harry Potter
+TheSilphRoad,ffb2po3,t3_eseutf,1579750290.0,Does anybody know how they calculated the $250M figure? They didn't describe the process in the blog post.
+triviaoftheday,ffaqbbj,t3_esh87k,1579741993.0,!20 pounds
+buildapc,ff1m19y,t1_ff1kf7u,1579481401.0,"Awesome, that's super helpful. I'll work some of that feedback into my build.
+
+Does moving from a 3600 to 3700X confer that much of a benefit for gaming, or would putting those $$ into the GPU yield greater performance gains?"
+buildapc,ff1lswr,t1_ff1jiv9,1579481282.0,"Thanks for the feedback! Any concern with the 1600 becoming a weak link, given it's a few gens old now?"
+AskReddit,fdhw822,t3_elbejj,1578431273.0,"Appending ""Just saying."" to a sentence.
+
+Of course you're just saying, because you just said it. What is this supposed to mean? People use it to soften criticism, but if you're ""just saying"" does that mean you *don't* want me to take that feedback into account?"
+triviaoftheday,fcghawz,t3_eef3dj,1577640008.0,!copper
+node,fc7m6sc,t1_fc7l5hr,1577512000.0,"Yeah, the details would get a bit tricky. I imagine there'd be lots of array operations (intersection, subset, difference, etc.) along with grouping.
+
+E.g., to find recipes matching a user's profile, it may look something like:
+
+    SELECT
+      recipe_id
+    FROM
+      recipe_ingredients
+    GROUP BY
+      recipe_id
+    HAVING
+      -- Here <@ means ""is a subset of""
+      -- user_profile_ingredients is an invented variable
+      -- containing the IDs of the user's chosen ingredients
+      ARRAY_AGG(ingredient_id) <@ user_profile_ingredients
+
+Edit: not sure why formatting is weird :/"
+node,fc7dmjv,t3_egkvf2,1577504323.0,"There are lots of ways you could approach this. The first step I would suggest is what you've already done: consider the set of use cases you want to support, and use them to inform your design.
+
+If you want to look up recipes given an ingredient, then you should likely have some sort of index on the ingredient ID so that you can grab recipes from a given ingredient quickly.
+
+One (one!) possible way to accomplish this would be to have three tables:
+  - An ingredient table (has name, id, description)
+  - A recipe table (has name, id, description, instructions, etc.)
+  - A table to join the above two (each row has ingredient id, recipe id, and amount, for example)
+
+Then, you can query all ingredients for a given recipe and all recipes for a given ingredient using the third table. This design doesn't address your later points though -- e.g. how to suggest recipes / ingredients."
+WatchPeopleDieInside,fc42oi9,t3_eg0pyi,1577405043.0,Richie's Plank Experience?
+depression,fc0lzsm,t3_effx75,1577294179.0,I'm sorry you're feeling that way. You're definitely not alone in struggling with the holidays. Hang in there -- Merry Christmas. :)
+css,fbzji8t,t1_fbzjc4b,1577248797.0,"Cool, wanted to make sure it was at least called out. :)"
+css,fbzeo88,t1_fbzen2s,1577244185.0,Ahhh right right. Good stuff.
+css,fbzen82,t1_fbzcoqi,1577244158.0,Regarding the comment that `50em` is the same as `800px` -- doesn't this depend on the font size?
+css,fbzejxc,t1_fbzdqtn,1577244073.0,"Nice, glad it worked! I'm on mobile rn so I can't investigate too much, but reading the CSS I can say I don't think you need to make `body` and `#outer` Flex containers."
+css,fbzcu4v,t3_efas3v,1577242459.0,"You should be able to accomplish this using media queries, as you noted, along with `calc` and viewport units (`vw`). See [MDN's article on lengths](https://developer.mozilla.org/en-US/docs/Web/CSS/length) for more on `vw`.
+
+For example, you can encode ""screen width - 200px"" as `calc(100vw - 200px)`.
+
+That said, I don't know what you've tried -- so it'd help if you can post a fiddle!
+
+Edit: add link."
+pics,famzeo0,t3_e9w0pq,1576217747.0,I want to play a video game with this art style!
+adventofcode,f9qulkg,t3_e6iw6l,1575567168.0,This is sweet!
+javascript,f9eu6zq,t1_f9etynf,1575251679.0, [https://discord.gg/tXJh262](https://discord.gg/tXJh262)
+javascript,f9ety2g,t1_f9etn57,1575251496.0,"Join the Discord, lots of folks hanging out there!"
+csharp,f9ei21a,t3_e4iko0,1575244503.0,"Love the approach -- functional style reads very nicely :)
+
+I've only done a little C#, so forgive the potentially noob question:
+
+Are there any concerns here about increases in runtime or memory usage? For each adjustment we perform, we're now storing an entirely new Enumerable object, and for large Enumerables, we may check these adjustment functions against a large number of entries.
+
+(E.g., if I want to adjust 100 elements near the ""end"" of the Enumerable, then this will check each of those 100 adjustment filters against all the items leading up to the ones we want to change.)
+
+I suppose if this is a concern you could update the replacement argument to be a function `(item, index) => replacement`, and then you'd only need a single layer in between."
+javascript,f9bqbwn,t1_f9b9ni7,1575215257.0,https://adventofcode.com
+ProgrammerHumor,f7gboay,t1_f7gbmxn,1573699567.0,Or Flow!
+ProgrammerHumor,f7g036j,t1_f7fsbd8,1573691068.0,Don't listen to them! JavaScript good and fun!
+LifeProTips,f5tobls,t1_f5sz7or,1572462014.0,"Grew up near Des Moines, IA -- there the tradition is that kids tell jokes before receiving candy. Went more than 23 years thinking that's what everyone did until I learned otherwise a few weeks ago."
+WeatherGifs,f5jphji,t3_do2sy6,1572235584.0,Wild how clearly the cold front is outlined by the smoke.
+AskReddit,f3dpg80,t3_dghcy7,1570843271.0,"Ugh, guess I better buy a shovel."
+javascript,f1xpcep,t1_f1vnyl6,1569801873.0,"Love these suggestions. To add on, questions about `class` syntax and `for...in` vs `for...of` (to complement `Symbol.iterator`) would be great too.
+
+Oh! Also destructuring, `Proxy`, and truthy/falsy!"
+javascript,f07tvqd,t1_f07pgay,1568468749.0,The author just used the concept of different sockets for illustrating the pattern -- nothing in the code actually makes the two sockets physically work with one another.
+deadcells,eyi2oyc,t3_cx12yy,1567096695.0,Whoah I hope they release a recording!
+itsaunixsystem,eusevr3,t3_chdn0v,1564007233.0,Yiiiikes
+worldnews,eus599g,t1_euqrofi,1564003432.0,Came here to point this out; you explained it much more clearly than I would have. (Thanks!) Seems like everybody's already running with the wrong interpretation of this quote. :/
+me_irl,esh0o29,t1_esfohtf,1561977056.0,N O T  P O S S I B L E
+RLFashionAdvice,erd8wx9,t1_erd8ug5,1560734454.0,"Oh, my... 🤭"
+RLFashionAdvice,erd761f,t3_c1ha5d,1560732946.0,Absolutely breathtaking 😍😍😍
+BadRocketLeagueGoals,eqpwvc0,t1_eqpct8f,1560206194.0,I think it's called Cloudburst!
+javascript,epu2hcw,t1_epu0rjr,1559502423.0,"Ahh my bad, thanks for calling this out!"
+javascript,eptmipf,t1_ept2goc,1559493269.0,"You don't have to use `;` is JS! :-)
+
+Also `for...in` will iterate object keys while `for...of` will iterate its values. A little quirky, through I've yet to run into a situation where I need the value and not the key, so I always use `for...in`.
+
+Wish we had something like comprehensions in JS, those are super slick!
+
+Edit: see reply, I was mistaken about `for...of`."
+javascript,epn6sou,t3_bv53na,1559322453.0,"I especially like #3! You can generalize this [even further too...](https://jsfiddle.net/dah38zvf/)
+
+Edit: wrong number..."
+WeatherGifs,eovli66,t1_eovjvm6,1558897110.0,"Generally, this happens when wind shear aloft causes horizontal rotation. Then, a strong updraft can shift the rotation to be vertical, resulting in the rotation of the entire storm (called a mesocyclone).
+
+Disclaimer: I'm just an enthusiast, so I recommend looking up more about supercells if you're curious!
+
+Edit: remove word"
+AskOuija,eovbnrg,t3_btajkf,1558891974.0,N

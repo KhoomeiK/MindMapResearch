@@ -1,0 +1,562 @@
+askmath,fr3vwl9,t3_gmfawo,1589867763.0,"let f=red-blue, then you want the integral of |f| over the domain.  This means you want to calculate the integrals of the subtraction but as the segment to the left of the first intersection and the one to the right of the last intersection of the functions will be of opposite sign to the middle segment, you want to multiply these segments by -1 to get the overall area (just take the integrals from (-inf,x1), \[x1,x2), and \[x2,inf), and then sum the magnitude of them).
+
+The area can't decrease as the grey sections get bigger, so the magnitude is what you have to sum."
+CoronavirusAustralia,fr3o3li,t3_g42abi,1589861818.0,"I mean, isn't this what all viruses do to some extent, and the severity of this case is just extremelly unlikely?  A 99.85% confidence interval still indicates ~15/10,000 infected would expect to test positive again...  this is around the probability of picking one male at random out of the population that happens to be over 6'10"".
+
+I would have thought a large exposure to the virus would mean when your antibodies kill off most of the virus, they cease production which then allows the remaining viruses to reproduce again, at an exponentially distributed rate, which then triggers the immune response.  I'm no biologist, but wouldn't this happen to everyone who happened to cop a large exposure for whatever reason?
+
+Would be fkn scary af if this virus can mutate that fast and evade the antibodies..."
+poker,fr3mrw9,t1_fr26bdn,1589860900.0,"When you see the pros playing EP with pocket pairs from back in the Golden era, they're opening exploitatively wide, even if they don't know it because they are just playing vs the meta.
+
+Like what you've just realised, it doesn't make sense to play 2s-4s or 6s/ 7s in high rake because you have to fold, but they're too powerful vs people who call/ bet too wide because you can make a huge profitable merged range otf.  Also, any pocket pair has serious blocking potential as well as the draw to trips should you miss the flop.  Because there are only 6 combos as well, you can play most of them and not be too weak.
+
+I agree though, probably the most difficult hands to navigate."
+poker,fqx5tn8,t1_fqwurcf,1589726462.0,"I agree ignition is insanely soft, I think mainly because it's anonymous.  Even the bad players on ACR have a sense about the game, Ignition just seems to be full of fish who don't even understand what a range is...  of course the razor sharp regs are harder to profile...
+
+Edit: as a newer player, I find it quite hard to play without some profile...  idk if I'm naturally 'exploitative', or if I'm just not well practiced with GTO, but that's why I prefer ACR as after a while I can just start to make decisions I'm unsure about with my HUD.  I should just play on ignition..."
+poker,fqwyqxw,t1_fqwqy7w,1589721514.0,Where do they redirect to?
+poker,fqwl2yy,t3_glcgdj,1589708411.0,"I play on ACR because I have access to a proxy home address which I used to sign up, but ignition has better rake anyway.
+You should want to be using cryptocurrencies however, as they are less traceable, but also cheaper to deposit.  Using these, there really isn't any worry with VPN, the only way you can fuck up is if you paste the wrong address, then you can't recover the money.  The vast majority of the time it's fine though.
+
+VPN would slow the connection, but (and I agree I think Australia is most-likely implementing some impedence as I have been timing out every hand the last week on both sites) this will be compensated by the recovery of the impedence nationally, and also if you get a vpn based somewhere near these poker-sites, the amount the speed diminished will be minimized.  Having said that I don't know where ignition's based so gl."
+poker,fqmchgi,t1_fqm8wis,1589475173.0,"Yeah well that's where the construction of the study comes in (which can also be very misleading).  They tested things like the chance for a draw to complete, the chance for big hands to flop well, the chance for draws to flop well, a big one Bovada was way off on (they tested other sites which could mean it's just be a marketing conspuracy) was the chance of a big hand given a recent big hand.  There was also some type of ""weird play that gets there"" metric but I don't think this was realistic fo ignition if there was.
+
+They didn't specify too much what the SD was, but they said it was over a 20Mil hand sample from multiple players (I don't think they were cherry picked, but there's no way to tell) which is quite substantial given 1Million is generally very conclusive for NLHE cash flow.
+
+My biggest suspicion though is why there isn't a published name.  It seems too well written to be a hoax, but I can't think of a single reason someone wouldn't want to take credit, or at least, why someone would go to the effort of publishing it without credentials if it were legit...
+
+Edit: Here it is, seems rather suss and from like 5 years ago now so even more irrelivent than I remembered: https://medium.com/@dataminepoker/report-bovada-lv-2015-online-poker-in-danger-adf904952c41 
+
+It could be just that I've gotten better at the game, but some anecdotal evidence, I just remember getting shit on by random hands constantly, like way more than you'd expect.  I only built up a 25k hand sample so it could easily just be a really bad run as a not good player vs super spewy opponents that makes it hella triggering, but I remember literally transferring my balance to a new ACR account and THAT DAY everything just felt normal (I still was an - I assume - losing player, but I wouldn't just get shit on by 84o every second hand or get 5-bet jammed off my 2pair in a 4 way pot to see Jxo high show up from both resultant players.  Especially because ACR is not anonymous, it's a lot more reassuring, but the play there is what you'd expect..."
+poker,fql96ij,t1_fql2ntv,1589450675.0,"Wasn't there a weird study done with 20M hands on bovada that showed some significant associations with the RNG, well over a few SDs out or something?  I don't think it was very specific, nor was there a specific researcher mentioned but it seemed quite unsettling.
+
+I'd have thought being anonymous would make colluding bots all the more likelly as well which would explain quite a few of my wtf moments multiway..."
+poker,fql8zfc,t1_fqk1j1r,1589450477.0,Especially if you just back jam 72o in MP vs BTN 3-bet.
+poker,fql8qw4,t3_gj7rtw,1589450238.0,"Well at least you got it in good.
+That's all that matters....
+Oh wait, no it isn't lol."
+buildapc,fql8mbt,t1_fqkx8j6,1589450109.0,"But like, say for instance I have a threadripper 3990x and an Epyc 7702 (whatever the latest 64 core one is), side by side.  I realize the epyc is only a thousand or so more now that I checked (which is reasonable comparitively so a higher memory capacity would seem to explain it alone).  Say they are set up on theoretically identical boards, and they have the same memory etc. (Is the threadripper capable of >256GB btw or am I just not aware of TRX40 boards that support that?):
+
+Will the Epyc out-perform the threadripper in general computation?  What about specialized computational tasks (idk, say decrypting or deep-learning or virtualization if that's intensive)?  Is there something the Epyc will excel at or will it just be generally more stable, longer lasting and run at a lower TDP?
+
+I don't have enough money to care too much about this, even if I do end up making a computational server, but it does seem a little mystified - I mean wouldn't a single clock be more powerful on an epyc than a threadripper?"
+buildapc,fqksu8t,t1_fqkihsr,1589435309.0,"But what exactly makes a xeon E5 better than a core i9, or an Epyc better than a ThreadRipper?  What programs are these being optimized for that justifies the price?  The threadripper has as many cores (and hyperthreading/ whatever AMD calls it), can also run huge amounts of ECC memory, and yet the Epyc is almost 2x the price.
+
+Is it just that a TRX40 socket can only handle a certain memory cap & bandwidth, because the processor can only handle the limits of that socket, or am I missing something else?"
+buildapc,fqkni4c,t1_fqkfatc,1589431342.0,"But are they more powerful for specific tasks?  Click speed is only how mant cycles it runs, not operations right?"
+poker,fqkbe5j,t1_fqi9iee,1589423831.0,"Fkn 10NL haha, $5 MTTs were my high stakes."
+poker,fqgp4wg,t3_gikw1m,1589352628.0,How much you roll for them/ how many you play?  I used to play $2-5 buy in MTTs on ignition but that's how I punted all my cash roll away lol
+poker,fqbx0xl,t1_fqbdwop,1589245603.0,"Yeah, it's sad as well how the rake is going up on party and stars.  Is it the micros or the mids that are getting crushed?
+
+Yeah still far too much imo, I ran up like $300 rake attributed over on ignition just to lose $100.
+
+I hope I get good enough to play stakes with marginal rake because the way you get to play just looks way slicker (and more intuitive).
+
+I'd like to play MTTs, but I don't have the bankroll nor can I handle the swings nor can I stay in one place for hours and not get tilted...  also the rake's taken at the start as a fee, wouldn't this roughly equate to a similar charge?"
+poker,fqbwh6h,t1_fq94z73,1589245286.0,"Ok jks I can't believe I didn't realise that lol.  Still quite annoying if I'm t  build a fat stack and stack another stack that's fat.
+
+But in PT4 for instance, I played a hand with I think a $35 pot (at 10NL).  It said the rake was $1.57  which I realize now is 5%.  I assumed it was the rake attrib u ted, but nevermind.
+
+Man I really can't believed I missed such a simple detail haha.
+
+Edit: you'd have thought the cunts over at 2p2 would be able to offer such advice, but they seem to be entirely useless bar like 2 people."
+poker,fq8z814,t3_ghhpw4,1589180073.0,"I don't have much time in the streets, but generally I'd have thought nit, the insult, refers to someone who plays tight from lack of gumption.  Like playing tight preflop is good, but only because you can be way more aggressive postflop, which requires gumption and aggression.  Calling someone a nit (who isn't a seasoned reg who will just take it as a sign of tilt) pulls their virility into question and will ideally lead to someone becoming predictably spewy.
+
+Being a nit has beta stigma because it envisions a player (imo) who only plays poker for the joy of getting money, but is too scared to bluff/ make moves which give the rush most people play for.  This would make it ideal for an insult because it encourages them to play in ways that lose more money and will make them feel uncomfortable for lack of knowing where they stand without AA in the hole.  Also, losing a nit from the table is hardly ever going to be a big deal, regardless of how bad they are at the game."
+buildapc,fq4x9u1,t1_fq46m45,1589086446.0,"Oh nah, I'm trash atm.  It would literally take me thousands of hours, I'm just interested.
+
+I do many things outside poker, but the sims I would be doing would be best estimated using poker solutions as a metric.  These are mainly basic but arduous matlab/ R scripts, and hopefully some future deep learning algorithms.  Every  now and again I have some mathematica scripts I'd like to run, and it's ve nice to get a speedy nvme to do some chessbase referencing/ faster engine analysis, so a beefy server would be nice.
+
+The thing is, I understand there is really no difference between a desktop and a server for the tasks above, but aren't long hours much more demanding of desktop components than their server counterparts?  Wouldn't a threadripper burn out before an epyc/ xeon, or is the status mainly for ecc memory?  (Also when would one want to consider ECC memory?)"
+AskPhysics,fpne9we,t1_fpm4kr0,1588759873.0,"Yeah I mean, I'm just an undergrad, but I gathered that understanding the derivations in proofs are both to 1. Trust a result and understand its context/ assumpetions/criteria, but also to 2. Give insight as to the logical process behind a concept.
+
+I would have thought remembering proofs is only a part of physics to ensure that 1. You understand it and 2. You are capable of analysing derivations, something all academics must be able to do.
+
+For mathematics, I think all my understanding of a topic comes from learning the proofs, that is somewhat different though because everything can get so abstract in, say, probability theory or abstract algebra.  You really are reminded how blunt our minds are when you have to resort things down to a basic checklist as intuition is bound to trip up.."
+askmath,fopa868,t1_fon2z2y,1587956562.0,"It is weird though, when you consider what generates their existance given the properties of space - I mean, you make a plane and define a Cartesian axis and the imaginary number just falls out with no effort: an area bounded on this plane is given by the sum of all infinitesimal areas, you cannot have negative area because the number of points have to be positive, but what is negative area?  Well, similarly to how negative numbers describe debt, negative areas describe negative potentials to be summed with a positive result, but what does it mean to root said area?  This should give the square side lengths of said area, but what lengths give a negative area?  Negative lengths are defined just to be the same length but in opposite direction, so it has to be some other construct that makes no sense.  Does this mean there is some unknown component to each dimension in logic we are not aware of?  It is rather spooky, even though it is just a construct.
+
+I mean what is the difference between 2-i * 2+i and just 2 * 2.5?  They're obviously very useful and very real, but the whole conceptualization of them is just fried."
+AskPhysics,fon71ky,t1_fomx4fk,1587913633.0,Idk lol but I'd have thought it'd depend on the pressure
+askmath,fomjj3r,t3_g87tbq,1587892385.0,"First off, I don't think this is a dumb question because conceptualizing these things is something every good mathematician should at leas try to do, so it's a bit more in-depth than it sounds.
+
+I think of imaginary numbers as being ""potential"".  Complex numbers are used in physics because they describe periodic functions exceptionally well (i^x is periodic about x, which is only true for i).
+
+But i is not technically defined as sqrt(-1), i^2 is defined to be -1, this subtle difference gives a better idea as to what it's actually meant to represent.
+
+Imagine, for instance, you want to decide the x intercept of x^2 + 1, and x^2 + 10.  You can say they don't exist, but it's clear that the prior intercept is ""closer"" to existing.  It's x intercept is i, whereas the second function's is sqrt(10)i.  In fact, the imaginary component of any intercept gives the sqrt of the vertical ""distance"" from the axis, and the real gives the translation.  We can see from the above example that the prior is a magnitude of 1 and the latter a magnitude of root 10 both with the same argument - you could then say this means the prior is closer to it.
+
+Similarly to negative numbers, they do not exist without context.  Complex numbers mean little until they are transformed to real numbers, similarly as negative numbers do not have meaning until they are subtracted (added to) from something.  i means nothing until it is squared.  It is a construct of abstract thinking to describe things that cannot be completely described within a single dimension.  As you do more maths, you begin to realize most things are just an application of properties to best model something (even in pure maths).
+
+But imagine this:
+Say there is a box of negative apples: you pick an apple a day, put it into the box, but as you say, you owe 7 apples to people (interest free).  How many are there to eat?
+It is a bad question as it is not correctly applying the concept of negative apples, as you said, the better question is how many days until I can eat an apple/ how many apples do I have to pick to eat one?
+
+Now, think of this:
+There is an AC current and you want to figure its waveform.  You can apply a fourier transform to the signal, but for this case imagine there is a perfect sine wave and you want to determine it's frequency.  How do you do this mathematically?
+
+Well, because of i's periodicity, it actually means e^-ix has a taylor expansion equal to cos(x)+isin(x).  So it turns out you can literally multiply the inverse of e^-ixt with the signal and sum the result for all of t (the integral), and once you get a nnon-zero value, x is the frequency of the signal.  Similarly, the result of this value contains phase information because of it's complex notation: you multiply the complex transform coefficient with the e^-ixt for known x.
+
+So sine wave, you apply the fourier transform and you will get -i/2 * e^-ix +i/2 * e^ix = - i cos(x)  + sin(x) +icos(x) + sin(x) all on 2 = sin(x).
+
+It is a consequence of negative numbers requiring context to be negative to - there is no such thing as a negative area, but there is such a thing as the square of a negative area, and it is this lapse of existence that gives these numbers the useful morphing properties they are used for in math (similar to how negatives are).  They are typically used as a construct of vectors as they act like vectors, oscillate and are very well defined under certain operations and thus have many well defined properties."
+AskPhysics,folrwl0,t1_folmfae,1587869038.0,"I mean, this is an evolution of model.  The point is the question is quite open-ended and there isn't any defined model, but the assumptions are (given it is a hypothetical person throwing a ball) that gravity is constant, as is the velocity.  You could make all kinds of crazy calculations, such as at what point the ball will compress into a black hole, at what point it will be crushed into nuclear fusion, how long it will take for the ball to return in its frame of reference, the probability of it hitting a bird and losing it's x momentum etc.
+
+It's just a misunderstanding of what a system is in that it's a defined framework and not anything absolute - there is no point the ball leaves the system unless it leaves the system you defined - it could leave the system before it is released.
+
+Most likely, I assume it's just how long until the estimated air resistance results in the ball leaving the bounds [x-a,x]."
+AskDrugNerds,fog7o5w,t1_fofzmoo,1587748985.0,"I mean, if you get yourself diagnosed and ask for medication to get a better grasp over what you do with your time, and your doctor agrees, it's kind of a tautology isn't it?
+
+But yes, you could say that, and you could say heroin brings you closer to God, but most people would consider the grips of a heroin addiction damage.
+
+In this context, there is a direct problem diagnosed with correlating differences in brain function, which inhibits ones ability to actualize their potential and makes relationships much harder to navigate.  Taking these substances directly fixes this problem, so for everyone who considers ADHD a problem (which does include me despite being very close to the fence), these medications are shown to reverse the developmental impacts.
+
+Sometimes it's hard to say what's correlation and delusion - I was convinced, for instance, that my antidepressants were making me feel flat a while back, but in fact it was the opposite, I upped the dose and my emotions felt more ""normal"", I then later came off them and it got worse.  Similarly, many people associate schizophrenia or other psychosis with savantism or genius in some error (maybe Creative Genius KW), but in reality, I think it is much more likely this is just an association with what it takes to be on that level (abnormal aptitude = abnormal brain, therefore other abnormalities are likely, similarly with how psychosis forces the actualization with creativity otherwise you're fucked), and not actual causation."
+AskDrugNerds,fog5m62,t1_foelzru,1587748194.0,"Oh lord thank you, I was reading this thinking ""no surely this is a paranoid speed head, not ssomeoe with ADHD"", thrn I saw the above comment and fkn dropped lol.
+
+I understood dexamphetamine and other amphetamines (along with ritalin) are meant to be really safe long-term, it's just when you go crazy on the drugs that they fuck you, so glad to hear that's most likely the case and not some conjecture haha"
+mentalhealth,fnvjl02,t1_fnvb9c0,1587295714.0,Lol wtf is going on haha this is so retarded
+mentalhealth,fnvb917,t3_g3vo04,1587286790.0,"I get what y you're saying.  You've caught me lamenting similar predicaments as it happens.
+
+Well, this covid thing is impacting me pretty heavily, and I must assume it is you too, even if you're not aware of it.  So there's that.
+
+But man, I swear whenever I think of these things in depth, I start to question whether I would even want to be normal - however it is I am to define it - and it's very fucked to ask.  The thing is no one fits in, no one really has a good go of it, everything can be done 'better' and none of us ever really know what's going to happen, what we'll like/ dislike, nor even what other people nor ourselves may think about/ value things.
+
+There comes a point where shit just falls so far out of disorder life is just worthless, and then shit gets scary because you are falling off the face of reality completely alone.  It is then you must ask yourself what it is you should do.  The answer is simple - do what you want to do, and try to do it a bit better every day.  You have a free ticket, you do what you want to do.  Listen to Aurelius, he talks endlessly about how there is nothing to be disgusted by in nature, and all one has to do for peace is to accept their nature, not necessarily within yourself, but the fact you are a part of the universe, and to try refute that is nothing but an injustice which will result in pain.
+
+Exercise is good, right?  Why not do that every day?  Run every morning as soon as you wake up?  Learn something and try to make a living?  Focus on your diet?  Find things to do and do them, sleep well and in general, take care of yourself.  Set that as a goal and throw yourself at it every day.  This is what people are made to do, so it will work eventually.
+
+Also, meditate.  Read.  It's hard for me to even say because I feel like I'm drowning sometimes how much shit I have to do and how little faculties I have; every day, another day goes by without doing uni, getting a job, making a friend.  Every day is more fucked, but one thing is absolutely true, regardless of how fucked I am - studying and exercising, but also mindfullness exercises, will put me in a better place tomorrow."
+AskDrugNerds,fnvahkf,t1_fnue3oj,1587285998.0,At least now you get to smoke crack.  What I'd give for a reason to wake up in the morning lol
+mentalhealth,fngv8d7,t3_g1fwt2,1586946223.0,"I find doing things I find difficult have a better effect imo.  I have the problem of being overly hard on myself though, so anything that helps, I'd just say to be cautious of wasting too much time - when RDR2 came out for PC I would just piss my days away playing that and that brought me back to some dark habits indeed, only when I worked up the discipline to say, read, in my spare time did I start feeling better.
+
+I'd honestly say trying to find something you can get better at the more you do of it (say, a sport, or strategy game), making sure you get regular exercise, sun exposure and a good diet are probably the front line for mental health, followed by socializing and a job.
+
+But anyway, if you find it helps then that's great yo"
+mentalhealth,fmuor4g,t3_fx2qdr,1586395651.0,"Yeah man.  Idk if it just feels easier for some (and is actually jeopardising their recovery) or if it actually benefits some, but my mental health is taking a hit.
+
+Uni moved online, now can't keep up with material and assessments, nor can I work sitting in the same place all day in my room, so I just dropped all the subjects (real shame because this was the first in like 4 semesters I was actually making progress and looking to sit some exams), the gym closed so all those goals are kinda fucked - fitness also because I can't really run too regularly because of my feet - and the mental health benefits of doing shit has gone, I don't get outside enough and in general am just flattening quite a bit.
+
+Thing is it's not wasted time.  In times where you can't do things, improve, expose yourself to new experiences, maintain some of your hobbies, exercise fully or even work, you can always practice mindfulness - in fact this is the best time to do so.
+
+It's important just to keep a few good habits going:
+
+Brushing your teeth/ washing daily
+
+Eating regularly and focus on nutrition (try to get enough healthy fats, proteins, vitamins, fibre, antioxidants in your day and avoid processed sugars and saturated fats - especially as being in quarantine, these sugars and sat fats just weaken your tolerance to life).  Maybe you can even hit a caloric defecit and lose some fat if you want, although not recommended for weight trainers who want to maintain muscle mass.
+
+Exercising - go for a run, do some pushups every 2nd hour, some Turkish getups maybe, single leg squats etc. This really revolutionizes your mindset for days even after one thing (one set of pushups at max reps at the start of the day can make the difference between a good day and a shit one).
+
+Outside - go for a walk or sit in the sun for any amount of time.  This does a similar thing as exercising.
+
+Any discipline - people don't like doing nothing.  We like to think we like doing nothing so that we trick ourselves into being motivated to do things with the promise of respite afterwards, but we only like recovering from hard work, not doing nothing.  For this reason, it is much more beneficial to read stimulating material, learn things in depth or generally improve at things - vegetating on the couch watching netflix or gaming (not all gaming ofc) will just lower your resilience and generally decrease your sense of purpose.
+
+Instead, try to find something you want to do, or have been meaning to do but been putting off, and focus all other energy on that.  Of course if you have just about any solid responsibility in this time, most of your resources will probably will be preoccupied with dealing with that.  If you have few commitments though, finding something productive is a great way to make use of your time.
+
+For me, I've been meaning to read Tolstoy, Dostoyevsky and Solzhenitsyn for a while - maybe I'll read war and piece.  I've been reading Aurelius, and have been wanting to read up on Epictetus.  Similarly I've been practicing my trumpet improv which needs a lot of work, and bettering my poker game.  I still have a few things to do with uni (study some prerequesites but also just general academic interests) so I've been doing that too.
+
+These probably won't apply to you, but the point is if I do all of these (in order), it becomes a lot harder to have a bad day.  If I have a bad day, it's normally because I have failed to do one of the things, and really that is just a lack of discipline."
+Jung,flzir35,t1_flxlg40,1585624659.0,"Yeah I never thought of myself that way, I've always been one to like the weirder concepts, and am a bit of a dreamer I suppose.  An advocate of the Platonic form I guess you could say.
+
+Yeah idk, I think it's the anxiety prolly, that and the meds, and I haven't been doing much intellectual reading/ pondering as of late..."
+musictheory,flwdo89,t3_frg82s,1585547099.0,What does the Co mean?  Is that shorthand or is there something I'm missing?
+Jung,flvlyee,t1_flu9bku,1585526744.0,What is that symbol?  Is it Buddhist?
+Jung,fltiauf,t1_fltcqs6,1585474088.0,"Yeah I've been wanting to read him for some time.  I assume he is the type of person whom you read and are left pondering the nature of those ideas and their implications for years.  I always get caught up in the philosophy vortex though - before you read Nietzsche you should read Schopenhauer, and if you read him you should read Dostoyevsky, then obviously you should read Tolstoy, but I also wanted to read Kierkegaard... and Kant -> Hume -> idk Hobbes or some shit -> Descartes, and if you're going there is only makes sense to read the Socratics who where among the first in recorded history to write about these things in the first place.  But then what about Homer, Epicurus, Epictetus, Seneca, Cicero etc.
+
+Idk I'm reading Aurelius atm and he seems very direct.  I really want to read Homer as well, which will probably serve as a decent preliminary to Birth of Tragedy anyway...
+
+Fuck it I'm not going to understand more than a world of all this anyway hahaha
+
+Anyway, it seems interesting he'd believe such a concept - that sounds a very objectivist idea, right?  Was he a political theorist, or more an artist of psychology?  Although he sounds to be one of the most influential thinkers of the past few centuries, one thing I heard about him that was particularly impressive, was his predictions of socialism, but also the possibilities of other 'experiments' like Communism and Fascism, and their eventual clash with Capitalism.  I think this was in Ecce Homo?  Anyway, he was going on about how the biggest evil is none of them, but the manifestation of the state, in that it is a more-or-less omnipotent, omniscient and all-deceptive, cynical, violent  beast."
+Jung,fltdijy,t1_fltdcsy,1585468269.0,"wait, as in the N or S?  I am an ENFJ, the only one being substantially weighted being the N.  I don't feel they really stand for much though, beyond a business/ school being able to cater for specific working conditions.  Maybe the introversion/ extroversion will hold some merit as to how people will live their lives, but beyond that it seems to really diverge indeterminately...
+
+&#x200B;
+
+idk though, I could be an Sensor type if I was doing the test self-consciously...  it was a while ago now."
+Jung,flt90hq,t1_flrmixr,1585463312.0,"Fuck lol, that makes the whole thing way deeper.
+
+Fkn keep stoic, I can just imagine fkn like Epictetus or someone being in this situation just chanting to himself ""it's all just relative, all a man needs is all a man has"" as the surroundings slowly get darker, hotter and more desolate haha."
+Jung,flt8t0a,t1_flsrx40,1585463098.0,What is TSZ about?  Is this Nietzche's portrayal of the start of man/ consciousness?
+Jung,flt8niz,t3_fqqdq0,1585462944.0,"Am I the only one who doesn't experience fucked dreams like this lol?
+
+Like, is it an intelligence thing, or when you approach a certain age, or like reading about this shit that it starts happening?
+
+I recall JP talking about Jung as someone who could literally talk to the characters in his dreams and ask what they meant - not that I can't do that, but that I wouldn't even be able to ask these figures if I could, because they are literally like some fkn store clerk saying there isn't any more cheese or some ridiculously mundane shit like that.
+
+I'm quite heavily depressed and have social anxiety, so most of my dreams are about talking to people I've recently been in contact with about quite random stuff.  It's normally quite clear that it looks to be experimenting with either what it would mean to have someone 'in my life' or all the reasons it would feel shit.  But this is relatively straightforward stuff, as it's directly referencing anxieties of the 'real world'.
+
+I'm also on a bunch of Nortriptyline (and lithium) which I understand can provoke nightmares, which I already seem to be quite predisposed for, but similarly, my nightmares, even the most abstract ones, always seem to be very 'applied' in that they refer to a specific situation...
+
+Although it doesn't matter, we're talking about being in a plane that is crashing because a pilot died and no one seems to give a fuck.  Now this can have quite a few levels (the actual nightmare was ridiculously elaborated of that original seed so that I could never forget most of it), but it is still quite referential to my own predicaments that I won't get into here.
+
+
+But shit like this, and the stuff Jung would draw, and the things JP has talked about, this all seems much more 'meaningful'.  Like it's, on a spiritual level, concerned with what life is and how you want to be, what you want to believe and why etc.  Is this just because these people are relatively psychologically sound and are thus not needed to be concerned over matters of more specific nature?"
+musictheory,flqn5cn,t3_fqhllj,1585400719.0,"Today, most songs of most albums are in the same key.  I don't think it's really that big a deal, and not something to be worried about, but here's an idea:
+
+I've been listening to a lot more jazz recently.  Miles Davis So What changes key every few bars, but beyond that it also has many non-diatonic notes (as well as many other songs, take giant steps for instance), why is that?  Well, it seems to me that the broad cross-section of harmonies of multiple modes/ keys allow for some more interesting progressions (tritones, diminished chords, major7 major7 major7 circle of fifths etc.), which allows for an even broader pallet for improvisation.  However, it makes it harder to contain everything that is going on to a phrase, or mood.  This is very present in something like Blue in Green which, very like Bill Evans, just seems to keep on progressing.  In pop music, this is very unsavoury as people want shit that's catchy, not necessarily as expressive.
+
+But how do you relate this?  Well in jazz, it sometimes feels a lot more like 2 ideas thrown together.  Not an A and B section, but more like an A and B track that are similar enough to feel like a song.
+
+Here's the thing - albums with all the same key would seem flat only if there wasn't enough undulation between tracks.  A track that flows into another track with a different key feels different, and further elaborates off these ideas with a different mood (this is shown in The Beatle's Blackbird chorus).
+
+So, why not give this a go?  Maybe listen to two songs you've composed and transpose two you think you should go together (say one in Am and another to F or Dm as they are close tonally - F being C mixolydian and Dm V is Am).  I feel this will help develop your understanding of differing key signature, because in isolation, a song's key has very little to do with how it sounds unless it is restricted by the composer's ability, an instrument's timbre or some type of synthesizer/ mixing equipment.  This is probably why you feel stuck because you can't figure out how you should change something that shouldn't be changed anyway."
+AskDrugNerds,flqlj4z,t1_flqj5d1,1585399217.0,"I think the idea of that is that you're trying to insufflate the mucus it gets stuck in, as well as trying to clear out the sinuses.  You swallow the rest that isn't absorbed, and even that left in the mucus you try to swallow, so it all gets in ya.
+
+It is a cartoon though, I doubt Matt and Trey were recording themselves doing phat lines of coke in the studio haha"
+AskDrugNerds,flql91m,t1_flqafxf,1585398953.0,What if it isn't?  Pestle & Mortar?
+Jung,flj0iuc,t3_fox81c,1585195407.0,"I'm no literary critic, nor have even read Jung, but my understanding of this would be that irritation is an irrational response.  It is these types of emotions that force us to do things.
+
+Now, I think this has 2 main pillars:
+
+1. Studying the irrational motive itself gives you some more idea as to what exactly you are (as the things beyond your control that determine your actions essentially are what define you, despite your decisions).  The reason as to why it is you get irritated of other people gives you some idea as to what it is you fear on the most inate sense (you either feel threatened, perplexed or had assumed a certain expectation of said person that had failed, otherwise there would be no reason to get irritated.  Similarly, if you knew what it was about them that perplexed you or what it was precisely you assumed of them, you wouldn't be irritated, so figuring out what it is you are being gestured to do by this irritation and why it is you feel compelled to do so tells you more about your nature).
+
+2. Feeling irritates by someone typically results from some distasteful quality being present in them (or rather, your perception).  This can tell you what you are prejudice over (something you should wish to conquer), something you are afraid of, something you are projecting onto them that you cannot accept about yourself, or something you view as a genuine bad quality of someone.  Maybe you even feel dominated by them or they are in a position of relative authority and you don't feel they are respectful enough of you.
+
+For no. 2, along with some other possibilities I am not aware of, or maybe a more precise categorization of instances, each of those will tell you something about yourself you aren't otherwise aware of.  Especially the last 3 I mention.  The first of them is definitely one of the worst aspects of the shadow (prejudice based on your own subconscious insecurities that you send to the shadow), the second just says more about your intrinsic ethical beliefs and judgements, and the third could be either, but in the way I mean it, more about what it is you feel you need and why it is you don't feel you have it (this could be an aspect of the shadow but I'm not well read enough to know).
+
+
+All these things are things present and largely autonomous in humans.  We have to conquer these to get to the ideal ""Ubermansch"", even though I'd say it's an impossible singularity, I would say the idea (or how I understand it) is more useful as an absurdist concept (the benefit comes from trying to achieve it without ever actually doing so, kinda like Sysiphus being happy pushing a boulder up a hill for eternity).  But what Jung means by this, is that by observing these ""eccentricities"", you get to learn more about what actually drives you, what you believe and what you value, as well as some of your shadow projections as well.
+
+Idk about the context, but I'd assume it has something to do with how in psychiatry he would analyse these types of emotions as they will lead to the most unique ""data points"", and thus the most applicable diagnosis.  It would follow that this would also be good for self-analysis as well...
+
+Anyway, quite ill-read but I hope this stirred something up at least."
+askphilosophy,flii45z,t3_fon99l,1585183008.0,"I've not read him fully yet, so don't take my word for it, but Kierkegaard and Sartre would probably be decent preliminaries as I'd have thought a lot of his ideas would be based off them.  Also it's probably worth skim reading some of them Greeks back in the day if you haven't already as I think a lot of modern philosophy is mainly about rebuttal of them.
+
+Idk if Foucault had some essays on Camus either, but you can always just look up ""Cambridge""/ ""Oxford"" ""Camus reader"" on libgen..."
+coolguides,flcqjca,t3_fnp9dh,1585042113.0,Isn't it still called 6th form in the UK?  Lower 6 and Upper 6 for yrs 12 and 13 respectively?
+Jung,fl6etvv,t1_fl67na7,1584865612.0,"Yeah, everyone but them fkn Jews.
+
+
+
+
+
+
+Jk"
+askphilosophy,fl62pyb,t1_fl622vo,1584852564.0,"Oh yeah, righto.  I was gonna read him too.  Just reading Aurelius Meditations atm, suppose I'll read him next!"
+askphilosophy,fl61xev,t1_fl5wb03,1584851882.0,"Epicuro or Epicurus?  I've never heard of Epicuro I don't think.
+
+Is not a lot of it easily referenced on the fly?"
+mentalhealth,fl5xqmt,t3_fmfscq,1584848493.0,"I mean this is fully dependent on what you define to be success, but nonetheless:
+
+I've found, although I don't have Asperges and am quite confident I don't, it's very easy to use mental health as an excuse for things.
+
+And I don't mean saying you have mental illness so you can't do things when you know you can, but actually how you view yourself and what you view as accomplishments etc.
+
+Thing is that mental health is just one thing you ""can't control"".  You can make it better, you can develop as a person, but ultimately asperges will be an inevitable drawback as I understand it can't be cured nor treated, but rather managed.
+
+Epictetus said that happiness is what happens when you cease worrying about inevitabilities/ things beyond your control, but focus on what you can do.
+
+I'm sure there are many things you could be doing (as with me) that you aren't because they are, on some level, hard.  It is easier to say that you have it harder than people, thus you set easier expectations of yourself, but these hypothetical people are not people you want to be comparing yourself to.  You know that you want to be as good as you can, and the only way to ensure you become that person is to start doing things as well as you can, all the time.
+
+People who get really fit don't decide to get fit and put in x amount of time over y years to get z level of fitness, they do it one day because they understand it is unilaterally better than not doing it.  They do it the next day for the same reason, and eventually (months to years) they begin to reap the rewards of being really fkn fit, which proves to them that this IS not only not a waste of time but an extremely valuable use of it.  Only then does it become fundamentally easy.  The admirable quality of these people is not their aesthetic nor energy or health, but moreso their discipline and determination to keep doing something painful with minimal returns for months on end.
+
+These ""successful"" people who have mental health problems are quite similar.  They do specific things because they want to, they get better at them, and then eventually some people become famous because of it.  But thinking of them as having the same setbacks as you and just getting on with it is the unhealthy way of looking at it.  They stopped making excuses and managed to work towards something big, and you can to, if you want.  The thing is that they are not better than you, they just managed to do something you deem better than what you currently can (normally because depressive people struggle to do much requiring delayed gratification).
+
+Ultimately these people tend to have mental problems because they neglect things vital for mental health to make these progresses.  Think of this like athletes taking steroids - it's not healthy but it works.  In general it's quite admirable but in a sacrificial way, they maybe have insecurities about how competent they are so they are driven to do as much work as possible etc.
+
+You don't want to be like this, not likely at least.  Best thing to do is to stop thinking of people as crude personas, everyone is complex, everyone has their histories, everyone knows things you may not to similar depths you know what you know, and you will know things most other people don't.  There is no such thing as ""better than"", only what you judge to be so.  Don't think so absolute and focus on what you can do in the present moment.
+
+I advise to read Aurelius or Epictetus, there's something about their words that truly inspire this level of thinking and self-discipline I am unable to replicate."
+Jung,fl5h1ta,t1_fl4wwd2,1584836536.0,"Hm.  Well I mean all philosophies (sciences included) are contingent.  Jung's ideas are about bringing more reason into your life (I haven't read him yet, but I understand his ideas are to become more aware of your personal unconscious motivations (and possibly collective), as well as generally documenting his understanding of the dynamic of the unconscious), by strengthening your rational mind with more say im what you do.  This itself is contingent on the idea that you know what you want to do when you bring so much power to your rational mind, which is largely assumed as we know we are, and for us to do what we envision makes most sense to us as to what would seem meaningful.
+
+But Soren Kierkegaard was the first existentialist (in the 19th century).  I'm reading him soon.  Schopenhauer was another philosopher around the same time, he influenced Nietzsche, and I'm not entirely sure if he was an existentialist exactly, but if I understand correctly, he shared a few similar themes to existentialism as he understood there were certain wills to which you are blind, and others which you are entirely aware.  I'm not too sure if he is what you're looking for, but I'm definitely going to read some of his works shortly after Kierkegaard, and I doubt it would be wasted time.
+
+I think if you're looking for how you go about trying to bring reason into your life, they would both be great reads.  Also Nietzsche heavily influenced Jung, I believe, so it may be good to read him as well to get a foundation as to where Jung gets his somewhat assumed 'values' - although I'd have thought he'd be just as hard to read, if not harder, than Jung.
+
+Edit: Modern Existentialists include Camus and Sartre - they are both fool-proof philosophers I think.  Camus especially, is probably one of my favourite philosophers."
+Jung,fl3uvs1,t3_fm9mnm,1584798947.0,"I mean, I think the existentialists have it about right.  Eventually, you need something to bring reason to your existence, and that - along with the fact that you never will fully know and be able to practice self-mastery - kind of makes this hypothetical an impossibility, or rather a singularity.
+
+&#x200B;
+
+I'd personally believe that it is fundamentally impossible to consciously/ rationally decide whom you love, and a bit further (but also a bit further into conjecture), all rationality is based by some innate irrationality (such as why you give af in the first place).
+
+&#x200B;
+
+If you're talking about what to attempt to do, I'd have thought it comes down to which fundamental philosophy you'd rather live by, or in what terms you define ""love"" to be.  I'd have thought it would only make sense to choose to love people that seems innately meaningful to you (irrationally) as to do the opposite just seems to be even less meaningful objectively, and far less meaningful subjectively.
+
+&#x200B;
+
+Also, it only makes sense to not love anyone if you are psychopathic, as no other form of person seems to be able to endure the pains of life without loving *someone*."
+askphilosophy,fksipob,t1_fkptlr3,1584490993.0,"Yeah.  I'm thinking of reading a cross-section of the stoics as I find then fundamentally interesting, I'll read republic, nichomanean ethics, maybe politics and some others, I'll probably give Homer and Virgil a quick sparknotes for now and come back later.  Was Dante another one or am I confusing things?
+
+After that, I'm thinking I may read a little Kant and Hume, then some Schopenhauer followed by Nietzsche and Jung.  I'm hoping that'll be enough foundation haha.
+
+I might read descartes first though.  I'll also probably read the Iliad and the Odyssey intermittently."
+Nietzsche,fkseuy5,t1_fkrxdyv,1584488495.0,"Yeah I gathered, I just came across his post late last night and thought it was funny the thread is ""what was Nietzsche like to talk to?"", then there is a post saying there is a book ""conversations with Nietzsche"" or in other words ""what Nietzsche was like to talk to"" and it had no upvotes after 6 hours...
+
+Apologies."
+Nietzsche,fkqry6c,t1_fkq5n9m,1584454174.0,What would that have to do with anything?
+Nietzsche,fkqi3n0,t1_fkqg2sj,1584446594.0,"Hm, I agree but I'm not all that well informed myself and wasn't sure if there was just something I was missing.
+
+I thought he was diagnozed with syphilis, but yeah that sounds like it would be some type of rumour.  Also, it'd make sense if he just had some type of under-lying psycho-mental illness, seeing how fkn hard his life looked, that would result in suppressed immunity and overall stress, but also some kind of auto-immune/ low immunity disease or nutrient deficiency.
+
+Also, yeah back in those days who knew what people were taking.  Prolly took meth for all we know, taking cocaine when sick and opium when anxious.  This would surely just lead to mental collapse at the slightest set-back as you'd self-prescribe medications, then medications for those side effects etc.
+
+But mainly, I think a lot of people get this crazy idea that schizophrenics are just eccentric smart people.  They are not, John Nash was a smart dude, he would have achieved much more if he wasn't already a schizophrenic.  You cannot operate in philosophy, of all arts, when acutely schizophrenic.  I do have a hunch he may have been psychotic, have some type of underlying emotional disorder such as dysthymia or some personality disorder like psychoneurotic pd or something.  Who can say though, really?"
+Nietzsche,fkqbqlx,t1_fkq9kgw,1584439357.0,"INTJ according to who?  I'd agree with the I and N, maybe even J, but aren't they very subjective and hard to judge externally?
+
+Also, didn't he just go insane because of syphilis?  Or are you saying he was actually an insane person who also happened to be dumb smart?"
+Nietzsche,fkq58ps,t3_fjyt63,1584431077.0,"I mean anyone else in this sub would be able to give a much better opinion, along with references, but here's my take just cos (I haven't actually read him YET, I've just read a lot about him.  I have just finished the foreword for BT haha):
+
+He was born first of 3 in Germany.  His father (a pastor) died when he was 5 and 6 months later his youngest brother (2yrs old) also died, and from some video I was watching over a year ago, he was quite a serious child.  I can't imagine this sort of trauma at such a young age - not only from the exposure to death, financial burden (especially in those days), and the lack of a father figure, but also how much those two deaths in quick succession must have destroyed his mother, all while just entering the age of becoming more self-aware.
+
+
+Obviously he was really intelligent, but also he was said to be quite idiosyncratic, at least at the time, and was more of an artist than an academic.  He also got severely ill many times, had ongoing syphilis I believe (edit: seems that was just a whimsical theory from other posts in this sub), and multiple other things.  He was reclusive after withdrawing from his chair at Basel, secluding himself.  He also made 3 declined proposals I believe, and I believe a couple people said he was a celibate.  He has also been, not only seemingly arrogant/ narcissistic upon his work, but also highly critical, which I think says less about his ""narcissism"", but more that he was a really sharp theologian but it could also possibly be indicative of a highly volatile mental state, and a need to be ""right"" or to latch to some sense of objective reality.
+
+
+I think his life must have been incredulously hard, and he was an incredibly strong-minded person, but with the events he had to face, all the modern developments of gossip and none of the developments of modern psychiatry, ultimately it becomes impossibly to confront everything you need to.  But then again, he was a lover of the Greeks, so Stoicism was probably something he just had to learn, something that stimulated his brilliance.  I think I'd believe he was one of the upper-echelon men disguised as a loser, but then he could have just been so brilliant it didn't matter...  If all that didn't kill him didn't happen, maybe he wouldn't have gotten so strong.
+
+
+As to how he would have been to talk to, he would have probably been rather serious, expecting of confrontation and eccentric, but I like to imagine he would have been more of an accepting person.  I doubt he would have been warm, and he was probably subconsciously shy, but not consciously and I can't imagine he would seem at all extroverted, even if he was deep-down."
+books,fkpcbbz,t1_fkp8v2o,1584406739.0,"Hm 11?  Are some of them novellas or something?  I thought there were only 5 for some reason.
+
+Anyway, is Crime his first, Idiot his 2nd?"
+books,fkpc7y1,t1_fkp8nqn,1584406676.0,"Me?  No.  Only book I've done that with was Infinite Jest.  I got 400 pages in and just stopped having the time to commit to it and gradually forgot wtf was going on.  Started again this year though, around 200 in now..."
+TooAfraidToAsk,fkmwsxo,t3_fe7dqh,1584343184.0,"I mean, I'm probably not the most qualified, nor am I even American, nor do I follow the election, but the president is quite a unique roll I think.
+
+Of course cognition is a great resource, as is the Presidency a (potentially) demanding job, but at the same time most senior roles require more experienced knowledge than intellectual speed.  This is why the president has to be at least 35yrs, the pope has to be a bishop etc.
+
+But more importantly, cognition comes in many forms.  One may not be able to speak well in public, but they may be quite intelligent nonetheless.  One may be quite bad at learning things but great at improvising, one can be more quantitatively smart than qualitatively, but more importantly, one can be qualitatively smart without having fast verbal cognition.
+
+Also, how deep you think, how laterally you ponder and how precisely you can compute things have very little to do with how fast you can, nor how coordinated you are when doing so..."
+musictheory,fkivtb8,t3_fineyd,1584229834.0,Isn't a lot of latin music to do with writing in a phrygian or mixolydian mode?  I know almost all Cuban Jazz seems to be phrygian.
+Fitness,fke35vl,t3_fhwogd,1584103938.0,"Tbh I think doing anything to start, especially fitness/ health oriented, it is best to do things that make the most difference in how you feel.
+
+What I mean is, losing weight takes so much fucking effort, time, sacrifice and you're ultimately operating at a lower level with more anxiety for weeks before anything recognizable happens, and hypertrophy takes 4 weeks - depending on the lift, it can take months to gain 5% even if you're starting (non-diminished returns).
+
+It is best to do things that make you *feel* stronger.  I'm thinking single leg squats/ squats in general, deadlifts maybe, turkish get-ups, russian twists kinda thing, chuck some interval training in there and that's a dream come true after a week or so at 4-6 times a week.
+
+I also feel the gains of separating a workout into a split and working off that are phenomenally better as you don't risk overtraining despite going to the gym more, and ultimately you will attain the goals quicker.
+
+But idk, I've been going to the gym for years and (at least recently) the best exercises for me have just been the basics:
+
+Pull-Ups
+Squats
+Military Press
+Bench Press
+And then deadlifts if you have enough grit.
+
+Thing is it's all about form (as you say).  I think in general it's easier to keep form with dumbbells, as well as balance, for rows and chest.
+
+It's also easy to underestimate stretching.
+
+Idk though, for a genuine first-time, it has to be something you're going to really like feeling stronger at.  For me it's easy cos I'm a big (fat) guy, so it's not unreasonable to make big fat gains, and lifting bigger weight happens to make me feel stronger with even little improvement.  For someone else though, idk.  I can't imagine any dude wouldn't like the benefits of power training though (3-5 reps)...
+
+Edit:  also rate face-pulls as other comment, but barbell rows for 8-12 reps do similar things with good form."
+askphilosophy,fk73awi,t1_fk3zka2,1583926388.0,"I'm sorry, what are those second two?  Are they essays/ included in untimely meditations or just some other publications I'm not aware of?  I think I've heard of the second one, but not sure about abuse of history."
+coolguides,fk37g7x,t1_fk1hvfp,1583820520.0,"Haha, not anymore"
+mentalhealth,fk2jpul,t1_fk2h0hi,1583802548.0,"9000kj, 2.2g/ kg of protein.  Recently upped to 11-14,000kj but not sure how to estimate my required intake.  Also not sure how much of a deficit I can employ before inducing too much anxiety."
+mentalhealth,fk266nr,t1_fk1avbo,1583793993.0,"I mean I have ADHD and am on lithium.  I think I'm going to look for a new psychiatrist though, I'm feeling I might have more of a personality disorder and the depression/ anxiety being a biproduct of that.  This dude is just trying to treat anxiety by exposure, which just makes me more and more out of control (I just start breaking shit compulsively) and he just kind of tells me I'm being a bitch about it.
+
+I don't think he really understands anything I say, but he seems to think I just don't understand him."
+AskDrugNerds,fk0ezrj,t1_fjzkn29,1583754777.0,"Hey yeah man, no of course everyone has their own goals, I just never realized how pivotal protein is for development, similar to how counting calories is essential for losing weight optimally (if you want to do anything progression wise at the gym, it's vital to measure your intake, but not if you're happy where you're at).  I mean, I'm sure it's good for any muscular development - the more protein you can eat the more you can lift (or hit a punching back, do get ups/ other kettlebell exercises, cardio etc), the more calories you burn (and take on), the more stress you releave etc.  Also eating more and developing muscle mass is good for testosterone which is good for male health.
+
+Anyway, digresed heaps but I'm cutting my dose down to a dose I was on without significant problems, before I can even see my psych next.  Taken some laxatives for now, hopefully tomorrow will be better.  Annoying thing is I think most of it is just psychosomatic.
+
+Btw what unsolicited comments do you get at the gym?  You mean comments of people affirming big lifts or shitting on small ones?  Cos bro if I saw anyone shit talk mine or anyone else's performance at the gym I'd be heaps off that.  One thing giving someone some strange glances, another to actually act on it..."
+mentalhealth,fk0962p,t1_fk08kf3,1583747924.0,"Yeah man I feel that.  I don't know, I find a lot of the symptoms of the ""meds"" end up being the depression.  For example, insomnia, constipation, trouble concentrating and some level of cognitive impedence (although not for effexor I don't believe) are side effects of antidepressants, but also depression.  Increasing the meds often decrease depression and thus decrease the symptoms that'd otherwise be side effects.
+
+I am thinking of switching psychiatrists though, I've given this one a while and I don't think we really gel all that much (anymore at least).  Maybe that's the issue.
+
+Anyway, good luck with your effexor man.  It's both quite effective, but was also very refreshing coming off it (it also has quite a low half-life so doesn't take long to come off it)."
+AskDrugNerds,fjz3mir,t1_fjxbqww,1583710610.0,"I mean, that's not that strong for strength training, I'd say that's about as strong as you can get without directly weight training, and the reason you'd be capped at that would be because of the lack of protein (if you were trying to get bigger).  I didn't realize for ages that people who can bench 1-1.5x their bodyweight for reps, military press close to their bw, row 50-60kg dumbbells, squat 1.5-1.8x bw and deadlift 2x will have to be eating the protein to make those gains, and the protein required to rebuild after pull-ups/ push-ups and cardio is a completely different story than what is required to recover lifting 220kg off the floor, while also maintaining that.
+
+I also have to note at 100lbs, you'd only need like 70g to maintain I think, and 100g to ensure some level of saturation.
+
+I don't want to sound all judgemental, just it's interesting how I had no idea before I started just how big a deal eating enough protein is (it literally feels like I'm on roids or something how well and how fast I recover)."
+AskDrugNerds,fjqx5p1,t1_fjqiq6i,1583578955.0,"Well I mean, quite a few things.
+
+You're 100 pounds, and vegan, so although being vegan doesn't mean you can't get big (some of the strongest mfs I know are vegan), it does drastically increase the chance you don't lift weights often or at least strength train.  I'll fill you in on 2 things with strength/ power/ hypertrophy training:
+
+1. Protein = muscle, too little protein means your muscles degenerate over time, proportionally to how much you train.  I am trying to build muscle atm while losing weight, so protein intake is non-negotiable.  Losing weight, carbs are also very very fkn etch.  I don't want to eat any carbs if I can help it (I don't even eat bananas, grapes or oates for this reason atm), if I am to eat more calories I'd rather eat fatty foods, any fibrous ones if I can.  I feel people who don't lift make fun of this and how pedantic lifters get over protein, but it is the single most effective method to increase muscle (imagine trying to study for an exam where after every 10 minutes of study you took a shot, it destroys everything you're working for).
+
+2. You can only absorb so much protein every 2 hours, I HAVE to eat 40-60g protein in the morning to maintain a ~50g per meal for 4 meals and then a further 40g serving at some point.  I can't leave it till later or I'll be left with needing to eat 200g of protein in less than 10 hours (not easy).
+
+
+On top of this, yes, I record everything in myfitnesspal, anything that can't be easily recorded is estimated through generic entries, and I very very rarely eat out (mainly because I can't get enough protein to make it worth the time hahaha).  If that isn't convincing enough, I've lost somewhere between 7 and 9kg over the past 40 days (dependent on weighing habits), and have been gaining strength fast, so I'm quite confident my records are quite accurate.
+
+
+Admittedly my cardio can be quite sedentary (although both treadmill and elliptical I am still jumping up and down/ striding a lot).  I have flat feet so I've been trying to strengthen and increase flexibility of my feet/ calves before actually running, but I have been walking a lot, every day, especially since uni started back up recently.
+
+I only eat pecans, and that's because of how many anti-oxidants they have (also getting some fat early in the day helps with metabolism), I don't eat nuts after breakfast because of their caloric density.  I really doubt this one portion would be significant for my constipation seeing they make up such a small percentage mass of my daily consumption, but I'd be willing to cut them out for a week or so...
+
+Anyway, yeah I had really bad constipation on 450mg effexor (I ended up getting a panensoscopy which came back clear but for some indicators for a risk of developing diverticulitis due to genetics).  My psych switched me to these saying they have a higher tendency for constipation but they are more effective anti-depressants and thus should reduce the constipation.  Because I'm back at uni now, I'm forced to interact with people, be scrutinized and have to do shit despite my ADHD and feeling like absolute shit all the time, so, especially as someone who has potential in academia (I really care about my performance), it is a really stressful time atm.  I'd have thought this is probably the suspect tbh..."
+AskDrugNerds,fjq3rxh,t1_fjpvyfj,1583566872.0,"I mean the thing is I'm losing weight and am particularly health conscious at the moment, especially when it comes to diet.  I go to the gym daily, and do cardio a good 3-4 times a week for 30-80 mins (around 90-120 mins for weights, a bit less on cardio days).
+
+I also eat 0 processed foods, I eat at least 4 (avg 5 or 6) fruits a day, and take fibre supplements because this hasn't been enough.  I also eat vegetables with every meal:
+
+Breakfast is 2 eggs, 1 cup of kale with maybe a bit of spinach, 120g tuna, 1/5 an avocado, a tomato, 4 mushrooms and 30g pecans and I normally have 400-500ml of coconut water and a cup of coffee as well).
+
+Other meals throughout the day typically involve either flathead, salmon, some combination of chicken/ turkey, pork or occassionally some lean mince bolognese (which also happens to be low fodmap).  I'd then eat some amount of cherry tomatoes, cucumber, zucchini and carrot - at least 3 with every meal (I try for 4-4.5 meals a day).
+
+I always eat at least 1 kiwi (with the skin) and 60-120g of blueberries a day, along with apples, pears, oranges, some type of melon or some other berries as well.
+
+Dinner is always quite high fibre as well.
+
+The only thing I can see being a problem is the amount of protein I eat (mostly lean meat); I'm trying to maintain the 2.2g/ kg/ day amount, or around 0.55g/ kg/ meal.  I'm 110kg atm, so that's around 242g a day.
+
+I understand protein can be quite constipating, but honestly it's such an integral part to my lifestyle I'd rather be constipated, and figuring out how to deal with the constipation I believe to be largely caused by this and exacerbated by the medication is what I'm hoping to fix.
+
+
+Oh, and I normally drink 4-6 litres of water a day if I had to guess (on top of coffee, protein shakes, coconut water etc).  If I work out, I probably drink another 2 litres on top of that...
+
+Edit: Also, I was doing an intense cardio workout when I wrote this (started just after I posted): I was on the treadmill and then elliptical for around 40 mins, drank I think 1.6L, averaged a hr of 155, max 180, and still didn't shit after, nor this morning, I shit out a tiny bit an hour ago and that was all :(
+
+If I go much harder, I will have a heart attack and shit myself due to rigamortis."
+AskDrugNerds,fjp7ueq,t1_fjp33ap,1583543974.0,"I'm sorry I can't understand that.  I know that I'm not staying on this medication indefinitely, that's for sure."
+AskDrugNerds,fjp7jmy,t1_fjp50jh,1583543763.0,"No because they just make me feel better, they don't actually help me with doing shit.  They tend to make me more anxious and psychotic if anything, and I think that if they were to fix my depression, they would do so by altering my expectations of myself which I really don't want to do.
+
+I like psychs and ketamine, but they are recreational and any therapeutic use of them atm will likelly jeopardise my mental state tbh."
+AskDrugNerds,fjp27fj,t1_fjn25wc,1583540048.0,"Sertraline and venlafaxine both just kinda fizzled out.  This has been the first one that has ""worked"".  I think I'll just ask my psych to reduce my dose a bit as I think it was working okay before if I recall correctly."
+AskDrugNerds,fjp1zc7,t1_fjoqdax,1583539892.0,"It's really hard to do exercise and study consistently but, both take hours longer than they need to and the whole time sucks.  Like along with the dry mouth and cognitive slowing, I'd rather just be depressed"
+AskPhysics,fjmu1vc,t3_fdcb2z,1583484015.0,"Just want to say I get what you're saying.  I'm exactly the same way (if I am thinking the right thing).
+
+With poker, math, physics, and extensions of the like, I get real OCD about getting every single thing.  Luckily I'm doing math for my major, so it's a bit more fitting as the obsession will lead to better grades if I can get over the hill.
+
+Anyway, I'll give 3 examples to see if I'm on the right track:
+
+Magnetism - wtf is that shit?  Spend ages wigging out about what exactly magnetism is (is it a relation of rotating charges?  Is it some weird type of encapsulating rotation in some unspecified dimension?), but the fact is it's just been observed.  Faraday's law was just inferred from experimental data.  Similarly with QM, the answer is no one really knows etc. Thus at some level you have to ""rope learn"" the fundamentals of the universe.
+
+What is light?  Wave particle duality is some cooked shit, but why exactly is it that light refracts?  Why is it internal reflection happens inside a material of higher index than outside, wouldn't the light be at ""lower"" energy there?  I think the answer again might be to do with energy states, or that the photon has to ""speed up"" in relativity or something (actually I think indexed photons are just quasi particles, in that after such a distance, x photons will interact with an alectron, be absorbed and reemitted), but it doesn't matter - I obsess over it for no reason.
+
+Proving the dot product is distributive/ proving Leibniz's formula for determinants etc.  At some point it all just becomes arbitrary because I will inevitably forget the likes of these (as I frequently forget the cos(a+b) rule etc and compulsively try to prove it geometrically).
+
+Thing is it's like playing a wrong note in a masterpiece or something - it's more or less irrelevant but it sticks out to you and holds you back from being in the music.  Idk what to do about it, honestly I've found just trying to actually do shit and just appreciating there are likely infinite fractal pattern problems in the universe (think pattern of prime numbers, the collatz conjecture or the Riemann hypothesis) that require infinite intelligence to solve, with us only having finite brains.  Leave that shit to God and get on with figuring out what you can do.
+
+Also poker is kinda good for this because you have to do something, and whoever does least shit wins: everything is a gamble, those who just unilaterally improve when they realize they can do better than they did before."
+lastfm,fj83rlv,t1_fj6f71u,1583104498.0,"No Haydn, Beethoven, Bach, Handel, Mozart, Vivaldi, or Pachelbel.  Nor Tarrega or Segovia.
+
+You gotta respect the classics man."
+lastfm,fj6c18p,t3_fbh0g5,1583066630.0,"Tribe, Danny, Doom, FlyLo, Jeffreson Airplane, K-dot Velvet Underground, mobb deep and pinata all very good to see.
+
+But man where's hendrix, schoolboy q, Pusha T and Atrocity Exhibition man?  Not to mention the lack of classics.
+
+Wrong.
+
+Edit: also sticky fingers are mad (particularly caress your soul and land of pleasure), ocean alley too, not to mention alt-J.
+
+I swear also, Gish is a hella underrated album by smashing pumpkins
+
+Edit: Also where tf is OutKast lol"
+AskPhysics,fj2vg4v,t3_faysdd,1582955379.0,"No, but if you watched the VSauce video about flat Earth, I believe the theory is that it's a disk being accelerated at g.  That way it'd be evenly distributed.
+
+Still, despite the mysticism of gravity in general, and the fact that the universe is expanding in an accelerating reference frame for no apparent reason, the idea of a disc somehow forming flat with enough density to withstand the force of g and also being deep enough so that one can't literally fall through a hole, while also developing intelligent life, while also being accelerated for some reason and the government trying to cover it up sounds a bit less likely imho...  possible as far as I know, but so is the possibility of us living in God's arsehole - I don't really see why you'd choose to believe that..."
+mentalhealth,fiv6lyr,t3_f9tfs4,1582754751.0,"Ay, guilt is a feeling you get when you feel you've done something wrong, yes sometimes with mental health it is an unregulated response (i.e. it's over the top and unnecessary), but I feel a lot of the time with mental health, it is more to do with not being sufficient for your own expectations - expectations which you can't realistically achieve because you haven't figured out how to.
+
+What I mean to say is that clearly you feel you should have just gone to school and you can see being dependent on your mum, not doing schoolwork and shying away from talking to your friends through staying home are plans to fail, they will not work in the long-run.  The problem is that you also clearly have some stress around it all, and being too hard on yourself won't fix anything.  Just appreciate how hard it is and gradually do the things you're anxious about doing and you'll be fine.  I'm doing similar things at uni and a lot of getting back to studying is just about telling myself it's okay to have a hard time doing so, but that ultimately it is in my best interests to get on with it.
+
+Easier said than done, it can be very easy just to kid yourself and then you'll find some irresistible force keeping you from doing things.  Just be honest witg yourself and do today what you would wish yourself to have done tomorrow."
+TenMinutePodcast,fi8aymd,t1_fi7g7b0,1582236756.0,Ha
+TenMinutePodcast,fi6n5gw,t1_fi63byb,1582201740.0,"Sorry dude, old mate was right; it was ""Ha"""
+mentalhealth,fi6a2qw,t1_fgitxdn,1582184910.0,"Hm.  Yeah well being on that many meds just sounds unnecessary.  I assume you're in the US?
+
+By my understanding, treating mental health should only require 3 or 4 medications.  I take ritalin for adhd, nortriptyline and now lithium, that's it.  It just sounds way to haphazard with that many and the results would surely be so chaotic (there are not only the possibilities you could be reacting to one, but however many meds you're on or any combination of them).
+
+In Australia it seems you take 1 to like maybe 3 meds for one thing, and that's just to assist with the actual therapy.  It does sound like you have a bit more of a hard go with it with your parents getting divorced that young though, I seem to just have problems with my perception of self worth.
+
+What's reiki?
+
+I also rate psychedelics, but not taken that regularly.  I feel they kind of short circuit your brain into thinking things are more interesting than they are/ think you're a genius for thinking about how things are and force you to think so in depth over the smallest things.
+
+When I smoked weed regularly, I'd get quite apathetic and in general just lose certain parts of myself I didn't even realize were gone.  I remember just how fucked it was to even try to realise that you are actually taking a psychoactive substance every day, it feels normal, it stays in your system for 4-12 weeks (psychoactively), and it will irrefutably make you function differently than if you were sober.  I just found it was really easy to sweep so much stuff under the rug when I smoked daily that stopping was the single best thing I did (I still smoke every couple months or so, but never for more than 3 days in a row - that's when the psychological dependence starts to set in for me).
+
+But idk, everyone's different.  I just know it's a lot more likely I'm going to die alone without fulfilling my potential if I keep smoking...
+
+Edit:
+Thanks for the luck btw.  I've just been taking the bad side effects.  Instead of thinking about how annoying it is, I think about how good this training must pay off when I stop the meds...  run at 160bpm instead of 180, make myself fit enough so that's all I need etc."
+books,fi69g0n,t1_fhcy12o,1582184128.0,"Well I am reading infinite jest atm which is a mammoth book, but I was more asking for all the philosophy I want to read.  For instance, Freud read a lot of Nietzsche, Jung read a lot of them both etc, so it only makes sense to read them in that order.  Similarly, Aristotle's Politic follows on/ responds from Plato's Republic, so surely it's better to lay the cultural foundation first?
+
+Idk. I guess I'll just start reading Nietzsche, give up 10 pages in and start reading Hell's Angels.  I'll prolly start with Huxley tbh."
+AskDrugNerds,fi6978o,t1_fhyscwn,1582183827.0,"Barbiturates are a class of drugs I know literally nothing about (besides that I'm pretty sure they're GABA agonists/ stimulatory thingos or whatever).
+
+It does seem though, that all drugs without a phenyl group act on the gaba receptor (gaba itself doesn't have one).  Idk if this is anything of interest seeing as they all also act on other things (and alcohol isn't very similar to gaba at all), and the main (again, dunno about barbiturates, dissociatives nor gabapentinols/ whatever pregabalin is etc) gaba interactors are benzodiazepines which do.
+
+Idk this is all starting to sound completely arbitrary now and I'm bored hahaha
+
+Edit:
+If you count the cyclic groups though, you find a lot more as well..."
+mentalhealth,fi5xjre,t1_fi35hbf,1582172916.0,"Well happy if I could be of any help.  Your genes made it this far, everything you feel is for a reason, and there will be a solution to happiness even if some may be more difficult than others, it's just hard to see it sometimes because you never know what something feels like until you feel it."
+TenMinutePodcast,fi5ufh2,t1_fi5j8ji,1582170853.0,"Oh yeah, he says ha not okay.  Cheers man"
+mentalhealth,fi3575e,t1_fi34kqw,1582101490.0,"See my edit, I'll follow on from what I was saying though.
+
+Depression is all in your head.  It doesn't matter how good things are if you can't see it, and it doesn't matter how bad if you only see the good, life is a process so to say anything is bad is quite dumb (think the richest people 2 centuries ago would have had the worst dental work, be drug addicts, be riddled with diseases and likely die from syphilis, worse than even being below the poverty line in any 1st world country today).
+
+You heard of the myth of Sisyphus?  Dude pushing a boulder up a hill for eternity?  This is life, and we are to be happy doing this as this is what our purpose is.  All someone who isn't depressed has is the ability to feel good at the end of the day knowing they will wake up tomorrow to face the same struggle with the same threat of decline.
+
+Because of this, there is no ""fix"".  You have to find peace with yourself, view life as a challenge/ opportunity/ party/ war or whatever and find some purpose in your day to day.  Good luck man, I can't even say how much progress I've made in the past couple of years, I forget most of the time because I'm not ""out of the woods"" yet, but each month gets easier, each set-back becomes easier to handle, each day I get more rational, and when you focus on specific things with diligence every day, you get better.
+
+You can only lose 1kg of fat a week, you can only gain 5kg on a lift a month - 2/3 months if you're in shape, you can only get a little bit better at something every day, but if you keep on, the difference you can make in a year is quite big - 3 years you can completely change yourself.  This reminds me of something I read ages ago, people overestimate what they can achieve in a day but underestimate that of a week, overestimate what they can achieve in a year but underestimate severely that of 3 years.  3 years is over 1000 days, can you imagine trying and failing at something hard every day, knowing your struggles are statistically insignificant alone, 1000 times to hope that in 3 years you will be a changed man?  I'm pretty sure this is what self mastery is, and this is what's so difficult about depression (on top of not knowing wtf is actually wrong)."
+mentalhealth,fi346tw,t1_fi1a2z8,1582100136.0,"Yeah, well firstly neither stances are really ""correct"".  It helps to have a more productive mindset but it doesn't fix depression either.
+
+Life is hard, things feel shit to motivate you to do things and things feel good to make it worth being alive - kind of similar to how if sex didn't feel good no one would do it.
+
+This is just a hard realization, because then what can you trust?  How do you judge if you're depressed or not when you can't tell what's a manic realization, depressive one, psychotic one or realistic one?  Your emotions change daily, so especially if you're looking to improve, you realistically can't tell if you've improved or are just feeling better until quite a lot of time goes by.
+
+This is where psychiatry helps, 3 main points:
+1. It keeps you in a rational mindset and forces you to confront things you naturally hide from on a regular basis
+
+2. The psychiatrist will have vast knowledge of the scientific literature, meaning they will have a much better idea as to what in your life is out of order, and will help speed up your recovery in statistically proven methods.  Thus instead of finding new things to do (such as becoming more disciplined fitness/ productivity wise) to escape depression, being teased and then realizing the depression comes back, possibly exhausting your motivation itself, you get the opinion of someone who knows which patterns are healthy and which aren't.  This helps me the most, because he helps me to cap my enthusiasm over certain hopes and expectations, and to question my perceived insignificant achievements (one example is reminding me just how fkn hard going to university is [literally going to the buildings] so I anticipate the challenge and treat it so).
+
+3. In the modern world, we are torn between two parts of ourselves: the conscious and subconscious, or more specifically, what we expect of ourselves and what we are.  Examples of this are being surrounded by millions of people but feeling alone, being in a low crime-rate city with police etc but feeling scared or anxious.  This is because we have evolved from little tribe-dwelling people of small number and little safety (crude idea and we've been evolving in civilization for more-or-less 100,000 years, but still somewhat accurate even if only for very specific obsolete traits like anxiety of tests etc).  This means we (our conscious selves) have a very different idea as to what we are compared to our subconscious, maybe we don't even know if they are different at all.  This means, we feel depression, we know this is inhibiting and largely obsolete, so we try to ignore it and get on with things without giving it much respect.  This is because there seems to be a large assumption our emotions are to serve us, are irrational and we have a better idea as to how we should feel (think alcohol/ cigarettes/ other drug use).  The fact is we don't really, and it is the symbiosis of the two that makes a human.
+
+This sounds good, but sometimes the lengths needed to rectify these emotional states can sometimes be quite convoluted.  Point is, by going to see a specialist, you are forcing yourself to talk about these emotions, which is something we would have most certainly evolved expressing (think hunting, fighting off predators, getting hungry all with the same group of people).  In society, superficiality has room to fester, no one is really ever in high-stress life or death situations, no one is starving, we all feel completely different and in order to collaborate in society we are expected to brush all of that aside and work dispassionately l, completely emotionally detached from the work you are doing and investing only rationality.  I want to add to this as well, a big part is people you may talk to not being on the same page as you emotionally, due to not being in the exact same situation as you 24/7 (as it would have been pre civilization), thus you may never get ""heard"".
+
+If you invest too far into this lifestyle, and go for months if not years ""suppressing"" your emotions, or understating them to yourself, who tf knows what your subconscious is thinking: you could be out in the wilderness for all that it's concerned.  This is why going to a psychiatrist and talking about these things, imo, is a good idea, because as well as implementing some structure in your day, you have to talk to someone about what is most important to you, and thus force your subconscious to realize you are in fact going to be alright.
+
+Following on from all of that, is that medication can also be really effective in cleaning up the mess that has been caused.  To this day, nothing is as effective at overcoming depression (largely caused by prolonged anxiety, which in turn is just nomenclature for entering into fight/ flight responses with ease) as medication.  The idea is, fight/flight responses are very difficult to fight as you literally can't think in these states (it's scientifically proven), and thus anything that happens will be beyond terrifying but just impassable, so you take an ssri, snri, nri, TCA, anti-psychotic even, some type of mood stabilizer or something else that reduces the frequency and severity of these things and allows you to proceed rationally.  These drugs then help you to lay a foundation for your life as you get more and more acquainted with things and healthy thought processes, then you stop taking them and you've been able to give your subconscious the breathing room to realize everything is okay.
+
+Anyway, all I want to say is if you think seeing someone may be a good idea, it most likelly will be a really good idea.  If you have insurance, or there are psychiatrists covered by public healthcare, it is something anyone who questions their mental health should do.
+
+Edit:
+I was depressed since I was 12/13.  Up until 17 in college, I felt some resistance in telling anyone for some reason - I think I was just thinking I was being dramatic and overexaggerating the severity of things and needed to get on with it instead.  I saw someone at 17, who prescribed me sertraline and told me to see a psychologist.  Eventually I was referred to a psychiatrist who changed meds etc, and now (20) I am still feeling quite shit but am in a much more realistic place.  Looking back, I have no idea what would happen if I didn't see someone, I was completely unaware of how fucked up I was, and was on a really bad trajectory.  I now have stopped abusing weed, alcohol and whatever random shit I could find, stopped being sadistically hard on myself, stopped fantasies of a happy ever after, have been diagnozed with ADHD, lost 10kg and improved my diet, work out every day, managed to start new hobbies, and fundamentally have been able to view life as an opportunity than a punishment.
+
+Seeing someone was the most effective thing I ever did, I am still depressed but I can see myself improving, and trust I will recover quite soon (a total impossibility before in my mind).  Depression is weird because you can't really judge its severity, and because people are often talking about it in the moments they aren't depressed, even they don't have much of an idea."
+AskReddit,fhvwc9o,t1_fhsvucr,1581902172.0,"No, just when things are dirty and I have nothing to do.  I was just high more than I was sober in those days haha.
+
+I went to my ra with a towel over my hand and was like, hey you know what I do now?  It was weird because I was just blocking out the pain entirely so I wasn't expressing its severity, but the towel was full of blood.  I couldn't quite put it together that I was going to the hospital until I was in the RAs car outside college, I still don't really know why because I felt completely level headed, but it was in my head I'd just go to like a first aid kit or something, not that they had to wake up the red eye plastic surgeons and get a multiple hour operation at that hour of the morning with months of rehab afterwards.  At least the midazolam and prescribed endone was good :)
+
+But yeah, RA drove me and then stayed for like an hour applying pressure to my thumb while awaiting plastics.  Feel bad about fucking up his night now haha
+Fkn top bloke."
+AskReddit,fhs1ai6,t3_f4j6dc,1581848823.0,"2 ways:
+1. I was 10 and got angry at my xbox for freezing up, punched the floor and fractured a meta-carpal in my right hand.
+
+2. In college, I was 18, in my room on a Friday night because I ceebs doing anything, high I was washing up some shit in a bucket.  I had a cafetier/ french press/ coffee press thing my mum had bought me, it was quite cheap and shit.  It has plastic fused to the glass I thought should come off (I forgot it didn't as I was high), and without thinking began pushing on the bottom of it (the glass) with my thumbs.  Shit glass broke, left thumb jammed straight through glass.  I degloved my thumb, severed the tendon (lucky I didn't rupture any part of it or they would have needed to do some hectic shit), an artery and a nerve.  Originally, the plastics thought I'd severed both arteries and nerves due to the fact it went 270 degrees round my thumb, straight to the bone, and would have had to operate immediately at 3am.
+
+I still remember looking at it and just being stumped at what I needed to do to fix it up until I realized I needed a medical professional.  Because it severed the artery, my thumb was at a -60 degree angle and blood was shooting out of it all over the room as I paced back and forth to find towels etc.
+
+To this day, 2 years later, it's numb up the top left side, I can no longer play guitar with the thumb on the 6th string, my thumb still has a 10 degree restriction, and it can feel rough some days.  24 stitches, 3 days in the hospital, months of therapy and a huge fuck off scar (and slightly deformed nail) all for being a dumb stoner washing up."
+AskDrugNerds,fhry043,t1_fhrvwnb,1581844097.0,"Found [this](https://www.reddit.com/r/askscience/comments/19oaj9/why_are_all_pharmaceuticals_aromatic_compounds/c8q7oel?utm_medium=android_app&utm_source=share); I probably should have found this before posting here, but I did try.
+
+What I'm referring to is corrected in this post as a -phenyl functional group, although I'm sure you know if you didn't already say so.
+
+Basically says it has a balanced level of hydrophobia, polarization, chemical stability and bioavailability to make psychoactive drug derivatives.  Idk why drugs like androgens, estrogen, heroin and thc have many rings, and amphetamines, really any stimulants and serotonergic psychedelics have 1 (maybe 2 for psychedelics) except for salvia which is in fact an opioid agonist.
+
+Idk, seems to be a lot of correlation, I suppose more rings make it even more hydrophobic, more liposoluble and thus more apt to get to certain regions of the brain?
+
+Please forgive me, I'm just rambling now hahaha.  Things just keep getting curioser and curioser."
+AskDrugNerds,fhrxbex,t1_fhrvwnb,1581843133.0,"Yeah, looks just to be common in organic chem in general.  Solubility, ionizing potential, bioavailability maybe possible causes?
+
+I forget how stable benzene rings are.  Do they break apart and form regular hydrocarbons easily, or is it moreso the other way round?  I'd have thought the cyclic double bonds would make them quite impervious, but who knows..."
+AskDrugNerds,fhrrib4,t1_fhromlm,1581835727.0,"I stand corrected.  Being on the nitrogen makes a bit more sense, as surely that makes it more reactive a molecule, no?
+
+Still, is this majority just coincidence for rings being a natural progression for organic molecules?"
+Fitness,fhdjzc5,t1_fhddha2,1581488858.0,Yeah I normally start doing that when I begin feeling it in my tendons moreso than muscle.
+Fitness,fhdb9dz,t1_fhd2wbl,1581481533.0,"How often though?  I assume this is the week before you start doing the lift you're trying to improve (i.e. the week before you actually start doing 2 and 1 rep max lifts, should 1rm be what you're trying to increase).  I guess I don't do this atm because I'm still making beginner gains (below my bw)?"
+Fitness,fhcs1oy,t1_fhc3vkz,1581469613.0,"Is this because of the dystrophy period being 2 weeks, and hypertrophy period being 4?
+
+I've been doing a 5x5 3x a week for 3 weeks, 5x3 2x for 1 week and then increasing the weight a little bit for bench and it's been working great so far (3rd ""period"" now).  Am I meant to deload regularly to continue progression?"
+Fitness,fhcrg83,t1_fhbbp80,1581469237.0,"Is it not to do with the stores inside the muscle fibres though?  I remember reading muscle hypertrophy was the actual muscle cells getting bigger, and after recovering they hold more ""electrolytes"" (quotes because idk wtf I'm talking about and it could be anything).  Similar to stretching though, the training is just about conditioning the muscle fibres, so besides that and the CNS development, nothing really ""grows"", right?"
+musictheory,fgi0uj7,t1_fghpwy3,1580800505.0,"Hey would you mind dropping a line as to what tritone substitution is haha?  I don't have the time to look into it rn, but it seems kinda interesting.  I'm not sure why exactly a bII is related to a V7.."
+musictheory,fgi0rk9,t3_eyk3nr,1580800405.0,"I mean, I don't wanna assume how basic/ advanced ur understanding is, and I'm kinda doing the same thing atm, but I found a good way to develop foundational understanding is to think of chords in terms of intervals, but then also what that means relative to other chords.
+
+(I think a really good place to start if you already have a fair understanding of theory may be to look at western diatonic scales through the lens of modes - what degree the scale ""starts"" at/ where the tonic is for each key...)
+
+For example, a Cmaj7 is like a C major Triad and an E minor triad played at the same time.  The major chord is a major 3rd from the tonic, the perfect 5th a minor 3rd from the major 3rd, dominant 7 being a minor 3rd on top of that, maj7 being a major 3rd.  Following on, diminished 7th chords are minor, minor, major thirds (minor 3rd, b5, minor 7), augmented 7th chords are major, major, minor (maj 3, #5, maj7) - is this right??
+
+Following on from this, you can start to pick up on patterns (like the VI minor chord being the major tonic with a VI instead of a V, the V being the tonic with I and III down a semitone/ tone respectively etc.).  After this, you see that the I, III, V, and even the VII in some cases being ""offbeat"" tonic substitutes as they have a few of the harmonics but not the ""resolving"" harmony, as well as potential key changes to the relative minor, III minor, IV, V all being decent (IIIm and V are the same).
+
+Idk, I'm kind of rambling, but if you look at a spectogram of music, you will see these patterns emerge.  I like to think of minor intervals as tighter and more detailed/ intricate as, if you've ever dealt with fourier transforms, more close together frequencies reccur/ interfere much more, whereas major intervals are less detailed, but carry more ""weight"" across the whole spectrum.  Every octave is translated to a doubling of pitch, with the idea of dissonant tones being uncoordinated, and other intervals resulting in some type of overall effect:
+V or IV intervals for example (as the IV can be though of as an invterted V) kind of interfere to produce this really tight tone, almost like a deep tone's overtones, and a VII requires much more time to repeat periodically, so it's an even deeper tone's overtones etc
+
+I realized when looking at some of Bill Evans' chords, that when using a lot of embellishments (I think things like #9s, 13s etc, basically non-diatonic embellishements), it's almost like he stretches this sound pallet over 2 octaves, kind of broadening the harmony of the sounds even more.  It allows for more expression and mood, but similar to why VII intervals don't sound quite as impactful as V intervals, I think it starts taking it beyond human comprehension/ it starts getting too jazzy.
+
+Anyway, sorry to ramble and doubt I know what I'm talking about, but I thought these ideas were kinda interesting..."

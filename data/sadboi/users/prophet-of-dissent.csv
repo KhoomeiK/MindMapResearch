@@ -1,0 +1,279 @@
+chronotrigger,fr36a5y,t3_gmelp7,1589850804.0,"I'm in, and willing to pay around $100 bucks US for a collector's edition."
+ERB,fr3052u,t1_fr300vr,1589847286.0,Which child molester will win?
+ERB,fr2ji6g,t3_gkydoc,1589838387.0,I think the actor who played Che Guevara basically made this a lock. That guy was _good_.
+ERB,fr2jaks,t3_gm70zh,1589838280.0,"Ha, a little bit, yeah."
+ElPaso,fr17yij,t3_glsk3i,1589814952.0,Great reason to have people wearing masks and distancing.
+AskAnAmerican,fr17too,t3_glppir,1589814880.0,"With the Republican-controlled Senate basically sucking Donald Trump’s dick every chance they get, no, Congress will never approve statehood. Trump obviously hates “brown people” with a passion."
+elderscrollsonline,fr1788g,t1_fqzba5u,1589814565.0,"Yeah I wouldn’t be using this kind of thing with trials for sure, over land soloing is all I had in mind, or soloing some bosses in group areas. Thanks!"
+elderscrollsonline,fr16zwq,t1_fr09jj9,1589814443.0,"This is a really useful reply, thank you! Would you have links to either of those DK or Templar bulls you mentioned?"
+DaysGone,fqut74s,t3_gkqeq5,1589664206.0,“Yeah I’d like a number 2 deer combo to go...”
+DaysGone,fqtl1yf,t3_gkqeq5,1589641081.0,(Deep hyper masculine voice) “In takin’ my kill with me!”
+wtfstockphotos,fqtkvdw,t3_gkroru,1589640980.0,“WHEN BIG MACS ATTACK! Tonight on FOX”
+assassinscreed,fqtkj9k,t3_gko1ug,1589640797.0,Wow that is fantastic work!
+codevein,fqtkaty,t1_fqtin5z,1589640670.0,Thank you!
+codevein,fqtk9t5,t1_fqtiusn,1589640655.0,"Thank you, that finally makes sense! I can check you tube your the locations, you don’t need to go to all that trouble 😊 thanks again!"
+ApartmentHacks,fqqs0bn,t1_fqo0pla,1589570910.0,"I’ve actually been considering this, but I’m worried they’ll just laugh and shrug it off. But still, it’s an option. Thanks. 😁"
+ApartmentHacks,fqqr0wu,t1_fqnw8ip,1589570404.0,Probably the most fun if not illegal suggestion I’ve heard 😀 Lets call this plan b
+remnantgame,fqm1plo,t1_fqm0bmv,1589469983.0,"Ah, so that's what that is. Thanks for the explanation!"
+remnantgame,fqm1oh2,t1_fqlzvyy,1589469967.0,Thank you!
+PS4,fqguwb1,t1_fqgtnv1,1589357957.0,"Correct. If I shut it down all the way and then boot it up, this never happens. I'm thinking it's a hardware issue, but wanted to check with the PS4 community first before jumping to that conclusion."
+AskAnAmerican,fqfz3g5,t3_gie50h,1589334580.0,"Teddy Roosevelt and Winston Churchill are some of my favorite historical figures. Both were tough as nails and made huge impacts on human history (Churchill more so but Roosevelt did some impressive stuff too). 
+
+There’s an Epic Rap Battle of History featuring these two as well and it’s awesome 😁
+
+https://www.youtube.com/watch?v=owTPZQQAVyQ&feature=share"
+AskAnAmerican,fqfyfgd,t1_fqef8iy,1589334192.0,"Everybody look out, dude’s dropping truth bombs! 😁"
+AskAnAmerican,fqd8ylj,t1_fqd7yer,1589283610.0,"Yep, you're totally right. And if we're looking to assign blame, let's go back to the ancient Romans who enslaved just about every civilization they conquered, thus teaching people in Africa to sell their neighbors in nearby villages - and those they defeated in battle - to Europeans who'd come to buy slaves. It's a vicious cycle that's been going on for well over two thousand years."
+AskAnAmerican,fqd2t7e,t1_fqcuquj,1589277768.0,"> [...] you can overdo it with the deep frying [...]
+
+LIES!
+
+;-)"
+AskAnAmerican,fqd2nh0,t1_fqcwgwr,1589277607.0,"Yeah, we have a pretty diverse population. Then again, being the 3rd largest country on Earth by population and having been nearly fully populated by immigrants from around the planet at some point in time, yeah you're gonna get some diversity there. :)"
+AskAnAmerican,fqd2j2r,t1_fqcfgfl,1589277482.0,"> [...] Also enslaved black people for 240 years [...]
+
+Not to be ""that guy"", but your math is pretty off here. The reality for slavery as a legal matter was 89 years. The United States first declared independence in 1776, and abolished slavery with the ratification of a constitutional amendment on Dec 6, 1865. Anything prior to that was under English law, and everything after that was illegal.
+
+I'm not trying to say black people are all ""fine"" now and that there's no racism anymore; I've personally seen it affect friends and even my college girlfriend. It's too prevalent to say it's not a serious problem still. But if we're going to have that discussion, at least get it right."
+electronjs,fqd1qfg,t1_fq9ak30,1589276651.0,"The way I'd do this, because running a checksum on a multi-gigabyte file is very resource intensive (IO/CPU), is to have a version file or config.json or something specifying the version installed, then communicate with your game's website via an exposed API endpoint (something like www.example.com/api/v1/latest-version) that returns a JSON response, something like...
+
+```
+{
+  ""latest"": {
+    ""version"": ""1.0.3"",
+    ""download-url"":""http://www.example.com/path/to/download.7z"",
+    ""md5sum"":""abc123...xyz""
+  }  
+}
+```
+
+...or something (you could combine that with other metadata about the game and return it all as one payload).
+
+Now, _after_ the file is downloaded, run an MD5 checksum on the file (I think Windows powershell has a way to do this but I'm not 100% sure) to be sure the file's checksum matches the published/correct checksum so you know the 7z file wasn't corrupted during download.
+
+Additionally, I just remembered and verified something. To extract the file, it turns out that https://www.7-zip.org hosts a straight-up EXE that you can download. I'd just download that, skip the installer nonsense, and run that in a console (again, verify this works with research before you jump into implementing this approach). It'll be simpler and therefore less prone to error."
+depressionregimens,fqcwzry,t1_fqbyl8e,1589271816.0,"Great news to hear! TMS - is that the thing where they put magnets on your head? I've been wanting to try that myself but can't right now because it requires close contact and we're in the pandemic (that's what my psych told me anyway). But hey, give it a try!
+
+By the way, I hear TMS (if it is what I'm thinking anyway) is usually done in conjunction with drug therapy. So maybe try a different antidepressant along with TMS at the same time. Ask your doctor about that.
+
+Also, if previous antidepressants didn't work for you _at all_, ask your psych about the MTHFR gene mutation. In a nutshell, about 20% of people have this mutation in their genetic code (I'm one of them) that prevents your liver from creating the precursor chemical to a necessary neurological component called L-methylfolate. Without that precursor, L-methylfolate can't be created, and that's used in regulation and creation of various neurotransmitters like dopamine, serotonin, norepinephrine, etc. If those don't function right, nothing's going to work. You can supplement with synthetic L-methylfolate (prescription is called ""Deplin"" but it isn't covered by most insurance; OTC I use MethylLife 15mg, one of my past doctors told me it's the exact same thing) to help that balance out, but it's going to take a few months before it starts working. Running a genetic test will tell you if you have that gene mutation. Anyway, talk to your doctor about that too."
+assassinscreed,fq7w5ug,t3_gh7jok,1589153445.0,Looks really good! Is there a 4K version available for download somewhere?
+electronjs,fq61qbl,t3_ggya9f,1589122658.0,"You might be able to have election run shell commands in the background to install 7zip (I believe MSI installers can do this non-interactively), then if that’s there use the shell command version in the background to extract and copy files.
+
+Definitely confirm this with some research though as I’m not a Windows developer."
+GastricBypass,fq5v7ki,t3_ggtaln,1589118294.0,"In terms of your college years, I’d say you’ll have a BETTER college experience after the surgery. You’ll be a lot more attractive to the sex of your choice, you’ll have more fun and you’ll at least have the chance to be more active. You’ll also get treated better in business matters after college, than if you were still overweight, so doing this NOW makes a lot of sense in my opinion and can dramatically improve your overall lifetime earnings potential."
+wtfstockphotos,fq5uux2,t3_ggrnpi,1589118045.0,She’s going through a “cutting” cycle!
+golang,fq5uo4h,t3_ggm46a,1589117908.0,Nice. Good work too!
+GastricBypass,fq5uepk,t3_ggrwb1,1589117722.0,Is it possible they fear a more attractive version of you? Jealousy perhaps?
+depressionregimens,fq5txe3,t1_fq3aot7,1589117360.0,Glad to hear you’re going to talk with him soon. Hang in there!
+ERB,fpyjx8q,t1_fpxhjxm,1589005194.0,"Ah. Thank you. Haven’t played a Call of Duty game in forever. Never have I bought one and actually felt I got my money’s worth, so I haven’t bothered in years."
+depressionregimens,fpyjoac,t1_fpxlm8x,1589005066.0,"If that doesn’t get him to switch you off of it, get a new psychiatrist immediately. No doctor worth a damn would ever ask you to persist when their treatment is giving you suicidal ideation.
+
+Hang in there buddy. You’ll make it through!"
+instantkarma,fpxiftq,t1_fpww0mg,1588983225.0,“WHEN NACHOS ATTACK! Tonight on FOX”
+AskReddit,fpxht2a,t3_gfun9l,1588982897.0,They’re starting to forget...uhh...I umm...I don’t remember...
+depressionregimens,fpxhb9n,t3_gg1wyd,1588982639.0,"Definitely talk to your doctor ASAP. Call the office and tell the front desk this is going on, so they loop him/her in quickly. But don’t stop taking it yet all of a sudden. It’s possible you could end up with withdrawal symptoms if you do. Ask someone who lives with you to just keep an eye on you for the next few days until you’re over this (assuming you’re lucky enough to have someone nearby who cares that much, I sure hope I’m right here).
+
+It’ll be ok in the long run, just stick to it until your doctor either tells you to stop cold, or works up a plan to ween you off the drug or replace it with something safer."
+ElPaso,fpxgm9g,t3_gfwwrr,1588982286.0,How fucking stupid are these people!?
+ERB,fpxghix,t3_gftko4,1588982221.0,Who the hell is captain Price?
+AskReddit,fpuxcn8,t3_gfjiul,1588927044.0,Futurama
+unpopularopinion,fpi1muy,t3_gdag9n,1588631893.0,"Weapons have no place in a peaceful protest. If you’re carrying them, it’s not peaceful.
+
+The mere presence of a weapon while protesting creates the (intentional) implication that if some one disagrees with you, you’ll kill them. Hence, freedom of speech is restricted by intended fear."
+AnimalsBeingBros,fpi1al1,t3_gdg41e,1588631705.0,"Alternative caption (minus the end):
+
+OHSHITOHSHITOHSHIT"
+DaysGone,fowrcuf,t3_g9qfzn,1588125516.0,"To save people some time: It looks like this is **speculation** right now, not anything confirmed. At the beginning of the video they lead with ""oh there's a job posting that they're hiring for a project that SOUNDS like it would be Days Gone 2!""
+
+Don't get your hopes up, this is purely speculative clickbait."
+Nootropics,fowngbu,t1_fowa2c4,1588123267.0,"Ok, just double checking. Thanks."
+Nootropics,foup20f,t3_g96z4k,1588088022.0,What’s the difference between calcitriol and regular vitamin d3 you can get in stores?
+ElPaso,foqvbto,t3_g8cprl,1588001473.0,Why can’t we all just get along?
+texas,foqtuv3,t3_g8lmus,1588000729.0,Amazing photo! Would you happen to have a 4K version somewhere? I’d like to use this as my desktop background.
+DataHoarder,fopea73,t1_fopduhf,1587959302.0,This. I stopped in to ask this myself. Follow up question: why should I get one?
+AskAnAmerican,foen5vc,t1_foe6oq0,1587708390.0,"El Paso is a massive shithole. Definitely avoid. I plan to leave this place the very nanosecond I can. Zero professional industry beyond nursing and attorneys (immigration and criminal defense are the majority), terrible job opportunities, extremely low wages, very few college educated people here and notoriously corrupt courts make this place a nightmare.
+
+The tap water smells/tastes more chlorinated than a swimming pool and there’s almost zero vegetation. Car insurance is wicked expensive here because of the number of uninsured and foreign drivers on the roads as well as the fact that doing 90 in a 65 is commonplace and major collisions on the highway are a daily occurrence (pre-pandemic).
+
+The Mexican food is great though, no doubt about that, and the people are super compassionate - some really big hearted folks out here. It’s just a damn shame they’re trapped in this tenth circle of hell."
+AnimalsBeingBros,fo4vgwk,t3_g5irzi,1587512016.0,"Cats laying down with dogs? Surely this is a sign of the end of days!
+
+THE END IS NIGH!"
+Sekiro,fo4lwdc,t3_g5luqo,1587506794.0,"> Sorry if this was hard to read I'm not good at putting thoughts together and writing them, no matter how fleshed out they seem in my head.
+
+You did fine here, IMO. The argument is clear and well reasoned. I hadn't thought of it like this, but you make a valid point. I'd be interested to hear Miyazaki's own comments on this point, interview style."
+Sekiro,fo4lg7v,t3_g5ngim,1587506558.0,"Try to pull him from the grass onto the dirt road portion of the area. That might make it easier to see what he's about to do since you'll be able to see the entire character model. Easier said than done, but it's a start."
+AskAnAmerican,fnmflgu,t3_g2cud8,1587070543.0,"On the whole guns thing: maybe take some time to go visit a shooting range. It’s a (relatively) safe and controlled environment for you to try out firing a gun. It will give you a more solid understanding of how a gun is actually used (aiming correctly is not as easy as it sounds), and will certainly solidify your respect for the power of the weapon. Plus, depending on where you’re visiting, you might be able to use an assault rifle! (Semi-auto only though. Probably for the best.)
+
+Some people genuinely enjoy marksmanship as a hobby, and if you’ve never tried it, this might be a good opportunity to see if you like it. It’s not for everybody (I’m personally not a fan), but you’ll have a much better understanding of the details, concerns and mechanics involved in firing a weapon, and that may serve to inform your opinion on gun control issues in some way. The point is to give you more experience that you might not be able to get back home with which to form your own opinion on the subject."
+depressionregimens,fnl2vcs,t3_g2003h,1587045869.0,"Have you been tested for the MTHFR gene abnormality? Some people with a mutated form of this gene don’t produce the active form of folate in their bodies, which is required for the chemical processes in the brain that make meds like these work. No folate, no effect. You can supplement with Deplin or an over the counter equivalent, but it may take months of supplementation before there’s enough available in your body to notice the effects of these drugs. 
+
+Maybe ask your psychiatrist about MTHFR and see what they have to say about it."
+jobs,fndymhl,t3_g110x9,1586879905.0,"This is somewhat off-topic, but have you considered seeing a psychiatrist about your anxiety problems? (Quick differentiation: psychiatrist = drugs, psychologist = talk therapy) There are medications that can help with that, and some people really do need them because until neurotransmitters get balanced out, no amount of therapy is ever going to help them.
+
+I bring this up because if you're only 18 and having this issue already in life, chances are it's going to severely hamper you the rest of your life and significantly reduce your ability to live, provide for yourself/your family, etc. I recommend handling this now so you're not cut off at the knees going forward in all aspects of life.
+
+> But I have no job, how the hell do I afford a psychiatrist?!
+
+Check Yelp, Google, zocdoc etc. for psychiatrists in your area and call their offices. Tell them you don't have insurance and are a low-income person. Some clinics in various areas have programs to help low-income/uninsured people see a doctor and get medication. I was on one such program at one point in time and both the doctor visits AND the medication were completely free of charge, didn't cost me a cent. Ask the people who answer the phone at these offices if they know of anything like that; you might be surprised at what's available to you.
+
+Good luck!"
+learnjavascript,fndxvkq,t1_fndu2p3,1586879515.0,"> [WebSockets] add a significant extra burden of complexity and it's always worth thinking hard about whether you really, truly need them.
+
+THIS. I was thinking WebSockets when I wrote the post, but I wanted to leave it somewhat open ended to see if there was something I hadn't heard of out there. I really didn't want to implement WebSockets for exactly the reasons you point out here, but in this case it's the ""right tool for the job"". Thanks."
+Sekiro,fn16adt,t3_fyjoww,1586555640.0,What are all those buffs/visual effects on Sekiro there?
+Sekiro,fmrxrd8,t1_fmr9ejg,1586339412.0,"> In the room with the two fencers there's a hole in the ceiling. You can grapple up and follow it to the next room. You probably can't aerial kill the fencer in the room you'll come out to, but you can kill the grunt. Fight the fencer 1v1 (the other grandma in here won't fight you). Make sure you don't push forward as there are two more in the next hallway.
+
+This is what was getting me. That grandma in that room was somehow alerting the two guys in the next room thus pulling them on me for a total of 3-on-1. Once I figured that out, I went around the hole in the ceiling you drop down, shuriken'd her, and then everything was fine from there."
+learnjavascript,fmq78iw,t1_fmpmtto,1586294173.0,Couldn't sleep so I verified it - you're right! That's exactly what was happening! I moved `db.json` to `/tmp` for now and it works just fine. Thank you!
+Sekiro,fmq13u5,t1_fmq0xrw,1586290965.0,"Yep, that's exactly what happened."
+Sekiro,fmq12q7,t1_fmq0pfu,1586290949.0,Thank you!
+learnjavascript,fmpx9vh,t1_fmpmtto,1586289013.0,"This might very well be exactly what's going on. I'll investigate as soon as I get some sleep (been up a good 28 hours straight now, sheesh)."
+learnjavascript,fmpj2b6,t1_fmpe7gy,1586281731.0,"It's not line-for-line but it's ""close enough"". I'm able to isolate that my call to axios is indeed what's causing the page to reload somehow. If I comment out the call to axios and the `.then` and so on and submit the form, it works as you'd expect. So I'm wondering if it's got something to do with the way Vue handles calls to functions invoked from inside a component when those functions aren't part of the component's life cycle, or return/execute promises, or something like that.
+
+All I know is that if you nuke the axios code, it works fine. So damn weird."
+Sekiro,fmo0ntj,t1_fmnvre5,1586241167.0,Bummer. Thanks for answering though.
+Sekiro,fmnpyfc,t3_fw4hfa,1586232081.0,"Just downed her tonight myself. Check out this youtube video: https://youtu.be/Dr2k-DsE1go?t=68
+
+Notice how when the shadow people pop, they all come toward you? Also notice how when she snaps them away they turn into projectiles? You want to **hide behind one of the corner pillars** when that happens; the wood will block that stuff from coming at you."
+Xcom,fljco1u,t1_fljcfsb,1585206947.0,"Sweet, thanks!"
+StackAdvice,flf7bgv,t3_fo9o3j,1585099651.0,"My psych just put me on Sunosi today. It’s a stimulant but so far not that strong to me, but it might be worth a try for you. Stupid expensive though so I hope you have insurance."
+privacytoolsIO,fl8zav2,t3_fn9tgv,1584936255.0,"This should come as a surprise to no one, and should result in calls for antitrust action by everyone."
+ruby,fk2jvfu,t1_fjxgwph,1583802645.0,"Yeah it was really really weird. And no, it wasn’t a bad recipe; I was able to get this to happen with even just a simple recipe where it was just creating a config file from a template then starting a process and that’s it. Even that couldn’t guarantee order of operations. It was bizarre."
+ruby,fjx7m0g,t1_fjsslgs,1583660591.0,"I've worked with Chef at a pretty large scale (think 10s of thousands of VMs) and I can say that, from experience, this is indeed possible, though not as common as the comment above seems to indicate. _Usually_ it does work in an idempotent way but I have seen edge cases where I couldn't rely on Chef's DSL directly, and instead had to write things in a sequential way so Chef wouldn't do stuff like try to restart a process before the configuration file gets written.
+
+I wouldn't say it's the _worst_ way to do DevOps, but surely there are better solutions, without a doubt."
+ruby,fjqjes8,t1_fjq0brw,1583573689.0,"I'll elaborate for ya (and for the OP): Chef (the company used to be called ""Opscode"" so if you see that, know that Opscode = Chef) is a company that builds a product with the same name. That product is an operations DSL (""domain-specific-language"") for configuration of servers. It's analogous to Ansible if you've heard of that.
+
+You write these things called ""chef recipes"", then you can upload those to a central location and then run chef on a VM/server to pull down those recipes and run them with the chef library on that VM. You can do things like install packages, create configuration files, restart processes - really all the stuff you need to do to set up a working server of some kind."
+webdev,fjlfa2c,t3_fdsa4y,1583445605.0,Sounds like clinical depression. See a psychiatrist.
+jobs,fj4o0pa,t1_fj3ms1p,1583012756.0,"I would caution against this. Call center work is some of the most dehumanizing and awful work there is. You can’t even get up to pee when you need to, it’s that bad. Speaking from my own personal experience here. I get that you’re trying to help the OP and I dig that, but I’d warn him that it’s going to be a far worse experience than it sounds like. 
+
+At the end of the day it’s better than nothing, but not by much."
+amazonecho,fiwh683,t1_fiwh38t,1582785778.0,Yeah I agree that’s batshit crazy! Let us know if you figure out what happened.
+talesfromtechsupport,fip2d3r,t3_f8uwi5,1582596481.0,"Haha, I'll do ya one better! This happened about 18 years ago. I had just graduated high school (""college"" for you Brits) and was having a gap year between high school and ""university"" ;-)
+
+You know those bakeries where you can bring a picture of grandma and they print it out on edible paper with edible ink and put it on top of a cake? I worked for a small business in Colorado who sold the computers/printer/supplies to bakeries at that time.
+
+One day I got a call from a lady at a grocery store bakery asking why ""it"" didn't work.
+
+$me = me
+
+$her = baker
+
+
+$me: Thanks for calling so-and-so how can I help you?
+
+$her: It doesn't work! The cake thingy doesn't work!
+
+$me: <clarifies>
+
+$me: Okay ma'am, is the monitor on?
+
+$her: What's the monitor?
+
+$me: The TV-like thing where you see the picture
+
+$her: oh well it's black
+
+$me: <thinking maybe the monitor's just in power save mode> Wiggle the mouse a bit, see if that wakes it up
+
+$her: What mouse?
+
+$me: That thing on the right side of the keyboard (which is that thing with all the buttons in the alphabet on it), that's the mouse, wiggle it a bit to see if the monitor turns on
+
+$her: It's not doing anything
+
+$me: Ok, is there a light on at the bottom-right-front of the monitor? Is it green or amber in color?
+
+$her: Yeah there's a light on, it's amber
+
+Ok so by this point we've established the monitor is powered on, but not receiving signal.
+
+$me: ok, look at the computer tower, the big rectangular thing. Is there a light on the front of it that's green or amber in color?
+
+$her: I see it but no there's no light on
+
+$me: <thinking the computer was turned off> Okay, so look for the big button on the front of that thing and press it
+
+$her: Ok, nothing happened
+
+$me: Let's give a minute, it takes a little while for the computer to boot up
+
+About 5 minutes goes by
+
+$me: Anything?
+
+$her: No, nothing's working
+
+$me: Okay, put your hand on the back of the computer toward the top. See/feel that big thick black cord? Go ahead and trace that cord all the way to the wall.
+
+$her: Okay, now what?
+
+$me: Is it plugged in?
+
+$her: No
+
+$me: Well, plug it in!
+
+$her: Wait, this thing has to be plugged in?
+
+I shit you not. SHE WAS SO DUMB SHE DIDN'T KNOW A COMPUTER NEEDS ELECTRICITY."
+Frontend,fhjsq4e,t1_fhjfwu6,1581654508.0,I call bullshit on being that busy and still doing these things.
+learnjavascript,fgf52ia,t1_fgf4r89,1580724863.0,"Thanks for your help. I tried implementing that just now exactly as described and now it does absolutely nothing: https://jsfiddle.net/2monw1ta/
+
+What else could be going awry?"
+learnjavascript,fgb6d76,t1_fgb055a,1580658908.0,Exactly the information I was looking for. Thank you!
+learnjavascript,fgaqdtb,t3_exbcqz,1580654175.0,"As a devops and backend engineer re-learning front-end, this was actually helpful. It's a lot more complex than it used to be..."
+hackintosh,ffyl6jo,t3_dx4ds8,1580349060.0,Nope. I saved up and bought a genuine Mac.
+greedfall,ffh74r0,t3_eqotng,1579924985.0,Ok I figured this one out: it was a bug. Restarting the game and trying again fixed the problem.
+Angular2,ffgt85a,t3_etfeqn,1579914457.0,So pretty...
+AskAnAmerican,ffe4k0c,t3_et1e77,1579836519.0,"I got another one for you. About 5 years ago I flew to Australia for business. Had a day off, so I went and did some exploring. When I got tired of wandering around, I decided I’d like to go see a movie.
+
+While still walking, I pulled out my phone and started looking for the nearest theater so I could look up what was playing and when. So there I am, walking down the street in Sydney, starting at my phone like an idiot when I tripped off the curb and fell into the street. 
+
+IMMEDIATELY there were no less than three people offering to help me up. I picked myself up and thanked them, then owned my mistake by admitting it was my own damn fault for not paying attention. We all had a good chuckle about it then went our separate ways. 
+
+As it turned out, I had a major cut on my knee and was oozing blood. But I didn’t notice that until half way through the movie. 😅 
+
+The thing that stood out to me there was how much others cared about the well being of an idiot foreigner who skinned his knee due to his own idiocy. It was really nice to be in the opposite side of the planet and still have a human being give a damn about me, even if it was the smallest of damns."
+AskAnAmerican,ffe3x03,t3_et1e77,1579836042.0,"Oh for sure. When I was in high school, I was on my way home from work one night and noticed a car broke down on the side of the road. This was before cell phones were common place, and usually only rich people had one. So I pulled over to see if I could help this person out. It was night and it was getting cold after all. 
+
+The driver turned out to be this super nice Mexican guy (and I mean literally a Mexican, as in a citizen of Mexico) who’d come over the border earlier that day to visit family. He was SOOOOO appreciative and thankful that anyone had the kindness to pull over and see if he was OK.
+
+So I ask if he needs a ride to the nearest gas station so he can call for help. Turns out this guy already called - from his fancy new fangled cell phone - and a tow truck was on its way. 
+
+So we’re shooting the breeze for a minute (I speak zero Spanish and this guy is doing a great job with slightly broken English), and I asked what he does for a living down in Mexico. Turns out he was some kind of media big shot, knew all these famous actresses and such back home. “Aha,” I thought, “so that’s how he can afford a cell phone!”
+
+This guy was so thankful for me just checking on him that he invited me to his house for dinner and promised to introduce me to several Mexican celebrities. I didn’t follow up on it because I was only 17 at the time and felt that would have been inappropriate  (assuming his claims to status were true), but all these years later I still remember that guy. First actual Mexican person I ever met (as opposed to Mexican-American), and he made a good impression with me so I never learned the typical racism toward Hispanics - because my own experience was very different from those negative stereotypes."
+DeathStranding,ffbvx0t,t1_ffbtomm,1579784538.0,"Thanks for letting me know. I might just find a YouTube video to go over the story elements or something. Sounds like a very well-thought out story, character, history and so on, but the gameplay sounds just boring as hell. I appreciate the information."
+golang,ffbsgn2,t1_ff6w9bw,1579781031.0,Upvoted for the pun of it.
+golang,ff7ttwp,t1_ff7h1ws,1579658210.0,"Thanks for the reply, that was nice and clear. Makes a lot more sense now!"
+Anxiety,ff6orzq,t3_ermpo1,1579631735.0,"Public speaking is a very strong fear for most people, and many of them fear public speaking more than death. So yeah, be proud of yourself! Way to go!
+
+As someone who's had to do more than the usual share of public speaking in my career (software engineer), I figured I'd share a tip or two that might help you in the future.
+
+For me, the number one fear-lessening thing that I do is I KNOW. MY. SHIT. I research the _hell_ out of anything I'm going to talk about, know it inside, out, backwards, forwards, upside down and even purple (joke there, dimensional change vs. color, lulz). Anything I'm asked about it, I can answer right there on the fly because I didn't memorize a series of words, I learned a hell of a lot about a specific thing.
+
+I also go and loosely format a speech, using the slides as a reminder of what I'm going to talk about next. I put a bullet point on each slide to remind me the sub-topic, and order them in a way that makes sense and that I can later use while I'm on stage to help me remember, ""oh wait, what the hell was next again, what now?""
+
+One thing I also like to do when appropriate is use audience members as metaphors. In college I gave a speech about how the internet works (as a relay system, just like a baton race - pass the baton to the next person, who runs it, passes it forward, and so on) and called up volunteers to the front of the class (the ""stage""). I then had them stand in a line and I had one end pass a copy of the US Constitution from them to the next person, to the next and so on until it got to the end person. To illustrate why encryption is useful, I had them do it again and I jumped in between two people to ""intercept"" the ""packet"" and show why if it's encrypted there's not much I can do without giving away the fact that I'm looking at data when I shouldn't be.
+
+It's also good to have funny (not inappropriate) images for your slides. A little animated gif or small video is useful sometimes too. For example, I was giving a meetup talk once to a room of about 100 programmers, talking about a new version of some open source software that had just come out that day. I started the topic by saying something like ""first we're going to say goodbye to a few features - umm, bears, yeah I mean bears""; I clicked the button on the remote and the video I had of two trained grizzlies waving goodbye started to play. Another slide was about caching (a performance optimization technique) and I named it ""CACHE MONEY, BABY"" and put a picture of a kitten rolling in dollar bills down there. Just funny shit like that.
+
+Hope this helps in your next speech. Good job on what you've done - it can only get easier and (hopefully) more fun from here!"
+DaysGone,ff6lp0a,t1_ff6lkbw,1579629865.0,Hopefully not the end of Fallen Order - that was sucktastic! Allllllllll that for something you're just gonna slice in half.
+Nootropics,ff6lef4,t1_ff6hr79,1579629686.0,Could this be used as a sedative? I've got awful insomnia.
+DaysGone,ff6l4b9,t1_ff6h4u8,1579629516.0,"I've never heard of this guy, but if he's as good as you say I'm optimistic. What other work of his might I recognize?"
+PS5,ff6an2q,t3_erqaj3,1579623014.0,This is gorgeous. Nice work!
+PS5,ff6am9s,t1_ff5f0y9,1579623000.0,"The answer to this is to build a cache of what needs to be there, then load that cache from memory when needed. You could also have a background thread listening for filesystem changes and rebuild the cache when it detects a change to installed games."
+greedfall,ff2d61x,t1_fexvy08,1579501377.0,I'll give it another whirl when I'm back in San Matheus. Thanks.
+BSG,fewtgqg,t1_fewokho,1579419238.0,"> but having no idea how they were going to make it happen within the story
+
+PERFECT. I often have this hurdle myself, finding a great exigence or a major plot point, but being unsure how to connect it with the rest of the story. Thanks!"
+BSG,fewmc4t,t3_eqqzcf,1579414512.0,"> The amazing way they wrote Rosslands death, showing Adamas complete and utter love for her.
+
+I'm man enough to admit this made me shed a single, solitary tear."
+greedfall,fepn2jr,t1_fepkgr1,1579324897.0,"I didn't even know you _could_ romance characters in this game, I'm that new to it. So I'm not sure about that being the answer but I appreciate the attempt at an explanation."
+greedfall,fepfbew,t1_fepducn,1579319075.0,"Ahh, so that's it. Thank you for the explanation. The game really screwed the pooch on that."

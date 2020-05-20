@@ -1,0 +1,188 @@
+iiiiiiitttttttttttt,fqm3zgq,t1_fqm2r8p,1589471109.0,"The process of disabling Fast Boot requires most users to google the solution. It's an option hidden in the Windows UEFI loader. It's not that it's a bad feature, though it wouldn't be necessary if Windows could actually boot quicky, it's that the solutions for turning it off or getting around it are not easily visible when there is a problem that requires it to be off.
+
+These kind of solutions are mind boggling to me as a daily Linux and Mac user because most Windows users will go ""that's a lot of work"" because I have a terminal open, but won't bat an eye about having to go through some convoluted process to disable fastboot, or modify registry files to *disable*  telemetry or tracking services to *speed up* their PC.
+
+*""Windows where everything is a vague Microsoft Support Thread and Hours of trial and error away from a solution that will be reset the next update, if the update doesn't fully brick your install first.""* - The users that mocked Mac users in the Mid 2000's for literally the same thing."
+iiiiiiitttttttttttt,fqlvhv1,t1_fqlv91r,1589466833.0,Yes I'm aware. It's part of Microsoft's illusion a fast boot times. They also log your user in before you actually log in.
+iiiiiiitttttttttttt,fqlm9tk,t1_fql62h5,1589461568.0,Yeah I have to use Windows for work but I'm able to run it in the VM very easily and the performance is pretty minimal on my brand new ryzen processor
+iiiiiiitttttttttttt,fqkntbg,t1_fqknjko,1589431562.0,It's like saying getting pissed on is better than being shit on.
+iiiiiiitttttttttttt,fqkj7df,t1_fqk87wb,1589428503.0,God I hate Windows 10
+voidlinux,fqiusdy,t3_gj025r,1589401171.0,"I personally would just not bother with `urxvt`. I don't really understand why everyone likes it so much. It doesn't handle escapes properly and is super slow.
+
+Run this in urxvt
+```
+awk 'BEGIN{
+    s=""/\\/\\/\\/\\/\\""; s=s s s s s s s s;
+    for (colnum = 0; colnum<77; colnum++) {
+        r = 255-(colnum*255/76);
+        g = (colnum*510/76);
+        b = (colnum*255/76);
+        if (g>255) g = 510-g;
+            printf ""\033[48;2;%d;%d;%dm"", r,g,b;
+            printf ""\033[38;2;%d;%d;%dm"", 255-r,255-g,255-b;
+            printf ""%s\033[0m"", substr(s,colnum+1,1);
+        }
+        printf ""\n"";
+    }'
+```"
+conspiracy,fqf0tt1,t3_gicsr3,1589316823.0,"President with almost no horrible public scandals, was not put on blast by the media WAAAAAAAAAH!
+
+  
+WHATABOUTOBAMA?!"
+yiffinhell,fqcqwgk,t1_fqbo3xj,1589266010.0,"Yeah. I hate the guy's voice but the way he presented it was more in lm line with what you're saying.
+
+The furry community has shielded pedophiles so often though, it's hard to rationalize any of their statements or opinions on the topic."
+Bitcoin,fqcqhu6,t1_fqcq2nz,1589265644.0,"I mean that's the concept and it is still rewarding people but the investment costs for hardware and electricity continue to rise. 
+
+Back in say 2006 you could mine on a single graphics card or even your CPU. 
+
+Now the monetary investment in hardware is much higher. That doesn't mean that you won't see a reward for your monetary investment but you have to be realistic about the electricity costs as well. this kind of rapid mining mentality is also incredibly bad for the environment because of how electricity is generated. 
+
+the people that are really mining large blocks understand this already and have been doing so for quite a long time. They are either large groups or companies dedicating large sums of money to mining hardware or individuals that I've been doing this for a long period of time who have reinvested their money."
+Bitcoin,fqcpnrn,t1_fqcjf1e,1589264909.0,"If you're purchasing, yes. 
+
+If you're mining, no it's not worth the effort on consumer hardware and hasn't been for four years. Essentially you're getting half the reward. A 20 grand investment in hardware MIGHT HAVE paid for itself and electricity in a year, now you'd have to spend 40 to see a turnaround.
+
+This is a good thing however, as it stops inflation because it's slowing the rate coins are introduced to the market. It guarantees that Bitcoin will remain a mostly sound investment and a decent currency for making transactions. In fact it should stabilize the value and make it a more sound investment for just making general transactions. The get rich phase of Bitcoin might be over though.
+
+In terms of a currency for carrying out transactions though litecoin it's quite a bit better and more secure."
+voidlinux,fq8ujnu,t3_ghcqem,1589175928.0,"You should not have any issues. I even had the finger print reader working on mine, just took a little googling."
+voidlinux,fptdm5e,t3_gfe4b8,1588889320.0,rpi 3 support is great. I believe there's still work being done on the pi 4 images.
+conspiracy,fpsn2sx,t1_fpsmd5f,1588876257.0,Yeah that's a pretty fair assessment actually.
+conspiracy,fprt8oa,t1_fprrckl,1588861591.0,"It's because conspiracy theorists are generally not well educated and just believe in contrary ideas because it makes them feel more intelligent. 
+
+There are legitimate global conspiracies that get exposed on the internet every day but because of the complexity of them most conspiracy communities tend to ignore them because it's not so blatant and easy-to-follow."
+conspiracy,fprsypa,t1_fprgpl9,1588861435.0,Yeah was gonna say. Talk about a quick way to karma farm.
+conspiracy,fprsvdx,t1_fprpxza,1588861384.0,That doesn't change the fact that the image is from a completely different event.
+voidlinux,fpnw93a,t1_fpntqrc,1588773857.0,I'll try building in a little bit then
+voidlinux,fpnthlt,t1_fpntb20,1588772260.0,I'll be done with work in a few hours. Is rtorrent in void-packages already? If not can you host your template?
+voidlinux,fpnt7l0,t3_gei56d,1588772087.0,Are you on musl or glibc?
+voidlinux,fpdahlz,t3_gcfeio,1588523141.0,"https://flathub.org/apps/details/com.microsoft.Teams 
+
+Don't reallyv recommend using dpkg to install/extract things in Void."
+voidlinux,fpa6w11,t3_gc6b3w,1588442022.0,I think the package needs to be reworked now that the project is GPL so we're not pulling a .deb file and extracting it. I'll take a look at it today.
+voidlinux,fp8xvme,t3_gc2pzr,1588406854.0,If you take a look at the run file you can see how to change which user it runs as and how to source the right config. There's also a page in the handbook about user services with runit
+unixporn,fp4v9ea,t3_gaz6s9,1588308288.0,"I'm glad you got this working, sorry my Tiger Image didn't work dude."
+PublicFreakout,foyixli,t3_ga8fvm,1588173358.0,ACAB never forget this.
+voidlinux,fol22zq,t1_fojg58o,1587853363.0,Oh no i meant the tray icons in my status bar. I never had issues with rofi or dmenu with flatpak  actually.
+voidlinux,fokyy54,t3_g6yaw7,1587851617.0,"I own a lot of games on GOG. GOG's installers are absolutely awful. I had a lot of issues that required modifying the game start scripts to fix them. My solution later on was to use the `steam-run` nix package on my GOG games which fixed a lot of the issues I had. Feral Interactive Ports also had some issues on steam, but now that steam has the container support that's not as much of a problem. I personally won't be buying any more Linux games on GOG, they've failed to support the platform or listen to advice about their installers. The Situation with GOG Linux games is **almost** as insane as the old Loki Games ports in terms of whether or not you game is going to work without jumping through hoops on any *unsupported* distros.
+
+Games I had issues with off the top of my head: 
+
+Hyper Light Drifter 
+
+Shadowrun Returns 
+
+The Witcher 2"
+linux,foig7du,t1_fohn1m8,1587785899.0,XBPS also supports a wide array of different Architectures. Pacman to my knowledge only sports x86_64 and arm
+voidlinux,fohlb4z,t3_g7e9yj,1587767858.0,The only issues I've had with flatpak have been issues i had without on Alpine as well. Namely tray icons which i decided i just don't need anyway.
+todayilearned,fo6z0ow,t1_fo6ulfn,1587569334.0,Imagine being more boring live performers than Megadeth.
+worldnews,fo5idud,t1_fo5hffu,1587526383.0,Shit some even have swimming pools.
+voidlinux,fo4ziiq,t1_fo3oaz9,1587514322.0,`xtools` is mostly a set of tools to help when packaging stuff  in `xbps-src`. It's got a bunch of useful tools. If you're looking for the command similar to `pacman -Ss` it'd be `xbps-query -Rs` I think. It's been awhile since I've used Arch.
+EliteDangerous,fo4iqvw,t1_fo3yo41,1587505159.0,They aren't griefing they're clearly warning people to leave
+voidlinux,fo3n2gc,t1_fo2p9aa,1587489648.0,"Another user gave me these a few years ago
+
+    
+```    alias protonvpn=""sudo protonvpn"" # quick vpn connections""
+    
+    alias vup=""sudo xbps-install -Su""	# synchronize
+    
+    alias vps=""sudo xbps-query -Rs"" # search
+    
+    alias vpi=""sudo xbps-install -S"" # install a single package or list of packages
+    
+    alias vpr=""sudo xbps-remove"" # remove a single package
+    
+    alias vpra=""sudo xbps-remove -R"" # remove a single package and all of its dependencies that are not required by other packages:
+    
+    alias vphan=""sudo xbps-remove -o"" # Remove dependencies that are no longer needed
+    
+    alias vpc=""sudo xbps-remove -O"" # Clean up all local caches```
+    
+    &#x200B;
+    
+    I don't recommend aliasing `xi` it's a tool in `xtools`"
+linuxmemes,fo1ummx,t3_g4kktm,1587441872.0,I miss Stan.
+worldnews,fo1tiw0,t1_fo1frnb,1587441166.0,Pretty common in Ballwin and Manchester actually. Daily occurrence out here in Meth Co.
+books,fny8x5n,t1_fny8mx4,1587356352.0,Walking Dude deserved better
+Coronavirus,fny4h2a,t1_fny4c6g,1587353187.0,"Same with rural Missouri. But it being common in the Pacific Northwest is more ""normal"" than you'd originally think."
+books,fnxyw0f,t1_fnxxxx8,1587349394.0,Mordred and Walter especially.
+Coronavirus,fnxfe7i,t1_fnx3hn9,1587337496.0,That's because a lot of Confederates that still had money migrated to the Pacific Northwest after the war.
+Coronavirus,fnxf7rs,t1_fnxeyy1,1587337393.0,Slavery never ended it just got a more acceptable title.
+AdelieLinux,fnxcihh,t3_fpyxxc,1587335870.0,You'll have issues with the GPU on most modern Linux distros
+PowerPC,fnxa13e,t3_g4cre9,1587334447.0,I'm having a serious issue with Modelines on void
+TwoXChromosomes,fnx6psw,t1_fnwdr0t,1587332561.0,"Yeah your room mate sounds like a douche, don't misdirect your anger at this girl. He's putting your entire home at risk to get laid. Bringing a stranger into your house and not introducing them to you is pretty shitty."
+voidlinux,fnx05yt,t3_g4elf3,1587328892.0,Oh this bug is back. You'll likely need to manually recreate your user.
+voidlinux,fnx00rj,t3_g4bfip,1587328811.0,Check your system time. Type `date` in tty
+PublicFreakout,fnwe43r,t1_fnwe1q6,1587316636.0,I got bamboozled then. :'(
+PublicFreakout,fnwdpwj,t1_fnwdfsr,1587316421.0,"It was a 24 pack to be clear. I'm pretty sure he saw three Americans and knew he could get a bribe. He was right, lol."
+thatHappened,fnwddz3,t1_fnurfex,1587316241.0,And happens a lot. Usually by social security and  fake tech support scams.
+iamverybadass,fnwar23,t3_g3s854,1587314787.0,Holy shit Billabong still exists?
+PublicFreakout,fnw9mmn,t1_fnw7cws,1587314170.0,Can confirm got out of a traffic stop in Mexico by giving the officer my beer and 25 dollars.
+voidlinux,fnw8hbc,t3_g45b28,1587313531.0,Can you give me the exact device name from lsusb?
+voidlinux,fnsrx7d,t1_fnsd1kd,1587227642.0,"I'd be willing to throw money into getting you one after all the Covid-19 stuff dies down and i return to my normal income, might be a few months though. I think i had offered before, up to you."
+voidlinux,fnrigt5,t3_g3ai66,1587189964.0,Firefox
+Calyx,fnk9poe,t3_g1ru6n,1587019344.0,It's very unlikely. Calyx just changed up their membership plans and the Clearwater deal with mobile citizen is supposed to be good until 2036 or 2032 I forget.
+UnsolvedMysteries,fnk8xg7,t3_g21p12,1587018625.0,"The guy saying sorry over and over makes me think it might be a domestic thing. Lived in a place about 8 years ago where the dude across the street had a girlfriend that would freak out like this and he'd legit lock himself in their house or his car because she tried to make it sound like he was beating her. He got to the point where he'd lock himself in his truck l, call the cops and then like stay up all night so he could apologize to people in the morning when they left for work."
+linuxhardware,fni8veh,t1_fngw2vu,1586975950.0,Nice
+linuxhardware,fng7v9c,t1_fng3zmo,1586924493.0,"Think you didn't catch the joke.
+
+Maybe I'm just not funny."
+linuxhardware,fnfpvz4,t1_fnf4308,1586912988.0,Look at this dude who doesn't inhale.
+pcgamingtechsupport,fnfmjql,t1_fnf2ib6,1586911033.0,Bro he said he has no display.
+voidlinux,fnesu3x,t3_g19aho,1586895239.0,I would just lock the kernel down until the next update.
+EliteDangerous,fn91qud,t1_fn8ujop,1586756583.0,They made a sandbox for us to do nothing meaningful in
+EliteDangerous,fn649jz,t1_fn63yff,1586686827.0,"Yeah I'm pretty sure the idea is it's dumping the heat out after it's ""transferred"""
+EliteDangerous,fn63hpd,t1_fn636rr,1586685958.0,"I mean it's not impossible, definitely impractical. It's one of the biggest problems with designing and engineering long range probes. Space is not a perfect vacuum"
+EliteDangerous,fn63dc1,t1_fn6363e,1586685818.0,To be clear it's not giving off visible light. We can use sensors to detect lots of things that we can't see. Space is not a perfect vacuum either.
+EliteDangerous,fn61ybe,t1_fn61rq1,1586684251.0,"What no that's not how heat signatures work. If you're cooking the inside of the ship you're still lit. up like a candle. There's no reason for silent running to work other than as a gameplay mechanic, and that's fine it's an interesting mechanic"
+EliteDangerous,fn611wt,t1_fn5sh2n,1586683259.0,Too bad it doesn't make any sense that closing up reduces your heat signature. It's a cool gameplay mechanic but getting rid of heat is a big problem in space
+linux,fn5vuqb,t1_fn5sk7l,1586677703.0,This was my first Linux release.
+linux,fn5vsq5,t1_fn5ughu,1586677646.0,Same. 90's 56K modems were a nightmare. I was so happy when we finally had broadband.
+insaneparents,fn2g141,t3_fyth6h,1586587703.0,"She missed ""bootlicking class traitor"" but A for effort."
+EliteDangerous,fn2dzpu,t1_fn273e4,1586585730.0,"Too bad it's been broken for five years. Instancing is currently worse than it was when Wings originally launched. 
+
+Wings was the first Chapter update, just to verify, it still doesn't work right. Let that sink in, Horizons was pointless there's nothing to do on planets, multicrew is broken still, engineering ruined casual PvP."
+Keratoconus,fmywyhg,t1_fmy3wtb,1586498356.0,"There were a few incredibly rude commenters here replying to anyone asking for advice about work and transportation troubles. I got pretty heated with them a few times, haven't seen them posting in awhile."
+Morrowind,fmuxktw,t1_fmtv9sr,1586401149.0,OpenMW would be the way to go for VR support
+pcgamingtechsupport,fmu4apq,t3_fxck6k,1586384315.0,"Make sure your drivers are up to date, monitor the GPU temperature"
+retrobattlestations,fmlvp88,t1_fm7dkxj,1586194088.0,"After all this virus stuff is said and done, let's talk. I actually have an Apple VGA. I'm actually sick and obviously won't be shipping anything to anyone for several months."
+Coronavirus,fmjynpv,t3_fve5hy,1586140434.0,Out here in Jefferson and Franklin county they implemented those rules on Friday and put up plexiglass at all the Dollar generals and local grocery stores
+voidlinux,fmabxy7,t3_fu1k9t,1585889323.0,Most Distros do not have an Official Discord. The is at least one unofficial server on discord
+retrobattlestations,fm749bh,t3_fszlxt,1585812686.0,Willing to sell that monitor?
+pcgamingtechsupport,fm2e0q9,t1_fm0zfwf,1585695601.0,Can you include your solution or a link to your solution please? so if someone else has this question in the future.
+voidlinux,fm192sr,t1_fln1n1x,1585674193.0,"fahviewer is working fine for me, that's odd."
+voidlinux,flz99go,t1_flz957s,1585618362.0,Oh I would look at AMDs install instructions personally.
+voidlinux,flz8vf8,t1_flz6jko,1585618114.0,That's essentially what I posted. I want to package everything properly and not just copy the AUR PKGBUILD though
+voidlinux,fly9m2f,t1_fly1omv,1585598069.0,"Can do, I have no ETA on when I'll be able to do this so if someone else has time I'm certainly not territorial about the work.
+
+Thanks again for all your hard work."
+voidlinux,fly1ki5,t3_fro95l,1585593848.0,Thank you I'll start working on ARM if no one else gets to it
+voidlinux,flxwp7e,t1_fln6als,1585591255.0,"I haven't had time to package this yet, however you can do this and follow the user services instructions in the Handbook to setup a user **AND** user service for this.
+
+    tar -xvf fahclient_7.5.1-64bit-release.tar.bz2
+    cd fahclient_7.5.1-64bit-release
+    ./FAHClient --configure
+    ./FAHClient```"
+voidlinux,flmxso7,t3_fphxxq,1585301187.0,I'll work on packaging it this weekend
+Calyx,fljlo4y,t3_fp4inb,1585217943.0,"Device finally gave out, bad timing."
+Morrowind,fljez58,t1_flenlbx,1585209678.0,Every time I start up the game and play for a few hours I find or see something I've never seen and I've beaten the main quest lines multiple times. I still have not collected every Artifact
+StLouis,fljecqm,t3_fozjmx,1585208926.0,Me right now
+conspiracy,fljd8pl,t1_flcymsi,1585207619.0,"The solution is to stay fucking home and demand the government sets party politics aside and take care of the American people, not the economy, not corporations, the people, and all of them. Trump wants to be reelected, this is his chance."
+conspiracy,flc3q18,t1_fl9ndyj,1585019121.0,"Yeah, this shit is outright embarrassing. People are gonna start running low on food soon and half the country isn't working right now."
+conspiracy,fl93d5s,t1_fl7dfw3,1584939696.0,"At no point did I say they were doing WORSE than US. But the number of Infected people in China is still enormous. Having Free Healthcare isn't an indication they're doing okay, it just means their citizens don't have to worry about being in crippling debt for the rest of their lives."
+Morrowind,fl6zhwi,t1_fkqaiai,1584889142.0,To verify a Mace in real life is usually like 26-32 inches in length. When you're super close to someone a super long weapon becomes very clumsy. Even most Swords are fairly short. Sorry came back to this comment.
+conspiracy,fl6x365,t1_fl6wjnk,1584886353.0,"It depends on how responsible they are in the next few months. It could spike again and quickly. As of reports right now they're experiencing less confirmed infections per day.
+
+That's not to say the situation isn't bad or accounting for people that might be asymptomatic and carrying the infection. This is why access to reliable tests is a necessity for literally everyone in effected countries"
+conspiracy,fl6tlu0,t3_fmqnr6,1584882971.0,The conspiracy community is generally full of contrarian assclowns.
+conspiracy,fl6tgs7,t1_fl6rwg8,1584882845.0,"China peaked on infection rate, there's still tons of infected people. Tons of them are going to die. There will still be more people getting infected. There's tons if social unrest because government censorship downplayed the issue and it got out if hand because of it. 
+
+China is not doing okay at all."
+Morrowind,fl6hoiz,t1_fl6hb14,1584869352.0,"You can already make Morrowind look better than Skyrim. Their idea of new textures last I checked was upscaling and running things through crazy bump. (This was like three years ago though) 
+
+Voiced NPCs is part of what ruined Oblivion and Skyrim for me honestly. The voice work was so bad."
+Morrowind,fl6gxss,t1_fl6fw68,1584868368.0,Skyrim's graphics looked out of date when it released a decade ago. That team has their work cut out for them.
+movies,fl0bdm8,t1_fkztx8h,1584699961.0,"My Grandmother is a huge Mark Hamill fan, she took me and my cousin to see this the weekend this came out. I recently took her to see Castle in the Sky after the disappointment if The Last Jedi."
+Spawn,fkwrfd6,t1_fknm2k7,1584602628.0,"There are two Graphic Novels by Ashtley Wood at the very least. I own both of them. One is the ""ending"" of Curse of the Spawn."
+Spawn,fkwqzcx,t3_fkl9na,1584602106.0,Keith David did voice work for a new animated series back in 2006. An animated teaser was made. I'm still so confused about what happened with that project which would lonely have been a lot better than the new movie we're supposedly getting.

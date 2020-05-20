@@ -1,0 +1,172 @@
+AskReddit,fq4chl4,t3_ggjcz2,1589076024.0,"Steve1989MreInfo 
+
+I don’t know why I’m so intrigued by this man, but I am, and you will be too."
+wallstreetbets,fktu5r5,t1_fktu1lx,1584534671.0,I know that’s why I added a sentence in the middle about how OP is a fucking fag
+wallstreetbets,fktrzdo,t3_fkoabb,1584532677.0,"TLDR:
+
+
+Trying to predict what will happen to the price of a single option or a position involving multiple options as the market changes can be a difficult undertaking. Because the option price does not always appear to move in conjunction with the price of the underlying asset, it is important to understand what factors contribute to the movement in the price of an option and the effect they have.
+
+Options traders often refer to the delta, gamma, vega, and theta of their option positions. Collectively, these terms are known as the Greeks, and they provide a way to measure the sensitivity of an option's price to quantifiable factors. These terms may seem confusing and intimidating to new option traders, but broken down, the Greeks refer to simple concepts that can help you better understand the risk and potential reward of an option position.
+
+
+
+ 
+1:32
+Using the Greeks to Understand Options
+Finding Values for the Greeks
+First, you should understand the numbers given for each of the Greeks are strictly theoretical. That means the values are projected based on mathematical models. Most of the information you need to trade options—like the bid, ask and last prices, volume, and open interest—is factual data received from the various options exchanges and distributed by your data service and/or brokerage firm.
+
+
+KEY TAKEAWAYS
+Delta, gamma, vega, and theta are known as the Greeks, and they provide a way to measure the sensitivity of an option's price to quantifiable factors.
+Delta measures the sensitivity of an option's theoretical value to a change in the price of the underlying asset.
+The Greeks let you see how sensitive the position is to changes in the stock price, volatility and time.
+The Greeks need to be calculated, and their accuracy is only as good as the model used to compute them. To get them, you will need access to a computerized solution that calculates them for you. Most of the retail brokerages (interactive brokers) also provide this information. Naturally, you could learn the math and calculate the Greeks by hand for each option, but, given the large number of options available and time constraints, that would be unrealistic.
+
+
+Below is a matrix that shows numerous option strikes from March, April, and May 2018, for a stock that is currently trading at $60. It is formatted to show the mid-market price, delta, gamma, theta, and vega for each option. As we discuss what each of the Greeks mean, you can refer to this illustration to help you understand the concepts.
+
+
+The left section shows the call options, while the right section shows the put options. Notice that the strike prices are listed vertically in blue in the middle. The out-of-the-money options are those with strike prices above 60 for the calls and with strike prices below 60 for the puts. The in-the-money options have strike prices of 60 and below for the calls and 60 and above for the puts (the column is highlighted in blue). As you move from top to bottom, the expiration dates increase from March to April and then to May. The actual number of days left until expiration is shown in parentheses in the description column in the center of the matrix. This is the format we used in our Options for Beginners class at Investopedia Academy.
+
+The delta, gamma, theta, and vega figures shown above are normalized for dollars. To normalize the Greeks for dollars, you simply multiply them by the contract multiplier of the option. The contract multiplier would be 100 (shares) for most stock options. How the various Greeks move as conditions change depends on how far the strike price is from the actual price of the stock, and how much time is left until expiration.
+
+
+As the Underlying Stock Price Changes—Delta and Gamma
+Delta measures the sensitivity of an option's theoretical value to a change in the price of the underlying asset. It is normally represented as a number between minus one and one, and it indicates how much the value of an option should change when the price of the underlying stock rises by one dollar. As an alternative convention, the delta can also be shown as a value between -100 and +100 to show the total dollar sensitivity on the value 1 option, which comprises 100 shares of the underlying. The normalized deltas above show the actual dollar amount you will gain or lose. For example, if you owned the December 60 put with a delta of -45.2, you should lose $45.20 if the stock price goes up by one dollar.
+
+Call options have positive deltas and put options have negative deltas. At-the-money options generally have deltas around 50. Deep-in-the-money options might have a delta of 80 or higher, while out-of-the-money options have deltas as small as 20 or less. As the stock price moves, delta will change as the option becomes further in- or out-of-the-money. When a stock option gets very deep in the money (delta near 100), it will begin to trade like the stock, moving almost dollar-for-dollar with the stock price. Meanwhile, far-out-of-the-money options won't move much in absolute dollar terms. Delta is also a very important number to consider when constructing combination positions.
+
+
+
+Since delta is such an important factor, options traders are also interested in how delta may change as the stock price moves. Gamma measures the rate of change in the delta for each one-point increase in the underlying asset. It is a valuable tool in helping you forecast changes in the delta of an option or an overall position. Gamma will be larger for at-the-money options and goes progressively lower for both in- and out-of-the-money options. Unlike delta, gamma is always positive for both calls and puts.
+
+Changes in Volatility and the Passage of Time—Theta and Vega
+Theta is a measure of the time decay of an option, the dollar amount an option will lose each day due to the passage of time. For at-the-money options, theta increases as an option approaches the expiration date. For in- and out-of-the-money options, theta decreases as an option approaches expiration.
+
+Theta is one of the most important concepts for a beginning options trader to understand because it explains the effect of time on the premium of the options purchased or sold. The further out in time you go, the smaller the time decay will be for an option. If you want to own an option, it is advantageous to purchase longer-term contracts. If you want a strategy that profits from time decay, you will want to short the shorter-term options, so the loss in value due to time happens quickly.
+
+The final Greek we will look at is vega. Many people confuse vega and volatility. Volatility measures fluctuations in the underlying asset. Vega measures the sensitivity of the price of an option to changes in volatility. A change in volatility will affect both calls and puts the same way. An increase in volatility will increase the prices of all the options on an asset, and a decrease in volatility causes all the options to decrease in value.
+
+
+However, each individual option has its own vega and will react to volatility changes a bit differently. The impact of volatility changes is greater for at-the-money options than it is for the in- or out-of-the-money options. While vega affects calls and puts similarly, it does seem to affect calls more than puts. Perhaps because of the anticipation of market growth over time, this effect is more pronounced for longer-term options like LEAPS.
+
+Using the Greeks to Understand Combination Trades
+In addition to using the Greeks on individual options, you can also use them for positions that combine multiple options. This can help you quantify the various risks of every trade you consider, no matter how complex. Since option positions have a variety of risk exposures, and these risks vary dramatically over time and with market movements, it is important to have an easy way to understand them.
+
+Below is a risk graph that shows the probable profit/loss of a vertical call debit spread that combines 10 long May 60 calls with 10 short May 65 calls. The horizontal axis shows ascending prices of XYZ Corp stock left to right, while the vertical axis shows the profit/loss of the position. The stock is currently trading at $60.22.
+
+
+The dotted line shows the spread position PNL through May alongside the solid line showing the PNL for today. Obviously, this is a bullish position (in fact, it is often referred to as a bull call spread) and would be placed only if you expect the stock to go up in price.
+
+The Greeks let you see how sensitive the position is to changes in the stock price, volatility and time. The scenarios section has a 10% move in the underlying stock. The table above shows what the predicted profit/loss, delta, gamma, theta, and vega for the position will be on May 16, 2018. It can seem complicated, but if you’d like to learn simple ways to think about the Greeks, you can take Investopedia's Options for Beginners course, which makes an effort to break down these concepts into easily digestible concepts.
+
+The Bottom Line
+The Greeks help to provide important measurements of an option position's risks and potential rewards. Once you have a clear understanding of the basics, you can begin to apply this to your current strategies. It is not enough to just know the total capital at risk in an options position. To understand the probability of a trade making money, it is essential to be able to determine a variety of risk-exposure measurements.
+
+Since conditions are constantly changing, the Greeks provide traders with a means of determining how sensitive a specific trade is to price fluctuations, volatility fluctuations, and the passage of time. Combining an understanding of the Greeks with the powerful insights the risk graphs provide can take your options trading to another level."
+morbidlybeautiful,facxvjb,t1_fabdt9h,1575949710.0,I’ve felt this and it seems like you might have too. Hope you’re doing okay friend.
+mildlyinfuriating,f8hsxkw,t1_f8hsohi,1574579678.0,"Oh, usually I just vacuum the edges of the frame where part of it fits underneath. I think my bedrame is too heavy for me to lift."
+mildlyinfuriating,f8hs015,t1_f8hrs2j,1574579267.0,How does it fit
+mildlyinfuriating,f8hqjdq,t1_f8h766n,1574578620.0,but how
+Rarethreats,f7e6ce7,t3_dv9awp,1573648282.0,"Is he saying it’s quoting Tom Hanks because it says
+“T hanks” 
+
+or is it actually a Tom Hanks quote"
+Astros,f6pty4n,t3_dshawg,1573064203.0,LFGLMJ I’ve been waiting for him to come back I missed him this year.
+Astros,f6nok5m,t3_dqdptl,1572996207.0,Who fills his spot? He’s a 4 star outfielder and a ~.230 avg. 9 hitter.
+Astros,f5vgjsb,t3_dp6eie,1572488840.0,Soto is a piece a’ shit
+Astros,f5ry4mt,t3_dopga6,1572405884.0,Joe buck is the king of stupid fucking stats
+Astros,f5ruq57,t3_dopga6,1572403496.0,Can someone explain objectively if that was the right call? I don’t understand what Joe Buck was saying
+Astros,f5rrmop,t3_dopga6,1572401299.0,"3 fucking balls, 1-2 count, no swings"
+Astros,f5rpyj0,t3_dopga6,1572400181.0,fuck
+Astros,f5rph3z,t3_dopga6,1572399848.0,If Correa hits one here Buzz aldrin is gonna have to go get it again
+Astros,f5rpd3g,t1_f5rp99n,1572399772.0,Yordan Batting .500 feels nice
+Astros,f5royaq,t3_dopga6,1572399491.0,"4th inning, Gurriel, October 29th. Sound familiar?"
+Astros,f5roctn,t3_dopga6,1572399083.0,Pooped a little bit there
+Astros,f5rmscx,t3_dopga6,1572398017.0,Springer just let go of the bat with his right hand so that he didn’t go around. I’m not mad at it
+Astros,f5rlimu,t1_f5rlgs1,1572397168.0,"I remember Qualls and Lidge, but I was 6 for most of the season so it’s all a bit hazy"
+Astros,f5rl904,t1_f5rl0r4,1572396985.0,"There’s definitely an argument to be made. Both teams had incredible rotations. I can’t remember how our bullpen was in ‘05, I think it would come down to that.
+
+Edit: also just realized you said starting pitching, so nvm"
+Astros,f5rl12u,t1_f5rkzwe,1572396838.0,Ayyyyooooooo
+Astros,f5rkznk,t1_f5rkxp4,1572396811.0,"It’s okay, there’s no shame in it"
+Astros,f5rkxcd,t1_f5rkwo0,1572396769.0,That’s probably the plan
+Astros,f5rkr2w,t1_f5rkqdv,1572396652.0,Squeeze play
+Astros,f5rkpe0,t3_dopga6,1572396621.0,I have to poop but I don’t want to miss anything.
+Astros,f5rkemk,t1_f5rkbe1,1572396420.0,"Gurriel holds the record no doubt. The guy crushes literally everything.
+
+Edit: the personal record, at least"
+Astros,f5rkac0,t1_f5rk8ik,1572396340.0,No steak is as good as one cooked in distress
+Astros,f5rk1j1,t3_dopga6,1572396173.0,Anyone else Stress cleaning between innings?
+Astros,f5ji6si,t1_f5ji373,1572229254.0,I think that’s a binding contract
+Astros,f5ji1gh,t3_dnsw28,1572229132.0,HRC Cole
+onejob,f5ayfhu,t3_dn3qnx,1572115339.0,Hey this is a dumb question I know a lot of houses probably have this but is this in Houston
+Astros,f4trali,t1_f4tr71m,1571792827.0,Yeah he went to Lamar
+Astros,f4tpw9d,t3_dlhldi,1571792299.0,Our guys REALLY hate that bottom right corner
+Astros,f4tkxe5,t1_f4tkfpb,1571789904.0,Happy to have you here :)
+Astros,f4tkmrz,t1_f4tkjto,1571789754.0,I wasn’t able to for the first two games but if they get to game 6 or 7 I’ll be there
+Astros,f4tkexb,t1_f4tkbrt,1571789652.0,Dude I live in SoCal and I cant stress enough how badly I want whataburger
+Astros,f4tk9on,t3_dlhldi,1571789588.0,What do I eat tonight while watching the game?
+Astros,f4oebmc,t1_f4odwsh,1571700260.0,Thank you brotha man
+Astros,f4nu0cg,t1_f4nt2ny,1571693156.0,I am! Thank you!
+Astros,f4nsp4n,t1_f4m18hk,1571692737.0,Thank you bro 👍🏻
+Astros,f4nsmxr,t1_f4npksm,1571692716.0,"I haven’t seen it yet, how did I do?"
+Astros,f4nppou,t1_f4npksm,1571691865.0,Hey awesome!
+Astros,f4kj9re,t1_f4kj7dv,1571652392.0,Lol well I’m glad I’ve exposed the silver lining. Go Astros! Only 4 more wins!
+Astros,f4kfe7v,t1_f4kfcxr,1571649531.0,No fucking way dude why are you on this sub
+Astros,f4kdbs9,t1_f4k73px,1571647004.0,Lmfao thank you
+Astros,f4k24dy,t1_f4k1rl3,1571632646.0,Thank you friend!
+Astros,f4k0nn7,t1_f4k0jwe,1571631252.0,"Hitting my head on stuff is one of the downfalls if being tall. Like many things, the ups and downs are equally weighed."
+Astros,f4k021n,t1_f4jtfqs,1571630689.0,"Oh Jesus, that’s the worst. It crazy how when we get excited we forget that pain exists and that we can actually hurt ourselves."
+Astros,f4jzzx2,t1_f4jguj0,1571630634.0,Thank you! I really appreciate it!
+Astros,f4jzggz,t1_f4jz953,1571630150.0,You gotta do what you gotta do. If we win the Stros should hire me on as a personal blood sacrifice.
+Astros,f4jzal4,t1_f4jytli,1571630003.0,I can kind of remember what happened. I remember standing up with my hands in the air as soon as he hit it and then freaking out when it hit the wall and then the rest is a blur
+Astros,f4jz7hk,t1_f4jyc2w,1571629926.0,I’m glad you upgraded. I might need higher door frames
+Astros,f4jz4yh,t1_f4jy2o0,1571629865.0,Me too I don’t know if I can sustain anymore head injuries.
+Astros,f4jz32p,t1_f4jxqkh,1571629819.0,Yeah that sums it up lol
+Astros,f4jyywp,t1_f4jx034,1571629718.0,I injured myself because I’m secretly a Rockets sleeper player with a mission to destroy the Warriors from the inside.
+Astros,f4jyu9d,t1_f4jw1xs,1571629607.0,Thank you! Really rooting for the boys come Tuesday.
+Astros,f4jy7vh,t1_f4jxe46,1571629084.0,That’s crazy that you did the same thing. It’s not a great way to end the night lol but it was still outshined by the stros win
+Astros,f4jxaaz,t1_f4jx02r,1571628331.0,Wait you did the exact same thing?
+Astros,f4jx914,t1_f4jwmin,1571628303.0,TRUUUUUUUUUU!
+Astros,f4jx824,t1_f4jwcfa,1571628282.0,I somehow did this completely sober lol. Worth the injury.
+Astros,f4jx0l1,t1_f4jwp2r,1571628120.0,Agreed. Completely worth it
+Astros,f4jv7yi,t1_f4juazi,1571626915.0,"It wasn’t ideal, but It didn’t ruin the night. Yeah plus all the people here have made today a lot more fun and have helped distract me from the pain. Thank you though! Gotta represent for the ER!"
+Astros,f4jumom,t1_f4juijo,1571626606.0,Anything for the stros
+Astros,f4jtt37,t1_f4jt8dy,1571626173.0,Lmfao How could I forget about you guys? Y’all are the best!
+Astros,f4jrixw,t1_f4jr36r,1571624944.0,"Just about the highest compliment a fan can receive! Thank you! And it’s okay, my head will get better. I’m still kind of groggy but I have today and tomorrow off of work so it works out well. And my mom got the flip flops for me for my birthday, I love them!"
+Astros,f4jrb5t,t1_f4jr41z,1571624823.0,It seems like every time your dog farts we win a playoff series. We should figure out how to use that to our advantage.
+Astros,f4jpzx3,t1_f4jpm1y,1571624110.0,I was at that game! I was jumping around so much when he hit it I’m surprised I didn’t hurt myself then too
+Astros,f4jpsp2,t1_f4jpgn7,1571623996.0,I celebrate hard!
+Astros,f4jphkq,t1_f4jpff5,1571623827.0,Ikr! Not the worst thing that could come of this
+Astros,f4jpb2g,t1_f4jp6i8,1571623733.0,I emailed her and we are doing a FaceTime interview tomorrow
+Astros,f4jp61g,t1_f4jp0w1,1571623663.0,"I was in the waiting room at the ER and remember telling my roommate that I really hoped I don’t throw up on my jersey, because I can’t wash it until the WS is over."
+Astros,f4joakg,t1_f4jnx5q,1571623196.0,Lol I’ve been laughing about it now. Makes it a lot easier to deal with when you can laugh at yourself. I’m always willing to sacrifice myself for the team.
+Astros,f4jnca9,t1_f4jn70z,1571622684.0,Very worth
+Astros,f4jmn35,t1_f4jm8h6,1571622316.0,"I mean it happened about 20 hours ago. About an hour afterwards I got the worst migraine of my life, and then threw up a bunch. I’ve got ibuprofen in me and my head doesn’t hurt too bad now."
+Astros,f4jlo98,t1_f4jktxf,1571621820.0,That smile lasted about 40 more minutes until I was hit with the worst headache I’ve ever had. Started throwing up pretty bad. But then I was back to smiling afterwards.
+Astros,f4jljlg,t1_f4jkp0a,1571621750.0,"Altuve just has to be such a stud and make me hurt myself lol. They’re a dangerous team, even if you aren’t playing against them."
+Astros,f4jl01c,t1_f4jkbjo,1571621471.0,Here it is https://twitter.com/grantraun/status/1185786136410677249?s=21
+Astros,f4jkrux,t1_f4jkhyo,1571621357.0,Of course! What do I need to email to you?
+Astros,f4jknk1,t1_f4jkbjo,1571621292.0,"Give me a couple minutes to find it, but I found a video last night of the homer set to the song “Game Over” by Lil Flip. It’s a chilling edit"
+Astros,f4jkhow,t3_dkpesn,1571621207.0,Damn thanks to whatever stro bros gave me gold and silver! Here’s another picture where I have appropriate wound dressing on -> [https://imgur.com/gallery/LvSlBnF](https://imgur.com/gallery/LvSlBnF) and here’s a crappy picture of the staples in my head ->[https://imgur.com/gallery/Eklsv4A](https://imgur.com/gallery/Eklsv4A)
+Astros,f4ji905,t1_f4ji55h,1571620039.0,This definitely takes the cake for me
+Astros,f4jhwgp,t1_f4jhlbu,1571619848.0,Oh no! I hope she’s feeling better and recovers quickly. But Thank you man! I appreciate the good wishes.
+Astros,f4jho71,t1_f4jhk70,1571619730.0,It’ll be a tough series. Going to be exciting though! And yeah I’m going through as few as possible
+Astros,f4jcsfe,t1_f4jcj2n,1571617180.0,Lmfaooo no ones ever said Thompson before but i kinda see it. When I’m clean shaven my friend says Verlander and a few people have said Michael Phelps. This is a weird photo of me tho so I feel like I look like neither one this picture.
+Astros,f4jc633,t1_f4jbyj2,1571616837.0,Thanks! I should be able to get my staples out in like 7-10 days
+Astros,f4j9i5j,t1_f4j9fvq,1571615385.0,My mom gave them to me for my birthday I love them
+Astros,f4j8y3a,t1_f4j8ouh,1571615096.0,"You know firsthand what it’s like to make a sacrifice for this team, oilman. It’s not ideal, but sometimes drastic measures must be taken."
+Astros,f4j6zdt,t1_f4j6uq9,1571614067.0,Don’t worry I’ll strap myself down in all possible clinching games
+Astros,f4j5pse,t1_f4j5nep,1571613457.0,Will be watching the series in open areas only
+Astros,f4j4zk4,t1_f4iyp2c,1571613232.0,"Worth. If they need blood I volunteer as tribute. Also, you have the most insane profile I’ve ever come across. I love it."
+Astros,f4j4ovv,t1_f4j4etn,1571613083.0,"Dude I had to forget it, it was so awesome it was going to ruin all the other events that will happen in my lifetime."
+Astros,f4j3bzk,t1_f4j2jn9,1571612571.0,"Unbelievably painful, It’s nice to laugh at it though. Especially now that I know I’m gonna be alright. Would’ve been a lot worse if we lost"
+Astros,f4j087f,t1_f4j0209,1571611480.0,"Lol. I got a bit too excited, but it’s all good. Thank you!"
+Astros,f4ixp2g,t1_f4ixmpt,1571610529.0,My roommates said they are going to put foam on all the corners in the house
+Astros,f4ivne4,t1_f4ivizt,1571609809.0,"I told my mom today that if that was the only way they’d make it to the World Series I would’ve done it on purpose. Thanks man, I appreciate it."
+Astros,f4itw33,t1_f4itnif,1571609227.0,I really hope they win. I’m in a fairly great deal of pain and still all I’m doing is watching that home run over and over.
+Astros,f4itedd,t1_f4it3um,1571608984.0,Thank you friend :) honestly my whole night was a mess but I was just so happy the Astros won that it’s okay. Excited for this next series.
+Astros,f4dmu9g,t3_dk3gbo,1571544723.0,I guess HRC Springer I mean fuck it

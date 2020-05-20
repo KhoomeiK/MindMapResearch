@@ -1,0 +1,345 @@
+HTML,fr6r9ct,t1_fr6pudi,1589931646.0,I'm not disagreeing for any other reason than that I disagree with what you're saying. I'm also not thinking in terms of the op. There's no law that says we have to talk to each other strictly in the context of OPs original question.
+HTML,fr6p3ri,t1_fr6k7j6,1589930438.0,"> ""I should code this from scratch"".
+
+I disagree.  Perhaps there would have been better options than Wordpress, but you as a single coder are not going to be able to build a better and more secure wheel than the frameworks that have benefited from tens of thousands of eyes over many years, all working together to build a more secure product.
+
+Chances are better than not that you would overlook security features that you can take for granted in modern frameworks out of the box.  There's virtually no benefit to not utilizing the various Symfony components for database connections, for example, because their components are top notch.  If you were to start fresh and design something robust, secure, and elegantly coded to OOP standards, you would basically design Symfony, and so not using it would be a waste of time. 
+
+On top of that, no reasonably complex system is realistically maintainable by a single person.  Most of the major web frameworks are open source and have teams of people constantly working on new features and better security.  Those that are commercial closed source at the very least have professional teams maintaining their code bases.
+
+Additionally, the extensibility of the various frameworks and integration into modern IDEs make them incomparable to custom solutions.  PHPStorm, for example, understands Symfony scaffolding and can navigate the code base without doing more than installing a plugin.  If you built something custom, you would be forced to either forego a lot of modern IDE features, or you'd have to spend time building a plugin.
+
+Lastly, Wordpress aside, modern PHP frameworks like Symfony are incredibly elegant.  If you can make something better, you should, but I'm not sure how you would even improve in a way that Symfony (or Laravel etc.) isn't already working on.
+
+> It was much better than Shopify across the board. 
+
+Yes, Shopify is horrible.
+
+>It would have been faster
+
+Than Wordpress?  Very possible, as Wordpress is fairly old and come with bloat.  But other modern frameworks are very fast.  
+
+> and more flexible.
+
+Possibly?  But Wordpress has one of the most flexible plugin systems on the market.  You can basically hook into virtually anything you want without touching the WP core.
+
+>I was hoping to give OP a simple argument for still learning HTML and CSS
+
+Wordpress or not, if you want to build serious websites you have to know how to code.  But there is plenty of space for WP in the webdev market.  I would say WP sites account for approximately 30% of my firm's clients, and all custom, no WYSIWYG.
+
+> but ultimately one would be better off simply learning the fundamentals that run the web.
+
+This isn't an either-or.  If you want to do WP development you have to know full stack development.  If you want to do a WP blog you don't need it, but for anything more than that, WP is just serving as a base on which you build a custom coded solution."
+HTML,fr6jmwk,t3_gmovde,1589927475.0,"Wix and the like have an extremely limited feature set and are really only good for small scale sites.  If you want anything custom or complex you need to know how to program (note: program, not just HTML and CSS)."
+HTML,fr6j8y7,t1_fr550y8,1589927274.0,"Wordpress is in a completely different category than Wix and Weebly.  Unlike the other two, it's completely customizable and allows you to hook into the source rather than what the page builder exposes.  It's also extensively customizable through a robust plugin system.
+
+While it does have a page builder (multiple, actually), it's not primarily a WYSIWYG product but rather a PHP based CMS that includes a WYSIWYG that some people use and some people don't.
+
+Moreover, Wordpress is completely free and not a SASS product like the other two.  You can have it on your own domain for free as well and you can install it on whatever host you want.  It's also not primarily an e-commerce platform like the other two, but rather can be used as one if you install WooCommerce.  WooCommerce, like Wordpress, is also insanely customizable and in a totally different league than Wix and Weebly.
+
+When you build a custom Wordpress theme, you have all the same freedom of a full stack application because it is a full stack application.  That is, you build WP themes with CSS/HTML/JS/MySql/PHP just as you might if you weren't using Wordpress.  
+
+What Wordpress offers is functionality out of the box to manage and present content in a very streamline fashion without having to manually setup a DB or write  functions common to most non-static sites.  How simple or complex you want to make that is completely up to you, and that's why it can cost $2k-$100k for a business to get a Wordpress site developed. 
+
+This is not to say that it's the best solution to every problem.  Wordpress with WooCommerce is a great choice, for example, for an e-commerce site, but it's not the best solution to enterprise level applications.   For that you would be better off starting with a framework like Symfony or even something built with Java.  It's great for a marketing page that shows off your company, but it would not be great to try and build a Reddit clone on it.  Etc."
+Ultralight,fr6g1z7,t1_fr6fqj9,1589925589.0,"Yes totally.  Personally I don't have a use case where I want to see based on ""2 months ago,"" I just want to see what things look like at certain times of the year."
+Fitness,fr6b3dn,t3_gmlw5z,1589923079.0,"Subreddits tends to reinforce certain viewpoints.  The way it works is that new people go to a sub, read certain opinions, believe those opinions, and then repeat those opinions in the sub.  You join as a noob and then all of a sudden a month later you're an expert repeating things you read a month ago.
+
+So /r/fitness has a majority perspective that may or may not accurately reflect reality and may or may not accurately reflect the opinions of the outside world.
+
+/r/fitness may also be a bunch of actual experts, or maybe it's just a bunch of people who read some stuff here a month ago.
+
+Since you don't know, I'd maybe put more stock in the body builders you meet in real life."
+Ultralight,fr52kal,t1_fr51nky,1589901367.0,"> No. What's the use case for that?
+
+For the public lands thing or for the imagery thing?  
+
+For the public lands thing, it's to be able to easily browse the map for camping locations on certain types of land.  For example, right now there are fire restrictions on FS land but not on BLM land, so I would like to peruse BLM areas only.  It's still doable with the current public lands layer, it's just a bit muddled with all the other public lands, and it's not always easy to see the difference between similarly colored lands (e.g. BLM vs FWS).  This isn't a huge deal, I just figured there might already be a way to do it with the various topo builder features but that I might be missing it.
+
+For the imagery thing, the use case is being able to plan out future trips.  So let's say that it's April right now and I want to get an idea of what a particular mountain range looks like in June.  Is it still really snowed out on average and does the snow start to melt out in May? Or do I have to wait until July?
+
+With the current setup, I can look at April last year, or I can look up until November of last year, but I can't look at conditions from May to October.  Ideally I'd like to be able to select an arbitrary month going back a few years so as to attempt to get an average of the conditions."
+Ultralight,fr4zyd3,t3_gmi172,1589900023.0,"I noticed this yesterday and went to the blog looking for a post. Very cool! 
+
+Since I've got you here, I've got a question and a feature request if you have a moment.
+
+Q: is there a way to make a layer of one type of public land? Basically, the public lands layer but with e.g. only BLM land?
+
+Feature request: would love to have a little more leeway on available high res sat imagery dates. Like, being able to choose 7-11 months back rather than just 6 and then 12.
+
+Thanks for your work!"
+Ultralight,fr4zqus,t1_fr4z304,1589899916.0,"Some more than others for sure but they're not all made the same. Definitely do your research, there are plenty of durable and light bags."
+Ultralight,fr4x7l0,t1_fr4pto6,1589898586.0,"I think you'll appreciate the space and I don't think you'll feel like it's that much.
+
+Generally you can subtract 1 from whatever the tents claimed capacity is to get a realistic idea of how big the tent is. E.g. a 2p tent is cramped for 2 and not bad for 1. 
+
+As far as lighter goes, I don't know that there's much insofar as fully freestanding tents go. But if you'd be interested in a trekking pole tent (which doesn't necessarily mean you need trekking poles since most can be purchased with alternate tent poles) you could look at the Lightheart SoLong. It's a one person tent made for tall people and is legitimately spacious for one person. It could technically even fit two if you had a small girlfriend. It comes in at 2 pounds, and the poles I think are 2 oz a piece, so right around 2lbs4oz for a rather spacious tent.
+
+As far as bags go, might be worth reconsidering a lighter pack, though you can get cheaper than an HMG. 
+
+Even if you're not thru hiking, you'll definitely appreciate every pound off of your back.  It's a nice feeling to be able to go on a 4 day trip and carry less than 25 pounds."
+pics,fr2wqgd,t1_fr25vcx,1589845386.0,Great post for Facebook then. Shitty post for anonymous social media.
+Colorado,fqzrvb5,t1_fqzorcq,1589773908.0,Grass
+Ultralight,fqxd0s1,t3_glg0rn,1589730211.0,"See if Merry's makes wraparound style and save a shit load of money if they do.
+
+A couple years ago I found a pair on a hike and started buying them and never looked back"
+medicine,fqx5tiw,t1_fqur28v,1589726460.0,"My girlfriend the other day was asking me if she could use a regular axe to split wood since the splitting wedge was too dull. I explained that it is supposed to be dull and that it was probably her form and that I'd help her.
+
+Walked out to find that not only was she not wearing any eye protection, but her stance was horribly wrong such that if she missed she would have chopped into her own leg.  I corrected her stance and split a log with the splitting wedge no problem. 
+
+Thing is, I don't have a girlfriend. The girl in the story was me, and the I in the story was a guy in a wood splitting instruction video on YouTube. His help was much appreciated and the only thing he asked in return was that I watch a quick advertisment"
+pics,fqw4fxt,t1_fqw3ddn,1589692570.0,What do you mean by over? It's not like seeing that picture is the last thing I'll do on Reddit.
+interestingasfuck,fqw2jws,t1_fqvuckm,1589691076.0,I actually managed to get earth in this shot. It's under the dog. https://imgur.com/iMKi6oO
+pics,fqw26eu,t1_fqw1v58,1589690792.0,Yeah but there's never enough tits. Also these particular tits look like they're probably fucking phenomenal
+Ultralight,fqvs8ph,t1_fqvc7w9,1589684015.0,Yeah but you can't get an old pad in regular/wide. For me that alone is worth the cost
+ozshow,fqvanf7,t1_fqvag8b,1589673262.0,"Ah, different secretary then"
+ozshow,fqvad58,t1_fnr4e2n,1589673093.0,"Her name is Adrienne Shelly and yes she was murdered.
+
+https://en.m.wikipedia.org/wiki/Adrienne_Shelly"
+EatCheapAndHealthy,fqsf0f4,t1_fqsbnea,1589605501.0,"Sounds like PF Chang's, which aside from being expensive is also shitty."
+ScarySigns,fqs0xhn,t1_fqrzxtn,1589596117.0,"I'm too tired to argue with you. Long day, stressful week at work. I just want to point out that you're a piece shit and a bad person."
+Frugal,fqrfplt,t1_fn9bguz,1589583444.0,Stimulant medications for ADD/HD work by increasing dopamine levels in the prefrontal cortex. Caffeine doesn't do anything similar and has no effect on ADD/HD.
+Libertarian,fqqvkex,t3_gk8zbh,1589572733.0,"Please notice what party the majority of them are from. 
+
+R.
+
+Then please notice that most of the Ds are not in solid blue states (with few exceptions).
+
+Then, when you as a libertarian say, ""I hate both parties but it'd be better the the Xs won,"" remember this vote."
+Frugal,fqq2p9e,t1_fqq1fm5,1589558376.0,"I'm talking about people having to work at a gas station and a pizza cart, not people following their passions through entrepreneurship.
+
+If you're the type who has a passion for business then that's awesome and you should pursue it. Not everyone has that passion, not that opportunity, nor do they derive satisfaction from running a business like you do.
+
+ For those people, it sucks to have to work two jobs because there are a million other things they'd rather be doing and that would make their lives more fulfilling.
+
+I used to own restaurants until the economy crashed in 2008, and it was great, but at this point I'd much rather spend 40 hours a week guaranteed and get to spend the rest of my time hiking. I'm lucky to do that. You're lucky to do what you do. Neither of us are unlucky enough to work two jobs we don't like just to make ends meet."
+Frugal,fqpuwcz,t1_fqpss94,1589554417.0,"No, it's gross that people have to work two jobs to get by.  You've got 80 years on this planet if you're lucky, and it's a sorrow to have wasted most of it working."
+FortCollins,fqpogjh,t1_fqovchb,1589550927.0,">  I have my stimulus money for rent and a deposit, 
+
+Why don't you just pay rent to your landlord then?  That's what the letter you posted is demanding: either pay your rent or vacate."
+Frugal,fqpnu1c,t1_fqoxd14,1589550567.0,"> Have a side hustle. 
+
+It sucks that it's becoming more and more the norm that people need to have two jobs.  ""Side hustle"" makes it sound even more acceptable than it should be."
+worldnews,fqpkvx7,t1_fqp8zrw,1589548772.0,"Yeah wtf? This ridiculous idea that dogs don't have complex emotions needs to die out asap. It's based on ideas from the mid 19th century (and long before) and is completely outdated.
+
+And it's not just dogs, it's at least mammals in general. 
+
+But leave it to humans to think we're so special that despite being at almost the same place on the evolutionary ladder as other animals, we're the only ones who experience sadness."
+worldnews,fqpk8my,t1_fqphfrw,1589548362.0,">I only discovered the other day that he was never neutered
+
+Was it the testicles that tipped you off?"
+Ultralight,fqo95ik,t1_fqo8zda,1589510155.0,I could get behind that
+Ultralight,fqnmmik,t1_fqngg37,1589497587.0,Different people.  That was very obvious from context.
+Ultralight,fqn9a2j,t1_fqn2djr,1589490840.0,"> Where do we draw the line on making something too easy? 
+
+Motors."
+Ultralight,fqn97i9,t1_fqn8jvz,1589490805.0,"Banning e-bikes is fascism, he said without a hint of irony."
+Ultralight,fqn7wmj,t1_fqn0wnf,1589490166.0,"Yes, I never didn't understand your analogy as it is not complicated.  Again, I just thought it was funny. Calm down."
+Ultralight,fqmwtcs,t1_fqmoak1,1589484842.0,I'm literally advocating for a rule that e-bikes not be allowed.  It might (or might not) have the effect of keeping some people out but I'm not advocating for a regulation that targets any person or group of people.  I'm advocating for a rule that targets a motorized vehicle.
+Ultralight,fqmvvup,t1_fqmtxc4,1589484401.0,"Yeah, what does hiking have to do with public lands?!"
+Ultralight,fqmvtpz,t1_fqmhl57,1589484373.0,"It's true.  Environmentalists have to win 100% of the time.  Once industry breaks through the gates, there's no going back.  It's like the ANWAR drilling.  Hundreds of attempts to get in there, but one loss means the game is over."
+Ultralight,fqmvn3y,t1_fqmhqu5,1589484285.0,"Right, I just think it's kind of rich (no pun intended_ that the downtrodden in your analogy are the non-downtrodden in real life."
+Ultralight,fqmvitf,t1_fqmi6ey,1589484228.0,"I'm fine with everyone using the trail, I'm not fine with e-bikes on the trail.  I'm fine with all of those people who would be riding e-bikes hiking their asses into the backcountry.  But they won't."
+Ultralight,fqmvdxg,t1_fqmiv6q,1589484164.0,Based on the fact that e-bikes are like bikes except they make biking easier I suspect they will be desired by people who want to be bikers but not put in the work.
+Ultralight,fqmv7wa,t1_fqml4tj,1589484083.0,"I don't understand how dogs make the backcountry accessible? It may be easier to take the dogs (for some people) than to find a sitter but that doesn't actually make the backcountry accessible. What are you talking about?
+
+And I'm fine with the dog ban at national parks because I recognize that the average person will let their dog shit on the trail and do nothing about it.  I'm at the moment against a wilderness ban on dogs because I haven't seen tons of dog shit in the wilderness and the type of people who hike deep into the wilderness aren't in my experience the type to let their dogs shit everywhere.  If it became a problem then I would support a ban just like I support all sorts of land usage bans when the land becomes impacted.
+
+But also, this is totally irrelevant to anything here. My owning a dog doesn't have any rational connection to whether bikes should be allowed on trails. Pretend I'm one of the various people who support the ban on bikes but who don't have dogs. Notice the arguments don't change.
+
+This is called tu quoque and it's been recognized as a logical fallacy since the 17th century."
+Ultralight,fqmhchr,t1_fqmby88,1589477460.0,And in your analogy the poor person is the one who can afford the expensive e bike?
+Ultralight,fqmh90h,t1_fqmcxjv,1589477416.0,Cause e bikes are relatively new and because i suspect they appeal to different demographics
+Ultralight,fqmbehp,t1_fqmapmi,1589474658.0,"I didn't say that any particular person should be banned from the backcountry, I said a particular means of transportation should.  Anyone is free to hike in or bike in (where allowed), I just don't think they should be allowed to e-bike in."
+Ultralight,fqmb548,t1_fqmb3wq,1589474537.0,"You think you are, but we'll see."
+Ultralight,fqmb3d3,t1_fqm9fu5,1589474515.0,"> I also left a comment supporting ebikes on trails. I'm betting this thread inspired more pro-ebike comments than anti-ebikes. I don't think this thread is going how OP imagined it would.
+
+I highly doubt it.  This is generally a hiking sub and hiker's enjoyment of a trail is generally inversely proportional to the amount of bikes on it."
+Ultralight,fqmau65,t1_fqm75vs,1589474395.0,"Correct, and hopefully you won't be able to take your e-bike onto BLM land and since you have such a good attitude about accepting that you don't always get what you want, you'll be okay with that."
+Ultralight,fqmae6w,t1_fqm5i2q,1589474190.0,"> I think you should really consider that differently abled people who want to experience the outdoors use these things too.
+
+Yeah this is the hardest part for me because I feel as though those people should have access to the backcountry, I just don't think that they're going to be the majority.  I think it's just going to increase usage by your average joe and overall is going  to be a detriment to the land."
+Ultralight,fqma5qq,t1_fqm9r7u,1589474081.0,Just because it doesn't directly affect me does not mean that I don't care about the damage it's going to do to the land.
+Ultralight,fqm9us2,t1_fqm86vh,1589473935.0,"Gate keeping keeps random people from walking into your house and camping on your lawn.  Gate keeping through the issuing of permits keeps people from destroying the Conundrum Hot Springs.  Gate keeping by hunting quotas keeps hunters from completely wiping out species.  Gate keeping citizenry by requiring basic knowledge of a country helps assimilate people.  Gate keeping the Olympics to athletes makes it worth watching.  Not everyone should be able to do everything all the time.  There are limits to what the backcountry can handle.
+
+Etc."
+Ultralight,fqm9gjg,t1_fqm8zhh,1589473748.0,"I'm at work and really shouldn't be responding to any of this but, ya know, reddit is  addictive.  I'm pretty sure I responded to those same/similar points elsewhere in the post but if not I'll get back to them"
+Ultralight,fqm9bsp,t1_fqm8r3o,1589473686.0,"I literally said that I'm not using that land so wtf are you even talking about?  Again, I don't use BLM land and this has nothing to do with my enjoyment of it.  Can you just acknowledge that and make up a new fake reason to attack me?"
+Ultralight,fqm903l,t1_fqm7z40,1589473532.0,Sorry but e-bikes make the backcountry much more accessible to the general public and with the general public comes the way that the general public acts at camp sites.
+Ultralight,fqm8sav,t1_fqm78f3,1589473430.0,"> You are the kind of person I don't want to see on the trails.
+
+But you don't know what I look like so you wouldn't know anyway.  Could be any other backpacker you meet out there. But checkout my lighterpack and maybe you'll recognize me based on my equipment and can avoid me."
+Ultralight,fqm8m8s,t1_fqm7jqw,1589473349.0,"No, it's because I care about the land despite not using it directly."
+Ultralight,fqm74kt,t1_fqm6uj8,1589472635.0,"Yes, read my OP where I say ""Yes this is gatekeeping, no I don't give a shit""
+
+gatekeeping is a good thing"
+Ultralight,fqm6w8p,t1_fqm54tw,1589472523.0,I'm actually not sure I follow how dogs make the bc more accessible?
+Ultralight,fqm4vf8,t1_fqm48gk,1589471543.0,">  But of course it's nothing to do with nature but rather your selfish desires of not wanting to share.
+
+I will respond to the rest of your post later, but right now just want to point out that this is nonsense.  The only time I set foot on BLM land is when I go to Moab, which has happened a total of one time in my life.
+
+I backpack in Colorado Wildernesses where bikes are not allowed, which means e-bikes aren't either and never will be.
+
+This decision will literally have no direct impact on my hiking life."
+Ultralight,fqm4kws,t1_fqm3sng,1589471402.0,"Probably true, but how many people who don't have the athletics to mountain bike do have the athletics to e-bike and will now be able to do so on these trails?  
+
+Keep in mind, backpackers and bikers have a long tradition of community and social mores that e-bikers don't necessarily have.  If you're backpacking or mountain biking you're probably well familiar with the LNT culture and respect for the environment.  I don't think you can say the same for e-bikers in general (which of course does not mean that ALL e-bikers have no concept of LNT, I'm just saying that it's not part of the culture because the culture doesn't exist like it does for other activities).
+
+Who do I suspect are going to be the majority of e-bikers?  The same people who camp at Yosemite.  Note, I said camp, not backpack.  Because the campers at Yosemite suck.  They trash the place, they feed animals, etc.  Because they're just normal people who are doing something fun, not people part of a community with self-imposed rules and regulations."
+Ultralight,fqm3ypb,t1_fqm3mth,1589471098.0,"I'm not super fond of it either but ultimately the problem is that I think the lands need to be protected.
+
+At any rate, we'll probably have to agree to disagree on that, but I'm glad we found a sort of middle ground elsewhere."
+Ultralight,fqm3qtq,t1_fqm0czt,1589470988.0,"> You are acting like ebikes are harly davidson 1200cc short piped noise makers. They are not.
+
+No, this is not at all what I said.  Please don't build straw men.  Pointing out that something is noisy does not mean I'm saying it's as noisy as a Harley.
+
+> You are acting like ebikers do not do trail volunteer work. We are out there doing loads of trail work.
+
+These are just weird words that you're putting in my mouth.  I'm sure some fraction of bikers do trail work, and so the fuck what? I didn't say anything about whether bikers do trail work.
+
+>You act like erosion from ebikes is somehow greater than regular bikes. It isn't.
+
+It can be since (a) it allows you to go faster easier, and (b) it allows you to go farther, and (c) it allows more people to go.
+
+>You act like speed is going to kill someone. 
+
+Nope, I didn't say any of this weird shit. 
+
+>So yes, I will be commenting. In full support of ebikes on all trails open to mtn bikes. Public lands should be open to the public with shared access!
+
+Great, that's your right as an American with internet access.  Just please try and focus on what people are actually saying instead of making random things up and claiming that's what's being said."
+Ultralight,fqm352b,t1_fqm17u0,1589470692.0,Great points
+Ultralight,fqm2ymc,t1_fqm0wpf,1589470604.0,"No idea what you're trying to say here. I mean that I would be wary that we have the manpower to enforce that people had permits, not that I would be wary that permits would be enforced.
+
+Of course, I'd rather not have the backcountry full of patrolling BLM officers either so I'd rather that these people just get caught at the trail heads in the first place."
+Ultralight,fqm2qus,t1_fqm1tdq,1589470497.0,">  Ebike charges only last so long,
+
+Of course, battery technology as it increases will extend those charges, but we can't in the future easily close the box.
+
+>many of these trails are already open to bike packing which allows you to travel much further into the backcountry than an ebike could take you.
+
+One point here is that e-bikes allow for more people to access these trails in a similar way that mobility scooters allow more people to shop at Walmart.  I'm not saying people shouldn't have mobility scooters, but I am saying that I'd rather the backcountry not start to look like a Walmart."
+Ultralight,fqm2cvd,t1_fqm0isj,1589470304.0,">What's stopping the people who you think would break these new regulations from just breaking the current regulations?
+
+If it's full-stop illegal then it's easier to spot before they make it to the backcountry.  E.g. people and officers near trailheads can nip the problem in the bud.  Yes some will get out there, but it will be less.  Just because some people will break the law does not mean you shouldn't have laws.
+
+>There are backpackers out there who litter and damage the landscape. Why should we allow any backpackers? 
+
+If I started to see that deep wilderness areas were on average full of trash, then I would 100% advocate for closing off public lands to backpackers.  Thankfully this is not the case and backpackers are in general the kind of people who pack out their own trash as well as other people's when they find it.  However, bikes do damage to trails and will allow increased access to people who aren't necessarily from a subculture based around LNT.  If I had to guess, I would say that this decision would increase litter.
+
+And for the record, I have argued in my own county that certain dispersed campgrounds (that I LOVE) should be demolished due to the fact that they are constantly trashed.
+
+>The guy above you is right. You're being a gate-keeping curmudgeon.
+
+The guy above me?  You don't need the guy above me to point out that I'm gate keeping.  I said it directly in my OP: yes I am gate keeping, no I don't give a shit because gatekeeping is a good thing.
+
+This weird anti-gate keeping meme needs to die.  Not everyone should have access to everything all the time.  Gate keeping keeps people from waling into your house or camping on your front lawn.  Gate keeping via permit systems keep people from destroying popular national trails.  Gate keeping makes sure that people who compete in the Olympics are actually athletes worth competing and not just random joes. 
+
+And yes, gatekeeping the backcountry from bikes protects the trails, the habitats, decreases usage, and helps reduce overcrowding."
+Ultralight,fqm0g1r,t1_fqm01ee,1589469350.0,"> How would you feel if e-bikes had to pay a small fee to register their bike for use in public lands ($10) that hikers and human powered bikes were not made to pay?
+
+
+I'd feel better about it if 100% of the fees went to trail and habitat restoration, but I would still be wary about enforcing that people had permits"
+Ultralight,fqm0901,t1_fqlwpwd,1589469254.0,"> Hate to play devil's advocate here but class 1 ebikes are no different, as far as land damage and safety are concerned,
+
+They are if they allow people to go farther into the backcountry more regularly, which will increase trail and habitat damage.  Accessibility comes at a cost."
+Ultralight,fqm02j5,t1_fqlvqy3,1589469165.0,"See my edit.  The problem is enforcement.  Our federal agencies are severely underfunded and so if the flood gates open then they are going to open for everything.  They literally just don't have the resources to be in the backcountry checking that the bikes out there are legal.
+
+Moreover, I don't want the backcountry full of BLM officers patrolling for illegal bikes even if they did have the funding.
+
+And on top of that, our public lands are already being stretched thin.  Increasing accessibility comes at the cost of land damage."
+Ultralight,fqlzkk3,t1_fqlypo4,1589468914.0,"And that's the problem.  But at least right now, a BLM officer can stop anyone on an e-bike and issue a ticket, which has some preventative power.  But if one type is legal, then there's a lot more bikes out there and these agencies do not have the resources to check all of them."
+Ultralight,fqlyhfs,t1_fqlx2ea,1589468363.0,The problem is that our outdoors focused government agencies are severely underfunded and don't have the means to enforce that people are using legal bikes.  If the gates open then it's going to be for everything.
+Ultralight,fqlycgj,t1_fqlxl96,1589468295.0,"> The order only allows for bikes that can travel up to 28 mph in pedal assist mode. 
+
+So we'll just need to get rangers with radar detectors out in the back country to enforce speed limits then"
+Ultralight,fqly93c,t1_fqlxfhk,1589468246.0,"Fixed, thanks"
+Ultralight,fqlon78,t1_fqlm6p9,1589463036.0,In a nutshell yeah
+GearTrade,fqlodic,t1_fqlnfmj,1589462873.0,"Ah, your other thread said that the Duo was SP but maybe I'm misunderstanding what I'm reading.
+
+Yeah buying used can be smart.  It's smarter than I.  I generally just spend more than necessary buying new, but I'm impatient and somewhat paranoid about not getting warranty service (not that it matters so much with cottage companies who are likely to be happy to help fix regardless if you're the original owner)."
+GearTrade,fqlmi8e,t3_gjgs8s,1589461715.0,I'm so confused. Wasn't your last post about how you owned this as one of your tents? I was about to let you know about this thread and then realized that you're the one who posted it lol
+Ultralight,fqkmjsq,t1_fqexsfy,1589430684.0,"I have a Zenfone 3 Zoom for the 5000mha battery and the decent camera. It's only available refurbished at this point so it's pretty cheap. That being said, I also carry a mirrorless camera so at this point it's really only about the large battery. It's goes almost three days using just GPS and maybe watching a couple episodes of family guy before bed. So basically i can charge it once on a 5 day trip and I'm good"
+Ultralight,fqkm166,t1_fqjju1h,1589430336.0,"For the record my XL only weighs 8oz, which iirc is almost an oz under spec"
+Ultralight,fqkiwec,t1_fqf0v1o,1589428304.0,"Maybe a lighter fleece or a heavier baselayer for those colder conditions? At 40 I'm wearing a long sleeve lightweight Capaline, Flylow royal shirt, and an Arc'teryx Delta. That's without wind. If it's windy add a hardshell.
+
+But that's only warm when I'm moving. If I stop for a few mins I'm cold and need to throw on down for a bit to hear up, even after I start walking again"
+Ultralight,fqk69k3,t1_fqk597s,1589420958.0,"> The klymit pads were the insulated versions so they should be fairly accurate
+
+Again, they claim it, but it's probably not close to accurate.  [Here's](https://www.reddit.com/r/Ultralight/comments/euwcv1/updated_klymit_rvalues_with_the_new_astm_standard/) a thread with new values after the new ASTM standard was released, where the 4.4 was revised to 1.9.
+
+>They were older REI bags but still had good loft
+
+Older 0* REI bags with good loft should have been fine the 30s...unless the pad wasn't actually its advertised R value.
+
+> Didn't notice any condensation on the pillows. 
+
+Whether you noticed it or not, it was probably there.  Cotton gets damp in the low 30s, and if they were already freezing as you said they were, they probably just didn't notice.  
+
+>That said they're already looking at the X-Lite or X-Therm. 
+
+Good choices.  A legit 4+ R value is necessary for a bag's EN rating to be accurate.  A woman at 20* probably wants an xtherm."
+Colorado,fqk43qw,t1_fqj9lg9,1589419840.0,Do you need a new Tesla?
+Ultralight,fqk3mcv,t3_gjc4o3,1589419601.0,"That Klymit pad is almost certainly not actually anywhere near close to a 4.4 r value. Klymit may claim it, but you're getting what you pay for with a pad that cheap.
+
+Honestly, it could just be that, but it really also depends on which 0* bags they were using. It's possible that they were just bad bags combined with a weak pad.
+
+That said, pillows from home probably didn't help either. They probably had cotton linings which means that they collected condensation and got cold as fuck.
+
+Anyway, most quilt manufacturer's reported temps are lower limit temps, which means you need to subtract another 10 to 20 degrees to get a comfort (e.g. women's) temp. If you're expecting to camp in 20*, get a 0* quilt.
+
+That said, I would recommend not getting a quilt as a woman for temps that low. Go for a high quality women's sleeping bag instead and get a better pad and pillow as well."
+Ultralight,fqk04ay,t1_fqhivjt,1589417872.0,"Look at that, you just saved almost half a pound without lifting a finger"
+Ultralight,fqjzmse,t1_fqjb3le,1589417627.0,Not 100% but I think Western Mountaineering does this
+Ultralight,fqhkw6i,t1_fqghllt,1589379046.0,"Might actually be into that.  Well, for the Duo.  I was planning on the XMid 2 and it looks like you've got the 1.  
+
+I almost just pulled the trigger buying it new but I'll wait ;).  Not in a super rush anyway.  That SL2 is only slightly heavier, and I can't deny that its freestanding nature is pretty convenient (though the room leaves a lot to be desired, and hence the Duo!)."
+Ultralight,fqhivp5,t1_fqh4nki,1589377894.0,"A lot of reviews are absolute BS too because Google just takes you to blogs pushing affiliate links. Some are most trustworthy than others, but shit like Outdoor Gear Lab and yes even Clever Hiker are basically just informative advertisements that tend to ignore a lot of great gear from companies that don't have an affiliate program. 
+
+Even then, they do always mention a few negatives, and it's easy for that shit to get in your head and make you second think yourself.  
+
+Here's the inoculation:
+
+1. There is no perfect piece of gear. Everything you buy will have trade offs. More importantly, you will live through the night with those trade offs because we're not talking life-risking tradeoffs. You'll either carry a bit more weight, have to replace your gear a bit more often, get a little cold, sleep a little worse, or pay a bit more.
+
+You'll live.
+
+2.  Even if there is a perfect piece of gear, you can live without it.  Scouts and soldiers have been backpacking with hefty equipment and 50 lbs+ packs for decades. Basically any minimal investment into a few modern  UL items is going to get you a setup far more comfortable than what most people have backpacked with since up until relatively recently. Just save the pack for last so that you're carrying something a little more supportive until you hit 25lbs.
+
+3. The wilderness is not your living room couch and the sky is not your TV. You're going to get cold, wet, uncomfortable, less and worse sleep, cuts, scrapes, and bruises. 
+
+And that's ok. Embrace it. Cuts heal, you'll sleep better later, you'll warm up and dry off hiking. 
+
+You can live with and through some temporary minor discomfort and it's all worth it when you see those amazing views of the mountains or hit the next goal in your list.
+
+When the trip is over, you're not going to remember the bad parts, you're going to remember the good"
+Ultralight,fqgh75a,t3_girzbb,1589346183.0,"I'm on the same path as you. I just love buying tents.
+
+Right now just have REI half and Quarter domes, but am about to buy a LHG Duo, xMid, a Two, and a Deschutes Plus. 
+
+I know it's insane I just love it. I recognize that I'll realistically not use most of them, and I don't do this with other gear, but it's like I want to have a specific tent for everything"
+Ultralight,fqggpui,t3_gio7ln,1589345828.0,"Don't get caught in review hell. Every product has pros and cons and you'll drive yourself crazy if you're constantly going back and reading reviews for products you've already purchased. You made a choice, so stick with it and see if you like it. 
+
+Will there be condensation? Maybe. Wipe it off and move on. It's condensation, not an evil spirit. If after you try it you still hate it, return it and try something else. At worst you lose a good night's sleep, at most you got a tent you love.
+
+Hell, try it in your back yard."
+Ultralight,fqg9v8v,t3_gi8nih,1589341131.0,"I've never understood this focus on back sweat and am convinced it's just a product of smart marketing by Osprey.
+
+If you're backpacking, your back is going to sweat. I don't care what you're wearing.  Maybe it's slightly worst without the trampoline suspensions, but the difference isn't huge.  
+
+If you're in a humid environment, then after a while it's going to equal out anyway since sweat does not easily evaporate in humid climates. And if you're in an arid environment, then it's going to evaporate after you leave your pack off for a little while anyway."
+CodingHelp,fqfxjge,t1_fqfr17s,1589333677.0,I wouldn't go below 16. I often hit more than 8 with my full development environment running.
+BackpackingDogs,fqfwty8,t3_gimbyb,1589333271.0,Just upgraded to the K9 from an Approach pack. Long story short it's an awesome pack and the Approach pack is garbage. I'm convinced that Ruffwear makes it only because they know people will buy it for the price and then have to upgrade to the Palisades pack
+camping,fqfnmuo,t1_fqf1n26,1589328180.0,Forest Service ordered stage 1 fire restrictions throughout most (all?) of the West due to covid.  We can burn in developed camp sites but not outside of them.  Also all developed campsites anywhere near me are closed.
+SocialEngineering,fqdotg7,t3_gibi00,1589293934.0,Sounds like the White House these days
+trashy,fqdomvd,t1_fqdhhc0,1589293837.0,"Wtf dude? No one is saying that businesses should have to shoulder everyone's trash, but it's a better fucking option than dumping it in nature."
+trashy,fqdoizj,t1_fqdega8,1589293779.0,See this is why I can't be 100% against the death penalty.
+trashy,fqdofbi,t1_fqdab85,1589293724.0,"I threw a Burger King cup out of my car window when I was 16. Someone called the cops, followed me back to school, and pointed me out when the cop showed up.
+
+I got a littering ticket and had to do 12 hours of community service picking up trash and pay a small fine.  Never littered again. (Now because I know it's wrong and not just cause I don't want to get caught).
+
+If you see it, call the cops. Give them a license plate number. Maybe they'll get away with it but maybe not and maybe you'll get them set on the right path."
+nin,fqdnrla,t3_gi7o0p,1589293375.0,That's awesome. I'd love the uncompressed non YT versions of all of these
+nutrition,fqdnhv3,t1_fqcewxd,1589293232.0,That doesn't sound vague at all? It sounds incredibly specific. It's certainly wide but not vague
+PoliticalScience,fqdn1bi,t1_fqcqjiu,1589292983.0,"For better or worse we have a court that puts plain meaning over intent (and certainly over justice) and so I think your reading of it is spot on. After all, if a single comma can allow for cruel punishment so long as it isn't unusual, then surely the fact that the text specifies election can't be ignored."
+FortCollins,fqdmlhj,t1_fqbx83j,1589292740.0,Get the spiciest chicken tenders and force yourself into a Zen like state through the pain. If you can embrace it you will be rewarded by amazing flavors. But if not then you will just be in a lot of pain for a while.

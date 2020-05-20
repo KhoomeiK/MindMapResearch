@@ -1,0 +1,251 @@
+overclocking,fi6m08t,t1_f79ne03,1582200600.0,"So after extensive testing with Asus RealBench and the video-games I play the most, my stable voltage under load is around 1.28 - 1.29v (Voltage is set to 1.32v but with vDroop it goes down to 1.28 - 1.29v) with LLC set to 5.
+
+
+To lower my idle vCore, should I change my voltage to 1.28 - 1.29v and set LLC to level 6 - 7 and test for stability? Would it be a better scenario than the one I have right now?
+
+
+Thank you!"
+DnDHomebrew,ffx5u3d,t1_ffx22mg,1580318378.0,**BAKAYARO KONOYARO**
+DnDHomebrew,fftbwq4,t3_eusu2b,1580215835.0,Reminds me of Killer Bee from Naruto hahaha excellent
+Mi9T,ff9wp6h,t1_ff9syuq,1579723153.0,gestures >>>>>>>>> nav bar
+DnD,fegxjsj,t1_fegw3x9,1579104760.0,But was your DEX 18 already when you took the feat?
+DnD,fegvyp1,t1_fegqaej,1579103755.0,When did you take SS? What's your DEX?
+DnD,fegjsw3,t1_fegis1l,1579094926.0,"I keep hearing about deadeye but when I look it up it shows as a homebrewed subclass for fighter, it doesn't appear on dndbeyond and the gunslinger archetype doesn't mention it... how does that work? how did Percy get to use it during the first campaign if his archetype was gunslinger?
+
+edit: okay, so deadeye its a grit trickshot, nvm"
+3d6,feggg4y,t1_fege8z7,1579091935.0,"Well since it's once for long rest and still a roll it doesn't negate it, it can still happen but it's less probable. The original feat was once per short rest.
+Yeah I think DEX 18 before SS is solid but I might take FE before SS; I can use grit to deal extra damage without taking attack roll penalties and I'd also have an extra attack with my bonus action."
+DnD,fegg79b,t1_fegeq2j,1579091698.0,"But I'll need high DEX if I want to take full advantage of SS... so maybe
+
+4 - FE / DEX
+
+6 - DEX / FE
+
+8 - SS 
+
+12 - DEX
+
+?"
+arma,fdf51rz,t3_ekt34k,1578353475.0,this new meme is very cringy
+yo_elvr,fco7xi6,t3_ei2ft1,1577825794.0,no me esperaba esto
+overclocking,faed4aq,t3_e8tg0u,1575998626.0,"Try and see how far your silicon can go, every chip is different."
+overclocking,f9s1169,t1_f9rxitv,1575584157.0,I didn't really use any guide; I investigated and and did my own thing. It probably took me more time than just following a guide but hey I least I learnt more that way!
+overclocking,f9nazrs,t1_f9natrc,1575480783.0,"Yes, at least 4 hours with HWiNFO64 to make sure there are no WHEA errors"
+overclocking,f9nalnt,t1_f9naiwz,1575480550.0,I'd recommend you to do so :)
+overclocking,f9n9i6n,t1_f9n8ybt,1575479889.0,"I'm glad it worked out!
+
+
+Regarding OCCT runs, I'd leave it for at least 4 hours (small data set with AVX is the most demanding stress test). 
+
+I use Realbench instead of OCCT since my OC is gaming-oriented, might have that one in mind depending on what you are OCing for."
+overclocking,f9n7i26,t3_e61tdv,1575478660.0,You probably have an AVX offset of 2. AVX is a demanding CPU instruction and either your MOBO automatically sets the offset at 2 or you did it following a tutorial without knowing exactly what it did. Try disabling it and see if it's stable at 1.35. If it is lower your vCore until it isn't or aim for a higher clock. If you have any doubts here we are to help you out :)
+overclocking,f9jy7sl,t3_e5iys5,1575388595.0,"There are no universal OC settings. Each card can achieve a different OC level depending on things like silicon quality or cooling performance. Try your own OC (plenty of guides on the Internet) and post your results here. If you have any questions or doubts after researching online you can post them on the subreddit.
+
+
+Godspeed!"
+Mordhau,f8s8vxx,t3_e1jicc,1574773688.0,Kick changes should be reverted imo
+overclocking,f8rxusx,t3_e1huy2,1574758554.0,"For how long did you run those stress tests? did you get any WHEA errors? Cinebench is more a benchmark than a stress test by the way. Also if you have no AVX offset, run OCCT with and without AVX and see what happens.
+
+GPU overclocking is very simple. Get MSI Afterburner if you don't have it already and set your power and voltage draw offset to the max. Also adjust your fan curve. After that, change the offset of the core first, 15 MHz at the time until you see artifacts / crash on Unigine loop. At that point, go back to your last stable offset on Unigine. Play your favorite (GPU-intensive) video games for two or three days. If you see artifacts / crash go back 15 MHz until you don't. Then again, test that offset for two or three days. When you stop seeing artifacts and / or stop crashing, keep that core offset and repeat the whole process with your memory offset now.
+
+
+The two to three days rule is to assure stability, of course you can do it in a day if you play a lot and do so on GPU-intensive games.
+
+
+
+
+Edit: so investigating a bit I saw your CPU boosts at 4.1 which is your OC frequency. Have you tried going above that? wouldn't hurt to IMO!"
+overclocking,f8pnwa8,t3_e1jobe,1574704510.0,"If your processor is not turboing to 4.7GHz it's either because it doesn't need to (turbo is meant to trigger for CPU-intensive tasks), or because it's thermal-throttling. What you say about increasing the multiplier is for unlocked processors and you can't do it with yours."
+overclocking,f87ydwo,t3_dzisym,1574345098.0,"XMP I loads your MOBO XMP profile for your RAM. XMP II loads the XMP profile from your RAM, if your RAM has one. Whether you use XMP I or XMP II you don't have to do anything else to your RAM to have it run at its spec speeds. 
+
+You don't need LLC if you only use XMP for your RAM."
+VXJunkies,f84hsi4,t3_dy97vj,1574249206.0,"I agree a 100% this needs to stop, specially the very pedantic answers."
+overclocking,f84h1rn,t3_dz0ku0,1574248175.0,"I ran +150 at 90% confidence in MSI AB and 99.7% in Fire Strike to then see artifacts playing Forza Horizon 4.
+
+
+Since then, I only trust the games I play for benchmarking. In the end I found out I'm stable at +110MHz core and +700MHz memory by testing the offsets with the games I played most."
+overclocking,f7xvnwu,t3_dy1rd5,1574077537.0,"I sent this following mini-guide for an Asus MOBO originally, some settings may vary since you have a Gigabyte one:
+
+Update your BIOS.
+
+Enable XMP.
+
+Set the CPU core ratio to sync all cores and input your target frequency (if it's 5.2GHz input 52)
+
+Disable multi core enhancement
+
+Disable CPU SVID (for now, if you later want to switch to adaptive then enable it again)
+
+Set AVX offset to 0
+
+I don't know the LLC values of Gigabyte MOBOS, but start by setting an intermediate one.
+
+Set CPU Core/Cache Current limit to 9999 (should change to 255.70 or something similar)
+
+Change CPU Core/Cache voltage to Manual, 1.29v (depending on stability you might have to go above it, if it's stable at 1.29 try going below it. At 5.2 probably above it)
+
+Go to ""Internal CPU Power Management"", set both Short Duration and Long Duration Power Limits to max (4095)
+
+Set CPU current capability to the max %
+
+Save changes and exit. Run benchmarks like Realbench (the one I recommend if your OC is gaming-oriented) for at least 2 - 4 hours. If it doesn't crash or give you WHEA errors try and lower the voltage by 0.01 (so from 1.29 to 1.28) / modify LLC until it does and go back to the last stable configuration. If it gives you errors / crashes before that, increase the voltage by 0.01 until it's stable.
+
+
+When it's stable, you can try and change the maximum cache ratio, but be aware it gives little to no performance improvement at the cost of instability. Same witch disabling all C-States, if you don't care about power consumption. If you do care about power consumption and temperatures on IDLE, you could try an go for adaptive voltage using the highest vCore value during your stress tests.
+
+Try to not go above 3.5 vCore and also try not using a high LLC level.
+
+I'm not very experienced with RAM overclocking so I'll leave that to someone with more knowledge"
+overclocking,f7xu1vk,t1_f7xtihk,1574075445.0,"Yes it will be fine. The only downsides would be more heat and power usage but that's it. I have a Corsair H100i PRO, under 35ºC on idle and under 70ºC on load.
+
+
+If you still don't want your CPU to be working at 1.28 24/7 run some stress test for 2-4 hours (I recommend RealBench) at your desired frequency. When you find your manual stable vCore at that frequency (using LLC) use HWiNFO64 for instance to get the max vCore frequency recorded during the stress tests and use it to configure adaptive mode, keeping the LLC level (if you have an ASUS MOBO try not to go over level 5) and disabling all C-states. Also leave EIST enabled.
+
+Do more testing and if it crashes either add 0.01 to the adaptive voltage until it's stable or change the LLC level.
+
+
+To do the same with offset, it would take waay more testing since it gets its values from VID, which is not very accurate and often over-volts."
+overclocking,f7xsqwt,t1_f7xsh3s,1574073528.0,"Not exactly. Offset adds or subtracts voltage from the VID voltage table through all the frequency table while adaptive only does so while in turbo mode. That's why adaptive + offset is nice, because you kinda have the best of both worlds.
+
+
+Your CPU will be fine running at 1.28 24/7. If a CPU lasts for about 15-20 years, overclocking it doesn't even halve that lifespan. I have mine running at 1.32 (with LLC) at 5GHz for instance."
+overclocking,f7xrviz,t1_f7xrhu0,1574072155.0,"You can still do it though, I just don't think it's worth the trouble; it takes a lot of time to fine-tune."
+overclocking,f7xr1ck,t3_dxqpot,1574070833.0,"I'm afraid you won't be able to overclock that CPU since it's locked (non-K). Also, it's an old system with probably a mediocre cooler so even if you could overclock it temps would be horrible and the CPU would throttle, and even with ok cooling that that MOBO isn't designed for overclocking."
+overclocking,f7xpazc,t3_dy01qk,1574068158.0,"If I were you I'd only do this if the MOBO had an ""adaptive + offset"" voltage mode. If not, it's not worth the hassle."
+overclocking,f7xp4ch,t3_dy09xj,1574067880.0,"I use HWInfo64, CPU-Z, GPU-Z and MSI Afterburner.
+
+You can always make your own charts from the data the .csv gives you."
+intel,f7pk71d,t3_dx7ov3,1573950466.0,*laughs in 9700k*
+overclocking,f7jj0pu,t1_f7je0jg,1573778664.0,awesome! glad you figured it out
+overclocking,f7huxj0,t1_f7huv0d,1573747913.0,"if it didn't crash before, yeah, instability"
+overclocking,f7hu50x,t1_f7ht67o,1573747486.0,"I'd recommend unigine, 3dmark and just playing videogames, all for at least 30m+. As for what is an artifact, google it, it's a graphical glitch cause by instability on the GPU, like a geometrical miscalculation."
+overclocking,f7hrl8a,t1_f7hpvwz,1573746222.0,"Basic and simple CPU OC guide:
+
+
+Enable XMP if you haven't already
+
+
+Set the CPU core ratio to sync all cores and input your target frequency (if it's 5GHz input 50)
+
+
+Disable multi core enhancement
+
+
+Disable CPU SVID
+
+
+Set AVX offset to 0
+
+
+Since you have an Asus MOBO, set LLC to 6 (you might be able to change it to 5 later)
+
+
+Set CPU Core/Cache Current limit to 9999 (should change to 255.70 or something similar)
+
+
+Change CPU Core/Cache voltage to Manual, 1.29v (depending on stability you might have to go above it, if it's stable at 1.29 try going below it)
+
+
+Go to ""Internal CPU Power Management"", set both Short Duration and Long Duration Power Limits to max (4095)
+
+
+Set CPU current capability to the max %
+
+
+Save changes and exit. Run benchmarks like Realbench (the one I recommend) for at least 2 - 4 hours. If it doesn't crash or give you WHEA errors try and lower the voltage by 0.01 (so from 1.29 to 1.28) / LLC until it does. If it gives you errors / crashes before that, increase the voltage by 0.01.
+
+
+5GHz at 1.29 / 1.30 and LLC set to 5 would be great, although it depends on the silicon quality of your chip."
+overclocking,f7hpqi6,t3_dwa5ie,1573745278.0,"What are your questions about the CPU OC exactly? How to approach OC? how to do it... etc.?
+
+About the GPU SLI, when overclocking, make sure you apply the OC to all the cards. SLI is not very cost effective by nature so don't be surprised if you don't see all cards working at its max capabilities unless you are rendering / mining / deep learning."
+overclocking,f7hp8yg,t1_f7hj3l7,1573745028.0,"Yes, it's a sign. Unigine is not very reliable imo. I had settings be stable on uni and then crash / see artifacts on games"
+overclocking,f7hgjv6,t1_f7hg8u1,1573740208.0,"then you have to go back to whatever settings were stable :)
+what did you use to test your settings? if you used unigine run it for at least 30 min and if you don't see any artifacts and it doesnt crash then try 3dmark or a game like crysis3 or ac odyssey for at least 30 minutes and see if it stays stable"
+overclocking,f7hgct3,t1_f7hg6dw,1573740093.0,"yeah, won't hurt"
+overclocking,f7gvu8b,t3_dw0a3n,1573720281.0,"Have yo tested those settings? is the GPU stable? If you are sure it is, try and push the core clock further; if not, adjust those settings until the card is stable under stress testing.
+
+
+The core voltage slider basically allows the GPU to increase its power draw. On paper, this helps with stability but most of the times (specially on RTX cards) doesn't make a significant difference. If you crank it up, make sure to check your GPU temperatures."
+overclocking,f7ewp1f,t1_f7ewhlk,1573667449.0,Are you monitoring the voltages? maybe it's a vDroop issue. What MOBO do you have? What are your LLC settings? Make sure multicore enhancement is disabled and your CPU power capability at the maximum setting.
+overclocking,f7evb0k,t3_dvv3g1,1573666593.0,"If your clocks go down it's probably because of thermal throttling. The correct way to find the stable voltage for your CPU OC is benchmarking it with Realbench, OCCT, Aida64... etc. for long periods of time until you find the voltage your system doesn't crash on while stress testing. I wouldn't recommend going over 3.7-8v, I'd rather lower the clocks if I had to hit that vCore for a 5GHz stable OC. Anything above 80ºc while OCing is a no-no to me.
+
+
+Edit: That being said, with your CPU you should be able to hit 5GHz across all cores without having to go over 1.32 vCore with LLC set to 5-6. What CPU cooler do you have? Have you disabled multicore enhancement?"
+overclocking,f7ec2hx,t1_f7eb1mt,1573653609.0,he probably meant 1.28
+overclocking,f7e4umf,t3_dvov5i,1573646551.0,"I'd turn off multicore enhancement. Power consumption and temperature goes up with it enabled at no performance or stability benefit. I'm guessing you have all cores synced at 5GHz and you already are controlling the vCore so to me it doesn't make sense to have it on.
+
+It's better to have a high vCore than a high LLC setting in my opinion. LLC is there basically to counter vDroop by increasing vCore under certain loads and if your LLC setting is too high it might add more voltage than necessary so if I were you I'd increase vCore and decrease LLC.
+I'd also run Realbench for at least 4 hours to check for stability.
+
+I'm new to overcloking too but I hope I helped you out!"
+overclocking,f79my38,t1_f79m7dd,1573510017.0,Would RealBench be a good alternative for a more realistic CPU load then? my OC is just gaming oriented
+overclocking,f78ynha,t1_f78x7xz,1573500191.0,https://linustechtips.com/main/topic/1122682-higher-voltage-vs-llc/?tab=comments#comment-13038345
+overclocking,f78vghb,t1_f78v9uz,1573498922.0,Hahaha thank you!
+interestingasfuck,f6owdml,t3_ds8qh1,1573038511.0,u/mynameisnotmacs
+Barcelona,f2v5yag,t1_f2v3tjy,1570446753.0,I'd still go with Vodafone or Movistar
+Barcelona,f2v1we4,t1_f2tn2bi,1570441526.0,Pepephone might be a nice and cheap solution for your house but I'd never recommend it for a business. Get Movistar or Vodafone if you are not going to go with a business-oriented ISP.
+airsoft,f2rl4wo,t1_f2rfz4p,1570374083.0,"Нет, у тебя есть прыщи"
+Mi9T,f29glku,t3_dbba44,1570096860.0,"I have been using Urnyx05's gcam since I got the phone (about two months ago, on v2.4 rn) and haven't had any problems with it so far"
+Mi9T,f0v8ntr,t1_f0v847z,1568970122.0,"You have to tap on ""Notifications"" and then you can disable vibration inside each of the three categories that are shown there."
+HistoryMemes,f05q04a,t3_d3v9qx,1568416355.0,holy shit this ones good
+aww,f05my14,t3_d3pm54,1568413963.0,thats one magestic animal
+aww,f045lfe,t3_d3mvcq,1568380203.0,So precious
+ImaginaryKnights,ezujd06,t3_d2a8o0,1568153535.0,this is so beautiful
+aww,eze12dz,t3_d0pxdt,1567857677.0,look at the smile in his face :')
+brandonsanderson,ez914z6,t3_d065k4,1567769441.0,hahahahaha so true!
+aww,eys3pkl,t3_cyf8o9,1567386190.0,I love the way his ears flap around when he runs hahahaha so cute
+AskReddit,eyg4l44,t3_cwu6m0,1567061317.0,Coco had me in tears almost the full movie; full on crying at the end :')
+Catswhoyell,exurf2a,t3_cu7z6g,1566587420.0,this ends too soon i need more she is so cute!!!
+aww,ewyv9e0,t3_cqoidd,1565887275.0,aaaaaaaaaaaaaaaaaaaaaaaawwwwwwwwwwwwww this made my... my... my year!!!
+Mordhau,ewuffw6,t1_ewu5cg8,1565778892.0,If that doesn't work I'd check my GPU drivers and also adjust the fan curve
+wholesomememes,ewpspb7,t3_cpbvzv,1565648421.0,okay fiiiiiiiiiiiiiiiiiiiinee
+aww,ewmfuu5,t3_coutpl,1565550646.0,"okay this made my day i need one of those
+
+
+and by those i mean dogs :')"
+tumblr,ewgqv0y,t3_co5m8f,1565388236.0,"I... can relate and, it's... disturbing."
+me_irl,ewgpj1o,t3_co2rry,1565387301.0,can relate
+TrueOffMyChest,ewf2ij2,t3_cnnr8g,1565348688.0,"I know this has been said a lot already but I can't help but fail to conceive non-free healthcare. Born and raised in Spain, I always took going to the doctor or having to go to the hospital by ambulance for an emergency and walking out without having to pay anything as a given. The same goes for not having to pay for the medicine you take at the hospital and paying almost nothing for the ones you buy at the pharmacy. When I discovered that in the USA, one of the supposed greatest countries on earth, you had to pay for all that I couldn't understand it, I thought it was fake. People going into debt to afford treatment for cancer? what? And the fact that it remains like that baffles me."
+aww,ewetuin,t3_cnvap8,1565337507.0,Your niece is awesome and you are and will be a great example for her. I'm also loving all the wholesome histories in the comments!!!
+MadeMeSmile,ew7wzoh,t3_cn4sxo,1565198895.0,I'm in awe :')
+Xiaomi,ew2e3w0,t3_cme18o,1565044438.0,Great review! I couldn't help but read the tl;dr in Doug DeMuro's voice hahaha
+ElderScrolls,evvbxt8,t1_evvbvlf,1564830413.0,combining ingredients
+Mordhau,evsjpan,t3_cl2u9p,1564748533.0,you have a clear case of mad cause bad
+WatchPeopleDieInside,evd83tj,t3_cje374,1564432216.0,Oh I feel you buddy
+sysadmin,ev00l4n,t3_chyvjx,1564129763.0,"it's only a happy day because its friday
+
+
+
+
+
+
+
+
+*cries in on call*"
+TrueOffMyChest,euzwdzr,t3_chvn7o,1564127621.0,I'm right there with you brother. Amen. Cold weather is bae.
+aww,eupfrix,t3_ch335r,1563956417.0,sweet and unexpected tears for me this morning it is then
+Mordhau,eufxh9h,t1_eufwxqs,1563794156.0,"No, I'll PM it to you!"
+Mordhau,eufw58t,t3_cgbl3q,1563792866.0,If you are in EU hit me up if you want and I'll spar with you!
+tumblr,etyfijv,t3_ce01qj,1563317300.0,Gat actually means cat in Catalan!
+Spanish,etu7k4e,t3_cdijro,1563206162.0,"I'm fluent in three languages and I have friends who are fluent on at least two of those three too but usually the language we spoke when we met each other is the one we stick to, since every time we switch languages by mistake or whatever it feels... odd"
+Mordhau,eti0lm3,t1_ethx2hn,1562833840.0,"Maybe you router's firewall is allowing incoming traffic to the server ports from your wan interface but denying it from your local one?
+
+
+Try to put your PC inside your router's DMZ and see what happens"
+Mordhau,etfk1n7,t1_etfhm8j,1562771437.0,"Maybe it's Mordhau itself? have you tried with the ""LAN"" tab in the server browser? or using the command ""open <ip>"""
+Mordhau,etfgmpy,t1_etfg63d,1562769218.0,Does the server answer to ping from your desktop and vice-versa? Have you tried with tracert?
+Mordhau,etff7vf,t3_cbh6qi,1562768278.0,Is the VM using NAT or a bridged adapter? if it's using NAT then that's probably the reason why you can't see the server but your friends can; you should use a bridged adapter instead.
+AskReddit,et9qxbj,t3_cah9dl,1562603396.0,Will printers stop being a nightmare in 10 years?
+ImaginaryFallout,et4o6mt,t1_et4js4z,1562453929.0,Thank you! I wanted it to be my wallpaper but oh well
+ImaginaryFallout,et3yve8,t3_c9qxqn,1562441424.0,sauce?
+AskReddit,esntk4f,t3_c8m3uz,1562149580.0,Yes! I'm less shy in English than in my native languages!
+PBSOD,es7ogwg,t3_c65m1n,1561675607.0,rabobank lmao thats funny in spanish for some reason
+HumansBeingBros,es3yhlw,t3_c5pc0m,1561573311.0,why u gotta make me cry why WHY
+Spanish,ertbrju,t3_c3t715,1561237955.0,Nadie Sabe Nada!
+SuicideWatch,erph616,t3_c38eh6,1561117237.0,If I were you I'd do whatever she asks just in case she is serious about it but then once sure she'll be alright I'd cut off any contact. That's not the kind of person you want to be with and if she is serious about it and not just crazy like that she needs help. Try to make sure she gets it if you think she is for real; tell her parents about it and/or straight just talk with her about it.
+SuicideWatch,erpgyer,t3_c34ko8,1561117005.0,"I'm sorry for your loss. Please don't blame yourself. It was her decision. You have a son, stay strong."
+Mordhau,erec97k,t3_c1nrpq,1560780312.0,No and I wish there was one. Pressing K on a player should also mute their emotes and lute. Make it an option at least devs.
+Mordhau,ere0g14,t3_c1khlq,1560768111.0,"As long as you only allow connections to the ports your server would use in your router you are good. Also, your router is acting as a firewall too plus your Windows one so unless you stumble upon someone good enough to bypass that (doubt so, they've probably got better things to do than fuck with a random dude on the Internet) you are good."
+iiiiiiitttttttttttt,er9d60n,t3_c0wx4q,1560621765.0,weird flex but ok
+sysadmin,er2i8ee,t1_er2hs0q,1560444735.0,So I can have a logfile that I can access to remotely. That event is only present in the local machine right?

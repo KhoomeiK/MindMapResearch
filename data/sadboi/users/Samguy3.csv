@@ -1,0 +1,181 @@
+melbourne,fqrcbom,t1_fqoy6le,1589581590.0,"Where I work, we are allowed to refuse money thats been licked in front of us."
+cheatengine,fqr8deo,t3_gki7jf,1589579499.0,You dont use commas. Cheat engine does not support comma notation. You'll need to use a number like 1234
+LiveOverflow,foopxu5,t1_foopv6a,1587943987.0,"Yeah thats a given. Small doses is okay, whole programs, not so much"
+LiveOverflow,foof6mp,t1_fon4tr8,1587937863.0,"I guess also, writing in assembly gives you very fine grain control over everything, can be handy"
+LiveOverflow,fooek7p,t1_fon4tr8,1587937555.0,"No one is saying you have to. I was just meaning, writing things in assembly is good for learning how computers work. Yes its fiddly and time consuming.
+And yes writing it in C is a lot lot faster.
+
+If I had to write something complicated like that, I'd write it in C and then copy the assembly into cheat engines auto assembler, or dll injection.
+
+There is plenty of Quartonian Code examples on the internet, and you can also use a library etc.
+
+However, Its important to learn assembly one way or another, if you want to do security research or software modding or reverse engineering. You dont have to write something as complicated as this, but playing with assembly is a good way to learn."
+LiveOverflow,fomvrwi,t1_fomcbnj,1587905377.0,"You learn some more about assembly by doing things like this, which is important. I dont think its an exercise in practicality."
+WinStupidPrizes,fo87u65,t3_g65lwp,1587591471.0,Fuck how thick can you be. Literally acting like children in a time of very very contagious worldwide pandemic.
+Asthma,fnmrwxi,t3_g2jui9,1587076991.0,"Yes, but despite that, I would advise caution and avoiding getting sick regardless, it can still do damage to your lungs. At least it lowers my anxiety about death from COVID19."
+cheatengine,fnmg3m7,t3_g2dgi9,1587070801.0,My laat resort would be delete save and reinstall game.
+cheatengine,fnmfqbh,t1_fnlmyjt,1587070612.0,Close the game and open again. I should not be permanent. if it is try using patch scanner. else Idk
+REGames,fnl3s3p,t3_g2ds79,1587046406.0,"If on linux - strings and grep
+
+windows
+strings and findstr"
+cheatengine,fnl24pa,t3_g2dgi9,1587045425.0,Make sure you disable any scripts before you close ce
+cheatengine,fnl23ic,t3_g2dgi9,1587045406.0,Just try to disable cheats when you're not using them
+DarkSouls2,fmje8cv,t1_fmje3dx,1586128545.0,"I dont think I implemented FOV yet, I havent touched the project for a month"
+DarkSouls2,fmjayrb,t1_fmjaq99,1586126618.0,"no install required, You either use the prebuilt binary or you compile the src code. It gets injected into the game so you'll need to use something like cheat engine or a dll injector of some sort. Do not use in online play, go offline."
+ReverseEngineering,fm9220f,t1_fm89cwa,1585860242.0,"Daym Son, thats a lotta features 😍"
+cheatengine,flg59eb,t1_flcz34c,1585131189.0,Hmm Could try dnspy but I doubt its written in C#. More likely in C++. I dont have a copy but I may soon so if I find any info I'll let you know
+cheatengine,flfqmmw,t1_flerg6x,1585114328.0,Eh I'd just play a game without microtransactions. Also thats still stealing technically.
+cheatengine,fle94qt,t1_fld3y33,1585079906.0,"I dont want to discourage you from game hacking, its been a joy all my life and I still love it to this day. Just that multiplayer games are off limits for me and many people partly because of fairness and partly because of the legal side. Generally companies won't go after you unless you create something big and disruptive to their income. but still."
+cheatengine,flbh6z4,t1_flbffo5,1585004555.0,"Doubtful, programmers these days are very aware of cheaters and the methods involved. I suspect they check if a purchase is valid on the server side, especially since they already have server sided values, it makes sense on a security and performance level. So even if you could get the value to stick on your side, the purchase will not be valid. Even a lot of older games do this. Also its kind of illegal in most states and countries to get paid digital goods for free, I'm not a lawyer, but still I recommend not digging further into server sided hacks unless you want to risk getting caught.
+
+&#x200B;
+
+Secondly, Read the rules. No online game hacks here."
+cheatengine,flbgiys,t3_flxyou,1585004168.0,I'd say that because there are only two frame counts in the options menu (30 fps and 60fps) that its hard-coded in the games Assembly Code. Which means that changing any sort of fps memory value wont cut it. You'll have to dig through the games code using a debugger or static analysis. I might recommend finding the settings data in memory and the value that decides 30 or 60 fps might be in there (perhaps a boolean? or an int?) then find what accesses it and go from there. Hope that helps
+cheatengine,flbg2sj,t3_fn5rn7,1585003903.0,"I do not think it is cheat engine. Just a completely different UI which usually isn't the goal for custom CE's (usually its custom to be undetectable)
+
+Could be a homemade mod tool or trainer of some sort"
+cheatengine,flbeu19,t3_fnp24m,1585003176.0,"This is because the values are server sided. They are not really stored on your computers memory, but stored on a remote computer/server and a copy of that value is sent to yours so the game can display it. Unfortunately this means that its very difficult to change it."
+cheatengine,flben4a,t1_fl9eczk,1585003062.0,"Actually I do recommend setting ""Enable write logging by default"" to true.
+
+That way you can undo memory modifcations if you need to"
+cheatengine,fl9f6wd,t1_fl9eczk,1584952933.0,"Say for example you want to auto attach a process to make debugging easier, or a process crashes with windows debugger, you can change it to DBVM or VEH debugger (recommended for this case)
+Or perhaps your values aren't freezing fast enough because the game updates them too quickly. this is the kind of thing you'd adapt in the settings.
+
+Basically if you encounter a problem, sometimes it can be fixed by changing settings, just google the issue and most of the time you can find an answer on what to change in settings. There is also hotkeys and tools in settings so you can set it up how you like, with your favourite tools and cheat engine functions on command. 
+
+There is no need for anyone to write a 'setup guide' because cheat engine works really well on default generally unless its for a very specific reason or game.
+
+If you have a less general query I may be able to help you further e.g. what does this option do?"
+cheatengine,fl4svj6,t3_fmir1b,1584820661.0,"Just keep to the basics for now, Worry about changing settings when it suits your needs."
+FanaticalFics,fkrzvgu,t3_fk9dev,1584479369.0,"[Hermione's Furry Little Problem](https://archiveofourown.org/works/2062614/chapters/4483347)
+Lots of smut, ron bashing, and characters are on point. Very good for a few laughs and tons of chapters.
+
+At time of posting websites under maintenance but that shouldnt be too long before its up again"
+programminghorror,fk0e5ln,t1_fjz6ax8,1583753931.0,*PHP: Hold my crack pipe.
+Anxiety,fjp3t24,t3_d56opw,1583541144.0,Ugh I hate it but same
+programminghorror,fj4g5y8,t1_fj4dw5t,1583007498.0,"We need more C++ starter classes 😂 with fully trained programmer teachers, not this willy nilly do whatever ""structure, naming and indentation doesnt matter"" people. Programming isnt just about making a computer do something, its about writing code that is HUMAN READABLE. otherwise you might as well go with full asm"
+programminghorror,fj4dw5t,t3_fbbtzx,1583006005.0,Reminds me of my own cs class. Made me sick what I saw
+wowthanksimcured,firfa7s,t3_f94cyh,1582663285.0,It doesnt make me much happier but putting time into my hobbies keeps me busy so I dont have time to dwell
+Buckethead,firev6b,t3_f9e7al,1582663058.0,"Just love how god damn heavy this Pike is, it is fucking cool"
+tippytaps,fine2y2,t1_fim01f0,1582561658.0,"Its a reference to Bioshock I think ""Would you kindly"""
+ReverseEngineering,fhvk044,t3_f4rqbt,1581898198.0,"I love it! Informative, Silly, and structured! Good stuff"
+DarkSouls2,fhrza5t,t1_fhrz3pi,1581845914.0,Also [Softban Megathread ](https://www.reddit.com/r/DarkSouls2/comments/2dnf40/softban_megathread_important/)
+DarkSouls2,fhrz48p,t1_fhrz3pi,1581845680.0,Use it in single player only!
+AskReddit,fhpxj2k,t3_f47gmb,1581796488.0,"Put on some metal, maybe black metal, and clean the fuck out of my house"
+ytp,fhlowfj,t1_fhldtx4,1581703013.0,"I third this, safest and most flexible."
+cheatengine,fgtoxnw,t1_fgsxi9l,1581107436.0,it should ask you if you have set debugger to windows debugger in ce settings if you want to break on entry.  just use create process in the process menu. orrr use x64dbg which is open source debugger that does that by default
+cheatengine,fgs1uvh,t3_f07sid,1581067256.0,Use break on entry (open process) instead so cheat engine starts the program and breakpoints on the start of the program.
+ReverseEngineering,fga8155,t1_fg9ytqs,1580647977.0,"you can actually make a new executable section And change the entry point to it using cff explorer, which is sick"
+ReverseEngineering,fg0sqyv,t1_ffxyzuk,1580414287.0,"load it into x64dbg and you can patch and save in there, just be sure to make a backup"
+ReverseEngineering,ffzi70v,t1_fftpdez,1580380404.0,"Write your own code that you already understand, compile it, then try to understand it in asm/decompiler psuedocode. Also as an extra added challenge, strip the symbols. Just like little blips of code doesn't have to be big, but it helps in understanding how it translates to assembly, because decompiling is doing the opposite."
+ReverseEngineering,ffzhopt,t3_etbl8x,1580379661.0,"So I am writing a injected C++ dll for a game, partly to develop a CheatHelper utility class. My problem is using UnDecorateSymbol from DbgHelp.h library does not demangle names like ""?SymbolNameGoesHere@@"" which pop up when I query the RTTI structures. Just curious if anyone has any insight. I will just be doing my own string parsing for now."
+ReverseEngineering,ff8p5hf,t1_ff5p2ta,1579689926.0,Could log all the changes made and make your own installer.
+lingling40hrs,ff88u53,t1_ff843w1,1579669376.0,Relatable oof. It's such a struggle its like splitting your brain in two
+cheatengine,feu6udh,t1_feu5tt5,1579383704.0,I own this game aready on steam I will do some research. Unsure about the knockback.
+cheatengine,feu5c8a,t1_fekonnu,1579383280.0,"Probs just browse memory near x,y coords to start with might find health or knockback related values. Also what game is this?"
+cheatengine,fekhgjc,t1_fekbnyr,1579200124.0,"Well if you use debugger and find what accesses them, you can find the base address of the player object. From there you can read values and make guesses and do tests to find what values do what in the memory viewer. If you can view memory and the game side by side at the same time even better, then you can see what memory changes during certain events like take damage"
+cheatengine,fekbm2w,t1_fejjweo,1579196648.0,Any other player stats you could use?
+cheatengine,fej9i7v,t3_epcugy,1579162795.0,"Try tracing through the code that accesses health when you get hit, it probs is linked in the same call chain that does the knockback"
+LiveOverflow,feg2lf4,t1_feg1wue,1579074182.0,Maybe this is something to do with protection type? There is lite and full protection. Hmm will investigate later in the week
+LiveOverflow,fed7aqb,t1_fearxif,1579002234.0,The only way is from kernel so you either need kernel debugger/driver or userland to kernel exploit
+LiveOverflow,fed5h60,t1_fecw6wc,1578999838.0,"Using windbg in local kernel mode I managed to get Csrss.exe (signed and protected exe) to be set in an unprotected state, meaning I could take full control of the process. Just if you take this route be prepared to come across BSODs, I got two from fiddling about with memory.
+
+So firstly I installed windows SDK (Debugging tools) and installed windbg), then rebooted in debug mode using command ""bcedit -debug on""
+
+Then I started up windbg, connected locally to kernel and used ""!process csrss.exe 0"" to get the base address of the process
+
+which was ffffb88e89d6c140
+
+then I used dt \_EPROCESS ffffb88e89d6c140 to read the \_EPROCESS structure
+
+searched for \_PS\_PROTECTION and clicked on the hyper link which gave me command
+
+dx -id 0,0,ffffb88e8e614500 -r1 (\*((ntkrnlmp!\_PS\_PROTECTION \*)0xffffb88e89d6c80a))
+
+that last address is the address of the bitfield \_PS\_PROTECTION, when set, makes processes protected.
+
+It is one byte in size but there are three fields, level, type and signer 
+
++0x000 Level : 0x31 '1' - bit we want to set to 0
++0x000 Type : 0y0001 - these other two probs
++0x000 Signer : 0y0011 don't matter
+
+so using command eb 0xffffb88e89d6c80a 00
+
+I wrote to the entire bitfield and cleared it. And the process became unprotected and I had full control, I even tried opening it in cheat engine and injecting code and it worked fine.
+
+There are driver based methods to do this. Potentially you can also make another process that you own protected, which can then kill the other process."
+LiveOverflow,fecr093,t3_eofs1a,1578981386.0,"Programming is a good place, it's an amazingly useful skill and RE is the opposite of compiling, so write your own programs and try to make them again or at least understand more by reading the assembly. Side by side with og code.
+
+Else you can start with web hacking (through online challenges etc."
+LiveOverflow,fea7a33,t3_eo2x1f,1578945186.0,"Article mentioned debugging is possible if you use a kernel debugger. Perhaps you could debug it with a KD and change cpu registers and cause a crash. Or something.
+
+Edit did research:
+It might be feasable that using kernel debugger you can access the EPROCESS structure for the protected process and set the bit 0x26c ProtectedProcess to zero. Thus making it unprotected. Or you can set task managers bit to 1, as protected processes can interact with eachother.
+
+Should note that EPROCESS is bound to change for different windows builds and bits (32 vs 64), various offsets here
+
+32bit
+
+Offset : Version
+
+0x02CE (6.3);
+0x02DE (10.0 to 1511);
+0x02E6 (1607);
+0x02EE (1703 to 1709);
+0x02F6
+
+64bit
+
+Offset : Version
+
+0x067A (6.3);
+0x06AA (10.0);
+0x06B2 (1511);
+0x06C2 (1607);
+0x06CA"
+Witcher3,fdjow2g,t1_fdjktkc,1578481449.0,I hate portals
+aspergers_dating,fctk77k,t1_fctjv6z,1577946227.0,Agreed. I'll do my best.
+aspergers_dating,fctimw4,t1_fcthcdg,1577944564.0,"Thanks for replying I appreciate the direct advice, I'll keep in my mind what you've said and do some thinking about it all.
+
+I feel that she doesn't realise there is a problem and she is not aware of how certain things make me feel and I haven't successfully communicated these things yet. I have tried to resolve these issues in the past but never found the right words to say. Maybe if I write my thoughts down it will help."
+sex,fcstarn,t3_ei9it1,1577924559.0,"This. I had a similar experience, but I think after a bit of retraining it had come full circle, going soft during sex is less common for me at least now. It was so stressful and embarrassing. I'd go soft changing positions as well which sometimes can't be helped. Something that helped me was retraining to loose grip and spending more time on foreplay, which helped soothe nerves and get in the mood."
+Asthma,fcsq009,t3_ee8awc,1577922187.0,"For me it comes back to bite me most summer's but during other seasons it generally settles and I only take Asmol Every now and then. It's summer here and I am having a tough time with it on top of anxiety and some occaisonal hyperventilation issues.
+It also tends to flare during stressful times or emotional times."
+cheatengine,fcsj7q3,t1_fcrjjoq,1577917615.0,Cheat engine is my favourite software of all time. Got me into programming and learning about how computer systems work
+Buckethead,fblxyt6,t1_fb2vpik,1576973207.0,Phew harder than expected I dont think I can do it 😅
+Buckethead,fb2vpik,t3_eb3yo7,1576458609.0,"I'll have a go at it this week, If not being able to play it myself at least attempt a transcribe"
+MedianXL,f76kz1v,t3_duea5j,1573429304.0,"I get the same thing, debugged it and it crashes due to invalid memory access in ntdll.dll, tried to trace it back to the origin of the crash but no luck. Best advice is just ignore them. It is a little annoying I know."
+LifeProTips,f5jlqbi,t1_f5gwznh,1572232144.0,"Can confirm, in my second year. You see so much of the bad side of humanity, it becomes overwhelming."
+MedianXL,f5ja0vm,t3_djoerw,1572223271.0,"The best replacement for late game I can think of its get Jitans Gate from Lord Aldric Jitan uberboss charm and then get 1 second off cooldown on Jitans Gate at level 120+ by getting weather control charm from  Athulua, the Amazonian Goddess in  Island of Skartara (Tran Athulua). Mind you I still have not beaten Athulua on my bear druid yet. still farming for post 120 items.
+
+Other than that, blink charges for early game on early runeword  **Pax Mystica** and place it in alt weapon slot for early game tele.
+
+Edit: for early game you could hold multiple pax mystica and swap it out in your alt to not run out of charges. not sure if worth but ye"
+ReverseEngineering,f4usst5,t3_dlwnsy,1571827470.0,Sweet! I love vintage software
+MedianXL,f4pg0jh,t3_dlaqn8,1571728645.0,Use python to scrape the data into a sortable format 😂
+cheatengine,espzibd,t1_es8oebo,1562192743.0,"Possibly OP is talking about attaching to [Physical Memory] in the process list. I am ""pretty sure"" that it may have something to do with using kernel features if thats the case."
+cheatengine,espyib0,t3_ayngde,1562192230.0,You could with item swapping if you know the ID's. Try looking for a table that has item swap capabilities on le ol google
+cheatengine,espy84l,t3_b0fyba,1562192081.0,"In that assembly code there is some mov and lea instructions that access the data, for example rax+rcx*8. This is 64bit pointer multiplication. In my example rax is the base address pointer, and rcx is the index to the array. This is i think am array access of some kind. But there is two instructions like this, a mov, then a lea(Load Effective Address) so this array is probably 2 dimensional.
+
+MOV RAX, [Win64Shipping.exe+2BF2060]
+This instruction looks like a good candidate for a base address of the array, I suggest going to that address, and investigating it."
+cheatengine,espwm3e,t3_b3i3ls,1562191294.0,"Your best bet is probably to use the buff, and scan for the buff timer, which is most likely a float, use ""value inbetween"" and at the first 3 seconds of the buff scan for between 40 and 45 and go from that point using decreased value until you find it. 
+
+From there if you find the timer it with various scans,  you can pivot from the actual timer to finding the value that sets the timer to 45 in the first place. Then you can modify it to be 90 sec.
+Finding the value that sets the timer could be as easy as looking in the adjacent memory addresses of the timer itself, or as difficult as debugging and tracing the code back to where the game sets the timers time.
+
+Alternatively you can use code injection to slow down the buff timer by half, effectively doubling your buff time. ""Find out what writes to this address"" should point you in the right direction.
+
+This is all theory crafting, I have ds3 so I can try this later, but for now thats what I would do.
+Good luck.
+
+Oh and second note, you really really should to do this stuff offline. Because its easy to get banned and forced into offline permanently. (I am 😭)"
+cheatengine,esowns2,t1_esobi23,1562175357.0,We do not condone*
+gifs,epdfzhp,t1_epah6c5,1559165589.0,"https://www.google.com/amp/s/www.tellerreport.com/amp/2019-05-29---sns-men-arrested-in--sillim-dong-rape-attempt--.SJ--4lus6E.html
+
+In english"
+gifs,epdfbye,t1_epah6c5,1559165357.0,https://m.news.naver.com/read.nhn?mode=LSD&sid1=102&oid=005&aid=0001202840
+gifs,epacqzl,t3_bu8jmj,1559125846.0,"The report says Mr A, the man in the gif, was arrested and under investigation. Hope he was found to be guilty in the end."

@@ -1,0 +1,290 @@
+LifeProTips,fqf4fnr,t3_gi7rkx,1589318553.0,"Yeah, being sexual abused at 8 was embarrassing, but I guess I matured!"
+space,fpeapaw,t1_fpeakw0,1588543746.0,Pretty much
+space,fpeaodq,t3_gcpm6d,1588543731.0,"Glad it was done my night, wouldn’t have wanted to wake the residents"
+UpliftingNews,focvlrx,t1_fo9xr8s,1587676470.0,Only until a vaccine becomes widely adopted
+UpliftingNews,fo9pbmo,t1_fo9gl2m,1587626517.0,"Lol, being shut down for only a few weeks and then waiting out the storm with strict border control is going to be a lot better for the economy than mass disruption until a vaccine becomes available"
+UpliftingNews,fo9oreo,t1_fo9o89f,1587626001.0,...what are you trying to say? We took precautions at 100 cases. We acted early. Furthermore there are comparable countries like Ireland who have been less successful because they acted later... and what do you mean not many people go overseas from NZ? It’s patently false.
+UpliftingNews,fo9on9c,t1_fo9oh6r,1587625891.0,Well ideally we maintain our border security if we successfully eradicate the virus from the local population. For the foreseeable future all overseas arrivals will be subject to a 14 day government run quarantine. The goal at this stage is to have as close to normality whilst we wait for a vaccine.
+homelab,fns0pye,t3_g2w7vz,1587208809.0,"potentially a silly comment from a noob, but how do the other VLANs access the external internet if they are not tagged VLAN 10?"
+space,fn5eyvx,t1_fn5d7cd,1586663109.0,Because the moon is very big
+AskReddit,fmoekcu,t3_fw8pve,1586256137.0,The economy...
+adultsurvivors,fm9wnjz,t1_fm9wd5d,1585878249.0,"I hope so too, there’s a lot of anxiety around it. My parter went through the process and it wasn’t for CSA over a prolonged period, but for her PTSD they did $20,000 or so which is a sum of money I can’t even imagine me getting
+
+Up until now I’ve had the “uh oh, is this Coronavirus” to distract me, but in reality it’s now shit, less than 72 hours"
+newzealand,flvr0ro,t1_flvpxk6,1585530078.0,"I can understand it from an exposure perspective that it genuinely is unlikely despite the symptoms, and he didn't rule out Coronavirus. You're right it seems strange though, hence me posting here. If I feel worse in the next few days, I may consider pushing for it."
+drones,flg7s73,t3_foo43m,1585134087.0,"I’m thinking more cinematic style footage, but thanks for the tip it would be something I could add to the few clips I can take"
+bipolar,fkq53m6,t1_fkpzshb,1584430901.0,"Oh I absolutely agree, it really is. Knowing why can help people at least try to push back though... but also be kind if you cant"
+bipolar,fkmzi2l,t3_fjg5n0,1584346505.0,"It’s mainly because you move less from lethargy and sleeping forever, and feel like eating more like a horse lol"
+Teachers,fjr9rfd,t3_feu0qq,1583583087.0,"What soul? Personally i'm a drone enthusiast who does a little bit of cinematograpy with it, which I enjoy doing. In addition I've just started a webserver where I can run a small scale home office. That one is frustrating, but takes my mind off the other things I need to do."
+funny,fjmy3by,t3_feask3,1583489800.0,"The geo teacher I work with was using it to teach geography today, instead I used the flash game pandemic 2 to teach my lesson"
+homelab,fjjlhxu,t1_fjjios4,1583401991.0,"the 192.168.122.x range isn't a necessary component, the hosts are under NAT instead
+
+I'll have a look into that, I'm a novice with networking I'll admit.
+Doing a traceroute from 192.0.225.215 is showing that the static route from 192.0.225.0 (255.255.255.0) to 192.168.0.1 is working, but it seems to stall on making it from the LAN to WAN.
+
+Thank you for your two responses, I accept the criticisms in the first, and thank you for the suggestion in the second."
+homelab,fjiq1vl,t1_fji0qvg,1583373158.0,"My current thinking is around port forwarding. I effectively only need access to a few ports on the VMs, or perhaps I set the static route to the WAN gateway address instead.
+
+The only reason I wanted the VMs to connect with the rest of the network is so I can use my browser to configure webmin etc using the local IP addresses
+
+https://imgur.com/gallery/KKnWQRx"
+homelab,fjijqp1,t1_fji0qvg,1583369161.0,"The VPS hosting is really only getting used by me on behalf of the consumers of very small scale, simple websites. The issue I've had in the past is I have until recently hosted insecure websites for my father that he has built, and the issue being that when they've been hacked, multiple sites get compromised.
+
+I'm basically doing it to continue to provide the simple hosting, but by using virtual machines, try to reduce the risk of the vulnerabilities affecting my websites for other clients. I'm not selling it as a VPS service as such. None of the sites I host record user data, the only reason a database is used is to enable the client to use the content management system backend.
+
+I understand that as a novice with networking and working as a sysadmin it's not ideal, but it's also how I'm hoping to learn. I have already learnt so much and hope to continue to on this small scale."
+networking,fjfur24,t1_fjftoet,1583300844.0,Perhaps a little rude. It’s only being used by me as the web designer to host a small number of website that I’ve designed. It’s not meant to be a huge business.
+homelab,fjfgv1a,t1_fjfch9o,1583291537.0,"would that not create a security issue exposing the currently separate subnet to the wider internet? - the machines with the static route can already ping each other, and I have established that when I make the subnet include the host, I lose access to the websites that I am hosting by placing the IP in the browser"
+homelab,fiy5ypq,t1_fiy5tcf,1582833178.0,urgh formatting seems to be going shitty
+homelab,fiy5tcf,t1_fiy5nm0,1582833095.0,"Chain INPUT (policy ACCEPT)
+target     prot opt source               destination
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:domain
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:domain
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:bootps
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:bootps
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:domain
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:domain
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:bootps
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:bootps
+ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+ACCEPT     all  --  anywhere             anywhere
+INPUT_direct  all  --  anywhere             anywhere
+INPUT_ZONES_SOURCE  all  --  anywhere             anywhere
+INPUT_ZONES  all  --  anywhere             anywhere
+DROP       all  --  anywhere             anywhere             ctstate INVALID
+REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination
+ACCEPT     all  --  anywhere             192-0-225-0.cpe.teksavvy.com/24
+ACCEPT     all  --  192-0-225-0.cpe.teksavvy.com/24  anywhere
+ACCEPT     all  --  anywhere             anywhere
+REJECT     all  --  anywhere             anywhere             reject-with icmp-port-unreachable
+REJECT     all  --  anywhere             anywhere             reject-with icmp-port-unreachable
+ACCEPT     all  --  anywhere             192.168.122.0/24     ctstate RELATED,ESTABLISHED
+ACCEPT     all  --  192.168.122.0/24     anywhere
+ACCEPT     all  --  anywhere             anywhere
+REJECT     all  --  anywhere             anywhere             reject-with icmp-port-unreachable
+REJECT     all  --  anywhere             anywhere             reject-with icmp-port-unreachable
+ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+ACCEPT     all  --  anywhere             anywhere
+FORWARD_direct  all  --  anywhere             anywhere
+FORWARD_IN_ZONES_SOURCE  all  --  anywhere             anywhere
+FORWARD_IN_ZONES  all  --  anywhere             anywhere
+FORWARD_OUT_ZONES_SOURCE  all  --  anywhere             anywhere
+FORWARD_OUT_ZONES  all  --  anywhere             anywhere
+DROP       all  --  anywhere             anywhere             ctstate INVALID
+REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:bootpc
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:bootpc
+OUTPUT_direct  all  --  anywhere             anywhere
+
+Chain FORWARD_IN_ZONES (1 references)
+target     prot opt source               destination
+FWDI_public  all  --  anywhere             anywhere            [goto]
+
+Chain FORWARD_IN_ZONES_SOURCE (1 references)
+target     prot opt source               destination
+
+Chain FORWARD_OUT_ZONES (1 references)
+target     prot opt source               destination
+FWDO_public  all  --  anywhere             anywhere            [goto]
+
+Chain FORWARD_OUT_ZONES_SOURCE (1 references)
+target     prot opt source               destination
+
+Chain FORWARD_direct (1 references)
+target     prot opt source               destination
+
+Chain FWDI_public (1 references)
+target     prot opt source               destination
+FWDI_public_log  all  --  anywhere             anywhere
+FWDI_public_deny  all  --  anywhere             anywhere
+FWDI_public_allow  all  --  anywhere             anywhere
+ACCEPT     icmp --  anywhere             anywhere
+
+Chain FWDI_public_allow (1 references)
+target     prot opt source               destination
+
+Chain FWDI_public_deny (1 references)
+target     prot opt source               destination
+
+Chain FWDI_public_log (1 references)
+target     prot opt source               destination
+
+Chain FWDO_public (1 references)
+target     prot opt source               destination
+FWDO_public_log  all  --  anywhere             anywhere
+FWDO_public_deny  all  --  anywhere             anywhere
+FWDO_public_allow  all  --  anywhere             anywhere
+
+Chain FWDO_public_allow (1 references)
+target     prot opt source               destination
+
+Chain FWDO_public_deny (1 references)
+target     prot opt source               destination
+
+Chain FWDO_public_log (1 references)
+target     prot opt source               destination
+
+Chain INPUT_ZONES (1 references)
+target     prot opt source               destination
+IN_public  all  --  anywhere             anywhere            [goto]
+
+Chain INPUT_ZONES_SOURCE (1 references)
+target     prot opt source               destination
+
+Chain INPUT_direct (1 references)
+target     prot opt source               destination
+REJECT     tcp  --  anywhere             anywhere             multiport dports ssh match-set f2b-sshd src reject-with icmp-port-unreachable
+REJECT     tcp  --  anywhere             anywhere             multiport dports pop3,pop3s,imap2,imaps,submission,urd,sieve match-set f2b-dovecot src reject-with icmp-port-unreachable
+REJECT     tcp  --  anywhere             anywhere             multiport dports ftp,ftp-data,ftps,ftps-data match-set f2b-proftpd src reject-with icmp-port-unreachable
+REJECT     tcp  --  anywhere             anywhere             multiport dports webmin match-set f2b-webmin-auth src reject-with icmp-port-unreachable
+
+Chain IN_public (1 references)
+target     prot opt source               destination
+IN_public_log  all  --  anywhere             anywhere
+IN_public_deny  all  --  anywhere             anywhere
+IN_public_allow  all  --  anywhere             anywhere
+ACCEPT     icmp --  anywhere             anywhere
+
+Chain IN_public_allow (1 references)
+target     prot opt source               destination
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:ssh ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:smtp ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:urd ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:ftp ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:pop3 ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:pop3s ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:imap2 ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:imaps ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:http ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:https ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:submission ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:domain ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:ftp-data ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:2222 ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpts:webmin:10100 ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:20000 ctstate NEW
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpts:1025:65535 ctstate NEW
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:domain ctstate NEW
+
+Chain IN_public_deny (1 references)
+target     prot opt source               destination
+
+Chain IN_public_log (1 references)
+target     prot opt source               destination
+
+Chain OUTPUT_direct (1 references)
+target     prot opt source               destination"
+homelab,fiy5hfs,t1_fixgy04,1582832904.0,For host and the VM?
+homelab,fiwnrp2,t3_fa9czf,1582794147.0,"interestingly I can't ping google.com on the host to the external internet either using the routed network/subnet, so maybe there's an issue there."
+Showerthoughts,fhwm0ia,t1_fhwkel6,1581920300.0,Then you’d just be touching the reflection of your own hand
+videos,fhk6sn9,t3_f375nl,1581669521.0,I mean... I just would have compared the mass...
+news,fhk6q5z,t1_fhk56fv,1581669424.0,"No, but they’re comparing the temperatures at the same location over time. Seems moronic to argue this point as if it’s not a big deal. These events used to occur every hundreds of years, now it’s each decade. I haven’t read the guardian posts as a New Zealander,  but it’s still a big deal."
+homelab,fhjt6yp,t1_fhh18wm,1581654886.0,"Guess I’m going to need to upskill. I understand what I have to do, but less about how to do it
+
+Do you have any good sources?
+
+Thanks btw"
+homelab,fhgk21e,t1_fhel15u,1581569305.0,"I can access it through the host and ssh in tunnelling through the host on a local machine on my network.
+
+At the moment I have an LAMP stack / Apache server on my host that’s set up fine. It’s just setting up the guests as individual VPSs
+
+I think it’s because the guests are NAT and I can’t work out the port forwarding using iptables. I think I’d rather run the host as a bridge, but I’m running into trouble doing that"
+homelab,fhgjsmb,t1_fhe0w2z,1581569088.0,"Both are running Ubuntu server LTS Bionic Beaver. I tried editing the Netplan of my host but borked everything. At the moment I have Vibr0 on my host so I imaging it’s a NAT connection and I want to convert it to bridged
+
+Really I could port forward, but tried and struggled with configuring the IP tables.
+
+I can access the guest via ssh locally on the host and tunnelling through the host.
+
+I’m trying to access the guest from another machine on my network so I can configure the ports on my router for external access"
+cringepics,fgzwu4g,t3_f0sv23,1581198454.0,"I like the font though, and with the swelling it really pops"
+homelab,ffkdhtl,t3_etwd9h,1580020977.0,It looks like a microwave :)
+adultsurvivors,ffk77q9,t1_ffi93fx,1580018053.0,"Less likely to in future, wasn’t a great experience but I guess it did keep me safe"
+adultsurvivors,ffjuxuz,t1_ffjubwz,1580007651.0,"Hope so too... just wish I was allowed out now, I’m feeling much better"
+fitmeals,ffenxo9,t1_ffejuh3,1579856570.0,"a tuber, also known culinarily as a root vegetable"
+fitmeals,ffe4vc5,t1_ffdya0y,1579836756.0,"Fruit is actually a botanical term and vegetable is a culinary term, so something can be both a fruit and a vegetable at the same time (like a tomato)"
+homelab,fdsd54f,t1_fdqc75q,1578699915.0,"Thanks, doing that now. I'm trying to turn them all into VPS facing the internet, not sure how I will get all the machines to speak to each other, and how I can back them up, or easy ways to create a new account."
+homelab,fdsczn5,t1_fdq81xu,1578699810.0,"Thank you, this is a huge step in the right direction for me"
+Showerthoughts,fczgwwl,t1_fczd8mv,1578100997.0,"So I’m other words, you’re agreeing it’s a stupid system? It’s more costly not to change things, imperial to metric conversions have lead to problems in the past"
+Showerthoughts,fczgeyd,t3_ejmbfg,1578100684.0,"It’s helpful to remember that kilo means 10^3, or 1000, so 1000 g equals a kilogram. Fun fact, this works for distance too. 1000 metres to a kilometre. Imperial measurement is just ridiculously dumb."
+AskReddit,fcohrg8,t3_ei2ba9,1577832530.0,"Well from here in New Zealand we’re entering a hellscape caused by the Australian bush fires... so climate change, prevent it in the very well established ways."
+adultsurvivors,f8fio7z,t1_f8ffhmb,1574544296.0,Yes please
+adultsurvivors,f86xzyw,t1_f86h96g,1574309822.0,"I’ve been in therapy for over a year and I guess I’m getting better, but I can’t knock the self medication. I’m still hiding."
+bipolar,f7m4dh9,t3_dwreql,1573854404.0,"My first SSRI was Fluoxetine / Prozac. My mood changed daily, not fun!"
+bipolar,f7lsta2,t1_f7lm8ts,1573847452.0,I’m imagining they want to put you on a mood stabiliser and/or and antipsychotic at the same time. That’s pretty much standard protocol
+blackmagicfuckery,f6uesqn,t3_dt1uk1,1573161918.0,"These are pretty easy to make, I used to make them as a kid. It’s effectively 2 pieces of square card folded into 16 little squares (4 x 4) and then you glue the 4 corners together.
+
+They’re really cool, the harder bit is editing the images you want on them if you’re doing it digitally, you need to make one first to work out placement"
+Eyebleach,f2tfbdf,t1_f2ted9a,1570394203.0,"A cheetah mewed when I was at the zoo once with my girlfriend at the time. I didn’t expect it, and I literally teared up. It’s so cute."
+religion,f1712y3,t1_f16yley,1569231938.0,"I do appreciate it's not the most interesting thing to those outside the country, but hopefully the research does at least have some value.
+
+It's been a good method at getting around 130 participants, just looking for 20 more so I can leave it be. It's annoying because most of them came the first time it was posted. I'd kind of hoped that posting at different times would make it more likely to pick up on those who haven't completed it yet."
+Christianity,f16vqmj,t1_f1696v3,1569225892.0,"Thank you, it’s much appreciated"
+Christian,f16pd55,t1_f16lxsh,1569219378.0,"The survey has gone through her supervisor already, and through an ethics board. Obviously people do have differences in opinions re: the validity of the questions, and that's to be expected when conducting any research /u/ForgivenAndRedeemed has already passed on their concerns as they have the right to, so these comments haven't been unacknowledged."
+Christian,f16k3sy,t1_f16g6gj,1569214862.0,"I will pass on the message, I will add though that she is a New Zealander, she studies here in New Zealand via distance learning at a University in Australia. NZ has been chosen because she lives here.
+
+It's worth adding that there is an interview portion of this research project too that would seek to corroborate any findings from the quantitative data."
+Christian,f16iqp4,t1_f16gaup,1569213784.0,Yup
+gaming,f0kv2f0,t1_f0kuukm,1568688887.0,I used to hack on it 😂 - good times
+facepalm,f0f3iyp,t1_f0d8tn6,1568577441.0,"Uh, no. Technically it’s a glass pipe, it can be used to smoke any substance that sublimates. Both crack and meth undergo sublimation, so hence it could be used for either. Crack pipe is just as accurate as meth pipe."
+fixingmovies,f0c8fq4,t3_d4aunw,1568537090.0,Well that felt like incoherent garbage. What a ramble.
+BPDlovedones,ezvs4o5,t1_ezvq9oq,1568193899.0,Holy shit. This was my pattern too.
+religion,ezqbt77,t1_ezp6nyq,1568057244.0,"Yes, unfortunately it needs to be New Zealanders at this stage"
+Christian,ezo4had,t1_ezo46jy,1568016408.0,"I don't really know what you're implying, that this research is settled? Because the literature would disagree."
+Christianity,ezo3alx,t1_ezo2vpq,1568015849.0,"Unfortunately not at this stage, but once all the results are collected, we'll post a version for non-new zealanders, there is a section if you tick that you aren't a new zealander to provide a comment for consideration but you will not be able to complete the full survey at this stage"
+Christianity,ezo2k4g,t1_ezo2b67,1568015493.0,"It is inefficient, but there aren't many nationwide religious facebook pages, and the New Zealand subreddit doesn't want research requests unfortunately."
+religion,eza8smx,t1_ez9jq4r,1567796865.0,Unfortunately it's not allowed to be posted in /r/newzealand - or at the very least the mods haven't gotten back to me. The link was removed when I tried.
+Christian,ez8yrzo,t1_ez8oerp,1567766684.0,"Funny you'd assume my Christian girlfriend doesn't understand the mind of a Christian.
+
+The questions are from two previously validated tools. Of course there will always be some difference in interpretation, but that's also where the interviews are also important, to dig deeper into the data."
+Christianity,ez8yk65,t1_ez8wx0l,1567766400.0,"Sorry, It does have to be NZ"
+AskReddit,ez8nge9,t3_d07yso,1567749936.0,Getting an early night :)
+Christian,ez8mgcc,t1_ez4giiv,1567748726.0,"Hmm. I think there's no ethical issue around posting the questions. In fact I could probably post my own survey that's international in the same format.
+
+The difference is that I wouldn't have ethical approval around a study... but then I wouldn't be publishing the results. If you remind me in a day or two lol, I can find out."
+religion,ez8mdo1,t1_ez89c8b,1567748638.0,"Would have to check with her and her supervisor re: publishing, but I'm sure it would be of interest. Will try see if it can be reproduced. It will also include interviews as well which will give really useful data.
+
+Basically the challenge at present is just around getting enough New Zealanders to fill it out (it's a shame we can't look internationally at present, but the local context is important first)."
+Christian,ez8mb8r,t1_ez4uwae,1567748559.0,"Precisely. So in addition to the survey there will be interviews too. It would be interesting to see the divide between sex positive and sex negative Christianity and why it exists / what it means for a therapeutic context.
+
+Would have to check with her and her supervisor re: publishing, but I'm sure it would be of interest."
+Christian,ez8m8du,t1_ez4uf5z,1567748465.0,"Yeah, please don't, it's the thought that counts though :)"
+newzealand,ez3wz5f,t1_ez3wwtg,1567676838.0,What about a 5 yard survey?
+newzealand,ez3t1rg,t3_czyabg,1567674354.0,The reason it's here is that it's specifically for New Zealanders
+AskReddit,eyfmfe0,t1_eycglp6,1567051154.0,"But why doesn’t it? It’s not a diuretic. At the end of the day, water is still water at a molecular level, irrespective of what it’s mixed with.
+
+Ergo, for it to not prevent dehydration, you’d have to explain why the water in sodas isn’t treated the same by the body."
+fitmeals,eydsv6t,t1_eycqlb8,1567024256.0,"You can do, it is good to do if you want a more dry end meal"
+fitmeals,eybrzm2,t1_eybofyy,1566990698.0,"What would the joke be? You get a small snaplock container, you put it aside. It tastes fine hot or cold. I feel you’re the one missing something, not me."
+AskReddit,eyavidh,t1_eyas867,1566970786.0,Alright Dr. House
+AskReddit,eyavevs,t1_eyasd2l,1566970734.0,"I mean, it has drawbacks from the sugar and the acidity, but otherwise isn’t it just as hydrating?"
+AskReddit,eyavap9,t1_eyasnv9,1566970667.0,Prader-willis? (Or whatever it’s called - I’m lazy)
+AskReddit,eyav4dw,t1_eyasufs,1566970574.0,Standard doggie bag it is!
+AskReddit,eyauzoz,t1_eyat21d,1566970512.0,What’s Cath stand for?
+AskReddit,eyauvh7,t1_eyat3t8,1566970452.0,Cool story
+Showerthoughts,eyau961,t3_cwcvqa,1566970096.0,"Unless you’re a teacher like myself, in which case it’s paying for the mistakes of others"
+fitmeals,eyaqjc2,t3_cwej5k,1566967655.0,"My go to meal lately has been to cook up some chickpeas with garlic, green chillis and frozen vegetables. Drain and add salt/pepper and curry powder."
+Fitness,ey7xi20,t1_ey7wwbs,1566904745.0,"Depends - I lost 40kg in 6 months to get to a healthy weight from obese. I felt physically great. It's not for everyone, but this is a big generalisation you've made."
+AskReddit,ey7pxw8,t1_ey7pii1,1566894684.0,He’s like a monologging bond villain. Gives you plenty of time to escape.
+AskReddit,ey7pvdr,t1_ey7pl11,1566894580.0,"Holy shit, he’d make an awesome high class villain. I know he can play bad people."
+AskReddit,ey7pu0i,t3_cvxcip,1566894524.0,John McCain - he’s killed before... I think
+AskReddit,ey7ps2h,t1_ey7pnvu,1566894447.0,I can imagine her with a ‘Hostel’ kinda murder vibe
+AskReddit,ey7pr2p,t1_ey7polz,1566894408.0,"I don’t know if it’s just because I was a teen when I last watched that, but have always felt it was criminally underrated - cheers for the reminder"
+Bedbugs,ey1znys,t3_cv5jm8,1566717798.0,"The only thing close to a sign i've seen are some blood stains on my sheets, but given I pick at back/shoulder acne regularly, that doesn't say a lot. I've been ultra vigilant, and am short on sleep because of the crawling sensation I'm now getting. Not happy.
+
+I know I'm not an expert, and thus shouldn't be thinking I could necessarily track them down, but I am covered in these red spots, I would have thought there would be at least some reasonable sign of infestation given the amount."
+ptsd,exg9llg,t3_cskhp2,1566258557.0,"Neck/back and other muscle pains, rashes, yep - I definitely get a few"
+Showerthoughts,ewlbku0,t3_copfyy,1565515731.0,5
+Showerthoughts,ewhgbzd,t3_co7zvf,1565407198.0,How does one reformat a baby?
+BPDlovedones,evnuqis,t3_ckflrk,1564632713.0,"Sometimes I miss my Ex-pwBPD, and then I read stuff like this and think... “fuck no”. There’s still some things I have to remind myself in terms of the manipulations"
+drones,euyoybu,t1_euw0k4k,1564106123.0,"But it's definitely a lot more visually impactful haha - and the better the drone is at maintaining it's altitude indoors because of the sensors, the better the demo goes. There's also the added volume of the motors that were really good at indicating an increase in thrust force to compensate for the additional weight force"
+GetMotivated,euv5ryh,t1_euv514s,1564055933.0,Or multiple!
+drones,eupikhv,t1_euphreg,1563957646.0,"I mean it's possible, but it was 5N of force added max for a short period of time so it's hard to be too concerned"
+bipolar,eup2zse,t1_eumqehq,1563950730.0,"This is the best advice! I would find I would wake to alarms but try to groggily reset it and forgot. Once I started doing this, I registered that most of the time the alarm woke me and I just forgot. There’s a huge benefit to actively having to get out of bed"
+bipolar,eup2sf9,t1_euliwr3,1563950649.0,"xD - I used to take it throughout the day, when visiting friends I would often just fall asleep on their couch when I started. Quickly into a really weird sleep. Ended up sleeping about 11 hours a day... weird times. I slept in regularly at uni, but now I’m in a professional job, I’m too scared to take it. Slept in twice already in a year and a half, and it worries me taking them now."
+drones,euo1z7e,t1_euo1rcu,1563936322.0,"Yep, made sure I did that first! Always good advice."

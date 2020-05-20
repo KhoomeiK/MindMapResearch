@@ -1,0 +1,48 @@
+java,fptrxuw,t3_gffcrw,1588897047.0,Did I miss something? None of the features listed in this article are new to 5.6.
+programminghorror,fn9zi10,t1_fn9bgq6,1586788042.0,I don’t see anything wrong here.
+mcmodfinder,fn6amqb,t3_fzsxh7,1586693668.0,Thermal’s Flux Capacitors can also be used this way. A lot of machines have power slots that you can put them in. Or are you looking for infinite power sources (but maybe limited RF/tick?)
+zzt,fkp16lq,t3_fjai04,1584399482.0,Thanks for your dedication to preserving & recreating this.
+cscareerquestions,fi4y3jr,t1_fi4dgwv,1582150795.0,"Wait, is kombucha on tap a literal thing? I’d take a significant pay cut for that as a benefit."
+RLCraft,fck0s66,t3_ehdr5u,1577713015.0,"Nice JourneyMap. Had to add it to my play-through as well. Antique Atlas is cool, but I love my mini-map and waypoint manager."
+reactjs,fblv0px,t3_edsdr5,1576971010.0,"Looking back after architecting and implementing a large-scale application using this pattern, I wish I would have gone the Redux route. Sadly, all this happened right after hooks came out and React-Redux hadn’t caught up yet.
+
+The biggest problem is when components start needing to watch multiple observables. Weird things happen regarding the order of events and valid states when each observable is updated independently. You can start grouping things together in one observable, so state updates occur simultaneously, but then you need to implement selectors and such and before you know it you’ve reimplemented Redux itself."
+feedthebeast,fbcbq93,t3_ecazpr,1576720282.0,"I ended up using Xen blocks. Not very fancy, but they do prevent mob spawns apparently. Also unless you go overboard, it’s pretty easy to finish the pack in a small area. 3x3 chunks was enough for me, not including my 1 chunk mob farm off in the distance."
+feedthebeast,fa73agj,t3_e7x0r9,1575830985.0,"Since it’s early in the pack, easiest thing to do is just manually submit it using the quest book. Hold a filled bucket, open quest book, submit, refill and repeat. It’s annoying, but only takes a minute. 
+
+Edit: I tried to automate it with hoppers the first time I did it, and it consumed the bucket with the water. At that point, it really hurt since I didn’t have a lot of iron and couldn’t afford 9 other buckets."
+feedthebeast,f8x1dlu,t1_f8vlzun,1574905608.0,"Not sure what’s in the pack, but the two things that come immediately to mind are the Feral Flare Lantern from [[Torchmaster]] or the Spectre Illuminator from [[Random Things]]."
+feedthebeast,f4joxzd,t3_djxh1t,1571623540.0,Its pretty annoying that mods get discontinued but they don’t change their license to allow ports/forks.
+RLCraft,f3vvnyu,t3_di8l8q,1571185880.0,"Yes, it’s safe. Personally, I added YABBA to store bulk items. Just make sure you add any required dependencies for the mod you add"
+RLCraft,f34lfyq,t3_dfisca,1570656093.0,"I had a similar problem. Tried a bunch of stuff, but what eventually fixed it (I think) was setting my max FPS to 60."
+RLCraft,f2gj2da,t3_dddhu1,1570231253.0,"It also turns water into Packed Ice. Use a Silk Touch enchantment, and you’ll be stocked for cooling liners."
+RLCraft,f2giw3r,t3_ddebhj,1570231189.0,"Can you include a TL;DR somewhere about what mods you removed? Curious what exactly you did to bump up the performance. Also, any chance this speeds things up in the Nether? Thanks!"
+generative,f25l3ho,t3_dby5tv,1569977267.0,"Oh, yeah, look. It’s a sailboat."
+RLCraft,f1el1ch,t1_f1ek3no,1569424640.0,"As much as I like Tinker's Construct & Armory, isn't it a little overpowered? Seems like it might undermine the increased difficulty."
+feedthebeast,f01ejdr,t3_d3292o,1568313739.0,"Echoing the desire for an E2:E equivalent without the expert recipes. I'm sure I could make my own mod pack, but I'm not sure I want to spend a lot of time trying to learn all the ins and outs of mod pack creation.
+
+For the OP, another mod you might consider adding is Mystical Agriculture (and the add-ons). For some reason, that's another big one that's not included."
+startrekgifs,eyxgqlx,t3_cz9smf,1567552926.0,Took me much longer than I’d like to admit to notice that something was off.
+css,eyozo87,t3_cxxcaj,1567286379.0,"Only way to get good at dealing with complexity and larger projects is to actually work on them. Tutorials and guides will only take you so far; most of the time, you can learn more from a couple hours of “getting your hands dirty”. Work towards your end goal, pay attention to when things start getting complex and unmanageable, and try to come up with patterns or a way to simplify it that works for YOU."
+Python,ey4j8i3,t1_ey3ot2k,1566794241.0,"Have any examples? After checking out several of their books, I avoid them in general. They seem to operate under the “throw shit and see what sticks” business model."
+softwaretesting,ewtkm45,t3_cptvc6,1565747375.0,"Just curious... what specifically in Eclipse are you using for doing the testing? On the development side of things, I vastly prefer IntelliJ, but I know Eclipse has a bigger ecosystem of modeling and testing tools."
+technews,ewt9zx2,t3_cpz7z0,1565741030.0,"I’d be less concerned with big tech. Everyone could stop visiting Facebook tomorrow and it’d die off (unlikely? Anyone remember MySpace?). I’d be more worried about ISPs and other service providers who can limit or charge for services which should be unmonitored and unrestricted. The Internet is the modern forum for public discourse, and should be protected appropriately."
+pics,ewt3qsm,t1_ewt3fqx,1565739926.0,Pineapple Orange Guava.
+depression,evzhr0n,t3_clue8y,1564957938.0,"Probably get buried, but the thing that keeps me going is the thought that I still have something left to accomplish. Might not be much, but I have this lingering feeling that I can still contribute something meaningful to the world. Maybe it’s raising my kids to be successful and productive human being or helping someone else in their goals to  achieve something. And suicide feels like giving up... damned if I’m going to go out without a fight. Life is the only challenge we have; even if you suck at it, and shit doesn’t turn out right, at least you kept fighting until the end.
+
+God bless. Feel free to reach out if you need anything."
+javascript,ev5srdd,t1_ev5dl96,1564238271.0,"Mentioned the same thing on the reviewer application form, but even as a TypeScript die-hard, I’d agree that the majority of the book should be in plain JS. Just avoid any patterns / tricks that would be very difficult to statically type. Maybe add a section explaining how TypeScript can benefit testing (or even some of the cons / drawbacks of using it).
+
+In my experience, though, strict typing in tests can sometimes be a hindrance anyways. For example, checking that passing a null value for a non-null method parameter throws an error; you’d have to add annotations to skip the type checking in the tests anyways. I had a lot of success using Groovy & Spock to test regular Java projects without all the ceremony of everything being statically typed."
+softwaredevelopment,etvt94c,t3_cdlc8g,1563244128.0,"Markdown is good, as others have recommended. If you run into formatting limitations, I’d suggest Asciidoc. Another text-based format, so checks in nicely to Git. Has a lot more standard options (tables, images, cross-references, tables, appendices, etc...) and good HTML and PDF generation."
+webdev,erxcg8d,t3_c4lyw9,1561380714.0,"This looks like some flavor of Atomic CSS, maybe using a CSS-in-JS tool like [Styletron](https://www.styletron.org/)  or something similar. Theory is that only a limited number of actual CSS rules are used in a page, so breaking the rules to one rule per selector can minimize the complexity of the style sheet."
+USMC,ertozr9,t3_c3sjr2,1561248841.0,"Missed the original post, but here goes. I’m sure this will get buried, but I hope someone who knows this Marine (either IRL or has contact with them online) remembers this: it’s not today that matters. It’s a month, six months, or a year from now that is going to matter. Next time, this Marine isn’t going to make the same “mistake” of posting on here again the next time they are at the end of their rope.
+
+Once the suicide watch ends, once they have “recovered” or been separated... Keep checking on them. Listen to how they are coping, listen to their problems, and most importantly, legitimately care for their well-being.
+
+As passé and “mo-tarded” as it sounds: never leave a Marine behind. Semper Fidelis."
+PrintedMinis,epriphp,t3_bvn5f5,1559425216.0,"Just a lurker here, not super familiar with printing minis. 
+
+However, I have had good success with small “rare-earth” / neodymium magnets for modifying war gaming minis. Mostly used the small, flat cylinder or disc magnets to mount arms, legs, weapons, turrets, etc. that I wanted to be able to reposition. They are extremely powerful, so you can get away with fairly small magnets. I’d just order a sampler set of various sizes or just pick a few to play around with. 
+
+Not affiliated, but the provider I always used was K&J Magnetics. https://www.kjmagnetics.com/products.asp?cat=1&scri=17&scri=18&scri=40"

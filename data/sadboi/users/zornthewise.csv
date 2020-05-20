@@ -1,0 +1,189 @@
+math,fqvos88,t1_fqso1wa,1589681825.0,Just a correction: It was Weil who realized that a generalized cohomology theory would imply the Weil conjectures. He didn't conjecture it in public because he thought it was too outlandish but he clearly had it in mind (and mentioned it in private conversation?). Serre bought it to Grothendieck's attention.
+math,fqp1sk5,t1_fqowc42,1589531969.0,How do you account for the fact that most working mathematicians have no idea what the ZFC axioms are and don't really use them in their day to day?
+math,fqoc3y0,t3_gjhqys,1589511946.0,"This is just how I think about things, not really rigorous but I think there's something to it: Graphs are spaces, fields (and more generally, rings) are dual to spaces (think algebraic geometry), groups more like rings than spaces."
+math,fqobrxn,t1_fqo8wg1,1589511741.0,"I don't know if it's fair to say that people in differential geometry don't think about it. It's an almost exact analogue of studying a function by studying it's taylor series at a point (if you complete after localization, it's more or less an exact analogy)."
+math,fqesmsz,t3_gig5u9,1589312925.0,"In a different vein, there is the following famous proof of the statement: ""Raising an irrational number to an irrational power can result in a rational number"":
+
+Consider x = sqrt 2^sqrt 2 and y = x^sqrt 2 = 2. Either x is rational or y is an example of what we are looking for. This doesn't quite match your criteria because we know by other methods that x is irrational!"
+math,fqes7kh,t3_gig5u9,1589312725.0,"Perhaps you would like the probabilistic method. We want to show that some structure exists with some property - like a graph on n vertices with certain properties. The idea of the proof is then to show that the probability of such a thing being true is positive and therefore there exists an example but this method offers no hope of actually constructing the candidate usually!
+
+The probability analysis is often easier because it's ""local"" in some sense. The wiki page (https://en.wikipedia.org/wiki/Probabilistic_method) has nice examples but it gets used a lot!
+
+You might also enjoy some of the examples on this page: https://en.wikipedia.org/wiki/List_of_probabilistic_proofs_of_non-probabilistic_theorems"
+math,fqaut0v,t1_fqafrx3,1589225653.0,Oh that's very cool! Do you know what methods they used?
+math,fq4zlx8,t1_fq1vyp7,1589088150.0,"But honestly, Faltings theorem is very simple to state - for any plane curve where the genus (which can be calculated easily in terms of deg + singularities) is atleast 2, there are only finitely many rational points.
+
+Gauss was already thinking about elliptic curves and rational points (see his last entry), so I am sure he would find it very interesting.
+
+The proof is of course a lot harder to explain but perhaps we can settle for Mordell Weil over rationals which can be made completely elementary, especially if we restrict to 2 torsion being rational.
+
+He would find this extremely interesting, I am sure."
+math,fq3jofb,t3_ggi065,1589067158.0,"Here's a very pretty proof that uses a little bit of algebraic number theory:
+
+Suppose there were only finitely many primes. Then any ring of integers only has finitely many primes (being finite over Z). But it's easy to show that dedekind domains with finitely many primes are UFD's. There exist rings of integers that are not PIDS - QED."
+math,fptuo3u,t3_gf8dr5,1588898618.0,"You might like this series of posts https://lovelylittlelemmas.rjprojects.net/graph-colourings-and-hedetniemis-conjecture-ii-universal-colouring/. Follow the links at the beginning back to the first post.
+
+I don't think he seriously proves anything (yet) but the categorical formulation allows a very motivated introduction to tensor products and coloring."
+math,fpaxaw8,t1_fp9qdv2,1588457639.0,I have seen this defn so many times but it never sticks. Nice observation about the angles though!
+math,fpax89l,t1_fp9yxuc,1588457596.0,"To be honest, I don't know anything about general shimura varieties, I too only know a few examples!
+
+We have a leading expert at our institution and he often half jokingly says that he doesn't know what the defn of a Shimura variety is - half joking only because it's true 🙂"
+math,fp8na5r,t3_g9voe4,1588396967.0,"Someone missed an opportunity to pause and say ""drum roll...."" somewhere."
+math,fp8n866,t3_ga7r0x,1588396921.0,"More or less. The crucial insight really is that fields are scary, groups are nice so an equivalence between them is really a very useful thing."
+math,fp8n1n5,t1_foy0md8,1588396769.0,"Mathematics is the easy bit! The rest of life is too hopelessly complicated. I don't remember who said it, probably many people."
+math,fp8mzfw,t1_fowp1gl,1588396719.0,"Is it because these correspond to the only possible regular tilings of the plane? (hexagons, ??,  triangles, squares)?"
+math,fp8mrez,t1_fp7wt6k,1588396536.0,Ooh fun stuff. It also connected critically to number theory. Pretty much all progress on the Langlands program is through studying a quotient of (Hermitian) symmetric spaces (called Shimura varieties). The easiest example (but already extremely interesting - it features crucially in Wiles' proof of FLT!) is the upper half place (which is the symmetric space) modulo SL_2(Z).
+math,fp7kbfx,t1_fp37ysm,1588372235.0,"Not the OP but in my view it allows too much random shit that we don't care about. There should be a nicer category of stuff which includes mostly things we care about (like manifolds, CW complexes, even stuff like orbifolds or what have you) but avoids the pathological examples. Maybe infty categories/simplicial sets or Scholze's new analytic geometry are closer to being the right things."
+math,fp7k1y8,t1_fp30yf7,1588372094.0,"In some sense, the biggest ""advantage"" of Grothendieck was that he had very good definitions. Proving GRR by switching to morphisms, including all commutative rings in schemes, coming up with the etale topology (ie noticing that a site is all you need) and so on..."
+math,foztdh9,t1_foyfuc7,1588196521.0,I don't really know what a good balance looks like. I have a social life I am happy with and I don't really feel pressured to produce results. I work when I feel like it (which is happily enough quite often).
+math,foyfr5q,t1_fow1223,1588171717.0,"As a counterpoint, I couldn't be happier with my PhD. I suffered a year long bout of severe depression but for reasons that had nothing to do with the program and one of the few high points throughout that was my program.
+
+I wouldn't want to do anything else :)"
+math,fol7dpq,t3_g7yrqf,1587856336.0,"How is this guy still writing stuff like this at almost 90 years of age? What an inspiration!
+
+More mathematically, it looks very interesting. I need to find some time to read it. Thanks for sharing :)"
+math,foapd2c,t3_g64xn6,1587650377.0,"I have learned pretty much all the math I know on my own (PhD student now). My strategy was to basically find a topic I found interesting, try a few books on it until I found one (or a few) that I like, and work through the text.
+
+I almost never do exercises (I did at the beginning), instead I ask questions myself and try to answer them, or I try to prove something in the text myself and if/once I fail, I go look at the proof.
+
+This strategy probably won't work for everyone but it worked very well for me.
+
+The hardest parts were for me not knowing what I should read next. I started with (analysis), Galois theory and then I was stuck because nothing seemed that interesting/approachable. I tried algebraic topology, algebraic number theory, model theory and eventually settled down to number theory/algebraic geometry."
+math,fo50u4k,t3_g5lj23,1587515101.0,"Disclaimer: It is very irresponsible to offer advice on such decisions without knowing the situation better. 
+
+That said, I am going to be irresponsible and offer advice anyway: Stay at school A. It's not worth going into significant debt for a slightly better chance at PhD programs.
+
+More significantly though, you will need to apply for PhD students next December and you will need to ask for letters a couple of months before that. At best, that gives you one year (including the summer!) to get to know professors at your new school and hopefully learn something new, do some research and impress them.
+
+This is not impossible but it's not easy and you put your PhD application at some risk. What if you don't like the new field? What if you don't get along with your advisor? What if you don't get any results in 4 months?
+
+If you stay at your current institution, you likely have an idea about the people and who you get along with and what kind of research you can do."
+math,fnwqepj,t1_fnw49i1,1587323405.0,"Definitions are definitely something to be derived. Part of the greatness of Grothendieck's school was coming up with the right definitions - correct in the sense that they were appropriate to the territory they were mapping.
+
+Fundamentally, mathematicians don't really reason from axioms (except maybe in set theory and maybe not even then). The axioms are used to describe some aspect of the fundamental structures/objects/relations we want to study and these examples really go a long way back usually.
+
+Like the integers or projective space or smooth/analytic categories etc."
+math,fnriwwp,t3_g1vcae,1587190372.0,The absolute galois group of the rationals!
+math,fnriuyj,t1_fnp975v,1587190323.0,"Haha, that's a fascinating wiki page."
+math,fnri45m,t3_g3fcls,1587189648.0,"I like Milne too, he's very thorough."
+math,fnri2j2,t3_g3icts,1587189606.0,"Deligne proved it for function fields in char p, Scholze used his tilting correspondence to prove it for hypersurfaces in projective space and toric varieties. That is pretty much all we know I think but I am not an expert."
+math,fnjbou0,t1_fninl4h,1586995752.0,"Haha, no although the fact that the real plane has the structure of a field is a wonderful result too. I mean this: https://en.wikipedia.org/wiki/Complex_multiplication"
+Physics,fngc2dm,t1_fnezgu7,1586927757.0,"Reading his post it really comes across as the opposite of that. He emphasizes many times that recent math/physics work is important and that he took inspiration from it.
+
+The message you are deriving is, as far as I can tell, completely inserted by you. Maybe his past work was more egotistical? I don't know but I don't think it applies to this latest work."
+math,fndlij7,t1_fncjc7l,1586872678.0,Second Serre.
+math,fncy50h,t3_g0qv9r,1586851332.0,"FWIW, here's the actual paper: https://arxiv.org/abs/1802.00751"
+math,fn9ehww,t3_g0fdah,1586769855.0,The theory of complex multiplication!
+math,fn8p4je,t3_g08udo,1586746735.0,"It won't hurt you certainly but it's not that important application wise. It's a fun subject and I found it personally useful so if you like it, take the class or study it on your own."
+math,fn6khz9,t3_fzujqr,1586701546.0,"I am an arithmetic geometer and use lots of category theory and almost no analysis. Nevertheless, I would suggest choosing analysis, simply because it's a bigger field and it will be easier for you to find some subfield you are really passionate about and can do research in."
+math,fn2tswz,t1_fn2r5ej,1586603026.0,"So after writing that comment, I decided to reread the book and I competely agree with you!
+
+I am getting a lot out of the book by mostly by reinterpreting his arguments using cohomology and other advanced concepts. I am honestly unsure (as in, I really don't know) how much I would get if I didn't already know a lot of homotopy theory."
+chess,fn2lzqw,t1_fn0xb1h,1586594018.0,You weren't kidding...
+math,fn2hghx,t3_fyunhi,1586589152.0,"The perfect answer to your question is to read Milnor's ""Topology from a differentiable viewpoint."" 70 pages, starts from the basics and gets to really interesting stuff. Just a very elegantly written book."
+math,fmzfwyu,t3_fvyno4,1586519035.0,"I also don't think it is widely believed. I think the general impression is that we don't know enough to say one way or the other, both for the hodge and tate conjecture."
+math,fmwiblm,t1_fmwhpx6,1586447096.0,"Oops, sorry. I don't know what I was thinking."
+math,fmwi4a8,t3_fxjzei,1586446993.0,"
+
+I have heard that Thurston's papers on foliations were incredibly hard  so it might just be this paper.
+
+In general, if it's a paper I really need to get through, then I will try and look for a big picture first. Try and see what exactly gets proved and try and break the proof up into a set of big picture ideas and recursively break down each idea into more precise lemmas and theorems.
+
+If you find a theorem that seems hard to prove or even believe, try and pick an example and run through the proof with it if you can.
+
+You can also try looking for surveys of the paper or simplifications. If it's an important enough paper, there will be loads of these with high probability."
+math,fmwg3l2,t3_fxua76,1586445959.0,"Depends on how infinite the infinite is. If you take a countable product, then the cardinality is just either countably infinite or the size of each set. There exists a generalization."
+math,fmw8wta,t1_fmvxotf,1586442008.0,"Yea, given that I would only hear of people in my field and that being good at math doesnt mean they want to be a math prof, I dont think it's too bad"
+math,fmvt4x9,t1_fmvlcn4,1586429906.0,"Just for funsies, I decided to go through the list and write down mathematicians I knew out of the top 100:
+
+* Lisa Sauermann
+* Peter Scholze
+* László Lovász
+* Ciprian Manolescu
+* Nikolai Dourov
+* Ravi Vakil
+* Jan Nekovář
+* Kiran Kedlaya
+* Jordan Ellenberg
+* Ana Caraiani
+
+So 10/100 which is...not that bad?
+
+Edit: 12 out of the next 100 I recognize."
+math,fmi5skt,t1_fmh9ctl,1586103008.0,Not necessarily. See the other reply.
+math,fmg7tv5,t1_fmf82qs,1586043088.0,"A lot of algorithms are provably fast only under GRH. Not contesting your point so much as saying ""Yes, we do design algorithms under GRH""."
+math,fm6c0hd,t3_fs8zro,1585790734.0,"This can't ""really"" be a proof because you haven't used anything special about the complex numbers. What you have really prove is that over any algebraically closed field, polynomials have roots but that's tautological."
+math,fm20xt0,t1_fm1wnxn,1585688600.0,"Thanks, that looks very interesting. It seems very vaguely reminiscent of (and in an orthogonal direction to) for instance Sato-Tate or Chebotarev.  In Sato-Tate or Chebotarev, we fix an Elliptic curve over a number ring or a number ring and vary the primes and study the distribution of associated quantities and aim to prove equidistribution results. Here, we vary the polynomial and work a fixed (archimedean) prime. Interesting!"
+math,fm1qcuq,t1_fm1ozze,1585683110.0,I mean practical in a very broad sense. Do you have a link to the statement of the thm? There seem to multiple things by the same people.
+math,fm1ocd5,t1_fm128cf,1585682070.0,You might be right. What are some practical questions about systems of polynomial equations that ag might never be able to handle?
+math,fm1o8ug,t1_fm0fnqh,1585682019.0,"Yes, I mean modern algebraic geometry."
+math,flzjqkm,t1_flygy55,1585625352.0,"It is a recent and complicated field that needs years of with get a mastery of. That said, I have heard of applications to robotics but I don't know enough to say how serious that is.
+
+I am fundamentally convinced that there will be applications to applied fields (and pretty much everything else). It is the study of the solutions of systems of polynomial equations! What can be more down to earth than that?"
+math,fly33vf,t1_fly1lqp,1585594642.0,"Yes, I would agree. But I think it is misguided to require pure mathematicans to only study things for which an application is known.
+
+It is hard to say where applications might come from so we should just let mathematicians be. Of course, I would think that...😏"
+math,fly2sbp,t1_fly2irn,1585594479.0,"I study arithmetic geometry because it helps me answer many extremely classical questuons about the integers and systems of polynomial equations, apart from being extraordinarily pretty."
+math,fly14np,t1_fly0tra,1585593617.0,Give a real example.
+math,fly017b,t1_flxzfg9,1585593040.0,"Does anyone seriously study wheels? Can you show me some serious research papers on it? Can you show that a large portion of research papers are about exploring unmotivated axioms?
+
+You are making very strong claims with very little evidence."
+math,flxx9jv,t1_flxw890,1585591563.0,Math isn't the game of defining axioms and playing with them. Euler and Gauss did not know what an axiom was and wouldn't have cared.
+math,flxu8l8,t1_flxtnuo,1585589929.0,"In my view, the point of living is to explore math/science/art."
+math,flxpstj,t1_flxph38,1585587531.0,"Why should pure math find it's way to applications? I categorically disagree.
+
+Leaving that aside, it is not true that ag has no applications to ""reality"". Look at cryptography but also a lot more."
+math,flxld1v,t1_flxervn,1585585145.0,I have yet to see any application of applied math to algebraic geometry either!
+math,flxky04,t1_flxfs5w,1585584914.0,You need to know some derived stuff for applications but infty stuff isn't necessary.
+math,fljtcbo,t3_fp912k,1585225952.0,Why are you limited to two emails? That seems bizzarre!
+math,fkzw73r,t3_flnzui,1584682298.0,"About 10 years I reckon. It feels really amazing to understand complicated math. Nothing makes sense at first and then slowly it starts to make sense and then at some point, everything clicks into place and it can start to feel obvious!"
+math,ffqfmze,t1_ffqf09k,1580133178.0,"Well, the government does fund research to some degree. Of course it could always be better, I would love it if were plausible for a candidate to run on increasing science funding and actually win. On the other hand, I am not sure the pope has the relevance he once did."
+math,ffqejln,t1_ffqdywc,1580132219.0,"There already exist such things. The Simons foundation, breakthrough prizes etc."
+math,ff23g21,t1_ff1nl67,1579492753.0,One of the older videos also had some lady with a hyperbolic space tattoo if i remember right
+math,f9n150w,t1_f9mvpqj,1575474738.0,But Adeles modulo Q is indeed important - for instance the quotient is compact. A closely related fact (that the ideles modulo units are compact) is equivalent to the unit theorem and to the class number being finite.
+math,f8uh4ef,t1_f8sme4q,1574829264.0,"For instance, you can partition the set of 4 elements into 2 sets of 2 elements in exactly 3 ways. Alternatively, find a subgroup of index 3 and act on the coset space."
+math,f8rpeua,t3_e1dljs,1574747670.0,S4 acts on the three element set non trivially!
+math,f8bm9yp,t1_f8bek4h,1574440199.0,Yes to both. Gell-Mann predicted quarks by doing something similar (if I remember right).
+math,f6r5ux7,t1_f6qsaif,1573094472.0,"It's a kind of uncertainty principle - if you know that two points are close in the usual topology, you don't know too much about their relation in the p adics."
+math,f6dw0gw,t1_f6bi8v5,1572797491.0,"Further advertisement : his only book series (orthogonal) posits a world where the metric is not semi riemannian (like our world) but riemannian and explores the mathematical /physical /sociological consequences of this world.
+
+The core plot is driven forward by the fact that time dilation would happen in reverse - people accelerating would age quicker.
+
+Amazing stuff."
+chess,f5ojxdc,t3_doinuv,1572320278.0,Where can I find the games?
+PeopleFuckingDying,f332itd,t1_f332brg,1570630576.0,Sounds right for cats.
+Showerthoughts,f0isae7,t1_f0iidm7,1568646222.0,I hope by set theory you mean at least the diagonalization argument because that is the first significant advancement in cantor.
+math,f06hzer,t3_d3y1m1,1568438295.0,"I M James, A history of topology is what you are looking for."
+math,ezvb7co,t1_eyvapna,1568172260.0,"This was a great post, I wish it had received more attention."
+math,ezc3zop,t1_ezbk59k,1567829538.0,These are really very similar and both rely on knowing something about the fundamental group of the circle. Integrating around a loop tells you something about its homotopy type which is how this idea shows up in the proof of liouville.
+math,eyr009a,t1_eyqo1uc,1567357866.0,"[Interview](https://www.google.com/url?sa=t&source=web&rct=j&url=http://personal.psu.edu/ecb5/Courses/M475W/WeeklyReadings/Week%252015/An_Interview_with_George_Dantzig.pdf&ved=2ahUKEwidnvqbjrDkAhUJA6wKHQA1BMkQFjAKegQIAhAB&usg=AOvVaw0wdXVFdR5FfbVar_vy4ea-&cshid=1567357786006) with Dantzig. It is a pdf, look at page 309"
+dataisbeautiful,eyqlp4f,t1_eyqla3c,1567347083.0,"Seeing as they sell lots of phones, it seems like people trust them anyway."
+math,eyq17o1,t1_eypht2t,1567319751.0,This story is about duality in linear optimization and is indeed about von Neumann.
+math,eyq0zxn,t1_eypq8u9,1567319459.0,Definitely include galois in the list of mathematicians who came up with something Gauss didn't. Gauss had the initial beginnings of what would become Galois theory but he didn't quite realize the depth of ideas hidden there.
+math,ey8mzen,t1_ey8ayy6,1566923745.0,Why does this show up in combinatorics?
+math,ey1ovtx,t1_ey1nmul,1566706002.0,Thanks!
+math,ey1n3dv,t1_ey1mz9w,1566704353.0,"I don't know much about that story but I was just alluding to the fact that in THH, you use the sphere spectrum as a stand in for F_1. Anything short-ish I can read to get an idea of the stuff you are talking about?"
+math,ey1l6x6,t1_ey06fxg,1566702689.0,This is really the sphere spectrum which is just S^1 in disguise.
+math,ey1kv0v,t1_ey0ikvb,1566702411.0,"I think you can just say Maps(S^1, X) factors through the category of groupoids (where Maps is without fixing a basepoint)."
+math,ey1km5f,t1_exzfkao,1566702202.0,"Let me take a stab at this. Spec Z has the problem that it is the terminal object in the category of schemes but it has too much structure. One way people try and fix it is by embedding schemes into a bigger category that does have a better terminal object. What is a common choice? We embed rings into the category of spectra and then the terminal object (initial really) corresponds to the sphere spectra.
+
+And of course the sphere spectra is just the circle with extra frills!"
+math,ey1kca9,t1_ey0dj5u,1566701974.0,"Well, graded rings really correspond to rings whose schemes have a G_m action and proj corresponds to quotienting by this action so while you might not always be a scheme, it's not too bad either.
+
+https://math.stackexchange.com/a/1038969/68188"
+math,exwk1c8,t1_exw99qe,1566620485.0,Pretty sure they are just using the same symbols. They are generalizations of the standard multiplication on numbers in two different directions.
+math,exwjg49,t1_exvx4s7,1566620251.0,"What's the cohomological proof? Anyway, the two proofs I know either use some results about curves on surfaces or use the fact that the automorphism group (scheme) is zero dimensional by deformation theory. Is this last one the proof you mean by cohomological methods?"
+math,ex16vsi,t3_cr1ozz,1565932806.0,I can think about this tomorrow but you might want to take a look at serre's algebraic groups and class fields. I remember it being quite explicit.
+math,ewwp2bf,t1_eww7dur,1565831908.0,This is a valid construction too.
+math,ewohb7p,t1_ewoggdv,1565617977.0,"Its certainly interesting to know that numbers are not algebraic. Algebraic numbers are the most widely studied class of numbers so it's certainly useful that not every real number is algebraic. But also, transcendental numbers show up while studying algebraic numbers and they are kind of a headache because we don't understand them well enough. 
+
+Other things that cardinality proves cheaply are the existence of non computable functions. More generally, the diagonalization argument is core to logic/computer science and it came up first when thinking about cardinality."
+math,ewog83b,t1_ewofcuh,1565617149.0,"Sure but it's also useless for doing anything. The usual notion of cardinality for instance lets you prove that transcendental numbers exist, essentially for free. So however unintuitive our notion of cardinality might be for you, it is a very useful notion.
+
+If you want to formalize your intuition, you should maybe fix an embedding into R, say one set is smaller than other if it's contained in the other and two sets have the same size if their difference has measure 0. I don't know if this definition is non trivial but you can try playing around with it."
+math,ewofuvj,t1_ewoc1ks,1565616864.0,"But the shortest path will still be a geodesic, right? Even in the torus, if we think of it as a quotient of R2, it seems clear that the shortest path should be a geodesic."
+math,ewc3r00,t1_ewc2b7a,1565277433.0,"I think the point is that if everyone gets a sticker, it doesn't matter towards deciding who the eventual winner is."
+printSF,ew37pj2,t1_ew1q5yy,1565067005.0,"In terms of predicting the future, I would say Greg Egan is the best in the future. You can read a book he wrote in the early 90s set later in this century and still feel like it's a completely realistic future given our current tech.
+
+His concepts are great too and take the science and consequences really seriously."
+chess,evq3baq,t1_evp4mp5,1564685522.0,The point is whatever you think the point is. I play 3+2 and I give time if the position is unclear and the other person is low on time.

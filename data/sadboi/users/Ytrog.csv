@@ -1,0 +1,149 @@
+getdisciplined,fq5tvwv,t1_fq5s8ru,1589117329.0,You're welcome 😃
+getdisciplined,fq5s36y,t1_fq5rhmf,1589115924.0,"Sleep as Android: https://play.google.com/store/apps/details?id=com.urbandroid.sleep
+
+it has multiple captcha's of which the QR-Code is one.
+
+This is the code I use: https://imgur.com/a/7KGP2Yf
+
+Created it by using `BarcodeImage[""Wake up!"", ""QR""]` in Mathematica."
+getdisciplined,fq5ps8q,t1_fq53p25,1589114002.0,I have to scan a QR-code on my fridge downstairs to turn my alarmclock off 😀
+pbsspacetime,fpqzpw6,t1_fpqznkz,1588837342.0,Good 😀
+pbsspacetime,fpqy5uu,t3_gepizm,1588835857.0,No pixel-art? 😢
+Jokes,fpqy3fj,t3_gerit7,1588835794.0,"I thought this was going to be like ""So I helped them imagine it"" 😜"
+AskReddit,fpn35y2,t3_ge5gha,1588748748.0,You really have the perfect looks for radio.
+depression,fou2zmt,t3_g9l197,1588074730.0,Hey if anything know that it is not your fault in any way. *hugs*
+AdviceAnimals,fotp431,t1_fotgzf4,1588061129.0,Soooooo ... shit hits the fan? 😜
+FuckYouKaren,folahxt,t1_fo8mhla,1587858134.0,Karennus delenda est!
+AskReddit,fo4ux2w,t3_g5cuo2,1587511705.0,"Plague Inc.
+
+
+Mwhuhahaha 😈"
+PoliticalHumor,fnp3lqo,t1_fnoy0ia,1587138622.0,Cool ^^
+PoliticalHumor,fnk8jvn,t1_fnjhwgh,1587018275.0,"Is your grandma Dutch? She signed with ""oma"", which literally means grandma in Dutch."
+techsupportgore,fmswps1,t3_fuc9ph,1586363185.0,Even ElectroBOOM wouldn't touch that 😱
+Mathematica,fmoem9w,t3_fw4g59,1586256195.0,"On this page I found some interesting options: [http://reference.wolfram.com/language/tutorial/LinearAlgebra.html](http://reference.wolfram.com/language/tutorial/LinearAlgebra.html)
+
+Especially this might be helpful if you want to initialize really big matrices:
+```mma
+SparseArray[{},{n,n}]	a zero matrix
+SparseArray[{i_,i_}->1,{n,n}]	an n*n identity matrix
+SparseArray[{i_,j_}\[ThinSpace]/;\[ThinSpace]i\[ThinSpace]>=\[ThinSpace]j->1,{n,n}]	a lower-triangular matrix
+```
+
+You could easily make a function like this:
+```mma
+genm[n_] := SparseArray[{}, {n, n}]
+```
+
+If you want to change an element it is easy:
+```mma
+a = genm[500]
+a[[1]][[5]] = 15
+
+Head[a]
+SparseArray
+```
+
+You can check that it is still a `SparseArray` with `Head[a]` which it is."
+AskReddit,fmlnmau,t3_fvq49z,1586189855.0,Nicole DeBoer and Terry Farrell. Met them both in 2018 at a Star Trek conference and I even talked to Nicole for quite a while. She was so nice and open😊
+gaming,fmgyl3n,t3_fuwm7d,1586061384.0,It is one of my favorite games as well ❤
+politics,fmbbre3,t3_fu5ukd,1585923096.0,For those that cannot read it due to a popup saying you must subsribe first: https://outline.com/TuEnnT
+pics,fm62t6p,t3_ft5syo,1585785092.0,"Happy birthday 😀
+
+I will be 35 myself in 3 weeks ☺"
+PixelArt,flvj2zk,t3_frakbm,1585524907.0,I love it 😁👍
+europe,flvdjm6,t1_flvb47t,1585521557.0,"Yeah some Dutch patients went there. Germany has over 28000 ICU beds, while The Netherlands barely has 1100 rn."
+europe,flvb0ke,t1_fltpaki,1585520061.0,"As a fellow Dutchman I share your sentiment, but am also ashamed by the lack of solidarity our government portrays."
+europe,flvaexp,t3_fr4nvw,1585519706.0,When I hear that the Dutch government is blocking (alongside Germany) relief agreements for Southern countries I feel ashamed. We are all European dammit and more importantly all human.
+europe,flv9ygh,t3_fr2828,1585519441.0,Maybe they are in a polyamorous relationship 🤔
+sbcl,fltodov,t3_fr36m7,1585481464.0,Will it be on Chocolatey? 🤞
+IdiotsInCars,flq5115,t3_fq9d0d,1585379383.0,PIT the fool!
+gifs,flnjmgg,t3_fpw2g2,1585319982.0,Anyone else seeing an orc (with fur on shoulders and head) waving his fist in that cloud? 👀
+learnmath,flgw8tk,t3_foos3a,1585151516.0,Thank you so much 🙇‍♂️
+haskell,fl8h0sr,t1_fl8fkwa,1584923486.0,Ah interesting. Thanks 😀👍
+haskell,fl8f5j0,t1_fl8f17d,1584922267.0,I meant in general. Do the communities overlap a lot?
+haskell,fl6yh9q,t3_fli8fn,1584887961.0,Cool. Are there many people who code both Haskell and Rust?
+Mathematica,fl5b0zb,t1_fl51z3x,1584832562.0,Thank you. It turned out that I could indeed upgrade 😁
+Mathematica,fl4l53k,t3_fm5ix5,1584815881.0,Do you need to pay to upgrade from 12.0?
+pics,fl3i39e,t3_fm9ase,1584785001.0,This is awesome 😁👍
+Mathematica,fl269zq,t3_fm1x1o,1584743885.0,Parameters like `t` need to be followed by an underscore like `z[t_]`
+NoStupidQuestions,fkw1cew,t1_fkun6bg,1584581234.0,Bert Haanstra made a funny video about that decades ago: https://youtu.be/63dcdWJrhfg
+AskReddit,fkrn11x,t1_fkrmd0g,1584472055.0,I have seen the same boasting about overtime here tbh. It seems to be a developer thing 👀
+AskReddit,fkrlvag,t1_fkrkzrj,1584471402.0,"Holy shit. It should not be a ""badge of honor"" as it can have very real consequences. Am still recovering."
+AskReddit,fkrjuuz,t1_fkr3dg6,1584470285.0,"I am Dutch and used to be a developer until I burned out a second time in 2018, so even here the industry isn't stress free. I cannot imagine the pressure I would've been on if I would've lived in the US 😳"
+widm,fkichrn,t3_fingqb,1584216770.0,Jeemig Miljoeschka is lekker 🤤
+emacs,fk3ej33,t1_fk3cyl1,1583829599.0,At first I thought it was in the dot language from GraphViz 🤔
+insaneparents,fjy958i,t1_fjx2797,1583692241.0,Wasn't Mary also a woodworker? 😜
+ProgrammerHumor,fjx3i3x,t1_fjx2u59,1583655015.0,"Software without bugs doesn't exist. 
+
+Is he using a fuzzer tool btw?"
+AskReddit,fjx34ph,t1_fjwgizw,1583654532.0,"Greet people with the Vulcan salute 🖖
+
+No contact required."
+AnimalsBeingDerps,fjvj34v,t3_fewdrf,1583627674.0,Is it just me or is some object flying through the view from right to left near the end? 🤔
+gifs,fjbgtqr,t1_fjbgovo,1583192963.0,They only do that with packages that are not that high in value nor require a signature and you can opt out afaik. Never had a problem with it though.
+gifs,fjbfluy,t3_fcfkzv,1583192196.0,I'm lucky that they don't leave packages on the porch here in The Netherlands. Porch pirates are therefore not really a thing here. The delivery guy just comes back later or sometimes delivers it to the neighbor when you're not home and puts a note in your postbox with which neighbor it was.
+WinStupidPrizes,fj3a3qc,t3_faziva,1582975142.0,If those are the typical American locker locks you can probably shim them faster than you can dial the code even if you knew the correct one. 🤔
+PublicFreakout,fipt2g1,t1_fio4291,1582619960.0,I'm not even American (am Dutch) and I signed the petition. Will be spreading it around.
+KidsAreFuckingStupid,fhuqil4,t3_f4s2jq,1581889126.0,At least it's good exercise 😋
+oddlyterrifying,fhmskz0,t3_f2zpfz,1581717456.0,Gallium is also fun on aluminum 😉
+explainlikeimfive,fhkbnx0,t1_fhj8xps,1581676583.0,I had the same problem. Sometimes it was so frequent that I became dizzy. They stopped on their own in my mid 20's though.
+widm,fgzfhbx,t1_fgz5ufx,1581193707.0,Hij is dus niet de mol
+widm,fgzaxna,t1_fgz8ugl,1581192463.0,"Ja haha. Hij denk vast ""mil? Je zult milf bedoelen!"" 🤣"
+widm,fgza8w4,t1_fgz79gw,1581192332.0,Zou ik ook doen. Ben een stuk handiger in wiskunde dan in een projector in mekaar zetten. Dus je kunt als eerste ook de som klaarleggen en dan de projector (laten) maken.
+widm,fgz9t88,t1_fgz7stz,1581192174.0,Alleen was er nergens gezegd dat er 250 uit moest komen; alleen dat het moest kloppen
+functionalprint,fgvlny5,t1_fguvee3,1581150306.0,You mean Fusion 360? I had that one and uninstalled it last week due to terrible performance.
+getdisciplined,fguh0oa,t3_f0bg7n,1581120589.0,Add executive dysfunction on top of that and you have a recipe for a lot of trouble 😞
+functionalprint,fgugozt,t3_f04w98,1581120355.0,What is the fastest way to learn to design things properly? I have a 3D printer and FreeCAD.
+MadeMeSmile,fgqsbsn,t3_ezu32s,1581030429.0,That's some /r/gatekeeping material 👀
+DNDNL,fgqryon,t3_ezxw5h,1581030208.0,Even gelinkt naar mijn DM in Hilversum :p
+pics,fgi4m34,t3_eyi5lj,1580805282.0,This is an awesome shot. 📸
+widm,fg7de68,t1_fg7cz18,1580589803.0,Ow dat zou ook nog kunnen. 🙈
+widm,fg7ct90,t1_fg7clvu,1580589413.0,"Nou ja ik zie sowieso twee lambda tekens, dus geen Romeinse cijfers iig"
+widm,fg7amce,t1_fg7a3la,1580587910.0,Heeft hij nou een wiskunde tattoo?
+widm,fg78t1w,t1_fg77cwm,1580586687.0,Rawwwwr indeed 😊
+nextfuckinglevel,fg78k68,t3_ex7vhr,1580586519.0,It reminds me of The Crimson King 🤔
+Mathematica,ffpnvxs,t1_ffnz9bc,1580099860.0,Sad to hear :(
+oddlyterrifying,ffnr1dg,t1_ffjvi3w,1580069600.0,Mimics 😋
+sports,fflvie5,t1_ffluh00,1580044655.0,Yeah indeed
+sports,fflfz19,t3_etua8t,1580039166.0,"Good for her, but I'm sad she didn't choose for The Netherlands 😥"
+PS4,ffla84i,t3_etypsg,1580036990.0,Horizon Zero Dawn
+Mathematica,ffjccu2,t1_fe967q7,1579995322.0,Did you manage it?
+AskReddit,ffikudm,t3_erzmpz,1579976284.0,A blackhole 😉
+pics,ffb7e4d,t1_ffabjnh,1579753844.0,Was about to say the same 😀
+AskEurope,ff8jn9d,t3_erx222,1579681596.0,We really don't wear wooden shoes nor live in windmills.🙄
+AskMen,fedccml,t3_eob5yh,1579007436.0,"I would say his name 🤔
+
+But seriously though: if he expresses love with words or actions. I am not much of a verbal guy, but I will fetch you in the middle of the night from the other side of the country if you desire."
+Mathematica,fe9a9dn,t1_fe967q7,1578935791.0,You're welcome 😄
+Mathematica,fe5x013,t1_fe3odly,1578876829.0,"Might be a format made by RadWare by the looks of it: http://www.physics.rutgers.edu/~kum/sa.html
+
+From that I found this: https://radware.phy.ornl.gov/faq.html#8.2"
+Mathematica,fe3btez,t3_enpk6t,1578847882.0,Are you sure the datapoints are 8 bits each?
+daydream,fe25avv,t3_eniy8f,1578834653.0,Sadly no. Another Google abandoned product. Reminds me to never buy any device made by Google.
+AskReddit,fe1fvcj,t3_en7n9i,1578826019.0,Seth MacFarlane. I find his humor so tacky it immediately kills the mood for me. I cannot watch either Family Guy or The Orville because of it.
+getdisciplined,fe15xj5,t3_enk8il,1578822891.0,"I think that perfection is an asymptote: you can get arbitrarily close, however you can never reach it.
+
+This thought helps me in realizing when to stop."
+AdviceAnimals,fdumeu3,t3_emteaj,1578735268.0,You should be having a Picard day 😋
+MurderedByWords,fddwo8w,t1_fddubzn,1578325807.0,Didn't the Mauryan Empire (modern day India) already have it with Ashoka's edicts? 🤔
+Common_Lisp,fd3xvn1,t1_fckywc7,1578162587.0,Why doesn't it come up when I use `choco list sbcl`?
+TwoXChromosomes,fcpvji4,t3_ei9axq,1577873052.0,Holy shit I  just read it and you really need *hugs* lots of *hugs*
+Common_Lisp,fcl22bs,t1_fckywc7,1577738115.0,Weird. That one didn't came back in my search.
+polyamory,fcjrw53,t3_eha8ai,1577701564.0,Goals 😀👍
+Common_Lisp,fcjrdyu,t3_eh507r,1577700817.0,It would be cool if it could finally be on Chocolatey 😊👍
+politics,fcjp9bk,t3_ehfb5d,1577697754.0,How the fuck can the USA still call itself a democracy 😳
+haskell,fciwp6y,t3_ehdv4c,1577671628.0,"Thank you so much 👏🙇‍♂️
+
+Btw for people that want a link: https://github.com/haskell/haskell-mode"
+AskReddit,fc2f2y6,t3_efl5oe,1577356529.0,Military grade liquid ass 🤢
+interestingasfuck,fbxgq4c,t1_fbwtfmn,1577186588.0,"I think it is a play on ""neat"" 🤔"
+news,fa9epzx,t3_e80u8b,1575870899.0,"Sad news. 😢
+
+Saw him at a Star Trek convention in Dortmund in 2018. Wonderful person."
+AskReddit,f72t9mz,t3_du5j18,1573378377.0,"Monstrous Psychedelic - Falling Down
+https://youtu.be/3_onGF67ecs"
+csharp,f68t3rj,t3_dqmfzv,1572731491.0,What year is it?
+AnimalsBeingBros,f54jypf,t3_dmptcl,1571984928.0,"Cute, however do I see the duck shivering? I hope it was put under a heat lamp soon after this 🤔"
+AskReddit,f2dq0ct,t1_f2d3w6c,1570161078.0,I have had a similar thing since high school with The Borg 🤔
+math,f09l05c,t1_f06gikh,1568503373.0,That is so cool! The related Trace Diagrams are weird too.

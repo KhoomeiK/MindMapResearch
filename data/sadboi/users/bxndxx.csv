@@ -1,0 +1,104 @@
+Nepal,fqt0459,t3_gkrqdi,1589625277.0,"[https://www.hamrodoctor.com/](https://www.hamrodoctor.com/)
+
+[https://blogortech.com/video-call-to-doctors-online-nepal/](https://blogortech.com/video-call-to-doctors-online-nepal/)"
+Nepal,fqf7xts,t3_ghpzkq,1589320218.0,"DigitalOcean. 
+
+Then a free cloudflare account sitting in front of it."
+Nepal,fqf6iii,t3_gidk73,1589319536.0,"From what I have heard the rate you are mentioning is for commercial importation.
+
+For personal imports (like yours) you will most likely be charged a 30%++ tax , plus you will have to go through the nightmare of trying to get it released from the customs department. It will not be delivered to you - regardless of your shipment method (DHL/Fedex etc).
+
+It's not worth doing it yourself... trust me.
+
+Reach out to [www.iwishbag.com](https://www.iwishbag.com) after the lockdown and after flights open up. They can import these goods direct from USA to Nepal and they will arrange delivery to you. All taxes will be included in their quoted price. You just send them a link to the website of the product you wish to buy. You will most likely get it a better deal going through them, than going alone.
+
+I have used their service multiple times and they are fantastic.
+
+Alternatively consider purchasing apple products from OlizStore etc. (although prices are probably higher)."
+Nepal,fpj76c6,t3_g95hrq,1588658612.0,"According to the news, there is only a few hundred test kits remaining.... 
+
+[https://english.onlinekhabar.com/many-labs-in-nepal-halt-coronavirus-test-as-30000-kits-are-stuck-in-singapore.html](https://english.onlinekhabar.com/many-labs-in-nepal-halt-coronavirus-test-as-30000-kits-are-stuck-in-singapore.html)"
+pics,fpgg35a,t3_gdaj19,1588601999.0,Amazing!
+Nepal,fnmjd2f,t3_g2mfxq,1587072479.0,"Happy Birthday, have a wonderful day!!!"
+Nepal,fndd27h,t1_fncewko,1586866875.0,"The simplest way to approach it is to hire a lawyer and get a quote on setting you up correctly (business registration, NRB applications, etc. etc.) . It saves having to navigate everything yourself and may help depending on whether you need to apply for licenses (depending on what you are importing). 
+
+Dealing with all the government departments is very tedious and confusing.
+
+One last tip I will give regarding any of these processes: 
+
+In Nepal it's always going to be ""no, please, no, please, no, please, maybe, please, maybe, please, ok! ok! take this and go to room 3 then 7 then 8 for signature"".
+
+Never give up on the first response. Keep going back."
+Nepal,fncn2fx,t1_fnchjzw,1586841067.0,"This is correct. Nepal customs will not allow commercial importation without payment being made via your bank with a Line of Credit or Telegraphic Transfer.
+
+You would want to consult and establish a strong relationship with a government licensed customs broker. Import procedures of Nepal are extremely frustrating and if you do not do everything correct you will face a lot of problems trying to get your shipment.
+
+[https://www.tepc.gov.np/pages/imports-transit-procedure](https://www.tepc.gov.np/pages/imports-transit-procedure)
+
+&#x200B;
+
+A summary list of documentation required to get your shipment out of customs (above the personal limit which I believe is USD100+ value):
+
+  
+
+* Nepal Customs import declaration (white colour),
+* Letter of authority of the clearing agent     to act on behalf of the importer,
+* Bill of lading,
+* Invoice,
+* Packing list,
+* Certificate of origin (this is not     strictly required except where imported goods    
+are subject to a special tariff concession on account of      their place of origin such as Tibet Autonomous Region of People's  Republic of China,     SAPTA- member countries and MFN rates for  countries     having bilateral agreements with Nepal),
+* Certificate of insurance,
+* Original CTD,
+* BBN 4 form issued by bank,
+* Certified copy of L/C,
+* Enterprise registration certificate,
+* VAT registration certificate/PAN,
+* Income tax registration certificate/PAN."
+Nepal,fna6cht,t3_g0l317,1586791868.0,"Try contacting Healthy Smiles
+
+[http://www.smilenepal.com/contact/](http://www.smilenepal.com/contact/)"
+Nepal,fn994x9,t3_g0d19v,1586763877.0,"I am not a doctor, but I would first get checked for parasitic, amoeba or worm infection. Giardia can present with these types of migraines. Best thing to do is to go see a doctor."
+Nepal,fmk3yt1,t3_fthkuz,1586143972.0,"From what I understand after reading your question, the clients website will be hosted with himalayanhosting. In this case they (himalayanhosting) should provide you with the I.P. address of the server that will host the website, alternatively they can provide you with a hostname instead that points to the I.P. address.
+
+&#x200B;
+
+Once you have one of these two options (I.P. of the server or the hostname pointing to the I.P.) you need to update the DNS record on the nameserver that is specified by the client's domain registrar.
+
+It sounds like you want them to use the name servers of himalayanhosting (ns1.himalayanhosting etc.) and update the DNS record on the himalayanhosting nameserver, yet they do not want to do this, they want to continue using their own nameservers (this is common).
+
+Therefore they need to know the I.P. of the server hosting the website or the hostname that points to the I.P. as mentioned above, so that they may update their own name server (not himalayanhosting's)
+
+&#x200B;
+
+**Some additional info:**
+
+A name server hosts DNS records for a domain.
+
+They can use their own nameservers, or they can use himalayanhosting's
+
+Either way, the DNS records have to be updated to point the domain to the server hosting it.
+
+This is done by adding either an A record or a CNAME record on whichever nameserver they choose to use.
+
+**A** records are for pointing a domain to an I.P. (where the website is hosted).
+
+**CNAME** records are for pointing a domain to a hostname (which points to the I.P. of where the website is hosted).
+
+&#x200B;
+
+The best thing to do is ask himalayanhosting for the I.P. address or hostname of the server which the website will be hosted on (if you don't know this yourself), then provide this to your client, so they may update their own nameserver and create their own A record or CNAME record.
+
+&#x200B;
+
+I hope this helps."
+Nepal,fmejs3y,t3_furfps,1586006131.0,I have opened a few with a hacksaw blade.
+listentothis,fl4k075,t1_fl41p2n,1584815181.0,Made my day. Thank you! - From the other side of the world.
+IAmA,fknzucx,t1_fknvked,1584377298.0,Really interesting to read.
+IAmA,fknzi5c,t1_fkntsjo,1584377104.0,"I believe this is exactly what they are doing. Not trying to stop it, just trying to flatten the curve and spread out the infections over a longer period of time so that the health system can cope with it. Whether it works or not is another question (as someone said below)."
+dotnet,fjcssrb,t1_fj9njau,1583235251.0,"Nothing misunderstood. You will still be able to do that. However, this would provide benefit to those who target win-x86 / win-x64 runtimes (and their end users) and have no impact on everyone else."
+dotnet,fjcr37q,t1_fj7sb15,1583233105.0,Many thanks for providing some insight - and to everyone else that commented. Appreciated.
+nextfuckinglevel,fco46a8,t3_ehua19,1577823744.0,Absolute hero. No question.
+SuicideWatch,f0ju2ee,t3_cyfpuu,1568663049.0,"My good friend was in a bad way for a few years, he spoke to me saying he always knew he was going to die young. He spoke of suicide from time to time. I always just assumed that it was him feeling awful and that he would never actually do something like that. I’m writing this, because like the OP’s comment, I too dismissed it. As stupid as it is, I just never ever believed it was a possibility. Suicide was only something you read about in the news. I remember once thinking I should reach out to his family and tell them, but then I thought... no, I’m overreacting and It will cause problems for him, he is just depressed and exaggerating because he feels so bad. I asked him to never do anything stupid like that. But still... I never took it as serious as it needed to be taken. Then one afternoon, just a few days after having spoken to him, I received a phone call that he has passed, it was suicide. This was a month ago. The regret I feel is enormous... why didn’t I take him seriously? Why did I dismiss it as an exaggeration? How could he even do that? My brain can’t connect that his words would equal actually doing it, because in my mind it’s something I could never do. I just wish I didn’t have to learn this lesson the way I have, I wish that I would have listened, I wish that he is still here. I don’t have the answer to anyone’s problems, but I just hope, whoever is out there feeling suicidal and dismissed, that you understand the ignorance of people like me. If nobody is listening, please, please, don’t give up on being heard and seeking help. I assure you it’s not because nobody cares or doesn’t love you. There is ignorance on the other side, which I will forever pay the price for and so will my friend. Stay strong everyone."
+AskReddit,ezxzf9t,t3_d2ujx3,1568253602.0,Mums cooking.
+videos,ezxyyoe,t1_ezwuju9,1568253263.0,Australian here also. I have a lot of love for the US and it’s people. Joining you all in remembrance today. I’m grateful for the friendship our two countries share.

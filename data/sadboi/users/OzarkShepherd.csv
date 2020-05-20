@@ -1,0 +1,203 @@
+Chevy,fqphvrl,t3_gjxxg4,1589546798.0,"I would get a fuel pressure gauge and test the fuel pressure.  Check it while running to see if it gets at least 55 psi.  If not then it might be the fuel pump.  Then turn it off and see if it keeps pressure.  If it loses pressure then it is the regulator or a leaking injector or some other leak.
+
+**Edit** I just noticed the mention of the MAF code.  First check for vacuum leaks, because that can confuse the computer into thinking the MAF sensor is bad.  Then replace the MAF.  I am surprised it runs at all when the MAF is disconnected, because when I have tried disconnecting mine for troubleshooting I had trouble starting.  The MAF tells the computer how much air is being used, and that data is used with data from other sensors to determine the fuel mixture."
+linux4noobs,fqgevkp,t1_fqf1ygu,1589344492.0,"It depends.  As mentioned, you would need to make a launcher item but the process is different depending on the desktop environment.  Which DE do you use?"
+linux4noobs,fqf1sxt,t3_gik7j6,1589317290.0,"Open a terminal in that folder, then type ./startup.sh"
+Chevy,fph2yi0,t3_gdfent,1588614041.0,That sticker on the fan shroud should tell you the year and the engine.
+linuxquestions,fp9uj1j,t1_fp9stva,1588434837.0,I guess that might have happened.
+linuxquestions,fp9gw9a,t1_fp9e5b3,1588425864.0,"Thank you for the ideas.  I didn't notice any odd usernames when I checked.  I just ran rkhunter.  Here are those warnings
+
+    Warning: The command '/usr/bin/egrep' has been replaced by a script: /usr/bin/egrep: POSIX shell script, ASCII text executable
+    Warning: The command '/usr/bin/fgrep' has been replaced by a script: /usr/bin/fgrep: POSIX shell script, ASCII text executable
+    Warning: The command '/usr/bin/which' has been replaced by a script: /usr/bin/which: POSIX shell script, ASCII text executable
+    ---
+    Info: SCAN_MODE_DEV set to 'THOROUGH'
+    [08:13:28]   Checking /dev for suspicious file types         [ Warning ]
+    [08:13:28] Warning: Suspicious file types found in /dev:
+    [08:13:28]          /dev/shm/sem.F8EEB26D-AB23-4061-8250-130AB5285A4A: data
+    [08:13:28]          /dev/shm/sem.9334581e-7251-4ef7-a8ec-5bfe8e89ff68: data
+    [08:13:28]   Checking for hidden files and directories       [ Warning ]
+    [08:13:28] Warning: Hidden directory found: /etc/.java
+
+I don't recognize that activity, although I do have openjdk11 installed for minecraft.  As for the files in /dev, I don't recognize them."
+schizoaffective,fp6mkub,t3_gbl8jh,1588354919.0,"It depends on the type of scan.  https://www.webmd.com/schizophrenia/ss/slideshow-schizophrenia-overview Schizophrenia and depression both show up in scans of brain activity, so schizoaffective would too."
+linux4noobs,fof3fp5,t3_g6yadd,1587724633.0,What CPU is in the computer?
+learnpython,fnp4frz,t3_g32zo8,1587139034.0,Thank you.
+learnpython,fnp1g2k,t1_fnp04mi,1587137554.0,"That worked, thank you.  Now I have a toolbar and the script works, thanks to both of you."
+learnpython,fnoy42v,t1_fnouyab,1587135793.0,"Thank you for the help.  I changed test\_win.py to 
+
+    import gi
+    gi.require_version('Gtk', '3.0')
+    from gi.repository import Gtk
+    
+    def test_object(self):
+        label = Gtk.Label(""Random App"")
+        return label
+
+That cleared the error, but now I have an empty box with a title but no toolbar.  That's another problem I keep running into; which is when I succeed in calling a script, the new script overwrites the window."
+linuxquestions,fnj9wxx,t3_g1ilfj,1586994765.0,"I am not sure what you are asking by mentioning add/remove programs.  If you have installed Ubuntu inside some kind of container or virtual machine with Windows as the host OS, then I am not sure since I haven't done that.  But if Ubuntu is installed directly on the computer, then just put the installation disc back in and let it format the hard drive while reinstalling."
+linuxquestions,fnig9fn,t3_g1ilfj,1586979479.0,"The tutorial is for Wine 4.  You are trying to install Wine 5, which has some new dependencies (faudio) from prior versions of Wine and they are NOT in the 18.04 repository.  https://wiki.winehq.org/Ubuntu  So you have a couple choices...
+
+1.  Hard Way.  Follow the links to download the faudio packages, install those, and continue with wine 5.
+
+2. Easier Way.  Purge the wine 5 install, remove the winehq ppa, and install the older wine from the Ubuntu repository (software store).
+
+3. Easiest Way.  It appears you didn't get very far setting up Ubuntu.  Reinstall Ubuntu and then install wine from the Ubuntu software store.  Stay away from wine 5 in 18.04 until you have more experience with Linux."
+linux4noobs,fnidu0b,t3_g1vyvg,1586978313.0,Dolphin and Nautilus both can connect to a server through sftp and retrieve (or place) files.
+pygtk,fnheaif,t3_fz15gj,1586960748.0,"Hi, I just came across this subreddit because I am trying to learn Python 3 and GTK+ 3 together, but I am getting confused while trying to make test apps. Would I be allowed to post my code for troubleshooting all the mistakes I am making?"
+debian,fn2fp1r,t1_fn2fgl0,1586587377.0,"The gnome tracker/indexer comes with gnome shell.  It is simple enough to eliminate this possibility, by temporarily turning it off to see if it makes a difference."
+debian,fn2f1lb,t3_fyxdlw,1586586747.0,Are you sure it isn't the file indexer causing the problem?  You could try turning file indexing/search off in the settings.
+stoicquotes,fmqyxme,t3_f7flo0,1586310095.0,"I know they are in Latin, but works by Marcus Aurelius and Epictetus were in Greek.  So I doubt either of them started the phrase.  According to the Merriam-Webster site, the first known use of memento mori was in 1598.  https://www.merriam-webster.com/dictionary/memento%20mori#h1 and the first known use of amor fati was Nietzsche according to wkipedia."
+linuxquestions,fmo04pj,t3_fwdw8y,1586240660.0,"Have you been able to play bedrock Minecraft while running the Windows OS on that laptop before switching to linux?  I am wondering if your Intel graphics is adequate for current versions of Minecraft regardless of the OS.  You might be stuck with Minecraft Java version 1.12 or earlier in linux, since earlier versions don't require as much resources.
+
+I mentioned the Android pocket edition since it was a version of bedrock that doesn't use Microsoft DRM.  People seem to have more success in linux with Google play DRM than Microsoft DRM.  The DRM is the problem for bedrock.  There is a bedrock server that can be run on Linux, but the clients require DRM and I think you aren't likely to get around the Windows store DRM.."
+linuxquestions,fmny54q,t3_fwdw8y,1586238807.0,"Bedrock on Windows 10 comes through the Windows store, so there is a digital rights management issue running it in linux.  I haven't been able to get bedrock to work on Linux for that reason, but I haven't tried very hard either.  You are more likely to have success with the pocket edition through anbox or some other Android emulator."
+Chevy,fm622mc,t1_fm5zlzp,1585784643.0,"I saw the original thread after posting here, and the guy posting about vacuum leaks is probably correct.  
+
+The power brake booster is just a big rubber vacuum diaphragm inside.  If it is leaking vacuum you might hear a hissing noise from it, especially when the brakes are stepped on.  Also, when the brakes are applied, the engine speed may change if the brake booster is leaking.  But the best way is to block the line to the brake booster and see if the engine runs different with that line plugged.  I used to just bend the hose to the booster so it would kink like a garden hose when I was checking for vacuum leaks.
+
+I forgot to mention that the screws holding the top plate of the qjet to the middle sometimes work loose over time, and that can cause vacuum leaks.  You should make sure they are snug.
+
+If you have a th350 3 speed automatic, then check that line for vacuum leaks by blocking it off to check for a change in engine speed.  That transmission had a vacuum diaphragm too.  I don't know about the th400 heavy duty transmission though, if they used vacuum or not."
+Chevy,fm5w0y9,t3_ft87s3,1585781105.0,"I would expect between 8 and 12 mpg for that truck.  What gas mileage are you getting?  
+
+I see HEI got retrofitted, which is good.  Just make sure that the resistor wire in the ignition circuit gets replaced.  Stock points needed the extra resistance, but HEI doesn't run right with it.  I forgot the color, but it is a thicker wire going through the firewall. 
+
+When new, the stock quadrajet carb was a great compromise between performance and gas mileage.  That was 50 years ago, and the equipment to build new quadrajets was destroyed by Edelbrock about 15 to 20 years ago because it was supposedly worn out.  So unless you pay big money for it to be rebuilt properly with epoxy over weak spots and new bushings at the throttle where 50 years of wear can cause vacuum leaks, you might be better off with an Edelbrock Performer carb."
+Chevy,fm3r1vc,t3_fsnthz,1585733766.0,"Checking fuel pressure is a very good start, as mentioned, however 96 should be the vortec with port injection using spider injectors which is different than TBI.  (TBI, which stands for throttle body injection, was generally reliable but lacked power, while the 96-99 vortecs with spider injectors had better power and gas mileage but were more finicky.)  Also check for vacuum leaks and the engine codes, it should be OBD 2.  A common place for vacuum leaks is the gasket around the upper intake manifold, it is really hard for me to get it to seal right.   But if the Service Engine Soon light is on in the instrument cluster, there should be a code."
+ancientrome,fm3pvqx,t3_fsvix9,1585732523.0,"Not the Senate but some believe that the Clinton's are possibly responsible for a lot of deaths.  Over 50 of their associates have died by suicide after falling outs, including Epstein.  Good luck finding anything impartial though, things are so divided here that regarding politics even the media is biased one way or the other.  Both sides demean and dehumanize the other, which should be more disturbing to people than it is.
+
+So we might already be there.  As for Rome, their lesser ability to do forensic science may have something to do with people getting away with more murder."
+RateMyNudeBody,fm03e2v,t3_ffunei,1585643119.0,"I don't want to give anyone a low rating, so I was mostly rating those who I thought were about 8 or higher.  Maybe a couple 7's.  Anyone lower I don't want to rate because I don't want to be hurtful, so that leaves me with a record of leaving mostly 8 or 9's.  So this thread makes me afraid to rate anyone, if people like me who have a record of giving mostly 9's will be banned."
+linuxquestions,flxwo6n,t3_fro51t,1585591240.0,"Wine by default converts the path to the Documents directory and some other directories into something that can be navigated by Windows programs.  So yes, if you have wine installed then by default malware can get your files in your home directory.  That includes jpg,txt,doc, and so on.  However, if you use winecfg to remove the other directories from c:, as already mentioned, then the malware will no longer be able to navigate your home directory."
+Chevy,flqimq3,t3_fq5f9t,1585396269.0,"AFM or Active Fuel Management started about 2007 for 5.3 LS engines. AFM is where some of the cylinders stop firing under light load, and they used it to meet stricter EPA regulations that were approaching.  The use of AFM could carbon up the Piston rings and lead to excessive oil burning.  That is what happened to my 2007 Chevy with a 5.3 engine.  So personally I would prefer the 2005. 
+
+ Without AFM, those engines were very long lasting if maintained properly.  I have a LS engine with about 324,000 miles on the original engine but it does need some valve stem seals replaced if not a valve job.  However cars are more than just engines and after 15 years rubber gets brittle and so check hoses and the belt and stuff because they might need replacement."
+linuxquestions,flfoh4t,t3_fodca8,1585112348.0,Use the bios/uefi.  The exact terminology for disabling integrated graphics differs by manufacturer.
+linux4noobs,flfo102,t3_fo6ows,1585111951.0,"I had a similar problem before.  I had to go into bios/uefi and disable the dual graphics.  Different motherboards will use different terminology for it, so I can't be precise."
+ancientrome,fkumons,t3_ffld0v,1584552255.0,"Epictetus was a Greek slave of a Roman.  He was freed, and became a famous Stoic philosopher.  His Enchiridion, which could be called a basic overview of Stoic thought, is still read today by people interested in Stoicism."
+linux4noobs,fkrhsq9,t3_fk46a3,1584469141.0,"I can't really read the pic, it is too blurry.  However it looks like there were some errors in the terminal so Nvidia probably did not install correctly.  Try installing and then running nvidia-detect
+
+sudo apt install nvidia-detect
+
+Then run nvidia-detect by typing the name into the terminal and hitting enter.  It will then tell you the name of the best driver that needs to be installed, if it isn't already installed.  Let us know how it responds to nvidia-detect."
+latin,fkqroyi,t3_fjpg0m,1584454001.0,"I looked around, and liked the Greco-Roman theme.  What are the rules for claiming land to build on?  I saw the two books in the courthouse at spawn about vaults, trials, and rules, but didn't notice anything about claiming land to work on.  I wouldn't want to take someone else's property."
+latin,fkqrczs,t1_fko37bo,1584453778.0,Thank you
+latin,fkq5yyd,t3_fjpg0m,1584431944.0,How well must one speak Latin to play on this server?
+Genealogy,fko6u9o,t3_fjoxuv,1584381248.0,"There are family tree programs made just for genealogy.  Family Tree Maker and Rootsmagic are both popular genealogy programs that can import/sync your ancestry.com work directly without even using a ged file.  A ged file is the standard format to transfer genealogy files.  They can be downloaded from ancestry.com and imported into any genealogy program.  Gramps is free, Rootsmagic and Legacy have free versions to try out, and there are more programs I can't remember right now."
+Chevy,fkgxjqc,t3_ffxdgl,1584179261.0,"Do you have a vacuum brake booster?  If so, the lack of power assist for the brakes was vacuum related.  I suspect the problem wasn't electrical, and you should have it checked.  Is the check engine light on?"
+Chevy,fkgx9o3,t3_fi4gmg,1584178866.0,"It could also be a vacuum leak https://www.obd-codes.com/p0171 So checking all the vacuum lines and connections would be a good start.  That particular code can be difficult to diagnose because there are so many things that can cause it.  Cracked intake manifold, leaking intake gasket, vacuum connections, vacuum lines, PCV, MAF, O2 sensor, low fuel pressure, clogged injectors, etc are all possible culprits."
+Chevy,fkg3g0y,t3_fi91r5,1584149002.0,"They should pop out if you push straight up on them one at a time.  That is what I always did.  If it is stock, it is a cheap metal bracket that bends easily.  However, if that doesn't work, use a ratchet where the hook bolts to the oil pan (you probably will have to bend the hook a little to get a ratchet in there).  It should be a 3/8"" or 7/16"" socket, I forgot which."
+debian,fk8bour,t3_fgy356,1583953059.0,"They are comparing all releases combined of Debian to one of Microsoft's releases.  It is extremely biased in that alone.  If they were serious, they would compare Debian 10 to Windows 10, and not all Debian releases combined to just Windows 10."
+linuxquestions,fk0auo7,t1_fjzx37u,1583750191.0,You need to go into the script and change the port number to the new ssh port.
+linuxquestions,fjzvtlb,t3_ffoz07,1583731108.0,"I usually do manual backups with the tar command, then retrieve the compressed file with sftp."
+linux4noobs,fjzvhlt,t3_ffp9qp,1583730772.0,"This is definitely not normal.  Some Linux distros (like Ubuntu LTS, Debian Stable, etc) can go years without problems once setup if you don't mess with it.  Many Linux users, like me, often tweak things too much.  Anyways, it sounds to me like a hardware or firmware problem.  I would suggest taking a live disk and mounting the hard drive so you can go into /var/log and look at the syslog.  You can guess at things like doing a RAM test or hard drive test, which you should check; but to find out for sure what is going on you need to look at logs right before the hang to see what errors and warnings get logged."
+latin,fjuvkxb,t1_fjslgdz,1583620677.0,"Thank you.  I was trying to say something like ""cats rule like tyrants"""
+latin,fjuv97u,t1_fjs6ch0,1583620564.0,"Thank you, I was trying to say ""this is sad"""
+latin,fjuutvf,t1_fjs0zis,1583620418.0,"Thank you.  Your trust is misplaced, I can't recall having gotten to the subjunctive yet in Wheelock. (Just present, future, imperfect, perfect, pluperfect, and currently passive.)  My dictionary said ""ut"" could be used with the infinitive.  I was trying to say something like ""it is not that I dislike dogs"""
+ClassicFord,fjut43s,t1_fju8stv,1583619936.0,Thank you.
+linux4noobs,fjusfj2,t3_fet5of,1583619808.0,"Just so I understand, you opened system monitor, sorted by CPU use, and xorg was using 36% of the CPU?"
+Chevy,fjkumbo,t3_fdyyua,1583434215.0,"Check the fuel pressure, it could be a regulator or even a pump that came bad.   Is the check engine light on while running, if so try to pull the codes.  OBD-i involves shorting a couple ports and counting flashes, it would be better to Google it."
+debian,fjjzuzf,t1_fjjvzkx,1583416752.0,Maybe try installing vcrun2008 manually with winetricks?
+debian,fjjt81x,t3_fdtfek,1583411418.0,What version of wine do you have installed?
+linux4noobs,fj9mfc8,t1_fj9k5wy,1583153617.0,Try pressing ctl-alt-f3 to get command line.
+linux4noobs,fipw441,t3_f97018,1582624469.0,"I failed to get 2016 office to work on wine or playonlinux, so it would be before 2016.  There is also the browser based office, which I believe requires a subscription.  Or you could get a subscription to codeweavers, they might have it figured out."
+linuxquestions,fif54ok,t3_f7tki9,1582385749.0,Debian Buster with gnome.  For some newer versions of apps I use flatpaks or snaps.
+Chevy,fi9d0wl,t1_fi7ro56,1582261880.0,"I drive a 99 Suburban now, I like it but it shows some wear in the interior after over 200,000 miles, lol.  Also I drive a 99 Chevy pickup, which I like but it needs some engine work after over 300,000 miles.  Both needed some work to get reliable after I bought them.  As for a SUV recommendation, it really depends on the person.  I really am partial to Suburbans or Tahoe's from about 1991 to 2006, but those trucks need work to make them reliable since they are so old.  I also like the Blazers and Trailblazers of the 2000's, or even Jeep Cherokees with the 6 cylinder engines, but due to age they will all need work to make them reliable.  For someone who wants a newer vehicle that is already still in good shape, I don't know what to recommend."
+Chevy,fi7q51b,t3_f5vhfy,1582226107.0,"Anything that old is likely going to need some repairs and maintenance.  One of the first things I do when buying an old truck is to change the engine oil, coolant, and transmission fluid.  Also I check all the rubber hoses and the belt for signs of cracking, because rubber gets brittle after 15-20 years.  Also as mentioned check the brake lines for rust, because you don't want to burst a brake line while driving.  Expect to have a couple problems to work out, but once the repairs are out of the way it should be good.  This is coming from someone with a 99 Suburban with a 5.7, and a 99 Chevy 3/4 ton with the 6.0."
+Chevy,fi7p2fr,t3_f61xmn,1582225525.0,My wife complains about Android Auto not working right in her 2016 Cruze.  I don't remember what exactly bothers her.
+Stoicism,fi7oh8e,t3_f6nklk,1582225202.0,"I read traditional Stoics, and this subreddit, and come up with my own modern adaptation of some Stoic beliefs.  As a former Christian, I remember the feeling of ""knowing"" a Deity was out there who cared about the righteous believers like me.  I no longer feel that way, but I understand where you are coming from with your providential cosmos.  Good luck with your journey."
+Stoicism,fi7mxjf,t3_f6qffs,1582224380.0,"What you describe is flat affect and possibly depression.  https://www.healthline.com/health/flat-affect I have flat affect too, it really confuses people who look for nonverbal cues in how to react.  People often don't like or trust me because of it, even though I am very honest.  The not caring about anything is a symptom of depression, especially if you don't feel any or many emotions.  I recommend you see a counselor for an actual diagnosis, because they might be able to give ideas on how to cope."
+squarebodies,fi523kv,t1_fi51cwb,1582153240.0,"Sorry I misread your post, lol.  I thought the truck was a 72 instead of 87, and was wondering why this was in squarebodies.  Doh!"
+squarebodies,fi51cwb,t3_f61xxg,1582152784.0,"I used to drive a 72 C10 as a daily driver.  It came with a 350 and quadrajet carb, plus a 3 speed automatic.  At first it was around 8-10 mpg, but as I learned to tune the carb better, added HEI ignition, and swapped a 700r4 overdrive automatic into it, it rose to about 12-15 mpg.  TBI is very reliable and adjusts itself to driving conditions, so I would guess 10-13 mpg for your setup if in good running condition."
+Chevy,fi5047n,t1_fi4z811,1582152018.0,"If you keep the stock fuel injection, it was around 270 hp.  Should be enough power for most vehicles, but it does rev a little higher to get moving than one might expect for an I6."
+schizoaffective,fi4zk7o,t3_f6hjk5,1582151678.0,"You are more likely to drown in a swimming pool than to be killed in a US mass shooting, lol.  When you think of the 300 million or so citizens of the US, if even a quarter of them are in school, it is still in the tens of millions of students versus maybe 50 killed a year in school shootings?  I don't mean to trivialize it, because any school shooting is a tragedy, but you have very small odds of being in a mass shooting."
+Chevy,fi4yl2s,t3_f6hrlj,1582151086.0,"In my 2003 Trailblazer, the I6 had an aluminum block and was mounted to a 4L60e, which is based on the 700R4.  The only problem I know of for those engines was the cylinder linings sometimes came loose in early versions.  Hopefully that was fixed by 2007.  I really liked that engine and vehicle."
+Chevy,fi4eie7,t3_f5uthn,1582139570.0,"Get it checked by a mechanic.  I had a bell sound happen though, and it turned out to be the exhaust rattling lol."
+Chevy,fi4e3fm,t3_f66ayc,1582139331.0,"I had a 2011 AWD Traverse.  It was the worst Chevy I ever had.  The Traverse is not on a truck frame, btw, it is a crossover.  
+
+The entire front has to be taken apart to replace the transmission in the AWD models.
+
+The 6 speed transmission is a car transmission.  It went out around 70,000 miles on my Traverse.  My opinion is that it wasn't strong enough for that size vehicle.
+
+I never got over 20 mpg highway with the v6 and 6 speed AWD model.  It is comparable in gas mileage to my 1999 GMC Suburban that has a vortec 5.7L v8, which is disappointing.
+
+The alternator kept going bad, and it is at a difficult place to reach.  So I got the best alternator I could get locally, and it still kept blowing diodes.  It was a hassle to warranty the alternators, and I had to pay for labor each time the alternator needed to be replaced under warranty.
+
+So I would suggest keeping the Trailblazer.  I had a 2003 Trailblazer 4wd with the inline 6, and the Trailblazer was much better in my opinion.  Not only was it more reliable and durable than the Traverse, but the Trailblazer even got a little better gas mileage than my Traverse.  Now I miss my Trailblazer."
+linuxquestions,fhy5qcn,t1_fhy4d6s,1581969140.0,"What is the point of that post?  Arch uses the newest packages that have been released, and pretending otherwise is obfuscation.  https://wiki.archlinux.org/index.php/Official_repositories So there are testing packages, but they are only held there, according to the arch wiki, when there is an unresolved conflict.  So I am correct."
+linuxquestions,fhy35zv,t3_f5cpzi,1581967590.0,"Arch Linux uses the newest packages.  So if there is a bug, you are the one finding out.  My experience is that it is buggy, but if you know what you are doing and don't mind troubleshooting then you can keep it going for years.  
+
+Debian stable is the opposite philosophy to Arch Linux.  All packages that make it to the stable version have been used in sid and the testing version, and so most bugs have already been found.  Debian stable will not upgrade to newer package versions, but it will get security updates on the packages it came with.  So Debian stable version would be more reliable than nearly anything except perhaps CentOS, as long as you don't add newer versions through backports.
+
+Debian testing version is not quite bleeding edge like Arch, but it does get upgrades to newer packages that have some testing in sid.  This is where packages are tested in preparation for the stable release.  I have testing on a computer, and have had to troubleshoot a crash in the last few months, due to the Nvidia drivers.
+
+Ubuntu LTS is similar in concept to Debian stable but gets occasional kernel and browser upgrades to newer versions.  I had an LTS crash on me years ago due to a kernel update being incompatible with the fglrx driver, and it made me furious because Ubuntu knew from bug reports from regular releases that it would break systems.  However, my son has been running Ubuntu 18.04 LTS for almost two years without any software crashes that I remember.  So Ubuntu LTS would be very stable, but not quite as stable as Debian stable.
+
+I would consider Windows 10 to be slightly more stable than Arch or comparable to Debian testing, but not even close to the stability of Debian stable or Ubuntu LTS.  My son's Windows 10 partition has broken two or three times in the last 2 years due to update problems, compared to zero times for his Ubuntu LTS partition in the same time frame.  My mother in law lost a folder of scanned genealogy files on Windows 10 due to an update on her laptop.  There have been some issues with Windows 10 updates the last few years."
+linuxquestions,fhh31w3,t3_f2zsq4,1581591491.0,"Most distros run open jdk11, which is ok for current version so of Minecraft, but it looks like you installed Oracle Java 13.  Earlier Minecraft, like 1.12 and earlier, requires Java 8."
+linuxquestions,fhh2g6c,t3_f37r3s,1581590676.0,Which Linux is it?  There are many variations of Linux.  Your problem sounds like it might be that a partition is full.  Can you post a picture or copy and paste what the error says exactly?
+RateMyNudeBody,fhagwgk,t3_f24fzj,1581409984.0,"You are so pretty.  Beautiful body, nice boobs.  9/10.  Do you play mlb the show?  I also play COD and sometimes Minecraft on the PS4."
+linuxquestions,fh3v2jf,t1_fh3r8dw,1581272538.0,"Do you have any other apps running while playing Minecraft?  I noticed when I use a screencaster for YouTube, my fps drop to about 60.  If Minecraft is the only app open when you are limited to 60 fps, try the system monitor to see if anything is using resources at idle.  CPU should be under 5-10% with nothing else running.  RAM varies with desktop environment, distro, etc but it should be under 2GB of RAM being used even with a heavy desktop like Gnome and Nvidia installed."
+linuxquestions,fh3py1d,t1_fh3p3oo,1581271200.0,"Are you using the nouveau driver?  If not, then which Nvidia driver?  Minecraft will tell you what driver it is using if you press F3 while playing."
+linuxquestions,fh3oyw5,t1_fh3oksh,1581270994.0,"How do you know Minecraft is using Vsync if it is set to off?  How fast is your CPU, how much RAM, and what graphics card are you using?"
+linuxquestions,fh3oht1,t1_fh3o23n,1581270835.0,"No, you seem to be talking about the FPS option.  Look for the VSYNC option.  It will either say ""vsync on"" or ""vsync off"""
+linuxquestions,fh3nzzd,t3_f1bihy,1581270678.0,"For Minecraft, you turn vsync off in the options part of Minecraft settings.  So you turn it off in Minecraft itself."
+debian,fh3li7c,t1_fh39ddl,1581270080.0,"Even though Debian is not security focused, it has been much safer for me than Windows ever was, probably due to app permissions, difficulty in making malware for up to date Linux machines, fewer malwares targeting Linux in general, etc.  So don't get confused when it is said that Debian is more stability focused than security."
+Chevy,fh2941d,t3_f0yo57,1581241183.0,"The 95 was probably not a roller cam, while vortecs came with roller cams as I understand.  For the block, that is the only difference I can think of.  As for the heads and intake, those had more significant differences."
+linuxquestions,fguj90a,t3_f0cbi4,1581122175.0,"Most wireless firmware and CPU microcode is proprietary.  In that case non-free would probably help.  But if you will use Ethernet and don't care about CPU firmware updates, then FOSS will be fine."
+linux4noobs,fguipac,t3_f0cr86,1581121790.0,"I have a Plex/Minecraft/storage server for my house running on Debian 10 with no GUI.  I just access it with ssh.  Specs are 8 GB RAM and a 3.x GHz dual core AMD CPU.  If you use a GUI on the server, that might be inadequate, but without a GUI it is ok for my family.  
+
+Plex only uses a lot of CPU when a lot of new media is found, like right after installation.  Once everything is transcoded, it uses less than 1% of the CPU.  I haven't checked CPU use while someone is streaming though.
+
+Minecraft 1.15 can max out both cores when there are 3-4 players exploring on my server.  I have 6 GB RAM allocated in the startup script.  I know people say Minecraft only uses a single core, but that is not my experience on recent server editions. 
+
+I would recommend installing screen so that you can start Minecraft with it through ssh and still have it running when you close the terminal.  Also I would recommend lm-sensors so you can check the CPU temp during high use.
+
+It isn't that hard.  I took a class in C in college 20 years ago, and barely passed.  That is the extent of my CS training.  About 10 years ago I started with Ubuntu for my desktops, and learned through doing."
+linuxquestions,fgoahu9,t1_fgoa08n,1580963926.0,"Or once you see the BIOS screen, keep tapping the SHIFT button until grub shows.  If you system is UEFI, then use the ESC button instead of SHIFT.  This should make grub show up."
+linuxquestions,fgoa08n,t1_fgo6j72,1580963542.0,"Anytime you change the grub, you have to run 
+
+sudo update-grub2
+
+in order to make it permanent.  So try changing the timeout again but then update the grub before rebooting.  Now it should show the grub."
+linuxquestions,fglxm4u,t1_fglu08y,1580913423.0,"Upnortheh has a good idea in getting the updates out of the way.  Another way to update without the GUI crashing the system is to just switch screens.  Press Ctrl-Alt-F3 and it should let you log in through terminal.  Then run your dpkg command after logging in without GUI.
+
+Also make sure the intel-microcode is installed."
+linuxquestions,fgjvdgx,t1_fgjumc2,1580852127.0,Codeweavers or an earlier version of office might be what you need.  2016 supposedly works with codeweavers.  https://www.codeweavers.com/compatibility/crossover/microsoft-office-2016
+linuxquestions,fgjtyt5,t3_eytwp4,1580851347.0,"I tried office 2016 on wine, then on playonlinux, and failed.  I couldn't get past the drm before installing the apps.  However I know 2003 office works on wine, lol.  I like libreoffice better than 2003 office and have self published a couple 300 page books with libreoffice.  While libreoffice can save .doc files, when the .doc is very large or the right fonts aren't installed and used, the .doc might look different when opened with Word.  Codeweavers might get Office 2016 to work but it is a yearly subscription.
+
+You might look into pre-2016 office if you have to share .doc or .docx files with Windows users, because that might work.  Make sure you install the Ms fonts though.  Check the winehq database.  If you don't have to share files with Windows users, then Libreoffice should be adequate."
+linuxquestions,fgjqavv,t1_fgh5bql,1580849289.0,"From the other posts, you have a graphics problem.  Two more things to narrow it down.
+
+1. Log into xorg instead of Wayland and see if it makes a difference.  You should have the option at the login screen, there should be a gear icon below where you enter the password.  Click the gear, then make sure Gnome on X or something like that is checked.  I forget the exact wording.
+
+2. Pull out the graphics card and use the integrated graphics as a test, just to make sure it isn't the card."
+linuxquestions,fgh1eup,t3_eyggwi,1580774400.0,"Keep track of what time it crashes, then go into the syslog to see if anything gets registered into that log at that time.  The syslog is in /var/log"
+Stoicism,fg7q7u5,t3_exdy14,1580598723.0,"Adam Smith, who first articulated capitalism, studied Stoicism.  Granted, modern global corporations are not in his Wealth of Nations.  His book paved the way for the impoverished peasants to transition from feudalism to relative wealth under capitalism.  But he worked on a national scale and did not envision corporations importing foreign labor to drive down wages, which is what happens now.  Still his economic policies have raised hundreds of millions out of poverty so that the poor in the US, for example, have luxuries unheard of by the monarchs of the middle ages.  The essentials for a capitalist society, including rule of law and individual freedom, are not against Stoicism.  Now the greed and corruption of the modern global corporations is not in line with Stoicism as I understand it."
+linux4noobs,fg7iu8r,t1_fg7hpss,1580593573.0,"Also, your computer should not be randomly restarting during the update process.  You might have a hardware or firmware problem.  If it keeps randomly restarting let us know."
+linuxquestions,fg7ifgj,t3_excz0v,1580593287.0,"If you install screen, then you can do this.  https://linuxize.com/post/how-to-use-linux-screen/"
+linux4noobs,fg7hpss,t3_exc9qy,1580592791.0,"Do you have access to an account with sudo privileges?  Basically you have to log into the terminal with the admin account name and password first, and then run the sudo apt update command. 
+What I suspect happened is that the computer crashed during the update and that the GUI is broken.  If it loads enough to access the internet and let you log in with an admin account, then this is fixable.  Without an admin account and internet, it will be much harder."
+linux4noobs,fg7fy0b,t3_exc9qy,1580591551.0,"Does the computer show a BIOS screen?  Where does it stop booting?  Does it show the grub?  Are you able to log into the terminal?  If you can log into the terminal, run
+
+sudo apt update
+
+sudo apt upgrade
+
+Then see what happens."
+Chevy,fg3rc5b,t1_fg3nf2j,1580487999.0,"After a GM car with OnStar is in an accident, the OnStar system gets notified and a representative will call to check on the driver.  If the driver does not respond (perhaps he got out before they could contact him?) then I could see OnStar calling 911 for the driver.  I thought the OP was trolling too until I remembered being rear ended in my first Cruze and being surprised when OnStar checked on me through the car speakers.  Now I am on my 2nd Cruze, they are really good cars for the price."
+linux4noobs,ffzx3za,t1_ffzqtwj,1580395146.0,"Click on the libfaudio link that ends in .deb and it should download.  A .deb file is like a Windows .exe for Debian based distributions.  So after it downloads, right click and open with whatever package manager you have, like gdebi or synaptic or software manager.  I don't remember what Mint uses."
+linux4noobs,ffzpgbw,t1_ffzjx60,1580388957.0,"If you already added that repository the first time you installed wine, then you shouldn't need to add it again.  An apt update and upgrade after installing the deb files for libfaudio I linked in the other response should fix this."
+linux4noobs,ffzp4rk,t1_ffzg0we,1580388657.0,"Download the libfaudio deb file here https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/amd64/ and here https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/i386/ then install them.  Then try running
+
+ sudo apt update 
+
+sudo apt upgrade
+
+and see what errors it gives you now.  It might tell you to run a fix-broken install (I forgot the correct wording).  If you have trouble let us know."
+debian,ffz0b8u,t3_evzdwn,1580359916.0,"The Buster 4.19 kernel hasn't received an update since early November either, although some other packages occasionally get updated.  I am getting concerned too."
+linuxquestions,ffyzq84,t3_evmj6c,1580359437.0,Check out the new dependencies at winehq.  https://wiki.winehq.org/Debian it isn't in the repository for Debian 10 or Ubuntu 18.04 so follow the link to get more info and where to get the faudio packages.
+linux4noobs,ffyypab,t3_evrpz0,1580358591.0,"The new version of wine stable has new dependencies, if you are getting it directly from winehq.  https://wiki.winehq.org/Ubuntu These dependencies are not in the Ubuntu 18.04 repository so that is possibly why you couldn't find them.  They are the 32 bit and 64 bit faudio packages, and are available from the opensuse build services (OBS). Follow the links for more info and for the packages."
+linuxquestions,ffej52b,t3_et6azb,1579850137.0,Use the TurboTax website.  I've filing with TurboTax through the website for many years.
+linux4noobs,ff9p1h2,t3_eselj9,1579717693.0,It looks to me like modesetting is misconfigured.  https://wiki.archlinux.org/index.php/kernel_mode_setting#Disabling_modesetting

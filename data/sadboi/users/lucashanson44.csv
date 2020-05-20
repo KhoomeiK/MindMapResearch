@@ -1,0 +1,203 @@
+Terraform,fm5z87r,t1_fm5di1n,1585782981.0,You got it!
+Terraform,flansvx,t1_flakxiw,1584987545.0,"In this block example, ""web"" is just a TF resource address and would not determine the name of your instance."
+Terraform,flanf9k,t3_fno3wq,1584987327.0,"It sounds like maybe you want something like this ?
+
+    variable ""hosts"" {
+      type    = list
+      default = [""server01"",""server02""]
+    }
+    
+    resource ""aws_instance"" ""this"" {
+      count                  = length(var.hosts)
+
+      tags = {
+        Name = var.hosts[count.index]
+      }
+
+      # ETC.
+    }"
+Terraform,flagbn3,t3_fnhw55,1584983307.0,"Might have to do with the type constraint of that module variable: ""ecs_target""
+
+https://www.terraform.io/upgrade-guides/0-12.html
+See: 
+> To fix this, change the type argument from list(string) or map(string) to a more appropriate type constraint."
+Terraform,flack9f,t1_fl9exup,1584981182.0,"Set ""backup_retention_period"" to 8 or some other value to validate you can make immediate modifications via Terraform. As long as that flag is yet there should be no issue.
+
+If you didn't run Terraform again the maintenance window made those modifications."
+Terraform,fl9263t,t3_fl8ufn,1584938634.0,"Here's an example for you:
+
+    resource ""aws_route53_health_check"" ""check"" {
+      fqdn              = ""example.com""
+      port              = ""80""
+      type              = ""TCP""
+      resource_path     = ""/""
+      failure_threshold = ""3""
+      request_interval  = ""30""
+
+    }
+
+    resource ""aws_route53_record"" ""primary"" {
+      zone_id         = var.zone_id
+      name            = ""something.example.com""
+      type            = ""A""
+      health_check_id = aws_route53_health_check.check.id
+      records         = [var.ip]
+
+      failover_routing_policy {
+        type = ""PRIMARY""
+      }
+
+    }
+
+    resource ""aws_route53_record"" ""secondary"" {
+      zone_id  = var.zone_id
+      name     = ""something.example.com""
+      type     = ""A""
+      ttl      = ""300""
+      records  = [var.ip]
+
+      failover_routing_policy {
+        type = ""SECONDARY""
+      }
+
+    }"
+Terraform,fl91862,t1_fl5qeg0,1584937844.0,"You **must** create a new cluster when restoring a snapshot: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_RestoreFromSnapshot.html.
+
+I'd think Terraform would tell you it would want to replace the resource on a Plan when setting that attribute."
+Terraform,fl90hj3,t3_flt2do,1584937217.0,"See ""apply_immediately"": https://www.terraform.io/docs/providers/aws/r/db_instance.html#apply_immediately
+
+Set that to **true**. Otherwise you are waiting until the next maintenance window... :)"
+Terraform,fl904vm,t3_flgdmw,1584936927.0,"You can explicitly set your vars.
+
+      -var 'foo=bar'         Set a variable in the Terraform configuration. This
+                         flag can be set multiple times.
+
+Not sure if that's what you are looking for.
+
+I also always make sure to set defaults to any appropriate variables."
+Terraform,fl8zuiy,t3_flk79y,1584936690.0,"This is a fun one. I've done this before for non-prod environments and usually I'll add something a command to cycle instances in my deployment pipeline.
+
+I might run:
+    
+    terraform apply
+    aws autoscaling update-auto-scaling-group --auto-scaling-group-name $ASG_NAME --min-size 0 --max-size 0 --desired-capacity 0
+    sleep 60
+    aws autoscaling update-auto-scaling-group --auto-scaling-group-name $ASG_NAME --min-size $ORIGINAL_MIN --max-size $ORIGINAL_MAX --desired-capacity $ORIGINAL_DESIRED
+
+If instances need to stay available, apply the same logic but double the size of the asg, wait for the new instances to come up and then adjust back to normal size."
+Terraform,fl8z6r0,t3_flyco6,1584936165.0,"Here's how I grab the latest Windows Server AMI in Terraform config.
+
+    # Latest  Windows Server AMIs
+
+    data ""aws_ami"" ""this"" {
+      most_recent = true
+
+      filter {
+        name   = ""name""
+        values = [""Windows_Server-2019-English-Full-Base-*""]
+      }
+
+      owners = [""801119661308""] # Microsoft
+    }
+
+
+Here's how I reference a powershell script:
+    
+    data ""template_file"" ""worker_userdata"" {
+      template = ""${file(""${path.module}/files/userdata.ps1"")}""
+    }
+
+I'd handle the install in **userdata**.
+
+
+Here's how I might reference that userdata file and the AMI: 
+
+
+    # EC2 Instance
+    resource ""aws_instance"" ""this"" {
+      count                  = var.instance_count
+      ami                    = data.aws_ami.this.id
+      instance_type          = var.instance_type
+      vpc_security_group_ids = [aws_security_group.this.id]
+      iam_instance_profile   = aws_iam_instance_profile.service-catalog.name
+      subnet_id              = element(random_shuffle.subnets.result, count.index)
+      key_name               = var.key
+      user_data  = data.template_file.worker_userdata.rendered
+      lifecycle {
+        ignore_changes = [ami]
+      }
+
+      root_block_device {
+        volume_type           = var.root_volume_type
+        volume_size           = var.root_volume_size
+        delete_on_termination = var.root_volume_dot
+        encrypted             = var.root_volume_encrypted
+      }
+      tags = {
+        Name = var.name
+      }
+    }"
+Terraform,fl8yohu,t3_fn8h35,1584935770.0,"Is it just EC2 instances (or other compute) you need to have ""scheduled"" or do you need to undo all terraform managed resources daily? 
+
+For the former I usually use a scheduled lambda or scheduler of some sort to turn compute on/off. Cloud Custodian is an awesome tool to implement governance like this. See: https://cloudcustodian.io/docs/quickstart/offhours.html
+
+If it's everything Terraform managed, I don't see any other good option outside of a scheduled ""terraform destroy"". That needs to happen on CI, a Lambda or if you have to your local.
+
+Made the assumption you are managing AWS resources here, but same approach would follow for other clouds."
+Anxiety,fl35tsj,t3_flvow6,1584769843.0,Always
+Terraform,fl346v9,t1_fl2f9fx,1584768241.0,"Workspaces only pertain to terraform state. 
+> Certain backends support multiple named workspaces, allowing multiple states to be associated with a single configuration. The configuration still has only one backend, but multiple distinct instances of that configuration to be deployed without configuring a new backend or changing authentication credentials.
+
+Tfvars files are just used to pass variable values to terraform configuration at runtime.
+
+    terraform apply -var-file=""environments/dev.tfvars"""
+Terraform,fl33bnt,t3_fm1tg0,1584767442.0,"I use workspaces and usually handle deployment with something like this.
+
+    #!/bin/bash
+
+    # This script takes 2 inputs, an ENV, and a Terraform execution command (plan or apply).
+    # It is a wrapper script to be used in conjunction with a CI component and
+    # programmatically run the Terraform tools for managing infrastructure.
+
+
+    # Echo commands in the shell
+    set -x
+    set -e
+
+    # Set variables
+    ENV=""${1}""
+    EXEC=""${2}""
+
+    ### Select Environment
+    cd environments/${ENV}
+
+    ### Terraform
+    terraform --version
+    terraform init
+    terraform workspace select ""${ENV}"" || (terraform workspace new ""${ENV}"" && terraform workspace select ""${ENV}"")
+    terraform init
+    terraform validate
+
+    if [[ ${EXEC} == ""plan"" ]]
+    then
+      terraform plan -var-file=""${ENV}.tfvars"" -out=""${ENV}.tfplan""
+    fi
+
+    if [[ ${EXEC} == ""apply"" ]]
+    then
+      terraform apply ""${ENV}.tfplan""
+      rm -f ""${ENV}.tfplan""
+    fi
+
+That handles separate state for environments (workspaces) and different parameters or variables (tfvars file).
+
+As far as building different environments in different regions, I would create a sub-directory for providers.
+
+Something like 
+    providers/dev.tf
+    providers/prod.tf
+
+Specify the respective provider blocks in those files and add a line to copy the correct provider file into root on deployment.
+
+i.e.
+    cp providers/${ENV}.tf ."

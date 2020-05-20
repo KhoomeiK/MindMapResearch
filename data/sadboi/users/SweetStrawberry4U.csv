@@ -1,0 +1,525 @@
+cscareerquestions,fr4ynmm,t1_fr4t0cu,1589899348.0,"Never rush for things you have a personal benefit. You build them brick by brick. Patience, perseverance. You never become a master on the very first day.
+When you are pursuing things for others, they'll rush you anyhow."
+cscareerquestions,fr3v0aw,t3_gmelc6,1589867037.0,"fluency is not really a big problem. simple fluent english comes naturally as a non-native school-educated person.
+
+my speech becomes very incoherent when i am still framing my answer, while i have already begun speaking because any pause longer than 2 seconds is more or less a strict no. in an office meeting, i could just ask for more time, but a public presentation q&a session, or even behavioral interview, incoherent speech is regarded a personality disability."
+cscareerquestions,fr3tp0w,t3_gmh216,1589865983.0,"every journey begins with 1 step.
+
+take one step at a time. pick a feature. then spend time putting the pieces together. classes, methods, functions, variables. 
+
+coin-change is just a simple dp-problem in leetcode. in OOD, it's a full suite of classes and threading because you are looking at it holistically from a systems point of view. once you get the groove, read-up SOLID principles and Design Patterns. years of practice will make a good OOD and systems expert."
+ExperiencedDevs,fr3qge3,t3_gm9sif,1589863512.0,"16 years experience in the industry.
+
+1. Moore's Law doesn't just talk about computers and transistors and chipsets. It applies to software too. Software, just like hardware, becomes obsolete, in just about the same duration in time. A mobile or web-based front-end app, a work-flow or rules engine, a database system, practically everything become old and fail to scale as the business grows. we have a video rendering app, we built only the required feature-sets. we never designed to accommodate newer additional features. don't write software code that is unnecessary, has always been the practical guideline. now we want picture-in-picture video playback. no-can't do. tech-debt is the obstacle, at least 2 more sprint-cycles of refactoring, rearchitecting, and major regression testing.
+2. Agile is used everywhere. Everyone's hyped about it. The very basic concept of assembly-line also being used for building software, certainly an awesome idea. However, very few engineers and managers are happy about it. people more often complain that it is only micro-management technique. the true essence of agile like assembly-line is that current task input is an output from a previous task. how many process-centric management people are focused on tracking such dependencies?"
+ExperiencedDevs,fr3nwlh,t3_gme8ux,1589861681.0,"""This is 1000x+ of times more then the next largest company using this service. ""
+
+If everyone in the company has this same opinion, it's better. if some non-believers can be swayed and steered into this opinion, it's good. but if nobody else except you, and a handful people see this problem, this is going nowhere. step-one in plan of attack, get this straightened-out with everyone. there are no enemies. there are no internal battle-fields. everyone is working for the same company, and everyone is in this together. just how, everyone sees the same problem differently within the means of their own perception. but there's a problem in there too. most often than not, Sales Teams, who are exceptionally great in communication, only look for a scape-goat to be thrown under the bus. although your approach to this organization-wide problem is to resolve it, one higher-up across the organization is only looking to blame it all onto you. steering clear requires your immediate higher-ups defense.
+
+next focal-point is quality, cost and time, the holy trinity of software engineering. what can we do to keep cost low, buy some time, and not have to compromise entirely on quality so ROI works out just fine in the end.
+
+third thing to do is identifying pain-points, dependencies, obstacles, bottle-necks, both software and hardware, and steps to resolve each one in order to achieve the business. prepare action-items, action-plans and a realistic estimate avoiding any guesswork. begin assigning / delegating action-items that can possibly give a quick-turnaround time. what makes this customer 1000x+ times more complicated while similar customers don't use that kind of scale / traffic? spotting the differences of the customer's ask, and trying to fit them into the solution can work up to some extent.
+
+""Tommorow we are supposed to have a big meeting with the customer, and nothing is ready and nothing works.""
+
+Too late in the game. Typically internal field-emergencies are workable / usable excuses. I began my career at a WITCH company. I am familiar with the software consultancy business tactics. in the end, it's all just work. crisis situations such as this are true testaments to a whole lot of what's going to happen next, and who's going to go where.
+
+Stay clear, and stay safe, internet stranger!!"
+ExperiencedDevs,fqsj9vh,t3_gkeb1i,1589608833.0,"1. priorites.
+2. interviews are a numbers game. faang companies interview hundreds of candidates each day. a handful get an offer each month. other non-tech companies interview anywhere between 20 and 50, and select 1. candidates will also have to interview at multiple companies to land a decent career stint."
+ExperiencedDevs,fqsffw1,t3_gkfs9m,1589605824.0,"""Where does a software engineer go when they’re done writing code and done working in disgustingly inhumane offices/factoryfarms?""
+
+have you thought about how did your boss, and their boss, and their boss get to be doing their jobs?
+
+Software Industry, just like any other technology industry is based of Masters and Slaves. Engineers are slaves. PERIOD. In the wise words of Blondie from The Good, The Bad, and the Ugly - There are two kinds of men. Those who have loaded guns, and those who dig!!"
+cscareerquestions,fqser3f,t3_gkeddm,1589605304.0,"If someone did not solve fizzbuzz, it's ok, LIFE happens!!!
+
+they'll do it next time, elsewhere. OP sounds like a self-entitled brat!!!"
+androiddev,fqrd40r,t1_fqr5hcm,1589582009.0,"How about declaring custom java classes extending from view , viewgroup etc in xml layout file, additionally using custom resources attribute declarations that match with server driven ui metadata?"
+androiddev,fqqf4o9,t1_fqq8mdf,1589564441.0,"metadata describing the UI are typically associated with enums, for instance, RecyclerView.Adapter onCreateViewHolder takes a viewType parameter. That view-type is metadata property that signifies the type of the ViewHolder, and it's content-view that has to be used at that moment, intended specially for efficient view-recycling, and injected automatically by the system from the output of getItemViewType(int position) method invoked previously. You could use similar strategy to inflate xml-layout files, or Fragments, it's your OOD problem in the Android app, based of mapping enums to the server-driven metadata.
+
+additionally, server-driven metadata may be fetched as a one-time start-up network call, or may be designed to be included in bits-and-pieces describing data itself in each data network-call. That is again an Architecture problem, and Google and Android are not expected to suggest best practices and guidelines."
+cscareerquestions,fqoo8ig,t3_gjvnjy,1589520118.0,"It really depends on number of years of experience, i'd say.
+
+Take this for instance - [https://leetcode.com/problems/coin-change/](https://leetcode.com/problems/coin-change/)
+
+Or the Maximum subarray - [https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/)
+
+for the coin-change problem, the optimal solution is some knapsack algorithm. after so many years working as a real engineer, i'd never be able to remember, recollect or even deduce the optimal solution ever in a limited-time setting like an interview.
+
+same with maximum-subarray. i'd be able to build-up a O(N \^ 2) brute-force, but the optimal-solution using some form of a divide-and-conquer, holy fucking shit!! on a white-board, totally forget it!! i should just switch industries, if a verbal suggestion of an optimal-solution approach is unacceptable after certain number of years in the industry.
+
+so i'd say, knowing optimal solution approach is sufficient but solving with brute-force is still a necessity in interviews. so yeah, you don't have to compare your performance metrics with others. passing all test-cases is a minimum necessity always."
+cscareerquestions,fqon6wr,t1_fqnrxg4,1589519316.0,"there are plenty of other websites like leetcode, but leetcode is the best because almost all good challenges have a huge exhaustive list of test-cases, including time-out situations."
+androiddev,fqome99,t3_gju68u,1589518722.0,"HTML + CSS + JS in a browser is technically web-server-driven UI.
+
+Android Apps are the Browser + Web Server combined. You don't serve HTML to web-server from backend systems, that then renders more HTML like UI for display in the browser side of things. Instead you setup relevant markers like layout-types, data-types, sub-types and more meta-data so Android Apps can pick-up those markers and efficiently present the UI."
+cscareerquestions,fqolb51,t3_gk2eyu,1589517946.0,"""Part of me thinks I'm overreacting""
+
+\^\^\^ This \^\^\^
+
+Just talk to her casually and ask her if she notices what you notice. Use disclaimers upfront. she may be really copying you without herself noticing too. there's really no reason to get worked-up though. unless she begins to become a professional threat."
+ExperiencedDevs,fqnt9jv,t1_fqnrpdm,1589500974.0,"knowing your worth is the key. actually, your worth is not what you think it is, but your worth is what other people think about you is, coupled with demographics of course.
+
+do not rush into the rat-race of high TCs. All those high TCs evaporated in the past couple of months in many industries due to the pandemic. if you want high-TC, you can't expect to be paid that much in a low to mid COL area?
+
+you have to weigh your likes and dislikes, wants and needs, and then decide whether you want to negotiate, or even drop it this one time? Just make sure, you don't regret it later."
+ExperiencedDevs,fqnr7b6,t3_gjxu55,1589499890.0,"The entire interview process is a two-way street. they are evaluating you, you are evaluating the team whether you would like to work with them or not. they have made their salary offer clear right in the middle of the interview process. why do you hesitate to discuss that with the hiring HR, if you are unsatisfied?
+
+why do you want to be a Senior / Architect level title with 4 years experience in the industry?"
+ExperiencedDevs,fqnplre,t3_gjtmzr,1589499101.0,"""What resources (books, courses, whatever) would you recommend me to improve my business knowledge (if that's right term)?""
+
+This really depends on the Business Industry Sector and Domain you are associated in.
+
+Investment Banking, Retail Corporations, Media, they all need Software Engineers, because Software is not one industry, it is an essential tool for the digitization era for every Industry Sector. unless you are specific what business sector and domain you want to learn about, it is hard to give any advice.
+
+although, the starting-point is three simple words - Consumer, Producer and Revenue. As in Client, Provider, ROI etc, every other word, jargon, all are synonymous and fit into every business model. you may want to begin learning how do you define / characterize each one of those three entities."
+cscareerquestions,fqmmqga,t1_fqi9l0v,1589480018.0,I concur.
+cscareerquestions,fqkrax3,t1_fqityyv,1589434113.0,"get some bootcamp certs and nano-degrees, and go for a fuck ton of interviews. and then, build up a portfolio of experience. anything 6+ is considerable mid-level engineer."
+cscareerquestions,fqkph2d,t3_gj3fh6,1589432750.0,"\-> ""I concluded that I'm just a low-class developer with not very valuable skills.""
+
+Not necessarily. first thing you want to do is stop calling yourself a developer / programmer, and call yourself an Engineer. replace all developer / programmer words in your resume with Engineer. Your primary skill is identifying technical solutions to business and tech problems so business continues to run smoothly.
+
+\-> ""No one I apply to is willing to make that commitment on someone learning new things.""
+
+This is not your problem. This is the problem with the industry. Software is not one industry. Software is a necessary skill for every business industry sector and domain. Take a name - retail, like Macys, Lowes, Home Depot, yep they need Software Engineers. Entertainment, TV channels, movie making, yep they need Software Engineers too. Obviously, there are multitude of problems that arise with this situation
+
+1. no matter how business wants to project it, Software is a cost-to-company. Digitization has certainly helped companies grow, profit margins are larger compared to budgeting and spending on digitization, but digitization is still a monumental cost and every penny that can be saved / avoided from being spent goes into the profit margin.
+2. Learn-on-the-job is the biggest factor that affects cost of digitization and software. PERIOD. It is extremely cost-effective to hire an all knowing, all experience person, than to trust someone to learn-on-the-job.
+3. Another biggest factor for cost of digitization is re-architecture / refactor / rewrite. Software developed today, and solutions engineered today are stale, obsolete and legacy in about 3 months. before we realize, there's a new programming language, tech-stack, tool, architecture pattern etc, that is a lot more efficient. tech companies are pushing new APIs. but our project code continues to remain legacy.
+
+\-> ""I'm quick at learning and picking up things"" doesn't really sell as well in real life like some advice might suggest.
+
+That is not the way one should be marketing themselves. typically, there are only two answers to every question - a question to a question, and YES!! Leetcode challenge, OOD interview, you are not being judged by how quickly you are solving the problem. rather, you are judged based on what follow-up questions do you ask for clarifying your chain-of-thought in order to arrive at a clean solution. Yes, is the answer to every other question. Have you worked with tech-stack A, YES! Have you used tech-stack B, YES!!! Did humans land on the moon? YES!! I believe in 80 - 20 rule. 80% of the world population is poor, 80% of the world population are stupid. I prefer to be the 20% in any category. If by lying, I can earn confidence and trust, and that's a core principle of capitalism, then so be it.
+
+\-> ""I just want to be a developer with a stable job and doesn't have to go home to work on side projects just to stay relevant. I want it all on the job. How do you find your stable niche?""
+
+This is a myth. Software is evolving quickest than anything else. Those who do not learn on the side will be wiped-out by the ever expanding competition. The toughest thing in life is turning your guard-down. because when your guard-is-down, life hits you so hard, so brutal, there will be no recovering. Self-learning will never replace real-experience, but experiencing everything is impossible.
+
+there is a great disparity between what colleges teach, what the industry needs - in a real-job vs interviews, what candidates experience and make their minds up etc. Awareness can help avoid aimlessness."
+cscareerquestions,fqjo36g,t1_fqhki1q,1589412719.0,"upwork, toptal, [remoteok.io](https://remoteok.io), angieslist, craigslist should be available internationally.
+
+Pay may or may not be guaranteed."
+ExperiencedDevs,fqiy24i,t1_fqh7q9m,1589402442.0,"Any non-FAANGs (interview prep is always insufficient) non-Unicorns, non-startups (high-risk, high-reward work environment that can destroy 12 years in-so-far of my wait time for a GC) sponsoring a work-visa?"
+ExperiencedDevs,fqgixme,t3_gijjke,1589347490.0,"the way i see things if i were in your shoes - 
+
+order in chaos. every workplace is chaotic. nevertheless, everyone is working toward a common goal, to bring some order. 
+
+4 years industry experience and already a team-lead? that might go well with a low COL area, or a start-up sized org, but large corporations don't regard someone with 10 years as a senior / vp level. leadership is always a better career trajectory, pays way more but equally risky. ICs will always have a demand, because everybody needs somebody technical to actually go and do the job, pay is just decent.
+
+a leader with a good background and foot-hold in tech is a lethal combination. if i were you, i'd shoot for a Director / Engineering Manager level role in the next 3 years."
+ExperiencedDevs,fqfx3rc,t1_fqfht86,1589333428.0,Thank you. This is good advice. reality check is necessary!!
+ExperiencedDevs,fqfckdj,t1_fqf997j,1589322498.0,">I doubt it will hurt. This goes for the team as well. You may find that having an honest conversation with folks, and explaining how you're feeling and their contributions to those poor feelings, leads to change.
+
+Actually, tried and failed. As in, put forth what's going through inside my head - 
+
+1. If a third-party team is already engaged in doing all the work, and even our list of tasks is handed to them because anyways we pay them as an org to get our tech-effort completed, then what are our techies doing in our team?
+2. knowledge-transfer sessions have not been much help. there is this essential properties file that was not shared with me for 2 days, and my local codebase setup was a mess. it's not even checked-in in the repo, and am unsure if that is a good practice to begin with.
+3. there's this problem with the asset-file that ux team gave us. i have informed them what the problem is, but they don't seem to acknowledge it, instead they insist that i do my job right, rather giving me tech suggestions how i should do my job.
+
+not as bluntly, but somewhere between sensitive and defensive.
+
+management just dodged my pleas for help in all above cases. nothing changed. follow-ups over an extended period of time only become nagging. am glad doesn't happen in my current team, at least with me.
+
+i don't intend to argue with you, but it has been my common experience that some things that are not meant to be discussed should not be discussed, aka, work-place bureaucracy?? management has favorites with members in the team, and that's all about it?"
+ExperiencedDevs,fqf8jat,t1_fqf5yl4,1589320506.0,"i have mostly worked as a contractor, a second-grade professional. 1 : 1, more or less, don't apply to me. it has not been a standard practice everywhere i had worked previously, even as a full-time employee. people do it for a handful of weeks, and then just stop doing it.
+
+the ""me vs them"" is real. i don't have the feeling in my current role, but the feeling brewed as time went-by in most other work-places, and this is exactly what i am petrified about because i will have to switch gigs or move into a full-time role at some point again.
+
+a gentle good morning, good afternoon, how was the weekend, what's for lunch don't go a long way either. that's just small-talk, but as as middle-aged engineer, i am certainly struggling to set the right expectations with management and teams, and to meet the expectations without losing any credit."
+cscareerquestions,fqcil9b,t3_ghry41,1589259152.0,"Have you considered transitioning into technology management, sailing away from, i guess, code-monkey roles? you have 8 years stellar experience, nobody would be so fortunate. next 8 years, you should try and become director or vice president of a technology team."
+androiddev,fqbgsks,t1_fqaxdpd,1589236697.0,"Let's be realistic here.
+
+anybody with sufficient experience can define MVVM, MVP, MVI, techniques, discuss trade-offs, suggest potential OOD solutions to meet Product and Business problems. Hell, we can debate for hours that Jetpack / Architecture Components ViewModel is more MVP than Android Databinding is true essence of MVVM.
+
+an engineer becomes a Senior engineer when they are given said title, either in the current team or accepted in an interview. and the standard procedure in the interview is to complete an android app from scratch. open android studio, start new project, setup gradle, necessary dependencies, perform a full end-to-end network api invocation and present intended data on the device / emulator screen, within 30 minutes, and still manage to leave room for about 15 minutes for follow-up and behavioral questions."
+androiddev,fqataeu,t1_fqas6em,1589224908.0,"i can put together some ideas from my experience, but i cannot impress people by guessing exactly what they need me to do, when constrained for time. i take hints, i try and model my solution around the suggested hints. i also try and model a different solution around the suggested hint, but i am already self-aware and conscious that i am losing time.
+
+real-work is exactly opposite. i throw out my ideas / concerns in the meeting, head back to my desk and never look at the problem until my other high-priority tasks are complete. i am not constrained for time.
+
+rapid-prototyping is not a necessary skill for senior engineers, but oh well!!"
+androiddev,fqarrzl,t3_ghtu9a,1589224161.0,"1. RxJava Operator Chaining with Kotlin Flows and Channels without having to look up stackoverflow or searching on google.
+2. Flutter.
+3. Complete Prod-ready App in less than 30 seconds, your time starts now!!
+
+I've been working with Android professionally for 9 years. i can't do rapid-prototyping code challenges in interviews. Therefore, i am not a senior android dev."
+explainlikeimfive,fq6b5ar,t3_ggpmz9,1589128122.0,"my best guess, there must be a nerve-ending somewhere in there up the urethra and just below the bladder that triggers a momentary orgasmic nerve-signal particularly when fluid is flowing-past, causing involuntary squeezing of the bladder, and it all is taken care of by the spine. the brain only receives an acknowledgment of what's happened, a micro-orgasm?"
+cscareerquestions,fq4wajq,t3_ggu3qq,1589085731.0,"The chain-of-command typically doesn't work like that.
+
+it is ok if you email the manager, but seemingly it will be out of protocol / process. you are not supposed to recommend / vouch for your seniors work and worth to your manager, particularly when you both report to the same manager. however, you can always send a heartfelt appreciation / gratitude email to your mentor, and CC the manager.
+
+if your mentor liked your work, they could send a recommendation email to the manager, with you in the CC, that is more effective than sending you an email appreciating your work and CCing the manager. 
+
+what differs is how people with different sets of responsibilities view the expression of appreciation."
+ExperiencedDevs,fpxxjx1,t1_fpx9xqr,1588991636.0,"There will always be some self-entitled pricks everywhere. 
+Blind is an alternative, in case you don't find your answer here. Quora, not so much."
+ExperiencedDevs,fpvztgy,t1_fpumndu,1588954778.0,"here's how it works, based of my personal experience.
+
+1. interviews are essentially broken. there is no standardized, licensed practice of interviews. so the entire industry resorts to only 1 thing - trick questions. Do you know the trick in the question? can you spot it in less than a half-second? at least, can you guess it correctly when the interviewer is silently thinking or verbally guiding you to the trick? irrespective of the type of the interview - coding challenge, framework and api knowledge, behavioral, OOD or system design. everything's a trick and time test, and the bar of acceptance is to get the trick right. throwing out random workable ideas almost barely works.
+2. Interviews are focused heavily on evaluating the candidate only. candidates barely have any opportunity to evaluate the hiring team. candidates should have bars about the type of work environment they want to be associated with. this is not how Capitalism works to begin with.
+
+unless you manage to exceed the bar in every interview, which obviously is tough because tricks can get trickier and time can vary a lot per interview, and vetting the hiring team itself is one other issue, I'd imagine, it'll take a lot interviews to find a good job in order to build a fulfilling career.
+
+another way around, do the job like a hobby, and passionately work on self-directed endeavors"
+ExperiencedDevs,fpvhflc,t1_fpupj8d,1588944838.0,"1. Learn to let go trolls and their trolling.
+2. Blind is still a good forum, just have to know how to stay grounded and decent without being bothered."
+ExperiencedDevs,fpumhf7,t1_fpulg2r,1588916914.0,"More like a ball-park. It could be 5, it could be the next.
+same goes with companies hiring candidates as well. if the candidate does not clear the minimum bar, companies don't hire even in a desperate necessity for the team."
+ExperiencedDevs,fpulhf4,t3_gfjzqs,1588916097.0,i'd recommend [teamblind.com](https://teamblind.com) is a nice forum to discuss compensation and seek tips for negotiating.
+ExperiencedDevs,fpuk504,t3_gfjdw8,1588915025.0,"very recently i learnt these two lessons.
+
+1. thinking that you know algorithms, and actually knowing algorithms are way different.
+2. interviews are all a numbers game now. companies interview hundreds and thousands of potential candidates. if candidate cannot interview at last 50 companies before landing a decent job, there is definitely a perception and perspective problem.
+
+based of those two, continue interview loops. more importantly, try and catch a break. you'll interview a lot better when you are more relaxed and feel better, otherwise desperation and rejection spiral deep."
+androiddev,fpswgnn,t1_fpsvvtk,1588880781.0,Wouldn't it make sense to have sourcetree built into the ide experience?
+ExperiencedDevs,fpqtcu3,t3_geyxc4,1588831652.0,"wfh in lockdown is not the same, apparently more burdensome and stressful compared to fully remote, or occasional remote work.
+
+am sure, all professionals would rather go into work, socialize with work-place colleagues more post-covid."
+Showerthoughts,fpqoaow,t3_gemco1,1588827648.0,"there's a history to all of it.
+
+internet was there, but expensive.
+
+iphone came in 2007, ipad came shortly after. android was introduced in 2008. windows mobile was late to enter the market in late 2009, or probably even 2010.
+
+until then it was only nokia and moto, flip-phones like the decade ago Matrix movies were the in-thing. data-plans were rare and super expensive. even unlimited text meant you were literally throwing away all your money to support the telecomm companies.
+
+the internet really expanded enormously in 2012. amazon and netflix made the most of it, google was already there and prepared.
+
+so yeah, restaurants hosting tablets and take-out delivery services like uber-eats and doordash are more or less still in their infancy, grubhub was around for quite some time but didn't expand as much."
+androiddev,fpmslfs,t3_gdzuqe,1588740614.0,"gather around kids, it's story time. 
+
+the most serious problem with software, is that it is eternally evolving.
+
+websites and designs evolved from tabbed display to fluid scrolling full-page screens. entire server architecture evolved from web and application JEE containers to third-party VM containers, JMS is now up-scaled, low-latency, better-performing kafka. the list goes on.
+
+as software and frameworks evolve in a span of less than, say 5 years, costs are incurred to modernize legacy code-bases. the cost of rewriting everything from scratch, vs cost of upgrading and upscaling existing systems, only makes sense that code that is developed now follow some basic maintainability, reliability, flexibility and scalability standards.
+
+those four abilities are the main pillars, and in order to achieve that, the most important thing to do is to avoid randomly instantiating objects, aka, avoiding the new keyword. and how do we do that, design patterns. but design patterns also need guidelines, why, when and how to use them, so that's how SOLID principles came to be.
+
+Interface Segregation, and Dependency Inversion, two of the SOLID principles are necessary to choose what kind of design patterns should we use, in order to write clean maintainable code."
+cscareerquestions,fpkrvu0,t1_fpkjweg,1588699962.0,"this is insightful. thank you.
+
+although, having not done any server-side / cloud related work the last 9 years as a senior android engineer, how may i gain real-time experience for such server-side / cloud  related questions in interviews for senior android engineer roles?"
+ExperiencedDevs,fpizdir,t3_gdo43y,1588652431.0,"even though may feel like a 4/4, don't ever say that. always use a wiggle-room. 
+
+some dipshit will contest you whether you are a walking, living, breathing API docs of said tech and framework, and if you get caught off-guard, you'd not have an opportunity to admit your mistake. so make room for admissible mistakes upfront."
+cscareerquestions,fphoi8c,t3_gdcbi1,1588624909.0,"there are both pros and cons to this context.
+
+A four-year degree for a 35+ years career is not a norm anymore. that four-year degree and the cost it incurs at most would help the first 5 years in the career, thereafter, nothing else matters. the industry doesn't care about learning-curve on the job. a senior engineer switching business-domains from pharma to telecomm like verizon, as a software programmer will find it equally hard compared to a senior engineer switching business-domains from a failed start-up to consulting services firm like fiserv. hell, those first 5 years in career too, companies and organizations are not looking at transcripts and grade-points either. have you completed the four-year degree on-time, as scheduled, or were there backlogs, or there were other personal reasons you had to skip a few years, is all what matters now. so yes, in that regard, any inexpensive college is totally ok. the latest fad is bootcamp straight to FAANG.
+
+nevertheless, climbing up the corporate ladder, moving into Management and entering the C-Group for any company will necessarily require at least an executive MBA, if not a Full-Time MBA program from an Ivy-league usually, and that's not gonna happen without at least a four-year bachelor's program. 
+
+in all, bootcamp, job for 5+ years, part-time bachelor's, part-time MBA is not a bad career progression."
+androiddev,fpfdo3j,t1_fpf31qe,1588568225.0,">Coroutines work on top of Java threads. When a coroutine running in a particular thread is suspended, another coroutine can run on that same thread.
+
+what is the state of the coroutine when the thread is scheduled into paused-state? can that coroutine be picked up by another thread? has anyone tested phantom-read-write situations with unsuspended coroutines?
+
+i don't get why everyone is so psyched about runnable variants called coroutines?
+
+runnables and callables have the execution instruction set, seem very much like coroutines.
+
+they can be shared between threads, including other shared object instances.
+
+when threads go into paused-state, other threads can proceed to execute the instruction set and shared objects - this is what causes the phantom-read-write situations. the instruction-sets and shared objects can be designed to not be executed by certain types of threads as well, in coroutines it's just a keyword. in order to prevent the phantom-read-write, mutexes and locks are introduced. so when a thread achieves a lock on an execution instruction-set or shared object, that object stays locked with the thread when the thread goes into paused-state.
+
+threads go into paused state at any time, it completely depends on the process, and the OS scheduling processes in the processor. even multi-core processors are not executing more than one-core at any given point in time, as low as micro and nano second frames."
+androiddev,fpfbeuh,t3_gcqvmt,1588566459.0,"good thing this discussion came up only on this sub.
+
+i think the true intention of every java developer is that kotlin will not replace java everywhere.
+
+unless google and oracle settle their lawsuit over commercial use of java for android, that runs on an optimized jvm called ART,  google's stakes with kotlin will continue to grow for android, and so far at least it appears to be very promising."
+androiddev,fpeyz52,t3_gcu82b,1588557995.0,"""Non-blocking"" to me is a very confusing term.
+
+Non-blocking ideally is supposed to mean when a thread is scheduled into a paused-state, another thread picks-up the execution.
+
+A long, time-taking execution such as network I/O, handed over from a main-thread to a custom thread is only Asynchronous model.
+
+Are coroutines really Non-Blocking Asynchronous, because Java threads are not. A Runnable or Callable scheduled with a Thread or Executor respectively are still prone to be blocked due to paused-state. Or is it not?"
+androiddev,fpeii2q,t1_fpegc01,1588548200.0,">And it's normal.
+
+This is insightful. honestly, i never thought about it this way. 
+
+interviews are a lot like sex. women know ahead they are going to do it. men are guessing and praying to get lucky. interviewers know what they want to hear to get a ""must hire"" opinion about the candidate. on the other hand, the candidate has no clue a lot of the times.
+
+i have been going through a very tough phase the past couple of years. am doing alright, but as a contractor, being treated like a second-grade professional kinda sucks, particularly after 16 years in the industry."
+androiddev,fpe7kjf,t1_fpe2gnv,1588541938.0,">See if any of the lines from the first rectangle intersect with any lines from the other?
+
+Imagine solving the Merge Intervals problem, there's plenty of cases, at least 6 to begin with, and there could be more '<', '==' and '>' cases. Intersecting Rectangles is four-square times more plenty of cases. check lines, check corners, check aligned lines, check aligned corners, check fully engulfing encapsulating boxes, etc etc.
+
+>You could grow the view, you could swap the expanded for a non expanded item, there are a variety of ways to accomplish it
+
+challenged to complete this in 45 minutes, with your own way of setting up the display-data and show an output on the device screen? you'd be a magician if you could do that.
+
+>I feel like sockets would meet this
+
+I worked with an engineer at the investment bank in 2015, who worked on websockets for stock-trade rolling tickers. it still doesn't work the way websockets are supposed to work, or designed for the web. android still polls for the data, same as notification services.
+
+>how you approach a difficult problem.
+
+yeah, so how do we guess what's the interviewer seeking to hear, particularly coming from a different industry business-domain?"
+androiddev,fpe65id,t1_fpe2o2i,1588541129.0,"smaller companies, like the ""unicorns"" and startups you have mentioned, are the same kind of rapid-prototyping and system-design interviews. i don't feel like i am evaluated on what i bring to the table, i feel like i am interviewed for what the role doesn't require on a day-to-day even. because, practically every role in a very short period of time ends up becoming a legacy code-maintenance job. also startups are equally uncertain both in sustenance and immigration. 
+
+as far as system design and object oriented design questions go, i think i'll post a different topic. isn't designing a music player app, or even reddit mobile app more of a Product Team interview question, rather than an Engineer Interview question? As in, why is the Engineer expected to build up the full list of features, and then discuss how to componentize in UML on a white-board? isn't real-work practice is that feature-sets are provided by the Product Team already, and Engineers take weeks to put the UML components together?"
+androiddev,fpe07go,t1_fpdtm14,1588537750.0,"smaller companies are an immigration uncertainty, and non-IT companies without existing mobile development departments are practically non-existent, or non-propreitary, as in, all of the mobile effort is outsourced. also, they don't pay the big money."
+cscareerquestions,fpd7oih,t1_fpc91c8,1588521536.0,"The company policy dictates no immigrant work-visa sponsorships at all. My Director would fight tooth-and-nail until the end to keep me on the team, extending contracts, within company policy limits of course. I feel extremely fortunate to have met this person in my career, i worked hard, he recognized and appreciated my hard-work, and we have a mutually symbiotic Boss-Engineer relationship.
+
+I failed miserably anywhere else to earn this kind of appreciation and trust from other Bosses and superiors at other work-places. 
+
+If the cash-reserves crunch across Investment Bank industry is huge, then in-expensive Contractors are typically retained to keep the operations going. If the cash-reserves crunch is manageably moderate to low, then yes, all Contractors have the highest risk. I'd imagine, Capitalism dictates, do not reveal cash-reserves crunch situation until shit is all over the place, after it hit the fan!!"
+cscareerquestions,fpd6pm0,t1_fpcmsin,1588520971.0,"I'm empathetic.
+
+I used to be that naive, self-entitled new-grad once upon a time ago in the east, despite  never having the skills to clear a FAANG interview, but I'd always take pride in my good engineering problem-solving skills at a real job though.
+
+The Great Recession taught me that shit happens, it's OK, we learn the good parts, and then we move on. Survival of the Fittest (most adapting, not like physically fit and all)."
+androiddev,fpd63c1,t1_fpco3fl,1588520606.0,"[https://developer.android.com/studio/run/emulator-console](https://developer.android.com/studio/run/emulator-console#querycontrol)
+
+you may have to spend a few hours preparing the list of commands you want to use, see \`event\` commands - types, codes, send, type:value etc etc."
+androiddev,fpc8ydp,t3_gcdaph,1588491703.0,"backward and forward compatibility has always been a nightmare with android. particularly with nested if-else condition checks on the Android OS API level in order to choose the ""right"" way to get things done.
+
+my recommendation, focus your minSdk and compileSDK range so that you are targeting the largest android user-group, eventually using the suggested solutions and techniques, rather than having to target all the android users, which is just leading to more problems."
+cscareerquestions,fpc75ph,t1_fpc649l,1588489888.0,"""You're in the least-worst place as a software engineer imo.""
+
+Naa, I'm no FAANG.
+I'm a contractor at an Investment Bank, on an immigrant work-visa. 
+I hope to stay safe from the doom before it befalls everyone.
+I was there right in the middle of it during the Great Recession. This Great Lockdown is a whole another beast."
+cscareerquestions,fpc6ve2,t3_gcaclq,1588489602.0,"AWS - [https://www.udemy.com/course-dashboard-redirect/?course\_id=2196488](https://www.udemy.com/course-dashboard-redirect/?course_id=2196488)
+
+GCP - [https://www.udemy.com/course-dashboard-redirect/?course\_id=1343890](https://www.udemy.com/course-dashboard-redirect/?course_id=1343890)
+
+Azure AZ-900 [https://www.udemy.com/course-dashboard-redirect/?course\_id=2394982](https://www.udemy.com/course-dashboard-redirect/?course_id=2394982)"
+cscareerquestions,fpc63an,t1_fpc4ks8,1588488841.0,"i have not made a shit ton of money, and i was hoping to rely on the remaining 28 years in my career in order to retire comfortably.
+
+you seriously think automation is going to displace my career as a programmer?
+
+""search"" doesn't work properly in amazon prime videos. Apple's hardware is crappy by the day. the list of abysmally broken features and functionality for big-tech is pretty long actually. techs and frameworks like Business Rules Engines, Work-Flow Engines have all come and gone. you still really think some companies will churn out state-of-the-art AI that can automate the entire software development life-cycle and replace programmers completely?
+
+did humans ever land on the moon?"
+cscareerquestions,fpc4ww5,t3_gcdnkk,1588487721.0,"""I can just start lying and alter my previous job titles and exaggerate my responsibilities.""
+
+if you look closely, everybody is doing this already. this is the core principle, born from greed, that runs the Capitalist Economy. they just call this smart marketing / advertising. i'd say, nothing wrong doing this."
+cscareerquestions,fpc2vja,t3_gckc4n,1588485855.0,"actually all greenfield in java are dreadful to me recently.
+
+i am an old-school, traditional java person. simple design patterns, SOLID principles, well-organized, custom home-brew memory and thread management, network interfacing over https, simple constructor dependency injection, all of that stuff.
+
+then this whole notion of - don't write boiler-plate code, proficient thread-management, proficient memory-management, don't give a fuck about space-time performance because hardware is inexpensive, so here, use these dependencies.
+
+all good, until said dependencies are either obsolete, or upgrade versions due to inherent bugs. so i was using buggy, unreliable, dependencies all this while? now i've got to rewrite this whole shit because those methods are deprecated, and output / behavior is not guaranteed anymore? at least, when i wrote my own software, i had my own guarantees!!"
+cscareerquestions,fpby8p2,t3_gcjdko,1588481912.0,"lesson for life.
+
+this shit is what we had signed up for, when we decided to become a software engineer. i mean, who'd have in their right mind thought it's going to be loads of cash, quintals of kool-aid and a luxury life in a career of 35+ years?
+
+catch a break, relax, and hit hard again a little while later."
+cscareerquestions,fpbxn68,t3_gci8ve,1588481439.0,"absolutely not your fault. lessons learnt from this experience. feel free to use lesson-2 below as an apologetic answer on Monday, that lack of industry experience did not help strike this idea.
+
+1) there is no reason to blame yourself for whatever the consequence. this is lesson-1, and a very important one at that. a lot of shit will happen in life, that is absolutely no fault of yours, including interviews.
+
+2) always approach a problem along with your side of fair solutions. this is actually a tough one, you'd not even realize the problem and a list of possible alternate solutions until you put yourself outside of your own shoes, most people don't even practice this in real time. you had emailed your manager, you could have also, only as a suggestion, requested their permission if they were willing to let you allow check-in with other members in the team, possibly even higher-ups. 
+
+3) your manager is your designated ultimate boss. period. that person is the organization you work for, until you climb up the career ladder into a senior role. it is your responsibility to deal with the person as sensitively and as defensively as possible, without causing them any kind of annoyance.
+
+4) you will meet a variety of different personalities in this career. there is no reason to be judgmental. people appear either dumb or bright entirely depending on the right-place, right-time, right-team and several other related dynamics. for the most part, insecurity of losing role and job is what drives people and their work culture. i've personally worked with people that had moved up the career-ladder but stubbornly couldn't let-go their past work."
+androiddev,fpbmoyg,t1_fpbfoad,1588473581.0,"Other than pinch-and-zoom controls, every other touch-input is the same as a mouse-input? in fact, all mouse-inputs are better short-cuts than regular run-off-the-mill keyboard short-cuts on emulator control and app navigation?
+
+if you could be more specific why you'd really want a touch-input from a USB-connected android device to an emulator, i don't think the entirety of android industry and android developers would want to spend anymore time on this."
+androiddev,fpbbcn8,t1_fpb7lx2,1588466165.0,"Is there a possibility to provide touchscreen inputs from one Android hand-held device to another Android hand-held device via over the air?
+
+Is there a possibility to provide touchscreen inputs from Android hand-held device to laptop either through USB or over the air?
+
+Based on that we may explore touchscreen inputs from Android hand-held device to emulator either through USB or over the air.
+
+Vysor and scrcpy only allow mirroring and therefore touchscreen inputs (like an emulator) from laptop to Android hand-held device via USB. I don't think the reverse is ever a necessary use-case for building any valid technology."
+mAndroidDev,fp8m21k,t3_gbj8vm,1588395951.0,Hysterical!! An entire sub is dedicated to trolling Jake.
+cscareerquestions,fp8jhne,t3_gbzvft,1588393932.0,"12 years and counting as a contractor.
+
+I was right there in the middle of the Great Recession between Dec 2007 and Jun 2011.
+
+1) retaining a job is most important. cut your hourly bill-rates to bare minimum. work 80 hours a week and agree to bill only for 35 hours a week. do anything and everything, beg, borrow and steal, but retain the job.
+
+2) same goes with marketing. fill resume with all of the related tech jargon and keywords. i've worked for 9 years in android, fortunately i have a very stable job like right now. if i were to enter the market again, i'd put google maps also, that i've never worked with, on my resume and brush up any high-level stuff, look up free software people have posted on github, fake any project experience that required google maps integration etc.
+
+3) active presence on job-boards - [dice.com](https://dice.com), [indeed.com](https://indeed.com), [glassdoor.com](https://glassdoor.com), [linkedin.com](https://linkedin.com) setup job alerts, open to relocation anywhere. reach out to all and any recruiters. mostly there is hash-collision situation, same client, same location, same project, 4 different recruiters reach out. avoid multiple submissions, keep track of every client submission with as much data as possible. a lot of this happens between 9 AM and 4 PM on work-days only, unless client is desperate, and recruiter is desperate to retain the client, then anytime in the day. this is the most nightmarish exhaustive time. every recruiter is eager to be the first one to call dibs. so be extremely prepared mentally and physically. scheduling multiple interviews is also a nightmare, because 10+ recruiters will call you 100+ times within 10 mins to book your schedule for their interviews while you are in the middle of an interview.
+
+4) yes is always the answer for anybody asking any questions. have you worked on this tech, that framework, this location, that industry-sector - yes, yes. and yes!!
+
+5) once you join a project, none cares if you are alive or dead. you are a second grade professional, just a contingency worker."
+cscareerquestions,fp659g3,t1_fp62ek7,1588346317.0,"I am trying to understand that. A job seeker necessarily has to have an impressive resume. But to me as a referrer, a stranger is a bigger risk and a waste of time to everyone? Where should we draw the line, whether we should help a stranger in need after our own due diligence? What if we are wrong, referring an acquaintance and they turn out to be a bad hire even?"
+cscareerquestions,fp622s4,t1_fp54ekt,1588344602.0,"So, I don't know the person, but resume appears legit, they are desperate for a job, seem suitable for an open opportunity in our org, but HR is going to think I am wasting everybody's time because that person is a complete stranger?"
+cscareerquestions,fp4u5nh,t3_gb0c2o,1588307466.0,"I would go ahead, take their resume and send it to the recruiting HR and any recruiting HMs, and that's about it. i'd not vouch for strangers though.
+
+in my opinion, connecting people to jobs is not wrong on anybody's part. vouching for strangers certainly is a deadlier crime!!"
+cscareerquestions,fp4tpyd,t3_gb1lm2,1588307146.0,"what application framework do you specialize in, and use c++? embedded? device driver software? vlsi? core-library development?
+
+python and ML / AI, kotlin multi-platform multi-purpose in the next 5 years, likely the in-things."
+androiddev,fp4skha,t3_gb8gol,1588306306.0,"[https://www.vysor.io/](https://www.vysor.io/)
+
+what you asked is currently not yet supported inherently in android.
+
+Android Studio 4.0 is bringing the emulator into the ide in a tool-window, that's by far a great feat after 16 years of android (yes, android began in 2004, google got serious in 2006 and market-entry was 2008). i'd really love to see a mirror interface of a connected usb device."
+androiddev,fp4s4f6,t3_gb8haz,1588306004.0,"i only want to receive alerts for my specialization skills, location preferences, industry-sector, salary range, job-title ? i want answers before i sign-up, otherwise my email inbox will be spammed with unrelated junk alerts"
+cscareerquestions,fp1c4mp,t3_gaq67v,1588230657.0,"do you realize you may be thinking like a code monkey?
+
+how about, put yourself in your boss' shoes and think like your boss? indeed, your boss gets more pay, and their boss gets more pay, and so on, higher-up. what does it take to transition higher-up? that is what you should be learning."
+ExperiencedDevs,fp15oq0,t3_gap3e0,1588225114.0,"Being passionate is great.
+
+But one must introspect what fuels the passion? is it true motivation, or some unknown insecurity that you are unfit in your own self-image?
+
+the upside of being passionate, is you. successful, people cheer for you, appreciate your time-to-completion efforts, i mean that's like the best of the best engineers any team could have hired and they must be feeling extremely lucky to have you on-board.
+
+the downside though, you'll run way too fast in your life, at some point hit a wall, look-back and realize you haven't really lived. another downside of being overly passionate over other work-place colleagues is that you may realize your situation, and slow-down, and then become rusty, which in the long-run is very very bad.
+
+solution? learn to tame your passion, channel your energies, develop interesting off-work recreational habits, go out dating, of course after the lockdown ends, find a spouse, build a family, follow stocks, invest, channel all your passion toward self-development."
+androiddev,fp13zap,t3_gai3fs,1588223768.0,"absolutely. I have total 9 years experience in android, 16 in the industry. 
+
+4.5 years investment bank stock-trading app, then 4 years in media houses, and am back at where i started it all the past 6 months. problem is, everything i've worked on professionally is legacy in about 6 months time. the sheer scale to which the apps code-base expands is astounding, and i've more or less never seen any app code-base planned in advance to sustain that, so they all ended up having over 60% duct-tape patch-fixes to get the feature out, rather than doing the right thing."
+cscareerquestions,fp00fa1,t3_gaev0f,1588200152.0,"Some lessons that need to be learnt here.
+
+1) Communication is 98% of the job, rest 2% is BS. don't challenge authority.
+
+2) Juniors should always approach seniors, higher-ups, management people very very carefully. do not ever seek advice for solution. report problem, suggest solution, and ask if your solution is a good approach or you may be missing something that the higher-up is aware of.
+
+3) stay cool, composed, consistent. hear them out first, and then speak only when you have the chance to speak. if the higher-up is interrupting a lot, there's no point discussing anything. sometimes that happens too, people just move to higher positions based on years of experience, not quality of non-tech work.
+
+4) always defend your position with valid data. if you are claiming something, do not take a guess / hunch, rather suggest you may want to cross-check because you don't recall at the top of your head.
+
+5) always send out email and written communication to wider audiences. that is why direct-messengers like slack and skype-business are not necessarily collaboration tools. they are an anti-pattern of productivity, if you are online always and responding within seconds, it means you are attentive and productive??
+
+take it easy, sort it out calm, cool and composed. i am sure higher-up will be impressed eventually if you have shown a tiny speck of genius. good luck!!"
+cscareerquestions,foz1ldy,t3_ga55ha,1588183111.0,"programming is more close to logic that relates to languages and grammar, rather than logic that relates to math.
+
+take it slow, you are only 16. just see how well you do with word-problems in math. don't rush into beautiful websites. learn a programming language like python or java, and do a lot of cracking the coding interview problems. even the best of the best competitive programmers did not master it all in just one day."
+ExperiencedDevs,fox6yro,t3_g9xj3g,1588135616.0,"My best advice for becoming a lead.
+
+1) you don't have to do everything with your bare hands. knowledge and wisdom is more powerful than hands-on experience. delegating is very important. i've known directors and more higher-ups being stubborn not letting-go what they had been doing even after they moved into their new roles. that's insecurity, and it's not good for people who report under you.
+
+2) you must know the problems and their solutions, both business and technology. and some thinking-on-the-feet. also, a lead's job is not to solve all problems. a lead's job is to track the problems and their solutions. engineers are meant to solve problems. if an engineer approaches me with a problem, i'd expect them to approach me seeking approval for a potential solution that they are unsure about. not that, i'd magically tell them what's the right way to do things.
+
+3) learn to let-go. it's ok. world is not perfect. all engineers do not write code exactly the same way. we can only do so much even as a team. it is also extremely unfair that most work-places solely regard time-to-completion more important than quality-of-completion. obsessing over it is unnecessary. 
+
+4) wounded team-dynamics will never heal again. lookout for yourself accordingly."
+androiddev,forntad,t1_forlc47,1588015382.0,"Oh, ok, i should have provided the disclaimer that Product Design team is always claiming that their designs are in-line with Material Design, but apparently, they are not, and they fail to see it when my team of engineers show it to them, and i am running out of ideas to bring them onboard without offending anybody including myself."
+androiddev,foqr5yh,t3_g8qkp7,1587999324.0,"If certifications were so unimportant as some others have provided their valuable opinions in the comments, then the certifications industry itself would not have existed to begin with, and it'd have died out already.
+
+1) Certifications are proof that you did not just kill your time.
+
+2) Certifications are proof that you know what you are talking. nobody can be all knowing, hell even experienced devs are not living, breathing, walking api wikis.
+
+3) Certifications certainly give an edge, a potential employer will know that they don't have to train you on the job.
+
+4) Experience is certainly valuable, but from an employer's point of view, a certified fresh-man is an in-expensive asset, compared to a slightly more experienced candidate who needs to be thoroughly interviewed
+
+overall, certifications help kick-start the transition professionally."
+androiddev,foqq7sh,t1_foqm3f1,1587998819.0,what did you find in the build.gradle file? Were you injecting manifest values?
+ExperiencedDevs,fopky15,t3_g8k6b3,1587964269.0,"Here's how businesses are built.
+
+imagine a small-town and there's 9 cowherds-men selling fresh milk every morning.
+
+could you be the 10th one, grab a teeny tiny portion of the market-share? what about the 9, would they just let you do that?
+
+another alternative, how about you bring in a product, may be powdered milk, advertise the shit out of it, so the 9 are displaced and left with no choice that they'd have to sell their cows to you at a loss, practically you become the sole ruler of the entire market-share completely replacing the model because you know how to convert fresh milk to powdered milk and sell it efficiently.
+
+at 5 years of experience you are on the right track. you are already asking questions about why not build a IT staffing company?, just as why not be the 10th milk-man? what you have to learn is the portion of the market-share you could potentially grab. what business-sector relies on IT? practically everywhere. or is it? so what business-sectors are growing, even now in 2020 in terms of fully adopting IT? can something be done there? as the 10th milk-man entering an existing market, the first thing you'd want to do is to establish a symbiotic-parasitic long-term relationship with a potential client that can assure an in-flow of cash for eternity."
+ExperiencedDevs,fopjfp3,t3_g8eu00,1587963085.0,"you should discuss your mental health issues with the hiring manager, particularly with covid around. you will have to explain why you did not divulge it prior to the interviews or at least at the time of the offer.
+
+a reasonable human-being and a good manager would understand, and they will accommodate special requests. an insecure manager is not worth accepting the offer in the first place."
+androiddev,fopijab,t3_g8n744,1587962400.0,"How certain are you that this exception is occuring only on samsung galaxy 9+ devices?
+
+Class.newInstance() is failing, some form of java-reflection is being used, anti-pattern because reflection slows-down android.
+
+first thing that comes to my mind, what build-type is the apk? release ? R8 / proguard may have obfuscated the file - change file-name, remove unused methods including even public default constructor.
+
+another thing that comes to mind is that it may as well be an activity or service class that is not declared in the android-manifest file."
+androiddev,fopggre,t1_fop30kn,1587960859.0,"when i started my career 16 years ago, my first java program was addition of integers.
+
+i wrote it in a notepad, simple text file with the .java file-extension.
+
+when i opened the file in eclipse i went bonkers.
+
+i really appreciate youngsters taking the first baby steps into the cut-throat competitive world of surviving as a programmer."
+androiddev,fopfvm1,t1_fop777o,1587960429.0,"java is foundational Object Oriented that is vastly popular. kotlin so far is only android centric, great potential for wide acceptance but we'll have to wait. learning java helps learn kotlin easily. finish the exam with kotlin, stick to kotlin for android professionally, but don't stop keeping up to date on leetcode with java, unless you know you are super super comfortable with kotlin."
+androiddev,fop1kwo,t3_g8qkp7,1587951060.0,"Do it. Take the exam, if $150 is not a big deal.
+
+you'd have an edge over other developers with 2 to 4 years experience coming in for junior roles. you may be low-balled in your salary, but you'd be able to grow into a mid-level engineer sooner as well, depending on situations and other factors of course. good luck."
+androiddev,fop0ibe,t3_g8ouxe,1587950392.0,"Java SE is a foundation framework.
+
+Java EE (Enterprise Edition) is the entirety of Internet, more or less, servlets, jsp, http, most importantly MVC architecture is here.
+
+Java AWT (Abstract Window Toolkit) and Swing are Java's desktop UI.
+
+Java ME (Mobile Edition) was slightly popular back in the day, Nokia and Blackberry (ever heard those names) practically survived on this.
+
+Android is a replacement for Java ME, more or less Java Swing on steroids, to get closer to Java EE actually.
+
+Android Studio more or less would not support Java SE. You'll need IntelliJ Idea for that. Android Studio is a flavor of IntelliJ Idea."
+androiddev,fooymq1,t3_g8mlzp,1587949243.0,"you'd understand android better if you understood web-development, and basically how internet based applications are developed professionally.
+
+you have the RDS instance in AWS, some lambda functions performing operations, connecting to the RDS and stuff, exposing a REST API, all that is good, but how'd you bring this all together to a web-page, a UI layer? you type a url into the browser, the browser connects to a web-server, and renders a webpage. User begins to interact with the web-page, this triggers a REST API invocation, that goes through the lambda functions, performs the CRUD on the RDS, yada yada yada...
+
+now imagine android app IS THE browser and Web Server COMBINED. so you don't have to type in the URL to fetch the first web-page. but every user-interaction now needs to connect with the REST API, in order to trigger the lambda functions, and thereafter perform the necessary CRUD.
+
+i'd recommend beginning with some tutorials in google code-labs for both web and android app, and thereafter, learning how android apps interact with REST APIs that are hosted on the server-side."
+androiddev,fooo4w4,t1_fomrzqm,1587942912.0,"I did a google search and found this.
+
+[https://stackoverflow.com/questions/5563502/uuid-to-unique-integer-id](https://stackoverflow.com/questions/5563502/uuid-to-unique-integer-id)
+
+solution is not to use a UUID, your question is answered though."
+ExperiencedDevs,fom9wan,t3_g83958,1587882720.0,"when you say experienced frontend developers, how many years may I ask?
+
+I'd say anything above 8+ can start to get rusty, and anything 15+ is fully rusty. i have 16+, so if i have to solve a complex competitive programming challenge, i'd lose for certain. however, basic patterns and abstract problems are a necessary skill at any level. 
+
+i'd say, senior engineers elsewhere depending on their YOE would have to solve easy and medium questions that require a trick.
+
+1) given two unsorted lists containing duplicates perform LeftInput Minus RightInput operation retaining exact number of duplicates that'd remain logically. if leftinput had 5 duplicates, and rightinput had 3 duplicates of the same element, then leftInput should retain 2 duplicates after the operation.
+
+2) Consider a bi-directional Binary-tree, each element holds either 0 or 1 as the value. Leaf-nodes have pointers to parent-node as well. Value of parent-node however is a logical-and operation of it's leaf-node. given a leaf-node as input, flip it's value, and cascade up all the way to the root based of the logical-and. how would you optimize it?
+
+3) a large array of unsorted positive long-values without duplicates with a range of 1 to a billion, has only  one long-value missing, find it?
+
+3) Reverse Polish Notation, Best Time to Buy and Sell Stock, Binary Search in a String-array, K closest points from origin, Count number of duplicate characters in a large char-sequence without using any hash / map. Implement MaxStack, LruCache.
+
+All of those problems are so easy, aced them all. but i don't work at FAANG, because i never paid attention to prepare for bull-shitting my way in OOD, System Design and Behavioral interviews, totally my fault though. focus in these interviews is definitely on the system design side of things, but there are no standard answers to that, so yeah, there's that!!!"
+androiddev,fom8kum,t3_g88rp4,1587881525.0,"idk, android-11 is apparently introducing no offline access to mic and camera, baffled me that this was still happening until now? facebook app can monitor your phone despite the app's inactivity / killed status? so yes, a network-sniffer, disk sweeper, anything is a potential hack."
+androiddev,fom3kno,t1_fok20hk,1587877355.0,\^\^\^ This \^\^\^
+androiddev,fom36om,t3_g7vbei,1587877051.0,"latency and caching is not just a problem on the server-side, but it's also a client-side problem.
+
+i am a professional android developer, and i work for a large investment bank. our real-time trade app features a secure-inbox, sort of a message-center like most banks do, so  you can communicate via emails with your financial advisors, receive client notifications that are more message like and not a whatsapp or facebook message notification, you know what i mean?, and some important to-do alerts, that sort of a thing.
+
+we have this specific design feature from Product, we display a tiny secure-inbox sorta icon in multiple different screens, because it is a big app although trade is the primary functionality, there's plenty other features too, and everywhere this secure-inbox icon appears, we display tinier badge of a count of most recent unread messages.
+
+we have a super-super legacy huge code-base since when Redux wasn't even introduced, and we make multiple repeated network api-calls to fetch the badge-count, it's just one example but several features could originally have been sharing data fetched once from the server-side. although, as a trade app, it is extremely important that all data at any point in time is the most recent to the last millisecond if possible, as in, we cannot afford to lose any data so we try and pull data as frequently as we can from the servers, therefore, I am personally not a fan of ""all your app would do is a single API-call"", like really? who's architecting this idea to begin with?. anyhow our legacy implementation appears to work, but the down-side, subsequent network api-calls may fail, and we may lose the previous data in our client-facing app. so when client switches screen, the unread messages count is lost, and when client switches to a different screen, it appears again. repeatable problem, poor user-experience, but not 100% consistently reproducible either.
+
+my best suggestion in this entire context - try and include caching mechanisms, okhttp-client can use built-in LruCache, it can also write to a disk as cache, or may be Room SQLite DB if necessary. use Redux as a middle-tier and network api-calls tier combined, and a separate UI tier module, depending on overall product design and business functionality to begin with. introducing robust caching mechanism and relying on tested and proven middle-tier architectures like Redux can help improve end-to-end performance. as far as server-side goes, am no expert, i may not be of much help in that regard."
+ExperiencedDevs,folrwkr,t3_g7wc6r,1587869037.0,"[https://www.fastcompany.com/90470552/surprising-study-reveals-what-makes-a-good-coder-and-its-not-math](https://www.fastcompany.com/90470552/surprising-study-reveals-what-makes-a-good-coder-and-its-not-math)
+
+There you go, math is the language of the universe, all human languages and expressions are all built on math and logic. good language and art skills are therefore analogous to programming."
+androiddev,foik71d,t3_g7dq37,1587788716.0,"i wonder if the new-born baby would have suggested a workable fix, google would still not have hired the baby because the baby would have failed to invert a tree on a white-board?"
+androiddev,foeeuq7,t3_g7093j,1587702058.0,"There was a time early 2011 when view-hierarchy could not go deeper than 20 as in, if you loaded up your layout file with tons of tiny widgets like buttons and text-labels and all, activity setContentView would fail at run-time without any specifics, a while later they added some specifics, and a while later found that view-hierarchy was a problem on stackoverflow, so yeah, more android learning happened on stackoverflow than with google's websites itself.
+
+another one i could recall was the 65000 methods limit, also resolved as Multi-dex.
+
+These two problems don't exist anymore though."
+ExperiencedDevs,fo8u9zx,t3_g697e1,1587603973.0,"I have had a similar, yet much terrible experience.
+
+entire team got into a conf room, all worried. we had a backend system migration that'd cause all of our front-end client-base login issues, if we don't migrate our front-end apps seamlessly. bigger problem was that entire authentication system hadn't migrated, and only parts of it were, so our front-end client-base would soon be split between legacy login and revised login flows. if front-end failed login, that was millions in revenue losses a day. essentially front-end had to choose between legacy and revised login end-points, but that wouldn't work for all clients at once. aka, front-end mobile apps.
+
+i suggested a simpler deal, front-end still relies on the backend in order to determine which system to use for client authentication based of certain criteria of course, and then point to that backend micro-service end-point to proceed with auth flow. my idea was stolen, everyone else in the conf room claimed credit, i got poor remarks in my performance review, shortly thereafter, i was laid off.
+
+learn to let go, if you are a senior engineer. none of this matters. this is practically chapter-1 of upper management, your credit is stolen and your worth is undermined. if you really want to, learn to live to fight another day."
+cscareerquestions,fo5s46x,t3_g5uqiv,1587533961.0,"Really depends on your YOE.
+
+Junior-to-mid-level, i'd imagine it's important to be fast, and optimal, also bear in mind, silently grinding leetcode is way different from an actual interview setting. nobody will hire you if you just spit out the most optimal solution in 0 time without uttering a single word.
+
+1) first begin approaching every problem with edge-cases, special constraints. look for specifics - if there's a list of strings, ask if the list is sorted? how about duplicate entries? no elements, 1 element, 2 elements, multiple elements, the plethora of questions is endless but necessarily should be relevant to the problem.
+
+2) after establishing ground-rules based of the edge-cases, proceed with brute-force, no one is going to say no to that. but here's the thing, you should be able to code-up a very basic imperative solution without an editor, on a plain ms-word sheet or a plain text-file, syntactical and compiling right, including positioning braces etc.
+
+3) speak up. always keep the conversation going, share your chain-of-thought, you don't need validation, this is to ensure the interviewer is aware of your approach.
+
+4) while doing steps 1 and 2 above, you spotted any trick in the question? if so, you may already have the optimal solution. if there's no trick, or you haven't spotted one, proceed with step-2 anyhow.
+
+5) this is typically where it starts to get dirty. interviewers could interject / interrupt your chain-of-thought and hint at an obvious trick that you had failed to notice, or provide a hint toward a potential problem with your brute-force approach, or generally ask for a more optimal solution rather than the one you have coded-up.
+
+6) never let go such an opportunity and discuss what you could have done to potentially optimize the solution to the given challenge. based of your comfort, begin coding again.
+
+so as you can see, possessing knowledge of the brute-force, sub-optimal, and optimal solutions is necessary. the more experience you have, the less of a complicated loops based problems with temporary state-holders for swapping values is necessary. for example, senior engineers over 15+ years, afaik, binary-search on a sorted array is in itself pretty complicated to get it right, let alone binary-search on a rotated sorted array or product of all except self kind of ""specific logic"" problems. DP, basic strings, basic tree traversals, mostly linked-lists, some data-structure constructs like MaxStack and LruCache is all I'd expect for veterans, with most focus on soft-skills, more system-design, behavioral and culture-fit type evaluation."

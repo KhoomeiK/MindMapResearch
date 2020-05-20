@@ -1,0 +1,222 @@
+actuallesbians,fqw6hj0,t3_gkwjay,1589694241.0,Hell yes comp sci women forever 😁
+actuallesbians,fqw6ath,t3_gkxe48,1589694087.0,"I never fantasized about slave Leia, even though I was always bi (though I didn’t know that then). I always thought it was extremely creepy. Made me intensely uncomfortable. Somehow I felt the underlying sexism and abuse even before I knew how to name it. Bounty Hunter Leia always. Long Live General Organa, and Carrie. ❤️❤️"
+TheDragonPrince,fqohi8g,t1_fqmuhog,1589515357.0,"Holy crap, that’s AWESOME!! So looking forward to this!"
+TheDragonPrince,fqk851r,t3_gjd4xb,1589421989.0,Thought y’all could help.
+actuallesbians,fqgmtso,t1_fqglul3,1589350632.0,😂 fantastic
+westworld,fqgixc7,t3_ginkcr,1589347484.0,"This is horrible and I love it
+Thank you"
+bisexual,fqghvey,t3_gidsg1,1589346685.0,"I’m wildly excited about Percy and Moana. Didn’t know to be looking for Percy back in the day, back when I was reading those books in middle school. When does it come up? And when does Moana come up? Cause hell yes. Bi squad assemble"
+bisexual,fqghpw8,t3_gik8wc,1589346570.0,"I did watch Friends even as a really young kid. Carol and Susan were used as the butt of jokes so often, though, I didn’t realize “gay women” were a thing until Buffy at age 11 lol
+
+NB: thank you Mitch and Cam for “gay men” lol"
+actuallesbians,fqghc7r,t3_ginj0b,1589346288.0,"this is another one of those childhood obsessions where (aside from the complete lack of discussion about sex or non-straight people where I grew up) in retrospect, I’m like “how did I not realize I wasn’t straight at age 5”
+
+Lmao."
+actuallesbians,fqgh6mw,t3_girpqq,1589346173.0,i miss the fking sims lol
+camphalfblood,fqfvua3,t1_fqfawg6,1589332705.0,😂 excellent
+camphalfblood,fqestdz,t3_giaonq,1589313012.0,"I know there are a hundred things this could be and I’m pumped for just about all of them, but what if he just dropped Sally Jackson’s seven layer dip recipe
+
+🤣 lmao I’ll see myself out"
+bisexual,fqesgal,t1_fqd9mai,1589312841.0,🥰🥰🥰
+shortcuts,fqes8li,t1_fqda5qo,1589312738.0,"No, I was actually hoping for when you activate the shortcut, it would start the voice memo at a specific length into the audio file. Like, for example, if my file is an 30 mins. long, I want to be able to open this shortcut, have it open the file, skip to minute 0:15:35, and start playback. Kind of like jumping around with hyperlinks in YouTube comments with time codes for the above video. Does that make sense? (My phrasing might’ve been unclear above. Sorry about that.)"
+shortcuts,fqelytf,t1_fqedkus,1589309757.0,"I’ve heard of this setup, but I’m unsure of how to do it... Do you know of any tutorials I could look at?"
+shortcuts,fqeatcs,t1_fqe9in7,1589304525.0,"Darn it. That’s unfortunate.
+
+Do you think there is any way to accomplish this? Run in the background and activate by push notification or calendar event notification via Automation? What do you think? (I updated the “Purpose” comment.)"
+shortcuts,fqe9b34,t1_fqe4bj4,1589303845.0,"So, thank you—I tried [modifying it](https://www.icloud.com/shortcuts/24463c407378413093f47af023815345). 
+
+First, I create a calendar event for the scheduled time. Then, I get the time in seconds between the current time and the calendar event (set as “TimeUntilText”).
+
+I did some investigating and saw that the “Wait” command will only run 170 seconds in the background ([source](https://www.reddit.com/r/shortcuts/comments/9i2wzt/psa_the_wait_function_doesnt_run_in_the/)). So, I calculated the number of seconds in 12 hours (43,200s) and divided that by 160s ([to be safe](https://www.reddit.com/r/shortcuts/comments/9i2wzt/psa_the_wait_function_doesnt_run_in_the/) ; it equals 270). Therefore, I set a loop to repeat that number of times (repeat 270). Within that repeat loop, I check if “TimeUntilText” > 0. If true, I wait 160s, then decrement 160 from “TimeUntilText”. The loop starts again, running 270 times. (Effectively, if “TimeUntilText” is less than or equal to 0 from the start, each pass will skip that if-sequence. So, there is some time wasted; it won’t be exact. But I decided I was OK with that to create an approximate timer of max about 12 hrs, provided this works.)
+
+Then, after this repeat loop, I do an if-statement so if “TimeUntilText” is less than or equal to 0, the text is sent to the specified recipient.
+
+Do you think this will work? (Thanks for brainstorming with me.)
+
+[New Link](https://www.icloud.com/shortcuts/24463c407378413093f47af023815345) (again)"
+shortcuts,fqe1zwa,t1_fqdaivl,1589300448.0,"Oh damn. I can see how that would be. When I was testing it, I tested it at the time it was and this issue didn’t occur to me.
+
+Is it possible to get it to wait to perform the “if” statement until the current time = the specified time? Thank you for pointing this out."
+shortcuts,fqd8vxk,t3_gi9ctx,1589283546.0,"**EDIT:**
+
+*Intended Purpose:*
+Sends a Text message in the iMessage app to a user-selected contact at a user-specified date and time. The default text is the contents of the clipboard, but can be edited.
+
+*Original Post Functionality:*
+Sends a Text message in the iMessage app to a user-selected contact at a user specified date/time **IF that time = the exact current time**. The default text is the contents of the clipboard, but can be edited.
+
+[WIP Link as of 12:26 PM CST 5/12/20](https://www.icloud.com/shortcuts/7b322d4d7bbb43088f34498e247541f7)"
+bisexual,fqbhrws,t1_fqb2zvj,1589237224.0,Also [hi there will 😆](https://vignette.wikia.nocookie.net/olympians/images/4/40/Will-Solace.jpg/revision/latest?cb=20170216133752)
+bisexual,fqbhl2z,t1_fqb2zvj,1589237122.0,"I love this so much, thank you for this comment 😆"
+bisexual,fpy5yex,t1_fpy4gzt,1588996723.0,Both!! Do a quick search on Hamilton and Laurens’ letters. Both reading them for oneself—this man is Dickinson loud 😆—and it’s being discussed in contemporary historical academia. 😄😁
+actuallesbians,fpy5kzo,t1_fpuvqlb,1588996494.0,"😬😆😆 Grooosss. But yeah: I do want to visit someday. Looks like a downright magic place. 
+
+As for *Outlander*, though— I Love *Outlander*. I was kind of surprised at how much I loved it. My Mom introduced it to me a few years ago; she doesn’t always have the best taste in TV shows/books/movies. (Not so good to the LGBTQ+s, the disabled characters, or the PoC’s oftentimes.) It’s really hit or miss, though, because sometimes the shows she STRONGLY suggests I watch are horrible, and sometimes they’re fantastic. 😆 *Outlander* reminded me that.
+
+There is a lot of sex and there is some sexual violence. In my view, though, most if not all of it is there for a purpose (and I’m relatively critical about this). There’s one episode y’all may want to skip where the entire episode is an account of a lengthy, gruesome, graphic male on male rape of one of the main characters. It’s horrible. Surprisingly, though, it is not a bad episode — and that’s indicative of the rest of the show’s quality. As with the entire show, it takes great care with its characters, nuance, and depth. It actually deals with the short __and__ long-term consequences of this. Its main character, Claire, is a FANTASTIC female character. Its main male lead is actually great, too. There aren’t any lesbians yet that I know of, but it treats its gay characters with a ton of nuance. AND, it’s great historical fiction with awesome time travel/free will/almost Sci-fi fantasy shit woven in there. Like any show, it has its flawed moments. But 9.5/10, would recommend. It’s awesome. 😁"
+actuallesbians,fpu9t50,t1_fpospr8,1588907820.0,"Big Same, all the last (almost) 2 months. Lol. Also ""fracking."" (I love *Battlestar*.)
+
+It's so hard to be a computer science major and watch your non-CS professors struggle with the most basic software. Like, I know I could \~fix it\~ if I were *there*, but I'm *not*. XD An eternal struggle. (The world is so fked up. Lol)"
+actuallesbians,fpu9lf9,t1_fpqxav8,1588907683.0,"I don't have a helpful comment on this, I don't think, but I love your username. That's all. Best of luck 👍"
+actuallesbians,fpu9g2e,t1_focq1e7,1588907586.0,"You said ""Highlands"" and I jumped straight to Outlander. Lol. This is great."
+actuallesbians,fpu90hq,t1_fpu6m0x,1588907311.0,Thank you both. This made me smile. I needed this. Lol. <3
+bisexual,fptq6u6,t3_gfesew,1588896055.0,Steven Universe vibes 💕
+actuallesbians,fpovnfi,t1_fpov3vt,1588791439.0,XDD
+actuallesbians,fpoir7f,t3_ge4a3z,1588785188.0,"Am I a useless bi or should these two *women* give it a shot
+
+Lol
+
+(But really—this is heartwarming. 💛💛)"
+actuallesbians,fpoi31s,t3_genlf6,1588784870.0,AAAAAAAA
+actuallesbians,fpoi0ry,t3_genzt9,1588784839.0,https://twitter.com/choo_ek/status/1257467785443065856?s=21
+actuallesbians,fpnfw8n,t1_fpmiu1q,1588761492.0,"Happy to help, friend 😄"
+actuallesbians,fpm6slo,t1_fp4yjgb,1588726727.0,"Season 3, episode 3 <3"
+Theatre,fp4v4zm,t1_fp4839g,1588308196.0,"Oh yes. It definitely is. I’m hurting for/with them, because I care about them and am infuriated with this crap of colleges coming for arts funding first amidst COVID-19 $ shortfalls. I abhor that my tuition supports such ignorance (on part of my university’s bureaucracy when it comes to the importance of the arts) and awfulness. I can’t believe they’re doing this to them. I hate all of it. I’m sad about the show and hurting that this director might not be in our lives as students at my school anymore once we have to go back and finish our degree(s), but the rest is where that outrage 😠 lies—not on one show."
+Theatre,fp4ujud,t1_fp4d54k,1588307757.0,😞 I’m so sorry.
+mentalhealth,fp2tv6m,t3_gar3sr,1588267795.0,"Thank you for posting this. 💛 I love that that Breath of the Wild stable song is what you were listening to. I love that song/game. Hope you got to have a good sleep on your birthday, at least. “Happy” birthday, as happy as it can be... Thinking about you. (And thank you, for like, keeping our society going right now. I’ve spent a lot of time in hospitals in my life and the nurses might be the most important part.)"
+Theatre,fp2t2m3,t1_fp2rvqg,1588267423.0,😞 Thank you. I appreciate it
+actuallesbians,fp2r2w5,t3_gazov6,1588266472.0,"I honestly didn’t know that spoiler tags were a thing, everyone. I’m so, so sorry I spoiled this for y’all. This gave me a little boost at the start of this week, and I was just happy to share that joy with somebody (in the midst of “the world sucks right now”)... I’m so sorry. I feel horrible. I hope you’ll get to watch it and not think about the joy that was lost by seeing my dumbass post ahead of time; I can remove this too, if y’all want. 😞"
+actuallesbians,fp1e40k,t3_gara8a,1588232477.0,"The absolute goddamn epitome of “Be gay, do crime” XDD holy shit I love this show.
+
+Or as my little sister said relaying this news to one of our friends tonight, 
+
+OH YEAH THE GAY CRIMINALS ON KILLING EVE
+
+TECHNICALLY LESBIAN CRIMINALS
+
+THEY FINALLY KISSED
+
+A VICTORY FOR ALL HUMANITY
+
+😆🤣😂💛"
+actuallesbians,fp1dwex,t1_fp1dtr2,1588232281.0,indeed 😆 right back at-cha XD
+actuallesbians,fp1dcw3,t3_gar5v7,1588231774.0,"(we were talking about Villanelle and Eve last weekend *when she shared this meme with me)
+
+*— Just wanted to clarify that it was her meme, not a screenshot of our conversation; credit where credit is due, and I realized that wording was confusing."
+actuallesbians,fozz72t,t3_gae4a8,1588199506.0,"This is priceless
+Now I gotta rewatch Scooby Doo 😂"
+bisexual,fovd335,t1_foqzm48,1588099299.0,"She plays the robot lady who fks sh-t up on Westworld. 😆😁 She’s Awesome — Both as Dolores, her Westworld character, and as an incredible actress/super cool person. (She’s active with advocacy work for the LGBTQ+ community, too, and for rape/sexual assault/abuse survivors, as she is one herself. All around awesome. :))"
+bisexual,fovcr30,t1_fori50u,1588099139.0,I KNOW RIGHT 😂 I was just so excited to find out about this lol
+actuallesbians,fovc5pc,t3_g9drba,1588098857.0,"Oh 100,000%. 😆 Love me some Bubbline 😂😊💕"
+AnimalCrossing,foqzcdb,t3_g8x140,1588003471.0,This is freakin delightful. Thank you for sharing
+lgbt,foqu4x3,t3_g8z7tq,1588000872.0,"I may not have known much yet, but middle school me was right about this man 😂💛🌈"
+Theatre,fopuv9m,t1_fooib6m,1587972906.0,Thank you!! :)
+actuallesbians,foob3w4,t3_g868ps,1587935864.0,"Well this is f—ing precious
+
+😂 https://www.washingtonpost.com/video-games/2020/04/02/animal-crossing-wedding-coronavirus/?outputType=amp"
+actuallesbians,foeah77,t1_fodxoid,1587699344.0,"Hehehehehehehhh. 😁
+
+And u/StarbuckBronte—indeed, we do 😜 woman after my own mind"
+disability,fodqzx2,t3_g6q5n0,1587688485.0,"What the fuck.
+
+Wow. 😒😖"
+actuallesbians,fodqmdn,t3_g6u7nu,1587688275.0,"“And we talked about Buffy” 😆 that’s when it got me 😆 (this is the gayest thing I’ve ever read, thank you for sharing this)"
+actuallesbians,fodq9w7,t3_g6tfb1,1587688089.0,Awww 💕 this is adorable
+actuallesbians,fodq59x,t3_g6ow9p,1587688016.0,"Awww 💕❤️
+Social anxiety is a Bitch... but how badly do I want this from someone who’s not my immediate family 😓
+So glad y’all have it tho 💕 this is precious"
+actuallesbians,fodq1ph,t1_fodd7nh,1587687960.0,"😂😂😂😂
+Thank you"
+StarWars,fo5fi40,t1_fo3fibt,1587524395.0,Oh yeah. I think you’re right.
+bisexual,fo1244b,t1_fo0q5ff,1587424218.0,"I’m so confused as to how Ryan Gosling got thrown into a slap-fest about Star Wars and sexuality, but 😂
+
+Also who you love is a huge part of who you are, and Disney’s continuous denial of the romantic tones of Finn & Poe’s relationship for 3 movies denied a huge part of who they are/their stories — to the series’ detriment. And those choices were overtly politically motivated and not backed by the cast, writers, directors, or crew. I look forward to a day in which people’s sexualities aren’t “relevant” in the same political sense we think of them as being today. But, part of what makes people’s sexual preferences “relevant” now is the fact that certain people’s sexualities are punished, outright banned, or denied to extreme
+measures in media and otherwise, and certain people’s “sexual preferences” are not. *Because* of the very fact their romance was not allowed to be made explicit for explicitly political reasons despite just about ALL the creatives involved rooting for that the entire time the series was going is why it’s relevant to talk about things like this. (Don’t love your comparing incest to being bi, btw, but that’s another conversation I guess. 😂)
+
+So I guess I’m with the people you’re maligning. ¯|_(ツ)_/¯ 😂 Yeah, I think I’m okay with that. Happy Monday to you too, lol.
+
+EDIT: u/RyanGoslingIsGOAT. I see it now. 😂"
+bisexual,fo11maf,t1_fo0oyjl,1587423938.0,"I now feel validated for liking the new trilogy today
+
+Thanks ya jerk lol 😂"
+StarWars,fo11ix6,t1_fo0y0z4,1587423885.0,I know right 😆 that’s what I thought
+bisexual,fo0relx,t1_fo0mmvf,1587418364.0,"😪 F—ing hell. Wow. That is *so* frustrating.
+
+I definitely want to rewatch TCW even more, now. I hadn’t had my conscious bi-awakening the last time I watched it and I want to be looking out for this.
+
+F— censorship. 
+
+And I wonder if that’s one of the reasons why I loved her so much. Cause even back then, I connected with that part of her.
+
+💛"
+bisexual,fo0lu4r,t1_fo0lm5u,1587415451.0,"See, I haven’t seen enough of Rebels.
+
+But * A w e s o m e * 😁😁💛"
+bisexual,fo0ldj9,t1_fo0kogi,1587415217.0,"XDDD
+
+Also when is Ahsoka bi because if she is that would make me love her even more lol"
+mentalhealth,fo0jwz1,t1_fo0hhgl,1587414471.0,"It is a bit addicting (XD oof), but I have these same problems. Overthinking, worrying over the littlest things, insomnia. Social anxiety is one of the most difficult things I’ve ever dealt with. But I’m really appreciating it; feels like a much better coping strategy than the bad ones I’m used to 😂"
+mentalhealth,fo09x5f,t1_fo055cy,1587408682.0,"Oh, great! Thank you!!"
+mentalhealth,fo04obd,t1_fnzzvm8,1587406018.0,"You’re welcome! And these are all great suggestions, too. I’ve always wanted to try Majong. Any easy tutorials I could check out? I’d love to give it a try. :) Thank you for sharing, too."
+actuallesbians,fnx69p4,t3_g48a2u,1587332307.0,Honestly a combination of Vanessa and Ferb and [Vanessa and Candace’s song](https://youtu.be/MrpKD5-Su9A) radiating bi-energy should’ve told  me this a long time ago lol
+actuallesbians,fnx5ybz,t3_g483nt,1587332129.0,[THIS is The Bad Place 😆](https://media1.giphy.com/media/cRMGqNpvm9XS2gRcpL/giphy.gif?cid=4d1e4f2986db56d97249d63ead8c96774abf668f06d195a9&rid=giphy.gif)
+actuallesbians,fnv3yra,t1_fnuwa05,1587279449.0,Y’all are the best 😂💛
+actuallesbians,fnus4tv,t1_fnuh475,1587269654.0,Television 101 😂
+actuallesbians,fnurzoy,t3_g3y4ek,1587269552.0,Facts. 😆
+actuallesbians,fnqiioi,t1_fnk0y5p,1587165295.0,Ahh!! Thank you! 😄
+actuallesbians,fnjym2g,t3_g26xw2,1587010133.0,Oh dear God. I have never had a text exchange this healthy with a guy. So glad to be here. So freaking glad to be here 😂 thx for sharing lol
+actuallesbians,fn4rz4d,t3_fza5re,1586647682.0,"Oh God, I’m a top.
+I guess I was a top on the inside. Lol"
+MusicalTheatre,fmy6aiy,t3_fxwbgu,1586479039.0,I concur strongly
+actuallesbians,fmy5n15,t1_fmy38mk,1586478637.0,"Oh, yeah! 😂 No worries! I appreciate it, really. But it’s okay - I’m being safe. 😊"
+actuallesbians,fmy2mce,t1_fmxxcsh,1586476799.0,"Oh yeah. I’m several years over 18. Like my post says, I’ve been in college for several years. That flair was misleading, though. 😂😅 Sorry about that. (And thank you for looking out 💛)"
+actuallesbians,fmlsu54,t1_fmkn24i,1586192587.0,"Great suggestions, thank you"
+disability,fmjymgl,t3_fvfitx,1586140412.0,"I love wonderful, wonderful kitties. 💛"
+actuallesbians,fmgx3lz,t1_fmgwmus,1586060197.0,"No, I haven’t! What’s its deal? (And yeah... I liked *Maisel* a lot before, but S3 **was** incredible.)"
+actuallesbians,fmgw6en,t1_fmgv5jb,1586059470.0,"Season 3 is a knockout.
+
+They were heading that way with Susie this whole time and then during a set, Midge said in a throwaway line that she’d had sex with a girl in college (she, like Lenny Bruce was, is always very honest during her sets, so I have no reason to believe she was lying about that). Late season 2, they introduce Shy Baldwin, this incredible singer who asks Midge to open for him on tour. He’s expanded on all season. He’s closeted gay (pre-Stonewall), and late in the season, he comes out to Midge. (I won’t go into detail, but it’s an incredible scene in an incredible season.) It’s heavily implied, to the point where I’m willing nearly to call it explicit, that Shy and his manager, Reggie, have been in love for a long time. Reggie (and just about everyone) compare him and Shy to Midge and Susie all season. Susie’s definitely a main character and has had character-work including in the previous seasons, but even more so in this season (and I’m pretty confident it’ll be even more next season). In the season finale, Susie has this incredible scene with Joel, Midge’s ex-husband, where she admits she has a gambling problem and asks Joel to manage her money from now on. This is the first time we see her cry (this episode). 
+***
+She turns to go and he calls after her: 
+
+Joel: Susie, stop. You can't just come in here like that. I mean, why? Why me? There's business managers and accountants and a lot of other people who are trained to do this. I mean, hell, Shy must have a team of people - you could ask to-
+
+Susie (and she’s red-eyed this whole time): 'Cause you love her! You'll always be in love with her. You won't let anything bad happen to her, ever. It has to be you. Just let me tell her, okay?
+
+Joel: What, that I'll love her forever?
+
+Susie: No, about the money. She knows the other shit. Everybody does. I'm only gonna say this once, so pay attention — thank you.
+***
+This time. All these other times... They’ve been playing with the dynamics of Midge and Susie’s relationship all show. But then S3, everything got more real. The whole season was — even more — about feminism, free speech, identity, civil rights. It’s real now.
+
+I don’t know exactly where they’re gonna go with any of it; I’m inclined to trust Amy Sherman-Palladino, who’s an excellent writer, and anyone she chooses to work with, so I have some hope. But there’s also that uncertainty, S4 won’t be back for a long time, and Amy’s been thwarted by dumbass network executives before, so I just— needed a palette cleanser. ❤️"
+actuallesbians,fmgut9s,t1_fmgu57b,1586058406.0,About to finish S1 of *Killing Eve*. Love that it’s explicit. Saw the end of S2. Waiting to delve into S2 until S3 comes out and we see how they address it/if I’m about to get duped again (not in a trusting place rn). I hear you on *Gentleman Jack*. I’ve heard great things. Thank you. 💛
+actuallesbians,fmds4zh,t3_ful3u0,1585976257.0,"Merida to Elsa
+
+🤣 I’ll see myself out"
+actuallesbians,fm6cnln,t3_ft95xm,1585791133.0,"Afraid of what hell she’d pull if I ever told my grandma I was into women, meanwhile she’s been trying to force my 6th grade boy cousin to date a girl in his class he barely knows for a year lmao 😓 RIP"
+witcher,flti1gu,t1_flqvo06,1585473771.0,"I’ve just finished rewatching the Netflix show, and this made my heart so full. I love this series. Ordering the collections this week. Think it’s gonna be totally worth it (and such a nice diversion from *Game of Thrones*, without shying away from darkness). 😊❤️"
+actuallesbians,fltfzqd,t3_fqqowj,1585471235.0,Awwwwwww
+socialanxiety,fltfdpk,t3_fqquov,1585470493.0,Wow. I feel targeted. 😂
+bisexual,flpuxsi,t3_fq6cu3,1585369551.0,Bro what the hell episode is this from cause now I wanna re-watch it XD
+socialanxiety,flmolmf,t3_fps2gs,1585290447.0,In the middle of the g-d-mn night. 😂
+CPTSD,flao2et,t1_fl9ii87,1584987697.0,"Yeah.
+
+I'm really sorry for being confrontational. I was having a hard time and feeling invalidated here, elsewhere on the internet, and in my real life all at the same time, and it overwhelmed me. I was starting to feel like everyone with the problems I had were faring better than me and it was invalid, or I was inadequate, for not faring as well as they were, or it was invalid that I wasn't doing well or was in pain while others with my similar issues were doing great. (Unfortunately, I had had several interactions with people on this and other subs where I posted that I was in pain about the situations and got responses like ""I don't know what you're talking about, we're doing great right now"" and the like, no response at all, or responses explaining that I wasn't going to get any responses because the majority of others with my similar problems were almost enjoying the quarantine situation). I felt invalidated, from all those angles, and I overreacted. I'm sorry I posted this confrontational shade on y'all's sub; it was wrong of me. If I had a problem with specific users, I should've dealt with it separately. That's on me. Thank you for your support. I appreciate it, both of you--u/gurneyhallack And u/Getting_Help."
+actuallesbians,flan4m4,t3_fnd1he,1584987158.0,"*Portrait of a Lady on Fire*, circa 1770. 😂"
+camphalfblood,fl8ejjt,t3_fn8ke0,1584921875.0,I love Tyson and Ella and Percy and Annabeth and Hazel. ❤️ These are great.
+mentalhealth,fl868l4,t1_fl84tar,1584916737.0,"Thank you for these; I appreciate it.
+
+Also: https://www.reddit.com/r/mentalhealth/comments/fn83w0/my_abusive_family_let_me_know_today_theyve/fl85lb0/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+They say they refuse because my therapist — who I’ve been seeing for years, she took years for me to find, and was recommended by my primary care physician — is out of network and they “do not approve independent non-network therapist/psychiatrists.” Anymore. (This is a change, as of this year.)
+
+Do not approve, with the money you stole from hundreds of people and used me to steal.
+
+I hate these people. I wish I never had to talk to them again."
+mentalhealth,fl85lb0,t1_fl830wu,1584916349.0,"I’m a young adult (20), and they control my life as an adult because I’m disabled. I’m trapped. This has been my nightmare for years. 
+
+I can’t work outside the house, keep going to in-person college (everything, including my University, is shut down/online), or hardly leave the house because of Coronavirus. The house isn’t wheelchair accessible. I can’t earn enough money to pay for therapy through online jobs. When I was born disabled, these people started a foundation and named it after me to use me to extort/defraud people and pocket large sums of money for themselves. They’ve controlled my life via that and my parents’ relatively small/lack of income; they get to decide my care by being the only ones who can pay for it, using money they raised by using me to steal from people (most of which, again, they extort for themselves).
+
+I’ve been trying to cut myself off from them and they’ve been trying to find a way to get back at me for going to college far away from them for years. I was in a major accident earlier this year. When I was badly injured, they finally saw their opportunity to get back at me for trying to get away from them, free myself from them, or stop them from using me any further. They’re still using me and extorting money from the foundation they built while using and abusing me.  They’re denying me treatment and saying they “don’t approve” of my therapist anymore. There’s a clear chain of events, here. This is their revenge."
+bisexual,fl6bxta,t1_fl5o7dh,1584862027.0,"Christian Bale (Batman) and Anne Hathaway (Catwoman) in The Dark Knight Rises.
+
+That’s it that’s the tweet 😂
+
+
+(Also “As far as women, there are too many to mention” 😂 thank you and what a mood)"
+SelfCareCharts,fl1qecw,t3_fly1om,1584734154.0,"Just wanted to pop on and say: I love this song for the very same reason. Like, Anna is suicidally depressed at that point. By far the realest a Disney movie has ever gotten for me. It’s a beautiful song. 💛"
+actuallesbians,fl1kspz,t1_fkz2ute,1584730964.0,Honestly.. me too. Such a beautiful moment that confirmed so much at the end of a beautiful show 😊💛
+actuallesbians,fl1kbum,t1_fl1gfsh,1584730701.0,"Best Black Mirror episode ever 😄 hell, one of the best hours of television ever"
+disability,fl1a1s2,t1_fkzp7bo,1584724921.0,You’re welcome!! So nice to have in these quarantine times. 💕
+actuallesbians,fl19x5z,t1_fl19kvd,1584724849.0,"That’s how I found out so many of my theatre friends were also bi, bi+, lesbians, or queer people. Such a great way to do it. (And if you haven’t been on a date with a girl, ever—I’m in that boat—bring up a girl you were crushing on in the same romantic context as the men others are discussing.)"

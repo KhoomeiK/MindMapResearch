@@ -1,0 +1,344 @@
+learnprogramming,fqrmau2,t3_gk6qso,1589587241.0,"C++ is a good language to know anyway -- dive in for an intense weekend on CodeCademy (or elsewhere) to get the basics down, work on the design part (pseudocode/algorithms/IO diagrams/whatever) at work until you feel comfortable with C++ syntax, and then just dive in and have fun.  
+
+
+It's not an ideal situation and it sounds like your employer doesn't really know what they're asking of you, but it gives you a reason to be honest, learn a ton, and gain some new skills."
+ProgrammerHumor,fqonzgq,t3_gjhxqc,1589519926.0,"Semicolons *are* optional according to the Python documentation. You might have to use them if you're including multiple statements on a single line. That's usually discouraged and in practice you would/should never really need to use it, but it might add clarity if you want to modify a variable on the same line where it's initialized.  
+
+
+Consider a program where the user inputs an integer and mathematical operations are run with that info. If every operation it performs requires the integer to be doubled, it makes sense to reassign its value to twice the inputted number. This might add a little clarity for someone trying to figure out why the input number is always doubled (and is easier to read than trying to type cast and double it in the same statement):  
+
+
+    some_int = int(input('Enter some integer: ')); some_int *= 2"
+learnprogramming,fqcikvz,t3_ghtx45,1589259144.0,"Anecdotal here, but I do a lot of data processing and analysis in my current job. I use Python to gather, organize, and inspect the data. I use it because it's relatively straightforward and gives me more intuitive flexibility with compiling the data into lists than my other language (Java). When dealing with large files and processing them into huge, complex, nested lists and then printing only the pertinent subsections of info to a different file, Python takes its time and you really do notice the tradeoff for ease of programming vs. performance. My scripts usually take a minute or so to process -- not horrible, but would be done in a second in Java. If I'm analyzing more than a few hundred thousand rows, I'll bite the bullet and write the harder program so that I'm not idling for 10 or 15 minutes (and likely freezing/crashing at that point).  
+
+
+Python does data very, very well. As the operations get more complex, Python is easier and way, way faster to write scripts; however, at the time of execution, if the datasets in question are too large, Python becomes resource-intensive and slow.  As I'm only using a standard laptop as hardware, I sometimes have to choose to use something faster."
+ProgrammerHumor,fqbcc6a,t1_fqbb254,1589234388.0,"Indeed. I actually really like Powershell. It's just easier to type cmd, and my laziness has no bounds."
+ProgrammerHumor,fqaf25z,t3_ghh4b1,1589217978.0,"Me, the very first thing that happens every time I'm working in Windows.  
+
+
+""No problem!"" ls  
+
+
+""Oh FFS..."" dir"
+learnprogramming,fq53uux,t1_fq4rc6t,1589091670.0,"...Did you just suggest that calculus, trig, and algebra could be learned in 1 or 2 months easily?  
+
+
+Because I'm pretty sure people spend years learning these subjects normally, and still just under 50% of college students who take calculus (already ambitious students) fail it.  
+
+
+I'm not saying it can't be learned by the vast, vast majority of people, but it's pretty important to give it lots of time. If you don't, you're not going to learn/retain it. Calculus (and most advanced algebra/trig) is all about analytical skills. You can get those through practice, but give yourself time and don't be frustrated if answers/approaches aren't immediately obvious.  
+
+
+I just worked on a project that required some intermediate-ish algebra to get the algorithm. The solution itself was quite obvious, but a lot of members of my team simply didn't see it because the approach to get the the solution was not obvious at all (it required solving two sets of three equations in three variables and comparing the results, but that's not really what it looked like on the surface).   
+
+
+If your math skills aren't great, rest assured that you can improve them. Give them time. Most coding isn't math-intensive, but mathematical logic *is* coding logic (computer science is really a weird branch of applied mathematics at its core), so being a decent mathematician does help. If you want to work in data science/AI/ML, you'll need a pretty good grasp of linear algebra, some calc-based statistics, and finite mathematics. Game designers may need some calculus and analytical trigonometry to make the physics of their games realistic. All coders benefit from understanding discrete math/proofs and the detective skills that allow you to solve equations that  require obscure trigonometric identities, for example. If you're not a (very rare) math genius, don't try to go from intermediate algebra to multivariate calculus in two months. You'd be setting yourself up for disappointment and reinforcing everything you think about yourself ""not being good at math."" (I think you are good at math, you just need more practice and a better grasp of the foundational rules that make things like infinitesimals (im)possible to think about)."
+ProgrammerHumor,fq2bfwi,t1_fq0q4yf,1589054546.0,"Hei naapuri.  
+
+
+print('Hei maailma')"
+ProgrammerHumor,fq2ann6,t1_fq07ui0,1589054339.0,"tout le monde = everyone.
+
+  
+le monde = (the) world."
+DecidingToBeBetter,fptqrzv,t1_fptejqi,1588896385.0,"In the US, law school tends to come after undergrad/bachelor's. Most state bar associations require that you go to law school to sit for the bar, and almost every accredited law school requires a bachelor's degree or equivalent for admissions, so the vast majority (must be well over 99%) of American lawyers have a bachelor's and then get their JD (law school degree).
+
+It'd be much harder (almost unthinkable) to get a scholarship *without* the undergraduate degree."
+todayilearned,fpa553y,t1_fp9lnr3,1588441012.0,"If you're not a security expert or a local, just do your best not to be in Vegas during DEFCON: [https://en.wikipedia.org/wiki/DEF\_CON#Notable\_incidents](https://en.wikipedia.org/wiki/DEF_CON#Notable_incidents)"
+ProgrammerHumor,fp3y376,t1_fp2yh44,1588287966.0,"I prefer dark, but not enough to change my settings in idle (it's like two clicks too many). Can I assemble too?"
+GetMotivated,foii9jh,t1_foihsqr,1587787303.0,"Plus the discursive advantage of being in a room with other who want to discuss the same topics, are reading the same material as you, and are being guided by an expert in the subject.
+
+College is so, so much more than the vocational school people make it out to be."
+ProgrammerHumor,fo9bynj,t3_g6e0x1,1587615447.0,"The clever, short solutions you find there are definitely best practices for CodeWars (I'm not knocking the genre! It's fun and often useful to think about how to solve things briefly using nested list comprehension with multiple lambda functions), but code like that in production would be a nightmare.   
+
+
+Aside from algorithm challenges, readability, functionality, and scalability > the shortest possible answer."
+ProgrammerHumor,fo0ol3o,t1_fo062r1,1587416882.0,"Honestly, it's mostly mathematical \*thinking\* (discrete math) rather than computation that will improve the average person's code. A little algebra (knowing that y = log(x) is more efficient than y = x) for choosing the right sorting algorithm might help sometimes, but basically having proofs and the ability to abstract away from specific problems and into general, scalable logic is the real value.   
+
+
+If you really use calculus and linear algebra, you're probably in data science/machine learning. Analytic geometry (usually covered in calc 1) is good if you work in graphics."
+povertyfinance,fnwjj04,t3_g48xnw,1587319579.0,"Nice work! After the rainy day fund grows, what's your next financial goal?"
+unpopularopinion,fnswapx,t3_g3m531,1587230016.0,"Can we talk about the difference in quality of care that a suicidal person with money vs. a suicidal person without money get?  
+
+
+Two people I'm close to had these experiences:  
+
+
+Person A: didn't commit suicide, but was thinking about it. Talked to her psych who referred her to the hospital. Was put in a nice room in a beautiful ward where she was able to stay for several weeks, attending private and group therapy sessions, adjusting meds, managing side effects, etc, until everything was more or less normal. The hospital billed insurance and left Person A with a $2000 bill.  
+
+
+Person B: didn't commit suicide, but was ready to. Someone called 911 and he was handcuffed, put in the back of a police car, and dropped off at the hospital. He was yelled at and threatened until he agreed to admit himself. He had a shit room, daily visits with a psych, and group therapy only for three days. He was put on a standard med and told to come back if he was experiencing symptoms. The hospital billed insurance and left Person B with a $3000 bill. The last person he talked to at the hospital was a finance representative who basically passive aggressively threatened to ruin his life if he didn't stick to the payment plan they agreed to.
+
+  
+Both insured, both unemployed, but Person A lived in the right neighborhood and got top-of-the-line facilities for as long as she needed them for $1000 less than Person B. Person B lived in the wrong neighborhood, was seen as a likely financial liability, and was asked to leave as soon as he met the medical definition of stable (which basically means he didn't have any means of committing suicide and was frustrated enough to say that it wasn't his plan).  
+
+
+Healthcare is only care in the US if you have the money to pay your bill and happen to hit the hospital jackpot and get admitted into the right facility."
+ProgrammerHumor,fnc3b7p,t1_fnbgn6x,1586827724.0,"I agree, especially in dynamic languages."
+ruralporn,fmm3cvx,t3_fw0tot,1586198024.0,This is lovely. Did you take the photo?
+languagelearningjerk,fmk1f2e,t1_fmk0w5y,1586142252.0,Sounds easy.
+aww,fmi0kge,t1_fmgtzl0,1586099731.0,My emotional support black cat turns nine this month!
+aww,fmi0bee,t3_fvcq81,1586099541.0,How can I get a job in which I can work with larger cats? And do any of them pay well?
+unpopularopinion,fmhzwxw,t3_fv9rub,1586099215.0,I agree with this somewhat popular opinion.
+languagelearningjerk,fmgqhqo,t3_fov4c8,1586055158.0,"I know this is a meme, but can we make this happen?"
+PFJerk,fmgnw4t,t3_fv38zl,1586053288.0,"Wow, poor. You use credit?"
+languagelearningjerk,fmcfjqq,t3_fu0bco,1585944696.0,"In a place like New Mexico, Hispanophones are a dime a dozen. Learn something truly useful and marketable. Uzbek, Sami, and Dothraki are really your only options."
+tifu,fmcf7gq,t3_fub94o,1585944509.0,The soccer burn was beautiful.
+languagelearningjerk,fm9s6bm,t3_ftxo7d,1585875360.0,"NOW I WILL ACHIEVE WIZARD LEVEL IN JAPANESE, SENSEI!!!!!!!!!!"
+AskReddit,fm8w4v5,t1_fm7n5mu,1585857133.0,Been there
+languagelearningjerk,fm4z76y,t3_fsmebq,1585763408.0,Will you please translate Harry Potter into Hunnic? Thanks!
+languagelearningjerk,fm1ubdz,t3_fs3zsa,1585685144.0,I don't understand. Are there people who only know 7 languages? What about the other 53 official translations of Harry Potter?
+ITCareerQuestions,fm16dpl,t3_fsdyl9,1585672824.0,"I think part of your anxiety might be that you're blowing some of these skills out of proportion.  
+
+
+Want to learn Linux? Make a bootable USB with Ubuntu on it and use it as your main OS for a few weeks. If you have an old laptop you're willing to reimage, put CentOS or something on it. Just learn a few basic commands like how to change file permissions, how to make and delete directories, how to create new user accounts, and the like.   
+
+
+Want to learn programming? There are a ton of great tutorials out there. If you're not trying to be a software engineer, you probably don't need to be able to program a full web app; just learn how to automate some scripts in Python and do some file handling. That might take four or five months of concentrated effort if you give it a couple hours of your time a few times a week. Try [automatetheboringstuff.com](https://automatetheboringstuff.com) to get started. Or, for something a bit more platform-based, you can learn Bash programming on Linux or Powershell on Windows (I recommend the book ""Powershell in a Month of Lunches""). If you want to work on enterprise-scalable programs, r/learnjava has some good resources (particularly the MOOC out of the University of Helsinki). If you're into firmware/operating systems, learn C/C++. If you eventually do want to be a web developer, [freecodecamp.com](https://freecodecamp.com) is at your fingertips, my friend. Taking a week or two to figure out what Git/Github are and how they work *in relatively superficial detail* will be helpful. These things take some time, so there's no better time to start than right now.   
+
+
+Want to learn security? Cool. There are a lot of different directions you can take within the realm of security. You'll have to have your basics down pretty well, so the traditional entry pathway is by getting the CompTIA trifecta (A+, Net+, Sec+). Check out r/CompTIA for lots of good resources on those certifications. Those will be the foundation: after, you'll need to figure out whether you need to look at getting your CCNA, CEH, CISSP, whatever for the direction you want to go. Those certs will take time (especially the CISSP), but working at the bottom/in the middle for a few years is a great way to understand how security interacts with systems (especially users). It's worth it to say that most security people need to know Linux and Python to do their jobs, so work on those while studying for your A+/Net+/Sec+.  
+
+
+Two notes:   
+1. You'll very likely never feel like you know how to program. There's a lot to it -- much more than anyone can ever learn completely. If you can learn how to do things that pertain to your job, you'll discover that you can learn how to look tasks up and use different tools in your code. I've never met a programmer who doesn't spend 20% of his or her workday looking up answers to problems on StackOverflow -- the trick is understanding those answers enough to determine whether they'd work for your project. Don't feel like you have to be perfect/master every skill you listed. Just be comfortable, confident, and willing to admit when you don't know/need help.  
+
+
+2. There will be people who help you when you're at the bottom, and people who see you as a threat/incompetent/whatever. The latter group has forgotten that they were once at the bottom. That's ok. Shrug them off and come into work with your head held high. You'll be learning forever, and that's both exciting and expected.  
+
+
+If you start now and put in the effort, you might find that you have a helpdesk job next year and then a lower-level security or automation or \[fill-in-the-blank\] job in another year or two. There's really no rush to be at the top of the food chain. You've got this!"
+ITCareerQuestions,fm14b2j,t1_fm13lwf,1585671746.0,"r/homelabs is a good place to start.  
+
+
+Basically, put together a home network on a server that runs a domain so that you can practice your networking skills, managing domain accounts, etc."
+languagelearningjerk,flmk0rl,t3_fpfxlk,1585285956.0,Weird. I learned taco instantly the first time I immersed myself. Are you a slower than average learner? I'd think you'd have learned it by 3 months old at the latest.
+javahelp,fkyfauw,t1_fkyeriv,1584647597.0,Many apologies for the many edits. The codeblock editor isn't catching my formatting for some reason. The logic holds either way.
+javahelp,fkyeriv,t1_fkx86e9,1584647298.0,"In a java-flavored pseudocode, rather than Java (for simplicity):
+
+&#x200B;
+
+    i = 1
+    
+    for i in range 2 (exclusive){
+    
+        while s\_left < dis{
+            
+            // while loop code here}
+    
+        if i == 1{ // to ensure the second loop only runs once
+    
+            while s\_right<dis{
+    
+                // while loop code here}
+    
+        } // end of if-statement
+    
+        i = i + 1 // this increments your i variable
+    
+    }"
+EngineeringStudents,fkrymcq,t3_fk8xph,1584478643.0,Congratulations!
+iiiiiiitttttttttttt,fkeubbx,t3_fhiif6,1584120838.0,"1,422,287,000 \* 525 = 746,700,675,000 GBP = $921,253,158,291.38 (USD)
+
+I recently read that the tech economy in the UK was worth about $30bn (USD). So you'll be singlehandedly growing the tech sector by about 3071% if you fulfill this order."
+grssk,fkef8f9,t3_fhzv11,1584111941.0,n(n+1)/2
+ruralporn,fkeegdt,t3_fhv81g,1584111472.0,Say hi to Clarkdale for me! I spent a summer there years ago and went up to Jerome fairly frequently because it was more interesting than Clarkdale/Cottonwood for a 20-something.
+iiiiiiitttttttttttt,fkc34ju,t1_fkbrgt9,1584044859.0,Are multiple instantiations called 'these' or 'those'?
+javahelp,fkbgi0c,t3_fhexnw,1584032567.0,"Is there a reason you aren't just using *catch (Exception e)* to account for *any* exception? (I'm just learning, be gentle and please let me know if there's a reason that's not an ok practice)."
+EngineeringStudents,fk9outd,t1_fk9o4qa,1583980335.0,F
+boomertime,fk5autq,t3_fefxpr,1583876835.0,"DO YOU, HAVE POP ROCKS?"
+boomertime,fk5asep,t3_femfv2,1583876798.0,"WHEN I WAS A KID, PEOPLE WEREN'T SO CRITICAL, ALL THE TIME. WOMEN WERE HAPPY"" AND LOVED THEIR ""FAMILIES""."
+calculus,fk467av,t3_fg9ooo,1583854134.0,How many math degrees = one math radian?
+javahelp,fjgwmih,t3_fderpg,1583336977.0,"With a method, you can *optionally* pass a parameter value/argument in the parentheses.  
+
+
+Maybe you want a method that just prints the same thing every time. In that case, you'd write its header as something like:  
+
+
+public methodName(){  
+// some print statements here
+
+}  
+
+
+But alternatively, maybe you need it to print something specific. Imagine you have an input stream that takes a user's name and sets it to the ""name"" variable in your main() method. Then, you have another method that prints a message with that name.  
+
+
+public static void main(String\[\] args{  
+String name = // some input stream;  
+
+
+helloName(name); // passes the variable ""name"" into the parameter value of the helloName method  
+
+
+}  
+public static helloName(String yourName) // See what happened here? I declared a new parameter variable that will now print its value:  
+{
+
+System.out.println(""Hello "" + yourName);  
+
+}  
+\----------------------------------------  
+
+
+In this case, the yourName variable will be replaced with the value of *name* when it's called in the main method."
+boomertime,fjgtkvg,t3_fd6cts,1583335218.0,Sean Hannity said that coronavirus is just a libtard libspiracy to make PRESIDENT DONALD JOHN TRUMP look bad. Hope this helps!
+boomertime,fjgte35,t3_fd1azh,1583335105.0,"HE JUST WANT'S """"""FREE, STUFF""""""""....YOU SHUOLD OF RASED HIM BETTER!!!"
+povertyfinance,fjgkbxj,t3_fd287t,1583329036.0,Great job with the savings and very best to you while you manage your trauma and illnesses.
+boomertime,fjdifu1,t3_fbe3ch,1583253299.0,"THEY JUST WANT A FREE MOON.........AND THINK NO ON E WILL PAY FOR IT.......HOW ""DELUSIONAL!""""""""''"
+boomertime,fjdic8s,t1_fjcv8eg,1583253250.0,I DIDN'T KNOW!
+boomertime,fjdib1f,t1_fjbfqkp,1583253234.0,"MY GRANDSON, WATCH'S ANIMMAY TV TO."
+boomertime,fjdi98t,t1_fjblp58,1583253209.0,"IT DIDN,T WORK. DREXHILL. TRY, AGAIN"
+boomertime,fjdi6xm,t1_fjd1ks0,1583253176.0,"AMEN DO YOU. HAVE NAY, OF MY WIFES' UTPPERWARE??? SHE CAN,T, FIND IT"
+SandersForPresident,fjb4o5s,t1_fjalgkf,1583186406.0,"Bloomberg is interrupting the moderate left way more than Warren is interrupting the progressive left. I know every bit counts, but I imagine she wants to see how tomorrow plays out before deciding quite early on that her financially sustainable campaign isn't worth running. She's doing so without really costing Sanders much damage."
+SandersForPresident,fjb4dka,t1_fjavsh7,1583186243.0,"He's rich in part because he headed up a major media empire. To answer your question more directly:  
+
+
+1. People who are tuned into Bloomberg TV all day are sure to have a more positive view of him than other candidates. The reporters' paychecks depend on that. This is the only negative reason I'll give, though. I really don't think that his supporters are all indoctrinated...
+2. He's the only democrat with practical business experience. A lot of people fearing the decline in entrepreneurship in the US want a businessperson to keep the helm.
+3. He has political experience and some pretty amazing political savvy. 
+4. Gun control has been a pretty talked-about issue the last few years, and his plan is fairly comprehensive. 
+5. On paper, he's an absolute genius. Bernie has a lot of heart and probably the only long-term ideas of anyone running, but Bloomberg is clever and can use his wits to consolidate a lot of power.  
+
+
+I disagree with the guy's policies, but his supporters have reasons for supporting him. I think they're not the right reasons right now, but that's a different question."
+SandersForPresident,fjb3bbw,t1_fjakm4s,1583185649.0,"Warren is splitting the progressive left less than Bloomberg seems to be splitting the moderate left. I'm not so worried about her staying in the race right now, to be honest. I live in a state that is usually likened to Florida in terms of its conservative craziness, and FiveThirtyEight is showing such a big advantage for Bernie even here that even if Biden scooped up all of Warren's delegates, *Bernie would still have the edge*. Surely that edge is even bigger in less conservative states. (Looking at the poll numbers, if Bloomberg dropped out, that'd be worrisome.)  
+
+
+I do think that Sanders is going to have to push pretty hard to convince MSNBC and its viewers that he is, in fact, not advocating gulags, and we Bernie supporters are going to have to do whatever we can to stay positive and let the BernieBro(TM) nonsense die out.  
+
+
+We'll see how/if the tide changes after tomorrow. Warren would be doing us a big solid by dropping out, but if she wants to see how tomorrow turns out first to judge how viable her campaign is in the states where she's polling the best, I respect that."
+boomertime,fjapxwl,t3_fb19gs,1583178337.0,SO TRUE
+PFJerk,fjafcpg,t3_fcd77l,1583172345.0,My offshore accounts have never received debt from the government before. How do pours not get this?
+Tucson,fj7krvp,t1_fj6ygn0,1583092992.0,">Where there’s one there are 500.
+
+I can't second this emphatically enough, OP. Get an exterminator in ASAP. They breed like crazy and pop out of seemingly nowhere. They're absolute pests indoors and a sting from one hiding in your shoes (or a thoughtless walk to the kitchen for a midnight snack, or...) can put a healthy person out of work for two or three days."
+ProgrammerHumor,fj6tg12,t1_fj6d8pg,1583079789.0,I use Python at work but am in the process of learning Java. The switch statement is the best thing ever...until you forget to break;
+boomertime,finr5vm,t3_f7ho8x,1582568607.0,HOW DO I REPLY DIRECTLY TO THIS POST? I THINK HENRY IS IN THE HOSPITAL. WANTED TO LET PERSON POSTING THIS KNOW. OVER
+boomertime,fiduxb9,t1_fi8p0gw,1582371627.0,ME. TO. AS THE KID'S SAY. LOL
+Tucson,fibx0ea,t3_f726ox,1582332130.0,Kitty!
+todayilearned,fib2s86,t1_fialgrz,1582313443.0,"I work at a not for profit that probably clocks in right about there. Soul-crushing work, horrendous bureaucracy, and basement low wages mean that I'm the senior staff person in my department after just under three years.
+
+
+It's also extremely common in tech hubs where an average employee sticks around 6 months and either gets promoted or starts looking for other opportunities (""up or out"" culture)."
+AskReddit,fiau701,t1_fia5d09,1582308464.0,"Linguistically, the jury is still out on this. Saussure thought it was that simple in an open/closed case at the turn of the 20th century, but new research is suggesting that it's a bit less arbitrary than we thought (onomatopoeia was always a challenge for Saussure, and some linguistics researchers are taking that to the extreme). It's not quite false to say that words are arbitrary, but whether it was completely made up or agreed upon based on how different communities perceived the world around them is a much, much more challenging question."
+boomertime,fi7h5lt,t3_f6nr6w,1582221299.0,"THE DIMMERKKKRATS NEED TO ""STPO"" DESTROYING AMERICA ADN ""¨ WAKE""¨ ""UP!!"" ""!!!!
+
+THIS IS'NT A GAME ANYMORE....THIS IS GOOD V.S. EVEL AND I DO'NT UNDERSTAND HOW ""   ANY ONE"""""""" CAN SUPPORT COMMUNIST'S..........IT """"""""DOSEN'T¨¨WORK...YOU WILL ¨ ""NOT"" GET FREE STUFF!!!!!!!!!!!1111111"
+Tucson,fi7geik,t3_f6ck2g,1582220890.0,"Good. People have been driving really recklessly (someone passed me on a single-lane street in a construction zone last week...). It's a public safety issue, and I'm glad they're cracking down on it."
+ITCareerQuestions,fi0qgfw,t1_fi09vln,1582042680.0,This improved my otherwise stressful morning. Thank you!
+pics,fi0q15m,t1_fi0pyxs,1582042426.0,Statues of Liberty.
+pics,fi0pylo,t1_fi0i3fj,1582042384.0,"And the bike lane will be eaten up by the declining grade for the gutter every 1000 feet or so, so have fun with that when there are cars zooming by to your left."
+PFJerk,fhxplj3,t3_f59kgj,1581959581.0,SIDEBAR >>>>>>>>>>
+Tucson,fhmu3t6,t1_fhmr431,1581718043.0,I had that thought too. I sincerely hope we're both dead wrong.
+PFJerk,fhlqhqo,t1_fhl991r,1581703451.0,"Pour.  
+
+
+My wife and I drive our Corolla to the nearest supermarket, go inside, exchange cards that we DO NOT BUY, put them back on the shelf, drive home, and heat up our lentils using the residual engine heat on our Corolla. I made a post about it last year. The fact that you didn't read it means that you are a pour."
+Tucson,fhlphul,t3_f3hcnm,1581703143.0,Oh dang. I know some people who live right up the street from there. I'm hoping they'll identify the remains and at least bring some relief to the people wondering.
+Tucson,fhlox8m,t3_f3l2n5,1581703023.0,My wife and I just took a really nice walk there the other day. The sunset and moonrise was amazing. The water is flowing rather nicely right now.
+EngineeringStudents,fhio05i,t3_f3ac9a,1581628468.0,"I can only offer three small pieces of advice:  
+
+
+1. Make sure you're optimizing your study time. Study in relatively short sessions -- if you overdo it, you can get stuck in the same thinking patterns and never get to the answers -- and focus more on problem-solving than on reading and re-reading. Once you sort of get a concept, move on and come back to it later. Try not to re-read too much at all: you can trick yourself into thinking that you understand the material. This is an illusion of competence that comes from you being more familiar with the text, but not necessarily with the material. Make some flashcards and quiz yourself on them during your breaks at work. This will allow you to 'study' even when your brain is elsewhere, and that's a very good thing (you'll be less likely to get caught in the same neural patterns and more likely to get used to seeing the material at different times of day in different places).
+2. Cut yourself some slack. You can always re-take a class if you need to. You have a lot on your plate and that's ok.
+3. Make sure you're eating, resting, and exercising enough. Nothing -- not school, not work, not stress-management, not community-life, not family/friends/social-life -- at all will function if you aren't taking care of yourself. If you don't have time for those, you'll have to cut back somewhere. I know that's incredibly hard, but see point #2: you can always take a class next year or after if you have to."
+Tucson,fhhj83j,t3_f2g6hu,1581605440.0,"Someone once posted a crime heat map here that showed that there were basically no neighborhoods with noticeably higher instances of crime than others.   
+
+
+My sister used to live right about there. It's not a nice neighborhood, there are definitely some shady characters, but I think as long as you don't mix up with the wrong people, you'd be fine there. That said, if you can afford to live somewhere more pleasant, do that. The streets of that area aren't dangerous, but they'll sure feel sketchy."
+Tucson,fhhispw,t3_f2kj2v,1581605170.0,"Not a native, but I've lived here a long time off-and-on.  
+
+
+Everyone I was friends with pre-college left post-college. The fact is, this city has a deeply depressed economy (I have a master's degree and pull in <$40k/year. Some of my friends with my same job title make $75k/year in larger cities as close as Phoenix). People are going to larger urban areas with more opportunities.  
+
+
+Adding to the problem is that my wife and I don't have kids. The people I would potentially like to meet up and hang out with in my age group naturally all seem to want to hang out with other parents. That makes a lot of sense, but it's lonely for those of us who don't have/can't have kids."
+Tucson,fhc9w3a,t1_fhc52wc,1581459153.0,"This has been a rumor in these parts for at least 15 years, and I suspect much longer.  
+
+
+The truth is that some social service agencies participate with Travelers Aid International ([https://www.travelersaid.org/](https://www.travelersaid.org/)), which helps stranded people get to their destinations. Out of desperation, plenty of people in crisis will claim that they are stranded and going to \[pick a warmer climate in winter\]. From the receiving end, it looks like Flagstaff/Portland/Denver/wherever are busing their problem to us. It tends to be more nuanced than that (and in the summer, it goes in the other direction)."
+Tucson,fhc9c6h,t1_fhc7s8x,1581458818.0,"I love this response and will only add one thing:   
+
+
+People experiencing a mental illness are far, far, far more likely to be victims than perpetrators of a crime. If someone is actively having a psychotic break and seems scared, stay calm, lower the tone of your voice, and determine which of the following can best help:  
+
+
+1. Calling 211 -- connects a person to social services (like shelters) that may be able to help her/him.
+2. Calling NAMI at  **(520) 622-6000** or **1 (866) 495-6735** to talk her/him down from a crisis.
+3. Calling 911 if and only if the person is a danger to herself/himself or others, and asking for a CIT (Crisis Intervention Trained) officer to come assist."
+PFJerk,fhc8ai8,t3_f2c87o,1581458201.0,"Pfft, next to a paved road. That could be a dirt road with plenty of lentil-growing opportunities between the tire tracks. So wasteful."
+careerguidance,fgsz5fk,t3_f0a33c,1581095685.0,"> I always hear about people with office jobs just ""deciding"" to go in  late or early some days, how does this work and what's proper etiquette? 
+
+I'm technically scheduled 8-5, but a quick text to my boss means that I've worked 6-3 for a year or so now. Basically, Not much of what I do needs to be coordinated with regular office hours, so as long as I put in my time and get my work done, I'm good. Just make sure everyone on your team knows.  
+
+
+>Does everyone take lunch at the  similar time? Or can you just eat whenever you want as long as there  isn't a meeting or something scheduled during that time?
+
+My team sometimes has team lunches, but otherwise we just take off whenever we get a second.
+
+>How often and how important are social team events? Are they simply for building camaraderie or do you talk about work?
+
+When my workplace is functional, often and important. They have to do with camaraderie, but also figuring out who is up to what and why x is or isn't getting done. My office manager right now is opposed to them and morale is way down as a result. I don't know most of my coworkers.  
+
+
+>Do people curse at the office as much as HBO tells me they do?
+
+If they are me, yes. Otherwise, definitely not.  
+
+
+>What are some interesting traditions at your office that most people wouldn't know existed?
+
+Is having someone systematically file an HR complaint because a fire drill inconvenient a tradition? Office politics?  
+
+
+>Do you have any tips for spotting a company with toxic workplace culture?
+
+Some phrases to look for in job ads/interviews:
+
+""We like to treat this like a family"" = we expect 1000% of your soul, and we fight and bicker. When you die, your job will be listed before your obit. We won't remember your name 4 weeks later.  
+
+
+""Work hard, play hard"" = we expect 1000% of your soul, and then we'll shame you for not being collegial when you don't want to go out with us after work.  
+
+
+""Our HR is here to serve you""  at an interview = HR is 100% in management's corner, and there have been enough incidents that they know so.  
+
+
+""We want a rockstar"" = Talent-focused. As soon as you screw up, you'll get made to feel like the scum of the earth. You're looking for something more like, ""Safe to make mistakes"" and ""We want to help foster our employees' growth""   
+
+
+  
+Office work can have lots of benefits, but sometimes the trade for it is your soul, so please take care of yourself."
+prolife,fgsse9c,t3_ezw2yv,1581091658.0,"""I literally can't deal with the consequences of what I'm doing, so I make sure that I don't have to face them. As long as I see no consequences, there are none and no one has been harmed.""
+
+\-That doctor, probably.
+
+Scary, scary logic for someone who graduated from medical school."
+Catholicism,fgpplc1,t1_fgpoukw,1581009524.0,Thank you.
+Catholicism,fgpjyix,t3_ey5ukl,1581006314.0,"For my friend, of whose passing I just learned."
+iiiiiiitttttttttttt,fgp46uo,t3_ezravi,1580996388.0,"Ugh, this and toner. Both came out of department budgets at the last place I worked. ""BUT YOU'RE IT!"""
+languagelearningjerk,fgj7uce,t1_fgiqy6f,1580838673.0,"Yes, but not Mandarin nor Cantonese."
+languagelearningjerk,fgiks0d,t3_eymu4i,1580824495.0,"Russia doesn't go to space via Russia, though. Their launchpad is in Kazakhstan. Learn Kazakh.  
+
+
+China also goes to space, btw, so maybe learn Hakka or Ping?"
+PFJerk,fgikk2g,t3_eyi83k,1580824323.0,"/uj: Honestly, that looks tasty."
+AskReddit,fggsw92,t1_fggoni2,1580768822.0,"I see that you may be the sausage king of Chicago, Mr. Froman. That predates Seinfeld a little, so you're off the hook."
+AskReddit,fggo2uu,t1_fggn1cb,1580765879.0,I'm fairly sure this was a Seinfeld reference.
+LateStageCapitalism,fgfzpg5,t1_fgfw63p,1580751113.0,"Correct. He's pro capitalism with strong social safety nets for when it is failing. I'm not sure how people miss that. He's left of center, but not to any extreme."
+LateStageCapitalism,fgfzapx,t1_fgfvb1d,1580750862.0,"France. I lived there a good while and benefited from its excellent, state of the art health-care facilities at no cost to me. At work I had the option of buying supplemental insurance for something like 50Eu a month, but I opted out because I was young and healthy."
+LateStageCapitalism,fgfyrft,t1_fgfrvmx,1580750532.0,Also employed and feeling the emptiness of depression. Hang in there.
+LateStageCapitalism,fgfyn4i,t1_fgfxz6w,1580750457.0,"I was going to mention that the alt right appropriates Scandinavia in its own, interesting (that's being polite) ways.
+
+Yeah. To them it's lawless vikings."
+prolife,fgfgdlh,t1_fgfek28,1580737965.0,"Yeah, I was wondering how that logic followed for someone who had a serious but not life-threatening TBI later in life, for example. My guess is that it would tend toward ""Well, s/he doesn't have much quality of life, so we might as well euthanize."""
+prolife,fgfg7by,t1_fgevm3y,1580737821.0,Seconding. I think having a citation for this would be good for us (and should probably be added to the sidebar if the integral text of the article is available for the general public to view).
+Showerthoughts,fgdxtkn,t1_fgdjdb7,1580688149.0,"Did you also know this word thanks to Archer?
+
+It was popular when we were in college.
+
+I'm probably not going to live as long as you. I'm keeping my $5."
+Showerthoughts,fgdx6g1,t3_exu0hk,1580687946.0,Oh no. I'll be dead before most of those people

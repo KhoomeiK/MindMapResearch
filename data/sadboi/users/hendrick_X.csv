@@ -1,0 +1,366 @@
+tribalwars,fr6awao,t1_fr69uso,1589922980.0,"yeah , that what i thougth.
+
+The problem is that I do not even have a noble yet.And he has 4 villages.
+
+He choose me because i am a RL friend of the owner of the tribe and the strongest member with only 1 village. his story check outs and everything and it does not seems he is going to scam me but i wanted to be sure.  
+
+
+Thank you for confirming my theory."
+ProgrammerHumor,fqapgj2,t1_fqaif9e,1589223019.0,"It can be frustrating at times. Also as a south american other thing that is really hard is that all the tables and fields and native functions are in German. And they all use only 5 letters.
+
+So instead of:
+> SELECT order_number FROM sales_order_table
+
+We actually have to do:
+> SELECT vbeln FROM vbak.
+
+That's because Sales Document : Header Data = Verkaufsbeleg : Kopfdaten.
+
+For non German speakers it's a nightmare. 
+
+But hey you get used to it, it pays well and is actually a pretty powerful language once you can get past some of the stupid parts."
+ProgrammerHumor,fq9fe28,t1_fq91evz,1589196487.0,"I said in other comment, I don't know how to code on JS. I choose it because is easier to non-programmers to execute it since you can create an HTML file with the JS code inside it :)"
+ProgrammerHumor,fq9f9yt,t1_fq94ncv,1589196376.0,"I am an ABAP developer. But ABAP requires a specific compiler ( SAP IDE itself or Eclipse with a plug-in).
+
+I knew that you could execute a JS core directly from the console on chrome, or that you could place it inside the <script> tag on an HTML file.
+
+I developed on the first option and send the second one to my friend."
+ProgrammerHumor,fq8i7sb,t1_fq8hkwf,1589166785.0,"Exactly.
+
+Also I don't know JS.
+
+I had to Google everything. Like how to create an array and stuff."
+ProgrammerHumor,fq8d183,t3_gh9smd,1589163437.0,"Did that yesterday. My friend for some reason asked some of us to write numbers from 1-14 in a random ordem. Of course I would not waste 2 min of my time for him. 
+
+Instead i wasted 20 minutes.
+
+I wrote a JS function that assembles an array from 2 ints and them shuffles the array before outputing to the user and sent him the file.
+
+I am the only programmer in my circle of friends so they all got really impressed.
+
+&#x200B;
+
+~~Truth is that I copied the whole shuffle part from stackoverflow~~"
+apexlegends,fpj8a12,t3_gdj3fz,1588659607.0,This happened to me this week. Except we just tried to loot the flying box like dumbasses. Climbing a top of it is much more fun.
+AdventureCommunist,fpidn7w,t1_fpid60e,1588638750.0,"Huh. I must have read something wrong. Maybe I confused with a different post.
+
+I thought you suggest every 4 events to have a longer event.
+
+But I can totally agree with 18 weeks."
+AdventureCommunist,fpi7i2q,t3_gdku52,1588635212.0,Personally I would prefer once every 3 months. I think that longer events are great but very taxing if you are competitive player aiming for a high rank.
+AdventureCommunist,fpf8gxg,t3_gd480n,1588564337.0,"Same boat as you. I actually spend 1500 on science , upgrading commons trying to compensate for the bad RNG on production rares but it does not work."
+RimWorldTales,fpb0sog,t1_fpalnqr,1588459714.0,In my understanding he did not kill the moth queen with dogs. He is holding an insanity lance. The dogs killing the moth queen was an ilussion.
+apexlegends,fp2zwgw,t3_gavj29,1588270702.0,oof this was painfull to watch. i wish you better server on your next games
+apexlegends,fp29c5b,t3_garmm5,1588257686.0,"Look at this guy getting a blue shield and a decent weapon when opening a single bin in a hot zone.
+
+~~if it was me it would be a grey nockdown shield and a mozambique IF i was lucky to even get a weapon~~
+
+Jokes aside gz, nice play"
+EscapefromTarkov,fou7onb,t1_fou4di0,1588078295.0,extended edition?
+ProgrammerHumor,fornkpi,t1_form1yy,1588015262.0,There are ~~dozens~~ two of us !!!
+ProgrammerHumor,forh66x,t1_forgnt8,1588012160.0,"Kinda, that was what happened but I did not ""forgot"" I was super confident that it was not working and wanted to proof it .
+
+In my defence I was young and naive and I learned my lesson that day."
+ProgrammerHumor,fordz3j,t1_forbhy1,1588010605.0,"In SQL when you use the command BEGIN you can change the contend of tables but the changes are not definitive, so if you do:  
+ BEGIN>anycode > ROLLBACK   
+
+
+The database automatically undo anything you have done. Think on ROLLBACK like a Ctlr + Z. You can do (almost) any shit, like delete everything , fill every table table with your name and then use this ""Ctrl+Z"" to undo everything. It is a safeguard so you don't change information you should not.
+
+  
+The opposite of rollback is COMMIT.
+
+So if you do:  
+BEGIN>anycode>COMMIT.  
+
+
+The database will assume that any changes are definitive. Think on COMMIT like the SAVE button from a word or excel document.  
+
+
+The problem is that most databases use the ""COMMIT"" behavior as default. 
+
+That means that:  
+""BEGIN>anycode>COMMIT"" is the same thing than just ""anycode"".
+
+What happened on my work is that I was testing something on production, so the data there was for real, i was using the recommend practice of always using BEGIN and ROLLBACK, so my changes would always be undone. When my boss came to ask I got lazy and I executed the code without the safeguard(BEGIN/ROLLBACK), which means my code was instantly SAVED ( COMMIT). You CAN'T rollback if you did not used the command BEGIN before.  
+
+
+So I was screwed, i had to calculate what was changed and revert it back to original because I did not used the safeguard BEGIN/ROLLBACK.  
+
+
+Does this explanation helps?"
+ProgrammerHumor,for6tck,t3_g8xz3b,1588007153.0,"Am I the only one that dislikes stickers? I kind like the idea and design of some but I really prefer to keep my laptop ""clean""."
+ProgrammerHumor,for1sx5,t3_g8zlef,1588004706.0,"There was a time i was checking why a function was not working on production. I was running it with transaction ( i think thats the nomenclature, i have not dealt with SQL for a while) , so I was running it (something) like
+
+    BEGIN;
+    executeFunction();
+    select * from table;
+    ROLLBACK;
+
+But the select always failed, the function was not working. My boss came to check my progress on the issue and i was like , ""the function does not work, let me show you"" and I executed the function without the transaction... guess what? then it worked, i updated about 20 columns on  14 rows in a customer invoice table.
+
+Had to manually calculate a lot of stuff to update and fix it , i will never forget how i could hear my heartbeats for a while."
+RimWorld,folowv4,t1_folls55,1587867047.0,[¯\\\_(ツ)\_/¯](https://imgur.com/a/znuuuHC)
+RimWorld,folnv2l,t1_folnfoa,1587866356.0,"Ah, good idea to use a vanilla option , i had forgot about that option."
+RimWorld,folncsj,t1_folm97i,1587866025.0,It seems perfect! Thank you
+RimWorld,folmut0,t1_foldp8f,1587865704.0,"Not op, also I worked on IT and make a good money so i bought this game on steam. But it was freaking expensive since  it is never on promo.
+
+I am from south america.
+
+According to google the minimum wage in new york is  $10.40  per hour. You know how much is the minimum wage in my country?  $1.20 or R$4.5 per hour ( our currency is R$).
+
+""OH BUT THEN SHIT SHOULD BE MORE CHEAPER THERE"" nope. The prices are localized a bit, but not fully. Someone on New York has to work only 2 hours to afford the game ( I am assuming that it cost $20 as you said.) In my country it cost R$70. Thats a whooping 15 hours working at minimum wage. Thats a massive difference don't you think?
+
+And we are LUCKY that the price is ""localized"" because $20 is actually R$111. If the price was not localized the average guy on my country would need to work  24 hours to buy rimworld.
+
+As I said i luckly make  a decent ammount of money, but as someone that had the immense privilege of being on US you have no idea how life can be shitty on 3rd world countries."
+RimWorld,foll8ea,t3_g849sw,1587864658.0,"I also use Yayo Combat and noticed this. I think that is related to the parameter:Melee Attack Random Delay
+
+Basically i THINK that is intentional , and  the attacks speed ( and consenquently the DPS) is a bit randomized. you could try to set this parameter ( it's the second one) to 0 or something like that and test."
+RimWorld,folk095,t3_g85aoo,1587863890.0,"I don't think that vanilla auto-advances tech levels at all.
+
+Luckly there is a mod for that. if i am not mistaken it will work retroactively.
+
+&#x200B;
+
+[https://steamcommunity.com/sharedfiles/filedetails/?id=735268789](https://steamcommunity.com/sharedfiles/filedetails/?id=735268789)"
+FREE,fofn6da,t3_g6vjij,1587739272.0,"I would like doom , because i am running out of things to do on my quarentene and it seems dope.
+
+  
+Thanks for doing this op."
+RimWorld,fod1dze,t3_g6ml4u,1587678656.0,"r/writingpropmts material.
+
+Also Misc. Robots++ has been abandoned by the creator. I am using Misc. Robots Extended that is being maintained by some other guys and brings some balance like reducing a bit the cost of research, changes a bit the receipt and removing omni bots ,  changes that i personally like."
+HumansBeingBros,focu9b8,t1_foctnhe,1587675957.0,"""god forbid someone having a different taste of games than i do"""
+FREE,fnzgaxa,t3_g4nlzr,1587393508.0,"XCOM Chimera Squad and /or gear tactics for me  
+
+
+Thank you!."
+funny,fmtj91g,t3_fxc81x,1586373669.0,"I hate doing dishes because my family uses and piles dirty dishes like ""hoarders"" pile stuff.
+
+I need to spend no less than 1 hour to do the dishes at my home. E V E R Y T I M E."
+AdventureCommunist,fmoz4vc,t1_fmorc21,1586271337.0,Dang gg. Tier 21 gives an absurd amount of points.
+AdventureCommunist,fmonawb,t3_fwjksd,1586264044.0,"tier 6-45/100 here.
+
+i think if you managed to 100% optimize you should be tier 7-80\~/100 or tier 8.
+
+i had some annoying and slow quest."
+AdventureCommunist,fm4f9ks,t3_fsgmx3,1585752978.0,I personally liked all the new arts
+AdventureCommunist,fm3avz6,t1_fm243gd,1585717639.0,"Not trying to defend hyperhippo but keep in mind that the supreme track grants you:
+
+* 32k science. 
+* 1 supreme. 
+* 14 epic cards. 
+* 1 epic chest. 
+* 4 (new?) chests. 
+* 1 gold chest. 
+* 5 1h warp.
+* 1 4h warp. 
+ 
++ Potentially quite a lot of science after rank 25
+
+I am still NOT sure how I feel about this pass, but damn, I do believe that this is one of best deals in the game."
+AdventureCommunist,fm38m69,t1_fm2tam8,1585715797.0,"But that can get.you banned on some.games so be careful.
+
+Happened to me on epic 7. 
+Made an accidental purchase, refunded, made several small purchases but got banned anyway for the first refund.( I was not tryimg to scam, I was totally okay with getting the itens of accidental purchase removed from my account)"
+rareinsults,flr3i3m,t3_fqhqr9,1585412204.0,r/titlegore
+pcmasterrace,flqsqxc,t3_fqjvek,1585405260.0,Horizon Zero Dawn for sure. Although I need to look at the minimum specs since my PC is getting old.
+apexlegends,fl8yq39,t3_fn0sci,1584935803.0,"It seems i am not allowed to post, but i wanted to share with you guys the easiest win i ever got.
+
+[https://imgur.com/a/FALl6FL](https://imgur.com/a/FALl6FL)
+
+We did not find a single squad ( and we tried) until there was only 2 squads left. And the other squad left had only 1 guy. Result: We won with <200 damage done (through the whole squad) and a single kill."
+AdventureCommunist,fkrs93l,t1_fkrqqv1,1584475005.0,"I agree with your progression issue ( assuming the devs keep the current difficulty scalling)
+
+I agree that if the devs add level 6 supremes we need a new mechanic to get the absurd amount of cards.
+
+I disagree that supremes level 6 is the best option, I would like to see the devs getting creative ( maybe a new supreme, maybe a new category above supremes, maybe a special bonus that don't require cards like cumulative bonus when you complete daily task or invest science available only above level 120).
+
+I am not great at suggesting ideas myself, I just hope that the devs don't add supremes level 6."
+AdventureCommunist,fkrohks,t3_fk85wl,1584472870.0,"I think at level 150 the game will just end. I agree that expand the level limit is not a solution.
+
+But I don't think a prestige system would work on game based on prestiging every level.
+
+Ad Capitalist has and end ( I finished everything to do there). I think that ad Communism eventually will have an end too."
+AdventureCommunist,fk8ws6j,t1_fk8vuud,1583964352.0,"I never had any issue with accidentally spending comrades but I do think that should be next on the QoL changes.
+
+What do you think is more important?"
+AdventureCommunist,fk3s4bb,t1_fk3ru7r,1583844787.0,"I mean, I don't work for hyppo. MAYBE there are some bugs. But I am 100% confident that what I described above happened to me and could explain what happened to you. If you want to clear any doubts I suggest to print screen your cards before opening the next event rewards and test yourself."
+AdventureCommunist,fk3rbbp,t3_fg9gpi,1583844141.0,"The total you see if after you get all the rewards. You did not lose cards.
+
+I had 0/50 Ann ammunition. When I opened the first reward I got 4x but my total was displayed 16/50. Later on the rest of the rewards I got the other 8 copies.
+
+Basically you receive all the rewards at once and then when you are opening one by one is just cosmetic.
+
+This is also true for supremes.
+
+I recently bought a pack with 3 supremes.
+
+My jym was 0/10. When I opened my first ( of 3) supreme chest my jym displayed 2/10. Just like the example above I got a jym , shortstack and another jym. But in the ""backend"" I received them all at once and that's why my jym was displayed 2/10 when I had opened only one."
+Showerthoughts,fk2glpz,t3_fg3cw3,1583800603.0,"i Have rhinitis i get sick every march and september due to the temperature changes. it was quite hard to convince people at work that is just allergies, and actually my country has less than 10 confirmed cases and not one near my city."
+EscapefromTarkov,fjl619c,t1_fjk8ae1,1583440608.0,I tried refunding but my credit card company denied :/. I wasted $40. I wish there was a demo that you could test before buying.
+EscapefromTarkov,fjjtscv,t3_fdtl5v,1583411932.0,"This game seems cool, but it's extremely noob Unfriendly.
+
+I am having a hard time getting into it."
+AdventureCommunist,fhmgtru,t3_f3y1kv,1581712545.0,If it does make your feel better this is the most requested feature to the devs. So there is a chance they have this planned.
+Thea2,fhmd527,t1_fhm6qhp,1581711278.0,Not very familiar with steam forums but your idea sounds great. Going to take a look.
+EscapefromTarkov,fh853cw,t1_fh81dcr,1581352216.0,"I agree with your point. I disagree with your numbers. There is certainly a time to ramp up a new Dev, but 6 months is way too much. 
+
+I am a senior developer at an international company and my team ( which was made of 4 devs ) recently got 2 new Seniors, we had them working at full speed after 1 month.
+
+We made a few training sessions with presentations and showing code, we gave them our documentation and one week to read it ( our code is REALLY well documented ) , they worked 1 week pair programming with well stablished developers and lastly 1 week pair programming with each other with a stablished dev reviewing their code.   
+
+
+They are now working by themselves for 2 months and they are both doing great. So I heavily disagree with  the 6 months "" grace period""."
+FREE,fh7b418,t3_f1eixg,1581322719.0,Let's try again
+FREE,fh2e7pw,t3_f0vubk,1581248640.0,Thanks op
+sports,fgucxwl,t1_fgu8adq,1581117781.0,"I did. Basketball is not common on my country ( I found this post on r/all).
+
+Thanks for explaining"
+sports,fgtkhmo,t3_f04hmr,1581105737.0,Noob here. Does that count as 3 or 2 points?
+FREE,fgbm0ca,t3_exa8bs,1580663566.0,If I dont win this is definitely going to my wishlist
+AdventureCommunist,ffzj4ej,t3_evwk0p,1580381725.0,"Sorry but I disagree.
+
+I always hated the old system and I am pretty satisfied with the new one.
+
+That said I have nothing against it being optional."
+slaythespire,ffxrt89,t1_ffxg4he,1580331161.0,Thank you for giving op a plat on behalf of us poor Redditors.
+AdventureCommunist,ffwboqw,t1_ffvwqpj,1580294216.0,"Agreed but supremes for gold/science are limited but do show ""frequently"" in the shop. Random supreme chest is twice a month.
+
+Also do we know what happens when you get the max amount of a specific cards? I assume I stops to show up but I wonder if you can ""waste"" a supreme of you get a copy of a maxed one."
+AdventureCommunist,ffusngb,t3_evblw9,1580248595.0,"The problem of trading every collection game, be it a gacha or ad com, is that it encourages alt and fakes account to trade with a a ""main account"".
+
+Which hurts the devs income and give an unfair advantage over people that don't want to ""cheat""."
+AdventureCommunist,ffurf9p,t3_evb3ai,1580247916.0,"If you are factoring gold and real money is more effective to buy the supremes with 1500 gold.
+
+That would require (38*5*1500) / 14000 gold packs that is about 20~ 14k gold packs.
+
+And then just a little bit more for the science to upgrade them.
+
+Still a lot of money so probably not advisable."
+AdventureCommunist,fftbxoz,t3_ev4z3d,1580215862.0,"Read the FAQ
+
+Also use the search bar, this is the most common asked question on this sub.
+
+TLDR: it's up to you.
+
+https://www.reddit.com/r/AdventureCommunist/comments/bfj2wu/is_there_a_benefit_in_finishing_all_the_missions/?utm_medium=android_app&utm_source=share
+
+https://www.reddit.com/r/AdventureCommunist/comments/b2m8yy/first_day_of_playing_should_i_be_completing_all/?utm_medium=android_app&utm_source=share
+
+https://www.reddit.com/r/AdventureCommunist/comments/epqssu/better_to_rank_up_immediately_or_grind_the_last/?utm_medium=android_app&utm_source=share,
+
+https://www.reddit.com/r/AdventureCommunist/comments/ehpfe4/should_i_complete_all_the_challenges_each_rank_or/?utm_medium=android_app&utm_source=share
+
+https://www.reddit.com/r/AdventureCommunist/comments/ctjxuv/i_have_never_ranked_up_without_completely/?utm_medium=android_app&utm_source=share"
+pcmasterrace,ffs056u,t3_euukla,1580169914.0,Dying light 2 seems dope
+AdventureCommunist,ffruj26,t1_ffrsz7q,1580166132.0,I think that new players that ask for tips are not willing to have the commitment nor have the expertise to get to 19 spending only 200 gold.
+AdventureCommunist,ffr88tz,t3_eus9z0,1580152596.0,"The other guy already answered most.of.your questions, so about the events one.
+
+Most people spent 200 gold ( to buy 5000 dark science) and aim for rank 17-18
+
+Rank 20 needs either to spend some dollars on the event packages ( not recommended) or a quite high amount of gold. I would say rank 20 is 1000+ gold territory. Is just not worth it.
+
+If you are going to spend money , buy the 3x 4x weekly packages on mainland, do not spend on events."
+AdventureCommunist,ffq74rn,t3_eumc6j,1580124049.0,"I agree with you, also other thing that is a "" no no"" from me is when the ""player"" on the ad is a complete retarded.
+
+I am ok with the ""pro X noob"" ""me VS my friend"", bad choice IMO but acceptable.
+
+But the are some ads were the player is a complete moron and you can't even see any gameplay, the solution is really obvious even a small kid would be able to solve.
+
+Also ads that show fake gameplay go right to the boiler room of hell."
+RimWorld,ffmoxt5,t1_ffgsh10,1580057372.0,RemindMe! 4 hours
+FREE,ffhufty,t3_etke9v,1579954429.0,If I could have synthetic I would appreciate it. I roguelike/roguelite fan and I never turn one down.
+AdventureCommunist,ffhtqka,t3_etopqw,1579953445.0,"The letter notation is bit easier IMO. Even more considering how absurd the numbers we are talking. I used to dislike but got used to it.
+
+But I am totally in favor of it being a option, many games let you choose between imperial or metric units, ad com could have an option to choose ""letters numbers"" and scientific notation."
+FREE,ffexptn,t3_et07g2,1579869665.0,yum. Pizza
+FREE,ffdavui,t3_esvs9b,1579816905.0,"""Unbreakable"" - by Fireflight. I love rock bands with female lead singers.
+
+As for the game Metal Gear is on my wishlist for a while.
+
+Thank you for giving them away."
+therewasanattempt,ffctk4o,t1_ffcnwa9,1579806972.0,i got your back
+AskMen,ffcr1dx,t1_ffbr46z,1579805474.0,I am getting married soon and i had never seem  tungsten  rings before. I am a big fan of different materials and I will definitely consider getting one . :D
+FREE,ffbnyoa,t3_eshe2l,1579774949.0,Thank you op!
+FREE,ff9n489,t3_erqzen,1579716466.0,ancestor legacy because i already got it from humble choice and i want to get an extra copy to give for my brother so we can play together.
+FREE,ff9mtjt,t3_es5twv,1579716290.0,thank you op
+AdventureCommunist,ff1vd1m,t3_er6aah,1579487014.0,"Technically of you have a lot of F2P gold , yes.
+
+Realistically no, F2P player aim for rank 17~19 and normally spend about 200 gold(free) to get to this rank.
+
+A laid back F2P should be able to atain level 14-15.
+
+Guaranteed rank 19 or rank 20 are for P2W."
+lotrmemes,fekyiyi,t1_fekv5um,1579210252.0,"As other have said it is dense. But it is my favorite book.
+
+I love how much the world is developed there, as other comment said is the LOTR bible.
+
+If I had to choose one book to have on a stranded isle it would be Silmarillion"
+slaythespire,feffuw2,t1_fef0wgo,1579055447.0,"Same. Completed 3 runs. Ironclad A6, Defect A2, Defect A3( removed all my mods). Watcher is locked.
+
+The only other thing is that this is my second save file since since I am trying to get on A20 with everyone with on QoL mods.( I used some op mods on my main)
+
+I am going to try to switch to my main save file.
+
+Edit: Nope. It still does not work."
+AdventureCommunist,feeoia1,t3_eor4sn,1579037916.0,"I suggest contacting the game devs, because unless they help you is not possible
+
+Also keep your old phone for a while they probably need some info of your old account."
+AdventureCommunist,feb3aaj,t1_fe9j23c,1578955018.0,"I think that a single diamond capsule would be a bit underwhelming, IMO the prize for all the grinding should be a special capsule , it's worth could maybe be something like 3x a diamond chest.
+
+Even with all your high level cards I still think that getting back to the end game would take a couple months, so is not like it is going to break the game."
+AdventureCommunist,feb1h1t,t1_feas33z,1578954521.0,"1% would be 1/100. You can check the wiki for the odds, it's 0,01% (1/10000 as OP said)."
+gifs,fe8svoj,t1_fe8slft,1578930357.0,"It was like 2 AM when i finished and i wanted to talk with someone but my friends were all sleeping.
+
+I was walking in circles in my room , then i read the last chapter once more and went to sleep."
+gifs,fe5tb44,t1_fe5su3q,1578874473.0,Wow never heard of it. Going to put on my list. Thanks!
+gifs,fe5q7fh,t1_fe5cxnq,1578873020.0,"Finished the first era Saga yesterday. I loved how Sanderson wrapped everything in the end.
+
+Looking forward for the second saga."
+AdventureCommunist,fdizi6s,t1_fdimhrd,1578454648.0,Samsung S7 no issue here either.
+slaythespire,fdi6mll,t1_fdgw744,1578436666.0,I get gold more often than anything else. I think it is even chances.
+u_SrGrafo,fdhiys7,t3_elfmsb,1578423640.0,"Time for a healthy breakfast.
+
+Cold Pizza from last night and some soda."
+doctorwho,fdhepit,t1_fdh2mj9,1578421072.0,Found the programmer
+AdventureCommunist,fdeumtq,t1_fdeu7k7,1578346948.0,"i doubt you guys have similiar number of cards , the 3 chest does not compensates the huge ammount of levels and chest he/she has over you. Also free chest on higher levels give more cards , so he is constantly  decreasing  the difference.
+
+I agree 100% that is a preference , but i do believe the optimal is to rank up faster"
+skyrim,fcnpboq,t1_fcnchra,1577815876.0,Which mod is that?*
+u_SrGrafo,fcno90m,t3_ei55f9,1577815259.0,"Found cheap ( REAALLY CHEAP) airplanes tickets and going to watch fireworks on a mountainous city with girlfriend.
+
+My first new years eve not alone :)."
+thelongdark,fc3n400,t3_efxmil,1577393667.0,a new no-clothe craftable. like a fire plowr or another type of trap
+SAO_RisingSteel,fbz7hlu,t1_fbz3zl6,1577237484.0,"I used my 3* on the 2 first battles that are easier. Then I used my 4* on the harder battles.
+
+The first 2 battles are easy enough with non limited breaked 3*"
+SAOAlicizationRS,fbycqme,t3_ef4hm2,1577213628.0,"I am not sure but the reset on my timezone is about 3-4 AM.
+
+Right now is 4PM here. So if you do a new account before the reset I think you can still get it ( assuming the event actually ends at 31)
+
+If the event is really ending on the reset of day 30 you are late regardless of timezone."
+SAOAlicizationRS,fbycikc,t3_ef5150,1577213470.0,"I confess that I was a bit worried to have you as a solo mod and not quite active.
+
+But glad you are back"
+PublicFreakout,fbwe4et,t1_fbvd1ss,1577147517.0,"He was bitten in the neck which is quite terrifying  but he is fine.
+
+The young guy what the one with most injuries but is also fine."
+ftlgame,fbvvfef,t1_fbvsyku,1577136637.0,"Unless you are using a mod that changes this event you are probably mistaken.
+
+I never seen this option and checking the [wiki](https://ftl.fandom.com/wiki/Giant_Alien_Spiders) the official blue options are for the humanoid drones and bio-weapon."
+SAOAlicizationRS,fbvucb1,t3_eeb978,1577136189.0,In case you are wondering you have \~10% chance of getting nothing on 7 multi. Bad luck but it happens.
+SAOAlicizationRS,fburpmh,t3_eemr6z,1577119300.0,"RNG is RNG.
+
+On a 11 pull you have \~29% of change of getting one 4\*. And if my math is correct you have \~9% of chance of chance of getting 2 4\*. The odds to get 3 4\* on a multi-summon is close to 2%. It is going to happen with some of us."
+SAO_RisingSteel,fbqn8dj,t3_ee5swd,1577033365.0,"Play the game as you want.if you are having fun continue to do so.
+
+But speaking of effectiveness that is the worst way to spend your resources."
+ProgrammerHumor,fbgarpb,t1_fbg3lf5,1576842870.0,"You see that's exactly the issue.
+
+ I am an ABAP/JavaScript programmer. As far I am aware there is not a specific line where you are junior or mid or senior.
+
+That's why I said ""based on my contract"". I started as a intern, got promoted to junior, later to mid and recently to senior. I was promoted based on the feedback of my technical leader or by the interviewer avaliation.I change companies twice in this process.
+
+The difference between a senior and a junior is general expertise, how good they are at solving problems, how fast they can debug/solve issues. In my current company you also cannot be senior if you don't have some leadership skills."

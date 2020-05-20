@@ -1,0 +1,157 @@
+todayilearned,fparnac,t1_fpa4iuu,1588454280.0,"Repossess everything you put liens on as collateral and sell it. Or, even scummier, get them to refinance their loans so that now they owe you even more money!"
+UpliftingNews,fp5yvb7,t1_fp50kas,1588342807.0,"> it’s Texas
+That pretty much explains it right there."
+UpliftingNews,fp5yko2,t1_fp5skpx,1588342638.0,You’ve obviously never lived in a small rural community. They can make his life VERY miserable.
+gtd,fp5ycfg,t3_gbi9kv,1588342507.0,Todoist.
+science,fp5uihc,t1_fp3toy3,1588340203.0,"Except in the Bible there were laws to limit perpetual slavery (50-year Jubilee), laws against the abuse of slaves. People just saw “slave” in the Bible and says “well, that justifies it!”"
+news,fp5sy68,t1_fp5a1ck,1588339183.0,It has nothing to do with the technology and everything to do with the fact that banks here make a killing off of fees. If they stopped charging fees an entire section of their income would go away.
+bestoflegaladvice,fp5s52y,t1_fp5lp3o,1588338641.0,I’ve also heard that depending on how they killed the bees it’s a terrible experience for the bees and shows how cruel and heartless these folks are who did this ...
+todayilearned,fot6qdx,t1_fost8ae,1588045900.0,"Whether you’re going a conventional route or not, the treatment plan is critical! My dad had a friend who went to Mexico for an alternative cancer treatment, put his cancer in remission (confirmed by conventional PET scans), and the doctor said “don’t ever touch red meat again, ever.” He lived for something like 10 or 12 years, then got to craving a burger and said “I just got a scan, everything is still clear, no way it can hurt!” Cancer came back full force and he was dead inside of 3 months."
+bestoflegaladvice,fot6chx,t1_foszbo5,1588045650.0,"If my wife’s family are any indication, like like that have miraculous ways of coming up with ways to try and get money from the ex. And they somehow know every possible scummy thing they can file for to try and make it happen."
+bestoflegaladvice,fot676n,t1_fos8uqn,1588045553.0,"At that point it becomes uncollectible, same with any other debt of a deceased person once the estate is exhausted. Not that that hasn’t stopped some companies from trying to collect anyway ..."
+csharp,fot50fn,t1_foq7nro,1588044786.0,"I’ve spent long nights hunting obscure bugs in every language. Thread concurrency issues in particular will drive you insane, and the error you get is usually not where the error actually is. And now you get people multi threading stuff because they think it will magically make everything faster or they saw something about Task.RunParallel, async/await with no understanding of the basic principles ... fun stuff there."
+todayilearned,fot3oxn,t1_foq1oa9,1588043939.0,Gotta love autocorrect at 3 am!
+Music,foq0rlc,t1_fongpeu,1587978794.0,There’s a setting for allowing explicit content. Perhaps that’s off?
+news,foq0l77,t3_g8olwj,1587978611.0,Looks like they caught the guy who did it.
+OldSchoolCool,foq05cm,t1_fopyy6e,1587978153.0,"More details are elsewhere in the comment thread, but TL;DR: The royal household directly invested in companies that dealt with slavery, opium etc., probably because they were exactly the money making enterprises that they were."
+OldSchoolCool,fopz8tz,t1_fopy565,1587977230.0,"To be fair, they probably assumed at the time of the agreement that after 50 years, the monarch would be dead. But Her Majesty has kind of tossed the whole thing out the window by being the longest lived monarch ever."
+csharp,fopyz8x,t1_foop95z,1587976952.0,"> No framewok to render HTML page easily (or at least I am not aware)
+
+ASP is a preprocessor. The problem with it was that everyone write code where the logic was scattered throughout the HTML page. You see the same problem in old PHP sites (heck, you still see it in PHP code where they put all the logic in the view side). 
+
+If an ASP site was written cleanly, they’d write the code in such a way that the logic was encapsulated in an include file, and the HTML was mostly clean, with a few ASP constructs to loop through results, etc. 
+
+One of the other MAJOR problems with classic ASP is that there was no concept of SQL injection prevention. Even PHP has had mysql_escape() for eons, but it was never built into ASP, and loads of old ASP code was insanely insecure because of it."
+csharp,fopybua,t1_fonv6r5,1587976294.0,"PHP was originally a pre-processing engine for perl code. It was so wildly successful that they almost immediately started rewriting it into its own language. Then Apache came out with the ability to use a module where the whole language was loaded into memory, which was much more performant than Perl CGI (where the whole language had to be loaded every execution cycle), and it was off to the races. 
+
+Couple that with the language itself being much easier to use (for example, a single array type rather than Perl’s multiple types), and a metric ton of books on “you too can write a website using php”, and there was no going back."
+csharp,fopxw7z,t1_fop7m54,1587975863.0,"PerlScript is something I’m so happy died quietly in a corner  I had to deal with it once, and that was more than enough ..."
+csharp,fopxstx,t1_foougez,1587975767.0,"Even worse, you had some developers who would put critical business logic into a COM DLL, so If you’re maintaining a legacy application, you’d have the ASP/VBScript code referencing a COM object but no code to go with that. So then you’d have to go reverse engineer it or rewrite a bunch of logic because the company never gave the client the source code for the COM object(s) and is long defunct ..."
+csharp,fopxjf9,t1_fon8ous,1587975509.0,"And Java, C# or VB.net code is automatically clean and beautiful?
+
+I can write spaghetti code in any language. I can also write easily maintainable and clean code in (most) languages.
+
+The language is not the problem. It’s that most programmers who picked up PHP started with a -in 24 hours type book or site and away they went. 
+
+The curse of modern languages and web stacks being so much easier to use is the lack of discipline and training in proper application design."
+csharp,fopx8yb,t1_fon5pv8,1587975221.0,"They were also much easier than the other predominant method of the time, which was CGI using Perl or an executable (there was also the original ISAPI on IIS, which was buggy as heck and terribly unstable). The current generation of web developers doesn’t know the pain and suffering that was web programming back then!"
+todayilearned,fopwols,t1_fophzzy,1587974657.0,"The DVD has some commentary on just how advanced they (edit: starfighter) were at the time. The full wireframe render would max out a supercomputer (Of the time) for days, so they figured out ways to get partial tenders of just that screen, or the portion of the screen so they could see if what they were doing was working or not. 
+
+Seriously cool stuff."
+autorepair,foln1s2,t3_g83tcm,1587865831.0,"There are two types of Insurance claims on a vehicle. Comprehensive (things like a damaged mirror, cracked window, etc), and collision. Sometimes a comprehensive type claim falls under collision in the insurers system (for example running over something in the road and you couldn’t avoid it). Either way, those types of minor claims don’t show up on an auto history report to my knowledge. Major collision damage is what shows up in car fax - usually stuff that’s serious enough to be totaled out by the insurance, but not take the car completely off the road."
+ConvenientCop,fohtqou,t1_fohlaq8,1587772476.0,Or they could have pulled in front of the other car. So many options ... so few brain cells!
+news,fohr5j3,t1_fohk2on,1587771052.0,Aka he went over his boss’s head because he wasn’t being listened to. And someone didn’t like that.
+todayilearned,fohno0r,t1_fogm86s,1587769086.0,"There are lots of people who find enjoyment in helping others, even if the job itself is boring as heck. Friend of mine just retired from the US postal service. Says he hates a lot of the minutia but he loved the personal interaction."
+todayilearned,fohn12u,t1_foglgqx,1587768724.0,"When you read the article, if you were in his shoes, you might have made the same decisions, although it sounds like he made quite a few bad ones after that too ... as he said: “I learned I shouldn’t be in business and stick to electronics” (and, it sounds like, stamps)"
+Showerthoughts,fof3dvm,t1_foe00fo,1587724581.0,"You should have an advance medical directive / medical power of attorney in any case. If you don’t, the hospital will make one up for you when you go in for certain procedures. And the hospital’s POA is not necessarily going to align with your wishes. (They’ll keep your nose alive if your insurance will pay for it, even if the rest of you is dead, for example)"
+Showerthoughts,fof1xh6,t1_foe9du3,1587723033.0,That’s really a thing?
+bestoflegaladvice,fodvllc,t1_foahw4c,1587690961.0,Except then Mr. Fastidious would get on the board and then start fining everyone for their grass being 0.000000001” over regulation length.
+nottheonion,fobbd55,t1_fo91jed,1587658086.0,Small town politics makes for a big incentive. Nowadays when everything is owned by mega corps ...
+Whatcouldgowrong,fo8v0nb,t1_fo8s5si,1587604416.0,"Wasn’t referring to you. I know you did. Meant for other people who would read your stuff, go google “aggressive shrubs” and go do something like plant kudzu."
+Whatcouldgowrong,fo8ngov,t1_fo8byqr,1587600028.0,"It very much depends on the variety of thorny bush. There are several that will make you have a VERY bad day. Well, not right away. About 3-4 days later when the thorns start festering up ..."
+Whatcouldgowrong,fo8nayg,t1_fo81nhw,1587599936.0,"I should add as a suggestion, don’t just pick random plants without talking to your local gardening place. Some folks around here decided a fast/thick growing variety of bamboo would be great to plant. Fast forward a few years, and it’s nearly impossible to keep them at bay. They actually passed an ordinance to ban planting that particular variety (and a few other shrubs/trees with similar problems)."
+Whatcouldgowrong,fo8muan,t1_fo81nhw,1587599667.0,"Some folks down where I used to live placed several small but very heavy rocks facing the T road their house was on because they’d had one too many drunks end up on their porch. Most decided to take another route after that, but one neighbor ended up hitting one of the rocks at 80 MPH, moving it about 3 feet and turning his car into an accordion. Supposedly he decided to give up drinking after that."
+nottheonion,fo8lht6,t1_fo7qhm2,1587598896.0,"When I was growing up, the local phone company buried their trunk line about 4”. Of course the state road guys dug it up every couple of years when they worked on the road, and the phone company got a huge chunk of change out of it (and took their time fixing it). 
+
+One year it got dug up right in my dads yearly booking season (The large majority of his work was booked in a 6 week timespan), and they were taking their time with fixing it, so he called the president of the phone company and said “I’m going to sue you for my business’s annual revenue (6 figures) if you don’t get the phone lines fixed and I can’t get any jobs booked. And if you don’t fix it right this time, I’m going to call the new attorney general and clue him in on your little scheme. 
+
+They had it fixed the next day, and buried it properly, and that was the last time we ever had outages, at least from that particular problem."
+bestoflegaladvice,fo7sn50,t1_fo6vnq5,1587583852.0,Wikipedia is also a pseudoscience.
+bestoflegaladvice,fo41xmp,t1_fo3wbi6,1587496801.0,"After reading this I will never, ever buy a house with an HOA on it."
+LifeProTips,fo0jk8f,t1_fnyno69,1587414287.0,I asked a friend of mine who’s a manager at Wendy’s. He said they either put it in a special bin in the freezer or if there’s a pot already on they toss it directly in. It’s not sitting around for hours at unsafe temps. But then again he’s a real stickler for following safe food practices in his store. He’s also never heard of microwaving it for 10 minutes ...
+news,fnymqaf,t1_fnyi3k2,1587368050.0,"Besides the schedule mentioned by another commenter, liquidating stocks also implies there’s a buyer for them. If no one wants to buy the stock because the company is tanking, you got squat. 
+
+That was one of the things that caught some people in the last financial crisis - they were sitting on stuff they couldn’t sell, and when they could sell it, it was for a pittance of what they paid for it. 
+
+Probably not something that would be the case here (not unless the entire cruise industry just disappears overnight), but just because you own stock doesn’t mean it’s guaranteed money."
+LifeProTips,fnyltv1,t1_fnyje8s,1587367172.0,"Absolutely nothing wrong with this. FWIW, most stews originally were exactly this - take whatever stuff that was left over and cook it up so that it didn’t go to waste. Folks have been doing this for eons."
+LifeProTips,fnylme6,t3_g4m5z5,1587366974.0,"Pair this with shredded meat for an extra economic boost. You can buy bulk (whole pork loin, cheaper beef roasts, 10 lb bags of chicken), throw the meat in the oven or a crock pot and cook it for several hours until it shreds - very economical. Plus, if you have a chest freezer, you can buy 2 or 3 roasts when they go on sale and have them handy when you need them. 
+
+Also, If you have onions that are old / getting ready to go bad, dice them up (warning: tears!), and throw them into plastic bags in the freezer for instant diced onions when you need them for recipes."
+gtd,fnylcqu,t3_g4nlp7,1587366719.0,"If you have emails which can be auto-filtered, do it. If the email is informational / background noise, and doesn’t necessarily need to be read, then archive it and you can search for it if the information becomes relevant. (Note if you have auto-purge rules in your org then you may need to handle that differently). You can also set up exclusions to the auto-archive, such as if your name is mentioned (or someone with your name). 
+
+If you work someplace where you’re cc’d on EVERYTHING, you can put a rule in place that sorts cc’d email to a folder and designate a given block of time to review those. Scott Hanselman @ Microsoft has a nice blog post about this.  
+
+If you’re on mailing lists that aren’t relevant to you, unsubscribe or filter them. 
+
+Basically work on getting the signal-to-noise ratio down to a manageable level."
+todayilearned,fnydi9b,t1_fnybfos,1587359931.0,"What’s gross about it? Finding something/someone that’s been under water, or something else?"
+todayilearned,fnx1t8s,t3_g4bb33,1587329802.0,This explains a LOT about a friend of mine who used to be a cocaine addict before he got his life turned around.
+IdiotsInCars,fnwyfpt,t3_g46qgy,1587327913.0,It was the pedestrian’s fault.
+askscience,fnwrq74,t1_fnwq83y,1587324143.0,"What the animals are picking up on is chemical changes in your body due to the disease (which then are excreted in sweat and urine). As far as I know, there’s no such changes this one (that they’ve yet found). Doesn’t mean it doesn’t or won’t be found."
+autorepair,fnwp25o,t1_fnwhmjm,1587322634.0,Should be able to. And a highly recommended and trustworthy mechanic is worth their weight in gold!
+todayilearned,fnuy1wm,t1_fnuxce4,1587274231.0,I know of three (one of them being my wife) who goes all week.
+AskReddit,fnuwe95,t1_fnupqwu,1587272896.0,"I got hired in on a project where a rather juvenile thinking programmer named his variables and classes things like “tits” “cunt” “nipples” etc. The client was livid when she browsed the files (on a conference call no less), and demanded to know who the guilty party was. (I was brought in to get the project delivered as it also didn’t work, but I had the rather unpleasant task of taking the young man over the coals for his choices in naming). She fired him by the end of the week, unfortunately (I thought he could have had potential, given some mentoring, but she couldn’t let go of the embarrassment so away he went!)"
+news,fnuovc0,t1_fnu5o4u,1587267320.0,To die apparently ...
+todayilearned,fnuh6fn,t1_fnub2ih,1587261996.0,Thing is they know that 99% of people will just pay it to avoid the hassle. I believe the term is “extortion”.
+todayilearned,fnuglgq,t1_fnuc45i,1587261610.0,$1b is the only way to actually get the attention of people like this.
+askscience,fnuf9g6,t1_fnu98gy,1587260735.0,My sister loves them. I can’t stand them ...
+LifeProTips,fnuc864,t1_fnt3gca,1587258939.0,There’s a good reason for that. Numbers (apples spreadsheet) will make you positively cry if you have to do even basic formula work. It’s seriously a piece of garbage.
+todayilearned,fnthp15,t1_fnrj6es,1587241870.0,"I used to live in a small community with a volunteer fire department. So the siren to call the volunteers also doubled as the tornado alarm. Occasionally they’d do a test that would be followed by a fire call, and I was always like “that’s longer than normal ... oh...”"
+personalfinance,fnn9wx1,t1_fnn0m5u,1587087621.0,This could very much be the reason they don’t want OP to continue. If the business gets caught with this the fines are ridiculous.
+gtd,fngyvb5,t3_g1pfqk,1586949906.0,"I use one note for project based materials, physical files for things I’ve printed out, and Evernote for random stuff that needs to be kept (also as a scanning dump for documents - the paid version’s ability to search them is awesome)"
+web_programming,fng1btx,t3_g1eyu7,1586920016.0,"React and Vue are very similar in functionality. Angular is different, but mature. All three have good support behind them. At the end of the day, just pick a framework and run with it. 
+
+React/Vue/Angular will make API calls to your backend. I’d recommend either the flask (python language) or Lumen (PHP) micro frameworks, depending on your comfort level. Either one you can migrate to bigger web frameworks if you need.
+
+For your database, I strongly recommend a SQL backend (MySQL, PostgreSQL) over MongoDB or other NoSQL databases. For something like this the likelihood you’ll need a NoSQL database and its additional complexity when it comes to nested / relational data is very slim.
+
+Regarding Udemy, a friend of mine is an outstanding teacher when it comes to JavaScript stuff (I used to work with him and I learned a TON) - I thought he did a react-specific course & I’ll see if I can dig it up and post it here.
+
+Edit: I forgot his courses were made 5 years ago, so I’m not sure how up to date they are. Here’s the profile - you can read the course descriptions and reviews and decide for yourself if you want to take them. If you’re unfamiliar with JavaScript in general, his “understanding JavaScript” course may be quite helpful. 
+
+https://www.udemy.com/user/anthonypalicea/"
+personalfinance,fng0905,t1_fnfworo,1586919319.0,"Wait, you mean they don’t? /s"
+AskReddit,fnfxd34,t1_fnf008j,1586917494.0,"A friend of mine saying the prayer at his congregation once ask for forgiveness of pescados (fish) rather than pecados (sins). [if I spelled that incorrectly, forgive me ... not a Spanish speaker] All the kids started giggling, which then got the whole congregation giggling. They’ve never let him live it down."
+AskReddit,fnfwztw,t1_fnett4o,1586917263.0,"Fun fact, in Mexican sign language, that same sign means “sister”. My wife and a friend were once asked by a Mexican guy if they were sisters (they look like they could be), and they thought he was asking if they were lesbians! Everyone got a good laugh out of that one once they realized he was using MSL and not ASL!"
+AskReddit,fnfwrat,t1_fnffdze,1586917118.0,"I had a friend who was given the signed name “shy T” (her name started with a T), but she kept signing “whore T”, so the deaf community changed it :)
+
+(For non-signers reading this, shy is brushing your hand on your cheek, back to front, once; whore is twice)
+
+When I started learning to sign, I also made a similar mistake. The sign for “work” and “slave” are inverted. If you sign “work” multiple times, it means a lot of work. If you sign “slave” multiple times, it means “bondage (sexual)”. I told someone I had a lot of bondage to do. They laughed quite a bit over that ..."
+todayilearned,fnf8a0y,t3_g16uwj,1586903244.0,"And somehow the hospitals will still find a way to charge 10x more for it than they already are, because why just profit when you can get away with soul-crushing profit?"
+bestoflegaladvice,fndk1xr,t1_fnd6ua0,1586871782.0,"Wow. That must have been a nightmare. So if you don’t mind me asking, what happened in your case? How did the mortgage get paid off? (Or did you have to make out some sort of payment arrangement)?"
+todayilearned,fncky9q,t1_fncchnr,1586839423.0,Yet another place to make billions of dollars disappear with little to no accountability?
+bestoflegaladvice,fncknek,t1_fnapaau,1586839195.0,"The problem isn’t the paper in itself. It’s that the ownership of the loans was packaged into other securities and spread out among hundreds of other entities. And those securities were packaged and divvied up. When those mortgage-backed securities defaulted, the original bank had the paper, but there was no trail of who actually owned the loan, and sometimes the paperwork had been shipped off to god knows where, and no one even knows where that is. The only thing that was left was an electronic record that says first national bank of nowheresville is the only surviving owner of the loan, but they don’t have any physical paperwork to back it up."
+bestoflegaladvice,fnck53h,t1_fncafk3,1586838814.0,"Deed in lieu for payment. Basically you hand the house over to them and they let you out of the loan, or most of it (in which case the remainder would be converted to an unsecured loan)."
+bestoflegaladvice,fncjmrr,t1_fnajrqz,1586838437.0,The way servers are paid in most parts of this country is downright criminal. Add in the fact that some People are really Scummy and won’t tip anything...
+bestoflegaladvice,fncineu,t1_fnagdxi,1586837720.0,"So, what, the title attorney took the money and ran? That’s a real scum bag!"
+explainlikeimfive,fn6086b,t1_fn5xxnn,1586682354.0,"Many sailors were impressed into service, either by force (soldiers rounding up a bunch of guys for navy ships), or by courts due to indebtedness."
+IAmA,fn5l9sw,t3_fzdme3,1586667961.0,"Congrats and this is super cool. You mentioned somewhere else that the wheel is 2,500 lbs or something like that - how easy is it to spin?"
+todayilearned,fmystii,t1_fmxn1t5,1586494707.0,This one is worth the 46 minutes.
+LifeProTips,fmyriv1,t3_fy0ih7,1586493632.0,RIP the user who posts something that ends up on the front page ...
+news,fmyqwuv,t1_fmynk1g,1586493137.0,"The Apostle Paul, at 2 Timothy 3:5, refers to those who have an appearance of godliness, but “prove false to it’s power”. In other words, people who say all the right things, but when you look under the hood, they’re doing things that the Bible condemns. 
+
+Jesus also made a similar point about those who would say “Lord! Did we not do great things in your name?”, and his response would be “I never knew you! Get away from me, you workers of lawlessness!” (Matthew 7:21-23)
+
+Ultimately, whether or not someone are judged as righteous or unrighteous is left up to God, but it’s made quite clear that there are those who will have claimed to be righteous, and their actions say something quite different, and they will be judged adversely."
+AskReddit,fmuks3s,t1_fmukd3s,1586393346.0,Not as creepy as you’d think. Some people (myself included) remember stuff like that without even trying.
+web_programming,fmrbimm,t3_fwgpxu,1586318587.0,"In terms of learning a database to use for the backend of your application, probably MySQL. You can pretty much transfer 90% of what you learn with that to other SQL databases and then build on that. 
+
+That said, it’s very important to understand the problems that the different databases solve and their use cases. The vast majority of the data you will be working with is structured, and relational (SQL) databases are the proper place for them.  But document databases (MongoDB, CouchDB, etc) have their places and they solve important problems as well. So learn what those use cases are so that you use them correctly."
+news,fmrayxd,t1_fmqxfqa,1586318181.0,You know the feds were basically camping on him waiting for him to do something stupid after the stunt the governor pulled. And he certainly didn’t disappoint them!
+csharp,fmocigv,t1_fmm90mh,1586253863.0,"There used to be (maybe still is) an undocumented API that had a comment in the windows code that says “don’t remove this function. Symantec Q&A uses it, even though nothing else does”. Even though Q&A was a mothballed product ages ago, rather large companies used it for ages (Boeing I think, multiple hospitals etc), and they couldn’t risk breaking the software. I ran across the comment once in a batch of windows code that got leaked one time - can’t remember when but it was pretty cool. Also a good reminder of how even undocumented code can have side effects."
+news,fmoa6hm,t1_fmnw8pp,1586251283.0,"Our Allstate agent made my day a few years back when I inquired about something that my (then) tenant wanted me to put a claim in on. She told me “I’m highly recommend you don’t put a claim in on this because it won’t be covered. In fact, I’m not even going to put this call on record because it would cause you issues.”  
+
+A great agent is worth their weight in gold."
+news,fmo9rfi,t1_fmnxfja,1586250813.0,"When I was a kid, my dad kinda did this. He took a hose and flooded the mole holes every day for a week. The moles all moved to the neighbors yard two houses away, which was hilarious because they practically worshipped their yard (they spent insane amounts of money and time on it)."
+todayilearned,fmj0ayh,t1_fmizp4f,1586120463.0,"The interpreter needs to know some context, especially if they’re changing something like results, so that they can interpret correctly."
+LifeProTips,fmitijx,t3_fv9pu8,1586116604.0,"In windows, this will only work for rich text inputs. Plain text input controls will just put a funny looking character (and yes, it’s annoying that it’s not global)."
+todayilearned,fmgilpa,t1_fmgh1j8,1586049897.0,"The cardinals org would have had a player’s head for a stunt like that, and everyone knows it."
+history,fmghxa1,t1_fmen0y8,1586049449.0,"I’m guessing it’s different with short vs long times being under. My wife was under 8-12 hours each time (4 surgeries totaling 40 hours) in 6 months, plus about 2 dozen minor procedures requiring anesthesia in the same time. It took years to fully recover from all that anesthesia. She’s had a few additional procedures over the years, but nothing nearly as bad as that, fortunately."
+history,fmghlbg,t1_fmecu99,1586049236.0,I’m sorry she has to go through that. I have a friend who’s wife has to go through dozens of those a year and it’s definitely not anything I’d wish on anyone (or the conditions that require it). Best wishes to your family.
+history,fmebcxh,t1_fmea4ia,1585997405.0,It’s referenced occasionally in murder mysteries.
+history,fmeb9ih,t1_fmdxbje,1585997290.0,"I won’t say it’s immediate recovery. Anesthesia messes with you, especially long surgeries. My wife “lost” several days after each of her surgeries, and it took a long time for her to get her short term memory back to normal."
+ConvenientCop,fme672a,t1_fme1bog,1585991036.0,Wouldn’t help. There are idiots who don’t realize that New Mexico is a state and it’s been a state since 1912...
+JusticeServed,fmc9e48,t1_fmafa0v,1585941368.0,"Correct numbers from a cnn article are 700% which would indeed be price gouging. 5.5% is a standard markup in most cases. 700% is something like $16, 000 over the base $2000 purchase."
+funny,fkbv927,t3_fhljoy,1584040537.0,You weren’t specific enough on the type of vacation you wanted ...
+funny,fkbv46e,t3_fhlkz8,1584040463.0,That guy really got shafted on his hourly pay ...
+AskReddit,fkbuwe2,t3_fhlleb,1584040342.0,One of the girls in the class below me had an affair her senior year with the social studies teacher and they got married after she graduated. (Needless to say his wife left him). As far as I know they’re still married. They’ve got a ton of kids last I heard.
+todayilearned,fkbu91w,t3_fhljve,1584039986.0,Huh??
+AskReddit,fk9ob19,t3_fh95db,1583980015.0,"It’s spread two ways. One is through coughing etc, but that is limited by distance, covering your mouth etc.
+
+The second way is through not washing your hands (either after coughing/sneezing into your hands, or after using the toilet). So, say someone else doesn’t wash their hands, then touches something that you then touch. Then you touch a mucosal area (eyes/nose/mouth). Bang, you have a good chance of being infected."
+minimalist,fk7d7to,t3_efz61h,1583933919.0,"One thing I’ll say too is look for manual versions of the big tools that can go in a drawer. For example, we occasionally make veggie noodles. When we lived in a mobile home, we simply didn’t have the counter space. Instead of buying one of those countertop noodle making thingies, I bought a small hand operated one. It sits in a drawer, and when we use it (about once a month) it does what it’s intended to. If I’m going to chop, dice, mince, slice or whatever else, I either use a knife or I have a small mandolin (again, not a big slicing monster) that sits next to the pots in the cabinet."
+Whatcouldgowrong,fk7c3vi,t3_fgx38g,1583933190.0,The kid was smarter than the dad. 🤦‍♂️
+AskReddit,fk5dqbz,t1_fk5brkw,1583878426.0,To be fair it is a self limiting problem if they try it themselves first ... SMH
+webdev,fk52qy9,t1_fk50kjv,1583872344.0,It sounds like you may not be breaking it down enough. Your mind is still thinking about the problem and not the implementation.

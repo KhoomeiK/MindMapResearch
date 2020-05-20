@@ -1,0 +1,284 @@
+vim,fpqyntd,t3_gep3ca,1588836325.0,"You can follow urls and file paths with vanilla vim, `gx` and `gf` I believe."
+programminghorror,fpl658g,t1_fpjvbaf,1588707052.0,"I think it can be okay with more abstract functions, like is there really any meaningful name to give to the argument in 
+
+    id a = a
+
+?
+
+This clearly isn't one of those functions though"
+learnprogramming,fpfpi8z,t1_fpeyn57,1588578844.0,Maybe I'm misunderstanding you but you'd have the published version on your master branch and then have a separate dev branch where you work on v2. When you're done you'd merge dev into master.
+IncelTear,fpe27w0,t1_fpd5zx7,1588538896.0,"Words can have several meanings depending on cpntext. Incel can mean:
+
+ 1. Someone who is ""involuntarily celibate""
+ 2. Someone who is a part of the incel community
+
+Most people who aren't part of the incel community don't ever use the word in the first sense, they would probably say virgin or sexless instead. So for most people the first definition isn't relevant.
+
+Incels on the other hand often want to see themselves as part of a greater movement so they want people to use the first definition. Besides, they also have the term blackpilled which basically means the second definition."
+learnprogramming,fpdxj5i,t1_fpd0968,1588536225.0,"It's worth noting that even in functional programming languages it's not recommended to use recursion directly but instead to use functions like fold and map to do the recursion for you while you just supply the behavior that happens at each step. 
+
+While using recursion directly often makes it a bit harder to follow the way that the program flows the, I prefer using the higher order functions to writing loops since loops always rely on modifying something outside of the loop and the relationship between the loop and the outside thing it's modifying isn't made explicit by the structure of the code.
+
+
+---
+
+For those of you not familiar with fold, here's an example of what it looks like in psuedo-python. 
+
+Instead of writing a sum function like
+
+    def sum(ls):
+      if (empty(ls)):
+        return 0
+      else:
+        return head(ls) + sum(tail(ls))
+
+You'd write it like
+
+    def plus(a, b):
+      return a + b
+
+    def sum(ls):
+      return foldl(plus, 0, ls)
+
+
+Using foldl you don't even need to worry about making your function tail recursive!"
+BreadTube,fo74lux,t1_fo6uou7,1587572152.0,"The problem with third parties in the US isn't that people aren't ""actually working"" for them, it's that the US election system is rigged to be a two party system
+ Voting greens in the hopes that they actually overtake the Democrats is at best wildly optimistic (although voting for the greens to get federal funding might be a good idea). The US desperately needs to reform it's political system, this is only one reason."
+veganrecipes,fo6auex,t1_fo67sgc,1587552985.0,"This is obviously just a matter of taste, but I've stopped breading them, partially because it's a hassle and the breading can easily fall off, but also because if you fry the tofu right you can make it really crispy anyway! If you fry it at high temperature with lots of oil it gets really crispy on its own. So I usually fry it in sesame + sunflower seed oil until it's crispy and then pour over a mixture of soy, chilli paste and some some acid (ideally kimchi juice if I have it at hand) for flavor, and let it cook away. No need for pressing or marinating either!"
+vtmb,fnku9c8,t3_g2903d,1587040095.0,"I actually think there is a lot of well-casted voice acting going on! I remember reading an interview where he talked about it. Andrei is brilliant for example and Lacroix is good, but you can tell the difference."
+haskell,fndiyy9,t1_fna2f0x,1586871082.0,"It's probably more accurate to say that null pointer free languages aren't widely used, the according to [this](http://pypl.github.io/PYPL.html) google-trends based data for instance, the only of those languages with more than 1% popularity are C#, Kotlin and Swift."
+creepyPMs,flg37mv,t3_foba2h,1585128663.0,"It sounds like he's just making shit up but...
+
+The number of unwanted pregnancies for non-straight teens are absurdly high, [somewhere between two to seven times as high as with straight teens](https://www.thepublicdiscourse.com/2017/04/19022/).
+
+Lesbian teens are *more likely* to have an unwanted pregnancy than straight teens.
+
+I think this is a bit like [the phenomenon of straight men having sex with men](https://www.google.com/amp/s/www.psychologytoday.com/us/blog/sex-sexuality-and-romance/201811/why-some-straight-people-might-have-gay-sex%3famp), i.e. it's somewhat common for people in general to have sexual encounters that don't fit the way they label themselves."
+pointlesslygendered,fktlobc,t1_fkso6rx,1584525524.0,"There are definitely shanty women, just go to a folk punk show."
+enoughpetersonspam,fkh67ca,t1_fkh36iy,1584189987.0,"Coronavirus (is believed?) to have existed in bats for a long time but wasn't introduced to humans until we ate them, similar to how HIV have existed in chimpanzees before but was introduced to humans by eating them. While only a small number of people have gotten coronavirus by eating bats, it's a problem for everyone because someone somewhere ate a bat in the first place.
+
+On another front, factory farming is a breading ground for antibiotic resistant bacteria because meat farmers give their cattle large amounts of antibiotics to keep them from dying. Diseases that originate from cattle are also more likely to be deadly because the disease can spread quicker among the tightly packed animals, ""naturally occurring"" diseases aren't as deadly because if they kill an animal too fast it won't have time to infect too many victims."
+COMPLETEANARCHY,fkgwykj,t1_fkftuqb,1584178421.0,"The reason why there isn't any (real) third parties in the us isn't because of people not voting for them, it's because the electoral system is set up to favor two parties. Voting third party might be an ok protest vote but to make them a serious contender the electoral system would need to be overhauled."
+BreadTube,fkdsjs0,t1_fkd4c2c,1584093194.0,"While Sweden is pretty cool in a lot of ways, they did also sterilize trans people until a few years ago."
+javascript,fk826xd,t1_fk70u94,1583947964.0,I agree but making it more explicit is a plus
+pointlesslygendered,fk3rj8b,t1_fk3krt8,1583844320.0,What's wrong with complaining about things that annoy you?
+learnprogramming,fk3gqiu,t1_fk192lu,1583832727.0,"It's pretty clear from context that they mean ""typescript while extensively using features not available in plain JavaScript vs. plain JavaScript"".
+
+If you do some basic reading between the lines it becomes obvious that they're saying something closer to preferring the English countryside to London."
+Foodforthought,fj9yy5z,t3_fc4qj1,1583162828.0,"Unfortunately Warren has done several things to undermine her trustworthiness. She went from criticizing super pacs to taking help from them, criticizing the super delegate system (in 2016) to saying that she supported it in a recent debate, and walking back on her promises of single payer healthcare, not to mention her acusations of Sanders being sexist which where widely interpreted to be underhanded and duplicitous. This has really reflected in her polling stats where she (briefly) was top runner but now is a distant third. She used to be perceived as the pragmatic Sanders but now she's more like Sanders without a backbone."
+Design,fj7wqh0,t1_fj7oxjs,1583099948.0,"It's different on different operating systems. On Windows you'd use the autohotkey program, while on Linux you'd use xmodmap (assuming that you're running x). On osx you can do this in system preferences.
+
+I've got caps lock bound to escape if you tap it and ctrl if you hold it for example."
+pointlesslygendered,fixf0oh,t1_fixe9uu,1582819121.0,Yeah fair enough
+pointlesslygendered,fiwr8ab,t1_fivupc5,1582799246.0,Not having sex as a teen is relatively normal though.
+haskell,fivap1m,t3_f9z6gy,1582756988.0,"This is more tedious than difficult, but sometimes it's nice to be able to change one thing in one place and have it change everywhere. Instead of just having e.g. an object with multiple references to it, you'll want those references to be keys to avoid multiple sources of truth and then thread state through everything to keep the variable updated."
+veganrecipes,fimkdpt,t1_fim6d7p,1582534195.0,"Ive bee meaning to try this blue cheese recipe for a while!
+
+https://fullofplants.com/vegan-blue-cheese/"
+Emo,fibbkzi,t1_fib6der,1582318540.0,"If you look at what Bloomberg's saying, he has indeed made a progressive turn. I don't believe him though, it seems far more likely that he's trying to appear less racist to have better chances of being elected. There is some value in trying to appear not racist because it means that he's less likely to excite racist supporters, but otoh [Richard Spencer is a Bloomberg fan](https://twitter.com/RichardBSpencer/status/1230758796365926400?s=20) so Bloomberg's not even much better on that front."
+Emo,fiauwnm,t1_fiaq3hg,1582308870.0,"What you're saying sounds a lot like ""if you're gonna be racist, at least put on a nice facade"" and sure that's preferable I guess, but there are also important principle reasons surrounding not voting Bloomberg, in addition to important strategic reasons for not voting Bloomberg."
+Emo,fiabmfv,t1_fia7acf,1582297608.0,By electing another power hungry tyrant?
+Emo,fia1qra,t1_fi8b5sn,1582290581.0,"I'm not American but if I was I'd sooner vote for Trump:
+
+1. They're similar levels of awful, but I'm worried that Bloomberg might be more competent at being awful than Trump.
+2. If Bloomberg wins 2020 that means that the 2024 election will be between Bloomberg and a republican, whereas if Trump wins there's a chance that there will be an alright dem candidate then.
+3. ""Electability"" is a large factor in how people vote. Thinking more than one election forward, it's important to show that people like Bloomberg are deemed unelectable in the future so we don't have to put up with them then."
+javascript,fi6le5m,t1_fi6kb19,1582199945.0,">How would a standard library do that if it doesn't even have any concept of a database or what SQL is?
+
+I'd wager that a majority of PHP applications use SQL and a vast majority use some sort of database so it should. 
+
+Edit: actually, PHP *does* have a concept of SQL, because there is a official extension called `mysqli`. However, the default way to send queries is with a plain string as opposed to some more intelligent way of building a query that makes sure to escape usernames etc. 
+
+It's true that PHP has gotten better but people have still been finding vulnerabilities the last couple of months: https://www.cvedetails.com/vulnerability-list/vendor_id-74/product_id-128/PHP-PHP.html
+
+If we compare this with say Python: https://www.cvedetails.com/product/18230/Python-Python.html?vendor_id=10210 you can see that PHP has a total of 604 found vulnerabilities overall compared to pytons 49 which is about as many as have been found for PHP the last two years.
+
+While it's not an exactly apples to apples comparison, this certainly implies that PHPs implementors are for whatever reason more prone to writing vulnerabilities than pythons because I don't think it's fair to assume that people have been trying 12 times harder to find vulnerabilities in PHP."
+javascript,fi6jpon,t1_fi6ijfy,1582198025.0,"I think PHPs biggest problem is poor standard library design which doesn't steer users away from e.g. SQL injection.
+
+Other than that there has been a large number of exploits relating to overflows, accessing the heap or abusing the file system so not only are is the standard library not that well designed, but also not that well implemented."
+COMPLETEANARCHY,fi6it6h,t1_fi4wpul,1582196886.0,"If Bloomberg gets the nomination, vote for Trump as damage control."
+programminghorror,fi3w706,t1_fi3qw0d,1582128942.0,"It's more time efficient to write the code maybe, but less time efficient to edit later. With the exception of really desperate circumstances you should always keep maintainability in mind."
+javascript,fi3csbu,t1_fi340hw,1582112028.0,C and PHP are disastrously bad from a security standpoint. JavaScript is #2 of languages that aren't disastrously bad which isn't particularly good.
+BreadTube,fhs2y6u,t1_fhrztah,1581851210.0,"What she's trying to say is that she wants to be respected by society at large. Her literal wording was ""a handful of communists"". The problem is that they are fringe, not that they are communists.
+
+Is it really so wrong to want acceptance from society at large?"
+MensLib,fhigxws,t1_fhgouse,1581624540.0,Show that you're good at reading social queues and paying attention to how she's responding. Don't push even small boundaries and don't do things that make you seem dishonest.
+webdev,fffmxgg,t1_fff1uih,1579887414.0,"Personally, I prefer the cli because:
+
+1. It doesn't rely on hand-eye coordination. If I can do something with just the keyboard I can just plan out what to do in my head and type it out. If I need to use the mouse there's a feedback loop between my hand and eyes. Typing only relies on hands in isolation.
+2. It doesn't require switching to a new window. Moving windows around adds a (small) mental tax.
+3. UIs are less uniform than terminal interfaces so doing everything in UIs means more different things to keep track of compared to the terminal.
+
+These are three small things, but together they make things feel easier and nicer to do in the cli, which is why I prefer it."
+haskellquestions,ff5quni,t1_ff5pf2s,1579606592.0,"In the case of lists, list comprehension is another way of writing do notation. The following two are equivalent:
+
+
+    let a = do
+        x <- [1..10]
+        return (x*x)
+
+    let b = [ x*x | x <- [1..10] ]
+
+do notation expands to more things than just lists, like IO-actions and error handling! Don't worry to much about it now though.
+
+In Python you can use ifs in list comprehensions to only include some of the results:
+
+    divisableBySix = [ x for x in range(2, 20, 2) if x % 3 == 0 ]
+
+    -- Haskell equivalent
+
+    divisableBySix = [ x | x <- [2,4..18], x `mod` 3 == 0 ]
+
+If using do notation, guard is used to filter out values we don't want. It basically means ""unless the following condition is met, throw away this iteration"". It won't work how you might expect outside of do notation though!
+
+    divisableBySix = do
+        x <- [2,4..18]
+        guard (x `mod` 3 == 0)
+        return x
+
+When using list comprehensions, the guard (and the return) are automatically filled in.
+
+Don't worry too much about do notation yet!"
+malementalhealth,femh6y0,t3_epvt6z,1579255342.0,"I think it's pretty clear that the right thing to do is swipe left and I don't really think you wrote this expecting us to give you any other advice. Your goal is getting over her and swiping left is a step in the right direction.
+
+I also understand that it's a tough thing to do and you have my complete sympathy but at the end of the day this is the only choice that makes sense and the sooner you do it the sooner you'll be in a better place.
+
+Good luck, I believe in you!"
+AskFeminists,fefxfry,t1_fef7efk,1579068408.0,Yeah the details of the trauma in question is the big reveal at the end of season 1.
+pointlesslygendered,fedei32,t1_fecjuu8,1579009301.0,"Well that's a definition of rape that is very far removed from what almost anyone percieves rape to be. Maybe it's useful to define rape like that in some sort of technical context, but I have to question how useful it is outside of that specific context. Many people (myself included!) have had sex while too drunk to drive without there being anything bad with it.
+
+Also, I have to question the being too drunk to drive part specifically, the limit is where it is because your reflexes and awareness are affected by the alcohol, not because you can't make meaningful descicions. How good your reflexes are isn't tied to your ability to consent. If a specific alcohol limit for not being able to consent is determined for some specific context it should be tied to how it affects attributes that are actually tied to our ability to consent like our ability to perceive concequences. Likely this would be at a different alcohol level than where you can't drive."
+haskell,fe7zhjm,t1_fe2el19,1578920841.0,"Just spitballing, one idea is to do it with curly brackets first an intermediate step and then making it indentation based after sorting the rest"
+haskell,fe7vh4f,t3_eo093t,1578919639.0,"You could even make a custom operator for it, e.g.
+
+    ($.) :: Functor f => (a -> b) -> (c -> f a) -> c -> f b 
+    f1 $. f2 = fmap f1 . f2
+
+Obviously a bit overkill if you're only doing it once but it could make things a bit more elegant if you find yourself doing this much"
+neutralmilkhotel,fe7fz6h,t1_fe6unms,1578914150.0,A bit stalkery ngl
+neutralmilkhotel,fe5x9ws,t3_enqe3q,1578876998.0,"This is simultaneously cool, impressive and creepy"
+rust,fdxxoxw,t1_fdxu6dr,1578773952.0,"Yeah I was suggesting lenses are esoteric, that's what I was referring to!
+
+Of course, I wasn't being very charitable, there are more Java friendly ways to handle shared mutable state."
+rust,fdxpah3,t1_fdxg8f2,1578771482.0,">As to why even still use Java...because work?
+
+I guess my point was that if the correct way to program in Java is to do something increadbly un-Java (like using some esoteric fp construct) then that reflects kind of poorly on Java. Not that that is a very controversial opinion in this sub."
+rust,fdxbyty,t1_fdt1mlm,1578767277.0,"But even then, are what happens when you need to update objects? Sure, you take the pure fp route and make copies (and use lenses for nested updates in an ergonomic way?) but why even still use Java at that point?"
+programminghorror,fdbuqxv,t1_fdach68,1578262269.0,"Functional programming tends to make things more abstract so there are more concepts that you'll be expected to learn to understand how to do even basic stuff. It has a lot of benefits though, for example it's easier to reason about your code and since there isn't any shared mutable state there are less things you need to keep in your head. Typed functional programming often comes with stronger guarantees of correctness, like having no runtime errors for example.
+
+In functional programming you might find that some otherwise easy things become complicated (like updating values inside nested data structures for example) but it makes some famously hard things much easier (like concurrency).
+
+I can strongly recommend checking it out, even if you don't end up using it directly in your work, learning a new programming paradigm will change how you think about programming in general for the better!"
+GamerGhazi,fcx25gc,t1_fcvxoxg,1578047879.0,I think that padding a heavy video with humour improves the pacing and makes it easier to watch. And maybe the jokes about alcoholism didn't really work that well but it was still a good idea imo if maybe executed poorly.
+compsci,fcpr4qs,t1_fcnvevx,1577870328.0,Indont think it can be Turing complete without a pump (because it will trivially halt)
+pointlesslygendered,fbd7onr,t1_fbcw6ds,1576751061.0,"If you type something in backtics it is treated as code and other Reddit formatting doesn't apply, so he got that by typing just three backslashes you can however get three backslashes without backtics by typing this: ¯\\\\\\\\\\\\\\\_(ツ)_/¯"
+pointlesslygendered,fbd7dm4,t1_fbbtpu1,1576750615.0,"In graph theory, a graph is made up of nodes and edges (which is just another word for connections between nodes).
+
+A tree is a special kind of graph which is fully connected, (i.e. any node is reachable from any other node by following the edges) and doesn't have any cycles (i.e. paths which end in the same node as you started on while not revisiting any edges)
+
+In a tree you always end up with one root node. With the exception of the root node every node has exactly one parent and a variable number of children and following the parent nodes will eventually get you to the root node. It's called a tree for a similar reason that a family tree is called a tree (although family trees aren't graph theory trees because unlike nodes people have two parents).
+
+Source(s): I'm a man"
+haskellquestions,fb7rl8h,t1_fb4stqo,1576597751.0,Maybe you want to do something like `filter isBar xs`
+themountaingoats,fb7mkp1,t3_ebl2lq,1576594231.0,[Check out this ska cover of going to Georgia](https://m.soundcloud.com/rhicarter/going-to-georgia-ska-demo-a-terrible-the-mountain-goats-cover)
+BreadTube,fazy01h,t1_fayiccv,1576420672.0,Finish isn't even in the same language family as the rest
+FolkPunk,fajld7x,t3_e9dkvx,1576143736.0,Honestly the guitar playing doesn't really sound like Pat either
+malementalhealth,f966iih,t3_e3oeds,1575140481.0,"This is maybe gonna be a bit pedantic, please don't continue reading if you think that pedantry would ruin your mood or take away from the experience!
+
+
+---
+
+Isn't the point of the lion king that Timons advice is kind of a bad idea? The conclusion of the movie is kind of about how it's important to embrace your destiny and fullfil your duties. I don't completely agree with the Lion Kings themes either, but I would agree that ""when the world turns it's back on you, you turn your back on the world"" isn't actually good advice."
+BreadTube,f94zbwn,t1_f931h25,1575111888.0,"It's explicitly stated in the game text that helping either side win is what's worse for the Thalmor, because the longer it goes on the more it uses up resources that could be used to fight the Thalmor when they invade the Empire again. Even if the Stormcloacks win, they'll likely be allies to the Empire so a swift Stormcloack victory is actually better for the Empire when they next butt heads with the Thalmor.
+
+The Thalmor are literally Nazis who want to end the world so they're still significantly worse than imperialists and ethno-nationalists."
+webdev,f8xp1cf,t1_f8xdgmr,1574927158.0,"No, null == false is false, however null is a falsy value. == is unintuitive because it's hard to know what type coersions are happening behind the scenes."
+webdev,f8vlgnt,t1_f8vjv08,1574872112.0,"Maybe I'm missinterpreting you, but == false is not the same thing as falsy. null is falsy but not == to false."
+webdev,f8v7z14,t1_f8v19vs,1574862431.0,"That's not what truthy or falsy mean though, truthy and falsy refer to values that are equivalent to true or false in an if block. So 0 is falsy because `if (0) { ... } else { ... }` will result in the else branch being evaluated."
+bi_irl,f8q375s,t3_e1gltx,1574711409.0,Bite me mommy 😩
+vtmb,f8ovj1k,t1_f8ns54o,1574690990.0,"I don't think that's a malk thing, its a general vampire thing to stop caring about humans"
+BestOfOutrageCulture,f8ojmbg,t1_f8migrs,1574683971.0,The right is getting better at comedy and it's making the leftists nervous
+pointlesslygendered,f84b4nt,t3_dynq38,1574239021.0,"Googled it and the Kickstarter video is unintentionally hilarious
+
+https://www.kickstarter.com/projects/rheabelle/jax-sheets-the-first-bed-sheets-engineered-for-men
+
+What makes them ""for men"" is that they stay fresh longer (because men r bad at changing sheets) and don't slip of the mattress as easily(?) which sounds nice but I don't get what that has to do with men."
+bi_irl,f81erzw,t1_f8060if,1574164666.0,"Having a same sex experience doesn't make you gay. I should now, I've had several!"
+TheBluePill,f7y59zm,t3_dxctpn,1574086856.0,"Men's problems are caused by the patriarchy, just like women's problems. Both men and women participate in upholding the patriarchy.
+
+(When I say men's problems I mean problems that are uniquely male, not any problem a man might have.)"
+programmingcirclejerk,f7b3u3j,t1_f7b2khq,1573554291.0,"I'm not following, I called you a boomer because you made a joke about hitting your wife if she doesn't make you food, why did you call me an incel?"
+programmingcirclejerk,f7axe4f,t1_f78nrgy,1573544439.0,Ok boomer
+web_design,f6yuk9q,t3_dthlcg,1573298369.0,If you're gonna do this you should really have some other mechanism for advancing the slideshow besides scrolling.
+skywind,f6vxjxz,t1_f6vv76e,1573206181.0,"Well they make gameplay trailers every now and then that show of tons of stuff, like spears in the last one.
+
+They could do even more, sure, but I'd argue that there definetly is indication that real progress is being made."
+TheoryOfReddit,f6vwtyw,t1_f6swt0j,1573204998.0,"No, Reddit adds fake votes to almost every post or comment. If you look at really highly upvoted posts they have tonnes of artificial downvotes, just look at the upvoted/downvotes ratio"
+javascript,f6k8z7r,t3_drgudq,1572907720.0,"I think the part about ap is somewhat strange for several reasons:
+
+1. It's not really explained what ap does. It takes an one applicative object with functions as values and the an object of the same applicative type with values and applied the functions in the first object to the values in the second object, returning a new applicative object. Or: `Applicative p => p (a -> b) -> p a -> p b`
+
+2. It is defined in terms of flatMap. ap is a broader function than flatMap because there are things which you can implement ap but not flatMap for. Ap doesn't require a notion of flattening.
+
+3. ap is convenient in Haskell because all functions are curried. A typical usecase is if you have a curried function that takes two arguments and two applicative objects you'd map the function over the first object to obtain an object with functions as values and then ap it together with a second object.
+
+-
+    (+) <$> [1,2,3] <*> [4,5,6] 
+
+Just works in Haskell (<$> is an operator for map and <*> is for ap) but in js you'd have to handroll a curried function like:
+
+    const curriedAdd = (a) => (b) => a + b
+    [1,2,3].map(curriedAdd).ap([4,5,6])"
+ShittyGifRecipes,f6iz3z5,t3_drjsku,1572886632.0,"Sandwich cake is a thing in Sweden although you wouldn't make it quite like this. Generally you'd make it larger and square shaped, not have the cream cheese frosting like that, have some sort of fish or kaviar and more stuff on the outside of the cake.
+
+I'd say that [this](https://assets.icanet.se/q_auto,f_auto/imagevaultfiles/id_162275/cf_259/vegansk-smorgastarta-721995.jpg) is a very normal looking one."
+MensLib,f6fw1ke,t1_f6f00x5,1572818712.0,"I disagree, Summer pursues Tom in the beginning and then he tries to make their relationship into his ideal relationship which ultimately leads to it falling apart due to them wanting fundamentally different things"
+Emo,f6ejkkj,t1_f6eilwl,1572804794.0,Metal?? I don't really see that (except for thank you for the Venom but that's on a different album)
+Emo,f6db42c,t1_f6cub1o,1572792866.0,"There is a huge overlap between emo and post hc, I'd sooner describe bullets as post hc but I don't think it's much of a stretch to call it emo"
+Emo,f6das0n,t1_f6clvic,1572792771.0,The person who wrote this copypasta thinks that only emocore is real emo and SDRE isn't an emocore band so
+FolkPunk,f5sjs7s,t1_f5re6zg,1572433705.0,"The ""n"" in days n daze is actually the international squatters symbol, if that's what you're referring to"
+vegan,f5raclc,t1_f5r2nz5,1572390919.0,In that case you'd probably be avoiding processed foods entirely anyway?
+COMPLETEANARCHY,f5qd68w,t1_f5ppp84,1572375663.0,"No, they just defend Pinochet"
+COMPLETEANARCHY,f5pn7hl,t1_f5p8vic,1572363373.0,"You can add your own flair text under flairs, and you can also just write ""[OC]"" as part of the title if you want"
+bi_irl,f5p7qws,t1_f5owwq1,1572351734.0,"If you're making that joke, statistically speaking, you're probably bi"
+hmmm,f5oy8xb,t1_f5oy0u8,1572339126.0,"Its currently a multinational group but it was founded in Sweden. The furniture has swedish names for historical reasons, based in the companies history as a swedish company."
+Emojerk,f5oxvub,t1_f5owtj2,1572338514.0,Never thought I'd say this but damn I agree with the /r/neoliberal poster
+compsci,f5ngee4,t1_f5ndc5i,1572299864.0,"Idk I don't feel like getting into more hairsplitting over this.
+
+The only thing I was trying to say is that if you built something that looks like the stuff in the gifs and doesn't have any pumps it will trivially halt. This doesn't apply to all fluid based systems. A u pipe wouldn't do much to save this poor strawman that I've constructed.
+
+Your analogy about resistance in electricity is interesting, but I'm not even sure what we're disagreeing about really?"
+themountaingoats,f5kbuip,t3_do1dzn,1572259548.0,ok boomer
+compsci,f5jy8ni,t1_f5jmkkq,1572246700.0,I should have made this clearer but I wasn't talking about plumbing in general but this gif specifically where we don't see any pumps.
+compsci,f5jy2ub,t1_f5jpi5j,1572246453.0,Keyphrase: as presented here. There aren't any pumps in the gif. But pumps would solve the problem
+compsci,f5ikfp3,t1_f5ih8t6,1572215368.0,"You need electricity to keep your computer running. You can however have cuircuitry that goes in a loop so that the information that the electricity encodes goes back to an earlier stage of the process, something you can't do with the water logic gates as presented here. Electricity doesn't have the same sense of up and down as water has."
+compsci,f5icob1,t1_f5h80i4,1572213177.0,"They rely on gravity so water can only travel downwards and eventually the water will hit the lowest logic gate and be done.
+
+If you had some mechanism for pumping the water back up to an earlier stage, maybe
+
+E: to everyone mentioning pumps, me and /u/programtheworld where talking about the water gates mentioned *in this post* where pumps aren't mentioned. Without pumps it trivially halts. With pumps it doesn't."
+bi_irl,f5dqcbq,t1_f5be28o,1572157839.0,An imaginary times an imaginary equals a negative
+Emojerk,f5bx0g4,t3_dn8jrz,1572126981.0,"sven  
+skfotboll"
+Emo,f5aermm,t3_dnewjp,1572106045.0,"It started as a joke on the screamo board cmhwak: www.urbandictionary.com/define.php%3fterm=skram&amp=true
+
+Urban dictionary isn't a super reputable source ei guess but it goes along with what I've heard other places at least."
+FolkPunk,f58x1e0,t1_f58a696,1572066200.0,"They're a ""weed emo"" band, if you search on /r/emo you can find plenty of posts about them."
+FolkPunk,f58sjmd,t1_f58qixl,1572063038.0,"Yeah I think it's fine to have different opinions and such, my goal isn't to take away anyone else's enjoyment of them.
+
+Personally though, they're far from the first band I've heard to write so far about breakups and feeling lonely with very blatant and relatable lyrics and I don't think that they do it particularly well.
+
+But maybe it's also a case of me finding a stylistic choice annoying that someone else finds charming as a matter of taste, and it's fine to not have super deep or elaborately crafted lyrics if you're still fun and charming which a lot of people seem to think that they are."
+TheBluePill,f58puf3,t1_f55v8bf,1572061297.0,Are you referring to the Joker? I don't really buy that comparison at all personally.
+FolkPunk,f58pemy,t3_dn43i1,1572061022.0,"The lyrics really put me of them personally. Not that they're ~problematic~ or anything, they're just kinda dumb."
+Emo,f504fb4,t3_dlz5aq,1571921686.0,"Blogs!
+
+People have mentioned Sophie's floorboard, but there's also
+
+[Open mind/satured brain](http://openmindsaturatedbrain.blogspot.com/?m=1), [Angry Emo Nerd](http://angryemonerd.blogspot.com/?m=1) or [83 gigs of 90's emo core](https://83gigsof90semocore.tumblr.com) for example.
+
+It takes some work but that's how you get the obscure shit."
+Emojerk,f4uoep6,t1_f4qbdal,1571820958.0,"WAAATCH AAAS  
+YOUR SUBSCRIBERS BEGIN TO FADE"
+comicbooks,f4l7kq3,t1_f4l11z6,1571663422.0,I mean yeah if you're fighting for your life I don't think stuff like that would have a large impact

@@ -1,0 +1,78 @@
+schizophrenia,eyttxe1,t3_cy8u9l,1567445570.0,You are the master of the mirror.
+schizophrenia,eytrdkl,t3_cyi75t,1567443802.0,"Well delusions and paranoia are just like putting stuff wrong together.
+
+Imagine you were building something. Like clothes. And you make a pullover with 4 arms like 10 feet long. Everyone is going to complain about that. Even if they know you are disabled, it's still wrong and always will be.
+
+No one is going to accept that this is ""you"". Especially not your husband. 
+
+If your mind can be that erroneous, so accept it, learn to live with it. But don't try to seek confirmation and comfort for it in the approval of others. That's just not right. Appreciate honesty."
+schizophrenia,eytpndp,t3_cym8yj,1567442605.0,"You shouldn't be afraid of yourself and what your mind is capable of. 
+
+The medication, it is making you sick. Recent studies prove that. People on antispsychotics do 4 times worse on all metrics after 2-4 years. Antipsychotics worsen psychotic symptoms due to drug tolerance effects and harmful side-effects such as neuronal damage.
+
+https://www.madinamerica.com/2017/05/psychiatry-defends-its-antipsychotics-case-study-of-institutional-corruption/
+
+It's all a huge scam mostly based on placebo effects. You are believing in that placebo, that you can't do this and that on meds because it's what has been suggested to you by doctors who don't know better as well. Once you drop that belief it's just a bunch of side-effects that remain as your true illness.
+
+However that is, you shouldn't aim at indulging into any kind of abnormal mental states. Take mania for example: if you happen to produce mania by accident, or if you will yourself into it, it's an extremely pleasant and rewarding state of mind. That is why people are so compelled to return to it, even at the price of extremely crippling depression. However: it's not healthy.
+
+You carry that responsibility of staying sane. Staying true to yourself, aligning your emotions with your life and what you value most. You aren't a child who lives in the confines of your parents, being constantly reminded and fitted into what others make you believe to be true. Your thoughts shape your reality, at only your personal choices. And it's up to you that this reality is not ill conceived, not shaped by lust or greed or sloth or hybris or false hopes and so forth. That is what it means to be human."
+deepdream,ewxrqzg,t1_ewx3l0h,1565866879.0,"I read the script and in terms of saving memory, it doesn't do much of anything. It still uses NIN at the end with 4000px output. I haven't judged speed or quality.
+
+But I am surprised: you are saying that with 8GB VRAM, you can process an image that is over 100 times larger than the max size you get with just 1GB? 
+
+So, 8 times more RAM = 100 times more pixels?
+
+That is a total surprise to me and I can't quite believe it. 
+
+In CPU mode, 16MP causes out of mem on a 16 GB machine. 4MP takes about 10GB. So 25MP should take 60GB. I didn't use the most memory efficient models, but I read in a paper that the difference is within just 10-20%."
+deepdream,ewx2vfj,t1_ewwv9ju,1565842479.0,"Are you kidding me? 
+
+The volta-x3 script is just the neural-style command pasted like 10 times in a row. It does nothing special whatsoever to fix the RAM limitation... Despite apparently specifying three GPUs, which I understood from the comments are GTX 1080 Ti 11GB each ...
+
+How many megapixels can you do max with 8GB?
+
+With 2GB it's barely 0.25MP. So 8GB shouldn't do more than 1MP or maybe 2MP. Would be nice to know how much it really is."
+MachineLearning,ewv6gth,t1_ewuhicj,1565799702.0,"Thanks for your advice.
+
+But I can't really understand what you said, because I know too little.
+
+Other people have said too that tiling doesn't produce good results.
+
+I just used the top 3 different programs / scripts for tiling off Google / Github. One just kept crashing after it finished within 6-8 hours or so (and thus no result). Hard if not impossible to debug this at home. Could be that at some point it requires more than 16GB of RAM, I don't know. The other ones, I have seen the output and it was a total mess. As you would expect the neural net just can't grasp the overall content of the image. 
+
+I think if you only have 4 or 9 tiles, it can be acceptable *in some cases*.
+
+But in my case, a 512px non-tiled output uses like 98% (and rarely 101%) of the 2GB GPU RAM. With tiling it requires some small shave of additional GPU RAM so the tiles are above mem and need to be 256px, which more than quadruples the number of tiles required. The more tiles, the more overlap margin.
+
+So I end up with **77 tiles** for a 3.5MP image.
+
+With that many tiles, the output is literally total garbage. I doubt you can ever mend this with any kind of technique that builds upon the method used by jcjohnson/neural-style. 
+
+If you have a 3GB+ GPU you can probably use 512px in tiling which is a huge leap. But 4MP image would still take over 20 tiles and a 12MP image is again similar to my case.
+
+Over 20 tiles, I image that is still far too much to produce anything acceptable.
+
+It could be that, specific to certain style images, where the overall look of it mostly depends on almost pixel-sized small dots and overall hue and contrast changes for example, it could work out well ( e.g. https://raw.githubusercontent.com/yusuketomoto/chainer-fast-neuralstyle/resize-conv/sample_images/output_2.jpg ). Such styles tend to look rather plain and uninteresting, like Photoshop filters.
+
+But all the interesting and actually good looking styles, like Kadinsky for example, ( https://raw.githubusercontent.com/gafr/chainer-fast-neuralstyle-models/master/images/kandinsky_e2_crop512.jpg ), I don't think that can ever ever work out with tiling.
+
+Correct me if I am wrong. It's just what I am guessing. I have yet to see anyone who has been there, and provided some usable amount of picture results."
+IntellectualDarkWeb,ew5cf6o,t3_cly9tk,1565132885.0,"There is no doubt that heavy metals are harmful at any dose, both physically and mentally. 
+
+But it doesn't mean that every single problem in life is to blame on heavy metal exposure.
+
+And its surely not as dramatic as people want to suggest. Look at the fluoride info website. It's health effects are totally inflated. It basically treats the issue as if US water levels were 200 fold elevated over what they actually are. Most advocate groups are like that: they totally exaggerate to grab people's attention. I am not saying its a good idea to put fluoride in water: its not, because the science on which the rationale is based is totally flimsy BS. But it doesn't mean that its hyper-toxic either. Its just dumb to do it, with little to no effect. Neither harmful nor beneficial.
+
+Starting in the 60s and peaking in the 80s, the industries got a total overhowl. Toxins like heavy metals, dioxins, PCBs, asbestos and you name it were dramatically decreased and they are still ever declining. Albeit now being long so low that they really can't get much lower. I don't know anything about that historically, it just becomes immediately obvious if you plot any kind of data on that. 
+
+If you grew up in the 90s and even the 80s you can be sure that heavy metals didn't stifle your development. Except by freak chances or occupational exposure. Even lead solder is now banned in factories.
+
+So to sum it up: Heavy metals are not an issue anymore in the western world and haven't been for a long time. It's an ancient historical problem, since the Romans started extracting gold thousands of years ago, with mercury in rivers, and used lead for plumbing. Hence it's still somewhat huge in developing countries that lack modern industry standards. It has been fixed in the western world for a long time by government regulations and public awareness.
+
+Anyone who still clings on to the huge impact of heavy metals in the western world on children and youth is obviously not well informed and puzzling something together that isn't really there. It's easy to get frightened and confused, because heavy metals impact anything negatively: the mind, development, intelligence, body, longevity, well being, success, health and so forth. And all that very nebulously and unclearly over very long timeframes. You can't taste them you can't smell them. It's sort of like hysteria about ionizing radiation and nuclear energy. People easily get it all wrong."
+AskReddit,ew2klyr,t1_ew2k5u1,1565049087.0,"One particularly grave issue with the whole system on Reddit is, that its content quality is determined by sheer popularity vote alone. The least objectionable, most easy to grasp information to the highest number of users becomes the gold standard.
+
+Also, posts ""time out"" - they essentially become less accessible with time. 
+
+This all obviously stems from the fact that Reddit isn't actually a community discussion platform. Its a news aggregator. That is what it was designed to do and how it functions best."

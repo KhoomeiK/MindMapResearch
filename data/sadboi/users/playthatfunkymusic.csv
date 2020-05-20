@@ -1,0 +1,279 @@
+Buddhism,fmbu1an,t3_ftyz5g,1585933198.0,That's quite an impressive shrine.
+uBlockOrigin,fm3v5ad,t1_fm3hxiz,1585738191.0,Perhaps try portable FF on a USB drive?
+Brogress,fm1uto5,t3_fshooy,1585685406.0,Amazing build. Kudos.
+tipofmytongue,flelr3w,t1_flddnkd,1585086813.0,"> Under the Skin
+
+Seen that one a while ago. Not it, unfortunately."
+battlestations,fla5422,t3_fnhw3t,1584976820.0,"Nice, cozy setup. That chair has back problems all over it though. Do yourself a favour and consider investing in something with comfort and support."
+progresspics,fko3yy7,t3_fjmgm6,1584379655.0,"This is what I'm subbed here for.
+
+Fantastic results. Kudos, gorgeous."
+tipofmytongue,fko0xm0,t1_fknztbo,1584377926.0,"Colour.
+
+Not sure of the year, but from what I recall of the quality it's at least a 00's film."
+Piracy,fkniejs,t3_fjjg1d,1584366505.0,"If 1337x is blocked for you.
+
+https://unblockit.red/"
+tipofmytongue,fknfuua,t1_fkned7k,1584364684.0,"> Darkness Falls
+
+Thanks but not the one, unfortunately. As I said, the witch doesn't have a face."
+seduction,fknern6,t3_fjhh45,1584363816.0,Lots of stories about this over at /r/NoFap
+tipofmytongue,fkn6nwi,t3_fjj175,1584355830.0,Thanks in advance.
+Piracy,fkg1du1,t3_fi5g35,1584147552.0,https://piratebay-proxylist.net/
+chrome,fkdycrw,t3_fhs6wn,1584099844.0,"Just an FYI, try uBlock Origin instead of AdBlocker. AdBlock sold out iirc."
+trackers,fk1jh94,t1_fk1iqki,1583780916.0,"Oh jeeze, blonde moment there.
+
+That makes sense. Thank you."
+Piracy,fjcq04j,t3_fcq0v4,1583231631.0,More proxies are always welcome. I've been using this for a while - https://unblockit.red/
+chrome,fj33vtw,t3_fb86ec,1582965943.0,"If you decide to reinstall Chrome, make sure this folder is deleted when you uninstall -
+
+C:\Users\username\AppData\Local\Google"
+Piracy,fimu8oi,t1_fimsztc,1582547128.0,"Alright, thanks."
+pcmods,fhxemdx,t1_fhx6v1g,1581952562.0,"Alright, fair one."
+pcmods,fhwyybi,t3_f52rnu,1581937487.0,Is that a normal CPU temp on a water build?
+seedboxes,fhv72p5,t1_fhv2tmx,1581893992.0,https://i.imgur.com/yx9ckGj.gifv
+Twitch,fhugrlx,t1_fhug88b,1581886228.0,"Cool. That's all.
+
+Thanks for replying."
+Twitch,fhuene3,t1_fhueabv,1581885497.0,"Alright, fair enough.
+
+Does the donation history also show any message they sent at the time?"
+seedboxes,fhto969,t1_fhsb58u,1581876290.0,Try Deluge for uploading/racing.
+seedboxes,fhtnmx7,t1_fhs3pvk,1581876172.0,"Seedhost don't oversell, their entire setup is extremely polished and professional.
+
+Some people have had quarrels about their customer support but they've always been helpful, personally.
+
+I currently have a SH5 plan and use Deluge to upload/race. Saw this earlier - https://i.imgur.com/IN7ocrY.png
+
+Will always stay a loyal customer to Seedhost."
+seedboxes,fhmtm47,t1_fhjscm2,1581717798.0,"Yeah, my bad. Someone posted a helpful comment here but deleted it.
+
+I didn't need to compile the software, after all.
+
+Downloaded it-
+
+wget https://megatools.megous.com/builds/experimental/megatools-1.11.0-git-20191107-linux-x86_64.tar.gz
+
+Extracted it -
+
+tar xvf megatools-1.11.0-git-20191107-linux-x86_64.tar.gz
+
+Used FTP to rename the extracted folder to 'megatools'
+
+So when I log into Putty I simply do - cd megatools
+
+Then ./megatools dl 'http://link.to.download.com'
+
+It will download it to the megatools folder. There are cleaner ways to do this with additional commands but the HDD is so fast at moving files it's easy to sort from there (in FTP.)"
+seedboxes,fhjiw29,t3_f3jou4,1581647316.0,Got it working.
+seedboxes,fhj97yz,t3_f3b8ud,1581640619.0,https://www.seedhost.eu/seedboxes.php
+Piracy,fhdeagh,t1_fhdbttx,1581483783.0,"To be honest, I'm not too savvy with it all, what I explained above came from other posts on reddit. It worked fine, though.
+
+Which seedbox provider are you with, perhaps create a ticket?"
+seedboxes,fhd6whn,t1_fhcqnxr,1581478622.0,"Definitely worth trying.
+
+https://i.imgur.com/uCf8tQa.png"
+seedboxes,fhcnvu6,t1_fhcn15f,1581466954.0,It isn't a theme. I'm using the [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-GB) extension.
+news,fhcnoq4,t1_fhcc32g,1581466829.0,Kind of insane that someone would even consider going back into work after being outed as a pedo.
+Piracy,fhcke5a,t1_fhcj3lv,1581464707.0,"It's a decent general tracker, lots of quality content.
+
+If you're using autodl with Deluge on TL you're probably going to want to know some of this -
+
+&nbsp;
+
+First setup autodl prefs -
+
+https://i.imgur.com/8CndjIl.png
+
+Arguments example: connect 127.0.0.1:20937 ; add -p /home/username/downloads  $(TorrentPathName) ;  quit
+
+Obviously change save directory to your own.
+
+The IP and port should be same as Deluge daemon in Connection Manager.
+
+With trackers such as IPT and FL there's a slight issue with tracker announce which can be resolved using this method -
+
+https://www.seedhost.eu/whmcs/knowledgebase/266/Deluge-update-tracker-script.html
+
+""Now you need to restart your deluge. After a restart please check if the execute plugin is enabled because sometimes it is not enabled after a restart. Just enable it then and it should work now.""
+
+Make sure it's ticked/enabled, it may show two instances, this is fine.
+
+https://i.imgur.com/LIWe0uc.png"
+Piracy,fhcihe6,t1_fhcdb1a,1581463614.0,I've not tried Transmission but I know Deluge is much faster than ruTorrent for racing from what I've experienced. Seems to be more aggressive in connecting with peers and evidently better throughput performance.
+seedboxes,fhcho5q,t1_fhceo3y,1581463196.0,"First setup autodl prefs -
+
+https://i.imgur.com/8CndjIl.png
+
+Arguments example: connect 127.0.0.1:20937 ; add -p /home/username/downloads  $(TorrentPathName) ;  quit
+
+Obviously change save directory to your own.
+
+The IP and port should be same as Deluge daemon in Connection Manager.
+
+With trackers such as IPT and FL there's a slight issue with tracker announce which can be resolved using this method -
+
+https://www.seedhost.eu/whmcs/knowledgebase/266/Deluge-update-tracker-script.html
+
+""Now you need to restart your deluge. After a restart please check if the execute plugin is enabled because sometimes it is not enabled after a restart. Just enable it then and it should work now.""
+
+Make sure it's ticked/enabled, it may show two instances, this is fine.
+
+https://i.imgur.com/LIWe0uc.png"
+seedboxes,fhbwmij,t3_f2b2s0,1581451425.0,"If you're using 5-10TB per month check out   https://www.seedhost.eu/seedboxes.php
+
+SH5 | 3TB HDD | 10Gbps | 15€"
+seedboxes,fh5wrdh,t1_fh5sft5,1581293016.0,"There was some drama a couple year back -
+
+https://www.reddit.com/r/netsec/comments/8t4xrl/filezilla_malware/
+
+https://www.reddit.com/r/webdev/comments/8tcibb/be_careful_if_you_are_using_filezilla_for_your/
+
+It may have been false positives, but I made the switch just to be on the safe side."
+seedboxes,fh5u3pa,t3_f19c7y,1581292297.0,"You'll be hard-pressed finding a seedbox that offers plex streaming for €10. Not sure if [Feral Hosting's Helium](https://www.feralhosting.com/pricing) can plex.
+
+Consider upping the budget a bit and trying [Seedhost SH5](https://www.seedhost.eu/seedboxes.php) €15. Isn't too much per month if you're splitting the cost."
+seedboxes,fh5o5fv,t3_f16md4,1581290806.0,Perhaps try [Seedhost](https://www.seedhost.eu/dedicated-seedboxes.php) if you can live with 100TB bandwidth a month.
+seedboxes,fh5lrri,t3_f1gv0n,1581290189.0,"Personally, I use [WinSCP](https://winscp.net/eng/index.php) and download through SFTP."
+seedboxes,fh1kaj0,t3_f12bgc,1581216908.0,"It used to do this with me also.
+
+Turned out uMatrix was blocking the 'I'm not a robot' captcha."
+seedboxes,fgmk3m5,t1_fglcbqn,1580926185.0,Might be worth just giving all the providers a go and seeing which works best for you. They all offer refund policies anyway.
+seedboxes,fgjdmxy,t1_fgjbpxx,1580841843.0,"Personal use of both and from what I've seen on this sub.
+
+Example - https://www.reddit.com/r/seedboxes/comments/eryfm2/seedhosteu_love_it_end_of_story/
+
+I've tried a lot of seedboxes over the years but always ended up back at SH."
+seedboxes,fgjakzu,t1_fgj41il,1580840217.0,Absolutely.
+seedboxes,fgj1al3,t3_eypfrc,1580835078.0,"https://www.seedhost.eu/seedboxes.php
+
+SH6 or perhaps SH5 stretching the budget a couple of quid."
+trackers,fgh9ibx,t1_fgh6tte,1580779822.0,Never heard of acid-lounge. Did that site disappear around the same time?
+trackers,fgh70h9,t1_fgh5px1,1580778185.0,"2012, that seems about right since I've been on IPT for 8 years.
+
+Can't find any trace of information about the site."
+technology,fgfn2ax,t1_fg9mn1p,1580743034.0,">   magnet:?xt=urn:btih:7qbc2gjk6tl44zsj4qzd6lrdcdjile7u&dn=Flashpoint%207.1%20Ultimate.7z&xl=259184212095&fc=1&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce
+
+That should add some trackers."
+spotify,fg7d4wc,t3_ex0p2a,1580589631.0,What version are you on? Still isn't working here with 1.1.24.91.g4ca6d5eb.
+seedboxes,fg77sdx,t3_ex3kx6,1580585998.0,"Aren't those slots quite expensive for what they offer?
+
+Seedstorm - Storm 1 | 3 TB BW | 500GB HDD |  1Gbps down/300mbps up 
+ | $15.00/€13.50/pm
+
+&nbsp;
+
+Seedhost - SH 8 | 3 TB BW	| 1TB HDD |  10 Gbps |  $6.6/€6/pm
+
+Just sayin."
+MxRMods,fg2w3lx,t1_fg1e4b9,1580458426.0,Thank you.
+MxRMods,ffzj0y8,t3_ew3ld2,1580381588.0,"The face of no regrets.
+
+Thanks!"
+dbz,ffr5ofk,t3_eup6qb,1580151005.0,One of the best I've seen on here. Awesome.
+technology,ffqhq4u,t3_eum7tz,1580134921.0,https://en.wikipedia.org/wiki/PRISM_(surveillance_program)
+seedboxes,ffj6f26,t3_ettl79,1579991568.0,"Seedhost - https://www.seedhost.eu/seedboxes.php
+
+3TB disk space  10Gbps connection  10TB BW  ~$17"
+battlestations,ffi6uds,t3_etnkoe,1579966633.0,"Really impressive. So clean.
+
+The only thing I'd perhaps add is a rug/carpet to go under the chair."
+seedboxes,ffhwn6o,t1_ffhwbm1,1579957207.0,Perhaps a Kimsufi - https://www.kimsufi.com/us/en/servers.xml
+seedboxes,ffhup4j,t3_etputm,1579954774.0,You're not going to find a 1Gbps dedi at that budget. Max 100/100Mbps.
+seedboxes,ffhu1kg,t1_ffhq976,1579953879.0,Did you contact Seedhost about it?
+OnePunchMan,fffz72n,t3_eteo7c,1579895006.0,"Really fast translation, thanks.
+
+Thought we weren't hyperlinking the manga these days?"
+perfectloops,ffbuap4,t3_esquib,1579782984.0,"Reminds me of this -
+
+https://www.youtube.com/watch?v=ussCHoQttyQ"
+seedboxes,ff6rh72,t3_eryfm2,1579633344.0,They're my favourite seedbox provider without a doubt. Always recommend them to anyone that asks about seedboxes.
+nextfuckinglevel,ff5nl9f,t1_ff5044s,1579601925.0,https://metro.co.uk/2019/12/24/police-spend-1500000-electric-cars-slow-catch-criminals-11956349/
+seedboxes,fenepcw,t3_eq2gq3,1579283086.0,Check out https://www.seedhost.eu/seedboxes.php
+seedboxes,fejbwz6,t3_epgsza,1579166268.0,"Wouldn't it be worth paying a mere €6/mo for something like the SH8 from Seedhost? - https://www.seedhost.eu/seedboxes.php
+
+$5/mo for this service - https://www.torrentsafe.com/"
+mildlyinfuriating,feh1w4h,t3_ep11u3,1579107418.0,"Just what in unholy God is this? I thought pineapple pizza was bad enough but this takes it to another level.
+
+Are we doomed as a species?"
+lostarkgame,feh0dzs,t3_ep0qgj,1579106507.0,"Disheartening news.
+
+The only pro to this is that the product should be absolutely complete and bug-free when it finally arrives."
+illuminati,feh008y,t3_eozeat,1579106277.0,"There's the good, the bad and the mixed.
+
+Illuminati stands for 'The Illuminated One's' -- This isn't exclusive to one group of people. Everyone is illuminated on some level.
+
+Being self-aware of your own existence is illuminating, thus you are also Illuminati, in a manner of speaking."
+uBlockOrigin,feduw0q,t1_fedttfj,1579020405.0,"I'm not sure. I reinstalled it and the ads are gone.
+
+Another guy mentioned he had the same ad but the culprit was a completely different extension so I don't know what to think.
+
+All seems ok for now, though."
+uBlockOrigin,feds9ww,t1_fedrqz9,1579018806.0,"I honestly don't know what to think of the situation.
+
+Every time I enabled the extension it was showing a plethora of different ads, then when disabled they weren't there. I reinstalled the extension and now there's no ads at all.
+
+¯\\\_(ツ)_/¯"
+uBlockOrigin,fedr59i,t1_fedqswy,1579018105.0,Found the culprit. It's [Chrome Cleaner](https://chrome.google.com/webstore/detail/chrome-cleaner/cfghobccbjecjknfimipkglihchndkee?hl=en).
+uBlockOrigin,fedqsko,t1_fedjm3h,1579017881.0,Do you have [Chrome Cleaner](https://chrome.google.com/webstore/detail/chrome-cleaner/cfghobccbjecjknfimipkglihchndkee?hl=en) installed?
+uBlockOrigin,fedqrpt,t1_fedorsw,1579017866.0,Found the culprit. It's [Chrome Cleaner](https://chrome.google.com/webstore/detail/chrome-cleaner/cfghobccbjecjknfimipkglihchndkee?hl=en).
+uBlockOrigin,fedqb0n,t1_fedorsw,1579017576.0,"Looks like it could be an extension. Disabled all except uBO -
+
+https://i.imgur.com/2PkAdXO.png"
+uBlockOrigin,fedgjgj,t1_fedfw35,1579010927.0,uBlock Origin Extra and uMatrix. Dark Reader manages the dark theme. A number of other extentions. It's never been a problem until today.
+seedboxes,fea46bw,t1_fe9z6yh,1578944175.0,"> Seedhost SH5 plan
+
+Good shout. Probably worth paying an extra $2+ for SH4 (going off $20 budget)
+
+4TB disk | 15TB traffic/mo | ~$22.50/mo"
+pcmods,fe9dns5,t3_eo65vn,1578936643.0,Clean af. Kudos.
+progresspics,fe8jrgm,t3_env0ek,1578926916.0,"Insane. That is one hot bod, congrats!"
+seedboxes,fdz6zba,t1_fdz4fh8,1578787274.0,"The peering should be fine.
+
+You could always consider https://xirvik.com/seedboxes/plan/29-shared-servers
+
+They have US-based servers."
+seedboxes,fdz30t5,t3_enezte,1578786163.0,Check out https://www.seedhost.eu/seedboxes.php
+seedboxes,fdw312t,t3_emv37d,1578754552.0,Check out SH5 plan - https://www.seedhost.eu/seedboxes.php
+seedboxes,fdqxp6d,t3_emtw11,1578676302.0,I think that's what the 'Recommendation Form' is intended for.
+terencemckenna,fdqtqm8,t3_emk27u,1578674686.0,"""Temple of Light"""
+seedboxes,fdqpx3y,t1_fdqpo8o,1578672343.0,"Fair enough.
+
+Still, something to consider once the year is up."
+seedboxes,fdql7is,t1_fdqf8ov,1578669338.0,"> rapidseedbox
+
+Seem a bit pricey vs. Seedhost if you haven't noticed.
+
+Just to compare -
+
+&nbsp;
+
+Rapids ""Fast"" plan $18/€16 - 1TB storage 5TB traffic 1Gbps.
+
+Seedhost ""SH 5"" plan ~$17/€15 - 3TB storage 10TB traffic 10Gbps.
+
+&nbsp;
+
+Something to consider."
+seedboxes,fdp6hif,t1_fdn9cg1,1578621131.0,Try contact either /u/SeedHost_eu or if need be /u/Andy10gbit - Andy is an independent seller but is well known and trustworthy.
+seedboxes,fdmazpq,t3_elvvzm,1578544317.0,Could get a nice dedi for that budget. Check out https://www.seedhost.eu/dedicated-seedboxes.php
+seedboxes,fdmaq69,t3_elxjui,1578544109.0,Check out https://www.seedhost.eu/seedboxes.php
+seedboxes,fdglnc6,t3_el80og,1578401482.0,"Would be better if you completed the recommendation form and posted -
+
+https://www.reddit.com/r/seedboxes/wiki/recommendation"
+Chakras,fdc2ku4,t3_ekfmpy,1578265852.0,Serious question; are you fapping (to porn) on the regular? It can induce fatigue and depression.
+Psychonaut,fdbvdoz,t1_fdbu62l,1578262565.0,"So that makes God inherently evil, right? Unless Hell is more complicated than plain evil."
+Chakras,fdawwga,t1_fd4bt3c,1578251332.0,"I'll have you know on one occasion my heart chakra spun at a very fast pace. It was the one and only time it did that.
+
+I honestly have no idea what chakras really are or how one goes about 'activating' them. I think most of it is beyond our comprehension as a species, for the time being."
+seedboxes,fda91qv,t1_fd9dbj1,1578243211.0,"That's quite a bit to be paying out for so little usage imo, thanks for sharing though."
+seedboxes,fd9dmav,t3_ek9w4l,1578231968.0,+1 Seedhost. Great speeds and customer service.
+seedboxes,fd99fuv,t1_fd8sfb8,1578230257.0,"Which plan are you on and how much do you upload per month, if you don't mind me asking."
+battlestations,fd4wqoq,t3_ejxgup,1578171784.0,"Very clean, very nice!"
+rickandmorty,fcx6cox,t3_ej83d5,1578053069.0,http://i.imgur.com/lA9kn2p.gifv
+ThingsCutInHalfPorn,fcksole,t3_ehj070,1577732344.0,We need a new Twisted Metal.
+uBlockOrigin,fcarsw7,t1_fcargfu,1577575364.0,"Such as? Never had a problem.
+
+I also run [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en-GB) and [uMatrix](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?hl=en)."
+uBlockOrigin,fcag7mf,t3_eguuua,1577568680.0,Do you have [all filters](https://i.imgur.com/wKa5aqd.png) enabled?
+AskMen,fc70unm,t3_eggyxe,1577494534.0,Reminds me of this - https://www.youtube.com/watch?v=YDk9P4OG_gQ

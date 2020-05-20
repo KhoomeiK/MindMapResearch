@@ -1,0 +1,75 @@
+techquestions,fg1l6nx,t1_fenyn4f,1580429085.0,"Not true, the iphone 6s rocks the latest ios 13 updates and we’ll see if goes for ios 14, probably not but ios 13 runs perfect on it."
+Twitch,ffvexlm,t3_etroda,1580262526.0,"Didn’t know about that, are you refering about the website? Which browser are you using?
+
+Twitch app deserves to be fixed, is the most active live streaming platform and needs to be 100% live... Still don’t understand how devs look away to something that everyone is begging everyday..."
+Twitch,ffv9jvn,t3_etroda,1580258906.0,"I don’t know about desktop mode, but the ios app is horrible, it delays the video about 10 seconds, so you see the chat react to something that happens later. This doesn’t happen in android, I don’t understand why devs can solve this after thousands of posts in the internet complaining during years..."
+xqcow,fbtt8f5,t3_ee4hco,1577094599.0,Zero Sugars Kapp
+RASPBERRY_PI_PROJECTS,fa163wl,t1_f9zh6by,1575765125.0,"Pretty much this. Works out of the box on raspbian, has very clear examples and it’s easy to get started with."
+xqcow,f8s1hcn,t3_e1okmn,1574764362.0,Nice diapers LULW
+xqcow,f81aczv,t3_dy96he,1574158471.0,Wtf monkaW
+xqcow,f81aaio,t1_f7zsn7e,1574158363.0,What’s wrong? KkonaW
+xqcow,f7ngn3d,t3_dx2dyg,1573902436.0,IRL STREAMS PogU
+xqcow,f7gytuh,t3_dvvwvz,1573724959.0,xqcPains
+xqcow,f6yudt3,t3_dtrwgv,1573298064.0,!boost Pepega
+Greekgodx,f5w4s3c,t3_dphq7j,1572514060.0,WTF PepeHands
+xqcow,f5sfepv,t3_dp2r6z,1572427465.0,Oh no the top of his... PepeLaugh
+typewriters,f5kkk0b,t1_f34z7at,1572265349.0,"The olivetti valentine is an amazing piece of art. I have a lettera 22 and a 32, and also have really modern and cool designs, they marked a before and after in industrial design for sure."
+typewriters,f5khyua,t1_f5khfpv,1572263761.0,"I’m looking for a royal apollo 10 and it’s impossible to find one here in europe, I think because they were an american company back then, contrary for example to Olivetti, which we have all of them here, even the rarest models, my parents lived close to one of the factories back when they started the lettera 32 production, and they have a lot of them."
+typewriters,f5kh9cy,t3_dka17l,1572263312.0,"I love it, difficult to find those in europe."
+xqcow,f59b6wx,t3_dn9c8y,1572080745.0,Burn it WutFaceW
+xqcow,f4kd27g,t3_dkn2vo,1571646579.0,Wtf WutFaceW
+xqcow,f29eouv,t3_dcadm3,1570094582.0,WutFaceW
+Greekgodx,f1z7yzk,t3_d8c2ii,1569837749.0,I LOST gachiHYPER
+xqcow,f0cipwg,t3_d42kwj,1568540947.0,WutFaceW
+xqcow,eysvm6q,t3_cylm47,1567413195.0,Oh no no PepeLaugh
+xqcow,ey8r5eu,t1_ey6m5du,1566926450.0,OHead? WutFaceW
+xqcow,ey8p85w,t1_ey88lwd,1566925192.0,TRUE LULW
+xqcow,ey7radg,t1_ey7lqq6,1566896694.0,When you can hear comments
+RASPBERRY_PI_PROJECTS,ey6ohp9,t1_ey6nndd,1566860331.0,"This looks like a good idea, I'm going to try it tomorrow. Thank you guys"
+RASPBERRY_PI_PROJECTS,ey6irhe,t1_ey6gkub,1566856559.0,"Everything is hidden, except when I'm already in the loaded desktop, then the scripts start opening apps, but I don't want the users to see all the apps opening one after another, I want only to see the final GUI app which is the front end that user will interact with. For that purpose, I'm trying to elongate the time the splash screen is showing, to cover all the back end apps till the final GUI app showS on the top."
+RASPBERRY_PI_PROJECTS,ey684hq,t1_ey65agq,1566849570.0,"Yes, for example, imagine that I want to open a website in chromium full screen as the GUI but before it shows, opens some other programs as back end, I don’t want the user to see all the backend consoles, python consoles opening etc... 
+I’m sorry if I didn’t explain myself well, english is not my native language."
+xqcow,exxm7gl,t3_cunttd,1566638555.0,"Congratulations, it is really well made but I prefer more scuffed shit for xqc, this feels like the rajj outro."
+MaxMSP,exql1t7,t3_cu1c7y,1566503734.0,"Happens to me everytime I open the old patches folder, like it was written by another person..."
+xqcow,exk7vev,t3_ct6jzz,1566377633.0,FeelsStrongMan
+gaming,exifc0v,t1_exhrwh9,1566327157.0,"I really dig the ａｅｓｔｈｅｔｉｃ, any info on the plant on the left? I love that kind of little palmtress"
+ios,exi6v3m,t3_csy8xm,1566322251.0,"Same here, lifelong android user and last android phone a pixel. After having android since version 1.6 iOS felt like home, the learning curve was almost inexistant. Everything is simple, clear and easy, no workarounds, only straight foward actions and now more than ever with the gestures. 
+
+I think the only thing that you will have to adapt is with the file management. You will need itunes to transfer files and you don't have a generic full file explorer like android phones do so everything looks cleaner and safer but at the same time more restricted."
+MaxMSP,ex3mvp0,t1_ex2pmk9,1565988089.0,"The javascript object that I made is the following:
+
+&#x200B;
+
+`var sampler = new Buffer(""track"");`  
+`var sample_array = new Array();`  
+`function arraybuffer() {`  
+ `var framecount = sampler.framecount()`  
+ `var source = sampler.peek(1, 0, framecount);`  
+   
+ `for (var i=0; i< framecount; ++i) {`  
+   
+ `var sample_array = source[i];`  
+`}`  
+ `outlet(0,sample_array);`  
+`}`  
+
+
+The object gives me an array variable filled with all the samples of the selected buffer and return it to max, so now I have a buffer to array function in Max.  Now I have no clue on how to send it over a socket because the array is gigantic, so I don't know if there is enough bandwitdh for serial communication. I've send little packets of data over serial, osc, to arduinos, raspberry pi, but this case seems more complex."
+depression,ex33ld8,t3_cqqe91,1565979625.0,"That's a big step, keep it up, you chose to take an step foward, so keep the momentum and fuck depression (but we aware that it can hit you back in every moment). You are really lucky of having another person that understands your situation and supports you, sometimes even the closest people can't understand why you are how you are and that's really frustrating."
+MaxMSP,ex2fqur,t1_ex0wfz4,1565968636.0,"For the moment I've made a javascript object that just copies the buffer into an array of values with the peek function, so it worked just as you said. Now I'm wondering how to send this array made in the js object inside max, I will try to send the array via udp and then catching it with a python script. Any ideas?
+
+Thanks for your advice"
+xqcow,ewubbvn,t3_cq02nt,1565773327.0,FeelsStrongMan
+xqcow,ew3ivv3,t3_cmgn6n,1565081166.0,Invoking EL GOBLINO monkaW
+xqcow,ew3iucl,t3_cmnh44,1565081103.0,Watching without chat DansGame
+xqcow,ew1uwfb,t3_cmbp8d,1565031995.0,RIP monkaW
+xqcow,evyqch7,t3_clu2fi,1564938793.0,EL DOGGINO monkaW
+jailbreak,evn0ymj,t1_evatfmp,1564616821.0,"Thinking about it, the delay bothers me more than the emotes by far, it totally ruins the liveness of the stream for me. Let’s hope someone takes action about this, but I don’t have any hope to be honest..."
+jailbreak,eu7pw6t,t1_eu7pkmw,1563539702.0,You have to hold it until you see the phone booting up.
+jailbreak,eu7ozq9,t1_eu7oijr,1563538957.0,"Did you try a hard reset? It's done by pressing the power button and home button until the phone resets. In case you don't have home button, you have to make a combination with the volume buttons and power button. Another option is to try to enter in safe mode, this is done by turning on the phone and keep pressed the volume down button until it enters to the lockscreen."
+jailbreak,eu7o0kr,t1_eu7njpb,1563538118.0,But was it locked while it was jailbreaking?
+jailbreak,eu7nfng,t1_eu7mp46,1563537597.0,"Maybe the phone locked itself when you put it in your pocket and that may caused the bootloop. Following my readings,  the iphone has to be in airplane mode and unlocked during the process."
+Xiaomi,ervp3jt,t1_eru4muf,1561321515.0,"That's what I was thinking, because for me the first fan stage speed is not that bad, and actually makes the laptop 10 degrees cooler more or less. I wish I could control manually the fan speeds, just like I controlled my desktop pc fans when I needed.
+
+If I update to the 906 is it possible to return to older versions?"
+Twitch,er52wsq,t1_er3uua7,1560516685.0,"I used tChat when I had android and was pretty good, not as smooth as the original app but nice. Now I’m on ios and I haven’t found nothing. I saw a project called pogchat but it looks dead."

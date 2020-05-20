@@ -1,0 +1,208 @@
+PostgreSQL,fr0v0bd,t3_glz3ik,1589807388.0,"Are you only concerned with Canada/US or do you need to support worldwide addresses.
+
+I have used postgis address standardizer (https://postgis.net/docs/Address_Standardizer.html) successfully for North American addresses. If you want an worldwide address it is a lot harder and I usually just make it unstructured text for most of the address."
+PoliticalHumor,fr0ub2o,t1_fqz3wg7,1589806911.0,"I assumed you forgot the /s ... then I looked at your post history.
+
+I can't imagine the mental gymnastics required to believe the stuff that you do.
+
+I bet you can't name a single actual negative thing that Obama did that Trump actually reversed and made positive in any way except virtue signalling to his base."
+PostgreSQL,fqw4wrb,t3_gl9650,1589692947.0,"Hard to know with what you gave.
+
+If I had to guess though something is happening to formatting for either the email or the password_hash.
+
+Try 
+
+    WHERE password_hash=$1 and lower(email)=lower($2)
+if that doesn't work try
+
+    WHERE lower(email)=lower($2)
+In this case obviously the password is not being checked. If it is returning with just the email then the problem has to do with the formatting of the hash."
+PostgreSQL,fqqfkrd,t3_gk9y59,1589564663.0,"32GB / 100 ~= 320MB per instance. Postgres should (tm) run with that small a memory footprint, it just won't run well. Because disk access is double buffered (postgres uses the OS to cache disk access) I would recommend maybe 256Meg per instance, leaving the rest for the OS. Start with that and see how well it works.
+
+Also, perhaps set the max number of connections to something small, like 20. This will help give reasonable sized work memory.
+
+Play with the following to see what recommended memory configurations are per instance https://pgtune.leopard.in.ua/#/  (note it wont work for less than 512MB)
+
+Honestly, I would really prefer to have at least 512MB per instance. Otherwise you are going to have problems."
+atheism,fqpydby,t1_fqp6d6p,1589556217.0,I think the Koran qualifies as what comes next... And it is as batshit as the rest of them. This is partly because Mohammed clearly only had a fuzzy understanding of Christianity and Judaism on which he preached. So much so that it was incompatible enough that it started a new religion.
+TooHotToHandle,fqhtiaz,t3_gfpfw5,1589384288.0,">You can make a netflix show in a day as long as you massively lower your standards.
+
+Pretty much summed it up!"
+PostgreSQL,fqf0a3b,t3_gij8f0,1589316561.0,"using psql you can use gexec like so:
+
+    \gexec  select 'select ''' || column_name || ''' , 100.0 * (count(*) - count(' || column_name || ')) / count(*) as percent_null_values from ' || table_schema || '.' || table_name || ';' from information_schema.columns where table_name = '<insert table name>' and schema_name = '<insert schema name>';"
+PostgreSQL,fqbkxuz,t1_fqbaoeb,1589238921.0,"There is also pgadmin and I like the posgresql extension for Visual Studio Code.
+
+Having said that, I recommend just using psql if you can."
+netflix,fqb9exv,t1_fpsyysp,1589232892.0,"With the cosmonauts they were I think implying it had something to do with the atmosphere. That is why being in a bomb shelter was not enought, it had to be very deep. The space station would  not have enough air for the magic ionizing effect. The whole science aspect of the show was all BS so why not.
+
+Ironically it would not have been hard to come up with a possible scenario involving a gama-ray burst or something. That would have been much cooler IMHO."
+netflix,fqb956y,t1_fpje1do,1589232756.0,"Depends on the time of year. If with was near march 21st, sept 21st then same hours of sunlight everywhere. If it was near dec 21st then heading to the far north would save them. Near June21st then it would be antarctica or bust, and they would never get there in that plane."
+netflix,fqb8b7q,t1_fpg3q8t,1589232340.0,"Also, the geography was all wrong.. Somehow Scotland was west of Iceland, and they manage to fly over all of Canada then either cross the arctic and/or Russia with only 1 stop."
+netflix,fqb7j46,t1_fpc2li0,1589231947.0,I thought this too.. I loved how everyone seemed to hate at least a few other nationalities. Make me wonder how the EU manages to keep everyone together when nationalities have so little respect for each other. (of course with brexit I guess not)
+SQLServer,fqb49x8,t3_ghvcio,1589230324.0,"Also, check with you dba to see if there is some sort of history table. Many databases have triggers on tables to store old values into a history table that can be used to fix."
+SQLServer,fqasx0w,t1_fq7on7u,1589224722.0,"While I agree that is the reason why people pay.. it is all BS. For example
+
+1. Support: I have worked for a company with a massive Oracle deployment I know it was over 10 million per year, probably closer to 100 million. Sure they would respond and help, but our DBAs were better and usually we came up with solutions ourselves.
+
+2. Robustness: Again I have seen Oracle completely destroy itself. Same goes for SQL Server.
+
+3. Up Time: Not really any better than Postgres/mysql
+
+4. Popularity: This is a big deal, but becoming less important as other options grow.
+
+5. Licensing: The only thing that makes licensing work is that for big companies they offer huge discounts. Install hundreds of Oracle servers, pay less per server. Of course Oracle is the worst for licensing costs. Standard server isn't cheap, but each ad-on is huge $$$."
+apple,fq9sxso,t1_fq8k9i8,1589206396.0,"The curve was a bit of a budget phone. Most of them lacked GPS/Wifi (3 versions one with neither, one with wifi, and one wth gps). The premium blackberry phone at the time was the 8800 and if you compare it to the iPhone, it was quite ridiculous. No camera (MikeL did not think phones would sell with cameras), no wifi, a 320x240 non touch screen. It really was an embarrassment compared to what apple delivered. It did of course have a fantastic qwerty keyboard and great battery life, and it sipped bandwidth so it was a technological marvel in many ways, just not the ones that consumers wanted."
+PoliticalHumor,fq6ko2y,t1_fq5wsey,1589133365.0,To be fair they gave it a shot. The problem was that every party had their own principled changes that just happened to benefit themselves so it would have turned into a total shit-show. Better to just leave things along than creating the precedent of altering the election to benefit the party in power.
+chess,fq4qlp7,t1_fq3n4ru,1589081882.0,"I did't say team USA, I said team America! Unfortunately our southern neighbors have taken the name of two continents for themselves."
+chess,fq3cd59,t1_fq390b6,1589065053.0,Norway is not part of the EU. That would be like a Canadian refusing to play on team America.
+IBO,fpy33av,t3_gg3z7f,1588994948.0,"Back when I wrote HL Physics, I did a different topic (Astronomy) then the one that was taught (relativity). Of course in my final year of HS I also did a university course in astronomy and was an avid amateur so I was well versed in the topic."
+ProgrammerHumor,fpxq557,t1_fptrrgn,1588987323.0,Or just be a SQL guy like me... every five years or so there is a minor addition.
+politics,fpxd4cz,t1_fpx6lta,1588980324.0,Yeah so terrible because obama had a huuuge deficit. It was just totally unsustainable and something had to be done.  Fortunately the Republicans won and eventually the presidency   I haven't checked yet but trump promised to eliminate the debt and I am sure he succeeded!!!  /s
+pics,fpx3asy,t1_fpw7wjq,1588974860.0,"> The site is now a parking garage
+
+So sad that back then they just destroyed fantastic buildings. I get that heritage societies can be a PIA but come on, architecture is part of our history."
+SQL,fpw5ee1,t3_gfw66r,1588957555.0,"It should work... do you perhaps have extra characters in the invoice number... try
+    TRIM(CAST(nom.ref AS varchar(150))) AS Ref
+
+also, assuming you are using postgresql, cast as text not varchar should be easier."
+politics,fpvrknl,t1_fpvpabl,1588950541.0,"Of course ironically, compared to the bulk of human history, very few people have had it as good now as the typical North American. I remember watching the recent reboot of Rosanne (before she was booted) and she claimed that she supported Trump because 'How could it be even worse!'. My god woman, you know all those people you hate who are trying to get into your country to live without all the govt benefits that you recieve, they are coming from places that are worse. Things can get very much worse than they are now (even in today's crisis)."
+politics,fpvnil6,t1_fpvkjlg,1588948285.0,"> shit is bad
+
+But the solution that keeps on being proposed by the right is to double down on the shit being bad. Wages are low... get rid of minimum wage. Healthcare is unavailable, de-regulate. It is as though there is a huge percentage of the US population who have been convinced the only solution is to hurt the people they feel are below them."
+politics,fpvn9x5,t1_fpvgtel,1588948153.0,But who is going to tell them it is rigged. Fox News and OANN is going to tell all the right wing nuts that it was rigged in favour of the democrats. Everyone else will say the opposite.
+ProgrammerHumor,fpvk8j8,t3_gfqv8f,1588946467.0,"Ironically, my coworkers, who are mostly linux users using terminal for all of their node.js programming, can't get their head around why I use psql (terminal) instead of pgadmin (gui)."
+AskReddit,fpsoa0v,t3_gf22se,1588876829.0,Reading through all of this makes me so glad my country (Canada) did not break up in 1995. It came so very close.
+worldnews,fprtac4,t1_fpq2o32,1588861616.0,There was of course a bunch of nutcase Sikhs in Vancouver who blew up an airliner. So like all religions it has it's problems.
+Pete_Buttigieg,fpnxspl,t3_ge7t5d,1588774712.0,"Canada had an inquiry into this. The inquiry was a bit of a political mess but the final conclusions were pretty damning. Basically it concluded that a slow motion attempt at genocide against indigenous women has been happening for hundreds of years and continues today. Hard word but considering the evidence, it is the correct one. I imagine the situation in the US is pretty similar."
+Database,fpl30vu,t3_ge3oj6,1588705475.0,If in doubt ... use PostgreSQL. It is 'free' and does most things good.
+pics,fpgo6pz,t1_fpge7u3,1588606465.0,I have some news for you...
+politics,fpfw0so,t1_fpdg33v,1588585637.0,"Thing about Trump is not just the laughing, it is how (mostly dictatorships) have figured out how to butter him up. Saudi Arabia spent like $100 million on his visit. China closed Tienanmen Square for his visit. He thinks he is getting respect but really he is just seen as a mark."
+politics,fpfvx6q,t1_fpe6zc8,1588585526.0,Can you image how different the US would be if every day the opposing party in congress got 45 minutes to grill the president and cabinet?
+politics,fpfvhi7,t1_fpdunw7,1588585048.0,Also he had to repair a collapsed economy. That he still got Obamacare done in those first 2 years was a miracle.
+canada,fp9dazw,t3_gbqnma,1588422981.0,"I allied for EI, and got the CERB benefit automatically. I thought they were exclusive. I honestly have no idea what is going on."
+PostgreSQL,fp8eqy0,t3_gbujsr,1588390455.0,"The more I get used to psql, the less I find I need DataGrip or other tools."
+SQL,fp65ugv,t3_gbjhdm,1588346622.0,Create indexes on the xpath functions for each tag you are looking for. This should make things faster.
+worldnews,fp4c93o,t1_fp2wkuu,1588295987.0,"That is basically counter to the mandate of the WHO. The UN could try but of course China would veto.
+
+The issue is that international bodies like the WHO have very little actual power by design."
+SQL,fp46koh,t3_gb5z48,1588292702.0,"NoSQL
+
+Easy to understand for front-end developers
+Fetch records very quick
+Search records sometimes very quick
+Insert records very quick
+
+Basically it is very good if you know how you want to use the data and data is usually inserted
+
+SQL
+
+Can join data very quick (surprise relational!!)
+Updates are very quick (because of normalization)
+Very mature atomic transactions
+
+Generallyuse for data that does not have very clearly understood access patterns and/or if there are more updates then inserts."
+WTF,fp3wcf7,t1_fp3mvjr,1588287025.0,"Actually the stress vs. strain of concrete is very interesting. As stress increases the concrete starts to fail, but becomes plastic. So strain rapidly increases, but so does the stress, until catastrophic failure."
+politics,fp2qayk,t3_gazkpa,1588266098.0,"So far this April, 1.1 Trillion Dollars! That is an insane amount of money for a single month.
+
+Next time an R complains about Democratic spending remind them of this!
+
+The number for the whole year (January 1st to now is 1.6 Trillion, which by itself is a record)."
+AskReddit,fp2713m,t1_fp1delr,1588256424.0,Get yourself a smoker and learn how to make it yourself... heaven!
+AskReddit,fp26w7h,t1_fp16xsg,1588256347.0,"I am a Canadian, so let me tell you about Maple Syrup, and don't trust those supposed experts from Vermont!"
+AskReddit,fp23731,t1_fp22flq,1588254209.0,That is why I love sousvide for steaks. It is actually the safest way of cooking steaks rare to medium rare and it is super easy to boot. Sousvide also you to cook other meats at lower temperatures than you would ever dare (chicken at 140'f for example).
+AskReddit,fp22kiq,t1_fp0kror,1588253831.0,"Canadian here... actually there are several trees that make good syrup, it is just the Sugar Maples are the easiest. Birch trees make a really interesting syrup that is better than Maple IMHO."
+AskReddit,fozmr2u,t1_foyyfb6,1588193257.0,"I hate the movie my daughter made me watch it 100000000 times. And go to the sing-along at disney world ... and learn every word...
+
+Fortunately she, and all of her friends now hate it."
+AskReddit,fozmles,t1_foz1e43,1588193181.0,Toy Story 4 made me cry ... Once you have kids and they grow up you might get it.
+AskReddit,fozm9wy,t1_foyjhjf,1588193031.0,Dunkirk ONLY works in IMAX 70mm. In such a theater it is brilliant. In a regular theater or smaller it just doesn't work.
+AskReddit,fozlzim,t1_foyoyiz,1588192893.0,Just go watch Apocalypse now (movie critics hated but now love) and all will be restored. Especially if you can see the new print in IMAX... so fucking good!
+politics,fozl0o6,t3_gaeax6,1588192428.0,How do you intend to prevent a repeat of 2000 (Where Nader weakened Gore resulting in Bush) and 2016 (Where Stein weakened Hillary resulting in Trump). Both results were devastating for everything that you believe in.
+canada,foy9iyn,t3_ga14b3,1588168299.0,This is a huge relief for me. I felt so strongly I called my local Liberal MP and complained. I think the combination of a minority govt and hearing from Canadians can make a difference.
+politics,fowwkdy,t3_g9trvx,1588128698.0,"I used to work for a small software company that made software for Toyota factories. Toyota factories are super clean but they take PPE very seriously. Both to protect workers and to protect vehicles. They also take management setting a good example even more seriously. For some reason I could never get through to the president of my company that he NEEDED to wear protective footwear when he visited the factory floor. He would wear a full suit and tie and dress shoes that of course everyone would just assume were safety shoes, until someone asked him. They basically threw him out when they found out that he lied and they were not safety (he says he was confused), we almost lost the contract that day as well.
+
+Never understand why suits think that they are too important too important to wear protective clothing."
+uwaterloo,fou97od,t3_g9gxyw,1588079309.0,"I don't know if it is still true, but back in the 90s Geological Engineering had the lowest entrance averages, and the highest graduating salaries."
+politics,fongyhm,t3_g8cvp9,1587919291.0,"Conservatives and Republicans hate FEMA with a passion. It is literally the definition of having a common good. I can totally see this administration doing everything they can to make FEMA seem as incompetent as possible, just like the George Bush administration did."
+canada,foe52mq,t1_foe1gwz,1587696185.0,"100 of us could comment on Reddit... have no effect. But if MPs hear about all of this from their constituents, then they will respond."
+interstellar,fodavrp,t1_foczej0,1587682386.0,"Pretty much, everything else on the list could be defended, but Passengers was pretty lame. Not a bad movie, but nowhere near the top of the list."
+atheism,fod9xa1,t1_fob6rkx,1587682070.0,"Not just Christians, pretty much all of the Abrahamic religions are super hypocritical. Oh and Hinduism too, oh and the Buddhists in Burma don't seem very ethical either so that is probably out too.
+
+Worshippers of Zeus, now they are not causing much atheism anymore"
+canada,fod5ic3,t3_g6t49l,1587680220.0,"Just left a message on my liberal MPs office (who I voted for and even have a lawn sign for) saying that if this does not get reversed, I ain't going to vote for him again."
+politics,focevme,t1_focctap,1587670510.0,"Yeah, we got Nelson, but not the Nelson who lived in poverty so understood what it is like to get no presents for xmass so knew what it was like to not get what he wanted, instead we got  the Nelson who was actually the son of Burns and assumed that because Santa gave him more presents than anyone else, he was the best!"
+politics,focecbs,t1_foc82u7,1587670327.0,"And then when it does actually get worse, they blame those who tried to make it better. As in if only we had paid less taxes and less public services, then the hospitals would have to be better.. right?"
+SQL,fob0t20,t1_fo1odka,1587654823.0,"I had to check the user name to make sure that this was not my post.
+
+I feel you man... Our barely used website is struggling with 5, 8 vCPU application servers while our small RDS server (went with the medium 2 vCPU) is sitting at 2-5% CPU. Yet I am always being told to move stuff out of SQL to the node.js application layer."
+ProgrammerHumor,fo9gr4b,t3_g60vuo,1587619075.0,Reminds me of the old 'naked news' show.
+AskReddit,fo700v1,t1_fo6iop1,1587569842.0,Try dipping the q-tip in rubbing alcohol.. so nice.
+Astronomy,fo3en2h,t3_g5beru,1587485601.0,Very tempted to post this /r/flatearth/ and see what they think...
+ProductManagement,fo19m8u,t1_fo190gd,1587428581.0,I usually try to ignore the exchange rate because otherwise the oil price and other factors end up dominating the chart. Mid 2000s (when 1$ CAD = 1.10USD) then Toronto would be considered on the high end.
+ProductManagement,fo17zad,t1_fo0i2l3,1587427608.0,"Toronto/Waterloo are competitive with midwestern states. Really, if you exclude SF/NY/Seattle then compensation is roughly comparable.
+
+it is just that SF/NY are super expensive."
+StarTrekDiscovery,fo17di0,t1_fnxs021,1587427253.0,"The WWII aircraft carrier Enterprise was not the original Enterprise (eight ships US/Colonial ships have carried the name), but it did play an enourmous role in WWII and was the most decorated US Ship of WWII earning 20 battlestars."
+IBO,fo13kwn,t3_g4vk96,1587425051.0,"This did peak my interest... I was part of a student peace thing in 1992 to Moscow. One activity we did was eat at the Pizza Hut in Moscow that I believe was the first one. I remember that you could buy slices of pizza for rubbles out the window to take home. But if you wanted to eat in, you had to pay in hard currency (basically US dollars)."
+SQLServer,fnzb7p4,t3_g4su0w,1587390497.0,"When you ran your query, it gave a list of 432k records. Choose one of those IDs and then run..
+
+SELECT *
+FROM dbo.SFDC_Accounts
+WHERE ID = <put the one of the IDs in here>
+
+Do you see multiple records? If so, (which I suspect there is) you do have a lot of duplicates."
+flying,fnyfkkk,t3_g4n462,1587361609.0,"My heart breaks for what happened in Nova Scotia. The area around fundy is as beautiful as it is sparsely populated with close knit communities. I can't imagine the pain they are suffering, especially with the current virus situation compounding the tragedy."
+worldnews,fnvv744,t1_fnvp25g,1587305539.0,"Not really criticising her, or you. just saying that offshore winds can be very deadly. Standing on shore the water looks calm and the wind very light. The ball however would be moving deceptively fast away from the shore. It looks easy. jump in a boat and get it. As you have the wind behind you and calm water, it is easy to quickly go out further and further. Then suddenly you emerge from wind shadow that is cast by the land and you are now being blown out to see. At the same time the calm water suddenly becomes very rough. Trying to turn a canoe into the wind becomes very difficult, and making any progress back to shore nearly impossible.Nobody on shore can even hear your screams because of the wind."
+worldnews,fnvo611,t1_fnvmtur,1587300097.0,People unfamiliar with the ocean do not respect the potential hidden danger of a offshore wind.
+SousVideBBQ,fnuqvhp,t3_fkux3l,1587268750.0,An amazin smoker tube is both super inexpensive and super good way of getting into smoking.
+SandersForPresident,fnudj8d,t3_g3uz3q,1587259706.0,"I can tell you, sometimes it seems that Bernie is the only one who sees what is really going on."
+sousvide,fnsknss,t3_g3fab0,1587223586.0,"I make this at least once a month... Personally I cannot stand it, but my friends and family seem to love it."
+formula1,fnsk7qr,t1_fnrulur,1587223327.0,The tallest and steepest mountain in the world is not Everest .... it is the first bunny hill you stand on the top of wearing a pair of skis.
+canada,fnoq57p,t1_fnnckcy,1587131331.0,Bieber is okay.. he is chillin here in K-W chatting up girls on instagram.
+Database,fnmm8ts,t1_fnmksyv,1587073983.0,Premature optimization is the root of all evil!
+funny,fnmf48t,t1_fnls6tt,1587070295.0,Sounds more like the result of an underfunded public defenders office combined with overzealous prosecution and 'tough on crime' judges and minimum sentences.
+Database,fnlwec5,t3_g2jwhn,1587060901.0,As long as you KNOW FOR SURE that there will only ever be two languages then you should be fine.
+politics,fnlt7g2,t1_fnlmb4k,1587059310.0,"> It took the case and decided it at a time when it was still a big election issue, ... Maybe the court should have said, '**We're not going to take it, goodbye**"".. Obviously the court did reach a decision and thought it had to reach a decision, ... It turned out the election authorities in Florida hadn't done a real good job there and kind of messed it up. And probably the **Supreme Court added to the problem at the end of the day**.
+- Sandra Day O'Connor
+
+This is from one of the justices on the majority."
+politics,fnl3p55,t1_fnkpj8x,1587046357.0,And up $600 billion in last two weeks. Just crazy.
+bernie,fnkzp1a,t1_fnkgwps,1587043920.0,"> Let’s just hope for the sake of the world that he wins.
+
+O dear god yes. The alternative is just unthinkable."
+politics,fnjr2x2,t1_fnjqqzk,1587005031.0,"I think we are all confused about what we are arguing about here... lol .. typical reddit!
+
+As for arguments about throwing an election.. we all remember this: https://en.wikipedia.org/wiki/Bush_v._Gore"
+politics,fnjmllg,t1_fnjloe9,1587002161.0,"You are dreaming to think that they are not doing everything they can. If RBG or another dem appointee goes, they will try and get something in front of the court that will wipe out all gun control. Mark my words."
+politics,fnjls4t,t1_fnjaflc,1587001659.0,Think Ted Nugent...
+Coronavirus,fnjkts7,t1_fnj7n63,1587001075.0,And there are several studies looking into it. Unfortunately somehow this has turned political which means the data is likely to be corrupted.
+politics,fnjjtmo,t1_fnjcc03,1587000466.0,So is the 2nd amendment but 5/9 justices are against gun control on constitutional grounds.
+bernie,fnjgjg0,t1_fnj165t,1586998519.0,"Typical internet.. we probably agree 99% but have to get the last word in...
+
+I think medicare4all is about to become way more popular this year in the US. By this summer a lot of the private healthcare industry in the US will be collapsing. I am talking about insurance companies (Huge revenue loss combined with huge spike in costs and investment losses) and private hospitals (costs treating uninsured and underinsured covid-19 patients combined with a loss of the very profitable elective procedures where nobody is going to hospital for anything they can avoid). It is going to be a hard sell going cap in hand to politicians this summer to bail out these vestiges of the for-profit healthcare system.
+
+Joe Biden unfortunately is EXACTLY the politician they want. As a former Delaware Senator he is pretty much owned 100% by the insurance industry."
+bernie,fnj0g47,t1_fnix5yo,1586989645.0,"I was not aware that nobody under the age of 18 in America lacks health insurance. Foolish me!
+
+Of course I can't actually find anything on the web to confirm what you said. In fact I find just the opposite. CHIP hardly covers everyone under the age of 18.
+
+Meanwhile I have many anectdotal stories of American friends who are struggling to pay for medication and receive proper healthcare for their children (I am in a lot of Type 1 Diabetes groups)."
+uwaterloo,fnhbyrt,t1_fngbo46,1586959448.0,Lol.. like anything in the working world is always done on time...
+democrats,fnfwiu8,t1_fnfh6f4,1586916973.0,"Might not... the insurance companies are in full shiton financial panic right now (massive hit on revenue combined with massive spike in costs). If Medicare can temporarily pay everyone's bills for a couple of months it just might save them. Sort of like how property insurance companies get saved by the government when hurricanes hit.
+
+And you know if the insurance companies ask for something, both the DNC and the RNC will come with a plate of money."
+politics,fnfvbdg,t1_fnfuy0v,1586916234.0,"China botched it so much they contained it mostly to one province. How is the rest of the world doing. As for the idea that they covered up, sure, there is always desire of politicians to cover up and ignore bad news (like say global warming), and the US and in particular this president is guilty of that more than most."
+PoliticalHumor,fnerw7o,t1_fnekwlu,1586894751.0,"Specifically, they defined what a vote was in Democrat leaning districts differently (and more restrictive) than Republican leaning districts. If a common criteria was used, Gore would have won."
+menwritingwomen,fneln87,t3_g157fw,1586891571.0,This is a man writing about what a man is thinking here. Guys have intrusive thoughts like this all the time.... I personally don't think this is the problem (outside of the wider societal implications that men think of tits constantly).
+politics,fndmedt,t1_fndb6yw,1586873219.0,"I am literally watching [The Trump Prophesy](https://en.wikipedia.org/wiki/The_Trump_Prophecy) on Amazon Prime right now. The mental illness runs very deep.
+
+>the film informs its audience not to resist Trump as doing so would disrespect the real authority of God"
+politics,fndl0q6,t1_fnddpuv,1586872376.0,"So are you saying that Trump was slower and more incompentent to respond than the 'evil, incompetent, racist, China loving should be shut down WHO'.
+edit: forgot to add the /s"
+FragileWhiteRedditor,fncbc6a,t3_g0n9px,1586832709.0,"Wife and I had a game while driving down queen street in Toronto.  First to spot a straight white couple (had to be holding hands or obviously together) wins. Nobody won.
+
+Iow, the commercial matches Canada,  or at least a part of it."
+bernie,fnaszzy,t3_g0nywk,1586803296.0,"I would think (not being american so just baffled at the insanity) that the easy olive branch would be to extend medicare to children 24 (or pick any age) and under. Not only would it probably be cheaper than extending it to people in their 60s who need a lot of medicine, but politically I assume it would make sense as well.
+
+But what do I know up here in Canada (where I pray every day the US improves their system so that our politicians stop resting on their laurels and improve ours as well)."

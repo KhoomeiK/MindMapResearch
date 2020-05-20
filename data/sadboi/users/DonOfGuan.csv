@@ -1,0 +1,41 @@
+jailbreak,fla47ya,t3_fnh7e3,1584976272.0,"I’m sorry this happened to your friend. I had the same thing happen to me in December in London: they forced me to sign out of iCloud and then erase all content & settings. To people saying that a reboot would take the phone out of a jailbroken state: a big part of this would be knowing that the restored phone would still be iCloud activation locked. While I might not get my phone back, it may deter thefts once they realise they can’t easily set the phone up"
+Unexpected,fi97au2,t3_f6v3dr,1582257349.0,They have those in Australia
+jailbreak,fi71ah9,t1_fi62vf4,1582212176.0,"Check the YouTube link I posted in the 2nd edit, if AltStore is installed on your phone it should show up like that. Hope it helps"
+jailbreak,fi709ix,t1_fi6mw8r,1582211538.0,"So I tried doing doing this method with back to back reboots and I was consistently able to jailbreak twice consecutively before kernel panicking on the 3rd run. Here’s the link, https://youtu.be/BlkPnWhHPI0 (shit quality until YouTube processes it properly)"
+jailbreak,fi61mxq,t1_fi5zz04,1582176134.0,"I’ve seen a lot of complaints from pro & XR models on Pwn’s twitter so it could be related. Also I get the impression support for iOS < 13.3 isn’t as stable right now. Hopefully this changes though, still early days man!"
+jailbreak,fi5vtkz,t1_fi5obxe,1582171719.0,No worries - I’m happy it’s working for others
+jailbreak,fi5vlw6,t1_fi5pro9,1582171577.0,"Hey I’m not really familiar with the older versions of unc0ver as I’m on iOS 13.3. It sounds to me like it should work, it’s just another method of signing without relying on enterprise certificates.
+
+For the VM bit I’m kind of confused - are you running Linux? AltStore works with both Windows & Macs. But yeah if you give VM full access to the USB port I don’t see why a VM wouldn’t work (so basically the host OS doesn’t interact at all with whatever you plug into the USB slot). I should add that AltStore is supposed to let you sign over Wifi but I’ve found this to be really temperamental on Windows.
+
+The application will ask for your AppleID because it’s using it to sign the app as opposed to using the enterprise certificates from services like Reprovision etc.
+
+Also for Windows 10 make sure you install both iTunes (from the Apple website NOT Microsoft store, & iCloud for Windows). You don’t need to do anything with them, it just installs dependencies for AltServer."
+jailbreak,fi5uleh,t1_fi5rzaz,1582170951.0,"You download unc0ver on your phone’s safari, tap on the file and then press the button that kind of looks like a sharing/export symbol. Swipe across the options and tap on the 3 dots, then tap on ‘Copy to AltStore’.
+
+(I’m assuming you’ve already installed AltStore on your phone. If not you do it by running AltServer on your computer, plugging in your phone & selecting an option that says something like “install AltStore”)"
+jailbreak,fi2hsab,t3_f5wm6l,1582080069.0,There's no iPhone 11 option on TSS Saver
+jailbreak,fhr02mu,t3_f4hpqp,1581814403.0,I used AppCake to install Unc0ver and it jailbroke first try
+CrackWatch,ff2hrtl,t1_ff2h9q4,1579506695.0,Torrenting is both uploading and downloading tho
+AyyMD,eyknkec,t3_cv62yg,1567161169.0,r/unexpectedpiperperri
+depression,ew1k7eg,t3_clue8y,1565025186.0,"Go on holiday my friend.  Sounds like such shitty advice but seriously go somewhere very sunny with an activity in mind (like hiking mountains).  I get very bleak and have suicidal ideations in my home country and it’s exacerbated by how grey and bleak the weather is.  This is then compounded if I don’t do anything social for a few days.  Just being in a sunny country with a dose of fresh air completely lifted my mood.  Don’t go there and stay indoors.  Go out and walk along a beach, listen to some music if you like.  I found that refreshing moments like these give me snapshots to look back on and remind myself that shit doesn’t have to be so bleak and hopeless all the time.  I wish you all the best mate"
+whatisthisthing,euzxg53,t3_chymju,1564128180.0,One of them takes you to HSBC HQ
+assholedesign,ercvsyn,t3_c1aq23,1560723360.0,People use these USBs to quickly deliver malicious payloads that would otherwise take a few minutes to do by hand.  Basically don’t plug in what you didn’t buy
+KidsAreFuckingStupid,erau983,t1_er9orqj,1560653069.0,Ahahaha the balls on the guy to watch it on the TV as well
+VeraCrypt,eqjacgw,t3_bye8py,1560101587.0,The Turing machine was invented in 1936 and machines that you and I would call computers were made much later.  Chances are all current day encryption will be irrelevant 100 years from now
+pop_os,epb1v86,t1_epb0xyx,1559136592.0,Ah I forgot that I wasn’t on /r/surfacelinux 😂😂.  Sorry man that custom kernel tool was for Ubuntu on Surfaces.  I think the signing part of the README doc might still be relevant if you compile the kernel yourself though.  From memory I didn’t touch the Ubuntu boot loader - just changed kernels and self signed it
+pop_os,ep9to1l,t3_bua27b,1559116045.0,I followed the steps on the JakeDay Github repo (signing your own kernel) with pretty much zero experience and got it to work first try.  I recommend you give it a go
+Showerthoughts,ep9ehqb,t1_ep7wcn3,1559108840.0,Ngl I didn’t think about the water.  Also these guys left behind paintings not written words so I don’t know how deep and meaningful their conversations got bro
+Ubuntu,eoz6eg8,t1_eowu5i8,1558956035.0,"If the GhostVPN client doesn’t remember account details then I reckon you should try OpenVPN.  There’ll be a tutorial somewhere online on how to take CyberGhost server files and use them with OpenVPN.  
+
+https://forums.openvpn.net/viewtopic.php?t=11342 clearly there’s something you can do to allow reading of user/pass from a text file.  And then hopefully you can put a one liner in /etc/rc.local since there won’t be a prompt for credentials."
+Ubuntu,eovwc9g,t3_bt9v7r,1558901638.0,"Try this: sudo nano /etc/rc.local
+
+Then make the file contain whatever command you normally use to connect CyberGhost.
+
+If the file doesn’t execute on boot there’s some workarounds here https://www.linuxbabe.com/linux-server/how-to-enable-etcrc-local-with-systemd
+
+Also there might be a function with your client to do this already.  I just do this because my VPN’s autoconnect doesn’t always work."
+pop_os,eoijh9v,t1_eoi0k33,1558621073.0,"I mean you only need about 30GB minimum for windows so you can leave the rest for the pop os partitions (root, boot, and swap).  It’s really up to you how much you leave for Windows/pop os"
+pop_os,eoi0eyf,t3_bs0dao,1558606026.0,You could dual boot both windows and Pop OS from the SSD.  I just keep a 50gb Windows install for when I need Office 365
+SurfaceLinux,eo9tr1u,t3_bpvg7e,1558399985.0,Hey are you running 18.04 or 19.04 pop!_os?  I can get 18.04 running perfectly with my SP4 but 19.04 is a nightmare.  I get pretty much all the way through the install process and then the installer spits out a hardware error.  From what I can tell it’s quite common.  I’ve tried using USBs with both MBR and GPT tables but neither change the error.

@@ -1,0 +1,243 @@
+politics,fqm83xk,t1_fqm6ugw,1589473110.0,"I think Thermos is advocating [Dollar cost averaging](https://en.m.wikipedia.org/wiki/Dollar_cost_averaging), which is overall a smarter strategy than trying to time a market. You seem like you have your shit together, but for most people consistently buying over time means they get the benefit of the market volatility as long as they can eventually sell at a high."
+learnjavascript,fqfkdj5,t1_fqeysh0,1589326469.0,"Open your dev console and enter:
+
+    var xhr = new XMLHttpRequest();
+    xhr.onload = function() {
+      console.log(this.response);
+    }
+    xhr.open(""GET"", ""https://www.reddit.com"");
+    xhr.responseType = ""document"";
+    xhr.send();    
+
+After entering all of that, you should see an HTMLDocument node after a moment. You could then type something like `xhr.response.body.getElementsByTagName(""input"")` and you will see all of the input elements on the page. Is this what you were referring to?
+
+You can set axios to expect a responseType of ""document"", I believe it will behave similarly but I don't use Axios and didn't know about any of this myself until just now because I've never had to use the responseType setting of an XMLHttpRequest for anything other than json. I also don't have a source on this, but I believe people aren't necessarily recommending Axios all the way anymore. The reasons behind that may have changed since I last looked. Also also, if you try to do this against say, www.google.com from your dev console opened at www.reddit.com, you will probably see a CORS error. That's a whole other issue though."
+Rochester,fqeqa5i,t3_gifohd,1589311818.0,"Missed naming the project ""Roc'ing their Masks""."
+learnjavascript,fqepsf9,t3_gih4c1,1589311586.0,"""[Cheerio](https://github.com/cheeriojs/cheerio#features) implements a **subset of core [jQuery](https://jquery.com/)**."" 
+
+That said, you [don't need jQuery](http://youmightnotneedjquery.com/) for [much](http://vanilla-js.com/) these days."
+ProgrammerHumor,fq2igkq,t1_fq2g61n,1589056446.0,Wikipedia needs it.
+vim,fpjwi6l,t1_fpjbeyk,1588682817.0,"Or to use mappings the way they were intended, yes..."
+vim,fphtosp,t1_fphqbys,1588627616.0,"There is no part in lugging around a spare keyboard for a device that's meant to be portable that sounds like it fits under the spirit of the blog post. 
+
+The ""over configured"" answer to the laptop problem is yes, to bring a keyboard. The ""simple answer"" is to suck it up and deal with defaults. The ""Zen answer"" is to come to terms with the fact that some things need changing and to change them."
+vim,fphk12s,t1_fph68v0,1588622639.0,I feel like this violates the spirit of the blog post under question.
+ExperiencedDevs,fpgdi54,t1_fpgbd58,1588600443.0,"Every day you'll feel a little more competent. And every day, there will be something to knock you right back down again. It's a struggle: one which we all deal with in our own ways. The dangerous people are the ones that think they are incapable of making a mistake. 
+
+Just be aware that in your fraction of an improvement today, you may lose sight of the fact that you are actually improving. I recommend keeping a work log / journal, and writing major accomplishments in it. Don't forget about your failures, but be kind to your future self. Read the log when you need a pick-me-up or résumé fodder."
+linux4noobs,fp8hwt8,t1_fp8aar0,1588392737.0,"Because just doing `ps aux | grep electron` will show you the running grep as well. This being a newbie subreddit, there's no reason to go confusing people more with extraneous output."
+cscareerquestions,fp61spb,t3_gbfty0,1588344449.0,Are you me?
+linux4noobs,fp5x1pe,t3_gbhdm3,1588341741.0,"On Electron, specifically: 
+
+Try this out in your terminal the next time you have a few apps open: `ps aux | grep -v grep | grep electron`
+
+I appreciate that Electron opens the world of desktop development to JavaScript developers - I've used it myself - but it does so at the cost of wasted space and memory, and an attack surface as large as whatever Chromium and Node versions that particular version of Electron is utilizing under the hood.
+
+A ""Hello World"" app should not use 100+ MB of memory, but when the developer chooses to make their life easier over the resource usage of their users' computers, then that's what you'll get.
+
+These are mostly the arguments you'll get out of people that know there's a better way."
+linuxfromscratch,fp42nb1,t3_gaxi4f,1588290478.0,Cross compile on a faster machine?
+sysadmin,fovyx1s,t3_g9q1mj,1588109972.0,[You're not my supervisor!](https://www.youtube.com/watch?v=YEwlW5sHQ4Q)
+jquery,fnsta6i,t1_fns8yww,1587228377.0,"Is that after an AJAX call that might re-trigger gridComplete? I guess I am suggesting that loadGrid is called with a divname value the first time it's called to setup the grid, but the value isn't there when the AJAX forces gridComplete to fire again. Look at the 1st stack trace you posted and try to recreate the steps to get that.
+
+Edit to add: what's at gridhandling.js line 296?"
+jquery,fnr9el2,t3_g361rr,1587182589.0,"My guess is that by the time the gridComplete fires after an AJAX re-draw, `divname` is no longer in scope and so it's not available. To test this, comment out line 94 and add `console.log(divname)` 
+
+Also worthy would be logging the value of `this`
+
+I'm tired, so this may all amount to nothing."
+learngolang,fnhllm3,t1_fnhk2n8,1586964641.0,"So `a` is of type `Alert`, and it gets re-used each `for` loop?
+
+I ran across this problem when trying to append to a slice of an interface type, using `&a` resulted in the slice having the correct number of elements but all of the elements were the same value. I suppose that explains it. Thank you."
+sciences,fnh17eg,t1_fnh0yor,1586952008.0,So magazine authors don't get paid?
+jquery,fndt8r4,t3_g0vt1k,1586877055.0,">The problem is that I get errors such as
+>
+>    Uncaught TypeError: $(...).datepicker is not a function
+
+>since I have:
+>
+>    <script src=""/tools/scripts/apps/cpc.js""></script>
+>    <script src=""/tools/Scripts/tools/jquery/v2_1_4/jquery-2.1.4.min.js""></script>
+>    <script src=""/tools/scripts/tools/jqueryui/jquery-ui.min.js""></script>
+>    <script src=""/tools/scripts/tools/jqgrid/js/i18n/grid.locale-de.js""></script>
+>    <script src=""/tools/scripts/tools/jqgrid/js/jquery.jqGrid.min.js""></script>
+>    <script src=""/tools/Scripts/tools/date.js""></script>
+>    <script src=""/tools/scripts/apps/BM/startPage.js""></script>
+>        
+>    <link href=""/tools/scripts/apps/BM/custom.css"" rel=""stylesheet"">
+>    <link rel=""stylesheet"" type=""text/css"" href=""/tools/scripts/tools/daterangepicker/bootstrap.css"" />
+>    <link rel=""stylesheet"" type=""text/css"" href=""/tools/scripts/tools/daterangepicker/daterangepicker.css"" />
+>    <link rel=""stylesheet"" type=""text/css"" href=""/tools/scripts/apps/bm/startPageStatistics.css"" />
+
+What file is supplying the ""datepicker"" function? It's not that jQuery isn't available, the datepicker function itself isn't: ""datepicker is not a function"". You're calling it somewhere else in your code but probably not linking the library file via script tag."
+wow,fmfeibj,t1_fmez2mw,1586025567.0,"So, following [this guide](https://wow.gamepedia.com/World_of_Warcraft_File_Locations), I renamed my Interface and WTF directories as well as deleting my Cache directory. Then I reinstalled everything, and then re-entered the game. When I did that, the problem persisted.
+
+On the bright side, the only thing that seems to be broken is AAP, and re-naming my Interface and WTF folders back after deleting the new ones got me my old add-ons and settings back. So I have that going for me... but AAP is still broken. Oh well.
+
+Looking at Curseforge, it seems I'm not the only one to have these [problems](https://www.curseforge.com/wow/addons/azeroth-auto-pilot).
+
+As soon as you leave your garrison, the arrow starts working again. Frustrating, but since I don't spend that much time in the garrison anyways, just skipping the treasures located there with
+
+    /aap skip 
+
+did the trick for me"
+politics,flffffm,t1_flezheh,1585105205.0,Gesundheit
+Neverbrokeabone,fksxegh,t3_fkieod,1584500669.0,Aspirations
+trashy,fkj63zk,t1_fkh5l43,1584237181.0,"""Hustlers"" are still ""trash people"". Looking to make a quick fucking denom from your fellow man is despicable. It's the fact that we've legitimized hustling that's awful."
+wownoob,fjfg5hi,t3_fcw2cc,1583291119.0,WeizPVP? Maybe it's functionality is already represented in your list.
+AskReddit,fi3ffbu,t1_fi3er7r,1582115779.0,"It's about maximizing ergonomics for someone (possibly you, probably not if you have friends or loved ones) at a future time when they're already in a situation, of sorts. Do you want to make said situation easier or harder for them to deal with? In some respects, bearded toilet paper is about love: love for your future self, love for those around you. Caring about them even when you can't be there for them. The only acceptable reason to mullet toilet paper is when you have asshole pets, and you do that because you love them and don't want to be upset that they've made a mess. Love and kindness should guide us in every decision."
+wownoob,fhyzxyh,t3_f5bdfa,1581987691.0,"Sounds like a recipe for burnout if your goal is to treadmill out playing a video game. Do things because you enjoy them and can afford them. If you try it and like it, go for it, but if not don't burn yourself out."
+wownoob,fhas4a8,t3_f1wrfw,1581425216.0,"Beyond just getting it back (I didn't realize they had something for that, that's cool), in the future you should look into addons that automatically sell your trash loot for you. You basically click a vendor and it sells all the gray crap, some of them automatically repair your gear as well. This cuts down on accidents like this and saves you time. Don't worry though, you can still shoot yourself in the foot at the scrapper if you really want to... :-)"
+coolguides,fh1pc4h,t1_fh1f6az,1581220315.0,You need to read more about password managers and stop spreading FUD.
+coolguides,fh1cfsq,t1_fh0y9xt,1581213386.0,"If you're a person that cares about security, you use a password manager and 2FA."
+wownoob,fgmin9w,t1_fgmikjp,1580925332.0,"Also, just level out and get to end game as fast as possible, then go back and work on this crap."
+wownoob,fgmikjp,t3_ezbw97,1580925288.0,"I just finished my grind for WOD pathfinder last month. What put me over the top at the end was these items, I forget the name, that were sold on the AH, that gave like 1000 rep with each faction while in the region. I found out about these things and bought like 5 that same night (20k gold or thereabouts, get a WoW token and sell it) and had flying. It instantly made me feel so much better about the game. I like leveling alts as fast as possible, so having flying through those levels is going to make that much much easier. Maybe someone else can fill in the name on the item here? It was ""X commendation"" or something like that."
+CompTIA,fgef4xm,t3_exzmkn,1580698128.0,"I have NEVER, literally never, bought a Udemy course for more than $12 US. They're on sale almost every time I go to look. I only comment here now because I was actually wondering just the other night if anyone actually bought courses there for the ""full price."" I'm kind of sad for anyone that may have done so. That's a hell of a lot of money for something that goes on sale at 90+% off."
+docker,fgc0r0b,t1_fgbzjrw,1580667909.0,"Yeah, one of my last acts at that last job was to switch them from Selenium/Selenium Grid to Puppeteer for E2E testing. I used Puppeteer and Jest. It was super slick. I was able to rewrite every test they had and add more in about 2 days of work."
+docker,fgbyhks,t3_exo79l,1580667250.0,"[Puppeteer](https://pptr.dev/) is my go-to when I need to automate Chrome. The only reason I would touch Selenium now is for Firefox automation, but there's probably projects I'm unaware of that aren't Selenium for Firefox automation. Why do I dislike Selenium? I don't exactly know. My last job was using docker Selenium and Selenium Grid and I just didn't like it at all."
+coolguides,ffwhux6,t3_evm5zn,1580301538.0,"I am waking up and catching you in the act, you wiley... *squints* rest of the world..."
+HTML,ffvp5hi,t1_ffvolsx,1580269454.0,"Check out [Flask](https://flask.palletsprojects.com/en/1.1.x/). No PHP, no shell exec, just Python."
+funny,fftbiak,t3_ev4xlm,1580215453.0,I don't get it. I don't know that I want to.
+learnprogramming,ffdv7x8,t1_ffdtxgg,1579829757.0,"Calm down, Oracle"
+WoWCasual,feyssyq,t1_feyk255,1579450172.0,"Ah, I gotcha."
+WoWCasual,fewmsiy,t1_fevy1xj,1579415007.0,There's no real such things as a PvP server anymore to my knowledge. It's all handled by War Mode now.
+html5,felp3cz,t3_epsh4p,1579227497.0,"Look in the rest of the developer tools, specifically the network tool as you turn on the captions. You should see a m3u8 file loading up. Look at that file. Copy the file's URL to the address bar of a new tab, then remove the last portion after the last '/'. In the file response data itself, you should see ""webvtt"" files or perhaps srt files... those are the files you're looking for. Copy the given file name and paste it after the last '/' in the new tab you opened.
+
+Automating this procedure is left as an exercise for the reader."
+Android,fdgxtxb,t1_fdgjt3u,1578410976.0,"""Just because you're paranoid doesn't mean they aren't after you.""
+
+Edit: Loving the downvotes on a classic Joseph Heller quote presented in a timely manner. You can ""h8FUD"" all you want, that doesn't mean this stuff shouldn't be investigated, OR that the original post was a thorough investigation. I certainly recognize that. I also recognize that companies are doing shady, stupid stuff all the time with our data. These problems deserve discussion.
+
+Also to add, fuck antivaxxers. Privacy has nothing to fucking do with antivaxxers - that's a ridiculous comparison."
+bestof,fczlqax,t1_fcyci9r,1578103980.0,"If it does happen with nukes, just make sure to live in a city so you don't feel it happening. Don't be like the poor dumb bastards that will have to pick up the pieces."
+microservices,fcpe46t,t3_ehl1qb,1577860080.0,Check out [https://grpc.io](https://grpc.io) - I just found out about it the other day and now I'm going to stew over whether or not to bring it to my team's attention...
+webdev,fcmdodj,t1_fclzhnm,1577771556.0,"The one-click install on DigitalOcean is super simple and costs about $5 a month. Ghost itself is pretty easy to update and theme if you're coming from experience. I left mine pretty stock themed, just adding an inclusion for a code syntaxes highlighter script, but you may not even need to do that anymore for all I know. I really should write more on that site..."
+cscareerquestions,fcmd8uk,t3_ehwgmy,1577771151.0,"""Look at line 127..."" 
+
+It's not difficult."
+JusticeServed,fccvdqu,t1_fcclzdx,1577603099.0,Classic Uncle Jessie!
+Neverbrokeabone,fa00rrj,t1_f9zqess,1575747462.0,Get out
+savedyouaclick,f8gxuw5,t3_e0islf,1574566710.0,Posted [this](https://www.reddit.com/r/savedyouaclick/comments/e0bj19/want_a_happier_more_fulfilling_life_75year/) a day ago. Glad to see someone else thought it wasn't worth other's clicks.
+C_Programming,f83f5x5,t3_dysp1o,1574210794.0,"Petition to wrap around the max.
+
+I am not a C Programmer by trade, and if my terminology is wrong please just take my suggestion as the joke that it is."
+ExperiencedDevs,f6ppbvj,t1_f6pjhn7,1573061370.0,My mind is currently exploding over Go interfaces. I start a new PHP/Go job on the 18th. Any recommendations for someone familiar with PHP on learning Go? I'm open to anything.
+linuxquestions,f6pn1ng,t1_f6pj8pi,1573059954.0,"If you can cook by following a recipe, you can probably complete LFS. Just putting that out there."
+EatCheapAndHealthy,f6mjl8j,t1_f6lrtiy,1572974069.0,"I get the thrust of your comment, I just wanted to let you know that crock pot liners are a thing you should look into. Game changer."
+ExperiencedDevs,f5ii64m,t1_f5ihjxg,1572214675.0,"Bipolar is a legal disability.
+
+[Reference](https://www.verywellmind.com/bipolar-disorder-disability-qualify-379886)"
+NatureIsFuckingLit,f58hnqr,t1_f5812e2,1572056371.0,Sounds like something a friend of mine would say. Want to be friends? 🙂
+javahelp,f3m9hcs,t1_f3hvjvb,1570985062.0,"Atom is a good editor, VS Code is a great editor. Some people don't like to associate themselves with a Microsoft product, others just like to get things done. But VS Code, as hard as it tries, is not an IDE (at least not by itself without non-default plugins). I still use free code editors every day, but the meat of my work takes place in an IDE for good reasons."
+javahelp,f3m8pwl,t3_dgx10p,1570984717.0,"IntelliJ is being recommended a lot here, and I second the recommendation, but what people aren't mentioning is that it costs money. HOWEVER, as you are a student, you should look into the [Github Student Pack](https://education.github.com/pack) which includes an annual license to Jetbrain products for free for students, as well as a variety of other products and benefits."
+vim,f3bmd16,t1_f3b75k2,1570813056.0,Sensible suggestions have no place on reddit.
+vim,f3bm0nq,t1_f3b4kzp,1570812910.0,I'm going for it! Thank you.
+programming,f38px2s,t1_f34m9lk,1570738723.0,#\#atheists
+technology,f34i5fn,t1_f34fkyp,1570654614.0,">If they can see your traffic of course they can analyze it for potential malware. It's borderline negligent not to examine every packet entering an Enterprise environment.
+
+The point is, that's almost certainly not all that they're doing.
+
+https://turtler.io/news/16-worst-and-most-extreme-ways-employers-are-spying-on-their-people
+
+https://www.inc.com/chris-matyszczyk/study-shows-how-much-companies-spy-on-employees.html
+
+https://www.recruiter.com/i/6-ways-your-employer-can-legally-spy-on-you/
+https://theweek.com/articles/564263/rise-workplace-spying
+
+https://www.forbes.com/sites/kashmirhill/2012/08/16/how-to-tell-if-your-boss-is-spying-on-you/#7f3d00446ee0"
+JusticeServed,f1zlh7h,t1_f1yr6tv,1569845429.0,I would like to think people do it to make sure the fight is over and the aggressor on the ground couldn't possibly be a threat again. Otherwise the people doing it are just assholes.
+webdev,f1bbmsx,t1_f1b7f24,1569330253.0,"> for personal reasons I can't move to another city at this moment.
+
+Okay, when are those personal reasons going to change?
+
+> Years?! No way Im going to spend years here.
+
+Years go by faster and faster, it will slip away from you if you let it. When do you see that personal situation changing that's keeping you from moving away from whatever Podunk town you're in that doesn't have many dev jobs? In the next six months? 
+
+> Also, the only one that can manage the client is the boss, as it is a sensitive project and data so... no possible :(
+
+Alright...
+
+> There is no team leaders, the client talks with all of us directly and aks for features to a random dev.
+
+What did you mean by this then?
+
+
+Get some side projects going that use industry standards and best practices, and stop making excuses up for yourself."
+webdev,f1b6dkr,t3_d8km6g,1569325414.0,"This sounds a lot like the situation & shop I spent ten years in. 
+
+The biggest help you can be to these guys is actually removing them from the client pipeline. When they don't have to spend hours in meetings with clients, they'll have more time to learn new things. 
+
+This creates a snowball effect. 
+
+So then you add in Git. Then you add in a testing environment. Now you can transpile your JavaScript. Next you create a new repository for your new code base. 
+
+It will take years and a ton of management buy-in. You may lose people that don't want to change along the way. If you don't have the guts to invest that time and energy, find remote work, start some side projects, do your own thing, but get out of there. Otherwise, come up with a plan for incremental change and stick to it."
+AskReddit,f1668sb,t1_f15wk7t,1569203542.0,As someone with a history of congenital an
+AskReddit,f0lpngw,t1_f0lkz7b,1568726218.0,A lot of it comes down to being able to detect differences in voltage over time. It helps to think about the simplest computers. Today's computers are basically the same ideas made smaller and more efficient.
+neovim,f0022af,t1_ezzxzi6,1568296147.0,"Try:
+
+    :checkhealth
+
+Also check:
+
+    :help feature-compile"
+wownoob,ezzymv5,t3_d364j3,1568294804.0,"Destruction is excellent. I made the switch from Demonology after the recent changes to that spec - which was a lot of fun to play. The other specs are okay, but they felt like they take too much time to ramp up damage. I would also caution you that until you reach max level and gear up, you'll probably continue to get stomped: there are people running around with every heirloom equipment slot filled, flying mount, at nearly three times your level looking to fight lowbies for their own jollies. Do not take this too hard or personally. I still lose plenty of fights, but at least lately it's been around 50/50 depending on if I have my cooldowns available or not."
+webdev,ezujwma,t3_d2bhgg,1568153925.0,NPR in the car.
+jobs,ezoucyo,t3_d1inu9,1568028367.0,"We have a guy just like this where I work. If he ever started pulling this shit, he would immediately get shit on from me. As in, the moment something became too technical for him to handle without bothering me to help him I'd tell him to figure it out so he can improve himself from the experience. The after hours texts would get looked at, no read receipts, and if not an emergency, ignored until the next business day. The requests to do work would be answered with ""sure, please put in a ticket and that can be reviewed and prioritized properly.""
+
+The quasi-sexual shoulder touching would be met with a trip to HR, or the owner.
+
+The wife working after hours deserves a review from some outside agency. Such as the IRS. They're getting compensation, you just don't know what it is.
+
+All of this can be done without sticking your neck out or turning into a snake yourself or any of that. Learn some /r/maliciouscompliance."
+cscareerquestions,ez6yd5q,t3_d03jfu,1567716596.0,"That's ridiculous. If there's an owner of the pet store you should talk to them and show them phone call logs / texts. If they don't rescind it, you should definitely look for a new job because they are looking for justification for firing you. Also, post pet pictures for sweet sweet karma."
+webdev,ez0tc3r,t1_ez0owst,1567641636.0,"Match anything. And then the next line matches anything that's a descendant of anything, and so on and so forth..."
+AskReddit,eyxtkop,t3_cz6fi1,1567562197.0,Insurance of any kind. If we weren't all just acting like crabs in a bucket we could do some wonderful things.
+worldnews,eypppix,t1_eypixtc,1567307263.0,"The majority of us recognize the deep amount of shit we're in, and voted to keep it from happening. We're not done yet."
+linuxquestions,eyizfr2,t3_cx382s,1567109932.0,"I'm with the other people, and echoing the sentiment: why require the terminal to be maximized? Maybe there's another way to do what you're trying to do that others have already thought of and made easy."
+BipolarReddit,eyfhcfq,t3_cwu4i8,1567048812.0,Good call! Treat yourself to something you've already picked out that you could even potentially afford that you would like. I like this idea a lot!
+wownoob,exy8qpa,t1_exwvvan,1566648818.0,I honestly am not sure. I guess so. Otherwise I would stick with major cities as they're the hubs anyways.
+linux4noobs,exwbpox,t1_exv6suz,1566617023.0,">on never ubuntu ctrl + alt + bacspace is disabled by default, you have to re-enable that
+
+Wtf is ""never ubuntu""?"
+MensRights,exw8ioc,t3_cuipq4,1566615409.0,https://www.cnn.com/2014/01/09/world/asia/pakistan-boy-stops-suicide-bomber/index.html?no-st=9999999999
+wownoob,exvf6iv,t3_cuk0df,1566598553.0,You want [Simple Armory](https://simplearmory.com).
+howtonotgiveafuck,exhgm58,t3_cskuk1,1566304560.0,This is stupid and doesn't belong here.
+ProtonMail,exf44ai,t1_exf18lz,1566232215.0,You do pay for Gmail. You just don't pay with money.
+cscareerquestions,ewchoj7,t1_ewcg6wi,1565285028.0,"I will never take a counter offer because of stories like this. I don't care what they offer me to stay, because they know and I know that I am no longer feeling tied to their fate. Good luck, friend."
+ManjaroLinux,evx0yd8,t1_evwfnnj,1564878805.0,"So what had me initially freaking out was that I got my news about this change from Reddit, then a YouTube video got posted which I didn't watch with one of the developers, then I saw a Linux reviewer video on how terrible it all was, and then I finally logged into the forum and there was an official thread. My takeaway is this: Don't communicate important changes in unofficial ways and there's less chance of miscommunication.
+
+Do things with intention, explain the rationale, and people are generally going to be reasonable.
+
+Edit to add, the initial release of this news seems like a single line in a forum post, and looks like a railroad to installing a solution to a common community problem that is not the community accepted solution. So, yeah, they goofed, again. I get why people are upset now."
+learnmysql,evusa1u,t3_cl5qyr,1564804588.0,Without more information it's going to be impossible to help you. It sounds like you could have multiple issues at play.
+phpstorm,evrah6a,t3_cksnd0,1564704279.0,"I was having instability issues as well, then I used toolbox to modify my VM heap size. Kinda sorta back to normal now."
+cscareerquestions,evla2ro,t1_evktdmn,1564592179.0,"It's not easy, but if that's all that's needed to stop you from reaching your goals then you never will. I believe in you, friend."
+cscareerquestions,evk0wp6,t1_evjyi07,1564573495.0,Make something open source. Contribute to a new project on Github.
+cscareerquestions,evh5b36,t1_evflicd,1564520955.0,That's impostor syndrome talking. Buck up and book up. *Cracking the Coding Interview* is a fine place to start.
+ExperiencedDevs,evh4hek,t3_cjuwbt,1564520541.0,"If you don't feel you're being compensated properly, either you need to talk to your immediate manager and voice that feeling, and/or you need to find a new job. Those are your two options. If the manager doesn't listen to you, find a new job. If they don't negotiate with you honestly and fairly, find a new job.
+
+The third path is where you are right now: doing nothing to remedy the situation, and that's leaving you feeling used and abused - well, that can't continue forever, can it? Talk to someone."
+ProtonMail,eve0t5z,t3_cjkdpd,1564452454.0,"No domain on the login page. I was able to set a password of ""test1"", which tells you that there aren't any of the usual length, ""easily guessable"", or symbol requirements."
+wownoob,eubp5pp,t1_eub1ou6,1563653525.0,I'm considering a reinstall soon and wanted to see what it would be like to start from square one.
+wownoob,euapz31,t1_euao5yp,1563628636.0,"So you're playing with the default UI bars then? How are you switching between the available bars?
+
+I guess part of my problem is I have so many damn things I want to use that are all so situational.
+
+Like it would really save my ass if I could press G and 2 and use my Goblin Glider Kit. I guess I just have to get there. It wasn't a terrible terrible experience, it was just harder than I imagined it would be because I wasn't used to the swapping."
+wownoob,eualvu9,t1_eua78cg,1563624501.0,"I just threw everything out and I've been building it extra slowly back up, so it's nothing I'm attached to or have really thought out yet."
+wownoob,eualt5m,t1_euaiekf,1563624419.0,"Excellent, thank you!"
+wownoob,eua6c7g,t1_eua55kx,1563602955.0,"That goes towards my point. I would use the default UI if I could figure out a way to switch bars faster. My last attempt was SHIFT+# for the bar number, and that just felt slow and pokey. 
+
+I have a mouse that I've got a ""forward"" and ""back"" key on on the left hand side, and I've been using the forward for mount up and the back for casting ""Fear"" (I main a warlock). I was kind of wondering if it wouldn't serve me better to set those to scroll through the default UI bars, but that again too sounds like it would just be a slow solution.
+
+I have no problem with remapping keys like 'C' to buttons, but now I'm almost wondering if I could remap Z, X, C to bars and then keep everything within the first 5 numbers to keep things relatively simple.
+
+Thoughts? Crazy? I'm slightly drunk and it's really late. Time for bed. Thanks for the reply!"
+wownoob,eto0wz3,t1_eto0ntv,1563008320.0,"I bailed out of that expansion, and I'm still working on flying for it. So... Fuck WoD."
+wownoob,etnqkhf,t3_ccl9ix,1562996298.0,"Only use AAP if you've already seen the entire zone.
+
+That said, Fuck WoD."
+ProgrammerHumor,etjyw4f,t1_etjwr4r,1562884737.0,"No, you're absolutely right, it's an excellent text editor."
+ProgrammerHumor,etjykd7,t1_etjwi0i,1562884515.0,"I've never seen a God Object and thought, 'wow, this is zestfully clean code!'"

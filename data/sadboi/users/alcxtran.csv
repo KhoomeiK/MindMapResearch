@@ -1,0 +1,92 @@
+tinnitus,fr3oxc3,t1_fr37lzj,1589862408.0,Mmm Idk lots of people have it. And lots of people have other problems too. You can't just add it up and call it suffering. Got my T when I was playing with a .22 bullet at 17. Indica really brings up the T so I'd stay away from that imo
+wholesomememes,fq3lhir,t1_fq1nt1t,1589067647.0,"Exactly. Seems motivating. But some people lack mental stability and related knowledge, thus set unreal expectations. That's like shit on your cupcake."
+ender3,fpwdvwq,t1_fpw8fnk,1588961728.0,"That's what I have. Very long wires to the raspberry indeed. It works, but this set up is just so cool"
+ender3,fpo2qfe,t1_fpo1j4v,1588777317.0,Thanks I'll remember to make wider brim. First print came out great so I left the printer with same settings and forgot to monitor the speed. Glass bed will shake eventually due to its weight. I kinda wanted to test its limit haha time for a corexy. Direct drive mod by BoothyBoothy (thingiverse.com/thing:3881061)
+ender3,fpjjtrl,t3_gdq4y0,1588671196.0,Where did you get that aluminum mount? Also does it help dissipate some of the heat quicker?
+tinnitus,fov8sry,t1_fov8fn5,1588097254.0,Like grains on film negatives or static on an analog TV
+ender3,foaxipo,t3_g6njvc,1587653773.0,"I don't know how to add text with pictures on the post. But anyway, thanks everyone for helping me so far. I've been printing perfect PETG parts. Decided to build the BFPTouch for the glass bed since I had a microservo sg90 laying around. It took a bit of fiddling with the z offset for bltouch config but it worked out fine! 
+There's still a bit of ringing in the z seam and stringing. Other than that I would like to redesign the parts to be able to print at higher speed. Currently 35 mm/s at 240"
+ender3,fntelm6,t3_g3q5i7,1587240095.0,Try FreeABL. It uses stock parts and some extra cables
+ender3,fnt55d8,t1_fnsvnms,1587234809.0,What was your fan settings? And printing speed? With 265 all metal sounds like you can go quite fast. Won't being expose to high temp melt your fan duct? Like my PLA fan duct melt while printing PETG
+ender3,fnse13t,t1_fnsdjtc,1587219580.0,"Thank you for all your answers! I'm using stock spring so I have to level every print just to be sure. I do want a lazy way out to automate the printer and be sure that everytime I upload a print it will come out perfect, without apply hair spray even. 
+
+What are the best tests do you think? I didn't want to waste filament to do a proper test and ended up failing 2 prints haha I'm still learning"
+ender3,fnscaki,t1_fnsbspb,1587218434.0,Thanks. Should I use hot water? Also will an ABL help a lot with bed leveling
+ender3,fnsc2c2,t3_g30vvt,1587218281.0,I will. I usually soak the surface with a bit pure acetone then scrape the surface. Should I use hot water instead?
+ender3,fnsbp4f,t1_fnsat6c,1587218030.0,Glass bed with hair spray. I don't have an enclosure except a piece of wood and a big magazine next to the printer
+ender3,fns7t2u,t1_fns6oh6,1587215169.0,"Thanks. I will definitely try lowering the nozzle. The one above got ripped off the bed mid print, as well as the second one. I had one ok printed with a brim"
+ender3,fns4dtt,t1_fns3v6r,1587212277.0,"Thanks, I will try going 235 right now. Current retraction is 6mm 45mm/s on direct drive. This is my first post that gotten so much replies. Thanks yall so much
+
+Feels like I should print another i3 clone because who has the time to wait for one printer to finish?!"
+ender3,fns4559,t1_fns351z,1587212058.0,"Thanks for asking, yes I edited the e-step cal on klipper right after I installed the direct drive. It worked fine with PLA. Can you recommend a temp tower for PETG that only goes from 220 to 245? I have stock tube it cant go up 250. 
+
+I read that PETG doesn't like to be squished down so I had the nozzle up a bit comparing to PLA mode. 
+
+I'm using a single 5015 fan 24V, is there a way to visually see how the fan effects stringing?"
+ender3,fns3otg,t1_fns39lz,1587211647.0,"Thanks for asking, I modded thing:3881061 to single 5015 on right side with direct drive. But the fan doesn't turn on after 3rd layer so I really don't know. I've only been using this for 2 months during quarantine"
+ender3,fns2dkx,t1_fns1fiz,1587210419.0,"Also the manufacturer temp recommend are 220-240 and 60-80. I haven't tried going over 240 due to stock tube. But if it's still printing at 225, does it mean the layers aren't fused properly?"
+ender3,fns1xee,t1_fns1fiz,1587209989.0,"Thanks for replying! This is my first time printing PETG. I'm printing a case for my raspberry rn, reduced flow to 80% at temp 225. The nozzle seems to be little bit under extruding, but it's catching less plastic around the rim. I think it's because my bed is not perfectly leveled, the nozzle is catching some of the plastic everytime it moves. 
+I'm observing it right now, adjusting the bed while its printing to get perfect layer. 
+Thanks I'll definitely get the PTFE tube, still using stock tube and it cant go over 250. Do you recommend any good seller on amazon for all metal hotend like the micro swiss?"
+ender3,fns0us6,t1_fnoxzst,1587208945.0,"Hot end 230
+Bed 80
+Fan 20% at layer 4
+Speed 35mm/s
+I have tried reducing the flow to 80% but no change, going down further right. Pressure advance 0.015 enabled on klipper
+Retraction 5mm 45mm/s
+
+I had the nozzle barely touching the paper. Used CHEP bed level gcode. 
+
+Should I set z-offset further?"
+FixMyPrint,fnoi4vh,t3_g2yosi,1587125730.0,Sometimes stl model has errors in it causing missing layers after slicing. Have you successfully printed this with different filament?
+ender3,fnkwrn6,t1_fnjv561,1587041934.0,Would a regular hair dryer work? Printed my first fan duct mod with PETG and there's a little stringing inside the duct
+ender3,fn82c9y,t1_fn6zway,1586732433.0,"I'm using this direct drive mod (thingiverse.com/thing:3386628) printed with PLA, 40 infill, 4 walls, so my bad. It became a bit wobbly while printing another thing at 60mm/s. I have this DIY single motor dual z mod from Proper Printing so I guess weight shouldn't be a problem"
+ender3,fn80sm5,t1_fn6zway,1586731532.0,Omg please do! Thank you so much! My BLtouch is shipping in but it's taking weeks with the corona virus going on. I knew you could do free ABL on Marlin but I'm running klipper. So that's gonna take some time to figure out. But your design look quite compact and secured comparing to what I've been looking at!
+ender3,fn4cnit,t3_fyv13y,1586638641.0,Also is that travel switch for auto bed leveling? I saw Proper Printing did something like this but haven't tried it
+ender3,fn2vadt,t3_fyv13y,1586604684.0,Nice touch on those jiggly eyes. Which direct driver mod are you using and how that's working out for you?
+3Dprinting,fmxsxy2,t1_fmwkhgz,1586471253.0,"Actually quite useful for casual motion tracking, you can assign different hand motions for play/stop, open apps, etc. I sold mine few years ago but would be happy to buy it again"
+eyeblech,fljedi7,t3_foy5r8,1585208952.0,"As far as bestgore goes, that site been haunting me since high school"
+bipolar,fl4iijx,t3_fmdxfl,1584814263.0,"Okay ew it's a decent ""woke"" movie. And no it doesn't portrait mental illness correctly, obviously exaggerated because it's fictional and it even romanticizes mental illness. Most movies make me tear up in general because of the overwhelming emotions, but sadly it doesn't mean the movie has some sorts of underlying meaning"
+dankmemes,fe1qigv,t1_fe15j1d,1578829651.0,"With heating seat, warm water and dryer? I don't even use paper or towels to dry my cheeks. Just sit and wait for them to dry out really, checking dank memes meanwhile"
+tifu,fdvslvj,t1_fdvpef2,1578751101.0,Fell for it 😂
+shittyaquariums,fdvicaf,t1_fduvx3b,1578747689.0,Laughed way too hard at this
+communitychannel,fd7197l,t3_ek6jd8,1578198213.0,She's on twitter once in a while
+truerateme,fadgnmt,t3_e8lkob,1575970533.0,"6 I really like your eyes, and your nose of course"
+starterpacks,f9n5yeg,t3_e5z1a2,1575477716.0,Ok Boomer
+BPD,f9jrv1l,t1_f9jnuu4,1575384175.0,My brain doesn't register that kind of information. Someone could be genuinely complimenting me and I would doubt in 99% in my heart.
+BPD,f8seg0b,t3_e1u7ge,1574778558.0,"When people give me compliments on my look, my first response would be ""For real?!"". I'm 5'6 and I hate it so much"
+BPD,f6lp6dg,t1_f6kldhj,1572956292.0,"Thank you for your kind words. I just can't seem to like myself more. Everytime I try to, it feels guilty because I'd always think I'm a piece of shit. It's complicated. I want to be loved but I don't know if I deserve it. Nor should I keep looking, because without a goal in mind, I'd just be wasting other people's time by making them hanging out with me, and I'm literally the most boring quiet person. 
+
+Also I just can't seem to find any emotion within me. Everything is just okay now. I work from home and rarely meet people. I think I'm dissasociating so much it's hard for me to relate to other people as well as myself. I'm just floating now"
+gonewild,f6kb1qm,t3_dript1,1572909131.0,Username checked out
+BPD,f6k57aw,t3_drn2z7,1572905158.0,"I think you will need to initiate some sorts of gathering with his parents so sort things out. The goal is to find a common ground. This is a pretty messed up situation IMHO. But you are doing more than enough, and if they can't find a way to appreciate it then I don't think they deserve you. I don't want to assume things but it sounds like you're in your late 20s. Personally I think there're still time for more pleasant memories and self-love"
+fitbit,f6hd2il,t1_f6dlmee,1572843575.0,I'm planning to get a fitness tracker. May be fitbit charge 3. But the recent fitbit os update and Google acquiring fitbit kinda make me hesitated. Does xiaomi band do better at all?
+BPD,f5vqg8l,t1_f5titzl,1572496280.0,"I'm also a people pleaser and I absolutely hate it. But I do want people to like me so sometimes I go through great length to show them that I'm likable. And I'd get really upset if someone disappointed at me or misunderstood me. This somehow relates to being raised by my single parent, who never gave me enough validation. 
+I also wonder most of the time who I would be without BPD. It's such a big part of me but I'd hate to be defined by my mental illness."
+BPD,f52c4kc,t1_f502y9x,1571949066.0,"This is weirdly true. I also behave differently with friends, colleagues, families, or dates. I also see myself mimicking other friends sometimes when I was younger. I remember sharing with my best friend about how I wear different mental masks for different settings when I was like 14. 
+It sucks indeed. Sometimes it makes me feeling like a people pleaser and that I lack originality"
+BPD,f4vycxm,t1_f4vt821,1571849528.0,"Being a guy on tinder makes it harder sometimes because most girls don't initiate convos (I think it's because they just get way more matches than us and don't have time to reply to all). And some don't reply back haha (which sometimes makes me feel like I made a mistake not starting with a good line, etc). So I actually went on dates with about 10% of my matches. I'm terrible at keeping touch too, which ended up with me ghosting this one girl for almost a month. We went on a few dates and had good chemistry but it just doesn't feel right. I felt so bad when she confronted me after and just kept apologizing to her for being insensitive. 
+But most of time I'd rather seeing a good therapist than going on a date."
+Watches,f49kggj,t1_f49ao2s,1571470853.0,"This guy explains. On another hand, I just built my first $1.7k PC early this year. Could I get some recommendations on my first mechanical watch as well?"
+terracehouse,f2a8699,t3_dcpffp,1570109881.0,I actually love this. Holy shit
+BPD,f1p6v4c,t1_f1p0lus,1569673758.0,"It's like a never ending marathon where you just have to keep calm and keep running not knowing what's coming but still gotta keep running nevertheless. I don't think I will ever change, but I can maintain my rationality whenever I get panicked. Reading these posts knowing I'm not alone really helps keeping me on the ground most of the time. Almost like I'm building BPD standards based on everyone's behaviors"
+COMPLETEANARCHY,euz1frq,t3_chp9ff,1564111726.0,"Landlord here. I've been managing a small complex for almost a year now. I try to please my tenants most of the time, including fixing stuffs asap and maintaining good relationships with them. But I still feel like I haven't done enough. This post really reconfirms what I think about my job. Now I'm going to hang myself."
+Wellthatsucks,eux19m2,t3_chq66u,1564082065.0,Bring two locks if you live in portland or any major cities lmao
+StonerPhilosophy,eti0tta,t3_cbrbdh,1562834170.0,"Bro I'm M24 and so many of my friends are way more successful than I am because back then I was scared that I wouldn't be good at something. The guy above said it, a bit of exposure at a time gonna do you solid no matter what"
+FoodSins,eti0kdk,t3_cbecn2,1562833786.0,I batted by eye. I blink but I don't flinch. Words don't matter at this point. The whole thing is cursed.
+bipolar,eszbmh6,t3_c9jmne,1562358884.0,Haha it does. I never tell them tho. Rather use that specious time to talk about my insecurities and trauma
+dating,esz6oev,t1_esxyfzl,1562356214.0,"I can second this. Was super high with a date on seperate occasions and while being high I realized the character patterns and how repetitive both of us was. So I made bold moves which were outside of my comfort zone. And everything came out great. I apologize for the minor drug detail, it just somehow makes everything pointlessly clearer. 
+
+Also I'm on online dating app which helps finding and talking to people better. It also helps boosting your confidence in a way. Like how alot of profiles are there for the validation. It gets better once you're used to it and you'll just have to keep looking."
+StonerPhilosophy,eseaeut,t3_c77475,1561889993.0,"Yea once you lose connection to reality, the amount of information perceived is limited within your senses. I feel that when I'm high I'd be able to experience better satisfaction from doing various things. Like beyond feeling good"
+RobotVacuums,erue0a4,t3_bcq8xj,1561274501.0,How long have you been using the roborock and have you had any problem with it? I'm thinking about purchasing the same model
+AskReddit,eqv26gq,t1_eqtbi6a,1560339543.0,Overrated af
+bipolar,eqnu3w5,t1_eqnjtkw,1560180249.0,I've had bipolar for as long as I can remember. The depressive phase got so long I forgot who I am without my disorder. I just got back on meds so hoping everything will be okay. I'm so glad I found this sub
+bipolar,eqj8gjr,t3_bykx67,1560100701.0,Thank you! I literally cried reading your post. I've been feeling so lonely lately
+dating,eqj74lj,t3_bybovo,1560100060.0,I've heard a therapist saying psychopaths and people with bipolar disorders should not reproduce. What really hits me is that she might be true in an extreme way. Mental disorders are very hard to control and in someway they will never be whole
+books,eqhp5w9,t3_by900r,1560066277.0,"I remember asking my literature teacher in middle school about this. In vietnam, the traditional teaching is pretty much listen and repeat kind of thing. Kids really don't relate anyway with older idioms etc. And it's very hard to explain the author's intention if one's not familiar with his background, timeline, personalities, etc. But I think it all comes down to how widely known the piece is, and how people contribute to its meaning. May be its value is really based on the audience. The internet has helped creating/expanding popular sensations/memes that most people can relate with. It's very interesting reading different opinions on something we all try to relate to. Then it stops being the question of ""why the author meant that"" and becomes more like ""how do you interprete/like/dislike it"". What a time to be alive!"
+dankmemes,eqcnf1t,t3_by2jt5,1559974248.0,New isekai content. 10/10 would watch
+dank_meme,epzoote,t3_bwoeff,1559669729.0,Reposttttt
+gentlemanboners,epya93g,t3_bwe8gg,1559625039.0,Boobs job done right. She looks fantastic
+Pizza,epy8xo0,t1_epxitxv,1559623568.0,"Can you tell us more what kind of oven used, how hot and how long?"
+YarnPunk,ep4a8s6,t3_btpgfb,1559036425.0,Looks great! Very creative way to redo some old clothes

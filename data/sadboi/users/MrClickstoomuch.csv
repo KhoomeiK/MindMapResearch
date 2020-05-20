@@ -1,0 +1,373 @@
+matlab,fqk55bq,t3_gjcb4q,1589420348.0,"Hi there, if you want a sinple prompt you are probably looking at the inputdlg command for getting the user coefficients. Alternatively, you can prompt the user directly at the command window. I like inputdlg better personally.
+
+I think the default format it accepts though is string so you may need to convert its outputs to double or number format.
+
+From there, you can solve out for the unknowns through a number of ways. I'd look into the solve command or symbolic expressions in matlab.
+
+Hope that helps."
+smarthome,fqjfnmh,t1_fqje8in,1589409271.0,"That's actually perfect. I've got a raspberry pi B (?) that I was considering using as a Pi-hole to limit ads but this would be a better use of it. I've also got an original kindle fire tablet from ~9 years ago that I could potentially use too.
+
+I'll look at the subreddit. Thanks!
+
+Would the zigbee still require the smartthings hub? My guess is yes.
+
+Edited b/c the big dumb"
+smarthome,fqjen6d,t1_fqjdt86,1589408870.0,"I'll start reading up on it, thanks! I'm open to code if I need to but plug and play solutions are ideal. I've got some smart lights, a few door sensors, and an occupancy sensor. Ideally making it so my apartment is more visitor friendly with the smart home things."
+smarthome,fqjch78,t1_fqj0kt2,1589408004.0,"Any advice for how to start with homrassistant? I've been using IFTTT, Alexa, and smartthings for my apartment but I'm naturally concerned about privacy and data.
+
+Also, does anyone know if there is a way to still use your Smartthings devices with Home Assistant? Or would I need to buy new smart devices?
+
+I'm in an apartment if that restricts my options (like switches, etc.)"
+pics,fqbmcmn,t1_fqb2bja,1589239692.0,"To add to the other comment, I'm worried personally about the small business owners. The Small Business Assistance loans were administrated by big banks preferentially to those who owed them the most money (hint: not what you or I consider small businesses).
+
+We needed relief to support smaller businesses earlier than the proposals now and with restrictions on employees being smaller (like 50 or 100 instead of 500 employees). Instead you have small businesses where SBA loans eaten up by restaurant chains like Steak Shack...
+
+The government's fucked people. Republicans especially, but their constituents just blame democratic lawmakers instead of the source of the problem being relief either delayed (unemployment) or never received because the funds ran out (SBA loans)."
+Motors,fq30ged,t1_fq20k2t,1589061874.0,"Thabks for the help! I think I've found a close enough solution for if I don't rotate the motor at least. Running it through the rotation script to double check and it turns out the starting point is +0.02 Nm while rotating it now actually gets me much higher torque numbers like between -0.05Nm to +0.86Nm. And the +0.86Nm torque is just 0.6° from the point where I had -0.05Nm.
+
+If I never rotate my motor my cogging torque is fine. My flux linkage looks to be the exact same shape as the LRK motor example (just with a different starting point) with peaks at +/-0.0078.
+
+I had a 2 part problem:
+
+1. 
+
+I had my material air set for 3""+ out from my motor, but never set up a separate boundary property to define the edge toward infinity. Using the onion method you linked still had the high cogging torque by itself.
+
+2. 
+
+My windings I generated with a script had 0 space for the same air material to define the outside of the rotor and inside of the motor. I added a separate air condition at the center of the motor to resolve this originally. However, I didn't have any onion boundary condition on the inside of the motor (may be worthwhile as I have a ton of elements just of air in the center of the motor). My understanding is if I did the onion method on the inside of the motor is that I'd need to reverse the mux and muy permability layering such that it increases toward motor center.
+
+Adding a small gap between slots (I'm using distributed windings) connected the inside and outside air regions. I think this had no inner boundary condition and that was another part of my issue."
+Motors,fq1x7vo,t1_fq148p3,1589050697.0,"Yep. I'm using a script to get the blockintegral 22 (the weighted stress tensor torque) of the entire group which includes the inner and outer rotor rings. I'm rotating the rotor ring 15 degrees total if I recal right.
+
+I double checked last night that I had no current in circuit A, B, or C.
+
+My boundary condition is a large square around my motor with the air material. I'll check out the boundary condition you mentioned because I don't recall any boundary condition setup other than that.
+
+I am simulating the whole motor so it has a lot of elements (100,000 nodes) but I can run each sim in about 10-15s so it isn't prohibitively time consuming. Still, if I could be more accurate and reduce run time together that would be great."
+Motors,fpykxqy,t1_fnzokdt,1589005613.0,"Took me a while to get back to this because I was looking into my model and hand calcs to see if I can figure out some additional errors. I used a Lorentz Force method. I think I found a large part of the discrepancy between my hand calcs and the model though.
+
+First I needed to determine the flux that influences the windings per pole. I used an estimate of peak magnetic flux from a pdf I found from Shane Coulton that provides a very simplified motor design process. The peak magnetic field is approximately equal to the remanent flux density (Br) multiplied by the magnet thickness (t) divided by t plus the distance to the air gap center (g).
+
+I'm using N52 magnets so Br was 1.3, t=0.25"", and the distance to center of the windings 1/8"" (3mm). This gave me B as 0.93T peak. The big problem with my math from here on out was I didn't consider that this was the *peak*, not average field at my windings. In FEMM this was closer to 0.55 for a 40% drop. I assumed it would be lower by 10% but forgot how thin my magnets were. I had much less difference with peak and average flux using half-inch thick magnets.
+
+Then, I can use a lorentz force calculation based on the number of active lengths of wire I'm using (N), the current (I), the magnetic field (B), the length of active wire L (wire length perpendicular to the flux, using a cross product), and radius at the center of the winding (R). I assumed a length of 1"" (to equal my magnet length), a radius of 4.5"", magnetic field B of 0.93 (known wrong now), 1A current, and N as the total windings in the motor 180. This gives me 0.5 Nm/A for the entire motor. If I reduce it 40%, then also consider my flux was reduced another 0.05T when I implemented it in the motor, this is pretty close to the 0.24Nm at 1A. My litz wire strands were considered as 1 wire total for all strands combined. If I had considered my halbach motor spreads the flux over a wider area it would have been a much closer estimate.
+
+I'm still a bit stuck on the motor though because my cogging torque is not very sinusoidal. Compared to the LRK motor tutorial for FEMM mine is all over the place. I might need to make a much smaller version of the motor first to check if my math and simulations make sense.
+
+Edit: just realized cogging torque is from the steel/iron in the stator. Why would I even be getting cogging torque in an ironless stator in FEMM? I am using the move rotate command on my entire inner and outer rotor groups together, so differences between the angles shouldn't even happen."
+Amd,fpy0jqx,t1_fpxw1ed,1588993405.0,"Or it sours customer relations when you indicate that some level of compatibility will be there when it isn't.
+
+I've been using my 1800x and 370x taichi motherboard for a while and hoped to upgrade to the new 4700x when it came out with my existing motherboard. Now they are losing a sale of the 4700 series and I'll likely just wait till ddr5 and the next generation processors now. It may have been the better move on my part anyway but we'll see."
+pcgaming,fpxa3q9,t1_fpx6ve2,1588978609.0,"Yes, but his point is why get the 3400g rather than stick with the 2400g until you could upgrade directly to the 3600x and an external graphics card?
+
+Sure amd integrated destroys intel integrated but it is pretty bad compared to buying a graphics card (if you have the money for it of course)."
+PokemonSwordAndShield,fp7fnio,t3_gbl8o5,1588369735.0,Those are all great pokemon! Good luck to everyone here and thanks for the giveaway!
+dating,fomec1x,t1_fom57vv,1587886954.0,"Lol I was going through the comments like, ""yeah I'm doing good!""... until I got to your comment. I use a grocery bag because if I already get it from the store I may as well reuse it before it gets recycled or trashed. 
+
+Is it really that bad? It's a closed top bin so you can't tell until you open it."
+news,foiy14u,t1_foi505p,1587800939.0,"Not the person you replied to but you specifically mentioned that no one was raising a family of 4 on minimum wage. He refuted that by saying 21% of children were on SNAP. I can source that but a google search pulls it up. 9.2% of US households were on SNAP in 2017 (wikipedia). 10% isn't ""no one"" raising a family of 4 on minimum wage. If companies paid a livable wage assuming two income earners the government wouldn't need to provide as much crutches to people.
+
+The whole reason for poverty assistance is to avoid people being in poverty their whole lives (56% chance of getting out of poverty if they were in it for less than a year, or 13% if they are in poverty for over 7 years). Needing poverty assistance reduces the vicious cycle. Link below on poverty exit stats.
+
+https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.urban.org/sites/default/files/publication/30636/411956-Transitioning-In-and-Out-of-Poverty.PDF&ved=2ahUKEwifofWDi4PpAhVfAZ0JHbcCC10QFjAMegQIBxAB&usg=AOvVaw0uYbqFHkYb8NSBCCj_m3R4"
+FinancialPlanning,foirzzn,t1_foi6bxg,1587795126.0,"Just a note on your last point: you can take a 401K loan for a down payment. While you do pay interest, the interest goes straight to your 401k, not to a 3rd party. You do need to pay it back in less than 5 years and it would have an impact on your qualifications, but is better to invest in a 401k if you have a match than a roth.
+
+ A ROTH does have restrictions that you can withdraw from it penalty free only if you had the account for 5 years. That can be an issue if you want to buy the house while you are younger.
+
+I do agree with your assessment though that it is smart to diversify your tax status. You should have a mix of pre-tax and post-tax investments."
+nutrition,foenjch,t1_fo43yg8,1587708707.0,"I was wondering why I hated Stevia so much! Tried a few different brands of sweetener to drop back on pop but it just tasted horrible. Ended up with Crystal Light but I really don't like the idea of consuming sucralose. 
+
+Have you tried the monk fruit sweetener or would know how well that would work for smoothies and shakes? I got some chocolate milk with monk fruit sweetener (fairlife DHA?) and was suprised how good it was without giving me stomach issues. Still has 12g of sugar though."
+Motors,fnygwth,t1_fnxlmmk,1587362736.0,"I was modelling them as litz wires with X strands of a certain AWG, then the N turns per slot. I'm modeling it as an angular section of the motor per slot (it's a 50 pole, 54 slot motor w/ 100 magnets b/c a halbach motor has 2 magnets per pole as I understand it on my arrangement). I originally tried modeling the individual windings to be more realistic but it crashed.
+
+What I'll probably do is model the equivalent AWG of the litz wire b/c I'm assuming adding extra turns would increase the torque constant."
+Motors,fnx5see,t1_fnx109l,1587332036.0,"Hey, I'm not the OP but I've been having some problems with FEMM working on a similar motor (radial flux ironless motor). I'm designing it based on the marand halbach motor (originally an axial flux design) with two magnet rings. I simulated the motor with a linearized version and got 0.8T of magnetic flux. Based on my hand calcs I should get around 0.5 Nm/A with my current stator design but I instead get -0.23 Nm/A in femm with a litz wire sim.
+
+Mind if I share my model with you to get feedback? I'm pretty sure it involves my current applied or my copper wire properties in femm. I used the bavaria winding link below to align my stator wiring but guess I'm doing something wrong.
+
+http://www.bavaria-direct.co.za/scheme/calculator/
+
+Plus I really need to figure out a better way to do distributed windings in femm."
+gadgets,fnm6h2a,t1_fnj2axj,1587065927.0,"Yeah, the other big demographic is the older crowd who doesn't understand the difference between iphones and just wants to have the same user experience as their old iphone.
+
+My step dad literally only uses his phone for calls but loves the iphone interface. This would be great for him because he would never go to an android device as he would have to relearn how to do the basics, but is cheaper than a normal iphone. Especially considering he doesn't upgrade for features, only when he breaks his phone."
+buildapcsales,fn0u6ze,t1_fn04kcg,1586548816.0,"Has AMD announced that zen 3 would still be on the current socket? I've been ok with my 1800x and vega 56 for now but have been looking to upgrade my processor for the single thread improvements.
+
+Either way I'm waiting until later this year but last I heard it was still up in the air for zen 3."
+dndmemes,fmx2doz,t1_fmv3tfa,1586457237.0,"I played this in a campaign as a joke before. The DM had a system where he would roll for life events every 10 years so I made a 500 year old bard. Had a few drug addictions and lots of kids.
+
+The campaign only went on for a few sessions, and I worked it out with him to roll for which subclass my bard was at the beginning of the each session. My bard was forgetting his life and went adventuring to try to make new memories to ""jump start"" his brain into remembering again."
+PresidentialRaceMemes,fmud8bl,t1_fmssh5m,1586389113.0,"Lol I can't believe my mom after this primary. She liked Bloomberg because ""Trump is afraid of him being a real billionaire"" then voted for Biden after Bloomberg dropped out. For fuck's sake."
+politics,fmtc9xn,t1_fmtaqb2,1586370324.0,"Yeah I was pretty irritated with my parents when I heard they voted for Biden. Their main complaint was that they had insurance through their pension plan and Bernie didn't have any plans to help them. Pretty much the same, ""got mine"" mentality they complain about for republicans...
+
+I think that was a weak part of his campaign for my parents at least. They would likely pay more under Bernie's plan and he didn't mention how pension plan employees would be impacted in his examples as far as I could tell.
+
+They pretty much only watch MSNBC or Fox instead of going to campaign websites for details. Hell, they thought that Biden did the same as Bernie for civil rights when Biden actually supported segregation.
+
+Now we will just have two elderly, senile white men candidates rambling through debates."
+worldnews,fmrgr3s,t1_fmr8w7d,1586322720.0,"You do realize that people can think the WHO are idiots (or bought out by the Chinese) for not recognizing Taiwan as a separate country for pandemic assistance and also think Trump is a complete asshole for cutting WHO funding when they need it most, right? The WHO isn't perfect for sure but don't handicap them with an ongoing pandemic.
+
+Also, not everyone on reddit is the same person. Some commentors hate the WHO and others may not."
+3Dprinting,fmnnuml,t3_fwbltq,1586230530.0,"I haven't seen anyone else here recommend it yet but I'd highly recommend getting a caliper and measuring various parts of your print bed. It could be that your printer's alignment may be messed up during shipping. I was about ready to get a resin printer after all my problems with my delta but pulled out a micrometer to realize my bed wasn't level because it wasn't tightened down right. 
+
+Got all 6 corners of my hexagon build plate within .3 mm and my prints work a lot better. Still some issues but you'll get better at fixing those in software with practice."
+3Dprinting,flwcyq4,t1_flunedj,1585546454.0,Thanks for the subreddit! I moved apartments and my 3d printer stopped printing at acceptable quality. I've mostly fixed my settings but am having stringing issues now. Hoping that increasing my retraction distance works.
+worldnews,flhyctr,t1_flhutn5,1585171811.0,"I think you were getting it mixed up with swine flu in 2008. There was a previous bad influenza case very similar to swine flu in 1968 which is why older people were most resistant.
+
+Here's a source from ScienceDaily with additional details.
+
+https://www.sciencedaily.com/releases/2010/03/100324142001.htm"
+SandersForPresident,flf4jka,t1_flexgze,1585097894.0,"Sure. First, visit their presidential campaign pages. There, you will get the info direct from the candidates. First link goes direct to Biden's page, 2nd to Bernie's page:
+
+https://joebiden.com/joes-vision/
+
+https://berniesanders.com/issues/
+
+Googling these issues will provide additional info outside of what the candidates post, but you need to review the website for bias.
+
+Then, look into their voting records. Have they voted for causes you support? I'm linking an example website below but you can search up voting records from their time in office.
+
+https://justfacts.votesmart.org/candidate/key-votes/53279/joe-biden-jr
+
+Also, look into what activism each candidate has done outside of voting. Bernie has been involved in numerous civil rights events outside of being a Senator while I'm unsure of Biden's activities."
+childfree,fl634xz,t1_fl5x8o3,1584852934.0,"I would say the big difference there is that PPE is required for abortions while a liquor store doesn't impact their hospital equipment supplies.
+
+I don't believe that liquor stores are essential. I believe abortions should be assessible to all. But the other commentor has a point that other important medical procedures (like chemo) not being performed due to the lack of PPE. I'm not as pissed at the state government prioritization as I am the federal government's lack of response that caused it to get this bad in the first place. It's fucked that its got to this point that extremely important care is delayed."
+videos,fkrz67b,t1_fkqmaqt,1584478956.0,"Looks like Mnuchin is looking into it. At ~noon today Mnuchin announced they were looking to send checks to Americans in about 2 weeks to help them through this, but the exact number isn't listed, nor who would be sent a check.
+
+https://www.google.com/amp/s/nypost.com/2020/03/17/white-house-will-send-checks-to-americans-to-fight-coronavirus-economic-impact-mnuchin/amp/
+
+An interesting idea but we'll see if they implement it or not."
+functionalprint,fka16wi,t1_fk9zutx,1583989024.0,"1 could probably get you to ~25 mph but you would need to have a gear system to increase the torque. Though the RPMs might be somewhat ok for a skateboard's tiny wheels. Can't use it as a hub motor for a bike or scooter though. If I remember it right he built it for high RPM for RC plane propellers (20,000 RPM) so you need gears to increase torque and lower RPM at the wheel. Or push a ton of current through it.
+
+With 2 motors you would likely have the same problem. Better/larger magnets help but you are limited by the motor structural integrity then."
+functionalprint,fk9uvvy,t1_fk6dn1k,1583984164.0,If you are talking about the Christoph halbach motor it outputs enough power for an ebike so it should be plenty for a scooter or skateboard. Most ebikes use 250-500w motors. I think the original version only worked for 250w but it is now at 500-1000w continuous with peak power limited by durability right now. He rates it at 600w but other youtubers have got slightly more watts out of it.
+WritingPrompts,fk5ubyc,t1_fk5jnn3,1583888030.0,Stolen for an NPC who is going to request help from the party for sure. Or I could go the more screwed up route and have the adopted child end up being 'adopted' again by the witch.
+AskReddit,fk5g10h,t1_fk4hqq7,1583879749.0,"Yeah, my family still wants to go on a vacation in May and I'm unsure considering the spread through the US. We don't plan to go out of country but my parents are almost 70 so pretty high risk for COVID19."
+financialindependence,fk34g2j,t1_fk2npcn,1583817405.0,"Off topic, but is there any method to have both a FSA and HSA together to get the deduction benefit? I don't remember any literature about the option when selecting health plans for this year. Searching online indicates that there is a 'limited FSA' and 'combination FSA' but don't know anything but their names."
+financialindependence,fk33oqd,t1_fk2vgql,1583816681.0,"You'd want to put the money in the HSA and withdraw from it for known medical expenses vs not taking advantage of it at all. It is 100% tax free for thst purpose so it will let you spend less overall than taking the tax hit and then paying the medical bill.
+
+Example: assume 22% tax rate.
+3k HSA - 500 medical out of pocket = 2500.
+2.25k HSA + 750*(1-0.22) - 500 out of pocket = 2335.
+
+You'd be out about $150 by not putting the money in there. Or if you spend the full $3000/yr you'd still be ahead $660 just on the 22% tax rate.
+
+Hopefully that helps - it is super late here and not sure if I'm explaining it quite right."
+DungeonsAndDragons,fk2kf5v,t1_fk0lnej,1583802986.0,"This looks sweet, can you keep the subreddit in the loop when your etsy store is ready? I'm addicted to caster classes so a hp one by itself wouldn't be enough!"
+SandersForPresident,fjorgoa,t1_fjopaf8,1583533390.0,"I agree on this. My parents both support Biden as they have medical insurance through the state and haven't heard enough details from Bernie on what will happen to their state-pension provided insurance. There is no solid details about if they would lose that pension benefit from the state or if they would receive pension income raises now that the pension no longer would need to cover insurance. A rise in taxes on their pension would be a sizeable cost increase compared to them having 'free' quality insurance.
+
+For them more details on the transition are CRITICAL to earn their vote, same as the transition details on insurance workers."
+PrintedMinis,fjjaz3q,t1_fj854hv,1583388733.0,I've been looking into a new printer since it looks like repairs for my current one will be almost as expensive as some new ones. Any reason why you didn't mention the Monoprice MP Mini Deluxe? I see it on sale on amazon for $300 which us a solid $100 cheaper than the Anycubic Photon S at $400. Am I missing something with the print quality or time for the monoprice printer?
+environment,fjioxln,t1_fjhtl9d,1583372445.0,"This whole article is weird. Originally released in may 30th 2019 and only updated today with Biden's improved score from the D to a B+. Meanwhile Bernie AND Warren both had improvements to their scores to A+ and A respectively but are not mentioned in the article updates. This implies that Biden's environmental plan is scored the same as Bernie or Warren's which is misleading.
+
+The updated acores are at Greenpeace's website:
+
+https://www.greenpeace.org/usa/climate2020/"
+AskReddit,fjh602z,t1_fjguv4b,1583341907.0,"Apparently they are splitting him into two characters - a commanding officer as a 'surrogate father and mentor' and a squad mate. They don't say if the squad mate would be a love interest or not.
+
+I'm not going to watch the movie anyway but still strange they are cutting main characters."
+gaming,fjaeq2r,t1_fjabjnt,1583171973.0,"Search for the science-based dragon mmo and you shall receive:
+
+https://www.google.com/url?sa=t&source=web&rct=j&url=https://amp.reddit.com/r/gaming/comments/p1ssv/dear_internet_im_a_26_year_old_lady_whos_been/&ved=2ahUKEwj9xKK0rvznAhUIsp4KHWYwAV0QFjAAegQIBBAB&usg=AOvVaw1-jHrTnlmRHxch9p_L8hAe"
+underlords,fj8zs7j,t1_fj8fhuu,1583127044.0,"Yeah I got a 3 star storm spirit and regretted it. The only time I do it now is when I transition into the 6 mage/2 human/4 spirits build now but even then you'd prefer the extra storm spirit body. I feel kinda bad because I'm pretty much a savages / spirit mages one trick now.
+
+That earth spirit can be surprisingly useful with blink for the early silence vs disruptor to stop them from delaying you from going off. The most delta slams I've gotten was 5 in a round vs some really stacked brawnies."
+investing,fj2qyk3,t1_fj1j21n,1582951168.0,Still new to investing and mostly in equities. Looks like really solid performance on the TLT bonds especially in light of current equities drops. Any advice on learning more about higher yielding bonds and their risks vs stocks?
+investing,fj2qib5,t1_fj1ydpk,1582950788.0,"Yeah, in my case I was half-way done with maxing my traditional IRA last year but didn't fully max it out to assist with a housing down payment. However that's been moving slower than expected because I'm indecisive. I figure I might as well max out my traditional IRA at the discounted price, get the tax refund and be in good shape still by the time I buy."
+matlab,finn8h6,t1_fihro13,1582566429.0,So if I have a Ryzen 1800x would setting MKL_DEBUG_CPU_TYPE=5 improve matlab MKL operations? I'm not sure if the improvement is exclusive to newest gen ryzen processors or all ryzen processors.
+TwoXChromosomes,fhrnqyh,t1_fhqslpu,1581831767.0,"Meanwhile my mom is a fan of his, essentially talking about how Trump's afraid of a 'real billionaire'. She says he's got a great record in business and as mayor. Yet he didn't join the race until the DNC removed the donor requirements right before caucuses. Probably because he knew if he threw enough money at ads that people would vote for him and not learn about his problems until too late."
+Economics,fhd6d6l,t1_fhd4h57,1581478281.0,"Np. If you start figuring out a state you're most interested in, there should be a .gov page to estimate the property tax based on the 'tax-assessed value' which, as far as I can tell, is typically 1/3 to 1/2 the house's listed value. The tax assessed value relative to the house's value goes higher for cheaper houses.
+
+Example for michigan:
+
+https://treas-secure.state.mi.us/ptestimator/PTEstimator.asp
+
+Another thing to consider is the tax rate varies massively in states. The millage rate in michigan can go as low as 23 mils in some areas and up to 70 mils in others."
+Economics,fhd3v90,t1_fhc2u6t,1581476736.0,"To clarify, indiana is pretty good among even the midwest states with a tax rate of 0.87% of the house's total value typically. The lower millage rate states are usually southern states or those out west while the midwest is more in the middle on tax rates.
+
+Here's a website to back that up:
+
+https://wallethub.com/edu/states-with-the-highest-and-lowest-property-taxes/11585/
+
+Example: michigan has a 1.7% property tax and is 41st on the list. Millage rate near ann arbor or lansing is closer to 40 to 50 mills, which gets better the further away from the cities you live. This is nearly double what the rate the person with the 400k house would pay.
+
+Of course none of this looks at typical housing values. I'd review by housing value AND tax rate if I were deciding where to live purely on that."
+churning,fh9zm1d,t1_fh9am8m,1581393369.0,You want to make sure they are FDIC insured. If they are that means they are federally insured for loss. The reason most of these accounts can off the higher interest is because they are mostly online-only (very little physical locations).
+Economics,fh8svhc,t1_fh891hb,1581366680.0,"This is adjusted to 2017 dollars. Wouldn't this imply it has inflation-adjusted value? Understandably this doesn't consider how consumer goods have gone up in value relative to inflation (or shrinkflation impact).
+
+What adjustments to the results would you suggest? The results still doesn't look great for millenials as previous households relied on one income-earner while newer melennial households have two income earners."
+matlab,fgznqk3,t3_f0xdcy,1581195896.0,"Doing this based on memory so may require some tweaking and be an inefficient way of doing it. Is your e column only numbers or a mix of numbers and strings?
+
+Here's how I'd do it since you are pulling from multiple sheets:
+
+Filename = uigetfile; % can add additional details like file filters, etc.
+
+Sheetnames = {list of sheetnames to reference};
+
+For ii=1:length(Sheetnames)
+
+      C{ii} = xlsread(Filename, Sheetnames{ii}, 'E:E');
+
+end
+
+The output should be a cell array inside C, so if you had two sheets, one of 100 rows and the other of 70 rows:
+
+C = {100x1 cell array, 70x1 cell array}.
+
+Note: can also replace the length in the for loop with 10 but this allows it to automatically pull in the right number of sheet information. You could also organize by sheetname as well if you assigned to a structure instead of a cell.
+
+Hope that helps!"
+smarthome,fgul8lt,t3_f05zge,1581123603.0,"I have mine set up essentially like this (and also to turn on an outdoor light when I arrive + turn it off shortly afterwards).
+
+I originally tried lifx mini white during a black friday sale but was disappointed that it only had the one type of white light (I personally like the cool white color best) but it works seamlessly after setup.
+
+I got some feit smart bulbs from costco and HIGHLY do not recommend them from my experience. I got 4 bulbs in november and have had non-stop connection issues. Setup was much wirse than lifx. 1 bulb now never connects to wifi (likely broken now which means a return). The other lights require me to turn on/off my switch every other day to get network connection again. Not great when the lifx ones on the same switch don't have the same issues.
+
+The big pros of the feit is the cheap prices and color changing (from a variety of whites to colors). If you are ok with the hassles feit might work ok for you if you buy 2x more than you need and replace the duds."
+financialindependence,ff9qwcm,t1_ff9mrlf,1579719044.0,"$1 each? Dang I seriously need to cook my lunches more often. I've got in the habit of packing veggies / fruits b/c it is simple and healthy, but a honeycrisp apple is like $1 per apple. Still saves vs eating out but I'm spending closer to $2.50 a meal still with a couple clementines, a small amount of dark chocolate, a pile of nuts, and a honeycrisp apple."
+quityourbullshit,ff8c6dh,t1_ff8bjx0,1579672569.0,"You are literally saying she's incapable of coming up with the thoughts herself. You are targetting her capability as a speaker / her knowledge on the subject instead of the arguments she makes. How is that not an ad hominem attack? You can say her parents support her, sure but acting like you ***know*** it is all coming from her parents is absurd. 16 year olds can have a mind of their own, and sure as hell could say no to doing speeches at the UN."
+quityourbullshit,ff8be9g,t1_ff8at5e,1579671782.0,"You do realize the difference between a human person who has autonomy and a physical puppet, right? She wasn't forced into becoming a climate change advocate, she started protesting. A team of puppeteers wouldn't choose a random girl to be an advocate, they would choose to influence people with the authority to make climate differences or use money to influence legislation.
+
+You still haven't brought up a single point against her arguments instead focusing on ad hominem attacks against her capability to speak for climate change."
+quityourbullshit,ff8an6j,t1_ff89tlx,1579671055.0,"I mean, if I was addressing world leaders I'd have notes to make sure I don't make mistakes. If she made even 1 mistake you know fox news and many conservatives would jump all over it to discredit her.
+
+Considering her popularity I highly doubt she'd be able to manage her social media herself effectively. Most famous people have a person / group managing their social media.
+
+She's trying to accomplish something good in the world that she's passionate about. Can you talk about the content of what she says instead of nust the way she says it?"
+Hairloss,fem80dm,t1_fekfrzd,1579243078.0,"I've been using minoxidil for top of my head balding the past few months with limited success. Any recommendations on conditioner to pair with the nizoral shampoo?
+
+When I talked with my doctor about my balding and mentioned if I should see a dermatologist, he said that they would just put me on minoxidil and that would be it. Propecia is the same as finasteride, right?"
+Amd,fem48ax,t1_fek9k7z,1579239216.0,"Just checked on my reference vega 56 - my wattage on the power saver mode is limited to 227w at 50% Power limit and 247w on the regular bios. Would be real nice to get the extra 25w to pull power, but I'm getting a firestrike ultra score of 5350 consistently at 240w with a 875 memory overclock. My card temp is stable at 65C with my current fan curve."
+Amd,fej5xv7,t3_ep99e3,1579158218.0,"Wait, the low power mode mode for vega caps at 247w with 50% power limit? I'm wondering if I've been in a lower power mode this entire time b/c that's exactly where mine caps at."
+buildapcsales,fe6lt24,t1_fe64sys,1578895228.0,"Yeah, I had the misfortune of buying a samsung 65"" for $550 for black Friday and it is generally worse in many ways. I wanted to use my surround sound speakers but it only has an 'optical audio out' only which requires a $10 adapter for only this tv... and as far as I know was never mentioned on the box. At least the built in speakers are good, even if the base isn't good enough."
+technology,fe6kpy5,t1_fe6kcsw,1578894116.0,"To be fair, if it stops many of them from dying from vitamin A deficiency that would be a plus in my book. Yes, they need good education, capital, and fair social rules, but just because there are other socioeconomic problems doesn't mean they/we can't do a step toward making their lives better.
+
+My understanding is the group is working with governments to make this rice cheaper / more affordable so the poorer people will be more likely to access it."
+Android,fe6k4km,t1_fe4g9vh,1578893525.0,"I'd be interested if I didn't buy a samsung s9 last black friday for $450 to replace my old 2+ year old cracked screen lg. Some enthusiasts might want this but if they are stuck on a 2 year phone contract they might be crap out of luck.
+
+Phone contracts suck and I'm glad I got my phone without one."
+techsupport,fe5kbuv,t1_fe5eypi,1578870482.0,Is there a good way to check this? The WD blue is listed as a 3d nand sata ssd m.2 so it should be compatible with both slots. I figured they would mention compatibility not working for PCIe gen 2 so they don't have a ton of returns though.
+techsupport,fe5e6ov,t1_fe5cf2j,1578868252.0,??? I think you sent this to the wrong person / comment. Hope you get some test and feel better!
+technology,fe3wv8c,t1_fe3vo9z,1578853558.0,"Yeah, I'll have to take a look. I didn't know Latham was known for misrepresenting information."
+technology,fe3sq6r,t1_fe3n6rp,1578852539.0,"Thanks for the clarification. I'm not an expert in the field and did not read the comment threads on the website. I can remove the quoted part of my comment if it is inaccurate. How much golden rice would a person need to consume to get the vitamin A requirements?  It is strange that the benefit is considered only if the person eats a significant amount of the food per day.
+
+Is the degradation part of the comment still correct? Losing 60% of the vitamin A added through the GMO process in 3 weeks is concerning, but is still better than no vitamin A in the golden rice. I'm wondering if the typical degradation amount from harvest to table is a major concern."
+technology,fe3lwua,t1_fe3gz1w,1578850517.0,"Yep, I've been hearing about it for the last couple of years and assumed they fixed the problems but as of 2017/2018 at least the big issues are still there."
+technology,fe3e3ue,t1_fe253fv,1578848430.0,"I'm pro-GMO in general, but golden rice in particular appears to be overhyped. The beta-carotene that they are adding to get vitamin A degrades 60% after 3 weeks from harvest and 90% after 10 weeks. Keep in mind it takes time for the rice to get from harvest to table.
+
+FDA finds it has no significant nutritional benefit, with golden rice having 0.5-2.3 ug/g of beta-carotene (carrots have 13.8 to 49.3 ug/g for comparison).
+
+No human safety or efficacy studies have been performed.
+
+These problems can be resolved (there may be ways to reduce the degradation problem as it currently occurs with a oxygen reaction, nutritional benefit can go up as they reduce the massive variability) but I'm unsure if the benefit is there enough to justify the likely increased cost of this rice over a normal rice. This also doesn't get into the standard concerns with GMOs.
+
+Source for information above (it provides links to the studies themselves as well):
+
+https://www.independentsciencenews.org/news/gmo-golden-rice-offers-no-nutritional-benefits-says-fda/"
+technology,fe3aftw,t1_fe2rjuu,1578847493.0,"Especially considering the rice has degraded beta-carotene (the nutrient they are adding with the GM process) quickly after harvest to the point the FDA considers it not having a nutritional benefit over normal rice. A study in 2017 found Golden Rice retained only 60% of its original beta-carotene levels after 3 weeks of storage and just 13% after 10 weeks. Note that it takes time to go from harvest to table so even if someone eats the rice immediately it might have half the expected vitamin A benefit.
+
+Link discussing FDA information:
+
+https://www.independentsciencenews.org/news/gmo-golden-rice-offers-no-nutritional-benefits-says-fda/"
+IAmA,fdg2u0w,t1_fdeeyx2,1578377939.0,"I'd highly recommend getting the foam after trying both, depending on where your balding is at. I have balding / thinning hair on the top of my head and started using the liquid. I had a fine hairline. The liquid is slightly more effective than the foam but barely better.
+
+My problem was the liquid in the recommended dose would move as I tilted/turned my head, spreading it unevenly across my head. Since minoxil increases shedding / kills thinning hairs it made my hairline worse as I wasn't consistently using it on my forehead. Top of my head improved but my hairline is worse. 
+
+Now I'm using the foam on both to better control where it goes. Just wish I did it from the beginning."
+Anxiety,fcw4x67,t3_ej29di,1578017232.0,"To add to other comments, here's a subreddit that might help you avoid working for 45+ years:
+
+r/financialindependence
+
+It talks about how much investments you need to retire early (including inflation). A person would need to withdrawl an inflation-adjusted 4% or less of their investments to be 'financially independent' - that is, have 25x their salary in investments, to retire.
+
+There is another subreddit called r/leanfire that discusses retiring early on a lower income as well.
+
+Hope that helps and provides a path of how to get there!"
+dndmemes,fco9ev9,t1_fco9244,1577826752.0,"I'll found the copypasta from it but not the original, here it is below:
+
+https://amp.reddit.com/r/copypasta/comments/7qn75k/poop_knife_from_reddit/
+
+Being true to my username I guess. There is always the jolly rancher story too but ugh..."
+dndmemes,fco8vah,t1_fco8gj0,1577826382.0,"Be warned, you do not want to see the actual video. I've saved you the suffering with a wikipedia link instead.
+
+https://en.m.wikipedia.org/wiki/2_Girls_1_Cup"
+PleX,fcjc3nb,t3_egbh4y,1577682657.0,"Hi all! Looking for some advice on the feasibility of plex on a gaming computer while still playing games. My specs are below:
+
+CPU: Ryzen 1800x
+GPU: Vega 56
+Hard drives: 1 tb 7200 rpm, a 256 ssd, and a 120gb ssd. Also purchased a 1 tb nvme ssd to use as a replacement OS boot drive.
+OS: Windows 10
+
+I was originally looking to upgrade my gaming computer to a ryzen 3600x and use my 1800x as a dedicated plex box, but I just got news that a friend is getting married and want to gift them a gaming computer using the parts I got on sale for Black Friday instead of using it as a upgrade for myself. Plus it would probably be best for me to wait till ryzen 4600x or 4800x next year.
+
+Question: what would be the best way to enable my desktop as a plex server and gaming computer at the same time? I'm not experienced with plex itself but am willing to learn!"
+smarthome,fbn4itq,t1_fblt80p,1576992624.0,"I guess, as a beginner with this problem, how do you solve it? I've got 8 smart bulbs and a smartthings hub / sensors. I've noticed slower speeds on my 2.4ghz wifi while my 5ghz band is fine.
+
+I just have visitors use my 5ghz network if they can now."
+Amd,fb9s4sp,t1_fb8genl,1576647853.0,What happened to your vega? I've been noticing some system crashes recently that happen even with stock settings. It seems to always happen in lower power mode when playing video / gery basic games (like MTG Arena). It's sporadic enough that I haven't root caused it with it happening at most once a week.
+personalfinance,fauepv0,t1_fat3yrr,1576347349.0,"The main negative is the money in your bank isn't doing anything to increase your worth (or keep up with inflation). If you aren't getting interest on your money you are losing spending power.
+
+This is why I highly recommend people do their research and get a checking account that gets interest if they can. I'm getting 3% interest with my checking account which pretty much matches my student loan interest after tax considerations so I'm just doing the minimum payment on my student loans. Gives me a nice cash buffer / emergency fund."
+Amd,fafvyqo,t1_fafvkzf,1576033260.0,"Alright, I might need to call amazon then because it has been 4 days since mine arrived. Though since mine is a bundle I hope they are just waiting to send it until I've actually got the motherboard, but that could be a week or two still..."
+Amd,fafveid,t1_faf8l3p,1576032846.0,Did you order the bundle or the processor by itself? I've received my new processor but not the motherboard and no code in sight.
+Amd,fafu8mt,t1_fae7s2c,1576032011.0,"Well, I hope it still comes for me. I got that bundle with processor and ssd shipped but still no bundle email. I would have just went to microcenter if I knew I might not get my code. My motherboard doesn't arrive till either this Friday or December 20th so I sure hope they don't wait 2 weeks to send me the game code."
+PoliticalHumor,f9m0oi0,t1_f9lxl77,1575437449.0,"The reason why they didn't is precedence. If they do that, anyone could take a DNA test and get Native American tribal rights. Here's an article discussing the problem and why Warren really should not have done the DNA test to ""authenticate"" her Native American ancestry:
+
+
+https://www.nbcnews.com/think/opinion/elizabeth-warren-connected-dna-native-american-heritage-here-s-why-ncna921166"
+Animemes,f9c1bhk,t1_f99iuel,1575218360.0,Thanks! I actually had no clue it was my cake day or where to check.
+dndmemes,f97y8gt,t1_f96wkgz,1575171736.0,Thri-kreen homebrew is what your friend wants. Reflavor it as a warforged and he is set. But there is a lot of crap out there.
+Animemes,f97w042,t1_f97q4ap,1575170962.0,"Eh you were close but had a mistake. It should be ""cower"" not ""cowl"", but they are pretty similar.
+
+Not sure if it is a mistake by you or the original text but the devil's speech should say ""kiss"" not ""kissed"".
+
+But nice job! Not trying to be a grammar nazi but thought I'd help out if you were unsure."
+buildapcsales,f8zfxtz,t1_f8yb1jk,1574960428.0,Am I just blind or did they disable coupons for black Friday? I didn't see any location to put the coupon code before placing the order.
+AskReddit,f8vculp,t1_f8uo040,1574866302.0,"No no, the guy has an alibi. No way he could be a murderer!"
+buildapcsales,f86r8va,t1_f84w0xh,1574304970.0,"Huh, would this stack with student discounts as well? I'm interested in this potentially as I want a new ssd, but idk on the service yet for $80 without trying it first."
+dataisbeautiful,f7u25n7,t1_f7t7p48,1574009834.0,"Not the OP, but usually presidential impact takes time to hit the market, so looking at the president at the time may give a bit of the wrong idea. I'd be interested as well though to see how it turns out!"
+nuzlocke,f7o8230,t1_f7mno1w,1573922644.0,"Yeah, I lost two pokemon (one was my starter) on my first very strong pokemon in a while zone. Somehow at 3 pokemon after the first gym now but oof. I didn't know just how much of a level difference it was and went all ""hey there's an onix let's get it! It would be sweet for my team!"" Only to get roflstomped unable to run."
+funny,f7eqski,t1_f7enceh,1573663767.0,"Yeah, I was going to comment that too. Looks like a pretty small case of space crime if any. Still surpsied the estranged wife didn't change the password to her accounts though."
+funny,f7emfc6,t1_f7el4ba,1573660982.0,"Googling found me a link to the story, which I'm linking below. News to me.
+
+https://www.google.com/amp/s/www.nytimes.com/2019/08/23/us/nasa-astronaut-anne-mcclain.amp.html"
+financialindependence,f72kx94,t1_f72jnja,1573366976.0,Do you have any thoughts on geothermal heat pumps for cold environments? Their coefficient of heating is supposed to be much higher than a gas furnace but I'm not sure if that would be enough to offset the initial cost premiums.
+financialindependence,f72k37q,t1_f72h42d,1573366032.0,"This was the part that messed me up. Thanks! I think that actually is the important takeaway the your savings rate is what matters, so long as you aren't compromising your current wellbeing. I'm more impressed he did it on less than 50k over 20 years than going from 50k to 1 million in 5 years."
+personalfinance,f6qmiao,t1_f6pnza5,1573080621.0,"Well, I'll assume 84,000 as that's $200 less than where the 24% bracket starts. Keep in mind I'm in a similar boat and not a tax professional, yadda yadda. I can't recall if the standard deduction impacts your MAGI or not Traditional IRA deductibility so I'll leave it out.
+
+At 84,000 with no other pre-tax accounts or adjustments like student loans interest, the traditional IRA will not have any deduction. It would be better to put your money into a Roth IRA instead as it has a higher income cap.
+
+At 84,000 with a 401k or other adjustments less than 19,000, you will have partial deductibility for your traditional IRA. A google search can show the math, but I can PM you a website to read into it more if you want (not sure what rules this subreddit has about linking to external sites)
+
+If you have pretax contributions equaling 19,000 or more, you are out of the partial deduction and contribute the full amount tax free. This will further reduce your taxable income."
+cars,f5ix3fp,t1_f5gfum7,1572218855.0,"Well, batteries don't do better in cold weather and require extra battery heating which can drastically reduce the range. Not a scientific article, but CNBC article cites a AAA study where EVs lost 41% of their range in cold temps (below 20 Fahrenheit). A lot of that loss was from using the heater while an internal combustion engine has waste heat to warm the cabin. Without any heating the electric car still lost 12% of its range.
+
+Either way, an electric car would be good enough for my daily commute and even to drive to my parent's place. The big problem with electric adoption in the US is lack of charging spots. My problem is my parents don't have an EV charger so I wouldn't be able to do the round trip. And google only shows level 2 stations out of the way about 30 mins (about a 80 mile drive). I'd be fine with a 200 mile EV but it would be cutting it close if I had only 150 mile range.
+
+Tesla disputes some of the findings, but it may be better than other vehicles due to their battery heating tech.
+
+https://www.google.com/amp/s/www.cnbc.com/amp/2019/02/06/aaa-confirms-what-tesla-bmw-nissan-ev-owners-suspected-of-cold-weather.html"
+Animemes,f5cl9v0,t1_f5c4bup,1572136804.0,"If I recall right, he put the massive chest wound onto All Might that limited how much he could use his powers. All for one then figured he'd pass on the ability to an apprentice as that is what the rest of the one for all users did.
+
+Not sure how much it explains it other than his punches weren't as strong."
+underlords,f56l61f,t1_f56f9d0,1572024586.0,"In addition to what other commentors said, the free reroll can be a good way to make your gold go further by making it easier to 2* early."
+underlords,f55w0n8,t1_f52qdd5,1572014605.0,"Damn you are right. Was at 8 hp and took someone down from 64. I lost one unlucky round with a faceless void time warping her b/c the enemy changed their backline position.
+
+By the end she had 300 bonus damage from duels. My comp was the following at the end:
+
+Legion
+Sven
+Omniknight or CK
+Luna
+Dragonknight
+Viper
+Faceless void
+Templar
+Another assasin I don't remember - I think Slark?)
+Medusa
+
+This gave legion dragon, scale x4, knight x4, human x2, elusive x3, and assasin x3 which is pretty bonkers. Especially with hobgen supercharging her. Also seemed like god's strength applied to her which was like, OHH LAWD SHE COMIN'!"
+custommagic,f54ejec,t1_f548vck,1571979429.0,"Maybe it could be a 1/2 or 1/3 with evolve? Would make it not instantly die and easier to grow. At 4 mana a 1/1 might not be enough. Plus it would add to the theme where it learns from those stronger than it, then goes to test its strength."
+buildapc,f50jfi5,t1_f50ihqk,1571928358.0,"I did... you also said ""stupidest recommendation"" which implies all/most the comment is wrong. You could just say what other commenters said about other motherboard compatibility for OP's info b/c they may not know that older motherboards still work with new ryzen processors."

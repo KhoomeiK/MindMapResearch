@@ -1,0 +1,254 @@
+math,fr2q8id,t1_fr2nl37,1589841828.0,">In particular, a functor X : A -> Set involves a class function with codomain ob(Set).  So the statement of the Yoneda lemma requires talking about class functions, even though Hom(Ha, X) is a set.  I'm only pointing this out because I think that your worry isn't ultimately about the Yoneda lemma, but should come up somewhere earlier.
+
+Thanks a ton for pointing this out, it culls at the base of my issues.
+
+Also, much gratefulness for your help, it resolved most of my issues. I shall now go and give them a stern talking to so that they stay resolved.
+
+Thank again"
+depression,fr2o9ff,t1_fr2m1j0,1589840799.0,">You can’t and will never forget it so trust me on this—defang that snake now while it’s early before it sets in as trauma.
+
+I think this is the best advice.
+
+Along the lines of demonising her, idk, it'll help the grieving process for sure, but will also put a demon on your back. Sure, you'll have fight with this demon much later(or perhaps never), and it'll be an easier fight for sure, just tryna give a little warning.
+
+The comfort-agent I'd suggest is, hey, at least you had the good times too, there are people who never have those good times ever. Yes, it's love lost, or love that was never even there, BUT t'was an experience yeah ?
+
+Relationships are a crazy drug, so unpredictable. But at least you took your shot, at least you rode along, crashed eventually yeah, but still walking, no ?  
+
+
+OP, you're a fine human alright, maybe one feeling awfully awful right now, but not through any fault of your own alrite ? Don't ever doubt yourself, and remember that  tomorrow's another day. 
+
+Take care dude, we're all here for you, and with you."
+math,fr2gd8p,t1_fr299ko,1589836817.0,"Thank You, that does seem to be a route.
+
+But I'm trying to follow Tom Leinster's approach(from Basic Category Theory) that involves only functions between sets. Both, because of my lack of comfort with classes, as well as understanding that particular approach."
+math,fr2fx2r,t1_fr2chwt,1589836593.0,">The (co)domain of a set function has to be a set, but the (co)domain of a class function may be a proper class.  For example, your category A isn't small, so its class of objects isn't a set, but we can still define a function that sends a pair of objects (x, y) to their hom set Hom(x, y).
+
+I was considering this assignment to be a functor(from AxA to Set) yes, but not a function, again because the domain won't be a set. Because I didn't know about the  the notion of a 'class function'.
+
+>And in the statement of the Yoneda lemma Hom(Ha, X) isn't assumed to be a set;
+
+The [text I'm following](https://arxiv.org/pdf/1612.09375.pdf), considers \[a,Set\](Ha,X) to be a set ( last three lines on pg 95,) at the very beginning of the proof, right before the define the bijection. And not being comfortable with classes, I'd rather like to understand that text's argument as it doesn't (directly )invoke axiom schema of replacement. I'm guessing that the author makes do with the axiom of pairing and union(implicit in Section 3).
+
+If the aforementioned book isn't wrong, I'd really really like to understand it's point of view. Else, exactly why it is wrong, i.e. a counterexample.
+
+&#x200B;
+
+P.S:
+
+>No matter how you formalize classes it will turn out that if two classes A and B are in bijection and A is a set then B is also a set.
+
+Thank you for this, I hope to prove this once my current semester is done. Seems banal, but has me mesmerised."
+math,fr260t1,t1_fr22g42,1589831750.0,">However, it follows from the Yoneda lemma that A, Set is a set, 
+
+I think I'm misunderstanding your answer, but \[A, Set\] need not be a set at all (I think). So, I shall interpret your reply as being that \[A,Set\](Ha,X) is a set because of the bijection.
+
+But, in that case, I can't define a function from (or to) it. The definition of a function requires the domain (and co-domain) to be sets (afaik)."
+math,fr1zu6t,t1_fr1u78p,1589828745.0,"No, but that's not necessary as this [n-Lab entry](https://ncatlab.org/nlab/show/functor+category) mentions, \[C,D\] isn't necessarily locally small if C isn't.
+
+And, just to clarify, in my question,A is given only to be locally small."
+skateboarding,fqn4dkw,t3_gjm6tz,1589488470.0,"Nah man, I'd consider that style tbh, it looks really interesting. Just need to do it consistently enough"
+learnmath,fp4f1xe,t1_fp3zqmb,1588297660.0,"HECK YEAH!
+
+P.S. literally moved forward one word in the last 2 hours ..."
+unixporn,flz0ddn,t1_fkhdugs,1585612820.0,Category Theory ftw
+PaidTabs,evt23ut,t1_et8trsj,1564761187.0,could you share tabs with a bohemian friend good sir?
+Oxygennotincluded,eveqjtb,t3_ciw2g7,1564475445.0,Brothgar often has flowcharts in his experiment videos' description. He makes them ad-hoc while getting his contraptions functional.
+Oxygennotincluded,eveqdc1,t1_evbf10r,1564475248.0,I too got into Klei just cos of this trailer
+MechanicalKeyboards,eu65rl5,t3_ceqij6,1563492761.0,How do you get the coolermaster SDK to work with Masterkeys Pro L (white) ?
+programminghorror,eu65kb6,t3_cezy6m,1563492630.0,"[https://makerhub.coolermaster.com/custom-lighting/assets/sdk/coolermaster-](https://makerhub.coolermaster.com/custom-lighting/assets/sdk/coolermaster-) 
+
+Do check out the website, apparently some people managed to get it to work well, kudos to them. If someone could enlighten me, I'd be quite grateful too."
+Exurb1a,ets25n3,t1_etrzi1w,1563134652.0,"Thanks, edited the price to Prince, i shall in turn upvote your kindness good sir"
+Oxygennotincluded,etrc8j4,t1_etfezt4,1563117575.0,"It got some minor updates last month man, 6 years after it's release!
+Love how the meta keeps changing"
+Oxygennotincluded,etrbwyl,t1_etf9xje,1563117360.0,"Nah, klei is known to keep rolling updates far after the launch, just to keep things interesting. The only difference is that after launch, they post only polished updates.
+
+Look at don't starve for example, such an old game (6yo) but still very much alive thanks to the innovative updates, dlcs and patches.
+
+This is why i love klei, they treat their games like pets you know, getting them new toys, fancy dwellings etc. Just shows how much they love their craft.
+
+And look where it's gotten them, delays in the release, but yet none of us is angry whatsoever, just eager af."
+techsupport,etqt6gb,t3_cd0ev5,1563101162.0,Try using your SOs device
+Exurb1a,etqp109,t1_etq2ebl,1563095686.0,Cos the Prince of milk is gone
+IndieDev,etqnc32,t1_etqjsv7,1563093119.0,Bump
+linux_gaming,etpdpev,t1_etpc6jm,1563052661.0,"I'll totally listen to them if they make that game work too. But i legit tried everything i could think of, compatibility mode, registry hacks via powershell(cos just regedit didn't work). Swapping .NET versions, and even putting the game in a container!
+Wasted a couple days just working on it, even more nights falling asleep thinking of fixes.
+I thought I'd never get to play that game again unless i installed xp (none of my machines are beefy enough to load the game on a VM).
+
+But oh thank the community for Linux, seriously making my dreams come true man.
+
+P.S. being able to play that game was so dope that I've gotten into haskell so i can soon get to a level that i may contribute to something."
+askphilosophy,etpbpfs,t1_etpac0j,1563051085.0,"Ahh, just think of deeds you do as being accounted for in a currency, and you breaking even implies you're good.
+
+Say,
+Kicked a dog -10
+Gave a bum 100$ +4
+Saving a drowning kitten +100
+
+This again brings in the subjectivity of goodness, somebody might consider saving the kitten +400, while giving the bum money +0.1 etc."
+askphilosophy,etp9vsi,t1_etp8r5m,1563049682.0,"I wouldn't have replied if not for your opening and ending lines, so here goes.
+
+I'd say, be yourself, unless it could hurt someone. If its physical hurt we talking bout, then be someone else. If its emotional hurt, then kinda murky, but say if i can completely avoid hurting them by being someone else, then I'd do that. If it won't matter too much, then I'd be true to myself.
+
+My reasoning behind this is simply the subjectivity of good. Like, some people think I'm being bad by not vying to become a civil servant because that's THE good path. And I think I'd be good only by not following that road because I'm too indifferent to people's suffering. To make matters worse, self awareness of this kinda subjectivity makes one go a level deeper, and consider whether doing morality calculus via most popular systems, and averaging it out (say it's possible in realtime) would be the best possible plan of action, but then this thought seems plausible only because the morality calculus path seems neutral, but then, certain ppl think it to be much more immoral than a naive approach, and we go into the rabbit hole."
+linux_gaming,etp8gq1,t3_ccrbcm,1563048571.0,"A lotta games too man.
+My derp laptop can't play anything on Windows above 45fps, so i started using it as a glorified terminal.
+There's this game i love (Shaun white skateboarding) which doesn't run even on my rig cos it needs Windows xp, i wasted a couple days tryna get it to work with no avail.
+
+So, for funsies, i pull wine and try it on derptop and voila, first try, working at a nice 60fps with vsync.
+
+It's so funny that Linux has much more compatibility with older Windows programs than Windows itself."
+askphilosophy,etoztyq,t3_ccp9i2,1563041917.0,"This reminds me rather strongly of Consciousness Explained by Dan Dennet.
+
+He essentially argues that senses are what inform sensations.
+So, for example, I'm ad-libbing the answer while typing it out right now. So, it's not really me answering your question, rather I'm compiling all my knowledge(that i can recall) and putting it in a way that would fit the form of the answer you (according to my interpretation) desire.
+Say, i didn't have your question i.e. the sight of it, or a way to answer it i.e. commenting privileges, then I'd have no answer."
+privacy,etovgye,t1_etkr14s,1563038648.0,"Yeah, there was a paper couple years ago that used the heat output for exfil, 
+I've been sleeping with a plushie ever since."
+hacking,etovbgh,t3_ccrefp,1563038535.0,"The easiest way i can think of us to make a platform dependent script that manually clicks at the correct location when needed. If you're on Mac, applescript got you, powershell for Windows. Idk enough bout nix sorry"
+cableporn,etolofl,t1_etok9g9,1563031190.0,"You can upload to imgur and link the gallery i think,
+Sick build bro."
+badphilosophy,eto4up6,t1_etljlvt,1563013842.0,"Yeah, my brain also pulls that one on me quite often, and to that i say,  
+
+your mom is irrational!"
+cableporn,eto4i0k,t3_ccl32h,1563013300.0,Hah! I don't fall for cheap Photoshop tricks. Cable management this nice would break reality.
+itsaunixsystem,eto3jej,t1_etmifq5,1563011791.0,Email addresses aren't that long
+itsaunixsystem,etmidlw,t3_ccexpj,1562960616.0,"OP is from the future, that's why year is blurred"
+Exurb1a,etm5ql0,t1_etl9sfs,1562952626.0,"Nonono, it's the other way round. Fifth Science was written first. 
+In fact, he refers to it in the epilogue of Prince of milk."
+Exurb1a,etm5ey2,t1_etkunro,1562952425.0,I'd rate it 10^91
+adventuretime,etgt6sa,t1_etgryos,1562798338.0,Awful Taste But Great Execution
+IndieDev,etgrihj,t3_cbj5lf,1562797324.0,Dope shader bro
+PewdiepieSubmissions,etfzvk2,t3_cbju7u,1562781021.0,Vox? Is that you?
+Instagramreality,eteyfw5,t3_cbdfd3,1562752942.0,"Coke, not even once"
+Feminism,etbyibg,t3_caxkcw,1562668229.0,"Yeah, UP police only cares to beat stoners up, rapists n catcallers are thought of as ""men being men"".
+
+Unfortunately, they'll probably be reinstated in a month or so anyhow, and even in the meanwhile, they're going to be ""doing their jobs"" by using the uniform to extort bribes.
+
+Btw, for some context, cos i don't think the article gives it, UP and Haryana (two states of India, next to it's capital) are notorious for this kinda stuff. In fact, because of the abundance of female foeticide up until a few years ago, the states have such a skewed gender ratio that they literally have an economic centered around basically kidnapping women from areas of extreme poverty, and giving done money to the family in exchange for them keeping quiet."
+Cloud,etby0tp,t3_catkcn,1562667563.0,Epic troll
+programminghorror,ernua7m,t1_ernpvrg,1561061229.0,"Nah, everyone's first stringy pile of code will generally be too good to compare to Microsoft.
+
+But yeah, i agree with your point.
+P.S. I don't touch html"
+Instagramreality,eqx8h2x,t1_eqrhax8,1560366368.0,to the top with you. to the top rn
+Instagramreality,eqx6tci,t1_eqx4kno,1560365808.0,r/blackmagicfuckery
+nextfuckinglevel,eqx4qek,t3_bzuyol,1560365128.0,"Damn, India for the win, gotta authenticate all them birth certificates."
+nextfuckinglevel,eqx37v9,t3_bzsgw1,1560364623.0,\*experts
+PSIkiKusuo,eqwzwe9,t1_epz4zmr,1560363520.0,cos she's perfect huh!
+math,eqvwhcv,t1_eqvojt7,1560350472.0,Try reading Stein's Fourier Analysis. Real analysis gets way easier once you see the superpowers it paves way towards.
+math,eqvw6so,t1_eqvekm5,1560350382.0,"Dude, I passed it only in the third time, thanks to depression.
+
+Now that I'm better, I'm doing Artin from the start just to get rid of that regret-not-doing-the-basics."
+math,eqvvtx7,t1_eqvrlqh,1560350273.0,Aha! that's precisely what I do too. Being apologetic is OP af in math classes.
+PewdiepieSubmissions,eqstxj1,t3_bzje22,1560293717.0,r/madlads
+googlecloud,eqsekjp,t1_eqqsp3s,1560283099.0,"Dude, thanks a ton, got my summer vacation rn, this sounds awesome."
+googlecloud,eqsdxl3,t3_bzczpi,1560282682.0,"I don't need no paid training, I've got SO, Red Bull and insomnia."
+confusingperspective,eqsd8j9,t1_eqqbsve,1560282236.0,"Or, she could just be a free user who tried to skip a song. \*True story\*."
+itookapicture,eqs8y46,t3_bzbzuy,1560279424.0,Thanks for my new iPhone wallpaper bro
+fantanoforever,eqr2k3f,t1_eq8ccww,1560244625.0,Ikr
+fantanoforever,eqq28iv,t1_eqgfdun,1560210252.0,"I tried, now I've got PTSD"
+math,eqoim5z,t1_eqntc8k,1560188995.0,F
+aww,eqjko9c,t1_eqj2ldu,1560106579.0,"Ahh, i so love it when rogue AI feels for 🐨🐨🐨"
+oddlysatisfying,eqjjvpj,t1_eqg2ze9,1560106132.0,"I am the magic, give me the other dimension, mushrooms"
+nextfuckinglevel,eqjjrxc,t1_eqji1pi,1560106071.0,+Salvia
+PewdiepieSubmissions,eqaphbz,t3_bxyusb,1559937421.0,"Umm actually, ""literally everyone"" includes Morgz and his mom."
+depression,eqaoxq3,t3_bxyw01,1559937120.0,"I know it feels terrible, but honestly, you'll get used to it in a couple years. More probably, you'll find some friends.
+
+>I’m never going to be able to talk to anyone about anything again, I always manage to make a total mess out of the simplest things.
+
+Giive it some time, you'll stop caring, and share anything with anyone, as you yourself said:
+
+>What’s the point anymore?
+
+I'm the same.
+
+&#x200B;
+
+Now, you say
+
+>I’m a dumbass, I’m such a fucking pathetic excuse of a person. I truly have no reason to be here...
+
+Again, what you're saying totally fits me too.
+
+&#x200B;
+
+You're wrong on only one count,
+
+>..., I’ll never have one.
+
+Nah, see, not having a(ny) reason(s) to exist, is actually itself the best reason to exist. You have nothing forced upon you.
+
+&#x200B;
+
+Your life is *yours* now. YOU are the reason *you're here.* Just have fun, and enjoy the ride. Yes it's often a miserably bumpy one, but hey, at least it's not one that's perfectly still, now that'd get boring.
+
+&#x200B;
+
+Have a day mate"
+MapPorn,eqaljnv,t1_eqa3w0d,1559935297.0,"Indeed, the Natives class has always been underpowered. Idk when they'll release a patch fixing that"
+Petioles,eq9zn7f,t1_eq9uy1g,1559921697.0,"True, but I've never had a cannabinoid high last 24 hours like OP describes.
+But i agree, my hypothesis is most likely bogus, idk of any dealer who'd be nice enough to put PCP in their weed without charging a ton."
+skateboarding,eq7z3v5,t3_bx872f,1559855758.0,"Rode away fakie, kudos"
+skateboarding,eq7z0dc,t3_bxd1kh,1559855709.0,"Legend has it that Pablo bombs black holes and ollies Neutron stars now, all while avoiding astroid belts and solar flares."
+depression,eq7xwsd,t3_bxlwty,1559855165.0,"Try skateboarding, if you land tricks, crazy rush. If you don't, some(or a ton of) physical pain, still preferable to mental pain.
+
+&#x200B;
+
+Either way, it's really easy and fun, if you don't wanna learn tricks, get a longboard, find a hill, and just go down it. Just try bombing one hill, borrow a longboard maybe, I'm quite sure you'll get hooked. I did."
+Petioles,eq7l38o,t1_eq79t02,1559848635.0,"Dude, maybe I'm just being paranoid, but could OP have smoked a weed laced with a wee bit of angel dust ? It'd explain dissociation, the ""mad weird energy"" as well as the long half life. Moreover, OP says he got the same thing(before quitting) last time he smoked this plug's bud."
+blackmagicfuckery,eq7hpez,t1_eq61m77,1559846949.0,ikr? it just doesn't work when you know the science :<
+WhyWereTheyFilming,eq6o4j3,t1_eq6i03e,1559832549.0,"Damn, Brazil seems to be a lit place
+Thanks a ton bro"
+ihadastroke,eq6e7g0,t3_bxd7jy,1559827517.0,"I don't remember popping any acid, well, must've accidentally."
+PewdiepieSubmissions,eq6dxuk,t3_bxgnr1,1559827376.0,YouTube don't give a friiick
+PewdiepieSubmissions,eq6an7w,t1_eq6a5sd,1559825567.0,"lol, ofc not man, this is r/pewdiepie not r/butthurt"
+depression,eq6a2hv,t1_eq66v0k,1559825232.0,"Sure thing homie, some social interaction would be a good change for me I guess."
+PewdiepieSubmissions,eq69hw5,t1_eq67ux3,1559824897.0,"Cos I really like music man, it's like calling Poppy gloria Mary ham,..tis an insult to Poppy (RIP)"
+PewdiepieSubmissions,eq66o8a,t3_bxfhge,1559823137.0,"T sheetz , is it you?"
+depression,eq66l24,t3_bxfhhw,1559823083.0,"Exactly my thoughts too, which is what makes Depression so fucking interesting.
+Also, i don't think those momentary respites of elarion would feel as good if i weren't depressed rest of the time.
+
+Does it fell real sucky ? Absolutely
+Would i have it any other way ? No
+Am i gonna bitch about how shit I feel? Fuck yeah
+
+Do i have the superpower to enjoy an eternity in that one moment of happiness i get every month or so? Maybe"
+PewdiepieSubmissions,eq65zur,t1_eq62yjn,1559822726.0,*explodes in Arabic*
+PewdiepieSubmissions,eq65h3v,t1_eq63bcz,1559822383.0,"I'm sorry, but you referring to the Bollywood garbage as songs offends me
+And I'm an Indian"
+softwaregore,eq65bk7,t1_eq61yhe,1559822289.0,Bruh
+PewdiepieSubmissions,eq64fsi,t3_bxflf6,1559821736.0,Got me
+PewdiepieSubmissions,eq63z8j,t1_eq63gmj,1559821431.0,"800 and thousand of 2019
+Read carefully now"
+PewdiepieSubmissions,eq63tfn,t3_bxfm7i,1559821325.0,"Wait, it can't be. Original Conteeenntt?!"
+PewdiepieSubmissions,eq63d9i,t3_bxfmqq,1559821037.0,"It's ok, i don't need an app for that, I've got my best buddies, Anxiety and Depression for that. They never let me down."
+depression,eq6327c,t3_bxfn07,1559820828.0,"Fuck yeah bro, shit jobs can go roast their titties, nobody deserves that shit."
+PewdiepieSubmissions,eq62sex,t3_bxacgd,1559820633.0,"Hmmmm, 4 sticks, each with two colors, and 0 duplicates.
+Bois, i think I've broken through to the reality, and the answer is
+
+420"
+science,eq4t39x,t1_eq4sjmr,1559785171.0,"Ahh damn dude, i hope i wasn't too wrong.
+
+Btw, what kinda skills does your job require? I imagine you ppl to be holding pipettes with those gloves through glass box kinda thingy. But realize that realistically you'll just be looking at a computer screen mostly.
+So, is your job more of a 'biologist' or a statistician?"
+PewdiepieSubmissions,eq4q2yr,t3_bxa7xa,1559782825.0,I'd rather die of poverty than diabetes lol
+PewdiepieSubmissions,eq4pzy6,t3_bxa8iu,1559782761.0,"I wanna know who the fence is, the dude(or dudess) deserves accolades"
+ANormalDayInRussia,eq4pv6u,t3_bx84a7,1559782658.0,what ?... how ?..whhyy??!
+PewdiepieSubmissions,eq4pkb5,t3_bxa9vm,1559782422.0,"It actually looks pretty dope man, I'd legit mistake it for some vfx project"
+PewdiepieSubmissions,eq4pf9j,t3_bxa9yh,1559782312.0,"Goddamn, truly misogyny at its finest.
+
+(Hey Vox/WSJ/SJW, glad to see you here )"
+PewdiepieSubmissions,eq4p7ah,t3_bxaa1q,1559782133.0,The one scenario where I'd rather have Monster instead of Red Bull.
+PewdiepieSubmissions,eq4p4em,t1_eq4p2zh,1559782071.0,Ditto
+Feminism,eq4p13g,t1_eq4bj73,1559781998.0,"Goddamn, that explains so many things that I thought were inexplicable. It's like you just unlocked a new dimension of analysing media.
+
+&#x200B;
+
+Merci Beaucoup Mademoiselle"
+softwaregore,eq46prf,t3_bx7y8o,1559770402.0,"That title got me, thanks bro, best reddit post I've seen all day, now I can close reddit and go back to coding. Sincerely, thanks bro"
+science,eq46lzd,t3_bx7y9w,1559770340.0,Yay
+softwaregore,eq46i7r,t3_bx7ypx,1559770279.0,"They didn't, but the weather app did. It was in our hearts all this time lol"
+deathgrips,eq46bt6,t3_bx7z5a,1559770170.0,"Oh shit, when did anxiety get the time to meet you ? I swear it was always by my side, I'd never let my besets buddy wander too far from me."
+PewdiepieSubmissions,eq45x73,t3_bx829x,1559769911.0,Poohs never meme review lol

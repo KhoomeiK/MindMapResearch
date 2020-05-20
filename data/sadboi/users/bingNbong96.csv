@@ -1,0 +1,75 @@
+css,f8u0wno,t3_e27ntm,1574816260.0," nav ul{ 	
+
+margin: 
+
+ } 
+
+there's an incomplete line there:)"
+learnjavascript,f8e8h7l,t1_f8e85pw,1574521706.0,"try console.log(principal) at the end of the while loop to see how principal changes, I think you are confused with the \*=.    principal \*= interest(.05) it's not 1050, it's => principal = principal \* .05, that will be 50 if principal is 1000 and interest .05"
+learnjavascript,f8e85pw,t3_e0iixp,1574521436.0,"Values of principal:
+
+1. 41
+2. 1.6810000000000003
+3. 0.06892100000000001
+
+principal does nothing but decrease, that's why the loop will never end, because the condition is always true"
+Anxiety,f8dnkg8,t3_e0fhsz,1574500234.0,proud of you man:)
+webdev,f8dgonc,t1_f8dg5l9,1574490038.0,"yes, to make the container bigger you need to remove all margin and padding of the parent containers, I also noticed you have media-queries that  restrict  the width of the container, you can remove them so the container can grow even more"
+webdev,f8dg5ex,t1_f8dfvla,1574489413.0,"btw to add inline css you have to do it inside the 'style' attribute, like this: <div  style=""text-align: center;"" ></div>
+
+you cannot simply write css properties in the html element:) hope it helps"
+webdev,f8dfvla,t3_e0djyi,1574489095.0," <div> <iframe width=""100%"" height=""900""></iframe> </div> 
+
+the problem was that the iframe was too big, just set the width to 100% so it's as wide as its container, the container was already centered so that's it. If you want to make the iframe bigger then remove the padding and margin from its container so it  occupies the entire screen"
+learnjavascript,f8dembw,t1_f8ddr2d,1574487653.0,"sure, you can either use an anonymous function like this:
+
+hamburgerNav.addEventListener('click', function () {
+
+navList.classList.toggle('showing');
+
+});
+
+&#x200B;
+
+or declare a normal function and then pass it to the addEventListener function like this:
+
+function toggleNav () {
+
+navList.classList.toggle('showing');
+
+}
+
+hamburgerNav.addEventListener('click', toggleNav);"
+learnjavascript,f8daxlp,t3_e0d0fw,1574483824.0,"the function you should use to add the class .showing is something like 
+
+hamburgerNav.addEventListener('click', () => {
+
+navList.classList.toggle('showing');
+
+});
+
+so '.classList.toggle' will add that class if the element doesn't have it, and remove it if the element does have it:)"
+webdev,f8d9di1,t3_e0clng,1574482344.0,"go to dribbble and look for inspiration, there you can find layouts, color palettes, fonts and pretty much anything you could imagine for web design. I know that feeling of wanting to be '100% original' but to be honest, there's nothing new under the sun. good designer are good because they know how to use the ideas around them to make a better one, not because they get some kind of divine inspiration:)"
+learnjavascript,f8d1k7k,t1_f8d0p77,1574475542.0,"well I noticed that you have the script in the head, try putting it before the end of the body. and how are you trying to set the variables values?"
+learnjavascript,f8cya44,t1_f8cy6jr,1574472790.0,"if that's the case, you can't modify a html element that way, you need to use something like ""getElementById"" in order to manipulate them"
+learnjavascript,f8cy6jr,t1_f8cxrnc,1574472708.0,still don't get what the main function does. are you trying to print the values of the variables in the html?
+learnjavascript,f8cxkqh,t1_f8cxcax,1574472204.0,"no problem, but i can't understand, what global variable do you mean?"
+learnjavascript,f8cx73t,t3_e0ao3a,1574471897.0,what
+learnpython,f85pul2,t1_f85oyyk,1574280447.0,you're welcome:)
+learnpython,f85ocfg,t3_dz75tt,1574279526.0,"free = 5
+
+while free > 0:
+
+free = free - 1 if input (""Did a car enter? : "") == ""yes"" else free
+
+if free > 0: print (""There are"", free, ""spots left."")
+
+print(""Full!"")"
+learnpython,f85nk9l,t3_dz722k,1574279048.0,VSCode has an integrated terminal where you can run your code
+webdev,f85lvkj,t3_dz6rx7,1574278027.0,"I think portfolio reviews are only allowed on saturdays, but i took a look at yours and it's pretty nice:) did you used some library for the scroll effect?"
+learnprogramming,f85le5v,t1_f85l613,1574277738.0,"I second the courses by Jonas, I only took the advanced css but it is worth it 100%"
+mexico,f85kjvi,t3_dz6lqj,1574277223.0,Canica's revenge
+learnprogramming,f85iqeu,t3_dz6176,1574276114.0,"It depents on what you want/need. For web development I took the css and sass course and nodejs bootcamp by  Jonas Schmedtmann and I think my time was well used:) I know some people think that udemy and video courses in general are a waste of time, but I'm more a visual learner and books don't work well on me"
+learnprogramming,f85g3ma,t3_dz5fym,1574274500.0,"It's totally normal, if you are just beginnig or if you switch between languages often it is really normal to forget things, it happens to everyone I guess, but I think you shouldn't be worried for that,  you should worry for understanding the logic, not to memorize things. google will always be there for you in case you need it:)"
+cscareerquestions,f7xeglk,t1_f7xaeg6,1574054546.0,"i don't know about op but I'm also from latin america and i think people like the idea of going to europe because, you know, third world kinda sucks, and the options in this continent (us or canada) aren't that appealing to some people either for racism or  weather or any other reason, europe has reputation of being safer and more comfortable and that is really pretty much what people in this part of the earth could wish tbh, at least from my perspective."
+privacy,f6ufkyh,t1_f6t06ip,1573162217.0,i already tried and it didn't work lmao

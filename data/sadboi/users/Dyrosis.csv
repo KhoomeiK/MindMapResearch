@@ -1,0 +1,220 @@
+Oxygennotincluded,fqxwd7e,t1_fqwk39s,1589738868.0,"Yeah iirc passive cooling only works at turbines that average <140 C.
+
+That's a boatload of volcanos alright. And yeah that'll definitely work, a single hot room with heatspikes off to turbine rooms and boiler. It's be a huge build but where's the fun in going small"
+Oxygennotincluded,fqw6z2t,t3_gl7fqk,1589694641.0,"There was a point you're remembering where meteors could break through the upper biomes and it was a race against time to prevent them breaking through and destroying everything. 
+
+In the current version of the game meteors cannot break through the 'top' of the world, or even the rock layer above the last abyssalite layer going up. 
+
+That top layer though will heat up to ~300C from whatever starting temp it is (i don't remember) so if you don't want to deal with a bunch of stuff at those temps you can still rush it (though all meteors spawn 300C material so you kind of have to deal with it regardless either way)"
+Oxygennotincluded,fqw640v,t1_fqw5xto,1589693930.0,"I guess also a personal preferences thing, I always do 3 tall sides to a heat injector (door thing) so that I'm not making a hot insulation tile on 1 corner. I also very much avoid tempshift next to walls for the same reason, but there's not enough significant practical effect in most builds to religiously avoid that like I do."
+Oxygennotincluded,fqw5xto,t3_gkz0wx,1589693790.0,"good 4/5. 3 pieces of advice, only 2 for the gadget tho
+
+1.So chlorine... it is by far the most insulating easily accessible gas (extremely low tc). This means it will pull heat away from your turbines very very poorly. It's clearly working bc no overheat but the gas just plain bad at taking up the heat from the turbine. 
+
+2.Either actively cool (Aquatuner) OR passively cool (radiant piped turbine output), don't do both. If you do both the net result is cooling the turbine output water just to be reheated in the steam room, which is a waste of aquatuner power and hurts both your power and heat efficiency majorly (because they're tied together in this case). Interesting note, having a Cl atmosphere in the room mitigates this issue, probably almost entirely. I'd be interested in the temps of the top tiles vs the bottom tiles of Cl in the turbine room
+
+3.If you're comfortable designing a high efficiency boiler/heat exchange, it can be run off a single minor volcano, so you def don't need 2 full volcanos if you don't want to. Mine took minor volcano 2 eruptions (not activity cycles) to get up to and maintain temp completely through idle/dormancy and now it's working. Granted this boiler has a >>95% efficient heat exchange, haven't done the math properly since it hit steady state after the most recent modifications and it's good, but requires aluminum to not be bonkers huge."
+Oxygennotincluded,fqsoyg1,t3_gkcvrh,1589613821.0,too close to the roof of the map and can't see the sky (doors). They need ~15 unobstructed tiles above them in a cone for max efficiency AND need to be able to see the sky (as if daylight were shining down) to have any scan quality.
+bestof,fqkop7i,t1_fqjewl8,1589432192.0,That relies on elections still being held after this blows over. I'm expecting (not looking forward to) a quiet coup. It's what they've been gearing towards for the last decade.
+Oxygennotincluded,fqkdupv,t3_giy5t5,1589425233.0,"remove the entire top  layer of 'counterflow,' or raise the still a couple tiles.  You do not want your still (where the crude is changed intro petrol) to have any way to pass heat into the counterflow where the crude cools the petrol.
+
+easiest fix is probably change the still section to have a 2 tall wall so there is a 2x2 'box' with no top by the heat injector, and then remove the lip down at the end. Also going to have the get the majority of the crude out before it spills down when removing the lip."
+Oxygennotincluded,fqcp7nt,t3_ghyx44,1589264522.0,"Honestly? don't worry about the carbon skimmer, it's a waste of power at that stage. just keep digging down and expanding below your base enough so that the CO2 doesn't reach up into your main areas for a hundred cycles and maintain that by digging for a hundred cycles or so. 
+
+looking at images your base has serious airflow problems though. I do 4 wide ladder shafts (empty,ladder,pole,ladder) or ladders where the pole goes if I haven't got there yet. Also do stacked doors or door with 2 airflow tiles above to get good horz airflow."
+onguardforthee,fqcj0bf,t3_ghowct,1589259469.0,Hit them with riot police like you would of they were colored folks
+UBC,fqbbxbd,t3_ghuzf3,1589234177.0,Turn off lights (including computer monitor) and open the window.
+Oxygennotincluded,fqaqzcs,t3_ghk4ct,1589223766.0,Entombing the rails in metal/diamond tiles is by far faster than just immersing them in liquid. Then speed up the tile to liquid transfer with tempshifts. For most purposes though conveyors through liquid is sufficient
+Oxygennotincluded,fpxaj1i,t3_gfcwql,1588978848.0,"Hmmm, interesting idea might be to have a maybe 1.5 size map, or just a much more square map, split by something like 1-2 wide neutronium mesh tiles (or force tiles) in some random way, probably just following biomes boarders in the middle or something. 
+
+The 'force' tile being an unbreakable unpathable 'tile' that allows for liquid/gas/debris and builds to pass through/occupy the same space, but not dupes. Materials sharing would have to be through piping/shipping/power rails built through the force tiles, collaboratively. 
+
+Way to it might work to code would be to slap the block pathing code onto a new layer that only interacts with the navigation stuff. If it blocks creatures all the better too, throw together some lore about it blocking all genetic ooze materials and call it a day :P  not sure what it'd do to performance... computationally the game would probably have periodic sync moments which would likely be worse than the autosave shenanigans we already see."
+Oxygennotincluded,fpddgcp,t3_gcrvvh,1588524820.0,Biomes spawn with the materials being their starting temp and there is absolutely nothing keeping them that temp except abyssalite insulation  around the biome
+Oxygennotincluded,fp7a60e,t1_fp6sjdj,1588366821.0,"They add a new consideration you have to be aware of, and another interlocking mechanic to increase complexity, so yeah. 
+
+They are one of many interlocking systems and some aspects of the game that are currently fairly minor considerations, but need to be considered still, would be trivial without them."
+Oxygennotincluded,fp6k4bj,t3_gbcd8e,1588353709.0,"It sounds like you want a version of oni that's more like the sims than the pseudo-engineering game that it is made to be. There are mods to remove for many of these systems you dislike. Though, imo, all but 1 thing listed here are essential mechanics and if they weren't in place there would be literally no challenge at any point in the game.
+
+The game operates on the principle that there is the reward for doing things well is smooth colony operation. Many of these things you list are indicators of systems you could manage better and therefore not have that problem, or 'flaws' that must be worked around through design or else the thing is trivially easy."
+Oxygennotincluded,foz4lt3,t3_gabebr,1588184596.0,"2 things are possible. if this area used to be in H2 or another gas, how many DTUs wheezes delete is dependent of the shc of the gas they are in, so it straight up may not be able to cool as effectively now that it's in O2. Otherwise that water is certainly messing up the wheezes being able to intake gas as they d that on their bottom tile. the bottom tile of wheezes have to be in gas for them to work."
+starcraft,fovtulr,t3_g9sjqm,1588107423.0,"Really like the zerg changes, been calling for that since HSC20. Didn't expect the tumor change, but it looks good, though it might hit lower tier pros especially hard compared to the top of the top.
+
+Excited for the Protoss changes. I feedback range +1 is a particularly good thing to try. I like the revelation change, felt like it was too long of a spell before and should be more active, and now it is. Esp excited for how the battery spell will allow for some defensive d-matrix like play. Didn't see it had a range at first, so was worried about cannon-proxy immo pushes but that shouldn't be a problem like this.
+
+Terran... minor minor buffs imo. Should be in a good spot. Looking forward to see if the queen change effects how often and how strong bc openers are."
+politics,fod59cp,t1_fod3lff,1587680092.0,Reagan's a fucking shitbiscuit
+politics,focz4vy,t1_fobx80k,1587677802.0,"> there’s no way history 
+
+unless he gets to write it, like Xi is in China is for their people"
+Oxygennotincluded,fo9erjk,t1_fo93hmb,1587617521.0,"Workaround in the short term is to make the sweepy dock dupe inaccessible, put down an autosweeper with 2 loaders, one set to rego only and the other to all but rego. Then ship the good stuff somewhere nice and dump the rego somewhere it can pile up forever out of the way.
+
+Edit: this works bc sweepy seems to pick up 1 thing per tile, skipping a lot of the rego. It works to collect the good debris for me."
+Oxygennotincluded,fo7qu13,t3_g5tu1c,1587582968.0,sweep by type on the workshop. It already exists
+Oxygennotincluded,fo0h7rq,t3_g4re7t,1587413084.0,"buld some long narrow insulated farms with a handful of heaters until you can get a tepidizer temp control system up and running. The heaters will need to be turned on/off a bunch because there's always cold mass (dirt) coming in, but they also don't exchange heat very well. some tempshifts can really help stabilize the temperatures (esp of the farm tiles) but can very very hard to bring up to temp. Sweeping after clearing an area out is very important if you want to heat the area up and keep it warm (debris add a ton of slow thermal mass, so you'll constantly be 'losing' temp if you don't"
+Oxygennotincluded,fnyfquy,t3_g4e5ms,1587361754.0,They have to be able to see the sky. eg if light can't hit them during the day the space in the cone that isn't lit doesn't count towards scan quality.
+Oxygennotincluded,fnyfemt,t1_fny9y6c,1587361470.0,"abyssallite insulates perfectly except around phase transitions, so it shouldn't be your problem here. my best guess is that your (diamond i assume) window tiles spiked to higher temps than you steam bc of no tempshift plates, and they're bleeding that heat off into the steam chamber."
+Oxygennotincluded,fnu9g74,t3_g3xn6j,1587257290.0,"outputs get blocked if **anything** occupies the pipe going over them, even the same gas they're trying to output.  drop the co2 pipe 1 tile down so it's not going directly though the outputs and it'll work
+
+edit: what I do a lot is bridge over the output pipe and then connect the building output only to the bridge output so it's a little 1 tile dead end"
+Oxygennotincluded,fnu936w,t3_g3x15i,1587257077.0,"Grab the reset build priority mod. Never use 9 unless it's something you must micro right now. Use 8-6 for various higher priority, and to stagger builds between areas. if you don't care use 5, which the mod resets it too for you so you never have to think about it. ideally it'd be 3, but i looked into editing the mod to that and it's not doable with my skill"
+Oxygennotincluded,fnr38x7,t1_fnr1ls9,1587178231.0,"not a clue but that's how it works, probably why it hasn't been fixed since qol3 at least though"
+Oxygennotincluded,fnr1bm1,t1_fnqxl9l,1587176926.0,Yes
+Oxygennotincluded,fnqe83v,t3_g3bhgw,1587162874.0,"Abyssalite has a bug where it transfers heat if things will phase change due to it doing so. Usuallt this is seen with 500C+ stuff flashing oil to sour gas, but it can also happen with gas-liquid transitions like steam to water. Watch your abyss' temps for a bit, they're probably going up slowly"
+Oxygennotincluded,fnndo2p,t3_g2h3fz,1587089987.0,2 cycle senors set to small amounts of green on either side of their sleep and hooked directly together withe each other and the lamps.
+Oxygennotincluded,fnj9spt,t3_g1zvuv,1586994701.0,"This is awesome. 
+
+I'll probably use this to get my own design up and running. Did not realize that the hot solids are the end goal of a regolith melter and it's so power positive.
+
+Edits: Rocket dry heat (see discussion here) can apply heat up to 3200c, well above our needs.  --- Should be 2927C, according to the source (source is in kelvin not celsius). Not much practical difference though"
+Oxygennotincluded,fnekcm6,t1_fnejvcv,1586890915.0,yeah it's a different when you've got a bunch of passive always on generation and it doesn't really matter at that point.
+Oxygennotincluded,fneicp1,t1_fndpx6w,1586889896.0,"Note. You almost always want those settings to be 60-90, 30-90 etc with the same upper limit so there's overlap. So that if you reach low power reserves, everything turns on until topped off, resetting the system.
+
+If you use it as suggested you can get suck constantly using your secondary source and hovering 55-65% instead of ever getting up to full reserves and relying only on your primary source for everything but consumption spikes. It also prepares your grid for such spikes to hold higher power levels"
+Oxygennotincluded,fn50xiz,t3_fz0skk,1586653337.0,"if you have any water at all start melting ice with a tepidizer or refinery w/ oil (be careful about coolant temp for this). If you're down to oil you should have lead so automating that should be easy enough. Unless for rp don't worry about heating your base except for farms/ranches w/ plants.
+
+Not worth tapping magma for this. You'd have to transport the heat waaay too far"
+Oxygennotincluded,fn4z5f0,t1_fn3ipx7,1586652182.0,it acts as a bridge. what he's talking about is the regular wire (or conductive) he couldn't see connected to one or both of the terminals behind the bridge.
+coolguides,fn0zai4,t1_fmxiyjf,1586551673.0,"Great filter theory, by my understanding, actually implies there are many such great filtration events sentient life has to surpass. For us, some we have passed, and some of which we are yet to hit. The 'nearest' would be avoiding nuclear war and climate catastrophe."
+Oxygennotincluded,fmww5a9,t1_fmwe7gq,1586454089.0,I like the plus 7 science bc it lets them finish science and become my primary supply dupe pretty early. Science also buffs trait gain you the +7 will gain athletics faster than any other dupe.
+Oxygennotincluded,fmvgf88,t3_fwu5s5,1586416084.0,"Beginners are +7 science, +3+3 build/dig/supply, 2 of 3.
+
+I tend to go for balanced. Aim for 2 dupes of each +3+3 dig supply, dig build, dig operate. A couple preferably 2 +7 ranch and farmhands, but +3+3 works fine. A handful of +1x3, +3+3 gofers, supply/plumb, art/plumb/doc, etc. A +7 cook preferably, but a +3+3 cook supply will do.
+
+that makes my first 12 which I sit on until rockets just about. Will jump up to 14 if I want more supply/tidy errands to be done faster, but they're outpacing my work right now at 15 dupes as I'm getting rocketry up and running. The three most recent of those are going to be rocket-locked pilots."
+Oxygennotincluded,fmvfvpy,t3_fxkf51,1586415551.0,How does it handle intermittent oil supply? is this a boiler that _must_ be running 10kg/s at all times or can you turn it off without major side effects?
+manga,fmk9kyz,t1_fmk01ef,1586148148.0,yeah and then I get the top and bottom couple cm cut off by the banners :/
+Stellaris,fmj15pb,t1_fmitnlw,1586120954.0,"I honestly feel a mechanic like the one suggested would only add readability to that information, while also making some things much more of a judgement call. There would be no comparing fleet diplomatic power to total to see how far they went into military or such, it'd be right there at a glance. (I do not like the idea of RNG error added at this point)
+
+Stellaris as it stands is very much a pure strategy game in the likeness of Chess, as you said. However, through it's presentation (governments, statecraft, trade, economics, fog of war) it also masquerades as an information game like starcraft and crusader kings (not dure about this one). 
+
+To me it would be a better game if it leaned into that information control aspect more, with more ways to control information flow. More envoy mechanics and information control policies centered around ethics and such. Maybe even added nation project type things (midgame ""megastructure"" stuff), some of which could help control information and 'scouting' or buff diplomatic influence, or others that just give a slight midgame power spike in specific directions, when pops is really the hard limiting aspect of your econ.
+
+Right now the only ways to get more or less information is to... get better sensor range then build a sentry array at the end, and maaaybe try to play around a nebula if you get luck with positioning. There is no other information control. I would want more policies around that and national project type stuff to allow for specialization and differentiation of empires prior to the point in endgame where you just start to be able to do everything, but that's my dream and not really relevant to the discussion at hand.
+
+I would love an entire information control mechanic to be added in. Obscuring base level information would have to come hand in hand with mechanics to reveal and hide information, which imo would be absolutely fantastic. It also would ties nicely into the new diplomacy systems and new information we're now given. Pull some of that info back, made good relations provide more info, allow envoys to provide info regardless of relations. Allow policy to dictate how much info foreign envoys can glean and have it alter trust gain. Have galactic council influence related to this too. There's _a lot_ of information control aspects that could be added, it's just that entire branch of mechanics has never been touched, so currently stellaris presents like a game of incomplete information when it's really not."
+manga,fmipre0,t3_fvg0bx,1586114425.0,God I cannot follow these double pages on their reader at all.
+Oxygennotincluded,fmf7qsr,t1_fmf1qb8,1586021623.0,"Yes. Do note that when he introduces the heart of the build the heat source is not included so his little magma well is a placeholder.
+
+For a minor volcano I would absolutely recommend a heat exchange after the boiler between the petrol and oil just to save heat. My minor volcano took close to a whole eruption just to bring my boiler up to temp
+
+I recommend giving Francois John's volcano steam power video a look too, his volcano magma heat extraction in that video is my favorite, and very easy to adapt over to this system"
+Oxygennotincluded,fm3m1ee,t1_fm3legv,1585728374.0,"I really did gloss over reading it so you could have very well put those in well and I didn't see it. 
+
+Very important though to have thermal separation between the still and the heat exchange or else you'll constantly be bleeding heat into the heat exchange and the efficiency drops through the floor as well as introducing The chance of pipes breaking"
+Oxygennotincluded,fm3k7up,t3_fsuf3r,1585726448.0,"Ahh you missed one very very important aspect in petrol boiler builds. Best explained by https://www.youtube.com/watch?v=csvObrEPtzg&feature=youtu.be  
+
+In short, if you separate your still with a little 2 tile drop from the start of your heat exchange, and then never run your crude piping through the still itself, it becomes literally impossible to boil oil out of your pipes. Unless the whole thing backs up anyways, and a thermal connection is created between the still and the heat exchange. because the entire thing and the 2 tiles up to the heat exchanged have filled with 720kg of petrol per tile
+
+I would suggest mentioning that these counterflows only really work if they never stop, and take upwards of a hundred of cycles to reach thermal equalibrium. So suggest an overflow into 5 petrol gens along with the oil wells."
+PracticalGuideToEvil,fm2ams1,t3_fsgch6,1585693702.0,"You miss the hook that is the sinister physician. He was introduced deliberately and placed accordingly. He is close. I do not think Cat will die here, but she is certainly out of the fight for the day. She's got about a minute, accounting for what she can do with magic and night, until she has get to his care.
+
+Bard placed many things, and you're right, car feel for it hook, line, and sinker, but she did so knowingly. She expected this outcome, and as cat has always done, has decided cause as much chaos and disruption to her opponents plans in order to be able to capitalize on things overlooked.
+
+In this case, the Queen's out of the play (temporarily), the first traitor is revealed, the villian has taken first victory, and it's time for the counterpunch to stabilize things. I expect this to be in the mirror knight's bring present by severance, and zeze to have some breakthrough concerning sorcery, fay, or quartered seasons and gaining back agency in casting.
+
+Zeze's event being the epitome of the reclusive sorcerer coming into astounding knowledge and saving his life work at the last minute.
+
+Mirror's event being the epitome of right place wrong reason, hold down the fort while seriously confused and concerned about the major current events."
+starcraft,flym4n4,t1_flyktdm,1585604732.0,"Yeah, but he deliberately uses the most skill inefficent strat to do so. Pulling that off essentially requires you to be higher skill than your opponent, and for them to not be confident/decisive. 
+
+There was a couple points in that game where if MyuNgSiK could have literally just pushed across the map and killed maru, if maru didn't play his mental state and play his positioning. Maru knew exactly what would have been expected of 'perfect' play in that scenario, which is what MyuNgSiK prepared his defense for, and countered that incredibly thoroughly, and in a way that requires him to be faster and multitask more than his opponent. 
+
+To me this match was as much, if not more of a demonstration that Maru severely outclassed MyuNgSiK, then it was that Maru was doing what he had to with the tools he had at that point of the game to win. Throw in the context of building _THREE_ CCs at MyuNgSiK's choke and all I see is maru clowning on him"
+relationship_advice,flykifo,t1_fly415e,1585603861.0,"Go fuck yourself mate. Yes finding someone unattractive for their physical features is legit, but it's not fucking reasonable to take a person's trauma story, and then shove it down their throat.
+
+They're already hurting over that thing, and so you double down on being the gross green slime in the sludge at the bottom of a long abandoned pool and  hurt her for that thing more. 
+
+Fuck you, and everything you stand for. I hope you can reevaluate how you handle people around you who are hurting, or I expect you will never have a relationship that lasts through trying times, or a friendship with someone who has been hurt before, by antics like yours."
+EscapefromTarkov,flxze5v,t3_fruirk,1585592703.0,Happens all the time. Seems to only be with a loaded magazine in a gun on your person. Haven't had it happen since I started leaving mags in my rig and only loading up once going into raid
+starcraft,flwohce,t1_flwjcmj,1585558670.0,Dude watch the video. That was just Mari clowning on him
+PracticalGuideToEvil,flwcve6,t3_fr7zs2,1585546372.0,"She is being practical, and in being guided by practicality, the world she is in has painted her under evil."
+starcraft,flwc4od,t1_flwbcca,1585545692.0,"His gotten better, esp was much better at blizzcon than last summer and better yet at HSC. Esp last summer he constantly seems to call fights wrong if roaches/ravagers were present (in disfavor of zerg), would predict entirely inaccurate tech paths that seems absurd to me and that the pros never followed, and would always favor and hype the player who was behind and to take the game.
+
+ I do not like his casting style, I get that that's a personal thing, but I also do not trust his zerg analysis because I seem to make more correct calls then he does when watching him cast. I started to actively ignore his casting in games I was watching prior to blizzcon because he was so far off base on zerg analysis. He seemed much better at HSC XX, though I personally still do not like his casting style much."
+starcraft,flw2wj6,t3_frh3g8,1585538262.0,"The original games are great, but I would never recommend them as a place to start. Brood war (the original's expansion) is the competitive platform that is played still, but it's ungodly complex (2 decades of meta to digest in vs) and the control systems are insanely clunky, thought that is where a significant amount of the expertise happens. 
+
+I would recommend downloading the free SC2 verses client, playing some AI games to get familiar with the units/buildings (i think you can play vs ai for free), then look into learning a couple builds of your preferred race and just try to follow them. It'll put you in the Legacy of the Void lobbies, which is the most recent of the 3 SC2 expansions, and the one that is still being played. There is no reason to buy the other 2 games unless you want the campaigns.
+
+Somewhere in there after you've learned some of the basics, dodge over to sc2links.com and pick up a recent tournament. GSL - Super tournament 1 that just happened for example, or IEM - katowice was really good, or Homestory cup if a more free-form banter style of casting sounds interesting. But the casters in HSC will not help you along understand things so much, but be generally more entertaining, especially between matches. See if you can try to follow what's happening with your verses knowledge.
+
+If you feel you still want to get into Broodwar at this point, watch some of the broodwar tournaments on sc2links. Tasteless/Artosis are the only ones casting broodwar in english I know of, but they're good about trying to introduce background needed to understand what's going on. If you still want to get it, look into the control limitations (can only select 12 things, nightmare pathing, cannot hotkey buildings, etc), and then if you still want to try it, buy it. Otherwise just keep watching it. I used to play that game so much but I just enjoy watching so much more now because I cannot handle the control schemes.
+
+For SC2, I would really recommend catching games with Zombiegrub (doesn't do Tournies as often but is in IEM), Tasteless/Artosis, or Maynard casting as a beginner, as I find them easiest to follow, though ToD, feardragon, Grubby, and Maynard are all very good as well imo. By personal preference I don't like PiG as much, but he's getting better, but that's largely because I don't think he's as knowledgeable about Zerg as I would expect from a Zerg main and has some casting tendencies I don't like (seemingly purposefully calling who will win fights wrong?). I would not recommend him or Wardi for a beginner for various reasons I don't ant to get into.
+
+A lot of Day[9]'s stuff from ages back is still applicable, even from the other expansions."
+AskReddit,fkrz6nd,t3_fk4nb0,1584478963.0,"Be able to shape shift , have a house/apartment of roughly my own design, and enough income I don't really have to worry about prices and can afford a couple hundred a month in non-essentials that I'd only have to buy once in the next couple years or more"
+EscapefromTarkov,fkmhw9q,t1_fkmf0ac,1584329445.0,popped my field of view back up to 70 and I'm not having major problems anymore. Something changed though
+manga,fkl7b95,t3_fj3gq5,1584300059.0,"HYPE-HYPE-HYPE
+
+""When you're at sea, You fight against PIRATES!"""
+Oxygennotincluded,fkgrug0,t3_fi31qn,1584171280.0,vaporizing then condensing deletes some heat bc of shc differences in gas and liquid
+Oxygennotincluded,fkgrqtn,t3_fi5syj,1584171149.0,That's a super cool setup
+Oxygennotincluded,fkg80z5,t1_fkg38zj,1584152289.0,"Yes, true. That does not apply too this particular system."
+Oxygennotincluded,fkf7oqf,t1_fkf65ox,1584128691.0,"It does not improve heat deletion. The same amount of heat gets deleted either way because the bottleneck is the input rate of heat (aquantuner) not the deletion rate of heat (turbine+bug). This means that all you're doing is deleting heat that would otherwise be turned into power.
+
+In short, this particular system deletes the same amount of heat with, or without, the bug. It's just with the bug you recover less power with the turbine"
+Oxygennotincluded,fkdj73q,t1_fkdj5cw,1584080842.0,"Honestly, with the regolith pack above now, it shouldn't be damaged more"
+Oxygennotincluded,fkdj5cw,t3_fhv83c,1584080786.0,"Large meteors damage in a radius of the impact tile, not just horizontally"
+Oxygennotincluded,fk9u02l,t1_fk9o0gi,1583983571.0,"Yes. I believe that is exactly what I said, or tried to. I see my first sentence is confusing. I meant ""They also just slow down that process (the equilibration of the tempshift with everything else) compared to any other material."""
+Oxygennotincluded,fk9hepq,t3_fh6k5k,1583976121.0,"Tempshift plates made from insulating materials are kind of pointless. They still try to equalize their temp with the 3x3 tile area around them, defeating the purpose of insulating. They just slow down that process of equilibration of the tempshift with everything else compared to any other material, which is counter to the use case of a tempshift plate.
+
+For most use cases of a tempshift you want high TC and low SHC, like a heat deletion steam room. However if you want to add thermal mass to an area, you want as high SHC as possible while not having too low TC. 
+
+Clay, ice, and dirt are v good choices for this, though you have to watch the temperature range you're working in. (iirc you can make tempshifts from clay?) Ceramic isn't too good because it's shc is so much lower, much like granite and sandstone which i used to like. Plastic is decent, but the low conductivity can be harder to work with, i'd just use granite in that scenario. 
+
+No tempshift plate is going to reduce temperature transfer from one area to another, at best (for that purpose) they're only add thermal mass so the gradient can be larger per tile if positioned properly and make active cooling easier with smaller temperature swings.
+
+Keep in mind to keep the tempshift plates away from where they can pull heat directly out of the gas/room you want a thermal buffer from (so you don't want them right under that door like you have them for this purpose.) Also keep in mind tempshift plates set their starting temp at 40C so you can actually be raising the temp of the area when you first build them without active cooling."
+BipolarReddit,fk528jo,t1_fk51nq1,1583872068.0,It was early on in the first try for a cocktail. I ended up on zyprexa and latuda eventually
+BipolarReddit,fk4uhzi,t3_fghum2,1583867843.0,Never been in tetregol but Abilify made me sleep 22h a day
+manga,fk1n7v8,t3_fft809,1583783059.0,That whole chapter felt like the story got axed and they had to wrap it up right then and there...
+Oxygennotincluded,fjwubo5,t1_fjrmfj2,1583646059.0,I like automating pO2--regolith-->clay->ceramic around pO2 vents. Earlier you set this up the more ceramic you can use. Definitely a mid game build but it's nice.
+Oxygennotincluded,fjws0g0,t3_ff5fju,1583644310.0,the aetn probably just can't out cool the heat leaking in through that oil lock. They're very weak
+Oxygennotincluded,fjtuw1m,t3_feul7l,1583611134.0,Why are you bridging between coolant chambers? That just allows for the 1x3 bridge building to transfer heat between the two coolant chambers doesn't it? Wouldn't a tile of insulated pipe be (marginally) better so you bleed any heat between them?
+Oxygennotincluded,fjqaf10,t3_fesg9h,1583570258.0,There's probably a regular wire connecting to it somewhere. Check any bridges that go over it. Transformers can also draw over the limit and not add to the display number iirc
+AskReddit,fjpd2oe,t3_fefxhi,1583547696.0,Flowerpot. I guess it falls and beans me in the head? From the other side of the couch
+Oxygennotincluded,fjhp876,t1_fjh3q1q,1583352502.0,"If the tile is supplied very hot material, but not immediately built, those supplied materials in the unbuilt tile will continue exchanging heat until it's finished building and the temp is set to 40C. 
+
+Can test by disallowing build tasks but allowing supply"
+Oxygennotincluded,fjen8e5,t3_fc3o7o,1583274814.0,"You might be running into a couple of bugs. High pressure steam has a tendency to delete a ton of heat. Don't remember the exact mechanisms of this but low pressure steam or putting your ST output vent to vent in in a small bit of oil/petrol solves this. 
+
+There's also another water deletion bug I've run into when venting from high up and having the water fall. Mostly I've run into it when cooling larger sour gas areas by just dumping in water through tempshift or bottle emptiers, and then trying to vent the ST water pretty high up in the chamber through sour gas. Somehow this ended up deleting several hundred thousand kilos of water/steam over like 20 cycles. It also gets fixed by placing the ST output vent in a little puddle of petrol."
+Oxygennotincluded,fj33ows,t1_fj0emsq,1582965669.0,"I think they were getting at the fact domesticated treesauto harvest, it just takes far far longer (~30 cycles iirc) than the normal 3-4 cycles every other plant auto harvests in"
+bicycling,fj29sbk,t1_fj249ik,1582938169.0,"Are they nicer than the gravelking slicks? That's what I kind of want to replace, been getting a lot of flats"
+bicycling,fj1vlra,t3_favfmu,1582928776.0,What are those tires? I'm the in market for new ones and i want to stick to brownwalls
+Oxygennotincluded,fj1va4f,t1_fizre3s,1582928568.0,I just straight up put the S climb one tile to the side of the ladder shaft. Digger can just go do the whole thing for all I care and then the builders can come in and fill in the ladder with full accessability
+Oxygennotincluded,fj1v3z9,t3_famsl4,1582928456.0,I do the S bend climbing adjacent to where I want a ladder so my diggers will make the entire ladder shaft available and accessible and my builders can actually work on the ladders in a timely fashion. Seems to work well. Also lets me explore effectively before it's time to plan out first few main shafts.
+Oxygennotincluded,fj1fc2j,t1_fj0o8k0,1582918890.0,"It has to do heat transfer calcs for every different material in a bin. 1 bulk material is 1 calc instead of many small ones. Might help, not sure"
+hajimenoippo,fiy7sqd,t1_fiv7052,1582834208.0,"Yeah, and that wraps nicely into motivation. He was always using coach's style and fighting for coach to make coach's boxing work. Imo in Mexico Ippo's going to go through what you've said, and then become curious over how strong he is, start boxing a little, training spars and stuff, and that's going to transition into a 'how high can _I_ go"" once he starts taking out world rankers with no problem in spars. Or they could just take it the whole boxing trainer route which is also feasible but not what I want to see"
+Oxygennotincluded,fixsl4f,t1_fixdi5r,1582826011.0,Make sure every bin has only 1 material in it
+Oxygennotincluded,fiw0cqh,t3_fa1tq9,1582772154.0,"a week or two is what they said on their stream where they previewed it last weekend, but that sounds optimistic to me"
+Oxygennotincluded,fiw020y,t3_f95xdl,1582771958.0,"aquatuner bypass needs to keep the two lines separate with the only joining being directional through the two different ends of a bridge or else the packets get confused. 
+
+Pipe pathing priority from the perspective of the elbow below the tuner works before that last segment is added because in the left direction,the pipe ends in a intake. It can go there. As soon as you add the last segment both sides are input then output and equivalent. Therefore it doesn't know where to move and freezes."
+EscapefromTarkov,fivy8wp,t1_fivx2hx,1582770767.0,"Man, rain is not that shitty and staticy on any other map. And it was clear skys too. It literally sounded like a fallout 3 barrel fire being put through my grandad's crappy wireless landline from 2000."
+EscapefromTarkov,fivxxpd,t1_fivxes4,1582770562.0,!5flair
+Oxygennotincluded,fipjbhx,t3_f8x95f,1582608697.0,Ha this is not at all how I play. I guess it gives structure to people who are overwhelmed so that's good though
+AskReddit,fimhltm,t3_f8csdm,1582530660.0,Sensory control. If I'm alone I have a lot more control of my sensory environment which can really help alleviate anxiety or feeling overwhelmed
+EscapefromTarkov,fimgf78,t3_f8lv97,1582529257.0,Dyrosis lvl23
+EscapefromTarkov,fimg75s,t1_fil1scx,1582528996.0,"Scav runs that the server drops for, often your next scavhas all the loot you had the previous run when it disconnected. I dc'd today and my 'next scav' had the trizip 2 weapons and all his goodies in the bag that I dc'd with. If your next scav loks the same as what you DC'd with, run a map you feel near 100% safe extracting on (interchange for me) and run that to be sure. You might still have that keycard"
+EscapefromTarkov,fimg1f0,t3_f8k005,1582528811.0,"Hey now, the wind and crickets going away is how I know I'm loading in."
+EscapefromTarkov,fimf4f4,t1_fimd4nf,1582527777.0,That's a different tab of the same spreadsheet. Literally what prompted me to ask the question in the first place. thanks though
+EscapefromTarkov,fim7p8z,t3_f8j8nc,1582520592.0,Yep
+EscapefromTarkov,fim75fc,t1_filr8vj,1582520113.0,"That's super useful! 1 thing though, could you add a column to helmets to indicate if you can wear earphones under them?"
+EscapefromTarkov,fim5kwg,t3_f8ln1y,1582518800.0,There's a very specific timing each shell you have to left click on to cancel. It's dumb. And I don't think you can cancel like that until the third shell? Gonna try quick melee I see someone else suggesting
+UBC,fiio9fv,t3_f80wwk,1582423874.0,"My way of getting through that was to desk job it. My 'vices' are primarily reading and video games. They're my go to avoidance things that don't progress anything or maintain my self (much).
+
+By 'desk jobbing' school I set a rule that from when I left for school (8-9am) until 6pm weekdays I would not play games or read. Socializing, cooking, cleaning, etc is all fine, but no games or books.
+
+Saturday was an off day _always._ midterms on Monday? Don't care Saturday is off. Sundays are maintenance (cook for the week, laundry, etc) and schoolwork I want to get ahead on, or was unable to finish the previous week.
+
+I held this for Fridays too. Monday to Friday I didn't get off until 6pm. Really helped me figure out the work life balance and give myself enough not school time to stay healthy in my head while getting everything done. 
+
+For exams, midterms, and end of term project time I sometimes would shit my schedule back to 8pm instead of six. Doing some overtime, but it's extremely important to maintain a 'work time' and a 'recovery time' that are distinct and do not bleed over into each other, hence Saturdays off."
+IndianCountry,figd5ar,t3_f7twxa,1582398270.0,What I'm getting from this is Warren is the only one who seems actually intent on possibly doing anything except lip service
+TrueAskReddit,fictt18,t1_fichf4n,1582356638.0,"Don't base it off regret, base it off preference. If you actually had no preference by the time the coin landed go with the coin. If you have a preference on which side it would land on, go with that. Regret is dumb, you feel it but it has no purpose in this case other than causing you to freeze and be indecisive. It only works if you double down and following the coin if you can't decide.
+
+Do it for smaller stuff first, where to go for dinner, but always follow the coin if you don't have a preference. You have to train your brain to make these gut quick decisions, and trust them before you can actually use it on something big."
+TrueAskReddit,fict95w,t3_f7kwtd,1582356404.0,Flip a coin. If you don't have a preference by the time it lands go with whichever it picked. If you do have a preference... well then there you have your choice.
+AskReddit,fibzsg5,t3_f7aipy,1582334070.0,Starcraft. Either one. Got into it as a way to escape my life. Stopped playing because of shitty HotS days. Still into watching the competitive scene near religiously. It's been a good decade of enjoyment.

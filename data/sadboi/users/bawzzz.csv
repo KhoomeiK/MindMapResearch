@@ -1,0 +1,177 @@
+AskReddit,fqs8axm,t1_fqs3zq2,1589600786.0,It was an accident mom I swear! Goshhhhhhh
+AskReddit,fqs6ueg,t3_gknbbe,1589599842.0,Anything with wings
+AskReddit,fqs6s9u,t3_gknbcg,1589599804.0,Jizz.
+techsupport,fqb8kzz,t1_fqal9f8,1589232476.0,Check behind your router. There’s usually a sticker with all the login info. You could always hit the reset button and re-establish all the connections.
+techsupport,fqb6rfh,t1_fqak6w0,1589231565.0,Good stuff
+techsupport,fqb5wrg,t1_fqak0av,1589231136.0,U need to go online to the manufacturers site and search for it.
+techsupport,fqb5gr3,t1_fqajsma,1589230911.0,Try Realtek wireless LAN
+techsupport,fqajhdv,t1_fqaj2sp,1589220113.0,What do u see under network drivers
+techsupport,fqaj9pl,t1_fqairwx,1589220010.0,Definitely has to be a setting under the Language settings. Might have to play around with it.
+techsupport,fqaiu3r,t1_fqaha3c,1589219802.0,Go into device manager and uninstall the wifi and Ethernet adapter and reboot. Windows will automatically find the needed drivers and install.
+techsupport,fqaikf2,t1_fqagrn1,1589219671.0,That’s normal. Do all 3 in order
+techsupport,fqaifuq,t3_ghshil,1589219611.0,Should be Ctrl shift for ~5 seconds
+techsupport,fqai720,t3_ghq2ez,1589219491.0,Power supply is a dud. Swap it out!
+techsupport,fqai00f,t3_ghq7yh,1589219398.0,"The BSOD gives you an error code towards the bottom left. It could literally be caused by a host of things malfunctioning from hardware to software.
+
+You could also go into the event viewer and see what error you get before the computer crashed."
+techsupport,fqahhjj,t3_ghqfjc,1589219152.0,"When you plug it in, you may have to go into the audio driver software (Realtek, maxaudio ect..) and choose “headset” instead of “head phone”. This will enable mic and audio."
+techsupport,fqah7j0,t3_ghqfxh,1589219019.0,Maybe update your wireless adapter driver
+techsupport,fqah249,t3_ghqke9,1589218947.0,"If your connecting to your router it only accepts the router/gateway IP. Not necessarily your computer IP.
+
+Default is usually 192.168.0.1 or 192.168.1.1"
+techsupport,fqagvie,t3_ghqklq,1589218856.0,"Go into command prompt and type in the following;
+
+
+Ipconfig /release *hit enter*
+
+Ipconfig /renew *got enter*
+
+Ipconfig /flushdns *hit enter*
+
+See if that works.
+
+Can also check the network adapter settings and see if your wifi adapter is enabled."
+techsupport,fqagkge,t3_ghqmcu,1589218708.0,"Clear your History but choose “all time” under the advanced tab.
+
+You might also want to go into settings in chrome and check the pop up settings and see if you have inadvertently enabled these pop ups. If so, you can block them."
+techsupport,fqag8fr,t3_ghqmtp,1589218545.0,"First thing first, go to Command Prompt and type in the following;
+
+Ipconfig /release *press enter*
+
+Ipconfig /renew *press enter*
+
+Ipconfig /flushdns *press enter*
+
+See if that works.
+
+Also make sure your IP address is set to Automatic so the router can provide an IP using DHCP.
+
+
+Update your wireless adapter driver from your laptop manufacturer website. May need to get it using a different computer and put onto a USB"
+techsupport,fqafi1p,t3_ghqy2r,1589218191.0,"As in you have 2 separate routers with separate wifi connections?
+
+I’m sure it’s all in the network settings of the printer. Go to the network settings and choose the wifi connection of your choosing."
+techsupport,fqaf3i0,t1_fqadxdo,1589217996.0,"Sounds like faulty hardware then. 
+
+If you’re comfortable with it, perhaps take your laptop apart and try to reseat the screen connection. Or if you have warranty get it looked that professionally.
+
+I’m assuming you already tried reversing it by pressing Fn + Up arrow..."
+techsupport,fqaehp9,t3_ghr4n8,1589217697.0,"Reboot the computer... and start Windows Normally. That’s the usual fix.
+
+Either that or you had a power surge which fried the socket/components.
+
+Plug the monitor into another outlet and see if it turns on."
+techsupport,fqae4cu,t3_ghrbe0,1589217520.0,"Sounds like a driver issue.
+
+Go to your manufacturers site ie. Dell and search your model number.
+
+From there go into the drivers section and install the most updated Video and Sound drivers."
+techsupport,fqadpyj,t3_ghrbmg,1589217325.0,"On your old computer, open CMD and do the following 
+
+Ipconfig /release *hit enter*
+
+Ipconfig /renew  *hit enter*
+
+Ipconfig /flushdns *hit enter*
+
+Also make sure your IP address are set to dynamic instead of static IP so the router can provide your computer with a new IP using DHCP"
+techsupport,fqaddo4,t3_ghrc6q,1589217158.0,Perhaps load the computer into the BIOS and check what the screen brightness is set to on startup. I believe it’s either F8 or F12
+techsupport,fqad5bt,t3_ghreqj,1589217044.0,"If the problem lies on your router, than I suggest calling your ISP and have them check. You installing VPN client on Chrome would not affect all your other devices."
+techsupport,fqacvqi,t3_ghrfx8,1589216911.0,Why not? You can manipulate the specs of each monitor separately to look similar or just choose the recommended settings even though one may look crisper than the other.
+AskReddit,fq726sr,t1_fq6ww18,1589140826.0,Online friends might be ‘better’ in the short term but how long can you maintain this virtual relationship? Hanging with friends irl is infinitely better than communicating over headset and texting.
+AskReddit,fq71ois,t1_fq6x8ii,1589140636.0,"Well, like the saying goes “facts don’t care about your feelings”. Some people need a wake up call and so if this is out of your realm of possibility, then it’s sad to say you’re out of luck. Just saying things will be ok helps to a certain degree, but sometimes you need to hear the hard truth."
+AskReddit,fq712r0,t1_fq6ypmu,1589140415.0,"I’m the team lead for the IT department and we had 2 new hires join slightly before the pandemic so I have to go in and train. And since it’s a health care type of industry, we have labs still open for testing so they still require someone physically in the building in case things go down. Having half the company using VPN, there’s always things going down."
+AskReddit,fq6wehl,t3_gh7mg3,1589138706.0,"Needless to say, it doesn’t happen by you sitting on your ass playing video games in your room. You need to get out there and make yourself known. Statistically speaking, the more people you interact with, the greater the chance that you will build rapport.
+
+Easiest way is to pick up a hobby. Join a club and interact with people who are into the same hobby as you and it becomes easy since you will be talking about things that both of you enjoy."
+AskReddit,fq6vwe4,t3_gh7mko,1589138521.0,I still go to the office since I’m considered ‘essential’
+AskReddit,fq0qxgo,t3_gg9hn2,1589036326.0,Something about bitches and hoes sucking me off because I’m so rich. I guess I can live with that.
+NorthKoreaNews,fomtttv,t3_g7yz7r,1587903609.0,Are the North Korean residents not ecstatic about this news? The man has been forcing them to live in a bubble separated from the rest of the world.
+news,fomt3go,t3_g7vs07,1587902894.0,"Sorry for the ignorance but if he actually died, would this not be the best news North Korea has ever heard? The man was an insane dictator forcing people to live in a bubble. Really hope the new leader turns things around."
+AskReddit,fo943uw,t3_g6ev72,1587610094.0,My name Jeff
+AskReddit,fo940dm,t1_fo93x3y,1587610032.0,How often does this happen sir?
+AskReddit,fnsvw2g,t3_g3iija,1587229798.0,"A fireplace. Not a traditional one, but an aftermarket one that I plug into the wall. It looks nice with the TV mounted on the wall and the fake fire and some nice heat when it gets chilly."
+AskReddit,fnra1ra,t3_g3dn2o,1587183065.0,Darude - Sandstorm anyone?
+AskReddit,fnoeo5y,t3_g2wylo,1587122599.0,Darude - Sandstorm. Just one of those classic songs that never gets old. It’s one for the history books.
+AskReddit,fnoehhb,t3_g2t95r,1587122420.0,I’m envious of the people who have never met you.
+ontario,fnn8sjz,t1_fm4lg44,1587086916.0,The news will never show this. They’re all about fear mongering
+woahdude,fnmf2h1,t3_g2ghwz,1587070269.0,Looks like a wart.
+PublicFreakout,fn732ir,t3_fzt2us,1586712339.0,"Normally I’d be against physically harming kid’s, but that was well deserved"
+techsupport,fmx4jzq,t1_fmwol01,1586458337.0,"But there’s an option which says “Windows will search your computer AND the internet for the latest driver software...”
+
+I’d assume it checks online, but alas it doesn’t. Go figure."
+LifeProTips,fmr5w8x,t3_fpu0yk,1586314612.0,Pardon the ignorance but why are beekeepers in the business to move hives for free whilst risking getting stung in the process?
+LifeProTips,fmr5orl,t3_fu8e1y,1586314474.0,LA Fitness did this for me automatically. They said they will start billing when at least 1 other club opens in the area.
+AskReddit,fmr45qe,t3_fwkhtq,1586313463.0,"Me, you, sex, my parents house.
+
+
+Didn’t work sadly. Not sure why."
+AskReddit,fmirng7,t1_fmioj7y,1586115527.0,"I was being sarcastic...I thought Reddit was smarter than that. But whatever. Have at it, gimme all the downvotes."
+AskReddit,fmi66v5,t3_fvcz0u,1586103241.0,"This was years ago. I watched a movie at my house (I forget which one), and then a couple weeks later i was at a friends place and we ended up watching the same movie (his random choice). During the movie I made a “prediction” as to what was going to happen next and so did he. I bet him $50...he accepted. Profit."
+AskReddit,fmi5gqx,t3_fvc3ig,1586102814.0,"Revenge took its own course naturally. Back in middle school/highschool he used to go around just punching people in the shoulder or slapping their back really hard. He was naturally stronger and taller than the rest so getting back at him physically was impossible. Fast forward several years, and he’s super depressed. How do I know this? He’s constantly posting on FB about how he’s lonely and will never be in a relationship because of his depression. It’s sad, but I guess that’s what he gets for inflicting pain to vulnerable kids for years."
+AskReddit,fmi50x2,t1_fmhq0bs,1586102559.0,"I’m assuming he was highly qualified and got said job?
+
+Edit: this was sarcasm..."
+AskReddit,fmi4lln,t3_fv8nal,1586102307.0,Cat. Loved her but she ran away :(
+woahdude,fmi3y2u,t3_fvajbs,1586101917.0,"The fish towards the end were like, “wait, why the fuck we following this duck? I’m out”"
+techsupport,fmi0qej,t1_fmg34z5,1586099853.0,169 address means your DHCP service isn’t working correctly.
+techsupport,fmg2wdz,t1_fmg2lp7,1586040119.0,"Have to ask but but is your router and modem standalone devices? If so are they both connected to each other? 
+
+Are you saying when the plugged into router your device gets a valid IP but when plugged into modem it doesn’t get an IP? What IP does your device get?"
+techsupport,fmg2n7k,t1_fmg1tyo,1586039963.0,Valid point. I’ll have to check if they have wifi calling enabled. Thanks.
+techsupport,fmg2eym,t3_fv2j6a,1586039826.0,Could you check if DHCP is turned on?
+techsupport,fmg1vl6,t3_fv2kk8,1586039526.0,Faulty hardware.
+techsupport,fmg1r5b,t3_fv2mjh,1586039452.0,Maybe move all the files you do need into your C drive and then format the hard drive to NTFS and then move all the files back in.
+techsupport,fmg0r3d,t1_fmfz1qo,1586038869.0,"It’s cable internet. I use wifi because I’m far from the router. We all use a cell phone, don’t subscribe to landline. I’ve tried powerline which worked wonders for months and then all of a sudden became worse than my wifi connection.
+
+I just did a speed test and I’m getting 190/14 mbps.
+
+It flutters on and off but when it happens it happens at the most critical points in the game."
+techsupport,fmg0p15,t1_fmg07wy,1586038835.0,"It’s cable internet. I use wifi because I’m far from the router. We all use a cell phone, don’t subscribe to landline. I’ve tried powerline which worked wonders for months and then all of a sudden became worse than my wifi connection.
+
+I just did a speed test and I’m getting 190/14 mbps.
+
+It flutters on and off but when it happens it happens at the most critical points in the game."
+Vaping,fmd7fwl,t1_fmd6tac,1585961024.0,"Yes, I’m going to stop vaping for the next few days and see how I feel. Just sucks because it’s finally the weekend, I’ve had a few drinks and I’m really craving for a vape. But my health is more important. Thanks."
+Vaping,fmd7bbj,t1_fmd71zo,1585960941.0,"Definitely have asthma. The thing is breathing issues isn’t abnormal for me since I’m used to not breathing at optimal levels, but this is just unprecedented for me. I’m going to stop vaping for the next few days and see if it subsides. Thanks."
+AMA,flzcxg8,t3_fs3emt,1585620739.0,Taking any prescribed meds or you just hanging on for dear life?
+AMA,flzclws,t1_flzc8tk,1585620529.0,Glad it worked out.
+Vaping,flzc949,t1_flzbous,1585620298.0,"Ah gotcha. I’m also asthmatic and I started vaping a couple weeks ago and I’m feeling relatively fine with respect to not needing my inhaler more than normal. I do have tightness in my chest but I’ve been experiencing that for years. 
+
+Hope you recover from whatever you have."
+AMA,flzbw7l,t3_fs43w7,1585620060.0,Were your parents well off when raising you guys? I’m assuming buying everything x4 would’ve racked up a nice credit card bill every month.
+Vaping,flzbfeq,t1_flz5yre,1585619756.0,"So since you started vaping, you stopped using your inhaler until Corona hit? You tested positive?"
+AskReddit,flhwosb,t1_flg071x,1585170903.0,I will not be sleeping tonight. Thanks.
+AskReddit,flhwdai,t3_foslu3,1585170730.0,Something about Kim Kardashians ass
+AskReddit,fl3zq59,t3_fmg35d,1584802505.0,Banged the hot chick from the across the street. She then called the cops and I got charged with sexual assault.
+AskReddit,fl3znca,t3_fmg3nj,1584802450.0,At least 3
+AskReddit,fkisk3j,t1_fkijo33,1584227618.0,He was close to 70. Pretty sure he’s been smoking all his life.
+AskReddit,fkijpys,t3_fipx5r,1584221632.0,Kumquat
+AskReddit,fkijo3t,t3_fipxcl,1584221597.0,You’d break your legs...
+AskReddit,fkijluh,t3_fipxj1,1584221555.0,My neighbour. Developed a tumour in his neck.
+AskReddit,fkiiwgp,t3_fips02,1584221072.0,It makes me happy.
+woahdude,fkiijw9,t3_fieoq0,1584220833.0,Plot twist. Their fake and the homeowner has been watering them for 2 years.
+WTF,fk5tack,t3_fgn4xz,1583887456.0,"Well, whatever they were doing, you fucked up their vibe. They had plans of raising a beautiful child bird but now they have gone their separate ways never to be found again. Good job OP."
+WTF,fk5rmqf,t1_fk5g478,1583886534.0,I would be too.
+woahdude,fk5qzjh,t3_fgkyen,1583886169.0,This would also do well in r/wtf
+AskReddit,fjycvw6,t1_fjycjwe,1583694197.0,Easier said than done my friend. But that’s the right idea.
+AskReddit,fjycqvn,t3_ffh35p,1583694123.0,"Jam first, then wipe it off with water and napkin and then put it in peanut butter."
+AskReddit,fjyckla,t3_ffh37e,1583694032.0,Teenage depression has a potential shelf life. Adult depression can possibly be permanent.
+AskReddit,fjyceol,t1_fjy569k,1583693946.0,Lol when I try to make it up I stumble on my works and lose the attention of the people I’m telling a story to and sound like an idiot.
+AskReddit,fjy17w4,t3_fffhoh,1583687778.0,AskReddit for jokingly asking for gold...
+AskReddit,fjy150z,t3_fffhq3,1583687735.0,Yours. After asking that question.
+AskReddit,fjy11ho,t3_fffhxy,1583687681.0,No thanks.
+AskReddit,fjy0y9m,t1_fjy0roo,1583687630.0,It’s a me a Mario
+AskReddit,fjy0x85,t3_fffhzr,1583687614.0,Because.
+AskReddit,fjy0wa0,t3_fffi6j,1583687598.0,What’s a sex?
+AskReddit,fjy0vgz,t3_fffi7f,1583687585.0,No burger or sandwich will be made without Sriacha.
+AskReddit,fjv82m8,t1_fju8s1n,1583624112.0,"Not necessarily dude. My coworker just got married last year and he’s turning 40 soon. And he couldn’t be happier. 
+
+Some people like you and I are late bloomers. Sometimes it just takes time...hang in there. But honestly, you need to take initiative and start putting yourself out there. Also go to the doctor and talk to him or her about your anxiety. Doctors are there for you, they went to school for many many years to help patients. If you feel anxious and depressive, you can get meds to start with. Don’t take life too seriously dude, just let loose and be happy. Good luck."
+AskReddit,fjtqqqv,t1_fjtp006,1583610141.0,"All these things can be changed. YOU have the power to do that, you can’t depend on other people to change YOUR life for the better. Go to the gym...lifting weights can honestly help with depression and anxiety. Start there and see where it takes you. Hustle a little more than what you’re doing now. You have many hours in the day to make incremental changes."
+AskReddit,fjto245,t1_fjt7tl1,1583609546.0,"Yes. You’re asking what “good” traits do guys have that attract women...well what are the “bad” traits? 
+
+If you read what I originally wrote, you’ll see that dudes that are caught in a depressive state, are too much in their head, are constantly having negative thoughts etc all contribute to “bad” traits.  Now if you look at the opposite...that’s the traits you need to attract the opposite/same sex."
+AskReddit,fjt734z,t1_fjt5hwv,1583604832.0,The answer is in there. Look for it.
+AskReddit,fjt3wjl,t3_feyk1l,1583603616.0,"You need to be able to let go of negative self talk. The more you are in your head, the more you start believing it even though it’s not superficially true. Also you need to engage with peers who are positive thinkers and like to go out. The saying “You are the average of the 5 people you hang out with” is very very true. If you have been hanging with the same friends for years and they are depressive people, guess what...you’ll follow suit."
+AskReddit,fjly2gb,t3_fe5jmb,1583457140.0,"Depends what you’re waking up for. I honestly love my job and my coworkers so I honestly don’t mind having to wake up early in the morning. When I was in school, that was a different story."

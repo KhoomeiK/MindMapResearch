@@ -1,0 +1,129 @@
+PKOA,fr1gih2,t3_gm0j59,1589819325.0,14
+Warthunder,fr1g8lv,t1_fr0uoc6,1589819189.0,War Thunder was never Just WW2. The literal description of the game is that you can fly planes from the 1930s all the way up to modern day.
+Warthunder,fr1g3pp,t1_fr1bzpg,1589819121.0,It’s not his op stole this from a YouTuber
+cheatengine,fqy4ltb,t3_gljtbl,1589742496.0,"What antigopher said, if it’s a online game then the value is usually always stored on the server so yes unless you edit packets sent to the server, the value can’t be changed.
+
+If it’s not online and the problem persists, try finding the static address of the value at hand and try to change that. If that doesn’t work, double check to make sure there is only one value that is holding the money. In some cases there are multiple values for one thing in the game that each store something different (I.e. inventory money, world money etc.) if none of that works then try making a AOB injection script to interrupt the function of money in the game so instead of losing money when you buy something you would gain, say, 1 million gold or whatever"
+cheatengine,fqvwzhj,t3_gl8d1v,1589687102.0,If you search for Pokémon uranium cheat table on google and nothing comes up means there mostly likely isn’t one. Try making one it’s good fun and great practice!
+cheatengine,fqr9azk,t3_gki7jf,1589580000.0,"What samguy said. Values over 999 are stored as 9999. Cheat engine gets rid of all different languages notations (I.e. commas for Americans and spaces for British, etc)"
+cheatengine,fqmsn97,t1_fqmq0p9,1589482857.0,Fair enough lol
+cheatengine,fqlxfly,t1_fql7hci,1589467831.0,Emulator is in the title and even the first sentence... how did you NOT know he’s talking about an emulator?
+agedlikemilk,fqar0vm,t3_ghmeg7,1589223788.0,"This didn’t age like milk... this sub is for when something doesn’t come true badly or the opposite happens, this belongs on aged like wine"
+cheatengine,fqajmdv,t3_ghq4as,1589220181.0,Why don’t you give it a try?
+DamnThatsTerrifying,fq9p7nv,t1_fq8vme7,1589204108.0,"Or you know, he’s just doing what he has to to survive"
+agedlikewine,fq3kols,t1_fq3hbbg,1589067436.0,It’s snowing here in Canada and we’re not even that North!
+cheatengine,fpxjnhj,t1_fpuwq9k,1588983859.0,"If you don’t want to mess with pointers you can write a simple script on the address that you found and the address with search for this value everytime the game is reset so you don’t need to find the static address. 
+
+To do so, find your value like usual, right click it once you add it to the table and click find out what writes to this address and take a hit. When a address appears click it and click show in disassembler and press control A. Click template and click AOB injection and you’ll see some assembly code. Find out where the health value is being changed, I.e. (eax),edx - this means that the value at EDX is being added to EAX so for health EDX will probably be -1 or something and EAX is your health. Replace the EDX with, say, 1 or something and click save to cheat table in the top left and press the check mark on the table when you want to use it. Now when you get hit you’ll gain Health instead of losing it.
+
+If you’re confused do the cheat engine tutorials, they touch on script injection."
+AskReddit,fpw9ak9,t3_gfsi0q,1588959460.0,"Given this story isn’t mine but my 22 y/o (19 at the time) sister’s, we both had similar experiences but her’s was much worse. 
+
+In our old house she was home alone while everybody else was out doing something, can’t remember. When we all come home she tells us this crazy story while she was in our attic watching TV when she hears this somewhat electronic ringing sound in the room that’s got steadly louder until it was ear piercing and she had to cover her ears. It was only in that room and everywhere else in the house was fine but that room. Eventually it went away but after hours and it slowly faded away too. My dad said she was probably doing drugs or was hallucinating (as he would normally say) so she never mentioned it again. I would a few months later have a similar experience but much shorter but equally as loud."
+cheatengine,fptvqwl,t1_fptvh72,1588899237.0,Ahh I see sorry I thought you meant because of what they want to use it for they deserve such and such. Ignore my comment then lol
+cheatengine,fptv2mr,t1_fpttbed,1588898849.0,"Nobody deserves adware or let alone malware (unless they’re actual criminals or pricks). If somebody is downloading cheat engine to use other peoples tables, let them. Not only will they get some fun out of it but it may even get them to learn more about what’s happening behind the scenes. Nobody is getting hurt."
+OldPhotosInRealLife,fprywjj,t1_fpp9wi9,1588864619.0,"That’s the thing, the design hasn’t changed besides just removing furniture of course. That’s what I find most interesting is it still fits in really well with the 1950s world and the 2020s world."
+cheatengine,fprx3v0,t3_gf4003,1588863690.0,I too would like to know
+cheatengine,fpooxeq,t3_gekrtc,1588788149.0,"Disable your anti virus during the download. It’s a known false positive since cheat engine is a memory editing software which is, of course, dangerous but it doesn’t know that it’s only dangerous when used by a person"
+Warthunder,fpo3382,t1_fpo2t5k,1588777499.0,I agree they’re awful but they’re still better than their 7.7mms and in the right hands better than their 12.7mms. Paired with the survivability of the plane (for bomber) the cannons can prove effective on a not very smart fighter that isn’t avoiding the rounds
+Warthunder,fpo1vdi,t1_fpn8ft6,1588776868.0,Huh?
+Warthunder,fpm6y4z,t3_ge6ohk,1588726815.0,It’s because it has 5 20mm Japanese cannons. It’s literally a flying tank. Given it’s still a bit to high br but the research cost is fair.
+MakeMeSuffer,fpguypd,t1_fpgsd36,1588609982.0,What’s unidan? The biologist?
+MakeMeSuffer,fpgr3bg,t1_fpgpchq,1588607972.0,No he didn’t. Puppetdust did.
+pussypassdenied,fpgqydq,t1_fpfg7fi,1588607902.0,I always try that on my mother and my girlfriend. Mother yells at me. Girlfriend just cries.
+cheatengine,fped77g,t3_gcyecw,1588545200.0,So I don’t speak Italian and I’m working off of google translate but hopefully you can understand some English. It sounds like you want to change values on a online web browser card game. Usually with browser games and online games there’s a server side check that checks your client side values basically and if anything is off it sets it to what their supposed to be. That may be why you can’t.
+Warthunder,fp9vf42,t1_fp9upp2,1588435370.0,"Nope it’s real alright...
+.
+.
+.
+/s"
+CompetitiveForHonor,fp6mqc1,t1_fp6mly6,1588354992.0,Ahhh okay I retract my statement then lol sorry
+CompetitiveForHonor,fp6k4f9,t3_gbgfpl,1588353711.0,The one problem is this isn’t a traditional fighting game. For honor has 3 directions that attacks could come from while say street fighter only has one direction and one button to block
+Cringetopia,fp4wf93,t1_fp4nt48,1588309176.0,Fair point but he’s just using Germans and the Holocaust as an example to slavery and such that is mentioned in the post. Tbh I was thinking the exact same thing.
+Games,fp4gr81,t1_fp2f0t3,1588298702.0,Couldn’t agree more. I’m quite an advocate for history and personally the journey of Alfred the Great is amazing. It would be saddening and even annoying if Ubi neglects all points of view and only approaches this game from one view as the ruthless invaders
+cheatengine,fp4gfib,t3_gb3ptu,1588298500.0,"Personally haven’t tried anything with dark souls but as long as you do your cheating offline you’ll be okay cannot guarantee online plus it may not even be possible due to a decent amount of variables being client side. If you haven’t found a cheat table by searching, “dark souls cheat table 2020” than you gotta wait or give it a go at making on yourself."
+Warthunder,fozelzq,t1_foyb19j,1588189365.0,Probably cause once you’ve gotten down to jets there isn’t much else to strive for besides better jets. A lot of easier br players are solely aiming for jets.
+TwoSentenceHorror,fonhbl1,t1_folt7s4,1587919491.0,Ahh okay. If OP included some better grammar it would of been a lot easier to understand. Thank you!
+Warthunder,fnxh97g,t1_fnxh7qo,1587338594.0,Oooo Lmao fair enough
+Warthunder,fnxgyul,t1_fnxgg2m,1587338422.0,I’d be very impressed than since there are multiple 1+ year accounts with ranging karma and posts that have said they got it before
+Warthunder,fnwridk,t1_fnw809f,1587324019.0,So it’s actually possible! Wow was not expecting that
+Warthunder,fnwrgty,t1_fnwdztw,1587323995.0,Oh jeeez
+Warthunder,fnw11ss,t3_g477vx,1587309236.0,Has anybody ever gotten one of those 1 million SL drops?
+Warthunder,fnw0uoh,t3_g42yus,1587309119.0,"Would be a good idea for some sort of mode for, say, 40+ people on both sides playing air water and ground at the same time and there being a certain type of plane (maybe naval fighters) that can deploy smoke like this"
+eu4,fntarfz,t1_fnsv287,1587237931.0,Oooo okay thanks for the clarification!
+eu4,fnsra73,t3_g3cbbt,1587227291.0,How?? Isn’t a requirement for the province to be in Germany?
+eu4,fnspc94,t3_g3mle9,1587226221.0,Uhhh how’s that 48k stack of Ulm troops doing?
+eu4,fnsoe49,t1_fnsnlg6,1587225691.0,Pretty much ya lol just a couple hundred years early
+eu4,fnsji02,t3_g3juzo,1587222907.0,That’s so weird cause always in my games Russia always rivals me and I can usually ally France and / or Spain
+eu4,fnsgd93,t3_g3nokp,1587221038.0,This happens a lot of the time when Ming explodes. Once Ming has lost most of their land Ming and all nations that discovered them get an event that a local commander for the Ming army gathered a bunch of Ming loyalists and high ranking officials and fled to Taiwan to regain their power and “retake” mainland Ming. Yet in all my games where I’ve seen this they never manage to get anymore power.
+eu4,fnsf2oh,t1_fns55mg,1587220240.0,I find the scots are usually able to rekt England if England gets caught in the war of the roses than France declares on them for normendy
+eu4,fnk0mj2,t3_g283yh,1587011612.0,R5: Playing my first Qing game and finally managed to colonize Greenland to see this beautiful name
+MB2Bannerlord,fmv7jtm,t1_fmuf3ne,1586408203.0,You have to save scum it the chances of wooing them first try is very rare
+teenagers,fmp7503,t3_fwhi82,1586275678.0,How is zoom shady?? Companies and families have been using it for a while before the corona virus. It literally specializes in large group conversations that’s why discord isn’t used.
+MB2Bannerlord,fmf1v9a,t3_fuqsyi,1586018258.0,"I WILL DRINK FROM YOUR SKULL!
+
+I WILL DRINK FROM YOUR SKULL!
+
+I WILL DRINK FROM YOUR SKULL!
+
+I WILL DRINK FROM YOUR SKULL!
+
+I WILL DRINK FROM YOUR SKULL!
+
+I WILL DRINK FROM YOUR SKULL!
+
+I WILL DRINK FROM YOUR SKULL!"
+MB2Bannerlord,fmf1qie,t1_fme58hf,1586018183.0,Back when paradox was their publisher their logo was in the beginning with the taleworlds logo
+mapgore,fmbsq62,t1_fmbrw2p,1585932517.0,"Oh okay cool! 
+
+That’s not exactly how that saying works but okay, I’m not here to argue if your that firm on your beliefs then okay."
+mapgore,fmbsnaw,t1_fmbscnq,1585932478.0,Happy to: https://images.app.goo.gl/dP3EXDWV9eLMFWcAA
+mapgore,fmbrgb5,t1_fmbrel0,1585931849.0,Agree to disagree. What is water printing like though? It sounds pretty interesting!
+mapgore,fmbr4q7,t1_fmbqzlu,1585931682.0,"Very cool very cool but than you should know that North Americans put North America in the middle, Europeans put Europe in the middle, Asians put Asia in the middle, etc."
+MB2Bannerlord,fmbqnrx,t1_fmagbe0,1585931433.0,Can’t until they implement player kingdom management ):
+MB2Bannerlord,fmbqmfe,t1_fmaynj8,1585931414.0,I don’t think they said next patch but they have it fixed in their dev version so “soon”
+mapgore,fmbqj83,t1_fmbq91z,1585931367.0,Just do a good ol google search to find out it is
+mapgore,fmbpy48,t1_fmbmnch,1585931066.0,Literally every country that would publish a map has the city that created the map in the middle...
+MB2Bannerlord,fm3a0f2,t1_fm39w3u,1585716908.0,Very good points i too wonder where all of this money is going hopefully going towards this new engine. If Bethesda keeps releasing games that look like the same 2010 - 2014 graphics I’m going to have some serious complaints
+MB2Bannerlord,fm31xxb,t1_fm31sov,1585710813.0,"Exactly, I agree. Skyrim was their last game that actually felt like a proper AAA game. Fallout 4 had its greatnesses but fell short in a lot of places and I agree it’s about time they actually do something about their visuals. I’m not usually one to complain about graphics > gameplay but Bethesda has been using the same engine since day, 2008... i believe Star field is a whole new engine though."
+MB2Bannerlord,fm31kyx,t1_fm31jcu,1585710555.0,Ah yes very helpful to the conversation thank you
+MB2Bannerlord,fm2qwe3,t1_fm2pfri,1585703343.0,There you go further proves my point but seriously they are due for a new engine...
+MB2Bannerlord,fm2bhrb,t1_fm1qujh,1585694176.0,The last time Bethesda had a new engine was back in 2010... it’s 2020 now I think there’s a little bit of a technology difference in that time span. Just a bit.
+MB2Bannerlord,fm2axcl,t1_fm22uvm,1585693861.0,You have to walk around in a town and press and hold alt to see where you can buy one
+agedlikewine,fm14bjj,t1_fm13vgh,1585671753.0,Ohhh ya I agree haha I think op was just to lazy to find the original
+agedlikewine,fm13mc9,t1_fm13j5h,1585671381.0,"The one that is shown here, ya. A lot of stuff is reposted on Reddit"
+agedlikewine,fm137te,t1_fm0yqmu,1585671166.0,And yet I remembering seeing this meme posted to dank memes long before 2 months ago
+TheDepthsBelow,flubtwr,t1_fltwq7x,1585499482.0,You must be new here
+mountandblade,flnt2wj,t1_flnbvo4,1585325344.0,I too would like to know
+eu4,flmphbv,t3_fpl96y,1585291379.0,For ages I always thought OPM stood for Over Powered Minor lol
+RimWorld,flm900m,t1_flm37ht,1585277445.0,Free coding camp is good there’s a bunch of resources online
+mountandblade,flluwgl,t1_flluavm,1585268242.0,Ah okay and ya pretty sure Ryzen doesn’t use integrated graphics even so it wouldn’t run bannerlord
+mountandblade,flleq75,t1_flle8h8,1585258925.0,Processor isn’t to bad at pretty good for a Lenovo laptop tbh RAM comes in twos but is usually paired as 4 sticks or 8 sticks so you most definitely have 8 GBs of RAM which is okay it’s just enough for modern gaming so you should be good for running low to medium
+mountandblade,flldzq2,t1_flldv0z,1585258525.0,No worries!
+mountandblade,flldxva,t3_fpb8i9,1585258497.0,I assume you mean Ryzen CPUs since there aren’t any Ryzen graphics cards but they’ll handle it very well simply due to the high amount of threads and cores the Ryzen series has. What Ryzen model do you have? I assume even a 3rd gen would work well
+mountandblade,flldslx,t1_fllde91,1585258419.0,Ya but what’s the model haha an example is: i7 7700k 4.2Ghz
+mountandblade,flld5j4,t3_fpaocl,1585258073.0,What’s your processor? I7 is just the general we need the model number but with a 1050 you’ll probably get medium Settings
+mountandblade,fllcrzf,t3_fpcuax,1585257868.0,You would play on low to medium settings with a 720p resolution with those specs I would recommend upgrading as that hardware is becoming dated
+mountandblade,fllchgx,t3_fpiha9,1585257707.0,What are your system specs?
+mountandblade,fll722g,t1_fll6z8f,1585254819.0,Sorry 12:00am EST so that’s around 5 am Turkish time so no it’ll release same time no matter where you are
+mountandblade,fll6ah0,t3_fpi1df,1585254415.0,Ya ): been months and even tried emailing them yesterday they said to keep waiting
+mountandblade,fll5xog,t3_fpc8r0,1585254226.0,Estimated that it’ll be at 12:00AM March 31st
+mountandblade,fll5n0u,t3_fpfszo,1585254069.0,"As a fellow Canadian, From what I’ve seen bannerlord is 50$ in all currencies so 50$ USD, 50$ CAD, 50€, etc. Some companies have done this before to make prices more fair and allow for more income in some cases (I may be very wrong this is just from what I’ve heard so far)"
+mountandblade,fll52c1,t3_fpfl64,1585253766.0,I’m torn between the western empire and Vlandia. Vlandia since they’re the rhodoks and swadians and for their horsemen but the empire has great lore and cool looking troops
+MB2Bannerlord,flkf7e4,t1_flj8wh2,1585239789.0,"I got a response, basically told me to apply using the link and wait oof"
+MB2Bannerlord,flj77mb,t1_flj734f,1585201150.0,Awesome! Just sent a email! Do you know how long your brother had to wait for a reply?
+MB2Bannerlord,flj6ylv,t1_flj6x4h,1585200913.0,Thanks! Ya I’ve been looking in my email ever since spam included after I heard of the stories of people finding they had a key for months lol
+MB2Bannerlord,flj6lpt,t1_fliazr5,1585200565.0,You can email taleworlds for a beta key?? I’ve been waiting for months! What email would I send a request to?
+MB2Bannerlord,fldkiri,t3_fnt3is,1585066358.0,Hopefully midnight on the 30th
+mountandblade,fkwdpe1,t1_fkwck1x,1584589656.0,"Check the steam page it says it there 
+
+
+Singleplayer Features: Several planned single player features may be missing or incomplete. These include but are not limited to: full game controller support, some skill and perk effects, crafting, some aspects of sieges, and clan, army and kingdom management."
+mountandblade,fkwdnzi,t1_fkwbn91,1584589626.0,It literally says it on the steam page
+MB2Bannerlord,fkuscd6,t3_fk35rk,1584555233.0,No key here either
+mildlyinfuriating,fkkfibe,t3_fiv9qh,1584282765.0,That’s horrible! The problem is a couple of people say they’re going to horde so then more people horde because of the people saying they are going to horde then it just spirals out of control of people trying to beat the horders by being the horders
+rimjob_steve,fkisyer,t3_fingsl,1584227887.0,r/lostredditors
+civ,fk8f8qt,t1_fk8dp3z,1583954940.0,Okay thanks for the info!
+civ,fk7t4vh,t1_fk7t3rj,1583943131.0,Oh okay thanks I’ll wait
+civ,fk7mxmm,t1_fk7k9yf,1583939703.0,Okay thanks! Do you know when it will?
+civ,fk7i8y7,t1_fk7hedt,1583937001.0,Alright thank you!

@@ -1,0 +1,178 @@
+pics,fnqwvx4,t3_g34fhm,1587174000.0,"It's looking north on Mason St, between Green St and Union St.  Here's how that street looks nowadays:
+
+* [https://goo.gl/maps/1ZsN8gA1mm1Vhq9Q9](https://goo.gl/maps/1ZsN8gA1mm1Vhq9Q9)
+* [https://www.bing.com/maps?osid=cb3ec4c6-4d14-4362-b64e-0943ce9c55d9&cp=37.799318\~-122.412368&lvl=19&dir=351.0899&pi=1.323791&style=x&mo=z.0&v=2&sV=2&form=S00027](https://www.bing.com/maps?osid=cb3ec4c6-4d14-4362-b64e-0943ce9c55d9&cp=37.799318~-122.412368&lvl=19&dir=351.0899&pi=1.323791&style=x&mo=z.0&v=2&sV=2&form=S00027)
+
+The city has changed since the painting was made.  Drivers and selfish-no-muffler motorcyclists have destroyed the walkability of many neighborhoods.  But there are still many nice places to walk, with stunning sunset views like this."
+help,fnfu0lv,t3_g17qn6,1586915444.0,"I rarely use Reddit because I don't want to get sucked into r/politics posts.  Reddit, if you're listening, please add this feature.  I'm not about to pay $72/year for it.  I will just continue to rarely use the site.
+
+I also don't use the mobile app because it starts up on the home page with r/politics and other subreddits that I wish to avoid."
+dating,fgo7v7o,t3_exzcsm,1580961958.0,"I quit my job and spent the last 12 months building pretty much this.  It's almost ready for beta testing.
+
+http://www.cozydate.com/
+
+I hope to start launching in cities and towns around summer.  If any of you want to be the first to try it out, send me an email with your city and state: [michael@leonhardllc.com](mailto:michael@leonhardllc.com) ."
+aws,ffee223,t1_ffeb6e3,1579844569.0,"That view is useless because it only shows a short part of the beginning of each line.  So I have to click on the magnifying glass icon, wait for the panel to slide in, see if it's the relevant line, click the icon again, wait for the panel to slide out, move to the next line, click the icon, etc.  Changing font size doesn't help.  This is not the workflow to use during an outage.  Screenshot:
+
+[https://imgur.com/R1KKp4b](https://imgur.com/R1KKp4b)
+
+P.S. Thank you for making this post and engaging with us.  I left a frustrated comment earlier via the Feedback button in CloudWatch Logs.  I apologize for the tone of that message.  AWS feels like a faceless machine that rarely listens.  I got burned by Elastic Beanstalk and wasted days of effort.  And I just invested several days into CloudWatch and discovered that it barely meets my needs.  I felt twice burned.  But now I read this thread and got some hope that CloudWatch Logs may improve and become a tool that I can rely on."
+aws,ffecusk,t3_e1px9p,1579843414.0,"Provide a way to see other parts of log lines in search results, not just the first part.  On my 13-inch Macbook Pro, I can't even see the meaningful parts of the message.  Screenshot:
+
+[https://imgur.com/a/7gn0WFL](https://imgur.com/a/7gn0WFL)"
+aws,ffebz4e,t3_e1px9p,1579842594.0,"Provide a request-id lookup feature.  When showing a log line, allow me to click a button to activate this mode.  Every word in the line becomes a link that opens a CloudWatch Logs search page pre-populated with that word and showing results.  The time interval is selected intelligently and automatically.  In case the time interval is insufficient, provide buttons or scroll ability to search forward and backward in time for lines containing the request-id.
+
+Provide another widget that lets me select another log-group and search for the request-id there, also handling the time interval reasonably.  Remember recently used log groups.  This will greatly speed up the process of manually diagnosing issues.  Such speed is required when working to resolve an outage."
+aws,ffebeda,t3_e1px9p,1579842070.0,"Let me configure per-stream, per-group, and per-account limits on CloudWatch log ingestion.  With the provided limits, a single machine with a misbehaving server generating a lot of logspam on a single stream can can accrue $10/hr of AWS charges.  With 12 servers, such a problem could produce $4320 in charges just over the weekend.  The account-wide limit is $74,000 per day.  Using CloudWatch a real financial risk.  Using it requires a P1 alarm on log ingestion volume, which can wake up an oncall engineer."
+aws,ffeapq2,t3_e1px9p,1579841460.0,"When viewing a metric filter, give me a link to a search page that shows the log lines that generated '1' values.  Even better, provide that link when viewing an alarm that derives from a cloudwatch logs metric filter.
+
+For example: I have an 'apiservice-logs-error-count' filter with the pattern "" ERROR "".  I also have an 'apiservice-logs-error-count-high' alarm with threshold ""apiservice-logs-error-count >= 1 for 1 datapoints within 5 minutes"".  When the alarm triggers, I want to click and immediately see the lines that generated the alarm."
+aws,ffeac9o,t3_e1px9p,1579841135.0,Let me easily search across all streams in a group.
+aws,ffea8kg,t3_e1px9p,1579841045.0,"After searching and finding a log entry, provide a button to view the line plus the preceding and following 1,000 lines, as a content-type:text/text document.  Then I can middle-click to open it in a new tab and not loose my place in CloudWatch Logs."
+aws,ffea24l,t3_e1px9p,1579840889.0,"Please add the ability to go from a single log entry to its context in its source log stream.  This will let me search for ERROR, click on a line, then immediately see the preceding lines in the log.  This is required functionality for diagnosing startup problems and problems that are not tied to a specific request."
+IAmA,f30v1gv,t3_df2erd,1570562908.0,I frequently enjoy watching Moving Art. It helps me relax and feel peaceful. Thank you and your team for making it. 😌🙏🌱
+FlutterDev,f30tzzx,t3_df0cf9,1570562399.0,"This is a kind of implementation inheritance, which harms readability, For maintainable code, composition is far superior to inheritance. I hope this extensions anti-feature gets removed from Dart.
+
+Edit: s/encapsulation/composition/"
+FlutterDev,f2t0pcs,t1_f2jnw2d,1570389349.0,Sweet! :)
+FlutterDev,f2ihr0x,t1_f2hy9u2,1570257417.0,iiOS app builds must happen on a MacOS machine.  Will Github allow me to run my own custom workflow runners (on a Mac) or will they support a MacOS workflow host type?
+FlutterDev,f2ih7fd,t1_f2hy9u2,1570257190.0,"Nearly everything written about Flutter is for newcomers. I’m sick of reading the same fluff pieces. I need details and explanations.
+
+What good is a CI workflow without support for flavors?
+
+How to incorporate the build info (branch and commit sha-sum) into the app for logging and troubleshooting?
+
+When your golden image test fails, will the CI system save the resulting image? Will the dev have to hunt for it in he artifacts, or will it get posted to the PR discussion list with both the before & after images and a link to the test? Will there be a link to make a commit to accept the the new golden image?
+
+How to run Fastlane from your new Guthub CI?"
+FlutterDev,f2fy7gi,t3_dd7mpy,1570224274.0,This post isn’t about Flutter at all. I wish it told us how to the hard things like deal with golden image test failures and build test & release flavors.
+depression,f1qip1d,t3_dai13u,1569701548.0,I didn’t have a gf until age 22. It’s not a big deal. Please be patient and spend time with your friends. You can be appreciate that they are in your life.
+IAmA,f1qgs3p,t1_f1pyfm5,1569700469.0,"“Fight for them” is not clear. Clarity of communication is super important in relationships. There’s an excellent book that teaches how to communicate clearly with people close to you: Non-Violent Communication by Marshal Rosenberg. The audio book version is read by the author and the stories are very engaging, riveting actually. The techniques I learned in that book gave me a super power of solving relationship problems. Please try it!"
+FlutterDev,f0k2rax,t1_f0jcede,1568668870.0,Flutter Team: Please don’t add any exciting new features. Just focus on making existing features work well for the core use-cases.
+FlutterDev,f0k0f13,t1_f0jb5a0,1568667275.0,"I worked as an engineer in Google for five years. I quit last year and started building an app (with Flutter). Google’s internal culture lacks customer focus. I saw it in the decisions of the VPs and on my own tiny team in Infrastructure. For example, I once proposed to my team that we systematically get to know our users (other teams in Google) and learn how they use our service. Nobody else on my team was interested. Google culture is focused on looking at data, making smart decisions, and getting promoted, not listening to feedback from others. I’m happily surprised to see Flutter Team doing an AMA on Reddit. It’s an encouraging signal that maybe Flutter Team has more user focus than the rest of Google. User focus is necessary for making successful products. And we all want Flutter to be wildly successful."
+FlutterDev,f0jxxl4,t3_d51o4w,1568665617.0,How about a good logging API?
+FlutterDev,f0jxo71,t3_d51o4w,1568665447.0,How about adding a Websockets service to Firebase and provide a local version of the service for tests? This would let us push real-time updates to our apps.
+FlutterDev,f0jxa78,t3_d51o4w,1568665192.0,"Please support flavors well.
+
+Bonus points for getting Firebase Cloud Messaging Support for automated tests of flavors. A great way would be to make the Terraform module support creating & deleting Firebase projects and their apps, and retrieving the project’s FCM server key."
+FlutterDev,f0jwsz2,t3_d51o4w,1568664881.0,"Please add a Google-owned location module. Include permission-handling logic and permission-requesting dialogs.
+
+This will let me delete several hundred lines of complicated code that took me a whole week to create. Every team using GPS in Flutter must duplicate this work and maintain the code.
+
+And get Android Emulator to add a GPS-signal-not-found option for testing. This will let me get test coverage of a crucial user experience."
+FlutterDev,f0jvwy6,t3_d51o4w,1568664283.0,"Please make Cupertino as good as Material.
+
+Add all the missing widgets (table view detail cell, keyboard ‘done’ button, check boxes, radio buttons, etc).
+
+Add missing functionality (keyboard swipe to dismiss like every iOS app, date time picker minute interval >1, date time picker to honor max and min time, etc.).
+
+Make the Cupertino widgets match the iOS widgets by default, without requiring extra work on padding, aspect ratio, borders, font sizes, dark mode, etc."
+FlutterDev,f0jtkh2,t1_f0ivw9g,1568662715.0,child ?? SizedBox.shrink()
+netsec,ey7vasg,t3_cvmtoz,1566902217.0,The lesson for software engineers: Don’t let the untrusted client generate nonces.
+funny,exm9ga3,t1_exkx30d,1566426974.0,"Try taking a photo of the closed garage door every time you leave. Then you can refer to it when you feel anxious and save a trip home.
+
+Anxiety usually doesn’t go away by itself. You could benefit from consulting with a professional brain mechanic. Take steps early to protect your health."
+depression,exd93oa,t3_cs3abr,1566170431.0,going for a walk
+depression,ex4805w,t1_ex1pk89,1566000324.0,Ok. I’m sorry you’re feeling down.
+depression,ex47qqe,t1_ex1i73s,1566000186.0,"Once you’re over 25, parental income is not considered in determining student financial aid. I got $12k of free money for school the year after I turned 25."
+depression,ex0sqd3,t1_ex0qm0l,1565921312.0,It’s a group of non-profits around the world which all teach the same course.
+depression,ex0n920,t1_ex0lmu4,1565917322.0,"Sucks. I also started to hate my parents after I started therapy. Later, in talking with my therapist, the anger turned to disappointment. The disappointment doesn’t jump up and kick my ass all the time like the anger did. Now my relationship with my parents is much better than before therapy. I needed to understand and accept that they are flawed humans."
+depression,ex0mlxl,t1_ex0io9x,1565916855.0,You’re right. Thx for pointing that out. I will stop writing that.
+depression,ex0md81,t1_ex0hygm,1565916677.0,Thx for modding. It’s a tough job.
+depression,ex0m9gn,t3_cqom8c,1565916601.0,"I’ve had this problem for 15 years. It gets worse when I have more stress. For me, the root cause is anxiety. So far the only thing that helps is meditation. In therapy, I’ve discovered a potential source of the anxiety and I have hope of eventually reducing the root cause enough that it stops being a problem. I’m avoiding some negative thoughts, running away from them by keeping myself busy every night."
+depression,ex0lgn4,t3_cqt4l2,1565916021.0,"Nobody knows how the depression medicines work, or why some medicines work for some people but don’t work for others. So doctors do trial and error to try to find a medicine that works for each person."
+depression,ex0ko58,t3_cqv0kh,1565915445.0,I’m sorry you’re suffering. Your wounds can heal.
+depression,ex0k1o0,t3_cqy2uv,1565914992.0,"It sounds like this was triggered by something recently, so it’s probably not a long-term situation.  A therapist can teach you how to handle these feelings and process what happened. My therapist has helped me a lot. It takes effort tho. And some therapists suck so you have to find a good one. How about you talk to the counselor at your school? If you don’t like them, there are several other ways you can see a therapist and pay the fees: parents health insurance, local government department of family services, a local counseling center, or a local therapist. You can email them, tell them your age, and ask them about making an appointment and covering the fees."
+depression,ex0jb6b,t3_cqy35c,1565914457.0,I’ve felt this way many times. Really sucks. Things are gradually getting better for me tho. I hope things get better for you soon.
+depression,ex0ie6d,t1_ex0gfli,1565913800.0,"I learned three skills:
+1. I gained an awareness of my mood. This helps me to recognize when I’m feeling angry and or judgemental. It gives me a chance to decide what to do when my emotions are triggered. Before the course I would just react, saying hurtful or aggressive things. Now often times I stop myself and act in a way that aligns with my core values.
+2. I gained an awareness of what my conscious mind is doing. This helps me recognize when I’m “playing the mind movie”, replaying emotion-triggering memories in my mind. Now I can decide to stop and think about something else.
+3. I got the ability to pause my conscious mind and let my emotions subside. This is a core meditation skill and it took me about 20 hours over three days to develop. I use it at work when I’m anxious or agitated. I put on my noise-cancelling headphones, play white noise, close my eyes, and sit still, repeatedly pausing my thoughts every time they start up again. Usually after 10 mins I’m calm and can think clearly and continue my work. It’s like an emotional reset button. But it doesn’t always work. Some days I sit for an hour and still can’t achieve calm. Anyway it’s still an invaluable life skill.
+
+The Goenka course is free, funded by alumni donations. The food is vegetarian but mostly good.  You will fart a lot the first two days while your gut bacteria rebalance. The course has some Buddhism religious content which you can ignore. The staff are really kind. And all of the students were respectful. The course is super challenging tho. I went through mobile phone withdrawal. Day 3 is the hardest! If you try it, please try to stay until at least day four. I’m glad that I did."
+depression,ex0gt8i,t1_ex0en5w,1565912685.0,Edited.
+depression,ex0g2dl,t3_cquqvq,1565912155.0,"Sucks. I go there sometimes, too."
+depression,ex0ft4b,t1_ex0en5w,1565911978.0,Thanks for reminding me about that. Shall I delete my comment?
+depression,ex0fgif,t1_ex0f7se,1565911737.0,"If you are willing to be quiet and work on yourself, then I suggest the 10-day silent meditation course (the free Goenka one). You will learn an important life skill."
+depression,ex0f7se,t1_ex0c7k9,1565911571.0,You aren’t going to fix your problems on one trip. Having problems is normal. When they prevent us from living fulfilled lives then it’s good to work on them. But they rarely get solved and disappear entirely. So I hope on this trip you get to understand yourself better and accept yourself more and meet some cool people and enjoy some beautiful nature. :)
+depression,ex0exxo,t1_ex0b4mb,1565911377.0,"I think you can eventually drop the idea that you’re not good enough, or at least make it infrequent enough to stop messing you up. Having flaws is part of being human. Try to accept yourself the way you are. My therapist helps me with this."
+depression,ex0elqr,t1_ex0ar36,1565911136.0,Maybe you would have success with a different therapist? It sounds like you are a caring person. Have you tried directing those caring thoughts toward yourself?
+depression,ex0e9z9,t1_ex0dizb,1565910906.0,"If you have sleep apnea, you need a doctor’s consultation and a CPAP machine. How about making an appointment now?
+
+Sleeping propped up on a wedge pillow may reduce sleep apnea. You can order this now and try it for a few weeks:
+https://www.amazon.com/gp/aw/d/B009HHLBKK
+
+For noise, I recommend these earplugs. I’ve tried many kinds and these are the most comfortable for me and my friends who use earplugs.
+https://www.amazon.com/gp/aw/d/B000V3PZB0"
+depression,ex0dizb,t3_cqur8s,1565910379.0,"It’s pretty common. I think the mental fog is mostly due to poor sleep.
+
+Maybe you have sleep apnea?
+
+Maybe your bedroom is insulated too well and CO2 is building up and affecting your mood at night? My frequent nightmares stopped after I started sleeping with my bedroom window open.
+
+Is there movement in your bedroom or noise that disturbs you enough to bring you out of deep sleep, but not enough to wake you up completely? I need 5 sleep cycles with deep sleep every night to have a clear mind for my highly technical job."
+depression,ex0cs5q,t1_ewz06uj,1565909855.0,"Accomplishments don’t bring happiness. I have a problem of often thinking that I’m not enough. This comes from the false idea that a person’s value comes from their accomplishments. My parents brainwashed me with this idea. They taught child-me that good Christians serve God and people who don’t are selfish and sinful. Even though I stopped believing the religious stuff, somehow the core false idea of “value comes from accomplishments” is still stuck in my subconscious mind. Focusing on my accomplishments helps me feel better about myself for a short time, but it reinforces the underlying false idea that is the source of my suffering. I want to believe 100% that I’m good enough the way I am. Part of me believes it. Another part, the judgemental part, often pulls me into the same old habit of incorrect thinking."
+depression,ex0bx5g,t3_cqsgk7,1565909267.0,Thanks for sharing.
+depression,ex0bmaq,t3_cqn3o0,1565909062.0,20 is so young. Life is long. Your life is yours to use or waste however you want. Try to stop thinking about the past and blaming. Learn to recognize when you’re playing the mind movie and put it on pause. Think about where you are now and what you want to do right now. I learned how to do this from my therapist. I also learned a lot at a free 10-day silent mediation course. How about you try both?
+depression,ex0b7sf,t3_cqsp7a,1565908798.0,The good thing is that the feeling doesn’t last. It comes and goes.
+depression,ex0b2dy,t3_cqq1yi,1565908708.0,"Good plan! The trip could be fun or it could be lonely, probably both. You will grow from the experience.  I hope you have a really positive trip, and be safe. :)"
+depression,ex0aqcx,t3_cqvgku,1565908505.0,"If the people around you hurt and manipulate you then it’s good to get away from them or minimize your contact with them. I was miserable living in the suburbs of Atlanta and also in Seattle, for different reasons. Chicago was better for me.
+
+How old are you? Have you thought about enrolling in a community college in another town and getting student financial aid?"
+depression,ex0abpj,t3_cqvmlt,1565908250.0,I’m sorry you got bullied. I hope you can process the memories and feelings in a healthy way. Schadenfreude isn’t a lasting happiness. Therapy is helping me a lot. Have you tried it?
+depression,ex0a0it,t3_cqvrlu,1565908053.0,Sounds like you’re judging yourself. My therapist helped me discover that the root of my suffering is the false idea that I’m not good enough. I am painstakingly examining the childhood experiences and false ideas that led me to believe that lie. It’s a long and slow process but worth it because  getting better.
+depression,ex09q9f,t3_cqrolx,1565907863.0,What a shitty experience. I’m glad you are safe now. *hug*
+depression,ex09hjf,t3_cqwbf1,1565907708.0,The best relationship skills I’ve learned are in the NVC book by Marshall Rosenberg. I wish I had learned them when I was a teenager. It could have prevented years of loneliness and suffering.
+depression,ex094aw,t3_cqqlt3,1565907473.0,"Happy Birthday! :)
+
+In your interview, remember that the other person probably doesn’t even want to be doing the interview. It’s just part of their job. So try to make their job easy. Smile and look at them when you shake their hand. Be polite and professional. If you don’t know something, say you don’t know and then say what you would do to find out the info. Since this is your first job, they don’t expect you to know anything. They just expect you to be willing to learn and work. They don’t need you to be their friend.
+
+Good luck with the interview. :)"
+depression,ex0892x,t3_cqv9jh,1565906910.0,How about doing therapy online? How many jobs have you applied to? Sometimes people need to apply to hundreds of jobs before they get hired. And they do eventually get hired.
+depression,ex07yc2,t3_cqvawq,1565906734.0,"It doesn’t make sense to blame Reddit for ignoring you. It sounds like you’re threatening to cut yourself if we don’t reply to your post. That is manipulation. If you do that to people around you, your relationships with them will be damaged."
+depression,ex07d6k,t1_ex02se5,1565906411.0,Sounds like anxiety. There are good techniques to handle it. It probably won’t go away but you can learn how to reduce its frequency and intensity and effect on your life. You need to learn these things. Therapy is like taking your brain to the mechanic. It takes time to find a good therapist and it’s worth it.
+depression,ex060w6,t3_cquerv,1565905708.0,Yeah! Sounds like progress. :)
+depression,ex05j5r,t3_cqpanp,1565905451.0,Maybe part of your problem is being judgemental? Have you tried therapy? It helps me a lot.
+depression,ex04edm,t3_cqu8hh,1565904880.0,Yay! :)
+depression,ex044ui,t3_cqsn9g,1565904747.0,You will be able to do things later. Patience.
+depression,ex03ufa,t3_cqvyvu,1565904603.0,Yay! :)
+depression,ex02kzm,t3_cqryq5,1565904020.0,Please give yourself permission to mess up sometimes. Everyone is flawed. You will be ok. Things will eventually get better. Nothing is permanent. Have you tried therapy? It helped me.
+depression,ex01cyb,t1_ewzb94k,1565903548.0,"No need to be rude. I hope you find a healthy and sustainable way to be less miserable.
+
+Edit: My comment is not helpful. I’m sorry. Its good for you to share."
+depression,ewzzfad,t3_cqmlce,1565902815.0,"Old video games and TV don’t work for me. My tastes have changed. Nowadays I enjoy Moving Art on Netflix, NPR Tiny Desk Converts and other music on YouTube, comedies like “Airplane”, and sci-fi shows. I’ve been watching Star Trek TNG and enjoying it for different reasons than my 12-year-old self did. I also enjoyed Enterprise and Voyager recently. I hope you find some things you enjoy and feel better soon."
+depression,ewd3ma9,t3_cnk1hu,1565294584.0,Oregon seems to have the most reasonable people in the US.
+depression,ew8l3vz,t3_cn95ej,1565211261.0,"I’m so sorry for your loss. It’s good to do all those things you mentioned: cry, scream, and talk with his family. Tell them how he helped you. This will help them feel better."
+depression,ew8izq0,t3_cmxltz,1565210329.0,You need a better therapist. Please don’t give up on therapy. It’s been immensely helpful to me.
+depression,ew09l27,t1_evvcw2b,1564980182.0,How about asking them if there are other options? And you can try the place anyway. Your results will depend on the skill of the therapist and your own effort.
+depression,ew09ke9,t1_evvcw2b,1564980164.0,How about asking them if there are other options? And you can try the place anyway. Your results will depend on the skill of the therapist and your own effort.
+depression,evulh6k,t3_cl91r0,1564798625.0,Good good good.
+depression,evubdab,t1_evu8lav,1564790551.0,"Sucks. You deserve a steady therapist. When you have energy, you can try again."
+depression,evub1tf,t1_evu4k0y,1564790306.0,"How about spending a little time each day researching your options for finding a therapist and covering the fees? Since you’re under 18, I think there will be several ways: school, parental health insurance, state health insurance, government family services department, a local clinic, and individual therapists. Some of these organizations can provide therapy to you for free or can find the money to pay for it. You can ask them by email."
+depression,evu42n2,t1_evtrezm,1564785145.0,"Sounds like you’re starting to understand your situation. Now you need to understand how to deal with it. A good therapist can help you. I think you can have a good sex life later, without harming your partner. Figuring that out yourself may take decades. With a skilled professional therapist it may take months or a few years. Please try.
+
+Shame is a powerful destroyer of life quality. My family instilled it in me growing up. It is possible to escape it and be healthy. For me the path to health has been through many conversations about childhood experiences, reliving things that happened, understanding them with my adult mind and correcting the misunderstandings that my child mind made at the time. These misunderstandings were the basis of a lot of my suffering. For me, therapy is a technical process of discovering wrong information in my head and correcting it."
+depression,evu2t9k,t1_evtqzr3,1564784256.0,"That’s a shitty thing your previous therapist did. Please try again. My therapist helps me so much. With her guidance I’m finally making progress breaking out of my lifelong bad emotional habits. My life is getting better. Yours can, too."
+depression,evsl4kz,t3_cl3b1q,1564749759.0,I’m sorry you’re hurting. I believe you can get better. Please be patient.
+depression,evsjvhy,t3_cl27gy,1564748686.0,I’m sorry you’re suffering. It sounds like anxiety. You could benefit from therapy with a good therapist. Please try that and don’t give up.
+depression,evsi8jq,t3_cl25tq,1564747183.0,I’m sorry that you are suffering. I believe you can get better. Have you found a good therapist?
+depression,evshw0q,t3_ckwtek,1564746840.0,I’m sorry you’re hurting. I think you can get better. Please try to find patience and courage.
+depression,evshef3,t3_cl12de,1564746360.0,That’s a selfish attitude. Practice behaving in a kind and caring way to others and you will become more lovable. You will change and become less miserable. Therapy can help with this.
+depression,evsgxjp,t1_evrwzrw,1564745892.0,I think it’s better to own the crying. The boy will be better off understanding that babies are blameless.
+depression,evsgot4,t3_ckxi3h,1564745646.0,Your crying doesn’t hurt him. Spend time with him and be kind to him and he will grow up fine. He will enjoy having a little brother/sister!
+depression,evsg8vo,t3_cl0qk5,1564745183.0,Sounds like good self care. It’s good to take care of yourself and give yourself permission to do what you need to do. I hope you can sleep better and recover soon.
+depression,evsfy5e,t3_cl0616,1564744870.0,I’m so sorry for your loss.
+depression,evsfg1v,t3_ckt3z1,1564744317.0,"Im sorry your pet passed away. It’s not your fault. Small animals are not as resilient as humans. Their reproduction strategy is to produce many offspring in a short time. A ferret can produce 50-100 offspring in their lifetime. This is why they have shorter lives and are more susceptible to illness than humans.
+
+It sounds like she had a good life with lots of love from you and good ferret friends to hang out with."
+depression,evsen5c,t3_ckrjvc,1564743384.0,Sucks. Spoon theory might be relevant to your situation. I hope you can shift to a more comfortable environment.
+depression,evsebn7,t3_cl1pwb,1564743006.0,I’m sorry you were hurt.
+depression,evse1m6,t3_cl1rqw,1564742658.0,You will feel differently soon. Please be patient.
+depression,evsd7dc,t1_evs33bs,1564741584.0,"If you are close to someone and they punish you for being thoughtful, then I suggest getting away from that person and staying away. There are plenty of kind people in the world. If there are no kind people around you then all I can suggest is to move. Change social circles. Or move to a new city and make new friends. I don’t know if that is feasible for you or not. I have moved many times in my life so it seems like a normal thing to do. In the last 20 years I have lived in Nashville, Chicago, Tokyo, Seattle, Fukuoka, Taipei, and now San Francisco.
+
+When I first came to San Francisco, I knew nobody and would hang out with anyone just to avoid being alone. After a year, I realized that I didn’t like or didn’t respect most of the people I was spending time with. So I made a list of people I liked and respected and made effort to spend time with them and avoid everyone else. My life got a lot better. Now I have some friends who are good kind people. They’re not perfect. I’m not perfect. I like them and enjoy spending time with them. They are happy when I’m thoughtful toward them. For example, I hosted a potluck for one friend’s birthday a few weeks ago. To say thank you, she gave me an orchid plant.
+
+I bet there are kind people in your community. If you spend time with unkind people, the kind people see this and assume you are unkind and avoid you. You can change this."
+depression,evsc7xy,t1_evr9m24,1564740251.0,Good :)
+depression,evqznzo,t1_evoy1q9,1564699581.0,"Try a different therapist. If you have a kidney infection and your doctor is unable to help you, will you just give up on doctors or find a better one?"
+depression,evqz5qo,t3_ckmvf8,1564699389.0,I’ve had intense dizziness during therapy when I’m trying to touch a painful idea or memory. I think the mind makes us confused as a way to sabotage therapy. Part of therapy is learning how to let ourselves experience our unhappy emotions. The mind has tons of tricks to avoid experiencing bad feelings. These tricks do a lot of harm long-term.

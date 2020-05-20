@@ -1,0 +1,199 @@
+HollowKnight,fnvprvf,t1_fnvpi0k,1587301435.0,"Thanks, I just need to kickstart my memory so this should do"
+webdev,fnvmqwn,t3_g3muz8,1587298815.0,"This looks great!!! It's like something I could use everyday.
+
+I do need some advice however..I'm a backend developer but I still have to do the frontend for my side projects and I haven't used any frontend framework yet (either plain html/css or ejs). I want to learn a frontend framework/library that isn't too complicated or won't take a lot more time than the backend. So which of Vue, React and Angular suits me best in your opinion?
+
+Sorry for the long comment."
+haiku,fmhldwo,t3_er4fcz,1586084993.0,"I don't want to say this in a separate post in case it violates some rules so I'll ask here. I learned that a Haiku follows the 5-7-5 syllable structure but it's not wrong either to use any other structure, i get that.
+
+My problem is what can be considered a haiku and what not..shouldn't the first line **always** talk about the setting then the second line about the subject then finally an action done by or to the subject?
+
+I see a lot of Haiku on this sub and I don't know if it really counts as a Haiku or not.
+
+Like this one for example which belongs to the user ""Crinchy"":  is this the real life / or is this just fantasy / it's Bohemia.
+
+How is this a Haiku exactly?
+
+Or ""foxofok""'s one for example: First they said no masks / Now they say to wear a mask / I don’t own a mask.
+
+I'm pretty confused"
+webdev,fldfjr0,t3_fno0br,1585063515.0,"UPDATE (PROBLEM SOLVED): I'll write here what solved it for me in case someone searches for this problem in the future doesn't get stuck like me.
+
+&#x200B;
+
+I kept researching and found out that Twitter and LinkedIn check their links against a database of ""bad"" domains called ""Spamhaus"". So I checked there via [this link](https://www.spamhaus.org/lookup/) and indeed I found that my website is blacklisted but I still didn't know why but at least I knew what the problem was. First off, Spamhaus offers to manually whitelist your domain for free if you provided a non-freemail email (i.e: no gmail, hotmail...etc.), and luckily I had my college email and it worked, it took about 30 minutes and my domain is no longer blacklisted.
+
+But this isn't a solution it's just a temporary fix (it would be blacklisted eventually if i dont change something) so I kept looking and found this great article and I discovered that the security HTTP headers were NOT set for my website through Netlify, and this is actually strange because I thought this was something automatically handled by them. Anyway I just had to set the security headers in the `netlify.toml` file and then I was finally able to post my URL on both Twitter and LinkedIn!
+
+The article that helped me: [https://developer.okta.com/blog/2019/04/11/site-security-cloudflare-netlify](https://developer.okta.com/blog/2019/04/11/site-security-cloudflare-netlify)
+
+My site's security grade: [https://securityheaders.com/?q=https%3A%2F%2Fyasserdev.com&followRedirects=on](https://securityheaders.com/?q=https%3A%2F%2Fyasserdev.com&followRedirects=on)
+
+Hope this helps anyone in the future"
+webdev,flanqwj,t1_flanlgk,1584987513.0,"Interesting, but I don't think that's the case because it's something else or both Facebook and Github don't care about their security like LinkedIn :D"
+webdev,flani3e,t1_flan3ii,1584987373.0,"If you mean [Netlify](https://www.netlify.com/), then no, they're quite popular and reliable.
+
+More info if you're interested: [https://hostingchecker.com/#yasserdev.com](https://hostingchecker.com/#yasserdev.com)"
+batman,fk3fuh3,t1_fk34dze,1583831465.0,which one was that?
+Vent,fjxa1ck,t3_ff54w3,1583664081.0,Man that sucks. Props to you for not completely losing your shit
+NoMansSkyTheGame,fjuhde8,t3_ff1603,1583616769.0,"With the right colors, this looks like Hardhome from Game of Thrones."
+Heroku,fgfxmcj,t1_fgfwb4c,1580749826.0,"The project consists of a main file that has all the Tweepy code and 2 files for some helper functions. The Procfile only has the following:
+
+`worker: python app.py`
+
+I normally connect my GitHub to Heroku, watch as every module gets built and then the build succeeds. What should happen is that [`app.py`](https://app.py) should be invoked as soon as the build finishes because I specified that in the Procfile (right?). Instead, nothing happens, I check Heroku's log and it says that the worker changed state from starting to up. This should mean that the command in the Procfile should've been executed by now but that's not what happens.
+
+I have to manually disable then enable the worker from Heroku's dashboard (or scale to 0 then rescale to 1 from the CLI) which will lead to the same log output as before but this time the code is actually running. That's the only part I can't understand.
+
+&#x200B;
+
+Edit: Here is the exact log output in both cases (when the code works and when it doesn't):
+
+`2020-02-03T17:11:32.969573+00:00 heroku[worker.1]: Starting process with command 'python app.py'`
+
+`2020-02-03T17:11:33.532141+00:00 heroku[worker.1]: State changed from starting to up`"
+Heroku,fgfleys,t1_fgfl8y5,1580741873.0,"Do you mean the Procfile?
+I specified in it what file to execute on build and it works fine the problem is that it HAS to be manually invoked"
+TrueOffMyChest,ff2qsfb,t3_er7kof,1579519848.0,"She is a very very good doggo, the best one can have"
+changemyview,fdx46ye,t1_fdwrf9h,1578765144.0,"Came to say this, deserves a delta"
+guitars,fdo5pu9,t1_fdntq9m,1578599360.0,This guy got it
+TrueOffMyChest,fd8s5z6,t3_ekad1u,1578222655.0,"I mean Trump won an election at one point, it says a lot about the people who chose him."
+awfuleverything,fbgurni,t1_fbgpf5u,1576859054.0,"Carbon monoxide poisoning,  invisible and painless."
+PublicFreakout,fas0gb8,t3_eagzi2,1576322137.0,Spineless bastards with no honor
+shacomains,f8tr7vs,t3_e26ai1,1574809508.0,Why so serious?
+guitars,f4kzwf4,t3_dkukfl,1571660286.0,If your cat approves it then there's not much left to say
+HorriblyDepressing,f3frn6e,t3_dgy5by,1570901550.0,why the fuck
+HongKong,f33zrsz,t3_dfg1ce,1570648317.0,"~~Money talks~~
+
+Money moans"
+webdev,f2eymkf,t1_f2ewztq,1570206548.0,we're still open to changes but wasn't node actually faster than both Ror and Django because of its async nature? Or does something else concern you?
+webdev,f2evaa5,t1_f2eurij,1570204633.0,I would ask for your recommendation but i think your flair says a lot :D
+webdev,f2ev65s,t1_f2esf9r,1570204569.0,What can you recommend instead? I've thought about Django or RoR
+webdev,f2ev3c4,t1_f2eqa8z,1570204527.0,"I've used Neo4j before, idk why I didn't put it into consideration, thanks!"
+me_irl,f292kaq,t3_dcir81,1570078240.0,a GOOD BOY nonetheless
+Psychonaut,f0vdix5,t3_d6seo8,1568977554.0,Thanks man
+Guitar,f0tqlxm,t3_d6gqfe,1568927118.0,"I've been watching him on youtube since his early song covers and he somehow contributed to me wanting to learn the guitar. his touch in the cover of ""In the End"" by Linkin Park is insane and so is his cover of Slash's Godfather theme."
+Vent,f0m8q4m,t3_d5hf37,1568739388.0,"I am so so sorry.
+
+Toto must have felt happy to be around you in the end"
+JusticeServed,f088lud,t3_d3y9qr,1568477322.0,"Those guys are too polite tbh. As shity as my country may be , but if this situation happened he would've been tied to a lightpole until the police came, not allowed to walk freely."
+webdev,f03uv0s,t1_f03sydl,1568371149.0,"That's what I needed, thanks."
+AskReddit,exrkxyq,t3_ctzmtj,1566518226.0,"""I was about to ask you the same thing"""
+Vent,ewol2eo,t1_ewokyqa,1565620697.0,*sends virtual hug*
+Vent,ewobdgo,t3_cp9tgt,1565613066.0,"I can relate. Whether it's a chat, tweet or post, I write paragraphs only to delete it all before sending"
+depression,ew4cj4i,t3_cmmstv,1565107709.0,"""Oh boy your eyes betray what burns inside you"""
+depression,ew2lli0,t3_cmas2v,1565049805.0,"Man I feel this and it hurts,  I wish I could give you a hug"
+AskReddit,evwyjl6,t3_clpfe8,1564876876.0,"Playing guitar, imagine all the new complex shapes and styles spanning the entire fretboard."
+AskReddit,evwxpnz,t3_clpldg,1564876224.0,"Write the names of all the corrupt powerful people, warmongers from both sides of wars, people who are bad to animals. I'll kill the people responsible for the world being this shithole and then write my own name because it's not my decision to say who lives and who doesn't.  Consider it as taking one for the team."
+Vent,evwx0x3,t3_clpb4a,1564875688.0,Feel better now?
+guitarporn,evo7h6i,t3_ckcno0,1564640203.0,Congrats! Is this the same as the american special? because i kept looking for it and all that comes up is the american performer series
+webdev,evfxuhw,t3_cjsp3i,1564502932.0,"Banning sounds stupid, how about adding them as preferences to turn on and off?"
+dankmemes,evdwoi2,t1_evdmiy0,1564449414.0,[https://en.wikipedia.org/wiki/Gamal\_Abdel\_Nasser](https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser)
+dankmemes,evdqlyz,t1_evdqdpa,1564444926.0,It's just a meme after all I just thought he himself was Egyptian since this meme would totally make no sense to anyone else like where did he even find it
+dankmemes,evdo1ip,t1_evdnrt2,1564443021.0,"That man was Egypt's president one day and he was a complete failure. Fucked the country up economically, socially and lost every war he took part in. That exact panel is a trend nowadays in Egyptian memes whenever someone wants to imply failure in the context of the meme."
+wholesomememes,evdnj9v,t1_evcyvli,1564442646.0,"was gonna say the same thing lol...when I read things like this sometimes I feel wholesome,sad or angry because of the shitty things that caused them not to be able to buy real tickets in the first place"
+generative,evbytey,t1_evbxyvh,1564400615.0,thanks for this!
+generative,evatn90,t1_evatjh4,1564356916.0,"wise words, thanks!"
+generative,evalvd9,t1_evalol1,1564351064.0,anytime!
+generative,evajikw,t1_evaio3a,1564349277.0,"I haven't done my own portfolio yet since I'm still learning generative art but I DID make a website for a freelance job. Bought a custom domain from Godaddy and I hosted it on Heroku with Cloudflare SSL so hmu if you need help with this configuration.
+
+A medium article explaining almost everything I've said: [https://medium.com/@AndreyAzimov/how-free-heroku-really-works-and-how-to-get-maximum-from-it-daa53f2b3c57](https://medium.com/@AndreyAzimov/how-free-heroku-really-works-and-how-to-get-maximum-from-it-daa53f2b3c57)
+
+&#x200B;
+
+Configuring Cloudlflare with Heroku: [https://support.cloudflare.com/hc/en-us/articles/205893698](https://support.cloudflare.com/hc/en-us/articles/205893698)
+
+How to link domains from Godaddy to heroku: [https://www.youtube.com/watch?v=kKGSGT7mSnQ](https://www.youtube.com/watch?v=kKGSGT7mSnQ)
+
+Now there was a link explaining some problems with linking Cloudflare to Heroku but I can't find it but I can still remember the important parts: 
+
+If you ever get to the point of configuring Cloudlfare. In the ""DNS"" section, make sure to link your root and www domains to [**yourname.herokuapp.com**](https://yourname.herokuapp.com) and not to the CDN address Heroku gives you when you add a custom domain there. And then in the ""Crypto"" section make sure that you turn on ""force HTTPS"" and set it to ""Full encryption"" and not ""Flexible."
+generative,evaio3a,t3_cj0w4t,1564348665.0,"I haven't done it myself yet but I know some options.
+
+If your website is just a portfolio with no backend logic or heavy programming (just a way to display your art, that's what a static website is), look for github pages. You get free hosting but iirc your website will look like this ([yourname.github.io](https://yourname.github.io)). Another free alternative that lets you buy custom names is Netlify, I've only heard good things about it.
+
+&#x200B;
+
+But if your website involves payment or any form of backend programming then the cheapest solution is Heroku. Sign up for a free-tier account. You get 1k free hours or dynos (their currency or whatever) per month. People calculated it and it turned out that if your account only has this website then it can be up 24/7 without using all of your free dynos. Heroku's free tier puts your website to sleep by default after 30 minutes of inactivity but you can easily work around it by using service like [uptimerobot.com](https://uptimerobot.com) . You can set it to ping your heroku website every 5 minutes and so your website will be active 24/7.
+
+&#x200B;
+
+Oh and Heroku can do static websites pretty well too but it would be overkill. your heroku website will look like this ([yourname.herokuapp.com](https://yourname.herokuapp.com)) but you can always buy a custom domain and link it to heroku for free (they only need your credit card info for verification. no payment needed). And regarding SSL, if you really need this green lock to appear on your customers browsers, Heroku offers SSL but not for free. Instead of that you can use Cloudflare with Heroku, they give free SSL certificates.
+
+&#x200B;
+
+Either way, you'll get a running website completely for free unless you want to add your own name but it should be pretty cheap like $3\~$5 per year.
+
+I'll reply with some links with more details shortly."
+guitars,ev1f276,t1_ev1eeu5,1564157188.0,thanks..will definitely check this out
+guitars,euwc27d,t1_euwbubn,1564073477.0,"cool, thanks :)"
+guitars,euwbbkr,t1_euwat4r,1564073235.0,cause i just upgraded and got a decent midrange guitar (a player series tele) and thought that the amp might bottleneck the quality of the new guitar so i decided the next upgrade would be a new amp...any suggestions?
+guitars,euvuxwz,t3_cho5x5,1564065928.0,How much am I missing out by using my blackstar id core's on-board effects?
+webdev,euq0b5h,t1_euq02aq,1563967997.0,"It's a freelance job for a local factory, it's not a big website really. So I'm not very resourceful and a few hours a year is not bad at all as long as it's not permanent"
+webdev,eupzh03,t1_eupz92o,1563967559.0,"thanks, that's relieving"
+me_irl,eufqyyt,t3_cg6ob8,1563787189.0,"He's the croc from ""Where's my water""!!"
+guitars,eue9nv6,t3_cg2gxl,1563738882.0,"This is horribly depressing, I'm so sorry."
+StrangerThings,eu49wlu,t3_ceotec,1563445848.0,"I'm not complaining it's just that Billy's arc could be better, I hope he's still in the story in one form or another"
+changemyview,eu2iis6,t1_eu2hjwd,1563390895.0,"I get you that a payment is a payment. But people who run websites with those kinds of ads know that you need their service so your hands are kind of tied and you will have to keep viewing their ads. I can go with that but I won't actually like using their service; I will go to the first alternative with no ads.
+
+&#x200B;
+
+I can imagine it like that: Yesterday you ate pizza. Today you want to buy a TV. So you go to the store, find yourself one of the employees and ask him about good TVs and he does help you and you end up buying a TV. While you're at the cashier this guy tells you that he happened to be spying on you yesterday sooooo...want a newer and better pizza?
+
+&#x200B;
+
+I would feel frustrated and angry."
+changemyview,eu2f5h7,t3_cegmu5,1563388773.0,"Some websites politely ask me to disable adblockers because it's their only income so I just turn it off. Other websites won't let you proceed without turning the blocker off and that's okay too.
+
+BUT, most websites don't have any settings that let you tweak the kind of ads that you get.. for example, I've been eyeballing a certain product on amazon that I wouldn't like anyone to know about for different reasons. Then I have to do a slideshow or share my screen with other people. It would be pretty embarrassing if that product just keeps showing up on other websites and people now know what secret product I'm interested in. It's just like forcibly sharing your browser history.
+
+&#x200B;
+
+For me it was just a guitar, maybe for other people it was a dildo, sex doll or whatever product that's not appropriate in a professional manner.
+
+&#x200B;
+
+That's why I think that If one can't at least control what ads can show then one also has the right to block them completely."
+guitarporn,etq2xcq,t3_ccxs26,1563071126.0,"This is my first ""real"" guitar. I previously owned a jackson dinky js11, I wasn't bothered with it in any way I even decided to keep it but since I got the tele I haven't even touched it again. The bridge pickup is insane it can play anything really. Haven't used the neck pickup a lot or I don't know what it's best for."
+webdev,etlnl8u,t1_etlnabi,1562941091.0,"Actually a friend of mine finished it and didn't pay anything..however, there was prize money for anyone who finishes way before the deadline..my friend was eligible but they kept ignoring his emails until the prize no longer applied on him...but as long as I wont have to pay im ok"
+webdev,etle7tw,t1_etldudb,1562933639.0,"I thought like that too, I won't lose anything so why not"
+depression,ethcm4v,t1_ethch0c,1562811831.0,i really need to but i just cant...i tried everything i even tried forcing myself by browsing sad and emotional stuff but it only makes it worse since i cant cry
+depression,ethch0c,t3_cbi179,1562811721.0,"Unironically, good for you, I'm happy for you...it's been 7 years and counting since I last needed to cry and actually cried, I hope I get to you soon."
+Vent,esz9bd4,t1_esz54iy,1562357649.0,get more competent people...you too deserved to have fun like them but you didn't because you know that work depends on you..they didn't care so...
+wholesomememes,esfvec3,t3_c7h6rz,1561935979.0,"The government failed, never the doggos."
+Cyberpunk,esa8ety,t1_esa58fk,1561753888.0,your work is unreal!!!
+Cyberpunk,es9kj5c,t3_c58q65,1561738305.0,I love this! Does this style have a name? Where can I find more art involving mildly sad/depressing shots of girls like this?
+cscareerquestions,es968n8,t3_c6ewkd,1561728438.0,Can't even land one
+webdev,es54k1g,t1_es54d9x,1561601515.0,e7na msh 3aysheen
+webdev,es4y1n2,t1_es4xw4z,1561596907.0,"I live in a 3rd world country and it IS shitty here, every two days or so power goes out for like 10 minutes so I'll have to manually restart everything"
+webdev,es4u8qo,t1_es4u5vk,1561594050.0,thanks! I'll check it
+webdev,es4ty43,t1_es4tqmz,1561593824.0,"I get you, I can just put the keys inside the code files and no one without access to the code can see anything but that's not my concern..for some reason i store the ID's of some tweets in a json file and I edit this file periodically (delete/update/add)..That's the part that gets discarded by heroku"
+webdev,es4tpo1,t1_es4tfaz,1561593648.0,I thought about that too but if only I guaranteed there would be no power outages
+webdev,es4tntz,t1_es4tkpv,1561593609.0,"yes, the twitter api secret and public tokens"
+cscareerquestions,es3h037,t1_es3grhe,1561562337.0,It's been 2 days and I still haven't got a rejection mail. I ususally get the rejection mail right away in that case which made me still have hope.
+cscareerquestions,es39say,t1_es2oua0,1561557416.0,"I applied to software development engineer Machine learning internship (Cambridge) on 29 May. The application was under review then switched to under consideration until 26 of June then it became ""no longer under consideration"". 
+
+I want to know if someone applied for the same position and got any response because I didn't neither a rejection nor an interview mail. 
+
+Should I give up on this position or may I still get any response?
+
+Thanks."
+guitars,es1rrgh,t1_es1mac3,1561504075.0,"Ok rainwaterz\_II, pleased to meet you rainwaterz\_II."
+guitarcirclejerk,erhb7dr,t3_c1xjsm,1560871499.0,virgin music is win editing skills vs. chad paul davids god tier editing skills
+cscareerquestions,erff71j,t1_erfetk9,1560806926.0,"I'm from Egypt. Thanks for the info though. Most companies here hire based on your experience and projects, only the really big ones do whiteboard interviews but this is the first time I've seen a written test."
+confessions,er72915,t3_c0qw6n,1560564649.0,"That's good from you...actually i was in the same situation of your friend. I posted a guitar track I recorded on soundcloud and for a week or something i keep refreshing and looking at the listens, where they're from and when...until some friend brings it up casually that it's first thing on his stream or whatever so it plays by itself so it's like theyre only like 10 unique listens or so and not 40..i never looked at the listens again and never told anyone in particular to listen to something i played..i just post it on social media
+
+Edit: spelling"
+webdev,eqk6314,t1_eqk5zvk,1560116724.0,Thanks a lot!
+webdev,eqk5tks,t1_eqk4e9p,1560116616.0,But I would need to access this domain's account on its respective registrar (hostgator in this case). am I correct? or can this be done directly from cPanel? Because if not then I will need to contact them again or contact whoever registered that name for them.
+AskReddit,eqeo6qr,t1_eqe5ylc,1560006925.0,You're a good man. Thank you.
+batman,epdnp6h,t1_epdnbvb,1559169982.0,same...i always felt rebirth was kind of rushed or lacked enough character. I liked it nevertheless
+guitars,epdi2ei,t3_buidmq,1559166652.0,Am i the only one who has an urge to lick it?
+Guitar,epaioyg,t1_epahml3,1559128632.0,Actually I just wanted to record then I found out about all the amp sims and virtually infinite effects which made it more tempting to get an interface than a multi-fx or a pedal or two..thanks for your help!
+AskReddit,ep2c0uf,t3_bthm4m,1559006034.0,Imagine being depressed for eternity...
+confessions,ep1l2wi,t1_ep1hu1y,1558990583.0,If I hear any more words come pouring out of this cunt mouth I will have to eat every fucking chicken in the room
+batman,eouni9k,t1_eounb77,1558874893.0,Yes! I remember that one
+batman,eorvjr5,t1_eorvc8m,1558813556.0,idk if they're available but there's a website called readcomiconline.to
+batman,eorukyb,t1_eoru6dm,1558813125.0,"IIRC, joker and scarecrow kidnapped the mayor, drugged him with fear gas, lured batman (who was already exhausted af) into a tunnel and blew it up which led to it drowning with batman and the mayor still inside so he just swam to safety i guess, lol i can't quite remember"
+batman,eoq9p2k,t1_eoq9m6f,1558787983.0,"Yes, when Joker and Scarecrow teamed up."
+freefolk,eoq547c,t1_eopnuyv,1558785184.0,GOOD BOYYYY

@@ -1,0 +1,344 @@
+afkarena,fr3605a,t1_fr30kbp,1589850645.0,"I have only one facebook account 🤔
+But I've tried and logined there again. Heh."
+afkarena,fr356al,t1_fr34u2m,1589850168.0,"Thoran cheese is the popular solution for it.
+I used eironn lyca tasi nara ferael. And I prayed to Jesus during every retry. Eventually, that worked."
+afkarena,fr34ipk,t1_fr29lqa,1589849785.0,"Lyca tasi eironn are core heroes of that team. And you don't need a Talene in a burst comp.
+
+For arena: rowan ferael + e-comp are insanely fit. 
+
+For campaign: anything, including Talene
+
+For HOE: as you need to distribute the power wisely, try to use other folks with Eironn-core.
+
+I'm using Safiya and Brutus for non-threat comps or vs enemy Eironn. Its insane how Brutus helps in dodge-oriented fights. You win in a first 10 seconds. 
+
+But like... no. In pvp-area Talene is not a part of Eironn team, but a subject to her own one."
+afkarena,fr337hz,t1_fr2tjsi,1589849028.0,Show it. Send it to us. Wer waitin.
+afkarena,fr31yqx,t3_gm6dfu,1589848318.0,What's your goal there? Hit diamond rank?
+afkarena,fr31tve,t3_gm8jbv,1589848241.0,"I use my GB-core with random 1-3 maulers based on enemy team. 
+
+Ferael/Nara can clean most of the stuff  by their own.
+
+But no synergy indeed."
+afkarena,fr312hz,t3_gm9ty1,1589847810.0,"Once your rosa will stop following her because of hero-level scaling difference. Very depressing moment tbh. 
+
+My Rowan is fighting naked because of that."
+afkarena,fr30p4q,t3_gmd39g,1589847598.0,"Look at all that value, its 27 LB cards which I really need right now!
+ And ten  24h dust boxes, I struggle for it so much!
+
+50 bucks files in a sec. 
+
+Not gonna fall into explanations, the picture is 100% accurate."
+afkarena,fr2zh73,t3_gm3hok,1589846907.0,First one is  always Rowan. Better ask who should be the second one  (i dunno)
+afkarena,fr2yzeu,t3_gm8b02,1589846625.0,"All the heroes by themselves are manageable and have counters.
+
+I hate mauler stages. Was sitting on 29-12 for nearly month. Saveas, Brutus, Warek, Safiya and Skreg. 
+
+I also struggle vs Lyca. She kinda locks you in time very much because of the hastle, energy and accuracy(later on) and your dudes are getting melted too damn fast."
+afkarena,fr2ye1q,t1_fr23yu5,1589846295.0,She appears for the first time in 34-4. Glad you did it that far 👌
+afkarena,fr2y741,t1_fr2nwgq,1589846189.0,Bruh
+afkarena,fr2xp0f,t3_gmcmku,1589845912.0,"Did you tried:
+
+Settings -> Account -> Link  the second time? 
+
+You can't un-link manually, but you can re-link to other one."
+afkarena,fr2w4id,t1_fr2rm69,1589845048.0,"Actually, it\`s fine to play the game just for fun. And it's also fine to put zero brain cells engaged in this process.   
+
+
+I do that with archero, lol and some other games.   
+
+
+Having this kind of big brain data-mining posts may be relevant only for hooked players who somehow ignore that this one is a freemium endless game.   
+
+
+But if some of those will see that, or any other ones will be interested, then it was worth it.   
+
+
+People downvoting that guy above us wasn\`t a cool thing, I think."
+afkarena,fr2v6ag,t1_fr2sv1y,1589844514.0,"TLDR: Yes
+
+
+Timer stops when there`s an item in your chest. 
+
+Timer starts ticking from 0 when you pick up the reward. 
+
+If you will do this more often, then smaller timers will be refreshed and this is good for you, because you will get smaller rewards more often. 
+
+Its not like M gear can somehow be downgraded to L when you beat the stage in a wrong time. 
+Its all separete tickin things for every type of reward."
+afkarena,fr2ulrh,t1_fr2q2ir,1589844197.0,"Sup. As I\`m not the guy with parsed code in my pocket, I will just assume what\`s most expected scenario based on the ton of guides and 1y of play.   
+
+
+I assume that the pity-timer starts when you lose the stage 
+
+I assume that item-timer ticks as we live and refreshes when you get the item (without randomized additions)  
+
+
+I also assume that it refreshes when you get the reward.   
+
+
+So the logic behind this looks like this:   
+
+
+You have two timers there. itemTimer -- reward receiving timer.  pityTimer -- pity timer for failed stages.   
+The first one is ticking non-stop. The second one starts when you lose the stage.   
+
+
+&#x200B;
+
+And the possible scenarios are:   
+
+
+1. You fail the stage, you win it AFTER passing X time, but BEFORE 2x    
+ Outcomes:   
+a. **itemTimer** will be reset to 0s  
+b. **pityTimer** will be removed for that exact reward.  
+c. you will get the item
+2.  You fail the stage, you win it BEFORE passing X time.    
+ Outcomes:   
+a. **itemTimer** is still counting up to 2X time  
+b. **pityTimer** is removed (because you won)  
+c.  you don't get the item 
+3. You fail the stage, you win AFTER 2X time.   
+a. itemTimer will be reset at 2X. It will start counting again from that point.   
+b. **? Is it still ticking? Do we get a second stone after 8d 12h? I can\`t remember.**  
+c. you will get the item. 
+
+&#x200B;
+
+And the TRICK will be the (a) scenario. All it gives you is reduction of the required time by half. From 8 days to 4 days as max.    
+
+
+But once again, I can\`t prove a shit. Decompiled app code looks like a bunch of unrelated functions lol, I will not dig there just because our OP did this already.   
+What a dude. Epic. Nice."
+afkarena,fr2qyqm,t1_fr2klxc,1589842215.0,Updated.  Thanks for noticing.
+afkarena,fr2qsm5,t1_fr2qjyh,1589842126.0,"4d 7h to get both T stone and M gear every single stage. 
+
+3d 13h to get M gear every time and T stone every second time."
+afkarena,fr2qcbq,t1_fr2mps7,1589841884.0,"Its the same M trick, but the timing is now a known value. No need to guess is it 2 days, 1 day, or anything else. 
+
+I saw people making video reports daily just to track the results of the ""new 1 day M trick"" posted by someone. 
+
+OP posted an app to actually track most of the things like tree calculation, hero stats (derailed crit, dodge, etc) and it is 100% matching with game stats  which anybody can check if they will put their heroes into it.
+
+Also, you can check detailed info about every single stage in campaign (enemy gear, positioning, power, ...). Which you can check by your current campaign level. 
+
+By that I assume that all data is provided 'as is'"
+afkarena,fr2pcly,t1_fr2iycd,1589841360.0,"Ikr its so sad, I even reposted a peace of it to help people notice."
+afkarena,fr2offg,t1_fr2klxc,1589840884.0,"Well, if the data says that for item we need X time, and max amount of rewards are reached in 2X time, then... 
+
+But it is more likely that the natural timer will come at that point and you will get T stone from normal afk rewards. 
+Yeah, that's make more sense. Its more like a window for a normal timer, which can be decreased from 2X to X"
+afkarena,fr2ntb8,t1_fr2f9oo,1589840573.0,"No I just have an ability to read the google sheets.
+
+There are stats posted in the link. But the stats are obviously not final, so they will be adjusted. Dunno if this info will be useful now."
+afkarena,fr2e1s0,t1_fr2bp77,1589835682.0,"Well yeah, when you reset it too often and dont use any mages, then it seems legit. 
+
+I was guessing about the winner for the legends tourney and both dudes was 0 Sorcery. I thought that is something too big brain for me. 
+ Thanks!"
+afkarena,fr2a7pp,t1_fr29p78,1589833799.0,BTW easiest way to stop notifications is  [https://www.reddit.com/settings/notifications](https://www.reddit.com/settings/notifications)
+afkarena,fr29xfd,t3_glyf4k,1589833662.0,Do you know why people put 0 points in the sorcery tree? I don\`t get it.
+afkarena,fr29p78,t3_glyf4k,1589833556.0,"Kinda reminds me of a picture ""When a backend dev makes frontend too"".   
+
+
+How can you speak about this in official discord, if the Terms\\Conditions say that data mining is a reason to be banned?   
+Or they didn\`t read it too?:D   
+
+
+This is a highly useful tool for people like Newton and his whale-students to have more standpoints for possible fight outcomes.    
+Thanks for your time and work, dude."
+afkarena,fr28hju,t3_glymiq,1589832960.0,"The limit of Dura Tears is 199. I\`m so close to it, heh"
+afkarena,fr27za5,t1_fqyf3k2,1589832711.0,What the hell is going on with hero names? :D
+afkarena,fr24al7,t3_glymiq,1589830909.0,"Seeing things like toggle ""Inherit progress"" in the achievements table is very funny. I remember the official notes about ""we can\`t track this achievement, you need to do it by yourself""
+
+Noticeable info:
+
+1. Items have  **Faction Probability** 67.25%
+2. ~~Solestones have hidden hero specifications:  Soulstones (Izold) Soulstones (Oscar) Soulstones (Talene)  and so on. Makes them a little less random, I guess?~~
+3. New skin: 蛮血战神专属皮肤-铁血战神 (Wild blood God of War-God of War  wtf)
+4. Testing data attributes (kekw): 选择礼包测试1(不用翻译)   --- Select gift pack test 1 (no translation required)
+5. T4 gear diamond value is 32k. Also, there are other gear values, I guess that's for limited deals
+6. T3-4 gear has pretty random stats. For example, Mage Weapon on T2 gives 90 dodge and on T3 only 70 dodge. It's in progress probably.
+7. T3 gear starts from 29-1
+8. T4 gear starts from 31-1
+9. Haste and MSPD are different stats !!!! What.
+10. Minimum power requirement for 34-60 is  97,410 milions. Seems pretty far away.
+11. Minimum power requirement for 35-1 is 999 millions. Funny.
+12. From ch31 bosses have SI.
+13. From stage 24-41 all enemies have T2 gear. Seems unfair to get it only at 26-1 huh
+
+Edit: Added some more"
+afkarena,fr1x0fm,t1_fr1wgdy,1589827356.0,I'm so impressed by this that I need to notice it again. Its fantastic amount of data.
+afkarena,fr1wki5,t1_fr1sdu8,1589827140.0,Only 6 times more then vip 20 tho :D
+afkarena,fr1wgdy,t3_glymiq,1589827084.0,"Fuck!
+Its so damn good man!
+
+I was struggling for this information so hard, that I even stepped to the dark path to find it. 
+
+Glad that you already did all the job. Thank you."
+afkarena,fr0jy6r,t3_glw881,1589798324.0,"I use Rowan to counter enemy Nara,  lol."
+afkarena,fqyant6,t1_fqxthci,1589745525.0,"Yeah, full fraction gear on every usable champ. 
+
+I actually watch the matches instead of fast-skipping them and that's the one thing I've noticed.  If Athalia miss the 1st hit, Eironn will pull your team before she will start her 3-attack combo.  And everyone will be inside Safiya's projection."
+afkarena,fqya34v,t1_fqxx6uj,1589745228.0,"So its an Eironn comp with tech adjustments vs other Eironn comp. 
+
+Good to know that's working. Thanks!"
+afkarena,fqy8w89,t1_fqxw89g,1589744621.0,"That's my only carries aside of gwyn comp. I can't use them all on the same team ;(
+
+I think single Nara on Eironn should be enough to negate the initial burst. I feel like Athalia's fisrt strike too unstable vs dodge champs. 
+
+Thanks for the answer!"
+afkarena,fqy8j99,t1_fqxqg4k,1589744435.0,Yeah. The only option would be having someone who's same power as you and climbing at the same time.
+afkarena,fqxqaty,t1_fqxfjyo,1589736231.0,"Just a question of proper timing. Just need to not be attacked during the push.
+
+
+I'm collecting tickets daily, will be checking when people are afking.
+
+Good luck!"
+afkarena,fqxp27u,t1_fqxk9hs,1589735725.0,"Thats our guild style. Its called afk whales for some reason and eneryone have a different whale on the profile pic. 
+
+Most of dudes are somewhere around ch 14 :D"
+afkarena,fqxoutd,t1_fqxjgy0,1589735631.0,"Athalia miss with her initial attack quite often . I need to try Nara tho. 
+
+Thanks!"
+afkarena,fqxn2q5,t1_fqxk9hs,1589734846.0,"I never really focused him, just playing for a long time. Didn\`t used him past ch 24.   
+He\`s doing great job allowing me to use Arthur as 5\*"
+afkarena,fqxhum1,t1_fqxfala,1589732521.0,And missing whale heroes as well. I know.
+afkarena,fqxf0rk,t3_glht9k,1589731241.0,"Btw, what in a world beats Eironn comp in pvp? 
+Never lost a fight with it and never win against it too."
+afkarena,fqvg6pt,t1_fqqll9i,1589676584.0,"http://imgur.com/gallery/8FDtyBN
+Not the 5 fawkeses, but pretty similar"
+afkarena,fqvblm5,t1_fqvbeqd,1589673824.0,But you can take gold emblems to speed up. Not like struggle for either of them will ever end.
+afkarena,fqvbeqd,t3_gl0kxe,1589673708.0,Tree juice. It's really hard to getf out will need a TON if it.
+afkarena,fqvb4ws,t1_fqulkb4,1589673547.0,"Not the best hero, but definitely a good one.  There was a video where she wins 1v4 in chapter 32. 
+
+If you're done with all meta dudes(or don't have copies), she will be a very fine investment."
+afkarena,fqvan1a,t1_fqumsav,1589673255.0,"This one makes sense.
+
+Rowan needs SI and tree, ascension is giving him pure  stats, which he don't need at all."
+afkarena,fqva4kk,t3_gkvsmq,1589672953.0,"I assume that most of that are application caches, which makes this game playable for people with wooden phones(with 3gb space). 
+Also it should reduce the battery usage, cuz memory is cheaper then CPU
+
+ I'm almost sure about that."
+afkarena,fqv9p3d,t1_fqv7u3g,1589672702.0,"I had big hopes on Antandra when  she was released, so I also get her to A(after some time) and raised SI to 15.
+
+With all that, I ended up using E+ Tidus instead of her in a mauler tower, because she's something like Mauler-Thane. 
+
+She had some use in PVP, but then Lilith added heal reduce to warrior tree lvl 5."
+afkarena,fqv7r6y,t3_gkwnq1,1589671584.0,"Challenge accepted! (no)
+
+I think that you were doing it for fun and could beat this chapter easily long ago. If that's true, then its a cool thing you've made."
+afkarena,fqv4p2k,t1_fqv3kdn,1589669815.0,"the first one, because it\`s not re:zero.   
+
+
+if it was irony there then I apologize tho"
+afkarena,fqv4ele,t1_fqv1iwy,1589669651.0,its really good btw
+afkarena,fqtous8,t3_gkw1vb,1589643187.0,"Anything but Ulmus. He can't tank like gorvo or seirus, and his ""dps-part"" is a meme. Means it only works when its enemy ulmus on campaign."
+afkarena,fqtofkt,t1_fqt9f5d,1589642949.0,"Btw you can add me and get any merc you want (except cele/hypo which I don't have)
+Id 29790939"
+afkarena,fqt8pp3,t3_gkitv7,1589633265.0,"You will be really disappointed of her performance in campaign, hehe.
+
+Until I was able to get her 30+ full geared, she was a suicide jumper. So its not just a year of athalia crafting, but also gear and SI. 
+
+
+People are right, just find someone to get her as a merc every week and you'll be fine."
+afkarena,fqsjqsu,t3_gkkidp,1589609224.0,"I have m+ khazard and a*4 eironn. But i don't see any difference in damage because... its either super melting, or your team instantly dies.
+
+
+And its hard to fit khazard into eironn comp. He's much better if he stand behind arthur."
+afkarena,fqqabe7,t3_gkctcs,1589562082.0,"If everyone is stalling on 299,  that's bracket shouldn't be far away from 300.
+Big brain move would be sit on 289. Maybe."
+LegendsOfRuneterra,fqq9rm7,t1_fqq8qi8,1589561813.0,Yies
+LegendsOfRuneterra,fqq7ud0,t3_gk02s0,1589560886.0,Can we get all together?
+afkarena,fqq5225,t3_gkb47u,1589559525.0,"Meh
+
+4 elite pull is lucky for sure, but the heroes are kinda not."
+afkarena,fqq3385,t1_fqq329l,1589558568.0,Or 2
+afkarena,fqq329l,t3_gk4zrb,1589558555.0,"Every time, but I do lab once a week at best. So I guess its answer 1."
+afkarena,fqq292y,t1_fqq15w8,1589558156.0,"Well, actually, I thinked that one a little deeper. Before the Thalene hype train started they was unusual and had some kind of ""story behind them"". 
+
+Like our dude /u/50afkarenagems or whats his name, gazed for Ezizh and that post had a lot of discussions on the comments. 
+
+But now  all same X Thalene /iM sO LuCkY/ posts are toxic shit."
+afkarena,fqq15w8,t3_gkadfs,1589557620.0,I'm sick of them. Its neither fun or interesting to see.
+afkarena,fqq0vec,t3_gkb5e7,1589557475.0,The big dude from server 1 is 34-24 with his lvl 500
+afkarena,fqq0rcx,t1_fqoyn0a,1589557419.0,Same for me. But its 3:00 AM tho
+afkarena,fqonjls,t1_fqoehe2,1589519587.0,"They don't double the rewards, mate. Just the income. You would have same as there was before the event started."
+afkarena,fqon6sl,t3_gk08vu,1589519314.0,This suggestion is nearly genious in terms of UI design quality. I would love that.
+afkarena,fqomwop,t3_gk117r,1589519100.0,I did that twice.
+afkarena,fqomkkp,t1_fqo9pxi,1589518852.0,"Only if you woun't regret spending money on games. 
+
+Getting +500 diamonds everyday feels nice. And comparing to other deals its like x3 of value. 
+
+But if you're not spending too much time playing this game and just having it as a toilet phone activity, then probably you shouldn't take it."
+afkarena,fqo4s3m,t3_gjqhh7,1589507553.0,"If you ftp without subscription monthly cards then no. You'll drop the game most likely, because optimistically its around 1 elite copy per month for all diamonds you have. 
+
+
+Chill for now. Finish some of your dudes."
+afkarena,fqo4itw,t1_fqn6rue,1589507403.0,😔
+afkarena,fqo47k4,t3_gjv0u5,1589507227.0,If you have mehira's SI  then that's not a hard question.
+afkarena,fqo3wd3,t3_gjytz7,1589507049.0,That' very smol.
+afkarena,fqo3l02,t3_gjzjt6,1589506867.0,"I think it was delayed a little bit because of the athalia fix.  Today I opened the game and it downloaded 7MB of something.
+
+Anyway, I think its fine"
+afkarena,fqm7tr5,t1_fqlbklb,1589472973.0,"Seems like a budget version of khazard. Squishy cc/dd mage which requires protection to shine. 
+
+Thanks a lot your the feedback."
+afkarena,fql6llh,t3_gji897,1589448055.0,Kinda cringe
+afkarena,fql6472,t3_gjic5g,1589447572.0,Same question about Oden.
+afkarena,fqkh75s,t1_fqkgafw,1589427225.0,"Btw, I'm not the one who downvotes your comments. Just described the general opinion of those who are. 
+
+Stay cool."
+afkarena,fqkfx7l,t1_fqkc7el,1589426441.0,"Doesn't meter how hard was the nerf, man. The only acceptable nerfs in game like this are those which was called by players. 
+
+Nobody asks then to touch athalia. And also, they don't even announce it, lol. 
+
+You may be right at your point, but ""not that hard"" nerfs are still nerfs."
+afkarena,fqkfecp,t3_gjc4ny,1589426133.0,"She's top of the worst ones. In some comps she can compete with rosa. 
+
+Thane and Rigby are much more fodderable."
+afkarena,fqkf2qv,t3_gjcrkx,1589425942.0,Warek
+afkarena,fqkew3e,t3_gjd6r0,1589425832.0,"I fuckin hate all this ""optimized model"" bs. 
+
+It sounds like a good intention from a visual perspective and nothing more then that.
+
+But in fact, if there's such a great impact area, just delay the changes and re-test them.  
+
+Hello, Lilith? Game is giving you mills of cash, think about hiring some testers. 
+Or describe the changes as they is, if that is intentional change (as well as preconditions to do them)
+
+Thanks."
+afkarena,fqke265,t3_gjd6r0,1589425348.0,"Can we pull up this post, guys? 
+
+I was having the same thoughts. Just waiting for an official feedback from devs about this change and if it would be reverted."
+afkarena,fqkdh41,t1_fqkamlj,1589425023.0,Attack speed decreased by half
+afkarena,fqkdcfs,t3_gjdqo1,1589424948.0,Second skill prevents all healing
+afkarena,fqkczo5,t1_fqk16pz,1589424740.0,"https://afk.guide/mythic-gear-trick/
+You do this, but wait 1day. Its not working consistently tho."
+afkarena,fqk0a0p,t1_fqjrfad,1589417952.0,Its 3-day trick but with 1 day wait
+afkarena,fqk026l,t3_gjbouw,1589417842.0,"Yeah the event is tilting if you think that you're relatively strong in other pvp formats. 
+
+Just don't take it too close, dude. Just another HoE, nothing more."
+afkarena,fqjitxh,t1_fqh2d24,1589410550.0,That's a wall of text up there ._.
+afkarena,fqjiece,t1_fqji6f8,1589410362.0,Don't stargaze the last two!
+afkarena,fqji6f8,t3_giy8h1,1589410277.0,"Okay, answers:
+
+1. Don't bother about gear. You don't need more then 5-7 sets for campaign, and other is fine but low priority.
+As dude said here, buy emblems for gold instead.
+
+2. Emblems are fine, nemora is a little fine too. I would buy arthur / emblems / wu.  
+Idk about nemora, never used her past ch 22.
+
+Ezizh > Athalia. But I feel your L Athalia on the bench."
+afkarena,fqjg68a,t3_gj1nzs,1589409484.0,Seems like you need legendary Oden
+afkarena,fqjfoih,t1_fqibrnb,1589409280.0,Same
+afkarena,fqikhaq,t3_gix3nz,1589397200.0,"Btw, OP, are you using any additional tools apart for DM except those ones that extracts the sources?  
+
+
+(Or your mysterious friends, not you directly)"
+afkarena,fqijn25,t3_gix3nz,1589396882.0,"Holy shit. So Athalia has two times slower attack speed now.  
+
+Amazing change to be unnoticed in the patch notes."
+afkarena,fqgcyd0,t3_gij1eo,1589343150.0,Start when you reach 26 and will be sitting for T2 stones.
+afkarena,fqgcq9q,t3_giqgei,1589342999.0,Gwyn
+afkarena,fqgcmeb,t3_gigvad,1589342926.0,"If you want to get some specific hero for 1 elite / 30k diamonds rate, then you are free to do it."

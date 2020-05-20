@@ -1,0 +1,199 @@
+docker,fr33mzb,t1_fr330r4,1589849275.0,"Good suggestion.  We have tighten the security and best practices based on results of docker-bench-security before deploying docker, but dbs is a must have"
+politics,fr2xbrl,t3_gm5o1e,1589845712.0,best idea ever!
+politics,fr2x96s,t3_gmalqq,1589845673.0," 'I cannot stress this enough, this will kill you'  -- I like to see this"
+docker,fr2uv3s,t1_fr228oh,1589844340.0,"That is true that tcpdump from kazzing image listens on all interfaces within that container.   Now, how it claims that it could capture all traffic from all containers in that network is interesting.  
+
+Say, you have container A running Kazzing/tcpdump, B and C are other containers.  tcpdump, by logic, A is capable of capturing A <-->B, A <-->C, but how it could capture B <---> C?    I have not try this out yet, but if this is true, then the only reason for this to be possible is that all A,B,C are communicating on a hub-like network (not router).  Meaning packets are routed to all endpoints between containers in the same network.   
+
+If this is true, we might have some security concern."
+cybersecurity,fr2di1s,t1_fr21vsc,1589835412.0,"Unless you're really Drake, but then I would bet Drake couldn't tell the differences."
+atheism,fr18ztv,t3_gm1j1j,1589815502.0,"""God works in a mysterious way"" couldn't explain this."
+politics,fr03jha,t3_glt9nu,1589782678.0,"You mean the guy who says climate change is a hoax, windmills cause cancer?  I'm shocked.. not"
+atheism,fqzmhze,t3_glg4jg,1589770482.0,63%?  It's amazing how effective childhood brain-washing is
+politics,fqx8imo,t3_glebr5,1589728050.0,"After that this fucker Donald finished his term, there would be so many new laws an regulations to curb president power."
+cybersecurity,fqwwj8g,t3_gl60d8,1589719754.0,Oh that's bad
+politics,fqw436j,t1_fquoo91,1589692280.0,Why can't congress appoint a watch dog whom President doesn't authority over?
+politics,fqvz97y,t3_gkhs55,1589688642.0,Wow.. All Trump needs is a mini-me and we're in for a Austin Power #4
+politics,fqvy6mu,t1_fqvr835,1589687896.0,.. and rest of the ball-less GOP
+politics,fqt6fcl,t3_gkh45t,1589631407.0,"Mitch, while you're in there, say hi to Lindsey Graham. He hid it"
+cybersecurity,fqt67qe,t1_fqrrr60,1589631227.0,"Trump is not going to pay. His supporters don't give a shit about moral, they will vote him anyway."
+politics,fqski4d,t3_gkl3tn,1589609858.0,But polls and crowd size do
+offmychest,fqskard,t3_gkpjce,1589609689.0,"Well if you're living with your parents, that means you can't take care of yourself.  What makes you think that you can take care of the dogs?  I have one dog, and he is a fucking huge responsibility.  Your parents are right to give the dogs away. 
+And yea, you are living off of them, how about talk to them with some respectable language.   Fuck you!"
+offmychest,fqsju74,t3_gkh2n9,1589609301.0,People who enjoy their food tend to make more noise when they eat.  You should try
+offmychest,fqsjpjo,t3_gklh2p,1589609195.0,Now print it out and leave it on her bed
+politics,fqsexr4,t3_gkmgta,1589605443.0,"The irony is that, Trump is a joke.  We  have proof to back that up"
+politics,fqq7a3u,t1_fqptshi,1589560611.0,"Trump cares about birds so much, he scarifies the climate and environment to save them..   yeahh I really believe that.. i do. I do"
+politics,fqor289,t3_gjs3zm,1589522371.0,Why is this moron in charge of pandemic?
+RayDonovan,fqn4h4t,t3_gjtnru,1589488518.0,"def not.  I hate her at first, ""what a b.."" but then she turned out pretty cool later in season 6, 7.  She is not one of those who ""I wanna be like someone"".  She has her own personality, and I think that's very respectable."
+docker,fqmju7s,t1_fqlr5zl,1589478627.0,"Reason why I don't think docker container should be used in this case is that OP wanted an ""always running"" os.   This mean OP wants to interact with these OS from time to time.  docker container is not the best for this purpose."
+docker,fqks1zp,t3_gjbjy1,1589434692.0,"Swarm mode in docker allows you to connect multiple docker hosts together.  These hosts are assigned either manager or worker.  Manager can receive docker command and manage the docker services, whereas worker can only run services.  Both manager and worker can run services. 
+
+&#x200B;
+
+When you create docker service, you need to specify number of arguments: like image, port, network.  
+
+Now come the network part, a little complicated:
+
+In order to use load balancer, you need to create an overlay network.  This network does not exist as traditional NIC or a bridge, but it operates on inside a UDP packet.  (I don't want to get too technical here)
+
+Your service might and often contains multiple copies of container of the same image.  These containers assigned unique ipaddress on this overlay network. 
+
+&#x200B;
+
+You have a swarm of 3 hosts.  These 3 hosts must be on a same network.  Their ip are 10.1.1.2-10.1.1.4...
+
+Say, you create a service apache on port 5555.  Your service contains 10 replicas (10 containers).  You published this port 5555 
+
+Now come the load balancer.
+
+every time you hit [10.1.1.2:5555](https://10.1.1.2:5555), you are directed to one of the 10 containers.   These containers exist evenly on 3  hosts.
+
+Now, when you hit [10.1.1.3:5555](https://10.1.1.3:5555), same thing, you will be directed to one of the 10 containers.
+
+same with [10.1.1.4](https://10.1.1.4):5555
+
+&#x200B;
+
+Technically, your docker hosts are the load balancers
+
+in this case, you have 3 load balancers
+
+You don't create the load balancer.  Docker create it for you as part of swarm service. 
+
+&#x200B;
+
+I know it's not easy to swallow this, I suggest that you read docker swarm and network documentation (Docker has excellent documentation)"
+docker,fqkittf,t3_gjem0b,1589428257.0,"I don't think docker is a right solution for you in this case.  I would go with virtual machine instead.  
+
+1. centos on the bare metal
+
+2. Install KVM
+
+3. Create 3 virtual machine (like you desired)"
+politics,fqjaahy,t3_gj4t9o,1589407179.0,"Moscow McTurtle got 6 months left to destroy the country.  Better hurry up boy.  All of us will go to vote, by mail or by foot.  Promise!"
+politics,fqfzzy9,t3_giie6o,1589335101.0,Mitch McTurtle needs to be publicly executed via stoning
+SuicideWatch,fqckoni,t1_fqcguqx,1589260774.0,"I ended up getting a shit job at a supermarket and moved out to a rented room.  She threatened to kill herself, but I move anyway.  I hated her, but I love her as I know she loves and cares for me.  After 5 years, things were lot better."
+SuicideWatch,fqcguqx,t3_ghy7hi,1589257878.0,Sounds like my mom
+politics,fqccfp9,t1_fqb9z9h,1589254867.0,He obviously confused between OANN and CNN.  Both ended with NN.  Why do you news stations make it so hard for our stable genius to  remember their names???
+offmychest,fq8vaxm,t3_g0jl1h,1589176557.0,"My deepest sympathy to you as I have a daughter as well.  I could no imagine the loss you had to go through.  Rest assured, she is in a better place.  She is smiling at you everyday from up there. She was lucky to have you as her dad."
+SuicideWatch,fq82dqi,t1_focrhbm,1589157096.0,I'm confused.  Is this part of your job or what?  I'm sure Twitter would investigate these lowlives to the fullest extend
+adultsurvivors,fq81iwx,t3_ge8l85,1589156598.0,Your ex step father needs to get his dick cut off and then hanged.
+SuicideWatch,fq7g293,t3_ggtnxa,1589145925.0,Or have a good dream and stay in it forever.
+docker,fq54oiu,t1_fq4ur0d,1589092416.0,Can you explain why it is stupid to run db in container?
+docker,fq54jj6,t1_fq52av2,1589092291.0,Why not?
+docker,fq52rwn,t1_fq4q4f3,1589090724.0,"One of the company I worked for, the application was in vb using mssql.  The code was such a huge mess that no one wanted to touch, but it does what it supposed to do.  Migrating to a new db would break ""who knows what"", so they had no choice but stick with running it in a container using mssql."
+politics,fq518ba,t1_fq4412p,1589089426.0,gotta keep Jared busy so Chump could play doctor with Ivanka right?
+gonewild30plus,fq5039n,t3_ggryrt,1589088530.0,are you his slut?
+gonewild30plus,fq4zrog,t3_gdeqsu,1589088274.0,"yep, that's exactly how I imagine them."
+politics,fq4yvxo,t3_ggodmr,1589087613.0,"well, can you blame him?  that's the only way he could win."
+docker,fq4u7cx,t3_ggn3xh,1589084262.0,"If mssql is free, it would still be my last choice, but that's just me"
+politics,fq4pzlk,t1_fq46opx,1589081498.0,">“History is written by the winners""
+1000 years ago, that's true.  Today, we have videos, recording, and other hard evidences.  History is now written by facts."
+politics,fq4n4xc,t1_fq4ajz9,1589079859.0,Do you really think Flynn was naive and gave in so easy without a fight?  He did have a legal team did he? There is no fucking way he pleaded guilty if he was innocent.
+politics,fq2kyto,t1_fq2k6w1,1589057154.0,Why did Flynn plead guilty .. twice?
+politics,fq2i76c,t3_ggjmvc,1589056372.0,"His legacy will be known as ""Trump's stooge"". So embarrassing"
+politics,fq01j1p,t3_gg3o1q,1589026649.0,"And there are 2 choices on the ballot: 
+
+1 Joe Biden
+2. The asshole"
+GooglePixel,fpy3rcc,t1_fpx1phg,1588995363.0,">Is important to note that after 24 to 48 hours, your iPhone or Android device will require a pin.
+
+In other words, after they successfully extracted all your phone data."
+politics,fpx0hxe,t1_fpvu30d,1588973351.0,Does the name Stephen Miller makes you throw up?
+GooglePixel,fpwthih,t1_fpve8sb,1588969678.0,"Or, you can hold the power, select either shut down or restart. 
+
+Once the phone came up, finger print won't work until you enter code.
+
+No further setting changes needed.  This is enabled already."
+GooglePixel,fpwr2ey,t1_fpve8sb,1588968410.0,Are you concerned that people knock you unconsciously and use your finger to unlock your phone?
+RayDonovan,fpw1ii6,t3_gfbesp,1588955626.0,You gotta love Mick.  Jon Voight played this role beautifully.  It feels so natural to him that he doesn't have to act.
+politics,fpsd7e9,t1_fps0auf,1588871491.0,"He's not a moron, he's lowlife."
+politics,fpk6igy,t3_gdqka9,1588688944.0,This piece of shit is the reason I hate turtle
+docker,fphrhz7,t1_fphoq9m,1588626473.0,"fair enough, Thanks"
+docker,fphnm27,t3_gdfys3,1588624455.0,"really good doc, Thanks.
+
+Can you clarify why choosing copy instead of add?  I understand their capabilities.  I just unsure why you're favoring one over other.
+
+Thanks"
+docker,fpheig4,t3_gdge1p,1588619863.0,maybe post your docker file and we can look?  You can mask out the git url if it's confidential.
+Coronavirus,fpgyh43,t3_gd1699,1588611758.0,"And of course, Trump and Pence is nominated to play an un-funny version of dumb & dumber.  (you can guess which one is dumber)."
+linuxquestions,fpflcmi,t3_gd2umq,1588574841.0,"Those who say ""no difference"" are 'copy and paste ' hero and have never written a single line of bash.  LOL."
+politics,fp8seb3,t1_fp6xqcn,1588401430.0,"Now wake up, and don't forget Nov 3rd"
+RayDonovan,fp8plb9,t3_gbkyah,1588398915.0,How do you get the priest to fuck a nun?
+RayDonovan,fp8pcml,t1_fp0k5g1,1588398708.0,LOL
+politics,fp7lwxy,t3_gbh6at,1588373115.0,"If Trump loses the 2020 election, I predict that he would call on his supporters to start an uprising and overthrow the Constitutions"
+politics,fp4lz1k,t1_fp3e9jg,1588301973.0,it's slang for demon RAT
+politics,fp2q49b,t3_gavoe8,1588266009.0,"Trump wants to re-affirm that if you don't kiss my ass, you don't get money.  Remember people, this money is from tax payer like you and me, not Trump's pocket."
+politics,fp189tr,t3_gai2rx,1588227264.0,I thought he doesn't believe in polls
+politics,fp02qc5,t3_gafz8t,1588201379.0,"Trump is so busy cleaning up the shits he created, he has no time for anything else."
+politics,fox7jhk,t3_g9wasr,1588136033.0,I am sure he was refered to Jared
+politics,fox4ik2,t3_g9ud7k,1588133881.0,Mitch McConnell makes me hate turtle.  Something I never thought would happen.
+politics,fowwuw1,t3_g9uvz6,1588128882.0,Thank you Jeff. One of few GOP who have the gut to put country over party
+politics,fow4ooz,t1_foviqf0,1588112954.0,"Pence is so deep in his belief, he thinks he is protected by God.  If he some how gets sick, there will be a human doctor by his side to cure him."
+politics,fovav1v,t3_g9lkpt,1588098245.0,We must force our president dog shit to resign and jail all his supporters.  This country is turning to shit now
+politics,fomtj8p,t1_folwhhn,1587903326.0,People are focusing in Trump and forgetting about Mitch McConnell.  I love the dose of reality Cuomo gave McTurtle with some fact checking.
+trashy,fokabh6,t3_g7ktzt,1587838342.0,he successfully created a monster
+politics,foj0gxd,t1_fogq7yp,1587803529.0,"If they have a brain, they wouldn't be Trump supporters.  Duh"
+politics,foip7f2,t3_g7ivlw,1587792690.0,Trump seems to dig a deeper hole for his re-election as he keep appearing for the Covid-19 briefing.  Strange is that his supporters don't give a shit
+trashy,foik7ae,t3_g7kjml,1587788721.0,Is that Justin Bieber with a pair of man-boobs
+RayDonovan,foedinb,t1_fod0ghg,1587701192.0,What piss me off is no season 8. Wtf
+politics,foe5u0l,t1_fodagay,1587696625.0,"If you ask Trump supporters about this, they says He was just kidding. Asking why they voted him, they say ""He always mean what he said?""  SMH"
+politics,foduyyi,t3_g6wrl2,1587690619.0,Trump needs to lead by example
+SleepPorn,fo9oem7,t3_er4g4i,1587625667.0,I'll accidentally passed out on top of her
+docker,fo9j0va,t1_fo9fsh8,1587620918.0,">I only want to be clear with one thing you said: \`the user you run the docker build command\` how do you mean?
+
+Let's say you're log into docker host as user ""joe"". joe is part of docker group, so joe can run docker commands, which means joe can build docker image as well.
+
+&#x200B;
+
+>but it seems the file I create is still owned by root and belong to root group when checked in the entryfile script.
+
+Did you make sure the user created inside container?
+
+RUN useradd apps && groupadd users  
+RUN touch /usr/local/nexus/peerid && chown apps:users /usr/local/nexus/peerid  
+
+
+that will do.  Keep in mind that all these operations happens inside the container in a separate virtual environment."
+docker,fo9f0qh,t3_g6ghsp,1587617716.0,"1. Container's root user.  This is not your user (the user you run the docker build command). 
+2. any files created in each step of docker files is owned by root.  Permission is set as per image default.
+3. Again, it's the root user inside container (provide that you don't create any user to run this)
+4. yes, absolutely.  For example, using httpd image, root called the docker entry point.  Docker entrypoint kick start the httpd service as user apache.  Now, if any file that user apache doesn't have access to, (ex: httpd.conf), it will not able to read, and fail.  Just like any linux system.
+
+Sorry I only use Linux for docker.  Windows might be different.  Feel free to correct me if I was wrong."
+horny,fo6tf22,t1_fo6srzg,1587566387.0,I don't wear shirt
+horny,fo6t55i,t3_g5um4q,1587566236.0,There's no way that's the body of a mom with 3 kids
+horny,fo6sh0i,t3_g622dl,1587565862.0,"Yes, would be like the best quarantine ever"
+horny,fo6s67t,t3_g5v22t,1587565694.0,"Ass or pus, pick one"
+selfiesInTheNude,fo6plnx,t3_fhainl,1587564234.0,Oh mama that butt
+selfiesInTheNude,fo6p0m8,t3_g2vmw6,1587563896.0,I wish every girl greets like you do
+docker,fo5hw31,t3_g5rq1v,1587526039.0,"man this is awesome.  I used to play ""expert ctf"" mod"
+politics,fo1u9p1,t3_g4xcp5,1587441637.0,"How about this: Every time Trump throws a piece of shit at us, we throw it back at his face.  Some call that Karma, I call it fair game. 
+
+Thank you Watchdog groups."
+politics,fnv2mzt,t1_fnugyvr,1587278229.0,"In the end, the money goes to Trump's pocket.  no masks produced"
+cybersecurity,fnv1f5n,t3_g3sf9u,1587277141.0,"That is why you always use user name space remap.  It, by default, maps the container user to host's non-priviledge user. 
+
+cat /etc/docker/daemon.json
+{
+    ""userns-remap"": ""docker""
+}"
+politics,fnob8wm,t3_g2qegs,1587119090.0,"They're ignorant assholes, like me"
+docker,fnnwagr,t1_fnl0vuu,1587103718.0,What is wrong with exposed on all machines? That's how swarm work.  That's just 1 port taken from the machine. You have 65534 ports left
+politics,fniejxx,t1_fngyt28,1586978657.0,"I pray that the checks bounced, then people will flooded to White House (not the IRS) to demand their money."
+linuxquestions,fnglguv,t3_g1n4z5,1586936089.0,"What's wrong with running 2 commands. If you have many more, then it worth it to script with variables.
+
+scp -rp src1 user@host:/dest; scp -rp src2 user@host:/dest
+
+If you want to script it, that's another story"
+docker,fnggp63,t1_fnggcjk,1586931674.0,"Really? that's odd.
+
+I think your problem is that the ip addresses you specified are too low.
+
+container ip are assigned from 2 and up from there.  so, .2 .3 .4 are getting used first.
+
+You have about 20 containers.  
+
+You can fix it by give the ip higher value:  [10.0.0.202](https://10.0.0.202),  [10.0.0.203](https://10.0.0.203),  10.0.0.204"
+docker,fnge2me,t1_fngdp3b,1586929415.0,"yes, I have several production servers running docker and other services.   they have no problem.  Only thing of concern is that docker use up a few ports on your server: 2375,2376,2377,7946 (tcp), 7946,4789 (udp)."

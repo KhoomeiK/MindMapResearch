@@ -1,0 +1,234 @@
+Monitors,fr540zk,t1_fr4ev04,1589902114.0,"OLED still has burn in risk, and cannot get as bright as FALD LCD setups of similar cost. You might not have burn in problems, but many people do and many more simply don’t want to spend $1500+ to find out if their useage of their display causes issues.
+
+MicroLED is still years away from being used in mainstream TVs and computer displays, and who knows what shortcomings it will have then."
+Monitors,fr3at95,t1_fr38486,1589853442.0,You need to leave the resolution on 3840x2160 and change the scale factor: https://imgur.com/kejm2FK
+spacex,fr35jc4,t3_glwz6n,1589850377.0,"Has anyone considered put together a short guide explaining stuff that might look concerning to people who've never watched a launch before? Things like ice chunks falling away from the vehicle, Mvac stiffener ring separating, little flames around the ""dance floor"" on S1, etc. Things where someone new to watching live launches might go ""....is that supposed to happen? Are the astronauts ok?""
+
+I figure we might have some people new to launch viewing + more concerned about people being onboard. It might helpful also to link in other subreddits if people ask, this launch will probably gather A LOT more discussion than most."
+Monitors,fr347dm,t3_gmeaaa,1589849604.0,"No, drawing the desktop does not take a meaningful amount of performance, especially when there aren't any animated transitions going on."
+Monitors,fr3424s,t1_fr2p6tu,1589849519.0,"3840x2160, but with UI elements blown up by 150%. Results in the same screen area as 2560x1440, but everything is sharper."
+Monitors,fr1x3ej,t1_fr1tqpo,1589827397.0,"Yeah, ""HDR10"" is a video format, not a display spec. It just means it supports the signal and tries to do something with it. Often it doesn't actually do much besides give content control over the backlight level. And causes the display to have to make some tough choices about how to display content that calls for 800nits, when it only has 250nits to work with and has to max the backlight across the whole screen to even do that.
+
+HDR400 seems to be designed to be some guarantee of ""at least it's better than SDR"", but I think it would do a lot better at that if it also mandated 8bit+FRC and useful P3 gamut coverage."
+Monitors,fr1djd8,t1_fr1cgxq,1589817824.0,Most of them seem to think high-DPI on win10 hasn't improved at all since 2016.
+Monitors,fr1529f,t1_fr0rnay,1589813399.0,"No thanks, I never want to go back to 100% scale, hiDPI text looks too good"
+Monitors,fr024v4,t3_glul3c,1589781522.0,"Nope. That’s a cracked panel. On most models it’s not cost effective to repair, if you can even find the parts."
+Monitors,fqzs866,t1_fqz1klk,1589774147.0,"HDR is some serious shit, yo."
+starcraft,fqz6umq,t1_fqz5vjt,1589761100.0,"Looks like he mineral walked half to a patch on the left of the nat, and half to a patch on the right, so the two groups ended up on either side of the lings. Kinda like the worker splits people do at the start of the game?"
+Monitors,fqsgren,t1_fqsgi3i,1589606840.0,"Yeah, they’re pretty tough to justify to make web/games/movies look nice. There isn’t really a good solution unfortunately, unless you can find one to rent or borrow.
+
+Depending on just what the monitor’s gamut is, sometimes you can just load a generic color space ICC and get better results than assuming sRGB."
+starcraft,fqscjde,t3_gkomk3,1589603694.0,Here: https://youtu.be/3DyPsij58Kg
+Monitors,fqrzi58,t1_fqrvrua,1589595236.0,"Yes, it’s an inherent part of the panel. 
+
+There’s very little wide-gamut SDR media out there though, so it’s not going to do much besides oversaturate colors."
+Monitors,fqrmqgi,t1_fqrd5sv,1589587499.0,"If you have an ICC profile loaded for the GN850, color managed software will go back to being correctly saturated, with the bonus of being able to use the extra color gamut when the content calls for it. Windows is still pretty hit or miss on this department, but Chrome at least works well with it."
+Monitors,fqrlq01,t1_fqraock,1589586902.0,"Yeah, CPU requirements are probably going to start creeping up too with next-gen consoles. Esports focused titles will still have options to cut things down for high frame rates, but don't surprised if 3 years from now you need 4Ghz 8core just to do 60fps in AAA single player games."
+Anxiety,fqqw0k3,t1_fqq45tn,1589572966.0,"I can't stop laughing about the word ""seksbuddy""."
+Monitors,fqqln6i,t3_gk5c3d,1589567681.0,"The farther from 1000nits you get, the more the display is going to struggle when asked to do 1000nits anyway. It can either clip everything (which preserves contrast as best it can, but looks awful) or flatten down the highlights (ruins contrast). Lack of local dimming means bright objects raise the entire backlight, ruining black levels and making contrast even worse. Hence “when I turned on hdr the colors look awash with white”.
+
+If you don’t like it, leave it off. It’s probably not a config error, HDR just sucks on that monitor."
+Monitors,fqqk97y,t3_gk8k89,1589566989.0,">	I’ve been having a hard time trying to calibrate this monitor. I’ve tried MacOS’s calibration tool with the advanced options several times but I’m not sure if the instructions are working for this monitor.
+>	Are there alternative tools to create custom display profiles on the Mac?
+
+Calibrating by eye is essentially impossible. The macOS tool is one of the better ones, but still borders on useless. You’ll find you get different results every time you run it. You need a hardware calibration device for meaningful results.
+
+>	Also, do any of the default display profiles in system preferences offer a what you might call ‘neutral’ video feed to the monitor if I want to try calibrating the monitor solely with its built in controls?
+
+Yes, “sRGB IEC61966-2.1” is the one you want for that monitor."
+starcraft,fqpy7zw,t3_gk7r1l,1589556144.0,"When SC2 came out I was an Age of Mythology player, where I liked the Atlanteans because of the focus on powerful and expensive units. I noticed Protoss was also based around powerful expensive units, plus they were also the ones with the lasers and lightsabers. So the choice seemed pretty obvious."
+hardware,fqmcpxf,t1_fqlld83,1589475283.0,"In at least some of the shots on The Mandalorian, they didn't use the on-set UE4 backdrops in the final shot. They used them as a sort of low-res backdrop to get lighting and reflection right and to give the actors a reference, but then cut them out and replaced them with offline-rendered versions of the same shot to improve the quality of the CG elements that were directly visible to the camera."
+Monitors,fqm7511,t3_gjk7g7,1589472641.0,"Mine doesn’t have it, but you’re by far not the first person to have it. Seems to be a fairly common issue with this monitor, or at least for one batch of them. I apparently got lucky with mine."
+Monitors,fqkw6bp,t3_gjdn10,1589438082.0,"I've explained this to you previously in one of your many posts about 10bit: https://www.reddit.com/r/Monitors/comments/g8q8nr/difference_between_10_bit_hdr_and_10_bit_4k/fopo0vj/
+
+I really don't get why you're so hung up on 10bit. If you're using HDR, it will be kicked on automatically. If you're in SDR, it probably does nothing noticeable or useful for you. Either way, it's not something the user is going to actively think about."
+Monitors,fqkv5v3,t3_gj7vx1,1589437204.0,"Ew, no. Not at all a fan, personally. I want things in the color they're supposed to be, the extra gamut is only for when it's needed on really saturated colors. 
+
+It wouldn't be so bad, but so much software on Windows doesn't respect the ICC profile. SO much software (including almost all the built-in software!) dumps colors to the screen without even bothering to think it might not be an sRGB display. Firefox you have to change config options to make it behave on HTML/CSS colors.(oh, did you want colorspace conversions on your videos too? haha fuck you) The built in Win10 photos app reads image tags(yay!) but then blindly converts from the tagged profile to sRGB instead of to the monitor space (wtf?). The DESKTOP WALLPAPER isn't even color managed, not even for the primary display!
+
+Compare this to macOS which has had a system wide color management for over a decade. All the standard UI toolkits run through it. So when Apple shipped machines with wide gamut displays, they simply made the default profile Display P3 instead of sRGB and basically all software automatically snapped into place."
+Monitors,fqkukp1,t1_fqjzgld,1589436712.0,">Is it worth buying a used Spyder5 off ebay to calibrate?
+
+Unless you're on macOS, a large amount of software will simply ignore your attempts to define your monitor as wide gamut. Color awareness and management in Windows is very poor, and a lot of software simply assumes it's feeding a theoretical perfect sRGB display."
+hardware,fqknrgq,t1_fqk80hs,1589431525.0,"Typically for a game you'd make your high polycount model first, then create a low-polygon version that actually gets rendered in game: https://3.bp.blogspot.com/-Ncesp86mRRY/UQpUzC0c7NI/AAAAAAAAA1s/Bk6SJKfUXKU/s1600/lo-poly-VS-Hi-poly.jpg
+
+Then you store the difference in surface angles to a texture called a normal map, so when rendering the low poly the engine can use the normal map to shade the low poly as though it was the high poly. (there's more to it than that, such as several different low polys of increasingly higher detail depending on how close you are to the model, but that's the gist of it)
+
+UE5 instead converts the high poly itself into a texture, then reconstructs that texture into a mesh on the fly. The mesh will have just enough polygons to make single-pixel sized details (the most your screen can show) and no more. So you don't need to spend time making that low poly, you just do the fun artistic part of actually making the original high poly, and just toss it in Nanite and on to the next asset! (or so Epic Games' sales pitch goes...)"
+starcraft,fqjs8b1,t1_fqjogv9,1589414443.0,He has not. I always forget that since my brain keeps assuming koreans who disappear for a few years were off in the military.
+hardware,fqjlbki,t1_fqj50pn,1589411576.0,"Not exactly? Reading /u/MF_Kitten's description I thought it was something like that or vector displacement, but reading the linked paper it doesn't seem like that's quite it. It doesn't seem to be UV-based at all, for example? I'm having trouble understanding the reference point it uses. Like...vector displacement describes the high-poly at a particular texel relative to the origin or the tangents of a lower-poly...this doesn't seem to do anything like that?
+
+EDIT: http://graphicrants.blogspot.com/2009/01/virtual-geometry-images.html
+https://twitter.com/BrianKaris/status/1260591486250266624
+
+>A lot of time has passed since this post. My current thinking down these lines is that GPUs aren't powerful enough yet to tessellate everything down to micropolygon sizes. When they become fast enough semi uniform tessellation is a perfect solution. At the moment we are forced to render triangles covering at least 8x8 pixels on average. There are important places and unimportant places to spend those triangles and the best algorithms to do that are in the progressive mesh category. There are a ton of hard problems there to solve: data compression, view adaptive simplification, smooth transitions, etc.  
+
+>If you are interested in the latest in geometry images I'd suggest looking into vector displacement mapping and ptex. It is very similar except texels store relative positions instead of absolute. This cuts down significantly on precision required which reduces storage cost. Also having a cage to start from can solve a number of problems concerning feature adaptive detail. 
+
+I guess GPUs are fast enough now. ""like vector displacement+ptex, but absolute positions instead of relative"" makes a little more sense to me. Although not sure that would work for rigged meshes though. I wonder if Nanite can work with vector displacement on a lower res mesh as well to handle deforming stuff?"
+Anxiety,fqih514,t1_fqie22y,1589395932.0,"At the very least, it seems to disprove the doomers who were all ""This is no ordinary pneumonia, people lose lung function for life!"""
+vfx,fqie6dw,t1_fqiaui7,1589394800.0,"Yeah, that and the dust on the rock wall in the same shot were the 2 things that stuck out to me as not looking so great. Was a nice reminder they're still mortal."
+Games,fqhzlyy,t1_fqhvv1o,1589387318.0,Boolean and dynamesh ALL the things! Let Nanite sort them out!
+Games,fqhzdxt,t1_fqhxmac,1589387212.0,"A 4K frame is ~8m pixels, so 20-30m triangles is enough for pixel-sized tris if you place them just right. Which it seems is the whole function of nanite. It seems to be able to regenerate meshes on the fly kinda like tessellation does, except for making low-polys and LODs. So you just plug in all your hi-polys, and it remeshes them to have as many tris as the rendered frame needs, and no more."
+Games,fqhwxb2,t1_fqhwaqt,1589386027.0,"Nah. PCMR originates from the fact that consoles have limited budgets and don't update hardware that often. It might raise the cost of a meaningfully better PC experience, but the option will pretty much always be there if you want to pay for it."
+Monitors,fqg6luw,t3_gin0a0,1589339084.0,"6ft/2m is a good size for a sitting desk. 10ft/3m is usually long enough for a standing desk. (I use 10ft cables on mine). A lot of this also depends on how close your monitor arm is to the computer, does the cable need an extra meter to cross half the length of your desk?"
+Monitors,fqg4ohc,t3_giofhr,1589337908.0,"Yes, it's not significantly different than running 1080p games on a 1440p display. It might look slightly better depending on where and how the upscaling happens, but then again it might not."
+Portland,fqfgtzx,t1_fqfa82y,1589324634.0,Mexican places serving take-out margaritas with their take-out food is the use I've seen the most people talking about.
+blender,fqfgn2g,t1_fqfd2mf,1589324535.0,Don't forget the total lack of fresnel on the glossy layer.
+Monitors,fqeq4g0,t3_gidgzt,1589311742.0,"Depends on which one. If it's this one, yes https://everymac.com/monitors/apple/studio_cinema/specs/apple-led-cinema-display-27-inch-specs.html
+
+You'll just need some adapter like this: https://www.newegg.com/p/183-006K-00043 Remember that the display has no OSD though, you may not be able to control the brightness from Windows at all.
+
+If it's one of the thunderbolt displays, probably not, see this https://superuser.com/questions/540751/how-do-i-connect-an-apple-thunderbolt-display-to-a-pc"
+Monitors,fqcrqnn,t3_gi3miy,1589266772.0,">Everything shiny, glows and i just think it’s more important to me. Once you get down how 60hz is going to respond to your real life mouse, it becomes an extension just as intended. 
+
+That's not 10bit doing that, it's the glass front and the crazy backlight. And maybe the color gamut if it's being incorrectly fed sRGB colors.
+
+Are you running games in HDR? Because unlike 10bit SDR, good HDR is some serious shit."
+Anxiety,fqb57n0,t1_fqb4484,1589230786.0,">I’m not sure exactly when the worldometers info stops updating,
+
+Midnight UTC, about 3 hours from the time of this comment."
+Anxiety,fqane5c,t1_fqagpgo,1589222012.0,"I believe 4 years is the previous record for a new vaccine, such as the mumps vaccine. Some people in /r/covid19 the other day were discussing why this vaccine development is going so fast, and it was pointed out that most of the ""low hanging fruit"" of vaccines was picked decades ago. The diseases that don't yet have vaccines are either stuff like HIV which isn't easy to become immune to, or things like zika which don't really affect wealthy countries. COVID19 is neither(some asymptomatic people seem to have become immune to it without even realizing they had it), it's like a new low-hanging fruit that showed up."
+Portland,fq8pfa0,t1_fq8p6hd,1589171898.0,"I’m down almost 10. Turns out when you replace office-carbs with anxiety, you lose weight!
+
+I bought supplies to make cake and cookies when I was at Fred Meyer the other day though, so...we’ll see."
+Monitors,fq8bm34,t3_ghd02t,1589162530.0,Damp lint-free cloth. It's surprisingly effective even without soap or cleaning products. Do not windex your monitor.
+Monitors,fq7ln1g,t3_ggasa4,1589148034.0,"My Dell U2720Q review still gets a the occasional comment or PM even now, I guess it's worth putting up here? https://www.reddit.com/r/Monitors/comments/f4avo3/dell_u2720q_review/"
+Monitors,fq7l7zb,t1_fq5jlqv,1589147874.0,"Fun story about this: Circa 2007 I spent a lot of time on the home-theater subsection of the Xbox Forums, and the AVSforum, which I found from there. It was where I learned a ton of my early AV knowledge before I duped people into paying me for this shit.
+
+Anyway, people talked a lot about future OLED TVs much the way we talk about microLED these days. OLED would be the end-all TV tech, just as soon as they solved the teething problems and got the cost down. That took most of the next decade to pan out, and they only kinda fixed the teething problems(burn-in) so now we're waiting for microLED to fix all that...eventually.
+
+Don't wait for microLED. Buy some other monitor you like today. By the time microLED is ready for mainstream displays, you'll probably be ready to upgrade it."
+Monitors,fq7ighd,t1_fq7dj9a,1589146809.0,"Yep, all of that is correct. 10bit with SDR does nothing at all unless the software supports it, and the only 10bit program I know of that could be remotely considered ""consumer software"" is Photoshop. And not any of Adobe's other software like Lightroom or Illustrator, just Photoshop."
+hardware,fq6135y,t1_fq5erj2,1589122260.0,"macOS switched to 2.2 gamma in 10.6, released in 2009."
+Monitors,fq53xam,t1_fq53h8g,1589091730.0,"The bits are per pixel, and you have a finite total of data you can send. So you can choose to use it for (example) 1000x 8bit pixels, or 800x 10bit pixels. If the 8bit and 10bit pixels  look the same to the viewer, and they often do for SDR, you’ll have better overall quality using the 1000x 8bit pixels."
+Monitors,fq51ghp,t1_fq50ptu,1589089610.0,"This image is a pretty good example: https://www.researchgate.net/profile/Talley_Lambert/publication/263515014/figure/fig2/AS:296532097159171@1447710169361/The-same-signal-gradient-digitized-at-five-different-bit-depths-The-8-bit-image-shows-a.png
+
+As you increase the bits per channel, you get a finer gradient. Except...the 8bit gradient already looks pretty continuous. There isn't much to improve on for the 10bit gradient, much less a 12bit gradient. So why send 10 or 12bits for every channel instead of 8? You have a finite number of total bits you can push to the monitor, so why waste them on adding overkill fidelity to a particular pixel in a particular frame? You could instead use them for more pixels or more frames.
+
+HDR requires somewhat more bits since it essentially makes the gradient longer. It keeps going for awhile into much brighter whites with HDR, so HDR uses 10 bits instead of 8 so you're not trying to drag out the same data. Dolby Vision and the HDR10+ spec expand the gradient even further, so they use even more bits."
+Monitors,fq50i04,t1_fq504cq,1589088848.0,"It increases the bandwidth of everything by 50%, and unless you're trying to display everything from 0.01 to 10000nits like HDR10+ and Dolby Vision do, there's not much point to it. The data is better spent on more frames and pixels.
+
+And you can have more than 12bit, btw. When rendering CGI it's common to use 16bit floating point, which will hold quite a lot more data than int12. Gamma curves and such aside, 12bit can store up to 12 stops of dynamic range(values from 0 to 2^12). fp16 can do 30 stops. fp32 is also sometimes used, although it's frequently overkill and is avoided for the same reason 12bit isn't normally used for distributing video: it makes the files bigger for no useful benefit."
+Monitors,fq4zuxg,t3_ggq5wm,1589088345.0,"Yes, you can have 10bit SDR. It won't hurt anything but very few applications will do anything useful with it. It's mainly used by a handful of graphics apps to reduce banding and the like when editing images. You can also slap the HDR10 metadata onto a container with 8bit video in it, but it's not really done AFAIK."
+COVID19,fq2z1z2,t1_fq2h3ry,1589061508.0,"Ah, good to know that shit isn’t uniquely American"
+Monitors,fq2evfd,t3_ggebim,1589055472.0,">Colors look deep (as though there was a layer of black on everything). I had this same issue with my AW3420DW but it went away when I discovered the dark stabiliser setting and put it on level 3. Is there a similar setting for black levels on the U2720Q?
+
+No, that's really only a feature on gaming-focused monitors
+
+>Colors look warm, It's supposedly 6500k but feels warm especially, compared to my AW3420DW and my old monitor, I'm not sure what I'm doing wrong. 
+
+I'd recommend using the color space > sRGB preset if you're not going to calibrate it (unlike some monitors you can still adjust the backlight in sRGB mode on this one). That's the factory calibrated mode. It's very possible you've gotten used to monitors that were too cool and aren't used to what D65 is actually supposed to look like. Or it's possible your unit has a bad factory calibration or is straight up defective, unfortunately without a colorimeter you really can't say.
+
+>Could the HDR modes/capability be responsible for this?
+
+Maybe? Do you have it on? Which mode is it set to? Did you enable HDR in Windows? If so, have you tried turning it off and not using HDR?
+
+Also, what computer and graphics card do you have and how did you connect the monitor(HDMI, displayport, etc)?"
+Monitors,fq1uboq,t1_fq1ri4p,1589049451.0,"Yes, but in much smaller sheets. You can avoid the problem EITHER big pixels or very small OLED sheets."
+Monitors,fq1qvrf,t1_fq1p2hf,1589048185.0,">Btw, just curious, can hdr panels display different brightness of whites automatically? Like if I get hit by a flashbang in a game and the screen turns pure white, will the display jump to 100% brightness or is it controllable b uh the game developer?
+
+It's controllable by the developer. Hopefully the lighting and FX artists set some cool and aesthetically pleasing values for that.
+
+>On an unrelated note, I'm surprised that oled monitors are so godamn expensive. If smartphones can cram an oled screen and a whole bunch of other features into sub-1000 dollar packages, why the hell do oled monitors cost several thousands of dollars?
+
+""OLED screens are easier to deal with at very small sizes"" basically. The larger the area or the smaller the pixels, the more yield issues you get. Phone screens have a really small area, so they're ok. TVs can have big pixels, so they're also kinda-ok (notice how OLED TVs tend to be big, but all the same resolution?). Monitors are bigger than phone screens, but require much smaller pixels than TVs since they're expected to hit the same or higher resolution."
+Monitors,fq1awko,t1_fq1a97g,1589043926.0,"My favorite one from back in the day were the SD-LCDs that were labeled ""enhanced definition TV"" since due to being LCD they were 480p instead of 480i."
+Monitors,fq1ai7v,t1_fq18cd0,1589043817.0,"Well, no. HDR only uses the extra brightness when it needs to. If you're setting to 10-30% brightness on an SDR monitor, you're doing it correctly! Most need to be set that low so that the white point (""1.0"", or 255 since it's an 8bit integer signal) comes out as 120nits like it's supposed to. HDR can go brighter than that, but only if the person who created that HDR content set it to do so.
+
+The problem is, without local dimming or OLED, you only have ~1000:1 contrast ratio. So if the signal feed says there's a 300nit element on screen, the darkest anything else on screen can be is 0.3nits. This can make shadows look washed out if there are very bright and very dark elements on screen at the same time.
+
+EVERYONE can benefit from HDR if it's done properly. It's a pretty amazing change to how video formats work that fixes and improves a lot of longstanding problems in digital video. It also adds a ton of future proofing (when we get fancy micro LED displays that can hit single-wavelength colors and adjust per-pixel from no light output to 2000nits, there is already HDR content that can make use of that).
+
+And in some ways, most modern screens can already do better than SDR. SDR was meant for CRTs. Nobody making the spec really planned for screens that could throw 300-500nits or more, 100-120 was about all they could hope for. So HDR can help make use of that capability, the problem is just that most HDR content is meant for displays that have WAYY more capability than SDR screens, not just a little bit more."
+Monitors,fq17y3z,t1_fq11n9l,1589043001.0,"I doubt these monitors can display much, if any, non-sRGB(SDR) colors. Even DisplayHDR400 doesn’t require that. HDR does have some other advantages such as automatically adjusting the backlight to match content. HDR includes metadata specifying how many nits a particular pixel should be. SDR kinda does this technically in that “255” is supposed to correspond to 120nits, but HDR displays are a lot stricter at actually following this.
+
+However, that metadata is going to specify a hell of a lot of stuff being over 300 nits, so how good of an experience you’ll get is pretty questionable. HDR also has a wider color gamut and 10bit, but this display probably can’t make use of that either. My experience is that DisplayHDR400 requirements are basically the bare minimum to get an experience that’s an improvement over SDR, and lots of people don’t even agree with that. Remember the HDR content is geared towards displays with a lot more contrast and max brightness than 1000:1 and 300nits. HDR includes some info to help your display adapt, but there’s only so much you can do. You might just be better off with the SDR version that’s been designed for a more limited display like this."
+AskReddit,fpy6il7,t1_fpy4l63,1588997080.0,">Just a really lucky orbit
+
+""Really lucky orbit"" is doing some serious work here. There's no plausible chance of that happening."
+AskReddit,fpy0qpc,t1_fpxy8jd,1588993523.0,"It was not sent off with nearly enough velocity to get into interstellar space. They didn't fuck up per se, as there was no real plan to send it somewhere specific. They just wanted to demonstrate they could launch something as far as Mars (for future customers who might actually want to put stuff on Mars or into the asteroid belt). The car itself was a mass simulator, remember. The point was to test out their new rocket. They just decided putting Elon's car on top of it was a more interesting dummy payload than some concrete blocks.
+
+As for the final resting place of the car, it's orbiting the sun (still attached to the rocket's upper stage, they were never designed to detatch like an actual probe/satellite would). It varies in distance from the sun getting as close as roughly Earth's orbit, to as far as somewhere beyond Mars' orbit. You can view it's current location at https://www.whereisroadster.com/"
+AskReddit,fpxoheo,t1_fpxgj44,1588986420.0,"No, it didn’t have a solar power system and was shut off after a few hours."
+COVID19,fpxc5ft,t1_fpxalbc,1588979766.0,">This is an odd statement; there is no reason to connect being a super-spreader with being easily infectious.
+
+Well, we don't know why people become superspreaders. If it's because they have contact with a lot of people due to their job or just being highly social, that same attribute also makes them more likely to get infected in the first place.
+
+>Wouldn't some of the 40 be a super-spreader as well?
+
+Not necessarily. Like if a grocery checkout person gets it, they could spread it to 40 customers who have work-from-home jobs. Those people will go on to spread it to...maybe a family member or roommate, if they even have one."
+Monitors,fpwxxk6,t3_gfzmiq,1588971997.0,"Do you have Windows HDR turned on? The snipping tool doesn't work properly in HDR. (it seems like it only captures values in the SDR range and clips the rest, but I can't say for sure what the real issue is)"
+Monitors,fpwxn4f,t1_fpwtuul,1588971844.0,"If it was me I would return it for a band like that, I can't say how common it is on that model though."
+Anxiety,fptnmel,t1_fptl82j,1588894652.0,TIL /r/Portland is not at all unique in the stuff they complain about....
+DestinyTheGame,fpte5ex,t1_fptd1ai,1588889598.0,"Because it's a pet peeve of mine when people refer to 1440p as ""2K"". It's incorrect and incredibly confusing."
+DestinyTheGame,fptcqxj,t1_fpt1krh,1588888875.0,"1440p is not 2K, 2K is 1080p: https://en.wikipedia.org/wiki/2K_resolution"
+DestinyTheGame,fptch55,t1_fptbvyj,1588888733.0,"As I understand it, the HDR mode in D2 was sort of a last-minute addon by the PC team. The whole rendering pipeline and art assets were all built for SDR, but they had a couple of people tear off the SDR part of the tonemapper and swap in an HDR one. https://www.gdcvault.com/play/1026443/Not-So-Little-Light-Bringing
+
+They basically had to do it in a way that wouldn't affect SDR or require any UI or FX assets to be redone. I find it generally works ok, if you set the brightness up correctly, which is not at all intuitive: https://www.reddit.com/r/DestinyTheGame/comments/a3gc9f/xbox_and_ps4_darkness_explained_and_how_to/"
+spacex,fpsmzvq,t1_fprsf7p,1588876217.0,"This is important! People tend to act like all the money spent on space stuff gets shot into space never to return. Most of it doesn't, it goes to paying wages to skilled workers to build and run the space hardware."
+Monitors,fpsa58l,t3_gf1xk1,1588870028.0,"Dell has the P2415Q if you want a similar size/PPI. They haven't updated it in awhile though. 24"" 4K isn't a big market segment, unfortunately."
+Monitors,fps9wlc,t3_gexw96,1588869915.0,"There's no harm in turning it on, but outside of HDR very little software supports 10bit output. You're almost certainly not going to notice the difference in daily use."
+Monitors,fps626u,t1_fps55x4,1588868072.0,"Pretty much. I've seen some allegedly factory calibrated monitors that came with the report sheet and everything that were very visibly wrong just looking at them displaying a web page. So long as the supposedly calibrated modes look good to you, that's about as good as you can hope for regardless (without a colorimeter at least).
+
+And again, there's no actual info on those report sheets you can really act on, so they're effectively the same as a ""factory calibrated!"" sticker"
+COVID19,fpruyad,t1_fprtvqh,1588862534.0,Is that an antibody study?
+Anxiety,fpp4o46,t1_fpozu47,1588795903.0,"""12-18 months"" was from January or early February too. People tend to forget it's not continually 12-18 months from today."
+Monitors,fpp1667,t3_geply8,1588794161.0,"Honestly, those calibration report slips aren't really any more useful than marketing copy stating that it's factory calibrated. They don't tell you anything useful that you can act on, they're just a manufacturer promise that they calibrated it somehow. I wouldn't worry about it, if it was me."
+Monitors,fpp0j2b,t1_fpo6ywp,1588793841.0,"300nits is way more than you need for SDR in a light controlled room. People get really carried away with huge brightness numbers, they're really only useful for HDR or something like a phone where you might need to use it in direct sunlight."
+Anxiety,fpodwm9,t1_fpobbll,1588782852.0,"I mean, worldometers ""death rate %"" is at 17% right now. From surveys attempting to find the real death rate, we know that's too high by a factor of at least 10, probably more like 30-50 or more. Obviously there's tons and tons of recoveries governments were too busy to track."
+AskHistorians,fpmvwo7,t1_fpmfwvl,1588743157.0,I believe the symbol that's usually called the [valknut](https://en.wikipedia.org/wiki/Valknut) would be an example?
+Portland,fpmutct,t1_fpmo9xw,1588742319.0,"https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Emerging%20Respitory%20Infections/COVID-19-Weekly-Report-2020-05-05-FINAL.pdf
+
+82 out of 109 deaths were people 70+. Of the remaining 27, 21 were 60+, and nobody was under 40. Hospitalizations are a little less extreme, with only 206/608 being 70+
+
+Honestly, I think most people get less freaked out seeing the age breakdown of COVID19. It's very much an ""old people disease"" as far as the worst outcomes go."
+Monitors,fpm5xll,t1_fpm4g4r,1588726229.0,Except for the vertical gamma shift that means I can never tell what I’m doing when editing shadows...
+Portland,fpm1v2o,t1_fpljwci,1588723855.0,"https://www.usatoday.com/story/money/2020/04/08/coronavirus-shortage-where-has-all-the-toilet-paper-gone/2964143001/
+
+TL:DR is that commercial TP and home TP are 2 different paper products with their own supply chains, and everyone is shitting at home so all the commercial TP demand turned into extra home TP demand.
+
+EDIT: I believe flour is in a similar situation. Tons of flour, no 5lb grocery packs to put it in. I've seen stores selling what appears to be their bakery flour supply loaded into bulk bags."
+starcraft,fplyp3v,t1_fplvc19,1588722049.0,"I cannot wait to see what ""light pressure"" she and NoRegret have cooked up for Dark."
+Monitors,fplhx6s,t1_fplh8iv,1588713016.0,"That's just backlight strobing, every brand has that: https://blurbusters.com/faq/motion-blur-reduction/
+
+I've never used BenQ/Zowie's implementation, maybe it's better than some other brands, but it's hardly an exclusive or new tech."
+Monitors,fplgw91,t1_fpl63kx,1588712489.0,"I hate to break it to you, but most pro-gamers have no idea what tech is actually good. The vast majority of them are kids barely out of high school using whatever monitor their sponsor or tournament organizer gave them. They might be able to say whether a product subjectively feels better than the one they used before, but that's about it. They're exactly the crowd who's baited into buying a monitor because it had 0.5ms faster overdrive-pumped grey-to-grey times."
+Monitors,fplg45x,t3_ge4qzb,1588712091.0,"sRGB IS 6500K ([well, ~6504K](https://en.wikipedia.org/wiki/Illuminant_D65#Why_6504_K?)), so at least one of those settings is calibrated wrong. But in general, 6500K is the correct color temp for accuracy in most cases as that's what web and video content is supposed to be calibrated to.
+
+If you need accurate colors, you really should get a colorimeter. Without one it's impossible to say whether the 6500K setting or the sRGB setting on your monitor is actually closer to D65. And there's a good chance the R/G/B sliders have some combo that's even closer to D65, but again, without a colorimeter, you can't know what it is."
+DestinyTheGame,fpj2l7z,t1_fpi0xt1,1588654841.0,"With bump/height maps you can do that, normal maps are trickier as they only preserve the surface angle of the fine details, not the underlying height difference."
+Anxiety,fpitdty,t1_fphndqj,1588648283.0,"Found it! https://reddit.com/r/COVID19/comments/gcaxj1/individual_variation_in_susceptibility_or/
+
+(/r/COVID19 generally doesn’t allow news articles to be submitted, you need to post the paper the news article was talking about)"
+starcraft,fpikxai,t1_fph5fk5,1588643053.0,"Yeah, I don't think people pay enough to attention to TTK and unit movement speed (ie, time to cross the map or time to get in or out of attack range). They're both ludicrously short in SC2 compared to AoE or BW."
+Monitors,fpiivuj,t1_fpiihhh,1588641833.0,Yes
+Monitors,fpifwmw,t3_gdl798,1588640076.0,The Nvidia panel settings are for setting GPU color calibrations if you don't have a calibration device (such as an Xrite tool) to set them automatically via a look-up table. You generally will not use the Nvidia panel options if you have a calibration device.
+Monitors,fphwhff,t1_fphs14h,1588629086.0,"Theoretically it might, but it's hard to imagine content that needs both true 12bit AND 4:4:4. Especially when the panel itself is native 10bit like the CX."
+Monitors,fphw48t,t3_gdkp34,1588628891.0,">There are a bunch of threads with this question, but there aren't really any answers.-
+
+What these sorts of threads are hoping for is someone who has calibrated this model with a colorimeter and can share what settings they came up with. This is pretty unreliable as it is \*waves at flair\* but think about who buys colorimeters: designers and other creative professionals. Now look at what kind of display the VG278Q is. It's a 27"" 1080p144 TN display. It sacrifices basically everything on the altar of being fast. It's low res, and the color consistency of TNs is poor due to the gamma shift. So it's the last thing any designer would want to buy, for content creation you'd much rather have a 1440p60 IPS than a 1080p144 TN. The only real hope is a rich and picky gamer who bought a colorimeter to set their OSD for gaming...except why would someone willing to pay $100+ for color quality only spend $300 on the display itself?
+
+tl:dr the market overlap between people who buy this type of monitor and people who buy colorimeters is pretty sparse."
+Monitors,fphewtc,t1_fpheevc,1588620066.0,"Some? The banding on James Marsden’s title card is definitely a compression artifact, for example."
+Monitors,fphcybh,t3_gdcdtr,1588619060.0,">as I understood the panel is the same in both monitors
+
+Even if it is, that doesn't mean they'll match. Manufacturing differences are enough to be visible, even if every single part in the monitor is the same. This REALLY should be done with a colorimeter, but if you don't have one, display a white image fullscreen on both displays and adjust the ""custom color"" R/G/B sliders until they visually match.
+
+I should note even with a colorimeter this can be tricky because Windows doesn't support per-display software 3D LUTs and most software on Windows doesn't use software LUTs anyway. OSD adjustments and the video card gamma table might not be enough to get 2 displays to match completely perfectly. Especially if both monitors are separately calibrated to the same target(such as sRGB), rather than calibrating the second monitor using the first monitor as a target."
+Monitors,fphcer5,t3_gdh3nr,1588618781.0,"Most of the banding in that first video is very clearly compression artifacts (notice how the edges of the bands are noisy, if you look at the video on different displays that bands are in the same places). I wouldn't trust any banding test delivered via Youtube or any other streaming platform. Honestly, for banding tests lossy compression is best avoided entirely.
+
+A much better way to test is to use a CSS gradient like this, as they're procedurally generated in your browser: https://codepen.io/anon/pen/JdEjWm (assuming your browser doesn't dither CSS gradients, apparently some do?)
+
+EDIT: I should've thought to check the lagom page for a banding test gradient: http://www.lagom.nl/lcd-test/gradient.php#gradient-h.png"
+Anxiety,fpfaj9g,t1_fpf9s45,1588565810.0,"Yup, May 15th in Georgia is the mental checkpoint I'm looking at too. If this thing is gonna take back off, we'd see it in their hospitalization and positive test rates by then."
+vfx,fpdsbjl,t3_gcm1r3,1588533233.0,"Switch your view to your active camera, and hit View > Viewport Render Animation to do a playblast.
+
+Alternately, change your scene render engine to from whatever you planned to do final render in to  ""Workbench"", then render your animation like normal."
+Monitors,fpdbg81,t3_gcjrpi,1588523688.0,"Either look at the spec sheet for VESA capability, or look at pictures of the back for 4 screw holes spaced either 80mm or 100mm apart. Note that just because the included stand doesn't attach to the VESA mount doesn't mean the monitor doesn't have it. For whatever reason (often to either add a quick release, or make the stand shorter and thus cheaper) a lot of monitors attach their stands some other way, but still have the screw holes."
+Portland,fpafgfm,t1_fpaafim,1588447065.0,"SARS and MERS vaccines don’t exist because they’re not widespread enough problems for anyone to invest in making the vaccine. Not because they’re impossible to make. There are multiple vaccines already in human testing, including one that successfully immunized monkeys: https://www.nytimes.com/2020/04/27/world/europe/coronavirus-vaccine-update-oxford.html
+
+Also, people tend to forget that “12-18 months until a vaccine” was as of January. It doesn’t keep continually getting 12-18 months from now. https://www.npr.org/sections/coronavirus-live-updates/2020/04/30/848478507/fauci-says-its-doable-to-have-millions-of-doses-of-covid-19-vaccine-by-january"
+Monitors,fp9pagq,t3_gc4ais,1588431654.0,">	I also want a stylish monitor and I like those monitors with ‘V-like feet’ (or is there any styles you can recommend and why you think is)
+
+Nothing will match a VESA arm for style. Clean bar (with cable threaded through it) coming from back of the desk, leaving neat and open space under the monitor. No stand design can hope to match that, IMO."

@@ -1,0 +1,287 @@
+Anxiety,fp9hema,t3_gbnjuv,1588426261.0,"Oh yes. Definitely. Luckily, I’m still able to work remotely, but even the idea of other people getting back to normal when things are still not improving has me very anxious. 
+
+My friends are growing restless too. And even the ones that have been very strict with their social distancing and now starting to be a little more lax. And it’s causing me anxiety and being weird about what I’m comfortable doing and not."
+CoronavirusWI,fnf17yb,t3_g1c1dz,1586899542.0,"Also question, besides just another data point, what are we learning from the negative tests chart?"
+CoronavirusWI,fnf14cr,t3_g1c1dz,1586899491.0,"Would you be able to add in the day to day % increase? Perhaps just for the current reporting day, and previous day for comp?"
+emetophobia,fn3t7ga,t3_fz9gn5,1586627440.0,All. The. Time.
+Anxiety,fn1cp37,t1_fmzzjo7,1586559289.0,Came here to say this! It’s our perpetual forever loop.
+thelongdark,fms9bep,t1_fmrz3wf,1586350249.0,"No, but was just giving an idea."
+thelongdark,fmqjehn,t1_fmq2vbt,1586300774.0,"I don’t think it would have to change the narrative much. It’s still northern Canada. I think it would add levels of complexity. In the winter, meat outside. In the summer, well now you have another challenge. But then in the summer, maybe you can grow stuff from seed. In fall, maybe you can collect leaves for tinder. 
+
+Just thinking about this, I would love seasons."
+Anxiety,fmdo617,t1_fmdi8lq,1585972966.0,This sounds similar to my daily morning routine during allergy season with my asthma. I just do all the coughing in the shower.
+thelongdark,flx134m,t1_flvexl3,1585572222.0,My people
+analytics,flw9jpq,t3_frjmlq,1585543440.0,"I am always trying to improve this skill. My suggestion is based on what I try to do, which is summarize the data in the way I would explain to my non analytical friends, or parents. That helps put it in plain English, which can then build led into simpler branches of why. 
+
+Do you have an example of a question that you are asked to analyze/research?"
+rstats,flv8kow,t1_flv6s2p,1585518633.0,"Yes, you are correct. I got this to work now with a clean refresh and I updated ALL of my packages just to make sure. 
+
+Thank you again!"
+rstats,flv66ov,t1_flv4h7l,1585517208.0,"I just tried running again, and I'm getting the same error, when running new\_means\_vals. I'm updating relevant packages right now. I might exclude this part and see what I get.
+
+Edit: WOW! I think this did it!!
+
+Couple things, I still don't know why the new\_means\_vals is not working, but I'm not too worried about that at point. Seems like a bonus to have that included.
+
+This is the code I ran then:
+
+    library(tidyverse)
+    library(ggpubr)    
+    
+    df <- data
+    
+    # Pull data excluding the old mean value
+    exc_old_mean <- df %>%
+      filter(data_type != ""Mean"") %>%
+      mutate_at(1:3, as.numeric) 
+    
+    # This pulls the mean value you added to the dataframe originally
+    old_mean_vals <-
+      df %>%
+      filter(data_type == ""Mean"") %>%
+      mutate_at(1:3, as.numeric) 
+    
+    # This calculates new mean (not necessary, but just included in case you want it)
+    ##new_mean_vals <-
+      ##exc_old_mean %>%
+      ##filter(data_type != ""Mean"") %>%
+      ##mutate_at(1:3, as.numeric) %>%
+      ##summarise_if(is.numeric, mean)
+    
+    
+    ggplot() +
+      geom_point(data = exc_old_mean, aes(x = sweat, y = sodium, group = data_type), colour = ""grey"") +
+      stat_conf_ellipse(data = exc_old_mean, aes(x = sweat, y = sodium, group = data_type), colour = ""blue"") +
+      # Comment these out as you wish...
+      ##geom_point(data = new_mean_vals, aes(x = sweat, y = sodium), colour = ""red"") +
+      geom_point(data = old_mean_vals, aes(x = sweat, y = sodium), colour = ""red"") +
+      theme_minimal()
+
+This gets me really really close to the SAS plot. It's only off a little bit, which is mostly likely due to just the different softwares calculations, etc.
+
+Edit 2: I tried uploading an image of the plot I'm getting, but I don't think I can do that in the comments. Either way, it's SO close to the SAS. I call this a win.
+
+Do you mind walking me through why this works?
+
+Edit 3: I think I was almost there, separately from what I was posting, as I realized I did see improvement in the plot when I changed the format the columns sweat, sodium and potassium to numeric vs character - I think this resulted in less errors.
+
+Then, you went one step further, and you removed that extra row containing the sample mean, when creating the confidence interval. I was creating the interval with the sample mean in  mine, which was messing stuff up (I think this is what was happening). 
+
+Wow, it is so exciting when stuff works!!
+
+Thank you again! I really appreciate the back and forth work on this. Any additional explanation/insight you have would be appreciated!"
+rstats,flv23ut,t1_flv0zd7,1585514790.0,"Thank you for giving this a go! So, a couple things. There is only one row for the mean because this is a one-sample mean analysis. The mean was added back into the data set to see in comparison to the other data points. Not sure if this impacts the process you followed. 
+
+I took your code and placed it in a separate R Script from the one I've been working in. I am getting an error creating mean\_vals. 
+
+Error: expecting a one sided formula, a function, or a function name."
+rstats,flulxk4,t1_fludybg,1585505263.0,"You’re correct, very small data set. Only 21 rows. I will paste the data frame here as you suggest shortly.
+
+    Here is the output from dput(data)...
+    
+    structure(list(sweat = c(""3.7"", ""5.7"", ""3.8"", ""3.2"", ""3.1"", ""4.6"", 
+    ""2.4"", ""7.2"", ""6.7"", ""5.4"", ""3.9"", ""4.5"", ""3.5"", ""4.5"", ""1.5"", 
+    ""8.5"", ""4.5"", ""6.5"", ""4.1"", ""5.5"", ""4""), sodium = c(""48.5"", ""65.1"", 
+    ""47.2"", ""53.2"", ""55.5"", ""36.1"", ""24.8"", ""33.1"", ""47.4"", ""54.1"", 
+    ""36.9"", ""58.8"", ""27.8"", ""40.2"", ""13.5"", ""56.4"", ""71.6"", ""52.8"", 
+    ""44.1"", ""40.9"", ""50""), potassium = c(""9.3"", ""8"", ""10.9"", ""12"", 
+    ""9.7"", ""7.9"", ""14"", ""7.6"", ""8.5"", ""11.3"", ""12.7"", ""12.3"", ""9.8"", 
+    ""8.4"", ""10.1"", ""7.1"", ""8.2"", ""10.9"", ""11.2"", ""9.4"", ""10""), data_type = c(""Data"", 
+    ""Data"", ""Data"", ""Data"", ""Data"", ""Data"", ""Data"", ""Data"", ""Data"", 
+    ""Data"", ""Data"", ""Data"", ""Data"", ""Data"", ""Data"", ""Data"", ""Data"", 
+    ""Data"", ""Data"", ""Data"", ""Mean"")), row.names = c(NA, -21L), class = ""data.frame"")"
+rstats,flulvm9,t1_fluckpv,1585505232.0,"Thank you! The entire data set is 21 rows, I have in picture above labeled data. There are t any rows that has NA values. I don’t think this is the cause of the issue."
+thelongdark,fluamgo,t1_flu2vhp,1585498774.0,"Let’s say, someone doesn’t know how to do this, how would they? Asking for a friend."
+thelongdark,fltvwb9,t1_fltdzp1,1585488810.0,"I wonder if it has to do with how people like to spend their time in real life. Not that anyone would want to be stranded and completely alone in the northern woods of Canada... however, I think of myself as an introvert, and I enjoy and find comfort in the independence, struggle and loneliness."
+thelongdark,fltvh9n,t1_flsr7pf,1585488457.0,"I love listening to the soundtrack, outside of playing even. It’s so cinematic at times."
+madisonwi,fls2l23,t3_fqqnp1,1585433017.0,"Question, so are the daily tests non cumulative, and the total negative and total positive are cumulative? As in, there weren’t nearly 1,000 new positive cases today, correct?"
+emetophobia,flpwi7p,t3_fqbelz,1585370873.0,100%
+thelongdark,fkxwjtq,t1_fkwgh91,1584636802.0,This is my current homestead in a survival voyager mode.
+The100,fkxw6we,t1_fkxu6sp,1584636605.0,"Yeah, I agree. I don’t think they know yet if this is possible. I just know I read that they are researching it, to see if it’s possible. Apparently this was done with I think, don’t quote me, the Spanish flu."
+The100,fkxo9y0,t3_fl8znd,1584632224.0,"Also, did you guys see that some researchers are going to start investigating an old method to try and hold off infection until a vaccine is created? Apparently this method is to take blood of those that have recovered, that should contain the antibodies, and give them to those that don’t have it. Specifically to like health care workers who are on the front lines.. sounds all too familiar to us."
+SandersForPresident,fkkzsgb,t3_fj0n0j,1584295415.0,"Bernie, don’t touch your face! Noooo!"
+worldnews,fk3orma,t1_fk3kafp,1583841952.0,"Okay, but what are they gonna do? Force a eviction with lockdown? Who is gonna come throw them out? The renters that is. Especially, oh let’s say, if the renters are ill."
+RStudio,fin0mz1,t3_f8rcc3,1582552739.0,"So I don’t have the code for this, but I have an idea. Since you want discrete colors, you’re going to have to go back to your data and create categorical values. So, fir example, you said you want all the negatives to be red. You’ll keep you num1 column, and add onto the data frame a discrete value based on logical ranges.  Like this..
+
+Num1        Cat1
+-1                 Negative 
+3                 Positive 
+19               Positive 
+0                Neutral 
+-4              Negative 
+6               Positive 
+
+
+Them, in your ggplot, you can code scale_y_discrete to show the colors you want for the different values in Cat 1
+
+This is on mobile so apologies for format
+
+Edited: instead of x I changed to y based on your plot."
+succulents,figj40e,t3_f7qyby,1582400013.0,Wow! GOALS! How did you control the growth? Also did you do anything to promote growth? I have some that have not grown at all in the months I’ve had them.
+The100,fhhad8b,t1_fhh0jmw,1581599103.0,"Season finale of Season 2, I believe. The beginning of Wanheda."
+The100,fhg5fxw,t1_fhfagdp,1581559013.0,There are several Spotify playlists that exist!
+The100,fhg5d83,t1_fhf87j7,1581558963.0,"By far the best season finale, paired with music, paired with so many feels, paired with paired with paired with.... ahhhhh just the best ever!!"
+RStudio,fh9wpcq,t3_f1w8bv,1581391364.0,"This happened to me once, and it was because the variable was actually continuous and not discrete. So I had to use scale_continuous and then it worked. Not sure if this will resolve for you as well."
+emetophobia,fh6qm8v,t3_f1gr6a,1581303691.0,"Wow. An explanation for my tried and true technique. I had no idea this was a thing. Just something I did. Ice cube on the back of my neck is my go to. Same with a refrigerated wash cloth soaked in water. I also helped a friend who was feeling seasick and anxious center herself with ice cubes on the neck. 
+
+Super interesting."
+rstats,fh5b6mr,t1_fh11lbs,1581287027.0,"Agreed, this would be an option. Based on my knowledge of Poisson, the distribution of the data would need to be a Poisson distribution. I have to read up on how to go about doing that, or at least verifying it."
+rstats,fh4nbel,t1_fh2vcze,1581280326.0,"Interesting. I'll look into that, thank you! 
+
+And agreed, I think it is a lot easier to analyze with the variables treated as categorical. I was having a hard time thinking of how I was going to assign a categorical variable to a sequence of 0s and 1s, but now that I have that, I feel in a better place. 
+
+Regarding your comment about ""with 2 classes"", can you please clarify what you mean by classes, in this context? As in Yr1 and Yr2 as one category and the 0s and 1s as a separate category?"
+rstats,fgzz4rb,t1_fgzwmfu,1581199019.0,"Thank you. I think I used the wrong term. I meant sequence of numbers. I think I'll have to combine them into a string of numbers (whatever that's called) so that I can see them as one long number, instead of 7 columns of numbers.
+
+I think I was able to get together the identifying matrix I wanted in R. Now I can use this ID to match up to my data set and assign the combination a categorical value based on this ID table. At least it's a start..
+
+\> ## number of events
+
+\> n = 7
+
+\> ## create matrix of possible combinations
+
+\> m <- expand.grid(replicate(n, 0:1, simplify = FALSE))
+
+\> ## remove the all 0's row (first row)
+
+\> m <- m\[-1,\]
+
+\> ## rename the rows to start at 1
+
+\> rownames(m) <- 1:127
+
+\>
+
+\> head(m)
+
+Var1 Var2 Var3 Var4 Var5 Var6 Var7
+
+1    1    0    0    0    0    0    0
+
+2    0    1    0    0    0    0    0
+
+3    1    1    0    0    0    0    0
+
+4    0    0    1    0    0    0    0
+
+5    1    0    1    0    0    0    0
+
+6    0    1    1    0    0    0    0
+
+\> m <- m\[,c(7,6,5,4,3,2,1)\]
+
+\>
+
+\> m <- cbind(ID = rownames(m),(m))
+
+\> colnames(m) <- c(""ID"",""Var1"",""Var2"",""Var3"",""Var4"",
+
+\+                  ""Var5"",""Var6"",""Var7"")
+
+\> head(m)
+
+ID Var1 Var2 Var3 Var4 Var5 Var6 Var7
+
+1  1    0    0    0    0    0    0    1
+
+2  2    0    0    0    0    0    1    0
+
+3  3    0    0    0    0    0    1    1
+
+4  4    0    0    0    0    1    0    0
+
+5  5    0    0    0    0    1    0    1
+
+6  6    0    0    0    0    1    1    0
+
+\> tail(m)
+
+ID Var1 Var2 Var3 Var4 Var5 Var6 Var7
+
+122 122    1    1    1    1    0    1    0
+
+123 123    1    1    1    1    0    1    1
+
+124 124    1    1    1    1    1    0    0
+
+125 125    1    1    1    1    1    0    1
+
+126 126    1    1    1    1    1    1    0
+
+127 127    1    1    1    1    1    1    1"
+rstats,fgzoh32,t1_fgzjocl,1581196111.0,"Ah, thanks for the note. That makes sense. 
+
+I'll have to research more about how to create the strings, as I don't think I completely understand what you mean by new\_col = 1 x event1 + 2 x event2 + 4 x event3 + 8 x event4 ... +64 x event7, unfortunately, this is going over my head."
+rstats,fgzhs5q,t1_fgzczgf,1581194252.0,"Thank you for clarifying. Do you have the syntax for how I would do that? 
+
+And if you could, please let me know if I'm understanding you correctly. Basically, 0000001 would be  '1', 0000010 would be '2', 0000100 would be '3', and so on. Correct?
+
+I suppose I could create a new column concatenating the 7 variables into one string. However, then I get stuck on assigning each one a value, and ensuring that stays consistent."
+rstats,fgz8v3a,t1_fgyw0db,1581191891.0,"Thank you so much for your response! 
+
+Regarding your first paragraph, I think I follow this almost completely, but am having a hard time visualizing what the single categorical with 128(1!) levels would look like. At least for the Year variable, I think you're suggesting I have a Year variable, with a 2018, 2019 and Both as 3 different levels. As far as the 128(!) combinations, I think you're saying basically each possible sequence of binary strings would be seen as one categorical value. How could I create this? I think this is actually step 1 of how I'm trying to look at this data. I don't know how to have the Event 1 - Event 7 sequences grouped. 
+
+Regarding the heatmap covariance matrix - I like this idea, as a simple way to look at the data. 
+
+Could you also please clarify further what you mean by encoding them into a categorical variable with 2\^7 levels? Perhaps this is what you were referring to in your first point. I'm just having a hard time visualizing what this looks like. 
+
+Thanks again for your help! This has been really great."
+rstats,fgyiyh5,t1_fgy6zky,1581183825.0,"Thank you for your insight! Yes, both these possibilities make sense. 
+
+1. The outcome is Yr 1 and  Yr 2 variables. I could split up Yr 1 and Yr 2 as separate outcomes for a straight forward logistic regression model. However, would I be losing any prediction ability in predicting whether the event occurred in both Yr 1 \*and\* Yr 2? I am thinking this may be something completely separate, as in using the data from Yr 1 to measure what happened in Yr 2, and then using that to predict what would happen in Yr 3. I may be crossing my wires here. Apologies. 
+
+I think this is a little more complicated because the response/outcome variable for Yr 1 or Yr 2 is dependent on the Events. As in, if there is a 1 anywhere within the Events, Yr 1 or Yr 2 will have a 1.... if that makes sense. 
+
+Thinking out-loud, giving that the Yr 1 and Yr 2 are directly dependent on what occurs in the Events, I think it would be more of a multivariate analysis, as there should be a way to say, for example, there is a strong correlation between Event 7 occurring AND Event 1 occurring, or conversely, if Event 1 occurs, there is less likelihood that Event 7 occurs (I suppose this could also be strongly correlated, but negatively). So, perhaps a matrix would be the best way to analyze this data for this purpose.
+
+I'm currently in the middle of a data science graduate program, and we have not yet gone into the splitting of training set and test set. We've always kept them complete, and predict based off the entire set. Do you have some reading material that you would recommend regarding the splitting of training set and test and why it is important for accurate prediction? 
+
+2.  I think this is the primary goal, or at least Step 1 of the analysis I would like to complete with this data set. So, you nailed this on the head. Thank you for providing words associated to what I want to do. I have some understanding of clustering, but none of unsupervised machine learning. I will look into a MCA plot, though I have never done this before. Do you have an example or how this would apply to the type of data set I'm working with? For example, I want to look at the 4 rows of data that are similar, as in they all had 0 for Event 1 - Event 6, but had a 1 for Event 7. I want to understand how this looks between Yr 1 and Yr 2, how did it differ."
+thelongdark,fgrhpq6,t3_ezy79t,1581047093.0,"Any mods? Or is this the game now? I haven’t played in a while, and that seems quite different."
+RStudio,fglt9pb,t3_ez9kjg,1580910398.0,What have you tried? Do you have a screen shot of the code?
+beadsprites,fg6i4uz,t1_fg6fpxf,1580568601.0,Ohhhhhhhhhhhhh! This makes more sense haha
+datasets,fg6fmo5,t3_ex39ku,1580566590.0,"Honestly, there is always someone somewhere interested in playing with a specific type of data. I’m interested in this dataset. I am not sure exactly what I would do with it, but I would definitely want to explore it to see possibilities."
+beadsprites,fg6fgqu,t3_ex6boe,1580566448.0,Probably a dumb question.... but why sort by color and then mix again in baggies? Was your goal to have a certain color ratio in each bag?
+RStudio,fg1v0fv,t3_ew9b6u,1580433606.0,Can you point me to where you learned the text mining? Thanks for the good post. I’m always looking for more ways to learn.
+RStudio,ffvdtoz,t1_ffvd3r3,1580261781.0,"I’m not sure the best way to share. Can I give dummy data? I won’t be able to share the actual datasets. Screen shot of the null deviances and residual deviances?
+
+Dataset 1-model 1 (cases)
+Has null and residual deviances like 389876, AIC in the thousands. 
+
+Dataset 2-model 2 (counts of data, into a matrix)
+Has null and residual variances in the hundreds. Much much smaller AIC. Because this has counts for yes and counts for no of the response variable, my y is a cbind()of the two to make up y."
+RStudio,ffvc1xw,t1_ffuyydp,1580260589.0,"It would be more helpful for you to put the code you’ve tried already so we can see what you’ve attempted. More people are willing to help than just do. That’s not learning. I know it can seem daunting at first, but there are SO many resources online. You have to learn how to ask your question. Also, what sort of notes did you get from class?"
+churning,ffmcf1q,t1_ffmbdl2,1580052367.0,"Can you go into the reasons why? Logically in the surface that makes sense. Something I haven’t done, but if it’s so common sense, I wonder why I’ve never been told to do that before."
+SandersForPresident,ff30izz,t3_er4ov1,1579530402.0,"I understand the posting of a few does not represent the mass, but I have seen many conservatives that ‘feel cornered to vote for Trump’ if the Dems nominate Warren or Sanders. 
+
+Can someone help me understand how realistic this is? Is Bernie too left for the moderates? I personally can’t fathom ever voting for Trump, so I can’t put myself in their shoes."
+postprocessing,fdy5cku,t3_en4hge,1578776255.0,I really love this!
+AskReddit,fdt7zv3,t1_fdqhqgc,1578713112.0,Do you have to pay for the repairs? Or how does that work?
+orangeisthenewblack,fdt4628,t1_fds8ays,1578711681.0,"Yup, I agree with all of this 100%. I think the reason why the school aspect of it was the tipping point for her was because she finally had hope. Also, I think it had something to do with the fact that she finally had something she's struggled with her entire life explained. They gave the back story with her dad calling her stupid, not valuing her as her own individual, and in previously flashbacks, we see that she did not hold a lot of value in herself, and was just used to being walked over, abused, used, etc. 
+
+Finally, the teacher saw her. She would always hide in her flaws. She did something similar when she was all noble and bible-thumping. Through school, she realized that she had potential, and then even when she was frustrated again, instead of hiding, she acknowledged her differences for what they were and worked with them. Then, the new teacher didn't see her, ignored her need for a little extra assistance with extended time, etc. She was invisible again. 
+
+Also, I saw it as a suicide. Perhaps I don't know enough about addicts, but leading up to it it felt like she was wanting it to end.
+
+The gut wrenching part of it for me was the dynamic between Tasty and Doggett. Tasty was suicidal and Doggett gave her a reason to keep getting up (tutoring). Doggett needed something to pass time and she found school, and she finally found a reason, and that was to get her GED and pass this test. They both needed each other, and it was a really sad ending."
+rhelp,fdm9gn1,t3_elv42r,1578543142.0,"Not an expert, but I don’t think you can enter in multiple hundred in the parenthesis. X should be a vector or object. So create that first with your number 1, number 2, etc. and then feed x into the sd() function. 
+
+https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/sd"
+thelongdark,fcxkx2h,t1_fcx5myo,1578065431.0,This is how I feel as well!!
+AskNOLA,fc6rp3b,t1_fc66cft,1577487769.0,Where is the list of acceptable tour guides?
+Wentworthtv,f9toft9,t3_e6aoid,1575634432.0,"I was wondering the same thing! When I saw the lineup for the Chicago Con I thought there’s no way I can’t go.  But I would probably be attending alone, and gnat kind of freaks me out. But like... MF Libby Tanner.... I HAVE to go. 
+
+I’m just not outwardly super social with strangers, kind of shy, and that’s why I’m afraid to go alone. 
+
+Anyone here planning on going to the Chicago Con?"
+Wentworthtv,euqz7vy,t3_ch85tj,1563987414.0,OMG DREAMS
+orangeisthenewblack,euk11uk,t1_euhu5uf,1563881653.0,"I’m rewatching all of the episodes, but I don’t think I’ll finish by release date. But I wanted to be fresh on all the details."
+thelongdark,etu7pyb,t3_cdf3qd,1563206272.0,"This is Christopher Thomas Knight. The book written about him “A Stranger in the Woods” is fantastic. I loved it. It also made me think of TLD. However, Christopher didn’t want to be found. He wanted to be a hermit. He took many well thought out steps to avoid contact with anyone. One of them being, no fires."
+Wentworthtv,ermmjti,t3_c2sp2z,1561030000.0,Whoa! Wentworth and OITNB on at the end of July. Praise be!
+houseplants,erli3zx,t3_c2ili2,1560987775.0,GOALS!
+reactivedogs,er1i08i,t3_bzz54e,1560432132.0,I love when that happens. I love those people. Thank you kind understanding people.
+The100,eqm138c,t1_eqlqqhy,1560154458.0,This needs to be higher!
+orangeisthenewblack,eqjobbc,t1_eqjl0us,1560108621.0,O. M. G.  That’s why I recognize her voice!!!! Why am I just finding this out now. Holy shit. Mind blown.
+dataisbeautiful,eoohhp4,t1_eoo95ex,1558738664.0,"This. 100%. Beautiful, but prepared to be poor if you’re not local."
+orangeisthenewblack,eone7l5,t3_bs0qz8,1558710317.0,Already started!!! I’m in the beginning of the 2nd season!

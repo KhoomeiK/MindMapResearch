@@ -1,0 +1,100 @@
+FRIEND,fn48u79,t3_fy7r4l,1586636411.0,20 M from US send me a chat if you want to talk :)
+OCD,fn3ajfg,t1_fn39i03,1586616653.0,Thanks for your thoughts. I guess I have to be more accepting of additional health issues and/or death. Sounds hard but I see it’s importance at this moment...😬
+AmItheAsshole,fmzsmut,t3_fyb5e3,1586528705.0,"NTA: He sounds like he’s being an asshole and needs to be told how fucked up that is so that he can actually change. 
+
+You also told him that he is making himself unlovable by acting in a certain way rather than saying that he is fundamentally unlovable. Those are two really different things and you shouldn’t be expected to apologize AT ALL for simply telling him the truth about what his actions are causing."
+OCD,fmy8vtx,t3_fxwfm6,1586480652.0,"Yes, this happens to me all the time, and then I check several times after sending it to make sure nothing went wrong T\_T"
+FRIEND,fmwcqar,t3_fxswdm,1586444167.0,"20M, feel free to DM."
+Anxiety,fmr0362,t1_fmnzqdj,1586310812.0,No problem! Thank you :) stay safe! I hope you are able to avoid it.
+Anxiety,fmjlsxk,t1_fmj5wzm,1586132897.0,"The suffocation sensation happened to me once or twice when I was in middle school. It was really rough, and I am so sorry that you are going through this :( 
+
+If it is possible, I would recommend reaching out to a mental health professional to discuss strategies for how to keep it at bay without panicking. Wishing the best for you. Take care."
+mathematics,fmjldgl,t3_fvna3b,1586132650.0,"As coyhot said, this can be modeled as a Markov Chain with ugly equations. However,  I think I have a trick. I'm not sure about it so someone please check me on this. We can divide the successful outcomes into 13 cases (0 jokers, 1 joker, 2 jokers.. etc.) and write them as sums like the following.
+
+&#x200B;
+
+Case 1: 0 jokers
+
+If no jokers are drawn, then the probability is simply 12/162 \* 12/161 \* ... \* 12/151.
+
+&#x200B;
+
+Case 2: 1 joker
+
+Any of the 12 cards can be the joker, so one of the 12s in the product above is simply replaced with 18. Since we are taking the product, the product isn't affected by which one is changed to 30. However, there are 12C1 (12 choose 1) ways to decide which one is. Hence, the probability for this case is (12\^11 \* 18)/(162\*161 ...151) \* 12C1.
+
+&#x200B;
+
+Case 2: 3 jokers
+
+Any two of the 12 cards can be the joker, so one of the 12s is replaced with 18 and the other 12 is replaced with 17 (as the same joker cannot be drawn twice). Again, the product isn't affected by which two are changed to 30. However, there are 12C2 (12 choose 2) ways to decide which two. Hence, the probability for this case is (12\^10 \* 18 \* 17)/(162\*161...151)\*12C2.
+
+&#x200B;
+
+If my solution is correct, then the pattern should become clear and so we are trying to find
+
+(12\^12)/ (162\*161.... 151) \* 12C0 +  (12\^11 \* 18)/(162\*161 ...151) \* 12C1 + .... (12\^(12 - k) \* (18\*17\*16\*..(18 - k + 1))/(162\*161\*...151)\*12Ck + .... (18\*17\*16...\*7)/(162\*161\*...151) \* 12C12.
+
+If we write it out, it is this
+
+&#x200B;
+
+(12\^12 + 12\^11 \* 18 \* 12 + 12\^10 \* 18\* 17 \* 66 + 12\^9 \* 18 \* 17 \* 16 \* 220 + 12\^8 \* 18\*17\*16\*15\*495 + 12\^7\*18\*17\*16\*15\*14\*792 + 12\^6\*18\*17\*16\*15\*14\*13\*924 + 12\^5\*18\*17\*16\*15\*14\*13\*12\*792 + 12\^4\*18\*17\*16\*15\*14\*13\*12\*11\*495 + 12\^3\*18\*17\*16\*15\*14\*13\*12\*11\*10\*220 + 12\^2\*18\*17\*16\*15\*14\*13\*12\*11\*10\*9\*66 + 12\*18\*17\*16\*15\*14\*13\*12\*11\*10\*9\*8\*12 + 18\*17\*16\*15\*14\*13\*12\*11\*10\*9\*8\*7)/(162\*161...151).
+
+&#x200B;
+
+Wolfram alpha doesn't understand my query so I will leave it to you to do the computation >:D."
+Anxiety,fmiuc5e,t1_fmit0o9,1586117086.0,"Please feel free to ask anything. I hope that my experience can somehow offer support to others. 
+
+There was some overriding that happened. While I had typical shortness of breath anxiety symptoms with the coronavirus at first (and that freaked me out so much because I was like do I have pnemounia), the anxiety body pains eventually melded with the coronavirus pain and my shortness of breath was also coopted  by how it hurt to breathe because of general body pain. In other words, anxiety did not bother me that much separately. It became one with  the coronavirus, and for my safety I decided that I would not try to make guesses about what was anxiety and what wasn’t."
+Anxiety,fmiq8cf,t1_fmig860,1586114700.0,"Yeah that was definitely the scariest part for me too. Thank you, and I sincerely hope you are able to avoid coronavirus. Stay safe."
+OCD,fmh7wyu,t3_fv95pi,1586069742.0,It’s so debilitating and stigmatized 😢
+OCD,fmh7ovy,t3_fv5c89,1586069518.0,"Indian and struggling right now but also managing okay. I am at home with parents who mocked me for years and don’t know about my mental health situation because I know they would just scoff. Being at home eases my symptoms but dealing with those memories in isolation is tough. 
+
+I’m sorry to hear you are finding it extra hard right now. Wishing the best for you. Take care."
+Anxiety,fmh6ywq,t3_fuznnl,1586068810.0,"I am 20M. I have anxiety and tested positive for coronavirus. 
+
+My anxiety got much worse after I came out to myself and a few close friends and acknowledged the extent of mental health problems I am suffering from in late  February. 
+
+For the last two weeks before coronavirus I was constantly hyperventilating and feeling short of breath. My chest and back also really hurt because of anxiety. Suddenly I got a bad headache and cough, and then suddenly a high fever (103+) and body ache along with diarrhe and extreme fatigue. 
+
+Since I was already struggling with a constant feeling that I had shortness of breath because of anxiety, I was really worried that I wouldn’t be able to discern whether I was having a panic attack, typical anxiety, or some fatal coronavirus side effect. At that point I was so afraid and in so much pain. It was really terrifying. 
+
+My symptoms were quite bad so I got tested and I was positive. The next few days were awful because my anxiety hit the roof (I was imagining my death) and I had the horrible coronavirus symptoms. Fortunately I am almost recovered now. It’s been 14 days since my first symptoms , and I haven’t had any for about a day. 
+
+If you have anxiety and coronavirus, I’m really sorry that you are going through this. Please try your best to stay  strong and try to be bold with your concerns about your health so that you can get the treatment you need. While anxiety could exacerbate how you perceive symptoms or increase their intensity, it is better to be safe than sorry and hence probably not a good idea to downplay your symptoms. I wish everyone the best, and feel free to dm if you want to talk."
+Existentialism,fm64fax,t3_ft6fdo,1585786053.0,There is a nice pdf copy on libgen.
+math,fm5mt9x,t3_ft74h2,1585775909.0,"It really depends on how much experience you have had with thinking abstractly and whether you will take courses which require you to think about mathematics that way. 
+
+While calculus and differential equations and even perhaps introductory discrete mathematics courses are fairly concrete and computational for the most part, classes like abstract algebra, real analysis, number theory, algebraic topology, and logic might be challenging if you haven't worked with abstract concepts much. Math competitions are really much more about efficiently utilizing a bag of tricks than wrapping your mind around abstract concepts and complex structure. 
+
+You might struggle. Enjoy it! The satisfaction at the end is well worth it. I tried to understand abstract algebra twice in high school, and it made no sense to me. However, I took a class in college. It was rough, but once I understood it, it became my favorite part of math."
+Anxiety,fktom59,t3_fkayil,1584529127.0,"Yes, and with the body aches and seasonal allergies, I am always at a complete loss about what to think."
+OCD,fkh8s0a,t3_fifc69,1584192336.0,Holy shit I feel so attacked right now...
+Existentialism,fk3nspd,t3_ffxdr8,1583841022.0,Read about absurdism :)
+Existentialism,fk3n29i,t3_fgcaht,1583840310.0,"By strict definition of an existentialist, I suppose that Nietzsche was not an existentialist. In particular, I guess a strict existentialism focuses on what it means for humans to exist from a perspective of free agency. Nietzsche’s conception of how will to power manifests  challenges that free agency because he simply believes that some people have simply stronger instincts and will to power which will not succumb to a herd morality. 
+
+That being said, Nietzsche’s spirit of enquiry aligns with the overarching themes of how we think about existentialism today. In particular, he was focused on developing a philosophy of how humans can thrive within the world that we have been given. Much of his philosophy hinges on being life affirming and embracing whatever makes us human instead of creating structures which mask the human experience and instincts. This targeted focus on human experience is at the root of much  existential thinking."
+mathematics,fk3hil2,t1_fk3ffuz,1583833803.0,"Yes, that link is good! 
+
+Sure, feel free to PM me."
+mathematics,fk1tou1,t1_fk1stvu,1583786655.0,[https://www.springer.com/gp/book/9781441926746](https://www.springer.com/gp/book/9781441926746)
+mathematics,fk1dqh9,t3_ffye9w,1583777590.0,"Here are some topics which I enjoy and thought that you might enjoy given your coursework. 
+
+1. Mathematical Cryptography and the development of post quantum cryptosystems (heavy on number theory applications of abstract algebra and advanced linear algebra)
+2. Game Tree Theory (probability theory and algebraic manipulations).
+3. If you want to do something interdisciplinary, it might be fun to explore the intersections between Group Theory and modern physics (special relativity in particular) or Group Theory and organic chemistry
+
+Good luck! If you have some more specific interests that have caught your attention in any of those subjects, I'd be glad to give some ideas."
+ABCDesis,fk17p34,t3_ffooco,1583774090.0,"I learned Hindustani Vocal for 8  years and did my arangetram/manch pravesh  before starting college. I am really thankful that my parents exposed me to Hindustani Vocal because it has allowed me to maintain a very strong bond with all sorts of Indian music. Once you are classically trained, it becomes so much easier to learn nuances and difficult notes in filmy music too. I enjoy sharing the music with other people, and it turns out that many people in the US (especially jazz musicians) are quite interested in learning more about it!
+
+That being said, please do not push your child if they do not enjoy it, and definitely avoid competing with other parents' children. My Hindustani Vocal study was incredibly stressful because my parents would become quite angry and harsh if I wasn't progressing as fast as other children. After my arangetram/manch pravesh, I lost motivation to practice because I had so many horrible memories associated with Hindustani Vocal. However, the music is so lovely that I eventually returned to it and love practicing now."
+mathematics,fk0n0j9,t1_fk0e06w,1583761415.0,"The book by Artin is called Algebra, and the book by D&F is called Abstract Algebra. 
+
+&#x200B;
+
+Could you get someone who can access it to download for you and send pdf?"
+Asexual,fk0lgy6,t1_fk0ewgl,1583760283.0,"Thanks, and same!"
+mathematics,fk09oll,t1_fk09cwm,1583748633.0,"I definitely recommend using a textbook! In particular, I suggest checking out ""A First Course in Abstract Algebra"" by Fraleigh because Fraleigh provides many more ""concrete"" examples than the typical author. When you read the textbook, try to make sure that you understand each sentences and write ideas that feel important down. Then definitely do some of the practice problems at the end of each chapter. If you want to challenge yourself even further and read more difficult books at the same time, I would check out the book by Artin or  Dummit and Foote. This book can be found on genlib (if you are comfortable with that)."
+mathematics,fk08mop,t3_ffs3tu,1583747183.0,"Hi there! Which sources have you tried to use so far? Some algebra books can be quite dense and difficult to understand, and mathematics books can be notorious for inaccessibility. I struggled to understand algebra at first, but I feel comfortable with it now. If you let me know what you have tried so far in a comment, I can hopefully point you towards some sources that helped me or some my peers understand it more. Also, you can ask questions or look for previous questions about topics which confuse on mathstackexchange. There are some really nice explanations on that website."
+Asexual,fk0836k,t3_ffesis,1583746407.0,Congrats -  I am so happy for you! I came out to some supportive friends for the first time this week too :)

@@ -1,0 +1,160 @@
+Xcom,fr4fn49,t3_e48jcq,1589886710.0,"Imperial stormtrooper recruiters:
+
+""Allow us to introduce ourselves"""
+Xcom,fr4ezfx,t3_gme8k2,1589886097.0,"As players we rely on high percentage shots but never on low percentage shots. There are times where hitting a 20% would save you, but because it's not very likely, you make another move instead. In this way we setup situations where it's possible to get unlucky but pretty much impossible to get any meaningful amount of luck. This is why it feels like you constantly get unlucky.
+
+If that makes any sense.
+
+For example if you plan to setup an ambush and wipe out an enemy pod in one go and go for it when you have a good chance of doing so, you can get unlucky and fail, but you can't get lucky because it can't ever get better than wiping out the pod."
+factorio,fr08d5f,t1_fqyp19c,1589786909.0,"Oh, you're toblerone. Some people at the discord wondered what became of you a few days ago."
+Showerthoughts,fqyfepc,t3_gljzlp,1589747707.0,Harry potter does not kill Voldemort in pirates of the Caribbean. Consider yourself spoiled!
+FreeSpeech,fqyeqkd,t3_gljcd1,1589747400.0,Me no understand
+factorio,fqx54my,t1_fqwzr60,1589726016.0,"I have yet to get to the space part but yeah it is. Just the fact that there are 9 tiers of modules says something, and if you load up a finished vanilla world with SE, you will have completed less than half the technologies. Especially with krastorio2 and aai industries it gets really overwhelming to look at, but going at it one step at a time has worked thus far. I'm planning on visiting my first planet soon, I just need to rebuild my solid fuel production after the recipe was changed."
+Xcom,fqx0ypk,t1_fqwwseu,1589723143.0,I had someone like that too in my long war campaign. A Finnish sniper funnily enough. He died on Gangplank
+CrazyIdeas,fqwylal,t1_fqubx88,1589721395.0,Now that got me thinking about the colloquial meaning of a straight line
+factorio,fqwuaer,t1_fqwtp6v,1589717819.0,"Are you talking about SE 0.3? I don't think it's technically out yet being only available on 
+ discord, but I can imagine it being annoying to test because of how much it changes from 0.2"
+factorio,fqwsbr7,t1_fqwk9k8,1589715985.0,"I'm using a filter in space exploration+krastorio2 where you can process core fragments which gives a mixed output of iron, stone, copper, coal, rare metals, vulcanite, imersite and uranium"
+MurderedByWords,fqwrjxj,t1_fqwiv2a,1589715227.0,Wtf was Obama thinking?
+MurderedByWords,fqwr6mz,t1_fqwpkn7,1589714854.0,I'm not particularly well read in the goings of American politics. Would you care to explain what Obama actually did?
+FreeSpeech,fqwq9vh,t1_fqvkmsn,1589713920.0,Why did you post an argue about a lawsuit that some conservative made on somebody else which didn't seem to have anything to do with Steven Crowder?
+lingling40hrs,fqq109r,t1_fqoxj6r,1589557542.0,"The French horns are talking. How come when something is horribly out of tune, it's always you four?"
+iamverysmart,fqp0snp,t1_fqozx0x,1589530977.0,"Hard to say without context but there is no reason why a bracelet can´t be thought provoking. You are making an argument from ignorance by stating that because you can´t find the bracelet (or any bracelet for that manner) thought provoking, it can´t be thought provoking. This person might just be interested in bracelets, and the things a person who is interested in and knowledgeable about something notices about those things can differ greatly from someone who is not.   
+
+
+A professional musician could hear what is basically the musical equivalent of post modernism and call it thought provoking, yet someone who is not musically schooled would probably just hear noices."
+Xcom,fqozv85,t1_fqlyb0z,1589530075.0,"yeah that´s how I usually did it. I would advance and clear the map, activating any pods in my path and dealing with them as fast as possible. But it´s way better to have them run into your overwatch ambush or even better to have a flanking party preprepared. And then you want to minimize line of sight footprints meaning if all goes well you see very little of the map and don´t activate any pods. When I see a corner, I want to clear it to see what´s behind it, but I shouldn´t because the more line of sight you have, the bigger chance of activating pods in non ideal situations."
+factorio,fqoww9y,t3_gjizzs,1589527348.0,Imma just go ahead and steal this design to filter core fragments in space exploration
+factorio,fqhjk9p,t1_fqh46ak,1589378277.0,"yeah that could be an issue if it takes longer than say 60 seconds for a train to go from the depot to the station. I will consider either rebuilding the thing or switching it back to manual and fuel the train at the station instead. Issue with this is that I´m apparently completely retarded because I just realized that I´m turning sulphuric acid into barrels in order to transport it by a train just to instantly turn it back into acid. Well that´s not the issue. The issue is that the acid goes to two different stations and possibly more in the future and a problem that can arise is unbalanced barrels. This happened in my uranium mining where one outpost ran out and accumulated all the barrels, starving production of sulphur barrels which relied on the barrels coming back, which halted all uranium mining.   
+
+
+So, next on my to do list is to just use a single sulphuric acid train station with fluid wagons which solves all of those problems. Then I just gotta figure out how to make fluid wagons unload in a balanced way, because what usually happens is that one tank empties faster than the others at the destination, so one wagon can´t unload anything because its tank is full even though there is space in another tank because they don´t even out for some reason. Or krastorio ones don´t anyway. This is a major problem with LTN, and i started an experiment to only request once the requesting station can hold twice the fluid."
+factorio,fqf3bw1,t3_gifusx,1589318019.0,"update: I solved it by running the outputs from the providing chests into deciders which sent a signal with a value of 1 if the incoming signal was >600. Then I sent that into an arithmetic combinator multiplying the result by 600, and input that into the logistic train stop like normal. That way the network only ever sees the chests as having 0 or 600 meaning it can´t request any other amount, which is just what I needed. Thanks for your suggestions."
+factorio,fqelph6,t1_fqehgnc,1589309636.0,"it does know the train capacity. What it does not know is that I only use one out of 4 wagons. The first wagon is for sulphur barrels. The second is for empty barrels. Third for used filters and fourth for unused filters. If a train is requested to bring barrels from one station to the other, it will think that it has the capacity of four wagons and request up to 240 barrels. But since the barrels are only loaded unto one wagon, it can only carry 60, so it stands around and waits instead."
+lingling40hrs,fqel59h,t1_fqeitf8,1589309372.0,yep that´s it. The jazz world has gone over to B and Bb much more than the classical world has.
+factorio,fqeh9ck,t1_fqego9q,1589307526.0,yeah but the threshold signals listed in the manual only set a minimum threshold. If I put it on 600 it means it will only request items once the provider station has 600 or more of that item. what I need is a max threshold for the request itself so that the network only ever requests 600 or fewer items at a time.
+lingling40hrs,fqefptr,t1_fqed95u,1589306795.0,a lot of people do but I wouldn´t say almost everyone. Most of the people in GSO and other professional orchestras still use h and b.
+lingling40hrs,fqdrvgt,t1_fqdoboi,1589295507.0,"Yep, which means Bb. But many people today use the more logical system of B and Bb rather than h and b. Leads to some confusion regarding what note someone is referring to."
+lingling40hrs,fqdifgc,t1_fqdcvqi,1589290356.0,"The history explains it. Basically, instead of writing B and Bb when typing on typewriters, different versions of the letters were used here. The b natural was very similar to the letter h, and so it was eventually called h. Or that is how I understand it anyway."
+lingling40hrs,fqd8k35,t3_gi8bc5,1589283262.0,In Swedish and German we have AHCDEFG
+FreeSpeech,fq9iyi4,t1_fq898y7,1589199627.0,"*you're 
+
+Sorry couldn't resist."
+FreeSpeech,fq9ittv,t1_fq861uh,1589199521.0,"Agreed, it did not follow their rules as I understand them, but neither was it trolling."
+memes,fq8fbbq,t1_fq7vg8v,1589164913.0,Idk about mental disorders but from reading reddit comments I have learned that there are kinks associated with it
+HistoryMemes,fq2ua9m,t3_ggfsk3,1589059773.0,"I didn't know the name of the guy, but I didn't need to in order to instantly know who this person was."
+memes,fq2qa4g,t3_ggiwq0,1589058587.0,I mine all 59 just to save myself the hassle of throwing it away
+IsItBullshit,fq20dmi,t1_fq1s7hv,1589051697.0,"At first I had no idea what you were trying to write (because when ""It"" is the name of the movie it makes the the sentence seem nonsensical until you understand that) but thought about that exact movie. On the third read I understood."
+Xcom,fq1vs2h,t1_fq1ufky,1589050077.0,"Thanks for the tip about hiding behind trees. I realized too late that I hadn't brought any battlescanners or a scout, but that was never the problem here. When I finally found it, my sniper disabled it and it only managed to deal some damage with a grenade."
+memes,fq1t07z,t3_ggi9yf,1589048873.0,Literally saw this cyanide and happiness episode yesterday
+FreeSpeech,fq1qfyl,t1_fq1a092,1589048061.0,You don't Think it's nice? Do you like one sided circlejerks or did you mistype?
+Xcom,fq1o2i8,t1_fq1lboo,1589047393.0,"Well, perhaps I should invest in AP ammo. I just faced another one though it wouldn't have helped here. I broke line of sight upon contact after having my sniper shoot one of the drones down. The disc shot my Jaeger to half health from beyond my line of sight somehow. Next I sent my rocketeer to forward scout into heavy cover yet found nothing despite moving a fair number of tiles forward from where the MEC had been hit. Next turn the disc blue moved into my heavy and one hit him from beyond line of sight. This was in a forest so it might be possible that it was hidden by a tree which makes no logical sense but line of sight is pretty ridiculous in xcom so perhaps. Still it doesn't make sense that it had vision when I didn't."
+Xcom,fq15inv,t1_fq0vvnj,1589042024.0,"At least they are not Destroyer Cyberdiscs. I faced one down a short time ago and it seemed like its damage control perk stacked because the last few shots reached 6 damage reduction. 6 damage is what a laser rifle does with the ranger perk on average. On top of that it has regen and spawns with around 4 tanky drones that repair it.a fucking nightmare to face, and controlling it is really hard too. Sure you can suppress it but only if the drones can't break the suppression and as long as the cyberdisc is dumb enough not to move and take the reaction shit that barely does any damage anyway.
+
+Met my first one at my first landed battleship, and it was the first mission I failed in my playthrough. I never got further than the disc. It killed my sniper and refused to go down, and then when two mec foids turned up I aborted mission and got the rest of my team outta there"
+Xcom,fq13nez,t1_fq10gph,1589041293.0,"Yeah long war replaces the old classes with 8 new ones and 8 different MEC classes, and changes a shit ton of other stuff too. Definitely worth trying out if you have way too much spare time because it's a LONG war."
+Xcom,fq12qmd,t1_fq129un,1589040957.0,"If not, why don't the aliens just use them all the time? Fuck abductions. Just 10 terror missions a month would leave even normal difficulty impossible"
+Xcom,fq0yi9g,t1_fq02urs,1589039214.0,"I'm more concerned that every soldier throwing a battlescanner is someone who is useless for two turns. That's why I prefer using the minimap scanners whatever they are called and always bring two of them. That way I can often safely dash my team to wherever I need to go and it allows me to safely activate a pod the the same turn as I scan without having a soldier out of moves. 
+
+I don't know how randomly dying civilians work but there were no corpses where I advanced. Lots of zombies further ahead transforming into chryssalids soon after I encounter them, but if I had brought scanners, my advance would have been slowed to such an extent that I wouldn't have gotten vision there faster anyway. The entire mission was probably over in 5-6 turns with most of the civilians being killed by chryssalids in the first three turns around 3 yellow moves away from where I could get vision of them."
+Xcom,fpzjrz3,t1_fpyqtn3,1589019216.0,"Last terror mission I had in long war I started at the other end of the map than most pods, and 5 or something civs died the first turn. There was literally no way to prevent half of them from dying, and then you get basically nothing except panic out of it. Terror missions feel so unfair"
+FreeSpeech,fpzjd1n,t1_fpybr81,1589019038.0,"Come on, it's just a question of relatives and absolutes. USA is the country with the most absolute military power in history. But relatively the Roman empire was more powerful. But then again all power isn't absolute, and things like the UN check the powrr if the USA. This is all a mute point anyway. Who tf cares"
+FreeSpeech,fpzigam,t3_gg570s,1589018676.0,"Horrendously untrue. I'm from Sweden which is a notoriously PC and hiveminded country but there is nothing preventing you from speaking out against the government. The only you are not supposed to have are the ""wrong"" opinions, but what those are is decided by the hivemind not the government. We laugh at American politics because they are an idiotic parody of politics. There is no other reason."
+Bandmemes,fpzh6ku,t3_gg7n6n,1589018202.0,"""Song""
+
+AcKTcHuALly it is called a piece.
+
+On a serious note though, good music for concert band doesn't just have trumpets play the melody all the time. Check up El Camino Real. That's some good shit right there"
+memes,fpwaj75,t1_fpwa6ck,1588960065.0,r/uselessredrectangle
+memes,fpw9xab,t1_fpw5lys,1588959767.0,I don't see any red circles
+lotrmemes,fpw9dhj,t1_fpw4zxc,1588959500.0,Sit down Frodo
+lotrmemes,fpw9axu,t1_fpw1w6w,1588959465.0,"Scene makes much more sense if he was enhanced by the ring. If not, it's just silly plot armor"
+suicidebywords,fpvio7q,t3_gfouhv,1588945572.0,Kamikaze by words
+Xcom,fpgzsam,t1_fpgggp0,1588612435.0,"But yes I finally made it with only those three troops, though my gunner tank died after being hit by a muton, a cyberdisc grenade and finally a thin man killing him through heavy cover"
+Xcom,fpgssgb,t1_fpgggp0,1588608859.0,"I pushed forward into another group of mutons, but on my terms this time. Killed one, flashbanged two and the last one was out of sight. One of the flashbanged ones one shot crit my support with a 1% shot..."
+Xcom,fpeuv35,t1_fpe7a2l,1588555435.0,"The permadeath is what makes xcom xcom imo. if you fuck up or simply get unlucky, it has consequences which are permanent. I don´t think you should be unable to recover from them though. What I mean by that is that I don´t like the concept of having unique heroes that are better than your normal troops but can´t be replaced. That´s something I like a lot with EW that your soldiers what you make them to be, and if one dies, especially a high ranking one, you get sad, but it´s still acceptable because you can get a new one which can be trained to become just as good."
+iamverysmart,fp5n2jy,t1_fp5jsee,1588334855.0,"It feels like people will call anything Iamverysmart on this subreddit. Just correcting someone is enough, especially if there is a typo because typos make you an idiot apparently. The fact that this is an idiom is highly ironic."
+CasualConversation,fp1rui4,t1_fp1f8q4,1588245878.0,"I'm on mirtazapine which is sleep inducing but it mostly makes me sleep for much longer. Normally I struggle to sleep for long enough because I often wake up prematurely, especially when going to bed late, but now I can go to bed at 4 am and expect to wake at 4 pm."
+CasualConversation,fp1rh9j,t3_gao7qm,1588245538.0,"I did that when on a language travel. I fell asleep soon after we got there and woke up utterly confused with no memories of how or when I had fallen asleep. I thought it was morning when it was still afternoon, so I went to the bus station because I heard the others were going and joined them,  but upon seeing the station, I doubled time back because I had forgotten my card. Only when my hostess asked whether I wanted something to eat did it come to me to ask what day it was. Apparently it was still afternoon. I had slept through dinner and woke up as the others went to have a look at the bus station or something."
+AskReddit,fox6c78,t1_fowkfa5,1588135168.0,Imagine trying to call for your daughter but accidentally let slip the dogs of war instead.
+iamverysmart,fottpuq,t1_fotesze,1588065786.0,"I thought it was that the evil daemon thought experiment and that the only thing you can really know is that you exist are ideas accepted by most people in the philosophical community while his attempts at proving things aren't. As in, people only read the first two meditations because that's where his good ideas were."
+iamverysmart,fott4lf,t1_fotl5nk,1588065183.0,"Did he think that AI needed to have a body to be intelligent? Because I can't see how having a body could possibly have an effect on whether or not it can be intelligent. It's not some great mystery why we can't build artificial intelligence yet, it's just that such an AI would be extremely complicated. We can't even understand exactly what goes on in our brains yet"
+unpopularopinion,foacshg,t3_g6aq8m,1587644531.0,Have cause and correlation been separated in those tests? Crime rate in prisons is probably very high so we should abolish prisons to decrease crime rate right? Not saying it is like that but several of these things could be correlations that have to do with the type of people who watch porn rather than porn having an actual effect
+memes,fo3w5o7,t1_fnpysxt,1587493956.0,I commented once directly to a post made by someone who was infected which I believe should give me around 1% chance of getting infected and next thing I knew I was infected
+memes,fnob3nd,t1_fnoa7po,1587118932.0,Yeah I thought you could send in DMs but it seems the only way is something like an imgur link.
+memes,fnoa3l0,t1_fnoa1al,1587117848.0,I know but I still want to know how the planets look like in comparison to stars
+memes,fno9zu6,t3_g2w53p,1587117734.0,Calling Jupiter the neighbour of the earth is like calling Germany neighbors of USA.
+memes,fno9tx9,t1_fno69h3,1587117562.0,Thanks for telling me what I missed
+depression,fnj9v67,t3_g1zjib,1586994739.0,"I feel like I have a knot in my stomach most of the time and I have constant cravings to like, hug someone, but hugging only temporarily dampens it. Sometimes, and recently more often I suffer a depressive episode which is comparable to hitting a knee hard so that the pain and making it stop is all I can think about, but while the knee pain recedes quickly, the episode doesn't."
+memes,fnj8jbz,t3_g1y9uc,1586994005.0,What do you expect from someone with the name Lorenz?
+memes,fnd7ado,t1_fnd5tpx,1586861494.0,Fuck I got infected
+lingling40hrs,fnd75zr,t3_g0w85l,1586861366.0,"I saw the video but the sound is turned off by default, yet I still heard the piece in my head just by looking at the video. So I turned the sound on and it was the exact piece I thought it was"
+sweden,fnd6zp7,t1_fncwofw,1586861183.0,Jag fattar att kända personer påverkar de som lyssnar på dem. Jag fattar inte hur det kan vara ett yrke att påverka andra personer på det sättet
+memes,fnd5v4x,t1_fnd50f3,1586859946.0,r/suddenlygay
+memes,fnd5tpx,t3_g11b5a,1586859904.0,That's a larva. A larva going back to his wife is like a toddler going to his one night
+HistoryMemes,fnd5epx,t1_fnd12ua,1586859448.0,I don't want to hear any more about that fucking bard
+factorio,fnd561n,t1_fncw0df,1586859178.0,"You can take the blueprint, put it out, draw an upgrade planner over it and blueprint that and the  delete. Whoop, now it's blue"
+depression,fnaqkmh,t1_fn989s3,1586802076.0,"All of that boils down to living for the sake of others, except growth. But there is nothing intrinsically good about growth. It just makes you better at life. And not all growth benefits you even. It can break you down and turn you into a wreck instead."
+memes,fnaphxm,t1_fnadpdv,1586801534.0,I don't want to get infected
+lostredditors,fna3dc0,t1_fn9w7q5,1586790242.0,We have come to honour that alliance
+unpopularopinion,fn9e2me,t1_fn89d3d,1586769376.0,I agree with her. I don't think you should commit suicide on a whim because you might change your mind. She wanted to die for several years though.
+Cringetopia,fn7yvdp,t1_fn7u6gu,1586730412.0,"Whether Jesus existed is an ongoig debate, and it's hardly one-sided in favour of him existing. I will link an article from an atheist questioning the evidence for him.
+
+https://www.atheists.org/activism/resources/did-jesus-exist/
+
+According to the article all of the original evidence for Jesus comes from the gospels. Flavius Josephus wasn't even contemporary and was born year 37 AD. 
+
+The gospels are very shaky sources because their real identities are unknown and it's not even certain they were eye witnesses. Their works have been modified and the different gospels show signs of plagiarizing each other. That is no foundation for anything. 
+
+Hinduism talks about Krishna. To assume that Krishna is Jesus you need to already assume that Jesus exists. To Hindues, Jesus is not Krishna.
+
+>If someone didn’t think this, then where did Christianity come from?) So now we have to ask ourselves why people thought this.
+
+People also believed in trolls and giants, that the Persian army attacking Greece under Xerxes was 10 times bigger than it actually were, that Greek gods fought in the siege of Troy and that there are Krakens out at sea. For all we know someone might have been looking for Jesus but went to the wrong place and instantly assumed he had resurrected and then retroactively added content to make the story more believable, because the brain is good at modifying memories.
+
+But do we even know whether the original person who said that Jesus had resurrected believed that he had? It might have been a tale, a legend, anything. Maybe the resurrection part was added to make the story more spectacular.
+
+>Well, if that were true, why would they be so willing to die such horrible, painful deaths for their faith? One of them was even tied to a horse and dragged down the street until he died. These people obviously had good reason to believe what they did. If there were any doubts in their minds, they would’ve given up
+
+Denial perhaps? Because the sources are shaky, it can't be assumed that what is said to have happened really happened, so people crying out that Jesus was alive might just not have happened. But you can't assume that just because people are willing to die for their faith, it means that they have good reason  to believe. Have you heard about the cult of heaven? Or perhaps the cult that starved themselves to death because they believed they didn't need food because their belief in god would be enough? They all died, and they were all proven wrong."
+Cringetopia,fn7szol,t1_fn7ryqx,1586727019.0,"I can't comment on what historians think about the bible, because I know nothing about that.
+
+>Take human morality for example. Why do we think certain things are wrong and other things are right? We see animals killing each other and stealing from each other all the time, so why are we different? Why do we have this sense that certain actions are wrong? If we truly evolved to survive, then our instincts would tell us to steal and kill, but the opposite is true. Our instincts tell us that’s wrong. Where does that sense come from? Any credible philosopher will tell you that without a God or any other higher being, morality is non-existent.
+
+You are missing a key ingredient. And that is the fact that cooperation  is evolutionarily beneficial. Scientific experiments have been done to confirm that having morality can be beneficial to an individual and could have evolved. Because sometimes what is beneficial to the group can be more beneficial to yourself since the rest of the groups will judge your behaviour and be less cooperative if you are selfish, which is detrimental in the long run. Even some animals have morals so it's not even unique to humanity."
+Cringetopia,fn7r72m,t1_fn7qccl,1586725984.0,"The difference is that there is abundant quantifiable evidence for the coronavirus. The evidence for God is so non-existent that Christians can't even agree upon what god is and can or can't do.
+
+Just because Homeros wrote a book about the war against Troy doesn't mean that everything in the book was true, or the war existed, or even that Troy existed. And the Illiad is a much more reliable source than the bible."
+Cringetopia,fn7ptcr,t1_fn7plcp,1586725190.0,"That rationale can be easily refuted by just not believing in god. Anyway, what god could be loving yet let you suffer such a horrible life that you are pushed to commit suicide?"
+Cringetopia,fn7mnu9,t1_fn6oc3f,1586723380.0,"I mean, yes and no. Yes, if you think suicide is the way to go, you need help,  but not because you are wrong necessarily. I definitely think there is a case to be made to take your own life and save yourself a lifetime of misery in certain scenarios."
+unpopularopinion,fn7d16c,t1_fn60hs6,1586717922.0,"Maybe those people were on the edge and the show gave them the courage to do it? I don't share your opinion that suicide is always bad. I've read enough to know that living doesn't always end well, and if given the choice between killing myself now and having a 50/50 of ending up in the scenario I fear I will end up in in 20 years, I would rather kill myself now and not have to live through 20 years of nightmare."
+unpopularopinion,fn7cdxt,t3_fztd0q,1586717558.0,"""Don't do it because People won't care."" 
+
+That's a reason for doing it. You kill yourself because you don't want to live. Not to spite others."
+ForeverAlone,fn6za4v,t1_fn5etao,1586710256.0,Nope
+PrequelMemes,fn6v4ou,t3_fzugzk,1586707955.0,My allegiance is to mutual ownership. To communism!
+4chan,fn6mjrk,t1_fn64aod,1586702883.0,True but nothing points towards there being a way to guarantee victory for either side
+4chan,fn6doub,t1_fn6d6l4,1586696391.0,"Yes, but you don't lose just because you played black. If your moves were just as good as your opponents, you probably got a draw, even if your chances of winning are higher with white. The higher the player levels, the more draws happen generally. Computer programs draw most of their games against each other."
+Showerthoughts,fn61omn,t3_fzo4xw,1586683955.0,"Just try leavong the planet and it won't feel as weak anymore. Even if you shoot a bullet straight up, it doesn't have enough velocity to escape."
+iamverysmart,fn61f7e,t1_fn3i422,1586683670.0,"Idk but to me it doesn't seem like most people start thinking about how the speed of light connects with time dilation and how the actual speed of light could be describes as infinitely fast but observably constant due to said dilation, or whatever one might think about. And that's just a matter of interests and priorities. It's ok not to care about science, and it doesn't make you a lesser person. 
+
+I think believing in your own superiority in this way is a coping mechanism from being ostracized by people around you for being different"
+4chan,fn5xugy,t3_fzq5iy,1586679782.0,You can't lose just because you didnt go first . With perfect play on both sides it's a draw I'm pretty sure.
+PrequelMemes,fn3qff9,t1_fn3nr1b,1586625904.0,"Don't you mean ""they're light  sabres?"""
+PrequelMemes,fn3qa9v,t1_fn36nb2,1586625824.0,A meta meme is a meme about memes. A meta thought is a thought about thoughts. I think you see the pattern.
+skyrim,fn3p2r3,t3_fyz2x3,1586625141.0,"Make it a ""every day I find a new way to crash Victoria's wedding"" series"
+unpopularopinion,fn37bie,t1_fn1r573,1586614599.0,"Piss Jesus is a work asking whether the means to create art influence the art itself. 
+
+The early dadaism used nonsense to ask what constitutes art. A professional artist putting a toilet seat on an exhibition for example. The difference is that these things aren't there to be beautiful, they are just there to ask questions and challenge ideas. 
+
+This does not mean that there aren't just pointless nonsense in art, but just because something isn't a traditional painting doesn't mean there is no thought behind it"
+MurderedByWords,fn35gi6,t3_fz43s4,1586613319.0,I wouldn't want to live on life support anyway
+iamverysmart,fn2sqwn,t1_fn2sja8,1586601809.0,"I said it was a coherent argument. Not a good one. He doesn't support it with any evidence, so the truthfulness of it depends on unknown factors unless you have prior knowledge supporting it.
+
+Edit: to answer your question. Actions taken to solve a problem could have backwards effects. For example, buying ecological food to save the environment has a counterproductive effect according to my friend's father who studies this sort of things. That is because of the increased resources required to produce the same quantity of food. Obvious solutions can have negative side effects negating whatever good they do. But regardless, while it is not the case that your actions have NO effect, the effect they have can be negligible in comparison to what you can achieve with larger scale political decisions. This all depends on facts that I do not know"
+lingling40hrs,fn2khk3,t1_fn0yt82,1586592362.0,Shostakovich 10th has entered the chat
+IsItBullshit,fn2k60t,t1_fn1qn48,1586592006.0,"That's not scientific in the slightest. Even if everyone who commits sex crimes are addicted to porn, you can't deduce that porn causes sex crimes. Only that they are correlated, and it might as well be that the type of person who might commit a sex crime is drawn to porn but would have committed sex crimes regardless.
+
+In order to test this scientifically one would need random participants placed into maybe two groups where one watches porn and one does not, and then you examine if it creates any differences between the groups."
+iamverysmart,fn2hl6z,t1_fn1v61e,1586589288.0,"I... what? I wrote what he said. Why do
+you conflate that with my own opinion?"

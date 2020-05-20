@@ -1,0 +1,257 @@
+INeedAName,fr4f9pe,t1_fr2fo1t,1589886364.0,"That's a pretty good one, I was thinking along the same lines."
+gaming,fr0of4w,t1_fr0kcyv,1589802397.0,"It is generally understood in game dev circles that there are 8 main types of ""fun"" in games, also (like you say) different gamers prefer different things.
+
+If everyone liked the same things, there would be only one genre of game.
+
+
+source: 
+https://medium.com/@mattfenner/8-types-of-fun-in-video-games-4b38104e6532"
+INeedAName,fqw5age,t1_fqtnc5r,1589693258.0,"Haha! I like this one!
+
+edit: oh damnit, it is already taken
+https://store.steampowered.com/app/1082750/Wacktory/"
+gamedev,fqt0t2b,t1_fqsrv5a,1589626001.0,came here to say the same thing.
+programming,fpwnjip,t1_fpvpc0c,1588966586.0,"You can't always just take staff from one role and put it in another. They have significantly less work in the jobs and hiring section, but have growth in other sections (probably sections that didn't make as much revenue)"
+awslambda,fpv5h9s,t3_gfbdfd,1588935574.0,"Cloudwatch is actually quite good for lambda monitoring. There is x-ray as well, but I haven't actually used it.
+
+There is also the feature in Cloudwatch to parse your logs and alarm based on occurrences of a pattern in your logs e.g. lines which contain ""Exception"""
+funny,foe4oqp,t1_fod57f7,1587695962.0,Maybe check out /r/MadeMeSmile
+blender,fo2r9fg,t3_g5c93d,1587472040.0,"This looks really great. If you would like some constructive criticism, I think you need to incorporate some surface tension, making the soup grip to the edge of the bowl.
+
+see here:
+https://image.shutterstock.com/image-photo/delicious-pumpkin-cream-soup-bowl-260nw-1199169958.jpg
+
+See how it goes up the edge of the bowl. 
+
+Any liquid will do this, even water:
+https://www.usgs.gov/media/images/meniscus-pulled-water-along-glass-walls
+
+However something thick like soup will probably do it a bit more, since it 'grips' to the bowl more."
+pics,fns66e5,t1_fns4vsb,1587213848.0,"As someone who lives in a country where we don't have the snack called ""Goldfish"" I was a little worried for a second there. Especially given the context of this post."
+devops,fnko11m,t1_fnifal6,1587034390.0,"If you use confluence there is a draw.io plugin which is great, as well"
+Anxiety,fn8edy8,t1_fn5h2wk,1586739768.0,"I have this problem a lot.
+
+Some things that have helped me:
+
+Mostly it is about learning to judge myself and my actions less (this is easier said than done, of course). 
+
+- Learn that rest and recreation is good for my mental health, rest *is* actually productive.
+- Learn that there is always going to be more time another day. If I want to just watch tv now. It's ok, I can always do the other thing another day"
+devops,fmvqtrh,t1_fmqy4jy,1586427355.0,"I think in general making all changes through code is good, but there are plenty of times where you have an emergency and just need it fixed.
+
+In my team we do this occasionally, but the next time you do a deploy your changes will get overwritten, so you better make sure you get it into the code before the next deployment."
+unity,fmvqoh4,t1_fmqznzl,1586427190.0,"Would this implement existing rules e.g. D&D 5e or Pathfinder?
+
+Also, for clarity, I wasn't implying that you shouldn't do it. But just that you should know your market, and make sure you differentiate. But it looks like you already."
+unity,fmvqlwu,t1_fmqq3cr,1586427109.0,"Sorry, I wasn't implying that they shouldn't do it. But just that they should know their market, and make sure they differentiate."
+gifsthatkeepongiving,fmugzgw,t1_fmuf2bz,1586391224.0,"""How few deaths"".
+
+Use few when the number is countable ( a discrete amount). little when it is uncountable (doesn't come in discrete units). 
+
+https://www.google.com/amp/s/dictionary.cambridge.org/amp/british-grammar/little-a-little-few-a-few
+
+E.g. we have a little bit of milk, a few litres. Litres are countable, 'a bit' is not
+
+Hope that helps"
+devops,fmuf07f,t3_fwpbzx,1586390107.0,"Maybe vault if some of the parameters are secrets, e.g. passwords.
+
+Maybe SSM if this is all in AWS"
+docker,fmkxz0z,t1_fmjusjf,1586172822.0,"Like someone else said, would pushing the image to a registry and having the other students pull from that registry do the trick. Then you aren't explicitly giving out the source code, they would at least have to work for it.
+
+I am still a little confused what you are trying to achieve here.
+
+Are you trying to make it like a real world environment? If so, then why not actually host in a real web server that the students don't have access too. E.g. run it in AWS fargate or something? Maybe have them commit their code into a repo (a separate repo for each student), and some automation scripts build and deploy it to the server (so noone other than yourself needs access to the server, and each student only has access to their own repo)
+
+p.s. if you do run it in AWS, you need to let AWS know before you do a pentest on their stuff. From memory there is a form you fill out."
+docker,fmkxpvt,t1_fmkos33,1586172570.0,"I'm not sure, for this case, the students need to run it on their own hardware."
+unity,fmkxa6f,t3_fvpd6q,1586172123.0,"Do you mean similar to Fantasy Grounds or Roll20 etc?
+
+If so, I hate to tell you but there is already a lot of products in this space. Although, I would have to admit the ones I have used could definitely have room for improvement."
+gaming,fmjndf5,t1_fmj9kek,1586133822.0,TL;DR: don't bench press while playing dark souls.
+funny,fm7h2o0,t1_fm6t9vq,1585826751.0,"No, you really shouldn't"
+videos,fm6t4c7,t1_fm64oy1,1585802493.0,Once my kid insisted on eating a frozen nugget because he didn't want to wait for it to cook
+aws,fm3xs4k,t1_fm3cz91,1585740782.0,"If you normally only play at a certain time of day, shutting it down when not in use can give you big savings.
+If you want to leave it running full time, you can use Reserved instances (or a cost savings plan) to save money (if you know you need it for 6 months or more)"
+videos,fm3fgz8,t1_fm38nj1,1585721740.0,I'm with you there!
+Oxygennotincluded,fm2df4f,t3_fsg060,1585695266.0,What happens after 999 launches?
+Oxygennotincluded,fm0dksb,t1_fm0b02a,1585654359.0,"yes, but it was very hard to tell gases apart back then."
+google,flll851,t1_flk0nxg,1585262598.0,"I have no idea. I'm not a doctor. But the link I posted is from a bioengineer, but maybe I misunderstood. You seem to know more about it than I do."
+google,flju9d6,t1_fld1tfo,1585226709.0,"I hate to be the bearer of bad news. But if you have had the virus, it doesn't make you immune from having it again.
+source: https://youtu.be/EbjqGIjeeAc at around 1:55"
+devops,fljl125,t1_flhgg45,1585217155.0,"If you don't have much free time, then that's even more of a reason to use Infra as code."
+google,flczteq,t1_flcafp3,1585052567.0,"I saw a video from a nurse basically saying that since they don't have a cure right now, they can only treat the symptoms.
+
+So if your symptoms aren't bad enough to go to an ER, then there is probably not much that you would do differently even if you knew you had covid-19.
+
+So you are probably doing the right thing, by isolating yourself, but not going to the ER or anything like that.
+
+Keep in mind, i'm not a doctor, I'm just repeating what I heard.
+
+Of course, if you start having trouble breathing or anything, of course go to the ER.
+
+Edit: I don't know about your country, but in my country there are some services popping up where you can talk to a doctor through video chat on your phone. This is good if you just want to get a doctor's opinion, but don't want to leave the house (and risk infecting others)."
+funny,flcz4ld,t1_flcuvdq,1585051941.0,"Noone said that. All he said was ""be careful, he might get diarrhea"". Chill out dude."
+Oxygennotincluded,flcxm84,t1_flb6ab8,1585050476.0,"The space stage can go on for a while before the ""end"" of the game, you need to create increasingly more powerful rockets to get further and further (each one requiring more exotic fuels to be crafted)"
+cloudcomputing,flcxb2v,t3_fo2i89,1585050163.0,"In my experience Cloudformation starts having issues as soon as you move past a very simple case.
+
+As soon as you want anything beyond a completely basic scenario (e.g. differences in different environments or larger than a few services worth of stuff) I would recommend Terraform.
+
+Surprisingly, Terraform also tends to support more of AWS than Cloudformation does. I am guessing because it is open source, so as soon as something is missing, someone adds it."
+gaming,flbtpn4,t1_flbma2m,1585012382.0,You can do local coop. But it isn't the best. The second player is pretty restricted (think tails in sonic)
+brisbane,fl9m2uv,t1_fl9f92w,1584961680.0,"they also have people in hazmat suits checking the temperature of every kid who walks through the gates, which we don't have."
+brisbane,fl9m0vk,t1_fl997ju,1584961617.0,"It's complicated, because if they close the schools, there will be a lot of medical staff that won't be able to work.
+
+So far there has only been 4 confirmed cases for under 10yo. Kids seem to be much less likely to get it than adults, at least with the stats we have so far."
+brisbane,fl9ly0o,t1_fl9dndn,1584961524.0,"Most daycares near me are full up, so if you unenroll, there is a good chance you won't be able to get back in again."
+Unexpected,fl6lzm0,t1_fl6i552,1584874968.0,Also in illegal in Australia since she is indecent (assuming she didn't give consent)
+devops,fl3oswj,t1_fl2w1om,1584793367.0,"Really, I can think of lots of faults.
+
+But like Jenkins, it is the swiss army knife. It aims to do everything, but that makes it complex and easy to get wrong, if you aren't familiar with it."
+devops,fl3oq7c,t1_fl2h35e,1584793286.0,"Isn't that the kind of opposite of DevOps.
+
+Although, I would argue, instead of stopping devs from having access, you should just be making your environments much harder to break e.g. immutable images, backups, monitoring, scaling etc."
+devops,fl3oizf,t1_fl26che,1584793071.0,"I've never used GitLab CI/CD before, but I would recommend using Octopus for Ops stuff. 
+
+In my experience it is better to use a build tool for building, and a deploy tool for deploying, rather than trying to find one tool which will do everything. YMMV"
+unity,fl3oa88,t1_fl34d9c,1584792806.0,"I would be more concerned about stealing the name and IP from the people who own the ""Dragon Ball"" trademark, since they probably have more lawyers, and actually have registered a trademark with the trademark office.
+
+https://www.uspto.gov/page/about-trademark-infringement
+https://www.nolo.com/legal-encyclopedia/when-you-need-permission-use-trademarks.html
+
+From my understanding, basically if they can convince a court that people might be buying your product because they think it belongs to the people who own the Dragon Ball franchise, then you can be sued. In other words if people might be buying things in your game because they think it is a ""real"" dragon ball game. Which in this case, I think would be pretty easy to do if you use the dragon ball names, characters etc.
+
+I think your situation is quite similar to this quote from the above source:
+
+> Trademark infringement is the unauthorized use of another person or company's registered trademark. For example, if you wanted to start making electronic gadgets and decided to stamp Apple's recognizable fruit-shaped logo onto your products, this would be fairly obvious trademark infringement. Customers are likely to be confused about the origin of the goods, and you would essentially be profiting from the goodwill that Apple has generated over many decades.
+>     
+> Put differently, consumers would mistakenly buy your product assuming it was the ""real"" Apple product. In such a situation, Apple could sue for trademark infringement. Not only could it win a court order requiring that you stop infringing, but it could also win money damages.
+
+
+Like I said, I think some people get a way with it, by calling it a tribute, and not making any money from it, and not really getting a big following. In that case, TOEI ANIMATION may not care enough.  But If you get big enough, and start making enough money they will start caring.
+
+One way you could go about it, is to make the game and just wait and see if you get a ""cease and desist"" letter. But that is probably not the best business strategy IMO."
+unity,fl0pl9r,t1_fl0mcea,1584712835.0,"Sounds like the original dev is also doing something illegal, but is just hoping that he won't get sued.
+
+From what I understand, If you aren't making any money off it, often the owner of the trademark won't bother coming after you, because there isn't much to sue you for if you haven't made any money.
+
+If you start to make a bunch of money, then you become a bigger target.
+
+You could always ask at: https://www.reddit.com/r/legaladvice/"
+devops,fl0kk8d,t1_fl0hf6f,1584709185.0,"Oooh, very exciting.
+
+btw, the 'keep me updated' button seems to be broken. After logging in with google it tried redirecting me to [this page](https://octopus.com/company/roadmap/subscribe/pipeline-as-code) which doesn't exist."
+unity,fl0k62o,t1_fl0jzx6,1584708893.0,"I mean Dragon Ball Z is trademarked. https://trademarks.justia.com/756/58/dragonball-75658049.html
+
+They may not choose to sue you, but that doesn't mean it is legal.
+
+Again, not a lawyer, but trademarks are fairly straightforward, I think."
+brisbane,fl0g2rx,t1_fkyuxwk,1584705215.0,From what I hear many of the wholesalers are jacking up the prices too.
+unity,fl0cvnn,t3_flp5qf,1584701776.0,"I'm not a lawyer, but it sounds like probably not since you have copied work which is trademarked (Dragon Ball)."
+devops,fl0cktt,t1_fl07gob,1584701422.0,"This. Love octopus, but not having full proper pipeline as code is really annoying. e.g. the jenkins way, where you commit a yaml file describing the pipeline into your app codebase. Meaning you can change your deployment pipeline in code, in a branch, and deploy it when you are happy."
+Overwatch,fkwa9vk,t1_fkuxtfr,1584587180.0,Essentially one person plays as the payload
+RaftTheGame,fktd2fd,t3_fk7041,1584514547.0,Yay! Feel bad for the environment just throwing my used batteries in the ocean.
+starcraft,fkpur3p,t3_fjvr69,1584419987.0,"My timing is ""oh crap I'm not researching anything, queue up all the upgrades!"""
+atheism,fkouguu,t1_fkndvq7,1584395268.0,"Unpopular opinion: just because you are dumb, doesn't mean you should die."
+devops,fkn9voh,t1_fkmh9hw,1584359429.0,"DevOps is a fairly new thing, most people are new to DevOps."
+unity,fkh37t5,t3_fi3k3b,1584186831.0,"In regular application development, we use automated testing (e.g. unit testing) to help us fix the problem of ""when I fix 1 bug, 2 more appear"", especially for the case of regressions.
+
+Is this something that is common in the game development world as well? or is it too hard?
+
+Edit: after researching myself it is definitely possible. I am still interested to know if this is a common practice.
+examples: 
+
+ * https://medium.com/teamarimac/unity-automated-testing-78c451d418e8
+ * https://www.reddit.com/r/Unity3D/comments/94t2m5/automated_testing_for_unity/"
+AZURE,fkg4s45,t3_fi136j,1584149929.0,Thanos?
+Entrepreneur,fjjlfzf,t1_fjjj6k0,1583401911.0,The question was 30. Fyi
+skateboarding,fj8egde,t3_fbvlnt,1583111500.0,ITT: a bunch of people dunking on a kid
+AskReddit,fi57ofu,t1_fi3pm4c,1582156773.0,"Also checkout autonauts, it is in the same vain, but also different enough to be refreshing."
+gamedev,fhkfv2f,t1_fhjre0c,1581682052.0,"The dude put in his own time, effort and research to make a free video for us to watch, and you just go and complain about it."
+unity,fhkerqg,t1_fhj6ibo,1581680775.0,"Javascript is a completely different language to Java. Also, this guy is a troll, don't believe him."
+mechanical_gifs,fhj8qlk,t1_fhbit24,1581640310.0,"1001, 1010, 1011, 1100, 1101, 1110, 1111
+
+basically the flow goes:
+Is the right-most column a 0? yes? change it to a 1. 
+
+otherwise, is the 2nd right-most column a 0? yes? change it to a 1, and make the right most column a 0.
+
+otherwise, is the 3rd right-most column a 0? yes? change it to a 1, and change all digits to the right to be a 0.
+
+otherwise, you continue on until you can find a digit to turn to a 1 and make all the digits to the right a 0.
+
+hope this helps.
+
+binary is the same rules as regular numbers, except instead of having the digits 0 through to 9, you only have the digits 0 and 1 (0 through to 1, if that makes more sense)"
+Anxiety,fhh2jyq,t3_f2rxaj,1581590818.0,"I had this and ended up getting a blood test which told me that my adrenal glands over produce cortisol (especially in the morning).
+
+You could ask your doctor for a similar blood test if you wanted."
+mechanical_gifs,fhacl1c,t1_fgqqmaf,1581404591.0,"It is the same as counting with regular numbers (decimal). With regular numbers when the current digit goes past 9 you increment the next digit and the current one goes back to 0.
+
+E.g. 0, 1, 2, ..., 8, 9, 10, 11
+
+Binary is the same except you after 1 you increment the next digit and set the current one to 0.
+
+E.g. 0, 1, 10, 11, 100, 101, 110, 111, 1000"
+ProgrammerHumor,fh9hpsj,t1_fh7kfqr,1581381589.0,Dunno about GitHub but many hr departments use tools which will find any social media you have using the same email or real name. Obviously they can only see anything you make public. But just a heads up.
+ProgrammerHumor,fh6r58h,t1_fh4iyb0,1581304061.0,"People always focus on the technical. But I recommend reading up on game design and related things too.
+
+E.g. https://medium.com/@mattfenner/8-types-of-fun-in-video-games-4b38104e6532"
+skateboarding,fh6pvs7,t3_f1dkso,1581303183.0,My dream trick is a kickflip.
+news,fgwlex1,t1_fgu91b8,1581162536.0,"Well they are also getting a lot of bad PR, which is probably worse."
+ProgrammerHumor,fgev4xg,t1_fge4iot,1580711179.0,"Method and class comments are often more useful than inline comments IMO.
+
+They are very helpful when you come back to the code a year later and want to remember what each class/method is for. Especially for enterprise code with 100s of 1000s of classes.
+
+Also they are just use by doc generators, they are usually also shown in intellisense."
+reactjs,ffzgokj,t3_evqusn,1580378182.0,"Looks really nice. You did miss one of the spaces before an angle bracket. I.e. view project> instead of view project >
+
+Also maybe it might be a good idea to get an email like julia@juliacodes.com and use this for job applications and other professional type things. It might just be a extra bit of free marketing for people to know that you have a site they can visit. I have seen others use this before, and worked quite well."
+blender,ff4mpeq,t1_ff4lzfm,1579567347.0,"yeah i agree. having left click be something more obvious, helped me a lot."
+gaming,fe5q75l,t1_fe40bjn,1578873016.0,"Maybe you should start taking multivitamins or something ( I dunno, not a doctor )"
+MadeMeSmile,fds871q,t1_fdrw2gv,1578696560.0,I think he more meant because they would think he was calling them fat
+ProgrammerHumor,fdmom5l,t1_fdlwlsp,1578558232.0,Try to think of the absolute smallest project you can think of. E.g. 1 week long. And start with that.
+pics,fd64f5h,t1_fd2kkdf,1578185383.0,"I have done a fair bit of work with lead pencils and digitally, and haven't really messed with colour pencils other than as a kid. I feel like I could do a pretty decent job since the skills would cross over.
+
+So it doesn't seem implausible to me"
+pussypassdenied,fcjnagk,t1_fcj0u59,1577694963.0,"I agree. It was rude for her to ask for a discount, but his response was way worse, and not warranted"
+blender,fblbvx6,t3_edpt0z,1576960824.0,I have no idea how you would even start to make something like this.
+javascript,fa9t8l3,t1_fa8mlst,1575890705.0,"If you can rig up something to transpile it to plain JS (not sure exactly what version is supported), you can use any language.
+
+I do my screeps in typescript and just transpile into JS."
+RaftTheGame,f9w8h89,t1_f9uwkh7,1575688724.0,What about the murderous shark?
+ProgrammerHumor,f929xki,t1_f9107u1,1575019931.0,"Depends how much you care about the details. You could think about it as the ultimate high level language. Where you only explain the things you care about and the AI figures out the rest. When it gets it wrong, you correct it.
+
+In some ways this mimics how you train neural nets, just without the natural language part."
+dataisbeautiful,f7mzk8m,t1_f7ll06b,1573878731.0,"But what is a 'random' set of numbers, using a random number generator is just as likely to give you 1,2,3,4,5,6 as any other combination."
+dataisbeautiful,f7mzgsh,t1_f7milhn,1573878642.0,"I can't tell if I am misunderstanding. But I would rather $5 than 1% chance at $750 or 0.01% chance at %75,000.
+
+Guaranteed money still seems way better than taking a chance on something with fairly similar expected value.
+
+Guaranteed $5 or 10% chance at $1000 is probably a different story though, because it starts to feel more 'worth the risk'. It is almost like the risk itself has an intrinsic cost.
+
+I would probably also be more likely to choose a game which is 50% chance at a $100, than one with 5% chance at $1000 as well."
+blackmagicfuckery,f7mv0ax,t1_f7mo9ls,1573874579.0,I don't think he was suggesting building an actual building like this. lol
+pics,f7b6xwr,t1_f7b2hoa,1573558870.0,I don't know
+gaming,f7b3rt6,t1_f7atte8,1573554188.0,"It is known as the ""Submission"" type of fun in video games: https://medium.com/@mattfenner/8-types-of-fun-in-video-games-4b38104e6532"
+FunnyandSad,f79qe1b,t1_f79ptua,1573512972.0,There are a lot of countries with universal healthcare. It isn't anything untested.
+ProgrammerHumor,f72zk8t,t1_f70qmwg,1573385354.0,It took me a while to work out why everyone was laughing at me when at started talking about sharding our streams.
+google,f71duez,t3_dtu74t,1573339850.0,Their post-it notes must be way stickier than the ones we get in my office.
+RaftTheGame,f6y95ub,t3_dthjjc,1573271523.0,"So is the next launch the ""final"" game? Or is it just another alpha release?"
+Oxygennotincluded,f6ux3v6,t1_f6trwgw,1573170858.0,"This, I have never gotten to petroleum rockets because I always just give up and start a new base before then.
+
+Getting the mod to make be able to change the speed to 10x will help, I think."
+Oxygennotincluded,f6uwz05,t1_f6tk32w,1573170763.0,I have had this before they changed the spawn to also duplicate materials and not just dupes.
+Oxygennotincluded,f6uwu0j,t3_dt0h3i,1573170663.0,"I tried creating petroleum manually for the first time (boiling oil, rather than using a petroleum generator machine). I didn't realise that if you boil it too hot it creates sour gar and ended up filling my perfectly tuned, 1000 cycle base with sour gas and killing all my dupes."
+gaming,f6s394v,t1_f6npf3g,1573125957.0,"Not in fewer iterations. Without some kind of seed, machine learning is basically starting at baby level intelligence. Humans at least bring some life experience of how walking is supposed to work."
+Entrepreneur,f6o1qci,t1_f6ncjz1,1573005568.0,"Btw, more people view websites through mobile than desktop these days. That being said, it didn't look completely broken on mobile."
+gaming,f6np1yd,t1_f6nmxxn,1572996546.0,"I think it would depend if it starts with no knowledge, or if it is seeded with input from a human player."
+awslambda,f6lizvy,t3_drr6m6,1572947728.0,"Definately with an Alexa skill, not sure about Google."
+Overwatch,f64r5ph,t1_f62ovyw,1572695368.0,Just be thankful you aren't Australian....
+ProgrammerHumor,f4f1vic,t1_f4e226t,1571565757.0,"git can be a pretty big learning curve at the start, to be fair."
+ProgrammerHumor,f4f1s7q,t1_f4e4wru,1571565717.0,"If they aren't using git, there is no hope convincing them to use Given, When, Then"
+ProgrammerHumor,f4f0x16,t1_f4bvi5g,1571565327.0,"I would try to ask them why it is that way. Maybe they have a reason (probably a bad one, but still). At least when you find the reason, you might have more of a chance to persuade them.
+
+Also it can look bad sometimes being the new guy coming in and telling them to change everything without even finding out the reasons for what they do.
+
+edit: if git is too scary, then maybe a simpler scm (svn maybe?)"
+CrappyDesign,f4ezvsh,t1_f4ecwdt,1571564887.0,wait till you hear there is more than one kind of mean....

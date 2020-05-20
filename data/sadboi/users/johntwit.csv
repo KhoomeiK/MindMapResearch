@@ -1,0 +1,175 @@
+UnresolvedMysteries,fr2lmda,t1_fr20r76,1589839457.0,Whoah thanks for the update!!!!
+thinkorswim,fqxslhi,t1_fqxphh4,1589737204.0,"This is very helpful, I didn't know there were input parameters for the vwap function, I will play around with this. Thank you!"
+thinkorswim,fqxs59s,t1_fqxp068,1589737000.0,"This might work, a little more cumbersome than what I'm looking to do though which is make my own functions"
+thinkorswim,fqxitvf,t1_fqxbcva,1589732965.0,"So, is the built in VWAP price for one bar only?"
+thinkorswim,fqx9tu6,t1_fqx9cu6,1589728665.0,"Say I change the momentum price input to ""VWAP"" or use ""VWAP"" in a custom study. If I'm on the one minute chart, what is that price? Does it change if I'm on the one hour chart? I made a custom study simply plotting the price ""VWAP"" and it's completely different from the one day VWAP study"
+UnresolvedMysteries,fqtfov8,t1_fqswkn5,1589638069.0,"One would immediately think this of course. But why would there be absolutely no mention of it in any of the articles about him, especially the long format story printed more recently in the Washington Post?"
+stocks,fqnh4qq,t3_gjq55s,1589494753.0,"Doesn't fit your criterion, but you need to read ""Reminiscences of a Stock Operator"" by Edwin Lefèvre and ""Market Wizards"" by Jack Schwager. Timeless stuff valuable to a trader no matter if the year is 1670 trading coffee in Amsterdam or 2250 trading interplanetary mining futures"
+wallstreetbets,fqmceq2,t1_fqm7vh8,1589475137.0,Is Elon an employee of Apple?
+wallstreetbets,fqm218k,t1_fqlxsbo,1589470142.0,"Technically, he would have to have that information illegally, not merely have it"
+wallstreetbets,fq8ludk,t1_fq8lfds,1589169261.0,"I don't agree with Bob Lutz at all. I've read that you have to look at Tesla as an information company, and the data they've collected from drivers is gold. Then again, sometimes you gotta wonder that it's just a car, and ask what experienced carmakers are saying. That being said, I would never buy a GM. Never. 
+
+Was curious to see the discussion here though, know there's a lot of TSLA fans around here"
+wallstreetbets,fq8l904,t1_fq8l12s,1589168840.0,For one quarter in 2019? Or was it two quarters? Was 2019 profitable overall?
+wallstreetbets,fq8l3jn,t3_ghg35a,1589168736.0,"I don't necessarily believe this. The million dollar question for the options man is, if Tesla is going to fail, WHEN is it going to fail, and when will investors get scared?"
+wallstreetbets,fq8kx8d,t3_ghg35a,1589168614.0,">In Lutz's opinion, there are many problems with Tesla, including:
+
+>they will fail, because of the ""continued lack of profitability"", ""stocks gonna tank"" and it will be difficult to raise more cash, especially if Elon Musk will undermine investor confidence
+
+>""All they have are some good-looking electric cars that sell below cost""
+
+>Tesla doesn't have unique technology, they are using the same lithium-ion technology as everybody else
+
+>Every other manufacturer will introduce a 300+ mile electric car on the market (there will be no advantage)
+
+ > zero-emission credits as a source of revenues (in the U.S.) and in Europe (deal with FCA) will dry too
+
+ >Other manufacturers are forced to produce a certain amount of EVs, so they will do it, even at a loss, and then recoup the cost on conventional models (this is a major factor behind the rising prices on crossovers/SUVs and full-size pickups). For Tesla, it's a lot of EV competition.
+
+>Another problem is too many employees at the plants (in particular at the Tesla Factory - currently closed)
+
+> The vertical integration is wrong, as you not only spend precious capital instead of ordering stuff from suppliers, but also will be required to keep investing to stay competitive with external suppliers of the rest of the industry"
+wallstreetbets,fq6p0ex,t3_gh6rm4,1589135744.0,I... Are you.... Is this.... [Kaboom!]
+thinkorswim,fq5i8mk,t3_ggwr50,1589106423.0,"There is a random function which returns a random integer. 
+
+https://tlc.thinkorswim.com/center/reference/thinkScript/Functions/Math---Trig/Random
+
+It returns a random value between 0 and 1. You could adjust the probability of buying like this, in this example the default probability is 50%:
+
+{
+
+input probability = 50
+
+def buy = (random()*100 >= probability);
+
+addorder (OrderType.BUY_AUTO, buy);
+
+}"
+thinkorswim,fpwnr9g,t1_fpwaom5,1588966696.0,Awesome thanks!
+Virginia,fpsbcpo,t1_fprpnhy,1588870605.0,"It is hearsay. This was posted by a neighbor of mine on Nextdoor. This is Reddit, not a court of law."
+CoronavirusUS,fpq4f4m,t1_fpq3wr6,1588814952.0,"Gotcha, understood"
+CoronavirusUS,fpq2be5,t1_fpq1n08,1588813758.0,I couldn't find the story in the CoronavirusUS feed at all?
+Virginia,fppj1ff,t1_fpph70u,1588803177.0,"Shared the photo as it wasn't mine caption came with it. I completely agree with you, everyone is ""entitled to an opinion"" whether they know conventional spelling or not"
+Virginia,fppi6so,t1_fpph7d0,1588802729.0,"Of course not, ""viruses"" is the correct English. ""Viri"" is falling out of use as people stop learning Latin in school https://books.google.com/ngrams/graph?content=Viri%2Cvirii%2C&year_start=1800&year_end=2008&corpus=15&smoothing=3&share=&direct_url=t1%3B%2CViri%3B%2Cc0%3B.t1%3B%2Cvirii%3B%2Cc0"
+Virginia,fppfv7z,t1_fppei7a,1588801517.0,This kind of pedantry about the King's English is exactly the kind of insufferable nonsense that cause people to reject academia.
+Virginia,fpozp88,t1_fpoz9l0,1588793431.0,"Technically, yes. But ""viri"" and""virii"" are often used as the plural. Language is as language does. (And no one does ""Viriginia"")"
+Virginia,fposbyj,t1_fpornk3,1588789818.0,"There are other more disturbing concerns as well. It has been widely reported since long before the pandemic that black people have much poorer outcomes even with access to medical treatment. Black women are many times more likely then white women to die from childbirth in a hospital, for example."
+Virginia,fporvvw,t3_gemxz1,1588789597.0,"FYI: an article covering the original claim in this article was deleted from r/rva for being ""inflammatory""
+
+https://www.reddit.com/r/CoronavirusCensorship/comments/geniqa/rrva_mods_deleted_an_article_about_racially/?utm_medium=android_app&utm_source=share"
+CoronavirusUS,fpoqjo8,t1_fpmz278,1588788936.0,"That would be like saying a hospital advertisement ""we do over 100 coronary bypass surgeries a year!"" Is a HIPAA violation"
+Virginia,fpgi3gh,t1_fpg9qts,1588603148.0,"Keep in mind now that he just says that it's ""likely"" ^/S"
+wallstreetbets,fpc0hzx,t3_gcl4ok,1588483787.0,"Love that this is flaired ""technicals"""
+wallstreetbets,fpbuovu,t1_fpbubsz,1588479192.0,"According to another user in this thread, COF doesn't hold the debt. They sell the debt. Changes my thinking on this quite a bit."
+wallstreetbets,fpbtodj,t1_fpbswud,1588478447.0,"Apparently a lot of Americans, and a lot of Capital One customers, do live this way"
+wallstreetbets,fpbtkgs,t1_fpbt9h3,1588478369.0,I guess this would be non financial companies too small to be in ETFs
+wallstreetbets,fpbssyw,t1_fpbruc5,1588477823.0,"They take your money, just don't give you credit for a while, which is a new thing according to some of their customers on r/CapitalOne"
+wallstreetbets,fpbsqab,t1_fpbrzjy,1588477771.0,"Who needs access the next day? Answer: Capital One customers. See where I'm going with this? 
+
+I don't think r/CapitalOne is an official sub, check out the sole mod's post history"
+wallstreetbets,fpbskaa,t1_fpbrr4w,1588477652.0,"It was very interesting, thanks for posting. I'm dumb to.short a bank, is my take away. Should stick to intraday trading and not make *bets*"
+wallstreetbets,fpbs6vg,t1_fpbra96,1588477392.0,Comments seem to be working  but not posts
+wallstreetbets,fpbrj85,t1_fpbqsod,1588476927.0,Capital One Copper is their premium product. It's an actual copper credit card.
+wallstreetbets,fpbrfji,t1_fpbqt1r,1588476858.0,Is *everything* sacred anymore!?
+wallstreetbets,fpbqab1,t1_fpbq4nc,1588476049.0,"Post something at r/CapitalOne and prove it.
+
+As for everything else you're saying, that's what I'm hearing from a lot of folks, that they're a solid company."
+wallstreetbets,fpbppv8,t1_fpbph0i,1588475647.0,The last few posts on there were definitely about customer service operations being a shitshow
+wallstreetbets,fpbomwm,t1_fpbo9ai,1588474892.0,"I really hard on this thoroughly researched report, really glad to have had the opportunity to change your lif
+
+For real though what is up with r/CapitalOne"
+wallstreetbets,fpbn1lc,t1_fpbmytl,1588473820.0,"I'm open to this idea, and it's been said a few times. Why do you believe this to be the case?"
+wallstreetbets,fpbllcr,t1_fpbkzpk,1588472842.0,🎩🎩🎩🎩🎩🎩🎩
+wallstreetbets,fpbljpf,t1_fpbfhih,1588472810.0,"The addition here is information about r/CapitalOne, which was reasonably active until 11 days ago and now posts are locked. What do you think it means?"
+wallstreetbets,fpblcz8,t1_fpbky8a,1588472683.0,"Check out this thread in r/CapitalOne, multiple users are reporting irregularities in credit from payments:
+https://www.reddit.com/r/CapitalOne/comments/g5mfzk/anyone_not_getting_credit_after_payment_is_posted/?utm_medium=android_app&utm_source=share
+
+Customers are saying Capital One is ""putting a hold on their payments"""
+wallstreetbets,fpbkvfg,t1_fpbkmuy,1588472352.0,"Hahaha... 
+
+... Touché"
+wallstreetbets,fpbkub6,t1_fpbknfu,1588472332.0,"The issue isn't getting payments to post, it's getting immediate credit for payments. Also I haven't had any problems with cancelling payments either, just a letter saying that automatic payments have to be cancelled more than 3 business days in advance, which is a new policy and contradicts what customers were informed on the app"
+banned,fpag89s,t1_fpaf11g,1588447524.0,👆
+banned,fpadtyk,t1_fpadhui,1588446098.0,"Your continuous attacks on my character, insinuating that I'm a bad father, are extraordinarily disturbing. What is your motive? Who do you work for?"
+banned,fpadrot,t1_fpadhui,1588446061.0,The original submission linked to a post that had been deleted so I had to make another submission so that users could actually read what I was talking about. I deleted the original submission. As you can tell folks members of the RVA sub are continuing to try to censor me.
+Virginia,fp8jazy,t1_fp8i2j9,1588393790.0,That's Gold
+RVApolitics,fp8gock,t1_fp8gjeu,1588391828.0,I would that you had offered me some criticism! Instead you attacked my understanding of satire without offering a shred of evidence.
+RVApolitics,fp8gf5g,t1_fp8gb3z,1588391639.0,"""Ethos and Ad Hominem Argument: It is a strategy in which a speaker or a writer attacks the character or personality of an opponent speaker or writer, rather than criticizing the matter of his or her point of view. Such an argument, however, is generally thought to be a logical fallacy."""
+RVApolitics,fp8g3xu,t1_fp8ee45,1588391415.0,"""Because it is essentially ironic or sarcastic, satire is often misunderstood. A typical misunderstanding is to confuse the satirist with his persona.
+
+Common uncomprehending responses to satire include revulsion (accusations of poor taste, or that ""it's just not funny"" for instance) and the idea that the satirist actually does support the ideas, policies, or people he is attacking. For instance, at the time of its publication, many people misunderstood Swift's purpose in A Modest Proposal, assuming it to be a serious recommendation of economically motivated cannibalism."""
+RVApolitics,fp8cfim,t1_fp8b0o3,1588388838.0,"""Satire is a genre of literature and performing arts, usually fiction and less frequently in non-fiction, in which vices, follies, abuses and shortcomings are held up to ridicule, ideally with the intent of shaming individuals, corporations, government, or society itself into improvement. Although satire is usually meant to be humorous, its greater purpose is often constructive social criticism, using wit to draw attention to both particular and wider issues in society.
+
+A feature of satire is strong irony or sarcasm —""in satire, irony is militant"", according to literary critic Northrup Frye - but parody, burlesque, exaggeration, juxtaposition, comparison, analogy, and double entendre are all frequently used in satirical speech and writing. This ""militant"" irony or sarcasm often professes to approve of (or at least accept as natural) the very things the satirist wishes to question.
+
+Satire is found in many artistic forms of expression, including internet memes, literature, plays, commentary, television shows, and media such as lyrics."""
+Breadit,fp87hru,t1_fp84xnw,1588385466.0,Nice!!!
+Breadit,fp87h6l,t1_fp84ahw,1588385454.0,"Awesome! I just find it so much more practical to make the recipe a function of the *result* rather than an arbitrary ingredient. Although I get why the recipe is done this way from a historical perspective, I think?"
+banned,fp857vi,t1_fp84xs5,1588383827.0,"Of course *you're* on this sub, why am I not surprised lol"
+RVApolitics,fp7s5zh,t1_fp7r5vz,1588376678.0,"Satire: ""the use of humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity or vices, particularly in the context of contemporary politics and other topical issues."""
+CoronavirusUS,fp6rzdx,t1_fp6rdyo,1588357581.0,"Gotcha, sorry about that!"
+CoronavirusCensorship,fp6ebv2,t1_fp6c9dm,1588350872.0,"An important discussion could have ensued from the post about the racial disparity in COVID-19 deaths, and in fact was beginning to happen. I believe the post was removed hastily and without merit. I used the article's headline verbatim, and posted it 3 hours after the article was published.
+
+I think characterizing my post as ""wishing death on"" rva is a huge mis-characterization of a satirical post. Seeing it as a genuine death-wish is a false narrative put forward by other users. I have been surprised by the lack of humor on r/rva, it is incongruous with what I experience with family and friends and is almost alien to me. 
+
+Unfortunately I cannot create a new user name to circumvent the ban as that would be a major violation of Reddit's rules. 
+
+I appreciate you taking the time to respond to my posts and critique them, truly. I hope that you also stay safe and healthy!"
+CoronavirusCensorship,fp698yd,t1_fp68ult,1588348358.0,"This was my contribution to the peanut gallery. My hope was that some might find it amusing. I entertained myself, at least. It's fascinating to me that people are so hell bent on knowing the agenda of the author, rather than discussing the issues raised themselves. I'm glad that during my short tenure at r/rva, you found some of my comments amusing. That was really my only goal."
+rva,fp64en8,t1_fp5zjod,1588345869.0,I think the implication is that the one lab me tioned in the article is evidence that there were private labs whose resources could have been tapped to increase testing capacity.
+rva,fp63thh,t3_gbhq6n,1588345549.0,"One of my white whales is a very low ABV beer by Lickinghole Creek, like 3%, I had at Capital Ale House. I don't remember what it was and I haven't been able to find it since."
+rva,fp4sr6z,t1_fp4mnmv,1588306442.0,👆 this
+rva,fp4qdx1,t1_fp4nvdo,1588304827.0,Perhaps I was unclear. I believe that employees have a right to know if one of their co-workers was infected. I do not believe that they have the right to know the identify of that co-worker.
+rva,fp4nhod,t1_fp4mwjv,1588302930.0,"For the record, I was not advocating for revealing their name."
+rva,fp4h0ab,t1_fp4gk0w,1588298857.0,"You want me to forget that my nation, my state *and* my community ignored obvious evidence from China that this was something to take seriously? Why is it that my community is entitled to bear a grudge against me for being irritating, but I'm not entitled to bear a grudge against my community for ignoring big red flags in their face and putting people at risk of death?"
+rva,fp4g1df,t1_fp4fsi6,1588298258.0,"I don't think assumptions are safe. You assumed, u/andrewsucks, for example, that ""Hospitals have masks and they wouldn't want your masks anyway"" in February."
+rva,fp4fsw9,t1_fp4fppt,1588298116.0,"No,.I was quoting the article. Saying the person's name is of course a violation. Informing people that someone in their department has tested positive is not a violation."
+rva,fp4fpm4,t1_fp4fef5,1588298060.0,"As long as they were informed that someone they worked with, in their department, was infected, then I'm satisfied."
+rva,fp4flpi,t1_fp4ff19,1588297994.0,Telling the employees that one of their coworkers has tested positive for an extremely contagious and potentially lethal virus is not a HIPPA violation.
+rva,fp4fik4,t1_fp4en25,1588297940.0,"I'm not able to resubmit the original RTD article because, of course, though it has been removed by the moderators, ""the link has already been submitted."""
+rva,fp4f765,t1_fp4ef15,1588297748.0,"Like, to cause riots or something? Destabilize the political system? Russian troll has much to learn about stability of American political system"
+rva,fp4f1yg,t1_fp4en25,1588297660.0,"I think it's the wrong decision for the city, or any other employer, to fail to disclose to their employees that their co-worker was infected. I think it's an important issue."
+rva,fp4esqf,t1_fp4eluf,1588297507.0,"I think some users here are embarrassed by their early dismissals of the coronavirus pandemic, which they dismissed warnings of as ""alarmism,"" and are moderating content to minimize their failures. I wished to draw attention to that."
+rva,fp4eh8h,t1_fp4e8il,1588297313.0,"I was fully prepared for the 50,000 post to be removed and replaced with a more celebratory one, fwiw. Kinda surprised *that* wasn't moderated for quality but an article about the death of a city hall employee due to COVID-19 and an article about the racial disparity of COVID-19 deaths in the city was."
+rva,fp4e8ki,t1_fp4dew2,1588297168.0,"But seriously, why does intent matter when moderating for quality?"
+rva,fp4e373,t1_fp4dew2,1588297080.0,"Just out of curiosity, when you were considering this, what would be the strategic objective of the Russian troll?"
+rva,fp4drh5,t1_fp4db57,1588296884.0,Two mods have said that my post history was a deciding factor in the decision to delete the post.
+rva,fp4czi1,t1_fp4cfvf,1588296420.0,"That must be quite a job, moderating content not only for the quality of the content itself, but actually considering the probable intent of the user posting that content! That sounds a lot like this decision was to censor a particular user rather than to moderate the sub for quality content."
+rva,fp4cm9z,t1_fp4ch7u,1588296203.0,Why does the intent of the user matter when moderating for content quality?
+rva,fp4aysa,t1_fp49ad3,1588295233.0,"Which is fascinating because it means you are moderating content on this sub not based on the content itself but based on what you think the intent of the user is in posting that content. This implies that you are not curating content for quality but rather that you are censoring content from users whom you disagree with. This has disturbing implications for the sub. Are we to expect going forward that r/rva is not a place for discussions about public policy or social issues affecting our community, but rather a place to idly chat about breweries and pet dogs?"
+rva,fp48m24,t1_fp466e0,1588293877.0,">Yeah, well, you know, that's just, like, your opinion, man."
+rva,fp44tno,t1_fp3zv4i,1588291701.0,My therapist says I don't have to respond to comments like these.
+rva,fp425do,t1_fp40kdr,1588290206.0,"I think that if other members of the department were notified, then that would be enough, provided the department doesn't interact with the public. I am disturbed by numerous reports of employers withholding infection information from their employees' coworkers. I believe those coworkers have a right to know, and ""privacy concerns"" don't apply. If an employee that wasn't informed that a coworker in their department was infected, then I believe the employer is liable for any death or suffering caused as a result of employees failing to change their behaviors because they weren't aware of their potentially elevated infection risk."
+rva,fp41ayn,t1_fp40kdr,1588289734.0,"If this pandemic has shown us anything, it's that government officials are capably handling the situation and that their decisions regarding preparation and mitigation are to be trusted!"
+rva,fp40llj,t1_fp406yx,1588289346.0,"I think I might broadly agree with you there. I am a libertarian concerned about regulatory capture, and believe that capitalism is failing to increase wealth for all members of society because of this anti-competitive cartel."
+rva,fp3zwgg,t1_fp3zln9,1588288961.0,"Well, it's more productive, I think, to hate ideas and institutions rather than people, but I might be misunderstanding you here"
+rva,fp3zi8u,t1_fp3yvsd,1588288747.0,I hate the prison industrial complex. I'm your ally on that particular point.
+rva,fp3xu23,t1_fp3xj7x,1588287827.0,"It's not about their name, it's about which department they worked in.
+
+There is a school of thought that believes the public has a right to know where the carrier of a highly contagious disease has been. 
+
+There is another school of thought, overlapping the first school, that believes that authorities cannot capably withhold information like the whereabouts of the carrier of a highly contagious disease effectively with a net positive effect on the community."
+rva,fp3xfm1,t1_fp3xbf5,1588287613.0,"Was removed by moderator for having a ""deliberately inflammatory headline"" 
+
+https://www.reddit.com/r/rva/comments/gb4iqa/city_of_richmond_employee_dies_from_covid19_mayor/?utm_medium=android_app&utm_source=share"
+rva,fp3x0k0,t3_gb6be1,1588287386.0,">Stoney said the woman’s name and what department she worked in would not be released, but added an investigation by the Richmond Health Department determined none of her coworkers were exposed to the virus.
+
+>In total, Stoney said 11 city employees have been infected by the virus. For an employee to return to work, Stoney said they must have been quarantined for at least 14 days and have tested negative for COVID-19 twice"
+rva,fp3wddj,t1_fp3uvok,1588287039.0,"I think, on the contrary, you don't like me, and you don't like Coronavirus headlines in the r/rva feed. Just say it. You don't really care if this title is inflammatory. 
+
+I am reporting the news to the the r/rva community with two facts in the headline: there has been a coronavirus related death in the city government, and the city is declining to say what department they worked in."
+rva,fp3psot,t1_fp3pjdn,1588283604.0,"I wish I hadn't said that, and I wish I could take it back. 
+
+But as you commented the other day, which has been a great source of personal amusement since:
+
+""But you did. And you can't."""
+rva,fp3p1a6,t1_fp3jgsv,1588283215.0,u/aRVAthrowaway does not like *anything* besides power washing videos
+law,fp33pv1,t1_fp33f4h,1588272559.0,Whatever could make a judge sympathetic to the federal government? ^/s
+rva,fp2z0rm,t3_gaz1rr,1588270275.0,"Has anyone ever had Guinness Foreign Extra Stout? I love it. Guinness Extra Stout is my go-to corner store beer. It's the only good beer available at the corner markets in my neighborhood. I made a gallon of beer vinegar from Guinness Foreign Extra Stout and it's really good. 
+
+Guinness Foreign Extra Stout: available from Total Wine. I think it's my second favorite beer, after Pilsner Urquell"
+wallstreetbets,fp2rw4j,t1_fp2mjn2,1588266863.0,High asset prices ≠ strong economy
+wallstreetbets,fp2bk80,t1_fp2aqm1,1588258861.0,"Capital reserve requirements were even reduced, actually"
+UnresolvedMysteries,fp2273x,t1_fp1sagf,1588253599.0,"I would tend to agree with this analysis, however lots of media picked up on the story - even the Washington Post. I'd be surprised if they all covered a story *that* frivolous. 
+
+But not too surprised, I guess 😆"

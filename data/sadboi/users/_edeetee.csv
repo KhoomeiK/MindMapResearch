@@ -1,0 +1,226 @@
+newzealand,fqha8p1,t1_fqdr1g7,1589372372.0,"True, that's why it looks familiar"
+Libertarian,fq542bk,t1_fq52i8m,1589091854.0,"I can try find some, but it's not hard to see how giving homeless people enough money to survive will allow them to break out of the cycle of poverty."
+Libertarian,fq44cm6,t1_fq3wtm6,1589073503.0,"Socialist values (ubi, welfare) definitely help homeless people more than capitalist ones (individual, everyone for themselves)"
+Libertarian,fq3ts9d,t1_fpvez29,1589070175.0,How does homelessness fit anyone?
+vjing,fptshkj,t1_fprzdzb,1588897365.0,Ah yea would definitely start taking a hit for gaming. I'm glad you were able to get something useful out of it! Good luck for your game. Hit me up if you want testers :)
+vjing,fpr2oez,t1_fpptrnw,1588840238.0,"~~~
+uniform float mod;
+uniform int frame;
+uniform vec3 lowHsvBase;
+
+#define LOW_COUNT 200
+#define HIGH_COUNT 50
+
+uniform float[HIGH_COUNT] arrayHigh;
+uniform vec2[LOW_COUNT] arrayLow;
+
+uniform vec4 sliders;
+uniform vec3 noiseMovement;
+
+layout(location = 0) out vec4 fragColor;
+
+float circle(vec2 pos){
+  return distance(pos,vec2(0.5));
+}
+
+float norm(float negPos){
+    return (negPos+1)/2;
+}
+
+uniform vec3 highHsv;
+uniform vec3 hsv;
+
+mat2 rotate2d(float _angle){
+    return mat2(cos(_angle),-sin(_angle),
+                sin(_angle),cos(_angle));
+}
+
+float maxScale = 50;
+#define PI 3.1415926535897932384626433832795
+
+float singleLow = 1.0/LOW_COUNT;
+
+//renders per-pixel
+void main() {
+    vec2 st = vUV.st;
+    vec3 pixel = vec3(0);
+    vec3 lowHsv = lowHsvBase;
+
+   for(int i = 0; i < LOW_COUNT; i++){
+
+      vec2 input = arrayLow[i]*0.9;
+      float nowness = (float)i/LOW_COUNT;
+      float powNow = pow(nowness, 3);
+      float invPowNow = 1-powNow;
+
+      float lowVal = min(input[0], 1);
+      float powVal = pow(lowVal, 2);
+
+      float dist = pow(distance(st,vec2(0.5)), pow(sliders[3], 1));
+
+      float scale = (sliders[0]+sliders[1]*invPowNow)*maxScale;
+      // float scale = 100;
+
+      mat2 rotation = rotate2d( invPowNow*(-1+2*sliders[2])*PI );
+
+      vec2 noise2dPos = (st-vec2(0.5,0.5))*rotation*scale*(1-dist);
+
+      float noise = norm(TDSimplexNoise(vec3(noise2dPos, 0)+noiseMovement*(frame-i)));
+      float blobSize = invPowNow*0.6+0.1*lowVal+0.05;
+      float blobTransition = (1-nowness)*0.05+0.005;
+      float shapedNoise =  smoothstep(1-blobSize-blobTransition/2, 1-blobSize+blobTransition/2, noise);
+
+      //make layering * colors separate from the shapes I'm generating
+
+      float value = 0.5*(0.3+0.7*powVal)*powNow;
+      float hue = powVal*0.1;
+      float sat = powNow*0.9;
+      
+      float opacity = shapedNoise*0.99;
+
+      lowHsv = (vec3(hue,sat,value)+lowHsvBase)*opacity + lowHsv*(1-opacity);
+    }
+
+  int highVal = 0;
+  int colors = 3;
+
+  for(int i = 0; i < HIGH_COUNT; i++){
+    float input = pow(min(1, arrayHigh[i]), 1.5);
+    float nowness = pow((float)i/HIGH_COUNT, 1.5);
+
+    highVal += (int)(step(abs(circle(st) - input*0.4), input*0.02*nowness)*step(0.1, input));
+  }
+
+  float highHue = (float) min(colors-1, highVal) /colors;
+  float highSatOffset = 0;
+  float highValOffset = highHue*0.1;
+
+  pixel += TDHSVToRGB( vec3(lowHsv.x+frame*0.001+highHue, min(lowHsv.y+highSatOffset, 1), min(lowHsv.z+highValOffset, 1) ) );
+
+  gl_FragColor = TDOutputSwizzle(vec4(pixel, 1));
+}
+~~~"
+LSD,fpqyme9,t1_fpqyeai,1588836288.0,O shit thank you! :)
+vjing,fppszvh,t1_fppsl0v,1588808561.0,"I'll send you the code tonight, variables are pretty well names so should help. Noise values do change a little over the layers but not much. Too extreme a change stops it looking like coherent objects.
+
+It is kinda expensive, it works well enough on my 2060S. You can just cut down the number of previous audio frames rendered in touchdesigner if you wanna get more performance. Do you want the touchdesigner file or just the shader?"
+Psychonaut,fppp6mq,t1_fpoz151,1588806476.0,"Nah that's sweet bud :) Love is love, in all quantities."
+chch,fppooc0,t1_fppkhxy,1588806198.0,I went to high school with Andrew - so cool that he's making a bit of a living outta this.
+LSD,fppnl9m,t1_fppn3l8,1588805619.0,"Eventually you end up at the border of the dance floor and there's someone else beside you who seems equally as introverted as you and then you just talk shit :) Everyone's there for the music, it's easy to find common ground"
+vjing,fppk9fa,t1_fppin0j,1588803831.0,"The biggest thing I found that helped get more interesting shapes was to transform the space over the layers. I'm using a pixel shade and I do a matrix transformation that's modulated by which frame in my array we are in, scaling up I believe as it's further back in time.
+
+I'm also using hsv colors here instead of RGB so that I can combine hues nicer. I can't remember if I did it in this one but I played around with different amounts of layering - some i just added all the layer values together and some experiments I had a opacity value defined by the noise shape which cut the colors out and gave a more layered effect.
+
+I also use a fair amount of exponential functions to change the aggressiveness of various values.
+
+If you want source code lemme know, happy to share"
+Psychonaut,fpnl5f5,t1_fpmikgk,1588766348.0,I enjoy this interpretation
+worldnews,fpfeioj,t1_fpf8y3f,1588568914.0,"Until a vaccine is available, if we have proper tracing it's entirely possible that we can keep any outbreaks under control. This is fully dependent on keeping the numbers low and tracing high."
+chch,fp9n6cx,t1_fp8umv1,1588430294.0,"In this situation, it is our business because this only works if we all do it together. Otherwise we just have to be here for longer.."
+psytrance,foxru3t,t3_ga5ckt,1588154073.0,"I feel like once we come back from this, the energies going around the festivals will be amazing. Everyone is feeling the same and we can't wait to join again :)"
+Wellington,fosj9w0,t1_foscadr,1588031802.0,Is it a valid excuse or is it kind of untrue?
+RationalPsychonaut,foqfxp6,t1_foqfhmu,1587992627.0,"I would say your ego is the total of all your relationships to the external world. Your personality is part of your ego. So is how you think you place in the world, how you think about yourself. It's a subtle difference but understanding the rules that we run by can help reduce suffering."
+RationalPsychonaut,foqdxmk,t1_foqdvh1,1587991201.0,Thanks :)
+RationalPsychonaut,foqaltu,t1_fopy663,1587988537.0,"There is an essence of self separate from thought, attachment and identity. Your ego is malleable, can change over time. Your self is the act of existence."
+NZTrees,fon1gw6,t3_g8dqae,1587909981.0,Looks great but I can't give you a proper rating unless I try for myself ;)
+newzealand,fom3iqe,t1_foljncl,1587877313.0,"I mean, both will help. We need to do our part as individuals and companies need to do their part."
+newzealand,fom3beh,t1_follu32,1587877153.0,"Mean yarn bro, I back all of this."
+vjing,foevarh,t1_foeuxnj,1587715998.0,Yea it's fun thinking of the two senses at once. What music do you make?
+CollapseSupport,foeg0kk,t3_g6wp3i,1587702854.0,"Try to accept, to welcome death. Then you can live."
+programming,fo31cm0,t1_fo2u6r9,1587478654.0,I find abstraction helps my mental model of the code.
+psytrance,fo1w4qr,t3_g2t46f,1587442857.0,"Yea great attention to detail and cleanliness in the sound, chur :) The track evolves very smoothly and into suprising places over time."
+newzealand,fnz3doj,t1_fny8ssk,1587384918.0,"It's a complex issue which every needs to get behind. Instead of saying she needs to dumb it down, instead see that people see things differently and we need a message that everyone can understand. Interesting how you can't see that."
+vjing,fny2aw8,t1_fnxze4y,1587351681.0,Yea there's a slow hue offset over time - maybe too slow to see on this one. Maybe it would look better being more obvious?
+vjing,fnxlla4,t1_fnwhiio,1587341189.0,Thanks! Do you mean that the peaks in the background should have a hue shift following the audio strength? Would definitely look cool flowing back. Colors is something I'm always working on - hardest to get perfect.
+newzealand,fnuvbv5,t1_fnupdhw,1587272060.0,"Isn't the existing evidence of our need for socializing enough? I feel down because of being unable to see any friends, and I would bet that most people also feel this way."
+chch,fnrj8pz,t1_fnrh2e8,1587190670.0,"No thanks, imagining only positive futures at the moment"
+TrueOffMyChest,fnqqei5,t1_fnqq0tw,1587169948.0,"Oops, pocket post"
+TrueOffMyChest,fnqq970,t3_g33h74,1587169857.0,"Dude I C,X-"
+TrueOffMyChest,fnqpz9k,t3_g33h74,1587169686.0,"?mkNj,z,z,,, I;🌗*bh"
+TrueOffMyChest,fnqpqi2,t3_g33h74,1587169535.0,"G,zk,K,wfn"
+TrueOffMyChest,fnqpj7d,t3_g33h74,1587169410.0,",,%🌗<"
+TrueOffMyChest,fnqpfoo,t3_g33h74,1587169349.0,",zXz"
+futurebeats,fnkywsl,t3_g1zroi,1587043401.0,Tasty shifts in this
+newzealand,fnk1vna,t1_fniyxm4,1587012578.0,"Yea trying to get my dad around on this at the moment, very hard. He sees people without a job as 'undeserving' and doesn't see the systemic nature of the situation - you can't place unemployment as a blame on an individual and punish them for it."
+holofractal,fnh61iz,t1_fnh1xxr,1586955724.0,"I think he's just saying that they are self similar over scales, which is a definition of fractals. Not too surprising though, fractals are beautiful."
+worldnews,fnh0hdi,t1_fngzwsi,1586951378.0,And it's our job to help them become better. We're on this earth together.
+PersonalFinanceNZ,fnddsle,t1_fndd84s,1586867455.0,Luckily lockdown isn't going to be a binary thing - I trust that the govt will slowly transition us over many months and track it to stop that situation from happening.
+PersonalFinanceNZ,fncvy8q,t1_fncn85u,1586849065.0,"She doesn't sound like a very thoughtful person. From what I see, she's in the vast minority, but only time will tell."
+newzealand,fn9ox9v,t1_fn9bnds,1586780626.0,I like it
+newzealand,fn9o531,t3_g0ecqc,1586779951.0,Thanks. Love to all!
+newzealand,fn93dhk,t1_fn92vro,1586758058.0,It's the best opportunity for a paradigm shift we're gonna get in a good while. It's good to hear that other nzers have the same thoughts in mind :)
+RationalPsychonaut,fn6abm8,t3_fzr27q,1586693371.0,"There is definitely wisdom to be found and can be done while maintaining rationality. I find that using 'woo' words can have utility in talking about some of these very abstract experiences we have. If you come across woo you don't understand or seems absurd, the aim should be to understand, not to dismiss outright. If I understand something then I can probably find a way to relate it to my experiences and learn from what's being discussed.
+
+However, I refrain from emboding the reality of the woo. It seems like a nice reality to be in, but my understanding of the world can handle these ideas so I see no reason to abandon it. For example, Collective consciousness could be understood as subconscious communication between people, empathy etc.
+
+There's definitely a bit of a barrier between the woo and science, it's hard to reconcile a flamboyant, mythical reality with what I understand about the world as anything more than abstract ideas."
+self,fn4yhq8,t1_fn4n5vf,1586651761.0,Yes!
+Psychonaut,fn2u5vg,t1_fn2oudj,1586603439.0,"It's nice to be reminded that a final state does exist, thanks :)"
+newzealand,fn184a8,t1_fn0hvzd,1586556679.0,Is there a specific reason that it makes you uncomfortable?
+newzealand,fmzrx6x,t1_fmz9tsj,1586528271.0,"He was just trying to be nice bud. It sounds like your feeling stressed right now and might have let it out on him. It's hard for all of us right now, maybe you can chat to him about how your feeling? If you don't want the egg you could give it back, he might want the choc!"
+vjing,fmvmi5z,t3_fxm3o1,1586422452.0,"Awesome, kinda like a jacked up reactive version of one of those sand simulator things. Does this use fluid simulaton or is it copying pixels or something?
+
+I've been doing more noise based things, I wanna get into more loopback texture stuff.
+
+[https://vimeo.com/403993640](https://vimeo.com/403993640)"
+slatestarcodex,fmoudsy,t3_fwkr2x,1586268658.0,I don't think you're being lied to about projections. They are just guesses of the future. Going slightly too hard is not the worst case scenario in this situation. The only wait to know the result is to wait for the future.
+androiddev,fml388h,t1_fml0sz3,1586177429.0,"If you use view binding, then you can use the binding as a type, allowing you to write extensions, iterate over multiple of a given type just as you would any other object. Synthetics move away from language conversions"
+Anxiety,fm747wb,t3_ft3nko,1585812642.0,<3
+captainmurphy,fm45w7d,t3_fsy7io,1585747265.0,Wait duality has a vinyl??
+chch,fljjsu5,t1_fljfp5r,1585215636.0,We're all learning as we do it. Good luck!
+chch,fl9n3an,t3_fngh1b,1584962845.0,"Yea I have so much anxiety as it is, this is a small gratitude of this time."
+newzealand,fl8ydrs,t3_fn6gg1,1584935539.0,Danger pay!
+donaldglover,fl6j7bf,t1_fl6izkz,1584871376.0,"Yea it was great to see him live though, have this awesome memory of him moving his hands and the movement moving through the crowd in towards me and just falling into it. Used to watch him on community, great soul."
+LSD,fl6etav,t1_fl5z4q9,1584865590.0,As time goes on I'm starting to believe/feel the many worlds interpretation more. There is a constant explosion of possible future diverging from now.
+donaldglover,fl5jxbb,t3_fmejco,1584838504.0,"I tripped acid at pharos nz, sensory overload but in a good way. I remember getting the funk down so hard, algorhythm. I only got the acid half an hour before going in from a dude who was giving it out for free, what a dude. The visuals and human movement inside made be used to the intensity by the end so when I had to leave, the real world was overwhelming. I felt like the center of my being was in the center of those visuals, and I felt the experience of having to shift my awareness back into my body at the end. The movie with MJ about drugging kids to take over the world tripped me out a bit. I had great friends around me who kept me safe. That's my story."
+psytrance,fkwngxb,t3_fl1crp,1584598260.0,Like the offbeat
+LSD,fkq751g,t1_fkq74f7,1584433381.0,Niiiiice
+LSD,fkq73n8,t1_fkpf7ek,1584433333.0,Nice
+AskReddit,fkjdmk6,t1_fkj50l1,1584242911.0,Love
+AskReddit,fkjdld4,t1_fkj57m8,1584242886.0,"The perspective is extremely theraputic when coming back down to reality, completely agree. All things to be learnt"
+AskReddit,fkivb17,t1_fkihvgj,1584229489.0,"Over the years I've used acid to explore my anxiety deeper. It has a way of bringing things to the surface that you might rather avoid or pretend you don't think about. At the same time though, that can be quite stressful, even traumatic."
+chch,fjvzp9j,t3_ff4kjx,1583632748.0,"Had a good smile with him when I was cycling to work one day, made my day better :)"
+Psychonaut,fjikni1,t1_fji8d0d,1583369740.0,I can take gratitude in that :)
+Psychonaut,fjf9e3d,t1_fjf8y89,1583287080.0,"Is there a difference between the hallucinations other than just their intensity? I've heard people talking who aren't there on acid before. Psychotic hallucinations are definitely more intense or real, but aren't they just different points along a spectrum?"
+Psychonaut,fjf85sm,t1_fjf7nft,1583286337.0,"I appreciate your attention :)
+
+There was one at a concert where I fully believed that each exit of this done was going to take us to a different reality, and I had to desperately hold on to my friends to keep from losing them forever. There were times outside the dome where we were walking past others and I thought that they were from the other side, I wouldn't be able to touch them and they didn't know I was there. I believed these thoughts when they came to me and I had to start coming down to unravel them.
+
+I interpreted this when sober as wanting to stay with my friends and expressing that through my experiences etc"
+Psychonaut,fjf737v,t1_fjf6jp5,1583285694.0,"https://en.m.wikipedia.org/wiki/Psychosis
+
+Under psychoactive drugs. It's not well sourced haha
+
+Do you have a better explanation of why I have experienced psychotic symptoms on acid?"
+Psychonaut,fjf6ezg,t1_fjf5zq9,1583285290.0,"The wiki page still talks about acid inducing psychotic symptoms, so it seems like the notion is still being debated."
+Psychonaut,fjf5q59,t1_fjf5hw7,1583284875.0,"Psychosis is an abnormal condition of the mind that results in difficulties determining what is real and what is not.[4] Symptoms may include false beliefs (delusions) and seeing or hearing things that others do not see or hear (hallucinations).[4] Other symptoms may include incoherent speech and behavior that is inappropriate for the situation.[4] There may also be sleep problems, social withdrawal, lack of motivation, and difficulties carrying out daily activities
+
+I've had all of these on some trips."
+Psychonaut,fjf53cb,t1_fjf30db,1583284489.0,"My thoughts can go to extremes on acid, to the point of which sometimes I'm believing a falsehood that it takes sobriety for me to see through clearly. How does that not emulate psychosis in some way? I train myself to allow these thoughts to pass through me but they are still there, no?"
+psytrance,fjcutjk,t3_fcdkwv,1583237475.0,"I feel like the best stuff moves you through extreme emotions from ecstacy to calm through varying amounts of melody and intense rhythm. It can achieve this through tempo, interlacing rhythms, subverting expectations, ambient spaces."
+EDM,fiz4wmu,t1_fixctb3,1582854220.0,"I don't mind people thinking im weird, I mean we're all at a rave, got a baseline of weird around us"
+androiddev,fipqx20,t1_fippqjq,1582617063.0,Kotlin synthetic isn't very type safe and if you have IDs of the same name it can be a struggle to access them.
+psytrance,fi51s72,t1_fi4c23o,1582153045.0,I loved going between the river and the main stage during the hot days :)
+offmychest,fhqim3p,t1_fhq94s9,1581804836.0,It's hellishly hard but it can seriously help.
+Psychonaut,fhh4mwo,t3_f2yu77,1581593493.0,I love the use of multiple perspectives. Meaningful and beautiful.
+RationalPsychonaut,fhds0e5,t1_fhdki33,1581498673.0,"This has been one of the biggest learnings through psychedelics for me. That truths and thoughts revealed, even when sober, can often be telling more about our internal emotional life than relating to the external."
+Psychonaut,fhamc55,t3_f24bnd,1581417910.0," any direction is still a direction 
+
+&#x200B;
+
+I like it, thanks"
+LSD,fh912hb,t1_fh90k9j,1581371496.0,"Cyclical nature of life - reminds me of [teotl](https://www.iep.utm.edu/aztec/#H2). Thanks for chatting, stay well :)"
+LSD,fh900ud,t1_fh8z7n0,1581370875.0,"I guess I would still call some of my anxiety a thought loop, as that's the best way I have to explain it. I agree with you there's a difference substance to when your thoughts literally fall off themselves and your back where you started and can't get out. A special kind of loop. Have you ever heard of 'I am a strange loop' by Douglas Hofstadter?"
+LSD,fh8y3pp,t1_fh8xora,1581369745.0,"I've dealt with anxiety a lot of my life, I know what a thought loop is. Do you disagree that there is a spectrum of severity? That it's black and white?"
+LSD,fh8xbs8,t1_fh8ue1i,1581369287.0,I've been broken very deeply before inside a loop just inside my head temporarially. And I've also felt stuck inside the same thing over a longer period of time. I don't think these feelings are relegated to psycs. I think that there's a spectrum of feeling this from hating your job or something up to not being able to process any senses at all and thinking your broken forever.
+LSD,fh8n468,t1_fh8lltf,1581363248.0,"I don't think so. When I'm on acid and keep having to go to the bathroom, it feels like a loop."
+sorceryofthespectacle,ffzcukc,t1_ffxmsj1,1580372680.0,Love
+Psychonaut,feewdkr,t1_fedif1z,1579042644.0,"Beautiful analysis, will have to look into this."
+Psychonaut,fed601k,t1_fed5v92,1579000571.0,Yea I ended up crashing after that then spending several hours in the care tent talking about feelings which was nice :)
+Psychonaut,fed53py,t3_eoj6xp,1578999302.0,"On my trip at a bush festival over new years, I ripped a cone on the peak and suddenly felt physically sober. Weirdest experience."
+ClimateActionPlan,fea2g2o,t1_fe83num,1578943702.0,"Your right. I mean this decade is the most important as in the most important yet. Cause if we fail at curbing it, all the models say we're permanently fucked"
+ClimateActionPlan,fe7n27p,t1_fe6tio3,1578916798.0,"NZer here, unfortunately conservatives are taking ahead in some polls right now, and election is this year. Gotta keep on it, this decade is all we have left."
+MrRobot,fbvwmol,t1_fbvefo0,1577137148.0,<3 beautiful
+MrRobot,fbvwk3h,t1_fbvrz8m,1577137117.0,"At the same time though, there definitely are shadowy powerful people who don't deserve that power in our world. I took Darlene's final scene with the mastermind as very strong evidence that what happened happened."
+MrRobot,fbtxbfh,t1_fbtx9s9,1577100805.0,"I already got one friend who's going to watch it, he's heard the good news. Maybe I should start going door to door giving copies of Mr robot to help everyone's self acceptance too"
+MrRobot,fbtx9et,t3_eejgfx,1577100727.0,"Me too, for several years at least. Love and goodbye to you too."

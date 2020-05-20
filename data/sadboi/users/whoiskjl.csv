@@ -1,0 +1,181 @@
+trashy,fr4mxap,t3_gmi1i2,1589892488.0,How is this even legal?
+korea,fqpcq0o,t1_fqod2rj,1589542756.0,"응, 아니야."
+WTF,fqnmutr,t3_gjuudz,1589497708.0,"I thought you can do this but with flying mantis.
+
+I find this soothing tho..."
+korea,fqnm2f1,t3_gjuodu,1589497292.0,I have contacted Nongshim as well
+KingOfTheHill,fqlh8vf,t3_gjbt0a,1589458042.0,Which episode?
+MMA,fq9qdi6,t3_ghfy73,1589204838.0,He went old school pride fedor vs mino
+mmamemes,fq9lgx6,t3_ghim8e,1589201549.0,Who says this?
+Breath_of_the_Wild,fq1rtg2,t1_fq0p8dy,1589048451.0,"Lol I mean where in the village, I don’t think I found the last chicken"
+Breath_of_the_Wild,fpzy6x7,t3_gg5epw,1589025430.0,Where is that last chicken anyways?
+OculusQuest,fpzy2lx,t3_gg4rew,1589025381.0,"Yeah I also rate it high. I got it last year after the summer. Ever since the Link came out, I packed away my OG vive. Just display alone made it much better experience"
+hanguk,fptu81x,t3_gfdu87,1588898362.0,월덥 안녕하세요
+hanguk,fps8dx5,t3_gf55r2,1588869190.0,"콜 오부 두티 모던 워 페어 애서 
+
+https://youtu.be/TtMzTGfs-fc"
+Wordpress,fplak17,t1_fpl9b3t,1588709268.0,"I'm not sure. :\\ From my professional experience, it's usually the client with back-end access that cause lot of unexpected issues with the site, but without knowing the whole story, I'm just not sure what caused what."
+Wordpress,fpl8yv3,t1_fpkt4p7,1588708471.0,"If it worked, you can replace the entire part to this to clean it all up.
+
+<div class=""avatar-wrapper""><?php echo get_avatar(get_the_author_meta('email'), 65,false);?></div>
+
+Yeah, probably overnight, someone must've changed 'WP_DEBUG' to true. 
+Usually what you saw there is 'Notice', not 'Error'; usually they don't display 'notices', unless someone set 'WP_DEBUG' to true.
+
+Let me know if you need some work on your site, I do this for living. DM me thank you"
+Wordpress,fpkmptd,t1_fpk5h2x,1588697409.0," 
+<div class=""avatar-wrapper""><?php global $user;       
+echo get_avatar( get_the_author_meta('email'), 65,false);?></div>     > 
+
+Try this instead. 1. global $user gets the currently signed in user not the author. I didn't remove the line just incase tho."
+Wordpress,fpk4ygj,t3_gdwnp7,1588688080.0," 
+
+    	<div class=""avatar-wrapper""><?php global $user; echo get_avatar( get_the_author_meta('email'), '65',false ,get_the_author_meta('display_name', $user['ID'])); ?></div> 
+
+ to
+
+ 
+
+    	<div class=""avatar-wrapper""><?php global $user; if( !empty($user) ) {
+    echo get_avatar( get_the_author_meta('email'), '65',false ,get_the_author_meta('display_name', $user['ID']));
+    } ?></div> 
+
+ I think the notice comes from $user not having 'ID' key. It simply didn't have a safety measure to handle null value.
+
+&#x200B;
+
+Let me know if you have any question regarding WordPress."
+nononono,fpe4huo,t1_fpdqw72,1588540175.0,No other specifics are mentioned in this clip unfortunately
+nononono,fpdn0m0,t3_gcrksc,1588530209.0,"It says two fatalities, just in case if anyone is wondering"
+hanguk,fpdm1uo,t1_fpd9db5,1588529658.0,그쵸
+hanguk,fpd0cml,t3_gcq3kx,1588517083.0,병사가 헬기 조종하나요?
+hanguk,fp4bs24,t3_gb6ivd,1588295710.0,뭐랬는뎅?
+gaming,fovhy1t,t3_g9nhpb,1588101619.0,This happens every time when you quick save
+korea,fovhou8,t3_g9gtsp,1588101494.0,"Yo This is the first time I see this, so cool. I’m gonna start using this"
+botw,fol9ey9,t1_foktmtl,1587857505.0,Thx!
+botw,fol9ce2,t1_fokue6j,1587857463.0,"Yeah, It is. I’m not particularly good at video games in general so I was taking my time. My first play through I didn’t get much stuff done. So second place through (this time around ) I got the DLC first so I can enjoy the game as intended"
+hanguk,fokrkes,t3_g7y5un,1587847589.0,"짝짝 짝, 짝 짝"
+Cringetopia,fojktie,t3_g7mw53,1587823499.0,Young man have a bright future far away from all of these
+woahdude,fo7btxc,t3_g62hys,1587575672.0,There is 0% I could’ve said what it was without looking at the title. Amazing
+NotionSo,fo6vlpe,t3_g5zx4o,1587567556.0,I love it. Hey it might not be what you’re looking for but you can just open this page on a browser and save it as PDF
+worldnews,fo4lhzd,t3_g5iyot,1587506584.0,I love Bees
+oddlyterrifying,fo1rrzi,t3_g4td8q,1587439988.0,I’m sleeping good tonight not sarcasm
+movies,fnylvz2,t1_fnwgszt,1587367228.0,My fav movie
+hanguk,fnxnovf,t3_g4dlq9,1587342483.0,제 가 잘 몰 라 서 그 런 데 뭐죠?
+macbookpro,fnvlvan,t3_g3yh6c,1587297983.0,iTerm instead of Terminal.
+hanguk,fnvktrq,t3_g40vem,1587296972.0,재밌네
+gadgets,fnlltgy,t3_g27s64,1587055733.0,But can you charge and do reddit at the same time?
+gadgets,fnllqg5,t3_g1tmbz,1587055693.0,iPhone 7 user here I’m still good
+fightporn,fnljdpe,t3_g2flek,1587054556.0,That kid looks like he is just drying off his hands instead of punching.
+junjiito,fnlhuut,t3_g23biy,1587053815.0,Tim Burton vs Junjiito cross over is awesome
+pics,fnkurcb,t3_g29nyp,1587040481.0,"Quarantine Day 69. 
+Sandy finally grew a head. 
+I can’t resist anymore ...."
+KenM,fndw1qf,t3_g13x9l,1586878550.0,"K, this is funny"
+mmamemes,fnc9zzk,t3_g0tqvm,1586831855.0,I will walk into the valley of Hell if Renato is with me
+AskReddit,fnaa1tf,t3_g0hraa,1586793812.0,It too shall pass soon
+oculus,fmwixev,t3_fxpbg9,1586447402.0,Is this a type of rail shooter?
+macbookpro,fmwis1p,t3_fxtjqg,1586447327.0,Same. I’ve same six figure off of WordPress so no hate for WP either also I love Gutenberg
+unrealengine,fmw14e5,t3_fx98f8,1586437022.0,When I saw those bunch of miss popping up I yelled “this is Xcom baby!”
+hanguk,fmp5jkp,t3_fwkigs,1586274831.0,오 잘하시내요. 링크도 좀 걸어 주세요 구독 하겠습니다
+unrealengine,fmmln35,t1_fmloexq,1586207539.0,&
+gaming,fmg23tn,t3_fuxlze,1586039654.0,So nice and it really shows your skill
+ChoosingBeggars,fmdc67l,t3_fuf88j,1585964189.0,I’m so glad I don’t interact with random people often
+hanguk,fm895bo,t3_fswljd,1585845118.0,전 이래서 한국에서 운전 안 합니다
+MMA,fm50r18,t3_fsyn6z,1585764186.0,"They call him DC, I still call him Black Fedor"
+Coronavirus,fm48ymm,t3_fsg551,1585749275.0,"When this thing ends, we will Nazi hunt these corporations for all of these war crimes they committed"
+hanguk,fm1xhvk,t1_fm0y40i,1585686787.0,힘내세요 아자아자
+hanguk,fm0p86e,t1_fm0gbis,1585663357.0,"아이구 고생이 많으시네요. 한국의 수험생들을 생각할 때마다 좀 안쓰럽습니다,"
+hanguk,fltyeyz,t3_fr2afw,1585490861.0,"4월에 CERB 꼭 잊지마세용 
+
+https://www.canada.ca/en/department-finance/news/2020/03/introduces-canada-emergency-response-benefit-to-help-workers-and-businesses.html
+온타리오 북쪽인"
+learnart,flnaq3g,t3_fpn2na,1585314140.0,"That’s an amazing amount of progression in 8 months, I hope you do another post in a year so, that would be so amazing too."
+MMA,flktlj9,t1_flkfi8f,1585247440.0,I think it’s him testing god too many times
+Vive,fliqpfu,t3_foygqg,1585188443.0,Thanks for saying this. I just got it and an hour into it. I did my best to stay away from everything other than physic coolness videos
+Unexpected,fliqgzp,t3_fp0a2u,1585188287.0,"I like chimps. 
+
+
+
+
+
+As long as they like me.
+
+
+
+
+
+
+But if they want to fuck me
+
+
+
+
+
+
+I know that’s it for me"
+oculus,fligf1l,t3_fovmwx,1585181972.0,Scott Storch would be proud
+NotionSo,flididk,t3_fotspe,1585180264.0,"Congrats! 
+
+I’m sure I speak for many 
+1. “Custom Domain Support for your Public Page”
+2. Easy way to query all public pages"
+web_design,flibfpl,t1_fli6ixt,1585179058.0,"I absolutely recommend purgecss to process your css files. It’s pretty heavy otherwise. 
+
+Here is the link 
+
+https://tailwindcss.com/docs/controlling-file-size#removing-unused-css"
+webdev,flhhmx8,t1_flhcdqg,1585162826.0,Np
+MakeMeSuffer,flh2ab9,t1_flh26hd,1585154761.0,I can only throw up so many times. Stop it
+webdev,flh22m5,t1_flh0x5w,1585154650.0,"It’s working now. And you know what’s funny? It probably worked before too, I didn’t think of the page being cached. I mean, I’m sure you understand lol"
+MakeMeSuffer,flgyah2,t3_foqvfh,1585152631.0,I should’ve never had eggs Benedict with Hollandaise sauce this morning
+compsci,flgx8hx,t3_forxix,1585152054.0,That you will have a job waiting for you when you graduate
+Coronavirus,flgncvx,t1_flfllej,1585146480.0,Terrorists
+awfuleverything,flgjqan,t3_fom9u8,1585144242.0,Yo I fucking love this
+webdev,flgjev5,t1_flgihno,1585144036.0,"Are you using sticky positioning for the sidebar? 
+The height of the sidebar is taller than my tablet screen
+I can’t select sidebar item that sits out side of my screen until I scroll the main content to the bottom.
+
+To replicate the issue, use iPad on landscape, try to access the bottom item on the sidebar menu."
+Korean,flgj14o,t3_fokbnw,1585143779.0,"Wow, it blew my mind 
+I didn’t even notice this until today. I’m Korean. 
+
+I also read the other commenter saying ㅚ isn’t really ㅗ + ㅣ, it is tho
+
+https://ko.wikipedia.org/wiki/ㅚ"
+webdev,fld0mgs,t3_fo31z2,1585053274.0,The sidebar menu is inaccessible due to being not scrollable
+tipofmytongue,flc083x,t1_flbztlp,1585016743.0,Solved
+tipofmytongue,flbzm4e,t3_fnwydz,1585016331.0,This is a required comment please disregard
+web_design,fl0hcnm,t3_fln11r,1584706447.0,Ironically the accessibility toggle button is NOT accessible on mobile devices
+Unexpected,fku7u3c,t3_fkmpd0,1584544091.0,You can also get a shower towel that does the same.
+learnart,fkte6r7,t1_fksnqh7,1584515882.0,I’m glad this was said
+CODWarzone,fks9tjd,t3_fk9rrr,1584485333.0,Now m sold
+BeAmazed,fkrlht9,t3_fk3qjw,1584471196.0,When you’re the 3d printer
+mac,fkp9r30,t1_fkp89fg,1584405021.0,"Yeah. I bought it back in Jan, so it should cover it.
+
+&#x200B;
+
+ I've contacted them, they can't do anything until March 27th, they are closed"
+mac,fkp0ih7,t1_fkow9xb,1584399064.0,"I did a safe mode with a new account with no success,  I cant afford to do a reinstall atm"
+hanguk,fkokvm0,t3_fjhwab,1584389238.0,"복잡하게 생각하실 것 없이, 그냥 “아니야, 한국인” 하면 끝"
+Korean,fkoctcr,t3_fjp7yy,1584384641.0,You can also say 사촌누나.  Meaning your female cousin who is older than you’re.
+junjiito,fkj8eqg,t3_fil8yg,1584238904.0,Nice !
+web_design,fkj3vi4,t1_fkiv7fn,1584235537.0,Stripe has some good documentation practice going
+Korean,fk9mza2,t1_fk8ny0x,1583979243.0,If I want to be romantic
+Korean,fk8n0kc,t1_fk8jxxc,1583959141.0,"당신을 사랑합니다. Is something I would say
+
+I’m Korean"
+Korean,fk8fafc,t1_fk7zi2t,1583954965.0,"This is not true
+
+당신을 사랑합니다"
+Korean,fk8f86t,t3_fgztb3,1583954933.0,당신의
+AnimalTextGifs,fjocfwm,t3_fedakl,1583524968.0,Kelvin just come to my house
+unrealengine,fjnlfm8,t3_fedq3e,1583509863.0,Aron is a badass for sure
+likeus,fjne5z8,t3_feaocz,1583505315.0,I love him
+MMA,fjndtgu,t3_fe7qtg,1583505076.0,"After watching Steven A Smith pad work, this seemed like a poetry."
+videos,fjmx8za,t3_fe97d0,1583488569.0,It looks a LOT smaller than I remember
+korea,fjmq4tn,t1_fjm6j58,1583479099.0,Korean here. That is not how we treat the world.
+gaming,fjmoics,t1_fjlurn9,1583477248.0,Every time I see TPB reference I smile and upvote
+Anxiety,fjmnjl4,t1_fjmmcv3,1583476219.0,I just hope you feel a bit better than before :)
+JusticeServed,fjmn7pk,t3_fdxle7,1583475882.0,Hey anyone who thinks that drone can’t hurt anyone why don’t you dress up your thickest ski gear so I can throw 4 lbs of metal right at your face at 30mph and see what happens?
+JusticeServed,fjmlxl4,t1_fjmghoz,1583474644.0,I don’t want to hurt your feeling but you’re just “wrong”.

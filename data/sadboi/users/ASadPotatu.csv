@@ -1,0 +1,176 @@
+VPNTorrents,fr5epkj,t3_gmrubs,1589907338.0,You should really learn to bind your torrenting client to a specific TAP/TUN interface.
+nordvpn,fr524eh,t3_gmli4n,1589901142.0,Here ya go: [https://nordvpn.com/api/server](https://nordvpn.com/api/server)
+ProtonVPN,fr40a9e,t1_fr2uycs,1589871527.0,">WireGuard or NordLYNX
+
+Those are the same thing, lol."
+VeraCrypt,fr403vs,t3_gm5yui,1589871370.0,"Depending on how you ""wiped"" the USB key you may still be able to recovery the key."
+mullvadvpn,fr3z3ex,t3_gmhxll,1589870469.0,"You can check if it's installed by doing: modinfo wireguard
+
+However, just having the kernel module won't give you access ti the wg command set for that you need to install the wireguard-tools package (not quite sure if it's also called that on manjaro)"
+VPN,fr0zppk,t3_gm0wza,1589810358.0,I've seen that LOTS of times.
+VPN,fr0ij1l,t3_glww45,1589796913.0,Mullvad supports IPv6
+VPNTorrents,fqxu97u,t1_fqxo6n3,1589737947.0,">Windscribe: Honeypot..?
+
+They are the furthest thing from a honeypot."
+VPN,fqxnajj,t1_fqxlgql,1589734939.0,"That's probably due to the way your carrier assigns IPs, no two people should have the same external ip concurrently."
+VPNTorrents,fqxmuj9,t3_glhed7,1589734746.0,">Also, their caps are unreliable. I had my browsers closed to maximise  use, but even then, it said I blew through 10GB without using 10GB of  torrents.
+
+Their caps are more reliable than your method of testing it, a BUNCH of things run in the background of every operating system(like update checks) which is probably what's consuming your data."
+VPN,fqxkjpp,t1_fqxh4kv,1589733728.0,Why should they be banned? just because it's an IP belonging to a mobile carrier doesn't mean it's being shared between multiple people.
+VPN,fqxf2r0,t1_fqx9szi,1589731269.0,">meanwhile I just wanna shit post
+
+Annnd that must be why VPNs are blocked..."
+ManjaroLinux,fqwedig,t3_gl9wsi,1589701437.0,Looks like you uninstalled the theme you were using.
+VPN,fqwe0a5,t1_fqwc4j4,1589701077.0,"Nnnnnnnnope, i dag again, they only have to store data if that specific country's laws say so."
+PrivateInternetAccess,fqtmk5e,t3_gkva30,1589641895.0,Disable MACE
+VPN,fqtdpcm,t3_gkuqyr,1589636854.0,"None that I know of, if there is one it definitely won't have a no-log policy."
+privacytoolsIO,fqt8t2w,t1_fqric17,1589633341.0,Came here to ask exactly that.
+mullvadvpn,fqt3ibr,t1_fqt2cia,1589628753.0,I'm certain only they really know why.
+mullvadvpn,fqt1pz5,t3_gkstg9,1589626947.0,"Unavailable for me as well, have you tried contacting Mullvad and ask them?"
+VPNTorrents,fqt13wa,t1_fqt0f9h,1589626313.0,"I'm talking mostly from the providers perspective, ideally no open port should lead to and account or anything else that can identify you."
+VPNTorrents,fqsy3ha,t1_fqsq75o,1589623141.0,If port forwarding is setup correctly it shouldn't uniquely identify you.
+VeraCrypt,fqsrw1g,t3_gkqkf6,1589616684.0,Something tells me it'd be in the RAW format or VC wouldn't let you proceed.
+VeraCrypt,fqq2jnx,t3_gk9aj9,1589558300.0,">and why does it take this long?
+
+VeraCrypt overwrites all the data on the selected partition unless you tell it not to.
+
+>Windows is able to quick format almost any size with NTFS within seconds,
+
+That's because windows just deletes the MBR/GPT table which wipes the metadata about the partitions on the disk but it doesn't overwrite the data.
+
+>how long should it take to build the file system for a 6TB container,
+
+When I encrypted my 8 TB internal sata HDD it took about 9 hours so for you it seems logical it'd take around 6-7 hours but it obviously depends on a bunch of factors like drive speeds, also if you're accessing it over you LAN that could bottleneck it too."
+VPN,fqpxasu,t1_fqppnk2,1589555669.0,"It will add latency, but depending on what server you choose and the protocol in use it won't matter much for a game like minecraft."
+VPNTorrents,fqp75ua,t3_gk5t9i,1589537440.0,Really with the fucking affiliate link again?
+VPN,fqowsyl,t3_gk0b90,1589527266.0,If your VPN support port forwarding you can just host it via the VPN's IP.
+VPNTorrents,fqowjfc,t3_gk4fwk,1589527035.0,Mullvad
+VeraCrypt,fqova5f,t3_gjvwjv,1589525925.0,"Windows update is known to corrupt VC's bootloader from time to time, this is why you should always keep a rescue disk on you."
+mullvadvpn,fqmp1ga,t1_fqmlss8,1589481119.0,"I don't believe so, you might wanna use Mullvad's proxy instead."
+mullvadvpn,fqme9bo,t1_fqlqhmh,1589476003.0,"Eh, it's kinda useless if you bound the interface and you'll lose out on the ability to port forward."
+mullvadvpn,fqlcixi,t1_fqlcbvs,1589453950.0,"Yup, binding your torrenting client to Mullvads TAP/TUN interface is the most amazing killswitch ever."
+mullvadvpn,fql1yr6,t1_fql0wbq,1589443469.0,As long as there are no leaks and you don't do something stupid like disconnecting while torrenting you'll be fine.
+mullvadvpn,fqkzqd0,t3_gjayf3,1589441313.0,Try downloading from their github.
+mullvadvpn,fqkzbsk,t3_gjgyxo,1589440929.0,All their servers support P2P traffic.
+qBittorrent,fqj1mp2,t1_fqj0nd7,1589403815.0,You have to open the port in your router and tell your torrent software to use the same port.
+qBittorrent,fqj06xi,t1_fqix7ze,1589403260.0,Google is your friend.
+qBittorrent,fqiufi1,t3_gitkvo,1589401036.0,Forward a port if you haven't already.
+mullvadvpn,fqiu1ly,t3_gj0r8i,1589400888.0,This is a question only Mullvad themselves can answer.
+FindMeADistro,fqitnhc,t1_fqhibtc,1589400734.0,Tinycore Core only requires 28 MB of RAM to run: [https://en.wikipedia.org/wiki/Tiny\_Core\_Linux#System\_requirements](https://en.wikipedia.org/wiki/Tiny_Core_Linux#System_requirements)
+Fedora,fqiklzl,t3_gj15xj,1589397251.0,"I believe you need os-prober for GRUB to ""see"" other OS'es."
+VPNTorrents,fqiis7e,t1_fqihuk6,1589396553.0,">I was guessing it can detect if the connection is encrypted and automatically assume it's VPN? 
+
+You're mixing two different things, the E flag means that the connection to you is encrypted not that they are using a VPN since you'd have no way of knowing.
+
+Also I just noticed I wrote ""doors"" THANKS AUTOCORRECT! I meant traffic."
+VPNTorrents,fqi6pas,t3_gj3en7,1589391310.0,"
+>The only explanation I could come up with is that some people have a filter in place blocking connections from unsecured peers (no VPN=no encryption)? Is this correct?
+
+No, how would others in the swarm know if you're using a VPN or not and if that connection is secure?
+>And do connections actually go through the VPN itself when downloading (this speed can't be possible?!) Or only the TCP/handshake part? And the rest is through my regular connection?
+
+Obviously everything goes through the VPN, otherwise it's be pretty pointless to use one.
+
+My best guess is that your ISP is throttling your traffic when using certain trackers or just P2P traffic in general."
+mullvadvpn,fqh8dn0,t1_fqh7e0x,1589370926.0,"A traceroute doesn't really prove that it's not an outdated ip geo location database that's the issue, you'd have to somehow pull the data from a specific database a website uses."
+VPN,fqh89wu,t1_fqgzshx,1589370841.0,Only if data is stored.
+mullvadvpn,fqgvvbw,t1_fqedtf6,1589358926.0,"Yes they would, either their own or probably Google's"
+mullvadvpn,fqecqsi,t3_gidss2,1589305410.0,That's just the result of an outdated ip geolocation database.
+VeraCrypt,fqdit3o,t3_gi9a07,1589290590.0,It's FAT32
+mullvadvpn,fqdg0m8,t1_fqdbirt,1589288846.0,"Could be trouble with the hosting provider, the only one that really knows is Mullvad."
+mullvadvpn,fqdbcp9,t3_gi9rt9,1589285578.0,"No idea, was it working particularly well for you?"
+torrents,fqd7uz0,t3_gi7f3w,1589282656.0,"Used to torrent from my rbp4, I used qbittorrent-nox and it worked fine."
+VPN,fqd7gy8,t3_gi8txd,1589282310.0,">but is inside the 14 eyes. They are required to keep logs 
+
+Uhh what?
+
+No they don't, X eyes is just an intelligence sharing community which does not mean they are required to keep logs, if you want to know if they do you'll have to look at the individual countries laws."
+PornoMemes,fqczef1,t3_ghmblc,1589274225.0,"What's this ""sex"" that people keep talking about?"
+torrents,fqcsvpf,t1_fqcrzip,1589267825.0,"Just choose a random port from 49152 to 65535, all you really need to know security wise is that whatever is listening on the port can directly communicate with other ip addresses on the internet."
+VPN,fqcrwzg,t3_gi4exg,1589266932.0,">The isp saw through the vpn
+
+If you're implying they broke the encryption, they didn't. Most likely you forgot to stop the torrent when you disconnected from the VPN or something simmilar."
+torrents,fqcrtly,t3_gi48qp,1589266846.0,You realized it'll keep seeding until you've somehow told it to stop right?
+torrents,fqcrrs8,t3_ghr7fk,1589266799.0,Opening a port is something you need to do in your router/VPNs settings.
+VPNTorrents,fqcpym9,t3_gi4786,1589265170.0,Using the same guide *should* be fine but your interface might be called tun0
+mullvadvpn,fqb33zd,t3_ghvzg2,1589229741.0,Disable your anti virus and run the installer as admin.
+VPNTorrents,fqb0xm1,t1_fqaxfi4,1589228657.0,"Seems to be an issue with utorrent, perhaps another program is using the same port?"
+VeraCrypt,fqatiyg,t1_fqap8o2,1589225025.0,"2016....
+
+Alot has changed since then."
+VPNTorrents,fqaolru,t1_fqag9c6,1589222602.0,Check your firewall?
+VeraCrypt,fq9gesb,t3_ghjta0,1589197434.0,VeraCrypt has worked on GPT(assuming that's what you mean) for a long time.
+nordvpn,fq6dj49,t3_gh49bb,1589129434.0,"You sure you don't have to search for it's original title ""La casa de papel""?"
+VPNTorrents,fq5yso4,t3_ggjeqd,1589120819.0,Fire up wireshark and see for yourself :)
+VPN,fq5yoat,t3_ggyjh8,1589120740.0,"No, you can't. Atleast not with OpenVPN."
+VeraCrypt,fq571ib,t3_ggjqiv,1589094634.0,VeraCrypts fde only works for Windows no?
+mullvadvpn,fpzx8xu,t3_gfxkqp,1589025036.0,"Of course, while the data being sent would definitely be encrypted as it passes through the VM's network adapter and through the host's physical one the hypervisor and there fore the host can still see everything in the guest's RAM making the effort kinda pointless."
+Fedora,fpzwv8o,t3_gg2i3i,1589024875.0,"Ayy KDE gang, I just began trying out Fedora myself instead of Arch."
+mullvadvpn,fpz2u83,t1_fpwqt2t,1589012789.0,^ Pretty much this.
+VPNTorrents,fpwa8t8,t1_fpvxe3x,1588959923.0,"Was just about to say that, in #technical under pinned messages there's a beta download link."
+mullvadvpn,fpvh0va,t3_gfsuph,1588944582.0,"Thanks for the contribution, stickied so more people can see it."
+VPNTorrents,fpv8f7q,t1_fpv6e84,1588938324.0,"Oh really, I though they had that on Windows already."
+VPNTorrents,fpv5ahr,t1_fpv3xsl,1588935388.0,"Speeds change depending on who you ask, I got 150-200 Mbps when using them so it's no *that* bad and yeah it works with Netflix."
+mullvadvpn,fpv3z4g,t1_fpv3stx,1588934056.0,"Alright then, if other sites says you're fine then everything's a-okay"
+mullvadvpn,fpv3wj3,t1_fpv3954,1588933981.0,"That's interesting, could you shoot Mullvad an email by clicking the cogwheel -> Report a problem?"
+mullvadvpn,fpv3ils,t3_gfqmlg,1588933587.0,"Does it say failed or did it find a leak? cus there's an important difference between the two, failed mean that, you know. The DNS check failed but it does not mean that your DNS is leaking."
+VPNTorrents,fpv3ex4,t3_gfqc4x,1588933482.0,Windscribe has everything you need.
+mullvadvpn,fpv32gq,t1_fpv2o42,1588933120.0,Can you try connecting using the openvpn config files and see if that works?
+mullvadvpn,fpv2lpd,t3_gfp28o,1588932630.0,"Sounds like a DNS issue, what OS are you on?"
+qBittorrent,fprozv2,t1_fproqz9,1588859177.0,"Different order?  
+You'll most likely have to do both but it definitely won't work if the port isn't open in your router."
+qBittorrent,fproa2m,t1_fprnouy,1588858759.0,"I have zero experience with macOS so idk if it's possible although I would assume that it is.
+
+Obviously if you didn't forward a port on your router's settings it won't show as being open."
+mullvadvpn,fpro35z,t1_fprnxo2,1588858641.0,I don't believe so.
+VeraCrypt,fprnw63,t3_gf66v9,1588858520.0,"You really shouldn't be using FAT if you plan in storing large files, Most linux distros should allow you to mount both NTFS and exFAT volumes out of the box."
+torrents,fprnkl4,t3_gf4mg2,1588858315.0,"You question has been asked more times than I can count, open up a port in your router and you should be able to connect to the peers just fine."
+qBittorrent,fprn0y3,t1_fprmmq7,1588857974.0,"And qbit is lostening on the same port right?
+
+Try checking if the port is open using [canyouseeme.org](https://canyouseeme.org/)"
+qBittorrent,fpqxc8o,t3_gf0zf1,1588835108.0,"Firstly, opening a port is something you do on your router/VPN if you're using one, a simple google search will help you open one up, you may also need to disable/add an exception in your computers firewall."
+mullvadvpn,fpqwug3,t3_gevahm,1588834659.0,"There's this: [https://mullvad.net/en/help/split-tunneling-mullvad-vpn/](https://mullvad.net/en/help/split-tunneling-mullvad-vpn/)
+
+Although it does require some manual configuration."
+qBittorrent,fpqwnli,t1_fpqolpz,1588834486.0,100% it was\* :3
+software,fpp81ca,t3_gepba3,1588797564.0,"Always used YUMI for mine, works great!"
+Express_VPN,fpoiyyy,t3_geh236,1588785293.0,Annd after one ddg search: [https://www.expressvpn.com/support/troubleshooting/virtual-server-locations/](https://www.expressvpn.com/support/troubleshooting/virtual-server-locations/)
+ProtonVPN,fpo0a3p,t3_gekk54,1588776042.0,Torrenting/Using any P2P applications on a free account isn't allowed.
+mullvadvpn,fpnymv2,t1_fpnvvij,1588775167.0,">it seems to be the Hcaptcha that is the issue.
+
+I'm pretty sure it only gets shown if
+
+a) The website owner has requested it
+
+b) If the site is under attack
+
+c) If cloudflare suspects you to be a bot
+
+>Can you give us some support and advice on what's going on behind the  scenes?  Are you finding Hcaptcha is an issue for Mullvad now, when  reCaptcha wasn't?
+
+idk what's going on behind the scenes, I haven't had any issues with hcaptcha or recaptcha.
+
+>can you tell me how to download a different server config for the London  for use with Openvpn as the downloads all seem to contain 1 server
+
+Depending on what OS you download the configs for you either get:
+
+a) A .zip file containing all the configs.
+
+b) A single .ovpn file containing all the servers that it picks at random."
+mullvadvpn,fplh867,t1_fplelcn,1588712659.0,"Interesting, if your ISP did throttle your connection one would assume they'd throttle OpenVPN over UDP too, only explanation I can really think off would be that the wireguard server's that you're connected to are overloaded. Either way you may wanna contact Mullvad directly."
+mullvadvpn,fpldpxq,t1_fpl8j0a,1588710876.0,"That's interesting, I'm pretty sure it's supposed to come with a location list so it doesn't have to update it, could you please contact Mullvad via email and explain your problem to them?  
+Thanks"
+mullvadvpn,fpldkjl,t1_fpl4j29,1588710798.0,"Ah sorry for the confusion, Wireguard can only connect using UDP.
+
+Just to confirm that I'm understanding you correctly, Using OpenVPN via TCP yielded the same speeds as OpenVPN via UDP?"
+mullvadvpn,fpl3dbz,t1_fpl2yip,1588705648.0,"In the Mullvad app click the cogwheel -> Advanced -> Set the tunnel protocol to OpenVPN and the transport protocol to TCP. After that scroll down to ""Bridge mode"" and set it to on to enable bridges, after that you can go back to the main screen and select the entry/exit server."
+mullvadvpn,fpl2tu8,t1_fpkxwiu,1588705375.0,">Without vpn, i acheive 500mbps + on speedtest.
+
+Which is transmitted through TCP (Since it's sent via HTTPS), so again. You might be getting throttled if you're connecting using UDP, can you please try connecting via TCP and run a speedtest and perhaps again using bridges?"
+mullvadvpn,fpkxnb1,t3_ge2bwu,1588702814.0,"The protocol itself is way faster than OpenVPN but obviously the servers can still be overloaded, It's also possible that your ISP is throttling your connection(Although I don't know why they wouldn't throttle OpenVPN too assuming you're using UDP)
+
+If you switch to another network is there a difference in speeds?"
+mullvadvpn,fpkx2fm,t1_fpkv8mp,1588702528.0,"Netflix has worked for me too (mostly with the wireguard servers)
+
+If I was in your shoes i'd take a look at Windscribe, but obviously you should do your own research."
+mullvadvpn,fpkmsfm,t3_ge19j7,1588697445.0,"Mullvad has never promised to work with streaming services, so if that's why you bought Mullvad you should really find another provider."

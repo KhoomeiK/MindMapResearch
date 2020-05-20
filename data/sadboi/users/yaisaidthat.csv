@@ -1,0 +1,118 @@
+California,fow7gwe,t3_g9ukj1,1588114426.0,"How sad is it that going out into the sunlight is now considered an act of ""civil disobedience"" in the state of California. Protip: Viruses don't like sunlight, but they sure love dry, dark environments, such as inside your home.
+
+>""Hey poor people, just stay home and starve. And if you become homeless because you can't make rent, YOU BETTER NOT GO OUTSIDE!""
+
+Says the wealthy politicians and boomers on a guaranteed government income who have nowhere to go anyways. How about instead of having your usual selfish completely far-removed attitude, why don't you try to help those who are struggling? Millions of people have been waiting OVER A MONTH for unemployment with no response via email or phone, and many people are still waiting on their federal stimulus. I know you guys aren't used to such a concept, but rent is due on the first, and you're telling us to just calmly sit home and starve, when most of the working class got and beat Covid-19 at the end of LAST YEAR?
+
+OK boomer."
+OculusQuest,fl7rn0l,t1_fl7r7i5,1584907912.0,">We already do compositors for virtual screens, as I have repeatedly said.
+
+But you didn't answer my question. How many total environments do you have for user content, and how many render the virtual screen to a compositor layer?
+
+>it’s extremely hard to guarantee perfect 24/30fps video when it’s a desktop screenshare streaming from a user’s laptop to a dozen people in real-time
+
+That's because you're confusing frame dropping with judder. Those are two separate issues. It doesn't matter how the content reaches the screen, there will always be judder if you don't have proper synchronization.
+
+>The room hosts regularly will drop a few frames of their desktop screenshare, and that’s exactly what you’re perceiving as reduced video quality in user rooms
+
+Do you even know what judder is? I'm starting to think that you don't.."
+OculusQuest,fl7qxef,t1_fl7q6pk,1584907478.0,">Literally every environment has compositor layers....
+
+I'm talking about a world-locked compositor layer for the virtual screen.  If you're properly rendering 23.976 fps content to the compositor layer, then there should be almost NO judder, regardless of the content resolution and compression artifacts. And no, I'm not referring to frame skips, I'm referring to synchronization.
+
+>that’s not some magical solution for video quality.
+
+I never said it was. Displaying video content on a compositor layer is the ONLY way to (almost) eliminate judder. Being the only tool for the job doesn't make it magic."
+OculusQuest,fl7pxbj,t1_fl7p4hz,1584906874.0,">We already use compositor layers for user created rooms. 
+
+How many total environments are available, and how many use a compositor layer  for the virtual screen? 
+
+>The quality is highly dependent on their upload bandwidth, network reliability, and PC specs.
+
+My chief complaint isn't the crappy quality, it's the crappy synchronization. If every room uses a compositor layer (they don't), then you're doing something seriously wrong somewhere in the pipeline.
+
+>You’re needlessly attacking devs who’ve been pouring their blood sweat and tears into this for 5 years for a free app
+
+Criticism isn't ""attacking devs"". You get plenty of praise, I think you can handle a bit of criticism."
+OculusQuest,fl7osco,t1_fl7nc7u,1584906190.0,"I'm sure it'll be very productive arguing with a dev who downvotes valid criticism, but heck, I'll bite. If you can use a compositor layer for your paid content, you can use it for the content most people actually consume.  Lack of synchronization is a pretty ridiculous paywall considering proper synchronization has no affect on bitrate/bandwidth.  Seriously, you can't think of anything better to hide behind a paywall? How about the totally useful popcorn feature? Or the ever-popular, drawing in the air because nobody actually wants to watch juddery movies full of artifacts?"
+OculusQuest,fl7muzv,t3_fn4x0t,1584905028.0,"My problem with bigscreen is the devs' primary concern seems to be modeling nice looking virtual theaters and not really concerning themselves with the visual quality of the content itself. I can handle some artifacts, but artifacts + bad judder is a little too much."
+OculusQuest,fl4uxvr,t3_fmkmws,1584822071.0,The almost 20 threads denotes that this is serious business.
+depression,fctwyyc,t3_eihb2v,1577963778.0,"If you're alive, you want to live. Dying is the default state."
+OculusQuest,fbe87s9,t1_fbe232q,1576780392.0,">Link is a digital connection, not an analog one and there is no indication the encoding bitrate is variable.
+
+And like most digital connections, errors require packets to be dropped or corrected. The longer the cable, the higher the potential for signal degradation. The same goes with the quality of the cable (materials, gauge etc). The lower the quality, the higher the potential for signal degradation.
+
+> 3% (150Mbps) of the 5Gbps available with USB 3.0
+
+The maximum theoretical bandwidth by spec is not the same as the actual bandwidth in practice. The actual bandwidth and signal quality in practice is based on multiple factors, such as the length and quality of the USB cable being used.
+
+>The cable is not the bottleneck, the performance of the Quest's video decode hardware is.
+
+They are both potential bottlenecks for different reasons.  
+
+>The Oculus cable will have no impact on image quality. It will look the same no matter what cable you us
+
+That is objectively false. A cable that is experiencing signal degradation will not look the same as a cable that isn't.. All those people complaining about the screen glitching out for a second are experiencing packet loss as a result of the cable being used. They're probably also experiencing tracking glitches and latency they wouldn't experience with a cable less prone to signal degradation."
+emulation,f9ymzxr,t1_f9wuip4,1575730915.0,">I mean,
+
+Do you have a habit of not posting what you mean, so you now have to specify?"
+OculusQuest,f8qyfyy,t1_f8q1xma,1574727365.0,Because latency matters?
+OculusQuest,f8qwprv,t3_e1i2i6,1574726116.0,"Visual tests via screen capture are pretty useless. Real world latency tests would be much more useful, especially since latency has always been the major problem with vd since day one."
+GenderCritical,f8nddnp,t3_e07cu6,1574642125.0,"I'm sorry to hear that your son has a natural attraction for females. What does his father think of his son's inappropriate behavior of being a straight male? If your son continues to act this way, I'm afraid you may have to find him another ticket into the LGBTQ++ community. I hear ""gender reassignment"" surgery is becoming quite popular for boys his age who have parents such as yourself."
+OculusQuest,f8ad8nu,t3_dzu7x2,1574394083.0,"It seems to me that you're blaming the devs for your own incorrect assumptions that didn't have to be assumptions if you did the minimal amount of research before buying. They made it very clear that the entire game (all 3 episodes combined) is about the length of a short film. If you expected each episode to be longer than a third of a short film, that's your own fault. If you skipped Episode 2 and had no idea what was going on in Episode 3, that's your own fault. If you expected anything other than a linear Star Wars story with interactive elements, that's your own fault. Bugs are a valid complaint, especially since there's long-standing bugs even in the first episode that haven't been fixed. But expecting more content than is promised is pretty ridiculous. I think it's time for Oculus to start getting a little more strict when it comes to refunds so people feel a little less compelled to randomly purchase apps and then attack the devs if they don't like the genre."
+hockey,f79pmy5,t1_f794zs1,1573512447.0,">lolol i bet white people are going to have an opinion on this
+
+how dare they"
+AskReddit,f6z5xon,t3_dtmyxw,1573309979.0,"Rule: No REEEEing and crying when Trump doesn't get impeached and you realize Reddit popular opinion is literally always wrong. We don't want to see another sad display like we saw in 2016, or after your ridiculous ""muh rusha"" conspiracy theory came crashing down."
+worldnews,es83e2i,t1_es7v70m,1561686911.0,">mostly pasty white dudes who are secretly racist 
+
+If the white-skinned people you hate so much are secretly racist, then why would they care about free speech?  Shouldn't overt racists such as yourself value free speech more since you're actually allowed (and encouraged) to make use of it?"
+PublicFreakout,er7udez,t1_er70lvn,1560587929.0,"Yup, humans are complex, and we're all unique. We used to call that ""personality"" or ""identity"", before you guys started changing the meaning of words to have an excuse to play the victim, create little exclusionary social clubs and have an excuse to be generally shitty people."
+OculusQuest,er7soqr,t1_eqsnufu,1560586242.0,">Asynchronous timewarp for Moonlight does not make sense to me, unless I don't understand sometime, because we're not streaming VR.
+
+Yes, you misunderstand. There is world-locked and eye-locked ATWs. ALVR and VD using eye-locked ATW for PC VR streaming, and Moonlight and VD use world-locked ATW for Flat, desktop streaming. All android apps in Oculus TV use world-locked ATW.
+
+>You win. Woot. 
+
+I didn't win anything. ALVR had the same treatment when they tried to be on the app store a long time ago. It's been a known fact forever that Oculus doesn't accept PC VR streaming apps. I have no vested interest in one app over the other; I just know for a fact that full hardware accelerated streaming via gamestream inherently performs better than the DXGI method that virtual desktop uses. This is common knowledge."
+unpopularopinion,er7s8in,t1_er7rg2s,1560585820.0,popular
+unpopularopinion,er7s82h,t3_c0uxne,1560585810.0,"Nah, ""indiscriminate fucking (preferably with abortions) makes women strong"" is now popular opinion."
+politics,eqs515j,t3_bzbdfe,1560276863.0,">reportedly
+
+Define"
+OculusQuest,eqs3d7d,t1_eqr114g,1560275780.0,">Yeah
+
+Then that tells me that you're not here arguing in good faith. No one in their right mind would believe that a single indie dev invests more resources than a massive company like nvidia who also sells hardware that is reliant on this technology.
+
+>and when their next update breaks backwards compatibility again, will there be a dev around willing to update Moonlight again? 
+
+Backwards compatibility is not what breaks, that doesn't even really make sense. [but yes](https://github.com/moonlight-stream/moonlight-android/releases) it is always updated, and will always be updated because it's open source and in high demand. Higher demand than VD is and ever will be.
+
+>But we were talking about SteamVR and I'm not sure GameStream is very relevant there.
+
+We're talking about an app that supports both Flat and VR streaming. Gamestream is better for flat streaming, ALVR is better for VR streaming by any objective benchmarks. Feel free to post some benchmarks proving me wrong.
+
+>They all implement NVENC
+
+Irrelevant. Gamestream has better capture performance, and does everything on a much lower level, which avoids bottlenecks such as interop and function call overhead. It also clearly has a much better network protocol, lower latency gamepad support, and better audio support. These things matter if you're interested in playing games instead of the ""light activities"" VD was advertised for.
+
+>but I have doubts that ALVR implements the GameStream protocol.
+
+You're correct, and nobody said it does. The main feature of VD is desktop streaming. Hence ""Virtual Desktop"".
+
+>Besides, there are more aspects to consider. We have VR-specific stuff like timewarp techniques that could greatly improve the experience
+
+Which both ALVR and Moonlight make use of.  
+
+>ALVR still has issues with controller orientation in the latest alpha, I believe, and a crash bug on exit
+
+""I believe"" is the operative statement. Pointing out bugs in an alpha release that are pretty much guaranteed to get fixed isn't a very good benchmark when we're comparing performance. VD also has plenty of bugs, especially server-side.
+
+>And we don't get any promises from polygraphene that he'll be able to consistently work on the project, nor are there a huge number of contributors willing to help.
+
+It's more guaranteed than a closed-source app by a single dev that only exists on the app store. If that dev disappears over night, so does the project. That's not the case with ALVR or Moonlight."
+OculusQuest,eqq1zri,t1_eqdzjw1,1560210059.0,">but Virtual Desktop not being as well-supported as the others is not a claim you can make
+
+Sure it is, which is why I made the claim. Do you honestly believe that nvidia spends less resources on their gamestream technology and drivers than a single indie dev spends on their desktop streaming app?"
+OculusQuest,eqcz9qm,t1_eqcj9x9,1559980912.0,"Skybox I would understand, but I really don't know how people can be impressed by the low bitrate Bigscreen streams. The social aspect is nice, but the choppiness, judder and artifacts of the actual video stream is the opposite of immersive imo."
+OculusQuest,eqcu15x,t3_by44mh,1559978012.0,"The novelty of streaming from PC always seems to invoke this exaggerated ""OMG!"" response, despite the framerate hit and latency.. The thing is, there are are free apps that have been around much longer, are much better supported and do it much better."

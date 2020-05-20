@@ -1,0 +1,52 @@
+depression,fpn0lyw,t3_g9ndgw,1588746703.0,"I feel like I died at 22. I remember it so well. The day I turned 22 I remember thinking “this is just getting started”. I’m 28 now. Real tired of this. I really don’t want to take medication to “cover” the problem, but I feel like this is going to last forever."
+VIDEOENGINEERING,fplrbps,t1_fplmc07,1588717985.0,Would this eliminate the need for a decimator?
+bicycling,foxfw5x,t3_g9v62b,1588142747.0,Thanks everyone! I bought the bike today. Wish me luck!
+bicycling,fow31oh,t1_fow0zsc,1588112089.0,Would you say this is an endurance bike?
+googlesheets,fnyx43y,t3_g4qb5w,1587378941.0,"I got it!
+
+    =SORT(GOOGLEFINANCE(""TSLA"",""price"", ""1/1/1980"", TODAY(),""DAILY""),1,FALSE)"
+stocks,fnw7vgf,t1_fntyko7,1587313186.0,How would I begin to do this?
+googlesheets,fnvrihn,t3_g47kwz,1587302817.0,"I think I got it.
+
+    =sequence(counta(B1:B),1,date(1980,1,1))"
+stocks,fmrs0mj,t3_fwo79o,1586333359.0,I found it. It's [https://www.daytradetheworld.com](https://www.daytradetheworld.com)
+Daytrading,fmrs04b,t3_fwl0q1,1586333345.0,I found it. It's [https://www.daytradetheworld.com](https://www.daytradetheworld.com)
+stocks,fmdnwag,t1_fmdnkik,1585972755.0,I'm using google sheets
+googlesheets,flmlpu5,t1_flml654,1585287547.0,I found a better way around what I was trying to do. Thanks!
+googlesheets,flmkrlo,t1_flmk9sy,1585286625.0,"It's for stocks. I want to take $10,000 and divide it between 16 cells. But I want those cells to update automatically if I change the amount.
+
+Here's an example: [https://ibb.co/FVdmsD](https://ibb.co/FVdmsDQ). I want $20,000 dispersed evenly through cells A2:A17. But I want want A2:A17 to update if I make the total $30,000.
+
+Also, I may add more cells."
+googlesheets,flmizhn,t1_flmiwin,1585285059.0,"It will be variable, depending on how many cells I need to fill."
+StockMarket,flium34,t1_fliuboe,1585191110.0,This is not the same chart I'm looking for
+sheets,flbq3z1,t1_flbpp3u,1585010047.0,"Out of curiosity, if I don't manually edit the cells and instead they automatically update themselves will the script react to those updates? I was reading about ""onChange"" but do you have any thoughts?"
+sheets,flbpmk1,t1_flbomga,1585009736.0,"I finally got it working, thanks!"
+sheets,flbnroy,t1_flbn4gt,1585008552.0,">function onEdit(){var sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(""TOP PICKS"");var editedCell = sh.getActiveRange().getColumnIndex();if(editedCell == 3) {var range = sh.getRange(""A2:P"");range.sort({column: 3, ascending:false});}}
+
+Hmm. It's not working for me. I wonder if this is because the numbers I'm trying to sort are created by a formula?"
+sheets,flbm3jf,t1_flbkqrl,1585007500.0,"I appreciate the answer but I would like to have it applied to the same sheet if possible. This is why I was thinking to create a script. Someone recommended one to me but it doesn't seem to be working.
+
+    var ss = SpreadsheetApp.getActiveSpreadsheet(); var sheet = ss.getSheetByName(""TOP PICKS""); var range = sheet.getRange(""A2:Z""); function onEdit(e) { range.sort([{column: 3, ascending: true}]); }"
+sheets,flb88ii,t1_flb766i,1584999378.0,"Ok. Here is my spread sheet. I want column 3 to be in descending order automatically. I tried the code but it's giving me an ""Unresolved sheet name 'data'."" error.
+
+[https://docs.google.com/spreadsheets/d/10wrfb4M-\_YJNLi1k78U88Hol9zDvaFeWm4pR\_Qev5VQ/edit?usp=sharing](https://docs.google.com/spreadsheets/d/10wrfb4M-_YJNLi1k78U88Hol9zDvaFeWm4pR_Qev5VQ/edit?usp=sharing)"
+sheets,fl3f8oh,t3_fmbn48,1584781154.0,"I figured it out. Thanks guys.
+
+It was:
+
+    =GOOGLEFINANCE(""GOOG"",""price"") / INDEX(GOOGLEFINANCE(""GOOG"",""price"",""2/19/2020""),2,2) -1"
+synthesizers,fft45ro,t1_fft3q07,1580206140.0,Do you have a hardware trigger to midi device recommendation that accepts audio inputs?
+whatsthisbug,ff5fsjy,t3_err1y8,1579590969.0,"Located in La Crescenta, California
+Very small bug. The size of a small crumb"
+excel,fecetg9,t3_eofdll,1578972218.0,Thanks!
+realestateinvesting,f27rtiu,t3_db32se,1570044754.0,I found r/commercialrealestate to be more helpful. Thank you though!
+CommercialRealEstate,f1xlhtd,t1_f1xl4g4,1569800134.0,"Super helpful, thanks!"
+CommercialRealEstate,f1loo4e,t3_d4kgca,1569561728.0,"I would call it “Chatting with (your name here)”. Then in the title of the video you can specify the content. Keep it simple!
+
+For example:
+
+How to Start Buying Commercial Real Estate | (clever title of show)
+
+You don’t necessarily need the name of your show to be the name of the YouTube channel."
+eGPU,eupgcyb,t1_eupf9dd,1563956667.0,This is good to know! I may just get a new computer. Are you using a VR headset?
